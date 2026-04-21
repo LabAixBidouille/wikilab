@@ -1,7 +1,7 @@
 ---
 id: creer-site-web
 title: "Créer un site web avec GitHub Pages"
-sidebar_label: "Créer un site web"
+sidebar_label: "Site web GitHub Pages"
 sidebar_position: 10
 ---
 

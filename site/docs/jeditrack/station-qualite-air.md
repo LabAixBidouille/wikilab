@@ -1,7 +1,7 @@
 ---
 id: station-qualite-air
-title: "Réaliser une station de mesure de qualité de l'air"
-sidebar_label: "Station qualité de l'air"
+title: "Station de qualité de l'air"
+sidebar_label: "Qualité de l'air"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M6 10 Q9 6 12 10 Q15 14 18 10" fill="none" stroke="#1198f0" strokeWidth="1.5" opacity="0.25"/><path d="M6 13 Q9 9 12 13 Q15 17 18 13" fill="none" stroke="#1198f0" strokeWidth="1.5" opacity="0.25"/><path d="M6 16 Q9 12 12 16 Q15 20 18 16" fill="none" stroke="#1198f0" strokeWidth="1.5"/><circle cx="5" cy="7" r="1.2" fill="#1198f0" opacity="0.25"/><circle cx="19" cy="7" r="0.8" fill="#1198f0"/><circle cx="12" cy="5" r="1" fill="#1198f0" opacity="0.25"/></svg> Réaliser une station de mesure de qualité de l'air
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M6 10 Q9 6 12 10 Q15 14 18 10" fill="none" stroke="#1198f0" strokeWidth="1.5" opacity="0.25"/><path d="M6 13 Q9 9 12 13 Q15 17 18 13" fill="none" stroke="#1198f0" strokeWidth="1.5" opacity="0.25"/><path d="M6 16 Q9 12 12 16 Q15 20 18 16" fill="none" stroke="#1198f0" strokeWidth="1.5"/><circle cx="5" cy="7" r="1.2" fill="#1198f0" opacity="0.25"/><circle cx="19" cy="7" r="0.8" fill="#1198f0"/><circle cx="12" cy="5" r="1" fill="#1198f0" opacity="0.25"/></svg> Station de qualité de l'air
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

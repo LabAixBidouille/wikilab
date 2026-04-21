@@ -1,7 +1,7 @@
 ---
 id: partager-donnees-open-source
-title: "Partager ses données citoyennes en open source"
-sidebar_label: "Partager ses données open source"
+title: "Partager ses données en open source"
+sidebar_label: "Données open source"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#1198f0" opacity="0.25"/><path d="M8 12l3-6h2l3 6-3 6h-2l-3-6z" fill="#1198f0"/><line x1="18" y1="8" x2="22" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="18" y1="16" x2="22" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="8" x2="2" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="16" x2="2" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="22" cy="6" r="1.5" fill="#1198f0"/><circle cx="22" cy="18" r="1.5" fill="#1198f0"/><circle cx="2" cy="6" r="1.5" fill="#1198f0"/><circle cx="2" cy="18" r="1.5" fill="#1198f0"/></svg> Partager ses données citoyennes en open source
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#1198f0" opacity="0.25"/><path d="M8 12l3-6h2l3 6-3 6h-2l-3-6z" fill="#1198f0"/><line x1="18" y1="8" x2="22" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="18" y1="16" x2="22" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="8" x2="2" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="16" x2="2" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="22" cy="6" r="1.5" fill="#1198f0"/><circle cx="22" cy="18" r="1.5" fill="#1198f0"/><circle cx="2" cy="6" r="1.5" fill="#1198f0"/><circle cx="2" cy="18" r="1.5" fill="#1198f0"/></svg> Partager ses données en open source
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -35,7 +35,7 @@ sidebar_position: 12
 
 ---
 
-> **Dans l'animation jeunesse, chaque sortie, chaque exploration de quartier, chaque enquête de terrain génère des observations précieuses. Plutôt que ces découvertes restent confinées au groupe, l'approche open data permet de les transformer en contribution citoyenne durable. Cette fiche accompagne les animateurs dans cette démarche qui révolutionne l'impact territorial des projets jeunesse.**
+Dans l'animation jeunesse, chaque sortie, chaque exploration de quartier, chaque enquête de terrain génère des observations précieuses. Plutôt que ces découvertes restent confinées au groupe, l'approche open data permet de les transformer en contribution citoyenne durable. Cette fiche accompagne les animateurs dans cette démarche qui révolutionne l'impact territorial des projets jeunesse.
 
 Les données ouvertes, ou Open Data, désignent l'ensemble des données numériques accessibles librement, réutilisables sans restriction technique ou juridique, et partageables par tous. Issus des pratiques scientifiques historiques, le mouvement de l'open data s'est structuré et démocratisé dans les années 2000 avec l'arrivée d'Internet et il a progressivement gagné d'autres domaines tel que l'administration publique et l'éducation.
 
@@ -51,9 +51,7 @@ Dans le contexte des projets jeunesse, les données ouvertes transforment la man
 
 Cette démarche s'inscrit parfaitement dans l'ambition de développer une approche expérimentale pour les territoires apprenants. Les jeunes peuvent contextualiser leurs observations dans un ensemble plus large de données, comparer leurs résultats avec ceux d'autres groupes ou d'autres structures, et contribuer activement à la compréhension des enjeux environnementaux et sociétaux de leur environnement proche.
 
-:::info[Conseil pour l'animateur]
-
-### **Pourquoi l'open data transforme vos projets jeunesse ?**
+:::info[Conseil : Pourquoi l'open data transforme vos projets jeunesse ?]
 
 L'intégration de l'open data dans les projets d'animation jeunesse représente bien plus qu'un simple enrichissement méthodologique. Elle transforme fondamentalement la relation des jeunes à la connaissance et à leur territoire. En devenant producteurs de données ouvertes, ils contribuent activement à la construction d'un bien commun informationnel. En exploitant les données existantes, ils inscrivent leurs observations dans un contexte élargi qui donne du sens à leur travail. Cette approche prépare les jeunes aux défis du XXIe siècle en développant simultanément leur culture civique, leurs compétences numériques et leur conscience citoyenne. Elle fait de la structure d'animation un véritable laboratoire d'innovation territoriale où se construisent les solutions de demain. L'animateur, dans ce contexte, devient un facilitateur qui accompagne les jeunes dans leur transformation en citoyens-contributeurs capables de comprendre, produire et partager des données pour agir concrètement sur leur territoire. Les projets intégrant de l'open data permettent d'atteindre plusieurs impacts :
 
@@ -105,24 +103,20 @@ Durant la phase de collecte de données, l'accès aux données ouvertes permet d
 
 Voici plusieurs exemples de projets d'animation qui peuvent être enrichis grâce aux données ouvertes :
 
-#### **Projet qualité de l'air urbain**
-
+#### Projet qualité de l'air urbain
 Particulièrement pertinent pour travailler autour du bien vivre sur son territoire. Les mesures de particules fines effectuées par les jeunes avec des capteurs peuvent être immédiatement confrontées aux données horaires des stations des agences de qualité de l'air les plus proches, permettant de valider le bon fonctionnement des instruments et d'identifier d'éventuels phénomènes hyperlocaux.
 
 Le croisement avec les données de comptage routier disponibles sur les portails municipaux révèle souvent des corrélations entre les pics de pollution et les heures de pointe du trafic. L'intégration des données météorologiques, notamment la direction et la force du vent issues des stations Météo France, permet de comprendre la dispersion des polluants et d'expliquer certaines variations apparemment aléatoires.
 
-#### **Projet biodiversité urbaine**
-
+#### Projet biodiversité urbaine
 Pendant que les jeunes inventorient les espaces propices aux pollinisateurs dans différents espaces verts de leur commune, ils peuvent enrichir leurs observations avec les données du programme CORINE Land Cover qui caractérise l'occupation des sols à l'échelle européenne. Cette confrontation permet de comprendre comment la fragmentation des habitats influence la présence de certaines espèces.
 
 Les données historiques d'urbanisation, souvent disponibles via les archives cadastrales numérisées, révèlent l'évolution du paysage et expliquent la répartition actuelle de la biodiversité.
 
-#### **Projet d'analyse des îlots de chaleur urbains**
-
+#### Projet d'analyse des îlots de chaleur urbains
 Les relevés de température effectués par les jeunes dans différents quartiers prennent une nouvelle dimension lorsqu'ils sont croisés avec les données satellites thermiques du programme Copernicus qui offrent une vision large du phénomène. Les bases de données urbaines sur la densité du bâti, la hauteur des immeubles et la surface de végétalisation, généralement disponibles en open data, permettent d'établir des corrélations précises entre morphologie urbaine et température.
 
-#### **Projet mobilité durable**
-
+#### Projet mobilité durable
 Les comptages de cyclistes effectués par les jeunes sur des axes stratégiques peuvent être comparés aux données des compteurs automatiques permanents installés par de nombreuses villes et dont les résultats sont publiés en temps réel. Les données d'accidentologie routière, disponibles sur data.gouv.fr avec une géolocalisation précise, permettent d'identifier les points noirs de sécurité et de comprendre les réticences à l'usage du vélo.
 
 Cette approche développe chez les jeunes une compréhension systémique des phénomènes étudiés. Ils découvrent que chaque problématique environnementale et/ou territoriale s'inscrit dans un réseau complexe d'interactions où les facteurs naturels, anthropiques, historiques et socio-économiques s'entremêlent.
@@ -144,8 +138,7 @@ Durant cette étape, il est important pour l'animateur de questionner le travail
 
 L'animateur joue ici un rôle déterminant en guidant cette analyse critique sans décourager les jeunes. Chaque investigation, aussi modeste soit-elle, contribue à l'édifice de la connaissance pour autant qu'elle respecte ces principes de qualité et de transparence. Cette perspective encourage les jeunes à améliorer continuellement la méthodologie, à affiner les protocoles, et à considérer chaque expérience comme une étape dans un processus de recherche de la connaissance plutôt que comme une fin en soi.
 
-## **En pratique : structurer et partager vos données**
-
+## En pratique : structurer et partager vos données
 ### La structuration des données pour le partage
 
 La valorisation du travail d'investigation passe d'abord par une structuration rigoureuse des données collectées. Cette exigence de rigueur constitue en elle-même un apprentissage fondamental de la démarche citoyenne. Les données doivent être organisées selon un format standardisé incluant systématiquement :
@@ -183,50 +176,42 @@ Pour des projets plus ambitieux, permet de construire des tableaux de bord dynam
 
 Le choix de l'outil dépend du niveau des jeunes et de la complexité du projet, mais l'objectif reste constant : rendre les données accessibles et compréhensibles pour différents publics, des pairs aux décideurs locaux.
 
-## **Exemple pratique : cartographie sonore collaborative**
-
+## Exemple pratique : cartographie sonore collaborative
 Pour illustrer concrètement cette approche, considérons un projet de cartographie sonore du quartier. Ce projet se déroule en quatre phases distinctes sur environ six séances d'animation.
 
-### **Phase 1 : Préparation (1 séance)**
-
+### Phase 1 : Préparation (1 séance)
 - Exploration des cartes de bruit existantes sur les portails open data municipaux
 - Identification des zones d'intérêt et points de comparaison pertinents
 - Définition d'un protocole de mesure rigoureux (horaires, durées, conditions)
 - Formation aux outils de mesure (sonomètres, applications calibrées)
 
-### **Phase 2 : Collecte terrain (2 séances)**
-
+### Phase 2 : Collecte terrain (2 séances)
 - Mesures systématiques avec géolocalisation précise
 - Enregistrement structuré des données
 - Prises de vue photographiques et observations qualitatives
 - Documentation des conditions particulières
 
-### **Phase 3 : Traitement (2 séances)**
-
+### Phase 3 : Traitement (2 séances)
 - Importation des données dans un tableur pour analyse statistique
 - Création d'une carte interactive uMap avec visualisation des niveaux sonores
 - Comparaison avec les normes réglementaires en vigueur
 - Croisement avec les données de trafic et d'aménagement urbain
 
-### **Phase 4 : Partage et valorisation (1 séance)**
-
+### Phase 4 : Partage et valorisation (1 séance)
 - Publication sur plateforme collaborative
 - Présentation aux autres groupes du réseau
 - Soumission au conseil de quartier sous forme de propositions
 - Communication sur les réseaux de la structure
 
-## **Idées de projets jeunesse pour sensibiliser les jeunes à l'open data**
-
+## Idées de projets jeunesse pour sensibiliser les jeunes à l'open data
 | **Format "Data-Game territorial" (1 demi-journée ou 1 journée) - 12-17 ans** | **Format "Hackathon territorial" (2 semaines - solutions numériques) - 13-17 ans** | **Format "Observatoire numérique citoyen" (1 mois - projet collaboratif) - 12-18 ans** | **Format "Data-storytelling" (5 jours - récit de données) - 14-17 ans** |
 | --- | --- | --- | --- |
 | **"Agents 007 des données"** | **"Codeurs de solutions"** | **"Gardiens des données territoriales"** | **"Conteurs de la ville invisible"** |
 | **Escape Game numérique** - Résoudre des énigmes sur le territoire en fouillant les portails open data (ex: "Trouvez le lieu le plus pollué de la ville", "Découvrez le secret des pistes cyclables manquantes") **Battle de visualisations** - Les équipes s'affrontent pour créer la carte/graphique le plus spectaculaire avec leurs découvertes, votes du public en live **Quiz géant interactif** - Questions-réponses sur les données découvertes avec buzzer, lots à gagner, classement en temps réel **Cérémonie de remise des prix** - Trophées du "Meilleur détective de données", "Prix de l'observation la plus folle", publication des résultats comme "révélations exclusives" | **Semaine 1** : Exploration massive des données ouvertes locales, identification des problématiques territoriales, formation aux outils de visualisation **Semaine 2** : Prototypage d'applications web simples (cartes interactives, tableaux de bord) réutilisant les données publiques **Restitution** : Présentation des prototypes aux services municipaux avec code source publié en open source | **Semaine 1** : Création infrastructure de collecte - choix capteurs, définition protocoles, formation à la rigueur scientifique **Semaine 2-3** : Déploiement réseau de capteurs avec transmission automatique des données, premiers croisements avec open data **Semaine 4** : Publication observatoire en ligne avec API ouverte, formation d'autres groupes à la réplication | **Jour 1** : Immersion dans les données ouvertes du territoire - découvrir les "histoires cachées" dans les chiffres **Jour 2-3** : Collecte terrain orientée "récit" - chaque donnée doit raconter une histoire du territoire **Jour 4** : Création contenus multimédias (vidéos, infographies, cartes narratives) croisant données et témoignages **Jour 5** : Diffusion virale des "data-stories" sur réseaux sociaux avec appel à contribution citoyenne |
 
-:::info[Conseil pour l'animateur]
+### Checklist pour les animateurs
 
-## Notre checklist pour les animateurs
-
-### Avant le projet
+#### Avant le projet
 
 - [ ]  **Objectif citoyen défini** : Identifier clairement à qui serviront les données
 - [ ]  **Partenaires mobilisés** : Contacter les acteurs locaux intéressés par les résultats
@@ -234,7 +219,7 @@ Pour illustrer concrètement cette approche, considérons un projet de cartograp
 - [ ]  **Cadre juridique sécurisé** : Autorisations parentales, respect RGPD
 - [ ]  **Territoire délimité** : Zone d'étude pertinente et accessible
 
-### Pendant le projet
+#### Pendant le projet
 
 - [ ]  **Formation progressive** : Accompagner la montée en compétence sans précipiter
 - [ ]  **Qualité maintenue** : Vérifier régulièrement la cohérence des données saisies
@@ -242,7 +227,7 @@ Pour illustrer concrètement cette approche, considérons un projet de cartograp
 - [ ]  **Analyse collective** : Organiser des moments d'échange sur les découvertes
 - [ ]  **Documentation** : Archiver la méthode et les étapes pour capitaliser
 
-### Après le projet
+#### Après le projet
 
 - [ ]  **Données finalisées** : Vérification finale de cohérence et correction d'erreurs
 - [ ]  **Impact mesuré** : Suivi des consultations, réutilisations et retours obtenus
@@ -250,12 +235,9 @@ Pour illustrer concrètement cette approche, considérons un projet de cartograp
 - [ ]  **Reconnaissance assurée** : Valorisation du travail des jeunes dans la communication
 - [ ]  **Méthode capitalisée** : Documentation pour faciliter la réplication
 
-:::
+## Bonnes pratiques : points de vigilance essentiels
 
-## Bonnes pratiques - **Points de vigilance essentiels**
-
-### **Aspects juridiques**
-
+### Aspects juridiques
 Le respect du Règlement Général sur la Protection des Données impose de veiller à ne jamais collecter ni publier de données personnelles. Les jeunes doivent être sensibilisés à ces enjeux dès la conception du protocole expérimental :
 
 - **Jamais de noms, prénoms ou adresses** dans les bases partagées
@@ -263,8 +245,7 @@ Le respect du Règlement Général sur la Protection des Données impose de veil
 - **Autorisations parentales** pour toute publication impliquant des mineurs
 - **Vérification des licences** des données utilisées
 
-### **Aspects pédagogiques**
-
+### Aspects pédagogiques
 - **Adapter la complexité** au niveau des jeunes : privilégier la compréhension de quelques aspects plutôt que le traitement superficiel d'une grande quantité de données
 - **Valoriser la démarche** indépendamment de la spectacularité des résultats
 - **Encourager l'honnêteté intellectuelle** : reconnaître les limites de ses données est une marque de maturité citoyenne

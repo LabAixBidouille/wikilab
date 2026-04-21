@@ -1,7 +1,7 @@
 ---
 id: realiser-pochoirs-decoupe
-title: "Réaliser des pochoirs grâce à une découpe vinyle"
-sidebar_label: "Pochoirs et découpe vinyle"
+title: "Pochoirs avec découpe vinyle"
+sidebar_label: "Pochoirs découpe vinyle"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M9 3l1.5 8L6 18h12l-4.5-7L15 3" fill="#1198f0" opacity="0.25"/><path d="M8 20c0-1 1.5-2 4-2s4 1 4 2" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M10 4l2 9M14 4l-2 9" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="15" r="1.5" fill="#1198f0"/></svg> Réaliser des pochoirs grâce à une découpe vinyle
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M9 3l1.5 8L6 18h12l-4.5-7L15 3" fill="#1198f0" opacity="0.25"/><path d="M8 20c0-1 1.5-2 4-2s4 1 4 2" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M10 4l2 9M14 4l-2 9" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="15" r="1.5" fill="#1198f0"/></svg> Pochoirs avec découpe vinyle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
@@ -36,7 +36,7 @@ sidebar_position: 13
 
 ---
 
-> **Cette fiche accompagne les animateurs et éducateurs dans la découverte et l'utilisation de la découpe vinyle avec des conseils pratiques, des tutoriels guidés et des idées d'animation concrètes.**
+Cette fiche accompagne les animateurs et éducateurs dans la découverte et l'utilisation de la découpe vinyle avec des conseils pratiques, des tutoriels guidés et des idées d'animation concrètes.
 
 ## Qu'est-ce qu'une découpe vinyle ?
 
@@ -76,16 +76,14 @@ La découpe vinyle permet de combler ce manque en dotant les animateurs d'un **o
 
 <img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/0c0740a0-74af-41c6-af0b-badff6f052b7.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
-### **Tableau récapitulatif logiciels**
-
+### Tableau récapitulatif logiciels
 | **Machine** | **Logiciel** | **Prix** | **Facilité** | **Fonctionnalités** | **Formats compatibles** |
 | --- | --- | --- | --- | --- | --- |
 | **Cricut** | Design Space | Gratuit | ★★★★★ | Simples, bibliothèque intégrée | SVG, PNG, JPG |
 | **Silhouette** | Studio | Gratuit (Pro: 50€) | ★★★★☆ | Très complètes, vectorisation | SVG, DXF, AI, PDF |
 | **Brother** | Canvas | Gratuit | ★★★☆☆ | Scanner intégré, autonome | SVG, FCM, PNG |
 
-### **Recommandations par contexte**
-
+### Recommandations par contexte
 | **Usage** | **Recommandation** | **Justification** |
 | --- | --- | --- |
 | **Animation** | Silhouette Cameo 4 | Meilleur rapport qualité/prix/fonctionnalités |
@@ -154,7 +152,7 @@ N'oubliez pas de vérifier du côté de vos équipements locaux traditionnels. D
 | **Test préalable :** Dessiner le pochoir à la main avant découpe pour vérifier sa cohérence | **Surfaces définitives :** Peintures glycéro uniquement avec autorisation et ventilation | **Organiser des sessions nettoyage** pour réemployer les pochoirs | **Aérer les espaces** lors de l'utilisation de bombes ou peintures |
 |  |  | **Documenter les créations** pour éviter de refaire les mêmes designs | **Porter des gants** lors de la manipulation d'encres et peintures |
 
-### Exemples de réalisations lors de Jedi Track sur une **Cameo 4 Plus**
+### Exemples de réalisations lors de Jedi Track sur une Cameo 4 Plus
 
 <img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/passage_piton.png" alt="Pochoir - Passage piéton sans bateau" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
@@ -174,11 +172,9 @@ Pochoir - Attention, manque rampe
 
 <img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/ea3d720c-de7c-450e-9f48-f42bdce0992d.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
-:::info[Conseil pour l'animateur]
+### Checklist pour les animateurs
 
-## Notre checklist pour les animateurs
-
-### Avant le lancement du projet
+#### Avant le lancement du projet
 
 - [ ]  **Équipement :** Vérifier le bon fonctionnement de la découpeuse vinyle et sa connexion
 - [ ]  **Logiciel :** Installer et tester le logiciel de création/pilotage sur tous les postes
@@ -187,7 +183,7 @@ Pochoir - Attention, manque rampe
 - [ ]  **Formation :** Maîtriser les bases de l'outil et prévoir des formes de secours
 - [ ]  **Sécurité :** Préparer les consignes de manipulation et de sécurité
 
-### Pendant le projet
+#### Pendant le projet
 
 - [ ]  **Initiation :** Accompagner la prise en main du logiciel sans précipiter
 - [ ]  **Validation :** Vérifier la faisabilité technique de chaque design avant découpe
@@ -196,7 +192,7 @@ Pochoir - Attention, manque rampe
 - [ ]  **Tests :** Valider le fonctionnement de chaque pochoir avant utilisation finale
 - [ ]  **Documentation :** Photographier les étapes et sauvegarder les fichiers créés
 
-### Clôture du projet
+#### Clôture du projet
 
 - [ ]  **Finalisation :** Assurer la réalisation complète avec application des pochoirs
 - [ ]  **Présentation :** Organiser l'exposition des créations finales
@@ -205,19 +201,15 @@ Pochoir - Attention, manque rampe
 - [ ]  **Maintenance :** Nettoyer et ranger correctement le matériel
 - [ ]  **Planification :** Identifier les prochaines opportunités d'utilisation
 
-:::
-
 ## Idées de projets d'animation
 
-### **Idées de projets découpe pochoir**
-
+### Idées de projets découpe pochoir
 | **Format "Artistes de rue responsables" (1 semaine - projet de vacances, 2h par jour) - 13-17 ans** | **Format "Créateurs en série" (3 jours intensifs - stage court) - 8-12 ans** | **Format "Street art pédagogique" (2 semaines - projet scolaire) - 15-18 ans** | **Format "Art et nature" (5 jours - centre de loisirs) - 10-14 ans** |
 | --- | --- | --- | --- |
 | **"Pochoirs citoyens"** | **"L'atelier des petits pochoirs"** | **"Murs qui parlent"** | **"Empreintes sauvages"** |
 | **Jour 1** : Initiation découpe vinyle + brainstorming thématiques citoyennes (environnement, solidarité, vivre-ensemble) **Jour 2-3** : Création designs et découpe pochoirs, recherche autorisations espaces publics, préparation bombes à craie **Jour 4** : Application pochoirs dans lieux autorisés, documentation photographique, sensibilisation passants **Jour 5 - Valorisation** : Exposition photos, présentation aux élus, planification prochaines actions | **Jour 1** : Découverte outil + création pochoirs simples (animaux, formes géométriques) **Jour 2** : Applications ludiques (t-shirts, cahiers, cartes), test différents supports **Jour 3 - Festival créatif** : Présentation aux familles, atelier ouvert, démonstrations | **Semaine 1** : Formation technique, étude street art, rencontre artistes locaux, conception projet mural **Semaine 2** : Réalisation pochoirs grand format, application sur mur pédagogique, inauguration publique | **Jour 1-2** : Sortie nature, croquis observations, création pochoirs inspirés faune/flore locale **Jour 3-4** : Découpe et application sur supports naturels (galets, bois flotté), land art temporaire **Jour 5** : Exposition nature, sensibilisation biodiversité |
 
-### **Idées d'autres projets utilisant une découpe vinyle**
-
+### Idées d'autres projets utilisant une découpe vinyle
 | **Format "Créateurs d'objets" (1 semaine - projet artisanal) - 8-14 ans** | **Format "Fêtes de fin d'année" (2 semaines - projet saisonnier) - 6-16 ans** | **Format "Théâtre et spectacle" (1 semaine - projet artistique) - 10-17 ans** |
 | --- | --- | --- |
 | **"L'atelier des boîtes magiques"** | **"Calendriers de l'Avent créatifs"** | **"Masques et costumes"** |

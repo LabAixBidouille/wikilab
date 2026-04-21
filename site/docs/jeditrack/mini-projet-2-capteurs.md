@@ -1,7 +1,7 @@
 ---
 id: mini-projet-2-capteurs
-title: "Mini-projet #2 - Découvrir les capteurs par la réalisation d'un robot autonome"
-sidebar_label: "Capteurs et robot autonome"
+title: "Robot autonome avec capteurs"
+sidebar_label: "Robot autonome avec capteurs"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="5" y="8" rx="2" ry="2" width="14" height="10" fill="#1198f0" opacity="0.1"/><rect x="7" y="10" rx="1" ry="1" width="10" height="6" fill="#1198f0" opacity="0.25"/><circle cx="9.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><circle cx="14.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><rect x="3" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><rect x="17" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><path d="M9 6 L9 8 M15 6 L15 8" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M7 4 L9 6 M17 4 L15 6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/><circle cx="7" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/><circle cx="17" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/></svg> Mini-projet #2 - Découvrir les capteurs par la réalisation d'un robot autonome
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="5" y="8" rx="2" ry="2" width="14" height="10" fill="#1198f0" opacity="0.1"/><rect x="7" y="10" rx="1" ry="1" width="10" height="6" fill="#1198f0" opacity="0.25"/><circle cx="9.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><circle cx="14.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><rect x="3" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><rect x="17" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><path d="M9 6 L9 8 M15 6 L15 8" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M7 4 L9 6 M17 4 L15 6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/><circle cx="7" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/><circle cx="17" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/></svg> Robot autonome avec capteurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -50,25 +50,21 @@ sidebar_position: 2
 Afin d'initier les jeunes à la programmation et aux capteurs, le projet Robot autonome est une valeur sure pour introduire des notions majeures. En développant un robot motorisé sur base d'un Raspberry Pi Pico, à l'aide d'un capteur à ultrson, qui repère les obstacles et les évite, les jeunes mobilise leurs compétences en fonctionnement des capteurs, programmation en python, logiciels disponible au sein d'un fablab, machine, câblage, soudure ...
 
 :::info[Conseil pour l'animateur]
-### **Pourquoi ça marche si bien en animation ?**
 Parce que les jeunes voient immédiatement le résultat de leur travail. Chaque ligne de code modifiée fait bouger le robot différemment, chaque connexion réalisée a un impact visible. Cette rétroaction instantanée maintient l'engagement et facilite la compréhension des concepts abstraits de programmation. **Le plus ? C'est un projet évolutif.** On peut commencer simple (faire clignoter une LED) et progresser vers un robot autonome complet. Les participants moins à l'aise peuvent se concentrer sur le montage physique, tandis que les plus avancés peuvent améliorer l'intelligence du robot. Chacun trouve sa place et contribue selon ses forces. Ce projet développe des compétences multiples : logique de programmation, électronique, résolution de problèmes, travail manuel avec les outils, et même un peu de mathématiques avec le calcul des distances. Les jeunes repartent avec un objet qu'ils ont créé de A à Z, source de fierté et de motivation pour continuer.
 :::
 
 ## Que trouverez-vous dans cette fiche ?
 
-| **Une initiation complète au Raspberry Pi Pico** - Découverte du microcontrôleur, installation de Thonny, premières manipulations |
-| --- |
-| **Programmation des moteurs** - Faire avancer, reculer et tourner le robot |
-| **Checklist complète pour animateurs** - Organisation avant, pendant et après l'atelier |
-| **Idée d'atelier complémentaire -** "Robot Explorateur" - Cartographier son environnement |
-| **Aller plus loin -** Quelques vidéos et tutoriels en ligne |
+- **Une initiation complète au Raspberry Pi Pico** — Découverte du microcontrôleur, installation de Thonny, premières manipulations
+- **Programmation des moteurs** — Faire avancer, reculer et tourner le robot
+- **Checklist complète pour animateurs** — Organisation avant, pendant et après l'atelier
+- **Idée d'atelier complémentaire** — "Robot Explorateur" - Cartographier son environnement
+- **Aller plus loin** — Quelques vidéos et tutoriels en ligne
 
 ## Comment mener cette activité
 
-## **Initiation Raspberry Pico**
-
-### **Caractéristiques du Raspberry Pico**
-
+## Initiation Raspberry Pico
+### Caractéristiques du Raspberry Pico
 Le Raspberry-Pi Pico est un microcontrôleur dont le principal avantage est sa petite taille.
 
 :::note
@@ -85,8 +81,7 @@ Le pico dispose également d'une Led, d'un bouton bootsel et d'un port USB.
 
 On peut également voir le processeur, des résistance, etc. mais ils ne sont pas programmables.
 
-### **Bases de programmation**
-
+### Bases de programmation
 Nous allons programmer les Pico avec le programme « Thonny », qui n'est au fond qu'un éditeur de texte optimisé pour python. Il offre simplement la possibilité de télécharger les programmes que vous écrirez directement dans le microcontrôleur.
 
 :::note
@@ -283,8 +278,7 @@ Voici des exemples d'exercice pour pousser la réflexion plus loin si le temps l
 - Allumer une Led si un bouton est enfoncé, sinon en allumer une autre : *Il faut brancher une deuxième Led à la carte et s'inspirer du code avec le bouton.*
 - Faire une chaine de led qui s'allume à tour de rôle et revienne au début : *Branchez au moins trois led pour rendre ça intéressant. Vous aurez besoin de if, elif et else, le tout dans une boucle. Vous pouvez également travailler avec une variables incorporée dans le numéro des pin mais c'est moins intuitif (le code est plus propre par contre).*
 
-## **Connecter et programmer un capteur**
-
+## Connecter et programmer un capteur
 Nous allons dans cette partie voir comment se servir du capteur ultrasonore. Le programme n'est pas très long, et ne fait appel qu'à des notions déjà vues et des mathématiques.
 
 Il faut également comprendre le principe de fonctionnement d'un sonar. Un sonar envoie un ultrason et calcul le temps entre l'émission de ce signal et la réception de son écho. Les capteurs que nous utilisons fonctionnent exactement sur ce principe.
@@ -330,8 +324,7 @@ La vitesse du son dans l'air à 20°C est d'à peu près 343 m/s. time.ticks_us 
 
 Le programme ci-dessus permet donc d'afficher la distance mesurée dans la console. Testez le en déplaçant un objet devant lui et estimez si les distances sont correctes (vous pouvez déplacer le capteur mais il est plus sûr de le laisser posé, pour éviter les faux contacts).
 
-## **Programmation des moteurs**
-
+## Programmation des moteurs
 Le but principal du robot étant de se déplacer, nous devons également en programmer les moteurs. Faire avancer un moteur n'est pas très compliqué (ceux que nous utilisons en tout cas). En effet il suffit a priori de brancher le moteur à une source de courant et il se met en marche. Cependant afin de pouvoir faire changer notre robot de direction nous allons devoir inverser le sens de rotation du courant dans le moteur, pour en changer le sens de rotation (si un moteur va en avant et l'autre vers l'arrière, le robot tournera sur lui-même) Le principe n'est pas très compliqué non plus, il suffirait d'un interrupteur ou de changer les connections par exemple, mais ce n'est pas aussi simple si on travaille avec un microcontrôleur.
 
 En effet on ne peut pas simplement changer l'état de 2 broches auxquelles serait branché un moteur, car une de ses bornes doit être connectée à la masse (au « moins »).
@@ -390,10 +383,9 @@ Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réell
 
 <img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_111912.png" alt="Robot finalisé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
-#### **Avant l'atelier**
-- [ ]  **Matériel électronique** : Vérifier la présence de tous les composants (Pico, capteurs, moteurs, DRV8833)
+### Checklist pour les animateurs
+
+#### Avant l'atelier- [ ]  **Matériel électronique** : Vérifier la présence de tous les composants (Pico, capteurs, moteurs, DRV8833)
 - [ ]  **Alimentation** : Tester les piles 4.5V et 9V, prévoir des rechanges
 - [ ]  **Ordinateurs** : Installer Thonny sur tous les postes
 - [ ]  **Fichiers MicroPython** : Télécharger les fichiers UF2 sur clé USB ou réseau local
@@ -401,8 +393,7 @@ Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réell
 - [ ]  **Câbles** : Compter 20 câbles dupont par groupe minimum
 - [ ]  **Outils** : Préparer pistolets à colle (chauffés), tournevis, pinces
 - [ ]  **Documentation** : Imprimer les schémas de branchement en couleur
-#### **Pendant l'atelier**
-- [ ]  **Explication Pico** : Présenter les broches principales (GND, VBUS, GP)
+#### Pendant l'atelier- [ ]  **Explication Pico** : Présenter les broches principales (GND, VBUS, GP)
 - [ ]  **Installation MicroPython** : Guider le processus BOOTSEL
 - [ ]  **Configuration Thonny** : Vérifier que chaque poste détecte le Pico
 - [ ]  **Premier programme** : LED clignotante intégrée
@@ -424,18 +415,15 @@ Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réell
 - [ ]  **Fusion du code** : Combiner capteur et moteurs
 - [ ]  **Débogage** : Résoudre les problèmes ensemble
 - [ ]  **Personnalisation** : Encourager les améliorations
-#### **Clôture de l'atelier**
-- [ ]  **Parcours d'obstacles** : Organiser une démonstration/compétition
+#### Clôture de l'atelier- [ ]  **Parcours d'obstacles** : Organiser une démonstration/compétition
 - [ ]  **Présentation des projets** : Chaque groupe explique ses choix
 - [ ]  **Sauvegarde codes** : Sur clé USB ou cloud
 - [ ]  **Photo souvenir** : Avec les robots créés
 - [ ]  **Rangement participatif** : Trier et ranger le matériel
 - [ ]  **Feedback** : Recueillir les impressions à chaud
 - [ ]  **Suite** : Proposer des ressources pour continuer à la maison
-:::
 
-:::info[Conseil pour l'animateur]
-### **Idée d'atelier complémentaire - "Robot Explorateur" - Cartographier son environnement**
+:::info[Idée d'atelier complémentaire - "Robot Explorateur" - Cartographier son environnement]
 Une fois le robot de base maîtrisé, proposez ce défi sur 2-3 séances supplémentaires :
 **Objectif :** Transformer le robot en explorateur capable de cartographier une pièce et mémoriser les obstacles rencontrés.
 **Nouvelles compétences :**
@@ -459,8 +447,7 @@ Une fois le robot de base maîtrisé, proposez ce défi sur 2-3 séances supplé
 Cette extension permet d'approfondir les notions de programmation (tableaux, fonctions complexes) tout en gardant l'aspect ludique et concret du projet robotique.
 :::
 
-## **Aller plus loin - Quelques vidéos et tutoriels en ligne**
-
+## Aller plus loin - Quelques vidéos et tutoriels en ligne
 https://www.raspberrypi.com/products/raspberry-pi-pico/
 
 https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html

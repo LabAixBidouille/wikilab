@@ -1,7 +1,7 @@
 ---
 id: mini-projet-1-programmation
-title: "Mini-projet #1 - Animer un atelier de programmation MakeCode Arcade"
-sidebar_label: "Programmation MakeCode"
+title: "Atelier programmation MakeCode Arcade"
+sidebar_label: "Programmation MakeCode Arcade"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="4" rx="2" ry="2" width="20" height="14" fill="#1198f0" opacity="0.1"/><rect x="4" y="6" rx="1" ry="1" width="16" height="10" fill="#1198f0" opacity="0.25"/><circle cx="8" cy="11" r="1.5" fill="#1198f0" opacity="1.0"/><circle cx="12" cy="11" r="1.5" fill="#1198f0" opacity="1.0"/><polygon points="15,9 18,11 15,13" fill="#1198f0" opacity="1.0"/><rect x="7" y="19" width="10" height="2" rx="1" fill="#1198f0" opacity="1.0"/></svg> Mini-projet #1 - Animer un atelier de programmation MakeCode Arcade
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="4" rx="2" ry="2" width="20" height="14" fill="#1198f0" opacity="0.1"/><rect x="4" y="6" rx="1" ry="1" width="16" height="10" fill="#1198f0" opacity="0.25"/><circle cx="8" cy="11" r="1.5" fill="#1198f0" opacity="1.0"/><circle cx="12" cy="11" r="1.5" fill="#1198f0" opacity="1.0"/><polygon points="15,9 18,11 15,13" fill="#1198f0" opacity="1.0"/><rect x="7" y="19" width="10" height="2" rx="1" fill="#1198f0" opacity="1.0"/></svg> Atelier programmation MakeCode Arcade
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -45,7 +45,6 @@ MakeCode Arcade ne se limite pas à la création de jeux vidéo : **il offre un 
 **Engagé dans une animation inclusive et innovante, MakeCode Arcade permet aux jeunes d'expérimenter, d'apprendre et de grandir tout en contribuant de manière positive à leur communauté.** Grâce à l'approche des "Skill Maps", la plateforme propose un parcours personnalisé et progressif, intégrant des éléments de gamification comme des succès à débloquer et des indicateurs de progression visuelle. Ces outils motivent les utilisateurs à explorer, à acquérir des compétences spécifiques et à visualiser leur évolution dans un cadre ludique.
 
 :::info[Conseil pour l'animateur]
-### **Pourquoi ça marche si bien en animation ?**
 Parce que les jeunes ne subissent pas un contenu, ils *créent*. Ils inventent des histoires, dessinent des personnages, imaginent des défis... Et pendant qu'ils s'amusent, ils découvrent naturellement les bases de la programmation, développent leur logique et boostent leur créativité.
 **Le plus ? Les animateurs ou éducateurs n'ont pas besoin d'être un as de l'informatique pour animer un atelier. La plateforme propose des parcours guidés (les "Skill Maps") qui emmènent tout le monde pas à pas. Ils peuvent même apprendre en même temps que le groupe, et c'est souvent là que naissent les meilleures dynamiques !**
 MakeCode Arcade transforme l'écran en terrain de jeu collaboratif où chaque jeune peut exprimer sa personnalité, que ce soit en inventant une histoire de super-héros, en créant un jeu de sport ou en imaginant un monde fantastique. Cette approche valorise la créativité individuelle tout en renforçant la dynamique de groupe et la confiance des participants dans leurs capacités créatives et techniques.
@@ -53,14 +52,13 @@ MakeCode Arcade transforme l'écran en terrain de jeu collaboratif où chaque je
 
 ## Que trouverez-vous dans cette fiche ?
 
-| **Une introduction à l'outil et à ses possibilités -** Comment fonctionne MakeCode Arcade ? Les fonctionnalités principales. Trente secondes pour comprendre la programmation par blocs |
-| --- |
-| **Une maîtrise des parcours d'apprentissage guidés -** L'utilisation des parcours guidés - Les "Skill Maps". Création d'un atelier jeunesse "MakeCode Arcade" grâce aux Skill Maps |
-| **Un tutoriel pas à pas pour débuter -** Tutoriel Skill Maps - Utiliser une skill map pour la première fois! Étape 1 à 7 : De l'accès aux parcours jusqu'aux niveaux avancés |
-| **Une organisation concrète de votre atelier -** Notre checklist pour les animateurs. Avant l'atelier / Pendant l'atelier / Clôture de l'atelier |
-| **Des conseils pratiques -** 9 recommandations pour réussir votre animation |
-| **Une idée d'atelier -** Utiliser MakeCode Arcade pour aborder les enjeux citoyens |
-| **Quelques vidéos et tutoriels en ligne** - Pour aller plus loin |
+- **Une introduction à l'outil et à ses possibilités** — Comment fonctionne MakeCode Arcade ? Les fonctionnalités principales. Trente secondes pour comprendre la programmation par blocs
+- **Une maîtrise des parcours d'apprentissage guidés** — L'utilisation des parcours guidés - Les "Skill Maps". Création d'un atelier jeunesse "MakeCode Arcade" grâce aux Skill Maps
+- **Un tutoriel pas à pas pour débuter** — Tutoriel Skill Maps - Utiliser une skill map pour la première fois! Étape 1 à 7 : De l'accès aux parcours jusqu'aux niveaux avancés
+- **Une organisation concrète de votre atelier** — Notre checklist pour les animateurs. Avant l'atelier / Pendant l'atelier / Clôture de l'atelier
+- **Des conseils pratiques** — 9 recommandations pour réussir votre animation
+- **Une idée d'atelier** — Utiliser MakeCode Arcade pour aborder les enjeux citoyens
+- **Quelques vidéos et tutoriels en ligne** — Pour aller plus loin
 
 ## Comment fonctionne MakeCode Arcade ?
 
@@ -70,8 +68,7 @@ L'interface de MakeCode Arcade est adaptée à tous les niveaux d'expérience en
 
 [Microsoft MakeCode Arcade](https://arcade.makecode.com/)
 
-:::info[Conseil pour l'animateur]
-### Trente secondes pour comprendre la programmation par blocs
+:::info[Conseil : Trente secondes pour comprendre la programmation par blocs]
 La programmation "**par blocs**" est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme "faire bouger un personnage", "jouer un son" ou "compter jusqu'à 10". En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche permet de comprendre les bases de la programmation en manipulant des concepts de manière concrète et ludique.
 La programmation par blocs est particulièrement adaptée aux débutants, car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, rendant la technologie accessible et amusante, même pour ceux qui n'ont jamais programmé auparavant.
 Pour un animateur, c'est une excellente façon d'introduire les jeunes à la programmation tout en les engageant dans des activités ludiques et créatives, comme créer des jeux, des animations ou raconter des histoires interactives.
@@ -95,8 +92,7 @@ Ces cartes sont faciles à suivre et permettent aux jeunes d'apprendre à leur r
 
 Les Skill Maps ne se limitent pas à la programmation : elles incluent aussi des compétences de design, de narration et de création de règles, pour que chacun puisse développer ses idées. Elles sont conçues pour être motivantes et adaptées aux envies de chaque jeune, rendant l'apprentissage ludique et accessible à tous.
 
-:::info[Conseil pour l'animateur]
-### Création d'un atelier jeunesse "MakeCode Arcade" grâce aux Skill Maps
+:::info[Conseil : Création d'un atelier jeunesse "MakeCode Arcade" grâce aux Skill Maps]
 Si vous voulez animer une activité avec MakeCode Arcade sans être expert en programmation, voici quelques idées simples :
 1. **Choisissez une skill map adaptée** : Sélectionnez une skill map simple. Plusieurs options sont disponibles, ce qui vous permet de choisir celle qui correspond le mieux aux envies et au profil de votre public. Les jeunes suivent les étapes une par une, avec des explications claires. Guidez-les au début, puis laissez-les avancer à leur rythme.
 2. **Proposez une création libre** : Après quelques étapes, invitez les jeunes à personnaliser leur projet en modifiant les personnages, les décors ou les règles du jeu. Cela leur permet de s'approprier ce qu'ils apprennent tout en s'amusant.
@@ -108,39 +104,33 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 
 ### Tutoriel Skill Maps - Utiliser une skill map pour la première fois
 
-#### **Étape 1 - Accéder aux Skillmaps**
-
+#### Étape 1 - Accéder aux Skillmaps
 - Ouvrez MakeCode Arcade : https://arcade.makecode.com/
 - Identifiez l'espace "**Beginner Skillmaps**" situé juste en dessous du bouton "Nouveau projet".
 
-#### **Étape 2 - Explorer les Maps**
-
+#### Étape 2 - Explorer les Maps
 - Parcourez les différentes maps disponibles, classées par ordre de complexité.
 - Si vous débutez sur MakeCode Arcade ou si vous créer une activité pour la première fois, découvrez MakeCode Arcade par vous même en réalisant la skillmap "**Full of Stories**" pour découvrir les blocs les plus couramment utilisés : https://arcade.makecode.com/--skillmap#story
 
     [MakeCode Skill Map](https://arcade.makecode.com/--skillmap#story)
 
-#### **Étape 3 - Découvrir les niveaux**
-
+#### Étape 3 - Découvrir les niveaux
 - Comme vous pouvez le constater sur la skillmap "Full of Stories", chaque map est divisée en **niveaux**. Cela permet de gérer la complexité tout en offrant au jeune codeur des étapes intermédiaires satisfaisantes, stimulant ainsi la créativité, l'engagement et le désir de progresser vers le niveau suivant.
 
 <img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(1).png" alt="Niveaux de la skillmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-#### **Étape 4 - Comprendre les objectifs de chaque map**
-
+#### Étape 4 - Comprendre les objectifs de chaque map
 - Lorsque vous ouvrez la page d'une skillmap, vous trouverez, sur la droite de l'écran, une présentation du contenu, le nombre d'étapes, les récompenses à acquérir et un lien vers **les objectifs d'apprentissage**.
 - Ce lien mène à une page dédiée aux **éducateurs** et aux **parents**, exposant les activités contenues dans la skillmap et les objectifs à atteindre. Par exemple, dans la skillmap "Full of Stories", les jeunes codeurs découvriront des activités de design, de narration, l'intégration d'effets, de musique et la gestion des événements : https://arcade.makecode.com/skillmap/educator-info/story-map-info
 
     [About the "Full of Stories" Skillmap](https://arcade.makecode.com/skillmap/educator-info/story-map-info)
 
-#### **Étape 5 - Comprendre les blocs grâce aux tutoriels**
-
+#### Étape 5 - Comprendre les blocs grâce aux tutoriels
 - Lorsque vous réalisez une étape d'une skillmaps, vous serez guidé par un tutoriel sur la gauche de l'écran, qui vous permettra d'identifier quels tiroirs et quels blocs doivent être utilisés et pour quelle finalité.
 - Le tutoriel inclut également des éléments plus informatifs sur les blocs par exemple : qu'est-ce qu'un événement, qu'est-ce qu'une boucle ...
 - Ces éléments permettent d'acquérir les compétences et le savoir nécessaires pour réaliser plus tard, des projets à partir de zéro.
 
-#### **Étape 6 - Réaliser des maps, suivre les progrès, collaborer et partager**
-
+#### Étape 6 - Réaliser des maps, suivre les progrès, collaborer et partager
 - Une fois que vous avez commencé vos skillmaps, vous pouvez facilement suivre vos progrès grâce à la **gamification de l'interface MakeCode Arcade**.
 
 - Chaque skillmap est divisée en étapes, menant à l'obtention de récompenses. À la fin de la map, vous recevrez un certificat de réalisation, ajoutant un niveau supplémentaire de gamification à l'approche de la programmation via MakeCode Arcade.
@@ -151,15 +141,14 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 
 - Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et d'autres participants.
 
-#### **Étape 7 - Changer de niveau**
-
+#### Étape 7 - Changer de niveau
 - Si la skillmap "Full of Stories" est trop simple pour vos participants, explorez les maps suivantes.
 - Des "**Next Level Skillmaps**" sont également disponibles pour passer à un niveau de complexité supérieur, via l'écran d'accueil de MakeCode Arcade, sous les "Beginner Skillmaps".
 
 <img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(4).png" alt="Next Level Skillmaps" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
+### Checklist pour les animateurs
+
 Voici une liste détaillée des éléments à vérifier pour chaque étape de votre atelier MakeCode Arcade :
 #### Avant l'atelier
 - [ ]  **Matériel :** Vérifiez que tous les ordinateurs sont fonctionnels et connectés à Internet.
@@ -179,7 +168,6 @@ Voici une liste détaillée des éléments à vérifier pour chaque étape de vo
 - [ ]  **Feedback :** Préparez quelques questions pour animer une discussion sur l'expérience vécue.
 - [ ]  **Suivi :** Notez les points forts et les axes d'amélioration pour les prochains ateliers.
 - [ ]  **Sauvegarde :** Assurez-vous que tous les projets des participants sont correctement sauvegardés.
-:::
 
 ### Nos derniers conseils
 
@@ -193,8 +181,7 @@ Voici une liste détaillée des éléments à vérifier pour chaque étape de vo
 8. **Valorisation des réalisations :** Donnez à chaque participant l'opportunité de présenter son travail au groupe. Cela renforce la confiance et la motivation.
 9. **Discussion et réflexion :** À la fin de l'atelier, organisez une discussion de groupe sur les concepts appris et l'expérience globale. Cela aide à consolider les apprentissages et à recueillir des retours utiles.
 
-:::info[Conseil pour l'animateur]
-### **Idée d'atelier "Jeux et Citoyenneté" - Utiliser MakeCode Arcade pour aborder un thème central**
+:::info[Idée d'atelier "Jeux et Citoyenneté" - Utiliser MakeCode Arcade pour aborder un thème central]
 **Et si vous utilisez MakeCode Arcade pour aborder un thème central comme la citoyenneté dans vos ateliers ?** Cette plateforme peut être bien plus qu'un simple outil de programmation : elle peut devenir un moyen pour explorer des sujets essentiels avec les jeunes. En intégrant des scénarios de jeux qui mettent en lumière des concepts comme la responsabilité collective, la prise de décision éthique ou l'engagement communautaire, vous pouvez transformer l'apprentissage technique en une expérience.
 Créez des binômes avec pour objectif d'explorer et créer des jeux sur des thématiques liées à la citoyenneté, à l'urbanisme, aux enjeux urbains, à l'environnement ... Répartissez les thèmes entre les équipes et laissez leur créativité opérer ! Nous pourrions imaginer :
 - Un jeu de tri sélectif où les joueurs doivent rapidement trier les déchets dans les bonnes poubelles.
@@ -207,8 +194,7 @@ Créez des binômes avec pour objectif d'explorer et créer des jeux sur des th�
 Pour clôturer votre atelier, organisez un tournoi avec les mini-jeux créés par chaque équipe. Ce tournoi peut devenir un moment fort où chaque groupe présente son ou ses jeux et explique les enjeux citoyens qu'il a voulu aborder. Encouragez les participants à tester les jeux des autres équipes, à échanger des idées et à discuter des concepts intégrés dans les créations. Ce moment de partage et de compétition amicale renforcera la confiance des jeunes dans leurs compétences techniques mais également dans leur engagement citoyen. Célébrez les efforts de chacun et mettez en avant les meilleures idées, car au-delà du jeu, c'est aussi une manière d'inspirer les futurs citoyens à prendre part à la construction de la société de demain. Proposez aux parents de participer au tournoi afin de découvrir les actions menées par leurs enfants au sein de vos ateliers et animations !
 :::
 
-## **Aller plus loin - Quelques vidéos et tutoriels en ligne**
-
+## Aller plus loin - Quelques vidéos et tutoriels en ligne
 [Makecode Arcade](https://youtube.com/playlist?list=PLgd2r8rC6FYuinwOjZw2pgtWCwnsva6ak&si=fHPi65Hyd2vp7TB-)
 
 https://www.youtube.com/watch?v=wc-_jzJo_zk

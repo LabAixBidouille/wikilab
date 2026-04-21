@@ -1,7 +1,7 @@
 ---
 id: monitorer-bruit-urbain
-title: "Monitorer le bruit urbain grâce à une carte micro:bit"
-sidebar_label: "Monitorer le bruit urbain"
+title: "Monitorer le bruit urbain"
+sidebar_label: "Bruit urbain"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="8" cy="12" r="3" fill="#1198f0" opacity="0.25"/><path d="M11 12 Q14 6 17 12 Q14 18 11 12Z" fill="#1198f0" opacity="0.25"/><path d="M14 12 Q18 4 22 12 Q18 20 14 12Z" fill="none" stroke="#1198f0" strokeWidth="1.2"/><line x1="3" y1="12" x2="5" y2="12" stroke="#1198f0" strokeWidth="1.5"/><line x1="3" y1="9" x2="5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="3" y1="15" x2="5" y2="15" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Monitorer le bruit urbain grâce à une carte micro:bit
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="8" cy="12" r="3" fill="#1198f0" opacity="0.25"/><path d="M11 12 Q14 6 17 12 Q14 18 11 12Z" fill="#1198f0" opacity="0.25"/><path d="M14 12 Q18 4 22 12 Q18 20 14 12Z" fill="none" stroke="#1198f0" strokeWidth="1.2"/><line x1="3" y1="12" x2="5" y2="12" stroke="#1198f0" strokeWidth="1.5"/><line x1="3" y1="9" x2="5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="3" y1="15" x2="5" y2="15" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Monitorer le bruit urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>
@@ -90,8 +90,7 @@ Pour programmer une carte micro:bit pour mesurer le niveau sonore, vous aurez be
 
 Ouvrez l'éditeur en ligne MakeCode pour micro:bit : [https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor). Cet outil propose aux utilisateurs de programmer par bloc.
 
-:::info[Conseil pour l'animateur]
-### Trente secondes pour comprendre la programmation par blocs
+:::info[Conseil : Trente secondes pour comprendre la programmation par blocs]
 La programmation "**par blocs**" est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme "faire bouger un personnage", "jouer un son" ou "compter jusqu'à 10". En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche permet de comprendre les bases de la programmation en manipulant des concepts de manière concrète et ludique.
 
 La programmation par blocs est particulièrement adaptée aux débutants, car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, rendant la technologie accessible et amusante, même pour ceux qui n'ont jamais programmé auparavant.
@@ -113,7 +112,7 @@ Pour réaliser ce programme i.e. utiliser une carte programmable pour relever le
 
 Une fois ces blocs identifiés, vous pouvez commencer à organiser vos blocs pour permettre à la carte de collecter le niveau sonore. Testez des configurations selon ce qui vous semble logique et **utilisez le simulateur pour vérifier que votre code fait ce que vous attendez de lui**.
 
-:::tip[Ce que doit faire le code]
+:::info[Ce que doit faire le code]
 Voici ce que doit dire notre code : quand j'allume ma carte, une croix m'indique que le programme attend d'être lancé. J'appuie sur le bouton A. La carte m'indique qu'elle est prête à collecter des données. Après une courte pause, la coche s'efface de l'écran et la carte commence sa collecte jusqu'à ce que j'appuie sur un autre bouton que le bouton A. Durant tout ce temps, elle collecte le niveau sonore, dans un tableau qui me donnera les informations suivantes : toutes les 5 000 secondes, exprimées en minutes, la carte fournira le "niveau sonore".
 :::
 
@@ -173,8 +172,8 @@ Après avoir copié et renommé le fichier, **supprimez le fichier MY_DATA.HTM d
 | **"Les petits détectives du bruit"** | **"Cartographes du silence"** | **"Observatoire citoyen du bruit"** | **"Micro:bit et décibels"** |
 | **Séance 1** : Sensibilisation au bruit + première programmation collective **Séance 2** : Déploiement de la mesure dans différents lieux de la structure **Séance 3** : Récupération des données + création d'une "carte du bruit" de l'établissement | **Jour 1** : Formation technique + programmation personnalisée **Jour 2-3** : Collecte de données chez les participants (domicile, trajets, lieux de vie) **Jour 4** : Compilation et analyse collective **Jour 5 - Restitution** : Présentation aux familles/élus locaux | **Semaine 1** : Formation et sensibilisation **Semaine 2-3** : Collecte de données sur plusieurs sites **Semaine 4** : Analyse, comparaison avec données officielles, propositions d'actions | **1h** : Découverte du bruit et de ses effets + programmation guidée **1h** : Tests en temps réel dans différents espaces **1h** : Analyse immédiate des résultats + conclusions collectives |
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
+### Checklist pour les animateurs
+
 #### En amont
 **Préparation du matériel technique**
 - Micro:bit V2 (1 par groupe de 3-4 ou 1 pour tous selon le format)
@@ -243,7 +242,6 @@ Après avoir copié et renommé le fichier, **supprimez le fichier MY_DATA.HTM d
 - Recentrer sur leur vécu ("où avez-vous mal aux oreilles ?")
 - Proposer des défis ("trouvez le lieu le plus silencieux")
 - Lier à l'actualité (nuisances sonores locales)
-:::
 
 ## Références
 

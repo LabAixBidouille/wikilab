@@ -1,7 +1,7 @@
 ---
 id: etude-confort-thermique
-title: "Réaliser une étude sur le confort thermique"
-sidebar_label: "Étude confort thermique"
+title: "Étude du confort thermique"
+sidebar_label: "Confort thermique"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="10.5" y="3" width="3" height="14" rx="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="18.5" r="3" fill="#1198f0"/><circle cx="12" cy="18.5" r="1.5" fill="#1198f0" opacity="0.1"/><rect x="11" y="9" width="2" height="8" rx="1" fill="#1198f0"/><line x1="15" y1="7" x2="17" y2="7" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="9" x2="16.5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="11" x2="17" y2="11" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="13" x2="16.5" y2="13" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Réaliser une étude sur le confort thermique
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="10.5" y="3" width="3" height="14" rx="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="18.5" r="3" fill="#1198f0"/><circle cx="12" cy="18.5" r="1.5" fill="#1198f0" opacity="0.1"/><rect x="11" y="9" width="2" height="8" rx="1" fill="#1198f0"/><line x1="15" y1="7" x2="17" y2="7" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="9" x2="16.5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="11" x2="17" y2="11" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="13" x2="16.5" y2="13" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Étude du confort thermique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>
@@ -111,8 +111,7 @@ Pour réaliser une étude autour du confort thermique, nous vous proposons plusi
 
 Ouvrez l'éditeur en ligne MakeCode pour micro:bit : [https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor). Cet outil propose aux utilisateurs de programmer par bloc.
 
-:::info[Conseil pour l'animateur]
-### Trente secondes pour comprendre la programmation par blocs
+:::info[Conseil : Trente secondes pour comprendre la programmation par blocs]
 La programmation "**par blocs**" est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme "faire bouger un personnage", "jouer un son" ou "compter jusqu'à 10". En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche permet de comprendre les bases de la programmation en manipulant des concepts de manière concrète et ludique.
 
 La programmation par blocs est particulièrement adaptée aux débutants, car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, rendant la technologie accessible et amusante, même pour ceux qui n'ont jamais programmé auparavant.
@@ -138,7 +137,7 @@ Une fois ces blocs identifiés, vous pouvez commencer à organiser vos blocs pou
 
 <img src="/img/ressources/jeditrack-etude_confort_thermique/Journe_Dcouverte_et_Exprimentation_SteamCity.png" alt="Journée Découverte et Expérimentation SteamCity - Vue des blocs disponibles" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-:::tip[Ce que doit faire le code]
+:::info[Ce que doit faire le code]
 Voici ce que doit faire notre code : quand j'allume ma carte, une croix m'indique que le programme attend d'être lancé. J'appuie sur le bouton A. La carte m'indique qu'elle est prête à collecter des données. Après une courte pause, la coche s'efface de l'écran et la carte commence sa collecte jusqu'à ce que je l'éteigne. Durant tout ce temps, elle collecte la température et l'humidité toutes les minutes, avec un horodatage précis.
 :::
 
@@ -233,7 +232,7 @@ Prenez 3 fils de couleurs différentes si possible (pour éviter les confusions)
     - Le capteur est bien inséré dans la breadboard
     - Les connexions correspondent bien : VCC->3V, GND->GND, DATA->P0
 
-:::tip[Conseils pour éviter les erreurs courantes]
+:::info[Conseils pour éviter les erreurs courantes]
 - **Ne pas forcer** lors de l'insertion des composants
 - **Vérifier deux fois** avant de brancher l'alimentation
 - **Garder les fils courts** pour éviter les emmêlements
@@ -283,7 +282,7 @@ Cette simplicité d'utilisation permet une appropriation immédiate par tous les
 
 Le format compact et la robustesse du dispositif facilitent son transport et son utilisation dans différents environnements sans risque de détérioration du matériel pédagogique.
 
-:::tip[Quelques conseils pour comprendre les mesures thermiques]
+:::info[Quelques conseils pour comprendre les mesures thermiques]
 - **Températures idéales selon les pièces** : Pièces à vivre (salon, bureau) 19-21°C, chambres 16-19°C pour un bon sommeil, pièces humides (salle de bain, cuisine) 20-22°C.
 - **Humidité optimale** : Entre 40 et 60% dans toutes les pièces.
 - **Ce qui est normal** : de petites différences entre pièces (1-2°C).
@@ -329,8 +328,8 @@ Pour les structures à la recherche d'options à la fois abordables et accessibl
 | **"Thermomètres détectives"** | **"Analystes énergétiques"** | **"Confort et capteurs"** | **"Chasseurs de chaleur"** |
 | **Séance 1** : Manipulation libre des capteurs + comparaisons intérieur/extérieur **Séance 2** : Installation des capteurs chez 5-6 participants volontaires + formation au relevé quotidien **Séance 3** : Collecte des données + création d'une "carte thermique" de leurs lieux de vie | **Jour 1** : Formation technique + apprentissage du câblage et programmation + tests personnalisés **Jour 2-3-4** : Déploiement terrain chez les participants + suivi quotidien **Jour 5** : Récupération et traitement des fichiers .csv + analyse graphique + conclusions | **1h** : Découverte température/humidité + programmation guidée ou utilisation capteurs Xiaomi **1h** : Tests temps réel dans différents espaces + session caméra thermique **1h** : Analyse immédiate + réflexions sur confort et économies d'énergie | **Séance 1** : Formation à l'utilisation de la caméra thermique + démonstration sur différentes surfaces (métal, bois, isolation) + capture d'images test sur le bâtiment d'accueil **Séance 2** : Enquête thermique complète de la structure d'animation + analyse des images + identification des zones de déperdition + propositions d'amélioration à présenter à l'équipe de direction |
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
+### Checklist pour les animateurs
+
 #### En amont
 **Préparation du matériel technique**
 - Capteurs choisis selon budget et âge du public (Xiaomi ou Micro:bit + DHT22)
@@ -397,7 +396,6 @@ Pour les structures à la recherche d'options à la fois abordables et accessibl
 - Couleurs incohérentes : ajuster plage températures et palette
 - Application plante : redémarrage smartphone
 - Reflets parasites : éviter surfaces métalliques brillantes
-:::
 
 ## Références
 

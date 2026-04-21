@@ -1,6 +1,6 @@
 ---
 id: cartographie-sensible
-title: "S'initier à la cartographie sensible"
+title: "Cartographie sensible"
 sidebar_label: "Cartographie sensible"
 sidebar_position: 5
 ---
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" rx="2" ry="2" width="20" height="18" fill="#1198f0" opacity="0.1"/><path d="M2 3h20v18H2z" stroke="#1198f0" strokeWidth="1.2" fill="none" rx="2" opacity="0.25"/><path d="M7 9c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 2-3 4c-1.5-2-3-2.5-3-4z" fill="#1198f0" opacity="0.25"/><path d="M12 16l1.5-1.2c1.3-1 2.5-2 2.5-3.3 0-1.1-.9-2-2-2a2.2 2.2 0 0 0-2 1.2A2.2 2.2 0 0 0 10 9.5c-1.1 0-2 .9-2 2 0 1.3 1.2 2.3 2.5 3.3L12 16z" fill="#1198f0" opacity="1.0"/><path d="M5 18h14M5 6h3M16 6h3" stroke="#1198f0" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><circle cx="17" cy="14" r="1" fill="#1198f0" opacity="1.0"/><circle cx="6" cy="14" r="1" fill="#1198f0" opacity="1.0"/></svg> S'initier à la cartographie sensible
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" rx="2" ry="2" width="20" height="18" fill="#1198f0" opacity="0.1"/><path d="M2 3h20v18H2z" stroke="#1198f0" strokeWidth="1.2" fill="none" rx="2" opacity="0.25"/><path d="M7 9c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 2-3 4c-1.5-2-3-2.5-3-4z" fill="#1198f0" opacity="0.25"/><path d="M12 16l1.5-1.2c1.3-1 2.5-2 2.5-3.3 0-1.1-.9-2-2-2a2.2 2.2 0 0 0-2 1.2A2.2 2.2 0 0 0 10 9.5c-1.1 0-2 .9-2 2 0 1.3 1.2 2.3 2.5 3.3L12 16z" fill="#1198f0" opacity="1.0"/><path d="M5 18h14M5 6h3M16 6h3" stroke="#1198f0" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><circle cx="17" cy="14" r="1" fill="#1198f0" opacity="1.0"/><circle cx="6" cy="14" r="1" fill="#1198f0" opacity="1.0"/></svg> Cartographie sensible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
@@ -44,8 +44,7 @@ La cartographie sensible se définit comme une méthode de représentation spati
 
 **Le principe est simple : à partir de l'expérience vécue du territoire, les élèves créent une représentation graphique libre qui matérialise leurs émotions et leurs perceptions. Contrairement aux cartes géographiques traditionnelles, la cartographie sensible privilégie l'expression créative et la fidélité au ressenti plutôt que la précision géographique, révélant ainsi la complexité des rapports affectifs au territoire.**
 
-:::info[Conseil pour l'animateur]
-### **Utiliser la cartographie sensible en animation**
+:::info[Utiliser la cartographie sensible en animation]
 Les jeunes évoluent quotidiennement dans leur environnement sans toujours prendre conscience de leurs perceptions et émotions face au territoire. **La cartographie sensible transforme cette expérience inconsciente en démarche réflexive** en permettant aux participants d'identifier, de nommer et de représenter leurs ressentis face aux lieux qu'ils fréquentent. Cette approche révèle la richesse des perceptions individuelles - chaque représentation personnelle enrichit la compréhension collective du territoire - tout en développant une culture de l'observation sensible et de l'analyse critique de l'environnement. L'outil répond à un besoin concret de l'animation : faire émerger les représentations territoriales et les rendre visibles pour tous. Que ce soit pour révéler les ambiances sonores, identifier les espaces de bien-être et de stress, cartographier les peurs urbaines ou analyser les trajectoires émotionnelles, la cartographie sensible donne une légitimité aux perceptions en transformant les expériences subjectives en données d'analyse territoriale. Les participants découvrent qu'ils possèdent une expertise sensible de leur cadre de vie, développant ainsi une conscience territoriale ancrée dans leur réalité émotionnelle.
 **Concrètement**
 - **Légitimation du ressenti** : Les participants découvrent que leurs émotions et perceptions constituent des données légitimes pour comprendre un territoire, valorisant leur expertise d'usage et leur connaissance sensible.
@@ -54,38 +53,32 @@ Les jeunes évoluent quotidiennement dans leur environnement sans toujours prend
 - **Construction d'une culture de l'observation** : En cartographiant leurs ressentis, les jeunes développent une attention particulière aux ambiances et aux atmosphères, enrichissant leur rapport sensible à l'environnement.
 :::
 
-## **Tutoriel pratique - Structurer la démarche**
-
-### **1. Passer d'un questionnement à une approche sensible du terrain**
-
+## Tutoriel pratique - Structurer la démarche
+### 1. Passer d'un questionnement à une approche sensible du terrain
 Cette phase constitue une transition entre les questions que vous vous posez sur le territoire et l'exploration concrète. **Elle permet d'appréhender le territoire par les émotions avant d'aller l'observer sur le terrain.**
 
 Discutez de vos interrogations par rapport au thème de votre atelier ou de votre projet (est-ce que je ressens du stress dans mon quartier, où ai-je l'impression de voir des oiseaux ou de la biodiversité, est-ce que certaines zones me paraissent trop bruyantes ...). Organisez ensuite une discussion ouverte en posant des questions telles que "Comment ces questions résonnent-elles avec votre quotidien ?" ou "Avez-vous déjà vécu des situations liées à ces sujets ?". Invitez les jeunes à verbaliser spontanément leurs perceptions du territoire d'étude et leurs émotions associées à certains lieux, sans contrainte de forme ou de contenu.
 
 Facilitez cette expression en reformulant les témoignages et en valorisant chaque contribution avec des relances comme "Tu nous dis que ce carrefour te stresse, peux-tu nous expliquer pourquoi ?". Présentez enfin la cartographie sensible comme un moyen de dessiner graphiquement ces perceptions pour préparer l'exploration terrain, en précisant qu'il n'y a pas de "bonne" ou "mauvaise" façon de représenter ses ressentis.
 
-### **2. Créer sa cartographie sensible individuelle**
-
+### 2. Créer sa cartographie sensible individuelle
 Cette phase de création permet à chaque jeune d'exprimer graphiquement ses ressentis territoriaux en toute liberté créative.
 
 **Proposez du papier blanc, coloré, ou utilisez une carte existante comme base à annoter, et mettez à disposition un matériel varié comprenant crayons, feutres, pastels, gommettes, magazines à découper. La consigne reste ouverte : "Représentez votre environnement en montrant ce que vous ressentez dans les différents lieux". Précisez qu'il n'y a pas d'échelle à respecter, pas d'orientation imposée, pas de légende obligatoire, en accordant 30 à 45 minutes pour permettre l'expression créative complète.**
 
 Les techniques de représentation peuvent inclure des **couleurs émotionnelles associées aux ressentis** (rouge pour le stress, vert pour l'apaisement), des **tracés expressifs** utilisant la forme des lignes pour traduire les sensations (zigzags pour l'agitation, courbes pour la douceur), des **symboles personnels** créés pour représenter des ambiances spécifiques, des annotations libres ajoutant mots, phrases ou onomatopées, ou encore des collages intégrant images et textures pour enrichir l'expression.
 
-### **3. Partager et analyser collectivement**
-
+### 3. Partager et analyser collectivement
 Cette étape permet de confronter les représentations individuelles pour construire une compréhension collective du territoire.
 
 Organisez l'accrochage de toutes les cartes pour permettre une **vision d'ensemble**, puis proposez un tour de présentation où chaque jeune explique sa carte en détaillant ses choix graphiques et ses ressentis. Le groupe identifie ensuite les points communs en repérant les lieux ou situations qui génèrent des émotions similaires chez plusieurs participants, explore les différences pour comprendre pourquoi certains espaces provoquent des ressentis différents selon les individus, et note les nouvelles questions qui naissent de cette confrontation des perceptions.
 
-### **4. Faire le lien avec le terrain**
-
+### 4. Faire le lien avec le terrain
 Cette phase finale articule les découvertes sensibles avec le terrain - d'autant plus intéressante si à la suite de la cartographie sensible, vous prévoyez une étude à l'extérieur.
 
 Aidez le groupe à faire une synthèse collective en identifiant sur une carte géographique les secteurs à fort impact émotionnel révélés par les cartes individuelles, classez les émotions exprimées par grandes catégories (sécurité/insécurité, confort/inconfort), et reformulez les questions de départ en intégrant les dimensions sensibles découvertes. Définissez ensuite des éléments qualitatifs à observer sur le terrain.
 
-## **Idées de projets jeunesse utilisant la cartographie sensible**
-
+## Idées de projets jeunesse utilisant la cartographie sensible
 **Format de projets court (de quelques heures à quelques jours)**
 
 | **"Cartographie des sons" - 8-14 ans** | **"Où je me sens bien, où je me sens mal" - 12-17 ans** | **"Mon quartier à travers mes émotions" - 10-16 ans** |
@@ -110,8 +103,8 @@ Aidez le groupe à faire une synthèse collective en identifiant sur une carte g
 | --- | --- | --- |
 | Exploration des transformations sensorielles du territoire entre jour et nuit, création de cartes bifaciales révélant les ambiances diurnes et nocturnes, analyse des changements de perception et des nouveaux enjeux émotionnels liés à l'éclairage urbain. | Cartographie des ressentis selon les modes de déplacement (à pied, vélo, transport en commun), révélation des variations émotionnelles liées à la vitesse et au moyen de transport, création d'un guide sensible des mobilités douces. | Les jeunes cartographient leur rapport sensible à la nature en ville, identifient les espaces verts apaisants, les coins sauvages stimulants, créent des cartes mêlant observation naturaliste et ressenti émotionnel, puis proposent des aménagements favorisant le bien-être écologique. |
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
+### Checklist pour les animateurs
+
 #### Avant le lancement du projet
 - [ ]  **Objectifs :** Clarifier si la cartographie sensible prépare une exploration terrain ou constitue une activité créative autonome
 - [ ]  **Territoire :** Vérifier que les participants connaissent suffisamment le périmètre pour avoir des ressentis significatifs
@@ -138,7 +131,6 @@ Aidez le groupe à faire une synthèse collective en identifiant sur une carte g
 - [ ]  **Conservation des traces :** Photographier les productions et archiver les témoignages de présentation
 - [ ]  **Préparation suite :** Utiliser les résultats pour enrichir la phase suivante (exploration terrain, création artistique)
 - [ ]  **Valorisation finale :** Prévoir un retour vers les participants sur l'exploitation de leurs contributions
-:::
 
 ## Références
 

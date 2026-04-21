@@ -1,6 +1,6 @@
 ---
 id: creer-cartes-umap
-title: "Créer des cartes collaboratives sur uMap"
+title: "Cartes collaboratives avec uMap"
 sidebar_label: "Cartes collaboratives uMap"
 sidebar_position: 9
 ---
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="9" r="3" fill="#1198f0"/><circle cx="6" cy="17" r="1" fill="#1198f0" opacity="0.25"/><circle cx="18" cy="15" r="0.8" fill="#1198f0" opacity="0.25"/><path d="M3 20 Q8 18 12 20 Q16 22 21 20" fill="none" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Créer des cartes collaboratives sur uMap
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="9" r="3" fill="#1198f0"/><circle cx="6" cy="17" r="1" fill="#1198f0" opacity="0.25"/><circle cx="18" cy="15" r="0.8" fill="#1198f0" opacity="0.25"/><path d="M3 20 Q8 18 12 20 Q16 22 21 20" fill="none" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Cartes collaboratives avec uMap
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>
@@ -40,8 +40,7 @@ OpenStreetMap est un projet collaboratif visant à créer une carte mondiale lib
 
 **Le principe est simple : à partir d'un fond de carte OpenStreetMap, vous pouvez ajouter des marqueurs, dessiner des zones, créer des itinéraires et organiser vos données par couches thématiques. Contrairement aux géants du secteur, uMap respecte la vie privée, ne collecte pas de données personnelles et permet une appropriation complète de vos créations.**
 
-:::info[Conseil pour l'animateur]
-### Utiliser uMap en animation
+:::info[Conseil : Utiliser uMap en animation]
 Les jeunes d'aujourd'hui évoluent souvent dans leur territoire sans vraiment le connaître ni s'y sentir acteurs. **uMap transforme cette passivité en engagement** en permettant aux participants d'explorer leur environnement quotidien, de documenter leurs découvertes et de les partager collectivement sur une carte interactive. Cette démarche crée instantanément du lien social - chaque observation personnelle enrichit la connaissance du groupe - tout en développant un sentiment d'appartenance territoriale. L'outil répond à un besoin concret de l'animation : capitaliser les sorties terrain et les rendre visibles pour tous. Que ce soit pour cartographier la biodiversité locale, identifier les dysfonctionnements urbains, valoriser le patrimoine de proximité ou analyser les mobilités, uMap donne du sens aux explorations en transformant les observations individuelles en projet collectif. Les participants découvrent qu'ils peuvent documenter et comprendre leur cadre de vie, développant ainsi une culture citoyenne ancrée dans leur réalité quotidienne.
 
 **Concrètement**
@@ -95,8 +94,8 @@ Les jeunes d'aujourd'hui évoluent souvent dans leur territoire sans vraiment le
 uMap offre deux possibilités d'usage qui s'adaptent à vos contraintes et objectifs. Si vous participez à un projet territorial plus large (défi inter-établissements, initiative municipale, programme éducatif), vous pouvez contribuer à une **carte collaborative existante** où vos participants enrichissent une base de données partagée avec d'autres groupes de votre région. Cette approche nécessite peu de préparation technique et connecte immédiatement vos jeunes à une dynamique collective qui les dépasse. Alternativement, vous pouvez **créer votre propre carte dédiée** si votre projet a des spécificités particulières, si vous souhaitez maîtriser entièrement la structure et l'affichage, ou si vous prévoyez une utilisation récurrente qui s'enrichira au fil des années. Cette seconde option demande un peu plus de temps de préparation mais vous offre une totale liberté créative et la constitution d'un patrimoine numérique propre à votre structure.
 :::
 
-:::info[Conseil pour l'animateur]
-### Notre checklist pour les animateurs
+### Checklist pour les animateurs
+
 #### Avant le lancement du projet
 - **Objectifs :** Définir clairement les thématiques à documenter et les questions d'étude
 - **Territoire :** Délimiter précisément la zone d'étude et vérifier sa pertinence pédagogique
@@ -126,7 +125,6 @@ uMap offre deux possibilités d'usage qui s'adaptent à vos contraintes et objec
 - **Communication :** Diffuser le lien de la carte aux partenaires et sur les réseaux de la structure
 - **Suivi :** Planifier d'éventuelles mises à jour ou extensions de la cartographie
 - **Évaluation :** Recueillir les retours des participants sur l'outil et la méthode utilisée
-:::
 
 ## Références
 
