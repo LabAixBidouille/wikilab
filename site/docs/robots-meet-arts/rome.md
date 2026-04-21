@@ -35,6 +35,19 @@ sidebar_position: 25
 - 15 cartes mission par groupe (5 cartes rôles sociaux, 5 cartes lieux, 5 cartes privilèges/tâches)
 - Fiche « Organise tes idées »
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Pyramide vide (3 niveaux)
+- Cartes mission
+- Fiche "Organise tes idées"
+- Commandes Tale-Bot
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_Rome_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

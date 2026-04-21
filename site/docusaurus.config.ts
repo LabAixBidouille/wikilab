@@ -28,6 +28,18 @@ const config: Config = {
     locales: ['fr'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'machines-guides',
+        path: 'machines',
+        routeBasePath: 'machines',
+        sidebarPath: './sidebars-machines.ts',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -53,7 +65,7 @@ const config: Config = {
         indexDocs: true,
         indexBlog: false,
         indexPages: true,
-        docsRouteBasePath: '/ressources',
+        docsRouteBasePath: ['/ressources', '/machines'],
       },
     ],
   ],

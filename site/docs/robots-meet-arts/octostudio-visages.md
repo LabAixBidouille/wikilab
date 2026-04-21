@@ -46,6 +46,18 @@ sidebar_position: 16
 - Une bibliothèque de petits matériaux : boutons, pièces de monnaie, pinces à linge, élastiques, bouchons de différentes tailles et couleurs.
 - Une bibliothèque de matériaux plus grands : rouleau de ruban adhésif, fourchette, jouets et autres objets ludiques pouvant ajouter de la personnalité et stimuler l&#39;expression métaphorique.
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Cartes rôles
+- Cartes défis et solutions
+- Tutoriels vidéo
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_OctoStudioVisages_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

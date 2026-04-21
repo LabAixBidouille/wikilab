@@ -31,6 +31,18 @@ sidebar_position: 22
 - Fiches explicatives sur les structures conditionnelles
 - Exemples simples de labyrinthes narratifs
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Fiche guide sur la modélisation algorithmique
+- Exemples de récits
+- Modèles d'algorigrammes
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_Qu%C3%AAteCurry.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

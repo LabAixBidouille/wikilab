@@ -31,6 +31,19 @@ sidebar_position: 26
 - Jeton « Robin le robot » pour marquer les actions du robot
 - Minuteur ou chronomètre
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Fiche Tom le chat
+- Fiche Meet Robin
+- Grille Meet Robin's World
+- Cartes de déplacement
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_Journ%C3%A9eRobin_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

@@ -34,6 +34,8 @@ sidebar_position: 8
 - **Une carte informative de leur quartier** pour planifier l'itinéraire de l'activité finale.
 - **Un GPS et une boussole** pour aider à la navigation et à la vérification de l'itinéraire pendant l'activité finale.
 
+<a href="/pdf/robots-meet-arts/RMA_PasselePaquet_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

@@ -47,6 +47,8 @@ sidebar_position: 4
 - Fiche de travail 2 - Présentation de la voiture de course
 - Fiche de travail 3 - Réflexion sur les caractéristiques des voitures avec les formes comparatives et superlatives
 
+<a href="/pdf/robots-meet-arts/RMA_CourseVoitures_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

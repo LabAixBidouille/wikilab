@@ -31,6 +31,18 @@ sidebar_position: 14
 - Feuilles, ciseaux, marqueurs pour la phase créative
 - Éventuellement : tablette ou appareil photo pour documenter les chorégraphies
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Cartes du Memory Scratch
+- Cartes pour le Mode Danse
+- Fiche récapitulative des blocs Scratch
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_ModeDanse.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

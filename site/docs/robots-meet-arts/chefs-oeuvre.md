@@ -42,6 +42,18 @@ sidebar_position: 13
 - 2 robots de sol
 - 2 jeux de cartes mémoire : cartes avec les œuvres d&#39;art et cartes avec les informations des élèves
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Fiches d'information
+- Cartes de mélange des couleurs
+- Cartes mémoire d'oeuvres d'art
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_ChefsOeuvre_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

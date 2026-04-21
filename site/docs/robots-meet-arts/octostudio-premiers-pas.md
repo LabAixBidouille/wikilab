@@ -40,6 +40,19 @@ sidebar_position: 15
 - 1 fiche « Ceci n&#39;est pas un cercle »
 - Des crayons de couleur
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Cartes rôles
+- Fiche "Ceci n'est pas un cercle"
+- Cartes défis et solutions
+- Tutoriels vidéo
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_OctoStudioPremiersPas_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

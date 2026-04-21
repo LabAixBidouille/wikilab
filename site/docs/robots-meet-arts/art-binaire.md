@@ -41,6 +41,18 @@ sidebar_position: 1
 - 1 boîte de feutres/crayons de couleur
 - 24 crayons à papier
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- 24 cartes d'instructions de programmation (Cadenas 1 à 6)
+- Carte d'instructions vierge
+- Fiche de suivi
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_ArtBinaire_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

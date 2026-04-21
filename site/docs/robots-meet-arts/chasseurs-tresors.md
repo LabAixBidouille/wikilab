@@ -38,6 +38,18 @@ sidebar_position: 3
 - Tables avec suffisamment d'espace de travail pour la construction des robots
 - Zone de test (espace au sol dégagé avec de la place pour les mouvements du robot)
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Cartes défis mouvement du robot
+- Cartes de phrases
+- Fiche de vocabulaire LEGO SPIKE
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_ChasseursTr%C3%A9sors_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

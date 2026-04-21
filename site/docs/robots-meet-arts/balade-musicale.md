@@ -29,6 +29,18 @@ sidebar_position: 9
 - Boîte d'instruments de musique (fabriqués ou non)
 - Impression des annexes
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Grille de déplacement et tableau d'instructions
+- Partitions pour boomwhackers
+- Cartes de percussions corporelles
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_BaladeMusicale_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

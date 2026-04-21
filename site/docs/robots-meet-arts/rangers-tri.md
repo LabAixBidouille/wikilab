@@ -28,6 +28,18 @@ sidebar_position: 21
 - Fiches de travail pour écrire les légendes de chaque poubelle de recyclage
 - Crayons, feutres, ciseaux, colle
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Exemple de grille à mettre au sol
+- Fiche de travail
+- Cartes de déplacement du robot
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_RangersTri_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

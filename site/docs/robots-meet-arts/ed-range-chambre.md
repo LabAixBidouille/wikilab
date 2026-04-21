@@ -27,6 +27,16 @@ sidebar_position: 5
 - Robots Edison et feutres de différentes couleurs à connecter dessus
 - Grande grille au sol (représentant la chambre du robot avec différents vêtements dessus). Vous pouvez utiliser la grille fournie en annexe comme exemple.
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Grille de la chambre d'Ed (zones été/hiver et départ)
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_EdRangeChambre_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

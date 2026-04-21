@@ -1,0 +1,130 @@
+---
+id: omtech-laser-co2
+title: "OMTech Laser CO2 — Guide d'utilisation"
+sidebar_label: "OMTech Laser CO2"
+sidebar_position: 1
+---
+
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
+# OMTech Laser CO2
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Découpe</span>
+  <span className="badge badge--primary">Gravure</span>
+  <span className="badge badge--info">Laser CO2</span>
+</div>
+
+**Type** : Découpeuse et graveuse laser CO2  
+**Surface de travail** : 600 x 400 mm  
+**Difficulté** : Intermédiaire
+
+</div>
+
+<img src="/img/photos/machines/PXL_20260420_084512472.MP.jpg" alt="OMTech Laser CO2" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0, borderRadius: '10px', background: '#f5f5f5', padding: '0.5rem'}} />
+
+</div>
+
+---
+
+## Présentation
+
+La OMTech Laser CO2 est une découpeuse et graveuse laser qui produit un faisceau infrarouge (longueur d'onde 10,6 micromètres) à partir d'un tube rempli de dioxyde de carbone. Ce faisceau, focalisé par une lentille, permet de couper ou de graver une grande variété de matériaux avec une précision remarquable.
+
+Le laser CO2 excelle sur les matériaux organiques et certains plastiques. Il permet de découper du bois, du MDF, de l'acrylique (PMMA), du carton, du cuir et du tissu. En mode gravure, il peut aussi marquer le verre, la pierre ou le métal peint. La polyvalence de cette machine en fait un outil central dans tout FabLab.
+
+Avec cette machine, vous pouvez réaliser des boîtes à assemblage par encoches, des décorations personnalisées, des pochoirs, de la signalétique, des bijoux en acrylique, des maquettes architecturales et bien plus encore.
+
+## Avant de commencer
+
+:::info[**Sécurité et bonnes pratiques**]
+Le laser CO2 présente des risques sérieux si les consignes ne sont pas respectées.
+
+- **Ne jamais laisser la machine sans surveillance** pendant un travail. Un départ de feu est toujours possible, même sur des matériaux courants.
+- **Ventilation obligatoire** : la hotte aspirante doit être en marche avant de lancer toute opération. Les fumées dégagées sont nocives.
+- **Ne jamais découper de PVC, vinyle ou polycarbonate.** Ces matériaux libèrent du chlore gazeux (acide chlorhydrique), extrêmement toxique pour vous et corrosif pour la machine.
+- **Porter des lunettes de protection adaptées** au laser CO2 si vous observez le travail de près.
+- **Garder un extincteur à portée de main.** En cas de flamme, arrêter immédiatement la machine.
+- **Vérifier que le circuit de refroidissement fonctionne** (eau circulante) avant toute utilisation.
+:::
+
+## Matériel nécessaire
+
+- Matériau à découper ou graver (bois, acrylique, carton, cuir, tissu)
+- Un fichier vectoriel (SVG, DXF ou AI) pour la découpe, ou une image (PNG, BMP) pour la gravure
+- Un ordinateur avec LightBurn ou RDWorks installé
+- Ruban de masquage (optionnel, pour protéger la surface lors de la gravure)
+
+## Matériaux compatibles
+
+| Matériau | Découpe | Gravure | Remarques |
+|---|---|---|---|
+| **Contreplaqué (peuplier, bouleau)** | 3-6 mm | Oui | Le plus courant au FabLab. Le peuplier donne des bords clairs, le bouleau des bords plus foncés. |
+| **MDF** | 3-6 mm | Oui | Découpe nette, mais dégage plus de fumée que le bois massif. |
+| **Acrylique (PMMA)** | Jusqu'à 10 mm | Oui | Laisser le film protecteur pendant la découpe. L'acrylique coulé donne de meilleurs résultats que l'extrudé. |
+| **Carton / Carton plume** | Oui | Oui | Faible puissance, surveiller les flammes. |
+| **Cuir véritable** | Oui (fin) | Oui | Odeur forte, bonne ventilation indispensable. Ne pas utiliser de cuir synthétique (peut contenir du PVC). |
+| **Tissu (coton, feutre)** | Oui | Oui | Les bords sont cautérisés, pas d'effilochage. |
+| **Papier** | Oui | Oui | Très faible puissance. Idéal pour les pochoirs et la papeterie. |
+| **Verre** | Non | Oui (marquage) | La gravure crée un effet dépoli blanc mat. |
+| **Pierre / Ardoise** | Non | Oui (marquage) | Gravure de surface uniquement. |
+
+:::danger[**Matériaux INTERDITS**]
+- **PVC / Vinyle** : dégage du chlore gazeux (acide chlorhydrique), toxique et corrosif.
+- **Polycarbonate (Lexan)** : dégage des fumées toxiques et jaunit.
+- **ABS** : dégage du cyanure d'hydrogène.
+- **Fibre de verre / Fibre de carbone** : libère des particules dangereuses.
+- **En cas de doute, ne découpez pas le matériau.** Demandez conseil.
+:::
+
+---
+
+## Étape 1 — Préparer le fichier
+
+Ouvrez votre fichier dans **LightBurn** (recommandé) ou **RDWorks**. Pour la découpe, utilisez des tracés vectoriels (lignes fermées). Pour la gravure, importez une image bitmap ou utilisez du texte et des formes remplies.
+
+Dans LightBurn, assignez les couleurs de calques : chaque couleur correspond à un réglage de puissance et de vitesse. Les lignes de découpe sont généralement en mode "Line" et les zones à graver en mode "Fill". Réglez les paramètres selon le matériau : par exemple, pour du contreplaqué de 3 mm, essayez 20 mm/s à 60 % de puissance pour la découpe.
+
+## Étape 2 — Préparer la machine
+
+Placez votre matériau bien à plat sur le plateau nid d'abeille. Assurez-vous qu'il ne dépasse pas de la surface de travail. Réglez la hauteur focale du laser à l'aide de la cale de mise au point fournie : la distance entre la lentille et le matériau doit être exacte pour obtenir un trait de découpe net.
+
+Allumez la ventilation et vérifiez que le circuit d'eau de refroidissement est actif. Fermez le capot de la machine. Dans LightBurn, connectez-vous à la machine et utilisez la fonction "Frame" pour visualiser le contour du travail sans tirer le laser.
+
+## Étape 3 — Lancer la découpe
+
+Vérifiez une dernière fois les paramètres (puissance, vitesse, nombre de passes). Lancez le travail depuis LightBurn en cliquant sur "Start". Restez à côté de la machine pendant toute la durée de l'opération. Surveillez l'apparition de flammes ou de fumée anormale. En cas de problème, appuyez immédiatement sur le bouton d'arrêt d'urgence.
+
+Le temps d'exécution varie selon la complexité du fichier et le matériau. Une découpe simple prend quelques minutes, tandis qu'une gravure photo détaillée peut durer plus d'une heure.
+
+## Étape 4 — Retirer et finaliser la pièce
+
+Attendez quelques secondes après la fin du travail pour laisser les fumées s'évacuer. Ouvrez le capot et retirez délicatement votre pièce. Si vous avez utilisé du ruban de masquage, retirez-le pour révéler une gravure propre.
+
+Nettoyez les résidus de découpe sur le plateau. Si les bords sont noircis (courant sur le bois), un léger ponçage ou un passage à l'alcool isopropylique peut améliorer le rendu. Vérifiez que la machine est propre avant de la laisser.
+
+---
+
+## Conseils et astuces
+
+:::info[**Pour de meilleurs résultats**]
+- Faites toujours un **test sur une chute** de votre matériau avant de lancer le travail final.
+- Appliquez du **ruban de masquage** sur la surface avant la gravure pour éviter les traces de fumée.
+- Pour la découpe d'acrylique, laissez le film protecteur en place : il protège la surface et réduit les flammes.
+- Notez vos réglages (puissance, vitesse, matériau) dans un carnet pour constituer votre propre référence.
+- En gravure photo, convertissez votre image en niveaux de gris et utilisez le tramage (dithering) pour un meilleur rendu.
+:::
+
+## Aller plus loin
+
+- [Documentation LightBurn](https://docs.lightburnsoftware.com/latest/) — Guide complet du logiciel
+- [Réglages laser par matériau — OMTech](https://omtech.com/blogs/knowledge/material-settings-for-laser-engravers) — Paramètres de puissance et vitesse
+- [Bibliothèque de matériaux LightBurn](https://docs.lightburnsoftware.com/legacy/UI/MaterialLibrary) — Gérer vos préréglages de découpe
+
+---
+
+<div style={{textAlign: 'center', marginTop: '2rem', fontSize: '0.85rem', opacity: 0.6}}>
+Wiki@LAB — L.A.B · Licence CC BY-SA 4.0
+</div>

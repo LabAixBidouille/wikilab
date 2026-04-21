@@ -41,7 +41,7 @@ export const machines: Machine[] = [
     specs: ['Volume : 256x256x256 mm', 'Multi-couleur avec AMS', 'FDM Core XY'],
     photo: `${MP}/PXL_20260420_084443907.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/bambu-x1-carbon',
+    docPath: '/machines/impression-3d/bambu-x1-carbon',
   },
   {
     id: 'volumic-stream-sh65',
@@ -51,7 +51,7 @@ export const machines: Machine[] = [
     specs: ['Grand volume', 'FDM', 'Fabrication française'],
     photo: `${MP}/PXL_20260420_084438795.MP.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/volumic-stream-sh65',
+    docPath: '/machines/impression-3d/volumic-stream-sh65',
   },
   {
     id: 'raise3d-n2',
@@ -61,7 +61,7 @@ export const machines: Machine[] = [
     specs: ['Volume : 305x305x305 mm', 'Double extrusion', 'FDM'],
     photo: `${MP}/PXL_20260420_084453333.MP.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/raise3d-n2',
+    docPath: '/machines/impression-3d/raise3d-n2',
   },
   {
     id: 'ultimaker-2plus',
@@ -71,7 +71,7 @@ export const machines: Machine[] = [
     specs: ['Volume : 223x223x205 mm', 'Simple extrusion', 'FDM'],
     photo: `${MP}/PXL_20260420_084446693.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/ultimaker-2plus',
+    docPath: '/machines/impression-3d/ultimaker-2plus',
   },
   {
     id: 'elegoo-saturn',
@@ -81,7 +81,7 @@ export const machines: Machine[] = [
     specs: ['Résine UV', 'Haute résolution', 'MSLA'],
     photo: `${MP}/PXL_20260420_084402907.MP.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/elegoo-saturn',
+    docPath: '/machines/impression-3d/elegoo-saturn',
   },
   {
     id: 'elegoo-mars-2',
@@ -91,7 +91,7 @@ export const machines: Machine[] = [
     specs: ['Résine UV', 'MSLA', 'Station Mercury Plus incluse'],
     photo: `${MP}/PXL_20260420_084427280.jpg`,
     available: true,
-    docPath: '/ressources/machines/impression-3d/elegoo-mars-2',
+    docPath: '/machines/impression-3d/elegoo-mars-2',
   },
   {
     id: 'omtech-laser',
@@ -101,7 +101,7 @@ export const machines: Machine[] = [
     specs: ['Laser CO2', 'Grand plateau', 'Découpe et gravure'],
     photo: `${MP}/PXL_20260420_084512472.MP.jpg`,
     available: true,
-    docPath: '/ressources/machines/decoupe-gravure/omtech-laser-co2',
+    docPath: '/machines/decoupe-gravure/omtech-laser-co2',
   },
   {
     id: 'monport-laser',
@@ -111,7 +111,7 @@ export const machines: Machine[] = [
     specs: ['Laser fibre', 'Gravure métal', 'Haute précision'],
     photo: `${MP}/PXL_20260413_083137985.jpg`,
     available: true,
-    docPath: '/ressources/machines/decoupe-gravure/monport-laser-fibre',
+    docPath: '/machines/decoupe-gravure/monport-laser-fibre',
   },
   {
     id: 'carvera-air',
@@ -121,7 +121,7 @@ export const machines: Machine[] = [
     specs: ['CNC de bureau', 'Enceinte fermée', 'Bois, PCB, aluminium'],
     photo: `${MP}/PXL_20260420_084343422.jpg`,
     available: true,
-    docPath: '/ressources/machines/fabrication/carvera-air',
+    docPath: '/machines/fabrication/carvera-air',
   },
   {
     id: 'silhouette-cameo-2',
@@ -131,7 +131,7 @@ export const machines: Machine[] = [
     specs: ['Largeur de coupe : 305 mm', 'Découpe vinyle, papier, carton fin'],
     photo: `${MP}/Cameo2_Main-small-1.jpg`,
     available: true,
-    docPath: '/ressources/machines/decoupe-gravure/silhouette-cameo-2',
+    docPath: '/machines/decoupe-gravure/silhouette-cameo-2',
   },
   {
     id: 'silhouette-cameo-4',
@@ -141,7 +141,7 @@ export const machines: Machine[] = [
     specs: ['Largeur de coupe : 305 mm', 'Force de coupe : 5 kg', 'Découpe vinyle, carton, tissu'],
     photo: `${MP}/2329059278.jpg`,
     available: true,
-    docPath: '/ressources/machines/decoupe-gravure/silhouette-cameo-4',
+    docPath: '/machines/decoupe-gravure/silhouette-cameo-4',
   },
   {
     id: 'presse-chaleur',
@@ -151,7 +151,7 @@ export const machines: Machine[] = [
     specs: ['Multi-supports', 'Accessoires interchangeables'],
     photo: `${MP}/71UTRV+OyvL.jpg`,
     available: true,
-    docPath: '/ressources/machines/fabrication/presse-a-chaleur',
+    docPath: '/machines/fabrication/presse-a-chaleur',
   },
   {
     id: 'singer',
@@ -161,7 +161,7 @@ export const machines: Machine[] = [
     specs: ['10 points de couture', 'Enfile-aiguille automatique'],
     photo: `${MP}/PXL_20260420_085530658.jpg`,
     available: true,
-    docPath: '/ressources/machines/fabrication/singer-tradition-2250',
+    docPath: '/machines/fabrication/singer-tradition-2250',
   },
   {
     id: 'station-soudure',
@@ -171,7 +171,7 @@ export const machines: Machine[] = [
     specs: ['Yihua 959D II (soudure + air chaud)', 'Weller (soudure de précision)'],
     photo: `${MP}/PXL_20260420_085047621.jpg`,
     available: true,
-    docPath: '/ressources/machines/electronique/station-soudure',
+    docPath: '/machines/electronique/station-soudure',
   },
   {
     id: 'oscilloscope',
@@ -181,7 +181,7 @@ export const machines: Machine[] = [
     specs: ['4 voies', '100 MHz', '1 GSa/s'],
     photo: `${MP}/PXL_20260420_085023396.jpg`,
     available: true,
-    docPath: '/ressources/machines/electronique/oscilloscope-rigol',
+    docPath: '/machines/electronique/oscilloscope-rigol',
   },
   {
     id: 'microscope',
@@ -191,6 +191,6 @@ export const machines: Machine[] = [
     specs: ['Écran intégré', 'Zoom numérique'],
     photo: `${MP}/PXL_20260420_085055152.jpg`,
     available: true,
-    docPath: '/ressources/machines/electronique/microscope-numerique',
+    docPath: '/machines/electronique/microscope-numerique',
   },
 ];

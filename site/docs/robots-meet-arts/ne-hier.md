@@ -31,6 +31,17 @@ sidebar_position: 28
 - Vidéoprojecteur pour démonstration collective
 - Robots pour la partie programmation (Cubetto, Sphero Indi, robot micro:bit ou un seul type)
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Fiche de mémorisation
+- Exemples de grilles 6x6
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_N%C3%A9_hier_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

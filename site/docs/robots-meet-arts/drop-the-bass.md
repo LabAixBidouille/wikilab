@@ -36,6 +36,17 @@ sidebar_position: 10
 
 **Bonus** : Si possible, demandez à quelqu'un d'apporter une guitare basse et une guitare acoustique et de savoir en jouer ! C'est une façon fantastique d'impliquer les parents, les grands frères et sœurs ou des amis pour une démonstration en début de séance.
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Gabarit de la guitare basse
+- Schéma de disposition du papier aluminium
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_DropTheBass_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

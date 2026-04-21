@@ -30,6 +30,18 @@ sidebar_position: 20
 - Crayons et papier si vous souhaitez proposer une réflexion écrite individuelle
 - Si vous préférez un format numérique, vous pouvez utiliser un tableau blanc interactif ou des outils comme Padlet, Jamboard ou Canva pour créer une checklist collaborative
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Exemple d'organisation du tapis
+- Tuiles étape et tuiles action
+- Tapis complet
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_R%C3%A9solutionConflit_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

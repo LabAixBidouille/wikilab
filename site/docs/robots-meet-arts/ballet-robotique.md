@@ -28,6 +28,8 @@ sidebar_position: 2
 - LEGO WeDo 2.0 (tout autre robot peut également être utilisé : Bee-Bot, LEGO Spike, etc.)
 - Ordinateur portable avec le logiciel LEGO WeDo 2.0 installé
 
+<a href="/pdf/robots-meet-arts/RMA_BalletRobotique_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>

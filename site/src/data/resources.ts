@@ -1178,6 +1178,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['programmation', 'experimentation'],
     keywords: ['climat', 'ODD', 'Blue-Bot', 'développement durable', 'fresque'],
+    pdf: '/pdf/robots-meet-arts/RMA_AgirVertPenserJuste_FR.pdf',
   },
   {
     id: 'art-binaire',
@@ -1194,6 +1195,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['experimentation', 'bricolage'],
     keywords: ['binaire', 'LEGO Dots', 'code', 'impression', 'motifs'],
+    pdf: '/pdf/robots-meet-arts/RMA_ArtBinaire_FR.pdf',
   },
   {
     id: 'aventure-odd',
@@ -1210,6 +1212,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['programmation'],
     keywords: ['ODD', 'MakeCode Arcade', 'jeu vidéo', 'citoyenneté', 'programmation par blocs'],
+    pdf: '/pdf/robots-meet-arts/RMA_AventureODD_FR.pdf',
   },
   {
     id: 'balade-musicale',
@@ -1226,6 +1229,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['musique', 'boomwhackers', 'instructions', 'rythme', 'décomposition'],
+    pdf: '/pdf/robots-meet-arts/RMA_BaladeMusicale_FR.pdf',
   },
   {
     id: 'ballet-robotique',
@@ -1242,6 +1246,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation'],
     keywords: ['ballet', 'danse', 'LEGO WeDo', 'chorégraphie', 'synchronisation'],
+    pdf: '/pdf/robots-meet-arts/RMA_BalletRobotique_FR.pdf',
   },
   {
     id: 'cabane-outils',
@@ -1258,6 +1263,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['programmation', 'bricolage', 'experimentation'],
     keywords: ['boussole', 'micro:bit', 'orientation', 'points cardinaux', 'magnétomètre'],
+    pdf: '/pdf/robots-meet-arts/RMA_Cabane_Outils_FR.pdf',
   },
   {
     id: 'chasseurs-tresors',
@@ -1274,6 +1280,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['LEGO Spike', 'chasse au trésor', 'narration', 'théâtre', 'robot'],
+    pdf: '/pdf/robots-meet-arts/RMA_ChasseursTr%C3%A9sors_FR.pdf',
   },
   {
     id: 'chefs-oeuvre',
@@ -1290,6 +1297,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'experimentation'],
     keywords: ['art', 'mémoire', 'robot de sol', 'musée', 'couleurs'],
+    pdf: '/pdf/robots-meet-arts/RMA_ChefsOeuvre_FR.pdf',
   },
   {
     id: 'collage-fou-code',
@@ -1306,6 +1314,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee', 'bricolage'],
     keywords: ['Matisse', 'collage', 'algorithme', 'décomposition', 'instructions'],
+    pdf: '/pdf/robots-meet-arts/RMA_CollageFouCode_FR.pdf',
   },
   {
     id: 'course-voitures',
@@ -1322,6 +1331,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['LEGO Spike', 'course', 'anglais', 'comparatifs', 'voiture'],
+    pdf: '/pdf/robots-meet-arts/RMA_CourseVoitures_FR.pdf',
   },
   {
     id: 'decouverte-histoire',
@@ -1338,6 +1348,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['histoire', 'explorateurs', 'itinéraire', 'algorithme', 'carte'],
+    pdf: '/pdf/robots-meet-arts/RMA_D%C3%A9couverteHistoire_FR.pdf',
   },
   {
     id: 'dilemmes-valeurs',
@@ -1354,6 +1365,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['programmation'],
     keywords: ['dilemme', 'valeurs', 'Scratch', 'morale', 'esprit critique'],
+    pdf: '/pdf/robots-meet-arts/RMA_DilemnesValeurs_FR.pdf',
   },
   {
     id: 'drop-the-bass',
@@ -1370,6 +1382,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['Makey Makey', 'musique', 'guitare', 'Scratch', 'instrument'],
+    pdf: '/pdf/robots-meet-arts/RMA_DropTheBass_FR.pdf',
   },
   {
     id: 'ed-range-chambre',
@@ -1386,6 +1399,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['programmation'],
     keywords: ['Edison', 'robot de sol', 'algorithme', 'vocabulaire', 'chambre'],
+    pdf: '/pdf/robots-meet-arts/RMA_EdRangeChambre_FR.pdf',
   },
   {
     id: 'filtre-artiste',
@@ -1402,6 +1416,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['Scratch Lab', 'filtre', 'réalité augmentée', 'art', 'caméra'],
+    pdf: '/pdf/robots-meet-arts/RMA_FiltreArtiste_FR.pdf',
   },
   {
     id: 'journee-robin',
@@ -1418,6 +1433,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['anglais', 'routine', 'grille', 'robot', 'grammaire'],
+    pdf: '/pdf/robots-meet-arts/RMA_Journ%C3%A9eRobin_FR.pdf',
   },
   {
     id: 'mission-voyageurs-temps',
@@ -1434,6 +1450,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['histoire', 'Scratch', 'voyage dans le temps', 'animation', 'époques'],
+    pdf: '/pdf/robots-meet-arts/RMA_MissionVoyageursTemps_FR.pdf',
   },
   {
     id: 'mode-danse',
@@ -1450,6 +1467,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['danse', 'Scratch', 'chorégraphie', 'blocs', 'EPS'],
+    pdf: '/pdf/robots-meet-arts/RMA_ModeDanse.pdf',
   },
   {
     id: 'ne-hier',
@@ -1466,6 +1484,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['debranchee', 'experimentation'],
     keywords: ['intelligence artificielle', 'renforcement', 'apprentissage', 'grille', 'simulation'],
+    pdf: '/pdf/robots-meet-arts/RMA_N%C3%A9_hier_FR.pdf',
   },
   {
     id: 'octostudio-premiers-pas',
@@ -1482,6 +1501,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['programmation'],
     keywords: ['Octo Studio', 'tablette', 'programmation par blocs', 'animation', 'créativité'],
+    pdf: '/pdf/robots-meet-arts/RMA_OctoStudioPremiersPas_FR.pdf',
   },
   {
     id: 'octostudio-visages',
@@ -1498,6 +1518,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'bricolage'],
     keywords: ['Octo Studio', 'visages', 'émotions', 'animation', 'arts plastiques'],
+    pdf: '/pdf/robots-meet-arts/RMA_OctoStudioVisages_FR.pdf',
   },
   {
     id: 'once-upon-code',
@@ -1514,6 +1535,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation'],
     keywords: ['Scratch', 'anglais', 'narration', 'histoire animée', 'enregistrement'],
+    pdf: '/pdf/robots-meet-arts/RMA_OnceUponCode_FR.pdf',
   },
   {
     id: 'passe-le-paquet',
@@ -1530,6 +1552,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['debranchee'],
     keywords: ['réseau', 'routage', 'paquets', 'algorithme', 'internet'],
+    pdf: '/pdf/robots-meet-arts/RMA_PasselePaquet_FR.pdf',
   },
   {
     id: 'quete-curry',
@@ -1546,6 +1569,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['debranchee', 'bricolage'],
     keywords: ['algorigramme', 'jeu de société', 'narration', 'littérature', 'cuisine'],
+    pdf: '/pdf/robots-meet-arts/RMA_Qu%C3%AAteCurry.pdf',
   },
   {
     id: 'rangers-tri',
@@ -1562,6 +1586,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['recyclage', 'tri', 'robot', 'environnement', 'grille'],
+    pdf: '/pdf/robots-meet-arts/RMA_RangersTri_FR.pdf',
   },
   {
     id: 'resolution-conflit',
@@ -1578,6 +1603,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['conflit', 'résolution', 'algorithme', 'vivre ensemble', 'empathie'],
+    pdf: '/pdf/robots-meet-arts/RMA_R%C3%A9solutionConflit_FR.pdf',
   },
   {
     id: 'robot-petit-dej',
@@ -1594,6 +1620,7 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['debranchee'],
     keywords: ['algorithme', 'décomposition', 'instructions', 'petit-déjeuner', 'séquence'],
+    pdf: '/pdf/robots-meet-arts/RMA_RobotPetitDej_FR.pdf',
   },
   {
     id: 'rome',
@@ -1610,6 +1637,7 @@ export const resources: Resource[] = [
     difficulty: 'intermediaire',
     formats: ['programmation', 'experimentation'],
     keywords: ['Rome antique', 'Tale-Bot', 'histoire', 'société', 'robot'],
+    pdf: '/pdf/robots-meet-arts/RMA_Rome_FR.pdf',
   },
   {
     id: 'terre-ombre',
@@ -1626,6 +1654,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['programmation', 'experimentation'],
     keywords: ['micro:bit', 'luminosité', 'urbanisme', 'capteur', 'ombre'],
+    pdf: '/pdf/robots-meet-arts/RMA_Terre_Ombre_FR.pdf',
   },
 ];
 

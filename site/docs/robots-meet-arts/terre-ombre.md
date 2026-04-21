@@ -47,6 +47,18 @@ sidebar_position: 29
 - Plants ou graines adaptés au climat local, terre, pots ou jardinières
 - Planches et clous pour nichoirs, matériaux naturels pour hôtel à insectes
 
+<div style={{marginTop: "1.5rem"}}/>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+
+- Fiches descriptives d'éco-quartiers
+- Grilles d'observation
+- Plans du quartier
+
+:::
+
+<a href="/pdf/robots-meet-arts/RMA_Terre_Ombre_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
 </div>
 
 </div>
