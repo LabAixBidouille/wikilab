@@ -12,15 +12,13 @@ sidebar_position: 3
   <span className="badge badge--info">Textile</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Machine à coudre mécanique — 10 points |
-| **Enfilage** | Automatique (enfile-aiguille intégré) |
-| **Difficulté** | Débutant |
+**Type** : Machine à coudre mécanique — 10 points  
+**Enfilage** : Automatique (enfile-aiguille intégré)  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
 La Singer Tradition 2250 est une machine à coudre mécanique robuste et simple d'utilisation, idéale pour débuter en couture. Elle propose 10 types de points différents (point droit, zigzag, points décoratifs, boutonnière en 4 étapes) et dispose d'un enfile-aiguille automatique qui facilite grandement la mise en route.
 
@@ -46,6 +44,26 @@ La Tradition 2250 accepte la plupart des tissus courants : coton, polyester, jer
 - Des ciseaux de couture ou un cutter rotatif
 - Des épingles droites ou des pinces de couture pour maintenir les pièces ensemble
 - L'aiguille appropriée au tissu (aiguille universelle 80/12 pour coton, aiguille 90/14 pour jean)
+
+## Tissus et fils compatibles
+
+| Tissu | Aiguille | Point recommandé | Remarques |
+|---|---|---|---|
+| **Coton** | Universelle 80/12 | Point droit | Le tissu le plus facile pour débuter. |
+| **Polyester** | Universelle 80/12 | Point droit | Similaire au coton, légèrement glissant. |
+| **Jersey / Tissus extensibles** | Stretch (bout rond) 75/11 | Zigzag étroit | L'aiguille stretch évite de trouer les mailles. Le zigzag conserve l'élasticité. |
+| **Lin** | Universelle 90/14 | Point droit | Tissu naturel, se froisse facilement. Repasser avant de coudre. |
+| **Jean (denim)** | Jeans 90/14 ou 100/16 | Point droit | Tissu épais, avancer lentement. Changer d'aiguille plus souvent. |
+| **Simili cuir** | Cuir 90/14 | Point droit long (3-3.5 mm) | Ne pas utiliser d'épingles (trous permanents). Utiliser des pinces. |
+| **Feutre** | Universelle 80/12 | Point droit | Facile, ne s'effiloche pas. Idéal pour les projets enfants. |
+| **Tissu technique (Cordura, ripstop)** | Universelle 90/14 | Point droit | Pour sacs, housses, protections. |
+
+:::note[**Conseils pour le choix du fil**]
+- **Fil polyester universel** : convient à 90 % des projets. Résistant et compatible avec tous les tissus.
+- **Fil de coton** : pour les puristes, sur tissu coton uniquement. Moins résistant que le polyester.
+- **Fil conducteur** : pour les projets d'électronique textile (e-textiles). À utiliser sur la canette avec tension minimale.
+- **Couleur du fil** : assortir au tissu pour des coutures invisibles, ou contraster volontairement pour un effet décoratif.
+:::
 
 ---
 

@@ -51,9 +51,8 @@ sidebar_position: 9
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Créez une grille de 10 x 10 au sol à l'aide du ruban adhésif.
 - Préparez des cartes avec des symboles et les mots d'instruction correspondants.
@@ -79,15 +78,13 @@ Formez ensuite des groupes de trois. Un élève donne des instructions pour guid
 
 Demandez aux élèves de noter leurs instructions et d'essayer de les suivre avec précision : un élève du groupe lit les instructions pendant que les deux autres marchent sur la grille. S'ils suivent correctement les instructions, ils devraient se déplacer ensemble. Sinon, ils retournent à leur point de départ.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Préparez le matériel suivant :
 - Boomwhackers
@@ -131,13 +128,11 @@ Prenez le temps de présenter les défis et de donner quelques explications avan
 - Environ 10 temps de musique.
 - Utilisez les cartes pour assembler un rythme.
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Revenez sur l'activité avec les élèves :
 
@@ -150,7 +145,6 @@ Trouvez un élève qui aime montrer une petite danse ou un mouvement. Décompose
 
 Illustrez les différents mouvements et donnez-leur des noms (par exemple : bras en l'air, hanches à gauche, tête en haut, etc.).
 
-*Fin de la séquence « Balade musicale ».*
 
 ---
 

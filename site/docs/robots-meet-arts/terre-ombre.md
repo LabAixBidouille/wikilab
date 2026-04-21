@@ -116,9 +116,8 @@ Le diagnostic territorial s&#39;appuie sur trois piliers :
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Sélectionner et préparer des images et vidéos d&#39;écoquartiers variés (Vauban à Fribourg, BedZED à Londres, Clichy-Batignolles à Paris, Confluence à Lyon)
 - Préparer une grande affiche vierge pour la carte mentale collective
@@ -155,15 +154,13 @@ Une fois que chaque groupe a présenté son écoquartier, passez à une phase de
 
 Pour chaque principe, explorez avec eux le pourquoi en vous appuyant sur les exemples concrets. Pourquoi planter des arbres ? Pour rafraîchir, créer de l&#39;ombre, améliorer la qualité de l&#39;air, favoriser la biodiversité. Pourquoi récupérer l&#39;eau de pluie ? Pour économiser l&#39;eau potable, éviter les inondations, arroser les plantes.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparer 3-4 micro:bit avec leurs batteries et boîtiers de protection étanches
 - Installer MakeCode sur les ordinateurs de classe
@@ -250,15 +247,13 @@ Lancez une discussion en posant des questions qui mettent en lien les différent
 
 Terminez cette étape en choisissant ensemble 3 ou 4 actions prioritaires qui guideront la suite du projet.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparer une base rigide (carton ou contreplaqué, ~1m x 1m) et du matériel de dessin
 - Collecter des matériaux de récupération (boîtes, rouleaux, bouteilles plastique)
@@ -305,13 +300,11 @@ Après avoir imaginé la transformation sur la maquette, passez à des actions r
 
 Sélectionnez ensemble 1 ou 2 actions prioritaires qui correspondent aux problèmes identifiés dans votre diagnostic. Planifiez qui fait quoi, quand, et avec quel matériel. Puis réalisez vos aménagements dans l&#39;école lors d&#39;une demi-journée dédiée, en documentant avec des photos.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Organisez une présentation publique du projet pour valoriser le travail des élèves. Invitez d&#39;autres classes, les parents, et si possible des représentants de la municipalité ou d&#39;associations locales. Les élèves présentent leur démarche complète : le diagnostic (observations, mesures, enquête), les problèmes identifiés, la maquette du quartier transformé, et les actions concrètes réalisées dans l&#39;école.
 
@@ -330,7 +323,6 @@ Aidez les élèves à prendre conscience des compétences développées au-delà
 
 Pour terminer, proposez un temps d&#39;expression individuelle où chaque élève écrit ou dessine ce qu&#39;il retient du projet. Vous pouvez créer un « livre du projet » collectif rassemblant ces témoignages, les photos des différentes étapes, et les productions réalisées.
 
-*Fin de la séquence « La terre à l&#39;ombre ».*
 
 ---
 

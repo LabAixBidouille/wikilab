@@ -44,13 +44,12 @@ sidebar_position: 20
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 ### Explorer la notion de conflit
 
 Cette première partie de l&#39;activité est consacrée au partage et à l&#39;échange autour de la notion de conflit.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Encouragez le travail en équipe et une communication claire.
 - Veillez à ce que chacun puisse s&#39;exprimer sans jugement.
@@ -66,13 +65,11 @@ Commencez par poser quelques questions aux élèves :
 
 Notez les réponses au tableau. Cette phase permet aux élèves de mobiliser leurs connaissances et expériences, et d&#39;introduire naturellement l&#39;idée que résoudre un conflit peut se décomposer en plusieurs étapes — comme un algorithme.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Les étapes de la résolution de conflit
 
@@ -82,7 +79,7 @@ Le défi pour les élèves : sélectionner les éléments pertinents pour résou
 
 Cette activité peut se faire avec un tapis et des robots de sol, ou de manière débranchée avec des tuiles à manipuler.
 
-:::note[Notes pour l’enseignant·e : les étapes de résolution de conflits à découvrir]
+:::info[Notes pour l'enseignant·e : les étapes de résolution de conflits à découvrir]
 
 - **Se calmer** — Respirer profondément avant de réagir.
 - **Réfléchir** — Que s&#39;est-il passé ? Comment je me sens ? Comment puis-je résoudre cette situation ?
@@ -94,13 +91,11 @@ Cette activité peut se faire avec un tapis et des robots de sol, ou de manière
 
 Une fois les tuiles organisées, chaque groupe présente son algorithme et explique ses choix. La classe discute des différences et des points communs entre les propositions.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 Les élèves appliquent les étapes découvertes à un cas concret. Ils doivent identifier les étapes nécessaires (abstraction) et créer un algorithme de résolution adapté à la situation.
 
@@ -122,13 +117,11 @@ En groupes, les élèves appliquent les étapes vues précédemment pour propose
 - Quels sont les besoins de chaque groupe ?
 - Quelles solutions permettraient de satisfaire tout le monde ?
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Rassemblez les élèves et posez la question : « Quelles étapes avons-nous suivies aujourd&#39;hui pour résoudre le conflit ? »
 
@@ -136,7 +129,6 @@ Notez leurs réponses au tableau ou sur une grande affiche pour créer une check
 
 Cette checklist pourra être réutilisée tout au long de l&#39;année lorsque des conflits surviennent en classe.
 
-*Fin de la séquence « Pas à pas : Réfléchir, résoudre, avancer ».*
 
 ---
 

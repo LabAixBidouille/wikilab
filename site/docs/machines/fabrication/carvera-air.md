@@ -12,17 +12,15 @@ sidebar_position: 1
   <span className="badge badge--info">CNC</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Fraiseuse CNC de bureau — 3 axes |
-| **Surface de travail** | 200 x 150 x 60 mm |
-| **Difficulté** | Intermédiaire |
+**Type** : Fraiseuse CNC de bureau — 3 axes  
+**Surface de travail** : 200 x 150 x 60 mm  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La Carvera Air est une fraiseuse CNC compacte et entièrement carénée, conçue pour un usage en atelier partagé ou sur un bureau. Le principe de la CNC (Computer Numerical Control) consiste à retirer de la matière d'un bloc brut à l'aide d'une fraise rotative pilotée par ordinateur. On parle d'usinage soustractif, par opposition à l'impression 3D qui est additive.
+La Carvera Air est une fraiseuse CNC compacte et entièrement carénée, pensée pour un usage en atelier partagé ou sur un bureau. Le principe de la CNC (Computer Numerical Control) consiste à retirer de la matière d'un bloc brut à l'aide d'une fraise rotative pilotée par ordinateur. On parle d'usinage soustractif, par opposition à l'impression 3D qui est additive.
 
 Grâce à son capot fermé, la Carvera Air contient les copeaux et la poussière générés pendant l'usinage, ce qui la rend bien adaptée à un environnement de type FabLab. Elle dispose également d'un système de mise à zéro automatique de l'outil (auto tool zeroing), qui simplifie considérablement la préparation de chaque travail.
 
@@ -46,6 +44,25 @@ Avec cette machine, vous pouvez usiner du bois, de l'acrylique, de la cire, des 
 - Le matériau brut adapté (plaque de bois, acrylique, cuivre pour PCB, cire, aluminium)
 - Les fraises appropriées au matériau (fournies avec la machine ou disponibles au LAB)
 - Du ruban adhésif double face ou des brides de fixation pour maintenir la pièce
+
+## Matériaux compatibles
+
+| Matériau | Fraise recommandée | Vitesse d'avance | Profondeur de passe | Remarques |
+|---|---|---|---|---|
+| **Bois tendre (pin, tilleul, balsa)** | Fraise 1 dent 3.175 mm | 800-1200 mm/min | 1-2 mm | Facile à usiner, bon pour débuter. |
+| **Bois dur (hêtre, chêne, noyer)** | Fraise 2 dents 3.175 mm | 500-800 mm/min | 0.5-1 mm | Réduire la vitesse, passes moins profondes. |
+| **Contreplaqué** | Fraise 1 ou 2 dents | 600-1000 mm/min | 1-1.5 mm | Attention à la colle entre les plis qui use la fraise. |
+| **MDF** | Fraise 1 dent | 800-1200 mm/min | 1-2 mm | Génère beaucoup de poussière fine. |
+| **Acrylique (PMMA)** | Fraise 1 dent O-flute | 500-800 mm/min | 0.5-1 mm | Ne pas aller trop vite pour éviter de faire fondre le plastique. |
+| **Cuivre (PCB)** | Fraise en V 0.1 mm | 100-300 mm/min | 0.05-0.1 mm | Pour la gravure de circuits imprimés. |
+| **Aluminium tendre (6061)** | Fraise 2 dents 2 mm | 200-400 mm/min | 0.2-0.5 mm | Lubrifier au WD-40. Passes très légères. |
+| **Cire** | Fraise plate 2 mm | 600-1000 mm/min | 1-2 mm | Idéale pour les moules de fonderie. |
+
+:::note[**Conseils pour le choix du matériau**]
+- **Débutant ?** Commencez par du **bois tendre ou du MDF** : ces matériaux pardonnent les erreurs de paramétrage.
+- **Toujours fixer solidement** la pièce. Le fraisage exerce des forces latérales importantes.
+- **Aspirez régulièrement** les copeaux, surtout avec le MDF dont la poussière fine est nocive.
+:::
 
 ---
 

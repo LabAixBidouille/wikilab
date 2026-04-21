@@ -58,9 +58,8 @@ sidebar_position: 26
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez des images représentant les actions de la routine quotidienne pour accompagner le vocabulaire (*wake up, eat breakfast, go to school*, etc.).
 - Sélectionnez 2-3 jeux interactifs adaptés au niveau de vos élèves parmi les liens utiles.
@@ -108,15 +107,13 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves complètent les phrases avec un support visuel.
 - Niveau avancé : Les élèves construisent et racontent la journée de Tom de manière autonome.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Imprimez et découpez les cartes de déplacement pour chaque groupe (voir composition du jeu dans la liste du matériel).
 - Imprimez la petite grille de bureau pour chaque groupe.
@@ -156,13 +153,11 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Ajoutez des étapes supplémentaires et introduisez les cartes « répéter ».
 - Niveau avancé : Les élèves créent des programmes plus complexes en utilisant toutes les cartes disponibles.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Le parcours de Robin
 
@@ -180,13 +175,11 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves construisent leurs phrases avec un support visuel.
 - Niveau avancé : Les élèves narrent le parcours de manière fluide et autonome.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Pour conclure, invitez les élèves à comparer la routine de leur robot avec leur propre routine quotidienne.
 
@@ -203,7 +196,6 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves répondent par des phrases simples en anglais.
 - Niveau avancé : Les élèves développent leurs réponses et échangent entre eux en anglais.
 
-*Fin de la séquence « La journée de Robin ».*
 
 ---
 

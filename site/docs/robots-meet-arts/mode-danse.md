@@ -70,9 +70,8 @@ sidebar_position: 14
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Préparez des paires de cartes pour le jeu « Memory » : une carte avec l&#39;image du bloc Scratch et une autre avec sa description/fonction. Les cartes sont disponibles en annexe dans la partie « Ressources imprimables ». Prévoyez plusieurs lots de cartes pour pouvoir jouer en petit groupe.
 
@@ -106,15 +105,13 @@ Vous pouvez ensuite ouvrir une discussion plus large pour stimuler leur réflexi
 
 En conclusion, établissez le lien avec la prochaine séance en annonçant que certains de ces blocs seront transformés en mouvements corporels pour comprendre concrètement comment fonctionne un programme informatique.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Pour cette deuxième séquence, préparez plusieurs sets de cartes représentant les blocs Scratch qui seront utilisés pour la chorégraphie (au minimum 2 sets, 1 pour chaque équipe). Vous devez vous concentrer sur les blocs qui peuvent être traduits en mouvements : *Quand le drapeau vert est cliqué, Répéter indéfiniment, Attendre ... secondes, Répéter ... fois, Tourner à droite de ... degrés, Tourner à gauche de ... degrés, Avancer de ... pas, Aller à position aléatoire, Arrêter tous les sons, Ajouter ... au volume, Jouer le son miaou, Jouer le son miaou jusqu&#39;au bout.*
 
@@ -160,15 +157,13 @@ Demandez-leur également en quoi l&#39;espace a influencé leur façon de progra
 
 Soulignez l&#39;importance de la précision en programmation et mettez en avant l&#39;utilité des structures de répétition, montrant comment les boucles simplifient et structurent le programme.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Pour cette dernière séquence, préparez des cartes vierges pour la création de blocs personnalisés (sur papier libre ou plastifié), ainsi que du matériel de dessin (feutres, crayons, règles). Organisez l&#39;espace pour permettre un travail créatif et des présentations de chorégraphies.
 
@@ -205,7 +200,6 @@ Discutez des différentes dimensions d&#39;apprentissage :
 
 Concluez en élargissant la vision de la programmation, en la présentant non seulement comme l&#39;écriture de code pour un ordinateur, mais comme une façon de penser, d&#39;organiser ses idées, de résoudre des problèmes et de créer -- un véritable langage d&#39;expression qui peut prendre différentes formes, y compris celle du mouvement.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

@@ -12,18 +12,16 @@ sidebar_position: 2
   <span className="badge badge--info">FDM</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | FDM (dépot de filament fondu) — Grand format |
-| **Volume d'impression** | 300 x 200 x 650 mm |
-| **Fabrication** | Française (Nice) |
-| **Difficulté** | Intermédiaire |
+**Type** : FDM (dépot de filament fondu) — Grand format  
+**Volume d'impression** : 300 x 200 x 650 mm  
+**Fabrication** : Française (Nice)  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La Volumic Stream SH65 est une imprimante 3D FDM de fabrication française, conçue à Nice par la société Volumic. Sa particularité principale est son grand volume d'impression en hauteur (650 mm), ce qui permet de produire des pièces de grande taille en une seule fois, sans avoir à assembler plusieurs morceaux.
+La Volumic Stream SH65 est une imprimante 3D FDM de grand format fabriquée en France par la société Volumic, basée à Nice. Sa particularité principale est son grand volume d'impression en hauteur (650 mm), ce qui permet de produire des pièces de grande taille en une seule fois, sans avoir à assembler plusieurs morceaux.
 
 La technologie FDM fonctionne en faisant fondre un filament plastique à travers une buse chauffée, puis en le déposant couche après couche sur un plateau chauffant. La chambre fermée de la Stream SH65 maintient une température stable autour de la pièce, ce qui réduit les problèmes de déformation (warping), notamment avec l'ABS.
 
@@ -45,6 +43,21 @@ Cette machine est particulièrement adaptée aux projets nécessitant des pièce
 - Du filament 1.75 mm compatible (PLA, ABS, PETG)
 - Une spatule pour le retrait des pièces
 - De la laque ou de la colle en bâton pour l'adhérence au plateau (selon le matériau)
+
+## Matériaux compatibles
+
+| Matériau | Température buse | Température plateau | Propriétés | Usages typiques |
+|---|---|---|---|---|
+| **PLA** | 200-220 °C | 50-60 °C | Facile à imprimer, rigide, biodégradable. Faible résistance thermique (≈60 °C). | Prototypage, objets décoratifs, maquettes |
+| **PETG** | 230-250 °C | 70-80 °C | Bonne résistance mécanique et chimique, légèrement flexible. | Pièces fonctionnelles, contenants alimentaires |
+| **ABS** | 240-260 °C | 100-110 °C | Résistant aux chocs et à la chaleur. Dégage des vapeurs, enceinte fermée recommandée. | Boîtiers, pièces mécaniques, prototypes automobiles |
+
+:::note[**Conseils pour le choix du matériau**]
+- **Débutant ?** Commencez par le **PLA** : il pardonne les erreurs de réglage et ne nécessite pas d'enceinte fermée.
+- **Pièce fonctionnelle ?** Le **PETG** offre le meilleur compromis solidité/facilité d'impression.
+- **Résistance thermique ?** L'**ABS** supporte des températures plus élevées mais nécessite l'enceinte fermée de la Stream SH65 et une bonne ventilation du local.
+- **Stockage** : tous les filaments sont sensibles à l'humidité. Rangez-les dans un sac hermétique avec du dessiccant.
+:::
 
 ---
 

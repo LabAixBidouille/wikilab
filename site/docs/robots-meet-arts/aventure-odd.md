@@ -56,7 +56,6 @@ sidebar_position: 18
 
 ## Introduction
 
-*Une aventure créative à la découverte de la programmation par blocs.*
 
 ### Introduction à MakeCode Arcade
 
@@ -80,13 +79,12 @@ L&#39;objectif de cette activité est d&#39;initier les élèves à la programma
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 Cette phase de mise en route a pour objectif de faire découvrir aux élèves les Objectifs de Développement Durable en les reliant à leurs propres expériences et émotions. L&#39;idée est de développer leur sensibilité à ces enjeux mondiaux et de les rendre concrets, même pour les plus jeunes.
 
 ### Activité A - Découverte des ODD à travers les pictogrammes
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Imprimez ou projetez les pictogrammes des ODD (sans le texte, pour l&#39;exercice de devinettes). Préparez quelques exemples concrets de votre côté au cas où les élèves auraient besoin d&#39;être guidés. Encouragez les échanges et valorisez toutes les réponses pertinentes, même les plus imaginatives : c&#39;est une bonne façon de montrer que les ODD touchent de nombreux aspects de la vie quotidienne.
 
@@ -104,7 +102,7 @@ Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe 
 
 ### Activité B : jouer avec les ODD
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Imprimez les plateaux de jeu ou les livres en avance. Préparez le matériel nécessaire (cartes, recettes, accessoires simples). Organisez la classe en petits groupes pour les jeux de plateau ou en cercle pour les temps de lecture. N&#39;hésitez pas à faire des pauses pour poser des questions de réflexion, comme « En quoi ce problème nous concerne-t-il ? » ou « Que pourrions-nous faire pour aider ? ».
 
@@ -138,7 +136,7 @@ Exemples de jeux :
 
 #### 3. Utiliser la dimension artistique pour ressentir les ODD
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Prévoyez des matériaux artistiques variés : papier, feutres, peinture, colle, objets recyclés. Laissez suffisamment de temps pour une phase de réflexion avant la création. Rappelez aux élèves de représenter à la fois le problème et la solution, pour souligner la notion de citoyenneté active. Concluez par une « visite de galerie » où chaque élève présente son œuvre et réagit à celles des autres.
 
@@ -150,19 +148,17 @@ Chaque élève peut choisir son support : matériaux recyclés, peinture, collag
 
 Cette approche transforme l&#39;apprentissage en expression citoyenne et rend les ODD visibles pour toute la communauté. Au-delà de la pratique artistique, l&#39;activité développe la sensibilité, le jugement et l&#39;engagement : les élèves apprennent à relier émotions, idées et responsabilité citoyenne.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 À partir de la compréhension des enjeux des ODD acquise lors de la mise en route, cette phase de construction offre aux élèves un espace pour explorer de manière dynamique les défis de société. L&#39;objectif est de développer leur esprit critique en éducation à la citoyenneté.
 
 ### Activité A : créer des histoires interactives - Réflexion et remue-méninges
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez un énoncé de mission simple sur une affiche ou une diapositive (« Votre mission : créer des histoires interactives et ludiques qui permettront à vos amis et à votre famille de plonger dans l&#39;univers des ODD »).
 - Utilisez les pictogrammes des ODD imprimés lors de la mise en route pour aider les élèves à visualiser leurs choix.
@@ -194,7 +190,7 @@ Chaque ODD choisi devient une étape du voyage du héros, pour laquelle chaque g
 
 ### Activité B : préparer son programme - Premiers pas dans MakeCode et remue-méninges
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Si besoin, formez-vous à MakeCode Arcade en utilisant le tutoriel fourni en annexe. Amusez-vous et créez votre propre projet pour inspirer vos élèves !
 - Testez les ordinateurs et la connexion internet avant la séance. Ouvrez MakeCode Arcade et vérifiez que les Skillmaps se chargent correctement.
@@ -222,7 +218,7 @@ Le groupe d&#39;élèves qui découvre MakeCode Arcade commence par utiliser les
 
 #### Rotation remue-méninges
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Mettez à disposition papier, feutres et pictogrammes des ODD pour stimuler l&#39;inspiration.
 - Encouragez les croquis : personnages, décors ou diagrammes simples.
@@ -242,7 +238,7 @@ Une fois la première rotation terminée, faites changer les élèves de rôle a
 
 ### Activité C : programmer l&#39;histoire
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Encouragez les élèves à commencer simplement. La complexité pourra être ajoutée ensuite.
 - Préparez une liste d&#39;étapes au tableau (par exemple : Étape 1 -- Créer son héros, Étape 2 -- Ajouter un élément positif, Étape 3 -- Ajouter un danger, Étape 4 -- Définir une règle).
@@ -265,15 +261,13 @@ Invitez-les à documenter leurs choix en notant chaque moment de découragement 
 
 À l&#39;issue de cette activité, chaque groupe aura produit un prototype jouable ou une histoire interactive illustrant l&#39;ODD choisi. La qualité technique peut varier, mais l&#39;essentiel reste la clarté du message citoyen et l&#39;utilisation créative des fonctionnalités de MakeCode Arcade. Les élèves auront également expérimenté le travail en équipe, la prise de décision et le processus d&#39;amélioration continue d&#39;un projet.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - **Préparez l&#39;espace** : Disposez la classe de façon à ce que chaque groupe puisse présenter facilement. Connectez un ordinateur au vidéoprojecteur pour que toute la classe puisse voir les projets. Si le matériel est limité, organisez de courtes rotations pour que les groupes puissent essayer les programmes des autres.
 - **Donnez le ton** : Présentez cette phase comme une célébration plutôt qu&#39;une évaluation. Soulignez que chaque projet est une contribution précieuse au scénario collectif, qu&#39;il soit simple ou avancé.
@@ -295,7 +289,6 @@ Cette présentation ne doit pas nécessairement rester au sein de la classe. Les
 
 À la fin de la séance, les élèves sauvegardent leurs programmes et rangent la classe. Concluez par un court temps de réflexion : « Qu&#39;avons-nous appris sur les ODD ? Qu&#39;avons-nous appris en utilisant la programmation par blocs ? » Les élèves réalisent ainsi que la programmation par blocs n&#39;est pas seulement une compétence technique, mais aussi un moyen créatif d&#39;exprimer des messages citoyens et d&#39;imaginer des solutions ludiques à des enjeux du monde réel.
 
-*Fin de la séquence « L&#39;aventure numérique des ODD ».*
 
 ---
 

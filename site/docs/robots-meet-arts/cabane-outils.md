@@ -97,9 +97,8 @@ Le robot-boussole devient un compagnon d&#39;apprentissage : son « visage » (l
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Procurez-vous une ou plusieurs boussoles traditionnelles pour la démonstration
 - Préparez des affichettes « N », « S », « E », « O » à placer aux quatre coins de la classe
@@ -133,15 +132,13 @@ Montrez une carte micro:bit et expliquez qu&#39;elle contient un capteur spécia
 
 Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille qui tourne, notre robot affichera une flèche lumineuse qui pointera toujours vers le Nord ! »
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) -- sollicitez les familles quelques jours avant
 - Préparez un poste avec le matériel de découpe et collage (ciseaux, colle, ruban adhésif, feutres)
@@ -186,7 +183,7 @@ Avant de construire votre robot, lancez une réflexion collective : à quoi ress
 
 Proposez aux élèves de dessiner leur robot idéal sur papier avant de passer à la construction. Ils peuvent s&#39;inspirer de formes variées : robot humanoïde, animal (hibou qui sait toujours où est le Nord), véhicule futuriste, personnage fantaisiste... puis laissez la classe en petit groupe construire plusieurs versions.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Encouragez la créativité tout en rappelant les contraintes techniques. Un robot très décoré mais qui ne tient pas debout ou dont on ne voit pas l&#39;écran LED ne sera pas fonctionnel. C&#39;est l&#39;occasion d&#39;aborder la notion de cahier des charges en technologie.
 
@@ -230,15 +227,13 @@ Prolongement mathématique -- La symétrie des points cardinaux : Profitez de ce
 
 > Calibration : La première fois qu&#39;on utilise la boussole sur une vraie carte micro:bit, elle demande une calibration. Il faut incliner la carte dans tous les sens jusqu&#39;à ce que toutes les LEDs s&#39;allument, formant un cercle. C&#39;est une étape indispensable pour que les mesures soient précises. Prévoyez du temps pour cette étape avec les élèves.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Repérez le terrain à l&#39;avance : identifiez les zones adaptées pour les parcours (cour, parc proche) et vérifiez les autorisations de sortie si nécessaire
 - Préparez et imprimez des cartes du lieu avec le Nord indiqué (utilisez Géoportail ou OpenStreetMap)
@@ -279,13 +274,11 @@ Pour une version plus sportive, organisez une vraie course d&#39;orientation dan
 
 > Adaptation : Si une sortie extérieure n&#39;est pas possible, créez un parcours d&#39;orientation dans l&#39;école elle-même : couloirs, salles, cour. L&#39;objectif pédagogique reste le même, seul l&#39;espace change.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Une fois l&#39;ensemble des activités réalisées, vous pouvez organiser une exposition des robots-boussoles dans la classe ou dans un espace commun de l&#39;école. Chaque groupe présente son robot : son nom, son design, le programme utilisé, et fait une démonstration de son fonctionnement. Invitez d&#39;autres classes, les parents, ou des représentants de l&#39;école à venir découvrir les créations. Les élèves expliquent le fonctionnement de la boussole, les points cardinaux, et montrent comment orienter une carte.
 
@@ -306,7 +299,6 @@ Créez ensemble une trace écrite récapitulative du projet, incluant :
 - Le code utilisé (en blocs ou en pseudo-code simplifié)
 - Des photos du projet et des activités d&#39;orientation
 
-*Fin de la séquence « La cabane à outils ».*
 
 ---
 

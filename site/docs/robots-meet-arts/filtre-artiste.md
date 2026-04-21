@@ -58,9 +58,8 @@ sidebar_position: 12
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Afin de préparer l&#39;activité, vous pouvez consulter le tutoriel de l&#39;outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
 
@@ -84,15 +83,13 @@ Encouragez les élèves à observer attentivement leur œuvre : quels accessoire
 
 À la fin de cette phase, chaque groupe doit avoir un croquis clair des éléments de réalité augmentée qu&#39;il souhaite créer. Les idées sont prêtes, il est temps de passer à la réalisation !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
 
@@ -153,7 +150,7 @@ Les éléments de réalité augmentée sont maintenant créés et importés dans
 
 Les éléments de réalité augmentée sont prêts, il est maintenant temps de les faire prendre vie en les programmant pour qu&#39;ils suivent le visage !
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Si la taille ou le placement d&#39;un élément de réalité augmentée ne convient pas, sélectionnez-le et cliquez sur « Costumes » pour le redimensionner ou le repositionner.
 
@@ -187,13 +184,11 @@ Distribuez les fiches d&#39;inspiration et laissez les élèves ajouter des él�
 
 Les filtres sont maintenant programmés et fonctionnels. Place aux tests et aux présentations !
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 Les filtres sont terminés, c&#39;est le moment de les tester et de les partager !
 
@@ -223,7 +218,6 @@ Les présentations terminées, il est temps de ranger le matériel et de céléb
 
 Les élèves sauvegardent leur projet Scratch pour pouvoir le partager avec leur famille ou d&#39;autres classes.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

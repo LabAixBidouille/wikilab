@@ -65,9 +65,8 @@ Avant de réaliser cette séance, il est conseillé de commencer par le projet c
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Si possible, demandez à quelqu'un d'apporter une guitare basse et une guitare acoustique, avec un musicien capable d'en jouer ! Sinon, vous pouvez utiliser des images ou rechercher des références en ligne.
 
@@ -81,13 +80,11 @@ Après ce moment de défoulement, demandez aux élèves de décrire ce qu'ils re
 
 Les élèves sont maintenant dans l'ambiance, place à la découverte de l'instrument !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Partie 1 - Découverte de la guitare basse
 
@@ -101,7 +98,7 @@ Vous pouvez expliquer ou démontrer que si l'on peut jouer des notes individuell
 
 ### Exploration du modèle et création (30 min)
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Cette partie demande de la concentration, il peut être judicieux de la placer après une pause. Organisez la classe en groupes selon le nombre de Makey Makey disponibles. Les groupes de trois élèves fonctionnent généralement bien.
 
@@ -129,13 +126,11 @@ Les sons de guitare basse sont déjà disponibles dans la bibliothèque Scratch,
 
 Les guitares sont prêtes et connectées, place au concert !
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Jam Session
 
@@ -147,13 +142,12 @@ Une fois le concert terminé, les élèves retirent délicatement le ruban adhé
 
 Les guitares en carton peuvent être exposées dans la classe et resservir lors d'activités musicales ou de moments de détente.
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Vous pouvez proposer aux élèves de demander à leurs parents s'ils connaissent une chanson marquante avec une ligne de basse mémorable. Ils peuvent partager une vidéo ou un extrait audio et même organiser une mini jam session à la maison avec leurs guitares imaginaires ! S'ils notent le titre de la chanson, vous pourrez l'écouter ensemble en classe le lendemain.
 
 :::
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

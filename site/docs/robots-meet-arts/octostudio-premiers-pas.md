@@ -67,9 +67,8 @@ OctoStudio offre une expérience mobile pensée pour la création et le code. Si
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe.
 - Préparez le matériel indiqué ci-dessus.
@@ -97,13 +96,11 @@ Expliquez aux élèves qu&#39;ils vont utiliser des blocs pour indiquer au sprit
 
 Il existe différents types de blocs. Chaque catégorie a sa propre couleur de fond. Interrogez les élèves sur la signification de chaque catégorie.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Programmer les cartes défis
 
@@ -115,19 +112,16 @@ Vous pouvez également choisir de réaliser chaque exercice en classe entière p
 
 Avant de commencer le défi 8, pensez à donner une instruction supplémentaire aux élèves : la vidéo d&#39;instruction 2. Celle-ci leur permet d&#39;ajouter un second sprite (leur propre création à partir du cercle). Dans le défi 8, ils programment le cercle et le sprite qu&#39;ils ont créé. Un exemple de programme est disponible en vidéo dans le PowerPoint.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Jeu « Devine le cercle »
 
 Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochette au centre. Les élèves présentent leur programme à tour de rôle. Dès qu&#39;un autre élève reconnaît ce que le cercle est devenu, il peut sonner la clochette.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

@@ -13,17 +13,15 @@ sidebar_position: 1
   <span className="badge badge--info">Laser CO2</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Découpeuse et graveuse laser CO2 |
-| **Surface de travail** | 600 x 400 mm |
-| **Difficulté** | Intermédiaire |
+**Type** : Découpeuse et graveuse laser CO2  
+**Surface de travail** : 600 x 400 mm  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La OMTech Laser CO2 est une machine de découpe et de gravure qui utilise un faisceau laser infrarouge (longueur d'onde 10,6 micromètres) produit par un tube rempli de dioxyde de carbone. Ce faisceau, focalisé par une lentille, permet de couper ou de graver une grande variété de matériaux avec une précision remarquable.
+La OMTech Laser CO2 est une découpeuse et graveuse laser qui produit un faisceau infrarouge (longueur d'onde 10,6 micromètres) à partir d'un tube rempli de dioxyde de carbone. Ce faisceau, focalisé par une lentille, permet de couper ou de graver une grande variété de matériaux avec une précision remarquable.
 
 Le laser CO2 excelle sur les matériaux organiques et certains plastiques. Il permet de découper du bois, du MDF, de l'acrylique (PMMA), du carton, du cuir et du tissu. En mode gravure, il peut aussi marquer le verre, la pierre ou le métal peint. La polyvalence de cette machine en fait un outil central dans tout FabLab.
 
@@ -48,6 +46,28 @@ Le laser CO2 présente des risques sérieux si les consignes ne sont pas respect
 - Un fichier vectoriel (SVG, DXF ou AI) pour la découpe, ou une image (PNG, BMP) pour la gravure
 - Un ordinateur avec LightBurn ou RDWorks installé
 - Ruban de masquage (optionnel, pour protéger la surface lors de la gravure)
+
+## Matériaux compatibles
+
+| Matériau | Découpe | Gravure | Remarques |
+|---|---|---|---|
+| **Contreplaqué (peuplier, bouleau)** | 3-6 mm | Oui | Le plus courant au FabLab. Le peuplier donne des bords clairs, le bouleau des bords plus foncés. |
+| **MDF** | 3-6 mm | Oui | Découpe nette, mais dégage plus de fumée que le bois massif. |
+| **Acrylique (PMMA)** | Jusqu'à 10 mm | Oui | Laisser le film protecteur pendant la découpe. L'acrylique coulé donne de meilleurs résultats que l'extrudé. |
+| **Carton / Carton plume** | Oui | Oui | Faible puissance, surveiller les flammes. |
+| **Cuir véritable** | Oui (fin) | Oui | Odeur forte, bonne ventilation indispensable. Ne pas utiliser de cuir synthétique (peut contenir du PVC). |
+| **Tissu (coton, feutre)** | Oui | Oui | Les bords sont cautérisés, pas d'effilochage. |
+| **Papier** | Oui | Oui | Très faible puissance. Idéal pour les pochoirs et la papeterie. |
+| **Verre** | Non | Oui (marquage) | La gravure crée un effet dépoli blanc mat. |
+| **Pierre / Ardoise** | Non | Oui (marquage) | Gravure de surface uniquement. |
+
+:::danger[**Matériaux INTERDITS**]
+- **PVC / Vinyle** : dégage du chlore gazeux (acide chlorhydrique), toxique et corrosif.
+- **Polycarbonate (Lexan)** : dégage des fumées toxiques et jaunit.
+- **ABS** : dégage du cyanure d'hydrogène.
+- **Fibre de verre / Fibre de carbone** : libère des particules dangereuses.
+- **En cas de doute, ne découpez pas le matériau.** Demandez conseil.
+:::
 
 ---
 
@@ -91,7 +111,8 @@ Nettoyez les résidus de découpe sur le plateau. Si les bords sont noircis (cou
 
 - [Documentation LightBurn](https://docs.lightburnsoft.com/) — guide complet du logiciel
 - [Tableau de paramètres laser OMTech](https://omtechlaser.com/blogs/news) — réglages par matériau
-- [Test de matériaux laser sur Instructables](https://www.instructables.com/) — projets et retours d'expérience
+- [Réglages laser par matériau — Lightburn](https://docs.lightburnsoft.com/MaterialSettings)
+- [Projets laser sur Thingiverse](https://www.thingiverse.com/search?q=laser+cut)
 
 ---
 

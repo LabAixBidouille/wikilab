@@ -49,9 +49,8 @@ sidebar_position: 23
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Imprimez et préparez les cartes historiques avec les itinéraires des différents explorateurs.
 - Vérifiez que les élèves ont accès aux cartes d&#39;instructions et aux jetons représentant les navires.
@@ -73,15 +72,13 @@ Projetez une carte historique et posez des questions pour guider la réflexion :
 
 L&#39;enseignant·e exécute des instructions incorrectes ou imprécises données par les élèves (par exemple : « Tourne à droite » sans préciser de combien). Cela provoque des erreurs et aide les élèves à comprendre l&#39;importance de la précision dans les consignes.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Chaque groupe reçoit le matériel suivant :
 - Cartes imprimées des itinéraires des explorateurs
@@ -108,13 +105,11 @@ Les élèves créent une séquence d&#39;instructions pour reproduire le voyage 
 
 Les autres groupes examinent les instructions données pour vérifier si l&#39;itinéraire a été correctement suivi. Si l&#39;« explorateur » se perd ou n&#39;atteint pas sa destination, le groupe corrige ses instructions. Le processus est répété jusqu&#39;à ce que l&#39;itinéraire soit parcouru correctement.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Les élèves rangent et ordonnent le matériel à sa place. Les groupes comparent leurs voyages et discutent de leurs stratégies.
 
@@ -124,7 +119,6 @@ Questions pour guider la discussion :
 - Pourquoi pensez-vous que l&#39;ordre et la précision sont importants ?
 - Quel lien voyez-vous entre cette activité et la programmation informatique ?
 
-*Fin de la séquence « À la découverte de l&#39;histoire ».*
 
 ---
 

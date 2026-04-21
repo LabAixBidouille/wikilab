@@ -47,9 +47,8 @@ sidebar_position: 6
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Pour chaque groupe de 3 élèves, imprimez la fiche d'instructions fournie en annexe. Préparez le bol, la cuillère, les céréales et le lait à portée de main.
 - Si vous avez un groupe à l'aise, vous pouvez choisir de ne pas distribuer la fiche et laisser les élèves rédiger eux-mêmes les instructions pour le robot humain sur une feuille vierge.
@@ -69,13 +68,11 @@ Les élèves commencent par y réfléchir en groupes. Ils peuvent s'aider d'une 
 Le robot exécute tout au pied de la lettre. Mieux vaut donc tester les instructions avant de les lui transmettre.
 :::
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 L'enseignant·e joue le rôle du robot humain.
 
@@ -85,20 +82,17 @@ Laissez autant que possible les élèves réfléchir, observer et corriger par e
 
 En groupe, les élèves établissent la liste des instructions nécessaires pour préparer le petit-déjeuner. Une fois prêts, on passe à la phase collective : le robot humain prépare et mange les céréales devant la classe. Les élèves repèrent eux-mêmes les étapes oubliées ou les consignes mal formulées.
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Concluez l'activité par un court échange. Invitez les élèves à réfléchir à ce qu'ils viennent de faire. Vous pouvez vous appuyer sur les questions suivantes :
 
 - Vous attendiez-vous à ce qu'il y ait autant d'étapes pour préparer et manger un petit-déjeuner ?
 - Qu'est-ce que vous avez trouvé facile ? Difficile ?
 
-*Fin de la séquence « Le robot petit-déjeuner ».*
 
 ---
 

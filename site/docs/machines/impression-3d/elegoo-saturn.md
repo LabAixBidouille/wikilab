@@ -12,18 +12,16 @@ sidebar_position: 5
   <span className="badge badge--info">Résine</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | MSLA (LCD masqué, résine UV) |
-| **Résolution** | 4K mono LCD (3840 x 2400 px, 48 microns/pixel) |
-| **Volume d'impression** | 192 x 120 x 200 mm |
-| **Difficulté** | Intermédiaire |
+**Type** : MSLA (LCD masqué, résine UV)  
+**Résolution** : 4K mono LCD (3840 x 2400 px, 48 microns/pixel)  
+**Volume d'impression** : 192 x 120 x 200 mm  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-L'Elegoo Saturn est une imprimante 3D à résine de type MSLA (Masked Stereolithography). Contrairement aux imprimantes FDM qui déposent du plastique fondu, la Saturn utilise un écran LCD 4K monochrome pour projeter de la lumière UV à travers un bac rempli de résine liquide photosensible. Chaque couche est solidifiée en une seule exposition, ce qui rend le temps d'impression indépendant du nombre de pièces sur le plateau.
+L'Elegoo Saturn est une imprimante 3D à résine de type MSLA (Masked Stereolithography) dotée d'un écran LCD 4K monochrome. Contrairement aux imprimantes FDM qui déposent du plastique fondu, la Saturn projette de la lumière UV à travers un bac rempli de résine liquide photosensible. Chaque couche est solidifiée en une seule exposition, ce qui rend le temps d'impression indépendant du nombre de pièces sur le plateau.
 
 La résolution de 48 microns par pixel permet d'obtenir un niveau de détail exceptionnel, bien supérieur à ce que peut produire une imprimante FDM. Cette technologie est idéale pour les miniatures de jeux de rôle, les bijoux, les maquettes architecturales détaillées, les prototypes dentaires et toute pièce nécessitant des surfaces lisses et des détails fins.
 
@@ -48,6 +46,23 @@ La contrepartie est que la résine liquide est un produit chimique qui nécessit
 - De l'**alcool isopropylique** (IPA, concentration 90 % ou plus) pour le lavage
 - Une station de lavage et polymérisation UV (ou un bac et une lampe UV)
 - Des filtres en papier pour filtrer la résine du bac après utilisation
+
+## Résines compatibles
+
+| Résine | Temps d'exposition | Propriétés | Usages typiques |
+|---|---|---|---|
+| **Standard** | 2-3 s/couche | Bonne résolution, rigide, fragile. Économique. | Figurines, maquettes, prototypage visuel |
+| **ABS-Like** | 2.5-3.5 s/couche | Plus résistante aux chocs que la standard, légèrement flexible. | Pièces fonctionnelles, clips, boîtiers |
+| **Water-Washable** | 2-3 s/couche | Nettoyable à l'eau (pas d'IPA nécessaire). Légèrement moins précise. | Usage simplifié, débutants |
+| **Flexible** | 3-5 s/couche | Souple après polymérisation. | Joints, semelles, prototypes souples |
+| **Castable** | 3-4 s/couche | Brûle sans résidu pour la coulée de métal. | Joaillerie, fonderie |
+
+:::note[**Conseils pour le choix de la résine**]
+- **Débutant ?** La résine **standard Elegoo** (grise) offre le meilleur compromis qualité/prix pour apprendre.
+- **Sans IPA ?** La résine **water-washable** simplifie le post-traitement mais le lavage doit rester bref (< 3 min) pour éviter le ramollissement.
+- **Toujours** secouer la bouteille 30 secondes avant utilisation pour homogénéiser les pigments.
+- **Température** : imprimez entre 20 et 25 °C. En dessous de 18 °C, les temps d'exposition doivent être augmentés.
+:::
 
 ---
 
@@ -110,7 +125,7 @@ Filtrez la résine restante dans le bac avec un filtre en papier avant de la rev
 
 - [Elegoo Saturn — Page officielle](https://www.elegoo.com/collections/saturn-series) — Spécifications et mises à jour firmware
 - [Chitubox — Téléchargement](https://www.chitubox.com/en/download/chitubox-free) — Logiciel de découpe gratuit
-- [Lychee Slicer — Téléchargement](https://mango3d.io/lychee-slicer-for-sla-702702702702702702702702702702-702702702702-702702702702/) — Alternative populaire pour la préparation des fichiers résine
+- [Lychee Slicer — Téléchargement](https://mango3d.io/) — Alternative populaire pour la préparation des fichiers résine
 
 ---
 

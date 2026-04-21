@@ -12,17 +12,15 @@ sidebar_position: 3
   <span className="badge badge--info">Vinyle</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Découpeuse de vinyle et papier |
-| **Surface de travail** | 305 mm de largeur, longueur variable (jusqu'à 3 m) |
-| **Difficulté** | Débutant |
+**Type** : Découpeuse de vinyle et papier  
+**Surface de travail** : 305 mm de largeur, longueur variable (jusqu'à 3 m)  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La Silhouette Cameo 2 est une découpeuse de bureau qui utilise une petite lame mécanique pour découper des matériaux fins comme le vinyle adhésif, le papier, le carton léger et le tissu fin (avec support). Elle fonctionne comme une imprimante, mais au lieu de déposer de l'encre, elle déplace une lame qui suit les contours de votre design.
+La Silhouette Cameo 2 est une découpeuse de bureau à lame mécanique, conçue pour découper des matériaux fins comme le vinyle adhésif, le papier, le carton léger et le tissu fin (avec support). Elle fonctionne comme une imprimante, mais au lieu de déposer de l'encre, elle déplace une lame qui suit les contours de votre design.
 
 Cette machine est particulièrement adaptée aux débutants et accessible à tous les âges, car elle ne comporte aucun laser ni élément dangereux (à part la lame, qui reste de petite taille). Elle est idéale pour créer des autocollants, des décorations murales en vinyle, du flocage textile par transfert thermique (flex et flock), des pochoirs, des cartes et toutes sortes de créations en papier.
 
@@ -44,6 +42,25 @@ La Cameo 2 est une machine fiable et éprouvée. Sa largeur de coupe de 305 mm c
 - Un fichier de découpe (SVG, DXF ou design créé dans Silhouette Studio)
 - Un ordinateur avec **Silhouette Studio** installé (logiciel gratuit)
 - Spatule et crochet d'ébavurage (fournis avec la machine)
+
+## Matériaux compatibles
+
+| Matériau | Réglage lame | Remarques |
+|---|---|---|
+| **Vinyle adhésif** | 1 | Le matériau le plus courant. Existe en mat, brillant, holographique, pailleté. |
+| **Vinyle de transfert thermique (flex)** | 1-2 | Pour textiles. Découper en miroir, face brillante vers le bas. |
+| **Vinyle flock** | 2 | Effet velours pour textiles. Plus épais que le flex. |
+| **Papier standard (80g)** | 1 | Découpe fine, idéal pour scrapbooking. |
+| **Papier cartonné (160-300g)** | 3-5 | Augmenter la pression, adapter la vitesse. |
+| **Carton fin** | 5-7 | Multiples passes possibles. Tapis à forte adhérence recommandé. |
+| **Tissu (avec support thermocollant)** | 2-3 | Coller le tissu sur un support rigide avant découpe. |
+
+:::note[**Bien choisir son vinyle**]
+- **Vinyle adhésif permanent** : autocollants extérieurs, signalétique. Résiste à l'eau et aux UV.
+- **Vinyle adhésif repositionnable** : déco intérieure, essais. Se retire sans résidu.
+- **Vinyle de transfert thermique (HTV/flex)** : pour textiles. Se colle à la presse à chaleur ou au fer.
+- **Vinyle flock** : effet velours texturé. Plus épais, nécessite plus de pression.
+:::
 
 ---
 

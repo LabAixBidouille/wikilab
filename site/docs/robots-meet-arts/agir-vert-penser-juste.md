@@ -51,7 +51,7 @@ Facultatif :
 
 ## Avant la séance - Préparation et logistique
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Avant la séance :
 - Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe (une grande grille par groupe).
@@ -64,7 +64,6 @@ Avant la séance :
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 Commencez par une conversation avec les élèves sur le changement climatique : qu&#39;est-ce que c&#39;est ? Pourquoi est-ce un problème ? Laissez les élèves s&#39;exprimer et partager ce qu&#39;ils savent déjà.
 
@@ -74,15 +73,13 @@ Introduisez le Blue-Bot comme un « robot écologiste » qui a besoin d&#39;aide
 
 Les élèves sont maintenant sensibilisés au sujet et motivés, place à la programmation !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Organisez les élèves en petits groupes de 3-4 et encouragez le travail d&#39;équipe ainsi qu&#39;une communication claire au sein de chaque groupe.
 
@@ -98,13 +95,11 @@ Circulez entre les groupes pour observer, poser des questions et accompagner les
 
 Les parcours sont prêts et testés, il est temps de les partager avec toute la classe !
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Présentations en classe entière
 
@@ -116,15 +111,13 @@ Si le robot n&#39;atteint pas la bonne destination, la classe aide le groupe à 
 
 Les présentations terminées, il est temps de garder une trace de ces apprentissages !
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence - Création d&#39;une fresque
 
-*Conclure et en tirer des apprentissages*
 
-:::note[Notes pour l’enseignant·e : matériel pour la fresque ou l'infographie]
+:::info[Notes pour l'enseignant·e : matériel pour la fresque ou l'infographie]
 
 - Grandes feuilles de papier ou papier pour affiche (divisé en deux sections : actions positives et actions négatives)
 - Photographies imprimées d&#39;actions liées au changement climatique (recyclage, gaspillage d&#39;eau, vélo, plastiques à usage unique, etc.)
@@ -146,7 +139,6 @@ Cette représentation visuelle permet de consolider les apprentissages, de renfo
 
 Affichez la fresque dans la classe ou dans un couloir de l&#39;école pour partager ce que les élèves ont appris avec le reste de la communauté scolaire. Rangez ensuite le matériel et les robots.
 
-*Fin de la séquence « Agir vert, penser juste ».*
 
 ---
 

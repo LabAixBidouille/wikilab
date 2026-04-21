@@ -47,9 +47,8 @@ sidebar_position: 11
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Avant de commencer la séance, découpez 2 lots de formes identiques. Par exemple : 2 triangles, 2 carrés, 2 hexagones, 2 cercles. Préparez également 2 crayons et 2 feuilles A4 blanches à portée de main.
 
@@ -79,7 +78,6 @@ Une fois leur composition terminée, les élèves vous « programment » en vous
 
 ### Réflexion autour de la séquence de mise en route
 
-*Conclure et en tirer des apprentissages*
 
 Suite à votre performance, prévoyez une phase de bilan collectif. Vous pouvez guider la réflexion avec ces questions :
 
@@ -92,15 +90,13 @@ Cette phase vous a permis d&#39;introduire les compétences liées à la pensée
 - Décomposition : Découper un problème complexe en petites étapes plus faciles à comprendre et à résoudre.
 - Algorithme : Un algorithme, c&#39;est une suite d&#39;instructions pour résoudre un problème ou accomplir une tâche — c&#39;est comme ça qu&#39;on « explique » aux ordinateurs ce qu&#39;ils doivent faire.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Prévoyez le matériel suivant pour chaque binôme :
 - 2 paires de ciseaux
@@ -129,13 +125,11 @@ Par exemple :
 
 Chaque élève réalise ensuite une composition avec l&#39;un de ses lots de formes et la colle sur une feuille A4. Attention : les élèves ne doivent pas voir l&#39;œuvre de leur partenaire.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 Pour cette phase, les élèves s&#39;assoient dos à dos afin de ne pas voir la feuille de l&#39;autre. L&#39;un devient l&#39;« artiste », l&#39;autre le « faussaire ». L&#39;artiste donne des instructions claires au faussaire, qui tente de les exécuter du mieux possible. L&#39;objectif : reproduire l&#39;œuvre de l&#39;artiste sans la voir, uniquement grâce aux consignes données.
 
@@ -147,7 +141,6 @@ Les élèves rangent les chutes de papier et le matériel à leur place.
 
 Pour conclure la séance, vous pouvez organiser une petite exposition pour mettre en valeur les œuvres réalisées.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
@@ -162,7 +155,6 @@ Ces pistes de différenciation vous permettent d&#39;adapter le niveau de diffic
 - Limitation du nombre d&#39;instructions : Fixez un nombre maximum d&#39;étapes ou de phrases — par exemple 10. Vous pouvez aussi en faire un défi : qui réussira à obtenir le bon résultat avec le moins d&#39;instructions possible ? Autre possibilité : demander aux élèves d&#39;écrire leurs instructions sur papier avant de les transmettre à l&#39;« exécuteur ».
 - Coups d&#39;œil (indices) : Si la tâche devient trop difficile, vous pouvez accorder aux élèves un nombre limité de « coups d&#39;œil » — par exemple trois. Pendant un coup d&#39;œil, l&#39;élève peut regarder l&#39;œuvre de son partenaire, puis ajuster ses instructions en fonction de ce qu&#39;il a observé.
 
-*Fin de la séquence « Collage Fou de Code ».*
 
 ---
 

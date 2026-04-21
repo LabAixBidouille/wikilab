@@ -12,18 +12,16 @@ sidebar_position: 3
   <span className="badge badge--info">FDM</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | FDM (dépot de filament fondu) — Double extrusion |
-| **Volume d'impression** | 305 x 305 x 305 mm |
-| **Extrusion** | Double tête indépendante |
-| **Difficulté** | Intermédiaire |
+**Type** : FDM (dépot de filament fondu) — Double extrusion  
+**Volume d'impression** : 305 x 305 x 305 mm  
+**Extrusion** : Double tête indépendante  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La Raise3D N2 est une imprimante 3D FDM semi-professionnelle équipée de deux têtes d'extrusion indépendantes. Cette double extrusion permet d'imprimer avec deux matériaux ou deux couleurs simultanément, ce qui ouvre des possibilités créatives et techniques intéressantes.
+La Raise3D N2 est une imprimante 3D FDM semi-professionnelle à double extrusion indépendante. Ses deux têtes d'impression permettent d'utiliser deux matériaux ou deux couleurs simultanément, ce qui ouvre des possibilités créatives et techniques intéressantes.
 
 Le cas d'usage le plus courant de la double extrusion est l'utilisation d'un matériau de support soluble (comme le PVA ou le HIPS). Le matériau principal forme la pièce, tandis que le second matériau forme les supports, qui se dissolvent ensuite dans l'eau (PVA) ou dans du limonène (HIPS). Le résultat est une pièce avec des surfaces lisses là où se trouvaient les supports.
 
@@ -44,6 +42,25 @@ Avec son volume d'impression cubique de 305 mm de côté, son enceinte fermée e
 - Le logiciel **ideaMaker** (gratuit, développé par Raise3D)
 - Deux bobines de filament 1.75 mm si vous utilisez la double extrusion (ex. PLA + PVA)
 - Une spatule et une pince coupante pour le retrait des pièces et supports
+
+## Matériaux compatibles
+
+| Matériau | Température buse | Température plateau | Propriétés | Usages typiques |
+|---|---|---|---|---|
+| **PLA** | 200-220 °C | 50-60 °C | Facile à imprimer, rigide, biodégradable. Faible résistance thermique (≈60 °C). | Prototypage, objets décoratifs, maquettes |
+| **PETG** | 230-250 °C | 70-80 °C | Bonne résistance mécanique et chimique, légèrement flexible. | Pièces fonctionnelles, contenants alimentaires |
+| **ABS** | 240-260 °C | 100-110 °C | Résistant aux chocs et à la chaleur. Dégage des vapeurs, enceinte fermée recommandée. | Boîtiers, pièces mécaniques, prototypes automobiles |
+| **TPU** | 220-240 °C | 50-60 °C | Souple et élastique. Impression lente recommandée. | Coques de téléphone, joints, semelles |
+| **PVA** | 190-210 °C | 50-60 °C | Soluble dans l'eau. Utilisé comme matériau de support avec la double extrusion. | Supports solubles pour géométries complexes |
+| **HIPS** | 230-250 °C | 100-110 °C | Soluble dans le d-limonène. Alternative au PVA pour les supports solubles. | Supports solubles, compatible avec l'ABS |
+
+:::note[**Conseils pour le choix du matériau**]
+- **Débutant ?** Commencez par le **PLA** : il pardonne les erreurs de réglage et ne nécessite pas d'enceinte fermée.
+- **Pièce fonctionnelle ?** Le **PETG** offre le meilleur compromis solidité/facilité d'impression.
+- **Résistance thermique ?** L'**ABS** supporte des températures plus élevées mais nécessite une enceinte fermée et une bonne ventilation.
+- **Supports solubles** : la double extrusion de la N2 permet d'utiliser du **PVA** (soluble dans l'eau) ou du **HIPS** (soluble dans le limonène) comme matériau de support. Le résultat est une pièce sans aucune trace de support.
+- **Stockage** : tous les filaments sont sensibles à l'humidité. Le PVA est particulièrement hygroscopique : rangez-le impérativement dans un sac hermétique avec du dessiccant.
+:::
 
 ---
 

@@ -56,7 +56,6 @@ sidebar_position: 21
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 Introduisez le thème du jour : le recyclage.
 
@@ -68,15 +67,13 @@ Proposez une courte présentation expliquant :
 
 Faites participer les élèves à un jeu interactif sur les matériaux et les couleurs des poubelles pour récapituler ce qu&#39;ils ont appris lors de la présentation.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Imprimez et découpez les cartes de déplacement pour chaque groupe. Chaque groupe doit disposer d&#39;un jeu de cartes composé de : 10 cartes « avancer », 4 cartes « tourner à droite », 4 cartes « tourner à gauche », 1 carte « retour à la maison ».
 - Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier. La grille représente l&#39;environnement du robot et est divisée en différentes sections, chacune représentant un pâté de maisons. Dans certaines cases se trouve une poubelle de recyclage, dans d&#39;autres des déchets.
@@ -102,13 +99,11 @@ Chaque élève pioche une carte dans un second paquet : cette carte représente 
 
 Les élèves se relaient pour guider Jean à travers la grille, étape par étape, à l&#39;aide des cartes de déplacement. L&#39;objectif : rendre la ville de Jean propre en triant correctement tous les déchets !
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 Lorsque toutes les équipes sont prêtes, elles présentent l&#39;itinéraire de leur robot pour nettoyer la ville devant toute la classe. Les élèves discutent ensemble des trajets les plus efficaces et les plus rapides pour ramasser les déchets.
 
@@ -125,7 +120,6 @@ Pour conclure, l&#39;enseignant·e rassemble le matériel, puis revient sur les 
 - « Comment avez-vous corrigé les erreurs dans le parcours de votre robot ? »
 - « Comment pourriez-vous améliorer vos instructions (votre algorithme) ? »
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

@@ -59,9 +59,8 @@ sidebar_position: 7
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Testez la connexion internet et le vidéoprojecteur avant la séance.
 - Imprimez un exemplaire de chaque fiche de travail par binôme.
@@ -88,13 +87,11 @@ Présentez l'objectif : les élèves vont remixer un projet Scratch et créer le
 
 Les élèves sont maintenant motivés et prêts à découvrir le vocabulaire dont ils auront besoin pour créer leur histoire.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 Cette phase vise à guider les élèves dans le développement de leurs idées d'histoire et le démarrage de leur projet Scratch.
 
@@ -122,13 +119,11 @@ Ouvrez le modèle de projet pour les élèves sur tous les ordinateurs. Guidez l
 
 À la fin de cette phase, chaque binôme doit avoir une structure d'histoire en place avec les personnages, les décors et le début de la narration. Il ne reste plus qu'à enregistrer et à peaufiner !
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 Cette phase vise à accompagner les élèves dans la programmation, l'enregistrement et la répétition de leur histoire numérique, en intégrant tous les éléments narratifs. Accompagnez les élèves pendant qu'ils :
 
@@ -148,7 +143,6 @@ Distribuez la **fiche de travail 3 : Grille de critères des éléments de l'his
 
 Laissez les élèves apporter les dernières améliorations à leur projet. Les histoires sont maintenant complètes et prêtes à être présentées à la classe ! Invitez chaque binôme à présenter son projet en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement et à donner des retours positifs.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

@@ -70,7 +70,7 @@ sidebar_position: 4
 
 ## Avant la séance - Préparation et logistique
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Testez l'application LEGO SPIKE et les connexions Bluetooth sur tous les appareils avant le début de la séance.
 - Imprimez un exemplaire de chaque fiche de travail par équipe.
@@ -85,7 +85,6 @@ sidebar_position: 4
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 Montrez aux élèves des images de voitures (voir annexe - Fiche de travail 1). Posez-leur les questions suivantes :
 
@@ -97,13 +96,11 @@ Expliquez ensuite la mission de cette séance : *« You will build a car, test i
 
 Si le niveau d'anglais des élèves ne permet pas de suivre l'activité entièrement en anglais, proposez des phrases modèles à compléter et acceptez les réponses mixtes français/anglais. Préparez une fiche de vocabulaire bilingue avec les mots clés. Autorisez les élèves à préparer leurs présentations à l'écrit avant de les dire à l'oral.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Partie A : Construire la voiture (30 min)
 
@@ -119,15 +116,13 @@ Laissez les élèves apporter des améliorations à leur voiture en fonction des
 
 Les voitures sont construites et testées, il est temps de préparer les présentations !
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Pour les élèves moins à l'aise en anglais, proposez des phrases à trous à compléter plutôt que de rédiger librement.
 - Circulez entre les groupes pour aider avec le vocabulaire et la prononciation.
@@ -141,13 +136,11 @@ Encouragez-les à ajouter l'impact social que leur voiture apportera, par exempl
 
 Les présentations sont prêtes, place à la course finale !
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 ### Partie A : Présentations et course
 
@@ -161,7 +154,6 @@ Les élèves comparent ensuite leurs voitures en utilisant les formes comparativ
 
 Rangez le matériel : démontez les voitures, rangez les pièces LEGO dans les kits, éteignez les tablettes et nettoyez la zone de course.
 
-*Fin de la séquence « Course de voitures ».*
 
 ---
 

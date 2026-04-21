@@ -12,17 +12,15 @@ sidebar_position: 4
   <span className="badge badge--info">Vinyle</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Découpeuse de vinyle et matériaux semi-rigides |
-| **Surface de travail** | 305 mm de largeur, longueur variable (jusqu'à 3 m) |
-| **Difficulté** | Débutant |
+**Type** : Découpeuse de vinyle et matériaux semi-rigides  
+**Surface de travail** : 305 mm de largeur, longueur variable (jusqu'à 3 m)  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La Silhouette Cameo 4 est la version améliorée de la gamme Cameo. Elle reprend le principe de découpe mécanique par lame, mais avec une force de coupe nettement supérieure : jusqu'à 5 kg de pression, soit le double de la Cameo 2. Cette puissance supplémentaire lui permet de découper des matériaux plus épais comme le carton ondulé, le carton bois (chipboard), le balsa fin et même certains matériaux synthétiques rigides.
+La Silhouette Cameo 4 est une découpeuse de bureau à lame mécanique, version améliorée de la gamme Cameo, avec une force de coupe nettement supérieure : jusqu'à 5 kg de pression, soit le double de la Cameo 2. Cette puissance supplémentaire lui permet de découper des matériaux plus épais comme le carton ondulé, le carton bois (chipboard), le balsa fin et même certains matériaux synthétiques rigides.
 
 La Cameo 4 introduit également une lame à réglage automatique (AutoBlade) : le logiciel ajuste la profondeur de lame selon le matériau sélectionné, ce qui simplifie grandement la préparation. Elle dispose aussi d'un système d'alimentation en rouleau intégré, pratique pour les longs travaux en vinyle sans tapis de découpe.
 
@@ -44,6 +42,28 @@ Comme la Cameo 2, elle reste une machine sûre et accessible aux débutants. Ell
 - Un fichier de découpe (SVG, DXF ou design Silhouette Studio)
 - Un ordinateur avec **Silhouette Studio** installé (logiciel gratuit)
 - Spatule et crochet d'ébavurage
+
+## Matériaux compatibles
+
+| Matériau | Réglage lame | Remarques |
+|---|---|---|
+| **Vinyle adhésif** | 1 | Le matériau le plus courant. Existe en mat, brillant, holographique, pailleté. |
+| **Vinyle de transfert thermique (flex)** | 1-2 | Pour textiles. Découper en miroir, face brillante vers le bas. |
+| **Vinyle flock** | 2 | Effet velours pour textiles. Plus épais que le flex. |
+| **Papier standard (80g)** | 1 | Découpe fine, idéal pour scrapbooking. |
+| **Papier cartonné (160-300g)** | 3-5 | Augmenter la pression, adapter la vitesse. |
+| **Carton fin** | 5-7 | Multiples passes possibles. Tapis à forte adhérence recommandé. |
+| **Tissu (avec support thermocollant)** | 2-3 | Coller le tissu sur un support rigide avant découpe. |
+| **Carton bois (chipboard)** | Multi-passes | Jusqu'à 2 mm. Tapis forte adhérence obligatoire. |
+| **Balsa fin** | Multi-passes | Jusqu'à 1.5 mm. Découpe lente. |
+| **Mousse EVA fine** | 3-4 | Idéale pour les projets de cosplay et loisirs créatifs. |
+
+:::note[**Bien choisir son vinyle**]
+- **Vinyle adhésif permanent** : autocollants extérieurs, signalétique. Résiste à l'eau et aux UV.
+- **Vinyle adhésif repositionnable** : déco intérieure, essais. Se retire sans résidu.
+- **Vinyle de transfert thermique (HTV/flex)** : pour textiles. Se colle à la presse à chaleur ou au fer.
+- **Vinyle flock** : effet velours texturé. Plus épais, nécessite plus de pression.
+:::
 
 ---
 

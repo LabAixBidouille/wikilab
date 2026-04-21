@@ -12,17 +12,15 @@ sidebar_position: 2
   <span className="badge badge--info">Laser fibre</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Graveuse laser fibre (marquage métal) |
-| **Surface de travail** | 110 x 110 mm |
-| **Difficulté** | Intermédiaire |
+**Type** : Graveuse laser fibre (marquage métal)  
+**Surface de travail** : 110 x 110 mm  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-Le Monport Laser fibre est une machine de gravure et de marquage qui utilise un laser à fibre optique d'une longueur d'onde de 1064 nm (infrarouge proche). Contrairement au laser CO2 qui agit sur les matériaux organiques, le laser fibre est spécialisé dans le marquage des métaux et de certains plastiques durs.
+Le Monport Laser fibre est une graveuse spécialisée dans le marquage permanent des métaux, utilisant un laser à fibre optique d'une longueur d'onde de 1064 nm (infrarouge proche). Contrairement au laser CO2 qui agit sur les matériaux organiques, le laser fibre est conçu pour travailler les métaux et certains plastiques durs.
 
 Cette machine **ne découpe pas** : elle modifie la surface du matériau par oxydation, recuit ou ablation pour créer un marquage permanent. Sur l'acier inoxydable, elle produit des couleurs variées en jouant sur la température d'oxydation. Sur l'aluminium anodisé, elle retire la couche anodisée pour révéler le métal brut. Sur le laiton et le cuivre, elle permet une gravure nette et durable.
 
@@ -33,7 +31,7 @@ Les applications typiques incluent la personnalisation d'objets métalliques (bi
 :::info[**Sécurité et bonnes pratiques**]
 Le laser fibre présente des risques spécifiques liés à sa longueur d'onde invisible.
 
-- **Lunettes de protection obligatoires.** Le laser fibre émet à 1064 nm, une longueur d'onde invisible à l'œil nu mais extrêmement dangereuse pour la rétine. Les lunettes doivent être certifiées OD5+ pour 1064 nm.
+- **Lunettes de protection obligatoires.** Le laser fibre émet à 1064 nm, une longueur d'onde invisible à l'oeil nu mais extrêmement dangereuse pour la rétine. Les lunettes doivent être certifiées OD5+ pour 1064 nm.
 - **Ne jamais regarder le faisceau**, même avec des lunettes de protection. Les réflexions sur les surfaces métalliques peuvent être tout aussi dangereuses.
 - **Travailler dans un espace fermé** : utilisez le capot de protection fourni avec la machine pour confiner le faisceau.
 - **Ventilation nécessaire** : même si les fumées sont moins importantes qu'avec un laser CO2, le marquage métal dégage des particules fines qu'il ne faut pas respirer.
@@ -47,6 +45,22 @@ Le laser fibre présente des risques spécifiques liés à sa longueur d'onde in
 - Un ordinateur avec EZCad2 ou LightBurn installé
 - Lunettes de protection laser 1064 nm (OD5+)
 - Support ou cale pour positionner la pièce
+
+## Matériaux compatibles
+
+| Matériau | Marquage | Rendu | Remarques |
+|---|---|---|---|
+| **Acier inoxydable** | Oui | Noir, couleurs (bleu, doré, violet) selon les paramètres | Le métal le plus polyvalent pour le laser fibre. Les couleurs s'obtiennent par oxydation contrôlée. |
+| **Aluminium anodisé** | Oui | Blanc (retrait de l'anodisation) | Contraste net sur fond coloré. |
+| **Aluminium brut** | Oui | Gris clair, peu contrasté | Le marquage est moins visible que sur l'anodisé. |
+| **Laiton** | Oui | Gravure nette | Bon contraste naturel. |
+| **Cuivre** | Oui | Gravure profonde possible | Réfléchit fortement le laser, ajuster la puissance. |
+| **Titane** | Oui | Couleurs variées par oxydation | Similaire à l'inox pour les effets de couleur. |
+| **Plastiques durs (ABS, Delrin)** | Partiellement | Marquage de surface | Résultats variables, tester avant. |
+
+:::note[**Ce que le laser fibre ne fait PAS**]
+Le laser fibre **ne découpe pas**. Il marque, grave ou oxyde la surface. Pour découper du métal, il faut un laser fibre de forte puissance (> 500 W) ou un autre procédé.
+:::
 
 ---
 
@@ -88,8 +102,7 @@ Si nécessaire, nettoyez la surface avec un chiffon doux et de l'alcool isopropy
 
 ## Aller plus loin
 
-- [Documentation EZCad2](https://www.bjjcz.com/) — site officiel du logiciel
-- [Guide des paramètres laser fibre](https://monportlaser.com/blogs/guide) — réglages recommandés par matériau
+- [Tutoriels laser fibre — Monport](https://monportlaser.com/blogs/guide) — réglages recommandés par matériau
 - [Forum LaserGods](https://forum.lightburnsoftware.com/) — communauté d'entraide laser
 
 ---

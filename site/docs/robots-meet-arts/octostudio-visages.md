@@ -63,9 +63,8 @@ sidebar_position: 16
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe. Préparez le matériel indiqué ci-dessus.
 
@@ -107,13 +106,11 @@ Expliquez aux élèves qu&#39;aujourd&#39;hui, ils vont travailler sur quatre é
 - Bouche petite ou ouverte en forme de « O »
 - Visage asymétrique
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Créer des visages avec les matériaux
 
@@ -138,13 +135,11 @@ Distribuez un scénario à chaque binôme. Ils doivent deviner quelle émotion s
 - Tu entends des bruits étranges la nuit alors que tu es seul·e dans ton lit. *(Peur)*
 - Tu apprends que tu vas dormir chez ton meilleur ami à l&#39;improviste. *(Joie)*
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Créer le dispositif de prise de photos
 
@@ -167,7 +162,6 @@ Faites réfléchir les élèves aux deux rôles possibles, puisqu&#39;il n&#39;y
 
 Distribuez les cartes défis avec le pseudocode. Laissez les élèves trouver le programme par eux-mêmes. Une fois terminé, ils peuvent passer au défi 2.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

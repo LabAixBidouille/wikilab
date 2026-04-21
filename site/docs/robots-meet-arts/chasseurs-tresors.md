@@ -94,11 +94,10 @@ sidebar_position: 3
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 ### Ingénieurs en robotique
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Installez l'application LEGO Spike sur tous les appareils.
 - Créez des comptes élèves si vous utilisez des plateformes en ligne.
@@ -163,17 +162,15 @@ Des cartes de référence des commandes sont fournies pour accompagner les appre
 
 Les robots sont prêts et programmés, place à la chasse au trésor !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Chasse au trésor
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Rassemblez des objets « trésors » : petits jouets, articles de bricolage, blocs colorés, ainsi que des phrases imprimées sur des cartes (proverbes, vers de poésie, voir exemple en annexe).
 - Disposez les trésors à différents endroits de la classe avant cette phase, ou préparez l'espace au sol pour que les élèves créent eux-mêmes leur carte au trésor.
@@ -191,15 +188,13 @@ Les équipes observent la disposition des stations et élaborent une stratégie 
 
 Les trésors sont collectés, place à la création de l'histoire !
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Créez des modèles d'éléments narratifs (personnages, lieux, problème, solution).
 - Préparez des exemples d'histoires montrant comment intégrer des éléments hétéroclites.
@@ -223,7 +218,7 @@ Les histoires prennent forme, place à la production théâtrale !
 
 ### Production théâtrale (15 min)
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Organisez les fournitures artistiques pour la création d'accessoires et de décors.
 - Installez des postes de travail créatifs.
@@ -245,13 +240,11 @@ C'est le moment du spectacle ! Chaque équipe présente son histoire devant la c
 
 Après chaque représentation, prenez un moment pour souligner les points forts : la créativité de l'histoire, la qualité de l'expression, l'originalité de l'intégration du robot, le travail d'équipe.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Une fois toutes les présentations terminées, les équipes partagent leurs réflexions sur leur parcours : « Qu'avez-vous appris ? Qu'est-ce qui a été le plus difficile ? De quoi êtes-vous le plus fiers ? »
 
@@ -265,7 +258,6 @@ Rangez soigneusement le matériel LEGO, les tablettes et les fournitures artisti
 
 Prenez quelques notes sur ce qui a bien fonctionné et ce qui pourrait être amélioré pour une prochaine fois.
 
-*Fin de la séquence « Chasseurs de trésors ».*
 
 ---
 

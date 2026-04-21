@@ -12,22 +12,24 @@ sidebar_position: 4
   <span className="badge badge--info">FDM</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | FDM (dépot de filament fondu) — Simple extrusion |
-| **Volume d'impression** | 223 x 223 x 205 mm |
-| **Nombre de machines** | 3 exemplaires au L.A.B |
-| **Difficulté** | Débutant |
+**Type** : FDM (dépot de filament fondu) — Simple extrusion  
+**Volume d'impression** : 223 x 223 x 205 mm  
+**Nombre de machines** : 3 exemplaires au L.A.B  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-L'Ultimaker 2+ est une imprimante 3D FDM fiable et éprouvée, considérée comme une référence dans le monde des FabLabs. Son fonctionnement est simple : un filament plastique de 2.85 mm est fondu à travers une buse, puis déposé couche par couche pour créer un objet tridimensionnel. Le L.A.B en possède trois exemplaires, ce qui permet de lancer plusieurs impressions en parallèle.
+L'Ultimaker 2+ est une imprimante 3D FDM fiable et éprouvée, considérée comme une référence dans le monde des FabLabs. Son fonctionnement repose sur un filament plastique de 2.85 mm fondu à travers une buse, puis déposé couche par couche pour créer un objet tridimensionnel. Le L.A.B en possède trois exemplaires, ce qui permet de lancer plusieurs impressions en parallèle.
 
 Cette machine utilise un système de filament ouvert, ce qui signifie que vous pouvez utiliser des bobines de n'importe quel fabricant, à condition qu'elles soient au diamètre de 2.85 mm. Son plateau en verre chauffant offre une excellente adhérence et une surface de fond lisse sur les pièces.
 
 L'Ultimaker 2+ est idéale pour débuter en impression 3D : pièces décoratives, prototypage rapide, boîtiers, supports et petits outils. Sa simplicité d'utilisation et sa robustesse en font la machine parfaite pour un premier apprentissage.
+
+:::warning[**Filament 2.85 mm uniquement**]
+L'Ultimaker 2+ utilise du filament de **2.85 mm de diamètre**, pas du 1.75 mm. Vérifiez le diamètre avant d'acheter ou d'utiliser un filament.
+:::
 
 ## Avant de commencer
 
@@ -45,6 +47,22 @@ L'Ultimaker 2+ est idéale pour débuter en impression 3D : pièces décoratives
 - Du filament de **2.85 mm** de diamètre (PLA recommandé pour débuter, ABS ou CPE possible)
 - De la colle en bâton (pour l'adhérence au plateau, surtout avec le PLA)
 - Une spatule pour le retrait des pièces
+
+## Matériaux compatibles
+
+| Matériau | Température buse | Température plateau | Propriétés | Usages typiques |
+|---|---|---|---|---|
+| **PLA** | 200-220 °C | 50-60 °C | Facile à imprimer, rigide, biodégradable. Faible résistance thermique (≈60 °C). | Prototypage, objets décoratifs, maquettes |
+| **ABS** | 240-260 °C | 100-110 °C | Résistant aux chocs et à la chaleur. Dégage des vapeurs, bonne ventilation nécessaire. | Boîtiers, pièces mécaniques, prototypes automobiles |
+| **CPE** | 240-260 °C | 70-80 °C | Copolyester résistant chimiquement. Bonne alternative au PETG. Légèrement plus rigide. | Pièces fonctionnelles, contenants, prototypage technique |
+
+:::note[**Conseils pour le choix du matériau**]
+- **Débutant ?** Commencez par le **PLA** : il pardonne les erreurs de réglage et ne nécessite pas d'enceinte fermée.
+- **Pièce fonctionnelle ?** Le **CPE** offre une bonne résistance mécanique et chimique.
+- **Résistance thermique ?** L'**ABS** supporte des températures plus élevées mais nécessite une bonne ventilation. L'Ultimaker 2+ n'ayant pas d'enceinte fermée, l'ABS est plus délicat à imprimer sur cette machine.
+- **Attention au diamètre** : tous les filaments doivent être en **2.85 mm**. Les bobines en 1.75 mm (standard sur la plupart des autres imprimantes) ne sont pas compatibles.
+- **Stockage** : tous les filaments sont sensibles à l'humidité. Rangez-les dans un sac hermétique avec du dessiccant.
+:::
 
 ---
 

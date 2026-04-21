@@ -12,17 +12,15 @@ sidebar_position: 2
   <span className="badge badge--info">Transfert</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Presse à transfert thermique — multi-surfaces |
-| **Température** | 150 à 200 °C selon le support |
-| **Difficulté** | Débutant |
+**Type** : Presse à transfert thermique — multi-surfaces  
+**Température** : 150 à 200 °C selon le support  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La presse à chaleur est une machine qui permet de transférer un motif (image, texte, logo) sur un support textile ou rigide grâce à la combinaison de chaleur et de pression. Le transfert peut se faire à partir de vinyle thermocollant (HTV) découpé à la plotter de découpe, ou à partir de papier de sublimation imprimé avec des encres spéciales.
+La presse à chaleur permet de transférer un motif (image, texte, logo) sur un support textile ou rigide grâce à la combinaison de chaleur et de pression. Le transfert peut se faire à partir de vinyle thermocollant (HTV) découpé à la plotter de découpe, ou à partir de papier de sublimation imprimé avec des encres spéciales.
 
 Le principe est simple : on place le motif sur le support (t-shirt, tote bag, casquette, mug), on ferme la presse qui applique une température et une pression contrôlées pendant un temps défini, et l'encre ou le vinyle adhère définitivement au support. Chaque combinaison de matériau et de technique nécessite des réglages spécifiques de température, de pression et de durée.
 
@@ -45,6 +43,23 @@ La presse du LAB est un modèle multi-surfaces avec des accessoires interchangea
 - Du papier sulfurisé ou une feuille de téflon (pour protéger le support et la presse)
 - Du ruban adhésif thermorésistant (pour maintenir le motif en place)
 - L'accessoire de presse adapté au support (plateau plat, mandrin mug, presse casquette)
+
+## Matériaux et supports compatibles
+
+| Support | Technique | Température | Durée | Pression | Remarques |
+|---|---|---|---|---|---|
+| **T-shirt coton** | HTV (flex/flock) | 160 °C | 15 s | Moyenne | Le support le plus courant. Pré-presser 5 s pour éliminer l'humidité. |
+| **T-shirt polyester** | HTV (flex) | 150 °C | 10 s | Légère | Sensible à la chaleur, ne pas dépasser 155 °C. |
+| **T-shirt polyester blanc** | Sublimation | 190-200 °C | 25-30 s | Forte | La sublimation donne les meilleurs résultats sur polyester blanc. |
+| **Tote bag coton** | HTV | 160 °C | 15 s | Moyenne | Même réglages que le t-shirt coton. |
+| **Casquette** | HTV ou sublimation | 150-160 °C | 10-15 s | Légère | Utiliser l'accessoire casquette. |
+| **Mug céramique sublimable** | Sublimation | 180 °C | 180-240 s | Via mandrin | Utiliser le mandrin mug. Ne pas plonger dans l'eau froide après. |
+
+:::note[**HTV vs Sublimation : comment choisir ?**]
+- **HTV (vinyle de transfert thermique)** : fonctionne sur tout textile (coton, polyester, mélange). Le motif est découpé dans du vinyle coloré. Résultat mat ou brillant selon le vinyle. Durée de vie : 50+ lavages.
+- **Sublimation** : uniquement sur supports blancs/clairs en polyester ou revêtement polymère (mugs, coques). Le motif est imprimé avec des encres spéciales. Couleurs vives, pas de surépaisseur. Résultat permanent.
+- **Attention** : la sublimation sur coton ne fonctionne PAS (les encres ne se fixent pas).
+:::
 
 ---
 

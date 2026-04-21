@@ -62,11 +62,10 @@ sidebar_position: 25
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 ### Que savons-nous de la société romaine antique ?
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Imprimez les fiches pyramide à l&#39;avance et, si vous le souhaitez, quelques images ou pictogrammes liés aux rôles sociaux à coller sur la pyramide.
 - Trois niveaux de fiche pyramide sont disponibles : laissez les élèves choisir leur niveau pour autoréguler leur apprentissage.
@@ -87,17 +86,15 @@ Après la lecture et un bref échange, les élèves dessinent une pyramide de la
 
 Les élèves ont maintenant une vision claire de la société romaine, place à la mission robotique !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 ### Mission Tale-Bot : les classes sociales
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Imprimez et préparez les cartes mission à l&#39;avance.
 - Assurez-vous que les robots sont suffisamment chargés.
@@ -126,15 +123,13 @@ Après la programmation, le groupe répond à une question de réflexion à voix
 - Ce travail était-il juste ?
 - Comment te sentirais-tu dans ce rôle ?
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Concluez la séance en mettant l&#39;accent sur :
 - L&#39;empathie envers ceux qui n&#39;avaient pas de droits
@@ -154,7 +149,6 @@ Posez à l&#39;ensemble du groupe des questions sur les sociétés antique et ac
 
 Rangez le matériel et les robots. Cette discussion permet de clore la séance sur une note réflexive et d&#39;ancrer les apprentissages dans la réalité des élèves.
 
-*Fin de la séquence « Que changerais-tu si tu vivais dans la Rome antique ? ».*
 
 ---
 

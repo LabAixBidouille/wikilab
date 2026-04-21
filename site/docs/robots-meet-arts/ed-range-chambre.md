@@ -53,9 +53,8 @@ sidebar_position: 5
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Assurez-vous d'avoir accès à internet et à un tableau interactif pour que les élèves puissent interagir avec les jeux de vocabulaire proposés. Si vous avez accès à la salle informatique, vous pouvez prévoir un ordinateur par élève pour que chacun puisse jouer individuellement.
 
@@ -71,15 +70,13 @@ Proposez ensuite aux élèves deux jeux de vocabulaire interactifs sur les saiso
 
 Encouragez-les à lire à voix haute le mot qu'ils choisissent et laissez-les interagir et observer le résultat de leurs choix. Favorisez les échanges entre élèves lorsqu'ils ont des difficultés à associer les vêtements à la bonne image.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Créez une grande grille au sol à l'aide de ruban adhésif ou de papier. Vous pouvez également imprimer la grille exemple fournie en annexe. La grille représente la chambre du robot où sont éparpillés différents vêtements. En haut de la grille, placez deux zones : une pour l'été et une pour l'hiver. Chaque zone est entourée d'une couleur spécifique (rouge pour l'été, bleu pour l'hiver).
 
@@ -111,13 +108,11 @@ Les élèves jouent à tour de rôle. Si un élève fait une erreur, les autres 
 
 N'oubliez pas d'effacer la ligne noire à chaque fois qu'un élève termine son parcours.
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Rassemblez et rangez le matériel, puis revenez sur les points clés avec les élèves :
 
@@ -125,7 +120,6 @@ Rassemblez et rangez le matériel, puis revenez sur les points clés avec les é
 - Qu'est-ce qui était difficile ?
 - Comment avez-vous corrigé les erreurs dans le parcours de votre robot ?
 
-*Fin de la séquence « Ed range sa chambre ».*
 
 ---
 

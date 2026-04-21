@@ -78,13 +78,12 @@ sidebar_position: 1
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 ### La boîte secrète
 
 Cette activité propose aux élèves de décoder des cartes d'instructions contenant un programme à exécuter pour ouvrir une boîte mystérieuse fermée par des cadenas à combinaison. Pour y parvenir, ils utilisent le code binaire : un système de numération qui n'utilise que deux chiffres, 1 et 0. Toutes les informations traitées par un ordinateur sont des suites de 1 et de 0. Ici, nous appliquons ce principe avec les LEGO Dots : une tuile colorée représente le 1, une case vide représente le 0.
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 En amont de l'activité, préparez et placez la boîte. Prenez la boîte et placez-y les éléments suivants :
 - Peinture (différentes couleurs)
@@ -130,13 +129,11 @@ Révélez le contenu de la boîte :
 
 Ils ont trouvé tout le matériel nécessaire pour passer à l'étape suivante.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 Place maintenant à la création artistique !
 
@@ -153,13 +150,12 @@ Scannez le QR code et regardez la vidéo tous ensemble. Cette vidéo explique co
 - Évitez le papier texturé — le papier lisse donne les meilleurs résultats.
 - Avant de ranger les pièces après l'impression, nettoyez-les avec un papier brouillon ou une lingette pour bébé afin d'enlever les résidus d'encre.
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 En annexe, vous trouverez plusieurs photos pour l'inspiration. Si besoin, vous pouvez les montrer aux élèves.
 
 :::
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 

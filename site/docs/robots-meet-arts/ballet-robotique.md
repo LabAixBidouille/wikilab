@@ -53,9 +53,8 @@ sidebar_position: 2
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez la vidéo sur le ballet pour qu'elle soit prête à être diffusée.
 - Prévoyez la prise de note sur le tableau ou sur une grande feuille pour garder traces des apprentissages et des réflexions des élèves.
@@ -72,15 +71,13 @@ Citez un passage important de la vidéo (à 4:03) : « Heureusement, aujourd'hui
 
 Posez ensuite la question : « Pourquoi allons-nous utiliser des robots pour créer une danse de ballet ? » Guidez les élèves vers la réponse : les robots sont « faciles » et rapides à entraîner, contrairement aux danseurs humains qui ont besoin d'années de pratique !
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez l'espace pour que les élèves puissent se lever et bouger.
 - Ayez à disposition des extraits musicaux des trois compositeurs (Tchaïkovski, Stravinsky, Minkus) pour l'écoute.
@@ -104,17 +101,15 @@ Après 5 minutes d'exploration, chaque groupe choisit son morceau préféré. Ce
 
 La musique est choisie, place à la programmation !
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Faire danser les robots
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Assurez-vous que le logiciel est déjà installé sur les ordinateurs portables avant la séance.
 - Vérifiez que tous les robots sont chargés et fonctionnels.
@@ -158,13 +153,11 @@ N'abandonnez pas ! Continuez à vous entraîner, comme de vraies ballerines !
 
 Les chorégraphies sont prêtes, place au spectacle final !
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Chaque groupe présente sa chorégraphie robotique devant la classe. Les autres élèves observent attentivement et offrent des applaudissements bien mérités à leurs camarades !
 
@@ -176,7 +169,6 @@ Après les présentations, prenez quelques minutes pour discuter :
 
 Rangez ensuite le matériel : éteignez les robots, fermez les logiciels et rangez les ordinateurs.
 
-*Fin de la séquence « Ballet robotique ».*
 
 ---
 

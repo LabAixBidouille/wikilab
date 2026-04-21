@@ -105,9 +105,8 @@ Trois robots sont proposés (Cubetto, Sphero Indi, micro:bit), chacun avec une l
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Installer les grilles (2-3 selon effectif) -- au sol ou sur tables
 - Préparer les récompenses pour le renforcement (bonbons, jetons, pompons...)
@@ -154,15 +153,13 @@ Une fois que les groupes ont trouvé le chemin, comptez les jetons ! Introduisez
 
 Chaque élève garde sa fiche de mémorisation. L&#39;enseignant peut annoncer la transition vers la phase suivante en expliquant que les élèves vont maintenant apprendre à programmer un robot, et que plus tard, ils devront le programmer pour qu&#39;il suive le chemin découvert, en s&#39;appuyant uniquement sur leur fiche de mémorisation.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Vérifier que les robots sont chargés et fonctionnels
 - Préparer l&#39;espace de travail (zone dégagée au sol)
@@ -195,21 +192,19 @@ Les élèves découvrent également qu&#39;un robot n&#39;interprète pas les in
 | Sphero Indi | Tuiles colorées posées au sol -- programmation visuelle par couleurs | Dépend des tuiles disponibles, comportements prédéfinis par couleur |
 | Robot micro:bit | Blocs sur écran (MakeCode) puis téléchargement -- programmation par blocs | Calibrage des durées et distances |
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Pendant que les élèves réalisent les missions, tournez entre les groupes et valorisez les erreurs : « Ton robot a tourné dans le mauvais sens ? Super, tu viens d&#39;apprendre quelque chose ! ». Observez les stratégies : qui planifie ? qui teste directement ? qui collabore ?
 
 :::
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Nous vous conseillons de réaliser cette phase en parallèle de la phase 2. Le mieux est de proposer cette étape comme mission finale dans la continuité des fiches missions de l&#39;étape précédente.
 
@@ -241,13 +236,11 @@ Pour valider leur programme, le groupe pose son robot sur le départ de la grill
 
 En programmant le même chemin avec différents robots, les élèves réalisent que la même logique (leur fiche) s&#39;exprime différemment selon l&#39;outil et que certains robots sont plus adaptés à certains parcours. Leur fiche de mémorisation doit être suffisamment claire pour être « traduite » dans n&#39;importe quel langage.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 C&#39;est le moment de partager et comparer les différents modèles créés pendant l&#39;activité et de comprendre nos modes d&#39;apprentissage en les comparant à ceux d&#39;une machine.
 
@@ -302,7 +295,6 @@ Ouvrez sur des questions plus larges :
 
 Pour la trace écrite, créez ensemble une affiche ou un document récapitulatif avec les différents systèmes de notation inventés par la classe, les mots-clés (apprentissage par renforcement, modèle mental, essai-erreur), un schéma comparatif humain/machine, et les réflexions des élèves.
 
-*Fin de la séquence « Né d&#39;hier ».*
 
 ---
 

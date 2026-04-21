@@ -12,17 +12,15 @@ sidebar_position: 1
   <span className="badge badge--info">Soudure</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Fer à souder + station air chaud (Yihua 959D II) / Fer de précision (Weller) |
-| **Température de travail** | 300 - 350 °C (soudure sans plomb) |
-| **Difficulté** | Débutant |
+**Type** : Fer à souder + station air chaud (Yihua 959D II) / Fer de précision (Weller)  
+**Température de travail** : 300 - 350 °C (soudure sans plomb)  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-La soudure électronique consiste à assembler des composants sur un circuit imprimé (PCB) en faisant fondre un alliage métallique (la soudure) pour créer une connexion électrique permanente. C'est une compétence fondamentale pour tout projet électronique, du simple montage à la réparation de cartes complexes.
+Les stations de soudure du L.A.B permettent d'assembler des composants sur un circuit imprimé (PCB) en faisant fondre un alliage métallique pour créer une connexion électrique permanente. C'est une compétence fondamentale pour tout projet électronique, du simple montage à la réparation de cartes complexes.
 
 Le L.A.B dispose de deux types de stations. La **Yihua 959D II** est une station combinée qui intègre un fer à souder classique et un pistolet à air chaud. Le fer sert à la soudure de composants traversants et CMS, tandis que l'air chaud permet le retrait ou la soudure de composants montés en surface (CMS) plus complexes. La **Weller** est une station de précision, idéale pour les travaux fins nécessitant un contrôle thermique précis.
 
@@ -47,6 +45,24 @@ Ces stations conviennent aussi bien aux débutants qui réalisent leur premier m
 - Pince coupante et pince brucelles
 - Support de PCB (troisième main ou étau)
 - Tresse à dessouder ou pompe à dessouder (pour les corrections)
+
+## Types de soudure et consommables
+
+| Consommable | Composition | Température de fusion | Remarques |
+|---|---|---|---|
+| **Soudure sans plomb (recommandée)** | Sn99.3Cu0.7 | 227 °C | Standard au L.A.B. Nécessite une température de fer plus élevée (350 °C). |
+| **Soudure sans plomb Sn96.5Ag3Cu0.5** | Étain-argent-cuivre | 217 °C | Meilleure mouillabilité que le Sn99.3Cu0.7. Plus chère. |
+| **Soudure avec plomb** | Sn63Pb37 | 183 °C | Plus facile à utiliser (température plus basse, 320 °C). Se laver les mains après. |
+| **Flux en stylo** | Colophane | — | Appliquer avant la soudure pour nettoyer les surfaces et améliorer le mouillage. |
+| **Flux en gel** | Colophane ou no-clean | — | Pour les composants CMS. Appliquer au cure-dent ou à la seringue. |
+| **Tresse à dessouder** | Cuivre tressé + flux | — | Absorbe la soudure par capillarité. Existe en plusieurs largeurs. |
+
+:::note[**Quel fil de soudure choisir ?**]
+- **Débutant ?** Utilisez du fil de **0.8 mm sans plomb** (Sn99.3Cu0.7) avec âme en flux. Ce diamètre offre un bon contrôle de la quantité déposée.
+- **Composants CMS fins** : passez au **0.5 mm** pour plus de précision.
+- **Gros joints** (connecteurs, fils épais) : le **1.0 mm** dépose plus de soudure et accélère le travail.
+- **Avec ou sans plomb ?** Le sans plomb est recommandé pour la santé. Le plomb reste plus facile à travailler. Dans tous les cas, **lavez-vous les mains après chaque session**.
+:::
 
 ---
 

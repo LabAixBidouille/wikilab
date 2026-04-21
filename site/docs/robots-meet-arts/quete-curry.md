@@ -78,9 +78,8 @@ sidebar_position: 22
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparer quelques exemples courts de récits avec des embranchements simples
 - Prévoir un dé par groupe
@@ -140,15 +139,13 @@ Rassemblez vos élèves pour un moment d&#39;échange et de réflexion. Animez u
 
 Annoncez ensuite l&#39;objectif de la prochaine séance : travailler par petits groupes pour créer leur propre labyrinthe narratif, plus élaboré, avec plusieurs embranchements et des choix aux conséquences variées.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez des modèles d&#39;algorigrammes vierges en format A3 pour chaque groupe, ainsi que quelques exemples plus élaborés à projeter.
 - Rassemblez une documentation simple sur les structures narratives classiques (comme le schéma du voyage du héros) adaptée au niveau des élèves.
@@ -209,15 +206,13 @@ Encouragez-les à partager les difficultés rencontrées et les solutions qu&#39
 
 Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d&#39;extension de leur travail pour la prochaine séance : transformation de leur labyrinthe narratif en format numérique, création d&#39;un petit livre, ou élaboration d&#39;un jeu de plateau basé sur leur histoire.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez des exemples concrets d&#39;implémentation numérique de récits interactifs, comme des projets Scratch ou MakeCode Arcade que vous pourrez montrer aux élèves.
 - Rassemblez des ressources variées sur la création d&#39;escape games pédagogiques adaptés à l&#39;âge de vos élèves.
@@ -273,7 +268,6 @@ Présentez aux élèves une vision des prolongements possibles de cette activit�
 
 Terminez par un tour de table rapide où chaque élève partage une chose qu&#39;il a particulièrement appréciée dans cette séquence d&#39;activités.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

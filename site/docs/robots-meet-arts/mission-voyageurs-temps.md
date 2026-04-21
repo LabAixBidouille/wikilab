@@ -96,7 +96,6 @@ Ils définissent :
 
 **Objectif** : Préparer un plan clair pour leur mission temporelle numérique.
 
-*Fin de la session 1.*
 
 ---
 
@@ -166,7 +165,7 @@ L&#39;enseignant·e circule entre les groupes pour aider avec les blocs de code,
 
 **Objectif** : Compléter la majeure partie de l&#39;histoire/jeu Scratch.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Encouragez les élèves à tester régulièrement leur projet (cliquer sur le drapeau vert)
 - Rappelez-leur de sauvegarder leur travail fréquemment
@@ -174,7 +173,6 @@ L&#39;enseignant·e circule entre les groupes pour aider avec les blocs de code,
 
 :::
 
-*Fin de la session 2.*
 
 ---
 
@@ -204,7 +202,7 @@ Les élèves peuvent également décorer la couverture de leur Carnet du Voyageu
 
 **Objectif** : Finaliser le projet et le rendre agréable à présenter.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Encouragez les élèves à faire tester leur projet par un autre groupe pour repérer les derniers bugs
 - Rappelez-leur que la simplicité est souvent plus efficace qu&#39;un projet trop ambitieux qui ne fonctionne pas
@@ -245,7 +243,7 @@ Chaque groupe reçoit au moins un badge pour valoriser son travail.
 
 **Objectif** : Célébrer les apprentissages, développer la fierté du travail accompli et valoriser la collaboration.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Publier les projets Scratch sur le site de l&#39;école ou dans un espace partagé
 - Organiser une « Exposition des Voyageurs du temps » pour les autres classes
@@ -253,7 +251,6 @@ Chaque groupe reçoit au moins un badge pour valoriser son travail.
 
 :::
 
-*Fin de la session 3.*
 
 ---
 

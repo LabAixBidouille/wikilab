@@ -77,9 +77,8 @@ sidebar_position: 8
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Préparez les 8 chasubles de couleur (2 rouges, 2 vertes, 2 bleues, et 2 jaunes) et 4 balles correspondantes (1 rouge, 1 verte, 1 bleue et 1 jaune). Vous pouvez également utiliser des autocollants à la place des chasubles.
 - Placez les élèves dans un espace extérieur approprié, assez grand pour qu'ils puissent se disperser, sur une surface plane et sûre. Prévoyez un espace intérieur en cas de mauvais temps, comme un gymnase.
@@ -173,15 +172,13 @@ Après avoir exploré les concepts de l'algorithme de routage à travers les act
 
 Expliquez aux élèves comment planifier leurs itinéraires de trains, en soulignant le lien avec le concept de routage. Jouez une ou deux manches pour familiariser les élèves. Une fois quelques manches jouées, demandez aux élèves de réfléchir à la façon dont ils ont planifié leurs itinéraires, et comment cela pourrait se rapporter à la programmation d'algorithmes de routage.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Préparez de la documentation autour des modes de transport en fonction de l'approche de recherche que vous avez choisie :
 - Imprimez des images et des descriptions de différents types de transport
@@ -253,17 +250,15 @@ Aidez les élèves à comprendre que même si ces règles simples ne conduisent 
 
 Demandez aux élèves de comparer l'efficacité de différentes heuristiques. Par exemple, « choisir le chemin le plus droit » est-il plus efficace pour les voitures que pour les piétons ? « Éviter les rues animées » est-il plus important à certaines heures de la journée ?
 
-*Fin de la séquence d'approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal) - Facultative
 
-*Réinvestissement et application des connaissances*
 
 ### Planifier une expédition pour aborder les algorithmes de routage sur un itinéraire réel (sortie scolaire sur une demi-journée)
 
-:::note[Notes pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Obtenir les autorisations nécessaires pour la sortie scolaire
 - Prévoir une surveillance supplémentaire par un adulte si nécessaire
@@ -314,7 +309,6 @@ Cette progression en trois séquences, partant du concept abstrait à son applic
 
 Pour prolonger l'expérience d'apprentissage, vous pouvez créer une carte numérique collaborative indiquant les itinéraires, les obstacles et les points d'intérêt découverts. Les élèves pourraient également analyser l'impact environnemental de différents choix de transport en calculant l'empreinte carbone de chaque itinéraire, ou explorer comment leurs itinéraires pourraient changer au fil des saisons ou des conditions météorologiques.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 

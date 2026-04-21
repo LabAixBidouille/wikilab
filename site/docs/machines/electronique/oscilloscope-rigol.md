@@ -12,20 +12,18 @@ sidebar_position: 2
   <span className="badge badge--info">Mesure</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Oscilloscope numérique 4 voies |
-| **Bande passante** | 100 MHz |
-| **Échantillonnage** | 1 GSa/s |
-| **Difficulté** | Débutant |
+**Type** : Oscilloscope numérique 4 voies  
+**Bande passante** : 100 MHz  
+**Échantillonnage** : 1 GSa/s  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-Un oscilloscope est un instrument de mesure qui permet de visualiser des signaux électriques en fonction du temps. Contrairement à un multimètre qui affiche une valeur instantanée, l'oscilloscope trace la forme du signal sur un écran, ce qui permet d'observer des phénomènes rapides et de comprendre le comportement dynamique d'un circuit.
+Le Rigol DS1104Z est un oscilloscope numérique 4 voies qui permet de visualiser des signaux électriques en fonction du temps. Contrairement à un multimètre qui affiche une valeur instantanée, l'oscilloscope trace la forme du signal sur un écran, ce qui permet d'observer des phénomènes rapides et de comprendre le comportement dynamique d'un circuit.
 
-Le **Rigol DS1104Z** est un oscilloscope numérique équipé de 4 voies d'entrée indépendantes. Avec une bande passante de 100 MHz et un taux d'échantillonnage de 1 GSa/s, il couvre largement les besoins des projets du L.A.B : de l'analyse d'un signal PWM sur un Arduino à la vérification de bus de communication série (UART, SPI, I2C).
+Avec une bande passante de 100 MHz et un taux d'échantillonnage de 1 GSa/s, il couvre largement les besoins des projets du L.A.B : de l'analyse d'un signal PWM sur un Arduino à la vérification de bus de communication série (UART, SPI, I2C).
 
 C'est un outil indispensable pour le débogage électronique. Quand un circuit ne fonctionne pas comme prévu, l'oscilloscope permet de vérifier concrètement ce qui se passe au niveau électrique, là où un multimètre ne suffit plus.
 

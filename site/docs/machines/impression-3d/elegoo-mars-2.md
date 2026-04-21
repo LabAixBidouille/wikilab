@@ -12,19 +12,17 @@ sidebar_position: 6
   <span className="badge badge--info">Résine</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | MSLA (LCD masqué, résine UV) |
-| **Résolution** | 2K mono LCD (1620 x 2560 px, 50 microns/pixel) |
-| **Volume d'impression** | 129 x 80 x 150 mm |
-| **Station de post-traitement** | Elegoo Mercury Plus (lavage IPA + polymérisation UV) |
-| **Difficulté** | Intermédiaire |
+**Type** : MSLA (LCD masqué, résine UV)  
+**Résolution** : 2K mono LCD (1620 x 2560 px, 50 microns/pixel)  
+**Volume d'impression** : 129 x 80 x 150 mm  
+**Station de post-traitement** : Elegoo Mercury Plus (lavage IPA + polymérisation UV)  
+**Difficulté** : Intermédiaire
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-L'Elegoo Mars 2 est une imprimante 3D à résine compacte de type MSLA. Comme la Saturn, elle utilise un écran LCD monochrome pour solidifier de la résine photosensible couche par couche, mais dans un format plus petit et plus abordable. Sa résolution de 50 microns par pixel offre un excellent niveau de détail pour les petites pièces.
+L'Elegoo Mars 2 est une imprimante 3D à résine compacte de type MSLA, équipée d'un écran LCD 2K monochrome. Comme la Saturn, elle solidifie de la résine photosensible couche par couche à l'aide de lumière UV, mais dans un format plus petit et plus abordable. Sa résolution de 50 microns par pixel offre un excellent niveau de détail pour les petites pièces.
 
 La particularité de cet ensemble au L.A.B est qu'il est accompagné de la station **Elegoo Mercury Plus**, qui combine deux fonctions indispensables en impression résine : le lavage à l'alcool isopropylique (IPA) dans un bac rotatif et la polymérisation UV sous une cloche de LEDs à 405 nm. Cette station simplifie considérablement le post-traitement, qui est l'étape la plus contraignante de l'impression résine.
 
@@ -50,6 +48,23 @@ La Mars 2 est parfaite pour les petites pièces de haute précision : figurines,
 - De l'**alcool isopropylique** (IPA 90 %+) pour la Mercury Plus
 - La station **Elegoo Mercury Plus** (disponible au L.A.B)
 - Des filtres en papier pour le bac de résine
+
+## Résines compatibles
+
+| Résine | Temps d'exposition | Propriétés | Usages typiques |
+|---|---|---|---|
+| **Standard** | 2-3 s/couche | Bonne résolution, rigide, fragile. Économique. | Figurines, maquettes, prototypage visuel |
+| **ABS-Like** | 2.5-3.5 s/couche | Plus résistante aux chocs que la standard, légèrement flexible. | Pièces fonctionnelles, clips, boîtiers |
+| **Water-Washable** | 2-3 s/couche | Nettoyable à l'eau (pas d'IPA nécessaire). Légèrement moins précise. | Usage simplifié, débutants |
+| **Flexible** | 3-5 s/couche | Souple après polymérisation. | Joints, semelles, prototypes souples |
+| **Castable** | 3-4 s/couche | Brûle sans résidu pour la coulée de métal. | Joaillerie, fonderie |
+
+:::note[**Conseils pour le choix de la résine**]
+- **Débutant ?** La résine **standard Elegoo** (grise) offre le meilleur compromis qualité/prix pour apprendre.
+- **Sans IPA ?** La résine **water-washable** simplifie le post-traitement mais le lavage doit rester bref (< 3 min) pour éviter le ramollissement.
+- **Toujours** secouer la bouteille 30 secondes avant utilisation pour homogénéiser les pigments.
+- **Température** : imprimez entre 20 et 25 °C. En dessous de 18 °C, les temps d'exposition doivent être augmentés.
+:::
 
 ---
 

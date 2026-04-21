@@ -12,17 +12,15 @@ sidebar_position: 3
   <span className="badge badge--info">Inspection</span>
 </div>
 
-| | Détails |
-|---|---|
-| **Type** | Microscope numérique avec écran intégré |
-| **Utilisation** | Inspection visuelle de PCB et composants |
-| **Difficulté** | Débutant |
+**Type** : Microscope numérique avec écran intégré  
+**Utilisation** : Inspection visuelle de PCB et composants  
+**Difficulté** : Débutant
 
 ---
 
-## De quoi parle-t-on ?
+## Présentation
 
-Le microscope numérique est un outil d'inspection visuelle qui permet d'observer des détails invisibles à l'œil nu. Équipé d'une caméra et d'un écran intégré, il affiche en temps réel une image agrandie de la zone observée, sans qu'il soit nécessaire de regarder dans un oculaire comme sur un microscope optique classique.
+Le microscope numérique est un outil d'inspection visuelle équipé d'une caméra et d'un écran intégré, qui affiche en temps réel une image agrandie de la zone observée sans qu'il soit nécessaire de regarder dans un oculaire comme sur un microscope optique classique.
 
 Au L.A.B, le microscope numérique est principalement utilisé pour le travail en électronique : vérifier la qualité d'un joint de soudure, lire le marquage d'un composant CMS minuscule, inspecter les pistes d'un circuit imprimé à la recherche de courts-circuits ou de coupures. C'est un complément naturel des stations de soudure.
 
@@ -83,7 +81,7 @@ L'appareil est très simple à utiliser. Il ne nécessite aucune configuration c
 
 1. Examinez les pistes du PCB à grossissement moyen (15x à 20x).
 2. Recherchez les ponts de soudure (soudure qui relie deux pistes adjacentes de manière non voulue).
-3. Vérifiez l'intégrité des pistes fines : une micro-coupure peut être invisible à l'œil nu mais clairement visible au microscope.
+3. Vérifiez l'intégrité des pistes fines : une micro-coupure peut être invisible à l'oeil nu mais clairement visible au microscope.
 
 **Lecture de marquages de composants :**
 

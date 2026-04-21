@@ -47,9 +47,8 @@ sidebar_position: 19
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Cette activité se concentre sur le développement des valeurs, de la réflexion éthique et de la prise de décision à travers de courts dilemmes moraux (annexe 3). Les élèves représenteront ces situations en créant des histoires interactives avec Scratch.
 
@@ -78,15 +77,13 @@ Présentez ensuite le dilemme :
 
 Cette introduction permet de poser le cadre émotionnel et éthique avant de passer à la création des histoires interactives.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Testez la connexion internet et le vidéoprojecteur avant la séance.
 - Imprimez un exemplaire de chaque fiche de travail par groupe.
@@ -134,15 +131,13 @@ Les élèves planifient le début, le milieu et la fin de leur histoire. Encoura
 
 À la fin de cette phase, chaque groupe doit avoir un storyboard complet et être prêt à commencer la programmation dans Scratch.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Circulez entre les groupes pour les aider avec le vocabulaire, la grammaire et les blocs Scratch.
 - Aidez-les à se répartir les tâches (un élève anime, un autre écrit/enregistre).
@@ -171,13 +166,11 @@ Laissez les élèves apporter les dernières améliorations à leur projet.
 
 À la fin de cette phase, les histoires interactives doivent être complètes et prêtes à être présentées à la classe.
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
 ## Réflexion autour de la séquence
 
-*Conclure et en tirer des apprentissages*
 
 Pour conclure, demandez aux groupes de présenter leurs projets en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement et à donner des retours positifs.
 
@@ -216,7 +209,6 @@ Vous pouvez terminer la séance par un geste symbolique :
 
 Cette clôture permet de valoriser le travail accompli et d&#39;ancrer les apprentissages dans la réalité des élèves.
 
-*Fin de la séquence « Dilemmes et valeurs - Des histoires courtes pour réfléchir et coder ».*
 
 ---
 

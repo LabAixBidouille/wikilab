@@ -58,7 +58,7 @@ sidebar_position: 13
 
 ## Avant la séance - Préparation et logistique
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Avant la séance :
 - Découpez les cartes et installez les stations avant le début de la séance.
@@ -76,7 +76,6 @@ Avant la séance :
 
 ## Séquence 1 - Mise en route (Warm-up)
 
-*Découverte et échauffement*
 
 Rassemblez les élèves et racontez une courte histoire captivante pour les mettre dans l&#39;ambiance :
 
@@ -84,13 +83,11 @@ Rassemblez les élèves et racontez une courte histoire captivante pour les mett
 
 Faites ensuite le tour des stations avec les élèves et expliquez brièvement l&#39;objectif de chacune avant de les répartir en groupes.
 
-*Fin de la séquence de mise en route.*
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
-*Acquisition et structuration des savoirs*
 
 Durant cette phase, les élèves alternent entre deux activités, chacune divisée en deux stations identiques (soit quatre stations au total). Cette organisation permet à tous les groupes de participer aux deux types d&#39;activités : la programmation du robot avec le mélange des couleurs et la recherche d&#39;informations sur les œuvres d&#39;art. Chaque station dure 20 minutes, et après le premier tour, les élèves des stations 1 et 2 échangent leur place avec ceux des stations 3 et 4.
 
@@ -98,7 +95,7 @@ Durant cette phase, les élèves alternent entre deux activités, chacune divis�
 
 **Objectif** : Programmer un robot de sol pour naviguer d&#39;une carte de mélange de couleurs vers la carte du résultat correspondant.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Placez les six cartes de couleurs de manière aléatoire sur le sol ou sur une grande table, en laissant suffisamment d&#39;espace entre elles pour que le robot puisse se déplacer.
 - Assurez-vous que les robots sont chargés et fonctionnels avant la séance.
@@ -117,7 +114,7 @@ Les élèves programment le robot pour qu&#39;il parte de la carte du mélange e
 
 **Objectif** : Rechercher des informations sur des œuvres d&#39;art célèbres et créer des cartes mémoire pour le jeu final.
 
-:::note[Notes pour l’enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 - Les cartes mémoire sont fournies avec les réponses correctes afin que vous n&#39;ayez pas à tout rechercher à l&#39;avance. L&#39;objectif est que les élèves recherchent eux-mêmes ces informations. Si nécessaire, ils peuvent se corriger ensuite à l&#39;aide des cartes de correction.
 - Veillez à ce que les élèves écrivent lisiblement sur les cartes mémoire. Demandez-leur d&#39;écrire le nom de l&#39;œuvre en lettres majuscules si nécessaire.
@@ -153,13 +150,11 @@ Via Google Chrome :
 - Choisissez « Rechercher une image avec Google Lens ».
 - Vous obtiendrez des informations sur l&#39;objet ou le texte dans l&#39;image.
 
-*Fin de la séquence d&#39;approfondissement.*
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
-*Réinvestissement et application des connaissances*
 
 ### Jeu de mémoire avec robots
 
@@ -180,7 +175,6 @@ Présentez ensuite le jeu final :
 
 Félicitez l&#39;équipe gagnante et récapitulez les apprentissages clés de la séance !
 
-*Fin de la séquence de mise en pratique.*
 
 ---
 
