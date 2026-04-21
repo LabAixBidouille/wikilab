@@ -1,0 +1,15 @@
+node_modules/
+site/build/
+site/.docusaurus/
+site/.cache-loader/
+.DS_Store
+.env*
+*.log
+
+# Fichiers trop lourds pour GitHub (>50MB) — à gérer via Git LFS plus tard
+site/static/pdf/unplugged/Unplugged_Vivre en harmonie_FR.pdf
+site/static/pdf/unplugged/Unplugged_Potluck March_FR.pdf
+site/static/pdf/unplugged/Unplugged_Equal_FR.pdf
+projets/unplugged/Unplugged_Vivre en harmonie_FR.pdf
+projets/unplugged/Unplugged_Potluck March_FR.pdf
+projets/unplugged/Unplugged_Equal_FR.pdf

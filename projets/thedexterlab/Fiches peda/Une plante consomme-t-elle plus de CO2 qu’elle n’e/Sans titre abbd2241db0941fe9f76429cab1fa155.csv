@@ -1,0 +1,5 @@
+﻿Id,Nom de la fiche
+PROG8-TDL-1,Mesurer le taux de CO2 dans l’air
+PROG8-TDL-2,Afficher les données collectées sur un écran
+PROG8-TDL-3,Exporter les données de la carte au format CSV
+PROG8-TDL-4,"Exporter les données des capteurs de CO2, de température et d’humidité au format CSV"

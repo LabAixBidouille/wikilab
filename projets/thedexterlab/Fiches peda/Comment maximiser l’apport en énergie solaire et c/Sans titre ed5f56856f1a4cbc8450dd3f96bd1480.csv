@@ -1,0 +1,6 @@
+﻿Id,Nom de la fiche
+PROG7-TDL-1,Collecter des données grâce au capteur de lumière
+PROG7-TDL-2,Afficher les données collectées en mesurant le changement d'intensité lumineuse grâce au LDR
+PROG7-TDL-3,Programmation d’un servomoteur
+PROG7-TDL-4,Programmation du suiveur solaire
+PROG7-TDL-5,Collecter les données grâce au capteur de tension

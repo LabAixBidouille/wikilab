@@ -1,0 +1,1010 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+:root {
+  /* Primaire — Bleu */
+  --ifm-color-primary: #356bac;
+  --ifm-color-primary-dark: #30619b;
+  --ifm-color-primary-darker: #2d5c93;
+  --ifm-color-primary-darkest: #254c79;
+  --ifm-color-primary-light: #3f78b8;
+  --ifm-color-primary-lighter: #4a80bc;
+  --ifm-color-primary-lightest: #6898cb;
+
+  /* Accents Wikilab */
+  --wikilab-pink: #e83e8c;
+  --wikilab-blue: #356bac;
+  --wikilab-orange: #fd7e14;
+  --wikilab-purple: #723289;
+  --wikilab-green: #6c9e23;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Nunito', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  --ifm-font-weight-bold: 700;
+  --ifm-heading-font-weight: 800;
+  --ifm-border-radius: 10px;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #1e2a3a;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #6898cb;
+  --ifm-color-primary-dark: #5289c2;
+  --ifm-color-primary-darker: #4780bd;
+  --ifm-color-primary-darkest: #3568a4;
+  --ifm-color-primary-light: #7ea7d4;
+  --ifm-color-primary-lighter: #89afd8;
+  --ifm-color-primary-lightest: #b0cbe6;
+
+  --wikilab-pink: #f06aaa;
+  --wikilab-orange: #fea04d;
+  --wikilab-purple: #9b5cb5;
+  --wikilab-green: #8bc34a;
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* ── Callout Phases d'activité (caution/warning → rose) ── */
+
+.alert--warning {
+  --ifm-alert-background-color: #fdf0f5 !important;
+  --ifm-alert-background-color-highlight: rgba(232, 62, 140, 0.15) !important;
+  --ifm-alert-foreground-color: #c0245a !important;
+  --ifm-alert-border-color: var(--wikilab-pink) !important;
+}
+
+[data-theme='dark'] .alert--warning {
+  --ifm-alert-background-color: #2d1520 !important;
+  --ifm-alert-background-color-highlight: rgba(240, 106, 170, 0.15) !important;
+  --ifm-alert-foreground-color: #f06aaa !important;
+  --ifm-alert-border-color: var(--wikilab-pink) !important;
+}
+
+.alert--warning svg {
+  display: none !important;
+}
+
+.alert--warning [class^="admonitionIcon"]::before {
+  content: '';
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM6.5 5v6l5-3-5-3z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zm0 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM6.5 5v6l5-3-5-3z'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* ── Icône imprimante pour :::tip (Ressources imprimables) ── */
+
+.alert--success svg {
+  display: none !important;
+}
+
+.alert--success [class^="admonitionIcon"]::before {
+  content: '';
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 0h8v4H4V0zm-.5 5h9a2.5 2.5 0 0 1 2.5 2.5v4a.5.5 0 0 1-.5.5H12v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3H1.5a.5.5 0 0 1-.5-.5v-4A2.5 2.5 0 0 1 3.5 5zM5 12v3h6v-3H5zm0-7v1h6V5H5zm6.5 3a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 0h8v4H4V0zm-.5 5h9a2.5 2.5 0 0 1 2.5 2.5v4a.5.5 0 0 1-.5.5H12v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3H1.5a.5.5 0 0 1-.5-.5v-4A2.5 2.5 0 0 1 3.5 5zM5 12v3h6v-3H5zm0-7v1h6V5H5zm6.5 3a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* ── Justification du texte ── */
+
+article p,
+article li,
+.markdown p,
+.markdown li {
+  text-align: justify;
+}
+
+/* ── Tableaux fiches ressources ── */
+
+.markdown table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.markdown table th,
+.markdown table td {
+  width: 25%;
+}
+
+.markdown table thead th {
+  background-color: #09246C;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.markdown table td,
+.markdown table th {
+  padding: 0.35rem 0.75rem;
+}
+
+/* ── Badges colorés ── */
+
+.badge {
+  font-weight: 600;
+  font-size: 0.75rem;
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+
+.badge--primary {
+  background-color: var(--wikilab-blue);
+  border-color: var(--wikilab-blue);
+}
+
+.badge--info {
+  background-color: var(--wikilab-purple);
+  border-color: var(--wikilab-purple);
+}
+
+.badge--warning {
+  background-color: var(--wikilab-orange);
+  border-color: var(--wikilab-orange);
+  color: #fff;
+}
+
+.badge--success {
+  background-color: var(--wikilab-green);
+  border-color: var(--wikilab-green);
+}
+
+.badge--danger {
+  background-color: var(--wikilab-pink);
+  border-color: var(--wikilab-pink);
+}
+
+/* ── Hero page d'accueil ── */
+
+.wikilab-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.wikilab-hero__banner {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.wikilab-hero__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.wikilab-hero__text {
+  margin-left: auto;
+  text-align: center;
+  max-width: 55%;
+  color: #fff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+.wikilab-hero__title {
+  font-size: 3rem !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.wikilab-hero__subtitle {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.wikilab-hero__actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wikilab-hero__actions .button {
+  text-shadow: none;
+}
+
+.wikilab-hero__btn-catalogue {
+  background-color: var(--wikilab-orange) !important;
+  border-color: var(--wikilab-orange) !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  transition: all 0.15s;
+}
+
+.wikilab-hero__btn-catalogue:hover {
+  background-color: #fff !important;
+  color: var(--wikilab-orange) !important;
+  border-color: var(--wikilab-orange) !important;
+}
+
+.wikilab-hero__btn-machines {
+  background-color: var(--wikilab-green) !important;
+  border-color: var(--wikilab-green) !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  transition: all 0.15s;
+}
+
+.wikilab-hero__btn-machines:hover {
+  background-color: #fff !important;
+  color: var(--wikilab-green) !important;
+  border-color: var(--wikilab-green) !important;
+}
+
+.wikilab-hero__btn-about {
+  background-color: transparent !important;
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 0.7rem 2rem;
+  font-size: 1.1rem;
+  transition: all 0.15s;
+}
+
+.wikilab-hero__btn-about:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* ── Section highlights ── */
+
+.wikilab-highlights {
+  padding: 3rem 0;
+  background: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .wikilab-highlights {
+  background: var(--ifm-background-color);
+}
+
+.wikilab-highlight-card {
+  border-left: 4px solid var(--accent);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0 8px 8px 0;
+  background: var(--ifm-background-surface-color, var(--ifm-background-color));
+  height: 100%;
+}
+
+.wikilab-highlight-card h3 {
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.wikilab-highlight-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  opacity: 0.85;
+}
+
+/* ── Section projets ── */
+
+.wikilab-section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.wikilab-projects {
+  padding: 2rem 0 3rem;
+  background: #f0f0f5;
+}
+
+[data-theme='dark'] .wikilab-projects {
+  background: #1e1e2e;
+}
+
+.wikilab-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.wikilab-project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color, #fff);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.2s, border-bottom-color 0.2s;
+  aspect-ratio: 1 / 1;
+  border-bottom: 4px solid var(--ifm-color-emphasis-200);
+  overflow: hidden;
+}
+
+.wikilab-project-card:hover {
+  border-color: var(--wikilab-blue);
+  border-bottom-color: var(--wikilab-pink);
+}
+
+.wikilab-project-card__logo {
+  flex: 1;
+  width: 80%;
+  object-fit: contain;
+}
+
+.wikilab-project-card__name {
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
+/* ── CTA bas de page ── */
+
+.wikilab-cta {
+  padding: 3rem 0;
+  background-color: var(--wikilab-green);
+  color: #fff;
+}
+
+.wikilab-cta h2 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.wikilab-cta p {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.wikilab-cta-button {
+  background-color: #fff !important;
+  color: var(--wikilab-green) !important;
+  border: none;
+  border-radius: 30px;
+  padding: 0.8rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: opacity 0.15s;
+}
+
+.wikilab-cta-button:hover {
+  opacity: 0.9;
+  color: var(--wikilab-green) !important;
+}
+
+/* ── Section UE ── */
+
+/* ── Section UE ── */
+
+.wikilab-eu {
+  padding: 3rem 0;
+  background: var(--ifm-background-color);
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.wikilab-eu__inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.wikilab-eu__logo {
+  width: 140px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.wikilab-eu p {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin: 0;
+}
+
+/* ── Pages projet — Hero ── */
+
+.wikilab-project-header-banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wikilab-project-hero {
+  background-color: var(--wikilab-blue);
+  color: #fff;
+  padding: 2.5rem 0;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.wikilab-project-hero__inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.wikilab-project-hero__logo {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 16px;
+  padding: 1rem;
+  border: 4px solid var(--wikilab-orange);
+}
+
+.wikilab-project-hero__title {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.wikilab-project-hero__summary {
+  font-size: 1.15rem;
+  opacity: 0.9;
+  margin: 0 0 1rem;
+}
+
+.wikilab-project-hero__link {
+  color: #fff !important;
+  background-color: transparent !important;
+  border: 2px solid #fff !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 0.4rem 1.2rem;
+  text-shadow: none;
+}
+
+.wikilab-project-hero__link:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* ── Pages projet — Stats ── */
+
+.wikilab-project-stats {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  margin: 1.5rem auto 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.wikilab-project-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  border-radius: 12px;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color, #fff);
+  min-width: 120px;
+}
+
+.wikilab-project-stat__value {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--wikilab-blue);
+}
+
+.wikilab-project-section h2 {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.wikilab-project-section h3 {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.wikilab-project-resource-card h3 {
+  color: var(--ifm-color-primary-darkest);
+}
+
+.wikilab-project-stat__label {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* ── Pages projet — Sections ── */
+
+.wikilab-project-section {
+  margin-bottom: 3rem;
+}
+
+.wikilab-project-description {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.wikilab-project-objectives {
+  padding-left: 1.2rem;
+}
+
+.wikilab-project-objectives li {
+  margin-bottom: 0.4rem;
+}
+
+.wikilab-project-info-grid {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.wikilab-project-info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 1rem 1.5rem;
+  border-left: 3px solid var(--wikilab-blue);
+  background: var(--ifm-background-surface-color, var(--ifm-background-color));
+  border-radius: 0 8px 8px 0;
+}
+
+/* ── Pages projet — Partenaires ── */
+
+.wikilab-project-partners {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.wikilab-partner-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+}
+
+.wikilab-partner-card__logo {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.wikilab-partner-card__placeholder {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--project-color, var(--wikilab-blue));
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.wikilab-partner-card__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.wikilab-partner-card__country {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* ── Pages projet — Ressources ── */
+
+.wikilab-project-count {
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--ifm-color-emphasis-200);
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-left: 0.5rem;
+}
+
+.wikilab-project-empty {
+  padding: 2.5rem;
+  text-align: center;
+  border: 2px dashed var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.wikilab-project-resources {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.wikilab-project-resource-card {
+  padding: 1rem;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.wikilab-project-resource-card h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.wikilab-project-resource-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.wikilab-project-resource-card__meta {
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.wikilab-project-resource-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+/* ── Pages projet — Boutons bas ── */
+
+.wikilab-project-btn-catalogue {
+  background-color: var(--wikilab-pink) !important;
+  border-color: var(--wikilab-pink) !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  transition: opacity 0.15s;
+}
+
+.wikilab-project-btn-catalogue:hover {
+  opacity: 0.85;
+  color: #fff !important;
+}
+
+.wikilab-project-btn-home {
+  background-color: transparent !important;
+  border: 2px solid var(--wikilab-green) !important;
+  color: var(--wikilab-green) !important;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  transition: background-color 0.15s;
+}
+
+.wikilab-project-btn-home:hover {
+  background-color: var(--wikilab-green) !important;
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .wikilab-project-hero__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .wikilab-project-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wikilab-project-info-grid {
+    flex-direction: column;
+  }
+}
+
+/* ── Galerie photos ── */
+
+.wikilab-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+.wikilab-gallery img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.wikilab-gallery--1 {
+  grid-template-columns: 1fr;
+}
+
+.wikilab-gallery--1 img {
+  height: auto;
+  max-height: 400px;
+}
+
+.wikilab-gallery--2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wikilab-gallery--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  .wikilab-gallery,
+  .wikilab-gallery--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ── Page liste projets ── */
+
+.wikilab-projets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.wikilab-projets-list__item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  border-left: 5px solid var(--wikilab-green);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.2s;
+}
+
+.wikilab-projets-list__item:hover {
+  border-color: var(--wikilab-orange);
+  border-left-color: var(--wikilab-green);
+}
+
+.wikilab-projets-list__logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.wikilab-projets-list__info h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.wikilab-projets-list__info p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.wikilab-projets-list__meta {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-top: 0.25rem;
+  display: block;
+}
+
+/* ── Cartes catalogue ── */
+
+.card {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: var(--wikilab-blue);
+}
+
+/* ── Sidebar filtres ── */
+
+aside .card {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 1rem);
+  max-height: calc(100vh - var(--ifm-navbar-height) - 2rem);
+  overflow-y: auto;
+}
+
+aside fieldset legend {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+aside label {
+  font-size: 0.85rem;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+aside input[type='range'] {
+  accent-color: var(--wikilab-blue);
+}
+
+aside input[type='checkbox'] {
+  accent-color: var(--wikilab-blue);
+}
+
+/* ── Navbar ── */
+
+.navbar {
+  height: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar__inner {
+  height: 100%;
+}
+
+.navbar__title {
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+.navbar__link {
+  font-weight: 600;
+  margin: 0 0.5rem;
+}
+
+.navbar__item.navbar__link[href="/catalogue"] {
+  background-color: var(--wikilab-pink);
+  color: #fff !important;
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  font-weight: 700;
+}
+
+.navbar__item.navbar__link[href="/catalogue"]:hover {
+  background-color: #d12f78;
+}
+
+/* ── Footer ── */
+
+.footer--dark {
+  background-color: #1d2a54;
+}
+
+.footer__title {
+  font-weight: 700;
+}
+
+.footer .row {
+  justify-content: space-between;
+}
+
+.footer__bottom {
+  margin-top: 2rem;
+}
+
+.footer__link-item[href*="/projets/"] {
+  /* handled by parent column layout */
+}
+
+.col.footer__col:nth-child(3) .footer__items {
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.col.footer__col:nth-child(3) .footer__items li {
+  break-inside: avoid;
+}
+
+/* ── Page machines ── */
+
+.wikilab-machines-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.wikilab-machines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.wikilab-machine-card {
+  padding: 1.25rem;
+}
+
+.wikilab-machine-card__photo {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #f5f5f5;
+  padding: 0.5rem;
+}
+
+.wikilab-machine-card__content h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.wikilab-machine-card__content p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.85;
+}
+
+.wikilab-machine-card__specs {
+  font-size: 0.8rem;
+  padding-left: 1.2rem;
+  margin: 0 0 0.5rem;
+  opacity: 0.7;
+}
+
+.wikilab-machine-card__status {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.wikilab-machine-card__status--ok {
+  color: var(--wikilab-green);
+}
+
+.wikilab-machine-card__status--off {
+  color: var(--wikilab-pink);
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 768px) {
+  .wikilab-hero__title {
+    font-size: 2rem !important;
+  }
+
+  .wikilab-hero__banner {
+    height: 250px;
+  }
+
+  .wikilab-hero__text {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .wikilab-highlights .row {
+    gap: 0;
+  }
+
+  .wikilab-highlight-card {
+    margin-bottom: 0.75rem;
+  }
+
+  .wikilab-projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 996px) {
+  main > .container > div[style*='grid'] {
+    grid-template-columns: 1fr !important;
+  }
+
+  aside .card {
+    position: static;
+    max-height: none;
+  }
+}
