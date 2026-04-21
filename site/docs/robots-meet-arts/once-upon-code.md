@@ -12,7 +12,7 @@ sidebar_position: 7
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="3" width="12" height="16" rx="1" fill="#169da7" opacity="0.1"/><rect x="5" y="4" width="10" height="14" rx="0.5" fill="#169da7" opacity="0.25"/><path d="M7 7h6M7 9.5h5M7 12h4" stroke="#169da7" strokeWidth="0.8" strokeLinecap="round"/><path d="M16 7l3-2v14l-3-2z" fill="#169da7" opacity="0.25"/><circle cx="17.5" cy="12" r="1" fill="#169da7"/><path d="M7 15l1.5-2 1.5 1 2-3 2 4H7z" fill="#169da7" opacity="0.5"/></svg> Once upon a code...
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Langues</span>
+  <span className="badge badge--primary">Langues</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Algorithme</span>
   <span className="badge badge--info">Résolution de problèmes</span>

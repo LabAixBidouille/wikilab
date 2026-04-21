@@ -12,7 +12,7 @@ sidebar_position: 25
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M4 18h16v2H4z" fill="#169da7" opacity="0.25"/><rect x="5" y="10" width="2" height="8" fill="#169da7"/><rect x="9" y="10" width="2" height="8" fill="#169da7"/><rect x="13" y="10" width="2" height="8" fill="#169da7"/><rect x="17" y="10" width="2" height="8" fill="#169da7"/><path d="M4 10h16" stroke="#169da7" strokeWidth="1.5"/><path d="M6 10L12 5l6 5" fill="#169da7" opacity="0.25" stroke="#169da7" strokeWidth="1"/><circle cx="12" cy="7.5" r="1" fill="#169da7"/></svg> Que changerais-tu si tu vivais dans la Rome antique ?
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Histoire</span>
+  <span className="badge badge--primary">Histoire</span>
   <span className="badge badge--primary">Robotique</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--warning">Tale-Bot</span>

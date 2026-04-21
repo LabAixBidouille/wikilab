@@ -12,7 +12,7 @@ sidebar_position: 12
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="9" r="7" fill="#169da7" opacity="0.1"/><circle cx="12" cy="9" r="5" fill="#169da7" opacity="0.25"/><circle cx="10" cy="8" r="1" fill="#169da7"/><circle cx="14" cy="8" r="1" fill="#169da7"/><path d="M10 11 Q12 13 14 11" stroke="#169da7" strokeWidth="0.8" fill="none"/><rect x="6" y="2" width="3" height="4" rx="1" fill="#169da7" opacity="0.25" transform="rotate(-20 7.5 4)"/><rect x="15" y="2" width="3" height="4" rx="1" fill="#169da7" opacity="0.25" transform="rotate(20 16.5 4)"/><path d="M8 16 L6 22 L18 22 L16 16" fill="#169da7" opacity="0.1"/></svg> Filtre d&#39;artiste
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Arts plastiques</span>
+  <span className="badge badge--primary">Arts plastiques</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">Scratch Lab</span>

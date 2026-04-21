@@ -127,10 +127,7 @@ article li,
   table-layout: fixed;
 }
 
-.markdown table th,
-.markdown table td {
-  width: 25%;
-}
+/* Les colonnes s'adaptent automatiquement grâce à table-layout: fixed */
 
 .markdown table thead th {
   background-color: #09246C;
@@ -155,15 +152,6 @@ article li,
 .badge--primary {
   background-color: var(--wikilab-blue);
   border-color: var(--wikilab-blue);
-}
-
-.badge--discipline {
-  background-color: var(--wikilab-orange);
-  border-color: var(--wikilab-orange);
-  color: #fff;
-  font-size: 0.85rem;
-  padding: 4px 14px;
-  font-weight: 700;
 }
 
 .badge--info {

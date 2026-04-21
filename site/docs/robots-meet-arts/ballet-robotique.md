@@ -12,7 +12,7 @@ sidebar_position: 2
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="5" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="12" cy="5" r="1.8" fill="#169da7" opacity="0.25"/><path d="M12 7.5v5M12 12.5l-3 5M12 12.5l3 5M12 9.5l-3.5-1.5M12 9.5l3.5-1.5" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round" fill="none"/><circle cx="12" cy="5" r="1" fill="#169da7"/></svg> Ballet robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Arts</span>
+  <span className="badge badge--primary">Arts</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Décomposition</span>
   <span className="badge badge--info">Pensée algorithmique</span>

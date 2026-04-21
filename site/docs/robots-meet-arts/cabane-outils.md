@@ -12,7 +12,7 @@ sidebar_position: 27
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M12 3L3 10h3v8h12v-8h3z" fill="#169da7" opacity="0.25"/><path d="M12 3L3 10h3v8h12v-8h3z" fill="none" stroke="#169da7" strokeWidth="1.2" strokeLinejoin="round"/><circle cx="12" cy="13" r="2.5" fill="#169da7"/><path d="M12 10.5v-1" stroke="#169da7" strokeWidth="1" strokeLinecap="round"/><path d="M12 16.5v1" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M9.5 13h-1" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M15.5 13h-1" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M14 11l.7-.7" stroke="#169da7" strokeWidth="1" strokeLinecap="round"/><path d="M10 15l-.7.7" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/></svg> La Cabane à outils
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Géographie</span>
+  <span className="badge badge--primary">Géographie</span>
   <span className="badge badge--primary">Sciences et technologie</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--warning">Micro:bit</span>

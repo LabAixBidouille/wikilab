@@ -12,7 +12,7 @@ sidebar_position: 22
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M4 12h16" stroke="#169da7" strokeWidth="1.2" opacity="0.25"/><path d="M4 12c0 0 2-4 8-4s8 4 8 4" fill="#169da7" opacity="0.25"/><circle cx="8" cy="10" r="1.5" fill="#169da7"/><circle cx="16" cy="10" r="1.5" fill="#169da7"/><circle cx="12" cy="8" r="1.5" fill="#169da7"/><path d="M6 12v2c0 3.3 2.7 6 6 6s6-2.7 6-6v-2" stroke="#169da7" strokeWidth="1.2" fill="none"/><path d="M12 3v2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M9 4l1 2" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M15 4l-1 2" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/></svg> La Quête du Curry
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Français</span>
+  <span className="badge badge--primary">Français</span>
   <span className="badge badge--primary">Culture littéraire</span>
   <span className="badge badge--info">Activité débranchée</span>
 </div>

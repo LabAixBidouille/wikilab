@@ -12,7 +12,7 @@ sidebar_position: 23
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M6 4h12v16H6z" fill="#169da7" opacity="0.25" rx="1"/><path d="M9 4v16" stroke="#169da7" strokeWidth="1" opacity="0.25"/><circle cx="15" cy="9" r="2" fill="#169da7"/><path d="M13 14h4" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M13 16.5h3" stroke="#169da7" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M3 7l3-3 3 3" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg> À la découverte de l&#39;histoire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Histoire</span>
+  <span className="badge badge--primary">Histoire</span>
   <span className="badge badge--primary">Pensée informatique</span>
   <span className="badge badge--info">Activité débranchée</span>
 </div>

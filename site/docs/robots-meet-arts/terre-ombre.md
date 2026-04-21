@@ -12,7 +12,7 @@ sidebar_position: 29
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M4 16h16v4H4z" fill="#169da7" opacity="0.25"/><rect x="6" y="8" width="4" height="8" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="14" y="10" width="4" height="6" rx="0.5" fill="#169da7" opacity="0.25"/><path d="M8 8c0-2.2 1.8-4 4-4" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><path d="M12 4c2.2 0 4 1.8 4 4" stroke="#169da7" strokeWidth="1" fill="none" strokeLinecap="round" opacity="0.25"/><circle cx="10" cy="5" r="1.5" fill="#169da7"/><circle cx="16" cy="7" r="1" fill="#169da7" opacity="0.25"/><path d="M2 20h20" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/></svg> La terre à l&#39;ombre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Géographie</span>
+  <span className="badge badge--primary">Géographie</span>
   <span className="badge badge--primary">Sciences et technologie</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--warning">Micro:bit</span>
@@ -360,10 +360,23 @@ BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londr
 - Gestion de l&#39;eau et déchets : La consommation d&#39;eau est réduite de 50% grâce aux équipements économes et à la récupération d&#39;eau de pluie. Une centrale de cogénération biomasse devait produire l&#39;électricité et la chaleur, mais elle a été abandonnée car elle coûtait trop cher à entretenir.
 - Vie de quartier : Chaque appartement a un petit jardin privé de 15 m2. Le quartier comprend un centre communautaire, une salle de spectacles, une crèche, un complexe sportif, un café et un restaurant. Il y a 33% de logements sociaux pour favoriser la mixité.
 
-### Autres écoquartiers suggérés
+### Bo01 "City of Tomorrow" - Malmö, Suède
 
-- Bo01 « City of Tomorrow » en Suède (Malmo)
-- ZAC de Bonne à Grenoble, France
+Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, construit en 2001 à l'occasion de l'exposition européenne de l'habitat. Ancienne zone industrielle et portuaire, le site a été transformé en vitrine du développement durable scandinave. Le quartier accueille environ 3 000 habitants dans des logements variés conçus par plus de 20 architectes différents.
+
+- **Énergie** : Bo01 est alimenté à 100% par des énergies renouvelables locales, combinant éolien (une éolienne de 2 MW), solaire (1 400 m2 de panneaux) et géothermie. Un réseau de chauffage urbain alimente tous les bâtiments.
+- **Biodiversité** : Le quartier intègre un "Green Space Factor" obligatoire pour chaque bâtiment, garantissant un minimum de végétation. Des corridors écologiques relient le quartier aux espaces naturels environnants, avec des toitures végétalisées et des mares écologiques.
+- **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux créent aussi des espaces de promenade appréciés des habitants.
+- **Déplacements** : Le quartier est conçu pour favoriser la marche et le vélo. Un réseau de pistes cyclables le relie au centre-ville, et une ligne de bus à haut niveau de service dessert le quartier.
+
+### ZAC de Bonne - Grenoble, France
+
+La ZAC de Bonne est un écoquartier de 8,5 hectares situé en plein centre de Grenoble, aménagé entre 2003 et 2010 sur le site d'une ancienne caserne militaire. Premier écoquartier français à recevoir le Grand Prix National ÉcoQuartier en 2009, il accueille environ 3 500 habitants dans 900 logements.
+
+- **Énergie** : Les bâtiments sont conçus pour consommer moins de 50 kWh/m2/an (contre 250 kWh en moyenne en France). 1 000 m2 de panneaux solaires thermiques produisent l'eau chaude, et des panneaux photovoltaïques sont intégrés aux façades. Une chaufferie bois alimente le réseau de chaleur du quartier.
+- **Espaces verts** : Le parc central de 5 hectares (parc Hoche étendu) est le poumon vert du quartier, accessible à tous les habitants. Des jardins partagés permettent aux résidents de cultiver fruits et légumes.
+- **Mixité** : 40% de logements sociaux sont répartis dans tout le quartier pour favoriser la diversité sociale. Le quartier intègre aussi des commerces, des bureaux, un cinéma et des équipements publics.
+- **Gestion de l'eau** : Des noues paysagères et des bassins de rétention collectent les eaux pluviales, réduisant le ruissellement et créant des espaces verts humides appréciés pour la biodiversité.
 
 ---
 

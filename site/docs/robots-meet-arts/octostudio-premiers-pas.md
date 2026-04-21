@@ -12,7 +12,7 @@ sidebar_position: 15
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="5" width="18" height="14" rx="3" fill="#169da7" opacity="0.1"/><rect x="5" y="7" width="14" height="10" rx="2" fill="#169da7" opacity="0.25"/><circle cx="9" cy="12" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="15" cy="12" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="9" cy="12" r="1.2" fill="#169da7"/><circle cx="15" cy="12" r="1.2" fill="#169da7"/><path d="M3 10 L1 8" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M3 14 L1 16" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M21 10 L23 8" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M21 14 L23 16" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/></svg> Premiers pas avec Octo Studio
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Programmation</span>
+  <span className="badge badge--primary">Programmation</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">Octo Studio</span>

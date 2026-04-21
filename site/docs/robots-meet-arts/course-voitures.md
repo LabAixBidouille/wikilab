@@ -12,7 +12,7 @@ sidebar_position: 4
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="10" width="18" height="7" rx="2" fill="#169da7" opacity="0.1"/><path d="M5 10l2-4h10l2 4" fill="#169da7" opacity="0.25"/><rect x="4" y="10" width="16" height="6" rx="1.5" fill="#169da7" opacity="0.25"/><circle cx="7" cy="17" r="2" fill="#169da7"/><circle cx="17" cy="17" r="2" fill="#169da7"/><path d="M9 10V8h6v2" stroke="#169da7" strokeWidth="0.8" fill="none"/></svg> Course de voitures
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Langues</span>
+  <span className="badge badge--primary">Langues</span>
   <span className="badge badge--info">Pensée algorithmique</span>
   <span className="badge badge--info">Résolution de problèmes</span>
   <span className="badge badge--warning">LEGO</span>

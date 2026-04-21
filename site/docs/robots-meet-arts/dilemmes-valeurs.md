@@ -12,7 +12,7 @@ sidebar_position: 19
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="8" cy="8" r="6" fill="#169da7" opacity="0.1"/><circle cx="16" cy="8" r="6" fill="#169da7" opacity="0.1"/><path d="M12 5 L12 11" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round"/><path d="M6 8 L4 12 L8 12 Z" fill="#169da7" opacity="0.25"/><path d="M18 8 L16 12 L20 12 Z" fill="#169da7" opacity="0.25"/><path d="M8 15 Q12 20 16 15" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><circle cx="8" cy="18" r="1" fill="#169da7"/><circle cx="16" cy="18" r="1" fill="#169da7"/><path d="M10 21 L14 21" stroke="#169da7" strokeWidth="1" strokeLinecap="round"/></svg> Dilemmes et valeurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Enseignement moral et civique</span>
+  <span className="badge badge--primary">Enseignement moral et civique</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">Scratch</span>

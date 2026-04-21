@@ -12,7 +12,7 @@ sidebar_position: 14
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2" fill="#169da7"/><path d="M8 8 L12 7 L16 8 L14 14 L16 20" stroke="#169da7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M10 14 L8 20" stroke="#169da7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M9 10 L5 8" stroke="#169da7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M15 10 L19 7" stroke="#169da7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><circle cx="4" cy="14" r="3" fill="#169da7" opacity="0.1"/><circle cx="20" cy="14" r="3" fill="#169da7" opacity="0.1"/><rect x="3" y="20" width="18" height="2" rx="1" fill="#169da7" opacity="0.25"/></svg> Le Jeu du mode danse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">EPS</span>
+  <span className="badge badge--primary">EPS</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité débranchée</span>
   <span className="badge badge--secondary">Aucun logiciel</span>

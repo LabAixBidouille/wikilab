@@ -12,7 +12,7 @@ sidebar_position: 10
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M8 2c-2 0-3.5 1.5-3.5 4s1 4 3.5 4 3.5-1.5 3.5-4S10 2 8 2z" fill="#169da7" opacity="0.1"/><path d="M8 3c-1.5 0-2.5 1.2-2.5 3s.8 3 2.5 3 2.5-1.2 2.5-3S9.5 3 8 3z" fill="#169da7" opacity="0.25"/><path d="M10.5 6V22" stroke="#169da7" strokeWidth="1.5"/><path d="M10.5 6h4M10.5 10h3M10.5 14h2.5M10.5 18h2" stroke="#169da7" strokeWidth="1" strokeLinecap="round"/><circle cx="17" cy="6" r="1" fill="#169da7" opacity="0.5"/><circle cx="16.5" cy="10" r="1" fill="#169da7" opacity="0.5"/><circle cx="16" cy="14" r="1" fill="#169da7" opacity="0.5"/><circle cx="15.5" cy="18" r="1" fill="#169da7" opacity="0.5"/></svg> Drop the bass!
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Arts</span>
+  <span className="badge badge--primary">Arts</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Décomposition</span>
   <span className="badge badge--info">Résolution de problèmes</span>

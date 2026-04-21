@@ -12,7 +12,7 @@ sidebar_position: 18
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#169da7" opacity="0.25"/><path d="M12 5 L13.5 9.5 L18 9.5 L14.5 12.5 L16 17 L12 14 L8 17 L9.5 12.5 L6 9.5 L10.5 9.5 Z" fill="#169da7"/><rect x="3" y="19" width="4" height="3" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="10" y="18" width="4" height="4" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="17" y="17" width="4" height="5" rx="0.5" fill="#169da7" opacity="0.25"/></svg> L&#39;aventure numérique des ODD
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--discipline">Éducation civique</span>
+  <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">MakeCode Arcade</span>
