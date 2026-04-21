@@ -157,6 +157,15 @@ article li,
   border-color: var(--wikilab-blue);
 }
 
+.badge--discipline {
+  background-color: var(--wikilab-orange);
+  border-color: var(--wikilab-orange);
+  color: #fff;
+  font-size: 0.85rem;
+  padding: 4px 14px;
+  font-weight: 700;
+}
+
 .badge--info {
   background-color: var(--wikilab-purple);
   border-color: var(--wikilab-purple);

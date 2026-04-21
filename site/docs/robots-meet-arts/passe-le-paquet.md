@@ -12,7 +12,7 @@ sidebar_position: 8
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="6" cy="6" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="18" cy="6" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="6" cy="18" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="18" cy="18" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="12" cy="12" r="2.5" fill="#169da7" opacity="0.1"/><circle cx="6" cy="6" r="1.5" fill="#169da7" opacity="0.25"/><circle cx="18" cy="6" r="1.5" fill="#169da7" opacity="0.25"/><circle cx="6" cy="18" r="1.5" fill="#169da7" opacity="0.25"/><circle cx="18" cy="18" r="1.5" fill="#169da7" opacity="0.25"/><circle cx="12" cy="12" r="1.5" fill="#169da7"/><path d="M6 6l6 6M18 6l-6 6M6 18l6-6M18 18l-6-6" stroke="#169da7" strokeWidth="1" strokeDasharray="2 2"/></svg> Passe le paquet
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Humanités</span>
+  <span className="badge badge--discipline">Humanités</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Abstraction</span>
   <span className="badge badge--info">Algorithmes</span>

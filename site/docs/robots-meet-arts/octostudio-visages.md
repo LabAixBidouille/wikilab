@@ -12,7 +12,7 @@ sidebar_position: 16
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><circle cx="12" cy="12" r="8" fill="#169da7" opacity="0.25"/><circle cx="9" cy="10" r="1.5" fill="#169da7"/><circle cx="15" cy="10" r="1.5" fill="#169da7"/><path d="M8 15 Q12 18 16 15" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><rect x="7" y="6" width="2" height="1.5" rx="0.5" fill="#169da7" opacity="0.25" transform="rotate(-10 8 6.75)"/><rect x="15" y="6" width="2" height="1.5" rx="0.5" fill="#169da7" opacity="0.25" transform="rotate(10 16 6.75)"/></svg> Créer des visages avec Octo Studio
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Programmation</span>
+  <span className="badge badge--discipline">Programmation</span>
   <span className="badge badge--primary">Arts plastiques</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">Octo Studio</span>

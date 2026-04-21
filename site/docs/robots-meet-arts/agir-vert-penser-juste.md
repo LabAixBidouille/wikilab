@@ -12,7 +12,7 @@ sidebar_position: 17
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M12 4 C8 4 5 8 5 12 C5 16 8 20 12 20 C16 20 19 16 19 12 C19 8 16 4 12 4 Z" fill="#169da7" opacity="0.25"/><path d="M12 4 C10 8 10 16 12 20" stroke="#169da7" strokeWidth="0.8" fill="none"/><path d="M12 4 C14 8 14 16 12 20" stroke="#169da7" strokeWidth="0.8" fill="none"/><path d="M5 10 L19 10" stroke="#169da7" strokeWidth="0.8"/><path d="M5 14 L19 14" stroke="#169da7" strokeWidth="0.8"/><path d="M10 2 C10 2 8 5 10 7 C12 5 10 2 10 2 Z" fill="#169da7"/><path d="M15 1 C15 1 13 4 15 6 C17 4 15 1 15 1 Z" fill="#169da7"/></svg> Agir vert, penser juste
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Enseignement moral et civique</span>
+  <span className="badge badge--discipline">Enseignement moral et civique</span>
   <span className="badge badge--primary">Sciences</span>
   <span className="badge badge--info">Activité branchée</span>
   <span className="badge badge--secondary">Blue-Bot</span>

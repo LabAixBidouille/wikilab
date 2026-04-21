@@ -12,7 +12,7 @@ sidebar_position: 26
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><rect x="7" y="6" width="10" height="12" rx="2" fill="#169da7" opacity="0.25"/><circle cx="12" cy="10" r="2.5" fill="#169da7"/><rect x="10" y="14" width="4" height="3" rx="1" fill="#169da7"/><line x1="9" y1="3" x2="9" y2="6" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><line x1="15" y1="3" x2="15" y2="6" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><circle cx="11" cy="9.5" r="0.5" fill="#fff"/><circle cx="13" cy="9.5" r="0.5" fill="#fff"/><path d="M5 20h14" stroke="#169da7" strokeWidth="1" opacity="0.25" strokeLinecap="round"/></svg> La journée de Robin
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Langues vivantes (Anglais)</span>
+  <span className="badge badge--discipline">Langues vivantes (Anglais)</span>
   <span className="badge badge--primary">Grammaire</span>
   <span className="badge badge--info">Activité débranchée</span>
 </div>

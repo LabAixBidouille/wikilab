@@ -12,7 +12,7 @@ sidebar_position: 28
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M8 6h8v12H8z" fill="#169da7" opacity="0.25" rx="1"/><circle cx="12" cy="10" r="3" fill="#169da7"/><path d="M10.5 9.5l1 1 2-2" stroke="#fff" strokeWidth="0.8" fill="none" strokeLinecap="round" strokeLinejoin="round"/><rect x="10" y="14" width="4" height="1.5" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="10" y="16.5" width="4" height="1" rx="0.5" fill="#169da7" opacity="0.25"/><path d="M5 8l2-2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M19 8l-2-2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><path d="M5 16l2 2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/><path d="M19 16l-2 2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/></svg> Né d&#39;hier
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Sciences et technologie</span>
+  <span className="badge badge--discipline">Sciences et technologie</span>
   <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Sciences humaines</span>
   <span className="badge badge--info">Activité débranchée rebranchée</span>

@@ -12,7 +12,7 @@ sidebar_position: 21
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M7 5h10v12H7z" fill="#169da7" opacity="0.25" rx="1"/><path d="M9 5V3h6v2" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><path d="M7 10h10" stroke="#169da7" strokeWidth="1" opacity="0.25"/><circle cx="10" cy="14" r="1.2" fill="#169da7"/><circle cx="14" cy="14" r="1.2" fill="#169da7"/><path d="M5 20l2-3h10l2 3" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/><path d="M12 7v2" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/></svg> Les Rangers du tri robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Langue maternelle</span>
+  <span className="badge badge--discipline">Langue maternelle</span>
   <span className="badge badge--primary">Environnement</span>
   <span className="badge badge--info">Activité débranchée</span>
 </div>

@@ -12,7 +12,7 @@ sidebar_position: 1
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="6" width="10" height="10" rx="2" fill="#169da7" opacity="0.1"/><rect x="4" y="8" width="6" height="6" rx="1" fill="#169da7" opacity="0.25"/><circle cx="5.5" cy="9.5" r="1" fill="#169da7"/><circle cx="8.5" cy="9.5" r="1" fill="#169da7"/><circle cx="5.5" cy="12.5" r="1" fill="#169da7"/><circle cx="8.5" cy="12.5" r="1" fill="#169da7"/><text x="15" y="10" fontSize="5" fontFamily="monospace" fill="#169da7">01</text><text x="15" y="15" fontSize="5" fontFamily="monospace" fill="#169da7">10</text></svg> L'art en binaire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Arts</span>
+  <span className="badge badge--discipline">Arts</span>
   <span className="badge badge--info">Reconnaissance de motifs</span>
   <span className="badge badge--info">Abstraction</span>
   <span className="badge badge--secondary">Activité débranchée</span>

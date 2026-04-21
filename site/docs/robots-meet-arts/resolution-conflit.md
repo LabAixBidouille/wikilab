@@ -12,7 +12,7 @@ sidebar_position: 20
 # <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="7" cy="8" r="3" fill="#169da7" opacity="0.1"/><circle cx="17" cy="8" r="3" fill="#169da7" opacity="0.1"/><circle cx="7" cy="8" r="2" fill="#169da7" opacity="0.25"/><circle cx="17" cy="8" r="2" fill="#169da7" opacity="0.25"/><path d="M5 12 L7 11 L9 12" stroke="#169da7" strokeWidth="1" fill="none" strokeLinecap="round"/><path d="M15 12 L17 11 L19 12" stroke="#169da7" strokeWidth="1" fill="none" strokeLinecap="round"/><path d="M10 14 L14 14" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><path d="M9 16 L12 18 L15 16" stroke="#169da7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M12 18 L12 21" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round"/><circle cx="12" cy="22" r="1" fill="#169da7"/></svg> Résolution de conflit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
-  <span className="badge badge--primary">Enseignement moral et civique</span>
+  <span className="badge badge--discipline">Enseignement moral et civique</span>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--info">Activité débranchée</span>
   <span className="badge badge--secondary">Aucun logiciel</span>
