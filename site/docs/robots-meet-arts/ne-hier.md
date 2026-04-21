@@ -39,7 +39,7 @@ sidebar_position: 28
 
 ## Points du programme abordés
 
-**« Découvrir le monde du numérique »** -- Sciences et technologie, Cycle 3. Cette séquence permet aux élèves de découvrir les principes fondamentaux de l&#39;apprentissage automatique en vivant eux-mêmes l&#39;expérience d&#39;un algorithme qui apprend par essai-erreur. En combinant une phase débranchée immersive, l&#39;observation d&#39;une IA qui apprend, et une phase de programmation robotique, les élèves comprennent comment les machines peuvent « apprendre » à résoudre des problèmes sans être explicitement programmées pour chaque situation.
+**« Découvrir le monde du numérique »** : sciences et technologie, Cycle 3. Cette séquence permet aux élèves de découvrir les principes fondamentaux de l&#39;apprentissage automatique en vivant eux-mêmes l&#39;expérience d&#39;un algorithme qui apprend par essai-erreur. En combinant une phase débranchée immersive, l&#39;observation d&#39;une IA qui apprend, et une phase de programmation robotique, les élèves comprennent comment les machines peuvent « apprendre » à résoudre des problèmes sans être explicitement programmées pour chaque situation.
 
 Les compétences mobilisées sont les suivantes :
 
@@ -107,13 +107,15 @@ Trois robots sont proposés (Cubetto, Sphero Indi, micro:bit), chacun avec une l
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Installer les grilles (2-3 selon effectif) -- au sol ou sur tables
-> - Préparer les récompenses pour le renforcement (bonbons, jetons, pompons...)
-> - Imprimer et plastifier les fiches de mémorisation
-> - Avoir sous les yeux le plan de chaque grille (pour donner les retours)
-> - Prévoir un pion par groupe (figurine, robot éteint, ou élève-pion)
+:::note[Notes pour l’enseignant·e]
+
+- Installer les grilles (2-3 selon effectif) -- au sol ou sur tables
+- Préparer les récompenses pour le renforcement (bonbons, jetons, pompons...)
+- Imprimer et plastifier les fiches de mémorisation
+- Avoir sous les yeux le plan de chaque grille (pour donner les retours)
+- Prévoir un pion par groupe (figurine, robot éteint, ou élève-pion)
+
+:::
 
 **Objectif** : Comprendre l&#39;apprentissage par essais et erreurs, et construire son propre modèle d&#39;apprentissage par renforcement.
 
@@ -160,13 +162,15 @@ Chaque élève garde sa fiche de mémorisation. L&#39;enseignant peut annoncer l
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Vérifier que les robots sont chargés et fonctionnels
-> - Préparer l&#39;espace de travail (zone dégagée au sol)
-> - Imprimer les fiches missions correspondant au(x) robot(s) utilisé(s)
-> - Avoir lu le tutoriel enseignant du/des robot(s)
-> - Si la phase 1 de warm-up a été réalisée sur des grilles papier, créer une version plus grande de la grille au sol (scotch, 30-40 cm/case)
+:::note[Notes pour l’enseignant·e]
+
+- Vérifier que les robots sont chargés et fonctionnels
+- Préparer l&#39;espace de travail (zone dégagée au sol)
+- Imprimer les fiches missions correspondant au(x) robot(s) utilisé(s)
+- Avoir lu le tutoriel enseignant du/des robot(s)
+- Si la phase 1 de warm-up a été réalisée sur des grilles papier, créer une version plus grande de la grille au sol (scotch, 30-40 cm/case)
+
+:::
 
 **Objectif** : Maîtriser les bases de la programmation robotique à travers des missions progressives.
 
@@ -191,9 +195,11 @@ Les élèves découvrent également qu&#39;un robot n&#39;interprète pas les in
 | Sphero Indi | Tuiles colorées posées au sol -- programmation visuelle par couleurs | Dépend des tuiles disponibles, comportements prédéfinis par couleur |
 | Robot micro:bit | Blocs sur écran (MakeCode) puis téléchargement -- programmation par blocs | Calibrage des durées et distances |
 
-> **Notes pour l&#39;enseignant·e**
->
-> Pendant que les élèves réalisent les missions, tournez entre les groupes et valorisez les erreurs : « Ton robot a tourné dans le mauvais sens ? Super, tu viens d&#39;apprendre quelque chose ! ». Observez les stratégies : qui planifie ? qui teste directement ? qui collabore ?
+:::note[Notes pour l’enseignant·e]
+
+Pendant que les élèves réalisent les missions, tournez entre les groupes et valorisez les erreurs : « Ton robot a tourné dans le mauvais sens ? Super, tu viens d&#39;apprendre quelque chose ! ». Observez les stratégies : qui planifie ? qui teste directement ? qui collabore ?
+
+:::
 
 *Fin de la séquence d&#39;approfondissement.*
 
@@ -203,9 +209,11 @@ Les élèves découvrent également qu&#39;un robot n&#39;interprète pas les in
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Nous vous conseillons de réaliser cette phase en parallèle de la phase 2. Le mieux est de proposer cette étape comme mission finale dans la continuité des fiches missions de l&#39;étape précédente.
+:::note[Notes pour l’enseignant·e]
+
+Nous vous conseillons de réaliser cette phase en parallèle de la phase 2. Le mieux est de proposer cette étape comme mission finale dans la continuité des fiches missions de l&#39;étape précédente.
+
+:::
 
 **Objectif** : Utiliser sa fiche de mémorisation pour programmer le robot à suivre le chemin découvert pendant le Warm-up.
 

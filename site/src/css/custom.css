@@ -980,6 +980,38 @@ aside input[type='checkbox'] {
   color: var(--wikilab-pink);
 }
 
+.wikilab-machine-card--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+
+.wikilab-machine-card--link:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  color: inherit;
+}
+
+.wikilab-machine-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.wikilab-machine-card__guide {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--wikilab-blue);
+}
+
+.wikilab-machine-card--link:hover .wikilab-machine-card__guide {
+  text-decoration: underline;
+}
+
 /* ── Responsive ── */
 
 @media (max-width: 768px) {

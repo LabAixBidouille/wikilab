@@ -50,10 +50,12 @@ sidebar_position: 20
 
 Cette première partie de l&#39;activité est consacrée au partage et à l&#39;échange autour de la notion de conflit.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Encouragez le travail en équipe et une communication claire.
-> - Veillez à ce que chacun puisse s&#39;exprimer sans jugement.
+:::note[Notes pour l’enseignant·e]
+
+- Encouragez le travail en équipe et une communication claire.
+- Veillez à ce que chacun puisse s&#39;exprimer sans jugement.
+
+:::
 
 Commencez par poser quelques questions aux élèves :
 
@@ -80,13 +82,15 @@ Le défi pour les élèves : sélectionner les éléments pertinents pour résou
 
 Cette activité peut se faire avec un tapis et des robots de sol, ou de manière débranchée avec des tuiles à manipuler.
 
-> **Notes pour l&#39;enseignant·e -- Les étapes de résolution de conflits à découvrir :**
->
-> - **Se calmer** — Respirer profondément avant de réagir.
-> - **Réfléchir** — Que s&#39;est-il passé ? Comment je me sens ? Comment puis-je résoudre cette situation ?
-> - **S&#39;exprimer** — Décrire ce qui s&#39;est passé, exprimer ce que je ressens, demander ce dont j&#39;ai besoin.
-> - **Écouter** — Écouter l&#39;autre personne et se mettre à sa place. Que ressent-elle ? De quoi a-t-elle besoin ?
-> - **Chercher des solutions gagnant-gagnant** — Essayer différentes solutions jusqu&#39;à en trouver une qui convienne à tous.
+:::note[Notes pour l’enseignant·e : les étapes de résolution de conflits à découvrir]
+
+- **Se calmer** — Respirer profondément avant de réagir.
+- **Réfléchir** — Que s&#39;est-il passé ? Comment je me sens ? Comment puis-je résoudre cette situation ?
+- **S&#39;exprimer** — Décrire ce qui s&#39;est passé, exprimer ce que je ressens, demander ce dont j&#39;ai besoin.
+- **Écouter** — Écouter l&#39;autre personne et se mettre à sa place. Que ressent-elle ? De quoi a-t-elle besoin ?
+- **Chercher des solutions gagnant-gagnant** — Essayer différentes solutions jusqu&#39;à en trouver une qui convienne à tous.
+
+:::
 
 Une fois les tuiles organisées, chaque groupe présente son algorithme et explique ses choix. La classe discute des différences et des points communs entre les propositions.
 

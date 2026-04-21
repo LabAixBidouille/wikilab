@@ -65,11 +65,13 @@ sidebar_position: 16
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe. Préparez le matériel indiqué ci-dessus.
->
-> Si vous ne disposez pas d&#39;assez de tablettes pour chaque binôme, envisagez une approche en micro-enseignement : travaillez avec un petit groupe pendant que les autres élèves réalisent d&#39;autres activités en autonomie.
+:::note[Notes pour l’enseignant·e]
+
+Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe. Préparez le matériel indiqué ci-dessus.
+
+Si vous ne disposez pas d&#39;assez de tablettes pour chaque binôme, envisagez une approche en micro-enseignement : travaillez avec un petit groupe pendant que les autres élèves réalisent d&#39;autres activités en autonomie.
+
+:::
 
 ### Rencontre avec Hanoch Piven
 

@@ -86,27 +86,31 @@ Cette phase de mise en route a pour objectif de faire découvrir aux élèves le
 
 ### Activité A - Découverte des ODD à travers les pictogrammes
 
-> **Notes pour l&#39;enseignant·e**
->
-> Imprimez ou projetez les pictogrammes des ODD (sans le texte, pour l&#39;exercice de devinettes). Préparez quelques exemples concrets de votre côté au cas où les élèves auraient besoin d&#39;être guidés. Encouragez les échanges et valorisez toutes les réponses pertinentes, même les plus imaginatives : c&#39;est une bonne façon de montrer que les ODD touchent de nombreux aspects de la vie quotidienne.
+:::note[Notes pour l’enseignant·e]
+
+Imprimez ou projetez les pictogrammes des ODD (sans le texte, pour l&#39;exercice de devinettes). Préparez quelques exemples concrets de votre côté au cas où les élèves auraient besoin d&#39;être guidés. Encouragez les échanges et valorisez toutes les réponses pertinentes, même les plus imaginatives : c&#39;est une bonne façon de montrer que les ODD touchent de nombreux aspects de la vie quotidienne.
+
+:::
 
 Commencez par afficher les pictogrammes des ODD pour offrir aux élèves une entrée visuelle dans ces enjeux. Montrez-leur les différentes icônes sans le texte et demandez-leur d&#39;identifier, selon eux, quel défi de société est représenté par chaque ODD.
 
 Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe pour trouver des situations de leur quotidien en lien avec chacun d&#39;eux. Par exemple :
 
-- **ODD 2 -- Faim « zéro »** : Ne pas gaspiller la nourriture à la cantine, partager son goûter avec un camarade.
-- **ODD 7 -- Énergie propre et d&#39;un coût abordable** : Éteindre la lumière en quittant une pièce, débrancher les appareils inutilisés.
-- **ODD 10 -- Inégalités réduites** : Inclure tout le monde dans les jeux, respecter les camarades en situation de handicap, accueillir les nouveaux élèves.
+- **ODD 2 : faim « zéro »** : Ne pas gaspiller la nourriture à la cantine, partager son goûter avec un camarade.
+- **ODD 7 : Énergie propre et d&#39;un coût abordable** : Éteindre la lumière en quittant une pièce, débrancher les appareils inutilisés.
+- **ODD 10 : inégalités réduites** : Inclure tout le monde dans les jeux, respecter les camarades en situation de handicap, accueillir les nouveaux élèves.
 
 À travers cette première activité, les élèves commencent à reconnaître les « grands défis mondiaux » qui se manifestent dans leur vie de tous les jours. Cela éveille leur sensibilité et leur prise de conscience.
 
-### Activité B -- Jouer avec les ODD
+### Activité B : jouer avec les ODD
 
-> **Notes pour l&#39;enseignant·e**
->
-> Imprimez les plateaux de jeu ou les livres en avance. Préparez le matériel nécessaire (cartes, recettes, accessoires simples). Organisez la classe en petits groupes pour les jeux de plateau ou en cercle pour les temps de lecture. N&#39;hésitez pas à faire des pauses pour poser des questions de réflexion, comme « En quoi ce problème nous concerne-t-il ? » ou « Que pourrions-nous faire pour aider ? ».
->
-> Si besoin, désignez des observateurs dans chaque groupe pour veiller à la coopération et au respect des règles. Après chaque jeu, prévoyez un court débriefing pour faire le lien avec les ODD et les expériences du quotidien.
+:::note[Notes pour l’enseignant·e]
+
+Imprimez les plateaux de jeu ou les livres en avance. Préparez le matériel nécessaire (cartes, recettes, accessoires simples). Organisez la classe en petits groupes pour les jeux de plateau ou en cercle pour les temps de lecture. N&#39;hésitez pas à faire des pauses pour poser des questions de réflexion, comme « En quoi ce problème nous concerne-t-il ? » ou « Que pourrions-nous faire pour aider ? ».
+
+Si besoin, désignez des observateurs dans chaque groupe pour veiller à la coopération et au respect des règles. Après chaque jeu, prévoyez un court débriefing pour faire le lien avec les ODD et les expériences du quotidien.
+
+:::
 
 Une fois les ODD découverts par les élèves, utilisez des activités ludiques pour approfondir leur compréhension. Apprendre par le jeu offre un environnement dans lequel les élèves peuvent explorer, comprendre et interagir avec les concepts abordés. Le jeu favorise la réflexion critique, la coopération et la résolution de problèmes, tout en s&#39;amusant.
 
@@ -116,11 +120,11 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 
 #### 1. Explorer les ressources de l&#39;UNESCO et de l&#39;ONU
 
-- **Go Goals!** -- Go Goals! est un jeu de plateau créé par l&#39;ONU pour aider les enfants à découvrir les ODD de manière simple et conviviale. En répondant à des questions, en lançant les dés et en déplaçant des pions, les élèves pratiquent la coopération et apprennent en s&#39;amusant. [http://go-goals.org/](http://go-goals.org/)
-- **SDG Book Club** -- Le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d&#39;aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l&#39;empathie et l&#39;imagination, tout en donnant un visage humain aux défis mondiaux. [https://www.un.org/sustainabledevelopment/sdgbookclub/](https://www.un.org/sustainabledevelopment/sdgbookclub/)
-- **Frieda** -- Frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l&#39;importance de l&#39;eau et le respect de l&#39;environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. [https://issuu.com/unpublications/docs/frieda\_2018](https://issuu.com/unpublications/docs/frieda_2018)
+- **Go Goals!** : go Goals! est un jeu de plateau créé par l&#39;ONU pour aider les enfants à découvrir les ODD de manière simple et conviviale. En répondant à des questions, en lançant les dés et en déplaçant des pions, les élèves pratiquent la coopération et apprennent en s&#39;amusant. [http://go-goals.org/](http://go-goals.org/)
+- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d&#39;aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l&#39;empathie et l&#39;imagination, tout en donnant un visage humain aux défis mondiaux. [https://www.un.org/sustainabledevelopment/sdgbookclub/](https://www.un.org/sustainabledevelopment/sdgbookclub/)
+- **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l&#39;importance de l&#39;eau et le respect de l&#39;environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. [https://issuu.com/unpublications/docs/frieda\_2018](https://issuu.com/unpublications/docs/frieda_2018)
 
-#### 2. Explorer d&#39;autres ressources ludiques -- L&#39;exemple d&#39;Unplugged Quest
+#### 2. Explorer d&#39;autres ressources ludiques : l&#39;exemple d&#39;Unplugged Quest
 
 [https://github.com/unplugged-quest/games](https://github.com/unplugged-quest/games)
 
@@ -128,15 +132,17 @@ Unplugged Quest est un projet Erasmus+ qui vise à contribuer au développement 
 
 Exemples de jeux :
 
-- **Equal** -- Le jeu Equal invite à réfléchir aux stéréotypes de genre et à l&#39;égalité. À travers des scénarios ludiques, les élèves identifient des préjugés et explorent l&#39;idée que les opportunités devraient être accessibles à tous, quel que soit le genre. Ce jeu renforce la prise de conscience autour de l&#39;inclusion et du respect.
-- **Cookies for Peace** -- Dans cette activité de jeu de rôle culinaire, des groupes d&#39;élèves doivent préparer des cookies. Mais les ressources sont inégalement réparties : certains groupes en ont trop, d&#39;autres pas assez. L&#39;objectif est que les groupes négocient et partagent pour réussir ensemble. Ce jeu met en lumière les inégalités dans la distribution des ressources et souligne l&#39;importance de la solidarité et de la coopération.
-- **PotLuck March** -- Dans ce jeu de simulation, chaque joueur reçoit des « points d&#39;énergie » aléatoires en fonction de cartes alimentaires. Certains enfants obtiennent beaucoup de nourriture (plus d&#39;énergie), d&#39;autres peu ou pas du tout. Les joueurs ne peuvent avancer que s&#39;ils ont suffisamment d&#39;énergie. L&#39;activité rend visibles les inégalités d&#39;accès à la nourriture et encourage la collaboration : ceux qui ont plus doivent décider s&#39;ils partagent avec ceux qui ont moins. L&#39;objectif final est d&#39;amener le plus de joueurs possible jusqu&#39;à la ligne d&#39;arrivée, renforçant ainsi l&#39;idée de responsabilité collective.
+- **Equal** : le jeu Equal invite à réfléchir aux stéréotypes de genre et à l&#39;égalité. À travers des scénarios ludiques, les élèves identifient des préjugés et explorent l&#39;idée que les opportunités devraient être accessibles à tous, quel que soit le genre. Ce jeu renforce la prise de conscience autour de l&#39;inclusion et du respect.
+- **Cookies for Peace** : dans cette activité de jeu de rôle culinaire, des groupes d&#39;élèves doivent préparer des cookies. Mais les ressources sont inégalement réparties : certains groupes en ont trop, d&#39;autres pas assez. L&#39;objectif est que les groupes négocient et partagent pour réussir ensemble. Ce jeu met en lumière les inégalités dans la distribution des ressources et souligne l&#39;importance de la solidarité et de la coopération.
+- **PotLuck March** : dans ce jeu de simulation, chaque joueur reçoit des « points d&#39;énergie » aléatoires en fonction de cartes alimentaires. Certains enfants obtiennent beaucoup de nourriture (plus d&#39;énergie), d&#39;autres peu ou pas du tout. Les joueurs ne peuvent avancer que s&#39;ils ont suffisamment d&#39;énergie. L&#39;activité rend visibles les inégalités d&#39;accès à la nourriture et encourage la collaboration : ceux qui ont plus doivent décider s&#39;ils partagent avec ceux qui ont moins. L&#39;objectif final est d&#39;amener le plus de joueurs possible jusqu&#39;à la ligne d&#39;arrivée, renforçant ainsi l&#39;idée de responsabilité collective.
 
 #### 3. Utiliser la dimension artistique pour ressentir les ODD
 
-> **Notes pour l&#39;enseignant·e**
->
-> Prévoyez des matériaux artistiques variés : papier, feutres, peinture, colle, objets recyclés. Laissez suffisamment de temps pour une phase de réflexion avant la création. Rappelez aux élèves de représenter à la fois le problème et la solution, pour souligner la notion de citoyenneté active. Concluez par une « visite de galerie » où chaque élève présente son œuvre et réagit à celles des autres.
+:::note[Notes pour l’enseignant·e]
+
+Prévoyez des matériaux artistiques variés : papier, feutres, peinture, colle, objets recyclés. Laissez suffisamment de temps pour une phase de réflexion avant la création. Rappelez aux élèves de représenter à la fois le problème et la solution, pour souligner la notion de citoyenneté active. Concluez par une « visite de galerie » où chaque élève présente son œuvre et réagit à celles des autres.
+
+:::
 
 Une autre manière efficace de « ressentir » les ODD est de transformer la classe en galerie d&#39;art. Vous pouvez répartir les élèves en groupes ou proposer un travail individuel en attribuant un ODD à chacun pour créer des affiches, des dessins ou des collages.
 
@@ -154,15 +160,17 @@ Cette approche transforme l&#39;apprentissage en expression citoyenne et rend le
 
 À partir de la compréhension des enjeux des ODD acquise lors de la mise en route, cette phase de construction offre aux élèves un espace pour explorer de manière dynamique les défis de société. L&#39;objectif est de développer leur esprit critique en éducation à la citoyenneté.
 
-### Activité A -- Créer des histoires interactives - Réflexion et remue-méninges
+### Activité A : créer des histoires interactives - Réflexion et remue-méninges
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparez un énoncé de mission simple sur une affiche ou une diapositive (« Votre mission : créer des histoires interactives et ludiques qui permettront à vos amis et à votre famille de plonger dans l&#39;univers des ODD »).
-> - Utilisez les pictogrammes des ODD imprimés lors de la mise en route pour aider les élèves à visualiser leurs choix.
-> - Fournissez des modèles de storyboard ou des fiches de travail avec la phrase d&#39;amorce « Il était une fois… » et des questions guides : Quel est le message citoyen ? Quelle action positive ? Quel danger ? Quelle règle ?
-> - Réfléchissez à la manière dont les élèves vont se répartir en groupes et se mettre d&#39;accord collectivement sur l&#39;ordre des histoires liées aux ODD. Un grand tableau ou un espace au sol avec des cartes ODD que les élèves placent en séquence fonctionne bien pour co-construire le fil narratif.
-> - Pour approfondir le travail sur le scénario et le storyboard, vous pouvez également utiliser la fiche pédagogique « Curry Quest ».
+:::note[Notes pour l’enseignant·e]
+
+- Préparez un énoncé de mission simple sur une affiche ou une diapositive (« Votre mission : créer des histoires interactives et ludiques qui permettront à vos amis et à votre famille de plonger dans l&#39;univers des ODD »).
+- Utilisez les pictogrammes des ODD imprimés lors de la mise en route pour aider les élèves à visualiser leurs choix.
+- Fournissez des modèles de storyboard ou des fiches de travail avec la phrase d&#39;amorce « Il était une fois… » et des questions guides : Quel est le message citoyen ? Quelle action positive ? Quel danger ? Quelle règle ?
+- Réfléchissez à la manière dont les élèves vont se répartir en groupes et se mettre d&#39;accord collectivement sur l&#39;ordre des histoires liées aux ODD. Un grand tableau ou un espace au sol avec des cartes ODD que les élèves placent en séquence fonctionne bien pour co-construire le fil narratif.
+- Pour approfondir le travail sur le scénario et le storyboard, vous pouvez également utiliser la fiche pédagogique « Curry Quest ».
+
+:::
 
 Présentez aux élèves la consigne générale de cette phase :
 
@@ -172,7 +180,7 @@ Présentez aux élèves la consigne générale de cette phase :
 
 Partir d&#39;un scénario commun donne de la cohérence et de la motivation à l&#39;ensemble du projet. Plutôt que de produire des programmes isolés, l&#39;objectif est que les élèves co-construisent un univers collectif dans lequel le travail de chaque groupe devient un « niveau » d&#39;une grande aventure. Ancrer les ODD dans une histoire rend ces objectifs abstraits plus concrets et mémorables. Un héros qui voyage à travers le « monde des Objectifs » permet aux enfants de se projeter dans des situations de justice, de durabilité ou de solidarité.
 
-**Simplifier le parcours** : Le héros n&#39;a pas besoin de traverser les 17 Objectifs. Avec l&#39;aide de l&#39;enseignant·e, la classe peut sélectionner un sous-ensemble d&#39;ODD particulièrement pertinents selon l&#39;âge des élèves, leur contexte ou les projets scolaires en cours (par exemple : ODD 3 -- Bonne santé et bien-être, ODD 4 -- Éducation de qualité, ODD 6 -- Eau propre et assainissement, ODD 12 -- Consommation et production responsables, ODD 15 -- Vie terrestre). Cela rend le scénario plus cohérent et réalisable, tout en conservant la logique collective.
+**Simplifier le parcours** : Le héros n&#39;a pas besoin de traverser les 17 Objectifs. Avec l&#39;aide de l&#39;enseignant·e, la classe peut sélectionner un sous-ensemble d&#39;ODD particulièrement pertinents selon l&#39;âge des élèves, leur contexte ou les projets scolaires en cours (par exemple : ODD 3 : bonne santé et bien-être, ODD 4 : Éducation de qualité, ODD 6 : eau propre et assainissement, ODD 12 : consommation et production responsables, ODD 15 : vie terrestre). Cela rend le scénario plus cohérent et réalisable, tout en conservant la logique collective.
 
 Complétez l&#39;énoncé de mission avec la classe : « Le héros doit voyager à travers les ODD. Qui est le héros ? Quelle est sa mission ? ». Guidez cette discussion et notez le récit convenu au tableau. Utilisez une pratique simple du storyboard pour aider les élèves à visualiser l&#39;histoire dans son ensemble, en restant simple pour leur permettre de concrétiser leurs idées avec MakeCode Arcade :
 
@@ -184,15 +192,17 @@ Une fois le scénario collectif établi, les élèves sont invités à se répar
 
 Chaque ODD choisi devient une étape du voyage du héros, pour laquelle chaque groupe concevra les défis que le héros devra affronter. L&#39;ordre des niveaux est ensuite décidé collectivement, en veillant à ce que l&#39;aventure conserve une progression cohérente.
 
-### Activité B -- Préparer son programme - Premiers pas dans MakeCode et remue-méninges
+### Activité B : préparer son programme - Premiers pas dans MakeCode et remue-méninges
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Si besoin, formez-vous à MakeCode Arcade en utilisant le tutoriel fourni en annexe. Amusez-vous et créez votre propre projet pour inspirer vos élèves !
-> - Testez les ordinateurs et la connexion internet avant la séance. Ouvrez MakeCode Arcade et vérifiez que les Skillmaps se chargent correctement.
-> - Prévoyez un vidéoprojecteur pour montrer les premières manipulations (ouvrir les Skillmaps, sélectionner un tutoriel).
-> - Laissez les élèves suivre la séquence Skillmap à leur rythme, en commençant par « Full of Stories ».
-> - Rappelez-leur de noter ce qu&#39;ils découvrent : les blocs qu&#39;ils aiment, les effets qu&#39;ils trouvent utiles ou les fonctionnalités qu&#39;ils pourraient réutiliser pour leur propre histoire.
+:::note[Notes pour l’enseignant·e]
+
+- Si besoin, formez-vous à MakeCode Arcade en utilisant le tutoriel fourni en annexe. Amusez-vous et créez votre propre projet pour inspirer vos élèves !
+- Testez les ordinateurs et la connexion internet avant la séance. Ouvrez MakeCode Arcade et vérifiez que les Skillmaps se chargent correctement.
+- Prévoyez un vidéoprojecteur pour montrer les premières manipulations (ouvrir les Skillmaps, sélectionner un tutoriel).
+- Laissez les élèves suivre la séquence Skillmap à leur rythme, en commençant par « Full of Stories ».
+- Rappelez-leur de noter ce qu&#39;ils découvrent : les blocs qu&#39;ils aiment, les effets qu&#39;ils trouvent utiles ou les fonctionnalités qu&#39;ils pourraient réutiliser pour leur propre histoire.
+
+:::
 
 Pour développer leurs histoires interactives ou leurs jeux, les élèves vont découvrir MakeCode Arcade, un logiciel de programmation permettant de créer des histoires animées simples à partir de mécaniques de jeux d&#39;arcade. En plus de donner vie à leurs histoires, cela leur permettra de découvrir la programmation par blocs de manière motivante.
 
@@ -212,11 +222,13 @@ Le groupe d&#39;élèves qui découvre MakeCode Arcade commence par utiliser les
 
 #### Rotation remue-méninges
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Mettez à disposition papier, feutres et pictogrammes des ODD pour stimuler l&#39;inspiration.
-> - Encouragez les croquis : personnages, décors ou diagrammes simples.
-> - Pendant que les groupes travaillent, circulez et aidez-les à transformer leurs idées abstraites en règles simples (par exemple : « Vous voulez parler du tri des déchets : comment pourrait-on en faire une mécanique où il faut attraper ou éviter quelque chose ? »).
+:::note[Notes pour l’enseignant·e]
+
+- Mettez à disposition papier, feutres et pictogrammes des ODD pour stimuler l&#39;inspiration.
+- Encouragez les croquis : personnages, décors ou diagrammes simples.
+- Pendant que les groupes travaillent, circulez et aidez-les à transformer leurs idées abstraites en règles simples (par exemple : « Vous voulez parler du tri des déchets : comment pourrait-on en faire une mécanique où il faut attraper ou éviter quelque chose ? »).
+
+:::
 
 Pendant qu&#39;une partie des élèves travaille sur MakeCode Arcade, l&#39;autre partie travaille en groupes pour enrichir le scénario avec leurs idées d&#39;histoire interactive ou de jeu autour de l&#39;ODD qui leur a été attribué. Pour stimuler leur réflexion, vous pouvez proposer des questions guides : Quel message citoyen veulent-ils faire passer à travers leur programme interactif ? Quelle action positive faut-il promouvoir ? Quel danger faut-il éviter ?
 
@@ -228,16 +240,18 @@ Une fois la première rotation terminée, faites changer les élèves de rôle a
 
 À la fin de la dernière rotation, réunissez à nouveau les groupes pour qu&#39;ils concluent sur leurs idées finales avant de commencer à programmer leur propre projet interactif.
 
-### Activité C -- Programmer l&#39;histoire
+### Activité C : programmer l&#39;histoire
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Encouragez les élèves à commencer simplement. La complexité pourra être ajoutée ensuite.
-> - Préparez une liste d&#39;étapes au tableau (par exemple : Étape 1 -- Créer son héros, Étape 2 -- Ajouter un élément positif, Étape 3 -- Ajouter un danger, Étape 4 -- Définir une règle).
-> - Circulez et posez des questions guides qui relient le message citoyen au code : « Que se passe-t-il quand le héros touche la pollution ? Comment le joueur saura-t-il que c&#39;est négatif ? »
-> - Rappelez aux élèves de tester régulièrement et de partager leur jeu avec leurs camarades pour vérifier que le message est clair.
-> - Fournissez des post-it ou des carnets pour que les élèves documentent leur démarche (difficultés rencontrées, solutions trouvées, réussites).
-> - Gardez un œil sur le temps : les élèves voudront « tout ajouter », mais l&#39;essentiel est la clarté du message citoyen, pas la perfection technique.
+:::note[Notes pour l’enseignant·e]
+
+- Encouragez les élèves à commencer simplement. La complexité pourra être ajoutée ensuite.
+- Préparez une liste d&#39;étapes au tableau (par exemple : Étape 1 -- Créer son héros, Étape 2 -- Ajouter un élément positif, Étape 3 -- Ajouter un danger, Étape 4 -- Définir une règle).
+- Circulez et posez des questions guides qui relient le message citoyen au code : « Que se passe-t-il quand le héros touche la pollution ? Comment le joueur saura-t-il que c&#39;est négatif ? »
+- Rappelez aux élèves de tester régulièrement et de partager leur jeu avec leurs camarades pour vérifier que le message est clair.
+- Fournissez des post-it ou des carnets pour que les élèves documentent leur démarche (difficultés rencontrées, solutions trouvées, réussites).
+- Gardez un œil sur le temps : les élèves voudront « tout ajouter », mais l&#39;essentiel est la clarté du message citoyen, pas la perfection technique.
+
+:::
 
 Une fois les élèves à l&#39;aise avec l&#39;environnement, ils passent à la programmation de leur niveau lié aux ODD. Cette étape vise à articuler compétences en programmation, réflexion citoyenne et créativité numérique : les élèves apprennent à coder pour s&#39;exprimer, sans se limiter à l&#39;aspect technique.
 
@@ -259,13 +273,15 @@ Invitez-les à documenter leurs choix en notant chaque moment de découragement 
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - **Préparez l&#39;espace** : Disposez la classe de façon à ce que chaque groupe puisse présenter facilement. Connectez un ordinateur au vidéoprojecteur pour que toute la classe puisse voir les projets. Si le matériel est limité, organisez de courtes rotations pour que les groupes puissent essayer les programmes des autres.
-> - **Donnez le ton** : Présentez cette phase comme une célébration plutôt qu&#39;une évaluation. Soulignez que chaque projet est une contribution précieuse au scénario collectif, qu&#39;il soit simple ou avancé.
-> - **Guidez les retours** : Veillez à ce qu&#39;ils soient constructifs et centrés sur la clarté du message citoyen.
-> - **Valorisez la diversité** : Rappelez aux élèves que tous les projets ne doivent pas forcément être des jeux. Mettez en avant la variété des créations (histoires, musiques, scènes, animations) comme une richesse qui enrichit le voyage collectif à travers les ODD.
-> - **Prolongez la présentation** : Si vous souhaitez ouvrir la séance à une autre classe ou aux parents, anticipez l&#39;organisation. Un petit « Festival Arcade des ODD » peut être mis en place en projetant tous les programmes à la suite ou en préparant un mur de QR codes où les visiteurs peuvent scanner et jouer.
+:::note[Notes pour l’enseignant·e]
+
+- **Préparez l&#39;espace** : Disposez la classe de façon à ce que chaque groupe puisse présenter facilement. Connectez un ordinateur au vidéoprojecteur pour que toute la classe puisse voir les projets. Si le matériel est limité, organisez de courtes rotations pour que les groupes puissent essayer les programmes des autres.
+- **Donnez le ton** : Présentez cette phase comme une célébration plutôt qu&#39;une évaluation. Soulignez que chaque projet est une contribution précieuse au scénario collectif, qu&#39;il soit simple ou avancé.
+- **Guidez les retours** : Veillez à ce qu&#39;ils soient constructifs et centrés sur la clarté du message citoyen.
+- **Valorisez la diversité** : Rappelez aux élèves que tous les projets ne doivent pas forcément être des jeux. Mettez en avant la variété des créations (histoires, musiques, scènes, animations) comme une richesse qui enrichit le voyage collectif à travers les ODD.
+- **Prolongez la présentation** : Si vous souhaitez ouvrir la séance à une autre classe ou aux parents, anticipez l&#39;organisation. Un petit « Festival Arcade des ODD » peut être mis en place en projetant tous les programmes à la suite ou en préparant un mur de QR codes où les visiteurs peuvent scanner et jouer.
+
+:::
 
 ### Partage et célébration
 
@@ -301,41 +317,41 @@ Les Skill Maps sont des guides visuels qui montrent les étapes pour atteindre u
 
 ### Étapes pour découvrir les Skill Maps
 
-#### Étape 1 -- Accéder aux Skill Maps
+#### Étape 1 : accéder aux Skill Maps
 
 Ouvrez MakeCode Arcade [https://arcade.makecode.com/](https://arcade.makecode.com/). Repérez l&#39;espace Beginner Skillmaps situé juste en dessous du bouton Nouveau projet.
 
-#### Étape 2 -- Explorer les parcours
+#### Étape 2 : explorer les parcours
 
 Parcourez les différentes Skill Maps disponibles, classées par ordre de complexité. Si vous découvrez MakeCode Arcade ou si vous créez une activité pour la première fois, commencez par la Skill Map « Full of Stories » pour découvrir les blocs les plus couramment utilisés : [https://arcade.makecode.com/--skillmap#story](https://arcade.makecode.com/--skillmap#story)
 
-#### Étape 3 -- Découvrir les niveaux
+#### Étape 3 : découvrir les niveaux
 
 Comme vous pouvez le voir dans la Skill Map « Full of Stories », chaque parcours est divisé en niveaux. Cela permet de gérer la complexité tout en offrant au jeune codeur des étapes intermédiaires satisfaisantes, stimulant ainsi la créativité, l&#39;engagement et l&#39;envie de progresser vers le niveau suivant.
 
-#### Étape 4 -- Découvrir les objectifs d&#39;apprentissage
+#### Étape 4 : découvrir les objectifs d&#39;apprentissage
 
 Lorsque vous ouvrez une page de Skill Map, vous trouverez sur la droite de l&#39;écran un aperçu du contenu, le nombre d&#39;étapes, les récompenses à obtenir et un lien vers les objectifs d&#39;apprentissage.
 
 Ce lien mène à une page destinée aux éducateurs et aux parents, détaillant les activités contenues dans la Skill Map et les objectifs à atteindre. Par exemple, dans la Skill Map « Full of Stories », les jeunes codeurs découvriront des activités de design, de narration, d&#39;intégration d&#39;effets, de musique et de gestion d&#39;événements.
 
-#### Étape 5 -- Comprendre les blocs grâce aux tutoriels
+#### Étape 5 : comprendre les blocs grâce aux tutoriels
 
 Lorsque vous réalisez une étape d&#39;une Skill Map, vous êtes guidé par un tutoriel sur la gauche de l&#39;écran, qui vous permet d&#39;identifier quels tiroirs et blocs utiliser, et dans quel but.
 
 Le tutoriel inclut également des éléments plus informatifs sur les blocs, par exemple : qu&#39;est-ce qu&#39;un événement, qu&#39;est-ce qu&#39;une boucle... Ces éléments permettent d&#39;acquérir les compétences et connaissances nécessaires pour ensuite réaliser des projets en partant de zéro.
 
-#### Étape 6 -- Créer des parcours, suivre sa progression, collaborer et partager
+#### Étape 6 : créer des parcours, suivre sa progression, collaborer et partager
 
 Une fois vos Skill Maps commencées, vous pouvez facilement suivre votre progression grâce à la ludification de l&#39;interface MakeCode Arcade. Chaque Skill Map est divisée en étapes, menant à l&#39;obtention de récompenses. À la fin du parcours, vous recevez un certificat de complétion, ajoutant un niveau supplémentaire de ludification à l&#39;apprentissage de la programmation via MakeCode Arcade.
 
 Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et les autres participants.
 
-#### Étape 7 -- Changer de niveau
+#### Étape 7 : changer de niveau
 
 Si la Skill Map « Full of Stories » est trop simple pour vos participants, explorez les parcours suivants. Des « Next Level Skillmaps » sont également disponibles pour passer à un niveau de complexité supérieur, via l&#39;écran d&#39;accueil de MakeCode Arcade, sous « Beginner Skillmaps ».
 
-### Pour aller plus loin -- Vidéos et tutoriels en ligne
+### Pour aller plus loin : vidéos et tutoriels en ligne
 
 - MakeCode Arcade -- Playlist YouTube officielle : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
 - Introduction à MakeCode Arcade : [https://www.youtube.com/watch?v=DE\_-0flM324](https://www.youtube.com/watch?v=DE_-0flM324)

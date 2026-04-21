@@ -39,13 +39,13 @@ sidebar_position: 22
 
 ## Points du programme abordés
 
-**« Comprendre et s&#39;exprimer à l&#39;oral », « Écrire », « Comprendre le fonctionnement de la langue », « Culture littéraire et artistique »** -- Programme de français, Cycle 3. « La Quête du Curry » développe les compétences linguistiques en amenant les élèves à créer collaborativement un récit interactif avec des embranchements. Ils pratiquent l&#39;expression orale lors des échanges d&#39;idées, maîtrisent l&#39;écrit en élaborant diverses branches narratives, et s&#39;approprient les caractéristiques d&#39;un genre littéraire spécifique.
+**« Comprendre et s&#39;exprimer à l&#39;oral », « Écrire », « Comprendre le fonctionnement de la langue », « Culture littéraire et artistique »** : programme de français, Cycle 3. « La Quête du Curry » développe les compétences linguistiques en amenant les élèves à créer collaborativement un récit interactif avec des embranchements. Ils pratiquent l&#39;expression orale lors des échanges d&#39;idées, maîtrisent l&#39;écrit en élaborant diverses branches narratives, et s&#39;approprient les caractéristiques d&#39;un genre littéraire spécifique.
 
-**« La sensibilité », « Le jugement »** -- Programme d&#39;enseignement moral et civique, Cycle 3. Cette activité stimule la sensibilité des élèves qui doivent faire preuve d&#39;écoute et d&#39;empathie pour intégrer les idées de chacun, tout en développant leur réflexion critique pour évaluer les différents choix narratifs et leurs conséquences.
+**« La sensibilité », « Le jugement »** : programme d&#39;enseignement moral et civique, Cycle 3. Cette activité stimule la sensibilité des élèves qui doivent faire preuve d&#39;écoute et d&#39;empathie pour intégrer les idées de chacun, tout en développant leur réflexion critique pour évaluer les différents choix narratifs et leurs conséquences.
 
-**« Chercher », « Raisonner », « Communiquer »** -- Programme de mathématiques, Cycle 3. L&#39;activité mobilise les compétences mathématiques en amenant les élèves à organiser logiquement leur récit, à résoudre les problèmes d&#39;interconnexion entre branches narratives, et à utiliser des représentations visuelles (algorigrammes) pour modéliser leur histoire.
+**« Chercher », « Raisonner », « Communiquer »** : programme de mathématiques, Cycle 3. L&#39;activité mobilise les compétences mathématiques en amenant les élèves à organiser logiquement leur récit, à résoudre les problèmes d&#39;interconnexion entre branches narratives, et à utiliser des représentations visuelles (algorigrammes) pour modéliser leur histoire.
 
-**« Pratiquer des démarches scientifiques et technologiques », « Concevoir », « S&#39;approprier des outils et des méthodes »** -- Programme de sciences et technologie, Cycle 3. L&#39;activité intègre les pratiques scientifiques en engageant les élèves dans une démarche de conception où ils modélisent leur récit, testent la cohérence des parcours narratifs, et potentiellement implémentent leur création dans un environnement numérique.
+**« Pratiquer des démarches scientifiques et technologiques », « Concevoir », « S&#39;approprier des outils et des méthodes »** : programme de sciences et technologie, Cycle 3. L&#39;activité intègre les pratiques scientifiques en engageant les élèves dans une démarche de conception où ils modélisent leur récit, testent la cohérence des parcours narratifs, et potentiellement implémentent leur création dans un environnement numérique.
 
 ## Liens utiles
 
@@ -80,12 +80,14 @@ sidebar_position: 22
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparer quelques exemples courts de récits avec des embranchements simples
-> - Prévoir un dé par groupe
-> - Préparer des cartes de jeu avec différents symboles ou mots-clés
-> - Disposer les tables en îlots pour faciliter le travail en groupes de 3-5 élèves
+:::note[Notes pour l’enseignant·e]
+
+- Préparer quelques exemples courts de récits avec des embranchements simples
+- Prévoir un dé par groupe
+- Préparer des cartes de jeu avec différents symboles ou mots-clés
+- Disposer les tables en îlots pour faciliter le travail en groupes de 3-5 élèves
+
+:::
 
 ### Introduire la séquence
 
@@ -146,12 +148,14 @@ Annoncez ensuite l&#39;objectif de la prochaine séance : travailler par petits 
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparez des modèles d&#39;algorigrammes vierges en format A3 pour chaque groupe, ainsi que quelques exemples plus élaborés à projeter.
-> - Rassemblez une documentation simple sur les structures narratives classiques (comme le schéma du voyage du héros) adaptée au niveau des élèves.
-> - Créez des fiches explicatives illustrées sur les structures conditionnelles, avec des exemples concrets.
-> - Prévoyez également des marqueurs de différentes couleurs, des grandes feuilles et un espace d&#39;affichage suffisant pour les productions.
+:::note[Notes pour l’enseignant·e]
+
+- Préparez des modèles d&#39;algorigrammes vierges en format A3 pour chaque groupe, ainsi que quelques exemples plus élaborés à projeter.
+- Rassemblez une documentation simple sur les structures narratives classiques (comme le schéma du voyage du héros) adaptée au niveau des élèves.
+- Créez des fiches explicatives illustrées sur les structures conditionnelles, avec des exemples concrets.
+- Prévoyez également des marqueurs de différentes couleurs, des grandes feuilles et un espace d&#39;affichage suffisant pour les productions.
+
+:::
 
 ### Introduction et objectifs pédagogiques
 
@@ -213,12 +217,14 @@ Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d&#3
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparez des exemples concrets d&#39;implémentation numérique de récits interactifs, comme des projets Scratch ou MakeCode Arcade que vous pourrez montrer aux élèves.
-> - Rassemblez des ressources variées sur la création d&#39;escape games pédagogiques adaptés à l&#39;âge de vos élèves.
-> - Préparez des tutoriels simplifiés et illustrés pour la programmation par blocs, avec des exemples précis de structures conditionnelles.
-> - Assurez-vous de disposer du matériel nécessaire pour chaque type d&#39;extension possible.
+:::note[Notes pour l’enseignant·e]
+
+- Préparez des exemples concrets d&#39;implémentation numérique de récits interactifs, comme des projets Scratch ou MakeCode Arcade que vous pourrez montrer aux élèves.
+- Rassemblez des ressources variées sur la création d&#39;escape games pédagogiques adaptés à l&#39;âge de vos élèves.
+- Préparez des tutoriels simplifiés et illustrés pour la programmation par blocs, avec des exemples précis de structures conditionnelles.
+- Assurez-vous de disposer du matériel nécessaire pour chaque type d&#39;extension possible.
+
+:::
 
 ### Phase d&#39;exploration : vers quelle aventure allons-nous ?
 

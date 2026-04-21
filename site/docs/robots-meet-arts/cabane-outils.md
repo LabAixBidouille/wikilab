@@ -99,13 +99,15 @@ Le robot-boussole devient un compagnon d&#39;apprentissage : son « visage » (l
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Procurez-vous une ou plusieurs boussoles traditionnelles pour la démonstration
-> - Préparez des affichettes « N », « S », « E », « O » à placer aux quatre coins de la classe
-> - Repérez à l&#39;avance où se situe le Nord dans votre salle de classe (vérifiez avec une boussole ou une application smartphone)
-> - Sélectionnez une courte vidéo sur le magnétisme terrestre adaptée à vos élèves
-> - Imprimez une carte du quartier ou de l&#39;école pour la manipulation
+:::note[Notes pour l’enseignant·e]
+
+- Procurez-vous une ou plusieurs boussoles traditionnelles pour la démonstration
+- Préparez des affichettes « N », « S », « E », « O » à placer aux quatre coins de la classe
+- Repérez à l&#39;avance où se situe le Nord dans votre salle de classe (vérifiez avec une boussole ou une application smartphone)
+- Sélectionnez une courte vidéo sur le magnétisme terrestre adaptée à vos élèves
+- Imprimez une carte du quartier ou de l&#39;école pour la manipulation
+
+:::
 
 **Objectif** : Comprendre ce qu&#39;est l&#39;orientation, découvrir les points cardinaux et le fonctionnement d&#39;une boussole.
 
@@ -139,13 +141,15 @@ Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille q
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) -- sollicitez les familles quelques jours avant
-> - Préparez un poste avec le matériel de découpe et collage (ciseaux, colle, ruban adhésif, feutres)
-> - Testez l&#39;accès à MakeCode ([makecode.microbit.org](https://makecode.microbit.org)) sur les ordinateurs de la classe et vérifiez que le site n&#39;est pas bloqué
-> - Chargez les cartes micro:bit et vérifiez que les boîtiers de piles fonctionnent
-> - Préparez un exemple de gabarit de robot à montrer aux élèves (voir annexe)
+:::note[Notes pour l’enseignant·e]
+
+- Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) -- sollicitez les familles quelques jours avant
+- Préparez un poste avec le matériel de découpe et collage (ciseaux, colle, ruban adhésif, feutres)
+- Testez l&#39;accès à MakeCode ([makecode.microbit.org](https://makecode.microbit.org)) sur les ordinateurs de la classe et vérifiez que le site n&#39;est pas bloqué
+- Chargez les cartes micro:bit et vérifiez que les boîtiers de piles fonctionnent
+- Préparez un exemple de gabarit de robot à montrer aux élèves (voir annexe)
+
+:::
 
 **Objectif** : Fabriquer le robot en carton et programmer la boussole numérique sur carte micro:bit.
 
@@ -182,9 +186,11 @@ Avant de construire votre robot, lancez une réflexion collective : à quoi ress
 
 Proposez aux élèves de dessiner leur robot idéal sur papier avant de passer à la construction. Ils peuvent s&#39;inspirer de formes variées : robot humanoïde, animal (hibou qui sait toujours où est le Nord), véhicule futuriste, personnage fantaisiste... puis laissez la classe en petit groupe construire plusieurs versions.
 
-> **Notes pour l&#39;enseignant·e**
->
-> Encouragez la créativité tout en rappelant les contraintes techniques. Un robot très décoré mais qui ne tient pas debout ou dont on ne voit pas l&#39;écran LED ne sera pas fonctionnel. C&#39;est l&#39;occasion d&#39;aborder la notion de cahier des charges en technologie.
+:::note[Notes pour l’enseignant·e]
+
+Encouragez la créativité tout en rappelant les contraintes techniques. Un robot très décoré mais qui ne tient pas debout ou dont on ne voit pas l&#39;écran LED ne sera pas fonctionnel. C&#39;est l&#39;occasion d&#39;aborder la notion de cahier des charges en technologie.
+
+:::
 
 ### Programmation du robot-boussole
 
@@ -232,13 +238,15 @@ Prolongement mathématique -- La symétrie des points cardinaux : Profitez de ce
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Repérez le terrain à l&#39;avance : identifiez les zones adaptées pour les parcours (cour, parc proche) et vérifiez les autorisations de sortie si nécessaire
-> - Préparez et imprimez des cartes du lieu avec le Nord indiqué (utilisez Géoportail ou OpenStreetMap)
-> - Installez les balises ou cônes de couleur avant la séance pour les parcours d&#39;orientation
-> - Rédigez les indices directionnels de la chasse au trésor et cachez-les aux emplacements prévus
-> - Prévoyez des carnets de bord ou feuilles pour que les élèves notent leurs directions
+:::note[Notes pour l’enseignant·e]
+
+- Repérez le terrain à l&#39;avance : identifiez les zones adaptées pour les parcours (cour, parc proche) et vérifiez les autorisations de sortie si nécessaire
+- Préparez et imprimez des cartes du lieu avec le Nord indiqué (utilisez Géoportail ou OpenStreetMap)
+- Installez les balises ou cônes de couleur avant la séance pour les parcours d&#39;orientation
+- Rédigez les indices directionnels de la chasse au trésor et cachez-les aux emplacements prévus
+- Prévoyez des carnets de bord ou feuilles pour que les élèves notent leurs directions
+
+:::
 
 **Objectif** : Mettre en pratique les compétences d&#39;orientation avec le robot-boussole à travers des activités ludiques.
 

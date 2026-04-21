@@ -93,34 +93,52 @@ export default function Machines(): React.ReactElement {
             </p>
 
             <div className="wikilab-machines-grid">
-              {results.map((m) => (
-                <div key={m.id} className="card wikilab-machine-card">
-                  {m.photo && (
-                    <img
-                      src={m.photo}
-                      alt={m.name}
-                      className="wikilab-machine-card__photo"
-                    />
-                  )}
-                  <div className="wikilab-machine-card__content">
-                    {m.categories.map((c) => (
-                      <span key={c} className="badge badge--success" style={{marginRight: '0.25rem'}}>{categoryLabels[c]}</span>
-                    ))}
-                    <h3>{m.name}</h3>
-                    <p>{m.description}</p>
-                    {m.specs && m.specs.length > 0 && (
-                      <ul className="wikilab-machine-card__specs">
-                        {m.specs.map((s, i) => (
-                          <li key={i}>{s}</li>
-                        ))}
-                      </ul>
+              {results.map((m) => {
+                const CardWrapper = m.docPath
+                  ? ({children}: {children: React.ReactNode}) => (
+                      <a href={m.docPath} className="card wikilab-machine-card wikilab-machine-card--link" key={m.id}>
+                        {children}
+                      </a>
+                    )
+                  : ({children}: {children: React.ReactNode}) => (
+                      <div className="card wikilab-machine-card" key={m.id}>
+                        {children}
+                      </div>
+                    );
+                return (
+                  <CardWrapper key={m.id}>
+                    {m.photo && (
+                      <img
+                        src={m.photo}
+                        alt={m.name}
+                        className="wikilab-machine-card__photo"
+                      />
                     )}
-                    <span className={`wikilab-machine-card__status ${m.available ? 'wikilab-machine-card__status--ok' : 'wikilab-machine-card__status--off'}`}>
-                      {m.available ? 'Disponible' : 'Indisponible'}
-                    </span>
-                  </div>
-                </div>
-              ))}
+                    <div className="wikilab-machine-card__content">
+                      {m.categories.map((c) => (
+                        <span key={c} className="badge badge--success" style={{marginRight: '0.25rem'}}>{categoryLabels[c]}</span>
+                      ))}
+                      <h3>{m.name}</h3>
+                      <p>{m.description}</p>
+                      {m.specs && m.specs.length > 0 && (
+                        <ul className="wikilab-machine-card__specs">
+                          {m.specs.map((s, i) => (
+                            <li key={i}>{s}</li>
+                          ))}
+                        </ul>
+                      )}
+                      <div className="wikilab-machine-card__footer">
+                        <span className={`wikilab-machine-card__status ${m.available ? 'wikilab-machine-card__status--ok' : 'wikilab-machine-card__status--off'}`}>
+                          {m.available ? 'Disponible' : 'Indisponible'}
+                        </span>
+                        {m.docPath && (
+                          <span className="wikilab-machine-card__guide">Voir le guide</span>
+                        )}
+                      </div>
+                    </div>
+                  </CardWrapper>
+                );
+              })}
             </div>
           </section>
         </div>

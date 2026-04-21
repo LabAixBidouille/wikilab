@@ -76,11 +76,13 @@ Faites participer les élèves à un jeu interactif sur les matériaux et les co
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Imprimez et découpez les cartes de déplacement pour chaque groupe. Chaque groupe doit disposer d&#39;un jeu de cartes composé de : 10 cartes « avancer », 4 cartes « tourner à droite », 4 cartes « tourner à gauche », 1 carte « retour à la maison ».
-> - Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier. La grille représente l&#39;environnement du robot et est divisée en différentes sections, chacune représentant un pâté de maisons. Dans certaines cases se trouve une poubelle de recyclage, dans d&#39;autres des déchets.
-> - Répartissez les élèves en petits groupes (3-4 élèves). Encouragez le travail en équipe et une communication claire. Veillez à ce que les élèves utilisent correctement le mode impératif.
+:::note[Notes pour l’enseignant·e]
+
+- Imprimez et découpez les cartes de déplacement pour chaque groupe. Chaque groupe doit disposer d&#39;un jeu de cartes composé de : 10 cartes « avancer », 4 cartes « tourner à droite », 4 cartes « tourner à gauche », 1 carte « retour à la maison ».
+- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier. La grille représente l&#39;environnement du robot et est divisée en différentes sections, chacune représentant un pâté de maisons. Dans certaines cases se trouve une poubelle de recyclage, dans d&#39;autres des déchets.
+- Répartissez les élèves en petits groupes (3-4 élèves). Encouragez le travail en équipe et une communication claire. Veillez à ce que les élèves utilisent correctement le mode impératif.
+
+:::
 
 Après la phase de mise en route, répartissez les élèves en groupes de 3-4. Chaque groupe reçoit une fiche de travail sur laquelle ils doivent rédiger une légende pour chaque poubelle de recyclage, accompagnée de 2-3 phrases expliquant l&#39;importance de recycler ou réutiliser ce type de matériau.
 

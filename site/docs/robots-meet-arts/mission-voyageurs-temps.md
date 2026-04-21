@@ -56,7 +56,7 @@ sidebar_position: 24
 
 ---
 
-## Session 1 -- Lancement de la mission et planification de l&#39;histoire
+## Session 1 : lancement de la mission et planification de l&#39;histoire
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 
@@ -100,7 +100,7 @@ Ils définissent :
 
 ---
 
-## Session 2 -- Création de l&#39;histoire interactive dans Scratch
+## Session 2 : création de l&#39;histoire interactive dans Scratch
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 
@@ -137,23 +137,23 @@ Chaque équipe remplit également son Plan de programmation en notant :
 
 Les élèves se lancent dans la création de leur projet Scratch. Voici les étapes suggérées :
 
-#### Étape 1 -- Créer les décors (15 min)
+#### Étape 1 : créer les décors (15 min)
 
 - Importer ou dessiner les arrière-plans pour chaque époque historique
 - Créer l&#39;arrière-plan du Laboratoire du temps (point de départ)
 
-#### Étape 2 -- Ajouter les personnages (15 min)
+#### Étape 2 : ajouter les personnages (15 min)
 
 - Créer ou importer les sprites : l&#39;Agent du temps, les personnages historiques, les objets importants
 - Positionner les sprites sur la scène
 
-#### Étape 3 -- Programmer les dialogues et les transitions (20 min)
+#### Étape 3 : programmer les dialogues et les transitions (20 min)
 
 - Utiliser les blocs « dire » pour faire parler les personnages
 - Programmer les changements de scène (par exemple : « quand la touche espace est pressée, basculer vers l&#39;arrière-plan suivant »)
 - Utiliser « envoyer à tous » pour coordonner les actions entre les sprites
 
-#### Étape 4 -- Ajouter l&#39;élément interactif (20 min)
+#### Étape 4 : ajouter l&#39;élément interactif (20 min)
 
 Programmer une interaction dans chaque scène historique :
 
@@ -166,17 +166,19 @@ L&#39;enseignant·e circule entre les groupes pour aider avec les blocs de code,
 
 **Objectif** : Compléter la majeure partie de l&#39;histoire/jeu Scratch.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Encouragez les élèves à tester régulièrement leur projet (cliquer sur le drapeau vert)
-> - Rappelez-leur de sauvegarder leur travail fréquemment
-> - Si un groupe est bloqué, suggérez de simplifier : mieux vaut une scène qui fonctionne bien que trois scènes buguées
+:::note[Notes pour l’enseignant·e]
+
+- Encouragez les élèves à tester régulièrement leur projet (cliquer sur le drapeau vert)
+- Rappelez-leur de sauvegarder leur travail fréquemment
+- Si un groupe est bloqué, suggérez de simplifier : mieux vaut une scène qui fonctionne bien que trois scènes buguées
+
+:::
 
 *Fin de la session 2.*
 
 ---
 
-## Session 3 -- Finitions, présentations et célébration
+## Session 3 : finitions, présentations et célébration
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 
@@ -202,10 +204,12 @@ Les élèves peuvent également décorer la couverture de leur Carnet du Voyageu
 
 **Objectif** : Finaliser le projet et le rendre agréable à présenter.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Encouragez les élèves à faire tester leur projet par un autre groupe pour repérer les derniers bugs
-> - Rappelez-leur que la simplicité est souvent plus efficace qu&#39;un projet trop ambitieux qui ne fonctionne pas
+:::note[Notes pour l’enseignant·e]
+
+- Encouragez les élèves à faire tester leur projet par un autre groupe pour repérer les derniers bugs
+- Rappelez-leur que la simplicité est souvent plus efficace qu&#39;un projet trop ambitieux qui ne fonctionne pas
+
+:::
 
 ### Mise en pratique (Rehearsal) - Application des connaissances
 
@@ -241,11 +245,13 @@ Chaque groupe reçoit au moins un badge pour valoriser son travail.
 
 **Objectif** : Célébrer les apprentissages, développer la fierté du travail accompli et valoriser la collaboration.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Publier les projets Scratch sur le site de l&#39;école ou dans un espace partagé
-> - Organiser une « Exposition des Voyageurs du temps » pour les autres classes
-> - Inviter les élèves à continuer leur projet à la maison en ajoutant de nouvelles époques
+:::note[Notes pour l’enseignant·e]
+
+- Publier les projets Scratch sur le site de l&#39;école ou dans un espace partagé
+- Organiser une « Exposition des Voyageurs du temps » pour les autres classes
+- Inviter les élèves à continuer leur projet à la maison en ajoutant de nouvelles époques
+
+:::
 
 *Fin de la session 3.*
 

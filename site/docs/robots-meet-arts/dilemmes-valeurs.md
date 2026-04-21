@@ -49,15 +49,17 @@ sidebar_position: 19
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Cette activité se concentre sur le développement des valeurs, de la réflexion éthique et de la prise de décision à travers de courts dilemmes moraux (annexe 3). Les élèves représenteront ces situations en créant des histoires interactives avec Scratch.
->
-> Le dilemme de Carla, une nouvelle élève qui subit des discriminations, est entièrement développé comme activité modèle.
->
-> Chaque groupe peut :
-> - Travailler sur le même dilemme, ou
-> - Choisir différents dilemmes pour enrichir la discussion finale.
+:::note[Notes pour l’enseignant·e]
+
+Cette activité se concentre sur le développement des valeurs, de la réflexion éthique et de la prise de décision à travers de courts dilemmes moraux (annexe 3). Les élèves représenteront ces situations en créant des histoires interactives avec Scratch.
+
+Le dilemme de Carla, une nouvelle élève qui subit des discriminations, est entièrement développé comme activité modèle.
+
+Chaque groupe peut :
+- Travailler sur le même dilemme, ou
+- Choisir différents dilemmes pour enrichir la discussion finale.
+
+:::
 
 ### Que se passe-t-il dans la cour de récréation ? Carla est différente... Et alors ?
 
@@ -84,12 +86,14 @@ Cette introduction permet de poser le cadre émotionnel et éthique avant de pas
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Testez la connexion internet et le vidéoprojecteur avant la séance.
-> - Imprimez un exemplaire de chaque fiche de travail par groupe.
-> - Préparez un minuteur visuel pour rythmer les activités.
-> - Assurez-vous que tous les élèves sont connectés à Scratch ou ont accès aux comptes de la classe.
+:::note[Notes pour l’enseignant·e]
+
+- Testez la connexion internet et le vidéoprojecteur avant la séance.
+- Imprimez un exemplaire de chaque fiche de travail par groupe.
+- Préparez un minuteur visuel pour rythmer les activités.
+- Assurez-vous que tous les élèves sont connectés à Scratch ou ont accès aux comptes de la classe.
+
+:::
 
 Cette phase vise à guider les élèves dans le développement de leurs idées d&#39;histoire et le démarrage de leur projet Scratch.
 
@@ -138,10 +142,12 @@ Les élèves planifient le début, le milieu et la fin de leur histoire. Encoura
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Circulez entre les groupes pour les aider avec le vocabulaire, la grammaire et les blocs Scratch.
-> - Aidez-les à se répartir les tâches (un élève anime, un autre écrit/enregistre).
+:::note[Notes pour l’enseignant·e]
+
+- Circulez entre les groupes pour les aider avec le vocabulaire, la grammaire et les blocs Scratch.
+- Aidez-les à se répartir les tâches (un élève anime, un autre écrit/enregistre).
+
+:::
 
 Cette phase vise à accompagner les élèves dans la programmation, l&#39;enregistrement et la répétition de leur histoire numérique, en intégrant tous les éléments narratifs.
 

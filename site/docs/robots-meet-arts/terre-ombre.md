@@ -55,7 +55,7 @@ sidebar_position: 29
 
 ## Points du programme abordés
 
-**« Mieux habiter »** -- Géographie, Cycle 3. Cette séquence permet aux élèves d&#39;explorer concrètement comment améliorer le cadre de vie dans les territoires de proximité. À travers l&#39;étude de leur quartier, ils découvrent que favoriser la place de la nature en ville, recycler et habiter un écoquartier sont des réponses possibles aux défis du développement durable.
+**« Mieux habiter »** : géographie, Cycle 3. Cette séquence permet aux élèves d&#39;explorer concrètement comment améliorer le cadre de vie dans les territoires de proximité. À travers l&#39;étude de leur quartier, ils découvrent que favoriser la place de la nature en ville, recycler et habiter un écoquartier sont des réponses possibles aux défis du développement durable.
 
 Les compétences mobilisées sont les suivantes :
 
@@ -118,13 +118,15 @@ Le diagnostic territorial s&#39;appuie sur trois piliers :
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Sélectionner et préparer des images et vidéos d&#39;écoquartiers variés (Vauban à Fribourg, BedZED à Londres, Clichy-Batignolles à Paris, Confluence à Lyon)
-> - Préparer une grande affiche vierge pour la carte mentale collective
-> - Imprimer des fiches descriptives de différents écoquartiers pour le travail en groupes
-> - Prévoir des gommettes de couleur pour le vote des priorités
-> - Préparer un tableau ou paper-board pour noter les réponses des élèves
+:::note[Notes pour l’enseignant·e]
+
+- Sélectionner et préparer des images et vidéos d&#39;écoquartiers variés (Vauban à Fribourg, BedZED à Londres, Clichy-Batignolles à Paris, Confluence à Lyon)
+- Préparer une grande affiche vierge pour la carte mentale collective
+- Imprimer des fiches descriptives de différents écoquartiers pour le travail en groupes
+- Prévoir des gommettes de couleur pour le vote des priorités
+- Préparer un tableau ou paper-board pour noter les réponses des élèves
+
+:::
 
 **Objectif** : Comprendre ce qu&#39;est un écoquartier, en déduire les grands axes d&#39;aménagement, et définir les priorités pour l&#39;étude du quartier.
 
@@ -161,18 +163,20 @@ Pour chaque principe, explorez avec eux le pourquoi en vous appuyant sur les exe
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparer 3-4 micro:bit avec leurs batteries et boîtiers de protection étanches
-> - Installer MakeCode sur les ordinateurs de classe
-> - Préparer des grilles d&#39;observation structurées selon les principes d&#39;écoquartier (une par groupe)
-> - Prévoir des carnets d&#39;observation, stylos, crayons de couleur
-> - Imprimer plusieurs plans du quartier en grand format
-> - Préparer des appareils photo ou tablettes pour documenter le terrain
-> - Concevoir un questionnaire simple pour l&#39;enquête auprès des habitants
-> - Prévoir un tableur pour compiler les données
-> - Organiser l&#39;autorisation de sortie et repérer le parcours de terrain à l&#39;avance
-> - Préparer des codes couleur et symboles visuels pour la carte collective finale
+:::note[Notes pour l’enseignant·e]
+
+- Préparer 3-4 micro:bit avec leurs batteries et boîtiers de protection étanches
+- Installer MakeCode sur les ordinateurs de classe
+- Préparer des grilles d&#39;observation structurées selon les principes d&#39;écoquartier (une par groupe)
+- Prévoir des carnets d&#39;observation, stylos, crayons de couleur
+- Imprimer plusieurs plans du quartier en grand format
+- Préparer des appareils photo ou tablettes pour documenter le terrain
+- Concevoir un questionnaire simple pour l&#39;enquête auprès des habitants
+- Prévoir un tableur pour compiler les données
+- Organiser l&#39;autorisation de sortie et repérer le parcours de terrain à l&#39;avance
+- Préparer des codes couleur et symboles visuels pour la carte collective finale
+
+:::
 
 **Objectif** : Collecter des données qualitatives (observations) et quantitatives (mesures) sur le quartier selon les axes prioritaires identifiés.
 
@@ -254,15 +258,17 @@ Terminez cette étape en choisissant ensemble 3 ou 4 actions prioritaires qui gu
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparer une base rigide (carton ou contreplaqué, ~1m x 1m) et du matériel de dessin
-> - Collecter des matériaux de récupération (boîtes, rouleaux, bouteilles plastique)
-> - Regrouper des éléments de construction (Lego, Duplo, kapla), papier et carton coloré, ciseaux, colle, ruban adhésif
-> - Rassembler des matériaux pour la végétation (cure-pipes verts, mousse, branches, feuilles)
-> - Prévoir de la pâte à modeler ou argile
-> - Organiser plants, graines, outils de jardinage et matériaux pour nichoirs/hôtels à insectes
-> - Mettre à disposition un appareil photo pour documenter le projet
+:::note[Notes pour l’enseignant·e]
+
+- Préparer une base rigide (carton ou contreplaqué, ~1m x 1m) et du matériel de dessin
+- Collecter des matériaux de récupération (boîtes, rouleaux, bouteilles plastique)
+- Regrouper des éléments de construction (Lego, Duplo, kapla), papier et carton coloré, ciseaux, colle, ruban adhésif
+- Rassembler des matériaux pour la végétation (cure-pipes verts, mousse, branches, feuilles)
+- Prévoir de la pâte à modeler ou argile
+- Organiser plants, graines, outils de jardinage et matériaux pour nichoirs/hôtels à insectes
+- Mettre à disposition un appareil photo pour documenter le projet
+
+:::
 
 **Objectif** : Concevoir la transformation du quartier en maquette et réaliser des actions concrètes à l&#39;échelle de l&#39;école.
 

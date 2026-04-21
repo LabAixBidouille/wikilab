@@ -49,13 +49,15 @@ sidebar_position: 11
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Avant de commencer la séance, découpez 2 lots de formes identiques. Par exemple : 2 triangles, 2 carrés, 2 hexagones, 2 cercles. Préparez également 2 crayons et 2 feuilles A4 blanches à portée de main.
->
-> Quand les élèves donnent des instructions confuses ou trop nombreuses, n&#39;hésitez pas à lancer « Erreur ! » — à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l&#39;ordre logique des étapes.
->
-> Envie de changer d&#39;artiste ? Voici d&#39;autres maîtres du collage : Hannah Höch, Kurt Schwitters ou Eduardo Paolozzi.
+:::note[Notes pour l’enseignant·e]
+
+Avant de commencer la séance, découpez 2 lots de formes identiques. Par exemple : 2 triangles, 2 carrés, 2 hexagones, 2 cercles. Préparez également 2 crayons et 2 feuilles A4 blanches à portée de main.
+
+Quand les élèves donnent des instructions confuses ou trop nombreuses, n&#39;hésitez pas à lancer « Erreur ! » — à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l&#39;ordre logique des étapes.
+
+Envie de changer d&#39;artiste ? Voici d&#39;autres maîtres du collage : Hannah Höch, Kurt Schwitters ou Eduardo Paolozzi.
+
+:::
 
 « Aujourd&#39;hui, nous allons créer des œuvres inspirées de l&#39;artiste Henri Matisse. »
 
@@ -98,22 +100,24 @@ Cette phase vous a permis d&#39;introduire les compétences liées à la pensée
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Prévoyez le matériel suivant pour chaque binôme :
-> - 2 paires de ciseaux
-> - Lot de papier de couleur
-> - 2 bâtons de colle
-> - 2 feuilles A4
-> - 2 crayons à papier
-> - 1 gomme et 1 taille-crayon
->
-> Pour ajuster le niveau de difficulté, vous pouvez :
-> - Commencer par des formes géométriques simples, plus faciles à décrire à l&#39;oral.
-> - Limiter le nombre d&#39;instructions que l&#39;artiste peut donner.
-> - Demander à l&#39;artiste d&#39;écrire ses instructions avant de les transmettre.
-> - Proposer des formes organiques plutôt que des formes géométriques connues.
-> - Augmenter ou réduire le nombre de formes selon le niveau des élèves.
+:::note[Notes pour l’enseignant·e]
+
+Prévoyez le matériel suivant pour chaque binôme :
+- 2 paires de ciseaux
+- Lot de papier de couleur
+- 2 bâtons de colle
+- 2 feuilles A4
+- 2 crayons à papier
+- 1 gomme et 1 taille-crayon
+
+Pour ajuster le niveau de difficulté, vous pouvez :
+- Commencer par des formes géométriques simples, plus faciles à décrire à l&#39;oral.
+- Limiter le nombre d&#39;instructions que l&#39;artiste peut donner.
+- Demander à l&#39;artiste d&#39;écrire ses instructions avant de les transmettre.
+- Proposer des formes organiques plutôt que des formes géométriques connues.
+- Augmenter ou réduire le nombre de formes selon le niveau des élèves.
+
+:::
 
 Les élèves se mettent en binômes. Chaque élève découpe 2 lots de formes identiques — même forme, même taille, même couleur.
 

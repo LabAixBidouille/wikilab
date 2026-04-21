@@ -60,13 +60,15 @@ sidebar_position: 26
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Préparez des images représentant les actions de la routine quotidienne pour accompagner le vocabulaire (*wake up, eat breakfast, go to school*, etc.).
-> - Sélectionnez 2-3 jeux interactifs adaptés au niveau de vos élèves parmi les liens utiles.
-> - Imprimez la fiche de Tom le chat (voir annexe).
+:::note[Notes pour l’enseignant·e]
 
-### Partie A -- Introduction
+- Préparez des images représentant les actions de la routine quotidienne pour accompagner le vocabulaire (*wake up, eat breakfast, go to school*, etc.).
+- Sélectionnez 2-3 jeux interactifs adaptés au niveau de vos élèves parmi les liens utiles.
+- Imprimez la fiche de Tom le chat (voir annexe).
+
+:::
+
+### Partie A : introduction
 
 Introduisez le thème du jour : la routine quotidienne.
 
@@ -78,7 +80,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves peuvent répondre par des phrases simples avec support visuel.
 - Niveau avancé : Les élèves construisent des phrases complètes de manière autonome.
 
-### Partie B -- Jeux
+### Partie B : jeux
 
 Proposez ensuite des activités de pratique grammaticale à travers des jeux interactifs (voir liens utiles). Choisissez 2-3 jeux adaptés à l&#39;âge et au niveau des élèves.
 
@@ -92,7 +94,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Ajoutez progressivement du vocabulaire (*take a shower, brush my teeth, do my homework*).
 - Niveau avancé : Enrichissez avec des expressions plus complexes (*go jogging, work out, read the news*).
 
-### Partie C -- La journée de Tom
+### Partie C : la journée de Tom
 
 Présentez ensuite Tom le chat (voir annexe). Toute la classe réfléchit ensemble à la routine quotidienne du chat.
 
@@ -114,23 +116,25 @@ Adaptation selon le niveau de langue des élèves :
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Imprimez et découpez les cartes de déplacement pour chaque groupe (voir composition du jeu dans la liste du matériel).
-> - Imprimez la petite grille de bureau pour chaque groupe.
-> - Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe. La grille représente l&#39;environnement du robot et est divisée en différents lieux correspondant à la routine quotidienne :
->   - Maison (Home) : Activités du matin et du soir (se réveiller, se brosser les dents, prendre le petit-déjeuner, aller dormir).
->   - École (School) : Activités liées à l&#39;apprentissage (étudier, lire, écrire, jouer avec ses amis).
-> - Chaque section doit être clairement identifiée pour aider les élèves à associer le vocabulaire anglais aux lieux physiques.
-> - Répartissez les élèves en petits groupes (3-4 élèves) et encouragez le travail en équipe et une communication claire.
->
-> Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à droite signifie que le robot pivote de 90 degrés vers la droite tout en restant sur la même case. Pour que le robot se déplace vers la case située à droite, les élèves doivent utiliser une carte « tourner à droite » suivie d&#39;une carte « avancer ».
+:::note[Notes pour l’enseignant·e]
 
-### Partie A -- Présentation de Robin et de son monde (classe entière)
+- Imprimez et découpez les cartes de déplacement pour chaque groupe (voir composition du jeu dans la liste du matériel).
+- Imprimez la petite grille de bureau pour chaque groupe.
+- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe. La grille représente l&#39;environnement du robot et est divisée en différents lieux correspondant à la routine quotidienne :
+  - Maison (Home) : Activités du matin et du soir (se réveiller, se brosser les dents, prendre le petit-déjeuner, aller dormir).
+  - École (School) : Activités liées à l&#39;apprentissage (étudier, lire, écrire, jouer avec ses amis).
+- Chaque section doit être clairement identifiée pour aider les élèves à associer le vocabulaire anglais aux lieux physiques.
+- Répartissez les élèves en petits groupes (3-4 élèves) et encouragez le travail en équipe et une communication claire.
+
+Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à droite signifie que le robot pivote de 90 degrés vers la droite tout en restant sur la même case. Pour que le robot se déplace vers la case située à droite, les élèves doivent utiliser une carte « tourner à droite » suivie d&#39;une carte « avancer ».
+
+:::
+
+### Partie A : présentation de Robin et de son monde (classe entière)
 
 Présentez Robin, le personnage principal de la séance, ainsi que le monde de Robin -- la grande grille au sol préparée en amont. Faites le lien entre les lieux de la grille et le vocabulaire vu lors de la mise en route.
 
-### Partie B -- Production écrite (travail en groupe)
+### Partie B : production écrite (travail en groupe)
 
 Par petits groupes (3-4 élèves), les élèves décrivent la routine quotidienne de Robin à l&#39;aide de la fiche de travail et du vocabulaire suivant : *get up, breakfast, lunch, sleep, school, play, walk, robot friends, night, eight*.
 
@@ -140,7 +144,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves construisent des phrases simples avec un support visuel.
 - Niveau avancé : Les élèves rédigent un court texte de manière autonome.
 
-### Partie C -- Manipulation (classe entière puis travail en groupe)
+### Partie C : manipulation (classe entière puis travail en groupe)
 
 Une fois la fiche complétée, chaque groupe reçoit une petite grille de bureau (le monde de Robin) et un jeu de cartes de déplacement. Expliquez la fonction de chaque carte et montrez quelques exemples sur la grande grille au sol. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
 

@@ -66,10 +66,12 @@ sidebar_position: 25
 
 ### Que savons-nous de la société romaine antique ?
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Imprimez les fiches pyramide à l&#39;avance et, si vous le souhaitez, quelques images ou pictogrammes liés aux rôles sociaux à coller sur la pyramide.
-> - Trois niveaux de fiche pyramide sont disponibles : laissez les élèves choisir leur niveau pour autoréguler leur apprentissage.
+:::note[Notes pour l’enseignant·e]
+
+- Imprimez les fiches pyramide à l&#39;avance et, si vous le souhaitez, quelques images ou pictogrammes liés aux rôles sociaux à coller sur la pyramide.
+- Trois niveaux de fiche pyramide sont disponibles : laissez les élèves choisir leur niveau pour autoréguler leur apprentissage.
+
+:::
 
 L&#39;objectif de cette phase est de comprendre la hiérarchie sociale dans la Rome antique et de la représenter sous forme de pyramide.
 
@@ -95,14 +97,16 @@ Les élèves ont maintenant une vision claire de la société romaine, place à 
 
 ### Mission Tale-Bot : les classes sociales
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Imprimez et préparez les cartes mission à l&#39;avance.
-> - Assurez-vous que les robots sont suffisamment chargés.
-> - Placez le tapis de sol dans un espace sûr et accessible. Vous pouvez l&#39;acheter sur la boutique officielle Tale-Bot ou le fabriquer vous-même avec un matériau plat. Veillez à ce qu&#39;il fasse au moins 50x50 cm.
-> - Si les élèves ne sont pas familiers avec le Tale-Bot, présentez-leur les étapes de programmation au préalable.
-> - Envisagez de préparer des phrases modèles enregistrées pour les élèves ayant besoin d&#39;un soutien supplémentaire.
-> - Vous pouvez préparer une grille d&#39;observation pour l&#39;évaluation (facultatif).
+:::note[Notes pour l’enseignant·e]
+
+- Imprimez et préparez les cartes mission à l&#39;avance.
+- Assurez-vous que les robots sont suffisamment chargés.
+- Placez le tapis de sol dans un espace sûr et accessible. Vous pouvez l&#39;acheter sur la boutique officielle Tale-Bot ou le fabriquer vous-même avec un matériau plat. Veillez à ce qu&#39;il fasse au moins 50x50 cm.
+- Si les élèves ne sont pas familiers avec le Tale-Bot, présentez-leur les étapes de programmation au préalable.
+- Envisagez de préparer des phrases modèles enregistrées pour les élèves ayant besoin d&#39;un soutien supplémentaire.
+- Vous pouvez préparer une grille d&#39;observation pour l&#39;évaluation (facultatif).
+
+:::
 
 L&#39;objectif de cette phase est de relier chaque classe sociale à son lieu de résidence et à ses privilèges ou tâches, grâce à la programmation et à l&#39;enregistrement vocal.
 
@@ -130,12 +134,14 @@ Après la programmation, le groupe répond à une question de réflexion à voix
 
 *Conclure et en tirer des apprentissages*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Concluez la séance en mettant l&#39;accent sur :
-> - L&#39;empathie envers ceux qui n&#39;avaient pas de droits
-> - La prise de conscience du fonctionnement du pouvoir et des privilèges dans la société
-> - L&#39;importance de l&#39;équité et de la justice sociale
+:::note[Notes pour l’enseignant·e]
+
+Concluez la séance en mettant l&#39;accent sur :
+- L&#39;empathie envers ceux qui n&#39;avaient pas de droits
+- La prise de conscience du fonctionnement du pouvoir et des privilèges dans la société
+- L&#39;importance de l&#39;équité et de la justice sociale
+
+:::
 
 L&#39;objectif de cette phase est de réfléchir aux différences entre les classes sociales dans la Rome antique et d&#39;exprimer des opinions personnelles sur la justice, les droits et l&#39;égalité dans la société actuelle.
 

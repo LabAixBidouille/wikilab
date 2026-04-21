@@ -72,9 +72,11 @@ sidebar_position: 14
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Préparez des paires de cartes pour le jeu « Memory » : une carte avec l&#39;image du bloc Scratch et une autre avec sa description/fonction. Les cartes sont disponibles en annexe dans la partie « Ressources imprimables ». Prévoyez plusieurs lots de cartes pour pouvoir jouer en petit groupe.
+:::note[Notes pour l’enseignant·e]
+
+Préparez des paires de cartes pour le jeu « Memory » : une carte avec l&#39;image du bloc Scratch et une autre avec sa description/fonction. Les cartes sont disponibles en annexe dans la partie « Ressources imprimables ». Prévoyez plusieurs lots de cartes pour pouvoir jouer en petit groupe.
+
+:::
 
 ### Introduire la séquence
 
@@ -112,15 +114,17 @@ En conclusion, établissez le lien avec la prochaine séance en annonçant que c
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Pour cette deuxième séquence, préparez plusieurs sets de cartes représentant les blocs Scratch qui seront utilisés pour la chorégraphie (au minimum 2 sets, 1 pour chaque équipe). Vous devez vous concentrer sur les blocs qui peuvent être traduits en mouvements : *Quand le drapeau vert est cliqué, Répéter indéfiniment, Attendre ... secondes, Répéter ... fois, Tourner à droite de ... degrés, Tourner à gauche de ... degrés, Avancer de ... pas, Aller à position aléatoire, Arrêter tous les sons, Ajouter ... au volume, Jouer le son miaou, Jouer le son miaou jusqu&#39;au bout.*
->
-> Ces cartes peuvent être imprimées et découpées pour faciliter leur utilisation et sont disponibles dans la section « Ressources imprimables ».
->
-> Si possible, réalisez l&#39;activité à l&#39;extérieur ou dans un gymnase pour avoir l&#39;espace nécessaire pour pouvoir bouger et s&#39;exprimer.
->
-> Vous pouvez imprimer l&#39;affiche rappelant la correspondance entre chaque bloc et le mouvement associé pour que les élèves puissent facilement comprendre et utiliser les cartes durant les activités.
+:::note[Notes pour l’enseignant·e]
+
+Pour cette deuxième séquence, préparez plusieurs sets de cartes représentant les blocs Scratch qui seront utilisés pour la chorégraphie (au minimum 2 sets, 1 pour chaque équipe). Vous devez vous concentrer sur les blocs qui peuvent être traduits en mouvements : *Quand le drapeau vert est cliqué, Répéter indéfiniment, Attendre ... secondes, Répéter ... fois, Tourner à droite de ... degrés, Tourner à gauche de ... degrés, Avancer de ... pas, Aller à position aléatoire, Arrêter tous les sons, Ajouter ... au volume, Jouer le son miaou, Jouer le son miaou jusqu&#39;au bout.*
+
+Ces cartes peuvent être imprimées et découpées pour faciliter leur utilisation et sont disponibles dans la section « Ressources imprimables ».
+
+Si possible, réalisez l&#39;activité à l&#39;extérieur ou dans un gymnase pour avoir l&#39;espace nécessaire pour pouvoir bouger et s&#39;exprimer.
+
+Vous pouvez imprimer l&#39;affiche rappelant la correspondance entre chaque bloc et le mouvement associé pour que les élèves puissent facilement comprendre et utiliser les cartes durant les activités.
+
+:::
 
 ### On passe en mode danse !
 
@@ -164,9 +168,11 @@ Soulignez l&#39;importance de la précision en programmation et mettez en avant 
 
 *Réinvestissement et application des connaissances*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Pour cette dernière séquence, préparez des cartes vierges pour la création de blocs personnalisés (sur papier libre ou plastifié), ainsi que du matériel de dessin (feutres, crayons, règles). Organisez l&#39;espace pour permettre un travail créatif et des présentations de chorégraphies.
+:::note[Notes pour l’enseignant·e]
+
+Pour cette dernière séquence, préparez des cartes vierges pour la création de blocs personnalisés (sur papier libre ou plastifié), ainsi que du matériel de dessin (feutres, crayons, règles). Organisez l&#39;espace pour permettre un travail créatif et des présentations de chorégraphies.
+
+:::
 
 ### On libère le mode danse !
 

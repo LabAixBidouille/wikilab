@@ -69,13 +69,15 @@ OctoStudio offre une expérience mobile pensée pour la création et le code. Si
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe.
-> - Préparez le matériel indiqué ci-dessus.
-> - Constituez les binômes à l&#39;avance.
-> - Réalisez l&#39;exercice de démarrage pour renforcer vos connaissances en tant qu&#39;enseignant·e.
-> - Consultez le guide de référence Octo Studio qui explique chaque bloc de programmation.
+:::note[Notes pour l’enseignant·e]
+
+- Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe.
+- Préparez le matériel indiqué ci-dessus.
+- Constituez les binômes à l&#39;avance.
+- Réalisez l&#39;exercice de démarrage pour renforcer vos connaissances en tant qu&#39;enseignant·e.
+- Consultez le guide de référence Octo Studio qui explique chaque bloc de programmation.
+
+:::
 
 ### « Ceci n&#39;est pas un cercle »
 

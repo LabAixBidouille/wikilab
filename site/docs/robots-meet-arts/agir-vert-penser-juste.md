@@ -51,12 +51,14 @@ Facultatif :
 
 ## Avant la séance - Préparation et logistique
 
-> **Notes pour l&#39;enseignant·e**
->
-> Avant la séance :
-> - Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe (une grande grille par groupe).
-> - Le tapis de sol (grille 5x5 avec des carrés de 15 cm) comporte dans chaque case une photographie représentant soit une action favorable au climat, soit une action défavorable au climat.
-> - Assurez-vous que les robots sont suffisamment chargés avant la séance.
+:::note[Notes pour l’enseignant·e]
+
+Avant la séance :
+- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe (une grande grille par groupe).
+- Le tapis de sol (grille 5x5 avec des carrés de 15 cm) comporte dans chaque case une photographie représentant soit une action favorable au climat, soit une action défavorable au climat.
+- Assurez-vous que les robots sont suffisamment chargés avant la séance.
+
+:::
 
 ---
 
@@ -80,11 +82,13 @@ Les élèves sont maintenant sensibilisés au sujet et motivés, place à la pro
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Organisez les élèves en petits groupes de 3-4 et encouragez le travail d&#39;équipe ainsi qu&#39;une communication claire au sein de chaque groupe.
->
-> Clarifiez ce que signifie « tourner à droite ». Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d&#39;abord programmer « tourner à droite », puis « avancer ». Il est essentiel d&#39;expliquer clairement ce point aux élèves, car ils risquent d&#39;interpréter les commandes différemment. Sur de nombreux robots éducatifs, tourner à droite signifie pivoter de 90 degrés sans changer de case.
+:::note[Notes pour l’enseignant·e]
+
+Organisez les élèves en petits groupes de 3-4 et encouragez le travail d&#39;équipe ainsi qu&#39;une communication claire au sein de chaque groupe.
+
+Clarifiez ce que signifie « tourner à droite ». Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d&#39;abord programmer « tourner à droite », puis « avancer ». Il est essentiel d&#39;expliquer clairement ce point aux élèves, car ils risquent d&#39;interpréter les commandes différemment. Sur de nombreux robots éducatifs, tourner à droite signifie pivoter de 90 degrés sans changer de case.
+
+:::
 
 Chaque groupe reçoit un défi : programmer le Blue-Bot pour qu&#39;il visite trois actions durables tout en évitant deux actions néfastes pour l&#39;environnement.
 
@@ -120,14 +124,16 @@ Les présentations terminées, il est temps de garder une trace de ces apprentis
 
 *Conclure et en tirer des apprentissages*
 
-> **Notes pour l&#39;enseignant·e -- Matériel pour la fresque ou l&#39;infographie :**
->
-> - Grandes feuilles de papier ou papier pour affiche (divisé en deux sections : actions positives et actions négatives)
-> - Photographies imprimées d&#39;actions liées au changement climatique (recyclage, gaspillage d&#39;eau, vélo, plastiques à usage unique, etc.)
-> - Magazines ou catalogues pour découper des images
-> - Fournitures artistiques : feutres, crayons de couleur, ciseaux, colle, autocollants, etc.
-> - Étiquettes ou notes autocollantes pour écrire de courtes descriptions des actions
-> - Appareils numériques (facultatif) : pour créer une infographie numérique avec des outils comme Canva ou Google Slides, si cela convient à l&#39;âge des élèves
+:::note[Notes pour l’enseignant·e : matériel pour la fresque ou l'infographie]
+
+- Grandes feuilles de papier ou papier pour affiche (divisé en deux sections : actions positives et actions négatives)
+- Photographies imprimées d&#39;actions liées au changement climatique (recyclage, gaspillage d&#39;eau, vélo, plastiques à usage unique, etc.)
+- Magazines ou catalogues pour découper des images
+- Fournitures artistiques : feutres, crayons de couleur, ciseaux, colle, autocollants, etc.
+- Étiquettes ou notes autocollantes pour écrire de courtes descriptions des actions
+- Appareils numériques (facultatif) : pour créer une infographie numérique avec des outils comme Canva ou Google Slides, si cela convient à l&#39;âge des élèves
+
+:::
 
 Pour conclure l&#39;activité Blue-Bot sur l&#39;ODD 13, proposez aux élèves de créer ensemble une fresque ou une infographie qui met en évidence la différence entre les actions favorables et défavorables au climat. Chaque groupe d&#39;élèves contribue en sélectionnant des images ou en dessinant des représentations des actions qu&#39;ils ont explorées pendant l&#39;activité, notamment les actions que le Blue-Bot a visitées sur la grille.
 

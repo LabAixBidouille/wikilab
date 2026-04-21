@@ -60,19 +60,21 @@ sidebar_position: 12
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Afin de préparer l&#39;activité, vous pouvez consulter le tutoriel de l&#39;outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
->
-> Assurez-vous que chaque binôme a accès à une tablette avec l&#39;application Google Arts &amp; Culture installée ou accessible via le navigateur. Préparez les fiches modèles vierges pour chaque groupe.
+:::note[Notes pour l’enseignant·e]
 
-### Partie 1 -- Découverte des œuvres (20 min)
+Afin de préparer l&#39;activité, vous pouvez consulter le tutoriel de l&#39;outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
+
+Assurez-vous que chaque binôme a accès à une tablette avec l&#39;application Google Arts &amp; Culture installée ou accessible via le navigateur. Préparez les fiches modèles vierges pour chaque groupe.
+
+:::
+
+### Partie 1 : découverte des œuvres (20 min)
 
 En binômes, les élèves ouvrent Google Arts &amp; Culture sur leur tablette et utilisent la fonction « Art Projector » pour visualiser des œuvres d&#39;art de manière interactive.
 
 Laissez les élèves explorer plusieurs œuvres, puis chaque groupe choisit une œuvre d&#39;art sur laquelle il souhaite travailler.
 
-### Partie 2 -- Conception du filtre (40 min)
+### Partie 2 : conception du filtre (40 min)
 
 Maintenant que chaque groupe a choisi son œuvre d&#39;art, il est temps de réfléchir à la manière de s&#39;y intégrer !
 
@@ -90,14 +92,16 @@ Encouragez les élèves à observer attentivement leur œuvre : quels accessoire
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
->
-> - Vidéo pour supprimer un arrière-plan dans Scratch Lab : [https://www.youtube.com/watch?v=Za0eJwV8jvk](https://www.youtube.com/watch?v=Za0eJwV8jvk)
-> - Pour plus d&#39;informations sur la programmation, regardez cette vidéo : [https://www.youtube.com/watch?v=uJVfvysUwa0](https://www.youtube.com/watch?v=uJVfvysUwa0)
+:::note[Notes pour l’enseignant·e]
 
-### Partie 1 -- Création des éléments de réalité augmentée (30-60 min)
+Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
+
+- Vidéo pour supprimer un arrière-plan dans Scratch Lab : [https://www.youtube.com/watch?v=Za0eJwV8jvk](https://www.youtube.com/watch?v=Za0eJwV8jvk)
+- Pour plus d&#39;informations sur la programmation, regardez cette vidéo : [https://www.youtube.com/watch?v=uJVfvysUwa0](https://www.youtube.com/watch?v=uJVfvysUwa0)
+
+:::
+
+### Partie 1 : création des éléments de réalité augmentée (30-60 min)
 
 Les croquis sont prêts, place à la création ! Les élèves vont maintenant donner vie à leurs idées en réalisant concrètement les éléments de réalité augmentée qu&#39;ils ont imaginés. Trois options sont possibles. Vous pouvez laisser les élèves choisir ou n&#39;en proposer qu&#39;une seule.
 
@@ -145,37 +149,39 @@ Importez dans Scratch Lab et supprimez l&#39;arrière-plan.
 
 Les éléments de réalité augmentée sont maintenant créés et importés dans Scratch Lab. Il ne reste plus qu&#39;à leur donner vie grâce à la programmation !
 
-### Partie 2 -- Programmation du filtre de réalité augmentée (60 min)
+### Partie 2 : programmation du filtre de réalité augmentée (60 min)
 
 Les éléments de réalité augmentée sont prêts, il est maintenant temps de les faire prendre vie en les programmant pour qu&#39;ils suivent le visage !
 
-> **Notes pour l&#39;enseignant·e**
->
-> Si la taille ou le placement d&#39;un élément de réalité augmentée ne convient pas, sélectionnez-le et cliquez sur « Costumes » pour le redimensionner ou le repositionner.
+:::note[Notes pour l’enseignant·e]
+
+Si la taille ou le placement d&#39;un élément de réalité augmentée ne convient pas, sélectionnez-le et cliquez sur « Costumes » pour le redimensionner ou le repositionner.
+
+:::
 
 Ouvrez [https://lab.scratch.mit.edu/face/](https://lab.scratch.mit.edu/face/) et cliquez sur « Try it out ». Assurez-vous que les éléments de réalité augmentée sont importés et prêts à être programmés.
 
-#### Étape 1 -- Démarrer le programme
+#### Étape 1 : démarrer le programme
 
 Dans la colonne de gauche, cliquez sur l&#39;onglet jaune « Événements ». Sélectionnez le bloc de démarrage (drapeau vert). Ce bloc lance le programme quand on clique sur le drapeau vert.
 
-#### Étape 2 -- Placer l&#39;élément sur le visage
+#### Étape 2 : placer l&#39;élément sur le visage
 
 Cliquez sur « Face sensing » et ajoutez le bloc à votre programme. Sélectionnez la partie du corps souhaitée (nez, front, bouche...) pour placer l&#39;élément de réalité augmentée.
 
-#### Étape 3 -- Faire suivre le mouvement
+#### Étape 3 : faire suivre le mouvement
 
 Lorsque vous testez le programme, vous remarquerez que l&#39;élément de réalité augmentée ne se place qu&#39;une seule fois. Pour qu&#39;il suive le visage en continu, ajoutez le bloc « répéter indéfiniment » (sous « Contrôle »).
 
-#### Étape 4 -- Adapter la taille
+#### Étape 4 : adapter la taille
 
 Lorsque vous vous approchez ou vous éloignez de la caméra, l&#39;élément de réalité augmentée ne change pas de taille. Pour corriger cela, ajoutez le bloc « mettre la taille à (taille du visage) ». Ainsi, l&#39;élément s&#39;agrandit quand vous êtes près et rétrécit quand vous êtes loin.
 
-#### Étape 5 -- Ajouter les autres éléments
+#### Étape 5 : ajouter les autres éléments
 
 Répétez ces étapes pour chaque élément de réalité augmentée. Ajoutez des décorations ou un cadre de tableau pour enrichir votre œuvre d&#39;art vivante.
 
-#### Étape 6 -- Personnaliser
+#### Étape 6 : personnaliser
 
 Distribuez les fiches d&#39;inspiration et laissez les élèves ajouter des éléments supplémentaires à leur création : effets sonores, animations, arrière-plans...
 
@@ -191,13 +197,13 @@ Les filtres sont maintenant programmés et fonctionnels. Place aux tests et aux 
 
 Les filtres sont terminés, c&#39;est le moment de les tester et de les partager !
 
-### Partie 1 -- Tests et ajustements (10 min)
+### Partie 1 : tests et ajustements (10 min)
 
 Chaque binôme teste son filtre une dernière fois. Les élèves vérifient que tous les éléments de réalité augmentée suivent correctement le visage et s&#39;adaptent à la distance de la caméra.
 
 Si nécessaire, ils effectuent les derniers ajustements : repositionner un élément, modifier sa taille, corriger un bug dans le code.
 
-### Partie 2 -- Présentations (10 min)
+### Partie 2 : présentations (10 min)
 
 Invitez chaque binôme à présenter son filtre d&#39;artiste à la classe. Chaque groupe montre son filtre en action devant la caméra et explique brièvement ses choix :
 

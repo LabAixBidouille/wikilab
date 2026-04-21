@@ -51,13 +51,15 @@ sidebar_position: 23
 
 *Découverte et échauffement*
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Imprimez et préparez les cartes historiques avec les itinéraires des différents explorateurs.
-> - Vérifiez que les élèves ont accès aux cartes d&#39;instructions et aux jetons représentant les navires.
-> - Abordez le vocabulaire clé en amont (navigation, séquence, débogage).
-> - Encouragez les élèves à réfléchir étape par étape lorsqu&#39;ils créent leurs algorithmes.
-> - Rappelez aux élèves que se tromper fait partie de l&#39;apprentissage -- le débogage est essentiel !
+:::note[Notes pour l’enseignant·e]
+
+- Imprimez et préparez les cartes historiques avec les itinéraires des différents explorateurs.
+- Vérifiez que les élèves ont accès aux cartes d&#39;instructions et aux jetons représentant les navires.
+- Abordez le vocabulaire clé en amont (navigation, séquence, débogage).
+- Encouragez les élèves à réfléchir étape par étape lorsqu&#39;ils créent leurs algorithmes.
+- Rappelez aux élèves que se tromper fait partie de l&#39;apprentissage -- le débogage est essentiel !
+
+:::
 
 ### 1. Introduction
 
@@ -79,20 +81,22 @@ L&#39;enseignant·e exécute des instructions incorrectes ou imprécises donnée
 
 *Acquisition et structuration des savoirs*
 
-> **Notes pour l&#39;enseignant·e**
->
-> Chaque groupe reçoit le matériel suivant :
-> - Cartes imprimées des itinéraires des explorateurs
-> - Cartes d&#39;instructions (avancer de X pas, tourner à gauche, tourner à droite, s&#39;arrêter, etc.)
-> - Petits jetons ou figurines représentant des navires et des explorateurs
-> - Crayons et feuilles A4
->
-> Pour ajuster le niveau de difficulté, vous pouvez :
-> - Commencer par des formes géométriques simples pour faciliter les instructions orales.
-> - Limiter le nombre d&#39;instructions que le « navigateur » peut utiliser.
-> - Demander au « navigateur » d&#39;écrire ses instructions sur papier avant de les donner.
-> - Proposer des tracés plus complexes ou irréguliers au lieu de formes géométriques connues.
-> - Augmenter ou réduire le nombre d&#39;étapes selon le niveau des élèves.
+:::note[Notes pour l’enseignant·e]
+
+Chaque groupe reçoit le matériel suivant :
+- Cartes imprimées des itinéraires des explorateurs
+- Cartes d&#39;instructions (avancer de X pas, tourner à gauche, tourner à droite, s&#39;arrêter, etc.)
+- Petits jetons ou figurines représentant des navires et des explorateurs
+- Crayons et feuilles A4
+
+Pour ajuster le niveau de difficulté, vous pouvez :
+- Commencer par des formes géométriques simples pour faciliter les instructions orales.
+- Limiter le nombre d&#39;instructions que le « navigateur » peut utiliser.
+- Demander au « navigateur » d&#39;écrire ses instructions sur papier avant de les donner.
+- Proposer des tracés plus complexes ou irréguliers au lieu de formes géométriques connues.
+- Augmenter ou réduire le nombre d&#39;étapes selon le niveau des élèves.
+
+:::
 
 ### Programmer l&#39;explorateur
 

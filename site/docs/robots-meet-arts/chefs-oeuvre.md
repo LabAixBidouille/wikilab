@@ -58,17 +58,19 @@ sidebar_position: 13
 
 ## Avant la séance - Préparation et logistique
 
-> **Notes pour l&#39;enseignant·e**
->
-> Avant la séance :
-> - Découpez les cartes et installez les stations avant le début de la séance.
-> - Vous pouvez personnaliser les cartes d&#39;œuvres d&#39;art selon un thème différent, comme un musée que vous avez récemment visité avec votre classe.
->
-> **Choix du robot** : plusieurs robots peuvent être utilisés pour cette activité : Cubetto, Bee-Bot, LEGO Spike, Photon, et d&#39;autres. La seule condition est que les élèves puissent programmer le robot pour avancer, tourner à gauche, tourner à droite et/ou reculer.
->
-> **Organisation et rotation** :
-> - Chaque station dure 20 minutes.
-> - Après le premier tour, les élèves des stations 1 et 2 échangent leur place avec ceux des stations 3 et 4.
+:::note[Notes pour l’enseignant·e]
+
+Avant la séance :
+- Découpez les cartes et installez les stations avant le début de la séance.
+- Vous pouvez personnaliser les cartes d&#39;œuvres d&#39;art selon un thème différent, comme un musée que vous avez récemment visité avec votre classe.
+
+**Choix du robot** : plusieurs robots peuvent être utilisés pour cette activité : Cubetto, Bee-Bot, LEGO Spike, Photon, et d&#39;autres. La seule condition est que les élèves puissent programmer le robot pour avancer, tourner à gauche, tourner à droite et/ou reculer.
+
+**Organisation et rotation** :
+- Chaque station dure 20 minutes.
+- Après le premier tour, les élèves des stations 1 et 2 échangent leur place avec ceux des stations 3 et 4.
+
+:::
 
 ---
 
@@ -96,12 +98,14 @@ Durant cette phase, les élèves alternent entre deux activités, chacune divis�
 
 **Objectif** : Programmer un robot de sol pour naviguer d&#39;une carte de mélange de couleurs vers la carte du résultat correspondant.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Placez les six cartes de couleurs de manière aléatoire sur le sol ou sur une grande table, en laissant suffisamment d&#39;espace entre elles pour que le robot puisse se déplacer.
-> - Assurez-vous que les robots sont chargés et fonctionnels avant la séance.
-> - Si les élèves ne connaissent pas le robot, prévoyez quelques minutes supplémentaires pour la démonstration.
-> - Les liens vidéo dans la section « Liens utiles » peuvent être projetés pour aider les élèves à comprendre les commandes de base.
+:::note[Notes pour l’enseignant·e]
+
+- Placez les six cartes de couleurs de manière aléatoire sur le sol ou sur une grande table, en laissant suffisamment d&#39;espace entre elles pour que le robot puisse se déplacer.
+- Assurez-vous que les robots sont chargés et fonctionnels avant la séance.
+- Si les élèves ne connaissent pas le robot, prévoyez quelques minutes supplémentaires pour la démonstration.
+- Les liens vidéo dans la section « Liens utiles » peuvent être projetés pour aider les élèves à comprendre les commandes de base.
+
+:::
 
 Commencez par présenter le robot de sol aux élèves. Faites une démonstration de la programmation : comment avancer, reculer, tourner à gauche et tourner à droite. Vous trouverez des tutoriels vidéo dans les liens utiles.
 
@@ -113,11 +117,13 @@ Les élèves programment le robot pour qu&#39;il parte de la carte du mélange e
 
 **Objectif** : Rechercher des informations sur des œuvres d&#39;art célèbres et créer des cartes mémoire pour le jeu final.
 
-> **Notes pour l&#39;enseignant·e**
->
-> - Les cartes mémoire sont fournies avec les réponses correctes afin que vous n&#39;ayez pas à tout rechercher à l&#39;avance. L&#39;objectif est que les élèves recherchent eux-mêmes ces informations. Si nécessaire, ils peuvent se corriger ensuite à l&#39;aide des cartes de correction.
-> - Veillez à ce que les élèves écrivent lisiblement sur les cartes mémoire. Demandez-leur d&#39;écrire le nom de l&#39;œuvre en lettres majuscules si nécessaire.
-> - Assurez-vous que les tablettes ou ordinateurs sont connectés à internet et que Google Lens est accessible.
+:::note[Notes pour l’enseignant·e]
+
+- Les cartes mémoire sont fournies avec les réponses correctes afin que vous n&#39;ayez pas à tout rechercher à l&#39;avance. L&#39;objectif est que les élèves recherchent eux-mêmes ces informations. Si nécessaire, ils peuvent se corriger ensuite à l&#39;aide des cartes de correction.
+- Veillez à ce que les élèves écrivent lisiblement sur les cartes mémoire. Demandez-leur d&#39;écrire le nom de l&#39;œuvre en lettres majuscules si nécessaire.
+- Assurez-vous que les tablettes ou ordinateurs sont connectés à internet et que Google Lens est accessible.
+
+:::
 
 Donnez à chaque groupe 20 cartes d&#39;œuvres d&#39;art découpées représentant des œuvres célèbres et 20 cartes réponses vierges.
 
