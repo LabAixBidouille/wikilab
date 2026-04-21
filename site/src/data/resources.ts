@@ -925,7 +925,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-1-programmation',
-    title: 'Mini-projet #1 - Animer un atelier de programmation MakeCode Arcade',
+    title: 'Atelier programmation MakeCode Arcade',
     slug: '/ressources/jeditrack/mini-projet-1-programmation',
     project: 'jeditrack',
     summary: "Accompagner les animateurs et éducateurs dans la découverte et l'utilisation de MakeCode Arcade pour initier les jeunes à la programmation par la création de jeux vidéo.",
@@ -941,7 +941,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-2-capteurs',
-    title: 'Mini-projet #2 - Découvrir les capteurs par la réalisation d\'un robot autonome',
+    title: 'Robot autonome avec capteurs',
     slug: '/ressources/jeditrack/mini-projet-2-capteurs',
     project: 'jeditrack',
     summary: "Réaliser un robot autonome avec des jeunes en combinant électronique, programmation Python et capteurs ultrasonores sur Raspberry Pi Pico.",
@@ -957,7 +957,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-3-fabrication',
-    title: 'Mini-projet #3 - Fabrication d\'un objet physique',
+    title: 'Fabrication d\'un objet physique',
     slug: '/ressources/jeditrack/mini-projet-3-fabrication',
     project: 'jeditrack',
     summary: "Organiser des ateliers de création d'objets physiques avec une méthodologie structurée allant de la conception au prototypage, en passant par la construction et la finition.",
@@ -973,7 +973,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-4-cartopartie',
-    title: 'Mini-projet #4 - Organiser une cartopartie intergénérationnelle',
+    title: 'Cartopartie intergénérationnelle',
     slug: '/ressources/jeditrack/mini-projet-4-cartopartie',
     project: 'jeditrack',
     summary: "Organiser une cartopartie intergénérationnelle pour cartographier collaborativement un quartier, favoriser le lien social et sensibiliser aux enjeux locaux.",
@@ -1021,7 +1021,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'monitorer-bruit-urbain',
-    title: 'Monitorer le bruit urbain grâce à une carte micro:bit',
+    title: 'Monitorer le bruit urbain',
     slug: '/ressources/jeditrack/monitorer-bruit-urbain',
     project: 'jeditrack',
     summary: "Programmer une carte micro:bit pour mesurer et enregistrer le niveau sonore ambiant afin de sensibiliser les jeunes à la pollution sonore et ses effets sur la santé.",
@@ -1037,7 +1037,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'etude-confort-thermique',
-    title: 'Réaliser une étude sur le confort thermique',
+    title: 'Étude du confort thermique',
     slug: '/ressources/jeditrack/etude-confort-thermique',
     project: 'jeditrack',
     summary: "Mener une campagne thermique avec les jeunes pour comprendre les enjeux énergétiques en mesurant température et humidité avec micro:bit ou capteurs Xiaomi.",
@@ -1053,7 +1053,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'creer-cartes-umap',
-    title: 'Créer des cartes collaboratives sur uMap',
+    title: 'Cartes collaboratives avec uMap',
     slug: '/ressources/jeditrack/creer-cartes-umap',
     project: 'jeditrack',
     summary: "Créer, gérer et partager des cartes personnalisées avec uMap, un outil open-source basé sur OpenStreetMap, pour valoriser les observations de terrain des jeunes.",
@@ -1085,7 +1085,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'communiquer-resultats',
-    title: 'Communiquer ses résultats efficacement',
+    title: 'Communiquer ses résultats',
     slug: '/ressources/jeditrack/communiquer-resultats',
     project: 'jeditrack',
     summary: "Accompagner les jeunes dans la création de posters, affiches et infographies alliant rigueur de contenu et impact visuel pour communiquer leurs découvertes.",
@@ -1101,7 +1101,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'partager-donnees-open-source',
-    title: 'Partager ses données citoyennes en open source',
+    title: 'Partager ses données en open source',
     slug: '/ressources/jeditrack/partager-donnees-open-source',
     project: 'jeditrack',
     summary: "Transformer les observations de terrain des jeunes en contribution citoyenne durable grâce à l'approche open data, de la structuration des données à leur publication.",
@@ -1117,7 +1117,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'realiser-pochoirs-decoupe',
-    title: 'Réaliser des pochoirs grâce à une découpe vinyle',
+    title: 'Pochoirs avec découpe vinyle',
     slug: '/ressources/jeditrack/realiser-pochoirs-decoupe',
     project: 'jeditrack',
     summary: "Découvrir et utiliser la découpe vinyle pour créer des pochoirs précis et réutilisables, de la conception numérique à l'application sur différents supports.",
@@ -1146,6 +1146,22 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['experimentation'],
     keywords: ['skill tree', 'compétences', 'auto-évaluation', 'gamification', 'maker', 'progression'],
+  },
+  {
+    id: 'borne-arcade',
+    title: 'Construire une borne d\'arcade',
+    slug: '/ressources/jeditrack/borne-arcade/introduction',
+    project: 'jeditrack',
+    summary: "Documentation complète pour construire une borne d'arcade : histoire, Raspberry Pi, Recalbox, conception, prototypage, modélisation, assemblage et finitions.",
+    disciplines: ['technologie', 'informatique', 'arts'],
+    tools: ['debranchee'],
+    software: [],
+    ageMin: 12,
+    ageMax: 18,
+    durationMinutes: 600,
+    difficulty: 'avance',
+    formats: ['bricolage', 'programmation'],
+    keywords: ['borne arcade', 'raspberry pi', 'recalbox', 'fabrication', 'rétrogaming', 'menuiserie'],
   },
 ];
 
