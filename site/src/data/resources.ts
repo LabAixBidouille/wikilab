@@ -1158,7 +1158,7 @@ export const resources: Resource[] = [
     software: [],
     ageMin: 12,
     ageMax: 18,
-    durationMinutes: 600,
+    durationMinutes: 240,
     difficulty: 'avance',
     formats: ['bricolage', 'programmation'],
     keywords: ['borne arcade', 'raspberry pi', 'recalbox', 'fabrication', 'rétrogaming', 'menuiserie'],
