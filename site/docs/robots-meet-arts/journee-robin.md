@@ -142,7 +142,7 @@ Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à d
 
 ### Partie A : présentation de Robin et de son monde (classe entière)
 
-Présentez Robin, le personnage principal de la séance, ainsi que le monde de Robin -- la grande grille au sol préparée en amont. Faites le lien entre les lieux de la grille et le vocabulaire vu lors de la mise en route.
+Présentez Robin, le personnage principal de la séance, ainsi que le monde de Robin : la grande grille au sol préparée en amont. Faites le lien entre les lieux de la grille et le vocabulaire vu lors de la mise en route.
 
 ### Partie B : production écrite (travail en groupe)
 

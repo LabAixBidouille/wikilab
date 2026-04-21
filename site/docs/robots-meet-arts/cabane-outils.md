@@ -151,7 +151,7 @@ Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille q
 
 :::info[Notes pour l'enseignant·e]
 
-- Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) -- sollicitez les familles quelques jours avant
+- Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) : sollicitez les familles quelques jours avant
 - Préparez un poste avec le matériel de découpe et collage (ciseaux, colle, ruban adhésif, feutres)
 - Testez l&#39;accès à MakeCode ([makecode.microbit.org](https://makecode.microbit.org)) sur les ordinateurs de la classe et vérifiez que le site n&#39;est pas bloqué
 - Chargez les cartes micro:bit et vérifiez que les boîtiers de piles fonctionnent
@@ -234,7 +234,7 @@ Cliquez sur « Avancé » pour faire apparaître la catégorie « Broches ». Ut
 
 Si vous disposez de peu de cartes micro:bit physiques, organisez des ateliers tournants : un atelier « Programmation » où les élèves codent sur l&#39;émulateur MakeCode, un atelier « Fabrication » où ils construisent et décorent leur robot, et un atelier « Test réel » où un petit groupe utilise les cartes physiques pour tester, calibrer et valider. Faites tourner tous les groupes sur ces trois ateliers.
 
-Prolongement mathématique -- La symétrie des points cardinaux : Profitez de cette activité pour faire réfléchir les élèves sur la symétrie des directions. Si la flèche indique où est le Nord, où se trouve le Sud ? Réponse : toujours à l&#39;opposé, à 180 degres d&#39;écart !
+Prolongement mathématique : La symétrie des points cardinaux : Profitez de cette activité pour faire réfléchir les élèves sur la symétrie des directions. Si la flèche indique où est le Nord, où se trouve le Sud ? Réponse : toujours à l&#39;opposé, à 180 degres d&#39;écart !
 
 > Calibration : La première fois qu&#39;on utilise la boussole sur une vraie carte micro:bit, elle demande une calibration. Il faut incliner la carte dans tous les sens jusqu&#39;à ce que toutes les LEDs s&#39;allument, formant un cercle. C&#39;est une étape indispensable pour que les mesures soient précises. Prévoyez du temps pour cette étape avec les élèves.
 
@@ -337,7 +337,7 @@ MakeCode propose trois façons d&#39;écrire le même programme :
 - Mode JavaScript : Programmation textuelle utilisant la syntaxe JavaScript. Les blocs se convertissent automatiquement en JavaScript, et vice versa.
 - Mode Python : Programmation textuelle utilisant la syntaxe Python. Disponible dans les versions récentes de MakeCode.
 
-Les trois modes sont interconnectés -- les modifications dans un mode se reflètent dans les autres (avec quelques limitations pour le code Python complexe). Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
+Les trois modes sont interconnectés : les modifications dans un mode se reflètent dans les autres (avec quelques limitations pour le code Python complexe). Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
 
 Pour les élèves de 8 à 12 ans, nous recommandons d&#39;utiliser le mode blocs car il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
 

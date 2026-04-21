@@ -27,8 +27,8 @@ sidebar_position: 18
 **Ressources pour la phase de découverte :**
 
 - Pictogrammes des ODD imprimés (ressources de l&#39;ONU).
-- Go Goals -- jeu de plateau pour découvrir les ODD de manière ludique.
-- Unplugged Quest -- activités débranchées autour des ODD.
+- Go Goals : jeu de plateau pour découvrir les ODD de manière ludique.
+- Unplugged Quest : activités débranchées autour des ODD.
 - Papier, crayons, feutres pour le storyboard.
 
 **Accès à MakeCode Arcade** ([https://arcade.makecode.com/](https://arcade.makecode.com/)) :
@@ -55,12 +55,12 @@ sidebar_position: 18
 ## Liens utiles
 
 - MakeCode Arcade (créer et partager des jeux) : [https://arcade.makecode.com](https://arcade.makecode.com)
-- Go Goals! (ONU) -- jeu de plateau pour découvrir les ODD : [https://go-goals.org](https://go-goals.org)
-- Unplugged Quest -- activités débranchées autour des ODD : [https://unplugged-quest.eu/](https://unplugged-quest.eu/)
+- Go Goals! (ONU) : jeu de plateau pour découvrir les ODD : [https://go-goals.org](https://go-goals.org)
+- Unplugged Quest : activités débranchées autour des ODD : [https://unplugged-quest.eu/](https://unplugged-quest.eu/)
 - Icônes et ressources officielles des ODD : [https://globalgoals.org/resources](https://globalgoals.org/resources)
-- ONU -- Ressources pour les élèves sur le développement durable : [https://www.un.org/sustainabledevelopment/student-resources/](https://www.un.org/sustainabledevelopment/student-resources/)
-- UNESCO -- Ressources pédagogiques sur les ODD : [https://www.unesco.org/en/sustainable-development/education](https://www.unesco.org/en/sustainable-development/education)
-- Université de York -- Kit pédagogique ODD pour la classe : [https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/](https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/)
+- ONU : Ressources pour les élèves sur le développement durable : [https://www.un.org/sustainabledevelopment/student-resources/](https://www.un.org/sustainabledevelopment/student-resources/)
+- UNESCO : Ressources pédagogiques sur les ODD : [https://www.unesco.org/en/sustainable-development/education](https://www.unesco.org/en/sustainable-development/education)
+- Université de York : Kit pédagogique ODD pour la classe : [https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/](https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/)
 
 ---
 
@@ -251,7 +251,7 @@ Une fois la première rotation terminée, faites changer les élèves de rôle a
 :::info[Notes pour l'enseignant·e]
 
 - Encouragez les élèves à commencer simplement. La complexité pourra être ajoutée ensuite.
-- Préparez une liste d&#39;étapes au tableau (par exemple : Étape 1 -- Créer son héros, Étape 2 -- Ajouter un élément positif, Étape 3 -- Ajouter un danger, Étape 4 -- Définir une règle).
+- Préparez une liste d&#39;étapes au tableau (par exemple : Étape 1 : Créer son héros, Étape 2 : Ajouter un élément positif, Étape 3 : Ajouter un danger, Étape 4 : Définir une règle).
 - Circulez et posez des questions guides qui relient le message citoyen au code : « Que se passe-t-il quand le héros touche la pollution ? Comment le joueur saura-t-il que c&#39;est négatif ? »
 - Rappelez aux élèves de tester régulièrement et de partager leur jeu avec leurs camarades pour vérifier que le message est clair.
 - Fournissez des post-it ou des carnets pour que les élèves documentent leur démarche (difficultés rencontrées, solutions trouvées, réussites).
@@ -356,10 +356,10 @@ Si la Skill Map « Full of Stories » est trop simple pour vos participants, exp
 
 ### Pour aller plus loin : vidéos et tutoriels en ligne
 
-- MakeCode Arcade -- Playlist YouTube officielle : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
+- MakeCode Arcade : Playlist YouTube officielle : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
 - Introduction à MakeCode Arcade : [https://www.youtube.com/watch?v=DE\_-0flM324](https://www.youtube.com/watch?v=DE_-0flM324)
 - Comment créer un jeu simple dans MakeCode Arcade : [https://www.youtube.com/watch?v=kiP6YSkOdTQ&list=PLMMBk9hE-SeoU2gS3trU9gRKbX0hX8p7O](https://www.youtube.com/watch?v=kiP6YSkOdTQ&list=PLMMBk9hE-SeoU2gS3trU9gRKbX0hX8p7O)
-- Tutoriel débutant -- MakeCode Arcade : [https://arcade.makecode.com/tutorials](https://arcade.makecode.com/tutorials)
+- Tutoriel débutant : MakeCode Arcade : [https://arcade.makecode.com/tutorials](https://arcade.makecode.com/tutorials)
 
 ---
 

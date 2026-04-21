@@ -67,7 +67,7 @@ sidebar_position: 25
 ## Liens utiles
 
 - Guide d&#39;utilisation Tale-Bot (site officiel) : [https://shop.matatastudio.com/fr/products/matatastudio-talebot-pro](https://shop.matatastudio.com/fr/products/matatastudio-talebot-pro)
-- BBC Bitesize -- La société romaine : [https://www.bbc.co.uk/bitesize/articles/zdnd239#ztrxs82](https://www.bbc.co.uk/bitesize/articles/zdnd239#ztrxs82)
+- BBC Bitesize : La société romaine : [https://www.bbc.co.uk/bitesize/articles/zdnd239#ztrxs82](https://www.bbc.co.uk/bitesize/articles/zdnd239#ztrxs82)
 - Quizlet : [https://quizlet.com/668976125/ancient-rome-social-classes-flash-cards/](https://quizlet.com/668976125/ancient-rome-social-classes-flash-cards/)
 - Plus d&#39;informations sur les classes sociales dans la Rome antique : [https://www.twinkl.es/teaching-wiki/roman-social-classes-pyramid](https://www.twinkl.es/teaching-wiki/roman-social-classes-pyramid)
 
@@ -173,7 +173,7 @@ La Rome antique était organisée selon une structure appelée hiérarchie socia
 
 L&#39;empereur était au sommet de cette structure (c&#39;était le chef de la société), suivi des patriciens et sénateurs (les riches propriétaires terriens), des chevaliers (ces cavaliers appelés à combattre pour Rome), des plébéiens (les gens ordinaires mais heureusement libres), et des esclaves (la classe la plus basse, qui appartenaient aux riches).
 
-Ta classe sociale dépendait principalement de la famille dans laquelle tu naissais -- les citoyens romains ne choisissaient pas leur classe. Les enfants riches faisaient presque automatiquement partie des classes supérieures, tandis que les enfants nés de gens ordinaires restaient généralement dans les classes inférieures toute leur vie.
+Ta classe sociale dépendait principalement de la famille dans laquelle tu naissais : les citoyens romains ne choisissaient pas leur classe. Les enfants riches faisaient presque automatiquement partie des classes supérieures, tandis que les enfants nés de gens ordinaires restaient généralement dans les classes inférieures toute leur vie.
 
 ---
 

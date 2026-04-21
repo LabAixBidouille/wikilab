@@ -86,13 +86,13 @@ Les compétences mobilisées sont les suivantes :
 ## Liens utiles
 
 - [http://www.ecoquartiers.logement.gouv.fr/](http://www.ecoquartiers.logement.gouv.fr/)
-- [ADEME -- Aménager les écoquartiers](https://www.ademe.fr/collectivites-secteur-public/integrer-lenvironnement-domaines-dintervention/urbanisme-amenagement/amenager-ecoquartiers)
+- [ADEME : Aménager les écoquartiers](https://www.ademe.fr/collectivites-secteur-public/integrer-lenvironnement-domaines-dintervention/urbanisme-amenagement/amenager-ecoquartiers)
 - [MakeCode micro:bit](https://makecode.microbit.org/)
 - [Projets micro:bit](https://microbit.org/fr/projects/make-it-code-it/)
 - [OpenStreetMap](https://www.openstreetmap.org/)
 - [Géoportail](https://www.geoportail.gouv.fr/)
 - [Vidéo écoquartier de la ZAC de Bonne (Grenoble)](http://www.dailymotion.com/video/xb6z8t_ecoquartier-de-la-zac-de-bonne-a-gr_news)
-- [Éduscol -- L&#39;écoquartier, construire l&#39;avenir](https://sti.eduscol.education.fr/technologie-college/ressources_pedagogiques/lecoquartier-construire-lavenir)
+- [Éduscol : L&#39;écoquartier, construire l&#39;avenir](https://sti.eduscol.education.fr/technologie-college/ressources_pedagogiques/lecoquartier-construire-lavenir)
 
 ---
 
@@ -202,10 +202,10 @@ Pour chaque principe, explorez avec eux le pourquoi en vous appuyant sur les exe
 
 La sortie de terrain constitue le moment clé où les élèves passent de la théorie à la pratique. Divisez la classe en groupes de 4-5 élèves, en attribuant à chaque groupe un axe prioritaire d&#39;observation :
 
-- Groupe « Espaces verts et biodiversité » -- Mission : localiser et qualifier les espaces verts, observer la végétation, l&#39;état d&#39;entretien, la présence d&#39;animaux, l&#39;accessibilité...
-- Groupe « Mobilité et circulation » -- Mission : observer les modes de déplacement, identifier les pistes cyclables et trottoirs, repérer les zones piétonnes, noter la présence de transports en commun...
-- Groupe « Énergie et bâti » -- Mission : observer l&#39;état des bâtiments, repérer les panneaux solaires ou autres dispositifs écologiques, noter l&#39;orientation des constructions...
-- Groupe « Vie sociale et services » -- Mission : localiser les lieux de rencontre, identifier les commerces et services de proximité, observer les espaces de jeux et de détente...
+- Groupe « Espaces verts et biodiversité » : Mission : localiser et qualifier les espaces verts, observer la végétation, l&#39;état d&#39;entretien, la présence d&#39;animaux, l&#39;accessibilité...
+- Groupe « Mobilité et circulation » : Mission : observer les modes de déplacement, identifier les pistes cyclables et trottoirs, repérer les zones piétonnes, noter la présence de transports en commun...
+- Groupe « Énergie et bâti » : Mission : observer l&#39;état des bâtiments, repérer les panneaux solaires ou autres dispositifs écologiques, noter l&#39;orientation des constructions...
+- Groupe « Vie sociale et services » : Mission : localiser les lieux de rencontre, identifier les commerces et services de proximité, observer les espaces de jeux et de détente...
 
 Préparez pour chaque groupe une grille d&#39;observation structurée avec des questions précises. Sur le terrain, encouragez les élèves à adopter une posture de chercheurs : ils doivent noter systématiquement leurs observations, prendre des photos légendées, réaliser des croquis annotés. Insistez sur l&#39;importance de documenter non seulement ce qui existe, mais aussi ce qui manque.
 

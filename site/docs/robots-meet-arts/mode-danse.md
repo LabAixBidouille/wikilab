@@ -210,7 +210,7 @@ Discutez des différentes dimensions d&#39;apprentissage :
 - Dimension créative (invention de nouveaux blocs)
 - Dimension sociale (collaboration et communication)
 
-Concluez en élargissant la vision de la programmation, en la présentant non seulement comme l&#39;écriture de code pour un ordinateur, mais comme une façon de penser, d&#39;organiser ses idées, de résoudre des problèmes et de créer -- un véritable langage d&#39;expression qui peut prendre différentes formes, y compris celle du mouvement.
+Concluez en élargissant la vision de la programmation, en la présentant non seulement comme l&#39;écriture de code pour un ordinateur, mais comme une façon de penser, d&#39;organiser ses idées, de résoudre des problèmes et de créer : un véritable langage d&#39;expression qui peut prendre différentes formes, y compris celle du mouvement.
 
 
 ---

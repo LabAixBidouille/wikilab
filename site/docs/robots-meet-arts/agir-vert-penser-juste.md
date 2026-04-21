@@ -52,8 +52,8 @@ Facultatif :
 
 ## Liens utiles
 
-- Objectif de développement durable n°13 -- Action pour le climat : [https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13\_Fast-Facts.pdf](https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13_Fast-Facts.pdf)
-- Vidéo « Climate Action -- SDG 13 -- Sustainable Development Goals for Kids » : [https://youtu.be/jhoa3OHivN8](https://youtu.be/jhoa3OHivN8) (en espagnol)
+- Objectif de développement durable n°13 : Action pour le climat : [https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13\_Fast-Facts.pdf](https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13_Fast-Facts.pdf)
+- Vidéo « Climate Action : SDG 13 : Sustainable Development Goals for Kids » : [https://youtu.be/jhoa3OHivN8](https://youtu.be/jhoa3OHivN8) (en espagnol)
 - Application Blue-Bot (Google Play) : [https://play.google.com/store/apps/details?id=tts.bluebot](https://play.google.com/store/apps/details?id=tts.bluebot)
 - Application Blue-Bot (Apple Store) : [https://apps.apple.com/fr/app/blue-bot/id957753068](https://apps.apple.com/fr/app/blue-bot/id957753068)
 

@@ -61,7 +61,7 @@ sidebar_position: 21
 
 - Informations sur le recyclage et le réemploi : [https://www.lifewithnogarbage.gr/](https://www.lifewithnogarbage.gr/)
 - [https://inactionforabetterworld.com/en/in-action/](https://inactionforabetterworld.com/en/in-action/)
-- [Wordwall -- Recyclage](https://wordwall.net/el/resource/26398760/)
+- [Wordwall : Recyclage](https://wordwall.net/el/resource/26398760/)
 - Notions de base en robotique (Bee-Bot) : [https://beebot.terrapinlogo.com/](https://beebot.terrapinlogo.com/)
 
 ---

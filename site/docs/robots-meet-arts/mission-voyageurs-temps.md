@@ -380,7 +380,7 @@ Laissez votre classe explorer, créer et partager ses voyages uniques à travers
 
 (Le ton devient inspirant)
 
-> « C&#39;est pourquoi nous vous avons convoqués -- recrues d&#39;élite de l&#39;Agence européenne du temps. Vous n&#39;êtes pas des élèves ordinaires... Vous êtes désormais des Agents du temps. »
+> « C&#39;est pourquoi nous vous avons convoqués : recrues d&#39;élite de l&#39;Agence européenne du temps. Vous n&#39;êtes pas des élèves ordinaires... Vous êtes désormais des Agents du temps. »
 >
 > « Votre mission : Voyager dans le passé. Découvrir ce qui a mal tourné. Réparer le bug. Restaurer l&#39;histoire. »
 >
@@ -396,7 +396,7 @@ Laissez votre classe explorer, créer et partager ses voyages uniques à travers
 
 (Idée : musique triomphante)
 
-> « Bonne chance, Agents. Le passé de l&#39;Europe -- et son avenir -- sont entre vos mains. »
+> « Bonne chance, Agents. Le passé de l&#39;Europe : et son avenir : sont entre vos mains. »
 
 Options supplémentaires pour les enseignant·e·s :
 

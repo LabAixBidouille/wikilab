@@ -43,7 +43,7 @@ sidebar_position: 11
 
 ## Liens utiles
 
-- Vidéo « Sandwich Bot » -- excellente introduction aux algorithmes : [https://www.youtube.com/watch?v=leBEFaVHllE&t=77s](https://www.youtube.com/watch?v=leBEFaVHllE&t=77s)
+- Vidéo « Sandwich Bot » : excellente introduction aux algorithmes : [https://www.youtube.com/watch?v=leBEFaVHllE&t=77s](https://www.youtube.com/watch?v=leBEFaVHllE&t=77s)
 
 ---
 

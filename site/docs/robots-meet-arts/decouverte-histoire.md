@@ -58,7 +58,7 @@ sidebar_position: 23
 - Vérifiez que les élèves ont accès aux cartes d&#39;instructions et aux jetons représentant les navires.
 - Abordez le vocabulaire clé en amont (navigation, séquence, débogage).
 - Encouragez les élèves à réfléchir étape par étape lorsqu&#39;ils créent leurs algorithmes.
-- Rappelez aux élèves que se tromper fait partie de l&#39;apprentissage -- le débogage est essentiel !
+- Rappelez aux élèves que se tromper fait partie de l&#39;apprentissage : le débogage est essentiel !
 
 :::
 
