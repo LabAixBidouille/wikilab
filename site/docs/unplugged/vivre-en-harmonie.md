@@ -87,11 +87,6 @@ Demandez aux élèves s'ils savent ce que signifie le mot "identité". Ouvrez un
 
 Divisez la classe en petits groupes. Chaque groupe reconstitue sa fiche pays vierge en utilisant les éléments fournis : noms de villes, drapeaux, spécialités culinaires, cours d'eau, superficie, nombre d'habitants, dates d'intégration à l'UE, et phrases de base dans la langue nationale.
 
-<div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplefichepays.png" alt="Exemple de fiche pays vierge" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplepays.png" alt="Exemple de fiche pays complétée" style={{maxWidth: '45%', minWidth: '250px'}} />
-</div>
-
 ### Phase 3 - Découverte des fiches pays
 
 Distribuez les fiches pays corrigées et questionnez les élèves sur leurs choix et les différences avec la réalité.
@@ -103,6 +98,11 @@ Les groupes se réuniront afin de former leur carte finale de l'Union Européenn
 ### Conclusion et débat
 
 Lancez une discussion sur ce qui unit les nations européennes.
+
+<div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
+  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplefichepays.png" alt="Exemple de fiche pays vierge" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplepays.png" alt="Exemple de fiche pays complétée" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
+</div>
 
 ---
 

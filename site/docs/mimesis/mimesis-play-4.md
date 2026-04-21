@@ -310,7 +310,7 @@ L'enseignant distribue les fiches avec les trois motifs de lignes disponibles da
 
 Une fois les masques prêts, ils sont disposés dans une exposition où chaque enfant présente son masque et partage un peu le processus de sa création. L'enseignant peut vous aider avec des questions d'orientation telles que : « Quel est le nom de votre personnage ? Comment avez-vous exprimé ses qualités particulières dans le masque – en ajoutant de la couleur, par exemple, en rendant les yeux plus intéressants, en coupant ou en ajoutant quelque chose de spécifique de/à votre masque ? »
 
-<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem'}}>
+<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <img src="/img/ressources/mimesis-play-4/exemplemasque.png" alt="Exemple de masque" style={{maxWidth: '100%'}} />
   <figcaption style={{textAlign: 'center', fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de masque</figcaption>
 </figure>

@@ -108,7 +108,7 @@ Durant la phase de récit, tous les joueurs deviennent, à tour de rôle, dans l
 
 Si un joueur n'arrive pas à se rappeler de tout le conte, il peut y être aidé par les autres joueurs ou le maître du jeu.
 
-<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem'}}>
+<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <img src="/img/ressources/unplugged-fantasy_out_there/exemple.jpg" alt="Exemple de réalisation autour des mondes imaginaires souterrains" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de réalisation autour des mondes imaginaires souterrains</figcaption>
 </figure>

@@ -99,6 +99,17 @@
   mask-repeat: no-repeat;
 }
 
+/* ── Images et figures alignées à gauche ── */
+
+.markdown img {
+  display: block;
+}
+
+.markdown figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /* ── Justification du texte ── */
 
 article p,

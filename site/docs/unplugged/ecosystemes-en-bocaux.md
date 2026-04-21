@@ -127,7 +127,7 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 - Ajout de détergent phosphaté commercial (simule la pollution)
 - Cellophane coloré autour des pots (croissance sous différentes couleurs de lumière)
 
-<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', textAlign: 'center'}}>
+<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <img src="/img/ressources/unplugged-ecosystemes_en_bocaux/exemple.jpg" alt="Exemple d'écosystème conçu sur papier" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple d'écosystème conçu sur papier avant de démarrer l'activité</figcaption>
 </figure>

@@ -210,7 +210,7 @@ Les joueurs pourront trouver des informations complémentaires sur les métiers 
 - Saviez-vous que le premier prix Nobel décerné à une femme était le prix Nobel de physique remporté par Marie Curie en 1903 ?
 - Saviez-vous que l'étoile la plus grande de notre galaxie est VY Canis Majoris (40 fois plus grande et 350 000 fois plus brillante que le Soleil) ?
 
-<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', textAlign: 'center'}}>
+<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <img src="/img/ressources/unplugged-equal/exemplelivrecuriosite.png" alt="Exemple du Livre des curiosités" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de page du Livre des curiosités</figcaption>
 </figure>

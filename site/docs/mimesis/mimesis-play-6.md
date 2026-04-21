@@ -349,7 +349,7 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 **Comment l'empêcher ?** Les tremblements de terre ne peuvent être ni prévus ni évités. Cependant, plusieurs méthodes sont utilisées pour prédire les tremblements de terre. La meilleure méthode actuellement à la disposition des scientifiques et des planificateurs est l'enregistrement des événements sismiques survenus dans une zone dans le passé. En examinant la fréquence d'événements d'une certaine ampleur au fil du temps, les scientifiques peuvent calculer la probabilité statistique que des événements similaires se produisent dans un certain laps de temps dans le futur.
 
-<figure style={{marginTop: '2rem', marginBottom: '1.5rem'}}>
+<figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
     <img src="/img/ressources/mimesis-play-6/%28Fran%C3%A7ais%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
     <img src="/img/ressources/mimesis-play-6/%28Fran%C3%A7ais%29%20%282%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />

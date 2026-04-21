@@ -80,7 +80,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     keywords: ['makecode', 'led', 'stm32', 'blocs', 'broche'],
     pdf: '/pdf/lets-steam/LS_R1AS01_LED_FR.pdf',
-    thumbnail: '/img/ressources/led/led.png',
+    thumbnail: '/img/ressources/led/icone.png',
   },
   {
     id: 'r1as02-breadboard',

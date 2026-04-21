@@ -71,8 +71,6 @@ Le défi permet aux enfants de comprendre comment les différents dispositifs in
 
 Dans le cas de la "Grille magique de la paix", nous vous proposons d'utiliser les grilles pour corriger des messages liés aux défis du monde moderne tels que la pauvreté, le climat, l'égalité, les droits de l'homme, etc.
 
-<img src="/img/ressources/unplugged-grille_magique_de_la_paix/exempledroitdelhomme.png" alt="Exemple de grille sur les droits de l'homme" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
-
 ---
 
 ## Règles du jeu
@@ -98,11 +96,16 @@ Pour comprendre la détection d'erreurs, nous utiliserons des grilles composées
 
 L'enseignant explique le fonctionnement du contrôle de parité sur une grille simple affichée au tableau blanc. Les enseignants peuvent également suivre les étapes présentées dans l'activité CS Unplugged : [https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/](https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/)
 
+<img src="/img/ressources/unplugged-grille_magique_de_la_paix/exemplegrille.png" alt="Exemple de grille magique avec bit de parité" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+
 ### Phase 2 - Commencer à corriger des grilles simples
 
 Une fois qu'ils ont compris la logique du jeu, les joueurs concentrent leur attention sur la découverte du mot caché. L'enseignant divise la classe en petits groupes de 2/3 élèves.
 
-<img src="/img/ressources/unplugged-grille_magique_de_la_paix/exemplegrille.png" alt="Exemple de grille magique avec bit de parité" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<figure style={{marginTop: '1rem', marginBottom: '1.5rem', margin: 0}}>
+  <img src="/img/ressources/unplugged-grille_magique_de_la_paix/exempledroitdelhomme.png" alt="Exemple de grille sur les droits de l'homme" style={{maxWidth: '500px', display: 'block'}} />
+  <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple d'une grille à corriger pour trouver "Droits de l'homme"</figcaption>
+</figure>
 
 ### Phase 3 - Se rassembler et discuter
 
