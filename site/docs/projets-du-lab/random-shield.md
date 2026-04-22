@@ -7,10 +7,6 @@ sidebar_position: 3
 
 # Random Shield
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Électronique |
-
 ### Présentation du projet
 
 Générateur de bits aléatoires pour Arduino.

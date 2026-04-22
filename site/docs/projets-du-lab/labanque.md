@@ -7,10 +7,6 @@ sidebar_position: 20
 
 # LABanque : Monnaie complémentaire communautaire fondante
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Fabrication |
-
 Picsous trésorier du LAB et forgeur d'écrous
 
 ### Notre ambition

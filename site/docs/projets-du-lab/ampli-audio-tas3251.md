@@ -7,15 +7,9 @@ sidebar_position: 2
 
 # Ampli audio 2x170W TAS3251
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Audio |
-
-![Rendu 3D de la carte TAS3251 Neat Amp](/img/ressources/projets-du-lab/TAS3251_Neat_Amp.jpg)
-
 ### Présentation
 
-Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique (voir fiche dédiée). L'objectif est de remplacer les amplificateurs précédents, dont la puissance était insuffisante, par de nouveaux amplis répondant à trois critères :
+Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([voir fiche dédiée](./audio-hifi)). L'objectif est de remplacer les amplificateurs précédents, dont la puissance était insuffisante, par de nouveaux amplis répondant à trois critères :
 
 - puissance nettement supérieure,
 - entrée numérique I2S (le mode le plus performant),
@@ -32,6 +26,8 @@ L'historique complet du projet est documenté sur [DIYAudio](https://www.diyaudi
 ### Photos
 
 Rendu 3D de la carte :
+
+![Rendu 3D de la carte TAS3251](/img/ressources/projets-du-lab/TAS3251_Neat_Amp.jpg)
 
 ![Rendu 3D TAS3251 Neat Amp](/img/ressources/projets-du-lab/TAS3251_Neat_Amp.jpg)
 

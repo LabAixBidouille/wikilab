@@ -7,12 +7,6 @@ sidebar_position: 1
 
 # Audio HiFi Full numérique
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Audio |
-
-![Enceintes LXmini](/img/ressources/projets-du-lab/LXminiTop.JPG)
-
 ### Présentation
 
 Ce projet vise à construire un système HiFi de très haute qualité, entièrement en DIY, avec une chaîne 100 % numérique du serveur de musique jusqu'aux amplificateurs.
@@ -41,6 +35,10 @@ Le fil rouge du projet : [David 3, Goliath 0](http://audiolalies.blogspot.fr/201
 - **Enceintes** : LXmini de Siegfried Linkwitz.
 
 ### Photos
+
+Vue d'ensemble des enceintes LXmini :
+
+![Enceintes LXmini vue de dessus](/img/ressources/projets-du-lab/LXminiTop.JPG)
 
 Les enceintes :
 

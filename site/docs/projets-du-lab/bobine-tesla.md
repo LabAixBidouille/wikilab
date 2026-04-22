@@ -7,10 +7,6 @@ sidebar_position: 13
 
 # Bobine Tesla Musicale
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Électronique |
-
 ### Présentation
 
 Projet réalisé par Jonathan dans le cadre du Hackathon de Devoxx France.

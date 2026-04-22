@@ -7,10 +7,6 @@ sidebar_position: 12
 
 # De la musique avec un capteur de distance laser
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Audio |
-
 ### Présentation
 
 Ce projet transforme un capteur de distance laser en instrument de musique, sur le principe du thérémine optique. Un capteur VL53L0X mesure en continu la distance de la main placée devant lui et la convertit en fréquence sonore envoyée à un buzzer piézoélectrique. Plus la main est proche, plus le son est aigu ; plus elle s'éloigne, plus le son est grave.

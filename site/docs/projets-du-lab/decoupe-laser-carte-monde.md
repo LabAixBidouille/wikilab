@@ -7,10 +7,6 @@ sidebar_position: 15
 
 # Découpe laser : carte du monde en liège
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Fabrication |
-
 ### Présentation
 
 L'objectif est de réaliser une carte du monde en liège à fixer au mur, sur laquelle on peut punaiser des photos et des centres d'intérêt. La découpe est réalisée au laser au LAB, dans des plaques de liège du commerce.
@@ -37,7 +33,7 @@ Zoom sur le nord du Canada : la carte est très précise, et une découpe de tou
 ![Zoom nord du Canada](/img/ressources/projets-du-lab/ZoomNordCanada.png)
 
 L'astuce consiste à extraire le contour des **mers** plutôt que des terres, en utilisant l'outil de remplissage d'Inkscape. On remplit les océans, les mers et les lacs avec une couleur : le contour des zones remplies correspond au contour de découpe.
-![Outil de remplissage Inkscape](/img/ressources/projets-du-lab/FillCommand.png)
+<img src="/img/ressources/projets-du-lab/FillCommand.png" alt="Outil de remplissage Inkscape" style={{width: "250px"}} />
 
 La précision du remplissage dépend du niveau de zoom au moment du clic. Le contour de la Méditerranée, remplie avec un zoom serré, est plus précis que celui de l'Atlantique, rempli avec un zoom plus large. À l'échelle de la carte, ces écarts restent acceptables.
 

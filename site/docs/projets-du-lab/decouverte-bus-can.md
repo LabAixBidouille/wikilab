@@ -7,12 +7,6 @@ sidebar_position: 7
 
 # Découverte du Bus CAN
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Électronique |
-
-![Bus CAN](/img/ressources/projets-du-lab/Canbus.jpg)
-
 ### Présentation
 
 Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](https://fr.wikipedia.org/wiki/Controller_Area_Network). Sur cette page sont regroupés les liens vers les différentes expérimentations conduites par les membres du LAB.

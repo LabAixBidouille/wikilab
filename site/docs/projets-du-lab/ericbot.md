@@ -7,10 +7,6 @@ sidebar_position: 8
 
 # ERICbot
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Robotique |
-
 ### Matériel
 
 Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. Il est équipé de :
@@ -35,7 +31,7 @@ Il est fixé au carter de l'interrupteur avec du scotch double-face et relié à
 
 #### L'Arduino Uno
 
-![Arduino du robot](/img/ressources/projets-du-lab/Robotarduino.jpg)
+<img src="/img/ressources/projets-du-lab/Robotarduino.jpg" alt="Arduino du robot" style={{width: "250px"}} />
 
 Fixer l'Arduino Uno sur le châssis, puis câbler le contrôleur à ses périphériques. Les moteurs sont connectés à l'Arduino par des fils mâle-mâle, en suivant le tutoriel "Un moteur qui sait où il va : le servomoteur".
 

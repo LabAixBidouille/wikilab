@@ -7,10 +7,6 @@ sidebar_position: 9
 
 # RobotDuLAB
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Robotique |
-
 ### Présentation
 
 RobotDuLAB est un robot éducatif conçu au LAB pour l'apprentissage de la programmation en classe, du primaire au lycée.

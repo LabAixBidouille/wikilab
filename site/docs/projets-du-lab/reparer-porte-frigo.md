@@ -7,12 +7,6 @@ sidebar_position: 19
 
 # Réparer une porte de frigo avec une imprimante 3D
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Fabrication |
-
-![Porte de frigo cassée](/img/ressources/projets-du-lab/PorteFrigo.JPG)
-
 ### Présentation
 
 La charnière de la porte du frigo était cassée : le bout de plastique maintenant l'axe avait disparu, et l'axe reposait directement sur la tôle de la porte. Résultat : une porte bancale.
@@ -39,6 +33,8 @@ La pièce a été dessinée dans **Fusion 360**. Quatre essais ont été nécess
 La porte fonctionne parfaitement.
 
 ### Photos
+
+![Porte de frigo](/img/ressources/projets-du-lab/PorteFrigo.JPG)
 
 ![Porte de frigo](/img/ressources/projets-du-lab/PorteFrigo.JPG)
 

@@ -7,12 +7,6 @@ sidebar_position: 6
 
 # Terrarium connecté pour dendrobates
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Domotique |
-
-![Internet Of Frogs](/img/ressources/projets-du-lab/InternetOfFrogs.jpg)
-
 Les dendrobates vivent à une température comprise entre 24 et 26 °C le jour (2 °C de moins la nuit), dans un milieu tropical très humide, avec une humidité relative de 70 à 80 %. Elles ne doivent pas être exposées à la lumière directe du soleil et nécessitent donc un éclairage artificiel adapté. Un éclairage dont le spectre contient des UVB n'est pas indispensable (contrairement aux reptiles), mais il favorise la croissance des grenouilles et des plantes. Le cycle jour/nuit peut être de 12/12 heures, mais il est possible de le moduler par rapport à la durée du jour (jusqu'à 10/14 h). Les changements importants et les manipulations sont source de stress chez les animaux et doivent donc être évités.
 
 Les dendrobates ont besoin d'un abreuvoir. Les points d'eau doivent être peu profonds (moins de 2 cm) afin qu'elles ne se noient pas. Pour augmenter l'humidité, il est possible de créer une cascade ou un petit bassin avec une pompe pour faire circuler l'eau. Afin d'éviter les proliférations bactériennes et fongiques, il ne faut pas laisser d'eau stagnante. Il est recommandé d'utiliser de l'eau en bouteille avec une composition minérale adaptée, ou de l'eau filtrée pour éliminer le calcaire, les bactéries et les résidus de chlore.
@@ -166,6 +160,8 @@ Le code des émetteurs et des récepteurs se trouve sur GitHub : [InternetOfFrog
 L'interconnexion logicielle se fait grâce au logiciel Node-RED, qu'il faut installer sur le Raspberry Pi.
 
 ### Conclusion
+
+![Internet Of Frogs](/img/ressources/projets-du-lab/InternetOfFrogs.jpg)
 
 Ce projet est encore à l'état de prototype, mais depuis fin août 2015, il héberge trois grenouilles dendrobates qui semblent tout à fait satisfaites de leur habitat.
 

@@ -7,12 +7,6 @@ sidebar_position: 5
 
 # Station Météo
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Électronique |
-
-> Ce projet est en cours de réalisation.
-
 ### Description du projet
 
 L'objectif de ce projet est de proposer différentes solutions DIY (Do It Yourself) pour fabriquer une station météo adaptée aux besoins et aux envies de chacun.

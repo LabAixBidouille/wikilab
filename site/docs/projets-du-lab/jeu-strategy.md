@@ -7,10 +7,6 @@ sidebar_position: 21
 
 # JeuStrategy
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Jeux |
-
 ### Présentation
 
 Jeu de stratégie sur plateau, conçu et fabriqué au LAB. Le plateau est découpé au laser, les pions sont imprimés en 3D.

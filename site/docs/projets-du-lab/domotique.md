@@ -7,10 +7,6 @@ sidebar_position: 4
 
 # Domotique
 
-| Projet | Catégorie |
-|---|---|
-| Projets du LAB | Domotique |
-
 Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes domotiques en utilisant des briques matérielles et logicielles existantes ou conçues au LAB.
 
 ### Principes
