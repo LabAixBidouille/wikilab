@@ -2,15 +2,15 @@
 
 ### Présentation du projet
 
-Générateur de bits aléatoires pour Arduino
+Générateur de bits aléatoires pour Arduino.
 
-- Permet de générer des bits aléatoires pour des applications ludiques ou cryptographiques
+- Permet de générer des bits aléatoires pour des applications ludiques ou cryptographiques.
 
-- Circuit simple à mettre en oeuvre
+- Circuit simple à mettre en œuvre.
 
-- Nécessite deux piles 9V ou une alimentation symétrique 12V
+- Nécessite deux piles 9 V ou une alimentation symétrique 12 V.
 
-- Vitesse d'acquisition max de 6.25 kbits par seconde
+- Vitesse d'acquisition maximale de 6,25 kbits par seconde.
 
 [Random2.jpg]
 
@@ -21,16 +21,15 @@ Générateur de bits aléatoires pour Arduino
 
 ### Principe de fonctionnement
 
-On génère du bruit en se plaçant dans la zone de tension inverse d'une diode zener ou d'une jonction PN en inverse d'un transistor. On assiste alors à un effet d'avalanche, où les électrons vont se mouvoir de manière complètement aléatoire. On utilise ici un 2N3904 car sa tension inverse n'est pas très élevée (8.2V) et le bruit qu'il génère possède une grande amplitude.
+Le bruit est généré en polarisant une diode Zener ou une jonction PN de transistor en inverse, dans la zone dite d'avalanche. Dans cette zone, les électrons se déplacent de manière totalement aléatoire. Le transistor 2N3904 est utilisé ici car sa tension inverse est relativement faible (8,2 V) et le bruit qu'il produit présente une grande amplitude.
 
-On amplifie le signal obtenu à travers un AOP, mais en faisant d'abord passer le signal à travers un condensateur. Ceci permet d'éliminer la tension d'offset (la tension inverse) de 8.2V. Noter que le schéma d'alimentation avec les deux piles n'est pas symétrique : on se met en +12V justement pour être bien au-dessus de la tension d'avalanche.
-On amplifie le signal de telle sorte qu'on ait une amplitude de 4V peak to peak (il évolue entre +2V et -2V pour l'instant).
+Le signal obtenu est ensuite amplifié par un amplificateur opérationnel (AOP), après avoir traversé un condensateur. Ce condensateur permet d'éliminer la tension d'offset de 8,2 V (la tension inverse). Le schéma d'alimentation avec les deux piles n'est pas symétrique : la tension positive est fixée à +12 V précisément pour dépasser largement la tension d'avalanche. Le gain est réglé de manière à obtenir une amplitude de 4 V crête à crête (le signal oscille entre +2 V et -2 V à ce stade).
 
-Note : J'avais mesuré un bruit de 90mV à la sortie de C1, mais j'ai découvert qu'il fallait une résistance de 2Mohms sur le feedback de l'AOP, soit un gain de 2000. Je devrais alors avoir en théorie un signal de sortie de 180V peak to peak !!! Mystère encore à ce jour ... Mais bon, vu que ça marche bien comme ça ... :-)
+Note : un bruit de 90 mV a été mesuré à la sortie de C1. Avec une résistance de 2 MOhms sur la boucle de rétroaction de l'AOP, soit un gain de 2 000, le signal de sortie devrait théoriquement atteindre 180 V crête à crête. Ce résultat reste inexpliqué, mais le circuit fonctionne correctement en l'état.
 
-A la sortie de l'AOP, on place encore un autre condensateur afin de pouvoir mettre une tension d'offset sur le signal amplifié. En effet, la logique de l'Arduino est : logique 0 : 0-0.9V et logique 1 : 3V-4.2V. Il faut donc que le signal soit bien ajusté dans cette bande. Par expérience, j'ai trouvé qu'il faut régler le potentiomètre P2 à 2.5V.
+À la sortie de l'AOP, un second condensateur est placé afin de pouvoir appliquer une tension d'offset au signal amplifié. En effet, la logique de l'Arduino est la suivante : 0 logique entre 0 et 0,9 V, 1 logique entre 3 et 4,2 V. Le signal doit donc être ajusté dans cette plage. L'expérience montre que le potentiomètre P2 doit être réglé à 2,5 V.
 
-Note : Au fur et à mesure que les piles 9V se déchargent, il sera probablement nécessaire de réajuster le potentiomètre P1 pour qu'on ait bien +12V. La valeur de la tension négative importe peu, du moment, qu'on ait -3V minimum pour assurer l'amplification correcte du signal. Il faudra également vérifier que P2 délivre 2.5V.
+Note : au fur et à mesure que les piles 9 V se déchargent, il sera probablement nécessaire de réajuster le potentiomètre P1 pour maintenir une tension de +12 V. La valeur de la tension négative importe peu, tant qu'elle reste inférieure à -3 V, seuil nécessaire à une amplification correcte du signal. Il conviendra également de vérifier que P2 délivre bien 2,5 V.
 
 ### Code Arduino
 
@@ -126,22 +125,21 @@ void loop()
 
 ### Test du générateur
 
-Il n'existe aucune méthode fiable pour déterminer si une suite de nombre est aléatoire. On ne peut que vérifier si le générateur se comporte "normalement" d'un point de vue statistique.
-J'ai installé la batterie de test connue sous le nom DieHarder :
+Il n'existe aucune méthode fiable pour déterminer si une suite de nombres est réellement aléatoire. On ne peut que vérifier si le générateur se comporte de manière conforme d'un point de vue statistique. La batterie de tests DieHarder a été utilisée à cet effet :
 
 ```
 terminal:sudo apt-get install dieharder
 
 ```
 
-Pour lancer les tests, rien de plus simple (ici sur un échantillon de 2 mégabits) :
+Pour lancer les tests sur un échantillon de 2 mégabits :
 
 ```
 terminal:dieharder -f rng.txt -a
 
 ```
 
-Voici le résultat :
+Voici le résultat :
 
 ```
 #=============================================================================#
@@ -272,21 +270,21 @@ Preparing to run test 209.  ntuple = 0
 
 ```
 
-A part deux instances où le test a échoué, je me sens très confiant dans l'efficacité du générateur.
+Hormis deux instances marquées WEAK, le résultat est très satisfaisant et atteste de l'efficacité du générateur.
 
-### Evolution du projet
+### Évolutions envisagées
 
-- Boitier de rangement
+- Conception d'un boîtier de rangement.
 
-- Compresser 8 random bits sur 1 byte
+- Compression de 8 bits aléatoires sur un seul octet.
 
-- Interface graphique avec menus et potentiomètre/boutons poussoirs pour faire la sélection
+- Interface graphique avec menus, potentiomètre et boutons-poussoirs pour la sélection.
 
-- Interface bluetooth pour connection avec un smartphone
+- Interface Bluetooth pour la connexion avec un smartphone.
 
-- Générer et afficher en gros sur l'écran un ou plusieurs nombres aléatoires (pour remplacer les dés)
+- Génération et affichage en grand format d'un ou plusieurs nombres aléatoires (pour remplacer les dés).
 
-- Deuxième carte SD pour l'application cryptographique One Time Pad
+- Ajout d'une seconde carte SD pour l'application cryptographique One Time Pad.
 
 ### Références
 

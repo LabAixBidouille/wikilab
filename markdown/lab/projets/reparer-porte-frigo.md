@@ -1,24 +1,33 @@
-# Réparer porte frigo avec imprimante 3D
+# Réparer une porte de frigo avec une imprimante 3D
 
 [PorteFrigo.JPG]
 
-Dans la série "Que peut-on faire d'utile avec une imprimante 3D"... Par exemple réparer la porte de son frigo !
+### Présentation
 
-La charnière de la porte était cassée. Le bout de plastique du dessus de la porte perdu. L'axe de la charnière reposait sur la feuille métallique constituant la porte: bancal.
+La charnière de la porte du frigo était cassée : le bout de plastique maintenant l'axe avait disparu, et l'axe reposait directement sur la tôle de la porte. Résultat : une porte bancale.
 
-Il faut une petite pièce en U qui bloquerait l'axe à l'intérieur du U et viendrait se coincer dans la forme de la porte pour verrouiller l'ensemble. Une forme courbe pour épouser l'arrondi de la porte. Une petit rebord en haut du U pour éviter que la pièce ne tombe dans la porte.
+### Conception
 
-Un coup de Fusion360 pour dessiner la pièces. Quatre essais (oui je sais, on doit pouvoir faire mieux :-) pour faire les symétries dans le bon sens et ajuster la taille...
+Il fallait une petite pièce en U capable de :
+- bloquer l'axe à l'intérieur du U,
+- se coincer dans la forme de la porte pour verrouiller l'ensemble,
+- épouser l'arrondi de la porte grâce à une forme courbe,
+- retenir la pièce grâce �� un petit rebord en haut du U.
 
-Et hop, réparé ! La porte marche nickel.
+La pièce a été dessinée dans **Fusion 360**. Quatre essais ont été nécessaires pour obtenir les bonnes symétries et ajuster les dimensions.
 
-Conclusion, il est indispensable d'avoir une imprimante 3D à la maison (euh pas sûr).
+### Fabrication
 
-NB: je n'ai que du fil rouge pour le moment. C'est spécial.
+1. **Modélisation** : design dans Fusion 360, mesures prises directement sur la porte
+2. **Tranchage** : export STL puis préparation du G-code dans Cura
+3. **Impression** : Anet A8, PLA rouge (seule couleur disponible)
+4. **Itérations** : 4 impressions pour ajuster les cotes et corriger les symétries
+
+### Résultat
+
+La porte fonctionne parfaitement.
 
 ### Photos
-
-Les enceintes:
 
 [PorteFrigo.JPG]
 
@@ -26,6 +35,7 @@ Les enceintes:
 
 ### Matériel et logiciels
 
-Imprimante: Anet A8
-CAO: Fusion360
-Slicer: Cura
+- **Imprimante** : Anet A8
+- **CAO** : Fusion 360
+- **Slicer** : Cura
+- **Matière** : PLA

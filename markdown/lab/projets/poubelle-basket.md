@@ -2,41 +2,55 @@
 
 ### Présentation
 
-Ce projet a pour but fabriquer une « Poubelle Basket ».  L’idée principale dans ce projet est d’apprendre à utiliser la machine de découpe laser « Speedy 400 » de « Trotec ».
+Ce projet consiste à fabriquer une poubelle surmontée d'un panier de basket, en découpe laser. C'est avant tout un prétexte pour apprendre à utiliser la Trotec Speedy 400.
 
 [PoubelleBasket.jpeg]
 
-Ce produit est vendu tout fait par Aliexpress.
+Un produit équivalent existe en version commerciale sur Aliexpress.
 
 ### Matériel
 
-- Planche de MDF 3mm.
-
-- Poubelle achetée sur Aliexpress
+- Planche de MDF 3 mm
+- Poubelle (achetée sur Aliexpress)
 
 ### Coût
 
-- 1 ou 2 € de bois (Castorama fait des chutes pas cher)
+- 1 à 2 € de bois (chutes de MDF en magasin de bricolage)
+- 8 € pour la poubelle
 
-- 8€ pour la poubelle
-
-Libre à vous d’éditer la 3D et de l’adapter à une poubelle que vous avez déjà.
+Le modèle 3D est adaptable à n'importe quelle poubelle.
 
 ### Logiciels
 
-#### 3D
+#### Modélisation 3D
 
 [Basket bis.jpg]
 
-Pour la modélisation 3D, j’ai utilisé Sketchup dans lequel j’ai modélisé toutes les petites pièces composants le panneau de basket.
+Toutes les pièces du panneau de basket ont été modélis��es dans SketchUp, puis la structure a été aplanie pour l'export en 2D au format .eps.
 
-Ensuite, j’ai aplanis la structure pour pouvoir l’exporter en 2D, (format .eps).
-
-#### 2D
-
-N’importe quel logiciel de dessin vectoriel fait l’affaire pour transformer les contours à découper en rouge, et les gravures en noir.
+#### Préparation 2D
 
 [Basket bisV3.svg]
+
+N'importe quel logiciel de dessin vectoriel convient pour préparer le fichier de découpe : contours à découper en rouge, gravures en noir.
+
+### Fabrication
+
+#### 1. Préparation du fichier
+
+Ouvrir le fichier .eps exporté dans un logiciel vectoriel (Inkscape, Illustrator, CorelDRAW). Les traits de découpe doivent être en rouge (ligne fine) et les zones de gravure en noir (remplissage).
+
+#### 2. Réglages de la découpe laser
+
+Sur la Trotec Speedy 400, adapter puissance et vitesse au MDF 3 mm (typiquement P:60-80, V:1-2 pour la découpe). Réduire la puissance pour les éventuelles gravures décoratives.
+
+#### 3. Découpe
+
+Placer la planche de MDF sur le plateau, faire la mise au point du laser, puis lancer la découpe. Vérifier que toutes les pièces sont bien détachées avant de retirer la planche.
+
+#### 4. Assemblage
+
+Les pièces découpées s'emboîtent ou se collent à la colle à bois pour former le panneau de basket. Fixer l'ensemble sur la poubelle.
 
 ### Résultat
 

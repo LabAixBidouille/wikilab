@@ -3,61 +3,59 @@
 []  Picsous trésorier du LAB et forgeur d'écrous
 ### Notre ambition
 
-Faire émerger nos projets
+Faire émerger nos projets.
 
 ### Les règles
 
-- La monnaie est l’écrou, son symbole: ⬡
+- La monnaie est l'écrou ; son symbole : ⬡
 
-- Elle est entièrement numérique
+- Elle est entièrement numérique.
 
-- Il faut être membre de l’association pour s’en servir
+- Il faut être membre de l'association pour l'utiliser.
 
-- L’étalon est l’heure d’impression 3D: 100⬡
+- L'étalon est l'heure d'impression 3D : 100 ⬡.
 
-- Elle est fondante
+- Elle est fondante.
 
-Le principe des ⬡ est d'être un outil pour encourager l'implication de tous dans le LAB.
+Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
 
-L'objectif est qu'une personne qui fait vivre la communauté puisse profiter des services du LAB en contre-partie.
+L'objectif est de permettre aux personnes qui font vivre la communauté de profiter des services du LAB en contrepartie.
 
-Tout temps passé à  faire vivre la communauté est compensé en ⬡.
+Tout temps consacré à faire vivre la communauté est compensé en ⬡.
 
-Si une personne veut utiliser les services du LAB avant d'avoir donner de son temps, elle a la possibilité d'acheter  des ⬡ (100⬡ = 8€).
+Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle a la possibilité d'acheter des ⬡ (100 ⬡ = 8 €).
 
 ### Tout le monde en parle
 
 - [Le Fab Shop](http://www.lefabshop.fr/nutsbank-une-monnaie-pour-les-makers/)
 
-### Comment gagner des ⬡?
+### Comment gagner des ⬡ ?
 
-- En donnant du temps à l’association
+- En donnant du temps à l'association
 
 - Permanence
 
-- Animation d’ateliers
+- Animation d'ateliers
 
-- En aidant d’autres membres qui vous en donnent
+- En aidant d'autres membres, qui vous en donnent en retour
 
-- En en achetant. Voir avec le LAB
+- En en achetant (se renseigner auprès du LAB)
 
-Exemple de compensation :
+Exemples de compensation :
 
-```
-   Prêt d'une machine de fabrication numérique au L.A.B = 250 ⬡/ mois
-   Participation à un événement en extérieur  = 240 ⬡ / 0.5j
-   Animation d'atelier de plus de 4 personnes = 200 ⬡
-   Écriture d'un tutoriel sur le Wiki = 180 ⬡
-   Animation d'une permanence = 150 ⬡
-   Écriture d'un article d'au moins 1000 caractères sur le blog = 100 ⬡
-   Documentation d'une réalisation sur le wiki (descriptif, paramètre de fabrication,
-   fichier  SVG ou DXF et photo) = 100 ⬡
-   Portion de repas partagé avec un autre maker = 50⬡
-   Tweet d'une réalisation avec le compte du LAB = 10 ⬡
+| Activité | Montant |
+|---|---|
+| Prêt d'une machine de fabrication numérique au LAB | 250 ⬡/mois |
+| Participation à un événement en extérieur | 240 ⬡/0,5 j |
+| Animation d'un atelier de plus de 4 personnes | 200 ⬡ |
+| Écriture d'un tutoriel sur le wiki | 180 ⬡ |
+| Animation d'une permanence | 150 ⬡ |
+| Écriture d'un article d'au moins 1 000 caractères sur le blog | 100 ⬡ |
+| Documentation d'une réalisation sur le wiki (descriptif, paramètres de fabrication, fichier SVG ou DXF et photo) | 100 ⬡ |
+| Portion de repas partagé avec un autre maker | 50 ⬡ |
+| Tweet d'une réalisation avec le compte du LAB | 10 ⬡ |
 
-```
-
-### Comment dépenser ses ⬡?
+### Comment dépenser ses ⬡ ?
 
 - En les donnant à ceux qui participent à vos projets
 
@@ -67,30 +65,28 @@ Exemple de compensation :
 
 - Ateliers de formation
 
-- En les dépensant chez nos marchands préférés?
+- En les dépensant chez nos marchands partenaires
 
-Coût machine :
+Coût machine :
 
-```
-   Imprimante 3D : 100⬡/h (par tranche de 10 minutes et avec consommable simple )
-   Découpe Laser : 10⬡/min (par tranche de 5 minutes)
-   Fraiseuse de table : 5⬡/min (par tranche de 5 minutes)
-   Découpes Vinyle : 60⬡/h (par tranche de 10 minutes et avec consommable simple)
-   Découpe à fil chaud :  50⬡/h (par tranche de 10 minutes et avec consommable simple)
-   Marquage :  Tarif à voir en fonction dépend du consommable
-   Prototypage électronique : Gratuit pour les adhérents
-   Outillage Conventionnel de bureautique : Gratuit pour les adhérents
+| Machine | Tarif |
+|---|---|
+| Imprimante 3D | 100 ⬡/h (par tranche de 10 min, consommable simple inclus) |
+| Découpeuse laser | 10 ⬡/min (par tranche de 5 min) |
+| Fraiseuse de table | 5 ⬡/min (par tranche de 5 min) |
+| Découpeuse vinyle | 60 ⬡/h (par tranche de 10 min, consommable simple inclus) |
+| Découpeuse à fil chaud | 50 ⬡/h (par tranche de 10 min, consommable simple inclus) |
+| Marquage | Tarif variable selon le consommable |
+| Prototypage électronique | Gratuit pour les adhérents |
+| Outillage conventionnel et bureautique | Gratuit pour les adhérents |
 
-```
+Coût des ateliers de formation :
 
-Coût atelier de formation :
+| Atelier | Tarif |
+|---|---|
+| Atelier d'initiation de 2 h | 50 ⬡ |
+| Atelier de formation | 400 ⬡/0,5 j |
 
-```
-   Atelier d'initiation de 2h : 50⬡
-   Atelier de formation : 400⬡/0.5j
-
-```
-
-### Protocole d’échange
+### Protocole d'échange
 
 [http://nutsbank.herokuapp.com/makers/sign_in](http://nutsbank.herokuapp.com/makers/sign_in)

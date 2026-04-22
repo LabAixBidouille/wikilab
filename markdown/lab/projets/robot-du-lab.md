@@ -1,67 +1,52 @@
-# Catégorie:RobotDuLAB
+# RobotDuLAB
 
-Sommaire
+### Présentation
 
-1 Présentation du projet
-2 Constitution du robot
+RobotDuLAB est un robot éducatif conçu au LAB pour l'apprentissage de la programmation en classe, du primaire au lycée.
 
-2.1 Châssis
-2.2 Châssis de RobotDuLAB Découpé au Laser
-2.3 Électronique
-2.4 Programmes
+- Toutes les pièces mécaniques sont imprimables en 3D (fichiers .stl fournis)
+- Électronique basée sur Arduino
+- Projet libre (copiable, modifiable) et évolutif
 
-3 Téléchargements
+En primaire, des plots au format LEGO permettent de personnaliser le robot et d'aborder le code de manière ludique. En collège et lycée, le robot sert de support pour le travail en équipes projets : conception, réalisation, expérimentation.
 
-Présentation du projet
+La programmation se fait par assemblage de blocs via [Blockly](http://robotdulab.labaixbidouille.com/). Le code Arduino est généré automatiquement et téléchargé dans le robot depuis le PC.
 
-Un robot pour apprendre à programmer en classe 
+### Constitution du robot
 
- Utilisable en écoles primaires, collèges et lycées 
- Toutes les pièces mécaniques sont imprimables (impression 3D – fichiers .stl fournis) 
- Partie électronique basée sur une carte de prototypage « arduino » 
- Libre (copiable, modifiable) et évolutif (de nombreuses options possibles) 
+- **Châssis** avec roulette à bille (imprimé en 3D ou découpé au laser)
+- Deux **roues** montées sur des **servomoteurs** à rotation continue
+- Carte **Arduino** (Uno ou Nano)
+- **Capteur ultrason** HC-SR04 pour la détection d'obstacles
 
-RoboduLAB, permet une approche ludique de l’apprentissage du code à l’école primaire, des plots  au format lego permettent de personnaliser le robot.
- 
+### Options
 
-En collège et en lycée RoboduLAB est un support de thème très riche pour le travail en équipes projets : conception, réalisation, expérimentation. 
+Le modèle de base peut être enrichi avec :
+- LED RGB ou NeoPixel Ring
+- Suivi de ligne (capteurs infrarouges au sol)
+- Module WiFi (contrôle à distance)
+- Détection des vides (capteurs IR vers le bas, pour éviter les bords de table)
+- Module son MP3 (DFPlayer Mini)
 
-La programmation se fait par assemblage de blocs. Le code arduino est produit automatiquement. Il suffit ensuite de télécharger le code produit dans le robot depuis le PC.
+### Châssis
 
- 
+Deux versions :
+- **Imprimé en 3D** : fichiers .stl fournis, compatible avec toute imprimante FDM
+- **Découpé au laser** : plans 2D pour MDF ou contreplaqué
 
-Pour programmer le robot avec blokly il faut se connecter à la page : http://robotdulab.labaixbidouille.com/
+### Électronique
 
-Constitution du robot
-RoboduLAB est constitué d'un châssis avec une roulette à bille, de deux roues montées sur des servomoteurs qui sont commandés par une carte de prototypage arduino et d'un capteur à ultrasons.
+La carte Arduino pilote :
+- 2 servomoteurs à rotation continue
+- 1 capteur ultrason HC-SR04
+- En option : LEDs, capteurs de ligne, module WiFi, module son
 
-Il sera possible de rajouter différentes options au modèle de base :
+### Programmation
 
- LED RGB, ou NeoPixel Ring
- suivi de ligne, 
- module WIFI, 
- détection des vides, 
- sons (MP3), 
- …
-Châssis
-Châssis de RobotDuLAB Découpé au Laser
-Électronique
-Programmes
-Téléchargements
+Deux modes :
+- **Blockly** (visuel) : via l'interface [robotdulab.labaixbidouille.com](http://robotdulab.labaixbidouille.com/), les élèves assemblent des blocs logiques convertis automatiquement en code Arduino
+- **Arduino IDE** (code) : programmation directe en C/C++ pour les élèves plus avancés
 
-Pages dans la catégorie « RobotDuLAB »
-Cette catégorie contient 7 pages, dont les 7 ci-dessous.
-C
-Châssis de RobotDuLAB
-Châssis de RobotDuLAB Découpé au Laser
-Code arduino : démonstration du fonctionnement du robot en mode autonomeP
-Programmation du robot en langage graphique (Blokly)
-Programmes d'exemple de RobotDuLABT
-Téléchargements des fichiers de RobotDuLABÉ
-Électronique de RobotDuLAB
+### Téléchargements
 
-Pages dans cette catégorie :
-- Châssis de RobotDuLAB
-- Châssis de RobotDuLAB Découpé au Laser
-- Code arduino : démonstration du fonctionnement du robot en mode autonome
-
+Les fichiers du projet (châssis 3D, plans laser, code Arduino, exemples Blockly) sont disponibles sur la page du projet.

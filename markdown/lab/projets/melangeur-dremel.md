@@ -1,24 +1,33 @@
-# Melangeur pour Dremel
+# Mélangeur pour Dremel
 
 ### Présentation
 
-Pour mélanger la peinture quoi de mieux qu'un mélangeur ... Dans le commerce, il est vendu des mélangeurs pour perceuse ... mais je n'ai pas trouvé de mélangeur pour dremel permettant de melanger la peinture pour aérographe.
-
-Aller hop ! sketchup !
+Les mélangeurs pour perceuse existent dans le commerce, mais pas en version adaptée à une Dremel — or c'est l'outil idéal pour mélanger la peinture dans les petits pots d'aérographe. La solution : concevoir et imprimer la pièce en 3D.
 
 ### Matériel
 
-- Imprimante 3D.
+- Imprimante 3D (FDM)
+- Dremel ou outil rotatif équivalent
+- Filament PLA
 
-### Logiciels
-
-#### 3D
+### Conception
 
 [MelangeurDremel.jpg]
 
-Pour la modélisation 3D, j’ai utilisé Sketchup dans lequel j’ai modélisé l'hélice.
+La pièce a été modélisée dans **SketchUp** : une hélice de mélange dont la tige s'insère dans le mandrin de la Dremel.
 
-Ensuite, un petit export STL, un coup de Cura et hop on lance l'impression.
+Contraintes de conception :
+- Diamètre de la tige compatible avec le mandrin Dremel (typiquement 3,2 mm)
+- Hélice suffisamment petite pour entrer dans un pot de peinture pour aérographe
+- Forme pensée pour brasser efficacement sans éclabousser
+
+### Fabrication
+
+1. **Modélisation** : design de l'hélice dans SketchUp
+2. **Export** : format STL
+3. **Tranchage** : import dans Cura, orientation de la pièce pour minimiser les supports
+4. **Impression** : PLA, remplissage élevé (80-100 %) pour résister aux contraintes en rotation
+5. **Finition** : ébavurage si nécessaire, test d'insertion dans le mandrin
 
 ### Résultat
 

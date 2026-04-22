@@ -1,146 +1,104 @@
-# Kit pédagogique pour STM32 Iot node
+# Kit pédagogique pour STM32 IoT Node
 
 Fichier:Logo-fablab.png
 ### Présentation
 
-A partir d’une carte STM32 IoT node et de composants grove seeed, nous allons créer un kit d’utilisation à visée pédagogique dans le but de faciliter l’utilisation et la compréhension de la carte lors de TP.
+À partir d'une carte STM32 IoT Node et de composants Grove Seeed, nous avons conçu un kit pédagogique destiné à faciliter l'utilisation et la compréhension de la carte lors de travaux pratiques.
 
-Il s'agit d'un coffret permettant la disposition fixe de composants électroniques afin de préparer des TP autour de la carte STM32 Iot node conçue pour une utilisation en milieu scolaire.
+Il s'agit d'un coffret permettant la disposition fixe de composants électroniques, pensé pour préparer des TP autour de la carte STM32 IoT Node dans un contexte scolaire.
 
 [BoxST2.png]
 
 ### Description
 
-Séparée en plusieurs compartiments, le kit contient un emplacement pour l'ensemble carte/shield, un autre pour la breadboard, un emplacement conçu pour un écran LCD grove, une partie destinée au rangement des composants ainsi qu'un espace de manipulation personnalisable selon les différents besoins des TP grâce à un pattern prédéfini compatible avec une grande majorité des composants grove.
+Le kit est divisé en plusieurs compartiments : un emplacement pour l'ensemble carte/shield, un autre pour la breadboard, un espace dédié à un écran LCD Grove, une zone de rangement des composants, ainsi qu'une surface de manipulation personnalisable selon les besoins de chaque TP. Cette dernière repose sur un motif prédéfini compatible avec la grande majorité des composants Grove.
 Média:patternST.pdf
 
 [DessusST.png]
 
 ### Matériel
 
-#### les machines nécessaires
+#### Machines nécessaires
 
-```
- -une découpeuse laser
- -une imprimante 3D
- -une découpeuse vinyle
+- Une découpeuse laser
+- Une imprimante 3D
+- Une découpeuse vinyle
 
-```
+#### Fournitures
 
-#### les fournitures
+- Plaque de 3 mm d'épaisseur (PMMA, PVC, MDF, bois, etc.)
+- Feuilles vinyle autocollantes (pour les stickers)
+- Kit de visserie M2 et M3 (pour la fixation de la carte uniquement)
 
-```
- -plaque de 3mm d'épaisseur de matière première (PMMA,PVC,MDF,Bois...)
- -feuilles vinyle (pour stickers)
- -kit visserie M2 et M3(pour fixer la carte uniquement)
+#### Composants électroniques
 
-```
-
-#### les composants électroniques
-
-```
- -une carte STM32 Iot node
- -un shield grove
- -une breadboard
- -des cables grove
- -des composants grove selon le TP
- -petits composants électronique (résistances, DEL, cables...)
-
-```
+- Une carte STM32 IoT Node
+- Un shield Grove
+- Une breadboard
+- Des câbles Grove
+- Des composants Grove adaptés au TP
+- Des petits composants électroniques (résistances, DEL, câbles, etc.)
 
 ### Logiciels
 
-```
- -un logiciel de création graphique (illustrator,inkscape...)
- -un logiciel éditant des fichiers .STL pour imprimante 3D
-
-```
+- Un logiciel de création graphique (Illustrator, Inkscape, etc.)
+- Un logiciel capable d'éditer des fichiers .STL pour imprimante 3D
 
 ### Fabrication
 
-#### découpe
+#### Découpe
 
-```
--Commencez par découper, à la découpeuse laser, la plaque de 3mm d’épaisseur en utilisant le fichier .SVG suivant.
- Média:KitSTM32.svg
--Vous pouvez modifier la plateforme de manipulation selon les besoins de votre TP grâce au pattern fournis précédemment.
- [DécoupeST.jpg]
+Commencez par découper la plaque de 3 mm d'épaisseur à la découpeuse laser en utilisant le fichier .SVG suivant.
+Média:KitSTM32.svg
 
-```
+La plateforme de manipulation peut être adaptée selon les besoins de votre TP grâce au motif fourni précédemment.
+
+[DécoupeST.jpg]
 
 #### Montage
 
-```
--Collez ensuite les différentes parties du Kit en suivant la notice de montage suivante.
-
-```
+Collez ensuite les différentes parties du kit en suivant la notice de montage ci-dessous.
 
 Fichier:MontageST2.pdf
 
-```
 [MontageST2.jpg]
 
-```
-
-photo du montage du kit MDF:
+Photo du montage du kit en MDF :
 
 [CollageST.jpg]
 
-#### Impression3D
+#### Impression 3D
 
-```
--Les boutons de commande de la carte n'étant plus accessibles, il faut imprimer des rallonges à l'aide de l’imprimante 3D.
- Disponible sous l’appellation bouton dans ce lien. [https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)
-
-```
+Les boutons de commande de la carte n'étant plus accessibles une fois le kit assemblé, il est nécessaire d'imprimer des rallonges à l'aide de l'imprimante 3D. Le fichier correspondant est disponible sous l'appellation "bouton" dans le dépôt suivant : [https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)
 
 #### Stickers
 
-```
--Pour créer les stickers, découpez avec la découpeuse vinyle dans des feuilles autocollantes de couleurs le fichier suivant.
- media:STMstick.svg
-
-```
+Pour réaliser les stickers, découpez les motifs dans des feuilles autocollantes de couleur à l'aide de la découpeuse vinyle, en utilisant le fichier suivant.
+media:STMstick.svg
 
 [STMstick.svg]
 
 #### Assemblage
 
-```
--Il ne vous reste plus qu'à assembler les différents composants nécessaires au fonctionnement du Kit grâce au vis et écroux M2.
- (ne pas oublier de monter la carte STM32 avec les entretoises découpées précédemment au laser pour surélever la carte)
- [Assemblage3ST.jpg]
+Assemblez les différents composants nécessaires au fonctionnement du kit à l'aide des vis et écrous M2. N'oubliez pas de monter la carte STM32 sur les entretoises découpées précédemment au laser, afin de la surélever.
 
-```
+[Assemblage3ST.jpg]
 
 #### Câblage
 
-```
--Pour faciliter l'utilisation du Kit et le changement de plaques de TP, le câblage doit s'effectuer en suivant les inscriptions gravées
- sur la plaque permettant le passage des câbles grove 4 pin. Les emplacements prédéfinis permettent une disposition optimale pour
- ne pas déranger l'utilisation des différentes fonctions de la carte, ainsi chaque câbles restant branchés sur le shield, il suffira
- de modifier le composant sur la sortie désirée pour créer un nouveaux TP.
+Pour faciliter l'utilisation du kit et le changement de plaques de TP, le câblage doit suivre les inscriptions gravées sur la plaque prévue pour le passage des câbles Grove 4 broches. Les emplacements prédéfinis assurent une disposition optimale qui ne gêne pas l'accès aux différentes fonctions de la carte. Chaque câble restant branché sur le shield, il suffit de remplacer le composant sur la sortie souhaitée pour configurer un nouveau TP.
 
-```
+### Perspectives
 
-### Dans l'avenir
-
-- Dans l'avenir, nous pourrions envisager différentes dimensions pour le kit en fonction des besoins des différents professeurs.
-
-- Nous pourrions également préparer des plaques de TP afin de faciliter la tâche des professeurs.
+- Proposer différentes dimensions de kit en fonction des besoins des enseignants.
+- Préparer des plaques de TP prêtes à l'emploi afin de simplifier le travail de préparation des enseignants.
 
 ### Liens
 
-#### composants
+#### Composants
 
-```
-    [http://wiki.seeedstudio.com/Grove_System/](http://wiki.seeedstudio.com/Grove_System/)
+[http://wiki.seeedstudio.com/Grove_System/](http://wiki.seeedstudio.com/Grove_System/)
 
-```
+#### Fichiers
 
-#### fichiers
-
-```
-    [https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)
-
-```
+[https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)

@@ -1,44 +1,49 @@
-# Harpe Laser Midi
+# Harpe Laser MIDI
 
 [Kinharpe3.jpg]
 ### Présentation
 
-Ce projet a pour but de créer une harpe laser qui se comportera comme un clavier Midi. L'objectif final est
-de faire une démonstration lors de la conférence [Devoxx](http://www.devoxx.fr/) qui aura lieu à Paris du 16
-au 18 Avril 2014.
+Ce projet vise à construire une harpe laser fonctionnant comme un clavier MIDI. Il a été développé en vue d'une démonstration lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris, du 16 au 18 avril 2014.
 
-Le rêve serait d'être capable de faire une démonstration équivalent à celle de [Greig Stewart](http://www.thereminhero.com/) :
+L'inspiration : la performance de [Greig Stewart](http://www.thereminhero.com/), dont le niveau reste un objectif à atteindre.
 
-Pour l'instant on en est encore loin mais ça avance ;)
+Le premier prototype est une version monocorde (une seule corde laser).
 
-Voici une première avancé du projet : un version monocorde
+### Principe de fonctionnement
+
+Des faisceaux laser matérialisent les « cordes » de la harpe. En face de chaque laser, une photorésistance (LDR) capte la lumière. Quand le musicien passe la main à travers un faisceau, la photorésistance détecte la chute de luminosité et l'Arduino envoie une note MIDI correspondante.
+
+Le shield MIDI convertit les commandes de l'Arduino en messages MIDI standard (Note On / Note Off), transmis à un synthétiseur, un logiciel ou un instrument virtuel.
+
+Le shield Motor Stepper contrôle l'orientation des lasers pour aligner chaque faisceau avec sa photorésistance.
 
 ### Matériel
 
 - Arduino Uno
-- Shield Sparkfun midi
+- Shield Sparkfun MIDI
 - Shield Motor Stepper
-- une résistance de 10kohm et une photorésistance pour le capteur
-- une diode laser verte 532nm de 5mW
+- Résistance de 10 kΩ et photorésistance (LDR) pour le capteur
+- Diode laser verte 532 nm, 5 mW
 
 ### Logiciels
 
-Vous l'aurez deviné, ici on va parler du soft si il y en a :)
+- **IDE Arduino** : programmation du microcontrôleur
+- **Langage** : C/C++ Arduino
+- **Bibliothèque MIDI** : envoi des messages MIDI depuis l'Arduino
 
 #### Architecture
 
-#### Languages
+L'Arduino lit en boucle l'état de chaque photorésistance. Quand la valeur descend sous un seuil (faisceau coupé), il envoie un message « Note On » via le shield MIDI. Quand la lumière revient (main retirée), il envoie un « Note Off ». Chaque capteur est associé à une note différente.
 
 ### Évolutions possibles
 
-Que peut-on faire de plus une fois la 1ère version réalisée ?
+- Paramétrage des notes via un écran LCD
+- Passage à plusieurs cordes (multiplexage des capteurs et lasers)
+- Contrôle de vélocité (en mesurant la vitesse de coupure du faisceau)
+- Lasers RGB pour un rendu visuel plus spectaculaire
 
-- Paramètrage des notes avec un écran LCD
+### Bibliographie
 
-### Bilbiographie
-
-- pourquoi pas
-
-- une liste
-
-- de liens
+- [Greig Stewart — The Theremin Hero](http://www.thereminhero.com/)
+- [Devoxx France](http://www.devoxx.fr/)
+- [Sparkfun MIDI Shield](https://www.sparkfun.com/products/12898)

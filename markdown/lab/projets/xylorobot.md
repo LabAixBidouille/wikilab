@@ -3,55 +3,46 @@
 [XyloRobot.jpg]
 ### Présentation
 
-Ce projet a pour but de créer un glockenspiel à commande numérique, en partant du [Kit](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/) de [MakeBlock](http://www.makeblock.cc/). L'objectif final était
-de faire une démonstration lors de la conférence [Devoxx](http://www.devoxx.fr/) qui a eu lieu à Paris du 16
-au 18 Avril 2014. La démonstration a été un succès, il se poursuit dans une évolution pour corriger les défaut du système d'origine.
+XyloRobot est un glockenspiel à commande numérique, construit à partir du [Kit Music Robot v2.0](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/) de [MakeBlock](http://www.makeblock.cc/). Le projet a été présenté lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris du 16 au 18 avril 2014. La démonstration a été un succès ; le projet se poursuit pour corriger les défauts du système d'origine.
 
 ### Matériel
 
-- Kit Music Robot
+- Kit Music Robot v2.0 de MakeBlock (châssis aluminium, servomoteurs, glockenspiel, carte de contrôle)
 
 ### Logiciels
 
-Logiciel Music Robot 2.0
+- **Music Robot 2.0** : logiciel PC fourni avec le kit, permettant de programmer des séquences de notes et de les envoyer au robot via liaison série
+- **XyloRobot** : programme embarqué de remplacement développé au LAB, corrigeant les problèmes de timing — [dépôt GitHub](https://github.com/FraDiavolo7/XyloRobot)
 
 #### Architecture
 
-#### Languages
+Le système comporte deux parties :
+- **Logiciel PC** : interface de saisie d'une partition (notes et durées), envoyée au robot via USB/série.
+- **Programme embarqué** (Arduino/MakeBlock) : réception des commandes et pilotage des servomoteurs pour positionner le marteau sur la bonne lame et frapper.
+
+#### Langage
+
+- C/C++ Arduino pour le programme embarqué
 
 ### Problèmes connus
 
-L'instrument se comporte assez bien tant qu'il ne s'agit pas de jouer une musique trop complexe. Les causes en sont :
+L'instrument fonctionne correctement pour des morceaux simples, mais montre ses limites sur des partitions complexes. Causes identifiées :
 
-```
-- Pas de gestion de temps dans le programme embarqué
-- Clavier partiellement en japonais sur le logiciel sur PC.
-- Programme embarqué intégralement commandé par le logiciel sur PC.
-
-```
+- Pas de gestion du temps dans le programme embarqué d'origine : chaque note prend un temps variable selon la distance de déplacement du marteau
+- Interface PC partiellement en japonais
+- Le programme embarqué dépend entièrement du logiciel PC (aucune autonomie)
 
 ### Évolutions en cours
 
-L'évolution en cours est pour améliorer le programme embarqué pour faire en sorte que chaque note prenne le même temps à être jouée (durée entre le début de la sélection de la note et la fin de la frappe)
-
-#### Travaux en cours
-
-Remplacement du programme embarqué standard (MusicRobot sur git) par XyloRobot
+Le programme embarqué d'origine (MusicRobot) est en cours de remplacement par XyloRobot, qui gère le timing de manière autonome : chaque note prend le même temps, quelle que soit la distance de déplacement du marteau.
 
 ### Évolutions possibles
 
-Transformation pour adapter à du MIDI.
-Multiplication des marteaux
+- Adaptation au protocole MIDI standard (en remplacement du protocole propriétaire MakeBlock)
+- Multiplication des marteaux pour jouer des accords ou des trilles rapides
 
-### Bilbiographie
+### Bibliographie
 
-- pourquoi pas
-
-- une liste
-
-- de liens
-
-### Liens externes
-
-[Kit Music Robot chez MakeBlock](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/)
-[Dépôt GitHub](https://github.com/FraDiavolo7/XyloRobot)
+- [Kit Music Robot — MakeBlock](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/)
+- [Dépôt GitHub XyloRobot](https://github.com/FraDiavolo7/XyloRobot)
+- [Devoxx France](http://www.devoxx.fr/)

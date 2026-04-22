@@ -3,83 +3,68 @@
 [LXminiTop.JPG]
 ### Présentation
 
-Un système Hifi de très haute qualité, sans compromis, reposant sur la bidouille, c'est possible!
+Ce projet vise à construire un système HiFi de très haute qualité, entièrement en DIY, avec une chaîne 100 % numérique du serveur de musique jusqu'aux amplificateurs.
 
-J'ai toujours été intéressé par la Hifi. J'ai construit quelques enceintes, amplis, monté un DAC. J'aime les solutions décalées, qui explorent des voies non conventionnelles pour de très hautes performances dans un domaine précis. J'ai essayé de me soigner, mais j'ai replongé cette année.
+Le point de départ est la convergence de trois découvertes :
 
-Ma rechute a été déclenchée par le découverte de trois trucs:
+- Les enceintes **LXmini**, conçues par Siegfried Linkwitz (inventeur des filtres Linkwitz-Riley). Elles promettent une restitution exceptionnelle de la scène sonore et sont réalisables soi-même. Le [site de Linkwitz](http://www.linkwitzlab.com/LXmini/Introduction.htm) est une mine de connaissances sur les principes acoustiques. Le dossier de réalisation est payant mais en vaut le prix.
 
-- des enceintes conçues par un grand nom de l'acoustique, possibles à construire soi-même, et promettant une excellente restitution de la scène sonore. Un truc que je recherche depuis longtemps sans avoir réussi à l'atteindre. Le designer: Siegfried Linkwitz (les filtres Linkwitz Riley; LR). Les enceintes: les LXmini [LXmini](http://www.linkwitzlab.com/LXmini/Introduction.htm). Le site internet est une mine de connaissances et Siegfried développe tant les bases pour la restitution sonore que les principes du design de chacune de ces enceintes. Ce n'est pas de l'open source car il faut acheter le dossier de réalisation, mais je pense que ça vaut le prix demandé.
+- La possibilité de remplacer les filtres passifs des enceintes par du **traitement numérique du signal** (filtrage, égalisation, retards). Plus besoin de composants ésotériques ni de discussions sans fin sur les condensateurs. Le tout peut tourner sur une Raspberry Pi avec des outils open source ([HOWTO](http://rtaylor.sites.tru.ca/2013/06/25/digital-crossovereq-with-open-source-software-howto/)).
 
-- plus besoin de filtres passifs dans les enceintes! On peut remplacer par du traitement du signal: filtre, égalisation, retards... Plus de composants ésotériques (condensateurs NOS papier/bain d'huile ou pire) et de discussions sans fin à leur sujet... Et ça peut même se faire avec des outils open source sur une Raspberry Pi ou équivalent comme ici [Digital Crossover/EQ with Open-Source Software: HOWTO](http://rtaylor.sites.tru.ca/2013/06/25/digital-crossovereq-with-open-source-software-howto/)
+- Les amplificateurs **classe D Full Digital** (FDA), qui atteignent des niveaux de performance remarquables pour un coût modeste ([Derrière le micro exactement](http://audiolalies.blogspot.fr/2015/03/derriere-le-micro-exactement.html#!/2015/03/derriere-le-micro-exactement.html), [FX Audio D802](http://www.audiophile-magazine.com/autour-des-1000-et-moins/fx-audio-d802/)).
 
-- une "nouvelle" génération d'amplificateurs Classe D Full Digital Amplifiers (FDA), qui semble atteindre des niveaux de performances inédits pour le coût et font beaucoup discuter: [Derrière le micro exactement ](http://audiolalies.blogspot.fr/2015/03/derriere-le-micro-exactement.html#!/2015/03/derriere-le-micro-exactement.html), [FX Audio D802](http://www.audiophile-magazine.com/autour-des-1000-et-moins/fx-audio-d802/)
+Le fil rouge du projet : [David 3, Goliath 0](http://audiolalies.blogspot.fr/2016/03/tribune-libre.html#!/2016/03/tribune-libre.html).
 
-Un fil rouge: l'idée développée ici [David 3, Goliath 0](http://audiolalies.blogspot.fr/2016/03/tribune-libre.html#!/2016/03/tribune-libre.html)
+### Architecture du système
 
-Donc, voici le projet:
+- **Serveur de musique** : un OrangePi SBC sous Linux avec MPD (Music Player Daemon), un disque dur externe et une sortie audio USB. La commande se fait depuis un client MPD sur téléphone, tablette ou PC.
 
-- une chaine 100% digitale du serveur de musique jusqu'à l'ampli,
+- **Carte Nucleo STM32F746** : cœur du système.
+  - Réception du flux audio en USB asynchrone. La carte Nucleo impose son horloge, ce qui limite le jitter habituellement lié aux SBC.
+  - Traitement DSP : filtrage, égalisation et séparation en 4 voies à partir du flux stéréo.
+  - Sortie des 4 flux en SPDIF (l'I2S serait préférable, mais les amplis actuels ne l'acceptent pas).
 
-- le serveur de musique: un OrangePi SBC sous Linux avec MPD (Music Player Daemon) sur le réseau, avec un HDD externe et sortie audio en USB. On commande MPD à partir d'un client MPD sur téléphone/tablette Android ou iOS, ou sur PC fixe,
+- **Amplification** : deux amplis FX-Audio D802.
 
-- une carte Nucleo Stm32 est le coeur du système:
-- réception du flux Audio en USB, avec un feedback sur le flux requis du fait de la différence d'horloge entre le PC et le stm32 (USB Asynchrone). De ce fait, la carte Nucleo est ma maîtresse du temps et permet de limiter le jitter souvent lié aux horloges moins précises des SBC,
-
-- traitement DSP pour le filtrage, l'égalisation et la préparation des 4 voies à partir du flux stéréo,
-
-- sortie synchronisée des 4 flux vers en signal digital SPDIF (I2S serait mieux, mais pas accepté par mes amplis),
-
-- les enceintes LXmini.
+- **Enceintes** : LXmini de Siegfried Linkwitz.
 
 ### Photos
 
-Les enceintes:
+Les enceintes :
 
 [LXmini.JPG]
 
 [LXminiLateral.JPG]
 
-La carte Nucleo Stm32 avec les sorties SPDIF:
+La carte Nucleo STM32 avec les sorties SPDIF :
 
 [NucleoStm32F7.JPG]
 
-Les amplis:
+Les amplis :
 
 [FXAudioD802OrangePi.JPG]
 
-La carte Nucleo Stm32F746 avec les sorties SPDIF provisoires:
-
-=> Ajouter photo
-
 ### Matériel
 
-Décrivez le matériel nécessaire :
-
-- Matériels et plans pour construire les enceintes LXmini
-
-- Carte Nucleo stm32F746
-
+- Matériels et plans pour la construction des enceintes LXmini
+- Carte Nucleo STM32F746
 - Deux amplis FX-Audio D802
 
 ### Logiciels
 
-Serveur musique: Linux/Armbian + MPD
+- Serveur musique : Linux/Armbian + MPD
+- DSP : code C embarqué sur la carte Nucleo
 
-DSP: C
+Le code source est sur GitHub : [F7USBAudio](https://github.com/jmf13/F7USBAudio)
 
-Le code est sur Github: [F7USBAudio](https://github.com/jmf13/F7USBAudio)
-
-Et un wiki pour collecter les informations au cours du développement sur la carte Nucleo:  [Wiki](https://github.com/jmf13/Const_DSP_I2S_DAC/wiki)
+Un wiki rassemble les informations de développement : [Wiki](https://github.com/jmf13/Const_DSP_I2S_DAC/wiki)
 
 ### Évolutions possibles
 
-- mise en boite avec le serveur sur OrangePi et le disque dur
+- Mise en boîtier intégrant le serveur OrangePi et le disque dur
+- Horloge dédiée pour la partie audio du STM32 (meilleure précision, support des familles 48k et 44.1k)
+- Ampli sur base STA326 alimenté directement en I2S pour supprimer la conversion SPDIF
 
-- horloge dédiée pour la partie audio du Stm32 (amélioration de la précision + familles 48k et 44.1k)
+### Bibliographie
 
-- ampli "dépouillé"sur base STA326 alimenté en I2S au lieu de passer par SPDIF
-
-### Bilbiographie
-
-Voir [Wiki](https://github.com/jmf13/Const_DSP_I2S_DAC/wiki)
+- [Wiki du projet](https://github.com/jmf13/Const_DSP_I2S_DAC/wiki)

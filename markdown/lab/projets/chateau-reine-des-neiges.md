@@ -1,54 +1,47 @@
-# Chateau de la reine des neiges
+# Château de la Reine des Neiges
 
 ### Présentation
 
-Ce projet a été inspiré par ce château vendu dans le commerce environ 120€.
+Ce projet reproduit en découpe laser un château inspiré d'un modèle vendu dans le commerce à environ 120 €.
 
 [InspirationRDN.jpg]
 
 ### Matériel
 
-- Planches de MDF 3mm.
-
-- Planches de MDF 6mm.
-
+- Planches de MDF 3 mm
+- Planches de MDF 6 mm
 - Feuilles autocollantes A3
-
 - Feuilles autocollantes A4
 
 ### Coût
 
-- 20€ de bois
+- 20 € de bois
+- ~10 € de peinture
+- 30 € de feuilles autocollantes
 
-- ~10€ de peinture
-
-- 30€ de feuilles autocollantes
+Le modèle 3D est adaptable : il est possible de modifier les dimensions selon les matériaux disponibles.
 
 ### Logiciels
 
-#### 3D
+#### Modélisation 3D
 
 [Chateau full 3D.jpg]
 
-Pour la modélisation 3D, j’ai utilisé Sketchup dans lequel j’ai modélisé toutes les petites pièces.
+Toutes les pièces ont été modélisées dans SketchUp. La structure a ensuite été aplanie pour permettre l'export en 2D au format .eps.
 
-Ensuite, j’ai aplanis la structure pour pouvoir l’exporter en 2D, (format .eps).
-
-#### 2D
+#### Préparation 2D
 
 [Chateau full 2D.jpg]
 
-N’importe quel logiciel de dessin vectoriel fait l’affaire pour transformer les contours à découper en rouge, et les gravures en noir.
+N'importe quel logiciel de dessin vectoriel convient pour préparer le fichier de découpe : contours à découper en rouge, gravures en noir.
 
-Avant la peinture et les stickers :
+### Peinture et finitions
 
 [IMG 7492.JPG]
 
-J'ai ensuite peint chaque pièce avec un aérographe (mais cela peut se faire au pinceau).
+Chaque pièce a été peinte à l'aérographe (le pinceau convient également). Des stickers imprimés sur les feuilles autocollantes reproduisent les motifs du château original.
 
-J'ai imprimer des stickers sur les feuilles autocollantes pour ressembler un peu plus au château original.
-
-Voici un exemple de stickers (je ne peux pas uploader les fichiers complets car 200mo pour le fichier A3 et 59mo pour le fichier A4)
+Exemple de planche de stickers (les fichiers complets ne sont pas téléchargeables : 200 Mo pour le A3, 59 Mo pour le A4) :
 
 [ACP PDF 2 file document.png]
 

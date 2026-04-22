@@ -1,58 +1,48 @@
 # ERICbot
 
-### Dotation matérielle
+### Matériel
 
-Nous disposons d'un Arduino Uno ainsi que d'un châssis de robot composé de pièces imprimées via une imprimante 3D. Le robot est doté de:
+Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. Il est équipé de :
 
-- 2 moteurs
-
+- 2 servomoteurs à rotation continue
 - un interrupteur
-
-- un shield ultra son
-
+- un capteur ultrason HC-SR04
 - 2 roues
-
-- un axe à 360°
-
-- Un bloc de piles
-
-- Un led ring
+- un axe libre à 360°
+- un bloc de piles
+- un anneau de LEDs (NeoPixel Ring)
 
 ### Assemblage
 
-##### L'interrupteur
+#### L'interrupteur
 
-Dans un premier temps, il est nécessaire de fixer l'interrupteur sur la plaque. Ensuite, il faut souder les fils sur les pins de l'interrupteur.
-Ces fils sont, ensuite, à souder sur la connectique du bloc à pile.
+Fixer l'interrupteur sur la plaque, puis souder les fils sur ses broches. Ces fils sont ensuite soudés sur la connectique du bloc de piles.
 
 #### Le bloc de piles
 
-Il est fixé au carter de l'interrupteur avec du scotch double face. Il est relié à la prise d'alimentation de l'Arduino Uno.
+Il est fixé au carter de l'interrupteur avec du scotch double-face et relié à la prise d'alimentation de l'Arduino Uno.
 
 #### L'Arduino Uno
 
 [Robotarduino.jpg]
 
-Il faut fixer l'Arduino Uno sur le châssis. c'est à ce moment là qu'il est nécessaire de câbler le contrôleur à ses périphériques.
-Afin de câbler les moteurs, il faut utiliser des fils mâle-mâle pour assurer la connexion à l'Arduino.
-Cabler la carte Arduino selon les principes du tutoriel [Un moteur qui sait où il va : le servomoteur]
+Fixer l'Arduino Uno sur le châssis, puis câbler le contrôleur à ses périphériques. Les moteurs sont connectés à l'Arduino par des fils mâle-mâle, en suivant le tutoriel [Un moteur qui sait où il va : le servomoteur].
 
-Il est à noter que, dû au fait qu'il n'y ait qu'une seule prise 5V sur l'Arduino Uno, il est nécessaire de démultiplier le 5V en faisant des straps.
+L'Arduino Uno ne dispose que d'une seule sortie 5V : il faut démultiplier l'alimentation en soudant des straps.
 
 #### Les roues
 
-Pour améliorer l'adhérence sur le sol du robot, il est recommandé de coller sur la roue une petite courroie.
+Pour améliorer l'adhérence au sol, coller sur chaque roue un petit élastique ou un morceau de chambre à air.
 
-### Faire avancer et reculer le ERICbot
+### Déplacement avant/arrière
 
-Programmer le code et faire fonctionner les moteurs. Nous nous rendons compte que les roues ne sont pas synchronisées.
-Créer la fonction pour les faire avancer et reculer de manière synchronisées
+En branchant les deux moteurs, on constate que les roues ne sont pas synchronisées. Il faut écrire des fonctions dédiées pour les faire avancer et reculer de manière coordonnée.
 
-### Faire tourner à droite et à gauche le ERICbot
+### Rotation droite/gauche
 
-Programmer le code et faire fonctionner les moteurs.
+Même principe : des fonctions de rotation ne font tourner qu'un seul moteur à la fois.
 
-#### Le code
+#### Code
 
 ```
 #include <Servo.h>
@@ -110,23 +100,25 @@ delay(1500);
 
 ```
 
-### Le shield ultra son
+### Capteur ultrason
 
-Il se trouve à l'avant du robot. Quatre fils le relient à l'Arduino Uno.
-Il y a:
+Le capteur se fixe à l'avant du robot. Quatre fils le relient à l'Arduino :
 
-- 2 digital inputs
+- 2 entrées numériques (trig et echo)
+- alimentation 5V
+- masse (GND)
 
-- du 5v
+Le branchement suit le tutoriel [Mesure de distance - Ultrason].
 
-- une masse
+[]  Les yeux de ERICbot
 
-Se référer au tutoriel [Mesure de distance - Ultrason] afin de réaliser le branchement des capteurs situés à l'avant du ERICbot.
-C'est beau ça fonctionne !!!
+#### Code complet avec évitement d'obstacles et LEDs
 
-[]  Les Yeux de ERICbot
+Ce programme combine la navigation autonome et les effets lumineux sur l'anneau NeoPixel :
 
-#### Le code
+- **Vert** : le robot avance (pas d'obstacle)
+- **Orange** : le robot tourne (obstacle entre 10 et 30 cm)
+- **Rouge** : le robot recule (obstacle à moins de 10 cm)
 
 ```
 #include <Servo.h>
@@ -135,11 +127,11 @@ C'est beau ça fonctionne !!!
 #define N_LEDS 16
 Servo myservoGauche;
 Servo myservoDroite;
-int trig = 7; // broche trig du capteur US HC-SR04
-int echo = 8; // broche echo du capteur US HC-SR04
+int trig = 7;
+int echo = 8;
 int pos = 0;
-long lecture_echo = 0; // variable sur 4 octets mesure de distance
-long cm = 0; // variable sur 4 octets pour la conversion en cm
+long lecture_echo = 0;
+long cm = 0;
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(N_LEDS, PIN, NEO_GRB + NEO_KHZ800);
 void arreter()
 {
@@ -151,10 +143,7 @@ void avancer()
 {
 	myservoGauche.write(0);
 	myservoDroite.write(180);
-	//chase(strip.Color(255, 0, 0)); // Red
 	chase(strip.Color(0, 255, 0)); // Green
-//	chase(strip.Color(0, 0, 255)); // Blue
-//	rainbowCycle(20);
 
 }
 void reculer(int temps)
@@ -167,26 +156,24 @@ void reculer(int temps)
 }
 void tournerGauche()
 {
-	chase(strip.Color(255, 145, 0)); //orange
+	chase(strip.Color(255, 145, 0)); // Orange
 	myservoGauche.write(90);
 	myservoDroite.write(180);
-//	delay(temps);
 	arreter();
 }
 void tournerDroite()
 {
-	chase(strip.Color(255, 145, 0)); //orange
+	chase(strip.Color(255, 145, 0)); // Orange
 	myservoGauche.write(0);
 	myservoDroite.write(90);
-//	delay(temps);
 	arreter();
 }
 static void chase(uint32_t c)
 {
 	for(uint16_t i = 0; i < strip.numPixels() + 4; i++)
 	{
-		strip.setPixelColor(i  , c); // Draw new pixel
-		strip.setPixelColor(i - 4, 0); // Erase pixel a few steps back
+		strip.setPixelColor(i  , c);
+		strip.setPixelColor(i - 4, 0);
 		strip.show();
 		delay(25);
 	}
@@ -194,14 +181,13 @@ static void chase(uint32_t c)
 void rainbowCycle()
 {
 	uint16_t i, j;
-	for(j = 0; j < 256 * 5; j++) // 5 cycles of all colors on wheel
+	for(j = 0; j < 256 * 5; j++)
 	{
 		for(i = 0; i < strip.numPixels(); i++)
 		{
 			strip.setPixelColor(i, Wheel(((i * 256 / strip.numPixels()) + j) & 255));
 		}
 		strip.show();
-		//delay(wait);
 	}
 }
 uint32_t Wheel(byte WheelPos)
@@ -227,22 +213,20 @@ void setup()
 {
 	myservoGauche.attach(2);
 	myservoDroite.attach(4);
-	pinMode(trig, OUTPUT); // la broche trig est initialisée en sortie
-	digitalWrite(trig, LOW); // met un niveau logique , LOW (BAS) sur la broche trig
-	pinMode(echo, INPUT);  // la broche echo est initialisée en entree
-	Serial.begin(115200);  // initialisation de la liaison série à 115200 bauds
+	pinMode(trig, OUTPUT);
+	digitalWrite(trig, LOW);
+	pinMode(echo, INPUT);
+	Serial.begin(115200);
 	strip.begin();
 }
 
 void loop()
 {
-	digitalWrite(trig, HIGH); // met un niveau logique , HIGH (HAUT) sur la broche trig
-	delayMicroseconds(10); // attente pendant 10 millisecondes
-	digitalWrite(trig, LOW);  // met un niveau logique , LOW (BAS) sur la broche trig.
-	lecture_echo = pulseIn(echo, HIGH); //  lit la durée du niveau HAUT appliqué sur la broche echo
-	cm = lecture_echo / 58; // conversion de la distance en cm
-//	Serial.print("Distance en cm : "); // affiche le message : "Distance en cm" sur le moniteur série
-//	Serial.println(cm); // affiche la mesure en cm avec retour à la ligne
+	digitalWrite(trig, HIGH);
+	delayMicroseconds(10);
+	digitalWrite(trig, LOW);
+	lecture_echo = pulseIn(echo, HIGH);
+	cm = lecture_echo / 58;
 	if (cm > 30)
 	{
 		avancer();
@@ -254,7 +238,6 @@ void loop()
 	if (cm < 10)
 	{
 		reculer(1000);
-		//arreter();
 		tournerGauche();
 	}
 	delay(1000);
@@ -262,16 +245,15 @@ void loop()
 
 ```
 
-### Intégration d'un ring Led
+### Intégration de l'anneau de LEDs
 
-Se référer au tutoriel [Sur bandeau de LED].
-Attention il ne s'agit pas du bandeau mais du Ring ce n'est donc pas les mêmes branchements.
-Brancher le 5v au 5V, le Ground au Gnd et le Input à la Pin de votre choix.
-Astuce pour brancher plusieurs 5V : souder des picots entre eux pour faire un pont commun.
+Se référer au tutoriel [Sur bandeau de LED]. Attention : il s'agit d'un anneau (Ring), pas d'un bandeau — le branchement diffère. Connecter le 5V au 5V, le Ground au GND et le Data In à la broche souhaitée.
 
-[]  picots soudés
+Pour brancher plusieurs composants sur le 5V : souder des picots entre eux pour créer un pont commun.
 
-### A savoir
+[]  Picots soudés
 
-1. Penser à avoir en stock des élastiques ou de la chambre pour le bon roulement des roues
-2. Mieux vaut faire les pas de vis à l'impression du socle plutôt que rentrer en force par la suite
+### Conseils pratiques
+
+1. Prévoir des élastiques ou de la chambre à air de rechange pour les roues.
+2. Intégrer les pas de vis directement à l'impression du socle, plutôt que de les forcer après coup.

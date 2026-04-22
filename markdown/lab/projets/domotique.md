@@ -1,6 +1,6 @@
 # Domotique
 
-Le projet "Domotique" du LAB doit nous permettre de construire nos propres "Systèmes domotiques" en utilisant des briques matérielles et logicielles existantes ou conçues au LAB.
+Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes domotiques en utilisant des briques matérielles et logicielles existantes ou conçues au LAB.
 
 ### Principes
 
@@ -8,30 +8,28 @@ Le projet "Domotique" du LAB doit nous permettre de construire nos propres "Syst
 
 #### Protocole MQTT
 
-##### Exemple de mise en œuvre du Protocole MQTT
+##### Exemple de mise en oeuvre du protocole MQTT
 
-Ce premier exemple montre comment mettre en œuvre le protocole MQTT sur un réseau IP :
+Ce premier exemple montre comment mettre en oeuvre le protocole MQTT sur un réseau IP :
 
-- Un premier arduino capte des données et les émet sur le réseau.
-
-- Un second arduino reçoit les données transmises et les affiche.
-
-- Un raspberry pi sert de broker.
+- Un premier Arduino capte des données et les émet sur le réseau.
+- Un second Arduino reçoit les données transmises et les affiche.
+- Un Raspberry Pi sert de broker.
 
 [Montage Démo MQTT]
 
-Broker (Raspberry Pi)
+#### Broker (Raspberry Pi)
 
-Installation de Mosquitto  MQTT broker sur  Raspberry Pi (RP)
+Installation de Mosquitto MQTT broker sur le Raspberry Pi (RP).
 
-Installation Avahi Daemon :
+Installation d'Avahi Daemon :
 
 ```
 sudo apt-get install avahi-daemon avahi-discover libnss-mdns
 
 ```
 
-Installation Mosquiitto MQTT Broker :
+Installation de Mosquitto MQTT Broker :
 
 ```
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
@@ -41,28 +39,28 @@ sudo apt-get install mosquitto-clients
 
 ```
 
-Pour donner une adresse IP (192.168.0.9) au RP (ne sera valable que provisoirement) :
+Pour attribuer une adresse IP temporaire (192.168.0.9) au RP :
 
 ```
 sudo ip addr add 192.168.0.9/24 dev eth0
 
 ```
 
-Pour fixer l’adresse IP statique (sera valable définitivement) :
+Pour fixer une adresse IP statique (permanente) :
 
 ```
 sudo nano /etc/network/interfaces
 
 ```
 
- remplacer :
+Remplacer :
 
 ```
 iface eth0 inet dhcp
 
 ```
 
- par :
+Par :
 
 ```
 iface eth0 inet static
@@ -72,53 +70,48 @@ iface eth0 inet static
 
 ```
 
-Pour vérifier l’adresse IP :
+Pour vérifier l'adresse IP :
 
 ```
 ip addr
 
 ```
 
-Pour visualiser les données dans la console :
+Pour visualiser les données dans la console :
 
 ```
 mosquitto_sub -t "#" -v
 
 ```
 
-Pour prendre la main depuis un PC (avahi daemon doit être installé sur RP) :
+Pour prendre la main à distance depuis un PC (Avahi Daemon doit être installé sur le RP), utiliser PuTTY :
 
- Utiliser PuTTy :
+- Entrer l'adresse IP : 192.168.0.9
+- Login : pi
+- Mot de passe : raspberry
 
- entrer l’adresse IP (192.168.0.9)
+#### Émetteur (Arduino + shield Ethernet + DHT11)
 
- login : pi
+##### Matériel
 
- password : raspberry
-
-Emetteur (arduino + shield Ethernet + DHT 11
-Matériel
 - Arduino Uno
-
 - Shield Ethernet (avec chip W5100)
-
 - Capteur DHT11 ou DHT22
+- Résistance 4,7 kOhm (ou 10 kOhm) 1/4 W (si besoin)
 
-- Résistance 4,7kΩ (ou 10kΩ) 1/4W (si besoin)
-
-Montage
+##### Montage
 
 [Montage DHT11]
 
-Remarque : le shield Ethernet, n'est pas représenté ici.
+Remarque : le shield Ethernet n'est pas représenté ici.
 
-Programme
+##### Programme
 
-Voici le programme qu'il faut éditer dans l'IDE Arduino, puis compiler et charger dans la carte Arduino.
+Voici le programme à éditer dans l'IDE Arduino, puis à compiler et charger dans la carte Arduino.
 
-Il utilise la librairie DHT. Pour télécharger la librairie : [DHT](https://github.com/adafruit/DHT-sensor-library)
+Il utilise la librairie DHT, disponible ici : [DHT](https://github.com/adafruit/DHT-sensor-library)
 
-Il faut également télécharger la librairie MQTTClient : [MQTTClient](https://projects.eclipse.org/projects/technology.paho/downloads)
+Il faut également télécharger la librairie MQTTClient : [MQTTClient](https://projects.eclipse.org/projects/technology.paho/downloads)
 
 ```
 /*******************************************************************************
@@ -255,21 +248,21 @@ void loop()
 
 ```
 
-Récepteur (arduino + shield Ethernet + shield LCD)
-Matériel
+#### Récepteur (Arduino + shield Ethernet + shield LCD)
+
+##### Matériel
+
 - Arduino Uno
-
 - Shield Ethernet (avec chip W5100)
-
 - Shield LCD (DFR0009)
 
-Montage
+##### Montage
 
-Uniquement composé de l'Arduino et des 2 shields
+Le montage est simplement composé de l'Arduino et des deux shields empilés.
 
-Programme
+##### Programme
 
-Voici le programme qu'il faut éditer dans l'IDE Arduino, puis compiler et charger dans la carte Arduino. Il utilise la librairie LiquidCrystal (fournie en standard) .
+Voici le programme à éditer dans l'IDE Arduino, puis à compiler et charger dans la carte Arduino. Il utilise la librairie LiquidCrystal, fournie en standard avec l'IDE.
 
 ```
 /*******************************************************************************

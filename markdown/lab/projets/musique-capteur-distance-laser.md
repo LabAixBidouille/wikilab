@@ -2,21 +2,23 @@
 
 ### Présentation
 
+Ce projet transforme un capteur de distance laser en instrument de musique, sur le principe du thérémine optique. Un capteur VL53L0X mesure en continu la distance de la main placée devant lui et la convertit en fréquence sonore envoyée à un buzzer piézoélectrique. Plus la main est proche, plus le son est aigu ; plus elle s'éloigne, plus le son est grave.
+
+Le résultat est un instrument sans contact, jouable en déplaçant la main au-dessus du capteur, sur une plage d'environ 20 à 300 mm.
+
 ### Matériel
 
-- VL53LOX
-
-- arduino nano
-
-- buzzer
+- Capteur VL53L0X (Time of Flight)
+- Arduino Nano
+- Buzzer piézoélectrique
 
 ### Logiciel
 
-- IDE Adruino
+- IDE Arduino
+- Driver CH340G (nécessaire pour que le PC reconnaisse le port série des clones Arduino Nano chinois)
+- Bibliothèque Adafruit VL53L0X (installable depuis le gestionnaire de bibliothèques Arduino)
 
-- driver à télécharger pour arduino nano "made in china": CH340G
-
-### code Arduino
+### Code Arduino
 
 ```
 #include "Adafruit_VL53L0X.h"
@@ -87,4 +89,20 @@ void loop() {
 
 ```
 
-### Conclusion:
+### Fonctionnement du code
+
+Le programme fonctionne en boucle continue :
+
+1. Le capteur VL53L0X effectue une mesure de distance par temps de vol (Time of Flight) du laser infrarouge.
+2. Si la mesure est valide (pas d'erreur de phase), la distance est bornée à 300 mm.
+3. Cette distance est convertie en délai de demi-période (`delaiBase × (distance - 20)`), qui détermine la fréquence du son.
+4. Le buzzer reçoit 20 oscillations à cette fréquence, produisant un bref son dont la hauteur varie avec la distance.
+5. Si aucun objet n'est détecté, le programme attend 100 ms avant de recommencer.
+
+La constante `delaiBase` (28.4 µs) calibre la plage de fréquences jouables. En la modifiant, on décale l'instrument vers les aigus ou les graves.
+
+### Pistes d'amélioration
+
+- Utiliser la fonction `tone()` d'Arduino pour simplifier la génération de son
+- Ajouter un module audio (DAC ou shield MP3) pour des timbres plus riches
+- Permettre le choix de gammes musicales (pentatonique, chromatique, etc.)

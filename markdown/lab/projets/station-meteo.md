@@ -1,30 +1,28 @@
 # Station Météo
 
-En Chantier ! (projet en cours de réalisation)
+> Ce projet est en cours de réalisation.
 
 ### Description du projet
 
-L'objectif de ce projet est de proposer différentes solutions DIY (Do It Yourself) pour fabriquer une station météo adaptée aux besoins et envies de chacun.
+L'objectif de ce projet est de proposer différentes solutions DIY (Do It Yourself) pour fabriquer une station météo adaptée aux besoins et aux envies de chacun.
 
-Pour cela nous allons expérimenter diverses solutions de capteurs, de communications et de protocoles et les mettre en œuvre pour  construire une station météo modulaire.
+Pour cela, nous expérimentons diverses solutions de capteurs, de communications et de protocoles, que nous mettons en oeuvre pour construire une station météo modulaire.
 
-Les différentes solutions et expérimentations seront présentée dans la rubrique " Éléments du projet ". Certaines de ces solutions seront choisies et agrégées pour fabriquer une station météo performante : " MétéoDuLAB ".
+Les différentes solutions et expérimentations sont présentées dans la rubrique "Éléments du projet". Certaines d'entre elles seront sélectionnées et combinées pour fabriquer une station météo performante : "MétéoDuLAB".
 
 ### Éléments du projet et expérimentations
 
-#### Mesure de la température et du taux d'humidité avec une carte STM32 nucleo 32
+#### Mesure de la température et du taux d'humidité avec une carte STM32 Nucleo 32
 
 ##### Description
 
-Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22 branché sur une carte STM32 Nucleo 32 F303K8 (fonctionne également avec une carte STM32 Nucleo 64 L474RG), et d'afficher le résultat sur un afficheur LCD Nokia 5110.
+Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22 branché sur une carte STM32 Nucleo 32 F303K8 (fonctionne également avec une carte STM32 Nucleo 64 L474RG), puis d'afficher les résultats sur un afficheur LCD Nokia 5110.
 
-La programmation de la carte STM32 Nucleo 32 F303K8 a été faite en utilisant l'IDE Arduino.
+La programmation de la carte STM32 Nucleo 32 F303K8 est réalisée avec l'IDE Arduino.
 
-Liste du matériel
+Liste du matériel :
 - STM32 Nucleo 32 F303K8
-
 - Afficheur LCD Nokia 5110
-
 - Capteur DHT 22
 
 ##### Schéma structurel
@@ -39,7 +37,7 @@ Liste du matériel
 
 ##### Programme
 
-Voici le programme qu'il faut éditer dans l'IDE Arduino, puis compiler et charger dans la carte STM 32 Nucleo 32 F303K8.
+Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte STM32 Nucleo 32 F303K8.
 
 ```
 /*
@@ -79,7 +77,7 @@ SimpleDHT22 dht22;                                  // crée un objet dht22
 void setup() {
 
   pinMode (BL,OUTPUT);
-  analogWrite (BL,128);   // allume moyennement le rétroéclaireg de l'afficheur lcd
+  analogWrite (BL,128);   // allume moyennement le rétroéclairage de l'afficheur lcd
   lcd.setContrast(53);    // réglage du contraste de l'affichage lcd (60 est la valeur par défaut)
   lcd.println("Station Meteo");
   lcd.print("Version 0.0");
@@ -121,32 +119,28 @@ void loop() {
 
 ##### Description
 
-Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22, ainsi que la température externe à l'aide d'un capteur OneWire DS18B20, les capteurs sont branchés sur une carte Wemos D1 Mini (ESP 8266),.
+Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22, ainsi que la température extérieure grâce à un capteur OneWire DS18B20. Les capteurs sont branchés sur une carte Wemos D1 Mini (ESP 8266).
 
-Les valeurs mesurées sont affichées sur un afficheur LCD Nokia 5110, elles seront envoyées en WiFi, lors d'une requête faite par un client (navigateur), la carte D1 Mini se comporte en serveur Web.
+Les valeurs mesurées sont affichées sur un afficheur LCD Nokia 5110 et envoyées en Wi-Fi. Lorsqu'un client (navigateur) effectue une requête, la carte D1 Mini se comporte en serveur web.
 
-Une LED RGB adressable est commandée à distance par le client (navigateur).
+Une LED RGB adressable peut également être commandée à distance depuis le navigateur.
 
-La programmation de la carte Wemos D1 Mini a été faite en utilisant l'IDE Arduino.
+La programmation de la carte Wemos D1 Mini est réalisée avec l'IDE Arduino.
 
-Liste du matériel
+Liste du matériel :
 - ESP D1 Mini
-
 - Afficheur LCD Nokia 5110
-
 - Capteur DHT 22
-
 - Capteur OneWire DS18B20
-
 - LED RGB adressable
 
 ##### Schéma structurel
 
 [Schema structurel D1mini.PNG]
 
-Le régulateur LM7805 permet de fournir l'alimentation 5V nécessaire au fonctionnement de la carte Wemos D1Mini à partir du 9V d'entrée (chargeur).
+Le régulateur LM7805 fournit l'alimentation 5 V nécessaire au fonctionnement de la carte Wemos D1 Mini à partir du 9 V d'entrée (chargeur).
 
-Le transistor NMOS 2N2700 permet d'adapter le signal de sortie (3,3V) de la carte Wemos D1Mini en 5V nécessaire pour la LED RGB adressable.
+Le transistor NMOS 2N2700 adapte le signal de sortie (3,3 V) de la carte Wemos D1 Mini au 5 V requis par la LED RGB adressable.
 
 ##### Montage
 
@@ -154,7 +148,7 @@ Le transistor NMOS 2N2700 permet d'adapter le signal de sortie (3,3V) de la cart
 
 ##### Programme
 
-Voici le programme qu'il faut éditer dans l'IDE Arduino, puis compiler et charger dans la carte D1 mini (ESP 8256).
+Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte D1 Mini (ESP 8266).
 
 ```
 /*
@@ -357,7 +351,7 @@ void setup() {
   LED.setPixelColor(0, LED.Color(40,0,0)); // allume faiblement la Led verte
   LED.show(); // envoie les données vers la Led
   pinMode (BL,OUTPUT);
-  analogWrite (BL,128); // allume moyennement le rétroéclaireg de l'afficheur lcd
+  analogWrite (BL,128); // allume moyennement le rétroéclairage de l'afficheur lcd
   lcd.setContrast(53); // réglage du contraste de l'affichage lcd (60 est la valeur par défaut)
   lcd.println("Station Meteo");
   lcd.print("Version 1.0");
@@ -447,4 +441,4 @@ void loop() {
 
 ```
 
-### Projet final " MétéoDuLAB "
+### Projet final "MétéoDuLAB"
