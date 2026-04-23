@@ -38,9 +38,6 @@ Cette machine utilise un système de filament ouvert, ce qui signifie que vous p
 
 L'Ultimaker 2+ est idéale pour débuter en impression 3D : pièces décoratives, prototypage rapide, boîtiers, supports et petits outils. Sa simplicité d'utilisation et sa robustesse en font la machine parfaite pour un premier apprentissage.
 
-:::warning[**Filament 2.85 mm uniquement**]
-L'Ultimaker 2+ utilise du filament de **2.85 mm de diamètre**, pas du 1.75 mm. Vérifiez le diamètre avant d'acheter ou d'utiliser un filament.
-:::
 
 ## Avant de commencer
 
