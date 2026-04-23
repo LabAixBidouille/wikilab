@@ -2407,22 +2407,6 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     keywords: ['monnaie', 'communauté', 'fablab', 'écrou', 'échange'],
   },
-  {
-    id: 'lab-jeu-strategy',
-    title: 'JeuStrategy',
-    slug: '/ressources/projets-du-lab/jeu-strategy',
-    project: 'projets-du-lab',
-    summary: 'Jeu de stratégie sur plateau avec pièces imprimées en 3D et plateau découpé au laser.',
-    disciplines: ['arts', 'technologie'],
-    tools: ['impression-3d', 'decoupe-laser'],
-    software: [],
-    ageMin: 8,
-    ageMax: 99,
-    durationMinutes: 60,
-    difficulty: 'debutant',
-    formats: ['projet-maker', 'bricolage'],
-    keywords: ['jeu', 'stratégie', 'plateau', 'impression 3d', 'laser'],
-  },
 ];
 
 export const projectLabels: Record<Project, string> = {
