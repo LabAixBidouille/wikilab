@@ -24,7 +24,7 @@
 | JediTrack | 14 + 8 borne arcade | OK | Partiels (pas d'icônes) | Non | `#1198f0` |
 | Robots Meet Arts | 29 | OK | Non | OK | `#169da7` |
 | SteamCity | 25 + 9 fiches prog | OK | Non | OK | `#DD5350` |
-| The Dexter Lab | Non intégré | - | - | - | - |
+| The Dexter Lab | 20 | OK | Non | OK (feuilles travail) | `#1a4a48` |
 | Youth AI Lab | Non intégré | - | - | - | - |
 | I-Novmicro #2 | Non intégré | - | - | - | - |
 | Projets du LAB | Non intégré | - | - | - | - |
@@ -109,6 +109,6 @@ npx docusaurus start --port 3333
 
 - [ ] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
 - [ ] Adapter la couleur du tableau par projet (actuellement hardcodé #09246C)
-- [ ] Intégrer The Dexter Lab, Youth AI Lab, I-Novmicro, Projets du LAB
+- [ ] Intégrer Youth AI Lab, I-Novmicro, Projets du LAB
 - [ ] Git LFS pour les 3 PDFs Unplugged >50MB
 - [ ] Photos pour les fiches JediTrack et Robots Meet Arts
