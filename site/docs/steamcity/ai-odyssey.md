@@ -59,7 +59,33 @@ Une datawalk est une activité stimulante et interactive où les participants ex
 
 Au cours de cette activité, les élèves exploreront leur école ou leur ville afin d'identifier les différents capteurs qui contribuent au traitement des données et soutiennent les systèmes d'IA. Ces capteurs peuvent inclure des caméras, des microphones, des antennes-relais et des trottinettes électriques. De retour en classe, ils analyseront si ces appareils collectent des données personnelles, identifieront leurs propriétaires et exploreront comment ces données peuvent être utilisées par ces derniers.
 
----
+### Structure du protocole
+
+Étape 1 - Phase d'exploration - Développement des connaissances de base sur les usages urbains des capteurs
+La phase d'exploration commence par une préparation en classe, où les élèves recherchent et identifient des capteurs potentiels en milieu urbain. Ils développent leurs connaissances de base en explorant différents types de capteurs, en créant des listes préliminaires et en définissant clairement leurs attentes quant aux découvertes possibles lors de leur promenade. Cette phase pose les bases d'une enquête de terrain réussie.
+
+Étape 2 - Phase d'enquête sur le terrain - Expérience pratique donnant vie aux connaissances théoriques
+Durant cette phase pratique, les élèves explorent activement leur environnement scolaire, leur quartier ou leur ville à travers une exploration de données soigneusement planifiée. Ils documentent et photographient les capteurs précédemment identifiés tout en restant attentifs à la découverte de nouveaux points de collecte de données inattendus. Cette expérience pratique concrétise les connaissances théoriques par l'observation directe.
+
+Étape 3 - Phase d'analyse et de réflexion - Comprendre la collecte de données urbaines
+Cette phase de discussion approfondie en classe consiste à comparer les résultats de terrain aux attentes initiales, à répertorier les nouvelles découvertes et à examiner en détail les applications d'IA associées à chaque capteur découvert. Les élèves travaillent ensemble pour comprendre les implications plus larges de leurs observations et l'interconnexion des systèmes de détection urbains. En conclusion, ils sont encouragés à réfléchir de manière critique aux implications en matière de confidentialité. Ils évaluent l'équilibre entre progrès technologiques et vie privée, en tenant compte de la manière dont ces technologies façonnent leur environnement quotidien et le développement urbain futur.
+
+### Glossaire
+
+- **Capteurs** : Appareils qui détectent et réagissent aux signaux physiques de l'environnement, tels que caméras, microphones, capteurs de température ou détecteurs de mouvement. Ces appareils collectent des données pouvant être traitées par des systèmes d'IA.
+- **Données** : Des informations brutes collectées auprès de diverses sources peuvent être traitées, analysées et utilisées pour prendre des décisions ou fournir des services. Dans les villes intelligentes, cela inclut tout, des relevés de température aux enregistrements vidéo.
+- **Données ouvertes** : Données librement accessibles à tous, utilisables et republiées sans restriction. Dans les villes intelligentes, il s'agit souvent de données publiques sur les transports, l'environnement ou les infrastructures urbaines.
+- **Données personnelles** : Toute information relative à une personne identifiée ou identifiable, telle que des données de localisation, des images faciales ou des modèles de comportement qui peuvent être collectés par des systèmes de détection urbains.
+- **Promenade des données** : Une promenade de données est un moyen interactif pour les parties prenantes de la communauté, y compris les résidents, les chercheurs, les administrateurs de programmes, les responsables du gouvernement local et les prestataires de services, d'engager un dialogue autour des résultats de recherche sur leur communauté.
+- **Service de données** : Également appelé « technologie des données », « service intelligent » ou « solution intelligente ». Service dans une ville intelligente où des données (personnelles) sont collectées ou traitées pour fournir un service à (un groupe spécifique d') utilisateurs ou pour améliorer les services existants.
+- **Systèmes d'IA** : Systèmes informatiques capables d'effectuer des tâches nécessitant généralement l'intelligence humaine, telles que la perception visuelle, la reconnaissance vocale et la prise de décision. En milieu urbain, ces systèmes traitent les données de divers capteurs pour fournir des services ou des informations automatisés.
+- **Ville intelligente** : Une zone urbaine qui utilise différents types de méthodes et de capteurs électroniques pour collecter des données, qui sont utilisées pour gérer efficacement les actifs, les ressources et les services tout en améliorant la qualité de vie des citoyens.
+
+
+:::note
+Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
+:::
+
 
 ## Informations générales
 
@@ -76,51 +102,13 @@ Au cours de cette activité, les élèves exploreront leur école ou leur ville 
 
 ---
 
-## L'activité en bref
+## Étape 1 : phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
 
-### Structure du protocole
+**Contexte et description du problème à résoudre à cette étape** : Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius ([https://eurocities.eu/stories/smile-youre-on-camera/](https://eurocities.eu/stories/smile-youre-on-camera/)), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin ([https://www.youtube.com/watch?v=AuxgoNMqLFU](https://www.youtube.com/watch?v=AuxgoNMqLFU)). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
 
-Étape 1 - Phase d'exploration - Développement des connaissances de base sur les usages urbains des capteurs
-La phase d'exploration commence par une préparation en classe, où les élèves recherchent et identifient des capteurs potentiels en milieu urbain. Ils développent leurs connaissances de base en explorant différents types de capteurs, en créant des listes préliminaires et en définissant clairement leurs attentes quant aux découvertes possibles lors de leur promenade. Cette phase pose les bases d'une enquête de terrain réussie.
+**Objectifs d'apprentissage**: Identifier les capteurs utilisables en ville. Comprendre que les systèmes d'IA peuvent traiter des données pour en extraire des informations avancées (par exemple, deviner l'humeur d'une personne en fonction de son expression faciale).
 
-Étape 2 - Phase d'enquête sur le terrain - Expérience pratique donnant vie aux connaissances théoriques
-Durant cette phase pratique, les élèves explorent activement leur environnement scolaire, leur quartier ou leur ville à travers une exploration de données soigneusement planifiée. Ils documentent et photographient les capteurs précédemment identifiés tout en restant attentifs à la découverte de nouveaux points de collecte de données inattendus. Cette expérience pratique concrétise les connaissances théoriques par l'observation directe.
-
-Étape 3 - Phase d'analyse et de réflexion - Comprendre la collecte de données urbaines
-Cette phase de discussion approfondie en classe consiste à comparer les résultats de terrain aux attentes initiales, à répertorier les nouvelles découvertes et à examiner en détail les applications d'IA associées à chaque capteur découvert. Les élèves travaillent ensemble pour comprendre les implications plus larges de leurs observations et l'interconnexion des systèmes de détection urbains. En conclusion, ils sont encouragés à réfléchir de manière critique aux implications en matière de confidentialité. Ils évaluent l'équilibre entre progrès technologiques et vie privée, en tenant compte de la manière dont ces technologies façonnent leur environnement quotidien et le développement urbain futur.
-
----
-
-## Glossaire
-
-| Mots-clés / Concepts | Définitions |
-|---|---|
-| Capteurs | Appareils qui détectent et réagissent aux signaux physiques de l'environnement, tels que caméras, microphones, capteurs de température ou détecteurs de mouvement. Ces appareils collectent des données pouvant être traitées par des systèmes d'IA. |
-| Données | Des informations brutes collectées auprès de diverses sources peuvent être traitées, analysées et utilisées pour prendre des décisions ou fournir des services. Dans les villes intelligentes, cela inclut tout, des relevés de température aux enregistrements vidéo. |
-| Données ouvertes | Données librement accessibles à tous, utilisables et republiées sans restriction. Dans les villes intelligentes, il s'agit souvent de données publiques sur les transports, l'environnement ou les infrastructures urbaines. |
-| Données personnelles | Toute information relative à une personne identifiée ou identifiable, telle que des données de localisation, des images faciales ou des modèles de comportement qui peuvent être collectés par des systèmes de détection urbains. |
-| Promenade des données | Une promenade de données est un moyen interactif pour les parties prenantes de la communauté, y compris les résidents, les chercheurs, les administrateurs de programmes, les responsables du gouvernement local et les prestataires de services, d'engager un dialogue autour des résultats de recherche sur leur communauté. |
-| Service de données | Également appelé « technologie des données », « service intelligent » ou « solution intelligente ». Service dans une ville intelligente où des données (personnelles) sont collectées ou traitées pour fournir un service à (un groupe spécifique d') utilisateurs ou pour améliorer les services existants. |
-| Systèmes d'IA | Systèmes informatiques capables d'effectuer des tâches nécessitant généralement l'intelligence humaine, telles que la perception visuelle, la reconnaissance vocale et la prise de décision. En milieu urbain, ces systèmes traitent les données de divers capteurs pour fournir des services ou des informations automatisés. |
-| Ville intelligente | Une zone urbaine qui utilise différents types de méthodes et de capteurs électroniques pour collecter des données, qui sont utilisées pour gérer efficacement les actifs, les ressources et les services tout en améliorant la qualité de vie des citoyens. |
-
----
-
-:::note
-Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
-:::
-
----
-
-## Protocole
-
-### Étape 1 : phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
-
-Contexte et description du problème à résoudre à cette étape : Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius ([https://eurocities.eu/stories/smile-youre-on-camera/](https://eurocities.eu/stories/smile-youre-on-camera/)), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin ([https://www.youtube.com/watch?v=AuxgoNMqLFU](https://www.youtube.com/watch?v=AuxgoNMqLFU)). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
-
-Objectifs d'apprentissage : Identifier les capteurs utilisables en ville. Comprendre que les systèmes d'IA peuvent traiter des données pour en extraire des informations avancées (par exemple, deviner l'humeur d'une personne en fonction de son expression faciale).
-
-#### Conceptualisation
+### Conceptualisation
 
 Une approche scientifique de l'enquête sur les données urbaines
 
@@ -140,7 +128,7 @@ Formuler des questions et des hypothèses
 
 À partir de leurs résultats, les élèves réfléchiront aux questions clés qui guideront leur datawalk. Ils se concentreront sur l'identification des capteurs en ville, la compréhension des services de données associés, la détermination de la propriété de ces technologies et l'analyse de la manière dont les données collectées reflètent les modèles et comportements urbains. À travers ces questions, les élèves formuleront des hypothèses sur les types de données qu'ils s'attendent à rencontrer et leurs implications potentielles pour la vie urbaine.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Cette phase d'investigation vise à préparer les élèves à la datawalk en développant leur compréhension théorique. Grâce à des recherches structurées et à des discussions, les élèves développeront le cadre de connaissances nécessaire à l'identification et à l'analyse des capteurs urbains lors de leurs observations pratiques sur le terrain à l'étape 2. En classe, lancez les activités suivantes :
 
@@ -154,7 +142,7 @@ Envisagez des outils de gestion urbaine tels que des capteurs de stationnement m
 
 Enfin, examinez les systèmes de mobilité partagée, notamment les transports en commun, le partage de vélos et les services de scooters électriques.
 
-:::tip[Conseils aux enseignants]
+:::info[Conseils aux enseignants]
 Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : [https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf](https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf)
 :::
 
@@ -170,7 +158,7 @@ Prolongez votre enquête en explorant les ressources de données ouvertes spéci
 
 Cette dernière étape aide les élèves à relier les connaissances théoriques aux applications du monde réel dans leur environnement immédiat.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Grâce à des recherches approfondies et à des discussions en classe, les élèves ont construit une base solide pour leur enquête sur le terrain.
 
@@ -178,9 +166,9 @@ Ils ont créé un inventaire détaillé cataloguant les différents dispositifs 
 
 Cette préparation assure une phase d'enquête de terrain méthodique et productive.
 
-- Connaissances mobilisées : Les élèves ont mis à profit leurs connaissances fondamentales des infrastructures technologiques urbaines, notamment des différents types de capteurs, des applications d'IA et des méthodes de collecte de données. Ces connaissances couvraient à la fois les aspects techniques (fonctionnement des capteurs) et la connaissance du contexte (intégration de la technologie dans les environnements urbains).
-- Réflexion sur la mise en oeuvre en classe : Grâce à des discussions guidées et à un brainstorming collaboratif, les élèves ont exploré leurs interactions quotidiennes avec les technologies urbaines. Ils ont partagé leurs observations personnelles sur les outils de collecte de données dans leur environnement, favorisant ainsi l'apprentissage entre pairs et la prise de conscience collective. Ce processus a permis de relier les connaissances théoriques à l'expérience pratique.
-- Résultats d'apprentissage généraux : Les élèves ont développé un sens critique de l'observation, appris à identifier et à catégoriser différents types de capteurs et compris l'interconnexion des systèmes de collecte de données urbaines. Ils ont également commencé à saisir la relation entre les capteurs physiques et les applications de l'IA.
+- **Connaissances mobilisées** : Les élèves ont mis à profit leurs connaissances fondamentales des infrastructures technologiques urbaines, notamment des différents types de capteurs, des applications d'IA et des méthodes de collecte de données. Ces connaissances couvraient à la fois les aspects techniques (fonctionnement des capteurs) et la connaissance du contexte (intégration de la technologie dans les environnements urbains).
+- **Réflexion sur la mise en oeuvre en classe** : Grâce à des discussions guidées et à un brainstorming collaboratif, les élèves ont exploré leurs interactions quotidiennes avec les technologies urbaines. Ils ont partagé leurs observations personnelles sur les outils de collecte de données dans leur environnement, favorisant ainsi l'apprentissage entre pairs et la prise de conscience collective. Ce processus a permis de relier les connaissances théoriques à l'expérience pratique.
+- **Résultats d'apprentissage généraux** : Les élèves ont développé un sens critique de l'observation, appris à identifier et à catégoriser différents types de capteurs et compris l'interconnexion des systèmes de collecte de données urbaines. Ils ont également commencé à saisir la relation entre les capteurs physiques et les applications de l'IA.
 
 Fort de cette préparation complète, concluez cette étape en engageant les élèves dans la génération d'hypothèses concernant :
 
@@ -200,13 +188,13 @@ Pour guider la discussion de compte rendu et aider les élèves à réfléchir �
 
 ---
 
-### Étape 2 : phase d'enquête sur le terrain : expérience pratique donnant vie aux connaissances théoriques
+## Étape 2 : phase d'enquête sur le terrain : expérience pratique donnant vie aux connaissances théoriques
 
-Contexte et description du problème à résoudre à cette étape : S'appuyant sur les connaissances théoriques développées à l'étape 1, cette étape consiste à organiser la visite guidée des données. Les élèves exploreront l'environnement urbain, observeront et documenteront les capteurs rencontrés en chemin. Ils devront être attentifs à la correspondance des capteurs trouvés avec leurs attentes lors de la phase de préparation. Ils devront également noter les emplacements et les applications d'IA qu'ils soupçonnent d'utiliser.
+**Contexte et description du problème à résoudre à cette étape** : S'appuyant sur les connaissances théoriques développées à l'étape 1, cette étape consiste à organiser la visite guidée des données. Les élèves exploreront l'environnement urbain, observeront et documenteront les capteurs rencontrés en chemin. Ils devront être attentifs à la correspondance des capteurs trouvés avec leurs attentes lors de la phase de préparation. Ils devront également noter les emplacements et les applications d'IA qu'ils soupçonnent d'utiliser.
 
-Objectifs d'apprentissage : Développer des compétences d'observation en identifiant des capteurs placés dans un environnement. Apprendre à reconnaître différents types de capteurs, tels que les caméras de surveillance, les antennes de téléphonie mobile, les capteurs environnementaux ou les objets connectés.
+**Objectifs d'apprentissage**: Développer des compétences d'observation en identifiant des capteurs placés dans un environnement. Apprendre à reconnaître différents types de capteurs, tels que les caméras de surveillance, les antennes de téléphonie mobile, les capteurs environnementaux ou les objets connectés.
 
-#### Conceptualisation
+### Conceptualisation
 
 Planification de l'itinéraire d'enquête
 
@@ -234,13 +222,13 @@ Les objectifs de recherche sont des résultats précis que les chercheurs visent
 - Documenter les déploiements de capteurs inattendus ou nouveaux (capteurs qui n'étaient pas couverts dans leurs recherches initiales ou utilisés de manière surprenante)
 - Analyser la distribution spatiale (comment les capteurs sont répartis dans différentes zones) de différents types de capteurs dans les zones urbaines (zones résidentielles, quartiers d'affaires, parcs, etc.)
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Avant de commencer la visite des données, les élèves doivent être équipés d'outils de documentation appropriés. Une combinaison de carnets ou d'appareils numériques pour la prise de notes, ainsi que de smartphones ou d'appareils photo pour la photographie, garantira une documentation complète.
 
 Certains élèves peuvent trouver utile d'utiliser des applications de cartographie pour marquer l'emplacement exact des capteurs, créant ainsi un enregistrement numérique de leurs découvertes.
 
-:::tip[Conseils aux enseignants]
+:::info[Conseils aux enseignants]
 Pour vous inspirer dans l'organisation de votre marche, n'hésitez pas à consulter les ressources en ligne proposant diverses informations sur la logistique et les étapes de mise en oeuvre d'un atelier de marche ou d'une marche de données. Par exemple :
 - [https://www.datawalking.uk](https://www.datawalking.uk)
 - [https://amai.vlaanderen/activiteit-datawalk](https://amai.vlaanderen/activiteit-datawalk)
@@ -269,13 +257,13 @@ Tout au long de la visite, les élèves doivent adopter une conduite professionn
 
 Cette approche garantit à la fois la sécurité des élèves et l'intégrité de leurs recherches.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Grâce à cette enquête pratique sur le terrain, les élèves ont acquis une expérience concrète de l'identification et de la documentation des technologies de détection urbaine. Leurs observations et les données recueillies constituent désormais une base solide pour une analyse plus approfondie.
 
-- Connaissances mobilisées : Les élèves ont démontré leur capacité à identifier et analyser différents capteurs urbains, en appliquant leurs connaissances théoriques sur les systèmes de collecte de données, les applications de l'IA et les infrastructures technologiques urbaines. Ils ont démontré leur compréhension des fonctions spécifiques des différents capteurs dans les villes intelligentes.
-- Réflexion sur la mise en oeuvre en classe : La datawalk a offert aux élèves une expérience pratique où ils ont pu s'impliquer activement dans leur environnement urbain, en documentant et en analysant des exemples concrets de technologies de détection. Cette approche pratique a permis de combler le fossé entre les concepts théoriques et leur mise en oeuvre concrète.
-- Résultats d'apprentissage généraux : Les élèves ont développé des compétences d'observation critique, amélioré leur compréhension des systèmes de collecte de données urbaines et acquis une expérience pratique dans l'identification et l'analyse de divers types de capteurs et de leurs applications potentielles en matière d'IA.
+- **Connaissances mobilisées** : Les élèves ont démontré leur capacité à identifier et analyser différents capteurs urbains, en appliquant leurs connaissances théoriques sur les systèmes de collecte de données, les applications de l'IA et les infrastructures technologiques urbaines. Ils ont démontré leur compréhension des fonctions spécifiques des différents capteurs dans les villes intelligentes.
+- **Réflexion sur la mise en oeuvre en classe** : La datawalk a offert aux élèves une expérience pratique où ils ont pu s'impliquer activement dans leur environnement urbain, en documentant et en analysant des exemples concrets de technologies de détection. Cette approche pratique a permis de combler le fossé entre les concepts théoriques et leur mise en oeuvre concrète.
+- **Résultats d'apprentissage généraux** : Les élèves ont développé des compétences d'observation critique, amélioré leur compréhension des systèmes de collecte de données urbaines et acquis une expérience pratique dans l'identification et l'analyse de divers types de capteurs et de leurs applications potentielles en matière d'IA.
 
 Pour faciliter la réflexion sur l'expérience de la datawalk, les enseignants peuvent poser les questions suivantes :
 
@@ -290,13 +278,13 @@ L'étape suivante consistera à synthétiser ces résultats pour comprendre les 
 
 ---
 
-### Étape 3 : phase d'analyse et de réflexion : comprendre la collecte de données urbaines
+## Étape 3 : phase d'analyse et de réflexion : comprendre la collecte de données urbaines
 
-Contexte et description du problème à résoudre à cette étape : Dans cette dernière étape, les élèves retournent en classe pour analyser leurs résultats, réfléchir à leurs expériences et évaluer de manière critique les implications des technologies de détection urbaine.
+**Contexte et description du problème à résoudre à cette étape** : Dans cette dernière étape, les élèves retournent en classe pour analyser leurs résultats, réfléchir à leurs expériences et évaluer de manière critique les implications des technologies de détection urbaine.
 
-Objectifs d'apprentissage : Cette étape permet aux élèves de comprendre les données recueillies lors de leur promenade, de les comparer à leurs attentes initiales et d'envisager les implications plus larges des technologies de capteurs et des applications d'IA dans leur ville. Ils peuvent discuter et aborder les problèmes potentiels de confidentialité liés aux technologies de capteurs, aux applications d'IA et à la collecte de données.
+**Objectifs d'apprentissage**: Cette étape permet aux élèves de comprendre les données recueillies lors de leur promenade, de les comparer à leurs attentes initiales et d'envisager les implications plus larges des technologies de capteurs et des applications d'IA dans leur ville. Ils peuvent discuter et aborder les problèmes potentiels de confidentialité liés aux technologies de capteurs, aux applications d'IA et à la collecte de données.
 
-#### Conceptualisation
+### Conceptualisation
 
 Les technologies des villes intelligentes améliorent les services urbains grâce à des systèmes sophistiqués de collecte et de traitement de données. Ces innovations améliorent la gestion du trafic, l'efficacité énergétique et les services publics en exploitant les réseaux de capteurs interconnectés et l'analyse des données. Cependant, cette collecte massive de données pose d'importants problèmes de confidentialité, qui vont au-delà de la simple protection des données. La surveillance continue des espaces urbains crée des traces numériques détaillées de la vie des citoyens, suscitant des inquiétudes quant à la surveillance et à l'autonomie personnelle. Sans protection adéquate, ces données pourraient être vulnérables aux fuites, aux utilisations abusives ou aux accès non autorisés.
 
@@ -318,7 +306,7 @@ Systèmes d'information publique
 
 La transparence des systèmes de surveillance urbaine est essentielle à la confiance et à la responsabilisation du public. Le caractère souvent invisible des infrastructures de collecte de données complique la sensibilisation et le consentement du public. Des stratégies de communication efficaces doivent combler le fossé entre complexité technique et compréhension du public. Les villes doivent élaborer des cadres de transparence complets, incluant une signalisation claire, des politiques d'accessibilité des données et une participation régulière de la communauté. Cela implique de créer des canaux de rétroaction et de participation du public aux décisions concernant le déploiement des capteurs et l'utilisation des données.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Organisation, classification et analyse des données
 
@@ -351,7 +339,7 @@ Partagez vos découvertes en matière de capteurs, vos découvertes inattendues 
 - Impact social et considérations relatives à la vie privée
 - Améliorations proposées et stratégies de sensibilisation de la communauté
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Grâce à une analyse détaillée et à des discussions collaboratives, les élèves ont développé une compréhension globale des technologies de détection urbaine et de leurs implications.
 
@@ -361,9 +349,9 @@ La phase d'analyse a permis aux élèves de relier les connaissances théoriques
 
 Cette dernière étape permet aux élèves d'évaluer et de communiquer de manière critique leurs résultats tout en comprenant l'impact plus large des technologies des villes intelligentes sur la société.
 
-- Connaissances mobilisées : Les élèves ont démontré leurs capacités d'analyse dans le traitement et la comparaison des données collectées, notamment leur compréhension des implications éthiques de la technologie, du droit à la vie privée et de l'innovation urbaine. Ils ont mis en pratique leurs connaissances des systèmes de collecte de données, des applications de l'IA et des infrastructures des villes intelligentes, tout en développant des approches de réflexion axées sur les solutions.
-- Réflexion sur la mise en oeuvre en classe : La phase d'analyse finale a permis aux élèves de synthétiser leurs résultats au moyen de présentations et de discussions constructives. Ils ont partagé leurs découvertes, discuté des tendances et comparé les résultats aux attentes initiales. Les discussions de groupe ont favorisé l'apprentissage collaboratif et ont permis de mettre en évidence des mesures concrètes pour sensibiliser aux technologies de détection urbaine.
-- Objectifs d'apprentissage généraux : Grâce à cette analyse, les élèves ont acquis une compréhension approfondie de l'impact sociétal de la collecte de données et de l'IA. Ils ont développé des compétences d'évaluation critique, amélioré leur capacité à communiquer efficacement leurs observations et appris à identifier les liens entre la mise en oeuvre des technologies et les préoccupations en matière de confidentialité. Plus important encore, ils ont découvert des moyens de promouvoir une utilisation responsable des technologies au sein de leurs communautés.
+- **Connaissances mobilisées** : Les élèves ont démontré leurs capacités d'analyse dans le traitement et la comparaison des données collectées, notamment leur compréhension des implications éthiques de la technologie, du droit à la vie privée et de l'innovation urbaine. Ils ont mis en pratique leurs connaissances des systèmes de collecte de données, des applications de l'IA et des infrastructures des villes intelligentes, tout en développant des approches de réflexion axées sur les solutions.
+- **Réflexion sur la mise en oeuvre en classe** : La phase d'analyse finale a permis aux élèves de synthétiser leurs résultats au moyen de présentations et de discussions constructives. Ils ont partagé leurs découvertes, discuté des tendances et comparé les résultats aux attentes initiales. Les discussions de groupe ont favorisé l'apprentissage collaboratif et ont permis de mettre en évidence des mesures concrètes pour sensibiliser aux technologies de détection urbaine.
+- **Objectifs d'apprentissage généraux** : Grâce à cette analyse, les élèves ont acquis une compréhension approfondie de l'impact sociétal de la collecte de données et de l'IA. Ils ont développé des compétences d'évaluation critique, amélioré leur capacité à communiquer efficacement leurs observations et appris à identifier les liens entre la mise en oeuvre des technologies et les préoccupations en matière de confidentialité. Plus important encore, ils ont découvert des moyens de promouvoir une utilisation responsable des technologies au sein de leurs communautés.
 
 Ce protocole montre comment l'exploration concrète des technologies de détection urbaine peut efficacement relier connaissances théoriques et compréhension pratique. En combinant observation de terrain, analyse collaborative et réflexion critique, les élèves développent une compréhension globale des technologies des villes intelligentes et de leurs implications. L'approche en trois étapes – préparation, exploration et analyse – offre un cadre structuré mais flexible, adaptable à divers contextes pédagogiques et objectifs d'apprentissage.
 
@@ -375,8 +363,6 @@ Pour approfondir les discussions et la réflexion critique, envisagez d'ouvrir d
 - Comment pouvons-nous équilibrer l'innovation dans la technologie urbaine avec la préservation de la vie privée et de l'autonomie personnelle ?
 
 ---
-
-## Explorer la question à travers d'autres initiatives
 
 ### Les promenades de données du FARI à Bruxelles
 

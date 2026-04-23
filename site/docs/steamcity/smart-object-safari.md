@@ -46,6 +46,12 @@ Ce document comprend également des outils d'évaluation permettant de vérifier
 
 La structure proposée a été validée par des chercheurs de plusieurs universités italiennes avec le soutien de l'association à but non lucratif Perlatecnica ETS et avec une contribution particulière du Département d'Informatique de l'Université de Salerne et de l'Université Libre de Bolzano, obtenant de bons résultats en termes d'implication et d'apprentissage.
 
+### Quelques conseils d'organisation
+
+- **Phase de familiarisation :** peut être mise en œuvre de manière individuelle ou collaborative. Une approche ludique ou une exploration linguistique axée sur l'étymologie des mots est recommandée. Une phase physique, où la structure des différents composants est présentée, doit être incluse.
+- **Phase de conception :** peut être entièrement physique ou purement numérique, en adoptant des langages de programmation textuels ou par blocs, selon l'âge et les compétences des élèves.
+- **Phase de prototypage :** doit être aussi physique que possible afin de permettre aux participants d'acquérir une expérience concrète de la construction de circuits simples. Une approche collaborative est suggérée.
+
 ### Structure du protocole
 
 Le protocole Safari des objets connectés est divisé en deux phases complémentaires qui s'appuient l'une sur l'autre pour créer une compréhension globale de la conception collaborative d'objets intelligents.
@@ -53,25 +59,17 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 1. **Étape 1 — Familiarisation et idéation.** Les participants se familiarisent avec les concepts fondamentaux et proposent une idée de l'objet qu'ils souhaitent concevoir.
 2. **Étape 2 — Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
 
-### Quelques conseils d'organisation
+### Glossaire
 
-- **Phase de familiarisation :** peut être mise en œuvre de manière individuelle ou collaborative. Une approche ludique ou une exploration linguistique axée sur l'étymologie des mots est recommandée. Une phase physique, où la structure des différents composants est présentée, doit être incluse.
-- **Phase de conception :** peut être entièrement physique ou purement numérique, en adoptant des langages de programmation textuels ou par blocs, selon l'âge et les compétences des élèves.
-- **Phase de prototypage :** doit être aussi physique que possible afin de permettre aux participants d'acquérir une expérience concrète de la construction de circuits simples. Une approche collaborative est suggérée.
-
-## Glossaire
-
-| Terme | Définition |
-|---|---|
-| Actionneur | Composant d'un objet intelligent qui exécute une action physique en réponse à des données ou à des signaux (par exemple, un moteur, une lumière, un haut-parleur). |
-| Atelier pratique | Méthode pédagogique qui combine des présentations théoriques avec une mise en pratique immédiate, favorisant l'apprentissage par la réalisation de projets concrets. |
-| Capteur | Dispositif intégré dans un objet intelligent, capable de mesurer des données environnementales (par exemple, la température, la lumière, la pression). |
-| Conditions | Ensemble de conditions combinées à l'aide d'opérateurs logiques (ET, OU) pour définir des comportements plus avancés en fonction de plusieurs critères. |
-| Cycles / Boucles | Concept de programmation utilisé pour répéter une action ou un comportement plusieurs fois (par exemple, onstart, forever ou repeat dans MakeCode). |
-| MakeCode | Plateforme de programmation visuelle utilisée pour développer les comportements d'objets intelligents, principalement via des blocs. |
-| Objets intelligents | Objets physiques équipés de capteurs et d'actionneurs leur permettant de collecter, d'interpréter et de répondre aux données environnementales. |
-| Raconter des histoires | Technique utilisée pour décrire et contextualiser les idées d'objets intelligents à travers de courts récits. |
-| Véhicules autonomes | Véhicules capables de se déplacer sans intervention humaine, grâce à des capteurs, des algorithmes et des systèmes intelligents intégrés. |
+- **Actionneur** : Composant d'un objet intelligent qui exécute une action physique en réponse à des données ou à des signaux (par exemple, un moteur, une lumière, un haut-parleur).
+- **Atelier pratique** : Méthode pédagogique qui combine des présentations théoriques avec une mise en pratique immédiate, favorisant l'apprentissage par la réalisation de projets concrets.
+- **Capteur** : Dispositif intégré dans un objet intelligent, capable de mesurer des données environnementales (par exemple, la température, la lumière, la pression).
+- **Conditions** : Ensemble de conditions combinées à l'aide d'opérateurs logiques (ET, OU) pour définir des comportements plus avancés en fonction de plusieurs critères.
+- **Cycles / Boucles** : Concept de programmation utilisé pour répéter une action ou un comportement plusieurs fois (par exemple, onstart, forever ou repeat dans MakeCode).
+- **MakeCode** : Plateforme de programmation visuelle utilisée pour développer les comportements d'objets intelligents, principalement via des blocs.
+- **Objets intelligents** : Objets physiques équipés de capteurs et d'actionneurs leur permettant de collecter, d'interpréter et de répondre aux données environnementales.
+- **Raconter des histoires** : Technique utilisée pour décrire et contextualiser les idées d'objets intelligents à travers de courts récits.
+- **Véhicules autonomes** : Véhicules capables de se déplacer sans intervention humaine, grâce à des capteurs, des algorithmes et des systèmes intelligents intégrés.
 
 ## Bibliographie
 
@@ -82,7 +80,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ---
 
-## Étape 1 : Familiarisation et idéation
+## Étape 1 : familiarisation et idéation
 
 **Contexte :** Les élèves se familiarisent avec les concepts de base des objets connectés et proposent une première idée d'objet intelligent.
 
@@ -119,7 +117,7 @@ Exemple de tableau d'idéation :
 | Objet | Description du comportement sous forme d'histoire | Feu de circulation : interagit avec les véhicules autonomes, cède le passage aux autres véhicules |
 | Capteur / Actionneur | Description avec QUAND &lt;CONDITION&gt; ALORS &lt;RÉACTION&gt; | Distance / LED : QUAND un véhicule s'approche ALORS afficher le feu jaune pendant 10 secondes, puis le feu vert pendant 60 secondes |
 
-:::tip[Conseils pour les enseignants]
+:::info[Conseils pour les enseignants]
 
 - **Privilégier les objets autonomes.** Orientez les élèves vers des systèmes véritablement autonomes plutôt que des objets répondant uniquement à l'interaction humaine directe.
 - **Aider les élèves à équilibrer la complexité.** Évitez les objets trop simples comme les systèmes extrêmement complexes.
@@ -134,7 +132,7 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ---
 
-## Étape 2 : Conception et prototypage
+## Étape 2 : conception et prototypage
 
 **Contexte :** La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement en utilisant une approche incrémentale.
 

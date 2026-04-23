@@ -445,5 +445,3 @@ void loop() {
 //--------------fin de la  fonction loop ---------------
 
 ```
-
-### Projet final "MétéoDuLAB"

@@ -53,6 +53,20 @@ Objectifs de développement durable
 
 L'activité en bref
 
+### Étape 1 : jeu d'introduction aux services citoyens
+
+À l'issue du jeu, un greffier de séance est désigné lors de la phase de conclusion. Il ou elle consigne les éléments clés sur les services et départements rencontrés. Cette première contribution initie la documentation collective.
+
+### Étape 2 : promenade de données et cartographie
+
+Après les recherches et observations de terrain, les élèves préparent une synthèse écrite ou une présentation. Chaque groupe consigne ses résultats dans le Carnet du Détective. Cela permet de relier l'observation directe aux savoirs acquis.
+
+### Étape 3 : simulation de crises
+
+Lors des discussions en table ronde, un greffier de crise note les solutions proposées par chaque groupe dans le carnet. Ces contributions servent de base à la construction d'une réponse collective à la crise simulée, enrichissant l'analyse commune.
+
+Une fois complété, le Carnet du Détective constitue une trace écrite de l'enquête et une documentation partagée des apprentissages. Il peut être imprimé ou distribué individuellement. Une version imprimable est disponible en annexe du protocole, ou en ligne sur Miroverse : https://miro.com/miroverse/detective-clue-board/?social=copy-link
+
 ### Structure du protocole
 
 Le protocole propose aux élèves d'explorer l'organisation d'une ville à travers des activités à la fois ludiques et concrètes. La séquence se déroule en trois étapes, pensées pour stimuler l'apprentissage actif et développer des compétences telles que l'enquête, la collecte d'informations, la cartographie et la résolution de problèmes.
@@ -75,14 +89,12 @@ Conseil 3. Simulation finale « Défi du Détective Urbain ». La simulation peu
 
 Liens utiles :
 
-- uMap/Guide : OpenStreetMap Wiki
-- Tutoriel : Umap / Openstreetmap (carte enrichie) (+ 2e tuto plus simple en description)
-- Tutoriel : Umap, croquis et carte interactive (bases sans création de compte)
-- Accueil : OpenStreetMap France
+- **uMap/Guide** : OpenStreetMap Wiki
+- **Tutoriel** : Umap / Openstreetmap (carte enrichie) (+ 2e tuto plus simple en description)
+- **Tutoriel** : Umap, croquis et carte interactive (bases sans création de compte)
+- **Accueil** : OpenStreetMap France
 - SimCity 2013 All Disasters
 - How to Play Order Overload Cafe Card Game in 2 Minutes
-
-## Pour bien démarrer
 
 Mesures, Durée, Difficulté, Matériel
 
@@ -96,21 +108,8 @@ Présentation du Carnet du Détective : Le Carnet du Détective est un outil cen
 
 Le carnet est divisé en trois sections, chacune correspondant à une étape de la séquence. Chaque section intègre des modèles de prises de notes, croquis, tableaux de données, facilitant une documentation claire et complète du parcours d'enquête. Les élèves sont invités à mettre à jour le carnet après chaque activité, assurant une continuité dans la construction des savoirs.
 
-### Étape 1 : jeu d'introduction aux services citoyens
 
-À l'issue du jeu, un greffier de séance est désigné lors de la phase de conclusion. Il ou elle consigne les éléments clés sur les services et départements rencontrés. Cette première contribution initie la documentation collective.
-
-### Étape 2 : promenade de données et cartographie
-
-Après les recherches et observations de terrain, les élèves préparent une synthèse écrite ou une présentation. Chaque groupe consigne ses résultats dans le Carnet du Détective. Cela permet de relier l'observation directe aux savoirs acquis.
-
-### Étape 3 : simulation de crises
-
-Lors des discussions en table ronde, un greffier de crise note les solutions proposées par chaque groupe dans le carnet. Ces contributions servent de base à la construction d'une réponse collective à la crise simulée, enrichissant l'analyse commune.
-
-Une fois complété, le Carnet du Détective constitue une trace écrite de l'enquête et une documentation partagée des apprentissages. Il peut être imprimé ou distribué individuellement. Une version imprimable est disponible en annexe du protocole, ou en ligne sur Miroverse : https://miro.com/miroverse/detective-clue-board/?social=copy-link
-
-## Glossaire
+### Glossaire
 
 **Service public** : Un service fourni par le gouvernement pour le bénéfice du grand public. Il comprend des services tels que l'éducation, la santé, les transports et la sécurité publique. Ces services sont financés par les impôts et visent à assurer le bien-être et le bien-être de la communauté.
 
@@ -134,15 +133,13 @@ Une fois complété, le Carnet du Détective constitue une trace écrite de l'en
 
 **OpenStreetMap** : OpenStreetMap est un projet de cartographie collaborative qui permet aux gens de contribuer et d'éditer des données géographiques pour créer des cartes gratuites et ouvertes du monde.
 
-## Protocole
+## Phase 1 : jeu introductif
 
-### Phase 1 : jeu introductif
+**Contexte et description du problème** : Dans ce jeu introductif, les élèves endossent le rôle de réceptionnistes municipaux. Leur tâche consiste à mémoriser et gérer un flux croissant de demandes citoyennes. Le jeu est conçu pour fonctionner avec des groupes de tailles variables : plus le nombre de participants augmente, plus les demandes à gérer se multiplient, rendant l'exercice plus complexe. D'une durée adaptable (entre 10 et 30 minutes selon le nombre de tours), l'activité sert de porte d'entrée ludique aux fonctions de la municipalité. Elle permet aux élèves de découvrir, par la pratique, l'organisation des services publics locaux et l'importance de la communication dans le traitement des sollicitations citoyennes. En jouant un rôle opérationnel dans un cadre simulé, ils acquièrent une compréhension directe des responsabilités liées à la gestion urbaine.
 
-Contexte et description du problème : Dans ce jeu introductif, les élèves endossent le rôle de réceptionnistes municipaux. Leur tâche consiste à mémoriser et gérer un flux croissant de demandes citoyennes. Le jeu est conçu pour fonctionner avec des groupes de tailles variables : plus le nombre de participants augmente, plus les demandes à gérer se multiplient, rendant l'exercice plus complexe. D'une durée adaptable (entre 10 et 30 minutes selon le nombre de tours), l'activité sert de porte d'entrée ludique aux fonctions de la municipalité. Elle permet aux élèves de découvrir, par la pratique, l'organisation des services publics locaux et l'importance de la communication dans le traitement des sollicitations citoyennes. En jouant un rôle opérationnel dans un cadre simulé, ils acquièrent une compréhension directe des responsabilités liées à la gestion urbaine.
+**Objectifs d'apprentissage**: Les élèves développeront une compréhension concrète du rôle des services municipaux et de leur utilité dans la vie quotidienne. Ils renforceront leur capacité à mémoriser et organiser des informations multiples dans un laps de temps limité, tout en apprenant à coordonner des réponses collectives. L'activité favorisera également la collaboration. Elle mobilise des compétences en pensée critique et en résolution de problèmes, en les confrontant à une gestion réaliste et progressive de demandes citoyennes. Enfin, elle introduit les élèves à l'organisation fonctionnelle d'une municipalité, en mettant en évidence les interactions entre services.
 
-Objectifs d'apprentissage : Les élèves développeront une compréhension concrète du rôle des services municipaux et de leur utilité dans la vie quotidienne. Ils renforceront leur capacité à mémoriser et organiser des informations multiples dans un laps de temps limité, tout en apprenant à coordonner des réponses collectives. L'activité favorisera également la collaboration. Elle mobilise des compétences en pensée critique et en résolution de problèmes, en les confrontant à une gestion réaliste et progressive de demandes citoyennes. Enfin, elle introduit les élèves à l'organisation fonctionnelle d'une municipalité, en mettant en évidence les interactions entre services.
-
-#### Conceptualisation
+### Conceptualisation
 
 Ce jeu introductif constitue un outil interactif destiné à familiariser les élèves avec le fonctionnement des services municipaux. En assumant à tour de rôle la fonction de réceptionniste en chef, les élèves doivent traiter une série de demandes citoyennes, chacune étant associée à un service public spécifique (gestion des déchets, éducation, urbanisme, etc.). Cette mise en situation offre un aperçu concret de la diversité et de la complexité des missions assurées par la mairie, ainsi que du rôle structurant de ces services dans le quotidien des citoyens.
 
@@ -178,7 +175,7 @@ Les services abordés dans le jeu sont regroupés selon des catégories représe
 
 Conseil aux enseignants : Si les services municipaux ou les demandes citoyennes diffèrent dans votre pays, votre ville, ou ne correspondent pas exactement à votre contexte local, n'hésitez pas à adapter le contenu en créant votre propre liste, en suivant le même format de tableau que celui proposé ci-dessous. Nous mettons à votre disposition les cartes Canva modifiables, afin que vous puissiez créer une version personnalisée. La liste fournie est construite à partir de l'exemple d'une ville française moyenne. Certains services ont été regroupés pour en simplifier la compréhension et limiter le nombre de groupes nécessaires lors des étapes suivantes.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Une fois que le contexte du jeu a été dévoilé aux élèves, vous pouvez commencer à jouer. Il s'agit essentiellement d'un jeu de mémoire collaboratif dans lequel les élèves doivent collectivement mémoriser les demandes des citoyens concernant l'une des missions de leur municipalité locale.
 
@@ -214,7 +211,7 @@ Décompte final (facultatif) : Le jeu est coopératif, les joueurs gagnent ou pe
 - Observateurs de la Ville (tour 5)
 - Maestros de l'Hôtel de Ville (tour 6)
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Pour conclure le jeu, deux axes complémentaires peuvent être abordés avec les élèves : l'expérience de jeu elle-même et les apprentissages liés aux services municipaux. D'une part, les enseignants peuvent engager une discussion sur les ressentis et dynamiques observées pendant le jeu. L'objectif est d'aider les élèves à prendre du recul sur leur expérience, à identifier les stratégies utilisées et à reconnaître les compétences mobilisées. Pour alimenter les échanges, les questions suivantes peuvent être proposées :
 
@@ -237,13 +234,13 @@ D'autre part, cette phase de conclusion peut être utilisée pour approfondir la
 
 À ce stade, si vous utilisez le Carnet du Détective pour construire le contenu final de la séquence, désignez un greffier pendant la session de débriefing. Ce greffier sera chargé d'enregistrer les découvertes sur chaque service et département dans le carnet, dans la « Section 1 : Découverte des services publics », ce qui permettra de poser les premières bases du contenu de la leçon finale.
 
-### Phase 2 : approfondissement des connaissances
+## Phase 2 : approfondissement des connaissances
 
-Contexte et description du problème à résoudre dans cette étape : Dans cette étape de la séquence, les élèves apprennent à mobiliser leurs compétences d'observation dans un contexte réel afin d'explorer comment les services municipaux se manifestent concrètement dans les quartiers, tant sur le plan physique que fonctionnel. De nombreux habitants ignorent l'ampleur et l'impact des services municipaux dans leur quotidien. Cette activité engage les élèves à repérer, documenter et rendre visibles ces effets, souvent négligés ou considérés comme allant de soi, en s'appuyant sur les connaissances acquises lors du jeu introductif.
+**Contexte et description du problème à résoudre dans cette étape** : Dans cette étape de la séquence, les élèves apprennent à mobiliser leurs compétences d'observation dans un contexte réel afin d'explorer comment les services municipaux se manifestent concrètement dans les quartiers, tant sur le plan physique que fonctionnel. De nombreux habitants ignorent l'ampleur et l'impact des services municipaux dans leur quotidien. Cette activité engage les élèves à repérer, documenter et rendre visibles ces effets, souvent négligés ou considérés comme allant de soi, en s'appuyant sur les connaissances acquises lors du jeu introductif.
 
-Objectifs d'apprentissage : Les élèves devront identifier et documenter l'influence des services municipaux dans leur environnement proche. Ils développeront leurs compétences en cartographie, ce qui leur permettra de mieux comprendre la structure spatiale des lieux observés. Ils renforceront également leur capacité à observer avec rigueur et à collecter des données utiles, en extrayant des éléments significatifs de leur cadre de vie. Cette activité constitue une application concrète des savoirs, et leur donne des outils pour analyser les dynamiques urbaines de manière autonome. Elle peut être menée en articulation avec l'enseignement de la géographie.
+**Objectifs d'apprentissage**: Les élèves devront identifier et documenter l'influence des services municipaux dans leur environnement proche. Ils développeront leurs compétences en cartographie, ce qui leur permettra de mieux comprendre la structure spatiale des lieux observés. Ils renforceront également leur capacité à observer avec rigueur et à collecter des données utiles, en extrayant des éléments significatifs de leur cadre de vie. Cette activité constitue une application concrète des savoirs, et leur donne des outils pour analyser les dynamiques urbaines de manière autonome. Elle peut être menée en articulation avec l'enseignement de la géographie.
 
-#### Conceptualisation
+### Conceptualisation
 
 Les services municipaux ne relèvent pas uniquement de l'administration : ils ont aussi une présence physique qui façonne le paysage urbain et influence directement la vie des habitants. Impliquer les élèves dans une observation directe et une collecte de données sur le terrain permet de construire une compréhension plus fine de la portée de ces services, contribuant à former des citoyens plus informés et plus engagés. Cette étape vise à approfondir les apprentissages du jeu introductif en les ancrant dans une démarche de terrain. Elle prépare également les élèves à la phase de simulation en développant leur capacité à observer, analyser et interpréter des données réelles.
 
@@ -265,7 +262,7 @@ Pour plus d'informations, consultez la section « Fiche pratique : Découvrez le
 
 Représentation géographique : Les élèves apprendront à utiliser des outils de cartographie et des techniques d'analyse spatiale pour organiser visuellement et présenter les données collectées sur les services municipaux. Ces compétences renforcent non seulement leur capacité à interpréter les données, mais aussi leur aptitude à communiquer efficacement leurs résultats.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 **Phase de recherche initiale**
 
@@ -297,8 +294,8 @@ Les élèves peuvent rester organisés en petits groupes, comme lors de la phase
 
 Deux formats de mise en œuvre sont envisageables :
 
-- Version connectée : Si un accès à internet mobile est disponible, les élèves peuvent saisir directement les données sur uMap à l'aide de leurs appareils.
-- Version non connectée (recommandée) : Le travail cartographique est reporté à une phase ultérieure en classe. Dans ce cas, les notes et les coordonnées doivent être précisément consignées pour permettre une saisie rigoureuse a posteriori.
+- **Version connectée** : Si un accès à internet mobile est disponible, les élèves peuvent saisir directement les données sur uMap à l'aide de leurs appareils.
+- **Version non connectée (recommandée)** : Le travail cartographique est reporté à une phase ultérieure en classe. Dans ce cas, les notes et les coordonnées doivent être précisément consignées pour permettre une saisie rigoureuse a posteriori.
 
 La promenade débute idéalement par une réunion au point de départ, pour rappeler les objectifs, clarifier les attentes et répondre aux questions. Pendant l'activité, les élèves observent, documentent et discutent des éléments en lien avec les services municipaux observables. Ils peuvent prendre des notes détaillées et des photographies pour illustrer leurs observations. Il convient de rappeler les règles de respect de la vie privée, notamment si des interactions avec des habitants ou des photos de personnes sont envisagées.
 
@@ -314,28 +311,28 @@ Au fil des contributions, la carte deviendra une représentation visuelle multic
 
 Accédez à la carte uMap ici : City Detective Challenge (https://umap.openstreetmap.fr/fr/map/city-detective-challenge_1160331)
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 La session de restitution constitue une étape essentielle pour consolider les apprentissages, surmonter les difficultés rencontrées, et approfondir la compréhension des élèves à propos de l'environnement urbain et des services municipaux. Elle permet également de valoriser les expériences de terrain et de renforcer la dimension collaborative du projet.
 
-- Présentation des cartes et des découvertes : Chaque groupe présente ses découvertes à partir de la carte numérique et commente les observations majeures ainsi que les points de données enregistrés. L'attention peut être portée sur la manière dont les éléments observés sur le terrain confirment ou contredisent les informations issues de la recherche en ligne ou de la visite municipale.
-- Analyse des services municipaux : Discussion autour de l'impact des services observés durant la promenade de données. Quels sont les services les plus visibles ? Les plus accessibles ? Quels éléments montrent une bonne efficacité ou, au contraire, révèlent des manques ou des axes d'amélioration ?
-- Défis et solutions : Partage des difficultés rencontrées lors de la collecte ou de la saisie des données (problèmes techniques, précision, logistique). Réflexion collective sur des solutions possibles ou des ajustements méthodologiques pour améliorer l'expérience dans de futurs projets.
-- Analyse comparative : Comparaison entre les observations des différents groupes. Mise en évidence de similitudes, disparités ou spécificités selon les quartiers ou les types de services. Discussion sur la façon dont ces constats pourraient éclairer la planification urbaine ou nourrir des décisions locales.
-- Retour sur les outils et méthodes : Évaluation par les élèves de l'utilisation d'uMap et des autres supports mobilisés. Les outils ont-ils été simples à utiliser ? Quels ajustements ou améliorations seraient envisageables ? Bilan sur l'efficacité de la promenade de données en tant que méthode d'apprentissage.
-- Questions de réflexion : Expression personnelle des élèves. Qu'ont-ils appris de surprenant ou inattendu ? Comment les services observés diffèrent-ils des informations officielles ? En quoi ces découvertes pourraient-elles contribuer à une amélioration concrète des services ? Quelles compétences transversales ont-ils développées et comment pourraient-elles leur être utiles dans d'autres contextes ?
+- **Présentation des cartes et des découvertes** : Chaque groupe présente ses découvertes à partir de la carte numérique et commente les observations majeures ainsi que les points de données enregistrés. L'attention peut être portée sur la manière dont les éléments observés sur le terrain confirment ou contredisent les informations issues de la recherche en ligne ou de la visite municipale.
+- **Analyse des services municipaux** : Discussion autour de l'impact des services observés durant la promenade de données. Quels sont les services les plus visibles ? Les plus accessibles ? Quels éléments montrent une bonne efficacité ou, au contraire, révèlent des manques ou des axes d'amélioration ?
+- **Défis et solutions** : Partage des difficultés rencontrées lors de la collecte ou de la saisie des données (problèmes techniques, précision, logistique). Réflexion collective sur des solutions possibles ou des ajustements méthodologiques pour améliorer l'expérience dans de futurs projets.
+- **Analyse comparative** : Comparaison entre les observations des différents groupes. Mise en évidence de similitudes, disparités ou spécificités selon les quartiers ou les types de services. Discussion sur la façon dont ces constats pourraient éclairer la planification urbaine ou nourrir des décisions locales.
+- **Retour sur les outils et méthodes** : Évaluation par les élèves de l'utilisation d'uMap et des autres supports mobilisés. Les outils ont-ils été simples à utiliser ? Quels ajustements ou améliorations seraient envisageables ? Bilan sur l'efficacité de la promenade de données en tant que méthode d'apprentissage.
+- **Questions de réflexion** : Expression personnelle des élèves. Qu'ont-ils appris de surprenant ou inattendu ? Comment les services observés diffèrent-ils des informations officielles ? En quoi ces découvertes pourraient-elles contribuer à une amélioration concrète des services ? Quelles compétences transversales ont-ils développées et comment pourraient-elles leur être utiles dans d'autres contextes ?
 
 Concluez la session de restitution en résumant les principaux apprentissages issus des présentations et échanges. Prenez le temps de valoriser les contributions de chaque groupe et de reconnaître l'implication de tous les participants. Soulignez l'importance de la recherche de terrain comme moyen efficace pour comprendre des systèmes complexes, tels que les services municipaux, à partir d'observations concrètes.
 
 Encouragez les élèves à réfléchir à l'usage futur des compétences acquises : observation, analyse, coopération, cartographie : que ce soit dans d'autres projets scolaires ou dans leur engagement citoyen au sein de leur territoire.
 
-### Phase 3 : simulation de crise et mise en situation
+## Phase 3 : simulation de crise et mise en situation
 
-Contexte et description du problème à résoudre dans cette étape : Dans cette dernière étape, les élèves, réunis dans les mêmes groupes que lors de l'étape 2, simuleront la construction de réponses publiques coordonnées à des problèmes complexes pouvant survenir sur un territoire. Cette simulation constitue une expérience d'apprentissage riche et interactive, conçue pour approfondir les connaissances liées à l'administration publique et développer des compétences en résolution de problèmes et en prise de décision dans un cadre réaliste.
+**Contexte et description du problème à résoudre dans cette étape** : Dans cette dernière étape, les élèves, réunis dans les mêmes groupes que lors de l'étape 2, simuleront la construction de réponses publiques coordonnées à des problèmes complexes pouvant survenir sur un territoire. Cette simulation constitue une expérience d'apprentissage riche et interactive, conçue pour approfondir les connaissances liées à l'administration publique et développer des compétences en résolution de problèmes et en prise de décision dans un cadre réaliste.
 
-Objectifs d'apprentissage : Cette étape vise à mobiliser les compétences de résolution de problèmes, de collaboration, d'adaptabilité, ainsi que la capacité à présenter et défendre collectivement des choix argumentés. Les élèves sont invités à imaginer des stratégies efficaces pour atténuer les effets d'une crise, tout en prenant en compte les ressources limitées et les besoins globaux de la ville. Puisqu'aucun service ne peut agir seul face à une crise, les groupes doivent communiquer, négocier, et coordonner leurs actions avec les autres. Il s'agit d'établir des priorités, de mutualiser les ressources, et de proposer des réponses cohérentes. Chaque groupe est amené à présenter les actions de son service, à en justifier la pertinence et à défendre ses décisions en tenant compte à la fois des capacités de son département et des exigences collectives du territoire.
+**Objectifs d'apprentissage**: Cette étape vise à mobiliser les compétences de résolution de problèmes, de collaboration, d'adaptabilité, ainsi que la capacité à présenter et défendre collectivement des choix argumentés. Les élèves sont invités à imaginer des stratégies efficaces pour atténuer les effets d'une crise, tout en prenant en compte les ressources limitées et les besoins globaux de la ville. Puisqu'aucun service ne peut agir seul face à une crise, les groupes doivent communiquer, négocier, et coordonner leurs actions avec les autres. Il s'agit d'établir des priorités, de mutualiser les ressources, et de proposer des réponses cohérentes. Chaque groupe est amené à présenter les actions de son service, à en justifier la pertinence et à défendre ses décisions en tenant compte à la fois des capacités de son département et des exigences collectives du territoire.
 
-#### Conceptualisation
+### Conceptualisation
 
 Bienvenue à Elysian City. Elysian City, ville fictive à l'organisation municipale complexe, est confrontée à une série de crises soudaines, allant de catastrophes naturelles à des urgences technologiques. Chaque situation perturbe plusieurs dimensions de la vie urbaine et appelle une réaction rapide, coordonnée et adaptée de la part des services municipaux concernés.
 
@@ -347,7 +344,7 @@ Une série d'exemples d'« Alertes de Crise », allant de situations réelles à
 
 En complément de scénarios réalistes, une sélection de crises fictives et improbables est disponible en annexe. Ces situations, volontairement décalées, offrent un terrain d'expérimentation original pour les élèves. En introduisant des éléments inattendus ou improbables, ces crises permettent de renouveler l'attention, de susciter la curiosité et de stimuler l'imagination. Elles peuvent également désamorcer les tensions associées aux problématiques urbaines graves, en montrant que l'essentiel réside dans la capacité d'analyse, d'adaptation et de coopération face à toute forme de perturbation, même insolite. Les élèves s'appuieront sur ces scénarios de crise pour simuler la coordination de réponses publiques. Ils devront élaborer des stratégies collectives, collaborer activement et négocier entre groupes afin de construire des solutions globales permettant de gérer et atténuer les effets de chaque situation, tout en tenant compte des ressources limitées et des besoins prioritaires de la ville.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 **Introduction et mise en place**
 
@@ -390,88 +387,19 @@ Cette structure maintient la simulation rythmée et engageante, assurant une mob
 
 Pour les enseignants : afin de faciliter les échanges si les élèves rencontrent des difficultés à formuler des propositions, des suggestions sont disponibles en annexe afin de questionner et stimuler l'imagination et la créativité des élèves.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Concluez l'activité par une discussion collective centrée sur la collaboration entre services et la gestion de crise. Plusieurs axes peuvent structurer cette séance de retour :
 
-- Réflexion sur les résultats : Chaque groupe peut revenir sur les solutions proposées. Qu'est-ce qui a fonctionné ? Quels obstacles ont été rencontrés ? Une table ronde peut permettre de partager les principaux apprentissages, mais aussi ce qui aurait pu être amélioré. Ce retour favorise une compréhension plus fine des enjeux de coordination entre services.
-- Analyse du processus de prise de décision : Les élèves sont invités à analyser comment ils ont hiérarchisé leurs priorités face à l'urgence. Ont-ils su identifier les solutions les plus pertinentes ou ont-ils réagi sous pression ? La qualité de la communication entre groupes peut également être examinée : la coopération a-t-elle été fluide ? A-t-elle renforcé la pertinence des réponses ?
-- Application dans le monde réel : Les élèves peuvent comparer leurs propositions à des exemples réels de réponses municipales face à des crises. Quels parallèles ou différences notables ? Ces comparaisons permettent de relier la simulation à des politiques publiques concrètes, et de réfléchir aux notions de responsabilité civique et d'action collective.
-- Amélioration et optimisation de la stratégie : Les groupes peuvent envisager des ajustements. Quelles autres solutions auraient été possibles ? Comment optimiser la collaboration entre services ? Cette réflexion ouvre sur les compétences transférables acquises : anticipation, argumentation, écoute, gestion de priorités.
-- Retour sur la simulation : Un moment peut être consacré au ressenti général : ce qui a été apprécié, les moments difficiles, les améliorations souhaitées. Ce retour permet d'ajuster la démarche pour de futures sessions. L'enseignant peut aussi partager des observations sur la dynamique du groupe, souligner des réussites collectives ou les points qui ont suscité une prise de conscience.
+- **Réflexion sur les résultats** : Chaque groupe peut revenir sur les solutions proposées. Qu'est-ce qui a fonctionné ? Quels obstacles ont été rencontrés ? Une table ronde peut permettre de partager les principaux apprentissages, mais aussi ce qui aurait pu être amélioré. Ce retour favorise une compréhension plus fine des enjeux de coordination entre services.
+- **Analyse du processus de prise de décision** : Les élèves sont invités à analyser comment ils ont hiérarchisé leurs priorités face à l'urgence. Ont-ils su identifier les solutions les plus pertinentes ou ont-ils réagi sous pression ? La qualité de la communication entre groupes peut également être examinée : la coopération a-t-elle été fluide ? A-t-elle renforcé la pertinence des réponses ?
+- **Application dans le monde réel** : Les élèves peuvent comparer leurs propositions à des exemples réels de réponses municipales face à des crises. Quels parallèles ou différences notables ? Ces comparaisons permettent de relier la simulation à des politiques publiques concrètes, et de réfléchir aux notions de responsabilité civique et d'action collective.
+- **Amélioration et optimisation de la stratégie** : Les groupes peuvent envisager des ajustements. Quelles autres solutions auraient été possibles ? Comment optimiser la collaboration entre services ? Cette réflexion ouvre sur les compétences transférables acquises : anticipation, argumentation, écoute, gestion de priorités.
+- **Retour sur la simulation** : Un moment peut être consacré au ressenti général : ce qui a été apprécié, les moments difficiles, les améliorations souhaitées. Ce retour permet d'ajuster la démarche pour de futures sessions. L'enseignant peut aussi partager des observations sur la dynamique du groupe, souligner des réussites collectives ou les points qui ont suscité une prise de conscience.
 
-## Fiche pratique : découvrez les services uMap
+## Fiche pratique
 
-### Introduction à l'outil uMap
-
-uMap est un outil de cartographie open-source qui permet de créer, gérer et partager des cartes personnalisées. Il s'appuie sur les données d'OpenStreetMap, offrant une plateforme souple et accessible pour représenter des informations géographiques.
-
-Cette section a pour objectif d'accompagner les enseignants et les élèves dans l'usage pédagogique de uMap, en intégrant des cartes interactives au service des apprentissages. Elle montre comment cet outil peut enrichir les séances, en facilitant la visualisation, l'organisation et l'analyse spatiale des données recueillies.
-
-OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable. Elle est alimentée par des bénévoles, à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Elle rassemble une grande variété de données géographiques : rues, équipements publics, commerces, transports, etc. Souvent comparée à Wikipedia, cette carte permet à chacun de contribuer, mais aussi de réutiliser les données dans de nombreux contextes.
-
-### Démarrer avec uMap
-
-Dans le cadre de ce projet, une carte prête à l'emploi est mise à disposition. Elle permet à plusieurs classes, écoles, régions ou pays de collaborer sur une base commune, enrichissant progressivement une connaissance collective partagée.
-
-### Étape 1 : se connecter à uMap
-
-Ouvrez un navigateur web et allez sur le site web uMap. À partir de cet espace, vous pouvez consulter toutes les cartes disponibles et rechercher celle du projet intitulée « City Detective Challenge » pour y accéder et y contribuer. Vous pouvez également y accéder directement grâce à l'URL suivante : SteamCity : City Detective Challenge
-
-### Étape 2 : découvrir les couches
-
-Dans notre cas, toutes les couches ont été construites à partir du jeu introductif. Nous demandons de ne pas ajouter ni modifier les couches existantes, car la carte sera utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques. Par exemple, pour le département de la santé, le pointeur est bleu avec une icône de médicament.
-
-### Étape 3 : édition de la carte
-
-Pour enregistrer un nouveau lieu sur la carte, cliquez sur « éditer » (ou « edit »). Recherchez l'emplacement de votre site. Vous pouvez utiliser l'outil de recherche situé à gauche pour entrer directement les coordonnées GPS, ce qui facilite la localisation. Une fois l'emplacement trouvé (lieu, bâtiment ou service), cliquez sur l'icône du pointeur pour marquer l'endroit.
-
-Positionnez le pointeur sur le bon emplacement. Cela ouvrira une fenêtre de propriétés. Choisissez la couche appropriée, par exemple : Service de la mobilité et des transports. Dans la même fenêtre, nommez l'emplacement et ajoutez une description.
-
-Vous pouvez également ajouter une image. Pour cela, collez l'URL entre deux accolades. Pour créer facilement une URL à partir de vos images, utilisez un outil libre comme Postimage (https://postimg.cc/). Téléversez l'image, puis copiez le Lien Direct (sans créer de compte). Vous pouvez également utiliser GitHub (https://github.com/) : ajoutez votre image dans un dépôt public, ouvrez le fichier, puis copiez l'adresse de l'image (clic droit → copier l'adresse de l'image).
-
-Lorsque vous avez terminé, cliquez sur enregistrer. Passez en mode aperçu pour vérifier l'affichage de votre vignette.
-
-### Créez votre propre uMap : quelques conseils
-
-**Commencez votre carte**
-
-1. Ouvrez un navigateur web et allez sur le site web uMap.
-2. Cliquez sur « Créer une carte » pour démarrer un nouveau projet.
-3. Une fois que votre fond de carte s'ouvre, cliquez sur l'icône des paramètres (symbole d'engrenage) pour définir le titre de la carte, la description et les paramètres d'affichage par défaut.
-4. Choisissez le format de fond de carte qui convient le mieux aux besoins de votre projet (par exemple, standard, topographique, satellite).
-
-**Ajoutez des couches et des données**
-
-Les couches sont utilisées pour organiser différents types d'informations sur votre carte, comme différents sujets ou types de données.
-
-1. Cliquez sur l'icône des couches (deux couches empilées) pour gérer et ajouter de nouvelles couches.
-2. Pour ajouter une nouvelle couche, sélectionnez « Créer une couche » et nommez-la en fonction des données ou de l'activité (par exemple, Sites historiques, Données de trafic).
-3. Configurez les propriétés de la couche, comme la couleur des marqueurs ou des lignes, pour différencier visuellement les couches.
-
-**Ajoutez des marqueurs et des formes**
-
-1. Sélectionnez la couche que vous souhaitez modifier dans votre liste de couches.
-2. Choisissez l'outil approprié (marqueur, ligne ou polygone) dans la barre d'outils et cliquez sur la carte pour le placer.
-3. Chaque nouvel élément peut être personnalisé avec une boîte de dialogue contextuelle où vous pouvez ajouter des titres, des descriptions, des images ou des liens.
-4. Utilisez l'option « Partager et intégrer » pour obtenir le code HTML qui peut être inséré dans votre site.
-
-**Partagez et collaborez**
-
-1. uMap vous permet de contrôler qui peut voir ou modifier vos cartes.
-2. Dans les paramètres de la carte, ajustez les « Permissions » pour définir votre carte comme publique ou privée, et attribuez des droits d'édition aux membres de l'équipe ou aux étudiants.
-3. Les cartes peuvent être intégrées dans des sites web ou des blogs pour un partage plus large.
-
-**Conseils pratiques pour les enseignants**
-
-1. Idées de projets : Utilisez uMap pour divers projets éducatifs comme le suivi d'événements historiques, l'analyse des schémas de circulation ou la planification d'études écologiques.
-2. Développement des compétences : Les exercices de cartographie améliorent les compétences en analyse de données, en géographie et en pensée critique.
-3. Utilisation pour l'évaluation : Les enseignants peuvent utiliser les projets uMap pour évaluer la compréhension des concepts géographiques par les élèves et leur capacité à interpréter des données spatiales.
-
-**Dépannage et assistance**
-
-1. Problèmes courants : Pour les problèmes tels que les difficultés de connexion, les données qui ne s'affichent pas correctement ou les erreurs dans les fonctionnalités de la carte, consultez la FAQ d'uMap ou les forums pour trouver des solutions.
-2. Ressources d'apprentissage : Explorez les tutoriels et guides utilisateur disponibles en ligne pour maîtriser les fonctionnalités avancées et les techniques de dépannage : uMap/Guide (OpenStreetMap Wiki), Tutoriel : Umap / Openstreetmap (carte enrichie) (+ 2e tuto plus simple en description), Tutoriel : Umap, croquis et carte interactive (bases sans création de compte).
+Consultez la fiche technique détaillée pour l'utilisation de uMap : [Programmation : City Detective Challenge](/ressources/steamcity/programmation/programmation-city-detective-challenge).
 
 ## Aller plus loin
 
@@ -493,17 +421,17 @@ Durée : 30 à 60 minutes. Minimum 2 joueurs, pas de maximum. Attention : plus i
 
 Matériel :
 
-- Un pion « Réceptionniste en chef » : Utilisez n'importe quel pion d'un jeu comme le Monopoly.
-- Cartes « Demandes » : Imprimables facilement à partir du fichier joint. Il n'est pas nécessaire d'imprimer le verso si vous le souhaitez.
-- Cartes « Bonus » : Imprimables de la même manière que les cartes « Demandes ».
-- Marqueurs de tours recto-verso : une face bleue indiquant le nombre de cartes à distribuer selon le nombre de joueurs, une face rose signalant que le tour de jeu a été remporté par le groupe. Ces marqueurs permettent de suivre l'avancée des tours : Imprimables via le fichier joint.
+- **Un pion « Réceptionniste en chef »** : Utilisez n'importe quel pion d'un jeu comme le Monopoly.
+- **Cartes « Demandes »** : Imprimables facilement à partir du fichier joint. Il n'est pas nécessaire d'imprimer le verso si vous le souhaitez.
+- **Cartes « Bonus »** : Imprimables de la même manière que les cartes « Demandes ».
+- **Marqueurs de tours recto-verso** : une face bleue indiquant le nombre de cartes à distribuer selon le nombre de joueurs, une face rose signalant que le tour de jeu a été remporté par le groupe. Ces marqueurs permettent de suivre l'avancée des tours : Imprimables via le fichier joint.
 
 Astuces d'impression du jeu : Le jeu complet est disponible gratuitement sur Canva, modifiable et réutilisable à cette adresse : https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview
 
 Le fichier se compose de 36 pages à imprimer intégralement en recto-verso :
 
-- 30 pages pour les cartes « Demandes » : 15 pages recto avec les demandes citoyennes ; 15 pages verso pour masquer le texte et éviter toute transparence (optionnel mais recommandé).
-- 4 pages pour les cartes « Bonus » : 2 pages recto contenant les règles spécifiques de chaque bonus ; 2 pages verso pour l'habillage visuel, également optionnelles.
+- **30 pages pour les cartes « Demandes »** : 15 pages recto avec les demandes citoyennes ; 15 pages verso pour masquer le texte et éviter toute transparence (optionnel mais recommandé).
+- **4 pages pour les cartes « Bonus »** : 2 pages recto contenant les règles spécifiques de chaque bonus ; 2 pages verso pour l'habillage visuel, également optionnelles.
 - 2 pages pour les marqueurs de tour, à imprimer obligatoirement en recto-verso. Ces marqueurs possèdent une face bleue (nombre de cartes à distribuer) et une face rose (tour réussi).
 
 Si besoin, vous pouvez n'imprimer que les pages paires (demandes visibles et règles bonus) de la page 1 à 34.
@@ -546,19 +474,17 @@ Fin du jeu : Ce jeu est collaboratif, les joueurs gagnent ou perdent ensemble. L
 
 Titres de prestige selon les points obtenus :
 
-- 1 point (tour 4 réussi, échec tour 5) : Aspirants Assistants Administratifs. Premier pas vers une gestion municipale efficace, vous montrez un bon potentiel.
-- 3 points (tours 4 et 5 réussis, échec tour 6) : Observateurs de la Ville. Vous avez fait preuve de vigilance et d'engagement face à l'augmentation des demandes.
-- 6 points (tours 4, 5 et 6 réussis) : Maestros de l'Hôtel de Ville. Maîtrise exceptionnelle du service public. Vous avez géré les défis les plus complexes avec brio.
-
-## Carnet du Détective
+- **1 point (tour 4 réussi, échec tour 5)** : Aspirants Assistants Administratifs. Premier pas vers une gestion municipale efficace, vous montrez un bon potentiel.
+- **3 points (tours 4 et 5 réussis, échec tour 6)** : Observateurs de la Ville. Vous avez fait preuve de vigilance et d'engagement face à l'augmentation des demandes.
+- **6 points (tours 4, 5 et 6 réussis)** : Maestros de l'Hôtel de Ville. Maîtrise exceptionnelle du service public. Vous avez géré les défis les plus complexes avec brio.
 
 ### Bienvenue dans votre Carnet du Détective
 
 Bonjour, jeunes détectives ! En vous lançant dans le Défi Détective de la Ville, ce carnet vous accompagnera dans votre exploration du fonctionnement des services municipaux.
 
-- Documentation : Ce carnet vous permet de noter et organiser vos découvertes, idées et solutions tout au long de l'enquête.
-- Réflexion : Il vous invite à analyser les informations, établir des liens entre elles, et réfléchir à ce qu'elles révèlent sur la gestion d'une ville.
-- Collaboration : Partagé à l'échelle de la classe, le Carnet du Détective devient un outil collectif pour construire ensemble des réponses cohérentes et argumentées.
+- **Documentation** : Ce carnet vous permet de noter et organiser vos découvertes, idées et solutions tout au long de l'enquête.
+- **Réflexion** : Il vous invite à analyser les informations, établir des liens entre elles, et réfléchir à ce qu'elles révèlent sur la gestion d'une ville.
+- **Collaboration** : Partagé à l'échelle de la classe, le Carnet du Détective devient un outil collectif pour construire ensemble des réponses cohérentes et argumentées.
 
 Un carnet structuré en trois sections : Le carnet est divisé en trois grandes parties, correspondant aux étapes clés du Défi Détective de la Ville. À chaque étape : de la découverte, à l'observation, puis à la gestion de crises : vous remplirez les sections correspondantes.
 
@@ -632,8 +558,6 @@ Services à documenter :
 - Service Environnement, Eau et Déchets
 - Service de la culture, du tourisme, des sports et des loisirs
 - Service de la voirie et propreté des espaces publics
-
-## Annexe : listes des alertes
 
 ### Liste 1 : scénarios « plausibles »
 

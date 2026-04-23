@@ -58,8 +58,6 @@ Objectifs de développement durable
 
 L'activité en bref
 
-### Structure de l'activité
-
 ### Étape 1 : collecter des données
 
 L'étape 1 a permis aux élèves de découvrir les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, les élèves ont acquis des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base. Cette première étape a mis en place les bases de la compréhension de la collecte de données environnementales et de leur interprétation au moyen d'indicateurs visuels.
@@ -76,7 +74,7 @@ L'étape 3 est une phase cruciale du protocole de surveillance du CO2, au cours 
 
 L'étape 4 est le point culminant du protocole de surveillance du CO2, où les élèves transforment leur analyse de données en solutions exploitables. Cette phase de 40 minutes se concentre sur les applications pratiques des données collectées, encourageant les élèves à développer des solutions concrètes pour améliorer la qualité de l'air. Les élèves apprennent à appliquer des techniques d'analyse statistique, à partager leurs résultats via des plateformes mondiales comme Vittamap et à élaborer des recommandations concrètes pour des changements de comportement. Cette étape est cruciale car elle fait le lien entre l'observation scientifique et la mise en œuvre pratique, en enseignant aux élèves comment utiliser les données pour prendre des décisions éclairées sur les pratiques de ventilation et la gestion de l'environnement. Elle souligne l'importance de la collaboration scientifique mondiale tout en maintenant une focalisation locale sur les améliorations environnementales immédiates.
 
-## Pour bien démarrer
+### Structure de l'activité
 
 Durée : 180 minutes ou 3 leçons (première pour l'étape 1, deuxième pour l'étape 2 et le début de l'étape 3, et troisième pour la fin de l'étape 3 et l'étape 4)
 
@@ -84,7 +82,8 @@ Niveau de difficulté : Facile (adaptable du collège au lycée)
 
 Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bit) ; 1 shield Grove ; 1 led RGB Neopixel ; 1 écran LCD ; 1 capteur Sensirion SCD30 ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB
 
-## Glossaire
+
+### Glossaire
 
 **Dioxyde de carbone** : Le dioxyde de carbone est un gaz inodore, incolore et sans goût. Il est donc difficile de détecter sa présence où que ce soit. Une molécule de dioxyde de carbone est composée d'un atome de carbone (C) et de deux atomes d'oxygène (O). Mais d'où vient-il ? Lorsque nous inspirons, nous inhalons du dioxygène (O2) de l'air et expirons du dioxyde de carbone (CO2). L'activité humaine produit également du dioxyde de carbone, notamment lors de la combustion d'hydrocarbures (chauffage au bois, combustion de carburants, centrales à charbon, etc.). Dans une pièce fermée, on peut considérer que le dioxyde de carbone provient uniquement de la respiration des personnes présentes à l'intérieur.
 
@@ -94,15 +93,13 @@ Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bi
 
 **LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 mHz en France) qui permet l'échange de données entre objets connectés. Le signal est émis sur une large gamme spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine, jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits de données LoRaWan sont très faibles, quelques kilobits par seconde seulement. Ce type de réseau est donc utilisé pour l'Internet des Objets (IoT), c'est-à-dire les capteurs fixes (ex : température, humidité, etc.). Les capteurs utilisant la technologie LoRa (modulation des ondes radio) se connectent à Internet via des passerelles. Il peut s'agir d'antennes (comme en France avec Orange) ou de boîtiers à connecter à votre réseau personnel fibre/ADSL. Cette technologie est compatible avec les cartes programmables NUCLEO-L476RG, Arduino et Micro:bit.
 
-## Protocole
+## Étape 1 : collecter des données
 
-### Étape 1 : collecter des données
+**Contexte et description du problème à résoudre à cette étape** : Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
 
-Contexte et description du problème à résoudre à cette étape : Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
+**Objectifs d'apprentissage**: L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
 
-Objectifs d'apprentissage : L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
-
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
@@ -132,11 +129,11 @@ Pour plus de facilité d'utilisation, nous décrivons ici la deuxième méthode,
 
 Documentation : Selon les scientifiques qui ont contribué au site nousaerons.fr, les seuils suivants devraient être pris en considération :
 
-- Taux de CO2 ~ 410 ppm : il s'agit du taux moyen mesuré en extérieur, hors épisodes de pollution ; plus on se rapproche de ce taux dans une pièce, mieux c'est, car c'est le signe que l'air se renouvelle. À l'inverse, dans un espace confiné, sans renouvellement d'air suffisant, le risque de contamination par les aérosols augmente rapidement, et cela se traduit par l'augmentation du taux de CO2 dans la pièce.
-- Taux de CO2 &lt; 600 ppm : ce taux est recommandé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces de restauration où le port du masque n'est pas autorisé. Vous pouvez télécharger les consignes de ventilation mises en place dans les cantines de Nantes Métropole au format PDF ou au format ODT modifiable pour les adapter à votre situation.
-- Taux de CO2 &lt; 800 ppm : ce taux est préconisé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces clos ; il s'agit d'une recommandation du Haut Conseil de la Santé Publique et correspond à un renouvellement d'air satisfaisant dans l'arrêté du 27 décembre 2022 du Code de l'environnement pour les établissements scolaires.
-- Taux de CO2 &gt; 1500 ppm : correspond à un seuil d'action immédiate, recommandé par le Haut Conseil de la Santé Publique et dans l'arrêté du 27 décembre 2022 du Code de l'environnement.
-- Taux de CO2 = 5000 ppm : correspond à la limite d'exposition professionnelle (LEP).
+- **Taux de CO2 ~ 410 ppm** : il s'agit du taux moyen mesuré en extérieur, hors épisodes de pollution ; plus on se rapproche de ce taux dans une pièce, mieux c'est, car c'est le signe que l'air se renouvelle. À l'inverse, dans un espace confiné, sans renouvellement d'air suffisant, le risque de contamination par les aérosols augmente rapidement, et cela se traduit par l'augmentation du taux de CO2 dans la pièce.
+- **Taux de CO2 &lt; 600 ppm** : ce taux est recommandé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces de restauration où le port du masque n'est pas autorisé. Vous pouvez télécharger les consignes de ventilation mises en place dans les cantines de Nantes Métropole au format PDF ou au format ODT modifiable pour les adapter à votre situation.
+- **Taux de CO2 &lt; 800 ppm** : ce taux est préconisé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces clos ; il s'agit d'une recommandation du Haut Conseil de la Santé Publique et correspond à un renouvellement d'air satisfaisant dans l'arrêté du 27 décembre 2022 du Code de l'environnement pour les établissements scolaires.
+- **Taux de CO2 &gt; 1500 ppm** : correspond à un seuil d'action immédiate, recommandé par le Haut Conseil de la Santé Publique et dans l'arrêté du 27 décembre 2022 du Code de l'environnement.
+- **Taux de CO2 = 5000 ppm** : correspond à la limite d'exposition professionnelle (LEP).
 
 Un taux de dioxyde de carbone de 800 ppm est un seuil également mentionné dans les Références pour l'aération et la ventilation des espaces scolaires (Avril 2021). Le dioxyde de carbone, aussi appelé dioxyde de carbone ou CO2, est un gaz expiré lors de la respiration humaine qui s'accumule dans les espaces clos mal ventilés. La mesure de la concentration de CO2 dans l'air est donc un moyen simple d'évaluer si le renouvellement de l'air est suffisant ou non. À l'extérieur, la concentration de CO2 dans l'air est d'environ 0,04 %, soit 400 ppm (parties par million). Idéalement, les concentrations intérieures ne devraient pas dépasser 600 ppm, notamment dans les zones où le port du masque n'est pas autorisé, comme les cantines scolaires. Des concentrations supérieures à 0,08 %, soit 800 ppm, sont révélatrices d'une ventilation inadéquate dans un contexte de COVID-19 (recommandation actuelle du Haut Conseil de la Santé Publique, www.hcsp.fr).
 
@@ -147,7 +144,7 @@ Quelles sont les différentes manières de ventiler une pièce ? Il existe plusi
 3. Ventilation mécanique : Ventilation Mécanique Contrôlée (VMC) : Aspiration de l'air vicié des pièces humides (cuisine, salle de bains) et renouvellement de l'air des autres pièces par des bouches d'aération.
 4. Ventilation forcée : Systèmes de climatisation avec fonction d'échange d'air : Certains climatiseurs sont équipés de fonctions de ventilation qui amènent de l'air frais de l'extérieur. Purificateurs d'air avec fonction de ventilation : En plus de filtrer l'air, certains modèles peuvent également renouveler l'air intérieur. Ces différentes méthodes peuvent être combinées pour optimiser la qualité de l'air intérieur et répondre aux besoins spécifiques de chaque espace, que ce soit pour réduire l'humidité, éviter la condensation ou simplement assurer une bonne circulation de l'air.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Configuration du seuil de CO2 (10 minutes). L'activité est lancée par l'enseignant à l'aide du tableau blanc, de papiers ou de feuilles A4. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -174,10 +171,10 @@ Consignes pour les élèves : Allumez une LED (type Neopixel) de couleur orange.
 
 Bon à savoir : R, V et B signifient respectivement Rouge, Vert et Bleu. La superposition de ces trois lumières colorées, dans des proportions différentes, crée toutes les couleurs selon le principe de synthèse additive. Ces proportions varient entre 0 et 255, correspondant respectivement à 0% et 100% de luminosité. Ainsi, par exemple, si vous souhaitez obtenir :
 
-- Lumière BLANCHE, choisir : R : 255 ; V : 255 ; B : 255.
-- Lumière NOIRE, choisir : R : 0 ; V : 0 ; B : 0.
-- Feu ROUGE : R : 255 ; V : 0 ; B : 0.
-- Lumière ORANGE : R : 255 ; V : 96 ; B : 0.
+- **Lumière BLANCHE, choisir** : R : 255 ; V : 255 ; B : 255.
+- **Lumière NOIRE, choisir** : R : 0 ; V : 0 ; B : 0.
+- **Feu ROUGE** : R : 255 ; V : 0 ; B : 0.
+- **Lumière ORANGE** : R : 255 ; V : 96 ; B : 0.
 
 En combinant ces valeurs, on peut théoriquement obtenir 16 777 216 couleurs (il y a 256 nuances possibles pour chaque couleur, de 0 à 255, soit un total de 2563 = 16 777 216 couleurs). Il existe un autre bloc permettant de sélectionner la couleur de la lumière émise par la LED. Ce bloc est présenté plus loin dans le livret. Il permet un choix de couleurs plus simple, mais plus limité, à l'aide d'une palette présélectionnée.
 
@@ -189,19 +186,19 @@ Consignes pour les élèves : Mesurer le taux de CO2 à l'aide du capteur SCD30,
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 3 : Indicateur LED CO2 ».
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer les notions clés qu'ils ont apprises : quels polluants atmosphériques sont nocifs pour la santé, comment les mesurer et quelles données environnementales de construction doivent être prises en compte ? Ces trois notions permettront aux élèves d'étudier les résultats de leurs mesures.
 
 Connaissances mobilisées : les élèves découvrent le CO2, son impact sur la santé et comment les capteurs peuvent mesurer la qualité de l'air intérieur. Réflexion sur la mise en œuvre en classe : les élèves programment et assemblent un détecteur de CO2, en définissant des seuils d'action en fonction des niveaux de CO2. Résultats d'apprentissage généraux : Les élèves acquièrent une expérience pratique de l'utilisation de la technologie pour collecter et interpréter des données environnementales.
 
-### Étape 2 : afficher les données pour obtenir les informations nécessaires
+## Étape 2 : afficher les données pour obtenir les informations nécessaires
 
-Contexte et description du problème à résoudre à cette étape : Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
+**Contexte et description du problème à résoudre à cette étape** : Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
 
-Objectifs d'apprentissage : Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
+**Objectifs d'apprentissage**: Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
@@ -211,7 +208,7 @@ Quelle partie du programme doit être modifiée ? Les deux blocs faisant référ
 
 En observant l'interface de programmation, quel élément pouvez-vous ajouter à votre programme pour afficher les données dans la console ? Dans la partie « communication », vous trouverez un bloc d'instructions permettant d'écrire sur la console. Cette instruction permet à la carte d'envoyer les mesures prises (via le capteur de CO2 SCD30) à l'ordinateur via son port série. Cela nécessite que la carte reste connectée en permanence à l'ordinateur. Cet affichage est possible via une zone de l'interface Vittascience (« la console d'affichage »).
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Affichage du CO2 (10 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -225,25 +222,25 @@ Consignes pour les élèves : Modifiez légèrement le programme précédent en 
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 5 : Visualisation des données ».
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à l'étape 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé l'étape 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Chacune d'entre elles est ensuite utilisée pour analyser les données afin de comprendre l'influence des données sur le résultat.
 
 Connaissances mobilisées : les élèves explorent des méthodes de visualisation des données, comme l'utilisation de LED et d'écrans d'ordinateur. Réflexion sur la mise en œuvre en classe : les élèves modifient les programmes pour afficher les valeurs de CO2 et observent comment la rétroaction visuelle (DEL) aide à interpréter la qualité de l'air. Résultats d'apprentissage généraux : Les élèves comprennent comment représenter efficacement les données environnementales pour la prise de décision.
 
-### Étape 3 : analyser les données et en tirer des leçons
+## Étape 3 : analyser les données et en tirer des leçons
 
-Contexte et description du problème à résoudre dans cette étape : Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
+**Contexte et description du problème à résoudre dans cette étape** : Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
 
-Objectifs d'apprentissage : Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
+**Objectifs d'apprentissage**: Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir sur des concepts clés. Pour vous aider à le faire, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
 Quels facteurs doivent être pris en compte lors de l'analyse des données ? Il est par exemple possible d'enregistrer les heures d'ouverture et de fermeture des fenêtres, les pauses et les récréations, le début des cours, le nombre de personnes dans la salle, la taille de la salle, la présence d'une ventilation, etc. Et de comparer ces moments clés avec les conséquences sur l'évolution des niveaux de dioxyde de carbone mesurés. De cette manière, l'utilité et l'efficacité de la ventilation de la salle peuvent être démontrées quantitativement.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Configurer et installer l'appareil (20 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -253,23 +250,23 @@ Activité 2 : Analyser les données (30 minutes). L'activité est lancée par l'
 
 Consignes aux élèves : Analyser les données. Démontrer quantitativement l'utilité et l'efficacité de la ventilation des locaux.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'analyse des données est une étape essentielle pour transformer les données brutes en informations, permettant aux élèves d'apprendre à tirer des conclusions. Demandez aux élèves de tirer des conclusions entre l'environnement d'analyse et la qualité de vie. Comment la ventilation d'un bâtiment peut-elle influencer le bien-être de ses occupants ?
 
 Connaissances mobilisées : les élèves analysent les données collectées pour identifier les modèles et comprendre les facteurs affectant les niveaux de CO2. Réflexion sur la mise en œuvre en classe : les élèves comparent les tendances du CO2 avec des activités telles que la ventilation, l'occupation et la taille de la pièce pour tirer des conclusions. Résultats d'apprentissage généraux : Les élèves développent des compétences de pensée critique et apprennent à utiliser l'analyse des données pour évaluer la santé environnementale.
 
-### Étape 4 : utilisez les données pour modifier votre comportement et améliorer la situation de départ
+## Étape 4 : utilisez les données pour modifier votre comportement et améliorer la situation de départ
 
-Contexte et description du problème à résoudre dans cette étape : La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
+**Contexte et description du problème à résoudre dans cette étape** : La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
 
-Objectifs d'apprentissage : Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
+**Objectifs d'apprentissage**: Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, l'enseignant encourage les élèves à considérer d'autres facteurs que la simple valeur du CO2 dans l'air. Aidez-les à explorer la corrélation entre des activités humaines spécifiques, des variables temporelles et des variations des niveaux de CO2. Formulez des hypothèses sur les facteurs potentiels influençant les tendances observées.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Analyse statistique des données (20 minutes). L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -281,364 +278,16 @@ Consignes pour les élèves : Maintenant que les données ont été enregistrée
 
 Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap. Cliquez sur le bouton « + » → « Ajouter une expérience ». Sur le formulaire, remplissez les informations suivantes : Nom du projet ; Type de kit : kit station de mesure ; Comment s'est déroulé le projet ? (décrivez ici votre protocole de mesure) ; Lieu ; Dates de mesure ; Données (pour ajouter des données, vous pouvez inclure plusieurs séries de mesures. Vous pouvez saisir des données directement dans le tableau "Champ de données", et/ou ajouter votre propre fichier .csv depuis votre carte SD) ; Photos/Vidéos ; Langue. Une fois tous les champs remplis, il ne vous reste plus qu'à cliquer sur le bouton "Ajouter une expérience". Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap. Les élèves peuvent ensuite les comparer avec d'autres expériences similaires. Filtrez les expériences par type de "Kit station de mesure". Cliquez ensuite sur une expérience et sur le bouton "comparer". Cliquez à nouveau sur une autre expérience et sur le bouton "comparer avec l'expérience sélectionnée".
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant encourage les élèves à partager des idées pour améliorer le taux de CO2 dans le lieu choisi tout au long de la semaine. Résumer les idées sous forme d'un résumé des bonnes pratiques à mettre en œuvre.
 
 Connaissances mobilisées : Les élèves appliquent le raisonnement statistique pour proposer des solutions visant à améliorer la qualité de l'air en fonction de leurs données. Réflexion sur la mise en œuvre en classe : les élèves créent des recommandations pour de meilleures pratiques de ventilation et partagent leurs résultats à l'échelle mondiale via Vittamap. Résultats d'apprentissage généraux : Les élèves relient les informations fondées sur les données à des actions concrètes, favorisant ainsi un sens des responsabilités pour un mode de vie durable.
 
-## Fiche pratique 1 : Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30
+## Fiche pratique
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Indoor Air Quality](/ressources/steamcity/programmation/programmation-indoor-air-quality).
 
-Code à copier dans l'éditeur :
-
-```cpp
-#include <Wire.h>
-#include <rgb_lcd.h>
-#include <SCD30.h>
-
-rgb_lcd lcdRgb;
-
-float t_scd;
-float scd30_co2 = 0;
-float scd30_t = 0;
-float scd30_h = 0;
-
-void serial_setupConnection(int baudrate) {
-  Serial.begin(baudrate);
-  while (!Serial) {
-    Serial.println("En attente de l'ouverture du port série...");
-    delay(1000);
-  }
-  Serial.println("Port série activé. Baudrate: " + String(baudrate));
-  delay(50);
-}
-
-float scd30_read(uint8_t dataSelect) {
-  t_scd = millis() - t_scd;
-  if (t_scd > 1000 && scd30.isAvailable()) {
-    float result[3] = {0};
-    scd30.getCarbonDioxideConcentration(result);
-    scd30_co2 = result[0];
-    scd30_t = result[1];
-    scd30_h = result[2];
-  }
-  switch (dataSelect) {
-    case 0: return scd30_co2;
-    case 1: return scd30_t;
-    case 2: return scd30_h;
-  }
-}
-
-void setup() {
-  lcdRgb.begin(16, 2);
-  serial_setupConnection(9600);
-  Wire.begin();
-  scd30.initialize();
-  t_scd = millis();
-  lcdRgb.setCursor(0, 0);
-  lcdRgb.print(String("CO2 level (ppm)"));
-  lcdRgb.setCursor(0, 0);
-  lcdRgb.print(String(scd30_read(0)));
-}
-
-void loop() {}
-```
-
-## Fiche pratique 2 : Configuration des couleurs des LED
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
-
-Aperçu des blocs
-
-Code à copier dans l'éditeur :
-
-```cpp
-#include <Wire.h>
-#include <rgb_lcd.h>
-
-rgb_lcd lcdRgb;
-
-void setup() {
-  lcdRgb.begin(16, 2);
-  lcdRgb.setRGB(255, 96, 0);
-}
-
-void loop() { }
-```
-
-## Fiche pratique 3 : Indicateur LED CO2
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
-
-Dans le programme, il faut ensuite ajouter des blocs de "structure conditionnelle". Ces blocs ont une nomenclature telle que : si cette condition est remplie, alors exécuter une instruction sinon exécuter une autre instruction. Dans ce cas, il y a quatre conditions à anticiper, car il y a quatre intervalles de taux de CO2. Ce programme combine les programmes créés aux étapes 1 et 2, avec l'ajout d'un bloc de structure conditionnelle.
-
-Dans ce programme, la valeur du dioxyde de carbone est comparée à différents seuils. Afin d'éviter d'avoir à effectuer plusieurs mesures du taux, qui seront ensuite comparées aux différents seuils, il est possible de stocker la valeur mesurée dans une variable. Nous vous suggérons de nommer cette variable "Taux de CO2". Pour créer cette variable, cliquez sur la rubrique Variables.
-
-Un panneau latéral s'ouvre : cliquez sur « Créer une variable ». Nommez la variable « Taux de CO2 » par exemple, puis cliquez sur OK. Des blocs spécifiques à cette nouvelle variable sont créés et accessibles depuis la rubrique Variables. Pour utiliser cette variable, cliquez sur la rubrique Variables.
-
-Code à copier dans l'éditeur :
-
-```cpp
-#include <Wire.h>
-#include <SCD30.h>
-#include <rgb_lcd.h>
-#include <Adafruit_NeoPixel.h>
-
-#define NP_LED_COUNT_2 30
-
-rgb_lcd lcdRgb;
-Adafruit_NeoPixel Neopixel_2(NP_LED_COUNT_2, 2, NEO_GRB + NEO_KHZ800);
-
-float t_scd;
-float scd30_co2 = 0;
-float scd30_t = 0;
-float scd30_h = 0;
-float CO2_rate;
-
-void serial_setupConnection(int baudrate) {
-  Serial.begin(baudrate);
-  while (!Serial) {
-    Serial.println("En attente de l'ouverture du port série...");
-    delay(1000);
-  }
-  Serial.println("Port série activé. Baudrate: " + String(baudrate));
-  delay(50);
-}
-
-float scd30_read(uint8_t dataSelect) {
-  t_scd = millis() - t_scd;
-  if (t_scd > 1000 && scd30.isAvailable()) {
-    float result[3] = {0};
-    scd30.getCarbonDioxideConcentration(result);
-    scd30_co2 = result[0];
-    scd30_t = result[1];
-    scd30_h = result[2];
-  }
-  switch (dataSelect) {
-    case 0: return scd30_co2;
-    case 1: return scd30_t;
-    case 2: return scd30_h;
-  }
-}
-
-void neopixel_showAllLed(Adafruit_NeoPixel *neoPx, uint8_t ledCount, uint8_t r, uint8_t g, uint8_t b) {
-  for (int i=0; i<ledCount; i++) {
-    neoPx->setPixelColor(i, neoPx->Color(r, g, b));
-  }
-  neoPx->show();
-}
-
-void setup() {
-  serial_setupConnection(9600);
-  Wire.begin();
-  scd30.initialize();
-  t_scd = millis();
-  lcdRgb.begin(16, 2);
-  Neopixel_2.begin();
-}
-
-void loop() {
-  CO2_rate = scd30_read(0);
-  lcdRgb.setCursor(0, 0);
-  lcdRgb.print(String("CO2 rate (ppm) :"));
-  lcdRgb.setCursor(0, 1);
-  lcdRgb.print(String(CO2_rate));
-  if (CO2_rate <= 600) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 51, 204, 0);
-  } else if (CO2_rate > 600 && CO2_rate < 800) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 255, 0);
-  } else if (CO2_rate >= 800 && CO2_rate < 1000) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 102, 0);
-  } else {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 0, 0);
-  }
-  delay(250);
-}
-```
-
-## Fiche pratique 4 : Affichage du CO2
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
-
-N'oubliez pas d'ajouter une pause d'une seconde pour limiter la fréquence d'affichage des valeurs sur l'écran de l'ordinateur. Cela facilite la lecture des valeurs mesurées.
-
-Code à copier dans l'éditeur :
-
-```cpp
-#include <Wire.h>
-#include <SCD30.h>
-#include <rgb_lcd.h>
-#include <Adafruit_NeoPixel.h>
-
-#define NP_LED_COUNT_2 30
-
-rgb_lcd lcdRgb;
-Adafruit_NeoPixel Neopixel_2(NP_LED_COUNT_2, 2, NEO_GRB + NEO_KHZ800);
-
-float t_scd;
-float scd30_co2 = 0;
-float scd30_t = 0;
-float scd30_h = 0;
-float CO2_rate;
-
-void serial_setupConnection(int baudrate) {
-  Serial.begin(baudrate);
-  while (!Serial) {
-    Serial.println("En attente de l'ouverture du port série...");
-    delay(1000);
-  }
-  Serial.println("Port série activé. Baudrate: " + String(baudrate));
-  delay(50);
-}
-
-float scd30_read(uint8_t dataSelect) {
-  t_scd = millis() - t_scd;
-  if (t_scd > 1000 && scd30.isAvailable()) {
-    float result[3] = {0};
-    scd30.getCarbonDioxideConcentration(result);
-    scd30_co2 = result[0];
-    scd30_t = result[1];
-    scd30_h = result[2];
-  }
-  switch (dataSelect) {
-    case 0: return scd30_co2;
-    case 1: return scd30_t;
-    case 2: return scd30_h;
-  }
-}
-
-void neopixel_showAllLed(Adafruit_NeoPixel *neoPx, uint8_t ledCount, uint8_t r, uint8_t g, uint8_t b) {
-  for (int i=0; i<ledCount; i++) {
-    neoPx->setPixelColor(i, neoPx->Color(r, g, b));
-  }
-  neoPx->show();
-}
-
-void setup() {
-  serial_setupConnection(9600);
-  Wire.begin();
-  scd30.initialize();
-  t_scd = millis();
-  lcdRgb.begin(16, 2);
-  Neopixel_2.begin();
-  CO2_rate = scd30_read(0);
-  delay(1000*1);
-  Serial.println(String(CO2_rate));
-  lcdRgb.setCursor(0, 0);
-  lcdRgb.print(String("CO2 rate (ppm)"));
-  lcdRgb.setCursor(0, 1);
-  lcdRgb.print(String(CO2_rate));
-  if (CO2_rate <= 600) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 51, 204, 0);
-  } else if (CO2_rate > 600 && CO2_rate < 800) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 255, 0);
-  } else if (CO2_rate >= 800 && CO2_rate < 1000) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 102, 0);
-  } else {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 0, 0);
-  }
-  delay(250);
-}
-
-void loop() { }
-```
-
-## Fiche pratique 5 : Visualisation des données
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
-
-1. Pour visualiser le graphique, dans la console d'affichage, sélectionnez « Mode graphique » à droite.
-2. À partir de cette représentation graphique, il est possible d'exporter l'ensemble des données sous forme de fichier .csv (lisible par des tableurs tels qu'Excel, Libre Office Calc, GoogleSheet, Numbers, etc.). Pour cela, il suffit de cliquer sur le bouton Exporter en bas de la fenêtre. Les données seront alors accessibles depuis le tableur utilisé par défaut sur l'ordinateur. La fonction "graphing" du tableur permet de tracer un graphique montrant l'évolution des niveaux de dioxyde de carbone au cours du temps, qui pourra ensuite être imprimé.
-
-Code à copier dans l'éditeur :
-
-```cpp
-#include <Wire.h>
-#include <SCD30.h>
-#include <rgb_lcd.h>
-#include <Adafruit_NeoPixel.h>
-
-#define NP_LED_COUNT_2 30
-
-rgb_lcd lcdRgb;
-Adafruit_NeoPixel Neopixel_2(NP_LED_COUNT_2, 2, NEO_GRB + NEO_KHZ800);
-
-float t_scd;
-float scd30_co2 = 0;
-float scd30_t = 0;
-float scd30_h = 0;
-float CO2_rate;
-
-void serial_setupConnection(int baudrate) {
-  Serial.begin(baudrate);
-  while (!Serial) {
-    Serial.println("En attente de l'ouverture du port série...");
-    delay(1000);
-  }
-  Serial.println("Port série activé. Baudrate: " + String(baudrate));
-  delay(50);
-}
-
-float scd30_read(uint8_t dataSelect) {
-  t_scd = millis() - t_scd;
-  if (t_scd > 1000 && scd30.isAvailable()) {
-    float result[3] = {0};
-    scd30.getCarbonDioxideConcentration(result);
-    scd30_co2 = result[0];
-    scd30_t = result[1];
-    scd30_h = result[2];
-  }
-  switch (dataSelect) {
-    case 0: return scd30_co2;
-    case 1: return scd30_t;
-    case 2: return scd30_h;
-  }
-}
-
-void neopixel_showAllLed(Adafruit_NeoPixel *neoPx, uint8_t ledCount, uint8_t r, uint8_t g, uint8_t b) {
-  for (int i=0; i<ledCount; i++) {
-    neoPx->setPixelColor(i, neoPx->Color(r, g, b));
-  }
-  neoPx->show();
-}
-
-void setup() {
-  serial_setupConnection(9600);
-  Wire.begin();
-  scd30.initialize();
-  t_scd = millis();
-  lcdRgb.begin(16, 2);
-  Neopixel_2.begin();
-  CO2_rate = scd30_read(0);
-  delay(1000*1);
-  Serial.print("@Graph:");
-  Serial.print("CO2 rate (in ppm):");
-  Serial.print(CO2_rate);
-  Serial.print("|");
-  Serial.print("\n");
-  delay(50);
-  lcdRgb.setCursor(0, 0);
-  lcdRgb.print(String("CO2 rate (ppm)"));
-  lcdRgb.setCursor(0, 1);
-  lcdRgb.print(String(CO2_rate));
-  if (CO2_rate <= 600) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 51, 204, 0);
-  } else if (CO2_rate > 600 && CO2_rate < 800) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 255, 0);
-  } else if (CO2_rate >= 800 && CO2_rate < 1000) {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 102, 0);
-  } else {
-    neopixel_showAllLed(&Neopixel_2, NP_LED_COUNT_2, 255, 0, 0);
-  }
-  delay(250);
-}
-
-void loop() { }
-```
-
-## Approfondir et aller plus loin
 
 ### Exploration de la problématique au travers d'autres initiatives
 

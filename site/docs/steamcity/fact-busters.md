@@ -61,8 +61,6 @@ Phase 2 : Construire des protocoles de vérification des faits. La deuxième pha
 
 Phase 3 : Diffuser la culture scientifique (optionnelle). Enfin, la troisième phase vise à apprendre aux élèves à vulgariser et à présenter leurs approches de manière claire et compréhensible. Ils créent des supports visuels et médiatiques pour partager leurs protocoles. Cette phase développe leurs compétences en communication scientifique et en pédagogie. Cette dernière étape permet d'aborder avec les élèves l'importance de la diffusion des connaissances scientifiques pour encourager une citoyenneté informée et responsable.
 
-## Pour bien démarrer
-
 Durée : Cette activité peut être répartie sur plusieurs séances, ou sur plusieurs disciplines dans une approche interdisciplinaire. Il est possible d'utiliser la phase 1 de manière autonome (environ 30 minutes), de combiner les phases 1 et 2 (2 séances) ou de réaliser l'ensemble des trois phases. Il faut compter un minimum de 3 séances pour réaliser la totalité de l'activité.
 
 Niveau de difficulté: L'activité implique la pensée critique, le raisonnement logique et une bonne compréhension et utilisation de l'approche scientifique.
@@ -72,7 +70,7 @@ Matériel:
 Phase 1 : Comprendre la démarche de vérification des faits Accès à des ressources (livres, articles, vidéos, images ...) qui constitueront la base d'analyse Phase 2 : Construire des protocoles de vérification des faits Pas de matériel spécifique nécessaire Phase 3 : Diffuser la culture scientifique Pour une version numérique, accès à des ordinateurs ou tablettes et à des outils de création graphique (Canva par exemple propose une version gratuite pour le monde scolaire) ou pour une version papier, accès à des panneaux type carton-plume pour créer des posters
 
 
-## Glossaire
+### Glossaire
 
 Mots-clés/Concepts et Definitions
 
@@ -98,17 +96,14 @@ Fausse nouvelle (fake news) : Informations délibérément fausses ou trompeuses
 
 Source : Origine ou point de départ d'une information. Dans le contexte de la recherche et de la vérification des faits, une source fiable est une référence crédible et vérifiable qui provient souvent d'institutions reconnues, de publications académiques, ou de professionnels experts dans un domaine spécifique.
 
-## Protocole
+## Phase 1 : comprendre la démarche de vérification des faits
+
+**Contexte et description du problème à résoudre à cette étape** : Les élèves apprendront à analyser le processus de construction, de justification, et de référencement d'une information pour en comprendre la fiabilité. L'objectif est de développer l'esprit critique face aux informations disponibles et d'être en capacité de différencier ceux qui adoptent une démarche rigoureuse de ceux qui n'énoncent que des faits sans s'appuyer sur une approche de vérification et d'expérimentation stricte.
+
+**Objectifs d'apprentissage**: Développer l'esprit critique des élèves, apprendre à évaluer la fiabilité des sources d'information, comprendre et appliquer la méthode scientifique.
 
 
-### Phase 1 : comprendre la démarche de vérification des faits
-
-Contexte et description du problème à résoudre à cette étape: Les élèves apprendront à analyser le processus de construction, de justification, et de référencement d'une information pour en comprendre la fiabilité. L'objectif est de développer l'esprit critique face aux informations disponibles et d'être en capacité de différencier ceux qui adoptent une démarche rigoureuse de ceux qui n'énoncent que des faits sans s'appuyer sur une approche de vérification et d'expérimentation stricte.
-
-Objectifs d'apprentissage : Développer l'esprit critique des élèves, apprendre à évaluer la fiabilité des sources d'information, comprendre et appliquer la méthode scientifique.
-
-
-#### Conceptualisation
+### Conceptualisation
 
 
 Dans cette phase, nous cherchons à comprendre comment une information est construite et comment analyser si elle repose sur un processus scientifique valide. En appliquant des techniques rigoureuses de vérification des faits, nous pouvons évaluer à notre niveau si les informations nous semblent fiables et développer notre esprit critique face aux informations moins rigoureuses que nous trouvons facilement dans les médias ou sur internet. Plusieurs critères nous permettent d'évaluer la fiabilité perçue d'une information :
@@ -128,7 +123,7 @@ Rigueur : La rigueur se réfère à la précision et à l'exactitude avec lesque
 Pour réaliser cette activité, et en fil rouge de l'ensemble de la séquence, nous utiliserons des faits provenant des lieux communs, des mythes, ou des pseudo-sciences qui sont largement répandus dans la société. Par exemple, des lieux communs peuvent inclure : « Les épinards sont riches en fer », « On peut attraper un rhume en s'exposant au froid » ou « Les poissons rouges ont une mémoire de trois secondes ». Des pseudosciences plus complexes peuvent également être explorées, par exemple : « Une machine à mouvement perpétuel peut nous permettre de produire de l'énergie sans apport », « Il n'y a pas de gravité dans l'espace » ou « L'effet Coriolis influence la direction de l'eau dans un évier ». Nous sommes conscients que ces croyances et lieux communs peuvent différer selon les cultures et les pays. Nous proposons une liste d'exemples en annexe, mais n'hésitez pas à adapter les propositions à ce qui est répandus autour de vous, pour que cela soit pertinent pour vos élèves.
 
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 
 Afin de réaliser l'activité, vous pouvez diviser la classe en groupes de 3 ou 4 élèves auxquels vous distribuerez un sujet spécifique à étudier (cf. le tableau ci-dessus, mais vous pouvez également choisir vos propres sujets, ou demander aux élèves quels sont les remèdes de grand-mère par exemple ou les lieux communs qu'ils ont souvent entendus).
@@ -199,7 +194,7 @@ Une fois les ressources identifiées et distribuées, les élèves devront réal
 Pour chaque ressource, les élèves devront remplir le formulaire ci-dessus.
 
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 
 Pour conclure l'activité, les élèves se réuniront pour une discussion collective où chaque groupe présentera ses conclusions sur les sujets étudiés. Cette présentation permettra de partager les différentes approches et méthodologies utilisées, ainsi que les résultats obtenus. Les élèves réfléchiront ensemble aux questionnements suivants :
@@ -208,14 +203,14 @@ Quelles étaient les difficultés rencontrées lors de l'analyse des sources ? C
 
 Ces questions visent à renforcer leur esprit critique et à affiner leur compréhension des méthodes de vérification des faits afin de préparer la phase qui suit.
 
-### Phase 2 : construire des protocoles de vérification des faits
+## Phase 2 : construire des protocoles de vérification des faits
 
-Contexte et description du problème à résoudre à cette étape: Cette phase se concentre sur la construction de protocoles scientifiques rigoureux pour vérifier des faits et informations. Après avoir analysé la fiabilité des sources lors de la première étape, les élèves apprendront à explorer ces faits de manière scientifique. Ils formuleront de véritables hypothèses, concevront des expériences précises et rédigeront des protocoles détaillés.
+**Contexte et description du problème à résoudre à cette étape** : Cette phase se concentre sur la construction de protocoles scientifiques rigoureux pour vérifier des faits et informations. Après avoir analysé la fiabilité des sources lors de la première étape, les élèves apprendront à explorer ces faits de manière scientifique. Ils formuleront de véritables hypothèses, concevront des expériences précises et rédigeront des protocoles détaillés.
 
-Objectifs d'apprentissage : Renforcer la rigueur scientifique, d'acquérir des compétences en méthodologie expérimentale et de comprendre comment valider ou invalider des hypothèses de manière objective et reproductible.
+**Objectifs d'apprentissage**: Renforcer la rigueur scientifique, d'acquérir des compétences en méthodologie expérimentale et de comprendre comment valider ou invalider des hypothèses de manière objective et reproductible.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 La démarche scientifique est un processus rigoureux et méthodique utilisé pour explorer, comprendre et expliquer des phénomènes naturels. Elle se compose de plusieurs étapes clés qui permettent de formuler des hypothèses, de tester ces hypothèses et de tirer des conclusions basées sur des données empiriques :
@@ -240,7 +235,7 @@ Lors de cette phase, les élèves exploreront chacune de ces étapes afin de con
 
 Les protocoles que proposeront les élèves n'ont pas vocation à être mis en œuvre. En effet, certains peuvent être difficiles à implémenter en classe, et il est essentiel de laisser aux élèves une large marge de créativité et d'exploration. Ils peuvent s'imaginer utiliser des outils de mesure sophistiqués, accéder à des essais cliniques ... sans être limités par des contraintes matérielles ou logistiques. Cette liberté d'invention permet de stimuler leur motivation et d'encourager des scénarios ambitieux. Cependant, si des protocoles simples et réalisables émergent, n'hésitez pas à envisager une étape complémentaire pour mettre en œuvre ces expériences.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 
 Créer un modèle de protocole scientifique
@@ -307,7 +302,7 @@ Après les 20 premières minutes, les groupes pourront avoir accès à internet 
 Chaque groupe doit s'assurer que leur protocole est détaillé et suit les étapes d'une démarche scientifique réelle et structurée. Ils devront notamment décrire précisément le phénomène observé, formuler des questions spécifiques, proposer des hypothèses testables, et concevoir des expériences avec des variables contrôlées. Rappel : Les protocoles proposés par les élèves ne sont pas destinés à être mis en œuvre afin que les élèves puissent explorer des solutions complexes et riches. Cependant, si des protocoles simples et réalisables émergent, n'hésitez pas à envisager une étape complémentaire pour mettre en œuvre ces expériences.
 
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 
 Pour conclure cette phase et favoriser une réflexion sur les acquis d'apprentissage, il est important de mener une discussion collective avec les élèves. Invitez chaque groupe à présenter son protocole scientifique devant la classe. Encouragez les élèves à expliquer chaque étape de leur démarche, de l'observation initiale à la formulation des hypothèses et à la conception des expériences. Après chaque présentation, facilitez une discussion collective où les autres groupes peuvent poser des questions, donner des commentaires constructifs et proposer des améliorations potentielles. Vous pouvez guider la discussion au travers des questions suivantes :
@@ -316,14 +311,14 @@ Comment avez-vous formulé vos hypothèses et quelles étaient les bases de ces 
 
 Fournissez des retours constructifs sur les protocoles présentés, en soulignant les aspects bien réalisés et en suggérant des améliorations possibles, en particulier pour préparer la phase suivante (optionnelle)
 
-### Phase 3 : diffuser la culture scientifique (phase optionnelle)
+## Phase 3 : diffuser la culture scientifique (phase optionnelle)
 
-Contexte et description du problème à résoudre à cette étape: Cette phase finale vise à aborder la problématique de la vulgarisation scientifique avec les élèves. En développant leurs compétences en communication scientifique, les élèves pourront non seulement renforcer leur propre compréhension des concepts abordés, mais aussi contribuer à une diffusion plus large de la culture scientifique au sein de leur communauté.
+**Contexte et description du problème à résoudre à cette étape** : Cette phase finale vise à aborder la problématique de la vulgarisation scientifique avec les élèves. En développant leurs compétences en communication scientifique, les élèves pourront non seulement renforcer leur propre compréhension des concepts abordés, mais aussi contribuer à une diffusion plus large de la culture scientifique au sein de leur communauté.
 
-Objectifs d'apprentissage : Apprendre à vulgariser et à présenter des faits scientifiques de manière claire et compréhensible. Développer des compétences en communication scientifique et en pédagogie. Sensibiliser les élèves à l'importance de la rigueur scientifique dans la vérification des faits. Encourager une citoyenneté informée et responsable.
+**Objectifs d'apprentissage**: Apprendre à vulgariser et à présenter des faits scientifiques de manière claire et compréhensible. Développer des compétences en communication scientifique et en pédagogie. Sensibiliser les élèves à l'importance de la rigueur scientifique dans la vérification des faits. Encourager une citoyenneté informée et responsable.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 La vulgarisation scientifique est essentielle dans la lutte contre les lieux communs et les pseudo-sciences, car elle permet de rendre les connaissances scientifiques accessibles et compréhensibles pour tous. En expliquant clairement les faits et les méthodes scientifiques, les élèves participent à la promotion d'une société mieux informée et plus critique. Cela est crucial pour une approche citoyenne éclairée, car des citoyens bien informés sont mieux équipés pour prendre des décisions responsables et contribuer positivement à la société. En démystifiant les idées fausses et en promouvant les faits vérifiables, les élèves aident à construire un environnement où la vérité scientifique est valorisée et où les décisions sont basées sur des preuves solides.
@@ -333,7 +328,7 @@ La vulgarisation scientifique doit être précise, accessible et attrayante. Les
 Parmi les vulgarisateurs célèbres qui font un travail remarquable auprès des citoyens, et en particulier des jeunes, on peut citer des personnalités comme Neil deGrasse Tyson, un astrophysicien américain qui utilise souvent l'humour et des analogies simples pour expliquer des concepts complexes. Les nouveaux médias jouent également un rôle crucial dans ce travail de vulgarisation. Les plateformes comme YouTube, les podcasts, et les réseaux sociaux permettent de toucher un large public de manière rapide et interactive. Par exemple, des chaînes YouTube comme "Kurzgesagt – In a Nutshell" utilisent des animations graphiques pour expliquer des idées scientifiques de manière visuellement attrayante et facile à comprendre. Ces nouveaux formats permettent de capter l'attention des jeunes et de leur fournir des connaissances de manière ludique et engageante.
 
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 
 Pour bien débuter cette phase et apporter du dynamisme, vous pouvez faire découvrir aux élèves plusieurs réalisations de différents vulgarisateurs scientifiques, en particulier adaptés à un public jeune. Proposez plusieurs ressources (podcasts, YouTubers, infographies animées) afin d'analyser collectivement les techniques utilisées par ces vulgarisateurs pour rendre l'information accessible et engageante. Cette analyse leur permettra de s'inspirer des meilleures pratiques et d'améliorer leurs propres méthodes de communication.
@@ -343,7 +338,7 @@ Une fois cette phase de découverte terminée, invitez les élèves à réfléch
 Enfin, encouragez les élèves à partager leurs travaux au-delà de la classe. Par exemple, ils pourraient organiser une exposition au sein de l'école, présenter leurs projets lors d'une journée portes ouvertes, ou même publier leurs travaux sur le site internet de l'établissement ou sur une chaine YouTube dédiée. Ces initiatives permettront de sensibiliser un plus large public à l'importance de la vérification des faits et de la démarche scientifique.
 
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 
 Pour conclure cette phase, menez une discussion collective avec les élèves sur l'importance de la diffusion des connaissances scientifiques. Organisez des sessions de présentation où chaque groupe d'élèves pourra exposer son travail devant ses camarades. Ces sessions permettront d'échanger sur les différentes approches et méthodologies utilisées, tout en développant les compétences oratoires des élèves. Encouragez les élèves à utiliser un langage simple et direct, à expliquer les termes techniques et à illustrer leurs propos avec des exemples concrets. Après chaque présentation, facilitez une discussion collective où les autres groupes peuvent poser des questions, donner des commentaires constructifs et proposer des améliorations potentielles.

@@ -41,11 +41,6 @@ sidebar_position: 9
 
 ---
 
-## BIRDSONGS AI EXPLORER
-
----
-
-
 ## Introduction
 
 Cette activité plonge les étudiants dans l'identification des oiseaux et la compréhension de leurs chants, en mettant l'accent sur l'application de l'intelligence artificielle (IA) et de l'apprentissage supervisé. À travers des sessions interactives, les participants acquerront une connaissance approfondie de diverses espèces d'oiseaux tout en explorant l'intersection entre la technologie et l'ornithologie. L'objectif est de favoriser une meilleure appréciation de la biodiversité urbaine et de démontrer le potentiel des outils d'intelligence artificielle dans les efforts de conservation, en s'alignant sur les objectifs de développement durable (ODD) des Nations Unies, en particulier l'ODD 11 (Villes et communautés durables), l'ODD 13 (Action pour le climat) et l'ODD 15 (La vie sur terre).
@@ -94,7 +89,7 @@ Matériel nécessaire :
 Ordinateurs ou appareils mobiles Microphones pour l'enregistrement des sons d'oiseaux Accès à l'application ou au site web BirdNET ou Merlin Bird ID Carnets pour l'enregistrement des données Projecteur pour les démonstrations OpenStreetMap pour la géolocalisation et la cartographie
 
 
-## Glossaire
+### Glossaire
 
 
 Mots-clés et concepts                                               Définitions
@@ -119,19 +114,16 @@ Intelligence artificielle   La simulation des processus de l'intelligence humain
 
 Le système écologique que l'on trouve dans un environnement urbain, comprenant à Écosystème urbain la fois des éléments naturels et des éléments créés par l'homme.
 
-## Protocole
-
-
-### Étape 1 : exploration de la diversité des oiseaux urbains et de leurs
+## Étape 1 : exploration de la diversité des oiseaux urbains et de leurs
 
 rôles écologiques
 
-Contexte et description du problème à résoudre dans cette étape : Présenter aux élèves le monde des oiseaux, leur rôle dans les écosystèmes urbains et l'importance de préserver la diversité aviaire. Souligner comment les oiseaux contribuent à l'équilibre écologique et communiquent par leurs chants. Discutez de l'interconnexion de la biodiversité urbaine et du bien-être humain, et ouvrez la voie à l'exploration de la manière dont la technologie peut contribuer à la conservation.
+**Contexte et description du problème à résoudre dans cette étape** : Présenter aux élèves le monde des oiseaux, leur rôle dans les écosystèmes urbains et l'importance de préserver la diversité aviaire. Souligner comment les oiseaux contribuent à l'équilibre écologique et communiquent par leurs chants. Discutez de l'interconnexion de la biodiversité urbaine et du bien-être humain, et ouvrez la voie à l'exploration de la manière dont la technologie peut contribuer à la conservation.
 
-Objectifs d'apprentissage : S'assurer que les étudiants comprennent le rôle écologique des oiseaux, y compris leur impact sur les écosystèmes, leurs fonctions de pollinisateurs et de disséminateurs de graines, et leur rôle d'indicateurs de la santé de l'environnement.
+**Objectifs d'apprentissage**: S'assurer que les étudiants comprennent le rôle écologique des oiseaux, y compris leur impact sur les écosystèmes, leurs fonctions de pollinisateurs et de disséminateurs de graines, et leur rôle d'indicateurs de la santé de l'environnement.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 Au cours de cette phase, les élèves définiront les concepts clés liés aux oiseaux urbains et les facteurs influençant leur présence dans les villes. Pour les aider à formuler des hypothèses solides, il faut clarifier des idées fondamentales telles que la biodiversité urbaine, le comportement des oiseaux et l'impact de l'homme sur les écosystèmes. L'enseignant guidera les élèves dans la compréhension de ces concepts par le biais de discussions et de définitions simples.
@@ -195,15 +187,15 @@ Stockage des données : Stocker les données quantitatives (dénombrement des oi
 6. Présentation des résultats : Présenter les résultats à l'aide de graphiques qui montrent la
 corrélation entre l'activité humaine et la présence d'oiseaux. Documentez l'ensemble du protocole dans une infographie à partager avec la classe, l'école ou sur les médias sociaux.
 
-### Étape 2 : jeu d'identification des chants d'oiseaux
+## Étape 2 : jeu d'identification des chants d'oiseaux
 
 
-Contexte et description du problème à résoudre dans cette étape : Le but de cette étape est d'entraîner les élèves à reconnaître les chants d'oiseaux des espèces urbaines grâce à un jeu- questionnaire interactif. L'objectif est d'améliorer la mémoire auditive et visuelle des élèves, ce qui leur sera utile lors de la future campagne d'observation de la diversité des espèces d'oiseaux en milieu urbain. En participant à cette activité, les élèves se familiariseront avec une variété de chants d'oiseaux et apprendront à différencier les espèces sur la base des vocalisations et des indices visuels. Cette étape sert également d'introduction aux concepts d'apprentissage supervisé, jetant les bases de la reconnaissance automatisée des chants d'oiseaux dans les étapes suivantes.
+**Contexte et description du problème à résoudre dans cette étape** : Le but de cette étape est d'entraîner les élèves à reconnaître les chants d'oiseaux des espèces urbaines grâce à un jeu- questionnaire interactif. L'objectif est d'améliorer la mémoire auditive et visuelle des élèves, ce qui leur sera utile lors de la future campagne d'observation de la diversité des espèces d'oiseaux en milieu urbain. En participant à cette activité, les élèves se familiariseront avec une variété de chants d'oiseaux et apprendront à différencier les espèces sur la base des vocalisations et des indices visuels. Cette étape sert également d'introduction aux concepts d'apprentissage supervisé, jetant les bases de la reconnaissance automatisée des chants d'oiseaux dans les étapes suivantes.
 
-Objectifs d'apprentissage : Améliorer la capacité d'identification des chants d'oiseaux, développer les compétences d'observation et fournir une première introduction au concept d'apprentissage supervisé.
+**Objectifs d'apprentissage**: Améliorer la capacité d'identification des chants d'oiseaux, développer les compétences d'observation et fournir une première introduction au concept d'apprentissage supervisé.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 Au cours de cette phase, les élèves identifieront les caractéristiques uniques des chants d'oiseaux qui distinguent une espèce d'une autre. Commencez par leur faire écouter plusieurs fois des enregistrements de différentes espèces d'oiseaux, en les encourageant à discuter collectivement des caractéristiques spécifiques de chaque chant d'oiseau. Cette discussion collective mettra en évidence des caractéristiques telles que la hauteur, la répétition et le rythme (éléments clés de l'identification). Ensuite, demandez aux élèves d'émettre des hypothèses sur la manière dont ils peuvent reconnaître les espèces d'oiseaux en se basant uniquement sur des indices sonores ou visuels. Invitez-les à réfléchir à des caractéristiques spécifiques qui facilitent la reconnaissance, comme la tonalité d'un chant ou des traits visuels distinctifs tels que les motifs des plumes. Introduisez le concept selon lequel les machines, comme les humains, peuvent être entraînées à reconnaître ces caractéristiques grâce à l'apprentissage supervisé (un sujet qu'ils exploreront dans les activités suivantes).
@@ -284,13 +276,13 @@ Ces discussions aideront les élèves à synthétiser leur apprentissage, à rec
 
 Conseils pour les enseignants : L'enseignant peut diffuser cette vidéo pour aider les élèves à mieux comprendre l'IA et son mode d'apprentissage. Cette vidéo attrayante et informative fournit une explication claire des concepts de l'apprentissage automatique, illustrant la façon dont les systèmes d'IA traitent les données pour reconnaître des modèles et faire des prédictions. En regardant cette vidéo, les élèves auront un aperçu des principes fondamentaux de l'IA, ce qui leur permettra de mieux comprendre les activités d'apprentissage supervisé qu'ils s'apprêtent à entreprendre. Les représentations visuelles et les exemples de la vidéo aideront à consolider le lien entre les processus d'apprentissage humain et les algorithmes d'apprentissage automatique, préparant ainsi les étudiants à l'expérience pratique avec Google Teachable Machine à l'étape suivante.
 
-### Étape 3 : construction d'un modèle de reconnaissance des chants
+## Étape 3 : construction d'un modèle de reconnaissance des chants
 
 d'oiseaux par l'IA
 
-Contexte et description du problème à résoudre dans cette étape : Introduire l'apprentissage supervisé par une expérience pratique avec Google Teachable Machine. Les élèves saisiront les principes fondamentaux de l'apprentissage automatique et comprendront comment les ordinateurs peuvent être entraînés à reconnaître les chants d'oiseaux. Cette étape s'appuie sur les techniques d'identification manuelle apprises précédemment.
+**Contexte et description du problème à résoudre dans cette étape** : Introduire l'apprentissage supervisé par une expérience pratique avec Google Teachable Machine. Les élèves saisiront les principes fondamentaux de l'apprentissage automatique et comprendront comment les ordinateurs peuvent être entraînés à reconnaître les chants d'oiseaux. Cette étape s'appuie sur les techniques d'identification manuelle apprises précédemment.
 
-Objectifs d'apprentissage :
+**Objectifs d'apprentissage**:
 
 1. Comprendre les concepts fondamentaux de l'apprentissage supervisé.
 2. Maîtriser le processus de formation d'un modèle d'apprentissage automatique à l'aide de
@@ -302,7 +294,7 @@ d'oiseaux.
 5. Évaluer le potentiel et les limites de l'IA dans les efforts de conservation de la biodiversité.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 Dans cette phase, les étudiants se plongeront dans les concepts fondamentaux de l'apprentissage supervisé, avec un accent particulier sur la reconnaissance des chants d'oiseaux basée sur l'IA. Avant de s'engager dans Google Teachable Machine, il est essentiel que les étudiants comprennent les concepts clés suivants :
@@ -351,13 +343,13 @@ Comment la qualité des données d'entraînement affecte-t-elle la précision d'
 
 Ces discussions aideront les élèves à synthétiser ce qu'ils ont appris, à comprendre les limites de l'apprentissage automatique et à apprécier le rôle complémentaire que l'IA peut jouer aux côtés de l'expertise humaine pour soutenir la conservation de la biodiversité.
 
-### Étape 4 : collecte, analyse et cartographie des données sur le chant
+## Étape 4 : collecte, analyse et cartographie des données sur le chant
 
 des oiseaux
 
-Contexte et description du problème à résoudre dans cette étape : Les élèves recueillent des chants d'oiseaux au cours d'une promenade dans la nature, analysent ces enregistrements à l'aide des modèles d'IA qu'ils ont précédemment créés et synthétisent leurs résultats en créant une carte visuelle des oiseaux. L'objectif est de valider les hypothèses formulées lors de l'étape 1 en reliant l'apprentissage théorique aux observations sur le terrain, à l'analyse des données et à la visualisation. Cette activité intégrée combine l'exploration en plein air, l'analyse de données et la cartographie pour favoriser une meilleure compréhension de la diversité des oiseaux dans les zones urbaines.
+**Contexte et description du problème à résoudre dans cette étape** : Les élèves recueillent des chants d'oiseaux au cours d'une promenade dans la nature, analysent ces enregistrements à l'aide des modèles d'IA qu'ils ont précédemment créés et synthétisent leurs résultats en créant une carte visuelle des oiseaux. L'objectif est de valider les hypothèses formulées lors de l'étape 1 en reliant l'apprentissage théorique aux observations sur le terrain, à l'analyse des données et à la visualisation. Cette activité intégrée combine l'exploration en plein air, l'analyse de données et la cartographie pour favoriser une meilleure compréhension de la diversité des oiseaux dans les zones urbaines.
 
-Objectifs d'apprentissage :
+**Objectifs d'apprentissage**:
 
 1. Développer des compétences pratiques en matière de collecte de données sur le terrain et
 d'enregistrement de chants d'oiseaux.
@@ -370,7 +362,7 @@ géospatiaux.
 terrain peuvent être intégrées pour soutenir les efforts de conservation.
 
 
-#### Conceptualisation
+### Conceptualisation
 
 
 Au cours de cette phase, les étudiants se pencheront sur plusieurs concepts clés qui sont essentiels pour comprendre la recherche sur le terrain, l'analyse des données et le rôle de la technologie dans l'étude des populations d'oiseaux urbains. Ces concepts sont les suivants :

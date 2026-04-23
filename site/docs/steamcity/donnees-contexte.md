@@ -58,21 +58,18 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 2. **Étape 2 -- « Données vs. Prise de décision » :** Les élèves seront organisés en petits groupes pour une activité de jeu de rôle. Chaque groupe recevra une mission spécifique comme "Améliorer la sécurité routière pour les piétons" ou "Trouver des solutions pour augmenter la fréquentation des parcs", qu'il devra accomplir en utilisant un ensemble de données fourni par l'enseignant. Ces ensembles de données peuvent inclure des statistiques, des graphiques, des rapports... et doivent conduire à la proposition de plusieurs propositions de politiques publiques pour améliorer la situation donnée. Les élèves seront chargés de présenter leurs conclusions, en soulignant les causes et les effets, et comment ils ont traité les ensembles de données.
 3. **Étape 3 -- « Données vs. Contexte » :** Les élèves, toujours organisés dans les groupes créés à l'étape 2, avec la même mission, auront accès à une nouvelle information, qui n'avait pas été révélée à l'étape précédente. Ils devront discuter si et comment cette nouvelle ressource a un impact sur leurs conclusions. Ils peuvent affiner leurs propositions de politiques publiques et réfléchir à la façon dont ils ont construit leur compréhension de la situation tout au long de l'activité.
 
-## Glossaire
+### Glossaire
 
-| Terme | Définition |
-|---|---|
-| Données | Faits bruts et non traités qui nécessitent un contexte pour devenir utiles. |
-| Information | Données qui ont été traitées, organisées et interprétées pour ajouter du sens et de la valeur. |
-| Connaissance | Conscience, compréhension obtenue par l'expérience ou l'étude. |
-| Contexte | La situation dans laquelle quelque chose existe ou se produit, et qui peut aider à l'expliquer. |
-| Littératie des données | Capacité à lire, comprendre, créer et communiquer des données en tant qu'information. |
-| Jeu de données | Une collection de données. |
-| Précision des données | Les données représentent correctement les événements ou objets du monde réel qu'elles sont censées décrire. |
-| Narration de données | Art de présenter des données avec un récit contextuel. |
-| Pyramide DIKW | Classe de modèles représentant les relations structurelles ou fonctionnelles supposées entre données, information, connaissance et sagesse. |
+- **Données** : Faits bruts et non traités qui nécessitent un contexte pour devenir utiles.
+- **Information** : Données qui ont été traitées, organisées et interprétées pour ajouter du sens et de la valeur.
+- **Connaissance** : Conscience, compréhension obtenue par l'expérience ou l'étude.
+- **Contexte** : La situation dans laquelle quelque chose existe ou se produit, et qui peut aider à l'expliquer.
+- **Littératie des données** : Capacité à lire, comprendre, créer et communiquer des données en tant qu'information.
+- **Jeu de données** : Une collection de données.
+- **Précision des données** : Les données représentent correctement les événements ou objets du monde réel qu'elles sont censées décrire.
+- **Narration de données** : Art de présenter des données avec un récit contextuel.
+- **Pyramide DIKW** : Classe de modèles représentant les relations structurelles ou fonctionnelles supposées entre données, information, connaissance et sagesse.
 
----
 
 ## Étape 1 : 5 minutes, 20 données
 
@@ -90,7 +87,7 @@ Afin d'aborder ces activités utilisant des données de manière structurée, le
 
 ### Investigation par les élèves
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Assurez-vous que la salle/le lieu où se déroulera la chasse est suffisamment investi de données à collecter, pour que l'activité atteigne pleinement son objectif. Si ce n'est pas le cas, ajoutez des éléments qui rendront la chasse aux données plus dynamique.
 :::
 
@@ -141,7 +138,7 @@ Au cours de cette étape, l'objectif sera pour les élèves de formuler des reco
 
 ### Investigation par les élèves
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Dans cette étape, les élèves travailleront en petits groupes autour de situations données. Chaque groupe peut recevoir une problématique différente à étudier mais vous pouvez également proposer le même sujet à l'ensemble de la classe afin de comparer leurs résultats. En travaillant sur les ensembles de données, les élèves développeront des hypothèses, prendront des décisions basées sur les données et affineront leur compréhension des problèmes urbains en question, les préparant ainsi à proposer des politiques publiques bien informées.
 :::
 
@@ -230,8 +227,6 @@ Afin de garder trace de l'évolution des réflexions des élèves et conclure l'
 
 ---
 
-## Approfondir et aller plus loin
-
 ### Exploration professionnelle
 
 Dans la société actuelle, de nouvelles carrières ont émergé, étroitement liées aux données. Ces carrières s'étendent à travers divers domaines, y compris les professions scientifiques, techniques et de gouvernance. Explorez avec les élèves ces diverses opportunités :
@@ -283,8 +278,6 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 - [DIKW pyramid (Wikipedia)](https://en.wikipedia.org/wiki/DIKW_pyramid)
 
 ---
-
-## Annexe : outil de réflexion
 
 ### Restitution de l'étape 1 -- découvrir les données qui m'entourent
 
@@ -338,7 +331,7 @@ Vous avez accès à un ensemble de données sur les accidents aux passages piét
 - « J'ai évité de justesse quelques accidents en traversant la route dans ce virage. La visibilité est mauvaise, surtout quand il pleut, et les voitures ne semblent pas ralentir. »
 - « J'ai entendu d'autres voisins parler du nombre croissant d'accidents au passage pour piétons. Nous devrions faire quelque chose pour régler ce problème. »
 
-:::tip[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Conseil aux enseignants -- pour stimuler la discussion]
 Encouragez les élèves à utiliser des outils statistiques pour visualiser les tendances et les corrélations dans les données. Ils pourraient représenter graphiquement le nombre d'accidents en fonction des conditions météorologiques ou de la vitesse moyenne pour voir s'il existe des tendances évidentes. Ils pourraient calculer le taux d'augmentation des accidents au fil du temps pour quantifier l'aggravation du problème. Ils peuvent également examiner la fréquence des accidents les jours de pluie par rapport aux jours sans pluie. Cela peut les aider à déterminer si la météo est un facteur important dans les accidents.
 
 Demandez-leur également de classer les plaintes par thèmes communs, comme les problèmes de visibilité, les voitures qui roulent trop vite ou la signalisation inadéquate. Cela peut les aider à identifier les problèmes les plus fréquents. Ils peuvent ensuite hiérarchiser ces problèmes lorsqu'ils suggèrent des solutions. Les plaintes suggèrent que la visibilité et les voitures qui roulent trop vite sont des problèmes de sécurité importants.
@@ -428,7 +421,7 @@ Proposez vos solutions de manière construite pour les présenter à l'équipe P
 | Centre communautaire Nova | 1,5 km au nord | Piscine intérieure, salle de sport, studio de yoga |
 | Salle de sport Elite Fitness | 2 km à l'est | Gymnase de 2 km, ouvert 24 heures sur 24, services d'entraînement personnalisé |
 
-:::tip[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Conseil aux enseignants -- pour stimuler la discussion]
 Vous pouvez guider vos élèves pour analyser le taux d'augmentation de la population et le développement de nouvelles unités d'habitation. Encouragez-les à identifier des tendances dans les commentaires et les retours. Les plaintes concernant le bruit émanant de divers groupes démographiques pourraient suggérer que les aménagements du parc ne répondent pas aux besoins de la communauté dans son ensemble.
 
 Cela pourrait les amener à conclure que l'augmentation de la population pourrait avoir entraîné une augmentation du bruit et de la congestion dans le parc, ce qui pourrait décourager l'utilisation du parc. Sur la base de ces conclusions, les élèves pourraient proposer des stratégies telles que l'introduction de zones plus calmes et moins encombrées dans le parc et d'équilibrer les activités pour les différents groupes d'âge comme solutions potentielles.
@@ -511,7 +504,7 @@ L'oiseau à ailes bleues (ou Bluewing) est une espèce originaire du district de
 | Août | 2023 | 47 | 60 | 8 |
 | Septembre | 2023 | 48 | 62 | 10 |
 
-:::tip[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Conseil aux enseignants -- pour stimuler la discussion]
 Cet ensemble de données peut être analysé pour identifier les tendances de la population d'oiseaux et des sites de nidification. Il peut s'agir d'examiner les changements au fil du temps et de corréler ces changements avec des facteurs tels que la saisonnalité. Le déclin de la population et des sites de nidification suggère une dégradation ou une interruption de l'habitat, qui peut être due à des activités humaines ou à des changements environnementaux.
 
 L'analyse pourrait également fournir des informations sur l'impact des changements dans la couverture végétale, la qualité des sources d'eau et la circulation piétonnière sur la population d'oiseaux. Une diminution de la couverture végétale pourrait entraîner une perte d'habitat ou de sources de nourriture, tandis qu'une diminution de la qualité des sources d'eau pourrait avoir un impact sur la santé des oiseaux. Une circulation piétonnière élevée pourrait entraîner des perturbations et du stress pour les oiseaux.
@@ -583,7 +576,7 @@ Utilisez des ensembles de données pour identifier les facteurs clés contribuan
 | 2023-08 | 81250 | 48750 | 1,56% |
 | 2023-09 | 78750 | 47250 | -3,08% |
 
-:::tip[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Conseil aux enseignants -- pour stimuler la discussion]
 Cet ensemble de données fournit une image claire des variations de température dans le district de Solaris sur une période de plus d'un an. Les températures maximales peuvent notamment aider à identifier les mois où l'effet d'îlot de chaleur est le plus grave. Vous pouvez guider vos élèves pour rechercher des tendances et des corrélations dans les données de température et pour examiner comment celles-ci sont corrélées avec le moment de la consommation d'énergie maximale.
 
 Les données fournissent également des informations sur les différents matériaux utilisés dans le quartier ainsi que sur leurs indices d'absorption de chaleur et leurs valeurs d'albédo. Il s'agit de facteurs clés contribuant à l'effet d'îlot de chaleur urbain. Vous pouvez encourager les élèves à réfléchir à la manière dont des matériaux alternatifs ou supplémentaires pourraient être utilisés pour réduire l'absorption de chaleur dans le quartier. Par exemple, l'utilisation de matériaux plus réfléchissants ou la mise en place de toits verts pourraient être des stratégies efficaces.
@@ -676,10 +669,10 @@ Cette décision officielle approuve le développement d'une nouvelle zone commer
 
 **Aperçu du projet :**
 
-- Lieu de développement : District central de Solaris, ville d'Helios
-- Superficie totale de développement : 2,5 kilomètres carrés
-- Surface verte concernée : 0,375 kilomètre carré (15 % de la zone de développement)
-- Nature du développement : Complexe commercial à usage mixte comprenant des espaces de vente au détail, des bureaux et des installations récréatives
+- **Lieu de développement** : District central de Solaris, ville d'Helios
+- **Superficie totale de développement** : 2,5 kilomètres carrés
+- **Surface verte concernée** : 0,375 kilomètre carré (15 % de la zone de développement)
+- **Nature du développement** : Complexe commercial à usage mixte comprenant des espaces de vente au détail, des bureaux et des installations récréatives
 
 **Justification et objectif :**
 
@@ -689,22 +682,22 @@ Cette décision officielle approuve le développement d'une nouvelle zone commer
 
 **Plan de développement détaillé :**
 
-- Surface commerciale : 40 000 mètres carrés abritant une gamme de magasins et de boutiques.
-- Espace de bureaux : 60 000 mètres carrés conçus pour une utilisation multi-locataires, axés sur les entreprises de haute technologie et vertes.
-- Installations récréatives : 5 000 mètres carrés comprenant un cinéma, des restaurants et un centre de remise en forme.
-- Caractéristiques écologiques : Installation de panneaux solaires, de toits verts et de systèmes écoénergétiques pour réduire l'empreinte carbone du bâtiment.
+- **Surface commerciale** : 40 000 mètres carrés abritant une gamme de magasins et de boutiques.
+- **Espace de bureaux** : 60 000 mètres carrés conçus pour une utilisation multi-locataires, axés sur les entreprises de haute technologie et vertes.
+- **Installations récréatives** : 5 000 mètres carrés comprenant un cinéma, des restaurants et un centre de remise en forme.
+- **Caractéristiques écologiques** : Installation de panneaux solaires, de toits verts et de systèmes écoénergétiques pour réduire l'empreinte carbone du bâtiment.
 
 **Résultats attendus :**
 
-- Croissance économique : renforcement de l'économie locale grâce à de nouvelles opportunités d'emploi et à une augmentation des dépenses de consommation.
-- Paysage commercial amélioré : Le développement devrait rehausser le profil du quartier en tant que destination commerciale de premier ordre.
-- Durabilité environnementale : Malgré la réduction initiale des espaces verts, la conception à long terme du projet comprend d'importantes pratiques de développement durable visant à obtenir un impact environnemental net positif.
+- **Croissance économique** : renforcement de l'économie locale grâce à de nouvelles opportunités d'emploi et à une augmentation des dépenses de consommation.
+- **Paysage commercial amélioré** : Le développement devrait rehausser le profil du quartier en tant que destination commerciale de premier ordre.
+- **Durabilité environnementale** : Malgré la réduction initiale des espaces verts, la conception à long terme du projet comprend d'importantes pratiques de développement durable visant à obtenir un impact environnemental net positif.
 
 **Approbation et actions futures :**
 
-- Statut d'approbation : Le projet a été entièrement approuvé par le service de planification municipale de la ville d'Helios.
-- Prochaines étapes : La construction devrait débuter en juin 2023, avec une date d'achèvement et de mise en service prévue en avril 2024.
-- Suivi et évaluation : Des évaluations régulières seront menées pour garantir le respect des engagements environnementaux et pour mesurer l'impact du projet sur la communauté locale.
+- **Statut d'approbation** : Le projet a été entièrement approuvé par le service de planification municipale de la ville d'Helios.
+- **Prochaines étapes** : La construction devrait débuter en juin 2023, avec une date d'achèvement et de mise en service prévue en avril 2024.
+- **Suivi et évaluation** : Des évaluations régulières seront menées pour garantir le respect des engagements environnementaux et pour mesurer l'impact du projet sur la communauté locale.
 
 *Marianne Caldwell, Chef du service d'urbanisme de la ville d'Helios*
 

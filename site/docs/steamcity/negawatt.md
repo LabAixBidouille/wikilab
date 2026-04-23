@@ -65,45 +65,40 @@ L'activité s'articule autour de quatre phases progressives :
 
 Cette progression permet aux élèves de développer une compréhension nuancée de la sobriété énergétique, en partant de l'observation concrète pour aboutir à une réflexion personnelle sur leurs propres modes de vie et les perspectives d'évolution souhaitable de notre société.
 
-## Pour bien démarrer
-
 Durée : minimum 2 séances (adaptable sur 3-4 séances pour approfondir)
 
 Niveau de difficulté : Intermédiaire - Adaptable du cycle 3 (CM1-CM2-6ème) au lycée en ajustant la complexité des analyses et la profondeur des réflexions
 
 Matériel nécessaire :
 
-- Phase 1 : Feuilles d'observation, appareils photos/smartphones pour documenter les usages énergétiques, accès à différents espaces de l'établissement
-- Phase 2 : Tableaux de données sur les consommations énergétiques imprimés, calculatrices, graphiques et infographies historiques
-- Phase 3 : Fiches d'activités sur transport et habitat, tableaux de données sur le mix énergétique, calculatrices ou tableurs simples, matériel pour créer des affiches (feutres, papier affiche), accès à des ressources documentaires
-- Phase 4 : Fiches de réflexion individuelle, matériel pour présentation créative des innovations
+- **Phase 1** : Feuilles d'observation, appareils photos/smartphones pour documenter les usages énergétiques, accès à différents espaces de l'établissement
+- **Phase 2** : Tableaux de données sur les consommations énergétiques imprimés, calculatrices, graphiques et infographies historiques
+- **Phase 3** : Fiches d'activités sur transport et habitat, tableaux de données sur le mix énergétique, calculatrices ou tableurs simples, matériel pour créer des affiches (feutres, papier affiche), accès à des ressources documentaires
+- **Phase 4** : Fiches de réflexion individuelle, matériel pour présentation créative des innovations
 
-## Glossaire
 
-| Terme | Définition |
-|---|---|
-| Sobriété énergétique | Démarche qui consiste à réduire les consommations d'énergie par des changements de comportement, d'usage et d'organisation (individuelle et collective) tout en satisfaisant les besoins essentiels. |
-| Efficacité énergétique | Amélioration du rendement énergétique des équipements et systèmes pour obtenir le même service avec moins d'énergie. |
-| Scénario NégaWatt | Proposition de transition énergétique développée par l'Association NégaWatt, basée sur la trilogie sobriété-efficacité-renouvelables. |
-| Besoin énergétique | Service que l'on souhaite obtenir (chauffage, déplacement, éclairage) distinct de la consommation d'énergie nécessaire pour l'obtenir. |
-| Usage énergétique | Utilisation concrète de l'énergie pour un besoin spécifique (chauffer une pièce, alimenter un appareil, propulser un véhicule). |
-| Consommation énergétique finale | Quantité d'énergie effectivement consommée par l'utilisateur final, après transformation et transport. |
-| Intensité énergétique | Rapport entre la consommation d'énergie et l'activité économique, sociale ou le service rendu. |
-| Résilience énergétique | Capacité d'un système à maintenir ses fonctions essentielles malgré les perturbations de l'approvisionnement énergétique. |
-| Précarité énergétique | Situation où un ménage éprouve des difficultés à satisfaire ses besoins énergétiques élémentaires en raison de ressources insuffisantes ou d'un logement énergivore. |
-| Mix énergétique | Répartition des différentes sources d'énergie dans la production d'électricité d'un territoire (nucléaire, renouvelables, fossiles). |
-| Facteur de charge | Rapport entre la production réelle d'une installation et sa production théorique maximale (exprimé en %). |
-| Optimisation sous contraintes | Méthode mathématique pour trouver la meilleure solution en respectant plusieurs limites simultanément. |
-| Sources pilotables | Sources d'énergie dont la production peut être ajustée à la demande (nucléaire, gaz, hydraulique). |
-| Sources intermittentes | Sources d'énergie dont la production dépend de conditions naturelles variables (éolien, solaire). |
+### Glossaire
 
-## Protocole
+- **Sobriété énergétique** : Démarche qui consiste à réduire les consommations d'énergie par des changements de comportement, d'usage et d'organisation (individuelle et collective) tout en satisfaisant les besoins essentiels.
+- **Efficacité énergétique** : Amélioration du rendement énergétique des équipements et systèmes pour obtenir le même service avec moins d'énergie.
+- **Scénario NégaWatt** : Proposition de transition énergétique développée par l'Association NégaWatt, basée sur la trilogie sobriété-efficacité-renouvelables.
+- **Besoin énergétique** : Service que l'on souhaite obtenir (chauffage, déplacement, éclairage) distinct de la consommation d'énergie nécessaire pour l'obtenir.
+- **Usage énergétique** : Utilisation concrète de l'énergie pour un besoin spécifique (chauffer une pièce, alimenter un appareil, propulser un véhicule).
+- **Consommation énergétique finale** : Quantité d'énergie effectivement consommée par l'utilisateur final, après transformation et transport.
+- **Intensité énergétique** : Rapport entre la consommation d'énergie et l'activité économique, sociale ou le service rendu.
+- **Résilience énergétique** : Capacité d'un système à maintenir ses fonctions essentielles malgré les perturbations de l'approvisionnement énergétique.
+- **Précarité énergétique** : Situation où un ménage éprouve des difficultés à satisfaire ses besoins énergétiques élémentaires en raison de ressources insuffisantes ou d'un logement énergivore.
+- **Mix énergétique** : Répartition des différentes sources d'énergie dans la production d'électricité d'un territoire (nucléaire, renouvelables, fossiles).
+- **Facteur de charge** : Rapport entre la production réelle d'une installation et sa production théorique maximale (exprimé en %).
+- **Optimisation sous contraintes** : Méthode mathématique pour trouver la meilleure solution en respectant plusieurs limites simultanément.
+- **Sources pilotables** : Sources d'énergie dont la production peut être ajustée à la demande (nucléaire, gaz, hydraulique).
+- **Sources intermittentes** : Sources d'énergie dont la production dépend de conditions naturelles variables (éolien, solaire).
 
-## Phase 1 : Inventaire énergétique de notre environnement
+## Phase 1 : inventaire énergétique de notre environnement
 
-Contexte et description du problème à résoudre à cette étape : Notre quotidien est imprégné d'usages énergétiques souvent invisibles tant ils nous semblent naturels. Cette première phase invite les élèves à poser un regard analytique sur leur environnement immédiat pour prendre conscience de l'omniprésence de l'énergie dans nos activités. En partant de l'observation concrète des espaces qu'ils fréquentent quotidiennement, les élèves développent leur capacité à identifier et questionner les usages énergétiques, première étape indispensable pour comprendre les enjeux de sobriété.
+**Contexte et description du problème à résoudre à cette étape** : Notre quotidien est imprégné d'usages énergétiques souvent invisibles tant ils nous semblent naturels. Cette première phase invite les élèves à poser un regard analytique sur leur environnement immédiat pour prendre conscience de l'omniprésence de l'énergie dans nos activités. En partant de l'observation concrète des espaces qu'ils fréquentent quotidiennement, les élèves développent leur capacité à identifier et questionner les usages énergétiques, première étape indispensable pour comprendre les enjeux de sobriété.
 
-Objectifs d'apprentissage : Identifier les usages énergétiques dans l'environnement quotidien. Reconstituer l'évolution historique des besoins et usages énergétiques. Développer un regard critique sur la "normalité" de nos consommations actuelles.
+**Objectifs d'apprentissage**: Identifier les usages énergétiques dans l'environnement quotidien. Reconstituer l'évolution historique des besoins et usages énergétiques. Développer un regard critique sur la "normalité" de nos consommations actuelles.
 
 ### Conceptualisation
 
@@ -136,10 +131,10 @@ Les élèves, organisés par groupes, explorent différents espaces de l'établi
 
 Chaque groupe explore un espace différent puis se retrouvent pour mettre en commun leurs observations. L'enseignant aide à catégoriser les usages identifiés selon quatre grandes fonctions :
 
-- Confort thermique : chauffage, climatisation, ventilation
-- Éclairage et vision : luminaires, écrans, projecteurs
-- Information et communication : ordinateurs, téléphones, sonorisation
-- Déplacement et transport : ascenseurs, véhicules, portails automatiques
+- **Confort thermique** : chauffage, climatisation, ventilation
+- **Éclairage et vision** : luminaires, écrans, projecteurs
+- **Information et communication** : ordinateurs, téléphones, sonorisation
+- **Déplacement et transport** : ascenseurs, véhicules, portails automatiques
 
 Cette première exploration permet aux élèves de prendre conscience de la densité énergétique de leur environnement quotidien.
 
@@ -179,11 +174,11 @@ Comment distinguer l'essentiel du superflu dans nos usages énergétiques ? Anal
 
 ---
 
-## Phase 2 : Comparaison des consommations d'hier et d'aujourd'hui
+## Phase 2 : comparaison des consommations d'hier et d'aujourd'hui
 
-Contexte et description du problème à résoudre à cette étape : Après avoir identifié l'évolution qualitative de nos usages énergétiques, cette phase quantifie ces évolutions pour mesurer concrètement l'ampleur des transformations. En manipulant des données chiffrées sur les consommations énergétiques, les élèves développent leur compréhension des ordres de grandeur et prennent conscience de l'accélération récente de nos besoins énergétiques.
+**Contexte et description du problème à résoudre à cette étape** : Après avoir identifié l'évolution qualitative de nos usages énergétiques, cette phase quantifie ces évolutions pour mesurer concrètement l'ampleur des transformations. En manipulant des données chiffrées sur les consommations énergétiques, les élèves développent leur compréhension des ordres de grandeur et prennent conscience de l'accélération récente de nos besoins énergétiques.
 
-Objectifs d'apprentissage : Quantifier l'évolution des consommations énergétiques. Comprendre les facteurs explicatifs de cette évolution. Développer sa capacité d'analyse critique des données énergétiques.
+**Objectifs d'apprentissage**: Quantifier l'évolution des consommations énergétiques. Comprendre les facteurs explicatifs de cette évolution. Développer sa capacité d'analyse critique des données énergétiques.
 
 ### Conceptualisation
 
@@ -217,9 +212,9 @@ Les élèves reçoivent un tableau comparatif des consommations énergétiques p
 
 Les élèves calculent les facteurs d'évolution et identifient les tendances :
 
-- Amélioration de l'efficacité : Pour certains usages (éclairage, transport, chauffage), la technologie permet de consommer moins d'énergie pour le même service
-- Nouveaux besoins énergétiques : Certains services (réfrigération, électronique) créent de nouveaux postes de consommation
-- Changement d'échelle : La généralisation d'équipements autrefois rares multiplie la consommation totale
+- **Amélioration de l'efficacité** : Pour certains usages (éclairage, transport, chauffage), la technologie permet de consommer moins d'énergie pour le même service
+- **Nouveaux besoins énergétiques** : Certains services (réfrigération, électronique) créent de nouveaux postes de consommation
+- **Changement d'échelle** : La généralisation d'équipements autrefois rares multiplie la consommation totale
 
 2. Débat : progrès ou surconsommation ?
 
@@ -238,9 +233,9 @@ L'enseignant aide les élèves à dépasser l'opposition binaire en introduisant
 
 Pour aider les élèves à développer leur intuition des consommations énergétiques, l'enseignant peut présenter quelques repères simples :
 
-- 1 kWh = énergie pour faire fonctionner : un réfrigérateur pendant 2 jours, un ordinateur portable pendant 10h, ou parcourir 5 km en voiture électrique
-- Consommation moyenne d'un Français : 50 kWh par jour (tous usages confondus)
-- 1 litre d'essence = 10 kWh : équivalent énergétique d'une journée de travail physique humain
+- **1 kWh = énergie pour faire fonctionner** : un réfrigérateur pendant 2 jours, un ordinateur portable pendant 10h, ou parcourir 5 km en voiture électrique
+- **Consommation moyenne d'un Français** : 50 kWh par jour (tous usages confondus)
+- **1 litre d'essence = 10 kWh** : équivalent énergétique d'une journée de travail physique humain
 
 Ces repères permettront aux élèves de mieux évaluer les enjeux dans les phases suivantes.
 
@@ -260,11 +255,11 @@ Quels enseignements tirer des trajectoires énergétiques passées pour anticipe
 
 ---
 
-## Phase 3 : Exploration des leviers de sobriété
+## Phase 3 : exploration des leviers de sobriété
 
-Contexte et description du problème à résoudre à cette étape : Fort de leur compréhension de l'évolution historique et quantitative de nos usages énergétiques, les élèves sont prêts à explorer concrètement les possibilités de sobriété. Cette phase se concentre sur des domaines représentatifs (transport, habitat, alimentation) qui représentent ensemble environ 60 à 70 % de la consommation énergétique finale des ménages européens selon les pays. L'objectif est de montrer que la sobriété ne signifie pas privation mais optimisation intelligente de nos usages.
+**Contexte et description du problème à résoudre à cette étape** : Fort de leur compréhension de l'évolution historique et quantitative de nos usages énergétiques, les élèves sont prêts à explorer concrètement les possibilités de sobriété. Cette phase se concentre sur des domaines représentatifs (transport, habitat, alimentation) qui représentent ensemble environ 60 à 70 % de la consommation énergétique finale des ménages européens selon les pays. L'objectif est de montrer que la sobriété ne signifie pas privation mais optimisation intelligente de nos usages.
 
-Objectifs d'apprentissage : Identifier les leviers de sobriété dans le transport et l'habitat. Distinguer les solutions techniques des changements comportementaux. Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
+**Objectifs d'apprentissage**: Identifier les leviers de sobriété dans le transport et l'habitat. Distinguer les solutions techniques des changements comportementaux. Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
 
 ### Conceptualisation
 
@@ -290,9 +285,9 @@ Les élèves analysent collectivement le "budget transport" d'une famille europ�
 
 Situation de référence - Famille type européenne (2 adultes, 2 enfants, zone périurbaine) :
 
-- 1-2 voitures selon le pays (moyenne EU : 1,4 voiture/ménage)
+- **1-2 voitures selon le pays (moyenne EU** : 1,4 voiture/ménage)
 - 15 000 à 30 000 km/an selon la géographie du pays
-- Consommation : 5 à 8 L/100 km en moyenne
+- **Consommation** : 5 à 8 L/100 km en moyenne
 - 1 000 à 2 000 L de carburant/an = 10 000 à 20 000 kWh/an
 
 Les élèves réfléchissent en petits groupes sur la faisabilité de ces différentes stratégies selon les contextes (urbain dense vs rural, transports publics développés vs limités) et imaginent le quotidien de familles types selon différents scénarios. Ils présentent ensuite leurs conclusions sous forme de "journée type" illustrant les adaptations nécessaires selon les spécificités territoriales.
@@ -313,10 +308,10 @@ Objectif : Identifier les possibilités de réduction des consommations énergé
 
 Les élèves explorent les leviers de sobriété dans l'habitat à travers l'exemple d'une maison individuelle de 100 m&#178; construite dans les années 1980. Situation de référence - Maison Martin :
 
-- Chauffage : 15 000 kWh/an (gaz)
-- Eau chaude : 3 000 kWh/an (électrique)
-- Électroménager : 3 500 kWh/an
-- Total : 21 500 kWh/an
+- **Chauffage** : 15 000 kWh/an (gaz)
+- **Eau chaude** : 3 000 kWh/an (électrique)
+- **Électroménager** : 3 500 kWh/an
+- **Total** : 21 500 kWh/an
 
 Les élèves calculent les économies potentielles et évaluent l'impact sur le confort quotidien. Ils créent un "guide de la sobriété énergétique domestique" avec des conseils pratiques et illustrés.
 
@@ -324,14 +319,14 @@ Leviers de sobriété par poste :
 
 Chauffage (70% de la consommation) :
 
-- Réduction température : 19°C au lieu de 21°C &#8594; -15%
-- Programmation/zonage : chauffer uniquement les pièces occupées &#8594; -20%
-- Isolation comportementale : fermer volets, éviter surchauffe &#8594; -10%
+- **Réduction température** : 19°C au lieu de 21°C &#8594; -15%
+- **Programmation/zonage** : chauffer uniquement les pièces occupées &#8594; -20%
+- **Isolation comportementale** : fermer volets, éviter surchauffe &#8594; -10%
 
 Eau chaude (15% de la consommation) :
 
-- Réduction durée douches : 5 min au lieu de 8 min &#8594; -35%
-- Température chauffe-eau : 55°C au lieu de 60°C &#8594; -8%
+- **Réduction durée douches** : 5 min au lieu de 8 min &#8594; -35%
+- **Température chauffe-eau** : 55°C au lieu de 60°C &#8594; -8%
 - Installation économiseurs d'eau &#8594; -20%
 
 Électroménager (15% de la consommation) :
@@ -348,10 +343,10 @@ Les élèves pourraient analyser le "budget énergétique alimentaire" d'une fam
 
 Situation de référence - Consommation alimentaire type :
 
-- Transport des aliments : 2 000 kWh/an
-- Réfrigération/Congélation : 1 500 kWh/an
-- Cuisson : 1 000 kWh/an
-- Gaspillage alimentaire : équivalent 800 kWh/an
+- **Transport des aliments** : 2 000 kWh/an
+- **Réfrigération/Congélation** : 1 500 kWh/an
+- **Cuisson** : 1 000 kWh/an
+- **Gaspillage alimentaire** : équivalent 800 kWh/an
 
 Leviers de sobriété :
 
@@ -370,11 +365,11 @@ Les élèves maîtrisent désormais la distinction entre efficacité énergétiq
 
 Les élèves identifient collectivement les principes généraux de la sobriété énergétique qui ressortent de ces trois ateliers :
 
-- Questionnement des automatismes : Ai-je vraiment besoin de ce trajet/cette température/cet achat ?
-- Optimisation de l'existant : Comment mieux utiliser ce que j'ai déjà ?
-- Planification intelligente : Comment organiser mes activités pour être plus efficace ?
-- Investissement dans l'efficacité : Quels équipements permettent de réduire les consommations ?
-- Solutions collectives : Comment mutualiser certains besoins (transport, chauffage, électroménager, achats alimentaires) ?
+- **Questionnement des automatismes** : Ai-je vraiment besoin de ce trajet/cette température/cet achat ?
+- **Optimisation de l'existant** : Comment mieux utiliser ce que j'ai déjà ?
+- **Planification intelligente** : Comment organiser mes activités pour être plus efficace ?
+- **Investissement dans l'efficacité** : Quels équipements permettent de réduire les consommations ?
+- **Solutions collectives** : Comment mutualiser certains besoins (transport, chauffage, électroménager, achats alimentaires) ?
 
 Pour approfondir la réflexion et développer une compréhension plus systémique des enjeux de sobriété, voici quelques questions clés à explorer collectivement :
 
@@ -382,11 +377,11 @@ Comment surmonter les obstacles structurels à la sobriété énergétique ? Ana
 
 ---
 
-## Phase 4 : Analyse critique et prospective des usages énergétiques
+## Phase 4 : analyse critique et prospective des usages énergétiques
 
-Contexte et description du problème à résoudre à cette étape : Cette phase finale invite les élèves à une analyse critique approfondie de leurs propres pratiques énergétiques et à une réflexion prospective sur les innovations technologiques. Au-delà d'une simple catégorisation des usages, les élèves sont amenés à comprendre les facteurs socioculturels qui influencent leurs choix énergétiques et à évaluer le potentiel transformateur des innovations émergentes dans une perspective de transition énergétique.
+**Contexte et description du problème à résoudre à cette étape** : Cette phase finale invite les élèves à une analyse critique approfondie de leurs propres pratiques énergétiques et à une réflexion prospective sur les innovations technologiques. Au-delà d'une simple catégorisation des usages, les élèves sont amenés à comprendre les facteurs socioculturels qui influencent leurs choix énergétiques et à évaluer le potentiel transformateur des innovations émergentes dans une perspective de transition énergétique.
 
-Objectifs d'apprentissage : Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels. Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique. Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
+**Objectifs d'apprentissage**: Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels. Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique. Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
 
 ### Conceptualisation
 
@@ -428,10 +423,10 @@ Quantification et catégorisation avancée : Les élèves calculent leurs consom
 
 \*Statuts :
 
-- Contraint : Usage déterminé par des facteurs externes (infrastructure, revenus, logement)
-- Partiellement contraint : Marge de manoeuvre limitée mais existante
-- Choix personnel : Usage déterminé principalement par des préférences individuelles
-- Nécessaire optimisable : Usage indispensable mais perfectible
+- **Contraint** : Usage déterminé par des facteurs externes (infrastructure, revenus, logement)
+- **Partiellement contraint** : Marge de manoeuvre limitée mais existante
+- **Choix personnel** : Usage déterminé principalement par des préférences individuelles
+- **Nécessaire optimisable** : Usage indispensable mais perfectible
 
 Analyse des déterminants socioculturels : Les élèves analysent les facteurs qui influencent leurs choix énergétiques :
 
@@ -485,12 +480,12 @@ Chaque équipe dispose de 2 heures pour :
 
 Innovations à analyser :
 
-- Équipe 1 : Véhicules électriques autonomes partagés
-- Équipe 2 : Bâtiments à énergie positive connectés (BEPOS+)
-- Équipe 3 : Réseaux électriques intelligents avec stockage distribué
-- Équipe 4 : Hydrogène vert pour l'industrie et le transport lourd
-- Équipe 5 : Agriculture verticale urbaine automatisée
-- Équipe 6 : Fusion nucléaire commerciale
+- **Équipe 1** : Véhicules électriques autonomes partagés
+- **Équipe 2** : Bâtiments à énergie positive connectés (BEPOS+)
+- **Équipe 3** : Réseaux électriques intelligents avec stockage distribué
+- **Équipe 4** : Hydrogène vert pour l'industrie et le transport lourd
+- **Équipe 5** : Agriculture verticale urbaine automatisée
+- **Équipe 6** : Fusion nucléaire commerciale
 
 3. Débat prospectif et construction de visions personnelles
 
@@ -498,9 +493,9 @@ Objectif : Confronter les analyses et construire une vision personnelle argument
 
 Chaque équipe présente son innovation en 3 minutes selon le format :
 
-- Présentation technique : En quoi consiste l'innovation ?
-- Potentiel transformateur : Quels changements dans nos vies ?
-- Conditions de réussite : Quels obstacles à surmonter ?
+- **Présentation technique** : En quoi consiste l'innovation ?
+- **Potentiel transformateur** : Quels changements dans nos vies ?
+- **Conditions de réussite** : Quels obstacles à surmonter ?
 
 Les élèves circulent entre des "stands" où chaque équipe présente son travail de manière interactive. Ils notent leurs questions et évaluations sur les autres innovations. Grille d'évaluation croisée :
 
@@ -588,10 +583,10 @@ Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date
 | | | | | |
 
 \*Statuts :
-- Contraint : Usage déterminé par des facteurs externes (infrastructure, revenus, logement)
-- Partiellement contraint : Marge de manoeuvre limitée mais existante
-- Choix personnel : Usage déterminé principalement par des préférences individuelles
-- Nécessaire optimisable : Usage indispensable mais perfectible
+- **Contraint** : Usage déterminé par des facteurs externes (infrastructure, revenus, logement)
+- **Partiellement contraint** : Marge de manoeuvre limitée mais existante
+- **Choix personnel** : Usage déterminé principalement par des préférences individuelles
+- **Nécessaire optimisable** : Usage indispensable mais perfectible
 
 Imprimer autant de feuilles que nécessaire pour analyser l'ensemble des usages.
 

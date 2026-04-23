@@ -48,9 +48,9 @@ Cette activité articule l'étude scientifique des propriétés thermiques avec 
 
 Cette activité est directement liée à plusieurs Objectifs de Développement Durable (ODD) définis par les Nations Unies :
 
-- ODD 7 -- Énergie propre et d'un coût abordable : les élèves découvrent comment une bonne isolation permet de réduire les besoins en chauffage et en climatisation, rendant l'énergie plus accessible par des solutions simples et efficaces.
-- ODD 11 -- Villes et communautés durables : la conception de bâtiments économes en énergie contribue à renforcer la durabilité et la résilience des espaces urbains.
-- ODD 13 -- Lutte contre les changements climatiques : en diminuant la consommation énergétique des bâtiments, l'isolation participe à la réduction de l'empreinte carbone et à l'action climatique.
+- **ODD 7 -- Énergie propre et d'un coût abordable** : les élèves découvrent comment une bonne isolation permet de réduire les besoins en chauffage et en climatisation, rendant l'énergie plus accessible par des solutions simples et efficaces.
+- **ODD 11 -- Villes et communautés durables** : la conception de bâtiments économes en énergie contribue à renforcer la durabilité et la résilience des espaces urbains.
+- **ODD 13 -- Lutte contre les changements climatiques** : en diminuant la consommation énergétique des bâtiments, l'isolation participe à la réduction de l'empreinte carbone et à l'action climatique.
 
 ### Structure du protocole
 
@@ -64,27 +64,24 @@ L'expérimentation se déroule en quatre étapes progressives, permettant aux é
 
 4. **Étape 4 -- Cartographie collaborative des pertes de chaleur urbaines.** Dans la phase finale, les élèves élargissent leur démarche à l'échelle du quartier ou de la ville. Ils mènent une « marche thermique », équipée de caméras thermiques, afin de collecter des données sur les déperditions de chaleur de plusieurs bâtiments. Ces observations sont ensuite utilisées pour créer une carte collaborative des pertes thermiques urbaines. Cette étape replace leur travail dans un cadre collectif et citoyen, et les conduit à proposer des pistes concrètes d'amélioration de l'efficacité énergétique à l'échelle de la communauté.
 
-## Glossaire
+### Glossaire
 
-| Terme | Définition |
-|---|---|
-| Isolation thermique | Matériaux ou techniques utilisés pour réduire le transfert de chaleur entre les environnements intérieurs et extérieurs. |
-| Conductivité thermique (λ) | Mesure de la capacité d'un matériau à conduire la chaleur. Des valeurs plus faibles indiquent de meilleures propriétés d'isolation. |
-| Résistance thermique (R) | Capacité d'un matériau à résister au flux thermique, calculée comme l'épaisseur du matériau divisée par sa conductivité thermique. |
-| Pont thermique | Zones d'un bâtiment où l'isolation est interrompue, ce qui entraîne des taux de transfert de chaleur plus élevés. |
-| Îlot de chaleur urbain | Phénomène dans lequel les zones urbaines sont plus chaudes que les zones rurales environnantes en raison de l'absorption et de la rétention de chaleur par les bâtiments et les infrastructures. |
-| Perte de chaleur | Le transfert de chaleur de l'intérieur d'un bâtiment vers l'environnement extérieur, généralement à travers les murs, les fenêtres, les portes et les toits. |
-| Imagerie thermique | L'utilisation de caméras infrarouges pour détecter les variations de température et visualiser les pertes de chaleur dans les bâtiments. |
-| Infiltration d'air | Le flux incontrôlé d'air extérieur dans un bâtiment à travers des interstices, des fissures ou des ouvertures mal scellées. |
-| Valeur R | Mesure de l'efficacité d'un matériau isolant. Des valeurs R plus élevées indiquent une meilleure isolation. |
-| Résistance à l'humidité | La capacité d'un matériau à conserver ses propriétés isolantes lorsqu'il est exposé à l'humidité ou à l'eau. |
-| Efficacité énergétique | L'utilisation de technologies ou de pratiques pour réduire la consommation d'énergie tout en maintenant les niveaux de performance souhaités. |
-| Durabilité | Pratiques qui répondent aux besoins actuels sans compromettre la capacité des générations futures à répondre à leurs propres besoins, souvent liées à la gestion de l'environnement. |
-| Transfert de chaleur | Le mouvement de l'énergie thermique par conduction, convection ou rayonnement. |
-| Rénovation d'isolation | Processus d'ajout ou de mise à niveau de l'isolation dans un bâtiment existant pour améliorer l'efficacité énergétique. |
-| Imagerie thermique aérienne | Une technique utilisant des drones ou des avions pour capturer des données thermiques de grandes zones, telles que des quartiers ou des villes, afin d'identifier les tendances en matière de perte de chaleur. |
+- **Isolation thermique** : Matériaux ou techniques utilisés pour réduire le transfert de chaleur entre les environnements intérieurs et extérieurs.
+- **Conductivité thermique (λ)** : Mesure de la capacité d'un matériau à conduire la chaleur. Des valeurs plus faibles indiquent de meilleures propriétés d'isolation.
+- **Résistance thermique (R)** : Capacité d'un matériau à résister au flux thermique, calculée comme l'épaisseur du matériau divisée par sa conductivité thermique.
+- **Pont thermique** : Zones d'un bâtiment où l'isolation est interrompue, ce qui entraîne des taux de transfert de chaleur plus élevés.
+- **Îlot de chaleur urbain** : Phénomène dans lequel les zones urbaines sont plus chaudes que les zones rurales environnantes en raison de l'absorption et de la rétention de chaleur par les bâtiments et les infrastructures.
+- **Perte de chaleur** : Le transfert de chaleur de l'intérieur d'un bâtiment vers l'environnement extérieur, généralement à travers les murs, les fenêtres, les portes et les toits.
+- **Imagerie thermique** : L'utilisation de caméras infrarouges pour détecter les variations de température et visualiser les pertes de chaleur dans les bâtiments.
+- **Infiltration d'air** : Le flux incontrôlé d'air extérieur dans un bâtiment à travers des interstices, des fissures ou des ouvertures mal scellées.
+- **Valeur R** : Mesure de l'efficacité d'un matériau isolant. Des valeurs R plus élevées indiquent une meilleure isolation.
+- **Résistance à l'humidité** : La capacité d'un matériau à conserver ses propriétés isolantes lorsqu'il est exposé à l'humidité ou à l'eau.
+- **Efficacité énergétique** : L'utilisation de technologies ou de pratiques pour réduire la consommation d'énergie tout en maintenant les niveaux de performance souhaités.
+- **Durabilité** : Pratiques qui répondent aux besoins actuels sans compromettre la capacité des générations futures à répondre à leurs propres besoins, souvent liées à la gestion de l'environnement.
+- **Transfert de chaleur** : Le mouvement de l'énergie thermique par conduction, convection ou rayonnement.
+- **Rénovation d'isolation** : Processus d'ajout ou de mise à niveau de l'isolation dans un bâtiment existant pour améliorer l'efficacité énergétique.
+- **Imagerie thermique aérienne** : Une technique utilisant des drones ou des avions pour capturer des données thermiques de grandes zones, telles que des quartiers ou des villes, afin d'identifier les tendances en matière de perte de chaleur.
 
----
 
 ## Étape 1 : introduction à l'isolation thermique et formulation d'hypothèses
 
@@ -184,8 +181,8 @@ Un protocole expérimental rigoureux est essentiel pour garantir des résultats 
 
 **Méthode de collecte des données :**
 
-- Mesures quantitatives : Installer des capteurs de température et d'humidité dans trois pièces distinctes : la chambre, la salle de bain et l'espace de vie. Il est important de maintenir un positionnement constant des capteurs afin de limiter les biais. Les mesures devront être effectuées à des heures fixes pour permettre le suivi des variations journalières.
-- Observations qualitatives : Noter le niveau de confort perçu à l'aide de descripteurs simples : « confortable », « trop sec » ou « trop humide ». Documenter également les conditions environnementales observées au moment de chaque mesure : état des fenêtres (ouvertes/fermées), fonctionnement du chauffage, exposition au soleil, etc.
+- **Mesures quantitatives** : Installer des capteurs de température et d'humidité dans trois pièces distinctes : la chambre, la salle de bain et l'espace de vie. Il est important de maintenir un positionnement constant des capteurs afin de limiter les biais. Les mesures devront être effectuées à des heures fixes pour permettre le suivi des variations journalières.
+- **Observations qualitatives** : Noter le niveau de confort perçu à l'aide de descripteurs simples : « confortable », « trop sec » ou « trop humide ». Documenter également les conditions environnementales observées au moment de chaque mesure : état des fenêtres (ouvertes/fermées), fonctionnement du chauffage, exposition au soleil, etc.
 
 **Utilisation des données :**
 
@@ -216,16 +213,16 @@ Un protocole expérimental rigoureux est essentiel pour garantir des résultats 
 
 **Méthode de collecte des données :**
 
-- Mesures quantitatives : Utiliser un capteur température/humidité dans chaque pièce sélectionnée. Les valeurs numériques relevées seront conservées pour l'analyse.
-- Observations environnementales : Noter les éléments pertinents du contexte : type de mur, emplacement des fenêtres, présence ou absence de ventilation active, etc.
-- Mesures qualitatives : Observer et consigner la sensation de confort perçue par les occupants.
+- **Mesures quantitatives** : Utiliser un capteur température/humidité dans chaque pièce sélectionnée. Les valeurs numériques relevées seront conservées pour l'analyse.
+- **Observations environnementales** : Noter les éléments pertinents du contexte : type de mur, emplacement des fenêtres, présence ou absence de ventilation active, etc.
+- **Mesures qualitatives** : Observer et consigner la sensation de confort perçue par les occupants.
 
 **Utilisation des données :**
 
-- Stockage des données : Enregistrer l'ensemble des données quantitatives dans un fichier CSV, incluant les informations suivantes : date, heure, localisation et conditions environnementales.
-- Analyse des données : Calculer les moyennes et médianes de température et d'humidité dans les différentes pièces. Créer des graphiques pour visualiser le niveau de confort et ses liens avec les facteurs environnementaux. Identifier les tendances et analyser les différences notables.
-- Comparaison des facteurs : Comparer visuellement le niveau de confort avec les relevés de température et d'humidité, ainsi qu'avec les autres variables enregistrées. Utiliser des graphiques simples pour faire ressortir les tendances générales. Discuter des écarts éventuels observés par rapport à ces tendances.
-- Analyse de corrélation : Calculer les coefficients de corrélation entre le niveau de confort perçu et les données de température/humidité. Interpréter ces résultats pour évaluer la force des liens entre les différentes variables, et discuter des facteurs les plus influents sur le confort.
+- **Stockage des données** : Enregistrer l'ensemble des données quantitatives dans un fichier CSV, incluant les informations suivantes : date, heure, localisation et conditions environnementales.
+- **Analyse des données** : Calculer les moyennes et médianes de température et d'humidité dans les différentes pièces. Créer des graphiques pour visualiser le niveau de confort et ses liens avec les facteurs environnementaux. Identifier les tendances et analyser les différences notables.
+- **Comparaison des facteurs** : Comparer visuellement le niveau de confort avec les relevés de température et d'humidité, ainsi qu'avec les autres variables enregistrées. Utiliser des graphiques simples pour faire ressortir les tendances générales. Discuter des écarts éventuels observés par rapport à ces tendances.
+- **Analyse de corrélation** : Calculer les coefficients de corrélation entre le niveau de confort perçu et les données de température/humidité. Interpréter ces résultats pour évaluer la force des liens entre les différentes variables, et discuter des facteurs les plus influents sur le confort.
 
 **Présentation des résultats :** Les résultats seront présentés sous forme de graphiques illustrant les corrélations observées entre les différentes variables. Le protocole complet pourra être synthétisé dans une infographie, à partager en classe, dans l'établissement ou sur les réseaux sociaux.
 
@@ -235,23 +232,23 @@ Les élèves travailleront en petits groupes pour définir les modalités pratiq
 
 **Emplacement des capteurs :**
 
-- Hauteur optimale : Positionner les capteurs à 1,5 mètre du sol, afin de correspondre à la hauteur d'un individu assis.
-- Éloignement des sources de chaleur : Placer les capteurs à au moins 1 mètre des radiateurs, fenêtres ou équipements électroniques.
-- Position centrale : Installer les capteurs dans des zones ouvertes, à distance des coins où l'air pourrait être stagnant.
+- **Hauteur optimale** : Positionner les capteurs à 1,5 mètre du sol, afin de correspondre à la hauteur d'un individu assis.
+- **Éloignement des sources de chaleur** : Placer les capteurs à au moins 1 mètre des radiateurs, fenêtres ou équipements électroniques.
+- **Position centrale** : Installer les capteurs dans des zones ouvertes, à distance des coins où l'air pourrait être stagnant.
 
 **Variables de contrôle :**
 
-- Période de mesure : Définir des horaires fixes pour les relevés (par exemple 8 h, 14 h, 20 h).
-- Conditions météorologiques : Documenter les conditions extérieures à chaque série de mesures.
-- Occupation des pièces : Réaliser les mesures dans des conditions d'occupation comparables d'un jour à l'autre.
+- **Période de mesure** : Définir des horaires fixes pour les relevés (par exemple 8 h, 14 h, 20 h).
+- **Conditions météorologiques** : Documenter les conditions extérieures à chaque série de mesures.
+- **Occupation des pièces** : Réaliser les mesures dans des conditions d'occupation comparables d'un jour à l'autre.
 
 **Intégrité des données :**
 
-- Étalonnage : Vérifier la précision des capteurs avant le début de la collecte.
-- Double vérification : Utiliser plusieurs capteurs pour croiser les relevés et assurer leur fiabilité.
-- Journal de bord : Tenir un journal détaillé consignant tout événement inhabituel ou toute anomalie susceptible d'influencer les résultats.
+- **Étalonnage** : Vérifier la précision des capteurs avant le début de la collecte.
+- **Double vérification** : Utiliser plusieurs capteurs pour croiser les relevés et assurer leur fiabilité.
+- **Journal de bord** : Tenir un journal détaillé consignant tout événement inhabituel ou toute anomalie susceptible d'influencer les résultats.
 
-:::tip[Conseil]
+:::info[Conseil]
 Pour vous aider à programmer le capteur approprié, reportez-vous à la Fiche pratique 1 - Collecter des données avec le capteur de température.
 :::
 
@@ -578,7 +575,7 @@ Cette enquête leur permettra de mettre à l'épreuve leurs hypothèses de mani�
 
 **Configuration préalable à l'enquête :** Avant de commencer, il est essentiel que les élèves soient formés à l'utilisation sécurisée et précise des outils thermiques. Une activité d'étalonnage peut être proposée : les élèves comparent, par exemple, la température d'un mur exposé au soleil à celle d'un mur à l'ombre, afin de vérifier la fiabilité des mesures et de se familiariser avec les variations de température en fonction de l'environnement.
 
-:::tip[Conseil]
+:::info[Conseil]
 Pour vous aider à utiliser le capteur approprié, reportez-vous à la section Fiche pratique 2 - Utilisation de caméras thermiques pour l'analyse de l'isolation.
 :::
 
@@ -818,119 +815,11 @@ Cette phase finale conclut l'enquête par un appel à l'action, en donnant aux �
 
 ---
 
-## Fiche pratique 1 : collecter des données avec le capteur d'humidité et de température
+## Fiche pratique
 
-### Matériel et outils nécessaires
-
-- **Carte Micro:bit V2 et ses capteurs intégrés :** il s'agit de la carte programmable principale. Elle comprend un capteur de lumière (via l'écran LED), un capteur sonore, ainsi qu'un capteur de température intégré. Prix indicatif : environ 19 EUR par carte Micro:bit.
-- **Câble micro-USB :** permet d'alimenter la carte et de la programmer depuis un ordinateur.
-- **Batterie externe (optionnelle) :** utile pour un fonctionnement en autonomie si la carte est détachée de l'ordinateur. Le boîtier de piles officiel Micro:bit est disponible pour environ 2,20 EUR par unité.
-
-Vous pouvez également acheter le kit Micro:bit V2 comprenant le câble USB et le boîtier de piles pour 21 EUR par kit ou 177 EUR pour 10 kits.
-
-- **Capteur DHT22 (ou DHT11) :** ces capteurs sont populaires pour mesurer l'humidité et la température avec des microcontrôleurs. Le DHT11 est bon marché et suffisant pour des projets simples, tandis que le DHT22 offre une meilleure précision et une résolution supérieure, pour un coût légèrement plus élevé.
-- **Ordinateur ou tablette :** utilisé pour écrire le code et le transférer vers la Micro:bit.
-- **Environnement de programmation :** l'éditeur en ligne MakeCode est recommandé pour programmer facilement la carte Micro:bit.
-
-:::tip[Conseil]
-Pour cette étape, il est recommandé de programmer entre 3 et 6 cartes Micro:bit afin de les répartir entre les élèves et de recueillir un plus grand volume de données. Il est possible de réaliser l'activité avec une seule carte, mais cela nécessitera soit d'allonger la période globale de collecte, soit de réduire la durée de collecte par élève, en passant de 7 à 3 jours environ.
-:::
-
-### Câblage et utilisation d'une carte Micro:bit
-
-Suivez les étapes ci-dessous pour programmer, installer, enregistrer et récupérer des données environnementales à l'aide d'une carte Micro:bit.
-
-#### Étape 1 : câblage du capteur de température/humidité à la carte Micro:bit
-
-Il existe deux types de capteurs DHT11/DHT22 :
-
-1. Version sans carte PCB, avec 4 broches ;
-2. Version montée sur carte PCB, avec résistances de rappel intégrées et seulement 3 broches.
-
-Nous vous recommandons d'utiliser la version avec PCB, plus simple à connecter.
-
-**Pour la version avec PCB (3 broches) :**
-
-- Vcc (+) : à connecter à 3,3 V ou 5 V (les deux tensions sont compatibles)
-- GND (-) : à connecter à la masse (GND)
-- Data (OUT) : à connecter à n'importe quelle broche GPIO de la Micro:bit
-
-**Pour la version sans PCB (4 broches) :**
-
-- Vous devez ajouter une résistance de rappel entre Vcc et Data pour maintenir la broche Data à l'état haut. Une résistance comprise entre 220 Ohm et 10 kOhm fonctionne correctement sous 3,3 V ; au-delà, le capteur risque de ne pas répondre.
-- Vous pouvez aussi utiliser l'option pull-up interne de la Micro:bit : dans MakeCode, allez dans le menu "Broche" &gt; "Plus" &gt; "Régler le levier en broche...". La Micro:bit possède des résistances de rappel internes d'environ 12--13 kOhm.
-- Remarque : la troisième broche à partir de la gauche (sur la version 4 broches) n'est pas utilisée.
-
-#### Étape 2 : programmation de la Micro:bit
-
-À l'aide de votre câble USB, connectez la carte à votre ordinateur via le connecteur micro-USB. Une fois connectée, la carte Micro:bit apparaîtra sur l'ordinateur comme un lecteur amovible (par exemple, « MICROBIT »). Ouvrez l'éditeur MakeCode pour créer un programme qui collecte des données de lumière, de bruit et de température à l'aide des capteurs intégrés de la carte Micro:bit V2. Donnez un nom clair à votre projet avant de commencer.
-
-Une fois dans l'éditeur et après avoir créé votre nouveau projet, vous verrez apparaître l'écran par défaut « prêt à l'emploi ». Vous devrez alors installer une extension. Les extensions dans MakeCode sont des groupes de blocs qui ne sont pas inclus directement dans les blocs de base. Comme leur nom l'indique, elles ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail d'usages : créer une manette de jeu, un clavier, une souris, contrôler un servomoteur, etc. Dans la colonne des groupes de blocs, cliquez sur EXTENSIONS. Dans la liste des extensions disponibles, recherchez l'extension Datalogger, qui sera utilisée pour cette activité. Cliquez sur l'extension souhaitée : un nouveau groupe de blocs apparaîtra sur l'écran principal. Faites de même pour le capteur de température/humidité en recherchant l'extension DHT11/DHT22.
-
-Une fois le fichier .hex transféré sur la carte, celle-ci redémarrera automatiquement et exécutera le code.
-
-#### Étape 3 : positionner la Micro:bit et commencer à enregistrer les données
-
-Une fois programmé, placez la Micro:bit dans un endroit où il pourra mesurer l'humidité et la température sans obstruction, afin de garantir des relevés fiables. Utilisez un ordinateur ou une batterie externe pour assurer l'alimentation continue du Micro:bit pendant toute la durée de l'enregistrement. Avant d'aller vous coucher, appuyez sur le bouton A de la carte Micro:bit pour démarrer l'enregistrement des données.
-
-#### Étape 4 : récupération des données et préparation de la carte pour la prochaine session
-
-Chaque matin, pour éviter toute perte de données, débranchez la Micro:bit de sa source d'alimentation afin d'arrêter l'enregistrement. Connectez-la ensuite à votre ordinateur pour accéder au fichier généré pendant la nuit par le datalogger. Ce fichier s'appelle MY_DATA.HTM et se trouve sur le lecteur MICROBIT.
-
-Copiez ce fichier sur votre ordinateur. Renommez-le avec la date du jour et un identifiant clair (par exemple : BOARD1_NAME_YYYY-MM-DD.HTM). Une fois copié et renommé, supprimez le fichier MY_DATA.HTM de la carte Micro:bit pour libérer de l'espace et permettre un nouvel enregistrement.
-
-Répétez cette opération chaque jour pour chaque carte utilisée. À la fin de la période de collecte, vous pourrez centraliser tous les fichiers enregistrés sur l'ensemble des Micro:bit.
-
-### Utiliser et comprendre le code
-
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données sur l'humidité et la température :
-
-```javascript
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Yes)
-    basic.pause(200)
-    basic.clearScreen()
-    while (true) {
-        dht11_dht22.queryData(
-            DHTtype.DHT22,
-            DigitalPin.P0, true,
-            false, false
-        )
-        datalogger.log(
-            datalogger.createCV("temperature", dht11_dht22.readData(dataType.temperature)),
-            datalogger.createCV("humidite", dht11_dht22.readData(dataType.humidity))
-        )
-        basic.pause(60000)
-    }
-})
-basic.showIcon(IconNames.No)
-datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
-```
-
-#### Comment le programme fonctionne
-
-Ce programme mesure l'humidité et la température. À intervalles réguliers -- par défaut toutes les minutes, mais cette fréquence peut être ajustée (toutes les 10 secondes, toutes les 5 minutes, deux fois par heure, etc.) -- le programme enregistre les données dans un datalogger, à partir duquel il est possible de télécharger un fichier .csv.
-
-Un fichier .csv (Comma-Separated Values) est un format de fichier texte utilisé pour stocker des données tabulaires, comme dans un tableau ou une feuille de calcul. Chaque ligne du fichier correspond à une ligne de données, et chaque valeur est séparée par un délimiteur -- le plus souvent une virgule, mais parfois un point-virgule ou une tabulation.
-
-Il est possible de récupérer les données d'un fichier .csv dans un tableur tel que Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier .csv, puis configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, le processus est similaire : cliquez sur Fichier &gt; Ouvrir, choisissez le fichier, puis utilisez l'assistant d'importation pour définir le bon délimiteur (par exemple une virgule ou un point-virgule).
-
-Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
-
-- **Initialisation de l'événement d'appui sur le bouton « A » :** Lorsque l'utilisateur appuie sur le bouton « A » de la MicroBit, la fonction `input.onButtonPressed(Button.A, function () ...)` est exécutée.
-- **Affichage de l'icône "Yes" pendant l'exécution :** Avant de démarrer l'enregistrement des données, le programme affiche l'icône « Yes » (`basic.showIcon(IconNames.Yes)`) pendant 200 millisecondes (0,2 seconde) pour indiquer que le processus d'enregistrement a démarré.
-- **Pause de 200 millisecondes :** Après avoir affiché l'icône « Yes », le programme attend 200 millisecondes en utilisant `basic.pause(200)`.
-- **Nettoyage de l'écran :** Après la pause de 200 millisecondes, l'écran est effacé avec `basic.clearScreen()`, qui prépare l'écran pour ce qui suit sans être encombré d'images.
-- **Boucle de collecte de données infinie :** Le programme entre dans une boucle infinie `while (true)`. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la MicroBit soit éteint ou redémarré.
-- **Interrogation du capteur :** Les blocs `dht11_dht22.queryData()` et `dht11_dht22.readData(...)` permettent de sélectionner le type de module et de lire les données du capteur (il est recommandé de respecter un délai entre chaque requête : au moins 1 seconde pour le DHT11 et 2 secondes pour le DHT22). Une requête doit être effectuée au préalable pour obtenir les valeurs de température et d'humidité. Ce bloc vérifie également la somme de contrôle des données renvoyées par le capteur. En cas d'erreur dans la somme de contrôle, les relevés de température et d'humidité retourneront -999, et le bloc « Dernière requête réussie ? » indiquera false.
-- **Enregistrement des données dans le datalogger :** À chaque itération, le programme enregistre les valeurs des capteurs de la MicroBit : Température (`dht11_dht22.readData(dataType.temperature)`) récupère la température actuelle en degrés Celsius. Humidité (`dht11_dht22.readData(dataType.humidity)`) récupère l'humidité relative actuelle. La température est mesurée en degrés Celsius (°C) et l'humidité relative en pourcentage. Ces valeurs sont enregistrées dans le datalogger sous forme de variables nommées (respectivement, « température » et « humidité »). La fonction `createCV` permet de créer un « CV » (valeur de contexte) pour chaque capteur, et la fonction `datalogger.log` permet d'enregistrer ces valeurs dans un fichier sur la MicroBit.
-- **Pause de 60 000 millisecondes avant la lecture suivante :** Après chaque enregistrement, le programme attend 60 000 millisecondes (1 minute) avant de relire les valeurs du capteur. Ceci est réalisé avec `basic.pause(60000)`.
-- **Horodatage des données :** En dehors de la fonction liée au bouton, la commande `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` est utilisée pour inclure un horodatage avec chaque enregistrement de données. Le format d'horodatage est en minutes, ce qui signifie que chaque enregistrement aura un indicateur de temps basé sur les minutes écoulées depuis le démarrage du programme.
-- **Affichage de l'icône "No" avant l'exécution :** Avant que l'utilisateur n'appuie sur le bouton « A », le programme affiche une icône « No » (`basic.showIcon(IconNames.No)`) pour indiquer que la MicroBit attend l'action de l'utilisateur.
+Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Insulation](/ressources/steamcity/programmation/programmation-insulation).
 
 ---
-
-## Fiche pratique 2 : utilisation de caméras thermiques pour l'analyse de l'isolation
 
 ### Pourquoi utiliser une caméra thermique ?
 
@@ -940,8 +829,8 @@ Une caméra thermique est un outil utile pour repérer les zones de perte de cha
 
 Les caméras thermiques détectent le rayonnement infrarouge émis par les objets en fonction de leur température. Elles traduisent ce rayonnement en une image en fausses couleurs, où chaque teinte correspond à une plage de température donnée :
 
-- Rouge / Jaune : indiquent des zones plus chaudes, souvent associées à des pertes de chaleur
-- Bleu / Violet : signalent des zones plus froides, pouvant révéler des infiltrations d'air ou une isolation insuffisante
+- **Rouge / Jaune** : indiquent des zones plus chaudes, souvent associées à des pertes de chaleur
+- **Bleu / Violet** : signalent des zones plus froides, pouvant révéler des infiltrations d'air ou une isolation insuffisante
 
 Les élèves peuvent analyser ces images pour interpréter les variations thermiques observées et identifier les zones nécessitant des améliorations.
 
@@ -1031,13 +920,13 @@ Vous trouverez ci-dessous des pistes précises pour intégrer l'imagerie thermiq
 
 **Collecte de données structurées :**
 
-- Analyse en intérieur : Organisez les élèves en petits groupes pour analyser différentes zones du bâtiment scolaire, comme les murs, les fenêtres et les portes. Attribuez des rôles spécifiques (opérateur de caméra, preneur de notes, analyste de données) afin d'assurer la participation active de tous.
-- Analyse en extérieur : Étendez l'activité à l'extérieur. Les élèves peuvent comparer les émissions thermiques entre des murs exposés au soleil ou à l'ombre, ou encore observer les effets du vent et de la lumière sur la température des surfaces.
+- **Analyse en intérieur** : Organisez les élèves en petits groupes pour analyser différentes zones du bâtiment scolaire, comme les murs, les fenêtres et les portes. Attribuez des rôles spécifiques (opérateur de caméra, preneur de notes, analyste de données) afin d'assurer la participation active de tous.
+- **Analyse en extérieur** : Étendez l'activité à l'extérieur. Les élèves peuvent comparer les émissions thermiques entre des murs exposés au soleil ou à l'ombre, ou encore observer les effets du vent et de la lumière sur la température des surfaces.
 
 **Analyse comparative :**
 
-- Scénarios avant/après : Demandez aux élèves de documenter un même emplacement avant et après une intervention (ajout d'un isolant, calfeutrage d'une fenêtre, etc.). La comparaison des images thermiques permet de visualiser l'impact concret des actions entreprises.
-- Comparaison des matériaux : Réalisez des expériences contrôlées pour comparer les performances de différents matériaux isolants testés en laboratoire avec les observations faites sur le terrain. Les élèves peuvent, par exemple, évaluer un mur de l'établissement face à un mur isolé expérimentalement.
+- **Scénarios avant/après** : Demandez aux élèves de documenter un même emplacement avant et après une intervention (ajout d'un isolant, calfeutrage d'une fenêtre, etc.). La comparaison des images thermiques permet de visualiser l'impact concret des actions entreprises.
+- **Comparaison des matériaux** : Réalisez des expériences contrôlées pour comparer les performances de différents matériaux isolants testés en laboratoire avec les observations faites sur le terrain. Les élèves peuvent, par exemple, évaluer un mur de l'établissement face à un mur isolé expérimentalement.
 
 **Intégration avec d'autres outils.** Associez l'imagerie thermique à des capteurs de température et d'humidité. Cela permet aux élèves de croiser les images thermiques avec des données chiffrées, offrant ainsi une analyse plus complète et précise des variations thermiques.
 
@@ -1051,8 +940,8 @@ Invitez les élèves à discuter des limites de l'imagerie thermique, notamment 
 
 **Mobiliser les élèves grâce à la technologie :**
 
-- Gamification : Transformez l'activité en défi : par exemple, « Identifier la plus grande perte de chaleur » ou « Concevoir la meilleure solution d'isolation ». Valorisez la créativité et le raisonnement scientifique.
-- Exploitation des outils numériques : Si l'application associée à la caméra thermique le permet, encouragez l'utilisation des fonctions de superposition ou d'annotation en direct pour enrichir les images ou vidéos produites et renforcer la clarté de leurs analyses.
+- **Gamification** : Transformez l'activité en défi : par exemple, « Identifier la plus grande perte de chaleur » ou « Concevoir la meilleure solution d'isolation ». Valorisez la créativité et le raisonnement scientifique.
+- **Exploitation des outils numériques** : Si l'application associée à la caméra thermique le permet, encouragez l'utilisation des fonctions de superposition ou d'annotation en direct pour enrichir les images ou vidéos produites et renforcer la clarté de leurs analyses.
 
 En intégrant l'imagerie thermique dans l'activité, les élèves développent à la fois des compétences techniques et une compréhension concrète de l'application des sciences à des problématiques réelles. L'activité devient plus dynamique, collaborative et ancrée dans les enjeux contemporains tels que le développement durable et la transition énergétique.
 
@@ -1096,8 +985,6 @@ En intégrant l'imagerie thermique dans l'activité, les élèves développent �
 10. **Cartographie thermique des bâtiments publics :** PrioRéno pour les bâtiments publics (France) -- Un service gratuit proposant une cartographie énergétique du parc de bâtiments publics pour aider à prioriser les plans de rénovation.
 11. **Ateliers d'éducation communautaire :** Programme d'éducation Energy Savings Trust (UK) -- Offre des ressources et des ateliers pour les écoles et les communautés sur la conservation de l'énergie.
 12. **Plaidoyer pour les bâtiments à énergie zéro :** Zero Energy Project (USA) -- Défenseur des maisons à énergie zéro et fournissant des ressources pour la mise en oeuvre de solutions de construction écoénergétiques.
-
-## Bibliographie
 
 ### Références scientifiques
 

@@ -56,11 +56,6 @@ D'un point de vue technique, ce projet présente l'Internet des objets (IoT), la
 
 La dimension scientifique du projet permet aux apprenants d'aborder des concepts de chimie, de physique et de sciences de l'environnement. Ils explorent la composition chimique des polluants atmosphériques, les principes de détection des particules et les facteurs environnementaux influençant la qualité de l'air. En effectuant des mesures et en comparant les résultats aux normes établies, les participants appliquent la démarche scientifique et comprennent ses applications pratiques.
 
----
-
-## Structure du protocole
-
-Le protocole fonctionne comme un parcours d'apprentissage à travers quatre étapes :
 
 ### Étape 1 : collecter des données : construction et déploiement de capteurs
 
@@ -80,7 +75,9 @@ La dernière étape encourage les élèves à appliquer leurs conclusions à des
 
 Chaque étape s'appuie sur la précédente, créant une progression d'apprentissage qui débute par des mesures concrètes et progresse vers l'analyse et les applications pratiques. Ensemble, elles représentent le processus scientifique, de l'observation à la communication des résultats.
 
-## Pour bien démarrer
+### Structure du protocole
+
+Le protocole fonctionne comme un parcours d'apprentissage à travers quatre étapes :
 
 Durée : 180 minutes ou 3 séances (1 pour l'étape 1, 1 pour l'étape 2 et le début de l'étape 3, et 1 pour la fin de l'étape 3 et l'étape 4)
 
@@ -90,40 +87,31 @@ Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG ; Arduino ; micro:bi
 
 Ressources : Guide d'utilisation de Vittascience : https://fr.vittascience.com/learn/tutorial.php?id=330/guide-d-utilisation-qualite-d-air, CNES : https://cnes.fr/fr, Calisph'air : https://enseignants-mediateurs.cnes.fr/fr/projets/calisphair
 
----
 
-## Glossaire
+### Glossaire
 
-| Terme | Définition |
-|---|---|
-| Particules fines (PM10 et PM2,5) | Les particules fines (PM) sont constituées d'un mélange complexe de particules solides et liquides, de substances organiques et minérales en suspension dans l'air. Elles peuvent être d'origine naturelle (volcanisme, érosion...) ou générées par les activités humaines (chauffage, transport routier, industrie...). Elles sont classées selon leur taille : PM 2,5 (particules de diamètre inférieur ou égal à 2,5 µm), PM 10 (particules de diamètre inférieur ou égal à 10 µm). À titre de comparaison, un cheveu humain a un diamètre de 50 à 70 µm. |
-| Dioxyde d'azote (NO2) | Les émissions de dioxyde d'azote (NO2) proviennent principalement de la combustion de combustibles fossiles (chauffage, production d'électricité, moteurs de voitures et de bateaux). |
-| Monoxyde de carbone (CO) | Le monoxyde de carbone (CO) résulte d'une combustion incomplète (bois, butane, charbon…) due à des installations (chauffage) mal contrôlées ou aux gaz d'échappement des véhicules. De nombreux accidents domestiques surviennent chaque année en hiver en raison d'une intoxication au monoxyde de carbone à l'intérieur des habitations. |
-| Composés organiques volatils (COV) | Les composés organiques volatils (COV) sont principalement des polluants secondaires créés par des réactions chimiques à partir d'autres polluants, mais ils peuvent être de différentes natures. On en trouve plus de 400 dans l'air, dont les hydrocarbures, le benzène et les aldéhydes. Ils sont principalement émis par les véhicules, les solvants et l'industrie. |
-| Ozone (O3) | Une première couche d'ozone dans la haute atmosphère est appelée « bon ozone », car elle agit comme une couche protectrice contre les rayons ultraviolets du soleil. Une autre, présente au niveau du sol, est appelée « mauvais ozone ». Selon l'Organisation mondiale de la santé, « dans ce dernier cas, l'ozone est un polluant secondaire, formé par des réactions photochimiques entre divers polluants tels que les oxydes d'azote (NOx) émis par les véhicules et l'industrie, et les composés organiques volatils (COV), émis par les véhicules, les solvants et l'industrie. » |
-| Dioxyde de carbone (CO2) | Le dioxyde de carbone (CO2) est un gaz incolore et inodore, responsable de 77 % des émissions de gaz à effet de serre (GES) d'origine humaine. Naturellement présent en faibles quantités dans l'atmosphère, il se forme lors de certains processus naturels (cycle du carbone) et surtout lors de la combustion de substances carbonées. Il peut être nocif pour l'environnement et la santé humaine. Il peut provenir du secteur des transports, de l'industrie (utilisation de combustibles fossiles) et de l'habitat (chauffage, éclairage, etc.). |
-| Indice de qualité de l'air | L'indice de qualité de l'air est une valeur utilisée pour synthétiser les différentes mesures de la qualité de l'air. En France, Atmo France, la fédération des associations de surveillance de la qualité de l'air, publie un indice destiné au public. Il synthétise la surveillance de cinq polluants : le dioxyde de soufre SO2, le dioxyde d'azote NO2, l'ozone O3 et les particules fines (PM10 et PM2,5). Cet indice est publié quotidiennement pour une agglomération (de plus de 100 000 habitants) ou une région. Il comprend six niveaux colorés, allant de bon à extrêmement mauvais. |
+- **Particules fines (PM10 et PM2,5)** : Les particules fines (PM) sont constituées d'un mélange complexe de particules solides et liquides, de substances organiques et minérales en suspension dans l'air. Elles peuvent être d'origine naturelle (volcanisme, érosion...) ou générées par les activités humaines (chauffage, transport routier, industrie...). Elles sont classées selon leur taille : PM 2,5 (particules de diamètre inférieur ou égal à 2,5 µm), PM 10 (particules de diamètre inférieur ou égal à 10 µm). À titre de comparaison, un cheveu humain a un diamètre de 50 à 70 µm.
+- **Dioxyde d'azote (NO2)** : Les émissions de dioxyde d'azote (NO2) proviennent principalement de la combustion de combustibles fossiles (chauffage, production d'électricité, moteurs de voitures et de bateaux).
+- **Monoxyde de carbone (CO)** : Le monoxyde de carbone (CO) résulte d'une combustion incomplète (bois, butane, charbon…) due à des installations (chauffage) mal contrôlées ou aux gaz d'échappement des véhicules. De nombreux accidents domestiques surviennent chaque année en hiver en raison d'une intoxication au monoxyde de carbone à l'intérieur des habitations.
+- **Composés organiques volatils (COV)** : Les composés organiques volatils (COV) sont principalement des polluants secondaires créés par des réactions chimiques à partir d'autres polluants, mais ils peuvent être de différentes natures. On en trouve plus de 400 dans l'air, dont les hydrocarbures, le benzène et les aldéhydes. Ils sont principalement émis par les véhicules, les solvants et l'industrie.
+- **Ozone (O3)** : Une première couche d'ozone dans la haute atmosphère est appelée « bon ozone », car elle agit comme une couche protectrice contre les rayons ultraviolets du soleil. Une autre, présente au niveau du sol, est appelée « mauvais ozone ». Selon l'Organisation mondiale de la santé, « dans ce dernier cas, l'ozone est un polluant secondaire, formé par des réactions photochimiques entre divers polluants tels que les oxydes d'azote (NOx) émis par les véhicules et l'industrie, et les composés organiques volatils (COV), émis par les véhicules, les solvants et l'industrie. »
+- **Dioxyde de carbone (CO2)** : Le dioxyde de carbone (CO2) est un gaz incolore et inodore, responsable de 77 % des émissions de gaz à effet de serre (GES) d'origine humaine. Naturellement présent en faibles quantités dans l'atmosphère, il se forme lors de certains processus naturels (cycle du carbone) et surtout lors de la combustion de substances carbonées. Il peut être nocif pour l'environnement et la santé humaine. Il peut provenir du secteur des transports, de l'industrie (utilisation de combustibles fossiles) et de l'habitat (chauffage, éclairage, etc.).
+- **Indice de qualité de l'air** : L'indice de qualité de l'air est une valeur utilisée pour synthétiser les différentes mesures de la qualité de l'air. En France, Atmo France, la fédération des associations de surveillance de la qualité de l'air, publie un indice destiné au public. Il synthétise la surveillance de cinq polluants : le dioxyde de soufre SO2, le dioxyde d'azote NO2, l'ozone O3 et les particules fines (PM10 et PM2,5). Cet indice est publié quotidiennement pour une agglomération (de plus de 100 000 habitants) ou une région. Il comprend six niveaux colorés, allant de bon à extrêmement mauvais.
 
 ### Glossaire technique
 
-| Capteur/Technologie | Description |
-|---|---|
-| Capteur de gaz multicanal MICS6814 | Ce capteur de gaz multicanal (capable de mesurer plusieurs gaz simultanément) doit être connecté au port I2C du shield. Il dispose de 4 éléments de mesure. Il peut détecter les gaz suivants : monoxyde de carbone (CO) : 1 - 1 000 ppm, dioxyde d'azote (NO₂) : 0,05 - 10 ppm, éthanol (C₂H₇OH) : 10 - 500 ppm et composés organiques volatils (COV) : 1 - 500 ppm. |
-| Capteur HM3301 | Le HM3301 est un capteur laser pour la détection de particules fines. Il détecte la poussière dans l'air en continu et en temps réel. Il doit être connecté au port I2C du shield. Des pales de ventilateur aspirent l'air à travers une chambre de détection. La lumière laser se diffuse sur les particules de poussière et est captée par une photodiode. Après amplification dans le circuit électronique, ce capteur fournit la concentration massique des particules ainsi que leur nombre. |
-| DHT11 | Le DHT11 est un capteur numérique de température et d'humidité. Il doit être connecté à un port numérique du shield (D0 à D13 sur Arduino et P0 à P20 sur micro:bit). Ce module utilise des composants d'humidité capacitifs. |
-| LoRa | La technologie LoRaWan est un protocole de communication radio (fréquence 868 MHz en France) permettant l'échange de données entre objets connectés. Le signal est émis sur une large plage spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine – jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits LoRaWan sont très faibles, de l'ordre de quelques kilobits par seconde. Ce type de réseau est donc utilisé pour l'Internet des objets (IoT), c'est-à-dire les capteurs fixes (par exemple, température, humidité, etc.). |
+- **Capteur de gaz multicanal MICS6814** : Ce capteur de gaz multicanal (capable de mesurer plusieurs gaz simultanément) doit être connecté au port I2C du shield. Il dispose de 4 éléments de mesure. Il peut détecter les gaz suivants : monoxyde de carbone (CO) : 1 - 1 000 ppm, dioxyde d'azote (NO₂) : 0,05 - 10 ppm, éthanol (C₂H₇OH) : 10 - 500 ppm et composés organiques volatils (COV) : 1 - 500 ppm.
+- **Capteur HM3301** : Le HM3301 est un capteur laser pour la détection de particules fines. Il détecte la poussière dans l'air en continu et en temps réel. Il doit être connecté au port I2C du shield. Des pales de ventilateur aspirent l'air à travers une chambre de détection. La lumière laser se diffuse sur les particules de poussière et est captée par une photodiode. Après amplification dans le circuit électronique, ce capteur fournit la concentration massique des particules ainsi que leur nombre.
+- **DHT11** : Le DHT11 est un capteur numérique de température et d'humidité. Il doit être connecté à un port numérique du shield (D0 à D13 sur Arduino et P0 à P20 sur micro:bit). Ce module utilise des composants d'humidité capacitifs.
+- **LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 MHz en France) permettant l'échange de données entre objets connectés. Le signal est émis sur une large plage spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine – jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits LoRaWan sont très faibles, de l'ordre de quelques kilobits par seconde. Ce type de réseau est donc utilisé pour l'Internet des objets (IoT), c'est-à-dire les capteurs fixes (par exemple, température, humidité, etc.).
 
----
+## Étape 1 : collecter des données : construction et déploiement d'équipements de capteurs
 
-## Protocole
+**Contexte et description du problème à résoudre à cette étape** : Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, les élèves se familiariseront avec différents capteurs et leurs interfaces tout en commençant à collecter des données sur différents polluants.
 
-### Étape 1 : collecter des données : construction et déploiement d'équipements de capteurs
+**Objectifs d'apprentissage**: Comprendre les principaux types de polluants atmosphériques et leurs sources. Apprendre à assembler et configurer des capteurs pour la surveillance environnementale. Acquérir des compétences de base en programmation pour la collecte de données à partir de différents types de capteurs. Développer une compréhension des unités de mesure et des principes d'étalonnage. Appliquer des méthodes de mesure scientifiques à un défi environnemental concret.
 
-Contexte et description du problème à résoudre à cette étape : Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, les élèves se familiariseront avec différents capteurs et leurs interfaces tout en commençant à collecter des données sur différents polluants.
-
-Objectifs d'apprentissage : Comprendre les principaux types de polluants atmosphériques et leurs sources. Apprendre à assembler et configurer des capteurs pour la surveillance environnementale. Acquérir des compétences de base en programmation pour la collecte de données à partir de différents types de capteurs. Développer une compréhension des unités de mesure et des principes d'étalonnage. Appliquer des méthodes de mesure scientifiques à un défi environnemental concret.
-
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés.
 
@@ -161,7 +149,7 @@ Activité d'introduction : Identifiez avec les élèves les endroits où mesurer
 
 Durée : 25 minutes
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Maintenant que nous en savons plus sur ces différents polluants, voyons comment les mesurer en assemblant les capteurs et en programmant la carte électronique. Commencez par tester ces activités en classe, puis demandez aux élèves, en groupes, de les placer dans les différents lieux/zones géographiques choisis précédemment.
 
@@ -183,19 +171,19 @@ Bon à savoir : Les composants électroniques sont sensibles à l'eau et à l'hu
 
 Programmation à cette étape : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 2 : Collecte de données environnementales multi-capteurs ».
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer les concepts clés appris : que sont les polluants environnementaux et comment les mesurer ? Ces deux concepts permettront aux élèves d'étudier les résultats de leurs mesures.
 
 Connaissances mobilisées : Les élèves ont appris à connaître les polluants primaires et secondaires, leurs sources et les méthodes de mesure à l'aide de capteurs. Réflexion sur la mise en œuvre en classe : Cette étape peut être mise en œuvre dans une salle de classe standard avec accès à des ordinateurs pour la programmation. Envisagez de diviser les élèves en petits groupes, chacun étant responsable d'une configuration de capteurs différente. Objectifs d'apprentissage : Les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
 
-### Étape 2 : afficher les données : techniques de visualisation et de représentation des données
+## Étape 2 : afficher les données : techniques de visualisation et de représentation des données
 
-Contexte et description du problème à résoudre à cette étape : Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à l'étape précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
+**Contexte et description du problème à résoudre à cette étape** : Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à l'étape précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
 
-Objectifs d'apprentissage : Comprendre les différentes méthodes de visualisation des données environnementales. Apprendre à utiliser des interfaces graphiques pour créer des affichages de données en temps réel. Développer des compétences en matière d'exportation et de stockage de données pour une analyse ultérieure. Comprendre comment différentes techniques de visualisation mettent en évidence divers aspects d'un même ensemble de données. Appliquer des méthodes de visualisation adaptées au type de données et aux besoins d'analyse.
+**Objectifs d'apprentissage**: Comprendre les différentes méthodes de visualisation des données environnementales. Apprendre à utiliser des interfaces graphiques pour créer des affichages de données en temps réel. Développer des compétences en matière d'exportation et de stockage de données pour une analyse ultérieure. Comprendre comment différentes techniques de visualisation mettent en évidence divers aspects d'un même ensemble de données. Appliquer des méthodes de visualisation adaptées au type de données et aux besoins d'analyse.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
@@ -211,7 +199,7 @@ Activité d'introduction : Demandez aux élèves comment afficher les valeurs de
 
 Durée : 10 minutes
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Graphiques en temps réel (20 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -235,19 +223,19 @@ Une fois l'enregistrement terminé, retirez la carte microSD du lecteur. Insére
 
 Programmation à cette étape : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 3 : Enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air ».
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant peut conclure l'activité en montrant aux élèves qu'ils ont appris à utiliser différentes méthodes pour comprendre l'importance de la représentation des données. Chacune de ces méthodes peut ensuite être utilisée pour analyser les données et comprendre leur influence sur le résultat.
 
 Connaissances mobilisées : Les étudiants ont appris des méthodes pour visualiser les données environnementales grâce à des graphiques en temps réel et à l'enregistrement de données pour une analyse asynchrone. Réflexion sur la mise en œuvre en classe : Cette activité fonctionne parfaitement en salle informatique, où les élèves peuvent connecter leurs appareils et expérimenter différentes techniques de visualisation. Partagez des exemples de visualisations efficaces avant que les élèves ne créent les leurs. Résultats d'apprentissage : Les élèves devraient maintenant comprendre comment différentes méthodes de visualisation révèlent des aspects distincts des mêmes données et être capables de choisir des techniques de visualisation appropriées pour des types spécifiques de données environnementales.
 
-### Étape 3 : analyser les données : identifier les modèles et les corrélations environnementales
+## Étape 3 : analyser les données : identifier les modèles et les corrélations environnementales
 
-Contexte et description du problème à résoudre à cette étape : En s'appuyant sur la collecte et la visualisation des données des étapes précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
+**Contexte et description du problème à résoudre à cette étape** : En s'appuyant sur la collecte et la visualisation des données des étapes précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
 
-Objectifs d'apprentissage : Développer des compétences analytiques pour interpréter les données environnementales. Apprendre à identifier les tendances et les corrélations dans les mesures de la qualité de l'air. Comprendre l'influence des facteurs environnementaux sur les concentrations de polluants. Appliquer les concepts statistiques de base à l'analyse des données environnementales. Tirer des conclusions fondées sur des données probantes à partir des mesures recueillies.
+**Objectifs d'apprentissage**: Développer des compétences analytiques pour interpréter les données environnementales. Apprendre à identifier les tendances et les corrélations dans les mesures de la qualité de l'air. Comprendre l'influence des facteurs environnementaux sur les concentrations de polluants. Appliquer les concepts statistiques de base à l'analyse des données environnementales. Tirer des conclusions fondées sur des données probantes à partir des mesures recueillies.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
@@ -263,7 +251,7 @@ Activité introductive : Demandez aux élèves quels facteurs prendre en compte 
 
 Durée : 10 minutes
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Activité 1 : Traitement des données (10 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -309,19 +297,19 @@ Activité 2 : Analyse des modèles (10 minutes) L'activité est lancée par l'en
 
 Consignes aux élèves : Analyser les données. Trouver les causes des variations du monoxyde de carbone dans l'air.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'analyse des données est une étape essentielle pour transformer les données brutes en informations, permettant aux étudiants d'apprendre à tirer des conclusions.
 
 Connaissances mobilisées : Les élèves ont développé des compétences analytiques pour identifier les modèles temporels, les distributions spatiales et les corrélations entre les niveaux de polluants et les facteurs environnementaux. Réflexion sur la mise en œuvre en classe : Ce travail d'analyse peut être mené en binôme ou en petits groupes pour favoriser la discussion. Fournir des fiches de travail structurées pour guider les élèves dans leur première expérience d'analyse de données. Résultats d'apprentissage : Les élèves devraient désormais être capables d'interpréter les données environnementales, de reconnaître des modèles significatifs et de comprendre comment les facteurs externes influencent les mesures de la qualité de l'air.
 
-### Étape 4 : utiliser les données pour agir : élaboration de recommandations environnementales
+## Étape 4 : utiliser les données pour agir : élaboration de recommandations environnementales
 
-Contexte et description du problème à résoudre à cette étape : La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ce projet, qui n'était qu'un exercice académique, devient ainsi une opportunité d'engagement environnemental, permettant aux élèves de comprendre comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
+**Contexte et description du problème à résoudre à cette étape** : La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ce projet, qui n'était qu'un exercice académique, devient ainsi une opportunité d'engagement environnemental, permettant aux élèves de comprendre comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
 
-Objectifs d'apprentissage : Développer des compétences en analyse comparative de données provenant de différents sites. Apprendre à formuler des recommandations fondées sur des données probantes. Comprendre comment les données scientifiques peuvent éclairer les politiques et actions environnementales. Communiquer les résultats scientifiques à divers publics. Appliquer ses connaissances en matière de qualité de l'air pour proposer des stratégies d'amélioration concrètes.
+**Objectifs d'apprentissage**: Développer des compétences en analyse comparative de données provenant de différents sites. Apprendre à formuler des recommandations fondées sur des données probantes. Comprendre comment les données scientifiques peuvent éclairer les politiques et actions environnementales. Communiquer les résultats scientifiques à divers publics. Appliquer ses connaissances en matière de qualité de l'air pour proposer des stratégies d'amélioration concrètes.
 
-#### Conceptualisation
+### Conceptualisation
 
 Avant de commencer, l'enseignant encourage les élèves à prendre en compte les facteurs en jeu.
 
@@ -353,7 +341,7 @@ Activité d'introduction – Aider les élèves à explorer la corrélation entr
 
 Durée : 10 minutes
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 L'activité finale (10 minutes) est lancée par l'enseignant, elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -361,7 +349,7 @@ Consignes aux élèves : Maintenant que les données ont été enregistrées, il
 
 Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap. Cliquez sur le bouton « + » → « Ajouter une expérience ». Sur le formulaire, remplissez les informations suivantes : Nom du projet ; Type de kit : kit station de mesure ; Comment s'est déroulé le projet ? (décrivez ici votre protocole de mesure) ; Lieu ; Dates de mesure ; Données (pour ajouter des données, vous pouvez inclure plusieurs séries de mesures. Vous pouvez saisir des données directement dans le tableau "Champ de données", et/ou ajouter votre propre fichier .csv depuis votre carte SD) ; Photos/Vidéos ; Langue. Une fois tous les champs remplis, il ne vous reste plus qu'à cliquer sur le bouton "Ajouter une expérience". Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap. Les élèves peuvent ensuite les comparer avec d'autres expériences similaires. Filtrez les expériences par type de "Kit station de mesure". Cliquez ensuite sur une expérience et sur le bouton "comparer". Cliquez à nouveau sur une autre expérience et sur le bouton "comparer avec l'expérience sélectionnée".
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 L'enseignant encourage les élèves à partager leurs idées pour améliorer la qualité de l'air dans le monde. Résumez ces idées sous forme de synthèse des meilleures pratiques à mettre en œuvre.
 
@@ -369,105 +357,9 @@ Connaissances mobilisées : Les étudiants ont appris à comparer les résultats
 
 ---
 
-## Fiches pratiques
+## Fiche pratique
 
-### Fiche pratique 1 : système de surveillance des COV avec écran LCD
-
-Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Arduino sont très similaires. Nous présentons ici un programme conçu pour micro:bit. Il affiche les éléments mesurés sur l'écran LCD.
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/arduino ou vittascience.com/microbit
-
-Connexion d'assemblage avec un Arduino
-
-Le capteur multicanal MICS6814 est connecté à un port I2C sur le shield. L'écran est connecté à un port I2C. Le module Openlog pour l'enregistrement de données sur une carte SD est connecté à un port numérique (D2 à D8).
-
-Connexion d'assemblage avec un micro:bit
-
-Le capteur multicanal MICS6814 est connecté à un port I2C sur le shield. L'écran est connecté à un port I2C. Le module Openlog pour l'enregistrement de données sur une carte SD est connecté à un port numérique P0.
-
-Code
-
-```python
-from microbit import *
-from lcd_i2c import LCD1602
-from gas_gmxxx import GAS_GMXXX
-
-lcd = LCD1602()
-multichannel_v2 = GAS_GMXXX(0x08)
-
-while True:
-    lcd.setCursor(0, 0)
-    lcd.writeTxt('Mesure VOC')
-    lcd.setCursor(0, 1)
-    lcd.writeTxt(str(multichannel_v2.calcVol(multichannel_v2.measure_VOC())))
-```
-
-### Fiche pratique 2 : collecte de données environnementales multi-capteurs
-
-Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Arduino sont très similaires. Nous présentons ici un programme conçu pour micro:bit. Il affiche les éléments mesurés sur l'écran LCD.
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/arduino ou vittascience.com/microbit
-
-Connexion d'assemblage avec un Arduino
-
-Le capteur HM3301 est connecté à un port I2C. Le capteur multicanal MICS6814 est connecté à un port I2C du shield. Le capteur d'humidité DHT11 est connecté à un port numérique (D2 à D8). L'écran est connecté à un port I2C. Le module Openlog pour l'enregistrement de données sur une carte SD est connecté à un port numérique (D2 à D8).
-
-Connexion d'assemblage avec un micro:bit
-
-Le capteur HM3301 et le capteur multicanal MICS6814 sont connectés à un port I2C sur le shield. Le capteur d'humidité DHT11 est connecté à un port numérique (P1 ou P2 selon les besoins). L'écran est connecté à un port I2C. Le module Openlog pour l'enregistrement de données sur une carte SD est connecté à un port numérique P0.
-
-Code
-
-```python
-from microbit import *
-from lcd_i2c import LCD1602
-from gas_gmxxx import GAS_GMXXX
-from hm330x import HM330X
-from dht11 import DHT11
-
-lcd = LCD1602()
-multichannel_v2 = GAS_GMXXX(0x08)
-hm3301 = HM330X()
-# DHT11 Sensor on pin0
-dht11_0 = DHT11(pin0)
-
-while True:
-    if button_a.is_pressed():
-        lcd.setCursor(0, 0)
-        lcd.writeTxt('Mesure VOC:')
-        lcd.setCursor(0, 0)
-        lcd.writeTxt(str(multichannel_v2.calcVol(multichannel_v2.measure_VOC())))
-    if button_b.is_pressed():
-        lcd.setCursor(0, 0)
-        lcd.writeTxt('Concentration PM 10:')
-        lcd.setCursor(0, 0)
-        lcd.writeTxt(str(hm3301.getData(5)))
-    if button_a.is_pressed() and button_b.is_pressed():
-        lcd.setCursor(0, 0)
-        lcd.writeTxt('Mesure temperature:')
-        lcd.setCursor(0, 0)
-        lcd.writeTxt(str(dht11_0.getData(d=1)*9/5 + 32))
-```
-
-### Fiche pratique 3 : enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air
-
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/arduino ou vittascience.com/microbit
-
-Code
-
-```python
-from microbit import *
-from hm330x import HM330X
-from gas_gmxxx import GAS_GMXXX
-
-hm3301 = HM330X()
-multichannel_v2 = GAS_GMXXX(0x08)
-# Lecteur SD on pin0
-
-while True:
-    uart.init(baudrate=4800, bits=8, parity=None, tx=pin0, rx=pin14)
-    uart.write(('{}' * 3).format(hm3301.getData(3), ';', multichannel_v2.calcVol(multichannel_v2.measure_NO2())) + '\n')
-```
+Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Outdoor Air Quality](/ressources/steamcity/programmation/programmation-outdoor-air-quality).
 
 ---
 
@@ -475,10 +367,10 @@ while True:
 
 Idées de projets complémentaires En s'appuyant sur les connaissances et les compétences développées en classe, les étudiants peuvent approfondir leur compréhension de la qualité de l'air extérieur en appliquant ce qu'ils ont appris dans divers nouveaux projets tels que :
 
-- Idée 1 : Construire un abri solaire pour votre station de qualité de l'air. Un abri protège et soutient vos capteurs. Équipez-le d'un module d'alimentation alimenté par batterie et d'un panneau solaire. Connectez-le simplement à votre microcontrôleur.
-- Idée 2 : Ajouter un anémomètre à votre station météo. Cela vous permettra d'enregistrer la vitesse du vent. En complément de l'anémomètre ou séparément, vous pouvez ajouter un pluviomètre. Celui-ci mesure la quantité d'eau de pluie tombée.
-- Idée 3 : Transmettre les données mesurées de l'extérieur vers l'intérieur. Il vous faut deux cartes : une avec les capteurs, l'autre avec un écran d'affichage.
-- Idée 4 : Recevoir les informations de votre station sur votre smartphone. Un module Bluetooth rend cela possible ! D'une portée d'environ 10 m, il se branche sur le shield de la carte, comme les autres capteurs.
+- **Idée 1** : Construire un abri solaire pour votre station de qualité de l'air. Un abri protège et soutient vos capteurs. Équipez-le d'un module d'alimentation alimenté par batterie et d'un panneau solaire. Connectez-le simplement à votre microcontrôleur.
+- **Idée 2** : Ajouter un anémomètre à votre station météo. Cela vous permettra d'enregistrer la vitesse du vent. En complément de l'anémomètre ou séparément, vous pouvez ajouter un pluviomètre. Celui-ci mesure la quantité d'eau de pluie tombée.
+- **Idée 3** : Transmettre les données mesurées de l'extérieur vers l'intérieur. Il vous faut deux cartes : une avec les capteurs, l'autre avec un écran d'affichage.
+- **Idée 4** : Recevoir les informations de votre station sur votre smartphone. Un module Bluetooth rend cela possible ! D'une portée d'environ 10 m, il se branche sur le shield de la carte, comme les autres capteurs.
 
 ---
 

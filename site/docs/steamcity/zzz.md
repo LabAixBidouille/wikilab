@@ -53,38 +53,33 @@ Phase 2 : Collecte de données. Cette phase d'analyse et d'interprétation const
 
 Phase 3 : Analyse, interprétation et conclusion. Cette dernière phase permet de conclure le protocole en permettant aux élèves de synthétiser et donner du sens à leurs recherches sur le sommeil. Durant cette phase, ils développent des compétences en analyse statistique et visualisation de données scientifiques, en combinant les données des capteurs environnementaux avec les journaux de bord. Les élèves apprennent à identifier les corrélations entre les variables environnementales urbaines et la qualité du sommeil, tout en développant leur esprit critique sur les biais potentiels et les limites de l'étude. Cette phase finale permet non seulement de vérifier leurs hypothèses initiales sur l'impact des pollutions urbaines sur le sommeil, mais aussi de proposer des solutions concrètes basées sur des preuves empiriques. C'est une opportunité d'apprentissage complète qui renforce leurs compétences en communication scientifique et leur compréhension de la façon dont la recherche peut informer les politiques de santé publique.
 
-## Pour bien démarrer
+| Mesures | Durée | Matériel |
+|---|---|---|
+| Compréhension de la problématique et définition des indicateurs | 1 séquence de cours | Ordinateurs ou tablettes avec accès Internet pour la recherche documentaire et/ou documentation présélectionnée sur le sommeil. Papier, stylos pour la prise de notes. Logiciel de carte mentale (Freemind, Miro, Whimsical etc.) ou papier/carton plume en format A3 (format conseillé) |
+| Collecte de données | 1 séquence de cours + devoirs à la maison | Cartes programmables Micro:bit (6 recommandé mais peut fonctionner avec 1 ou 2). Carnet de bord pour noter les observations. Solutions pour le brassard (cf. liens utiles fournis plus bas) |
+| Analyse, interprétation et conclusion | 1 séquence de cours | Ordinateurs avec logiciels de traitement de données. Outils de présentation (PowerPoint, Canva, etc.). Templates pour la rédaction du rapport scientifique |
 
-| Mesures | Durée | Difficulté | Matériel |
-|---|---|---|---|
-| Compréhension de la problématique et définition des indicateurs | 1 séquence de cours | | Ordinateurs ou tablettes avec accès Internet pour la recherche documentaire et/ou documentation présélectionnée sur le sommeil. Papier, stylos pour la prise de notes. Logiciel de carte mentale (Freemind, Miro, Whimsical etc.) ou papier/carton plume en format A3 (format conseillé) |
-| Collecte de données | 1 séquence de cours + devoirs à la maison | | Cartes programmables Micro:bit (6 recommandé mais peut fonctionner avec 1 ou 2). Carnet de bord pour noter les observations. Solutions pour le brassard (cf. liens utiles fournis plus bas) |
-| Analyse, interprétation et conclusion | 1 séquence de cours | | Ordinateurs avec logiciels de traitement de données. Outils de présentation (PowerPoint, Canva, etc.). Templates pour la rédaction du rapport scientifique |
 
-## Glossaire
+### Glossaire
 
-| Terme | Définition |
-|---|---|
-| Qualité du sommeil | Mesure de l'efficacité du sommeil, incluant la facilité d'endormissement, la durée, les réveils nocturnes et le sentiment de repos au réveil. |
-| Phases du sommeil | Différentes étapes du sommeil, incluant le sommeil léger, profond et paradoxal, chacune ayant des fonctions spécifiques pour la récupération. |
-| Hygiène du sommeil | Ensemble de pratiques et d'habitudes favorisant un sommeil de qualité et réparateur. |
-| Rythmes circadiens | Cycles biologiques d'environ 24 heures qui régulent les fonctions physiologiques, notamment les cycles veille-sommeil. |
-| Mélatonine | Hormone produite par la glande pinéale, régulant le cycle veille-sommeil et synchronisant l'horloge biologique. |
-| Chronotype | Tendance naturelle d'une personne à dormir à certaines heures, influençant ses préférences pour le sommeil et l'éveil. |
-| Pollution lumineuse | Excès de lumière artificielle nocturne, perturbant les écosystèmes et les rythmes biologiques des êtres vivants. |
-| Lumière bleue | Partie du spectre lumineux émise par les écrans, connue pour supprimer la production de mélatonine et perturber le sommeil. |
-| Pollution sonore | Exposition excessive au bruit, pouvant perturber le sommeil, causer du stress et affecter la santé. |
-| Capteur de luminosité | Dispositif mesurant l'intensité lumineuse de l'environnement, utilisé pour évaluer la pollution lumineuse. |
-| Capteur sonore | Appareil mesurant les niveaux de bruit ambiant, utilisé pour quantifier la pollution sonore. |
-| Capteur de mouvement | Dispositif détectant les mouvements physiques, pouvant être utilisé pour suivre l'agitation pendant le sommeil. |
+- **Qualité du sommeil** : Mesure de l'efficacité du sommeil, incluant la facilité d'endormissement, la durée, les réveils nocturnes et le sentiment de repos au réveil.
+- **Phases du sommeil** : Différentes étapes du sommeil, incluant le sommeil léger, profond et paradoxal, chacune ayant des fonctions spécifiques pour la récupération.
+- **Hygiène du sommeil** : Ensemble de pratiques et d'habitudes favorisant un sommeil de qualité et réparateur.
+- **Rythmes circadiens** : Cycles biologiques d'environ 24 heures qui régulent les fonctions physiologiques, notamment les cycles veille-sommeil.
+- **Mélatonine** : Hormone produite par la glande pinéale, régulant le cycle veille-sommeil et synchronisant l'horloge biologique.
+- **Chronotype** : Tendance naturelle d'une personne à dormir à certaines heures, influençant ses préférences pour le sommeil et l'éveil.
+- **Pollution lumineuse** : Excès de lumière artificielle nocturne, perturbant les écosystèmes et les rythmes biologiques des êtres vivants.
+- **Lumière bleue** : Partie du spectre lumineux émise par les écrans, connue pour supprimer la production de mélatonine et perturber le sommeil.
+- **Pollution sonore** : Exposition excessive au bruit, pouvant perturber le sommeil, causer du stress et affecter la santé.
+- **Capteur de luminosité** : Dispositif mesurant l'intensité lumineuse de l'environnement, utilisé pour évaluer la pollution lumineuse.
+- **Capteur sonore** : Appareil mesurant les niveaux de bruit ambiant, utilisé pour quantifier la pollution sonore.
+- **Capteur de mouvement** : Dispositif détectant les mouvements physiques, pouvant être utilisé pour suivre l'agitation pendant le sommeil.
 
-## Protocole
+## Phase 1 : compréhension de la problématique et définition des indicateurs
 
-## Phase 1 : Compréhension de la problématique et définition des indicateurs
+**Contexte de la séquence**: Cette phase introduit les élèves aux notions de rythmes circadiens, pollutions lumineuses, sonores et thermiques, ainsi que leurs impacts sur le sommeil. L'objectif principal est de préparer un protocole scientifique pour étudier les principaux perturbateurs externes du sommeil, en développant des indicateurs pertinents pour mesurer la qualité du sommeil et les nuisances urbaines. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et leur impact sur la qualité de vie, les amenant à explorer les différents aspects des pollutions urbaines et à développer collectivement des indicateurs pour les évaluer. Les élèves seront amenés à comprendre et à expliquer en quoi les troubles du sommeil constituent un problème de santé publique majeur, affectant le bien-être et la santé des individus à grande échelle.
 
-Contexte de la séquence : Cette phase introduit les élèves aux notions de rythmes circadiens, pollutions lumineuses, sonores et thermiques, ainsi que leurs impacts sur le sommeil. L'objectif principal est de préparer un protocole scientifique pour étudier les principaux perturbateurs externes du sommeil, en développant des indicateurs pertinents pour mesurer la qualité du sommeil et les nuisances urbaines. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et leur impact sur la qualité de vie, les amenant à explorer les différents aspects des pollutions urbaines et à développer collectivement des indicateurs pour les évaluer. Les élèves seront amenés à comprendre et à expliquer en quoi les troubles du sommeil constituent un problème de santé publique majeur, affectant le bien-être et la santé des individus à grande échelle.
-
-Objectifs d'apprentissage : À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité des rythmes circadiens et l'impact des pollutions urbaines sur le sommeil, ce qui les aidera à mieux saisir l'importance d'un environnement nocturne équilibré. Ils développeront une compréhension scientifique des cycles de sommeil et des nuisances environnementales. De plus, les élèves apprendront à concevoir des indicateurs pour évaluer la qualité du sommeil et les pollutions urbaines, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude structuré et rigoureux, ce qui leur permettra de développer leur capacité d'analyse et leur rigueur scientifique.
+**Objectifs d'apprentissage**: À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité des rythmes circadiens et l'impact des pollutions urbaines sur le sommeil, ce qui les aidera à mieux saisir l'importance d'un environnement nocturne équilibré. Ils développeront une compréhension scientifique des cycles de sommeil et des nuisances environnementales. De plus, les élèves apprendront à concevoir des indicateurs pour évaluer la qualité du sommeil et les pollutions urbaines, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude structuré et rigoureux, ce qui leur permettra de développer leur capacité d'analyse et leur rigueur scientifique.
 
 ### Conceptualisation
 
@@ -98,7 +93,7 @@ En explorant les concepts de cycles du sommeil, de pollution lumineuse, sonore e
 
 Étude documentaire et identification des pollutions. Pour démarrer l'activité, les élèves effectueront une recherche documentaire sur les différentes pollutions affectant la qualité du sommeil. Ils analyseront des articles scientifiques, des rapports d'études, des vidéos éducatives, ou des rapports et campagnes de santé publique pour identifier et comprendre les effets de ces pollutions sur les cycles du sommeil, les rythmes circadiens et le bien-être général. Cette étape leur permettra d'acquérir une base de connaissances solide et de se familiariser avec les concepts clés tels que la mélatonine, les phases du sommeil, et les méthodes d'évaluation existantes pour mesurer la qualité du sommeil en milieu urbain.
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Si l'accès à Internet est limité au sein de la classe, la recherche documentaire peut être réalisée en dehors de la classe. L'enseignant peut fournir un corpus de textes préalablement sélectionnés que les élèves analyseront en groupe. Les élèves peuvent également constituer le corpus à la maison, puis étudier collectivement les documents en classe. Cette approche permet de combiner le travail individuel et collaboratif.
 :::
 
@@ -106,7 +101,7 @@ Les élèves seront encouragés à identifier et à classer les différentes pol
 
 Conception du protocole. Après avoir constitué et étudié le corpus documentaire, les élèves élaboreront un protocole simple et rigoureux pour évaluer l'impact des pollutions identifiées sur la qualité de leur sommeil. Le protocole suivra la démarche scientifique, comprenant plusieurs étapes clés : la formulation d'une question de recherche claire, l'élaboration d'une hypothèse testable, la conception et réalisation d'expériences contrôlées, l'analyse systématique des données recueillies, l'interprétation des résultats et l'évaluation de l'hypothèse initiale, et enfin le partage des résultats et conclusions avec la classe. Cette approche méthodique permettra aux élèves d'explorer rigoureusement l'impact des pollutions identifiées sur leur sommeil, en utilisant des outils de mesure, des procédures de collecte de données systématiques, et des méthodes d'analyse appropriées. Ils apprendront à identifier des tendances, des corrélations et des relations significatives entre les variables étudiées, et à formuler des conclusions basées sur des preuves empiriques.
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Dans une logique d'apprentissage actif, il est intéressant de laisser les élèves réaliser cet exercice de conception du protocole par eux-mêmes. Cependant, le rôle crucial de l'enseignant en tant que guide consiste à adopter une approche semi-dirigée pour s'assurer que le protocole final intègre les composantes essentielles à l'étude. Cela inclut l'utilisation de capteurs de lumière, de bruit et de température pour des mesures objectives, ainsi que la réalisation d'un journal de sommeil comprenant l'analyse qualitative des nuits sur au moins une semaine complète et l'utilisation de capteurs de mouvement pour analyser la qualité du sommeil. Cette approche permettra de garantir la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves dans leur démarche d'investigation.
 :::
 
@@ -139,11 +134,11 @@ Pour approfondir la réflexion, les enseignants pourront également utiliser les
 
 ---
 
-## Phase 2 : Collecte de données
+## Phase 2 : collecte de données
 
 Objectifs de la phase de collecte : Cette étape combine l'utilisation de capteurs pour mesurer les pollutions environnementales et d'outils pour évaluer la qualité du sommeil. Les élèves utiliseront des capteurs de lumière, de température, d'humidité et de bruit pour recueillir des données quantitatives sur les pollutions, ainsi que des capteurs de mouvement pour suivre leur activité nocturne. En parallèle, ils tiendront un journal de bord pour recueillir des données qualitatives sur leur sommeil. Cette approche, alliant technologie et observation personnelle, permettra aux élèves d'acquérir une compréhension approfondie des liens entre pollutions et qualité du sommeil, tout en développant des compétences en collecte et analyse de données variées. Les élèves découvriront comment la collecte de données peut contribuer à sensibiliser à l'impact de la lumière bleue et du bruit sur le sommeil, s'inscrivant ainsi dans une démarche de prévention primaire en santé publique.
 
-Objectifs d'apprentissage : À travers cette phase, les élèves développeront des compétences techniques et analytiques. Ils apprendront à programmer et à utiliser des capteurs, renforçant ainsi leurs compétences en technologie et en collecte de données. En parallèle, la tenue d'un journal de bord leur permettra de documenter leurs observations et de développer leurs capacités d'auto-évaluation et d'analyse. Cette combinaison de mesures objectives et subjectives les aidera à mieux comprendre les impacts multifacettes des nuisances environnementales sur leur sommeil et leur bien-être général.
+**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences techniques et analytiques. Ils apprendront à programmer et à utiliser des capteurs, renforçant ainsi leurs compétences en technologie et en collecte de données. En parallèle, la tenue d'un journal de bord leur permettra de documenter leurs observations et de développer leurs capacités d'auto-évaluation et d'analyse. Cette combinaison de mesures objectives et subjectives les aidera à mieux comprendre les impacts multifacettes des nuisances environnementales sur leur sommeil et leur bien-être général.
 
 Cette étape peut se faire en partenariat avec les enseignements de technologie.
 
@@ -178,7 +173,7 @@ Afin de réaliser la démarche de collecte de données, les élèves devront au 
 | Interruptions de sommeil | Journal de bord |
 | Fatigue ressentie au réveil | Journal de bord |
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Les indicateurs listés ci-dessus sont non exhaustifs et peuvent être ajustés en fonction de la recherche documentaire réalisée en phase 1. Nous fournissons cependant dans ce protocole l'ensemble des instructions pour pouvoir créer les outils de mesure associés à ces indicateurs spécifiques.
 :::
 
@@ -202,7 +197,7 @@ Pour approfondir la réflexion, les enseignants pourront utiliser les questions 
 
 "Quels défis avez-vous rencontrés lors de la collecte des données ? Comment pourriez-vous améliorer le processus ?" Cette question encourage les élèves à réfléchir de manière critique sur leur expérience pratique. "Comment les différentes sources de données (capteurs et journaux de bord) se complètent-elles ? Quels sont les avantages et les limites de chaque méthode ?" Cette interrogation permet d'aborder la complémentarité des données quantitatives et qualitatives. "Quels facteurs imprévus avez-vous observés qui pourraient influencer la qualité du sommeil ? Comment pourriez-vous les intégrer dans une future étude ?" Cette réflexion encourage les élèves à penser de manière systémique et à envisager des améliorations pour de futures recherches.
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Ce protocole propose l'utilisation de plusieurs cartes électroniques pour mener l'étude, avec un nombre idéal de six. Ce nombre peut être diminué en fonction du matériel à disposition. Cette expérience vise principalement à permettre aux élèves de développer une démarche scientifique rigoureuse. Cette approche vise à les initier à la méthode scientifique, à l'interprétation prudente des données, et à développer leur esprit critique face aux subtilités de la recherche. Bien que l'utilisation de capteurs électroniques soit un aspect attrayant de l'expérience, elle n'est pas essentielle à la réalisation des objectifs pédagogiques principaux. L'accent est mis sur le processus scientifique lui-même : la formulation d'hypothèses, la conception d'un protocole, la collecte systématique de données (qu'elles soient électroniques ou manuelles), et l'analyse critique des résultats. Cette approche permet aux élèves de comprendre que la valeur d'une étude scientifique réside davantage dans la rigueur de la méthode que dans la sophistication des outils utilisés.
 
 En plaçant l'utilisation des mesures électroniques au second plan, nous encourageons les élèves à réfléchir de manière créative sur les moyens alternatifs de collecte de données et à développer une compréhension plus profonde des concepts de fiabilité et de validité en recherche. Cela les prépare également à faire face aux contraintes réelles souvent rencontrées dans la recherche scientifique, où l'adaptation et l'innovation méthodologique sont essentielles.
@@ -221,11 +216,11 @@ Les contraintes matérielles, bien que limitantes, peuvent donc enrichir la comp
 
 ---
 
-## Phase 3 : Analyse, interprétation et conclusion
+## Phase 3 : analyse, interprétation et conclusion
 
 Objectifs de la phase d'analyse : Pour conclure l'étude, les élèves combineront lors de cette dernière étape l'analyse des données collectées sur les pollutions environnementales et la qualité du sommeil. Ils utiliseront des outils statistiques et de visualisation pour identifier les corrélations entre les nuisances urbaines et le sommeil. Ils interpréteront les résultats des capteurs de lumière, de bruit, de température et d'humidité, ainsi que les données d'activité nocturne et les journaux de bord. Cette approche, alliant analyse quantitative et qualitative, permettra aux élèves d'acquérir des compétences en analyse de données variées. Les élèves découvriront comment l'interprétation des données peut contribuer à élaborer des solutions concrètes pour améliorer le sommeil en milieu urbain, s'inscrivant ainsi dans une démarche de santé publique.
 
-Objectifs d'apprentissage : À travers cette phase, les élèves développeront des compétences en analyse statistique et visualisation de données scientifiques. Ils apprendront à identifier et interpréter les corrélations entre les variables environnementales urbaines et leurs impacts sur la qualité du sommeil. Cette expérience leur permettra de formuler des recommandations basées sur des preuves empiriques pour améliorer les conditions de sommeil en milieu urbain. De plus, ils acquerront une compréhension approfondie des interactions complexes entre l'environnement urbain nocturne et la santé du sommeil. Enfin, les élèves renforceront leurs compétences en communication scientifique, apprenant à présenter efficacement les résultats et à proposer des solutions concrètes.
+**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences en analyse statistique et visualisation de données scientifiques. Ils apprendront à identifier et interpréter les corrélations entre les variables environnementales urbaines et leurs impacts sur la qualité du sommeil. Cette expérience leur permettra de formuler des recommandations basées sur des preuves empiriques pour améliorer les conditions de sommeil en milieu urbain. De plus, ils acquerront une compréhension approfondie des interactions complexes entre l'environnement urbain nocturne et la santé du sommeil. Enfin, les élèves renforceront leurs compétences en communication scientifique, apprenant à présenter efficacement les résultats et à proposer des solutions concrètes.
 
 Cette étape peut se faire en partenariat avec les enseignements de mathématiques.
 
@@ -247,7 +242,7 @@ Récupération des données depuis les cartes Micro:bit : Les élèves devront r
 
 Journaux de bord : Les élèves regrouperont tous les journaux de bord. S'ils ont été réalisés en format électronique, ils seront directement téléchargés dans leur dossier partagé. S'ils ont été réalisés au format papier, nous vous conseillons de les scanner afin de garder trace et d'éviter de perdre de la donnée.
 
-:::tip[Conseil aux enseignants]
+:::info[Conseil aux enseignants]
 Une fois toutes les données consolidées, vérifiez l'intégrité et la cohérence des informations, en particulier les unités de mesure et les formats de date/heure.
 :::
 
@@ -328,9 +323,9 @@ Méthodologie et calcul de l'intervalle de confiance
 
 Expliquons cette formule :
 
-- r : Le coefficient de corrélation calculé
-- n : Le nombre d'observations dans l'étude
-- 1.96 : La valeur critique pour un niveau de confiance de 95%
+- **r** : Le coefficient de corrélation calculé
+- **n** : Le nombre d'observations dans l'étude
+- **1.96** : La valeur critique pour un niveau de confiance de 95%
 
 Cette formule nous permet d'estimer la plage dans laquelle la vraie corrélation de la population se situe, avec une confiance de 95%.
 
@@ -360,205 +355,11 @@ Pour approfondir la réflexion, les enseignants pourront utiliser les questions 
 
 ---
 
-## Fiche pratique 1 : Mesurer les données environnementales : lumière, bruit, température
+## Fiche pratique
 
-### Matériel et outils nécessaires
-
-Pour programmer une carte micro:bit pour collecter l'humidité et la température, vous aurez besoin du matériel suivant :
-
-- Carte Micro:bit V2 et ses capteurs intégrés : La carte programmable principale comprenant un capteur de lumière intégré via son écran LED, un capteur de niveau sonore intégré et un capteur de température intégré - Environ 19 EUR par micro:bit (Voir les prix)
-- Câble micro-USB : Pour alimenter et programmer la micro:bit
-- Batterie externe (facultatif) : Pour un fonctionnement portable si la micro:bit doit être détachée - Vous trouverez le boitier de piles officielle micro:bit disponible à l'achat pour environ 2,20 EUR par bloc ici
-
-Vous pouvez également acheter le kit Micro:bit V2 comprenant le câble USB et le boitier de piles pour 21 EUR par kit (ici) ou 177 EUR pour 10 kits (ici)
-
-- Ordinateur ou tablette : Pour écrire et télécharger du code.
-- Environnement de programmation : Editeur MakeCode en ligne
-
-Nous recommandons pour cette étape de programmer au moins 3 à 6 cartes micro:bit pour les partager entre les élèves et recueillir plus d'informations et de données. Vous pouvez le faire avec une seule carte, mais vous devrez soit étendre la durée globale de la période de collecte, soit réduire la durée de la période de collecte par élève de 7 à 3 jours.
-
-### Câblage et utilisation d'une carte Micro:bit
-
-Suivez ces étapes pour programmer, placer, enregistrer et récupérer des données environnementales à l'aide du micro:bit.
-
-### Étape 1 : Programmer la carte Micro:bit
-
-Connectez la carte Micro:bit : Connectez la carte micro:bit à l'ordinateur sur lequel vous avez réalisé le programme grâce à l'éditeur MakeCode. Une fois connectée, la carte micro:bit apparaîtra sur l'ordinateur comme un disque amovible (ex. : "MICROBIT").
-
-Écrire le programme : Ouvrez l'éditeur MakeCode pour créer un programme qui collecte des données de bruit à l'aide des capteurs intégrés de la carte de programmation Micro:bit V2. Donnez un nom clair à votre projet avant de commencer. Une fois dans l'éditeur, après avoir créé votre nouveau projet, vous accéderez à l'écran par défaut "prêt à l'emploi" et vous devrez installer une extension. Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base de MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteur et de robotique et bien plus encore. Dans les colonnes d'affichage des blocs, cliquez sur le bouton EXTENSIONS. Dans la liste des extensions disponibles, recherchez l'extension Datalogger qui sera utilisée pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
-
-L'extension datalogger apparaît dans la liste des blocs disponibles depuis votre éditeur. Le datalogger vous permet d'accéder à un simulateur d'enregistrement de données.
-
-Ensuite, vous pouvez commencer à organiser vos blocs en suivant le code fourni ci-dessous (ajouter une boucle infinie, enregistrer les données dans le datalogger...).
-
-Vous pouvez également copier-coller le code dans l'éditeur Javascript. Testez le programme en utilisant le simulateur de MakeCode.
-
-Une fois votre programme fonctionnant correctement sur le simulateur, transférez-le sur votre Micro:bit : cliquez sur "Télécharger" dans MakeCode pour générer un fichier .hex. Ce fichier contient le programme compilé qui permettra à la carte de fonctionner.
-
-Copiez le fichier .hex de votre dossier de téléchargement sur le lecteur amovible "MICROBIT".
-
-Une fois le fichier copié, la carte redémarre automatiquement et exécute le code.
-
-### Étape 2 : Placer la Micro:bit et commencer à enregistrer les données
-
-Une fois programmé, placez le micro:bit pour collecter les données dont vous avez besoin, c'est-à-dire près de votre lit dans une zone où il peut enregistrer avec précision la lumière, le bruit et la température sans obstruction. Utilisez un ordinateur ou une batterie externe pour alimenter le micro:bit en continu pendant l'enregistrement. Assurez-vous que chaque nuit, la carte est à nouveau placée exactement dans la même position pour enregistrer des données comparables.
-
-Avant d'aller vous coucher, appuyez sur le bouton "A" du MicroBit pour démarrer l'enregistrement des données via le programme.
-
-### Étape 3 : Récupération des données et préparation de la carte pour la prochaine session d'enregistrement
-
-Chaque matin, pour éviter toute perte de données, nous vous recommandons de débrancher le micro:bit de sa source d'alimentation pour stopper l'enregistrement des données et de connecter la micro:bit à votre ordinateur pour accéder au fichier compilé pendant la nuit par le datalogger (qui s'appellera "MY\_DATA.HTM", disponible sur le lecteur micro:bit). Copiez ce fichier sur votre ordinateur et renommez-le avec la date du jour (par exemple, BOARD1\_NAME\_YYYY-MM-DD.HTM).
-
-Après avoir copié et renommé le fichier, supprimez le fichier MY\_DATA.HTM de la carte MicroBit pour libérer de l'espace et permettre un nouvel enregistrement de données.
-
-Répétez le processus pour la séance suivante, c'est-à-dire le lendemain soir avant d'aller vous coucher.
-
-A la fin de la période de collecte, vous pourrez récupérer l'ensemble des fichiers collectés sur les différentes cartes micro:bit. Une fois ouvert, les fichiers de données seront accessibles au format HTML. Ils fourniront toutes les données collectées et vous permettront de les télécharger au format .csv.
-
-### Utiliser et comprendre le code
-
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données sur la lumière, le bruit et la température :
-
-```javascript
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Yes)
-    basic.pause(200)
-    basic.clearScreen()
-    while (true) {
-        datalogger.log(
-            datalogger.createCV("temperature", input.temperature()),
-            datalogger.createCV("luminosite", input.lightLevel()),
-            datalogger.createCV("niveau sonore", input.soundLevel())
-        )
-        basic.pause(60000)
-    }
-})
-basic.showIcon(IconNames.No)
-datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
-```
-
-Comment fonctionne le code ? Ce programme mesure le niveau sonore ambiant, la température et la luminosité. Toutes les minutes (l'intervalle peut être modifié pour correspondre à 10 secondes, 5 minutes, 2 fois par heure...) le programme compile les informations dans un "datalogger" à partir duquel on peut télécharger un fichier .csv.
-
-Un fichier .csv (Comma-Separated Values, ou valeurs séparées par des virgules) est un format de fichier texte utilisé pour stocker des données tabulaires (comme dans un tableau ou une feuille de calcul). Chaque ligne du fichier représente une ligne de données, et chaque valeur dans une ligne est séparée par un délimiteur (souvent une virgule, mais parfois un point-virgule ou une tabulation). Il est possible de récupérer les données d'un fichier .csv dans un tableur type Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier .csv, et configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, suivez un processus similaire : cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier, et utilisez l'assistant d'importation pour choisir le délimiteur (par exemple, virgule ou point-virgule). Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
-
-Initialisation de l'événement d'appui sur le bouton "A" : Lorsque l'utilisateur appuie sur le bouton "A" du MicroBit, la fonction `input.onButtonPressed(Button.A, function () {'{...}'})` est déclenchée.
-
-Affichage de l'icône "Yes" pendant l'exécution : Avant de démarrer l'enregistrement des données, le programme affiche l'icône "Yes" (`basic.showIcon(IconNames.Yes)`) pendant 200 millisecondes (0,2 seconde) pour indiquer que le processus d'enregistrement a démarré.
-
-Pause de 200 millisecondes : Après avoir affiché l'icône "Yes", le programme attend 200 millisecondes en utilisant `basic.pause(200)`.
-
-Effacer l'écran : Après la pause de 200 millisecondes, l'écran est effacé avec `basic.clearScreen()`, qui prépare l'écran pour ce qui suit sans être encombré d'images.
-
-Boucle infinie de collecte de données : Le programme entre dans une boucle infinie `while (true)`. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la MicroBit soit éteint ou redémarré.
-
-Enregistrement des données dans le datalogger : À chaque itération de boucle, le programme enregistre les valeurs des capteurs MicroBit :
-
-- temperature : `input.temperature()`, qui récupère la température actuelle en degrés Celsius.
-- luminosite : `input.lightLevel()`, qui mesure le niveau de lumière ambiante.
-- niveau sonore : `input.soundLevel()`, qui capte le niveau sonore ambiant.
-
-Le niveau sonore et le niveau lumineux mesurent une valeur relative et n'ont pas d'unités standard comme les décibels (dB) pour le niveau sonore ou les lux (lx) pour la luminosité. Plus précisément, le capteur mesure l'intensité perçue. Cette valeur est une estimation numérique (de 0 à 255), où 0 représente la valeur minimale (silence complet/obscurité totale) et 255 la valeur maximale (bruit très fort/lumière intense). La température est mesurée en degrés Celsius (°C). Ces valeurs sont enregistrées dans le datalogger sous forme de variables portant des noms respectifs ("temperature", "luminosite", "niveau sonore"). Cela se fait via la fonction `datalogger.log()` :
-
-```javascript
-datalogger.log(
-    datalogger.createCV("temperature", input.temperature()),
-    datalogger.createCV("luminosite", input.lightLevel()),
-    datalogger.createCV("niveau sonore", input.soundLevel())
-)
-```
-
-La fonction `createCV` permet de créer un "CV" (valeur de contexte) pour chaque capteur, et la fonction `datalogger.log` permet d'enregistrer ces valeurs dans un fichier sur la MicroBit.
-
-Pause de 60 000 millisecondes avant la prochaine lecture : Après chaque enregistrement, le programme attend 60 000 millisecondes (1 minute) avant de relire les valeurs du capteur. Ceci est réalisé avec `basic.pause(60000)`. Vous pouvez modifier la durée de la pause pour capturer plus ou moins de données (par exemple, toutes les minutes).
-
-Horodatage des données (inclus via datalogger.includeTimestamp) : En dehors de la fonction liée au bouton, la commande `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` est utilisée pour inclure un horodatage avec chaque enregistrement de données. Le format d'horodatage est en minutes, ce qui signifie que chaque enregistrement aura un indicateur de temps basé sur les minutes écoulées depuis le démarrage du programme.
-
-Affichage de l'icône "No" avant l'exécution : Avant que l'utilisateur n'appuie sur le bouton "A", le programme affiche une icône "No" (`basic.showIcon(IconNames.No)`) pour indiquer que la MicroBit attend l'action de l'utilisateur.
+Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : ZZZ](/ressources/steamcity/programmation/programmation-zzz).
 
 ---
-
-## Fiche pratique 2 : Mesure de l'amplitude des mouvements pendant la nuit
-
-### Matériel nécessaire, câblage et utilisation d'une carte Micro:bit
-
-Pour programmer une carte micro:bit afin de collecter des informations sur votre amplitude de mouvement au cours de la nuit, vous aurez besoin du même matériel que pour la mesure des données environnementales et vous pourrez vous référer à la Fiche pratique 1 pour le câblage, la programmation et l'utilisation de la carte Micro:bit. Vous pouvez suivre les mêmes étapes, en mettant simplement à jour le programme avec le code disponible ci-dessous.
-
-### Utiliser et comprendre le code
-
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données de mouvement :
-
-```javascript
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Yes)
-    basic.pause(500)
-    while (true) {
-        if (input.acceleration(Dimension.X) != 0 || input.acceleration(Dimension.Y) != 0 || input.acceleration(Dimension.Z) != 0) {
-            datalogger.log(
-                datalogger.createCV("x", input.acceleration(Dimension.X)),
-                datalogger.createCV("y", input.acceleration(Dimension.Y)),
-                datalogger.createCV("z", input.acceleration(Dimension.Z))
-            )
-        }
-        basic.pause(500)
-    }
-})
-datalogger.includeTimestamp(FlashLogTimeStampFormat.Seconds)
-basic.showIcon(IconNames.No)
-```
-
-Comment fonctionne le code ? Ce programme mesure les valeurs d'accélération captées par l'accéléromètre. Toutes les 500 millisecondes (l'intervalle peut être modifié pour correspondre à 10 secondes, 5 minutes, 2 fois par heure...) le programme vérifie si la carte est en mouvement et si c'est le cas, il compile les données dans un "datalogger" à partir duquel on peut télécharger un fichier .csv.
-
-Un fichier .csv (Comma-Separated Values, ou valeurs séparées par des virgules) est un format de fichier texte utilisé pour stocker des données tabulaires (comme dans un tableau ou une feuille de calcul). Chaque ligne du fichier représente une ligne de données, et chaque valeur dans une ligne est séparée par un délimiteur (souvent une virgule, mais parfois un point-virgule ou une tabulation). Il est possible de récupérer les données d'un fichier .csv dans un tableur type Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier .csv, et configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, suivez un processus similaire : cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier, et utilisez l'assistant d'importation pour choisir le délimiteur (par exemple, virgule ou point-virgule). Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
-
-Ce programme est conçu pour enregistrer les données de l'accéléromètre sur un MicroBit lorsque le bouton "A" est enfoncé et les stocker dans un datalogger avec des valeurs pour les axes X, Y et Z.
-
-Initialisation de l'événement d'appui sur le bouton "A" : Lorsque l'utilisateur appuie sur le bouton "A" du MicroBit, la fonction `input.onButtonPressed(Button.A, function () {'{...}'})` est déclenchée. Cela empêche l'enregistrement des données dès que la carte est connectée.
-
-Affichage de l'icône "Yes" pendant l'exécution : Avant de démarrer l'enregistrement des données, le programme affiche l'icône "Yes" (`basic.showIcon(IconNames.Yes)`) pendant 500 millisecondes (0,5 seconde) pour indiquer que le processus d'enregistrement a démarré.
-
-Pause de 500 millisecondes : Après avoir affiché l'icône "Yes", le programme attend 500 millisecondes en utilisant `basic.pause(500)`.
-
-Boucle infinie de collecte de données : Le programme entre dans une boucle infinie `while (true)`. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la MicroBit soit éteint ou redémarré.
-
-Vérification des données de l'accéléromètre : À chaque itération, le programme vérifie si l'une des valeurs d'accélération (sur les axes X, Y ou Z) est différente de zéro. Cela se fait avec la condition :
-
-```javascript
-if (input.acceleration(Dimension.X) != 0 || input.acceleration(Dimension.Y) != 0 || input.acceleration(Dimension.Z) != 0)
-```
-
-Si l'une de ces valeurs est différente de zéro (ce qui signifie qu'un mouvement a été détecté), le programme enregistre ces données dans le datalogger.
-
-Enregistrement des données : Les valeurs d'accélération pour les axes X, Y et Z sont enregistrées à l'aide de la fonction `datalogger.log()` : Cette fonction crée un enregistrement des valeurs d'accélération chaque fois que les valeurs sont différentes de zéro, avec un horodatage pour chaque enregistrement. L'horodatage est automatiquement ajouté grâce à la ligne suivante (expliquée plus loin).
-
-```javascript
-datalogger.log(
-    datalogger.createCV("x", input.acceleration(Dimension.X)),
-    datalogger.createCV("y", input.acceleration(Dimension.Y)),
-    datalogger.createCV("z", input.acceleration(Dimension.Z))
-)
-```
-
-Pause de 500 millisecondes avant la prochaine lecture : Après l'enregistrement des données, le programme s'arrête pendant 500 millisecondes (`basic.pause(500)`) avant de reprendre les lectures des valeurs de l'accéléromètre.
-
-Horodatage des données (inclus via datalogger.includeTimestamp) : En dehors de la fonction liée au bouton, la commande `datalogger.includeTimestamp(FlashLogTimeStampFormat.Seconds)` est utilisée pour inclure un horodatage en secondes pour chaque enregistrement dans le datalogger. Cela signifie que chaque enregistrement sera accompagné du temps écoulé, en secondes, depuis le démarrage du programme.
-
-Affichage de l'icône "No" avant l'exécution : Avant que l'utilisateur n'appuie sur le bouton "A", le programme affiche une icône "No" (`basic.showIcon(IconNames.No)`) pour indiquer que la MicroBit attend l'action de l'utilisateur.
-
-Les données : L'accéléromètre renvoie des valeurs en milli-g pour chaque axe (X, Y, Z). Cela signifie que si l'accéléromètre détecte une accélération de 1000 milli-g, cela correspond à une accélération de 1G (ou 9,81 m/s2) sur cet axe.
-
-### Rajouter un brassard
-
-Plusieurs ressources peuvent vous permettre de joindre la carte Micro:bit à un brassard ce qui permettra aux élèves de la porter pendant la nuit. Voici quelques tutoriels et accessoires pertinents qui pourront vous aider à réaliser cette étape :
-
-- Smart Coding Watch Kit - micro:bit
-- Duct Tape Watch
-- BBC micro:bit wrist holder | mattoppenheim
-- Yahboom Wrist:bit wearable watch kit based on BBC Micro:bit V2/V1.5 board
-- CHARGE for micro:bit
-
----
-
-## Aller plus loin
 
 ### Découvrir les outils numériques de conception et de création
 
@@ -572,8 +373,6 @@ Plusieurs ressources peuvent vous permettre de joindre la carte Micro:bit à un 
 | Freepik et Flaticon | Accès à des ressources de conception, des icônes et des illustrations gratuites et premium | Images, icônes, illustrations | Très accessible | Accès gratuit aux ressources de base avec attribution | Aucun plan pour l'éducation |
 
 ---
-
-## Bibliographie
 
 ### Recherche sur le sommeil et santé publique
 

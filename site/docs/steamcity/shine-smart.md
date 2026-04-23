@@ -54,42 +54,37 @@ Phase 2 : Protocole d'étude sur le territoire — La phase 2 est une étude pra
 
 Phase 3 : Analyse et recommandations — La troisième et dernière phase du projet vise à transformer les observations et analyses en actions concrètes. Les élèves synthétiseront leurs découvertes des phases précédentes pour développer des recommandations pratiques et innovantes concernant l'optimisation de l'éclairage urbain. Cette phase cruciale permet de passer de la théorie à la pratique en proposant des solutions adaptées au contexte local, tout en sensibilisant les acteurs du territoire aux enjeux de l'éclairage intelligent. À travers l'analyse des données collectées, l'élaboration de recommandations et la possibilité de prototyper des solutions, les élèves deviennent de véritables acteurs du changement dans leur communauté.
 
-## Pour bien démarrer
-
 Le protocole peut être entièrement réalisé en deux à trois séquences. Vous pouvez décider de réaliser uniquement l'étape 1 (environ 30 minutes à 1 heure), les étapes 1 et 2 (1 séquence en salle + 1 visite sur site), ou les étapes complètes (une séquence supplémentaire pour conclure et proposer des recommandations).
 
-| Mesures | Durée | Difficulté | Matériel |
-|---|---|---|---|
-| Analyse documentaire et études de cas | 30 minutes à 1 heure | | Ordinateurs ou tablettes avec accès Internet pour la recherche documentaire et/ou la documentation présélectionnée sur le sommeil. Du papier et des stylos pour prendre des notes. Papier ou carton mousse au format A3 (format recommandé) pour conclure l'étape |
-| Protocole d'étude | 2 heures (en dehors de la classe) | | Appareils photo ou smartphones pour la documentation du territoire. Ordinateurs pour l'analyse des données |
-| Analyse et recommandations | 30 minutes à 1 heure | | Supports de présentation (affiches, projecteur). Matériaux de prototypage en fonction des projets choisis |
+| Mesures | Durée | Matériel |
+|---|---|---|
+| Analyse documentaire et études de cas | 30 minutes à 1 heure | Ordinateurs ou tablettes avec accès Internet pour la recherche documentaire et/ou la documentation présélectionnée sur le sommeil. Du papier et des stylos pour prendre des notes. Papier ou carton mousse au format A3 (format recommandé) pour conclure l'étape |
+| Protocole d'étude | 2 heures (en dehors de la classe) | Appareils photo ou smartphones pour la documentation du territoire. Ordinateurs pour l'analyse des données |
+| Analyse et recommandations | 30 minutes à 1 heure | Supports de présentation (affiches, projecteur). Matériaux de prototypage en fonction des projets choisis |
 
-## Glossaire
 
-| Mots clé et concepts | Définitions |
-|---|---|
-| Pollution lumineuse | Excès de lumière artificielle nocturne qui perturbe l'environnement et la santé humaine. |
-| Efficacité énergétique | Optimisation de la consommation d'énergie pour un service rendu équivalent ou supérieur. |
-| Lumière naturelle | Éclairage provenant du soleil, variable selon l'heure et les conditions météorologiques. |
-| Éclairage adaptatif | Système d'éclairage qui s'ajuste automatiquement en fonction des conditions environnantes. |
-| Lux | Unité de mesure de l'éclairement lumineux, représentant le flux lumineux reçu par unité de surface. |
-| Cadre réglementaire | Ensemble des lois et normes régissant l'éclairage public et commercial. |
-| Confort visuel | Conditions d'éclairage permettant une vision claire et confortable, sans éblouissement ni fatigue oculaire. |
-| Biodiversité nocturne | Ensemble des espèces animales et végétales actives la nuit, souvent affectées par l'éclairage artificiel. |
-| Éclairage intelligent | Systèmes d'éclairage utilisant des capteurs et des contrôles automatisés pour optimiser l'utilisation de la lumière. |
-| Empreinte carbone | Mesure de l'impact des activités humaines sur l'environnement en termes d'émissions de gaz à effet de serre. |
-| Chronobiologie | Étude des rythmes biologiques, notamment l'impact de la lumière sur les cycles circadiens. |
-| Photopollution | Terme désignant spécifiquement la pollution causée par un excès de lumière artificielle. |
+### Glossaire
 
-## Protocole
+- **Pollution lumineuse** : Excès de lumière artificielle nocturne qui perturbe l'environnement et la santé humaine.
+- **Efficacité énergétique** : Optimisation de la consommation d'énergie pour un service rendu équivalent ou supérieur.
+- **Lumière naturelle** : Éclairage provenant du soleil, variable selon l'heure et les conditions météorologiques.
+- **Éclairage adaptatif** : Système d'éclairage qui s'ajuste automatiquement en fonction des conditions environnantes.
+- **Lux** : Unité de mesure de l'éclairement lumineux, représentant le flux lumineux reçu par unité de surface.
+- **Cadre réglementaire** : Ensemble des lois et normes régissant l'éclairage public et commercial.
+- **Confort visuel** : Conditions d'éclairage permettant une vision claire et confortable, sans éblouissement ni fatigue oculaire.
+- **Biodiversité nocturne** : Ensemble des espèces animales et végétales actives la nuit, souvent affectées par l'éclairage artificiel.
+- **Éclairage intelligent** : Systèmes d'éclairage utilisant des capteurs et des contrôles automatisés pour optimiser l'utilisation de la lumière.
+- **Empreinte carbone** : Mesure de l'impact des activités humaines sur l'environnement en termes d'émissions de gaz à effet de serre.
+- **Chronobiologie** : Étude des rythmes biologiques, notamment l'impact de la lumière sur les cycles circadiens.
+- **Photopollution** : Terme désignant spécifiquement la pollution causée par un excès de lumière artificielle.
 
-### Phase 1 : analyse documentaire
+## Phase 1 : analyse documentaire
 
-Contexte de la séquence : Dans cette première phase, les élèves explorent concrètement les politiques d'éclairage urbain à travers l'analyse de documents et d'études de cas. Répartis en petits groupes, ils examinent des réglementations locales, des rapports municipaux et des projets d'éclairage innovants. Cette immersion documentaire leur permet de découvrir comment différentes villes gèrent leur éclairage, depuis les aspects techniques (types de luminaires, systèmes de contrôle) jusqu'aux considérations environnementales et économiques.
+**Contexte de la séquence**: Dans cette première phase, les élèves explorent concrètement les politiques d'éclairage urbain à travers l'analyse de documents et d'études de cas. Répartis en petits groupes, ils examinent des réglementations locales, des rapports municipaux et des projets d'éclairage innovants. Cette immersion documentaire leur permet de découvrir comment différentes villes gèrent leur éclairage, depuis les aspects techniques (types de luminaires, systèmes de contrôle) jusqu'aux considérations environnementales et économiques.
 
-Objectifs d'apprentissage : Les élèves développent des compétences pratiques en analysant des documents techniques et réglementaires sur l'éclairage urbain. Ils apprennent à utiliser une grille d'analyse structurée pour évaluer des études de cas, et s'exercent à présenter leurs découvertes sous forme de posters ou présentations numériques. À travers la comparaison de différentes approches de gestion de l'éclairage, ils acquièrent les outils conceptuels nécessaires pour la phase suivante d'observation sur le terrain.
+**Objectifs d'apprentissage**: Les élèves développent des compétences pratiques en analysant des documents techniques et réglementaires sur l'éclairage urbain. Ils apprennent à utiliser une grille d'analyse structurée pour évaluer des études de cas, et s'exercent à présenter leurs découvertes sous forme de posters ou présentations numériques. À travers la comparaison de différentes approches de gestion de l'éclairage, ils acquièrent les outils conceptuels nécessaires pour la phase suivante d'observation sur le terrain.
 
-#### Conceptualisation
+### Conceptualisation
 
 Notre hypothèse générale pour l'ensemble du protocole est la suivante : une meilleure intégration de la lumière naturelle et une optimisation de l'éclairage artificiel dans les centres-villes et les zones commerçantes peuvent améliorer l'efficacité énergétique et le bien-être des citoyens.
 
@@ -99,7 +94,7 @@ Pour étudier notre hypothèse sur l'optimisation de l'éclairage urbain, nous e
 
 La pollution lumineuse est au cœur de notre étude. Elle englobe l'éblouissement, la luminescence du ciel nocturne, et la lumière intrusive. Ces phénomènes sont directement liés à notre hypothèse car ils représentent les conséquences négatives d'un éclairage mal optimisé. En comprenant ces aspects, nous pourrons mieux évaluer l'impact de l'éclairage actuel et proposer des solutions pour le réduire. L'intégration de la lumière naturelle est un concept crucial pour notre hypothèse. Elle implique l'utilisation de systèmes de contrôle adaptatifs, de matériaux réfléchissants, et de conceptions architecturales spécifiques. Ces éléments sont essentiels pour maximiser l'utilisation de la lumière naturelle et réduire la dépendance à l'éclairage artificiel, ce qui est au cœur de notre hypothèse d'optimisation. L'efficacité énergétique est un autre concept clé. Elle englobe les technologies basse consommation, la gestion intelligente, les systèmes de gradation, les détecteurs de présence, et les LED avancées. Ces technologies sont directement liées à notre hypothèse car elles offrent des moyens concrets d'optimiser l'utilisation de la lumière tout en réduisant la consommation d'énergie. Enfin, le cadre réglementaire, comprenant les normes techniques, les recommandations internationales, et les politiques locales, est essentiel à notre étude. Il nous permettra de comprendre les contraintes légales et les opportunités d'amélioration dans l'optimisation de l'éclairage urbain, aspect crucial pour valider notre hypothèse et proposer des solutions réalisables. Cette approche multidimensionnelle, combinant l'étude de la pollution lumineuse, l'intégration de la lumière naturelle, l'efficacité énergétique et le cadre réglementaire, nous permettra d'évaluer de manière approfondie notre hypothèse sur l'optimisation de l'éclairage urbain dans les centres-villes et zones commerçantes.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Étude documentaire et analyse règlementaire — Pour cette première étape, l'enseignant peut soit préparer une liste de ressources documentaires pertinentes sur les réglementations nationales et locales en matière d'éclairage urbain, soit laisser les élèves rechercher ces ressources eux-mêmes, en classe ou à la maison, selon les modalités, le temps disponible et l'accès à internet.
 
@@ -129,7 +124,7 @@ Analyser les problèmes présentés dans le scénario. Proposer des solutions ba
 
 Cette simulation permettra aux élèves d'appliquer de manière pratique les connaissances acquises, de développer leurs compétences en résolution de problèmes et de comprendre les complexités de la mise en œuvre de solutions d'éclairage urbain intelligent dans un contexte réel.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 À l'issue de cette première phase d'étude documentaire, les élèves auront acquis une compréhension approfondie des politiques et réglementations en matière d'éclairage urbain. Ils auront développé des compétences en analyse critique des documents officiels, en étude de cas concrets, et en compréhension des enjeux techniques et réglementaires.
 
@@ -139,13 +134,13 @@ Pour approfondir la réflexion sur cette phase documentaire, les enseignants pou
 
 "Quelles différences avez-vous observées entre les approches des différentes villes étudiées ?" "Comment les innovations technologiques peuvent-elles être adaptées au contexte local ?" "Quels sont les principaux défis dans la mise en œuvre de politiques d'éclairage intelligent ?"
 
-### Phase 2 : protocole d'étude sur le territoire
+## Phase 2 : protocole d'étude sur le territoire
 
-Contexte de la séquence : Cette phase met en œuvre une démarche scientifique concrète pour collecter des données dans des centres-villes et zones commerçantes présents sur le territoire des élèves. Les élèves mesureront l'intensité lumineuse, estimeront les consommations énergétiques et recueilleront des retours qualitatifs sur la perception de l'éclairage par les usagers. Ils analyseront aussi l'apport de la lumière naturelle pour mieux comprendre son potentiel dans la réduction des coûts énergétiques et l'amélioration du confort visuel.
+**Contexte de la séquence**: Cette phase met en œuvre une démarche scientifique concrète pour collecter des données dans des centres-villes et zones commerçantes présents sur le territoire des élèves. Les élèves mesureront l'intensité lumineuse, estimeront les consommations énergétiques et recueilleront des retours qualitatifs sur la perception de l'éclairage par les usagers. Ils analyseront aussi l'apport de la lumière naturelle pour mieux comprendre son potentiel dans la réduction des coûts énergétiques et l'amélioration du confort visuel.
 
-Objectifs d'apprentissage : Cette phase vise à développer les capacités d'analyse des élèves à travers la collecte et l'interprétation de données tant quantitatives que qualitatives. Les élèves apprendront à évaluer les déséquilibres entre l'éclairage artificiel et la lumière naturelle, tout en établissant des liens concrets entre leurs observations et les enjeux d'énergie, de confort et de qualité de vie. Cette approche permettra également aux élèves de mieux comprendre les spécificités de leur territoire et d'ancrer leur apprentissage dans un contexte local tangible.
+**Objectifs d'apprentissage**: Cette phase vise à développer les capacités d'analyse des élèves à travers la collecte et l'interprétation de données tant quantitatives que qualitatives. Les élèves apprendront à évaluer les déséquilibres entre l'éclairage artificiel et la lumière naturelle, tout en établissant des liens concrets entre leurs observations et les enjeux d'énergie, de confort et de qualité de vie. Cette approche permettra également aux élèves de mieux comprendre les spécificités de leur territoire et d'ancrer leur apprentissage dans un contexte local tangible.
 
-#### Conceptualisation
+### Conceptualisation
 
 En s'appuyant sur les conclusions de la phase initiale d'étude documentaire, cette deuxième étape permet d'approfondir notre compréhension de la problématique en adoptant une posture de chercheur. Cette approche permet aux élèves de s'approprier les concepts fondamentaux de la démarche scientifique : formulation d'hypothèses, élaboration de protocoles, collecte et analyse de données.
 
@@ -155,7 +150,7 @@ Pour vérifier cette hypothèse, les élèves développeront une méthodologie d
 
 Concepts clés : La représentativité de l'échantillon fait référence à la mesure dans laquelle un échantillon reflète avec précision les caractéristiques de la population plus large dont il est issu. Un échantillon représentatif garantit que les résultats de l'étude peuvent être généralisés à l'ensemble de la population. Le biais d'observation est une erreur qui se produit lorsque les attentes ou les préférences d'un chercheur influencent les observations ou le processus de collecte de données. Ce biais peut conduire à des résultats et des conclusions inexacts, car le chercheur peut se concentrer par inadvertance sur des données qui étayent ses hypothèses tout en négligeant les preuves contraires. L'analyse qualitative est une méthode de recherche utilisée pour interpréter des données non numériques, telles que des textes, des entretiens et des observations. Elle se concentre sur la compréhension des significations, des modèles et des idées sous-jacentes plutôt que sur la mesure des quantités. L'analyse qualitative est souvent utilisée pour explorer des phénomènes complexes et approfondir la compréhension des expériences et des points de vue des participants. Les commerçants seront interrogés sur leurs pratiques d'éclairage, leurs contraintes et leurs besoins spécifiques. Les passants et usagers de l'espace public participeront à des enquêtes de satisfaction portant sur leur perception du confort visuel et leur sentiment de sécurité. Cette approche permet de capturer la dimension humaine et sociale de l'éclairage urbain, dépassant ainsi la simple analyse technique tout en développant l'esprit critique des élèves.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Suite à la phase d'étude documentaire et réglementaire, aux analyses de cas et simulations, les élèves auront acquis un socle de connaissance devant leur permettre de développer une méthodologie d'étude simple à appliquer sur le terrain afin de se posturer en tant qu'observateur et analyste de la problématique étudiée.
 
@@ -211,7 +206,7 @@ Conseil 4 : Organisez une collecte de données multi-sources. Combinez : Des mes
 
 Conseil 5 : Intégrez les enjeux de maintenance. Prenez en compte : La durée de vie des équipements d'éclairage. Les coûts et la fréquence d'entretien. La disponibilité des pièces de rechange. Les compétences techniques requises pour la maintenance.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Les élèves développeront des compétences en recherche documentaire, en analyse comparative de cas d'étude internationaux, et en présentation de résultats. Ils apprendront à comparer différentes approches d'éclairage urbain et à identifier les meilleures pratiques.
 
@@ -219,13 +214,13 @@ Pour approfondir la réflexion, les enseignants pourront également utiliser les
 
 "Quelles différences observez-vous entre les approches des différentes villes étudiées ?" "Comment les innovations technologiques ont-elles influencé les stratégies d'éclairage urbain ?" "Quelles solutions pourraient être adaptées à notre contexte local ?"
 
-### Phase 3 : analyse et recommandations
+## Phase 3 : analyse et recommandations
 
-Contexte de la séquence : Cette phase engage les élèves à analyser leur protocole d'étude, formuler des recommandations concrètes pour optimiser l'éclairage dans les centres-villes et commerces. Ils imagineront des actions locales, testeront des solutions, créeront des mini-prototypes (optionnel) et partageront leurs résultats avec la communauté pour sensibiliser les décideurs.
+**Contexte de la séquence**: Cette phase engage les élèves à analyser leur protocole d'étude, formuler des recommandations concrètes pour optimiser l'éclairage dans les centres-villes et commerces. Ils imagineront des actions locales, testeront des solutions, créeront des mini-prototypes (optionnel) et partageront leurs résultats avec la communauté pour sensibiliser les décideurs.
 
-Objectifs d'apprentissage : Les élèves seront amenés à analyser et évaluer la pertinence du protocole d'étude utilisé, proposer des solutions basées sur une analyse rigoureuse et développer des actions citoyennes pour tester ces solutions. Ils devront réaliser des présentations claires et structurées, formuler des recommandations concrètes et réalisables, et pourront concevoir des mini-prototypes pour illustrer leurs solutions. Enfin, ils apprendront à communiquer efficacement leurs résultats pour mobiliser la communauté.
+**Objectifs d'apprentissage**: Les élèves seront amenés à analyser et évaluer la pertinence du protocole d'étude utilisé, proposer des solutions basées sur une analyse rigoureuse et développer des actions citoyennes pour tester ces solutions. Ils devront réaliser des présentations claires et structurées, formuler des recommandations concrètes et réalisables, et pourront concevoir des mini-prototypes pour illustrer leurs solutions. Enfin, ils apprendront à communiquer efficacement leurs résultats pour mobiliser la communauté.
 
-#### Conceptualisation
+### Conceptualisation
 
 La phase de conclusion permet aux élèves de se positionner comme acteurs du changement en transformant leurs observations en actions concrètes pour leur territoire. À travers la présentation de leurs résultats aux décideurs locaux et leur participation aux débats publics, ils développent une véritable conscience citoyenne et comprennent leur rôle dans l'amélioration de leur environnement urbain.
 
@@ -233,7 +228,7 @@ Cette démarche leur permettra notamment d'aborder les démarches suivantes à l
 
 La médiation scientifique constitue un pont essentiel entre les connaissances techniques et le grand public. Elle comprend la transformation de données complexes en informations accessibles, l'adaptation du discours selon les différents publics (commerçants, élus, citoyens), la création de supports de communication efficaces comme les infographies et les présentations, ainsi que l'organisation d'événements de sensibilisation. L'engagement citoyen représente la capacité des élèves à s'impliquer activement dans la vie de leur communauté. Il se manifeste par leur participation aux processus de consultation publique, la présentation argumentée de solutions basées sur des données scientifiques, le développement d'un dialogue constructif avec les décideurs locaux et la mobilisation d'autres citoyens autour des enjeux identifiés. L'innovation territoriale représente la capacité à concevoir et mettre en œuvre des solutions adaptées au contexte local. Elle se caractérise par une analyse fine des spécificités du territoire, la proposition de solutions respectueuses des contraintes locales, l'intégration des retours d'expérience des différents acteurs et le développement de projets pilotes pour tester les solutions proposées.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Afin de conclure le travail autour de la problématique de la lumière urbaine, les élèves pourront réaliser plusieurs actions leur permettant de valoriser leur démarche scientifique :
 
@@ -243,7 +238,7 @@ Analyse des données collectées — Les élèves travailleront en groupes de 3-
 
 Phase de prototypage (optionnel) — Si vous en avez la capacité et le temps nécessaire à la mise en œuvre de cette étape, les élèves pourront choisir par groupe de 3/4, des solutions simples à prototyper. Selon les moyens disponibles, les prototypes pourraient comprendre la création de maquettes physiques avec des matériaux simples (carton, LED, capteurs basiques), de la modélisation 3D sur SketchUp ou TinkerCAD, la réalisation de montages photos avant/après, la simulation d'éclairage avec des logiciels gratuits comme DIALux ... Chaque groupe disposera d'un temps (par exemple une semaine) pour réaliser son prototype, puis le présentera à la classe.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 À travers cette phase d'investigation, les élèves auront développé des compétences en analyse de données, en élaboration de recommandations et en prototypage de solutions. Leur travail d'analyse comparative des données collectées, combiné à la formulation de propositions concrètes et à la création éventuelle de prototypes, leur permettra de comprendre les enjeux pratiques de l'optimisation de l'éclairage urbain.
 

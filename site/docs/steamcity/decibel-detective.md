@@ -42,12 +42,6 @@ sidebar_position: 1
 
 ---
 
-## Decibel Detective
-
-Thématique : environnement, bien-être et santé publique
-
----
-
 ## Introduction
 
 Ce protocole explore l'impact du bruit sur l'apprentissage et le bien-être en milieu scolaire. En suivant les étapes de la démarche scientifique, les élèves mèneront une expérimentation pour collecter, analyser et présenter des données quantitatives et qualitatives afin de répondre à leur objet d'étude.
@@ -55,71 +49,61 @@ Ce protocole explore l'impact du bruit sur l'apprentissage et le bien-être en m
 Grâce à ce protocole, ils exploreront :
 
 - Santé, bien-être et cohésion sociale - Qu'est-ce que la santé ? Qu'est-ce que le bien-être ? : Comprendre le lien entre le bruit intérieur, extérieur et les enjeux de santé publique et de bien-être au sein de sa communauté (au niveau de la classe) et de son territoire (au niveau de la ville)
-- De la santé individuelle à la santé collective : Démarrer par une activité centrée sur l'impact du bruit sur l'élève en tant qu'individu pour ouvrir sur la problématique à l'échelle de la communauté
+- **De la santé individuelle à la santé collective** : Démarrer par une activité centrée sur l'impact du bruit sur l'élève en tant qu'individu pour ouvrir sur la problématique à l'échelle de la communauté
 - Mesure par des indicateurs diversifiés - Construction d'un indicateur, diversité, intérêts et relativité des indicateurs : Approche multi-indicateurs utilisant à la fois des données qualitatives et quantitatives, capacité à analyser les résultats, à documenter et à comprendre les corrélations et leurs limites
-- Diversité des acteurs en santé : Présenter le rôle des différents acteurs dans une intervention en santé et analyser la participation de la personne dans une action en santé : Identifier les acteurs du territoire qui ont un impact ou une action directe sur la problématique de santé publique liée au bruit urbain et valoriser son action citoyenne sur une meilleure compréhension des ressentis des citoyens sur la problématique donnée
+- **Diversité des acteurs en santé** : Présenter le rôle des différents acteurs dans une intervention en santé et analyser la participation de la personne dans une action en santé : Identifier les acteurs du territoire qui ont un impact ou une action directe sur la problématique de santé publique liée au bruit urbain et valoriser son action citoyenne sur une meilleure compréhension des ressentis des citoyens sur la problématique donnée
 
 Ils se familiariseront avec les enjeux du bruit, concevront leur propre protocole d'étude, programmeront des capteurs de type sonomètre et analyseront les données recueillies. Cette démarche développe diverses compétences et approfondit leur compréhension de l'influence de l'environnement sonore sur leur quotidien scolaire.
 
 Pour en savoir plus sur les enjeux liés au bruit, explorez la section "Aller plus loin".
 
----
-
-## Pour bien démarrer
-
-| Mesures | Durée | Difficulté | Matériel |
-|---|---|---|---|
-| Préparation de l'étude | 30 minutes | - | Ordinateurs ou tablettes avec accès internet pour la recherche documentaire, tableau blanc ou grand papier pour la création du protocole, marqueurs de différentes couleurs, post-its pour le brainstorming |
-| Collecte de données | 30 minutes de programmation + 1 semaine de collecte de données | - | 1 carte programmable type Micro:bit intégrant un capteur de niveau sonore, un ordinateur pour programmer la carte et collecter les données, une solution d'alimentation (PC ou batterie externe), journaux de bord imprimés ou numériques pour chaque élève |
-| Analyse, interprétation et conclusion de l'étude | 1 heure | - | Ordinateurs avec logiciel de traitement de données (ex. : Excel, Google Sheets, Libre Office), logiciel de création de graphiques et de visualisations (ex. : Canva Education, Genially), matériel pour créer des posters scientifiques ou des présentations (papier, marqueurs, logiciels de présentation), projecteur ou écran pour les présentations finales |
-
 ### Structure du protocole
 
-Phase 1 : Compréhension de la problématique et préparation de l'étude
+**Phase 1 : Compréhension de la problématique et préparation de l'étude**
 
 Les élèves commenceront par une étude documentaire sur la relation entre le bruit et les capacités cognitives. Ils exploreront des articles scientifiques, des rapports d'études et des ressources en ligne pour comprendre les effets du bruit sur l'apprentissage et le bien-être. Cette recherche leur permettra de se familiariser avec les concepts clés et les méthodes d'évaluation existantes. Suite à cette étude, ils développeront collectivement des indicateurs pour évaluer leur bien-être et leurs performances cognitives, tels que le niveau de fatigue, la capacité de concentration, la qualité de la participation en classe, le niveau de stress perçu, et la performance dans des tâches cognitives spécifiques. Ces indicateurs formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
 
-Phase 2 : Collecte de données
+**Phase 2 : Collecte de données**
 
 Durant la phase 2, les élèves mettront en oeuvre leur protocole. Ils commenceront par préparer les outils de mesure. Ils programmeront des capteurs de niveau sonore pour effectuer des relevés automatiques selon le protocole établi. Ils apprendront les bases de la programmation et de l'utilisation de capteurs. Ils développeront un journal de bord structuré pour enregistrer quotidiennement leurs évaluations de bien-être et de performance cognitive, ainsi que les facteurs externes potentiellement influents (activité physique, météo, type d'activités en classe, qualité du sommeil). Les capteurs seront positionnés dans la classe pour effectuer des relevés automatiques du niveau sonore selon le protocole établi, pendant une semaine. Chaque jour de la semaine d'étude, les élèves compléteront leur journal de bord, évaluant leurs indicateurs de bien-être et de performance cognitive, et notant les facteurs externes. Les élèves noteront également dans leur journal tout événement particulier pouvant influencer le niveau de bruit ou leur bien-être (par exemple, travaux à proximité de l'école, évaluations importantes).
 
-Phase 3 : Analyse, interprétation et conclusion de l'étude
+**Phase 3 : Analyse, interprétation et conclusion de l'étude**
 
 Une fois la semaine de collecte terminée, les élèves compileront et analyseront les données selon les méthodes définies dans leur protocole expérimental. Sur la base de ces analyses, les élèves créeront des graphiques et des visualisations pour représenter les corrélations entre les niveaux de bruit et les différents indicateurs de bien-être et de performance cognitive. Ils examineront également l'influence des facteurs externes sur ces relations. Les élèves interpréteront les résultats de leur analyse et réfléchiront sur leurs implications. Plusieurs questions guideront leur réflexion : quelles corrélations avez-vous observées entre le niveau de bruit et vos indicateurs de bien-être/performance cognitive, comment les autres facteurs (activité physique, météo, type d'activité en classe) ont-ils influencé ces relations, quelles recommandations pourriez-vous faire pour améliorer l'environnement sonore de la classe et optimiser les conditions d'apprentissage, quelles ont été les principales difficultés rencontrées lors de cette étude, et comment pourrait-on améliorer le protocole pour de futures investigations... Les élèves synthétiseront leurs résultats et conclusions dans une présentation visuelle (par exemple, un poster scientifique ou une présentation).
 
-## Glossaire
+| Mesures | Durée | Matériel |
+|---|---|---|
+| Préparation de l'étude | 30 minutes | Ordinateurs ou tablettes avec accès internet pour la recherche documentaire, tableau blanc ou grand papier pour la création du protocole, marqueurs de différentes couleurs, post-its pour le brainstorming |
+| Collecte de données | 30 minutes de programmation + 1 semaine de collecte de données | 1 carte programmable type Micro:bit intégrant un capteur de niveau sonore, un ordinateur pour programmer la carte et collecter les données, une solution d'alimentation (PC ou batterie externe), journaux de bord imprimés ou numériques pour chaque élève |
+| Analyse, interprétation et conclusion de l'étude | 1 heure | Ordinateurs avec logiciel de traitement de données (ex. : Excel, Google Sheets, Libre Office), logiciel de création de graphiques et de visualisations (ex. : Canva Education, Genially), matériel pour créer des posters scientifiques ou des présentations (papier, marqueurs, logiciels de présentation), projecteur ou écran pour les présentations finales |
 
-| Mots-clés/Concepts | Définitions |
-|---|---|
-| Bruit | Son indésirable ou gênant, souvent caractérisé par son intensité, sa fréquence et sa durée. |
-| Bruit environnemental | Ensemble des sons indésirables présents dans l'environnement extérieur, incluant les bruits de transport, industriels et de voisinage. Il inclut le bruit produit par les moyens de transport : véhicules routiers, trains, avions, bateaux ; les industries, les chantiers de construction et les travaux ; les activités culturelles, sportives ou de loisir : la musique des discothèques, spectacles et festivals ; les armes à feu ; les véhicules récréatifs, comme les motos, etc. ; le voisinage : à l'extérieur (les climatisations, les équipements de jardinage à moteur, etc.), à l'intérieur (les fêtes, la musique, les appareils ménagers bruyants, comme les aspirateurs, etc. |
-| Pollution sonore | Ensemble des nuisances causées par des bruits excessifs pouvant affecter la santé et le bien-être. |
-| Décibel (dB) | Unité de mesure de l'intensité du son. Plus le nombre de décibels est élevé, plus le bruit est fort. |
-| Sonomètre | Instrument de mesure utilisé pour évaluer le niveau sonore en décibels, permettant une quantification objective du bruit. |
-| Cartographie sensible | Représentation subjective d'un espace basée sur les émotions et ressentis des individus, sans recourir à des mesures scientifiques. |
-| Émotion | Réaction affective intense, positive ou négative, provoquée par un stimulus environnemental, comme le bruit urbain, qui peut influencer la perception et le comportement. |
-| Stress | Réaction physiologique et psychologique de l'organisme face à une pression environnementale, pouvant être aggravée par une exposition prolongée au bruit. |
-| Capacités cognitives | Ensemble des fonctions mentales liées à la connaissance, incluant la mémoire, l'attention et le raisonnement, qui peuvent être affectées par l'exposition au bruit. |
-| Bien-être urbain | Sensation de confort physique et mental ressentie par les habitants d'une ville, influencée par différents facteurs tels que le bruit, la pollution, les espaces verts, etc. |
-| Santé publique | Ensemble des mesures visant à promouvoir et protéger la santé de la population, incluant la gestion des nuisances sonores et leurs impacts sur le bien-être collectif. |
+### Glossaire
 
----
+- **Bruit** : Son indésirable ou gênant, souvent caractérisé par son intensité, sa fréquence et sa durée.
+- **Bruit environnemental** : Ensemble des sons indésirables présents dans l'environnement extérieur, incluant les bruits de transport, industriels et de voisinage. Il inclut le bruit produit par les moyens de transport : véhicules routiers, trains, avions, bateaux ; les industries, les chantiers de construction et les travaux ; les activités culturelles, sportives ou de loisir : la musique des discothèques, spectacles et festivals ; les armes à feu ; les véhicules récréatifs, comme les motos, etc. ; le voisinage : à l'extérieur (les climatisations, les équipements de jardinage à moteur, etc.), à l'intérieur (les fêtes, la musique, les appareils ménagers bruyants, comme les aspirateurs, etc.
+- **Pollution sonore** : Ensemble des nuisances causées par des bruits excessifs pouvant affecter la santé et le bien-être.
+- **Décibel (dB)** : Unité de mesure de l'intensité du son. Plus le nombre de décibels est élevé, plus le bruit est fort.
+- **Sonomètre** : Instrument de mesure utilisé pour évaluer le niveau sonore en décibels, permettant une quantification objective du bruit.
+- **Cartographie sensible** : Représentation subjective d'un espace basée sur les émotions et ressentis des individus, sans recourir à des mesures scientifiques.
+- **Émotion** : Réaction affective intense, positive ou négative, provoquée par un stimulus environnemental, comme le bruit urbain, qui peut influencer la perception et le comportement.
+- **Stress** : Réaction physiologique et psychologique de l'organisme face à une pression environnementale, pouvant être aggravée par une exposition prolongée au bruit.
+- **Capacités cognitives** : Ensemble des fonctions mentales liées à la connaissance, incluant la mémoire, l'attention et le raisonnement, qui peuvent être affectées par l'exposition au bruit.
+- **Bien-être urbain** : Sensation de confort physique et mental ressentie par les habitants d'une ville, influencée par différents facteurs tels que le bruit, la pollution, les espaces verts, etc.
+- **Santé publique** : Ensemble des mesures visant à promouvoir et protéger la santé de la population, incluant la gestion des nuisances sonores et leurs impacts sur le bien-être collectif.
 
-## Protocole
+## Phase 1 : compréhension de la problématique et préparation de l'étude
 
-### Phase 1 : compréhension de la problématique et préparation de l'étude
+**Contexte de la séquence**: L'objectif principal de cette première séquence est d'élaborer un protocole d'étude autour des enjeux du bruit sur l'apprentissage et le bien-être en milieu scolaire. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et les méthodes d'évaluation existantes dans le domaine du bruit. L'objectif est de les amener à mesurer et à développer collectivement des indicateurs pertinents pour évaluer le bien-être et les performances cognitives dans le contexte scolaire. Ces indicateurs, tels que le niveau de fatigue, la capacité de concentration, la qualité de la participation en classe, le niveau de stress perçu et la performance dans des tâches cognitives spécifiques, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
 
-Contexte de la séquence : L'objectif principal de cette première séquence est d'élaborer un protocole d'étude autour des enjeux du bruit sur l'apprentissage et le bien-être en milieu scolaire. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et les méthodes d'évaluation existantes dans le domaine du bruit. L'objectif est de les amener à mesurer et à développer collectivement des indicateurs pertinents pour évaluer le bien-être et les performances cognitives dans le contexte scolaire. Ces indicateurs, tels que le niveau de fatigue, la capacité de concentration, la qualité de la participation en classe, le niveau de stress perçu et la performance dans des tâches cognitives spécifiques, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+**Objectifs d'apprentissage**: À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la relation complexe entre le bruit et les capacités cognitives, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré pour leur apprentissage. Ils développeront également des compétences en recherche documentaire, essentielles pour approfondir leur compréhension du sujet. De plus, les élèves apprendront à concevoir des indicateurs de mesure, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude scientifiquement valable, ce qui leur permettra de développer leur rigueur méthodologique et leur esprit critique.
 
-Objectifs d'apprentissage : À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la relation complexe entre le bruit et les capacités cognitives, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré pour leur apprentissage. Ils développeront également des compétences en recherche documentaire, essentielles pour approfondir leur compréhension du sujet. De plus, les élèves apprendront à concevoir des indicateurs de mesure, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude scientifiquement valable, ce qui leur permettra de développer leur rigueur méthodologique et leur esprit critique.
-
-#### Conceptualisation
+### Conceptualisation
 
 L'hypothèse centrale qui guidera l'ensemble de ce protocole est que le niveau de bruit en classe a un impact significatif sur le bien-être et les performances cognitives des élèves. Cette hypothèse s'inscrit directement dans le cadre des préoccupations en santé publique.
 
 Pour approfondir cette hypothèse, les élèves devront d'abord constituer et structurer un corpus documentaire sur le sujet du bruit en milieu scolaire et ses effets. Ce travail de recherche leur permettra de comprendre l'importance de cette problématique et d'argumenter l'intérêt d'une étude sur l'état de santé et le bien-être des élèves en lien avec leur environnement sonore. En explorant les concepts de bien-être et de performances cognitives, les élèves seront amenés à réfléchir sur les indicateurs adaptés pour évaluer l'état de santé et de bien-être d'une population, en l'occurrence, la communauté scolaire. Ils devront notamment considérer des indicateurs tels que le niveau de stress, la capacité de concentration, ou encore la qualité du sommeil, qui peuvent tous être affectés par une exposition prolongée au bruit. La complémentarité des indicateurs sera un aspect crucial à examiner. Les élèves devront comprendre comment différents types de mesures (subjectives et objectives) peuvent se compléter pour donner une image plus complète de l'impact du bruit. Par exemple, ils pourraient envisager de combiner des mesures de niveaux sonores en décibels avec des évaluations subjectives du confort acoustique. Enfin, pour tester cette hypothèse de manière rigoureuse, les élèves devront argumenter le choix de la méthode et des outils de recueil de données.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Étude documentaire. Pour démarrer l'activité, les élèves effectueront une recherche documentaire sur la relation entre le bruit et les capacités cognitives. Ils analyseront des articles, des rapports d'études et des ressources pertinentes pour comprendre les effets du bruit sur l'apprentissage et le bien-être. Cette étape leur permettra d'acquérir une base de connaissances et de se familiariser avec les concepts clés et les méthodes d'évaluation existantes.
 
@@ -139,11 +123,11 @@ Exemple de protocole
    - Analyse des données : Nous calculerons les moyennes quotidiennes de niveau sonore et identifierons les pics de bruit (moments où le niveau sonore dépasse un seuil prédéfini). Des graphiques seront créés pour montrer l'évolution du niveau sonore au fil du temps, avec mise en évidence des pics. Nous agrégerons les données de bien-être et de performance cognitive de tous les élèves. Si des différences importantes sont notées dans les journaux personnels, des questionnaires supplémentaires seront envisagés afin d'intégrer de nouvelles informations à notre étude. Nous comparerons visuellement les niveaux de bruit avec chaque indicateur de bien-être/performance. Nous créerons des graphiques simples montrant les tendances générales entre le bruit et nos indicateurs. Nous identifierons et discuterons des cas qui semblent s'écarter de ces tendances générales. Pour approfondir notre analyse, nous calculerons les coefficients de corrélation entre les niveaux de bruit et chacun de nos indicateurs de bien-être et de performance cognitive. L'interprétation de ces coefficients nous aidera à déterminer quels aspects du bien-être et de la performance sont les plus sensibles aux variations de bruit (voir section "Aller plus loin - Comprendre les coefficients de corrélation" dans la phase 3). Nous catégoriserons les facteurs externes notés (ex: météo, type d'activité, événements particuliers). Nous analyserons l'impact de ces facteurs sur les niveaux sonores et les indicateurs de bien-être/performance. Des graphiques comparatifs seront créés pour montrer les variations selon les différents contextes.
 6. Présentation des résultats : Création de graphiques montrant la corrélation entre le niveau de bruit et les performances cognitives et documentation du protocole sur une infographie qui pourra être partagée avec la classe, l'établissement ou sur les réseaux.
 
-:::tip[Conseils pour les enseignants]
+:::info[Conseils pour les enseignants]
 Dans une logique d'apprentissage actif, il est intéressant de laisser les élèves réaliser cet exercice de conception du protocole par eux-mêmes. Cependant, l'enseignant jouera un rôle crucial de guide, adoptant une approche semi-dirigée pour s'assurer que le protocole final intègre les composantes essentielles à l'étude : l'utilisation d'un capteur de bruit (sonomètre) pour des mesures objectives, et la réalisation d'un journal d'enquête comprenant l'analyse qualitative des journées de classe sur au moins une semaine complète. Cette approche permettra de garantir la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves dans leur démarche d'investigation.
 :::
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 À l'issue de cette phase, les élèves auront acquis une compréhension approfondie de la relation entre le bruit et les capacités cognitives, développé des compétences en recherche documentaire, et créé collectivement un protocole d'étude structuré. Afin de conclure la séquence, plusieurs questionnements pourront être ouverts :
 
@@ -156,15 +140,15 @@ Dans une logique d'apprentissage actif, il est intéressant de laisser les élè
 
 ---
 
-### Phase 2 : collecte de données
+## Phase 2 : collecte de données
 
 Contexte et Objectifs : Cette phase se concentre sur la mise en oeuvre du protocole d'étude élaboré précédemment pour évaluer l'impact du bruit en milieu scolaire. Les élèves vont appliquer les méthodes scientifiques qu'ils ont développées pour collecter des données concrètes sur les effets du bruit sur le bien-être et les performances cognitives dans leur environnement scolaire. Cette étape pratique permettra aux élèves de confronter leurs hypothèses à la réalité du terrain, tout en développant leurs compétences en collecte et analyse de données.
 
-Objectifs d'apprentissage : À travers cette phase, les élèves développeront des compétences techniques et méthodologiques essentielles. Ils apprendront à programmer et utiliser des capteurs de décibels, renforçant ainsi leurs compétences en technologie. La collecte structurée de données leur permettra de comprendre l'importance de la rigueur scientifique. En pratiquant l'observation et l'auto-évaluation quotidienne, ils développeront des compétences d'analyse critique et de réflexion personnelle, cruciales pour leur développement académique et personnel.
+**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences techniques et méthodologiques essentielles. Ils apprendront à programmer et utiliser des capteurs de décibels, renforçant ainsi leurs compétences en technologie. La collecte structurée de données leur permettra de comprendre l'importance de la rigueur scientifique. En pratiquant l'observation et l'auto-évaluation quotidienne, ils développeront des compétences d'analyse critique et de réflexion personnelle, cruciales pour leur développement académique et personnel.
 
 Cette étape peut être réalisée en partenariat avec les enseignements de technologie.
 
-#### Conceptualisation
+### Conceptualisation
 
 Dans cette phase, les élèves continuent de travailler autour de l'hypothèse centrale de ce protocole i.e. le niveau de bruit en classe a un impact significatif sur le bien-être et les performances cognitives des élèves.
 
@@ -172,10 +156,10 @@ Les élèves utiliseront des capteurs pour mesurer précisément les niveaux de 
 
 Au travers de cette exploration, les élèves vont aborder les enjeux de recueil et de traitement d'un ensemble de données pour caractériser une population quant à sa santé. Cette démarche est fondamentale dans la méthode scientifique :
 
-- Recueil de données : Cette étape est le point de départ de toute enquête scientifique. Les élèves utiliseront les capteurs de décibels pour mesurer les niveaux sonores dans différents espaces scolaires, tout en collectant des données sur leur bien-être et leurs performances cognitives. L'importance de cette étape réside dans la qualité et la fiabilité des données recueillies, qui détermineront la validité de l'ensemble de l'étude.
-- Traitement des données : Cette phase est essentielle pour transformer les données brutes en informations exploitables. Les élèves apprendront à organiser et à structurer les données recueillies, utilisant des outils numériques pour créer des tableaux et des graphiques. Ce processus est crucial car il permet de mettre en évidence des tendances et des patterns qui ne seraient pas immédiatement visibles dans les données brutes.
+- **Recueil de données** : Cette étape est le point de départ de toute enquête scientifique. Les élèves utiliseront les capteurs de décibels pour mesurer les niveaux sonores dans différents espaces scolaires, tout en collectant des données sur leur bien-être et leurs performances cognitives. L'importance de cette étape réside dans la qualité et la fiabilité des données recueillies, qui détermineront la validité de l'ensemble de l'étude.
+- **Traitement des données** : Cette phase est essentielle pour transformer les données brutes en informations exploitables. Les élèves apprendront à organiser et à structurer les données recueillies, utilisant des outils numériques pour créer des tableaux et des graphiques. Ce processus est crucial car il permet de mettre en évidence des tendances et des patterns qui ne seraient pas immédiatement visibles dans les données brutes.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Préparation et positionnement des outils de mesure
 
@@ -203,11 +187,11 @@ Collecte quotidienne de données
 
 Chaque jour de la semaine d'étude, les élèves compléteront leur journal de bord, évaluant leurs indicateurs de bien-être et de performance cognitive, et notant les facteurs externes. Les élèves noteront également dans leur journal tout événement particulier pouvant influencer le niveau de bruit ou leur bien-être (par exemple, travaux à proximité de l'école, évaluations importantes).
 
-:::tip[Conseils pour les enseignants]
+:::info[Conseils pour les enseignants]
 Dans une logique interdisciplinaire, il pourrait être intéressant de présenter le protocole aux autres enseignants de la classe. Ceux qui le souhaitent pourraient participer à l'étude, créant ainsi une dynamique collective autour du projet. Les enseignants volontaires pourraient rappeler aux élèves de remplir leur journal de bord et éventuellement intégrer des réflexions sur le bruit dans leurs cours. Cette approche collaborative, si adoptée, permettrait aux élèves de percevoir l'importance de l'étude dans différents contextes d'apprentissage et pourrait favoriser une prise de conscience plus globale de l'impact du bruit sur leur environnement scolaire.
 :::
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 À la fin de cette phase de collecte de données, les élèves auront acquis des compétences pratiques en matière de collecte de données scientifiques et d'auto-évaluation. Pour conclure cette séquence, plusieurs questions de réflexion peuvent être posées :
 
@@ -219,15 +203,15 @@ Dans une logique interdisciplinaire, il pourrait être intéressant de présente
 
 ---
 
-### Phase 3 : analyse, interprétation et conclusion de l'étude
+## Phase 3 : analyse, interprétation et conclusion de l'étude
 
 Contexte et Objectifs : Cette phase se concentre sur l'analyse approfondie des données collectées, l'interprétation des résultats et l'élaboration de recommandations basées sur les conclusions de l'étude. Les élèves vont compiler, analyser et visualiser les données recueillies, en utilisant des méthodes statistiques et des outils de visualisation pour identifier les corrélations entre les niveaux de bruit et les indicateurs de bien-être et de performance cognitive. Cette étape cruciale permettra aux élèves de tirer des conclusions significatives de leur étude et de développer des recommandations concrètes pour améliorer l'environnement sonore scolaire.
 
-Objectifs d'apprentissage : À travers cette phase, les élèves développeront des compétences essentielles en analyse de données et en visualisation, apprenant à interpréter des résultats scientifiques de manière critique. Ils amélioreront leur capacité à résoudre des problèmes complexes en proposant des solutions basées sur des preuves empiriques. De plus, en préparant une présentation de leurs résultats, les élèves renforceront leurs compétences en communication scientifique, apprenant à synthétiser et à présenter des informations complexes de manière claire et convaincante.
+**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences essentielles en analyse de données et en visualisation, apprenant à interpréter des résultats scientifiques de manière critique. Ils amélioreront leur capacité à résoudre des problèmes complexes en proposant des solutions basées sur des preuves empiriques. De plus, en préparant une présentation de leurs résultats, les élèves renforceront leurs compétences en communication scientifique, apprenant à synthétiser et à présenter des informations complexes de manière claire et convaincante.
 
 Cette étape peut être réalisée en partenariat avec la discipline des mathématiques.
 
-#### Conceptualisation
+### Conceptualisation
 
 Dans cette phase, les élèves poursuivent l'exploration de l'hypothèse centrale : le niveau de bruit en classe a un impact significatif sur le bien-être et les performances cognitives des élèves. L'accent est mis sur l'analyse approfondie des données recueillies et leur interprétation.
 
@@ -242,7 +226,7 @@ Au cours de cette phase, les élèves vont aborder plusieurs concepts et outils 
 
 Cette phase permettra aux élèves de développer des compétences essentielles en analyse de données, en pensée critique et en communication scientifique, tout en approfondissant leur compréhension de l'impact du bruit sur la santé et le bien-être en milieu scolaire.
 
-#### Investigation par les élèves
+### Investigation par les élèves
 
 Compilation et analyse des données
 
@@ -268,7 +252,7 @@ Les élèves synthétiseront leurs résultats et conclusions dans une présentat
 
 Pour vous aider, une présentation de quelques outils graphiques qui pourraient permettre aux élèves de créer une présentation attrayante avec un effort réduit est disponible dans la section aller plus loin de ce protocole.
 
-#### Restitution et réflexion
+### Restitution et réflexion
 
 Au terme de cette activité complète d'analyse de l'impact du bruit sur l'apprentissage, les élèves ont acquis des compétences précieuses en collecte de données scientifiques, analyse statistique, et interprétation de résultats. Pour conclure ce protocole et encourager une réflexion approfondie sur l'ensemble du processus, les questions suivantes peuvent servir de trame :
 
@@ -282,95 +266,9 @@ Au terme de cette activité complète d'analyse de l'impact du bruit sur l'appre
 
 ## Fiche pratique
 
-### Programmer votre Micro:bit pour mesurer le niveau sonore
-
-Matériel et outils nécessaires
-
-Pour programmer une carte micro:bit pour mesurer le niveau sonore, vous aurez besoin de :
-
-- Cartes Micro:bit V2 et ses capteurs intégrés : La carte programmable principale incluant un capteur de niveau sonore intégré - Environ 19 EUR par micro:bit (consultez les prix ici : [https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html))
-- Câbles micro-USB : pour alimenter et programmer le micro:bit
-- Batterie externe (en option) : Pour un fonctionnement portable si la micro:bit doit être détaché - Vous pouvez trouver le boitier de piles officielle de micro:bit disponible à l'achat pour environ 2,20 EUR par pack ici ([https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html))
-
-Diverses modalités de collecte peuvent être organisées :
-
-- Option 1 (plusieurs cartes) : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante.
-- Option 2 (une seule carte - moins onéreux) : Utilisez une seule carte Micro:bit et faites-la tourner entre les élèves. Collectez des données pendant 2 jours chez chaque élève, sur une période totale de 15 jours, pour obtenir une représentation de plusieurs points de collecte.
-
-Vous pouvez acheter le kit Micro:bit V2 comprenant le câble USB et le boîtier de piles pour 21 EUR par kit, ou 177 EUR pour 10 kits (ici : [https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html](https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html)).
-
-- Ordinateur ou tablette : pour écrire et télécharger du code.
-- Environnement de programmation : Éditeur en ligne MakeCode - [https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor)
-
-### Étape 1 — Programmation de la carte Micro:bit
-
-Connectez la carte micro:bit à l'ordinateur sur lequel vous avez réalisé le programme grâce à l'éditeur MakeCode. Une fois connectée, la carte micro:bit apparaîtra sur l'ordinateur comme un disque amovible (ex. : "MICROBIT"). Ouvrez l'éditeur MakeCode pour créer un programme qui collecte des données de bruit à l'aide des capteurs intégrés de la carte de programmation Micro:bit V2. Donnez un nom clair à votre projet avant de commencer.
-
-Une fois sur l'éditeur et après avoir créé votre nouveau projet, vous obtiendrez l'écran par défaut « prêt à l'emploi » et vous devrez installer une extension. Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base de MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteur et de robotique et bien plus encore. Dans les colonnes d'affichage des blocs, cliquez sur le bouton EXTENSIONS. Dans la liste des extensions disponibles, recherchez l'extension Datalogger qui sera utilisée pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
-
-Ensuite, vous pouvez commencer à organiser vos blocs en suivant le code fourni ci-dessous (ajouter une boucle infinie, enregistrer les données dans le datalogger...). Vous pouvez également copier-coller le code dans l'éditeur Javascript.
-
-Testez le programme en utilisant le simulateur de MakeCode.
-
-Une fois votre programme fonctionnant correctement sur le simulateur, transférez-le sur votre Micro:bit : cliquez sur « Télécharger » dans MakeCode pour générer un fichier .hex. Ce fichier contient le programme compilé qui permettra à la carte de fonctionner.
-
-Copiez le fichier .hex de votre dossier de téléchargement sur le lecteur amovible « MICROBIT ».
-
-Une fois le fichier copié, la carte redémarre automatiquement et exécute le code.
-
-### Étape 2 — Placer la Micro:bit et commencer à enregistrer les données
-
-Une fois programmé, placez la micro:bit pour collecter les données dont vous avez besoin, par exemple dans le jardin d'un élève, dans le parc à côté de l'école, dans la mairie... selon votre choix d'emplacement. Utilisez une batterie externe pour vous assurer que votre carte collectera des données au cours de la semaine par exemple.
-
-Une fois positionné, appuyez sur le bouton « A » de la carte Micro:Bit pour démarrer l'enregistrement des données via le programme.
-
-### Étape 3 — Récupération des données et préparation de la carte pour la prochaine session d'enregistrement
-
-Une fois la période de collecte terminée, vous pouvez récupérer vos données à partir du fichier appelé « MY\_DATA.HTM », disponible sur le lecteur micro:bit. Copiez-le sur votre ordinateur et renommez-le avec la date du jour (par exemple, LOCATIONNAME\_YYYY\_MM\_DD.HTM).
-
-Après avoir copié et renommé le fichier, supprimez le fichier MY\_DATA.HTM de la Micro:Bit pour libérer de l'espace et permettre un nouvel enregistrement de données. Une fois ouvert, les fichiers de données seront accessibles au format HTML. Ils fourniront toutes les données collectées et vous permettront de les télécharger au format .csv.
-
-### Utiliser et comprendre le code
-
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données de bruit :
-
-```javascript
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Yes)
-    basic.pause(200)
-    basic.clearScreen()
-    while (true) {
-        datalogger.log(
-            datalogger.createCV("Niveau sonore", input.soundLevel())
-        )
-        basic.pause(5000)
-    }
-})
-basic.showIcon(IconNames.No)
-datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
-```
-
-Fonctionnement du code
-
-Ce programme mesure le niveau sonore ambiant (en décibels) toutes les 5 secondes (l'intervalle peut être modifiée pour correspondre à 1 minute, 5 minutes, 2 fois par heure...) et compile les informations dans un "datalogger" depuis lequel nous pouvons télécharger un fichier .csv.
-
-Un fichier .csv (Comma-Separated Values, ou valeurs séparées par des virgules) est un format de fichier texte utilisé pour stocker des données tabulaires (comme dans un tableau ou une feuille de calcul). Chaque ligne du fichier représente une ligne de données, et chaque valeur dans une ligne est séparée par un délimiteur (souvent une virgule, mais parfois un point-virgule ou une tabulation). Il est possible de récupérer les données d'un fichier .csv dans un tableur type Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier puis Ouvrir, sélectionnez le fichier .csv, et configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, suivez un processus similaire : cliquez sur Fichier puis Ouvrir, sélectionnez le fichier, et utilisez l'assistant d'importation pour choisir le délimiteur (par exemple, virgule ou point-virgule). Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
-
-- Initialisation de l'événement d'appui sur le bouton « A » : Lorsque l'utilisateur appuie sur le bouton « A » de la carte Micro:Bit, la fonction est déclenchée.
-- Affichage de l'icône "Yes" pendant l'exécution : Avant de démarrer l'enregistrement des données, le programme affiche l'icône « Yes » pendant 200 millisecondes (0,2 seconde) pour indiquer que le processus d'enregistrement a démarré.
-- Pause de 200 millisecondes : Après avoir affiché l'icône « Oui », le programme attend 200 millisecondes.
-- Effacer l'écran : Après la pause, l'écran est effacé, ce qui prépare l'écran pour ce qui suit sans être encombré d'images.
-- Boucle infinie de collecte de données : Le programme entre dans une boucle infinie. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la Micro:Bit soit éteint ou redémarré.
-- Enregistrement des données dans le datalogger : À chaque itération de boucle, le programme enregistre les valeurs des capteurs Micro:Bit concernant le niveau sonore, qui capture le niveau sonore ambiant.
-- Le niveau sonore mesure une valeur relative et n'a pas d'unités standard comme les décibels (dB). Plus précisément, le capteur mesure l'intensité perçue. Cette valeur est une estimation numérique (de 0 à 255), où 0 représente la valeur minimale (silence complet/obscurité totale) et 255 la valeur maximale (bruit très fort/lumière intense).
-- Ces valeurs sont enregistrées dans le datalogger sous forme de variables nommées « niveau sonore ». La fonction createCV permet de créer un « CV » (valeur de contexte) pour chaque capteur, et la fonction datalogger.log permet d'enregistrer ces valeurs dans un fichier sur la Micro:Bit.
-- Pause de 5 000 millisecondes avant la prochaine lecture : Après chaque enregistrement, le programme attend 5 000 millisecondes (5 secondes) avant de relire les valeurs du capteur. Vous pouvez modifier la durée de la pause pour capturer plus ou moins de données (par exemple, toutes les minutes).
-- Horodatage des données : En dehors de la fonction liée au bouton, la commande d'horodatage est utilisée pour inclure un horodatage avec chaque enregistrement de données. Le format d'horodatage est en minutes, ce qui signifie que chaque enregistrement aura un indicateur de temps basé sur les minutes écoulées depuis le démarrage du programme.
-- Affichage de l'icône "No" avant l'exécution : Avant que l'utilisateur n'appuie sur le bouton « A », le programme affiche une icône « No » pour indiquer que la Micro:Bit attend l'action de l'utilisateur.
+Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Decibel Detective](/ressources/steamcity/programmation/programmation-decibel-detective).
 
 ---
-
-## Aller plus loin : exploration autour du bruit
 
 ### Qu'est-ce que le bruit ?
 
@@ -382,10 +280,10 @@ Le bruit est une vibration sonore perçue par l'oreille humaine. Bien que certai
 
 Il est mesuré en décibels (dB), une unité qui indique l'intensité du son, et cette dernière varie selon les situations :
 
-- 30 dB : endroit calme (chambre, salle de repos).
-- 65 dB : rue animée ou salle de classe.
-- 85 dB : seuil de danger pour l'oreille (aboiements, bébé qui pleure).
-- 100 dB et plus : concerts, marteau-piqueur, sirène d'ambulance.
+- **30 dB** : endroit calme (chambre, salle de repos).
+- **65 dB** : rue animée ou salle de classe.
+- **85 dB** : seuil de danger pour l'oreille (aboiements, bébé qui pleure).
+- **100 dB et plus** : concerts, marteau-piqueur, sirène d'ambulance.
 
 Un niveau sonore acceptable pour un travail nécessitant une attention soutenue se situe entre 45 et 55 dB.
 
@@ -424,8 +322,6 @@ La mise en oeuvre de la directive européenne sur le bruit n'a pas permis d'atte
 
 ---
 
-## Idées de projets complémentaires
-
 ### Créer une carte sonore de l'école en utilisant plusieurs Micro:bit placés à différents endroits dans et autour de l'école
 
 La cartographie sonore est une pratique courante en urbanisme et en santé publique pour analyser et gérer les nuisances sonores. Des outils comme NoiseCapture permettent déjà aux citoyens de contribuer à des cartes interactives du bruit dans les villes. Appliquer cette démarche à l'école offre une opportunité de sensibiliser les élèves aux enjeux de leur environnement sonore, tout en introduisant des notions de mesure scientifique, de géographie et d'analyse de données. L'objectif est de responsabiliser les élèves tout en leur permettant d'expérimenter un projet à l'intersection des sciences et des nouvelles technologies. Les élèves pourraient analyser les variations de bruit selon les zones et les heures, et proposer des solutions pour améliorer l'environnement sonore.
@@ -442,12 +338,12 @@ Dans les espaces publics et professionnels, des systèmes d'alerte sonore ou vis
 
 ## Découvrir les outils numériques de conception et de création
 
-- Canva : Création de graphiques, vidéos, infographies... en collaboration en temps réel. Très accessible. Fonctionnalités gratuites : accès à des milliers de modèles, éléments graphiques de base, stockage cloud limité. Plan d'éducation disponible gratuitement pour les enseignants.
-- Genially : Création de présentations interactives, infographies, jeux, contenus animés. Accessible. Fonctionnalités gratuites : Accès aux modèles de base, fonctionnalités interactives limitées, publications publiques. Tarifs réduits des comptes professionnels destinés aux enseignants.
-- Animaker : Création de vidéos animées, infographies vidéo, présentations vidéo, GIF animés. Modérément accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Aucun plan pour l'éducation.
-- Powtoon : Création de graphiques, présentations, vidéos, infographies, collaboration en temps réel. Accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Réduire les frais d'accès aux comptes professionnels pour les enseignants.
-- Piktochart : Création d'infographies, présentations, rapports, affiches. Très accessible. Fonctionnalités gratuites : Accès aux modèles de base, exportation limitée à certains formats, stockage limité. Tarifs réduits des comptes professionnels destinés aux enseignants.
-- Freepik et Flaticon : Accès à des ressources de conception, des icônes et des illustrations gratuites et premium. Très accessible. Fonctionnalités gratuites : Accès gratuit aux ressources de base avec attribution. Aucun plan pour l'éducation. [https://www.freepik.com](https://www.freepik.com) / [https://www.flaticon.com](https://www.flaticon.com)
+- **Canva** : Création de graphiques, vidéos, infographies... en collaboration en temps réel. Très accessible. Fonctionnalités gratuites : accès à des milliers de modèles, éléments graphiques de base, stockage cloud limité. Plan d'éducation disponible gratuitement pour les enseignants.
+- **Genially** : Création de présentations interactives, infographies, jeux, contenus animés. Accessible. Fonctionnalités gratuites : Accès aux modèles de base, fonctionnalités interactives limitées, publications publiques. Tarifs réduits des comptes professionnels destinés aux enseignants.
+- **Animaker** : Création de vidéos animées, infographies vidéo, présentations vidéo, GIF animés. Modérément accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Aucun plan pour l'éducation.
+- **Powtoon** : Création de graphiques, présentations, vidéos, infographies, collaboration en temps réel. Accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Réduire les frais d'accès aux comptes professionnels pour les enseignants.
+- **Piktochart** : Création d'infographies, présentations, rapports, affiches. Très accessible. Fonctionnalités gratuites : Accès aux modèles de base, exportation limitée à certains formats, stockage limité. Tarifs réduits des comptes professionnels destinés aux enseignants.
+- **Freepik et Flaticon** : Accès à des ressources de conception, des icônes et des illustrations gratuites et premium. Très accessible. Fonctionnalités gratuites : Accès gratuit aux ressources de base avec attribution. Aucun plan pour l'éducation. [https://www.freepik.com](https://www.freepik.com) / [https://www.flaticon.com](https://www.flaticon.com)
 
 ---
 
