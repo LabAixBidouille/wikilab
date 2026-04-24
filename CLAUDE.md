@@ -26,7 +26,7 @@
 | SteamCity | 25 + 9 fiches prog | OK | Non | OK | `#DD5350` |
 | The Dexter Lab | 20 + 13 fiches prog | OK | Non | OK (feuilles travail) | `#1a4a48` |
 | Youth AI Lab | 5 | OK | Non | OK | `#b34520` |
-| I-Novmicro #2 | Non intégré | - | - | - | - |
+| I-Novmicro #2 | Page projet uniquement (pas de fiches) | - | - | - | - |
 | Projets du LAB | 20 | OK | Partiels | - | - |
 
 ## Conventions de formatage des fiches
