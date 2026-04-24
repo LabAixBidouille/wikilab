@@ -5,14 +5,12 @@ import Fuse from 'fuse.js';
 import {
   resources,
   disciplineLabels,
-  formatLabels,
   toolLabels,
   softwareLabels,
   projectLabels,
   categoryLabels,
   difficultyLabels,
   type Discipline,
-  type Format,
   type Tool,
   type Software,
   type Project,
@@ -22,6 +20,26 @@ import {
 
 type Difficulty = keyof typeof difficultyLabels;
 
+// Vrai matériel (hors débranchée / démarche scientifique qui sont "Autre")
+const REAL_TOOLS: Tool[] = [
+  'stm32',
+  'steami',
+  'microbit',
+  'robotique',
+  'capteurs',
+  'arduino',
+  'raspberry-pi',
+  'decoupe-laser',
+  'impression-3d',
+  'decoupe-vinyle',
+  'camera-thermique',
+  'openstreetmap',
+  'ia-generative',
+  'design-graphique',
+];
+
+const NON_REAL_TOOLS: Tool[] = ['debranchee', 'demarche-scientifique'];
+
 interface Filters {
   query: string;
   categories: Set<Category>;
@@ -29,7 +47,7 @@ interface Filters {
   disciplines: Set<Discipline>;
   tools: Set<Tool>;
   software: Set<Software>;
-  formats: Set<Format>;
+  autreOnly: boolean;
   difficulties: Set<Difficulty>;
   ageMin: number;
   ageMax: number;
@@ -43,12 +61,20 @@ const INITIAL_FILTERS: Filters = {
   disciplines: new Set(),
   tools: new Set(),
   software: new Set(),
-  formats: new Set(),
+  autreOnly: false,
   difficulties: new Set(),
   ageMin: 4,
   ageMax: 18,
   maxDuration: 240,
 };
+
+// Labels catégories sans emoji (pour le filtre)
+const categoryFilterLabels = Object.fromEntries(
+  Object.entries(categoryLabels).map(([k, v]) => [
+    k,
+    v.replace(/^\S+\s+/, ''),
+  ]),
+) as Record<Category, string>;
 
 // Ordre pédagogique d'affichage des catégories
 const CATEGORY_ORDER: Category[] = [
@@ -218,8 +244,8 @@ export default function Catalogue(): React.ReactElement {
       )
         return false;
       if (
-        filters.formats.size > 0 &&
-        !r.formats.some((f) => filters.formats.has(f))
+        filters.autreOnly &&
+        r.tools.some((t) => REAL_TOOLS.includes(t))
       )
         return false;
       if (
@@ -293,8 +319,8 @@ export default function Catalogue(): React.ReactElement {
               />
 
               <FilterGroup
-                legend="Approche pédagogique"
-                labels={categoryLabels}
+                legend="Catégorie d'activité"
+                labels={categoryFilterLabels}
                 order={CATEGORY_ORDER}
                 selected={filters.categories}
                 onToggle={(v) =>
@@ -329,11 +355,26 @@ export default function Catalogue(): React.ReactElement {
               <FilterGroup
                 legend="Matériel"
                 labels={toolLabels}
+                order={REAL_TOOLS}
                 selected={filters.tools}
                 onToggle={(v) =>
                   setFilters({...filters, tools: toggle(filters.tools, v)})
                 }
               />
+
+              <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
+                <legend><strong>Autre</strong></legend>
+                <label style={{display: 'block'}}>
+                  <input
+                    type="checkbox"
+                    checked={filters.autreOnly}
+                    onChange={() =>
+                      setFilters({...filters, autreOnly: !filters.autreOnly})
+                    }
+                  />{' '}
+                  Sans matériel (débranchée / démarche scientifique)
+                </label>
+              </fieldset>
 
               <FilterGroup
                 legend="Outils informatiques"
@@ -341,18 +382,6 @@ export default function Catalogue(): React.ReactElement {
                 selected={filters.software}
                 onToggle={(v) =>
                   setFilters({...filters, software: toggle(filters.software, v)})
-                }
-              />
-
-              <FilterGroup
-                legend="Format"
-                labels={formatLabels}
-                selected={filters.formats}
-                onToggle={(v) =>
-                  setFilters({
-                    ...filters,
-                    formats: toggle(filters.formats, v),
-                  })
                 }
               />
 
