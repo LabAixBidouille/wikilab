@@ -26,7 +26,7 @@
 | SteamCity | 25 + 9 fiches prog | OK | Non | OK | `#DD5350` |
 | The Dexter Lab | 20 + 13 fiches prog | OK | Non | OK (feuilles travail) | `#1a4a48` |
 | Youth AI Lab | 5 | OK | Non | OK | `#b34520` |
-| I-Novmicro #2 | Page projet uniquement (pas de fiches) | - | - | - | - |
+| I-Novmicro #2 | 1 (Découverte STeaMi) | OK | - | - | `#8a6e18` |
 | Projets du LAB | 20 | OK | Partiels | - | - |
 
 ## Conventions de formatage des fiches
@@ -122,6 +122,6 @@ npx docusaurus start --port 3333
 
 - [ ] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
 - [ ] Adapter la couleur du tableau par projet (actuellement hardcodé #09246C)
-- [ ] Intégrer I-Novmicro #2
+- [x] Tous les projets intégrés !
 - [ ] Git LFS pour les 3 PDFs Unplugged >50MB
 - [ ] Photos pour les fiches JediTrack et Robots Meet Arts

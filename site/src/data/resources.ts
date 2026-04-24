@@ -2857,6 +2857,23 @@ export const resources: Resource[] = [
     keywords: ['illusion de la pensée', 'apprentissage par renforcement', 'ODD', 'conscience', 'éthique IA', 'robot', 'philosophie'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_Illusions.pdf',
   },
+  {
+    id: 'decouverte-steami',
+    title: 'Découverte de la carte STeaMi',
+    slug: '/ressources/inovmicro-exao/decouverte-steami',
+    project: 'inovmicro-exao',
+    summary:
+      "Prise en main de la carte éducative STeaMi : découverte du hardware (7 capteurs, écran OLED, radio), premiers programmes en MicroPython ou MakeCode, et idées de projets.",
+    disciplines: ['informatique', 'technologie', 'sciences'],
+    tools: ['steami'],
+    software: ['makecode', 'python'],
+    ageMin: 11,
+    ageMax: 18,
+    durationMinutes: 90,
+    difficulty: 'debutant',
+    formats: ['programmation', 'experimentation'],
+    keywords: ['STeaMi', 'STM32', 'MicroPython', 'MakeCode', 'IoT', 'capteurs', 'BLE'],
+  },
 ];
 
 export const projectLabels: Record<Project, string> = {

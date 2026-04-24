@@ -102,12 +102,19 @@ Pour utiliser un détecteur de sel nous devons d'abord régler notre instrument.
 - Dilution selon les proportions suivantes.
 - Ajustement de la programmation du conductimètre pour faire des séries de mesure.
 
-| Mélange | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| Eau de mer | 0 ml | 10 ml | 20 ml | 30 ml | 40 ml | 50 ml | 60 ml | 70 ml | 80 ml | 90 ml | 100 ml |
-| Eau pure | 100 ml | 90 ml | 80 ml | 70 ml | 60 ml | 50 ml | 40 ml | 30 ml | 20 ml | 10 ml | 0 ml |
-| Mesures théoriques en µS/cm | 0 | 407 | 814 | 1221 | 1628 | 2035 | 2442 | 2848 | 3258 | 3663 | 4073 |
-| Mesures réelles en µS/cm |  |  |  |  |  |  |  |  |  |  |  |
+| Mélange | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|
+| Eau de mer | 0 ml | 10 ml | 20 ml | 30 ml | 40 ml | 50 ml |
+| Eau pure | 100 ml | 90 ml | 80 ml | 70 ml | 60 ml | 50 ml |
+| Mesures théoriques en µS/cm | 0 | 407 | 814 | 1221 | 1628 | 2035 |
+| Mesures réelles en µS/cm |  |  |  |  |  |  |
+
+| Mélange | 7 | 8 | 9 | 10 | 11 |
+|---|---|---|---|---|---|
+| Eau de mer | 60 ml | 70 ml | 80 ml | 90 ml | 100 ml |
+| Eau pure | 40 ml | 30 ml | 20 ml | 10 ml | 0 ml |
+| Mesures théoriques en µS/cm | 2442 | 2848 | 3258 | 3663 | 4073 |
+| Mesures réelles en µS/cm |  |  |  |  |  |
 
 ### Débriefing
 

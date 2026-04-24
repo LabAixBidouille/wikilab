@@ -125,6 +125,7 @@ article li,
   display: table;
   width: 100%;
   table-layout: auto;
+  border-collapse: collapse;
 }
 
 .markdown table thead th {
@@ -135,17 +136,16 @@ article li,
 
 .markdown table td,
 .markdown table th {
-  padding: 0.35rem 0.75rem;
-  word-wrap: break-word;
+  padding: 0.4rem 0.75rem;
 }
 
-/* Tableau d'intro (première fiche, colonnes Projet/Durée/...) : colonnes égales */
+/* Tableau d'intro (Projet/Durée/Difficulté/Âge) : colonnes égales */
 .markdown > table:first-of-type,
 article > table:first-of-type {
   table-layout: fixed;
 }
 
-/* Première colonne des tableaux de données (>4 colonnes) : plus large et en gras */
+/* Première colonne des tableaux de données : label en gras */
 .markdown table tbody tr td:first-child {
   font-weight: 600;
 }
