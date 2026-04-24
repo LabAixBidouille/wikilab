@@ -6,9 +6,16 @@ const STORAGE_KEY = 'wikilab-photos-suivi-v1';
 
 type TaskKind = 'icone' | 'photos';
 
+// Projets pour lesquels les photos sont déjà disponibles (seule l'icône manque)
+const PHOTOS_DONE: Set<Project> = new Set(['projets-du-lab']);
+
 // On ne liste que les fiches sans thumbnail
 function getMissing() {
   return resources.filter((r) => !r.thumbnail);
+}
+
+function needsPhotos(project: Project): boolean {
+  return !PHOTOS_DONE.has(project);
 }
 
 export default function PhotosSuivi(): React.ReactElement {
@@ -59,17 +66,29 @@ export default function PhotosSuivi(): React.ReactElement {
     return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b));
   }, [missing]);
 
-  const totalTasks = missing.length * 2;
-  const doneTasks = Object.values(checked).filter(Boolean).length;
+  const totalTasks = missing.reduce(
+    (n, r) => n + (needsPhotos(r.project) ? 2 : 1),
+    0,
+  );
+  const doneTasks = missing.reduce(
+    (n, r) =>
+      n +
+      (checked[key(r.id, 'icone')] ? 1 : 0) +
+      (needsPhotos(r.project) && checked[key(r.id, 'photos')] ? 1 : 0),
+    0,
+  );
   const pct = totalTasks ? Math.round((doneTasks / totalTasks) * 100) : 0;
 
   const projectStats = (list: typeof missing) => {
-    const total = list.length * 2;
+    const total = list.reduce(
+      (n, r) => n + (needsPhotos(r.project) ? 2 : 1),
+      0,
+    );
     const done = list.reduce(
       (n, r) =>
         n +
         (checked[key(r.id, 'icone')] ? 1 : 0) +
-        (checked[key(r.id, 'photos')] ? 1 : 0),
+        (needsPhotos(r.project) && checked[key(r.id, 'photos')] ? 1 : 0),
       0,
     );
     return {total, done};
@@ -183,8 +202,10 @@ export default function PhotosSuivi(): React.ReactElement {
                 {list.map((r) => {
                   const folder = `site/static/img/ressources/${r.project}/${r.id}/`;
                   const iconeDone = checked[key(r.id, 'icone')];
+                  const photosRequired = needsPhotos(r.project);
                   const photosDone = checked[key(r.id, 'photos')];
-                  const allDone = iconeDone && photosDone;
+                  const allDone =
+                    iconeDone && (!photosRequired || photosDone);
                   return (
                     <div
                       key={r.id}
@@ -241,29 +262,41 @@ export default function PhotosSuivi(): React.ReactElement {
                             Icône
                           </span>
                         </label>
-                        <label
-                          style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.4rem',
-                            cursor: 'pointer',
-                          }}
-                        >
-                          <input
-                            type="checkbox"
-                            checked={!!photosDone}
-                            onChange={() => toggle(r.id, 'photos')}
-                          />
-                          <span
+                        {photosRequired ? (
+                          <label
                             style={{
-                              textDecoration: photosDone
-                                ? 'line-through'
-                                : 'none',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '0.4rem',
+                              cursor: 'pointer',
                             }}
                           >
-                            Photos
+                            <input
+                              type="checkbox"
+                              checked={!!photosDone}
+                              onChange={() => toggle(r.id, 'photos')}
+                            />
+                            <span
+                              style={{
+                                textDecoration: photosDone
+                                  ? 'line-through'
+                                  : 'none',
+                              }}
+                            >
+                              Photos
+                            </span>
+                          </label>
+                        ) : (
+                          <span
+                            style={{
+                              fontSize: '0.85rem',
+                              opacity: 0.65,
+                              fontStyle: 'italic',
+                            }}
+                          >
+                            Photos déjà fournies
                           </span>
-                        </label>
+                        )}
                       </div>
                     </div>
                   );
