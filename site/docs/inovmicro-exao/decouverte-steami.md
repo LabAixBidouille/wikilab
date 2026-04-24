@@ -22,7 +22,7 @@ sidebar_position: 1
 
 | Projet | Durée | Difficulté | Âge |
 |---|---|---|---|
-| I-Novmicro #2 | 1h30 | Débutant | 11-18 ans |
+| I-Novmicro #2 | 1h30 | Débutant | 11-99 ans |
 
 ## Matériel
 

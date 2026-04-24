@@ -3055,7 +3055,7 @@ export const resources: Resource[] = [
     tools: ['steami'],
     software: ['makecode', 'python'],
     ageMin: 11,
-    ageMax: 18,
+    ageMax: 99,
     durationMinutes: 90,
     difficulty: 'debutant',
     formats: ['programmation', 'experimentation'],

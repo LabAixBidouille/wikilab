@@ -64,7 +64,7 @@ const INITIAL_FILTERS: Filters = {
   autreOnly: false,
   difficulties: new Set(),
   ageMin: 4,
-  ageMax: 18,
+  ageMax: 99,
   maxDuration: 240,
 };
 
@@ -411,7 +411,7 @@ export default function Catalogue(): React.ReactElement {
                   <input
                     type="range"
                     min={4}
-                    max={18}
+                    max={99}
                     value={filters.ageMin}
                     onChange={(e) =>
                       setFilters({
@@ -429,7 +429,7 @@ export default function Catalogue(): React.ReactElement {
                   <input
                     type="range"
                     min={4}
-                    max={18}
+                    max={99}
                     value={filters.ageMax}
                     onChange={(e) =>
                       setFilters({
