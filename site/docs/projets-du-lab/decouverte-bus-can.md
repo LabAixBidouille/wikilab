@@ -1,11 +1,11 @@
 ---
 id: decouverte-bus-can
-title: "Découverte du Bus CAN"
-sidebar_label: "Bus CAN"
+title: Découverte du bus CAN
+sidebar_label: "Découverte du bus CAN"
 sidebar_position: 7
 ---
 
-# Découverte du Bus CAN
+# Découverte du bus CAN
 
 ### Présentation
 

@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-8
-title: "Famous Kamishibaï"
-sidebar_label: "Famous Kamishibaï"
+title: Kamishibaï scientifique
+sidebar_label: "Kamishibaï scientifique"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="16" rx="1" fill="#09246C" opacity="0.1" stroke="#09246C" strokeWidth="1.5"/><rect x="5" y="6" width="14" height="12" fill="#09246C" opacity="0.25"/><path d="M5 6 Q8 10 5 18" fill="#09246C" opacity="0.4" stroke="none"/><path d="M19 6 Q16 10 19 18" fill="#09246C" opacity="0.4" stroke="none"/><path d="M3 4 L6 1 L18 1 L21 4" fill="none" stroke="#09246C" strokeWidth="1.2" strokeLinejoin="round"/><line x1="9" y1="10" x2="15" y2="10" stroke="#09246C" strokeWidth="1" opacity="0.6"/><line x1="9" y1="13" x2="15" y2="13" stroke="#09246C" strokeWidth="1" opacity="0.6"/></svg> Famous Kamishibaï
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="16" rx="1" fill="#09246C" opacity="0.1" stroke="#09246C" strokeWidth="1.5"/><rect x="5" y="6" width="14" height="12" fill="#09246C" opacity="0.25"/><path d="M5 6 Q8 10 5 18" fill="#09246C" opacity="0.4" stroke="none"/><path d="M19 6 Q16 10 19 18" fill="#09246C" opacity="0.4" stroke="none"/><path d="M3 4 L6 1 L18 1 L21 4" fill="none" stroke="#09246C" strokeWidth="1.2" strokeLinejoin="round"/><line x1="9" y1="10" x2="15" y2="10" stroke="#09246C" strokeWidth="1" opacity="0.6"/><line x1="9" y1="13" x2="15" y2="13" stroke="#09246C" strokeWidth="1" opacity="0.6"/></svg> Kamishibaï scientifique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

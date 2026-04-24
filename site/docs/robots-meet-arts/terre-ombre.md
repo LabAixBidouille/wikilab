@@ -1,7 +1,7 @@
 ---
 id: terre-ombre
 title: "La terre à l'ombre"
-sidebar_label: "Terre à l'ombre"
+sidebar_label: "La terre à l'ombre"
 sidebar_position: 29
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 29
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M4 16h16v4H4z" fill="#169da7" opacity="0.25"/><rect x="6" y="8" width="4" height="8" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="14" y="10" width="4" height="6" rx="0.5" fill="#169da7" opacity="0.25"/><path d="M8 8c0-2.2 1.8-4 4-4" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><path d="M12 4c2.2 0 4 1.8 4 4" stroke="#169da7" strokeWidth="1" fill="none" strokeLinecap="round" opacity="0.25"/><circle cx="10" cy="5" r="1.5" fill="#169da7"/><circle cx="16" cy="7" r="1" fill="#169da7" opacity="0.25"/><path d="M2 20h20" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/></svg> La terre à l&#39;ombre
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><path d="M4 16h16v4H4z" fill="#169da7" opacity="0.25"/><rect x="6" y="8" width="4" height="8" rx="0.5" fill="#169da7" opacity="0.25"/><rect x="14" y="10" width="4" height="6" rx="0.5" fill="#169da7" opacity="0.25"/><path d="M8 8c0-2.2 1.8-4 4-4" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><path d="M12 4c2.2 0 4 1.8 4 4" stroke="#169da7" strokeWidth="1" fill="none" strokeLinecap="round" opacity="0.25"/><circle cx="10" cy="5" r="1.5" fill="#169da7"/><circle cx="16" cy="7" r="1" fill="#169da7" opacity="0.25"/><path d="M2 20h20" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/></svg> La terre à l'ombre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

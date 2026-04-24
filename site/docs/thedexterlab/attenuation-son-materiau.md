@@ -1,7 +1,7 @@
 ---
 id: attenuation-son-materiau
-title: "Peut-on mesurer l'atténuation du son par un matériau ?"
-sidebar_label: "Atténuation du son"
+title: Atténuation du son par matériaux
+sidebar_label: "Atténuation du son par matériaux"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="8" width="7" height="8" rx="0.5" fill="#1a4a48" opacity="0.1"/><path d="M9 8 L13 4 L13 20 L9 16 Z" fill="#1a4a48" opacity="0.25"/><rect x="14" y="6" width="3" height="12" fill="#1a4a48" opacity="0.25"/><path d="M18 10 Q19 12 18 14" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><path d="M20 8 Q22 12 20 16" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/></svg> Peut-on mesurer l'atténuation du son par un matériau ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="8" width="7" height="8" rx="0.5" fill="#1a4a48" opacity="0.1"/><path d="M9 8 L13 4 L13 20 L9 16 Z" fill="#1a4a48" opacity="0.25"/><rect x="14" y="6" width="3" height="12" fill="#1a4a48" opacity="0.25"/><path d="M18 10 Q19 12 18 14" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><path d="M20 8 Q22 12 20 16" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/></svg> Atténuation du son par matériaux
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

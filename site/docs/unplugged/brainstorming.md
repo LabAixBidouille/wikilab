@@ -1,7 +1,7 @@
 ---
 id: brainstorming
-title: "Brainstorming"
-sidebar_label: "Brainstorming"
+title: Brainstorming en classe
+sidebar_label: "Brainstorming en classe"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="10" r="8" fill="#0081A7" opacity="0.1"/><path d="M12 3a7 7 0 0 0-3 13.3V18h6v-1.7A7 7 0 0 0 12 3z" fill="#0081A7" opacity="0.25"/><path d="M10 18h4v1.5c0 .8-.7 1.5-1.5 1.5h-1c-.8 0-1.5-.7-1.5-1.5V18z" fill="#0081A7"/><path d="M9 10.5l2 2 4-4" stroke="#fff" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="1" x2="12" y2="3" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/><line x1="4" y1="5" x2="5.5" y2="6.5" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/><line x1="20" y1="5" x2="18.5" y2="6.5" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/></svg> Brainstorming
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="10" r="8" fill="#0081A7" opacity="0.1"/><path d="M12 3a7 7 0 0 0-3 13.3V18h6v-1.7A7 7 0 0 0 12 3z" fill="#0081A7" opacity="0.25"/><path d="M10 18h4v1.5c0 .8-.7 1.5-1.5 1.5h-1c-.8 0-1.5-.7-1.5-1.5V18z" fill="#0081A7"/><path d="M9 10.5l2 2 4-4" stroke="#fff" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/><line x1="12" y1="1" x2="12" y2="3" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/><line x1="4" y1="5" x2="5.5" y2="6.5" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/><line x1="20" y1="5" x2="18.5" y2="6.5" stroke="#0081A7" strokeWidth="1.2" strokeLinecap="round"/></svg> Brainstorming en classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Expression orale</span>

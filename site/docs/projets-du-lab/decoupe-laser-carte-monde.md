@@ -1,11 +1,11 @@
 ---
 id: decoupe-laser-carte-monde
-title: "Découpe laser : carte du monde en liège"
-sidebar_label: "Carte du monde"
+title: Carte du monde en liège
+sidebar_label: "Carte du monde en liège"
 sidebar_position: 15
 ---
 
-# Découpe laser : carte du monde en liège
+# Carte du monde en liège
 
 ### Présentation
 

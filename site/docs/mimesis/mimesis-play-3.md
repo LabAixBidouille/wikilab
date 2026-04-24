@@ -1,6 +1,6 @@
 ---
 id: mimesis-play-3
-title: "La vie secrète du plancton"
+title: La vie secrète du plancton
 sidebar_label: "La vie secrète du plancton"
 sidebar_position: 3
 ---

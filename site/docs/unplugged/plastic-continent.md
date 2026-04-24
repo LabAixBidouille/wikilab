@@ -1,7 +1,7 @@
 ---
 id: plastic-continent
-title: "Plastic continent"
-sidebar_label: "Plastic continent"
+title: Continent de plastique
+sidebar_label: "Continent de plastique"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M2 14 C4 12, 8 11, 12 12 C16 13, 20 12, 22 14 L22 18 C20 20, 16 21, 12 20 C8 19, 4 20, 2 18 Z" fill="#0081A7" opacity="0.1"/><path d="M2 14 C4 12, 8 11, 12 12 C16 13, 20 12, 22 14" stroke="#0081A7" strokeWidth="1.5" fill="none"/><rect x="9" y="6" width="2" height="7" rx="0.5" fill="#0081A7" opacity="0.25" transform="rotate(-10 10 9)"/><rect x="14" y="8" width="1.5" height="5" rx="0.5" fill="#0081A7" opacity="0.25" transform="rotate(15 14.75 10.5)"/><circle cx="7" cy="15" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="17" cy="15.5" r="1" fill="#0081A7" opacity="0.25"/><path d="M12 4 C11 4, 10 5, 10 6 L10 7 C10 7.5, 10.5 8, 11 8 L13 8 C13.5 8, 14 7.5, 14 7 L14 6 C14 5, 13 4, 12 4 Z" fill="#0081A7"/></svg> Plastic continent
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M2 14 C4 12, 8 11, 12 12 C16 13, 20 12, 22 14 L22 18 C20 20, 16 21, 12 20 C8 19, 4 20, 2 18 Z" fill="#0081A7" opacity="0.1"/><path d="M2 14 C4 12, 8 11, 12 12 C16 13, 20 12, 22 14" stroke="#0081A7" strokeWidth="1.5" fill="none"/><rect x="9" y="6" width="2" height="7" rx="0.5" fill="#0081A7" opacity="0.25" transform="rotate(-10 10 9)"/><rect x="14" y="8" width="1.5" height="5" rx="0.5" fill="#0081A7" opacity="0.25" transform="rotate(15 14.75 10.5)"/><circle cx="7" cy="15" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="17" cy="15.5" r="1" fill="#0081A7" opacity="0.25"/><path d="M12 4 C11 4, 10 5, 10 6 L10 7 C10 7.5, 10.5 8, 11 8 L13 8 C13.5 8, 14 7.5, 14 7 L14 6 C14 5, 13 4, 12 4 Z" fill="#0081A7"/></svg> Continent de plastique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Logique</span>

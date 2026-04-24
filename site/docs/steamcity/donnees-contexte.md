@@ -1,7 +1,7 @@
 ---
 id: donnees-contexte
-title: "Données vs. Contexte"
-sidebar_label: "Données vs. Contexte"
+title: Données vs contexte
+sidebar_label: "Données vs contexte"
 sidebar_position: 24
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 24
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="8" height="18" rx="1" fill="#DD5350" opacity="0.1"/><rect x="13" y="3" width="8" height="18" rx="1" fill="#DD5350" opacity="0.1"/><rect x="4" y="5" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="14" y="5" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="4" y="10" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="14" y="10" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><line x1="11" y1="7" x2="13" y2="7" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><path d="M10 11 L14 11" stroke="#DD5350" strokeWidth="1.5" strokeDasharray="2 1" opacity="1.0"/></svg> Données vs. Contexte
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="8" height="18" rx="1" fill="#DD5350" opacity="0.1"/><rect x="13" y="3" width="8" height="18" rx="1" fill="#DD5350" opacity="0.1"/><rect x="4" y="5" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="14" y="5" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="4" y="10" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><rect x="14" y="10" width="6" height="3" rx="0.5" fill="#DD5350" opacity="0.25"/><line x1="11" y1="7" x2="13" y2="7" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><path d="M10 11 L14 11" stroke="#DD5350" strokeWidth="1.5" strokeDasharray="2 1" opacity="1.0"/></svg> Données vs contexte
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

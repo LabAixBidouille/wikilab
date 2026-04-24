@@ -1,11 +1,11 @@
 ---
 id: kit-pedagogique-stm32
-title: "Kit pédagogique pour STM32 IoT Node"
-sidebar_label: "Kit STM32 IoT"
+title: Kit pédagogique STM32
+sidebar_label: "Kit pédagogique STM32"
 sidebar_position: 14
 ---
 
-# Kit pédagogique pour STM32 IoT Node
+# Kit pédagogique STM32
 
 ### Présentation
 

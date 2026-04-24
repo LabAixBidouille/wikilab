@@ -1,7 +1,7 @@
 ---
 id: air-vrai-est-ce-vrai
-title: "Ça a l'air vrai… mais est-ce vrai ?"
-sidebar_label: "Ça a l'air vrai…"
+title: "Vrai ou faux selon l'IA ?"
+sidebar_label: "Vrai ou faux selon l'IA ?"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><circle cx="11" cy="11" r="5.5" fill="none" stroke="#b34520" strokeWidth="2" opacity="0.25"/><circle cx="11" cy="11" r="3" fill="#b34520" opacity="0.25"/><line x1="15" y1="15" x2="19" y2="19" stroke="#b34520" strokeWidth="2.5" opacity="1.0"/><path d="M9 10 L11 12 L13.5 9" stroke="#b34520" strokeWidth="1.5" fill="none" opacity="1.0"/></svg> Ça a l'air vrai… mais est-ce vrai ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><circle cx="11" cy="11" r="5.5" fill="none" stroke="#b34520" strokeWidth="2" opacity="0.25"/><circle cx="11" cy="11" r="3" fill="#b34520" opacity="0.25"/><line x1="15" y1="15" x2="19" y2="19" stroke="#b34520" strokeWidth="2.5" opacity="1.0"/><path d="M9 10 L11 12 L13.5 9" stroke="#b34520" strokeWidth="1.5" fill="none" opacity="1.0"/></svg> Vrai ou faux selon l'IA ?
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

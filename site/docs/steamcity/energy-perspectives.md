@@ -1,6 +1,6 @@
 ---
 id: energy-perspectives
-title: "Énergies en perspective"
+title: Énergies en perspective
 sidebar_label: "Énergies en perspective"
 sidebar_position: 11
 ---

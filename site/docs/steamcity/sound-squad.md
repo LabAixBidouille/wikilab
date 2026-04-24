@@ -1,7 +1,7 @@
 ---
 id: sound-squad
-title: "SoundSquad : carte émotionnelle du bruit urbain"
-sidebar_label: "SoundSquad"
+title: Carte sonore du quartier
+sidebar_label: "Carte sonore du quartier"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="none" stroke="#DD5350" strokeWidth="1.5" opacity="0.25"/><circle cx="12" cy="12" r="4" fill="none" stroke="#DD5350" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="#DD5350"/><path d="M12 5V2M12 22v-3M5 12H2M22 12h-3" stroke="#DD5350" strokeWidth="1" opacity="0.25"/></svg> SoundSquad : carte émotionnelle du bruit urbain
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="none" stroke="#DD5350" strokeWidth="1.5" opacity="0.25"/><circle cx="12" cy="12" r="4" fill="none" stroke="#DD5350" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="#DD5350"/><path d="M12 5V2M12 22v-3M5 12H2M22 12h-3" stroke="#DD5350" strokeWidth="1" opacity="0.25"/></svg> Carte sonore du quartier
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

@@ -1,7 +1,7 @@
 ---
 id: plante-co2
-title: "Une plante consomme-t-elle plus de CO2 qu'elle n'en rejette ?"
-sidebar_label: "Une plante et le CO2"
+title: CO2 et photosynthèse
+sidebar_label: "CO2 et photosynthèse"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M6 20 Q6 15 10 14 Q10 10 14 10 Q18 10 18 14 Q20 15 20 20 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 20 L12 10" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><ellipse cx="9" cy="12" rx="3" ry="1.8" fill="#1a4a48" opacity="0.25" transform="rotate(-30 9 12)"/><ellipse cx="15" cy="11" rx="3" ry="1.8" fill="#1a4a48" opacity="0.25" transform="rotate(30 15 11)"/><ellipse cx="12" cy="8" rx="2.5" ry="1.5" fill="#1a4a48" opacity="0.25"/><text x="5" y="6" fontSize="3.5" fontWeight="bold" fill="#1a4a48" opacity="1.0">CO₂</text></svg> Une plante consomme-t-elle plus de CO2 qu'elle n'en rejette ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M6 20 Q6 15 10 14 Q10 10 14 10 Q18 10 18 14 Q20 15 20 20 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 20 L12 10" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><ellipse cx="9" cy="12" rx="3" ry="1.8" fill="#1a4a48" opacity="0.25" transform="rotate(-30 9 12)"/><ellipse cx="15" cy="11" rx="3" ry="1.8" fill="#1a4a48" opacity="0.25" transform="rotate(30 15 11)"/><ellipse cx="12" cy="8" rx="2.5" ry="1.5" fill="#1a4a48" opacity="0.25"/><text x="5" y="6" fontSize="3.5" fontWeight="bold" fill="#1a4a48" opacity="1.0">CO₂</text></svg> CO2 et photosynthèse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

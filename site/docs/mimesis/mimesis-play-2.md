@@ -1,6 +1,6 @@
 ---
 id: mimesis-play-2
-title: "Conteurs de sciences"
+title: Conteurs de sciences
 sidebar_label: "Conteurs de sciences"
 sidebar_position: 2
 ---

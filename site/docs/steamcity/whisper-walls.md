@@ -1,7 +1,7 @@
 ---
 id: whisper-walls
-title: "Whisper Walls : explorer le son du silence"
-sidebar_label: "Whisper Walls"
+title: Matériaux isolants acoustiques
+sidebar_label: "Matériaux isolants acoustiques"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><rect x="4" y="8" width="4" height="8" rx="1" fill="#DD5350" opacity="0.25"/><rect x="10" y="5" width="4" height="14" rx="1" fill="#DD5350"/><rect x="16" y="10" width="4" height="4" rx="1" fill="#DD5350" opacity="0.25"/><path d="M3 18h18" stroke="#DD5350" strokeWidth="0.5" opacity="0.3"/></svg> Whisper Walls : explorer le son du silence
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><rect x="4" y="8" width="4" height="8" rx="1" fill="#DD5350" opacity="0.25"/><rect x="10" y="5" width="4" height="14" rx="1" fill="#DD5350"/><rect x="16" y="10" width="4" height="4" rx="1" fill="#DD5350" opacity="0.25"/><path d="M3 18h18" stroke="#DD5350" strokeWidth="0.5" opacity="0.3"/></svg> Matériaux isolants acoustiques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

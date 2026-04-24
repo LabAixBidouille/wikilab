@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-6
-title: "Catastrophe & Compagnie"
-sidebar_label: "Catastrophe & Compagnie"
+title: Catastrophes naturelles en scène
+sidebar_label: "Catastrophes naturelles en scène"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#09246C" opacity="0.1"/><circle cx="12" cy="12" r="10" fill="none" stroke="#09246C" strokeWidth="1.5"/><ellipse cx="12" cy="12" rx="4" ry="10" fill="#09246C" opacity="0.25"/><line x1="2" y1="12" x2="22" y2="12" stroke="#09246C" strokeWidth="1"/><path d="M14 5 L16 2 L15 5 L17 4" fill="none" stroke="#09246C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M8 17 L7 20 Q12 22 17 20 L16 17" fill="none" stroke="#09246C" strokeWidth="1" opacity="0.5"/></svg> Catastrophe & Compagnie
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#09246C" opacity="0.1"/><circle cx="12" cy="12" r="10" fill="none" stroke="#09246C" strokeWidth="1.5"/><ellipse cx="12" cy="12" rx="4" ry="10" fill="#09246C" opacity="0.25"/><line x1="2" y1="12" x2="22" y2="12" stroke="#09246C" strokeWidth="1"/><path d="M14 5 L16 2 L15 5 L17 4" fill="none" stroke="#09246C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/><path d="M8 17 L7 20 Q12 22 17 20 L16 17" fill="none" stroke="#09246C" strokeWidth="1" opacity="0.5"/></svg> Catastrophes naturelles en scène
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

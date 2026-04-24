@@ -1,6 +1,6 @@
 ---
 id: ed-range-chambre
-title: "Ed range sa chambre"
+title: Ed range sa chambre
 sidebar_label: "Ed range sa chambre"
 sidebar_position: 5
 ---

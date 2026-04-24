@@ -1,7 +1,7 @@
 ---
 id: beau-jardin-21-siecle
-title: "Est-il encore permis d'avoir un beau jardin au 21ième siècle ?"
-sidebar_label: "Beau jardin au 21e siècle"
+title: "Arrosage automatique d'une plante"
+sidebar_label: "Arrosage automatique d'une plante"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M3 20 L21 20 L21 22 L3 22 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 4 Q7 8 7 14 Q7 18 12 20 Q17 18 17 14 Q17 8 12 4 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 20 L12 10" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><path d="M12 12 Q9 10 8 7" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="1.0"/><path d="M12 14 Q15 12 16 9" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="1.0"/><circle cx="8" cy="7" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="16" cy="9" r="1.2" fill="#1a4a48" opacity="1.0"/></svg> Est-il encore permis d'avoir un beau jardin au 21ième siècle ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M3 20 L21 20 L21 22 L3 22 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 4 Q7 8 7 14 Q7 18 12 20 Q17 18 17 14 Q17 8 12 4 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 20 L12 10" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><path d="M12 12 Q9 10 8 7" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="1.0"/><path d="M12 14 Q15 12 16 9" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="1.0"/><circle cx="8" cy="7" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="16" cy="9" r="1.2" fill="#1a4a48" opacity="1.0"/></svg> Arrosage automatique d'une plante
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

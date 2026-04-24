@@ -1,7 +1,7 @@
 ---
 id: r1as12-detecteur-mouvement
-title: Détecteur de mouvement
-sidebar_label: "Alarme de détection de mouvement"
+title: Alarme de mouvement
+sidebar_label: "Alarme de mouvement"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#140e4e" fillOpacity="0.1"/><path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="12" r="2.5" fill="#140e4e"/><path d="M1 12h3M20 12h3M12 1v3M12 20v3" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Détecteur de mouvement : alarme de détection
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="#140e4e" fillOpacity="0.1"/><path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="12" r="2.5" fill="#140e4e"/><path d="M1 12h3M20 12h3M12 1v3M12 20v3" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Alarme de mouvement
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

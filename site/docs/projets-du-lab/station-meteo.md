@@ -1,11 +1,11 @@
 ---
 id: station-meteo
-title: "Station Météo"
-sidebar_label: "Station Météo"
+title: Station météo DIY
+sidebar_label: "Station météo DIY"
 sidebar_position: 5
 ---
 
-# Station Météo
+# Station météo DIY
 
 ### Description du projet
 

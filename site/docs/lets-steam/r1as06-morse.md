@@ -1,7 +1,7 @@
 ---
 id: r1as06-morse
-title: Code Morse
-sidebar_label: "Code Morse"
+title: Messages en code Morse
+sidebar_label: "Messages en code Morse"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="10" width="20" height="4" rx="1" fill="#140e4e" opacity="0.1"/><circle cx="5" cy="12" r="1.5" fill="#140e4e" opacity="1.0"/><circle cx="9" cy="12" r="1.5" fill="#140e4e" opacity="1.0"/><rect x="12" y="11" width="4" height="2" rx="0.5" fill="#140e4e" opacity="1.0"/><rect x="2" y="6" width="3" height="12" rx="1" fill="#140e4e" opacity="0.25"/><rect x="19" y="6" width="3" height="12" rx="1" fill="#140e4e" opacity="0.25"/><line x1="3.5" y1="6" x2="3.5" y2="2" stroke="#140e4e" strokeWidth="1.5" opacity="0.25"/><circle cx="3.5" cy="1.5" r="1" fill="#140e4e" opacity="0.25"/></svg> Code Morse
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="10" width="20" height="4" rx="1" fill="#140e4e" opacity="0.1"/><circle cx="5" cy="12" r="1.5" fill="#140e4e" opacity="1.0"/><circle cx="9" cy="12" r="1.5" fill="#140e4e" opacity="1.0"/><rect x="12" y="11" width="4" height="2" rx="0.5" fill="#140e4e" opacity="1.0"/><rect x="2" y="6" width="3" height="12" rx="1" fill="#140e4e" opacity="0.25"/><rect x="19" y="6" width="3" height="12" rx="1" fill="#140e4e" opacity="0.25"/><line x1="3.5" y1="6" x2="3.5" y2="2" stroke="#140e4e" strokeWidth="1.5" opacity="0.25"/><circle cx="3.5" cy="1.5" r="1" fill="#140e4e" opacity="0.25"/></svg> Messages en code Morse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

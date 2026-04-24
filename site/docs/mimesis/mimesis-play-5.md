@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-5
-title: "Point-Ligne-Forme-Marionnette"
-sidebar_label: "Point-Ligne-Forme-Marionnette"
+title: Marionnettes géométriques
+sidebar_label: "Marionnettes géométriques"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="2" fill="#09246C" opacity="0.1"/><polygon points="6,18 12,6 18,18" fill="#09246C" opacity="0.25"/><circle cx="16" cy="9" r="4" fill="#09246C" opacity="0.25"/><polygon points="6,18 12,6 18,18" fill="none" stroke="#09246C" strokeWidth="1.5"/><circle cx="16" cy="9" r="4" fill="none" stroke="#09246C" strokeWidth="1.5"/></svg> Point-Ligne-Forme-Marionnette
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="2" fill="#09246C" opacity="0.1"/><polygon points="6,18 12,6 18,18" fill="#09246C" opacity="0.25"/><circle cx="16" cy="9" r="4" fill="#09246C" opacity="0.25"/><polygon points="6,18 12,6 18,18" fill="none" stroke="#09246C" strokeWidth="1.5"/><circle cx="16" cy="9" r="4" fill="none" stroke="#09246C" strokeWidth="1.5"/></svg> Marionnettes géométriques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

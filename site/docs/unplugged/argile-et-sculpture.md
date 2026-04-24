@@ -1,7 +1,7 @@
 ---
 id: argile-et-sculpture
-title: "Argile et sculpture"
-sidebar_label: "Argile et sculpture"
+title: Sculpter ses émotions en argile
+sidebar_label: "Sculpter ses émotions en argile"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="8" height="12" rx="1" fill="#0081A7" opacity="0.1"/><path d="M7 4C5.5 4 4 5.5 4 8v8c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V8c0-2.5-1.5-4-3-4H7z" fill="#0081A7" opacity="0.25"/><path d="M14 10c0-1 .8-2 2-2s2 1 2 2v2h-4v-2zM10 8c1 0 2-.5 2-1.5S11 5 10 5" stroke="#0081A7" strokeWidth="1.5" fill="none"/><path d="M16 12v4c0 1.1-.9 2-2 2h-2" stroke="#0081A7" strokeWidth="1.5" fill="none"/><circle cx="7" cy="10" r="1.5" fill="#0081A7"/></svg> Argile et sculpture
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="8" height="12" rx="1" fill="#0081A7" opacity="0.1"/><path d="M7 4C5.5 4 4 5.5 4 8v8c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V8c0-2.5-1.5-4-3-4H7z" fill="#0081A7" opacity="0.25"/><path d="M14 10c0-1 .8-2 2-2s2 1 2 2v2h-4v-2zM10 8c1 0 2-.5 2-1.5S11 5 10 5" stroke="#0081A7" strokeWidth="1.5" fill="none"/><path d="M16 12v4c0 1.1-.9 2-2 2h-2" stroke="#0081A7" strokeWidth="1.5" fill="none"/><circle cx="7" cy="10" r="1.5" fill="#0081A7"/></svg> Sculpter ses émotions en argile
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

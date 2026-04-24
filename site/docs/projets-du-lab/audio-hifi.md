@@ -1,11 +1,11 @@
 ---
 id: audio-hifi
-title: "Audio HiFi Full numérique"
-sidebar_label: "Audio HiFi"
+title: Chaîne HiFi 100% numérique
+sidebar_label: "Chaîne HiFi 100% numérique"
 sidebar_position: 1
 ---
 
-# Audio HiFi Full numérique
+# Chaîne HiFi 100% numérique
 
 ### Présentation
 

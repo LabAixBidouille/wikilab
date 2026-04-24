@@ -1,7 +1,7 @@
 ---
 id: monitorer-bruit-urbain
-title: "Monitorer le bruit urbain"
-sidebar_label: "Bruit urbain"
+title: Mesurer le bruit urbain
+sidebar_label: "Mesurer le bruit urbain"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="8" cy="12" r="3" fill="#1198f0" opacity="0.25"/><path d="M11 12 Q14 6 17 12 Q14 18 11 12Z" fill="#1198f0" opacity="0.25"/><path d="M14 12 Q18 4 22 12 Q18 20 14 12Z" fill="none" stroke="#1198f0" strokeWidth="1.2"/><line x1="3" y1="12" x2="5" y2="12" stroke="#1198f0" strokeWidth="1.5"/><line x1="3" y1="9" x2="5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="3" y1="15" x2="5" y2="15" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Monitorer le bruit urbain
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="8" cy="12" r="3" fill="#1198f0" opacity="0.25"/><path d="M11 12 Q14 6 17 12 Q14 18 11 12Z" fill="#1198f0" opacity="0.25"/><path d="M14 12 Q18 4 22 12 Q18 20 14 12Z" fill="none" stroke="#1198f0" strokeWidth="1.2"/><line x1="3" y1="12" x2="5" y2="12" stroke="#1198f0" strokeWidth="1.5"/><line x1="3" y1="9" x2="5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="3" y1="15" x2="5" y2="15" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Mesurer le bruit urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

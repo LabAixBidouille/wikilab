@@ -1,6 +1,6 @@
 ---
 id: smart-object-safari
-title: "Safari des objets connectés : conception d'objets intelligents"
+title: Safari des objets connectés
 sidebar_label: "Safari des objets connectés"
 sidebar_position: 18
 ---
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="18" height="10" rx="2" fill="#DD5350" opacity="0.1"/><rect x="5" y="10" width="14" height="6" rx="1" fill="#DD5350" opacity="0.25"/><circle cx="9" cy="13" r="2" fill="#DD5350" opacity="1.0"/><circle cx="15" cy="13" r="2" fill="#DD5350" opacity="1.0"/><line x1="9" y1="6" x2="9" y2="8" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><line x1="15" y1="5" x2="15" y2="8" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/></svg> Safari des objets connectés : conception d'objets intelligents
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="18" height="10" rx="2" fill="#DD5350" opacity="0.1"/><rect x="5" y="10" width="14" height="6" rx="1" fill="#DD5350" opacity="0.25"/><circle cx="9" cy="13" r="2" fill="#DD5350" opacity="1.0"/><circle cx="15" cy="13" r="2" fill="#DD5350" opacity="1.0"/><line x1="9" y1="6" x2="9" y2="8" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><line x1="15" y1="5" x2="15" y2="8" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/></svg> Safari des objets connectés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

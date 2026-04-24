@@ -1,7 +1,7 @@
 ---
 id: fantasy-out-there
-title: "Fantasy out there!"
-sidebar_label: "Fantasy out there!"
+title: Créatures fantastiques
+sidebar_label: "Créatures fantastiques"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><polygon points="12,3 14.5,9 21,9.5 16,14 17.5,21 12,17.5 6.5,21 8,14 3,9.5 9.5,9" fill="#0081A7" opacity="0.25"/><polygon points="12,5 13.8,9.5 18.5,9.8 15,13 16.2,18 12,15.5 7.8,18 9,13 5.5,9.8 10.2,9.5" fill="#0081A7"/></svg> Fantasy out there!
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><polygon points="12,3 14.5,9 21,9.5 16,14 17.5,21 12,17.5 6.5,21 8,14 3,9.5 9.5,9" fill="#0081A7" opacity="0.25"/><polygon points="12,5 13.8,9.5 18.5,9.8 15,13 16.2,18 12,15.5 7.8,18 9,13 5.5,9.8 10.2,9.5" fill="#0081A7"/></svg> Créatures fantastiques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

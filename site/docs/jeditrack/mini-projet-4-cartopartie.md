@@ -1,6 +1,6 @@
 ---
 id: mini-projet-4-cartopartie
-title: "Cartopartie intergénérationnelle"
+title: Cartopartie intergénérationnelle
 sidebar_label: "Cartopartie intergénérationnelle"
 sidebar_position: 4
 ---

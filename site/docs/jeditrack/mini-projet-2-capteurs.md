@@ -1,7 +1,7 @@
 ---
 id: mini-projet-2-capteurs
-title: "Robot autonome avec capteurs"
-sidebar_label: "Robot autonome avec capteurs"
+title: Robot autonome à capteurs
+sidebar_label: "Robot autonome à capteurs"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="5" y="8" rx="2" ry="2" width="14" height="10" fill="#1198f0" opacity="0.1"/><rect x="7" y="10" rx="1" ry="1" width="10" height="6" fill="#1198f0" opacity="0.25"/><circle cx="9.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><circle cx="14.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><rect x="3" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><rect x="17" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><path d="M9 6 L9 8 M15 6 L15 8" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M7 4 L9 6 M17 4 L15 6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/><circle cx="7" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/><circle cx="17" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/></svg> Robot autonome avec capteurs
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="5" y="8" rx="2" ry="2" width="14" height="10" fill="#1198f0" opacity="0.1"/><rect x="7" y="10" rx="1" ry="1" width="10" height="6" fill="#1198f0" opacity="0.25"/><circle cx="9.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><circle cx="14.5" cy="13" r="1.2" fill="#1198f0" opacity="1.0"/><rect x="3" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><rect x="17" y="18" width="4" height="3" rx="1" fill="#1198f0" opacity="1.0"/><path d="M9 6 L9 8 M15 6 L15 8" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M7 4 L9 6 M17 4 L15 6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round" opacity="0.25"/><circle cx="7" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/><circle cx="17" cy="3.5" r="1" fill="#1198f0" opacity="1.0"/></svg> Robot autonome à capteurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

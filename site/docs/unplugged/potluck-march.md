@@ -1,6 +1,6 @@
 ---
 id: potluck-march
-title: "PotLuck March"
+title: PotLuck March
 sidebar_label: "PotLuck March"
 sidebar_position: 20
 ---

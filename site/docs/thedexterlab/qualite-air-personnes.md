@@ -1,7 +1,7 @@
 ---
 id: qualite-air-personnes
-title: "La qualité de l'air diminue-t-elle lorsque le nombre de personnes présentes dans une pièce augmente ?"
-sidebar_label: "Qualité de l'air et personnes"
+title: "Qualité de l'air et nombre d'élèves"
+sidebar_label: "Qualité de l'air et nombre d'élèves"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="14" rx="1" fill="#1a4a48" opacity="0.1"/><rect x="3" y="4" width="18" height="14" rx="1" stroke="#1a4a48" strokeWidth="1" fill="none" opacity="1.0"/><circle cx="8" cy="11" r="1.8" fill="#1a4a48" opacity="0.25"/><path d="M6 17 Q6 13 8 13 Q10 13 10 17 Z" fill="#1a4a48" opacity="0.25"/><circle cx="13" cy="11" r="1.8" fill="#1a4a48" opacity="0.25"/><path d="M11 17 Q11 13 13 13 Q15 13 15 17 Z" fill="#1a4a48" opacity="0.25"/><circle cx="17" cy="11" r="1.5" fill="#1a4a48" opacity="1.0"/><path d="M15.5 17 Q15.5 13.5 17 13.5 Q18.5 13.5 18.5 17 Z" fill="#1a4a48" opacity="1.0"/><text x="2" y="23" fontSize="3" fontWeight="bold" fill="#1a4a48" opacity="1.0">CO₂</text></svg> La qualité de l'air diminue-t-elle lorsque le nombre de personnes augmente ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="14" rx="1" fill="#1a4a48" opacity="0.1"/><rect x="3" y="4" width="18" height="14" rx="1" stroke="#1a4a48" strokeWidth="1" fill="none" opacity="1.0"/><circle cx="8" cy="11" r="1.8" fill="#1a4a48" opacity="0.25"/><path d="M6 17 Q6 13 8 13 Q10 13 10 17 Z" fill="#1a4a48" opacity="0.25"/><circle cx="13" cy="11" r="1.8" fill="#1a4a48" opacity="0.25"/><path d="M11 17 Q11 13 13 13 Q15 13 15 17 Z" fill="#1a4a48" opacity="0.25"/><circle cx="17" cy="11" r="1.5" fill="#1a4a48" opacity="1.0"/><path d="M15.5 17 Q15.5 13.5 17 13.5 Q18.5 13.5 18.5 17 Z" fill="#1a4a48" opacity="1.0"/><text x="2" y="23" fontSize="3" fontWeight="bold" fill="#1a4a48" opacity="1.0">CO₂</text></svg> Qualité de l'air et nombre d'élèves
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

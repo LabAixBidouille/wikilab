@@ -1,7 +1,7 @@
 ---
 id: journee-robin
-title: "La journée de Robin"
-sidebar_label: "Journée de Robin"
+title: La journée de Robin
+sidebar_label: "La journée de Robin"
 sidebar_position: 26
 ---
 

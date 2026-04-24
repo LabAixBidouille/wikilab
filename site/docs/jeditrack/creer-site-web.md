@@ -1,7 +1,7 @@
 ---
 id: creer-site-web
-title: "Créer un site web avec GitHub Pages"
-sidebar_label: "Site web GitHub Pages"
+title: Site web avec GitHub Pages
+sidebar_label: "Site web avec GitHub Pages"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="3" y="4" width="18" height="14" rx="2" fill="#1198f0" opacity="0.25"/><rect x="5" y="6" width="14" height="10" rx="1" fill="#1198f0" opacity="0.1"/><text x="8" y="13" fontFamily="monospace" fontSize="6" fill="#1198f0">&lt;/&gt;</text><line x1="8" y1="20" x2="16" y2="20" stroke="#1198f0" strokeWidth="1.5"/><line x1="12" y1="18" x2="12" y2="20" stroke="#1198f0" strokeWidth="1.5"/></svg> Créer un site web avec GitHub Pages
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="3" y="4" width="18" height="14" rx="2" fill="#1198f0" opacity="0.25"/><rect x="5" y="6" width="14" height="10" rx="1" fill="#1198f0" opacity="0.1"/><text x="8" y="13" fontFamily="monospace" fontSize="6" fill="#1198f0">&lt;/&gt;</text><line x1="8" y1="20" x2="16" y2="20" stroke="#1198f0" strokeWidth="1.5"/><line x1="12" y1="18" x2="12" y2="20" stroke="#1198f0" strokeWidth="1.5"/></svg> Site web avec GitHub Pages
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

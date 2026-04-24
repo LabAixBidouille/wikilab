@@ -1,7 +1,7 @@
 ---
 id: r1as04-capteur-lumiere
-title: Capteurs de lumière
-sidebar_label: "Capteurs de lumière : première utilisation"
+title: Capteur de lumière avec STM32
+sidebar_label: "Capteur de lumière avec STM32"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="5" fill="#140e4e" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#140e4e" opacity="1.0"/><line x1="12" y1="1" x2="12" y2="4" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="12" y1="20" x2="12" y2="23" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="1" y1="12" x2="4" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="20" y1="12" x2="23" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="4.22" y1="19.78" x2="6.34" y2="17.66" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="17.66" y1="6.34" x2="19.78" y2="4.22" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><path d="M15 18h-6v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2z" fill="#140e4e" opacity="0.1"/></svg> Capteurs de lumière : découverte et première utilisation
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="5" fill="#140e4e" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#140e4e" opacity="1.0"/><line x1="12" y1="1" x2="12" y2="4" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="12" y1="20" x2="12" y2="23" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="1" y1="12" x2="4" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="20" y1="12" x2="23" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><line x1="4.22" y1="4.22" x2="6.34" y2="6.34" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="17.66" y1="17.66" x2="19.78" y2="19.78" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="4.22" y1="19.78" x2="6.34" y2="17.66" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><line x1="17.66" y1="6.34" x2="19.78" y2="4.22" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="0.1"/><path d="M15 18h-6v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2z" fill="#140e4e" opacity="0.1"/></svg> Capteur de lumière avec STM32
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

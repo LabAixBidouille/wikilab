@@ -1,6 +1,6 @@
 ---
 id: passe-le-paquet
-title: "Passe le paquet"
+title: Passe le paquet
 sidebar_label: "Passe le paquet"
 sidebar_position: 8
 ---

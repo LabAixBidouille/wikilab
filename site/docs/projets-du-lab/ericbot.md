@@ -1,11 +1,11 @@
 ---
 id: ericbot
-title: "ERICbot"
-sidebar_label: "ERICbot"
+title: Robot ERICbot
+sidebar_label: "Robot ERICbot"
 sidebar_position: 8
 ---
 
-# ERICbot
+# Robot ERICbot
 
 ### Matériel
 

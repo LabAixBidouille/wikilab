@@ -1,11 +1,11 @@
 ---
 id: ampli-audio-tas3251
-title: "Ampli audio 2x170W TAS3251"
-sidebar_label: "Ampli TAS3251"
+title: Ampli HiFi numérique
+sidebar_label: "Ampli HiFi numérique"
 sidebar_position: 2
 ---
 
-# Ampli audio 2x170W TAS3251
+# Ampli HiFi numérique
 
 ### Présentation
 

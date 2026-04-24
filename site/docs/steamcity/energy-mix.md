@@ -1,6 +1,6 @@
 ---
 id: energy-mix
-title: "Simulateur de mix énergétique"
+title: Simulateur de mix énergétique
 sidebar_label: "Simulateur de mix énergétique"
 sidebar_position: 10
 ---

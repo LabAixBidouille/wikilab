@@ -1,6 +1,6 @@
 ---
 id: algorithmes-bio-inspires
-title: "Algorithmes bio-inspirés : renforcez vos apprentissages"
+title: Algorithmes bio-inspirés
 sidebar_label: "Algorithmes bio-inspirés"
 sidebar_position: 1
 ---
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><path d="M12 3 C8 3 5 6 5 10 C5 13 7 15 9 16 L9 19 L15 19 L15 16 C17 15 19 13 19 10 C19 6 16 3 12 3 Z" fill="#b34520" opacity="0.25"/><circle cx="9.5" cy="10" r="1.5" fill="#b34520" opacity="1.0"/><circle cx="14.5" cy="10" r="1.5" fill="#b34520" opacity="1.0"/><path d="M9 13 Q12 15 15 13" stroke="#b34520" strokeWidth="1.5" fill="none" opacity="1.0"/><rect x="10" y="20" width="4" height="1.5" fill="#b34520" opacity="1.0"/></svg> Algorithmes bio-inspirés : renforcez vos apprentissages
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><path d="M12 3 C8 3 5 6 5 10 C5 13 7 15 9 16 L9 19 L15 19 L15 16 C17 15 19 13 19 10 C19 6 16 3 12 3 Z" fill="#b34520" opacity="0.25"/><circle cx="9.5" cy="10" r="1.5" fill="#b34520" opacity="1.0"/><circle cx="14.5" cy="10" r="1.5" fill="#b34520" opacity="1.0"/><path d="M9 13 Q12 15 15 13" stroke="#b34520" strokeWidth="1.5" fill="none" opacity="1.0"/><rect x="10" y="20" width="4" height="1.5" fill="#b34520" opacity="1.0"/></svg> Algorithmes bio-inspirés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

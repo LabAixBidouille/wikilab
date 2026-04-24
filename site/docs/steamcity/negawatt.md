@@ -1,6 +1,6 @@
 ---
 id: negawatt
-title: "Scénario NégaWatt et sobriété énergétique"
+title: Scénario NégaWatt
 sidebar_label: "Scénario NégaWatt"
 sidebar_position: 13
 ---
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="6" width="18" height="14" rx="2" fill="#DD5350" opacity="0.1"/><path d="M7 20V10M12 20V8M17 20V12" stroke="#DD5350" strokeWidth="2.5" strokeLinecap="round" opacity="0.25"/><path d="M4 16l4-4 4 2 4-5 4 3" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" opacity="1.0"/></svg> Scénario NégaWatt et sobriété énergétique
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="6" width="18" height="14" rx="2" fill="#DD5350" opacity="0.1"/><path d="M7 20V10M12 20V8M17 20V12" stroke="#DD5350" strokeWidth="2.5" strokeLinecap="round" opacity="0.25"/><path d="M4 16l4-4 4 2 4-5 4 3" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="none" opacity="1.0"/></svg> Scénario NégaWatt
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

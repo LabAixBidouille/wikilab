@@ -1,7 +1,7 @@
 ---
 id: indoor-air-quality
-title: "Mesure de CO2 en intérieur"
-sidebar_label: "Qualité de l'air intérieur"
+title: "Qualité de l'air en classe"
+sidebar_label: "Qualité de l'air en classe"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M6 18V10l6-5 6 5v8" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinejoin="round"/><rect x="10" y="13" width="4" height="5" rx="0.5" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="9" r="1.5" fill="#DD5350"/><path d="M3 20h18" stroke="#DD5350" strokeWidth="0.5" opacity="0.3"/></svg> Mesure de CO2 en intérieur
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M6 18V10l6-5 6 5v8" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinejoin="round"/><rect x="10" y="13" width="4" height="5" rx="0.5" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="9" r="1.5" fill="#DD5350"/><path d="M3 20h18" stroke="#DD5350" strokeWidth="0.5" opacity="0.3"/></svg> Qualité de l'air en classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

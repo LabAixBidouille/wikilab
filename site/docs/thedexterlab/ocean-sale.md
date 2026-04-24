@@ -1,7 +1,7 @@
 ---
 id: ocean-sale
-title: "Pourquoi l'océan est-il salé ?"
-sidebar_label: "Pourquoi l'océan est salé"
+title: "Pourquoi l'océan est salé ?"
+sidebar_label: "Pourquoi l'océan est salé ?"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M2 14 Q6 10 10 14 Q14 18 18 14 Q22 10 22 14 L22 22 L2 22 Z" fill="#1a4a48" opacity="0.25"/><path d="M2 17 Q6 13 10 17 Q14 21 18 17 Q22 13 22 17 L22 22 L2 22 Z" fill="#1a4a48" opacity="0.1"/><circle cx="8" cy="8" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="15" cy="6" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="18" cy="10" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="6" cy="11" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="12" cy="9" r="0.8" fill="#1a4a48" opacity="1.0"/></svg> Pourquoi l'océan est-il salé ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M2 14 Q6 10 10 14 Q14 18 18 14 Q22 10 22 14 L22 22 L2 22 Z" fill="#1a4a48" opacity="0.25"/><path d="M2 17 Q6 13 10 17 Q14 21 18 17 Q22 13 22 17 L22 22 L2 22 Z" fill="#1a4a48" opacity="0.1"/><circle cx="8" cy="8" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="15" cy="6" r="1.2" fill="#1a4a48" opacity="1.0"/><circle cx="18" cy="10" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="6" cy="11" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="12" cy="9" r="0.8" fill="#1a4a48" opacity="1.0"/></svg> Pourquoi l'océan est salé ?
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

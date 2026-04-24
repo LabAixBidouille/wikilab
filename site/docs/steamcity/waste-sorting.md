@@ -1,7 +1,7 @@
 ---
 id: waste-sorting
-title: "Tri optimisé des déchets"
-sidebar_label: "Tri optimisé des déchets"
+title: Tri des déchets par IA
+sidebar_label: "Tri des déchets par IA"
 sidebar_position: 22
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 22
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M6 6 L18 6 L16 20 L8 20 Z" fill="#DD5350" opacity="0.1"/><path d="M8 8 L16 8 L15 18 L9 18 Z" fill="#DD5350" opacity="0.25"/><line x1="4" y1="6" x2="20" y2="6" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><path d="M10 3 L14 3 L14 6 L10 6 Z" fill="none" stroke="#DD5350" strokeWidth="1" opacity="1.0"/><line x1="12" y1="10" x2="12" y2="16" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/></svg> Tri optimisé des déchets
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M6 6 L18 6 L16 20 L8 20 Z" fill="#DD5350" opacity="0.1"/><path d="M8 8 L16 8 L15 18 L9 18 Z" fill="#DD5350" opacity="0.25"/><line x1="4" y1="6" x2="20" y2="6" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/><path d="M10 3 L14 3 L14 6 L10 6 Z" fill="none" stroke="#DD5350" strokeWidth="1" opacity="1.0"/><line x1="12" y1="10" x2="12" y2="16" stroke="#DD5350" strokeWidth="1.5" opacity="1.0"/></svg> Tri des déchets par IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

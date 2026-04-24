@@ -1,7 +1,7 @@
 ---
 id: son-100-metres-seconde
-title: "Le son se déplace-t-il de plus de 100 mètres en 1 seconde ?"
-sidebar_label: "Vitesse du son : 100 m/s ?"
+title: Vitesse du son
+sidebar_label: "Vitesse du son"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="6" cy="12" r="2.5" fill="#1a4a48" opacity="1.0"/><path d="M9 10c1.5 0.5 2.5 1.5 2.5 2s-1 1.5-2.5 2" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8c2.5 1 4 2.5 4 4s-1.5 3-4 4" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M15 6c4 1.5 6 3.5 6 6s-2 4.5-6 6" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.1"/></svg> Le son se déplace-t-il de plus de 100 mètres en 1 seconde ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="6" cy="12" r="2.5" fill="#1a4a48" opacity="1.0"/><path d="M9 10c1.5 0.5 2.5 1.5 2.5 2s-1 1.5-2.5 2" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8c2.5 1 4 2.5 4 4s-1.5 3-4 4" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M15 6c4 1.5 6 3.5 6 6s-2 4.5-6 6" fill="none" stroke="#1a4a48" strokeWidth="1.5" opacity="0.1"/></svg> Vitesse du son
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

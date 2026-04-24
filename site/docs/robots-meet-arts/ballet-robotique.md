@@ -1,6 +1,6 @@
 ---
 id: ballet-robotique
-title: "Ballet robotique"
+title: Ballet robotique
 sidebar_label: "Ballet robotique"
 sidebar_position: 2
 ---

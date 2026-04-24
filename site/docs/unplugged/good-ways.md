@@ -1,7 +1,7 @@
 ---
 id: good-ways
-title: "Good ways"
-sidebar_label: "Good ways"
+title: "Good ways : chemin éthique"
+sidebar_label: "Good ways : chemin éthique"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><circle cx="12" cy="12" r="8" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#0081A7" opacity="0.1"/><polygon points="12,4 12,8" fill="none" stroke="#0081A7" strokeWidth="1.5"/><polygon points="12,5 11,8 13,8" fill="#0081A7"/><line x1="12" y1="12" x2="17" y2="9" stroke="#0081A7" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="#0081A7"/></svg> Good ways
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><circle cx="12" cy="12" r="8" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#0081A7" opacity="0.1"/><polygon points="12,4 12,8" fill="none" stroke="#0081A7" strokeWidth="1.5"/><polygon points="12,5 11,8 13,8" fill="#0081A7"/><line x1="12" y1="12" x2="17" y2="9" stroke="#0081A7" strokeWidth="1.5"/><circle cx="12" cy="12" r="1.5" fill="#0081A7"/></svg> Good ways : chemin éthique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

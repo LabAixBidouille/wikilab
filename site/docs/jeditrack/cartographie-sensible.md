@@ -1,7 +1,7 @@
 ---
 id: cartographie-sensible
-title: "Cartographie sensible"
-sidebar_label: "Cartographie sensible"
+title: Cartographie sensible du quartier
+sidebar_label: "Cartographie sensible du quartier"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" rx="2" ry="2" width="20" height="18" fill="#1198f0" opacity="0.1"/><path d="M2 3h20v18H2z" stroke="#1198f0" strokeWidth="1.2" fill="none" rx="2" opacity="0.25"/><path d="M7 9c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 2-3 4c-1.5-2-3-2.5-3-4z" fill="#1198f0" opacity="0.25"/><path d="M12 16l1.5-1.2c1.3-1 2.5-2 2.5-3.3 0-1.1-.9-2-2-2a2.2 2.2 0 0 0-2 1.2A2.2 2.2 0 0 0 10 9.5c-1.1 0-2 .9-2 2 0 1.3 1.2 2.3 2.5 3.3L12 16z" fill="#1198f0" opacity="1.0"/><path d="M5 18h14M5 6h3M16 6h3" stroke="#1198f0" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><circle cx="17" cy="14" r="1" fill="#1198f0" opacity="1.0"/><circle cx="6" cy="14" r="1" fill="#1198f0" opacity="1.0"/></svg> Cartographie sensible
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" rx="2" ry="2" width="20" height="18" fill="#1198f0" opacity="0.1"/><path d="M2 3h20v18H2z" stroke="#1198f0" strokeWidth="1.2" fill="none" rx="2" opacity="0.25"/><path d="M7 9c0-1.5 1.5-3 3-3s3 1.5 3 3-1.5 2-3 4c-1.5-2-3-2.5-3-4z" fill="#1198f0" opacity="0.25"/><path d="M12 16l1.5-1.2c1.3-1 2.5-2 2.5-3.3 0-1.1-.9-2-2-2a2.2 2.2 0 0 0-2 1.2A2.2 2.2 0 0 0 10 9.5c-1.1 0-2 .9-2 2 0 1.3 1.2 2.3 2.5 3.3L12 16z" fill="#1198f0" opacity="1.0"/><path d="M5 18h14M5 6h3M16 6h3" stroke="#1198f0" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><circle cx="17" cy="14" r="1" fill="#1198f0" opacity="1.0"/><circle cx="6" cy="14" r="1" fill="#1198f0" opacity="1.0"/></svg> Cartographie sensible du quartier
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

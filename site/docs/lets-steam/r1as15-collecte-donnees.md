@@ -1,7 +1,7 @@
 ---
 id: r1as15-collecte-donnees
-title: Collecte de données
-sidebar_label: "Collecter des données"
+title: Collecter des données avec STM32
+sidebar_label: "Collecter des données avec STM32"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#140e4e" fillOpacity="0.1"/><rect x="4" y="14" width="3" height="6" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><rect x="8.5" y="10" width="3" height="10" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><rect x="13" y="6" width="3" height="14" rx="0.5" fill="#140e4e"/><rect x="17.5" y="8" width="3" height="12" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><polyline points="4 12 8.5 8 13 4 17.5 6" fill="none" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg> Collecte de données
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#140e4e" fillOpacity="0.1"/><rect x="4" y="14" width="3" height="6" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><rect x="8.5" y="10" width="3" height="10" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><rect x="13" y="6" width="3" height="14" rx="0.5" fill="#140e4e"/><rect x="17.5" y="8" width="3" height="12" rx="0.5" fill="#140e4e" fillOpacity="0.25"/><polyline points="4 12 8.5 8 13 4 17.5 6" fill="none" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg> Collecter des données avec STM32
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

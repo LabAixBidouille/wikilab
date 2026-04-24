@@ -1,6 +1,6 @@
 ---
 id: biscuits-et-paix
-title: "Biscuits et paix"
+title: Biscuits et paix
 sidebar_label: "Biscuits et paix"
 sidebar_position: 3
 ---

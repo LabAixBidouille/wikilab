@@ -1,7 +1,7 @@
 ---
 id: bot-buddy-adventure
-title: "Bot Buddy Adventure : concevoir un chatbot pour une meilleure accessibilité urbaine"
-sidebar_label: "Bot Buddy Adventure"
+title: "Chatbot d'accessibilité urbaine"
+sidebar_label: "Chatbot d'accessibilité urbaine"
 sidebar_position: 20
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="12" rx="3" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="8" rx="2" fill="#DD5350" opacity="0.25"/><circle cx="9" cy="10" r="1.5" fill="#DD5350" opacity="1.0"/><circle cx="15" cy="10" r="1.5" fill="#DD5350" opacity="1.0"/><path d="M9 19 L12 16 L15 19" stroke="#DD5350" strokeWidth="1.5" fill="none" opacity="1.0"/></svg> Bot Buddy Adventure : concevoir un chatbot pour une meilleure accessibilité urbaine
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="12" rx="3" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="8" rx="2" fill="#DD5350" opacity="0.25"/><circle cx="9" cy="10" r="1.5" fill="#DD5350" opacity="1.0"/><circle cx="15" cy="10" r="1.5" fill="#DD5350" opacity="1.0"/><path d="M9 19 L12 16 L15 19" stroke="#DD5350" strokeWidth="1.5" fill="none" opacity="1.0"/></svg> Chatbot d'accessibilité urbaine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

@@ -1,7 +1,7 @@
 ---
 id: ecosystemes-en-bocaux
-title: "Écosystèmes en bocaux"
-sidebar_label: "Écosystèmes en bocaux"
+title: Écosystème en bocal
+sidebar_label: "Écosystème en bocal"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M8 3h8v2c1.5 0 3 1.5 3 3v10c0 2-1.5 3-3 3H8c-1.5 0-3-1-3-3V8c0-1.5 1.5-3 3-3V3z" fill="#0081A7" opacity="0.1"/><path d="M8 5h8c1.1 0 2 1 2 2v11c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V7c0-1 .9-2 2-2z" fill="#0081A7" opacity="0.25"/><rect x="7" y="3" width="10" height="2" rx="0.5" fill="#0081A7"/><path d="M10 16c0-2 1-3 2-4.5.5-.7 1-1.5 1-2.5" stroke="#0081A7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><ellipse cx="11" cy="12" rx="1.8" ry="1" fill="#0081A7" opacity="0.5" transform="rotate(-30 11 12)"/><ellipse cx="13.5" cy="11" rx="1.5" ry="0.8" fill="#0081A7" opacity="0.5" transform="rotate(20 13.5 11)"/><rect x="7" y="17" width="10" height="3" fill="#0081A7" opacity="0.4"/></svg> Ecosystemes en bocaux
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M8 3h8v2c1.5 0 3 1.5 3 3v10c0 2-1.5 3-3 3H8c-1.5 0-3-1-3-3V8c0-1.5 1.5-3 3-3V3z" fill="#0081A7" opacity="0.1"/><path d="M8 5h8c1.1 0 2 1 2 2v11c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2V7c0-1 .9-2 2-2z" fill="#0081A7" opacity="0.25"/><rect x="7" y="3" width="10" height="2" rx="0.5" fill="#0081A7"/><path d="M10 16c0-2 1-3 2-4.5.5-.7 1-1.5 1-2.5" stroke="#0081A7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><ellipse cx="11" cy="12" rx="1.8" ry="1" fill="#0081A7" opacity="0.5" transform="rotate(-30 11 12)"/><ellipse cx="13.5" cy="11" rx="1.5" ry="0.8" fill="#0081A7" opacity="0.5" transform="rotate(20 13.5 11)"/><rect x="7" y="17" width="10" height="3" fill="#0081A7" opacity="0.4"/></svg> Écosystème en bocal
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

@@ -1,7 +1,7 @@
 ---
 id: panneau-solaire-journee
-title: "L'énergie fournie par un panneau solaire est-elle toujours la même tout au long de la journée ?"
-sidebar_label: "Panneau solaire au fil de la journée"
+title: Panneau solaire sur une journée
+sidebar_label: "Panneau solaire sur une journée"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="10" width="16" height="10" fill="#1a4a48" opacity="0.25" transform="skewX(-8)"/><line x1="8" y1="10" x2="7" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="12" y1="10" x2="11" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="16" y1="10" x2="15" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="4" y1="15" x2="20" y2="15" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><circle cx="19" cy="5" r="2.5" fill="#1a4a48" opacity="1.0"/><line x1="19" y1="1" x2="19" y2="2.5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/><line x1="15" y1="5" x2="16.5" y2="5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/></svg> L'énergie fournie par un panneau solaire est-elle toujours la même tout au long de la journée ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="10" width="16" height="10" fill="#1a4a48" opacity="0.25" transform="skewX(-8)"/><line x1="8" y1="10" x2="7" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="12" y1="10" x2="11" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="16" y1="10" x2="15" y2="20" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><line x1="4" y1="15" x2="20" y2="15" stroke="#1a4a48" strokeWidth="0.8" opacity="1.0"/><circle cx="19" cy="5" r="2.5" fill="#1a4a48" opacity="1.0"/><line x1="19" y1="1" x2="19" y2="2.5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/><line x1="15" y1="5" x2="16.5" y2="5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/></svg> Panneau solaire sur une journée
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

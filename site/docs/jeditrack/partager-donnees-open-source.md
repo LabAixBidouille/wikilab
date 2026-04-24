@@ -1,7 +1,7 @@
 ---
 id: partager-donnees-open-source
-title: "Partager ses données en open source"
-sidebar_label: "Données open source"
+title: Partager ses données en open source
+sidebar_label: "Partager ses données en open source"
 sidebar_position: 12
 ---
 

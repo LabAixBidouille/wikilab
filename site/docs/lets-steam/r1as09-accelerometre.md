@@ -1,7 +1,7 @@
 ---
 id: r1as09-accelerometre
-title: Accéléromètre
-sidebar_label: "Capteur d'inclinaison avec l'accéléromètre"
+title: Inclinaison avec accéléromètre
+sidebar_label: "Inclinaison avec accéléromètre"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><rect x="4" y="8" width="16" height="10" rx="2" fill="#140e4e" opacity="0.25"/><circle cx="12" cy="13" r="4" fill="none" stroke="#140e4e" strokeWidth="1.5" opacity="1.0"/><line x1="12" y1="13" x2="15" y2="10" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><circle cx="12" cy="13" r="1" fill="#140e4e" opacity="1.0"/><line x1="8" y1="5" x2="8" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/><line x1="12" y1="4" x2="12" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/><line x1="16" y1="5" x2="16" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/></svg> Accéléromètre : capteur d'inclinaison
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><rect x="4" y="8" width="16" height="10" rx="2" fill="#140e4e" opacity="0.25"/><circle cx="12" cy="13" r="4" fill="none" stroke="#140e4e" strokeWidth="1.5" opacity="1.0"/><line x1="12" y1="13" x2="15" y2="10" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><circle cx="12" cy="13" r="1" fill="#140e4e" opacity="1.0"/><line x1="8" y1="5" x2="8" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/><line x1="12" y1="4" x2="12" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/><line x1="16" y1="5" x2="16" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/></svg> Inclinaison avec accéléromètre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

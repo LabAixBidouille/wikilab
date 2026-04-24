@@ -1,7 +1,7 @@
 ---
 id: decibel-detective
-title: "Decibel Detective"
-sidebar_label: "Decibel Detective"
+title: Le bruit dans la classe
+sidebar_label: "Le bruit dans la classe"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M12 4v16" stroke="#DD5350" strokeWidth="2.5" strokeLinecap="round"/><path d="M8 7v10" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="0.25"/><path d="M16 7v10" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="0.25"/><path d="M4 10v4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><path d="M20 10v4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/></svg> Decibel Detective
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M12 4v16" stroke="#DD5350" strokeWidth="2.5" strokeLinecap="round"/><path d="M8 7v10" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="0.25"/><path d="M16 7v10" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="0.25"/><path d="M4 10v4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/><path d="M20 10v4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/></svg> Le bruit dans la classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

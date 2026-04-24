@@ -1,7 +1,7 @@
 ---
 id: programming-a-choreography
-title: "Programme ta chorégraphie"
-sidebar_label: "Programme ta chorégraphie"
+title: Programmer une chorégraphie
+sidebar_label: "Programmer une chorégraphie"
 sidebar_position: 22
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 22
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="5" r="2.5" fill="#0081A7" opacity="0.25"/><path d="M12 8 L12 15" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 10 L7 13" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 10 L17 8" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 15 L8 21" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 15 L16 21" stroke="#0081A7" strokeWidth="1.5"/><rect x="2" y="2" width="6" height="4" rx="1" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="0.8"/><text x="5" y="5" fontSize="3" fill="#0081A7" textAnchor="middle" fontWeight="bold">&lt;/&gt;</text><rect x="17" y="17" width="5" height="3" rx="1" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="0.8"/></svg> Programme ta choregraphie
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="5" r="2.5" fill="#0081A7" opacity="0.25"/><path d="M12 8 L12 15" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 10 L7 13" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 10 L17 8" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 15 L8 21" stroke="#0081A7" strokeWidth="1.5"/><path d="M12 15 L16 21" stroke="#0081A7" strokeWidth="1.5"/><rect x="2" y="2" width="6" height="4" rx="1" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="0.8"/><text x="5" y="5" fontSize="3" fill="#0081A7" textAnchor="middle" fontWeight="bold">&lt;/&gt;</text><rect x="17" y="17" width="5" height="3" rx="1" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="0.8"/></svg> Programmer une chorégraphie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

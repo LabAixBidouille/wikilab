@@ -1,6 +1,6 @@
 ---
 id: co2-plantes-ph
-title: "La consommation de CO2 par les plantes a-t-elle un impact sur le pH ?"
+title: CO2, plantes et pH
 sidebar_label: "CO2, plantes et pH"
 sidebar_position: 18
 ---

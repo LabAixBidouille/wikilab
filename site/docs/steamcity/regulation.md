@@ -1,7 +1,7 @@
 ---
 id: regulation
-title: "Impact écologique de la réglementation de la mobilité"
-sidebar_label: "Impact écologique de la mobilité"
+title: Mobilité et écologie
+sidebar_label: "Mobilité et écologie"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="14" width="20" height="6" rx="2" fill="#DD5350" opacity="0.1"/><circle cx="7" cy="20" r="2.5" fill="#DD5350" opacity="0.25"/><circle cx="17" cy="20" r="2.5" fill="#DD5350" opacity="0.25"/><rect x="4" y="10" width="16" height="4" rx="1" fill="#DD5350" opacity="0.25"/><path d="M6 6h4l2 4H4l2-4zM14 6h4l2 4H12l2-4z" fill="#DD5350" opacity="1.0"/></svg> Impact écologique de la réglementation de la mobilité
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="14" width="20" height="6" rx="2" fill="#DD5350" opacity="0.1"/><circle cx="7" cy="20" r="2.5" fill="#DD5350" opacity="0.25"/><circle cx="17" cy="20" r="2.5" fill="#DD5350" opacity="0.25"/><rect x="4" y="10" width="16" height="4" rx="1" fill="#DD5350" opacity="0.25"/><path d="M6 6h4l2 4H4l2-4zM14 6h4l2 4H12l2-4z" fill="#DD5350" opacity="1.0"/></svg> Mobilité et écologie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

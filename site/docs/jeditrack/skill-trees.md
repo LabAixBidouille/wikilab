@@ -1,7 +1,7 @@
 ---
 id: skill-trees
-title: "Skill Trees avec Steph Piper"
-sidebar_label: "Skill Trees"
+title: Skill Trees du maker
+sidebar_label: "Skill Trees du maker"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><line x1="12" y1="22" x2="12" y2="10" stroke="#1198f0" strokeWidth="2" strokeLinecap="round"/><line x1="12" y1="14" x2="7" y2="10" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="14" x2="17" y2="10" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="11" x2="9" y2="7" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="12" y1="11" x2="15" y2="7" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="7" cy="10" r="2" fill="#1198f0" opacity="0.25"/><circle cx="17" cy="10" r="2" fill="#1198f0" opacity="0.25"/><circle cx="9" cy="7" r="1.5" fill="#1198f0" opacity="0.25"/><circle cx="15" cy="7" r="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="5" r="2.5" fill="#1198f0"/></svg> Skill Trees avec Steph Piper
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><line x1="12" y1="22" x2="12" y2="10" stroke="#1198f0" strokeWidth="2" strokeLinecap="round"/><line x1="12" y1="14" x2="7" y2="10" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="14" x2="17" y2="10" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="11" x2="9" y2="7" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="12" y1="11" x2="15" y2="7" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="7" cy="10" r="2" fill="#1198f0" opacity="0.25"/><circle cx="17" cy="10" r="2" fill="#1198f0" opacity="0.25"/><circle cx="9" cy="7" r="1.5" fill="#1198f0" opacity="0.25"/><circle cx="15" cy="7" r="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="5" r="2.5" fill="#1198f0"/></svg> Skill Trees du maker
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

@@ -1,6 +1,6 @@
 ---
 id: temperature-vitesse-son
-title: "La température modifie-t-elle la vitesse du son ?"
+title: Température et vitesse du son
 sidebar_label: "Température et vitesse du son"
 sidebar_position: 11
 ---
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><path d="M12 4a3 3 0 0 0-3 3v7.5a4 4 0 1 0 6 0V7a3 3 0 0 0-3-3z" fill="#1a4a48" opacity="0.25"/><circle cx="12" cy="17" r="2.5" fill="#1a4a48" opacity="1.0"/><line x1="12" y1="7" x2="12" y2="14" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="16" y1="8" x2="18" y2="8" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="16" y1="11" x2="18" y2="11" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/></svg> La température modifie-t-elle la vitesse du son ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><path d="M12 4a3 3 0 0 0-3 3v7.5a4 4 0 1 0 6 0V7a3 3 0 0 0-3-3z" fill="#1a4a48" opacity="0.25"/><circle cx="12" cy="17" r="2.5" fill="#1a4a48" opacity="1.0"/><line x1="12" y1="7" x2="12" y2="14" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="16" y1="8" x2="18" y2="8" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="16" y1="11" x2="18" y2="11" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/></svg> Température et vitesse du son
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-1
-title: "Une question d'échelle"
-sidebar_label: "Une question d'échelle"
+title: "À l'échelle du système solaire"
+sidebar_label: "À l'échelle du système solaire"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="8" fill="#09246C" opacity="0.1"/><circle cx="12" cy="12" r="5" fill="#09246C" opacity="0.25"/><circle cx="12" cy="12" r="2.5" fill="#09246C"/><ellipse cx="12" cy="12" rx="11" ry="3" fill="none" stroke="#09246C" strokeWidth="1.2" transform="rotate(-25 12 12)"/><circle cx="19.5" cy="9" r="1.2" fill="#09246C" opacity="0.25"/><circle cx="5" cy="15.5" r="0.8" fill="#09246C" opacity="0.25"/></svg> Une question d'échelle
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="8" fill="#09246C" opacity="0.1"/><circle cx="12" cy="12" r="5" fill="#09246C" opacity="0.25"/><circle cx="12" cy="12" r="2.5" fill="#09246C"/><ellipse cx="12" cy="12" rx="11" ry="3" fill="none" stroke="#09246C" strokeWidth="1.2" transform="rotate(-25 12 12)"/><circle cx="19.5" cy="9" r="1.2" fill="#09246C" opacity="0.25"/><circle cx="5" cy="15.5" r="0.8" fill="#09246C" opacity="0.25"/></svg> À l'échelle du système solaire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

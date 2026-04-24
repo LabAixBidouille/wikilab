@@ -1,6 +1,6 @@
 ---
 id: communiquer-resultats
-title: "Communiquer ses résultats"
+title: Communiquer ses résultats
 sidebar_label: "Communiquer ses résultats"
 sidebar_position: 11
 ---

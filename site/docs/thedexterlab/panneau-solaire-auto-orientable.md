@@ -1,6 +1,6 @@
 ---
 id: panneau-solaire-auto-orientable
-title: "Comment maximiser l'apport en énergie solaire et créer des panneaux auto-orientables ?"
+title: Panneau solaire auto-orientable
 sidebar_label: "Panneau solaire auto-orientable"
 sidebar_position: 7
 ---
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="6" cy="6" r="2.5" fill="#1a4a48" opacity="1.0"/><rect x="10" y="12" width="12" height="9" fill="#1a4a48" opacity="0.25" transform="rotate(-15 16 16.5)"/><line x1="11" y1="15" x2="22.5" y2="11.5" stroke="#1a4a48" strokeWidth="0.6" opacity="1.0"/><line x1="12" y1="19" x2="23.5" y2="15.5" stroke="#1a4a48" strokeWidth="0.6" opacity="1.0"/><path d="M8 8 L11 13" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="0.1"/><path d="M16 16 Q18 14 20 15" stroke="#1a4a48" strokeWidth="1.2" fill="none" opacity="1.0"/><polygon points="20,15 18,15 19,13.5" fill="#1a4a48" opacity="1.0"/></svg> Comment maximiser l'apport en énergie solaire et créer des panneaux auto-orientables ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="6" cy="6" r="2.5" fill="#1a4a48" opacity="1.0"/><rect x="10" y="12" width="12" height="9" fill="#1a4a48" opacity="0.25" transform="rotate(-15 16 16.5)"/><line x1="11" y1="15" x2="22.5" y2="11.5" stroke="#1a4a48" strokeWidth="0.6" opacity="1.0"/><line x1="12" y1="19" x2="23.5" y2="15.5" stroke="#1a4a48" strokeWidth="0.6" opacity="1.0"/><path d="M8 8 L11 13" stroke="#1a4a48" strokeWidth="1.5" fill="none" opacity="0.1"/><path d="M16 16 Q18 14 20 15" stroke="#1a4a48" strokeWidth="1.2" fill="none" opacity="1.0"/><polygon points="20,15 18,15 19,13.5" fill="#1a4a48" opacity="1.0"/></svg> Panneau solaire auto-orientable
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

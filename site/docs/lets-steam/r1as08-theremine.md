@@ -1,7 +1,7 @@
 ---
 id: r1as08-theremine
-title: Thérémine
-sidebar_label: "Fabriquer un thérémine avec le capteur de distance"
+title: Fabriquer un thérémine
+sidebar_label: "Fabriquer un thérémine"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><rect x="10" y="4" width="4" height="16" rx="2" fill="#140e4e" opacity="0.25"/><rect x="11" y="2" width="2" height="4" rx="1" fill="#140e4e" opacity="1.0"/><path d="M7 9c-2 0-3 1.5-3 3s1 3 3 3" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><path d="M4 7c-3 0-4 2.5-4 5s1 5 4 5" stroke="#140e4e" strokeWidth="1" fill="none" opacity="0.1"/><path d="M17 9c2 0 3 1.5 3 3s-1 3-3 3" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><path d="M20 7c3 0 4 2.5 4 5s-1 5-4 5" stroke="#140e4e" strokeWidth="1" fill="none" opacity="0.1"/></svg> Thérémine : fabriquer un instrument avec le capteur de distance
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><rect x="10" y="4" width="4" height="16" rx="2" fill="#140e4e" opacity="0.25"/><rect x="11" y="2" width="2" height="4" rx="1" fill="#140e4e" opacity="1.0"/><path d="M7 9c-2 0-3 1.5-3 3s1 3 3 3" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><path d="M4 7c-3 0-4 2.5-4 5s1 5 4 5" stroke="#140e4e" strokeWidth="1" fill="none" opacity="0.1"/><path d="M17 9c2 0 3 1.5 3 3s-1 3-3 3" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><path d="M20 7c3 0 4 2.5 4 5s-1 5-4 5" stroke="#140e4e" strokeWidth="1" fill="none" opacity="0.1"/></svg> Fabriquer un thérémine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

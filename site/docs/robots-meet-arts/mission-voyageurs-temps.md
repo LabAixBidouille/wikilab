@@ -1,7 +1,7 @@
 ---
 id: mission-voyageurs-temps
-title: "Mission voyageurs du temps !"
-sidebar_label: "Mission voyageurs du temps"
+title: Voyageurs du temps
+sidebar_label: "Voyageurs du temps"
 sidebar_position: 24
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 24
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#169da7" opacity="0.25"/><circle cx="12" cy="12" r="7" fill="none" stroke="#169da7" strokeWidth="1.2"/><line x1="12" y1="12" x2="12" y2="7" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="12" x2="16" y2="14" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="12" r="1" fill="#169da7"/><path d="M18 3l2 2-2 2" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/><path d="M6 21l-2-2 2-2" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg> Mission voyageurs du temps !
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#169da7" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#169da7" opacity="0.25"/><circle cx="12" cy="12" r="7" fill="none" stroke="#169da7" strokeWidth="1.2"/><line x1="12" y1="12" x2="12" y2="7" stroke="#169da7" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="12" x2="16" y2="14" stroke="#169da7" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="12" r="1" fill="#169da7"/><path d="M18 3l2 2-2 2" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/><path d="M6 21l-2-2 2-2" stroke="#169da7" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg> Voyageurs du temps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Histoire</span>

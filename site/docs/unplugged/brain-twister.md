@@ -1,7 +1,7 @@
 ---
 id: brain-twister
-title: "Brain Twister"
-sidebar_label: "Brain Twister"
+title: Casse-têtes Brain Twister
+sidebar_label: "Casse-têtes Brain Twister"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C8 2 5 5 5 8.5c0 2 1 3.5 2 4.5v2c0 .5.5 1 1 1h8c.5 0 1-.5 1-1v-2c1-1 2-2.5 2-4.5C19 5 16 2 12 2z" fill="#0081A7" opacity="0.1"/><path d="M12 3c-3.3 0-6 2.5-6 5.5 0 1.8.9 3.2 2 4.2V15h8v-2.3c1.1-1 2-2.4 2-4.2C18 5.5 15.3 3 12 3z" fill="#0081A7" opacity="0.25"/><path d="M9 8.5c0-1.5 1.2-2.8 3-2.8" stroke="#0081A7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M12 8c-.8 0-1.5.7-1.5 1.5S11.2 11 12 11c.8 0 1.5.7 1.5 1.5S12.8 14 12 14" stroke="#0081A7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><rect x="9" y="16" width="6" height="2" rx="0.5" fill="#0081A7"/><path d="M10 20h4" stroke="#0081A7" strokeWidth="1.5" strokeLinecap="round"/></svg> Brain Twister
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C8 2 5 5 5 8.5c0 2 1 3.5 2 4.5v2c0 .5.5 1 1 1h8c.5 0 1-.5 1-1v-2c1-1 2-2.5 2-4.5C19 5 16 2 12 2z" fill="#0081A7" opacity="0.1"/><path d="M12 3c-3.3 0-6 2.5-6 5.5 0 1.8.9 3.2 2 4.2V15h8v-2.3c1.1-1 2-2.4 2-4.2C18 5.5 15.3 3 12 3z" fill="#0081A7" opacity="0.25"/><path d="M9 8.5c0-1.5 1.2-2.8 3-2.8" stroke="#0081A7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M12 8c-.8 0-1.5.7-1.5 1.5S11.2 11 12 11c.8 0 1.5.7 1.5 1.5S12.8 14 12 14" stroke="#0081A7" strokeWidth="1.2" fill="none" strokeLinecap="round"/><rect x="9" y="16" width="6" height="2" rx="0.5" fill="#0081A7"/><path d="M10 20h4" stroke="#0081A7" strokeWidth="1.5" strokeLinecap="round"/></svg> Casse-têtes Brain Twister
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

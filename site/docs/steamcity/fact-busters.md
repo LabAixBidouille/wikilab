@@ -1,7 +1,7 @@
 ---
 id: fact-busters
-title: "FactBusters : décrypter le vrai du faux"
-sidebar_label: "FactBusters"
+title: Décrypter le vrai du faux
+sidebar_label: "Décrypter le vrai du faux"
 sidebar_position: 21
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 21
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="18" height="18" rx="3" fill="#DD5350" opacity="0.1"/><rect x="5" y="5" width="14" height="14" rx="2" fill="#DD5350" opacity="0.25"/><path d="M9 12 L11 14 L15 10" stroke="#DD5350" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="1.0"/></svg> FactBusters : décrypter le vrai du faux
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="18" height="18" rx="3" fill="#DD5350" opacity="0.1"/><rect x="5" y="5" width="14" height="14" rx="2" fill="#DD5350" opacity="0.25"/><path d="M9 12 L11 14 L15 10" stroke="#DD5350" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="1.0"/></svg> Décrypter le vrai du faux
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civile et morale</span>

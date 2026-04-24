@@ -1,11 +1,11 @@
 ---
 id: poubelle-basket
-title: "Poubelle Basket"
-sidebar_label: "Poubelle Basket"
+title: Poubelle basket
+sidebar_label: "Poubelle basket"
 sidebar_position: 17
 ---
 
-# Poubelle Basket
+# Poubelle basket
 
 ### Présentation
 

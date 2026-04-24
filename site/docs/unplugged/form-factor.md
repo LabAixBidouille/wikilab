@@ -1,6 +1,6 @@
 ---
 id: form-factor
-title: "Form factor"
+title: Form factor
 sidebar_label: "Form factor"
 sidebar_position: 11
 ---

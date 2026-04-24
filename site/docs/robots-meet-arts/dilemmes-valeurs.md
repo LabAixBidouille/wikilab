@@ -1,6 +1,6 @@
 ---
 id: dilemmes-valeurs
-title: "Dilemmes et valeurs"
+title: Dilemmes et valeurs
 sidebar_label: "Dilemmes et valeurs"
 sidebar_position: 19
 ---

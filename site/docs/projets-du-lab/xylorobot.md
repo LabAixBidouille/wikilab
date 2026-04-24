@@ -1,11 +1,11 @@
 ---
 id: xylorobot
-title: "XyloRobot"
-sidebar_label: "XyloRobot"
+title: XyloRobot musical
+sidebar_label: "XyloRobot musical"
 sidebar_position: 10
 ---
 
-# XyloRobot
+# XyloRobot musical
 
 ### Présentation
 

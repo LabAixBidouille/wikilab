@@ -1,7 +1,7 @@
 ---
 id: ferme-en-ville
-title: "Ferme en ville"
-sidebar_label: "Ferme en ville"
+title: Ferme urbaine
+sidebar_label: "Ferme urbaine"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><rect x="14" y="8" width="6" height="12" rx="1" fill="#0081A7" opacity="0.25"/><rect x="15" y="10" width="2" height="2" fill="#0081A7"/><rect x="15" y="14" width="2" height="2" fill="#0081A7"/><path d="M8 20V10L5 8V20z" fill="#0081A7" opacity="0.25"/><path d="M8 12c0-3-1.5-5-1.5-5S5 9 5 12c0 1.5 0.7 2.5 1.5 3s1.5-1.5 1.5-3z" fill="#0081A7"/><line x1="6.5" y1="15" x2="6.5" y2="20" stroke="#0081A7" strokeWidth="1"/></svg> Ferme en ville
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><rect x="14" y="8" width="6" height="12" rx="1" fill="#0081A7" opacity="0.25"/><rect x="15" y="10" width="2" height="2" fill="#0081A7"/><rect x="15" y="14" width="2" height="2" fill="#0081A7"/><path d="M8 20V10L5 8V20z" fill="#0081A7" opacity="0.25"/><path d="M8 12c0-3-1.5-5-1.5-5S5 9 5 12c0 1.5 0.7 2.5 1.5 3s1.5-1.5 1.5-3z" fill="#0081A7"/><line x1="6.5" y1="15" x2="6.5" y2="20" stroke="#0081A7" strokeWidth="1"/></svg> Ferme urbaine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

@@ -1,7 +1,7 @@
 ---
 id: r1as01-led
-title: Faisons clignoter une LED
-sidebar_label: "Faisons clignoter une LED"
+title: Faire clignoter une LED
+sidebar_label: "Faire clignoter une LED"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="9" r="7" fill="#140e4e" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z" fill="#140e4e" opacity="0.25"/><path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zm0 1.5c3.04 0 5.5 2.46 5.5 5.5 0 1.94-1 3.64-2.52 4.62-.25.16-.48.62-.48.88v2.5h-5V14.5c0-.26-.23-.72-.48-.88A5.49 5.49 0 0 1 6.5 9c0-3.04 2.46-5.5 5.5-5.5z" fill="#140e4e" opacity="1.0"/><rect x="9" y="19" width="6" height="1" rx="0.5" fill="#140e4e" opacity="1.0"/><rect x="10" y="21" width="4" height="1" rx="0.5" fill="#140e4e" opacity="1.0"/><line x1="12" y1="0" x2="12" y2="1.5" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="4" y1="3.5" x2="5.1" y2="4.6" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="20" y1="3.5" x2="18.9" y2="4.6" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="1.5" y1="9" x2="3" y2="9" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="21" y1="9" x2="22.5" y2="9" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/></svg> Faisons clignoter une LED
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="9" r="7" fill="#140e4e" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z" fill="#140e4e" opacity="0.25"/><path d="M12 2C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7zm0 1.5c3.04 0 5.5 2.46 5.5 5.5 0 1.94-1 3.64-2.52 4.62-.25.16-.48.62-.48.88v2.5h-5V14.5c0-.26-.23-.72-.48-.88A5.49 5.49 0 0 1 6.5 9c0-3.04 2.46-5.5 5.5-5.5z" fill="#140e4e" opacity="1.0"/><rect x="9" y="19" width="6" height="1" rx="0.5" fill="#140e4e" opacity="1.0"/><rect x="10" y="21" width="4" height="1" rx="0.5" fill="#140e4e" opacity="1.0"/><line x1="12" y1="0" x2="12" y2="1.5" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="4" y1="3.5" x2="5.1" y2="4.6" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="20" y1="3.5" x2="18.9" y2="4.6" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="1.5" y1="9" x2="3" y2="9" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><line x1="21" y1="9" x2="22.5" y2="9" stroke="#140e4e" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/></svg> Faire clignoter une LED
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

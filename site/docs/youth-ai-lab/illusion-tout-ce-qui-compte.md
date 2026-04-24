@@ -1,7 +1,7 @@
 ---
 id: illusion-tout-ce-qui-compte
-title: "L'illusion est tout ce qui compte"
-sidebar_label: "L'illusion est tout ce qui compte"
+title: "L'illusion de la pensée"
+sidebar_label: "L'illusion de la pensée"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><path d="M8 5 L16 5 L14 13 L14 17 L10 17 L10 13 Z" fill="#b34520" opacity="0.25"/><path d="M10 13 L14 13" stroke="#b34520" strokeWidth="0.8" opacity="1.0"/><rect x="10" y="17" width="4" height="1.5" fill="#b34520" opacity="1.0"/><rect x="10.5" y="19" width="3" height="1" fill="#b34520" opacity="1.0"/><path d="M12 6 Q10 8 10 10 Q10 11.5 11 12" stroke="#ffffff" strokeWidth="0.8" fill="none" opacity="1.0"/></svg> L'illusion est tout ce qui compte
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><path d="M8 5 L16 5 L14 13 L14 17 L10 17 L10 13 Z" fill="#b34520" opacity="0.25"/><path d="M10 13 L14 13" stroke="#b34520" strokeWidth="0.8" opacity="1.0"/><rect x="10" y="17" width="4" height="1.5" fill="#b34520" opacity="1.0"/><rect x="10.5" y="19" width="3" height="1" fill="#b34520" opacity="1.0"/><path d="M12 6 Q10 8 10 10 Q10 11.5 11 12" stroke="#ffffff" strokeWidth="0.8" fill="none" opacity="1.0"/></svg> L'illusion de la pensée
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

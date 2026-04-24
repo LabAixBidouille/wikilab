@@ -1,7 +1,7 @@
 ---
 id: lumiere-energie
-title: "La lumière a-t-elle de l'énergie ?"
-sidebar_label: "Lumière et énergie"
+title: "L'énergie de la lumière"
+sidebar_label: "L'énergie de la lumière"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="5" fill="#1a4a48" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#1a4a48" opacity="0.1"/><line x1="12" y1="2" x2="12" y2="5" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="12" y1="19" x2="12" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="2" y1="12" x2="5" y2="12" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="19" y1="12" x2="22" y2="12" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="4.9" y1="4.9" x2="7" y2="7" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="17" y1="17" x2="19.1" y2="19.1" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="4.9" y1="19.1" x2="7" y2="17" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="17" y1="7" x2="19.1" y2="4.9" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/></svg> La lumière a-t-elle de l'énergie ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="5" fill="#1a4a48" opacity="0.25"/><circle cx="12" cy="12" r="3" fill="#1a4a48" opacity="0.1"/><line x1="12" y1="2" x2="12" y2="5" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="12" y1="19" x2="12" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="2" y1="12" x2="5" y2="12" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="19" y1="12" x2="22" y2="12" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="4.9" y1="4.9" x2="7" y2="7" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="17" y1="17" x2="19.1" y2="19.1" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="4.9" y1="19.1" x2="7" y2="17" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><line x1="17" y1="7" x2="19.1" y2="4.9" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/></svg> L'énergie de la lumière
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

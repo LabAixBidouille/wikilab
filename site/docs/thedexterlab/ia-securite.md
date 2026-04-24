@@ -1,7 +1,7 @@
 ---
 id: ia-securite
-title: "L'IA peut-elle être un outil de sécurité sans faille ?"
-sidebar_label: "IA et sécurité"
+title: Serrure intelligente par IA
+sidebar_label: "Serrure intelligente par IA"
 sidebar_position: 17
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2 L20 5 V12 C20 17 16 20 12 22 C8 20 4 17 4 12 V5 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 4 L18 6.5 V12 C18 16 14.5 18.5 12 20 C9.5 18.5 6 16 6 12 V6.5 Z" fill="#1a4a48" opacity="0.25"/><rect x="9" y="10" width="6" height="5" rx="0.5" fill="#1a4a48" opacity="1.0"/><path d="M10 10 V8.5 A2 2 0 0 1 14 8.5 V10" fill="none" stroke="#1a4a48" strokeWidth="1.2" opacity="1.0"/><circle cx="12" cy="12.5" r="0.7" fill="#fff"/></svg> L'IA peut-elle être un outil de sécurité sans faille ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2 L20 5 V12 C20 17 16 20 12 22 C8 20 4 17 4 12 V5 Z" fill="#1a4a48" opacity="0.1"/><path d="M12 4 L18 6.5 V12 C18 16 14.5 18.5 12 20 C9.5 18.5 6 16 6 12 V6.5 Z" fill="#1a4a48" opacity="0.25"/><rect x="9" y="10" width="6" height="5" rx="0.5" fill="#1a4a48" opacity="1.0"/><path d="M10 10 V8.5 A2 2 0 0 1 14 8.5 V10" fill="none" stroke="#1a4a48" strokeWidth="1.2" opacity="1.0"/><circle cx="12" cy="12.5" r="0.7" fill="#fff"/></svg> Serrure intelligente par IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

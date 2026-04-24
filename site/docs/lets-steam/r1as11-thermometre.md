@@ -1,7 +1,7 @@
 ---
 id: r1as11-thermometre
-title: Thermomètre
-sidebar_label: "Fabriquer un thermomètre... très, très lisible"
+title: Thermomètre très lisible
+sidebar_label: "Thermomètre très lisible"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="1" width="6" height="16" rx="3" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="18" r="4" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="18" r="2" fill="#140e4e"/><rect x="11" y="4" width="2" height="11" rx="1" fill="#140e4e"/><line x1="15" y1="6" x2="17" y2="6" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="9" x2="17" y2="9" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="12" x2="17" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Thermomètre : fabriquer un thermomètre très lisible
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="1" width="6" height="16" rx="3" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="18" r="4" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="18" r="2" fill="#140e4e"/><rect x="11" y="4" width="2" height="11" rx="1" fill="#140e4e"/><line x1="15" y1="6" x2="17" y2="6" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="9" x2="17" y2="9" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="12" x2="17" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Thermomètre très lisible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

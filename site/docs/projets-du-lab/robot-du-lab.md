@@ -1,6 +1,6 @@
 ---
 id: robot-du-lab
-title: "RobotDuLAB"
+title: RobotDuLAB
 sidebar_label: "RobotDuLAB"
 sidebar_position: 9
 ---

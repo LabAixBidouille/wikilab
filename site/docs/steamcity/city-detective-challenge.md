@@ -1,7 +1,7 @@
 ---
 id: city-detective-challenge
-title: "Défi du détective urbain"
-sidebar_label: "Défi du détective urbain"
+title: Détective urbain
+sidebar_label: "Détective urbain"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="18" height="18" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="10" cy="10" r="5" fill="#DD5350" opacity="0.25"/><line x1="14" y1="14" x2="19" y2="19" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="1.0"/><circle cx="10" cy="10" r="2" fill="#DD5350" opacity="1.0"/></svg> Défi du détective urbain
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="3" width="18" height="18" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="10" cy="10" r="5" fill="#DD5350" opacity="0.25"/><line x1="14" y1="14" x2="19" y2="19" stroke="#DD5350" strokeWidth="2" strokeLinecap="round" opacity="1.0"/><circle cx="10" cy="10" r="2" fill="#DD5350" opacity="1.0"/></svg> Détective urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique et morale</span>

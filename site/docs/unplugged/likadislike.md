@@ -1,6 +1,6 @@
 ---
 id: likadislike
-title: "Likadislike"
+title: Likadislike
 sidebar_label: "Likadislike"
 sidebar_position: 17
 ---

@@ -1,6 +1,6 @@
 ---
 id: grille-magique-de-la-paix
-title: "Grille magique de la paix"
+title: Grille magique de la paix
 sidebar_label: "Grille magique de la paix"
 sidebar_position: 13
 ---

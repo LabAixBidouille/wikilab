@@ -1,6 +1,6 @@
 ---
 id: vivre-en-harmonie
-title: "Vivre en harmonie"
+title: Vivre en harmonie
 sidebar_label: "Vivre en harmonie"
 sidebar_position: 24
 ---

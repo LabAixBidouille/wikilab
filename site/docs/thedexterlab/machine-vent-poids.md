@@ -1,7 +1,7 @@
 ---
 id: machine-vent-poids
-title: "Peut-on construire une machine qui utilise le vent pour soulever un poids de 50 g ?"
-sidebar_label: "Machine à vent"
+title: Machine éolienne à 50g
+sidebar_label: "Machine éolienne à 50g"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><circle cx="12" cy="12" r="2" fill="#1a4a48" opacity="1.0"/><path d="M12 12 L12 3 A4 4 0 0 1 15 6 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L21 12 A4 4 0 0 1 18 15 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L12 21 A4 4 0 0 1 9 18 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L3 12 A4 4 0 0 1 6 9 Z" fill="#1a4a48" opacity="0.25"/></svg> Machine à vent pour soulever un poids de 50 g
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><circle cx="12" cy="12" r="2" fill="#1a4a48" opacity="1.0"/><path d="M12 12 L12 3 A4 4 0 0 1 15 6 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L21 12 A4 4 0 0 1 18 15 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L12 21 A4 4 0 0 1 9 18 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L3 12 A4 4 0 0 1 6 9 Z" fill="#1a4a48" opacity="0.25"/></svg> Machine éolienne à 50g
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

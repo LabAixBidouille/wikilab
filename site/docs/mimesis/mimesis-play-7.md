@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-7
-title: "Steam Your Body"
-sidebar_label: "Steam Your Body"
+title: Les sciences avec son corps
+sidebar_label: "Les sciences avec son corps"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2.5" fill="#09246C" opacity="0.1" stroke="#09246C" strokeWidth="1.5"/><circle cx="12" cy="4" r="2.5" fill="#09246C"/><path d="M12 6.5 L12 13" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M12 13 L8 20" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M12 13 L17 19" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M8 8 L12 10 L18 7" stroke="#09246C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/><circle cx="12" cy="12" r="11" fill="#09246C" opacity="0.1" stroke="none"/></svg> Steam Your Body
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2.5" fill="#09246C" opacity="0.1" stroke="#09246C" strokeWidth="1.5"/><circle cx="12" cy="4" r="2.5" fill="#09246C"/><path d="M12 6.5 L12 13" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M12 13 L8 20" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M12 13 L17 19" stroke="#09246C" strokeWidth="2" strokeLinecap="round"/><path d="M8 8 L12 10 L18 7" stroke="#09246C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none"/><circle cx="12" cy="12" r="11" fill="#09246C" opacity="0.1" stroke="none"/></svg> Les sciences avec son corps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

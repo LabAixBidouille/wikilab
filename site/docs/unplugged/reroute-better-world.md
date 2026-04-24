@@ -1,6 +1,6 @@
 ---
 id: reroute-better-world
-title: "Reroute better world"
+title: Reroute better world
 sidebar_label: "Reroute better world"
 sidebar_position: 23
 ---

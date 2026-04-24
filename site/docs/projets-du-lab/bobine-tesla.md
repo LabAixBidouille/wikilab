@@ -1,11 +1,11 @@
 ---
 id: bobine-tesla
-title: "Bobine Tesla Musicale"
-sidebar_label: "Bobine Tesla"
+title: Bobine Tesla musicale
+sidebar_label: "Bobine Tesla musicale"
 sidebar_position: 13
 ---
 
-# Bobine Tesla Musicale
+# Bobine Tesla musicale
 
 ### Présentation
 

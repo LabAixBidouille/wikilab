@@ -1,7 +1,7 @@
 ---
 id: collage-fou-code
-title: "Collage Fou de Code"
-sidebar_label: "Collage Fou de Code"
+title: Collage fou à la Matisse
+sidebar_label: "Collage fou à la Matisse"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="20" height="18" rx="2" fill="#169da7" opacity="0.1"/><rect x="4" y="6" width="7" height="5" rx="1" fill="#169da7" opacity="0.25" transform="rotate(-8 7.5 8.5)"/><rect x="12" y="5" width="6" height="6" rx="1" fill="#169da7" opacity="0.25" transform="rotate(5 15 8)"/><polygon points="5,14 9,12 13,16 5,16" fill="#169da7"/><circle cx="17" cy="14" r="3" fill="#169da7" opacity="0.25"/><rect x="14" y="17" width="5" height="3" rx="0.5" fill="#169da7"/></svg> Collage Fou de Code
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="20" height="18" rx="2" fill="#169da7" opacity="0.1"/><rect x="4" y="6" width="7" height="5" rx="1" fill="#169da7" opacity="0.25" transform="rotate(-8 7.5 8.5)"/><rect x="12" y="5" width="6" height="6" rx="1" fill="#169da7" opacity="0.25" transform="rotate(5 15 8)"/><polygon points="5,14 9,12 13,16 5,16" fill="#169da7"/><circle cx="17" cy="14" r="3" fill="#169da7" opacity="0.25"/><rect x="14" y="17" width="5" height="3" rx="0.5" fill="#169da7"/></svg> Collage fou à la Matisse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts plastiques</span>

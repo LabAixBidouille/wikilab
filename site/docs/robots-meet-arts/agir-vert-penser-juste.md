@@ -1,6 +1,6 @@
 ---
 id: agir-vert-penser-juste
-title: "Agir vert, penser juste"
+title: Agir vert, penser juste
 sidebar_label: "Agir vert, penser juste"
 sidebar_position: 17
 ---

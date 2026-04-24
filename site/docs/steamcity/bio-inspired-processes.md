@@ -1,6 +1,6 @@
 ---
 id: bio-inspired-processes
-title: "À la découverte des processus d'apprentissage bio-inspirés"
+title: Processus bio-inspirés
 sidebar_label: "Processus bio-inspirés"
 sidebar_position: 23
 ---
@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="9" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#DD5350" opacity="0.25"/><circle cx="8" cy="10" r="1.2" fill="#DD5350" opacity="1.0"/><circle cx="16" cy="10" r="1.2" fill="#DD5350" opacity="1.0"/><circle cx="12" cy="15" r="1.2" fill="#DD5350" opacity="1.0"/><line x1="8" y1="10" x2="16" y2="10" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/><line x1="8" y1="10" x2="12" y2="15" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/><line x1="16" y1="10" x2="12" y2="15" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/></svg> À la découverte des processus d'apprentissage bio-inspirés
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="9" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#DD5350" opacity="0.25"/><circle cx="8" cy="10" r="1.2" fill="#DD5350" opacity="1.0"/><circle cx="16" cy="10" r="1.2" fill="#DD5350" opacity="1.0"/><circle cx="12" cy="15" r="1.2" fill="#DD5350" opacity="1.0"/><line x1="8" y1="10" x2="16" y2="10" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/><line x1="8" y1="10" x2="12" y2="15" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/><line x1="16" y1="10" x2="12" y2="15" stroke="#DD5350" strokeWidth="0.8" opacity="1.0"/></svg> Processus bio-inspirés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

@@ -1,7 +1,7 @@
 ---
 id: robot-petit-dej
-title: "Le robot petit-déjeuner"
-sidebar_label: "Le robot petit-déjeuner"
+title: Robot petit-déjeuner
+sidebar_label: "Robot petit-déjeuner"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><ellipse cx="12" cy="16" rx="7" ry="3" fill="#169da7" opacity="0.1"/><path d="M5 14c0-3 3-6 7-6s7 3 7 6" fill="#169da7" opacity="0.25"/><ellipse cx="12" cy="14" rx="7" ry="2.5" stroke="#169da7" strokeWidth="1.2" fill="none"/><path d="M8 12c0-1 1-2 2-2M14 12c0-1-1-2-2-2" stroke="#169da7" strokeWidth="0.8" fill="none"/><path d="M19 14h2c.5 0 1 .5 1 1v1c0 .5-.5 1-1 1h-2" stroke="#169da7" strokeWidth="1" fill="none"/><rect x="10" y="4" width="4" height="4" rx="1" fill="#169da7" opacity="0.25"/><circle cx="11" cy="6" r="0.5" fill="#169da7"/><circle cx="13" cy="6" r="0.5" fill="#169da7"/></svg> Le robot petit-déjeuner
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><ellipse cx="12" cy="16" rx="7" ry="3" fill="#169da7" opacity="0.1"/><path d="M5 14c0-3 3-6 7-6s7 3 7 6" fill="#169da7" opacity="0.25"/><ellipse cx="12" cy="14" rx="7" ry="2.5" stroke="#169da7" strokeWidth="1.2" fill="none"/><path d="M8 12c0-1 1-2 2-2M14 12c0-1-1-2-2-2" stroke="#169da7" strokeWidth="0.8" fill="none"/><path d="M19 14h2c.5 0 1 .5 1 1v1c0 .5-.5 1-1 1h-2" stroke="#169da7" strokeWidth="1" fill="none"/><rect x="10" y="4" width="4" height="4" rx="1" fill="#169da7" opacity="0.25"/><circle cx="11" cy="6" r="0.5" fill="#169da7"/><circle cx="13" cy="6" r="0.5" fill="#169da7"/></svg> Robot petit-déjeuner
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

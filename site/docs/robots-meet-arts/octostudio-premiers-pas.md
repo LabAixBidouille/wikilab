@@ -1,6 +1,6 @@
 ---
 id: octostudio-premiers-pas
-title: "Premiers pas avec Octo Studio"
+title: Premiers pas avec Octo Studio
 sidebar_label: "Premiers pas avec Octo Studio"
 sidebar_position: 15
 ---

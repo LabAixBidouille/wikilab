@@ -1,7 +1,7 @@
 ---
 id: r1as10-ecran-oled
-title: Écran OLED
-sidebar_label: "Affichage de texte avec un écran OLED"
+title: Afficher du texte sur OLED
+sidebar_label: "Afficher du texte sur OLED"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="20" height="14" rx="2" fill="#140e4e" opacity="0.1"/><rect x="3" y="4" width="18" height="12" rx="1" fill="#140e4e" opacity="0.25"/><rect x="5" y="6" width="14" height="8" rx="0.5" fill="#140e4e" opacity="1.0"/><line x1="7" y1="9" x2="13" y2="9" stroke="#fff" strokeWidth="1" opacity="1.0"/><line x1="7" y1="11" x2="11" y2="11" stroke="#fff" strokeWidth="1" opacity="0.7"/><rect x="8" y="17" width="8" height="1.5" rx="0.5" fill="#140e4e" opacity="0.25"/><rect x="10" y="18.5" width="4" height="2" rx="0.5" fill="#140e4e" opacity="0.1"/></svg> Écran OLED : affichage de texte
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="20" height="14" rx="2" fill="#140e4e" opacity="0.1"/><rect x="3" y="4" width="18" height="12" rx="1" fill="#140e4e" opacity="0.25"/><rect x="5" y="6" width="14" height="8" rx="0.5" fill="#140e4e" opacity="1.0"/><line x1="7" y1="9" x2="13" y2="9" stroke="#fff" strokeWidth="1" opacity="1.0"/><line x1="7" y1="11" x2="11" y2="11" stroke="#fff" strokeWidth="1" opacity="0.7"/><rect x="8" y="17" width="8" height="1.5" rx="0.5" fill="#140e4e" opacity="0.25"/><rect x="10" y="18.5" width="4" height="2" rx="0.5" fill="#140e4e" opacity="0.1"/></svg> Afficher du texte sur OLED
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

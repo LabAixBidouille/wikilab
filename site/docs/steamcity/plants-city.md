@@ -1,7 +1,7 @@
 ---
 id: plants-city
-title: "Végétalisation urbaine grâce à l'IA"
-sidebar_label: "Végétalisation urbaine"
+title: Végétalisation urbaine par IA
+sidebar_label: "Végétalisation urbaine par IA"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M12 20V12" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round"/><path d="M12 12c0-4 3-6 6-6-1 3-3 5-6 6z" fill="#DD5350"/><path d="M12 14c0-4-3-7-6-7 1 3 3 6 6 7z" fill="#DD5350" opacity="0.25"/><path d="M8 20h8" stroke="#DD5350" strokeWidth="1" opacity="0.25"/></svg> Végétalisation urbaine grâce à l'IA
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M12 20V12" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round"/><path d="M12 12c0-4 3-6 6-6-1 3-3 5-6 6z" fill="#DD5350"/><path d="M12 14c0-4-3-7-6-7 1 3 3 6 6 7z" fill="#DD5350" opacity="0.25"/><path d="M8 20h8" stroke="#DD5350" strokeWidth="1" opacity="0.25"/></svg> Végétalisation urbaine par IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie / SVT</span>

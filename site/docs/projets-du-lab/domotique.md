@@ -1,11 +1,11 @@
 ---
 id: domotique
-title: "Domotique"
-sidebar_label: "Domotique"
+title: Domotique MQTT
+sidebar_label: "Domotique MQTT"
 sidebar_position: 4
 ---
 
-# Domotique
+# Domotique MQTT
 
 Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes domotiques en utilisant des briques matérielles et logicielles existantes ou conçues au LAB.
 

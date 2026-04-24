@@ -1,11 +1,11 @@
 ---
 id: musique-capteur-distance-laser
-title: "De la musique avec un capteur de distance laser"
-sidebar_label: "Musique laser"
+title: Musique au capteur laser
+sidebar_label: "Musique au capteur laser"
 sidebar_position: 12
 ---
 
-# De la musique avec un capteur de distance laser
+# Musique au capteur laser
 
 ### Présentation
 

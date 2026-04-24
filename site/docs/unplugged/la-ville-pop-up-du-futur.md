@@ -1,7 +1,7 @@
 ---
 id: la-ville-pop-up-du-futur
-title: "La ville pop-up du futur"
-sidebar_label: "La ville pop-up du futur"
+title: Ville pop-up du futur
+sidebar_label: "Ville pop-up du futur"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><path d="M3 20L12 4L21 20z" fill="#0081A7" opacity="0.25"/><rect x="8" y="11" width="8" height="9" fill="#0081A7"/><rect x="9.5" y="13" width="2" height="2" fill="white"/><rect x="12.5" y="13" width="2" height="2" fill="white"/><rect x="10.5" y="17" width="3" height="3" fill="white"/><path d="M5 20V15L8 12V20z" fill="#0081A7" opacity="0.25"/><path d="M19 20V15L16 12V20z" fill="#0081A7" opacity="0.25"/></svg> La ville pop-up du futur
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><path d="M3 20L12 4L21 20z" fill="#0081A7" opacity="0.25"/><rect x="8" y="11" width="8" height="9" fill="#0081A7"/><rect x="9.5" y="13" width="2" height="2" fill="white"/><rect x="12.5" y="13" width="2" height="2" fill="white"/><rect x="10.5" y="17" width="3" height="3" fill="white"/><path d="M5 20V15L8 12V20z" fill="#0081A7" opacity="0.25"/><path d="M19 20V15L16 12V20z" fill="#0081A7" opacity="0.25"/></svg> Ville pop-up du futur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

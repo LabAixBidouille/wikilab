@@ -1,7 +1,7 @@
 ---
 id: realiser-pochoirs-decoupe
-title: "Pochoirs avec découpe vinyle"
-sidebar_label: "Pochoirs découpe vinyle"
+title: Pochoirs en découpe vinyle
+sidebar_label: "Pochoirs en découpe vinyle"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M9 3l1.5 8L6 18h12l-4.5-7L15 3" fill="#1198f0" opacity="0.25"/><path d="M8 20c0-1 1.5-2 4-2s4 1 4 2" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M10 4l2 9M14 4l-2 9" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="15" r="1.5" fill="#1198f0"/></svg> Pochoirs avec découpe vinyle
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M9 3l1.5 8L6 18h12l-4.5-7L15 3" fill="#1198f0" opacity="0.25"/><path d="M8 20c0-1 1.5-2 4-2s4 1 4 2" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M10 4l2 9M14 4l-2 9" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="12" cy="15" r="1.5" fill="#1198f0"/></svg> Pochoirs en découpe vinyle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

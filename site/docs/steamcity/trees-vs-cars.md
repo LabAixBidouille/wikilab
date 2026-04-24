@@ -1,7 +1,7 @@
 ---
 id: trees-vs-cars
-title: "Trees VS Cars : identifier les véhicules polluants"
-sidebar_label: "Trees VS Cars"
+title: Véhicules polluants en ville
+sidebar_label: "Véhicules polluants en ville"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M6 18l3-5 2 3 3-7 2 4 2-2" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/><circle cx="8" cy="8" r="1.5" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="6" r="1" fill="#DD5350" opacity="0.25"/><rect x="15" y="15" width="5" height="3" rx="0.5" fill="#DD5350"/></svg> Trees VS Cars : identifier les véhicules polluants
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M6 18l3-5 2 3 3-7 2 4 2-2" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/><circle cx="8" cy="8" r="1.5" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="6" r="1" fill="#DD5350" opacity="0.25"/><rect x="15" y="15" width="5" height="3" rx="0.5" fill="#DD5350"/></svg> Véhicules polluants en ville
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

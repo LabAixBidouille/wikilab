@@ -9,12 +9,14 @@ import {
   toolLabels,
   softwareLabels,
   projectLabels,
+  categoryLabels,
   difficultyLabels,
   type Discipline,
   type Format,
   type Tool,
   type Software,
   type Project,
+  type Category,
   type Resource,
 } from '../data/resources';
 
@@ -22,6 +24,7 @@ type Difficulty = keyof typeof difficultyLabels;
 
 interface Filters {
   query: string;
+  categories: Set<Category>;
   projects: Set<Project>;
   disciplines: Set<Discipline>;
   tools: Set<Tool>;
@@ -35,6 +38,7 @@ interface Filters {
 
 const INITIAL_FILTERS: Filters = {
   query: '',
+  categories: new Set(),
   projects: new Set(),
   disciplines: new Set(),
   tools: new Set(),
@@ -45,6 +49,21 @@ const INITIAL_FILTERS: Filters = {
   ageMax: 18,
   maxDuration: 240,
 };
+
+// Ordre pédagogique d'affichage des catégories
+const CATEGORY_ORDER: Category[] = [
+  'animation-jeunesse',
+  'programmation',
+  'robotique-ludique',
+  'exploration-scientifique',
+  'ia-esprit-critique',
+  'citoyennete-territoire',
+  'environnement-nature',
+  'sequences-debranchees',
+  'theatre-sciences',
+  'arts-creativite',
+  'makers-fabrication',
+];
 
 function toggle<T>(set: Set<T>, value: T): Set<T> {
   const next = new Set(set);
@@ -58,16 +77,19 @@ function FilterGroup<T extends string>({
   labels,
   selected,
   onToggle,
+  order,
 }: {
   legend: string;
   labels: Record<T, string>;
   selected: Set<T>;
   onToggle: (value: T) => void;
+  order?: T[];
 }) {
+  const keys = order ?? (Object.keys(labels) as T[]);
   return (
     <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
       <legend><strong>{legend}</strong></legend>
-      {(Object.keys(labels) as T[]).map((key) => (
+      {keys.map((key) => (
         <label key={key} style={{display: 'block'}}>
           <input
             type="checkbox"
@@ -78,6 +100,79 @@ function FilterGroup<T extends string>({
         </label>
       ))}
     </fieldset>
+  );
+}
+
+function ResourceCard({r}: {r: Resource}) {
+  return (
+    <Link
+      to={r.slug}
+      className="card"
+      style={{
+        padding: '1rem',
+        textDecoration: 'none',
+        color: 'inherit',
+        height: '100%',
+        display: 'flex',
+        flexDirection: 'column',
+      }}
+    >
+      <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+        {r.thumbnail && (
+          <img
+            src={r.thumbnail}
+            alt=""
+            style={{
+              width: '45px',
+              height: '45px',
+              objectFit: 'contain',
+              flexShrink: 0,
+            }}
+          />
+        )}
+        <div>
+          <div
+            style={{
+              fontSize: '0.75rem',
+              textTransform: 'uppercase',
+              opacity: 0.7,
+            }}
+          >
+            {projectLabels[r.project]}
+          </div>
+          <h3 style={{marginTop: '0.15rem', marginBottom: 0}}>{r.title}</h3>
+        </div>
+      </div>
+      <p style={{fontSize: '0.9rem', marginTop: '0.75rem'}}>{r.summary}</p>
+      <div style={{fontSize: '0.8rem', opacity: 0.8, marginTop: 'auto'}}>
+        {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}
+        {difficultyLabels[r.difficulty]}
+      </div>
+      <div style={{marginTop: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.25rem'}}>
+        {r.categories.map((c) => (
+          <span
+            key={c}
+            title={categoryLabels[c]}
+            style={{
+              fontSize: '1rem',
+              lineHeight: 1,
+            }}
+          >
+            {categoryLabels[c].split(' ')[0]}
+          </span>
+        ))}
+        {r.tools.map((t) => (
+          <span key={t} className="badge badge--info">
+            {toolLabels[t]}
+          </span>
+        ))}
+        {r.software.map((s) => (
+          <span key={s} className="badge badge--warning">
+            {softwareLabels[s]}
+          </span>
+        ))}
+      </div>
+    </Link>
   );
 }
 
@@ -100,6 +195,11 @@ export default function Catalogue(): React.ReactElement {
       : resources;
 
     return list.filter((r) => {
+      if (
+        filters.categories.size > 0 &&
+        !r.categories.some((c) => filters.categories.has(c))
+      )
+        return false;
       if (filters.projects.size > 0 && !filters.projects.has(r.project))
         return false;
       if (
@@ -133,6 +233,25 @@ export default function Catalogue(): React.ReactElement {
     });
   }, [filters, fuse]);
 
+  // Groupement par catégorie uniquement quand un filtre catégorie est actif
+  const grouped = useMemo(() => {
+    if (filters.categories.size === 0) return null;
+    const visibleCategories = CATEGORY_ORDER.filter((c) =>
+      filters.categories.has(c),
+    );
+    return visibleCategories
+      .map((cat) => ({
+        category: cat,
+        items: results.filter((r) => r.categories.includes(cat)),
+      }))
+      .filter((g) => g.items.length > 0);
+  }, [results, filters.categories]);
+
+  const totalDisplayed = grouped
+    ? grouped.reduce((n, g) => n + g.items.length, 0)
+    : results.length;
+  const uniqueCount = results.length;
+
   const reset = () => setFilters(INITIAL_FILTERS);
 
   return (
@@ -143,8 +262,10 @@ export default function Catalogue(): React.ReactElement {
       <main className="container margin-vert--lg">
         <h1>Catalogue des ressources</h1>
         <p>
-          Filtrez les fiches d'activité par projet, discipline, outil,
-          environnement de programmation, âge, durée, difficulté ou mot-clé.
+          Parcourez les fiches d'activité par approche pédagogique. Utilisez
+          les filtres pour affiner par projet, discipline, outil, âge, durée
+          ou mot-clé. Chaque fiche apparaît dans toutes les catégories qui la
+          concernent.
         </p>
 
         <div
@@ -169,6 +290,19 @@ export default function Catalogue(): React.ReactElement {
                   padding: '0.5rem',
                   marginBottom: '1rem',
                 }}
+              />
+
+              <FilterGroup
+                legend="Approche pédagogique"
+                labels={categoryLabels}
+                order={CATEGORY_ORDER}
+                selected={filters.categories}
+                onToggle={(v) =>
+                  setFilters({
+                    ...filters,
+                    categories: toggle(filters.categories, v),
+                  })
+                }
               />
 
               <FilterGroup
@@ -202,7 +336,7 @@ export default function Catalogue(): React.ReactElement {
               />
 
               <FilterGroup
-                legend="Programmation"
+                legend="Outils informatiques"
                 labels={softwareLabels}
                 selected={filters.software}
                 onToggle={(v) =>
@@ -308,82 +442,71 @@ export default function Catalogue(): React.ReactElement {
 
           <section>
             <p>
-              <strong>{results.length}</strong> ressource
-              {results.length > 1 ? 's' : ''} trouvée
-              {results.length > 1 ? 's' : ''}
+              <strong>{uniqueCount}</strong> fiche{uniqueCount > 1 ? 's' : ''}
+              {' '}trouvée{uniqueCount > 1 ? 's' : ''}
+              {totalDisplayed !== uniqueCount && (
+                <span style={{opacity: 0.7}}>
+                  {' '}
+                  · {totalDisplayed} affichages au total (certaines fiches
+                  apparaissent dans plusieurs catégories)
+                </span>
+              )}
             </p>
 
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-                gap: '1rem',
-              }}
-            >
-              {results.map((r) => (
-                <Link
-                  key={r.id}
-                  to={r.slug}
-                  className="card"
-                  style={{
-                    padding: '1rem',
-                    textDecoration: 'none',
-                    color: 'inherit',
-                  }}
-                >
-                  <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
-                    {r.thumbnail && (
-                      <img
-                        src={r.thumbnail}
-                        alt=""
-                        style={{
-                          width: '45px',
-                          height: '45px',
-                          objectFit: 'contain',
-                          flexShrink: 0,
-                        }}
-                      />
-                    )}
-                    <div>
-                      <div
-                        style={{
-                          fontSize: '0.75rem',
-                          textTransform: 'uppercase',
-                          opacity: 0.7,
-                        }}
-                      >
-                        {projectLabels[r.project]}
-                      </div>
-                      <h3 style={{marginTop: '0.15rem', marginBottom: 0}}>{r.title}</h3>
-                    </div>
-                  </div>
-                  <div>
-                  <p style={{fontSize: '0.9rem'}}>{r.summary}</p>
-                  <div style={{fontSize: '0.8rem', opacity: 0.8}}>
-                    {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}
-                    {difficultyLabels[r.difficulty]}
-                  </div>
-                  <div style={{marginTop: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.25rem'}}>
-                    {r.disciplines.map((d) => (
-                      <span key={d} className="badge badge--primary">
-                        {disciplineLabels[d]}
-                      </span>
-                    ))}
-                    {r.tools.map((t) => (
-                      <span key={t} className="badge badge--info">
-                        {toolLabels[t]}
-                      </span>
-                    ))}
-                    {r.software.map((s) => (
-                      <span key={s} className="badge badge--warning">
-                        {softwareLabels[s]}
-                      </span>
+            {results.length === 0 && (
+              <p style={{opacity: 0.7, fontStyle: 'italic'}}>
+                Aucune ressource ne correspond à ces filtres.
+              </p>
+            )}
+
+            {grouped ? (
+              grouped.map(({category, items}) => (
+                <section key={category} style={{marginBottom: '2.5rem'}}>
+                  <h2
+                    style={{
+                      borderBottom: '2px solid var(--ifm-color-emphasis-300)',
+                      paddingBottom: '0.4rem',
+                      marginBottom: '1rem',
+                    }}
+                  >
+                    {categoryLabels[category]}
+                    <span
+                      style={{
+                        fontSize: '0.9rem',
+                        opacity: 0.6,
+                        marginLeft: '0.5rem',
+                        fontWeight: 'normal',
+                      }}
+                    >
+                      ({items.length})
+                    </span>
+                  </h2>
+                  <div
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                      gap: '1rem',
+                    }}
+                  >
+                    {items.map((r) => (
+                      <ResourceCard key={`${category}-${r.id}`} r={r} />
                     ))}
                   </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
+                </section>
+              ))
+            ) : (
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                  gap: '1rem',
+                }}
+              >
+                {results.map((r) => (
+                  <ResourceCard key={r.id} r={r} />
+                ))}
+              </div>
+            )}
           </section>
         </div>
       </main>

@@ -1,7 +1,7 @@
 ---
 id: solution-meteo
-title: "Pouvons-nous construire une solution pour accéder aux informations météorologiques ?"
-sidebar_label: "Station météo"
+title: Station météo complète
+sidebar_label: "Station météo complète"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="16" cy="8" r="3" fill="#1a4a48" opacity="1.0"/><path d="M5 14c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5c1.5 0 3 1 3 3s-1.5 3-3 3h-9c-2 0-3.5-1.5-3.5-3.5S3 13.5 5 14z" fill="#1a4a48" opacity="0.25"/><line x1="6" y1="20" x2="5" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="10" y1="20" x2="9" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="14" y1="20" x2="13" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/></svg> Pouvons-nous construire une solution pour accéder aux informations météorologiques ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="16" cy="8" r="3" fill="#1a4a48" opacity="1.0"/><path d="M5 14c0-2.5 2-4.5 4.5-4.5s4.5 2 4.5 4.5c1.5 0 3 1 3 3s-1.5 3-3 3h-9c-2 0-3.5-1.5-3.5-3.5S3 13.5 5 14z" fill="#1a4a48" opacity="0.25"/><line x1="6" y1="20" x2="5" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="10" y1="20" x2="9" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="14" y1="20" x2="13" y2="22" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/></svg> Station météo complète
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

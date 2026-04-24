@@ -1,11 +1,11 @@
 ---
 id: reparer-porte-frigo
-title: "Réparer une porte de frigo avec une imprimante 3D"
-sidebar_label: "Réparation porte frigo"
+title: Réparer une porte de frigo en 3D
+sidebar_label: "Réparer une porte de frigo en 3D"
 sidebar_position: 19
 ---
 
-# Réparer une porte de frigo avec une imprimante 3D
+# Réparer une porte de frigo en 3D
 
 ### Présentation
 

@@ -1,7 +1,7 @@
 ---
 id: binary-counting
-title: "Comptage binaire"
-sidebar_label: "Comptage binaire"
+title: Compter en binaire
+sidebar_label: "Compter en binaire"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="4" width="20" height="16" rx="2" fill="#0081A7" opacity="0.1"/><text x="6" y="14" fontSize="8" fontWeight="bold" fill="#0081A7" opacity="0.25">0</text><text x="13" y="14" fontSize="8" fontWeight="bold" fill="#0081A7">1</text><text x="6" y="20" fontSize="5" fontWeight="bold" fill="#0081A7">1</text><text x="11" y="20" fontSize="5" fontWeight="bold" fill="#0081A7" opacity="0.25">0</text><text x="16" y="20" fontSize="5" fontWeight="bold" fill="#0081A7">1</text></svg> Comptage binaire
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="4" width="20" height="16" rx="2" fill="#0081A7" opacity="0.1"/><text x="6" y="14" fontSize="8" fontWeight="bold" fill="#0081A7" opacity="0.25">0</text><text x="13" y="14" fontSize="8" fontWeight="bold" fill="#0081A7">1</text><text x="6" y="20" fontSize="5" fontWeight="bold" fill="#0081A7">1</text><text x="11" y="20" fontSize="5" fontWeight="bold" fill="#0081A7" opacity="0.25">0</text><text x="16" y="20" fontSize="5" fontWeight="bold" fill="#0081A7">1</text></svg> Compter en binaire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

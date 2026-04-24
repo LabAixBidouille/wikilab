@@ -1,7 +1,7 @@
 ---
 id: equal
-title: "Equal"
-sidebar_label: "Equal"
+title: "Equal : égalité et stéréotypes"
+sidebar_label: "Equal : égalité et stéréotypes"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2" fill="#0081A7" opacity="0.1"/><line x1="12" y1="6" x2="12" y2="14" stroke="#0081A7" strokeWidth="1.5"/><line x1="5" y1="9" x2="19" y2="9" stroke="#0081A7" strokeWidth="1.5"/><path d="M5 9l-2 6h6l-2-6" fill="#0081A7" opacity="0.25" stroke="#0081A7" strokeWidth="1"/><path d="M19 9l-2 6h6l-2-6" fill="#0081A7" opacity="0.25" stroke="#0081A7" strokeWidth="1"/><path d="M3 15c0 1.1 1.3 2 3 2s3-.9 3-2" fill="none" stroke="#0081A7" strokeWidth="1"/><path d="M17 15c0 1.1 1.3 2 3 2s3-.9 3-2" fill="none" stroke="#0081A7" strokeWidth="1"/><rect x="9" y="19" width="6" height="2" rx="0.5" fill="#0081A7"/></svg> Equal
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2" fill="#0081A7" opacity="0.1"/><line x1="12" y1="6" x2="12" y2="14" stroke="#0081A7" strokeWidth="1.5"/><line x1="5" y1="9" x2="19" y2="9" stroke="#0081A7" strokeWidth="1.5"/><path d="M5 9l-2 6h6l-2-6" fill="#0081A7" opacity="0.25" stroke="#0081A7" strokeWidth="1"/><path d="M19 9l-2 6h6l-2-6" fill="#0081A7" opacity="0.25" stroke="#0081A7" strokeWidth="1"/><path d="M3 15c0 1.1 1.3 2 3 2s3-.9 3-2" fill="none" stroke="#0081A7" strokeWidth="1"/><path d="M17 15c0 1.1 1.3 2 3 2s3-.9 3-2" fill="none" stroke="#0081A7" strokeWidth="1"/><rect x="9" y="19" width="6" height="2" rx="0.5" fill="#0081A7"/></svg> Equal : égalité et stéréotypes
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

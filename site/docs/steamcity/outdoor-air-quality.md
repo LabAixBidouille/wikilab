@@ -1,6 +1,6 @@
 ---
 id: outdoor-air-quality
-title: "Qualité de l'air extérieur et impact de la météo"
+title: "Qualité de l'air extérieur"
 sidebar_label: "Qualité de l'air extérieur"
 sidebar_position: 4
 ---
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="9" cy="8" r="3" fill="#DD5350" opacity="0.25"/><circle cx="15" cy="8" r="2" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="6" r="2.5" fill="#DD5350" opacity="0.25"/><path d="M5 18l2-4 3 2 4-6 3 4 2-1" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg> Qualité de l'air extérieur et impact de la météo
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="9" cy="8" r="3" fill="#DD5350" opacity="0.25"/><circle cx="15" cy="8" r="2" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="6" r="2.5" fill="#DD5350" opacity="0.25"/><path d="M5 18l2-4 3 2 4-6 3 4 2-1" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/></svg> Qualité de l'air extérieur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

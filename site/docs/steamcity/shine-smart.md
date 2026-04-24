@@ -1,7 +1,7 @@
 ---
 id: shine-smart
-title: "Shine Smart, Shine Bright"
-sidebar_label: "Shine Smart, Shine Bright"
+title: Éclairage urbain intelligent
+sidebar_label: "Éclairage urbain intelligent"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="10" r="7" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="10" r="4" fill="#DD5350" opacity="0.25"/><line x1="12" y1="3" x2="12" y2="1" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="6" y1="5" x2="4.5" y2="3.5" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><rect x="9" y="18" width="6" height="3" rx="1" fill="#DD5350" opacity="1.0"/><line x1="10" y1="17" x2="14" y2="17" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/></svg> Shine Smart, Shine Bright
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="10" r="7" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="10" r="4" fill="#DD5350" opacity="0.25"/><line x1="12" y1="3" x2="12" y2="1" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="6" y1="5" x2="4.5" y2="3.5" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><rect x="9" y="18" width="6" height="3" rx="1" fill="#DD5350" opacity="1.0"/><line x1="10" y1="17" x2="14" y2="17" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/></svg> Éclairage urbain intelligent
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

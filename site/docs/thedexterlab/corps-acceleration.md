@@ -1,6 +1,6 @@
 ---
 id: corps-acceleration
-title: "Est-ce que notre corps ou ses parties sont accélérés de plus de 1 g même si nous dansons comme des fous ?"
+title: Accélération du corps
 sidebar_label: "Accélération du corps"
 sidebar_position: 10
 ---
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2" fill="#1a4a48" opacity="1.0"/><path d="M12 6 L12 14" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8 L7 12" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8 L17 6" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 14 L9 21" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 14 L16 20" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M17 6 Q19 4 20 6" stroke="#1a4a48" strokeWidth="1" fill="none" opacity="0.1"/><path d="M20 6 L21 5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/><path d="M20 6 L21 7" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/></svg> Est-ce que notre corps ou ses parties sont accélérés de plus de 1 g ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="4" r="2" fill="#1a4a48" opacity="1.0"/><path d="M12 6 L12 14" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8 L7 12" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 8 L17 6" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 14 L9 21" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M12 14 L16 20" stroke="#1a4a48" strokeWidth="1.5" opacity="0.25"/><path d="M17 6 Q19 4 20 6" stroke="#1a4a48" strokeWidth="1" fill="none" opacity="0.1"/><path d="M20 6 L21 5" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/><path d="M20 6 L21 7" stroke="#1a4a48" strokeWidth="1" opacity="0.1"/></svg> Accélération du corps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

@@ -1,7 +1,7 @@
 ---
 id: distraction-temps-reaction
-title: "La distraction peut-elle modifier votre temps de réaction ?"
-sidebar_label: "Distraction et temps de réaction"
+title: Distractions et temps de réaction
+sidebar_label: "Distractions et temps de réaction"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><path d="M8 9a4 4 0 1 1 8 0c0 2-1 3-2 4l0 2h-4l0-2c-1-1-2-2-2-4z" fill="#1a4a48" opacity="0.25"/><rect x="9.5" y="17" width="5" height="1.5" rx="0.5" fill="#1a4a48" opacity="1.0"/><rect x="10" y="19" width="4" height="1" rx="0.5" fill="#1a4a48" opacity="1.0"/><line x1="3" y1="6" x2="6" y2="6" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="18" y1="6" x2="21" y2="6" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/></svg> La distraction peut-elle modifier votre temps de réaction ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><path d="M8 9a4 4 0 1 1 8 0c0 2-1 3-2 4l0 2h-4l0-2c-1-1-2-2-2-4z" fill="#1a4a48" opacity="0.25"/><rect x="9.5" y="17" width="5" height="1.5" rx="0.5" fill="#1a4a48" opacity="1.0"/><rect x="10" y="19" width="4" height="1" rx="0.5" fill="#1a4a48" opacity="1.0"/><line x1="3" y1="6" x2="6" y2="6" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/><line x1="18" y1="6" x2="21" y2="6" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0" strokeLinecap="round"/></svg> Distractions et temps de réaction
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

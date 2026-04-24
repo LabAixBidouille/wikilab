@@ -1,7 +1,7 @@
 ---
 id: bird-song-explorer
-title: "BirdSongs AI Explorer : explorer les chants d'oiseaux"
-sidebar_label: "BirdSongs AI Explorer"
+title: "Chants d'oiseaux par IA"
+sidebar_label: "Chants d'oiseaux par IA"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M8 14c-1-2 0-5 3-6s5 0 6 2c1 2 0 4-2 5l-1 1v2" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round"/><circle cx="13" cy="10" r="0.8" fill="#DD5350"/><path d="M17 8l2-1M17 6l1-2" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M7 17l-2 2M10 18v3" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="0.25"/></svg> BirdSongs AI Explorer : explorer les chants d'oiseaux
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><path d="M8 14c-1-2 0-5 3-6s5 0 6 2c1 2 0 4-2 5l-1 1v2" stroke="#DD5350" strokeWidth="1.5" fill="none" strokeLinecap="round"/><circle cx="13" cy="10" r="0.8" fill="#DD5350"/><path d="M17 8l2-1M17 6l1-2" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M7 17l-2 2M10 18v3" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="0.25"/></svg> Chants d'oiseaux par IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

@@ -1,7 +1,7 @@
 ---
 id: reduire-energie
-title: "Comment pouvons-nous réduire la quantité d'énergie que nous utilisons ?"
-sidebar_label: "Réduire la consommation d'énergie"
+title: "Réduire sa consommation d'énergie"
+sidebar_label: "Réduire sa consommation d'énergie"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M4 12 L12 4 L20 12 L20 20 L4 20 Z" fill="#1a4a48" opacity="0.1"/><path d="M6 12 L12 6 L18 12 L18 19 L6 19 Z" fill="#1a4a48" opacity="0.25"/><rect x="10" y="14" width="4" height="5" fill="#1a4a48" opacity="1.0"/><rect x="8" y="9" width="2.5" height="2.5" fill="#1a4a48" opacity="1.0"/><rect x="13.5" y="9" width="2.5" height="2.5" fill="#1a4a48" opacity="1.0"/></svg> Comment pouvons-nous réduire la quantité d'énergie que nous utilisons ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M4 12 L12 4 L20 12 L20 20 L4 20 Z" fill="#1a4a48" opacity="0.1"/><path d="M6 12 L12 6 L18 12 L18 19 L6 19 Z" fill="#1a4a48" opacity="0.25"/><rect x="10" y="14" width="4" height="5" fill="#1a4a48" opacity="1.0"/><rect x="8" y="9" width="2.5" height="2.5" fill="#1a4a48" opacity="1.0"/><rect x="13.5" y="9" width="2.5" height="2.5" fill="#1a4a48" opacity="1.0"/></svg> Réduire sa consommation d'énergie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

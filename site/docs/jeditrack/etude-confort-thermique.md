@@ -1,7 +1,7 @@
 ---
 id: etude-confort-thermique
-title: "Étude du confort thermique"
-sidebar_label: "Confort thermique"
+title: Confort thermique urbain
+sidebar_label: "Confort thermique urbain"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="10.5" y="3" width="3" height="14" rx="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="18.5" r="3" fill="#1198f0"/><circle cx="12" cy="18.5" r="1.5" fill="#1198f0" opacity="0.1"/><rect x="11" y="9" width="2" height="8" rx="1" fill="#1198f0"/><line x1="15" y1="7" x2="17" y2="7" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="9" x2="16.5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="11" x2="17" y2="11" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="13" x2="16.5" y2="13" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Étude du confort thermique
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="10.5" y="3" width="3" height="14" rx="1.5" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="18.5" r="3" fill="#1198f0"/><circle cx="12" cy="18.5" r="1.5" fill="#1198f0" opacity="0.1"/><rect x="11" y="9" width="2" height="8" rx="1" fill="#1198f0"/><line x1="15" y1="7" x2="17" y2="7" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="9" x2="16.5" y2="9" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="11" x2="17" y2="11" stroke="#1198f0" strokeWidth="1" opacity="0.25"/><line x1="15" y1="13" x2="16.5" y2="13" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Confort thermique urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

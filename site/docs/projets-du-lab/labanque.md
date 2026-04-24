@@ -1,11 +1,11 @@
 ---
 id: labanque
-title: "LABanque : Monnaie complémentaire communautaire fondante"
-sidebar_label: "LABanque"
+title: "LABanque : monnaie du fablab"
+sidebar_label: "LABanque : monnaie du fablab"
 sidebar_position: 20
 ---
 
-# LABanque : Monnaie complémentaire communautaire fondante
+# LABanque : monnaie du fablab
 
 Picsous trésorier du LAB et forgeur d'écrous
 

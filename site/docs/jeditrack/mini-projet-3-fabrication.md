@@ -1,7 +1,7 @@
 ---
 id: mini-projet-3-fabrication
-title: "Fabrication d'un objet physique"
-sidebar_label: "Fabrication d'un objet"
+title: Fabriquer un objet physique
+sidebar_label: "Fabriquer un objet physique"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M14.7 6.3a1 1 0 0 0-1.4 0l-6 6a1 1 0 0 0-.3.7v3a1 1 0 0 0 1 1h3a1 1 0 0 0 .7-.3l6-6a1 1 0 0 0 0-1.4l-3-3z" fill="#1198f0" opacity="0.25"/><path d="M5 16l-2 2M16.5 3.5l4 4M3.5 20.5l2-2" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M14.7 6.3l3 3" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M2 22h6M18 2l4 4-10 10H8v-4L18 2z" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="1.0"/></svg> Fabrication d'un objet physique
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M14.7 6.3a1 1 0 0 0-1.4 0l-6 6a1 1 0 0 0-.3.7v3a1 1 0 0 0 1 1h3a1 1 0 0 0 .7-.3l6-6a1 1 0 0 0 0-1.4l-3-3z" fill="#1198f0" opacity="0.25"/><path d="M5 16l-2 2M16.5 3.5l4 4M3.5 20.5l2-2" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M14.7 6.3l3 3" stroke="#1198f0" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><path d="M2 22h6M18 2l4 4-10 10H8v-4L18 2z" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="1.0"/></svg> Fabriquer un objet physique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

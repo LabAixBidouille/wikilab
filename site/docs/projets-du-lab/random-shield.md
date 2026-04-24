@@ -1,11 +1,11 @@
 ---
 id: random-shield
-title: "Random Shield"
-sidebar_label: "Random Shield"
+title: Random Shield Arduino
+sidebar_label: "Random Shield Arduino"
 sidebar_position: 3
 ---
 
-# Random Shield
+# Random Shield Arduino
 
 ### Présentation du projet
 

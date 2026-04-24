@@ -1,6 +1,6 @@
 ---
 id: poverty-free-game-collection
-title: "Jeux anti-pauvreté (Poverty Free Game Collection)"
+title: Jeux anti-pauvreté
 sidebar_label: "Jeux anti-pauvreté"
 sidebar_position: 21
 ---
@@ -9,7 +9,7 @@ sidebar_position: 21
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="3" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><circle cx="8.5" cy="8.5" r="1.5" fill="#0081A7"/><circle cx="15.5" cy="8.5" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="12" r="1.5" fill="#0081A7"/><circle cx="8.5" cy="15.5" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="15.5" cy="15.5" r="1.5" fill="#0081A7"/></svg> Jeux anti-pauvrete (Poverty Free Game Collection)
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="3" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><circle cx="8.5" cy="8.5" r="1.5" fill="#0081A7"/><circle cx="15.5" cy="8.5" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="12" r="1.5" fill="#0081A7"/><circle cx="8.5" cy="15.5" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="15.5" cy="15.5" r="1.5" fill="#0081A7"/></svg> Jeux anti-pauvreté
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

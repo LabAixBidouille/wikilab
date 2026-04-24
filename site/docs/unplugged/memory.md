@@ -1,7 +1,7 @@
 ---
 id: memory
-title: "Memory"
-sidebar_label: "Memory"
+title: Memory éducatif
+sidebar_label: "Memory éducatif"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="9" height="12" rx="1.5" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><rect x="13" y="3" width="9" height="12" rx="1.5" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><text x="6.5" y="11" fontSize="7" fontWeight="bold" fill="#0081A7" textAnchor="middle">?</text><text x="17.5" y="11" fontSize="7" fontWeight="bold" fill="#0081A7" opacity="0.25" textAnchor="middle">?</text><path d="M6 18 C6 17, 8 16, 12 16 C16 16, 18 17, 18 18 C18 19, 16 21, 12 21 C8 21, 6 19, 6 18 Z" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="18.5" r="1.5" fill="#0081A7"/></svg> Memory
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" width="9" height="12" rx="1.5" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><rect x="13" y="3" width="9" height="12" rx="1.5" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><text x="6.5" y="11" fontSize="7" fontWeight="bold" fill="#0081A7" textAnchor="middle">?</text><text x="17.5" y="11" fontSize="7" fontWeight="bold" fill="#0081A7" opacity="0.25" textAnchor="middle">?</text><path d="M6 18 C6 17, 8 16, 12 16 C16 16, 18 17, 18 18 C18 19, 16 21, 12 21 C8 21, 6 19, 6 18 Z" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="18.5" r="1.5" fill="#0081A7"/></svg> Memory éducatif
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

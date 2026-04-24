@@ -1,7 +1,7 @@
 ---
 id: dr-hanoi
-title: "Dr. Hanoï"
-sidebar_label: "Dr. Hanoï"
+title: Les tours de Hanoï
+sidebar_label: "Les tours de Hanoï"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="19" width="18" height="2" rx="0.5" fill="#0081A7" opacity="0.1"/><line x1="7" y1="5" x2="7" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><line x1="12" y1="9" x2="12" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><line x1="17" y1="5" x2="17" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><rect x="4" y="16" width="6" height="2.5" rx="1" fill="#0081A7"/><rect x="5" y="13" width="4" height="2.5" rx="1" fill="#0081A7" opacity="0.7"/><rect x="5.5" y="10" width="3" height="2.5" rx="1" fill="#0081A7" opacity="0.4"/></svg> Dr. Hanoi
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="19" width="18" height="2" rx="0.5" fill="#0081A7" opacity="0.1"/><line x1="7" y1="5" x2="7" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><line x1="12" y1="9" x2="12" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><line x1="17" y1="5" x2="17" y2="19" stroke="#0081A7" strokeWidth="1.5" opacity="0.25"/><rect x="4" y="16" width="6" height="2.5" rx="1" fill="#0081A7"/><rect x="5" y="13" width="4" height="2.5" rx="1" fill="#0081A7" opacity="0.7"/><rect x="5.5" y="10" width="3" height="2.5" rx="1" fill="#0081A7" opacity="0.4"/></svg> Les tours de Hanoï
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

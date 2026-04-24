@@ -1,7 +1,7 @@
 ---
 id: vent-chutes-eau-energie
-title: "Le vent et les chutes d'eau ont-ils de l'énergie ?"
-sidebar_label: "Vent, chutes d'eau et énergie"
+title: "Énergie du vent et de l'eau"
+sidebar_label: "Énergie du vent et de l'eau"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="2.5" fill="#1a4a48" opacity="1.0"/><path d="M12 12 L12 3 Q14 5 13 8 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L21 12 Q19 14 16 13 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L12 21 Q10 19 11 16 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L3 12 Q5 10 8 11 Z" fill="#1a4a48" opacity="0.25"/><path d="M2 18 Q6 16 10 18 Q14 20 18 18 Q22 16 22 18" stroke="#1a4a48" strokeWidth="1.2" fill="none" opacity="0.1"/></svg> Le vent et les chutes d'eau ont-ils de l'énergie ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="2.5" fill="#1a4a48" opacity="1.0"/><path d="M12 12 L12 3 Q14 5 13 8 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L21 12 Q19 14 16 13 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L12 21 Q10 19 11 16 Z" fill="#1a4a48" opacity="0.25"/><path d="M12 12 L3 12 Q5 10 8 11 Z" fill="#1a4a48" opacity="0.25"/><path d="M2 18 Q6 16 10 18 Q14 20 18 18 Q22 16 22 18" stroke="#1a4a48" strokeWidth="1.2" fill="none" opacity="0.1"/></svg> Énergie du vent et de l'eau
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

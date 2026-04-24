@@ -1,6 +1,6 @@
 ---
 id: creer-cartes-umap
-title: "Cartes collaboratives avec uMap"
+title: Cartes collaboratives uMap
 sidebar_label: "Cartes collaboratives uMap"
 sidebar_position: 9
 ---
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="9" r="3" fill="#1198f0"/><circle cx="6" cy="17" r="1" fill="#1198f0" opacity="0.25"/><circle cx="18" cy="15" r="0.8" fill="#1198f0" opacity="0.25"/><path d="M3 20 Q8 18 12 20 Q16 22 21 20" fill="none" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Cartes collaboratives avec uMap
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#1198f0" opacity="0.25"/><circle cx="12" cy="9" r="3" fill="#1198f0"/><circle cx="6" cy="17" r="1" fill="#1198f0" opacity="0.25"/><circle cx="18" cy="15" r="0.8" fill="#1198f0" opacity="0.25"/><path d="M3 20 Q8 18 12 20 Q16 22 21 20" fill="none" stroke="#1198f0" strokeWidth="1" opacity="0.25"/></svg> Cartes collaboratives uMap
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

@@ -1,6 +1,6 @@
 ---
 id: iterative-clues
-title: "Iterative clues"
+title: Iterative clues
 sidebar_label: "Iterative clues"
 sidebar_position: 14
 ---

@@ -1,7 +1,7 @@
 ---
 id: zzz
-title: "Light vs. Zzz : la grande bataille du sommeil"
-sidebar_label: "Light vs. Zzz"
+title: Lumière et sommeil
+sidebar_label: "Lumière et sommeil"
 sidebar_position: 25
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 25
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="14" r="8" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="14" r="5" fill="#DD5350" opacity="0.25"/><path d="M8 10 Q12 6 16 10" stroke="#DD5350" strokeWidth="1.5" fill="none" opacity="1.0"/><text x="14" y="7" fontSize="5" fontFamily="sans-serif" fill="#DD5350" fontWeight="bold" opacity="1.0">Z</text><text x="17" y="5" fontSize="4" fontFamily="sans-serif" fill="#DD5350" fontWeight="bold" opacity="0.7">z</text></svg> Light vs. Zzz : la grande bataille du sommeil
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="14" r="8" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="14" r="5" fill="#DD5350" opacity="0.25"/><path d="M8 10 Q12 6 16 10" stroke="#DD5350" strokeWidth="1.5" fill="none" opacity="1.0"/><text x="14" y="7" fontSize="5" fontFamily="sans-serif" fill="#DD5350" fontWeight="bold" opacity="1.0">Z</text><text x="17" y="5" fontSize="4" fontFamily="sans-serif" fill="#DD5350" fontWeight="bold" opacity="0.7">z</text></svg> Lumière et sommeil
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

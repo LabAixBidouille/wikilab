@@ -1,11 +1,11 @@
 ---
 id: harpe-laser
-title: "Harpe Laser MIDI"
-sidebar_label: "Harpe Laser"
+title: Harpe laser MIDI
+sidebar_label: "Harpe laser MIDI"
 sidebar_position: 11
 ---
 
-# Harpe Laser MIDI
+# Harpe laser MIDI
 
 ### Présentation
 

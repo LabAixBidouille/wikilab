@@ -1,6 +1,6 @@
 ---
 id: la-ville-parfaite
-title: "La ville parfaite"
+title: La ville parfaite
 sidebar_label: "La ville parfaite"
 sidebar_position: 16
 ---

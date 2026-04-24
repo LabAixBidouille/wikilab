@@ -1,7 +1,7 @@
 ---
 id: r1as14-minuteur
-title: Minuteur
-sidebar_label: "Créer un minuteur pour les oeufs"
+title: Minuteur à œufs électronique
+sidebar_label: "Minuteur à œufs électronique"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="13" r="9" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="13" r="7" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="13" r="1" fill="#140e4e"/><line x1="12" y1="13" x2="12" y2="8" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="13" x2="15" y2="15" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><rect x="10" y="2" width="4" height="2" rx="1" fill="#140e4e"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Minuteur : créer un minuteur pour les oeufs
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="13" r="9" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="13" r="7" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="13" r="1" fill="#140e4e"/><line x1="12" y1="13" x2="12" y2="8" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="13" x2="15" y2="15" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><rect x="10" y="2" width="4" height="2" rx="1" fill="#140e4e"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Minuteur à œufs électronique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

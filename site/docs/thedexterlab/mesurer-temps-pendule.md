@@ -1,7 +1,7 @@
 ---
 id: mesurer-temps-pendule
-title: "Puis-je mesurer le temps en faisant osciller un pendule ?"
-sidebar_label: "Mesurer le temps avec un pendule"
+title: Mesurer le temps au pendule
+sidebar_label: "Mesurer le temps au pendule"
 sidebar_position: 20
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><line x1="12" y1="3" x2="8" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25"/><line x1="12" y1="3" x2="12" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25" strokeDasharray="2 2"/><line x1="12" y1="3" x2="16" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25"/><circle cx="12" cy="3" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="8" cy="18" r="2" fill="#1a4a48" opacity="1.0"/></svg> Puis-je mesurer le temps en faisant osciller un pendule ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><line x1="12" y1="3" x2="8" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25"/><line x1="12" y1="3" x2="12" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25" strokeDasharray="2 2"/><line x1="12" y1="3" x2="16" y2="18" stroke="#1a4a48" strokeWidth="1.2" opacity="0.25"/><circle cx="12" cy="3" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="8" cy="18" r="2" fill="#1a4a48" opacity="1.0"/></svg> Mesurer le temps au pendule
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

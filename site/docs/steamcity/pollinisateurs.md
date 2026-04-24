@@ -1,7 +1,7 @@
 ---
 id: pollinisateurs
-title: "Les gardiens des fleurs : suivi des pollinisateurs"
-sidebar_label: "Pollinisateurs"
+title: Gardiens des pollinisateurs
+sidebar_label: "Gardiens des pollinisateurs"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="10" r="4" fill="#DD5350" opacity="0.25"/><ellipse cx="8" cy="8" rx="3" ry="2" fill="#DD5350" opacity="0.25" transform="rotate(-30 8 8)"/><ellipse cx="16" cy="8" rx="3" ry="2" fill="#DD5350" opacity="0.25" transform="rotate(30 16 8)"/><path d="M12 14v4M10 18h4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round"/><circle cx="12" cy="10" r="2" fill="#DD5350"/></svg> Les gardiens des fleurs : suivi des pollinisateurs
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="10" r="4" fill="#DD5350" opacity="0.25"/><ellipse cx="8" cy="8" rx="3" ry="2" fill="#DD5350" opacity="0.25" transform="rotate(-30 8 8)"/><ellipse cx="16" cy="8" rx="3" ry="2" fill="#DD5350" opacity="0.25" transform="rotate(30 16 8)"/><path d="M12 14v4M10 18h4" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round"/><circle cx="12" cy="10" r="2" fill="#DD5350"/></svg> Gardiens des pollinisateurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

@@ -1,7 +1,7 @@
 ---
 id: chasseurs-tresors
-title: "Chasseurs de trésors"
-sidebar_label: "Chasseurs de trésors"
+title: Chasse au trésor robotique
+sidebar_label: "Chasse au trésor robotique"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="10" width="16" height="10" rx="2" fill="#169da7" opacity="0.1"/><rect x="5" y="11" width="14" height="8" rx="1" fill="#169da7" opacity="0.25"/><path d="M4 10h16v2H4z" fill="#169da7"/><path d="M10 10V8a2 2 0 0 1 4 0v2" stroke="#169da7" strokeWidth="1.5" fill="none"/><circle cx="12" cy="15" r="1.5" fill="#169da7"/></svg> Chasseurs de trésors
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="10" width="16" height="10" rx="2" fill="#169da7" opacity="0.1"/><rect x="5" y="11" width="14" height="8" rx="1" fill="#169da7" opacity="0.25"/><path d="M4 10h16v2H4z" fill="#169da7"/><path d="M10 10V8a2 2 0 0 1 4 0v2" stroke="#169da7" strokeWidth="1.5" fill="none"/><circle cx="12" cy="15" r="1.5" fill="#169da7"/></svg> Chasse au trésor robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

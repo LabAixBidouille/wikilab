@@ -1,6 +1,6 @@
 ---
 id: temps-reaction-demi-seconde
-title: "Votre temps de réaction est-il inférieur à une demi-seconde ?"
+title: Temps de réaction
 sidebar_label: "Temps de réaction"
 sidebar_position: 13
 ---
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#1a4a48" opacity="0.25"/><line x1="12" y1="12" x2="12" y2="7" stroke="#1a4a48" strokeWidth="2" opacity="1.0" strokeLinecap="round"/><line x1="12" y1="12" x2="15" y2="14" stroke="#1a4a48" strokeWidth="2" opacity="1.0" strokeLinecap="round"/><circle cx="12" cy="12" r="1" fill="#1a4a48" opacity="1.0"/></svg> Votre temps de réaction est-il inférieur à une demi-seconde ?
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1a4a48" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#1a4a48" opacity="0.25"/><line x1="12" y1="12" x2="12" y2="7" stroke="#1a4a48" strokeWidth="2" opacity="1.0" strokeLinecap="round"/><line x1="12" y1="12" x2="15" y2="14" stroke="#1a4a48" strokeWidth="2" opacity="1.0" strokeLinecap="round"/><circle cx="12" cy="12" r="1" fill="#1a4a48" opacity="1.0"/></svg> Temps de réaction
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

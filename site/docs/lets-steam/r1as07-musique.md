@@ -1,7 +1,7 @@
 ---
 id: r1as07-musique
-title: Musique
-sidebar_label: "Musique : créons une mélodie"
+title: Composer une mélodie
+sidebar_label: "Composer une mélodie"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><path d="M9 17.5V7l10-2v10.5" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><ellipse cx="6.5" cy="17.5" rx="2.5" ry="2" fill="#140e4e" opacity="1.0"/><ellipse cx="16.5" cy="15.5" rx="2.5" ry="2" fill="#140e4e" opacity="1.0"/><line x1="9" y1="10" x2="19" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/></svg> Musique : créons une mélodie
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#140e4e" opacity="0.1"/><path d="M9 17.5V7l10-2v10.5" stroke="#140e4e" strokeWidth="1.5" fill="none" opacity="0.25"/><ellipse cx="6.5" cy="17.5" rx="2.5" ry="2" fill="#140e4e" opacity="1.0"/><ellipse cx="16.5" cy="15.5" rx="2.5" ry="2" fill="#140e4e" opacity="1.0"/><line x1="9" y1="10" x2="19" y2="8" stroke="#140e4e" strokeWidth="1" opacity="0.25"/></svg> Composer une mélodie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

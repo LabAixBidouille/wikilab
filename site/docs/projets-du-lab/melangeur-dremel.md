@@ -1,7 +1,7 @@
 ---
 id: melangeur-dremel
-title: "Mélangeur pour Dremel"
-sidebar_label: "Mélangeur Dremel"
+title: Mélangeur pour Dremel
+sidebar_label: "Mélangeur pour Dremel"
 sidebar_position: 18
 ---
 

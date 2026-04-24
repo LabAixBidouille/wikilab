@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-4
-title: "De l'eau, de l'eau partout"
-sidebar_label: "De l'eau, de l'eau partout"
+title: "Le cycle de l'eau en scène"
+sidebar_label: "Le cycle de l'eau en scène"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C12 2 6 10 6 15a6 6 0 0 0 12 0c0-5-6-13-6-13z" fill="#09246C" opacity="0.1"/><path d="M12 5C12 5 8 11 8 14.5a4 4 0 0 0 8 0C16 11 12 5 12 5z" fill="#09246C" opacity="0.25"/><path d="M12 8C12 8 10 12 10 14a2 2 0 0 0 4 0c0-2-2-6-2-6z" fill="#09246C"/><ellipse cx="11" cy="14.5" rx="0.8" ry="1.2" fill="#fff" opacity="0.5"/></svg> De l'eau, de l'eau partout
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M12 2C12 2 6 10 6 15a6 6 0 0 0 12 0c0-5-6-13-6-13z" fill="#09246C" opacity="0.1"/><path d="M12 5C12 5 8 11 8 14.5a4 4 0 0 0 8 0C16 11 12 5 12 5z" fill="#09246C" opacity="0.25"/><path d="M12 8C12 8 10 12 10 14a2 2 0 0 0 4 0c0-2-2-6-2-6z" fill="#09246C"/><ellipse cx="11" cy="14.5" rx="0.8" ry="1.2" fill="#fff" opacity="0.5"/></svg> Le cycle de l'eau en scène
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

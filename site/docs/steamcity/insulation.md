@@ -1,7 +1,7 @@
 ---
 id: insulation
-title: "Des murs isolés aux villes fraîches"
-sidebar_label: "Des murs isolés aux villes fraîches"
+title: Isolation des murs et villes fraîches
+sidebar_label: "Isolation des murs et villes fraîches"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="18" height="12" rx="2" fill="#DD5350" opacity="0.1"/><rect x="5" y="10" width="5" height="5" rx="1" fill="#DD5350" opacity="0.25"/><rect x="14" y="10" width="5" height="5" rx="1" fill="#DD5350" opacity="0.25"/><path d="M12 4L3 8h18L12 4z" fill="#DD5350" opacity="1.0"/><line x1="2" y1="20" x2="22" y2="20" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/></svg> Des murs isolés aux villes fraîches
+# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="8" width="18" height="12" rx="2" fill="#DD5350" opacity="0.1"/><rect x="5" y="10" width="5" height="5" rx="1" fill="#DD5350" opacity="0.25"/><rect x="14" y="10" width="5" height="5" rx="1" fill="#DD5350" opacity="0.25"/><path d="M12 4L3 8h18L12 4z" fill="#DD5350" opacity="1.0"/><line x1="2" y1="20" x2="22" y2="20" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/></svg> Isolation des murs et villes fraîches
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

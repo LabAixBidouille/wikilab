@@ -1,7 +1,7 @@
 ---
 id: chateau-reine-des-neiges
-title: "Château de la Reine des Neiges"
-sidebar_label: "Château Reine des Neiges"
+title: Château de la Reine des Neiges
+sidebar_label: "Château de la Reine des Neiges"
 sidebar_position: 16
 ---
 
