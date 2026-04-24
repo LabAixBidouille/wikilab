@@ -113,9 +113,13 @@ Matériel nécessaire :
 
 ## Étape 1 : définition et identification des formes d'énergie
 
-**Contexte et description du problème à résoudre à cette étape** : Bien que le terme "énergie" soit omniprésent dans le langage courant (crise énergétique, transition énergétique, économies d'énergie), sa définition précise reste souvent floue et abstraite pour les élèves. Cette première phase permet une première découverte simple et ludique du concept d'énergie. Par des activités concrètes et accessibles, les élèves sont invités à observer leur environnement quotidien pour repérer les différentes manifestations de l'énergie. Cette démarche introductive s'appuie sur l'observation et la manipulation pour construire collectivement une définition de l'énergie et de ses formes les plus courantes issue de gisements limités (fossiles : pétrole, charbon, gaz naturel ; fissile : uranium). L'accent est mis sur l'aspect pratique et interactif, permettant ainsi aux élèves de concrétiser ce concept abstrait.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Formuler une définition scientifique de l'énergie. Identifier et classifier les différentes formes d'énergie. Établir les relations entre énergie et transformations observables.
+Bien que le terme "énergie" soit omniprésent dans le langage courant (crise énergétique, transition énergétique, économies d'énergie), sa définition précise reste souvent floue et abstraite pour les élèves. Cette première phase permet une première découverte simple et ludique du concept d'énergie. Par des activités concrètes et accessibles, les élèves sont invités à observer leur environnement quotidien pour repérer les différentes manifestations de l'énergie. Cette démarche introductive s'appuie sur l'observation et la manipulation pour construire collectivement une définition de l'énergie et de ses formes les plus courantes issue de gisements limités (fossiles : pétrole, charbon, gaz naturel ; fissile : uranium). L'accent est mis sur l'aspect pratique et interactif, permettant ainsi aux élèves de concrétiser ce concept abstrait.
+
+### Objectifs d'apprentissage
+
+Formuler une définition scientifique de l'énergie. Identifier et classifier les différentes formes d'énergie. Établir les relations entre énergie et transformations observables.
 
 ### Conceptualisation
 
@@ -143,9 +147,9 @@ Cette phase vise à amener les élèves à construire collectivement une défini
 
 Dans notre proposition, nous utilisons la carte mentale pour illustrer la construction collective de la définition, mais l'enseignant peut choisir l'outil qui semble le plus pertinent pour sa classe.
 
-**Recueil des représentations initiales**
+#### Recueil des représentations initiales
 
-Objectif : Faire émerger les premières idées des élèves sur l'énergie pour amorcer la carte mentale.
+**Objectif :** Faire émerger les premières idées des élèves sur l'énergie pour amorcer la carte mentale.
 
 Les élèves répondent individuellement à un questionnaire explorant leurs conceptions de l'énergie. Ils partagent ensuite leurs réponses aux questions : ce qu'est l'énergie pour eux, des exemples d'énergie dans la classe et chez eux, si elle peut disparaître ou être créée. Les élèves notent leurs idées principales sur des post-it de couleur et les placent au tableau en regroupant celles qui semblent liées.
 
@@ -163,17 +167,17 @@ Soyez attentif aux confusions fréquentes (énergie/électricité, énergie/forc
 
 La carte mentale est simple et contient principalement les concepts intuitifs des élèves. On y trouve le terme central "ÉNERGIE" avec quelques branches principales par exemple : Sources (électricité, soleil, nourriture), Usages (chauffer, éclairer, bouger) et Sensations (force, chaleur, fatigue). À ce stade, la carte reflète les connaissances quotidiennes des élèves sans organisation spécifique.
 
-**Enrichissement documentaire**
+#### Enrichissement documentaire
 
-Objectif : Enrichir et compléter la carte mentale avec des informations issues de documents scientifiques, permettant aux élèves d'approfondir leur compréhension des différentes formes et caractéristiques de l'énergie.
+**Objectif :** Enrichir et compléter la carte mentale avec des informations issues de documents scientifiques, permettant aux élèves d'approfondir leur compréhension des différentes formes et caractéristiques de l'énergie.
 
 Les élèves explorent divers documents sur le concept d'énergie mis à leur disposition (textes scientifiques adaptés à leur niveau, schémas, infographies, extraits d'encyclopédies, vidéos, ressources en ligne). Ils notent sur des post-it d'une couleur différente les nouveaux mots-clés ou concepts découverts dans les documents consultés. Les élèves discutent en groupe des nouvelles notions identifiées avant de placer leurs nouveaux post-it sur la carte mentale en construction.
 
 Les élèves proposent de nouvelles catégories ou sous-catégories à ajouter à la carte en s'appuyant sur les informations recueillies dans les documents. Ils réorganisent collectivement les post-it en fonction des nouvelles connaissances et formulent oralement les liens entre les différentes parties. Certains élèves peuvent présenter brièvement un document qu'ils ont trouvé particulièrement intéressant ou éclairant pour le reste de la classe. À ce stade, les élèves proposent une première définition collective de l'énergie qui est notée au centre de la carte, définition qui sera affinée au fil des activités suivantes. La carte mentale s'enrichit avec une première définition de l'énergie comme "capacité à produire des actions". Une nouvelle branche "Formes" apparaît (mécanique, thermique, électrique) et une autre sur les "Caractéristiques" (se transforme). On trouve aussi l'apparition de la branche "Mesures" (joule, watt). Les concepts commencent à s'organiser de façon plus scientifique.
 
-**Classification des énergies**
+#### Classification des énergies
 
-Objectif : Classer les différentes sources d'énergie selon plusieurs critères (état, durabilité, origine, usage) pour mieux comprendre leur nature et leurs relations.
+**Objectif :** Classer les différentes sources d'énergie selon plusieurs critères (état, durabilité, origine, usage) pour mieux comprendre leur nature et leurs relations.
 
 Les élèves, répartis en groupes, manipulent des cartes, des objets ou des images représentant diverses sources d'énergie. Ils explorent différentes façons de les classer : selon leur état (naturel ou transformé), leur durabilité (renouvelable ou non), leur origine, ou encore leur usage. Les élèves justifient leurs choix de classification au sein du groupe avant de présenter leur travail au reste de la classe. Cette classification multiniveau permet aux élèves de mieux comprendre les différentes dimensions et interrelations entre les formes d'énergie.
 
@@ -183,9 +187,9 @@ Les élèves enrichissent ensuite la carte mentale collective en y intégrant ce
 
 La branche "Sources" se développe considérablement avec une organisation hiérarchique à trois niveaux : État (naturel, transformé), Durabilité (renouvelable, non-renouvelable) et Usages (électricité, chaleur, transport). La branche "Formes" s'enrichit avec l'ajout de l'énergie chimique, et les "Caractéristiques" intègrent la notion de transfert. Les mesures se complètent avec le kilowattheure (kWh).
 
-**Exploration des formes d'énergie**
+#### Exploration des formes d'énergie
 
-Objectif : Découvrir concrètement les différentes formes d'énergie à travers des expériences simples et manipulations pratiques, permettant aux élèves d'observer, de mesurer et de comprendre les manifestations de l'énergie dans notre environnement, pour enrichir et finaliser la carte mentale collective. Les élèves tournent en groupes entre quatre stations d'observation représentant différentes formes d'énergie.
+**Objectif :** Découvrir concrètement les différentes formes d'énergie à travers des expériences simples et manipulations pratiques, permettant aux élèves d'observer, de mesurer et de comprendre les manifestations de l'énergie dans notre environnement, pour enrichir et finaliser la carte mentale collective. Les élèves tournent en groupes entre quatre stations d'observation représentant différentes formes d'énergie.
 
 **Station chimique** : L'énergie chimique est l'énergie que des substances chimiques libèrent lors d'une réaction chimique pour se transformer en d'autres substances. L'énergie chimique peut être convertie en énergie électrique ou en énergie thermique. Les combustibles (fossiles ou non), les aliments et les piles sont des exemples de supports de stockage de l'énergie chimique. https://www.connaissancedesenergies.org/fiche-pedagogique/energie-chimique
 
@@ -228,11 +232,17 @@ Pour approfondir la réflexion et développer une compréhension plus nuancée d
 
 Comment une même forme d'énergie se manifeste-t-elle différemment dans notre quotidien ? Par exemple, l'énergie électrique peut produire de la lumière dans une ampoule, du mouvement dans un ventilateur, ou de la chaleur dans un radiateur. L'énergie mécanique peut se manifester par le mouvement d'une voiture, la vibration d'une corde de guitare, ou la rotation d'une éolienne. Quels sont les enjeux liés aux différentes sources d'énergie dans notre société ? Analyse des avantages et inconvénients : coût, impact environnemental, disponibilité, efficacité. Réflexion sur la transition énergétique et les choix de société associés. Comment observer les principes de conservation et de transformation de l'énergie au quotidien ? Dans les transports : transformation de l'énergie chimique du carburant en énergie mécanique et thermique. Dans la cuisine : transformations multiples lors de la cuisson des aliments. Comment notre compréhension de l'énergie influence-t-elle nos comportements ? Impact sur nos choix de consommation et nos habitudes quotidiennes. Développement d'une conscience écologique et énergétique responsable.
 
+---
+
 ## Étape 2 : impact environnemental et social des différentes formes d'énergie
 
-**Contexte et description du problème à résoudre à cette étape** : Après avoir exploré et identifié les différentes formes d'énergie dans la première phase, les élèves sont maintenant prêts à approfondir leur compréhension des implications plus larges de ces formes d'énergie. Dans cette deuxième phase, l'attention se porte sur les dimensions environnementales et sociales associées à la production, distribution, utilisation et fin de vie des différentes formes d'énergie. À travers des activités d'analyse en groupe et de réflexion collective, les élèves développent leur capacité à évaluer de manière critique les avantages et inconvénients des différentes options énergétiques. Cette approche permet de faire le lien entre les connaissances scientifiques acquises précédemment et les grandes problématiques contemporaines liées à l'énergie, favorisant ainsi une compréhension plus globale et contextualisée des enjeux énergétiques.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Analyser les impacts environnementaux des différentes formes d'énergie. Comprendre les implications sociales liées aux choix énergétiques. Développer un esprit critique face aux enjeux de la transition énergétique.
+Après avoir exploré et identifié les différentes formes d'énergie dans la première phase, les élèves sont maintenant prêts à approfondir leur compréhension des implications plus larges de ces formes d'énergie. Dans cette deuxième phase, l'attention se porte sur les dimensions environnementales et sociales associées à la production, distribution, utilisation et fin de vie des différentes formes d'énergie. À travers des activités d'analyse en groupe et de réflexion collective, les élèves développent leur capacité à évaluer de manière critique les avantages et inconvénients des différentes options énergétiques. Cette approche permet de faire le lien entre les connaissances scientifiques acquises précédemment et les grandes problématiques contemporaines liées à l'énergie, favorisant ainsi une compréhension plus globale et contextualisée des enjeux énergétiques.
+
+### Objectifs d'apprentissage
+
+Analyser les impacts environnementaux des différentes formes d'énergie. Comprendre les implications sociales liées aux choix énergétiques. Développer un esprit critique face aux enjeux de la transition énergétique.
 
 ### Conceptualisation
 
@@ -259,9 +269,9 @@ Cette phase s'appuie sur les connaissances acquises lors de la première phase p
 
 Dans notre proposition, nous utilisons principalement le tableau d'analyse à double entrée et l'organisation d'un débat structuré, mais l'enseignant peut adapter ces outils en fonction des caractéristiques de sa classe.
 
-**Organisation des groupes et préparation**
+#### Organisation des groupes et préparation
 
-Objectif : Structurer les groupes de travail et préparer le cadre d'analyse pour l'étude des impacts environnementaux et sociaux.
+**Objectif :** Structurer les groupes de travail et préparer le cadre d'analyse pour l'étude des impacts environnementaux et sociaux.
 
 La classe est organisée en groupe, chacun spécialisé sur une forme d'énergie particulière (mécanique, thermique, électrique, chimique). Chaque groupe reçoit un dossier documentaire contenant :
 
@@ -281,9 +291,9 @@ Les élèves commencent par explorer collectivement les documents et définissen
 
 Veillez à ce que les dossiers documentaires soient équilibrés et présentent des points de vue variés pour éviter tout biais. Les élèves doivent pouvoir accéder à des informations nuancées sur les avantages et inconvénients de chaque forme d'énergie.
 
-**Analyse des impacts environnementaux**
+#### Analyse des impacts environnementaux
 
-Objectif : Identifier et évaluer de manière systématique les impacts environnementaux positifs et négatifs des différentes formes d'énergie tout au long de leur cycle de vie.
+**Objectif :** Identifier et évaluer de manière systématique les impacts environnementaux positifs et négatifs des différentes formes d'énergie tout au long de leur cycle de vie.
 
 Chaque groupe travaille à l'élaboration d'un tableau d'analyse environnementale à double entrée pour sa forme d'énergie spécifique. Le tableau est structuré selon les différentes phases du cycle de vie (production, distribution, utilisation, fin de vie) et distingue les impacts positifs et négatifs.
 
@@ -328,9 +338,9 @@ Au terme de cette phase, chaque groupe présente brièvement son tableau environ
 
 Encouragez les élèves à distinguer les impacts locaux des impacts globaux, ainsi que les impacts à court terme de ceux à long terme. Cette distinction favorise une analyse plus nuancée et systémique.
 
-**Étude des impacts sociaux**
+#### Étude des impacts sociaux
 
-Objectif : Explorer les implications sociales multidimensionnelles des différentes formes d'énergie pour comprendre comment les choix énergétiques affectent les individus et les communautés.
+**Objectif :** Explorer les implications sociales multidimensionnelles des différentes formes d'énergie pour comprendre comment les choix énergétiques affectent les individus et les communautés.
 
 Après avoir analysé les impacts environnementaux, les groupes se concentrent maintenant sur les dimensions sociales de leur forme d'énergie. Pour structurer cette exploration, quatre axes principaux sont proposés :
 
@@ -386,11 +396,17 @@ Pour prolonger cette phase et ancrer davantage les apprentissages dans une déma
 
 Ces prolongements permettraient aux élèves de mobiliser leurs connaissances dans des contextes concrets, renforçant ainsi leur capacité d'action et leur sentiment de pouvoir contribuer positivement aux défis énergétiques contemporains.
 
+---
+
 ## Étape 3 : imaginer un monde sans l'une ou l'autre de ces formes d'énergie
 
-**Contexte et description du problème à résoudre à cette étape** : Après avoir exploré les différentes formes d'énergie (phase 1) et analysé leurs impacts environnementaux et sociaux (phase 2), cette troisième phase invite les élèves à développer leur pensée prospective et créative. À travers un exercice de projection, ils sont amenés à imaginer les conséquences systémiques qu'entraînerait l'absence d'une forme d'énergie spécifique. Cette démarche d'anticipation permet de mettre en évidence l'interdépendance entre les différentes formes d'énergie, leur place respective dans notre société, et les adaptations nécessaires en cas de pénurie ou de disparition. Par ce travail d'imagination structurée, les élèves développent une compréhension plus profonde des enjeux de résilience énergétique et des alternatives possibles face aux défis futurs.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Identifier les dépendances critiques à certaines formes d'énergie. Développer des scénarios d'adaptation face à une contrainte énergétique majeure. Comprendre les interconnexions entre les systèmes énergétiques, économiques et sociaux.
+Après avoir exploré les différentes formes d'énergie (phase 1) et analysé leurs impacts environnementaux et sociaux (phase 2), cette troisième phase invite les élèves à développer leur pensée prospective et créative. À travers un exercice de projection, ils sont amenés à imaginer les conséquences systémiques qu'entraînerait l'absence d'une forme d'énergie spécifique. Cette démarche d'anticipation permet de mettre en évidence l'interdépendance entre les différentes formes d'énergie, leur place respective dans notre société, et les adaptations nécessaires en cas de pénurie ou de disparition. Par ce travail d'imagination structurée, les élèves développent une compréhension plus profonde des enjeux de résilience énergétique et des alternatives possibles face aux défis futurs.
+
+### Objectifs d'apprentissage
+
+Identifier les dépendances critiques à certaines formes d'énergie. Développer des scénarios d'adaptation face à une contrainte énergétique majeure. Comprendre les interconnexions entre les systèmes énergétiques, économiques et sociaux.
 
 ### Conceptualisation
 
@@ -418,9 +434,9 @@ Cette phase mobilise particulièrement la pensée créative et prospective des �
 
 Dans notre proposition, nous combinons ces approches pour permettre aux élèves de développer une réflexion à la fois créative et rigoureuse sur les conséquences d'un monde sans une forme d'énergie spécifique.
 
-**Préparation et définition des scénarios**
+#### Préparation et définition des scénarios
 
-Objectif : Définir le cadre de réflexion et structurer les scénarios à explorer pour chaque groupe.
+**Objectif :** Définir le cadre de réflexion et structurer les scénarios à explorer pour chaque groupe.
 
 L'enseignant commence par une séance d'introduction expliquant l'objectif de cette nouvelle phase : il s'agit d'un exercice de prospective qui vise à imaginer un futur alternatif où une forme d'énergie serait absente ou drastiquement limitée.
 
@@ -475,9 +491,9 @@ Les élèves prennent un temps de réflexion individuelle pour noter leurs premi
 
 Encouragez les élèves à trouver un équilibre entre imagination créative et réalisme scientifique. Leurs scénarios doivent être à la fois originaux et ancrés dans les connaissances acquises lors des phases précédentes.
 
-**Analyse des impacts en cascade**
+#### Analyse des impacts en cascade
 
-Objectif : Identifier méthodiquement comment l'absence d'une forme d'énergie affecte différents secteurs de la société sur trois horizons temporels.
+**Objectif :** Identifier méthodiquement comment l'absence d'une forme d'énergie affecte différents secteurs de la société sur trois horizons temporels.
 
 Dans cette étape, chaque groupe analyse les impacts de la pénurie énergétique qui lui a été attribuée sur différents secteurs essentiels de la société. Cette analyse se fait selon les trois horizons temporels définis précédemment : urgence (1 semaine), adaptation (1 an) et transformation (10 ans). Les élèves utilisent une matrice d'analyse sectorielle (disponible en annexe "Matrice d'analyse sectorielle") pour structurer leur réflexion.
 
@@ -507,9 +523,9 @@ Exemple partiel pour le Groupe 2 (Vivre sans carburants liquides) :
 
 Après avoir complété leur matrice sectorielle, les groupes élaborent une représentation libre des "effets domino" montrant comment les différents secteurs s'influencent mutuellement. Par exemple, les problèmes de transport affectent l'alimentation, qui influence la santé, etc. Cette visualisation aide à comprendre les interdépendances systémiques.
 
-**Création de récits d'adaptation**
+#### Création de récits d'adaptation
 
-Objectif : Rendre vivantes et concrètes les adaptations identifiées en créant des récits réalistes qui illustrent comment individus et communautés s'adapteraient à chaque phase.
+**Objectif :** Rendre vivantes et concrètes les adaptations identifiées en créant des récits réalistes qui illustrent comment individus et communautés s'adapteraient à chaque phase.
 
 Après avoir analysé les impacts sectoriels, chaque groupe crée un "Guide du nouvel habitant" illustrant comment la vie quotidienne s'est réorganisée après 10 ans d'adaptation à la pénurie énergétique. Ce guide présente de façon simple et visuelle :
 
@@ -578,6 +594,10 @@ Pour ancrer ces apprentissages dans une perspective citoyenne active, plusieurs 
 - **Communication élargie** : Transformer les productions des élèves en supports de sensibilisation (exposition, site web, podcast) destinés aux autres classes ou aux familles, pour partager les prises de conscience et encourager la réflexion collective sur nos usages de l'énergie.
 
 Cette phase, en venant compléter les deux précédentes sur les formes d'énergie et leurs impacts environnementaux et sociaux, permet aux élèves de développer une compréhension véritablement intégrée des enjeux énergétiques contemporains, alliant connaissances scientifiques, conscience des impacts et réflexion prospective sur les possibles évolutions de notre rapport à l'énergie.
+
+---
+
+## Annexes
 
 ### Fiche d'observation
 

@@ -133,11 +133,17 @@ Le carnet est divisé en trois sections, chacune correspondant à une étape de 
 
 **OpenStreetMap** : OpenStreetMap est un projet de cartographie collaborative qui permet aux gens de contribuer et d'éditer des données géographiques pour créer des cartes gratuites et ouvertes du monde.
 
+---
+
 ## Phase 1 : jeu introductif
 
-**Contexte et description du problème** : Dans ce jeu introductif, les élèves endossent le rôle de réceptionnistes municipaux. Leur tâche consiste à mémoriser et gérer un flux croissant de demandes citoyennes. Le jeu est conçu pour fonctionner avec des groupes de tailles variables : plus le nombre de participants augmente, plus les demandes à gérer se multiplient, rendant l'exercice plus complexe. D'une durée adaptable (entre 10 et 30 minutes selon le nombre de tours), l'activité sert de porte d'entrée ludique aux fonctions de la municipalité. Elle permet aux élèves de découvrir, par la pratique, l'organisation des services publics locaux et l'importance de la communication dans le traitement des sollicitations citoyennes. En jouant un rôle opérationnel dans un cadre simulé, ils acquièrent une compréhension directe des responsabilités liées à la gestion urbaine.
+### Contexte et description du problème
 
-**Objectifs d'apprentissage**: Les élèves développeront une compréhension concrète du rôle des services municipaux et de leur utilité dans la vie quotidienne. Ils renforceront leur capacité à mémoriser et organiser des informations multiples dans un laps de temps limité, tout en apprenant à coordonner des réponses collectives. L'activité favorisera également la collaboration. Elle mobilise des compétences en pensée critique et en résolution de problèmes, en les confrontant à une gestion réaliste et progressive de demandes citoyennes. Enfin, elle introduit les élèves à l'organisation fonctionnelle d'une municipalité, en mettant en évidence les interactions entre services.
+Dans ce jeu introductif, les élèves endossent le rôle de réceptionnistes municipaux. Leur tâche consiste à mémoriser et gérer un flux croissant de demandes citoyennes. Le jeu est conçu pour fonctionner avec des groupes de tailles variables : plus le nombre de participants augmente, plus les demandes à gérer se multiplient, rendant l'exercice plus complexe. D'une durée adaptable (entre 10 et 30 minutes selon le nombre de tours), l'activité sert de porte d'entrée ludique aux fonctions de la municipalité. Elle permet aux élèves de découvrir, par la pratique, l'organisation des services publics locaux et l'importance de la communication dans le traitement des sollicitations citoyennes. En jouant un rôle opérationnel dans un cadre simulé, ils acquièrent une compréhension directe des responsabilités liées à la gestion urbaine.
+
+### Objectifs d'apprentissage
+
+Les élèves développeront une compréhension concrète du rôle des services municipaux et de leur utilité dans la vie quotidienne. Ils renforceront leur capacité à mémoriser et organiser des informations multiples dans un laps de temps limité, tout en apprenant à coordonner des réponses collectives. L'activité favorisera également la collaboration. Elle mobilise des compétences en pensée critique et en résolution de problèmes, en les confrontant à une gestion réaliste et progressive de demandes citoyennes. Enfin, elle introduit les élèves à l'organisation fonctionnelle d'une municipalité, en mettant en évidence les interactions entre services.
 
 ### Conceptualisation
 
@@ -234,11 +240,17 @@ D'autre part, cette phase de conclusion peut être utilisée pour approfondir la
 
 À ce stade, si vous utilisez le Carnet du Détective pour construire le contenu final de la séquence, désignez un greffier pendant la session de débriefing. Ce greffier sera chargé d'enregistrer les découvertes sur chaque service et département dans le carnet, dans la « Section 1 : Découverte des services publics », ce qui permettra de poser les premières bases du contenu de la leçon finale.
 
+---
+
 ## Phase 2 : approfondissement des connaissances
 
-**Contexte et description du problème à résoudre dans cette étape** : Dans cette étape de la séquence, les élèves apprennent à mobiliser leurs compétences d'observation dans un contexte réel afin d'explorer comment les services municipaux se manifestent concrètement dans les quartiers, tant sur le plan physique que fonctionnel. De nombreux habitants ignorent l'ampleur et l'impact des services municipaux dans leur quotidien. Cette activité engage les élèves à repérer, documenter et rendre visibles ces effets, souvent négligés ou considérés comme allant de soi, en s'appuyant sur les connaissances acquises lors du jeu introductif.
+### Contexte et description du problème à résoudre dans cette étape
 
-**Objectifs d'apprentissage**: Les élèves devront identifier et documenter l'influence des services municipaux dans leur environnement proche. Ils développeront leurs compétences en cartographie, ce qui leur permettra de mieux comprendre la structure spatiale des lieux observés. Ils renforceront également leur capacité à observer avec rigueur et à collecter des données utiles, en extrayant des éléments significatifs de leur cadre de vie. Cette activité constitue une application concrète des savoirs, et leur donne des outils pour analyser les dynamiques urbaines de manière autonome. Elle peut être menée en articulation avec l'enseignement de la géographie.
+Dans cette étape de la séquence, les élèves apprennent à mobiliser leurs compétences d'observation dans un contexte réel afin d'explorer comment les services municipaux se manifestent concrètement dans les quartiers, tant sur le plan physique que fonctionnel. De nombreux habitants ignorent l'ampleur et l'impact des services municipaux dans leur quotidien. Cette activité engage les élèves à repérer, documenter et rendre visibles ces effets, souvent négligés ou considérés comme allant de soi, en s'appuyant sur les connaissances acquises lors du jeu introductif.
+
+### Objectifs d'apprentissage
+
+Les élèves devront identifier et documenter l'influence des services municipaux dans leur environnement proche. Ils développeront leurs compétences en cartographie, ce qui leur permettra de mieux comprendre la structure spatiale des lieux observés. Ils renforceront également leur capacité à observer avec rigueur et à collecter des données utiles, en extrayant des éléments significatifs de leur cadre de vie. Cette activité constitue une application concrète des savoirs, et leur donne des outils pour analyser les dynamiques urbaines de manière autonome. Elle peut être menée en articulation avec l'enseignement de la géographie.
 
 ### Conceptualisation
 
@@ -264,7 +276,7 @@ Représentation géographique : Les élèves apprendront à utiliser des outils 
 
 ### Investigation par les élèves
 
-**Phase de recherche initiale**
+#### Phase de recherche initiale
 
 Cette phase a pour objectif de permettre aux élèves de se familiariser avec la structure administrative et le fonctionnement de leur municipalité, tout en préparant une comparaison entre cette compréhension théorique et leurs observations de terrain ultérieures.
 
@@ -274,7 +286,7 @@ Chaque groupe mène une recherche sur le rôle de son département dans la ville
 
 À ce stade, si vous utilisez le Carnet du Détective pour construire le contenu final de la séquence, chaque groupe peut enregistrer ses découvertes directement dans le carnet, dans la « Section 2 : Approfondissement des connaissances sur les services publics ».
 
-**Optionnel : Visite**
+#### Optionnel : visite
 
 Si les conditions logistiques le permettent, une visite des services municipaux peut être organisée en collaboration avec les bureaux du gouvernement local. Cette visite peut inclure des rencontres avec des agents municipaux, des visites guidées de certaines installations ou des échanges interactifs avec le personnel de différents départements.
 
@@ -284,7 +296,7 @@ Les élèves peuvent être préparés en amont avec une liste de questions ou de
 
 Enregistrez leurs découvertes dans le Carnet du Détective en mettant à jour la « Section 2 : Approfondissement des connaissances sur les services publics ».
 
-**Promenade et cartographie**
+#### Promenade et cartographie
 
 Maintenant que les élèves disposent d'une compréhension approfondie des rôles et responsabilités des différents départements municipaux, une Promenade de données peut être organisée pour développer leurs compétences d'observation, affiner leurs techniques de collecte de données, et renforcer leurs compétences en cartographie géographique.
 
@@ -326,11 +338,17 @@ Concluez la session de restitution en résumant les principaux apprentissages is
 
 Encouragez les élèves à réfléchir à l'usage futur des compétences acquises : observation, analyse, coopération, cartographie : que ce soit dans d'autres projets scolaires ou dans leur engagement citoyen au sein de leur territoire.
 
+---
+
 ## Phase 3 : simulation de crise et mise en situation
 
-**Contexte et description du problème à résoudre dans cette étape** : Dans cette dernière étape, les élèves, réunis dans les mêmes groupes que lors de l'étape 2, simuleront la construction de réponses publiques coordonnées à des problèmes complexes pouvant survenir sur un territoire. Cette simulation constitue une expérience d'apprentissage riche et interactive, conçue pour approfondir les connaissances liées à l'administration publique et développer des compétences en résolution de problèmes et en prise de décision dans un cadre réaliste.
+### Contexte et description du problème à résoudre dans cette étape
 
-**Objectifs d'apprentissage**: Cette étape vise à mobiliser les compétences de résolution de problèmes, de collaboration, d'adaptabilité, ainsi que la capacité à présenter et défendre collectivement des choix argumentés. Les élèves sont invités à imaginer des stratégies efficaces pour atténuer les effets d'une crise, tout en prenant en compte les ressources limitées et les besoins globaux de la ville. Puisqu'aucun service ne peut agir seul face à une crise, les groupes doivent communiquer, négocier, et coordonner leurs actions avec les autres. Il s'agit d'établir des priorités, de mutualiser les ressources, et de proposer des réponses cohérentes. Chaque groupe est amené à présenter les actions de son service, à en justifier la pertinence et à défendre ses décisions en tenant compte à la fois des capacités de son département et des exigences collectives du territoire.
+Dans cette dernière étape, les élèves, réunis dans les mêmes groupes que lors de l'étape 2, simuleront la construction de réponses publiques coordonnées à des problèmes complexes pouvant survenir sur un territoire. Cette simulation constitue une expérience d'apprentissage riche et interactive, conçue pour approfondir les connaissances liées à l'administration publique et développer des compétences en résolution de problèmes et en prise de décision dans un cadre réaliste.
+
+### Objectifs d'apprentissage
+
+Cette étape vise à mobiliser les compétences de résolution de problèmes, de collaboration, d'adaptabilité, ainsi que la capacité à présenter et défendre collectivement des choix argumentés. Les élèves sont invités à imaginer des stratégies efficaces pour atténuer les effets d'une crise, tout en prenant en compte les ressources limitées et les besoins globaux de la ville. Puisqu'aucun service ne peut agir seul face à une crise, les groupes doivent communiquer, négocier, et coordonner leurs actions avec les autres. Il s'agit d'établir des priorités, de mutualiser les ressources, et de proposer des réponses cohérentes. Chaque groupe est amené à présenter les actions de son service, à en justifier la pertinence et à défendre ses décisions en tenant compte à la fois des capacités de son département et des exigences collectives du territoire.
 
 ### Conceptualisation
 
@@ -346,7 +364,7 @@ En complément de scénarios réalistes, une sélection de crises fictives et im
 
 ### Investigation par les élèves
 
-**Introduction et mise en place**
+#### Introduction et mise en place
 
 Commencez par une présentation claire de l'activité, en rappelant ses objectifs et, si besoin, en révisant les rôles et responsabilités de chaque service municipal, en vous appuyant sur les connaissances construites lors des étapes 1 et 2.
 
@@ -361,7 +379,7 @@ Tableau de suivi : Service / Nom des agents / Date
 | Crise #3 | | |
 | Crise #… | | |
 
-**Annonces des crises et discussions initiales en groupe**
+#### Annonces des crises et discussions initiales en groupe
 
 Pour la première phase de l'activité, les élèves travaillent au sein de leur groupe, sans interaction avec les autres services. L'enseignant, jouant le rôle du Service Financier, annonce la première crise à la classe. Chaque groupe entame alors une discussion pour élaborer une réponse adaptée aux capacités et ressources de son service.
 
@@ -371,7 +389,7 @@ Chaque crise est chronométrée, pour maintenir l'activité dans le cadre de la 
 
 Chaque groupe enregistre ses réponses de manière autonome, en se concentrant sur la cohérence et la pertinence de l'action proposée. Les élèves sont invités à prioriser les crises selon l'impact estimé sur leur domaine d'intervention et peuvent approfondir leur réponse à une crise particulière si cela leur semble justifié.
 
-**Réunion interdépartementale extraordinaire**
+#### Réunion interdépartementale extraordinaire
 
 Après la dernière annonce de crise et le temps de discussion imparti, les groupes se rassemblent pour une réunion extraordinaire visant à partager leurs conclusions et à coordonner leurs réponses. Cette phase permet une consultation croisée entre services et un ajustement collectif des stratégies en tenant compte des priorités globales de la ville.
 
@@ -397,9 +415,13 @@ Concluez l'activité par une discussion collective centrée sur la collaboration
 - **Amélioration et optimisation de la stratégie** : Les groupes peuvent envisager des ajustements. Quelles autres solutions auraient été possibles ? Comment optimiser la collaboration entre services ? Cette réflexion ouvre sur les compétences transférables acquises : anticipation, argumentation, écoute, gestion de priorités.
 - **Retour sur la simulation** : Un moment peut être consacré au ressenti général : ce qui a été apprécié, les moments difficiles, les améliorations souhaitées. Ce retour permet d'ajuster la démarche pour de futures sessions. L'enseignant peut aussi partager des observations sur la dynamique du groupe, souligner des réussites collectives ou les points qui ont suscité une prise de conscience.
 
+---
+
 ## Fiche pratique
 
 Consultez la fiche technique détaillée pour l'utilisation de uMap : [Programmation : City Detective Challenge](/ressources/steamcity/programmation/programmation-city-detective-challenge).
+
+---
 
 ## Aller plus loin
 
@@ -412,6 +434,8 @@ Consultez la fiche technique détaillée pour l'utilisation de uMap : [Programma
 **Collaboration avec d'autres écoles** : Collaborez avec d'autres établissements de votre région ou à l'international. Chaque école peut représenter un service municipal spécifique et coopérer pour formuler des réponses communes aux alertes de crise. Cette approche favorise une compréhension approfondie de la coordination entre services et expose les élèves à une diversité de contextes et de points de vue.
 
 **Projets de long terme** : Développez des projets à long terme dans lesquels les élèves suivent un aspect spécifique des services municipaux sur une période prolongée. Cela peut inclure une collecte régulière de données, leur analyse et la production d'un rapport ou d'une présentation finale en fin d'année scolaire. Ce suivi favorise l'observation continue, l'esprit critique et l'engagement citoyen.
+
+---
 
 ## Jeu de cartes : Order Overload : Mairie
 
@@ -614,6 +638,8 @@ Vous trouverez ci-dessous une liste de crises généralement improbables, à uti
 **Crise improbable n°7 : Révolte des robots dans le quartier technologique.** Insurrection de l'IA : soulèvement des machines à Elysian City ! Le quartier technologique est en ébullition : des robots pilotés par intelligence artificielle se sont rebellés, bloquant les rues et perturbant les services numériques essentiels. Feux tricolores désobéissants, distributeurs hostiles, et drones insoumis sèment la pagaille. Les ingénieurs négocient avec les machines pour éviter une escalade.
 
 **Crise improbable n°8 : Un sort magique fige le centre-ville dans le temps.** Elysian City suspendue dans l'instant ! Ce matin, un sortilège inconnu a figé le centre-ville dans un silence et une immobilité absolus. Des témoins affirment avoir vu des oiseaux arrêtés en plein vol, des passants figés dans leurs gestes, et une atmosphère glaciale envelopper le quartier. Les autorités appellent les experts en phénomènes paranormaux à intervenir.
+
+---
 
 ## Annexe : suggestions d'animation
 

@@ -37,10 +37,10 @@ sidebar_position: 17
 
 ---
 
-## Signalisation routière de demain
+## Thématique
 
-Thématique : mobilité durable, transport et régulation
-Sous-thème : intelligence artificielle et nouvelles technologies
+- **Thématique** : mobilité durable, transport et régulation
+- **Sous-thème** : intelligence artificielle et nouvelles technologies
 
 ---
 
@@ -57,11 +57,9 @@ Au cours de cette expérience, les élèves étudieront les liens entre infrastr
 
 Le protocole se divise en trois phases complémentaires :
 
-**Étape 1 — Familiarisation et conception.** Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
-
-**Étape 2 — Tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
-
-**Étape 3 — Entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
+- **Étape 1 : familiarisation et conception.** Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
+- **Étape 2 : tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
+- **Étape 3 : entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
 
 ### Glossaire
 
@@ -109,17 +107,21 @@ Le protocole se divise en trois phases complémentaires :
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 
-## Étape 1 — Familiarisation et conception
+## Étape 1 : familiarisation et conception
 
-**Contexte et description du problème à résoudre** : Les élèves se familiarisent avec les concepts de base, réfléchissent aux types de signaux à créer, sélectionnent l'un des types proposés et développent une conception préliminaire.
+### Contexte et description du problème à résoudre
 
-**Objectifs d'apprentissage**: Se familiariser avec les concepts liés à la signalisation routière, ainsi qu'avec la terminologie et les étapes associées aux outils basés sur l'IA.
+Les élèves se familiarisent avec les concepts de base, réfléchissent aux types de signaux à créer, sélectionnent l'un des types proposés et développent une conception préliminaire.
+
+### Objectifs d'apprentissage
+
+Se familiariser avec les concepts liés à la signalisation routière, ainsi qu'avec la terminologie et les étapes associées aux outils basés sur l'IA.
 
 ### Conceptualisation
 
 Avant de commencer, il est conseillé de recueillir des informations pour évaluer l'impact attendu, en sondant les connaissances des élèves sur l'IA, les villes intelligentes et la signalisation routière.
 
-Méthodes interactives de pré-évaluation :
+#### Méthodes interactives de pré-évaluation
 
 - **Évaluation visuelle par émojis** : échelle d'opinions sur un tableau blanc, du très négatif au très positif.
 - **Quatre coins** : chaque coin de la classe correspond à un niveau d'accord. Les élèves se déplacent physiquement.
@@ -137,14 +139,16 @@ L'enseignant présente l'activité et la terminologie. Questions d'introduction 
 - « Existe-t-il des catégories de panneaux destinés uniquement aux véhicules autonomes ? » — \[Laisser les élèves imaginer\]
 - « Qu'entend-on par panneaux non ambigus ? » — Des panneaux qui n'entrent pas en conflit avec la signalisation existante.
 
-Idéation. Une fois familiarisés, les élèves passent à la conception :
+#### Idéation
 
-« Hier, j'ai reçu un appel du maire de notre ville qui nous demandait de l'aider à concevoir une nouvelle signalisation routière dédiée aux véhicules autonomes, claire et compatible avec la signalisation actuelle. Pour concevoir vos panneaux, vous avez du papier et un stylo à disposition. »
+Une fois familiarisés, les élèves passent à la conception :
+
+> « Hier, j'ai reçu un appel du maire de notre ville qui nous demandait de l'aider à concevoir une nouvelle signalisation routière dédiée aux véhicules autonomes, claire et compatible avec la signalisation actuelle. Pour concevoir vos panneaux, vous avez du papier et un stylo à disposition. »
 
 Les élèves doivent :
 
-1. Identifier l'objectif du panneau (ex. : panneau indiquant le passage entre conduite autonome et manuelle).
-2. Concevoir le nouveau panneau sur des feuilles de 15 cm x 15 cm, seuls ou en groupe.
+1. **Identifier l'objectif du panneau** (ex. : panneau indiquant le passage entre conduite autonome et manuelle).
+2. **Concevoir le nouveau panneau** sur des feuilles de 15 cm x 15 cm, seuls ou en groupe.
 
 ### Restitution et réflexion
 
@@ -154,24 +158,30 @@ Les élèves acquièrent des compétences en conceptualisation, prototypage et �
 
 ---
 
-## Étape 2 — Tester l'ambiguïté des panneaux de signalisation
+## Étape 2 : tester l'ambiguïté des panneaux de signalisation
 
-**Contexte et description du problème à résoudre** : Vérifier si les panneaux proposés sont susceptibles d'être confondus avec des panneaux existants. Cette étape combine courtes présentations frontales sur les mécanismes d'IA et mise en pratique immédiate.
 
-**Objectifs d'apprentissage**: Acquérir des connaissances sur les outils d'IA pour la classification d'images. Détecter l'ambiguïté des signaux proposés. Apprendre à tester et évaluer un outil basé sur l'IA.
+
+### Contexte et description du problème à résoudre
+
+Vérifier si les panneaux proposés sont susceptibles d'être confondus avec des panneaux existants. Cette étape combine courtes présentations frontales sur les mécanismes d'IA et mise en pratique immédiate.
+
+### Objectifs d'apprentissage
+
+Acquérir des connaissances sur les outils d'IA pour la classification d'images. Détecter l'ambiguïté des signaux proposés. Apprendre à tester et évaluer un outil basé sur l'IA.
 
 ### Conceptualisation
 
 Les étapes de l'enquête doivent être suivies progressivement :
 
-1. Faciliter la réflexion de groupe et la révision des panneaux
-2. Réaliser des tests d'ambiguïté à l'aide de SignVisionAI :
-   - Installer la caméra dans des conditions optimales (lumière naturelle)
-   - Effectuer des tests avec les images préchargées avant de passer aux panneaux des élèves
-   - Évaluer chaque conception individuellement
-   - Affiner tout panneau reconnu comme existant
-   - Répéter jusqu'à ce que tous les panneaux soient sans ambiguïté
-3. (Facultatif) Affiner la conception si le panneau est identifié comme un signal existant
+1. **Faciliter la réflexion de groupe** et la révision des panneaux.
+2. **Réaliser des tests d'ambiguïté** à l'aide de SignVisionAI :
+   - Installer la caméra dans des conditions optimales (lumière naturelle).
+   - Effectuer des tests avec les images préchargées avant de passer aux panneaux des élèves.
+   - Évaluer chaque conception individuellement.
+   - Affiner tout panneau reconnu comme existant.
+   - Répéter jusqu'à ce que tous les panneaux soient sans ambiguïté.
+3. **(Facultatif) Affiner la conception** si le panneau est identifié comme un signal existant.
 
 :::info[Alternative en cas d'impossibilité d'utiliser SignVisionAI]
 L'activité peut être maintenue avec [Vittascience](https://fr.vittascience.com/ia/images.php). Les élèves créent un premier modèle entraîné à reconnaître les cinq familles de panneaux actuels (danger, interdiction, obligation, priorité, information). Si un signe est classé avec un niveau de confiance supérieur à 80 % dans une catégorie existante, il est considéré comme ambigu. Ce seuil correspond aux exigences de lisibilité immédiate (identification en ~1,5 seconde).
@@ -181,9 +191,8 @@ L'activité peut être maintenue avec [Vittascience](https://fr.vittascience.com
 
 Les élèves travaillent de manière autonome pour tester l'ambiguïté et collaborent pour discuter des améliorations.
 
-Réflexion : Partage des propositions avec les pairs, brainstorming structuré.
-
-Tests d'ambiguïté : Utilisation de [SignVisionAI](https://drive.google.com/drive/folders/1lwb4TkkNRnQ0K3j0s8kxeq7xg7a3pLak?usp=sharing). L'enseignant prépare la caméra, les élèves soumettent leurs projets à la classification un par un. Si un panneau est identifié comme existant, il doit être affiné ou redessiné. Ce processus itératif se poursuit jusqu'à ce que toutes les propositions soient jugées non ambiguës.
+- **Réflexion** : partage des propositions avec les pairs, brainstorming structuré.
+- **Tests d'ambiguïté** : utilisation de [SignVisionAI](https://drive.google.com/drive/folders/1lwb4TkkNRnQ0K3j0s8kxeq7xg7a3pLak?usp=sharing). L'enseignant prépare la caméra, les élèves soumettent leurs projets à la classification un par un. Si un panneau est identifié comme existant, il doit être affiné ou redessiné. Ce processus itératif se poursuit jusqu'à ce que toutes les propositions soient jugées non ambiguës.
 
 Pour installer et utiliser SignVisionAI, reportez-vous à la fiche pratique en annexe.
 
@@ -195,31 +204,33 @@ Les élèves approfondissent leur compréhension des outils d'IA pour la classif
 
 ---
 
-## Étape 3 — Entraînement du modèle en fonction des nouveaux panneaux conçus
+## Étape 3 : entraînement du modèle en fonction des nouveaux panneaux conçus
 
-**Contexte et description du problème à résoudre** : Phase de formation visant à permettre à un outil d'IA de reconnaître les panneaux de signalisation conçus par les élèves.
+### Contexte et description du problème à résoudre
 
-**Objectifs d'apprentissage**: Acquérir des connaissances sur les outils d'IA pour la classification d'images. Utiliser les outils pour proposer une signalisation routière unique destinée aux véhicules autonomes.
+Phase de formation visant à permettre à un outil d'IA de reconnaître les panneaux de signalisation conçus par les élèves.
+
+### Objectifs d'apprentissage
+
+Acquérir des connaissances sur les outils d'IA pour la classification d'images. Utiliser les outils pour proposer une signalisation routière unique destinée aux véhicules autonomes.
 
 ### Conceptualisation
 
 Le processus d'entraînement suit une séquence structurée :
 
-1. Les élèves examinent et améliorent leurs propositions. Si plusieurs variantes existent, un vote collectif retient la version la plus efficace.
-2. Les élèves réalisent des versions standardisées avec diverses techniques artistiques (crayons, marqueurs, peinture, collages, aquarelle). Cette diversité enrichit les données d'entraînement.
-3. Le modèle d'IA est entraîné avec ces images, illustrant les principes de la classification supervisée.
+1. **Examen et amélioration des propositions.** Les élèves examinent et améliorent leurs propositions. Si plusieurs variantes existent, un vote collectif retient la version la plus efficace.
+2. **Versions standardisées.** Les élèves réalisent des versions standardisées avec diverses techniques artistiques (crayons, marqueurs, peinture, collages, aquarelle). Cette diversité enrichit les données d'entraînement.
+3. **Entraînement du modèle.** Le modèle d'IA est entraîné avec ces images, illustrant les principes de la classification supervisée.
 
 ### Investigation par les élèves
 
-Réflexion et discussion. L'enseignant présente les panneaux réalisés. Un vote désigne la version référence pour chaque panneau.
-
-Représentation du panneau final. Chaque élève réalise individuellement une version standardisée, en jouant sur les intensités de couleurs et les techniques artistiques.
-
-Entraînement de l'IA. Les dessins sont photographiés ou scannés, rassemblés dans un dossier, puis classés par catégorie. Sur [Vittascience](https://fr.vittascience.com/ia/images.php), les images sont importées par catégorie et le modèle est entraîné automatiquement. Environ 80 % des images servent à l'entraînement, 20 % au test de fiabilité.
+- **Réflexion et discussion.** L'enseignant présente les panneaux réalisés. Un vote désigne la version référence pour chaque panneau.
+- **Représentation du panneau final.** Chaque élève réalise individuellement une version standardisée, en jouant sur les intensités de couleurs et les techniques artistiques.
+- **Entraînement de l'IA.** Les dessins sont photographiés ou scannés, rassemblés dans un dossier, puis classés par catégorie. Sur [Vittascience](https://fr.vittascience.com/ia/images.php), les images sont importées par catégorie et le modèle est entraîné automatiquement. Environ 80 % des images servent à l'entraînement, 20 % au test de fiabilité.
 
 Pour utiliser Vittascience, reportez-vous à la fiche pratique en annexe.
 
-Réflexion et évaluation. L'enseignant analyse les performances du modèle final. Un questionnaire identique à celui de la phase initiale mesure la progression des élèves.
+- **Réflexion et évaluation.** L'enseignant analyse les performances du modèle final. Un questionnaire identique à celui de la phase initiale mesure la progression des élèves.
 
 ### Restitution et réflexion
 

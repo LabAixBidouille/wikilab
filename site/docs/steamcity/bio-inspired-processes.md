@@ -38,7 +38,7 @@ sidebar_position: 23
 
 ## À la découverte des processus d'apprentissage bio-inspirés
 
-Thématique : intelligence artificielle et nouvelles technologies
+**Thématique** : intelligence artificielle et nouvelles technologies
 
 ---
 
@@ -54,9 +54,9 @@ L'activité se décompose en trois étapes distinctes, chacune offrant une expé
 
 L'activité se déroulera en trois étapes principales, chacune conçue pour introduire progressivement les élèves au concept d'apprentissage bio-inspiré. Vous trouverez ci-dessous un aperçu de la structure de l'expérience :
 
-1. Découvrir l'apprentissage humain à travers un jeu débranché : Les élèves participeront à un jeu utilisant une grille 6x6 et un point qu'ils doivent déplacer. Ils peuvent déplacer le point dans l'une des quatre directions (haut, bas, gauche, droite), et chaque déplacement entraîne soit une victoire, une défaite ou une continuation en fonction des commentaires de l'enseignant. L'objectif, qui n'est pas initialement révélé, est que les élèves trouvent le point gagnant. Ils le découvriront par des essais et des erreurs répétés, puis tenteront de trouver le chemin le plus court.
-2. Découvrez comment l'apprentissage automatique fonctionne : les élèves utiliseront un outil en ligne appelé BioLearningGame ([https://charly-sketch.github.io/DiscoverAI/PlayerLearningGame/PlayerBiolearning.html](https://charly-sketch.github.io/DiscoverAI/PlayerLearningGame/PlayerBiolearning.html)) pour observer comment une IA tente de résoudre le même problème. Comme les élèves, l'ordinateur n'a aucune connaissance préalable de l'objectif et doit utiliser la méthode des essais et des erreurs pour découvrir le bon chemin. Cette étape présente aux élèves le concept de modèles d'apprentissage automatique, d'apprentissage par renforcement et de rétroaction positive et négative.
-3. Adaptabilité des humains par rapport aux machines : À cette étape, les élèves compareront leur adaptabilité à celle de l'IA. Ils se diviseront en deux groupes : l'un modifiera la carte de la ville et l'autre devra naviguer à travers les changements sans voir la carte. Pendant ce temps, le modèle informatique tentera d'apprendre l'environnement modifié. L'objectif est de comparer la rapidité et l'efficacité avec lesquelles les humains et les machines s'adaptent au nouvel environnement.
+1. **Découvrir l'apprentissage humain à travers un jeu débranché** : Les élèves participeront à un jeu utilisant une grille 6x6 et un point qu'ils doivent déplacer. Ils peuvent déplacer le point dans l'une des quatre directions (haut, bas, gauche, droite), et chaque déplacement entraîne soit une victoire, une défaite ou une continuation en fonction des commentaires de l'enseignant. L'objectif, qui n'est pas initialement révélé, est que les élèves trouvent le point gagnant. Ils le découvriront par des essais et des erreurs répétés, puis tenteront de trouver le chemin le plus court.
+2. **Découvrez comment l'apprentissage automatique fonctionne** : les élèves utiliseront un outil en ligne appelé BioLearningGame ([https://charly-sketch.github.io/DiscoverAI/PlayerLearningGame/PlayerBiolearning.html](https://charly-sketch.github.io/DiscoverAI/PlayerLearningGame/PlayerBiolearning.html)) pour observer comment une IA tente de résoudre le même problème. Comme les élèves, l'ordinateur n'a aucune connaissance préalable de l'objectif et doit utiliser la méthode des essais et des erreurs pour découvrir le bon chemin. Cette étape présente aux élèves le concept de modèles d'apprentissage automatique, d'apprentissage par renforcement et de rétroaction positive et négative.
+3. **Adaptabilité des humains par rapport aux machines** : À cette étape, les élèves compareront leur adaptabilité à celle de l'IA. Ils se diviseront en deux groupes : l'un modifiera la carte de la ville et l'autre devra naviguer à travers les changements sans voir la carte. Pendant ce temps, le modèle informatique tentera d'apprendre l'environnement modifié. L'objectif est de comparer la rapidité et l'efficacité avec lesquelles les humains et les machines s'adaptent au nouvel environnement.
 
 À la fin de l'activité, la discussion sera ouverte pour considérer avec les élèves les impacts positifs de l'IA dans leur vie quotidienne et leur avenir ainsi que pour identifier ses limites.
 
@@ -99,9 +99,10 @@ Les élèves devront acquérir des compétences de base en résolution de probl�
 
 ## Étape 1 : découvrir l'apprentissage humain grâce à un jeu débranché
 
-**Contexte et description du problème à résoudre à cette étape** : Dans cette première étape, les élèves participeront à un jeu formel conçu pour les aider à comprendre le concept d'apprentissage par essais et erreurs sans connaissance préalable de l'objectif. Le jeu utilise une grille 6x6 dans laquelle les élèves doivent déplacer un point de repère dans l'une des quatre directions. Chaque mouvement entraînera une rétroaction (gagner, perdre ou continuer). Ce processus aide les élèves à comprendre la dynamique de l'apprentissage lorsque l'objectif n'est pas explicitement connu.
+- **Contexte et description du problème à résoudre à cette étape** : Dans cette première étape, les élèves participeront à un jeu formel conçu pour les aider à comprendre le concept d'apprentissage par essais et erreurs sans connaissance préalable de l'objectif. Le jeu utilise une grille 6x6 dans laquelle les élèves doivent déplacer un point de repère dans l'une des quatre directions. Chaque mouvement entraînera une rétroaction (gagner, perdre ou continuer). Ce processus aide les élèves à comprendre la dynamique de l'apprentissage lorsque l'objectif n'est pas explicitement connu.
 
-**Objectifs d'apprentissage**:
+**Objectifs d'apprentissage** :
+
 - **Compétences de base** : Comprendre l'apprentissage par essais et erreurs, développer des compétences en résolution de problèmes et améliorer l'adaptabilité pour atteindre un objectif caché.
 - **Compétences auxiliaires** : Développer la conscience spatiale, l'apprentissage collaboratif par le biais de discussions de groupe et l'optimisation de stratégie de base pour trouver le chemin le plus court.
 
@@ -174,9 +175,10 @@ Pour conclure cette étape, les élèves participeront à une discussion centré
 
 ## Étape 2 : découvrez comment les machines apprennent
 
-**Contexte et description du problème à résoudre dans cette étape** : Dans cette deuxième étape, les élèves exploreront comment une machine apprend à l'aide d'un outil en ligne. L'objectif est d'établir un parallèle entre leur propre expérience d'apprentissage par essais et erreurs et la façon dont un système d'intelligence artificielle aborde le même problème, en soulignant les similitudes et les différences. L'objectif est que les élèves comprennent comment l'IA utilise une approche systématique de l'apprentissage, en s'appuyant uniquement sur des commentaires sans aucune connaissance ou intuition préexistante, tout comme leur expérience initiale. En comparant l'apprentissage humain et l'apprentissage automatique, les élèves observeront également comment le processus itératif diffère entre les êtres vivants et les modèles informatiques, en se concentrant sur l'efficacité et les défis de chaque approche.
+- **Contexte et description du problème à résoudre dans cette étape** : Dans cette deuxième étape, les élèves exploreront comment une machine apprend à l'aide d'un outil en ligne. L'objectif est d'établir un parallèle entre leur propre expérience d'apprentissage par essais et erreurs et la façon dont un système d'intelligence artificielle aborde le même problème, en soulignant les similitudes et les différences. L'objectif est que les élèves comprennent comment l'IA utilise une approche systématique de l'apprentissage, en s'appuyant uniquement sur des commentaires sans aucune connaissance ou intuition préexistante, tout comme leur expérience initiale. En comparant l'apprentissage humain et l'apprentissage automatique, les élèves observeront également comment le processus itératif diffère entre les êtres vivants et les modèles informatiques, en se concentrant sur l'efficacité et les défis de chaque approche.
 
-**Objectifs d'apprentissage**:
+**Objectifs d'apprentissage** :
+
 - **Compétences de base** : Comprendre les bases de l'apprentissage automatique et de l'apprentissage par renforcement, observer comment les machines apprennent de l'expérience et comprendre comment le feedback affecte l'apprentissage dans les systèmes d'IA. Les étudiants découvriront également les différents éléments de renforcement (à la fois positifs et négatifs) et comment ceux-ci contribuent à la construction d'un modèle d'apprentissage pour la machine.
 - **Compétences auxiliaires** : Apprendre à observer et à comparer de manière critique l'apprentissage humain et l'apprentissage automatique, comprendre comment le renforcement positif et négatif affecte l'apprentissage, commencer à voir comment les modèles d'IA sont construits de manière itérative et apprécier la puissance de l'apprentissage informatique dans le traitement rapide de grandes quantités de données pour affiner les résultats d'apprentissage.
 
@@ -250,9 +252,10 @@ Pour conclure cette étape, les étudiants seront invités à discuter des quest
 
 ## Étape 3 : adaptabilité des humains par rapport aux machines
 
-**Contexte et description du problème à résoudre dans cette étape** : Dans cette dernière étape, les élèves exploreront l'adaptabilité des humains et des machines dans un environnement en évolution. Le défi est de comprendre comment les humains peuvent tirer parti de leur intuition, de leurs expériences antérieures et de leurs stratégies d'adaptation face à des changements inattendus, par rapport à une IA qui doit reconstruire son modèle à partir de zéro. Cette comparaison vise à mettre en évidence les forces et les faiblesses des deux types d'apprentissage.
+- **Contexte et description du problème à résoudre dans cette étape** : Dans cette dernière étape, les élèves exploreront l'adaptabilité des humains et des machines dans un environnement en évolution. Le défi est de comprendre comment les humains peuvent tirer parti de leur intuition, de leurs expériences antérieures et de leurs stratégies d'adaptation face à des changements inattendus, par rapport à une IA qui doit reconstruire son modèle à partir de zéro. Cette comparaison vise à mettre en évidence les forces et les faiblesses des deux types d'apprentissage.
 
-**Objectifs d'apprentissage**:
+**Objectifs d'apprentissage** :
+
 - **Compétences de base** : comprendre le concept d'adaptabilité dans l'apprentissage, comparer la flexibilité humaine avec les capacités d'apprentissage automatique et explorer comment les deux réagissent aux changements de leur environnement.
 - **Compétences auxiliaires** : Développer la pensée critique en analysant les différences dans les stratégies d'apprentissage, améliorer les capacités de résolution de problèmes en naviguant dans un environnement modifié et s'engager dans un apprentissage collaboratif par le biais d'activités de groupe.
 
@@ -316,23 +319,28 @@ Cette phase d'investigation aidera les étudiants à développer une compréhens
 
 Pour les enseignants souhaitant explorer plus en profondeur le concept d'apprentissage par renforcement et sa dimension bio-inspirée, les ressources suivantes sont recommandées :
 
-Livres :
+#### Livres
+
 - *Apprentissage par renforcement : une introduction* par Richard S. Sutton et Andrew G. Barto — Il s'agit d'une excellente ressource pour comprendre les fondamentaux de l'apprentissage par renforcement, avec de nombreux exemples démontrant comment un agent apprend par essais et erreurs.
 - *Le livre du pourquoi : la nouvelle science de la cause et de l'effet* par Judea Pearl — Ce livre donne un aperçu de l'importance de la causalité dans l'apprentissage, y compris l'apprentissage par renforcement.
 
-Articles académiques :
+#### Articles académiques
+
 - *Un aperçu des techniques d'apprentissage par renforcement* — Offre un large aperçu des différentes techniques et concepts associés à l'apprentissage par renforcement.
 - *Apprentissage par renforcement dans les systèmes artificiels et biologiques* — Explore comment les techniques d'apprentissage par renforcement s'inspirent des modèles biologiques, notamment du comportement animal.
 
-Cours en ligne :
+#### Cours en ligne
+
 - Coursera — *Principes fondamentaux de l'apprentissage par renforcement* — Un cours interactif qui présente les concepts clés de l'apprentissage par renforcement, offert par l'Université de l'Alberta.
 - edX — *Intelligence artificielle (IA)* — Ce cours général d'IA comprend une introduction à l'apprentissage par renforcement, expliquée avec des exemples pratiques.
 
-Vidéos éducatives :
+#### Vidéos éducatives
+
 - *Apprentissage par renforcement profond : Pong à partir de pixels* — Une vidéo qui illustre comment l'IA apprend à jouer à Pong, montrant comment le renforcement positif et négatif affecte les décisions d'un agent.
 - *Comment l'intelligence artificielle apprend-elle ?* — Une courte vidéo captivante expliquant comment les machines apprennent, y compris les principes de l'apprentissage par renforcement.
 
-Sites Web et blogs :
+#### Sites Web et blogs
+
 - *AI Unplugged* — Rassemblez dans un seul document plusieurs activités débranchées et du matériel pédagogique sur l'intelligence artificielle.
 - *Machine Learning Unplugged — The Tech Interactive* — Activité débranchée pour découvrir l'apprentissage automatique grâce à la reconnaissance visuelle.
 - *Blog OpenAI* — Présente des articles éducatifs et accessibles expliquant l'apprentissage par renforcement et son utilisation dans le développement de l'IA avancée.
@@ -340,7 +348,8 @@ Sites Web et blogs :
 - *Apprendre aux machines à se comporter : l'apprentissage par renforcement* — Cet article fournit un point d'entrée pour toute personne intéressée par l'apprentissage par renforcement. Il fournit les fondamentaux nécessaires pour comprendre ce que sont les algorithmes d'apprentissage par renforcement et comment ils fonctionnent.
 - *Apprentissage par renforcement profond : Pong à partir de pixels* — Cet article présente un exemple d'application d'apprentissage par renforcement profond en développant un agent capable de jouer à Pong.
 
-Plateformes de simulation :
+#### Plateformes de simulation
+
 - *OpenAI Gym* — Une plateforme qui permet aux enseignants et aux étudiants d'expérimenter l'apprentissage par renforcement dans des environnements simulés, offrant une expérience pratique.
 - *BioLearningGame* — L'outil déjà mentionné dans l'activité, qui permet de visualiser comment un modèle de machine apprend à partir de zéro en utilisant un renforcement positif et négatif.
 

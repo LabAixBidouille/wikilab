@@ -38,8 +38,8 @@ sidebar_position: 19
 
 ## L'odyssée de l'IA
 
-Thématique : intelligence artificielle et nouvelles technologies
-Sous-thème : engagement citoyen, gouvernance et données
+- **Thématique** : intelligence artificielle et nouvelles technologies
+- **Sous-thème** : engagement citoyen, gouvernance et données
 
 ---
 
@@ -101,9 +101,8 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ## Étape 1 : phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
 
-**Contexte et description du problème à résoudre à cette étape** : Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius ([https://eurocities.eu/stories/smile-youre-on-camera/](https://eurocities.eu/stories/smile-youre-on-camera/)), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin ([https://www.youtube.com/watch?v=AuxgoNMqLFU](https://www.youtube.com/watch?v=AuxgoNMqLFU)). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
-
-**Objectifs d'apprentissage**: Identifier les capteurs utilisables en ville. Comprendre que les systèmes d'IA peuvent traiter des données pour en extraire des informations avancées (par exemple, deviner l'humeur d'une personne en fonction de son expression faciale).
+- **Contexte et description du problème à résoudre à cette étape** : Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius ([https://eurocities.eu/stories/smile-youre-on-camera/](https://eurocities.eu/stories/smile-youre-on-camera/)), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin ([https://www.youtube.com/watch?v=AuxgoNMqLFU](https://www.youtube.com/watch?v=AuxgoNMqLFU)). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
+- **Objectifs d'apprentissage** : Identifier les capteurs utilisables en ville. Comprendre que les systèmes d'IA peuvent traiter des données pour en extraire des informations avancées (par exemple, deviner l'humeur d'une personne en fonction de son expression faciale).
 
 ### Conceptualisation
 
@@ -187,9 +186,8 @@ Pour guider la discussion de compte rendu et aider les élèves à réfléchir �
 
 ## Étape 2 : phase d'enquête sur le terrain : expérience pratique donnant vie aux connaissances théoriques
 
-**Contexte et description du problème à résoudre à cette étape** : S'appuyant sur les connaissances théoriques développées à l'étape 1, cette étape consiste à organiser la visite guidée des données. Les élèves exploreront l'environnement urbain, observeront et documenteront les capteurs rencontrés en chemin. Ils devront être attentifs à la correspondance des capteurs trouvés avec leurs attentes lors de la phase de préparation. Ils devront également noter les emplacements et les applications d'IA qu'ils soupçonnent d'utiliser.
-
-**Objectifs d'apprentissage**: Développer des compétences d'observation en identifiant des capteurs placés dans un environnement. Apprendre à reconnaître différents types de capteurs, tels que les caméras de surveillance, les antennes de téléphonie mobile, les capteurs environnementaux ou les objets connectés.
+- **Contexte et description du problème à résoudre à cette étape** : S'appuyant sur les connaissances théoriques développées à l'étape 1, cette étape consiste à organiser la visite guidée des données. Les élèves exploreront l'environnement urbain, observeront et documenteront les capteurs rencontrés en chemin. Ils devront être attentifs à la correspondance des capteurs trouvés avec leurs attentes lors de la phase de préparation. Ils devront également noter les emplacements et les applications d'IA qu'ils soupçonnent d'utiliser.
+- **Objectifs d'apprentissage** : Développer des compétences d'observation en identifiant des capteurs placés dans un environnement. Apprendre à reconnaître différents types de capteurs, tels que les caméras de surveillance, les antennes de téléphonie mobile, les capteurs environnementaux ou les objets connectés.
 
 ### Conceptualisation
 
@@ -277,9 +275,8 @@ L'étape suivante consistera à synthétiser ces résultats pour comprendre les 
 
 ## Étape 3 : phase d'analyse et de réflexion : comprendre la collecte de données urbaines
 
-**Contexte et description du problème à résoudre à cette étape** : Dans cette dernière étape, les élèves retournent en classe pour analyser leurs résultats, réfléchir à leurs expériences et évaluer de manière critique les implications des technologies de détection urbaine.
-
-**Objectifs d'apprentissage**: Cette étape permet aux élèves de comprendre les données recueillies lors de leur promenade, de les comparer à leurs attentes initiales et d'envisager les implications plus larges des technologies de capteurs et des applications d'IA dans leur ville. Ils peuvent discuter et aborder les problèmes potentiels de confidentialité liés aux technologies de capteurs, aux applications d'IA et à la collecte de données.
+- **Contexte et description du problème à résoudre à cette étape** : Dans cette dernière étape, les élèves retournent en classe pour analyser leurs résultats, réfléchir à leurs expériences et évaluer de manière critique les implications des technologies de détection urbaine.
+- **Objectifs d'apprentissage** : Cette étape permet aux élèves de comprendre les données recueillies lors de leur promenade, de les comparer à leurs attentes initiales et d'envisager les implications plus larges des technologies de capteurs et des applications d'IA dans leur ville. Ils peuvent discuter et aborder les problèmes potentiels de confidentialité liés aux technologies de capteurs, aux applications d'IA et à la collecte de données.
 
 ### Conceptualisation
 
@@ -369,19 +366,19 @@ Dans le cadre du datawalking, FARI invite les participants à participer à des 
 
 L'objectif de ces visites est d'approfondir la compréhension des participants de ce qui constitue une ville intelligente, ainsi que d'examiner les opportunités et les défis associés à l'utilisation des données pour une vie plus efficace et durable.
 
-Aller plus loin : [https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk](https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk)
+**Aller plus loin** : [https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk](https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk)
 
 ### Projet Spectre et Data Walking
 
 SPECTRE s'intéresse aux multiples implications du développement des villes intelligentes en matière de protection de la vie privée. Il examine ces défis sous l'angle du droit, des sciences sociales et de l'économie. L'objectif principal du projet est de développer une méthode collaborative d'analyse d'impact relative à la protection des données (AIPD) pour les villes intelligentes, qui prendra en compte leurs intérêts socio-économiques. Nous explorerons le potentiel des règles de marchés publics pour intégrer cette nouvelle méthode d'AIPD afin de gérer efficacement les impacts des villes intelligentes sur la vie privée.
 
-Aller plus loin : [https://spectreproject.be](https://spectreproject.be), [https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf](https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf)
+**Aller plus loin** : [https://spectreproject.be](https://spectreproject.be), [https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf](https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf)
 
 ### DataWalk ou Walkshop
 
 Ce projet de promenade de données est né d'un processus pédagogique encourageant les élèves à observer les médiations de données dans l'espace urbain. Inspiré par l'ethnographie flashmob de Laura Forlano et les ateliers de réseautage d'Adam Greenfield, ce projet, ou « atelier de datawalk », a évolué grâce à des collaborations avec le projet du Museum of Contemporary Commodities, développé par Paula Crutchlow et Ian Cook de l'Université d'Exeter, et la Furtherfield Gallery de Londres.
 
-Aller plus loin : [https://www.datawalking.uk](https://www.datawalking.uk)
+**Aller plus loin** : [https://www.datawalking.uk](https://www.datawalking.uk)
 
 ---
 

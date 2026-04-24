@@ -82,9 +82,13 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ## Étape 1 : familiarisation et idéation
 
-**Contexte :** Les élèves se familiarisent avec les concepts de base des objets connectés et proposent une première idée d'objet intelligent.
+### Contexte
 
-**Objectifs d'apprentissage :** Acquérir la terminologie nécessaire pour passer à la phase d'idéation. Termes à maîtriser : objet intelligent, capteur, actionneur. Stimuler l'imagination en inventant de nouveaux objets intelligents basés sur les capteurs et actionneurs disponibles.
+Les élèves se familiarisent avec les concepts de base des objets connectés et proposent une première idée d'objet intelligent.
+
+### Objectifs d'apprentissage
+
+Acquérir la terminologie nécessaire pour passer à la phase d'idéation. Termes à maîtriser : objet intelligent, capteur, actionneur. Stimuler l'imagination en inventant de nouveaux objets intelligents basés sur les capteurs et actionneurs disponibles.
 
 ### Conceptualisation
 
@@ -96,17 +100,17 @@ Avant de commencer les activités, il est nécessaire de recueillir des informat
 
 ### Investigation par les élèves
 
-**Familiarisation — Création de connaissances fondamentales**
+#### Familiarisation : création de connaissances fondamentales
 
 Les élèves doivent acquérir la terminologie nécessaire pour poursuivre l'idéation. Les enseignants peuvent introduire les objets connectés en répondant à des questions telles que :
 
 1. **Questions d'introduction :** Qu'est-ce qu'un objet intelligent ? Qu'est-ce qui le rend intelligent ? Son intelligence réside dans sa capacité à réagir de manière autonome à ce qu'il perçoit autour de lui.
 2. **Exemples d'objets intelligents :** Une machine à laver peut être intelligente si elle adapte la durée du cycle à la charge. Les stores peuvent devenir intelligents s'ils ajustent leur comportement en fonction de l'intensité lumineuse.
 3. **Composants d'un objet intelligent :** L'objet + un ou plusieurs capteurs pour percevoir les stimuli externes + un ou plusieurs actionneurs pour réagir.
-4. **Capteurs utilisables :** Thermomètre, accéléromètre, capteur d'humidité, boussole, capteurs infrarouges, capteurs de contact, capteurs de lumière.
-5. **Actionneurs utilisables :** Haut-parleurs, écrans, moteurs.
+4. **Capteurs utilisables :** thermomètre, accéléromètre, capteur d'humidité, boussole, capteurs infrarouges, capteurs de contact, capteurs de lumière.
+5. **Actionneurs utilisables :** haut-parleurs, écrans, moteurs.
 
-**Processus d'idéation**
+#### Processus d'idéation
 
 Les élèves travaillent individuellement ou en groupe en répondant à la mission : « Concevoir des objets intelligents qui aident ou entravent les véhicules autonomes ». Les enseignants peuvent demander aux élèves de proposer des objets intelligents en détaillant leur structure, en décrivant leur comportement en termes de conditions « QUAND/SI... ALORS... » et en détaillant l'interaction avec d'autres objets au moyen de courts récits.
 
@@ -134,19 +138,25 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ## Étape 2 : conception et prototypage
 
-**Contexte :** La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement en utilisant une approche incrémentale.
+### Contexte
 
-**Objectifs d'apprentissage :** Acquérir ou consolider ses connaissances sur les concepts de programmation tels que les boucles, les conditions et les comparaisons. Appliquer les concepts présentés à l'implémentation de l'objet proposé.
+La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement en utilisant une approche incrémentale.
+
+### Objectifs d'apprentissage
+
+Acquérir ou consolider ses connaissances sur les concepts de programmation tels que les boucles, les conditions et les comparaisons. Appliquer les concepts présentés à l'implémentation de l'objet proposé.
 
 ### Conceptualisation
 
 Les élèves donneront vie à leurs conceptions grâce à la programmation par blocs. L'approche pédagogique combine de brèves introductions aux concepts de programmation et des applications pratiques immédiates.
 
-**Table ronde d'ouverture.** Organisez une brève table ronde sur la programmation par blocs. Posez des questions telles que : « Avez-vous déjà utilisé la programmation par blocs ? », « Qu'est-ce qui vous semble facile ou difficile dans la programmation ? ».
+#### Table ronde d'ouverture
+
+Organisez une brève table ronde sur la programmation par blocs. Posez des questions telles que : « Avez-vous déjà utilisé la programmation par blocs ? », « Qu'est-ce qui vous semble facile ou difficile dans la programmation ? ».
 
 ### Investigation par les élèves
 
-**1. Introduction aux boucles** (environ 10 min)
+#### 1. Introduction aux boucles (environ 10 min)
 
 L'enseignant présente le concept de boucle à l'aide de diapositives et d'exemples dans MakeCode. En utilisant une approche de complexité incrémentale : absence de boucle (bloc « au démarrage »), puis boucle « toujours », puis boucle « répéter ».
 
@@ -154,7 +164,7 @@ Exemple disponible : [https://makecode.microbit.org/\_C2yeP6E4xJrR](https://make
 
 > **Programme des élèves :** Demandez aux élèves d'implémenter le comportement initial de leur objet ainsi qu'un comportement de base à répéter cycliquement. Encouragez-les à distinguer les comportements qui ne doivent se produire qu'au démarrage de ceux qui doivent se produire cycliquement.
 
-**2. Introduction de conditions simples**
+#### 2. Introduction de conditions simples
 
 L'enseignant introduit des conditions et des comparaisons simples à travers des exemples de complexité croissante dans MakeCode.
 
@@ -166,7 +176,7 @@ Progression : interaction avec un bouton, modification du comportement, ajout de
 
 > **Programme des élèves :** Demandez aux élèves d'affiner le comportement de leur objet en ajoutant au moins une condition et une comparaison.
 
-**3. Introduction aux conditions complexes**
+#### 3. Introduction aux conditions complexes
 
 L'enseignant présente les conditions complexes (opérateurs ET, OU) à l'aide d'exemples dans MakeCode.
 

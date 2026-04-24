@@ -52,26 +52,19 @@ Cette application spécifique – la classification des véhicules pour la Zone 
 
 Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie en 4 étapes structurée comme suit :
 
-**Étape 1 : comprendre les arbres binaires**
-Dans la première étape, les élèves découvriront le concept d'arbres binaires, une structure de données largement utilisée dans le domaine de l'apprentissage supervisé.
-
-**Étape 2 : création d'arbres de décision pour la classification des véhicules**
-Dans un deuxième temps, ils construiront un arbre de décision, une forme particulière d'arbre binaire, afin de séparer un ensemble de véhicules en deux catégories : ceux autorisés à circuler dans la ZBE de Bruxelles et les autres. Ils compareront les arbres créés et leur performance dans la catégorisation des véhicules.
-
-**Étape 3 : construction d'un arbre de décision guidé par un algorithme**
-En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
-
-**Étape 4 : explorer les limites des algorithmes d'IA**
-Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, la dernière étape incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
+- **Étape 1 : comprendre les arbres binaires.** Dans la première étape, les élèves découvriront le concept d'arbres binaires, une structure de données largement utilisée dans le domaine de l'apprentissage supervisé.
+- **Étape 2 : création d'arbres de décision pour la classification des véhicules.** Dans un deuxième temps, ils construiront un arbre de décision, une forme particulière d'arbre binaire, afin de séparer un ensemble de véhicules en deux catégories : ceux autorisés à circuler dans la ZBE de Bruxelles et les autres. Ils compareront les arbres créés et leur performance dans la catégorisation des véhicules.
+- **Étape 3 : construction d'un arbre de décision guidé par un algorithme.** En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
+- **Étape 4 : explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, la dernière étape incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
 
 ### Glossaire
 
-- ****Arbre binaire**** : Un arbre binaire est une structure de données dans laquelle chaque élément (appelé nœud) possède au maximum deux nœuds enfants et au maximum un nœud parent. Les nœuds sans enfants sont appelés les « feuilles » de l'arbre.
-- ****Apprentissage automatique**** : L'apprentissage automatique (ML) est un domaine d'étude de l'intelligence artificielle qui s'intéresse au développement et à l'étude d'algorithmes statistiques capables d'apprendre à partir de données et de généraliser sur des données inédites, et ainsi d'effectuer des tâches sans instructions explicites.
-- ****Apprentissage supervisé**** : L'apprentissage supervisé est une technique d'apprentissage automatique qui utilise des ensembles de données étiquetés pour former des modèles d'algorithmes d'intelligence artificielle afin d'identifier les patterns et les relations sous-jacents entre les caractéristiques d'entrée et les sorties.
-- ****Modèle**** : Le modèle est le résultat du processus d'apprentissage. C'est lui qui permet de faire des prédictions sur de nouvelles données.
-- ****Généralisation**** : La généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant la formation.
-- ****Performances du modèle**** : La performance du modèle est la mesure de la capacité d'un modèle à faire des prédictions correctes.
+- **Arbre binaire** : un arbre binaire est une structure de données dans laquelle chaque élément (appelé nœud) possède au maximum deux nœuds enfants et au maximum un nœud parent. Les nœuds sans enfants sont appelés les « feuilles » de l'arbre.
+- **Apprentissage automatique** : l'apprentissage automatique (ML) est un domaine d'étude de l'intelligence artificielle qui s'intéresse au développement et à l'étude d'algorithmes statistiques capables d'apprendre à partir de données et de généraliser sur des données inédites, et ainsi d'effectuer des tâches sans instructions explicites.
+- **Apprentissage supervisé** : l'apprentissage supervisé est une technique d'apprentissage automatique qui utilise des ensembles de données étiquetés pour former des modèles d'algorithmes d'intelligence artificielle afin d'identifier les patterns et les relations sous-jacents entre les caractéristiques d'entrée et les sorties.
+- **Modèle** : le modèle est le résultat du processus d'apprentissage. C'est lui qui permet de faire des prédictions sur de nouvelles données.
+- **Généralisation** : la généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant la formation.
+- **Performances du modèle** : la performance du modèle est la mesure de la capacité d'un modèle à faire des prédictions correctes.
 
 ## Informations générales
 
@@ -86,11 +79,17 @@ Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure su
 
 (Se référer aux ODD pertinents pour l'activité.)
 
+---
+
 ## Étape 1 : comprendre les arbres binaires
 
-> **Contexte et description du problème à résoudre :** Les arbres binaires sont une structure de données omniprésente en informatique. Ils présentent de nombreuses propriétés intéressantes, telles que l'efficacité de la recherche, de l'insertion et de la suppression d'éléments, et la capacité de représenter des expressions mathématiques pour l'analyse syntaxique dans les compilateurs. Ils sont également utilisés dans les algorithmes de compression de données, comme le codage de Huffman. La compréhension du concept d'arbre binaire est essentielle dans ce protocole, car l'arbre de décision des étapes suivantes est une forme particulière d'arbre binaire.
->
-> **Objectifs d'apprentissage :** Comprendre le concept d'arbres binaires.
+### Contexte et description du problème à résoudre
+
+Les arbres binaires sont une structure de données omniprésente en informatique. Ils présentent de nombreuses propriétés intéressantes, telles que l'efficacité de la recherche, de l'insertion et de la suppression d'éléments, et la capacité de représenter des expressions mathématiques pour l'analyse syntaxique dans les compilateurs. Ils sont également utilisés dans les algorithmes de compression de données, comme le codage de Huffman. La compréhension du concept d'arbre binaire est essentielle dans ce protocole, car l'arbre de décision des étapes suivantes est une forme particulière d'arbre binaire.
+
+### Objectifs d'apprentissage
+
+Comprendre le concept d'arbres binaires.
 
 ### Conceptualisation
 
@@ -120,11 +119,17 @@ L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où le
 - **Réflexion sur la mise en œuvre en classe :** Les élèves ont participé activement à la construction d'un arbre de recherche binaire en se positionnant dans la classe selon un ordre numérique. Grâce à une réflexion guidée, ils ont compris le concept d'arbres plus efficaces et l'importance d'équilibrer les branches pour minimiser la profondeur de recherche.
 - **Résultats d'apprentissage :** Les élèves ont acquis une compréhension fondamentale des arbres binaires et des arbres de recherche binaire. Ils ont appris à apprécier l'importance des arbres équilibrés pour une recherche de données efficace et à développer des compétences en résolution de problèmes pour optimiser les structures arborescentes.
 
+---
+
 ## Étape 2 : création d'arbres de décision pour la classification des véhicules
 
-> **Contexte et description du problème à résoudre :** Après avoir découvert le concept d'arbre binaire, les élèves verront dans quelle mesure les arbres binaires peuvent être utilisés pour l'apprentissage automatique, en particulier la classification des données.
->
-> **Objectifs d'apprentissage :** Comprendre ce qu'est un arbre de décision. Apprendre à utiliser un arbre de décision pour classer les données et faire des prédictions. Apprendre à mesurer la performance d'un modèle.
+### Contexte et description du problème à résoudre
+
+Après avoir découvert le concept d'arbre binaire, les élèves verront dans quelle mesure les arbres binaires peuvent être utilisés pour l'apprentissage automatique, en particulier la classification des données.
+
+### Objectifs d'apprentissage
+
+Comprendre ce qu'est un arbre de décision. Apprendre à utiliser un arbre de décision pour classer les données et faire des prédictions. Apprendre à mesurer la performance d'un modèle.
 
 ### Conceptualisation
 
@@ -157,10 +162,10 @@ Chaque véhicule possède également une étiquette, représentée par le feu tr
 
 Après s'être familiarisés avec les cartes, les élèves travailleront en groupes pour construire un arbre de décision en utilisant uniquement les cartes d'entraînement (les cartes de test seront utilisées ultérieurement). Pour ce faire, les élèves devront suivre les étapes suivantes à chaque nœud de l'arbre de décision :
 
-1. Choisir une condition de séparation sous la forme : « Est-ce que [catégorie] est [valeur] ? » Par exemple : « Est-ce que le carburant est de type diesel ? » et enregistrer la question sur l'une des fiches de questions fournies.
-2. Diviser les cartes de véhicules en deux groupes selon que chaque véhicule répond vrai ou faux à cette condition, et les répartir de chaque côté de la carte de question.
-3. Continuer ce processus pour chaque nouveau groupe formé, en choisissant de nouvelles conditions.
-4. Arrêter lorsqu'un groupe ne contient que des véhicules autorisés dans la ZBE (feu vert) ou que des véhicules non autorisés (feu rouge).
+1. **Choisir une condition de séparation** sous la forme : « Est-ce que [catégorie] est [valeur] ? » Par exemple : « Est-ce que le carburant est de type diesel ? » et enregistrer la question sur l'une des fiches de questions fournies.
+2. **Diviser les cartes** de véhicules en deux groupes selon que chaque véhicule répond vrai ou faux à cette condition, et les répartir de chaque côté de la carte de question.
+3. **Continuer le processus** pour chaque nouveau groupe formé, en choisissant de nouvelles conditions.
+4. **Arrêter** lorsqu'un groupe ne contient que des véhicules autorisés dans la ZBE (feu vert) ou que des véhicules non autorisés (feu rouge).
 
 Pour évaluer la performance de leur modèle, les élèves utiliseront des cartes de test. Ils déplaceront chaque carte vers le bas de leur arbre de décision, en suivant les conditions à chaque nœud, jusqu'à atteindre une feuille. Si l'étiquette (feu tricolore) de la carte correspond à celle de la feuille atteinte, la prédiction est considérée comme correcte. Les élèves comptent le nombre de prédictions correctes, puis divisent ce nombre par le nombre total de cartes testées. Le résultat, exprimé en pourcentage, indique la précision du modèle. Plus le score est proche de 100 %, meilleur est le modèle. Cette méthode permet aux élèves d'évaluer objectivement la capacité de leur arbre à prendre des décisions correctes sur de nouvelles données.
 
@@ -172,11 +177,17 @@ Enfin, les groupes compareront leurs arbres et leurs performances. Il peut être
 - **Réflexion sur la mise en œuvre en classe :** Grâce à des activités pratiques, les élèves ont construit des arbres de décision à partir d'un jeu de données de cartes de véhicules, définissant les conditions de séparation et organisant les données de manière itérative. La réflexion a consisté à tester leurs modèles avec des données inédites, à calculer la précision et à comparer les stratégies et les résultats avec leurs pairs.
 - **Résultats d'apprentissage :** Les élèves ont acquis une compréhension des arbres de décision comme outils d'aide à la décision, développant ainsi leur esprit critique pour structurer efficacement les données. Ils ont amélioré leurs compétences en science des données en mesurant la précision des modèles et en apprenant à évaluer l'impact de leurs choix de conception sur les performances.
 
+---
+
 ## Étape 3 : construction d'un arbre de décision guidé par algorithme
 
-> **Contexte et description du problème à résoudre :** À l'étape précédente, les élèves ont créé un arbre de décision. Pour ce faire, ils ont choisi la condition de séparation à utiliser pour chaque branche. Cependant, un ordinateur ne peut prendre de décisions arbitraires et doit s'appuyer sur des outils statistiques et mathématiques pour analyser les données. Les élèves créeront donc un nouvel arbre de décision, mais cette fois en utilisant une méthode permettant de déterminer la meilleure condition de séparation pour chaque branche.
->
-> **Objectifs d'apprentissage :** Comprendre comment un ordinateur construit un arbre de décision efficace. Identifier la méthode la plus efficace pour choisir la condition de séparation.
+### Contexte et description du problème à résoudre
+
+À l'étape précédente, les élèves ont créé un arbre de décision. Pour ce faire, ils ont choisi la condition de séparation à utiliser pour chaque branche. Cependant, un ordinateur ne peut prendre de décisions arbitraires et doit s'appuyer sur des outils statistiques et mathématiques pour analyser les données. Les élèves créeront donc un nouvel arbre de décision, mais cette fois en utilisant une méthode permettant de déterminer la meilleure condition de séparation pour chaque branche.
+
+### Objectifs d'apprentissage
+
+Comprendre comment un ordinateur construit un arbre de décision efficace. Identifier la méthode la plus efficace pour choisir la condition de séparation.
 
 ### Conceptualisation
 
@@ -202,10 +213,10 @@ Pour les guider, les élèves disposeront du tableau suivant, qui peut être pla
 
 Étapes pour trouver la meilleure condition de séparation :
 
-1. Remplir les colonnes A (véhicules autorisés) et NA (véhicules non autorisés) pour chaque valeur de chaque catégorie.
-2. Identifier la ou les lignes présentant la plus petite valeur dans la colonne A ou NA. Cocher la case correspondante dans la colonne MIN ABSOLU ?.
-3. À partir de la ou des lignes où MIN ABSOLU ? est coché, identifier la ou les lignes avec la valeur la plus élevée de A ou NA, et cocher la case MAX ABSOLU ? en conséquence.
-4. La condition de séparation optimale est celle correspondant à la ligne dont les cases sont cochées à la fois dans MIN ABSOLU ? et MAX ABSOLU ?.
+1. **Remplir les colonnes A et NA** (véhicules autorisés et non autorisés) pour chaque valeur de chaque catégorie.
+2. **Identifier la valeur minimale.** Identifier la ou les lignes présentant la plus petite valeur dans la colonne A ou NA. Cocher la case correspondante dans la colonne MIN ABSOLU ?.
+3. **Identifier la valeur maximale.** À partir de la ou des lignes où MIN ABSOLU ? est coché, identifier la ou les lignes avec la valeur la plus élevée de A ou NA, et cocher la case MAX ABSOLU ? en conséquence.
+4. **Choisir la condition optimale.** La condition de séparation optimale est celle correspondant à la ligne dont les cases sont cochées à la fois dans MIN ABSOLU ? et MAX ABSOLU ?.
 
 Le reste du processus est identique à l'étape précédente. Le résultat sera l'organigramme disponible ici : [bit.ly/binarytreeiafrsvg](https://bit.ly/binarytreeiafrsvg) (format Mermaid : [bit.ly/binarytreeiafrsource](https://bit.ly/binarytreeiafrsource)). Si les élèves exécutent correctement l'algorithme, ils devraient tous obtenir le même arbre de décision. Lors des tests, ils devraient également obtenir les meilleures performances.
 
@@ -215,11 +226,17 @@ Le reste du processus est identique à l'étape précédente. Le résultat sera 
 - **Réflexion sur la mise en œuvre en classe :** Grâce à des activités pratiques, les élèves ont suivi un algorithme détaillé pour construire des arbres de décision basés sur une analyse statistique des caractéristiques des ensembles de données.
 - **Résultats d'apprentissage :** Les élèves ont acquis une compréhension des processus décisionnels informatiques et développé des compétences pour appliquer des algorithmes à la classification des données. Ils ont amélioré leur capacité à analyser méthodiquement des ensembles de données et ont reconnu l'importance de la précision dans les processus d'apprentissage automatique.
 
+---
+
 ## Étape 4 : explorer les limites des algorithmes d'IA
 
-> **Contexte et description du problème à résoudre :** Les élèves ont appris à construire et à utiliser un arbre de décision. Cette étape vise à montrer certaines limites inhérentes à l'apprentissage automatique.
->
-> **Objectifs d'apprentissage :** Découvrir certaines des limites de ces algorithmes.
+### Contexte et description du problème à résoudre
+
+Les élèves ont appris à construire et à utiliser un arbre de décision. Cette étape vise à montrer certaines limites inhérentes à l'apprentissage automatique.
+
+### Objectifs d'apprentissage
+
+Découvrir certaines des limites de ces algorithmes.
 
 ### Conceptualisation
 
@@ -237,6 +254,10 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 - **Réflexion sur la mise en œuvre en classe :** Grâce à des expériences, les élèves ont créé et évalué des arbres de décision avec des données de formation réduites et des ensembles de données non représentatifs.
 - **Résultats d'apprentissage :** Les participants ont appris à identifier et à expliquer les limites des arbres de décision et des algorithmes d'apprentissage automatique en général. Ils ont compris l'importance d'ensembles de données équilibrés et représentatifs, améliorant ainsi leur capacité à évaluer de manière critique la fiabilité des modèles prédictifs.
 
+---
+
+## Ressources
+
 ### Livres et guides
 
 - *"Machine Learning: An Algorithmic Perspective"* par Marsland, S. — Présente les algorithmes derrière les arbres de décision, avec une approche pratique.
@@ -247,6 +268,8 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 
 - [Mermaid](https://mermaid.live) — Outil en ligne permettant de créer des diagrammes et des schémas à l'aide d'une syntaxe textuelle simple. Particulièrement utile aux développeurs et aux chefs de projet qui souhaitent présenter visuellement des processus complexes de manière claire et efficace.
 - [Chapter 3.2 BINARY SEARCH TREES](https://algs4.cs.princeton.edu/lectures/keynote/32BinarySearchTrees.pdf), Algorithme par Robert Sedgewick, Kevin Wayne.
+
+---
 
 ## Annexes
 

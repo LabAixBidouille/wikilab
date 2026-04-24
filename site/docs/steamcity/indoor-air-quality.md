@@ -50,37 +50,37 @@ Cette expérience permet de réaliser un détecteur de dioxyde de carbone.
 
 Une fois assemblé et programmé, le détecteur peut être utilisé pour mesurer le taux de dioxyde de carbone dans une pièce. Il peut être utilisé pour montrer aux élèves comment mettre en place une chaîne de mesures, surveiller les changements de niveau au fil du temps et évaluer de manière critique la corrélation entre les changements de taux de CO2 et la ventilation.
 
-Avertissement : Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde de carbone (CO2) dans le milieu dans lequel se trouve le capteur. Elle ne peut être utilisée qu'à des fins pédagogiques et ne saurait se substituer à un appareil étalonné et certifié.
+:::caution[Avertissement]
+Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde de carbone (CO2) dans le milieu dans lequel se trouve le capteur. Elle ne peut être utilisée qu'à des fins pédagogiques et ne saurait se substituer à un appareil étalonné et certifié.
+:::
 
-Disciplines : biologie, physique
-
-Objectifs de développement durable
-
-L'activité en bref
-
-### Étape 1 : collecter des données
-
-L'étape 1 a permis aux élèves de découvrir les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, les élèves ont acquis des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base. Cette première étape a mis en place les bases de la compréhension de la collecte de données environnementales et de leur interprétation au moyen d'indicateurs visuels.
-
-### Étape 2 : afficher les données pour obtenir les informations nécessaires
-
-L'étape 2 vise à développer les compétences de visualisation des données en enseignant aux élèves comment modifier leur programme de détection de CO2 pour afficher les mesures sous forme graphique. Cette activité s'appuie sur la programmation du capteur de l'étape 1, en présentant aux élèves des techniques de représentation des données plus avancées. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, les élèves acquièrent de précieuses compétences en matière de visualisation et d'analyse des données. Cette étape constitue un pont entre la collecte et l'interprétation des données, préparant les élèves au travail d'analyse plus approfondi qui suit dans les étapes suivantes.
-
-### Étape 3 : analyser les données et en tirer des enseignements
-
-L'étape 3 est une phase cruciale du protocole de surveillance du CO2, au cours de laquelle les élèves passent de la collecte de données à une analyse significative. En 60 minutes, les élèves apprennent à identifier les tendances des niveaux de CO2 et à les corréler avec des événements ou des comportements spécifiques dans leur environnement. En enregistrant des facteurs tels que les ouvertures de fenêtres, l'occupation des pièces et les schémas de ventilation, les élèves développent des compétences analytiques tout en comprenant les implications pratiques de la gestion de la qualité de l'air. Cette étape comble le fossé entre la collecte de données brutes et les informations exploitables, préparant les élèves à prendre des décisions éclairées sur les pratiques de ventilation. Elle est particulièrement utile pour l'enseignement de la méthodologie scientifique, l'interprétation des données et l'application concrète de la surveillance environnementale.
-
-### Étape 4 : utilisez les données pour modifier votre comportement et améliorer la situation de départ
-
-L'étape 4 est le point culminant du protocole de surveillance du CO2, où les élèves transforment leur analyse de données en solutions exploitables. Cette phase de 40 minutes se concentre sur les applications pratiques des données collectées, encourageant les élèves à développer des solutions concrètes pour améliorer la qualité de l'air. Les élèves apprennent à appliquer des techniques d'analyse statistique, à partager leurs résultats via des plateformes mondiales comme Vittamap et à élaborer des recommandations concrètes pour des changements de comportement. Cette étape est cruciale car elle fait le lien entre l'observation scientifique et la mise en œuvre pratique, en enseignant aux élèves comment utiliser les données pour prendre des décisions éclairées sur les pratiques de ventilation et la gestion de l'environnement. Elle souligne l'importance de la collaboration scientifique mondiale tout en maintenant une focalisation locale sur les améliorations environnementales immédiates.
+**Disciplines** : biologie, physique.
 
 ### Structure de l'activité
 
-Durée : 180 minutes ou 3 leçons (première pour l'étape 1, deuxième pour l'étape 2 et le début de l'étape 3, et troisième pour la fin de l'étape 3 et l'étape 4)
+#### Étape 1 : collecter des données
 
-Niveau de difficulté : Facile (adaptable du collège au lycée)
+L'étape 1 a permis aux élèves de découvrir les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, les élèves ont acquis des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base. Cette première étape a mis en place les bases de la compréhension de la collecte de données environnementales et de leur interprétation au moyen d'indicateurs visuels.
 
-Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bit) ; 1 shield Grove ; 1 led RGB Neopixel ; 1 écran LCD ; 1 capteur Sensirion SCD30 ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB
+#### Étape 2 : afficher les données pour obtenir les informations nécessaires
+
+L'étape 2 vise à développer les compétences de visualisation des données en enseignant aux élèves comment modifier leur programme de détection de CO2 pour afficher les mesures sous forme graphique. Cette activité s'appuie sur la programmation du capteur de l'étape 1, en présentant aux élèves des techniques de représentation des données plus avancées. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, les élèves acquièrent de précieuses compétences en matière de visualisation et d'analyse des données. Cette étape constitue un pont entre la collecte et l'interprétation des données, préparant les élèves au travail d'analyse plus approfondi qui suit dans les étapes suivantes.
+
+#### Étape 3 : analyser les données et en tirer des enseignements
+
+L'étape 3 est une phase cruciale du protocole de surveillance du CO2, au cours de laquelle les élèves passent de la collecte de données à une analyse significative. En 60 minutes, les élèves apprennent à identifier les tendances des niveaux de CO2 et à les corréler avec des événements ou des comportements spécifiques dans leur environnement. En enregistrant des facteurs tels que les ouvertures de fenêtres, l'occupation des pièces et les schémas de ventilation, les élèves développent des compétences analytiques tout en comprenant les implications pratiques de la gestion de la qualité de l'air. Cette étape comble le fossé entre la collecte de données brutes et les informations exploitables, préparant les élèves à prendre des décisions éclairées sur les pratiques de ventilation. Elle est particulièrement utile pour l'enseignement de la méthodologie scientifique, l'interprétation des données et l'application concrète de la surveillance environnementale.
+
+#### Étape 4 : utiliser les données pour modifier son comportement et améliorer la situation de départ
+
+L'étape 4 est le point culminant du protocole de surveillance du CO2, où les élèves transforment leur analyse de données en solutions exploitables. Cette phase de 40 minutes se concentre sur les applications pratiques des données collectées, encourageant les élèves à développer des solutions concrètes pour améliorer la qualité de l'air. Les élèves apprennent à appliquer des techniques d'analyse statistique, à partager leurs résultats via des plateformes mondiales comme Vittamap et à élaborer des recommandations concrètes pour des changements de comportement. Cette étape est cruciale car elle fait le lien entre l'observation scientifique et la mise en œuvre pratique, en enseignant aux élèves comment utiliser les données pour prendre des décisions éclairées sur les pratiques de ventilation et la gestion de l'environnement. Elle souligne l'importance de la collaboration scientifique mondiale tout en maintenant une focalisation locale sur les améliorations environnementales immédiates.
+
+#### Informations pratiques
+
+**Durée** : 180 minutes ou 3 leçons (première pour l'étape 1, deuxième pour l'étape 2 et le début de l'étape 3, et troisième pour la fin de l'étape 3 et l'étape 4).
+
+**Niveau de difficulté** : Facile (adaptable du collège au lycée).
+
+**Matériel nécessaire** : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bit) ; 1 shield Grove ; 1 LED RGB Neopixel ; 1 écran LCD ; 1 capteur Sensirion SCD30 ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB.
 
 
 ### Glossaire
@@ -93,11 +93,13 @@ Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bi
 
 **LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 mHz en France) qui permet l'échange de données entre objets connectés. Le signal est émis sur une large gamme spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine, jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits de données LoRaWan sont très faibles, quelques kilobits par seconde seulement. Ce type de réseau est donc utilisé pour l'Internet des Objets (IoT), c'est-à-dire les capteurs fixes (ex : température, humidité, etc.). Les capteurs utilisant la technologie LoRa (modulation des ondes radio) se connectent à Internet via des passerelles. Il peut s'agir d'antennes (comme en France avec Orange) ou de boîtiers à connecter à votre réseau personnel fibre/ADSL. Cette technologie est compatible avec les cartes programmables NUCLEO-L476RG, Arduino et Micro:bit.
 
+---
+
 ## Étape 1 : collecter des données
 
 **Contexte et description du problème à résoudre à cette étape** : Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
 
-**Objectifs d'apprentissage**: L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
+**Objectifs d'apprentissage** : L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
 
 ### Conceptualisation
 
@@ -158,7 +160,7 @@ Il existe plusieurs façons de ventiler une pièce, en fonction des besoins, des
 
 L'activité est lancée par l'enseignant à l'aide du tableau blanc, de papiers ou de feuilles A4. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Définissez 4 niveaux d'intervention correspondant à différentes couleurs de LED en fonction du taux de CO2. Ils peuvent être ajustés en fonction de l'environnement (ville, campagne, pics de pollution, créer une ventilation) et de la qualité de l'étalonnage. Voici la bonne réponse. Vous pouvez distribuer une version vide de ce tableau à vos élèves.
+**Consignes pour les élèves** : Définissez 4 niveaux d'intervention correspondant à différentes couleurs de LED en fonction du taux de CO2. Ils peuvent être ajustés en fonction de l'environnement (ville, campagne, pics de pollution, créer une ventilation) et de la qualité de l'étalonnage. Voici la bonne réponse. Vous pouvez distribuer une version vide de ce tableau à vos élèves.
 
 | Niveaux de dioxyde de carbone (en ppm) | Couleur LED | Action |
 |---|---|---|
@@ -171,7 +173,7 @@ Consignes pour les élèves : Définissez 4 niveaux d'intervention correspondant
 
 L'activité est lancée par l'enseignant avec le support de l'interface Vittascience et du capteur SCD30.
 
-Consignes pour les élèves : Créer un programme pour afficher le taux de CO2 dans la pièce sur l'écran LCD avec le capteur SCD30. Utilisez l'interface Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte Micro:bit ou programmable Arduino, capteur SCD30, écran LCD, câble usb, compteur), vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte NUCLEO-L476RG ; Micro:bit ou programmable Arduino.
+**Consignes pour les élèves** : Créer un programme pour afficher le taux de CO2 dans la pièce sur l'écran LCD avec le capteur SCD30. Utilisez l'interface Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte Micro:bit ou programmable Arduino, capteur SCD30, écran LCD, câble USB, compteur), vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte NUCLEO-L476RG ; Micro:bit ou programmable Arduino.
 
 Pour vérifier que le programme fonctionne, vous pouvez souffler dessus pour vérifier que la valeur mesurée augmente. En extérieur, si le capteur est bien calibré, la valeur indiquée est d'environ 400 ppm.
 
@@ -181,9 +183,10 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Allumez une LED (type Neopixel) de couleur orange. Cette étape vous permet de vous familiariser avec l'étape suivante qui propose un programme plus complet. Utilisez l'interface Vittascience pour la réaliser.
+**Consignes pour les élèves** : Allumez une LED (type Neopixel) de couleur orange. Cette étape vous permet de vous familiariser avec l'étape suivante qui propose un programme plus complet. Utilisez l'interface Vittascience pour la réaliser.
 
-Bon à savoir : R, V et B signifient respectivement Rouge, Vert et Bleu. La superposition de ces trois lumières colorées, dans des proportions différentes, crée toutes les couleurs selon le principe de synthèse additive. Ces proportions varient entre 0 et 255, correspondant respectivement à 0% et 100% de luminosité. Ainsi, par exemple, si vous souhaitez obtenir :
+:::info[Bon à savoir]
+R, V et B signifient respectivement Rouge, Vert et Bleu. La superposition de ces trois lumières colorées, dans des proportions différentes, crée toutes les couleurs selon le principe de synthèse additive. Ces proportions varient entre 0 et 255, correspondant respectivement à 0% et 100% de luminosité. Ainsi, par exemple, si vous souhaitez obtenir :
 
 - **Lumière BLANCHE, choisir** : R : 255 ; V : 255 ; B : 255.
 - **Lumière NOIRE, choisir** : R : 0 ; V : 0 ; B : 0.
@@ -191,6 +194,7 @@ Bon à savoir : R, V et B signifient respectivement Rouge, Vert et Bleu. La supe
 - **Lumière ORANGE** : R : 255 ; V : 96 ; B : 0.
 
 En combinant ces valeurs, on peut théoriquement obtenir 16 777 216 couleurs (il y a 256 nuances possibles pour chaque couleur, de 0 à 255, soit un total de 2563 = 16 777 216 couleurs). Il existe un autre bloc permettant de sélectionner la couleur de la lumière émise par la LED. Ce bloc est présenté plus loin dans le livret. Il permet un choix de couleurs plus simple, mais plus limité, à l'aide d'une palette présélectionnée.
+:::
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 2 : Configuration des couleurs des LED ».
 
@@ -198,7 +202,7 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 3 : Indicateur LED CO2 ».
 
@@ -206,13 +210,19 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer les notions clés qu'ils ont apprises : quels polluants atmosphériques sont nocifs pour la santé, comment les mesurer et quelles données environnementales de construction doivent être prises en compte ? Ces trois notions permettront aux élèves d'étudier les résultats de leurs mesures.
 
-Connaissances mobilisées : les élèves découvrent le CO2, son impact sur la santé et comment les capteurs peuvent mesurer la qualité de l'air intérieur. Réflexion sur la mise en œuvre en classe : les élèves programment et assemblent un détecteur de CO2, en définissant des seuils d'action en fonction des niveaux de CO2. Résultats d'apprentissage généraux : Les élèves acquièrent une expérience pratique de l'utilisation de la technologie pour collecter et interpréter des données environnementales.
+**Connaissances mobilisées** : les élèves découvrent le CO2, son impact sur la santé et comment les capteurs peuvent mesurer la qualité de l'air intérieur.
+
+**Réflexion sur la mise en œuvre en classe** : les élèves programment et assemblent un détecteur de CO2, en définissant des seuils d'action en fonction des niveaux de CO2.
+
+**Résultats d'apprentissage généraux** : Les élèves acquièrent une expérience pratique de l'utilisation de la technologie pour collecter et interpréter des données environnementales.
+
+---
 
 ## Étape 2 : afficher les données pour obtenir les informations nécessaires
 
 **Contexte et description du problème à résoudre à cette étape** : Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
 
-**Objectifs d'apprentissage**: Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
+**Objectifs d'apprentissage** : Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
 
 ### Conceptualisation
 
@@ -236,7 +246,7 @@ Dans la partie « communication », vous trouverez un bloc d'instructions permet
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de l'étape 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de l'étape 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 4 : Affichage du CO2 ».
 
@@ -244,7 +254,7 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 5 : Visualisation des données ».
 
@@ -252,13 +262,19 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à l'étape 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé l'étape 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Chacune d'entre elles est ensuite utilisée pour analyser les données afin de comprendre l'influence des données sur le résultat.
 
-Connaissances mobilisées : les élèves explorent des méthodes de visualisation des données, comme l'utilisation de LED et d'écrans d'ordinateur. Réflexion sur la mise en œuvre en classe : les élèves modifient les programmes pour afficher les valeurs de CO2 et observent comment la rétroaction visuelle (DEL) aide à interpréter la qualité de l'air. Résultats d'apprentissage généraux : Les élèves comprennent comment représenter efficacement les données environnementales pour la prise de décision.
+**Connaissances mobilisées** : les élèves explorent des méthodes de visualisation des données, comme l'utilisation de LED et d'écrans d'ordinateur.
+
+**Réflexion sur la mise en œuvre en classe** : les élèves modifient les programmes pour afficher les valeurs de CO2 et observent comment la rétroaction visuelle (DEL) aide à interpréter la qualité de l'air.
+
+**Résultats d'apprentissage généraux** : Les élèves comprennent comment représenter efficacement les données environnementales pour la prise de décision.
+
+---
 
 ## Étape 3 : analyser les données et en tirer des leçons
 
 **Contexte et description du problème à résoudre dans cette étape** : Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
 
-**Objectifs d'apprentissage**: Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
+**Objectifs d'apprentissage** : Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
 
 ### Conceptualisation
 
@@ -286,13 +302,19 @@ L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience
 
 L'analyse des données est une étape essentielle pour transformer les données brutes en informations, permettant aux élèves d'apprendre à tirer des conclusions. Demandez aux élèves de tirer des conclusions entre l'environnement d'analyse et la qualité de vie. Comment la ventilation d'un bâtiment peut-elle influencer le bien-être de ses occupants ?
 
-Connaissances mobilisées : les élèves analysent les données collectées pour identifier les modèles et comprendre les facteurs affectant les niveaux de CO2. Réflexion sur la mise en œuvre en classe : les élèves comparent les tendances du CO2 avec des activités telles que la ventilation, l'occupation et la taille de la pièce pour tirer des conclusions. Résultats d'apprentissage généraux : Les élèves développent des compétences de pensée critique et apprennent à utiliser l'analyse des données pour évaluer la santé environnementale.
+**Connaissances mobilisées** : les élèves analysent les données collectées pour identifier les modèles et comprendre les facteurs affectant les niveaux de CO2.
 
-## Étape 4 : utilisez les données pour modifier votre comportement et améliorer la situation de départ
+**Réflexion sur la mise en œuvre en classe** : les élèves comparent les tendances du CO2 avec des activités telles que la ventilation, l'occupation et la taille de la pièce pour tirer des conclusions.
+
+**Résultats d'apprentissage généraux** : Les élèves développent des compétences de pensée critique et apprennent à utiliser l'analyse des données pour évaluer la santé environnementale.
+
+---
+
+## Étape 4 : utiliser les données pour modifier son comportement et améliorer la situation de départ
 
 **Contexte et description du problème à résoudre dans cette étape** : La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
 
-**Objectifs d'apprentissage**: Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
+**Objectifs d'apprentissage** : Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
 
 ### Conceptualisation
 
@@ -310,7 +332,7 @@ L'activité est lancée par l'enseignant à l'aide des données collectées par 
 
 L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Consignes pour les élèves : Maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données du monde entier grâce à la technologie LoRa. Téléchargez les données que vous avez collectées (grâce à la technologie LoRa, ici — https://en.vittascience.com/learn/tutorial.php?id=547/activity-no-11-send-the-data-on-the-lora-network-and-display-it-on-the-vittamap-interface-iot-sensors-kit) et mettez-les à disposition pour consultation sur le site de l'école ou sur le site de Vittascience. Vous pouvez publier les données collectées en temps réel sur Internet via un serveur. Par exemple, la qualité de l'air locale peut être affichée sur un site Web ou un réseau social. Attention cependant, la mise en place d'un tel projet est réservée aux utilisateurs expérimentés !
+**Consignes pour les élèves** : Maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données du monde entier grâce à la technologie LoRa. Téléchargez les données que vous avez collectées (grâce à la [technologie LoRa](https://en.vittascience.com/learn/tutorial.php?id=547/activity-no-11-send-the-data-on-the-lora-network-and-display-it-on-the-vittamap-interface-iot-sensors-kit)) et mettez-les à disposition pour consultation sur le site de l'école ou sur le site de Vittascience. Vous pouvez publier les données collectées en temps réel sur Internet via un serveur. Par exemple, la qualité de l'air locale peut être affichée sur un site Web ou un réseau social. Attention cependant, la mise en place d'un tel projet est réservée aux utilisateurs expérimentés !
 
 Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap. Cliquez sur le bouton « + » → « Ajouter une expérience ». Sur le formulaire, remplissez les informations suivantes : Nom du projet ; Type de kit : kit station de mesure ; Comment s'est déroulé le projet ? (décrivez ici votre protocole de mesure) ; Lieu ; Dates de mesure ; Données (pour ajouter des données, vous pouvez inclure plusieurs séries de mesures. Vous pouvez saisir des données directement dans le tableau "Champ de données", et/ou ajouter votre propre fichier .csv depuis votre carte SD) ; Photos/Vidéos ; Langue. Une fois tous les champs remplis, il ne vous reste plus qu'à cliquer sur le bouton "Ajouter une expérience". Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap. Les élèves peuvent ensuite les comparer avec d'autres expériences similaires. Filtrez les expériences par type de "Kit station de mesure". Cliquez ensuite sur une expérience et sur le bouton "comparer". Cliquez à nouveau sur une autre expérience et sur le bouton "comparer avec l'expérience sélectionnée".
 
@@ -318,12 +340,21 @@ Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vitta
 
 L'enseignant encourage les élèves à partager des idées pour améliorer le taux de CO2 dans le lieu choisi tout au long de la semaine. Résumer les idées sous forme d'un résumé des bonnes pratiques à mettre en œuvre.
 
-Connaissances mobilisées : Les élèves appliquent le raisonnement statistique pour proposer des solutions visant à améliorer la qualité de l'air en fonction de leurs données. Réflexion sur la mise en œuvre en classe : les élèves créent des recommandations pour de meilleures pratiques de ventilation et partagent leurs résultats à l'échelle mondiale via Vittamap. Résultats d'apprentissage généraux : Les élèves relient les informations fondées sur les données à des actions concrètes, favorisant ainsi un sens des responsabilités pour un mode de vie durable.
+**Connaissances mobilisées** : Les élèves appliquent le raisonnement statistique pour proposer des solutions visant à améliorer la qualité de l'air en fonction de leurs données.
+
+**Réflexion sur la mise en œuvre en classe** : les élèves créent des recommandations pour de meilleures pratiques de ventilation et partagent leurs résultats à l'échelle mondiale via Vittamap.
+
+**Résultats d'apprentissage généraux** : Les élèves relient les informations fondées sur les données à des actions concrètes, favorisant ainsi un sens des responsabilités pour un mode de vie durable.
+
+---
 
 ## Fiche pratique
 
 Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Indoor Air Quality](/ressources/steamcity/programmation/programmation-indoor-air-quality).
 
+---
+
+## Aller plus loin
 
 ### Exploration de la problématique au travers d'autres initiatives
 

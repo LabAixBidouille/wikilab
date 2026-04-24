@@ -71,11 +71,13 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 - **Pyramide DIKW** : Classe de modèles représentant les relations structurelles ou fonctionnelles supposées entre données, information, connaissance et sagesse.
 
 
+---
+
 ## Étape 1 : 5 minutes, 20 données
 
-**Contexte :** Cette première étape doit durer au maximum 10 minutes, introduction et conclusion comprises. Elle peut être réalisée en classe, dans la cour de l'école, dans le quartier, lors d'une visite... L'objectif est d'identifier ce que sont les données grâce à une chasse aux données, c'est-à-dire en recherchant le plus de données possible dans un environnement donné avec un temps limité. Les élèves devront annoncer oralement et clairement leurs propositions, que les enseignants valideront ou non en fonction de ce qui peut être considéré ou non comme une "donnée".
+**Contexte** : Cette première étape doit durer au maximum 10 minutes, introduction et conclusion comprises. Elle peut être réalisée en classe, dans la cour de l'école, dans le quartier, lors d'une visite... L'objectif est d'identifier ce que sont les données grâce à une chasse aux données, c'est-à-dire en recherchant le plus de données possible dans un environnement donné avec un temps limité. Les élèves devront annoncer oralement et clairement leurs propositions, que les enseignants valideront ou non en fonction de ce qui peut être considéré ou non comme une "donnée".
 
-**Objectifs d'apprentissage :** Explorer activement la définition des données, apprendre à formuler sans équivoque des données, qu'elles soient quantitatives ou qualitatives.
+**Objectifs d'apprentissage** : Explorer activement la définition des données, apprendre à formuler sans équivoque des données, qu'elles soient quantitatives ou qualitatives.
 
 ### Conceptualisation
 
@@ -83,7 +85,7 @@ Dans le cadre du projet SteamCity, et généralement dans chaque investigation, 
 
 Afin d'aborder ces activités utilisant des données de manière structurée, les élèves doivent être capables de déterminer si leurs observations de leur environnement peuvent être considérées ou non comme des données. Cette étape introductive est là pour illustrer ce que sont les données grâce à un atelier interactif.
 
-**Hypothèse d'étude :** identifier des données dans un environnement familier permettra aux élèves de mieux comprendre la nature des données et de développer un "réflexe" pour reconnaître ce qui peut être considéré comme une donnée dans différents contextes.
+**Hypothèse d'étude** : identifier des données dans un environnement familier permettra aux élèves de mieux comprendre la nature des données et de développer un "réflexe" pour reconnaître ce qui peut être considéré comme une donnée dans différents contextes.
 
 ### Investigation par les élèves
 
@@ -95,9 +97,9 @@ L'activité est lancée par l'enseignant avec le support du tableau blanc (trace
 
 L'enseignant explique le but du jeu, la durée et les règles :
 
-- **But :** Identifier autant de données que possible dans un environnement donné et limité, qu'elles soient qualitatives ou quantitatives.
-- **Durée :** 5 minutes maximum pour dévoiler un maximum de données.
-- **Règles :** Les élèves peuvent explorer librement l'environnement / Les élèves annoncent oralement les données identifiées en prenant soin de les formuler sans équivoque / L'enseignant validera ou invalidera la proposition / Les élèves peuvent essayer de reformuler leur proposition autant de fois qu'ils le souhaitent jusqu'à ce qu'elle soit acceptée ou passer à une autre donnée.
+- **But** : Identifier autant de données que possible dans un environnement donné et limité, qu'elles soient qualitatives ou quantitatives.
+- **Durée** : 5 minutes maximum pour dévoiler un maximum de données.
+- **Règles** : Les élèves peuvent explorer librement l'environnement / Les élèves annoncent oralement les données identifiées en prenant soin de les formuler sans équivoque / L'enseignant validera ou invalidera la proposition / Les élèves peuvent essayer de reformuler leur proposition autant de fois qu'ils le souhaitent jusqu'à ce qu'elle soit acceptée ou passer à une autre donnée.
 
 L'enseignant démarre le chronomètre pour 5 minutes.
 
@@ -126,15 +128,15 @@ Utilisez ce temps pour évaluer le ressenti de la classe concernant l'activité.
 
 ## Étape 2 : données vs. prise de décision
 
-**Contexte :** Dans cette étape, la classe est divisée en petits groupes (3/4 élèves) qui recevront un problème à analyser. L'objectif est que les élèves découvrent le rôle que jouent les données dans la définition de politiques publiques. Ils agiront en tant qu'urbanistes, membres d'une municipalité, membres de comités de quartier ... chargés d'analyser une situation difficile et de proposer des solutions illustrées et soutenues par des données. Les sujets seront liés à diverses politiques d'urbanisme telles que les transports, l'environnement et la gestion de l'énergie. Les problèmes présentés aux élèves doivent être suffisamment spécifiques pour orienter une discussion concrète.
+**Contexte** : Dans cette étape, la classe est divisée en petits groupes (3/4 élèves) qui recevront un problème à analyser. L'objectif est que les élèves découvrent le rôle que jouent les données dans la définition de politiques publiques. Ils agiront en tant qu'urbanistes, membres d'une municipalité, membres de comités de quartier ... chargés d'analyser une situation difficile et de proposer des solutions illustrées et soutenues par des données. Les sujets seront liés à diverses politiques d'urbanisme telles que les transports, l'environnement et la gestion de l'énergie. Les problèmes présentés aux élèves doivent être suffisamment spécifiques pour orienter une discussion concrète.
 
-**Objectifs d'apprentissage :** Analyser de manière critique les données et prendre des décisions éclairées basées sur leur compréhension, travailler avec des ensembles de données et comprendre l'importance du tri, du nettoyage et de la visualisation, discuter des processus de prise de décision et s'engager dans des discussions collaboratives et découvrir les pratiques de narration de données.
+**Objectifs d'apprentissage** : Analyser de manière critique les données et prendre des décisions éclairées basées sur leur compréhension, travailler avec des ensembles de données et comprendre l'importance du tri, du nettoyage et de la visualisation, discuter des processus de prise de décision et s'engager dans des discussions collaboratives et découvrir les pratiques de narration de données.
 
 ### Conceptualisation
 
 Au cours de cette étape, l'objectif sera pour les élèves de formuler des recommandations de politiques publiques, liées à une situation urbaine spécifique, en s'appuyant uniquement sur des ensembles de données. En exploitant l'analyse des données, les gouvernements peuvent améliorer la façon dont ils fournissent les services publics. Par exemple, l'analyse prédictive peut prévoir les urgences de santé publique, tandis que les données géospatiales peuvent améliorer le routage des transports publics pour mieux répondre aux besoins de la communauté. Cela se traduit par des services publics plus efficaces et réactifs qui répondent aux besoins de la population. L'analyse des données permet également une évaluation continue de l'efficacité des politiques. En suivant régulièrement les données, les gouvernements peuvent évaluer la performance en temps réel des politiques et apporter les ajustements nécessaires. Ce processus continu aide à affiner les stratégies et garantit que les politiques atteignent leurs objectifs prévus. Les élèves devront comprendre ces processus et se positionner comme acteurs actifs dans le domaine des services publics. Ils seront encouragés à utiliser des pratiques de narration de données i.e. construire un récit convaincant fondé sur des données complexes et des analyses, qui aide à transmettre le message et à influencer un public particulier. Cette approche peut améliorer leur capacité à présenter des données de manière significative, améliorant leur pensée critique et favorisant de meilleures compétences en prise de décision.
 
-**Hypothèse d'étude :** l'utilisation de données quantitatives et qualitatives permet de formuler des recommandations de politiques publiques plus précises et efficaces.
+**Hypothèse d'étude** : l'utilisation de données quantitatives et qualitatives permet de formuler des recommandations de politiques publiques plus précises et efficaces.
 
 ### Investigation par les élèves
 
@@ -181,9 +183,9 @@ Complétez votre discussion réflexive avec des questions telles que : qu'avez-v
 
 ## Étape 3 : données vs. contexte
 
-**Contexte :** Dans la dernière étape du protocole, l'objectif est de comprendre l'importance de la contextualisation dans l'analyse des données. Les élèves seront à nouveau séparés en groupes (les mêmes que pour l'étape précédente). Ils devront affiner leur narration et leurs conclusions en se basant sur des éléments d'information dévoilant de nouvelles perspectives dans leurs découvertes. À travers cette étape, l'objectif sera également de discuter de l'importance de différencier les données de la connaissance et d'aider les élèves à gagner en méthodologie et en précision scientifique.
+**Contexte** : Dans la dernière étape du protocole, l'objectif est de comprendre l'importance de la contextualisation dans l'analyse des données. Les élèves seront à nouveau séparés en groupes (les mêmes que pour l'étape précédente). Ils devront affiner leur narration et leurs conclusions en se basant sur des éléments d'information dévoilant de nouvelles perspectives dans leurs découvertes. À travers cette étape, l'objectif sera également de discuter de l'importance de différencier les données de la connaissance et d'aider les élèves à gagner en méthodologie et en précision scientifique.
 
-**Objectifs d'apprentissage :** Comprendre l'importance du contexte dans l'interprétation précise des données, développer une approche méthodologique de l'analyse des données.
+**Objectifs d'apprentissage** : Comprendre l'importance du contexte dans l'interprétation précise des données, développer une approche méthodologique de l'analyse des données.
 
 ### Conceptualisation
 
@@ -191,14 +193,14 @@ Cette étape aide les élèves à saisir que les données brutes peuvent être t
 
 Pour aider les élèves à conceptualiser l'activité, il peut être intéressant d'introduire la pyramide DIKW i.e. Data (Données), Information, Knowledge (Connaissance), Wisdom (Sagesse). Ce modèle fournit un cadre pour comprendre la hiérarchie du traitement des données et leur transformation en outils d'analyse exploitables.
 
-- **Données :** Faits et chiffres bruts sans contexte. Exemple : relevés de température provenant de capteurs.
-- **Information :** Données traitées et organisées. Exemple : tri des relevés de température par heure et lieu pour identifier des modèles.
-- **Connaissance :** Compréhension des relations et des principes dérivés de l'information. Exemple : reconnaître qu'une augmentation de la température à certains moments est corrélée à une consommation d'énergie accrue.
-- **Sagesse :** Utilisation de la connaissance pour prendre des décisions éclairées et appliquer efficacement les insights. Exemple : mise en oeuvre de mesures d'économie d'énergie pendant les périodes de pointe de température pour réduire la consommation.
+- **Données** : Faits et chiffres bruts sans contexte. Exemple : relevés de température provenant de capteurs.
+- **Information** : Données traitées et organisées. Exemple : tri des relevés de température par heure et lieu pour identifier des modèles.
+- **Connaissance** : Compréhension des relations et des principes dérivés de l'information. Exemple : reconnaître qu'une augmentation de la température à certains moments est corrélée à une consommation d'énergie accrue.
+- **Sagesse** : Utilisation de la connaissance pour prendre des décisions éclairées et appliquer efficacement les insights. Exemple : mise en oeuvre de mesures d'économie d'énergie pendant les périodes de pointe de température pour réduire la consommation.
 
 En utilisant la pyramide DIKW, les enseignants peuvent guider les élèves à travers les étapes de l'analyse des données, les aidant à transformer les données brutes en informations significatives, permettant de prendre de meilleures décisions.
 
-**Hypothèse d'étude :** les données brutes seules peuvent être trompeuses et doivent être interprétées avec le contexte et une analyse approfondie pour guider efficacement la prise de décision.
+**Hypothèse d'étude** : les données brutes seules peuvent être trompeuses et doivent être interprétées avec le contexte et une analyse approfondie pour guider efficacement la prise de décision.
 
 ### Investigation par les élèves
 
@@ -247,28 +249,28 @@ Dans la société actuelle, de nouvelles carrières ont émergé, étroitement l
 
 Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une discussion sur les services publics et la gouvernance locale en classe. Ces échanges permettront aux élèves d'approfondir leur compréhension des mécanismes de gestion publique, en s'appuyant sur les scénarios étudiés. C'est aussi l'occasion d'encourager leur réflexion critique sur le rôle des citoyens dans la vie de la cité et de stimuler leur engagement civique. Cette discussion peut servir de tremplin pour explorer des concepts plus avancés de citoyenneté active et de démocratie participative. Voici quelques exemples de thèmes pouvant être abordés sur la base des situations fournies lors du protocole :
 
-**Le mystère du quartier Hollyhock :**
+#### Le mystère du quartier Hollyhock
 
-1. Mobilité urbaine : Comment les systèmes de transport intelligents peuvent-ils réduire la congestion et promouvoir des options de mobilité durable ?
-2. Durabilité environnementale : Comment les villes intelligentes ? Quel rôle les citoyens peuvent-ils jouer dans la promotion de pratiques écologiques ?
-3. Engagement communautaire : Comment la technologie peut-elle donner aux citoyens les moyens d'exprimer leurs préoccupations et leurs idées ?
+1. **Mobilité urbaine** : Comment les systèmes de transport intelligents peuvent-ils réduire la congestion et promouvoir des options de mobilité durable ?
+2. **Durabilité environnementale** : Comment les villes intelligentes ? Quel rôle les citoyens peuvent-ils jouer dans la promotion de pratiques écologiques ?
+3. **Engagement communautaire** : Comment la technologie peut-elle donner aux citoyens les moyens d'exprimer leurs préoccupations et leurs idées ?
 
-**Le dilemme du parc du quartier Iris :**
+#### Le dilemme du parc du quartier Iris
 
-1. Utilisation des parcs urbains : Comment les espaces récréatifs peuvent-ils renforcer la cohésion communautaire et encourager la participation active des résidents dans leur entretien ?
-2. Engagement public : Comment les dialogues ouverts peuvent-ils renforcer l'inclusion et améliorer la gouvernance locale sur les enjeux d'équipements publics ?
-3. Planification publique : Comment les citoyens peuvent-ils comprendre les processus de planification et apporter une contribution informée aux initiatives futures ?
+1. **Utilisation des parcs urbains** : Comment les espaces récréatifs peuvent-ils renforcer la cohésion communautaire et encourager la participation active des résidents dans leur entretien ?
+2. **Engagement public** : Comment les dialogues ouverts peuvent-ils renforcer l'inclusion et améliorer la gouvernance locale sur les enjeux d'équipements publics ?
+3. **Planification publique** : Comment les citoyens peuvent-ils comprendre les processus de planification et apporter une contribution informée aux initiatives futures ?
 
-**Protection de la faune à Greenwood :**
+#### Protection de la faune à Greenwood
 
-1. Engagement public : Comment intégrer efficacement les préoccupations des résidents dans les décisions relatives au patrimoine naturel pour une gouvernance plus inclusive ?
-2. Transparence : Comment des mécanismes de communication ouverts peuvent-ils prévenir ou atténuer les impacts des incidents environnementaux ?
-3. Coordination interservices : Comment une collaboration plus étroite entre les services communaux peut-elle permettre une gestion plus rapide et efficace des incidents environnementaux ?
+1. **Engagement public** : Comment intégrer efficacement les préoccupations des résidents dans les décisions relatives au patrimoine naturel pour une gouvernance plus inclusive ?
+2. **Transparence** : Comment des mécanismes de communication ouverts peuvent-ils prévenir ou atténuer les impacts des incidents environnementaux ?
+3. **Coordination interservices** : Comment une collaboration plus étroite entre les services communaux peut-elle permettre une gestion plus rapide et efficace des incidents environnementaux ?
 
-**Lutte contre les îlots de chaleur urbains :**
+#### Lutte contre les îlots de chaleur urbains
 
-1. Préservation des espaces naturels en milieu urbain : Comment les politiques publiques peuvent soutenir la préservation d'espaces naturels en ville face aux enjeux fonciers ? Quels avantages ces zones offrent-elles en matière de biodiversité et de bien-être des citoyens, et comment leur protection peut-elle être intégrée à la planification urbaine ?
-2. Îlots de chaleur urbains : Comment les politiques publiques et des pratiques durables peuvent-elles atténuer le phénomène d'îlots de chaleur, et quel rôle les citoyens peuvent-ils jouer ?
+1. **Préservation des espaces naturels en milieu urbain** : Comment les politiques publiques peuvent soutenir la préservation d'espaces naturels en ville face aux enjeux fonciers ? Quels avantages ces zones offrent-elles en matière de biodiversité et de bien-être des citoyens, et comment leur protection peut-elle être intégrée à la planification urbaine ?
+2. **Îlots de chaleur urbains** : Comment les politiques publiques et des pratiques durables peuvent-elles atténuer le phénomène d'îlots de chaleur, et quel rôle les citoyens peuvent-ils jouer ?
 
 ### Liens utiles
 
@@ -279,19 +281,21 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 
 ---
 
-### Restitution de l'étape 1 -- découvrir les données qui m'entourent
+## Annexe : tableau de réflexion
+
+### Restitution de l'étape 1 : découvrir les données qui m'entourent
 
 | Apprentissages | Ressenti |
 |---|---|
 | | |
 
-### Restitution de l'étape 2 -- prendre des décisions à partir des données
+### Restitution de l'étape 2 : prendre des décisions à partir des données
 
 | Apprentissages | Ressenti |
 |---|---|
 | | |
 
-### Restitution de l'étape 3 -- donner du sens aux données par la contextualisation
+### Restitution de l'étape 3 : donner du sens aux données par la contextualisation
 
 | Apprentissages | Ressenti |
 |---|---|
@@ -299,11 +303,11 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 
 ---
 
-## Annexe : dataset -- Le mystère du quartier Hollyhock
+## Annexe : dataset : le mystère du quartier Hollyhock
 
 En tant que citoyen fraîchement arrivé dans le quartier Hollyhock d'Enigma City, vous avez été chargé par vos concitoyens de proposer des solutions lors du prochain conseil de quartier concernant la mystérieuse augmentation du nombre d'accidents sur un passage piéton du quartier, situé après un virage. Vous devez analyser les données ouvertes fournies par le conseil municipal pour résoudre le problème. Voilà une façon de vous intégrer au quartier en apportant un regard neuf !
 
-**Votre objectif :** Trouver la cause de l'augmentation des accidents et proposer des solutions.
+**Votre objectif** : Trouver la cause de l'augmentation des accidents et proposer des solutions.
 
 Proposez vos solutions de manière construite pour les présenter au conseil de quartier lors de la prochaine réunion. Vous les présenterez sur une trame narrative en utilisant vos talents et votre éloquence devant vos nouveaux voisins.
 
@@ -324,7 +328,7 @@ Vous avez accès à un ensemble de données sur les accidents aux passages piét
 | 2023 | Déc | Pluvieux | 4 | 35 | 5 |
 | 2024 | Jan | Pluvieux | 6 | 34 | 6 |
 
-**Extrait de plaintes de piétons :**
+**Extrait de plaintes de piétons** :
 
 - « J'ai remarqué que le passage piéton près du virage est très dangereux. Les voitures arrivent souvent trop vite au coin de la rue, ce qui rend la traversée des piétons difficile en toute sécurité. »
 - « En tant que piéton régulier du quartier, j'ai été témoin de plusieurs accidents évités de justesse au passage pour piétons. C'est devenu une préoccupation sérieuse pour la sécurité de notre communauté. »
@@ -341,7 +345,7 @@ Demandez-leur également de classer les plaintes par thèmes communs, comme les 
 
 ---
 
-## Annexe : dataset -- Le dilemme du parc du quartier Iris
+## Annexe : dataset : le dilemme du parc du quartier Iris
 
 En tant que membre de l'équipe de développement "Parcs et Loisirs" du quartier Iris de Nova City, vous êtes chargé de comprendre le faible pourcentage d'habitants d'Iris utilisant les équipements du parc local au cours des 6 derniers mois.
 
@@ -349,11 +353,11 @@ Le quartier Iris de Nova City abrite un important parc communautaire, reconnu po
 
 Au cours des six derniers mois, le quartier Iris a connu une forte augmentation de sa population en raison d'un projet de construction de quartier massif. Anticipant une augmentation de la fréquentation du parc en raison de l'augmentation de la population, des investissements importants ont été réalisés pour améliorer les équipements du parc. Cependant, malgré les nouveaux ajouts et les riches ressources disponibles, l'augmentation attendue de la fréquentation du parc, six mois après l'amélioration, ne s'est pas matérialisée. Cette tendance inattendue a suscité des inquiétudes au sein de l'équipe de développement "Parcs et Loisirs".
 
-**Votre objectif :** analyser les ensembles de données pour identifier les raisons potentielles de la situation des visites dans le parc et proposer des stratégies pour stimuler son utilisation.
+**Votre objectif** : analyser les ensembles de données pour identifier les raisons potentielles de la situation des visites dans le parc et proposer des stratégies pour stimuler son utilisation.
 
 Proposez vos solutions de manière construite pour les présenter à l'équipe Parcs et Loisirs. Vous les présenterez sur une trame narrative en utilisant vos talents et votre éloquence devant vos collègues et les représentants de la communauté.
 
-**Populations et unités résidentielles détaillées (juin 2022 - septembre 2023) :**
+**Populations et unités résidentielles détaillées (juin 2022 - septembre 2023)** :
 
 | Mois | Année | Population totale | Nouveaux logements | Augmentation de la population |
 |---|---|---|---|---|
@@ -374,7 +378,7 @@ Proposez vos solutions de manière construite pour les présenter à l'équipe P
 | Août | 2023 | 5800 | 60 | 280 |
 | Septembre | 2023 | 5820 | 4 | 20 |
 
-**Avis et commentaires récents sur le parc et ses équipements :**
+**Avis et commentaires récents sur le parc et ses équipements** :
 
 | Date | Profil du réviseur | Notation | Commentaires |
 |---|---|---|---|
@@ -390,7 +394,7 @@ Proposez vos solutions de manière construite pour les présenter à l'équipe P
 | Mars 2024 | Parent d'adolescents | 5 | « Les installations sportives sont de premier ordre, parfaites pour mes ados. » |
 | Avril 2024 | Résident âgé | 2 | « Difficile de se détendre avec le bruit constant des activités sportives. » |
 
-**Données sur les conditions météorologiques locales (juin 2022 - septembre 2023) :**
+**Données sur les conditions météorologiques locales (juin 2022 - septembre 2023)** :
 
 | Mois | Année | Météo prédominante | Température moyenne (°C) | Jours de pluie |
 |---|---|---|---|---|
@@ -411,7 +415,7 @@ Proposez vos solutions de manière construite pour les présenter à l'équipe P
 | Août | 2023 | Chaud et pluvieux | 23°C | 16 |
 | Septembre | 2023 | Doux et nuageux | 20°C | 9 |
 
-**Détails sur les installations récréatives concurrentes :**
+**Détails sur les installations récréatives concurrentes** :
 
 | Nom de l'installation | Emplacement | Équipements |
 |---|---|---|
@@ -433,15 +437,15 @@ Enfin, discutez des équipements fournis par les installations concurrentes. Si 
 
 ---
 
-## Annexe : dataset -- Protection de la faune à Greenwood
+## Annexe : dataset : protection de la faune à Greenwood
 
 En tant que spécialiste de l'environnement nouvellement nommé dans le district de Greenwood, vous êtes chargé de lutter contre le déclin du nombre d'espèces locales d'oiseaux Bluewing, un symbole bien-aimé du patrimoine naturel de la communauté.
 
 L'oiseau à ailes bleues (ou Bluewing) est une espèce originaire du district de Greenwood, appréciée comme symbole du patrimoine naturel de la communauté. Il est connu pour ses ailes bleues distinctes, qui en font un élément unique et reconnaissable de la faune locale. Cependant, des données récentes indiquent un déclin de la population d'oiseaux à ailes bleues. Bien que les raisons spécifiques de ce déclin restent à déterminer, il est clair que cette espèce est confrontée à certains défis. En tant que spécialiste de l'environnement, il vous incombe d'enquêter davantage sur cette question, en utilisant les données et les ressources disponibles pour élaborer des stratégies visant à sauvegarder la population d'oiseaux à ailes bleues.
 
-**Votre objectif :** analyser les données pour découvrir les tendances et les causes potentielles du déclin de l'oiseau à ailes bleues. Élaborer un ensemble de stratégies concrètes pour protéger et éventuellement augmenter la population de l'oiseau.
+**Votre objectif** : analyser les données pour découvrir les tendances et les causes potentielles du déclin de l'oiseau à ailes bleues. Élaborer un ensemble de stratégies concrètes pour protéger et éventuellement augmenter la population de l'oiseau.
 
-**Données sur la population d'oiseaux à ailes bleues (observations mensuelles de juin 2022 à septembre 2023) :**
+**Données sur la population d'oiseaux à ailes bleues (observations mensuelles de juin 2022 à septembre 2023)** :
 
 | Mois | Année | Population estimée | Sites de nidification observés |
 |---|---|---|---|
@@ -462,7 +466,7 @@ L'oiseau à ailes bleues (ou Bluewing) est une espèce originaire du district de
 | Août | 2023 | 73 | 9 |
 | Septembre | 2023 | 70 | 8 |
 
-**Conditions d'habitat (juin 2022 - septembre 2023) :**
+**Conditions d'habitat (juin 2022 - septembre 2023)** :
 
 | Mois | Année | Couverture végétale (%) | Qualité de la source d'eau | Trafic piétonnier (visiteurs/jour) |
 |---|---|---|---|---|
@@ -483,7 +487,7 @@ L'oiseau à ailes bleues (ou Bluewing) est une espèce originaire du district de
 | Août | 2023 | 63 | Pauvre | 190 |
 | Septembre | 2023 | 63 | Pauvre | 220 |
 
-**Données sur la pollution et l'impact humain (juin 2022 - septembre 2023) :**
+**Données sur la pollution et l'impact humain (juin 2022 - septembre 2023)** :
 
 | Mois | Année | Indice de qualité de l'air | Niveaux de bruit (dB) | Perturbations signalées |
 |---|---|---|---|---|
@@ -516,15 +520,15 @@ Sur la base de l'analyse de ces ensembles de données, plusieurs stratégies pou
 
 ---
 
-## Annexe : dataset -- Lutte contre les îlots de chaleur urbains
+## Annexe : dataset : lutte contre les îlots de chaleur urbains
 
 Depuis plusieurs mois, les îlots de chaleur urbain sont devenus un problème majeur dans le district Solaris de la ville d'Helios. Ils causent une augmentation de la consommation d'énergie car la demande de climatisation augmente pendant les périodes chaudes, ce qui entraîne une augmentation des émissions de gaz à effet de serre. Cela entraîne également des conséquences sur la santé, provoquant des coups de chaleur, insolations, manque d'hydratation et autres soucis de santé au sein de la population. En outre, la hausse des températures peut provoquer une diminution de la qualité de l'eau lorsque les eaux plus chaudes s'écoulent dans les cours d'eau de la région, affectant les écosystèmes aquatiques locaux.
 
-**Votre objectif :** En tant qu'analyste environnemental, votre tâche consiste à élaborer des stratégies pour atténuer l'effet croissant d'îlot de chaleur urbain.
+**Votre objectif** : En tant qu'analyste environnemental, votre tâche consiste à élaborer des stratégies pour atténuer l'effet croissant d'îlot de chaleur urbain.
 
 Utilisez des ensembles de données pour identifier les facteurs clés contribuant à l'augmentation de la chaleur et élaborer des stratégies d'atténuation appropriées. Utilisez la visualisation des données et la narration pour présenter vos conclusions et recommandations au conseil environnemental du district.
 
-**Ensemble de données sur les relevés de température (juin 2022 - septembre 2023) -- données agrégées pour l'ensemble du district :**
+**Ensemble de données sur les relevés de température (juin 2022 - septembre 2023) — données agrégées pour l'ensemble du district** :
 
 | Mois | Température moyenne (°C) | Température maximale (°C) | Température minimale (°C) |
 |---|---|---|---|
@@ -545,7 +549,7 @@ Utilisez des ensembles de données pour identifier les facteurs clés contribuan
 | 2023-08 | 31.5 | 37.5 | 25.5 |
 | 2023-09 | 30.0 | 36.0 | 24.0 |
 
-**Ensemble de données sur les matériaux de construction et de voirie :**
+**Ensemble de données sur les matériaux de construction et de voirie** :
 
 | Type de matériau | Usage | Indice d'absorption de chaleur | Albédo | % du district couvert |
 |---|---|---|---|---|
@@ -555,7 +559,7 @@ Utilisez des ensembles de données pour identifier les facteurs clés contribuan
 | Brique | Bâtiments | Moyen | Moyen | 10% |
 | Herbe | Aménagement paysager | Faible | Haut | 5% |
 
-**Ensemble de données sur la consommation d'énergie dans les bâtiments (juin 2022 - septembre 2023) -- données agrégées pour l'ensemble du district :**
+**Ensemble de données sur la consommation d'énergie dans les bâtiments (juin 2022 - septembre 2023) — données agrégées pour l'ensemble du district** :
 
 | Mois | Consommation totale d'énergie (kWh) | Consommation de courant alternatif (kWh) | % d'augmentation de l'utilisation de la climatisation (par rapport au mois précédent) |
 |---|---|---|---|
@@ -586,9 +590,9 @@ Enfin, les élèves ont accès à des données sur les besoins énergétiques pe
 
 ---
 
-## Annexe : contexte -- Le mystère du quartier Hollyhock
+## Annexe : contexte : le mystère du quartier Hollyhock
 
-**CHRONIQUES D'ENIGMA -- ÉDITION DU MATIN -- 22 septembre 2023**
+**CHRONIQUES D'ENIGMA — ÉDITION DU MATIN — 22 septembre 2023**
 
 *DÉMÊLER LES HISTOIRES, CONNECTER LA COMMUNAUTÉ*
 
@@ -598,13 +602,10 @@ Enigma, une ville connue pour son engagement en faveur du progrès et du bien-ê
 
 Ces nouveaux arrêts de bus, qui bénéficieront aux résidents de Hollyhock, Meadowbrook Estates, Oakwood Heights et Willow Creek, représentent une avancée significative dans la résolution des problèmes de transport et dans la promotion d'un accès équitable aux services publics.
 
-1. **Le quartier Hollyhock :** le pôle d'opportunités Hollyhock, un quartier central d'Enigma, cherche depuis longtemps à améliorer ses options de transport en commun. L'introduction d'un nouvel arrêt de bus promet de changer la donne pour les résidents. Avec un accès plus facile aux services municipaux, aux centres d'emploi et aux établissements d'enseignement, Hollyhock est prêt pour une nouvelle ère de croissance et de prospérité.
-
-2. **Meadowbrook Estates :** niché dans la paisible banlieue de la ville, Meadowbrook Estates bénéficie désormais d'une connectivité transparente avec le centre-ville grâce à l'ajout d'un nouvel arrêt de bus. Ce développement ouvre des possibilités infinies pour les résidents, simplifiant les déplacements et facilitant les sorties récréatives.
-
-3. **Oakwood Heights :** Oakwood Heights, connue pour sa communauté dynamique, accueille favorablement le nouvel arrêt de bus comme un moyen de mobilité améliorée. Les résidents peuvent désormais accéder sans effort aux établissements de santé, aux centres commerciaux et aux attractions culturelles de la ville, tout en réduisant leur empreinte carbone.
-
-4. **Willow Creek :** Située le long de la pittoresque rivière Enigma, Willow Creek a accueilli avec enthousiasme le nouvel arrêt de bus. Cette initiative offre un confort aux résidents qui cherchent à explorer la beauté naturelle de la ville ou à se rendre au travail en toute simplicité, tout en profitant d'un itinéraire pittoresque.
+1. **Le quartier Hollyhock** : le pôle d'opportunités Hollyhock, un quartier central d'Enigma, cherche depuis longtemps à améliorer ses options de transport en commun. L'introduction d'un nouvel arrêt de bus promet de changer la donne pour les résidents. Avec un accès plus facile aux services municipaux, aux centres d'emploi et aux établissements d'enseignement, Hollyhock est prêt pour une nouvelle ère de croissance et de prospérité.
+2. **Meadowbrook Estates** : niché dans la paisible banlieue de la ville, Meadowbrook Estates bénéficie désormais d'une connectivité transparente avec le centre-ville grâce à l'ajout d'un nouvel arrêt de bus. Ce développement ouvre des possibilités infinies pour les résidents, simplifiant les déplacements et facilitant les sorties récréatives.
+3. **Oakwood Heights** : Oakwood Heights, connue pour sa communauté dynamique, accueille favorablement le nouvel arrêt de bus comme un moyen de mobilité améliorée. Les résidents peuvent désormais accéder sans effort aux établissements de santé, aux centres commerciaux et aux attractions culturelles de la ville, tout en réduisant leur empreinte carbone.
+4. **Willow Creek** : Située le long de la pittoresque rivière Enigma, Willow Creek a accueilli avec enthousiasme le nouvel arrêt de bus. Cette initiative offre un confort aux résidents qui cherchent à explorer la beauté naturelle de la ville ou à se rendre au travail en toute simplicité, tout en profitant d'un itinéraire pittoresque.
 
 La maire Sarah Anderson a exprimé son enthousiasme à l'égard du projet, déclarant : « Le déploiement de ces nouveaux arrêts de bus témoigne de l'engagement d'Enigma à créer une ville plus connectée et plus durable. Notre objectif est de fournir des options de transport public accessibles et efficaces à tous les résidents. »
 
@@ -612,13 +613,13 @@ Chacun des nouveaux arrêts de bus est équipé d'équipements modernes, notamme
 
 ---
 
-## Annexe : contexte -- Le dilemme du parc du quartier Iris
+## Annexe : contexte : le dilemme du parc du quartier Iris
 
-**NOVA CITY -- RAPPORT PERSPECTIVES DU LOGEMENT ET DE LA CONSTRUCTION -- ANNÉE 2023**
+**NOVA CITY — RAPPORT PERSPECTIVES DU LOGEMENT ET DE LA CONSTRUCTION — ANNÉE 2023**
 
 Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain, Maire.
 
-**Quartier Iris -- Informations sur le projet de construction du quartier :**
+**Quartier Iris — informations sur le projet de construction du quartier** :
 
 | Phase de construction | Date d'achèvement | Nouvelles unités | Démographie des nouveaux résidents |
 |---|---|---|---|
@@ -627,7 +628,7 @@ Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain
 | Phase 3 | Juin 2023 | 70 | Mélange de résidents d'âge moyen et de personnes âgées |
 | Phase 4 | Août 2023 | 60 | Principalement destiné aux personnes âgées, axé sur une grande accessibilité |
 
-**Améliorations récentes apportées aux équipements du parc :**
+**Améliorations récentes apportées aux équipements du parc** :
 
 | Date d'achèvement | Type d'amélioration | Description |
 |---|---|---|
@@ -637,11 +638,11 @@ Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain
 
 ---
 
-## Annexe : contexte -- Protection de la faune à Greenwood
+## Annexe : contexte : protection de la faune à Greenwood
 
-**LES MURMURES DE LA NATURE -- Les voix de la nature s'expriment à travers Emily Hartwell**
+**LES MURMURES DE LA NATURE — Les voix de la nature s'expriment à travers Emily Hartwell**
 
-**Alerte environnementale urgente : Déversement de pétrole dans le parc Greenwood**
+**Alerte environnementale urgente : déversement de pétrole dans le parc Greenwood**
 
 *Date : 15 avril 2023*
 
@@ -659,41 +660,41 @@ Cet événement met en lumière la fragilité de nos milieux naturels et la néc
 
 ---
 
-## Annexe : contexte -- Lutte contre les îlots de chaleur urbains
+## Annexe : contexte : lutte contre les îlots de chaleur urbains
 
-**Décision officielle -- Plan de développement commercial du district de Solaris**
+**Décision officielle — Plan de développement commercial du district de Solaris**
 
 Publié par : Service d'urbanisme de la ville d'Helios. Numéro de document : HTMPD-2023-045. Date de publication : 15 janvier 2023. Date opérationnelle : avril 2023.
 
 Cette décision officielle approuve le développement d'une nouvelle zone commerciale dans le district Solaris de la ville d'Helios, ce qui entraînera la suppression de 15 % de l'espace vert existant dans le site de développement désigné. Cette décision est appuyée par des évaluations d'impact complètes portant sur les avantages économiques, les améliorations commerciales et les impacts environnementaux atténués.
 
-**Aperçu du projet :**
+**Aperçu du projet** :
 
 - **Lieu de développement** : District central de Solaris, ville d'Helios
 - **Superficie totale de développement** : 2,5 kilomètres carrés
 - **Surface verte concernée** : 0,375 kilomètre carré (15 % de la zone de développement)
 - **Nature du développement** : Complexe commercial à usage mixte comprenant des espaces de vente au détail, des bureaux et des installations récréatives
 
-**Justification et objectif :**
+**Justification et objectif** :
 
-- **Impact économique :** Le projet devrait générer environ 50 millions de dollars de revenus annuels provenant des baux commerciaux et de vente au détail. Il devrait créer plus de 500 emplois permanents et 1 000 emplois temporaires dans le secteur de la construction.
-- **Impact commercial :** Le complexe servira de centre régional pour les affaires et le commerce, ce qui devrait attirer des investissements supplémentaires et améliorer la viabilité commerciale du district. Fourniture de services et d'équipements essentiels pour répondre aux demandes croissantes de la population croissante du district de Solaris.
-- **Impact environnemental :** La suppression de 15 % des espaces verts actuels a été évaluée. Les stratégies d'atténuation comprennent l'intégration de pratiques de construction durables et la création de jardins sur les toits pour compenser la perte de verdure au niveau du sol. Le projet adhère aux normes environnementales visant à minimiser les perturbations écologiques et à améliorer la durabilité urbaine.
+- **Impact économique** : Le projet devrait générer environ 50 millions de dollars de revenus annuels provenant des baux commerciaux et de vente au détail. Il devrait créer plus de 500 emplois permanents et 1 000 emplois temporaires dans le secteur de la construction.
+- **Impact commercial** : Le complexe servira de centre régional pour les affaires et le commerce, ce qui devrait attirer des investissements supplémentaires et améliorer la viabilité commerciale du district. Fourniture de services et d'équipements essentiels pour répondre aux demandes croissantes de la population croissante du district de Solaris.
+- **Impact environnemental** : La suppression de 15 % des espaces verts actuels a été évaluée. Les stratégies d'atténuation comprennent l'intégration de pratiques de construction durables et la création de jardins sur les toits pour compenser la perte de verdure au niveau du sol. Le projet adhère aux normes environnementales visant à minimiser les perturbations écologiques et à améliorer la durabilité urbaine.
 
-**Plan de développement détaillé :**
+**Plan de développement détaillé** :
 
 - **Surface commerciale** : 40 000 mètres carrés abritant une gamme de magasins et de boutiques.
 - **Espace de bureaux** : 60 000 mètres carrés conçus pour une utilisation multi-locataires, axés sur les entreprises de haute technologie et vertes.
 - **Installations récréatives** : 5 000 mètres carrés comprenant un cinéma, des restaurants et un centre de remise en forme.
 - **Caractéristiques écologiques** : Installation de panneaux solaires, de toits verts et de systèmes écoénergétiques pour réduire l'empreinte carbone du bâtiment.
 
-**Résultats attendus :**
+**Résultats attendus** :
 
 - **Croissance économique** : renforcement de l'économie locale grâce à de nouvelles opportunités d'emploi et à une augmentation des dépenses de consommation.
 - **Paysage commercial amélioré** : Le développement devrait rehausser le profil du quartier en tant que destination commerciale de premier ordre.
 - **Durabilité environnementale** : Malgré la réduction initiale des espaces verts, la conception à long terme du projet comprend d'importantes pratiques de développement durable visant à obtenir un impact environnemental net positif.
 
-**Approbation et actions futures :**
+**Approbation et actions futures** :
 
 - **Statut d'approbation** : Le projet a été entièrement approuvé par le service de planification municipale de la ville d'Helios.
 - **Prochaines étapes** : La construction devrait débuter en juin 2023, avec une date d'achèvement et de mise en service prévue en avril 2024.

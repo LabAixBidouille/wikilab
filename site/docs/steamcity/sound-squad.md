@@ -49,32 +49,36 @@ Ce protocole a pour objectif d'explorer de manière sensible et scientifique les
 
 Grâce à ce protocole, ils exploreront :
 
-Santé, bien-être et cohésion sociale - Qu'est-ce que la santé ? Qu'est-ce que le bien-être ? : Comprendre le lien entre le bruit intérieur, extérieur et les enjeux de santé publique et de bien-être au sein de sa communauté (au niveau de la classe) et de son territoire (au niveau de la ville) De la santé des individus à la santé de la population : Démarrer par une activité centrée sur l'impact du bruit sur l'élève en tant qu'individu pour ouvrir sur la problématique à l'échelle de la communauté Mesure par des indicateurs diversifiés - Construction d'un indicateur, diversité, intérêts et relativité des indicateurs : Approche multi-indicateurs utilisant à la fois des données qualitatives et quantitatives, capacités à analyser les résultats, à documenter et à comprendre les corrélations et leurs limites Diversité des acteurs en santé : Présenter le rôle des différents acteurs dans une intervention en santé et analyser la participation de la personne dans une action en santé : Identifier les acteurs du territoire qui ont un impact ou une action directe sur la problématique de santé publique liée au bruit urbain et valoriser son action citoyenne sur une meilleure compréhension des ressentis des citoyens sur la problématique donnée
+- **Santé, bien-être et cohésion sociale** : Comprendre le lien entre le bruit intérieur, extérieur et les enjeux de santé publique et de bien-être au sein de sa communauté (au niveau de la classe) et de son territoire (au niveau de la ville).
+- **De la santé des individus à la santé de la population** : Démarrer par une activité centrée sur l'impact du bruit sur l'élève en tant qu'individu pour ouvrir sur la problématique à l'échelle de la communauté.
+- **Mesure par des indicateurs diversifiés** : Approche multi-indicateurs utilisant à la fois des données qualitatives et quantitatives, capacités à analyser les résultats, à documenter et à comprendre les corrélations et leurs limites.
+- **Diversité des acteurs en santé** : Identifier les acteurs du territoire qui ont un impact ou une action directe sur la problématique de santé publique liée au bruit urbain et valoriser son action citoyenne sur une meilleure compréhension des ressentis des citoyens sur la problématique donnée.
 
 Cette activité permet de développer à la fois des compétences techniques (utilisation de capteurs et analyse de données) et des compétences plus abstraites (analyse subjective, ressenti émotionnel). Le séquençage progressif des étapes amène les élèves à construire une compréhension globale de la corrélation entre le bruit et le bien-être.
 
 Pour en savoir plus sur les enjeux du bruit, explorez la section "Aller plus loin".
 
+### Structure du protocole
 
-### Phase 1 : compréhension de la problématique et définition des indicateurs
+#### Phase 1 : compréhension de la problématique et définition des indicateurs
 
 Les élèves découvriront la problématique du bruit, exploreront les différents aspects du bruit urbain et son impact sur la qualité de vie. Ils développeront collectivement des indicateurs pour évaluer le bruit, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur leur bien-être. Ces indicateurs formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
 
-### Phase 2 : cartographie sensible du bruit
+#### Phase 2 : cartographie sensible du bruit
 
 Les élèves réaliseront une cartographie sensible en notant leur ressenti du bruit sur un trajet de leur quotidien. Ils identifieront les zones perçues comme bruyantes ou calmes, selon leur expérience quotidienne. Chaque élève créera sa propre "carte", dessinée librement, colorée et annotée selon son analyse de ses ressentis quotidiens, en utilisant les indicateurs définis précédemment. Cette cartographie permettra une analyse nuancée et structurée de leur perception du paysage sonore.
 
-### Phase 3 : mesure quantitative avec capteurs
+#### Phase 3 : mesure quantitative avec capteurs
 
 Les élèves programmeront des capteurs de bruit et les positionneront dans les zones identifiées comme bruyantes et gênantes lors de la phase de cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans plusieurs lieux. Les élèves alimenteront leur cadre d'analyse d'indicateurs quantitatifs basés sur ces mesures, comme le niveau sonore moyen, les pics de bruit, et la durée des périodes de calme. L'objectif sera de comparer les ressentis (indicateurs qualitatifs) avec ces données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques de la journée ou des caractéristiques particulières du bruit.
 
-### Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
+#### Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
 
 Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques (trafic, chantiers, commerces) et réfléchiront à comment l'aménagement urbain et les activités humaines influencent la pollution sonore. Ils étudieront les acteurs impliqués dans la gestion du bruit (municipalités, entreprises, citoyens, urbanistes) et exploreront leurs rôles respectifs dans la réduction des nuisances sonores.
 
-Ils prendront conscience de l'importance de la coopération entre ces différents acteurs pour améliorer la qualité de vie en ville. Si possible, une présentation des cartes réalisées durant l'activité sera proposée auprès des acteurs locaux afin de valoriser les actions menées par les élèves
+Ils prendront conscience de l'importance de la coopération entre ces différents acteurs pour améliorer la qualité de vie en ville. Si possible, une présentation des cartes réalisées durant l'activité sera proposée auprès des acteurs locaux afin de valoriser les actions menées par les élèves.
 
-### Structure du protocole
+#### Récapitulatif
 
 | Mesures | Durée | Matériel |
 |---|---|---|
@@ -98,11 +102,13 @@ Ils prendront conscience de l'importance de la coopération entre ces différent
 - **Bien-être urbain** : Sensation de confort physique et mental ressentie par les habitants d'une ville, influencée par différents facteurs tels que le bruit, la pollution, les espaces verts, etc.
 - **Santé publique** : Ensemble des mesures visant à promouvoir et protéger la santé de la population, incluant la gestion des nuisances sonores et leurs impacts sur le bien-être collectif.
 
+---
+
 ## Phase 1 : compréhension de la problématique et définition des indicateurs
 
-**Contexte de la séquence**: L'objectif principal de cette première phase du protocole sur le bruit urbain est de comprendre la problématique et de définir des indicateurs pertinents. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés du bruit urbain et son impact sur la qualité de vie. L'objectif est de les amener à explorer les différents aspects du bruit et à développer collectivement des indicateurs pour l'évaluer. Ces indicateurs, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur le bien-être, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+**Contexte de la séquence** : L'objectif principal de cette première phase du protocole sur le bruit urbain est de comprendre la problématique et de définir des indicateurs pertinents. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés du bruit urbain et son impact sur la qualité de vie. L'objectif est de les amener à explorer les différents aspects du bruit et à développer collectivement des indicateurs pour l'évaluer. Ces indicateurs, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur le bien-être, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
 
-**Objectifs d'apprentissage**: À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité du paysage sonore urbain et son impact sur la qualité de vie, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré. Ils développeront des compétences en analyse sensorielle et en cartographie sensible, essentielles pour appréhender subjectivement le bruit. De plus, les élèves apprendront à concevoir des indicateurs de mesure du bruit, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à analyser et représenter visuellement leurs perceptions du paysage sonore, ce qui leur permettra de développer leur capacité d'observation et leur créativité.
+**Objectifs d'apprentissage** : À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité du paysage sonore urbain et son impact sur la qualité de vie, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré. Ils développeront des compétences en analyse sensorielle et en cartographie sensible, essentielles pour appréhender subjectivement le bruit. De plus, les élèves apprendront à concevoir des indicateurs de mesure du bruit, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à analyser et représenter visuellement leurs perceptions du paysage sonore, ce qui leur permettra de développer leur capacité d'observation et leur créativité.
 
 ### Conceptualisation
 
@@ -134,13 +140,21 @@ Les élèves, guidés par l'enseignant, élaboreront collectivement un ensemble 
 
 À l'issue de cette phase, les élèves auront acquis une compréhension approfondie de la problématique du bruit urbain, développé des compétences en recherche documentaire, et créé collectivement un corpus d'indicateurs pour évaluer le bruit de manière structurée. Afin de conclure la séquence, plusieurs questionnements peuvent être ouverts :
 
-Comment votre compréhension de la problématique du bruit urbain a-t-elle évolué au cours de cette activité ? Quelles sont les sources d'information les plus utiles lors de votre recherche documentaire ? Pourquoi ? Comment le processus de création d'indicateurs vous aide-t-il à mieux structurer votre approche de la problématique du bruit ? Quels sont les défis rencontrés lors de l'élaboration des indicateurs ? Comment les surmontez-vous ? En quoi les indicateurs que nous avons développés permettent-ils une analyse plus nuancée du bruit urbain ? Comment pensez-vous que ce corpus d'indicateurs peut être utilisé pour évaluer et améliorer l'environnement sonore de votre quartier ? Quels aspects de la problématique du bruit urbain vous semblent encore difficiles à capturer avec les indicateurs que nous avons créés ?
+- Comment votre compréhension de la problématique du bruit urbain a-t-elle évolué au cours de cette activité ?
+- Quelles sont les sources d'information les plus utiles lors de votre recherche documentaire ? Pourquoi ?
+- Comment le processus de création d'indicateurs vous aide-t-il à mieux structurer votre approche de la problématique du bruit ?
+- Quels sont les défis rencontrés lors de l'élaboration des indicateurs ? Comment les surmontez-vous ?
+- En quoi les indicateurs que nous avons développés permettent-ils une analyse plus nuancée du bruit urbain ?
+- Comment pensez-vous que ce corpus d'indicateurs peut être utilisé pour évaluer et améliorer l'environnement sonore de votre quartier ?
+- Quels aspects de la problématique du bruit urbain vous semblent encore difficiles à capturer avec les indicateurs que nous avons créés ?
+
+---
 
 ## Phase 2 : cartographie sensible du bruit
 
-Contexte et Objectifs : Cette phase se concentre sur la réalisation d'une cartographie sensible du bruit dans l'environnement quotidien des élèves. Ils vont appliquer les indicateurs développés précédemment pour évaluer et représenter visuellement leur perception du paysage sonore sur un trajet familier. Cette étape pratique permettra aux élèves de traduire leurs ressentis en une représentation visuelle libre, tout en développant leur sensibilité à l'environnement sonore.
+**Contexte et objectifs** : Cette phase se concentre sur la réalisation d'une cartographie sensible du bruit dans l'environnement quotidien des élèves. Ils vont appliquer les indicateurs développés précédemment pour évaluer et représenter visuellement leur perception du paysage sonore sur un trajet familier. Cette étape pratique permettra aux élèves de traduire leurs ressentis en une représentation visuelle libre, tout en développant leur sensibilité à l'environnement sonore.
 
-**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences essentielles en cartographie et en expression visuelle. Ils apprendront à traduire leurs perceptions sonores en représentations graphiques, renforçant ainsi leur capacité d'analyse et d'expression. La création de cartes personnalisées leur permettra de comprendre l'importance de la subjectivité dans l'expérience du bruit. En pratiquant l'observation et l'auto-évaluation de leur environnement sonore quotidien, ils développeront une conscience accrue de leur paysage sonore, cruciale pour leur compréhension de l'impact du bruit sur leur bien-être.
+**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences essentielles en cartographie et en expression visuelle. Ils apprendront à traduire leurs perceptions sonores en représentations graphiques, renforçant ainsi leur capacité d'analyse et d'expression. La création de cartes personnalisées leur permettra de comprendre l'importance de la subjectivité dans l'expérience du bruit. En pratiquant l'observation et l'auto-évaluation de leur environnement sonore quotidien, ils développeront une conscience accrue de leur paysage sonore, cruciale pour leur compréhension de l'impact du bruit sur leur bien-être.
 
 Cette étape peut être réalisée en partenariat avec l'éducation artistique.
 
@@ -152,11 +166,13 @@ Les élèves utiliseront des capteurs pour mesurer précisément les niveaux de 
 
 L'utilisation de la cartographie sensible offre une approche unique pour explorer cette hypothèse :
 
-Représentation visuelle des perceptions : En créant des cartes basées sur leurs ressentis, les élèves peuvent illustrer comment leur perception du bruit varie selon les lieux et les moments, donnant ainsi une dimension spatiale et temporelle à l'hypothèse initiale. Exploration subjective : Cette méthode permet d'aller au-delà des mesures quantitatives pour inclure des aspects qualitatifs de l'expérience sonore, enrichissant ainsi la compréhension de la variation des perceptions.
+- **Représentation visuelle des perceptions** : En créant des cartes basées sur leurs ressentis, les élèves peuvent illustrer comment leur perception du bruit varie selon les lieux et les moments, donnant ainsi une dimension spatiale et temporelle à l'hypothèse initiale.
+- **Exploration subjective** : Cette méthode permet d'aller au-delà des mesures quantitatives pour inclure des aspects qualitatifs de l'expérience sonore, enrichissant ainsi la compréhension de la variation des perceptions.
 
 Au travers de cette exploration, les élèves abordent des enjeux cruciaux de la méthode scientifique :
 
-Recueil et traitement de données subjectives : La cartographie sensible implique de collecter et d'organiser des données qualitatives, ce qui permet aux élèves d'apprendre à structurer et à analyser des informations subjectives de manière systématique. Analyse critique de la mesure d'un phénomène sanitaire : En comparant leurs perceptions subjectives, les élèves développent un regard critique sur la manière dont on peut évaluer l'impact du bruit sur la santé et le bien-être.
+- **Recueil et traitement de données subjectives** : La cartographie sensible implique de collecter et d'organiser des données qualitatives, ce qui permet aux élèves d'apprendre à structurer et à analyser des informations subjectives de manière systématique.
+- **Analyse critique de la mesure d'un phénomène sanitaire** : En comparant leurs perceptions subjectives, les élèves développent un regard critique sur la manière dont on peut évaluer l'impact du bruit sur la santé et le bien-être.
 
 ### Investigation par les élèves
 
@@ -170,7 +186,7 @@ La cartographie sensible est une approche permettant de se représenter l'expér
 
 Dans le domaine d'étude spécifiquement, si une carte sonore peut représenter les sons entendus dans une ville, la carte sensible va elle représenter des émotions, illustrent cela en cartographiant les espaces ressentis comme rassurants, inquiétants, gênants … . La carte sensible prend généralement la forme d'un dessin. Celui-ci s'affranchit des normes de la représentation cartographique classique : non-respect de l'échelle, absence d'orientation cardinale, absence de légende, indications subjectives sur la carte, représentation partielle du réel. Mais il est également possible d'utiliser une carte existante et de l'annoter grâce au dessin et aux ajouts graphiques (pictogramme, flux de couleurs selon les ressentis, dessins …).
 
-Cartographie sensible, Quentin Lefèvre La cartographie sensible, Tous a pied Carte sensible, Glossaire GeoConfluence de Lyon La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal
+**Références** : Cartographie sensible, Quentin Lefèvre ; La cartographie sensible, Tous à pied ; Carte sensible, Glossaire GeoConfluence de Lyon ; La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal.
 
 #### Réalisation de la cartographie individuelle
 
@@ -184,13 +200,19 @@ Les élèves présenteront leurs cartes sensibles à la classe et compareront le
 
 Pour conclure cette phase, les élèves réfléchiront sur le processus de cartographie sensible et ses résultats. Afin de conclure la séquence, plusieurs questionnements pourront être ouverts :
 
-Quelles ont été les zones les plus bruyantes et les plus calmes identifiées ? Y a-t-il eu un consensus général ou des divergences importantes ? Quels facteurs semblent influencer le plus la perception du bruit dans votre environnement ? En quoi cette cartographie sensible a-t-elle changé votre compréhension de votre environnement sonore ? Quelles limites avez-vous rencontrées dans cette approche de cartographie sensible ? Comment pourriez-vous utiliser ces résultats pour proposer des améliorations de votre environnement sonore ?
+- Quelles ont été les zones les plus bruyantes et les plus calmes identifiées ? Y a-t-il eu un consensus général ou des divergences importantes ?
+- Quels facteurs semblent influencer le plus la perception du bruit dans votre environnement ?
+- En quoi cette cartographie sensible a-t-elle changé votre compréhension de votre environnement sonore ?
+- Quelles limites avez-vous rencontrées dans cette approche de cartographie sensible ?
+- Comment pourriez-vous utiliser ces résultats pour proposer des améliorations de votre environnement sonore ?
+
+---
 
 ## Phase 3 : mesure quantitative avec capteurs
 
-Contexte et Objectifs : Cette phase se concentre sur la mesure quantitative du bruit à l'aide de capteurs. Les élèves programmeront et positionneront des capteurs de bruit dans les zones identifiées comme bruyantes lors de la cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans divers lieux. L'objectif est de comparer les ressentis subjectifs avec des données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques ou des caractéristiques particulières du bruit.
+**Contexte et objectifs** : Cette phase se concentre sur la mesure quantitative du bruit à l'aide de capteurs. Les élèves programmeront et positionneront des capteurs de bruit dans les zones identifiées comme bruyantes lors de la cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans divers lieux. L'objectif est de comparer les ressentis subjectifs avec des données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques ou des caractéristiques particulières du bruit.
 
-**Objectifs d'apprentissage**: À travers cette phase, les élèves développeront des compétences essentielles en programmation de capteurs et en analyse de données quantitatives. Ils apprendront à utiliser des outils de mesure du son et à interpréter les résultats de manière critique. De plus, en comparant les mesures objectives avec leurs perceptions sensibles, les élèves renforceront leur compréhension de la nature complexe du bruit et de son impact sur l'environnement scolaire.
+**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences essentielles en programmation de capteurs et en analyse de données quantitatives. Ils apprendront à utiliser des outils de mesure du son et à interpréter les résultats de manière critique. De plus, en comparant les mesures objectives avec leurs perceptions sensibles, les élèves renforceront leur compréhension de la nature complexe du bruit et de son impact sur l'environnement scolaire.
 
 Cette étape peut se faire en partenariat avec les enseignements de mathématique et de technologie.
 
@@ -202,7 +224,10 @@ De plus, une nouvelle hypothèse complémentaire est introduite : Est-ce que les
 
 Au cours de cette phase, les élèves vont aborder plusieurs concepts et outils clés :
 
-Recueillir, traiter et analyser un ensemble de données : Les élèves apprendront à collecter des données quantitatives à l'aide de capteurs de bruit, à les traiter et à les analyser en utilisant des méthodes statistiques. Ils développeront des compétences en analyse de données pour comparer ces mesures objectives avec les perceptions subjectives cartographiées précédemment. Porter un regard critique sur la mesure d'un phénomène sanitaire : En comparant les données quantitatives avec les perceptions subjectives, les élèves développeront un esprit critique sur la mesure du bruit en tant que phénomène sanitaire. Ils apprendront à identifier les limites des mesures objectives et l'importance de prendre en compte les expériences subjectives dans l'évaluation de l'impact du bruit sur la santé. Analyser les interactions entre mesures objectives et perceptions subjectives : Les élèves exploreront les correspondances et les divergences entre les niveaux de bruit mesurés et les perceptions cartographiées. Ils apprendront à interpréter ces interactions complexes et à comprendre les facteurs qui influencent la perception du bruit. Visualiser et communiquer les résultats : Les élèves utiliseront des outils de visualisation de données pour représenter à la fois les mesures quantitatives et les perceptions subjectives. Ils apprendront à choisir les représentations les plus appropriées pour mettre en évidence les corrélations ou les disparités entre ces deux types de données.
+- **Recueillir, traiter et analyser un ensemble de données** : Les élèves apprendront à collecter des données quantitatives à l'aide de capteurs de bruit, à les traiter et à les analyser en utilisant des méthodes statistiques. Ils développeront des compétences en analyse de données pour comparer ces mesures objectives avec les perceptions subjectives cartographiées précédemment.
+- **Porter un regard critique sur la mesure d'un phénomène sanitaire** : En comparant les données quantitatives avec les perceptions subjectives, les élèves développeront un esprit critique sur la mesure du bruit en tant que phénomène sanitaire. Ils apprendront à identifier les limites des mesures objectives et l'importance de prendre en compte les expériences subjectives dans l'évaluation de l'impact du bruit sur la santé.
+- **Analyser les interactions entre mesures objectives et perceptions subjectives** : Les élèves exploreront les correspondances et les divergences entre les niveaux de bruit mesurés et les perceptions cartographiées. Ils apprendront à interpréter ces interactions complexes et à comprendre les facteurs qui influencent la perception du bruit.
+- **Visualiser et communiquer les résultats** : Les élèves utiliseront des outils de visualisation de données pour représenter à la fois les mesures quantitatives et les perceptions subjectives. Ils apprendront à choisir les représentations les plus appropriées pour mettre en évidence les corrélations ou les disparités entre ces deux types de données.
 
 Cette phase permettra aux élèves de développer des compétences essentielles en collecte et analyse de données, en pensée critique et en communication scientifique. Ils approfondiront leur compréhension de la complexité de l'évaluation du bruit urbain en intégrant à la fois des approches quantitatives et qualitatives.
 
@@ -245,7 +270,9 @@ Vous trouverez en annexe une fiche pratique pour programmer votre carte Micro:bi
 
 Une fois la période de collecte terminée, les élèves compileront les fichiers CSV des différents capteurs positionnés afin d'analyser les données.
 
-Un fichier CSV (Comma-Separated Values) est un format de fichier texte simple pour stocker des données tabulaires. Chaque ligne représente un enregistrement, avec des valeurs séparées par des virgules. Il est facilement lisible par des tableurs et couramment utilisé pour l'échange de données.
+:::info
+Un **fichier CSV** (Comma-Separated Values) est un format de fichier texte simple pour stocker des données tabulaires. Chaque ligne représente un enregistrement, avec des valeurs séparées par des virgules. Il est facilement lisible par des tableurs et couramment utilisé pour l'échange de données.
+:::
 
 Ils pourront créer un tableau d'analyse tel que :
 
@@ -263,13 +290,19 @@ Sur la base des analyses et des tableaux, les élèves pourront créer des graph
 
 Pour conclure cette phase, les élèves réfléchiront sur le processus de mesure quantitative et ses résultats. Afin de conclure la séquence, plusieurs questionnements pourront être ouverts :
 
-Comment les mesures quantitatives ont-elles confirmé ou remis en question vos perceptions initiales du bruit dans votre environnement ? Quels facteurs pourraient expliquer les différences entre les mesures objectives et les perceptions subjectives ? Quelles sont les limites des mesures quantitatives dans l'évaluation de l'impact du bruit sur la qualité de vie ? Comment pourriez-vous combiner les approches qualitatives et quantitatives pour une compréhension plus complète de l'environnement sonore ? Quelles recommandations pourriez-vous faire pour améliorer l'environnement sonore de votre quartier, en vous basant sur vos mesures et observations ?
+- Comment les mesures quantitatives ont-elles confirmé ou remis en question vos perceptions initiales du bruit dans votre environnement ?
+- Quels facteurs pourraient expliquer les différences entre les mesures objectives et les perceptions subjectives ?
+- Quelles sont les limites des mesures quantitatives dans l'évaluation de l'impact du bruit sur la qualité de vie ?
+- Comment pourriez-vous combiner les approches qualitatives et quantitatives pour une compréhension plus complète de l'environnement sonore ?
+- Quelles recommandations pourriez-vous faire pour améliorer l'environnement sonore de votre quartier, en vous basant sur vos mesures et observations ?
+
+---
 
 ## Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
 
-Contexte et Objectifs : Afin de conclure le protocole d'étude autour du bruit, la phase finale vise à analyser le rôle des différents acteurs dans la gestion des nuisances sonores urbaines. Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques identifiées, étudieront l'impact de l'urbanisme et des activités humaines sur la pollution sonore, et exploreront les rôles des acteurs impliqués dans la réduction du bruit. L'objectif est de comprendre l'importance de la coopération entre ces acteurs pour améliorer la qualité de vie en ville. Cette étape est importante pour conclure le protocole car elle permet aux élèves de mettre en perspective leur travail, d'en comprendre les implications pour la communauté, et de synthétiser les connaissances acquises tout au long de l'étude.
+**Contexte et objectifs** : Afin de conclure le protocole d'étude autour du bruit, la phase finale vise à analyser le rôle des différents acteurs dans la gestion des nuisances sonores urbaines. Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques identifiées, étudieront l'impact de l'urbanisme et des activités humaines sur la pollution sonore, et exploreront les rôles des acteurs impliqués dans la réduction du bruit. L'objectif est de comprendre l'importance de la coopération entre ces acteurs pour améliorer la qualité de vie en ville. Cette étape est importante pour conclure le protocole car elle permet aux élèves de mettre en perspective leur travail, d'en comprendre les implications pour la communauté, et de synthétiser les connaissances acquises tout au long de l'étude.
 
-**Objectifs d'apprentissage**: Au cours de cette phase, les élèves développeront des compétences en analyse des politiques publiques et en recherche appliquée. Ils apprendront à identifier les principaux facteurs du bruit urbain, à comprendre le rôle des différents intervenants dans sa gestion, et à explorer des solutions potentielles. Cette étape renforcera leur esprit critique, leur capacité à résoudre des problèmes complexes, et leur compréhension des enjeux liés au bruit urbain et de l'importance d'une approche collaborative.
+**Objectifs d'apprentissage** : Au cours de cette phase, les élèves développeront des compétences en analyse des politiques publiques et en recherche appliquée. Ils apprendront à identifier les principaux facteurs du bruit urbain, à comprendre le rôle des différents intervenants dans sa gestion, et à explorer des solutions potentielles. Cette étape renforcera leur esprit critique, leur capacité à résoudre des problèmes complexes, et leur compréhension des enjeux liés au bruit urbain et de l'importance d'une approche collaborative.
 
 ### Conceptualisation
 
@@ -277,7 +310,9 @@ Dans cette dernière étape, les élèves se concentrent sur une question d'ouve
 
 Pour répondre à cette question, les élèves vont explorer plusieurs concepts clés :
 
-Identifier les préoccupations en santé publique : Les élèves analyseront comment le bruit urbain est reconnu comme un enjeu de santé publique, en examinant ses effets sur le bien-être physique et mental des habitants. Analyser comment une société identifie un risque sanitaire : Ils étudieront le processus par lequel le bruit est passé d'une simple nuisance à un risque sanitaire reconnu, en explorant le rôle des études scientifiques, des médias et de la sensibilisation du public. Présenter le rôle des différents acteurs : Les élèves identifieront les acteurs impliqués dans la gestion du bruit urbain (autorités locales, urbanistes, associations, citoyens) et analyseront leurs responsabilités et actions respectives pour atténuer la pollution sonore.
+- **Identifier les préoccupations en santé publique** : Les élèves analyseront comment le bruit urbain est reconnu comme un enjeu de santé publique, en examinant ses effets sur le bien-être physique et mental des habitants.
+- **Analyser comment une société identifie un risque sanitaire** : Ils étudieront le processus par lequel le bruit est passé d'une simple nuisance à un risque sanitaire reconnu, en explorant le rôle des études scientifiques, des médias et de la sensibilisation du public.
+- **Présenter le rôle des différents acteurs** : Les élèves identifieront les acteurs impliqués dans la gestion du bruit urbain (autorités locales, urbanistes, associations, citoyens) et analyseront leurs responsabilités et actions respectives pour atténuer la pollution sonore.
 
 Ce travail permettra aux élèves de développer une compréhension globale de la problématique du bruit urbain, en intégrant leurs observations de terrain, leurs analyses de données et une réflexion plus large sur les enjeux sociétaux et la gouvernance en matière de santé publique.
 
@@ -299,7 +334,11 @@ Si possible, les élèves pourront organiser une présentation des résultats de
 
 Cette phase servira de conclusion au travail d'étude en comprenant comment les acteurs s'emparent de la question du bruit au niveau du territoire. Les élèves pourront explorer plusieurs axes pour évaluer leurs acquis lors du protocole :
 
-Comment cette activité a-t-elle changé votre compréhension du bruit urbain et de son impact sur la santé publique ? Comment les citoyens peuvent-ils jouer un rôle actif dans la réduction du bruit urbain ? Quelles compétences avez-vous développées au cours de ce projet (collecte de données, analyse, communication, etc.) ? Quel a été l'aspect le plus surprenant ou le plus intéressant de cette étude pour vous ? Comment pourriez-vous appliquer ces connaissances et compétences à d'autres problématiques environnementales ou de santé publique ?
+- Comment cette activité a-t-elle changé votre compréhension du bruit urbain et de son impact sur la santé publique ?
+- Comment les citoyens peuvent-ils jouer un rôle actif dans la réduction du bruit urbain ?
+- Quelles compétences avez-vous développées au cours de ce projet (collecte de données, analyse, communication, etc.) ?
+- Quel a été l'aspect le plus surprenant ou le plus intéressant de cette étude pour vous ?
+- Comment pourriez-vous appliquer ces connaissances et compétences à d'autres problématiques environnementales ou de santé publique ?
 
 ---
 
@@ -308,6 +347,8 @@ Comment cette activité a-t-elle changé votre compréhension du bruit urbain et
 Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Sound Squad](/ressources/steamcity/programmation/programmation-sound-squad).
 
 ---
+
+## Aller plus loin
 
 ### Qu'est-ce que le bruit ?
 
@@ -319,7 +360,10 @@ Le bruit est une vibration sonore perçue par l'oreille humaine. Bien que certai
 
 Il est mesuré en décibels (dB), une unité qui indique l'intensité du son, et cette dernière varie selon les situations :
 
-30 dB : endroit calme (chambre, salle de repos). 65 dB : rue animée ou salle de classe. 85 dB : seuil de danger pour l'oreille (aboiements, bébé qui pleure). 100 dB et plus : concerts, marteau-piqueur, sirène d'ambulance.
+- **30 dB** : endroit calme (chambre, salle de repos).
+- **65 dB** : rue animée ou salle de classe.
+- **85 dB** : seuil de danger pour l'oreille (aboiements, bébé qui pleure).
+- **100 dB et plus** : concerts, marteau-piqueur, sirène d'ambulance.
 
 Un niveau sonore acceptable pour un travail nécessitant une attention soutenue se situe entre 45 et 55 dB.
 
@@ -327,7 +371,9 @@ Un niveau sonore acceptable pour un travail nécessitant une attention soutenue 
 
 Le bruit, particulièrement lorsqu'il est chronique, peut avoir de nombreux effets néfastes sur la santé :
 
-Stress, irritabilité et anxiété, pouvant parfois mener à l'agressivité ou la dépression. Altération de la concentration, de la mémorisation et de la compréhension du langage parlé ou écrit. Entrave à la communication et perturbation des tâches cognitives, notamment celles faisant appel à la mémoire à court terme.
+- Stress, irritabilité et anxiété, pouvant parfois mener à l'agressivité ou la dépression.
+- Altération de la concentration, de la mémorisation et de la compréhension du langage parlé ou écrit.
+- Entrave à la communication et perturbation des tâches cognitives, notamment celles faisant appel à la mémoire à court terme.
 
 Ces impacts sont particulièrement notables dans les environnements d'apprentissage et de travail, où le bruit peut compromettre la qualité de l'éducation et réduire la productivité des employés.
 
@@ -366,20 +412,20 @@ https://www.eea.europa.eu/publications/environmental-noise-in-europe
 
 ## Bibliographie
 
-Le bruit environnemental et son impact :
+### Le bruit environnemental et son impact
 
 1. Environmental Noise in Europe — 2020. Rapport complet de l'Agence européenne pour l'environnement sur les tendances, les sources et les impacts de la pollution sonore en Europe.
 2. EUR-Lex - Directive 2002/49/EC on Environmental Noise. La directive européenne établissant un cadre pour l'évaluation et la gestion du bruit ambiant.
-3. Sons et biodiversité en ville: favoriser des paysages sonores de qualité pour les êtres vivants | Cerema. Discute de la pollution sonore urbaine et des stratégies visant à améliorer les paysages sonores pour la biodiversité et le bien-être humain.
+3. Sons et biodiversité en ville : favoriser des paysages sonores de qualité pour les êtres vivants | Cerema. Discute de la pollution sonore urbaine et des stratégies visant à améliorer les paysages sonores pour la biodiversité et le bien-être humain.
 
-Technologie et outils pour la surveillance du bruit :
+### Technologie et outils pour la surveillance du bruit
 
 1. Micro:bit Educational Foundation. Propose des ressources et des idées de projets pour l'utilisation de micro:bit dans des contextes éducatifs, y compris la surveillance de l'environnement.
 2. NoiseCapture Interactive Community Map. Un projet de science citoyenne cartographiant la pollution sonore mondiale grâce à des données enregistrées par les utilisateurs.
 3. HUSH CITY APP. Une application mobile permettant aux utilisateurs d'identifier et de cartographier les zones urbaines calmes, favorisant ainsi la préservation du paysage sonore.
-4. Audacity: Free Audio Recording and Editing Software. Outil open source pour l'enregistrement, l'analyse et l'édition du son, idéal pour la surveillance et l'analyse du bruit.
+4. Audacity : Free Audio Recording and Editing Software. Outil open source pour l'enregistrement, l'analyse et l'édition du son, idéal pour la surveillance et l'analyse du bruit.
 
-Cartographie sensible et espaces calmes :
+### Cartographie sensible et espaces calmes
 
 1. Sensitive Mapping - Klär.graphics. Explore les techniques de cartographie qui intègrent la perception et la sensibilité environnementale.
 2. What is Sensitivity Mapping, and Why is it Important? Guide de la NOAA sur le rôle et l'importance de la cartographie sensible dans la planification environnementale.
@@ -388,7 +434,7 @@ Cartographie sensible et espaces calmes :
 5. Are Quiet Places Going Extinct? Meet the Volunteers Trying to Change That. Il met en lumière les efforts visant à identifier et à protéger les espaces calmes dans un contexte de pollution sonore croissante.
 6. Manifesto - Tranquil City. Défenseur de la tranquillité urbaine et de la création d'espaces urbains paisibles.
 
-Paysages sonores :
+### Paysages sonores
 
 1. R. Murray Schafer - Wikipedia. Explore l'œuvre du compositeur canadien et pionnier de l'écologie du paysage sonore.
 2. The Sonic City with Tod Machover of MIT Media Labs. Une vidéo sur l'utilisation de la technologie pour concevoir des paysages sonores interactifs pour les environnements urbains.

@@ -39,12 +39,6 @@ sidebar_position: 10
 
 ---
 
-## Simulateur de mix énergétique
-
-Thématique : énergie et efficacité énergétique
-
----
-
 ## Introduction
 
 Notre système énergétique repose sur un équilibre complexe entre différentes sources d'énergie. En 2023, l'UE a produit 2 572 TWh (térawattheures) d'électricité. Plus de 45 % de cette production provenaient de sources renouvelables. Les combustibles fossiles représentaient 31,7 % et l'électricité nucléaire près de 23 %. Le gaz était le principal combustible fossile utilisé pour produire de l'électricité (17 %), suivi du charbon (11,7 %).
@@ -104,11 +98,17 @@ Phase 3 : Fiches de scénarios imprimées, accès aux simulateurs créés, maté
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 
+---
+
 ## Phase 1 : décryptage du mix énergétique
 
-**Contexte et description du problème à résoudre à cette étape** : Avant de pouvoir modéliser les impacts de modifications du mix énergétique, les élèves doivent comprendre la logique actuelle du système électrique de leur pays. Cette phase les amène à décrypter les caractéristiques techniques, économiques et environnementales de chaque source d'énergie pour comprendre pourquoi le mix actuel s'est constitué ainsi et quelles contraintes pèsent sur son évolution.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Analyser la composition du mix énergétique actuel. Identifier les caractéristiques spécifiques de chaque source d'énergie. Comprendre les fonctions complémentaires des différentes technologies dans le système électrique.
+Avant de pouvoir modéliser les impacts de modifications du mix énergétique, les élèves doivent comprendre la logique actuelle du système électrique de leur pays. Cette phase les amène à décrypter les caractéristiques techniques, économiques et environnementales de chaque source d'énergie pour comprendre pourquoi le mix actuel s'est constitué ainsi et quelles contraintes pèsent sur son évolution.
+
+### Objectifs d'apprentissage
+
+Analyser la composition du mix énergétique actuel. Identifier les caractéristiques spécifiques de chaque source d'énergie. Comprendre les fonctions complémentaires des différentes technologies dans le système électrique.
 
 ### Conceptualisation
 
@@ -126,9 +126,9 @@ Hypothèse : Les choix énergétiques européens résultent d'arbitrages complex
 
 ### Investigation par les élèves
 
-1. Panorama du mix énergétique national
+#### 1. Panorama du mix énergétique national
 
-Objectif : Analyser la composition actuelle du mix énergétique national et identifier les tendances d'évolution.
+**Objectif :** Analyser la composition actuelle du mix énergétique national et identifier les tendances d'évolution.
 
 Les élèves disposent de données récentes sur la production électrique de leur pays et travaillent en binômes pour analyser ces informations. Ils complètent un tableau de synthèse qui servira de base à leur futur simulateur. Les élèves calculent les totaux, vérifient la cohérence des données et identifient les tendances d'évolution. Ils créent ensuite un graphique en secteurs montrant la répartition actuelle du mix.
 
@@ -138,9 +138,9 @@ Questions d'analyse :
 - Quelles sources progressent le plus rapidement et quels facteurs expliquent cette évolution ?
 - Quelle est la part des sources pilotables vs intermittentes ?
 
-2. Analyse des caractéristiques techniques et économiques
+#### 2. Analyse des caractéristiques techniques et économiques
 
-Objectif : Comprendre les spécificités de chaque source d'énergie qui déterminent son rôle dans le système électrique.
+**Objectif :** Comprendre les spécificités de chaque source d'énergie qui déterminent son rôle dans le système électrique.
 
 Chaque binôme se spécialise sur 2-3 sources d'énergie et complète une fiche d'analyse détaillée. Ces fiches serviront ensuite de base de données pour construire le simulateur. Modèle de fiche d'analyse (exemple : Gaz naturel) - Disponible pour impression en annexe
 
@@ -187,7 +187,7 @@ Ces paramètres sont essentiels pour modéliser les impacts techniques, économi
 
 Les élèves complètent des fiches similaires pour toutes les sources du mix, en s'appuyant sur les ressources documentaires fournies et sur des recherches guidées.
 
-3. Fonctions dans le système électrique
+#### 3. Fonctions dans le système électrique
 
 Les élèves analysent collectivement comment les différentes sources d'énergie jouent des rôles complémentaires et essentiels dans leur système énergétique national. Cette compréhension est cruciale car chaque type de centrale répond à des besoins spécifiques du réseau :
 
@@ -213,9 +213,13 @@ L'analyse du mix énergétique européen a révélé aux élèves la complexité
 
 ## Phase 2 : construction du simulateur
 
-**Contexte et description du problème à résoudre à cette étape** : Armés de leur compréhension du mix énergétique actuel, les élèves vont maintenant construire un outil leur permettant de modéliser les impacts de modifications de ce mix. Cette séquence développe leurs compétences en modélisation numérique tout en approfondissant leur compréhension des interdépendances énergétiques.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Construire un modèle numérique du mix énergétique européen. Intégrer les contraintes techniques et économiques dans la modélisation. Développer des indicateurs de performance pour évaluer différents scénarios.
+Armés de leur compréhension du mix énergétique actuel, les élèves vont maintenant construire un outil leur permettant de modéliser les impacts de modifications de ce mix. Cette séquence développe leurs compétences en modélisation numérique tout en approfondissant leur compréhension des interdépendances énergétiques.
+
+### Objectifs d'apprentissage
+
+Construire un modèle numérique du mix énergétique européen. Intégrer les contraintes techniques et économiques dans la modélisation. Développer des indicateurs de performance pour évaluer différents scénarios.
 
 ### Conceptualisation
 
@@ -233,9 +237,9 @@ Hypothèse : La construction collaborative d'un simulateur développe une compr�
 
 ### Investigation par les élèves
 
-1. Architecture du simulateur
+#### 1. Architecture du simulateur
 
-Objectif : Concevoir la structure générale du simulateur et organiser les données de base.
+**Objectif :** Concevoir la structure générale du simulateur et organiser les données de base.
 
 Les élèves, par groupes, reçoivent un fichier (par exemple sur Excel ou Google Sheet) pré-formaté avec les onglets de base et construisent progressivement leur simulateur. L'enseignant guide la construction étape par étape.
 
@@ -263,9 +267,9 @@ Onglet 4 : "Résultats"
 
 Les élèves commencent par saisir leurs données de base dans l'onglet 1, en organisant les informations collectées lors de la séquence précédente.
 
-2. Construction des formules de calcul
+#### 2. Construction des formules de calcul
 
-Objectif : Développer les algorithmes de calcul pour quantifier les impacts des modifications du mix.
+**Objectif :** Développer les algorithmes de calcul pour quantifier les impacts des modifications du mix.
 
 L'enseignant guide les élèves dans la construction progressive des formules clés du simulateur :
 
@@ -286,9 +290,9 @@ Cette formule évalue la dépendance aux importations en calculant leur part dan
 
 Les élèves implémentent ces formules étape par étape, testent leur fonctionnement et ajoutent des vérifications (somme des parts = 100%, cohérence des unités).
 
-3. Interface utilisateur et visualisation
+#### 3. Interface utilisateur et visualisation
 
-Objectif : Créer une interface intuitive permettant de modifier facilement le mix et visualiser les résultats.
+**Objectif :** Créer une interface intuitive permettant de modifier facilement le mix et visualiser les résultats.
 
 Les élèves développent l'interface de leur simulateur pour le rendre facile à utiliser :
 
@@ -307,7 +311,7 @@ Les groupes testent leur simulateur en modifiant quelques paramètres et vérifi
 | Part pilotable (%) | 61% | =FORMULE | =FORMULE |
 | Part renouvelable (%) | 39% | =FORMULE | =FORMULE |
 
-4. Validation et calibrage
+#### 4. Validation et calibrage
 
 Les élèves étalonnent leur simulateur en comparant ses résultats à des données de référence et ajustent les paramètres si nécessaire. Ils préparent également une notice d'utilisation simple pour les séquences suivantes.
 
@@ -326,9 +330,13 @@ Pour approfondir la réflexion et préparer l'expérimentation de scénarios, vo
 
 ## Phase 3 : expérimentation et scénarios de transition énergétique
 
-**Contexte et description du problème à résoudre à cette étape** : Les élèves disposent maintenant d'un outil fonctionnel pour explorer les conséquences de modifications du mix énergétique. Cette phase les amène à tester différents scénarios de suppression ou réduction drastique d'une source d'énergie, puis à formuler des recommandations stratégiques réalistes. L'objectif est de comprendre la complexité des transitions énergétiques et de développer leur capacité de synthèse pour proposer des solutions opérationnelles.
+### Contexte et description du problème à résoudre à cette étape
 
-**Objectifs d'apprentissage**: Analyser les impacts de la suppression d'une source d'énergie majeure. Identifier les stratégies de compensation et leurs limites. Évaluer la faisabilité technique et économique de différentes transitions. Formuler des recommandations stratégiques pour les décideurs européens.
+Les élèves disposent maintenant d'un outil fonctionnel pour explorer les conséquences de modifications du mix énergétique. Cette phase les amène à tester différents scénarios de suppression ou réduction drastique d'une source d'énergie, puis à formuler des recommandations stratégiques réalistes. L'objectif est de comprendre la complexité des transitions énergétiques et de développer leur capacité de synthèse pour proposer des solutions opérationnelles.
+
+### Objectifs d'apprentissage
+
+Analyser les impacts de la suppression d'une source d'énergie majeure. Identifier les stratégies de compensation et leurs limites. Évaluer la faisabilité technique et économique de différentes transitions. Formuler des recommandations stratégiques pour les décideurs européens.
 
 ### Conceptualisation
 
@@ -346,9 +354,9 @@ Hypothèse : Les décisions énergétiques résultent d'arbitrages complexes ent
 
 ### Investigation par les élèves
 
-1. Scénarios de suppression progressive et stratégies de compensation
+#### 1. Scénarios de suppression progressive et stratégies de compensation
 
-Objectif : Explorer méthodiquement les conséquences de la réduction progressive d'une source d'énergie et tester différentes stratégies pour compenser la source d'énergie supprimée tout en respectant les contraintes réalistes.
+**Objectif :** Explorer méthodiquement les conséquences de la réduction progressive d'une source d'énergie et tester différentes stratégies pour compenser la source d'énergie supprimée tout en respectant les contraintes réalistes.
 
 Les élèves utilisent leur simulateur pour analyser les impacts de chaque scénario selon différents rythmes de transition.
 
@@ -389,9 +397,9 @@ L'enseignant guide : "Que se passe-t-il si vous voulez aller plus vite ? Plus lo
 
 Enfin, chaque groupe sélectionne sa stratégie optimale, justifie ses choix et prépare un argumentaire pour l'étape suivante.
 
-2. Formulation de recommandations stratégiques
+#### 2. Formulation de recommandations stratégiques
 
-Objectif : Traduire les enseignements des simulations en principes stratégiques et feuilles de route opérationnelles.
+**Objectif :** Traduire les enseignements des simulations en principes stratégiques et feuilles de route opérationnelles.
 
 Cette dernière activité transforme les élèves d'utilisateurs de simulateur en conseillers stratégiques. L'objectif est qu'ils synthétisent leurs découvertes pour formuler des recommandations réalistes.
 
@@ -423,9 +431,9 @@ Conception de feuilles de route : Chaque groupe conçoit une "feuille de route" 
 - **Budgets et bénéfices** : Ordres de grandeur
 - **Risques critiques** : Points de vigilance principaux
 
-3. Débat et arbitrages politiques
+#### 3. Débat et arbitrages politiques
 
-Objectif : Simuler les processus de décision collective et comprendre la complexité des choix énergétiques. Sur la base des feuilles de route, l'enseignant propose une simulation de "Conseil de l'énergie" où chaque groupe devra défendre sa proposition devant le Conseil.
+**Objectif :** Simuler les processus de décision collective et comprendre la complexité des choix énergétiques. Sur la base des feuilles de route, l'enseignant propose une simulation de "Conseil de l'énergie" où chaque groupe devra défendre sa proposition devant le Conseil.
 
 Les élèves joueront un double rôle, à la fois experts lors de la présentation de leur feuille de route, puis "conseillers" selon un rôle qui leur sera distribué au tirage au sort :
 
@@ -472,6 +480,8 @@ Cette phase finale donne aux élèves les outils analytiques et stratégiques n�
 Cette démarche de modélisation peut être transférée à d'autres enjeux systémiques pour développer chez les élèves une culture de l'analyse quantitative et de la prospective appliquée aux défis sociétaux.
 
 ---
+
+## Aller plus loin
 
 ### Projet de micro-réseau intelligent au sein de l'établissement
 
