@@ -41,7 +41,7 @@ sidebar_position: 3
 
 </div>
 
-<img src="/img/ressources/bouton/icone.png" alt="Boutons et affichage LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as03-boutons/icone.png" alt="Boutons et affichage LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -84,7 +84,7 @@ La LED a une orientation. Pour désigner l'orientation correcte, chaque branche 
 - **Cathode** : C'est le « - » de la LED. La branche de la cathode est plus courte que le fil de l'anode.
 :::
 
-<img src="/img/ressources/bouton/button%20breadboard.png" alt="Schéma de câblage boutons et LED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as03-boutons/button%20breadboard.png" alt="Schéma de câblage boutons et LED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 2. Connecter la carte à l'ordinateur
 

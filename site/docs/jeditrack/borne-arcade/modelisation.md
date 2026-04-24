@@ -15,19 +15,19 @@ Lors du choix d'un modèle pour la fabrication d'une borne d'arcade, plusieurs f
 
 La borne Bartop est un modèle compact conçu pour être posé sur un meuble ou une table. C'est une solution idéale pour les petits espaces ou pour ceux qui recherchent un modèle transportable et simple à fabriquer. Cependant, elle offre un espace limité pour les contrôles et l'écran, ce qui en fait un choix souvent réservé à une ou deux personnes.
 
-![Borne bartop](/img/ressources/jeditrack-borne_arcade/Modélisation_finale__a9909538-a460-40b5-a585-99da017f76a3.png)
+![Borne bartop](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__a9909538-a460-40b5-a585-99da017f76a3.png)
 
 ### Borne Cocktail
 
 Le modèle Cocktail se distingue par son design en forme de table, permettant de jouer assis face à face, souvent pour des jeux multijoueurs. Ce type de borne est apprécié pour son look rétro et sa polyvalence d'usage, mais il est plus complexe à construire et occupe davantage d'espace au sol.
 
-![Borne Cocktail](/img/ressources/jeditrack-borne_arcade/Modélisation_finale__image.png)
+![Borne Cocktail](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image.png)
 
 ### Borne pedestal
 
 La Borne Pedestal est un piédestal avec contrôles souvent connecté à un écran séparé ou un téléviseur. Ce format offre une grande flexibilité en termes de taille d'écran et s'intègre facilement dans une pièce, mais manque l'authenticité des bornes traditionnelles et nécessite un support externe.
 
-![Borne pedestal](/img/ressources/jeditrack-borne_arcade/Modélisation_finale__image_1.png)
+![Borne pedestal](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image_1.png)
 
 Notre choix :
 
@@ -37,7 +37,7 @@ La Borne classique (Upright) est le modèle debout de taille standard qui rappel
 
 Au sein des bornes classiques, plusieurs choix s'offraient à nous par exemple :
 
-![Bornes classiques](/img/ressources/jeditrack-borne_arcade/Modélisation_finale__image_2.png)
+![Bornes classiques](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image_2.png)
 
 **Les bornes Atari :** le Style Atari, célèbre pour des bornes comme Asteroids et Centipede, se caractérise par un design minimaliste mais iconique, souvent avec des lignes angulaires et un thème visuel très distinctif. Ces bornes utilisent un mélange de bois et de métal, avec des artworks aux motifs géométriques et des couleurs sombres rehaussées par des éclats de lumière. Les contrôles sont souvent uniques, avec des boutons, joysticks, ou roulettes spécifiques à chaque jeu, ce qui offre une expérience de jeu très immersive et fidèle aux titres originaux. Les bornes Atari sont synonymes des débuts de l'arcade et possèdent une esthétique rétro qui attire les collectionneurs et les passionnés de la première génération des jeux vidéo.
 

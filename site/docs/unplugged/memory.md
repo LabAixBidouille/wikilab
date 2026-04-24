@@ -42,7 +42,7 @@ sidebar_position: 18
 
 </div>
 
-<img src="/img/ressources/unplugged-memory/icone.png" alt="Memory" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/memory/icone.png" alt="Memory" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -93,9 +93,9 @@ La programmation prépare les enfants à acquérir la pensée créative et logiq
 Les enfants retournent 2 cartes simultanément pour découvrir la bonne combinaison d'une image de "Scratch" et du mot correspondant.
 
 <div style={{display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-memory/exemplememoryscratch.png" alt="Exemple de cartes Memory Scratch" style={{maxWidth: '300px', height: 'auto'}} />
-  <img src="/img/ressources/unplugged-memory/exemplememoryscratch2.png" alt="Exemple de cartes Memory Scratch verso" style={{maxWidth: '300px', height: 'auto'}} />
-  <img src="/img/ressources/unplugged-memory/exemplememoryscratch3.png" alt="Exemple de cartes Memory Scratch en jeu" style={{maxWidth: '300px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged/memory/exemplememoryscratch.png" alt="Exemple de cartes Memory Scratch" style={{maxWidth: '300px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged/memory/exemplememoryscratch2.png" alt="Exemple de cartes Memory Scratch verso" style={{maxWidth: '300px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged/memory/exemplememoryscratch3.png" alt="Exemple de cartes Memory Scratch en jeu" style={{maxWidth: '300px', height: 'auto'}} />
 </div>
 
 ### Memory "Ordinateurs"

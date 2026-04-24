@@ -41,7 +41,7 @@ sidebar_position: 7
 
 </div>
 
-<img src="/img/ressources/music/icone.svg" alt="Musique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/icone.svg" alt="Musique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -66,7 +66,7 @@ Alors que nous faisons beaucoup de bruit à l'aide de buzzers et de haut-parleur
 **Ressource :** [https://en.wikipedia.org/wiki/Chiptune](https://en.wikipedia.org/wiki/Chiptune)
 :::
 
-<img src="/img/ressources/music/dessin%20mico.png" alt="Illustration du micro-contrôleur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/dessin%20mico.png" alt="Illustration du micro-contrôleur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le buzzer/haut-parleur
 
@@ -103,7 +103,7 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (appuyez sur le bouton intitulé **RESET**). Essayez de comprendre l'exemple et commencez à le modifier en changeant la période entre deux notes.
 
-![MakeCode Musique](/img/ressources/music/makecode-musique.png)
+![MakeCode Musique](/img/ressources/lets-steam/r1as07-musique/makecode-musique.png)
 
 ---
 
@@ -151,7 +151,7 @@ music.playTone(247, music.beat(BeatFraction.Half))
 </div>
 <div style={{flex: '1', minWidth: '200px'}}>
 
-![Capture d'écran MakeCode du programme musique](/img/ressources/music/lets-steam-screenshot%20(6).png)
+![Capture d'écran MakeCode du programme musique](/img/ressources/lets-steam/r1as07-musique/lets-steam-screenshot%20(6).png)
 
 </div>
 </div>
@@ -162,7 +162,7 @@ Ce programme représente une séquence de notes avec une durée. La compréhensi
 
 La bibliothèque musicale intégrée à MakeCode nous permet de jouer de la musique sur notre carte. Pour jouer une note, nous utilisons la commande suivante :
 
-![Commande MakeCode play tone](/img/ressources/music/commandemiddkeC.png)
+![Commande MakeCode play tone](/img/ressources/lets-steam/r1as07-musique/commandemiddkeC.png)
 
 ```
 play tone at [Middle C] for [1/2 beat]
@@ -181,8 +181,8 @@ C4  D4  E4  F4  G4  A4  B4  C5  D5  E5  F5  G5  A5
 Pour choisir la bonne note sur MakeCode, vous pouvez cliquer sur le nom de la note et faire apparaître le piano virtuel. Chaque touche correspond à une note spécifique (Low, Middle, High).
 
 <div style={{display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
-<img src="/img/ressources/music/music_notation.png" alt="Notation musicale" style={{flex: '1', maxWidth: '250px'}} />
-<img src="/img/ressources/music/scale_3.png" alt="Piano virtuel" style={{flex: '2', maxWidth: '500px'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/music_notation.png" alt="Notation musicale" style={{flex: '1', maxWidth: '250px'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/scale_3.png" alt="Piano virtuel" style={{flex: '2', maxWidth: '500px'}} />
 </div>
 
 ### Durée de la note
@@ -204,11 +204,11 @@ Si nous regardons à nouveau les notes d'une partition de musique, vous remarque
 1. Écrivez un programme qui joue la partition suivante (gamme C majeure) :
    `C4 D4 E4 F4 G4 A4 B4 C5 D5 E5 F5 G5`
 
-<img src="/img/ressources/music/gamme-c-majeure.png" alt="Gamme C majeure" style={{maxWidth: '400px', margin: '0.5rem 0 1rem'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/gamme-c-majeure.png" alt="Gamme C majeure" style={{maxWidth: '400px', margin: '0.5rem 0 1rem'}} />
 
 2. Essayez de reproduire le thème de Dark Vador avec MakeCode à partir de la partition fournie.
 
-<img src="/img/ressources/music/darkvador.png" alt="Partition Dark Vador" style={{maxWidth: '500px', margin: '0.5rem 0 1rem'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/darkvador.png" alt="Partition Dark Vador" style={{maxWidth: '500px', margin: '0.5rem 0 1rem'}} />
 
 3. En utilisant un capteur de distance comme détecteur de présence, créez un programme qui joue la musique de votre choix chaque fois qu'il détecte quelque chose.
 

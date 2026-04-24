@@ -43,7 +43,7 @@ sidebar_position: 12
 
 </div>
 
-<img src="/img/ressources/unplugged-good_ways/icone.png" alt="Good ways" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/good-ways/icone.png" alt="Good ways" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -82,9 +82,9 @@ Avec Good ways, tracez le meilleur chemin possible à main levée en évitant le
 Placez les cartes au centre de la table. Donnez, à chaque joueur, une feuille transparente et un marqueur. Disposez les points au centre des joueurs.
 
 <div style={{display: 'flex', gap: '0.5rem', marginTop: '1rem', marginBottom: '1rem'}}>
-<img src="/img/ressources/unplugged-good_ways/Printables.png" alt="Cartes imprimables Good ways" style={{flex: 1, minWidth: 0}} />
-<img src="/img/ressources/unplugged-good_ways/Printables%20(2).png" alt="Points et pièces imprimables 1" style={{flex: 1, minWidth: 0}} />
-<img src="/img/ressources/unplugged-good_ways/Printables%20(3).png" alt="Points et pièces imprimables 2" style={{flex: 1, minWidth: 0}} />
+<img src="/img/ressources/unplugged/good-ways/Printables.png" alt="Cartes imprimables Good ways" style={{flex: 1, minWidth: 0}} />
+<img src="/img/ressources/unplugged/good-ways/Printables%20(2).png" alt="Points et pièces imprimables 1" style={{flex: 1, minWidth: 0}} />
+<img src="/img/ressources/unplugged/good-ways/Printables%20(3).png" alt="Points et pièces imprimables 2" style={{flex: 1, minWidth: 0}} />
 </div>
 
 ---

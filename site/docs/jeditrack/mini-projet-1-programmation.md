@@ -117,7 +117,7 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 #### Étape 3 - Découvrir les niveaux
 - Comme vous pouvez le constater sur la skillmap "Full of Stories", chaque map est divisée en **niveaux**. Cela permet de gérer la complexité tout en offrant au jeune codeur des étapes intermédiaires satisfaisantes, stimulant ainsi la créativité, l'engagement et le désir de progresser vers le niveau suivant.
 
-<img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(1).png" alt="Niveaux de la skillmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-1-programmation/Untitled_(1).png" alt="Niveaux de la skillmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 #### Étape 4 - Comprendre les objectifs de chaque map
 - Lorsque vous ouvrez la page d'une skillmap, vous trouverez, sur la droite de l'écran, une présentation du contenu, le nombre d'étapes, les récompenses à acquérir et un lien vers **les objectifs d'apprentissage**.
@@ -136,8 +136,8 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 - Chaque skillmap est divisée en étapes, menant à l'obtention de récompenses. À la fin de la map, vous recevrez un certificat de réalisation, ajoutant un niveau supplémentaire de gamification à l'approche de la programmation via MakeCode Arcade.
 
 <div style={{display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(2).png" alt="Récompenses skillmap" style={{maxWidth: '48%', height: 'auto'}} />
-  <img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(3).png" alt="Certificat de réalisation" style={{maxWidth: '48%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/mini-projet-1-programmation/Untitled_(2).png" alt="Récompenses skillmap" style={{maxWidth: '48%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/mini-projet-1-programmation/Untitled_(3).png" alt="Certificat de réalisation" style={{maxWidth: '48%', height: 'auto'}} />
 </div>
 
 - Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et d'autres participants.
@@ -146,7 +146,7 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 - Si la skillmap "Full of Stories" est trop simple pour vos participants, explorez les maps suivantes.
 - Des "**Next Level Skillmaps**" sont également disponibles pour passer à un niveau de complexité supérieur, via l'écran d'accueil de MakeCode Arcade, sous les "Beginner Skillmaps".
 
-<img src="/img/ressources/jeditrack-mini_projet_1_programmation/Untitled_(4).png" alt="Next Level Skillmaps" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-1-programmation/Untitled_(4).png" alt="Next Level Skillmaps" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Checklist pour les animateurs
 

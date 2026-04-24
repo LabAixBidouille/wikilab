@@ -40,7 +40,7 @@ sidebar_position: 6
 
 </div>
 
-<img src="/img/ressources/codemorse/icone.svg" alt="Code Morse" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as06-morse/icone.svg" alt="Code Morse" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -52,7 +52,7 @@ Le code Morse est une méthode utilisée dans les télécommunications pour code
 
 **Ressource :** [https://en.wikipedia.org/wiki/Telecommunication](https://en.wikipedia.org/wiki/Telecommunication)
 
-<img src="/img/ressources/codemorse/International_Morse_Code-fr.svg.png" alt="Tableau du code Morse international" style={{maxWidth: '250px'}} />
+<img src="/img/ressources/lets-steam/r1as06-morse/International_Morse_Code-fr.svg.png" alt="Tableau du code Morse international" style={{maxWidth: '250px'}} />
 
 ## Objectifs d'apprentissage
 
@@ -70,7 +70,7 @@ Des micro-ondes aux jeux télévisés, les buzzers sont partout autour de nous e
 **Ressources :** [https://en.wikipedia.org/wiki/Buzzer](https://en.wikipedia.org/wiki/Buzzer), [https://en.wikipedia.org/wiki/Morse_code](https://en.wikipedia.org/wiki/Morse_code)
 :::
 
-<img src="/img/ressources/codemorse/montage_buzzer.png" alt="Schéma de câblage du buzzer" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as06-morse/montage_buzzer.png" alt="Schéma de câblage du buzzer" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le buzzer
 

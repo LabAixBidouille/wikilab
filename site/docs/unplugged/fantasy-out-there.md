@@ -40,7 +40,7 @@ sidebar_position: 9
 
 </div>
 
-<img src="/img/ressources/unplugged-fantasy_out_there/icone.png" alt="Fantasy out there!" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/fantasy-out-there/icone.png" alt="Fantasy out there!" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -109,7 +109,7 @@ Durant la phase de récit, tous les joueurs deviennent, à tour de rôle, dans l
 Si un joueur n'arrive pas à se rappeler de tout le conte, il peut y être aidé par les autres joueurs ou le maître du jeu.
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
-  <img src="/img/ressources/unplugged-fantasy_out_there/exemple.jpg" alt="Exemple de réalisation autour des mondes imaginaires souterrains" style={{maxWidth: '500px'}} />
+  <img src="/img/ressources/unplugged/fantasy-out-there/exemple.jpg" alt="Exemple de réalisation autour des mondes imaginaires souterrains" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de réalisation autour des mondes imaginaires souterrains</figcaption>
 </figure>
 

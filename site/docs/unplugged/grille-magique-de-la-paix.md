@@ -41,7 +41,7 @@ sidebar_position: 13
 
 </div>
 
-<img src="/img/ressources/unplugged-grille_magique_de_la_paix/icone.png" alt="Grille magique de la paix" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/grille-magique-de-la-paix/icone.png" alt="Grille magique de la paix" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -96,14 +96,14 @@ Pour comprendre la détection d'erreurs, nous utiliserons des grilles composées
 
 L'enseignant explique le fonctionnement du contrôle de parité sur une grille simple affichée au tableau blanc. Les enseignants peuvent également suivre les étapes présentées dans l'activité CS Unplugged : [https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/](https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/)
 
-<img src="/img/ressources/unplugged-grille_magique_de_la_paix/exemplegrille.png" alt="Exemple de grille magique avec bit de parité" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/grille-magique-de-la-paix/exemplegrille.png" alt="Exemple de grille magique avec bit de parité" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Phase 2 - Commencer à corriger des grilles simples
 
 Une fois qu'ils ont compris la logique du jeu, les joueurs concentrent leur attention sur la découverte du mot caché. L'enseignant divise la classe en petits groupes de 2/3 élèves.
 
 <figure style={{marginTop: '1rem', marginBottom: '1.5rem', margin: 0}}>
-  <img src="/img/ressources/unplugged-grille_magique_de_la_paix/exempledroitdelhomme.png" alt="Exemple de grille sur les droits de l'homme" style={{maxWidth: '500px', display: 'block'}} />
+  <img src="/img/ressources/unplugged/grille-magique-de-la-paix/exempledroitdelhomme.png" alt="Exemple de grille sur les droits de l'homme" style={{maxWidth: '500px', display: 'block'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple d'une grille à corriger pour trouver "Droits de l'homme"</figcaption>
 </figure>
 

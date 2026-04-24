@@ -43,7 +43,7 @@ sidebar_position: 15
 
 </div>
 
-<img src="/img/ressources/unplugged-la_ville_pop-up_du_futur/icone.png" alt="La ville pop-up du futur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/icone.png" alt="La ville pop-up du futur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -81,8 +81,8 @@ Les différentes solutions de génie civil et de transport urbain ont un impact 
 - **Niveau 2 :** Pensez à de nouvelles professions, de nouveaux transports et de nouveaux modes de vie. Représentez-les et placez-les dans la ville.
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-la_ville_pop-up_du_futur/cartelieux.png" alt="Cartes de lieux" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged-la_ville_pop-up_du_futur/cartesactions.png" alt="Cartes d'actions" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/cartelieux.png" alt="Cartes de lieux" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/cartesactions.png" alt="Cartes d'actions" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---
@@ -93,13 +93,13 @@ Les différentes solutions de génie civil et de transport urbain ont un impact 
 
 Les enfants lancent le "dé de la localisation" qui détermine le lieu de la ville qu'ils devraient développer (sous l'eau, sous terre, dans les airs, dans une forêt). Ils créent avec les adultes un paysage urbain en trois dimensions.
 
-<img src="/img/ressources/unplugged-la_ville_pop-up_du_futur/d%C3%A9localisation.png" alt="Dé de localisation" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/d%C3%A9localisation.png" alt="Dé de localisation" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Phase 2
 
 Les enfants lancent les "dés de l'action" qui détermineront un domaine de projet à explorer : nouvelles professions, nouveaux aliments, transports, bâtiments, sources d'énergie, etc.
 
-<img src="/img/ressources/unplugged-la_ville_pop-up_du_futur/d%C3%A9actions.png" alt="Dé des actions" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/d%C3%A9actions.png" alt="Dé des actions" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Phase 3 (additionnel) - Musiques de votre ville
 

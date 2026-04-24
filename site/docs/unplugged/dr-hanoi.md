@@ -43,7 +43,7 @@ sidebar_position: 6
 
 </div>
 
-<img src="/img/ressources/unplugged-dr_hanoi/icone.png" alt="Dr. Hanoi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/dr-hanoi/icone.png" alt="Dr. Hanoi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -101,7 +101,7 @@ Un élément ne peut être transféré qu'au dessus d'un élément de taille ég
 
 Attention, un transfert a pour effet d'inverser l'ordre des éléments à l'intérieur des tubes à essai !
 
-<img src="/img/ressources/unplugged-dr_hanoi/transvasage.png" alt="Exemple de transvasage entre tubes à essai" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/dr-hanoi/transvasage.png" alt="Exemple de transvasage entre tubes à essai" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Règles diverses
 
@@ -122,7 +122,7 @@ Si tous les joueurs sont éliminés, il n'y a pas de gagnant.
 
 En début ou fin de partie, l'enseignant/éducateur peut utiliser les tests de logique à faire par écrit disponibles dans le PDF pour diversifier le jeu.
 
-<img src="/img/ressources/unplugged-dr_hanoi/exempleactivité.png" alt="Exemple d'activité Dr. Hanoï" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/dr-hanoi/exempleactivité.png" alt="Exemple d'activité Dr. Hanoï" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

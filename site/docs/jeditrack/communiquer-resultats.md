@@ -54,19 +54,19 @@ sidebar_position: 11
 | **Format** : A1 ou A0, structure claire avec introduction, méthode, résultats, conclusions | **Format** : A3 ou A2, message fort et visuel accrocheur | **Format** : Vertical pour réseaux sociaux ou horizontal pour exposition | **Format** : Grand format avec légendes et témoignages |
 | **Impact** : Valorise la démarche d'investigation et donne une crédibilité "recherche" au travail des jeunes | **Impact** : Mobilise l'opinion publique et positionne les jeunes comme acteurs du changement | **Impact** : Éduque le public et établit les jeunes comme source d'information fiable | **Impact** : Révèle des aspects méconnus du territoire et stimule la réflexion collective |
 
-<img src="/img/ressources/jeditrack-communiquer_resultats/Academic_Research_Poster_in_Cream_Pink_and_Yellow_Lined_Graphic_Style.png" alt="Exemple de poster de recherche" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/communiquer-resultats/Academic_Research_Poster_in_Cream_Pink_and_Yellow_Lined_Graphic_Style.png" alt="Exemple de poster de recherche" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Exemple de poster de recherche [disponible comme modèle dans Canva](https://www.canva.com/design/DAGzIZXj0Gk/QHwWjmNELA0iCfXgBm20BA/view?utm_content=DAGzIZXj0Gk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-<img src="/img/ressources/jeditrack-communiquer_resultats/Environmental_Sustainability_Science_Poster_in_Colourful_Vivid_Style.png" alt="Exemple d'affiche de sensibilisation" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/communiquer-resultats/Environmental_Sustainability_Science_Poster_in_Colourful_Vivid_Style.png" alt="Exemple d'affiche de sensibilisation" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Exemple d'affiche de sensibilisation [disponible comme modèle dans Canva](https://www.canva.com/design/DAGzITPaWYE/46B9a8lSfhS6aeX86UDkRA/view?utm_content=DAGzITPaWYE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-<img src="/img/ressources/jeditrack-communiquer_resultats/Green_Modern_Informational_Data_Infographic.png" alt="Exemple d'infographie" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/communiquer-resultats/Green_Modern_Informational_Data_Infographic.png" alt="Exemple d'infographie" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Exemple d'infographie [disponible comme modèle dans Canva](https://www.canva.com/design/DAGzIfClFYk/PnxemkD3iGetkXznRJJqRg/view?utm_content=DAGzIfClFYk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 
-<img src="/img/ressources/jeditrack-communiquer_resultats/Make_a_Map_Worksheet_in_Green_Illustrative_Style.png" alt="Exemple d'outil visuel et cartographique" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/communiquer-resultats/Make_a_Map_Worksheet_in_Green_Illustrative_Style.png" alt="Exemple d'outil visuel et cartographique" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Exemple d'outil visuel et cartographique [disponible comme modèle dans Canva](https://www.canva.com/design/DAGzIUlmWZk/PEMgChmdmAxO7fsU4XWSaA/view?utm_content=DAGzIUlmWZk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview)
 

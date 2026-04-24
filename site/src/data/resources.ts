@@ -112,7 +112,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['makecode', 'led', 'stm32', 'blocs', 'broche'],
     pdf: '/pdf/lets-steam/LS_R1AS01_LED_FR.pdf',
-    thumbnail: '/img/ressources/led/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as01-led/icone.png',
   },
   {
     id: 'r1as02-breadboard',
@@ -132,7 +132,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['breadboard', 'led', 'résistance', 'circuit', 'stm32', 'makecode'],
     pdf: '/pdf/lets-steam/LS_R1AS02_Breadboard_FR.pdf',
-    thumbnail: '/img/ressources/breadboard/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as02-breadboard/icone.png',
   },
   {
     id: 'r1as03-boutons',
@@ -152,7 +152,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['bouton', 'variable', 'événement', 'interactivité', 'quiz', 'stm32', 'makecode'],
     pdf: '/pdf/lets-steam/LS_R1AS03_Buttons_FR.pdf',
-    thumbnail: '/img/ressources/bouton/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as03-boutons/icone.png',
   },
   {
     id: 'r1as04-capteur-lumiere',
@@ -172,7 +172,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['capteur', 'lumière', 'photorésistance', 'LDR', 'analogique', 'graphique', 'stm32'],
     pdf: '/pdf/lets-steam/LS_R1AS04_Light_FR.pdf',
-    thumbnail: '/img/ressources/capteurs_lumiere/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as04-capteur-lumiere/icone.png',
   },
   {
     id: 'r1as05-potentiometre',
@@ -189,7 +189,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['potentiomètre', 'analogique', 'LED', 'luminosité'],
     pdf: '/pdf/lets-steam/LS_R1AS05_Potentiometer_FR.pdf',
-    thumbnail: '/img/ressources/potentiometre/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as05-potentiometre/icone.svg',
   },
   {
     id: 'r1as06-morse',
@@ -206,7 +206,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['morse', 'buzzer', 'communication', 'codage'],
     pdf: '/pdf/lets-steam/LS_R1AS06_Morse_FR.pdf',
-    thumbnail: '/img/ressources/codemorse/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as06-morse/icone.svg',
   },
   {
     id: 'r1as07-musique',
@@ -223,7 +223,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['musique', 'buzzer', 'mélodie', 'fréquence', 'note'],
     pdf: '/pdf/lets-steam/LS_R1AS07_Music_FR.pdf',
-    thumbnail: '/img/ressources/music/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as07-musique/icone.svg',
   },
   {
     id: 'r1as08-theremine',
@@ -240,7 +240,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['thérémine', 'capteur distance', 'son', 'ultrason', 'musique'],
     pdf: '/pdf/lets-steam/LS_R1AS08_Theremin_FR.pdf',
-    thumbnail: '/img/ressources/theremine/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as08-theremine/icone.png',
   },
   {
     id: 'r1as09-accelerometre',
@@ -257,7 +257,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['accéléromètre', 'inclinaison', 'capteur', 'mouvement'],
     pdf: '/pdf/lets-steam/LS_R1AS09_Accelerometer_FR.pdf',
-    thumbnail: '/img/ressources/capteurinclinaisonaccelerometer/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as09-accelerometre/icone.png',
   },
   {
     id: 'r1as10-ecran-oled',
@@ -274,7 +274,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['écran', 'OLED', 'affichage', 'I2C', 'texte'],
     pdf: '/pdf/lets-steam/LS_R1AS10_OLED_FR.pdf',
-    thumbnail: '/img/ressources/oled/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as10-ecran-oled/icone.png',
   },
   {
     id: 'r1as11-thermometre',
@@ -291,7 +291,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['thermomètre', 'température', 'capteur', 'LCD'],
     pdf: '/pdf/lets-steam/LS_R1AS11_Thermometer_FR.pdf',
-    thumbnail: '/img/ressources/thermometre/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as11-thermometre/icone.png',
   },
   {
     id: 'r1as12-detecteur-mouvement',
@@ -308,7 +308,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['PIR', 'mouvement', 'alarme', 'détection', 'capteur'],
     pdf: '/pdf/lets-steam/LS_R1AS12_Motion_FR.pdf',
-    thumbnail: '/img/ressources/alarmedetectionmotion/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as12-detecteur-mouvement/icone.svg',
   },
   {
     id: 'r1as13-servomoteurs',
@@ -325,7 +325,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['servo', 'servomoteur', 'mouvement', 'angle', 'moteur'],
     pdf: '/pdf/lets-steam/LS_R1AS13_Servos_FR.pdf',
-    thumbnail: '/img/ressources/servomoteur/icone.png',
+    thumbnail: '/img/ressources/lets-steam/r1as13-servomoteurs/icone.png',
   },
   {
     id: 'r1as14-minuteur',
@@ -342,7 +342,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['minuteur', 'timer', 'compte à rebours', 'buzzer', 'temps'],
     pdf: '/pdf/lets-steam/LS_R1AS14_Timer_FR.pdf',
-    thumbnail: '/img/ressources/eggtimer/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as14-minuteur/icone.svg',
   },
   {
     id: 'r1as15-collecte-donnees',
@@ -359,7 +359,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['données', 'collecte', 'capteurs', 'CSV', 'graphique', 'datalogger'],
     pdf: '/pdf/lets-steam/LS_R1AS15_Data_FR.pdf',
-    thumbnail: '/img/ressources/collectedonnees/icone.svg',
+    thumbnail: '/img/ressources/lets-steam/r1as15-collecte-donnees/icone.svg',
   },
   {
     id: 'mimesis-play-1',
@@ -379,7 +379,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences'],
     keywords: ['astronomie', 'système solaire', 'théâtre', 'échelle', 'planètes'],
     pdf: '/pdf/mimesis/Mimesis_Play_1_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-1/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-1/icone.png',
   },
   {
     id: 'mimesis-play-2',
@@ -399,7 +399,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences'],
     keywords: ['conte', 'narration', 'sciences', 'improvisation', 'théâtre'],
     pdf: '/pdf/mimesis/Mimesis_Play_2_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-2/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-2/icone.png',
   },
   {
     id: 'mimesis-play-3',
@@ -419,7 +419,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences', 'environnement-nature'],
     keywords: ['plancton', 'océan', 'chaîne alimentaire', 'écosystème', 'biologie'],
     pdf: '/pdf/mimesis/Mimesis_Play_3_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-3/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-3/icone.png',
   },
   {
     id: 'mimesis-play-4',
@@ -439,7 +439,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences', 'environnement-nature'],
     keywords: ['eau', 'cycle', 'états', 'environnement', 'théâtre'],
     pdf: '/pdf/mimesis/Mimesis_Play_4_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-4/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-4/icone.png',
   },
   {
     id: 'mimesis-play-5',
@@ -459,7 +459,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences', 'arts-creativite'],
     keywords: ['géométrie', 'marionnette', 'formes', 'art', 'Kandinsky'],
     pdf: '/pdf/mimesis/Mimesis_Play_5_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-5/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-5/icone.png',
   },
   {
     id: 'mimesis-play-6',
@@ -479,7 +479,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences', 'environnement-nature'],
     keywords: ['catastrophes naturelles', 'environnement', 'prévention', 'théâtre'],
     pdf: '/pdf/mimesis/Mimesis_Play_6_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-6/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-6/icone.png',
   },
   {
     id: 'mimesis-play-7',
@@ -499,7 +499,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences'],
     keywords: ['corps', 'mouvement', 'sciences', 'expression corporelle'],
     pdf: '/pdf/mimesis/Mimesis_Play_7_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-7/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-7/icone.png',
   },
   {
     id: 'mimesis-play-8',
@@ -519,7 +519,7 @@ export const resources: Resource[] = [
     categories: ['theatre-sciences', 'arts-creativite'],
     keywords: ['kamishibaï', 'narration', 'scientifiques', 'théâtre de papier', 'histoire des sciences'],
     pdf: '/pdf/mimesis/Mimesis_Play_8_FR.pdf',
-    thumbnail: '/img/ressources/mimesis-play-8/icone.png',
+    thumbnail: '/img/ressources/mimesis/mimesis-play-8/icone.png',
   },
   {
     id: 'argile-et-sculpture',
@@ -539,7 +539,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['émotions', 'sculpture', 'communication non verbale', 'corps humain', 'empathie'],
     pdf: '/pdf/unplugged/Unplugged_Argile et sculpture_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-argile_et_sculpture/icone.png',
+    thumbnail: '/img/ressources/unplugged/argile-et-sculpture/icone.png',
   },
   {
     id: 'binary-counting',
@@ -559,7 +559,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['binaire', 'programmation', 'nombres', 'conversion', 'calcul'],
     pdf: '/pdf/unplugged/Unplugged_Binary Counting_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-binary_counting/icone.png',
+    thumbnail: '/img/ressources/unplugged/binary-counting/icone.png',
   },
   {
     id: 'biscuits-et-paix',
@@ -579,7 +579,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['cuisine', 'inégalité', 'ressources', 'négociation', 'partage'],
     pdf: '/pdf/unplugged/Unplugged_Biscuits et paix_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-biscuits_et_paix/icone.png',
+    thumbnail: '/img/ressources/unplugged/biscuits-et-paix/icone.png',
   },
   {
     id: 'brain-twister',
@@ -599,7 +599,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['programmation', 'logique binaire', 'expression orale', 'cognition spatiale', 'robots'],
     pdf: '/pdf/unplugged/Unplugged_Brain twister_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-brain_twister/icone.png',
+    thumbnail: '/img/ressources/unplugged/brain-twister/icone.png',
   },
   {
     id: 'brainstorming',
@@ -619,7 +619,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['créativité', 'expression orale', 'argumentation', 'apprentissage collaboratif', 'idées'],
     pdf: '/pdf/unplugged/Unplugged_Brainstorming_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-brainstorming/icone.png',
+    thumbnail: '/img/ressources/unplugged/brainstorming/icone.png',
   },
   {
     id: 'dr-hanoi',
@@ -639,7 +639,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['logique', 'réflexion', 'dextérité', 'tours de Hanoï', 'combinatoire'],
     pdf: '/pdf/unplugged/Unplugged_Dr Hanoï _FR.pdf',
-    thumbnail: '/img/ressources/unplugged-dr_hanoi/icone.png',
+    thumbnail: '/img/ressources/unplugged/dr-hanoi/icone.png',
   },
   {
     id: 'ecosystemes-en-bocaux',
@@ -659,7 +659,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'environnement-nature'],
     keywords: ['écosystème', 'biologie', 'écologie', 'expérimentation', 'plantes'],
     pdf: '/pdf/unplugged/Unplugged_Ecosystèmes  en bocaux_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-ecosystemes_en_bocaux/icone.png',
+    thumbnail: '/img/ressources/unplugged/ecosystemes-en-bocaux/icone.png',
   },
   {
     id: 'equal',
@@ -679,7 +679,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['égalité', 'stéréotypes', 'genre', 'métiers', 'inclusion'],
     pdf: '/pdf/unplugged/Unplugged_Equal_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-equal/icone.png',
+    thumbnail: '/img/ressources/unplugged/equal/icone.png',
   },
   {
     id: 'fantasy-out-there',
@@ -699,7 +699,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['narration', 'coopération', 'créativité', 'réalité augmentée', 'décoration'],
     pdf: '/pdf/unplugged/Unplugged_Fantasy out there!_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-fantasy_out_there/icone.png',
+    thumbnail: '/img/ressources/unplugged/fantasy-out-there/icone.png',
   },
   {
     id: 'ferme-en-ville',
@@ -719,7 +719,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'citoyennete-territoire', 'environnement-nature'],
     keywords: ['théorie des graphes', 'agriculture urbaine', 'optimisation', 'ville intelligente', 'algorithme'],
     pdf: '/pdf/unplugged/Unplugged_Ferme en ville_FR .pdf',
-    thumbnail: '/img/ressources/unplugged-ferme_en_ville/icone.png',
+    thumbnail: '/img/ressources/unplugged/ferme-en-ville/icone.png',
   },
   {
     id: 'form-factor',
@@ -739,7 +739,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['géométrie', 'analyse', 'pensée visuelle', 'précision', 'coopération'],
     pdf: '/pdf/unplugged/_Unplugged_Form factor_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-form_factor/icone.png',
+    thumbnail: '/img/ressources/unplugged/form-factor/icone.png',
   },
   {
     id: 'good-ways',
@@ -759,7 +759,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['orientation', 'développement durable', 'ODD', 'concentration', 'motricité'],
     pdf: '/pdf/unplugged/Unplugged_Good ways_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-good_ways/icone.png',
+    thumbnail: '/img/ressources/unplugged/good-ways/icone.png',
   },
   {
     id: 'grille-magique-de-la-paix',
@@ -779,7 +779,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['parité', 'code correcteur', 'transmission de données', 'désinformation', 'citoyenneté'],
     pdf: '/pdf/unplugged/Unplugged_Grille magique de la paix_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-grille_magique_de_la_paix/icone.png',
+    thumbnail: '/img/ressources/unplugged/grille-magique-de-la-paix/icone.png',
   },
   {
     id: 'iterative-clues',
@@ -799,7 +799,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['culture numérique', 'association d\'idées', 'rapidité', 'technologie', 'indices'],
     pdf: '/pdf/unplugged/Unplugged_Iterative clues_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-iterative_clues/icone.png',
+    thumbnail: '/img/ressources/unplugged/iterative-clues/icone.png',
   },
   {
     id: 'la-ville-parfaite',
@@ -819,7 +819,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'citoyennete-territoire'],
     keywords: ['manipulation', 'désinformation', 'leadership', 'esprit critique', 'urbanisme'],
     pdf: '/pdf/unplugged/Unplugged_La ville parfaite_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-la_ville_parfaite/icone.png',
+    thumbnail: '/img/ressources/unplugged/la-ville-parfaite/icone.png',
   },
   {
     id: 'la-ville-pop-up-du-futur',
@@ -839,7 +839,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'citoyennete-territoire'],
     keywords: ['ville du futur', 'développement durable', 'pop-up', 'créativité', 'génie civil'],
     pdf: '/pdf/unplugged/Unplugged_La ville Pop-up du Futur_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-la_ville_pop-up_du_futur/icone.png',
+    thumbnail: '/img/ressources/unplugged/la-ville-pop-up-du-futur/icone.png',
   },
   {
     id: 'likadislike',
@@ -859,7 +859,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['émotions', 'expression orale', 'inclusion', 'brise-glace', 'sensibilité'],
     pdf: '/pdf/unplugged/Unplugged_Likadislike_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-likadislike/icone.png',
+    thumbnail: '/img/ressources/unplugged/likadislike/icone.png',
   },
   {
     id: 'memory',
@@ -879,7 +879,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['culture numérique', 'Scratch', 'ordinateurs', 'mémoire', 'programmation'],
     pdf: '/pdf/unplugged/Unplugged_Memory_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-memory/icone.png',
+    thumbnail: '/img/ressources/unplugged/memory/icone.png',
   },
   {
     id: 'plastic-continent',
@@ -899,7 +899,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'environnement-nature'],
     keywords: ['logique', 'écologie', 'pollution plastique', 'orientation spatiale', 'ODD'],
     pdf: '/pdf/unplugged/_Unplugged_Plastic continent _FR.pdf',
-    thumbnail: '/img/ressources/unplugged-plastic_continent/icone.png',
+    thumbnail: '/img/ressources/unplugged/plastic-continent/icone.png',
   },
   {
     id: 'potluck-march',
@@ -919,7 +919,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['inégalité', 'nutrition', 'partage', 'privilège', 'alimentation'],
     pdf: '/pdf/unplugged/Unplugged_Potluck March_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-potluck_march/icone.png',
+    thumbnail: '/img/ressources/unplugged/potluck-march/icone.png',
   },
   {
     id: 'poverty-free-game-collection',
@@ -939,7 +939,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['pauvreté', 'créativité', 'collaboration', 'ODD', 'jeux'],
     pdf: '/pdf/unplugged/Unplugged_Poverty Free Game Collection.pdf',
-    thumbnail: '/img/ressources/unplugged-poverty_free_game_collection/icone.png',
+    thumbnail: '/img/ressources/unplugged/poverty-free-game-collection/icone.png',
   },
   {
     id: 'programming-a-choreography',
@@ -959,7 +959,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['programmation', 'Scratch', 'chorégraphie', 'sport', 'coordination'],
     pdf: '/pdf/unplugged/Unplugged_Programming a Choreography_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-programming_a_choreography/icone.png',
+    thumbnail: '/img/ressources/unplugged/programming-a-choreography/icone.png',
   },
   {
     id: 'reroute-better-world',
@@ -979,7 +979,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['géographie', 'logique', 'transport', 'Europe', 'pensée computationnelle'],
     pdf: '/pdf/unplugged/Unplugged_Reroute better world _FR.pdf',
-    thumbnail: '/img/ressources/unplugged-reroute_better_world/icone.png',
+    thumbnail: '/img/ressources/unplugged/reroute-better-world/icone.png',
   },
   {
     id: 'vivre-en-harmonie',
@@ -999,7 +999,7 @@ export const resources: Resource[] = [
     categories: ['sequences-debranchees'],
     keywords: ['identité', 'Union Européenne', 'diversité', 'géographie', 'égalité'],
     pdf: '/pdf/unplugged/Unplugged_Vivre en harmonie_FR.pdf',
-    thumbnail: '/img/ressources/unplugged-vivre_en_harmonie/icone.png',
+    thumbnail: '/img/ressources/unplugged/vivre-en-harmonie/icone.png',
   },
   {
     id: 'mini-projet-1-programmation',

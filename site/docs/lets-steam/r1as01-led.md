@@ -31,7 +31,7 @@ sidebar_position: 1
 
 </div>
 
-<img src="/img/ressources/led/icone.png" alt="Faisons clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as01-led/icone.png" alt="Faisons clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -78,13 +78,13 @@ Voici les différentes étapes vous permettant de faire clignoter une LED à l'a
 
 Comme nous voulons que le programme fasse clignoter la LED indéfiniment, la première étape consiste à ajouter le bloc **"toujours"**. Il sera présent par défaut à l'ouverture de l'éditeur, mais vous pouvez également le trouver dans le sous-menu **BOUCLES**.
 
-![Ajouter une boucle forever](/img/ressources/led/Ajouter%20une%20boucle%20forever.png)
+![Ajouter une boucle forever](/img/ressources/lets-steam/r1as01-led/Ajouter%20une%20boucle%20forever.png)
 
 #### Allumer la LED
 
 Contrôler une LED est une tâche simple car elle ne peut être qu'allumée (le courant la traverse) ou éteinte (le courant ne circule pas). Pour y parvenir, nous devons définir l'état de la broche (plus communément appelée *pin*) où la LED est connectée. Dans notre cas, si nous voulons allumer la LED, nous devons mettre l'état de la broche sur **HIGH**. L'état de la broche sur **LOW** l'éteindra. Dans MakeCode, pour contrôler l'état d'une broche, sélectionnez le sous-menu **BROCHES**, puis faites glisser le bloc **digital write** à l'intérieur de la boucle **toujours**.
 
-![Broche digital write](/img/ressources/led/broche%20digital%20write.png)
+![Broche digital write](/img/ressources/lets-steam/r1as01-led/broche%20digital%20write.png)
 
 #### Créer le clignotement
 
@@ -92,7 +92,7 @@ Pour créer le clignotement, il est nécessaire que nous puissions voir la LED s
 
 **1) Créer une pause lorsque la LED est allumée pour voir la lumière :** avant d'éteindre la LED, nous devons attendre un petit temps — une demi-seconde (500 millisecondes) par exemple — avec la lumière allumée. Pour ce faire, ajoutez le bloc **pause** (à l'intérieur du sous-menu **BOUCLES**), et définissez la valeur à 500 (pour 500 millisecondes).
 
-![Créer une pause](/img/ressources/led/créer%20une%20pause.png)
+![Créer une pause](/img/ressources/lets-steam/r1as01-led/créer%20une%20pause.png)
 
 :::tip
 Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur personnalisée.
@@ -100,7 +100,7 @@ Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur p
 
 **2) Éteindre la lumière pendant une durée similaire pour créer le clignotement :** jusqu'à présent, vous avez fait la moitié du travail ! Ajoutez un autre bloc **digital write** et un autre bloc **pause** pour éteindre la LED et attendre à nouveau 500 ms, permettant de créer cet effet de clignotement. Combiné avec la boucle infinie, on peut voir ce clignotement se répéter à l'infini.
 
-![Éteindre la lumière](/img/ressources/led/eteindre%20la%20lumière.png)
+![Éteindre la lumière](/img/ressources/lets-steam/r1as01-led/eteindre%20la%20lumière.png)
 
 :::tip
 Au lieu de choisir des blocs dans les sous-menus, vous pouvez cliquer avec le bouton droit de la souris sur un bloc et le "dupliquer".
@@ -125,7 +125,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
 
-![Programme complet en blocs](/img/ressources/led/lets-steam-screenshot%20(1).png)
+![Programme complet en blocs](/img/ressources/lets-steam/r1as01-led/lets-steam-screenshot%20(1).png)
 
 </div>
 <div style={{flex: '1', minWidth: '280px'}}>

@@ -40,7 +40,7 @@ sidebar_position: 5
 
 La cartographie sensible se définit comme une méthode de représentation spatiale qui s'affranchit délibérément des contraintes de la cartographie classique pour capturer la dimension sensible et affective de l'expérience humaine face à l'environnement. Cette approche phénoménologique considère que la compréhension d'un espace ne peut se limiter à ses caractéristiques physiques mesurables, mais doit intégrer les émotions, les perceptions et les représentations que développent les individus face aux enjeux territoriaux.
 
-<img src="/img/ressources/jeditrack-cartographie_sensible/11642c99-8d39-468b-a851-781e0735c219.png" alt="SteamCity Maquettage Cartographie Sensible" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/cartographie-sensible/11642c99-8d39-468b-a851-781e0735c219.png" alt="SteamCity Maquettage Cartographie Sensible" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Le principe est simple : à partir de l'expérience vécue du territoire, les élèves créent une représentation graphique libre qui matérialise leurs émotions et leurs perceptions. Contrairement aux cartes géographiques traditionnelles, la cartographie sensible privilégie l'expression créative et la fidélité au ressenti plutôt que la précision géographique, révélant ainsi la complexité des rapports affectifs au territoire.**
 

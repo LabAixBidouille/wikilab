@@ -41,7 +41,7 @@ sidebar_position: 8
 
 </div>
 
-<img src="/img/ressources/theremine/icone.png" alt="Thérémine" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as08-theremine/icone.png" alt="Thérémine" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -71,7 +71,7 @@ Notre version sera plus simple : nous ne contrôlerons que la hauteur du son ave
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/theremine/montage_theremin.png" alt="Schéma de câblage du thérémine" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as08-theremine/montage_theremin.png" alt="Schéma de câblage du thérémine" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le buzzer/haut-parleur
 

@@ -135,7 +135,7 @@ Ces trois blocs (query data from DHT, read data et Datalogger) ne sont accessibl
 
 Une fois ces blocs identifiés, vous pouvez commencer à organiser vos blocs pour permettre à la carte de collecter la température et l'humidité. Testez des configurations selon ce qui vous semble logique et **utilisez le simulateur pour vérifier que votre code fait ce que vous attendez de lui**.
 
-<img src="/img/ressources/jeditrack-etude_confort_thermique/Journe_Dcouverte_et_Exprimentation_SteamCity.png" alt="Journée Découverte et Expérimentation SteamCity - Vue des blocs disponibles" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/etude-confort-thermique/Journe_Dcouverte_et_Exprimentation_SteamCity.png" alt="Journée Découverte et Expérimentation SteamCity - Vue des blocs disponibles" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::info[Ce que doit faire le code]
 Voici ce que doit faire notre code : quand j'allume ma carte, une croix m'indique que le programme attend d'être lancé. J'appuie sur le bouton A. La carte m'indique qu'elle est prête à collecter des données. Après une courte pause, la coche s'efface de l'écran et la carte commence sa collecte jusqu'à ce que je l'éteigne. Durant tout ce temps, elle collecte la température et l'humidité toutes les minutes, avec un horodatage précis.
@@ -143,7 +143,7 @@ Voici ce que doit faire notre code : quand j'allume ma carte, une croix m'indiqu
 
 ***Solution à base de blocs***
 
-<img src="/img/ressources/jeditrack-etude_confort_thermique/image.png" alt="Solution en blocs pour le programme de mesure thermique" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/etude-confort-thermique/image.png" alt="Solution en blocs pour le programme de mesure thermique" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ***Javascript***
 
@@ -173,7 +173,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 Vous pouvez directement coller ce code dans l'espace dédié :
 
-<img src="/img/ressources/jeditrack-etude_confort_thermique/image_1.png" alt="Espace de saisie du code Javascript dans MakeCode" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/etude-confort-thermique/image_1.png" alt="Espace de saisie du code Javascript dans MakeCode" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 #### Étape 2 : Câbler et connecter le capteur DHT22
 

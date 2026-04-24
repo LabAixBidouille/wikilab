@@ -11,7 +11,7 @@ sidebar_position: 1
 
 Une borne d'arcade est un dispositif autonome qui permet de jouer à des jeux vidéo. Elle est généralement équipée d'un écran, d'un système de contrôle (joysticks et boutons) et d'une unité centrale qui exécute le jeu. Les bornes peuvent varier en taille et en forme, mais toutes partagent ces composantes de base.
 
-![Borne d'arcade](/img/ressources/jeditrack-borne_arcade/Petit_historique_des__photo-1511882150382-421056c89033.avif)
+![Borne d'arcade](/img/ressources/jeditrack/borne-arcade/Petit_historique_des__photo-1511882150382-421056c89033.avif)
 
 - **Les débuts (années 1970)** : La naissance des bornes d'arcade remonte aux années 1970, période à laquelle les jeux vidéo ont commencé à se populariser. Elles ont constitué un élément central de la culture des jeunes. Le lancement de Pong par Atari en 1972 marque le début de l'ère des jeux vidéo en arcade. Des titres comme Space Invaders (1978) et Asteroids (1979) ont propulsé les arcades dans la sphère publique, les transformant en lieux de rencontre sociaux. Ces machines étaient fréquemment installées dans des lieux publics comme des bars, des salles d'arcade, ou des centres commerciaux, offrant un lieu de rassemblement et de divertissement pour la jeunesse. Non seulement elles offraient une nouvelle forme de divertissement interactif, mais elles permettaient également aux jeunes de socialiser, de rivaliser et de développer une culture et une communauté autour des jeux vidéo. Les joueurs passaient beaucoup de temps à maîtriser les jeux, à battre des records et à observer les autres joueurs pour apprendre de nouvelles stratégies.
 - **L'Âge d'Or (fin des années 1970 - début des années 1980) :** Cette période a vu une explosion de la créativité avec des jeux comme Pac-Man (1980) et Donkey Kong (1981), qui introduisirent des personnages et des narrations complexes. L'amélioration des graphismes, de l'audio et de la complexité des jeux a enrichi l'expérience utilisateur.
@@ -32,7 +32,7 @@ La borne d'arcade continue d'évoluer, s'adaptant aux nouvelles technologies et 
 
 L'un des jeux d'arcade les plus emblématiques de tous les temps, Pac-Man a été un véritable phénomène culturel dans les années 1980. Le but du jeu est simple : manger tous les pac-gommes dans le labyrinthe tout en échappant aux fantômes.
 
-![Pac-Man](/img/ressources/jeditrack-borne_arcade/Pac-Man__Untitled.png)
+![Pac-Man](/img/ressources/jeditrack/borne-arcade/Pac-Man__Untitled.png)
 
 ### Space Invaders
 
@@ -42,7 +42,7 @@ L'un des jeux d'arcade les plus emblématiques de tous les temps, Pac-Man a ét�
 
 Ce jeu de tir a révolutionné l'industrie du jeu vidéo à sa sortie en 1978. Il a introduit le concept de scores élevés et est souvent crédité comme l'initiateur du genre shoot 'em up.
 
-![Space Invaders](/img/ressources/jeditrack-borne_arcade/Space_Invaders__Untitled.png)
+![Space Invaders](/img/ressources/jeditrack/borne-arcade/Space_Invaders__Untitled.png)
 
 ### Tetris
 
@@ -52,7 +52,7 @@ Ce jeu de tir a révolutionné l'industrie du jeu vidéo à sa sortie en 1978. I
 
 Lancé en 1984, Tetris est devenu l'un des jeux les plus emblématiques et appréciés de tous les temps. Avec ses blocs de différentes formes qui tombent à une vitesse de plus en plus rapide, le jeu est simple à comprendre mais difficile à maîtriser.
 
-![Tetris](/img/ressources/jeditrack-borne_arcade/Tetris__Untitled.png)
+![Tetris](/img/ressources/jeditrack/borne-arcade/Tetris__Untitled.png)
 
 ### Donkey Kong
 
@@ -62,7 +62,7 @@ Lancé en 1984, Tetris est devenu l'un des jeux les plus emblématiques et appr�
 
 Sorti en 1981, Donkey Kong est particulièrement notable pour avoir été le premier jeu de Shigeru Miyamoto, le créateur de Mario. Le jeu met en scène un charpentier, Jumpman (qui deviendra plus tard Mario), essayant de sauver une demoiselle en détresse de Donkey Kong.
 
-![Donkey Kong](/img/ressources/jeditrack-borne_arcade/Donkey_Kong__Untitled.png)
+![Donkey Kong](/img/ressources/jeditrack/borne-arcade/Donkey_Kong__Untitled.png)
 
 ### Street Fighter II
 
@@ -72,7 +72,7 @@ Sorti en 1981, Donkey Kong est particulièrement notable pour avoir été le pre
 
 Ce jeu de combat a popularisé le genre et a introduit des mécaniques de jeu qui sont toujours présentes dans les jeux de combat modernes. Il a également propulsé la série Street Fighter au rang de phénomène mondial.
 
-![Street Fighter II](/img/ressources/jeditrack-borne_arcade/Street_Fighter_II__Untitled.png)
+![Street Fighter II](/img/ressources/jeditrack/borne-arcade/Street_Fighter_II__Untitled.png)
 
 ### Mortal Kombat
 
@@ -82,7 +82,7 @@ Ce jeu de combat a popularisé le genre et a introduit des mécaniques de jeu qu
 
 Connu pour sa violence graphique et ses "fatalités", Mortal Kombat a fait ses débuts en arcade en 1992 et a depuis lors évolué pour devenir une franchise majeure de jeux de combat.
 
-![Mortal Kombat](/img/ressources/jeditrack-borne_arcade/Mortal_Kombat__Untitled.png)
+![Mortal Kombat](/img/ressources/jeditrack/borne-arcade/Mortal_Kombat__Untitled.png)
 
 ### Tekken
 
@@ -92,7 +92,7 @@ Connu pour sa violence graphique et ses "fatalités", Mortal Kombat a fait ses d
 
 Cette série de jeux de combat, qui a débuté en 1994, est célèbre pour son gameplay complexe et ses graphismes impressionnants. Elle est toujours populaire aujourd'hui, avec de nombreuses suites et spin-offs.
 
-![Tekken](/img/ressources/jeditrack-borne_arcade/Tekken__Untitled.png)
+![Tekken](/img/ressources/jeditrack/borne-arcade/Tekken__Untitled.png)
 
 ### Dance Dance Revolution
 
@@ -102,7 +102,7 @@ Cette série de jeux de combat, qui a débuté en 1994, est célèbre pour son g
 
 Ce jeu de musique et de danse est devenu un incontournable des salles d'arcade depuis sa sortie en 1998. Il a popularisé le genre des jeux de rythme et a inspiré de nombreux autres jeux similaires.
 
-![Dance Dance Revolution](/img/ressources/jeditrack-borne_arcade/Dance_Dance_Revoluti__Untitled.png)
+![Dance Dance Revolution](/img/ressources/jeditrack/borne-arcade/Dance_Dance_Revoluti__Untitled.png)
 
 ---
 

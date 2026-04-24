@@ -36,7 +36,7 @@ sidebar_position: 7
 
 </div>
 
-<img src="/img/ressources/mimesis-play-7/icone.png" alt="Steam Your Body" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/icone.png" alt="Steam Your Body" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -120,7 +120,7 @@ Au sein de cette activité, les élèves vont découvrir un genre théâtral qui
 - [https://www.youtube.com/watch?v=XEsfpRrfXf4](https://www.youtube.com/watch?v=XEsfpRrfXf4)
 - [https://www.youtube.com/watch?v=7wBF4t6rly4](https://www.youtube.com/watch?v=7wBF4t6rly4)
 
-<img src="/img/ressources/mimesis-play-7/fichemime.png" alt="Fiche mime et symétrie" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/fichemime.png" alt="Fiche mime et symétrie" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Silence, ça tourne !** : Filmer les élèves pour qu'ils puissent s'observer. Montrer que la symétrie est présente dans la mise en scène, l'art, la nature : [https://www.youtube.com/watch?v=c9UQmAo_TM4](https://www.youtube.com/watch?v=c9UQmAo_TM4)
 
@@ -172,7 +172,7 @@ Précédemment les élèves ont pu découvrir le mime. L'objectif de cette activ
 
 **Tangram : bizarre ton animal !** Par groupe de 2 élèves, leur demander de s'exercer au tangram en réalisant des animaux à partir des modèles fournis. Le premier élève réalise la figure et le suivant la reproduit par effet de symétrie. Modèles proposés : chien, papillon, girafe, lapin, chat, cygne, oiseau, poisson, dauphin, cheval, héron, vautour.
 
-<img src="/img/ressources/mimesis-play-7/exempletamgram.png" alt="Exemple de tangram" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/exempletamgram.png" alt="Exemple de tangram" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Les figures géométriques, c'est du solide !** Explorer davantage la notion de géométrie en passant par l'observation et la manipulation des solides et volumes grâce à des cartes, de la pâte à modeler et des cure-dents.
 
@@ -185,9 +185,9 @@ Précédemment les élèves ont pu découvrir le mime. L'objectif de cette activ
 | Un triangle équilatéral | Une pyramide à base triangulaire |
 | Un cercle | Un cylindre |
 
-<img src="/img/ressources/mimesis-play-7/exemplepateamodeler.png" alt="Exemple de figures en pâte à modeler" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/exemplepateamodeler.png" alt="Exemple de figures en pâte à modeler" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-7/exemplefigureenvolume.png" alt="Exemple de figure en volume" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/exemplefigureenvolume.png" alt="Exemple de figure en volume" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
 **Le corps dans tous ses états : danse et géométrie** : Découvrir le groupe de danse Géométrie Variable dont le chorégraphe Sadeck Waff compose des danses géométriques :
 
@@ -259,7 +259,7 @@ Réinvestir toutes les connaissances acquises lors des précédentes activités 
 Feuilles de formes géométriques à reproduire, chiffres mathématiques, cartes de points (+1 point, +2 points, -1 point).
 :::
 
-<img src="/img/ressources/mimesis-play-7/exemplepoints.png" alt="Exemple de grille de points" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-7/exemplepoints.png" alt="Exemple de grille de points" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

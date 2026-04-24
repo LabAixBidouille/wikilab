@@ -9,9 +9,9 @@ sidebar_position: 8
 
 ## Phase d'idéation
 
-![Idéation - croquis 1](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__Untitled_(5).png)
+![Idéation - croquis 1](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Untitled_(5).png)
 
-![Idéation - croquis 2](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__Untitled_(6).png)
+![Idéation - croquis 2](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Untitled_(6).png)
 
 ## Phase de prototypage
 
@@ -61,19 +61,19 @@ Ce prototype a été testé lors d'un tournoi de retro gaming, ce qui nous a per
 - Confiance dans les choix de composants électroniques
 - Retour d'expérience utilisateur pour optimiser l'ergonomie
 
-![Prototype - vue 1](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image.png)
+![Prototype - vue 1](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image.png)
 
-![Prototype - vue 2](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_1.png)
+![Prototype - vue 2](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_1.png)
 
-![Prototype - vue 3](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_2.png)
+![Prototype - vue 3](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_2.png)
 
 ## Modélisation finale
 
-![Modélisation 3D](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__025b50c0-d444-497d-8f14-dd7d3e1d3894.png)
+![Modélisation 3D](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__025b50c0-d444-497d-8f14-dd7d3e1d3894.png)
 
-![Modélisation - vue détaillée](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_3.png)
+![Modélisation - vue détaillée](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_3.png)
 
-![Modélisation - vue alternative](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_(2).png)
+![Modélisation - vue alternative](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_(2).png)
 
 ## Assemblage et finition
 
@@ -130,19 +130,19 @@ Le résultat final nous a pleinement satisfaits : notre borne avait désormais l
 
 Pour compléter l'ensemble, nous avons installé le T-molding sur tous les bords exposés, ce qui donne une finition parfaite et protège les arêtes de la borne.
 
-![Assemblage - étape 1](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_4.png)
+![Assemblage - étape 1](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_4.png)
 
-![Assemblage - étape 2](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_5.png)
+![Assemblage - étape 2](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_5.png)
 
-![Assemblage - étape 3](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_6.png)
+![Assemblage - étape 3](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_6.png)
 
-![Assemblage - étape 4](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_7.png)
+![Assemblage - étape 4](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_7.png)
 
-![Assemblage - étape 5](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_8.png)
+![Assemblage - étape 5](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_8.png)
 
-![Assemblage - étape 6](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_9.png)
+![Assemblage - étape 6](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_9.png)
 
-![Borne terminée](/img/ressources/jeditrack-borne_arcade/Version_réalisée_p__image_10.png)
+![Borne terminée](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_10.png)
 
 ---
 

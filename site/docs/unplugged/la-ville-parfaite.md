@@ -41,7 +41,7 @@ sidebar_position: 16
 
 </div>
 
-<img src="/img/ressources/unplugged-la_ville_parfaite/icone.png" alt="La ville parfaite" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/la-ville-parfaite/icone.png" alt="La ville parfaite" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 

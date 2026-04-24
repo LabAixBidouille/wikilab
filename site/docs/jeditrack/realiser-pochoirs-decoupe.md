@@ -74,7 +74,7 @@ La découpe vinyle permet de combler ce manque en dotant les animateurs d'un **o
 | **Cricut Maker 3** | 449€ | 4 kg | 29,2 cm | 2,4 mm | 300+ matériaux, gravure/embossage | Prix élevé, consommables propriétaires | Projets complexes, tissu, cuir |
 | **Cameo 4 Plus** | 549€ | 5 kg | 37 cm | 3 mm | Grand format, découpe 3m | Encombrante, prix élevé | Production série, grands projets |
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/0c0740a0-74af-41c6-af0b-badff6f052b7.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/0c0740a0-74af-41c6-af0b-badff6f052b7.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 ### Tableau récapitulatif logiciels
 | **Machine** | **Logiciel** | **Prix** | **Facilité** | **Fonctionnalités** | **Formats compatibles** |
@@ -154,23 +154,23 @@ N'oubliez pas de vérifier du côté de vos équipements locaux traditionnels. D
 
 ### Exemples de réalisations lors de Jedi Track sur une Cameo 4 Plus
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/passage_piton.png" alt="Pochoir - Passage piéton sans bateau" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/passage_piton.png" alt="Pochoir - Passage piéton sans bateau" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Pochoir - Passage piéton sans bateau
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/hommequitombe.png" alt="Pochoir - Attention, chaussée abîmée" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/hommequitombe.png" alt="Pochoir - Attention, chaussée abîmée" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Pochoir - Attention, chaussée abîmée
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/Buisson_vgtationtroppresente.png" alt="Pochoir - Attention, végétation abondante" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/Buisson_vgtationtroppresente.png" alt="Pochoir - Attention, végétation abondante" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Pochoir - Attention, végétation abondante
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/ManqueRampe.png" alt="Pochoir - Attention, manque rampe" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/ManqueRampe.png" alt="Pochoir - Attention, manque rampe" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Pochoir - Attention, manque rampe
 
-<img src="/img/ressources/jeditrack-realiser_pochoirs_decoupe/ea3d720c-de7c-450e-9f48-f42bdce0992d.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/ea3d720c-de7c-450e-9f48-f42bdce0992d.png" alt="Journée Découverte et Expérimentation SteamCity" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 ### Checklist pour les animateurs
 

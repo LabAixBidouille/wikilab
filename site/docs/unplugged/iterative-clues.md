@@ -42,7 +42,7 @@ sidebar_position: 14
 
 </div>
 
-<img src="/img/ressources/unplugged-iterative_clues/icone.png" alt="Iterative clues" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/iterative-clues/icone.png" alt="Iterative clues" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -81,8 +81,8 @@ Comme son nom l'indique, avec Iterative clues, soyez le premier à trouvez le co
 Mélangez le paquet de cartes concepts et placez-le au centre des joueurs. Disposez les points au centre des joueurs. L'arbitre est responsable des cartes concepts et des points.
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-iterative_clues/Printables.png" alt="Cartes concepts imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged-iterative_clues/Printables%20(2).png" alt="Points et pièces imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/iterative-clues/Printables.png" alt="Cartes concepts imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/iterative-clues/Printables%20(2).png" alt="Points et pièces imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---

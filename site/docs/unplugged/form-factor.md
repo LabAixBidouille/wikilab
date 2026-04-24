@@ -41,7 +41,7 @@ sidebar_position: 11
 
 </div>
 
-<img src="/img/ressources/unplugged-form_factor/icone.png" alt="Form factor" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/form-factor/icone.png" alt="Form factor" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -51,7 +51,7 @@ sidebar_position: 11
 
 Form Factor est un jeu de modélisation de formes complexes avec des formes de base qui met l'accent sur la communication et la coopération avec les équipes. Le but est d'essayer de remplir au mieux une forme complexe sans dépasser les jantes avec les formes simples dont nous disposons. Un vote collectif à la fin décide des gagnants.
 
-<img src="/img/ressources/unplugged-form_factor/exemple.png" alt="Exemple d'activité Form factor" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/form-factor/exemple.png" alt="Exemple d'activité Form factor" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

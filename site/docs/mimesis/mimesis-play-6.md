@@ -35,7 +35,7 @@ sidebar_position: 6
 
 </div>
 
-<img src="/img/ressources/mimesis-play-6/icone.png" alt="Catastrophe & Compagnie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-6/icone.png" alt="Catastrophe & Compagnie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -200,7 +200,7 @@ Les groupes devront créer un scénario pour expliquer la catastrophe et présen
 - **L'Ingénieure** (optionnel) : elle conçoit la solution au problème et aide le technicien à la construire. *Exemple* : j'ai imaginé une ville sur l'eau qui ne risque pas d'être submergée par la montée des océans.
 - **Le Politicien** (optionnel) : il a le pouvoir et l'argent pour faire changer les choses. *Exemple* : nous avons décidé d'arrêter d'envoyer la plus grande partie de notre production alimentaire à l'étranger pour aider à nourrir la population de notre pays, etc.
 
-<img src="/img/ressources/mimesis-play-6/exemplecartesroles.png" alt="Exemple de cartes de rôle" style={{maxWidth: '500px', marginTop: '0.5rem', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-6/exemplecartesroles.png" alt="Exemple de cartes de rôle" style={{maxWidth: '500px', marginTop: '0.5rem', marginBottom: '0.5rem'}} />
 
 ### Directives pour les scripts
 
@@ -351,9 +351,9 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
-    <img src="/img/ressources/mimesis-play-6/%28Fran%C3%A7ais%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
-    <img src="/img/ressources/mimesis-play-6/%28Fran%C3%A7ais%29%20%282%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
-    <img src="/img/ressources/mimesis-play-6/11.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
+    <img src="/img/ressources/mimesis/mimesis-play-6/%28Fran%C3%A7ais%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
+    <img src="/img/ressources/mimesis/mimesis-play-6/%28Fran%C3%A7ais%29%20%282%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
+    <img src="/img/ressources/mimesis/mimesis-play-6/11.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
   </div>
   <figcaption style={{textAlign: 'center', fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Extraits du livret d'information sur les catastrophes naturelles</figcaption>
 </figure>

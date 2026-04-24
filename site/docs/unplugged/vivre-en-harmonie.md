@@ -42,7 +42,7 @@ sidebar_position: 24
 
 </div>
 
-<img src="/img/ressources/unplugged-vivre_en_harmonie/icone.png" alt="Vivre en harmonie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/vivre-en-harmonie/icone.png" alt="Vivre en harmonie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -100,8 +100,8 @@ Les groupes se réuniront afin de former leur carte finale de l'Union Européenn
 Lancez une discussion sur ce qui unit les nations européennes.
 
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplefichepays.png" alt="Exemple de fiche pays vierge" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
-  <img src="/img/ressources/unplugged-vivre_en_harmonie/exemplepays.png" alt="Exemple de fiche pays complétée" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged/vivre-en-harmonie/exemplefichepays.png" alt="Exemple de fiche pays vierge" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
+  <img src="/img/ressources/unplugged/vivre-en-harmonie/exemplepays.png" alt="Exemple de fiche pays complétée" style={{maxWidth: '45%', minWidth: '250px', height: 'auto'}} />
 </div>
 
 ---

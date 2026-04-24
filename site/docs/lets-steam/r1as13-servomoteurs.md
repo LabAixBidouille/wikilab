@@ -37,7 +37,7 @@ sidebar_position: 13
 
 </div>
 
-<img src="/img/ressources/servomoteur/icone.png" alt="Servomoteurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as13-servomoteurs/icone.png" alt="Servomoteurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -65,7 +65,7 @@ Les servomoteurs sont commandés par l'intermédiaire d'un **câble électrique 
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/servomoteur/servo%20(1).png" alt="Schéma de câblage du servomoteur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as13-servomoteurs/servo%20(1).png" alt="Schéma de câblage du servomoteur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Connecter le servomoteur à la carte
 
@@ -85,7 +85,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 **Ressource :** [makecode.lets-steam.eu](https://makecode.lets-steam.eu)
 
-![MakeCode Editor servomoteur](/img/ressources/servomoteur/MakeCode%20Editor.png)
+![MakeCode Editor servomoteur](/img/ressources/lets-steam/r1as13-servomoteurs/MakeCode%20Editor.png)
 
 ### 4. Programmer la carte
 
@@ -96,8 +96,8 @@ Avant d'essayer ce programme sur la carte, vous pouvez l'essayer directement dan
 Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre servomoteur commencera à bouger !
 
 <div style={{display: 'flex', gap: '1rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
-<img src="/img/ressources/servomoteur/servos.png" alt="Servomoteur" style={{width: '50%', objectFit: 'contain'}} />
-<img src="/img/ressources/servomoteur/servos2.png" alt="Détails servomoteur" style={{width: '50%', objectFit: 'contain'}} />
+<img src="/img/ressources/lets-steam/r1as13-servomoteurs/servos.png" alt="Servomoteur" style={{width: '50%', objectFit: 'contain'}} />
+<img src="/img/ressources/lets-steam/r1as13-servomoteurs/servos2.png" alt="Détails servomoteur" style={{width: '50%', objectFit: 'contain'}} />
 </div>
 
 ### 5. Exécuter, modifier, jouer

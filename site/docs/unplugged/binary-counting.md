@@ -43,7 +43,7 @@ sidebar_position: 2
 
 </div>
 
-<img src="/img/ressources/unplugged-binary_counting/icone.png" alt="Comptage binaire" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/binary-counting/icone.png" alt="Comptage binaire" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -137,7 +137,7 @@ Tous les enfants reçoivent des petites cartes binaires et doivent prendre un cr
 
 Dans ces feuilles de travail, ils doivent changer les nombres de binaire en décimal et vice-versa. Ils peuvent également essayer d'écrire des mots ou des noms en binaire, ou de traduire le code binaire en mots. Ils peuvent utiliser les petites cartes binaires pour les placer sur les feuilles de travail, ce qui les aidera à résoudre les exercices. Ils auront également un tableau avec l'alphabet lié aux nombres pour pouvoir convertir les mots également. Lorsqu'un enfant a terminé le premier exercice, l'enseignant vérifie la feuille de travail et en donne une autre. La première feuille de travail est facile, mais elle devient progressivement plus difficile.
 
-<img src="/img/ressources/unplugged-binary_counting/exemplefichecomptage.png" alt="Exemple de fiche de comptage binaire" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/binary-counting/exemplefichecomptage.png" alt="Exemple de fiche de comptage binaire" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

@@ -36,7 +36,7 @@ sidebar_position: 15
 
 </div>
 
-<img src="/img/ressources/collectedonnees/icone.svg" alt="Collecte de données" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as15-collecte-donnees/icone.svg" alt="Collecte de données" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -77,7 +77,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 **Ressource :** [makecode.lets-steam.eu](https://makecode.lets-steam.eu)
 
-![MakeCode Editor](/img/ressources/collectedonnees/MakeCode%20Editor.png)
+![MakeCode Editor](/img/ressources/lets-steam/r1as15-collecte-donnees/MakeCode%20Editor.png)
 
 ### 3. Installer l'extension
 
@@ -95,9 +95,9 @@ Cliquez sur le bouton noir **AVANCÉ** en bas de la colonne des groupes de blocs
 Dans la liste des extensions disponibles, trouvez l'extension **Datalogger** qui sera utilisée pour cette activité. Si elle n'est pas directement visible, utilisez l'outil de recherche. Cliquez sur l'extension souhaitée — un nouveau groupe de blocs apparaîtra sur l'écran principal.
 
 <div style={{display: 'flex', gap: '0.5rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
-<img src="/img/ressources/collectedonnees/collecter%20des%20donn%C3%A9es%20extensions.png" alt="Extension collecte de données" style={{width: '33%', objectFit: 'contain'}} />
-<img src="/img/ressources/collectedonnees/extensions%20menu.png" alt="Menu extensions" style={{width: '33%', objectFit: 'contain'}} />
-<img src="/img/ressources/collectedonnees/lets%20steamdatalogger.png.png" alt="Datalogger" style={{width: '33%', objectFit: 'contain'}} />
+<img src="/img/ressources/lets-steam/r1as15-collecte-donnees/collecter%20des%20donn%C3%A9es%20extensions.png" alt="Extension collecte de données" style={{width: '33%', objectFit: 'contain'}} />
+<img src="/img/ressources/lets-steam/r1as15-collecte-donnees/extensions%20menu.png" alt="Menu extensions" style={{width: '33%', objectFit: 'contain'}} />
+<img src="/img/ressources/lets-steam/r1as15-collecte-donnees/lets%20steamdatalogger.png.png" alt="Datalogger" style={{width: '33%', objectFit: 'contain'}} />
 </div>
 
 ### 5. Programmer la carte
@@ -183,7 +183,7 @@ forever(function () {
 </div>
 <div style={{flex: '1', minWidth: '200px'}}>
 
-![Capture d'écran MakeCode](/img/ressources/collectedonnees/lets-steam-screenshot.png)
+![Capture d'écran MakeCode](/img/ressources/lets-steam/r1as15-collecte-donnees/lets-steam-screenshot.png)
 
 </div>
 </div>

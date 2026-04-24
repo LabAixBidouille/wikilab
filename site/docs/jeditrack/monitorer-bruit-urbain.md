@@ -108,7 +108,7 @@ Pour réaliser ce programme i.e. utiliser une carte programmable pour relever le
 - Un bloc "**Log data**" qui permet d'enregistrer les données dans un fichier. Ce bloc n'est accessible que par l'installation d'une extension. Les **extensions** dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans MakeCode. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des **extensions** pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteur et de robotique et bien plus encore. Dans les colonnes d'affichage des blocs, cliquez sur le bouton **EXTENSIONS**. Dans la liste des extensions disponibles, recherchez **l'extension Datalogger** qui sera utilisée pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
 - Nous utiliserons également des blocs simples tels que **pause** et **effacer l'écran** pour s'assurer du déroulé logique du programme.
 
-<img src="/img/ressources/jeditrack-monitorer_bruit_urbain/Journe_Dcouverte_et_Exprimentation_SteamCity.png" alt="Journée Découverte et Expérimentation SteamCity - Vue des blocs disponibles" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/monitorer-bruit-urbain/Journe_Dcouverte_et_Exprimentation_SteamCity.png" alt="Journée Découverte et Expérimentation SteamCity - Vue des blocs disponibles" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Une fois ces blocs identifiés, vous pouvez commencer à organiser vos blocs pour permettre à la carte de collecter le niveau sonore. Testez des configurations selon ce qui vous semble logique et **utilisez le simulateur pour vérifier que votre code fait ce que vous attendez de lui**.
 
@@ -118,7 +118,7 @@ Voici ce que doit dire notre code : quand j'allume ma carte, une croix m'indique
 
 ***Solution à base de blocs***
 
-<img src="/img/ressources/jeditrack-monitorer_bruit_urbain/image.png" alt="Solution en blocs pour le programme de mesure sonore" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/monitorer-bruit-urbain/image.png" alt="Solution en blocs pour le programme de mesure sonore" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ***Javascript***
 
@@ -138,7 +138,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 Vous pouvez directement coller ce code dans l'espace dédié :
 
-<img src="/img/ressources/jeditrack-monitorer_bruit_urbain/image_1.png" alt="Espace de saisie du code Javascript dans MakeCode" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/monitorer-bruit-urbain/image_1.png" alt="Espace de saisie du code Javascript dans MakeCode" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 #### Étape 2 : Télécharger le code sur la carte
 

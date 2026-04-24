@@ -145,7 +145,7 @@ Les Skill Trees peuvent servir d'outil de dialogue et de planification personnal
 
 ---
 
-<img src="/img/ressources/jeditrack-skill_trees/SkillTreeJediTrack.png" alt="Exemple de Skill Tree utilisé pendant Jedi Track" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
+<img src="/img/ressources/jeditrack/skill-trees/SkillTreeJediTrack.png" alt="Exemple de Skill Tree utilisé pendant Jedi Track" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
 Exemple de Skill Tree utilisé pendant Jedi Track
 
@@ -160,9 +160,9 @@ Exemple de Skill Tree utilisé pendant Jedi Track
 - **Étape 7 - Présentation finale et évaluation globale :** En fin de projet, chaque participant compare son arbre initial avec l'arbre final, mesurant concrètement le chemin parcouru. Cette présentation valorise les apprentissages et constitue un outil de communication efficace pour démontrer l'impact de votre action. Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et d'autres participants.
 
 <div style={{display: 'flex', gap: '0.5rem', alignItems: 'flex-start', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/jeditrack-skill_trees/image.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
-  <img src="/img/ressources/jeditrack-skill_trees/image_1.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
-  <img src="/img/ressources/jeditrack-skill_trees/image_2.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/image.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/image_1.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/image_2.png" alt="Exemple de Skill Tree" style={{maxWidth: '32%', height: 'auto'}} />
 </div>
 
 ### Checklist pour les animateurs
