@@ -10,7 +10,7 @@
 - **Données projets** : `site/src/data/projects.ts`
 - **Pages** : `site/src/pages/` (catalogue.tsx, index.tsx, projets/, machines/, about.tsx)
 - **Docs (fiches)** : `site/docs/` (lets-steam/, mimesis/, unplugged/, jeditrack/, robots-meet-arts/, steamcity/)
-- **Images** : `site/static/img/ressources/<projet-slug>/`
+- **Images** : `site/static/img/ressources/<projet>/<fiche-id>/` — un sous-dossier par fiche, avec `icone.png`/`icone.svg` + photos additionnelles. Les dossiers sont créés pour les 184 fiches (`.gitkeep` pour celles en attente d'images).
 - **PDFs** : `site/static/pdf/<projet>/`
 - **Sources markdown brutes** : `markdown/` (fichiers originaux avant conversion)
 
@@ -81,8 +81,16 @@
 - Convertir tous les blockquotes `> **Notes pour l'enseignant·e**` en callouts info
 
 ### Catalogue (`resources.ts`)
-- Chaque fiche = une entrée avec id, title, slug, project, summary, disciplines, tools, software, ageMin, ageMax, durationMinutes, difficulty, formats, keywords, pdf?, thumbnail?
+- Chaque fiche = une entrée avec id, title, slug, project, summary, disciplines, tools, software, ageMin, ageMax, durationMinutes, difficulty, formats, categories, keywords, pdf?, thumbnail?
+- `categories` : 11 approches pédagogiques (`programmation`, `exploration-scientifique`, `robotique-ludique`, `animation-jeunesse`, `citoyennete-territoire`, `ia-esprit-critique`, `sequences-debranchees`, `theatre-sciences`, `arts-creativite`, `environnement-nature`, `makers-fabrication`). Multi-catégories autorisées.
+- `thumbnail` optionnel : pointe vers `/img/ressources/<projet>/<fiche-id>/icone.png` (ou `.svg`)
 - maxDuration filtre par défaut = 240 min (attention aux fiches longues, utiliser 240 max)
+
+### Suivi photos
+- Page interactive : `/photos-suivi` (cases à cocher avec persistance localStorage)
+- Convention : un sous-dossier par fiche sous `site/static/img/ressources/<projet>/<fiche-id>/`
+- Le dossier de chaque fiche doit contenir `icone.png`/`icone.svg` + photos additionnelles
+- Exception : `projets-du-lab/` racine contient le dump d'images historique (référencé dans les MD), plus les sous-dossiers `lab-<id>/` pour les icônes
 
 ### Sous-pages (ex: borne-arcade, programmation)
 - Dossier dans `docs/PROJET/SOUSPROJET/`

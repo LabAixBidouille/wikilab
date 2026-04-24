@@ -3061,6 +3061,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'experimentation'],
     categories: ['programmation', 'exploration-scientifique'],
     keywords: ['STeaMi', 'STM32', 'MicroPython', 'MakeCode', 'IoT', 'capteurs', 'BLE'],
+    thumbnail: '/img/ressources/inovmicro-exao/decouverte-steami/icone.png',
   },
   {
     id: 'programmation-city-detective-challenge',
