@@ -352,18 +352,23 @@ export default function Catalogue(): React.ReactElement {
                 }
               />
 
-              <FilterGroup
-                legend="Matériel"
-                labels={toolLabels}
-                order={REAL_TOOLS}
-                selected={filters.tools}
-                onToggle={(v) =>
-                  setFilters({...filters, tools: toggle(filters.tools, v)})
-                }
-              />
-
               <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
-                <legend><strong>Autre</strong></legend>
+                <legend><strong>Matériel</strong></legend>
+                {REAL_TOOLS.map((key) => (
+                  <label key={key} style={{display: 'block'}}>
+                    <input
+                      type="checkbox"
+                      checked={filters.tools.has(key)}
+                      onChange={() =>
+                        setFilters({
+                          ...filters,
+                          tools: toggle(filters.tools, key),
+                        })
+                      }
+                    />{' '}
+                    {toolLabels[key]}
+                  </label>
+                ))}
                 <label style={{display: 'block'}}>
                   <input
                     type="checkbox"
@@ -372,7 +377,7 @@ export default function Catalogue(): React.ReactElement {
                       setFilters({...filters, autreOnly: !filters.autreOnly})
                     }
                   />{' '}
-                  Sans matériel (débranchée / démarche scientifique)
+                  Autre
                 </label>
               </fieldset>
 
