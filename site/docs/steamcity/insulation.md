@@ -257,7 +257,7 @@ Les élèves travailleront en petits groupes pour définir les modalités pratiq
 - **Journal de bord** : Tenir un journal détaillé consignant tout événement inhabituel ou toute anomalie susceptible d'influencer les résultats.
 
 :::info[Conseil]
-Pour vous aider à programmer le capteur approprié, reportez-vous à la Fiche pratique 1 - Collecter des données avec le capteur de température.
+Pour vous aider à programmer le capteur approprié, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-insulation) (section « Collecter des données avec le capteur de température »).
 :::
 
 Le rôle de l'enseignant est d'accompagner les élèves dans ce processus, en les encourageant à réfléchir de manière critique aux sources potentielles d'erreur et aux moyens d'améliorer la fiabilité des mesures. Il guide également les échanges sur l'importance d'une méthodologie rigoureuse dans les démarches scientifiques.
@@ -592,7 +592,7 @@ Cette enquête leur permettra de mettre à l'épreuve leurs hypothèses de mani�
 **Configuration préalable à l'enquête :** Avant de commencer, il est essentiel que les élèves soient formés à l'utilisation sécurisée et précise des outils thermiques. Une activité d'étalonnage peut être proposée : les élèves comparent, par exemple, la température d'un mur exposé au soleil à celle d'un mur à l'ombre, afin de vérifier la fiabilité des mesures et de se familiariser avec les variations de température en fonction de l'environnement.
 
 :::info[Conseil]
-Pour vous aider à utiliser le capteur approprié, reportez-vous à la section Fiche pratique 2 - Utilisation de caméras thermiques pour l'analyse de l'isolation.
+Pour vous aider à utiliser le capteur approprié, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-insulation) (section « Utilisation de caméras thermiques pour l'analyse de l'isolation »).
 :::
 
 #### Étapes à suivre pour mener l'enquête
@@ -832,12 +832,6 @@ Les élèves peuvent mobiliser leurs découvertes pour développer des projets �
 - Présenter leurs conclusions à des acteurs locaux (collectivités, associations, institutions) afin de plaider en faveur de politiques de construction plus durables.
 
 Cette phase finale conclut l'enquête par un appel à l'action, en donnant aux élèves l'occasion de mettre leurs connaissances scientifiques au service de leur communauté et de contribuer, à leur échelle, aux efforts collectifs pour un avenir plus durable.
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Insulation](/ressources/steamcity/programmation/programmation-insulation).
 
 ---
 

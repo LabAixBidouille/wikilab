@@ -99,9 +99,11 @@ Les élèves devront acquérir des compétences de base en résolution de probl�
 
 ## Étape 1 : découvrir l'apprentissage humain grâce à un jeu débranché
 
-- **Contexte et description du problème à résoudre à cette étape** : Dans cette première étape, les élèves participeront à un jeu formel conçu pour les aider à comprendre le concept d'apprentissage par essais et erreurs sans connaissance préalable de l'objectif. Le jeu utilise une grille 6x6 dans laquelle les élèves doivent déplacer un point de repère dans l'une des quatre directions. Chaque mouvement entraînera une rétroaction (gagner, perdre ou continuer). Ce processus aide les élèves à comprendre la dynamique de l'apprentissage lorsque l'objectif n'est pas explicitement connu.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Dans cette première étape, les élèves participeront à un jeu formel conçu pour les aider à comprendre le concept d'apprentissage par essais et erreurs sans connaissance préalable de l'objectif. Le jeu utilise une grille 6x6 dans laquelle les élèves doivent déplacer un point de repère dans l'une des quatre directions. Chaque mouvement entraînera une rétroaction (gagner, perdre ou continuer). Ce processus aide les élèves à comprendre la dynamique de l'apprentissage lorsque l'objectif n'est pas explicitement connu.
+
+### Objectifs d'apprentissage
 
 - **Compétences de base** : Comprendre l'apprentissage par essais et erreurs, développer des compétences en résolution de problèmes et améliorer l'adaptabilité pour atteindre un objectif caché.
 - **Compétences auxiliaires** : Développer la conscience spatiale, l'apprentissage collaboratif par le biais de discussions de groupe et l'optimisation de stratégie de base pour trouver le chemin le plus court.
@@ -175,9 +177,11 @@ Pour conclure cette étape, les élèves participeront à une discussion centré
 
 ## Étape 2 : découvrez comment les machines apprennent
 
-- **Contexte et description du problème à résoudre dans cette étape** : Dans cette deuxième étape, les élèves exploreront comment une machine apprend à l'aide d'un outil en ligne. L'objectif est d'établir un parallèle entre leur propre expérience d'apprentissage par essais et erreurs et la façon dont un système d'intelligence artificielle aborde le même problème, en soulignant les similitudes et les différences. L'objectif est que les élèves comprennent comment l'IA utilise une approche systématique de l'apprentissage, en s'appuyant uniquement sur des commentaires sans aucune connaissance ou intuition préexistante, tout comme leur expérience initiale. En comparant l'apprentissage humain et l'apprentissage automatique, les élèves observeront également comment le processus itératif diffère entre les êtres vivants et les modèles informatiques, en se concentrant sur l'efficacité et les défis de chaque approche.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Dans cette deuxième étape, les élèves exploreront comment une machine apprend à l'aide d'un outil en ligne. L'objectif est d'établir un parallèle entre leur propre expérience d'apprentissage par essais et erreurs et la façon dont un système d'intelligence artificielle aborde le même problème, en soulignant les similitudes et les différences. L'objectif est que les élèves comprennent comment l'IA utilise une approche systématique de l'apprentissage, en s'appuyant uniquement sur des commentaires sans aucune connaissance ou intuition préexistante, tout comme leur expérience initiale. En comparant l'apprentissage humain et l'apprentissage automatique, les élèves observeront également comment le processus itératif diffère entre les êtres vivants et les modèles informatiques, en se concentrant sur l'efficacité et les défis de chaque approche.
+
+### Objectifs d'apprentissage
 
 - **Compétences de base** : Comprendre les bases de l'apprentissage automatique et de l'apprentissage par renforcement, observer comment les machines apprennent de l'expérience et comprendre comment le feedback affecte l'apprentissage dans les systèmes d'IA. Les étudiants découvriront également les différents éléments de renforcement (à la fois positifs et négatifs) et comment ceux-ci contribuent à la construction d'un modèle d'apprentissage pour la machine.
 - **Compétences auxiliaires** : Apprendre à observer et à comparer de manière critique l'apprentissage humain et l'apprentissage automatique, comprendre comment le renforcement positif et négatif affecte l'apprentissage, commencer à voir comment les modèles d'IA sont construits de manière itérative et apprécier la puissance de l'apprentissage informatique dans le traitement rapide de grandes quantités de données pour affiner les résultats d'apprentissage.
@@ -252,9 +256,11 @@ Pour conclure cette étape, les étudiants seront invités à discuter des quest
 
 ## Étape 3 : adaptabilité des humains par rapport aux machines
 
-- **Contexte et description du problème à résoudre dans cette étape** : Dans cette dernière étape, les élèves exploreront l'adaptabilité des humains et des machines dans un environnement en évolution. Le défi est de comprendre comment les humains peuvent tirer parti de leur intuition, de leurs expériences antérieures et de leurs stratégies d'adaptation face à des changements inattendus, par rapport à une IA qui doit reconstruire son modèle à partir de zéro. Cette comparaison vise à mettre en évidence les forces et les faiblesses des deux types d'apprentissage.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Dans cette dernière étape, les élèves exploreront l'adaptabilité des humains et des machines dans un environnement en évolution. Le défi est de comprendre comment les humains peuvent tirer parti de leur intuition, de leurs expériences antérieures et de leurs stratégies d'adaptation face à des changements inattendus, par rapport à une IA qui doit reconstruire son modèle à partir de zéro. Cette comparaison vise à mettre en évidence les forces et les faiblesses des deux types d'apprentissage.
+
+### Objectifs d'apprentissage
 
 - **Compétences de base** : comprendre le concept d'adaptabilité dans l'apprentissage, comparer la flexibilité humaine avec les capacités d'apprentissage automatique et explorer comment les deux réagissent aux changements de leur environnement.
 - **Compétences auxiliaires** : Développer la pensée critique en analysant les différences dans les stratégies d'apprentissage, améliorer les capacités de résolution de problèmes en naviguant dans un environnement modifié et s'engager dans un apprentissage collaboratif par le biais d'activités de groupe.
@@ -301,6 +307,8 @@ Cette phase d'investigation aidera les étudiants à développer une compréhens
 - **Réflexion en classe** : Enfin, donnez aux élèves l'occasion de réfléchir à leur propre expérience d'adaptation aux changements de la carte et de la comparer à la façon dont la machine s'est adaptée. Qu'ont-ils ressenti en devant trouver une nouvelle solution dans un environnement où les règles avaient changé ? Qu'ont-ils appris sur les différences entre les capacités de résolution de problèmes des humains et des machines ? Cette réflexion permet de consolider les objectifs d'apprentissage en matière d'adaptabilité, de pensée critique et de compréhension des mécanismes sous-jacents de l'apprentissage par renforcement chez les humains et les machines.
 
 ---
+
+## Pour aller plus loin
 
 ### Exploration de la problématique au travers d'autres initiatives
 

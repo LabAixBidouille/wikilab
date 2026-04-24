@@ -95,9 +95,13 @@ Matériel nécessaire :
 
 ## Phase 1 : inventaire énergétique de notre environnement
 
-**Contexte et description du problème à résoudre à cette étape** : Notre quotidien est imprégné d'usages énergétiques souvent invisibles tant ils nous semblent naturels. Cette première phase invite les élèves à poser un regard analytique sur leur environnement immédiat pour prendre conscience de l'omniprésence de l'énergie dans nos activités. En partant de l'observation concrète des espaces qu'ils fréquentent quotidiennement, les élèves développent leur capacité à identifier et questionner les usages énergétiques, première étape indispensable pour comprendre les enjeux de sobriété.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Identifier les usages énergétiques dans l'environnement quotidien. Reconstituer l'évolution historique des besoins et usages énergétiques. Développer un regard critique sur la "normalité" de nos consommations actuelles.
+Notre quotidien est imprégné d'usages énergétiques souvent invisibles tant ils nous semblent naturels. Cette première phase invite les élèves à poser un regard analytique sur leur environnement immédiat pour prendre conscience de l'omniprésence de l'énergie dans nos activités. En partant de l'observation concrète des espaces qu'ils fréquentent quotidiennement, les élèves développent leur capacité à identifier et questionner les usages énergétiques, première étape indispensable pour comprendre les enjeux de sobriété.
+
+### Objectifs d'apprentissage
+
+Identifier les usages énergétiques dans l'environnement quotidien. Reconstituer l'évolution historique des besoins et usages énergétiques. Développer un regard critique sur la "normalité" de nos consommations actuelles.
 
 ### Conceptualisation
 
@@ -135,7 +139,9 @@ Concepts clés :
 
 #### 1. Exploration de notre environnement énergétique
 
-**Objectif** : Développer un regard analytique sur les usages énergétiques de notre environnement quotidien.
+### Objectifs d'apprentissage
+
+Développer un regard analytique sur les usages énergétiques de notre environnement quotidien.
 
 Les élèves, organisés par groupes, explorent différents espaces de l'établissement (salle de classe, couloirs, cantine, cour, bureaux administratifs) avec pour mission d'identifier tous les usages de l'énergie qu'ils peuvent observer. Ils utilisent une grille d'observation simple :
 
@@ -157,7 +163,9 @@ Cette première exploration permet aux élèves de prendre conscience de la dens
 
 #### 2. Voyage dans le temps : retrouver les "ancêtres"
 
-**Objectif** : Comprendre l'évolution historique des moyens de satisfaire nos besoins fondamentaux.
+### Objectifs d'apprentissage
+
+Comprendre l'évolution historique des moyens de satisfaire nos besoins fondamentaux.
 
 Pour chaque usage énergétique identifié, les élèves cherchent collectivement comment le même besoin était satisfait avant l'avènement des technologies actuelles. Cette recherche peut s'appuyer sur leurs connaissances, des documents fournis par l'enseignant, ou de courtes recherches guidées. Exemples de correspondances historiques :
 
@@ -196,9 +204,13 @@ Pour approfondir la réflexion et développer une compréhension plus nuancée d
 
 ## Phase 2 : comparaison des consommations d'hier et d'aujourd'hui
 
-**Contexte et description du problème à résoudre à cette étape** : Après avoir identifié l'évolution qualitative de nos usages énergétiques, cette phase quantifie ces évolutions pour mesurer concrètement l'ampleur des transformations. En manipulant des données chiffrées sur les consommations énergétiques, les élèves développent leur compréhension des ordres de grandeur et prennent conscience de l'accélération récente de nos besoins énergétiques.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Quantifier l'évolution des consommations énergétiques. Comprendre les facteurs explicatifs de cette évolution. Développer sa capacité d'analyse critique des données énergétiques.
+Après avoir identifié l'évolution qualitative de nos usages énergétiques, cette phase quantifie ces évolutions pour mesurer concrètement l'ampleur des transformations. En manipulant des données chiffrées sur les consommations énergétiques, les élèves développent leur compréhension des ordres de grandeur et prennent conscience de l'accélération récente de nos besoins énergétiques.
+
+### Objectifs d'apprentissage
+
+Quantifier l'évolution des consommations énergétiques. Comprendre les facteurs explicatifs de cette évolution. Développer sa capacité d'analyse critique des données énergétiques.
 
 ### Conceptualisation
 
@@ -236,7 +248,9 @@ Concepts clés :
 
 #### 1. Analyse comparative des consommations
 
-**Objectif** : Mesurer concrètement l'évolution des consommations énergétiques pour des besoins identiques.
+### Objectifs d'apprentissage
+
+Mesurer concrètement l'évolution des consommations énergétiques pour des besoins identiques.
 
 Les élèves reçoivent un tableau comparatif des consommations énergétiques pour différents besoins, à différentes époques. Ils travaillent par binômes pour analyser ces données :
 
@@ -256,7 +270,9 @@ Les élèves calculent les facteurs d'évolution et identifient les tendances :
 
 #### 2. Débat : progrès ou surconsommation ?
 
-**Objectif** : Développer un regard critique sur l'évolution de nos consommations énergétiques.
+### Objectifs d'apprentissage
+
+Développer un regard critique sur l'évolution de nos consommations énergétiques.
 
 À partir des données analysées, l'enseignant organise un débat structuré autour de la question : "L'évolution de nos usages énergétiques représente-t-elle un progrès ou une dérive vers la surconsommation ?"
 
@@ -296,9 +312,13 @@ Pour approfondir la réflexion et développer une compréhension plus systémiqu
 
 ## Phase 3 : exploration des leviers de sobriété
 
-**Contexte et description du problème à résoudre à cette étape** : Fort de leur compréhension de l'évolution historique et quantitative de nos usages énergétiques, les élèves sont prêts à explorer concrètement les possibilités de sobriété. Cette phase se concentre sur des domaines représentatifs (transport, habitat, alimentation) qui représentent ensemble environ 60 à 70 % de la consommation énergétique finale des ménages européens selon les pays. L'objectif est de montrer que la sobriété ne signifie pas privation mais optimisation intelligente de nos usages.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Identifier les leviers de sobriété dans le transport et l'habitat. Distinguer les solutions techniques des changements comportementaux. Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
+Fort de leur compréhension de l'évolution historique et quantitative de nos usages énergétiques, les élèves sont prêts à explorer concrètement les possibilités de sobriété. Cette phase se concentre sur des domaines représentatifs (transport, habitat, alimentation) qui représentent ensemble environ 60 à 70 % de la consommation énergétique finale des ménages européens selon les pays. L'objectif est de montrer que la sobriété ne signifie pas privation mais optimisation intelligente de nos usages.
+
+### Objectifs d'apprentissage
+
+Identifier les leviers de sobriété dans le transport et l'habitat. Distinguer les solutions techniques des changements comportementaux. Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
 
 ### Conceptualisation
 
@@ -336,7 +356,9 @@ Concepts clés :
 
 #### 1. Atelier transport : repenser nos déplacements
 
-**Objectif** : Explorer les possibilités de réduction des consommations énergétiques liées aux déplacements.
+### Objectifs d'apprentissage
+
+Explorer les possibilités de réduction des consommations énergétiques liées aux déplacements.
 
 Les élèves analysent collectivement le "budget transport" d'une famille européenne type, puis explorent différents leviers de sobriété.
 
@@ -361,7 +383,9 @@ Les élèves réfléchissent en petits groupes sur la faisabilité de ces diffé
 
 #### 2. Atelier habitat : optimiser notre confort énergétique
 
-**Objectif** : Identifier les possibilités de réduction des consommations énergétiques domestiques tout en préservant le confort.
+### Objectifs d'apprentissage
+
+Identifier les possibilités de réduction des consommations énergétiques domestiques tout en préservant le confort.
 
 Les élèves explorent les leviers de sobriété dans l'habitat à travers l'exemple d'une maison individuelle de 100 m&#178; construite dans les années 1980.
 
@@ -396,7 +420,9 @@ Eau chaude (15% de la consommation) :
 
 #### 3. Atelier alimentation : repenser notre consommation alimentaire
 
-**Objectif** : Explorer les possibilités de réduction des consommations énergétiques liées à l'alimentation.
+### Objectifs d'apprentissage
+
+Explorer les possibilités de réduction des consommations énergétiques liées à l'alimentation.
 
 Les élèves pourraient analyser le "budget énergétique alimentaire" d'une famille type, avec :
 
@@ -441,9 +467,13 @@ Pour approfondir la réflexion et développer une compréhension plus systémiqu
 
 ## Phase 4 : analyse critique et prospective des usages énergétiques
 
-**Contexte et description du problème à résoudre à cette étape** : Cette phase finale invite les élèves à une analyse critique approfondie de leurs propres pratiques énergétiques et à une réflexion prospective sur les innovations technologiques. Au-delà d'une simple catégorisation des usages, les élèves sont amenés à comprendre les facteurs socioculturels qui influencent leurs choix énergétiques et à évaluer le potentiel transformateur des innovations émergentes dans une perspective de transition énergétique.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels. Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique. Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
+Cette phase finale invite les élèves à une analyse critique approfondie de leurs propres pratiques énergétiques et à une réflexion prospective sur les innovations technologiques. Au-delà d'une simple catégorisation des usages, les élèves sont amenés à comprendre les facteurs socioculturels qui influencent leurs choix énergétiques et à évaluer le potentiel transformateur des innovations émergentes dans une perspective de transition énergétique.
+
+### Objectifs d'apprentissage
+
+Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels. Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique. Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
 
 ### Conceptualisation
 
@@ -481,7 +511,9 @@ Concepts clés :
 
 #### 1. Audit énergétique personnel et analyse sociologique
 
-**Objectif** : Réaliser un diagnostic complet de ses propres usages énergétiques et analyser les facteurs qui les déterminent.
+### Objectifs d'apprentissage
+
+Réaliser un diagnostic complet de ses propres usages énergétiques et analyser les facteurs qui les déterminent.
 
 **Collecte de données personnelles** : Chaque élève tient un journal énergétique (exemple imprimable disponible en annexe) détaillé pendant une semaine, en notant :
 
@@ -520,7 +552,9 @@ Concepts clés :
 
 #### 2. Évaluation prospective des innovations énergétiques
 
-**Objectif** : Analyser le potentiel transformateur des innovations énergétiques selon une approche systémique.
+### Objectifs d'apprentissage
+
+Analyser le potentiel transformateur des innovations énergétiques selon une approche systémique.
 
 Les élèves travaillent par équipes pour analyser en profondeur une innovation énergétique selon une grille d'évaluation multidimensionnelle (disponible pour impression en annexe) :
 
@@ -569,7 +603,9 @@ Chaque équipe dispose de 2 heures pour :
 
 #### 3. Débat prospectif et construction de visions personnelles
 
-**Objectif** : Confronter les analyses et construire une vision personnelle argumentée de la transition énergétique souhaitable.
+### Objectifs d'apprentissage
+
+Confronter les analyses et construire une vision personnelle argumentée de la transition énergétique souhaitable.
 
 Chaque équipe présente son innovation en 3 minutes selon le format :
 

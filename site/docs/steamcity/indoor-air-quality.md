@@ -97,9 +97,13 @@ L'étape 4 est le point culminant du protocole de surveillance du CO2, où les �
 
 ## Étape 1 : collecter des données
 
-**Contexte et description du problème à résoudre à cette étape** : Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
+Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
+
+### Objectifs d'apprentissage
+
+L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
 
 ### Conceptualisation
 
@@ -177,7 +181,7 @@ L'activité est lancée par l'enseignant avec le support de l'interface Vittasci
 
 Pour vérifier que le programme fonctionne, vous pouvez souffler dessus pour vérifier que la valeur mesurée augmente. En extérieur, si le capteur est bien calibré, la valeur indiquée est d'environ 400 ppm.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 1 : Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30 ».
+Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30 »).
 
 #### Activité 3 : Configuration des couleurs des LED (10 minutes)
 
@@ -196,7 +200,7 @@ R, V et B signifient respectivement Rouge, Vert et Bleu. La superposition de ces
 En combinant ces valeurs, on peut théoriquement obtenir 16 777 216 couleurs (il y a 256 nuances possibles pour chaque couleur, de 0 à 255, soit un total de 2563 = 16 777 216 couleurs). Il existe un autre bloc permettant de sélectionner la couleur de la lumière émise par la LED. Ce bloc est présenté plus loin dans le livret. Il permet un choix de couleurs plus simple, mais plus limité, à l'aide d'une palette présélectionnée.
 :::
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 2 : Configuration des couleurs des LED ».
+Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Configuration des couleurs des LED »).
 
 #### Activité 4 : Indicateur LED CO2 (10 minutes)
 
@@ -204,7 +208,7 @@ L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience
 
 **Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 3 : Indicateur LED CO2 ».
+Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Indicateur LED CO2 »).
 
 ### Restitution et réflexion
 
@@ -220,9 +224,13 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 ## Étape 2 : afficher les données pour obtenir les informations nécessaires
 
-**Contexte et description du problème à résoudre à cette étape** : Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
+Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
+
+### Objectifs d'apprentissage
+
+Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
 
 ### Conceptualisation
 
@@ -248,7 +256,7 @@ L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience
 
 **Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de l'étape 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 4 : Affichage du CO2 ».
+Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Affichage du CO2 »).
 
 #### Activité 2 : Visualisation des données (10 minutes)
 
@@ -256,7 +264,7 @@ L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience
 
 **Consignes pour les élèves** : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 5 : Visualisation des données ».
+Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Visualisation des données »).
 
 ### Restitution et réflexion
 
@@ -272,9 +280,13 @@ L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont a
 
 ## Étape 3 : analyser les données et en tirer des leçons
 
-**Contexte et description du problème à résoudre dans cette étape** : Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
+Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
+
+### Objectifs d'apprentissage
+
+Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
 
 ### Conceptualisation
 
@@ -312,9 +324,13 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ## Étape 4 : utiliser les données pour modifier son comportement et améliorer la situation de départ
 
-**Contexte et description du problème à résoudre dans cette étape** : La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
+La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
+
+### Objectifs d'apprentissage
+
+Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
 
 ### Conceptualisation
 
@@ -345,12 +361,6 @@ L'enseignant encourage les élèves à partager des idées pour améliorer le ta
 **Réflexion sur la mise en œuvre en classe** : les élèves créent des recommandations pour de meilleures pratiques de ventilation et partagent leurs résultats à l'échelle mondiale via Vittamap.
 
 **Résultats d'apprentissage généraux** : Les élèves relient les informations fondées sur les données à des actions concrètes, favorisant ainsi un sens des responsabilités pour un mode de vie durable.
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Indoor Air Quality](/ressources/steamcity/programmation/programmation-indoor-air-quality).
 
 ---
 

@@ -47,12 +47,6 @@ La ville, en tant que système vivant et complexe, sert de terrain d'enquête. E
 
 Cette activité initie les élèves à la dimension citoyenne du projet SteamCity. Elle les prépare à adopter une posture active sur le terrain, les engage dans l'observation de leur environnement urbain et les initie à une lecture critique de l'espace public. Elle constitue ainsi une mise en situation concrète, essentielle pour ancrer les futures expérimentations dans des réalités vécues. Elle joue un rôle structurant dans la formation de leur citoyenneté. En analysant les services municipaux et leurs effets, les élèves prennent conscience des enjeux collectifs et des responsabilités partagées. Cette expérience alimente les démarches scientifiques ultérieures, en donnant du sens aux données produites et en renforçant leur implication dans les problématiques territoriales. Bien qu'elle repose moins sur des outils technologiques, elle conserve une approche rigoureuse fondée sur l'investigation : recherche documentaire, collecte de données de terrain, structuration cartographique.
 
-Disciplines : éducation civique et morale, géographie, technologie
-
-Objectifs de développement durable
-
-L'activité en bref
-
 ### Étape 1 : jeu d'introduction aux services citoyens
 
 À l'issue du jeu, un greffier de séance est désigné lors de la phase de conclusion. Il ou elle consigne les éléments clés sur les services et départements rencontrés. Cette première contribution initie la documentation collective.
@@ -137,7 +131,7 @@ Le carnet est divisé en trois sections, chacune correspondant à une étape de 
 
 ## Phase 1 : jeu introductif
 
-### Contexte et description du problème
+### Contexte de la séquence
 
 Dans ce jeu introductif, les élèves endossent le rôle de réceptionnistes municipaux. Leur tâche consiste à mémoriser et gérer un flux croissant de demandes citoyennes. Le jeu est conçu pour fonctionner avec des groupes de tailles variables : plus le nombre de participants augmente, plus les demandes à gérer se multiplient, rendant l'exercice plus complexe. D'une durée adaptable (entre 10 et 30 minutes selon le nombre de tours), l'activité sert de porte d'entrée ludique aux fonctions de la municipalité. Elle permet aux élèves de découvrir, par la pratique, l'organisation des services publics locaux et l'importance de la communication dans le traitement des sollicitations citoyennes. En jouant un rôle opérationnel dans un cadre simulé, ils acquièrent une compréhension directe des responsabilités liées à la gestion urbaine.
 
@@ -244,7 +238,7 @@ D'autre part, cette phase de conclusion peut être utilisée pour approfondir la
 
 ## Phase 2 : approfondissement des connaissances
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Dans cette étape de la séquence, les élèves apprennent à mobiliser leurs compétences d'observation dans un contexte réel afin d'explorer comment les services municipaux se manifestent concrètement dans les quartiers, tant sur le plan physique que fonctionnel. De nombreux habitants ignorent l'ampleur et l'impact des services municipaux dans leur quotidien. Cette activité engage les élèves à repérer, documenter et rendre visibles ces effets, souvent négligés ou considérés comme allant de soi, en s'appuyant sur les connaissances acquises lors du jeu introductif.
 
@@ -270,7 +264,7 @@ En utilisant uMap, les individus peuvent facilement pointer des emplacements, tr
 
 Dans les contextes éducatifs, uMap sert d'excellente ressource pour les projets qui nécessitent une analyse spatiale et une représentation géographique. Par exemple, les enseignants peuvent utiliser uMap pour aider les élèves à cartographier des événements historiques, des études environnementales ou des ressources communautaires, facilitant une compréhension plus approfondie des relations spatiales et des données géographiques. Les élèves peuvent créer des cartes de manière collaborative, ce qui aide à développer leurs compétences en organisation de données, résolution de problèmes et littératie numérique.
 
-Pour plus d'informations, consultez la section « Fiche pratique : Découvrez les services uMap ».
+Pour plus d'informations, consultez la [fiche technique détaillée d'utilisation de uMap](/ressources/steamcity/programmation/programmation-city-detective-challenge).
 
 Représentation géographique : Les élèves apprendront à utiliser des outils de cartographie et des techniques d'analyse spatiale pour organiser visuellement et présenter les données collectées sur les services municipaux. Ces compétences renforcent non seulement leur capacité à interpréter les données, mais aussi leur aptitude à communiquer efficacement leurs résultats.
 
@@ -342,7 +336,7 @@ Encouragez les élèves à réfléchir à l'usage futur des compétences acquise
 
 ## Phase 3 : simulation de crise et mise en situation
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Dans cette dernière étape, les élèves, réunis dans les mêmes groupes que lors de l'étape 2, simuleront la construction de réponses publiques coordonnées à des problèmes complexes pouvant survenir sur un territoire. Cette simulation constitue une expérience d'apprentissage riche et interactive, conçue pour approfondir les connaissances liées à l'administration publique et développer des compétences en résolution de problèmes et en prise de décision dans un cadre réaliste.
 
@@ -414,12 +408,6 @@ Concluez l'activité par une discussion collective centrée sur la collaboration
 - **Application dans le monde réel** : Les élèves peuvent comparer leurs propositions à des exemples réels de réponses municipales face à des crises. Quels parallèles ou différences notables ? Ces comparaisons permettent de relier la simulation à des politiques publiques concrètes, et de réfléchir aux notions de responsabilité civique et d'action collective.
 - **Amélioration et optimisation de la stratégie** : Les groupes peuvent envisager des ajustements. Quelles autres solutions auraient été possibles ? Comment optimiser la collaboration entre services ? Cette réflexion ouvre sur les compétences transférables acquises : anticipation, argumentation, écoute, gestion de priorités.
 - **Retour sur la simulation** : Un moment peut être consacré au ressenti général : ce qui a été apprécié, les moments difficiles, les améliorations souhaitées. Ce retour permet d'ajuster la démarche pour de futures sessions. L'enseignant peut aussi partager des observations sur la dynamique du groupe, souligner des réussites collectives ou les points qui ont suscité une prise de conscience.
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour l'utilisation de uMap : [Programmation : City Detective Challenge](/ressources/steamcity/programmation/programmation-city-detective-challenge).
 
 ---
 
@@ -502,7 +490,7 @@ Titres de prestige selon les points obtenus :
 - **3 points (tours 4 et 5 réussis, échec tour 6)** : Observateurs de la Ville. Vous avez fait preuve de vigilance et d'engagement face à l'augmentation des demandes.
 - **6 points (tours 4, 5 et 6 réussis)** : Maestros de l'Hôtel de Ville. Maîtrise exceptionnelle du service public. Vous avez géré les défis les plus complexes avec brio.
 
-### Bienvenue dans votre Carnet du Détective
+## Carnet du Détective
 
 Bonjour, jeunes détectives ! En vous lançant dans le Défi Détective de la Ville, ce carnet vous accompagnera dans votre exploration du fonctionnement des services municipaux.
 
@@ -582,6 +570,8 @@ Services à documenter :
 - Service Environnement, Eau et Déchets
 - Service de la culture, du tourisme, des sports et des loisirs
 - Service de la voirie et propreté des espaces publics
+
+## Scénarios de crise
 
 ### Liste 1 : scénarios « plausibles »
 

@@ -75,9 +75,13 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 
 ## Étape 1 : 5 minutes, 20 données
 
-**Contexte** : Cette première étape doit durer au maximum 10 minutes, introduction et conclusion comprises. Elle peut être réalisée en classe, dans la cour de l'école, dans le quartier, lors d'une visite... L'objectif est d'identifier ce que sont les données grâce à une chasse aux données, c'est-à-dire en recherchant le plus de données possible dans un environnement donné avec un temps limité. Les élèves devront annoncer oralement et clairement leurs propositions, que les enseignants valideront ou non en fonction de ce qui peut être considéré ou non comme une "donnée".
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Explorer activement la définition des données, apprendre à formuler sans équivoque des données, qu'elles soient quantitatives ou qualitatives.
+Cette première étape doit durer au maximum 10 minutes, introduction et conclusion comprises. Elle peut être réalisée en classe, dans la cour de l'école, dans le quartier, lors d'une visite... L'objectif est d'identifier ce que sont les données grâce à une chasse aux données, c'est-à-dire en recherchant le plus de données possible dans un environnement donné avec un temps limité. Les élèves devront annoncer oralement et clairement leurs propositions, que les enseignants valideront ou non en fonction de ce qui peut être considéré ou non comme une "donnée".
+
+### Objectifs d'apprentissage
+
+Explorer activement la définition des données, apprendre à formuler sans équivoque des données, qu'elles soient quantitatives ou qualitatives.
 
 ### Conceptualisation
 
@@ -128,9 +132,13 @@ Utilisez ce temps pour évaluer le ressenti de la classe concernant l'activité.
 
 ## Étape 2 : données vs. prise de décision
 
-**Contexte** : Dans cette étape, la classe est divisée en petits groupes (3/4 élèves) qui recevront un problème à analyser. L'objectif est que les élèves découvrent le rôle que jouent les données dans la définition de politiques publiques. Ils agiront en tant qu'urbanistes, membres d'une municipalité, membres de comités de quartier ... chargés d'analyser une situation difficile et de proposer des solutions illustrées et soutenues par des données. Les sujets seront liés à diverses politiques d'urbanisme telles que les transports, l'environnement et la gestion de l'énergie. Les problèmes présentés aux élèves doivent être suffisamment spécifiques pour orienter une discussion concrète.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Analyser de manière critique les données et prendre des décisions éclairées basées sur leur compréhension, travailler avec des ensembles de données et comprendre l'importance du tri, du nettoyage et de la visualisation, discuter des processus de prise de décision et s'engager dans des discussions collaboratives et découvrir les pratiques de narration de données.
+Dans cette étape, la classe est divisée en petits groupes (3/4 élèves) qui recevront un problème à analyser. L'objectif est que les élèves découvrent le rôle que jouent les données dans la définition de politiques publiques. Ils agiront en tant qu'urbanistes, membres d'une municipalité, membres de comités de quartier ... chargés d'analyser une situation difficile et de proposer des solutions illustrées et soutenues par des données. Les sujets seront liés à diverses politiques d'urbanisme telles que les transports, l'environnement et la gestion de l'énergie. Les problèmes présentés aux élèves doivent être suffisamment spécifiques pour orienter une discussion concrète.
+
+### Objectifs d'apprentissage
+
+Analyser de manière critique les données et prendre des décisions éclairées basées sur leur compréhension, travailler avec des ensembles de données et comprendre l'importance du tri, du nettoyage et de la visualisation, discuter des processus de prise de décision et s'engager dans des discussions collaboratives et découvrir les pratiques de narration de données.
 
 ### Conceptualisation
 
@@ -183,9 +191,13 @@ Complétez votre discussion réflexive avec des questions telles que : qu'avez-v
 
 ## Étape 3 : données vs. contexte
 
-**Contexte** : Dans la dernière étape du protocole, l'objectif est de comprendre l'importance de la contextualisation dans l'analyse des données. Les élèves seront à nouveau séparés en groupes (les mêmes que pour l'étape précédente). Ils devront affiner leur narration et leurs conclusions en se basant sur des éléments d'information dévoilant de nouvelles perspectives dans leurs découvertes. À travers cette étape, l'objectif sera également de discuter de l'importance de différencier les données de la connaissance et d'aider les élèves à gagner en méthodologie et en précision scientifique.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Comprendre l'importance du contexte dans l'interprétation précise des données, développer une approche méthodologique de l'analyse des données.
+Dans la dernière étape du protocole, l'objectif est de comprendre l'importance de la contextualisation dans l'analyse des données. Les élèves seront à nouveau séparés en groupes (les mêmes que pour l'étape précédente). Ils devront affiner leur narration et leurs conclusions en se basant sur des éléments d'information dévoilant de nouvelles perspectives dans leurs découvertes. À travers cette étape, l'objectif sera également de discuter de l'importance de différencier les données de la connaissance et d'aider les élèves à gagner en méthodologie et en précision scientifique.
+
+### Objectifs d'apprentissage
+
+Comprendre l'importance du contexte dans l'interprétation précise des données, développer une approche méthodologique de l'analyse des données.
 
 ### Conceptualisation
 

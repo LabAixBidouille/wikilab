@@ -85,8 +85,12 @@ Dans ce protocole, les élèves développeront un système de tri des déchets b
 
 ## Étape 1 : création d'une base de données d'images pour la classification des déchets
 
-- **Contexte et description du problème à résoudre à cette étape** : Cette première étape présente aux élèves les concepts clés de la reconnaissance d'images par IA, notamment la collecte de données, l'entraînement des modèles et la prise en compte des biais. Elle peut être réalisée en classe ou à domicile. Les élèves créeront une base de données adaptée à l'entraînement de l'intelligence artificielle.
-- **Objectifs d'apprentissage** :
+### Contexte de la séquence
+
+Cette première étape présente aux élèves les concepts clés de la reconnaissance d'images par IA, notamment la collecte de données, l'entraînement des modèles et la prise en compte des biais. Elle peut être réalisée en classe ou à domicile. Les élèves créeront une base de données adaptée à l'entraînement de l'intelligence artificielle.
+
+### Objectifs d'apprentissage
+
   - **Comprendre les fondamentaux de l'IA** : Les élèves explorent le fonctionnement de l'IA de reconnaissance d'images, ses principes fondamentaux et ses méthodes de traitement des données visuelles.
   - **Développer les compétences de collecte de données** : les élèves apprennent à collecter des données pertinentes et de haute qualité tout en comprenant les principes fondamentaux et les exigences optimales de collecte de données.
 
@@ -163,8 +167,13 @@ Pour renforcer cet apprentissage, les enseignants peuvent guider les élèves à
 
 ## Étape 2 : création d'un modèle de reconnaissance des déchets
 
-- **Contexte et description du problème à résoudre à cette étape** : Cette deuxième étape permet aux élèves d'apprendre à entraîner une intelligence artificielle à partir des données collectées. L'enseignant guide les élèves en classe à travers l'interface Vittascience AI.
-- **Objectifs d'apprentissage** : L'objectif de cette étape est de familiariser les élèves avec la formation d'une intelligence artificielle, sa création et une meilleure compréhension de son apprentissage.
+### Contexte de la séquence
+
+Cette deuxième étape permet aux élèves d'apprendre à entraîner une intelligence artificielle à partir des données collectées. L'enseignant guide les élèves en classe à travers l'interface Vittascience AI.
+
+### Objectifs d'apprentissage
+
+L'objectif de cette étape est de familiariser les élèves avec la formation d'une intelligence artificielle, sa création et une meilleure compréhension de son apprentissage.
 
 ### Conceptualisation
 
@@ -261,8 +270,13 @@ L'analogie entre l'apprentissage de l'IA et le développement du cerveau humain 
 
 ## Étape 3 : analyser les données et en tirer des enseignements
 
-- **Contexte et description du problème à résoudre à cette étape** : Une fois que les élèves ont appris à entraîner une IA et à l'utiliser, l'enseignant les guide en classe pour visualiser l'algorithme d'IA résultant de la phase d'entraînement. L'interface « Entraînement IA » permet de visualiser le réseau neuronal.
-- **Objectifs d'apprentissage** : Ouvrir la « boîte noire » et comprendre comment fonctionne un réseau neuronal.
+### Contexte de la séquence
+
+Une fois que les élèves ont appris à entraîner une IA et à l'utiliser, l'enseignant les guide en classe pour visualiser l'algorithme d'IA résultant de la phase d'entraînement. L'interface « Entraînement IA » permet de visualiser le réseau neuronal.
+
+### Objectifs d'apprentissage
+
+Ouvrir la « boîte noire » et comprendre comment fonctionne un réseau neuronal.
 
 ### Conceptualisation
 
@@ -306,8 +320,13 @@ Grâce à cette expérience pratique, les élèves ont acquis une compréhension
 
 ## Étape 4 : utiliser l'IA pour améliorer l'empreinte environnementale
 
-- **Contexte et description du problème à résoudre à cette étape** : Cette dernière étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériel). Elle peut être réalisée en classe. Créez un programme qui exécute une action chaque fois que le modèle d'IA entraîné effectue une prédiction.
-- **Objectifs d'apprentissage** : Cette étape vise à apprendre à utiliser l'intelligence artificielle en lien avec un besoin quotidien. Les élèves apprennent à reconnaître l'utilité de ces outils en améliorant leur empreinte environnementale et à reconnaître lorsqu'ils sont confrontés à l'un d'eux.
+### Contexte de la séquence
+
+Cette dernière étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériel). Elle peut être réalisée en classe. Créez un programme qui exécute une action chaque fois que le modèle d'IA entraîné effectue une prédiction.
+
+### Objectifs d'apprentissage
+
+Cette étape vise à apprendre à utiliser l'intelligence artificielle en lien avec un besoin quotidien. Les élèves apprennent à reconnaître l'utilité de ces outils en améliorant leur empreinte environnementale et à reconnaître lorsqu'ils sont confrontés à l'un d'eux.
 
 ### Conceptualisation
 
@@ -370,6 +389,8 @@ Pour conclure ce protocole, engagez les élèves dans une discussion réflexive 
 Le protocole démontre comment l'IA peut être un puissant outil d'amélioration environnementale lorsqu'elle est correctement comprise et appliquée. Les élèves repartent avec une expérience pratique de la mise en œuvre de l'IA, une compréhension approfondie de la responsabilité environnementale et un esprit critique sur le rôle de la technologie dans la résolution de problèmes concrets.
 
 ---
+
+## Pour aller plus loin
 
 ### Adaptation pédagogique
 

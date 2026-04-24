@@ -52,9 +52,7 @@ Les solutions d'IA pour les défis urbains visent à rendre les villes plus inte
 - **Interdisciplinarité** : technologie et ingénierie, art et design, physique et chimie
 - **Objectifs de développement durable** : se référer aux ODD pertinents pour l'activité
 
-### L'activité en bref
-
-#### Étape 1 : fondamentaux du système et précision
+### Étape 1 : fondamentaux du système et précision
 
 Cette phase initiale se concentre sur la compréhension des limites de précision des technologies centrales qui alimentent les agents conversationnels. Les élèves explorent les systèmes de géolocalisation et les technologies de reconnaissance vocale à travers des tests comparatifs sur différentes plateformes et environnements. En documentant systématiquement les variations de performance, ils développent une conscience critique des contraintes du monde réel qui éclaireront leurs décisions de conception, créant un état d'esprit scientifique essentiel pour un développement responsable de l'IA.
 
@@ -90,8 +88,13 @@ Ce protocole initie les élèves au développement d'un agent conversationnel au
 
 ## Étape 1 : fondamentaux du système et précision
 
-- **Contexte et description du problème à résoudre à cette étape** : Dans le protocole Bot Buddy Adventure, les élèves développent une application avec un agent conversationnel autonome pour aider à découvrir des activités locales. Ce projet vise à surmonter les défis d'accès à l'information urbaine grâce à des interfaces vocales. Lors de la première étape, « Fondamentaux du système et précision », ils analyseront les limites de précision des systèmes de positionnement géographique et de reconnaissance vocale. Les élèves apprendront à déterminer la localisation avec précision et à évaluer la fiabilité de l'interaction vocale par rapport à la saisie de texte, afin de concevoir une expérience accessible et performante.
-- **Objectifs d'apprentissage** : Comprendre les fondamentaux de la géolocalisation et du GPS. Comprendre les limites de précision et les principes fondamentaux des systèmes de géolocalisation et de la technologie GPS. Évaluer la fiabilité des solutions de reconnaissance vocale dans différents environnements et conditions d'utilisation. Développer des compétences de résolution de problèmes en travaillant sur des projets impliquant la géolocalisation et la reconnaissance vocale. Apprendre à identifier les problèmes potentiels et itérer sur la conception pour améliorer les performances et l'efficacité d'un système.
+### Contexte de la séquence
+
+Dans le protocole Bot Buddy Adventure, les élèves développent une application avec un agent conversationnel autonome pour aider à découvrir des activités locales. Ce projet vise à surmonter les défis d'accès à l'information urbaine grâce à des interfaces vocales. Lors de la première étape, « Fondamentaux du système et précision », ils analyseront les limites de précision des systèmes de positionnement géographique et de reconnaissance vocale. Les élèves apprendront à déterminer la localisation avec précision et à évaluer la fiabilité de l'interaction vocale par rapport à la saisie de texte, afin de concevoir une expérience accessible et performante.
+
+### Objectifs d'apprentissage
+
+Comprendre les fondamentaux de la géolocalisation et du GPS. Comprendre les limites de précision et les principes fondamentaux des systèmes de géolocalisation et de la technologie GPS. Évaluer la fiabilité des solutions de reconnaissance vocale dans différents environnements et conditions d'utilisation. Développer des compétences de résolution de problèmes en travaillant sur des projets impliquant la géolocalisation et la reconnaissance vocale. Apprendre à identifier les problèmes potentiels et itérer sur la conception pour améliorer les performances et l'efficacité d'un système.
 
 
 ### Conceptualisation
@@ -176,8 +179,13 @@ que ces technologies restent accessibles à des groupes d'utilisateurs diversifi
 
 ## Étape 2 : collecte de données et gestion de l'information
 
-- **Contexte et description du problème à résoudre à cette étape** : Grâce à l'étape 1, les élèves sont capables de comprendre les limites de précision des technologies GPS et de reconnaissance vocale. Maintenant, dans l'étape 2, ils vont implémenter un système de base pour collecter ces deux données d'entrée fondamentales. Les élèves vont appliquer leurs connaissances en créant un prototype fonctionnel dans CodeSkool qui capture les informations de localisation et les entrées vocales tout en tenant compte des limitations du monde réel qu'ils ont identifiées. Cette implémentation formera la couche essentielle de collecte de données de leur Bot Buddy Assistant Urbain, leur permettant de stocker les informations avant de les traiter dans les étapes ultérieures.
-- **Objectifs d'apprentissage** : Implémenter une fonctionnalité GPS de base pour récupérer et stocker les coordonnées de localisation de l'utilisateur. Créer une interface de reconnaissance vocale simple qui convertit la parole en texte. Comprendre les types de variables et leur rôle dans le stockage d'informations. Implémenter des flux de traitement de données qui relient la conscience de localisation aux requêtes des utilisateurs. Développer des compétences techniques pour travailler avec les capteurs d'appareils et les API externes.
+### Contexte de la séquence
+
+Grâce à l'étape 1, les élèves sont capables de comprendre les limites de précision des technologies GPS et de reconnaissance vocale. Maintenant, dans l'étape 2, ils vont implémenter un système de base pour collecter ces deux données d'entrée fondamentales. Les élèves vont appliquer leurs connaissances en créant un prototype fonctionnel dans CodeSkool qui capture les informations de localisation et les entrées vocales tout en tenant compte des limitations du monde réel qu'ils ont identifiées. Cette implémentation formera la couche essentielle de collecte de données de leur Bot Buddy Assistant Urbain, leur permettant de stocker les informations avant de les traiter dans les étapes ultérieures.
+
+### Objectifs d'apprentissage
+
+Implémenter une fonctionnalité GPS de base pour récupérer et stocker les coordonnées de localisation de l'utilisateur. Créer une interface de reconnaissance vocale simple qui convertit la parole en texte. Comprendre les types de variables et leur rôle dans le stockage d'informations. Implémenter des flux de traitement de données qui relient la conscience de localisation aux requêtes des utilisateurs. Développer des compétences techniques pour travailler avec les capteurs d'appareils et les API externes.
 
 
 ### Conceptualisation
@@ -275,8 +283,13 @@ types d'assistance que votre agent conversationnel pourrait fournir ?
 
 ## Étape 3 : traitement des données dans un système basé sur l'IA
 
-- **Contexte et description du problème à résoudre à cette étape** : Grâce aux étapes 1 et 2, les élèves ont déjà exploré les limites de précision des technologies de localisation et vocales, et implémenté un système de base qui collecte et stocke ces données à l'aide de variables. Maintenant, à l'étape 3, ils font face à un nouveau défi : comment traiter ces données brutes pour générer des réponses significatives. Bien qu'ils aient des coordonnées de latitude et longitude et des requêtes vocales transcrites, celles-ci seules ne fournissent pas les informations contextuelles dont les utilisateurs ont besoin. Dans cette étape, les élèves exploreront comment l'intelligence artificielle, spécifiquement les modèles de langage, peut transformer ces données brutes en informations personnalisées, localisées et actualisées.
-- **Objectifs d'apprentissage** : Comprendre les principes fondamentaux des modèles de langage et comment ils traitent l'information. Apprendre les bases de l'ingénierie des prompts pour communiquer efficacement avec les systèmes d'IA. Développer des compétences pour intégrer les données de géolocalisation et les requêtes utilisateur dans des prompts bien structurés. Implémenter un système qui relie leur code de collecte de données aux capacités d'IA. Évaluer de manière critique les réponses d'IA pour leur précision et leur pertinence par rapport aux besoins des utilisateurs.
+### Contexte de la séquence
+
+Grâce aux étapes 1 et 2, les élèves ont déjà exploré les limites de précision des technologies de localisation et vocales, et implémenté un système de base qui collecte et stocke ces données à l'aide de variables. Maintenant, à l'étape 3, ils font face à un nouveau défi : comment traiter ces données brutes pour générer des réponses significatives. Bien qu'ils aient des coordonnées de latitude et longitude et des requêtes vocales transcrites, celles-ci seules ne fournissent pas les informations contextuelles dont les utilisateurs ont besoin. Dans cette étape, les élèves exploreront comment l'intelligence artificielle, spécifiquement les modèles de langage, peut transformer ces données brutes en informations personnalisées, localisées et actualisées.
+
+### Objectifs d'apprentissage
+
+Comprendre les principes fondamentaux des modèles de langage et comment ils traitent l'information. Apprendre les bases de l'ingénierie des prompts pour communiquer efficacement avec les systèmes d'IA. Développer des compétences pour intégrer les données de géolocalisation et les requêtes utilisateur dans des prompts bien structurés. Implémenter un système qui relie leur code de collecte de données aux capacités d'IA. Évaluer de manière critique les réponses d'IA pour leur précision et leur pertinence par rapport aux besoins des utilisateurs.
 
 
 ### Conceptualisation
@@ -371,8 +384,13 @@ localisation-vers-ville ? Comment votre agent conversationnel pourrait-il gérer
 
 ## Étape 4 : diffusion d'informations accessibles aux utilisateurs finaux
 
-- **Contexte et description du problème à résoudre à cette étape** : Dans les étapes précédentes, les élèves ont construit avec succès une solution qui peut automatiquement déterminer la localisation de l'utilisateur grâce aux requêtes vocales, générant des réponses pertinentes en utilisant l'IA. Ils peuvent réutiliser ce code pour créer un véritable agent conversationnel qui peut communiquer ses réponses par la voix plutôt que seulement par le texte. Dans le contexte actuel, un nombre croissant de personnes utilisent des assistants vocaux pour interagir avec des appareils et obtenir des informations. Cela inclut les applications d'assistance à la conduite, les systèmes de réponse téléphonique, les assistants personnels tels que Siri ou Google Assistant, et bien d'autres. L'un des défis majeurs de ces systèmes est de fournir une expérience utilisateur fluide et naturelle grâce à une synthèse vocale de haute qualité. Cette étape finale se concentrera sur l'intégration des capacités de synthèse vocale, complétant la boucle d'interaction complète du Bot Buddy Assistant Urbain.
-- **Objectifs d'apprentissage** : Comprendre les principes fondamentaux de la synthèse vocale, y compris les techniques et modèles utilisés pour générer la parole artificielle. Apprendre comment implémenter la fonctionnalité de synthèse vocale dans CodeSkool. Explorer les défis et enjeux liés à la qualité de la synthèse vocale, tels que le naturel, l'intelligibilité, l'adaptabilité et la personnalisation. Développer des compétences pour configurer les paramètres vocaux afin d'optimiser l'expérience utilisateur. Créer un agent conversationnel complet qui collecte, traite et diffuse les informations à travers la parole naturelle.
+### Contexte de la séquence
+
+Dans les étapes précédentes, les élèves ont construit avec succès une solution qui peut automatiquement déterminer la localisation de l'utilisateur grâce aux requêtes vocales, générant des réponses pertinentes en utilisant l'IA. Ils peuvent réutiliser ce code pour créer un véritable agent conversationnel qui peut communiquer ses réponses par la voix plutôt que seulement par le texte. Dans le contexte actuel, un nombre croissant de personnes utilisent des assistants vocaux pour interagir avec des appareils et obtenir des informations. Cela inclut les applications d'assistance à la conduite, les systèmes de réponse téléphonique, les assistants personnels tels que Siri ou Google Assistant, et bien d'autres. L'un des défis majeurs de ces systèmes est de fournir une expérience utilisateur fluide et naturelle grâce à une synthèse vocale de haute qualité. Cette étape finale se concentrera sur l'intégration des capacités de synthèse vocale, complétant la boucle d'interaction complète du Bot Buddy Assistant Urbain.
+
+### Objectifs d'apprentissage
+
+Comprendre les principes fondamentaux de la synthèse vocale, y compris les techniques et modèles utilisés pour générer la parole artificielle. Apprendre comment implémenter la fonctionnalité de synthèse vocale dans CodeSkool. Explorer les défis et enjeux liés à la qualité de la synthèse vocale, tels que le naturel, l'intelligibilité, l'adaptabilité et la personnalisation. Développer des compétences pour configurer les paramètres vocaux afin d'optimiser l'expérience utilisateur. Créer un agent conversationnel complet qui collecte, traite et diffuse les informations à travers la parole naturelle.
 
 
 ### Conceptualisation

@@ -82,7 +82,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ## Étape 1 : familiarisation et idéation
 
-### Contexte
+### Contexte de la séquence
 
 Les élèves se familiarisent avec les concepts de base des objets connectés et proposent une première idée d'objet intelligent.
 
@@ -138,7 +138,7 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ## Étape 2 : conception et prototypage
 
-### Contexte
+### Contexte de la séquence
 
 La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement en utilisant une approche incrémentale.
 

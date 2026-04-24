@@ -94,7 +94,7 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
 
 ## Étape 1 : exploration de la diversité des oiseaux urbains et de leurs rôles écologiques
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Présenter aux élèves le monde des oiseaux, leur rôle dans les écosystèmes urbains et l'importance de préserver la diversité aviaire. Souligner comment les oiseaux contribuent à l'équilibre écologique et communiquent par leurs chants. Discutez de l'interconnexion de la biodiversité urbaine et du bien-être humain, et ouvrez la voie à l'exploration de la manière dont la technologie peut contribuer à la conservation.
 
@@ -201,7 +201,7 @@ Ces discussions aideront les étudiants à synthétiser leur apprentissage, à �
 
 ## Étape 2 : jeu d'identification des chants d'oiseaux
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Le but de cette étape est d'entraîner les élèves à reconnaître les chants d'oiseaux des espèces urbaines grâce à un jeu-questionnaire interactif. L'objectif est d'améliorer la mémoire auditive et visuelle des élèves, ce qui leur sera utile lors de la future campagne d'observation de la diversité des espèces d'oiseaux en milieu urbain. En participant à cette activité, les élèves se familiariseront avec une variété de chants d'oiseaux et apprendront à différencier les espèces sur la base des vocalisations et des indices visuels. Cette étape sert également d'introduction aux concepts d'apprentissage supervisé, jetant les bases de la reconnaissance automatisée des chants d'oiseaux dans les étapes suivantes.
 
@@ -278,7 +278,7 @@ L'enseignant peut diffuser une vidéo pour aider les élèves à mieux comprendr
 
 ## Étape 3 : construction d'un modèle de reconnaissance des chants d'oiseaux par l'IA
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Introduire l'apprentissage supervisé par une expérience pratique avec Google Teachable Machine. Les élèves saisiront les principes fondamentaux de l'apprentissage automatique et comprendront comment les ordinateurs peuvent être entraînés à reconnaître les chants d'oiseaux. Cette étape s'appuie sur les techniques d'identification manuelle apprises précédemment.
 
@@ -348,7 +348,7 @@ Ces discussions aideront les élèves à synthétiser ce qu'ils ont appris, à c
 
 ## Étape 4 : collecte, analyse et cartographie des données sur le chant des oiseaux
 
-### Contexte et description du problème à résoudre dans cette étape
+### Contexte de la séquence
 
 Les élèves recueillent des chants d'oiseaux au cours d'une promenade dans la nature, analysent ces enregistrements à l'aide des modèles d'IA qu'ils ont précédemment créés et synthétisent leurs résultats en créant une carte visuelle des oiseaux. L'objectif est de valider les hypothèses formulées lors de l'étape 1 en reliant l'apprentissage théorique aux observations sur le terrain, à l'analyse des données et à la visualisation. Cette activité intégrée combine l'exploration en plein air, l'analyse de données et la cartographie pour favoriser une meilleure compréhension de la diversité des oiseaux dans les zones urbaines.
 

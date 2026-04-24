@@ -48,12 +48,6 @@ Aujourd'hui, notre société moderne repose sur un système énergétique comple
 
 Face à ces enjeux complexes, il est essentiel de former des citoyens capables de comprendre les fondamentaux énergétiques qui structurent notre monde. C'est précisément l'objectif de ce protocole pédagogique : permettre aux élèves de passer d'une connaissance intuitive mais abstraite de l'énergie à une compréhension concrète de ses manifestations, ses transformations et ses implications. En reconnaissant l'énergie dans leur environnement quotidien et en distinguant énergies naturelles et transformées, les élèves développeront les compétences nécessaires pour participer aux débats et aux choix énergétiques qui façonneront leur avenir.
 
-Disciplines : physique, sciences de la vie et de la terre, histoire-géographie, technologie, éducation civique
-
-Objectifs de développement durable
-
-L'activité en bref
-
 ### Structure du protocole
 
 Pour les élèves, l'énergie demeure souvent un concept abstrait malgré sa présence constante dans leur environnement quotidien. Ce protocole pédagogique vise à permettre aux élèves de définir collectivement ce qu'est l'énergie et d'identifier ses manifestations tangibles dans leur milieu de vie.
@@ -113,7 +107,7 @@ Matériel nécessaire :
 
 ## Étape 1 : définition et identification des formes d'énergie
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Bien que le terme "énergie" soit omniprésent dans le langage courant (crise énergétique, transition énergétique, économies d'énergie), sa définition précise reste souvent floue et abstraite pour les élèves. Cette première phase permet une première découverte simple et ludique du concept d'énergie. Par des activités concrètes et accessibles, les élèves sont invités à observer leur environnement quotidien pour repérer les différentes manifestations de l'énergie. Cette démarche introductive s'appuie sur l'observation et la manipulation pour construire collectivement une définition de l'énergie et de ses formes les plus courantes issue de gisements limités (fossiles : pétrole, charbon, gaz naturel ; fissile : uranium). L'accent est mis sur l'aspect pratique et interactif, permettant ainsi aux élèves de concrétiser ce concept abstrait.
 
@@ -236,7 +230,7 @@ Comment une même forme d'énergie se manifeste-t-elle différemment dans notre 
 
 ## Étape 2 : impact environnemental et social des différentes formes d'énergie
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Après avoir exploré et identifié les différentes formes d'énergie dans la première phase, les élèves sont maintenant prêts à approfondir leur compréhension des implications plus larges de ces formes d'énergie. Dans cette deuxième phase, l'attention se porte sur les dimensions environnementales et sociales associées à la production, distribution, utilisation et fin de vie des différentes formes d'énergie. À travers des activités d'analyse en groupe et de réflexion collective, les élèves développent leur capacité à évaluer de manière critique les avantages et inconvénients des différentes options énergétiques. Cette approche permet de faire le lien entre les connaissances scientifiques acquises précédemment et les grandes problématiques contemporaines liées à l'énergie, favorisant ainsi une compréhension plus globale et contextualisée des enjeux énergétiques.
 
@@ -400,7 +394,7 @@ Ces prolongements permettraient aux élèves de mobiliser leurs connaissances da
 
 ## Étape 3 : imaginer un monde sans l'une ou l'autre de ces formes d'énergie
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Après avoir exploré les différentes formes d'énergie (phase 1) et analysé leurs impacts environnementaux et sociaux (phase 2), cette troisième phase invite les élèves à développer leur pensée prospective et créative. À travers un exercice de projection, ils sont amenés à imaginer les conséquences systémiques qu'entraînerait l'absence d'une forme d'énergie spécifique. Cette démarche d'anticipation permet de mettre en évidence l'interdépendance entre les différentes formes d'énergie, leur place respective dans notre société, et les adaptations nécessaires en cas de pénurie ou de disparition. Par ce travail d'imagination structurée, les élèves développent une compréhension plus profonde des enjeux de résilience énergétique et des alternatives possibles face aux défis futurs.
 

@@ -86,8 +86,13 @@ L'activité FactBuster est structurée en trois phases complémentaires, chacune
 
 ## Phase 1 : comprendre la démarche de vérification des faits
 
-- **Contexte et description du problème à résoudre à cette étape** : Les élèves apprendront à analyser le processus de construction, de justification, et de référencement d'une information pour en comprendre la fiabilité. L'objectif est de développer l'esprit critique face aux informations disponibles et d'être en capacité de différencier ceux qui adoptent une démarche rigoureuse de ceux qui n'énoncent que des faits sans s'appuyer sur une approche de vérification et d'expérimentation stricte.
-- **Objectifs d'apprentissage** : Développer l'esprit critique des élèves, apprendre à évaluer la fiabilité des sources d'information, comprendre et appliquer la méthode scientifique.
+### Contexte de la séquence
+
+Les élèves apprendront à analyser le processus de construction, de justification, et de référencement d'une information pour en comprendre la fiabilité. L'objectif est de développer l'esprit critique face aux informations disponibles et d'être en capacité de différencier ceux qui adoptent une démarche rigoureuse de ceux qui n'énoncent que des faits sans s'appuyer sur une approche de vérification et d'expérimentation stricte.
+
+### Objectifs d'apprentissage
+
+Développer l'esprit critique des élèves, apprendre à évaluer la fiabilité des sources d'information, comprendre et appliquer la méthode scientifique.
 
 
 ### Conceptualisation
@@ -182,8 +187,13 @@ Ces questions visent à renforcer leur esprit critique et à affiner leur compr�
 
 ## Phase 2 : construire des protocoles de vérification des faits
 
-- **Contexte et description du problème à résoudre à cette étape** : Cette phase se concentre sur la construction de protocoles scientifiques rigoureux pour vérifier des faits et informations. Après avoir analysé la fiabilité des sources lors de la première étape, les élèves apprendront à explorer ces faits de manière scientifique. Ils formuleront de véritables hypothèses, concevront des expériences précises et rédigeront des protocoles détaillés.
-- **Objectifs d'apprentissage** : Renforcer la rigueur scientifique, d'acquérir des compétences en méthodologie expérimentale et de comprendre comment valider ou invalider des hypothèses de manière objective et reproductible.
+### Contexte de la séquence
+
+Cette phase se concentre sur la construction de protocoles scientifiques rigoureux pour vérifier des faits et informations. Après avoir analysé la fiabilité des sources lors de la première étape, les élèves apprendront à explorer ces faits de manière scientifique. Ils formuleront de véritables hypothèses, concevront des expériences précises et rédigeront des protocoles détaillés.
+
+### Objectifs d'apprentissage
+
+Renforcer la rigueur scientifique, d'acquérir des compétences en méthodologie expérimentale et de comprendre comment valider ou invalider des hypothèses de manière objective et reproductible.
 
 
 ### Conceptualisation
@@ -281,8 +291,13 @@ Fournissez des retours constructifs sur les protocoles présentés, en soulignan
 
 ## Phase 3 : diffuser la culture scientifique (phase optionnelle)
 
-- **Contexte et description du problème à résoudre à cette étape** : Cette phase finale vise à aborder la problématique de la vulgarisation scientifique avec les élèves. En développant leurs compétences en communication scientifique, les élèves pourront non seulement renforcer leur propre compréhension des concepts abordés, mais aussi contribuer à une diffusion plus large de la culture scientifique au sein de leur communauté.
-- **Objectifs d'apprentissage** : Apprendre à vulgariser et à présenter des faits scientifiques de manière claire et compréhensible. Développer des compétences en communication scientifique et en pédagogie. Sensibiliser les élèves à l'importance de la rigueur scientifique dans la vérification des faits. Encourager une citoyenneté informée et responsable.
+### Contexte de la séquence
+
+Cette phase finale vise à aborder la problématique de la vulgarisation scientifique avec les élèves. En développant leurs compétences en communication scientifique, les élèves pourront non seulement renforcer leur propre compréhension des concepts abordés, mais aussi contribuer à une diffusion plus large de la culture scientifique au sein de leur communauté.
+
+### Objectifs d'apprentissage
+
+Apprendre à vulgariser et à présenter des faits scientifiques de manière claire et compréhensible. Développer des compétences en communication scientifique et en pédagogie. Sensibiliser les élèves à l'importance de la rigueur scientifique dans la vérification des faits. Encourager une citoyenneté informée et responsable.
 
 
 ### Conceptualisation

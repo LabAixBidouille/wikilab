@@ -114,9 +114,12 @@ Chaque étape s'appuie sur la précédente, créant une progression d'apprentiss
 
 ## Étape 1 : collecter des données, construction et déploiement d'équipements de capteurs
 
-**Contexte et description du problème à résoudre à cette étape** : Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, les élèves se familiariseront avec différents capteurs et leurs interfaces tout en commençant à collecter des données sur différents polluants.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, les élèves se familiariseront avec différents capteurs et leurs interfaces tout en commençant à collecter des données sur différents polluants.
+
+### Objectifs d'apprentissage
+
 
 - Comprendre les principaux types de polluants atmosphériques et leurs sources.
 - Apprendre à assembler et configurer des capteurs pour la surveillance environnementale.
@@ -188,7 +191,7 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience e
 Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
 :::
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 1 : Système de surveillance des COV avec écran LCD ».
+**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Système de surveillance des COV avec écran LCD »).
 
 #### Activité 2 : Surveillance multiparamétrique (15 minutes)
 
@@ -200,7 +203,7 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience e
 Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
 :::
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 2 : Collecte de données environnementales multi-capteurs ».
+**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Collecte de données environnementales multi-capteurs »).
 
 ### Restitution et réflexion
 
@@ -210,15 +213,20 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 **Réflexion sur la mise en œuvre en classe** : Cette étape peut être mise en œuvre dans une salle de classe standard avec accès à des ordinateurs pour la programmation. Envisagez de diviser les élèves en petits groupes, chacun étant responsable d'une configuration de capteurs différente.
 
-**Objectifs d'apprentissage** : Les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
+### Objectifs d'apprentissage
+
+Les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
 
 ---
 
 ## Étape 2 : afficher les données, techniques de visualisation et de représentation
 
-**Contexte et description du problème à résoudre à cette étape** : Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à l'étape précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à l'étape précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
+
+### Objectifs d'apprentissage
+
 
 - Comprendre les différentes méthodes de visualisation des données environnementales.
 - Apprendre à utiliser des interfaces graphiques pour créer des affichages de données en temps réel.
@@ -272,7 +280,7 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. 
 
 Une fois l'enregistrement terminé, retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur.
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 3 : Enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air ».
+**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air »).
 
 ### Restitution et réflexion
 
@@ -288,9 +296,12 @@ L'enseignant peut conclure l'activité en montrant aux élèves qu'ils ont appri
 
 ## Étape 3 : analyser les données, identifier les modèles et les corrélations environnementales
 
-**Contexte et description du problème à résoudre à cette étape** : En s'appuyant sur la collecte et la visualisation des données des étapes précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+En s'appuyant sur la collecte et la visualisation des données des étapes précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
+
+### Objectifs d'apprentissage
+
 
 - Développer des compétences analytiques pour interpréter les données environnementales.
 - Apprendre à identifier les tendances et les corrélations dans les mesures de la qualité de l'air.
@@ -382,9 +393,12 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ## Étape 4 : utiliser les données pour agir, élaboration de recommandations environnementales
 
-**Contexte et description du problème à résoudre à cette étape** : La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ce projet, qui n'était qu'un exercice académique, devient ainsi une opportunité d'engagement environnemental, permettant aux élèves de comprendre comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ce projet, qui n'était qu'un exercice académique, devient ainsi une opportunité d'engagement environnemental, permettant aux élèves de comprendre comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
+
+### Objectifs d'apprentissage
+
 
 - Développer des compétences en analyse comparative de données provenant de différents sites.
 - Apprendre à formuler des recommandations fondées sur des données probantes.
@@ -447,12 +461,6 @@ L'enseignant encourage les élèves à partager leurs idées pour améliorer la 
 **Réflexion sur la mise en œuvre en classe** : Cette étape bénéficie d'un format d'atelier où les groupes d'élèves peuvent présenter et discuter de leurs conclusions et recommandations. Si possible, envisagez d'inviter des experts environnementaux locaux.
 
 **Résultats d'apprentissage** : Les élèves devraient maintenant comprendre comment les données scientifiques peuvent éclairer les actions environnementales pratiques et être en mesure de communiquer leurs résultats d'une manière qui soutient la prise de décision fondée sur des preuves.
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Outdoor Air Quality](/ressources/steamcity/programmation/programmation-outdoor-air-quality).
 
 ---
 

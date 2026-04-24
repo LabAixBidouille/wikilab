@@ -95,9 +95,13 @@ Une fois la semaine de collecte terminée, les élèves compileront et analysero
 
 ## Phase 1 : compréhension de la problématique et préparation de l'étude
 
-**Contexte de la séquence** : L'objectif principal de cette première séquence est d'élaborer un protocole d'étude autour des enjeux du bruit sur l'apprentissage et le bien-être en milieu scolaire. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et les méthodes d'évaluation existantes dans le domaine du bruit. L'objectif est de les amener à mesurer et à développer collectivement des indicateurs pertinents pour évaluer le bien-être et les performances cognitives dans le contexte scolaire. Ces indicateurs, tels que le niveau de fatigue, la capacité de concentration, la qualité de la participation en classe, le niveau de stress perçu et la performance dans des tâches cognitives spécifiques, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la relation complexe entre le bruit et les capacités cognitives, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré pour leur apprentissage. Ils développeront également des compétences en recherche documentaire, essentielles pour approfondir leur compréhension du sujet. De plus, les élèves apprendront à concevoir des indicateurs de mesure, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude scientifiquement valable, ce qui leur permettra de développer leur rigueur méthodologique et leur esprit critique.
+L'objectif principal de cette première séquence est d'élaborer un protocole d'étude autour des enjeux du bruit sur l'apprentissage et le bien-être en milieu scolaire. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés et les méthodes d'évaluation existantes dans le domaine du bruit. L'objectif est de les amener à mesurer et à développer collectivement des indicateurs pertinents pour évaluer le bien-être et les performances cognitives dans le contexte scolaire. Ces indicateurs, tels que le niveau de fatigue, la capacité de concentration, la qualité de la participation en classe, le niveau de stress perçu et la performance dans des tâches cognitives spécifiques, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+
+### Objectifs d'apprentissage
+
+À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la relation complexe entre le bruit et les capacités cognitives, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré pour leur apprentissage. Ils développeront également des compétences en recherche documentaire, essentielles pour approfondir leur compréhension du sujet. De plus, les élèves apprendront à concevoir des indicateurs de mesure, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à préparer un protocole d'étude scientifiquement valable, ce qui leur permettra de développer leur rigueur méthodologique et leur esprit critique.
 
 ### Conceptualisation
 
@@ -148,9 +152,13 @@ Dans une logique d'apprentissage actif, il est intéressant de laisser les élè
 
 ## Phase 2 : collecte de données
 
-**Contexte et objectifs** : Cette phase se concentre sur la mise en oeuvre du protocole d'étude élaboré précédemment pour évaluer l'impact du bruit en milieu scolaire. Les élèves vont appliquer les méthodes scientifiques qu'ils ont développées pour collecter des données concrètes sur les effets du bruit sur le bien-être et les performances cognitives dans leur environnement scolaire. Cette étape pratique permettra aux élèves de confronter leurs hypothèses à la réalité du terrain, tout en développant leurs compétences en collecte et analyse de données.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences techniques et méthodologiques essentielles. Ils apprendront à programmer et utiliser des capteurs de décibels, renforçant ainsi leurs compétences en technologie. La collecte structurée de données leur permettra de comprendre l'importance de la rigueur scientifique. En pratiquant l'observation et l'auto-évaluation quotidienne, ils développeront des compétences d'analyse critique et de réflexion personnelle, cruciales pour leur développement académique et personnel.
+Cette phase se concentre sur la mise en oeuvre du protocole d'étude élaboré précédemment pour évaluer l'impact du bruit en milieu scolaire. Les élèves vont appliquer les méthodes scientifiques qu'ils ont développées pour collecter des données concrètes sur les effets du bruit sur le bien-être et les performances cognitives dans leur environnement scolaire. Cette étape pratique permettra aux élèves de confronter leurs hypothèses à la réalité du terrain, tout en développant leurs compétences en collecte et analyse de données.
+
+### Objectifs d'apprentissage
+
+À travers cette phase, les élèves développeront des compétences techniques et méthodologiques essentielles. Ils apprendront à programmer et utiliser des capteurs de décibels, renforçant ainsi leurs compétences en technologie. La collecte structurée de données leur permettra de comprendre l'importance de la rigueur scientifique. En pratiquant l'observation et l'auto-évaluation quotidienne, ils développeront des compétences d'analyse critique et de réflexion personnelle, cruciales pour leur développement académique et personnel.
 
 Cette étape peut être réalisée en partenariat avec les enseignements de technologie.
 
@@ -171,7 +179,7 @@ Au travers de cette exploration, les élèves vont aborder les enjeux de recueil
 
 Les élèves commenceront par programmer les capteurs de décibels pour effectuer des relevés automatiques selon le protocole établi. Cette étape leur permettra d'acquérir des compétences de base en programmation et en utilisation de capteurs. Pour ce faire, ils utiliseront un environnement de programmation visuel simple et adapté aux débutants tel que MakeCode. Ils créeront un programme permettant au capteur de prendre une mesure toutes les 5 minutes et de stocker ces données dans un fichier CSV (Comma-Separated Values, un format de fichier texte où les données sont séparées par des virgules). Le code détaillé sera fourni ultérieurement pour faciliter cette tâche et s'assurer que la programmation ne soit pas un obstacle à l'étude. Cette approche permettra aux élèves de comprendre comment les données sont collectées et stockées pour une analyse ultérieure, tout en se familiarisant avec les bases de la programmation. Les capteurs seront positionnés dans la classe pour effectuer des relevés automatiques du niveau sonore selon le protocole établi, pendant une semaine.
 
-Pour faciliter la mise en oeuvre de cette étape, vous trouverez dans la section « Fiche pratique » toutes les instructions de programmation d'une carte Micro:bit et des capteurs associés pour réaliser ces mesures. Le code de chaque mesure est fourni, prêt à l'emploi, si besoin.
+Pour faciliter la mise en oeuvre de cette étape, vous trouverez dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-decibel-detective) toutes les instructions de programmation d'une carte Micro:bit et des capteurs associés pour réaliser ces mesures. Le code de chaque mesure est fourni, prêt à l'emploi, si besoin.
 
 #### Création du journal de bord
 
@@ -211,9 +219,13 @@ Dans une logique interdisciplinaire, il pourrait être intéressant de présente
 
 ## Phase 3 : analyse, interprétation et conclusion de l'étude
 
-**Contexte et objectifs** : Cette phase se concentre sur l'analyse approfondie des données collectées, l'interprétation des résultats et l'élaboration de recommandations basées sur les conclusions de l'étude. Les élèves vont compiler, analyser et visualiser les données recueillies, en utilisant des méthodes statistiques et des outils de visualisation pour identifier les corrélations entre les niveaux de bruit et les indicateurs de bien-être et de performance cognitive. Cette étape cruciale permettra aux élèves de tirer des conclusions significatives de leur étude et de développer des recommandations concrètes pour améliorer l'environnement sonore scolaire.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences essentielles en analyse de données et en visualisation, apprenant à interpréter des résultats scientifiques de manière critique. Ils amélioreront leur capacité à résoudre des problèmes complexes en proposant des solutions basées sur des preuves empiriques. De plus, en préparant une présentation de leurs résultats, les élèves renforceront leurs compétences en communication scientifique, apprenant à synthétiser et à présenter des informations complexes de manière claire et convaincante.
+Cette phase se concentre sur l'analyse approfondie des données collectées, l'interprétation des résultats et l'élaboration de recommandations basées sur les conclusions de l'étude. Les élèves vont compiler, analyser et visualiser les données recueillies, en utilisant des méthodes statistiques et des outils de visualisation pour identifier les corrélations entre les niveaux de bruit et les indicateurs de bien-être et de performance cognitive. Cette étape cruciale permettra aux élèves de tirer des conclusions significatives de leur étude et de développer des recommandations concrètes pour améliorer l'environnement sonore scolaire.
+
+### Objectifs d'apprentissage
+
+À travers cette phase, les élèves développeront des compétences essentielles en analyse de données et en visualisation, apprenant à interpréter des résultats scientifiques de manière critique. Ils amélioreront leur capacité à résoudre des problèmes complexes en proposant des solutions basées sur des preuves empiriques. De plus, en préparant une présentation de leurs résultats, les élèves renforceront leurs compétences en communication scientifique, apprenant à synthétiser et à présenter des informations complexes de manière claire et convaincante.
 
 Cette étape peut être réalisée en partenariat avec la discipline des mathématiques.
 
@@ -269,12 +281,6 @@ Au terme de cette activité complète d'analyse de l'impact du bruit sur l'appre
 - Comment pensez-vous que les résultats de cette étude pourraient être utilisés pour améliorer l'environnement d'apprentissage dans votre école ?
 - Quelles compétences avez-vous développées au cours de ce projet qui pourraient être utiles dans d'autres domaines de votre vie académique ou personnelle ?
 - Si vous deviez refaire cette étude, que feriez-vous différemment ? Pourquoi ?
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Decibel Detective](/ressources/steamcity/programmation/programmation-decibel-detective).
 
 ---
 

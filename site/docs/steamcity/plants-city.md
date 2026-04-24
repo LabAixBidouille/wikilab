@@ -89,9 +89,13 @@ L'étape finale de mise en place du mur végétal constitue l'aboutissement conc
 
 ## Étape 1 : collecter les données
 
-**Contexte et description du problème à résoudre dans cette étape** : Pour créer un mur végétal réussi, il est crucial de bien comprendre l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Afin de choisir des plantes adaptées à ces conditions spécifiques, cette première étape permet aux élèves d'évaluer attentivement les conditions environnementales auxquelles elles seront exposées.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Identifier les principales variables environnementales qui influencent la croissance et la santé des plantes, à savoir température, humidité, luminosité, vent et composition du sol. Se familiariser avec l'usage des microcontrôleurs pour réaliser des mesures.
+Pour créer un mur végétal réussi, il est crucial de bien comprendre l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Afin de choisir des plantes adaptées à ces conditions spécifiques, cette première étape permet aux élèves d'évaluer attentivement les conditions environnementales auxquelles elles seront exposées.
+
+### Objectifs d'apprentissage
+
+Identifier les principales variables environnementales qui influencent la croissance et la santé des plantes, à savoir température, humidité, luminosité, vent et composition du sol. Se familiariser avec l'usage des microcontrôleurs pour réaliser des mesures.
 
 ### Conceptualisation
 
@@ -167,9 +171,13 @@ Afin d'approfondir cette phase, vous pouvez également ouvrir des discussions en
 
 ## Étape 2 : affichez les données pour obtenir les informations nécessaires
 
-**Contexte et description du problème à résoudre à cette étape** : Lors de la première étape, les élèves ont construit une station de mesure équipée de plusieurs capteurs qui mesurent diverses variables environnementales (température, luminosité, etc.). Ces stations ne peuvent cependant fournir que des mesures instantanées, sans capacité de stockage pour une analyse ultérieure. Il est donc nécessaire d'ajouter un système d'enregistrement des données, tel qu'une carte micro-SD, pour sauvegarder les mesures effectuées.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Réfléchir à la manière dont un système peut être amélioré pour répondre à une problématique technique.
+Lors de la première étape, les élèves ont construit une station de mesure équipée de plusieurs capteurs qui mesurent diverses variables environnementales (température, luminosité, etc.). Ces stations ne peuvent cependant fournir que des mesures instantanées, sans capacité de stockage pour une analyse ultérieure. Il est donc nécessaire d'ajouter un système d'enregistrement des données, tel qu'une carte micro-SD, pour sauvegarder les mesures effectuées.
+
+### Objectifs d'apprentissage
+
+Réfléchir à la manière dont un système peut être amélioré pour répondre à une problématique technique.
 
 ### Conceptualisation
 
@@ -233,9 +241,13 @@ Pour approfondir cette phase, plusieurs questions peuvent être explorées avec 
 
 ## Étape 3 : analyser les données et en tirer des leçons
 
-**Contexte et description du problème à résoudre à cette étape** : Maintenant que les élèves disposent de données qualitatives et quantitatives sur les conditions environnementales dans lesquelles les plantes vont vivre, ils doivent réaliser un travail de recherche documentaire pour découvrir quelles plantes s'épanouiront le mieux dans ces conditions. Au cours de cette étape, ils seront amenés à utiliser des outils de recherche assistée par intelligence artificielle (Gemini, Copilot) et à explorer les enjeux liés à la fiabilité des sources.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Se familiariser avec les outils de génération de texte (ChatGPT, Microsoft Copilot, Google Gemini) et maîtriser les bases de la formulation de prompts. Comprendre les spécificités de chaque outil pour identifier les plus pertinents pour la recherche documentaire. Reconnaître les limites des modèles de génération de texte, notamment les hallucinations. Analyser et exploiter les données collectées à l'aide d'un tableur pour en tirer des connaissances utiles.
+Maintenant que les élèves disposent de données qualitatives et quantitatives sur les conditions environnementales dans lesquelles les plantes vont vivre, ils doivent réaliser un travail de recherche documentaire pour découvrir quelles plantes s'épanouiront le mieux dans ces conditions. Au cours de cette étape, ils seront amenés à utiliser des outils de recherche assistée par intelligence artificielle (Gemini, Copilot) et à explorer les enjeux liés à la fiabilité des sources.
+
+### Objectifs d'apprentissage
+
+Se familiariser avec les outils de génération de texte (ChatGPT, Microsoft Copilot, Google Gemini) et maîtriser les bases de la formulation de prompts. Comprendre les spécificités de chaque outil pour identifier les plus pertinents pour la recherche documentaire. Reconnaître les limites des modèles de génération de texte, notamment les hallucinations. Analyser et exploiter les données collectées à l'aide d'un tableur pour en tirer des connaissances utiles.
 
 ### Conceptualisation
 
@@ -327,9 +339,13 @@ Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion s
 
 ## Étape 4 : utilisez les données pour créer un mur végétal
 
-**Contexte et description du problème à résoudre à cette étape** : Maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Cette étape cruciale va permettre aux élèves de mettre en application leurs connaissances théoriques tout en développant des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Mettre en pratique les connaissances acquises lors de la phase de recherche documentaire pour la sélection des plantes. Apprendre les bases du jardinage et les techniques de plantation adaptées aux murs végétaux. Développer des compétences en gestion de projet et travail collaboratif (répartition des tâches, communication, résolution de problèmes). Appliquer les données environnementales collectées pour optimiser l'installation des plantes.
+Maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Cette étape cruciale va permettre aux élèves de mettre en application leurs connaissances théoriques tout en développant des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
+
+### Objectifs d'apprentissage
+
+Mettre en pratique les connaissances acquises lors de la phase de recherche documentaire pour la sélection des plantes. Apprendre les bases du jardinage et les techniques de plantation adaptées aux murs végétaux. Développer des compétences en gestion de projet et travail collaboratif (répartition des tâches, communication, résolution de problèmes). Appliquer les données environnementales collectées pour optimiser l'installation des plantes.
 
 ### Conceptualisation
 

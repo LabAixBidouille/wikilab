@@ -76,9 +76,13 @@ L'expérimentation se déroule en trois étapes clés :
 
 ## Étape 1 : formuler des hypothèses, cartographier et réaliser une étude documentaire
 
-**Contexte et description du problème à résoudre** : Les élèves cherchent à identifier les zones de leur environnement local où les pollinisateurs sont susceptibles d'être présents. Ils définiront les conditions favorables à leur présence.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Acquérir des connaissances sur le rôle des pollinisateurs et utiliser une approche expérimentale pour formuler des hypothèses. Réaliser des recherches bibliographiques, construire des indicateurs pour l'analyse et développer des compétences de pensée critique.
+Les élèves cherchent à identifier les zones de leur environnement local où les pollinisateurs sont susceptibles d'être présents. Ils définiront les conditions favorables à leur présence.
+
+### Objectifs d'apprentissage
+
+Acquérir des connaissances sur le rôle des pollinisateurs et utiliser une approche expérimentale pour formuler des hypothèses. Réaliser des recherches bibliographiques, construire des indicateurs pour l'analyse et développer des compétences de pensée critique.
 
 ### Conceptualisation
 
@@ -150,9 +154,13 @@ Questions pour approfondir la réflexion :
 
 ## Étape 2 : construire et mettre en place des pièges non létaux pour pollinisateurs
 
-**Contexte et description du problème à résoudre** : Les élèves apprendront à créer et à placer stratégiquement des pièges non létaux pour recueillir des données sur les populations de pollinisateurs.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Comprendre les aspects pratiques de la mise en place d'expériences et les implications éthiques de la collecte de données. Suivre un protocole détaillé, l'adapter aux environnements réels et surveiller efficacement l'étude.
+Les élèves apprendront à créer et à placer stratégiquement des pièges non létaux pour recueillir des données sur les populations de pollinisateurs.
+
+### Objectifs d'apprentissage
+
+Comprendre les aspects pratiques de la mise en place d'expériences et les implications éthiques de la collecte de données. Suivre un protocole détaillé, l'adapter aux environnements réels et surveiller efficacement l'étude.
 
 ### Conceptualisation
 
@@ -209,9 +217,13 @@ Pour enrichir les données, vous pouvez ajouter des informations sur les espèce
 
 ## Étape 3 : analyser les données et réfléchir sur les biais
 
-**Contexte et description du problème à résoudre** : Les élèves analyseront les données recueillies à partir de leurs pièges et les utiliseront pour évaluer leurs hypothèses initiales.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Analyser des données, identifier des tendances, évaluer les résultats expérimentaux, comprendre les limites et le niveau de confiance. Développer des compétences en analyse statistique, représentation visuelle et communication des résultats.
+Les élèves analyseront les données recueillies à partir de leurs pièges et les utiliseront pour évaluer leurs hypothèses initiales.
+
+### Objectifs d'apprentissage
+
+Analyser des données, identifier des tendances, évaluer les résultats expérimentaux, comprendre les limites et le niveau de confiance. Développer des compétences en analyse statistique, représentation visuelle et communication des résultats.
 
 ### Conceptualisation
 

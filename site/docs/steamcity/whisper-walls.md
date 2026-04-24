@@ -71,8 +71,6 @@ Au cours de cette étape, les élèves collaborent pour concevoir et mettre en �
 
 Après l’expérimentation, les élèves analysent les données recueillies pour identifier les tendances et les relations entre les propriétés des matériaux et l’atténuation du son. Ils utilisent des outils visuels tels que des graphiques et des tableaux pour représenter leurs résultats, et calculent des mesures pertinentes comme les réductions de décibels. Cette phase comprend également une réflexion sur le processus expérimental : les élèves évaluent les sources d’erreur potentielles, les limites de la configuration et les moyens d’améliorer la méthodologie. Ils établissent aussi des liens entre leurs résultats et des applications concrètes, comme la réduction du bruit urbain ou les pratiques de construction durable. Cette étape renforce la pensée critique, l’interprétation des données et la communication scientifique rigoureuse.
 
-### L'activité en bref
-
 Il est courant de parler d’isolation dans le cadre des économies d’énergie : pour rendre une maison moins énergivore ou garder une bouteille d’eau fraîche pendant une journée d’été. Mais la chaleur n’est pas le seul type de transfert d’énergie que l’on peut ralentir. Il est aussi possible d’insonoriser, c’est-à-dire de réduire l’intensité des bruits extérieurs.
 
 Plusieurs questions guident l'activité :
@@ -124,9 +122,12 @@ Ce protocole décrit une expérience scientifique qui vise à mesurer le pouvoir
 
 ## Étape 1 : exploration des concepts clés et étude documentaire
 
-**Contexte et description du problème à résoudre à cette étape** : Dans cette étape, les élèves explorent les principes de base du son et du bruit. Ils approfondissent leur compréhension des ondes sonores, de leur intensité et de leur fréquence, ainsi que des effets de la pollution sonore sur la santé et la productivité. Ils réfléchissent à des exemples concrets, comme le bruit urbain et son atténuation dans les espaces résidentiels et publics.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Dans cette étape, les élèves explorent les principes de base du son et du bruit. Ils approfondissent leur compréhension des ondes sonores, de leur intensité et de leur fréquence, ainsi que des effets de la pollution sonore sur la santé et la productivité. Ils réfléchissent à des exemples concrets, comme le bruit urbain et son atténuation dans les espaces résidentiels et publics.
+
+### Objectifs d'apprentissage
+
 
 - **Compétences clés** : Comprendre la physique du son, les méthodes de mesure du bruit et l’impact environnemental de la pollution sonore. Développer la capacité à formuler des hypothèses et à relier la théorie à des enjeux concrets.
 - **Compétences auxiliaires** : Réaliser une recherche bibliographique, exercer une pensée critique et mobiliser le raisonnement scientifique pour définir des hypothèses testables.
@@ -257,7 +258,7 @@ Le protocole doit définir clairement l’objectif de l’étude, les variables 
 La collecte de données implique l’enregistrement des niveaux d’intensité sonore de part et d’autre du matériau, ainsi que le calcul de l’atténuation en décibels. Les élèves planifient soigneusement la reproductibilité de l’expérience en réalisant plusieurs essais pour garantir des résultats fiables. Ils anticipent également les défis possibles, tels que les interférences sonores externes, et proposent des stratégies pour les limiter.
 
 
-Pour vous aider à programmer le capteur approprié, reportez-vous à la section « Fiche pratique 1 - Mesure de l’intensité du son ».
+Pour vous aider à programmer le capteur approprié, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-whisper-walls) (section « Mesure de l’intensité du son »).
 
 
 #### Documenter et collaborer
@@ -298,9 +299,13 @@ Pour conclure cette phase, les élèves s’engagent dans une discussion centré
 
 L'objectif de cette phase est de faire passer les élèves de l'exploration théorique à l'expérimentation pratique. Les élèves utilisent leurs connaissances sur les ondes sonores et l’atténuation, combinées à la question de recherche et à l’hypothèse formulées à l’étape 1, pour concevoir et exécuter une expérience. Cette phase introduit les pratiques scientifiques essentielles, telles que la précision des mesures, la collecte systématique de données et le dépannage.
 
-**Contexte et description du problème à résoudre à cette étape** : Cette étape permet de passer de la préparation théorique à l’expérimentation pratique. Les élèves construiront leur dispositif expérimental, testeront leurs hypothèses et recueilleront systématiquement des données pour étudier la manière dont les matériaux atténuent le son. En appliquant une rigueur scientifique à leurs méthodes, les élèves s’assurent que leurs résultats sont fiables et significatifs.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Les élèves doivent atteindre les objectifs clés suivants :
+Cette étape permet de passer de la préparation théorique à l’expérimentation pratique. Les élèves construiront leur dispositif expérimental, testeront leurs hypothèses et recueilleront systématiquement des données pour étudier la manière dont les matériaux atténuent le son. En appliquant une rigueur scientifique à leurs méthodes, les élèves s’assurent que leurs résultats sont fiables et significatifs.
+
+### Objectifs d'apprentissage
+
+Les élèves doivent atteindre les objectifs clés suivants :
 
 1. **Renforcer les connaissances théoriques par l’application** : en construisant et en testant un dispositif expérimental, les élèves approfondiront leur compréhension de l’intensité sonore, de l’échelle des décibels et de la manière dont les propriétés des matériaux influencent le comportement sonore. Par exemple, ils observeront directement comment les matériaux poreux absorbent le son ou comment les matériaux denses le réfléchissent.
 2. **Développer une méthodologie scientifique** : cette phase offre l’occasion de mettre en œuvre un protocole étape par étape. Les élèves apprendront à contrôler les variables, telles que la distance entre la source sonore et le microphone, et à garantir la répétabilité en effectuant plusieurs essais. Ils affineront également leur capacité à relier le dispositif expérimental à l’hypothèse, en s’assurant que chaque test produit des données significatives.
@@ -397,7 +402,7 @@ Les élèves créeront un tableau de données pour consigner leurs observations 
 | Métal | 0,5 | 7,80 | 80 | 75 | 5 |
 
 
-Pour vous aider à programmer le capteur approprié, reportez-vous à la section « Fiche pratique 2 - Affichage des données sur un écran ».
+Pour vous aider à programmer le capteur approprié, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-whisper-walls) (section « Affichage des données sur un écran »).
 
 
 Encouragez les élèves à inclure des observations sur chaque matériau, telles que la texture, la rigidité ou les défauts potentiels pouvant influencer les résultats.
@@ -452,9 +457,12 @@ Cette étape renforce le lien entre théorie et pratique, en dotant les élèves
 ## Étape 3 : analyse et interprétation des données
 
 
-**Contexte et description du problème à résoudre à cette étape** : Dans cette phase, les élèves passent de la collecte des données à leur analyse, en interprétant les résultats pour valider ou ajuster leurs hypothèses. Après avoir recueilli des données sur les propriétés d’atténuation sonore de divers matériaux, ils entrent dans la phase critique d’examen et d’interprétation. L’objectif est d’évaluer si les résultats expérimentaux confirment leurs hypothèses initiales, et d’identifier des tendances ou des modèles expliquant le comportement du son en interaction avec différents matériaux. Cette étape les invite à relier observations et principes théoriques, tout en prenant en compte incohérences et limites potentielles des données.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** :
+Dans cette phase, les élèves passent de la collecte des données à leur analyse, en interprétant les résultats pour valider ou ajuster leurs hypothèses. Après avoir recueilli des données sur les propriétés d’atténuation sonore de divers matériaux, ils entrent dans la phase critique d’examen et d’interprétation. L’objectif est d’évaluer si les résultats expérimentaux confirment leurs hypothèses initiales, et d’identifier des tendances ou des modèles expliquant le comportement du son en interaction avec différents matériaux. Cette étape les invite à relier observations et principes théoriques, tout en prenant en compte incohérences et limites potentielles des données.
+
+### Objectifs d'apprentissage
+
 
 **Compétences de base** :
 
@@ -607,10 +615,6 @@ Pour approfondir leur apprentissage, les élèves peuvent réfléchir aux questi
 Cette phase souligne la nature itérative de la recherche scientifique : l’analyse ne se limite pas à valider des hypothèses, mais ouvre la voie à de nouvelles questions et pistes d’exploration. En reliant leurs découvertes à des applications concrètes, les élèves comprennent mieux le rôle de la science dans la résolution de problèmes réels. Lors de la présentation et consolidation des résultats, ils sont encouragés à envisager leur expérience comme un élément d’une réflexion plus large sur la création d’environnements de vie plus calmes, durables et confortables.
 
 ---
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Whisper Walls](/ressources/steamcity/programmation/programmation-whisper-walls).
 
 ## Approfondir et aller plus loin
 

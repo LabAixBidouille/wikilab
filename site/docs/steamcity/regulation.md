@@ -105,9 +105,13 @@ Le hackathon nécessite un seul Roobopoli pour tous les groupes : [https://www.r
 
 ## Étape 1 : phase de découverte
 
-**Contexte et description du problème à résoudre à cette étape** : Cette phase initiale doit être encadrée par un enseignant familiarisé ou autodidacte avec le framework Roobopoli. L'objectif est de créer les conditions nécessaires à un travail efficace des élèves pendant la phase de développement. Les élèves apprendront à assembler le véhicule (Roobokart) et étudieront le code fourni pour comprendre sa logique et identifier les points de connexion nécessaires à la réalisation du défi.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Comprendre la structure et les composants du Roobokart. Comprendre le code qui sera utilisé lors du défi d'implémentation. Identifier les points de modification potentiels du code pour le prochain hackathon. Se familiariser avec le règlement du concours et les critères d'évaluation.
+Cette phase initiale doit être encadrée par un enseignant familiarisé ou autodidacte avec le framework Roobopoli. L'objectif est de créer les conditions nécessaires à un travail efficace des élèves pendant la phase de développement. Les élèves apprendront à assembler le véhicule (Roobokart) et étudieront le code fourni pour comprendre sa logique et identifier les points de connexion nécessaires à la réalisation du défi.
+
+### Objectifs d'apprentissage
+
+Comprendre la structure et les composants du Roobokart. Comprendre le code qui sera utilisé lors du défi d'implémentation. Identifier les points de modification potentiels du code pour le prochain hackathon. Se familiariser avec le règlement du concours et les critères d'évaluation.
 
 ### Conceptualisation
 
@@ -201,9 +205,13 @@ Les enseignants doivent observer attentivement l'engagement des élèves durant 
 
 ## Étape 2 : phase pratique collaborative
 
-**Contexte et description du problème à résoudre à cette étape** : Cette phase invite les élèves à travailler en collaboration sur deux défis parallèles portant à la fois sur la mise en oeuvre technique et la conception. S'appuyant sur les connaissances acquises lors de la phase de formation, les élèves mettent désormais en pratique leurs connaissances pour programmer un Roobokart autonome et développer des idées innovantes pour des environnements urbains durables. Grâce à ces activités pratiques, les élèves améliorent leurs compétences en programmation tout en réfléchissant à l'impact écologique des villes du futur.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Développer des compétences en programmation par une application concrète en contexte réel. Appliquer sa compréhension du système Roobokart pour résoudre des problèmes de navigation spécifiques. Explorer les concepts de durabilité environnementale dans l'urbanisme et l'innovation technologique. Collaborer efficacement au sein d'équipes diversifiées pour résoudre des problèmes complexes. Créer des liens entre les solutions techniques et leurs impacts écologiques.
+Cette phase invite les élèves à travailler en collaboration sur deux défis parallèles portant à la fois sur la mise en oeuvre technique et la conception. S'appuyant sur les connaissances acquises lors de la phase de formation, les élèves mettent désormais en pratique leurs connaissances pour programmer un Roobokart autonome et développer des idées innovantes pour des environnements urbains durables. Grâce à ces activités pratiques, les élèves améliorent leurs compétences en programmation tout en réfléchissant à l'impact écologique des villes du futur.
+
+### Objectifs d'apprentissage
+
+Développer des compétences en programmation par une application concrète en contexte réel. Appliquer sa compréhension du système Roobokart pour résoudre des problèmes de navigation spécifiques. Explorer les concepts de durabilité environnementale dans l'urbanisme et l'innovation technologique. Collaborer efficacement au sein d'équipes diversifiées pour résoudre des problèmes complexes. Créer des liens entre les solutions techniques et leurs impacts écologiques.
 
 ### Conceptualisation
 
@@ -282,9 +290,13 @@ Les enseignants doivent prêter une attention particulière à la manière dont 
 
 ## Étape 3 : hackathon
 
-**Contexte et description du problème à résoudre à cette étape** : La phase finale du protocole est consacrée à la présentation publique des solutions développées lors de la phase de collaboration pratique. Ce hackathon sert à la fois de compétition et de forum de présentation où les élèves présentent leurs solutions de programmation et partagent leurs idées pour les villes de demain. Grâce à cette expérience enrichissante, les élèves affinent leur capacité à communiquer des concepts techniques, améliorent leurs compétences en programmation et participent à un brainstorming collectif qui enrichit la compréhension de chacun.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Développer des compétences oratoires et de présentation d'idées techniques et conceptuelles. Affiner les solutions de programmation grâce à des tests compétitifs. Participer au partage collectif des connaissances par le biais de discussions publiques. Appliquer les retours d'expérience en temps réel pour améliorer les solutions. Bénéficier d'une évaluation authentique dans un environnement collaboratif.
+La phase finale du protocole est consacrée à la présentation publique des solutions développées lors de la phase de collaboration pratique. Ce hackathon sert à la fois de compétition et de forum de présentation où les élèves présentent leurs solutions de programmation et partagent leurs idées pour les villes de demain. Grâce à cette expérience enrichissante, les élèves affinent leur capacité à communiquer des concepts techniques, améliorent leurs compétences en programmation et participent à un brainstorming collectif qui enrichit la compréhension de chacun.
+
+### Objectifs d'apprentissage
+
+Développer des compétences oratoires et de présentation d'idées techniques et conceptuelles. Affiner les solutions de programmation grâce à des tests compétitifs. Participer au partage collectif des connaissances par le biais de discussions publiques. Appliquer les retours d'expérience en temps réel pour améliorer les solutions. Bénéficier d'une évaluation authentique dans un environnement collaboratif.
 
 ### Conceptualisation
 
@@ -351,6 +363,8 @@ De même, la présentation encourage les élèves à articuler les liens entre l
 Tout au long du hackathon, les enseignants doivent observer la manière dont les élèves relèvent les défis, s'adaptent aux retours et soutiennent leurs coéquipiers. Ces observations fournissent des informations précieuses sur la progression des élèves, non seulement en termes de compréhension technique et conceptuelle, mais aussi en termes de collaboration et de résilience. Les compétences développées grâce à ce protocole complet — de la programmation et du design thinking au travail d'équipe et à la communication — préparent les élèves à réussir dans un monde de plus en plus interconnecté et technologique.
 
 ---
+
+## Annexe A : Système de scoring
 
 ### Pénalités
 

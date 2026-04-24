@@ -102,7 +102,7 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ## Phase 1 : décryptage du mix énergétique
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Avant de pouvoir modéliser les impacts de modifications du mix énergétique, les élèves doivent comprendre la logique actuelle du système électrique de leur pays. Cette phase les amène à décrypter les caractéristiques techniques, économiques et environnementales de chaque source d'énergie pour comprendre pourquoi le mix actuel s'est constitué ainsi et quelles contraintes pèsent sur son évolution.
 
@@ -213,7 +213,7 @@ L'analyse du mix énergétique européen a révélé aux élèves la complexité
 
 ## Phase 2 : construction du simulateur
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Armés de leur compréhension du mix énergétique actuel, les élèves vont maintenant construire un outil leur permettant de modéliser les impacts de modifications de ce mix. Cette séquence développe leurs compétences en modélisation numérique tout en approfondissant leur compréhension des interdépendances énergétiques.
 
@@ -330,7 +330,7 @@ Pour approfondir la réflexion et préparer l'expérimentation de scénarios, vo
 
 ## Phase 3 : expérimentation et scénarios de transition énergétique
 
-### Contexte et description du problème à résoudre à cette étape
+### Contexte de la séquence
 
 Les élèves disposent maintenant d'un outil fonctionnel pour explorer les conséquences de modifications du mix énergétique. Cette phase les amène à tester différents scénarios de suppression ou réduction drastique d'une source d'énergie, puis à formuler des recommandations stratégiques réalistes. L'objectif est de comprendre la complexité des transitions énergétiques et de développer leur capacité de synthèse pour proposer des solutions opérationnelles.
 

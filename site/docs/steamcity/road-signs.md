@@ -109,7 +109,7 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ## Étape 1 : familiarisation et conception
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Les élèves se familiarisent avec les concepts de base, réfléchissent aux types de signaux à créer, sélectionnent l'un des types proposés et développent une conception préliminaire.
 
@@ -162,7 +162,7 @@ Les élèves acquièrent des compétences en conceptualisation, prototypage et �
 
 
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Vérifier si les panneaux proposés sont susceptibles d'être confondus avec des panneaux existants. Cette étape combine courtes présentations frontales sur les mécanismes d'IA et mise en pratique immédiate.
 
@@ -194,7 +194,7 @@ Les élèves travaillent de manière autonome pour tester l'ambiguïté et colla
 - **Réflexion** : partage des propositions avec les pairs, brainstorming structuré.
 - **Tests d'ambiguïté** : utilisation de [SignVisionAI](https://drive.google.com/drive/folders/1lwb4TkkNRnQ0K3j0s8kxeq7xg7a3pLak?usp=sharing). L'enseignant prépare la caméra, les élèves soumettent leurs projets à la classification un par un. Si un panneau est identifié comme existant, il doit être affiné ou redessiné. Ce processus itératif se poursuit jusqu'à ce que toutes les propositions soient jugées non ambiguës.
 
-Pour installer et utiliser SignVisionAI, reportez-vous à la fiche pratique en annexe.
+Pour installer et utiliser SignVisionAI, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-road-signs).
 
 ### Restitution et réflexion
 
@@ -206,7 +206,7 @@ Les élèves approfondissent leur compréhension des outils d'IA pour la classif
 
 ## Étape 3 : entraînement du modèle en fonction des nouveaux panneaux conçus
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Phase de formation visant à permettre à un outil d'IA de reconnaître les panneaux de signalisation conçus par les élèves.
 
@@ -228,7 +228,7 @@ Le processus d'entraînement suit une séquence structurée :
 - **Représentation du panneau final.** Chaque élève réalise individuellement une version standardisée, en jouant sur les intensités de couleurs et les techniques artistiques.
 - **Entraînement de l'IA.** Les dessins sont photographiés ou scannés, rassemblés dans un dossier, puis classés par catégorie. Sur [Vittascience](https://fr.vittascience.com/ia/images.php), les images sont importées par catégorie et le modèle est entraîné automatiquement. Environ 80 % des images servent à l'entraînement, 20 % au test de fiabilité.
 
-Pour utiliser Vittascience, reportez-vous à la fiche pratique en annexe.
+Pour utiliser Vittascience, reportez-vous à la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-road-signs).
 
 - **Réflexion et évaluation.** L'enseignant analyse les performances du modèle final. Un questionnaire identique à celui de la phase initiale mesure la progression des élèves.
 
@@ -238,9 +238,7 @@ Les élèves acquièrent une expérience pratique de l'entraînement de modèles
 
 ---
 
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Road Signs](/ressources/steamcity/programmation/programmation-road-signs).
+## Pour aller plus loin
 
 ### Approfondir et aller plus loin
 

@@ -106,9 +106,13 @@ Ils prendront conscience de l'importance de la coopération entre ces différent
 
 ## Phase 1 : compréhension de la problématique et définition des indicateurs
 
-**Contexte de la séquence** : L'objectif principal de cette première phase du protocole sur le bruit urbain est de comprendre la problématique et de définir des indicateurs pertinents. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés du bruit urbain et son impact sur la qualité de vie. L'objectif est de les amener à explorer les différents aspects du bruit et à développer collectivement des indicateurs pour l'évaluer. Ces indicateurs, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur le bien-être, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité du paysage sonore urbain et son impact sur la qualité de vie, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré. Ils développeront des compétences en analyse sensorielle et en cartographie sensible, essentielles pour appréhender subjectivement le bruit. De plus, les élèves apprendront à concevoir des indicateurs de mesure du bruit, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à analyser et représenter visuellement leurs perceptions du paysage sonore, ce qui leur permettra de développer leur capacité d'observation et leur créativité.
+L'objectif principal de cette première phase du protocole sur le bruit urbain est de comprendre la problématique et de définir des indicateurs pertinents. Cette phase initiale permet aux élèves de se familiariser avec les concepts clés du bruit urbain et son impact sur la qualité de vie. L'objectif est de les amener à explorer les différents aspects du bruit et à développer collectivement des indicateurs pour l'évaluer. Ces indicateurs, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur le bien-être, formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
+
+### Objectifs d'apprentissage
+
+À travers cette activité, les élèves vont développer plusieurs compétences clés. Ils apprendront à comprendre la complexité du paysage sonore urbain et son impact sur la qualité de vie, ce qui les aidera à mieux saisir l'importance d'un environnement sonore équilibré. Ils développeront des compétences en analyse sensorielle et en cartographie sensible, essentielles pour appréhender subjectivement le bruit. De plus, les élèves apprendront à concevoir des indicateurs de mesure du bruit, une compétence cruciale pour toute démarche scientifique. Enfin, ils seront amenés à analyser et représenter visuellement leurs perceptions du paysage sonore, ce qui leur permettra de développer leur capacité d'observation et leur créativité.
 
 ### Conceptualisation
 
@@ -152,9 +156,13 @@ Les élèves, guidés par l'enseignant, élaboreront collectivement un ensemble 
 
 ## Phase 2 : cartographie sensible du bruit
 
-**Contexte et objectifs** : Cette phase se concentre sur la réalisation d'une cartographie sensible du bruit dans l'environnement quotidien des élèves. Ils vont appliquer les indicateurs développés précédemment pour évaluer et représenter visuellement leur perception du paysage sonore sur un trajet familier. Cette étape pratique permettra aux élèves de traduire leurs ressentis en une représentation visuelle libre, tout en développant leur sensibilité à l'environnement sonore.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences essentielles en cartographie et en expression visuelle. Ils apprendront à traduire leurs perceptions sonores en représentations graphiques, renforçant ainsi leur capacité d'analyse et d'expression. La création de cartes personnalisées leur permettra de comprendre l'importance de la subjectivité dans l'expérience du bruit. En pratiquant l'observation et l'auto-évaluation de leur environnement sonore quotidien, ils développeront une conscience accrue de leur paysage sonore, cruciale pour leur compréhension de l'impact du bruit sur leur bien-être.
+Cette phase se concentre sur la réalisation d'une cartographie sensible du bruit dans l'environnement quotidien des élèves. Ils vont appliquer les indicateurs développés précédemment pour évaluer et représenter visuellement leur perception du paysage sonore sur un trajet familier. Cette étape pratique permettra aux élèves de traduire leurs ressentis en une représentation visuelle libre, tout en développant leur sensibilité à l'environnement sonore.
+
+### Objectifs d'apprentissage
+
+À travers cette phase, les élèves développeront des compétences essentielles en cartographie et en expression visuelle. Ils apprendront à traduire leurs perceptions sonores en représentations graphiques, renforçant ainsi leur capacité d'analyse et d'expression. La création de cartes personnalisées leur permettra de comprendre l'importance de la subjectivité dans l'expérience du bruit. En pratiquant l'observation et l'auto-évaluation de leur environnement sonore quotidien, ils développeront une conscience accrue de leur paysage sonore, cruciale pour leur compréhension de l'impact du bruit sur leur bien-être.
 
 Cette étape peut être réalisée en partenariat avec l'éducation artistique.
 
@@ -210,9 +218,13 @@ Pour conclure cette phase, les élèves réfléchiront sur le processus de carto
 
 ## Phase 3 : mesure quantitative avec capteurs
 
-**Contexte et objectifs** : Cette phase se concentre sur la mesure quantitative du bruit à l'aide de capteurs. Les élèves programmeront et positionneront des capteurs de bruit dans les zones identifiées comme bruyantes lors de la cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans divers lieux. L'objectif est de comparer les ressentis subjectifs avec des données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques ou des caractéristiques particulières du bruit.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : À travers cette phase, les élèves développeront des compétences essentielles en programmation de capteurs et en analyse de données quantitatives. Ils apprendront à utiliser des outils de mesure du son et à interpréter les résultats de manière critique. De plus, en comparant les mesures objectives avec leurs perceptions sensibles, les élèves renforceront leur compréhension de la nature complexe du bruit et de son impact sur l'environnement scolaire.
+Cette phase se concentre sur la mesure quantitative du bruit à l'aide de capteurs. Les élèves programmeront et positionneront des capteurs de bruit dans les zones identifiées comme bruyantes lors de la cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans divers lieux. L'objectif est de comparer les ressentis subjectifs avec des données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques ou des caractéristiques particulières du bruit.
+
+### Objectifs d'apprentissage
+
+À travers cette phase, les élèves développeront des compétences essentielles en programmation de capteurs et en analyse de données quantitatives. Ils apprendront à utiliser des outils de mesure du son et à interpréter les résultats de manière critique. De plus, en comparant les mesures objectives avec leurs perceptions sensibles, les élèves renforceront leur compréhension de la nature complexe du bruit et de son impact sur l'environnement scolaire.
 
 Cette étape peut se faire en partenariat avec les enseignements de mathématique et de technologie.
 
@@ -238,7 +250,7 @@ Cette phase permettra aux élèves de développer des compétences essentielles 
 L'enseignant expliquera les concepts de base de la mesure du son, notamment les décibels (dB) et les différentes échelles de mesure. Il présentera également les capteurs de bruit qui seront utilisés, en expliquant leur fonctionnement et leurs limites.
 
 :::info[Conseils pour les enseignants]
-Nous vous conseillons d'utiliser un set de cartes programmables Micro:bit pour réaliser cette activité. Elles intègrent un capteur de niveau sonore et sont facilement disponibles et programmables. Pour vous aider à programmer ces cartes, vous avez accès à une Section « Fiche pratique », sous forme de fiche d'activité permettant d'utiliser les cartes Micro:bit et vous fournissant le code à utiliser si vous souhaitez réaliser cette partie du protocole.
+Nous vous conseillons d'utiliser un set de cartes programmables Micro:bit pour réaliser cette activité. Elles intègrent un capteur de niveau sonore et sont facilement disponibles et programmables. Pour vous aider à programmer ces cartes, consultez la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-sound-squad), sous forme de fiche d'activité permettant d'utiliser les cartes Micro:bit et vous fournissant le code à utiliser si vous souhaitez réaliser cette partie du protocole.
 :::
 
 #### Planification des mesures
@@ -260,7 +272,7 @@ Ce tableau permettra d'organiser efficacement la collecte de données en identif
 Les capteurs seront programmés puis positionnés sur les points identifiés. Il faudra veiller à sélectionner un emplacement sûr (dans le jardin d'un élève par exemple, dans un commerce, etc.). Les capteurs seront programmés pour effectuer des relevés à heures fixes, par exemple une fois par heure, jour et nuit. Ces données seront envoyées à un serveur central. Il sera important de mesurer en continu sur une période donnée (par exemple une semaine incluant un weekend) pour analyser les variations.
 
 :::info[Conseils pour les enseignants]
-Vous trouverez en annexe une fiche pratique pour programmer votre carte Micro:bit. Diverses modalités de collecte peuvent être organisées :
+Vous trouverez dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-sound-squad) toutes les instructions pour programmer votre carte Micro:bit. Diverses modalités de collecte peuvent être organisées :
 
 - **Option 1 (plusieurs cartes)** : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante.
 - **Option 2 (une seule carte - moins onéreux)** : Utilisez une seule carte Micro:bit et faites-la tourner entre les élèves. Collectez des données pendant 2 jours chez chaque élève, sur une période totale de 15 jours, pour obtenir une représentation de plusieurs points de collecte.
@@ -300,9 +312,13 @@ Pour conclure cette phase, les élèves réfléchiront sur le processus de mesur
 
 ## Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
 
-**Contexte et objectifs** : Afin de conclure le protocole d'étude autour du bruit, la phase finale vise à analyser le rôle des différents acteurs dans la gestion des nuisances sonores urbaines. Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques identifiées, étudieront l'impact de l'urbanisme et des activités humaines sur la pollution sonore, et exploreront les rôles des acteurs impliqués dans la réduction du bruit. L'objectif est de comprendre l'importance de la coopération entre ces acteurs pour améliorer la qualité de vie en ville. Cette étape est importante pour conclure le protocole car elle permet aux élèves de mettre en perspective leur travail, d'en comprendre les implications pour la communauté, et de synthétiser les connaissances acquises tout au long de l'étude.
+### Contexte de la séquence
 
-**Objectifs d'apprentissage** : Au cours de cette phase, les élèves développeront des compétences en analyse des politiques publiques et en recherche appliquée. Ils apprendront à identifier les principaux facteurs du bruit urbain, à comprendre le rôle des différents intervenants dans sa gestion, et à explorer des solutions potentielles. Cette étape renforcera leur esprit critique, leur capacité à résoudre des problèmes complexes, et leur compréhension des enjeux liés au bruit urbain et de l'importance d'une approche collaborative.
+Afin de conclure le protocole d'étude autour du bruit, la phase finale vise à analyser le rôle des différents acteurs dans la gestion des nuisances sonores urbaines. Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques identifiées, étudieront l'impact de l'urbanisme et des activités humaines sur la pollution sonore, et exploreront les rôles des acteurs impliqués dans la réduction du bruit. L'objectif est de comprendre l'importance de la coopération entre ces acteurs pour améliorer la qualité de vie en ville. Cette étape est importante pour conclure le protocole car elle permet aux élèves de mettre en perspective leur travail, d'en comprendre les implications pour la communauté, et de synthétiser les connaissances acquises tout au long de l'étude.
+
+### Objectifs d'apprentissage
+
+Au cours de cette phase, les élèves développeront des compétences en analyse des politiques publiques et en recherche appliquée. Ils apprendront à identifier les principaux facteurs du bruit urbain, à comprendre le rôle des différents intervenants dans sa gestion, et à explorer des solutions potentielles. Cette étape renforcera leur esprit critique, leur capacité à résoudre des problèmes complexes, et leur compréhension des enjeux liés au bruit urbain et de l'importance d'une approche collaborative.
 
 ### Conceptualisation
 
@@ -339,12 +355,6 @@ Cette phase servira de conclusion au travail d'étude en comprenant comment les 
 - Quelles compétences avez-vous développées au cours de ce projet (collecte de données, analyse, communication, etc.) ?
 - Quel a été l'aspect le plus surprenant ou le plus intéressant de cette étude pour vous ?
 - Comment pourriez-vous appliquer ces connaissances et compétences à d'autres problématiques environnementales ou de santé publique ?
-
----
-
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : Sound Squad](/ressources/steamcity/programmation/programmation-sound-squad).
 
 ---
 

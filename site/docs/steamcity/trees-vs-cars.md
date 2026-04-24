@@ -83,7 +83,7 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 
 ## Étape 1 : comprendre les arbres binaires
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Les arbres binaires sont une structure de données omniprésente en informatique. Ils présentent de nombreuses propriétés intéressantes, telles que l'efficacité de la recherche, de l'insertion et de la suppression d'éléments, et la capacité de représenter des expressions mathématiques pour l'analyse syntaxique dans les compilateurs. Ils sont également utilisés dans les algorithmes de compression de données, comme le codage de Huffman. La compréhension du concept d'arbre binaire est essentielle dans ce protocole, car l'arbre de décision des étapes suivantes est une forme particulière d'arbre binaire.
 
@@ -123,7 +123,7 @@ L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où le
 
 ## Étape 2 : création d'arbres de décision pour la classification des véhicules
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Après avoir découvert le concept d'arbre binaire, les élèves verront dans quelle mesure les arbres binaires peuvent être utilisés pour l'apprentissage automatique, en particulier la classification des données.
 
@@ -181,7 +181,7 @@ Enfin, les groupes compareront leurs arbres et leurs performances. Il peut être
 
 ## Étape 3 : construction d'un arbre de décision guidé par algorithme
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 À l'étape précédente, les élèves ont créé un arbre de décision. Pour ce faire, ils ont choisi la condition de séparation à utiliser pour chaque branche. Cependant, un ordinateur ne peut prendre de décisions arbitraires et doit s'appuyer sur des outils statistiques et mathématiques pour analyser les données. Les élèves créeront donc un nouvel arbre de décision, mais cette fois en utilisant une méthode permettant de déterminer la meilleure condition de séparation pour chaque branche.
 
@@ -230,7 +230,7 @@ Le reste du processus est identique à l'étape précédente. Le résultat sera 
 
 ## Étape 4 : explorer les limites des algorithmes d'IA
 
-### Contexte et description du problème à résoudre
+### Contexte de la séquence
 
 Les élèves ont appris à construire et à utiliser un arbre de décision. Cette étape vise à montrer certaines limites inhérentes à l'apprentissage automatique.
 

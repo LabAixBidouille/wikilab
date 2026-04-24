@@ -146,7 +146,7 @@ Pour approfondir la réflexion, les enseignants pourront également utiliser les
 
 ## Phase 2 : collecte de données
 
-### Objectifs de la phase de collecte
+### Contexte de la séquence
 
 Cette étape combine l'utilisation de capteurs pour mesurer les pollutions environnementales et d'outils pour évaluer la qualité du sommeil. Les élèves utiliseront des capteurs de lumière, de température, d'humidité et de bruit pour recueillir des données quantitatives sur les pollutions, ainsi que des capteurs de mouvement pour suivre leur activité nocturne. En parallèle, ils tiendront un journal de bord pour recueillir des données qualitatives sur leur sommeil. Cette approche, alliant technologie et observation personnelle, permettra aux élèves d'acquérir une compréhension approfondie des liens entre pollutions et qualité du sommeil, tout en développant des compétences en collecte et analyse de données variées. Les élèves découvriront comment la collecte de données peut contribuer à sensibiliser à l'impact de la lumière bleue et du bruit sur le sommeil, s'inscrivant ainsi dans une démarche de prévention primaire en santé publique.
 
@@ -197,7 +197,7 @@ Les indicateurs listés ci-dessus sont non exhaustifs et peuvent être ajustés 
 
 Afin de réaliser les mesures quantitatives relatives aux indicateurs tels que le niveau de luminosité, le bruit, la température, l'humidité et le mouvement, les élèves devront programmer une carte électronique et les capteurs associés leur permettant d'automatiser la relève. Cette étape leur permettra d'acquérir des compétences de base en programmation et en électronique. Pour ce faire, nous vous conseillons d'utiliser un environnement de programmation visuel simple et adapté aux débutants tel que MakeCode. Ils créeront un programme permettant aux capteurs de prendre des mesures à des intervalles réguliers (par exemple toutes les 5 secondes, les minutes, les heures ...) et de stocker ces données dans un fichier .csv (Comma-Separated Values, un format de fichier texte où les données sont séparées par des virgules). Les capteurs seront positionnés pour une semaine dans les chambres des élèves réalisant la relève pour effectuer des relevés automatiques selon le protocole établi.
 
-Afin de faciliter la mise en oeuvre de cette étape, vous trouverez en annexe l'ensemble des instructions pour programmer une carte Micro:bit et les capteurs associés afin d'effectuer ces relèves. Le code pour chacune des relèves est fourni, prêt à l'emploi, si besoin.
+Afin de faciliter la mise en oeuvre de cette étape, vous trouverez dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-zzz) l'ensemble des instructions pour programmer une carte Micro:bit et les capteurs associés afin d'effectuer ces relèves. Le code pour chacune des relèves est fourni, prêt à l'emploi, si besoin.
 
 Deux fiches d'activités pratiques sont disponibles : 1. Programmation de la carte pour mesurer des données environnementales : lumière, bruit, température et 2. Programmation de la carte pour mesurer l'amplitude des mouvements pendant la nuit (incluant l'ajout d'un bracelet).
 
@@ -240,7 +240,7 @@ Les contraintes matérielles, bien que limitantes, peuvent donc enrichir la comp
 
 ## Phase 3 : analyse, interprétation et conclusion
 
-### Objectifs de la phase d'analyse
+### Contexte de la séquence
 
 Pour conclure l'étude, les élèves combineront lors de cette dernière étape l'analyse des données collectées sur les pollutions environnementales et la qualité du sommeil. Ils utiliseront des outils statistiques et de visualisation pour identifier les corrélations entre les nuisances urbaines et le sommeil. Ils interpréteront les résultats des capteurs de lumière, de bruit, de température et d'humidité, ainsi que les données d'activité nocturne et les journaux de bord. Cette approche, alliant analyse quantitative et qualitative, permettra aux élèves d'acquérir des compétences en analyse de données variées. Les élèves découvriront comment l'interprétation des données peut contribuer à élaborer des solutions concrètes pour améliorer le sommeil en milieu urbain, s'inscrivant ainsi dans une démarche de santé publique.
 
@@ -398,12 +398,6 @@ Pour approfondir la réflexion, les enseignants pourront utiliser les questions 
 
 ---
 
-## Fiche pratique
-
-Consultez la fiche technique détaillée pour programmer votre carte : [Programmation : ZZZ](/ressources/steamcity/programmation/programmation-zzz).
-
----
-
 ## Aller plus loin
 
 ### Découvrir les outils numériques de conception et de création
@@ -418,6 +412,8 @@ Consultez la fiche technique détaillée pour programmer votre carte : [Programm
 | Freepik et Flaticon | Accès à des ressources de conception, des icônes et des illustrations gratuites et premium | Images, icônes, illustrations | Très accessible | Accès gratuit aux ressources de base avec attribution | Aucun plan pour l'éducation |
 
 ---
+
+## Bibliographie
 
 ### Recherche sur le sommeil et santé publique
 
