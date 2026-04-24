@@ -43,7 +43,7 @@ sidebar_position: 21
 
 </div>
 
-<img src="/img/ressources/unplugged-poverty_free_game_collection/icone.png" alt="Jeux anti-pauvreté" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/poverty-free-game-collection/icone.png" alt="Jeux anti-pauvreté" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -85,7 +85,7 @@ Le jeu s'organise en deux équipes ou plus (3 joueurs par équipe) avec les rôl
 - **Gestionnaire de problèmes** - responsable des communications à l'extérieur de l'équipe
 - **Rédacteur** - responsable de l'écriture et du croquis des idées
 
-<img src="/img/ressources/unplugged-poverty_free_game_collection/exemplecarteroles.png" alt="Exemple de cartes de rôles" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/poverty-free-game-collection/exemplecarteroles.png" alt="Exemple de cartes de rôles" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

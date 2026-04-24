@@ -42,7 +42,7 @@ sidebar_position: 20
 
 </div>
 
-<img src="/img/ressources/unplugged-potluck_march/icone.png" alt="PotLuck March" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/potluck-march/icone.png" alt="PotLuck March" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -86,9 +86,9 @@ Au début, chaque joueur reçoit une quantité aléatoire de nourriture qui lui 
 - Au cours de chaque manche, chaque joueur pioche une carte au hasard et avance du nombre de pas indiqué.
 - L'option de partage des points n'est pas introduite au début du jeu.
 
-<img src="/img/ressources/unplugged-potluck_march/exemplecartesaliment.png" alt="Exemple de cartes d'aliments" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/potluck-march/exemplecartesaliment.png" alt="Exemple de cartes d'aliments" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
-<img src="/img/ressources/unplugged-potluck_march/configuration.png" alt="Configuration du plateau de jeu PotLuck March" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/potluck-march/configuration.png" alt="Configuration du plateau de jeu PotLuck March" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

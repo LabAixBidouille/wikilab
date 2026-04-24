@@ -40,7 +40,7 @@ sidebar_position: 1
 
 </div>
 
-<img src="/img/ressources/unplugged-argile_et_sculpture/icone.png" alt="Argile et sculpture" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/argile-et-sculpture/icone.png" alt="Argile et sculpture" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -127,13 +127,13 @@ L'enseignant peut choisir d'utiliser du matériel pour cette activité ou laisse
 :::
 
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-<img src="/img/ressources/unplugged-argile_et_sculpture/7.png" alt="Exemple carte émotion 1" style={{maxWidth: '240px'}} />
-<img src="/img/ressources/unplugged-argile_et_sculpture/8.png" alt="Exemple carte émotion 2" style={{maxWidth: '240px'}} />
+<img src="/img/ressources/unplugged/argile-et-sculpture/7.png" alt="Exemple carte émotion 1" style={{maxWidth: '240px'}} />
+<img src="/img/ressources/unplugged/argile-et-sculpture/8.png" alt="Exemple carte émotion 2" style={{maxWidth: '240px'}} />
 </div>
 
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-<img src="/img/ressources/unplugged-argile_et_sculpture/9.png" alt="Exemple carte émotion 3" style={{maxWidth: '240px'}} />
-<img src="/img/ressources/unplugged-argile_et_sculpture/10.png" alt="Exemple carte émotion 4" style={{maxWidth: '240px'}} />
+<img src="/img/ressources/unplugged/argile-et-sculpture/9.png" alt="Exemple carte émotion 3" style={{maxWidth: '240px'}} />
+<img src="/img/ressources/unplugged/argile-et-sculpture/10.png" alt="Exemple carte émotion 4" style={{maxWidth: '240px'}} />
 </div>
 
 ---

@@ -42,7 +42,7 @@ sidebar_position: 17
 
 </div>
 
-<img src="/img/ressources/unplugged-likadislike/icone.png" alt="Likadislike" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/likadislike/icone.png" alt="Likadislike" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -83,13 +83,13 @@ Donner des prétextes pour exprimer par des mots, à l'oral, ses émotions et se
 Mélangez le paquet de cartes situations et placez-le au centre des joueurs. Donnez à chaque joueur une carte de réaction de chaque type : Je n'aime pas, J'aime, J'adore. Disposez les cartes de groupes au centre : Majorité, Médiane, Minorité.
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-likadislike/Printables.png" alt="Cartes de situations imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged-likadislike/Printables%20(2).png" alt="Cartes de réaction imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables.png" alt="Cartes de situations imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables%20(2).png" alt="Cartes de réaction imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged-likadislike/Printables%20(3).png" alt="Cartes de groupe imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged-likadislike/Printables%20(4).png" alt="Cartes supplémentaires imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables%20(3).png" alt="Cartes de groupe imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables%20(4).png" alt="Cartes supplémentaires imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---

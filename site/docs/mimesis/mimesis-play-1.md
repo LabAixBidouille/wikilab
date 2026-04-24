@@ -36,7 +36,7 @@ sidebar_position: 1
 
 </div>
 
-<img src="/img/ressources/mimesis-play-1/icone.png" alt="Une question d'échelle" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-1/icone.png" alt="Une question d'échelle" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -127,7 +127,7 @@ L'enseignant·e joue le rôle du soleil et se place au milieu de la cour/du parc
 | Uranus | 50 |
 | Neptune | 78 |
 
-<img src="/img/ressources/mimesis-play-1/Échelle du système solaire.png" alt="Échelle du système solaire" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-1/Échelle du système solaire.png" alt="Échelle du système solaire" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::info[Remarque]
 

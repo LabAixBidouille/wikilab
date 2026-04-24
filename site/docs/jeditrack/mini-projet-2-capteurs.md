@@ -73,7 +73,7 @@ Le Raspberry-Pi Pico est un microcontrôleur dont le principal avantage est sa p
 
 Ci-dessous la fiche technique du Pico, que vous pouvez montrer aux participants, sans pour autant détailler chacune des broches.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_100832.png" alt="Fiche technique du Raspberry Pi Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_100832.png" alt="Fiche technique du Raspberry Pi Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Les broches qu'il peut être intéressant de détailler sont les GND (qui se branchent sur le pole négatif de votre alimentation, le VSYS (qui se branche au pole positif de votre source d'alimentation), les broches VBUS et 3.3V (qui servent à fournir du courant), et les broches GP (qui sont les broches programmables).
 
@@ -90,7 +90,7 @@ Nous allons programmer les Pico avec le programme « Thonny », qui n'est au fon
 
 Thonny se présente ainsi :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_101341.png" alt="Interface Thonny" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101341.png" alt="Interface Thonny" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Il y a 2 zones principales. La première (encadrée en rouge) est la zone du programme. C'est là que vous allez écrire votre code à proprement parler. La seconde zone est votre console, dans laquelle apparaissent différents messages. Vous pouvez demander d'y écrire des message, des mesures, etc. via le programme. Par exemple si votre microcontrôleur mesurait la température mais ne disposait pas d'un écran, vous pourriez demander au programme d'écrire la mesure dans la console. L'autre aspect important de la console sont les codes d'erreur. Du texte en rouge vous signalera une problème dans le code. Nous y reviendrons plus tard.
 
@@ -109,7 +109,7 @@ Pour s'assurer que le Pico soit identifié comme un interpréteur par Thonny, il
 
 Pour bien le connecter, branchez votre Pico à l'aide du câble micro USB, en gardant le bouton « Bootsel » de la carte enfoncée. Vous pouvez relâcher le bouton une fois que la fenêtre contenant le fichier du Pico s'ouvre (il apparait comme un emplacement de stockage sur votre PC, ayant pour nom RPI-RP2).
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_101612.png" alt="Connexion du Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101612.png" alt="Connexion du Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Dans cet emplacement, glissez le fichier **MicroPython UF2 file (téléchargeable ici : [https://www.raspberrypi.com/documentation/microcontrollers/micropython.html](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) ). Une fois que c'est fait, vous pouvez ouvrir Thonny et définir le PiCo comme interpréteur.**
 
@@ -131,21 +131,21 @@ Insistez sur l'importance de la syntaxe (bien écrire tous les caractères, resp
 
 Ecrivez donc maintenant une phrase dans la console à l'aide de la commande « print ».
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_101910.png" alt="Commande print" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101910.png" alt="Commande print" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Soyez déjà vigilant à la syntaxe. En effet la moindre différence peut empêcher ce programme pourtant très simple de fonctionner. Ecrire Print avec une majuscule par exemple ne fonctionne pas, oublier les guillemets non plus, etc.
 
 Une fois le code écrit, appuyer sur le bouton exécuter, vous devrez alors choisir d'utiliser l'ordinateur ou la carte pour sauvegarder le programme. Pour pouvoir exécuter le programme sur la carte sans qu'elle soit branchée, il faut sauvegarder le programme sur cette dernière. Nous vous conseillons cependant de faire une copie sur l'ordinateur au cas où il y a un problème sur la carte.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_101934.png" alt="Sauvegarde du programme" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101934.png" alt="Sauvegarde du programme" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 *Exemple d'erreur :*
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102120.png" alt="Exemple d'erreur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102120.png" alt="Exemple d'erreur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le message en rouge sur l'image indique qu'il y a une erreur sur le nom « Print » (Print avec une majuscule n'existe pas). Nous avons donc corrigé et relancé le code :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102212.png" alt="Code corrigé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102212.png" alt="Code corrigé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 et le texte « Ceci par exemple » est bien ce que nous voulions.
 
@@ -159,11 +159,11 @@ Vous allez maintenant allumer la Led intégrée au Pico. Pour ce faire vous alle
 
 Pour en revenir à la Led, importer « Pin » dans le programme :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102339.png" alt="Import Pin" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102339.png" alt="Import Pin" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Une fois les fonctions liées aux pins importées, nous allons renommée notre Pin liée à la led. En effet la Led intégrée à la carte est reliée à une pin, qui porte le numéro 25 :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102417.png" alt="Définition de la broche LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102417.png" alt="Définition de la broche LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Nous avons ici défini « led » comme étant la broche 25 en mode sortie ( OUT ). « led » est maintenant le nom associée à la pin 25, et nous pourrons dès lors utiliser « led » dans le code, plutôt que d'avoir à écrire « Pin(25, Pin.OUT) » à chaque fois, pour la contrôler.
 
@@ -173,16 +173,16 @@ Nous avons ici défini « led » comme étant la broche 25 en mode sortie ( OUT 
 
 Allumez maintenant la led :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102512.png" alt="Allumer la LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102512.png" alt="Allumer la LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 « led.on( ) » définit donc l'état de « led » sur allumé (on). Les broches de base, dites « digitales », ne peuvent être qu'allumées ( on) ou éteintes (off), c'est-à-dire que le courant électrique y passe ou non. On parle aussi respectivement d'état haut (high en anglais) ou bas (low en anglais).
 Exécuter le programme pour allumer la led de la carte.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102556.png" alt="LED allumée" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102556.png" alt="LED allumée" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Une fois la led allumée, elle ne s'éteindra pas tant qu'on ne lui aura pas ordonné (ou débranchée). Pour l'éteindre il suffit de relancer le programme mais en ayant changé « on » par « off ».
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102512_1.png" alt="Éteindre la LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102512_1.png" alt="Éteindre la LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Nous allons maintenant alterner entre les 2 états, afin d'être certain que le programme fonctionne, car une fois la led éteinte on ne sait pas si le programme fonctionne ou si la carte n'est juste pas alimentée.
 
@@ -192,7 +192,7 @@ Nous allons pour nous aider utiliser la fonction « sleep », qu'il va falloir i
 *Attention « sleep » ne met le programme en pause, mais va plutôt ajouter un délai avant d'exécuter la commande qu'elle précède. Nous l'employons ici pour bien voir les alternances. Sans ce « sleep » il n'y aurait pas de délai entre les instructions et la led resterait théoriquement allumée 0 seconde.*
 :::
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102722.png" alt="Alternance LED avec sleep" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102722.png" alt="Alternance LED avec sleep" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::note
 *Des données incluses dans les parenthèses d'une fonction comme ici s'appellent des arguments. L'argument de la fonction « sleep » dans la fenêtre ci-dessus est le temps, en l'occurrence 1 seconde.*
@@ -206,7 +206,7 @@ Le code précèdent permet d'allumer la led 1 seconde avant de s'éteindre, mais
 
 Nous allons utiliser des boucles. Il y a plusieurs façon de faire une boucle, mais nous allons commencer par une boucle infinie utilisant « while » qui signifie « tant que ».
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102813.png" alt="Boucle while" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102813.png" alt="Boucle while" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 While permet de répéter tout ce qui est indenté en-dessous de lui de se répéter tant que la condition associée est remplie. Plusieurs choses à soulever ici :
 
@@ -225,7 +225,7 @@ Attention à ne pas faire d'amalgame avec une variable mathématique. En program
 
 Dans notre cas on veut juste une sorte de compteur et allons simplement appeler notre variable i, mais vous pouvez l'appelez comme vous le souhaitez. Avant d'y avoir recours il faut définir ce dont il s'agit, et nous allons simplement lui donner une valeur numérique.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_102925.png" alt="Boucle avec variable" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102925.png" alt="Boucle avec variable" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 La logique est la suivante : la boucle se lance tant que i est inférieur à 5, nous lui donnons la valeur de zéro avant d'entrer la boucle, et à la fin de chaque boucle on augmente i de 1. « i = i +1 » remplit cette fonction. Au lancement du programme i = 0, par i = i + 1 , i sera égal à 0+1, soit 1. La deuxième fois que la boucle s'exécute i vaudra 1, par i = i +1, sa nouvelle valeur sera 1 +1 , soit 2, etc.
 
@@ -237,7 +237,7 @@ Le « print(i) » ne sert ici qu'à observer l'évolution de i. Notez qu'il n'y 
 
 Nous allons maintenant gérer une Led extérieure. Le code sera le même a part pour le numéro de la broche utilisée. Il va par contre falloir faire le montage.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_103207.png" alt="Montage LED externe" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_103207.png" alt="Montage LED externe" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Branchez une des broches GND (ground en anglais, il s'agit en quelque sorte du pole négatif comme sur une pile) à une des lignes. Sur cette même ligne branchez l'un des côtés d'une résistance, et à l'autre extrémité branchez la petite patte de la led (les leds ont des pôles, elles ne s'allument pas si elle sont branchées a l'envers). Enfin reliez la longue broche de la led à l'une des pins du Pico numérotée GP... (sur notre montage il s'agit de la GP21).
 
@@ -249,7 +249,7 @@ La résistance est un composant qui va en quelque sorte « freiner » le courant
 
 Prenez n'importe quel code précédent et remplacez le numéro de la pin 25 par celle à laquelle votre led est branchée.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_103321.png" alt="Code LED externe" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_103321.png" alt="Code LED externe" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Contrôler la led avec un bouton: les broches en entrée.**
 
@@ -265,7 +265,7 @@ Vous pouvez remplacer le « on » par « value(1) » et « off » par « value(0
 
 Le terme  « value » va correspondre à l'état de la broche. Pour mesurer si la valeur du bouton est en état haut par exemple, on va écrire « bouton.value == 1 ». Identifier la valeur lue par la broche ne suffit pas à y associer une action. Pour la compléter nous allons avoir recours aux conditions, qui commence en général par un « if » (« si » en français). Dans notre cas nous aurons « if bouton.value == 0 » , c'est-à-dire si la valeur lue par la broche bouton est 0 (qu'aucun courant ne passe), alors je ferai quelque chose. Ce quelque chose est tout ce qui est indenté dans le « if » :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_103513.png" alt="Contrôle LED avec bouton" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_103513.png" alt="Contrôle LED avec bouton" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le « else » auquel nous avons recours peut être combiner avec un if, pour devenir « elif » auquel il faut ajouter une condition, et signifie « sinon si ». On peut alors avoir un premier « if », si sa condition n'est pas remplie alors on passera au « elif », et enfin si sa condition n'est pas remplie non plus on passera au « else ».
 
@@ -287,11 +287,11 @@ Sur l'image de droite on observe que le capteur a 4 pins. Le VCC se connectera �
 
 Ce sont les bornes « trig » et « echo » qui vont nous intéresser, et que nous allons programmer.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_104144.png" alt="Capteur ultrasonore" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104144.png" alt="Capteur ultrasonore" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 « Trig est la broche qui contrôle l'envoi du signal, et « echo » celle qui mesure le retour. Commencez donc simplement par  identifier les broches dans le programme (un peu comme fait précédemment avec les led et le bouton). « Trig » sera en sortie, car il envoie le signal, et « echo » en entrée, car il recevra le signal. Vous pouvez bien sur brancher le capteur, via une breadboard, au Pico, en veillant à ce que les broches sur lesquels vous branchez le capteur correspondent à celles du Pico.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_104222.png" alt="Configuration des broches capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104222.png" alt="Configuration des broches capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::note
 *Pull down est un nom donné à un système qui permet de lire clairement un signal électrique. On ne va pas rentrer dans les détails mais il fait un rapport entre  la tension aux bornes de plusieurs résistances pour savoir si celle du système change bien.*
@@ -304,23 +304,23 @@ Le VCC du capteur est branché au « VBUS » du pico. Cette broche correspond au
 Les annotations à côté des broches sont décalées à cause des trous mais sur l'image trig est bien branchée à la Pin 16 et echo à la 17.
 D'autre part, essayez tant que possible de passer par la breadboard, plus tard dans le projet vous aurez potentiellement plusieurs éléments à brancher sur une même pin (principalement pour l'alimentation) et brancher les broches GND et VBUS sur les colonnes + et -- du breadboard permettent d'alimenter plusieurs composants en les branchant simplement à ces dernières.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_104355.png" alt="Branchements capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104355.png" alt="Branchements capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Revenons au code. La première chose à faire est d'allumer le « trig », mais vu le mode de fonctionnement du capteur on ne peut pas juste l'allumer puis observer « echo ». On va devoir le faire s'allumer pendant un court lapse de temps. Ensuite nous allons observer ce qu'il se passe sur « echo », avec « print ».
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_104440.png" alt="Signal trig" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104440.png" alt="Signal trig" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le petit programme ci-dessus permet donc de générer un signal de 2 us. Il faut maintenant savoir qu'en faire. Il faut maintenant trouver que faire avec ce signal. Le but est donc de calculer le temps entre le moment de l'émission du signal, et le moment où il reviendra.
 
 Il n'existe pas de fonction toute faite pour ça. Il va falloir faire appel à des variables et à une fonction qui compte le temps.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_104520.png" alt="Calcul du temps" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104520.png" alt="Calcul du temps" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 time.ticks_us tourne en quelque sorte en permanence dans votre programme (il s'écoule en micro secondes). Ici on définit donc start comme le moment ou le signal est envoyé (disons par exemple que time.ticks est arrivé à 1703, au hasard), puis on définit un end quand le signal reviens (par exemple, time.ticks se serait écoulé jusqu'à 1707). Dans notre exemple cela signifierait que le signal a mis 4 us pour revenir (end -- start).
 Maintenant que le programme peut calculer le temps, il faut arriver à calculer distance sur base de cette dernière. Pour rappel, le capteur est ultrasonore, il utilise des sons, et la vitesse du son est connue. Attention aussi à bien prendre en compte le fait que le signal fait un aller-retour (il faut donc diviser le résultat par deux quelque part).
 La vitesse du son dans l'air à 20°C est d'à peu près 343 m/s. time.ticks_us fonctionne en microsecondes, et on va mesurer la distance en centimètre avec le robot. 343 m/s devient 34300 cm / 1.000.000 us. On peut directement diviser le numérateur par 2 (comme le signal fait un aller-retour), et pour calculer la distance on va multiplier « duration » par ce nombre : distance = duration * 17165/1000000
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image.png" alt="Calcul de la distance" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image.png" alt="Calcul de la distance" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le programme ci-dessus permet donc d'afficher la distance mesurée dans la console. Testez le en déplaçant un objet devant lui et estimez si les distances sont correctes (vous pouvez déplacer le capteur mais il est plus sûr de le laisser posé, pour éviter les faux contacts).
 
@@ -335,11 +335,11 @@ Branchez une source d'alimentation extérieure (un transfo ou une pile 9V) sur l
 
 Il faut ensuite brancher un fil entre les broches qui contrôlent le moteur sur le Pico (dans notre exemple les broches 18 et 19) et les broches IN1 et IN2 du DRV. De l'autre côté du module branchez un câble entre les broches du moteur et les pin OUT1 et OUT2. Sur l'image au-dessus par exemple, une des broches du moteur est reliées à OUT2, qui est reliées dans le DRV à IN2, et IN2 est reliée à la Pin19 du Pico (le trajet vert), le trajet jaune relie l'autre borne à OUT1, relié à IN1, relié à la Pin18.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_1.png" alt="Schéma branchement moteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_1.png" alt="Schéma branchement moteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Concernant le code, rien de bien compliqué. Comme pour les leds il faut définir les pins que nous allons employer. Ici nous allons définir laquelle est positive et laquelle est négative. Pour chaque moteur il faut donc 2 pin.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_2.png" alt="Code moteur simple" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_2.png" alt="Code moteur simple" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 En exécutant le programme ci-dessus avec les bons branchements, votre moteur devrait se mettre en marche. Pour inverser son sens de rotation, inversez les valeurs de moteur1 et moteur2.
 
@@ -347,41 +347,41 @@ Notre robot aura 2 moteurs. Pour contrôler un second moteur il suffit donc de p
 
 Le code pour faire avancer les 2 moteurs ressemblera donc à ceci :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_3.png" alt="Code deux moteurs" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_3.png" alt="Code deux moteurs" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Si vous avez besoin de changer les sens de rotation ou d'arrêter les moteurs en cours de programme (ce qui sera notre cas pour le robot), vous pouvez créer des fonctions pour éviter de devoir retaper l'état de chaque broche de chaque moteur. Par exemple :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_4.png" alt="Fonctions moteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_4.png" alt="Fonctions moteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Vous pouvez définir une fonction avancer, reculer et stop pour chaque moteur. A priori nous aurons déjà monté le robot, ce qui rendra les tests plus parlants. Maintenant qu'on peut contrôler indépendamment chaque moteur, il faut comprendre comment contrôler le robot avec les 2 en même temps. Par exemple pour avancer vous allez évidemment faire avancer les 2 moteurs vers l'avant, pour reculer les 2 moteurs vers l'arrière, et pour s'arrêter les 2 moteurs à l'arrêt. Mais pour tourner il va falloir les faire tourner dans des sens inverse (le moteur droit vers l'avant, le gauche vers l'arrière pour tourner vers la gauche, et inversement le moteur droit en arrière et le gauche en avant pour faire pivoter le robot vers la droite). C'est dans un cas comme celui-ci qu'il est intéressant de définir des fonctions. Vous pouvez créer une petite séquence pour tester chacun des mouvements possibles pour le robots. Par exemple :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_5.png" alt="Séquence de test mouvements" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_5.png" alt="Séquence de test mouvements" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ## Lier le tout
 
 Nous allons maintenant combiner les codes des moteurs et du capteur :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_6.png" alt="Code combiné - définitions" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_6.png" alt="Code combiné - définitions" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le code ci-dessus définit tout ce dont on a besoin pour le programme. Sous celui-ci, dans thonny, le code ci-dessous nous donne le début du programme, qui consiste pour l'instant à faire avancer le robot si la distance est supérieure à 15 cm.
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_7.png" alt="Code combiné - programme principal" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_7.png" alt="Code combiné - programme principal" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 On ne donnera pas le programme tout fait aux jeunes, le but de la séance étant plutôt de les faire réfléchir par eux-mêmes à comment combiner le capteur et les moteurs.
 La suite du programme s'établira un peu par expérimentation. Par essais erreur et en modifiant le code petit à petit on se rend compte qu'il faut faire reculer le robot avant de le faire tourner pour qu'il puisse pivoter correctement.
 Voici un exemples de code qui fonctionne (à combiner avec la partie en haut à gauche, attention aux indentations) :
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_8.png" alt="Code final robot" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_8.png" alt="Code final robot" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Enfin, ci-dessous un schema des connections :**
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_9.png" alt="Schéma des connections" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_9.png" alt="Schéma des connections" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réellement, il ne sert que de repère sur les schémas):
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/image_10.png" alt="Orientation du driver DRV8833" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_10.png" alt="Orientation du driver DRV8833" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-<img src="/img/ressources/jeditrack-mini_projet_2_capteurs/Capture_dcran_2025-09-16_111912.png" alt="Robot finalisé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_111912.png" alt="Robot finalisé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Checklist pour les animateurs
 

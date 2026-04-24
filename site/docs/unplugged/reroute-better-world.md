@@ -44,7 +44,7 @@ sidebar_position: 23
 
 </div>
 
-<img src="/img/ressources/unplugged-reroute_better_world/icone.png" alt="Reroute better world" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/reroute-better-world/icone.png" alt="Reroute better world" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -84,7 +84,7 @@ Avec Reroute a better world, élaborez des plans de transport pour amener votre 
 - Donnez le pion de transport de son choix à chaque joueur.
 - Les joueurs piochent une carte de ville de départ.
 
-<img src="/img/ressources/unplugged-reroute_better_world/plateau.png" alt="Plateau de jeu Reroute better world" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/reroute-better-world/plateau.png" alt="Plateau de jeu Reroute better world" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Chaque tour est constitué de trois phases : phase de programmation, phase de transport, phase de comptabilisation.
 

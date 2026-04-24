@@ -35,7 +35,7 @@ sidebar_position: 2
 
 </div>
 
-<img src="/img/ressources/mimesis-play-2/icone.png" alt="Conteurs de sciences" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-2/icone.png" alt="Conteurs de sciences" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -118,25 +118,25 @@ Le carnet de bord d'observation scientifique est une sous-activité individuelle
 - *Thème : l'énergie et ses conversions* : Les différentes formes d'énergies ; Les sources d'énergies ; Les conversions d'énergies ; Les économies d'énergies ; Les impacts environnementaux
 - *Thème : le ciel et la terre* : Mouvement de rotation de la Terre ; Les saisons et les climats ; Les composants du ciel (étoiles, planètes) ; Les composants de la Terre ; Les différents types de paysage ; Les phénomènes naturels
 
-<img src="/img/ressources/mimesis-play-2/exemplecartesscience.png" alt="Exemple de cartes concepts scientifiques" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-2/exemplecartesscience.png" alt="Exemple de cartes concepts scientifiques" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
 
 **Pioche 2 - Décors et paramètres**
 
 Jungle ; Forêt ; Jardin ; Désert ; Sous l'océan ; Plage ; Sur une planète ; Dans le ciel ; Dans l'espace ; Pays imaginaire ; Laboratoire scientifique ; En ville ; À la campagne ; Grotte mystérieuse ; Au zoo ; À la montagne ; Usine de robots ; Champ de panneaux solaires ; Dans un parc éolien.
 
-<img src="/img/ressources/mimesis-play-2/exemplecartesdecor.png" alt="Exemple de cartes décors" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-2/exemplecartesdecor.png" alt="Exemple de cartes décors" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
 
 **Pioche 3 - Personnages**
 
 Un chien ; un chat ; une fourmi ; un poisson ; une coccinelle ; un serpent ; un crocodile ; un tigre ; une plante ; un champignon ; un arbre ; une baleine ; une abeille ; un singe ; un perroquet ; un moustique ; un explorateur ; un enfant ; un scientifique ; un alien ; un robot ; un jardinier ; une personne âgée ; un voyageur.
 
-<img src="/img/ressources/mimesis-play-2/exemplecartespersonnage.png" alt="Exemple de cartes personnages" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-2/exemplecartespersonnage.png" alt="Exemple de cartes personnages" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
 
 **Pioche 4 - Contraintes d'improvisation**
 
 Ton comique ; ton tragique ; ton clownesque ; ton triste ; enquête policière ; discours scientifique ; "Il était une fois..." ; "Dans un royaume lointain" ; Indiana Jones ; journal télévisé ; documentaire ; super héros.
 
-<img src="/img/ressources/mimesis-play-2/exemplecarteston.png" alt="Exemple de cartes contraintes" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-2/exemplecarteston.png" alt="Exemple de cartes contraintes" style={{maxWidth: '450px', marginTop: '1rem', marginBottom: '1.5rem'}} />
 
 :::tip[Ressources imprimables]
 
@@ -262,8 +262,8 @@ En somme, la réalisation de vidéos éducatives peut être une alternative cré
 Cartes fournies : Albert Einstein ; Michael Faraday ; Isaac Newton ; Marie Curie ; Ada Lovelace ; Katherine Johnson ; Louis Pasteur ; Charles Darwin ; Archimède ; Rosalind Franklin ; Grace Hopper ; Dian Fossey ; Galilée ; Léonard de Vinci ; Alan Turing ; Marthe Gautier ; Mary Anning (plus une carte vierge à compléter).
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1.5rem', marginBottom: '1.5rem'}}>
-  <img src="/img/ressources/mimesis-play-2/exemplecartesscientifiquecelebre.png" alt="Exemple de cartes scientifiques célèbres" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/mimesis-play-2/exempleficheidentité.png" alt="Exemple de fiche d'identité" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-2/exemplecartesscientifiquecelebre.png" alt="Exemple de cartes scientifiques célèbres" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-2/exempleficheidentité.png" alt="Exemple de fiche d'identité" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 :::tip[Ressources imprimables]

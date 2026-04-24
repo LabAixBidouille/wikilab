@@ -46,7 +46,7 @@ sidebar_position: 8
 
 </div>
 
-<img src="/img/ressources/unplugged-equal/icone.png" alt="Equal" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/equal/icone.png" alt="Equal" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -122,7 +122,7 @@ Avant de commencer à jouer, le professeur :
 - Se muni d'un chronomètre.
 - Détermine l'équipe de départ et gère la rotation dans le sens des aiguilles d'une montre.
 
-<img src="/img/ressources/unplugged-equal/exempleprofession.png" alt="Exemple de carte profession" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/equal/exempleprofession.png" alt="Exemple de carte profession" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 À chaque tour chaque équipe :
 
@@ -211,7 +211,7 @@ Les joueurs pourront trouver des informations complémentaires sur les métiers 
 - Saviez-vous que l'étoile la plus grande de notre galaxie est VY Canis Majoris (40 fois plus grande et 350 000 fois plus brillante que le Soleil) ?
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
-  <img src="/img/ressources/unplugged-equal/exemplelivrecuriosite.png" alt="Exemple du Livre des curiosités" style={{maxWidth: '500px'}} />
+  <img src="/img/ressources/unplugged/equal/exemplelivrecuriosite.png" alt="Exemple du Livre des curiosités" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de page du Livre des curiosités</figcaption>
 </figure>
 

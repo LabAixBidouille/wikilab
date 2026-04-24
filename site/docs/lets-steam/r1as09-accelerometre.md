@@ -41,7 +41,7 @@ sidebar_position: 9
 
 </div>
 
-<img src="/img/ressources/capteurinclinaisonaccelerometer/icone.png" alt="Accéléromètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as09-accelerometre/icone.png" alt="Accéléromètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -76,7 +76,7 @@ L'accéléromètre 3 axes est déjà intégré à la carte, vous n'avez donc pas
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/capteurinclinaisonaccelerometer/motion_sensor_step1.png" alt="Schéma de câblage du capteur d'inclinaison" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as09-accelerometre/motion_sensor_step1.png" alt="Schéma de câblage du capteur d'inclinaison" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler trois LED sur la carte
 

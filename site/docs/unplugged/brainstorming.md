@@ -39,7 +39,7 @@ sidebar_position: 5
 
 </div>
 
-<img src="/img/ressources/unplugged-brainstorming/icone.png" alt="Brainstorming" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/brainstorming/icone.png" alt="Brainstorming" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -109,7 +109,7 @@ A la fin du jeu, l'équipe qui a le plus de points gagne.
 
 </div>
 
-<img src="/img/ressources/unplugged-brainstorming/exempleficheeleve.png" alt="Exemple de fiche élève Brainstorming" style={{maxWidth: '280px', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/brainstorming/exempleficheeleve.png" alt="Exemple de fiche élève Brainstorming" style={{maxWidth: '280px', flexShrink: 0}} />
 
 </div>
 

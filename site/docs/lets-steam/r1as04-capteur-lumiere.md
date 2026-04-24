@@ -41,7 +41,7 @@ sidebar_position: 4
 
 </div>
 
-<img src="/img/ressources/capteurs_lumiere/icone.png" alt="Capteurs de lumière : découverte et première utilisation" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/icone.png" alt="Capteurs de lumière : découverte et première utilisation" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -84,7 +84,7 @@ Les **photorésistances** (alias LDR, cellule photoélectrique, ou cellule photo
 
 </div>
 <div style={{flex: '0 0 300px'}}>
-<img src="/img/ressources/capteurs_lumiere/ldr_step1%20(1).png" alt="Schéma de câblage" style={{width: '100%', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/ldr_step1%20(1).png" alt="Schéma de câblage" style={{width: '100%', borderRadius: '8px'}} />
 </div>
 </div>
 
@@ -94,7 +94,7 @@ La manière la plus simple de mesurer un capteur résistif est de connecter une 
 
 Une fois que la breadboard a été assemblée, il faut la connecter à la carte. La carte possède quatre blocs de broches, nommés respectivement **CN1**, **CN2**, **CN3** et **CN4**. Comme les quatre blocs ont des fonctions différentes, utilisez le bouton bleu situé à l'un des quatre coins de la carte comme point de repère pour identifier correctement les quatre blocs.
 
-<img src="/img/ressources/capteurs_lumiere/3%20(1).png" alt="Connexion des câbles à la carte" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/3%20(1).png" alt="Connexion des câbles à la carte" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 Le fil rouge doit être connecté à la **broche 4** du bloc **CN2**, qui est connectée en interne à un potentiel de 3,3 V. Le fil noir doit être connecté à la **broche 6** du bloc **CN2**, qui est connectée en interne au potentiel de masse (**GND**). Enfin, le fil jaune doit être connecté à la **broche 1** du bloc **CN4**. Cette broche est connectée en interne à la broche d'entrée analogique nommée **A0**.
 
@@ -116,7 +116,7 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 Dans l'éditeur MakeCode, cliquez sur le bouton "Show console Simulator" sur le côté gauche, en dessous de la représentation de la carte. Le terminal montre alors les valeurs de lumière lues périodiquement par le programme. Ces valeurs peuvent être exportées sous forme de fichier CSV en cliquant sur le bouton "Export data" dans le coin supérieur droit de la console.
 
-![Console MakeCode](/img/ressources/capteurs_lumiere/lumière.png)
+![Console MakeCode](/img/ressources/lets-steam/r1as04-capteur-lumiere/lumière.png)
 
 ### 7. Exécuter, modifier, jouer
 
@@ -129,7 +129,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
 
-![Programme en blocs](/img/ressources/capteurs_lumiere/lets-steam-screenshot%20(3).png.png)
+![Programme en blocs](/img/ressources/lets-steam/r1as04-capteur-lumiere/lets-steam-screenshot%20(3).png.png)
 
 </div>
 <div style={{flex: '1', minWidth: '280px'}}>

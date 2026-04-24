@@ -37,7 +37,7 @@ sidebar_position: 10
 
 </div>
 
-<img src="/img/ressources/oled/icone.png" alt="Écran OLED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as10-ecran-oled/icone.png" alt="Écran OLED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -68,7 +68,7 @@ La programmation d'une carte électronique est parfois une activité très déro
 
 ### 1. Connecter la carte à l'écran
 
-<img src="/img/ressources/oled/bitmap.png" alt="Montage écran OLED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as10-ecran-oled/bitmap.png" alt="Montage écran OLED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 Il y a deux façons de câbler l'écran OLED **SSD1306** à une carte : soit avec une connexion **I2C**, soit avec une connexion **SPI**. Pour notre écran, nous utilisons la connexion **I2C** via le câble **QWIIC/STEMMA** avec la convention suivante :
 
@@ -104,7 +104,7 @@ Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas d
 
 Vous voyez le bouton noir **AVANCÉ** en bas de la colonne des différents groupes de blocs. Si vous cliquez sur **AVANCÉ**, vous verrez apparaître des groupes de blocs supplémentaires. En bas, il y a une boîte grise appelée **EXTENSIONS**. Cliquez sur ce bouton.
 
-![Menu des extensions MakeCode](/img/ressources/oled/menu%20extension.png)
+![Menu des extensions MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/menu%20extension.png)
 
 Choisissez l'extension **« oled »**.
 
@@ -147,7 +147,7 @@ Vous pouvez écrire une ligne de texte avec la fonction `printString()`. Cette f
 </div>
 <div style={{flex: '0 0 180px'}}>
 
-![Capture d'écran MakeCode](/img/ressources/oled/lets-steam-screenshot%20(4).png)
+![Capture d'écran MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/lets-steam-screenshot%20(4).png)
 
 </div>
 </div>

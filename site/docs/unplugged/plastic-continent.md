@@ -42,7 +42,7 @@ sidebar_position: 19
 
 </div>
 
-<img src="/img/ressources/unplugged-plastic_continent/icone.png" alt="Plastic continent" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/plastic-continent/icone.png" alt="Plastic continent" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -76,7 +76,7 @@ S'interroger sur l'impact négatif de l'Homme sur la nature, et sur la pollution
 
 Dans Plastic continent, déplacez les tas de déchets sur un échiquier afin de libérer un dauphin pris au piège.
 
-<img src="/img/ressources/unplugged-plastic_continent/exemplejeu.png" alt="Exemple de plateau de jeu Plastic continent" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/plastic-continent/exemplejeu.png" alt="Exemple de plateau de jeu Plastic continent" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Installation
 

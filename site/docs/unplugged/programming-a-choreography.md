@@ -39,7 +39,7 @@ sidebar_position: 22
 
 </div>
 
-<img src="/img/ressources/unplugged-programming_a_choreography/icone.png" alt="Programme ta chorégraphie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/programming-a-choreography/icone.png" alt="Programme ta chorégraphie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -61,7 +61,7 @@ Savoir programmer est devenu une des compétences importantes de notre siècle. 
 
 Le jeu utilise une méthodologie active où les enfants sont placés au centre de leur processus d'apprentissage. Ils collaborent et étudient les blocs Scratch afin de coder une chorégraphie.
 
-<img src="/img/ressources/unplugged-programming_a_choreography/blocsscratch.png" alt="Blocs Scratch pour la chorégraphie" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/programming-a-choreography/blocsscratch.png" alt="Blocs Scratch pour la chorégraphie" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Apprentissage par le jeu
 

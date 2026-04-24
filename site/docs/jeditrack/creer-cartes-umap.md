@@ -36,7 +36,7 @@ uMap est un outil de cartographie open-source qui permet de créer, gérer et pa
 
 OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable. Elle est alimentée par des bénévoles, à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Elle rassemble une grande variété de données géographiques : rues, équipements publics, commerces, transports, etc. Souvent comparée à Wikipedia, cette carte permet à chacun de contribuer, mais aussi de réutiliser les données dans de nombreux contextes.
 
-<img src="/img/ressources/jeditrack-creer_cartes_umap/image.png" alt="Exemple de carte uMap créée dans le cadre de Jedi Track" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/creer-cartes-umap/image.png" alt="Exemple de carte uMap créée dans le cadre de Jedi Track" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Le principe est simple : à partir d'un fond de carte OpenStreetMap, vous pouvez ajouter des marqueurs, dessiner des zones, créer des itinéraires et organiser vos données par couches thématiques. Contrairement aux géants du secteur, uMap respecte la vie privée, ne collecte pas de données personnelles et permet une appropriation complète de vos créations.**
 

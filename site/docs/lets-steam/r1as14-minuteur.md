@@ -39,7 +39,7 @@ sidebar_position: 14
 
 </div>
 
-<img src="/img/ressources/eggtimer/icone.svg" alt="Minuteur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/icone.svg" alt="Minuteur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -87,9 +87,9 @@ Malheureusement, les bras exacts inclus ne sont généralement pas spécifiés e
 La façon la plus simple de fixer l'aiguille de votre horloge est d'utiliser un élastique, mais vous pouvez aussi utiliser de la colle chaude ou du scotch.
 
 <div style={{display: 'flex', gap: '0.5rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
-<img src="/img/ressources/eggtimer/1.jpg" alt="Minuteur étape 1" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
-<img src="/img/ressources/eggtimer/2.jpg" alt="Minuteur étape 2" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
-<img src="/img/ressources/eggtimer/3.jpg" alt="Minuteur étape 3" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/1.jpg" alt="Minuteur étape 1" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/2.jpg" alt="Minuteur étape 2" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/3.jpg" alt="Minuteur étape 3" style={{width: '33%', objectFit: 'contain', borderRadius: '8px'}} />
 </div>
 
 ### 3. Créer le panneau avant du minuteur
@@ -101,8 +101,8 @@ Mettez le servomoteur derrière et fixez l'aiguille d'horloge sur l'arbre du ser
 Tournez le bras en position minimale (angle 0°) et fixez le servomoteur de façon à ce que l'aiguille de l'horloge soit horizontale. Avec un stylo, faites une petite marque pour indiquer 0 seconde. Tournez le bras en position maximum (angle 180°) et faites une petite marque pour indiquer 180 secondes.
 
 <div style={{display: 'flex', gap: '0.5rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
-<img src="/img/ressources/eggtimer/4.jpg" alt="Panneau avant" style={{width: '50%', objectFit: 'contain', borderRadius: '8px'}} />
-<img src="/img/ressources/eggtimer/5.jpg" alt="Résultat final" style={{width: '50%', objectFit: 'contain', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/4.jpg" alt="Panneau avant" style={{width: '50%', objectFit: 'contain', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as14-minuteur/5.jpg" alt="Résultat final" style={{width: '50%', objectFit: 'contain', borderRadius: '8px'}} />
 </div>
 
 ### 4. Connecter la carte à l'ordinateur

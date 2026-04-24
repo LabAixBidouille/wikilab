@@ -113,7 +113,7 @@ Les avantages principaux de l'outil qui nous ont poussé à le choisir sont :
 - La colorisation et les informations présents par défaut sur les cartes sont limités et facile à lire, ce qui aide à la fois à l'orientation et à l'annotation.
 - La présence d'une page de garde : le logiciel propose d'intégrer une page de garde pour les zones découpés en plusieurs pages. Cela permet d'avoir une page présentant la totalité de la zone et la manière dont les différentes pages sont organisées. Cela facilite l'orientation des participants.
 
-<img src="/img/ressources/jeditrack-mini_projet_4_cartopartie/image.png" alt="Exemple de carte Milvusmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/image.png" alt="Exemple de carte Milvusmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 :::
 
 ---

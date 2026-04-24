@@ -130,7 +130,7 @@ Ici, les vapeurs d'éthanol ne nous intéressent pas, mais les autres gaz et les
 
 Pour connecter le capteur de gaz multicanal à la station de mesure, connectez-le à l'un des ports de la rallonge I2C.
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image.png" alt="Schéma de connexion de la station de mesure" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image.png" alt="Schéma de connexion de la station de mesure" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::info[Le protocole I2C]
 L'I2C, pour Inter-Integrated Circuit en anglais, est un protocole de communication utilisé en électronique pour communiquer entre différents appareils. A l'instar du système postal pour la livraison de courrier, ce système utilise des adresses, ce qui permet d'utiliser le même câble pour communiquer entre les différents appareils, en ne délivrant les messages qu'aux appareils à la bonne adresse. C'est pourquoi il n'y a qu'un seul port I2C sur le shield grove, et que tous les composants I2C sont reliés à ce port via la rallonge I2C, comme si les câbles étaient des rues, les appareils des maisons et le port I2C du shield grove la poste.
@@ -163,15 +163,15 @@ Une variable est un espace mémoire accessible par le programme, qui permet de s
 
 Au début du programme, il faut initialiser la variable à l'aide du bloc suivant, également présent dans la catégorie **Variables** :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_1.png" alt="Bloc d'initialisation de la variable" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_1.png" alt="Bloc d'initialisation de la variable" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Maintenant que la variable est initialisée, il faut pouvoir modifier sa valeur pour "cycler" à travers les différentes mesures de la station lors de l'appui sur un bouton. Pour cela, nous allons utiliser la boucle principale du programme, nommée **Répéter indéfiniment** :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_2.png" alt="Bloc Répéter indéfiniment" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_2.png" alt="Bloc Répéter indéfiniment" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Dans cette boucle, nous allons vérifier si le **bouton A** de la micro:bit a été appuyé, et si c'est le cas, nous augmenterons la valeur de la variable **mode_affichage** de 1 :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_3.png" alt="Bloc de vérification du bouton A" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_3.png" alt="Bloc de vérification du bouton A" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Ce programme a un problème, qui est que la valeur de **mode_affichage** ne cesse de grandir. Or, si 0 correspond à la température, 1 à l'humidité, et 2 au taux de particules fines, à force d'appuyer sur le bouton A la valeur de **mode_affichage** sera 3, puis 4, et ainsi de suite. Il faut donc trouver un moyen de remettre la valeur de **mode_affichage** à 0 lorsque celle-ci devient plus grande que le nombre de mesures effectuées par la station. Dans notre cas, nous mesurons :
 
@@ -186,25 +186,25 @@ Ce programme a un problème, qui est que la valeur de **mode_affichage** ne cess
 
 Donc, il nous faudra remettre mode_affichage à 0 quand celle-ci sera supérieure à 7 (nous avons 8 mesures, mais commençons à compter à partir de 0) :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_4.png" alt="Bloc de remise à zéro de mode_affichage" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_4.png" alt="Bloc de remise à zéro de mode_affichage" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Il faut maintenant "relier" la variable **mode_affichage** aux mesures effectuées par la station, c'est-à-dire d'afficher la bonne mesure selon la valeur de la variable. Pour cela, nous pouvons utiliser un bloc **si, sinon si, sinon** présent dans la catégorie **Logique**, qui vérifie si **mode_affichage** vaut telle ou telle valeur, et effectuer l'affichage correspondant :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_5.png" alt="Bloc conditionnel si/sinon si/sinon" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_5.png" alt="Bloc conditionnel si/sinon si/sinon" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Il suffit maintenant d'afficher la bonne mesure sur l'écran LCD selon le cas dans lequel on se trouve. Pour cela, il faut utiliser le blocs suivants, présents dans la catégorie **Affichage** :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_6.png" alt="Blocs d'affichage LCD" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_6.png" alt="Blocs d'affichage LCD" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 L'écran LCD est composé de deux lignes de 16 caractères. Nous proposons d'afficher sur la première ligne la mesure affichée (température, humidité, etc...), et sur la seconde la valeur mesurée, comme par exemple ici pour la température :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_7.png" alt="Exemple d'affichage de la température sur l'écran LCD" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_7.png" alt="Exemple d'affichage de la température sur l'écran LCD" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Pour compléter le programme, tous les blocs de mesure se trouvent dans la catégorie **Capteurs**, excepté le bloc de mesure de l'intensité sonore qui se trouve dans la catégorie **Entrées/Sorties**.
 
 Il suffira ensuite d'ajouter au programme une instruction pour effacer l'écran au début de la boucle (ou sinon les caractères vont s'empiler sur l'écran), et une pause à la fin de la boucle afin de laisser le temps de voir ce qui est affiché à l'écran. Le programme est alors le suivant :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_8.png" alt="Programme complet d'affichage" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_8.png" alt="Programme complet d'affichage" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Sauvegarde des données sur la carte micro-sd :
 
@@ -212,7 +212,7 @@ La sauvegarde des données sur la carte micro-sd se fait grâce au lecteur OpenL
 
 Pour écrire sur la carte micro-sd, il faut utiliser le bloc suivant, présent dans la catégorie **Communication** :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_9.png" alt="Bloc d'écriture sur la carte micro-sd" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_9.png" alt="Bloc d'écriture sur la carte micro-sd" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Comme on peut le voir dans le bloc, les données à écrire sur la carte micro-sd sont séparées par des points-virgule. En effet, pour pouvoir exploiter correctement les données, il faut les formater d'une certaine façon. Ce formatage s'appelle CSV, pour Comma Separated Values en anglais, et permet la représentation textuelle d'un tableau de données, où chaque ligne est séparée par un retour à la ligne et chaque colonne par un caractère de séparation, ici un point-virgule. Ci-après un exemple de fichier au format CSV :
 
@@ -228,11 +228,11 @@ Comme on peut le voir dans le bloc, les données à écrire sur la carte micro-s
 
 Dans notre cas, nous allons enregistrer les 8 mesures citées plus haut. Il faut donc, au démarrage du programme, écrire sur la carte micro-sd les en-tête des colonnes correspondantes :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_10.png" alt="Bloc d'écriture des en-têtes CSV" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_10.png" alt="Bloc d'écriture des en-têtes CSV" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Ensuite, nous avons choisi d'enregistrer une nouvelle donnée sur la carte micro-sd à chaque fois que le bouton B de la micro:bit est appuyé. Vous pouvez aussi modifier le programme pour prendre une mesure toutes les x périodes de temps (pensez à rajouter dans les données enregistrées le temps correspondant à chaque mesure). Dans notre cas, on vérifie donc à chaque tour de boucle si le bouton B a été appuyé, et auquel cas on enregistre les données sur la carte micro-sd et on affiche un message sur l'écran pour confirmer que les données ont bien été enregistrées (notez que le programme de la section précédente a été masqué ici pour des questions de lisibilité) :
 
-<img src="/img/ressources/jeditrack-station_qualite_air/image_11.png" alt="Bloc d'enregistrement des données sur bouton B" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/jeditrack/station-qualite-air/image_11.png" alt="Bloc d'enregistrement des données sur bouton B" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 Le programme final complet peut être retrouvé en suivant le lien suivant :
 

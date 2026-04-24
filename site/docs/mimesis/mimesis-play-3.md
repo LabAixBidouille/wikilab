@@ -35,7 +35,7 @@ sidebar_position: 3
 
 </div>
 
-<img src="/img/ressources/mimesis-play-3/icone.png" alt="La vie secrète du plancton" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-3/icone.png" alt="La vie secrète du plancton" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -304,13 +304,13 @@ Cartes personnage (Ressource 1), set de questions (Ressource 2), pyramide alimen
 :::
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1.5rem', marginBottom: '1.5rem'}}>
-  <img src="/img/ressources/mimesis-play-3/2.png" alt="Set de questions" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/mimesis-play-3/5.png" alt="Frise chronologique" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-3/2.png" alt="Set de questions" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-3/5.png" alt="Frise chronologique" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1.5rem'}}>
-  <img src="/img/ressources/mimesis-play-3/3.png" alt="Pyramide alimentaire océanique" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/mimesis-play-3/4.png" alt="Chaîne alimentaire marine" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-3/3.png" alt="Pyramide alimentaire océanique" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-3/4.png" alt="Chaîne alimentaire marine" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---

@@ -40,7 +40,7 @@ sidebar_position: 4
 
 </div>
 
-<img src="/img/ressources/unplugged-brain_twister/icone.png" alt="Brain Twister" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/brain-twister/icone.png" alt="Brain Twister" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -105,8 +105,8 @@ Ce jeu peut comporter plusieurs niveaux de difficulté décrits ci-dessous.
 En utilisant les pions robots (verts), le meneur de jeu doit placer les robots sur les bonnes cases. Le meneur de jeu donne des ordres aux robots jusqu'à ce que le temps soit écoulé. Le jeu s'arrête lorsque l'un des meneurs de jeu a terminé la figure et appelle l'enseignant. Dans cet exemple, le jeu se déroule avec six robots. Pour gagner le jeu, le meneur doit reproduire cette figure avec les vrais robots (ses camarades de classe). Les robots doivent se tenir sur A1, D1, F2, C3, B5 et E5.
 
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-<img src="/img/ressources/unplugged-brain_twister/exempleactivité1.png" alt="Exemple d'activité Brain Twister 1" style={{maxWidth: '400px'}} />
-<img src="/img/ressources/unplugged-brain_twister/exempleactivité2.png" alt="Exemple d'activité Brain Twister 2" style={{maxWidth: '400px'}} />
+<img src="/img/ressources/unplugged/brain-twister/exempleactivité1.png" alt="Exemple d'activité Brain Twister 1" style={{maxWidth: '400px'}} />
+<img src="/img/ressources/unplugged/brain-twister/exempleactivité2.png" alt="Exemple d'activité Brain Twister 2" style={{maxWidth: '400px'}} />
 </div>
 
 ### Phase 2 - Difficulté : Moyenne

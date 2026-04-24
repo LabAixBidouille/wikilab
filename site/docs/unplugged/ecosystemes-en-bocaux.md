@@ -43,7 +43,7 @@ sidebar_position: 7
 
 </div>
 
-<img src="/img/ressources/unplugged-ecosystemes_en_bocaux/icone.png" alt="Ecosystemes en bocaux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/ecosystemes-en-bocaux/icone.png" alt="Ecosystemes en bocaux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -128,7 +128,7 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 - Cellophane coloré autour des pots (croissance sous différentes couleurs de lumière)
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
-  <img src="/img/ressources/unplugged-ecosystemes_en_bocaux/exemple.jpg" alt="Exemple d'écosystème conçu sur papier" style={{maxWidth: '500px'}} />
+  <img src="/img/ressources/unplugged/ecosystemes-en-bocaux/exemple.jpg" alt="Exemple d'écosystème conçu sur papier" style={{maxWidth: '500px'}} />
   <figcaption style={{fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple d'écosystème conçu sur papier avant de démarrer l'activité</figcaption>
 </figure>
 

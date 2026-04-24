@@ -39,7 +39,7 @@ sidebar_position: 4
 
 </div>
 
-<img src="/img/ressources/mimesis-play-4/icone.png" alt="De l'eau, de l'eau partout" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/icone.png" alt="De l'eau, de l'eau partout" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -136,7 +136,7 @@ Dans cette activité, les élèves sont initiés à l'un des moyens théâtraux 
 
 **Écologie** : L'étude de l'écologie et de certains problèmes alarmants liés à la perturbation du cycle de l'eau peut également être jouée dans les zones. À cet effet, l'enseignant peut en identifier à l'avance plusieurs qui répondent à une problématique particulière. Par exemple, une zone dans la mer, on nage et on s'amuse, tout à coup on voit un dauphin enveloppé dans un sac plastique ; une zone dans l'océan Arctique, un petit iceberg s'est détaché et un petit ours blanc se tient dessus ; une zone dans un désert, c'était autrefois une oasis mais l'eau du puits s'est tarie...
 
-<img src="/img/ressources/mimesis-play-4/quiz.png" alt="Quiz sur le cycle de l'eau" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/quiz.png" alt="Quiz sur le cycle de l'eau" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1rem'}} />
 
 :::tip[Ressources imprimables]
 
@@ -233,17 +233,17 @@ Ce sera un grand bénéfice pour les enfants si l'enseignant travaille en collab
 Cartes « États globaux de l'eau et processus de changement » combinant les trois états (solide, liquide, gazeux) avec les processus : évaporation, condensation, solidification, liquéfaction.
 :::
 
-<img src="/img/ressources/mimesis-play-4/etatglobal1.png" alt="État global de l'eau 1" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal1.png" alt="État global de l'eau 1" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-4/etatglobal2.png" alt="État global de l'eau 2" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal2.png" alt="État global de l'eau 2" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-4/etatglobal3.png" alt="État global de l'eau 3" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal3.png" alt="État global de l'eau 3" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-4/etatglobal4.png" alt="État global de l'eau 4" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal4.png" alt="État global de l'eau 4" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-4/etatglobal5.png" alt="État global de l'eau 5" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal5.png" alt="État global de l'eau 5" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
-<img src="/img/ressources/mimesis-play-4/etatglobal6.png" alt="État global de l'eau 6" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/etatglobal6.png" alt="État global de l'eau 6" style={{maxWidth: '500px', display: 'block', marginTop: '0.75rem', marginBottom: '0.75rem'}} />
 
 ---
 
@@ -311,7 +311,7 @@ L'enseignant distribue les fiches avec les trois motifs de lignes disponibles da
 Une fois les masques prêts, ils sont disposés dans une exposition où chaque enfant présente son masque et partage un peu le processus de sa création. L'enseignant peut vous aider avec des questions d'orientation telles que : « Quel est le nom de votre personnage ? Comment avez-vous exprimé ses qualités particulières dans le masque – en ajoutant de la couleur, par exemple, en rendant les yeux plus intéressants, en coupant ou en ajoutant quelque chose de spécifique de/à votre masque ? »
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
-  <img src="/img/ressources/mimesis-play-4/exemplemasque.png" alt="Exemple de masque" style={{maxWidth: '100%'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-4/exemplemasque.png" alt="Exemple de masque" style={{maxWidth: '100%'}} />
   <figcaption style={{textAlign: 'center', fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Exemple de masque</figcaption>
 </figure>
 
@@ -486,7 +486,7 @@ La Commedia dell'arte était une forme de théâtre populaire qui mettait l'acce
 - [https://www.youtube.com/watch?v=xw8ky22vobI](https://www.youtube.com/watch?v=xw8ky22vobI)
 - [https://www.youtube.com/watch?v=HZLTWIz8_VY](https://www.youtube.com/watch?v=HZLTWIz8_VY)
 
-<img src="/img/ressources/mimesis-play-4/commediadelarte.png" alt="Commedia dell'arte" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-4/commediadelarte.png" alt="Commedia dell'arte" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
 
 ---
 

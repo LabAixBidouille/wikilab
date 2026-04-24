@@ -42,7 +42,7 @@ sidebar_position: 8
 
 </div>
 
-<img src="/img/ressources/mimesis-play-8/icone.png" alt="Famous Kamishibaï" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/icone.png" alt="Famous Kamishibaï" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -179,7 +179,7 @@ Laissez libre votre imagination pour le système de fermeture. Dans notre exempl
 
 Vous êtes libres d'habiller votre kamishibaï comme vous le souhaitez : peinture, collage, décopatch… tout est possible !
 
-<img src="/img/ressources/mimesis-play-8/exemplekamishibai.png" alt="Exemple de kamishibaï construit" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/exemplekamishibai.png" alt="Exemple de kamishibaï construit" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
 
 ---
 
@@ -237,37 +237,37 @@ Le kamishibaï offre aux élèves la possibilité d'explorer différents éléme
 
 Il était une fois une femme scientifique peu connue et pourtant, son histoire était celle d'une héroïne. Son nom était Katherine Johnson. Elle avait un esprit brillant et aimait plus que tout explorer les mystères de l'univers.
 
-<img src="/img/ressources/mimesis-play-8/1 JK.png" alt="Planche 1 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/1 JK.png" alt="Planche 1 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 **Planche 2**
 
 Née en 1918 dans une petite ville de Virginie aux États-Unis, Katherine Johnson est une fillette qui s'est très vite intéressée aux chiffres. Elle aimait compter tout ce qu'elle voyait autour d'elle : les marches qu'elle montait, les pas qu'elle faisait, les couverts sur la table... Absolument tout, c'était plus fort qu'elle ! Katherine était tellement douée en mathématiques qu'à l'âge de 10 ans, elle a été placée dans la classe des enfants de 14 ans. Elle avait l'impression d'être une étrangère parmi ses camarades plus âgés, mais cela ne l'a pas empêchée de continuer à apprendre et à s'épanouir. À 18 ans, Katherine a obtenu son diplôme universitaire spécialisé en mathématiques. Elle était tellement brillante que les scientifiques du pays ont vite entendu parler d'elle.
 
-<img src="/img/ressources/mimesis-play-8/2 JK.png" alt="Planche 2 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/2 JK.png" alt="Planche 2 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 **Planche 3**
 
 En 1953, Katherine a eu la chance de rejoindre la NASA en Virginie. Dès son premier jour, tout le monde a remarqué que Katherine était quelqu'un d'exceptionnel. Elle avait une mémoire incroyable et était capable de calculer des équations complexes en un clin d'œil. Les gens la surnommaient même « l'ordinateur humain » ! Katherine a travaillé dur pour aider les astronautes dans leurs missions dans l'espace. Elle a calculé la trajectoire des vaisseaux spatiaux, aidant les astronautes à voyager plus loin et plus vite que jamais auparavant. Grâce à son travail acharné et à son talent, Katherine est devenue l'un des membres les plus précieux de l'équipe de la NASA.
 
-<img src="/img/ressources/mimesis-play-8/3 JK.png" alt="Planche 3 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/3 JK.png" alt="Planche 3 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 **Planche 4**
 
 Ses calculs étaient si longs et si compliqués qu'elle avait besoin d'un grand tableau pour les écrire. Elle devait même monter sur une échelle pour commencer à écrire en haut du tableau, et descendre lentement jusqu'au sol pour terminer ses calculs ! Katherine était si passionnée par les mathématiques qu'elle disait toujours : « Les mathématiques, c'est simple. Soit vous avez raison, soit vous avez tort ». Elle aimait se perdre dans ses calculs et était très fière de trouver des solutions à des problèmes difficiles.
 
-<img src="/img/ressources/mimesis-play-8/4 JK.png" alt="Planche 4 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/4 JK.png" alt="Planche 4 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 **Planche 5**
 
 Grâce à ses calculs précis et sa persévérance, elle a sauvé la vie des astronautes de la mission Apollo 13. Ils étaient en difficulté dans l'espace, mais grâce aux calculs de Katherine, ils ont réussi à rentrer sur Terre sains et saufs. Un jour, en 1962, un célèbre astronaute nommé John Glenn a demandé à Katherine de vérifier tous les calculs effectués par l'ordinateur pour sa mission Friendship 7, qui consistait à tourner tout autour de la Terre. Katherine a travaillé dur et a vérifié chaque chiffre avec soin. Quand elle a dit que tout était bon, John Glenn lui a fait confiance et est parti en mission dans l'espace.
 
-<img src="/img/ressources/mimesis-play-8/Planche 5 JK.png" alt="Planche 5 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/Planche 5 JK.png" alt="Planche 5 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 **Planche 6**
 
 Katherine a travaillé pendant presque 30 ans à la NASA, où elle a établi les règles de calculs pour la science spatiale. Elle était si précise dans ses calculs qu'elle a aidé les astronautes à arriver en toute sécurité dans l'espace et à revenir sur Terre. Elle a été tellement impressionnante que le président Barack Obama lui a décerné la médaille présidentielle de la Liberté, la plus haute distinction aux États-Unis. Katherine est une personne très importante dans l'histoire scientifique, elle a été la pionnière de la NASA grâce à ses calculs précis pour les missions spatiales. Elle a dû affronter de nombreux défis car elle était l'une des premières femmes métisses à travailler dans ce domaine en période difficile aux États-Unis où seuls les blancs étaient acceptés. Grâce à sa passion, sa persévérance et son talent, Katherine est devenue une grande scientifique, connue et respectée dans le monde entier. Et c'est ainsi que la petite fille qui aimait compter est devenue une héroïne des mathématiques. Elle est une source d'inspiration pour tous les enfants qui aiment la science et les mathématiques.
 
-<img src="/img/ressources/mimesis-play-8/Planche 6 JK.png" alt="Planche 6 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-8/Planche 6 JK.png" alt="Planche 6 — Katherine Johnson" style={{maxWidth: '100%', marginTop: '0.75rem', marginBottom: '1.5rem'}} />
 
 ---
 

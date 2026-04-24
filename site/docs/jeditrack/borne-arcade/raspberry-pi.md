@@ -19,7 +19,7 @@ Le Raspberry Pi est communément équipé d'un processeur ARM, d'un GPU, de RAM,
 
 C'est un modèle de base, idéal pour les débutants qui souhaitent se lancer dans l'informatique et la programmation.
 
-![Raspberry Pi 1 Model B+](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled.png)
+![Raspberry Pi 1 Model B+](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled.png)
 
 ### Raspberry Pi 4 Model B
 
@@ -29,43 +29,43 @@ C'est le modèle le plus puissant et le plus récent. Il offre des performances 
 Probablement le choix idéal pour le projet. Prix : Environ 40 EUR pour 1 GB de mémoire vive.
 :::
 
-![Raspberry Pi 4 Model B](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_1.png)
+![Raspberry Pi 4 Model B](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_1.png)
 
 ### Raspberry Pi 2 Model B
 
 Un peu plus puissant que le modèle précédent, ce modèle peut gérer des tâches plus exigeantes et est parfait pour commencer à explorer des projets de bricolage plus avancés.
 
-![Raspberry Pi 2 Model B](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_2.png)
+![Raspberry Pi 2 Model B](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_2.png)
 
 ### Raspberry Pi 5 Model B
 
 Le Raspberry Pi 5 offre jusqu'à trois fois plus de performances que la génération précédente. Il propose des variantes de RAM allant jusqu'à 8 Go pour une expérience plus fluide et rapide. Parmi ses nouvelles fonctionnalités, on trouve un bouton ON/OFF, un port PCIe 2.0, et un connecteur RTC intégré. Sa connectique a été entièrement repensée avec un port Micro-SD haute vitesse pour l'OS.
 
-![Raspberry Pi 5 Model B](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_3.png)
+![Raspberry Pi 5 Model B](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_3.png)
 
 ### Raspberry Pi Zero W
 
 Ces modèles sont plus petits et moins coûteux, mais restent suffisamment puissants pour de nombreux projets. Le Zero W dispose également d'une connexion Wi-Fi et Bluetooth.
 
-![Raspberry Pi Zero W](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_4.png)
+![Raspberry Pi Zero W](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_4.png)
 
 ### Raspberry Pi 400
 
 Le Raspberry Pi 400 est une version modernisée de l'ordinateur intégré dans un clavier, rappelant les premiers ordinateurs domestiques. Il est basé sur la technologie du Raspberry Pi 4, mais avec un CPU plus rapide et une meilleure dissipation thermique. Il est parfait pour une utilisation en tant qu'ordinateur de bureau économique ou station de travail pour l'apprentissage de la programmation.
 
-![Raspberry Pi 400](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_5.png)
+![Raspberry Pi 400](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_5.png)
 
 ### Raspberry Pi 3 Model B
 
 Ce modèle est particulièrement intéressant car il dispose d'une connexion Wi-Fi et Bluetooth intégrée, ce qui facilite la connexion à Internet et à d'autres appareils.
 
-![Raspberry Pi 3 Model B](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_6.png)
+![Raspberry Pi 3 Model B](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_6.png)
 
 ### Raspberry Pi Pico
 
 C'est la première incursion de la Fondation Raspberry Pi dans les microcontrôleurs. Il est basé sur le RP2040, une puce conçue par la Fondation elle-même. Le Pico est une petite carte avec une grande flexibilité - il peut être programmé en C et MicroPython, ce qui le rend parfait pour les projets embarqués et les applications en temps réel.
 
-![Raspberry Pi Pico](/img/ressources/jeditrack-borne_arcade/Introduction_au_Rasp__Untitled_7.png)
+![Raspberry Pi Pico](/img/ressources/jeditrack/borne-arcade/Introduction_au_Rasp__Untitled_7.png)
 
 Il est également possible d'étendre les capacités du Raspberry Pi en y joignant une alimentation autonome, des cartes SD pour plus de stockage, des boîtiers de protection, des écrans, des caméras...
 

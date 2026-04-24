@@ -38,7 +38,7 @@ sidebar_position: 11
 
 </div>
 
-<img src="/img/ressources/thermometre/icone.png" alt="Thermomètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as11-thermometre/icone.png" alt="Thermomètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -65,7 +65,7 @@ Dans cette activité, vous pourrez découvrir l'utilisation du capteur de tempé
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/thermometre/temperature_step1.png" alt="Schéma de câblage du thermomètre" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as11-thermometre/temperature_step1.png" alt="Schéma de câblage du thermomètre" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Connecter l'écran à la carte
 

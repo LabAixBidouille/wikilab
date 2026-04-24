@@ -42,7 +42,7 @@ sidebar_position: 3
 
 </div>
 
-<img src="/img/ressources/unplugged-biscuits_et_paix/icone.png" alt="Biscuits et paix" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/biscuits-et-paix/icone.png" alt="Biscuits et paix" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -121,8 +121,8 @@ Le matériel nécessaire à la réalisation des activités peut varier en foncti
 :::
 
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-<img src="/img/ressources/unplugged-biscuits_et_paix/exempleingredients1.png" alt="Exemple de carte ingrédients 1" style={{maxWidth: '400px'}} />
-<img src="/img/ressources/unplugged-biscuits_et_paix/exempleingredients2.png" alt="Exemple de carte ingrédients 2" style={{maxWidth: '400px'}} />
+<img src="/img/ressources/unplugged/biscuits-et-paix/exempleingredients1.png" alt="Exemple de carte ingrédients 1" style={{maxWidth: '400px'}} />
+<img src="/img/ressources/unplugged/biscuits-et-paix/exempleingredients2.png" alt="Exemple de carte ingrédients 2" style={{maxWidth: '400px'}} />
 </div>
 
 À la fin du jeu, les participants auront 10 minutes pour discuter en groupe de la façon dont ils pensent que l'activité s'est déroulée. Qu'est-ce qu'ils auraient pu faire de mieux ? Ont-ils réussi à négocier avec les autres équipes ? Quels conflits ont surgi ? Les animateurs peuvent ajouter leurs propres observations du groupe à la discussion, car ils auront observé ce qui s'est passé pendant l'activité. En tant que groupe, ils doivent noter ces observations sur une grande feuille de papier sous trois rubriques de feux de signalisation. Divisez le papier en trois rubriques : rouge, orange et vert. Sous le vert, ils doivent écrire ce qu'ils pensent avoir bien fait en tant qu'équipe, sous l'orange, ils doivent écrire les choses qu'ils pensent avoir bien faites, et sous le rouge, les choses qu'ils pensent pouvoir améliorer.

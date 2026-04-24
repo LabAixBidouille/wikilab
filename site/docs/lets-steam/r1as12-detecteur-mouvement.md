@@ -40,7 +40,7 @@ sidebar_position: 12
 
 </div>
 
-<img src="/img/ressources/alarmedetectionmotion/icone.svg" alt="Détecteur de mouvement" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as12-detecteur-mouvement/icone.svg" alt="Détecteur de mouvement" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -72,7 +72,7 @@ Cela permettra de découvrir le détecteur de mouvement intégré et ses usages.
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/alarmedetectionmotion/montage_alarme.png" alt="Schéma de câblage de l'alarme de détection de mouvement" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as12-detecteur-mouvement/montage_alarme.png" alt="Schéma de câblage de l'alarme de détection de mouvement" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le buzzer/haut-parleur
 

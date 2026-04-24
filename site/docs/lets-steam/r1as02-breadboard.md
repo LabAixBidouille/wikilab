@@ -39,7 +39,7 @@ sidebar_position: 2
 
 </div>
 
-<img src="/img/ressources/breadboard/icone.png" alt="Breadboard : réalisez votre premier circuit électronique !" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as02-breadboard/icone.png" alt="Breadboard : réalisez votre premier circuit électronique !" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -64,7 +64,7 @@ Une breadboard est une carte plastique rectangulaire percée d'un grand nombre d
 Une breadboard est composée de nombreux petits trous et sert à créer un circuit sur ce petit rectangle de plastique. Avant de commencer, vous devez en comprendre les différentes parties.
 :::
 
-<img src="/img/ressources/breadboard/breadboard%20(1).png" alt="Schéma d'une breadboard" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as02-breadboard/breadboard%20(1).png" alt="Schéma d'une breadboard" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 Les trous d'une breadboard sont faits pour connecter des composants électroniques entre eux. Lorsque nous voulons créer un circuit électronique, nous avons besoin de plusieurs connexions sur le même fil. Pour ce faire, la breadboard est organisée en deux types de rangées ou bandes :
 
@@ -96,7 +96,7 @@ La LED a une orientation. Pour désigner l'orientation correcte, chaque branche 
 
 Nous allons dupliquer le circuit précédent avec deux LED supplémentaires. L'anode de ces nouvelles LED sera connectée à la broche **A1** et à la broche **A2**.
 
-<img src="/img/ressources/breadboard/breadboarding_step4.png" alt="Schéma de câblage complet" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as02-breadboard/breadboarding_step4.png" alt="Schéma de câblage complet" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 4. Connecter la carte à l'ordinateur
 
@@ -123,7 +123,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
 
-![Programme en blocs](/img/ressources/breadboard/lets-steam-screenshot%20(2).png)
+![Programme en blocs](/img/ressources/lets-steam/r1as02-breadboard/lets-steam-screenshot%20(2).png)
 
 </div>
 <div style={{flex: '1', minWidth: '280px'}}>

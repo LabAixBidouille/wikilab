@@ -37,7 +37,7 @@ sidebar_position: 5
 
 </div>
 
-<img src="/img/ressources/mimesis-play-5/icone.png" alt="Point-Ligne-Forme-Marionnette" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/icone.png" alt="Point-Ligne-Forme-Marionnette" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -180,7 +180,7 @@ L'activité se termine par les commentaires des élèves sur ce qu'ils ont resse
 Exemples de courbes avec points d'intersection (entrée, sortie, points d'action numérotés 1, 2, 3).
 :::
 
-<img src="/img/ressources/mimesis-play-5/pointsaintersections.png" alt="Courbes avec points d'intersection" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/pointsaintersections.png" alt="Courbes avec points d'intersection" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
 
 ---
 
@@ -270,9 +270,9 @@ Pour approfondir le sens kinesthésique du corps tridimensionnel dans un espace 
 Schémas du corps humain.
 :::
 
-<img src="/img/ressources/mimesis-play-5/schemacorpshumain1.png" alt="Schéma du corps humain 1" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/schemacorpshumain1.png" alt="Schéma du corps humain 1" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
 
-<img src="/img/ressources/mimesis-play-5/schemacorpshumain2.png" alt="Schéma du corps humain 2" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/schemacorpshumain2.png" alt="Schéma du corps humain 2" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 
@@ -327,7 +327,7 @@ Chaque présentation se termine par des saluts et des applaudissements du public
 
 **Géométrie en architecture** : La géométrie est une base fondamentale de l'architecture, et l'architecture est partout autour de nous. Faites découvrir aux enfants quelques réalisations de l'architecture de l'Antiquité aux temps modernes. Exemples : Taj Mahal (Inde), Pyramide égyptienne, Sphère amazonienne (USA), Sagrada Familia (Espagne), Tour de Pise (Italie), Maisons cubes (Pays-Bas), le Gherkin (Londres, Royaume-Uni). Source : [https://archi-monarch.com/geometry-in-architecture/](https://archi-monarch.com/geometry-in-architecture/)
 
-<img src="/img/ressources/mimesis-play-5/geometriearchitecture.png" alt="Géométrie en architecture" style={{maxWidth: '400px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/geometriearchitecture.png" alt="Géométrie en architecture" style={{maxWidth: '400px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Géométrie dans les peintures** : De nombreux artistes célèbres, représentants de styles tels que le cubisme, l'abstraction et le suprématisme, utilisent la géométrie dans leurs peintures. Exemples : Guernica (Pablo Picasso, 1937), Filles dans les champs (Kazimir Malevitch, 1932), Atelier au vase noir (Georges Braque, 1938), Senecio 2 (Paul Klee, 1922).
 
@@ -424,7 +424,7 @@ Temps de création d'une histoire : 20 min.
 Feuille d'instructions pour l'acte 4 et pages de formes géométriques à découper.
 :::
 
-<img src="/img/ressources/mimesis-play-5/exemplepagedeformes.png" alt="Exemple de page de formes géométriques" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-5/exemplepagedeformes.png" alt="Exemple de page de formes géométriques" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

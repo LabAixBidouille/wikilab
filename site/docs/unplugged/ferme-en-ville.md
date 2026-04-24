@@ -43,7 +43,7 @@ sidebar_position: 10
 
 </div>
 
-<img src="/img/ressources/unplugged-ferme_en_ville/icone.png" alt="Ferme en ville" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/ferme-en-ville/icone.png" alt="Ferme en ville" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -74,7 +74,7 @@ Afin de complexifier l'activité, vous pouvez également introduire des rôles p
 - **Promoteurs immobiliers / Constructeurs :** Faire prendre de la valeur à leur immeuble grâce à des services additionnels - Objectif caché : proposer un maximum de service de fermes urbaines afin d'attirer des résidents dans les immeubles.
 - **Planificateur urbain :** Trouver la meilleure adéquation entre les services fournis aux citoyens par le public et par le privé - Objectif caché : Localiser les fermes à proximité d'un arrêt de bus afin de valoriser la planification des transports urbains.
 
-<img src="/img/ressources/unplugged-ferme_en_ville/badgesroles.png" alt="Badges des rôles du jeu Ferme en ville" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/ferme-en-ville/badgesroles.png" alt="Badges des rôles du jeu Ferme en ville" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Discussion ouverte sur la consommation alimentaire et les pratiques de la ville intelligente
 
@@ -112,7 +112,7 @@ Le jeu commence par une présentation des objectifs et de l'histoire. À ce stad
 
 La seconde phase du jeu commence par une présentation du contexte et de l'histoire. Après avoir reçu les propositions des agriculteurs, les autorités locales sont prêtes à ouvrir le débat aux représentants de la société. Chaque groupe se voit attribuer une fonction, et un objectif caché.
 
-<img src="/img/ressources/unplugged-ferme_en_ville/planfermes.jpg" alt="Plan de la ville avec les fermes urbaines" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/ferme-en-ville/planfermes.jpg" alt="Plan de la ville avec les fermes urbaines" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

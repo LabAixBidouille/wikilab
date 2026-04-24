@@ -43,7 +43,7 @@ sidebar_position: 5
 
 </div>
 
-<img src="/img/ressources/potentiometre/icone.svg" alt="Potentiomètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/lets-steam/r1as05-potentiometre/icone.svg" alt="Potentiomètre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -74,7 +74,7 @@ Les potentiomètres sont rarement utilisés pour contrôler directement une puis
 **Ressource :** [https://en.wikipedia.org/wiki/Potentiometer](https://en.wikipedia.org/wiki/Potentiometer)
 :::
 
-<img src="/img/ressources/potentiometre/bitmap.png" alt="Schéma de câblage du potentiomètre" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as05-potentiometre/bitmap.png" alt="Schéma de câblage du potentiomètre" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le potentiomètre
 
