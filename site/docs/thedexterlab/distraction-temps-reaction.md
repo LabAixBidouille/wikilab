@@ -160,78 +160,11 @@ Au cours de cette phase, nous avons effectué et réalisé les activités suivan
 - Analyse des données en prenant les valeurs moyennes et en les affichant graphiquement.
 - Extraction des informations pertinentes et conclusion.
 
-## Fiches de programmation
+## Programmation
 
-### PROG14-TDL-1 : stimulus visuel (LED)
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Distractions et temps de réaction](/ressources/thedexterlab/programmation/programmation-distraction-temps-reaction).
 
-**Câblage :** Bouton-poussoir sur GND/D2, LED anode sur D4, cathode via résistance 330Ω sur GND.
-
-Installez l'extension **Serial**.
-
-```javascript
-input.buttonD2.onEvent(ButtonEvent.Down, function () {
-    Serial.writeValue("Reaction time (ms)", (control.millis() - timeTurnOn));
-    newGame()
-})
-function newGame () {
-    pins.D4.digitalWrite(false)
-    pause(randint(1000, 5000))
-    timeTurnOn = control.millis()
-    pins.D4.digitalWrite(true)
-}
-let timeTurnOn = 0
-Serial.attachToConsole()
-newGame()
-```
-
-### PROG14-TDL-2 : stimulus sonore (buzzer)
-
-**Câblage :** Bouton-poussoir sur GND/D2, buzzer '+' sur D3, '-' sur GND.
-
-Installez les extensions **Music** et **Serial**.
-
-```javascript
-input.buttonD2.onEvent(ButtonEvent.Down, function () {
-    Serial.writeValue("Reaction time (ms)", (control.millis() - timeTurnOn));
-    newGame()
-})
-function newGame () {
-    music.stopAllSounds()
-    pause(randint(1000, 5000))
-    timeTurnOn = control.millis()
-    music.ringTone(262)
-}
-let timeTurnOn = 0
-Serial.attachToConsole()
-newGame()
-```
-
-### PROG14-TDL-3 : afficher les données sur un écran
-
-**Câblage écran OLED I2C :** GND, VCC (3.3V), SDA (D14), SCL (D15).
-
-Installez l'extension **oled**.
-
-```javascript
-function newGame () {
-    pins.D4.digitalWrite(false)
-    pause(randint(1000, 5000))
-    timeTurnOn = control.millis()
-    pins.D4.digitalWrite(true)
-}
-input.buttonD2.onEvent(ButtonEvent.Down, function () {
-    reaction = control.millis() - timeTurnOn
-    oled.clear()
-    oled.showString("Reaction time:", 1)
-    oled.showString("" + reaction + "ms", 2)
-    newGame()
-})
-let reaction = 0
-let timeTurnOn = 0
-Serial.attachToConsole()
-newGame()
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

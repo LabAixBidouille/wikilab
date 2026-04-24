@@ -5,17 +5,60 @@ sidebar_label: "Indoor Air Quality"
 sidebar_position: 5
 ---
 
-# Programmation : Indoor Air Quality
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 
-Fiche technique de programmation associée à la ressource [Indoor Air Quality](/ressources/steamcity/indoor-air-quality).
+<div style={{flex: 1}}>
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="2" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="12" rx="1" fill="#DD5350" opacity="0.25"/><path d="M9 10h6M9 12h6M9 14h4" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="1.0"/></svg> Programmation : Indoor Air Quality
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--info">NUCLEO-L476RG / Arduino / micro:bit</span>
+  <span className="badge badge--info">Capteur SCD30</span>
+  <span className="badge badge--info">Écran LCD RGB</span>
+  <span className="badge badge--info">Bandeau NeoPixel</span>
+  <span className="badge badge--warning">Vittascience</span>
+</div>
+
+| Projet | Durée | Difficulté | Âge |
+|---|---|---|---|
+| SteamCity | 2-3 heures | Intermédiaire | 12-16 ans |
+
+## Matériel
+
+- 1 carte programmable (NUCLEO-L476RG, Arduino ou micro:bit)
+- 1 capteur de CO2 SCD30
+- 1 écran LCD RGB 16x2
+- 1 bandeau NeoPixel (30 LED)
+- Câbles de connexion
+- Ordinateur + éditeur [Vittascience](https://fr.vittascience.com/l476)
+
+</div>
+
+</div>
 
 ---
 
-## Fiche pratique 1 : Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30
+## De quoi parle-t-on ?
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+Cette fiche technique accompagne la ressource [Indoor Air Quality](/ressources/steamcity/indoor-air-quality). Elle décrit cinq fiches pratiques successives : lire le taux de CO2 avec le capteur SCD30, configurer les couleurs de l'écran LCD, afficher des seuils de CO2 via un bandeau NeoPixel, combiner affichage et indicateur lumineux, puis exporter les données pour les visualiser en graphique.
 
-Code à copier dans l'éditeur :
+## Objectifs d'apprentissage
+
+- Lire la valeur de CO2 d'un capteur I2C (SCD30)
+- Contrôler un écran LCD RGB avec couleur et texte
+- Piloter un bandeau NeoPixel selon des seuils
+- Structurer un programme avec conditions `if/else if/else`
+- Exporter les données pour une analyse graphique
+
+---
+
+## Fiche 1 : afficher le taux de CO2 sur écran LCD (capteur SCD30)
+
+Éditeurs : [vittascience.com/l476](https://fr.vittascience.com/l476), [vittascience.com/arduino](https://fr.vittascience.com/arduino) ou [vittascience.com/microbit](https://fr.vittascience.com/microbit).
+
+**Code**
 
 ```cpp
 #include <Wire.h>
@@ -70,13 +113,11 @@ void setup() {
 void loop() {}
 ```
 
-## Fiche pratique 2 : Configuration des couleurs des LED
+---
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+## Fiche 2 : configurer la couleur de l'écran LCD RGB
 
-Aperçu des blocs
-
-Code à copier dans l'éditeur :
+**Code**
 
 ```cpp
 #include <Wire.h>
@@ -92,17 +133,15 @@ void setup() {
 void loop() { }
 ```
 
-## Fiche pratique 3 : Indicateur LED CO2
+---
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+## Fiche 3 : indicateur LED CO2 (NeoPixel)
 
-Dans le programme, il faut ensuite ajouter des blocs de "structure conditionnelle". Ces blocs ont une nomenclature telle que : si cette condition est remplie, alors exécuter une instruction sinon exécuter une autre instruction. Dans ce cas, il y a quatre conditions à anticiper, car il y a quatre intervalles de taux de CO2. Ce programme combine les programmes créés aux étapes 1 et 2, avec l'ajout d'un bloc de structure conditionnelle.
+Ce programme combine le capteur SCD30 et le bandeau NeoPixel. Des **structures conditionnelles** `if/else if/else` permettent d'allumer les LED d'une couleur différente selon le taux de CO2.
 
-Dans ce programme, la valeur du dioxyde de carbone est comparée à différents seuils. Afin d'éviter d'avoir à effectuer plusieurs mesures du taux, qui seront ensuite comparées aux différents seuils, il est possible de stocker la valeur mesurée dans une variable. Nous vous suggérons de nommer cette variable "Taux de CO2". Pour créer cette variable, cliquez sur la rubrique Variables.
+On stocke la valeur mesurée dans une variable **Taux de CO2** (via le menu Variables > Créer une variable) pour éviter de la recalculer à chaque test.
 
-Un panneau latéral s'ouvre : cliquez sur « Créer une variable ». Nommez la variable « Taux de CO2 » par exemple, puis cliquez sur OK. Des blocs spécifiques à cette nouvelle variable sont créés et accessibles depuis la rubrique Variables. Pour utiliser cette variable, cliquez sur la rubrique Variables.
-
-Code à copier dans l'éditeur :
+**Code**
 
 ```cpp
 #include <Wire.h>
@@ -182,13 +221,13 @@ void loop() {
 }
 ```
 
-## Fiche pratique 4 : Affichage du CO2
+---
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+## Fiche 4 : affichage du CO2 avec temporisation
 
-N'oubliez pas d'ajouter une pause d'une seconde pour limiter la fréquence d'affichage des valeurs sur l'écran de l'ordinateur. Cela facilite la lecture des valeurs mesurées.
+On ajoute une pause d'une seconde pour limiter la fréquence d'affichage à l'écran et faciliter la lecture des mesures.
 
-Code à copier dans l'éditeur :
+**Code**
 
 ```cpp
 #include <Wire.h>
@@ -269,14 +308,14 @@ void setup() {
 void loop() { }
 ```
 
-## Fiche pratique 5 : Visualisation des données
+---
 
-Éditeur utilisé : vittascience.com/l476 ; vittascience.com/Arduino ou vittascience.com/microbit
+## Fiche 5 : visualisation des données
 
-1. Pour visualiser le graphique, dans la console d'affichage, sélectionnez « Mode graphique » à droite.
-2. À partir de cette représentation graphique, il est possible d'exporter l'ensemble des données sous forme de fichier .csv (lisible par des tableurs tels qu'Excel, Libre Office Calc, GoogleSheet, Numbers, etc.). Pour cela, il suffit de cliquer sur le bouton Exporter en bas de la fenêtre. Les données seront alors accessibles depuis le tableur utilisé par défaut sur l'ordinateur. La fonction "graphing" du tableur permet de tracer un graphique montrant l'évolution des niveaux de dioxyde de carbone au cours du temps, qui pourra ensuite être imprimé.
+1. Dans la console d'affichage Vittascience, sélectionnez **Mode graphique** à droite.
+2. À partir du graphique, exportez les données au format `.csv` (bouton **Exporter** en bas de la fenêtre). Les données s'ouvrent alors dans Excel, LibreOffice Calc, Google Sheets ou Numbers, où la fonction **Graphique** permet de tracer l'évolution du CO2 au cours du temps.
 
-Code à copier dans l'éditeur :
+**Code** (compatible avec la visualisation graphique de Vittascience)
 
 ```cpp
 #include <Wire.h>

@@ -162,47 +162,11 @@ Dans cette phase, nous avons réalisé ce qui suit :
 - Analyser les données en prenant les valeurs moyennes.
 - Extraire les informations pertinentes (par exemple, la valeur mesurée de la vitesse du son) et conclure.
 
-## Fiches de programmation
+## Programmation
 
-### PROG12-TDL-1 : mesurer une durée
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Le son et les 100 mètres en 1 seconde](/ressources/thedexterlab/programmation/programmation-son-100-metres-seconde).
 
-**Câblage capteur HC-SR04 :**
-
-- GND → GND de la carte
-- VCC → 5V de la carte
-- Trig → D6 de la carte
-- Echo → D7 de la carte
-
-:::info
-Installez les extensions **hcsr04** et **serial** dans MakeCode.
-:::
-
-```javascript
-Serial.attachToConsole()
-input.buttonUser.onEvent(ButtonEvent.Click, function () {
-    Serial.writeValue("travel time", HCSR04.getTime(MHCSR04TimeUnit.Us))
-})
-```
-
-### PROG12-TDL-2 : afficher les données sur un écran
-
-**Câblage écran OLED SSD1306 (I2C) :**
-
-- GND de l'écran → bande d'alimentation '-' de la breadboard
-- VCC de l'écran → 3.3V de la carte
-- SDA de l'écran → D14 de la carte
-- SCL de l'écran → D15 de la carte
-
-Installez les extensions **hcsr04** et **oled**.
-
-```javascript
-input.buttonUser.onEvent(ButtonEvent.Click, function () {
-    oled.clear()
-    oled.showString("travel time", 1)
-    oled.showNumber(HCSR04.getTime(MHCSR04TimeUnit.S), 2)
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

@@ -89,6 +89,19 @@
 - Fichier `_category_.json` avec label, position, collapsed
 - Ajouter une entrée au catalogue qui pointe vers la page d'introduction/première page
 
+### Fiches de programmation extraites
+- Les fiches longues (SteamCity, TheDexterLab) qui contiennent des sections de programmation doivent avoir ces sections EXTRAITES dans `docs/PROJET/programmation/`
+- **Format obligatoire** : même format que les fiches Let's STEAM (voir `docs/lets-steam/r1as01-led.md` comme référence)
+  - Flex header complet avec SVG icône couleur projet, badges (discipline, carte, logiciel), tableau Projet/Durée/Difficulté/Âge
+  - Section "## Matériel"
+  - Bouton PDF si disponible
+  - Section "## De quoi parle-t-on ?" avec intro sur le concept/hardware
+  - Section "## Objectifs d'apprentissage" en liste à puces
+  - Contenu de programmation (étapes, code, câblage)
+  - Footer Erasmus+
+- Dans la fiche principale, remplacer la section extraite par un lien `## Programmation` pointant vers la fiche technique
+- Les tableaux vides (exemples à remplir) doivent avoir des lignes de taille égale (même nombre de cellules)
+
 ## Build
 
 ```bash

@@ -153,66 +153,11 @@ Au cours de cette phase, nous avons effectué et réalisé les actions suivantes
 - Analyser et comparer les données pour chaque cas.
 - Extraire les informations pertinentes et en tirer des conclusions.
 
-## Fiches de programmation
+## Programmation
 
-### Fiche 1 : collecter des données à l'aide de l'accéléromètre
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Corps et accélération](/ressources/thedexterlab/programmation/programmation-corps-acceleration).
 
-L'accéléromètre est présent sur la STM32 IoT Node Discovery, il n'y a donc pas de branchement à faire.
-
-:::info
-Pour cette activité, installez l'extension **serial**.
-:::
-
-**Programme**
-
-```javascript
-let max = 0
-let data = 0
-
-Serial.attachToConsole()
-input.setAccelerometerRange(AcceleratorRange.EightG)
-
-forever(function () {
-    data = input.acceleration(Dimension.Strength)
-    if (data > max) {
-        max = data
-        Serial.writeValue("Max acceleration", max)
-    }
-})
-```
-
-### Fiche 2 : afficher les données sur un écran
-
-**Connecter l'écran LCD (I2C)** :
-
-- Noir pour GND (GND)
-- Rouge pour VCC (5V)
-- Violet pour SDA (D14)
-- Vert pour SCL (D15)
-
-:::info
-Pour cette activité, installez l'extension **lcd_i2c**.
-:::
-
-**Programme**
-
-```javascript
-let max = 0
-let data = 0
-
-input.setAccelerometerRange(AcceleratorRange.EightG)
-lcd_i2c.initScreen()
-
-forever(function () {
-    data = input.acceleration(Dimension.Strength)
-    if (data > max) {
-        max = data
-        lcd_i2c.setCursor(0, 0)
-        lcd_i2c.ShowValue("x", max)
-    }
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

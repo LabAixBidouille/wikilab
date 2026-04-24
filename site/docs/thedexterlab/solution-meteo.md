@@ -209,83 +209,11 @@ Dans cette activité, nous proposons l'élaboration d'une mini-station météo a
 - Comparer la vitesse du vent à différents endroits.
 - Tester l'efficacité de l'isolation d'un bâtiment.
 
-## Fiches de programmation
+## Programmation
 
-### Mesure de la température
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Solution météo](/ressources/thedexterlab/programmation/programmation-solution-meteo).
 
-```javascript
-Serial.attachToConsole()
-forever(function () {
-    Serial.writeValue("temperature", input.temperature(TemperatureUnit.Celsius))
-    pause(500)
-})
-```
-
-### Mesure de la pression atmosphérique
-
-```javascript
-Serial.attachToConsole()
-forever(function () {
-    Serial.writeValue("pression", input.pressure(PressureUnit.HectoPascal))
-    pause(500)
-})
-```
-
-### Mesure de l'humidité relative
-
-```javascript
-Serial.attachToConsole()
-forever(function () {
-    Serial.writeValue("humidity", input.humidity())
-    pause(500)
-})
-```
-
-### Mesure de la vitesse du vent
-
-```javascript
-let period = 3
-let armLength = 0.1
-let speed = 0
-
-Serial.attachToConsole()
-
-forever(function () {
-    speed = 2 * Math.PI * armLength * input.getAnemometerRotationPerUnit(pins.A0, AnemometerUnit.RPS, period) * 3.6
-    Serial.writeValue("speed", speed)
-})
-```
-
-### Station météo complète sur écran OLED
-
-**Câblage anémomètre :**
-
-- Broche '-' de l'anémomètre → bande '-' de la breadboard
-- GND de la carte → bande '-' de la breadboard
-- Broche '+' de l'anémomètre → bande '+' de la breadboard
-- 3.3V de la carte → bande '+' de la breadboard
-- Broche Signal de l'anémomètre → A0 de la carte
-
-**Câblage écran OLED I2C :** GND, VCC, SDA (D14), SCL (D15).
-
-Installez les extensions **anemometer** et **oled**.
-
-```javascript
-let wind = 0
-function getAnemometerSpeed (armLength: number, period: number) {
-    return 2 * Math.PI * armLength * input.getAnemometerRotationPerUnit(pins.A0, AnemometerUnit.RPS, period) * 3.6
-}
-forever(function () {
-    wind = getAnemometerSpeed(0.1, 1)
-    oled.clear()
-    oled.showValue("temperature", input.temperature(TemperatureUnit.Celsius), 1)
-    oled.showValue("pressure", input.pressure(PressureUnit.HectoPascal), 2)
-    oled.showValue("humidity", input.humidity(), 3)
-    oled.showValue("wind speed", wind, 4)
-    pause(1000)
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

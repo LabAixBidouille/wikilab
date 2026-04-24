@@ -5,25 +5,61 @@ sidebar_label: "Whisper Walls"
 sidebar_position: 3
 ---
 
-# Programmation : Whisper Walls
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 
-Fiche technique de programmation associée à la ressource [Whisper Walls](/ressources/steamcity/whisper-walls).
+<div style={{flex: 1}}>
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="2" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="12" rx="1" fill="#DD5350" opacity="0.25"/><path d="M9 10h6M9 12h6M9 14h4" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="1.0"/></svg> Programmation : Whisper Walls
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--info">STM32 IoT Node</span>
+  <span className="badge badge--info">Écran LCD I2C</span>
+  <span className="badge badge--warning">MakeCode</span>
+</div>
+
+| Projet | Durée | Difficulté | Âge |
+|---|---|---|---|
+| SteamCity | 1 heure | Débutant | 11-15 ans |
+
+## Matériel
+
+- 1 carte STM32 IoT Node Discovery (microphone intégré)
+- 1 écran LCD I2C
+- 1 câble USB micro-B
+- Des câbles de connexion
+
+</div>
+
+</div>
 
 ---
 
-### Fiche pratique 1 — Mesurer l'intensité du son
+## De quoi parle-t-on ?
 
-Câblage et utilisation d'une carte de programmation
+Cette fiche technique accompagne la ressource [Whisper Walls](/ressources/steamcity/whisper-walls). La carte STM32 IoT Node Discovery intègre un microphone qui renvoie une valeur en décibels. On l'utilise d'abord dans la console série pour visualiser les mesures, puis on les affiche en temps réel sur un écran LCD I2C.
 
-Utilisation du microphone : Le microphone intégré au STM32 IoT Node Discovery est prêt à l'emploi, aucun câblage n'est nécessaire.
+## Objectifs d'apprentissage
 
-Connexion de la carte à l'ordinateur : Branchez la carte à votre ordinateur via le connecteur micro-USB ST-LINK (situé en haut à droite de la carte) avec un câble USB. Si la connexion réussit, un nouveau lecteur nommé DIS_L4IOT apparaîtra sur votre ordinateur. Ce lecteur sert à programmer la carte en copiant un fichier binaire.
+- Utiliser le microphone intégré à la carte STM32
+- Installer une extension MakeCode (serial, lcd_i2c)
+- Afficher des valeurs via la console série
+- Afficher des valeurs dynamiques sur un écran LCD I2C
 
-Ouvrir MakeCode : Rendez-vous sur l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un nouveau projet en cliquant sur « Nouveau projet ». Nommez-le de façon explicite, puis lancez l'éditeur. Ressource : makecode.lets-steam.eu
+---
 
-Installation des extensions : Après la création de votre projet, l'écran par défaut « prêt à l'emploi » s'affiche et une extension doit être installée. En bas de la colonne des groupes de blocs, cliquez sur le bouton noir AVANCÉ. Des groupes supplémentaires apparaissent. Tout en bas, cliquez sur la case grise EXTENSIONS. Dans la liste, trouvez l'extension serial, qui permet d'afficher la valeur mesurée par le microphone dans la console. Si elle n'est pas visible, utilisez la barre de recherche pour la localiser. Sélectionnez l'extension souhaitée : un nouveau groupe de blocs sera ajouté à l'écran principal.
+## Fiche 1 : mesurer l'intensité du son
 
-Utiliser et comprendre le code : Voici le code Javascript utilisé pour programmer une carte STM32 afin de collecter régulièrement le niveau sonore du microphone.
+**Utilisation du microphone** : le microphone intégré au STM32 IoT Node Discovery est prêt à l'emploi, aucun câblage nécessaire.
+
+**Connexion de la carte à l'ordinateur** : branchez la carte via le connecteur micro-USB ST-LINK (en haut à droite). Un nouveau lecteur **DIS_L4IOT** apparaît sur l'ordinateur ; il sert à programmer la carte en copiant un fichier binaire.
+
+**Ouvrir MakeCode** : rendez-vous sur l'éditeur MakeCode de Let's STEAM ([makecode.lets-steam.eu](https://makecode.lets-steam.eu)). Créez un nouveau projet et nommez-le de façon explicite.
+
+**Installer l'extension** : cliquez sur **AVANCÉ** (bouton noir en bas de la colonne des blocs), puis sur **EXTENSIONS**. Recherchez et ajoutez l'extension **serial**, qui permet d'afficher la valeur mesurée dans la console.
+
+**Code**
 
 ```javascript
 Serial.attachToConsole()
@@ -33,43 +69,24 @@ forever(function() {
 })
 ```
 
-Programmation de la carte : Dans l'éditeur JavaScript MakeCode, copiez-collez le code fourni dans la section précédente. Si ce n'est pas encore fait, donnez un nom à votre projet, puis cliquez sur le bouton Télécharger. Transférez ensuite le fichier binaire sur le lecteur DIS_L4IOT. Patientez jusqu'à ce que la carte ait terminé de flasher.
+**Programmer la carte** : dans l'éditeur MakeCode, copiez-collez ce code. Cliquez sur **Télécharger**, puis copiez le fichier binaire sur le lecteur **DIS_L4IOT**. Patientez jusqu'à la fin du flashage. Le programme s'exécute automatiquement à chaque enregistrement ou après un appui sur **RESET**.
 
-Exécuter, modifier, jouer : Votre programme s'exécutera automatiquement à chaque enregistrement ou réinitialisation de la carte (en appuyant sur le bouton RESET).
+---
 
-### Fiche pratique 2 — Affichage des données sur un écran
+## Fiche 2 : afficher les données sur un écran LCD
 
-Câblage et utilisation d'une carte de programmation
-
-Connexion de l'écran : Pour connecter l'écran LCD, utilisez le bus I2C selon la convention suivante :
+**Câbler l'écran LCD (I2C)** :
 
 - Noir : GND
 - Rouge : VCC (5V)
 - Violet : SDA (D14)
 - Vert : SCL (D15)
 
-Ressources :
+**Ressources sur les bus** : [I2C](https://fr.wikipedia.org/wiki/I2C), [SPI](https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface), [Qwiic](https://www.sparkfun.com/qwiic), [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemmaqt/what-is-stemma-qt).
 
-- [https://fr.wikipedia.org/wiki/I2C](https://fr.wikipedia.org/wiki/I2C)
-- [https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface](https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface)
-- [https://www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
-- [https://learn.adafruit.com/introducing-adafruit-stemmaqt/what-is-stemma-qt](https://learn.adafruit.com/introducing-adafruit-stemmaqt/what-is-stemma-qt)
+**Installer l'extension** : cliquez sur **AVANCÉ** puis **EXTENSIONS** et ajoutez l'extension **lcd_i2c**.
 
-Connexion de la carte à l'ordinateur : Avec votre câble USB, connectez la carte à l'ordinateur via le connecteur micro-USB ST-LINK (en haut à droite de la carte).
-
-Si la connexion réussit, un nouveau lecteur nommé DIS_L4IOT apparaîtra sur l'ordinateur.
-
-Ce lecteur sert à programmer la carte en copiant simplement un fichier binaire.
-
-Ouverture de MakeCode : Accédez à l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un nouveau projet en cliquant sur « Nouveau projet ». Donnez un nom significatif à votre projet, différent de « Sans titre », puis lancez l'éditeur. Ressource : makecode.lets-steam.eu
-
-Installation des extensions : Après avoir créé votre nouveau projet, l'écran par défaut « prêt à l'emploi » s'affiche et il vous faudra installer une extension.
-
-Vous trouverez le bouton noir AVANCÉ en bas de la colonne des groupes de blocs. En cliquant dessus, des groupes supplémentaires apparaissent. En bas, une case grise intitulée EXTENSIONS est visible. Cliquez dessus.
-
-Dans la liste des extensions disponibles, repérez facilement l'extension lcd_i2c utilisée pour cette activité. Cette extension permet d'afficher des données sur un écran. Si elle n'apparaît pas directement, utilisez l'outil de recherche. Sélectionnez l'extension désirée ; un nouveau groupe de blocs apparaîtra alors sur l'écran principal.
-
-Utiliser et comprendre le code : Voici le code Javascript utilisé pour programmer une carte STM32 afin de collecter régulièrement le niveau sonore du microphone.
+**Code**
 
 ```javascript
 lcd_i2c.initScreen()
@@ -84,9 +101,7 @@ forever(function () {
 })
 ```
 
-Programmation de la carte : Dans l'éditeur JavaScript MakeCode, copiez-collez le code fourni dans la section précédente. Si ce n'est pas encore fait, nommez votre projet puis cliquez sur le bouton Télécharger. Copiez ensuite le fichier binaire sur le lecteur DIS_L4IOT et patientez jusqu'à ce que la carte ait terminé le flashage.
-
-Exécuter, modifier, jouer : Votre programme s'exécutera automatiquement à chaque enregistrement ou réinitialisation de la carte (en appuyant sur le bouton RESET).
+**Programmer la carte** : copiez-collez le code dans MakeCode, cliquez sur **Télécharger**, puis copiez le binaire sur le lecteur **DIS_L4IOT**. Le programme s'exécute automatiquement.
 
 ---
 

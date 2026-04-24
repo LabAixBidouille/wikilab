@@ -160,54 +160,11 @@ Dans cette phase, nous avons fait et réalisé ce qui suit :
 - Analyser les données en prenant des valeurs moyennes et les comparer pour chaque cas.
 - Extraire les informations pertinentes et conclure.
 
-## Fiches de programmation
+## Programmation
 
-### Fiche 1 : mesurer la concentration de CO2
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Qualité de l'air et personnes](/ressources/thedexterlab/programmation/programmation-qualite-air-personnes).
 
-**Câbler le capteur MH-Z19B (PWM)** :
-
-- Orange pour Vin (5V)
-- Bleu pour GND
-- Violet pour PWM (D7)
-
-:::info
-Pour cette activité, installez les extensions **mh_z19b** et **serial**.
-:::
-
-**Programme**
-
-```javascript
-Serial.attachToConsole()
-
-forever(function () {
-    Serial.writeValue("co2", input.getCO2Concentration(pins.D7))
-    pause(1000)
-})
-```
-
-### Fiche 2 : afficher les données collectées sur un écran
-
-**Connecter l'écran OLED SSD1306 (I2C)** :
-
-- Bleu pour GND
-- Rouge pour V+ (3V3)
-- Jaune pour SDA (D14)
-- Vert pour SCL (D15)
-
-:::info
-Pour cette activité, installez les extensions **OLED** et **mh_z19b**.
-:::
-
-**Programme**
-
-```javascript
-forever(function () {
-    oled.clear()
-    oled.showValue("CO2", input.getCO2Concentration(pins.D7), 1);
-    pause(1000)
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

@@ -176,45 +176,11 @@ Quelles sont les améliorations à apporter au protocole pour améliorer la qual
 
 Durant l'analyse des données, la représentation visuelle a permis de mettre en évidence la validation/invalidation de l'hypothèse de départ. Au-delà de l'hypothèse, l'analyse des données permet d'extrapoler une première approximation de la loi sous-jacente. Le partage d'information avec d'autres enquêteurs permet de savoir si les résultats sont valides et les conclusions comparables.
 
-## Fiches de programmation
+## Programmation
 
-### PROG19-TDL-1 : mesurer l'intensité d'un son
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Atténuation du son par matériau](/ressources/thedexterlab/programmation/programmation-attenuation-son-materiau).
 
-Nous utilisons le microphone intégré à la STM32 IoT Node Discovery, donc pas de branchement particulier. Installez l'extension **serial**.
-
-```javascript
-Serial.attachToConsole()
-
-forever(function(){
-    Serial.writeValue("Decibel", input.decibel());
-    pause(200)
-})
-```
-
-### PROG19-TDL-2 : afficher les données sur un écran
-
-**Câblage écran LCD I2C :**
-
-- Noir → GND (GND)
-- Rouge → VCC (5V)
-- Violet → SDA (D14)
-- Vert → SCL (D15)
-
-Installez l'extension **lcd_i2c**.
-
-```javascript
-lcd_i2c.initScreen()
-lcd_i2c.setCursor(0, 0);
-lcd_i2c.ShowString("Decibel (dB):")
-
-forever(function () {
-    lcd_i2c.setCursor(0, 1);
-    lcd_i2c.ShowNumber(input.decibel());
-    lcd_i2c.ShowString("   ");
-    pause(200)
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

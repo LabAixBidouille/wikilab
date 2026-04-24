@@ -5,76 +5,107 @@ sidebar_label: "Insulation"
 sidebar_position: 6
 ---
 
-# Programmation : Insulation
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 
-Fiche technique de programmation associée à la ressource [Insulation](/ressources/steamcity/insulation).
+<div style={{flex: 1}}>
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="2" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="12" rx="1" fill="#DD5350" opacity="0.25"/><path d="M9 10h6M9 12h6M9 14h4" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="1.0"/></svg> Programmation : Insulation
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--info">Micro:bit V2</span>
+  <span className="badge badge--info">Capteur DHT22 / DHT11</span>
+  <span className="badge badge--warning">MakeCode</span>
+</div>
+
+| Projet | Durée | Difficulté | Âge |
+|---|---|---|---|
+| SteamCity | 1-2 heures | Intermédiaire | 11-15 ans |
+
+## Matériel
+
+- 1 carte Micro:bit V2
+- 1 capteur DHT22 (ou DHT11) monté sur PCB
+- 1 câble micro-USB
+- 1 batterie externe (optionnelle)
+- Fils de connexion
+- Ordinateur ou tablette + [MakeCode](https://makecode.microbit.org/#editor)
+
+</div>
+
+</div>
 
 ---
 
-### Matériel et outils nécessaires
+## De quoi parle-t-on ?
 
-- **Carte Micro:bit V2 et ses capteurs intégrés :** il s'agit de la carte programmable principale. Elle comprend un capteur de lumière (via l'écran LED), un capteur sonore, ainsi qu'un capteur de température intégré. Prix indicatif : environ 19 EUR par carte Micro:bit.
-- **Câble micro-USB :** permet d'alimenter la carte et de la programmer depuis un ordinateur.
-- **Batterie externe (optionnelle) :** utile pour un fonctionnement en autonomie si la carte est détachée de l'ordinateur. Le boîtier de piles officiel Micro:bit est disponible pour environ 2,20 EUR par unité.
+Cette fiche technique accompagne la ressource [Insulation](/ressources/steamcity/insulation). Elle explique comment câbler un capteur DHT22/DHT11 à la Micro:bit et comment programmer la collecte régulière de température et d'humidité grâce à l'extension Datalogger, en vue d'étudier l'efficacité thermique de bâtiments.
 
-Vous pouvez également acheter le kit Micro:bit V2 comprenant le câble USB et le boîtier de piles pour 21 EUR par kit ou 177 EUR pour 10 kits.
+## Objectifs d'apprentissage
 
-- **Capteur DHT22 (ou DHT11) :** ces capteurs sont populaires pour mesurer l'humidité et la température avec des microcontrôleurs. Le DHT11 est bon marché et suffisant pour des projets simples, tandis que le DHT22 offre une meilleure précision et une résolution supérieure, pour un coût légèrement plus élevé.
-- **Ordinateur ou tablette :** utilisé pour écrire le code et le transférer vers la Micro:bit.
-- **Environnement de programmation :** l'éditeur en ligne MakeCode est recommandé pour programmer facilement la carte Micro:bit.
+- Câbler un capteur DHT11/DHT22 (version PCB 3 broches ou 4 broches)
+- Installer les extensions Datalogger et DHT11/DHT22 dans MakeCode
+- Collecter et enregistrer température + humidité en continu
+- Exporter les données au format CSV pour analyse
+
+---
+
+## Matériel nécessaire
+
+- **Carte Micro:bit V2** : inclut un écran LED (capteur de lumière), un capteur sonore et un capteur de température interne — environ 19 EUR par carte.
+- **Câble micro-USB** pour alimenter et programmer la carte.
+- **Batterie externe (optionnelle)** : boîtier de piles Micro:bit pour environ 2,20 EUR par unité.
+- Kit Micro:bit V2 (carte + câble + boîtier) : 21 EUR par kit, 177 EUR pour 10 kits.
+- **Capteur DHT22 (ou DHT11)** : le DHT22 offre une meilleure précision pour un coût légèrement plus élevé.
+- **Ordinateur ou tablette** + éditeur en ligne MakeCode.
 
 :::info[Conseil]
-Pour cette étape, il est recommandé de programmer entre 3 et 6 cartes Micro:bit afin de les répartir entre les élèves et de recueillir un plus grand volume de données. Il est possible de réaliser l'activité avec une seule carte, mais cela nécessitera soit d'allonger la période globale de collecte, soit de réduire la durée de collecte par élève, en passant de 7 à 3 jours environ.
+Il est recommandé de programmer entre 3 et 6 cartes Micro:bit afin de les répartir entre les élèves et de recueillir un plus grand volume de données. Avec une seule carte, il faudra soit allonger la collecte, soit la raccourcir à 3 jours par élève.
 :::
 
-### Câblage et utilisation d'une carte Micro:bit
+---
 
-Suivez les étapes ci-dessous pour programmer, installer, enregistrer et récupérer des données environnementales à l'aide d'une carte Micro:bit.
+## Étape 1 : câbler le capteur DHT à la Micro:bit
 
-#### Étape 1 : câblage du capteur de température/humidité à la carte Micro:bit
+Il existe deux versions du DHT11/DHT22 :
 
-Il existe deux types de capteurs DHT11/DHT22 :
+1. **Sans carte PCB, 4 broches** : il faut ajouter une résistance de rappel entre Vcc et Data (220 Ω à 10 kΩ sous 3,3 V). Alternative : activer la résistance pull-up interne via Broche > Plus > Régler le levier en broche (Micro:bit dispose de pull-up internes ~12–13 kΩ). La 3e broche depuis la gauche n'est pas utilisée.
+2. **Montée sur PCB, 3 broches** (recommandée) :
+   - **Vcc (+)** sur 3,3 V ou 5 V
+   - **GND (−)** sur GND
+   - **Data (OUT)** sur une broche GPIO de la Micro:bit
 
-1. Version sans carte PCB, avec 4 broches ;
-2. Version montée sur carte PCB, avec résistances de rappel intégrées et seulement 3 broches.
+---
 
-Nous vous recommandons d'utiliser la version avec PCB, plus simple à connecter.
+## Étape 2 : programmer la Micro:bit
 
-**Pour la version avec PCB (3 broches) :**
+Branchez la carte à l'ordinateur via le câble micro-USB. Elle apparaît comme un lecteur « MICROBIT ».
 
-- **Vcc (+)** : à connecter à 3,3 V ou 5 V (les deux tensions sont compatibles)
-- **GND (-)** : à connecter à la masse (GND)
-- **Data (OUT)** : à connecter à n'importe quelle broche GPIO de la Micro:bit
+Dans MakeCode, créez un nouveau projet. Cliquez sur **EXTENSIONS** et ajoutez :
 
-**Pour la version sans PCB (4 broches) :**
+- l'extension **Datalogger**
+- l'extension **DHT11/DHT22**
 
-- Vous devez ajouter une résistance de rappel entre Vcc et Data pour maintenir la broche Data à l'état haut. Une résistance comprise entre 220 Ohm et 10 kOhm fonctionne correctement sous 3,3 V ; au-delà, le capteur risque de ne pas répondre.
-- Vous pouvez aussi utiliser l'option pull-up interne de la Micro:bit : dans MakeCode, allez dans le menu "Broche" &gt; "Plus" &gt; "Régler le levier en broche...". La Micro:bit possède des résistances de rappel internes d'environ 12--13 kOhm.
-- Remarque : la troisième broche à partir de la gauche (sur la version 4 broches) n'est pas utilisée.
+Cliquez sur **Télécharger** pour générer le fichier `.hex`, puis copiez-le sur le lecteur **MICROBIT**. La carte redémarre et exécute le programme.
 
-#### Étape 2 : programmation de la Micro:bit
+---
 
-À l'aide de votre câble USB, connectez la carte à votre ordinateur via le connecteur micro-USB. Une fois connectée, la carte Micro:bit apparaîtra sur l'ordinateur comme un lecteur amovible (par exemple, « MICROBIT »). Ouvrez l'éditeur MakeCode pour créer un programme qui collecte des données de lumière, de bruit et de température à l'aide des capteurs intégrés de la carte Micro:bit V2. Donnez un nom clair à votre projet avant de commencer.
+## Étape 3 : placer la Micro:bit et démarrer l'enregistrement
 
-Une fois dans l'éditeur et après avoir créé votre nouveau projet, vous verrez apparaître l'écran par défaut « prêt à l'emploi ». Vous devrez alors installer une extension. Les extensions dans MakeCode sont des groupes de blocs qui ne sont pas inclus directement dans les blocs de base. Comme leur nom l'indique, elles ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail d'usages : créer une manette de jeu, un clavier, une souris, contrôler un servomoteur, etc. Dans la colonne des groupes de blocs, cliquez sur EXTENSIONS. Dans la liste des extensions disponibles, recherchez l'extension Datalogger, qui sera utilisée pour cette activité. Cliquez sur l'extension souhaitée : un nouveau groupe de blocs apparaîtra sur l'écran principal. Faites de même pour le capteur de température/humidité en recherchant l'extension DHT11/DHT22.
+Placez la carte à un endroit dégagé pour mesurer l'humidité et la température sans obstruction. Alimentez-la par ordinateur ou batterie externe. Le soir, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
-Une fois le fichier .hex transféré sur la carte, celle-ci redémarrera automatiquement et exécutera le code.
+---
 
-#### Étape 3 : positionner la Micro:bit et commencer à enregistrer les données
+## Étape 4 : récupérer les données
 
-Une fois programmé, placez la Micro:bit dans un endroit où il pourra mesurer l'humidité et la température sans obstruction, afin de garantir des relevés fiables. Utilisez un ordinateur ou une batterie externe pour assurer l'alimentation continue du Micro:bit pendant toute la durée de l'enregistrement. Avant d'aller vous coucher, appuyez sur le bouton A de la carte Micro:bit pour démarrer l'enregistrement des données.
+Chaque matin, débranchez la Micro:bit pour arrêter la collecte. Connectez-la à l'ordinateur : le fichier **MY_DATA.HTM** est disponible sur le lecteur MICROBIT. Copiez-le sur l'ordinateur, renommez-le (ex. `BOARD1_NAME_YYYY-MM-DD.HTM`), puis supprimez l'original de la carte.
 
-#### Étape 4 : récupération des données et préparation de la carte pour la prochaine session
+Répétez chaque jour. À la fin, centralisez tous les fichiers pour analyse.
 
-Chaque matin, pour éviter toute perte de données, débranchez la Micro:bit de sa source d'alimentation afin d'arrêter l'enregistrement. Connectez-la ensuite à votre ordinateur pour accéder au fichier généré pendant la nuit par le datalogger. Ce fichier s'appelle MY_DATA.HTM et se trouve sur le lecteur MICROBIT.
+---
 
-Copiez ce fichier sur votre ordinateur. Renommez-le avec la date du jour et un identifiant clair (par exemple : BOARD1_NAME_YYYY-MM-DD.HTM). Une fois copié et renommé, supprimez le fichier MY_DATA.HTM de la carte Micro:bit pour libérer de l'espace et permettre un nouvel enregistrement.
-
-Répétez cette opération chaque jour pour chaque carte utilisée. À la fin de la période de collecte, vous pourrez centraliser tous les fichiers enregistrés sur l'ensemble des Micro:bit.
-
-### Utiliser et comprendre le code
-
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données sur l'humidité et la température :
+## Code
 
 ```javascript
 input.onButtonPressed(Button.A, function () {
@@ -98,26 +129,19 @@ basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
 
-#### Comment le programme fonctionne
+### Comment cela fonctionne ?
 
-Ce programme mesure l'humidité et la température. À intervalles réguliers -- par défaut toutes les minutes, mais cette fréquence peut être ajustée (toutes les 10 secondes, toutes les 5 minutes, deux fois par heure, etc.) -- le programme enregistre les données dans un datalogger, à partir duquel il est possible de télécharger un fichier .csv.
+Ce programme mesure l'humidité et la température toutes les minutes (fréquence ajustable).
 
-Un fichier .csv (Comma-Separated Values) est un format de fichier texte utilisé pour stocker des données tabulaires, comme dans un tableau ou une feuille de calcul. Chaque ligne du fichier correspond à une ligne de données, et chaque valeur est séparée par un délimiteur -- le plus souvent une virgule, mais parfois un point-virgule ou une tabulation.
+- **Bouton A** : déclenche la collecte. L'icône « Yes » est affichée 200 ms puis l'écran est nettoyé.
+- **Boucle infinie** `while (true)` :
+  - `dht11_dht22.queryData(...)` : interroge le capteur (respecter 1 s minimum entre requêtes pour DHT11, 2 s pour DHT22). En cas d'erreur de checksum, les relevés retournent -999.
+  - `datalogger.log(...)` + `createCV(...)` enregistre température (°C) et humidité (%).
+  - `basic.pause(60000)` : attend 1 minute.
+- **Horodatage** : `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` ajoute un indicateur de temps en minutes.
+- **Icône « No »** : affichée avant l'appui pour indiquer que la carte attend l'utilisateur.
 
-Il est possible de récupérer les données d'un fichier .csv dans un tableur tel que Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier &gt; Ouvrir, sélectionnez le fichier .csv, puis configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, le processus est similaire : cliquez sur Fichier &gt; Ouvrir, choisissez le fichier, puis utilisez l'assistant d'importation pour définir le bon délimiteur (par exemple une virgule ou un point-virgule).
-
-Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
-
-- **Initialisation de l'événement d'appui sur le bouton « A » :** Lorsque l'utilisateur appuie sur le bouton « A » de la MicroBit, la fonction `input.onButtonPressed(Button.A, function () ...)` est exécutée.
-- **Affichage de l'icône "Yes" pendant l'exécution :** Avant de démarrer l'enregistrement des données, le programme affiche l'icône « Yes » (`basic.showIcon(IconNames.Yes)`) pendant 200 millisecondes (0,2 seconde) pour indiquer que le processus d'enregistrement a démarré.
-- **Pause de 200 millisecondes :** Après avoir affiché l'icône « Yes », le programme attend 200 millisecondes en utilisant `basic.pause(200)`.
-- **Nettoyage de l'écran :** Après la pause de 200 millisecondes, l'écran est effacé avec `basic.clearScreen()`, qui prépare l'écran pour ce qui suit sans être encombré d'images.
-- **Boucle de collecte de données infinie :** Le programme entre dans une boucle infinie `while (true)`. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la MicroBit soit éteint ou redémarré.
-- **Interrogation du capteur :** Les blocs `dht11_dht22.queryData()` et `dht11_dht22.readData(...)` permettent de sélectionner le type de module et de lire les données du capteur (il est recommandé de respecter un délai entre chaque requête : au moins 1 seconde pour le DHT11 et 2 secondes pour le DHT22). Une requête doit être effectuée au préalable pour obtenir les valeurs de température et d'humidité. Ce bloc vérifie également la somme de contrôle des données renvoyées par le capteur. En cas d'erreur dans la somme de contrôle, les relevés de température et d'humidité retourneront -999, et le bloc « Dernière requête réussie ? » indiquera false.
-- **Enregistrement des données dans le datalogger :** À chaque itération, le programme enregistre les valeurs des capteurs de la MicroBit : Température (`dht11_dht22.readData(dataType.temperature)`) récupère la température actuelle en degrés Celsius. Humidité (`dht11_dht22.readData(dataType.humidity)`) récupère l'humidité relative actuelle. La température est mesurée en degrés Celsius (°C) et l'humidité relative en pourcentage. Ces valeurs sont enregistrées dans le datalogger sous forme de variables nommées (respectivement, « température » et « humidité »). La fonction `createCV` permet de créer un « CV » (valeur de contexte) pour chaque capteur, et la fonction `datalogger.log` permet d'enregistrer ces valeurs dans un fichier sur la MicroBit.
-- **Pause de 60 000 millisecondes avant la lecture suivante :** Après chaque enregistrement, le programme attend 60 000 millisecondes (1 minute) avant de relire les valeurs du capteur. Ceci est réalisé avec `basic.pause(60000)`.
-- **Horodatage des données :** En dehors de la fonction liée au bouton, la commande `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` est utilisée pour inclure un horodatage avec chaque enregistrement de données. Le format d'horodatage est en minutes, ce qui signifie que chaque enregistrement aura un indicateur de temps basé sur les minutes écoulées depuis le démarrage du programme.
-- **Affichage de l'icône "No" avant l'exécution :** Avant que l'utilisateur n'appuie sur le bouton « A », le programme affiche une icône « No » (`basic.showIcon(IconNames.No)`) pour indiquer que la MicroBit attend l'action de l'utilisateur.
+Un fichier `.csv` est un format texte tabulaire ; il s'ouvre dans Excel ou LibreOffice Calc via l'assistant d'importation (choix du délimiteur).
 
 ---
 

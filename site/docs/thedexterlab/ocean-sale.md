@@ -159,38 +159,11 @@ L'eau qui retombe dans le verre devrait être similaire à l'eau de pluie en ter
 
 L'eau dans le verre est de l'eau pure avec une conductivité nulle. L'eau dans le verre est le résultat de la condensation de l'eau qui s'est évaporée : si notre système sert à modéliser les océans, elle représente l'eau de pluie. L'eau hors du verre devient de plus en plus salée, la conductivité augmente avec le temps. Cette eau représente l'eau de mer. Dans le monde réel, depuis le début de la planète Terre, l'eau de mer est progressivement devenue de plus en plus salée. Aujourd'hui et depuis plusieurs milliards d'années, la concentration en sel est en équilibre. Les nouveaux sels apportés par les eaux des rivières compensent les sels qui disparaissent par la sédimentation et la tectonique des plaques.
 
-## Fiche de programmation : mesurer la conductivité de l'eau
+## Programmation
 
-### Câblage du conductimètre
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Pourquoi l'océan est salé](/ressources/thedexterlab/programmation/programmation-ocean-sale).
 
-Le conductimètre est composé de deux éléments :
-
-1. La sonde (élément terminé par deux électrodes, qui sera plongé dans l'eau)
-2. La carte d'acquisition (facilite la communication entre la STM32 et la sonde de mesure)
-
-Le branchement de la sonde sur la carte d'acquisition se fait via le connecteur correspondant à la fiche de la sonde, qui ne comporte que deux broches.
-
-Le lien avec la STM32 se fait via l'autre connecteur (avec trois broches), comme suit :
-
-- Rouge sur 5V
-- Noir sur GND
-- Bleu sur A0
-
-:::info
-Pour cette activité, installez l'extension **ECMeter_SEN0244**.
-:::
-
-### Programme
-
-```javascript
-Serial.attachToConsole()
-
-forever(function () {
-    Serial.writeValue("EC", input.getECValue(pins.A0, ECUnit.US_CM))
-    loops.pause(1000);
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

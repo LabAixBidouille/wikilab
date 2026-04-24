@@ -152,87 +152,11 @@ En plus de l'affichage des données à l'utilisateur, lors de cette étape, nous
 
 Le protocole "Comment maximiser l'apport en énergie solaire et créer des panneaux auto-orientables ?" permet d'aller plus loin dans cette activité en proposant une solution d'automatisation permettant de toujours avoir une orientation optimale.
 
-## Fiches de programmation
+## Programmation
 
-### Fiche 1 : collecter les données grâce au capteur de tension
+Les fiches techniques de programmation (câblage, code, extensions MakeCode) sont regroupées dans une fiche dédiée : [Programmation : Panneau solaire sur une journée](/ressources/thedexterlab/programmation/programmation-panneau-solaire-journee).
 
-**Câbler le capteur de tension (I2C)** :
-
-- Violet pour SDA
-- Vert pour SCL
-- Bleu pour GND
-- Rouge pour VCC (3.3V)
-
-**Câbler le panneau solaire** :
-
-- Le fil rouge (positif) sur le bornier à vis Vin+
-- Le fil noir (négatif) connecté d'une part sur le GND de la carte, et d'autre part sur une résistance de 100 ohms elle-même branchée sur le bornier à vis Vin-
-
-:::info
-Pour cette activité, installez les extensions **SERIAL** et **INA219**.
-:::
-
-**Programme**
-
-```javascript
-Serial.attachToConsole()
-
-forever(function () {
-    Serial.writeValue("Voltage", input.getINA219Voltage())
-    pause(5000)
-})
-```
-
-### Fiche 2 : afficher les données sur un écran
-
-**Connecter l'écran OLED SSD1306 (I2C)** :
-
-- Bleu pour GND
-- Rouge pour V+ (3V3)
-- Orange pour SDA (D14)
-- Jaune pour SCL (D15)
-
-**Câbler le capteur de tension** (mêmes broches I2C que l'écran, utiliser la breadboard pour le partage).
-
-**Câbler le panneau solaire** :
-
-- Fil positif sur Vin+
-- Fil négatif sur Vin-
-
-:::info
-Pour cette activité, installez les extensions **OLED** et **INA219**.
-:::
-
-**Programme**
-
-```javascript
-forever(function () {
-    oled.clear()
-    oled.showValue("Voltage (V)", input.getINA219Voltage(), 1)
-    pause(1000);
-})
-```
-
-### Fiche 3 : créer un système d'alarme
-
-Même câblage que la fiche 2 (écran OLED + capteur INA219 + panneau solaire).
-
-**Programme**
-
-```javascript
-forever(function () {
-    oled.clear()
-    oled.showValue("Voltage (V)", input.getINA219Voltage(), 1)
-    if(input.getINA219Voltage() < 2){
-        oled.clear()
-        oled.showString("ALARME", 1)
-        oled.showString("Rendement trop bas !", 2)
-        oled.showString("Le panneau doit etre oriente", 3)
-    }
-    pause(1000);
-})
-```
 
 ---
 
-*Cette fiche fait partie du projet [The Dexter Lab](/projets/thedexterlab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [The Dexter Lab](/projets/the-dexter-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

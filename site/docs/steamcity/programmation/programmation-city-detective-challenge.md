@@ -5,82 +5,118 @@ sidebar_label: "City Detective Challenge"
 sidebar_position: 9
 ---
 
-# Programmation : City Detective Challenge
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 
-Fiche technique associée à la ressource [City Detective Challenge](/ressources/steamcity/city-detective-challenge).
+<div style={{flex: 1}}>
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="2" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="12" rx="1" fill="#DD5350" opacity="0.25"/><path d="M9 10h6M9 12h6M9 14h4" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="1.0"/></svg> Programmation : City Detective Challenge
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Géographie</span>
+  <span className="badge badge--info">Navigateur web</span>
+  <span className="badge badge--warning">uMap</span>
+  <span className="badge badge--warning">OpenStreetMap</span>
+</div>
+
+| Projet | Durée | Difficulté | Âge |
+|---|---|---|---|
+| SteamCity | 1-2 heures | Débutant | 10-15 ans |
+
+## Matériel
+
+- 1 ordinateur ou tablette avec navigateur web
+- 1 connexion internet
+- (Optionnel) Compte sur [Postimage](https://postimg.cc/) ou [GitHub](https://github.com/) pour héberger des images
+
+</div>
+
+</div>
 
 ---
 
-### Introduction à l'outil uMap
+## De quoi parle-t-on ?
 
-uMap est un outil de cartographie open-source qui permet de créer, gérer et partager des cartes personnalisées. Il s'appuie sur les données d'OpenStreetMap, offrant une plateforme souple et accessible pour représenter des informations géographiques.
+Cette fiche technique accompagne la ressource [City Detective Challenge](/ressources/steamcity/city-detective-challenge). **uMap** est un outil de cartographie open-source qui s'appuie sur les données d'**OpenStreetMap** pour créer, gérer et partager des cartes personnalisées. Elle offre une plateforme souple et accessible pour représenter des informations géographiques en classe.
 
-Cette section a pour objectif d'accompagner les enseignants et les élèves dans l'usage pédagogique de uMap, en intégrant des cartes interactives au service des apprentissages. Elle montre comment cet outil peut enrichir les séances, en facilitant la visualisation, l'organisation et l'analyse spatiale des données recueillies.
+OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable, alimentée par des bénévoles à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Souvent comparée à Wikipedia, elle permet à chacun de contribuer et de réutiliser les données.
 
-OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable. Elle est alimentée par des bénévoles, à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Elle rassemble une grande variété de données géographiques : rues, équipements publics, commerces, transports, etc. Souvent comparée à Wikipedia, cette carte permet à chacun de contribuer, mais aussi de réutiliser les données dans de nombreux contextes.
+## Objectifs d'apprentissage
 
-### Démarrer avec uMap
+- Naviguer et contribuer à une carte collaborative uMap
+- Ajouter des marqueurs sur une carte en choisissant la bonne couche
+- Héberger et insérer une image dans une vignette uMap
+- Créer sa propre carte avec couches, marqueurs et permissions
 
-Dans le cadre de ce projet, une carte prête à l'emploi est mise à disposition. Elle permet à plusieurs classes, écoles, régions ou pays de collaborer sur une base commune, enrichissant progressivement une connaissance collective partagée.
+---
+
+## Démarrer avec uMap
+
+Dans le cadre du projet, une carte prête à l'emploi est mise à disposition. Elle permet à plusieurs classes, écoles, régions ou pays de collaborer sur une base commune, enrichissant progressivement une connaissance collective partagée.
 
 ### Étape 1 : se connecter à uMap
 
-Ouvrez un navigateur web et allez sur le site web uMap. À partir de cet espace, vous pouvez consulter toutes les cartes disponibles et rechercher celle du projet intitulée « City Detective Challenge » pour y accéder et y contribuer. Vous pouvez également y accéder directement grâce à l'URL suivante : SteamCity : City Detective Challenge
+Ouvrez un navigateur web et allez sur le site uMap. Depuis cet espace, vous pouvez consulter toutes les cartes disponibles et rechercher celle du projet **« City Detective Challenge »** pour y accéder et y contribuer.
 
 ### Étape 2 : découvrir les couches
 
-Dans notre cas, toutes les couches ont été construites à partir du jeu introductif. Nous demandons de ne pas ajouter ni modifier les couches existantes, car la carte sera utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques. Par exemple, pour le département de la santé, le pointeur est bleu avec une icône de médicament.
+Toutes les couches ont été construites à partir du jeu introductif. **Ne pas ajouter ni modifier** les couches existantes — la carte est utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques (ex. : pointeur bleu avec icône médicament pour le département de la santé).
 
-### Étape 3 : édition de la carte
+### Étape 3 : éditer la carte
 
-Pour enregistrer un nouveau lieu sur la carte, cliquez sur « éditer » (ou « edit »). Recherchez l'emplacement de votre site. Vous pouvez utiliser l'outil de recherche situé à gauche pour entrer directement les coordonnées GPS, ce qui facilite la localisation. Une fois l'emplacement trouvé (lieu, bâtiment ou service), cliquez sur l'icône du pointeur pour marquer l'endroit.
+Pour enregistrer un nouveau lieu, cliquez sur **éditer**. Recherchez l'emplacement via l'outil de recherche (ou coordonnées GPS), puis cliquez sur l'icône du pointeur. Placez-le sur le bon emplacement : une fenêtre de propriétés s'ouvre.
 
-Positionnez le pointeur sur le bon emplacement. Cela ouvrira une fenêtre de propriétés. Choisissez la couche appropriée, par exemple : Service de la mobilité et des transports. Dans la même fenêtre, nommez l'emplacement et ajoutez une description.
+Choisissez la couche appropriée (ex. : *Service de la mobilité et des transports*), nommez l'emplacement et ajoutez une description.
 
-Vous pouvez également ajouter une image. Pour cela, collez l'URL entre deux accolades. Pour créer facilement une URL à partir de vos images, utilisez un outil libre comme Postimage (https://postimg.cc/). Téléversez l'image, puis copiez le Lien Direct (sans créer de compte). Vous pouvez également utiliser GitHub (https://github.com/) : ajoutez votre image dans un dépôt public, ouvrez le fichier, puis copiez l'adresse de l'image (clic droit → copier l'adresse de l'image).
+**Ajouter une image** : collez l'URL entre deux accolades. Pour obtenir une URL d'image, utilisez :
 
-Lorsque vous avez terminé, cliquez sur enregistrer. Passez en mode aperçu pour vérifier l'affichage de votre vignette.
+- [Postimage](https://postimg.cc/) — téléversez l'image et copiez le **Lien Direct** (pas besoin de compte)
+- [GitHub](https://github.com/) — déposez l'image dans un dépôt public, ouvrez le fichier puis clic droit > copier l'adresse de l'image
 
-### Créez votre propre uMap : quelques conseils
+Cliquez sur **enregistrer**, puis passez en mode aperçu pour vérifier la vignette.
 
-**Commencez votre carte**
+---
 
-1. Ouvrez un navigateur web et allez sur le site web uMap.
-2. Cliquez sur « Créer une carte » pour démarrer un nouveau projet.
-3. Une fois que votre fond de carte s'ouvre, cliquez sur l'icône des paramètres (symbole d'engrenage) pour définir le titre de la carte, la description et les paramètres d'affichage par défaut.
-4. Choisissez le format de fond de carte qui convient le mieux aux besoins de votre projet (par exemple, standard, topographique, satellite).
+## Créer votre propre uMap : quelques conseils
 
-**Ajoutez des couches et des données**
+### Commencer votre carte
 
-Les couches sont utilisées pour organiser différents types d'informations sur votre carte, comme différents sujets ou types de données.
+1. Ouvrez un navigateur web et allez sur uMap
+2. Cliquez sur **Créer une carte**
+3. Cliquez sur l'icône des paramètres (engrenage) pour définir titre, description et affichage par défaut
+4. Choisissez le fond de carte adapté (standard, topographique, satellite)
 
-1. Cliquez sur l'icône des couches (deux couches empilées) pour gérer et ajouter de nouvelles couches.
-2. Pour ajouter une nouvelle couche, sélectionnez « Créer une couche » et nommez-la en fonction des données ou de l'activité (par exemple, Sites historiques, Données de trafic).
-3. Configurez les propriétés de la couche, comme la couleur des marqueurs ou des lignes, pour différencier visuellement les couches.
+### Ajouter des couches et des données
 
-**Ajoutez des marqueurs et des formes**
+Les couches organisent les informations par sujet.
 
-1. Sélectionnez la couche que vous souhaitez modifier dans votre liste de couches.
-2. Choisissez l'outil approprié (marqueur, ligne ou polygone) dans la barre d'outils et cliquez sur la carte pour le placer.
-3. Chaque nouvel élément peut être personnalisé avec une boîte de dialogue contextuelle où vous pouvez ajouter des titres, des descriptions, des images ou des liens.
-4. Utilisez l'option « Partager et intégrer » pour obtenir le code HTML qui peut être inséré dans votre site.
+1. Cliquez sur l'icône des couches (deux couches empilées)
+2. **Créer une couche** et nommez-la selon les données (ex. *Sites historiques*, *Données de trafic*)
+3. Configurez les propriétés de la couche (couleur, icône) pour différencier visuellement
 
-**Partagez et collaborez**
+### Ajouter des marqueurs et des formes
 
-1. uMap vous permet de contrôler qui peut voir ou modifier vos cartes.
-2. Dans les paramètres de la carte, ajustez les « Permissions » pour définir votre carte comme publique ou privée, et attribuez des droits d'édition aux membres de l'équipe ou aux étudiants.
-3. Les cartes peuvent être intégrées dans des sites web ou des blogs pour un partage plus large.
+1. Sélectionnez la couche à modifier
+2. Choisissez l'outil approprié (marqueur, ligne, polygone) et cliquez sur la carte
+3. Chaque élément peut être personnalisé avec titre, description, images, liens
+4. Utilisez **Partager et intégrer** pour obtenir le code HTML d'intégration
 
-**Conseils pratiques pour les enseignants**
+### Partager et collaborer
 
-1. Idées de projets : Utilisez uMap pour divers projets éducatifs comme le suivi d'événements historiques, l'analyse des schémas de circulation ou la planification d'études écologiques.
-2. Développement des compétences : Les exercices de cartographie améliorent les compétences en analyse de données, en géographie et en pensée critique.
-3. Utilisation pour l'évaluation : Les enseignants peuvent utiliser les projets uMap pour évaluer la compréhension des concepts géographiques par les élèves et leur capacité à interpréter des données spatiales.
+1. uMap permet de contrôler les droits de visualisation/édition
+2. Dans les paramètres, ajustez les **Permissions** : public/privé, droits d'édition
+3. Les cartes peuvent être intégrées dans un site web ou un blog
 
-**Dépannage et assistance**
+### Conseils pour les enseignants
 
-1. Problèmes courants : Pour les problèmes tels que les difficultés de connexion, les données qui ne s'affichent pas correctement ou les erreurs dans les fonctionnalités de la carte, consultez la FAQ d'uMap ou les forums pour trouver des solutions.
-2. Ressources d'apprentissage : Explorez les tutoriels et guides utilisateur disponibles en ligne pour maîtriser les fonctionnalités avancées et les techniques de dépannage : uMap/Guide (OpenStreetMap Wiki), Tutoriel : Umap / Openstreetmap (carte enrichie) (+ 2e tuto plus simple en description), Tutoriel : Umap, croquis et carte interactive (bases sans création de compte).
+- **Idées de projets** : suivi d'événements historiques, analyse de circulation, planification d'études écologiques
+- **Compétences développées** : analyse de données, géographie, pensée critique
+- **Évaluation** : les projets uMap permettent d'évaluer la compréhension spatiale des élèves
+
+### Dépannage et assistance
+
+- **Problèmes courants** : connexion, affichage des données, erreurs de fonctionnalités — consultez la FAQ d'uMap ou les forums
+- **Ressources d'apprentissage** : uMap/Guide (OpenStreetMap Wiki), tutoriels « Umap / OpenStreetMap (carte enrichie) » et « Umap, croquis et carte interactive » (bases sans compte)
 
 ---
 

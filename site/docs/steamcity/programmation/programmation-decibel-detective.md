@@ -5,63 +5,97 @@ sidebar_label: "Decibel Detective"
 sidebar_position: 1
 ---
 
-# Programmation : Decibel Detective
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 
-Fiche technique de programmation associée à la ressource [Decibel Detective](/ressources/steamcity/decibel-detective).
+<div style={{flex: 1}}>
+
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="4" width="16" height="16" rx="2" fill="#DD5350" opacity="0.1"/><rect x="6" y="6" width="12" height="12" rx="1" fill="#DD5350" opacity="0.25"/><path d="M9 10h6M9 12h6M9 14h4" stroke="#DD5350" strokeWidth="1" strokeLinecap="round" opacity="1.0"/></svg> Programmation : Decibel Detective
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
+  <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--info">Micro:bit V2</span>
+  <span className="badge badge--warning">MakeCode</span>
+</div>
+
+| Projet | Durée | Difficulté | Âge |
+|---|---|---|---|
+| SteamCity | 1 heure | Débutant | 10-15 ans |
+
+## Matériel
+
+- 1 carte Micro:bit V2 (capteur de niveau sonore intégré)
+- 1 câble micro-USB
+- 1 batterie externe (optionnelle, pour mesure portable)
+- 1 ordinateur ou tablette avec accès à [MakeCode](https://makecode.microbit.org/#editor)
+
+</div>
+
+</div>
 
 ---
 
-### Programmer votre Micro:bit pour mesurer le niveau sonore
+## De quoi parle-t-on ?
 
-Matériel et outils nécessaires
+Cette fiche technique accompagne la ressource [Decibel Detective](/ressources/steamcity/decibel-detective). La carte Micro:bit V2 intègre un capteur de niveau sonore qui fournit une valeur relative (de 0 à 255). En y ajoutant l'extension **Datalogger**, on peut enregistrer régulièrement cette valeur pour suivre l'ambiance sonore d'un lieu au fil du temps et exporter les résultats au format CSV.
 
-Pour programmer une carte micro:bit pour mesurer le niveau sonore, vous aurez besoin de :
+## Objectifs d'apprentissage
 
-- Cartes Micro:bit V2 et ses capteurs intégrés : La carte programmable principale incluant un capteur de niveau sonore intégré - Environ 19 EUR par micro:bit (consultez les prix ici : [https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html))
-- **Câbles micro-USB** : pour alimenter et programmer le micro:bit
-- **Batterie externe (en option)** : Pour un fonctionnement portable si la micro:bit doit être détaché - Vous pouvez trouver le boitier de piles officielle de micro:bit disponible à l'achat pour environ 2,20 EUR par pack ici ([https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html))
+- Installer et utiliser une extension MakeCode (Datalogger)
+- Déclencher l'enregistrement par appui sur un bouton
+- Collecter des données à intervalles réguliers dans une boucle infinie
+- Récupérer et exporter les données au format CSV
 
-Diverses modalités de collecte peuvent être organisées :
+---
 
-- **Option 1 (plusieurs cartes)** : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante.
-- **Option 2 (une seule carte - moins onéreux)** : Utilisez une seule carte Micro:bit et faites-la tourner entre les élèves. Collectez des données pendant 2 jours chez chaque élève, sur une période totale de 15 jours, pour obtenir une représentation de plusieurs points de collecte.
+## Matériel et modalités de collecte
 
-Vous pouvez acheter le kit Micro:bit V2 comprenant le câble USB et le boîtier de piles pour 21 EUR par kit, ou 177 EUR pour 10 kits (ici : [https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html](https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html)).
+Pour programmer une carte Micro:bit pour mesurer le niveau sonore, vous aurez besoin :
 
-- **Ordinateur ou tablette** : pour écrire et télécharger du code.
-- **Environnement de programmation** : Éditeur en ligne MakeCode - [https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor)
+- **Carte Micro:bit V2** : carte programmable incluant un capteur de niveau sonore intégré — environ 19 EUR par micro:bit ([voir prix](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html))
+- **Câble micro-USB** pour alimenter et programmer le micro:bit
+- **Batterie externe (optionnelle)** : boîtier de piles officiel Micro:bit disponible pour environ 2,20 EUR par pack ([voir](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html))
+- Ordinateur ou tablette pour écrire et télécharger le code
+- Éditeur en ligne [MakeCode](https://makecode.microbit.org/#editor)
 
-### Étape 1 — Programmation de la carte Micro:bit
+:::info[Modalités de collecte]
+- **Option 1 (plusieurs cartes)** : 5 cartes Micro:bit simultanément chez 5 élèves pendant une semaine, puis 5 autres la semaine suivante.
+- **Option 2 (une seule carte)** : collecte sur 2 jours chez chaque élève, sur 15 jours au total.
+:::
 
-Connectez la carte micro:bit à l'ordinateur sur lequel vous avez réalisé le programme grâce à l'éditeur MakeCode. Une fois connectée, la carte micro:bit apparaîtra sur l'ordinateur comme un disque amovible (ex. : "MICROBIT"). Ouvrez l'éditeur MakeCode pour créer un programme qui collecte des données de bruit à l'aide des capteurs intégrés de la carte de programmation Micro:bit V2. Donnez un nom clair à votre projet avant de commencer.
+Vous pouvez acheter le kit Micro:bit V2 comprenant câble USB + boîtier de piles pour 21 EUR par kit ou 177 EUR pour 10 kits ([voir](https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html)).
 
-Une fois sur l'éditeur et après avoir créé votre nouveau projet, vous obtiendrez l'écran par défaut « prêt à l'emploi » et vous devrez installer une extension. Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base de MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteur et de robotique et bien plus encore. Dans les colonnes d'affichage des blocs, cliquez sur le bouton EXTENSIONS. Dans la liste des extensions disponibles, recherchez l'extension Datalogger qui sera utilisée pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
+---
 
-Ensuite, vous pouvez commencer à organiser vos blocs en suivant le code fourni ci-dessous (ajouter une boucle infinie, enregistrer les données dans le datalogger...). Vous pouvez également copier-coller le code dans l'éditeur Javascript.
+## Étape 1 : programmer la Micro:bit
 
-Testez le programme en utilisant le simulateur de MakeCode.
+Connectez la carte à l'ordinateur via le câble micro-USB. Une fois connectée, elle apparaîtra comme un lecteur amovible (ex. : « MICROBIT »). Ouvrez l'éditeur MakeCode pour créer un nouveau projet et donnez-lui un nom clair.
 
-Une fois votre programme fonctionnant correctement sur le simulateur, transférez-le sur votre Micro:bit : cliquez sur « Télécharger » dans MakeCode pour générer un fichier .hex. Ce fichier contient le programme compilé qui permettra à la carte de fonctionner.
+Dans l'éditeur, cliquez sur **EXTENSIONS** dans la colonne des blocs, recherchez l'extension **Datalogger** et ajoutez-la. Un nouveau groupe de blocs apparaîtra sur l'écran principal.
 
-Copiez le fichier .hex de votre dossier de téléchargement sur le lecteur amovible « MICROBIT ».
+Organisez les blocs en suivant le code ci-dessous (boucle infinie, enregistrement dans le datalogger…) ou copiez-collez directement le code dans l'éditeur JavaScript. Testez dans le simulateur de MakeCode.
 
-Une fois le fichier copié, la carte redémarre automatiquement et exécute le code.
+Cliquez sur **Télécharger** pour générer un fichier `.hex`, puis copiez-le sur le lecteur amovible **MICROBIT**. La carte redémarre automatiquement et exécute le code.
 
-### Étape 2 — Placer la Micro:bit et commencer à enregistrer les données
+---
 
-Une fois programmé, placez la micro:bit pour collecter les données dont vous avez besoin, par exemple dans le jardin d'un élève, dans le parc à côté de l'école, dans la mairie... selon votre choix d'emplacement. Utilisez une batterie externe pour vous assurer que votre carte collectera des données au cours de la semaine par exemple.
+## Étape 2 : placer la Micro:bit et démarrer l'enregistrement
 
-Une fois positionné, appuyez sur le bouton « A » de la carte Micro:Bit pour démarrer l'enregistrement des données via le programme.
+Placez la micro:bit à l'endroit où vous voulez collecter des données (jardin, parc, mairie…). Alimentez-la avec la batterie externe pour une collecte autonome sur plusieurs jours.
 
-### Étape 3 — Récupération des données et préparation de la carte pour la prochaine session d'enregistrement
+Une fois en place, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
-Une fois la période de collecte terminée, vous pouvez récupérer vos données à partir du fichier appelé « MY\_DATA.HTM », disponible sur le lecteur micro:bit. Copiez-le sur votre ordinateur et renommez-le avec la date du jour (par exemple, LOCATIONNAME\_YYYY\_MM\_DD.HTM).
+---
 
-Après avoir copié et renommé le fichier, supprimez le fichier MY\_DATA.HTM de la Micro:Bit pour libérer de l'espace et permettre un nouvel enregistrement de données. Une fois ouvert, les fichiers de données seront accessibles au format HTML. Ils fourniront toutes les données collectées et vous permettront de les télécharger au format .csv.
+## Étape 3 : récupérer les données
 
-### Utiliser et comprendre le code
+À la fin de la période de collecte, récupérez le fichier **MY_DATA.HTM** sur le lecteur micro:bit. Copiez-le sur l'ordinateur et renommez-le avec la date du jour (ex. : `LOCATIONNAME_YYYY_MM_DD.HTM`).
 
-Voici le code Javascript utilisé pour programmer une carte micro:bit afin de collecter régulièrement des données de bruit :
+Supprimez ensuite le fichier MY_DATA.HTM de la carte pour libérer l'espace. Le fichier HTML contient toutes les données collectées et permet de les exporter au format `.csv`.
+
+---
+
+## Code
 
 ```javascript
 input.onButtonPressed(Button.A, function () {
@@ -79,23 +113,17 @@ basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
 
-Fonctionnement du code
+### Comment cela fonctionne ?
 
-Ce programme mesure le niveau sonore ambiant (en décibels) toutes les 5 secondes (l'intervalle peut être modifiée pour correspondre à 1 minute, 5 minutes, 2 fois par heure...) et compile les informations dans un "datalogger" depuis lequel nous pouvons télécharger un fichier .csv.
+Ce programme mesure le niveau sonore ambiant toutes les 5 secondes (intervalle modifiable) et compile les informations dans un « datalogger » depuis lequel on peut télécharger un fichier `.csv`.
 
-Un fichier .csv (Comma-Separated Values, ou valeurs séparées par des virgules) est un format de fichier texte utilisé pour stocker des données tabulaires (comme dans un tableau ou une feuille de calcul). Chaque ligne du fichier représente une ligne de données, et chaque valeur dans une ligne est séparée par un délimiteur (souvent une virgule, mais parfois un point-virgule ou une tabulation). Il est possible de récupérer les données d'un fichier .csv dans un tableur type Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur Fichier puis Ouvrir, sélectionnez le fichier .csv, et configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, suivez un processus similaire : cliquez sur Fichier puis Ouvrir, sélectionnez le fichier, et utilisez l'assistant d'importation pour choisir le délimiteur (par exemple, virgule ou point-virgule). Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
+- **Bouton A** : déclenche la fonction d'enregistrement. Un icône « Yes » est affiché pendant 200 ms pour signaler le démarrage, puis l'écran est nettoyé.
+- **Boucle infinie** : à chaque itération, la valeur `input.soundLevel()` (estimation numérique de 0 à 255) est enregistrée via `datalogger.log()` + `datalogger.createCV()`.
+- **Pause de 5 000 ms** entre chaque enregistrement — modifiable pour capturer plus ou moins de données.
+- **Horodatage** : `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` ajoute un indicateur de temps en minutes à chaque enregistrement.
+- **Icône « No »** : affichée avant l'appui pour indiquer que la carte attend l'action de l'utilisateur.
 
-- **Initialisation de l'événement d'appui sur le bouton « A »** : Lorsque l'utilisateur appuie sur le bouton « A » de la carte Micro:Bit, la fonction est déclenchée.
-- **Affichage de l'icône "Yes" pendant l'exécution** : Avant de démarrer l'enregistrement des données, le programme affiche l'icône « Yes » pendant 200 millisecondes (0,2 seconde) pour indiquer que le processus d'enregistrement a démarré.
-- **Pause de 200 millisecondes** : Après avoir affiché l'icône « Oui », le programme attend 200 millisecondes.
-- **Effacer l'écran** : Après la pause, l'écran est effacé, ce qui prépare l'écran pour ce qui suit sans être encombré d'images.
-- **Boucle infinie de collecte de données** : Le programme entre dans une boucle infinie. Cela signifie que les données seront collectées et enregistrées sans fin jusqu'à ce que la Micro:Bit soit éteint ou redémarré.
-- **Enregistrement des données dans le datalogger** : À chaque itération de boucle, le programme enregistre les valeurs des capteurs Micro:Bit concernant le niveau sonore, qui capture le niveau sonore ambiant.
-- Le niveau sonore mesure une valeur relative et n'a pas d'unités standard comme les décibels (dB). Plus précisément, le capteur mesure l'intensité perçue. Cette valeur est une estimation numérique (de 0 à 255), où 0 représente la valeur minimale (silence complet/obscurité totale) et 255 la valeur maximale (bruit très fort/lumière intense).
-- Ces valeurs sont enregistrées dans le datalogger sous forme de variables nommées « niveau sonore ». La fonction createCV permet de créer un « CV » (valeur de contexte) pour chaque capteur, et la fonction datalogger.log permet d'enregistrer ces valeurs dans un fichier sur la Micro:Bit.
-- **Pause de 5 000 millisecondes avant la prochaine lecture** : Après chaque enregistrement, le programme attend 5 000 millisecondes (5 secondes) avant de relire les valeurs du capteur. Vous pouvez modifier la durée de la pause pour capturer plus ou moins de données (par exemple, toutes les minutes).
-- **Horodatage des données** : En dehors de la fonction liée au bouton, la commande d'horodatage est utilisée pour inclure un horodatage avec chaque enregistrement de données. Le format d'horodatage est en minutes, ce qui signifie que chaque enregistrement aura un indicateur de temps basé sur les minutes écoulées depuis le démarrage du programme.
-- **Affichage de l'icône "No" avant l'exécution** : Avant que l'utilisateur n'appuie sur le bouton « A », le programme affiche une icône « No » pour indiquer que la Micro:Bit attend l'action de l'utilisateur.
+Un fichier `.csv` (Comma-Separated Values) est un format texte utilisé pour stocker des données tabulaires. Il s'ouvre dans Excel ou LibreOffice Calc via l'assistant d'importation (choix du délimiteur : virgule ou point-virgule).
 
 ---
 
