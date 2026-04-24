@@ -169,7 +169,9 @@ En s’assurant que l’hypothèse est directement liée à la question de reche
 
 Cette phase fait le lien entre la compréhension théorique et la conception expérimentale. Les élèves explorent les propriétés du son et son interaction avec les matériaux, tout en élaborant un protocole rigoureux pour tester leurs hypothèses.
 
-Recherche documentaire préliminaire Les élèves commencent par étudier la nature du son et le concept d’atténuation. Le son, en tant qu’onde mécanique, se propage dans un milieu comme l’air, les liquides ou les solides. Ses caractéristiques — intensité, fréquence et vitesse de propagation — déterminent son interaction avec les matériaux. Par exemple, l’intensité sonore, mesurée en décibels (dB), suit une échelle logarithmique : une réduction de 10 dB correspond à une diminution de l’intensité sonore par dix.
+#### Recherche documentaire préliminaire
+
+Les élèves commencent par étudier la nature du son et le concept d’atténuation. Le son, en tant qu’onde mécanique, se propage dans un milieu comme l’air, les liquides ou les solides. Ses caractéristiques — intensité, fréquence et vitesse de propagation — déterminent son interaction avec les matériaux. Par exemple, l’intensité sonore, mesurée en décibels (dB), suit une échelle logarithmique : une réduction de 10 dB correspond à une diminution de l’intensité sonore par dix.
 
 Cela commence par l’étude du son en tant que phénomène physique. Le son est une onde mécanique qui se propage dans un milieu — air, liquide ou solide — par la Vibrations des particules. Il est essentiel de comprendre trois caractéristiques clés du son :
 
@@ -199,7 +201,9 @@ Mesure du son – Décibels (dB) : Unité logarithmique utilisée pour exprimer 
 Des outils de mesure comme les microphones et les capteurs programmables permettent de collecter des données pour quantifier l’atténuation sonore.
 
 
-Conception du protocole expérimental Les élèves passent ensuite à la conception d'une expérience visant à tester leur hypothèse. À l'aide d'outils programmables, tels qu’un microcontrôleur équipé d’un microphone et d’un buzzer, ils mesurent l’intensité sonore avant et après son passage à travers divers matériaux. Cette configuration permet une évaluation systématique de l’atténuation du son.
+#### Conception du protocole expérimental
+
+Les élèves passent ensuite à la conception d'une expérience visant à tester leur hypothèse. À l'aide d'outils programmables, tels qu’un microcontrôleur équipé d’un microphone et d’un buzzer, ils mesurent l’intensité sonore avant et après son passage à travers divers matériaux. Cette configuration permet une évaluation systématique de l’atténuation du son.
 
 Le protocole doit définir clairement l’objectif de l’étude, les variables et la méthodologie. La variable indépendante peut être le type ou l’épaisseur du matériau, tandis que la variable dépendante correspond à la réduction mesurée de l’intensité sonore. Les variables de contrôle, comme la source sonore et le positionnement du microphone, assurent la cohérence entre les essais.
 
@@ -209,9 +213,13 @@ La collecte de données implique l’enregistrement des niveaux d’intensité s
 Pour vous aider à programmer le capteur approprié, reportez-vous à la section « Fiche pratique 1 - Mesure de l’intensité du son ».
 
 
-Documenter et collaborer En petits groupes, les élèves documentent leur protocole en décrivant clairement les étapes et en justifiant leurs choix. Les enseignants accompagnent les discussions pour s’assurer que la conception expérimentale est réalisable et rigoureuse sur le plan scientifique. Grâce à l’évaluation par les pairs, les élèves affinent leur approche et comblent les éventuelles lacunes méthodologiques. Cette collaboration renforce non seulement le protocole, mais développe aussi la pensée critique et le travail d’équipe.
+#### Documenter et collaborer
 
-Préparation à l'expérimentation Enfin, les élèves réalisent un essai à blanc de leur installation, testant l’équipement et effectuant les ajustements nécessaires. Cette préparation garantit que la phase expérimentale se déroule sans encombre et reste conforme à leur hypothèse. Le protocole sert alors de feuille de route pour l’enquête pratique, ainsi que pour la collecte et l’analyse des données à l’étape suivante.
+En petits groupes, les élèves documentent leur protocole en décrivant clairement les étapes et en justifiant leurs choix. Les enseignants accompagnent les discussions pour s’assurer que la conception expérimentale est réalisable et rigoureuse sur le plan scientifique. Grâce à l’évaluation par les pairs, les élèves affinent leur approche et comblent les éventuelles lacunes méthodologiques. Cette collaboration renforce non seulement le protocole, mais développe aussi la pensée critique et le travail d’équipe.
+
+#### Préparation à l'expérimentation
+
+Enfin, les élèves réalisent un essai à blanc de leur installation, testant l’équipement et effectuant les ajustements nécessaires. Cette préparation garantit que la phase expérimentale se déroule sans encombre et reste conforme à leur hypothèse. Le protocole sert alors de feuille de route pour l’enquête pratique, ainsi que pour la collecte et l’analyse des données à l’étape suivante.
 
 
 À la fin de cette phase, les élèves disposent d’un protocole expérimental bien élaboré, fondé sur leurs recherches et hypothèses. Ils comprennent les principes d’atténuation du son et sont prêts à mener leur enquête avec un plan clair.
@@ -305,7 +313,9 @@ Comment les propriétés des matériaux affectent-elles l’interaction des onde
 
 Dans cette phase, les élèves mettent en œuvre un protocole structuré pour mesurer l’atténuation du son par différents matériaux, en veillant à ce que leur méthodologie soit rigoureuse, fiable et cohérente avec leur hypothèse. L’accent est mis sur la précision, la répétabilité et la collecte des données.
 
-Construction du dispositif expérimental Le dispositif expérimental doit être conçu pour isoler l’interaction des ondes sonores avec le matériau testé. Les principaux composants sont les suivants :
+#### Construction du dispositif expérimental
+
+Le dispositif expérimental doit être conçu pour isoler l’interaction des ondes sonores avec le matériau testé. Les principaux composants sont les suivants :
 
 Source sonore : un générateur de sons (buzzer) émettant une fréquence et une amplitude constantes fournit une onde sonore contrôlée pour les tests. La fréquence du buzzer doit être choisie pour simuler des sons réels, tels que des niveaux de bruit environnementaux ou intérieurs typiques (par exemple, 500 à 1 000 Hz).
 
@@ -315,17 +325,16 @@ Matériaux d'essai : les élèves testeront une variété de matériaux aux prop
 
 Environnement contrôlé : pour minimiser les interférences, l’expérience doit se dérouler dans une pièce calme où le bruit extérieur est réduit. Assurez un éclairage et des conditions environnementales cohérents pour éviter les fluctuations des relevés des capteurs.
 
-Protocole étape par étape
+#### Protocole étape par étape
 
-Étalonnage: Commencez par calibrer le microphone et la source sonore. Mesurez l’intensité sonore de référence (ligne de base) sans aucun matériau entre la source et le microphone. Enregistrez cette valeur comme intensité de départ. Vérifiez que la source sonore émet un ton stable et que le microphone fournit des lectures constantes.
+- **Étalonnage** : Commencez par calibrer le microphone et la source sonore. Mesurez l’intensité sonore de référence (ligne de base) sans aucun matériau entre la source et le microphone. Enregistrez cette valeur comme intensité de départ. Vérifiez que la source sonore émet un ton stable et que le microphone fournit des lectures constantes.
+- **Matériaux de test** : Placez le matériau d’essai entre la source sonore et le microphone à une distance fixe (par exemple, 10 cm entre la source, le matériau et le microphone). Assurez-vous de l’alignement pour éviter la déviation des ondes sonores. Enregistrez l’intensité sonore après le matériau en décibels. Cette valeur représente le son transmis à travers le matériau. Répétez la mesure pour chaque matériau, en maintenant un placement et un alignement cohérents.
+- **Collecte de données pour des essais multiples** : Pour chaque matériau, effectuez au moins trois essais afin de tenir compte de la variabilité. Enregistrez les résultats de chaque essai et calculez l’intensité moyenne pour une meilleure précision. Répétez le processus avec des matériaux de différentes épaisseurs ou densités, en maintenant constantes toutes les autres variables.
+- **Calcul de l'atténuation** : Utilisez la formule : Atténuation (dB) = Intensité de référence (dB) – Intensité transmise (dB). Enregistrez l’atténuation pour chaque matériau et configuration dans un tableau de données structuré.
 
-Matériaux de test : Placez le matériau d’essai entre la source sonore et le microphone à une distance fixe (par exemple, 10 cm entre la source, le matériau et le microphone). Assurez-vous de l’alignement pour éviter la déviation des ondes sonores. Enregistrez l’intensité sonore après le matériau en décibels. Cette valeur représente le son transmis à travers le matériau. Répétez la mesure pour chaque matériau, en maintenant un placement et un alignement cohérents.
+#### Enregistrement et organisation des données
 
-Collecte de données pour des essais multiples : Pour chaque matériau, effectuez au moins trois essais afin de tenir compte de la variabilité. Enregistrez les résultats de chaque essai et calculez l’intensité moyenne pour une meilleure précision. Répétez le processus avec des matériaux de différentes épaisseurs ou densités, en maintenant constantes toutes les autres variables.
-
-Calcul de l'atténuation : Utilisez la formule : Atténuation (dB) = Intensité de référence (dB) – Intensité transmise (dB). Enregistrez l’atténuation pour chaque matériau et configuration dans un tableau de données structuré.
-
-Enregistrement et organisation des données Les élèves créeront un tableau de données pour consigner leurs observations :
+Les élèves créeront un tableau de données pour consigner leurs observations :
 
 Type de                                                       Intensité de        Intensité Épaisseur (cm)           Densité (g/cm³)                                        Atténuation (dB) matériau                                                     référence (dB)    transmise (dB)
 
@@ -410,19 +419,27 @@ Les résultats confirment-ils les hypothèses initiales ? Sinon, quelles en sont
 ### Investigation par les élèves
 
 
-Organisation des données Les élèves débutent par vérifier la complétude et la cohérence des données brutes entre les essais. Ils organisent ensuite ces données sous forme de tableaux pour en faciliter la lecture et l’analyse.
+#### Organisation des données
+
+Les élèves débutent par vérifier la complétude et la cohérence des données brutes entre les essais. Ils organisent ensuite ces données sous forme de tableaux pour en faciliter la lecture et l’analyse.
 
 Par exemple :
 
 Intensité de          Intensité Matériel          Épaisseur (cm)      Densité (g/cm³)                                               Atténuation (dB) référence (dB)      transmise (dB) Mousse                   2                  0,03                 80                   50                   30 Bois                   2                  0,60                 80                   65                   15
 
-Les élèves calculent l’atténuation moyenne pour chaque matériau et configuration afin de compenser la variabilité entre les essais. Visualisation des résultats Les élèves créeront des graphiques pour illustrer les tendances et relations dans leurs données.
+Les élèves calculent l’atténuation moyenne pour chaque matériau et configuration afin de compenser la variabilité entre les essais.
+
+#### Visualisation des résultats
+
+Les élèves créeront des graphiques pour illustrer les tendances et relations dans leurs données.
 
 Exemples de visualisations :
 
 Graphiques à barres : comparer les valeurs d’atténuation entre différents matériaux. Diagrammes de dispersion : examiner la relation entre l’épaisseur ou la densité et l’atténuation. Graphiques linéaires : montrer les tendances de l’atténuation en fonction des variations des propriétés du matériau (par exemple, augmentation de l’épaisseur).
 
-Interprétation des résultats Les élèves analyseront leurs données visualisées pour identifier des modèles. Les questions clés à aborder sont les suivantes :
+#### Interprétation des résultats
+
+Les élèves analyseront leurs données visualisées pour identifier des modèles. Les questions clés à aborder sont les suivantes :
 
 Quel matériau atténue le son le plus efficacement ? Existe-t-il une relation claire entre l’épaisseur ou la densité et l’atténuation ? Les résultats étaient-ils cohérents d’un essai à l’autre ou y avait-il des valeurs aberrantes significatives ?
 
@@ -430,7 +447,9 @@ Encouragez les élèves à interpréter leurs résultats à la lumière de leurs
 
 Par exemple, si la mousse atténue davantage le son que le métal, ils peuvent expliquer cela par la capacité du matériau à absorber les ondes sonores plutôt qu’à les réfléchir.
 
-Limites du traitement Les élèves réfléchiront aux éventuelles incohérences ou résultats inattendus. Les limitations possibles incluent :
+#### Limites du traitement
+
+Les élèves réfléchiront aux éventuelles incohérences ou résultats inattendus. Les limitations possibles incluent :
 
 Erreurs de mesure liées au bruit externe ou à des problèmes d’équipement. Variabilité dans la qualité ou le positionnement des matériaux. Contraintes du dispositif expérimental, comme l’impossibilité de tester des fréquences plus élevées.
 

@@ -61,14 +61,11 @@ Au cours de cette activité, les élèves exploreront leur école ou leur ville 
 
 ### Structure du protocole
 
-Étape 1 - Phase d'exploration - Développement des connaissances de base sur les usages urbains des capteurs
-La phase d'exploration commence par une préparation en classe, où les élèves recherchent et identifient des capteurs potentiels en milieu urbain. Ils développent leurs connaissances de base en explorant différents types de capteurs, en créant des listes préliminaires et en définissant clairement leurs attentes quant aux découvertes possibles lors de leur promenade. Cette phase pose les bases d'une enquête de terrain réussie.
+**Étape 1 - Phase d'exploration - Développement des connaissances de base sur les usages urbains des capteurs.** La phase d'exploration commence par une préparation en classe, où les élèves recherchent et identifient des capteurs potentiels en milieu urbain. Ils développent leurs connaissances de base en explorant différents types de capteurs, en créant des listes préliminaires et en définissant clairement leurs attentes quant aux découvertes possibles lors de leur promenade. Cette phase pose les bases d'une enquête de terrain réussie.
 
-Étape 2 - Phase d'enquête sur le terrain - Expérience pratique donnant vie aux connaissances théoriques
-Durant cette phase pratique, les élèves explorent activement leur environnement scolaire, leur quartier ou leur ville à travers une exploration de données soigneusement planifiée. Ils documentent et photographient les capteurs précédemment identifiés tout en restant attentifs à la découverte de nouveaux points de collecte de données inattendus. Cette expérience pratique concrétise les connaissances théoriques par l'observation directe.
+**Étape 2 - Phase d'enquête sur le terrain - Expérience pratique donnant vie aux connaissances théoriques.** Durant cette phase pratique, les élèves explorent activement leur environnement scolaire, leur quartier ou leur ville à travers une exploration de données soigneusement planifiée. Ils documentent et photographient les capteurs précédemment identifiés tout en restant attentifs à la découverte de nouveaux points de collecte de données inattendus. Cette expérience pratique concrétise les connaissances théoriques par l'observation directe.
 
-Étape 3 - Phase d'analyse et de réflexion - Comprendre la collecte de données urbaines
-Cette phase de discussion approfondie en classe consiste à comparer les résultats de terrain aux attentes initiales, à répertorier les nouvelles découvertes et à examiner en détail les applications d'IA associées à chaque capteur découvert. Les élèves travaillent ensemble pour comprendre les implications plus larges de leurs observations et l'interconnexion des systèmes de détection urbains. En conclusion, ils sont encouragés à réfléchir de manière critique aux implications en matière de confidentialité. Ils évaluent l'équilibre entre progrès technologiques et vie privée, en tenant compte de la manière dont ces technologies façonnent leur environnement quotidien et le développement urbain futur.
+**Étape 3 - Phase d'analyse et de réflexion - Comprendre la collecte de données urbaines.** Cette phase de discussion approfondie en classe consiste à comparer les résultats de terrain aux attentes initiales, à répertorier les nouvelles découvertes et à examiner en détail les applications d'IA associées à chaque capteur découvert. Les élèves travaillent ensemble pour comprendre les implications plus larges de leurs observations et l'interconnexion des systèmes de détection urbains. En conclusion, ils sont encouragés à réfléchir de manière critique aux implications en matière de confidentialité. Ils évaluent l'équilibre entre progrès technologiques et vie privée, en tenant compte de la manière dont ces technologies façonnent leur environnement quotidien et le développement urbain futur.
 
 ### Glossaire
 
@@ -110,21 +107,21 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ### Conceptualisation
 
-Une approche scientifique de l'enquête sur les données urbaines
+#### Une approche scientifique de l'enquête sur les données urbaines
 
 Cette première phase d'exploration suit la méthode scientifique : les élèves approfondiront leurs connaissances de manière systématique avant de mener des recherches sur le terrain. À l'instar des scientifiques qui analysent la littérature existante et formulent des hypothèses avant les expériences, les élèves développeront une compréhension structurée des systèmes de collecte de données urbaines avant leur exploration des données.
 
-Identifier les concepts clés
+#### Identifier les concepts clés
 
 Dans le cadre de ce protocole, les élèves seront initiés à la collecte de données en environnement réel, en mettant l'accent sur la manière dont les données sont collectées grâce à des capteurs intégrés à des objets ou des lieux du quotidien. Ils exploreront les implications de la collecte de données par capteurs et de l'intégration de l'IA en milieu urbain.
 
 Dans cette première étape, pour soutenir cette exploration, les élèves compileront et structureront un corpus documentaire axé sur les capteurs urbains, les applications de l'IA et leurs impacts sociétaux. Ce corpus comprendra des articles scientifiques, des rapports techniques et des études de cas, constituant ainsi une base de connaissances solide. L'objectif est de fournir aux élèves un cadre théorique pour comprendre le rôle des capteurs et de l'IA dans les villes et de justifier l'importance d'étudier leur déploiement et l'utilisation des données.
 
-Comprendre les capteurs et les sources de données
+#### Comprendre les capteurs et les sources de données
 
 Avant de réaliser la datawalk de l'étape 2, les élèves doivent se familiariser avec les différents types de capteurs (tels que les capteurs de température, de lumière, de son et de mouvement) et comprendre comment chacun capture les données. Cette préparation les aidera à reconnaître et à identifier les appareils lors de leur activité sur le terrain.
 
-Formuler des questions et des hypothèses
+#### Formuler des questions et des hypothèses
 
 À partir de leurs résultats, les élèves réfléchiront aux questions clés qui guideront leur datawalk. Ils se concentreront sur l'identification des capteurs en ville, la compréhension des services de données associés, la détermination de la propriété de ces technologies et l'analyse de la manière dont les données collectées reflètent les modèles et comportements urbains. À travers ces questions, les élèves formuleront des hypothèses sur les types de données qu'ils s'attendent à rencontrer et leurs implications potentielles pour la vie urbaine.
 
@@ -132,7 +129,7 @@ Formuler des questions et des hypothèses
 
 Cette phase d'investigation vise à préparer les élèves à la datawalk en développant leur compréhension théorique. Grâce à des recherches structurées et à des discussions, les élèves développeront le cadre de connaissances nécessaire à l'identification et à l'analyse des capteurs urbains lors de leurs observations pratiques sur le terrain à l'étape 2. En classe, lancez les activités suivantes :
 
-Cartographie des connaissances
+#### Cartographie des connaissances
 
 Commencez par explorer les connaissances des élèves sur les capteurs présents dans leur quartier scolaire et susceptibles d'être utilisés par les systèmes d'IA. Il peut s'agir de caméras, de poubelles intelligentes et de divers dispositifs de surveillance couramment utilisés dans les environnements urbains modernes. Cette cartographie initiale permet d'établir une compréhension de base et de susciter l'engagement.
 
@@ -146,13 +143,13 @@ Enfin, examinez les systèmes de mobilité partagée, notamment les transports e
 Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : [https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf](https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf)
 :::
 
-Cadre d'analyse des données
+#### Cadre d'analyse des données
 
 Guidez les élèves pour analyser en détail chaque type de capteur. Tenez compte de la propriété : qui contrôle ces appareils et leurs données ? Examinez les objectifs et les capacités de collecte de données.
 
 Par exemple, les caméras modernes permettent la reconnaissance faciale et le suivi d'identité. Les antennes-relais de téléphonie mobile peuvent suivre les déplacements grâce à des identifiants uniques, révélant potentiellement les emplacements du domicile et du travail. De même, les réseaux Wi-Fi publics et les services de mobilité partagée peuvent établir des profils détaillés des déplacements urbains et des lieux de prédilection.
 
-Exploration des ressources
+#### Exploration des ressources
 
 Prolongez votre enquête en explorant les ressources de données ouvertes spécifiques à votre ville. Une simple recherche sur « données ouvertes – votre ville » affichera généralement un catalogue en ligne des ressources de données disponibles, offrant ainsi un contexte supplémentaire pour comprendre l'infrastructure locale de collecte de données.
 
@@ -196,7 +193,7 @@ Pour guider la discussion de compte rendu et aider les élèves à réfléchir �
 
 ### Conceptualisation
 
-Planification de l'itinéraire d'enquête
+#### Planification de l'itinéraire d'enquête
 
 Les élèves appliqueront leurs connaissances théoriques pour élaborer des itinéraires stratégiques maximisant leur exposition à différents types d'environnements urbains et à des emplacements potentiels de capteurs. Cela comprend :
 
@@ -204,7 +201,7 @@ Les élèves appliqueront leurs connaissances théoriques pour élaborer des iti
 - Création d'une méthode de documentation systématique pour l'enregistrement des emplacements et des caractéristiques des capteurs
 - Développer des protocoles d'observation pour assurer une collecte de données cohérente au sein de l'équipe
 
-Établir les paramètres de recherche
+#### Établir les paramètres de recherche
 
 Les paramètres de recherche sont des lignes directrices et des limites spécifiques définies pour une étude afin de garantir une collecte de données cohérente et significative.
 
@@ -214,7 +211,7 @@ Pour que la visite des données reste une activité de recherche rigoureuse et n
 - La création d'un format standardisé pour l'enregistrement des observations et des points de données (une manière cohérente de documenter les résultats, comme l'utilisation de modèles ou de formulaires numériques)
 - La préparation de questions pour guider leur enquête sur l'objectif et l'impact de chaque capteur (par exemple : « Quel type de données ce capteur collecte-t-il ? » ou « Comment cela pourrait-il affecter la confidentialité ? »)
 
-Définition des objectifs d'enquête
+#### Définition des objectifs d'enquête
 
 Les objectifs de recherche sont des résultats précis que les chercheurs visent à atteindre grâce à leurs recherches. Les élèves définiront des objectifs clairs pour leur travail de terrain, en se concentrant sur :
 
@@ -290,25 +287,25 @@ Les technologies des villes intelligentes améliorent les services urbains grâc
 
 De plus, l'agrégation de multiples sources de données peut conduire à un profilage détaillé des individus, même lorsque les données individuelles semblent anodines. Les villes doivent soigneusement équilibrer les avantages des technologies intelligentes avec des mesures robustes de protection de la vie privée, notamment la minimisation des données, le chiffrement et des mécanismes de consentement clairs. Le risque de dérive fonctionnelle – lorsque les données sont collectées dans un but précis puis utilisées à d'autres fins – exige une surveillance continue et des cadres de gouvernance stricts pour protéger le droit à la vie privée des citoyens tout en préservant les avantages de l'innovation urbaine.
 
-Impact social
+#### Impact social
 
 La mise en oeuvre des technologies urbaines façonne profondément les comportements et les interactions sociales des communautés. Au-delà de la simple surveillance, ces systèmes peuvent créer des frontières invisibles qui influencent la façon dont les individus naviguent et utilisent les espaces publics. L'impact psychologique d'une surveillance constante peut conduire à l'autocensure et à une altération des comportements sociaux. De plus, la mise en oeuvre inégale de ces technologies peut exacerber les inégalités sociales existantes, créant des fractures numériques entre les différentes communautés. Le défi consiste à concilier les avantages de la surveillance urbaine avec la préservation des dynamiques sociales naturelles et de l'autonomie des communautés.
 
-Distribution et accès
+#### Distribution et accès
 
 La répartition géographique des technologies reflète et potentiellement renforce les inégalités urbaines existantes. Le déploiement des capteurs et des systèmes de surveillance suit souvent les schémas de développement économique, créant des oasis technologiques dans certaines zones tout en laissant d'autres mal desservies. Cette répartition inégale affecte non seulement la qualité des services, mais aussi la représentation des différentes communautés dans la collecte de données urbaines. Le défi dépasse le simple emplacement physique pour inclure les questions d'accessibilité des données, de maîtrise des technologies et d'engagement communautaire dans les décisions de déploiement.
 
-Considérations environnementales
+#### Considérations environnementales
 
 L'empreinte environnementale des infrastructures de capteurs s'étend tout au long de leur cycle de vie. Des matières premières utilisées pour la fabrication à l'énergie consommée pendant le fonctionnement, en passant par l'élimination des équipements obsolètes, chaque étape présente des défis environnementaux. La densité croissante des réseaux de capteurs soulève des préoccupations quant à la gestion des déchets électroniques et à l'efficacité énergétique. Les villes doivent développer des pratiques durables pour le déploiement, la maintenance et le remplacement des appareils, tout en tenant compte de l'impact environnemental à long terme du développement des infrastructures technologiques.
 
-Systèmes d'information publique
+#### Systèmes d'information publique
 
 La transparence des systèmes de surveillance urbaine est essentielle à la confiance et à la responsabilisation du public. Le caractère souvent invisible des infrastructures de collecte de données complique la sensibilisation et le consentement du public. Des stratégies de communication efficaces doivent combler le fossé entre complexité technique et compréhension du public. Les villes doivent élaborer des cadres de transparence complets, incluant une signalisation claire, des politiques d'accessibilité des données et une participation régulière de la communauté. Cela implique de créer des canaux de rétroaction et de participation du public aux décisions concernant le déploiement des capteurs et l'utilisation des données.
 
 ### Investigation par les élèves
 
-Organisation, classification et analyse des données
+#### Organisation, classification et analyse des données
 
 De retour en classe, créez un inventaire collaboratif au tableau pour organiser les données collectées. Catégorisez les différents types de capteurs (surveillance, environnement, circulation, etc.) et cartographiez leur emplacement.
 
@@ -322,13 +319,13 @@ Les paramètres supplémentaires à analyser peuvent inclure la consommation d'�
 
 Menez une discussion ciblée sur les capteurs découverts. Analysez leurs fonctions, leur propriété et l'utilisation des données. Comparez vos résultats aux prévisions initiales, en notant les tendances ou les découvertes inattendues apparues au cours de la visite.
 
-Synthèse et réflexion
+#### Synthèse et réflexion
 
 Examinez l'impact de ces technologies sur la vie quotidienne, notamment en matière de confidentialité et d'éthique. Analysez les enseignements tirés de votre analyse de données et identifiez les améliorations potentielles susceptibles d'améliorer la protection de la vie privée et les avantages technologiques.
 
 Élaborez des idées pour partager vos résultats et sensibiliser la communauté. Discutez des risques pour la vie privée et des défis éthiques liés à la collecte de données urbaines.
 
-Présentation finale
+#### Présentation finale
 
 Travaillez en petits groupes et présentez vos conclusions, vos idées et vos réflexions à la classe.
 

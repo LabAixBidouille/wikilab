@@ -267,18 +267,24 @@ Pour conclure cette étape, les étudiants seront invités à discuter des quest
 
 ### Investigation par les élèves
 
-Adaptabilité de l'humain : Dans la phase d'investigation, les élèves mettront leurs hypothèses à l'épreuve en s'engageant dans une activité pratique. Les élèves seront divisés en deux groupes, chacun ayant des rôles distincts pour simuler un environnement d'apprentissage dynamique :
+#### Adaptabilité de l'humain
+
+Dans la phase d'investigation, les élèves mettront leurs hypothèses à l'épreuve en s'engageant dans une activité pratique. Les élèves seront divisés en deux groupes, chacun ayant des rôles distincts pour simuler un environnement d'apprentissage dynamique :
 
 - **Groupe 1** : Concepteurs de cartes : Le premier groupe sera chargé de créer une nouvelle carte de la ville en modifiant l'emplacement des obstacles, en changeant le point de départ et en déplaçant l'objectif vers un autre emplacement. Ce groupe agira de la même manière que l'enseignant de l'étape 1, en donnant des instructions et en fournissant des commentaires. Au fur et à mesure que le jeu progresse, ils attribueront des récompenses et des pénalités en fonction des actions de l'autre groupe, imitant la façon dont l'IA a reçu des commentaires au cours de son processus d'apprentissage.
 - **Groupe 2** : Navigateurs : Le deuxième groupe sera chargé de naviguer sur la carte nouvellement modifiée. Ils tenteront de trouver le chemin optimal vers l'objectif en apprenant par essais et erreurs, en s'appuyant sur les commentaires donnés par le groupe 1. Leur tâche consiste à accumuler autant de points que possible tout en essayant de déterminer le meilleur itinéraire. En essayant successivement différents chemins, ils apprendront progressivement à identifier la stratégie gagnante et à chercher le chemin le plus court vers la cible.
 
 Une fois l'activité terminée, les groupes échangeront les rôles. Cela donnera à tous les élèves l'occasion d'expérimenter les deux aspects de l'adaptabilité : apporter des modifications à un environnement et s'adapter à des changements inattendus sans connaissances préalables.
 
-Adaptabilité de la machine : Après avoir terminé l'exercice pratique, les élèves procéderont ensuite à la modélisation de leur carte modifiée à l'aide de l'onglet « Conception » de l'application BioLearningGame. Ils saisiront les modifications qu'ils ont apportées pendant l'exercice pratique pour créer une version virtuelle de l'environnement. L'IA tentera ensuite de s'adapter à la nouvelle configuration, en démontrant comment elle aborde le problème par rapport aux apprenants humains.
+#### Adaptabilité de la machine
+
+Après avoir terminé l'exercice pratique, les élèves procéderont ensuite à la modélisation de leur carte modifiée à l'aide de l'onglet « Conception » de l'application BioLearningGame. Ils saisiront les modifications qu'ils ont apportées pendant l'exercice pratique pour créer une version virtuelle de l'environnement. L'IA tentera ensuite de s'adapter à la nouvelle configuration, en démontrant comment elle aborde le problème par rapport aux apprenants humains.
 
 Les élèves doivent observer attentivement la manière dont l'IA gère le nouvel environnement. Au début, l'IA sera peu performante, se déplaçant de manière aléatoire sans stratégie claire, de la même manière que le groupe 2 a initialement parcouru la nouvelle carte. Cependant, au fil des itérations, l'IA commencera à apprendre des commentaires qu'elle reçoit, pour finalement atteindre l'objectif.
 
-Comparaison : L'un des enseignements clés que les étudiants devraient tirer de cet exercice est que l'IA a initialement appris un itinéraire spécifique vers l'objectif dans l'environnement d'origine. Lorsque la carte change, l'IA doit essentiellement réapprendre à partir de zéro, en le traitant comme un nouveau problème. Cela met en évidence une différence fondamentale entre l'adaptabilité humaine et celle des machines. Les humains sont capables d'utiliser leurs connaissances antérieures pour s'adapter relativement rapidement, tandis qu'une IA doit souvent réinitialiser son apprentissage et recommencer à zéro lorsqu'elle est confrontée à des changements environnementaux importants.
+#### Comparaison
+
+L'un des enseignements clés que les étudiants devraient tirer de cet exercice est que l'IA a initialement appris un itinéraire spécifique vers l'objectif dans l'environnement d'origine. Lorsque la carte change, l'IA doit essentiellement réapprendre à partir de zéro, en le traitant comme un nouveau problème. Cela met en évidence une différence fondamentale entre l'adaptabilité humaine et celle des machines. Les humains sont capables d'utiliser leurs connaissances antérieures pour s'adapter relativement rapidement, tandis qu'une IA doit souvent réinitialiser son apprentissage et recommencer à zéro lorsqu'elle est confrontée à des changements environnementaux importants.
 
 Cette phase d'investigation aidera les étudiants à développer une compréhension nuancée des limites de l'apprentissage automatique et à apprécier l'adaptabilité unique de la cognition humaine.
 

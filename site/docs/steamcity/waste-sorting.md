@@ -169,7 +169,9 @@ Les résultats de l'IA peuvent refléter les préjugés ou hypothèses inconscie
 
 ### Investigation par les élèves
 
-Activité 1 : Entraînement à la reconnaissance des déchets (20 minutes) Cette activité pratique, animée par l'enseignant via l'interface Vittascience, initie les élèves à la pratique de l'IA. À l'aide d'objets du quotidien comme des bouteilles en verre, des boîtes en carton et du papier, les élèves pourront :
+#### Activité 1 : Entraînement à la reconnaissance des déchets (20 minutes)
+
+Cette activité pratique, animée par l'enseignant via l'interface Vittascience, initie les élèves à la pratique de l'IA. À l'aide d'objets du quotidien comme des bouteilles en verre, des boîtes en carton et du papier, les élèves pourront :
 
 Apprendre les fondamentaux de la formation en IA grâce à l'expérience directe. Développer une pensée critique sur la collecte et la classification des données. Comprendre comment les systèmes d'IA apprennent à partir d'exemples. Pratiquer la résolution collaborative de problèmes en groupe.
 
@@ -189,7 +191,9 @@ Important Une fois que vous avez testé votre modèle, si les résultats ne sont
 
 Nous disposons d'un modèle capable de reconnaître différents types de déchets et nous souhaitons désormais agir en fonction du résultat de la détection.
 
-Activité 2 : Connecter l'IA au matériel (20 minutes) Cette activité pratique intègre des compétences techniques à des objectifs pédagogiques, aidant les élèves à :
+#### Activité 2 : Connecter l'IA au matériel (20 minutes)
+
+Cette activité pratique intègre des compétences techniques à des objectifs pédagogiques, aidant les élèves à :
 
 Comprendre le lien entre les logiciels d'IA et les composants matériels physiques. Développer des compétences en résolution de problèmes grâce à l'expérimentation pratique. Apprendre les principes de base de la robotique et de l'automatisation. Pratiquer l'apprentissage collaboratif dans un environnement basé sur des projets.
 
@@ -205,7 +209,9 @@ Une fois cela fait, appuyez sur « Connecter » pour créer la connexion série 
 
 Vous disposez désormais d'un modèle de reconnaissance prêt à détecter des objets et des blocs vous permettant de communiquer avec un tableau physique.
 
-Activité 3 : Créer des commentaires interactifs sur l'IA (20 minutes) Cette activité pratique vise à combler le fossé entre les concepts d'IA et leurs applications concrètes. Grâce à une exploration guidée de l'interface Vittascience et de la programmation de microcontrôleurs, les élèves pourront :
+#### Activité 3 : Créer des commentaires interactifs sur l'IA (20 minutes)
+
+Cette activité pratique vise à combler le fossé entre les concepts d'IA et leurs applications concrètes. Grâce à une exploration guidée de l'interface Vittascience et de la programmation de microcontrôleurs, les élèves pourront :
 
 Développer des compétences pratiques pour connecter les systèmes d'IA aux composants matériels. Comprendre comment l'IA peut être intégrée dans des appareils physiques pour des applications du monde réel. Apprendre les principes des relations entrée/sortie dans les systèmes alimentés par l'IA. Pratiquer la résolution de problèmes dans un environnement collaboratif.
 
@@ -275,21 +281,27 @@ Grâce à cette expérience pratique, les élèves ont acquis une compréhension
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
-Comprendre l'IA dans la vie quotidienne L'intelligence artificielle est profondément ancrée dans notre quotidien, se manifestant sous diverses formes avec lesquelles nous interagissons constamment. Dès notre réveil, nous sommes confrontés à l'IA via les systèmes de reconnaissance faciale de nos téléphones, les recommandations de contenu personnalisées sur les réseaux sociaux et les systèmes de navigation intelligents qui optimisent nos itinéraires. Les assistants numériques comme Siri, Google Home et Alexa affichent des capacités avancées de traitement du langage naturel, tandis que les services de streaming utilisent des algorithmes sophistiqués pour analyser et prédire nos préférences en matière de divertissement.
+#### Comprendre l'IA dans la vie quotidienne
+
+L'intelligence artificielle est profondément ancrée dans notre quotidien, se manifestant sous diverses formes avec lesquelles nous interagissons constamment. Dès notre réveil, nous sommes confrontés à l'IA via les systèmes de reconnaissance faciale de nos téléphones, les recommandations de contenu personnalisées sur les réseaux sociaux et les systèmes de navigation intelligents qui optimisent nos itinéraires. Les assistants numériques comme Siri, Google Home et Alexa affichent des capacités avancées de traitement du langage naturel, tandis que les services de streaming utilisent des algorithmes sophistiqués pour analyser et prédire nos préférences en matière de divertissement.
 
 Créez une carte mentale collective avec les élèves, documentant toutes les interactions avec l'IA qu'ils rencontrent au cours d'une journée type. Cette représentation visuelle aide les élèves à prendre conscience de la présence de l'IA dans leur vie.
 
-Impact environnemental des systèmes d'IA L'examen des implications environnementales de ces systèmes d'IA révèle plusieurs façons dont ils contribuent aux efforts de développement durable. Les systèmes de navigation intelligents contribuent à réduire les émissions de carbone en optimisant les itinéraires et en réduisant les embouteillages. Les systèmes domestiques intelligents alimentés par l'IA peuvent améliorer considérablement l'efficacité énergétique grâce à un contrôle intelligent de la température et à une gestion intelligente des ressources. Ces applications démontrent comment l'IA peut être mise à profit pour soutenir les efforts de préservation de l'environnement tout en offrant des avantages pratiques au quotidien.
+#### Impact environnemental des systèmes d'IA
+
+L'examen des implications environnementales de ces systèmes d'IA révèle plusieurs façons dont ils contribuent aux efforts de développement durable. Les systèmes de navigation intelligents contribuent à réduire les émissions de carbone en optimisant les itinéraires et en réduisant les embouteillages. Les systèmes domestiques intelligents alimentés par l'IA peuvent améliorer considérablement l'efficacité énergétique grâce à un contrôle intelligent de la température et à une gestion intelligente des ressources. Ces applications démontrent comment l'IA peut être mise à profit pour soutenir les efforts de préservation de l'environnement tout en offrant des avantages pratiques au quotidien.
 
 Analysez : lesquelles de ces technologies d'IA utilisées au quotidien contribuent à réduire votre impact environnemental ? Pensez aux applications de navigation optimisant les itinéraires, aux systèmes de maison intelligente gérant l'énergie ou aux solutions de recyclage basées sur l'IA.
 
-Étendre l'apprentissage grâce à AI Odyssey - Datawalk
+#### Étendre l'apprentissage grâce à AI Odyssey - Datawalk
 
 Pour mieux comprendre la présence de l'IA dans notre environnement, pensez à suivre le protocole SteamCity intitulé « Odyssée de l'IA - Organiser une datawalk ». Cette activité complémentaire permet aux élèves d'apprendre en dehors des cours, en permettant d'identifier et de documenter physiquement l'IA et les systèmes de collecte de données dans leur environnement urbain. En observant et en photographiant divers capteurs, caméras et appareils intelligents dans leur ville, les élèves acquièrent une compréhension concrète de la manière dont les systèmes d'IA collectent et traitent les données en contexte réel.
 
 ### Investigation par les élèves
 
-Activité 1 : Test sur le terrain de détection des déchets par l'IA (20 minutes) Cette activité pratique encourage les élèves à appliquer leurs connaissances en IA dans un contexte environnemental réel. En combinant collecte des déchets et validation de l'IA, les élèves acquerront une expérience pratique tout en évaluant de manière critique les performances de l'IA en conditions réelles de terrain. Cette activité favorise la sensibilisation à l'environnement tout en démontrant comment la technologie peut être utilisée pour relever les défis quotidiens du développement durable.
+#### Activité 1 : Test sur le terrain de détection des déchets par l'IA (20 minutes)
+
+Cette activité pratique encourage les élèves à appliquer leurs connaissances en IA dans un contexte environnemental réel. En combinant collecte des déchets et validation de l'IA, les élèves acquerront une expérience pratique tout en évaluant de manière critique les performances de l'IA en conditions réelles de terrain. Cette activité favorise la sensibilisation à l'environnement tout en démontrant comment la technologie peut être utilisée pour relever les défis quotidiens du développement durable.
 
 L'activité est lancée par l'enseignant à l'aide de l'interface Vittascience et d'un microcontrôleur. Elle peut être réalisée en groupe.
 
@@ -299,7 +311,9 @@ Consignes aux élèves : Pour cette activité, vous utiliserez le modèle d'IA c
 2. Divisez les élèves en petits groupes et attribuez-leur une zone à explorer (terrain d'école, bâtiment ou place publique).
 3. Recueillir des informations : a. Un élève ramasse tous les déchets trouvés. b. Un élève utilise le téléphone avec le modèle d'IA créé en classe pour vérifier le tri correct des déchets pour chaque article collecté. c. Un élève enregistre les données : types et quantités de poubelles rencontrées (déchets généraux, papier, verre, etc.), types spécifiques de déchets collectés (articles en papier, déchets alimentaires, etc.) et toute erreur de détection de l'IA.
 
-Activité 2 : Défi de classification intelligente des déchets (25 minutes) Cette activité finale vise à renforcer la compréhension des applications de l'IA par les élèves tout en développant leur conscience environnementale et leurs compétences collaboratives. Elle les aide à comprendre le fonctionnement de l'IA en situation réelle tout en les sensibilisant à l'environnement. L'enseignant guide les groupes d'élèves à travers des exercices pratiques qui rendent l'apprentissage à la fois ludique et enrichissant.
+#### Activité 2 : Défi de classification intelligente des déchets (25 minutes)
+
+Cette activité finale vise à renforcer la compréhension des applications de l'IA par les élèves tout en développant leur conscience environnementale et leurs compétences collaboratives. Elle les aide à comprendre le fonctionnement de l'IA en situation réelle tout en les sensibilisant à l'environnement. L'enseignant guide les groupes d'élèves à travers des exercices pratiques qui rendent l'apprentissage à la fois ludique et enrichissant.
 
 Instructions pour les élèves : Pour cette activité, vous utiliserez le modèle d'IA que vous avez créé dans les étapes précédentes pour l'appliquer dans des conditions réelles et les résultats de l'activité 1. De retour en classe, l'enseignant demande aux élèves de réfléchir aux questions suivantes :
 

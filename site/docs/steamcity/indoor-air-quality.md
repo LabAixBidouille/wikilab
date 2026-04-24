@@ -103,9 +103,13 @@ Matériel nécessaire : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bi
 
 Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
-Que se passe-t-il s'il y a trop de dioxyde de carbone dans une pièce ? Lorsqu'une ou plusieurs personnes sont présentes dans un local, la concentration d'oxygène diminue, tandis que celle de dioxyde de carbone augmente. À forte concentration, le dioxyde de carbone peut devenir asphyxiant. Le manque d'oxygène dû à un taux élevé de dioxyde de carbone peut avoir des conséquences plus ou moins graves pour l'organisme : accélération du rythme cardiaque, fatigue (et donc diminution des capacités intellectuelles, comme la concentration ou la prise de décision), nausées, vomissements, malaise et même, dans des situations extrêmes, coma ou décès. Il est donc important d'aérer une pièce pour éviter la saturation en dioxyde de carbone. Il faut savoir que la concentration en dioxyde de carbone dépend de plusieurs paramètres : le nombre de personnes présentes dans une pièce, le type d'activité qu'elles pratiquent (chant, sport, études, etc.), le volume de la pièce, le nombre de fenêtres ouvertes, la présence d'un système de ventilation, etc.
+#### Que se passe-t-il s'il y a trop de dioxyde de carbone dans une pièce ?
 
-Indirectement, que peut mesurer le taux de CO2 ? Certains virus (comme le coronavirus responsable de la COVID-19) se transmettent par aérosols (suspension de particules dans un gaz). Lorsque les gens parlent ou respirent, ils émettent des aérosols (contaminés ou non) dans l'air ambiant. Ces aérosols sont de très fines gouttelettes, de moins d'un micromètre (1 μm = 10-6 m) de diamètre. Dans le cas de la COVID-19, on distingue trois modes de contamination :
+Lorsqu'une ou plusieurs personnes sont présentes dans un local, la concentration d'oxygène diminue, tandis que celle de dioxyde de carbone augmente. À forte concentration, le dioxyde de carbone peut devenir asphyxiant. Le manque d'oxygène dû à un taux élevé de dioxyde de carbone peut avoir des conséquences plus ou moins graves pour l'organisme : accélération du rythme cardiaque, fatigue (et donc diminution des capacités intellectuelles, comme la concentration ou la prise de décision), nausées, vomissements, malaise et même, dans des situations extrêmes, coma ou décès. Il est donc important d'aérer une pièce pour éviter la saturation en dioxyde de carbone. Il faut savoir que la concentration en dioxyde de carbone dépend de plusieurs paramètres : le nombre de personnes présentes dans une pièce, le type d'activité qu'elles pratiquent (chant, sport, études, etc.), le volume de la pièce, le nombre de fenêtres ouvertes, la présence d'un système de ventilation, etc.
+
+#### Indirectement, que peut mesurer le taux de CO2 ?
+
+Certains virus (comme le coronavirus responsable de la COVID-19) se transmettent par aérosols (suspension de particules dans un gaz). Lorsque les gens parlent ou respirent, ils émettent des aérosols (contaminés ou non) dans l'air ambiant. Ces aérosols sont de très fines gouttelettes, de moins d'un micromètre (1 μm = 10-6 m) de diamètre. Dans le cas de la COVID-19, on distingue trois modes de contamination :
 
 - par projection de gouttelettes tombant rapidement au sol (à une distance allant jusqu'à 2 mètres de l'émetteur)
 - par contact direct ou indirect,
@@ -113,7 +117,9 @@ Indirectement, que peut mesurer le taux de CO2 ? Certains virus (comme le corona
 
 Autrement dit, une personne émet des aérosols et du dioxyde de carbone ! Connaître le taux de dioxyde de carbone est un moyen d'obtenir une information indirecte sur la concentration d'aérosols (contaminés ou non) dans une pièce. Le dioxyde de carbone peut être qualifié de « marqueur » d'aérosols. Bien sûr, il existe des capteurs d'aérosols, mais ils sont très coûteux. La mesure du dioxyde de carbone n'indique pas la quantité d'aérosols, mais elle donne une approximation de leur présence dans une pièce. Ainsi, en fonction des seuils de dioxyde de carbone à définir, il peut être possible de décider à quel moment une pièce doit être ventilée.
 
-Comment calibrer un capteur de dioxyde de carbone ? Il existe de nombreux types de capteurs de dioxyde de carbone, dont la fiabilité dépend de la technique de mesure utilisée. Le capteur utilisé dans cette expérience est le capteur NDIR SCD30, un capteur infrarouge non dispersif de Sensirion. Cette technologie est plus fiable que les capteurs de type MOX (par exemple le capteur MQ135 utilise du dioxyde d'étain SnO2, dont la conductivité électrique varie en fonction de la présence de polluants) ou de type MOS comme le SGP30 (donnant une valeur en équivalent CO2). Pour réaliser des mesures exploitables, le capteur doit être étalonné de la même manière qu'une balance doit être tarée (une balance doit afficher 0 gramme lorsque son plateau est vide) : typiquement, si le capteur est placé à l'extérieur où le taux est (environ) de 400 ppm, la valeur mesurée doit donc être de 400 ppm. Il existe plusieurs façons d'étalonner un capteur :
+#### Comment calibrer un capteur de dioxyde de carbone ?
+
+Il existe de nombreux types de capteurs de dioxyde de carbone, dont la fiabilité dépend de la technique de mesure utilisée. Le capteur utilisé dans cette expérience est le capteur NDIR SCD30, un capteur infrarouge non dispersif de Sensirion. Cette technologie est plus fiable que les capteurs de type MOX (par exemple le capteur MQ135 utilise du dioxyde d'étain SnO2, dont la conductivité électrique varie en fonction de la présence de polluants) ou de type MOS comme le SGP30 (donnant une valeur en équivalent CO2). Pour réaliser des mesures exploitables, le capteur doit être étalonné de la même manière qu'une balance doit être tarée (une balance doit afficher 0 gramme lorsque son plateau est vide) : typiquement, si le capteur est placé à l'extérieur où le taux est (environ) de 400 ppm, la valeur mesurée doit donc être de 400 ppm. Il existe plusieurs façons d'étalonner un capteur :
 
 1. Étalonnage en usine : le processus a été effectué en usine et est valable pendant une période indiquée dans le manuel du fabricant ;
 2. Calibrage forcé : il s'agit de connaître la valeur du taux de dioxyde de carbone au point de calibrage ; cette valeur est considérée comme une valeur de référence. Un programme est inséré dans le capteur, spécifiant que la mesure à effectuer correspondra à la valeur de référence connue ;
@@ -137,16 +143,20 @@ Documentation : Selon les scientifiques qui ont contribué au site nousaerons.fr
 
 Un taux de dioxyde de carbone de 800 ppm est un seuil également mentionné dans les Références pour l'aération et la ventilation des espaces scolaires (Avril 2021). Le dioxyde de carbone, aussi appelé dioxyde de carbone ou CO2, est un gaz expiré lors de la respiration humaine qui s'accumule dans les espaces clos mal ventilés. La mesure de la concentration de CO2 dans l'air est donc un moyen simple d'évaluer si le renouvellement de l'air est suffisant ou non. À l'extérieur, la concentration de CO2 dans l'air est d'environ 0,04 %, soit 400 ppm (parties par million). Idéalement, les concentrations intérieures ne devraient pas dépasser 600 ppm, notamment dans les zones où le port du masque n'est pas autorisé, comme les cantines scolaires. Des concentrations supérieures à 0,08 %, soit 800 ppm, sont révélatrices d'une ventilation inadéquate dans un contexte de COVID-19 (recommandation actuelle du Haut Conseil de la Santé Publique, www.hcsp.fr).
 
-Quelles sont les différentes manières de ventiler une pièce ? Il existe plusieurs façons de ventiler une pièce, en fonction des besoins, des contraintes architecturales et du niveau de qualité d'air souhaité. Voici les principales façons de ventiler une pièce :
+#### Quelles sont les différentes manières de ventiler une pièce ?
 
-1. Ventilation manuelle : Ouvrir les fenêtres et les portes.
-2. Ventilation naturelle : Grilles de ventilation : installées dans les murs ou les fenêtres, elles assurent une ventilation continue sans intervention humaine. Cheminées ou conduits verticaux : Utilisent l'effet de tirage naturel pour extraire l'air chaud et renouveler l'air de la pièce.
-3. Ventilation mécanique : Ventilation Mécanique Contrôlée (VMC) : Aspiration de l'air vicié des pièces humides (cuisine, salle de bains) et renouvellement de l'air des autres pièces par des bouches d'aération.
-4. Ventilation forcée : Systèmes de climatisation avec fonction d'échange d'air : Certains climatiseurs sont équipés de fonctions de ventilation qui amènent de l'air frais de l'extérieur. Purificateurs d'air avec fonction de ventilation : En plus de filtrer l'air, certains modèles peuvent également renouveler l'air intérieur. Ces différentes méthodes peuvent être combinées pour optimiser la qualité de l'air intérieur et répondre aux besoins spécifiques de chaque espace, que ce soit pour réduire l'humidité, éviter la condensation ou simplement assurer une bonne circulation de l'air.
+Il existe plusieurs façons de ventiler une pièce, en fonction des besoins, des contraintes architecturales et du niveau de qualité d'air souhaité. Voici les principales façons de ventiler une pièce :
+
+1. **Ventilation manuelle** : Ouvrir les fenêtres et les portes.
+2. **Ventilation naturelle** : Grilles de ventilation : installées dans les murs ou les fenêtres, elles assurent une ventilation continue sans intervention humaine. Cheminées ou conduits verticaux : Utilisent l'effet de tirage naturel pour extraire l'air chaud et renouveler l'air de la pièce.
+3. **Ventilation mécanique** : Ventilation Mécanique Contrôlée (VMC) : Aspiration de l'air vicié des pièces humides (cuisine, salle de bains) et renouvellement de l'air des autres pièces par des bouches d'aération.
+4. **Ventilation forcée** : Systèmes de climatisation avec fonction d'échange d'air : Certains climatiseurs sont équipés de fonctions de ventilation qui amènent de l'air frais de l'extérieur. Purificateurs d'air avec fonction de ventilation : En plus de filtrer l'air, certains modèles peuvent également renouveler l'air intérieur. Ces différentes méthodes peuvent être combinées pour optimiser la qualité de l'air intérieur et répondre aux besoins spécifiques de chaque espace, que ce soit pour réduire l'humidité, éviter la condensation ou simplement assurer une bonne circulation de l'air.
 
 ### Investigation par les élèves
 
-Activité 1 : Configuration du seuil de CO2 (10 minutes). L'activité est lancée par l'enseignant à l'aide du tableau blanc, de papiers ou de feuilles A4. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Configuration du seuil de CO2 (10 minutes)
+
+L'activité est lancée par l'enseignant à l'aide du tableau blanc, de papiers ou de feuilles A4. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Définissez 4 niveaux d'intervention correspondant à différentes couleurs de LED en fonction du taux de CO2. Ils peuvent être ajustés en fonction de l'environnement (ville, campagne, pics de pollution, créer une ventilation) et de la qualité de l'étalonnage. Voici la bonne réponse. Vous pouvez distribuer une version vide de ce tableau à vos élèves.
 
@@ -157,7 +167,9 @@ Consignes pour les élèves : Définissez 4 niveaux d'intervention correspondant
 | entre 800 et 1000 ppm | orange | nous recommandons de ventiler la pièce |
 | au-delà de 1000 ppm | rouge | Il est conseillé de quitter la pièce et de l'aérer |
 
-Activité 2 : Programmation de l'affichage du CO2 (10 minutes). L'activité est lancée par l'enseignant avec le support de l'interface Vittascience et du capteur SCD30.
+#### Activité 2 : Programmation de l'affichage du CO2 (10 minutes)
+
+L'activité est lancée par l'enseignant avec le support de l'interface Vittascience et du capteur SCD30.
 
 Consignes pour les élèves : Créer un programme pour afficher le taux de CO2 dans la pièce sur l'écran LCD avec le capteur SCD30. Utilisez l'interface Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte Micro:bit ou programmable Arduino, capteur SCD30, écran LCD, câble usb, compteur), vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte NUCLEO-L476RG ; Micro:bit ou programmable Arduino.
 
@@ -165,7 +177,9 @@ Pour vérifier que le programme fonctionne, vous pouvez souffler dessus pour vé
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 1 : Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30 ».
 
-Activité 3 : Configuration des couleurs des LED (10 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 3 : Configuration des couleurs des LED (10 minutes)
+
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Allumez une LED (type Neopixel) de couleur orange. Cette étape vous permet de vous familiariser avec l'étape suivante qui propose un programme plus complet. Utilisez l'interface Vittascience pour la réaliser.
 
@@ -180,7 +194,9 @@ En combinant ces valeurs, on peut théoriquement obtenir 16 777 216 couleurs (il
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 2 : Configuration des couleurs des LED ».
 
-Activité 4 : Indicateur LED CO2 (10 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 4 : Indicateur LED CO2 (10 minutes)
+
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
@@ -202,21 +218,31 @@ Connaissances mobilisées : les élèves découvrent le CO2, son impact sur la s
 
 Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
-Comment afficher les valeurs de CO2 à l'écran ? Le programme précédent peut être modifié pour afficher la valeur de CO2 mesurée sur l'écran de l'ordinateur via l'interface Vittascience. Cela peut être utile, par exemple, si vous souhaitez projeter les valeurs mesurées en vidéo. La configuration est la même que pour l'activité 4 de l'étape 1. Il est toutefois possible de se passer du module LCD dans la configuration si vous ne souhaitez pas d'affichage sur cet écran.
+#### Comment afficher les valeurs de CO2 à l'écran ?
 
-Quelle partie du programme doit être modifiée ? Les deux blocs faisant référence à l'écran LCD30, ils doivent être supprimés pour être affichés sur l'ordinateur.
+Le programme précédent peut être modifié pour afficher la valeur de CO2 mesurée sur l'écran de l'ordinateur via l'interface Vittascience. Cela peut être utile, par exemple, si vous souhaitez projeter les valeurs mesurées en vidéo. La configuration est la même que pour l'activité 4 de l'étape 1. Il est toutefois possible de se passer du module LCD dans la configuration si vous ne souhaitez pas d'affichage sur cet écran.
 
-En observant l'interface de programmation, quel élément pouvez-vous ajouter à votre programme pour afficher les données dans la console ? Dans la partie « communication », vous trouverez un bloc d'instructions permettant d'écrire sur la console. Cette instruction permet à la carte d'envoyer les mesures prises (via le capteur de CO2 SCD30) à l'ordinateur via son port série. Cela nécessite que la carte reste connectée en permanence à l'ordinateur. Cet affichage est possible via une zone de l'interface Vittascience (« la console d'affichage »).
+#### Quelle partie du programme doit être modifiée ?
+
+Les deux blocs faisant référence à l'écran LCD30, ils doivent être supprimés pour être affichés sur l'ordinateur.
+
+#### En observant l'interface de programmation, quel élément pouvez-vous ajouter à votre programme pour afficher les données dans la console ?
+
+Dans la partie « communication », vous trouverez un bloc d'instructions permettant d'écrire sur la console. Cette instruction permet à la carte d'envoyer les mesures prises (via le capteur de CO2 SCD30) à l'ordinateur via son port série. Cela nécessite que la carte reste connectée en permanence à l'ordinateur. Cet affichage est possible via une zone de l'interface Vittascience (« la console d'affichage »).
 
 ### Investigation par les élèves
 
-Activité 1 : Affichage du CO2 (10 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Affichage du CO2 (10 minutes)
+
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de l'étape 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité disponible dans la section « Fiche pratique 4 : Affichage du CO2 ».
 
-Activité 2 : Visualisation des données (10 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 2 : Visualisation des données (10 minutes)
+
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
@@ -238,17 +264,23 @@ Connaissances mobilisées : les élèves explorent des méthodes de visualisatio
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir sur des concepts clés. Pour vous aider à le faire, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
-Quels facteurs doivent être pris en compte lors de l'analyse des données ? Il est par exemple possible d'enregistrer les heures d'ouverture et de fermeture des fenêtres, les pauses et les récréations, le début des cours, le nombre de personnes dans la salle, la taille de la salle, la présence d'une ventilation, etc. Et de comparer ces moments clés avec les conséquences sur l'évolution des niveaux de dioxyde de carbone mesurés. De cette manière, l'utilité et l'efficacité de la ventilation de la salle peuvent être démontrées quantitativement.
+#### Quels facteurs doivent être pris en compte lors de l'analyse des données ?
+
+Il est par exemple possible d'enregistrer les heures d'ouverture et de fermeture des fenêtres, les pauses et les récréations, le début des cours, le nombre de personnes dans la salle, la taille de la salle, la présence d'une ventilation, etc. Et de comparer ces moments clés avec les conséquences sur l'évolution des niveaux de dioxyde de carbone mesurés. De cette manière, l'utilité et l'efficacité de la ventilation de la salle peuvent être démontrées quantitativement.
 
 ### Investigation par les élèves
 
-Activité 1 : Configurer et installer l'appareil (20 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Configurer et installer l'appareil (20 minutes)
 
-Consignes aux élèves : Déterminer la durée nécessaire de mesure dans le lieu choisi pour obtenir suffisamment de données en vue d'une analyse ultérieure. Ensuite, installer l'appareil, pendant le temps choisi, à l'endroit choisi et collecter les données.
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Activité 2 : Analyser les données (30 minutes). L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+**Consignes aux élèves** : Déterminer la durée nécessaire de mesure dans le lieu choisi pour obtenir suffisamment de données en vue d'une analyse ultérieure. Ensuite, installer l'appareil, pendant le temps choisi, à l'endroit choisi et collecter les données.
 
-Consignes aux élèves : Analyser les données. Démontrer quantitativement l'utilité et l'efficacité de la ventilation des locaux.
+#### Activité 2 : Analyser les données (30 minutes)
+
+L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux élèves** : Analyser les données. Démontrer quantitativement l'utilité et l'efficacité de la ventilation des locaux.
 
 ### Restitution et réflexion
 
@@ -268,11 +300,15 @@ Avant de commencer, l'enseignant encourage les élèves à considérer d'autres 
 
 ### Investigation par les élèves
 
-Activité 1 : Analyse statistique des données (20 minutes). L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Analyse statistique des données (20 minutes)
 
-Consignes aux élèves : Guidez les élèves dans l'utilisation de techniques statistiques telles que l'analyse de corrélation et la régression pour identifier les relations entre les variables. Encouragez la réflexion critique sur les facteurs de confusion potentiels et les moyens de les contrôler dans leur analyse.
+L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-Activité 2 : Activité de partage et de comparaison de données (10 minutes). L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
+**Consignes aux élèves** : Guidez les élèves dans l'utilisation de techniques statistiques telles que l'analyse de corrélation et la régression pour identifier les relations entre les variables. Encouragez la réflexion critique sur les facteurs de confusion potentiels et les moyens de les contrôler dans leur analyse.
+
+#### Activité 2 : Activité de partage et de comparaison de données (10 minutes)
+
+L'activité est lancée par l'enseignant à l'aide des données collectées par les élèves avec le capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
 Consignes pour les élèves : Maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données du monde entier grâce à la technologie LoRa. Téléchargez les données que vous avez collectées (grâce à la technologie LoRa, ici — https://en.vittascience.com/learn/tutorial.php?id=547/activity-no-11-send-the-data-on-the-lora-network-and-display-it-on-the-vittamap-interface-iot-sensors-kit) et mettez-les à disposition pour consultation sur le site de l'école ou sur le site de Vittascience. Vous pouvez publier les données collectées en temps réel sur Internet via un serveur. Par exemple, la qualité de l'air locale peut être affichée sur un site Web ou un réseau social. Attention cependant, la mise en place d'un tel projet est réservée aux utilisateurs expérimentés !
 

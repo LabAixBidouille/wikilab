@@ -155,17 +155,21 @@ Maintenant que nous en savons plus sur ces différents polluants, voyons comment
 
 N'oubliez pas de collecter des données sur le site d'étude (ex. : trafic routier, heures de pointe, présence d'arbres, etc.).
 
-Activité 1 : Mesure des COV (10 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et du capteur MICS6814, d'un écran d'affichage et d'un module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Mesure des COV (10 minutes)
 
-Consignes aux élèves : Créez un programme de mesure de COV, puis enregistrez-le sur une carte microSD ou affichez-le sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte programmable micro:bit ou Arduino, capteur MICS6814, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable micro:bit ou Arduino NUCLEO-L476RG. Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et du capteur MICS6814, d'un écran d'affichage et d'un module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux élèves** : Créez un programme de mesure de COV, puis enregistrez-le sur une carte microSD ou affichez-le sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte programmable micro:bit ou Arduino, capteur MICS6814, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable micro:bit ou Arduino NUCLEO-L476RG. Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
 
 Bon à savoir : Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
 
 Programmation à cette étape : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la section « Fiche pratique 1 : Système de surveillance des COV avec écran LCD ».
 
-Activité 2 : Surveillance multiparamétrique (15 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et des capteur HM3301, MICS6814, DHT11, d'un écran d'affichage et du module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 2 : Surveillance multiparamétrique (15 minutes)
 
-Consignes aux élèves : Créez un programme pour mesurer divers paramètres environnementaux, puis enregistrez-les sur une carte microSD ou affichez-les sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (carte programmable, capteur HM3301, capteur MICS6814, capteur d'humidité DHT11, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG (micro:bit ou Arduino). Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et des capteur HM3301, MICS6814, DHT11, d'un écran d'affichage et du module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux élèves** : Créez un programme pour mesurer divers paramètres environnementaux, puis enregistrez-les sur une carte microSD ou affichez-les sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (carte programmable, capteur HM3301, capteur MICS6814, capteur d'humidité DHT11, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG (micro:bit ou Arduino). Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
 
 Bon à savoir : Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
 
@@ -201,9 +205,11 @@ Durée : 10 minutes
 
 ### Investigation par les élèves
 
-Activité 1 : Graphiques en temps réel (20 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Graphiques en temps réel (20 minutes)
 
-Consignes aux étudiants : Créez un graphique en temps réel grâce au mode graphique des interfaces Vittascience. Voici la procédure pour récupérer les données depuis la console :
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux étudiants** : Créez un graphique en temps réel grâce au mode graphique des interfaces Vittascience. Voici la procédure pour récupérer les données depuis la console :
 1. Tout d'abord, la carte programmable doit être connectée à l'ordinateur via le câble USB. Cliquez ensuite sur le bouton « Connecter » dans la barre d'outils.
 2. Dans la fenêtre qui s'ouvre, sélectionnez votre carte programmable, puis cliquez sur le bouton "Connexion".
 3. La console affiche ensuite les données.
@@ -215,9 +221,11 @@ Consignes aux étudiants : Créez un graphique en temps réel grâce au mode gra
 
 Bon à savoir : À tout moment, vous pouvez effacer les données pour reprendre l'acquisition grâce au bouton « Effacer les données » dans les paramètres de la console. Placez votre curseur sur la courbe pour afficher la valeur. Le format CSV est requis pour traiter ces informations dans une feuille de calcul.
 
-Activité 2 : Enregistrement des données (20 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 2 : Enregistrement des données (20 minutes)
 
-Consignes aux étudiants : Créez un programme pour enregistrer des données sur une carte SD à l'aide d'un module d'enregistrement OpenLog avec le support des interfaces Vittascience.
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux étudiants** : Créez un programme pour enregistrer des données sur une carte SD à l'aide d'un module d'enregistrement OpenLog avec le support des interfaces Vittascience.
 
 Une fois l'enregistrement terminé, retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur.
 
@@ -253,9 +261,11 @@ Durée : 10 minutes
 
 ### Investigation par les élèves
 
-Activité 1 : Traitement des données (10 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 1 : Traitement des données (10 minutes)
 
-Consignes aux élèves : Exploitation des données. Retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur. Pour ouvrir le fichier « LOG00002.txt » sur la carte microSD, procédez comme suit :
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux élèves** : Exploitation des données. Retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur. Pour ouvrir le fichier « LOG00002.txt » sur la carte microSD, procédez comme suit :
 
 Avec Microsoft Excel
 
@@ -293,9 +303,11 @@ Création d'un fichier LibreOffice Calc. Ouvrez le fichier Libre Office. Allez d
 
 Sélectionnez la colonne Heure et la deuxième colonne correspondant aux données que vous souhaitez afficher (en maintenant la touche \[ctrl\] enfoncée). Cliquez sur « Insérer » → « Diagramme » À l'étape \{1. choisir un type de diagramme\} : choisissez « ligne » et cliquez sur Suivant. À l'étape \{2. choisissez une plage de données\} : cochez la case « Première colonne comme étiquette », laissez le reste intact, cliquez sur Suivant. L'étape 3 apparaît, cliquez sur Suivant sans rien modifier. Si vous le souhaitez, ajoutez un titre, un sous-titre et les unités des quantités affichées. Cliquez sur Terminer.
 
-Activité 2 : Analyse des modèles (10 minutes) L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+#### Activité 2 : Analyse des modèles (10 minutes)
 
-Consignes aux élèves : Analyser les données. Trouver les causes des variations du monoxyde de carbone dans l'air.
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
+
+**Consignes aux élèves** : Analyser les données. Trouver les causes des variations du monoxyde de carbone dans l'air.
 
 ### Restitution et réflexion
 

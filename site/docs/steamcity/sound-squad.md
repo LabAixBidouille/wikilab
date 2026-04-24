@@ -118,11 +118,17 @@ Enfin, le choix de la méthode et des outils de recueil de données est fondamen
 
 ### Investigation par les élèves
 
-Découvrir la problématique du bruit Cette étape visera à introduire le sujet de la pollution sonore et à recueillir les connaissances préalables des élèves. L'enseignant pourra animer une discussion de classe, utiliser des supports visuels ou audio pour illustrer différents types de bruits urbains, et encourager les élèves à partager leurs expériences personnelles liées au bruit dans leur environnement quotidien.
+#### Découvrir la problématique du bruit
 
-Mener une recherche documentaire sur la problématique du bruit urbain Les élèves effectueront une recherche documentaire approfondie sur le sujet du bruit urbain. Ils exploreront les études existantes, les rapports officiels et les articles scientifiques pertinents pour établir un socle de connaissances solide. Cette étape leur permettra d'identifier les principaux enjeux liés à la pollution sonore en milieu urbain et de compléter leurs connaissances préalables. Cette enquête documentaire permettra également de comprendre les méthodologies utilisées dans les études existantes sur le bruit en amont de la constitution de leurs indicateurs.
+Cette étape visera à introduire le sujet de la pollution sonore et à recueillir les connaissances préalables des élèves. L'enseignant pourra animer une discussion de classe, utiliser des supports visuels ou audio pour illustrer différents types de bruits urbains, et encourager les élèves à partager leurs expériences personnelles liées au bruit dans leur environnement quotidien.
 
-Construire un tableau d'indicateurs qualitatifs et quantitatifs pour aborder la problématique de manière nuancée Les élèves, guidés par l'enseignant, élaboreront collectivement un ensemble d'indicateurs pour évaluer le bruit, en s'inspirant de leurs connaissances, ressentis et recherche documentaire. Cela permettra d'une part de s'assurer que la problématique a été correctement appréhendée par les élèves et de les engager dans un travail de collecte structuré. Cela pourra inclure des indicateurs qualitatifs et quantitatifs : intensité, fréquence (constant, intermittent, occasionnel), type de source (trafic, activités humaines, nature), impact sur leur bien-être (gênant, neutre, agréable). Cette activité permettra aux élèves de comprendre les différentes méthodes de mesure et d'évaluation du bruit, tout en développant un vocabulaire commun pour décrire leur environnement sonore.
+#### Mener une recherche documentaire sur la problématique du bruit urbain
+
+Les élèves effectueront une recherche documentaire approfondie sur le sujet du bruit urbain. Ils exploreront les études existantes, les rapports officiels et les articles scientifiques pertinents pour établir un socle de connaissances solide. Cette étape leur permettra d'identifier les principaux enjeux liés à la pollution sonore en milieu urbain et de compléter leurs connaissances préalables. Cette enquête documentaire permettra également de comprendre les méthodologies utilisées dans les études existantes sur le bruit en amont de la constitution de leurs indicateurs.
+
+#### Construire un tableau d'indicateurs qualitatifs et quantitatifs pour aborder la problématique de manière nuancée
+
+Les élèves, guidés par l'enseignant, élaboreront collectivement un ensemble d'indicateurs pour évaluer le bruit, en s'inspirant de leurs connaissances, ressentis et recherche documentaire. Cela permettra d'une part de s'assurer que la problématique a été correctement appréhendée par les élèves et de les engager dans un travail de collecte structuré. Cela pourra inclure des indicateurs qualitatifs et quantitatifs : intensité, fréquence (constant, intermittent, occasionnel), type de source (trafic, activités humaines, nature), impact sur leur bien-être (gênant, neutre, agréable). Cette activité permettra aux élèves de comprendre les différentes méthodes de mesure et d'évaluation du bruit, tout en développant un vocabulaire commun pour décrire leur environnement sonore.
 
 ### Restitution et réflexion
 
@@ -154,9 +160,11 @@ Recueil et traitement de données subjectives : La cartographie sensible impliqu
 
 ### Investigation par les élèves
 
-Préparation de la cartographie sensible L'enseignant introduira le concept de cartographie sensible. Il s'agira de représenter visuellement les perceptions subjectives du paysage sonore. L'approche adoptée encouragera les élèves à s'affranchir des contraintes formelles géographiques pour se concentrer sur leur ressenti du bruit. Chaque élève choisira de représenter un trajet du quotidien (école/maison, périscolaire/maison, pause déjeuner, etc.) sous la forme d'un dessin libre, qui n'aura pas besoin de respecter les normes de cartographie traditionnelle c'est-à-dire le respect de l'échelle, l'orientation cardinale, la légende … . L'enseignant encouragera les élèves à réfléchir aux éléments suivants lors de la création de leur carte : zones de confort ou d'inconfort sonore, variations d'ambiance sonore (calme, animée, stressante), sources de bruit marquantes (positives ou négatives), émotions ou sensations associées à certains lieux, en se basant sur les indicateurs définis en phase 1.
+#### Préparation de la cartographie sensible
 
-Point méthodologique : La cartographie sensible
+L'enseignant introduira le concept de cartographie sensible. Il s'agira de représenter visuellement les perceptions subjectives du paysage sonore. L'approche adoptée encouragera les élèves à s'affranchir des contraintes formelles géographiques pour se concentrer sur leur ressenti du bruit. Chaque élève choisira de représenter un trajet du quotidien (école/maison, périscolaire/maison, pause déjeuner, etc.) sous la forme d'un dessin libre, qui n'aura pas besoin de respecter les normes de cartographie traditionnelle c'est-à-dire le respect de l'échelle, l'orientation cardinale, la légende … . L'enseignant encouragera les élèves à réfléchir aux éléments suivants lors de la création de leur carte : zones de confort ou d'inconfort sonore, variations d'ambiance sonore (calme, animée, stressante), sources de bruit marquantes (positives ou négatives), émotions ou sensations associées à certains lieux, en se basant sur les indicateurs définis en phase 1.
+
+#### Point méthodologique : la cartographie sensible
 
 La cartographie sensible est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et à représenter les perceptions et les sensations ressenties dans un espace donné. Elle se concentre sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
 
@@ -164,9 +172,13 @@ Dans le domaine d'étude spécifiquement, si une carte sonore peut représenter 
 
 Cartographie sensible, Quentin Lefèvre La cartographie sensible, Tous a pied Carte sensible, Glossaire GeoConfluence de Lyon La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal
 
-Réalisation de la cartographie individuelle Chaque élève créera sa carte sensible en se basant sur son expérience quotidienne du trajet choisi. Ils utiliseront des dessins, des couleurs, des symboles ou des mots-clés pour exprimer leurs perceptions sonores et émotionnelles. Cette étape demandera réflexion et analyse de leurs ressentis, permettant de réfléchir à leur quotidien de manière nouvelle autour de la problématique du bruit. L'accent sera mis sur l'expression libre et créative de leur expérience subjective plutôt que sur la précision géographique.
+#### Réalisation de la cartographie individuelle
 
-Analyse collective des cartographies et création d'une carte de synthèse Les élèves présenteront leurs cartes sensibles à la classe et compareront leurs résultats. Cette étape favorisera la discussion et permettra de mettre en évidence les similitudes et les différences dans les perceptions individuelles du bruit, ainsi que les lieux communs qui émergent des différents trajets représentés. Ensemble, la classe pourra élaborer une carte de synthèse plus formelle qui intégrera les éléments clés des cartes sensibles individuelles. Cette carte combinera les perceptions subjectives avec une représentation géographique plus traditionnelle, permettant de visualiser les "points chauds" sonores, les zones de calme, et les trajets les plus fréquentés. Elle servira de base pour les phases suivantes de l'étude.
+Chaque élève créera sa carte sensible en se basant sur son expérience quotidienne du trajet choisi. Ils utiliseront des dessins, des couleurs, des symboles ou des mots-clés pour exprimer leurs perceptions sonores et émotionnelles. Cette étape demandera réflexion et analyse de leurs ressentis, permettant de réfléchir à leur quotidien de manière nouvelle autour de la problématique du bruit. L'accent sera mis sur l'expression libre et créative de leur expérience subjective plutôt que sur la précision géographique.
+
+#### Analyse collective des cartographies et création d'une carte de synthèse
+
+Les élèves présenteront leurs cartes sensibles à la classe et compareront leurs résultats. Cette étape favorisera la discussion et permettra de mettre en évidence les similitudes et les différences dans les perceptions individuelles du bruit, ainsi que les lieux communs qui émergent des différents trajets représentés. Ensemble, la classe pourra élaborer une carte de synthèse plus formelle qui intégrera les éléments clés des cartes sensibles individuelles. Cette carte combinera les perceptions subjectives avec une représentation géographique plus traditionnelle, permettant de visualiser les "points chauds" sonores, les zones de calme, et les trajets les plus fréquentés. Elle servira de base pour les phases suivantes de l'étude.
 
 ### Restitution et réflexion
 
@@ -196,11 +208,17 @@ Cette phase permettra aux élèves de développer des compétences essentielles 
 
 ### Investigation par les élèves
 
-Introduction aux mesures sonores L'enseignant expliquera les concepts de base de la mesure du son, notamment les décibels (dB) et les différentes échelles de mesure. Il présentera également les capteurs de bruit qui seront utilisés, en expliquant leur fonctionnement et leurs limites.
+#### Introduction aux mesures sonores
 
-Conseils pour les enseignants : Nous vous conseillons d'utiliser un set de cartes programmables Micro:bit pour réaliser cette activité. Elles intègrent un capteur de niveau sonore et sont facilement disponibles et programmables. Pour vous aider à programmer ces cartes, vous avez accès à une Section « Fiche pratique », sous forme de fiche d'activité permettant d'utiliser les cartes Micro:bit et vous fournissant le code à utiliser si vous souhaitez réaliser cette partie du protocole.
+L'enseignant expliquera les concepts de base de la mesure du son, notamment les décibels (dB) et les différentes échelles de mesure. Il présentera également les capteurs de bruit qui seront utilisés, en expliquant leur fonctionnement et leurs limites.
 
-Planification des mesures En se basant sur la carte de synthèse créée lors de la phase précédente, la classe identifiera les points clés où effectuer des mesures, selon le nombre de capteurs disponibles. L'objectif ne sera pas de collecter un nombre important de mesures, mais de comprendre comment effectuer les mesures et questionner ses ressentis sur la question du bruit. Ces points devront inclure les zones perçues comme les plus bruyantes et les plus calmes. La classe sera divisée en groupes, chacun responsable d'un point de mesure spécifique. Un tableau de positionnement des capteurs sera créé pour organiser la collecte de données :
+:::info[Conseils pour les enseignants]
+Nous vous conseillons d'utiliser un set de cartes programmables Micro:bit pour réaliser cette activité. Elles intègrent un capteur de niveau sonore et sont facilement disponibles et programmables. Pour vous aider à programmer ces cartes, vous avez accès à une Section « Fiche pratique », sous forme de fiche d'activité permettant d'utiliser les cartes Micro:bit et vous fournissant le code à utiliser si vous souhaitez réaliser cette partie du protocole.
+:::
+
+#### Planification des mesures
+
+En se basant sur la carte de synthèse créée lors de la phase précédente, la classe identifiera les points clés où effectuer des mesures, selon le nombre de capteurs disponibles. L'objectif ne sera pas de collecter un nombre important de mesures, mais de comprendre comment effectuer les mesures et questionner ses ressentis sur la question du bruit. Ces points devront inclure les zones perçues comme les plus bruyantes et les plus calmes. La classe sera divisée en groupes, chacun responsable d'un point de mesure spécifique. Un tableau de positionnement des capteurs sera créé pour organiser la collecte de données :
 
 | Emplacement | Type de zone | Durée de mesure | Responsable | Observation de la cartographie sensible |
 |---|---|---|---|---|
@@ -212,13 +230,20 @@ Planification des mesures En se basant sur la carte de synthèse créée lors de
 
 Ce tableau permettra d'organiser efficacement la collecte de données en identifiant les emplacements clés, le type de zone, la durée de mesure, et les groupes responsables de chaque point de mesure.
 
-Collecte de données Les capteurs seront programmés puis positionnés sur les points identifiés. Il faudra veiller à sélectionner un emplacement sûr (dans le jardin d'un élève par exemple, dans un commerce, etc.). Les capteurs seront programmés pour effectuer des relevés à heures fixes, par exemple une fois par heure, jour et nuit. Ces données seront envoyées à un serveur central. Il sera important de mesurer en continu sur une période donnée (par exemple une semaine incluant un weekend) pour analyser les variations.
+#### Collecte de données
 
-Conseils pour les enseignants: Vous trouverez en annexe une fiche pratique pour programmer votre carte Micro:bit. Diverses modalités de collecte peuvent être organisées :
+Les capteurs seront programmés puis positionnés sur les points identifiés. Il faudra veiller à sélectionner un emplacement sûr (dans le jardin d'un élève par exemple, dans un commerce, etc.). Les capteurs seront programmés pour effectuer des relevés à heures fixes, par exemple une fois par heure, jour et nuit. Ces données seront envoyées à un serveur central. Il sera important de mesurer en continu sur une période donnée (par exemple une semaine incluant un weekend) pour analyser les variations.
 
-Option 1 (plusieurs cartes) : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante. Option 2 (une seule carte - moins onéreux) : Utilisez une seule carte Micro:bit et faites-la tourner entre les élèves. Collectez des données pendant 2 jours chez chaque élève, sur une période totale de 15 jours, pour obtenir une représentation de plusieurs points de collecte.
+:::info[Conseils pour les enseignants]
+Vous trouverez en annexe une fiche pratique pour programmer votre carte Micro:bit. Diverses modalités de collecte peuvent être organisées :
 
-Analyse des données Une fois la période de collecte terminée, les élèves compileront les fichiers CSV des différents capteurs positionnés afin d'analyser les données.
+- **Option 1 (plusieurs cartes)** : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante.
+- **Option 2 (une seule carte - moins onéreux)** : Utilisez une seule carte Micro:bit et faites-la tourner entre les élèves. Collectez des données pendant 2 jours chez chaque élève, sur une période totale de 15 jours, pour obtenir une représentation de plusieurs points de collecte.
+:::
+
+#### Analyse des données
+
+Une fois la période de collecte terminée, les élèves compileront les fichiers CSV des différents capteurs positionnés afin d'analyser les données.
 
 Un fichier CSV (Comma-Separated Values) est un format de fichier texte simple pour stocker des données tabulaires. Chaque ligne représente un enregistrement, avec des valeurs séparées par des virgules. Il est facilement lisible par des tableurs et couramment utilisé pour l'échange de données.
 
@@ -258,11 +283,17 @@ Ce travail permettra aux élèves de développer une compréhension globale de l
 
 ### Investigation par les élèves
 
-Carte mentale des conclusions et facteurs aggravants Les élèves créeront une carte mentale synthétisant leurs conclusions sur les caractéristiques du bruit urbain, en se basant sur leurs analyses de données et observations précédentes. Elle peut prendre un format de type A3 ou A2 et être utilisée pour communiquer autour des réalisations de la classe dans le domaine du bruit. Les principales sources de bruit seront identifiées (trafic routier, activités commerciales, chantiers de construction, comportements individuels bruyants) et détaillées selon les observations de l'étude. Elles seront qualifiées en intégrant leur intensité, leur fréquence et leur impact sur le bien-être. Pour chaque type de bruit, les acteurs responsables ou impactés seront identifiés. Cela pourra inclure la municipalité, les entreprises locales, les résidents, les urbanistes ou encore les associations de quartier. Cette branche aidera à comprendre qui peut agir sur chaque problématique sonore.
+#### Carte mentale des conclusions et facteurs aggravants
 
-Analyse de l'action des acteurs Les élèves étudieront comment chaque acteur s'empare (ou non) de la problématique du bruit. Ils pourront mener des recherches sur les politiques existantes, contacter la mairie, consulter des documents officiels ou interviewer des experts locaux. L'objectif sera de conclure sur l'efficacité de l'action publique dans le domaine du bruit.
+Les élèves créeront une carte mentale synthétisant leurs conclusions sur les caractéristiques du bruit urbain, en se basant sur leurs analyses de données et observations précédentes. Elle peut prendre un format de type A3 ou A2 et être utilisée pour communiquer autour des réalisations de la classe dans le domaine du bruit. Les principales sources de bruit seront identifiées (trafic routier, activités commerciales, chantiers de construction, comportements individuels bruyants) et détaillées selon les observations de l'étude. Elles seront qualifiées en intégrant leur intensité, leur fréquence et leur impact sur le bien-être. Pour chaque type de bruit, les acteurs responsables ou impactés seront identifiés. Cela pourra inclure la municipalité, les entreprises locales, les résidents, les urbanistes ou encore les associations de quartier. Cette branche aidera à comprendre qui peut agir sur chaque problématique sonore.
 
-Présentation aux acteurs locaux (optionnel) Si possible, les élèves pourront organiser une présentation des résultats de l'étude (cartes mentales, analyses, conclusions) auprès des acteurs locaux identifiés. Cela permettra de valoriser le travail des élèves et potentiellement d'influencer les politiques locales de gestion du bruit.
+#### Analyse de l'action des acteurs
+
+Les élèves étudieront comment chaque acteur s'empare (ou non) de la problématique du bruit. Ils pourront mener des recherches sur les politiques existantes, contacter la mairie, consulter des documents officiels ou interviewer des experts locaux. L'objectif sera de conclure sur l'efficacité de l'action publique dans le domaine du bruit.
+
+#### Présentation aux acteurs locaux (optionnel)
+
+Si possible, les élèves pourront organiser une présentation des résultats de l'étude (cartes mentales, analyses, conclusions) auprès des acteurs locaux identifiés. Cela permettra de valoriser le travail des élèves et potentiellement d'influencer les politiques locales de gestion du bruit.
 
 ### Restitution et réflexion
 

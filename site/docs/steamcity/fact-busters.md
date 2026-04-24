@@ -41,7 +41,9 @@ sidebar_position: 21
 Le protocole FactBusters propose aux élèves de découvrir proactivement la méthode scientifique de manière structurée et progressive, en déconstruisant et démystifiant des lieux communs et pseudo-sciences. Dans notre société actuelle, où les informations circulent rapidement et où les fausses nouvelles (ou "fake news") peuvent se propager facilement, il est essentiel de développer notre esprit critique. En apprenant à déconstruire des informations et à construire des protocoles de vérification, les élèves renforcent non seulement leur compréhension des sciences mais deviennent également des citoyens informés et responsables. Grâce à la démarche scientifique, l'être humain dispose des outils intellectuels pour devenir un acteur conscient et responsable dans son rapport au monde et dans la transformation des sociétés. Cette activité vise à préparer les élèves à naviguer de manière critique et réfléchie dans un monde de plus en plus complexe et interconnecté.
 
 
-Comprendre la distorsion de l'information Les mythes sont des récits ou des croyances traditionnelles qui expliquent des phénomènes naturels ou sociaux. Souvent profondément ancrés dans la culture, ils remplissent des fonctions sociales, mais manquent de vérification empirique. Bien qu'ils puissent contenir des connaissances ou des connaissances culturelles, ils ne reposent pas sur une observation ou une vérification systématique. La pseudoscience se présente comme scientifique, mais ne respecte pas la méthodologie scientifique. Elle se caractérise généralement par des affirmations infalsifiables, des preuves triées sur le volet, une résistance à l'évaluation par les pairs et une dépendance excessive à la confirmation plutôt qu'à la réfutation. Contrairement à la science authentique, la pseudoscience n'évolue pas avec les nouvelles preuves et fait souvent appel à la tradition ou à l'autorité plutôt qu'aux données empiriques. Les fausses nouvelles consistent en des informations délibérément fabriquées présentées comme des faits. Contrairement aux mythes (qui évoluent culturellement) ou à la pseudoscience (qui tente d'imiter l'autorité scientifique), les fausses nouvelles sont créées intentionnellement pour tromper à des fins politiques, économiques ou sociales. Leur propagation rapide sur les plateformes numériques les rend particulièrement dangereuses dans les écosystèmes d'information modernes.
+### Comprendre la distorsion de l'information
+
+Les mythes sont des récits ou des croyances traditionnelles qui expliquent des phénomènes naturels ou sociaux. Souvent profondément ancrés dans la culture, ils remplissent des fonctions sociales, mais manquent de vérification empirique. Bien qu'ils puissent contenir des connaissances ou des connaissances culturelles, ils ne reposent pas sur une observation ou une vérification systématique. La pseudoscience se présente comme scientifique, mais ne respecte pas la méthodologie scientifique. Elle se caractérise généralement par des affirmations infalsifiables, des preuves triées sur le volet, une résistance à l'évaluation par les pairs et une dépendance excessive à la confirmation plutôt qu'à la réfutation. Contrairement à la science authentique, la pseudoscience n'évolue pas avec les nouvelles preuves et fait souvent appel à la tradition ou à l'autorité plutôt qu'aux données empiriques. Les fausses nouvelles consistent en des informations délibérément fabriquées présentées comme des faits. Contrairement aux mythes (qui évoluent culturellement) ou à la pseudoscience (qui tente d'imiter l'autorité scientifique), les fausses nouvelles sont créées intentionnellement pour tromper à des fins politiques, économiques ou sociales. Leur propagation rapide sur les plateformes numériques les rend particulièrement dangereuses dans les écosystèmes d'information modernes.
 
 
 Disciplines : éducation civile et morale, sciences, technologie et ingénierie
@@ -55,19 +57,21 @@ L'activité en bref
 
 L'activité FactBuster est structurée en trois phases complémentaires, chacune renforçant la compréhension et les compétences des élèves dans l'application de la méthode scientifique.
 
-Phase 1 : Comprendre la démarche de vérification des faits. Dans cette première phase, les élèves découvrent la méthode scientifique et les techniques de fact-checking. Ils apprennent à analyser et à évaluer la fiabilité des informations issues de différentes sources. Cette phase pose les bases de la démarche scientifique en enseignant aux élèves comment distinguer les informations fiables des fausses et comprendre les approches de construction des faits. Cela leur permet de développer un esprit critique et une méthode nécessaire pour les étapes suivantes.
+**Phase 1 : Comprendre la démarche de vérification des faits.** Dans cette première phase, les élèves découvrent la méthode scientifique et les techniques de fact-checking. Ils apprennent à analyser et à évaluer la fiabilité des informations issues de différentes sources. Cette phase pose les bases de la démarche scientifique en enseignant aux élèves comment distinguer les informations fiables des fausses et comprendre les approches de construction des faits. Cela leur permet de développer un esprit critique et une méthode nécessaire pour les étapes suivantes.
 
-Phase 2 : Construire des protocoles de vérification des faits. La deuxième phase met l'accent sur la mise en pratique de la méthode scientifique. Les élèves, organisés en groupes, élaborent des protocoles de vérification pour tester la validité de lieux communs. Ils apprennent à formuler des hypothèses, à concevoir des expériences et à rédiger des protocoles détaillés. Cette phase renforce leur compréhension de la rigueur et de la reproductibilité nécessaires dans la recherche scientifique. Elle permet aux élèves de passer de la théorie à la pratique en appliquant les concepts appris lors de la première phase.
+**Phase 2 : Construire des protocoles de vérification des faits.** La deuxième phase met l'accent sur la mise en pratique de la méthode scientifique. Les élèves, organisés en groupes, élaborent des protocoles de vérification pour tester la validité de lieux communs. Ils apprennent à formuler des hypothèses, à concevoir des expériences et à rédiger des protocoles détaillés. Cette phase renforce leur compréhension de la rigueur et de la reproductibilité nécessaires dans la recherche scientifique. Elle permet aux élèves de passer de la théorie à la pratique en appliquant les concepts appris lors de la première phase.
 
-Phase 3 : Diffuser la culture scientifique (optionnelle). Enfin, la troisième phase vise à apprendre aux élèves à vulgariser et à présenter leurs approches de manière claire et compréhensible. Ils créent des supports visuels et médiatiques pour partager leurs protocoles. Cette phase développe leurs compétences en communication scientifique et en pédagogie. Cette dernière étape permet d'aborder avec les élèves l'importance de la diffusion des connaissances scientifiques pour encourager une citoyenneté informée et responsable.
+**Phase 3 : Diffuser la culture scientifique (optionnelle).** Enfin, la troisième phase vise à apprendre aux élèves à vulgariser et à présenter leurs approches de manière claire et compréhensible. Ils créent des supports visuels et médiatiques pour partager leurs protocoles. Cette phase développe leurs compétences en communication scientifique et en pédagogie. Cette dernière étape permet d'aborder avec les élèves l'importance de la diffusion des connaissances scientifiques pour encourager une citoyenneté informée et responsable.
 
 Durée : Cette activité peut être répartie sur plusieurs séances, ou sur plusieurs disciplines dans une approche interdisciplinaire. Il est possible d'utiliser la phase 1 de manière autonome (environ 30 minutes), de combiner les phases 1 et 2 (2 séances) ou de réaliser l'ensemble des trois phases. Il faut compter un minimum de 3 séances pour réaliser la totalité de l'activité.
 
 Niveau de difficulté: L'activité implique la pensée critique, le raisonnement logique et une bonne compréhension et utilisation de l'approche scientifique.
 
-Matériel:
+**Matériel :**
 
-Phase 1 : Comprendre la démarche de vérification des faits Accès à des ressources (livres, articles, vidéos, images ...) qui constitueront la base d'analyse Phase 2 : Construire des protocoles de vérification des faits Pas de matériel spécifique nécessaire Phase 3 : Diffuser la culture scientifique Pour une version numérique, accès à des ordinateurs ou tablettes et à des outils de création graphique (Canva par exemple propose une version gratuite pour le monde scolaire) ou pour une version papier, accès à des panneaux type carton-plume pour créer des posters
+- **Phase 1 : Comprendre la démarche de vérification des faits** : Accès à des ressources (livres, articles, vidéos, images ...) qui constitueront la base d'analyse
+- **Phase 2 : Construire des protocoles de vérification des faits** : Pas de matériel spécifique nécessaire
+- **Phase 3 : Diffuser la culture scientifique** : Pour une version numérique, accès à des ordinateurs ou tablettes et à des outils de création graphique (Canva par exemple propose une version gratuite pour le monde scolaire) ou pour une version papier, accès à des panneaux type carton-plume pour créer des posters
 
 
 ### Glossaire
@@ -130,63 +134,48 @@ Afin de réaliser l'activité, vous pouvez diviser la classe en groupes de 3 ou 
 
 Pour chaque groupe et chaque sujet, vous pouvez constituer au préalable une banque de ressources que les élèves devront analyser : des articles plus ou moins sourcés, des vidéos YouTube, des reportages TV, des images largement diffusées ... Pour chaque sujet, vous pouvez distribuer trois ressources différentes pour analyser l'impact du média de diffusion sur la perception de fiabilité d'une information.
 
-Formulaire d'analyse de la source d'information :
+#### Formulaire d'analyse de la source d'information
 
-Date: .../.../......
+- Date : .../.../......
+- Groupe : ...........................................................................................................................
+- Sujet analysé : ...............................................................................................................
 
-Groupe: ...........................................................................................................................
+**Analyse de la source d'information**
 
-Sujet analysé : ...............................................................................................................
+- Titre de la source :
+- Auteur :
+- Date de publication :
+- Type de source (article, vidéo, image, etc.) :
 
-Analyse de la source d'information
+**Analyse de contenu**
 
-Titre de la source :
+- Résumé du contenu
+- Hypothèse(s) formulée(s) par la source
+- Méthodologie utilisée dans la source
 
-Auteur:
+**Crédibilité de la source** - Répondez par oui ou par non et justifiez
 
-Date de publication :
+- L'auteur est-il reconnu et crédible ?
+- La source est-elle publiée par une institution reconnue ?
+- La source cite-t-elle des recherches ou des sources fiables ?
 
-Type de source (article, vidéo, image, etc.) :
+**Vérification des faits** - Répondez par oui ou par non et justifiez
 
-Analyse de contenu
+- Les faits présentés sont-ils vérifiables ?
+- Les faits sont-ils étayés par des preuves empiriques ?
+- La méthodologie est-elle rigoureuse et reproductible ?
 
-Résumé du contenu
+**Critères d'évaluation** - Répondez Bon, Moyen ou Mauvais et justifiez
 
-Hypothèse(s) formulée(s) par la source
+- Diversité des sources
+- Perception de la cohérence et de la clarté
+- Perception de l'objectivité et de la neutralité
 
-Méthodologie utilisée dans la source
+**Conclusion**
 
-Crédibilité de la source - Répondez par oui ou par non et justifiez
-
-L'auteur est-il reconnu et crédible ?
-
-La source est-elle publiée par une institution reconnue ?
-
-La source cite-t-elle des recherches ou des sources fiables ?
-
-Vérification des faits - Répondez par oui ou par non et justifiez
-
-Les faits présentés sont-ils vérifiables ?
-
-Les faits sont-ils étayés par des preuves empiriques ?
-
-La méthodologie est-elle rigoureuse et reproductible ?
-
-Critères d'évaluation - Répondez Bon, Moyen ou Mauvais et justifiez
-
-Diversité des sources
-
-Perception de la cohérence et de la clarté
-
-Perception de l'objectivité et de la neutralité
-
-Conclusion
-
-La source est-elle perçue comme fiable et pourquoi ?
-
-Des améliorations peuvent être apportées à la méthodologie
-
-Comment cette analyse influence-t-elle votre perception du sujet ?
+- La source est-elle perçue comme fiable et pourquoi ?
+- Des améliorations peuvent être apportées à la méthodologie
+- Comment cette analyse influence-t-elle votre perception du sujet ?
 
 
 Une fois les ressources identifiées et distribuées, les élèves devront réaliser une vérification de la démarche utilisée pour assurer la fiabilité de l'information par les auteurs. Plusieurs critères seront analysés : crédibilité de l'auteur, diversité des sources, publication dans des revues à comité de lecture ...
@@ -237,8 +226,7 @@ Les protocoles que proposeront les élèves n'ont pas vocation à être mis en �
 
 ### Investigation par les élèves
 
-
-Créer un modèle de protocole scientifique
+#### Créer un modèle de protocole scientifique
 
 Afin de démarrer cette activité, et en lien avec les analyses et conclusions de la phase précédent, laissez les élèves discuter de ce qu'ils perçoivent et connaissent de la démarche scientifique. En classe entière, ouvrez une discussion pour définir les phases importances de l'investigation scientifique. En tant qu'enseignant, votre rôle est de guider les échanges et de faire en sorte que les étapes majeures d'un protocole d'expérimentation soient identifier. Sur la base de ces discussions, définissez ensemble une fiche de protocole détaillée et reprenant l'ensemble des étapes, qui sera utilisée par les différents groupes dans la suite de cette phase.
 
@@ -254,43 +242,34 @@ Groupe: ........................................................................
 
 Sujet analysé : ...............................................................................................................
 
-Définition du protocole scientifique
+#### Définition du protocole scientifique
 
-Observation - Description précise du phénomène ou du problème observé
+- **Observation** - Description précise du phénomène ou du problème observé
+- **Question** - Formulation de la question spécifique à explorer
+- **Hypothèse** - Proposition d'une hypothèse testable et vérifiable
 
-Question - Formulation de la question spécifique à explorer
+**Expérimentation**
 
-Hypothèse - Proposition d'une hypothèse testable et vérifiable
+- Description de l'expérience
+- Variables contrôlées
+- Groupes de comparaison
+- Procédures détaillées
 
-Expérimentation
+**Analyse des données**
 
-Description de l'expérience
+- Méthodologie d'analyse des données
+- Outils statistiques et méthodes d'analyse
 
-Variables contrôlées
+**Conclusion**
 
-Groupes de comparaison
+- Résultats obtenus
+- Interprétation des résultats par rapport à l'hypothèse
+- Acceptation ou rejet de l'hypothèse
 
-Procédures détaillées
+**Publication et réplication**
 
-Analyse des données
-
-Méthodologie d'analyse des données
-
-Outils statistiques et méthodes d'analyse
-
-Conclusion
-
-Résultats obtenus
-
-Interprétation des résultats par rapport à l'hypothèse
-
-Acceptation ou rejet de l'hypothèse
-
-Publication et réplication
-
-Résumé des conclusions
-
-Suggestions pour des études futures ou des réplications de l'expérience
+- Résumé des conclusions
+- Suggestions pour des études futures ou des réplications de l'expérience
 
 
 Après avoir défini les étapes de la démarches scientifiques de manière collective, reconstituez les groupes de la première phase afin d'élaborer un protocole scientifique pour aborder les sujets et les lieux communs que chaque équipe avait analysé précédemment.

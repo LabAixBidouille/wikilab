@@ -57,11 +57,11 @@ Au cours de cette expérience, les élèves étudieront les liens entre infrastr
 
 Le protocole se divise en trois phases complémentaires :
 
-Étape 1 — Familiarisation et conception. Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
+**Étape 1 — Familiarisation et conception.** Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
 
-Étape 2 — Tester l'ambiguïté des panneaux de signalisation. Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
+**Étape 2 — Tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
 
-Étape 3 — Entraînement du modèle en fonction des nouveaux signes conçus. Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
+**Étape 3 — Entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
 
 ### Glossaire
 
@@ -128,7 +128,9 @@ Méthodes interactives de pré-évaluation :
 
 ### Investigation par les élèves
 
-Familiarisation. L'enseignant présente l'activité et la terminologie. Questions d'introduction :
+#### Familiarisation
+
+L'enseignant présente l'activité et la terminologie. Questions d'introduction :
 
 - « Qu'est-ce que les véhicules autonomes ? » — Ce sont des véhicules capables de se déplacer seuls.
 - « Quelle signalisation routière régule la mobilité des véhicules traditionnels ? » — Panneaux de danger (triangle rouge), interdiction (cercle rouge), priorité (triangle inversé ou octogone), obligation (cercle bleu), information (carré/rectangle).
