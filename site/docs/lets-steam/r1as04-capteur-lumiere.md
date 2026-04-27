@@ -129,7 +129,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
 
-![Programme en blocs](/img/ressources/lets-steam/r1as04-capteur-lumiere/lets-steam-screenshot%20(3).png.png)
+![Programme en blocs](/img/ressources/lets-steam/r1as04-capteur-lumiere/lets-steam-screenshot%20(3).png)
 
 </div>
 <div style={{flex: '1', minWidth: '280px'}}>
