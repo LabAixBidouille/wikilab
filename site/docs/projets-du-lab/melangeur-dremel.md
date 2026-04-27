@@ -5,7 +5,17 @@ sidebar_label: "Mélangeur pour Dremel"
 sidebar_position: 18
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Mélangeur pour Dremel
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-melangeur/icone.png" alt="Mélangeur pour Dremel" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

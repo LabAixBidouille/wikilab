@@ -5,7 +5,17 @@ sidebar_label: "Random Shield Arduino"
 sidebar_position: 3
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Random Shield Arduino
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-random-shield/icone.png" alt="Random Shield Arduino" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation du projet
 

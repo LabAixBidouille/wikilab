@@ -5,7 +5,17 @@ sidebar_label: "RobotDuLAB"
 sidebar_position: 9
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # RobotDuLAB
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-robot-du-lab/icone.png" alt="RobotDuLAB" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

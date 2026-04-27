@@ -5,7 +5,17 @@ sidebar_label: "Découverte du bus CAN"
 sidebar_position: 7
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Découverte du bus CAN
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-bus-can/icone.png" alt="Découverte du bus CAN" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

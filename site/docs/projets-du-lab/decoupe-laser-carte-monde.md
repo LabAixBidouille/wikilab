@@ -5,7 +5,17 @@ sidebar_label: "Carte du monde en liège"
 sidebar_position: 15
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Carte du monde en liège
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-carte-monde/icone.png" alt="Carte du monde en liège" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

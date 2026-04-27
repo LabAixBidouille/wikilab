@@ -5,7 +5,17 @@ sidebar_label: "Domotique MQTT"
 sidebar_position: 4
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Domotique MQTT
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-domotique/icone.png" alt="Domotique MQTT" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes domotiques en utilisant des briques matérielles et logicielles existantes ou conçues au LAB.
 

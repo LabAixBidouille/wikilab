@@ -5,7 +5,17 @@ sidebar_label: "Musique au capteur laser"
 sidebar_position: 12
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Musique au capteur laser
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-musique-laser/icone.png" alt="Musique au capteur laser" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

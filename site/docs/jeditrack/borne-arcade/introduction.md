@@ -5,7 +5,17 @@ sidebar_label: "Histoire et culture"
 sidebar_position: 1
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Histoire et culture des bornes d'arcade
+
+</div>
+
+<img src="/img/ressources/jeditrack/borne-arcade/icone.png" alt="Histoire et culture des bornes d'arcade" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ## Petit historique des bornes d'arcade
 

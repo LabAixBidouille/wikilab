@@ -5,7 +5,17 @@ sidebar_label: "Kit pédagogique STM32"
 sidebar_position: 14
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Kit pédagogique STM32
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-kit-stm32/icone.png" alt="Kit pédagogique STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

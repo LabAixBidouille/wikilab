@@ -5,7 +5,17 @@ sidebar_label: "Chaîne HiFi 100% numérique"
 sidebar_position: 1
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Chaîne HiFi 100% numérique
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-audio-hifi/icone.png" alt="Chaîne HiFi 100% numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

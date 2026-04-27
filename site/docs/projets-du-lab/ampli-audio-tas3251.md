@@ -5,7 +5,17 @@ sidebar_label: "Ampli HiFi numérique"
 sidebar_position: 2
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Ampli HiFi numérique
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-ampli-tas3251/icone.png" alt="Ampli HiFi numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

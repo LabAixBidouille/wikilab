@@ -5,7 +5,17 @@ sidebar_label: "Bobine Tesla musicale"
 sidebar_position: 13
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Bobine Tesla musicale
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-bobine-tesla/icone.png" alt="Bobine Tesla musicale" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

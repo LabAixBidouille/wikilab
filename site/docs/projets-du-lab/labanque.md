@@ -5,7 +5,17 @@ sidebar_label: "LABanque : monnaie du fablab"
 sidebar_position: 20
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # LABanque : monnaie du fablab
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 Picsous trésorier du LAB et forgeur d'écrous
 

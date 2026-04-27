@@ -5,7 +5,17 @@ sidebar_label: "Château de la Reine des Neiges"
 sidebar_position: 16
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Château de la Reine des Neiges
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-chateau/icone.png" alt="Château de la Reine des Neiges" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

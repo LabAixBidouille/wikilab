@@ -5,7 +5,17 @@ sidebar_label: "Harpe laser MIDI"
 sidebar_position: 11
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Harpe laser MIDI
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-harpe-laser/icone.png" alt="Harpe laser MIDI" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

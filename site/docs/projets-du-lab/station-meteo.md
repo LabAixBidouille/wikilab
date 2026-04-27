@@ -5,7 +5,17 @@ sidebar_label: "Station météo DIY"
 sidebar_position: 5
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Station météo DIY
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-station-meteo/icone.png" alt="Station météo DIY" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Description du projet
 

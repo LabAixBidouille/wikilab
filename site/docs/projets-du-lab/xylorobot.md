@@ -5,7 +5,17 @@ sidebar_label: "XyloRobot musical"
 sidebar_position: 10
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # XyloRobot musical
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-xylorobot/icone.png" alt="XyloRobot musical" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

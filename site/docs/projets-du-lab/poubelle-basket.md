@@ -5,7 +5,17 @@ sidebar_label: "Poubelle basket"
 sidebar_position: 17
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Poubelle basket
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-poubelle-basket/icone.png" alt="Poubelle basket" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 

@@ -5,7 +5,17 @@ sidebar_label: "Réparer une porte de frigo en 3D"
 sidebar_position: 19
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+
+<div style={{flex: 1}}>
+
 # Réparer une porte de frigo en 3D
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-porte-frigo/icone.png" alt="Réparer une porte de frigo en 3D" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Présentation
 
