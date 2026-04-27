@@ -1,12 +1,12 @@
 # Demandes photos restantes — Wiki@LAB
 
-Généré automatiquement le 2026-04-27.
+État au 2026-04-27.
 
-## 🖼️ Icônes manquantes (42)
+## 🖼️ Icônes manquantes (22)
 
 ### steamcity (9)
 
-Dépose dans `site/static/img/ressources/steamcity/icones/<fiche-id>.png` (puis je les déplace au bon endroit).
+Dépose dans `site/static/img/ressources/steamcity/icones/<fiche-id>.png` (puis je place automatiquement).
 
 - `programmation-city-detective-challenge` — Cartographie citoyenne avec uMap
 - `programmation-decibel-detective` — Sonomètre avec micro:bit
@@ -18,23 +18,10 @@ Dépose dans `site/static/img/ressources/steamcity/icones/<fiche-id>.png` (puis 
 - `programmation-whisper-walls` — Sonomètre STM32
 - `programmation-zzz` — Capteur de sommeil micro:bit
 
-### thedexterlab (33)
+### thedexterlab (13)
 
-Dépose dans `site/static/img/ressources/thedexterlab/icones/<fiche-id>.png` (puis je les déplace au bon endroit).
+Dépose dans `site/static/img/ressources/thedexterlab/icones/<fiche-id>.png` (puis je place automatiquement).
 
-- `attenuation-son-materiau` — Atténuation du son par matériaux
-- `beau-jardin-21-siecle` — Arrosage automatique d
-- `co2-plantes-ph` — CO2, plantes et pH
-- `corps-acceleration` — Accélération du corps
-- `distraction-temps-reaction` — Distractions et temps de réaction
-- `ia-securite` — Serrure intelligente par IA
-- `lumiere-energie` — L
-- `machine-vent-poids` — Machine éolienne à 50g
-- `mesurer-temps-pendule` — Mesurer le temps au pendule
-- `ocean-sale` — Pourquoi l
-- `panneau-solaire-auto-orientable` — Panneau solaire auto-orientable
-- `panneau-solaire-journee` — Panneau solaire sur une journée
-- `plante-co2` — CO2 et photosynthèse
 - `programmation-attenuation-son-materiau` — Atténuation sonore STM32
 - `programmation-beau-jardin-21-siecle` — Arrosage automatique STM32
 - `programmation-corps-acceleration` — Accéléromètre STM32
@@ -48,13 +35,6 @@ Dépose dans `site/static/img/ressources/thedexterlab/icones/<fiche-id>.png` (pu
 - `programmation-son-100-metres-seconde` — Mesure vitesse du son STM32
 - `programmation-temperature-vitesse-son` — Son et température STM32
 - `programmation-temps-reaction-demi-seconde` — Temps de réaction STM32
-- `qualite-air-personnes` — Qualité de l
-- `reduire-energie` — Réduire sa consommation d
-- `solution-meteo` — Station météo complète
-- `son-100-metres-seconde` — Vitesse du son
-- `temperature-vitesse-son` — Température et vitesse du son
-- `temps-reaction-demi-seconde` — Temps de réaction
-- `vent-chutes-eau-energie` — Énergie du vent et de l
 
 ## 📐 Schémas SteamCity manquants (3)
 
@@ -64,19 +44,19 @@ Dépose dans `site/static/img/ressources/steamcity/<fiche-id>/StructureSchéma.p
 - `energy-perspectives` — Énergies en perspective
 - `negawatt` — Scénario NégaWatt
 
-## 📷 Photos manquantes (9)
+## 📷 Dossiers sans illustration (8)
 
-Dossiers vides (que l'icône) — à compléter avec des illustrations :
+Dossiers qui ne contiennent que l'icône — à compléter avec des illustrations (étapes, productions, mises en situation) :
 
-### jeditrack (1)
+### jeditrack
 
 - `partager-donnees-open-source` — Partager ses données en open source
 
-### robots-meet-arts (1)
+### robots-meet-arts
 
 - `decouverte-histoire` — Sur les pas des explorateurs
 
-### steamcity (5)
+### steamcity
 
 - `ai-odyssey` — L
 - `indoor-air-quality` — Qualité de l
@@ -84,14 +64,10 @@ Dossiers vides (que l'icône) — à compléter avec des illustrations :
 - `outdoor-air-quality` — Qualité de l
 - `programmation-road-signs` — Reconnaissance de panneaux par IA
 
-### unplugged (1)
-
-- `la-ville-parfaite` — La ville parfaite
-
-### youth-ai-lab (1)
+### youth-ai-lab
 
 - `air-vrai-est-ce-vrai` — Vrai ou faux selon l
 
 ---
 
-**Totaux** : 42 icônes · 3 schémas · 9 dossiers à compléter en photos
+**Totaux** : 22 icônes · 3 schémas · 8 dossiers à illustrer

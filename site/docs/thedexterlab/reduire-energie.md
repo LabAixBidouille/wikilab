@@ -41,6 +41,8 @@ sidebar_position: 5
 
 </div>
 
+<img src="/img/ressources/thedexterlab/reduire-energie/icone.png" alt="Réduire sa consommation d'énergie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -39,6 +39,8 @@ sidebar_position: 19
 
 </div>
 
+<img src="/img/ressources/thedexterlab/attenuation-son-materiau/icone.png" alt="Atténuation du son par matériaux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

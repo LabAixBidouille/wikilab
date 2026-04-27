@@ -47,6 +47,8 @@ sidebar_position: 18
 
 </div>
 
+<img src="/img/ressources/thedexterlab/co2-plantes-ph/icone.png" alt="CO2, plantes et pH" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -44,6 +44,8 @@ sidebar_position: 1
 
 </div>
 
+<img src="/img/ressources/thedexterlab/beau-jardin-21-siecle/icone.png" alt="Arrosage automatique d'une plante" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

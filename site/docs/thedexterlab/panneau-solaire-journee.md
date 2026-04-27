@@ -42,6 +42,8 @@ sidebar_position: 6
 
 </div>
 
+<img src="/img/ressources/thedexterlab/panneau-solaire-journee/icone.png" alt="Panneau solaire sur une journée" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

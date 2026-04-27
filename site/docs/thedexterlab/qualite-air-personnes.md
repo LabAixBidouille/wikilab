@@ -41,6 +41,8 @@ sidebar_position: 9
 
 </div>
 
+<img src="/img/ressources/thedexterlab/qualite-air-personnes/icone.png" alt="Qualité de l'air et nombre d'élèves" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

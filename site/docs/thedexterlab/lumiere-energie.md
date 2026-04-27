@@ -34,6 +34,8 @@ sidebar_position: 3
 
 </div>
 
+<img src="/img/ressources/thedexterlab/lumiere-energie/icone.png" alt="L'énergie de la lumière" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

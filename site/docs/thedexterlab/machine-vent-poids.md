@@ -46,6 +46,8 @@ sidebar_position: 15
 
 </div>
 
+<img src="/img/ressources/thedexterlab/machine-vent-poids/icone.png" alt="Machine éolienne à 50g" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

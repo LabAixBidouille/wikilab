@@ -43,6 +43,8 @@ sidebar_position: 8
 
 </div>
 
+<img src="/img/ressources/thedexterlab/plante-co2/icone.png" alt="CO2 et photosynthèse" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

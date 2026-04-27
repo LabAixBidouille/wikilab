@@ -43,6 +43,8 @@ sidebar_position: 14
 
 </div>
 
+<img src="/img/ressources/thedexterlab/distraction-temps-reaction/icone.png" alt="Distractions et temps de réaction" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -44,6 +44,8 @@ sidebar_position: 20
 
 </div>
 
+<img src="/img/ressources/thedexterlab/mesurer-temps-pendule/icone.png" alt="Mesurer le temps au pendule" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

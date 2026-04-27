@@ -43,6 +43,8 @@ sidebar_position: 13
 
 </div>
 
+<img src="/img/ressources/thedexterlab/temps-reaction-demi-seconde/icone.png" alt="Temps de réaction" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -38,6 +38,8 @@ sidebar_position: 4
 
 </div>
 
+<img src="/img/ressources/thedexterlab/vent-chutes-eau-energie/icone.png" alt="Énergie du vent et de l'eau" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

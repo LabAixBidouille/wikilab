@@ -44,6 +44,8 @@ sidebar_position: 16
 
 </div>
 
+<img src="/img/ressources/thedexterlab/solution-meteo/icone.png" alt="Station météo complète" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

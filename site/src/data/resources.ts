@@ -2676,6 +2676,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['arrosage', 'humidité', 'conductivité', 'servomoteur', 'développement durable', 'plante'],
     pdf: '/pdf/thedexterlab/PR1-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/beau-jardin-21-siecle/icone.png',
   },
   {
     id: 'ocean-sale',
@@ -2695,6 +2696,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['conductivité', 'sel', 'eau', 'évaporation', 'cycle de l\'eau', 'océan'],
     pdf: '/pdf/thedexterlab/PR2-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/ocean-sale/icone.png',
   },
   {
     id: 'lumiere-energie',
@@ -2714,6 +2716,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['énergie', 'photovoltaïque', 'lumière', 'renouvelable', 'LED', 'moteur'],
     pdf: '/pdf/thedexterlab/PR3-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/lumiere-energie/icone.png',
   },
   {
     id: 'vent-chutes-eau-energie',
@@ -2733,6 +2736,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['énergie', 'éolienne', 'turbine', 'hydraulique', 'renouvelable', 'générateur'],
     pdf: '/pdf/thedexterlab/PR4-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/vent-chutes-eau-energie/icone.png',
   },
   {
     id: 'reduire-energie',
@@ -2752,6 +2756,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['efficacité énergétique', 'isolation', 'température', 'bâtiment', 'servomoteur', 'régulation'],
     pdf: '/pdf/thedexterlab/PR5-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/reduire-energie/icone.png',
   },
   {
     id: 'panneau-solaire-journee',
@@ -2771,6 +2776,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['panneau solaire', 'INA219', 'tension', 'rendement', 'photovoltaïque', 'énergie'],
     pdf: '/pdf/thedexterlab/PR6-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/panneau-solaire-journee/icone.png',
   },
   {
     id: 'panneau-solaire-auto-orientable',
@@ -2790,6 +2796,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['panneau solaire', 'LDR', 'servomoteur', 'suivi solaire', 'auto-orientable', 'photovoltaïque'],
     pdf: '/pdf/thedexterlab/PR7-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/panneau-solaire-auto-orientable/icone.png',
   },
   {
     id: 'plante-co2',
@@ -2809,6 +2816,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['photosynthèse', 'CO2', 'plante', 'oxygène', 'capteur', 'climat'],
     pdf: '/pdf/thedexterlab/PR8-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/plante-co2/icone.png',
   },
   {
     id: 'qualite-air-personnes',
@@ -2828,6 +2836,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['CO2', 'qualité de l\'air', 'intérieur', 'ventilation', 'santé', 'capteur'],
     pdf: '/pdf/thedexterlab/PR9-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/qualite-air-personnes/icone.png',
   },
   {
     id: 'corps-acceleration',
@@ -2847,6 +2856,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['accéléromètre', 'accélération', 'mouvement', 'gravité', 'Newton', 'corps'],
     pdf: '/pdf/thedexterlab/PR10-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/corps-acceleration/icone.png',
   },
   {
     id: 'temperature-vitesse-son',
@@ -2866,6 +2876,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['son', 'vitesse', 'température', 'ultrason', 'HC-SR04', 'propagation'],
     pdf: '/pdf/thedexterlab/PR11-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/temperature-vitesse-son/icone.png',
   },
   {
     id: 'son-100-metres-seconde',
@@ -2885,6 +2896,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['son', 'vitesse', 'ultrason', 'HC-SR04', 'propagation', 'acoustique'],
     pdf: '/pdf/thedexterlab/PR12-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/son-100-metres-seconde/icone.png',
   },
   {
     id: 'temps-reaction-demi-seconde',
@@ -2904,6 +2916,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['temps de réaction', 'LED', 'buzzer', 'stimulus', 'sécurité', 'cycliste'],
     pdf: '/pdf/thedexterlab/PR13-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/temps-reaction-demi-seconde/icone.png',
   },
   {
     id: 'distraction-temps-reaction',
@@ -2923,6 +2936,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['temps de réaction', 'distraction', 'attention', 'LED', 'buzzer', 'sécurité'],
     pdf: '/pdf/thedexterlab/PR14-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/distraction-temps-reaction/icone.png',
   },
   {
     id: 'machine-vent-poids',
@@ -2942,6 +2956,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['vent', 'éolien', 'anémomètre', 'poulie', 'mécanique', 'énergie'],
     pdf: '/pdf/thedexterlab/PR15-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/machine-vent-poids/icone.png',
   },
   {
     id: 'solution-meteo',
@@ -2961,6 +2976,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['météo', 'station', 'anémomètre', 'température', 'pression', 'humidité'],
     pdf: '/pdf/thedexterlab/PR16-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/solution-meteo/icone.png',
   },
   {
     id: 'ia-securite',
@@ -2980,6 +2996,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique'],
     keywords: ['intelligence artificielle', 'machine learning', 'Teachable Machine', 'Adacraft', 'reconnaissance', 'serrure'],
     pdf: '/pdf/thedexterlab/PR17-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/ia-securite/icone.png',
   },
   {
     id: 'co2-plantes-ph',
@@ -2999,6 +3016,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['pH', 'photosynthèse', 'CO2', 'plantes aquatiques', 'aquarium', 'écosystème'],
     pdf: '/pdf/thedexterlab/PR18-TDL_Worksheet_Blank_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/co2-plantes-ph/icone.png',
   },
   {
     id: 'attenuation-son-materiau',
@@ -3018,6 +3036,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['son', 'atténuation', 'isolation phonique', 'décibel', 'microphone', 'matériau'],
     pdf: '/pdf/thedexterlab/PR19-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/attenuation-son-materiau/icone.png',
   },
   {
     id: 'mesurer-temps-pendule',
@@ -3037,6 +3056,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['pendule', 'temps', 'oscillation', 'gravité', 'Fizziq', 'effet Hall'],
     pdf: '/pdf/thedexterlab/PR20-TDL_Feuille_Travail_Vierge_A3.pdf',
+    thumbnail: '/img/ressources/thedexterlab/mesurer-temps-pendule/icone.png',
   },
   {
     id: 'algorithmes-bio-inspires',

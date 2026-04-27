@@ -39,6 +39,8 @@ sidebar_position: 12
 
 </div>
 
+<img src="/img/ressources/thedexterlab/son-100-metres-seconde/icone.png" alt="Vitesse du son" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

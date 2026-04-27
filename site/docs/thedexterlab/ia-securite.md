@@ -46,6 +46,8 @@ sidebar_position: 17
 
 </div>
 
+<img src="/img/ressources/thedexterlab/ia-securite/icone.png" alt="Serrure intelligente par IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

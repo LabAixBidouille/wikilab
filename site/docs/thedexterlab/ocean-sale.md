@@ -45,6 +45,8 @@ sidebar_position: 2
 
 </div>
 
+<img src="/img/ressources/thedexterlab/ocean-sale/icone.png" alt="Pourquoi l'océan est salé ?" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---
