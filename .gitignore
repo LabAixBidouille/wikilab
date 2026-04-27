@@ -13,3 +13,8 @@ site/static/pdf/unplugged/Unplugged_Equal_FR.pdf
 projets/unplugged/Unplugged_Vivre en harmonie_FR.pdf
 projets/unplugged/Unplugged_Potluck March_FR.pdf
 projets/unplugged/Unplugged_Equal_FR.pdf
+
+# Vidéos (souvent >100MB, limite GitHub) — à gérer via Git LFS si besoin
+*.mp4
+*.mov
+*.webm
