@@ -1,0 +1,1290 @@
+{
+  "agir-vert-penser-juste": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "ai-odyssey": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "air-vrai-est-ce-vrai": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "youth-ai-lab"
+  },
+  "algorithmes-bio-inspires": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "youth-ai-lab"
+  },
+  "argile-et-sculpture": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "art-binaire": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "attenuation-son-materiau": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "aventure-odd": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "balade-musicale": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "ballet-robotique": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "beau-jardin-21-siecle": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "binary-counting": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "bio-inspired-processes": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "bird-song-explorer": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "biscuits-et-paix": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "borne-arcade": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "bot-buddy-adventure": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "brain-twister": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "brainstorming": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "cabane-outils": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "cartographie-sensible": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "chasseurs-tresors": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "chefs-oeuvre": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "city-detective-challenge": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "co2-plantes-ph": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "collage-fou-code": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "communiquer-resultats": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "corps-acceleration": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "course-voitures": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "creer-cartes-umap": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "creer-site-web": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "decibel-detective": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "decouverte-histoire": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "decouverte-steami": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "inovmicro-exao"
+  },
+  "dilemmes-valeurs": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "distraction-temps-reaction": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "donnees-contexte": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "dr-hanoi": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "drop-the-bass": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "ecosystemes-en-bocaux": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "ed-range-chambre": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "energy-mix": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "energy-perspectives": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "equal": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "etude-confort-thermique": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "fact-busters": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "fantasy-out-there": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "ferme-en-ville": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "filtre-artiste": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "form-factor": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "garder-oeil-sur-ia": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "youth-ai-lab"
+  },
+  "good-ways": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "grille-magique-de-la-paix": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "ia-securite": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "illusion-tout-ce-qui-compte": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "youth-ai-lab"
+  },
+  "indoor-air-quality": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "insulation": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "iterative-clues": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "journee-robin": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "la-ville-parfaite": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "la-ville-pop-up-du-futur": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "lab-ampli-tas3251": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-audio-hifi": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-bobine-tesla": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-bus-can": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-carte-monde": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-chateau": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-domotique": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-ericbot": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-harpe-laser": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-kit-stm32": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-labanque": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-melangeur": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-musique-laser": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-porte-frigo": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-poubelle-basket": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-random-shield": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-robot-du-lab": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-station-meteo": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-terrarium": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "lab-xylorobot": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "projets-du-lab"
+  },
+  "labo-ia-dans-machine": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "youth-ai-lab"
+  },
+  "likadislike": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "lumiere-energie": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "machine-vent-poids": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "memory": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "mesurer-temps-pendule": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "mimesis-play-1": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-2": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-3": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-4": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-5": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-6": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-7": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mimesis-play-8": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "mimesis"
+  },
+  "mini-projet-1-programmation": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "mini-projet-2-capteurs": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "mini-projet-3-fabrication": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "mini-projet-4-cartopartie": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "mission-voyageurs-temps": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "mode-danse": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "monitorer-bruit-urbain": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "ne-hier": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "negawatt": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "ocean-sale": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "octostudio-premiers-pas": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "octostudio-visages": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "once-upon-code": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "outdoor-air-quality": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "panneau-solaire-auto-orientable": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "panneau-solaire-journee": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "partager-donnees-open-source": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "passe-le-paquet": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "plante-co2": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "plants-city": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "plastic-continent": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "pollinisateurs": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "potluck-march": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "poverty-free-game-collection": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "programmation-attenuation-son-materiau": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-beau-jardin-21-siecle": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-city-detective-challenge": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-corps-acceleration": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-decibel-detective": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-distraction-temps-reaction": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-indoor-air-quality": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-insulation": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-ocean-sale": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-outdoor-air-quality": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-panneau-solaire-auto-orientable": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-panneau-solaire-journee": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-plante-co2": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-qualite-air-personnes": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-road-signs": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": false,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-solution-meteo": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-son-100-metres-seconde": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-sound-squad": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-temperature-vitesse-son": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-temps-reaction-demi-seconde": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "programmation-whisper-walls": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programmation-zzz": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "steamcity"
+  },
+  "programming-a-choreography": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "qualite-air-personnes": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "quete-curry": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "r1as01-led": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as02-breadboard": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as03-boutons": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as04-capteur-lumiere": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as05-potentiometre": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as06-morse": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as07-musique": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as08-theremine": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as09-accelerometre": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as10-ecran-oled": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as11-thermometre": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as12-detecteur-mouvement": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as13-servomoteurs": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as14-minuteur": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "r1as15-collecte-donnees": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "lets-steam"
+  },
+  "rangers-tri": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "realiser-pochoirs-decoupe": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "reduire-energie": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "regulation": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "reroute-better-world": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "resolution-conflit": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "road-signs": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "robot-petit-dej": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "rome": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "shine-smart": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "skill-trees": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "smart-object-safari": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "solution-meteo": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "son-100-metres-seconde": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "sound-squad": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "station-qualite-air": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "jeditrack"
+  },
+  "temperature-vitesse-son": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "temps-reaction-demi-seconde": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "terre-ombre": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "robots-meet-arts"
+  },
+  "trees-vs-cars": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "vent-chutes-eau-energie": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "thedexterlab"
+  },
+  "vivre-en-harmonie": {
+    "exists": true,
+    "hasIcon": true,
+    "hasPhotos": true,
+    "hasSchema": false,
+    "project": "unplugged"
+  },
+  "waste-sorting": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "whisper-walls": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  },
+  "zzz": {
+    "exists": true,
+    "hasIcon": false,
+    "hasPhotos": true,
+    "hasSchema": true,
+    "project": "steamcity"
+  }
+}

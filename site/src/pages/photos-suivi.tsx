@@ -1,40 +1,28 @@
 import React, {useEffect, useMemo, useState} from 'react';
 import Layout from '@theme/Layout';
 import {resources, projectLabels, type Project} from '../data/resources';
+import status from '../data/photos-status.json';
 
-const STORAGE_KEY = 'wikilab-photos-suivi-v1';
+const STORAGE_KEY = 'wikilab-photos-suivi-v2';
 
 type TaskKind = 'icone' | 'photos' | 'schema';
 
-// Projets pour lesquels les photos sont déjà fournies (seules les icônes manquent)
-const PHOTOS_DONE: Set<Project> = new Set([
-  'projets-du-lab',
-  'jeditrack',
-  'robots-meet-arts',
-]);
-
-// Projets nécessitant un schéma supplémentaire (en plus icône + photos)
-const SCHEMA_REQUIRED: Set<Project> = new Set(['steamcity']);
-
-// On ne liste que les fiches sans thumbnail
-function getMissing() {
-  return resources.filter((r) => !r.thumbnail);
+interface PhotoStatus {
+  project: string;
+  hasIcon: boolean;
+  hasPhotos: boolean;
+  hasSchema: boolean;
+  exists: boolean;
 }
 
-function needsPhotos(project: Project): boolean {
-  return !PHOTOS_DONE.has(project);
-}
+const photosStatus = status as Record<string, PhotoStatus>;
 
-function needsSchema(project: Project): boolean {
-  return SCHEMA_REQUIRED.has(project);
-}
+// Projets dont les photos ne sont PAS attendues dans le sous-dossier per-fiche
+// (projets-du-lab a un dump à la racine)
+const NO_PHOTOS_EXPECTED: Set<Project> = new Set(['projets-du-lab']);
 
-function tasksFor(project: Project): TaskKind[] {
-  const tasks: TaskKind[] = ['icone'];
-  if (needsSchema(project)) tasks.push('schema');
-  if (needsPhotos(project)) tasks.push('photos');
-  return tasks;
-}
+// Projets qui demandent un schéma supplémentaire
+const SCHEMA_EXPECTED: Set<Project> = new Set(['steamcity']);
 
 const TASK_LABELS: Record<TaskKind, string> = {
   icone: 'Icône',
@@ -42,12 +30,33 @@ const TASK_LABELS: Record<TaskKind, string> = {
   photos: 'Photos',
 };
 
+interface Need {
+  fiche: (typeof resources)[number];
+  tasks: TaskKind[];
+}
+
+function buildNeeds(): Need[] {
+  const result: Need[] = [];
+  for (const r of resources) {
+    if (r.thumbnail) continue; // déjà OK (anciens projets avec thumbnail explicite)
+    const s = photosStatus[r.id];
+    if (!s) continue;
+    const tasks: TaskKind[] = [];
+    if (!s.hasIcon) tasks.push('icone');
+    if (SCHEMA_EXPECTED.has(r.project) && !s.hasSchema) tasks.push('schema');
+    if (!NO_PHOTOS_EXPECTED.has(r.project) && !s.hasPhotos) tasks.push('photos');
+    if (tasks.length > 0) {
+      result.push({fiche: r, tasks});
+    }
+  }
+  return result;
+}
+
 export default function PhotosSuivi(): React.ReactElement {
-  const missing = useMemo(getMissing, []);
+  const needs = useMemo(buildNeeds, []);
 
   const [checked, setChecked] = useState<Record<string, boolean>>({});
 
-  // Charge l'état depuis localStorage au montage
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
@@ -55,7 +64,6 @@ export default function PhotosSuivi(): React.ReactElement {
     } catch {}
   }, []);
 
-  // Persiste à chaque changement
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(checked));
@@ -65,8 +73,7 @@ export default function PhotosSuivi(): React.ReactElement {
   const key = (id: string, kind: TaskKind) => `${id}:${kind}`;
 
   const toggle = (id: string, kind: TaskKind) => {
-    const k = key(id, kind);
-    setChecked((prev) => ({...prev, [k]: !prev[k]}));
+    setChecked((prev) => ({...prev, [key(id, kind)]: !prev[key(id, kind)]}));
   };
 
   const resetAll = () => {
@@ -79,34 +86,29 @@ export default function PhotosSuivi(): React.ReactElement {
     }
   };
 
-  // Groupement par projet
   const byProject = useMemo(() => {
-    const groups = new Map<Project, typeof missing>();
-    for (const r of missing) {
-      const list = groups.get(r.project) ?? [];
-      list.push(r);
-      groups.set(r.project, list);
+    const groups = new Map<Project, Need[]>();
+    for (const n of needs) {
+      const list = groups.get(n.fiche.project) ?? [];
+      list.push(n);
+      groups.set(n.fiche.project, list);
     }
     return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [missing]);
+  }, [needs]);
 
-  const totalTasks = missing.reduce(
-    (n, r) => n + tasksFor(r.project).length,
-    0,
-  );
-  const doneTasks = missing.reduce(
-    (n, r) =>
-      n +
-      tasksFor(r.project).filter((t) => checked[key(r.id, t)]).length,
+  const totalTasks = needs.reduce((n, x) => n + x.tasks.length, 0);
+  const doneTasks = needs.reduce(
+    (n, x) =>
+      n + x.tasks.filter((t) => checked[key(x.fiche.id, t)]).length,
     0,
   );
   const pct = totalTasks ? Math.round((doneTasks / totalTasks) * 100) : 0;
 
-  const projectStats = (list: typeof missing) => {
-    const total = list.reduce((n, r) => n + tasksFor(r.project).length, 0);
+  const projectStats = (list: Need[]) => {
+    const total = list.reduce((n, x) => n + x.tasks.length, 0);
     const done = list.reduce(
-      (n, r) =>
-        n + tasksFor(r.project).filter((t) => checked[key(r.id, t)]).length,
+      (n, x) =>
+        n + x.tasks.filter((t) => checked[key(x.fiche.id, t)]).length,
       0,
     );
     return {total, done};
@@ -120,8 +122,9 @@ export default function PhotosSuivi(): React.ReactElement {
       <main className="container margin-vert--lg">
         <h1>Suivi photos</h1>
         <p>
-          Coche au fur et à mesure que tu déposes les fichiers dans les
-          dossiers. Tout est sauvegardé automatiquement dans ton navigateur.
+          Liste auto-générée à partir du contenu réel des dossiers. Une fiche
+          n'apparaît que si elle a au moins une chose manquante (icône,
+          photos, schéma). Tâches sauvegardées dans le navigateur.
         </p>
 
         <div
@@ -184,7 +187,6 @@ export default function PhotosSuivi(): React.ReactElement {
         {byProject.map(([project, list]) => {
           const {total, done} = projectStats(list);
           const projectPct = total ? Math.round((done / total) * 100) : 0;
-          const tasks = tasksFor(project);
           return (
             <section key={project} style={{marginBottom: '2.5rem'}}>
               <h2
@@ -217,12 +219,14 @@ export default function PhotosSuivi(): React.ReactElement {
                   gap: '0.75rem',
                 }}
               >
-                {list.map((r) => {
-                  const folder = `site/static/img/ressources/${r.project}/${r.id}/`;
-                  const allDone = tasks.every((t) => checked[key(r.id, t)]);
+                {list.map(({fiche, tasks}) => {
+                  const folder = `site/static/img/ressources/${fiche.project}/${fiche.id}/`;
+                  const allDone = tasks.every((t) =>
+                    checked[key(fiche.id, t)],
+                  );
                   return (
                     <div
-                      key={r.id}
+                      key={fiche.id}
                       className="card"
                       style={{
                         padding: '0.75rem 1rem',
@@ -235,43 +239,33 @@ export default function PhotosSuivi(): React.ReactElement {
                       <div
                         style={{
                           fontFamily: 'var(--ifm-font-family-monospace)',
+                          fontSize: '0.95rem',
                           fontWeight: 600,
                           marginBottom: '0.15rem',
                           textDecoration: allDone ? 'line-through' : 'none',
                           wordBreak: 'break-all',
                         }}
                       >
-                        {r.id}
+                        {fiche.id}
                       </div>
                       <div
                         style={{
-                          fontSize: '0.75rem',
-                          opacity: 0.65,
+                          fontSize: '0.8rem',
+                          opacity: 0.7,
                           marginBottom: '0.5rem',
                         }}
                       >
-                        {r.title}
-                      </div>
-                      <div
-                        style={{
-                          fontSize: '0.7rem',
-                          fontFamily: 'var(--ifm-font-family-monospace)',
-                          opacity: 0.55,
-                          marginBottom: '0.5rem',
-                          wordBreak: 'break-all',
-                        }}
-                      >
-                        {folder}
+                        {fiche.title}
                       </div>
                       <div
                         style={{
                           display: 'flex',
-                          gap: '1rem',
+                          gap: '0.85rem',
                           flexWrap: 'wrap',
                         }}
                       >
                         {tasks.map((t) => {
-                          const done = checked[key(r.id, t)];
+                          const done = checked[key(fiche.id, t)];
                           return (
                             <label
                               key={t}
@@ -285,7 +279,7 @@ export default function PhotosSuivi(): React.ReactElement {
                               <input
                                 type="checkbox"
                                 checked={!!done}
-                                onChange={() => toggle(r.id, t)}
+                                onChange={() => toggle(fiche.id, t)}
                               />
                               <span
                                 style={{
@@ -300,6 +294,17 @@ export default function PhotosSuivi(): React.ReactElement {
                           );
                         })}
                       </div>
+                      <div
+                        style={{
+                          fontSize: '0.7rem',
+                          fontFamily: 'var(--ifm-font-family-monospace)',
+                          opacity: 0.55,
+                          marginTop: '0.5rem',
+                          wordBreak: 'break-all',
+                        }}
+                      >
+                        {folder}
+                      </div>
                     </div>
                   );
                 })}
@@ -308,9 +313,9 @@ export default function PhotosSuivi(): React.ReactElement {
           );
         })}
 
-        {missing.length === 0 && (
+        {needs.length === 0 && (
           <p style={{fontStyle: 'italic', opacity: 0.7}}>
-            Toutes les fiches ont une photo ! 🎉
+            Toutes les fiches ont icône, photos et schéma ! 🎉
           </p>
         )}
       </main>
