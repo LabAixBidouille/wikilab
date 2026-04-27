@@ -4,10 +4,17 @@ import {resources, projectLabels, type Project} from '../data/resources';
 
 const STORAGE_KEY = 'wikilab-photos-suivi-v1';
 
-type TaskKind = 'icone' | 'photos';
+type TaskKind = 'icone' | 'photos' | 'schema';
 
-// Projets pour lesquels les photos sont déjà disponibles (seule l'icône manque)
-const PHOTOS_DONE: Set<Project> = new Set(['projets-du-lab']);
+// Projets pour lesquels les photos sont déjà fournies (seules les icônes manquent)
+const PHOTOS_DONE: Set<Project> = new Set([
+  'projets-du-lab',
+  'jeditrack',
+  'robots-meet-arts',
+]);
+
+// Projets nécessitant un schéma supplémentaire (en plus icône + photos)
+const SCHEMA_REQUIRED: Set<Project> = new Set(['steamcity']);
 
 // On ne liste que les fiches sans thumbnail
 function getMissing() {
@@ -17,6 +24,23 @@ function getMissing() {
 function needsPhotos(project: Project): boolean {
   return !PHOTOS_DONE.has(project);
 }
+
+function needsSchema(project: Project): boolean {
+  return SCHEMA_REQUIRED.has(project);
+}
+
+function tasksFor(project: Project): TaskKind[] {
+  const tasks: TaskKind[] = ['icone'];
+  if (needsSchema(project)) tasks.push('schema');
+  if (needsPhotos(project)) tasks.push('photos');
+  return tasks;
+}
+
+const TASK_LABELS: Record<TaskKind, string> = {
+  icone: 'Icône',
+  schema: 'Schéma',
+  photos: 'Photos',
+};
 
 export default function PhotosSuivi(): React.ReactElement {
   const missing = useMemo(getMissing, []);
@@ -67,28 +91,22 @@ export default function PhotosSuivi(): React.ReactElement {
   }, [missing]);
 
   const totalTasks = missing.reduce(
-    (n, r) => n + (needsPhotos(r.project) ? 2 : 1),
+    (n, r) => n + tasksFor(r.project).length,
     0,
   );
   const doneTasks = missing.reduce(
     (n, r) =>
       n +
-      (checked[key(r.id, 'icone')] ? 1 : 0) +
-      (needsPhotos(r.project) && checked[key(r.id, 'photos')] ? 1 : 0),
+      tasksFor(r.project).filter((t) => checked[key(r.id, t)]).length,
     0,
   );
   const pct = totalTasks ? Math.round((doneTasks / totalTasks) * 100) : 0;
 
   const projectStats = (list: typeof missing) => {
-    const total = list.reduce(
-      (n, r) => n + (needsPhotos(r.project) ? 2 : 1),
-      0,
-    );
+    const total = list.reduce((n, r) => n + tasksFor(r.project).length, 0);
     const done = list.reduce(
       (n, r) =>
-        n +
-        (checked[key(r.id, 'icone')] ? 1 : 0) +
-        (needsPhotos(r.project) && checked[key(r.id, 'photos')] ? 1 : 0),
+        n + tasksFor(r.project).filter((t) => checked[key(r.id, t)]).length,
       0,
     );
     return {total, done};
@@ -102,9 +120,8 @@ export default function PhotosSuivi(): React.ReactElement {
       <main className="container margin-vert--lg">
         <h1>Suivi photos</h1>
         <p>
-          Coche <strong>Icône</strong> quand le logo/pictogramme est déposé,
-          et <strong>Photos</strong> quand les illustrations sont dans le
-          dossier. Tout est sauvegardé automatiquement dans ton navigateur.
+          Coche au fur et à mesure que tu déposes les fichiers dans les
+          dossiers. Tout est sauvegardé automatiquement dans ton navigateur.
         </p>
 
         <div
@@ -167,6 +184,7 @@ export default function PhotosSuivi(): React.ReactElement {
         {byProject.map(([project, list]) => {
           const {total, done} = projectStats(list);
           const projectPct = total ? Math.round((done / total) * 100) : 0;
+          const tasks = tasksFor(project);
           return (
             <section key={project} style={{marginBottom: '2.5rem'}}>
               <h2
@@ -201,11 +219,7 @@ export default function PhotosSuivi(): React.ReactElement {
               >
                 {list.map((r) => {
                   const folder = `site/static/img/ressources/${r.project}/${r.id}/`;
-                  const iconeDone = checked[key(r.id, 'icone')];
-                  const photosRequired = needsPhotos(r.project);
-                  const photosDone = checked[key(r.id, 'photos')];
-                  const allDone =
-                    iconeDone && (!photosRequired || photosDone);
+                  const allDone = tasks.every((t) => checked[key(r.id, t)]);
                   return (
                     <div
                       key={r.id}
@@ -220,83 +234,71 @@ export default function PhotosSuivi(): React.ReactElement {
                     >
                       <div
                         style={{
+                          fontFamily: 'var(--ifm-font-family-monospace)',
                           fontWeight: 600,
-                          marginBottom: '0.35rem',
+                          marginBottom: '0.15rem',
                           textDecoration: allDone ? 'line-through' : 'none',
+                          wordBreak: 'break-all',
+                        }}
+                      >
+                        {r.id}
+                      </div>
+                      <div
+                        style={{
+                          fontSize: '0.75rem',
+                          opacity: 0.65,
+                          marginBottom: '0.5rem',
                         }}
                       >
                         {r.title}
                       </div>
                       <div
                         style={{
-                          fontSize: '0.75rem',
+                          fontSize: '0.7rem',
                           fontFamily: 'var(--ifm-font-family-monospace)',
-                          opacity: 0.7,
+                          opacity: 0.55,
                           marginBottom: '0.5rem',
                           wordBreak: 'break-all',
                         }}
                       >
                         {folder}
                       </div>
-                      <div style={{display: 'flex', gap: '1rem'}}>
-                        <label
-                          style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '0.4rem',
-                            cursor: 'pointer',
-                          }}
-                        >
-                          <input
-                            type="checkbox"
-                            checked={!!iconeDone}
-                            onChange={() => toggle(r.id, 'icone')}
-                          />
-                          <span
-                            style={{
-                              textDecoration: iconeDone
-                                ? 'line-through'
-                                : 'none',
-                            }}
-                          >
-                            Icône
-                          </span>
-                        </label>
-                        {photosRequired ? (
-                          <label
-                            style={{
-                              display: 'flex',
-                              alignItems: 'center',
-                              gap: '0.4rem',
-                              cursor: 'pointer',
-                            }}
-                          >
-                            <input
-                              type="checkbox"
-                              checked={!!photosDone}
-                              onChange={() => toggle(r.id, 'photos')}
-                            />
-                            <span
+                      <div
+                        style={{
+                          display: 'flex',
+                          gap: '1rem',
+                          flexWrap: 'wrap',
+                        }}
+                      >
+                        {tasks.map((t) => {
+                          const done = checked[key(r.id, t)];
+                          return (
+                            <label
+                              key={t}
                               style={{
-                                textDecoration: photosDone
-                                  ? 'line-through'
-                                  : 'none',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.4rem',
+                                cursor: 'pointer',
                               }}
                             >
-                              Photos
-                            </span>
-                          </label>
-                        ) : (
-                          <span
-                            style={{
-                              fontSize: '0.85rem',
-                              opacity: 0.65,
-                              fontStyle: 'italic',
-                            }}
-                          >
-                            Photos déjà fournies
-                          </span>
-                        )}
+                              <input
+                                type="checkbox"
+                                checked={!!done}
+                                onChange={() => toggle(r.id, t)}
+                              />
+                              <span
+                                style={{
+                                  textDecoration: done
+                                    ? 'line-through'
+                                    : 'none',
+                                }}
+                              >
+                                {TASK_LABELS[t]}
+                              </span>
+                            </label>
+                          );
+                        })}
                       </div>
                     </div>
                   );
