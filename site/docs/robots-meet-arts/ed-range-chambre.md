@@ -39,6 +39,9 @@ sidebar_position: 5
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/ed-range-chambre/icone.png" alt="Ed range sa chambre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -37,6 +37,9 @@ sidebar_position: 7
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/once-upon-code/icone.png" alt="Histoire animée en code" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

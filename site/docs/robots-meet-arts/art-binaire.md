@@ -55,6 +55,9 @@ sidebar_position: 1
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/art-binaire/icone.png" alt="L'art en binaire" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -36,6 +36,9 @@ sidebar_position: 5
 
 </div>
 
+
+<img src="/img/ressources/youth-ai-lab/illusion-tout-ce-qui-compte/icone.png" alt="L'illusion de la pensée" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

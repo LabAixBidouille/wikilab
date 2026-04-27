@@ -36,6 +36,9 @@ sidebar_position: 3
 
 </div>
 
+
+<img src="/img/ressources/steamcity/whisper-walls/icone.png" alt="Matériaux isolants acoustiques" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 

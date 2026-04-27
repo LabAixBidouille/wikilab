@@ -54,6 +54,9 @@ sidebar_position: 27
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/cabane-outils/icone.png" alt="Cabane-boussole à outils" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -49,6 +49,9 @@ sidebar_position: 10
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/icone.png" alt="Guitare Makey Makey" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -30,6 +30,9 @@ sidebar_position: 18
 
 </div>
 
+
+<img src="/img/ressources/steamcity/smart-object-safari/icone.png" alt="Safari des objets connectés" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

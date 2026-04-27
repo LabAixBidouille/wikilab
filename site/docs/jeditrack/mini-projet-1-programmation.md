@@ -28,6 +28,9 @@ sidebar_position: 1
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/mini-projet-1-programmation/icone.png" alt="Atelier MakeCode Arcade" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

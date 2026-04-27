@@ -32,6 +32,9 @@ sidebar_position: 21
 
 </div>
 
+
+<img src="/img/ressources/steamcity/fact-busters/icone.png" alt="Décrypter le vrai du faux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

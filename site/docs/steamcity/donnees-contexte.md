@@ -32,6 +32,9 @@ sidebar_position: 24
 
 </div>
 
+
+<img src="/img/ressources/steamcity/donnees-contexte/icone.png" alt="Données vs contexte" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -56,6 +56,9 @@ sidebar_position: 13
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/chefs-oeuvre/icone.png" alt="Mémoire des chefs-d'œuvre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

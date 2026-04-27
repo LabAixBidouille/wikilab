@@ -36,6 +36,9 @@ sidebar_position: 19
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/dilemmes-valeurs/icone.png" alt="Dilemmes et valeurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

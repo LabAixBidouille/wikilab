@@ -35,6 +35,9 @@ sidebar_position: 15
 
 </div>
 
+
+<img src="/img/ressources/steamcity/regulation/icone.png" alt="Mobilité et écologie" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

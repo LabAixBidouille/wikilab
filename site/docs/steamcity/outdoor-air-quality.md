@@ -42,6 +42,9 @@ sidebar_position: 4
 
 </div>
 
+
+<img src="/img/ressources/steamcity/outdoor-air-quality/icone.png" alt="Qualité de l'air extérieur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

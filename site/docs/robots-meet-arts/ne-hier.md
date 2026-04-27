@@ -44,6 +44,9 @@ sidebar_position: 28
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/ne-hier/icone.png" alt="Né d'hier : initiation robotique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

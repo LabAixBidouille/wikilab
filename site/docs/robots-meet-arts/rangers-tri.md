@@ -42,6 +42,9 @@ sidebar_position: 21
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/rangers-tri/icone.png" alt="Rangers du tri robotique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

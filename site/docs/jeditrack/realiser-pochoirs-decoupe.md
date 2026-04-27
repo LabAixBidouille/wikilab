@@ -32,6 +32,9 @@ sidebar_position: 13
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/realiser-pochoirs-decoupe/icone.png" alt="Pochoirs en découpe vinyle" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

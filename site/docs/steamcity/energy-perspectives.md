@@ -36,6 +36,9 @@ sidebar_position: 11
 
 </div>
 
+
+<img src="/img/ressources/steamcity/energy-perspectives/icone.png" alt="Énergies en perspective" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

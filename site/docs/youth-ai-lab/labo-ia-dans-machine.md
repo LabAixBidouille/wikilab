@@ -35,6 +35,9 @@ sidebar_position: 4
 
 </div>
 
+
+<img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/icone.png" alt="Labo IA : dans la machine" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

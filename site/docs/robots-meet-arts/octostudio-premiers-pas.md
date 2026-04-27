@@ -55,6 +55,9 @@ sidebar_position: 15
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/icone.png" alt="Premiers pas avec Octo Studio" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

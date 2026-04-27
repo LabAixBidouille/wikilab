@@ -40,6 +40,9 @@ sidebar_position: 8
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/etude-confort-thermique/icone.png" alt="Confort thermique urbain" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

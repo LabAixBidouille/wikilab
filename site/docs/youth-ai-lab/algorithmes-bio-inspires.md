@@ -36,6 +36,9 @@ sidebar_position: 1
 
 </div>
 
+
+<img src="/img/ressources/youth-ai-lab/algorithmes-bio-inspires/icone.png" alt="Algorithmes bio-inspirés" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

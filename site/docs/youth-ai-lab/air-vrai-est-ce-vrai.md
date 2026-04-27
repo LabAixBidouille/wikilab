@@ -33,6 +33,9 @@ sidebar_position: 2
 
 </div>
 
+
+<img src="/img/ressources/youth-ai-lab/air-vrai-est-ce-vrai/icone.png" alt="Vrai ou faux selon l'IA ?" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -34,6 +34,9 @@ sidebar_position: 3
 
 </div>
 
+
+<img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/icone.png" alt="Garder un œil sur l'IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

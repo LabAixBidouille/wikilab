@@ -36,6 +36,9 @@ sidebar_position: 20
 
 </div>
 
+
+<img src="/img/ressources/steamcity/bot-buddy-adventure/icone.png" alt="Chatbot d'accessibilité urbaine" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 

@@ -45,6 +45,9 @@ sidebar_position: 6
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/station-qualite-air/icone.png" alt="Station qualité de l'air" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

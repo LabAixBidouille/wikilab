@@ -39,6 +39,9 @@ sidebar_position: 2
 
 </div>
 
+
+<img src="/img/ressources/steamcity/sound-squad/icone.png" alt="Carte sonore du quartier" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

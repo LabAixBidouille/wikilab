@@ -32,6 +32,9 @@ sidebar_position: 5
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/cartographie-sensible/icone.png" alt="Cartographie sensible du quartier" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -28,6 +28,9 @@ sidebar_position: 9
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/creer-cartes-umap/icone.png" alt="Cartes collaboratives uMap" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

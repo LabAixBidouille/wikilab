@@ -32,6 +32,9 @@ sidebar_position: 19
 
 </div>
 
+
+<img src="/img/ressources/steamcity/ai-odyssey/icone.png" alt="L'odyssée de l'IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

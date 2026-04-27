@@ -33,6 +33,9 @@ sidebar_position: 25
 
 </div>
 
+
+<img src="/img/ressources/steamcity/zzz/icone.png" alt="Lumière et sommeil" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

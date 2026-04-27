@@ -35,6 +35,9 @@ sidebar_position: 24
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/icone.png" alt="Voyageurs du temps" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

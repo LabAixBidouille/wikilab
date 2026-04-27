@@ -35,6 +35,9 @@ sidebar_position: 16
 
 </div>
 
+
+<img src="/img/ressources/steamcity/city-detective-challenge/icone.png" alt="Détective urbain" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

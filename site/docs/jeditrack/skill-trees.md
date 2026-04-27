@@ -30,6 +30,9 @@ sidebar_position: 14
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/skill-trees/icone.png" alt="Skill Trees du maker" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

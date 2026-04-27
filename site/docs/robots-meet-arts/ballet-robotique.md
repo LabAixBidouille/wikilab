@@ -32,6 +32,9 @@ sidebar_position: 2
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/ballet-robotique/icone.png" alt="Ballet robotique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

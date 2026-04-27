@@ -50,6 +50,9 @@ sidebar_position: 25
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/rome/icone.png" alt="La Rome antique en robot" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

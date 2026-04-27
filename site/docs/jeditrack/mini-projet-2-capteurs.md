@@ -41,6 +41,9 @@ sidebar_position: 2
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/mini-projet-2-capteurs/icone.png" alt="Robot autonome à capteurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

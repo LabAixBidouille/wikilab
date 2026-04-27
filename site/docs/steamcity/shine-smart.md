@@ -34,6 +34,9 @@ sidebar_position: 14
 
 </div>
 
+
+<img src="/img/ressources/steamcity/shine-smart/icone.png" alt="Éclairage urbain intelligent" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

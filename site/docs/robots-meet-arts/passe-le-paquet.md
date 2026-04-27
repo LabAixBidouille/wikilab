@@ -38,6 +38,9 @@ sidebar_position: 8
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/passe-le-paquet/icone.png" alt="Passe le paquet" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

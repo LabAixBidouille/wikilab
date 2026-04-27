@@ -61,6 +61,9 @@ sidebar_position: 29
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/terre-ombre/icone.png" alt="La terre à l'ombre" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

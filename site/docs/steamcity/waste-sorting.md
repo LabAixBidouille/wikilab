@@ -34,6 +34,9 @@ sidebar_position: 22
 
 </div>
 
+
+<img src="/img/ressources/steamcity/waste-sorting/icone.png" alt="Tri des déchets par IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

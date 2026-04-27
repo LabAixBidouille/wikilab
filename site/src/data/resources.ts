@@ -1017,6 +1017,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'programmation'],
     keywords: ['makecode', 'arcade', 'jeu vidéo', 'programmation par blocs', 'skill maps', 'créativité'],
+    thumbnail: '/img/ressources/jeditrack/mini-projet-1-programmation/icone.png',
   },
   {
     id: 'mini-projet-2-capteurs',
@@ -1034,6 +1035,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'bricolage'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'programmation', 'robotique-ludique'],
     keywords: ['raspberry pi pico', 'python', 'capteur ultrason', 'robot', 'moteur', 'thonny'],
+    thumbnail: '/img/ressources/jeditrack/mini-projet-2-capteurs/icone.png',
   },
   {
     id: 'mini-projet-3-fabrication',
@@ -1051,6 +1053,7 @@ export const resources: Resource[] = [
     formats: ['bricolage'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'makers-fabrication'],
     keywords: ['fabrication', 'prototypage', 'idéation', 'fablab', 'bricolage', 'conception'],
+    thumbnail: '/img/ressources/jeditrack/mini-projet-3-fabrication/icone.png',
   },
   {
     id: 'mini-projet-4-cartopartie',
@@ -1068,6 +1071,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['cartographie', 'OpenStreetMap', 'intergénérationnel', 'citoyenneté', 'quartier', 'accessibilité'],
+    thumbnail: '/img/ressources/jeditrack/mini-projet-4-cartopartie/icone.png',
   },
   {
     id: 'cartographie-sensible',
@@ -1085,6 +1089,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['cartographie', 'émotions', 'territoire', 'expression créative', 'perception', 'urbanisme'],
+    thumbnail: '/img/ressources/jeditrack/cartographie-sensible/icone.png',
   },
   {
     id: 'station-qualite-air',
@@ -1102,6 +1107,7 @@ export const resources: Resource[] = [
     formats: ['experimentation', 'programmation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'environnement-nature', 'exploration-scientifique'],
     keywords: ['qualité de l\'air', 'capteurs', 'particules fines', 'micro:bit', 'CSV', 'pollution'],
+    thumbnail: '/img/ressources/jeditrack/station-qualite-air/icone.png',
   },
   {
     id: 'monitorer-bruit-urbain',
@@ -1119,6 +1125,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'exploration-scientifique', 'programmation'],
     keywords: ['bruit', 'décibels', 'micro:bit', 'pollution sonore', 'MakeCode', 'datalogger'],
+    thumbnail: '/img/ressources/jeditrack/monitorer-bruit-urbain/icone.png',
   },
   {
     id: 'etude-confort-thermique',
@@ -1136,6 +1143,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'exploration-scientifique', 'programmation'],
     keywords: ['température', 'humidité', 'isolation', 'énergie', 'micro:bit', 'caméra thermique'],
+    thumbnail: '/img/ressources/jeditrack/etude-confort-thermique/icone.png',
   },
   {
     id: 'creer-cartes-umap',
@@ -1153,6 +1161,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['uMap', 'cartographie', 'OpenStreetMap', 'collaboration', 'données ouvertes', 'territoire'],
+    thumbnail: '/img/ressources/jeditrack/creer-cartes-umap/icone.png',
   },
   {
     id: 'creer-site-web',
@@ -1170,6 +1179,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'programmation'],
     keywords: ['GitHub', 'site web', 'markdown', 'open source', 'communication', 'science citoyenne'],
+    thumbnail: '/img/ressources/jeditrack/creer-site-web/icone.png',
   },
   {
     id: 'communiquer-resultats',
@@ -1187,6 +1197,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['poster', 'infographie', 'communication visuelle', 'Canva', 'data storytelling', 'design'],
+    thumbnail: '/img/ressources/jeditrack/communiquer-resultats/icone.png',
   },
   {
     id: 'partager-donnees-open-source',
@@ -1204,6 +1215,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['open data', 'données ouvertes', 'CSV', 'citoyenneté', 'science participative', 'RGPD'],
+    thumbnail: '/img/ressources/jeditrack/partager-donnees-open-source/icone.png',
   },
   {
     id: 'realiser-pochoirs-decoupe',
@@ -1221,6 +1233,7 @@ export const resources: Resource[] = [
     formats: ['bricolage'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'makers-fabrication', 'arts-creativite'],
     keywords: ['pochoir', 'découpe vinyle', 'Silhouette', 'Inkscape', 'fablab', 'street art'],
+    thumbnail: '/img/ressources/jeditrack/realiser-pochoirs-decoupe/icone.png',
   },
   {
     id: 'skill-trees',
@@ -1238,6 +1251,7 @@ export const resources: Resource[] = [
     formats: ['experimentation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire'],
     keywords: ['skill tree', 'compétences', 'auto-évaluation', 'gamification', 'maker', 'progression'],
+    thumbnail: '/img/ressources/jeditrack/skill-trees/icone.png',
   },
   {
     id: 'borne-arcade',
@@ -1255,6 +1269,7 @@ export const resources: Resource[] = [
     formats: ['bricolage', 'programmation'],
     categories: ['animation-jeunesse', 'citoyennete-territoire', 'makers-fabrication'],
     keywords: ['borne arcade', 'raspberry pi', 'recalbox', 'fabrication', 'rétrogaming', 'menuiserie'],
+    thumbnail: '/img/ressources/jeditrack/borne-arcade/icone.png',
   },
   {
     id: 'agir-vert-penser-juste',
@@ -1273,6 +1288,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'environnement-nature'],
     keywords: ['climat', 'ODD', 'Blue-Bot', 'développement durable', 'fresque'],
     pdf: '/pdf/robots-meet-arts/RMA_AgirVertPenserJuste_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/agir-vert-penser-juste/icone.png',
   },
   {
     id: 'art-binaire',
@@ -1291,6 +1307,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['binaire', 'LEGO Dots', 'code', 'impression', 'motifs'],
     pdf: '/pdf/robots-meet-arts/RMA_ArtBinaire_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/art-binaire/icone.png',
   },
   {
     id: 'aventure-odd',
@@ -1309,6 +1326,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'programmation'],
     keywords: ['ODD', 'MakeCode Arcade', 'jeu vidéo', 'citoyenneté', 'programmation par blocs'],
     pdf: '/pdf/robots-meet-arts/RMA_AventureODD_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/aventure-odd/icone.png',
   },
   {
     id: 'balade-musicale',
@@ -1327,6 +1345,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['musique', 'boomwhackers', 'instructions', 'rythme', 'décomposition'],
     pdf: '/pdf/robots-meet-arts/RMA_BaladeMusicale_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/balade-musicale/icone.png',
   },
   {
     id: 'ballet-robotique',
@@ -1345,6 +1364,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['ballet', 'danse', 'LEGO WeDo', 'chorégraphie', 'synchronisation'],
     pdf: '/pdf/robots-meet-arts/RMA_BalletRobotique_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/ballet-robotique/icone.png',
   },
   {
     id: 'cabane-outils',
@@ -1363,6 +1383,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'environnement-nature'],
     keywords: ['boussole', 'micro:bit', 'orientation', 'points cardinaux', 'magnétomètre'],
     pdf: '/pdf/robots-meet-arts/RMA_Cabane_Outils_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/cabane-outils/icone.png',
   },
   {
     id: 'chasseurs-tresors',
@@ -1381,6 +1402,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['LEGO Spike', 'chasse au trésor', 'narration', 'théâtre', 'robot'],
     pdf: '/pdf/robots-meet-arts/RMA_ChasseursTr%C3%A9sors_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/chasseurs-tresors/icone.png',
   },
   {
     id: 'chefs-oeuvre',
@@ -1399,6 +1421,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['art', 'mémoire', 'robot de sol', 'musée', 'couleurs'],
     pdf: '/pdf/robots-meet-arts/RMA_ChefsOeuvre_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/chefs-oeuvre/icone.png',
   },
   {
     id: 'collage-fou-code',
@@ -1417,6 +1440,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['Matisse', 'collage', 'algorithme', 'décomposition', 'instructions'],
     pdf: '/pdf/robots-meet-arts/RMA_CollageFouCode_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/collage-fou-code/icone.png',
   },
   {
     id: 'course-voitures',
@@ -1435,6 +1459,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['LEGO Spike', 'course', 'anglais', 'comparatifs', 'voiture'],
     pdf: '/pdf/robots-meet-arts/RMA_CourseVoitures_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/course-voitures/icone.png',
   },
   {
     id: 'decouverte-histoire',
@@ -1453,6 +1478,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire'],
     keywords: ['histoire', 'explorateurs', 'itinéraire', 'algorithme', 'carte'],
     pdf: '/pdf/robots-meet-arts/RMA_D%C3%A9couverteHistoire_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/decouverte-histoire/icone.png',
   },
   {
     id: 'dilemmes-valeurs',
@@ -1471,6 +1497,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'programmation'],
     keywords: ['dilemme', 'valeurs', 'Scratch', 'morale', 'esprit critique'],
     pdf: '/pdf/robots-meet-arts/RMA_DilemnesValeurs_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/dilemmes-valeurs/icone.png',
   },
   {
     id: 'drop-the-bass',
@@ -1489,6 +1516,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite', 'programmation'],
     keywords: ['Makey Makey', 'musique', 'guitare', 'Scratch', 'instrument'],
     pdf: '/pdf/robots-meet-arts/RMA_DropTheBass_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/drop-the-bass/icone.png',
   },
   {
     id: 'ed-range-chambre',
@@ -1507,6 +1535,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['Edison', 'robot de sol', 'algorithme', 'vocabulaire', 'chambre'],
     pdf: '/pdf/robots-meet-arts/RMA_EdRangeChambre_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/ed-range-chambre/icone.png',
   },
   {
     id: 'filtre-artiste',
@@ -1525,6 +1554,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite', 'programmation'],
     keywords: ['Scratch Lab', 'filtre', 'réalité augmentée', 'art', 'caméra'],
     pdf: '/pdf/robots-meet-arts/RMA_FiltreArtiste_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/filtre-artiste/icone.png',
   },
   {
     id: 'journee-robin',
@@ -1543,6 +1573,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['anglais', 'routine', 'grille', 'robot', 'grammaire'],
     pdf: '/pdf/robots-meet-arts/RMA_Journ%C3%A9eRobin_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/journee-robin/icone.png',
   },
   {
     id: 'mission-voyageurs-temps',
@@ -1561,6 +1592,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'programmation'],
     keywords: ['histoire', 'Scratch', 'voyage dans le temps', 'animation', 'époques'],
     pdf: '/pdf/robots-meet-arts/RMA_MissionVoyageursTemps_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/mission-voyageurs-temps/icone.png',
   },
   {
     id: 'mode-danse',
@@ -1579,6 +1611,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite'],
     keywords: ['danse', 'Scratch', 'chorégraphie', 'blocs', 'EPS'],
     pdf: '/pdf/robots-meet-arts/RMA_ModeDanse.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/mode-danse/icone.png',
   },
   {
     id: 'ne-hier',
@@ -1597,6 +1630,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['intelligence artificielle', 'renforcement', 'apprentissage', 'grille', 'simulation'],
     pdf: '/pdf/robots-meet-arts/RMA_N%C3%A9_hier_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/ne-hier/icone.png',
   },
   {
     id: 'octostudio-premiers-pas',
@@ -1615,6 +1649,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite', 'programmation'],
     keywords: ['Octo Studio', 'tablette', 'programmation par blocs', 'animation', 'créativité'],
     pdf: '/pdf/robots-meet-arts/RMA_OctoStudioPremiersPas_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/octostudio-premiers-pas/icone.png',
   },
   {
     id: 'octostudio-visages',
@@ -1633,6 +1668,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite', 'programmation'],
     keywords: ['Octo Studio', 'visages', 'émotions', 'animation', 'arts plastiques'],
     pdf: '/pdf/robots-meet-arts/RMA_OctoStudioVisages_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/octostudio-visages/icone.png',
   },
   {
     id: 'once-upon-code',
@@ -1651,6 +1687,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'arts-creativite', 'programmation'],
     keywords: ['Scratch', 'anglais', 'narration', 'histoire animée', 'enregistrement'],
     pdf: '/pdf/robots-meet-arts/RMA_OnceUponCode_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/once-upon-code/icone.png',
   },
   {
     id: 'passe-le-paquet',
@@ -1669,6 +1706,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['réseau', 'routage', 'paquets', 'algorithme', 'internet'],
     pdf: '/pdf/robots-meet-arts/RMA_PasselePaquet_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/passe-le-paquet/icone.png',
   },
   {
     id: 'quete-curry',
@@ -1687,6 +1725,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['algorigramme', 'jeu de société', 'narration', 'littérature', 'cuisine'],
     pdf: '/pdf/robots-meet-arts/RMA_Qu%C3%AAteCurry.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/quete-curry/icone.png',
   },
   {
     id: 'rangers-tri',
@@ -1705,6 +1744,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'environnement-nature'],
     keywords: ['recyclage', 'tri', 'robot', 'environnement', 'grille'],
     pdf: '/pdf/robots-meet-arts/RMA_RangersTri_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/rangers-tri/icone.png',
   },
   {
     id: 'resolution-conflit',
@@ -1723,6 +1763,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire'],
     keywords: ['conflit', 'résolution', 'algorithme', 'vivre ensemble', 'empathie'],
     pdf: '/pdf/robots-meet-arts/RMA_R%C3%A9solutionConflit_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/resolution-conflit/icone.png',
   },
   {
     id: 'robot-petit-dej',
@@ -1741,6 +1782,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique'],
     keywords: ['algorithme', 'décomposition', 'instructions', 'petit-déjeuner', 'séquence'],
     pdf: '/pdf/robots-meet-arts/RMA_RobotPetitDej_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/robot-petit-dej/icone.png',
   },
   {
     id: 'rome',
@@ -1759,6 +1801,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire'],
     keywords: ['Rome antique', 'Tale-Bot', 'histoire', 'société', 'robot'],
     pdf: '/pdf/robots-meet-arts/RMA_Rome_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/rome/icone.png',
   },
   {
     id: 'terre-ombre',
@@ -1777,6 +1820,7 @@ export const resources: Resource[] = [
     categories: ['robotique-ludique', 'citoyennete-territoire', 'environnement-nature'],
     keywords: ['micro:bit', 'luminosité', 'urbanisme', 'capteur', 'ombre'],
     pdf: '/pdf/robots-meet-arts/RMA_Terre_Ombre_FR.pdf',
+    thumbnail: '/img/ressources/robots-meet-arts/terre-ombre/icone.png',
   },
   {
     id: 'decibel-detective',
@@ -1795,6 +1839,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'citoyennete-territoire'],
     keywords: ['bruit', 'décibels', 'micro:bit', 'santé', 'bien-être', 'sonomètre'],
     pdf: '/pdf/steamcity/Protocol_DecibelDetective_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/decibel-detective/icone.png',
   },
   {
     id: 'sound-squad',
@@ -1813,6 +1858,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'citoyennete-territoire'],
     keywords: ['bruit', 'cartographie sensible', 'micro:bit', 'émotions', 'urbanisme', 'bien-être'],
     pdf: '/pdf/steamcity/Protocol_SoundSquad_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/sound-squad/icone.png',
   },
   {
     id: 'whisper-walls',
@@ -1831,6 +1877,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['son', 'isolation acoustique', 'matériaux', 'pollution sonore', 'ODD', 'architecture'],
     pdf: '/pdf/steamcity/Protocol_WhisperWalls_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/whisper-walls/icone.png',
   },
   {
     id: 'outdoor-air-quality',
@@ -1849,6 +1896,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['qualité de l\'air', 'particules fines', 'capteurs', 'IoT', 'pollution', 'météo'],
     pdf: '/pdf/steamcity/Protocol_OutdoorAirQuality_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/outdoor-air-quality/icone.png',
   },
   {
     id: 'indoor-air-quality',
@@ -1867,6 +1915,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['CO2', 'qualité de l\'air', 'capteur', 'ventilation', 'santé', 'intérieur'],
     pdf: '/pdf/steamcity/Protocol_IndoorAirQuality_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/indoor-air-quality/icone.png',
   },
   {
     id: 'plants-city',
@@ -1885,6 +1934,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature', 'ia-esprit-critique'],
     keywords: ['végétalisation', 'mur végétal', 'micro:bit', 'IA', 'capteurs', 'environnement'],
     pdf: '/pdf/steamcity/Protocol_PlantsCity_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/plants-city/icone.png',
   },
   {
     id: 'pollinisateurs',
@@ -1903,6 +1953,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['pollinisateurs', 'biodiversité', 'insectes', 'écologie', 'habitat', 'cartographie'],
     pdf: '/pdf/steamcity/Protocole_Pollinisateurs_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/pollinisateurs/icone.png',
   },
   {
     id: 'trees-vs-cars',
@@ -1921,6 +1972,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature', 'ia-esprit-critique'],
     keywords: ['IA', 'apprentissage supervisé', 'arbre de décision', 'pollution', 'ZBE', 'véhicules'],
     pdf: '/pdf/steamcity/Protocol_TreesVsCars_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/trees-vs-cars/icone.png',
   },
   {
     id: 'bird-song-explorer',
@@ -1939,6 +1991,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature', 'ia-esprit-critique'],
     keywords: ['oiseaux', 'chants', 'IA', 'biodiversité', 'BirdNET', 'ornithologie'],
     pdf: '/pdf/steamcity/Protocol_BirdSongExplorer_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/bird-song-explorer/icone.png',
   },
   {
     id: 'energy-mix',
@@ -1957,6 +2010,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['énergie', 'mix énergétique', 'simulation', 'modélisation', 'transition', 'électricité'],
     pdf: '/pdf/steamcity/Protocol_EnergyMix_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/energy-mix/icone.png',
   },
   {
     id: 'energy-perspectives',
@@ -1975,6 +2029,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['énergie', 'formes d\'énergie', 'impact environnemental', 'transition énergétique', 'prospective'],
     pdf: '/pdf/steamcity/Protocol_EnergyPerspectives_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/energy-perspectives/icone.png',
   },
   {
     id: 'insulation',
@@ -1993,6 +2048,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['isolation', 'thermique', 'matériaux', 'caméra thermique', 'énergie', 'bâtiment'],
     pdf: '/pdf/steamcity/Protocol_Insulation_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/insulation/icone.png',
   },
   {
     id: 'negawatt',
@@ -2011,6 +2067,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['NégaWatt', 'sobriété', 'efficacité énergétique', 'consommation', 'renouvelables', 'audit'],
     pdf: '/pdf/steamcity/Protocol_Negawatt_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/negawatt/icone.png',
   },
   {
     id: 'shine-smart',
@@ -2029,6 +2086,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature'],
     keywords: ['éclairage', 'pollution lumineuse', 'efficacité énergétique', 'urbanisme', 'lumière'],
     pdf: '/pdf/steamcity/Protocol_ShineSmart_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/shine-smart/icone.png',
   },
   {
     id: 'regulation',
@@ -2047,6 +2105,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'citoyennete-territoire', 'environnement-nature'],
     keywords: ['véhicule autonome', 'hackathon', 'Roobopoli', 'C++', 'mobilité', 'écologie'],
     pdf: '/pdf/steamcity/Protocol_Regulation_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/regulation/icone.png',
   },
   {
     id: 'city-detective-challenge',
@@ -2065,6 +2124,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'citoyennete-territoire'],
     keywords: ['ville', 'services publics', 'citoyenneté', 'cartographie', 'simulation', 'crise'],
     pdf: '/pdf/steamcity/Protocol_CityDetectiveChallenge_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/city-detective-challenge/icone.png',
   },
   {
     id: 'road-signs',
@@ -2083,6 +2143,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'citoyennete-territoire'],
     keywords: ['signalisation', 'véhicule autonome', 'IA', 'classification d\'images', 'design', 'mobilité'],
     pdf: '/pdf/steamcity/Protocol_RoadSigns_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/road-signs/icone.png',
   },
   {
     id: 'smart-object-safari',
@@ -2101,6 +2162,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['objets connectés', 'IoT', 'capteurs', 'actionneurs', 'ville intelligente', 'prototypage'],
     pdf: '/pdf/steamcity/Protocol_SmartObjectSafari_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/smart-object-safari/icone.png',
   },
   {
     id: 'ai-odyssey',
@@ -2119,6 +2181,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique'],
     keywords: ['IA', 'datawalk', 'capteurs', 'données urbaines', 'ville intelligente', 'surveillance'],
     pdf: '/pdf/steamcity/Protocol_AI_Odyssey_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/ai-odyssey/icone.png',
   },
   {
     id: 'bot-buddy-adventure',
@@ -2137,6 +2200,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique', 'citoyennete-territoire'],
     keywords: ['chatbot', 'IA', 'accessibilité', 'reconnaissance vocale', 'GPS', 'ville intelligente'],
     pdf: '/pdf/steamcity/Protocol_BotBuddyAdventure_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/bot-buddy-adventure/icone.png',
   },
   {
     id: 'fact-busters',
@@ -2155,6 +2219,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique'],
     keywords: ['fact-checking', 'esprit critique', 'démarche scientifique', 'pseudoscience', 'fake news'],
     pdf: '/pdf/steamcity/Protocol_FactBusters_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/fact-busters/icone.png',
   },
   {
     id: 'waste-sorting',
@@ -2173,6 +2238,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'environnement-nature', 'ia-esprit-critique'],
     keywords: ['tri', 'déchets', 'IA', 'reconnaissance d\'images', 'micro:bit', 'environnement'],
     pdf: '/pdf/steamcity/Protocol_WasteSorting_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/waste-sorting/icone.png',
   },
   {
     id: 'bio-inspired-processes',
@@ -2191,6 +2257,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique', 'environnement-nature'],
     keywords: ['IA', 'apprentissage bio-inspiré', 'renforcement', 'essai-erreur', 'adaptabilité'],
     pdf: '/pdf/steamcity/Protocol_BioInspiredProcesses_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/bio-inspired-processes/icone.png',
   },
   {
     id: 'donnees-contexte',
@@ -2209,6 +2276,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique', 'ia-esprit-critique'],
     keywords: ['données', 'contexte', 'littératie', 'data storytelling', 'esprit critique', 'information'],
     pdf: '/pdf/steamcity/Protocole_Donnees_Contexte_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/donnees-contexte/icone.png',
   },
   {
     id: 'zzz',
@@ -2227,6 +2295,7 @@ export const resources: Resource[] = [
     categories: ['exploration-scientifique'],
     keywords: ['sommeil', 'pollution lumineuse', 'bruit', 'micro:bit', 'capteurs', 'santé'],
     pdf: '/pdf/steamcity/Protocol_Zzz_FR.pdf',
+    thumbnail: '/img/ressources/steamcity/zzz/icone.png',
   },
   // ─── Projets du LAB ───
   {
@@ -2245,6 +2314,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['hifi', 'audio', 'dsp', 'stm32', 'ampli', 'classe d', 'lxmini', 'spdif'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-audio-hifi/icone.png',
   },
   {
     id: 'lab-ampli-tas3251',
@@ -2262,6 +2332,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['ampli', 'tas3251', 'pcb', 'kicad', 'stencil', 'classe d', 'audio'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-ampli-tas3251/icone.png',
   },
   {
     id: 'lab-random-shield',
@@ -2279,6 +2350,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication'],
     keywords: ['random', 'aléatoire', 'arduino', 'shield', 'cryptographie', 'avalanche'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-random-shield/icone.png',
   },
   {
     id: 'lab-domotique',
@@ -2296,6 +2368,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'programmation'],
     categories: ['makers-fabrication'],
     keywords: ['mqtt', 'domotique', 'arduino', 'raspberry pi', 'mosquitto', 'dht', 'iot'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-domotique/icone.png',
   },
   {
     id: 'lab-station-meteo',
@@ -2313,6 +2386,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'programmation'],
     categories: ['makers-fabrication', 'environnement-nature'],
     keywords: ['météo', 'température', 'humidité', 'dht22', 'wifi', 'stm32', 'esp8266'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-station-meteo/icone.png',
   },
   {
     id: 'lab-terrarium',
@@ -2330,6 +2404,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'environnement-nature'],
     keywords: ['terrarium', 'dendrobate', 'mqtt', 'iot', 'régulation', 'node-red', 'capteurs'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-terrarium/icone.png',
   },
   {
     id: 'lab-bus-can',
@@ -2347,6 +2422,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'experimentation'],
     categories: ['makers-fabrication'],
     keywords: ['can', 'bus', 'arduino', 'protocole', 'automobile', 'communication'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-bus-can/icone.png',
   },
   {
     id: 'lab-ericbot',
@@ -2364,6 +2440,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'programmation'],
     categories: ['makers-fabrication', 'robotique-ludique'],
     keywords: ['robot', 'arduino', 'ultrason', 'neopixel', 'servomoteur', '3d'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-ericbot/icone.png',
   },
   {
     id: 'lab-robot-du-lab',
@@ -2381,6 +2458,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'programmation'],
     categories: ['makers-fabrication', 'robotique-ludique'],
     keywords: ['robot', 'éducatif', 'blockly', 'arduino', '3d', 'libre'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-robot-du-lab/icone.png',
   },
   {
     id: 'lab-xylorobot',
@@ -2398,6 +2476,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'arts-creativite', 'robotique-ludique'],
     keywords: ['xylophone', 'robot', 'musique', 'makeblock', 'midi', 'devoxx'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-xylorobot/icone.png',
   },
   {
     id: 'lab-harpe-laser',
@@ -2415,6 +2494,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['harpe', 'laser', 'midi', 'musique', 'photorésistance', 'arduino'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-harpe-laser/icone.png',
   },
   {
     id: 'lab-musique-laser',
@@ -2432,6 +2512,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'programmation'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['musique', 'capteur', 'laser', 'vl53l0x', 'buzzer', 'thérémine'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-musique-laser/icone.png',
   },
   {
     id: 'lab-bobine-tesla',
@@ -2449,6 +2530,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['tesla', 'bobine', 'musique', 'haute tension', 'hackathon', 'devoxx'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-bobine-tesla/icone.png',
   },
   {
     id: 'lab-kit-stm32',
@@ -2466,6 +2548,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication', 'programmation'],
     keywords: ['stm32', 'kit', 'pédagogique', 'grove', 'laser', '3d', 'coffret'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-kit-stm32/icone.png',
   },
   {
     id: 'lab-carte-monde',
@@ -2483,6 +2566,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['carte', 'monde', 'liège', 'laser', 'inkscape', 'découpe'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-carte-monde/icone.png',
   },
   {
     id: 'lab-chateau',
@@ -2500,6 +2584,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication', 'arts-creativite'],
     keywords: ['château', 'reine des neiges', 'laser', 'sketchup', 'mdf', 'stickers'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-chateau/icone.png',
   },
   {
     id: 'lab-poubelle-basket',
@@ -2517,6 +2602,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication'],
     keywords: ['poubelle', 'basket', 'laser', 'mdf', 'sketchup', 'trotec'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-poubelle-basket/icone.png',
   },
   {
     id: 'lab-melangeur',
@@ -2534,6 +2620,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication'],
     keywords: ['dremel', 'mélangeur', 'impression 3d', 'sketchup', 'peinture'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-melangeur/icone.png',
   },
   {
     id: 'lab-porte-frigo',
@@ -2551,6 +2638,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker', 'bricolage'],
     categories: ['makers-fabrication'],
     keywords: ['réparation', 'frigo', 'impression 3d', 'fusion 360', 'cura'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-porte-frigo/icone.png',
   },
   {
     id: 'lab-labanque',
@@ -2568,6 +2656,7 @@ export const resources: Resource[] = [
     formats: ['projet-maker'],
     categories: ['makers-fabrication', 'citoyennete-territoire'],
     keywords: ['monnaie', 'communauté', 'fablab', 'écrou', 'échange'],
+    thumbnail: '/img/ressources/projets-du-lab/lab-labanque/icone.png',
   },
   {
     id: 'beau-jardin-21-siecle',
@@ -2967,6 +3056,7 @@ export const resources: Resource[] = [
     categories: ['ia-esprit-critique', 'robotique-ludique'],
     keywords: ['apprentissage par renforcement', 'bio-inspiré', 'modèle mental', 'Cubetto', 'Sphero Indi', 'micro:bit', 'grille', 'récompense'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms.pdf',
+    thumbnail: '/img/ressources/youth-ai-lab/algorithmes-bio-inspires/icone.png',
   },
   {
     id: 'air-vrai-est-ce-vrai',
@@ -2986,6 +3076,7 @@ export const resources: Resource[] = [
     categories: ['ia-esprit-critique'],
     keywords: ['IA générative', 'éthique', 'prompting', 'biais', 'esprit critique', 'médias', 'vérification', 'hallucinations'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_LooksRight.pdf',
+    thumbnail: '/img/ressources/youth-ai-lab/air-vrai-est-ce-vrai/icone.png',
   },
   {
     id: 'garder-oeil-sur-ia',
@@ -3005,6 +3096,7 @@ export const resources: Resource[] = [
     categories: ['ia-esprit-critique'],
     keywords: ['IA quotidienne', 'automatisation', 'citoyenneté numérique', 'données', 'ville intelligente', 'observation'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.pdf',
+    thumbnail: '/img/ressources/youth-ai-lab/garder-oeil-sur-ia/icone.png',
   },
   {
     id: 'labo-ia-dans-machine',
@@ -3024,6 +3116,7 @@ export const resources: Resource[] = [
     categories: ['ia-esprit-critique'],
     keywords: ['IA générative', 'apprentissage supervisé', 'reconnaissance de motifs', 'prédiction', 'prompting', 'narration'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_IntroductoryAIGame_PredictiveAI.pdf',
+    thumbnail: '/img/ressources/youth-ai-lab/labo-ia-dans-machine/icone.png',
   },
   {
     id: 'illusion-tout-ce-qui-compte',
@@ -3043,6 +3136,7 @@ export const resources: Resource[] = [
     categories: ['ia-esprit-critique'],
     keywords: ['illusion de la pensée', 'apprentissage par renforcement', 'ODD', 'conscience', 'éthique IA', 'robot', 'philosophie'],
     pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_Illusions.pdf',
+    thumbnail: '/img/ressources/youth-ai-lab/illusion-tout-ce-qui-compte/icone.png',
   },
   {
     id: 'decouverte-steami',

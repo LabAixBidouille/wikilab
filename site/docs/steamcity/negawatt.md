@@ -38,6 +38,9 @@ sidebar_position: 13
 
 </div>
 
+
+<img src="/img/ressources/steamcity/negawatt/icone.png" alt="Scénario NégaWatt" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

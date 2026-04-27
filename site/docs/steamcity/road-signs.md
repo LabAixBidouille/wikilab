@@ -33,6 +33,9 @@ sidebar_position: 17
 
 </div>
 
+
+<img src="/img/ressources/steamcity/road-signs/icone.png" alt="Signalisation de demain" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

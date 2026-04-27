@@ -31,6 +31,9 @@ sidebar_position: 3
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/mini-projet-3-fabrication/icone.png" alt="Fabriquer un objet physique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

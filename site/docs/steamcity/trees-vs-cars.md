@@ -34,6 +34,9 @@ sidebar_position: 8
 
 </div>
 
+
+<img src="/img/ressources/steamcity/trees-vs-cars/icone.png" alt="Véhicules polluants en ville" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

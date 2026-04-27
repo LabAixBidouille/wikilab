@@ -32,6 +32,9 @@ sidebar_position: 6
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/robot-petit-dej/icone.png" alt="Robot petit-déjeuner" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

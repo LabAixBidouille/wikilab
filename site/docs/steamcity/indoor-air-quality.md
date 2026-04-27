@@ -38,6 +38,9 @@ sidebar_position: 5
 
 </div>
 
+
+<img src="/img/ressources/steamcity/indoor-air-quality/icone.png" alt="Qualité de l'air en classe" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -36,6 +36,9 @@ sidebar_position: 9
 
 </div>
 
+
+<img src="/img/ressources/steamcity/bird-song-explorer/icone.png" alt="Chants d'oiseaux par IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 

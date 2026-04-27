@@ -44,6 +44,9 @@ sidebar_position: 20
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/resolution-conflit/icone.png" alt="Résoudre les conflits pas à pas" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

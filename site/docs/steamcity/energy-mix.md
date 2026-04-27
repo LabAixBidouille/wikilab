@@ -35,6 +35,9 @@ sidebar_position: 10
 
 </div>
 
+
+<img src="/img/ressources/steamcity/energy-mix/icone.png" alt="Simulateur de mix énergétique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

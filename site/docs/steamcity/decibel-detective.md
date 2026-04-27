@@ -38,6 +38,9 @@ sidebar_position: 1
 
 </div>
 
+
+<img src="/img/ressources/steamcity/decibel-detective/icone.png" alt="Le bruit dans la classe" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

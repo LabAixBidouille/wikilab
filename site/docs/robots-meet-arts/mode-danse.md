@@ -45,6 +45,9 @@ sidebar_position: 14
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/mode-danse/icone.png" alt="Jeu du mode danse" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

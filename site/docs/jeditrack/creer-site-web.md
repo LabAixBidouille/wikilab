@@ -29,6 +29,9 @@ sidebar_position: 10
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/creer-site-web/icone.png" alt="Site web avec GitHub Pages" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

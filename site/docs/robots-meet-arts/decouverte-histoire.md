@@ -32,6 +32,9 @@ sidebar_position: 23
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/decouverte-histoire/icone.png" alt="Sur les pas des explorateurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -60,6 +60,9 @@ sidebar_position: 16
 
 </div>
 
+
+<img src="/img/ressources/robots-meet-arts/octostudio-visages/icone.png" alt="Visages avec Octo Studio" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

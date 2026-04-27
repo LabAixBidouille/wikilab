@@ -30,6 +30,9 @@ sidebar_position: 7
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/monitorer-bruit-urbain/icone.png" alt="Mesurer le bruit urbain" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

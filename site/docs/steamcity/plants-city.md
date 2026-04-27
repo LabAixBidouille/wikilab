@@ -39,6 +39,9 @@ Par groupe :
 
 </div>
 
+
+<img src="/img/ressources/steamcity/plants-city/icone.png" alt="Végétalisation urbaine par IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

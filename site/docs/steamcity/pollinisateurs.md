@@ -37,6 +37,9 @@ sidebar_position: 7
 
 </div>
 
+
+<img src="/img/ressources/steamcity/pollinisateurs/icone.png" alt="Gardiens des pollinisateurs" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -33,6 +33,9 @@ sidebar_position: 4
 
 </div>
 
+
+<img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/icone.png" alt="Cartopartie intergénérationnelle" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---
