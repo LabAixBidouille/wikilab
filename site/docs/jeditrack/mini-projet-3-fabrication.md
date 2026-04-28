@@ -350,7 +350,7 @@ Bien que cette fiche ne puisse couvrir tous les aspects d'un projet complexe, no
 
 ## Exemple de fabrication Jedi-Track - Documentation du projet "Borne d'arcade"
 
-Pour un exemple concret et documenté de projet de fabrication mené dans le cadre de JediTrack, consultez la documentation complète du projet [Borne d'arcade](/ressources/jeditrack/borne-arcade/introduction).
+Pour un exemple concret et documenté de projet de fabrication mené dans le cadre de JediTrack, consultez la documentation complète du projet [Borne d'arcade](/ressources/jeditrack/borne-arcade).
 
 ---
 

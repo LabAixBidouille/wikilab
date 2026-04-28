@@ -1256,7 +1256,7 @@ export const resources: Resource[] = [
   {
     id: 'borne-arcade',
     title: "Construire une borne d'arcade",
-    slug: '/ressources/jeditrack/borne-arcade/introduction',
+    slug: '/ressources/jeditrack/borne-arcade',
     project: 'jeditrack',
     summary: "Documentation complète pour construire une borne d'arcade : histoire, Raspberry Pi, Recalbox, conception, prototypage, modélisation, assemblage et finitions.",
     disciplines: ['technologie', 'informatique', 'ingenierie'],
