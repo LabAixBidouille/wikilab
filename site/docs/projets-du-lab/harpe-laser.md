@@ -11,12 +11,6 @@ sidebar_position: 11
 
 # Harpe laser MIDI
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-harpe-laser/icone.png" alt="Harpe laser MIDI" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation
 
 Ce projet vise à construire une harpe laser fonctionnant comme un clavier MIDI. Il a été développé en vue d'une démonstration lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris, du 16 au 18 avril 2014.
@@ -24,6 +18,12 @@ Ce projet vise à construire une harpe laser fonctionnant comme un clavier MIDI.
 L'inspiration : la performance de [Greig Stewart](http://www.thereminhero.com/), dont le niveau reste un objectif à atteindre.
 
 Le premier prototype est une version monocorde (une seule corde laser).
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-harpe-laser/icone.png" alt="Harpe laser MIDI" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Principe de fonctionnement
 

@@ -11,15 +11,15 @@ sidebar_position: 7
 
 # Découverte du bus CAN
 
+### Présentation
+
+Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](https://fr.wikipedia.org/wiki/Controller_Area_Network). Sur cette page sont regroupés les liens vers les différentes expérimentations conduites par les membres du LAB.
+
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-bus-can/icone.png" alt="Découverte du bus CAN" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
-
-### Présentation
-
-Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](https://fr.wikipedia.org/wiki/Controller_Area_Network). Sur cette page sont regroupés les liens vers les différentes expérimentations conduites par les membres du LAB.
 
 ### Matériel
 

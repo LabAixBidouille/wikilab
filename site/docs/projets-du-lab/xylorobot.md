@@ -11,15 +11,15 @@ sidebar_position: 10
 
 # XyloRobot musical
 
+### Présentation
+
+XyloRobot est un glockenspiel à commande numérique, construit à partir du [Kit Music Robot v2.0](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/) de [MakeBlock](http://www.makeblock.cc/). Le projet a été présenté lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris du 16 au 18 avril 2014. La démonstration a été un succès ; le projet se poursuit pour corriger les défauts du système d'origine.
+
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-xylorobot/icone.png" alt="XyloRobot musical" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
-
-### Présentation
-
-XyloRobot est un glockenspiel à commande numérique, construit à partir du [Kit Music Robot v2.0](http://www.makeblock.cc/music-robot-kit-v2-0-with-electronics/) de [MakeBlock](http://www.makeblock.cc/). Le projet a été présenté lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris du 16 au 18 avril 2014. La démonstration a été un succès ; le projet se poursuit pour corriger les défauts du système d'origine.
 
 ### Matériel
 

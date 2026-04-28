@@ -11,12 +11,6 @@ sidebar_position: 8
 
 # Robot ERICbot
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-ericbot/icone.png" alt="Robot ERICbot" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Matériel
 
 Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. Il est équipé de :
@@ -28,6 +22,12 @@ Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. 
 - un axe libre à 360°
 - un bloc de piles
 - un anneau de LEDs (NeoPixel Ring)
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-ericbot/icone.png" alt="Robot ERICbot" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ### Assemblage
 

@@ -11,12 +11,6 @@ sidebar_position: 20
 
 # LABanque : monnaie du fablab
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 Picsous trésorier du LAB et forgeur d'écrous
 
 ### Notre ambition
@@ -34,6 +28,12 @@ Faire émerger nos projets.
 - L'étalon est l'heure d'impression 3D : 100 ⬡.
 
 - Elle est fondante.
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
 

@@ -11,12 +11,6 @@ sidebar_position: 3
 
 # Random Shield Arduino
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-random-shield/icone.png" alt="Random Shield Arduino" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation du projet
 
 Générateur de bits aléatoires pour Arduino.
@@ -28,6 +22,12 @@ Générateur de bits aléatoires pour Arduino.
 - Nécessite deux piles 9 V ou une alimentation symétrique 12 V.
 
 - Vitesse d'acquisition maximale de 6,25 kbits par seconde.
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-random-shield/icone.png" alt="Random Shield Arduino" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ![Random Shield](/img/ressources/projets-du-lab/Random2.jpg)
 

@@ -32,6 +32,8 @@ sidebar_position: 8
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-road-signs/icone.png" alt="Reconnaissance de panneaux par IA" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

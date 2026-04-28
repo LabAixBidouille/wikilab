@@ -3282,6 +3282,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation', 'citoyennete-territoire'],
     keywords: ['Python', 'IA', 'reconnaissance images', 'SignVisionAI', 'Vittascience', 'panneaux'],
+    thumbnail: '/img/ressources/steamcity/programmation-road-signs/icone.png',
   },
   {
     id: 'programmation-sound-squad',

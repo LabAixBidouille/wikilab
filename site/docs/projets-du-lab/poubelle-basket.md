@@ -11,19 +11,19 @@ sidebar_position: 17
 
 # Poubelle basket
 
+### Présentation
+
+Ce projet consiste à fabriquer une poubelle surmontée d'un panier de basket, en découpe laser. C'est avant tout un prétexte pour apprendre à utiliser la Trotec Speedy 400.
+
+Un produit équivalent existe en version commerciale sur Aliexpress.
+
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-poubelle-basket/icone.png" alt="Poubelle basket" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
-### Présentation
-
-Ce projet consiste à fabriquer une poubelle surmontée d'un panier de basket, en découpe laser. C'est avant tout un prétexte pour apprendre à utiliser la Trotec Speedy 400.
-
 ![Poubelle Basket](/img/ressources/projets-du-lab/PoubelleBasket.jpeg)
-
-Un produit équivalent existe en version commerciale sur Aliexpress.
 
 ### Matériel
 

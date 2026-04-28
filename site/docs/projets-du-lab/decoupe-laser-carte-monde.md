@@ -11,15 +11,15 @@ sidebar_position: 15
 
 # Carte du monde en liège
 
+### Présentation
+
+L'objectif est de réaliser une carte du monde en liège à fixer au mur, sur laquelle on peut punaiser des photos et des centres d'intérêt. La découpe est réalisée au laser au LAB, dans des plaques de liège du commerce.
+
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-carte-monde/icone.png" alt="Carte du monde en liège" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
-
-### Présentation
-
-L'objectif est de réaliser une carte du monde en liège à fixer au mur, sur laquelle on peut punaiser des photos et des centres d'intérêt. La découpe est réalisée au laser au LAB, dans des plaques de liège du commerce.
 
 ### Matériel
 

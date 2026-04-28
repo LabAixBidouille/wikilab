@@ -11,12 +11,6 @@ sidebar_position: 9
 
 # RobotDuLAB
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-robot-du-lab/icone.png" alt="RobotDuLAB" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation
 
 RobotDuLAB est un robot éducatif conçu au LAB pour l'apprentissage de la programmation en classe, du primaire au lycée.
@@ -24,6 +18,12 @@ RobotDuLAB est un robot éducatif conçu au LAB pour l'apprentissage de la progr
 - Toutes les pièces mécaniques sont imprimables en 3D (fichiers .stl fournis)
 - Électronique basée sur Arduino
 - Projet libre (copiable, modifiable) et évolutif
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-robot-du-lab/icone.png" alt="RobotDuLAB" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 En primaire, des plots au format LEGO permettent de personnaliser le robot et d'aborder le code de manière ludique. En collège et lycée, le robot sert de support pour le travail en équipes projets : conception, réalisation, expérimentation.
 

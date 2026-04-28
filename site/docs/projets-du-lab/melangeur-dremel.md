@@ -11,15 +11,15 @@ sidebar_position: 18
 
 # Mélangeur pour Dremel
 
+### Présentation
+
+Les mélangeurs pour perceuse existent dans le commerce, mais pas en version adaptée à une Dremel — or c'est l'outil idéal pour mélanger la peinture dans les petits pots d'aérographe. La solution : concevoir et imprimer la pièce en 3D.
+
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-melangeur/icone.png" alt="Mélangeur pour Dremel" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
-
-### Présentation
-
-Les mélangeurs pour perceuse existent dans le commerce, mais pas en version adaptée à une Dremel — or c'est l'outil idéal pour mélanger la peinture dans les petits pots d'aérographe. La solution : concevoir et imprimer la pièce en 3D.
 
 ### Matériel
 

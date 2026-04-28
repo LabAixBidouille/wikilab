@@ -11,17 +11,17 @@ sidebar_position: 1
 
 # Chaîne HiFi 100% numérique
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-audio-hifi/icone.png" alt="Chaîne HiFi 100% numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation
 
 Ce projet vise à construire un système HiFi de très haute qualité, entièrement en DIY, avec une chaîne 100 % numérique du serveur de musique jusqu'aux amplificateurs.
 
 Le point de départ est la convergence de trois découvertes :
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-audio-hifi/icone.png" alt="Chaîne HiFi 100% numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 - Les enceintes **LXmini**, conçues par Siegfried Linkwitz (inventeur des filtres Linkwitz-Riley). Elles promettent une restitution exceptionnelle de la scène sonore et sont réalisables soi-même. Le [site de Linkwitz](http://www.linkwitzlab.com/LXmini/Introduction.htm) est une mine de connaissances sur les principes acoustiques. Le dossier de réalisation est payant mais en vaut le prix.
 

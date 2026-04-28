@@ -11,17 +11,17 @@ sidebar_position: 5
 
 # Station météo DIY
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-station-meteo/icone.png" alt="Station météo DIY" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Description du projet
 
 L'objectif de ce projet est de proposer différentes solutions DIY (Do It Yourself) pour fabriquer une station météo adaptée aux besoins et aux envies de chacun.
 
 Pour cela, nous expérimentons diverses solutions de capteurs, de communications et de protocoles, que nous mettons en oeuvre pour construire une station météo modulaire.
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-station-meteo/icone.png" alt="Station météo DIY" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 Les différentes solutions et expérimentations sont présentées dans la rubrique "Éléments du projet". Certaines d'entre elles seront sélectionnées et combinées pour fabriquer une station météo performante : "MétéoDuLAB".
 

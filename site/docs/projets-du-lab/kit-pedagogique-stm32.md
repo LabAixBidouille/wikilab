@@ -11,17 +11,17 @@ sidebar_position: 14
 
 # Kit pédagogique STM32
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-kit-stm32/icone.png" alt="Kit pédagogique STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation
 
 À partir d'une carte STM32 IoT Node et de composants Grove Seeed, nous avons conçu un kit pédagogique destiné à faciliter l'utilisation et la compréhension de la carte lors de travaux pratiques.
 
 Il s'agit d'un coffret permettant la disposition fixe de composants électroniques, pensé pour préparer des TP autour de la carte STM32 IoT Node dans un contexte scolaire.
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-kit-stm32/icone.png" alt="Kit pédagogique STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ![Kit STM32 IoT Node](/img/ressources/projets-du-lab/BoxST2.png)
 

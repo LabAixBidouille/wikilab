@@ -11,12 +11,6 @@ sidebar_position: 2
 
 # Ampli HiFi numérique
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-ampli-tas3251/icone.png" alt="Ampli HiFi numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 ### Présentation
 
 Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([voir fiche dédiée](./audio-hifi)). L'objectif est de remplacer les amplificateurs précédents, dont la puissance était insuffisante, par de nouveaux amplis répondant à trois critères :
@@ -24,6 +18,12 @@ Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([v
 - puissance nettement supérieure,
 - entrée numérique I2S (le mode le plus performant),
 - traitement du signal (DSP) intégré.
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-ampli-tas3251/icone.png" alt="Ampli HiFi numérique" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 Le composant central est le TAS3251 de Texas Instruments : un amplificateur classe D 2x175W qui concentre le meilleur de l'audio TI dans un seul chip, avec un potentiel de performance supérieur à 95-99 % des produits du marché.
 
