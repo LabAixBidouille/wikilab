@@ -47,6 +47,10 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'ressources',
+          admonitions: {
+            keywords: ['question', 'hypothese'],
+            extendDefaults: true,
+          },
         },
         blog: false,
         theme: {
