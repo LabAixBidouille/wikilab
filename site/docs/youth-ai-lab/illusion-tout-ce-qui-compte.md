@@ -83,6 +83,8 @@ sidebar_position: 5
 
 **Objectif** : Faire le lien entre la théorie de l'IA et l'action physique.
 
+<img src="/img/ressources/youth-ai-lab/illusion-tout-ce-qui-compte/YouthAiLab_Explorations_Ideation_Sheet_Illusions.png" alt="Fiche idéation - L'illusion est tout ce qui compte" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
+
 ---
 
 ### Étape 3 : Comment les machines apprennent : l'apprentissage par renforcement (en classe, 45 minutes)

@@ -32,7 +32,9 @@ sidebar_position: 1
 - Récompenses pour le renforcement (bonbons, jetons, pompons)
 - Robots Cubetto, Sphero Indi et robots basés sur micro:bit, cartes de missions et ordinateurs
 
+
 <a href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la fiche d'exploration</a>
+
 
 </div>
 
@@ -43,25 +45,19 @@ sidebar_position: 1
 
 ---
 
-## Algorithmes bio-inspirés : Renforcez vos apprentissages
-
-**Phase d'exploration IA :** P2 — Construire des hypothèses sur l'IA
-
----
-
 ## Thèmes d'exploration
 
 - **Apprentissage par renforcement** : comment l'IA apprend par essais et erreurs
 - **Apprentissage bio-inspiré** : comment les machines imitent les organismes vivants
 - **Modèles mentaux** : comment les humains et les machines construisent des représentations internes
 
+
+:::info[Cette exploration s'inspire de la fiche [Né d'hier : initiation robotique](/ressources/robots-meet-arts/ne-hier) du projet Robots Meet Arts]
+:::
+
 ---
 
 ## Déroulé de l'exploration
-
-:::info[Activité inspirée]
-Cette exploration s'inspire de la fiche [Né d'hier : initiation robotique](/ressources/robots-meet-arts/ne-hier) du projet Robots Meet Arts.
-:::
 
 Cette activité révèle comment les humains et les machines apprennent par essais et erreurs. En jouant le rôle d'un algorithme d'apprentissage, les participants découvrent l'apprentissage par renforcement — récompenses en cas de succès, pénalités en cas d'échec — un principe universel partagé par l'intelligence biologique et artificielle.
 

@@ -62,6 +62,8 @@ Explication non technique de ce que signifie l'intelligence artificielle :
 - Des systèmes qui **apprennent à partir d'exemples**
 - Des systèmes qui **prennent des décisions ou font des prédictions**
 
+<img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
+
 **Approche de facilitation suggérée** : Avant de fournir une explication non technique de l'intelligence artificielle, l'animateur·rice est encouragé·e à impliquer activement les élèves en leur demandant de partager leurs propres idées et perceptions. On peut poser des questions telles que :
 
 - Que pensez-vous qu'est l'intelligence artificielle ?
@@ -75,6 +77,8 @@ L'animateur·rice recueille et discute brièvement les réponses des élèves, s
 - Créer un point de départ commun pour l'activité
 
 **Clarification fondamentale : Tout ce qui est automatique n'est pas de l'intelligence artificielle.**
+
+<img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI%20(1).png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
 ---
 
