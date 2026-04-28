@@ -283,7 +283,17 @@ Pour chaque destination (1 à 3), notez :
 - Comment allez-vous le réparer ? (Puzzle, quiz, animation, interaction ?)
 - Personnages ou objets à inclure
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.75rem', marginTop: '1rem'}}>
+  <img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/8.png" alt="Carnet du voyageur" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/9.png" alt="Carnet du voyageur" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/10.png" alt="Carnet du voyageur" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/11.png" alt="Carnet du voyageur" style={{width: '100%', height: 'auto'}} />
+</div>
+
 ## Plan de programmation
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+<div style={{flex: 1, minWidth: '280px'}}>
 
 ### Scène 1 (Briefing de mission / Laboratoire du temps)
 
@@ -302,6 +312,12 @@ Pour chaque destination (1 à 3), notez :
 ### Notes et croquis
 
 Dessinez vos idées ou prenez des notes supplémentaires ici !
+
+</div>
+
+<img src="/img/ressources/robots-meet-arts/mission-voyageurs-temps/12.png" alt="Plan de programmation" style={{flex: 1, minWidth: '280px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
 
 ---
 

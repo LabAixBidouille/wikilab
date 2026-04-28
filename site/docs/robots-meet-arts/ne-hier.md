@@ -143,6 +143,11 @@ Pour matérialiser l&#39;apprentissage par renforcement, utilisez des jetons (ou
 - Déplacement valide : gain d&#39;une récompense dans la cagnotte collective = renforcement positif
 - Déplacement interdit : l&#39;enseignant retire la totalité de la cagnotte gagnée jusqu&#39;alors et les élèves repartent du point de départ = renforcement négatif
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/ne-hier/exempleschallengesunplugged.png" alt="Exemple de challenge à résoudre sur la grille" style={{width: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de challenge à résoudre sur la grille</figcaption>
+</figure>
+
 ### Organisation du jeu
 
 Rassemblez chaque groupe autour de sa grille. Annoncez le contexte sans révéler l&#39;objectif :
@@ -154,6 +159,8 @@ Ne donnez aucune information sur l&#39;objectif ou la disposition des obstacles.
 Chaque élève reçoit une fiche de mémorisation vierge (grille vide ou feuille blanche). L&#39;enseignant peut expliquer :
 
 > « Vous pouvez utiliser cette fiche pour noter ce que vous découvrez. C&#39;est votre fiche personnelle, vous pouvez la remplir comme vous le voulez. Attention : cette fiche sera votre seule aide pour programmer votre robot dans la suite de l&#39;activité ! »
+
+<img src="/img/ressources/robots-meet-arts/ne-hier/BaseActiviteRobotique%20-%201.png" alt="Fiche de mémorisation - Base activité robotique" style={{width: '50%', height: 'auto'}} />
 
 L&#39;exploration est collective (le groupe décide ensemble des mouvements), mais chaque élève remplit sa propre fiche de mémorisation individuelle. Cela permet d&#39;observer la diversité des représentations mentales pour une même expérience vécue.
 
@@ -205,6 +212,13 @@ Les élèves découvrent également qu&#39;un robot n&#39;interprète pas les in
 | Cubetto | Blocs physiques en bois à placer sur un panneau : programmation tangible | Nombre de blocs limité (12 max), oblige à planifier et optimiser |
 | Sphero Indi | Tuiles colorées posées au sol : programmation visuelle par couleurs | Dépend des tuiles disponibles, comportements prédéfinis par couleur |
 | Robot micro:bit | Blocs sur écran (MakeCode) puis téléchargement : programmation par blocs | Calibrage des durées et distances |
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem', marginTop: '1rem'}}>
+  <img src="/img/ressources/robots-meet-arts/ne-hier/1.png" alt="Robot - étape 1" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/ne-hier/2.png" alt="Robot - étape 2" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/ne-hier/3.png" alt="Robot - étape 3" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/ne-hier/4.png" alt="Robot - étape 4" style={{width: '100%', height: 'auto'}} />
+</div>
 
 :::info[Notes pour l'enseignant·e]
 
@@ -266,6 +280,8 @@ Affichez les fiches (ou faites circuler) et animez une discussion :
 - « Si vous deviez refaire l&#39;activité, que changeriez-vous sur votre fiche ? »
 
 Maintenant que les élèves ont vécu l&#39;expérience d&#39;apprendre un chemin et de le mémoriser, montrez-leur comment une intelligence artificielle résout exactement le même problème. Projetez BioLearningGame ([https://steamcity.github.io/BioLearningGame/](https://steamcity.github.io/BioLearningGame/)), spécifiquement l&#39;onglet appelé « AI Part ».
+
+<img src="/img/ressources/robots-meet-arts/ne-hier/biolearninggame.png" alt="BioLearningGame - AI Part" style={{width: '100%', height: 'auto'}} />
 
 Les élèves observent qu&#39;au début, l&#39;IA se déplace au hasard, comme eux au début de la première phase. Elle fait beaucoup plus d&#39;erreurs que les humains : elle sort de la grille, retourne en arrière, tourne en rond. Elle teste la grille comme un labyrinthe : pour elle, une case peut être un obstacle si on y entre par la gauche, mais pas si on y entre par le haut ! Petit à petit, elle évite les obstacles qu&#39;elle a rencontrés, et finit par trouver le chemin optimal.
 

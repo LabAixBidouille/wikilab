@@ -288,6 +288,8 @@ Prenez quelques notes sur ce qui a bien fonctionné et ce qui pourrait être am�
 
 **Défi 4 : Incline pour avancer** Incline le robot vers l'avant pour le faire avancer, et incline-le vers l'arrière pour l'arrêter. *Indice : Utilise l'angle d'inclinaison du capteur de mouvement pour contrôler le déplacement.*
 
+<img src="/img/ressources/robots-meet-arts/chasseurs-tresors/exemplecarte.png" alt="Exemple de carte défi" style={{maxWidth: '100%', height: 'auto'}} />
+
 ### Cartes de phrases
 
 - Il n'y a pas de fumée sans feu.
@@ -296,6 +298,8 @@ Prenez quelques notes sur ce qui a bien fonctionné et ce qui pourrait être am�
 - Un cœur enveloppé de silence bat plus fort que les autres.
 - La fortune sourit aux audacieux.
 - Ce que les yeux cachent, les mains le révèlent.
+
+<img src="/img/ressources/robots-meet-arts/chasseurs-tresors/exemple%20cartephrase.png" alt="Exemple de carte de phrase" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Fiche de vocabulaire de programmation LEGO SPIKE
 

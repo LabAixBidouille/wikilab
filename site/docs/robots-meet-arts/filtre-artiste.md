@@ -85,6 +85,8 @@ Assurez-vous que chaque binôme a accès à une tablette avec l&#39;application 
 
 En binômes, les élèves ouvrent Google Arts &amp; Culture sur leur tablette et utilisent la fonction « Art Projector » pour visualiser des œuvres d&#39;art de manière interactive.
 
+<img src="/img/ressources/robots-meet-arts/filtre-artiste/googleart.png" alt="Google Arts & Culture - Art Projector" style={{maxWidth: '100%', height: 'auto'}} />
+
 Laissez les élèves explorer plusieurs œuvres, puis chaque groupe choisit une œuvre d&#39;art sur laquelle il souhaite travailler.
 
 ### Partie 2 : Conception du filtre (40 min)
@@ -180,13 +182,19 @@ Dans la colonne de gauche, cliquez sur l&#39;onglet jaune « Événements ». S�
 
 Cliquez sur « Face sensing » et ajoutez le bloc à votre programme. Sélectionnez la partie du corps souhaitée (nez, front, bouche...) pour placer l&#39;élément de réalité augmentée.
 
+<img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch.png" alt="Scratch - Face sensing" style={{maxWidth: '100%', height: 'auto'}} />
+
 #### Étape 3 : Faire suivre le mouvement
 
 Lorsque vous testez le programme, vous remarquerez que l&#39;élément de réalité augmentée ne se place qu&#39;une seule fois. Pour qu&#39;il suive le visage en continu, ajoutez le bloc « répéter indéfiniment » (sous « Contrôle »).
 
+<img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch2.png" alt="Scratch - répéter indéfiniment" style={{maxWidth: '100%', height: 'auto'}} />
+
 #### Étape 4 : Adapter la taille
 
 Lorsque vous vous approchez ou vous éloignez de la caméra, l&#39;élément de réalité augmentée ne change pas de taille. Pour corriger cela, ajoutez le bloc « mettre la taille à (taille du visage) ». Ainsi, l&#39;élément s&#39;agrandit quand vous êtes près et rétrécit quand vous êtes loin.
+
+<img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch3.png" alt="Scratch - mettre la taille à" style={{maxWidth: '100%', height: 'auto'}} />
 
 #### Étape 5 : Ajouter les autres éléments
 
@@ -219,6 +227,8 @@ Invitez chaque binôme à présenter son filtre d&#39;artiste à la classe. Chaq
 - Quelle œuvre d&#39;art avez-vous choisie et pourquoi ?
 - Quels éléments de réalité augmentée avez-vous créés ?
 - Qu&#39;est-ce qui a été facile ou difficile ?
+
+<img src="/img/ressources/robots-meet-arts/filtre-artiste/exemple.png" alt="Exemple de réalisation" style={{maxWidth: '100%', height: 'auto'}} />
 
 Les présentations terminées, il est temps de ranger le matériel et de célébrer le travail accompli !
 
@@ -262,6 +272,11 @@ Les élèves sauvegardent leur projet Scratch pour pouvoir le partager avec leur
 - As-tu ajouté des décorations supplémentaires et aimerais-tu les faire bouger ?
 - Sélectionne un élément et programme-le avec les blocs correspondants.
 - Exemple : Cela pourrait être une fleur située au bord de ton tableau. Plus tu penches la tête à gauche ou à droite, plus la fleur tourne.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/filtre-artiste/exempleficheinspiration.png" alt="Exemple de fiche d'inspiration pour élève" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de fiche d'inspiration pour élève</figcaption>
+</figure>
 
 ---
 

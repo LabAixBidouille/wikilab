@@ -56,8 +56,23 @@
 ### Images
 - En bloc, alignées à gauche (CSS global `display: block`)
 - Après le texte descriptif qu'elles illustrent
-- Côte à côte avec `display: flex` quand pertinent
-- Légendes avec `<figure>` + `<figcaption>` (margin: 0)
+- Légendes UNIQUEMENT si demandé explicitement (style global déjà appliqué : italique, 0.9em, gris foncé, **centré** via `.markdown figcaption`)
+- **RÈGLE STRICTE** : dès qu'une `<figcaption>` est présente, l'image ET la légende DOIVENT être centrées. Le CSS global `.markdown figure:has(figcaption)` applique le centrage automatiquement, mais il faut quand même appliquer le pattern :
+  ```jsx
+  <figure style={{margin: '1rem auto', textAlign: 'center'}}>
+    <img src="..." style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+    <figcaption style={{margin: 0}}>...</figcaption>
+  </figure>
+  ```
+  NE JAMAIS laisser une image avec figcaption alignée à gauche.
+- **Images côte à côte sans étirement** : flex container avec `alignItems: 'flex-start'` et chaque image en `maxWidth: 'calc(50% - 1rem)'` + `height: 'auto'` + `alignSelf: 'flex-start'` (préserve les proportions naturelles, espace vide sous la plus petite si tailles différentes — c'est OK)
+  ```jsx
+  <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+    <img src="..." style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+    <img src="..." style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  </div>
+  ```
+- Centrage figure + image : `<figure style={{width: 'X%', margin: '1rem auto'}}><img style={{width: '100%'}}/></figure>`
 
 ### Texte
 - Justifié (CSS global)

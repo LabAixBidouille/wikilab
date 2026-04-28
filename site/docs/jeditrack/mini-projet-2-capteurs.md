@@ -386,6 +386,11 @@ Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réell
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_111912.png" alt="Robot finalisé" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '1rem 0'}}>
+  <a href="/img/ressources/jeditrack/mini-projet-2-capteurs/Voiture_pico.py" download style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger Voiture_pico.py</a>
+  <a href="/img/ressources/jeditrack/mini-projet-2-capteurs/voiture_ultrason_(pico)_avec_commentaires_explicatifs.py" download style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger version commentée</a>
+</div>
+
 ### Checklist pour les animateurs
 
 #### Avant l'atelier- [ ]  **Matériel électronique** : Vérifier la présence de tous les composants (Pico, capteurs, moteurs, DRV8833)

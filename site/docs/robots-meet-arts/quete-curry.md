@@ -366,6 +366,17 @@ Chaque étape peut devenir un point de décision potentiel dans votre labyrinthe
 - Le schéma actantiel de Greimas (sujet, objet, destinateur, destinataire, adjuvant, opposant)
 - Les fonctions de Propp (31 fonctions narratives des contes merveilleux)
 
+## Annexe - Templates Storytelling
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming%20-%20Storytelling%20-%20Template%20-%20Copy%20of%20Storytelling.jpg" alt="Template Storytelling" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming%20-%20Storytelling%20-%20Template%20-%20Copy%20of%20Settings.jpg" alt="Template Settings" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
+
+## Annexe - Diagramme du labyrinthe narratif
+
+<img src="/img/ressources/robots-meet-arts/quete-curry/mermaid-diagram-2025-03-06-132813.png" alt="Diagramme du labyrinthe narratif" style={{maxWidth: '100%', height: 'auto'}} />
+
 ---
 
 *Cette fiche fait partie du projet [Robots Meet Arts](/projets/robots-meet-arts), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*

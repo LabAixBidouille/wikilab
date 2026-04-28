@@ -166,9 +166,15 @@ Rangez le matériel : démontez les voitures, rangez les pièces LEGO dans les k
 
 **Race Car (Ferrari)** — *It is very fast car. It has a strong engine, special tires, and a light body so it can go super fast.*
 
+<img src="/img/ressources/robots-meet-arts/course-voitures/voiture1.png" alt="Race Car (Ferrari)" style={{maxWidth: '100%', height: 'auto'}} />
+
 **Speed Shark** — *It goes on land and water and delivers clean water to villages during floods.*
 
+<img src="/img/ressources/robots-meet-arts/course-voitures/voiture2.png" alt="Speed Shark" style={{maxWidth: '100%', height: 'auto'}} />
+
 **EcoZoom** — *It has a solar-powered engine and quiet wheels. It teaches people about green technology.*
+
+<img src="/img/ressources/robots-meet-arts/course-voitures/voiture3.png" alt="EcoZoom" style={{maxWidth: '100%', height: 'auto'}} />
 
 ## Fiche de travail 2 - Présentation de la voiture de course
 

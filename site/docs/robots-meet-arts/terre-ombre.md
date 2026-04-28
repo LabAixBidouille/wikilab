@@ -161,6 +161,8 @@ Projetez des images et vidéos d&#39;écoquartiers existants à travers le monde
 - ÉcoQuartier de la ZAC de Bonne à Grenoble
 - Écoquartier de Vauban à Fribourg, Allemagne
 
+<img src="/img/ressources/robots-meet-arts/terre-ombre/exempleecoquartier.png" alt="Exemples d'écoquartiers" style={{width: '70%', height: 'auto'}} />
+
 Vous pouvez lancer un défi ludique : les élèves doivent identifier cinq aménagements écologiques visibles dans ces images qui pourraient répondre aux problèmes identifiés dans leur propre quartier. Notez leurs observations au tableau et encouragez-les à faire des liens avec leurs propres besoins.
 
 Distribuez à différents groupes des fiches descriptives d&#39;écoquartiers réels. Chaque groupe devient alors guide touristique de son écoquartier et doit préparer une présentation enthousiaste selon une grille commune : Quels aménagements ont été réalisés ? Quels résultats ont été obtenus ? Quels bénéfices pour les habitants ?
@@ -221,6 +223,11 @@ Après avoir collecté des observations qualitatives, la phase de mesures quanti
 S&#39;il s&#39;agit d&#39;une première découverte de la programmation par blocs pour vos élèves, commencez par une découverte ludique et déconnectée :
 
 - Memory des capteurs : créer un jeu de memory associant cartes représentant les capteurs et leurs fonctions.
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/memorymicrobit.png" alt="Memory micro:bit" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/memorymicrobit2.png" alt="Memory micro:bit" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 - Chasse aux données : équiper les élèves d&#39;une carte micro:bit pré-programmée et les faire explorer différents endroits.
 - Algorithme débranché - Programme humain : chaque élève représente une instruction de programmation et se place dans l&#39;ordre pour créer un programme fonctionnel.
 - Découverte collective de MakeCode : explorer l&#39;interface au vidéoprojecteur et créer ensemble un premier programme simple.
@@ -228,6 +235,11 @@ S&#39;il s&#39;agit d&#39;une première découverte de la programmation par bloc
 Organisez ensuite le travail en groupes spécialisés qui tourneront sur différents ateliers :
 
 - Atelier « Programmation » : les élèves construisent les parties du code (ensoleillement, température, humidité, comptage, niveau d&#39;eau, interactivité, enregistrement des données).
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/exemplemicrobit.png" alt="Exemple de programme micro:bit" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de programme micro:bit</figcaption>
+</figure>
 - Atelier de fabrication des protections : fabriquer des boîtiers protecteurs pour les micro:bit à partir de matériaux récupérés.
 - Atelier création de supports de communication : créer des panneaux explicatifs illustrés pour accompagner chaque station de mesure.
 
@@ -343,6 +355,8 @@ Pour terminer, proposez un temps d&#39;expression individuelle où chaque élèv
 
 ## Annexe - Fiches descriptives d&#39;écoquartiers réels
 
+<img src="/img/ressources/robots-meet-arts/terre-ombre/ficheecoquartier.png" alt="Fiche écoquartier" style={{width: '70%', height: 'auto', marginLeft: 0, marginRight: 'auto'}} />
+
 ### Écoquartier Vauban - Fribourg, Allemagne
 
 L&#39;écoquartier Vauban se trouve à Fribourg, une ville du sud de l&#39;Allemagne. Ce quartier de 42 hectares était avant une caserne militaire construite en 1936. Quand l&#39;armée est partie en 1992, la ville a décidé de transformer cet endroit abandonné en quartier écologique. Les travaux ont duré de 1996 à 2006. Aujourd&#39;hui, 5 500 personnes y habitent dans 2 800 logements.
@@ -354,6 +368,11 @@ L&#39;écoquartier Vauban se trouve à Fribourg, une ville du sud de l&#39;Allem
 - Nature : La ville a conservé 12 bâtiments de l&#39;ancienne caserne et tous les arbres centenaires. Les habitants cultivent ensemble fruits et légumes dans des jardins partagés.
 - Défis : Les logements écologiques coûtent cher, ce qui empêche les familles modestes de s&#39;installer. Le tramway est saturé aux heures de pointe.
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/exemplefrigourg1.png" alt="Écoquartier Vauban - Fribourg" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/exemplefrigourg2.png" alt="Écoquartier Vauban - Fribourg" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
+
 ### Écoquartier BedZED - Londres, Royaume-Uni
 
 BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londres. Ce petit quartier de 1,7 hectare a été construit en 2002 sur une ancienne friche industrielle. Il a été conçu par l&#39;architecte Bill Dunster pour être le premier quartier « zéro carbone » du Royaume-Uni. Aujourd&#39;hui, 250 personnes y habitent dans 82 logements.
@@ -362,6 +381,11 @@ BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londr
 - Déplacements : BedZED a seulement 0,6 place de parking par logement, contre 1,2 normalement. Un système d&#39;autopartage est disponible et il y a 40 bornes de recharge pour voitures électriques alimentées par les panneaux solaires.
 - Gestion de l&#39;eau et déchets : La consommation d&#39;eau est réduite de 50% grâce aux équipements économes et à la récupération d&#39;eau de pluie. Une centrale de cogénération biomasse devait produire l&#39;électricité et la chaleur, mais elle a été abandonnée car elle coûtait trop cher à entretenir.
 - Vie de quartier : Chaque appartement a un petit jardin privé de 15 m2. Le quartier comprend un centre communautaire, une salle de spectacles, une crèche, un complexe sportif, un café et un restaurant. Il y a 33% de logements sociaux pour favoriser la mixité.
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20BedZED%20-%20Londres%2C%20Royaume-Uni.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20BedZED%20-%20Londres%2C%20Royaume-Uni%20(2).png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
 ### Bo01 "City of Tomorrow" - Malmö, Suède
 
@@ -372,6 +396,11 @@ Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, co
 - **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux créent aussi des espaces de promenade appréciés des habitants.
 - **Déplacements** : Le quartier est conçu pour favoriser la marche et le vélo. Un réseau de pistes cyclables le relie au centre-ville, et une ligne de bus à haut niveau de service dessert le quartier.
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20Bo01%20-%20Malm%C3%B6%2C%20Su%C3%A8de.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20Bo01%20-%20Malm%C3%B6%2C%20Su%C3%A8de%20(2).png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
+
 ### ZAC de Bonne - Grenoble, France
 
 La ZAC de Bonne est un écoquartier de 8,5 hectares situé en plein centre de Grenoble, aménagé entre 2003 et 2010 sur le site d'une ancienne caserne militaire. Premier écoquartier français à recevoir le Grand Prix National ÉcoQuartier en 2009, il accueille environ 3 500 habitants dans 900 logements.
@@ -380,6 +409,11 @@ La ZAC de Bonne est un écoquartier de 8,5 hectares situé en plein centre de Gr
 - **Espaces verts** : Le parc central de 5 hectares (parc Hoche étendu) est le poumon vert du quartier, accessible à tous les habitants. Des jardins partagés permettent aux résidents de cultiver fruits et légumes.
 - **Mixité** : 40% de logements sociaux sont répartis dans tout le quartier pour favoriser la diversité sociale. Le quartier intègre aussi des commerces, des bureaux, un cinéma et des équipements publics.
 - **Gestion de l'eau** : Des noues paysagères et des bassins de rétention collectent les eaux pluviales, réduisant le ruissellement et créant des espaces verts humides appréciés pour la biodiversité.
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/L'%C3%A9coquartier%20de%20Bonne%20-%20Grenoble%2C%20France.png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/L'%C3%A9coquartier%20de%20Bonne%20-%20Grenoble%2C%20France%20(2).png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
 ---
 

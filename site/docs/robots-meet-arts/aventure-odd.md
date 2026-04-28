@@ -105,11 +105,15 @@ Imprimez ou projetez les pictogrammes des ODD (sans le texte, pour l&#39;exercic
 
 Commencez par afficher les pictogrammes des ODD pour offrir aux élèves une entrée visuelle dans ces enjeux. Montrez-leur les différentes icônes sans le texte et demandez-leur d&#39;identifier, selon eux, quel défi de société est représenté par chaque ODD.
 
+<img src="/img/ressources/robots-meet-arts/aventure-odd/sutainable-building-lrg.webp" alt="Pictogrammes des ODD" style={{maxWidth: '100%', height: 'auto'}} />
+
 Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe pour trouver des situations de leur quotidien en lien avec chacun d&#39;eux. Par exemple :
 
 - **ODD 2 : faim « zéro »** : Ne pas gaspiller la nourriture à la cantine, partager son goûter avec un camarade.
 - **ODD 7 : Énergie propre et d&#39;un coût abordable** : Éteindre la lumière en quittant une pièce, débrancher les appareils inutilisés.
 - **ODD 10 : inégalités réduites** : Inclure tout le monde dans les jeux, respecter les camarades en situation de handicap, accueillir les nouveaux élèves.
+
+<img src="/img/ressources/robots-meet-arts/aventure-odd/17-objectifs-odd-unicef.png" alt="17 objectifs ODD UNICEF" style={{maxWidth: '100%', height: 'auto'}} />
 
 À travers cette première activité, les élèves commencent à reconnaître les « grands défis mondiaux » qui se manifestent dans leur vie de tous les jours. Cela éveille leur sensibilité et leur prise de conscience.
 
@@ -132,6 +136,9 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 #### 1. Explorer les ressources de l&#39;UNESCO et de l&#39;ONU
 
 - **Go Goals!** : go Goals! est un jeu de plateau créé par l&#39;ONU pour aider les enfants à découvrir les ODD de manière simple et conviviale. En répondant à des questions, en lançant les dés et en déplaçant des pions, les élèves pratiquent la coopération et apprennent en s&#39;amusant. [http://go-goals.org/](http://go-goals.org/)
+
+  <img src="/img/ressources/robots-meet-arts/aventure-odd/SDG_BoardGame_FR-1000px-1024x724.png" alt="Plateau de jeu Go Goals" style={{maxWidth: '100%', height: 'auto', marginTop: '0.5rem'}} />
+
 - **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d&#39;aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l&#39;empathie et l&#39;imagination, tout en donnant un visage humain aux défis mondiaux. [https://www.un.org/sustainabledevelopment/sdgbookclub/](https://www.un.org/sustainabledevelopment/sdgbookclub/)
 - **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l&#39;importance de l&#39;eau et le respect de l&#39;environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. [https://issuu.com/unpublications/docs/frieda\_2018](https://issuu.com/unpublications/docs/frieda_2018)
 

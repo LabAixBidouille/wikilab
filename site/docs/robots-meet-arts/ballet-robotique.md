@@ -174,33 +174,25 @@ Après les présentations, prenez quelques minutes pour discuter :
 
 Rangez ensuite le matériel : éteignez les robots, fermez les logiciels et rangez les ordinateurs.
 
+<figure style={{margin: '1rem 0'}}>
+  <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+    <iframe src="https://www.youtube.com/embed/OlpvenEeGn4" title="Exemple de création - Ballet robotique" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0}}></iframe>
+  </div>
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de création</figcaption>
+</figure>
+
 
 ---
 
 ## Annexe 1 - Caractéristiques de la danse ballet
 
-- **Mouvements gracieux** - Les danseurs de ballet se déplacent avec fluidité et élégance.
-- **Pointes** - Les danseurs pointent leurs pieds pour créer de belles lignes.
-- **Narration expressive** - Le ballet raconte souvent une histoire à travers les mouvements et les expressions du visage, sans utiliser de mots.
-- **Posture droite** - Les danseurs se tiennent bien droits avec le dos droit et les bras ouverts pour paraître élégants et confiants.
-- **Tours et sauts** - Le ballet inclut des pirouettes impressionnantes et des sauts hauts (jetés) qui demandent beaucoup de pratique !
+<img src="/img/ressources/robots-meet-arts/ballet-robotique/particularit%C3%A9ballet.png" alt="Caractéristiques de la danse ballet" style={{maxWidth: '100%', height: 'auto'}} />
 
 ---
 
 ## Annexe 2 - La musique de ballet
 
-Le ballet, ce n'est pas seulement de la danse - c'est aussi une musique merveilleuse qui aide à raconter des histoires magiques. Découvrons ce qui rend la musique de ballet si spéciale !
-
-1. **La musique de ballet raconte une histoire !** La musique de ballet est composée pour aider les danseurs à raconter un conte de fées. La musique change pour correspondre aux émotions et aux actions des danseurs.
-2. **Elle a commencé il y a très longtemps !** La musique de ballet a débuté dans les années 1500 en France et en Italie.
-3. **L'orchestre lui donne vie !** La musique de ballet est jouée par un grand groupe de musiciens appelé orchestre. Des instruments comme les violons, les flûtes et les percussions rendent la musique excitante et magique.
-4. **Des compositeurs célèbres ont créé de magnifiques musiques de ballet !** Quelques musiciens très talentueux ont composé de la musique de ballet :
-   - **Piotr Tchaïkovski** : Il a écrit Casse-Noisette et Le Lac des cygnes !
-   - **Igor Stravinsky** : Sa musique a rendu le ballet encore plus puissant et excitant !
-   - **Ludwig Minkus** : Il a écrit Don Quichotte et La Bayadère !
-5. **Différents styles pour différentes histoires !** Certaines musiques de ballet sont douces et rêveuses (comme La Belle au bois dormant). D'autres sont rapides et dramatiques (comme L'Oiseau de feu).
-6. **La musique aide les danseurs à bouger !** Les danseurs de ballet écoutent attentivement la musique pour savoir quand sauter, tourner ou glisser.
-7. **La musique de ballet est toujours populaire aujourd'hui !** Encore aujourd'hui, les gens adorent la musique de ballet dans les films, les concerts et les théâtres ! On peut entendre des morceaux de ballet célèbres dans des dessins animés, des publicités et même des jeux vidéo !
+<img src="/img/ressources/robots-meet-arts/ballet-robotique/histoireballet.png" alt="La musique de ballet" style={{maxWidth: '100%', height: 'auto'}} />
 
 ---
 

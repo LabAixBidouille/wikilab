@@ -225,6 +225,14 @@ Pour chaque scène, les élèves notent :
 - Objectif et description de la scène
 - De quoi auras-tu besoin pour cette scène ? (arrière-plan, narration, personnages, sons, mouvements, etc.)
 
+<figure style={{margin: '1rem 0'}}>
+  <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+    <img src="/img/ressources/robots-meet-arts/dilemmes-valeurs/storyboard1.png" alt="Storyboard" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+    <img src="/img/ressources/robots-meet-arts/dilemmes-valeurs/storyboard2.png" alt="Storyboard" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  </div>
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de storyboard</figcaption>
+</figure>
+
 ## Fiche de travail 2 - Grille de critères des éléments de l&#39;histoire
 
 Utilise cette grille pour vérifier que ton histoire Scratch contient tous les éléments nécessaires. Coche chaque case au fur et à mesure que tu termines la tâche.

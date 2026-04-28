@@ -99,6 +99,11 @@ Donnez à 8 élèves une chasuble de couleur (ou tout autre matériel dont vous 
 
 Positionnez les élèves selon une structure de réseau définie (vous pouvez créer la vôtre ou utiliser celle que nous avons donnée en exemple, veillez simplement à ce que les élèves ayant reçu une chasuble de même couleur soient suffisamment éloignés). Chaque élève jouera le rôle de **nœud** dans un réseau.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/positioneleves.png" alt="Position des élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de position des élèves</figcaption>
+</figure>
+
 :::info[Définition]
 Un **nœud de réseau** se trouve à un point du réseau où il envoie, reçoit, stocke ou crée des informations. Il transmet des données pour communiquer avec d'autres nœuds. Les nœuds se connectent via une liaison ou un canal de communication. Dans un réseau informatique, il peut s'agir de connexions par câble, par fibre optique ou sans fil.
 :::
@@ -106,6 +111,11 @@ Un **nœud de réseau** se trouve à un point du réseau où il envoie, reçoit,
 ### Premier tour
 
 Donnez l'objectif du premier tour : l'élève n°1 en chasuble verte doit passer la balle verte à l'élève n°2 ayant la même couleur de chasuble. Les élèves doivent se passer la balle jusqu'à ce qu'elle atteigne sa destination sans la faire tomber au sol, simulant ainsi la façon dont les paquets de données circulent sur un réseau.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/uneballe.png" alt="Premier tour - une balle" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Premier tour - une balle</figcaption>
+</figure>
 
 Étant donné que les élèves sont placés à une distance importante les uns des autres, les passes directes risquent de faire tomber la balle, ce qui représente une **perte de paquets** en termes de réseau : si les balles (c'est-à-dire le paquet) tombent, nous pouvons considérer cela comme une perte de paquets.
 
@@ -121,6 +131,11 @@ Dans la configuration proposée, la couleur de la balle représente la notion d'
 
 Au deuxième tour, introduisez plusieurs balles simultanément pour montrer les concepts de **congestion du réseau**. Dans ce cas, l'élève n°1 possédant la chasuble verte doit passer la balle verte à l'élève n°2 possédant la même chasuble, ET DANS LE MÊME TEMPS, l'élève n°3 possédant la chasuble rouge doit passer la balle rouge à l'élève n°4 possédant la même chasuble.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/plusieursballes.png" alt="Deuxième tour - plusieurs balles" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Deuxième tour - plusieurs balles</figcaption>
+</figure>
+
 Les élèves doivent se passer les balles jusqu'à ce qu'elles atteignent leur destination sans les faire tomber sur le sol, simulant ainsi la manière dont plusieurs paquets de données circulent simultanément sur un réseau.
 
 Cela crée une situation dans laquelle certains élèves (nœuds) du réseau peuvent recevoir plusieurs balles (paquets) simultanément. Lorsqu'un élève reçoit plusieurs balles à la fois, il doit décider quelle balle passer en premier - cela simule la façon dont les réseaux informatiques gèrent la congestion du trafic. Les élèves peuvent expérimenter différentes stratégies :
@@ -134,6 +149,11 @@ Cette situation reflète une véritable congestion du réseau. La **congestion d
 ### Dernier tour
 
 Vous pouvez éventuellement ajouter un dernier tour où les élèves, à l'exception de ceux qui livrent et reçoivent le paquet, ont les yeux bandés. Revenez à la configuration initiale avec une seule balle passée et bandez les yeux de tous les élèves sauf ceux de l'expéditeur et du destinataire.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/%C3%A0laveugle.png" alt="Dernier tour - à l'aveugle" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Dernier tour - à l'aveugle</figcaption>
+</figure>
 
 Avant de leur bander les yeux, donnez aux élèves un moment pour mémoriser leur position et celle de leurs voisins. C'est essentiel car ils devront conserver leur conscience spatiale tout au long de l'exercice.
 
@@ -222,6 +242,11 @@ Distribuez un jeu de cartes à chaque groupe. Les élèves travailleront sur deu
 - **Le niveau difficile** utilise un plan présentant des contraintes spécifiques à chaque mode de transport, afin de rendre plus complexe le processus de décision. Vous pouvez ajouter à vos fonds de carte des pictogrammes représentant ces contraintes : les embouteillages, les travaux, les chemins glissants, les rues en sens unique, les enjeux d'accessibilité...
 
 L'objectif de chaque groupe sera de créer un algorithme de routage pour son mode de transport (marche, vélo, voiture ou bus) afin de choisir le meilleur chemin pour aller du point A au point B selon les niveaux d'information disponibles sur les cartes.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/exemplecarto2.png" alt="Exemple de cartographie" style={{width: '50%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de cartographie</figcaption>
+</figure>
 
 :::note[Préparation des cartes]
 

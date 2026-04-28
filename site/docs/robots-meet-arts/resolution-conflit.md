@@ -155,11 +155,15 @@ Cette checklist pourra être réutilisée tout au long de l&#39;année lorsque d
 
 **Pièges :** S&#39;ÉNERVER, RÉAGIR À CHAUD, SE TAIRE, IGNORER, IMPOSER SA SOLUTION
 
+<img src="/img/ressources/robots-meet-arts/resolution-conflit/exempletuile.png" alt="Exemple de tuile étape" style={{maxWidth: '100%', height: 'auto'}} />
+
 ### Tuiles « action » (10 tuiles valides et 10 pièges)
 
 **Valides :** Respirer, Faire une pause, Se demander « Que s&#39;est-il passé ? », Se demander « Comment je me sens ? », Dire ce que je ressens, Demander ce dont j&#39;ai besoin, Écouter l&#39;autre, Se mettre à sa place, Proposer des idées, Accepter les compromis
 
 **Pièges :** Crier, Frapper, Accuser, Ruminer, Insulter, Exiger, Couper la parole, Bouder, Vouloir gagner à tout prix, Se moquer
+
+<img src="/img/ressources/robots-meet-arts/resolution-conflit/exempleaction.png" alt="Exemple de tuile action" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Exemple d&#39;organisation de tapis complet (du Conflit à la Paix)
 
@@ -170,6 +174,17 @@ Cette checklist pourra être réutilisée tout au long de l&#39;année lorsque d
 | 3 | S&#39;EXPRIMER | Dire ce que je ressens / Demander ce dont j&#39;ai besoin |
 | 4 | ÉCOUTER | Écouter l&#39;autre / Se mettre à sa place |
 | 5 | TROUVER UNE SOLUTION | Proposer des idées / Accepter les compromis |
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <figure style={{maxWidth: 'calc(50% - 1rem)', margin: 0}}>
+    <img src="/img/ressources/robots-meet-arts/resolution-conflit/exmepletapis.png" alt="Tapis vierge" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0, textAlign: 'center'}}>Tapis vierge à compléter par les élèves</figcaption>
+  </figure>
+  <figure style={{maxWidth: 'calc(50% - 1rem)', margin: 0}}>
+    <img src="/img/ressources/robots-meet-arts/resolution-conflit/exempletapiscomplet.png" alt="Tapis complété" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0, textAlign: 'center'}}>Tapis complété avec les tuiles étapes et actions</figcaption>
+  </figure>
+</div>
 
 ---
 

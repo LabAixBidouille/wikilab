@@ -81,6 +81,11 @@ Les **déséquilibres thermiques chroniques** peuvent avoir des effets sur la sa
 - Développer l'**autonomie** dans la démarche d'investigation, **la coopération** entre pairs pour mener un projet collectif, l'**appropriation citoyenne** des outils numériques et scientifiques et la **capacité d'action** des jeunes sur leur environnement immédiat
 :::
 
+<figure style={{margin: '1rem 0'}}>
+  <img src="/img/ressources/jeditrack/etude-confort-thermique/les%20etudes%20des%20jeunes.png" alt="Illustration des données collectées pendant un atelier jeunesse" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Illustration des données collectées pendant un atelier jeunesse avec la caméra thermique Infiray P2 Pro</figcaption>
+</figure>
+
 ## Réaliser des mesures avec des capteurs de température et humidité
 
 Pour réaliser une étude autour du confort thermique, nous vous proposons plusieurs outils pratiques faisant appel soit à la programmation informatique d'une carte Micro:bit, soit à l'utilisation de capteurs simples tout-en-un. Ces solutions sont particulièrement faciles d'accès et ne demandent que très peu de compétences préalables. Même si en tant qu'animateur, vous n'avez jamais utilisé la programmation par bloc, cette activité reste accessible. Réalisez-la en amont avec vos collègues pour tester et comprendre l'utilisation des outils ! Vous pourrez facilement la transposer au sein de votre structure d'animation.

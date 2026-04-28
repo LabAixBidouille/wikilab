@@ -91,6 +91,11 @@ Dans un cadre professionnel, les planches d'inspiration sont souvent utilisées 
 Les mood boards sont facilement réalisables sur un morceau de carton, un tableau blanc, une planche de carton plume ou sur des logiciels gratuits en lignes tels que Canva (https://www.canva.com/fr_fr/decouvrir/creer-moodboard/) ou Miro (https://miro.com/fr/moodboard/)
 :::
 
+<figure style={{margin: '1rem 0'}}>
+  <img src="/img/ressources/jeditrack/mini-projet-3-fabrication/Mini%20projet%203.png" alt="Exemples d'outils d'idéation" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemples d'outils d'idéation</figcaption>
+</figure>
+
 ### La conception technique pour se focaliser sur ce qui est réalisable
 
 La conception technique est une étape essentielle dans la réalisation d'un projet de fabrication. Elle permet de définir les aspects pratiques et matériels du projet, tout en offrant des opportunités d'apprentissage. Voici les questions que vous devez vous poser pour démarrer. Vous n'aurez peut-être pas toutes les réponses, mais la phase d'idéation et de conception permet de remplir un maximum de cases. N'hésitez pas à vous faire aider, par un fablab, un passionné, un menuisier, un parent... Trouver des personnes-ressources est un élément crucial de votre projet !

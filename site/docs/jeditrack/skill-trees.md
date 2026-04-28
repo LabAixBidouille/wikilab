@@ -60,6 +60,12 @@ Certains arbres ciblent spécifiquement les jeunes avec "Kids STEAM Skills" adap
 
 [GitHub - sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.](https://github.com/sjpiper145/MakerSkillTree/tree/main)
 
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '1rem 0'}}>
+  <img src="/img/ressources/jeditrack/skill-trees/Civics%20%26%20Community%20Skill%20Tree.png" alt="Civics & Community Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/Cooking%20Skill%20Tree.png" alt="Cooking Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/Gardening%20Skill%20Tree.png" alt="Gardening Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+</div>
+
 ## Pourquoi les Skill Trees fonctionnent-ils si bien ?
 Les arbres offrent une représentation visuelle immédiate des acquis et des objectifs. Cette cartographie aide les jeunes à prendre conscience de leurs capacités et à identifier les domaines qu'ils souhaitent développer. Le principe de "colorier pour progresser" transforme l'auto-évaluation en jeu. Chaque case remplie devient une victoire personnelle qui renforce l'estime de soi et encourage la poursuite des apprentissages. Les arbres s'adaptent à tous les parcours. Les objectifs peuvent être interprétés librement, les cases remplies dans l'ordre souhaité, et les 5 cases libres permettent d'ajouter ses propres priorités. En devenant acteurs de leur évaluation, les jeunes développent leur capacité d'auto-réflexion et prennent en main leur développement personnel. Cette approche responsabilise et motive intrinsèquement.
 
@@ -148,9 +154,10 @@ Les Skill Trees peuvent servir d'outil de dialogue et de planification personnal
 
 ---
 
-<img src="/img/ressources/jeditrack/skill-trees/SkillTreeJediTrack.png" alt="Exemple de Skill Tree utilisé pendant Jedi Track" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
-
-Exemple de Skill Tree utilisé pendant Jedi Track
+<figure style={{margin: '1rem 0'}}>
+  <img src="/img/ressources/jeditrack/skill-trees/SkillTreeJediTrack.png" alt="Exemple de Skill Tree utilisé pendant Jedi Track" style={{maxWidth: '100%'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de Skill Tree utilisé pendant Jedi Track</figcaption>
+</figure>
 
 ### Bien démarrer
 

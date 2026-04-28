@@ -103,11 +103,20 @@ Concluez l'activité par un court échange. Invitez les élèves à réfléchir 
 
 ## Annexe - Exemples d'instructions
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+<div style={{flex: '7', minWidth: '280px'}}>
+
 **Verbes d'action :** main droite, main gauche, prendre, ouvrir, verser, poser, remuer, saisir, fermer, secouer, attendre, apporter, manger, tourner
 
 **Objets :** bol, cuillère, lait, céréales, capuchon, bouche, table, bouteille
 
 **Adverbes et compléments :** lent, rapide, dur, doux, un peu, beaucoup, derrière, au-dessus de
+
+</div>
+
+<img src="/img/ressources/robots-meet-arts/robot-petit-dej/exemplesinstrutions.png" alt="Exemples d'instructions" style={{flex: '3', minWidth: '180px', maxWidth: '30%', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
 
 ## Fiche d'activité - Programmer le robot petit-déjeuner
 

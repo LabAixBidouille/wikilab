@@ -46,7 +46,11 @@ sidebar_position: 11
 
 ## Liens utiles
 
-- Vidéo « Sandwich Bot » : excellente introduction aux algorithmes : [https://www.youtube.com/watch?v=leBEFaVHllE&t=77s](https://www.youtube.com/watch?v=leBEFaVHllE&t=77s)
+- Vidéo « Sandwich Bot » : excellente introduction aux algorithmes :
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', margin: '0.5rem 0 1rem'}}>
+  <iframe src="https://www.youtube.com/embed/leBEFaVHllE?start=77" title="Sandwich Bot - Introduction aux algorithmes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0}}></iframe>
+</div>
 
 ---
 
@@ -66,6 +70,7 @@ Envie de changer d&#39;artiste ? Voici d&#39;autres maîtres du collage : Hannah
 « Aujourd&#39;hui, nous allons créer des œuvres inspirées de l&#39;artiste Henri Matisse. »
 
 Pour lancer l&#39;activité, commencez par projeter une œuvre de Matisse au tableau (par exemple *Deux Masques \[La Tomate\]*).
+<img src="/img/ressources/robots-meet-arts/collage-fou-code/matisseles2tomates.jpg" alt="Henri Matisse - Deux Masques (La Tomate)" style={{width: '30%', height: 'auto', display: 'block', marginTop: '0.5rem'}} />
 
 Utilisez les questions suivantes pour discuter de ce que les élèves observent :
 

@@ -109,6 +109,11 @@ Les élèves programment Edison en utilisant l'application EdBlocks. Expliquez-l
 
 Présentez la grille aux élèves. Le personnage principal est **Ed** et il doit ranger sa chambre en ramassant les vêtements éparpillés au sol et en les classant selon la saison où il les porte.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/ed-range-chambre/grillechambreed.png" alt="Grille chambre d'Ed" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de grille de la chambre d'Ed</figcaption>
+</figure>
+
 **Instructions pour les élèves :**
 
 - Tracez une ligne noire pour relier le départ (où Edison commence) au vêtement de votre choix. Placez un obstacle sur le vêtement pour qu'Edison s'arrête en le détectant. Edison émet alors un bip et vous devez épeler le nom du vêtement.

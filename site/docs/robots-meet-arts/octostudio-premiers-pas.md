@@ -128,6 +128,16 @@ Vous pouvez également choisir de réaliser chaque exercice en classe entière p
 
 Avant de commencer le défi 8, pensez à donner une instruction supplémentaire aux élèves : la vidéo d&#39;instruction 2. Celle-ci leur permet d&#39;ajouter un second sprite (leur propre création à partir du cercle). Dans le défi 8, ils programment le cercle et le sprite qu&#39;ils ont créé. Un exemple de programme est disponible en vidéo dans le PowerPoint.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: 0}}>Exemple de défis et résolutions</figcaption>
+</figure>
+
 
 ---
 
@@ -182,6 +192,16 @@ Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochett
 - Je vois mon cercle d&#39;origine.
 - Mon cercle d&#39;origine disparaît après une seconde et je vois mon nouveau sprite.
 - Mon nouveau sprite grandit ou je peux le déplacer en bougeant la tablette.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: 0}}>Exemple de défis et résolutions</figcaption>
+</figure>
 
 ---
 

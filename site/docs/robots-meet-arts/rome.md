@@ -88,6 +88,9 @@ sidebar_position: 25
 
 :::
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+<div style={{flex: 1, minWidth: '280px'}}>
+
 L&#39;objectif de cette phase est de comprendre la hiérarchie sociale dans la Rome antique et de la représenter sous forme de pyramide.
 
 Les élèves découvrent la société romaine antique à travers des images et une courte lecture. Ils sont ensuite invités à identifier les différentes classes sociales.
@@ -101,6 +104,12 @@ Après la lecture et un bref échange, les élèves dessinent une pyramide de la
 À la fin, projetez la pyramide complète pour que les élèves vérifient leurs réponses.
 
 Les élèves ont maintenant une vision claire de la société romaine, place à la mission robotique !
+
+</div>
+
+<img src="/img/ressources/robots-meet-arts/rome/pyramide.png" alt="Pyramide de la hiérarchie sociale romaine" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
 
 
 ---
@@ -198,7 +207,17 @@ Ta classe sociale dépendait principalement de la famille dans laquelle tu naiss
 - « Je suis un Plébéien, donc je vis dans un appartement et je peux travailler et m&#39;exprimer librement. »
 - « Je suis un Esclave, donc je vis dans des baraquements et je ne peux pas voter ni posséder de biens. »
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', marginTop: '1rem'}}>
+  <img src="/img/ressources/robots-meet-arts/rome/cartemission.png" alt="Carte mission" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/rome/cartemission2.png" alt="Carte mission" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/rome/cartemission3.png" alt="Carte mission" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/robots-meet-arts/rome/cartemission4.png" alt="Carte mission" style={{width: '100%', height: 'auto'}} />
+</div>
+
 ## Fiche « Organise tes idées »
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+<div style={{flex: 1, minWidth: '280px'}}>
 
 1. Place le robot sur une case de départ et écris les cartes mission sur la grille.
 2. Dessine ensuite les commandes sur lesquelles tu dois appuyer pour programmer le robot.
@@ -207,6 +226,12 @@ Ta classe sociale dépendait principalement de la famille dans laquelle tu naiss
 > Je suis un(e) _______________
 > donc, je vis dans _____________
 > et je peux... / je ne peux pas... / je dois... _____________________
+
+</div>
+
+<img src="/img/ressources/robots-meet-arts/rome/ficheactivit%C3%A9.png" alt="Fiche activité - Organise tes idées" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
 
 ### Questions pour les élèves à discuter en petit groupe
 

@@ -147,6 +147,11 @@ Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à d
 
 Présentez Robin, le personnage principal de la séance, ainsi que le monde de Robin : la grande grille au sol préparée en amont. Faites le lien entre les lieux de la grille et le vocabulaire vu lors de la mise en route.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/journee-robin/lemondederobin.png" alt="Exemple de grille du monde de Robin" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de grille du monde de Robin</figcaption>
+</figure>
+
 ### Partie B : Production écrite (travail en groupe)
 
 Par petits groupes (3-4 élèves), les élèves décrivent la routine quotidienne de Robin à l&#39;aide de la fiche de travail et du vocabulaire suivant : *get up, breakfast, lunch, sleep, school, play, walk, robot friends, night, eight*.
@@ -221,6 +226,8 @@ Adaptation selon le niveau de langue des élèves :
 
 Lieux représentés dans la grille : *best friend&#39;s house, school, playground, home, football field, supermarket, park*.
 
+<img src="/img/ressources/robots-meet-arts/journee-robin/lemondederobin.png" alt="Le monde de Robin" style={{maxWidth: '100%', height: 'auto'}} />
+
 ## Annexe - Cartes de déplacement du robot
 
 - MOVE FORWARD (avancer)
@@ -230,6 +237,11 @@ Lieux représentés dans la grille : *best friend&#39;s house, school, playgroun
 - SPIN (pivoter)
 - LAUGH (rire)
 - REPEAT X2 / REPEAT X3 / REPEAT X4
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/journee-robin/exemplecartesrobots.png" alt="Cartes de déplacement" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/journee-robin/exemplecartesrobot2.png" alt="Cartes de déplacement" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
 ---
 

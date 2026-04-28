@@ -144,6 +144,13 @@ Annoncez le projet :
 
 Montrez une carte micro:bit et expliquez qu&#39;elle contient un capteur spécial appelé magnétomètre, capable de détecter le champ magnétique terrestre, exactement comme l&#39;aiguille d&#39;une boussole traditionnelle.
 
+En activité introductive, vous pouvez proposer aux élèves un **memory** pour associer points cardinaux, flèches et angles, et ainsi se familiariser avec le vocabulaire de l&#39;orientation.
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '1rem'}}>
+  <img src="/img/ressources/robots-meet-arts/cabane-outils/memory.png" alt="Cartes memory orientation" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/robots-meet-arts/cabane-outils/memory2.png" alt="Cartes memory orientation" style={{flex: 1, minWidth: '200px'}} />
+</div>
+
 Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille qui tourne, notre robot affichera une flèche lumineuse qui pointera toujours vers le Nord ! »
 
 
@@ -211,6 +218,8 @@ Une fois les robots construits, ou en parallèle pour proposer aux élèves de t
 
 Dans le bloc « toujours » (bloc de base), affichez simplement la direction de la boussole avec les blocs « montrer nombre » (bloc de base) et « direction de la boussole » (bloc d&#39;entrée). Testez sur l&#39;émulateur (cliquez sur la boussole simulée) puis sur une vraie carte micro:bit. Les élèves voient défiler des nombres qui changent quand ils tournent la carte.
 
+<img src="/img/ressources/robots-meet-arts/cabane-outils/code1.png" alt="Code étape 1" style={{maxWidth: '100%', height: 'auto'}} />
+
 #### Étape 2 - Afficher la lettre du point cardinal
 
 Utilisez des blocs « si... alors... sinon » pour afficher N, E, S ou O selon la valeur de l&#39;angle. Par exemple : si l&#39;angle est entre 315 et 45 degres, afficher « N » ; si entre 45 et 135, afficher « E », etc.
@@ -218,6 +227,8 @@ Utilisez des blocs « si... alors... sinon » pour afficher N, E, S ou O selon l
 #### Étape 3 - Afficher une flèche pointant vers le Nord
 
 Utilisez les blocs de LED pour créer des flèches dans les 8 directions. La flèche pointe toujours vers le Nord, donc si l&#39;utilisateur fait face au Nord (0 degres), la flèche pointe vers le haut ; s&#39;il fait face à l&#39;Est (90 degres), la flèche pointe vers la gauche (car le Nord est alors à sa gauche). À ce stade, vous pouvez également ajouter plus de détails, en spécifiant Nord-Ouest, Sud-Ouest...
+
+<img src="/img/ressources/robots-meet-arts/cabane-outils/code3.png" alt="Code étape 3" style={{maxWidth: '100%', height: 'auto'}} />
 
 Pour les groupes qui ont choisi la version avec servomoteur, poursuivez avec ces étapes supplémentaires :
 
@@ -232,6 +243,8 @@ Dans la catégorie « Variables », créez une nouvelle variable « angle » (po
 #### Étape 6 - Commander le servomoteur
 
 Cliquez sur « Avancé » pour faire apparaître la catégorie « Broches ». Utilisez le bloc « régler position servo broche P0 à » et placez-y la variable « angle ». Ajoutez une pause de 100 ms (catégorie « Base », bloc « pause (ms) ») pour stabiliser le mouvement. Testez : quand vous tournez face au Nord, la flèche pointe devant ; face à l&#39;Est, elle pointe à droite ; face à l&#39;Ouest, elle pointe à gauche.
+
+<img src="/img/ressources/robots-meet-arts/cabane-outils/code4.png" alt="Code étape 6" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Organisation pratique
 

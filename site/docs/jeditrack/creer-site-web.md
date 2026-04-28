@@ -66,6 +66,15 @@ L'utilisation de Github Pages présente de nombreux avantages : gratuit, open so
 L'utilisation de Github Pages s'aligne avec la philosophie **éco-créative** : un outil gratuit, open source, qui permet de partager les données collectées et de contribuer à la transparence des actions environnementales locales.
 :::
 
+<figure style={{margin: '1rem 0'}}>
+  <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
+    <img src="/img/ressources/jeditrack/creer-site-web/Capture%20d%E2%80%99%C3%A9cran%20du%202026-04-28%2010-13-58.png" alt="Page 1" style={{flex: 1, minWidth: '200px'}} />
+    <img src="/img/ressources/jeditrack/creer-site-web/Capture%20d%E2%80%99%C3%A9cran%20du%202026-04-28%2010-14-10.png" alt="Page 2" style={{flex: 1, minWidth: '200px'}} />
+    <img src="/img/ressources/jeditrack/creer-site-web/Capture%20d%E2%80%99%C3%A9cran%20du%202026-04-28%2010-14-30.png" alt="Page 3" style={{flex: 1, minWidth: '200px'}} />
+  </div>
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de réalisation en atelier jeunesse sur GitHub Pages</figcaption>
+</figure>
+
 ## Idées de projets jeunesse avec Github Pages
 
 | **Format "Détectives urbains" (1 semaine - enquête de quartier) - 11-16 ans** | **Format "Patrimoine de proximité" (2 semaines - projet culturel) - 8-15 ans** | **Format "Observatoire environnemental" (1 mois - projet scientifique) - 12-18 ans** | **Format "Atlas des bizarreries urbaines" (5 jours - documentation insolite) - 13-17 ans** |

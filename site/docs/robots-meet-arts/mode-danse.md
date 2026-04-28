@@ -110,6 +110,8 @@ Pendant le déroulement du jeu, circulez entre les groupes pour aider les élèv
 
 Après la partie de Memory, rassemblez tous les élèves et ouvrez l&#39;éditeur Scratch ([https://scratch.mit.edu/projects/editor/](https://scratch.mit.edu/projects/editor/)) afin de l&#39;explorer collectivement et de rendre le jeu concret. Vous pouvez également utiliser des affiches telles que : [https://edutechwiki.unige.ch/fmediawiki/images/3/37/Blocs-de-Scratch.png](https://edutechwiki.unige.ch/fmediawiki/images/3/37/Blocs-de-Scratch.png).
 
+<img src="/img/ressources/robots-meet-arts/mode-danse/Blocs-de-Scratch.png" alt="Blocs de Scratch" style={{maxWidth: '100%', height: 'auto'}} />
+
 Engagez une discussion dynamique pour chaque bloc afin de découvrir par la logique sa fonction. Complétez les réponses des élèves si besoin. Demandez-leur comment certains blocs pourraient être traduits en mouvement corporel lors des prochaines séances.
 
 Vous pouvez ensuite ouvrir une discussion plus large pour stimuler leur réflexion :
@@ -143,6 +145,8 @@ Vous pouvez imprimer l&#39;affiche rappelant la correspondance entre chaque bloc
 Commencez la séance dans la cour ou le gymnase par un rappel de l&#39;objectif : créer des programmes Scratch et les exécuter avec le corps, en profitant de l&#39;espace disponible.
 
 Divisez la classe en deux groupes et distribuez à chaque groupe un jeu de cartes Scratch identique. Expliquez que les deux groupes vont travailler en parallèle et s&#39;échanger leurs créations devenant à tour de rôle programmeur et exécutant.
+
+<img src="/img/ressources/robots-meet-arts/mode-danse/blocscratchsutilis%C3%A9s%20base.png" alt="Blocs Scratch utilisés (base)" style={{maxWidth: '100%', height: 'auto'}} />
 
 Chaque groupe utilise les cartes qui lui ont été données pour programmer une chorégraphie. Laissez-les découvrir par eux-mêmes les principes de construction d&#39;une séquence logique, sans trop les guider initialement. Cette approche par découverte leur permettra de comprendre par l&#39;expérience l&#39;importance d&#39;une structure cohérente.
 

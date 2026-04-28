@@ -127,10 +127,14 @@ Prenez le temps de présenter les défis et de donner quelques explications avan
 - Répartissez les couleurs dans votre groupe. Chaque élève joue 2 couleurs.
 - Essayez de jouer la chanson « Joyeux anniversaire ».
 
+<img src="/img/ressources/robots-meet-arts/balade-musicale/joeuxanniversaire.png" alt="Partition Joyeux anniversaire" style={{width: '50%', height: 'auto'}} />
+
 ### Défi 2 - Ah ! vous dirai-je, maman
 
 - Récupérez la partition et essayez de la réécrire pour un robot.
 - Prenez un feutre rouge, un feutre vert, etc., et « résumez » la partition.
+
+<img src="/img/ressources/robots-meet-arts/balade-musicale/ahvousdiraisjemaman.png" alt="Partition Ah ! vous dirai-je, maman" style={{width: '50%', height: 'auto'}} />
 
 ### Défi 3 - Créez un jingle pour votre prénom
 
@@ -142,6 +146,11 @@ Prenez le temps de présenter les défis et de donner quelques explications avan
 
 - Environ 10 temps de musique.
 - Utilisez les cartes pour assembler un rythme.
+
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '1rem'}}>
+  <img src="/img/ressources/robots-meet-arts/balade-musicale/percussions.png" alt="Cartes percussions corporelles" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/robots-meet-arts/balade-musicale/percussions2.png" alt="Cartes percussions corporelles" style={{flex: 1, minWidth: '200px'}} />
+</div>
 
 
 ---

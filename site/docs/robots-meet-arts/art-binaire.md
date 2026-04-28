@@ -89,6 +89,8 @@ sidebar_position: 1
 - Cadenas E : 4127
 - Cadenas F : 9133
 
+<img src="/img/ressources/robots-meet-arts/art-binaire/codeded%C3%A9part.png" alt="Code de départ" style={{width: '50%', height: 'auto'}} />
+
 ---
 
 ## Séquence 1 - Mise en route (Warm-up)
@@ -126,6 +128,9 @@ S'ils suivent correctement les instructions, ils obtiendront un symbole identiqu
 C'est ici qu'intervient le code binaire : comme un ordinateur traite des 1 et des 0, nous utilisons une tuile colorée pour représenter le 1 et une case vide pour le 0. Les élèves travaillent ainsi exactement comme un ordinateur !
 
 Veillez à ce que chaque chiffre soit saisi à la bonne position sur le cadenas. Par exemple, si le symbole apparaît en deuxième position dans la séquence, le chiffre correspondant doit être entré en deuxième position.
+
+<img src="/img/ressources/robots-meet-arts/art-binaire/exempleimpressioncartecadenas.png" alt="Exemple d'impression d'une carte cadenas" style={{maxWidth: '100%', height: 'auto', marginBottom: '1.5rem'}} />
+
 
 Si besoin, réalisez un premier défi tous ensemble pour montrer l'exemple.
 
@@ -178,10 +183,10 @@ En annexe, vous trouverez plusieurs photos pour l'inspiration. Si besoin, vous p
 
 Exemples de réalisations d'impressions Lego Dots :
 
-- Artiste : Eunice Chiong
-- Instagram : Stirchley_printworks
-- Instagram : provisionalpress
-- Instagram : Honeycomb.artistry
+<div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
+  <img src="/img/ressources/robots-meet-arts/art-binaire/exemple2.png" alt="Exemple d'impression Lego Dots" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/robots-meet-arts/art-binaire/exemple3.png" alt="Exemple d'impression Lego Dots" style={{flex: 1, minWidth: '200px'}} />
+</div>
 
 ---
 

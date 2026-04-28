@@ -104,6 +104,11 @@ Chaque groupe reçoit un défi : programmer le Blue-Bot pour qu&#39;il visite tr
 
 Les élèves doivent planifier l&#39;itinéraire ensemble, le tester et apporter des corrections si nécessaire. Encouragez-les à noter les trajets prévus et à faire des prédictions avant de lancer le robot. Cette étape de réflexion préalable les aide à développer leur pensée algorithmique.
 
+<figure style={{width: '50%', margin: '1rem auto'}}>
+  <img src="/img/ressources/robots-meet-arts/agir-vert-penser-juste/exempletapisdesol.png" alt="Exemple de tapis de sol" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de tapis de sol</figcaption>
+</figure>
+
 Circulez entre les groupes pour observer, poser des questions et accompagner les élèves dans leur réflexion sans donner directement les solutions.
 
 Les parcours sont prêts et testés, il est temps de les partager avec toute la classe !

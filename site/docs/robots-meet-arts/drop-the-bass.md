@@ -165,7 +165,75 @@ Vous pouvez proposer aux élèves de demander à leurs parents s'ils connaissent
 
 ---
 
-## Annexe 1 - Comparaison guitare acoustique et guitare basse
+## Annexe 1 - Ressource imprimable pour la réalisation de la guitare basse
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-end', flexWrap: 'wrap', justifyContent: 'center'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/robots-meet-arts/drop-the-bass/imagebasse.png" alt="Gabarit de la guitare basse" style={{height: '700px', width: 'auto', maxWidth: '100%'}} />
+    <figcaption style={{margin: 0}}>Gabarit de la guitare basse</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/robots-meet-arts/drop-the-bass/aluminium.png" alt="Schéma de disposition du papier aluminium" style={{height: '700px', width: 'auto', maxWidth: '100%'}} />
+    <figcaption style={{margin: 0}}>Schéma de disposition du papier aluminium</figcaption>
+  </figure>
+</div>
+
+## Annexe 2 - Programmation dans Scratch
+
+### Étape 1
+
+Sélectionnez ces blocs dans les catégories « Événements » et « Son ». Bloc « quand la touche espace est pressée » + bloc « jouer le son ... jusqu'au bout ».
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch1.png" alt="Scratch étape 1" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 2
+
+Dupliquez cet ensemble de blocs 4 fois.
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch2.png" alt="Scratch étape 2" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 3
+
+Vous êtes prêts à programmer.
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch3.png" alt="Scratch étape 3" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 4
+
+Modifiez chaque bloc pour associer une touche différente :
+
+- Quand la touche flèche gauche est pressée
+- Quand la touche flèche droite est pressée
+- Quand la touche flèche haut est pressée
+- Quand la touche flèche bas est pressée
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch4.png" alt="Scratch étape 4" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 5 - Changer les sons
+
+- Ouvrez l'onglet « Sons » (en haut à gauche)
+- Cliquez sur « Choisir un son » (bouton en bas à gauche)
+- Recherchez les sons de basse (« bass ») et sélectionnez un son différent pour chaque touche
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch5.png" alt="Scratch étape 5" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 6
+
+Sélectionnez 4 sons de basse différents dans la bibliothèque.
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch6.png" alt="Scratch étape 6" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 7
+
+Placez chaque son dans le bloc correspondant de votre code.
+
+<img src="/img/ressources/robots-meet-arts/drop-the-bass/scratch7.png" alt="Scratch étape 7" style={{maxWidth: '100%', height: 'auto'}} />
+
+### Étape 8
+
+Connectez votre Makey Makey et testez votre guitare basse !
+
+## Annexe 3 - Comparaison guitare acoustique et guitare basse
 
 | Caractéristique | Guitare acoustique | Guitare basse |
 |---|---|---|
@@ -174,7 +242,7 @@ Vous pouvez proposer aux élèves de demander à leurs parents s'ils connaissent
 | Cordes | 6 (plus fines) | 4 à 6 (plus épaisses) |
 | Son produit | Résonance acoustique | Sons graves et profonds |
 
-## Annexe 2 - L'histoire de la guitare basse
+## Annexe 4 - L'histoire de la guitare basse
 
 Aujourd'hui, nous allons découvrir la guitare basse, cet instrument aux sons graves et groovy qui donne de la puissance et de la profondeur à la musique !
 
@@ -205,47 +273,6 @@ Aujourd'hui, les guitares basses existent dans de nombreux styles : 4, 5, voire 
 La guitare basse, c'est un peu comme le cœur de la musique. Elle fait le lien entre la batterie et la mélodie, et s'assure que tout groove ensemble. Sans la basse, la musique semblerait vide et faible. Les bassistes sont les vrais héros du groupe !
 
 Alors, qui veut essayer de jouer un riff de basse ? C'est parti pour construire notre propre guitare basse avec le Makey Makey !
-
-## Annexe 4 - Programmation dans Scratch
-
-### Étape 1
-
-Sélectionnez ces blocs dans les catégories « Événements » et « Son ». Bloc « quand la touche espace est pressée » + bloc « jouer le son ... jusqu'au bout ».
-
-### Étape 2
-
-Dupliquez cet ensemble de blocs 4 fois.
-
-### Étape 3
-
-Vous êtes prêts à programmer.
-
-### Étape 4
-
-Modifiez chaque bloc pour associer une touche différente :
-
-- Quand la touche flèche gauche est pressée
-- Quand la touche flèche droite est pressée
-- Quand la touche flèche haut est pressée
-- Quand la touche flèche bas est pressée
-
-### Étape 5 - Changer les sons
-
-- Ouvrez l'onglet « Sons » (en haut à gauche)
-- Cliquez sur « Choisir un son » (bouton en bas à gauche)
-- Recherchez les sons de basse (« bass ») et sélectionnez un son différent pour chaque touche
-
-### Étape 6
-
-Sélectionnez 4 sons de basse différents dans la bibliothèque.
-
-### Étape 7
-
-Placez chaque son dans le bloc correspondant de votre code.
-
-### Étape 8
-
-Connectez votre Makey Makey et testez votre guitare basse !
 
 ---
 

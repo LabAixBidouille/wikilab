@@ -171,6 +171,14 @@ Pour chaque scène, les élèves notent :
 - Objectif et description de la scène
 - De quoi auras-tu besoin pour cette scène ? (arrière-plan, narration, personnages, sons, mouvements, etc.)
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <img src="/img/ressources/robots-meet-arts/once-upon-code/storyboard.png" alt="Storyboard" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+    <img src="/img/ressources/robots-meet-arts/once-upon-code/storyboard2.png" alt="Storyboard" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  </div>
+  <figcaption style={{margin: 0}}>Exemple de storyboard</figcaption>
+</figure>
+
 ## Fiche de travail 3 - Grille de critères des éléments de l'histoire
 
 Utilise cette grille pour vérifier que ton histoire Scratch contient tous les éléments nécessaires. Coche chaque case au fur et à mesure que tu termines la tâche.

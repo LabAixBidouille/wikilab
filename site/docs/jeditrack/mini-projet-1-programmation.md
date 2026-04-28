@@ -111,6 +111,8 @@ Si vous voulez animer une activité avec MakeCode Arcade sans être expert en pr
 - Ouvrez MakeCode Arcade : https://arcade.makecode.com/
 - Identifiez l'espace "**Beginner Skillmaps**" situé juste en dessous du bouton "Nouveau projet".
 
+<img src="/img/ressources/jeditrack/mini-projet-1-programmation/image%20(6).png" alt="MakeCode Arcade - Beginner Skillmaps" style={{maxWidth: '100%', height: 'auto'}} />
+
 #### Étape 2 - Explorer les Maps
 - Parcourez les différentes maps disponibles, classées par ordre de complexité.
 - Si vous débutez sur MakeCode Arcade ou si vous créer une activité pour la première fois, découvrez MakeCode Arcade par vous même en réalisant la skillmap "**Full of Stories**" pour découvrir les blocs les plus couramment utilisés : https://arcade.makecode.com/--skillmap#story

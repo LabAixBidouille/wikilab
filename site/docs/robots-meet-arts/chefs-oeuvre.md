@@ -123,6 +123,11 @@ Commencez par présenter le robot de sol aux élèves. Faites une démonstration
 
 Expliquez ensuite l&#39;activité aux élèves : Six cartes sont placées de manière aléatoire sur le sol ou sur une grande table. Chaque paire de cartes représente un mélange de couleurs. Par exemple : une carte « Jaune + Bleu » doit être associée à la carte « Vert ».
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/chefs-oeuvre/m%C3%A9langecouleurs.png" alt="Mélange des couleurs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de mélange des couleurs</figcaption>
+</figure>
+
 Les élèves programment le robot pour qu&#39;il parte de la carte du mélange et navigue jusqu&#39;à la carte représentant le résultat correct. Si le robot ne s&#39;arrête pas sur la bonne carte, les élèves doivent analyser l&#39;erreur, ajuster leur programme et réessayer. Encouragez la collaboration et la résolution de problèmes pendant que les élèves affinent leurs programmes.
 
 ### Stations 3 et 4 : Défi de reconnaissance artistique (40 min)
@@ -181,6 +186,11 @@ Rassemblez tous les élèves et discutez de leurs expériences aux différentes 
 Présentez ensuite le jeu final :
 
 - Deux jeux de mémoire type memory sont installés, chacun opposant deux groupes l&#39;un contre l&#39;autre.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/chefs-oeuvre/exemplememory.png" alt="Exemple de jeu de mémoire" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de jeu de mémoire</figcaption>
+</figure>
 - Chaque groupe utilise le même type de robot de sol que lors de la première activité.
 - Les joueurs programment à tour de rôle le robot pour qu&#39;il se déplace d&#39;une carte (A) vers une autre carte (B).
 - Ils retournent ensuite les deux cartes :

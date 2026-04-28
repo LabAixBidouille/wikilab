@@ -106,6 +106,11 @@ Chaque groupe présente ensuite son travail à la classe. C&#39;est l&#39;occasi
 
 L&#39;enseignant·e présente la grille aux élèves. Le personnage principal s&#39;appelle Jean : c&#39;est lui que les élèves vont « programmer ». La grande grille au sol représente son environnement — une ville divisée en cases, avec des déchets de différents types dispersés un peu partout.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/robots-meet-arts/rangers-tri/grillesol.png" alt="Grille au sol" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de grille au sol</figcaption>
+</figure>
+
 Chaque groupe reçoit une grille et un jeu de cartes de déplacement. L&#39;enseignant·e explique la fonction de chaque carte et montre quelques exemples. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
 
 ### Le défi : Nettoyer la ville de Jean
@@ -144,12 +149,16 @@ Pour conclure, l&#39;enseignant·e rassemble le matériel, puis revient sur les 
 
 Voici Jean. Jean a récemment entendu parler du recyclage et il a un sac plein de matériaux recyclables, mais il ne sait pas quelle poubelle utiliser. Pouvez-vous l&#39;aider ? Dessinez les poubelles de recyclage que vous connaissez et écrivez une légende pour chaque poubelle, accompagnée de 2-3 phrases expliquant comment les matériaux que vous mentionnez pourraient être réutilisés ou pourquoi leur recyclage est important.
 
+<img src="/img/ressources/robots-meet-arts/rangers-tri/fichetravail.png" alt="Fiche de travail" style={{maxWidth: '100%', height: 'auto'}} />
+
 ## Cartes de déplacement du robot
 
 - AVANCER
 - TOURNER À GAUCHE
 - TOURNER À DROITE
 - RETOUR AU DÉPART
+
+<img src="/img/ressources/robots-meet-arts/rangers-tri/carterobotdeplacement.png" alt="Cartes de déplacement du robot" style={{maxWidth: '100%', height: 'auto'}} />
 
 ---
 
