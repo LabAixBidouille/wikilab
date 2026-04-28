@@ -39,13 +39,6 @@ sidebar_position: 19
 
 ---
 
-## L'odyssée de l'IA
-
-- **Thématique** : intelligence artificielle et nouvelles technologies
-- **Sous-thème** : engagement citoyen, gouvernance et données
-
----
-
 ## Introduction
 
 L'intelligence artificielle (IA) devient une composante à part entière des environnements urbains dans lesquels nous vivons, influençant divers aspects de notre vie quotidienne, même lorsque sa présence n'est pas immédiatement perceptible.
@@ -70,6 +63,11 @@ Au cours de cette activité, les élèves exploreront leur école ou leur ville 
 
 **Étape 3 - Phase d'analyse et de réflexion - Comprendre la collecte de données urbaines.** Cette phase de discussion approfondie en classe consiste à comparer les résultats de terrain aux attentes initiales, à répertorier les nouvelles découvertes et à examiner en détail les applications d'IA associées à chaque capteur découvert. Les élèves travaillent ensemble pour comprendre les implications plus larges de leurs observations et l'interconnexion des systèmes de détection urbains. En conclusion, ils sont encouragés à réfléchir de manière critique aux implications en matière de confidentialité. Ils évaluent l'équilibre entre progrès technologiques et vie privée, en tenant compte de la manière dont ces technologies façonnent leur environnement quotidien et le développement urbain futur.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/ai-odyssey/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Capteurs** : Appareils qui détectent et réagissent aux signaux physiques de l'environnement, tels que caméras, microphones, capteurs de température ou détecteurs de mouvement. Ces appareils collectent des données pouvant être traitées par des systèmes d'IA.
@@ -86,21 +84,6 @@ Au cours de cette activité, les élèves exploreront leur école ou leur ville 
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 
-
-## Informations générales
-
-| | |
-|---|---|
-| Disciplines | technologie/ingénierie ; éducation morale et civique |
-| Durée | Quatre heures (1 heure de préparation, 1 heure de marche, 2 heures de débriefing) |
-| Niveau de difficulté | — |
-| Matériel | Aucun matériel spécifique n'est nécessaire |
-
-### Objectifs de développement durable
-
-(Se référer aux ODD pertinents pour l'activité.)
-
----
 
 ## Étape 1 : Phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
 

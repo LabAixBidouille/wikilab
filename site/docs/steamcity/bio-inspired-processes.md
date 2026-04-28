@@ -39,12 +39,6 @@ sidebar_position: 23
 
 ---
 
-## À la découverte des processus d'apprentissage bio-inspirés
-
-**Thématique** : intelligence artificielle et nouvelles technologies
-
----
-
 ## Introduction
 
 L'apprentissage est l'un des processus fondamentaux que partagent les humains et les machines, même si les mécanismes peuvent être très différents. Dans cette activité, les élèves se lanceront dans un voyage exploratoire pour découvrir comment une machine apprend et le comparer à leurs propres processus d'apprentissage. En participant à des exercices pratiques, ils comprendront à la fois les défis et les méthodes de l'apprentissage par essais et erreurs, et observeront comment les commentaires, positifs ou négatifs, peuvent favoriser l'amélioration.
@@ -62,6 +56,11 @@ L'activité se déroulera en trois étapes principales, chacune conçue pour int
 3. **Adaptabilité des humains par rapport aux machines** : À cette étape, les élèves compareront leur adaptabilité à celle de l'IA. Ils se diviseront en deux groupes : l'un modifiera la carte de la ville et l'autre devra naviguer à travers les changements sans voir la carte. Pendant ce temps, le modèle informatique tentera d'apprendre l'environnement modifié. L'objectif est de comparer la rapidité et l'efficacité avec lesquelles les humains et les machines s'adaptent au nouvel environnement.
 
 À la fin de l'activité, la discussion sera ouverte pour considérer avec les élèves les impacts positifs de l'IA dans leur vie quotidienne et leur avenir ainsi que pour identifier ses limites.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/bio-inspired-processes/StructureSch%C3%A9ma1.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
 
 ### Glossaire
 
@@ -83,23 +82,6 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 :::
 
 
-## Informations générales
-
-| | |
-|---|---|
-| Disciplines | technologie ; biologie |
-| Durée | Trois séances d'environ 45 minutes |
-| Niveau de difficulté | Modéré |
-| Matériel | Une grille imprimée 6x6, un marqueur pour indiquer la position actuelle, un ordinateur ou une tablette pour accéder à l'outil en ligne BioLearningGame, et des tableaux blancs pour des discussions collaboratives |
-
-Les élèves devront acquérir des compétences de base en résolution de problèmes et être guidés dans la compréhension des concepts des processus d'apprentissage.
-
-### Objectifs de développement durable
-
-(Se référer aux ODD pertinents pour l'activité.)
-
----
-
 ## Étape 1 : Découvrir l'apprentissage humain grâce à un jeu débranché
 
 ### Contexte de la séquence
@@ -113,7 +95,26 @@ Dans cette première étape, les élèves participeront à un jeu formel conçu 
 
 ### Conceptualisation
 
-Durant cette étape, les élèves joueront à un jeu pour découvrir et explorer le concept d'apprentissage par l'essai à travers une approche ludifiée. Afin de lancer le jeu, voici le déroulement typique d'une séquence. Les élèves disposent d'une grille 6x6 (soit dessinée au tableau de la classe, soit imprimée pour être utilisée en petits groupes ou individuellement) et d'un marqueur de points. Ils doivent déplacer le marqueur dans l'une des quatre directions possibles (haut, bas, gauche ou droite) et créer un itinéraire pour trouver leur objectif de point final, c'est-à-dire un endroit précis sur la grille. L'enseignant jouera le rôle d'« environnement », en donnant un retour après chaque mouvement :
+Durant cette étape, les élèves joueront à un jeu pour découvrir et explorer le concept d'apprentissage par l'essai à travers une approche ludifiée. Afin de lancer le jeu, voici le déroulement typique d'une séquence. Les élèves disposent d'une grille 6x6 (soit dessinée au tableau de la classe, soit imprimée pour être utilisée en petits groupes ou individuellement) et d'un marqueur de points.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/bio-inspired-processes/SteamCity_Mat_Bioinspired_130x110cm.png" alt="Grille 6x6 SteamCity Bioinspired" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Grille 6×6 du jeu</figcaption>
+</figure>
+
+Ils doivent déplacer le marqueur dans l'une des quatre directions possibles (haut, bas, gauche ou droite) et créer un itinéraire pour trouver leur objectif de point final, c'est-à-dire un endroit précis sur la grille.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/1.png" alt="Carte défi 1" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/2.png" alt="Carte défi 2" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/3.png" alt="Carte défi 3" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/4.png" alt="Carte défi 4" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: 0}}>Exemples de cartes défis</figcaption>
+</figure>
+
+L'enseignant jouera le rôle d'« environnement », en donnant un retour après chaque mouvement :
 
 - **« Continuer »** : Les élèves peuvent continuer à se déplacer pour tenter de trouver l'objectif.
 - **« Perdre »** : Les élèves ont heurté un obstacle ou emprunté un mauvais chemin et ils doivent recommencer depuis le début.
@@ -220,6 +221,14 @@ L'enseignant peut également illustrer que chaque action de l'IA est motivée pa
 ### Investigation par les élèves
 
 Au cours de la phase d'investigation, les élèves observeront et analyseront activement le comportement d'apprentissage de l'IA sur l'application BioLearning. Ils peuvent utiliser le graphique situé sous le plateau de jeu pour comprendre le processus global d'apprentissage.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', justifyContent: 'center'}}>
+    <img src="/img/ressources/steamcity/bio-inspired-processes/biolearninggame.png" alt="BioLearningGame" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/biolearninggame2.png" alt="BioLearningGame" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  </div>
+  <figcaption style={{margin: 0}}>Application BioLearningGame</figcaption>
+</figure>
 
 L'enseignant doit les encourager à faire des observations spécifiques et détaillées concernant le processus d'apprentissage de l'IA :
 

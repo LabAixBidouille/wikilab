@@ -74,6 +74,11 @@ Durant la phase 2, les élèves mettront en oeuvre leur protocole. Ils commencer
 
 Une fois la semaine de collecte terminée, les élèves compileront et analyseront les données selon les méthodes définies dans leur protocole expérimental. Sur la base de ces analyses, les élèves créeront des graphiques et des visualisations pour représenter les corrélations entre les niveaux de bruit et les différents indicateurs de bien-être et de performance cognitive. Ils examineront également l'influence des facteurs externes sur ces relations. Les élèves interpréteront les résultats de leur analyse et réfléchiront sur leurs implications. Plusieurs questions guideront leur réflexion : quelles corrélations avez-vous observées entre le niveau de bruit et vos indicateurs de bien-être/performance cognitive, comment les autres facteurs (activité physique, météo, type d'activité en classe) ont-ils influencé ces relations, quelles recommandations pourriez-vous faire pour améliorer l'environnement sonore de la classe et optimiser les conditions d'apprentissage, quelles ont été les principales difficultés rencontrées lors de cette étude, et comment pourrait-on améliorer le protocole pour de futures investigations... Les élèves synthétiseront leurs résultats et conclusions dans une présentation visuelle (par exemple, un poster scientifique ou une présentation).
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/decibel-detective/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 | Mesures | Durée | Matériel |
 |---|---|---|
 | Préparation de l'étude | 30 minutes | Ordinateurs ou tablettes avec accès internet pour la recherche documentaire, tableau blanc ou grand papier pour la création du protocole, marqueurs de différentes couleurs, post-its pour le brainstorming |

@@ -61,6 +61,11 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 2. **Étape 2 -- « Données vs. Prise de décision » :** Les élèves seront organisés en petits groupes pour une activité de jeu de rôle. Chaque groupe recevra une mission spécifique comme "Améliorer la sécurité routière pour les piétons" ou "Trouver des solutions pour augmenter la fréquentation des parcs", qu'il devra accomplir en utilisant un ensemble de données fourni par l'enseignant. Ces ensembles de données peuvent inclure des statistiques, des graphiques, des rapports... et doivent conduire à la proposition de plusieurs propositions de politiques publiques pour améliorer la situation donnée. Les élèves seront chargés de présenter leurs conclusions, en soulignant les causes et les effets, et comment ils ont traité les ensembles de données.
 3. **Étape 3 -- « Données vs. Contexte » :** Les élèves, toujours organisés dans les groupes créés à l'étape 2, avec la même mission, auront accès à une nouvelle information, qui n'avait pas été révélée à l'étape précédente. Ils devront discuter si et comment cette nouvelle ressource a un impact sur leurs conclusions. Ils peuvent affiner leurs propositions de politiques publiques et réfléchir à la façon dont ils ont construit leur compréhension de la situation tout au long de l'activité.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/donnees-contexte/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Données** : Faits bruts et non traités qui nécessitent un contexte pour devenir utiles.

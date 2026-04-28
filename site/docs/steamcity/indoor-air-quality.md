@@ -86,6 +86,11 @@ L'étape 4 est le point culminant du protocole de surveillance du CO2, où les �
 **Matériel nécessaire** : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bit) ; 1 shield Grove ; 1 LED RGB Neopixel ; 1 écran LCD ; 1 capteur Sensirion SCD30 ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB.
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/indoor-air-quality/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 **Dioxyde de carbone** : Le dioxyde de carbone est un gaz inodore, incolore et sans goût. Il est donc difficile de détecter sa présence où que ce soit. Une molécule de dioxyde de carbone est composée d'un atome de carbone (C) et de deux atomes d'oxygène (O). Mais d'où vient-il ? Lorsque nous inspirons, nous inhalons du dioxygène (O2) de l'air et expirons du dioxyde de carbone (CO2). L'activité humaine produit également du dioxyde de carbone, notamment lors de la combustion d'hydrocarbures (chauffage au bois, combustion de carburants, centrales à charbon, etc.). Dans une pièce fermée, on peut considérer que le dioxyde de carbone provient uniquement de la respiration des personnes présentes à l'intérieur.

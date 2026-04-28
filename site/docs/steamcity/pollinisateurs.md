@@ -58,6 +58,11 @@ L'expérimentation se déroule en trois étapes clés :
 3. **Analyser les données et réfléchir sur les biais** : Les élèves analyseront les données recueillies pour identifier les tendances. Ils calculeront des statistiques de base, utiliseront des outils visuels et réfléchiront aux biais et aux limites potentiels de l'expérience.
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/pollinisateurs/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Écosystème** : Une communauté d'organismes vivants qui interagissent entre eux et avec leur environnement physique.

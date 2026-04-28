@@ -77,6 +77,11 @@ L'étape finale de mise en place du mur végétal constitue l'aboutissement conc
 - **Matériel nécessaire par groupe** : 1 carte Micro:bit, 1 capteur DHT-11, 1 Micro:bit Grove Shield, 3 câbles Grove, 1 câble micro USB, 1 câble adaptateur Grove Dupont, 4 câble Dupont Femelle-Femelle, 1 lecteur de carte OpenLog micro-SD, 1 carte micro-SD, 1 Batterie 5V (par exemple, batterie externe)
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Végétalisation urbaine** : Pratique consistant à introduire et à entretenir de la végétation dans les zones urbaines pour améliorer la biodiversité, l'esthétique et la qualité de l'environnement.

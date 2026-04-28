@@ -87,6 +87,11 @@ Le défi de mise en oeuvre encourage les participants à compléter le comportem
 Le hackathon nécessite un seul Roobopoli pour tous les groupes : [https://www.roobopoli.org/semaforo](https://www.roobopoli.org/semaforo)
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/regulation/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Atelier pratique en groupe** : Une méthode pratique et interactive qui favorise la collaboration et l'innovation entre les participants.

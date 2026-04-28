@@ -62,6 +62,11 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 1. **Étape 1 — Familiarisation et idéation.** Les participants se familiarisent avec les concepts fondamentaux et proposent une idée de l'objet qu'ils souhaitent concevoir.
 2. **Étape 2 — Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/smart-object-safari/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Actionneur** : Composant d'un objet intelligent qui exécute une action physique en réponse à des données ou à des signaux (par exemple, un moteur, une lumière, un haut-parleur).

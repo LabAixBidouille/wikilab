@@ -106,6 +106,11 @@ Présentation du Carnet du Détective : Le Carnet du Détective est un outil cen
 Le carnet est divisé en trois sections, chacune correspondant à une étape de la séquence. Chaque section intègre des modèles de prises de notes, croquis, tableaux de données, facilitant une documentation claire et complète du parcours d'enquête. Les élèves sont invités à mettre à jour le carnet après chaque activité, assurant une continuité dans la construction des savoirs.
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/city-detective-challenge/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 **Service public** : Un service fourni par le gouvernement pour le bénéfice du grand public. Il comprend des services tels que l'éducation, la santé, les transports et la sécurité publique. Ces services sont financés par les impôts et visent à assurer le bien-être et le bien-être de la communauté.

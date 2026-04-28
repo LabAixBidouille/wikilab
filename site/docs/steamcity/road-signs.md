@@ -40,13 +40,6 @@ sidebar_position: 17
 
 ---
 
-## Thématique
-
-- **Thématique** : mobilité durable, transport et régulation
-- **Sous-thème** : intelligence artificielle et nouvelles technologies
-
----
-
 ## Introduction
 
 Les infrastructures routières connaissent une transition majeure avec l'arrivée des véhicules autonomes, qui partagent désormais la chaussée avec les véhicules traditionnels conduits par des humains. Ce protocole pédagogique s'intéresse à un défi essentiel de cette transition : la conception de signaux routiers clairs et interprétables à la fois par les conducteurs humains et par les systèmes autonomes.
@@ -64,6 +57,11 @@ Le protocole se divise en trois phases complémentaires :
 - **Étape 2 : tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
 - **Étape 3 : entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/road-signs/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Ambiguïté des panneaux** : Le risque qu'un panneau soit mal interprété ou confondu avec des panneaux existants.
@@ -74,21 +72,6 @@ Le protocole se divise en trois phases complémentaires :
 - **Test d'ambiguïté** : Processus de vérification visant à déterminer si un panneau proposé est similaire aux panneaux existants.
 - **Véhicules autonomes** : Véhicules capables de naviguer sans intervention humaine, nécessitant une signalisation spécialisée.
 
-
-## Informations générales
-
-| | |
-|---|---|
-| Disciplines | technologie et ingénierie ; géographie ; art et design |
-| Durée | Au moins 2 heures par jour pendant 3 jours |
-| Niveau de difficulté | — |
-| Matériel | Outils phygitaux (numérique + physique), feuilles de papier 15 cm x 15 cm, outil de classification d'images IA (SignVisionAI ou Vittascience) |
-
-### Objectifs de développement durable
-
-(Se référer aux ODD pertinents pour l'activité.)
-
----
 
 ### Quelques conseils d'organisation
 

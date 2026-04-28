@@ -64,6 +64,11 @@ Dans ce protocole, les élèves développeront un système de tri des déchets b
 - **Matériel nécessaire** : Ordinateur avec webcam (ou caméra HUE HD) ; Micro:bit ; Grove Shield pour micro:bit ; Servomoteur.
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/waste-sorting/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Intelligence artificielle (IA)** : Un ensemble de théories et de techniques utilisées pour créer des machines capables de simuler l'intelligence humaine.

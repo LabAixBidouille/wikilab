@@ -96,6 +96,11 @@ Chaque étape s'appuie sur la précédente, créant une progression d'apprentiss
 - [Calisph'air](https://enseignants-mediateurs.cnes.fr/fr/projets/calisphair)
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/outdoor-air-quality/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Particules fines (PM10 et PM2,5)** : Les particules fines (PM) sont constituées d'un mélange complexe de particules solides et liquides, de substances organiques et minérales en suspension dans l'air. Elles peuvent être d'origine naturelle (volcanisme, érosion...) ou générées par les activités humaines (chauffage, transport routier, industrie...). Elles sont classées selon leur taille : PM 2,5 (particules de diamètre inférieur ou égal à 2,5 µm), PM 10 (particules de diamètre inférieur ou égal à 10 µm). À titre de comparaison, un cheveu humain a un diamètre de 50 à 70 µm.

@@ -60,6 +60,11 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 - **Étape 3 : construction d'un arbre de décision guidé par un algorithme.** En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
 - **Étape 4 : explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, la dernière étape incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Arbre binaire** : un arbre binaire est une structure de données dans laquelle chaque élément (appelé nœud) possède au maximum deux nœuds enfants et au maximum un nœud parent. Les nœuds sans enfants sont appelés les « feuilles » de l'arbre.
@@ -68,21 +73,6 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 - **Modèle** : le modèle est le résultat du processus d'apprentissage. C'est lui qui permet de faire des prédictions sur de nouvelles données.
 - **Généralisation** : la généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant la formation.
 - **Performances du modèle** : la performance du modèle est la mesure de la capacité d'un modèle à faire des prédictions correctes.
-
-## Informations générales
-
-| | |
-|---|---|
-| **Disciplines** | technologie et ingénierie ; biologie ; physique et chimie |
-| **Durée** | 4 heures |
-| **Niveau de difficulté** | — |
-| **Matériel** | Toutes les cartes et fiches sont disponibles pour impression en annexes. 1 jeu de cartes « Numéro », 1 jeu de cartes « Dataset de véhicules » par groupe, 1 feuille d'algorithme par groupe |
-
-### Objectifs de développement durable
-
-(Se référer aux ODD pertinents pour l'activité.)
-
----
 
 ## Étape 1 : Comprendre les arbres binaires
 

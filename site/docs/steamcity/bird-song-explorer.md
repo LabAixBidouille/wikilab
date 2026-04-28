@@ -80,6 +80,11 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
 - **Niveau de difficulté** : modéré.
 - **Matériel nécessaire** : ordinateurs ou appareils mobiles ; microphones pour l'enregistrement des sons d'oiseaux ; accès à l'application ou au site web BirdNET ou Merlin Bird ID ; carnets pour l'enregistrement des données ; projecteur pour les démonstrations ; OpenStreetMap pour la géolocalisation et la cartographie.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/bird-song-explorer/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Biodiversité urbaine** : la variété des organismes vivants que l'on trouve dans les environnements urbains, y compris les oiseaux, les plantes et d'autres espèces sauvages.

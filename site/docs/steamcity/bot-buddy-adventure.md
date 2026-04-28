@@ -78,6 +78,11 @@ La phase finale complète l'agent conversationnel en implémentant les capacité
 Ce protocole initie les élèves au développement d'un agent conversationnel autonome à travers une expérience d'apprentissage structurée et pratique. Le processus est divisé en quatre étapes complémentaires qui s'appuient les unes sur les autres pour créer une compréhension globale des systèmes d'IA conversationnelle.
 
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/bot-buddy-adventure/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Agent conversationnel** : Également connu sous le nom de chatbot, un agent conversationnel intelligent est un programme logiciel robotisé qui utilise une base de données pour communiquer avec un humain en langage naturel, soit verbalement soit par écrit.

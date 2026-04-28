@@ -71,6 +71,11 @@ L'activité FactBuster est structurée en trois phases complémentaires, chacune
 - **Phase 2 : Construire des protocoles de vérification des faits** : Pas de matériel spécifique nécessaire
 - **Phase 3 : Diffuser la culture scientifique** : Pour une version numérique, accès à des ordinateurs ou tablettes et à des outils de création graphique (Canva par exemple propose une version gratuite pour le monde scolaire) ou pour une version papier, accès à des panneaux type carton-plume pour créer des posters
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/fact-busters/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Démarche scientifique** : Processus méthodique de recherche comprenant l'observation, la formulation d'hypothèses, l'expérimentation, l'analyse des résultats et la conclusion.

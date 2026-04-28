@@ -83,6 +83,11 @@ Ils prendront conscience de l'importance de la coopération entre ces différent
 
 #### Récapitulatif
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/sound-squad/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 | Mesures | Durée | Matériel |
 |---|---|---|
 | Définition des indicateurs | 30 minutes | Ordinateurs ou tablettes avec accès internet pour la recherche documentaire, Tableau blanc ou grand papier pour la création collective d'indicateurs, Marqueurs de différentes couleurs, Post-its pour le brainstorming |

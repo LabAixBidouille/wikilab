@@ -67,6 +67,11 @@ L'expérimentation se déroule en quatre étapes progressives, permettant aux é
 
 4. **Étape 4 -- Cartographie collaborative des pertes de chaleur urbaines.** Dans la phase finale, les élèves élargissent leur démarche à l'échelle du quartier ou de la ville. Ils mènent une « marche thermique », équipée de caméras thermiques, afin de collecter des données sur les déperditions de chaleur de plusieurs bâtiments. Ces observations sont ensuite utilisées pour créer une carte collaborative des pertes thermiques urbaines. Cette étape replace leur travail dans un cadre collectif et citoyen, et les conduit à proposer des pistes concrètes d'amélioration de l'efficacité énergétique à l'échelle de la communauté.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/insulation/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
+</figure>
+
 ### Glossaire
 
 - **Isolation thermique** : Matériaux ou techniques utilisés pour réduire le transfert de chaleur entre les environnements intérieurs et extérieurs.
