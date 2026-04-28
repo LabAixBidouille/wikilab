@@ -56,12 +56,14 @@ Cette fiche technique accompagne la ressource [Temps de réaction en une demi-se
 
 ---
 
-## PROG13-TDL-1 : Stimulus visuel (LED)
+## Étape 1 : Stimulus visuel (LED)
 
 **Câblage :**
 
 - Bouton-poussoir : une patte sur GND, l'autre sur D2
 - LED : anode sur D4, cathode via résistance 330Ω sur GND
+
+<img src="/img/ressources/thedexterlab/programmation-temps-reaction-demi-seconde/led.webp" alt="Câblage LED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 La LED a une orientation. L'anode (le '+') est plus longue que la cathode (le '-').
@@ -87,12 +89,14 @@ newGame()
 
 ---
 
-## PROG13-TDL-2 : Stimulus sonore (buzzer)
+## Étape 2 : Stimulus sonore (buzzer)
 
 **Câblage :**
 
 - Bouton-poussoir : une patte sur GND, l'autre sur D2
 - Buzzer : côté '+' sur D3, côté '-' sur GND
+
+<img src="/img/ressources/thedexterlab/programmation-temps-reaction-demi-seconde/micro.webp" alt="Câblage micro/buzzer" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 Installez les extensions **Music** et **Serial**.
 
@@ -114,7 +118,7 @@ newGame()
 
 ---
 
-## PROG13-TDL-3 : Afficher les données sur un écran
+## Étape 3 : Afficher les données sur un écran
 
 **Câblage écran OLED SSD1306 (I2C) :**
 
@@ -122,6 +126,8 @@ newGame()
 - VCC → 3.3V de la carte
 - SDA → D14 de la carte
 - SCL → D15 de la carte
+
+<img src="/img/ressources/thedexterlab/programmation-temps-reaction-demi-seconde/ecran.webp" alt="Câblage écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 Installez l'extension **oled**.
 

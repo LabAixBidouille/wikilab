@@ -59,6 +59,11 @@ Cette activité a pour but d'essayer différentes matières (bois, métal, mouss
 
 Ce protocole décrit une expérience scientifique visant à mesurer le pouvoir d'isolation phonique de différents matériaux. La collecte de données se fait en utilisant un microphone pour mesurer l'intensité du son à l'intérieur et à l'extérieur de boîtes contenant différents matériaux.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/attenuation-son-materiau/DATA19_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Les compétences mobilisées par ce protocole sont :

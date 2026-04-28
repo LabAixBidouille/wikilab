@@ -231,6 +231,11 @@ article li,
   padding: 0.4rem 0.75rem;
 }
 
+/* Hauteur minimale pour les lignes (utile pour les tableaux à remplir par les élèves) */
+.markdown table tbody tr {
+  height: 2.5rem;
+}
+
 /* Tableau d'intro (Projet/Durée/Difficulté/Âge) : colonnes égales */
 .markdown > table:first-of-type,
 article > table:first-of-type {

@@ -66,6 +66,11 @@ Voici les étapes d'expérimentation proposées :
 5. Collecter des données en exécutant le programme et en appuyant sur le bouton-poussoir.
 6. Analyser les données collectées pour mesurer le temps de réaction à un stimulus sonore ou visuel.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/temps-reaction-demi-seconde/DATA13_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Grâce à la mise en œuvre de ce projet, les élèves pourront aborder plusieurs thématiques transdisciplinaires incluant :

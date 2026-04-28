@@ -60,6 +60,11 @@ Avant l'invention des horloges et des montres, comment pensez-vous que les humai
 
 Cette activité guide les élèves à travers une exploration des pendules pour comprendre comment ils peuvent mesurer le temps. Divisée en plusieurs sous-protocoles, l'expérience commence par l'identification des principes de base d'un pendule, puis étudie comment la longueur du fil et le poids affectent son mouvement. Ensuite, les élèves calibrent un pendule pour mesurer des intervalles de temps précis et comparent leur fiabilité avec un chronomètre. L'activité se conclut par une réflexion sur les résultats et les applications historiques des pendules.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/mesurer-temps-pendule/DATA20_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 - Esprit scientifique et critique

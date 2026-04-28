@@ -58,9 +58,11 @@ Cette fiche technique accompagne la ressource [Panneau solaire auto-orientable](
 
 ---
 
-## Fiche 1 : Collecter des données grâce au capteur de lumière
+## Étape 1 : Collecter des données grâce au capteur de lumière
 
 Le circuit que nous devons assembler se compose de deux éléments : une résistance de 10 kΩ et une cellule photoélectrique.
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/cablercellulephotovoltaique.webp" alt="Câblage cellule photovoltaïque" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez l'extension **serial**.
@@ -77,9 +79,11 @@ forever(function () {
 
 ---
 
-## Fiche 2 : Mesurer le changement d'intensité lumineuse avec deux LDR
+## Étape 2 : Mesurer le changement d'intensité lumineuse avec deux LDR
 
 Le circuit se compose de deux LDR. Nous brancherons la LDR de "gauche" sur A0 et la cellule photoélectrique de "droite" sur A1.
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/cablerplusieurscellule.webp" alt="Câblage de plusieurs cellules" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -94,13 +98,15 @@ forever(function () {
 
 ---
 
-## Fiche 3 : Programmation d'un servomoteur
+## Étape 3 : Programmation d'un servomoteur
 
 **Câbler le servomoteur** :
 
 - Marron (ou violet) sur le GND
 - Rouge sur le 5V
 - Orange sur la broche 9
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/cablerservomoteur.webp" alt="Câblage du servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -118,9 +124,11 @@ forever(function () {
 
 ---
 
-## Fiche 4 : Programmation du suiveur solaire
+## Étape 4 : Programmation du suiveur solaire
 
 Combiner le servomoteur et les deux LDR. LDR gauche sur A0, LDR droite sur A1, servomoteur sur D9.
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/servoetcellules.webp" alt="Servomoteur et cellules" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -168,7 +176,7 @@ forever(function () {
 
 ---
 
-## Fiche 5 : Collecter les données grâce au capteur de tension
+## Étape 5 : Collecter les données grâce au capteur de tension
 
 **Câbler le capteur de tension (I2C)** :
 
@@ -178,6 +186,8 @@ forever(function () {
 - Rouge pour VCC (3.3V)
 
 **Câbler le panneau solaire** sur Vin+ et Vin- (avec résistance de 100 Ω).
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/capteurtension.webp" alt="Capteur de tension" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 

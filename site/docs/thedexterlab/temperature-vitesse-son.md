@@ -62,6 +62,11 @@ Ce protocole fournit un guide détaillé pour mener une expérience scientifique
 
 Le protocole souligne également l'importance de la reproductibilité et du partage des données pour valider les résultats de l'expérience scientifique.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/temperature-vitesse-son/DATA11_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole expérimental mobilise plusieurs compétences et disciplines scolaires. Tout d'abord, il requiert la capacité à formuler une hypothèse et à concevoir un protocole expérimental pour la tester. Cette compétence est associée aux sciences physiques, qui nécessitent une réflexion rigoureuse pour concevoir une expérience qui permettra de répondre à la question posée.

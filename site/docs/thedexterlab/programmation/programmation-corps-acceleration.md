@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Corps et accélération](/ressour
 
 ---
 
-## Fiche 1 : Collecter des données à l'aide de l'accéléromètre
+## Étape 1 : Collecter des données à l'aide de l'accéléromètre
 
 L'accéléromètre est présent sur la STM32 IoT Node Discovery, il n'y a donc pas de branchement à faire.
 
@@ -79,7 +79,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : Afficher les données sur un écran
+## Étape 2 : Afficher les données sur un écran
 
 **Connecter l'écran LCD (I2C)** :
 
@@ -87,6 +87,8 @@ forever(function () {
 - Rouge pour VCC (5V)
 - Violet pour SDA (D14)
 - Vert pour SCL (D15)
+
+<img src="/img/ressources/thedexterlab/programmation-corps-acceleration/Untitled%20%281%29.webp" alt="Écran LCD connecté" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez l'extension **lcd_i2c**.

@@ -57,6 +57,11 @@ Dans ce projet, notre objectif est de mener une enquête scientifique liée à l
 
 Ce projet aborde plusieurs concepts scolaires tels que la qualité de l'air intérieur, les effets de la pollution de l'air sur la santé, la création d'un dispositif expérimental, l'analyse de données, la compréhension des gaz, la programmation de capteurs, la présentation de résultats et leur interprétation. Le but est de sensibiliser les élèves à ces concepts importants et de les aider à mieux comprendre les enjeux liés à la qualité de l'air. Les différents concepts liés à ces notions peuvent être adaptés à différents niveaux scolaires, en fonction des connaissances préalables des élèves. Par exemple, les élèves plus jeunes pourraient se concentrer sur la conception du dispositif, tandis que les élèves plus âgés pourraient explorer plus en profondeur les concepts scientifiques sous-jacents.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/qualite-air-personnes/DATA9_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole mobilise plusieurs compétences indispensables pour mener une expérience scientifique. Tout d'abord, il est nécessaire de collecter et d'analyser les données obtenues à partir du capteur électronique utilisé pour mesurer la concentration de CO2 dans l'air ambiant. Cette étape permet de vérifier la qualité de l'air dans différents environnements et de répondre à la question de recherche posée.

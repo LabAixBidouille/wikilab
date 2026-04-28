@@ -71,6 +71,11 @@ La question de la fiabilité des dispositifs est importante quand on parle de s�
 
 Peut-on s'assurer qu'un tel système sera fiable assez pour qu'on puisse lui faire confiance ?
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/ia-securite/DATA17_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 1. **Pensée critique et résolution de problèmes** : évaluer des problèmes, concevoir des solutions, et réfléchir aux implications éthiques et pratiques.

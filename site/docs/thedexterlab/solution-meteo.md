@@ -62,6 +62,11 @@ Nous y présenterons comment effectuer la mesure de température, de pression at
 
 Cette activité poursuit l'objectif d'identifier et de mesurer les paramètres principaux qui influencent la météo : température, pression, humidité et vitesse du vent.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/solution-meteo/DATA16_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 En réalisant des mesures et de par la mise en œuvre de la station météo, les élèves mobiliseront plusieurs compétences dans les domaines suivants :

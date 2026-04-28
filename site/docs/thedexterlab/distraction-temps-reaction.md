@@ -59,6 +59,11 @@ Ce projet est une activité de suivi du projet "Votre temps de réaction est-il 
 
 Pour cela, nous allons fabriquer un appareil expérimental en connectant différents composants électroniques à une carte programmable et le faire fonctionner par un programme approprié. Ensuite, nous collecterons des données et les analyserons pour mesurer notre temps de réaction pour différents cas de distraction.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/distraction-temps-reaction/DATA14_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Cette expérimentation permet d'aborder différentes notions du cursus de manière interdisciplinaire. Elle permet d'explorer, dans les apprentissages de physique, la mesure du temps de réaction, qui est une notion importante en sciences ainsi que dans la vie quotidienne. Les élèves peuvent apprendre à mesurer le temps de réaction à différents stimuli, tels que des signaux audio ou visuels, et à comprendre comment ce temps peut être influencé par différentes variables, telles que la distraction, la fatigue, l'âge ou la motivation.

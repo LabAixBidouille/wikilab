@@ -61,6 +61,11 @@ Ce protocole aborde la question de la présence de sel dans l'eau de mer et prop
 
 La deuxième expérience aborde la question de savoir comment l'eau de mer devient de plus en plus salée. Pour répondre à cette question, une expérience en classe est proposée. Cette expérience consiste à faire s'évaporer de l'eau dans un récipient fermé, puis à récupérer les condensats dans un verre. La surface de condensation est déformée ponctuellement avec une masse telle qu'une bille en métal pour constituer un cône d'écoulement permettant à l'eau de condensation de retomber dans le verre situé sous le poids. L'eau qui retombe dans le verre devrait être similaire à l'eau de pluie en termes de conductivité. L'eau en dehors du verre devient de plus en plus salée, la conductivité augmente avec le temps et par extension comment les océans sont devenus salés comme nous les connaissons.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/ocean-sale/DATA_2_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 En mettant en œuvre une expérience par eux-mêmes, les élèves mobiliseront plusieurs compétences :

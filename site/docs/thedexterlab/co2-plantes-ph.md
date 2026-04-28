@@ -65,6 +65,11 @@ Ce protocole de recherche scientifique détaille les différentes étapes à sui
 
 L'objectif ultime de ce protocole est de mieux comprendre comment les plantes aquatiques consomment le CO2, et comment cette consommation peut être mesurée indirectement en utilisant le pH.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/co2-plantes-ph/DATA18_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole mobilise plusieurs compétences :

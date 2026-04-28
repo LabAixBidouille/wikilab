@@ -52,7 +52,7 @@ Cette fiche technique accompagne la ressource [Température et vitesse du son](/
 
 ---
 
-## Fiche de programmation : Mesurer la variation de la vitesse du son
+## Mesurer la variation de la vitesse du son
 
 ### Câblage
 
@@ -69,6 +69,8 @@ Cette fiche technique accompagne la ressource [Température et vitesse du son](/
 - Broche VCC de l'écran sur la broche 3.3V de la carte
 - Broche SDA de l'écran sur la broche D14 de la carte
 - Broche SCL de l'écran sur la broche D15 de la carte
+
+<img src="/img/ressources/thedexterlab/programmation-temperature-vitesse-son/capteuretecran.webp" alt="Capteur HC-SR04 et écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Pour cette activité, installez les extensions **hcsr04** et **oled**.

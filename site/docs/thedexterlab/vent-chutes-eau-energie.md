@@ -56,6 +56,11 @@ Dans ce cas particulier, nous allons étudier la question scientifique suivante 
 
 Un protocole TheDexterLab aborde des questions similaires à celui-ci autour des transformations de l'énergie. Il est disponible dans les ressources du projet et il est intitulé "La lumière a-t-elle de l'énergie ?". Ces deux protocoles peuvent venir nourrir une séquence pédagogique autour des énergies renouvelables.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/vent-chutes-eau-energie/DATA4_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce projet peut être relié à plusieurs compétences du programme scolaire, telles que :

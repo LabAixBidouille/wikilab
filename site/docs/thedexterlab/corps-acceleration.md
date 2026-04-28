@@ -58,6 +58,11 @@ Pour répondre à cette question, nous allons construire un dispositif expérime
 
 Avec cet outil de mesure, conçu pour répondre aux besoins des élèves et programmé en utilisant des blocs de programmation, nous allons collecter des données. Ensuite, nous les analyserons pour obtenir des informations importantes. Ces informations seront utilisées pour étudier et comparer les résultats, de manière rigoureuse et scientifique, tout comme les vrais scientifiques et chercheurs le font dans leurs travaux de recherche.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/corps-acceleration/DATA10_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Le projet aborde les sujets suivants :

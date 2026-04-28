@@ -52,7 +52,7 @@ Cette fiche technique accompagne la ressource [Le son et les 100 mètres en 1 se
 
 ---
 
-## PROG12-TDL-1 : Mesurer une durée
+## Étape 1 : Mesurer une durée
 
 **Câblage capteur HC-SR04 :**
 
@@ -60,6 +60,8 @@ Cette fiche technique accompagne la ressource [Le son et les 100 mètres en 1 se
 - VCC → 5V de la carte
 - Trig → D6 de la carte
 - Echo → D7 de la carte
+
+<img src="/img/ressources/thedexterlab/programmation-son-100-metres-seconde/capteur.webp" alt="Capteur HC-SR04" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Installez les extensions **hcsr04** et **serial** dans MakeCode.
@@ -74,7 +76,7 @@ input.buttonUser.onEvent(ButtonEvent.Click, function () {
 
 ---
 
-## PROG12-TDL-2 : Afficher les données sur un écran
+## Étape 2 : Afficher les données sur un écran
 
 **Câblage écran OLED SSD1306 (I2C) :**
 
@@ -82,6 +84,8 @@ input.buttonUser.onEvent(ButtonEvent.Click, function () {
 - VCC de l'écran → 3.3V de la carte
 - SDA de l'écran → D14 de la carte
 - SCL de l'écran → D15 de la carte
+
+<img src="/img/ressources/thedexterlab/programmation-son-100-metres-seconde/ecran.webp" alt="Écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 Installez les extensions **hcsr04** et **oled**.
 

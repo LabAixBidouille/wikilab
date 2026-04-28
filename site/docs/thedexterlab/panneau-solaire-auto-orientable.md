@@ -58,6 +58,11 @@ Pour atteindre cet objectif, nous allons mesurer la quantité de lumière tomban
 
 Grâce à cette activité, les élèves pourront apprendre plusieurs concepts de physique, comme la lumière et les transformations d'énergie, tout en développant leurs compétences en programmation (comprendre comment utiliser une carte électronique, des capteurs, programmer par blocs et comprendre un système technique). Ils exploreront également les enjeux liés aux énergies renouvelables et formuleront des hypothèses basées sur une démarche scientifique structurée.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/panneau-solaire-auto-orientable/DATA7_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole mobilise plusieurs disciplines scolaires, notamment :

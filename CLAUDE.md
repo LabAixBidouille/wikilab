@@ -21,11 +21,11 @@
 | Let's STEAM | 15 | OK | OK | OK | `#140e4e` |
 | Mimesis | 8 | OK | OK | OK | `#09246C` |
 | Unplugged | 24 | OK | OK | Partiels (3 >50MB exclus) | `#0081A7` |
-| JediTrack | 14 + 8 borne arcade | OK | Partiels (pas d'icônes) | Non | `#1198f0` |
-| Robots Meet Arts | 29 | OK | Non | OK | `#169da7` |
-| SteamCity | 25 + 9 fiches prog | OK | Non | OK | `#DD5350` |
-| The Dexter Lab | 20 + 13 fiches prog | OK | Non | OK (feuilles travail) | `#1a4a48` |
-| Youth AI Lab | 5 | OK | Non | OK | `#b34520` |
+| JediTrack | 14 + 8 borne arcade | OK | OK | Non | `#1198f0` |
+| Robots Meet Arts | 29 | OK | OK | OK | `#169da7` |
+| SteamCity | 25 + 9 fiches prog | OK | OK | OK | `#DD5350` |
+| The Dexter Lab | 20 + 13 fiches prog | OK | OK (icônes) | OK (feuilles travail) | `#1a4a48` |
+| Youth AI Lab | 5 | OK | OK | OK | `#b34520` |
 | I-Novmicro #2 | 1 (Découverte STeaMi) | OK | - | - | `#8a6e18` |
 | Projets du LAB | 20 | OK | Partiels | - | - |
 
@@ -143,8 +143,11 @@ npx docusaurus start --port 3333
 
 ## TODO
 
-- [ ] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
+- [x] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
 - [ ] Adapter la couleur du tableau par projet (actuellement hardcodé #09246C)
 - [x] Tous les projets intégrés !
 - [ ] Git LFS pour les 3 PDFs Unplugged >50MB
-- [ ] Photos pour les fiches JediTrack et Robots Meet Arts
+- [x] Photos pour les fiches JediTrack et Robots Meet Arts
+- [x] Refonte wiki SteamCity (24 fiches + 9 prog, callouts, annexes printables)
+- [ ] Refonte wiki similaire pour les autres projets (style hérité PDF→wiki à uniformiser)
+- [ ] Vérifier images d'illustration manquantes sur thedexterlab (20 fiches avec uniquement icone)

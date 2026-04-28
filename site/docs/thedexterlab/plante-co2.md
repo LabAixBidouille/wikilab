@@ -65,6 +65,11 @@ Les objectifs d'apprentissage de cette activité seront donc les suivants :
 - Prendre conscience de l'importance de protéger et augmenter les espaces verts pour lutter contre le changement climatique.
 - Savoir comment mener des expériences pour observer les processus de photosynthèse des plantes.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/plante-co2/DATA8_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Les sujets abordés au niveau des programmes comprennent :

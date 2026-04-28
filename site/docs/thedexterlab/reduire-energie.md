@@ -63,6 +63,11 @@ Dans ce protocole, l'enjeu technologique sous-jacent est de détecter et mesurer
 6. Discussion sur les résultats obtenus et sur les moyens de les améliorer.
 7. Conclusion sur l'importance de l'efficacité énergétique dans les bâtiments et sur les moyens de la promouvoir.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/reduire-energie/DATA5_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Les thèmes abordés par cette activité sont les suivants :

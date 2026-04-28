@@ -61,6 +61,11 @@ Au travers de cette activité, l'objectif est de comprendre et calculer le rende
 - Mesurer des grandeurs de manière directe ou indirecte
 - Identifier le(s) matériau(x), les flux d'énergie et d'information dans le cadre d'une production technique sur un objet et décrire les transformations qui s'opèrent.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/panneau-solaire-journee/DATA6_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole mobilise plusieurs compétences qui sont pertinentes pour l'apprentissage des sciences et de la technologie. Plus spécifiquement, il permet de développer les compétences suivantes :

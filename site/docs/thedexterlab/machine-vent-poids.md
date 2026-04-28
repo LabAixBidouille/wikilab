@@ -62,6 +62,11 @@ L'objectif est de construire une machine utilisant le vent (simulé par un venti
 
 Ce protocole décrit les étapes à suivre pour construire un système de levage éolien en classe, en utilisant des matériaux courants tels que des bouteilles en plastique, des canettes, des pailles, des moteurs à courant continu, etc. Les étapes comprennent la création de différents types de turbines éoliennes pour capturer l'énergie éolienne, la conception et la construction d'un système pour augmenter le couple et la puissance, et la transformation du mouvement rotatif en mouvement linéaire pour soulever un poids.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/machine-vent-poids/DATA15_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce protocole mobilise plusieurs compétences, incluant l'ingénierie, la conception, la résolution de problèmes, et la pensée critique. Les disciplines associées incluent la physique, la mécanique, l'énergie renouvelable, l'aérodynamique, et la conversion de l'énergie.

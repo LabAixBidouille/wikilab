@@ -45,6 +45,29 @@ sidebar_position: 13
 
 Cette fiche technique accompagne la ressource [Solution météo](/ressources/thedexterlab/solution-meteo). Elle réunit tous les programmes MakeCode nécessaires pour construire une mini-station météo : température, pression, humidité, vitesse du vent, puis l'affichage synthétique sur un écran OLED.
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.75rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/thedexterlab/programmation-solution-meteo/anenometre.webp" alt="Anémomètre" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Anémomètre</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/thedexterlab/programmation-solution-meteo/capteuretecran.webp" alt="Capteur et écran" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Capteur et écran</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/thedexterlab/programmation-solution-meteo/codeanenimetre.webp" alt="Code anémomètre" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Code anémomètre</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/thedexterlab/programmation-solution-meteo/detecteurpassage.webp" alt="Détecteur de passage" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Détecteur de passage</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/thedexterlab/programmation-solution-meteo/interrupteur.webp" alt="Interrupteur" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Interrupteur</figcaption>
+  </figure>
+</div>
+
 ## Objectifs d'apprentissage
 
 - Utiliser les capteurs internes de la STM32 (température, pression, humidité)
@@ -54,7 +77,7 @@ Cette fiche technique accompagne la ressource [Solution météo](/ressources/the
 
 ---
 
-## Mesure de la température
+## Étape 1 : Mesure de la température
 
 ```javascript
 Serial.attachToConsole()
@@ -66,7 +89,7 @@ forever(function () {
 
 ---
 
-## Mesure de la pression atmosphérique
+## Étape 2 : Mesure de la pression atmosphérique
 
 ```javascript
 Serial.attachToConsole()
@@ -78,7 +101,7 @@ forever(function () {
 
 ---
 
-## Mesure de l'humidité relative
+## Étape 3 : Mesure de l'humidité relative
 
 ```javascript
 Serial.attachToConsole()
@@ -90,7 +113,7 @@ forever(function () {
 
 ---
 
-## Mesure de la vitesse du vent
+## Étape 4 : Mesure de la vitesse du vent
 
 ```javascript
 let period = 3
@@ -107,7 +130,7 @@ forever(function () {
 
 ---
 
-## Station météo complète sur écran OLED
+## Étape 5 : Station météo complète sur écran OLED
 
 **Câblage anémomètre :**
 

@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Atténuation du son par matériau
 
 ---
 
-## PROG19-TDL-1 : Mesurer l'intensité d'un son
+## Étape 1 : Mesurer l'intensité d'un son
 
 Nous utilisons le microphone intégré à la STM32 IoT Node Discovery, donc pas de branchement particulier. Installez l'extension **serial**.
 
@@ -64,9 +64,11 @@ forever(function(){
 })
 ```
 
+<img src="/img/ressources/thedexterlab/programmation-attenuation-son-materiau/Untitled%20%289%29.webp" alt="Simulateur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+
 ---
 
-## PROG19-TDL-2 : Afficher les données sur un écran
+## Étape 2 : Afficher les données sur un écran
 
 **Câblage écran LCD I2C :**
 
@@ -89,6 +91,8 @@ forever(function () {
     pause(200)
 })
 ```
+
+<img src="/img/ressources/thedexterlab/programmation-attenuation-son-materiau/Untitled.webp" alt="Simulateur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 ---
 

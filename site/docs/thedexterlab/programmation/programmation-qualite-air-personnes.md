@@ -52,13 +52,15 @@ Cette fiche technique accompagne la ressource [Qualité de l'air et personnes](/
 
 ---
 
-## Fiche 1 : Mesurer la concentration de CO2
+## Étape 1 : Mesurer la concentration de CO2
 
 **Câbler le capteur MH-Z19B (PWM)** :
 
 - Orange pour Vin (5V)
 - Bleu pour GND
 - Violet pour PWM (D7)
+
+<img src="/img/ressources/thedexterlab/programmation-qualite-air-personnes/capteur.webp" alt="Capteur CO2 connecté" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez les extensions **mh_z19b** et **serial**.
@@ -77,7 +79,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : Afficher les données collectées sur un écran
+## Étape 2 : Afficher les données collectées sur un écran
 
 **Connecter l'écran OLED SSD1306 (I2C)** :
 
@@ -85,6 +87,8 @@ forever(function () {
 - Rouge pour V+ (3V3)
 - Jaune pour SDA (D14)
 - Vert pour SCL (D15)
+
+<img src="/img/ressources/thedexterlab/programmation-qualite-air-personnes/ecran.webp" alt="Écran OLED connecté" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez les extensions **OLED** et **mh_z19b**.

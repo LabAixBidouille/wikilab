@@ -56,11 +56,15 @@ Cette fiche technique accompagne la ressource [Distractions et temps de réactio
 
 ---
 
-## PROG14-TDL-1 : Stimulus visuel (LED)
+## Étape 1 : Stimulus visuel (LED)
 
 **Câblage :** Bouton-poussoir sur GND/D2, LED anode sur D4, cathode via résistance 330Ω sur GND.
 
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/cablerledetboutonpoussoir.webp" alt="Câblage LED + bouton-poussoir" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+
 Installez l'extension **Serial**.
+
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/donn%C3%A9escollect%C3%A9esledbouton.webp" alt="Données collectées LED + bouton" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 ```javascript
 input.buttonD2.onEvent(ButtonEvent.Down, function () {
@@ -80,11 +84,15 @@ newGame()
 
 ---
 
-## PROG14-TDL-2 : Stimulus sonore (buzzer)
+## Étape 2 : Stimulus sonore (buzzer)
 
 **Câblage :** Bouton-poussoir sur GND/D2, buzzer '+' sur D3, '-' sur GND.
 
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/cablerbuzzer.webp" alt="Câblage buzzer" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+
 Installez les extensions **Music** et **Serial**.
+
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/recupdonneesbuzzer.webp" alt="Données collectées buzzer" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 ```javascript
 input.buttonD2.onEvent(ButtonEvent.Down, function () {
@@ -104,9 +112,11 @@ newGame()
 
 ---
 
-## PROG14-TDL-3 : Afficher les données sur un écran
+## Étape 3 : Afficher les données sur un écran
 
 **Câblage écran OLED I2C :** GND, VCC (3.3V), SDA (D14), SCL (D15).
+
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/cablerecran.webp" alt="Câblage écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 Installez l'extension **oled**.
 

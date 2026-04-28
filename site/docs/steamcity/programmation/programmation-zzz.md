@@ -193,11 +193,11 @@ L'accéléromètre renvoie des valeurs en milli-g (1000 milli-g = 1G = 9,81 m/s�
 
 Plusieurs ressources permettent de fixer la Micro:bit à un brassard pour que les élèves la portent pendant la nuit :
 
-- Smart Coding Watch Kit pour micro:bit
-- Duct Tape Watch (tutoriel low-cost)
-- BBC micro:bit wrist holder (mattoppenheim)
-- Yahboom Wrist:bit wearable watch kit
-- CHARGE for micro:bit
+- [Smart Coding Watch Kit pour micro:bit](https://www.my-etechno.com/pack-d-extension/1557-smart-coding-watch-kit-microbit.html)
+- [Duct Tape Watch (tutoriel low-cost)](https://makecode.microbit.org/projects/duct-tape-watch)
+- [BBC micro:bit wrist holder (mattoppenheim)](https://mattoppenheim.com/bbc-microbit-wrist-holder/)
+- [Yahboom Wrist:bit wearable watch kit](https://category.yahboom.net/products/wristbit)
+- [CHARGE for micro:bit](https://forwardedu.com/collections/charge-for-micro-bit)
 
 ---
 

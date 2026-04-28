@@ -64,6 +64,11 @@ Afin de valider ou d'invalider cette hypothèse, les élèves devront suivre les
 - **Mesurer et analyser les données**
 - **Valider ou invalider l'hypothèse et conclure**
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/son-100-metres-seconde/DATA12_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Cette activité vise à aborder la question de la vitesse du son sous plusieurs angles, de manière transdisciplinaire.

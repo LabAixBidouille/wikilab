@@ -55,7 +55,7 @@ Cette fiche technique accompagne la ressource [Panneau solaire sur une journée]
 
 ---
 
-## Fiche 1 : Collecter les données grâce au capteur de tension
+## Étape 1 : Collecter les données grâce au capteur de tension
 
 **Câbler le capteur de tension (I2C)** :
 
@@ -68,6 +68,8 @@ Cette fiche technique accompagne la ressource [Panneau solaire sur une journée]
 
 - Le fil rouge (positif) sur le bornier à vis Vin+
 - Le fil noir (négatif) connecté d'une part sur le GND de la carte, et d'autre part sur une résistance de 100 ohms elle-même branchée sur le bornier à vis Vin-
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-journee/capteurtension.webp" alt="Capteur de tension" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez les extensions **SERIAL** et **INA219**.
@@ -86,7 +88,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : Afficher les données sur un écran
+## Étape 2 : Afficher les données sur un écran
 
 **Connecter l'écran OLED SSD1306 (I2C)** :
 
@@ -101,6 +103,8 @@ forever(function () {
 
 - Fil positif sur Vin+
 - Fil négatif sur Vin-
+
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-journee/ecran.webp" alt="Écran avec capteur de tension" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez les extensions **OLED** et **INA219**.
@@ -118,7 +122,7 @@ forever(function () {
 
 ---
 
-## Fiche 3 : Créer un système d'alarme
+## Étape 3 : Créer un système d'alarme
 
 Même câblage que la fiche 2 (écran OLED + capteur INA219 + panneau solaire).
 

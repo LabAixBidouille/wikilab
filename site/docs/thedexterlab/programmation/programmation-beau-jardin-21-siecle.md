@@ -55,7 +55,7 @@ Cette fiche technique accompagne la ressource [Beau jardin au 21e siècle](/ress
 
 ---
 
-## Fiche 1 : Mesurer la conductivité du sol
+## Étape 1 : Mesurer la conductivité du sol
 
 **Câbler le capteur d'humidité**
 
@@ -65,9 +65,13 @@ Le capteur d'humidité que nous utilisons possède trois broches : deux broches 
 - La broche **-** du capteur sur la broche GND de la carte
 - La broche **S** du capteur sur la broche A0 de la carte
 
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled.webp" alt="Capteur d'humidité connecté à la carte" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+
 :::info
 Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Pour cette activité, installez les extensions **serial** et **soil-hygrometer**.
 :::
+
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%281%29.webp" alt="Datalogger capteur d'humidité" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -81,7 +85,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : Afficher les données collectées sur un écran
+## Étape 2 : Afficher les données collectées sur un écran
 
 **Câbler le capteur d'humidité**
 
@@ -100,6 +104,8 @@ forever(function () {
 :::info
 Pour cette activité, installez les extensions **soil-hygrometer** et **oled**.
 :::
+
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%282%29.webp" alt="Capteur d'humidité avec écran" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -125,13 +131,15 @@ forever(function () {
 
 ---
 
-## Fiche 3 : Programmation d'un servomoteur
+## Étape 3 : Programmation d'un servomoteur
 
 **Câbler le servomoteur**
 
 - **Marron** (ou violet) sur le GND
 - **Rouge** sur le 5V
 - **Orange** sur la broche 9
+
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%283%29.webp" alt="Servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -149,13 +157,15 @@ forever(function () {
 
 ---
 
-## Fiche 4 : Créer un système d'arrosage automatique
+## Étape 4 : Créer un système d'arrosage automatique
 
 **Câblage du capteur d'humidité**
 
 - La broche **+** du capteur sur 5V
 - La broche **-** du capteur sur GND
 - La broche **S** du capteur sur A0
+
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%284%29.webp" alt="Capteur d'humidité avec servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 

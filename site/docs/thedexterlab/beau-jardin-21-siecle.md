@@ -64,6 +64,11 @@ Cette activité vise à questionner les élèves sur les variables à prendre en
 
 Avec les enjeux actuels liés au changement climatique, entraînant des vagues de chaleur asséchant le sol et épuisant les nappes souterraines, l'eau devient une denrée rare, faisant l'objet de mesures de restriction lorsque les épisodes de canicule s'intensifient. L'arrosage du jardin ou des plantes d'intérieur, en période de restriction d'eau doit donc se faire de manière rationnelle afin de ne pas gaspiller une ressource sur laquelle repose d'ores et déjà beaucoup de pression.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/beau-jardin-21-siecle/DATA1_TDL.jpg" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 En mettant en œuvre une expérience par eux-mêmes, les élèves mobiliseront plusieurs compétences :

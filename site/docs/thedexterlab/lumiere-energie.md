@@ -54,6 +54,11 @@ Le dispositif d'étude comportera une cellule photovoltaïque connectée à une 
 
 Un protocole TheDexterLab aborde des questions similaires à celui-ci autour des transformations de l'énergie. Il est disponible dans les ressources du projet et il est intitulé : "Les chutes d'eau et le vent ont-ils de l'énergie ?". Ces deux protocoles peuvent venir nourrir une séquence pédagogique autour des énergies renouvelables.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/thedexterlab/lumiere-energie/DATA3_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma synthétique du protocole</figcaption>
+</figure>
+
 ## Compétences mobilisées
 
 Ce projet peut être relié à plusieurs compétences du programme scolaire, telles que :

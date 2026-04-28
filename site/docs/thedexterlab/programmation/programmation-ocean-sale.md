@@ -49,7 +49,7 @@ Cette fiche technique accompagne la ressource [Pourquoi l'océan est salé](/res
 
 ---
 
-## Fiche de programmation : Mesurer la conductivité de l'eau
+## Mesurer la conductivité de l'eau
 
 ### Câblage du conductimètre
 
@@ -65,6 +65,8 @@ Le lien avec la STM32 se fait via l'autre connecteur (avec trois broches), comme
 - Rouge sur 5V
 - Noir sur GND
 - Bleu sur A0
+
+<img src="/img/ressources/thedexterlab/programmation-ocean-sale/full_montage.svg" alt="Câblage du conductimètre" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez l'extension **ECMeter_SEN0244**.
