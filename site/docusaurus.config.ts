@@ -106,6 +106,11 @@ const config: Config = {
           label: 'Nos actions',
           position: 'right',
         },
+        {
+          href: 'https://www.labaixbidouille.com/',
+          label: 'Site du LAB',
+          position: 'right',
+        },
       ],
     },
     footer: {
