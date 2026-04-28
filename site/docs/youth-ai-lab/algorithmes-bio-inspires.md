@@ -59,6 +59,10 @@ sidebar_position: 1
 
 ## Déroulé de l'exploration
 
+:::info[Activité inspirée]
+Cette exploration s'inspire de la fiche [Né d'hier : initiation robotique](/ressources/robots-meet-arts/ne-hier) du projet Robots Meet Arts.
+:::
+
 Cette activité révèle comment les humains et les machines apprennent par essais et erreurs. En jouant le rôle d'un algorithme d'apprentissage, les participants découvrent l'apprentissage par renforcement — récompenses en cas de succès, pénalités en cas d'échec — un principe universel partagé par l'intelligence biologique et artificielle.
 
 ### Activité 1 : Incarner le robot (apprentissage par renforcement, débranché)
