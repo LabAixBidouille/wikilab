@@ -57,31 +57,16 @@ Grâce à ce protocole, ils exploreront :
 - **Mesure par des indicateurs diversifiés** : Approche multi-indicateurs utilisant à la fois des données qualitatives et quantitatives, capacités à analyser les résultats, à documenter et à comprendre les corrélations et leurs limites.
 - **Diversité des acteurs en santé** : Identifier les acteurs du territoire qui ont un impact ou une action directe sur la problématique de santé publique liée au bruit urbain et valoriser son action citoyenne sur une meilleure compréhension des ressentis des citoyens sur la problématique donnée.
 
-Cette activité permet de développer à la fois des compétences techniques (utilisation de capteurs et analyse de données) et des compétences plus abstraites (analyse subjective, ressenti émotionnel). Le séquençage progressif des étapes amène les élèves à construire une compréhension globale de la corrélation entre le bruit et le bien-être.
-
-Pour en savoir plus sur les enjeux du bruit, explorez la section "Aller plus loin".
+Cette activité permet de développer à la fois des compétences techniques (utilisation de capteurs et analyse de données) et des compétences plus abstraites (analyse subjective, ressenti émotionnel). Le séquençage progressif des étapes amène les élèves à construire une compréhension globale de la corrélation entre le bruit et le bien-être. Pour approfondir, voir la section *Aller plus loin*.
 
 ### Structure du protocole
 
-#### Phase 1 : Compréhension de la problématique et définition des indicateurs
+Le protocole se déroule en quatre phases :
 
-Les élèves découvriront la problématique du bruit, exploreront les différents aspects du bruit urbain et son impact sur la qualité de vie. Ils développeront collectivement des indicateurs pour évaluer le bruit, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur leur bien-être. Ces indicateurs formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
-
-#### Phase 2 : Cartographie sensible du bruit
-
-Les élèves réaliseront une cartographie sensible en notant leur ressenti du bruit sur un trajet de leur quotidien. Ils identifieront les zones perçues comme bruyantes ou calmes, selon leur expérience quotidienne. Chaque élève créera sa propre "carte", dessinée librement, colorée et annotée selon son analyse de ses ressentis quotidiens, en utilisant les indicateurs définis précédemment. Cette cartographie permettra une analyse nuancée et structurée de leur perception du paysage sonore.
-
-#### Phase 3 : Mesure quantitative avec capteurs
-
-Les élèves programmeront des capteurs de bruit et les positionneront dans les zones identifiées comme bruyantes et gênantes lors de la phase de cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans plusieurs lieux. Les élèves alimenteront leur cadre d'analyse d'indicateurs quantitatifs basés sur ces mesures, comme le niveau sonore moyen, les pics de bruit, et la durée des périodes de calme. L'objectif sera de comparer les ressentis (indicateurs qualitatifs) avec ces données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques de la journée ou des caractéristiques particulières du bruit.
-
-#### Phase 4 : Analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
-
-Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques (trafic, chantiers, commerces) et réfléchiront à comment l'aménagement urbain et les activités humaines influencent la pollution sonore. Ils étudieront les acteurs impliqués dans la gestion du bruit (municipalités, entreprises, citoyens, urbanistes) et exploreront leurs rôles respectifs dans la réduction des nuisances sonores.
-
-Ils prendront conscience de l'importance de la coopération entre ces différents acteurs pour améliorer la qualité de vie en ville. Si possible, une présentation des cartes réalisées durant l'activité sera proposée auprès des acteurs locaux afin de valoriser les actions menées par les élèves.
-
-#### Récapitulatif
+- **Phase 1 — Compréhension de la problématique et définition des indicateurs** : les élèves découvrent la problématique du bruit urbain et son impact sur la qualité de vie. Ils élaborent collectivement des indicateurs (intensité perçue, fréquence, type de source, impact sur le bien-être) qui formeront la base du cadre d'analyse.
+- **Phase 2 — Cartographie sensible du bruit** : chaque élève réalise une cartographie sensible d'un trajet de son quotidien, en identifiant zones bruyantes et zones calmes à l'aide des indicateurs définis précédemment. Production d'une carte dessinée, colorée et annotée.
+- **Phase 3 — Mesure quantitative avec capteurs** : les élèves programment des capteurs de bruit et les positionnent dans les zones identifiées. Les niveaux sonores réels (en décibels) sont enregistrés sur plusieurs jours, puis comparés aux ressentis qualitatifs.
+- **Phase 4 — Analyse du rôle des acteurs** : examen des facteurs aggravants (trafic, chantiers, commerces), des acteurs impliqués (municipalités, entreprises, citoyens, urbanistes) et de leurs rôles respectifs dans la réduction des nuisances. Présentation possible aux acteurs locaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/sound-squad/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -99,7 +84,7 @@ Ils prendront conscience de l'importance de la coopération entre ces différent
 ### Glossaire
 
 - **Bruit** : Son indésirable ou gênant, souvent caractérisé par son intensité, sa fréquence et sa durée.
-- **Bruit environnemental** : Ensemble des sons indésirables présents dans l'environnement extérieur, incluant les bruits de transport, industriels et de voisinage. Il inclut le bruit produit par les moyens de transport : véhicules routiers, trains, avions, bateaux ; les industries, les chantiers de construction et les travaux ; les activités culturelles, sportives ou de loisir : la musique des discothèques, spectacles et festivals ; les armes à feu ; les véhicules récréatifs (motos, etc.). ; le voisinage : à l'extérieur (les climatisations, les équipements de jardinage à moteur, etc.), à l'intérieur (les fêtes, la musique, les appareils ménagers bruyants, comme les aspirateurs, etc.
+- **Bruit environnemental** : Ensemble des sons indésirables présents dans l'environnement extérieur, incluant les bruits de transport (véhicules routiers, trains, avions, bateaux), industriels (chantiers, travaux), de loisirs (musique de discothèques, spectacles, festivals), les armes à feu, les véhicules récréatifs (motos), et le voisinage à l'extérieur (climatisations, équipements de jardinage) comme à l'intérieur (fêtes, musique, appareils ménagers bruyants).
 - **Pollution sonore** : Ensemble des nuisances causées par des bruits excessifs pouvant affecter la santé et le bien-être.
 - **Décibel (dB)** : Unité de mesure de l'intensité du son. Plus le nombre de décibels est élevé, plus le bruit est fort.
 - **Sonomètre** : Instrument de mesure utilisé pour évaluer le niveau sonore en décibels, permettant une quantification objective du bruit.
@@ -196,13 +181,18 @@ Au travers de cette exploration, les élèves abordent des enjeux cruciaux de la
 
 L'enseignant introduira le concept de cartographie sensible. Il s'agira de représenter visuellement les perceptions subjectives du paysage sonore. L'approche adoptée encouragera les élèves à s'affranchir des contraintes formelles géographiques pour se concentrer sur leur ressenti du bruit. Chaque élève choisira de représenter un trajet du quotidien (école/maison, périscolaire/maison, pause déjeuner, etc.) sous la forme d'un dessin libre, qui n'aura pas besoin de respecter les normes de cartographie traditionnelle c'est-à-dire le respect de l'échelle, l'orientation cardinale, la légende … . L'enseignant encouragera les élèves à réfléchir aux éléments suivants lors de la création de leur carte : zones de confort ou d'inconfort sonore, variations d'ambiance sonore (calme, animée, stressante), sources de bruit marquantes (positives ou négatives), émotions ou sensations associées à certains lieux, en se basant sur les indicateurs définis en phase 1.
 
-#### Point méthodologique : La cartographie sensible
+:::info[Point méthodologique : la cartographie sensible]
+La **cartographie sensible** est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et représenter les perceptions et sensations ressenties dans un espace donné, en se concentrant sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
 
-La cartographie sensible est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et à représenter les perceptions et les sensations ressenties dans un espace donné. Elle se concentre sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
+Si une carte sonore peut représenter les sons entendus dans une ville, la carte sensible représente, elle, des émotions : elle cartographie par exemple les espaces ressentis comme rassurants, inquiétants ou gênants. Elle prend généralement la forme d'un dessin qui s'affranchit des normes de la représentation cartographique classique (non-respect de l'échelle, absence d'orientation cardinale, absence de légende, indications subjectives, représentation partielle du réel). Il est également possible d'utiliser une carte existante et de l'annoter par du dessin et des ajouts graphiques (pictogrammes, flux de couleurs selon les ressentis).
 
-Dans le domaine d'étude spécifiquement, si une carte sonore peut représenter les sons entendus dans une ville, la carte sensible va elle représenter des émotions, illustrent cela en cartographiant les espaces ressentis comme rassurants, inquiétants, gênants … . La carte sensible prend généralement la forme d'un dessin. Celui-ci s'affranchit des normes de la représentation cartographique classique : non-respect de l'échelle, absence d'orientation cardinale, absence de légende, indications subjectives sur la carte, représentation partielle du réel. Mais il est également possible d'utiliser une carte existante et de l'annoter grâce au dessin et aux ajouts graphiques (pictogramme, flux de couleurs selon les ressentis, dessins …).
+**Références** :
 
-**Références** : Cartographie sensible, Quentin Lefèvre ; La cartographie sensible, Tous à pied ; Carte sensible, Glossaire GeoConfluence de Lyon ; La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal.
+- Cartographie sensible, Quentin Lefèvre
+- La cartographie sensible, Tous à pied
+- Carte sensible, Glossaire GeoConfluence de Lyon
+- La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal
+:::
 
 #### Réalisation de la cartographie individuelle
 
@@ -257,7 +247,7 @@ Cette phase permettra aux élèves de développer des compétences essentielles 
 
 L'enseignant expliquera les concepts de base de la mesure du son, notamment les décibels (dB) et les différentes échelles de mesure. Il présentera également les capteurs de bruit qui seront utilisés, en expliquant leur fonctionnement et leurs limites.
 
-:::info[Conseils pour les enseignants]
+:::info[Notes pour l'enseignant·e]
 Nous vous conseillons d'utiliser un set de cartes programmables Micro:bit pour réaliser cette activité. Elles intègrent un capteur de niveau sonore et sont facilement disponibles et programmables. Pour vous aider à programmer ces cartes, consultez la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-sound-squad), sous forme de fiche d'activité permettant d'utiliser les cartes Micro:bit et vous fournissant le code à utiliser si vous souhaitez réaliser cette partie du protocole.
 :::
 
@@ -279,7 +269,7 @@ Ce tableau permettra d'organiser efficacement la collecte de données en identif
 
 Les capteurs seront programmés puis positionnés sur les points identifiés. Il faudra veiller à sélectionner un emplacement sûr (dans le jardin d'un élève par exemple, dans un commerce, etc.). Les capteurs seront programmés pour effectuer des relevés à heures fixes, par exemple une fois par heure, jour et nuit. Ces données seront envoyées à un serveur central. Il sera important de mesurer en continu sur une période donnée (par exemple une semaine incluant un weekend) pour analyser les variations.
 
-:::info[Conseils pour les enseignants]
+:::info[Notes pour l'enseignant·e]
 Vous trouverez dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-sound-squad) toutes les instructions pour programmer votre carte Micro:bit. Diverses modalités de collecte peuvent être organisées :
 
 - **Option 1 (plusieurs cartes)** : Utilisez 5 cartes Micro:bit pour collecter des données simultanément chez 5 élèves pendant une semaine, puis répétez l'opération chez 5 autres élèves la semaine suivante.
@@ -370,9 +360,7 @@ Cette phase servira de conclusion au travail d'étude en comprenant comment les 
 
 ### Qu'est-ce que le bruit ?
 
-Le bruit, défini comme une sensation auditive désagréable ou dérangeante, est omniprésent dans notre quotidien et constitue une source importante de pollution environnementale. Selon l'Agence européenne pour l'environnement, environ 95 millions de personnes sont exposées à des niveaux nocifs de bruit du trafic routier. Au moins 20 % de la population urbaine est exposée à des niveaux considérés comme nocifs pour la santé. Dans de nombreuses villes, ce pourcentage peut atteindre 50 % de la population urbaine. On estime qu'au moins 18 millions de personnes sont fortement gênées et 5 millions souffrent de troubles du sommeil dus à une exposition à long terme au bruit des transports dans l'UE. En outre, on estime que l'exposition à long terme au bruit des transports provoque environ 11 000 décès prématurés et 40 000 nouveaux cas de cardiopathie ischémique.
-
-https://www.eea.europa.eu/en/topics/in-depth/noise?activeTab=fa515f0c-9ab0-493c-b4cd-58a32dfaae0a
+Le bruit, défini comme une sensation auditive désagréable ou dérangeante, est omniprésent dans notre quotidien et constitue une source importante de pollution environnementale. Selon l'[Agence européenne pour l'environnement](https://www.eea.europa.eu/en/topics/in-depth/noise?activeTab=fa515f0c-9ab0-493c-b4cd-58a32dfaae0a), environ 95 millions de personnes sont exposées à des niveaux nocifs de bruit du trafic routier. Au moins 20 % de la population urbaine est exposée à des niveaux considérés comme nocifs pour la santé. Dans de nombreuses villes, ce pourcentage peut atteindre 50 % de la population urbaine. On estime qu'au moins 18 millions de personnes sont fortement gênées et 5 millions souffrent de troubles du sommeil dus à une exposition à long terme au bruit des transports dans l'UE. En outre, on estime que l'exposition à long terme au bruit des transports provoque environ 11 000 décès prématurés et 40 000 nouveaux cas de cardiopathie ischémique.
 
 Le bruit est une vibration sonore perçue par l'oreille humaine. Bien que certains sons soient perçus comme agréables ou neutres, le bruit devient nuisible lorsqu'il est ressenti comme désagréable, imprévisible ou incontrôlable. Ces caractéristiques peuvent transformer le bruit en facteur de stress et d'insatisfaction dans le cadre de vie ou de travail.
 
@@ -399,32 +387,26 @@ Le bruit excessif et prolongé affecte négativement la santé physique et menta
 
 ### Directive 2002/49/EC
 
-La Directive 2002/49/CE, aussi appelée Directive sur le bruit environnemental, est une loi européenne qui vise à mesurer et à gérer les niveaux de bruit dans l'environnement pour protéger la santé des citoyens. Le bruit affecte au moins 1 Européen sur 5, causant des problèmes comme les maladies cardiovasculaires, les troubles du sommeil et la gêne.
+La [Directive 2002/49/CE](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0049), aussi appelée Directive sur le bruit environnemental, est une loi européenne qui vise à mesurer et gérer les niveaux de bruit dans l'environnement pour protéger la santé des citoyens. Le bruit affecte au moins 1 Européen sur 5, causant des problèmes comme les maladies cardiovasculaires, les troubles du sommeil et la gêne.
 
-https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0049
+Elle met en place une approche commune dans l'Union Européenne pour identifier les niveaux de pollution sonore et agir sur eux. Elle poursuit quatre objectifs :
 
-Elle met en place une approche commune dans l'Union Européenne pour identifier les niveaux de pollution sonore et agir sur eux. Elle poursuit les objectifs suivants :
-
-1. Évaluer l'exposition au bruit : Mesurer les niveaux de bruit dans les zones résidentielles et évaluer leurs effets sur la santé, notamment à travers des cartes de bruit.
-2. Informer le public : Assurer que les citoyens soient informés des niveaux de bruit dans leur environnement et de leurs effets.
-3. Prévenir et réduire le bruit : Protéger les citoyens en réduisant les niveaux de bruit dans les zones où ils sont trop élevés.
-4. Préserver les zones calmes : Conserver la qualité sonore dans les zones où le bruit est encore faible.
+1. **Évaluer l'exposition au bruit** : mesurer les niveaux de bruit dans les zones résidentielles et évaluer leurs effets sur la santé, notamment à travers des cartes de bruit.
+2. **Informer le public** : assurer que les citoyens soient informés des niveaux de bruit dans leur environnement et de leurs effets.
+3. **Prévenir et réduire le bruit** : protéger les citoyens en réduisant les niveaux de bruit dans les zones où ils sont trop élevés.
+4. **Préserver les zones calmes** : conserver la qualité sonore dans les zones où le bruit est encore faible.
 
 La directive ne fixe pas de niveaux de bruit spécifiques à ne pas dépasser, cela est laissé aux autorités nationales. Des méthodes communes sont utilisées pour calculer l'exposition au bruit (indicateurs Lden pour le bruit journalier et Lnight pour le bruit nocturne).
 
 La directive a été révisée pour améliorer les méthodes de calcul du bruit et pour mieux prendre en compte les effets du bruit sur la santé, en s'appuyant sur les dernières études de l'Organisation mondiale de la santé (OMS). En 2023, un rapport montre que des progrès ont été faits, mais davantage d'efforts sont nécessaires pour réduire de 30% le nombre de personnes affectées par le bruit d'ici 2030, conformément au Plan d'action pour une pollution zéro.
 
-La mise en œuvre de la directive européenne sur le bruit n'a pas permis d'atteindre tous les objectifs, notamment en raison d'un manque de données et d'une production insuffisante de cartes de bruit et de plans d'action dans certaines régions. Néanmoins, diverses stratégies sont mises en place, telles que l'utilisation de revêtements routiers antibruit, le développement de véhicules électriques et la création de zones calmes dans les villes. Une approche combinée visant à réduire à la fois le bruit et la pollution de l'air pourrait optimiser les résultats pour la santé publique.
-
-https://www.eea.europa.eu/publications/environmental-noise-in-europe
+La mise en œuvre de la directive européenne sur le bruit n'a pas permis d'atteindre tous les objectifs, notamment en raison d'un manque de données et d'une production insuffisante de cartes de bruit et de plans d'action dans certaines régions. Néanmoins, diverses stratégies sont mises en place, telles que l'utilisation de revêtements routiers antibruit, le développement de véhicules électriques et la création de zones calmes dans les villes. Une approche combinée visant à réduire à la fois le bruit et la pollution de l'air pourrait optimiser les résultats pour la santé publique. ([Environmental noise in Europe — EEA](https://www.eea.europa.eu/publications/environmental-noise-in-europe))
 
 ### Idées de projets complémentaires
 
-- **Les oasis de silence** : Créer et cartographier des zones de calme dans la ville. Les oasis de silence sont des espaces urbains conçus pour offrir un répit du bruit ambiant. Ce concept vise à améliorer la qualité de vie urbaine. Cette approche est illustrée par certains projets existants comme l'initiative Tranquil City au Royaume-Uni ou l'ONG Quiet Parks International. Les élèves pourraient s'inspirer de ces initiatives pour imaginer et concevoir leurs propres oasis de silence adaptées au contexte local. Les élèves pourraient identifier des lieux potentiels dans leur quartier, mesurer les niveaux sonores, et proposer des aménagements pour créer ces oasis. Ils pourraient utiliser des applications comme Hush City pour s'inspirer et partager leurs découvertes. Cette activité permettrait d'aborder des notions d'urbanisme, d'écologie urbaine et de santé publique, tout en encourageant une réflexion sur l'aménagement durable des espaces urbains.
-
-- **La symphonie urbaine** : Composer une œuvre musicale à partir des sons de la ville. S'inspirant du travail de compositeurs comme R. Murray Schafer, pionnier de l'écologie sonore, cette activité invite les élèves à créer une composition musicale utilisant les sons urbains. Des projets similaires, comme "City Symphonies" de Tod Machover, ont déjà été réalisés dans plusieurs villes du monde. Les élèves pourraient enregistrer divers sons urbains, les analyser avec des logiciels comme Audacity, puis les assembler en une composition. Cette approche interdisciplinaire combine musique, technologie et conscience environnementale, tout en développant la créativité et la sensibilité auditive des élèves. Elle permet également d'aborder des concepts de physique du son et de traitement numérique du signal.
-
-- **Le lien avec la biodiversité** : Étudier l'impact du bruit urbain sur la faune locale. Dans les espaces publics et professionnels, des systèmes d'alerte sonore ou visuelle sont souvent utilisés pour surveiller et limiter les niveaux sonores. Par exemple, certaines bibliothèques ou garderies utilisent des dispositifs qui signalent lorsque les seuils sonores sont dépassés. Dans les écoles, un tel système peut sensibiliser les élèves à l'importance de leur propre comportement pour créer un environnement apaisant. Concevoir un tel dispositif avec Micro:bits permet d'initier les élèves aux concepts d'ingénierie et d'électronique tout en leur offrant une prise de conscience immédiate et pratique des problématiques liées au bruit. Cela pourrait permettre aux élèves de prendre conscience en temps réel de leur environnement sonore.
+- **Les oasis de silence** — créer et cartographier des zones de calme dans la ville. Les oasis de silence sont des espaces urbains conçus pour offrir un répit du bruit ambiant et améliorer la qualité de vie. Le concept est illustré par des initiatives comme Tranquil City (Royaume-Uni) ou l'ONG Quiet Parks International. Les élèves peuvent identifier des lieux potentiels dans leur quartier, mesurer les niveaux sonores et proposer des aménagements, en s'inspirant d'applications comme Hush City. Cette activité aborde l'urbanisme, l'écologie urbaine et la santé publique.
+- **La symphonie urbaine** — composer une œuvre musicale à partir des sons de la ville. Inspirée du travail de R. Murray Schafer (écologie sonore) et de projets comme *City Symphonies* de Tod Machover, l'activité consiste à enregistrer des sons urbains, les analyser avec un logiciel comme Audacity, puis les assembler en composition. Approche interdisciplinaire combinant musique, technologie et conscience environnementale, et abordant la physique du son et le traitement numérique du signal.
+- **Le lien avec la biodiversité** — étudier l'impact du bruit urbain sur la faune locale, ou concevoir un système d'alerte sonore avec Micro:bit. Sur le modèle des dispositifs utilisés en bibliothèque ou en garderie pour signaler le dépassement de seuils sonores, les élèves peuvent construire un système d'alerte qui sensibilise à leur propre comportement sonore. L'activité initie aux concepts d'ingénierie et d'électronique tout en favorisant une prise de conscience en temps réel de l'environnement sonore.
 
 ---
 

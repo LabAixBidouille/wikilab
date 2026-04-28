@@ -46,11 +46,11 @@ Le protocole FactBusters propose aux élèves de découvrir proactivement la mé
 
 ### Comprendre la distorsion de l'information
 
-Les mythes sont des récits ou des croyances traditionnelles qui expliquent des phénomènes naturels ou sociaux. Souvent profondément ancrés dans la culture, ils remplissent des fonctions sociales, mais manquent de vérification empirique. Bien qu'ils puissent contenir des connaissances ou des connaissances culturelles, ils ne reposent pas sur une observation ou une vérification systématique. La pseudoscience se présente comme scientifique, mais ne respecte pas la méthodologie scientifique. Elle se caractérise généralement par des affirmations infalsifiables, des preuves triées sur le volet, une résistance à l'évaluation par les pairs et une dépendance excessive à la confirmation plutôt qu'à la réfutation. Contrairement à la science authentique, la pseudoscience n'évolue pas avec les nouvelles preuves et fait souvent appel à la tradition ou à l'autorité plutôt qu'aux données empiriques. Les fausses nouvelles consistent en des informations délibérément fabriquées présentées comme des faits. Contrairement aux mythes (qui évoluent culturellement) ou à la pseudoscience (qui tente d'imiter l'autorité scientifique), les fausses nouvelles sont créées intentionnellement pour tromper à des fins politiques, économiques ou sociales. Leur propagation rapide sur les plateformes numériques les rend particulièrement dangereuses dans les écosystèmes d'information modernes.
+Trois formes de distorsion de l'information sont à distinguer :
 
-
-- **Disciplines** : éducation civile et morale, sciences, technologie et ingénierie
-- **Objectifs de développement durable** : se référer aux ODD pertinents pour l'activité
+- **Mythes** : récits ou croyances traditionnelles expliquant des phénomènes naturels ou sociaux. Profondément ancrés dans la culture, ils remplissent des fonctions sociales mais manquent de vérification empirique. Ils peuvent porter des connaissances culturelles, sans reposer sur une observation ou une vérification systématique.
+- **Pseudoscience** : se présente comme scientifique, mais ne respecte pas la méthodologie scientifique. Elle se caractérise par des affirmations infalsifiables, des preuves triées sur le volet, une résistance à l'évaluation par les pairs et une dépendance excessive à la confirmation plutôt qu'à la réfutation. Contrairement à la science authentique, elle n'évolue pas avec les nouvelles preuves et fait souvent appel à la tradition ou à l'autorité plutôt qu'aux données empiriques.
+- **Fausses nouvelles (fake news)** : informations délibérément fabriquées présentées comme des faits. Contrairement aux mythes (qui évoluent culturellement) ou à la pseudoscience (qui tente d'imiter l'autorité scientifique), elles sont créées intentionnellement pour tromper à des fins politiques, économiques ou sociales. Leur propagation rapide sur les plateformes numériques les rend particulièrement dangereuses dans les écosystèmes d'information modernes.
 
 ### Structure du protocole
 
@@ -62,14 +62,7 @@ L'activité FactBuster est structurée en trois phases complémentaires, chacune
 
 **Phase 3 : Diffuser la culture scientifique (optionnelle).** Enfin, la troisième phase vise à apprendre aux élèves à vulgariser et à présenter leurs approches de manière claire et compréhensible. Ils créent des supports visuels et médiatiques pour partager leurs protocoles. Cette phase développe leurs compétences en communication scientifique et en pédagogie. Cette dernière étape permet d'aborder avec les élèves l'importance de la diffusion des connaissances scientifiques pour encourager une citoyenneté informée et responsable.
 
-- **Durée** : Cette activité peut être répartie sur plusieurs séances, ou sur plusieurs disciplines dans une approche interdisciplinaire. Il est possible d'utiliser la phase 1 de manière autonome (environ 30 minutes), de combiner les phases 1 et 2 (2 séances) ou de réaliser l'ensemble des trois phases. Il faut compter un minimum de 3 séances pour réaliser la totalité de l'activité.
-- **Niveau de difficulté** : L'activité implique la pensée critique, le raisonnement logique et une bonne compréhension et utilisation de l'approche scientifique.
-
-**Matériel :**
-
-- **Phase 1 : Comprendre la démarche de vérification des faits** : Accès à des ressources (livres, articles, vidéos, images ...) qui constitueront la base d'analyse
-- **Phase 2 : Construire des protocoles de vérification des faits** : Pas de matériel spécifique nécessaire
-- **Phase 3 : Diffuser la culture scientifique** : Pour une version numérique, accès à des ordinateurs ou tablettes et à des outils de création graphique (Canva par exemple propose une version gratuite pour le monde scolaire) ou pour une version papier, accès à des panneaux type carton-plume pour créer des posters
+L'activité peut être répartie sur plusieurs séances, ou sur plusieurs disciplines dans une approche interdisciplinaire : phase 1 seule (environ 30 minutes), phases 1 et 2 (2 séances) ou les trois phases (minimum 3 séances).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/fact-busters/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -129,55 +122,9 @@ Pour réaliser cette activité, et en fil rouge de l'ensemble de la séquence, n
 
 Afin de réaliser l'activité, vous pouvez diviser la classe en groupes de 3 ou 4 élèves auxquels vous distribuerez un sujet spécifique à étudier (cf. le tableau ci-dessus, mais vous pouvez également choisir vos propres sujets, ou demander aux élèves quels sont les remèdes de grand-mère par exemple ou les lieux communs qu'ils ont souvent entendus).
 
-Pour chaque groupe et chaque sujet, vous pouvez constituer au préalable une banque de ressources que les élèves devront analyser : des articles plus ou moins sourcés, des vidéos YouTube, des reportages TV, des images largement diffusées ... Pour chaque sujet, vous pouvez distribuer trois ressources différentes pour analyser l'impact du média de diffusion sur la perception de fiabilité d'une information.
+Pour chaque groupe et chaque sujet, vous pouvez constituer au préalable une banque de ressources que les élèves devront analyser : des articles plus ou moins sourcés, des vidéos YouTube, des reportages TV, des images largement diffusées... Pour chaque sujet, vous pouvez distribuer trois ressources différentes pour analyser l'impact du média de diffusion sur la perception de fiabilité d'une information.
 
-#### Formulaire d'analyse de la source d'information
-
-- Date : .../.../......
-- Groupe : ...........................................................................................................................
-- Sujet analysé : ...............................................................................................................
-
-**Analyse de la source d'information**
-
-- Titre de la source :
-- Auteur :
-- Date de publication :
-- Type de source (article, vidéo, image, etc.) :
-
-**Analyse de contenu**
-
-- Résumé du contenu
-- Hypothèse(s) formulée(s) par la source
-- Méthodologie utilisée dans la source
-
-**Crédibilité de la source** - Répondez par oui ou par non et justifiez
-
-- L'auteur est-il reconnu et crédible ?
-- La source est-elle publiée par une institution reconnue ?
-- La source cite-t-elle des recherches ou des sources fiables ?
-
-**Vérification des faits** - Répondez par oui ou par non et justifiez
-
-- Les faits présentés sont-ils vérifiables ?
-- Les faits sont-ils étayés par des preuves empiriques ?
-- La méthodologie est-elle rigoureuse et reproductible ?
-
-**Critères d'évaluation** - Répondez Bon, Moyen ou Mauvais et justifiez
-
-- Diversité des sources
-- Perception de la cohérence et de la clarté
-- Perception de l'objectivité et de la neutralité
-
-**Conclusion**
-
-- La source est-elle perçue comme fiable et pourquoi ?
-- Des améliorations peuvent être apportées à la méthodologie
-- Comment cette analyse influence-t-elle votre perception du sujet ?
-
-
-Une fois les ressources identifiées et distribuées, les élèves devront réaliser une vérification de la démarche utilisée pour assurer la fiabilité de l'information par les auteurs. Plusieurs critères seront analysés : crédibilité de l'auteur, diversité des sources, publication dans des revues à comité de lecture ...
-
-Pour chaque ressource, les élèves devront remplir le formulaire ci-dessus.
+Une fois les ressources identifiées et distribuées, les élèves devront réaliser une vérification de la démarche utilisée pour assurer la fiabilité de l'information par les auteurs. Plusieurs critères seront analysés : crédibilité de l'auteur, diversité des sources, publication dans des revues à comité de lecture... Pour chaque ressource, les élèves remplissent le **Formulaire 1 : Analyse de la source d'information** (disponible en annexe et imprimable depuis le PDF).
 
 
 ### Restitution et réflexion
@@ -229,47 +176,13 @@ Les protocoles que proposeront les élèves n'ont pas vocation à être mis en �
 Afin de démarrer cette activité, et en lien avec les analyses et conclusions de la phase précédent, laissez les élèves discuter de ce qu'ils perçoivent et connaissent de la démarche scientifique. En classe entière, ouvrez une discussion pour définir les phases importances de l'investigation scientifique. En tant qu'enseignant, votre rôle est de guider les échanges et de faire en sorte que les étapes majeures d'un protocole d'expérimentation soient identifier. Sur la base de ces discussions, définissez ensemble une fiche de protocole détaillée et reprenant l'ensemble des étapes, qui sera utilisée par les différents groupes dans la suite de cette phase.
 
 
-:::info[Conseil aux enseignants]
-Vous pouvez également accélérer ou sauter cette étape en proposant et en présentant une fiche de protocole déjà préparée et en fournissant une base théorique aux élèves sur ce qu'est et comment utiliser la méthode scientifique.
+:::info[Notes pour l'enseignant·e]
+Vous pouvez également accélérer ou sauter cette étape en proposant une fiche de protocole déjà préparée et en fournissant une base théorique aux élèves sur la méthode scientifique.
 :::
 
-Cette « Fiche de Protocole » pourrait ressembler à cet exemple (également disponible pour impression en annexe) :
+Un modèle de **Fiche de protocole scientifique** est fourni en annexe (Formulaire 2) et imprimable depuis le PDF.
 
-- **Date** : .../.../......
-- **Groupe** : ...........................................................................................................................
-- **Sujet analysé** : ...............................................................................................................
-
-#### Définition du protocole scientifique
-
-- **Observation** - Description précise du phénomène ou du problème observé
-- **Question** - Formulation de la question spécifique à explorer
-- **Hypothèse** - Proposition d'une hypothèse testable et vérifiable
-
-**Expérimentation**
-
-- Description de l'expérience
-- Variables contrôlées
-- Groupes de comparaison
-- Procédures détaillées
-
-**Analyse des données**
-
-- Méthodologie d'analyse des données
-- Outils statistiques et méthodes d'analyse
-
-**Conclusion**
-
-- Résultats obtenus
-- Interprétation des résultats par rapport à l'hypothèse
-- Acceptation ou rejet de l'hypothèse
-
-**Publication et réplication**
-
-- Résumé des conclusions
-- Suggestions pour des études futures ou des réplications de l'expérience
-
-
-Après avoir défini les étapes de la démarches scientifiques de manière collective, reconstituez les groupes de la première phase afin d'élaborer un protocole scientifique pour aborder les sujets et les lieux communs que chaque équipe avait analysé précédemment.
+Après avoir défini les étapes de la démarche scientifique de manière collective, reconstituez les groupes de la première phase afin d'élaborer un protocole scientifique pour aborder les sujets et les lieux communs que chaque équipe avait analysés précédemment.
 
 Commencez par réunir les groupes et expliquez-leur qu'ils travailleront initialement sans accès à Internet pendant les 20 premières minutes. Cela les encouragera à utiliser leurs connaissances préalables et à discuter entre eux pour formuler les premières idées, en particulier les hypothèses.
 
@@ -341,12 +254,14 @@ En suivant cette phase de diffusion, les élèves deviendront des ambassadeurs d
 
 ## Explorez les outils numériques de conception et de création
 
-- **Canva** : Création de graphiques, de présentations, de vidéos, d'infographies, collaboration en temps réel. Ressources fournies : Images, graphismes, vidéos, éléments audio. Accessibilité : Très accessible. Fonctionnalités gratuites : Accès à des milliers de modèles, éléments graphiques de base, stockage cloud limité. Gratuit pour les enseignants et les écoles.
-- **Genially** : Création de présentations interactives, d'infographies, de jeux, de contenus animés. Ressources fournies : Images, graphismes, animations. Accessibilité : Accessible. Fonctionnalités gratuites : Accès à des modèles de base, fonctionnalités interactives limitées, publications publiques. Gratuit avec options payantes (Pro).
-- **Animaker** : Création de vidéos animées, d'infographies vidéo, de présentations vidéo, de GIFs animés. Ressources fournies : Images, graphismes, éléments audio, animations. Accessibilité : Moyennement accessible. Fonctionnalités gratuites : Exportation vidéo en SD, accès limité aux ressources, filigrane sur les vidéos. Aucun plan pour l'éducation.
-- **Powtoon** : Création de vidéos animées, de présentations vidéo, de vidéos explicatives. Ressources fournies : Images, graphismes, éléments audio, animations. Accessibilité : Accessible. Fonctionnalités gratuites : Exportation vidéo en SD, accès limité aux ressources, filigrane sur les vidéos. Gratuit avec options payantes (Pro).
-- **Piktochart** : Création d'infographies, de présentations, de rapports, de posters. Ressources fournies : Images, graphiques, icônes. Accessibilité : Très accessible. Fonctionnalités gratuites : Accès à des modèles de base, exportation limitée à certains formats, stockage limité. 39,99 $/an pour les enseignants.
-- **Freepik et Flaticon** : Accès à des ressources de conception, des icônes et des illustrations gratuites et premium. Ressources fournies : Images, icônes, illustrations. Accessibilité : Très accessible. Fonctionnalités gratuites : Accès gratuit aux ressources de base avec attribution. Aucun plan pour l'éducation. https://www.freepik.com / https://www.flaticon.com
+| Outil | Usages | Ressources fournies | Accessibilité | Offre gratuite |
+|---|---|---|---|---|
+| **Canva** | Graphiques, présentations, vidéos, infographies, collaboration en temps réel | Images, graphismes, vidéos, audio | Très accessible | Milliers de modèles, éléments de base, stockage cloud limité — gratuit pour enseignants et écoles |
+| **Genially** | Présentations interactives, infographies, jeux, contenus animés | Images, graphismes, animations | Accessible | Modèles de base, interactivité limitée, publications publiques — options payantes (Pro) |
+| **Animaker** | Vidéos animées, infographies vidéo, présentations vidéo, GIFs animés | Images, graphismes, audio, animations | Moyennement accessible | Export SD, ressources limitées, filigrane — aucun plan éducation |
+| **Powtoon** | Vidéos animées, présentations vidéo, vidéos explicatives | Images, graphismes, audio, animations | Accessible | Export SD, ressources limitées, filigrane — options payantes (Pro) |
+| **Piktochart** | Infographies, présentations, rapports, posters | Images, graphiques, icônes | Très accessible | Modèles de base, export limité, stockage limité — 39,99 $/an pour enseignants |
+| **Freepik et Flaticon** ([freepik.com](https://www.freepik.com) / [flaticon.com](https://www.flaticon.com)) | Ressources de conception, icônes, illustrations | Images, icônes, illustrations | Très accessible | Accès gratuit avec attribution — aucun plan éducation |
 
 ## Idées de projets complémentaires
 

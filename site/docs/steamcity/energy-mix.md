@@ -44,11 +44,13 @@ sidebar_position: 10
 
 ## Introduction
 
-Notre système énergétique repose sur un équilibre complexe entre différentes sources d'énergie. En 2023, l'UE a produit 2 572 TWh (térawattheures) d'électricité. Plus de 45 % de cette production provenaient de sources renouvelables. Les combustibles fossiles représentaient 31,7 % et l'électricité nucléaire près de 23 %. Le gaz était le principal combustible fossile utilisé pour produire de l'électricité (17 %), suivi du charbon (11,7 %).
+Notre système énergétique repose sur un équilibre complexe entre différentes sources d'énergie. En 2023, l'UE a produit 2 572 TWh (térawattheures) d'électricité :
 
-Le bouquet électrique varie considérablement d'un État membre à l'autre, la part de l'électricité produite à partir de sources renouvelables allant de plus de 90 % à moins de 15 %.
+- **Sources renouvelables** : plus de 45 %
+- **Combustibles fossiles** : 31,7 % (gaz 17 %, charbon 11,7 %)
+- **Nucléaire** : près de 23 %
 
-[https://www.consilium.europa.eu/fr/infographics/how-is-eu-electricity-produced-and-sold/#0](https://www.consilium.europa.eu/fr/infographics/how-is-eu-electricity-produced-and-sold/#0)
+Le bouquet électrique varie considérablement d'un État membre à l'autre, la part des renouvelables allant de plus de 90 % à moins de 15 % (voir l'[infographie du Conseil européen](https://www.consilium.europa.eu/fr/infographics/how-is-eu-electricity-produced-and-sold/#0)).
 
 Cette diversité n'est pas accidentelle : elle résulte de choix stratégiques visant à concilier sécurité d'approvisionnement, coûts acceptables et objectifs climatiques. Cependant, cette interdépendance crée aussi des vulnérabilités. La crise énergétique de 2022-2023, déclenchée par la guerre en Ukraine, a révélé les conséquences d'une dépendance excessive au gaz russe. De même, les arrêts programmés de centrales nucléaires en Allemagne ou en Belgique posent des questions sur la capacité du système à maintenir l'équilibre offre-demande tout en respectant les objectifs climatiques.
 
@@ -61,24 +63,13 @@ Ce protocole propose aux élèves de construire leur propre simulateur de mix é
 
 Ce protocole vise à développer chez les élèves une compréhension approfondie des enjeux d'interdépendances énergétiques par la construction et l'utilisation d'un outil de simulation. L'approche pédagogique s'appuie sur la modélisation quantitative, l'expérimentation numérique et l'analyse de scénarios prospectifs.
 
-L'activité s'articule autour de quatre phases progressives:
+L'activité s'articule autour de trois phases progressives :
 
-1. Phase 1 : Décryptage du mix énergétique - Les élèves analysent la composition actuelle du mix électrique de leur pays, identifient les caractéristiques de chaque source d'énergie (coût, pilotabilité, émissions, contraintes) et comprennent les fonctions spécifiques de chaque technologie dans le système.
-2. Phase 2 : Construction du simulateur - Par groupes, les élèves construisent un outil de simulation permettant de modéliser les impacts économiques, environnementaux et techniques de modifications du mix énergétique. Le simulateur intègre des formules de calcul, des graphiques dynamiques et des indicateurs de performance.
-3. Phase 3 : Expérimentation et scénarios de crise - Les élèves testent leur simulateur en explorant les conséquences de la suppression progressive ou totale de différentes sources d'énergie (gaz, nucléaire, charbon, renouvelables intermittents). Ils analysent les impacts sur les coûts, les émissions et la sécurité d'approvisionnement. À partir de leurs simulations, les élèves formulent des recommandations pour gérer les transitions énergétiques, en identifiant les séquences optimales de transformation du mix et les mesures d'accompagnement nécessaires.
+- **Phase 1 : Décryptage du mix énergétique** — Les élèves analysent la composition actuelle du mix électrique de leur pays, identifient les caractéristiques de chaque source d'énergie (coût, pilotabilité, émissions, contraintes) et comprennent les fonctions spécifiques de chaque technologie dans le système.
+- **Phase 2 : Construction du simulateur** — Par groupes, les élèves construisent un outil de simulation permettant de modéliser les impacts économiques, environnementaux et techniques de modifications du mix énergétique. Le simulateur intègre des formules de calcul, des graphiques dynamiques et des indicateurs de performance.
+- **Phase 3 : Expérimentation et scénarios de crise** — Les élèves testent leur simulateur en explorant les conséquences de la suppression progressive ou totale de différentes sources d'énergie (gaz, nucléaire, charbon, renouvelables intermittents). Ils analysent les impacts sur les coûts, les émissions et la sécurité d'approvisionnement, puis formulent des recommandations pour gérer les transitions énergétiques en identifiant les séquences optimales de transformation du mix et les mesures d'accompagnement nécessaires.
 
 Cette progression permet aux élèves de passer d'une compréhension statique du mix énergétique à une vision dynamique des enjeux de transition, en développant leur capacité de modélisation et d'analyse prospective.
-
-Durée : min. 4 séances
-
-Niveau de difficulté : Avancé - Requiert des compétences en modélisation mathématique, analyse de données et programmation sur tableur pour construire le simulateur
-
-Matériel nécessaire :
-
-Phase 1 : Accès internet pour recherche de données, documents sur le mix énergétique européen, calculatrices
-Phase 2 : Ordinateurs avec Excel ou équivalent (LibreOffice Calc), modèles de simulateur pré-formatés, guide de construction Excel
-Phase 3 : Fiches de scénarios imprimées, accès aux simulateurs créés, matériel pour noter les résultats, supports de présentation (vidéoprojecteur, tableaux), matériel pour créer des recommandations visuelles
-
 
 ### Glossaire
 
@@ -111,21 +102,53 @@ Avant de pouvoir modéliser les impacts de modifications du mix énergétique, l
 
 ### Objectifs d'apprentissage
 
-Analyser la composition du mix énergétique actuel. Identifier les caractéristiques spécifiques de chaque source d'énergie. Comprendre les fonctions complémentaires des différentes technologies dans le système électrique.
+- Analyser la composition du mix énergétique actuel.
+- Identifier les caractéristiques spécifiques de chaque source d'énergie.
+- Comprendre les fonctions complémentaires des différentes technologies dans le système électrique.
 
 ### Conceptualisation
 
-Question de recherche : Quels facteurs déterminent la composition actuelle du mix énergétique européen et les spécificités nationales ?
+:::question[Question de recherche]
+Quels facteurs déterminent la composition actuelle du mix énergétique européen et les spécificités nationales ?
+:::
 
-Hypothèse : La composition du mix énergétique résulte d'un équilibre complexe entre contraintes géographiques (ressources disponibles), héritages historiques (infrastructures existantes), choix politiques (stratégies énergétiques) et contraintes économiques (coûts de production), créant des spécificités nationales au sein d'objectifs européens communs. Concepts clés : Mix énergétique optimal : Répartition des sources visant à optimiser simultanément coût, sécurité et durabilité (révèle les arbitrages nécessaires). Dépendance au sentier : Influence des choix passés sur les options actuelles d'évolution du système (explique les inerties du système). Contraintes systémiques : Limitations techniques et économiques qui conditionnent les choix énergétiques (détermine les marges de manoeuvre).
+:::hypothese[Hypothèse]
+La composition du mix énergétique résulte d'un équilibre complexe entre contraintes géographiques (ressources disponibles), héritages historiques (infrastructures existantes), choix politiques (stratégies énergétiques) et contraintes économiques (coûts de production), créant des spécificités nationales au sein d'objectifs européens communs.
+:::
 
-Question de recherche : Comment les caractéristiques techniques spécifiques de chaque source d'énergie déterminent-elles leur rôle complémentaire dans le système électrique ?
+**Concepts clés** :
 
-Hypothèse : Chaque source d'énergie possède des caractéristiques techniques uniques (pilotabilité, flexibilité, facteur de charge) qui la destinent à des fonctions spécifiques dans le système électrique, rendant impossible une substitution simple et directe entre technologies. Concepts clés : Complémentarité fonctionnelle : Nécessité de combiner différentes sources pour assurer toutes les fonctions du système électrique (base, semi-base, pointe, ajustement). Pilotabilité vs intermittence : Opposition fondamentale entre sources contrôlables et sources dépendantes des conditions naturelles (structure les enjeux de gestion du réseau). Ordre de mérite : Ordre d'appel des centrales selon leur coût marginal qui détermine leur utilisation effective (explique la hiérarchie économique des sources).
+- **Mix énergétique optimal** : répartition des sources visant à optimiser simultanément coût, sécurité et durabilité (révèle les arbitrages nécessaires).
+- **Dépendance au sentier** : influence des choix passés sur les options actuelles d'évolution du système (explique les inerties du système).
+- **Contraintes systémiques** : limitations techniques et économiques qui conditionnent les choix énergétiques (détermine les marges de manoeuvre).
 
-Question de recherche : Quelles tensions existent entre objectifs économiques, environnementaux et de sécurité d'approvisionnement dans les choix énergétiques européens ?
+:::question[Question de recherche]
+Comment les caractéristiques techniques spécifiques de chaque source d'énergie déterminent-elles leur rôle complémentaire dans le système électrique ?
+:::
 
-Hypothèse : Les choix énergétiques européens résultent d'arbitrages complexes entre trois objectifs parfois contradictoires : minimiser les coûts (compétitivité économique), réduire les impacts environnementaux (objectifs climatiques) et garantir la sécurité d'approvisionnement (indépendance géopolitique). Concepts clés : Trilemme énergétique : Tension entre affordabilité, durabilité et sécurité énergétique qui contraint les choix politiques (structure les débats énergétiques). Externalités environnementales : Coûts environnementaux non intégrés dans les prix de marché (explique les distorsions entre coûts privés et sociaux). Souveraineté énergétique : Capacité à maintenir l'approvisionnement indépendamment des crises géopolitiques (influence les stratégies nationales et européennes).
+:::hypothese[Hypothèse]
+Chaque source d'énergie possède des caractéristiques techniques uniques (pilotabilité, flexibilité, facteur de charge) qui la destinent à des fonctions spécifiques dans le système électrique, rendant impossible une substitution simple et directe entre technologies.
+:::
+
+**Concepts clés** :
+
+- **Complémentarité fonctionnelle** : nécessité de combiner différentes sources pour assurer toutes les fonctions du système électrique (base, semi-base, pointe, ajustement).
+- **Pilotabilité vs intermittence** : opposition fondamentale entre sources contrôlables et sources dépendantes des conditions naturelles (structure les enjeux de gestion du réseau).
+- **Ordre de mérite** : ordre d'appel des centrales selon leur coût marginal qui détermine leur utilisation effective (explique la hiérarchie économique des sources).
+
+:::question[Question de recherche]
+Quelles tensions existent entre objectifs économiques, environnementaux et de sécurité d'approvisionnement dans les choix énergétiques européens ?
+:::
+
+:::hypothese[Hypothèse]
+Les choix énergétiques européens résultent d'arbitrages complexes entre trois objectifs parfois contradictoires : minimiser les coûts (compétitivité économique), réduire les impacts environnementaux (objectifs climatiques) et garantir la sécurité d'approvisionnement (indépendance géopolitique).
+:::
+
+**Concepts clés** :
+
+- **Trilemme énergétique** : tension entre affordabilité, durabilité et sécurité énergétique qui contraint les choix politiques (structure les débats énergétiques).
+- **Externalités environnementales** : coûts environnementaux non intégrés dans les prix de marché (explique les distorsions entre coûts privés et sociaux).
+- **Souveraineté énergétique** : capacité à maintenir l'approvisionnement indépendamment des crises géopolitiques (influence les stratégies nationales et européennes).
 
 ### Investigation par les élèves
 
@@ -145,48 +168,35 @@ Questions d'analyse :
 
 **Objectif :** Comprendre les spécificités de chaque source d'énergie qui déterminent son rôle dans le système électrique.
 
-Chaque binôme se spécialise sur 2-3 sources d'énergie et complète une fiche d'analyse détaillée. Ces fiches serviront ensuite de base de données pour construire le simulateur. Modèle de fiche d'analyse (exemple : Gaz naturel) - Disponible pour impression en annexe
+Chaque binôme se spécialise sur 2-3 sources d'énergie et complète une fiche d'analyse détaillée. Ces fiches serviront ensuite de base de données pour construire le simulateur. Un modèle de fiche d'analyse (exemple : Gaz naturel) est disponible pour impression en annexe du PDF.
 
-FICHE TECHNIQUE - GAZ NATUREL
+**Fiche technique — Gaz naturel (exemple)**
 
-Caractéristiques techniques :
-- **Facteur de charge moyen** : 45%
+*Caractéristiques techniques :*
+
+- **Facteur de charge moyen** : 45 %
 - **Temps de démarrage** : 15-30 minutes
-- **Flexibilité** : Très élevée (0-100% en quelques minutes)
+- **Flexibilité** : très élevée (0-100 % en quelques minutes)
 - **Durée de vie installation** : 25-30 ans
 
-Caractéristiques économiques :
+*Caractéristiques économiques :*
+
 - **Coût d'investissement** : 800-1200 EUR/kW
 - **Coût d'exploitation** : 60-80 EUR/MWh
 - **LCOE moyen** : 75-95 EUR/MWh
 
-Caractéristiques environnementales :
+*Caractéristiques environnementales :*
+
 - **Émissions CO2** : 350-400 g/kWh
 - **Autres impacts** : NOx, dépendance aux importations
 
-Avantages dans le système :
-- Flexibilité pour équilibrer le réseau
-- Temps de réponse rapide
-- Technologie maîtrisée
+*Avantages dans le système :* flexibilité pour équilibrer le réseau, temps de réponse rapide, technologie maîtrisée.
 
-Inconvénients dans le système :
-- Prix volatil des combustibles
-- Dépendance géopolitique
-- Émissions de CO2 importantes
+*Inconvénients dans le système :* prix volatil des combustibles, dépendance géopolitique, émissions de CO2 importantes.
 
-Caractéristiques techniques :
-
-Le facteur de charge indique le rapport entre la production réelle et la production maximale théorique. C'est crucial pour calculer la production effective. Le temps de démarrage et la flexibilité déterminent la capacité à répondre aux variations de demande. La durée de vie influence l'amortissement des investissements.
-
-Caractéristiques économiques :
-
-Le coût d'investissement (EUR/kW) permet de calculer le coût total d'installation. Le coût d'exploitation (EUR/MWh) détermine les coûts variables de production. Le LCOE combine tous les coûts pour donner le coût moyen de production sur la durée de vie.
-
-Caractéristiques environnementales :
-
-Les émissions de CO2 (g/kWh) servent à calculer l'impact climatique total. Les autres impacts environnementaux doivent aussi être pris en compte dans l'évaluation globale.
-
-Ces paramètres sont essentiels pour modéliser les impacts techniques, économiques et environnementaux de tout changement dans le mix énergétique.
+:::info[Lecture des paramètres]
+Le **facteur de charge** (rapport entre production réelle et production maximale théorique) est crucial pour calculer la production effective. Le **temps de démarrage** et la **flexibilité** déterminent la capacité à répondre aux variations de demande. La **durée de vie** influence l'amortissement des investissements. Le **coût d'investissement** (EUR/kW) permet de calculer le coût total d'installation, le **coût d'exploitation** (EUR/MWh) les coûts variables, et le **LCOE** combine les deux pour donner le coût moyen sur la durée de vie. Les **émissions de CO2** (g/kWh) servent à calculer l'impact climatique total. Ces paramètres sont essentiels pour modéliser tout changement dans le mix énergétique.
+:::
 
 Les élèves complètent des fiches similaires pour toutes les sources du mix, en s'appuyant sur les ressources documentaires fournies et sur des recherches guidées.
 
@@ -205,12 +215,18 @@ Cette analyse est fondamentale pour la construction du simulateur car elle met e
 
 ### Restitution et réflexion
 
-L'analyse du mix énergétique européen a révélé aux élèves la complexité des arbitrages qui sous-tendent les choix énergétiques actuels. Ils ont compris que chaque source d'énergie possède des caractéristiques techniques, économiques et environnementales spécifiques qui déterminent son rôle dans le système électrique. Cette complémentarité fonctionnelle explique pourquoi aucune source unique ne peut satisfaire tous les besoins du réseau et pourquoi les transitions énergétiques nécessitent des recompositions complexes plutôt que de simples substitutions. L'approche par fiches techniques détaillées favorise l'appropriation progressive des concepts énergétiques et développe la rigueur dans l'analyse de données. La spécialisation par groupe puis la mise en commun permettent d'approfondir certains aspects tout en construisant une vision d'ensemble. L'analyse fonctionnelle du système électrique aide les élèves à dépasser une vision statique pour comprendre les interdépendances dynamiques. Les élèves maîtrisent désormais les caractéristiques principales des différentes sources d'énergie et comprennent leur articulation dans le système électrique européen. Ils ont développé leur capacité d'analyse de données énergétiques et acquis les bases conceptuelles nécessaires pour modéliser les impacts de modifications du mix énergétique. Pour approfondir la réflexion et préparer la construction du simulateur, voici quelques questions clés à explorer collectivement :
+L'analyse du mix énergétique européen a révélé aux élèves la complexité des arbitrages qui sous-tendent les choix énergétiques actuels. Ils ont compris que chaque source d'énergie possède des caractéristiques techniques, économiques et environnementales spécifiques qui déterminent son rôle dans le système électrique. Cette complémentarité fonctionnelle explique pourquoi aucune source unique ne peut satisfaire tous les besoins du réseau et pourquoi les transitions énergétiques nécessitent des recompositions complexes plutôt que de simples substitutions.
 
-- Quelles sont les limites physiques et économiques des substitutions entre sources d'énergie ? Identification des contraintes techniques qui empêchent certaines substitutions (intermittence, temps de réponse, localisation). Analyse des coûts cachés des transitions (infrastructures, stockage, flexibilité). Compréhension des seuils critiques pour la stabilité du système électrique.
-- Comment anticiper l'évolution future du mix énergétique ? Exploration des tendances (croissance des renouvelables, déclin des fossiles, débats sur le nucléaire). Identification des facteurs d'accélération ou de freinage des transitions. Réflexion sur les innovations susceptibles de transformer le paysage énergétique.
-- Quels outils de modélisation développer pour évaluer les impacts des modifications du mix ? Préparation à la construction du simulateur en identifiant les variables clés à intégrer. Réflexion sur les indicateurs pertinents pour évaluer les scénarios (coût, émissions, sécurité). Introduction aux méthodes de simulation et d'optimisation appliquées aux systèmes énergétiques.
-- Comment les spécificités nationales s'articulent-elles avec les objectifs européens communs ? Analyse des différences de mix entre pays européens et de leurs causes (géographie, histoire, choix politiques). Exploration des mécanismes de coordination européenne et des enjeux de solidarité énergétique. Réflexion sur l'équilibre entre souveraineté nationale et intégration européenne.
+L'approche par fiches techniques détaillées favorise l'appropriation progressive des concepts énergétiques et développe la rigueur dans l'analyse de données. La spécialisation par groupe puis la mise en commun permettent d'approfondir certains aspects tout en construisant une vision d'ensemble. L'analyse fonctionnelle du système électrique aide les élèves à dépasser une vision statique pour comprendre les interdépendances dynamiques.
+
+Les élèves maîtrisent désormais les caractéristiques principales des différentes sources d'énergie et comprennent leur articulation dans le système électrique européen. Ils ont développé leur capacité d'analyse de données énergétiques et acquis les bases conceptuelles nécessaires pour modéliser les impacts de modifications du mix énergétique.
+
+Pour approfondir la réflexion et préparer la construction du simulateur, voici quelques questions clés à explorer collectivement :
+
+- **Quelles sont les limites physiques et économiques des substitutions entre sources d'énergie ?** Identification des contraintes techniques qui empêchent certaines substitutions (intermittence, temps de réponse, localisation). Analyse des coûts cachés des transitions (infrastructures, stockage, flexibilité). Compréhension des seuils critiques pour la stabilité du système électrique.
+- **Comment anticiper l'évolution future du mix énergétique ?** Exploration des tendances (croissance des renouvelables, déclin des fossiles, débats sur le nucléaire). Identification des facteurs d'accélération ou de freinage des transitions. Réflexion sur les innovations susceptibles de transformer le paysage énergétique.
+- **Quels outils de modélisation développer pour évaluer les impacts des modifications du mix ?** Préparation à la construction du simulateur en identifiant les variables clés à intégrer. Réflexion sur les indicateurs pertinents pour évaluer les scénarios (coût, émissions, sécurité). Introduction aux méthodes de simulation et d'optimisation appliquées aux systèmes énergétiques.
+- **Comment les spécificités nationales s'articulent-elles avec les objectifs européens communs ?** Analyse des différences de mix entre pays européens et de leurs causes (géographie, histoire, choix politiques). Exploration des mécanismes de coordination européenne et des enjeux de solidarité énergétique. Réflexion sur l'équilibre entre souveraineté nationale et intégration européenne.
 
 ---
 
@@ -222,21 +238,53 @@ Armés de leur compréhension du mix énergétique actuel, les élèves vont mai
 
 ### Objectifs d'apprentissage
 
-Construire un modèle numérique du mix énergétique européen. Intégrer les contraintes techniques et économiques dans la modélisation. Développer des indicateurs de performance pour évaluer différents scénarios.
+- Construire un modèle numérique du mix énergétique européen.
+- Intégrer les contraintes techniques et économiques dans la modélisation.
+- Développer des indicateurs de performance pour évaluer différents scénarios.
 
 ### Conceptualisation
 
-Question de recherche : Comment traduire la complexité du système énergétique en un modèle numérique accessible et fonctionnel ?
+:::question[Question de recherche]
+Comment traduire la complexité du système énergétique en un modèle numérique accessible et fonctionnel ?
+:::
 
-Hypothèse : La modélisation d'un système énergétique nécessite de simplifier la réalité en conservant les relations essentielles entre variables techniques, économiques et environnementales, tout en rendant l'outil utilisable par des non-experts pour explorer différents scénarios. Concepts clés : Modélisation systémique : Représentation simplifiée d'un système complexe conservant ses propriétés essentielles (permet l'analyse et la prédiction). Variables endogènes vs exogènes : Distinction entre paramètres modifiables par l'utilisateur et contraintes externes imposées (structure l'architecture du modèle). Validation de modèle : Vérification de la cohérence entre résultats simulés et données réelles (garantit la fiabilité des analyses).
+:::hypothese[Hypothèse]
+La modélisation d'un système énergétique nécessite de simplifier la réalité en conservant les relations essentielles entre variables techniques, économiques et environnementales, tout en rendant l'outil utilisable par des non-experts pour explorer différents scénarios.
+:::
 
-Question de recherche : Quels indicateurs et contraintes intégrer pour évaluer de manière pertinente les scénarios énergétiques ?
+**Concepts clés** :
 
-Hypothèse : L'évaluation des scénarios énergétiques nécessite des indicateurs multidimensionnels (économiques, environnementaux, techniques) et des contraintes réalistes qui reflètent les limites physiques et politiques du système, pour éviter les solutions théoriques non réalisables. Concepts clés : Indicateurs de performance énergétique : Métriques quantitatives permettant d'évaluer la qualité d'un mix énergétique selon différents critères (guide les choix stratégiques). Contraintes de faisabilité : Limites techniques, économiques ou politiques qui bornent l'espace des solutions possibles (évite les scénarios irréalistes). Optimisation multi-critères : Recherche de solutions équilibrant plusieurs objectifs parfois contradictoires (reflète la complexité des choix énergétiques).
+- **Modélisation systémique** : représentation simplifiée d'un système complexe conservant ses propriétés essentielles (permet l'analyse et la prédiction).
+- **Variables endogènes vs exogènes** : distinction entre paramètres modifiables par l'utilisateur et contraintes externes imposées (structure l'architecture du modèle).
+- **Validation de modèle** : vérification de la cohérence entre résultats simulés et données réelles (garantit la fiabilité des analyses).
 
-Question de recherche : Comment la construction collaborative d'un outil de simulation favorise-t-elle l'appropriation des enjeux énergétiques ?
+:::question[Question de recherche]
+Quels indicateurs et contraintes intégrer pour évaluer de manière pertinente les scénarios énergétiques ?
+:::
 
-Hypothèse : La construction collaborative d'un simulateur développe une compréhension approfondie des mécanismes énergétiques car elle oblige à expliciter les relations causales, à quantifier les impacts et à confronter les hypothèses aux données réelles. Concepts clés : Apprentissage par la modélisation : Processus d'acquisition de connaissances par la construction d'une représentation formalisée (favorise la compréhension systémique). Appropriation technique : Maîtrise d'un outil par sa construction plutôt que par son utilisation passive (développe l'autonomie analytique). Pensée computationnelle : Capacité à décomposer un problème complexe en éléments modélisables et calculables (compétence transférable).
+:::hypothese[Hypothèse]
+L'évaluation des scénarios énergétiques nécessite des indicateurs multidimensionnels (économiques, environnementaux, techniques) et des contraintes réalistes qui reflètent les limites physiques et politiques du système, pour éviter les solutions théoriques non réalisables.
+:::
+
+**Concepts clés** :
+
+- **Indicateurs de performance énergétique** : métriques quantitatives permettant d'évaluer la qualité d'un mix énergétique selon différents critères (guide les choix stratégiques).
+- **Contraintes de faisabilité** : limites techniques, économiques ou politiques qui bornent l'espace des solutions possibles (évite les scénarios irréalistes).
+- **Optimisation multi-critères** : recherche de solutions équilibrant plusieurs objectifs parfois contradictoires (reflète la complexité des choix énergétiques).
+
+:::question[Question de recherche]
+Comment la construction collaborative d'un outil de simulation favorise-t-elle l'appropriation des enjeux énergétiques ?
+:::
+
+:::hypothese[Hypothèse]
+La construction collaborative d'un simulateur développe une compréhension approfondie des mécanismes énergétiques car elle oblige à expliciter les relations causales, à quantifier les impacts et à confronter les hypothèses aux données réelles.
+:::
+
+**Concepts clés** :
+
+- **Apprentissage par la modélisation** : processus d'acquisition de connaissances par la construction d'une représentation formalisée (favorise la compréhension systémique).
+- **Appropriation technique** : maîtrise d'un outil par sa construction plutôt que par son utilisation passive (développe l'autonomie analytique).
+- **Pensée computationnelle** : capacité à décomposer un problème complexe en éléments modélisables et calculables (compétence transférable).
 
 ### Investigation par les élèves
 
@@ -246,27 +294,14 @@ Hypothèse : La construction collaborative d'un simulateur développe une compr�
 
 Les élèves, par groupes, reçoivent un fichier (par exemple sur Excel ou Google Sheet) pré-formaté avec les onglets de base et construisent progressivement leur simulateur. L'enseignant guide la construction étape par étape.
 
-Exemple de structure du fichier
+**Exemple de structure du fichier :**
 
-Onglet 1 : "Données de base"
-- Tableau des caractéristiques de chaque source (données collectées en Séquence 1)
-- Paramètres de référence (demande totale, objectifs climatiques, budgets)
-- Facteurs de conversion et constantes
-
-Onglet 2 : "Mix actuel"
-- Répartition actuelle du mix (en % et en TWh)
-- Calculs automatiques des coûts, émissions et indicateurs techniques
-- Graphiques de visualisation
-
-Onglet 3 : "Simulateur"
-- Interface de modification du mix
-- Calculs en temps réel des impacts
-- Alertes sur les contraintes non respectées
-
-Onglet 4 : "Résultats"
-- Tableau de comparaison avant/après
-- Graphiques d'impact
-- Indicateurs de synthèse
+| Onglet | Contenu |
+|---|---|
+| **1. Données de base** | Caractéristiques de chaque source (collectées en Phase 1), paramètres de référence (demande totale, objectifs climatiques, budgets), facteurs de conversion et constantes. |
+| **2. Mix actuel** | Répartition actuelle du mix (en % et en TWh), calculs automatiques des coûts/émissions/indicateurs techniques, graphiques de visualisation. |
+| **3. Simulateur** | Interface de modification du mix, calculs en temps réel des impacts, alertes sur les contraintes non respectées. |
+| **4. Résultats** | Tableau de comparaison avant/après, graphiques d'impact, indicateurs de synthèse. |
 
 Les élèves commencent par saisir leurs données de base dans l'onglet 1, en organisant les informations collectées lors de la séquence précédente.
 
@@ -276,22 +311,13 @@ Les élèves commencent par saisir leurs données de base dans l'onglet 1, en or
 
 L'enseignant guide les élèves dans la construction progressive des formules clés du simulateur :
 
-Production par source : Production\_source = Part\_mix x Demande\_totale x Facteur\_charge
-Cette formule calcule la production réelle de chaque source d'énergie en tenant compte de sa part dans le mix, de la demande totale d'électricité, et du facteur de charge qui représente la disponibilité moyenne de la source (par exemple, le solaire ne produit pas la nuit).
+- **Production par source** : `Production_source = Part_mix × Demande_totale × Facteur_charge`. Calcule la production réelle de chaque source en tenant compte de sa part dans le mix, de la demande totale et du facteur de charge (par exemple, le solaire ne produit pas la nuit).
+- **Coût total du système** : `Coût_total = Σ(Capacité_installée × Coût_investissement + Production × Coût_exploitation)`. Additionne pour chaque source les coûts fixes (investissement × capacité) et les coûts variables (exploitation × production), pour obtenir le coût total annuel du système électrique.
+- **Émissions totales** : `Émissions_totales = Σ(Production_source × Facteur_émission_source)`. Multiplie la production de chaque source par son facteur d'émission spécifique (gCO2/kWh). Le nucléaire et l'hydraulique ont des facteurs très faibles, le charbon un facteur élevé.
+- **Indicateur de sécurité** : `Part_pilotable = Σ(Production_sources_pilotables) / Production_totale`. Calcule la proportion d'électricité provenant de sources pilotables (nucléaire, thermique, hydraulique de barrage). Un ratio élevé indique une meilleure stabilité du réseau.
+- **Indicateur d'autonomie** : `Taux_imports = Production_imports / Demande_totale`. Évalue la dépendance aux importations. Un taux faible indique une plus grande autonomie énergétique.
 
-Coût total du système : Coût\_total = Somme(Capacité\_installée x Coût\_investissement + Production x Coût\_exploitation)
-Cette formule additionne pour chaque source les coûts fixes (investissement initial multiplié par la capacité installée) et les coûts variables (coût d'exploitation multiplié par la production). Cela permet d'obtenir le coût total annuel du système électrique.
-
-Émissions totales : Émissions\_totales = Somme(Production\_source x Facteur\_émission\_source)
-Cette formule calcule les émissions totales de CO2 en multipliant la production de chaque source par son facteur d'émission spécifique (en gCO2/kWh). Certaines sources comme le nucléaire ou l'hydraulique ont des facteurs très faibles, tandis que le charbon a un facteur élevé.
-
-Indicateur de sécurité : Part\_pilotable = Somme(Production\_sources\_pilotables) / Production\_totale
-Cette formule calcule la proportion d'électricité provenant de sources pilotables (nucléaire, thermique, hydraulique de barrage) par rapport à la production totale. Un ratio élevé indique une meilleure stabilité du réseau.
-
-Indicateur d'autonomie : Taux\_imports = Production\_imports / Demande\_totale
-Cette formule évalue la dépendance aux importations en calculant leur part dans la satisfaction de la demande totale. Un taux faible indique une plus grande autonomie énergétique.
-
-Les élèves implémentent ces formules étape par étape, testent leur fonctionnement et ajoutent des vérifications (somme des parts = 100%, cohérence des unités).
+Les élèves implémentent ces formules étape par étape, testent leur fonctionnement et ajoutent des vérifications (somme des parts = 100 %, cohérence des unités).
 
 #### 3. Interface utilisateur et visualisation
 
@@ -320,14 +346,18 @@ Les élèves étalonnent leur simulateur en comparant ses résultats à des donn
 
 ### Restitution et réflexion
 
-La construction du simulateur a permis aux élèves de traduire leur compréhension conceptuelle du mix énergétique en un modèle numérique fonctionnel. Ils ont appris à structurer des données complexes, à formaliser des relations causales par des formules mathématiques et à créer des interfaces permettant l'exploration interactive de scénarios. Cette démarche leur a fait découvrir les défis de la modélisation : équilibre entre simplicité et réalisme, validation des résultats, gestion des contraintes multiples. L'approche par construction progressive favorise l'appropriation technique et conceptuelle des enjeux énergétiques. Le travail en petits groupes permet l'entraide et la confrontation des approches. La validation par comparaison avec des données réelles développe l'esprit critique et la rigueur scientifique. L'interface utilisateur finale donne aux élèves la satisfaction de créer un outil fonctionnel et utilisable. Les élèves maîtrisent désormais les mécanismes quantitatifs qui régissent les systèmes énergétiques (calculs de production, coûts, émissions, indicateurs de performance). Ils ont développé leurs compétences en modélisation numérique et leur capacité à traduire des concepts complexes en outils opérationnels. Ils disposent d'un instrument d'analyse qu'ils pourront utiliser pour explorer différents scénarios de transition énergétique.
+La construction du simulateur a permis aux élèves de traduire leur compréhension conceptuelle du mix énergétique en un modèle numérique fonctionnel. Ils ont appris à structurer des données complexes, à formaliser des relations causales par des formules mathématiques et à créer des interfaces permettant l'exploration interactive de scénarios. Cette démarche leur a fait découvrir les défis de la modélisation : équilibre entre simplicité et réalisme, validation des résultats, gestion des contraintes multiples.
+
+L'approche par construction progressive favorise l'appropriation technique et conceptuelle des enjeux énergétiques. Le travail en petits groupes permet l'entraide et la confrontation des approches. La validation par comparaison avec des données réelles développe l'esprit critique et la rigueur scientifique. L'interface utilisateur finale donne aux élèves la satisfaction de créer un outil fonctionnel et utilisable.
+
+Les élèves maîtrisent désormais les mécanismes quantitatifs qui régissent les systèmes énergétiques (calculs de production, coûts, émissions, indicateurs de performance). Ils ont développé leurs compétences en modélisation numérique et leur capacité à traduire des concepts complexes en outils opérationnels. Ils disposent d'un instrument d'analyse qu'ils pourront utiliser pour explorer différents scénarios de transition énergétique.
 
 Pour approfondir la réflexion et préparer l'expérimentation de scénarios, voici quelques questions clés à explorer collectivement :
 
-- Quelles sont les limites de notre modèle et comment les prendre en compte dans l'interprétation des résultats ? Identification des simplifications effectuées et de leurs conséquences sur la validité des analyses. Réflexion sur l'écart entre modèle et réalité. Discussion des précautions nécessaires dans l'utilisation des résultats de simulation.
-- Comment notre simulateur peut-il éclairer les débats énergétiques actuels ? Exploration des questions énergétiques contemporaines que le simulateur permet d'analyser. Identification des acteurs (politiques, entreprises, citoyens) qui pourraient bénéficier de tels outils. Réflexion sur le rôle de la modélisation dans l'aide à la décision.
-- Quels scénarios de crise ou de transition seraient les plus instructifs à tester ? Anticipation des expérimentations de la séquence suivante en identifiant les situations les plus révélatrices des enjeux énergétiques. Réflexion sur les événements géopolitiques, climatiques ou technologiques susceptibles de bouleverser le mix énergétique.
-- Comment améliorer progressivement notre simulateur pour le rendre plus réaliste ? Identification des raffinements possibles (prise en compte des variations saisonnières, des coûts de réseau, des innovations technologiques). Réflexion sur l'équilibre entre complexité croissante et facilité d'utilisation. Préparation à l'évolution continue de l'outil.
+- **Quelles sont les limites de notre modèle et comment les prendre en compte dans l'interprétation des résultats ?** Identification des simplifications effectuées et de leurs conséquences sur la validité des analyses. Réflexion sur l'écart entre modèle et réalité. Discussion des précautions nécessaires dans l'utilisation des résultats de simulation.
+- **Comment notre simulateur peut-il éclairer les débats énergétiques actuels ?** Exploration des questions énergétiques contemporaines que le simulateur permet d'analyser. Identification des acteurs (politiques, entreprises, citoyens) qui pourraient bénéficier de tels outils. Réflexion sur le rôle de la modélisation dans l'aide à la décision.
+- **Quels scénarios de crise ou de transition seraient les plus instructifs à tester ?** Anticipation des expérimentations de la séquence suivante en identifiant les situations les plus révélatrices des enjeux énergétiques. Réflexion sur les événements géopolitiques, climatiques ou technologiques susceptibles de bouleverser le mix énergétique.
+- **Comment améliorer progressivement notre simulateur pour le rendre plus réaliste ?** Identification des raffinements possibles (prise en compte des variations saisonnières, des coûts de réseau, des innovations technologiques). Réflexion sur l'équilibre entre complexité croissante et facilité d'utilisation. Préparation à l'évolution continue de l'outil.
 
 ---
 
@@ -339,21 +369,54 @@ Les élèves disposent maintenant d'un outil fonctionnel pour explorer les cons�
 
 ### Objectifs d'apprentissage
 
-Analyser les impacts de la suppression d'une source d'énergie majeure. Identifier les stratégies de compensation et leurs limites. Évaluer la faisabilité technique et économique de différentes transitions. Formuler des recommandations stratégiques pour les décideurs européens.
+- Analyser les impacts de la suppression d'une source d'énergie majeure.
+- Identifier les stratégies de compensation et leurs limites.
+- Évaluer la faisabilité technique et économique de différentes transitions.
+- Formuler des recommandations stratégiques pour les décideurs européens.
 
 ### Conceptualisation
 
-Question de recherche : Quelles sont les contraintes et limites physiques qui conditionnent la faisabilité des transitions énergétiques majeures ?
+:::question[Question de recherche]
+Quelles sont les contraintes et limites physiques qui conditionnent la faisabilité des transitions énergétiques majeures ?
+:::
 
-Hypothèse : Les transitions énergétiques sont limitées par des contraintes physiques (temps de déploiement, capacités industrielles, stabilité du réseau) et économiques (coûts d'investissement, acceptabilité sociale) qui rendent impossibles certaines substitutions rapides entre sources d'énergie, nécessitant des stratégies de transition progressives et diversifiées. Concepts clés : Inertie systémique : Résistance du système énergétique aux changements rapides due aux infrastructures existantes et aux contraintes techniques (explique les délais incompressibles). Points de rupture : Seuils au-delà desquels les contraintes techniques ou économiques rendent une transition impossible (délimite l'espace des solutions réalisables). Chemin de transition : Séquence optimale de modifications du mix énergétique respectant toutes les contraintes (guide la planification stratégique).
+:::hypothese[Hypothèse]
+Les transitions énergétiques sont limitées par des contraintes physiques (temps de déploiement, capacités industrielles, stabilité du réseau) et économiques (coûts d'investissement, acceptabilité sociale) qui rendent impossibles certaines substitutions rapides entre sources d'énergie, nécessitant des stratégies de transition progressives et diversifiées.
+:::
 
-Question de recherche : Comment les stratégies de compensation révèlent-elles les interdépendances et complémentarités entre sources d'énergie ?
+**Concepts clés** :
 
-Hypothèse : La suppression d'une source d'énergie majeure ne peut être compensée par une seule alternative mais nécessite une recomposition complexe du mix, révélant que chaque source a des fonctions spécifiques irremplaçables et que la sécurité énergétique repose sur la diversification. Concepts clés : Substitution imparfaite : Impossibilité de remplacer directement une source d'énergie par une autre sans modification des autres composantes du système (révèle la complexité des transitions). Effets de système : Impacts en cascade d'une modification sur l'ensemble du mix énergétique (démontre les interdépendances). Portefeuille énergétique : Approche de diversification des risques appliquée au mix énergétique pour garantir la sécurité d'approvisionnement (justifie la nécessité de sources multiples).
+- **Inertie systémique** : résistance du système énergétique aux changements rapides due aux infrastructures existantes et aux contraintes techniques (explique les délais incompressibles).
+- **Points de rupture** : seuils au-delà desquels les contraintes techniques ou économiques rendent une transition impossible (délimite l'espace des solutions réalisables).
+- **Chemin de transition** : séquence optimale de modifications du mix énergétique respectant toutes les contraintes (guide la planification stratégique).
 
-Question de recherche : Quels arbitrages entre objectifs contradictoires structurent les choix de politique énergétique ?
+:::question[Question de recherche]
+Comment les stratégies de compensation révèlent-elles les interdépendances et complémentarités entre sources d'énergie ?
+:::
 
-Hypothèse : Les décisions énergétiques résultent d'arbitrages complexes entre objectifs souvent contradictoires (coût, climat, sécurité, acceptabilité sociale) qui expliquent pourquoi il n'existe pas de solution optimale unique mais seulement des compromis reflétant des priorités politiques et sociales. Concepts clés : Trilemme énergétique : Tension permanente entre affordabilité, durabilité et sécurité qui contraint tous les choix énergétiques (structure les débats politiques). Optimisation sous contraintes multiples : Recherche de solutions satisfaisant simultanément plusieurs objectifs parfois incompatibles (reflète la complexité des décisions publiques). Gouvernance énergétique : Processus de décision collective intégrant expertise technique et légitimité démocratique (questionne les modes de participation citoyenne).
+:::hypothese[Hypothèse]
+La suppression d'une source d'énergie majeure ne peut être compensée par une seule alternative mais nécessite une recomposition complexe du mix, révélant que chaque source a des fonctions spécifiques irremplaçables et que la sécurité énergétique repose sur la diversification.
+:::
+
+**Concepts clés** :
+
+- **Substitution imparfaite** : impossibilité de remplacer directement une source d'énergie par une autre sans modification des autres composantes du système (révèle la complexité des transitions).
+- **Effets de système** : impacts en cascade d'une modification sur l'ensemble du mix énergétique (démontre les interdépendances).
+- **Portefeuille énergétique** : approche de diversification des risques appliquée au mix énergétique pour garantir la sécurité d'approvisionnement (justifie la nécessité de sources multiples).
+
+:::question[Question de recherche]
+Quels arbitrages entre objectifs contradictoires structurent les choix de politique énergétique ?
+:::
+
+:::hypothese[Hypothèse]
+Les décisions énergétiques résultent d'arbitrages complexes entre objectifs souvent contradictoires (coût, climat, sécurité, acceptabilité sociale) qui expliquent pourquoi il n'existe pas de solution optimale unique mais seulement des compromis reflétant des priorités politiques et sociales.
+:::
+
+**Concepts clés** :
+
+- **Trilemme énergétique** : tension permanente entre affordabilité, durabilité et sécurité qui contraint tous les choix énergétiques (structure les débats politiques).
+- **Optimisation sous contraintes multiples** : recherche de solutions satisfaisant simultanément plusieurs objectifs parfois incompatibles (reflète la complexité des décisions publiques).
+- **Gouvernance énergétique** : processus de décision collective intégrant expertise technique et légitimité démocratique (questionne les modes de participation citoyenne).
 
 ### Investigation par les élèves
 
@@ -363,15 +426,12 @@ Hypothèse : Les décisions énergétiques résultent d'arbitrages complexes ent
 
 Les élèves utilisent leur simulateur pour analyser les impacts de chaque scénario selon différents rythmes de transition.
 
-Groupe 1 - Sortie du charbon : "Suite aux accords de Paris et à la pression citoyenne, votre pays s'engage à sortir du charbon d'ici 5 ans pour respecter ses objectifs climatiques." Réduire la part du charbon de 16% à 0%. Transition en 5 ans (objectif climatique urgent). Compenser 400 TWh/an de production pilotable.
+- **Groupe 1 — Sortie du charbon** : *« Suite aux accords de Paris et à la pression citoyenne, votre pays s'engage à sortir du charbon d'ici 5 ans pour respecter ses objectifs climatiques. »* Réduire la part du charbon de 16 % à 0 %, transition en 5 ans (objectif climatique urgent), compenser 400 TWh/an de production pilotable.
+- **Groupe 2 — Sortie du nucléaire** : *« Suite à un référendum national, votre pays décide de sortir progressivement du nucléaire d'ici 15 ans, en fermant les centrales à la fin de leur durée de vie. »* Réduire la part du nucléaire de 23 % à 0 %, transition en 15 ans (durée de vie des centrales), compenser 580 TWh/an de production bas-carbone et pilotable.
+- **Groupe 3 — Crise du gaz** : *« Une crise géopolitique majeure coupe l'approvisionnement en gaz naturel de votre pays. Vous devez réduire drastiquement cette dépendance en 2 ans. »* Réduire la part du gaz de 22 % à 5 %, transition en 2 ans (crise d'approvisionnement), compenser 425 TWh/an de production flexible.
+- **Groupe 4 — Limitation des renouvelables** : *« Les gestionnaires de réseau alertent sur l'instabilité croissante due aux renouvelables intermittents. Il faut plafonner leur développement. »* Plafonner éolien + solaire à 25 %, acceptabilité locale limitée, satisfaire les objectifs climatiques sans surcapacités intermittentes.
 
-Groupe 2 - Sortie du nucléaire : "Suite à un référendum national, votre pays décide de sortir progressivement du nucléaire d'ici 15 ans, en fermant les centrales à la fin de leur durée de vie." Réduire la part du nucléaire de 23% à 0%. Transition en 15 ans (durée de vie des centrales). Compenser 580 TWh/an de production bas-carbone et pilotable.
-
-Groupe 3 - Crise du gaz : "Une crise géopolitique majeure coupe l'approvisionnement en gaz naturel de votre pays. Vous devez réduire drastiquement cette dépendance en 2 ans." Réduire la part du gaz de 22% à 5%. Transition en 2 ans (crise d'approvisionnement). Compenser 425 TWh/an de production flexible.
-
-Groupe 4 - Limitation des renouvelables : "Les gestionnaires de réseau alertent sur l'instabilité croissante due aux renouvelables intermittents. Il faut plafonner leur développement." Plafonner éolien+solaire à 25%. Acceptabilité locale limitée. Satisfaire les objectifs climatiques sans surcapacités intermittentes.
-
-Ils utilisent leur simulateur pour analyser les impacts selon différents rythmes de transition. L'objectif n'est pas de prendre position pour ou contre ces scénarios, mais de comprendre leurs implications techniques et économiques. Les groupes doivent utiliser correctement le simulateur, interpréter les résultats concernant les coûts, émissions et sécurité, noter les messages d'alerte du simulateur et documenter leurs observations.
+L'objectif n'est pas de prendre position pour ou contre ces scénarios, mais de comprendre leurs implications techniques et économiques. Les groupes doivent utiliser correctement le simulateur, interpréter les résultats concernant les coûts, émissions et sécurité, noter les messages d'alerte du simulateur et documenter leurs observations.
 
 Les groupes identifient ensuite le rythme optimal et préparent une synthèse de leurs découvertes, avant de présenter en deux minutes les principaux enseignements.
 
@@ -386,17 +446,19 @@ Pour chaque scénario, les élèves explorent systématiquement les différentes
 | Importations | Rapidité, flexibilité | Dépendance, coûts transport | Variable |
 | Sobriété énergétique | Réduction demande globale | Acceptabilité, limites physiques | Très faible |
 
-Contraintes à intégrer :
+**Contraintes à intégrer :**
 
-- **Limite de pilotabilité** : Minimum 50% de sources pilotables pour la sécurité réseau. Explication simple : "Si trop d'électricité vient du vent et du soleil, le réseau devient instable"
-- **Limite budgétaire** : Maximum +50% de coût par rapport au mix actuel. Explication simple : "Les citoyens et industries ne peuvent pas payer une électricité 2 fois plus chère"
-- **Limite climatique** : Maximum 150g CO2/kWh (objectif européen 2030). Explication simple : "Il faut respecter les engagements climatiques de l'Europe"
-- **Limite d'imports** : Maximum 15% de la demande (sécurité énergétique). Explication simple : "Trop dépendre des voisins, c'est risqué en cas de crise"
-- **Limite de déploiement** : Maximum +10% par an pour les renouvelables (capacités industrielles). Explication simple : "On ne peut pas construire des éoliennes plus vite que l'industrie peut les produire"
+| Contrainte | Seuil | Justification |
+|---|---|---|
+| Pilotabilité | min. 50 % de sources pilotables | Si trop d'électricité vient du vent et du soleil, le réseau devient instable. |
+| Budgétaire | max. +50 % de coût vs. mix actuel | Citoyens et industries ne peuvent pas payer une électricité 2× plus chère. |
+| Climatique | max. 150 g CO2/kWh | Objectif européen 2030. |
+| Imports | max. 15 % de la demande | Trop dépendre des voisins est risqué en cas de crise. |
+| Déploiement | max. +10 %/an pour les renouvelables | On ne peut pas construire des éoliennes plus vite que l'industrie ne les produit. |
 
-Les groupes explorent librement différentes combinaisons dans leur simulateur pour compenser la source d'énergie supprimée. Les groupes testent les limites de leurs stratégies.
+Les groupes explorent librement différentes combinaisons dans leur simulateur pour compenser la source d'énergie supprimée et testent les limites de leurs stratégies.
 
-L'enseignant guide : "Que se passe-t-il si vous voulez aller plus vite ? Plus loin ?" Il faut identifier précisément où et pourquoi le système "casse". Par exemple, le Groupe 2 (sortie nucléaire) peut découvrir que remplacer 100% du nucléaire par de l'éolien nécessiterait de multiplier par 8 les capacités actuelles, ce qui prendrait 22 ans au rythme maximal de +10%/an, rendant leur objectif de 15 ans impossible sans autres sources.
+L'enseignant guide : *« Que se passe-t-il si vous voulez aller plus vite ? Plus loin ? »* Il faut identifier précisément où et pourquoi le système « casse ». Par exemple, le Groupe 2 (sortie nucléaire) peut découvrir que remplacer 100 % du nucléaire par de l'éolien nécessiterait de multiplier par 8 les capacités actuelles, ce qui prendrait 22 ans au rythme maximal de +10 %/an, rendant leur objectif de 15 ans impossible sans autres sources.
 
 Enfin, chaque groupe sélectionne sa stratégie optimale, justifie ses choix et prépare un argumentaire pour l'étape suivante.
 
@@ -445,21 +507,20 @@ Les élèves joueront un double rôle, à la fois experts lors de la présentati
 - **Représentant écologiste** : Priorité au climat et à la sortie des fossiles
 - **Représentant syndical** : Priorité à l'emploi et à la formation des travailleurs
 
-Note pour l'organisation spatiale : La salle doit être organisée dès le début de l'activité "Débat" en quatre zones correspondant aux sous-conseils (citoyens, industriels, écologistes, syndicats). Les élèves travaillent au sein de leur sous-conseil pendant toute la séance, ne reformant leurs groupes d'experts que brièvement lors des présentations au tableau qui démarrent la séance. Cette organisation spatiale renforce l'immersion dans les rôles de représentants et favorise la cohésion au sein de chaque sous-conseil tout au long du débat.
+:::info[Notes pour l'enseignant·e]
+**Organisation spatiale** : la salle doit être organisée dès le début de l'activité « Débat » en quatre zones correspondant aux sous-conseils (citoyens, industriels, écologistes, syndicats). Les élèves travaillent au sein de leur sous-conseil pendant toute la séance, ne reformant leurs groupes d'experts que brièvement lors des présentations au tableau qui démarrent la séance. Cette organisation renforce l'immersion dans les rôles de représentants et favorise la cohésion au sein de chaque sous-conseil tout au long du débat.
+:::
 
 La première phase de l'activité "Débat" consiste en la présentation des 4 feuilles de route. À tour de rôle, chaque groupe dispose de cinq minutes pour présenter ses conclusions en expliquant clairement les objectifs, les étapes de mise en oeuvre, les coûts et les bénéfices attendus. Pendant ces présentations, les autres élèves préparent leurs interventions selon leur rôle spécifique.
 
-La phase de débat s'organise autour de quatre questions stratégiques que l'enseignant pose successivement.
+La phase de débat s'organise autour de quatre questions stratégiques que l'enseignant pose successivement :
 
-"Quelle transition énergétique doit être considérée comme la plus urgente et pourquoi ?" Chaque groupe de conseillers exprime sa position selon ses préoccupations spécifiques, créant naturellement des tensions entre urgence climatique, contraintes économiques et enjeux sociaux.
+- **« Quelle transition énergétique doit être considérée comme la plus urgente et pourquoi ? »** Chaque groupe de conseillers exprime sa position selon ses préoccupations spécifiques, créant naturellement des tensions entre urgence climatique, contraintes économiques et enjeux sociaux.
+- **« Comment financer concrètement les investissements nécessaires à ces transitions ? »** L'enseignant guide la discussion vers les différentes options (taxes, emprunts publics, financements européens, participation privée) en faisant réagir chaque groupe sur l'acceptabilité de ces mécanismes pour leurs représentés.
+- **« Quelle stratégie adopter pour gérer les conséquences sociales de ces transitions ? »** Cette question permet d'aborder les enjeux de reconversion professionnelle, d'accompagnement des territoires en mutation et de justice sociale dans la transition énergétique.
+- **« Quel niveau d'incertitude et de risque sommes-nous prêts à accepter concernant notre sécurité énergétique ? »** Cette discussion révèle les arbitrages entre prudence et ambition, entre autonomie nationale et coopération européenne.
 
-"Comment financer concrètement les investissements nécessaires à ces transitions ?" L'enseignant guide la discussion vers les différentes options (taxes, emprunts publics, financements européens, participation privée) en faisant réagir chaque groupe sur l'acceptabilité de ces mécanismes pour leurs représentés.
-
-"Quelle stratégie adopter pour gérer les conséquences sociales de ces transitions ?" Cette question permet d'aborder les enjeux de reconversion professionnelle, d'accompagnement des territoires en mutation et de justice sociale dans la transition énergétique.
-
-"Quel niveau d'incertitude et de risque sommes-nous prêts à accepter concernant notre sécurité énergétique ?" Cette discussion révèle les arbitrages entre prudence et ambition, entre autonomie nationale et coopération européenne.
-
-L'enseignant joue un rôle actif de modérateur en reformulant les positions pour éviter les malentendus, en relançant le débat quand il s'essouffle et en poussant vers la recherche de compromis concrets. Il peut interpeller directement certains groupes : "Les syndicats accepteraient-ils cette proposition si elle était accompagnée d'un plan de formation ?" ou "Les industriels sont-ils prêts à payer une taxe carbone si elle finance des infrastructures ?"
+L'enseignant joue un rôle actif de modérateur en reformulant les positions pour éviter les malentendus, en relançant le débat quand il s'essouffle et en poussant vers la recherche de compromis concrets. Il peut interpeller directement certains groupes : *« Les syndicats accepteraient-ils cette proposition si elle était accompagnée d'un plan de formation ? »* ou *« Les industriels sont-ils prêts à payer une taxe carbone si elle finance des infrastructures ? »*
 
 La conclusion du débat vise à faire émerger les enseignements collectifs de cette expérience de négociation. L'enseignant demande à chaque groupe de conseillers d'identifier un point de convergence découvert pendant les échanges et une proposition concrète pour surmonter les blocages identifiés. Cette synthèse révèle généralement que les positions initiales peuvent évoluer quand les acteurs comprennent les contraintes des autres et cherchent ensemble des solutions.
 
@@ -473,10 +534,10 @@ Les élèves maîtrisent désormais les mécanismes qui régissent les transitio
 
 Pour approfondir la réflexion et ouvrir des perspectives d'engagement citoyen, voici quelques questions clés à explorer collectivement :
 
-- Comment les enseignements de nos simulations s'appliquent-ils aux débats énergétiques actuels dans notre pays ? Application des principes stratégiques identifiés aux enjeux énergétiques nationaux contemporains. Analyse critique des politiques énergétiques actuelles à l'aune des contraintes découvertes. Identification des points de convergence et de divergence entre simulations et réalité politique.
-- Quels mécanismes démocratiques permettent aux citoyens d'influencer les choix énergétiques ? Exploration des instances de participation citoyenne aux décisions énergétiques (conseils consultatifs, référendums, budgets participatifs). Analyse du rôle des élus, des experts et des citoyens dans la gouvernance énergétique. Réflexion sur les compétences nécessaires pour participer aux débats techniques.
-- Comment concilier expertise technique et légitimité démocratique dans les choix énergétiques ? Discussion de la tension entre complexité technique et accessibilité citoyenne des enjeux énergétiques. Exploration des méthodes de médiation scientifique et de débat public. Réflexion sur l'équilibre entre délégation aux experts et contrôle démocratique.
-- Quelle contribution personnelle à la transition énergétique au-delà de la simulation ? Identification des formes d'engagement citoyen accessibles (associations, projets locaux, choix de formation). Exploration des liens entre compétences acquises et opportunités d'action. Construction d'une vision à long terme de son rôle dans la société énergétique de demain.
+- **Comment les enseignements de nos simulations s'appliquent-ils aux débats énergétiques actuels dans notre pays ?** Application des principes stratégiques identifiés aux enjeux énergétiques nationaux contemporains. Analyse critique des politiques énergétiques actuelles à l'aune des contraintes découvertes. Identification des points de convergence et de divergence entre simulations et réalité politique.
+- **Quels mécanismes démocratiques permettent aux citoyens d'influencer les choix énergétiques ?** Exploration des instances de participation citoyenne aux décisions énergétiques (conseils consultatifs, référendums, budgets participatifs). Analyse du rôle des élus, des experts et des citoyens dans la gouvernance énergétique. Réflexion sur les compétences nécessaires pour participer aux débats techniques.
+- **Comment concilier expertise technique et légitimité démocratique dans les choix énergétiques ?** Discussion de la tension entre complexité technique et accessibilité citoyenne des enjeux énergétiques. Exploration des méthodes de médiation scientifique et de débat public. Réflexion sur l'équilibre entre délégation aux experts et contrôle démocratique.
+- **Quelle contribution personnelle à la transition énergétique au-delà de la simulation ?** Identification des formes d'engagement citoyen accessibles (associations, projets locaux, choix de formation). Exploration des liens entre compétences acquises et opportunités d'action. Construction d'une vision à long terme de son rôle dans la société énergétique de demain.
 
 Cette phase finale donne aux élèves les outils analytiques et stratégiques nécessaires pour devenir des citoyens éclairés, capables d'évaluer les politiques énergétiques et de contribuer constructivement aux débats démocratiques sur l'avenir énergétique de leur société.
 
@@ -521,6 +582,16 @@ Exemple : Le Forum des Jeunes en Belgique est l'organe officiel de représentati
 Les élèves s'impliquent dans la création ou le développement d'une coopérative énergétique locale, contribuant par leur expertise technique à l'évaluation de projets, l'analyse de rentabilité et la communication vers les citoyens. Ils utilisent leurs compétences en modélisation pour calculer les impacts économiques et environnementaux des installations envisagées et participent aux assemblées générales en tant que sociétaires. Cette expérience leur fait découvrir l'entrepreneuriat collectif dans l'énergie et les modèles économiques alternatifs de la transition énergétique.
 
 Exemple : Le projet SIRenergy, financé par Interreg Europe, vise à promouvoir les coopératives énergétiques citoyennes comme modèle de transition énergétique locale. Lors de leur événement "Citizen Involvement through the Citizen Energy Cooperatives", ils ont présenté des exemples concrets de participation citoyenne dans la gestion de l'énergie et fourni des outils pour impliquer les jeunes dans ces initiatives. [https://www.interregeurope.eu/sirenergy](https://www.interregeurope.eu/sirenergy)
+
+<figure style={{margin: '1.5rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem'}}>
+    <img src="/img/ressources/steamcity/energy-mix/Mod%C3%A9lisation%20%C3%A9nerg%C3%A9tique%20territoriale%20avec%20les%20collectivit%C3%A9s%20locales.png" alt="Modélisation énergétique territoriale" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/Projet%20de%20micro-r%C3%A9seau%20intelligent%20au%20sein%20de%20l%27%C3%A9tablissement.png" alt="Micro-réseau intelligent" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/Participation%20aux%20concours%20internationaux%20d%27innovation%20%C3%A9nerg%C3%A9tique.png" alt="Concours d'innovation énergétique" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/Cr%C3%A9ation%20d%27une%20coop%C3%A9rative%20%C3%A9nerg%C3%A9tique%20citoyenne.png" alt="Coopérative énergétique citoyenne" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: '0.75rem 0 0 0'}}>Pistes d'engagement et de prolongement du projet</figcaption>
+</figure>
 
 ---
 

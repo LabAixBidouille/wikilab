@@ -57,9 +57,9 @@ Le protocole Données vs. Contexte vise à expliciter auprès des élèves les c
 
 Nous proposons une approche en trois étapes dans laquelle les élèves sont confrontés à des situations de plus en plus complexes :
 
-1. **Étape 1 -- « 5 minutes, 20 données » :** Les élèves réaliseront une courte activité d'introduction au cours de laquelle ils chasseront des données dans leur environnement. En leur permettant d'identifier et de citer oralement les données de manière structurée et qualifiée, l'objectif est que les élèves gagnent en précision et en exactitude.
-2. **Étape 2 -- « Données vs. Prise de décision » :** Les élèves seront organisés en petits groupes pour une activité de jeu de rôle. Chaque groupe recevra une mission spécifique comme "Améliorer la sécurité routière pour les piétons" ou "Trouver des solutions pour augmenter la fréquentation des parcs", qu'il devra accomplir en utilisant un ensemble de données fourni par l'enseignant. Ces ensembles de données peuvent inclure des statistiques, des graphiques, des rapports... et doivent conduire à la proposition de plusieurs propositions de politiques publiques pour améliorer la situation donnée. Les élèves seront chargés de présenter leurs conclusions, en soulignant les causes et les effets, et comment ils ont traité les ensembles de données.
-3. **Étape 3 -- « Données vs. Contexte » :** Les élèves, toujours organisés dans les groupes créés à l'étape 2, avec la même mission, auront accès à une nouvelle information, qui n'avait pas été révélée à l'étape précédente. Ils devront discuter si et comment cette nouvelle ressource a un impact sur leurs conclusions. Ils peuvent affiner leurs propositions de politiques publiques et réfléchir à la façon dont ils ont construit leur compréhension de la situation tout au long de l'activité.
+1. **Phase 1 — « 5 minutes, 20 données »** : les élèves réaliseront une courte activité d'introduction au cours de laquelle ils chasseront des données dans leur environnement. En leur permettant d'identifier et de citer oralement les données de manière structurée et qualifiée, l'objectif est que les élèves gagnent en précision et en exactitude.
+2. **Phase 2 — « Données vs. prise de décision »** : les élèves seront organisés en petits groupes pour une activité de jeu de rôle. Chaque groupe recevra une mission spécifique comme « Améliorer la sécurité routière pour les piétons » ou « Trouver des solutions pour augmenter la fréquentation des parcs », qu'il devra accomplir en utilisant un ensemble de données fourni par l'enseignant. Ces ensembles de données peuvent inclure des statistiques, des graphiques, des rapports… et doivent conduire à la proposition de plusieurs politiques publiques pour améliorer la situation donnée. Les élèves seront chargés de présenter leurs conclusions, en soulignant les causes et les effets, et comment ils ont traité les ensembles de données.
+3. **Phase 3 — « Données vs. contexte »** : les élèves, toujours organisés dans les groupes créés à la phase 2, avec la même mission, auront accès à une nouvelle information qui n'avait pas été révélée à l'étape précédente. Ils devront discuter si et comment cette nouvelle ressource a un impact sur leurs conclusions. Ils peuvent affiner leurs propositions de politiques publiques et réfléchir à la façon dont ils ont construit leur compréhension de la situation tout au long de l'activité.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/donnees-contexte/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -68,20 +68,19 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 
 ### Glossaire
 
-- **Données** : Faits bruts et non traités qui nécessitent un contexte pour devenir utiles.
-- **Information** : Données qui ont été traitées, organisées et interprétées pour ajouter du sens et de la valeur.
-- **Connaissance** : Conscience, compréhension obtenue par l'expérience ou l'étude.
-- **Contexte** : La situation dans laquelle quelque chose existe ou se produit, et qui peut aider à l'expliquer.
-- **Littératie des données** : Capacité à lire, comprendre, créer et communiquer des données en tant qu'information.
-- **Jeu de données** : Une collection de données.
-- **Précision des données** : Les données représentent correctement les événements ou objets du monde réel qu'elles sont censées décrire.
-- **Narration de données** : Art de présenter des données avec un récit contextuel.
-- **Pyramide DIKW** : Classe de modèles représentant les relations structurelles ou fonctionnelles supposées entre données, information, connaissance et sagesse.
-
+- **Données** : faits bruts et non traités qui nécessitent un contexte pour devenir utiles.
+- **Information** : données qui ont été traitées, organisées et interprétées pour ajouter du sens et de la valeur.
+- **Connaissance** : conscience, compréhension obtenue par l'expérience ou l'étude.
+- **Contexte** : la situation dans laquelle quelque chose existe ou se produit, et qui peut aider à l'expliquer.
+- **Littératie des données** : capacité à lire, comprendre, créer et communiquer des données en tant qu'information.
+- **Jeu de données** : une collection de données.
+- **Précision des données** : les données représentent correctement les événements ou objets du monde réel qu'elles sont censées décrire.
+- **Narration de données** : art de présenter des données avec un récit contextuel.
+- **Pyramide DIKW** : classe de modèles représentant les relations structurelles ou fonctionnelles supposées entre données, information, connaissance et sagesse.
 
 ---
 
-## Étape 1 : 5 minutes, 20 données
+## Phase 1 : 5 minutes, 20 données
 
 ### Contexte de la séquence
 
@@ -93,7 +92,7 @@ Explorer activement la définition des données, apprendre à formuler sans équ
 
 ### Conceptualisation
 
-Dans le cadre du projet SteamCity, et généralement dans chaque investigation, des activités basées sur les données sont souvent proposées, soit par collecte manuelle (comme des questionnaires ou des entretiens), soit par l'utilisation de capteurs ou solutions numériques qui permettent de réaliser des mesures quantitatives précises. Ces données sont utilisés pour illustrer et analyser des concepts, des problématiques et des situations plus ou moins complexes.
+Dans le cadre du projet SteamCity, et généralement dans chaque investigation, des activités basées sur les données sont souvent proposées, soit par collecte manuelle (comme des questionnaires ou des entretiens), soit par l'utilisation de capteurs ou solutions numériques qui permettent de réaliser des mesures quantitatives précises. Ces données sont utilisées pour illustrer et analyser des concepts, des problématiques et des situations plus ou moins complexes.
 
 Afin d'aborder ces activités utilisant des données de manière structurée, les élèves doivent être capables de déterminer si leurs observations de leur environnement peuvent être considérées ou non comme des données. Cette étape introductive est là pour illustrer ce que sont les données grâce à un atelier interactif.
 
@@ -101,7 +100,7 @@ Afin d'aborder ces activités utilisant des données de manière structurée, le
 
 ### Investigation par les élèves
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Assurez-vous que la salle/le lieu où se déroulera la chasse est suffisamment investi de données à collecter, pour que l'activité atteigne pleinement son objectif. Si ce n'est pas le cas, ajoutez des éléments qui rendront la chasse aux données plus dynamique.
 :::
 
@@ -109,9 +108,13 @@ L'activité est lancée par l'enseignant avec le support du tableau blanc (trace
 
 L'enseignant explique le but du jeu, la durée et les règles :
 
-- **But** : Identifier autant de données que possible dans un environnement donné et limité, qu'elles soient qualitatives ou quantitatives.
+- **But** : identifier autant de données que possible dans un environnement donné et limité, qu'elles soient qualitatives ou quantitatives.
 - **Durée** : 5 minutes maximum pour dévoiler un maximum de données.
-- **Règles** : Les élèves peuvent explorer librement l'environnement / Les élèves annoncent oralement les données identifiées en prenant soin de les formuler sans équivoque / L'enseignant validera ou invalidera la proposition / Les élèves peuvent essayer de reformuler leur proposition autant de fois qu'ils le souhaitent jusqu'à ce qu'elle soit acceptée ou passer à une autre donnée.
+- **Règles** :
+  - Les élèves peuvent explorer librement l'environnement.
+  - Ils annoncent oralement les données identifiées en prenant soin de les formuler sans équivoque.
+  - L'enseignant valide ou invalide la proposition.
+  - Les élèves peuvent reformuler leur proposition autant de fois qu'ils le souhaitent jusqu'à ce qu'elle soit acceptée, ou passer à une autre donnée.
 
 L'enseignant démarre le chronomètre pour 5 minutes.
 
@@ -121,7 +124,9 @@ Les élèves doivent explorer leur environnement pour trouver des données - san
 
 Lorsque le chronomètre sonne à la fin de l'activité, tous les élèves se rassemblent autour du tableau pour découvrir quelles données ont été identifiées et quelles propositions ont été rejetées. Ensemble, ils peuvent évaluer les résultats et répondre à plusieurs questions :
 
-**Parvenons-nous à identifier les principaux types de données ?** (En tant qu'enseignant, vous pouvez alors montrer la classification officielle des données, et comment elles ont été triées pour couvrir un maximum de données)
+**Parvenons-nous à identifier les principaux types de données ?**
+
+En tant qu'enseignant, vous pouvez alors montrer la classification officielle des données, et comment elles ont été triées pour couvrir un maximum de données.
 
 | Données qualitatives | Données quantitatives |
 |---|---|
@@ -132,13 +137,22 @@ Lorsque le chronomètre sonne à la fin de l'activité, tous les élèves se ras
 | Nom ou catégorie sans ordre particulier | Valeurs définies par une relation d'ordre entre les différentes catégories | Nombre infini de valeurs réelles possibles à l'intérieur d'un intervalle donné | Nombre fini de valeurs réelles possibles au sein d'un intervalle donné, varient dans le temps, peuvent être décomposées |
 | Type de logement, nom d'un journal, mode de transport | Appréciation des clients de la qualité des services d'une entreprise | Taille et poids d'un être humain, hauteur d'un immeuble | Nombre d'employés d'une entreprise, taille d'un ménage |
 
-**Est-il facile d'obtenir et de réutiliser ces données ?** Les données peuvent-elles être partagées librement ? Y a-t-il des problèmes de qualité ou d'exactitude pour certaines des données ?
+**Est-il facile d'obtenir et de réutiliser ces données ?**
 
-Utilisez ce temps pour évaluer le ressenti de la classe concernant l'activité. Posez des questions telles que : qu'avez-vous appris ? Comment vous sentez-vous par rapport à l'activité ? Quelles sont les informations manquantes dont vous avez besoin pour définir ce qu'est une donnée ? Afin de garder une trace de vos conclusions, un tableau de réflexion autour de l'activité est disponible en annexe.
+- Les données peuvent-elles être partagées librement ?
+- Y a-t-il des problèmes de qualité ou d'exactitude pour certaines des données ?
+
+Utilisez ce temps pour évaluer le ressenti de la classe concernant l'activité. Posez des questions telles que :
+
+- Qu'avez-vous appris ?
+- Comment vous sentez-vous par rapport à l'activité ?
+- Quelles sont les informations manquantes dont vous avez besoin pour définir ce qu'est une donnée ?
+
+Afin de garder une trace de vos conclusions, un tableau de réflexion autour de l'activité est disponible en annexe.
 
 ---
 
-## Étape 2 : Données vs. prise de décision
+## Phase 2 : Données vs. prise de décision
 
 ### Contexte de la séquence
 
@@ -150,13 +164,19 @@ Analyser de manière critique les données et prendre des décisions éclairées
 
 ### Conceptualisation
 
-Au cours de cette étape, l'objectif sera pour les élèves de formuler des recommandations de politiques publiques, liées à une situation urbaine spécifique, en s'appuyant uniquement sur des ensembles de données. En exploitant l'analyse des données, les gouvernements peuvent améliorer la façon dont ils fournissent les services publics. Par exemple, l'analyse prédictive peut prévoir les urgences de santé publique, tandis que les données géospatiales peuvent améliorer le routage des transports publics pour mieux répondre aux besoins de la communauté. Cela se traduit par des services publics plus efficaces et réactifs qui répondent aux besoins de la population. L'analyse des données permet également une évaluation continue de l'efficacité des politiques. En suivant régulièrement les données, les gouvernements peuvent évaluer la performance en temps réel des politiques et apporter les ajustements nécessaires. Ce processus continu aide à affiner les stratégies et garantit que les politiques atteignent leurs objectifs prévus. Les élèves devront comprendre ces processus et se positionner comme acteurs actifs dans le domaine des services publics. Ils seront encouragés à utiliser des pratiques de narration de données i.e. construire un récit convaincant fondé sur des données complexes et des analyses, qui aide à transmettre le message et à influencer un public particulier. Cette approche peut améliorer leur capacité à présenter des données de manière significative, améliorant leur pensée critique et favorisant de meilleures compétences en prise de décision.
+Au cours de cette étape, l'objectif sera pour les élèves de formuler des recommandations de politiques publiques, liées à une situation urbaine spécifique, en s'appuyant uniquement sur des ensembles de données.
+
+En exploitant l'analyse des données, les gouvernements peuvent améliorer la façon dont ils fournissent les services publics. Par exemple, l'analyse prédictive peut prévoir les urgences de santé publique, tandis que les données géospatiales peuvent améliorer le routage des transports publics pour mieux répondre aux besoins de la communauté. Cela se traduit par des services publics plus efficaces et réactifs qui répondent aux besoins de la population.
+
+L'analyse des données permet également une évaluation continue de l'efficacité des politiques. En suivant régulièrement les données, les gouvernements peuvent évaluer la performance en temps réel des politiques et apporter les ajustements nécessaires. Ce processus continu aide à affiner les stratégies et garantit que les politiques atteignent leurs objectifs prévus.
+
+Les élèves devront comprendre ces processus et se positionner comme acteurs actifs dans le domaine des services publics. Ils seront encouragés à utiliser des pratiques de **narration de données**, c'est-à-dire construire un récit convaincant fondé sur des données complexes et des analyses, qui aide à transmettre le message et à influencer un public particulier. Cette approche peut améliorer leur capacité à présenter des données de manière significative, améliorant leur pensée critique et favorisant de meilleures compétences en prise de décision.
 
 **Hypothèse d'étude** : l'utilisation de données quantitatives et qualitatives permet de formuler des recommandations de politiques publiques plus précises et efficaces.
 
 ### Investigation par les élèves
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Dans cette étape, les élèves travailleront en petits groupes autour de situations données. Chaque groupe peut recevoir une problématique différente à étudier mais vous pouvez également proposer le même sujet à l'ensemble de la classe afin de comparer leurs résultats. En travaillant sur les ensembles de données, les élèves développeront des hypothèses, prendront des décisions basées sur les données et affineront leur compréhension des problèmes urbains en question, les préparant ainsi à proposer des politiques publiques bien informées.
 :::
 
@@ -169,17 +189,25 @@ Après avoir expliqué les règles, les enseignants distribueront les différent
 | Protection de la faune à Greenwood | Engagement, transparence, coordination des services | Expert environnemental. Mission : découvrir les tendances et les causes potentielles du déclin de l'oiseau à ailes bleues | Population d'oiseaux à ailes bleues, conditions d'habitat, pollution et impact humain |
 | Lutte contre les îlots de chaleur urbains | Préservation des espaces naturels, îlots de chaleur | Analyste énergétique. Mission : identifier les facteurs clés contribuant à l'augmentation de la chaleur et à l'effet des îlots de chaleur | Températures, matériaux de construction et de voirie, consommation énergétique des bâtiments |
 
-Le chronomètre sera réglé sur 15 minutes. En groupes de 3 à 4 élèves, les apprenants découvriront leur mission et les ressources fournies pour analyser le problème donné. Ils devront analyser les données pour comprendre les causes de la situation d'après leur point de vue et formuler des hypothèses. À cette étape, ils devront se poser les questions suivantes : Quel est le problème que nous cherchons à résoudre ? Que suggèrent les données sur les causes de cette situation ? Y a-t-il des tendances ou des anomalies dans les données ? Quelles informations supplémentaires pourrions-nous avoir besoin pour confirmer nos hypothèses ? Ils discuteront des solutions potentielles et les formaliseront dans leur présentation en utilisant la narration de données. Pour s'assurer que leur narration est précise, les élèves devront réfléchir à leur théorie et à ce qu'ils cherchent à prouver ou à réfuter. Leur histoire se construira autour de ces étapes :
+Le chronomètre sera réglé sur 15 minutes. En groupes de 3 à 4 élèves, les apprenants découvriront leur mission et les ressources fournies pour analyser le problème donné. Ils devront analyser les données pour comprendre les causes de la situation d'après leur point de vue et formuler des hypothèses.
+
+À cette étape, ils devront se poser les questions suivantes :
+
+- Quel est le problème que nous cherchons à résoudre ?
+- Que suggèrent les données sur les causes de cette situation ?
+- Y a-t-il des tendances ou des anomalies dans les données ?
+- Quelles informations supplémentaires pourrions-nous avoir besoin pour confirmer nos hypothèses ?
+
+Ils discuteront des solutions potentielles et les formaliseront dans leur présentation en utilisant la narration de données. Pour s'assurer que leur narration est précise, les élèves devront réfléchir à leur théorie et à ce qu'ils cherchent à prouver ou à réfuter. Leur histoire se construira autour de ces étapes :
 
 | Il était une fois... | Quand un jour... | À cause de cela... | Nous proposons... |
 |---|---|---|---|
 | Décrire le contexte selon les données disponibles | Décrire la raison du changement | Décrire les défis rencontrés par la suite | Décrire les solutions possibles |
 
-**Vos hypothèses, votre histoire, vos conclusions**
+**Vos hypothèses, votre histoire, vos conclusions** :
 
-Quelles données vous ont aidé à cette étape et comment ?
-
-Quelles données ou informations manquent ?
+- Quelles données vous ont aidé à cette étape et comment ?
+- Quelles données ou informations manquent ?
 
 ### Restitution et réflexion
 
@@ -193,11 +221,16 @@ Lorsque le chronomètre sonne à la fin de l'activité, la classe se rassemble p
 - Quelle est selon vous l'importance de la présentation des données ?
 - Comment le travail en groupe a-t-il influencé votre approche de l'analyse des données ?
 
-Complétez votre discussion réflexive avec des questions telles que : qu'avez-vous appris ? Comment vous sentez-vous par rapport à l'activité ? Afin de garder trace de l'évolution des réflexions des élèves autour du concept de données, vous pouvez continuer à remplir le tableau de réflexion disponible en annexe.
+Complétez votre discussion réflexive avec des questions telles que :
+
+- Qu'avez-vous appris ?
+- Comment vous sentez-vous par rapport à l'activité ?
+
+Afin de garder trace de l'évolution des réflexions des élèves autour du concept de données, vous pouvez continuer à remplir le tableau de réflexion disponible en annexe.
 
 ---
 
-## Étape 3 : Données vs. contexte
+## Phase 3 : Données vs. contexte
 
 ### Contexte de la séquence
 
@@ -209,14 +242,16 @@ Comprendre l'importance du contexte dans l'interprétation précise des données
 
 ### Conceptualisation
 
-Cette étape aide les élèves à saisir que les données brutes peuvent être trompeuses et que leur interprétation nécessite une compréhension globale du contexte dans lequel elles s'inscrivent. Comprendre le contexte est essentiel pour une interprétation précise des données. Les données peuvent montrer des tendances qui sont fortuites ou non analysables sans informations et contexte supplémentaires. Dans de tels cas, une méthodologie rigoureuse doit être appliquée, en reconnaissant que les données seules ne peuvent constituer l'unique perspective. Les élèves apprendront à évaluer de manière ludique si les tendances observées dans les données sont réellement indicatives de phénomènes sous-jacents ou simplement fortuites. Ce processus souligne la nécessité de considérer les données dans un cadre plus large et de reconnaître que les données seules ne constituent pas la connaissance.
+Cette étape aide les élèves à saisir que les données brutes peuvent être trompeuses et que leur interprétation nécessite une compréhension globale du contexte dans lequel elles s'inscrivent. Comprendre le contexte est essentiel pour une interprétation précise des données.
 
-Pour aider les élèves à conceptualiser l'activité, il peut être intéressant d'introduire la pyramide DIKW i.e. Data (Données), Information, Knowledge (Connaissance), Wisdom (Sagesse). Ce modèle fournit un cadre pour comprendre la hiérarchie du traitement des données et leur transformation en outils d'analyse exploitables.
+Les données peuvent montrer des tendances qui sont fortuites ou non analysables sans informations et contexte supplémentaires. Dans de tels cas, une méthodologie rigoureuse doit être appliquée, en reconnaissant que les données seules ne peuvent constituer l'unique perspective. Les élèves apprendront à évaluer de manière ludique si les tendances observées dans les données sont réellement indicatives de phénomènes sous-jacents ou simplement fortuites. Ce processus souligne la nécessité de considérer les données dans un cadre plus large et de reconnaître que les données seules ne constituent pas la connaissance.
 
-- **Données** : Faits et chiffres bruts sans contexte. Exemple : relevés de température provenant de capteurs.
-- **Information** : Données traitées et organisées. Exemple : tri des relevés de température par heure et lieu pour identifier des modèles.
-- **Connaissance** : Compréhension des relations et des principes dérivés de l'information. Exemple : reconnaître qu'une augmentation de la température à certains moments est corrélée à une consommation d'énergie accrue.
-- **Sagesse** : Utilisation de la connaissance pour prendre des décisions éclairées et appliquer efficacement les insights. Exemple : mise en oeuvre de mesures d'économie d'énergie pendant les périodes de pointe de température pour réduire la consommation.
+Pour aider les élèves à conceptualiser l'activité, il peut être intéressant d'introduire la **pyramide DIKW** : Data (Données), Information, Knowledge (Connaissance), Wisdom (Sagesse). Ce modèle fournit un cadre pour comprendre la hiérarchie du traitement des données et leur transformation en outils d'analyse exploitables.
+
+- **Données** : faits et chiffres bruts sans contexte. Exemple : relevés de température provenant de capteurs.
+- **Information** : données traitées et organisées. Exemple : tri des relevés de température par heure et lieu pour identifier des modèles.
+- **Connaissance** : compréhension des relations et des principes dérivés de l'information. Exemple : reconnaître qu'une augmentation de la température à certains moments est corrélée à une consommation d'énergie accrue.
+- **Sagesse** : utilisation de la connaissance pour prendre des décisions éclairées et appliquer efficacement les insights. Exemple : mise en œuvre de mesures d'économie d'énergie pendant les périodes de pointe de température pour réduire la consommation.
 
 En utilisant la pyramide DIKW, les enseignants peuvent guider les élèves à travers les étapes de l'analyse des données, les aidant à transformer les données brutes en informations significatives, permettant de prendre de meilleures décisions.
 
@@ -245,11 +280,11 @@ Lorsque le chronomètre sonne à la fin de l'activité, la classe se rassemble p
 - Que feriez-vous différemment si vous deviez analyser un ensemble de données similaire à l'avenir ?
 - Comment pouvez-vous appliquer les compétences et les connaissances acquises lors de cette activité à des situations réelles ?
 
-Afin de garder trace de l'évolution des réflexions des élèves et conclure l'activité, vous pouvez finir de remplir le tableau de réflexion disponible en annexe.
+Afin de garder trace de l'évolution des réflexions des élèves et de conclure l'activité, vous pouvez finir de remplir le tableau de réflexion disponible en annexe.
 
 ---
 
-### Exploration professionnelle
+## Exploration professionnelle
 
 Dans la société actuelle, de nouvelles carrières ont émergé, étroitement liées aux données. Ces carrières s'étendent à travers divers domaines, y compris les professions scientifiques, techniques et de gouvernance. Explorez avec les élèves ces diverses opportunités :
 
@@ -265,34 +300,38 @@ Dans la société actuelle, de nouvelles carrières ont émergé, étroitement l
 | Data Architect | Conçoit et gère l'architecture de données de l'entreprise, s'assurant que les données sont organisées et accessibles. |
 | Data Steward | Travaille en étroite collaboration avec les équipes techniques et métiers pour assurer la qualité, l'exactitude et la cohérence des données. |
 
-### Discussions ouvertes sur les services publics
+## Discussions ouvertes sur les services publics
 
-Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une discussion sur les services publics et la gouvernance locale en classe. Ces échanges permettront aux élèves d'approfondir leur compréhension des mécanismes de gestion publique, en s'appuyant sur les scénarios étudiés. C'est aussi l'occasion d'encourager leur réflexion critique sur le rôle des citoyens dans la vie de la cité et de stimuler leur engagement civique. Cette discussion peut servir de tremplin pour explorer des concepts plus avancés de citoyenneté active et de démocratie participative. Voici quelques exemples de thèmes pouvant être abordés sur la base des situations fournies lors du protocole :
+Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une discussion sur les services publics et la gouvernance locale en classe. Ces échanges permettront aux élèves d'approfondir leur compréhension des mécanismes de gestion publique, en s'appuyant sur les scénarios étudiés.
 
-#### Le mystère du quartier Hollyhock
+C'est aussi l'occasion d'encourager leur réflexion critique sur le rôle des citoyens dans la vie de la cité et de stimuler leur engagement civique. Cette discussion peut servir de tremplin pour explorer des concepts plus avancés de citoyenneté active et de démocratie participative.
 
-1. **Mobilité urbaine** : Comment les systèmes de transport intelligents peuvent-ils réduire la congestion et promouvoir des options de mobilité durable ?
-2. **Durabilité environnementale** : Comment les villes intelligentes ? Quel rôle les citoyens peuvent-ils jouer dans la promotion de pratiques écologiques ?
-3. **Engagement communautaire** : Comment la technologie peut-elle donner aux citoyens les moyens d'exprimer leurs préoccupations et leurs idées ?
+Voici quelques exemples de thèmes pouvant être abordés sur la base des situations fournies lors du protocole :
 
-#### Le dilemme du parc du quartier Iris
+### Protection de la faune à Greenwood
 
-1. **Utilisation des parcs urbains** : Comment les espaces récréatifs peuvent-ils renforcer la cohésion communautaire et encourager la participation active des résidents dans leur entretien ?
-2. **Engagement public** : Comment les dialogues ouverts peuvent-ils renforcer l'inclusion et améliorer la gouvernance locale sur les enjeux d'équipements publics ?
-3. **Planification publique** : Comment les citoyens peuvent-ils comprendre les processus de planification et apporter une contribution informée aux initiatives futures ?
+1. **Engagement public** : comment intégrer efficacement les préoccupations des résidents dans les décisions relatives au patrimoine naturel pour une gouvernance plus inclusive ?
+2. **Transparence** : comment des mécanismes de communication ouverts peuvent-ils prévenir ou atténuer les impacts des incidents environnementaux ?
+3. **Coordination interservices** : comment une collaboration plus étroite entre les services communaux peut-elle permettre une gestion plus rapide et efficace des incidents environnementaux ?
 
-#### Protection de la faune à Greenwood
+### Le mystère du quartier Hollyhock
 
-1. **Engagement public** : Comment intégrer efficacement les préoccupations des résidents dans les décisions relatives au patrimoine naturel pour une gouvernance plus inclusive ?
-2. **Transparence** : Comment des mécanismes de communication ouverts peuvent-ils prévenir ou atténuer les impacts des incidents environnementaux ?
-3. **Coordination interservices** : Comment une collaboration plus étroite entre les services communaux peut-elle permettre une gestion plus rapide et efficace des incidents environnementaux ?
+1. **Mobilité urbaine** : comment les systèmes de transport intelligents peuvent-ils réduire la congestion et promouvoir des options de mobilité durable ?
+2. **Durabilité environnementale** : comment les villes intelligentes peuvent-elles encourager des pratiques écologiques ? Quel rôle les citoyens peuvent-ils jouer dans la promotion de ces pratiques ?
+3. **Engagement communautaire** : comment la technologie peut-elle donner aux citoyens les moyens d'exprimer leurs préoccupations et leurs idées ?
 
-#### Lutte contre les îlots de chaleur urbains
+### Le dilemme du parc du quartier Iris
 
-1. **Préservation des espaces naturels en milieu urbain** : Comment les politiques publiques peuvent soutenir la préservation d'espaces naturels en ville face aux enjeux fonciers ? Quels avantages ces zones offrent-elles en matière de biodiversité et de bien-être des citoyens, et comment leur protection peut-elle être intégrée à la planification urbaine ?
-2. **Îlots de chaleur urbains** : Comment les politiques publiques et des pratiques durables peuvent-elles atténuer le phénomène d'îlots de chaleur, et quel rôle les citoyens peuvent-ils jouer ?
+1. **Utilisation des parcs urbains** : comment les espaces récréatifs peuvent-ils renforcer la cohésion communautaire et encourager la participation active des résidents dans leur entretien ?
+2. **Engagement public** : comment les dialogues ouverts peuvent-ils renforcer l'inclusion et améliorer la gouvernance locale sur les enjeux d'équipements publics ?
+3. **Planification publique** : comment les citoyens peuvent-ils comprendre les processus de planification et apporter une contribution informée aux initiatives futures ?
 
-### Liens utiles
+### Lutte contre les îlots de chaleur urbains
+
+1. **Préservation des espaces naturels en milieu urbain** : comment les politiques publiques peuvent-elles soutenir la préservation d'espaces naturels en ville face aux enjeux fonciers ? Quels avantages ces zones offrent-elles en matière de biodiversité et de bien-être des citoyens, et comment leur protection peut-elle être intégrée à la planification urbaine ?
+2. **Îlots de chaleur urbains** : comment les politiques publiques et des pratiques durables peuvent-elles atténuer le phénomène d'îlots de chaleur, et quel rôle les citoyens peuvent-ils jouer ?
+
+## Liens utiles
 
 - [Ressources | infolabs.io](https://infolabs.io)
 - [What is Data Storytelling and Data Storytelling Examples | Microsoft Power BI](https://powerbi.microsoft.com)
@@ -303,27 +342,21 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 
 ## Annexe : Tableau de réflexion
 
-### Restitution de l'étape 1 : Découvrir les données qui m'entourent
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Tableau de réflexion à compléter (Apprentissages / Ressenti) pour les restitutions des phases 1, 2 et 3.
+:::
 
-| Apprentissages | Ressenti |
-|---|---|
-| | |
-
-### Restitution de l'étape 2 : Prendre des décisions à partir des données
-
-| Apprentissages | Ressenti |
-|---|---|
-| | |
-
-### Restitution de l'étape 3 : Donner du sens aux données par la contextualisation
-
-| Apprentissages | Ressenti |
-|---|---|
-| | |
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0001.jpg" alt="Tableau de réflexion" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Modèle imprimable du tableau de réflexion</figcaption>
+</figure>
 
 ---
 
 ## Annexe : Dataset : le mystère du quartier Hollyhock
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 En tant que citoyen fraîchement arrivé dans le quartier Hollyhock d'Enigma City, vous avez été chargé par vos concitoyens de proposer des solutions lors du prochain conseil de quartier concernant la mystérieuse augmentation du nombre d'accidents sur un passage piéton du quartier, situé après un virage. Vous devez analyser les données ouvertes fournies par le conseil municipal pour résoudre le problème. Voilà une façon de vous intégrer au quartier en apportant un regard neuf !
 
@@ -355,7 +388,7 @@ Vous avez accès à un ensemble de données sur les accidents aux passages piét
 - « J'ai évité de justesse quelques accidents en traversant la route dans ce virage. La visibilité est mauvaise, surtout quand il pleut, et les voitures ne semblent pas ralentir. »
 - « J'ai entendu d'autres voisins parler du nombre croissant d'accidents au passage pour piétons. Nous devrions faire quelque chose pour régler ce problème. »
 
-:::info[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Notes pour l'enseignant·e — pour stimuler la discussion]
 Encouragez les élèves à utiliser des outils statistiques pour visualiser les tendances et les corrélations dans les données. Ils pourraient représenter graphiquement le nombre d'accidents en fonction des conditions météorologiques ou de la vitesse moyenne pour voir s'il existe des tendances évidentes. Ils pourraient calculer le taux d'augmentation des accidents au fil du temps pour quantifier l'aggravation du problème. Ils peuvent également examiner la fréquence des accidents les jours de pluie par rapport aux jours sans pluie. Cela peut les aider à déterminer si la météo est un facteur important dans les accidents.
 
 Demandez-leur également de classer les plaintes par thèmes communs, comme les problèmes de visibilité, les voitures qui roulent trop vite ou la signalisation inadéquate. Cela peut les aider à identifier les problèmes les plus fréquents. Ils peuvent ensuite hiérarchiser ces problèmes lorsqu'ils suggèrent des solutions. Les plaintes suggèrent que la visibilité et les voitures qui roulent trop vite sont des problèmes de sécurité importants.
@@ -366,6 +399,9 @@ Demandez-leur également de classer les plaintes par thèmes communs, comme les 
 ---
 
 ## Annexe : Dataset : le dilemme du parc du quartier Iris
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 En tant que membre de l'équipe de développement "Parcs et Loisirs" du quartier Iris de Nova City, vous êtes chargé de comprendre le faible pourcentage d'habitants d'Iris utilisant les équipements du parc local au cours des 6 derniers mois.
 
@@ -445,7 +481,7 @@ Proposez vos solutions de manière construite pour les présenter à l'équipe P
 | Centre communautaire Nova | 1,5 km au nord | Piscine intérieure, salle de sport, studio de yoga |
 | Salle de sport Elite Fitness | 2 km à l'est | Gymnase de 2 km, ouvert 24 heures sur 24, services d'entraînement personnalisé |
 
-:::info[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Notes pour l'enseignant·e — pour stimuler la discussion]
 Vous pouvez guider vos élèves pour analyser le taux d'augmentation de la population et le développement de nouvelles unités d'habitation. Encouragez-les à identifier des tendances dans les commentaires et les retours. Les plaintes concernant le bruit émanant de divers groupes démographiques pourraient suggérer que les aménagements du parc ne répondent pas aux besoins de la communauté dans son ensemble.
 
 Cela pourrait les amener à conclure que l'augmentation de la population pourrait avoir entraîné une augmentation du bruit et de la congestion dans le parc, ce qui pourrait décourager l'utilisation du parc. Sur la base de ces conclusions, les élèves pourraient proposer des stratégies telles que l'introduction de zones plus calmes et moins encombrées dans le parc et d'équilibrer les activités pour les différents groupes d'âge comme solutions potentielles.
@@ -458,6 +494,9 @@ Enfin, discutez des équipements fournis par les installations concurrentes. Si 
 ---
 
 ## Annexe : Dataset : protection de la faune à Greenwood
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 En tant que spécialiste de l'environnement nouvellement nommé dans le district de Greenwood, vous êtes chargé de lutter contre le déclin du nombre d'espèces locales d'oiseaux Bluewing, un symbole bien-aimé du patrimoine naturel de la communauté.
 
@@ -528,7 +567,7 @@ L'oiseau à ailes bleues (ou Bluewing) est une espèce originaire du district de
 | Août | 2023 | 47 | 60 | 8 |
 | Septembre | 2023 | 48 | 62 | 10 |
 
-:::info[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Notes pour l'enseignant·e — pour stimuler la discussion]
 Cet ensemble de données peut être analysé pour identifier les tendances de la population d'oiseaux et des sites de nidification. Il peut s'agir d'examiner les changements au fil du temps et de corréler ces changements avec des facteurs tels que la saisonnalité. Le déclin de la population et des sites de nidification suggère une dégradation ou une interruption de l'habitat, qui peut être due à des activités humaines ou à des changements environnementaux.
 
 L'analyse pourrait également fournir des informations sur l'impact des changements dans la couverture végétale, la qualité des sources d'eau et la circulation piétonnière sur la population d'oiseaux. Une diminution de la couverture végétale pourrait entraîner une perte d'habitat ou de sources de nourriture, tandis qu'une diminution de la qualité des sources d'eau pourrait avoir un impact sur la santé des oiseaux. Une circulation piétonnière élevée pourrait entraîner des perturbations et du stress pour les oiseaux.
@@ -538,9 +577,23 @@ Ces données peuvent enfin être analysées pour comprendre l'impact de la quali
 Sur la base de l'analyse de ces ensembles de données, plusieurs stratégies pourraient être mises en oeuvre. Il pourrait s'agir notamment de mesures visant à restaurer et à protéger l'habitat de l'oiseau, à réduire la circulation piétonnière dans les zones sensibles, à améliorer la qualité des sources d'eau et à réduire le bruit et la pollution de l'air. En outre, des programmes d'éducation du public sur l'importance de préserver l'habitat de l'oiseau à ailes bleues pourraient s'avérer utiles.
 :::
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0002.jpg" alt="Page 2" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0003.jpg" alt="Page 3" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0004.jpg" alt="Page 4" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0005.jpg" alt="Page 5" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0006.jpg" alt="Page 6" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: '0.75rem 0 0 0'}}>Pages imprimables du dataset Greenwood</figcaption>
+</figure>
+
 ---
 
 ## Annexe : Dataset : lutte contre les îlots de chaleur urbains
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 Depuis plusieurs mois, les îlots de chaleur urbain sont devenus un problème majeur dans le district Solaris de la ville d'Helios. Ils causent une augmentation de la consommation d'énergie car la demande de climatisation augmente pendant les périodes chaudes, ce qui entraîne une augmentation des émissions de gaz à effet de serre. Cela entraîne également des conséquences sur la santé, provoquant des coups de chaleur, insolations, manque d'hydratation et autres soucis de santé au sein de la population. En outre, la hausse des températures peut provoquer une diminution de la qualité de l'eau lorsque les eaux plus chaudes s'écoulent dans les cours d'eau de la région, affectant les écosystèmes aquatiques locaux.
 
@@ -600,7 +653,7 @@ Utilisez des ensembles de données pour identifier les facteurs clés contribuan
 | 2023-08 | 81250 | 48750 | 1,56% |
 | 2023-09 | 78750 | 47250 | -3,08% |
 
-:::info[Conseil aux enseignants -- pour stimuler la discussion]
+:::info[Notes pour l'enseignant·e — pour stimuler la discussion]
 Cet ensemble de données fournit une image claire des variations de température dans le district de Solaris sur une période de plus d'un an. Les températures maximales peuvent notamment aider à identifier les mois où l'effet d'îlot de chaleur est le plus grave. Vous pouvez guider vos élèves pour rechercher des tendances et des corrélations dans les données de température et pour examiner comment celles-ci sont corrélées avec le moment de la consommation d'énergie maximale.
 
 Les données fournissent également des informations sur les différents matériaux utilisés dans le quartier ainsi que sur leurs indices d'absorption de chaleur et leurs valeurs d'albédo. Il s'agit de facteurs clés contribuant à l'effet d'îlot de chaleur urbain. Vous pouvez encourager les élèves à réfléchir à la manière dont des matériaux alternatifs ou supplémentaires pourraient être utilisés pour réduire l'absorption de chaleur dans le quartier. Par exemple, l'utilisation de matériaux plus réfléchissants ou la mise en place de toits verts pourraient être des stratégies efficaces.
@@ -611,6 +664,9 @@ Enfin, les élèves ont accès à des données sur les besoins énergétiques pe
 ---
 
 ## Annexe : Contexte : le mystère du quartier Hollyhock
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 **CHRONIQUES D'ENIGMA — ÉDITION DU MATIN — 22 septembre 2023**
 
@@ -634,6 +690,9 @@ Chacun des nouveaux arrêts de bus est équipé d'équipements modernes, notamme
 ---
 
 ## Annexe : Contexte : le dilemme du parc du quartier Iris
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 **NOVA CITY — RAPPORT PERSPECTIVES DU LOGEMENT ET DE LA CONSTRUCTION — ANNÉE 2023**
 
@@ -660,6 +719,9 @@ Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain
 
 ## Annexe : Contexte : protection de la faune à Greenwood
 
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
+
 **LES MURMURES DE LA NATURE — Les voix de la nature s'expriment à travers Emily Hartwell**
 
 **Alerte environnementale urgente : déversement de pétrole dans le parc Greenwood**
@@ -678,9 +740,17 @@ Des opérations de nettoyage sont en cours et les équipes travaillent avec dili
 
 Cet événement met en lumière la fragilité de nos milieux naturels et la nécessité d'une vigilance continue pour les protéger.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/donnees-contexte/Protocole_Donnees_Contexte_FR_page-0007.jpg" alt="Page contexte Greenwood" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Page imprimable du contexte Greenwood</figcaption>
+</figure>
+
 ---
 
 ## Annexe : Contexte : lutte contre les îlots de chaleur urbains
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+:::
 
 **Décision officielle — Plan de développement commercial du district de Solaris**
 

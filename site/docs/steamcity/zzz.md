@@ -42,9 +42,14 @@ sidebar_position: 25
 
 ## Introduction
 
-Ce protocole explore l'impact des pollutions urbaines sur la qualité du sommeil. Le sommeil joue un rôle crucial dans la santé mentale, physique et cognitive. En milieu urbain, divers facteurs environnementaux peuvent perturber sa qualité, notamment la lumière artificielle, les bruits ambiants, et les habitudes liées à l'utilisation des écrans. En appliquant la démarche scientifique, les élèves conduiront une étude pour recueillir et analyser des données quantitatives et qualitatives sur leur sommeil et les pollutions environnementales. Ils programmeront des capteurs pour suivre ces données, puis interpréteront les résultats pour identifier des solutions possibles. Afin de mener cette étude, les élèves devront identifier les nuisances urbaines affectant le sommeil, et d'analyser leurs effets sur le rythme circadien, les phases de sommeil et les interruptions nocturnes :
+Ce protocole explore l'impact des pollutions urbaines sur la qualité du sommeil. Le sommeil joue un rôle crucial dans la santé mentale, physique et cognitive. En milieu urbain, divers facteurs environnementaux peuvent perturber sa qualité, notamment la lumière artificielle, les bruits ambiants, et les habitudes liées à l'utilisation des écrans. En appliquant la démarche scientifique, les élèves conduiront une étude pour recueillir et analyser des données quantitatives et qualitatives sur leur sommeil et les pollutions environnementales. Ils programmeront des capteurs pour suivre ces données, puis interpréteront les résultats pour identifier des solutions possibles.
 
-La pollution lumineuse, causée par les lumières artificielles comme les réverbères ou les enseignes lumineuses, inhibe la production de mélatonine (l'hormone du sommeil). Cette inhibition retarde l'endormissement et perturbe les cycles circadiens, qui sont les rythmes biologiques naturels du corps sur une période de 24 heures. La pollution sonore, notamment les bruits constants du trafic, du voisinage ou des travaux, provoque des microréveils qui empêchent un sommeil réparateur. Ces nuisances sonores affectent particulièrement les phases de sommeil profond, essentielles à la récupération. La température et l'humidité jouent également un rôle important, particulièrement en zone urbaine où les pratiques de construction et d'isolation influencent ces facteurs. Une chambre trop chaude ou trop humide, souvent due à une mauvaise isolation ou à l'effet d'îlot de chaleur urbain, peut affecter les cycles de sommeil, augmentant les mouvements nocturnes et la fatigue au réveil. Les habitudes technologiques, telles que l'usage intensif des écrans avant le coucher, stimulent le cerveau. Cela retarde l'endormissement et augmente la fragmentation du sommeil.
+Afin de mener cette étude, les élèves devront identifier les nuisances urbaines affectant le sommeil et analyser leurs effets sur le rythme circadien, les phases de sommeil et les interruptions nocturnes :
+
+- **Pollution lumineuse** : causée par les lumières artificielles (réverbères, enseignes lumineuses), elle inhibe la production de mélatonine, retarde l'endormissement et perturbe les cycles circadiens.
+- **Pollution sonore** : les bruits constants du trafic, du voisinage ou des travaux provoquent des microréveils qui empêchent un sommeil réparateur, en affectant particulièrement les phases de sommeil profond.
+- **Température et humidité** : une chambre trop chaude ou trop humide (mauvaise isolation, effet d'îlot de chaleur urbain) affecte les cycles de sommeil, augmentant les mouvements nocturnes et la fatigue au réveil.
+- **Habitudes technologiques** : l'usage intensif des écrans avant le coucher stimule le cerveau, retarde l'endormissement et augmente la fragmentation du sommeil.
 
 Les rythmes circadiens sont notre horloge biologique interne qui contrôle les cycles veille-sommeil sur une période de 24 heures. Ces rythmes sont essentiels pour réguler de nombreuses fonctions physiologiques et comportementales de notre organisme. Ils sont particulièrement sensibles aux signaux externes de l'environnement, notamment la lumière et le bruit. Une perturbation de ces signaux peut avoir des conséquences importantes sur notre santé et notre bien-être, entraînant notamment un dérèglement des cycles du sommeil, et des effets cognitifs négatifs, impactant l'attention, la concentration, la mémoire et les capacités de raisonnement. Les élèves chercheront à explorer les corrélations entre un sommeil perturbé et les performances cognitives, en se concentrant particulièrement sur leurs perceptions de leur niveau d'attention et leur mémoire.
 
@@ -109,7 +114,7 @@ En explorant les concepts de cycles du sommeil, de pollution lumineuse, sonore e
 
 Pour démarrer l'activité, les élèves effectueront une recherche documentaire sur les différentes pollutions affectant la qualité du sommeil. Ils analyseront des articles scientifiques, des rapports d'études, des vidéos éducatives, ou des rapports et campagnes de santé publique pour identifier et comprendre les effets de ces pollutions sur les cycles du sommeil, les rythmes circadiens et le bien-être général. Cette étape leur permettra d'acquérir une base de connaissances solide et de se familiariser avec les concepts clés tels que la mélatonine, les phases du sommeil, et les méthodes d'évaluation existantes pour mesurer la qualité du sommeil en milieu urbain.
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Si l'accès à Internet est limité au sein de la classe, la recherche documentaire peut être réalisée en dehors de la classe. L'enseignant peut fournir un corpus de textes préalablement sélectionnés que les élèves analyseront en groupe. Les élèves peuvent également constituer le corpus à la maison, puis étudier collectivement les documents en classe. Cette approche permet de combiner le travail individuel et collaboratif.
 :::
 
@@ -119,7 +124,7 @@ Les élèves seront encouragés à identifier et à classer les différentes pol
 
 Après avoir constitué et étudié le corpus documentaire, les élèves élaboreront un protocole simple et rigoureux pour évaluer l'impact des pollutions identifiées sur la qualité de leur sommeil. Le protocole suivra la démarche scientifique, comprenant plusieurs étapes clés : la formulation d'une question de recherche claire, l'élaboration d'une hypothèse testable, la conception et réalisation d'expériences contrôlées, l'analyse systématique des données recueillies, l'interprétation des résultats et l'évaluation de l'hypothèse initiale, et enfin le partage des résultats et conclusions avec la classe. Cette approche méthodique permettra aux élèves d'explorer rigoureusement l'impact des pollutions identifiées sur leur sommeil, en utilisant des outils de mesure, des procédures de collecte de données systématiques, et des méthodes d'analyse appropriées. Ils apprendront à identifier des tendances, des corrélations et des relations significatives entre les variables étudiées, et à formuler des conclusions basées sur des preuves empiriques.
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Dans une logique d'apprentissage actif, il est intéressant de laisser les élèves réaliser cet exercice de conception du protocole par eux-mêmes. Cependant, le rôle crucial de l'enseignant en tant que guide consiste à adopter une approche semi-dirigée pour s'assurer que le protocole final intègre les composantes essentielles à l'étude. Cela inclut l'utilisation de capteurs de lumière, de bruit et de température pour des mesures objectives, ainsi que la réalisation d'un journal de sommeil comprenant l'analyse qualitative des nuits sur au moins une semaine complète et l'utilisation de capteurs de mouvement pour analyser la qualité du sommeil. Cette approche permettra de garantir la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves dans leur démarche d'investigation.
 :::
 
@@ -148,7 +153,9 @@ Il est essentiel de souligner que l'objectif principal de cette démarche est de
 
 Pour approfondir la réflexion, les enseignants pourront également utiliser les questions d'ouverture suivantes afin de stimuler les discussions :
 
-"Comment pourrions-nous améliorer la fiabilité de notre étude ? Quels sont les facteurs qui pourraient influencer nos résultats ?" Cette question encourage les élèves à réfléchir de manière critique à leur méthodologie et à identifier les variables potentiellement confondantes. "Quelle est l'importance de la taille de l'échantillon dans notre étude ? Comment cela affecte-t-il la validité de nos conclusions ?" Cette interrogation permet d'aborder les concepts de représentativité et de généralisation des résultats. "Quels autres biais potentiels pouvons-nous identifier dans notre protocole ? Comment pourrions-nous les atténuer ?" Cette réflexion encourage les élèves à adopter une approche critique et à envisager des améliorations méthodologiques.
+- **Comment pourrions-nous améliorer la fiabilité de notre étude ? Quels sont les facteurs qui pourraient influencer nos résultats ?** — Encourage les élèves à réfléchir de manière critique à leur méthodologie et à identifier les variables potentiellement confondantes.
+- **Quelle est l'importance de la taille de l'échantillon dans notre étude ? Comment cela affecte-t-il la validité de nos conclusions ?** — Permet d'aborder les concepts de représentativité et de généralisation des résultats.
+- **Quels autres biais potentiels pouvons-nous identifier dans notre protocole ? Comment pourrions-nous les atténuer ?** — Encourage les élèves à adopter une approche critique et à envisager des améliorations méthodologiques.
 
 ---
 
@@ -197,11 +204,11 @@ Afin de réaliser la démarche de collecte de données, les élèves devront au 
 | Interruptions de sommeil | Journal de bord |
 | Fatigue ressentie au réveil | Journal de bord |
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Les indicateurs listés ci-dessus sont non exhaustifs et peuvent être ajustés en fonction de la recherche documentaire réalisée en phase 1. Nous fournissons cependant dans ce protocole l'ensemble des instructions pour pouvoir créer les outils de mesure associés à ces indicateurs spécifiques.
 :::
 
-#### Préparation des outils de mesure technologiques - Utilisation de la carte Micro:bit et de capteurs additionnels
+#### Préparation des outils de mesure technologiques : utilisation de la carte Micro:bit et de capteurs additionnels
 
 Afin de réaliser les mesures quantitatives relatives aux indicateurs tels que le niveau de luminosité, le bruit, la température, l'humidité et le mouvement, les élèves devront programmer une carte électronique et les capteurs associés leur permettant d'automatiser la relève. Cette étape leur permettra d'acquérir des compétences de base en programmation et en électronique. Pour ce faire, nous vous conseillons d'utiliser un environnement de programmation visuel simple et adapté aux débutants tel que MakeCode. Ils créeront un programme permettant aux capteurs de prendre des mesures à des intervalles réguliers (par exemple toutes les 5 secondes, les minutes, les heures ...) et de stocker ces données dans un fichier .csv (Comma-Separated Values, un format de fichier texte où les données sont séparées par des virgules). Les capteurs seront positionnés pour une semaine dans les chambres des élèves réalisant la relève pour effectuer des relevés automatiques selon le protocole établi.
 
@@ -209,7 +216,7 @@ Afin de faciliter la mise en oeuvre de cette étape, vous trouverez dans la [fic
 
 Deux fiches d'activités pratiques sont disponibles : 1. Programmation de la carte pour mesurer des données environnementales : lumière, bruit, température et 2. Programmation de la carte pour mesurer l'amplitude des mouvements pendant la nuit (incluant l'ajout d'un bracelet).
 
-#### Préparation des outils de mesure qualitative - Création d'un journal de bord personnel
+#### Préparation des outils de mesure qualitative : création d'un journal de bord personnel
 
 En groupe classe, les élèves concevront un modèle de journal personnel comportant des rubriques pour chaque indicateur qualitatif identifié, tels que le temps d'endormissement, l'exposition aux écrans, la qualité subjective du sommeil, les interruptions de sommeil et la fatigue ressentie au réveil. Pour chaque indicateur, ils devront établir des échelles de notation cohérentes (par exemple, de 1 à 10). Une section dédiée à des notes ou remarques additionnelles permettra de consigner des observations complémentaires qui pourraient être pertinentes pour l'étude. Ce journal devra être rempli par les élèves en cours d'étude chaque matin (soit 7 fois), sous format papier ou numérique, selon ce qui est le plus pratique pour eux.
 
@@ -225,9 +232,11 @@ Il est important de souligner que l'objectif principal de cette phase est de fam
 
 Pour approfondir la réflexion, les enseignants pourront utiliser les questions d'ouverture suivantes :
 
-"Quels défis avez-vous rencontrés lors de la collecte des données ? Comment pourriez-vous améliorer le processus ?" Cette question encourage les élèves à réfléchir de manière critique sur leur expérience pratique. "Comment les différentes sources de données (capteurs et journaux de bord) se complètent-elles ? Quels sont les avantages et les limites de chaque méthode ?" Cette interrogation permet d'aborder la complémentarité des données quantitatives et qualitatives. "Quels facteurs imprévus avez-vous observés qui pourraient influencer la qualité du sommeil ? Comment pourriez-vous les intégrer dans une future étude ?" Cette réflexion encourage les élèves à penser de manière systémique et à envisager des améliorations pour de futures recherches.
+- **Quels défis avez-vous rencontrés lors de la collecte des données ? Comment pourriez-vous améliorer le processus ?** — Encourage les élèves à réfléchir de manière critique sur leur expérience pratique.
+- **Comment les différentes sources de données (capteurs et journaux de bord) se complètent-elles ? Quels sont les avantages et les limites de chaque méthode ?** — Permet d'aborder la complémentarité des données quantitatives et qualitatives.
+- **Quels facteurs imprévus avez-vous observés qui pourraient influencer la qualité du sommeil ? Comment pourriez-vous les intégrer dans une future étude ?** — Encourage les élèves à penser de manière systémique et à envisager des améliorations pour de futures recherches.
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Ce protocole propose l'utilisation de plusieurs cartes électroniques pour mener l'étude, avec un nombre idéal de six. Ce nombre peut être diminué en fonction du matériel à disposition. Cette expérience vise principalement à permettre aux élèves de développer une démarche scientifique rigoureuse. Cette approche vise à les initier à la méthode scientifique, à l'interprétation prudente des données, et à développer leur esprit critique face aux subtilités de la recherche. Bien que l'utilisation de capteurs électroniques soit un aspect attrayant de l'expérience, elle n'est pas essentielle à la réalisation des objectifs pédagogiques principaux. L'accent est mis sur le processus scientifique lui-même : la formulation d'hypothèses, la conception d'un protocole, la collecte systématique de données (qu'elles soient électroniques ou manuelles), et l'analyse critique des résultats. Cette approche permet aux élèves de comprendre que la valeur d'une étude scientifique réside davantage dans la rigueur de la méthode que dans la sophistication des outils utilisés.
 
 En plaçant l'utilisation des mesures électroniques au second plan, nous encourageons les élèves à réfléchir de manière créative sur les moyens alternatifs de collecte de données et à développer une compréhension plus profonde des concepts de fiabilité et de validité en recherche. Cela les prépare également à faire face aux contraintes réelles souvent rencontrées dans la recherche scientifique, où l'adaptation et l'innovation méthodologique sont essentielles.
@@ -281,7 +290,7 @@ Afin de préparer la phase d'analyse, les élèves devront consolider l'ensemble
 
 **Journaux de bord** : Les élèves regrouperont tous les journaux de bord. S'ils ont été réalisés en format électronique, ils seront directement téléchargés dans leur dossier partagé. S'ils ont été réalisés au format papier, nous vous conseillons de les scanner afin de garder trace et d'éviter de perdre de la donnée.
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Une fois toutes les données consolidées, vérifiez l'intégrité et la cohérence des informations, en particulier les unités de mesure et les formats de date/heure.
 :::
 
@@ -337,46 +346,45 @@ Pour chaque paire de variables sélectionnée, les élèves calculeront le coeff
 
 #### Qu'est-ce que le coefficient de corrélation ?
 
-Le coefficient de corrélation est la mesure spécifique qui quantifie la force de la relation linéaire entre deux variables d'une analyse de corrélation. Le coefficient est noté r dans un rapport de corrélation. Pour deux variables, la formule compare la distance de chaque point de données depuis la moyenne de la variable et l'utilise pour indiquer dans quelle mesure la relation entre les variables suit une ligne imaginaire tracée dans les données. C'est ce que l'on entend par "les corrélations concernent les relations linéaires". La corrélation n'inclut que deux variables et ne donne aucune information sur des éventuelles relations contenant plus de données. Cette analyse ne détectera pas (et sera donc biaisée par) les valeurs aberrantes présentes dans les données et ne peut pas détecter les facteurs externes importants à considérer dans votre étude.
+Le coefficient de corrélation est la mesure spécifique qui quantifie la force de la relation linéaire entre deux variables d'une analyse de corrélation. Le coefficient est noté **r** dans un rapport de corrélation. Pour deux variables, la formule compare la distance de chaque point de données depuis la moyenne de la variable et l'utilise pour indiquer dans quelle mesure la relation entre les variables suit une ligne imaginaire tracée dans les données : c'est ce que l'on entend par « les corrélations concernent les relations linéaires ». La corrélation n'inclut que deux variables et ne donne aucune information sur des éventuelles relations contenant plus de données. Cette analyse ne détectera pas (et sera donc biaisée par) les valeurs aberrantes présentes dans les données et ne peut pas détecter les facteurs externes importants à considérer dans l'étude.
 
-**Exemple illustré (appliqué au protocole, avec un nombre limité de mesures)**
+**Étapes de calcul (exemple appliqué au protocole avec un nombre limité de mesures) :**
 
-##### Étape 1 : Calculer les moyennes de l'échantillon
+1. Calculer les moyennes de l'échantillon pour chaque variable.
+2. Calculer la distance de chaque point de données par rapport à sa moyenne.
+3. Calculer le numérateur de l'équation du coefficient (somme des produits des écarts).
+4. Calculer le dénominateur de l'équation du coefficient (racine du produit des sommes des écarts au carré).
+5. Diviser le numérateur par le dénominateur pour obtenir **r**, puis interpréter.
 
-Pour l'exemple, nous avons pris un nombre limité de mesures.
+:::tip[**Détail des calculs et formule complète disponibles dans le PDF.**]
+- Tableau d'exemple chiffré étape par étape
+- Formule mathématique complète du coefficient de corrélation de Pearson
+:::
 
-##### Étape 2 : Calculez la distance de chaque point de données par rapport à sa moyenne
+**Interprétation :** plus **r** est proche de zéro, plus la relation linéaire est faible. Les valeurs positives de **r** indiquent une corrélation positive (les deux variables tendent à augmenter ensemble) ; les valeurs négatives, une corrélation négative (l'une augmente quand l'autre diminue). Les valeurs 1 et -1 représentent les corrélations « parfaites », positive et négative respectivement. Avec un coefficient de corrélation de 0,99, on peut conclure qu'il existe une très forte corrélation positive entre le niveau de bruit et le nombre d'interruptions de sommeil.
 
-##### Étape 3 : Calculez le haut de l'équation de coefficient
-
-##### Étape 4 : Calculez le bas de l'équation de coefficient
-
-Lorsque l'on multiplie le résultat des deux expressions, on obtient : 700 x 22.86 = 16 002
-
-Le bas de l'équation est donc :
-
-##### Étape 5 : Finissez le calcul et conclure
-
-Plus r est proche de zéro, plus la relation linéaire est faible. Les valeurs positives de r indiquent une corrélation positive lorsque les valeurs des deux variables tendent à augmenter ensemble. Les valeurs négatives de r indiquent une corrélation négative lorsque les valeurs d'une variable tendent à augmenter et que les valeurs de l'autre variable diminuent. Les valeurs 1 et -1 représentent chacune les corrélations "parfaites", positives et négatives respectivement. Ici, avec un coefficient de corrélation de 0,99, on peut conclure qu'il existe une très forte corrélation positive entre le niveau de bruit et le nombre d'interruptions de sommeil.
-
-#### Étape optionnelle - Calcul de l'intervalle de confiance
+#### Étape optionnelle : calcul de l'intervalle de confiance
 
 Pour renforcer la rigueur scientifique de l'analyse, il est recommandé d'ajouter une étape optionnelle portant sur l'utilisation de l'intervalle de confiance. Cette méthode statistique permet d'évaluer la précision et la fiabilité des corrélations observées, offrant ainsi une perspective plus nuancée sur les résultats obtenus. L'intervalle de confiance aide à déterminer si les corrélations sont statistiquement significatives et à quel point elles sont généralisables à une population plus large. Il aide à comprendre l'ampleur potentielle de la relation entre les variables dans la population étudiée. L'intervalle de confiance est également un outil précieux pour déterminer la significativité statistique des corrélations observées, notamment lorsqu'il ne contient pas zéro. Il guide les décisions concernant la nécessité de collecter davantage de données ou d'approfondir certaines relations. Il offre la possibilité de présenter les résultats de manière plus nuancée et rigoureuse, améliorant ainsi la qualité de la communication scientifique. En appliquant cette méthode, les élèves seront en mesure non seulement d'identifier les corrélations importantes, mais aussi d'évaluer leur fiabilité et leur pertinence dans le contexte plus large de leur étude sur l'impact des pollutions urbaines sur la qualité du sommeil. Cette approche supplémentaire contribuera à renforcer la validité des conclusions de l'étude et à développer l'esprit critique des élèves quant à l'interprétation des données statistiques.
 
 #### Méthodologie et calcul de l'intervalle de confiance
 
-1. Calculez le coefficient de corrélation (r) entre deux variables (par exemple, le niveau de bruit et le nombre d'interruptions de sommeil).
-2. Appliquez la formule simplifiée de l'intervalle de confiance à 95% :
+1. Calculer le coefficient de corrélation (**r**) entre deux variables (par exemple, le niveau de bruit et le nombre d'interruptions de sommeil).
+2. Appliquer la formule simplifiée de l'intervalle de confiance à 95 %.
 
-Expliquons cette formule :
+Variables de la formule :
 
-- **r** : Le coefficient de corrélation calculé
-- **n** : Le nombre d'observations dans l'étude
-- **1.96** : La valeur critique pour un niveau de confiance de 95%
+- **r** : le coefficient de corrélation calculé
+- **n** : le nombre d'observations dans l'étude
+- **1,96** : la valeur critique pour un niveau de confiance de 95 %
 
-Cette formule nous permet d'estimer la plage dans laquelle la vraie corrélation de la population se situe, avec une confiance de 95%.
+Cette formule permet d'estimer la plage dans laquelle la vraie corrélation de la population se situe, avec une confiance de 95 %.
 
-Par exemple, en utilisant les données de notre étude où r = 0,99 et n = 7 (pour les 7 jours de la semaine), l'intervalle de confiance serait approximativement \[0,96, 1,00\]. Cela signifie que nous sommes confiants à 95% que la vraie corrélation entre le niveau de bruit et les interruptions de sommeil se situe entre 0,96 et 1,00, indiquant une corrélation très forte à presque parfaite.
+Par exemple, avec les données de notre étude où r = 0,99 et n = 7 (pour les 7 jours de la semaine), l'intervalle de confiance serait approximativement \[0,96 ; 1,00\]. On peut donc être confiant à 95 % que la vraie corrélation entre le niveau de bruit et les interruptions de sommeil se situe entre 0,96 et 1,00, indiquant une corrélation très forte à presque parfaite.
+
+:::tip[**Formule mathématique complète disponible dans le PDF.**]
+- Écriture détaillée de la formule de l'intervalle de confiance à 95 %
+:::
 
 #### Visualisation des données
 
@@ -402,7 +410,10 @@ La préparation et la présentation des résultats ont permis aux élèves de d�
 
 Pour approfondir la réflexion, les enseignants pourront utiliser les questions d'ouverture suivantes :
 
-"Comment les résultats de cette étude pourraient-ils être utilisés pour influencer les politiques locales en matière d'urbanisme et de santé publique ?" Cette question encourage les élèves à réfléchir sur l'application pratique de leurs découvertes. "Quels défis éthiques avons-nous rencontrés lors de la collecte et de l'analyse des données personnelles sur le sommeil, et comment pourrions-nous améliorer notre approche à l'avenir ?" Cette interrogation permet d'aborder les enjeux éthiques de la recherche scientifique. "Dans quelle mesure pensez-vous que les résultats de notre étude locale peuvent être généralisés à d'autres contextes urbains ? Quelles adaptations seraient nécessaires pour répliquer cette étude à plus grande échelle ?" Cette réflexion encourage les élèves à considérer la portée et les limites de leur étude. "Comment cette expérience a-t-elle changé votre perception de la relation entre l'environnement urbain et la santé ? Quelles actions personnelles envisagez-vous de prendre suite à ces découvertes ?" Cette question incite les élèves à réfléchir sur l'impact personnel de leur recherche et les actions concrètes qui en découlent.
+- **Comment les résultats de cette étude pourraient-ils être utilisés pour influencer les politiques locales en matière d'urbanisme et de santé publique ?** — Encourage les élèves à réfléchir sur l'application pratique de leurs découvertes.
+- **Quels défis éthiques avons-nous rencontrés lors de la collecte et de l'analyse des données personnelles sur le sommeil, et comment pourrions-nous améliorer notre approche à l'avenir ?** — Permet d'aborder les enjeux éthiques de la recherche scientifique.
+- **Dans quelle mesure pensez-vous que les résultats de notre étude locale peuvent être généralisés à d'autres contextes urbains ? Quelles adaptations seraient nécessaires pour répliquer cette étude à plus grande échelle ?** — Encourage les élèves à considérer la portée et les limites de leur étude.
+- **Comment cette expérience a-t-elle changé votre perception de la relation entre l'environnement urbain et la santé ? Quelles actions personnelles envisagez-vous de prendre suite à ces découvertes ?** — Incite les élèves à réfléchir sur l'impact personnel de leur recherche et les actions concrètes qui en découlent.
 
 ---
 
@@ -462,51 +473,12 @@ Pour approfondir la réflexion, les enseignants pourront utiliser les questions 
 
 ---
 
-## Annexe : Journal imprimable
+## Annexes imprimables
 
-SUIVI DU SOMMEIL
-
-Nom : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Journée d'étude : \_\_\_\_\_\_\_\_\_\_\_\_
-
-Date : \_\_\_\_\_\_\_\_\_\_\_\_
-
-**A remplir avant d'aller au lit :**
-
-| | |
-|---|---|
-| Niveau de fatigue ressenti (1 à 5) | Niveau de stress ressenti durant la journée (1 à 5) |
-| Météo de la journée | Efficacité ressentie dans les tâches quotidiennes (1 à 5) |
-
-Événements spéciaux ou observations :
-
-**A remplir au réveil :**
-
-Qualité du sommeil
-
-| | |
-|---|---|
-| Temps d'endormissement : \_\_\_ minutes | Qualité globale du sommeil ressentie (1 à 5) |
-| Nombre d'interruptions de sommeil : \_\_\_ interruptions | Fatigue ressentie au réveil (1 à 5) |
-
-Exposition à l'écran avant de se coucher
-
-| | |
-|---|---|
-| Durée en minutes : \_\_\_ minutes | Type d'écran : Smartphone / Tablette / Ordinateur / Télévision |
-
-Nourriture
-
-| | |
-|---|---|
-| Dernier repas : \_\_\_ heures avant le coucher | Type de repas : Léger / Moyen / Lourd |
-
-Conditions environnementales
-
-| | | |
-|---|---|---|
-| Niveau de bruit ressenti (1 à 5) | Lumière ambiante ressentie (1 à 5) | Température ressentie : Trop froid / Confortable / Trop chaud |
-
-Observations complémentaires :
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Journal de bord « Suivi du sommeil » : fiche quotidienne à remplir avant le coucher (fatigue, stress, météo, efficacité ressentie) et au réveil (temps d'endormissement, qualité du sommeil, interruptions, fatigue au réveil)
+- Sections complémentaires : exposition aux écrans, nourriture (dernier repas, type de repas), conditions environnementales ressenties (bruit, lumière, température), observations
+:::
 
 ---
 

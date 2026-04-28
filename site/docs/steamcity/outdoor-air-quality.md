@@ -61,33 +61,18 @@ La dimension scientifique du projet permet aux apprenants d'aborder des concepts
 
 ### Structure du protocole
 
-Le protocole fonctionne comme un parcours d'apprentissage à travers quatre étapes :
+Le protocole fonctionne comme un parcours d'apprentissage à travers quatre phases :
 
-#### Étape 1 : Collecter des données, construction et déploiement de capteurs
+- **Phase 1 : Collecter des données, construction et déploiement de capteurs** — Les élèves construisent leur station de surveillance de la qualité de l'air et apprennent à collecter des mesures à l'aide de capteurs. Cette première phase présente les composants et concepts techniques tout en générant les données brutes nécessaires à l'analyse ultérieure.
+- **Phase 2 : Afficher les données, techniques de visualisation et de représentation** — En s'appuyant sur la collecte de données, les élèves apprennent à visualiser leurs mesures à l'aide de graphiques et d'affichages de données. Cette phase développe les compétences en littératie des données et aide à identifier des tendances qui ne sont pas évidentes sous forme numérique brute.
+- **Phase 3 : Analyser les données, identifier les tendances et les corrélations environnementales** — À partir des données visualisées, les élèves identifient les corrélations, comprennent les facteurs d'influence et tirent des conclusions fondées sur des données probantes. Cette phase analytique transforme les mesures brutes en informations.
+- **Phase 4 : Utiliser les données pour agir, élaboration de recommandations environnementales** — La dernière phase encourage les élèves à appliquer leurs conclusions à des situations concrètes, en les comparant à d'autres données et en formulant des recommandations pour améliorer la qualité de l'air. Cela relie la recherche scientifique à l'action citoyenne et à la sensibilisation à l'environnement.
 
-Les élèves construisent leur station de surveillance de la qualité de l'air et apprennent à collecter des mesures à l'aide de capteurs. Cette première étape présente les composants et concepts techniques tout en générant les données brutes nécessaires à l'analyse ultérieure.
+Chaque phase s'appuie sur la précédente, créant une progression d'apprentissage qui débute par des mesures concrètes et progresse vers l'analyse et les applications pratiques. Ensemble, elles représentent le processus scientifique, de l'observation à la communication des résultats.
 
-#### Étape 2 : Afficher les données, techniques de visualisation et de représentation
-
-En s'appuyant sur la collecte de données, les élèves apprennent à visualiser leurs mesures à l'aide de graphiques et d'affichages de données. Cette étape développe les compétences en littératie des données et aide les élèves à identifier des tendances qui ne sont pas évidentes sous forme numérique brute.
-
-#### Étape 3 : Analyser les données, identifier les tendances et les corrélations environnementales
-
-À partir des données visualisées, les élèves effectuent une analyse pour identifier les corrélations, comprendre les facteurs d'influence et tirer des conclusions fondées sur des données probantes. Cette étape analytique transforme les mesures brutes en informations.
-
-#### Étape 4 : Utiliser les données pour agir, élaboration de recommandations environnementales
-
-La dernière étape encourage les élèves à appliquer leurs conclusions à des situations concrètes, en les comparant à d'autres données et en formulant des recommandations pour améliorer la qualité de l'air. Cela relie la recherche scientifique à l'action citoyenne et à la sensibilisation à l'environnement.
-
-Chaque étape s'appuie sur la précédente, créant une progression d'apprentissage qui débute par des mesures concrètes et progresse vers l'analyse et les applications pratiques. Ensemble, elles représentent le processus scientifique, de l'observation à la communication des résultats.
-
-#### Informations pratiques
-
-**Durée** : 180 minutes ou 3 séances (1 pour l'étape 1, 1 pour l'étape 2 et le début de l'étape 3, et 1 pour la fin de l'étape 3 et l'étape 4).
-
-**Niveau de difficulté** : Facile (du collège au lycée).
-
-**Matériel nécessaire** : 1 carte programmable (NUCLEO-L476RG ; Arduino ; micro:bit) ; 1 shield Grove ; 1 LED RGB Neopixel ; 1 écran LCD ; 1 capteur SCD30 Sensirion ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB.
+| Durée | Niveau | Matériel principal |
+|---|---|---|
+| 180 minutes (3 séances : 1 pour la phase 1, 1 pour la phase 2 et le début de la phase 3, 1 pour la fin de la phase 3 et la phase 4) | Facile (du collège au lycée) | 1 carte programmable (NUCLEO-L476RG, Arduino ou micro:bit), 1 shield Grove, 1 LED RGB Neopixel, 1 écran LCD, 1 capteur SCD30 Sensirion, 1 module Bluetooth HM10 BLE, 1 batterie + connecteur, 1 câble USB |
 
 **Ressources** :
 
@@ -120,7 +105,7 @@ Chaque étape s'appuie sur la précédente, créant une progression d'apprentiss
 
 ---
 
-## Étape 1 : Collecter des données, construction et déploiement d'équipements de capteurs
+## Phase 1 : Collecter des données, construction et déploiement d'équipements de capteurs
 
 ### Contexte de la séquence
 
@@ -147,9 +132,13 @@ L'air que nous respirons est composé de divers éléments chimiques, sous forme
 
 Les polluants tels que les aérosols, les oxydes d'azote, les métaux lourds, le monoxyde de carbone, les composés organiques volatils, etc. sont considérés comme des indicateurs de la pollution atmosphérique. Ils sont donc étroitement surveillés par divers organismes de contrôle (nationaux, comme les [agences ATMO](https://atmo-france.org/la-carte-des-aasqa/), ou internationaux, comme l'OMS).
 
-#### Question de recherche 1 : Que sont les polluants environnementaux ?
+:::question[Question de recherche 1]
+Que sont les polluants environnementaux ?
+:::
 
-**Hypothèse** : Les polluants atmosphériques d'origine naturelle et anthropique s'accumulent à des concentrations différentes selon le lieu, le moment et les conditions météorologiques.
+:::hypothese[Hypothèse]
+Les polluants atmosphériques d'origine naturelle et anthropique s'accumulent à des concentrations différentes selon le lieu, le moment et les conditions météorologiques.
+:::
 
 **Concepts clés** :
 
@@ -159,9 +148,13 @@ Les polluants tels que les aérosols, les oxydes d'azote, les métaux lourds, le
 
 Vous trouverez en annexe un glossaire complet des polluants.
 
-#### Question de recherche 2 : Comment pouvons-nous quantifier différents types de polluants atmosphériques ?
+:::question[Question de recherche 2]
+Comment pouvons-nous quantifier différents types de polluants atmosphériques ?
+:::
 
-**Hypothèse** : Les capteurs électroniques peuvent détecter et mesurer des polluants spécifiques grâce à différents principes de détection physiques et chimiques.
+:::hypothese[Hypothèse]
+Les capteurs électroniques peuvent détecter et mesurer des polluants spécifiques grâce à différents principes de détection physiques et chimiques.
+:::
 
 **Concepts clés** :
 
@@ -169,9 +162,13 @@ Vous trouverez en annexe un glossaire complet des polluants.
 2. **Parties par million (PPM)** : Unité de mesure utilisée pour quantifier les faibles concentrations de polluants dans l'air, représentant le nombre de particules polluantes trouvées parmi un million de particules d'air.
 3. **Étalonnage** : Processus de configuration d'un capteur ou d'un outil de mesure en comparant ses lectures avec une norme connue pour garantir l'exactitude de la collecte de données.
 
-#### Question de recherche 3 : Où la qualité de l'air est-elle un problème important ?
+:::question[Question de recherche 3]
+Où la qualité de l'air est-elle un problème important ?
+:::
 
-**Hypothèse** : Les zones à forte densité de population, à activité industrielle et à forte concentration de trafic connaissent des problèmes de qualité de l'air plus importants que les zones rurales ou moins développées.
+:::hypothese[Hypothèse]
+Les zones à forte densité de population, à activité industrielle et à forte concentration de trafic connaissent des problèmes de qualité de l'air plus importants que les zones rurales ou moins développées.
+:::
 
 **Concepts clés** :
 
@@ -189,29 +186,33 @@ Maintenant que nous en savons plus sur ces différents polluants, voyons comment
 
 N'oubliez pas de collecter des données sur le site d'étude (ex. : trafic routier, heures de pointe, présence d'arbres, etc.).
 
+:::info[Bon à savoir]
+Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
+:::
+
 #### Activité 1 : Mesure des COV (10 minutes)
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et du capteur MICS6814, d'un écran d'affichage et d'un module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux élèves** : Créez un programme de mesure de COV, puis enregistrez-le sur une carte microSD ou affichez-le sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte programmable micro:bit ou Arduino, capteur MICS6814, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable micro:bit ou Arduino NUCLEO-L476RG. Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
+**Consignes aux élèves** : créez un programme de mesure de COV, puis enregistrez-le sur une carte microSD ou affichez-le sur un écran LCD.
 
-:::info[Bon à savoir]
-Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
-:::
+- **Composants à assembler** : NUCLEO-L476RG (ou micro:bit / Arduino), capteur MICS6814, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur.
+- **Connexions** : câbles Grove (4 fils en 1 avec codage).
+- **Programmation** : utilisez les interfaces Vittascience, vérifiez l'absence d'erreurs de syntaxe, puis cliquez sur « Envoyer » pour téléverser le programme directement sur la carte programmable.
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Système de surveillance des COV avec écran LCD »).
+**Programmation à cette étape** : vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Système de surveillance des COV avec écran LCD »).
 
 #### Activité 2 : Surveillance multiparamétrique (15 minutes)
 
-L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et des capteur HM3301, MICS6814, DHT11, d'un écran d'affichage et du module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience, des capteurs HM3301, MICS6814 et DHT11, d'un écran d'affichage et du module Openlog pour l'enregistrement des données sur carte SD. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux élèves** : Créez un programme pour mesurer divers paramètres environnementaux, puis enregistrez-les sur une carte microSD ou affichez-les sur un écran LCD. Utilisez les interfaces Vittascience pour le réaliser, assemblez les composants (carte programmable, capteur HM3301, capteur MICS6814, capteur d'humidité DHT11, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur), vérifiez l'absence d'erreurs de syntaxe dans le programme, puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG (micro:bit ou Arduino). Les connexions se font avec des câbles Grove (4 fils en 1 avec codage).
+**Consignes aux élèves** : créez un programme pour mesurer divers paramètres environnementaux, puis enregistrez-les sur une carte microSD ou affichez-les sur un écran LCD.
 
-:::info[Bon à savoir]
-Les composants électroniques sont sensibles à l'eau et à l'humidité : veillez à les protéger avec une housse semi-étanche (ouverture par le bas) lors de leur utilisation en extérieur.
-:::
+- **Composants à assembler** : carte programmable, capteur HM3301, capteur MICS6814, capteur d'humidité DHT11, écran d'affichage, module Openlog pour l'enregistrement des données sur carte SD, câble USB, compteur.
+- **Connexions** : câbles Grove (4 fils en 1 avec codage).
+- **Programmation** : utilisez les interfaces Vittascience, vérifiez l'absence d'erreurs de syntaxe, puis cliquez sur « Envoyer » pour téléverser le programme directement sur la carte programmable NUCLEO-L476RG (micro:bit ou Arduino).
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Collecte de données environnementales multi-capteurs »).
+**Programmation à cette étape** : vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Collecte de données environnementales multi-capteurs »).
 
 ### Restitution et réflexion
 
@@ -219,19 +220,17 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 **Connaissances mobilisées** : Les élèves ont appris à connaître les polluants primaires et secondaires, leurs sources et les méthodes de mesure à l'aide de capteurs.
 
-**Réflexion sur la mise en œuvre en classe** : Cette étape peut être mise en œuvre dans une salle de classe standard avec accès à des ordinateurs pour la programmation. Envisagez de diviser les élèves en petits groupes, chacun étant responsable d'une configuration de capteurs différente.
+**Réflexion sur la mise en œuvre en classe** : cette phase peut être mise en œuvre dans une salle de classe standard avec accès à des ordinateurs pour la programmation. Envisagez de diviser les élèves en petits groupes, chacun étant responsable d'une configuration de capteurs différente.
 
-### Objectifs d'apprentissage
-
-Les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
+**Résultats d'apprentissage** : les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
 
 ---
 
-## Étape 2 : Afficher les données, techniques de visualisation et de représentation
+## Phase 2 : Afficher les données, techniques de visualisation et de représentation
 
 ### Contexte de la séquence
 
-Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à l'étape précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
+Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à la phase précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
 
 ### Objectifs d'apprentissage
 
@@ -246,9 +245,13 @@ Après avoir connecté des capteurs et programmé la carte électronique pour g�
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
-**Question de recherche** : Quelles méthodes permettent de visualiser efficacement les données environnementales ?
+:::question[Question de recherche]
+Quelles méthodes permettent de visualiser efficacement les données environnementales ?
+:::
 
-**Hypothèse** : Les graphiques de séries chronologiques révèlent des modèles temporels dans les niveaux de pollution qui ne sont pas apparents dans les données numériques brutes.
+:::hypothese[Hypothèse]
+Les graphiques de séries chronologiques révèlent des modèles temporels dans les niveaux de pollution qui ne sont pas apparents dans les données numériques brutes.
+:::
 
 **Concepts clés** :
 
@@ -266,7 +269,7 @@ Avant de commencer, vous devez évaluer le niveau de connaissances des élèves 
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux étudiants** : Créez un graphique en temps réel grâce au mode graphique des interfaces Vittascience. Voici la procédure pour récupérer les données depuis la console :
+**Consignes aux élèves** : créez un graphique en temps réel grâce au mode graphique des interfaces Vittascience. Voici la procédure pour récupérer les données depuis la console :
 1. Tout d'abord, la carte programmable doit être connectée à l'ordinateur via le câble USB. Cliquez ensuite sur le bouton « Connecter » dans la barre d'outils.
 2. Dans la fenêtre qui s'ouvre, sélectionnez votre carte programmable, puis cliquez sur le bouton "Connexion".
 3. La console affiche ensuite les données.
@@ -284,11 +287,11 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. 
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux étudiants** : Créez un programme pour enregistrer des données sur une carte SD à l'aide d'un module d'enregistrement OpenLog avec le support des interfaces Vittascience.
+**Consignes aux élèves** : créez un programme pour enregistrer des données sur une carte SD à l'aide d'un module d'enregistrement OpenLog avec le support des interfaces Vittascience.
 
 Une fois l'enregistrement terminé, retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur.
 
-**Programmation à cette étape** : Vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air »).
+**Programmation à cette étape** : vous trouverez le code complet et les instructions d'assemblage pour cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-outdoor-air-quality) (section « Enregistrement automatisé des données sur carte SD pour les mesures de la qualité de l'air »).
 
 ### Restitution et réflexion
 
@@ -302,11 +305,11 @@ L'enseignant peut conclure l'activité en montrant aux élèves qu'ils ont appri
 
 ---
 
-## Étape 3 : Analyser les données, identifier les modèles et les corrélations environnementales
+## Phase 3 : Analyser les données, identifier les modèles et les corrélations environnementales
 
 ### Contexte de la séquence
 
-En s'appuyant sur la collecte et la visualisation des données des étapes précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
+En s'appuyant sur la collecte et la visualisation des données des phases précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
 
 ### Objectifs d'apprentissage
 
@@ -321,9 +324,13 @@ En s'appuyant sur la collecte et la visualisation des données des étapes préc
 
 Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
 
-**Question de recherche 1** : Quels facteurs influencent la variation des niveaux de polluants atmosphériques ?
+:::question[Question de recherche 1]
+Quels facteurs influencent la variation des niveaux de polluants atmosphériques ?
+:::
 
-**Hypothèse** : Les niveaux de polluants sont corrélés à des activités humaines et à des périodes spécifiques, comme le trafic aux heures de pointe qui augmente les concentrations de NO2 et de CO.
+:::hypothese[Hypothèse]
+Les niveaux de polluants sont corrélés à des activités humaines et à des périodes spécifiques, comme le trafic aux heures de pointe qui augmente les concentrations de NO2 et de CO.
+:::
 
 **Concepts clés** :
 
@@ -341,51 +348,48 @@ Avant de commencer, vous devez évaluer le niveau de connaissances des élèves 
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux élèves** : Exploitation des données. Retirez la carte microSD du lecteur. Insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur. Pour ouvrir le fichier « LOG00002.txt » sur la carte microSD, procédez comme suit :
+**Consignes aux élèves** : exploitation des données. Retirez la carte microSD du lecteur, insérez-la dans l'adaptateur microSD/USB, puis branchez ce dernier sur l'ordinateur. Pour ouvrir le fichier `LOG00002.txt` sur la carte microSD, procédez comme suit selon votre tableur.
+
+Les données enregistrées sont organisées dans l'ordre suivant :
+
+| Temps (sec) | Température (°C) | Pression (Pa) | Altitude (m) |
+|---|---|---|---|
+| 0 | 17.48 | 99813.49 | 124.54 |
+| 0 | 17.49 | 99814.79 | 124.23 |
+| 1 | 17.49 | 99814.96 | 124.41 |
+
+| Particules - PM (µm) | Dioxyde d'azote - NO2 (ppm) | Monoxyde de carbone - CO (ppm) | Composés organiques volatils - COV (ppm) |
+|---|---|---|---|
+| 2,5 | 42 | 27 | 100 |
+| 2,7 | 46 | 26 | 110 |
+| 2,8 | 48 | 26 | 115 |
 
 ##### Avec Microsoft Excel
 
-Créez un fichier Microsoft Excel sur la carte microSD, faites un clic droit → « nouveau » → « Feuille de calcul Microsoft Excel ». Nommez le fichier Excel, puis ouvrez-le. Allez dans « Fichier » → « Ouvrir » → « Parcourir ». Sélectionnez le type de fichier « Fichiers texte ». Ouvrez « LOG00002.txt » sur la carte microSD. Un assistant d'importation s'ouvre, cliquez sur « Suivant » sans modifier chaque étape, puis cliquez sur « Terminer ». Insérez une ligne au-dessus des cinq colonnes et nommez-les comme suit :
+1. Créez un fichier Microsoft Excel : clic droit → « nouveau » → « Feuille de calcul Microsoft Excel ». Nommez-le, puis ouvrez-le.
+2. Allez dans « Fichier » → « Ouvrir » → « Parcourir », sélectionnez le type « Fichiers texte ».
+3. Ouvrez `LOG00002.txt` sur la carte microSD.
+4. Dans l'assistant d'importation, cliquez sur « Suivant » sans rien modifier, puis sur « Terminer ».
+5. Insérez une ligne au-dessus des colonnes et nommez-les selon l'ordre indiqué ci-dessus.
+6. **Dessiner des courbes** : sélectionnez les données avec le titre, puis « Insérer » → « Nuage de points ». Répétez l'opération pour chaque quantité mesurée.
 
-| Temps (sec) | Température (°C) | Pression (Pa) | Altitude (m) |
-|---|---|---|---|
-| 0 | 17.48 | 99813.49 | 124.54 |
-| 0 | 17.49 | 99814.79 | 124.23 |
-| 1 | 17.49 | 99814.96 | 124.41 |
+##### Avec LibreOffice Calc
 
-| Particules - PM (µm) | Dioxyde d'azote - NO2 (ppm) | Monoxyde de carbone - CO (ppm) | Composés organiques volatils - COV (ppm) |
-|---|---|---|---|
-| 2,5 | 42 | 27 | 100 |
-| 2,7 | 46 | 26 | 110 |
-| 2,8 | 48 | 26 | 115 |
-
-**Dessiner des courbes** : Sélectionner les données avec le titre, puis « Insérer » → « Nuage de points ». Répétez l'opération pour chaque quantité mesurée.
-
-##### Avec LibreOffice
-
-**Création d'un fichier LibreOffice Calc**. Ouvrez le fichier Libre Office. Allez dans l'onglet « Fichier » → « Ouvrir » et sélectionnez le fichier « LOG00002.txt ». Une fenêtre s'ouvre : Importer : Ne rien modifier. Options de séparation : choisissez Tabulation uniquement. Vérifiez que l'aperçu en bas de la page est cohérent. Les données sont affichées dans l'ordre suivant : Heure (s), Température (°C), Pression (Pa°), Altitude (m), Matières particulaires - PM (µm), Dioxyde d'azote - NO2 (ppm), Monoxyde de carbone - CO (ppm), Composés organiques volatils - COV (ppm).
-
-**Création de diagrammes** : Ajoutez une ligne pour indiquer à quoi correspondent les données comme suit :
-
-| Temps (sec) | Température (°C) | Pression (Pa) | Altitude (m) |
-|---|---|---|---|
-| 0 | 17.48 | 99813.49 | 124.54 |
-| 0 | 17.49 | 99814.79 | 124.23 |
-| 1 | 17.49 | 99814.96 | 124.41 |
-
-| Particules - PM (µm) | Dioxyde d'azote - NO2 (ppm) | Monoxyde de carbone - CO (ppm) | Composés organiques volatils - COV (ppm) |
-|---|---|---|---|
-| 2,5 | 42 | 27 | 100 |
-| 2,7 | 46 | 26 | 110 |
-| 2,8 | 48 | 26 | 115 |
-
-Sélectionnez la colonne Heure et la deuxième colonne correspondant aux données que vous souhaitez afficher (en maintenant la touche \[ctrl\] enfoncée). Cliquez sur « Insérer » → « Diagramme » À l'étape \{1. choisir un type de diagramme\} : choisissez « ligne » et cliquez sur Suivant. À l'étape \{2. choisissez une plage de données\} : cochez la case « Première colonne comme étiquette », laissez le reste intact, cliquez sur Suivant. L'étape 3 apparaît, cliquez sur Suivant sans rien modifier. Si vous le souhaitez, ajoutez un titre, un sous-titre et les unités des quantités affichées. Cliquez sur Terminer.
+1. Ouvrez LibreOffice. Allez dans « Fichier » → « Ouvrir » et sélectionnez `LOG00002.txt`.
+2. Dans la fenêtre d'importation : ne rien modifier dans « Importer », choisissez « Tabulation » uniquement comme séparateur. Vérifiez la cohérence de l'aperçu.
+3. Ajoutez une ligne d'en-tête correspondant à l'ordre des données indiqué ci-dessus.
+4. **Création de diagrammes** : sélectionnez la colonne « Heure » et la colonne correspondant aux données à afficher (touche \[Ctrl\] enfoncée).
+5. Cliquez sur « Insérer » → « Diagramme ».
+6. Étape 1 (type de diagramme) : choisissez « Ligne » → Suivant.
+7. Étape 2 (plage de données) : cochez « Première colonne comme étiquette », laissez le reste, → Suivant.
+8. Étape 3 : Cliquez sur Suivant sans rien modifier.
+9. Ajoutez si souhaité un titre, un sous-titre et les unités des quantités affichées, puis cliquez sur « Terminer ».
 
 #### Activité 2 : Analyse des modèles (10 minutes)
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux élèves** : Analyser les données. Trouver les causes des variations du monoxyde de carbone dans l'air.
+**Consignes aux élèves** : analyser les données et trouver les causes des variations du monoxyde de carbone dans l'air.
 
 ### Restitution et réflexion
 
@@ -399,7 +403,7 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ---
 
-## Étape 4 : Utiliser les données pour agir, élaboration de recommandations environnementales
+## Phase 4 : Utiliser les données pour agir, élaboration de recommandations environnementales
 
 ### Contexte de la séquence
 
@@ -418,9 +422,13 @@ La dernière étape relie la recherche scientifique à la pratique concrète. Le
 
 Avant de commencer, l'enseignant encourage les élèves à prendre en compte les facteurs en jeu.
 
-**Question de recherche 1** : Comment nos mesures locales se comparent-elles aux données d'autres régions ?
+:::question[Question de recherche 1]
+Comment nos mesures locales se comparent-elles aux données d'autres régions ?
+:::
 
-**Hypothèse** : Les zones présentant des caractéristiques similaires présentent des schémas de pollution comparables malgré leur séparation géographique.
+:::hypothese[Hypothèse]
+Les zones présentant des caractéristiques similaires présentent des schémas de pollution comparables malgré leur séparation géographique.
+:::
 
 **Concepts clés** :
 
@@ -428,9 +436,13 @@ Avant de commencer, l'enseignant encourage les élèves à prendre en compte les
 2. **Modèles mondiaux** : Tendances généralisées de la pollution atmosphérique qui transcendent les conditions locales, souvent liées aux étapes d'industrialisation, d'urbanisation et de développement économique.
 3. **Variabilité régionale** : Différences dans les mesures de la qualité de l'air entre les zones géographiques en raison de facteurs locaux tels que la topographie, le climat, la densité de population et l'activité industrielle.
 
-**Question de recherche 2** : Quelles actions pourraient améliorer la qualité de l'air sur la base de nos résultats ?
+:::question[Question de recherche 2]
+Quelles actions pourraient améliorer la qualité de l'air sur la base de nos résultats ?
+:::
 
-**Hypothèse** : Des interventions ciblées sur les sources de pollution identifiées peuvent améliorer la qualité de l'air local.
+:::hypothese[Hypothèse]
+Des interventions ciblées sur les sources de pollution identifiées peuvent améliorer la qualité de l'air local.
+:::
 
 **Concepts clés** :
 
@@ -438,9 +450,13 @@ Avant de commencer, l'enseignant encourage les élèves à prendre en compte les
 2. **Contrôle à la source** : Méthodes visant à réduire la pollution à son origine, telles que les normes d'émission pour les véhicules ou les processus industriels.
 3. **Cadre politique** : Système de réglementations, d'incitations et de lignes directrices établi par les autorités pour gérer la qualité de l'air et réduire la pollution.
 
-**Question de recherche 3** : Comment les données scientifiques peuvent-elles éclairer la prise de décision environnementale ?
+:::question[Question de recherche 3]
+Comment les données scientifiques peuvent-elles éclairer la prise de décision environnementale ?
+:::
 
-**Hypothèse** : Les recommandations fondées sur les données conduisent à des interventions environnementales plus efficaces que les approches basées sur l'intuition.
+:::hypothese[Hypothèse]
+Les recommandations fondées sur les données conduisent à des interventions environnementales plus efficaces que les approches basées sur l'intuition.
+:::
 
 **Concepts clés** :
 
@@ -454,11 +470,33 @@ Avant de commencer, l'enseignant encourage les élèves à prendre en compte les
 
 ### Investigation par les élèves
 
-L'activité finale (10 minutes) est lancée par l'enseignant, elle peut être réalisée en groupe ou avec toute la classe.
+L'activité finale (10 minutes) est lancée par l'enseignant. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes aux élèves** : Maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données mondiales grâce à la technologie LoRa. Importez les données collectées (avec la technologie LoRa ; pour plus d'informations sur LoRa, consultez les « Lignes directrices de Vittascience sur LoRA avec le matériel actuellement disponible ») et publiez-les sur le site web de l'école ou sur celui de Vittascience. Vous pouvez publier les données collectées en temps réel sur Internet via un serveur. Par exemple, la qualité de l'air locale peut être affichée sur un site web ou un réseau social. Veuillez noter, cependant, que la mise en place d'un tel projet est réservée aux utilisateurs expérimentés !
+**Consignes aux élèves** : maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données mondiales grâce à la technologie LoRa. Importez les données collectées et publiez-les sur le site web de l'école ou sur celui de Vittascience.
 
-Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap. Cliquez sur le bouton « + » → « Ajouter une expérience ». Sur le formulaire, remplissez les informations suivantes : Nom du projet ; Type de kit : kit station de mesure ; Comment s'est déroulé le projet ? (décrivez ici votre protocole de mesure) ; Lieu ; Dates de mesure ; Données (pour ajouter des données, vous pouvez inclure plusieurs séries de mesures. Vous pouvez saisir des données directement dans le tableau "Champ de données", et/ou ajouter votre propre fichier .csv depuis votre carte SD) ; Photos/Vidéos ; Langue. Une fois tous les champs remplis, il ne vous reste plus qu'à cliquer sur le bouton "Ajouter une expérience". Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap. Les élèves peuvent ensuite les comparer avec d'autres expériences similaires. Filtrez les expériences par type de "Kit station de mesure". Cliquez ensuite sur une expérience et sur le bouton "comparer". Cliquez à nouveau sur une autre expérience et sur le bouton "comparer avec l'expérience sélectionnée".
+:::info[Bon à savoir]
+Vous pouvez publier les données collectées en temps réel sur Internet via un serveur (site web, réseau social). La mise en place d'un tel projet est cependant réservée aux utilisateurs expérimentés. Pour plus d'informations sur LoRa, consultez les « Lignes directrices de Vittascience sur LoRa avec le matériel actuellement disponible ».
+:::
+
+**Procédure pour ajouter une expérience sur Vittamap** :
+
+1. Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : `vittascience.com/vittamap`.
+2. Cliquez sur le bouton « + » → « Ajouter une expérience ».
+3. Remplissez le formulaire :
+   - **Nom du projet**
+   - **Type de kit** : kit station de mesure
+   - **Comment s'est déroulé le projet ?** (décrivez votre protocole de mesure)
+   - **Lieu** et **dates de mesure**
+   - **Données** : saisissez plusieurs séries directement dans le tableau « Champ de données » et/ou ajoutez votre fichier `.csv` depuis votre carte SD
+   - **Photos / Vidéos**
+   - **Langue**
+4. Cliquez sur « Ajouter une expérience ». Vos données sont désormais disponibles pour la communauté Vittascience.
+
+**Comparer avec d'autres expériences** :
+
+1. Filtrez les expériences par type « Kit station de mesure ».
+2. Cliquez sur une expérience puis sur « comparer ».
+3. Cliquez sur une autre expérience puis sur « comparer avec l'expérience sélectionnée ».
 
 ### Restitution et réflexion
 

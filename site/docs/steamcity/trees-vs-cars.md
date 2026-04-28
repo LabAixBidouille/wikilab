@@ -26,11 +26,17 @@ sidebar_position: 8
 
 ## Matériel
 
-- 1 jeu de cartes "Numéro" (disponible en annexe du PDF)
-- 1 jeu de cartes "Dataset de véhicules" par groupe (disponible en annexe du PDF)
-- 1 feuille d'algorithme par groupe (disponible en annexe du PDF)
+- 1 jeu de cartes « Numéro »
+- 1 jeu de cartes « Dataset de véhicules » par groupe
+- 1 feuille d'algorithme par groupe
 
 <a href="/pdf/steamcity/Protocol_TreesVsCars_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Jeu de cartes « Numéro »
+- Jeu de cartes « Dataset de véhicules »
+- Feuille d'algorithme (tableau de condition de séparation à remplir)
+:::
 
 </div>
 
@@ -47,18 +53,18 @@ Le protocole « Trees VS Cars » vise à offrir aux élèves une introduction ac
 
 Derrière cet objectif général, les élèves exploreront comment les machines peuvent classer l'information en apprenant à partir d'exemples plutôt qu'en suivant des règles explicitement programmées. Cette approche permet aux ordinateurs de s'adapter à de nouvelles situations et de faire des prédictions basées sur des expériences antérieures – un peu comme l'apprentissage humain, mais grâce à des processus mathématiques et statistiques.
 
-À travers les étapes du protocole, les élèves créeront un modèle capable de catégoriser les véhicules en deux groupes : ceux autorisés à circuler dans la ZBE de Bruxelles et ceux qui ne le sont pas, sur base de trois critères : le type de véhicule, le type de carburant et l'année de fabrication.
+À travers les phases du protocole, les élèves créeront un modèle capable de catégoriser les véhicules en deux groupes : ceux autorisés à circuler dans la ZBE de Bruxelles et ceux qui ne le sont pas, sur base de trois critères : le type de véhicule, le type de carburant et l'année de fabrication.
 
 Cette application spécifique – la classification des véhicules pour la Zone de Basses Émissions (ZBE) de Bruxelles – représente une mise en œuvre concrète de l'IA existante dans les systèmes de gestion urbaine, démontrant comment les villes utilisent des systèmes intelligents pour réguler le trafic et réduire la pollution. La technologie d'arbre de décision que les élèves exploreront est déployée dans diverses applications de ville intelligente, de l'optimisation des itinéraires des transports publics à la prévision des besoins en maintenance des infrastructures urbaines.
 
 ### Structure du protocole
 
-Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie en 4 étapes structurée comme suit :
+Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie en 4 phases structurée comme suit :
 
-- **Étape 1 : comprendre les arbres binaires.** Dans la première étape, les élèves découvriront le concept d'arbres binaires, une structure de données largement utilisée dans le domaine de l'apprentissage supervisé.
-- **Étape 2 : création d'arbres de décision pour la classification des véhicules.** Dans un deuxième temps, ils construiront un arbre de décision, une forme particulière d'arbre binaire, afin de séparer un ensemble de véhicules en deux catégories : ceux autorisés à circuler dans la ZBE de Bruxelles et les autres. Ils compareront les arbres créés et leur performance dans la catégorisation des véhicules.
-- **Étape 3 : construction d'un arbre de décision guidé par un algorithme.** En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
-- **Étape 4 : explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, la dernière étape incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
+- **Phase 1 : Comprendre les arbres binaires.** Les élèves découvriront le concept d'arbres binaires, une structure de données largement utilisée dans le domaine de l'apprentissage supervisé.
+- **Phase 2 : Création d'arbres de décision pour la classification des véhicules.** Les élèves construiront un arbre de décision, une forme particulière d'arbre binaire, afin de séparer un ensemble de véhicules en deux catégories : ceux autorisés à circuler dans la ZBE de Bruxelles et les autres. Ils compareront les arbres créés et leur performance dans la catégorisation des véhicules.
+- **Phase 3 : Construction d'un arbre de décision guidé par un algorithme.** En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
+- **Phase 4 : Explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, cette dernière phase incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/trees-vs-cars/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -74,11 +80,11 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 - **Généralisation** : la généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant la formation.
 - **Performances du modèle** : la performance du modèle est la mesure de la capacité d'un modèle à faire des prédictions correctes.
 
-## Étape 1 : Comprendre les arbres binaires
+## Phase 1 : Comprendre les arbres binaires
 
 ### Contexte de la séquence
 
-Les arbres binaires sont une structure de données omniprésente en informatique. Ils présentent de nombreuses propriétés intéressantes, telles que l'efficacité de la recherche, de l'insertion et de la suppression d'éléments, et la capacité de représenter des expressions mathématiques pour l'analyse syntaxique dans les compilateurs. Ils sont également utilisés dans les algorithmes de compression de données, comme le codage de Huffman. La compréhension du concept d'arbre binaire est essentielle dans ce protocole, car l'arbre de décision des étapes suivantes est une forme particulière d'arbre binaire.
+Les arbres binaires sont une structure de données omniprésente en informatique. Ils présentent de nombreuses propriétés intéressantes, telles que l'efficacité de la recherche, de l'insertion et de la suppression d'éléments, et la capacité de représenter des expressions mathématiques pour l'analyse syntaxique dans les compilateurs. Ils sont également utilisés dans les algorithmes de compression de données, comme le codage de Huffman. La compréhension du concept d'arbre binaire est essentielle dans ce protocole, car l'arbre de décision des phases suivantes est une forme particulière d'arbre binaire.
 
 ### Objectifs d'apprentissage
 
@@ -88,7 +94,7 @@ Comprendre le concept d'arbres binaires.
 
 Pour comprendre comment un ordinateur peut prendre une décision, il est nécessaire de comprendre comment il organise les données d'entrée. Commençons par examiner comment les humains ont structuré et organisé de grands volumes d'informations, ainsi que les méthodes utilisées pour les extraire. L'exemple le plus simple est celui des dictionnaires. Un dictionnaire est un livre contenant les définitions des mots, classées par ordre alphabétique. Cette organisation facilite la recherche. Il n'est pas nécessaire de parcourir tout le dictionnaire. En identifiant la première lettre du mot recherché, vous pouvez ouvrir directement à une page approximative où il pourrait se trouver. En fonction des mots présents sur cette page, il est possible de déterminer si la recherche doit se poursuivre avant ou après, éliminant ainsi un grand nombre de pages. Ce processus est ensuite répété jusqu'à localiser le mot recherché.
 
-Cette méthode est connue sous le nom de recherche dichotomique. Un autre exemple de cette approche est le jeu consistant à deviner un nombre compris entre 1 et 100. La meilleure stratégie consiste à diviser le champ des possibilités en deux parties égales, puis à éliminer l'une des deux moitiés. La structure utilisée pour la recherche dichotomique est un arbre binaire. Dans cette étape, les élèves découvriront comment ils l'emploient déjà.
+Cette méthode est connue sous le nom de recherche dichotomique. Un autre exemple de cette approche est le jeu consistant à deviner un nombre compris entre 1 et 100. La meilleure stratégie consiste à diviser le champ des possibilités en deux parties égales, puis à éliminer l'une des deux moitiés. La structure utilisée pour la recherche dichotomique est un arbre binaire. Dans cette phase, les élèves découvriront comment ils l'emploient déjà.
 
 ### Investigation par les élèves
 
@@ -114,7 +120,7 @@ L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où le
 
 ---
 
-## Étape 2 : Création d'arbres de décision pour la classification des véhicules
+## Phase 2 : Création d'arbres de décision pour la classification des véhicules
 
 ### Contexte de la séquence
 
@@ -126,15 +132,15 @@ Comprendre ce qu'est un arbre de décision. Apprendre à utiliser un arbre de d�
 
 ### Conceptualisation
 
-Une fois le concept d'arbre binaire maîtrisé, la structure de données créée et étudiée à l'étape 1 peut être enrichie et complexifiée pour aider les décideurs. Cette structure est appelée arbre de décision. Au lieu de stocker des nombres, chaque nœud est une question fermée. Chaque élève d'un nœud représente une réponse possible (généralement « oui » ou « non »). Les feuilles symbolisent le résultat du processus de décision.
+Une fois le concept d'arbre binaire maîtrisé, la structure de données créée et étudiée à la phase 1 peut être enrichie et complexifiée pour aider les décideurs. Cette structure est appelée arbre de décision. Au lieu de stocker des nombres, chaque nœud est une question fermée. Chaque élève d'un nœud représente une réponse possible (généralement « oui » ou « non »). Les feuilles symbolisent le résultat du processus de décision.
 
 Tout comme les arbres binaires, qui permettent d'éliminer rapidement de nombreux éléments d'une recherche, un arbre de décision évite les questions inutiles et accélère le processus de prise de décision.
 
-Dans cette étape du protocole, les élèves appliqueront leurs connaissances à la construction d'un arbre de décision plus complexe pour déterminer quel véhicule est autorisé ou non dans une ZBE. Dans les zones urbaines du monde entier, les zones à faibles émissions (ZBE) se multiplient, les villes s'efforçant de réduire la pollution atmosphérique et d'améliorer la santé publique. Ces zones restreignent l'accès aux véhicules en fonction de leurs niveaux d'émissions, garantissant ainsi que seuls ceux qui respectent certaines normes environnementales peuvent y entrer. Comprendre les critères d'entrée des véhicules est crucial pour les urbanistes et les propriétaires de véhicules. Comment utiliser un arbre de décision pour déterminer si un véhicule est autorisé ou non à entrer dans une ZBE ?
+Dans cette phase du protocole, les élèves appliqueront leurs connaissances à la construction d'un arbre de décision plus complexe pour déterminer quel véhicule est autorisé ou non dans une ZBE. Dans les zones urbaines du monde entier, les zones à faibles émissions (ZBE) se multiplient, les villes s'efforçant de réduire la pollution atmosphérique et d'améliorer la santé publique. Ces zones restreignent l'accès aux véhicules en fonction de leurs niveaux d'émissions, garantissant ainsi que seuls ceux qui respectent certaines normes environnementales peuvent y entrer. Comprendre les critères d'entrée des véhicules est crucial pour les urbanistes et les propriétaires de véhicules. Comment utiliser un arbre de décision pour déterminer si un véhicule est autorisé ou non à entrer dans une ZBE ?
 
 ### Investigation par les élèves
 
-Au cours de cette étape, les élèves devront se familiariser avec un jeu de données, représenté par le jeu de cartes de véhicules imprimables en annexe. Description des éléments visuels des cartes :
+Au cours de cette phase, les élèves devront se familiariser avec un jeu de données, représenté par le jeu de cartes de véhicules. Description des éléments visuels des cartes :
 
 - **Icône d'haltère / fond vert** : carte d'entraînement
 - **Icône de fiole / fond rouge** : carte de test
@@ -172,11 +178,11 @@ Enfin, les groupes compareront leurs arbres et leurs performances. Il peut être
 
 ---
 
-## Étape 3 : Construction d'un arbre de décision guidé par algorithme
+## Phase 3 : Construction d'un arbre de décision guidé par algorithme
 
 ### Contexte de la séquence
 
-À l'étape précédente, les élèves ont créé un arbre de décision. Pour ce faire, ils ont choisi la condition de séparation à utiliser pour chaque branche. Cependant, un ordinateur ne peut prendre de décisions arbitraires et doit s'appuyer sur des outils statistiques et mathématiques pour analyser les données. Les élèves créeront donc un nouvel arbre de décision, mais cette fois en utilisant une méthode permettant de déterminer la meilleure condition de séparation pour chaque branche.
+À la phase précédente, les élèves ont créé un arbre de décision. Pour ce faire, ils ont choisi la condition de séparation à utiliser pour chaque branche. Cependant, un ordinateur ne peut prendre de décisions arbitraires et doit s'appuyer sur des outils statistiques et mathématiques pour analyser les données. Les élèves créeront donc un nouvel arbre de décision, mais cette fois en utilisant une méthode permettant de déterminer la meilleure condition de séparation pour chaque branche.
 
 ### Objectifs d'apprentissage
 
@@ -184,7 +190,7 @@ Comprendre comment un ordinateur construit un arbre de décision efficace. Ident
 
 ### Conceptualisation
 
-À l'étape précédente, les participants ont exploré la définition de critères de séparation permettant de déterminer, à chaque étape, si un véhicule est autorisé ou non à entrer dans la ZBE. Selon les groupes, les questions posées et les approches adoptées étaient différentes. Bien que le résultat final puisse être le même, il est essentiel de se demander s'il existe une solution (ou un algorithme) capable d'identifier les meilleurs critères pour prendre une décision de manière fiable et rapide.
+À la phase précédente, les participants ont exploré la définition de critères de séparation permettant de déterminer, à chaque étape, si un véhicule est autorisé ou non à entrer dans la ZBE. Selon les groupes, les questions posées et les approches adoptées étaient différentes. Bien que le résultat final puisse être le même, il est essentiel de se demander s'il existe une solution (ou un algorithme) capable d'identifier les meilleurs critères pour prendre une décision de manière fiable et rapide.
 
 ### Investigation par les élèves
 
@@ -211,7 +217,7 @@ Pour les guider, les élèves disposeront du tableau suivant, qui peut être pla
 3. **Identifier la valeur maximale.** À partir de la ou des lignes où MIN ABSOLU ? est coché, identifier la ou les lignes avec la valeur la plus élevée de A ou NA, et cocher la case MAX ABSOLU ? en conséquence.
 4. **Choisir la condition optimale.** La condition de séparation optimale est celle correspondant à la ligne dont les cases sont cochées à la fois dans MIN ABSOLU ? et MAX ABSOLU ?.
 
-Le reste du processus est identique à l'étape précédente. Le résultat sera l'organigramme disponible ici : [bit.ly/binarytreeiafrsvg](https://bit.ly/binarytreeiafrsvg) (format Mermaid : [bit.ly/binarytreeiafrsource](https://bit.ly/binarytreeiafrsource)). Si les élèves exécutent correctement l'algorithme, ils devraient tous obtenir le même arbre de décision. Lors des tests, ils devraient également obtenir les meilleures performances.
+Le reste du processus est identique à la phase précédente. Le résultat sera l'organigramme disponible ici : [bit.ly/binarytreeiafrsvg](https://bit.ly/binarytreeiafrsvg) (format Mermaid : [bit.ly/binarytreeiafrsource](https://bit.ly/binarytreeiafrsource)). Si les élèves exécutent correctement l'algorithme, ils devraient tous obtenir le même arbre de décision. Lors des tests, ils devraient également obtenir les meilleures performances.
 
 ### Restitution et réflexion
 
@@ -221,11 +227,11 @@ Le reste du processus est identique à l'étape précédente. Le résultat sera 
 
 ---
 
-## Étape 4 : Explorer les limites des algorithmes d'IA
+## Phase 4 : Explorer les limites des algorithmes d'IA
 
 ### Contexte de la séquence
 
-Les élèves ont appris à construire et à utiliser un arbre de décision. Cette étape vise à montrer certaines limites inhérentes à l'apprentissage automatique.
+Les élèves ont appris à construire et à utiliser un arbre de décision. Cette phase vise à montrer certaines limites inhérentes à l'apprentissage automatique.
 
 ### Objectifs d'apprentissage
 
@@ -233,13 +239,13 @@ Découvrir certaines des limites de ces algorithmes.
 
 ### Conceptualisation
 
-Dans le cadre de ce protocole, les arbres de décision apparaissent comme un outil particulièrement adapté, offrant la possibilité d'obtenir rapidement une réponse. Cependant, comme toute méthode de représentation, ils présentent des limites et un champ d'application au-delà duquel leur efficacité diminue. À cette étape, les élèves analysent et explorent les limites inhérentes à cette structure. Ils examinent également la qualité des données utilisées pour construire l'arbre et l'impact que ces données peuvent avoir sur la précision et la fiabilité des prédictions produites par cette structure.
+Dans le cadre de ce protocole, les arbres de décision apparaissent comme un outil particulièrement adapté, offrant la possibilité d'obtenir rapidement une réponse. Cependant, comme toute méthode de représentation, ils présentent des limites et un champ d'application au-delà duquel leur efficacité diminue. À cette phase, les élèves analysent et explorent les limites inhérentes à cette structure. Ils examinent également la qualité des données utilisées pour construire l'arbre et l'impact que ces données peuvent avoir sur la précision et la fiabilité des prédictions produites par cette structure.
 
 ### Investigation par les élèves
 
-Les élèves découvriront d'abord la principale limitation applicable à tous les algorithmes d'apprentissage automatique : la taille du jeu de données d'entraînement. Pour ce faire, ils créeront un nouvel arbre de décision, mais cette fois en supprimant la moitié des cartes d'entraînement, soit six cartes. À l'exception de quelques groupes potentiellement chanceux, les élèves devraient obtenir un arbre moins performant que celui créé à l'étape 3. L'enseignant demandera ensuite aux élèves pourquoi l'arbre obtenu est moins performant, afin de leur faire comprendre qu'en supprimant des données, l'algorithme manque d'exemples et de cas nécessaires pour faire des choix pertinents.
+Les élèves découvriront d'abord la principale limitation applicable à tous les algorithmes d'apprentissage automatique : la taille du jeu de données d'entraînement. Pour ce faire, ils créeront un nouvel arbre de décision, mais cette fois en supprimant la moitié des cartes d'entraînement, soit six cartes. À l'exception de quelques groupes potentiellement chanceux, les élèves devraient obtenir un arbre moins performant que celui créé à la phase 3. L'enseignant demandera ensuite aux élèves pourquoi l'arbre obtenu est moins performant, afin de leur faire comprendre qu'en supprimant des données, l'algorithme manque d'exemples et de cas nécessaires pour faire des choix pertinents.
 
-Ensuite, les élèves construiront un arbre de décision final, cette fois en intervertissant les cartes d'entraînement et les données de test. Ils devraient alors tous obtenir le même arbre qui génère des erreurs de prédiction. Comme pour l'arbre précédent, l'enseignant leur demandera pourquoi l'arbre est moins performant que celui de l'étape 3. Ici, contrairement à l'arbre précédent, il y a encore plus de données d'entraînement que de cartes de test ! Les élèves doivent comprendre que la quantité de données n'est pas tout. En effet, si les données d'entraînement ne sont pas représentatives de toutes les données possibles, l'algorithme d'entraînement pourrait accorder plus ou moins d'importance à certains critères que ce n'est réellement le cas pour toutes les données possibles. Pour cette activité, les données d'entraînement ont été soigneusement sélectionnées afin de maximiser les performances du modèle, mais il est assez rare qu'un modèle fasse des prédictions correctes dans 100 % des cas. Il est possible d'approcher cette valeur, mais très difficile, voire impossible, de l'atteindre.
+Ensuite, les élèves construiront un arbre de décision final, cette fois en intervertissant les cartes d'entraînement et les données de test. Ils devraient alors tous obtenir le même arbre qui génère des erreurs de prédiction. Comme pour l'arbre précédent, l'enseignant leur demandera pourquoi l'arbre est moins performant que celui de la phase 3. Ici, contrairement à l'arbre précédent, il y a encore plus de données d'entraînement que de cartes de test ! Les élèves doivent comprendre que la quantité de données n'est pas tout. En effet, si les données d'entraînement ne sont pas représentatives de toutes les données possibles, l'algorithme d'entraînement pourrait accorder plus ou moins d'importance à certains critères que ce n'est réellement le cas pour toutes les données possibles. Pour cette activité, les données d'entraînement ont été soigneusement sélectionnées afin de maximiser les performances du modèle, mais il est assez rare qu'un modèle fasse des prédictions correctes dans 100 % des cas. Il est possible d'approcher cette valeur, mais très difficile, voire impossible, de l'atteindre.
 
 ### Restitution et réflexion
 
@@ -261,12 +267,6 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 
 - [Mermaid](https://mermaid.live) — Outil en ligne permettant de créer des diagrammes et des schémas à l'aide d'une syntaxe textuelle simple. Particulièrement utile aux développeurs et aux chefs de projet qui souhaitent présenter visuellement des processus complexes de manière claire et efficace.
 - [Chapter 3.2 BINARY SEARCH TREES](https://algs4.cs.princeton.edu/lectures/keynote/32BinarySearchTrees.pdf), Algorithme par Robert Sedgewick, Kevin Wayne.
-
----
-
-## Annexes
-
-> Ressources imprimables jointes : jeu de cartes « Numéro », jeu de cartes « Dataset de véhicules », feuilles d'algorithmes (tableau de condition de séparation à remplir).
 
 ---
 

@@ -42,7 +42,7 @@
 ### Structure des fiches (règles SteamCity)
 - **Introduction** (H2) contient : texte d'intro, Structure du protocole (H3), tableau durée/matériel sans titre "Pour bien démarrer", Glossaire (H3) en liste à puces
 - **Pas de titre "## Protocole"** : les phases sont directement H2
-- **Phases** : `## Phase 1 : compréhension...` (minuscule après `:`)
+- **Phases** : `## Phase 1 : Compréhension...` (majuscule après `:`)
 - **Sous-sections des phases** : Conceptualisation, Investigation, Analyse en H3
 - **Fiches programmation** : extraites dans `steamcity/programmation/` avec lien dans la fiche principale
 
@@ -78,7 +78,7 @@
 - Justifié (CSS global)
 - Titres numérotés de manière homogène (Partie 1, 2, 3...)
 - Pas de bold dans les headings
-- `--` dans les titres → ` : ` + minuscule après
+- `--` dans les titres → ` : ` + majuscule après (règle wiki globale)
 - Listes avec `: ` → premier élément en gras : `- **Label** : description`
 - Footer Erasmus+ en bas de chaque fiche
 - Gras : "Contexte de la séquence" et "Objectifs d'apprentissage"

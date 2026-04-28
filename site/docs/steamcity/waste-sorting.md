@@ -54,14 +54,16 @@ Le protocole combine la compréhension théorique avec l'expérience pratique, p
 
 ### Structure du protocole
 
-Dans ce protocole, les élèves développeront un système de tri des déchets basé sur l'IA et utilisant la vision par ordinateur. Par l'expérimentation et l'apprentissage, ils créeront un programme capable d'identifier différents types de matériaux recyclables à l'aide d'une caméra. Le projet se déroule en quatre étapes : collecte de données, apprentissage du modèle, tests et mise en œuvre. Au cours de ces étapes, les élèves collecteront et organiseront des images de déchets, entraîneront un modèle d'IA à reconnaître différents matériaux, testeront sa précision et enfin le connecteront à du matériel physique. Cette progression leur permettra de comprendre les fondements théoriques et les applications pratiques des systèmes d'IA. Cette approche pratique aide les élèves à développer des connaissances clés dans deux domaines cruciaux :
+Dans ce protocole, les élèves développeront un système de tri des déchets basé sur l'IA et utilisant la vision par ordinateur. Par l'expérimentation et l'apprentissage, ils créeront un programme capable d'identifier différents types de matériaux recyclables à l'aide d'une caméra. Le projet se déroule en quatre phases : collecte de données, apprentissage du modèle, tests et mise en œuvre. Au cours de ces phases, les élèves collecteront et organiseront des images de déchets, entraîneront un modèle d'IA à reconnaître différents matériaux, testeront sa précision et enfin le connecteront à du matériel physique. Cette progression leur permettra de comprendre les fondements théoriques et les applications pratiques des systèmes d'IA. Cette approche pratique aide les élèves à développer des connaissances clés dans deux domaines cruciaux :
 
 - Comprendre que les systèmes d'IA utilisent des statistiques et des algorithmes pour traiter (analyser) les données et générer des résultats (par exemple, prédire quelle vidéo l'utilisateur pourrait aimer regarder).
 - Savoir que l'IA désigne aujourd'hui généralement l'apprentissage automatique, qui n'en est qu'un exemple. Ce qui distingue l'apprentissage automatique des autres types d'IA (par exemple, l'IA basée sur des règles et les réseaux bayésiens) est qu'il nécessite d'énormes quantités de données.
 
-- **Durée** : 180 minutes ou 3 leçons (une première pour l'étape 1 et la première activité de l'étape 2, une deuxième pour les dernières activités de l'étape 2 et l'étape 3, une troisième pour l'étape 4).
-- **Niveau de difficulté** : Facile (du primaire au lycée).
-- **Matériel nécessaire** : Ordinateur avec webcam (ou caméra HUE HD) ; Micro:bit ; Grove Shield pour micro:bit ; Servomoteur.
+| Durée | Niveau | Matériel |
+|---|---|---|
+| 180 minutes ou 3 séances | Facile (du primaire au lycée) | Ordinateur + webcam (ou caméra HUE HD), micro:bit, Grove Shield, servomoteur |
+
+Découpage suggéré sur 3 séances : la première couvre la phase 1 et la première activité de la phase 2 ; la deuxième les dernières activités de la phase 2 et la phase 3 ; la troisième la phase 4.
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -91,11 +93,11 @@ Dans ce protocole, les élèves développeront un système de tri des déchets b
 
 ---
 
-## Étape 1 : Création d'une base de données d'images pour la classification des déchets
+## Phase 1 : Création d'une base de données d'images pour la classification des déchets
 
 ### Contexte de la séquence
 
-Cette première étape présente aux élèves les concepts clés de la reconnaissance d'images par IA, notamment la collecte de données, l'entraînement des modèles et la prise en compte des biais. Elle peut être réalisée en classe ou à domicile. Les élèves créeront une base de données adaptée à l'entraînement de l'intelligence artificielle.
+Cette première phase présente aux élèves les concepts clés de la reconnaissance d'images par IA, notamment la collecte de données, l'entraînement des modèles et la prise en compte des biais. Elle peut être réalisée en classe ou à domicile. Les élèves créeront une base de données adaptée à l'entraînement de l'intelligence artificielle.
 
 ### Objectifs d'apprentissage
 
@@ -142,9 +144,7 @@ Pour un ordinateur, une image est constituée d'un ensemble de petits carrés ap
 
 ### Investigation par les élèves
 
-L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et d'une caméra. Elle peut être réalisée en groupe ou avec toute la classe.
-
-- **Durée** : 20 minutes.
+L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience et d'une caméra. Elle peut être réalisée en groupe ou avec toute la classe. **Durée** : 20 minutes.
 
 **Consignes aux élèves** : La première étape consiste à créer une base de données photographiques des déchets que vous souhaitez faire trier par les élèves. Deux options s'offrent à vous :
 
@@ -167,21 +167,21 @@ Après avoir exploré les fondamentaux de l'IA, les élèves peuvent désormais 
 
 Pour renforcer cet apprentissage, les enseignants peuvent guider les élèves à travers trois questions clés :
 
-1. Comment l'IA interprète-t-elle les images capturées ? Cette question aide les élèves à comprendre les aspects techniques de la vision par ordinateur, en comparant le traitement des pixels et des motifs par les machines à la perception globale des images par les humains. Elle démontre que la « vision » de l'IA est fondamentalement différente de la vision humaine, malgré des résultats similaires.
-2. Quelles sont les similitudes et les différences entre l'IA et la vision humaine ? En explorant cette question, les élèves peuvent comprendre comment l'IA utilise la reconnaissance de formes et l'analyse statistique pour « voir », tandis que les humains s'appuient sur des réseaux neuronaux complexes développés au fil de l'évolution. Cette comparaison permet de démystifier l'IA tout en soulignant ses capacités et ses limites uniques.
-3. En quoi l'approche de l'IA en matière d'apprentissage diffère-t-elle de l'intelligence humaine ? Cette dernière question encourage les élèves à réfléchir de manière critique à la nature même de l'intelligence. Ils peuvent explorer comment l'IA apprend grâce à des données structurées et des algorithmes, tandis que l'apprentissage humain fait appel à la créativité, à l'intuition et au raisonnement complexe – des capacités que les systèmes d'IA actuels ne peuvent pas véritablement reproduire.
+1. **Comment l'IA interprète-t-elle les images capturées ?** Cette question aide les élèves à comprendre les aspects techniques de la vision par ordinateur, en comparant le traitement des pixels et des motifs par les machines à la perception globale des images par les humains. Elle démontre que la « vision » de l'IA est fondamentalement différente de la vision humaine, malgré des résultats similaires.
+2. **Quelles sont les similitudes et les différences entre l'IA et la vision humaine ?** En explorant cette question, les élèves peuvent comprendre comment l'IA utilise la reconnaissance de formes et l'analyse statistique pour « voir », tandis que les humains s'appuient sur des réseaux neuronaux complexes développés au fil de l'évolution. Cette comparaison permet de démystifier l'IA tout en soulignant ses capacités et ses limites uniques.
+3. **En quoi l'approche de l'IA en matière d'apprentissage diffère-t-elle de l'intelligence humaine ?** Cette dernière question encourage les élèves à réfléchir de manière critique à la nature même de l'intelligence. Ils peuvent explorer comment l'IA apprend grâce à des données structurées et des algorithmes, tandis que l'apprentissage humain fait appel à la créativité, à l'intuition et au raisonnement complexe – des capacités que les systèmes d'IA actuels ne peuvent pas véritablement reproduire.
 
 ---
 
-## Étape 2 : Création d'un modèle de reconnaissance des déchets
+## Phase 2 : Création d'un modèle de reconnaissance des déchets
 
 ### Contexte de la séquence
 
-Cette deuxième étape permet aux élèves d'apprendre à entraîner une intelligence artificielle à partir des données collectées. L'enseignant guide les élèves en classe à travers l'interface Vittascience AI.
+Cette deuxième phase permet aux élèves d'apprendre à entraîner une intelligence artificielle à partir des données collectées. L'enseignant guide les élèves en classe à travers l'interface Vittascience AI.
 
 ### Objectifs d'apprentissage
 
-L'objectif de cette étape est de familiariser les élèves avec la formation d'une intelligence artificielle, sa création et une meilleure compréhension de son apprentissage.
+L'objectif de cette phase est de familiariser les élèves avec la formation d'une intelligence artificielle, sa création et une meilleure compréhension de son apprentissage.
 
 ### Conceptualisation
 
@@ -256,9 +256,19 @@ Cette activité pratique vise à combler le fossé entre les concepts d'IA et le
 
 L'activité peut être réalisée en groupe ou avec toute la classe, favorisant à la fois la compréhension technique et les compétences de travail en équipe tout en garantissant une expérience pratique à tous les participants.
 
-**Consignes aux élèves** : Créez un programme sur Adacraft pour que le personnage Vittabot dise la classe détectée. Initialisez le modèle. Lancez la détection. Choisissez de lancer une détection sur un fichier disponible sur Internet via une URL ou directement via la webcam. Des blocs utiles sont disponibles dans « IA Image ». Affichez ensuite un texte sur la matrice LED du micro:bit en fonction de la détection.
+**Consignes aux élèves** : Créez un programme sur Adacraft pour que le personnage Vittabot dise la classe détectée.
 
-La réponse de détection est enregistrée dans le bloc : « meilleure classe de détection ». L'ordre d'étiquetage des jeux de données lors de l'entraînement est important et sera disponible dans le bloc « Nom de la classe numéro (1) ». Soyez vigilant et mémorisez l'ordre des noms de classes attribués lors de l'entraînement IA. Il est important de noter que le tri des déchets varie d'un pays à l'autre, voire localement. Par exemple, en Allemagne et en Suisse, les poubelles de tri sont de différentes couleurs (jaune, bleu et rouge), chaque couleur correspondant à un type de déchet spécifique. Il est donc conseillé de vérifier les consignes de tri en vigueur dans votre région avant de procéder à l'activité proposée. Pour aller plus loin, vous pouvez imaginer une flèche commandée par un servomoteur qui indiquerait quelle poubelle utiliser en fonction des déchets captés par la webcam.
+1. Initialisez le modèle.
+2. Lancez la détection sur un fichier disponible sur Internet via une URL ou directement via la webcam. Des blocs utiles sont disponibles dans « IA Image ».
+3. Affichez ensuite un texte sur la matrice LED du micro:bit en fonction de la détection.
+
+La réponse de détection est enregistrée dans le bloc « meilleure classe de détection ». L'ordre d'étiquetage des jeux de données lors de l'entraînement est important et sera disponible dans le bloc « Nom de la classe numéro (1) ». Soyez vigilant et mémorisez l'ordre des noms de classes attribués lors de l'entraînement IA.
+
+:::info[Notes pour l'enseignant·e]
+Le tri des déchets varie d'un pays à l'autre, voire localement. Par exemple, en Allemagne et en Suisse, les poubelles de tri sont de différentes couleurs (jaune, bleu et rouge), chaque couleur correspondant à un type de déchet spécifique. Il est donc conseillé de vérifier les consignes de tri en vigueur dans votre région avant de procéder à l'activité proposée.
+:::
+
+Pour aller plus loin, vous pouvez imaginer une flèche commandée par un servomoteur qui indiquerait quelle poubelle utiliser en fonction des déchets captés par la webcam.
 
 ### Restitution et réflexion
 
@@ -268,15 +278,15 @@ La réponse de détection est enregistrée dans le bloc : « meilleure classe de
 
 Grâce à ces activités, les élèves ont développé des compétences analytiques critiques en examinant chaque phase de la formation en IA. Explorons les principaux objectifs d'apprentissage :
 
-1. Analyse de la collecte de données : Les élèves apprennent à évaluer de manière critique les données collectées et sélectionnées pour la formation en IA. Cela les aide à comprendre l'impact direct de la qualité et de la diversité des données initiales sur les performances de l'IA. En remettant en question leurs méthodes de collecte de données, les élèves prennent conscience des biais d'échantillonnage potentiels.
-2. Évaluation du processus d'apprentissage : Les élèves examinent l'impact de leurs choix en matière de données d'apprentissage sur le processus d'apprentissage de l'IA. Cela leur permet de mieux comprendre comment les systèmes d'IA apprennent des modèles et réalisent des prédictions, tout en soulignant l'importance de disposer d'ensembles de données d'apprentissage représentatifs.
-3. Interprétation des résultats : En analysant les résultats de l'IA, les élèves apprennent à identifier et à corriger les biais potentiels. Cela développe leur esprit critique et les aide à comprendre le lien entre la qualité des données d'entrée et l'exactitude des résultats.
+1. **Analyse de la collecte de données** : les élèves apprennent à évaluer de manière critique les données collectées et sélectionnées pour la formation en IA. Cela les aide à comprendre l'impact direct de la qualité et de la diversité des données initiales sur les performances de l'IA. En remettant en question leurs méthodes de collecte de données, les élèves prennent conscience des biais d'échantillonnage potentiels.
+2. **Évaluation du processus d'apprentissage** : les élèves examinent l'impact de leurs choix en matière de données d'apprentissage sur le processus d'apprentissage de l'IA. Cela leur permet de mieux comprendre comment les systèmes d'IA apprennent des modèles et réalisent des prédictions, tout en soulignant l'importance de disposer d'ensembles de données d'apprentissage représentatifs.
+3. **Interprétation des résultats** : en analysant les résultats de l'IA, les élèves apprennent à identifier et à corriger les biais potentiels. Cela développe leur esprit critique et les aide à comprendre le lien entre la qualité des données d'entrée et l'exactitude des résultats.
 
-L'analogie entre l'apprentissage de l'IA et le développement du cerveau humain s'avère particulièrement pertinente. Tout comme un enfant apprend en étant exposé à diverses expériences, un système d'IA a besoin de données diversifiées et de qualité pour développer des capacités de reconnaissance précises. Ce parallèle aide les élèves à saisir le potentiel et les limites des systèmes d'IA, les préparant ainsi à des concepts plus avancés lors de l'étape suivante.
+L'analogie entre l'apprentissage de l'IA et le développement du cerveau humain s'avère particulièrement pertinente. Tout comme un enfant apprend en étant exposé à diverses expériences, un système d'IA a besoin de données diversifiées et de qualité pour développer des capacités de reconnaissance précises. Ce parallèle aide les élèves à saisir le potentiel et les limites des systèmes d'IA, les préparant ainsi à des concepts plus avancés lors de la phase suivante.
 
 ---
 
-## Étape 3 : Analyser les données et en tirer des enseignements
+## Phase 3 : Analyser les données et en tirer des enseignements
 
 ### Contexte de la séquence
 
@@ -308,9 +318,23 @@ L'activité peut être réalisée en petits groupes ou sous forme de discussion 
 
 **Consignes aux élèves** : Observez les différentes interactions entre les neurones des différentes couches lors d'un test avec une image d'un fichier ou une capture d'écran via la caméra.
 
-1. Cliquez sur le bouton suivant, « Afficher le réseau neuronal ».
+1. Cliquez sur le bouton « Afficher le réseau neuronal ».
 2. Demandez aux élèves « que voyez-vous ? »
-3. En fonction de leurs réponses, fournissez des explications supplémentaires : La « Vue simplifiée » présente le réseau neuronal de manière schématique, chaque forme représentant une couche, et la taille de ces couches évoluant. Au début, les images sont grandes et peu nombreuses, puis elles deviennent petites et très nombreuses. Cliquez sur « Vue détaillée ». Cette vue vous permet de visualiser tous les neurones du réseau : il y en a plus d'un million ! La première couche consiste à appliquer un filtre de couleur rouge, bleu et vert. Ce filtre ne conserve que les valeurs rouge, verte ou bleue des pixels de l'image test. Vous pouvez naviguer dans le réseau neuronal en zoomant avec la souris ou en utilisant les boutons en bas à droite. En cliquant sur le bouton d'information « i », vous pouvez afficher la taille et le nombre de neurones de chaque couche. En survolant les neurones, vous pouvez visualiser les liens avec la couche précédente, qui se figent en cliquant sur le neurone. Le bouton « Ouvrir les informations » affiche le nombre d'images et leur taille en pixels dans chaque couche. En cliquant sur les pixels, vous pouvez obtenir des explications sur les calculs effectués par l'IA sur les couches. Dans les couches de convolution, un carré de 9 pixels (3x3) est balayé sur les images filtrées. Plusieurs couches se succèdent pour identifier des « motifs », c'est-à-dire les caractéristiques de l'objet à identifier dans l'image. Les neurones sont activés si certaines caractéristiques sont identifiées (alignement des pixels donnant naissance à des formes, etc.) en corrélation avec les données d'apprentissage. L'information est ensuite propagée à la couche de sortie, qui fournit une prédiction.
+3. En fonction de leurs réponses, fournissez des explications supplémentaires.
+
+**Vue simplifiée** : présente le réseau neuronal de manière schématique, chaque forme représentant une couche, et la taille de ces couches évoluant. Au début, les images sont grandes et peu nombreuses, puis elles deviennent petites et très nombreuses.
+
+**Vue détaillée** : permet de visualiser tous les neurones du réseau (plus d'un million). La première couche applique un filtre de couleur rouge, bleu et vert : il ne conserve que les valeurs R, V ou B des pixels de l'image test.
+
+**Naviguer dans le réseau** :
+
+- Zoomer avec la souris ou via les boutons en bas à droite.
+- Bouton d'information « i » : affiche la taille et le nombre de neurones de chaque couche.
+- Survol d'un neurone : visualise les liens avec la couche précédente (figés en cliquant).
+- Bouton « Ouvrir les informations » : affiche le nombre d'images et leur taille en pixels par couche.
+- Clic sur un pixel : explication des calculs effectués par l'IA sur les couches.
+
+**Lecture des couches** : dans les couches de convolution, un carré de 9 pixels (3x3) est balayé sur les images filtrées. Plusieurs couches se succèdent pour identifier des « motifs », c'est-à-dire les caractéristiques de l'objet. Les neurones sont activés si certaines caractéristiques sont identifiées (alignement de pixels donnant naissance à des formes, etc.) en corrélation avec les données d'apprentissage. L'information est ensuite propagée à la couche de sortie, qui fournit une prédiction.
 
 ### Restitution et réflexion
 
@@ -320,21 +344,21 @@ L'activité peut être réalisée en petits groupes ou sous forme de discussion 
 
 Grâce à cette expérience pratique, les élèves ont acquis une compréhension fondamentale de l'apprentissage et du fonctionnement des systèmes d'IA. Pour approfondir leur compréhension, l'enseignant peut mener une discussion réflexive autour des questions clés suivantes :
 
-1. « Qu'avez-vous appris ? » - Cette question encourage les élèves à articuler leur compréhension du processus d'apprentissage de l'IA, les aidant à consolider leurs connaissances et à identifier les lacunes dans leur compréhension.
-2. « À quel point l'IA est-elle intelligente ? » – Cette question de pensée critique incite les élèves à réfléchir à la nature de l'intelligence artificielle par rapport à l'intelligence humaine, ce qui conduit à des discussions sur les capacités et les limites de l'IA et les aide à développer une compréhension plus nuancée de ce que signifie « intelligence » dans différents contextes.
-3. « Comment les données d'entrée affectent-elles les résultats de l'IA ? » - Cette question analytique aide les élèves à comprendre la relation cruciale entre la qualité des données de formation et les performances de l'IA, en soulignant l'importance d'ensembles de données diversifiés et impartiaux dans le développement de systèmes d'IA efficaces.
+1. **« Qu'avez-vous appris ? »** Cette question encourage les élèves à articuler leur compréhension du processus d'apprentissage de l'IA, les aidant à consolider leurs connaissances et à identifier les lacunes dans leur compréhension.
+2. **« À quel point l'IA est-elle intelligente ? »** Cette question de pensée critique incite les élèves à réfléchir à la nature de l'intelligence artificielle par rapport à l'intelligence humaine, ce qui conduit à des discussions sur les capacités et les limites de l'IA et les aide à développer une compréhension plus nuancée de ce que signifie « intelligence » dans différents contextes.
+3. **« Comment les données d'entrée affectent-elles les résultats de l'IA ? »** Cette question analytique aide les élèves à comprendre la relation cruciale entre la qualité des données de formation et les performances de l'IA, en soulignant l'importance d'ensembles de données diversifiés et impartiaux dans le développement de systèmes d'IA efficaces.
 
 ---
 
-## Étape 4 : Utiliser l'IA pour améliorer l'empreinte environnementale
+## Phase 4 : Utiliser l'IA pour améliorer l'empreinte environnementale
 
 ### Contexte de la séquence
 
-Cette dernière étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériel). Elle peut être réalisée en classe. Créez un programme qui exécute une action chaque fois que le modèle d'IA entraîné effectue une prédiction.
+Cette dernière phase permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériel). Elle peut être réalisée en classe. Créez un programme qui exécute une action chaque fois que le modèle d'IA entraîné effectue une prédiction.
 
 ### Objectifs d'apprentissage
 
-Cette étape vise à apprendre à utiliser l'intelligence artificielle en lien avec un besoin quotidien. Les élèves apprennent à reconnaître l'utilité de ces outils en améliorant leur empreinte environnementale et à reconnaître lorsqu'ils sont confrontés à l'un d'eux.
+Cette phase vise à apprendre à utiliser l'intelligence artificielle en lien avec un besoin quotidien. Les élèves apprennent à reconnaître l'utilité de ces outils en améliorant leur empreinte environnementale et à reconnaître lorsqu'ils sont confrontés à l'un d'eux.
 
 ### Conceptualisation
 
@@ -364,17 +388,20 @@ Cette activité pratique encourage les élèves à appliquer leurs connaissances
 
 L'activité est lancée par l'enseignant à l'aide de l'interface Vittascience et d'un microcontrôleur. Elle peut être réalisée en groupe.
 
-**Consignes aux élèves** : Pour cette activité, vous utiliserez le modèle d'IA créé aux étapes précédentes pour l'appliquer en conditions réelles. Suivez les étapes ci-dessous :
+**Consignes aux élèves** : Pour cette activité, vous utiliserez le modèle d'IA créé aux phases précédentes pour l'appliquer en conditions réelles. Suivez les étapes ci-dessous :
 
-1. Rassemblez le matériel : un sac poubelle, des gants et un téléphone.
-2. Divisez les élèves en petits groupes et attribuez-leur une zone à explorer (terrain d'école, bâtiment ou place publique).
-3. Recueillir des informations : a. Un élève ramasse tous les déchets trouvés. b. Un élève utilise le téléphone avec le modèle d'IA créé en classe pour vérifier le tri correct des déchets pour chaque article collecté. c. Un élève enregistre les données : types et quantités de poubelles rencontrées (déchets généraux, papier, verre, etc.), types spécifiques de déchets collectés (articles en papier, déchets alimentaires, etc.) et toute erreur de détection de l'IA.
+1. **Rassemblez le matériel** : un sac poubelle, des gants et un téléphone.
+2. **Divisez les élèves en petits groupes** et attribuez-leur une zone à explorer (terrain d'école, bâtiment ou place publique).
+3. **Recueillez les informations** en répartissant les rôles :
+   - Un élève ramasse tous les déchets trouvés.
+   - Un élève utilise le téléphone avec le modèle d'IA créé en classe pour vérifier le tri correct des déchets pour chaque article collecté.
+   - Un élève enregistre les données : types et quantités de poubelles rencontrées (déchets généraux, papier, verre, etc.), types spécifiques de déchets collectés (articles en papier, déchets alimentaires, etc.) et toute erreur de détection de l'IA.
 
 #### Activité 2 : Défi de classification intelligente des déchets (25 minutes)
 
 Cette activité finale vise à renforcer la compréhension des applications de l'IA par les élèves tout en développant leur conscience environnementale et leurs compétences collaboratives. Elle les aide à comprendre le fonctionnement de l'IA en situation réelle tout en les sensibilisant à l'environnement. L'enseignant guide les groupes d'élèves à travers des exercices pratiques qui rendent l'apprentissage à la fois ludique et enrichissant.
 
-**Instructions pour les élèves** : Pour cette activité, vous utiliserez le modèle d'IA que vous avez créé dans les étapes précédentes pour l'appliquer dans des conditions réelles et les résultats de l'activité 1. De retour en classe, l'enseignant demande aux élèves de réfléchir aux questions suivantes :
+**Consignes aux élèves** : Pour cette activité, vous utiliserez le modèle d'IA que vous avez créé dans les phases précédentes pour l'appliquer dans des conditions réelles, ainsi que les résultats de l'activité 1. De retour en classe, l'enseignant demande aux élèves de réfléchir aux questions suivantes :
 
 - L'IA peut-elle trier tous les déchets ?
 - Que faudrait-il pour les trier tous ?
@@ -388,11 +415,9 @@ Cette activité finale vise à renforcer la compréhension des applications de l
 
 Pour conclure ce protocole, engagez les élèves dans une discussion réflexive finale synthétisant leur expérience d'apprentissage. Voici les principaux points de discussion à explorer :
 
-« Comment votre compréhension de l'IA a-t-elle évolué ? » Cette question permet aux élèves de réfléchir à leur parcours d'apprentissage, depuis leurs perceptions initiales jusqu'à leur compréhension actuelle des capacités et des limites de l'IA dans les applications concrètes.
-
-« Quel rôle l'IA peut-elle jouer dans la durabilité environnementale ? » Grâce à cette discussion, les élèves pourront relier leur expérience pratique à des défis environnementaux plus vastes et comprendre comment les outils d'IA peuvent contribuer à résoudre des problèmes concrets.
-
-« Quelles sont les applications pratiques et les limites de l'IA au quotidien ? » Cette réflexion aide les élèves à développer une perspective équilibrée sur l'IA, en reconnaissant à la fois son potentiel et ses contraintes face aux défis du quotidien.
+- **« Comment votre compréhension de l'IA a-t-elle évolué ? »** Cette question permet aux élèves de réfléchir à leur parcours d'apprentissage, depuis leurs perceptions initiales jusqu'à leur compréhension actuelle des capacités et des limites de l'IA dans les applications concrètes.
+- **« Quel rôle l'IA peut-elle jouer dans la durabilité environnementale ? »** Grâce à cette discussion, les élèves pourront relier leur expérience pratique à des défis environnementaux plus vastes et comprendre comment les outils d'IA peuvent contribuer à résoudre des problèmes concrets.
+- **« Quelles sont les applications pratiques et les limites de l'IA au quotidien ? »** Cette réflexion aide les élèves à développer une perspective équilibrée sur l'IA, en reconnaissant à la fois son potentiel et ses contraintes face aux défis du quotidien.
 
 Le protocole démontre comment l'IA peut être un puissant outil d'amélioration environnementale lorsqu'elle est correctement comprise et appliquée. Les élèves repartent avec une expérience pratique de la mise en œuvre de l'IA, une compréhension approfondie de la responsabilité environnementale et un esprit critique sur le rôle de la technologie dans la résolution de problèmes concrets.
 
@@ -412,27 +437,26 @@ Pour initier les élèves aux carrières en science des données, ils peuvent ex
 
 ## Bibliographie
 
-L'IA dans le tri et le recyclage des déchets :
-- **IA et tri des déchets** : les efforts pionniers de ZenRobotics. Source: ZenRobotics URL: https://zenrobotics.com/ Pionnier dans l'utilisation de bras robotisés alimentés par l'IA pour trier les déchets de construction, jetant les bases de l'IA dans la gestion des déchets.
-- **Apprentissage automatique avancé pour le recyclage** : la vision d'AMP Robotics. Source: AMP Robotics URL: https://www.amprobotics.com/ Développer des systèmes d'IA qui trient les matières recyclables à grande vitesse, dépassant de loin les capacités humaines.
-- **IA et vision par ordinateur dans le recyclage** : la percée de Recycleye. Source: Recycleye URL: https://recycleye.com/ Des systèmes basés sur l'IA capables de reconnaître plus de 500 catégories de déchets avec une précision quasi parfaite, faisant progresser l'avenir du recyclage.
+**L'IA dans le tri et le recyclage des déchets**
 
-Fondamentaux de l'IA et apprentissage automatique :
-- **Machine Learning Mastery URL**: https://machinelearningmastery.com/ Un site Web populaire pour les didacticiels pratiques d'apprentissage automatique.
-- **Towards Data Science URL**: https://towardsdatascience.com/ Une publication en ligne contenant de nombreux articles sur l'apprentissage automatique, l'intelligence artificielle et la science des données.
-- **Kaggle URL**: https://www.kaggle.com/ Une plateforme pour les concours et les ensembles de données en science des données.
-- **Google AI Blog URL**: https://ai.googleblog.com Le blog IA de Google présente les dernières recherches, avancées et actualités dans le domaine de l'IA et de l'apprentissage automatique.
-- **Coursera**: Machine Learning by Andrew Ng URL: https://www.coursera.org/learn/machine-learning Un cours en ligne fondamental d'Andrew Ng qui présente les bases de l'apprentissage automatique.
+- [ZenRobotics](https://zenrobotics.com/) : pionnier dans l'utilisation de bras robotisés alimentés par l'IA pour trier les déchets de construction.
+- [AMP Robotics](https://www.amprobotics.com/) : systèmes d'IA capables de trier les matières recyclables à grande vitesse, dépassant de loin les capacités humaines.
+- [Recycleye](https://recycleye.com/) : systèmes basés sur l'IA reconnaissant plus de 500 catégories de déchets avec une précision quasi parfaite.
 
-Outils et plateformes d'IA pour les enseignants et les élèves du secondaire :
-- **Guide d'utilisation sur l'intelligence artificielle** : version Micro:bit. Source: Vittascience URL: https://fr.vittascience.com/learn/tutorial.php?id=403/guide-d-utilisation-intelligence-artificielle-version-micro-bit
-- **Teachable Machine by Google URL**: https://teachablemachine.withgoogle.com/ Un outil convivial qui aide les élèves à comprendre le fonctionnement de l'apprentissage automatique.
-- **TensorFlow for Kids URL**: https://www.tensorflow.org/learn TensorFlow fournit des outils d'IA et d'apprentissage automatique adaptés aux débutants.
-- **ML4K- Machine Learning for Kids URL**: https://machinelearningforkids.co.uk/ Une plateforme d'IA conçue pour permettre aux jeunes élèves de s'initier à l'apprentissage automatique grâce à des projets ludiques.
+**Fondamentaux de l'IA et apprentissage automatique**
 
----
+- [Machine Learning Mastery](https://machinelearningmastery.com/) : tutoriels pratiques d'apprentissage automatique.
+- [Towards Data Science](https://towardsdatascience.com/) : publication en ligne sur l'apprentissage automatique, l'IA et la science des données.
+- [Kaggle](https://www.kaggle.com/) : plateforme pour les concours et les ensembles de données en science des données.
+- [Google AI Blog](https://ai.googleblog.com) : recherches, avancées et actualités en IA et apprentissage automatique.
+- [Coursera — Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) : cours fondamental d'introduction à l'apprentissage automatique.
 
-> Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
+**Outils et plateformes d'IA pour les enseignants et les élèves du secondaire**
+
+- [Guide Vittascience — IA version micro:bit](https://fr.vittascience.com/learn/tutorial.php?id=403/guide-d-utilisation-intelligence-artificielle-version-micro-bit)
+- [Teachable Machine (Google)](https://teachablemachine.withgoogle.com/) : outil convivial d'initiation à l'apprentissage automatique.
+- [TensorFlow](https://www.tensorflow.org/learn) : outils d'IA et d'apprentissage automatique adaptés aux débutants.
+- [ML4K — Machine Learning for Kids](https://machinelearningforkids.co.uk/) : plateforme d'initiation à l'apprentissage automatique pour les jeunes élèves.
 
 ---
 

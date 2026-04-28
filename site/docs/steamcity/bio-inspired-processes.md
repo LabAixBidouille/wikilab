@@ -77,10 +77,7 @@ L'activité se déroulera en trois étapes principales, chacune conçue pour int
 - **Itération** : La répétition d'un processus afin d'atteindre un objectif souhaité. Dans le contexte de l'apprentissage automatique, cela fait référence à la répétition du cycle d'apprentissage pour améliorer les performances.
 
 
-:::note
-Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
-:::
-
+---
 
 ## Étape 1 : Découvrir l'apprentissage humain grâce à un jeu débranché
 
@@ -207,11 +204,11 @@ L'algorithme Q-Learning met à jour son modèle en utilisant la formule suivante
 `Q(état, action) = Q(état, action) + taux d'apprentissage * (récompense + facteur d'actualisation * max(Q(état suivant, toutes les actions)) - Q(état, action))`
 
 Où :
-- **Q(état, action)** : L'utilité attendue d'une action donnée à partir d'un état donné.
-- **learning\_rate** : un paramètre qui contrôle la quantité de nouvelles informations qui remplacent les anciennes.
-- **récompense** : La récompense immédiate reçue après avoir effectué l'action.
-- **discount\_factor** : un facteur qui détermine l'importance des récompenses futures par rapport aux récompenses immédiates.
-- **max(Q(next\_state, all\_actions))** : La récompense future maximale attendue pouvant être atteinte à partir de l'état suivant.
+- **Q(état, action)** : utilité attendue d'une action donnée à partir d'un état donné.
+- **`learning_rate`** : paramètre qui contrôle la quantité de nouvelles informations qui remplacent les anciennes.
+- **récompense** : récompense immédiate reçue après avoir effectué l'action.
+- **`discount_factor`** : facteur qui détermine l'importance des récompenses futures par rapport aux récompenses immédiates.
+- **max(Q(`next_state`, `all_actions`))** : récompense future maximale attendue pouvant être atteinte à partir de l'état suivant.
 :::
 
 Par exemple, si l'IA se déplace vers une nouvelle position et reçoit une récompense de 1 point, la valeur Q de cette paire état-action est mise à jour pour refléter cette nouvelle information. Si l'IA heurte un obstacle et reçoit une pénalité de -10 points, elle apprend à éviter ce chemin à l'avenir en abaissant la valeur Q de cette action. Cependant, avec cette fonction de notation, le robot peut ne pas donner la priorité à la recherche du chemin le plus court puisque chaque mouvement normal a une valeur positive. Pour garantir que le robot recherche le chemin le plus court, une fonction de notation pourrait inclure une pénalité mineure pour chaque mouvement, comme -1 point par mouvement, une pénalité de -100 points pour avoir heurté un obstacle et une récompense de 100 points pour avoir atteint l'objectif. Cela encourage l'IA à minimiser les mouvements inutiles tout en visant à atteindre l'objectif. Le processus se poursuit de manière itérative, chaque action affinant le modèle.
@@ -248,7 +245,7 @@ En se concentrant sur ces questions, les étudiants comprendront mieux la nature
 - **Réflexion sur le renforcement** : Encouragez les élèves à réfléchir à la manière dont les renforcements positifs et négatifs ont façonné le processus d'apprentissage pour eux-mêmes et pour l'IA. Expliquez pourquoi le renforcement positif (par exemple, des récompenses pour avoir atteint l'objectif) et le renforcement négatif (par exemple, des pénalités pour avoir heurté des obstacles) sont tout aussi essentiels à l'apprentissage. Mettez en évidence l'idée que l'apprentissage, qu'il soit humain ou mécanique, nécessite à la fois des encouragements et l'identification des erreurs pour affiner la compréhension et améliorer les résultats au fil du temps.
 - **Le concept d'efficacité** : expliquez comment l'objectif de l'IA a évolué au fil du temps, de la simple atteinte de la cible à la recherche du chemin le plus efficace pour y parvenir. Au départ, l'objectif de l'IA est d'apprendre à réussir, mais à mesure qu'elle acquiert de l'expérience, elle commence à optimiser son approche en recherchant des chemins plus courts et plus efficaces. Cela ressemble à la façon dont les humains affinent leur apprentissage pour devenir plus efficaces dans leurs tâches après avoir acquis une compréhension fondamentale. Soulignez que l'efficacité est souvent un objectif secondaire mais essentiel dans l'apprentissage humain et automatique.
 - **Comprendre l'amélioration itérative** : Discutez avec les élèves de la manière dont l'IA améliore son modèle de manière itérative. Au début, elle se déplace presque de manière aléatoire, mais au fil des itérations successives et avec le renforcement des retours d'information, elle commence à prendre des décisions plus éclairées. Cela reflète le processus d'apprentissage humain où la pratique répétée mène à la maîtrise. Dans l'outil BioLearning, les élèves peuvent observer comment les chemins de l'IA sont initialement inefficaces mais deviennent progressivement plus directs à mesure que l'IA apprend des expériences positives et négatives.
-- Comparaison entre l'apprentissage humain et l'apprentissage automatique : Animez une discussion sur les différences entre l'apprentissage humain et l'apprentissage automatique. Alors que les humains peuvent souvent faire des sauts intuitifs et s'adapter rapidement en fonction des expériences passées, les machines ont besoin de retours explicites et de nombreuses itérations pour apprendre. Soulignez que les humains peuvent généraliser d'une expérience à une autre beaucoup plus rapidement, tandis que les machines ont besoin de données systématiques et de renforcement pour construire leur modèle à partir de zéro. Cette comparaison aide les élèves à apprécier les forces et les limites uniques des deux types d'apprentissage.
+- **Comparaison entre l'apprentissage humain et l'apprentissage automatique** : Animez une discussion sur les différences entre l'apprentissage humain et l'apprentissage automatique. Alors que les humains peuvent souvent faire des sauts intuitifs et s'adapter rapidement en fonction des expériences passées, les machines ont besoin de retours explicites et de nombreuses itérations pour apprendre. Soulignez que les humains peuvent généraliser d'une expérience à une autre beaucoup plus rapidement, tandis que les machines ont besoin de données systématiques et de renforcement pour construire leur modèle à partir de zéro. Cette comparaison aide les élèves à apprécier les forces et les limites uniques des deux types d'apprentissage.
 - **Résultats d'apprentissage généraux** : À la fin de cette phase, les élèves devraient avoir une meilleure compréhension de la manière dont l'apprentissage par renforcement permet aux machines d'apprendre par l'expérience, et en quoi cela diffère fondamentalement de l'apprentissage humain. Ils comprendront que si les machines excellent dans le traitement de grands ensembles de données et peuvent effectuer des processus d'essais-erreurs exhaustifs sans fatigue, elles manquent de l'adaptabilité et de l'intuition inhérentes à l'apprentissage humain. À l'inverse, ils devraient reconnaître que les humains peuvent apprendre efficacement à partir d'un nombre réduit d'exemples en raison de leur capacité à s'appuyer sur des connaissances préalables et une compréhension contextuelle. Encouragez les élèves à réfléchir à la manière dont la combinaison de l'intuition humaine et de la puissance de traitement des machines pourrait conduire à de puissantes synergies dans la résolution de problèmes.
 
 Pour conclure cette étape, les étudiants seront invités à discuter des questions suivantes :
@@ -377,7 +374,9 @@ Ces ressources aideront les enseignants à approfondir leur compréhension de l'
 
 ---
 
-Ressources imprimables jointes : *Discover AI — The map* (versions élèves et enseignants, avec légende bâtiments / hôpitaux).
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- *Discover AI — The map* (versions élèves et enseignants, avec légende bâtiments / hôpitaux).
+:::
 
 ---
 

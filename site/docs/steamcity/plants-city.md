@@ -54,28 +54,14 @@ Ce protocole pédagogique invite les élèves à créer leur propre mur végéta
 
 Ils apprendront à utiliser des microcontrôleurs pour mesurer les conditions environnementales et s'initieront aux nouveaux outils de recherche basés sur l'intelligence artificielle (comme Copilot, ChatGPT, Gemini) pour sélectionner les plantes les mieux adaptées à leur environnement.
 
-### Étape 1 : Collecter les données
+### Structure du protocole
 
-Cette première étape du protocole vise à mettre en place une station de mesure environnementale pour caractériser l'habitat du futur mur végétal. Les élèves apprennent à identifier les paramètres essentiels qui influencent la croissance des plantes (température, humidité, luminosité), à assembler et programmer une station de mesure équipée de capteurs et d'une carte Micro:bit, et à comprendre l'importance de la calibration pour obtenir des mesures fiables. Cette approche scientifique et technique permet aux élèves de développer leurs compétences en mesure environnementale tout en préparant le choix éclairé des espèces végétales adaptées à leur environnement.
+Le protocole se déroule en quatre phases successives, qui mènent les élèves de la caractérisation scientifique d'un site jusqu'à la réalisation concrète d'un mur végétal connecté.
 
-### Étape 2 : Affichez les données pour obtenir les informations nécessaires
-
-L'objectif de l'étape 2 est de mettre en place un système de stockage des données environnementales collectées par les capteurs. Cette étape fait suite à la mise en place des capteurs de l'étape 1, en ajoutant la capacité d'enregistrer les mesures dans le temps plutôt que de n'avoir que des valeurs instantanées. Les élèves doivent choisir et implémenter une solution de stockage adaptée à leur contexte, comme un système avec carte micro-SD ou un relevé manuel. Les données ainsi collectées sur une période prolongée serviront de base pour la sélection des plantes lors des étapes suivantes, permettant d'assurer la viabilité du mur végétal.
-
-### Étape 3 : Analyser les données et en tirer des leçons
-
-L'étape 3 du protocole est centrée sur la sélection des plantes les plus adaptées pour notre mur végétal, en s'appuyant sur une étude documentaire rigoureuse. En s'appuyant sur les données environnementales précises collectées dans les phases précédentes (luminosité, température, humidité), les élèves peuvent identifier les espèces végétales qui s'épanouiront dans ces conditions spécifiques. Pour garantir des choix éclairés, la classe explore trois démarches de recherche différentes : les méthodes traditionnelles avec des ouvrages botaniques et des bases de données spécialisées, la recherche web classique via les sites horticoles, et l'utilisation d'outils d'Intelligence Artificielle. Cette diversité d'approches permet à la fois d'obtenir des informations complètes sur les plantes candidates et de développer l'esprit critique des élèves vis-à-vis des différentes sources d'information. L'analyse comparative des résultats permet d'identifier les espèces végétales les plus prometteuses pour le mur, en considérant leur adaptation aux conditions mesurées, leurs besoins en maintenance, et leur compatibilité entre elles. Les élèves apprennent à croiser les informations obtenues par différentes méthodes, assurant ainsi la fiabilité de leurs choix pour une installation durable.
-
-### Étape 4 : Utilisez les données pour créer un mur végétal
-
-L'étape finale de mise en place du mur végétal constitue l'aboutissement concret du protocole. Elle permet la réalisation physique du mur selon les plans élaborés précédemment, accompagnée de l'installation d'un système de monitoring connecté pour suivre la santé des plantes. Cette phase met en application l'ensemble des connaissances botaniques et technologiques acquises pour développer une solution durable et intelligente de végétalisation. Cette phase conclusive permet de concrétiser l'ensemble des apprentissages théoriques et techniques des étapes précédentes. Elle transforme les analyses environnementales, les études botaniques et les compétences technologiques en une réalisation tangible qui améliore concrètement l'environnement urbain. La réussite de cette étape démontre la capacité des élèves à mener un projet environnemental complet, de sa conception à sa réalisation, tout en intégrant des solutions technologiques innovantes pour assurer sa pérennité.
-
-### Structure de l'activité
-
-- **Durée** : 4h
-- **Niveau de difficulté** : intermédiaire (10-14 ans)
-- **Matériel nécessaire par groupe** : 1 carte Micro:bit, 1 capteur DHT-11, 1 Micro:bit Grove Shield, 3 câbles Grove, 1 câble micro USB, 1 câble adaptateur Grove Dupont, 4 câble Dupont Femelle-Femelle, 1 lecteur de carte OpenLog micro-SD, 1 carte micro-SD, 1 Batterie 5V (par exemple, batterie externe)
-
+- **Phase 1 — Collecter les données** : mettre en place une station de mesure environnementale (température, humidité, luminosité) à base de Micro:bit et de capteurs, et aborder la question de la calibration pour obtenir des mesures fiables.
+- **Phase 2 — Stocker et afficher les données** : compléter la station par un système d'enregistrement (carte micro-SD via OpenLog, relevé manuel ou solution WiFi) afin de suivre les variables environnementales sur une période prolongée.
+- **Phase 3 — Analyser les données et en tirer des leçons** : exploiter les mesures avec un tableur et mener une recherche documentaire comparative (sources traditionnelles, web, outils d'IA générative) pour identifier les plantes adaptées au site.
+- **Phase 4 — Créer le mur végétal** : concrétiser le projet en concevant la structure du mur, en sélectionnant les plantes, en installant un système de monitoring et en réfléchissant aux enjeux citoyens et environnementaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -95,19 +81,18 @@ L'étape finale de mise en place du mur végétal constitue l'aboutissement conc
 - **Format CSV** : Un format de fichier texte simple utilisé pour stocker des données sous forme de tableau, séparées par des virgules, pour une importation facile dans un logiciel de tableur.
 - **Hallucination de l'IA** : Un phénomène dans lequel l'IA génère des informations incorrectes ou dénuées de sens en raison d'un contexte limité ou d'une désinformation.
 
-## Étape 1 : Collecter les données
+## Phase 1 : Collecter les données
 
-### Contexte de la séquence
+**Contexte de la séquence** : pour créer un mur végétal réussi, il est crucial de bien comprendre l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Afin de choisir des plantes adaptées à ces conditions spécifiques, cette première phase permet aux élèves d'évaluer attentivement les conditions environnementales auxquelles elles seront exposées.
 
-Pour créer un mur végétal réussi, il est crucial de bien comprendre l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Afin de choisir des plantes adaptées à ces conditions spécifiques, cette première étape permet aux élèves d'évaluer attentivement les conditions environnementales auxquelles elles seront exposées.
+**Objectifs d'apprentissage** :
 
-### Objectifs d'apprentissage
-
-Identifier les principales variables environnementales qui influencent la croissance et la santé des plantes, à savoir température, humidité, luminosité, vent et composition du sol. Se familiariser avec l'usage des microcontrôleurs pour réaliser des mesures.
+- Identifier les principales variables environnementales qui influencent la croissance et la santé des plantes (température, humidité, luminosité, vent, composition du sol).
+- Se familiariser avec l'usage des microcontrôleurs pour réaliser des mesures.
 
 ### Conceptualisation
 
-Comment identifier et mesurer les différents paramètres environnementaux qui détermineront le succès de la végétalisation de notre mur ?
+**Question de recherche** : comment identifier et mesurer les différents paramètres environnementaux qui détermineront le succès de la végétalisation de notre mur ?
 
 Pour explorer ce postulat de manière scientifique, les élèves se concentreront sur deux questions directrices :
 
@@ -177,19 +162,17 @@ Afin d'approfondir cette phase, vous pouvez également ouvrir des discussions en
 
 ---
 
-## Étape 2 : Affichez les données pour obtenir les informations nécessaires
+## Phase 2 : Stocker et afficher les données
 
-### Contexte de la séquence
+**Contexte de la séquence** : lors de la première phase, les élèves ont construit une station de mesure équipée de plusieurs capteurs qui mesurent diverses variables environnementales (température, luminosité, etc.). Ces stations ne peuvent cependant fournir que des mesures instantanées, sans capacité de stockage pour une analyse ultérieure. Il est donc nécessaire d'ajouter un système d'enregistrement des données, tel qu'une carte micro-SD, pour sauvegarder les mesures effectuées.
 
-Lors de la première étape, les élèves ont construit une station de mesure équipée de plusieurs capteurs qui mesurent diverses variables environnementales (température, luminosité, etc.). Ces stations ne peuvent cependant fournir que des mesures instantanées, sans capacité de stockage pour une analyse ultérieure. Il est donc nécessaire d'ajouter un système d'enregistrement des données, tel qu'une carte micro-SD, pour sauvegarder les mesures effectuées.
+**Objectifs d'apprentissage** :
 
-### Objectifs d'apprentissage
-
-Réfléchir à la manière dont un système peut être amélioré pour répondre à une problématique technique.
+- Réfléchir à la manière dont un système peut être amélioré pour répondre à une problématique technique.
 
 ### Conceptualisation
 
-Comment mettre en place un système de stockage de données permettant de conserver et d'analyser efficacement les mesures environnementales sur une période prolongée ?
+**Question de recherche** : comment mettre en place un système de stockage de données permettant de conserver et d'analyser efficacement les mesures environnementales sur une période prolongée ?
 
 Pour guider les élèves dans leur démarche d'investigation, ils pourront explorer les questionnements suivants :
 
@@ -247,19 +230,20 @@ Pour approfondir cette phase, plusieurs questions peuvent être explorées avec 
 
 ---
 
-## Étape 3 : Analyser les données et en tirer des leçons
+## Phase 3 : Analyser les données et en tirer des leçons
 
-### Contexte de la séquence
+**Contexte de la séquence** : maintenant que les élèves disposent de données qualitatives et quantitatives sur les conditions environnementales dans lesquelles les plantes vont vivre, ils doivent réaliser un travail de recherche documentaire pour découvrir quelles plantes s'épanouiront le mieux dans ces conditions. Au cours de cette phase, ils seront amenés à utiliser des outils de recherche assistée par intelligence artificielle (Gemini, Copilot) et à explorer les enjeux liés à la fiabilité des sources.
 
-Maintenant que les élèves disposent de données qualitatives et quantitatives sur les conditions environnementales dans lesquelles les plantes vont vivre, ils doivent réaliser un travail de recherche documentaire pour découvrir quelles plantes s'épanouiront le mieux dans ces conditions. Au cours de cette étape, ils seront amenés à utiliser des outils de recherche assistée par intelligence artificielle (Gemini, Copilot) et à explorer les enjeux liés à la fiabilité des sources.
+**Objectifs d'apprentissage** :
 
-### Objectifs d'apprentissage
-
-Se familiariser avec les outils de génération de texte (ChatGPT, Microsoft Copilot, Google Gemini) et maîtriser les bases de la formulation de prompts. Comprendre les spécificités de chaque outil pour identifier les plus pertinents pour la recherche documentaire. Reconnaître les limites des modèles de génération de texte, notamment les hallucinations. Analyser et exploiter les données collectées à l'aide d'un tableur pour en tirer des connaissances utiles.
+- Se familiariser avec les outils de génération de texte (ChatGPT, Microsoft Copilot, Google Gemini) et maîtriser les bases de la formulation de prompts.
+- Comprendre les spécificités de chaque outil pour identifier les plus pertinents pour la recherche documentaire.
+- Reconnaître les limites des modèles de génération de texte, notamment les hallucinations.
+- Analyser et exploiter les données collectées à l'aide d'un tableur pour en tirer des connaissances utiles.
 
 ### Conceptualisation
 
-Comment utiliser les données environnementales collectées pour déterminer les plantes les plus adaptées à notre mur végétal grâce à une recherche documentaire ?
+**Question de recherche** : comment utiliser les données environnementales collectées pour déterminer les plantes les plus adaptées à notre mur végétal grâce à une recherche documentaire ?
 
 Pour guider les élèves dans leur démarche d'investigation, ils pourront explorer les questionnements suivants :
 
@@ -306,9 +290,15 @@ Pour mener à bien cette recherche, les élèves exploreront et compareront diff
 
 Pour développer l'esprit critique des élèves face aux méthodes de recherche documentaire et comprendre la place des nouvelles technologies dans ce processus, la classe sera divisée en trois groupes. Chaque groupe explorera une approche différente pour identifier les plantes adaptées aux conditions environnementales mesurées :
 
-- **Groupe 1 : méthodes traditionnelles** — Utilisation d'ouvrages de référence en botanique et jardinage. Consultation de bases de données spécialisées (Flora Data, Tela Botanica). Analyse de revues horticoles et publications scientifiques.
-- **Groupe 2 : recherche web classique** — Exploitation des moteurs de recherche (Google, Bing). Navigation sur des sites spécialisés en horticulture. Participation à des forums et communautés de jardiniers en ligne.
-- **Groupe 3 : outils d'intelligence artificielle** — par exemple ChatGPT (OpenAI) : chat.openai.com, Microsoft Copilot : https://copilot.microsoft.com/, Google Gemini : https://gemini.google.com/, Llama2 (Meta) : https://www.llama2.ai/, Mixtral (MistralAI) : https://chat.mistral.ai/, Plateforme Vittascience : https://vittascience.com/ia/text.php
+- **Groupe 1 : méthodes traditionnelles** — utilisation d'ouvrages de référence en botanique et jardinage, consultation de bases de données spécialisées (Flora Data, Tela Botanica), analyse de revues horticoles et publications scientifiques.
+- **Groupe 2 : recherche web classique** — exploitation des moteurs de recherche (Google, Bing), navigation sur des sites spécialisés en horticulture, participation à des forums et communautés de jardiniers en ligne.
+- **Groupe 3 : outils d'intelligence artificielle** — par exemple :
+  - ChatGPT (OpenAI) — [chat.openai.com](https://chat.openai.com)
+  - Microsoft Copilot — [copilot.microsoft.com](https://copilot.microsoft.com/)
+  - Google Gemini — [gemini.google.com](https://gemini.google.com/)
+  - Llama2 (Meta) — [llama2.ai](https://www.llama2.ai/)
+  - Mixtral (Mistral AI) — [chat.mistral.ai](https://chat.mistral.ai/)
+  - Plateforme Vittascience — [vittascience.com/ia/text.php](https://vittascience.com/ia/text.php)
 
 Chaque groupe documentera son expérience selon les critères suivants :
 
@@ -345,23 +335,37 @@ Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion s
 
 ---
 
-## Étape 4 : Utilisez les données pour créer un mur végétal
+## Phase 4 : Utiliser les données pour créer un mur végétal
 
-### Contexte de la séquence
+**Contexte de la séquence** : maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Cette étape cruciale va permettre aux élèves de mettre en application leurs connaissances théoriques tout en développant des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
 
-Maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Cette étape cruciale va permettre aux élèves de mettre en application leurs connaissances théoriques tout en développant des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
+**Objectifs d'apprentissage** :
 
-### Objectifs d'apprentissage
-
-Mettre en pratique les connaissances acquises lors de la phase de recherche documentaire pour la sélection des plantes. Apprendre les bases du jardinage et les techniques de plantation adaptées aux murs végétaux. Développer des compétences en gestion de projet et travail collaboratif (répartition des tâches, communication, résolution de problèmes). Appliquer les données environnementales collectées pour optimiser l'installation des plantes.
+- Mettre en pratique les connaissances acquises lors de la phase de recherche documentaire pour la sélection des plantes.
+- Apprendre les bases du jardinage et les techniques de plantation adaptées aux murs végétaux.
+- Développer des compétences en gestion de projet et travail collaboratif (répartition des tâches, communication, résolution de problèmes).
+- Appliquer les données environnementales collectées pour optimiser l'installation des plantes.
 
 ### Conceptualisation
 
-Comment mettre en place et maintenir un mur végétal en milieu urbain ?
+**Question de recherche** : comment mettre en place et maintenir un mur végétal en milieu urbain ?
 
-La végétalisation urbaine vise à intégrer des éléments végétaux dans l'environnement bâti afin de créer des villes plus durables. Cette approche apporte de nombreux bénéfices environnementaux essentiels : régulation de la température urbaine, amélioration de la qualité de l'air et de l'eau, enrichissement de la biodiversité et meilleure gestion des eaux pluviales. Dans le cas des murs végétaux, cela suppose la création d'écosystèmes verticaux. Le projet demande de comprendre des aspects essentiels qui ont été traités dans les étapes précédentes : les conditions environnementales (luminosité, température, humidité) mesurées dans l'étape 1 et 2, et les besoins des plantes choisies analysés dans l'étape 3. Il reste maintenant à mettre en pratique ces connaissances pour assurer une installation réussie du mur végétal grâce à un système d'installation adapté (structure, substrat, irrigation). Il est essentiel de comprendre que tout système, aussi bien conçu soit-il, présente des limites et des contraintes. Dans le cas de la végétalisation urbaine, ces limites peuvent être liées aux ressources disponibles (eau, nutriments), aux conditions environnementales (température, luminosité), ou aux capacités d'adaptation des plantes. La reconnaissance de ces limites n'est pas un frein au projet, mais plutôt une opportunité d'anticiper les difficultés potentielles et de développer des solutions adaptées. Cette approche réaliste permet de concevoir des systèmes plus résilients et durables, en tenant compte des contraintes tout en maximisant les bénéfices attendus.
+La végétalisation urbaine vise à intégrer des éléments végétaux dans l'environnement bâti afin de créer des villes plus durables. Cette approche apporte de nombreux bénéfices environnementaux essentiels : régulation de la température urbaine, amélioration de la qualité de l'air et de l'eau, enrichissement de la biodiversité et meilleure gestion des eaux pluviales. Dans le cas des murs végétaux, cela suppose la création d'**écosystèmes verticaux**.
 
-La méthode d'implantation comprend plusieurs étapes. D'abord, l'analyse du site d'installation : étude de l'orientation, de l'exposition aux éléments, et des contraintes structurelles. Ensuite, la sélection des végétaux adaptés, basée sur les données environnementales collectées et la recherche documentaire réalisée. Enfin, la mise en place d'un système de suivi, permettant d'observer les paramètres et de gérer les ressources, notamment l'eau.
+Le projet demande de mobiliser des aspects essentiels traités dans les phases précédentes :
+
+- les **conditions environnementales** (luminosité, température, humidité) mesurées dans les phases 1 et 2 ;
+- les **besoins des plantes choisies** analysés dans la phase 3.
+
+Il reste maintenant à mettre en pratique ces connaissances pour assurer une installation réussie du mur végétal grâce à un système d'installation adapté (structure, substrat, irrigation).
+
+Il est essentiel de comprendre que tout système, aussi bien conçu soit-il, présente des limites et des contraintes. Dans le cas de la végétalisation urbaine, ces limites peuvent être liées aux **ressources disponibles** (eau, nutriments), aux **conditions environnementales** (température, luminosité), ou aux **capacités d'adaptation des plantes**. La reconnaissance de ces limites n'est pas un frein au projet, mais plutôt une opportunité d'anticiper les difficultés potentielles et de développer des solutions adaptées. Cette approche réaliste permet de concevoir des systèmes plus résilients et durables, en tenant compte des contraintes tout en maximisant les bénéfices attendus.
+
+La méthode d'implantation comprend plusieurs étapes :
+
+1. **Analyse du site d'installation** : étude de l'orientation, de l'exposition aux éléments, et des contraintes structurelles.
+2. **Sélection des végétaux adaptés** : basée sur les données environnementales collectées et la recherche documentaire réalisée.
+3. **Mise en place d'un système de suivi** : permettant d'observer les paramètres et de gérer les ressources, notamment l'eau.
 
 ### Investigation par les élèves
 
@@ -476,63 +480,67 @@ A partir de ce travail, il est possible d'ouvrir de nouveaux axes d'étude et de
 
 ## Mise en pratique
 
-### Créer et programmer notre station de mesure
+Dans notre exemple, la station de mesure et le module d'enregistrement ont été programmés sur la plateforme Vittascience pour Micro:bit.
 
-Dans notre exemple, la station de mesure a été programmée sur la plateforme Vittascience : Vittascience — Micro:bit
-
-### Collecter des données : Montage et programmation de la station de mesure
+### Collecter des données : montage et programmation de la station de mesure
 
 #### Assemblage de la station
 
-La carte micro:bit doit être connectée au Grove Shield. Le capteur de température/humidité peut être placé sur les broches P1/P15 ou P2/P16 du blindage Grove.
+La carte Micro:bit doit être connectée au Grove Shield. Le capteur de température/humidité peut être placé sur les broches P1/P15 ou P2/P16 du blindage Grove.
 
 #### Programmation de la station
 
-Le code de cette partie peut être trouvé en suivant ce lien : Vittascience — Micro:bit
+L'objectif de cette station est de mesurer la **température**, l'**humidité relative** et la **luminosité ambiante**, et de les afficher à intervalles réguliers sur l'ordinateur. La construction du programme repose sur :
 
-L'objectif de cette station va être de mesurer la température, l'humidité relative et la luminosité ambiante, et de les afficher à intervalles réguliers sur l'ordinateur. Pour effectuer les mesures, nous aurons besoin des blocs suivants, disponible dans la catégorie capteurs. Pour afficher les blocs dans la console de l'ordinateur, le bloc à utiliser est celui-ci, présent dans la catégorie communication.
+- des blocs de **mesure** (catégorie capteurs) pour récupérer les valeurs de chaque variable ;
+- un bloc d'**affichage console** (catégorie communication) pour envoyer les valeurs à l'ordinateur ;
+- un bloc de **mise en forme texte** (catégorie texte) pour faciliter la lecture dans la console ;
+- un bloc de **temporisation** (catégorie entrées/sorties) afin d'éviter d'inonder la console de mesures.
 
-Pour faciliter l'affichage dans la console, il est possible d'utiliser le bloc suivant, présent dans la catégorie texte.
+#### Programme final et test
 
-Enfin, pour éviter d'inonder la console de mesures, il convient de ralentir le programme. Pour cela, le bloc suivant présent dans la catégorie entrées/sorties doit utilisé.
+Le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 du shield Grove. Si le DHT11 est connecté à une autre broche, il faudra modifier le programme en conséquence. De même, pour les Micro:bit V1 (et non V2 — vérifier l'inscription au dos de la carte en bas à droite), une adaptation du programme sera nécessaire.
 
-#### Programme final
+Pour téléverser le programme :
 
-Le programme ne fonctionne que si vous avez connecté le DHT11 à la broche P1/P15 du shield grove. Si vous avez connecté le DHT11 sur une autre broche, il vous faudra modifier le programme en conséquence. Également, si vous possédez des micro:bit V1 et non V2 (pour vérifier, vérifiez l'inscription au dos de la carte en bas à droite), il vous faudra modifier le programme en conséquence.
+1. Connecter la Micro:bit à l'ordinateur via USB. Le câble USB doit être branché sur le port micro USB de la carte, et non sur celui du shield Grove (ce dernier ne sert qu'à alimenter la Micro:bit).
+2. Cliquer sur le bouton **Téléverser** en haut au centre de l'interface de programmation, sélectionner la carte, puis valider.
+3. Lorsqu'une seconde fenêtre s'affiche pour appairer un port série, sélectionner le premier (et normalement seul) port proposé puis valider.
+4. La carte envoie alors les données toutes les 5 secondes à l'ordinateur ; elles s'affichent dans la console en bas de l'écran.
 
-#### Test du programme
+:::info
+Il est normal que le capteur DHT11 renvoie 0 pour la température et l'humidité au démarrage du programme, le temps de son initialisation. Après quelques dizaines de secondes, les mesures apparaissent correctement.
+:::
 
-Pour téléverser le programme sur la carte micro:bit, il faut tout d'abord connecter celle-ci à l'ordinateur via USB.
-
-Il faut connecter le câble USB au port micro USB de la carte, et non pas du shield grove, ce dernier n'étant capable que d'alimenter la micro:bit.
-
-Ensuite, il faut cliquer sur le bouton téléverser présent en haut au centre de l'interface de programmation, sélectionner la carte, puis valider. Une seconde fenêtre va alors apparaître, vous demandant d'appairer un port série. Sélectionnez le premier (et normalement seul) port de la liste, puis cliquez sur valider. La carte devrait maintenant envoyer les données toutes les 5 secondes à l'ordinateur, qui devraient s'afficher sur la console de l'interface située en bas de l'écran.
-
-Il est normal que le capteur DHT11 renvoie 0 pour la température et l'humidité au début du programme, car ce dernier s'initialise. Après quelques dizaines de secondes, les mesures de température et d'humidité devraient apparaître correctement.
-
-### Affichage des données : Montage et programmation de l'OpenLog
+### Affichage et stockage des données : montage et programmation de l'OpenLog
 
 #### Montage
 
-Le lecteur OpenLog doit être connectée au port P0/P14 du shield grove, grâce à l'adaptateur Dupont / Grove, de telle sorte que les broches GND, VCC, TXO et RXI de l'OpenLog soient respectivement connectés aux fils noir, rouge, blanc et jaune du câble grove.
+Le lecteur OpenLog doit être connecté au port P0/P14 du shield Grove, grâce à l'adaptateur Dupont / Grove, de telle sorte que les broches GND, VCC, TXO et RXI de l'OpenLog soient respectivement connectées aux fils noir, rouge, blanc et jaune du câble Grove.
 
 #### Programmation
 
-Le code de cette partie peut être trouvé en suivant ce lien : Vittascience — Micro:bit
+L'enjeu est ici d'enregistrer les données collectées sur une carte micro-SD dans un format exploitable par un tableur, afin de pouvoir analyser les résultats obtenus. Les données sont enregistrées au format **CSV** : un format texte simple qui sépare les colonnes par une virgule, un point-virgule ou un espace, et les lignes par un retour à la ligne. Exemple :
 
-L'enjeu va être ici d'enregistrer les données collectées sur une carte micro-sd, dans un format exploitable par un tableur, afin de pouvoir analyser les résultats obtenus. Pour cela, les données vont être enregistrées au format CSV. Ce format texte très simple permet de simuler un tableur en séparant les colonnes par une virgule, un point-virgule ou un espace, et les lignes par un retour à la ligne. Voici un exemple de fichier au format CSV : name;first name;birth date / Bocuse;Arnaud;30/03/1997 / Leloup;Davy;14/02/1968 / Neri;Régis;07/09/1990
+```csv
+name;first name;birth date
+Bocuse;Arnaud;30/03/1997
+Leloup;Davy;14/02/1968
+Neri;Régis;07/09/1990
+```
 
-Dans le programme, il va donc falloir écrire sur la carte sd les en-tête de colonnes, puis les données. Écrire les données se fait au moyen du bloc suivant, présent dans la catégorie communication.
+Dans le programme, il faut écrire sur la carte SD les en-têtes de colonnes, puis les données. L'écriture se fait à l'aide d'un bloc dédié de la catégorie communication. En plus de la température, de l'humidité et de la luminosité, il est intéressant de noter le **temps** correspondant à chaque mesure : des blocs spécifiques permettent respectivement de démarrer un chronomètre et de récupérer sa valeur.
 
-En plus de la température, de l'humidité et de la luminosité, il peut être intéressant de noter le temps correspondant à chaque mesure. Pour cela, les blocs suivants permettront de respectivement démarrer un chronomètre et de récupérer sa valeur.
+Comme pour la partie précédente, le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 et l'OpenLog à la broche P0/P14.
 
-Le programme final est le suivant. De la même façon que pour la partie précédente, ce programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 et l'OpenLog à la broche P0/P14.
+#### Test du programme
 
-#### Tester le programme
+Connecter la carte à l'ordinateur via USB et téléverser le programme. Ne pas oublier d'insérer une carte micro-SD dans le lecteur OpenLog.
 
-De la même manière que pour la partie précédente, il vous faut connecter la carte à l'ordinateur via USB, et téléverser le programme. N'oubliez pas d'insérer une carte micro-sd dans le lecteur OpenLog. Si tout fonctionne correctement, la led bleue devrait clignoter chaque fois que des données sont envoyées sur la carte sd (ici toutes les 30 secondes). Si quelque chose ne va pas avec vote montage (ou si vous oubliez de mettre la carte dans l'OpenLog), il est possible que celui-ci clignote bleu 3 fois de suite à intervalles réguliers pour signaler que quelque chose ne va pas.
+- Si tout fonctionne correctement, la **LED bleue** clignote à chaque envoi de données sur la carte SD (ici toutes les 30 secondes).
+- Si le montage présente un problème (ou si la carte SD n'est pas insérée), la LED bleue clignote **3 fois de suite** à intervalles réguliers pour signaler une erreur.
 
-Une fois les mesures terminées, vous pourrez récupérer la carte micro-sd et l'insérer dans un ordinateur. Un fichier nommé logXXXXX.TXT (avec les X étant des chiffres) devrait alors être apparu, et les données devraient y être stockées. Vous pourrez ensuite importer ces données dans le tableur de votre choix.
+Une fois les mesures terminées, retirer la carte micro-SD et l'insérer dans un ordinateur. Un fichier nommé `logXXXXX.TXT` (les X étant des chiffres) doit apparaître ; les données peuvent ensuite être importées dans le tableur de votre choix.
 
 #### Faire les mesures sur le terrain
 

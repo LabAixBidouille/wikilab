@@ -65,16 +65,7 @@ La démarche pédagogique est progressive et intègre des outils variés comme l
 
 Cette approche pratique et interactive permet aux élèves de construire une compréhension concrète de l'énergie, depuis sa définition scientifique jusqu'aux enjeux sociétaux et environnementaux qu'elle implique, tout en développant leur capacité à imaginer des scénarios d'adaptation face aux contraintes énergétiques futures.
 
-Durée : min. 3 séances pour réaliser l'activité complète. Chaque étape peut être menée individuellement en fournissant du contenu et du contexte préalable.
-
-Niveau de difficulté : Intermédiaire. Adaptable du cycle 3 (CM1-CM2-6ème) au lycée en ajustant la complexité des analyses et la profondeur des réflexions.
-
-Matériel nécessaire :
-
-- **Phase 1** : Post-it de différentes couleurs, grandes feuilles ou tableau pour la carte mentale, documents variés sur l'énergie (textes, images, vidéos), cartes ou images des différentes sources d'énergie, matériel pour les stations d'observation (pendule, ressort, rampe avec bille, chronomètre, récipient d'eau chaude, glaçon, thermomètre, circuit simple (pile, LED, interrupteur), électroaimant, pile, matériel pour réaction acide-base, indicateur pH), impression des fiches d'observation
-- **Phase 2** : Dossiers documentaires sur les impacts environnementaux et sociaux, grilles d'analyse imprimées, matériel pour créer des représentations visuelles (papier affiche, marqueurs)
-- **Phase 3** : Fiches de mission pour chaque groupe imprimées ou projetées, matrices d'analyse sectorielle imprimées vierges, matériel pour créer le "Guide du nouvel habitant" (papier, crayons de couleur, etc.)
-
+Le protocole est adaptable du cycle 3 (CM1-CM2-6ème) au lycée en ajustant la complexité des analyses et la profondeur des réflexions. Chaque phase peut être menée individuellement en fournissant du contenu et du contexte préalable.
 
 ### Glossaire
 
@@ -108,29 +99,61 @@ Matériel nécessaire :
 
 **Énergie chimique** : Énergie stockée dans les liaisons chimiques, libérée lors des réactions.
 
-## Étape 1 : Définition et identification des formes d'énergie
+## Phase 1 : Définition et identification des formes d'énergie
 
 ### Contexte de la séquence
 
-Bien que le terme "énergie" soit omniprésent dans le langage courant (crise énergétique, transition énergétique, économies d'énergie), sa définition précise reste souvent floue et abstraite pour les élèves. Cette première phase permet une première découverte simple et ludique du concept d'énergie. Par des activités concrètes et accessibles, les élèves sont invités à observer leur environnement quotidien pour repérer les différentes manifestations de l'énergie. Cette démarche introductive s'appuie sur l'observation et la manipulation pour construire collectivement une définition de l'énergie et de ses formes les plus courantes issue de gisements limités (fossiles : pétrole, charbon, gaz naturel ; fissile : uranium). L'accent est mis sur l'aspect pratique et interactif, permettant ainsi aux élèves de concrétiser ce concept abstrait.
+Bien que le terme "énergie" soit omniprésent dans le langage courant (crise énergétique, transition énergétique, économies d'énergie), sa définition précise reste souvent floue et abstraite pour les élèves. Cette première phase permet une première découverte simple et ludique du concept d'énergie. Par des activités concrètes et accessibles, les élèves sont invités à observer leur environnement quotidien pour repérer les différentes manifestations de l'énergie. Cette démarche introductive s'appuie sur l'observation et la manipulation pour construire collectivement une définition de l'énergie et de ses formes les plus courantes. L'accent est mis sur l'aspect pratique et interactif, permettant ainsi aux élèves de concrétiser ce concept abstrait.
 
 ### Objectifs d'apprentissage
 
-Formuler une définition scientifique de l'énergie. Identifier et classifier les différentes formes d'énergie. Établir les relations entre énergie et transformations observables.
+- Formuler une définition scientifique de l'énergie.
+- Identifier et classifier les différentes formes d'énergie.
+- Établir les relations entre énergie et transformations observables.
 
 ### Conceptualisation
 
-Question de recherche : Quels sont les différents usages énergétiques observables dans notre quotidien et comment les classifier ?
+:::question[Question de recherche]
+Quels sont les différents usages énergétiques observables dans notre quotidien et comment les classifier ?
+:::
 
-Hypothèse : Les usages énergétiques dans notre environnement sont plus nombreux que ce que l'on perçoit immédiatement, avec certains très visibles (éclairage, chauffage) et d'autres plus discrets (veille des appareils, ventilation). Cette diversité peut être organisée selon différents critères (formes d'énergie, fonctions, sources) pour révéler la complexité du concept d'énergie. Concepts clés : Usage énergétique : Utilisation spécifique de l'énergie pour répondre à un besoin (définition dans le contexte d'observation directe) ; Fonction énergétique : Catégorie générale d'usage (permet la classification et l'analyse) ; Besoin énergétique : Service final recherché (aide à distinguer l'essentiel du superflu).
+:::hypothese[Hypothèse]
+Les usages énergétiques dans notre environnement sont plus nombreux que ce que l'on perçoit immédiatement, avec certains très visibles (éclairage, chauffage) et d'autres plus discrets (veille des appareils, ventilation). Cette diversité peut être organisée selon différents critères (formes d'énergie, fonctions, sources) pour révéler la complexité du concept d'énergie.
+:::
 
-Question de recherche : Comment les différentes formes d'énergie se manifestent-elles et se transforment-elles dans les phénomènes observables ?
+**Concepts clés** :
 
-Hypothèse : L'énergie, bien qu'invisible en elle-même, se révèle à travers ses manifestations (mouvement, chaleur, lumière, réactions chimiques) et ses transformations permanentes d'une forme à l'autre. Ces transformations suivent des lois physiques constantes qui peuvent être observées et mesurées même avec des expériences simples. Concepts clés : Formes d'énergie : Différentes modalités d'expression de l'énergie (mécanique, thermique, électrique, chimique) observables expérimentalement ; Transformation énergétique : Passage d'une forme d'énergie à une autre lors de tout phénomène physique (révèle l'unité du concept d'énergie) ; Conservation de l'énergie : Principe selon lequel l'énergie ne se crée ni ne se détruit mais se transforme (structure la compréhension scientifique).
+- **Usage énergétique** : utilisation spécifique de l'énergie pour répondre à un besoin (définition dans le contexte d'observation directe).
+- **Fonction énergétique** : catégorie générale d'usage (permet la classification et l'analyse).
+- **Besoin énergétique** : service final recherché (aide à distinguer l'essentiel du superflu).
 
-Question de recherche : Comment peut-on construire progressivement une définition scientifique de l'énergie à partir des observations et classifications ?
+:::question[Question de recherche]
+Comment les différentes formes d'énergie se manifestent-elles et se transforment-elles dans les phénomènes observables ?
+:::
 
-Hypothèse : La construction collective d'une définition scientifique de l'énergie nécessite de dépasser les représentations intuitives initiales par l'enrichissement documentaire et l'expérimentation, permettant de passer d'une vision fragmentée à une compréhension unifiée du concept. Concepts clés : Représentations initiales : Conceptions spontanées des élèves sur l'énergie, souvent partielles mais constituant le point de départ de l'apprentissage ; Enrichissement conceptuel : Processus d'élargissement et de structuration des connaissances par confrontation aux savoirs scientifiques établis ; Définition opérationnelle : Caractérisation de l'énergie par ce qu'elle permet d'observer et de mesurer plutôt que par sa nature abstraite (facilite l'appropriation).
+:::hypothese[Hypothèse]
+L'énergie, bien qu'invisible en elle-même, se révèle à travers ses manifestations (mouvement, chaleur, lumière, réactions chimiques) et ses transformations permanentes d'une forme à l'autre. Ces transformations suivent des lois physiques constantes qui peuvent être observées et mesurées même avec des expériences simples.
+:::
+
+**Concepts clés** :
+
+- **Formes d'énergie** : différentes modalités d'expression de l'énergie (mécanique, thermique, électrique, chimique) observables expérimentalement.
+- **Transformation énergétique** : passage d'une forme d'énergie à une autre lors de tout phénomène physique (révèle l'unité du concept d'énergie).
+- **Conservation de l'énergie** : principe selon lequel l'énergie ne se crée ni ne se détruit mais se transforme (structure la compréhension scientifique).
+
+:::question[Question de recherche]
+Comment peut-on construire progressivement une définition scientifique de l'énergie à partir des observations et classifications ?
+:::
+
+:::hypothese[Hypothèse]
+La construction collective d'une définition scientifique de l'énergie nécessite de dépasser les représentations intuitives initiales par l'enrichissement documentaire et l'expérimentation, permettant de passer d'une vision fragmentée à une compréhension unifiée du concept.
+:::
+
+**Concepts clés** :
+
+- **Représentations initiales** : conceptions spontanées des élèves sur l'énergie, souvent partielles mais constituant le point de départ de l'apprentissage.
+- **Enrichissement conceptuel** : processus d'élargissement et de structuration des connaissances par confrontation aux savoirs scientifiques établis.
+- **Définition opérationnelle** : caractérisation de l'énergie par ce qu'elle permet d'observer et de mesurer plutôt que par sa nature abstraite (facilite l'appropriation).
 
 ### Investigation par les élèves
 
@@ -160,9 +183,16 @@ Questions du questionnaire :
 4. D'après moi, l'énergie peut-elle disparaître ? (Oui / Non / Je ne sais pas)
 5. D'après moi, peut-on créer de l'énergie ? (Oui / Non / Je ne sais pas)
 
+:::info[Notes pour l'enseignant·e]
 Soyez attentif aux confusions fréquentes (énergie/électricité, énergie/force, énergie/puissance).
+:::
 
 La carte mentale est simple et contient principalement les concepts intuitifs des élèves. On y trouve le terme central "ÉNERGIE" avec quelques branches principales par exemple : Sources (électricité, soleil, nourriture), Usages (chauffer, éclairer, bouger) et Sensations (force, chaleur, fatigue). À ce stade, la carte reflète les connaissances quotidiennes des élèves sans organisation spécifique.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Repr%C3%A9sentations%20Initiales.png" alt="Carte mentale - représentations initiales" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Carte mentale au stade des représentations initiales</figcaption>
+</figure>
 
 #### Enrichissement documentaire
 
@@ -181,6 +211,11 @@ Les élèves, répartis en groupes, manipulent des cartes, des objets ou des ima
 Des exemples de cartes sont disponibles en annexe.
 
 Les élèves enrichissent ensuite la carte mentale collective en y intégrant ces nouvelles classifications. Ils identifient les nouvelles branches à ajouter comme les types de sources, leur caractère renouvelable ou non, et leurs usages. Ils complètent également la branche "FORMES" avec les exemples tirés des cartes. L'enseignant guide les élèves pour établir des connexions significatives entre les différentes branches, rendant ainsi visible la complexité du concept d'énergie.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Structuration%20des%20connaissances.png" alt="Carte mentale - structuration des connaissances" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Carte mentale après la structuration des connaissances</figcaption>
+</figure>
 
 La branche "Sources" se développe considérablement avec une organisation hiérarchique à trois niveaux : État (naturel, transformé), Durabilité (renouvelable, non-renouvelable) et Usages (électricité, chaleur, transport). La branche "Formes" s'enrichit avec l'ajout de l'énergie chimique, et les "Caractéristiques" intègrent la notion de transfert. Les mesures se complètent avec le kilowattheure (kWh).
 
@@ -213,25 +248,41 @@ Comment construire simplement une observation : Connecter une LED aux bornes d'u
 
 De retour en classe entière, les élèves partagent leurs observations en utilisant une fiche d'observation structurée. Cette fiche permet de documenter systématiquement leurs découvertes à chaque station (disponible en annexe pour impression "Fiche d'observation"), avec les champs : Nom de l'élève, Date, Station, Ce que j'observe, Mesures effectuées, Transformation(s) d'énergie observée(s), Schéma de l'expérience, Questions/Remarques.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/ObservationFormEnergyPerspectives.png" alt="Fiche d'observation - stations expérimentales" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Fiche d'observation des stations expérimentales</figcaption>
+</figure>
+
 Après avoir complété leurs fiches, les élèves enrichissent collectivement la carte mentale. Ils détaillent la branche "FORMES" avec les caractéristiques observées à chaque station, ajoutent une branche "CARACTÉRISTIQUES" avec les propriétés découvertes (transformation, transfert, conservation) et une branche "MESURES" avec les unités rencontrées. Les connexions établies entre les différentes formes d'énergie et leurs manifestations renforcent leur compréhension des interactions entre ces concepts.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Sources%20d%C3%A9taill%C3%A9es.png" alt="Carte mentale - sources détaillées" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Carte mentale enrichie avec les sources détaillées</figcaption>
+</figure>
 
 La carte atteint sa forme finale. La définition centrale est plus précise et scientifique. Toutes les branches sont complètes. Chaque étape est représentée avec une couleur différente pour montrer visuellement la progression de la construction collective des connaissances. Cette visualisation permet de montrer comment le concept d'énergie, initialement vague et fragmenté, devient progressivement un concept scientifique structuré et cohérent.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Carte%20mentale%20finale.png" alt="Carte mentale finale" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Carte mentale finale</figcaption>
+</figure>
+
 ### Restitution et réflexion
 
-Connaissances mobilisées : L'exploration a conduit les élèves à comprendre les différentes formes d'énergie, leurs transformations et leurs interactions. La construction collective de la carte mentale illustre l'évolution de leur compréhension, depuis une vision initiale du concept jusqu'à une représentation scientifique de l'énergie.
-
-Réflexion sur la mise en œuvre en classe : L'approche expérimentale avec les stations d'observation facilite l'apprentissage. La manipulation des phénomènes énergétiques aide à l'assimilation des concepts. Le travail collaboratif et l'enrichissement de la carte mentale encouragent les échanges entre élèves.
-
-Résultats d'apprentissage : Une vision globale des formes d'énergie et leurs caractéristiques. La compréhension des principes de conservation et de transformation. Des capacités d'observation et de mesure des phénomènes énergétiques. Une conscience des enjeux liés aux sources d'énergie.
+- **Connaissances mobilisées** : l'exploration a conduit les élèves à comprendre les différentes formes d'énergie, leurs transformations et leurs interactions. La construction collective de la carte mentale illustre l'évolution de leur compréhension, depuis une vision initiale du concept jusqu'à une représentation scientifique de l'énergie.
+- **Réflexion sur la mise en œuvre en classe** : l'approche expérimentale avec les stations d'observation facilite l'apprentissage. La manipulation des phénomènes énergétiques aide à l'assimilation des concepts. Le travail collaboratif et l'enrichissement de la carte mentale encouragent les échanges entre élèves.
+- **Résultats d'apprentissage** : une vision globale des formes d'énergie et leurs caractéristiques ; la compréhension des principes de conservation et de transformation ; des capacités d'observation et de mesure des phénomènes énergétiques ; une conscience des enjeux liés aux sources d'énergie.
 
 Pour approfondir la réflexion et développer une compréhension plus nuancée du concept d'énergie, voici quelques questions clés à explorer collectivement :
 
-Comment une même forme d'énergie se manifeste-t-elle différemment dans notre quotidien ? Par exemple, l'énergie électrique peut produire de la lumière dans une ampoule, du mouvement dans un ventilateur, ou de la chaleur dans un radiateur. L'énergie mécanique peut se manifester par le mouvement d'une voiture, la vibration d'une corde de guitare, ou la rotation d'une éolienne. Quels sont les enjeux liés aux différentes sources d'énergie dans notre société ? Analyse des avantages et inconvénients : coût, impact environnemental, disponibilité, efficacité. Réflexion sur la transition énergétique et les choix de société associés. Comment observer les principes de conservation et de transformation de l'énergie au quotidien ? Dans les transports : transformation de l'énergie chimique du carburant en énergie mécanique et thermique. Dans la cuisine : transformations multiples lors de la cuisson des aliments. Comment notre compréhension de l'énergie influence-t-elle nos comportements ? Impact sur nos choix de consommation et nos habitudes quotidiennes. Développement d'une conscience écologique et énergétique responsable.
+- **Comment une même forme d'énergie se manifeste-t-elle différemment dans notre quotidien ?** Par exemple, l'énergie électrique peut produire de la lumière dans une ampoule, du mouvement dans un ventilateur, ou de la chaleur dans un radiateur. L'énergie mécanique peut se manifester par le mouvement d'une voiture, la vibration d'une corde de guitare, ou la rotation d'une éolienne.
+- **Quels sont les enjeux liés aux différentes sources d'énergie dans notre société ?** Analyse des avantages et inconvénients (coût, impact environnemental, disponibilité, efficacité) et réflexion sur la transition énergétique et les choix de société associés.
+- **Comment observer les principes de conservation et de transformation de l'énergie au quotidien ?** Dans les transports : transformation de l'énergie chimique du carburant en énergie mécanique et thermique. Dans la cuisine : transformations multiples lors de la cuisson des aliments.
+- **Comment notre compréhension de l'énergie influence-t-elle nos comportements ?** Impact sur nos choix de consommation et nos habitudes quotidiennes ; développement d'une conscience écologique et énergétique responsable.
 
 ---
 
-## Étape 2 : Impact environnemental et social des différentes formes d'énergie
+## Phase 2 : Impact environnemental et social des différentes formes d'énergie
 
 ### Contexte de la séquence
 
@@ -239,21 +290,53 @@ Après avoir exploré et identifié les différentes formes d'énergie dans la p
 
 ### Objectifs d'apprentissage
 
-Analyser les impacts environnementaux des différentes formes d'énergie. Comprendre les implications sociales liées aux choix énergétiques. Développer un esprit critique face aux enjeux de la transition énergétique.
+- Analyser les impacts environnementaux des différentes formes d'énergie.
+- Comprendre les implications sociales liées aux choix énergétiques.
+- Développer un esprit critique face aux enjeux de la transition énergétique.
 
 ### Conceptualisation
 
-Question de recherche : Comment les différentes formes d'énergie génèrent-elles des impacts environnementaux et sociaux variés selon leur cycle de vie ?
+:::question[Question de recherche]
+Comment les différentes formes d'énergie génèrent-elles des impacts environnementaux et sociaux variés selon leur cycle de vie ?
+:::
 
-Hypothèse : Chaque forme d'énergie génère des impacts spécifiques qui varient selon les phases de son cycle de vie (production, distribution, utilisation, fin de vie), créant des profils environnementaux et sociaux distincts qui nécessitent une évaluation multicritère pour éviter les transferts de pollution et les inégalités sociales. Concepts clés : Cycle de vie énergétique : Ensemble des étapes depuis l'extraction des ressources jusqu'à la fin de vie des installations (révèle les impacts cachés) ; Impacts systémiques : Conséquences environnementales et sociales qui dépassent le seul moment de production d'énergie (élargit l'analyse aux effets indirects) ; Analyse multicritère : Évaluation simultanée des dimensions environnementales et sociales pour éviter les optimisations partielles (guide les choix équilibrés).
+:::hypothese[Hypothèse]
+Chaque forme d'énergie génère des impacts spécifiques qui varient selon les phases de son cycle de vie (production, distribution, utilisation, fin de vie), créant des profils environnementaux et sociaux distincts qui nécessitent une évaluation multicritère pour éviter les transferts de pollution et les inégalités sociales.
+:::
 
-Question de recherche : Quelles inégalités et injustices sociales sont créées ou reproduites par les choix énergétiques contemporains ?
+**Concepts clés** :
 
-Hypothèse : Les systèmes énergétiques actuels reproduisent et amplifient les inégalités sociales en créant des disparités d'accès, des risques sanitaires différenciés et des bénéfices économiques inégalement répartis, nécessitant une approche de justice énergétique pour analyser ces enjeux. Concepts clés : Justice énergétique : Approche qui examine la répartition équitable des bénéfices et des coûts des systèmes énergétiques (révèle les enjeux d'équité) ; Précarité énergétique : Situation où l'accès à l'énergie est limité par des contraintes économiques ou techniques (illustre les inégalités concrètes) ; Territoires énergétiques : Espaces géographiques qui subissent différemment les conséquences des choix énergétiques (montre les disparités spatiales).
+- **Cycle de vie énergétique** : ensemble des étapes depuis l'extraction des ressources jusqu'à la fin de vie des installations (révèle les impacts cachés).
+- **Impacts systémiques** : conséquences environnementales et sociales qui dépassent le seul moment de production d'énergie (élargit l'analyse aux effets indirects).
+- **Analyse multicritère** : évaluation simultanée des dimensions environnementales et sociales pour éviter les optimisations partielles (guide les choix équilibrés).
 
-Question de recherche : Comment concilier les impératifs environnementaux, sociaux et économiques dans les transitions énergétiques ?
+:::question[Question de recherche]
+Quelles inégalités et injustices sociales sont créées ou reproduites par les choix énergétiques contemporains ?
+:::
 
-Hypothèse : La transition énergétique nécessite des arbitrages complexes entre objectifs environnementaux (réduction des impacts), sociaux (équité et acceptabilité) et économiques (coûts et emplois), qui ne peuvent être résolus que par des approches participatives intégrant toutes les parties prenantes. Concepts clés : Transition juste : Processus de transformation énergétique qui prend en compte les impacts sociaux et assure un accompagnement équitable (guide les politiques de transition) ; Acceptabilité sociale : Degré d'adhésion des populations aux projets énergétiques qui conditionne leur faisabilité (détermine le succès des transitions) ; Arbitrages multi-objectifs : Négociations nécessaires entre objectifs parfois contradictoires dans les choix énergétiques (structure les processus de décision).
+:::hypothese[Hypothèse]
+Les systèmes énergétiques actuels reproduisent et amplifient les inégalités sociales en créant des disparités d'accès, des risques sanitaires différenciés et des bénéfices économiques inégalement répartis, nécessitant une approche de justice énergétique pour analyser ces enjeux.
+:::
+
+**Concepts clés** :
+
+- **Justice énergétique** : approche qui examine la répartition équitable des bénéfices et des coûts des systèmes énergétiques (révèle les enjeux d'équité).
+- **Précarité énergétique** : situation où l'accès à l'énergie est limité par des contraintes économiques ou techniques (illustre les inégalités concrètes).
+- **Territoires énergétiques** : espaces géographiques qui subissent différemment les conséquences des choix énergétiques (montre les disparités spatiales).
+
+:::question[Question de recherche]
+Comment concilier les impératifs environnementaux, sociaux et économiques dans les transitions énergétiques ?
+:::
+
+:::hypothese[Hypothèse]
+La transition énergétique nécessite des arbitrages complexes entre objectifs environnementaux (réduction des impacts), sociaux (équité et acceptabilité) et économiques (coûts et emplois), qui ne peuvent être résolus que par des approches participatives intégrant toutes les parties prenantes.
+:::
+
+**Concepts clés** :
+
+- **Transition juste** : processus de transformation énergétique qui prend en compte les impacts sociaux et assure un accompagnement équitable (guide les politiques de transition).
+- **Acceptabilité sociale** : degré d'adhésion des populations aux projets énergétiques qui conditionne leur faisabilité (détermine le succès des transitions).
+- **Arbitrages multi-objectifs** : négociations nécessaires entre objectifs parfois contradictoires dans les choix énergétiques (structure les processus de décision).
 
 ### Investigation par les élèves
 
@@ -286,7 +369,9 @@ Les élèves commencent par explorer collectivement les documents et définissen
 | Électrique | Pertes réseau, technologies smart grid, mix électrique | Électrification rurale, coûts pour les ménages | Réseaux intelligents, blackouts historiques |
 | Chimique | Cycles de vie des batteries, impact des carburants | Reconversion des métiers, enjeux sanitaires | Gigafactory Tesla, raffineries |
 
+:::info[Notes pour l'enseignant·e]
 Veillez à ce que les dossiers documentaires soient équilibrés et présentent des points de vue variés pour éviter tout biais. Les élèves doivent pouvoir accéder à des informations nuancées sur les avantages et inconvénients de chaque forme d'énergie.
+:::
 
 #### Analyse des impacts environnementaux
 
@@ -333,7 +418,9 @@ Groupe Énergie chimique :
 
 Au terme de cette phase, chaque groupe présente brièvement son tableau environnemental complété au reste de la classe, en mettant en évidence les points les plus significatifs de leur analyse. Un temps court de questions-réponses permet aux autres groupes de demander des précisions ou d'apporter des compléments.
 
+:::info[Notes pour l'enseignant·e]
 Encouragez les élèves à distinguer les impacts locaux des impacts globaux, ainsi que les impacts à court terme de ceux à long terme. Cette distinction favorise une analyse plus nuancée et systémique.
+:::
 
 #### Étude des impacts sociaux
 
@@ -378,11 +465,9 @@ Chaque groupe désigne deux représentants : un expert "environnement" et un exp
 
 Cette réflexion personnelle permet d'ancrer les apprentissages et de faire le lien entre les connaissances théoriques et l'engagement pratique :
 
-Connaissances mobilisées : Cette phase a permis aux élèves d'appréhender la complexité des enjeux énergétiques en intégrant les dimensions environnementales et sociales à leurs connaissances scientifiques préalables. Ils ont développé une compréhension plus nuancée des avantages et inconvénients de chaque forme d'énergie, ainsi que des interdépendances entre choix énergétiques, impacts écologiques et conséquences sociales.
-
-Réflexion sur la mise en œuvre en classe : L'approche par analyse systématique puis débat structuré favorise le développement de l'esprit critique et de la capacité à articuler différentes dimensions d'un problème complexe. Le maintien des groupes spécialisés suivi d'une mise en commun permet d'approfondir l'expertise tout en développant une vision d'ensemble.
-
-Résultats d'apprentissage : Les élèves ont acquis des outils d'analyse multidimensionnelle applicables à d'autres questions socio-scientifiques. Ils ont développé leur capacité à évaluer de façon critique les informations, à considérer différentes perspectives et à formuler des jugements nuancés sur des questions complexes.
+- **Connaissances mobilisées** : cette phase a permis aux élèves d'appréhender la complexité des enjeux énergétiques en intégrant les dimensions environnementales et sociales à leurs connaissances scientifiques préalables. Ils ont développé une compréhension plus nuancée des avantages et inconvénients de chaque forme d'énergie, ainsi que des interdépendances entre choix énergétiques, impacts écologiques et conséquences sociales.
+- **Réflexion sur la mise en œuvre en classe** : l'approche par analyse systématique puis débat structuré favorise le développement de l'esprit critique et de la capacité à articuler différentes dimensions d'un problème complexe. Le maintien des groupes spécialisés suivi d'une mise en commun permet d'approfondir l'expertise tout en développant une vision d'ensemble.
+- **Résultats d'apprentissage** : les élèves ont acquis des outils d'analyse multidimensionnelle applicables à d'autres questions socio-scientifiques. Ils ont développé leur capacité à évaluer de façon critique les informations, à considérer différentes perspectives et à formuler des jugements nuancés sur des questions complexes.
 
 Pour prolonger cette phase et ancrer davantage les apprentissages dans une démarche concrète, plusieurs pistes peuvent être explorées :
 
@@ -393,9 +478,14 @@ Pour prolonger cette phase et ancrer davantage les apprentissages dans une déma
 
 Ces prolongements permettraient aux élèves de mobiliser leurs connaissances dans des contextes concrets, renforçant ainsi leur capacité d'action et leur sentiment de pouvoir contribuer positivement aux défis énergétiques contemporains.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/Enjeux%20soci%C3%A9taux%20de%20l%27%C3%A9nergie%20%28version%20finalis%C3%A9e%29.png" alt="Enjeux sociétaux de l'énergie - synthèse finalisée" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Synthèse finalisée des enjeux sociétaux de l'énergie</figcaption>
+</figure>
+
 ---
 
-## Étape 3 : Imaginer un monde sans l'une ou l'autre de ces formes d'énergie
+## Phase 3 : Imaginer un monde sans l'une ou l'autre de ces formes d'énergie
 
 ### Contexte de la séquence
 
@@ -403,21 +493,53 @@ Après avoir exploré les différentes formes d'énergie (phase 1) et analysé l
 
 ### Objectifs d'apprentissage
 
-Identifier les dépendances critiques à certaines formes d'énergie. Développer des scénarios d'adaptation face à une contrainte énergétique majeure. Comprendre les interconnexions entre les systèmes énergétiques, économiques et sociaux.
+- Identifier les dépendances critiques à certaines formes d'énergie.
+- Développer des scénarios d'adaptation face à une contrainte énergétique majeure.
+- Comprendre les interconnexions entre les systèmes énergétiques, économiques et sociaux.
 
 ### Conceptualisation
 
-Question de recherche : Quelles sont les vulnérabilités cachées de nos systèmes socio-techniques face à la disparition d'une forme d'énergie majeure ?
+:::question[Question de recherche]
+Quelles sont les vulnérabilités cachées de nos systèmes socio-techniques face à la disparition d'une forme d'énergie majeure ?
+:::
 
-Hypothèse : Notre société contemporaine présente des dépendances énergétiques critiques largement invisibles qui, en cas de pénurie d'une forme d'énergie spécifique, révéleraient des vulnérabilités systémiques majeures nécessitant des adaptations en cascade dans tous les secteurs de la société. Concepts clés : Dépendances critiques : Liens vitaux entre une forme d'énergie et le fonctionnement de secteurs essentiels de la société (révèle les points de fragilité du système) ; Effets domino : Propagation des dysfonctionnements d'un secteur à l'autre suite à une pénurie énergétique (illustre les interdépendances systémiques) ; Seuils de résilience : Capacité limitée des systèmes à maintenir leurs fonctions face à une contrainte énergétique (détermine les limites de l'adaptation).
+:::hypothese[Hypothèse]
+Notre société contemporaine présente des dépendances énergétiques critiques largement invisibles qui, en cas de pénurie d'une forme d'énergie spécifique, révéleraient des vulnérabilités systémiques majeures nécessitant des adaptations en cascade dans tous les secteurs de la société.
+:::
 
-Question de recherche : Quelles capacités d'adaptation et d'innovation émergent face à une contrainte énergétique majeure ?
+**Concepts clés** :
 
-Hypothèse : Les contraintes énergétiques sévères stimulent l'innovation technique et sociale, favorisant l'émergence de solutions alternatives et de nouveaux modes d'organisation qui peuvent s'avérer plus durables et équitables que les systèmes actuels. Concepts clés : Innovation sous contrainte : Processus créatif déclenché par la rareté qui génère des solutions techniques et sociales inédites (montre le potentiel adaptatif humain) ; Réorganisation sociale : Transformation des modes de vie et d'organisation collective pour s'adapter aux nouvelles conditions énergétiques (explore les alternatives sociétales) ; Sobriété créative : Approche qui transforme les limitations énergétiques en opportunités d'amélioration de la qualité de vie (dépasse la vision de privation).
+- **Dépendances critiques** : liens vitaux entre une forme d'énergie et le fonctionnement de secteurs essentiels de la société (révèle les points de fragilité du système).
+- **Effets domino** : propagation des dysfonctionnements d'un secteur à l'autre suite à une pénurie énergétique (illustre les interdépendances systémiques).
+- **Seuils de résilience** : capacité limitée des systèmes à maintenir leurs fonctions face à une contrainte énergétique (détermine les limites de l'adaptation).
 
-Question de recherche : Comment les scénarios prospectifs de pénurie énergétique éclairent-ils les choix énergétiques actuels ?
+:::question[Question de recherche]
+Quelles capacités d'adaptation et d'innovation émergent face à une contrainte énergétique majeure ?
+:::
 
-Hypothèse : L'exploration imaginée de futurs contraints énergétiquement permet de révéler les enjeux cachés des choix énergétiques contemporains et de développer une conscience critique des vulnérabilités et opportunités de nos systèmes actuels. Concepts clés : Prospective énergétique : Méthode d'exploration des futurs possibles pour éclairer les décisions présentes (guide l'anticipation stratégique) ; Rétropolation (backcasting) : Reconstruction des chemins possibles depuis un futur imaginé vers le présent (structure la planification de transition) ; Résilience énergétique : Capacité d'un système à maintenir ses fonctions essentielles malgré les perturbations énergétiques (oriente les stratégies préventives).
+:::hypothese[Hypothèse]
+Les contraintes énergétiques sévères stimulent l'innovation technique et sociale, favorisant l'émergence de solutions alternatives et de nouveaux modes d'organisation qui peuvent s'avérer plus durables et équitables que les systèmes actuels.
+:::
+
+**Concepts clés** :
+
+- **Innovation sous contrainte** : processus créatif déclenché par la rareté qui génère des solutions techniques et sociales inédites (montre le potentiel adaptatif humain).
+- **Réorganisation sociale** : transformation des modes de vie et d'organisation collective pour s'adapter aux nouvelles conditions énergétiques (explore les alternatives sociétales).
+- **Sobriété créative** : approche qui transforme les limitations énergétiques en opportunités d'amélioration de la qualité de vie (dépasse la vision de privation).
+
+:::question[Question de recherche]
+Comment les scénarios prospectifs de pénurie énergétique éclairent-ils les choix énergétiques actuels ?
+:::
+
+:::hypothese[Hypothèse]
+L'exploration imaginée de futurs contraints énergétiquement permet de révéler les enjeux cachés des choix énergétiques contemporains et de développer une conscience critique des vulnérabilités et opportunités de nos systèmes actuels.
+:::
+
+**Concepts clés** :
+
+- **Prospective énergétique** : méthode d'exploration des futurs possibles pour éclairer les décisions présentes (guide l'anticipation stratégique).
+- **Rétropolation (backcasting)** : reconstruction des chemins possibles depuis un futur imaginé vers le présent (structure la planification de transition).
+- **Résilience énergétique** : capacité d'un système à maintenir ses fonctions essentielles malgré les perturbations énergétiques (oriente les stratégies préventives).
 
 ### Investigation par les élèves
 
@@ -437,9 +559,9 @@ Dans notre proposition, nous combinons ces approches pour permettre aux élèves
 
 L'enseignant commence par une séance d'introduction expliquant l'objectif de cette nouvelle phase : il s'agit d'un exercice de prospective qui vise à imaginer un futur alternatif où une forme d'énergie serait absente ou drastiquement limitée.
 
-FLASH INFO SPÉCIAL : CRISE ÉNERGÉTIQUE MAJEURE
-
+:::note[FLASH INFO SPÉCIAL — Crise énergétique majeure]
 Suite à un incident international majeur, le gouvernement vient d'annoncer des mesures d'urgence exceptionnelles. À partir de demain et pour une durée indéterminée, des restrictions sévères seront mises en place concernant une source d'énergie essentielle. Les experts préviennent : cette crise pourrait durer bien plus longtemps que prévu initialement. Les autorités appellent au calme et à la solidarité nationale face à cette situation sans précédent...
+:::
 
 L'enseignant lance ensuite la discussion avec des questions simples :
 
@@ -456,37 +578,39 @@ Les élèves sont répartis en trois groupes thématiques, chacun explorant un s
 
 Chaque groupe reçoit une fiche de mission simple et concrète qui structure leur exploration (version vierge en annexe "Fiche de mission").
 
-Exemple pour le Groupe 1 (Une semaine sans électricité)
+Exemple pour le Groupe 1 — **Mission : explorer un monde avec peu d'électricité**
 
-**MISSION : EXPLORER UN MONDE AVEC PEU D'ÉLECTRICITÉ**
+- **Situation** : suite à une défaillance majeure des infrastructures, l'approvisionnement en électricité devient extrêmement limité. Les experts annoncent une crise qui s'aggravera progressivement.
+- **Votre défi** : imaginer comment notre société s'adapterait à cette pénurie sur différentes périodes.
 
-Situation : Suite à une défaillance majeure des infrastructures, l'approvisionnement en électricité devient extrêmement limité. Les experts annoncent une crise qui s'aggravera progressivement.
+**Phase 1 — URGENCE (1 semaine)**
 
-Votre défi : Imaginer comment notre société s'adapterait à cette pénurie sur différentes périodes.
-
-Phase 1 — URGENCE (1 semaine)
 1. Quels services essentiels seraient immédiatement affectés ?
 2. Comment assurer les besoins vitaux (nourriture, eau, soins, sécurité) ?
 3. Quelles solutions d'urgence pourraient être déployées rapidement ?
 4. Qui serait le plus vulnérable et comment les protéger ?
 
-Phase 2 — ADAPTATION (1 an)
+**Phase 2 — ADAPTATION (1 an)**
+
 1. Comment les habitudes quotidiennes changeraient-elles ?
 2. Quelles alternatives techniques pourraient être développées ?
 3. Comment les écoles, entreprises et services publics se réorganiseraient-ils ?
 4. Quelles nouvelles compétences deviendraient essentielles ?
 
-Phase 3 — TRANSFORMATION (10 ans)
+**Phase 3 — TRANSFORMATION (10 ans)**
+
 1. Comment l'habitat et l'urbanisme évolueraient-ils ?
 2. Quelles innovations majeures apparaîtraient ?
 3. Comment le travail, l'éducation et les loisirs seraient-ils repensés ?
 4. Quels aspects de la vie actuelle disparaîtraient et quels nouveaux modes de vie émergeraient ?
 
-Production attendue : Un dossier "Vivre sans électricité" présentant vos analyses et solutions pour chaque phase, illustré par des exemples concrets et des schémas explicatifs.
+**Production attendue** : un dossier "Vivre sans électricité" présentant vos analyses et solutions pour chaque phase, illustré par des exemples concrets et des schémas explicatifs.
 
 Les élèves prennent un temps de réflexion individuelle pour noter leurs premières idées sur le scénario qui leur est attribué. Ils partagent ensuite ces idées au sein de leur groupe et commencent à esquisser collectivement les contours de leur monde sans la forme d'énergie concernée.
 
+:::info[Notes pour l'enseignant·e]
 Encouragez les élèves à trouver un équilibre entre imagination créative et réalisme scientifique. Leurs scénarios doivent être à la fois originaux et ancrés dans les connaissances acquises lors des phases précédentes.
+:::
 
 #### Analyse des impacts en cascade
 
@@ -535,9 +659,9 @@ Après avoir analysé les impacts sectoriels, chaque groupe crée un "Guide du n
 
 Le guide peut prendre la forme d'un dépliant illustré ou d'une série d'affiches thématiques avec dessins, schémas et textes courts. L'objectif est de montrer que la société n'a pas simplement survécu, mais s'est transformée en développant de nouvelles façons de satisfaire ses besoins fondamentaux.
 
-Exemple : La vie sans électricité : Guide pratique pour les nouveaux habitants : 2035
+Exemple — **La vie sans électricité : guide pratique pour les nouveaux habitants, 2035**
 
-**ORGANISATION DE NOTRE COMMUNAUTÉ**
+**Organisation de notre communauté**
 
 Notre quartier fonctionne selon le rythme solaire. Les activités communes suivent un calendrier strict affiché sur la place centrale :
 
@@ -546,30 +670,33 @@ Notre quartier fonctionne selon le rythme solaire. Les activités communes suive
 - **14h à 18h** : travaux collectifs selon le planning hebdomadaire
 - **Coucher du soleil** : activités culturelles et sociales (contes, musique, jeux)
 
-**ÉQUIPEMENTS ESSENTIELS À CONNAÎTRE**
+**Équipements essentiels à connaître**
 
 - **La tour des miroirs** : notre système d'éclairage public utilisant des miroirs orientables pour rediriger la lumière solaire dans les rues principales
 - **Les puits de fraîcheur** : caves communautaires naturellement fraîches pour la conservation des aliments
 - **L'atelier cinétique** : où vous pourrez recharger vos appareils mécaniques grâce aux vélos générateurs
 - **La bibliothèque des savoirs** : conserve les connaissances techniques sur papier et forme aux compétences essentielles
 
-**COMPÉTENCES VALORISÉES**
+**Compétences valorisées**
 
 - **Réparation mécanique** : entretien des systèmes à ressort et des mécanismes manuels
 - **Gestion thermique passive** : techniques pour réguler la température sans électricité
 - **Communication optique** : utilisation des héliographes et des systèmes de signaux visuels
 - **Médecine préventive** : pratiques de santé naturelles et premiers secours
 
-**OBJETS DU QUOTIDIEN**
+**Objets du quotidien**
 
 - **La montre à quartz solaire** : remplace les horloges électriques
 - **Le réfrigérateur à absorption** : fonctionne avec une petite flamme ou la chaleur solaire
 - **La radio à manivelle** : pour les communications d'urgence et les nouvelles hebdomadaires
 - **L'éclairage à biomasse purifiée** : lampes propres et efficaces remplaçant les ampoules
 
-**UNE JOURNÉE TYPE À NOUVELLE-CLARTÉ**
+**Une journée type à Nouvelle-Clarté**
 
-Matin : Réveil avec la lumière naturelle. Petit-déjeuner préparé sur le four solaire communautaire. Les enfants se rendent à l'école à pied, accompagnés par les parents de garde du jour. Les adultes rejoignent leurs activités, principalement situées à moins de 15 minutes à pied. Midi : La cloche manuelle sonne le rassemblement au réfectoire. Les repas, préparés avec les produits des jardins communautaires, sont servis sur des plats réutilisables que chacun rapporte chez soi pour les laver. Après-midi : Travail dans les ateliers ou les jardins. L'après-midi du mercredi est consacré à l'entretien des systèmes communautaires (nettoyage des panneaux solaires, maintenance des systèmes de récupération d'eau). Soir : Avec la baisse de luminosité, les activités se recentrent autour des foyers et des places publiques éclairées par les lampes centrales. Lecture, musique acoustique et jeux de société ont remplacé les écrans. Le couvre-feu naturel intervient vers 21h en hiver, plus tard en été.
+- **Matin** : réveil avec la lumière naturelle. Petit-déjeuner préparé sur le four solaire communautaire. Les enfants se rendent à l'école à pied, accompagnés par les parents de garde du jour. Les adultes rejoignent leurs activités, principalement situées à moins de 15 minutes à pied.
+- **Midi** : la cloche manuelle sonne le rassemblement au réfectoire. Les repas, préparés avec les produits des jardins communautaires, sont servis sur des plats réutilisables que chacun rapporte chez soi pour les laver.
+- **Après-midi** : travail dans les ateliers ou les jardins. L'après-midi du mercredi est consacré à l'entretien des systèmes communautaires (nettoyage des panneaux solaires, maintenance des systèmes de récupération d'eau).
+- **Soir** : avec la baisse de luminosité, les activités se recentrent autour des foyers et des places publiques éclairées par les lampes centrales. Lecture, musique acoustique et jeux de société ont remplacé les écrans. Le couvre-feu naturel intervient vers 21h en hiver, plus tard en été.
 
 ### Restitution et réflexion
 
@@ -577,11 +704,9 @@ Matin : Réveil avec la lumière naturelle. Petit-déjeuner préparé sur le fou
 
 La confrontation des différents scénarios révèle des enseignements précieux :
 
-Connaissances mobilisées : Cette phase a permis aux élèves de développer une compréhension approfondie des multiples rôles que jouent les différentes formes d'énergie dans notre société. En imaginant des mondes sans certaines énergies, ils ont pu mesurer concrètement l'ampleur de notre dépendance énergétique tout en découvrant le potentiel d'adaptation et d'innovation face à des contraintes majeures. Le tableau de synthèse élaboré collectivement met en évidence les vulnérabilités majeures, les adaptations prometteuses et les transformations profondes associées à chaque forme d'énergie.
-
-Réflexion sur la mise en œuvre en classe : L'approche par scénarios temporels (urgence, adaptation, transformation) s'est avérée particulièrement efficace pour comprendre les différentes dynamiques d'ajustement, des réponses immédiates aux transformations structurelles. Le recours aux récits concrets a permis de rendre tangibles des concepts parfois abstraits et de mobiliser différents types d'intelligence et de créativité. La table ronde comparative a favorisé l'émergence d'une vision systémique des enjeux énergétiques.
-
-Résultats d'apprentissage : Les élèves ont développé leur capacité à analyser des situations complexes, à identifier des interdépendances systémiques, et à imaginer des solutions créatives face à des contraintes. Les réflexions personnelles rédigées par chaque élève témoignent d'une prise de conscience approfondie des enjeux de résilience et de soutenabilité, tout en révélant une vision plus nuancée des différentes formes d'énergie, au-delà des simples classifications techniques vues dans la première phase.
+- **Connaissances mobilisées** : cette phase a permis aux élèves de développer une compréhension approfondie des multiples rôles que jouent les différentes formes d'énergie dans notre société. En imaginant des mondes sans certaines énergies, ils ont pu mesurer concrètement l'ampleur de notre dépendance énergétique tout en découvrant le potentiel d'adaptation et d'innovation face à des contraintes majeures. Le tableau de synthèse élaboré collectivement met en évidence les vulnérabilités majeures, les adaptations prometteuses et les transformations profondes associées à chaque forme d'énergie.
+- **Réflexion sur la mise en œuvre en classe** : l'approche par scénarios temporels (urgence, adaptation, transformation) s'est avérée particulièrement efficace pour comprendre les différentes dynamiques d'ajustement, des réponses immédiates aux transformations structurelles. Le recours aux récits concrets a permis de rendre tangibles des concepts parfois abstraits et de mobiliser différents types d'intelligence et de créativité. La table ronde comparative a favorisé l'émergence d'une vision systémique des enjeux énergétiques.
+- **Résultats d'apprentissage** : les élèves ont développé leur capacité à analyser des situations complexes, à identifier des interdépendances systémiques, et à imaginer des solutions créatives face à des contraintes. Les réflexions personnelles rédigées par chaque élève témoignent d'une prise de conscience approfondie des enjeux de résilience et de soutenabilité, tout en révélant une vision plus nuancée des différentes formes d'énergie, au-delà des simples classifications techniques vues dans la première phase.
 
 Pour ancrer ces apprentissages dans une perspective citoyenne active, plusieurs prolongements peuvent être envisagés :
 
@@ -596,136 +721,17 @@ Cette phase, en venant compléter les deux précédentes sur les formes d'énerg
 
 ## Annexes
 
-### Fiche d'observation
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Fiche d'observation pour les stations expérimentales (Phase 1)
+- Grille d'analyse des impacts environnementaux et sociaux, avec partie cas concret, cas d'étude social et synthèse (Phase 2)
+- Fiche de mission pour les scénarios de pénurie énergétique (Phase 3)
+- Matrice d'analyse sectorielle sur trois horizons temporels (Phase 3)
+:::
 
-Nom de l'élève : Date :
-
-- Station
-- Ce que j'observe
-- Mesures effectuées
-- Transformation(s) d'énergie observée(s)
-- Schéma de l'expérience
-- Questions/Remarques
-
-### Grille d'analyse des impacts sociaux et environnementaux
-
-Forme d'énergie :
-Nom des membres du groupe :
-Date :
-
-**PARTIE 1 : IMPACTS ENVIRONNEMENTAUX**
-
-Complétez le tableau ci-dessous en identifiant les impacts positifs et négatifs de votre forme d'énergie à chaque étape de son cycle de vie.
-
-| Étape du cycle de vie | Impacts positifs | Impacts négatifs |
-|---|---|---|
-| PRODUCTION (Extraction des ressources, construction des installations, fabrication des équipements) | | |
-| DISTRIBUTION (Transport, stockage, réseaux) | | |
-| UTILISATION (Fonctionnement, maintenance, efficacité) | | |
-| FIN DE VIE (Démantèlement, recyclage, déchets) | | |
-
-Critères environnementaux à considérer :
-
-- Émissions de gaz à effet de serre (CO₂, méthane, etc.)
-- Autres polluants atmosphériques (particules fines, NOx, SOx, etc.)
-- Consommation de ressources (matières premières, eau, terres)
-- Impact sur la biodiversité et les écosystèmes
-- Déchets générés (quantité, toxicité, durée de vie)
-- Possibilités de recyclage et d'économie circulaire
-- Efficacité énergétique (rendement, pertes)
-- Résilience face aux changements climatiques
-
-**CAS CONCRET**
-
-Analysez en détail un exemple spécifique illustrant les impacts environnementaux de votre forme d'énergie.
-
-- Nom du cas :
-- Description de l'installation/technologie :
-- Principaux impacts environnementaux positifs :
-- Principaux impacts environnementaux négatifs :
-- Solutions ou technologies d'atténuation existantes :
-
-**PARTIE 2 : IMPACTS SOCIAUX**
-
-Explorez les implications sociales de votre forme d'énergie selon les quatre axes suivants.
-
-AXE 1 : ACCÈS À L'ÉNERGIE
-
-| Questions | Analyse et exemples |
-|---|---|
-| Disponibilité géographique de cette forme d'énergie | |
-| Coût pour l'utilisateur final | |
-| Fiabilité et stabilité de l'approvisionnement | |
-| Inégalités territoriales observées | |
-| Solutions possibles pour un accès plus équitable | |
-
-AXE 2 : EMPLOI ET FORMATION
-
-| Questions | Analyse et exemples |
-|---|---|
-| Types et nombre d'emplois générés | |
-| Qualifications requises | |
-| Évolution des métiers et compétences | |
-| Impact sur les économies locales | |
-| Besoins en formation et reconversion | |
-
-AXE 3 : SANTÉ ET BIEN-ÊTRE
-
-| Questions | Analyse et exemples |
-|---|---|
-| Risques sanitaires directs | |
-| Effets indirects sur la qualité de vie | |
-| Perception du risque par les populations | |
-| Mesures de prévention et protection | |
-| Bénéfices potentiels pour la santé | |
-
-AXE 4 : ORGANISATION SOCIALE
-
-| Questions | Analyse et exemples |
-|---|---|
-| Gouvernance et participation citoyenne | |
-| Autonomie énergétique des territoires | |
-| Évolution des modes de consommation | |
-| Acceptabilité sociale des infrastructures | |
-| Nouvelles formes d'organisation collective | |
-
-**CAS D'ÉTUDE SOCIAL**
-
-Présentez un exemple concret illustrant les enjeux sociaux liés à votre forme d'énergie.
-
-- Nom du cas :
-- Contexte du cas d'étude :
-- Acteurs impliqués et leurs positions :
-- Principaux enjeux sociaux identifiés :
-- Pistes de solutions ou compromis possibles :
-
-**PARTIE 3 : SYNTHÈSE ET PROPOSITIONS**
-
-- Forces et faiblesses principales
-- Forces
-- Faiblesses
-
-### Fiche de mission
-
-- MISSION
-- Situation
-- Votre défi
-- Phase 1 — URGENCE (1 semaine)
-- Phase 2 — ADAPTATION (1 an)
-- Phase 3 — TRANSFORMATION (10 ans)
-- Production attendue
-
-### Matrice d'analyse sectorielle
-
-| Secteur | Phase d'urgence (1 semaine) | Phase d'adaptation (1 an) | Phase de transformation (10 ans) |
-|---|---|---|---|
-| Transport | | | |
-| Habitat et bâtiments | | | |
-| Production industrielle | | | |
-| Agriculture et alimentation | | | |
-| Services et commerce | | | |
-| Communications et numérique | | | |
-| Santé et éducation | | | |
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/energy-perspectives/ObservationFormEnergyPerspectives.png" alt="Fiche d'observation - Phase 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Fiche d'observation imprimable des stations expérimentales</figcaption>
+</figure>
 
 ---
 

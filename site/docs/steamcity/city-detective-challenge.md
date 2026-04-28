@@ -48,21 +48,7 @@ Bienvenue dans le Défi du Détective Urbain, un protocole expérimental conçu 
 
 La ville, en tant que système vivant et complexe, sert de terrain d'enquête. Elle permet aux élèves de découvrir les rouages de l'administration publique, les formes d'engagement citoyen et les services qui structurent la vie collective. À travers des jeux de rôle, des simulations et des sorties sur le terrain, les élèves sont amenés à décrypter les fonctions des services municipaux et à en mesurer les effets sur leur quotidien. Les défis proposés mobilisent une variété de compétences : observation, recherche, collecte de données, cartographie, résolution de problèmes et prise de décision. Chaque activité reflète des situations réalistes de gestion urbaine, offrant aux élèves une compréhension concrète des mécanismes de la vie de la cité. Le protocole encourage une posture active et critique : les élèves interrogent leur environnement, analysent les structures urbaines et développent leur capacité à formuler des réponses éclairées. Il contribue ainsi à former des citoyens attentifs et engagés. Adapté à l'enseignement secondaire, ce protocole peut s'inscrire dans plusieurs disciplines telles que l'éducation civique, la géographie ou la technologie. Il permet une application pratique des notions de gouvernance locale, de services collectifs et de citoyenneté active, tout en renforçant les compétences en cartographie et en favorisant une lecture critique de l'aménagement urbain.
 
-Cette activité initie les élèves à la dimension citoyenne du projet SteamCity. Elle les prépare à adopter une posture active sur le terrain, les engage dans l'observation de leur environnement urbain et les initie à une lecture critique de l'espace public. Elle constitue ainsi une mise en situation concrète, essentielle pour ancrer les futures expérimentations dans des réalités vécues. Elle joue un rôle structurant dans la formation de leur citoyenneté. En analysant les services municipaux et leurs effets, les élèves prennent conscience des enjeux collectifs et des responsabilités partagées. Cette expérience alimente les démarches scientifiques ultérieures, en donnant du sens aux données produites et en renforçant leur implication dans les problématiques territoriales. Bien qu'elle repose moins sur des outils technologiques, elle conserve une approche rigoureuse fondée sur l'investigation : recherche documentaire, collecte de données de terrain, structuration cartographique.
-
-### Étape 1 : Jeu d'introduction aux services citoyens
-
-À l'issue du jeu, un greffier de séance est désigné lors de la phase de conclusion. Il ou elle consigne les éléments clés sur les services et départements rencontrés. Cette première contribution initie la documentation collective.
-
-### Étape 2 : Promenade de données et cartographie
-
-Après les recherches et observations de terrain, les élèves préparent une synthèse écrite ou une présentation. Chaque groupe consigne ses résultats dans le Carnet du Détective. Cela permet de relier l'observation directe aux savoirs acquis.
-
-### Étape 3 : Simulation de crises
-
-Lors des discussions en table ronde, un greffier de crise note les solutions proposées par chaque groupe dans le carnet. Ces contributions servent de base à la construction d'une réponse collective à la crise simulée, enrichissant l'analyse commune.
-
-Une fois complété, le Carnet du Détective constitue une trace écrite de l'enquête et une documentation partagée des apprentissages. Il peut être imprimé ou distribué individuellement. Une version imprimable est disponible en annexe du protocole, ou en ligne sur Miroverse : https://miro.com/miroverse/detective-clue-board/?social=copy-link
+Cette activité initie les élèves à la dimension citoyenne du projet SteamCity. Elle les prépare à adopter une posture active sur le terrain, les engage dans l'observation de leur environnement urbain et les initie à une lecture critique de l'espace public. Elle joue un rôle structurant dans la formation de leur citoyenneté : en analysant les services municipaux et leurs effets, les élèves prennent conscience des enjeux collectifs et des responsabilités partagées. Bien qu'elle repose moins sur des outils technologiques, elle conserve une approche rigoureuse fondée sur l'investigation : recherche documentaire, collecte de données de terrain, structuration cartographique.
 
 ### Structure du protocole
 
@@ -76,34 +62,13 @@ Simulation de crise et mise en situation. Dans l'étape finale, les élèves sim
 
 Chacune de ces étapes est conçue pour être interactive et engageante, permettant aux élèves de développer une solide compréhension des services et du fonctionnement de la ville et de son impact sur la communauté.
 
-Si le protocole semble difficile à organiser dans son intégralité, il peut être fractionné et intégré progressivement dans d'autres actions pédagogiques de l'établissement, facilitant ainsi sa mise en œuvre. Voici quelques conseils pour adapter les différentes phases et rendre l'activité moins dense :
+Si le protocole semble difficile à organiser dans son intégralité, il peut être fractionné et intégré progressivement dans d'autres actions pédagogiques de l'établissement. Quelques conseils pour adapter les phases :
 
-Conseil 1. Jeu d'introduction aux services publics. La durée du jeu peut être modulée selon les contraintes horaires. Si le temps est limité, il est possible de réduire le nombre de tours joués. Même avec une participation brève, des demandes variées et des échanges riches émergent dès les premiers tours, rendant l'activité efficace même en format court.
+- **Jeu d'introduction** : la durée peut être modulée selon les contraintes horaires en réduisant le nombre de tours. Même en format court, les premiers tours suffisent à faire émerger des demandes variées et des échanges riches.
+- **Promenade de données et cartographie** : peut s'intégrer à une sortie scolaire ou être découpée en séances distinctes. Le travail de cartographie sur uMap peut être mené en cours de technologie ou de géographie. En l'absence d'accès informatique en classe, les élèves peuvent collaborer en groupes avec un accès mutualisé à un ordinateur.
+- **Simulation finale** : peut se tenir durant une séance prolongée ou être répartie sur plusieurs séances courtes. Il est possible de réduire le nombre de crises traitées, voire de se concentrer sur un seul scénario pour permettre une analyse plus approfondie.
 
-Conseil 2. Promenade de données et cartographie. Cette activité peut s'intégrer à une sortie scolaire, ou être découpée en séances distinctes. Les élèves peuvent effectuer des observations ciblées dans leur quartier en dehors du temps scolaire. Le travail de cartographie sur uMap peut être mené en cours de technologie ou de géographie. En l'absence d'accès informatique en classe, les élèves peuvent collaborer en groupes, avec un accès mutualisé à un ordinateur.
-
-Conseil 3. Simulation finale « Défi du Détective Urbain ». La simulation peut se tenir durant une séance prolongée, ou être répartie sur plusieurs séances courtes. Les groupes travaillent sur leurs stratégies et négociations en classe, avec des présentations différées dans le temps. Il est possible de réduire le nombre de crises traitées, voire de se concentrer sur un seul scénario, pour permettre une analyse plus approfondie et un débat collectif ciblé.
-
-Liens utiles :
-
-- **uMap/Guide** : OpenStreetMap Wiki
-- **Tutoriel** : Umap / Openstreetmap (carte enrichie) (+ 2e tuto plus simple en description)
-- **Tutoriel** : Umap, croquis et carte interactive (bases sans création de compte)
-- **Accueil** : OpenStreetMap France
-- SimCity 2013 All Disasters
-- How to Play Order Overload Cafe Card Game in 2 Minutes
-
-Mesures, Durée, Difficulté, Matériel
-
-Un jeu complet pour toute la classe (peut être facilement imprimé et découpé, disponible pour impression et reproduction en annexe). Carnet du Détective (disponible en annexe). 15 à 30 minutes selon le nombre de tours — Jeu introductif, utilisé pour consigner les observations, analyses et apprentissages réalisés tout au long des séances. Il sert de support de suivi individuel ou collectif, facilitant la consolidation des connaissances et la structuration des démarches d'enquête.
-
-15 minutes pour la recherche + 30 à 60 minutes pour la promenade — Approfondissement des connaissances : Des fonds de cartes du quartier cartographié ; Un accès Internet pour accéder à uMap ou à un logiciel de cartographie similaire ; Carnet du Détective.
-
-15 à 20 minutes pour la discussion individuelle en groupe + 30 à 45 minutes de débat collectif — Simulation de crise et mise en situation : Matériel de prise de notes ; Liste d'alerte de crise (en annexe) ; Minuteur ; Carnet du Détective.
-
-Présentation du Carnet du Détective : Le Carnet du Détective est un outil central du protocole « Défi du détective urbain ». Il sert de fil conducteur tout au long de la séquence, offrant un support structuré pour organiser observations, analyses et solutions formulées par les élèves. Construit de manière collaborative au sein de la classe, il accompagne la structuration progressive des apprentissages.
-
-Le carnet est divisé en trois sections, chacune correspondant à une étape de la séquence. Chaque section intègre des modèles de prises de notes, croquis, tableaux de données, facilitant une documentation claire et complète du parcours d'enquête. Les élèves sont invités à mettre à jour le carnet après chaque activité, assurant une continuité dans la construction des savoirs.
+Le **Carnet du Détective** est un outil central du protocole : il sert de fil conducteur tout au long de la séquence et offre un support structuré pour organiser observations, analyses et solutions. Construit collaborativement au sein de la classe, il est divisé en trois sections (une par étape) et accompagne la structuration progressive des apprentissages. Les élèves le mettent à jour après chaque activité.
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -181,7 +146,9 @@ Les services abordés dans le jeu sont regroupés selon des catégories représe
 
 **Service de la voirie et propreté des espaces publics** — Missions principales : Réfection des routes, Équipement, Signalisation, Espaces verts, Propreté urbaine, Cimetière. Demandes : Dégradation des panneaux de signalisation ; Plan de circulation pour événement exceptionnel ; Dégradation de voirie cyclable ; Dégradation de mobilier urbain ; Trottoir endommagé ; Signalement de lampadaire défectueux ; Signalement de graffiti sur bâtiment public ; Problème de propreté dans un parc public ; Réclamation pour voirie abîmée ; Autorisation de stationnement pour déménagement ; Problème d'éclairage public.
 
-Conseil aux enseignants : Si les services municipaux ou les demandes citoyennes diffèrent dans votre pays, votre ville, ou ne correspondent pas exactement à votre contexte local, n'hésitez pas à adapter le contenu en créant votre propre liste, en suivant le même format de tableau que celui proposé ci-dessous. Nous mettons à votre disposition les cartes Canva modifiables, afin que vous puissiez créer une version personnalisée. La liste fournie est construite à partir de l'exemple d'une ville française moyenne. Certains services ont été regroupés pour en simplifier la compréhension et limiter le nombre de groupes nécessaires lors des étapes suivantes.
+:::info[Notes pour l'enseignant·e]
+Si les services municipaux ou les demandes citoyennes diffèrent de votre contexte local, n'hésitez pas à adapter le contenu en créant votre propre liste sur le même format. Les cartes Canva modifiables sont disponibles pour créer une version personnalisée. La liste fournie est construite à partir de l'exemple d'une ville française moyenne ; certains services ont été regroupés pour limiter le nombre de groupes nécessaires aux étapes suivantes.
+:::
 
 ### Investigation par les élèves
 
@@ -198,26 +165,31 @@ Le nombre de demandes est égal au nombre de joueurs multiplié par le numéro d
 
 La responsabilité du réceptionniste en chef tourne à chaque tour dans le sens des aiguilles d'une montre.
 
-Ci-dessous, voici le déroulement typique d'une séquence de jeu :
+Le matériel du jeu se compose des cartes « Demandes » (recto/verso) et des cartes « Bonus » :
 
-Préparation : Commencez par mélanger les cartes « Demandes » et les cartes « Bonus » séparément pour faire deux piles. Placez les marqueurs de tour face cachée sur la table (comme sur l'image ci-dessous). Ces marqueurs aident à suivre la progression des tours et à déterminer le nombre de cartes « Demandes » à distribuer. Tirez le nombre de cartes nécessaires pour le premier tour selon les instructions du marqueur « Tour 1 ».
+<div style={{display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
+  <img src="/img/ressources/steamcity/city-detective-challenge/carteface.png" alt="Carte Demande - face" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/cartesdos.png" alt="Carte Demande - dos" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/cartesbonus.png" alt="Cartes Bonus" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
-Annonce des demandes : Le réceptionniste en chef lit à voix haute la liste des demandes reçues des citoyens ; fort, lentement et distinctement.
+Déroulement typique d'une séquence de jeu :
 
-Distribution des demandes : Les cartes « Demande » sont ensuite réparties équitablement entre tous les agents de réception (joueurs). Chaque agent regarde ses cartes et doit se souvenir des demandes détenues par les autres.
+1. **Préparation** : mélanger séparément les cartes « Demandes » et « Bonus » pour former deux piles. Placer les marqueurs de tour face cachée sur la table. Tirer le nombre de cartes indiqué par le marqueur « Tour 1 ».
+2. **Annonce des demandes** : le réceptionniste en chef lit la liste à voix haute, lentement et distinctement.
+3. **Distribution** : les cartes sont réparties équitablement entre les joueurs. Chacun lit ses cartes et mémorise celles des autres.
+4. **Action du joueur** : à tour de rôle, chaque joueur énonce une demande dont il se souvient. Un joueur qui passe ne peut plus parler pendant ce tour.
+5. **Vérification** : si la demande est correcte, la carte est défaussée ; sinon, le joueur perd la parole jusqu'à la fin du tour.
+6. **Fin d'un tour** : le tour est réussi si la moitié des joueurs ou plus ont défaussé toutes leurs cartes. Le marqueur passe sur sa face rose et le rôle de réceptionniste change.
+7. **Fin du jeu** : au tour 6 réussi, à un tour échoué, ou selon le temps disponible.
 
-Action du joueur : À tour de rôle, en commençant par le réceptionniste en chef, chaque joueur énonce une demande dont il se souvient. Si un agent passe son tour, il ne peut plus énoncer de nouvelles demandes pendant ce tour.
+**Décompte final (facultatif)** : le jeu est coopératif. Les titres honorifiques selon les tours réussis :
 
-Vérification : Après chaque annonce, les joueurs vérifient leur main. Si la demande est correcte, la carte est défaussée. Si elle est incorrecte, le joueur perd la parole pour le reste du tour.
-
-Fin d'un tour : Le tour se termine lorsque la moitié des joueurs ou plus ont défaussé toutes leurs cartes. Si le tour est réussi, le marqueur de tour est retourné côté rose pour signaler la réussite. Le rôle de réceptionniste en chef est passé au joueur suivant.
-
-Fin du jeu : Le jeu se termine : si le tour 6 est réussi ; si un tour est infructueux ; ou si vous décidez d'arrêter plus tôt selon le temps disponible.
-
-Décompte final (facultatif) : Le jeu est coopératif, les joueurs gagnent ou perdent ensemble. Un système de points permet d'attribuer des titres honorifiques :
 - Aspirants Assistants Administratifs (tour 4)
 - Observateurs de la Ville (tour 5)
 - Maestros de l'Hôtel de Ville (tour 6)
+
+<img src="/img/ressources/steamcity/city-detective-challenge/exempletourdejeu.png" alt="Exemple de tour de jeu" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Restitution et réflexion
 
@@ -381,6 +353,17 @@ Tableau de suivi : Service / Nom des agents / Date
 | Crise #3 | | |
 | Crise #… | | |
 
+<img src="/img/ressources/steamcity/city-detective-challenge/exemplecompterendu%20gestion%20crise.png" alt="Exemple de compte-rendu de gestion de crise" style={{maxWidth: '100%', height: 'auto'}} />
+
+Des fiches missions sont également disponibles pour structurer la réflexion de chaque service face aux crises :
+
+<div style={{display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
+  <img src="/img/ressources/steamcity/city-detective-challenge/SteamCity_Simulation_FichesMissions/1.png" alt="Fiche mission 1" style={{maxWidth: 'calc(50% - 0.5rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/SteamCity_Simulation_FichesMissions/2.png" alt="Fiche mission 2" style={{maxWidth: 'calc(50% - 0.5rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/SteamCity_Simulation_FichesMissions/3.png" alt="Fiche mission 3" style={{maxWidth: 'calc(50% - 0.5rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/SteamCity_Simulation_FichesMissions/4.png" alt="Fiche mission 4" style={{maxWidth: 'calc(50% - 0.5rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
+
 #### Annonces des crises et discussions initiales en groupe
 
 Pour la première phase de l'activité, les élèves travaillent au sein de leur groupe, sans interaction avec les autres services. L'enseignant, jouant le rôle du Service Financier, annonce la première crise à la classe. Chaque groupe entame alors une discussion pour élaborer une réponse adaptée aux capacités et ressources de son service.
@@ -405,7 +388,9 @@ Une fois le plan validé, la crise suivante est annoncée, selon la même procé
 
 Cette structure maintient la simulation rythmée et engageante, assurant une mobilisation constante des compétences en pensée critique et en résolution de problèmes développées tout au long de la séquence.
 
-Pour les enseignants : afin de faciliter les échanges si les élèves rencontrent des difficultés à formuler des propositions, des suggestions sont disponibles en annexe afin de questionner et stimuler l'imagination et la créativité des élèves.
+:::info[Notes pour l'enseignant·e]
+Si les élèves rencontrent des difficultés à formuler des propositions, des suggestions de relances sont disponibles dans l'annexe « Suggestions d'animation » pour stimuler l'imagination et la créativité.
+:::
 
 ### Restitution et réflexion
 
@@ -435,149 +420,27 @@ Concluez l'activité par une discussion collective centrée sur la collaboration
 
 ## Jeu de cartes : Order Overload : Mairie
 
-Bienvenue à l'Hôtel de Ville avec « Order Overload : Mairie » ! Votre objectif : Incarner un réceptionniste municipal, mémoriser et gérer un flux croissant de demandes des citoyens.
+Le jeu introductif de la Phase 1 utilise « Order Overload : Mairie », un jeu de mémoire collaboratif où les élèves incarnent des réceptionnistes municipaux et doivent mémoriser un flux croissant de demandes citoyennes. Les règles complètes sont détaillées en Phase 1 ; le matériel imprimable est disponible gratuitement sur Canva, modifiable et réutilisable : [https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview](https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview).
 
-Durée : 30 à 60 minutes. Minimum 2 joueurs, pas de maximum. Attention : plus il y a de joueurs, plus il y a de demandes à mémoriser !
+:::tip[**Matériel imprimable inclus dans le PDF / Canva.**]
+- Cartes « Demandes » (15 pages recto + 15 pages verso optionnelles)
+- Cartes « Bonus » (2 pages recto + 2 pages verso optionnelles)
+- Marqueurs de tours recto-verso (2 pages, impression recto-verso obligatoire)
 
-Matériel :
-
-- **Un pion « Réceptionniste en chef »** : Utilisez n'importe quel pion d'un jeu comme le Monopoly.
-- **Cartes « Demandes »** : Imprimables facilement à partir du fichier joint. Il n'est pas nécessaire d'imprimer le verso si vous le souhaitez.
-- **Cartes « Bonus »** : Imprimables de la même manière que les cartes « Demandes ».
-- **Marqueurs de tours recto-verso** : une face bleue indiquant le nombre de cartes à distribuer selon le nombre de joueurs, une face rose signalant que le tour de jeu a été remporté par le groupe. Ces marqueurs permettent de suivre l'avancée des tours : Imprimables via le fichier joint.
-
-Astuces d'impression du jeu : Le jeu complet est disponible gratuitement sur Canva, modifiable et réutilisable à cette adresse : https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview
-
-Le fichier se compose de 36 pages à imprimer intégralement en recto-verso :
-
-- **30 pages pour les cartes « Demandes »** : 15 pages recto avec les demandes citoyennes ; 15 pages verso pour masquer le texte et éviter toute transparence (optionnel mais recommandé).
-- **4 pages pour les cartes « Bonus »** : 2 pages recto contenant les règles spécifiques de chaque bonus ; 2 pages verso pour l'habillage visuel, également optionnelles.
-- 2 pages pour les marqueurs de tour, à imprimer obligatoirement en recto-verso. Ces marqueurs possèdent une face bleue (nombre de cartes à distribuer) et une face rose (tour réussi).
-
-Si besoin, vous pouvez n'imprimer que les pages paires (demandes visibles et règles bonus) de la page 1 à 34.
-
-Une impression couleur sur papier épais est conseillée pour une meilleure durabilité, mais il est tout à fait possible d'imprimer les cartes en nuances de gris si les ressources sont limitées.
-
-### Déroulement du jeu
-
-Le jeu se joue en 6 tours. Au début de chaque tour, le joueur désigné comme Réceptionniste en chef lit à voix haute les demandes citoyennes : autant de demandes que de joueurs au tour 1, puis 2x le nombre de joueurs au tour 2, 3x au tour 3, etc., jusqu'à 6x au tour 6. Le rôle de Réceptionniste en chef change dans le sens des aiguilles d'une montre à chaque tour.
-
-Préparation : Mélangez séparément les cartes « Demandes » et « Bonus » pour former deux piles. Placez les marqueurs de tour face cachée sur la table. Ils vous indiqueront combien de cartes tirer à chaque tour. Tirez le bon nombre de cartes selon le marqueur « Tour 1 ».
-
-Détermination du Réceptionniste en chef : Le premier Réceptionniste en chef est le joueur ayant le plus récemment participé à une activité citoyenne (ex. : événement de quartier, collecte, réunion publique...).
-
-Annonce des demandes : Le Réceptionniste en chef lit lentement et clairement les demandes tirées, telles que :
-
-- « Commander des distributeurs de sacs pour déjections canines »
-- « Demande de collecte des encombrants »
-- « Signalement de panneaux routiers dégradés »
-- « Taxe foncière sur terrains non bâtis »
-
-Certaines demandes peuvent apparaître plusieurs fois dans un même tour.
-
-Distribution des demandes : Les cartes, une fois lues à haute voix par le réceptionniste, sont réparties équitablement entre les joueurs. Chaque joueur lit ses cartes et doit mémoriser les autres demandes présentes chez ses camarades.
-
-Action des joueurs : À tour de rôle, en commençant par le Réceptionniste en chef, chaque joueur énonce une demande dont il se souvient. S'il passe son tour, il ne pourra plus parler jusqu'au prochain tour. Chaque joueur peut utiliser une carte Bonus par tour. Aucune communication ni aide entre joueurs n'est permise, sauf si une carte Bonus l'autorise.
-
-Vérification : Après chaque annonce, les autres joueurs vérifient s'ils ont la carte dans leur main :
-
-- Si oui, la carte est défaussée.
-- Si non, le joueur ayant fait une fausse annonce ne peut plus jouer pour ce tour.
-
-Fin d'un tour : Le tour est réussi si au moins la moitié des joueurs ont défaussé toutes leurs cartes. Dans ce cas, retournez le marqueur de tour sur sa face rose. Le pion du Réceptionniste en chef passe au joueur suivant, et le tour suivant commence.
-
-Fin du jeu : Ce jeu est collaboratif, les joueurs gagnent ou perdent ensemble. Le décompte des points commence au tour 4 :
-
-- 1 point si le tour 4 est gagné
-- 2 points si le tour 5 est gagné
-- 3 points si le tour 6 est gagné
-
-Titres de prestige selon les points obtenus :
-
-- **1 point (tour 4 réussi, échec tour 5)** : Aspirants Assistants Administratifs. Premier pas vers une gestion municipale efficace, vous montrez un bon potentiel.
-- **3 points (tours 4 et 5 réussis, échec tour 6)** : Observateurs de la Ville. Vous avez fait preuve de vigilance et d'engagement face à l'augmentation des demandes.
-- **6 points (tours 4, 5 et 6 réussis)** : Maestros de l'Hôtel de Ville. Maîtrise exceptionnelle du service public. Vous avez géré les défis les plus complexes avec brio.
+Impression conseillée en couleur sur papier épais ; nuances de gris possibles si ressources limitées.
+:::
 
 ## Carnet du Détective
 
-Bonjour, jeunes détectives ! En vous lançant dans le Défi Détective de la Ville, ce carnet vous accompagnera dans votre exploration du fonctionnement des services municipaux.
+Le Carnet du Détective accompagne les élèves tout au long du protocole. Il sert de support de **documentation** (notes, idées, solutions), de **réflexion** (analyse et liens entre informations) et de **collaboration** (outil collectif partagé à l'échelle de la classe). Une version imprimable est fournie dans le PDF, et une version en ligne est disponible sur Miroverse : [https://miro.com/miroverse/detective-clue-board/](https://miro.com/miroverse/detective-clue-board/).
 
-- **Documentation** : Ce carnet vous permet de noter et organiser vos découvertes, idées et solutions tout au long de l'enquête.
-- **Réflexion** : Il vous invite à analyser les informations, établir des liens entre elles, et réfléchir à ce qu'elles révèlent sur la gestion d'une ville.
-- **Collaboration** : Partagé à l'échelle de la classe, le Carnet du Détective devient un outil collectif pour construire ensemble des réponses cohérentes et argumentées.
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+Le carnet se compose de trois sections, une par phase du protocole :
 
-Un carnet structuré en trois sections : Le carnet est divisé en trois grandes parties, correspondant aux étapes clés du Défi Détective de la Ville. À chaque étape : de la découverte, à l'observation, puis à la gestion de crises : vous remplirez les sections correspondantes.
-
-Ce carnet accompagne votre parcours de découverte. Il mettra en évidence ce que vous avez appris et comment vous avez progressé dans votre compréhension du fonctionnement des services publics. Abordez chaque activité avec curiosité, et utilisez ce carnet pour garder une trace claire et organisée de vos observations. Bonne enquête !
-
-### Section 1 : Découverte des services publics
-
-Bienvenue dans la première étape de votre mission ! Cette section est dédiée à vos premières découvertes sur les services publics, issues du jeu introductif.
-
-Vous y indiquerez les fonctions principales de chaque service, leur utilité pour les citoyens, ainsi que les remarques ou questions soulevées pendant le jeu.
-
-Cette section constitue le point de départ de votre enquête. Elle vous aide à comprendre la structure de base et les fonctions des différents services municipaux. En notant vos découvertes, réfléchissez à la manière dont chaque service influence la vie quotidienne des habitants et à son efficacité. Décrivez ici le rôle de chaque service, ainsi que vos premières impressions ou questions issues du jeu.
-
-Services à documenter :
-
-- Service d'état civil, élections et formalités
-- Service de l'éducation et de la petite enfance
-- Service habitat et urbanisme
-- Service des affaires sociales et de la santé
-- Service de la police municipale
-- Service de la vie communautaire
-- Service de la mobilité et des transports
-- Service des finances
-- Service Environnement, Eau et Déchets
-- Service de la culture, du tourisme, des sports et des loisirs
-- Service de la voirie et propreté des espaces publics
-
-### Section 2 : Approfondir les connaissances sur les services publics
-
-Maintenant que vous avez compris les rôles de chaque service, il est temps de les voir à l'œuvre ! Cette section de votre Carnet du Détective sert à rassembler les résultats de vos recherches et de votre data walk. Pendant cette phase, vous et votre groupe êtes partis sur le terrain pour observer comment les services municipaux fonctionnent concrètement et influencent les quartiers environnants.
-
-Cette étape vous permet de développer vos compétences d'observation et de collecte de données.
-
-Indiquez comment le service que vous étudiez est visible et actif dans votre quartier. Vous pouvez inclure des notes détaillées, des photos, des croquis ou signaler des éléments marquants (positifs ou problématiques). Terminez par une comparaison entre vos observations de terrain et ce que vous aviez compris lors de la recherche en ligne ou de la visite des services municipaux.
-
-Services à documenter :
-
-- Service d'état civil, élections et formalités
-- Service de l'éducation et de la petite enfance
-- Service habitat et urbanisme
-- Service des affaires sociales et de la santé
-- Service de la police municipale
-- Service de la vie communautaire
-- Service de la mobilité et des transports
-- Service des finances
-- Service Environnement, Eau et Déchets
-- Service de la culture, du tourisme, des sports et des loisirs
-- Service de la voirie et propreté des espaces publics
-
-### Section 3 : Réunion de gestion de crise
-
-La dernière section de votre Carnet du Détective porte sur l'application et la synthèse. Après avoir appris à connaître les services municipaux et les avoir observés sur le terrain, vous êtes maintenant chargés de répondre à des crises hypothétiques pouvant frapper votre ville.
-
-Dans cette section, vous documenterez les stratégies, les négociations et les solutions élaborées lors de la Simulation d'Alerte de Crise. Chaque scénario vous a demandé de réfléchir de manière critique et de collaborer pour concevoir des réponses efficaces sous pression, en tenant compte des ressources limitées de la ville et de ses besoins globaux.
-
-Notez les détails de chaque crise, les propositions de réponse de votre département et les solutions finales retenues. Réfléchissez au processus de prise de décision et à l'importance de la coopération entre services pour faire face à des défis réels.
-
-Gestion de la crise : ……………………………………………………………
-
-Date : ...../...../.....
-
-Services à documenter :
-
-- Service d'état civil, élections et formalités
-- Service de l'éducation et de la petite enfance
-- Service habitat et urbanisme
-- Service des affaires sociales et de la santé
-- Service de la police municipale
-- Service de la vie communautaire
-- Service de la mobilité et des transports
-- Service Environnement, Eau et Déchets
-- Service de la culture, du tourisme, des sports et des loisirs
-- Service de la voirie et propreté des espaces publics
+- **Section 1 : Découverte des services publics** — alimentée par le jeu introductif (fonctions de chaque service, remarques soulevées, influence sur la vie quotidienne).
+- **Section 2 : Approfondir les connaissances** — résultats des recherches et de la *data walk* (visibilité de terrain, comparaison observations / recherches).
+- **Section 3 : Réunion de gestion de crise** — application et synthèse de la Simulation d'Alerte de Crise (détails de la crise, propositions du département, solution retenue, réflexion sur la coopération).
+:::
 
 ## Scénarios de crise
 
@@ -641,63 +504,13 @@ Vous trouverez ci-dessous une liste de crises généralement improbables, à uti
 
 ## Annexe : Suggestions d'animation
 
-Lorsque vos élèves semblent bloqués ou manquent d'idées, plusieurs techniques peuvent relancer efficacement la discussion. N'hésitez pas à changer de perspective en leur demandant de se mettre dans la peau d'un citoyen ordinaire, d'un touriste ou d'une personne âgée. Questionnez leurs priorités : qu'est-ce qui est le plus urgent ? Qu'est-ce qui peut attendre demain ? Explorez les conséquences de leurs choix en posant des questions comme « Que se passe-t-il si on ne fait rien ? Si on fait trop ? » Enfin, encouragez l'innovation en les poussant à imaginer des solutions inédites.
+Lorsque les élèves semblent bloqués pendant la simulation, l'enseignant·e peut relancer la discussion en changeant de perspective (citoyen, touriste, personne âgée), en questionnant les priorités, en explorant les conséquences ou en encourageant l'innovation. Une aide-mémoire complète de relances pédagogiques est fournie dans le PDF, à imprimer pour la réunion de gestion de crise.
 
-Certaines relances universelles fonctionnent pour toutes les crises : « Avez-vous pensé aux enfants ? Aux personnes âgées ? Aux touristes ? », « Comment cette crise affecte-t-elle l'économie locale ? », « Quels sont les effets à long terme de vos décisions ? » ou encore « Comment prévenir une crise similaire à l'avenir ? »
-
-Pour les crises fantastiques, adoptez une approche créative en demandant comment transformer cette situation extraordinaire en opportunité, quelles nouvelles règles inventer, comment adapter la ville à cette nouvelle réalité, ou ce qu'on peut apprendre de cette expérience unique.
-
-Chaque encart ci-dessous propose des questions spécifiques à chaque crise, en mettant l'accent sur les aspects moins évidents qui sortent des réflexes habituels.
-
-**Tempête sévère** : Comment utiliser les données de recensement pour identifier les zones qui auront besoin de plus de ressources ? Comment organiser la communication avec les parents sur les fermetures d'école ? Comment organiser des points d'information de quartier avec des bénévoles ? Quelles lignes de transport suspendre en priorité (ferries, bus à l'air libre) ?
-
-**Accident majeur sur l'autoroute** : Comment utiliser les données démographiques pour prédire l'impact sur les communautés locales ? Comment augmenter la fréquence sur les lignes de transport alternatives ? Y a-t-il des risques de pollution par les fluides automobiles ? Comment informer les touristes des déviations et fermetures ?
-
-**Épidémie contagieuse** : Comment analyser les données démographiques pour prédire les zones de propagation ? Comment distribuer les consignes d'hygiène aux écoles ? Comment assurer un dialogue culturellement adapté avec les communautés ? Comment réduire les fréquences de transport pour limiter la propagation ?
-
-**Incendie d'immeuble commercial** : Comment identifier rapidement les propriétaires et résidents affectés ? Comment réviser les codes de sécurité incendie pour l'avenir ? Comment mettre en place des navettes d'évacuation si nécessaire ? Comment gérer les déchets dangereux (amiante, matériaux toxiques) ?
-
-**Pollution chimique de la rivière** : Comment évaluer la population à risque selon la géographie ? Comment lancer des programmes éducatifs sur la sécurité chimique ? Comment suspendre les permis de construire dans les zones affectées ? Comment mobiliser les groupes environnementaux locaux ?
-
-**Chute de neige massive** : Comment identifier les personnes âgées qui auront besoin d'aide ? Comment organiser des activités pour les enfants bloqués à la maison ? Comment organiser le déneigement solidaire entre voisins ? Comment utiliser des agents de fonte écologiques ?
-
-**Grève des transports en période de festival** : Comment utiliser les données de flux pour coordonner les transports alternatifs ? Comment négocier un service minimum pendant le festival ? Comment encourager le covoiturage et les transports durables ? Comment mettre en place des transports alternatifs pour les visiteurs ?
-
-**Incendie résidentiel** : Comment établir rapidement des bureaux de vote temporaires si nécessaire ? Comment soutenir les familles avec enfants scolarisés ? Comment mobiliser l'aide communautaire immédiate ? Comment détourner les lignes de bus du quartier ?
-
-**Canicule extrême** : Comment identifier les personnes sans climatisation grâce aux données démographiques ? Comment adapter les horaires et activités scolaires ? Comment organiser des points de distribution d'eau citoyens ? Comment activer les centres de rafraîchissement dans les musées et théâtres ?
-
-**Effondrement du pont** : Comment réorganiser les trajets scolaires ? Comment planifier rapidement les déviations urbaines ? Comment inclure les besoins communautaires dans la reconstruction ? Comment gérer les débris dans la rivière ?
-
-**Intoxication alimentaire massive** : Comment identifier rapidement la source de contamination ? Comment faire respecter les réglementations sanitaires chez les vendeurs ? Comment gérer les déchets contaminés de l'événement ? Comment rassurer le public sur la sécurité alimentaire ?
-
-**Panne d'eau généralisée** : Comment prioriser les quartiers selon la densité de population ? Comment assurer l'approvisionnement d'urgence des écoles ? Comment organiser l'entraide pour les personnes vulnérables ? Comment organiser les points de distribution d'eau d'urgence ?
-
-**Accident industriel avec gaz toxiques** : Comment restreindre le développement près des zones industrielles ? Comment mettre en place un suivi médical à long terme ? Comment organiser des exercices d'évacuation communautaires ? Comment suspendre les services dans les zones affectées ?
-
-**Îlot de chaleur urbain critique** : Comment enseigner les pratiques de verdissement dans les écoles ? Comment intégrer des espaces verts et des points d'eau ? Comment promouvoir les transports verts et les itinéraires ombragés ? Comment utiliser des matériaux réfléchissants pour les chaussées ?
-
-**Alerte terroriste** : Comment fournir des cartes détaillées aux forces de sécurité ? Comment organiser des exercices de sécurité dans les écoles ? Comment mettre en place des protocoles de sécurité d'urgence ? Comment sécuriser les infrastructures critiques ?
-
-**Cyberattaque massive** : Comment sécuriser les données électorales et de recensement ? Comment protéger les informations des élèves et du personnel ? Comment sécuriser les applications de transport et les données passagers ? Comment protéger les systèmes de contrôle des infrastructures ?
-
-**Chute de cendres volcaniques** : Comment gérer la qualité de l'air dans les écoles ? Comment annuler les services exposés (téléphériques, bus ouverts) ? Comment éviter que les cendres bouchent les égouts ? Comment fermer les sentiers de randonnée près du volcan ?
-
-**Pluie de météorites** : Comment organiser une journée éducative sur l'espace ? Comment délivrer des « certificats anti-météorites » pour les bâtiments ? Comment organiser un concours photo de l'impact ? Comment créer un réseau de « bus météorites » gratuits ?
-
-**Sort magique figeant le temps** : Comment faire un recensement spécial des personnes « hors du temps » ? Comment organiser des cours virtuels incluant des modules sur le temps ? Comment collaborer avec des experts magiques pour évaluer les bâtiments ? Comment organiser des ateliers pour comprendre le phénomène ?
-
-**Révolte des robots** : Comment enseigner la cybersécurité et organiser des exercices de sécurité ? Comment sécuriser les zones résidentielles contre les intrusions robotiques ? Comment organiser des discussions entre entreprises tech et résidents ? Comment protéger les infrastructures contre le piratage IA ?
-
-**Invasion de zombies** : Comment ajuster les registres de population pour inclure les « résidents non-traditionnels » ? Comment développer un plan de logement pour zombies dans des quartiers contrôlés ? Comment organiser des débats citoyens sur l'intégration des zombies ? Comment créer une offre sportive et de loisirs dédiée aux zombies ?
-
-**Vortex temporel** : Comment offrir un service d'enregistrement « voyageur temporel » ? Comment intégrer d'anciens moyens de transport qui pourraient réapparaître ? Comment créer des offres d'emploi pour les personnes venant du passé ? Comment organiser une exposition « Expérience Voyage dans le Temps » ?
-
-**Combat de super-héros** : Comment organiser des débats scolaires sur l'éthique des super-héros ? Comment créer une offre « Entraînement avec les héros » ? Comment utiliser les réseaux sociaux pour tenir le public informé ? Comment gérer rapidement les réparations post-combat ?
-
-**Attaque de monstre géant** : Comment célébrer une « Journée des Héros du Monstre » ? Comment développer des normes de construction « anti-monstre » ? Comment promouvoir les histoires d'héroïsme comme patrimoine culturel ? Comment accélérer les réparations de ponts et d'infrastructures ?
-
-**Invasion extraterrestre** : Comment délivrer des cartes de « Résident Alien » fantaisistes ? Comment lancer une « Semaine d'Accueil Alien » dans les écoles ? Comment organiser une séance de négociation avec traducteurs aliens ? Comment développer des règles de circulation pour intégrer les OVNIs ?
+:::tip[**Aide-mémoire imprimable inclus dans le PDF.**]
+- Relances **universelles** applicables à toutes les crises (impact sur publics fragiles, économie locale, effets long terme, prévention).
+- Relances **créatives** pour les crises fantastiques (transformation en opportunité, nouvelles règles, adaptation de la ville).
+- Relances **spécifiques** pour chacun des 25 scénarios de crise (questions ciblées par service municipal et par type d'enjeu).
+:::
 
 ---
 

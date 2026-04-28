@@ -59,13 +59,13 @@ Cette activité est directement liée à plusieurs Objectifs de Développement D
 
 L'expérimentation se déroule en quatre étapes progressives, permettant aux élèves de comprendre les enjeux de l'isolation thermique, de la théorie jusqu'à ses applications concrètes :
 
-1. **Étape 1 -- Étude du climat intérieur :** lien entre température, humidité et confort -- Introduction à l'isolation thermique et formulation d'hypothèses. Les élèves explorent les principes fondamentaux de l'isolation thermique et découvrent les facteurs influençant la perte de chaleur, tels que la conductivité thermique, la résistance thermique et les caractéristiques des matériaux de construction. En travaillant de manière collaborative, ils formulent des hypothèses sur les propriétés isolantes de différents matériaux et sur leurs performances dans des conditions réelles. Cette phase inclut des discussions guidées sur le transfert de chaleur, l'efficacité énergétique, et aboutit à l'élaboration de questions de recherche servant de base aux expérimentations ultérieures.
+1. **Phase 1 — étude du climat intérieur, introduction à l'isolation et formulation d'hypothèses.** Les élèves explorent les principes fondamentaux de l'isolation thermique et découvrent les facteurs influençant la perte de chaleur (conductivité thermique, résistance thermique, caractéristiques des matériaux de construction). En travaillant de manière collaborative, ils formulent des hypothèses sur les propriétés isolantes de différents matériaux et sur leurs performances dans des conditions réelles. Cette phase inclut des discussions guidées sur le transfert de chaleur et l'efficacité énergétique, et aboutit à l'élaboration de questions de recherche servant de base aux expérimentations ultérieures.
 
-2. **Étape 2 -- Exploration des matériaux d'isolation thermique -- Enquête en laboratoire.** Dans cette phase pratique, les élèves mesurent et comparent la résistance thermique de plusieurs matériaux isolants. À travers des expériences contrôlées, ils testent différents paramètres : types de matériaux, épaisseurs variées, conditions d'humidité, etc. L'objectif est de comprendre l'impact de chaque facteur sur le transfert de chaleur. Cette démarche renforce leurs compétences en conception expérimentale, en collecte de données et en analyse scientifique, tout en ancrant la théorie dans des observations concrètes.
+2. **Phase 2 — exploration des matériaux d'isolation thermique, enquête en laboratoire.** Dans cette phase pratique, les élèves mesurent et comparent la résistance thermique de plusieurs matériaux isolants. À travers des expériences contrôlées, ils testent différents paramètres : types de matériaux, épaisseurs variées, conditions d'humidité. L'objectif est de comprendre l'impact de chaque facteur sur le transfert de chaleur. Cette démarche renforce leurs compétences en conception expérimentale, en collecte de données et en analyse scientifique, tout en ancrant la théorie dans des observations concrètes.
 
-3. **Étape 3 -- Application des connaissances à des contextes réels.** Les élèves réinvestissent les résultats obtenus en laboratoire dans des environnements réels. À l'aide de caméras thermiques et de capteurs de température, ils observent les pertes de chaleur dans des bâtiments existants, comme leur école ou leur domicile. Ils identifient les zones critiques -- murs, fenêtres, toitures -- et documentent les situations de mauvaise isolation. Cette étude de terrain les aide à comprendre les limites de l'isolation dans des conditions réelles et à relier leur apprentissage aux enjeux de leur quotidien.
+3. **Phase 3 — application des connaissances à des contextes réels.** Les élèves réinvestissent les résultats obtenus en laboratoire dans des environnements réels. À l'aide de caméras thermiques et de capteurs de température, ils observent les pertes de chaleur dans des bâtiments existants, comme leur école ou leur domicile. Ils identifient les zones critiques — murs, fenêtres, toitures — et documentent les situations de mauvaise isolation. Cette étude de terrain les aide à comprendre les limites de l'isolation dans des conditions réelles et à relier leur apprentissage aux enjeux de leur quotidien.
 
-4. **Étape 4 -- Cartographie collaborative des pertes de chaleur urbaines.** Dans la phase finale, les élèves élargissent leur démarche à l'échelle du quartier ou de la ville. Ils mènent une « marche thermique », équipée de caméras thermiques, afin de collecter des données sur les déperditions de chaleur de plusieurs bâtiments. Ces observations sont ensuite utilisées pour créer une carte collaborative des pertes thermiques urbaines. Cette étape replace leur travail dans un cadre collectif et citoyen, et les conduit à proposer des pistes concrètes d'amélioration de l'efficacité énergétique à l'échelle de la communauté.
+4. **Phase 4 — cartographie collaborative des pertes de chaleur urbaines.** Les élèves élargissent leur démarche à l'échelle du quartier ou de la ville. Ils mènent une « marche thermique » équipée de caméras thermiques, afin de collecter des données sur les déperditions de chaleur de plusieurs bâtiments. Ces observations sont ensuite utilisées pour créer une carte collaborative des pertes thermiques urbaines. Cette étape replace leur travail dans un cadre collectif et citoyen, et conduit à proposer des pistes concrètes d'amélioration de l'efficacité énergétique à l'échelle de la communauté.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/insulation/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -91,18 +91,24 @@ L'expérimentation se déroule en quatre étapes progressives, permettant aux é
 - **Imagerie thermique aérienne** : Une technique utilisant des drones ou des avions pour capturer des données thermiques de grandes zones, telles que des quartiers ou des villes, afin d'identifier les tendances en matière de perte de chaleur.
 
 
-## Étape 1 : Introduction à l'isolation thermique et formulation d'hypothèses
+## Phase 1 : Étude du climat intérieur, introduction à l'isolation et formulation d'hypothèses
 
 ### Contexte
 
-Le climat intérieur désigne l'ensemble des conditions physiques et environnementales à l'intérieur d'un bâtiment, influençant le confort, la santé et le bien-être des occupants. Il repose sur plusieurs paramètres mesurables : température, humidité, qualité de l'air et ventilation. Toutefois, la perception de ces éléments varie selon les individus, en fonction de leurs préférences personnelles, de leurs vêtements, de leur niveau d'activité ou de leur état de santé. Un climat intérieur bien régulé favorise le confort thermique et la santé. À l'inverse, des conditions intérieures dégradées peuvent engendrer des problèmes de santé notables. Une humidité excessive favorise par exemple le développement de moisissures et d'acariens, souvent à l'origine d'asthme ou d'allergies. Des conditions trop sèches peuvent quant à elles irriter les voies respiratoires et assécher la peau. À long terme, une exposition continue à un climat intérieur sous-optimal -- trop froid, trop chaud, trop sec ou trop humide -- peut entraîner des troubles chroniques : stress thermique, infections respiratoires ou fatigue mentale. Les composantes du climat intérieur sont interdépendantes :
+Le **climat intérieur** désigne l'ensemble des conditions physiques et environnementales à l'intérieur d'un bâtiment, influençant le confort, la santé et le bien-être des occupants. Il repose sur plusieurs paramètres mesurables : température, humidité, qualité de l'air et ventilation. La perception de ces éléments varie selon les individus, en fonction de leurs préférences personnelles, de leurs vêtements, de leur niveau d'activité ou de leur état de santé.
+
+Un climat intérieur bien régulé favorise le confort thermique et la santé. À l'inverse, des conditions intérieures dégradées peuvent engendrer des problèmes de santé notables : une humidité excessive favorise le développement de moisissures et d'acariens, souvent à l'origine d'asthme ou d'allergies ; des conditions trop sèches peuvent irriter les voies respiratoires et assécher la peau. À long terme, une exposition continue à un climat intérieur sous-optimal — trop froid, trop chaud, trop sec ou trop humide — peut entraîner des troubles chroniques : stress thermique, infections respiratoires ou fatigue mentale.
+
+Les composantes du climat intérieur sont interdépendantes :
 
 - **Température :** Principal facteur du confort thermique. Des températures intérieures inférieures à 20 °C ou supérieures à 25 °C peuvent générer un inconfort thermique, réduire la productivité et affecter la régulation corporelle.
 - **Humidité :** Une humidité relative idéale se situe entre 40 et 60 %. En dehors de cette plage, une humidité élevée accentue la sensation de chaleur, favorise la prolifération des moisissures et aggrave les allergies. À l'inverse, une humidité trop basse assèche la peau, les muqueuses et les voies respiratoires, augmentant ainsi le risque d'infections.
 - **Qualité de l'air :** Elle dépend de la présence de polluants comme les particules fines, les composés organiques volatils (COV) ou le dioxyde de carbone (CO2). Une mauvaise qualité de l'air, souvent liée à une ventilation insuffisante, peut entraîner le « syndrome des bâtiments malsains » (maux de tête, fatigue, irritation respiratoire).
 - **Ventilation :** Essentielle pour le renouvellement de l'air, elle permet d'éliminer les polluants, d'apporter de l'oxygène et de maintenir une température intérieure stable.
 
-Ces paramètres interagissent entre eux. Par exemple, une humidité élevée dégrade aussi la qualité de l'air en facilitant la prolifération de micro-organismes, tandis qu'une ventilation insuffisante retient la chaleur et les polluants, accentuant l'inconfort thermique. Au-delà du confort, le climat intérieur impacte des enjeux de santé publique, de consommation énergétique et de durabilité environnementale :
+Ces paramètres interagissent entre eux : une humidité élevée dégrade aussi la qualité de l'air en facilitant la prolifération de micro-organismes, tandis qu'une ventilation insuffisante retient la chaleur et les polluants, accentuant l'inconfort thermique.
+
+Au-delà du confort, le climat intérieur impacte des enjeux de santé publique, de consommation énergétique et de durabilité environnementale :
 
 - **Impacts sur la santé :** Les conditions intérieures dégradées touchent en particulier les personnes vulnérables : enfants, personnes âgées, ou souffrant de pathologies chroniques. Le froid augmente les risques cardiovasculaires et respiratoires ; la chaleur peut provoquer déshydratation et coup de chaleur ; une mauvaise ventilation ou une humidité excessive aggravent l'asthme, les allergies et les troubles respiratoires.
 - **Consommation d'énergie et impacts environnementaux :** Un bâtiment mal isolé exige plus de chauffage ou de climatisation, ce qui accroît la consommation énergétique et les émissions de gaz à effet de serre. Une meilleure isolation participe donc aux objectifs de transition énergétique.
@@ -129,7 +135,9 @@ Dans cette phase, les élèves exploreront les concepts fondamentaux du climat i
 Des explications structurées fourniront aux élèves le vocabulaire scientifique et le cadre conceptuel nécessaires pour guider leur enquête. Ils aborderont notamment les notions suivantes :
 
 - **Confort thermique :** Il résulte d'un équilibre entre des facteurs environnementaux (température, humidité, mouvement de l'air) et des facteurs personnels (type de vêtements, niveau d'activité). Comprendre comment ces éléments interagissent est essentiel pour analyser les conditions de confort dans un espace intérieur.
-- **Niveaux d'humidité :** Les élèves étudieront les effets de l'humidité de l'air sur le confort et la santé : Humidité faible : entraîne une sécheresse de la peau, des irritations des voies respiratoires, voire une sensation générale d'inconfort. Humidité élevée : favorise le développement de moisissures et d'acariens, ce qui peut déclencher des allergies et une sensation d'air lourd ou étouffant.
+- **Niveaux d'humidité :** les élèves étudieront les effets de l'humidité de l'air sur le confort et la santé.
+  - *Humidité faible* : sécheresse de la peau, irritations des voies respiratoires, sensation générale d'inconfort.
+  - *Humidité élevée* : développement de moisissures et d'acariens, allergies, sensation d'air lourd ou étouffant.
 - **Ventilation :** Les élèves analyseront comment une bonne circulation de l'air permet de maintenir des conditions stables de température et d'humidité, tout en éliminant les polluants intérieurs et en assurant un bon renouvellement de l'air.
 - **Impacts sur la santé :** Une mauvaise qualité du climat intérieur peut contribuer à divers troubles tels que des problèmes respiratoires, une fatigue cardiovasculaire, ou encore une baisse des capacités cognitives (concentration, vigilance, mémorisation).
 
@@ -147,9 +155,9 @@ Au cours de discussions guidées, les élèves partageront leurs observations et
 
 L'enseignant veillera à rappeler que les hypothèses doivent mobiliser des variables mesurables. Chaque hypothèse doit répondre directement à la question de recherche, et les résultats des tests pourront amener à réajuster ou affiner la question initiale, par exemple :
 
-- Pour « Comment la température et l'humidité varient-elles d'une pièce à l'autre dans une maison ? » Hypothèse : Les pièces exposées au soleil auront une température plus élevée et une humidité plus faible que les pièces situées à l'ombre.
-- Pour « En quoi la ventilation influence-t-elle la stabilité de la température et de l'humidité dans le temps ? » Hypothèse : Les pièces mieux ventilées présenteront des niveaux de température et d'humidité plus stables que celles dont la ventilation est insuffisante.
-- Pour « Quels sont les facteurs qui affectent le niveau de confort dans les différentes pièces d'un même logement ? » Hypothèse : Les pièces ayant un taux d'humidité élevé seront perçues comme moins confortables, même si la température y est adéquate.
+- **Question** : Comment la température et l'humidité varient-elles d'une pièce à l'autre dans une maison ? — *Hypothèse* : les pièces exposées au soleil auront une température plus élevée et une humidité plus faible que les pièces situées à l'ombre.
+- **Question** : En quoi la ventilation influence-t-elle la stabilité de la température et de l'humidité dans le temps ? — *Hypothèse* : les pièces mieux ventilées présenteront des niveaux de température et d'humidité plus stables que celles dont la ventilation est insuffisante.
+- **Question** : Quels sont les facteurs qui affectent le niveau de confort dans les différentes pièces d'un même logement ? — *Hypothèse* : les pièces ayant un taux d'humidité élevé seront perçues comme moins confortables, même si la température y est adéquate.
 
 Pour chaque hypothèse, les élèves devront identifier les variables essentielles à prendre en compte dans leur protocole expérimental :
 
@@ -306,7 +314,7 @@ Grâce à ce processus réflexif, les élèves seront amenés à analyser de man
 
 ---
 
-## Étape 2 : Exploration des matériaux d'isolation thermique : enquête en laboratoire
+## Phase 2 : Exploration des matériaux d'isolation thermique, enquête en laboratoire
 
 ### Contexte
 
@@ -371,7 +379,7 @@ En construisant ces questions de recherche, les élèves posent les bases d'une 
 
 - Les matériaux isolants à base de mousse maintiendront les températures internes 20 à 30 % plus efficacement que les isolants en fibres naturelles, en raison de leur structure à cellules fermées et de la présence de poches d'air emprisonné.
 - Pour chaque augmentation de 1 cm d'épaisseur, la résistance thermique s'accroîtra d'environ 0,5 unité R, selon une relation linéaire jusqu'à atteindre un seuil de saturation.
-- Les matériaux présentant une perméabilité à l'air élevée (&gt; 300 cm3/cm2/s) afficheront une résistance thermique 40 à 50 % inférieure à celle de matériaux faiblement perméables (&lt; 50 cm3/cm2/s), dans des conditions identiques.
+- Les matériaux présentant une perméabilité à l'air élevée ({'>'} 300 cm3/cm2/s) afficheront une résistance thermique 40 à 50 % inférieure à celle de matériaux faiblement perméables ({'<'} 50 cm3/cm2/s), dans des conditions identiques.
 
 Les élèves devront ensuite identifier et classer les variables de leurs expériences :
 
@@ -504,7 +512,7 @@ Cette phase permet aux élèves de développer à la fois des connaissances scie
 
 ---
 
-## Étape 3 : Application des connaissances à des contextes réels
+## Phase 3 : Application des connaissances à des contextes réels
 
 Au cours de cette phase, les élèves mettront en application leur compréhension des principes de l'isolation dans des situations concrètes. Cette étape fait le lien entre les résultats expérimentaux de la phase 2 et des applications pratiques, en leur permettant d'analyser, évaluer et proposer des solutions pour améliorer l'efficacité énergétique des bâtiments.
 
@@ -618,11 +626,11 @@ Pour vous aider à utiliser le capteur approprié, reportez-vous à la [fiche te
 | Mur du salon | 18 | 5 | 13 | Perte de chaleur visible par pont thermique |
 | Cadre de fenêtre | 15 | 5 | 10 | Courants d'air détectés, mauvaise isolation observée |
 
-5. **Se rapporter aux résultats expérimentaux :** Les élèves compareront les performances thermiques observées sur le bâtiment avec celles des matériaux testés lors de la phase expérimentale (étape 2). Cette analyse leur permettra de discuter de la manière dont des propriétés spécifiques des matériaux -- telles que l'épaisseur, la conductivité thermique ou la résistance à l'humidité -- peuvent expliquer les écarts de performance constatés sur le terrain.
+5. **Se rapporter aux résultats expérimentaux :** Les élèves compareront les performances thermiques observées sur le bâtiment avec celles des matériaux testés lors de la phase expérimentale (phase 2). Cette analyse leur permettra de discuter de la manière dont des propriétés spécifiques des matériaux — telles que l'épaisseur, la conductivité thermique ou la résistance à l'humidité — peuvent expliquer les écarts de performance constatés sur le terrain.
 
 #### Analyse et interprétation
 
-**Évaluer les performances thermiques :** Les élèves identifieront les zones présentant les pertes de chaleur les plus importantes, en analysant les facteurs contributifs tels qu'une isolation insuffisante ou la présence de ponts thermiques. Ils détermineront dans quelle mesure ces résultats correspondent aux observations expérimentales réalisées lors de l'étape 2, en mettant en relation les données mesurées et les propriétés des matériaux étudiés.
+**Évaluer les performances thermiques :** Les élèves identifieront les zones présentant les pertes de chaleur les plus importantes, en analysant les facteurs contributifs tels qu'une isolation insuffisante ou la présence de ponts thermiques. Ils détermineront dans quelle mesure ces résultats correspondent aux observations expérimentales réalisées lors de la phase 2, en mettant en relation les données mesurées et les propriétés des matériaux étudiés.
 
 **Proposer des améliorations :** Sur la base de leurs observations, les élèves formuleront des recommandations concrètes pour réduire les pertes de chaleur. Ces propositions pourront inclure, entre autres : l'ajout de couches d'isolant sur les murs, les planchers ou les toitures ; le calfeutrage des interstices autour des fenêtres et des portes ; le remplacement des menuiseries par des fenêtres à double vitrage ou à haut rendement énergétique.
 
@@ -661,7 +669,7 @@ Pour conclure cette phase, les élèves participeront à une discussion guidée 
 
 - Comment les zones de plus grande perte de chaleur dans votre maison ou votre école correspondent-elles à vos hypothèses initiales ?
 - Qu'est-ce qui vous a surpris dans la performance thermique de votre bâtiment ?
-- Comment les matériaux et les conditions que vous avez observés se comparent-ils aux résultats de l'étape 2 ?
+- Comment les matériaux et les conditions que vous avez observés se comparent-ils aux résultats de la phase 2 ?
 - Quelles améliorations rentables pourraient réduire considérablement les pertes de chaleur et améliorer l'efficacité énergétique ?
 - Comment les climats régionaux et les codes du bâtiment influencent-ils les besoins et les stratégies d'isolation ?
 - Quel rôle les innovations en matière de technologie d'isolation peuvent-elles jouer pour relever les défis énergétiques mondiaux ?
@@ -677,7 +685,7 @@ Leurs découvertes pourront également déboucher sur des projets concrets, tels
 
 ---
 
-## Étape 4 : Cartographie collaborative des pertes de chaleur urbaines
+## Phase 4 : Cartographie collaborative des pertes de chaleur urbaines
 
 Dans cette dernière phase, les élèves seront amenés à étendre leur apprentissage au-delà de l'échelle du bâtiment individuel, en inscrivant leur démarche dans un contexte territorial plus large. En menant un projet collaboratif de cartographie thermique, ils analyseront les schémas de perte de chaleur observables dans leur quartier ou leur ville. Cette activité vise à renforcer leur compréhension des enjeux collectifs liés à l'isolation et à l'efficacité énergétique. Elle permet également aux élèves de contribuer activement à la sensibilisation de leur communauté, en produisant des données visuelles et argumentées susceptibles d'alimenter des recommandations concrètes à destination des habitants, des acteurs locaux ou des décideurs publics.
 
@@ -783,25 +791,21 @@ Avant le départ, il est essentiel de vérifier que les élèves maîtrisent l'u
 
 #### Cartographie et analyse collaboratives
 
-Après la collecte des données, les élèves mèneront une analyse collaborative approfondie des résultats. Ils commenceront par créer une carte détaillée des pertes de chaleur à l'aide d'outils de cartographie tels que Google My Maps ou UMap. Cette carte constituera un support visuel permettant de représenter les données thermiques collectées, les types de bâtiments observés et les inefficacités identifiées.
+Après la collecte des données, les élèves mèneront une analyse collaborative approfondie des résultats, en trois temps :
 
-L'analyse des tendances constituera la seconde étape. Les élèves compareront les schémas de perte thermique en fonction de critères tels que le type de bâtiment, son ancienneté ou sa localisation, afin d'identifier d'éventuelles corrélations avec des facteurs comme la qualité de l'isolation, les matériaux de construction ou l'exposition aux conditions extérieures.
-
-À partir de cette analyse, les élèves formuleront des propositions concrètes pour réduire les pertes de chaleur identifiées. Ces solutions pourront porter sur la modernisation de l'isolation dans les bâtiments anciens, l'amélioration de l'étanchéité des ouvertures (fenêtres, portes) ou encore la mise en oeuvre d'initiatives locales en faveur d'une meilleure isolation dans les quartiers les plus vulnérables.
-
-- **Créer une carte des pertes de chaleur :** À l'aide d'outils comme Google My Maps, UMap, ArcGIS ou des cartes papier, les élèves représenteront visuellement les données relevées. Ils annoteront les cartes avec les relevés thermiques, les types de bâtiments et les zones d'inefficacité identifiées.
-- **Analyser les tendances :** Ils compareront les profils thermiques en fonction du type, de l'âge ou de l'emplacement des bâtiments. L'objectif est de repérer des corrélations significatives avec des facteurs comme la qualité de l'isolation, les matériaux utilisés ou l'exposition aux conditions extérieures.
-- **Élaborer des propositions :** Sur la base de leur interprétation des données, les élèves réfléchiront à des solutions réalistes telles que : la rénovation thermique de bâtiments anciens ; le calfeutrage des points de fuite d'air (portes et fenêtres) ; la promotion de programmes collectifs visant à améliorer l'isolation dans les secteurs les plus exposés ou précaires.
+- **Créer une carte des pertes de chaleur** : à l'aide d'outils comme Google My Maps, UMap, ArcGIS ou des cartes papier, les élèves représentent visuellement les données relevées. Ils annotent les cartes avec les relevés thermiques, les types de bâtiments et les zones d'inefficacité identifiées. Cette carte constitue un support visuel permettant de représenter les données thermiques collectées, les types de bâtiments observés et les inefficacités identifiées.
+- **Analyser les tendances** : ils comparent les profils thermiques en fonction du type, de l'âge ou de l'emplacement des bâtiments, afin de repérer des corrélations significatives avec des facteurs comme la qualité de l'isolation, les matériaux utilisés ou l'exposition aux conditions extérieures.
+- **Élaborer des propositions** : sur la base de leur interprétation des données, les élèves réfléchissent à des solutions réalistes telles que la rénovation thermique de bâtiments anciens, le calfeutrage des points de fuite d'air (portes et fenêtres) ou encore la mise en œuvre de programmes collectifs visant à améliorer l'isolation dans les secteurs les plus exposés ou précaires.
 
 **Rôle de l'enseignant :** L'enseignant accompagne les élèves dans l'élaboration d'un protocole structuré pour la collecte et la cartographie des données. Il soutient l'utilisation des outils de cartographie, en veillant à ce que la visualisation produite soit à la fois précise et interprétable. Enfin, il anime les discussions autour des résultats, en encourageant les élèves à mettre en lien leurs observations avec des problématiques plus larges, qu'elles soient environnementales, sociales ou territoriales.
 
-À l'issue de cette phase d'investigation, les étudiants auront franchi plusieurs étapes dans leur compréhension de la dynamique thermique urbaine et de l'efficacité énergétique à l'échelle communautaire. Ils auront réalisé une vaste étude thermique collaborative au sein de leur communauté locale, documentant les variations de température et les schémas de perte de chaleur dans divers types de bâtiments et styles architecturaux.
+À l'issue de cette phase d'investigation, les élèves auront franchi plusieurs étapes dans leur compréhension de la dynamique thermique urbaine et de l'efficacité énergétique à l'échelle communautaire :
 
-Ils devront développer et mettre en oeuvre une carte visuelle détaillée des pertes de chaleur, identifiant et mettant en évidence de manière systématique les zones d'inefficacité thermique, en intégrant plusieurs points de données et facteurs environnementaux pour créer un aperçu complet des modèles énergétiques de la communauté.
+- une **étude thermique collaborative** au sein de leur communauté locale, documentant les variations de température et les schémas de perte de chaleur dans divers types de bâtiments et styles architecturaux ;
+- une **carte visuelle détaillée des pertes de chaleur**, identifiant et mettant en évidence de manière systématique les zones d'inefficacité thermique, en intégrant plusieurs points de données et facteurs environnementaux pour créer un aperçu complet des modèles énergétiques de la communauté ;
+- une **analyse des tendances** afin d'identifier les modèles récurrents, les corrélations et les facteurs causaux potentiels, ce qui les conduit à formuler des solutions pratiques, fondées sur des preuves, et adaptées aux besoins spécifiques de leur territoire.
 
-Ils effectueront une analyse des tendances afin d'identifier les modèles récurrents, les corrélations et les facteurs causaux potentiels, ce qui les conduira à formuler des solutions pratiques, fondées sur des preuves, et adaptées aux besoins spécifiques de leur territoire.
-
-Ce processus d'investigation rigoureux renforce non seulement le lien entre les observations localisées et les objectifs globaux de durabilité, mais permet également aux étudiants de développer des compétences de pensée critique essentielles pour comprendre comment la méthode scientifique peut être appliquée efficacement afin de générer un changement significatif et durable au niveau communautaire. Grâce à cette expérience pratique, les étudiants acquièrent des connaissances précieuses sur les applications concrètes de la science thermique, tout en contribuant au dialogue plus large sur la durabilité environnementale et la conservation de l'énergie.
+Ce processus d'investigation rigoureux renforce le lien entre les observations localisées et les objectifs globaux de durabilité. Il permet également aux élèves de développer des compétences de pensée critique essentielles pour comprendre comment la méthode scientifique peut être appliquée efficacement afin de générer un changement significatif et durable au niveau communautaire. Grâce à cette expérience pratique, ils acquièrent des connaissances précieuses sur les applications concrètes de la science thermique, tout en contribuant au dialogue plus large sur la durabilité environnementale et la conservation de l'énergie.
 
 ### Restitution et réflexion
 
@@ -867,9 +871,19 @@ Les élèves peuvent analyser ces images pour interpréter les variations thermi
 
 ### Conseils et précautions
 
-Les conditions météorologiques influencent fortement la qualité des relevés. Il est préférable d'éviter de capturer des images en plein soleil ou par vent fort, car ces facteurs peuvent fausser les mesures. Lors de la prise de vue, il est recommandé de garder la caméra perpendiculaire à la surface observée afin de limiter les distorsions. À l'intérieur, il convient de réduire les sources de lumière chaude susceptibles d'interférer avec les relevés infrarouges.
+**Conditions de prise de vue :**
 
-Concernant la précision des températures affichées, il faut garder à l'esprit qu'une caméra thermique est surtout conçue pour détecter les différences de température (points chauds ou froids), mais qu'elle ne fournit pas une mesure absolue fiable. Plusieurs facteurs peuvent influencer la précision : le réglage de l'émissivité (le coefficient d'émission doit correspondre à la nature de la surface mesurée), la distance entre l'objet et la caméra, la température ambiante et la différence thermique entre l'environnement et l'appareil lui-même, la qualité de l'objectif utilisé, ainsi que la plage de mesure sélectionnée (large plage ou haute résolution).
+- Éviter de capturer des images en plein soleil ou par vent fort, car ces facteurs peuvent fausser les mesures.
+- Garder la caméra perpendiculaire à la surface observée afin de limiter les distorsions.
+- À l'intérieur, réduire les sources de lumière chaude susceptibles d'interférer avec les relevés infrarouges.
+
+**Précision des températures affichées :** une caméra thermique est surtout conçue pour détecter les différences de température (points chauds ou froids), mais elle ne fournit pas une mesure absolue fiable. Plusieurs facteurs influencent la précision :
+
+- le réglage de l'émissivité (le coefficient d'émission doit correspondre à la nature de la surface mesurée) ;
+- la distance entre l'objet et la caméra ;
+- la température ambiante et la différence thermique entre l'environnement et l'appareil ;
+- la qualité de l'objectif utilisé ;
+- la plage de mesure sélectionnée (large plage ou haute résolution).
 
 ### Choisir la bonne caméra thermique
 

@@ -59,8 +59,8 @@ La structure proposée a été validée par des chercheurs de plusieurs universi
 
 Le protocole Safari des objets connectés est divisé en deux phases complémentaires qui s'appuient l'une sur l'autre pour créer une compréhension globale de la conception collaborative d'objets intelligents.
 
-1. **Étape 1 — Familiarisation et idéation.** Les participants se familiarisent avec les concepts fondamentaux et proposent une idée de l'objet qu'ils souhaitent concevoir.
-2. **Étape 2 — Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
+1. **Phase 1 : Familiarisation et idéation.** Les participants se familiarisent avec les concepts fondamentaux et proposent une idée de l'objet qu'ils souhaitent concevoir.
+2. **Phase 2 : Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/smart-object-safari/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -88,7 +88,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ---
 
-## Étape 1 : Familiarisation et idéation
+## Phase 1 : Familiarisation et idéation
 
 ### Contexte de la séquence
 
@@ -129,7 +129,7 @@ Exemple de tableau d'idéation :
 | Objet | Description du comportement sous forme d'histoire | Feu de circulation : interagit avec les véhicules autonomes, cède le passage aux autres véhicules |
 | Capteur / Actionneur | Description avec QUAND &lt;CONDITION&gt; ALORS &lt;RÉACTION&gt; | Distance / LED : QUAND un véhicule s'approche ALORS afficher le feu jaune pendant 10 secondes, puis le feu vert pendant 60 secondes |
 
-:::info[Conseils pour les enseignants]
+:::info[Notes pour l'enseignant·e]
 
 - **Privilégier les objets autonomes.** Orientez les élèves vers des systèmes véritablement autonomes plutôt que des objets répondant uniquement à l'interaction humaine directe.
 - **Aider les élèves à équilibrer la complexité.** Évitez les objets trop simples comme les systèmes extrêmement complexes.
@@ -144,7 +144,7 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ---
 
-## Étape 2 : Conception et prototypage
+## Phase 2 : Conception et prototypage
 
 ### Contexte de la séquence
 
@@ -168,31 +168,43 @@ Organisez une brève table ronde sur la programmation par blocs. Posez des quest
 
 L'enseignant présente le concept de boucle à l'aide de diapositives et d'exemples dans MakeCode. En utilisant une approche de complexité incrémentale : absence de boucle (bloc « au démarrage »), puis boucle « toujours », puis boucle « répéter ».
 
-Exemple disponible : [https://makecode.microbit.org/\_C2yeP6E4xJrR](https://makecode.microbit.org/_C2yeP6E4xJrR)
+Exemple disponible : [https://makecode.microbit.org/_C2yeP6E4xJrR](https://makecode.microbit.org/_C2yeP6E4xJrR)
 
-> **Programme des élèves :** Demandez aux élèves d'implémenter le comportement initial de leur objet ainsi qu'un comportement de base à répéter cycliquement. Encouragez-les à distinguer les comportements qui ne doivent se produire qu'au démarrage de ceux qui doivent se produire cycliquement.
+:::info[Notes pour l'enseignant·e]
+
+**Programme des élèves :** demandez aux élèves d'implémenter le comportement initial de leur objet ainsi qu'un comportement de base à répéter cycliquement. Encouragez-les à distinguer les comportements qui ne doivent se produire qu'au démarrage de ceux qui doivent se produire cycliquement.
+
+:::
 
 #### 2. Introduction de conditions simples
 
 L'enseignant introduit des conditions et des comparaisons simples à travers des exemples de complexité croissante dans MakeCode.
 
 Exemples disponibles :
-- [https://makecode.microbit.org/\_Led0ghTFY8xy](https://makecode.microbit.org/_Led0ghTFY8xy)
-- [https://makecode.microbit.org/\_ewq3W0EwmHjJ](https://makecode.microbit.org/_ewq3W0EwmHjJ)
+- [https://makecode.microbit.org/_Led0ghTFY8xy](https://makecode.microbit.org/_Led0ghTFY8xy)
+- [https://makecode.microbit.org/_ewq3W0EwmHjJ](https://makecode.microbit.org/_ewq3W0EwmHjJ)
 
 Progression : interaction avec un bouton, modification du comportement, ajout de « else », remplacement de capteurs et de sorties.
 
-> **Programme des élèves :** Demandez aux élèves d'affiner le comportement de leur objet en ajoutant au moins une condition et une comparaison.
+:::info[Notes pour l'enseignant·e]
+
+**Programme des élèves :** demandez aux élèves d'affiner le comportement de leur objet en ajoutant au moins une condition et une comparaison.
+
+:::
 
 #### 3. Introduction aux conditions complexes
 
 L'enseignant présente les conditions complexes (opérateurs ET, OU) à l'aide d'exemples dans MakeCode.
 
-Exemple disponible : [https://makecode.microbit.org/\_LK0UUU2pUXoo](https://makecode.microbit.org/_LK0UUU2pUXoo)
+Exemple disponible : [https://makecode.microbit.org/_LK0UUU2pUXoo](https://makecode.microbit.org/_LK0UUU2pUXoo)
 
 Progression : condition avec OU, remplacement par ET, modification des entrées, ajout de « else ».
 
-> **Programme des élèves :** Demandez aux élèves d'affiner le comportement de leur objet en ajoutant au moins une condition complexe. Comme il s'agit de la dernière étape, demandez aux élèves de partager et de présenter collectivement leurs projets.
+:::info[Notes pour l'enseignant·e]
+
+**Programme des élèves :** demandez aux élèves d'affiner le comportement de leur objet en ajoutant au moins une condition complexe. Comme il s'agit de la dernière étape, demandez aux élèves de partager et de présenter collectivement leurs projets.
+
+:::
 
 ### Restitution et réflexion
 

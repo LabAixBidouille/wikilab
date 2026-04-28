@@ -59,31 +59,14 @@ Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde
 
 **Disciplines** : biologie, physique.
 
-### Structure de l'activité
+### Structure du protocole
 
-#### Étape 1 : Collecter des données
+Le protocole se déroule en quatre phases progressives, organisées sur trois séances (180 minutes au total).
 
-L'étape 1 a permis aux élèves de découvrir les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, les élèves ont acquis des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base. Cette première étape a mis en place les bases de la compréhension de la collecte de données environnementales et de leur interprétation au moyen d'indicateurs visuels.
-
-#### Étape 2 : Afficher les données pour obtenir les informations nécessaires
-
-L'étape 2 vise à développer les compétences de visualisation des données en enseignant aux élèves comment modifier leur programme de détection de CO2 pour afficher les mesures sous forme graphique. Cette activité s'appuie sur la programmation du capteur de l'étape 1, en présentant aux élèves des techniques de représentation des données plus avancées. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, les élèves acquièrent de précieuses compétences en matière de visualisation et d'analyse des données. Cette étape constitue un pont entre la collecte et l'interprétation des données, préparant les élèves au travail d'analyse plus approfondi qui suit dans les étapes suivantes.
-
-#### Étape 3 : Analyser les données et en tirer des enseignements
-
-L'étape 3 est une phase cruciale du protocole de surveillance du CO2, au cours de laquelle les élèves passent de la collecte de données à une analyse significative. En 60 minutes, les élèves apprennent à identifier les tendances des niveaux de CO2 et à les corréler avec des événements ou des comportements spécifiques dans leur environnement. En enregistrant des facteurs tels que les ouvertures de fenêtres, l'occupation des pièces et les schémas de ventilation, les élèves développent des compétences analytiques tout en comprenant les implications pratiques de la gestion de la qualité de l'air. Cette étape comble le fossé entre la collecte de données brutes et les informations exploitables, préparant les élèves à prendre des décisions éclairées sur les pratiques de ventilation. Elle est particulièrement utile pour l'enseignement de la méthodologie scientifique, l'interprétation des données et l'application concrète de la surveillance environnementale.
-
-#### Étape 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ
-
-L'étape 4 est le point culminant du protocole de surveillance du CO2, où les élèves transforment leur analyse de données en solutions exploitables. Cette phase de 40 minutes se concentre sur les applications pratiques des données collectées, encourageant les élèves à développer des solutions concrètes pour améliorer la qualité de l'air. Les élèves apprennent à appliquer des techniques d'analyse statistique, à partager leurs résultats via des plateformes mondiales comme Vittamap et à élaborer des recommandations concrètes pour des changements de comportement. Cette étape est cruciale car elle fait le lien entre l'observation scientifique et la mise en œuvre pratique, en enseignant aux élèves comment utiliser les données pour prendre des décisions éclairées sur les pratiques de ventilation et la gestion de l'environnement. Elle souligne l'importance de la collaboration scientifique mondiale tout en maintenant une focalisation locale sur les améliorations environnementales immédiates.
-
-#### Informations pratiques
-
-**Durée** : 180 minutes ou 3 leçons (première pour l'étape 1, deuxième pour l'étape 2 et le début de l'étape 3, et troisième pour la fin de l'étape 3 et l'étape 4).
-
-**Niveau de difficulté** : Facile (adaptable du collège au lycée).
-
-**Matériel nécessaire** : 1 carte programmable (NUCLEO-L476RG, Arduino ou Micro:bit) ; 1 shield Grove ; 1 LED RGB Neopixel ; 1 écran LCD ; 1 capteur Sensirion SCD30 ; 1 module Bluetooth HM10 BLE ; 1 batterie ; 1 connecteur de batterie ; 1 câble USB.
+- **Phase 1 : Collecter des données** — les élèves découvrent les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, ils acquièrent des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base.
+- **Phase 2 : Afficher les données pour obtenir les informations nécessaires** — les élèves développent leurs compétences de visualisation en modifiant leur programme pour afficher les mesures sous forme graphique. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, ils apprennent des techniques de représentation des données plus avancées.
+- **Phase 3 : Analyser les données et en tirer des enseignements** — en 60 minutes, les élèves identifient les tendances des niveaux de CO2 et les corrèlent avec des événements ou comportements spécifiques (ouvertures de fenêtres, occupation des pièces, schémas de ventilation). Ils développent des compétences analytiques et comprennent les implications pratiques de la gestion de la qualité de l'air.
+- **Phase 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ** — cette phase de 40 minutes se concentre sur les applications pratiques. Les élèves appliquent des techniques d'analyse statistique, partagent leurs résultats via des plateformes mondiales comme Vittamap et élaborent des recommandations concrètes pour des changements de comportement.
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -93,25 +76,22 @@ L'étape 4 est le point culminant du protocole de surveillance du CO2, où les �
 
 ### Glossaire
 
-**Dioxyde de carbone** : Le dioxyde de carbone est un gaz inodore, incolore et sans goût. Il est donc difficile de détecter sa présence où que ce soit. Une molécule de dioxyde de carbone est composée d'un atome de carbone (C) et de deux atomes d'oxygène (O). Mais d'où vient-il ? Lorsque nous inspirons, nous inhalons du dioxygène (O2) de l'air et expirons du dioxyde de carbone (CO2). L'activité humaine produit également du dioxyde de carbone, notamment lors de la combustion d'hydrocarbures (chauffage au bois, combustion de carburants, centrales à charbon, etc.). Dans une pièce fermée, on peut considérer que le dioxyde de carbone provient uniquement de la respiration des personnes présentes à l'intérieur.
-
-**Unité PPM** : PPM signifie Parts Per Million (parties par million). Cette unité de mesure est souvent utilisée par les scientifiques, notamment pour mesurer le niveau de pollution. Comme son nom l'indique, cette unité indique combien de molécules polluantes il y a dans un million de molécules d'air. À titre de comparaison, 1 % correspond à 1 million/100 = 10 000 ppm. Par exemple, 800 ppm de CO2 signifie que sur 1 million de molécules dans l'air, 800 sont des molécules de dioxyde de carbone. Autrement dit, le pourcentage est de 800/10000 = 0,08 %.
-
-**Taux de dioxyde de carbone en ppm** : Il est utile de connaître le taux de dioxyde de carbone dans une pièce, par exemple pour déterminer si un seuil a été franchi et qu'une pièce doit être ventilée. Ce taux se mesure en ppm (voir définition ci-dessus). Le taux moyen de CO2 en extérieur est d'environ 400 ppm, hors pics de pollution et dans les zones peu polluées. Ce taux moyen peut être plus élevé, par exemple à l'extérieur près d'un échangeur autoroutier. La valeur de référence du taux moyen en extérieur est fixée par des mesures effectuées à l'observatoire de Mauna Loa à Hawaï. Ce site est considéré comme idéal, car situé en hauteur au-dessus d'un volcan. Ces mesures sont effectuées depuis 1958. Ce taux moyen est en augmentation depuis des décennies. Vous pouvez consulter le taux moyen « en direct » sur le site du Global Monitoring Laboratory.
-
-**LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 mHz en France) qui permet l'échange de données entre objets connectés. Le signal est émis sur une large gamme spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine, jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits de données LoRaWan sont très faibles, quelques kilobits par seconde seulement. Ce type de réseau est donc utilisé pour l'Internet des Objets (IoT), c'est-à-dire les capteurs fixes (ex : température, humidité, etc.). Les capteurs utilisant la technologie LoRa (modulation des ondes radio) se connectent à Internet via des passerelles. Il peut s'agir d'antennes (comme en France avec Orange) ou de boîtiers à connecter à votre réseau personnel fibre/ADSL. Cette technologie est compatible avec les cartes programmables NUCLEO-L476RG, Arduino et Micro:bit.
+- **Dioxyde de carbone** : gaz inodore, incolore et sans goût, donc difficile à détecter. Une molécule de dioxyde de carbone est composée d'un atome de carbone (C) et de deux atomes d'oxygène (O). Lorsque nous inspirons, nous inhalons du dioxygène (O2) de l'air et expirons du dioxyde de carbone (CO2). L'activité humaine produit également du dioxyde de carbone, notamment lors de la combustion d'hydrocarbures (chauffage au bois, combustion de carburants, centrales à charbon, etc.). Dans une pièce fermée, on peut considérer que le dioxyde de carbone provient uniquement de la respiration des personnes présentes à l'intérieur.
+- **Unité PPM** : PPM signifie Parts Per Million (parties par million). Cette unité de mesure est souvent utilisée par les scientifiques, notamment pour mesurer le niveau de pollution. Elle indique combien de molécules polluantes il y a dans un million de molécules d'air. À titre de comparaison, 1 % correspond à 1 million/100 = 10 000 ppm. Par exemple, 800 ppm de CO2 signifie que sur 1 million de molécules dans l'air, 800 sont des molécules de dioxyde de carbone (soit 0,08 %).
+- **Taux de dioxyde de carbone en ppm** : il est utile de connaître le taux de dioxyde de carbone dans une pièce, par exemple pour déterminer si un seuil a été franchi et qu'une pièce doit être ventilée. Le taux moyen de CO2 en extérieur est d'environ 400 ppm, hors pics de pollution et dans les zones peu polluées. La valeur de référence du taux moyen en extérieur est fixée par des mesures effectuées à l'observatoire de Mauna Loa à Hawaï depuis 1958. Ce taux moyen est en augmentation depuis des décennies. Vous pouvez consulter le taux moyen « en direct » sur le site du Global Monitoring Laboratory.
+- **LoRa** : la technologie LoRaWan est un protocole de communication radio (fréquence 868 mHz en France) qui permet l'échange de données entre objets connectés. Le signal est émis sur une large gamme spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine, jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits de données LoRaWan sont très faibles, quelques kilobits par seconde seulement. Ce type de réseau est donc utilisé pour l'Internet des Objets (IoT), c'est-à-dire les capteurs fixes (ex : température, humidité, etc.). Les capteurs utilisant la technologie LoRa se connectent à Internet via des passerelles. Cette technologie est compatible avec les cartes programmables NUCLEO-L476RG, Arduino et Micro:bit.
 
 ---
 
-## Étape 1 : Collecter des données
+## Phase 1 : Collecter des données
 
 ### Contexte de la séquence
 
-Cette première étape permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
+Cette première phase permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
 
 ### Objectifs d'apprentissage
 
-L'objectif de cette étape est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2), il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
+L'objectif de cette phase est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2). Il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
 
 ### Conceptualisation
 
@@ -147,7 +127,7 @@ Pour plus de facilité d'utilisation, nous décrivons ici la deuxième méthode,
 4. Dans le menu « capteurs » choisir le bloc : [Capteur SCD30] forcer l'étalonnage à (420) (ppm)
 5. Faites ensuite glisser ce bloc dans le bloc « Au démarrage ».
 
-Documentation : Selon les scientifiques qui ont contribué au site nousaerons.fr, les seuils suivants devraient être pris en considération :
+**Seuils de référence** : selon les scientifiques qui ont contribué au site nousaerons.fr, les seuils suivants devraient être pris en considération :
 
 - **Taux de CO2 ~ 410 ppm** : il s'agit du taux moyen mesuré en extérieur, hors épisodes de pollution ; plus on se rapproche de ce taux dans une pièce, mieux c'est, car c'est le signe que l'air se renouvelle. À l'inverse, dans un espace confiné, sans renouvellement d'air suffisant, le risque de contamination par les aérosols augmente rapidement, et cela se traduit par l'augmentation du taux de CO2 dans la pièce.
 - **Taux de CO2 &lt; 600 ppm** : ce taux est recommandé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces de restauration où le port du masque n'est pas autorisé. Vous pouvez télécharger les consignes de ventilation mises en place dans les cantines de Nantes Métropole au format PDF ou au format ODT modifiable pour les adapter à votre situation.
@@ -155,16 +135,23 @@ Documentation : Selon les scientifiques qui ont contribué au site nousaerons.fr
 - **Taux de CO2 &gt; 1500 ppm** : correspond à un seuil d'action immédiate, recommandé par le Haut Conseil de la Santé Publique et dans l'arrêté du 27 décembre 2022 du Code de l'environnement.
 - **Taux de CO2 = 5000 ppm** : correspond à la limite d'exposition professionnelle (LEP).
 
-Un taux de dioxyde de carbone de 800 ppm est un seuil également mentionné dans les Références pour l'aération et la ventilation des espaces scolaires (Avril 2021). Le dioxyde de carbone, aussi appelé dioxyde de carbone ou CO2, est un gaz expiré lors de la respiration humaine qui s'accumule dans les espaces clos mal ventilés. La mesure de la concentration de CO2 dans l'air est donc un moyen simple d'évaluer si le renouvellement de l'air est suffisant ou non. À l'extérieur, la concentration de CO2 dans l'air est d'environ 0,04 %, soit 400 ppm (parties par million). Idéalement, les concentrations intérieures ne devraient pas dépasser 600 ppm, notamment dans les zones où le port du masque n'est pas autorisé, comme les cantines scolaires. Des concentrations supérieures à 0,08 %, soit 800 ppm, sont révélatrices d'une ventilation inadéquate dans un contexte de COVID-19 (recommandation actuelle du Haut Conseil de la Santé Publique, www.hcsp.fr).
+Le seuil de 800 ppm est également mentionné dans les *Références pour l'aération et la ventilation des espaces scolaires* (Avril 2021) et constitue la recommandation actuelle du Haut Conseil de la Santé Publique (www.hcsp.fr) dans un contexte de COVID-19.
 
 #### Quelles sont les différentes manières de ventiler une pièce ?
 
 Il existe plusieurs façons de ventiler une pièce, en fonction des besoins, des contraintes architecturales et du niveau de qualité d'air souhaité. Voici les principales façons de ventiler une pièce :
 
-1. **Ventilation manuelle** : Ouvrir les fenêtres et les portes.
-2. **Ventilation naturelle** : Grilles de ventilation : installées dans les murs ou les fenêtres, elles assurent une ventilation continue sans intervention humaine. Cheminées ou conduits verticaux : Utilisent l'effet de tirage naturel pour extraire l'air chaud et renouveler l'air de la pièce.
-3. **Ventilation mécanique** : Ventilation Mécanique Contrôlée (VMC) : Aspiration de l'air vicié des pièces humides (cuisine, salle de bains) et renouvellement de l'air des autres pièces par des bouches d'aération.
-4. **Ventilation forcée** : Systèmes de climatisation avec fonction d'échange d'air : Certains climatiseurs sont équipés de fonctions de ventilation qui amènent de l'air frais de l'extérieur. Purificateurs d'air avec fonction de ventilation : En plus de filtrer l'air, certains modèles peuvent également renouveler l'air intérieur. Ces différentes méthodes peuvent être combinées pour optimiser la qualité de l'air intérieur et répondre aux besoins spécifiques de chaque espace, que ce soit pour réduire l'humidité, éviter la condensation ou simplement assurer une bonne circulation de l'air.
+1. **Ventilation manuelle** : ouvrir les fenêtres et les portes.
+2. **Ventilation naturelle** :
+   - **Grilles de ventilation** : installées dans les murs ou les fenêtres, elles assurent une ventilation continue sans intervention humaine.
+   - **Cheminées ou conduits verticaux** : utilisent l'effet de tirage naturel pour extraire l'air chaud et renouveler l'air de la pièce.
+3. **Ventilation mécanique** :
+   - **Ventilation Mécanique Contrôlée (VMC)** : aspiration de l'air vicié des pièces humides (cuisine, salle de bains) et renouvellement de l'air des autres pièces par des bouches d'aération.
+4. **Ventilation forcée** :
+   - **Systèmes de climatisation avec fonction d'échange d'air** : certains climatiseurs sont équipés de fonctions de ventilation qui amènent de l'air frais de l'extérieur.
+   - **Purificateurs d'air avec fonction de ventilation** : en plus de filtrer l'air, certains modèles peuvent également renouveler l'air intérieur.
+
+Ces différentes méthodes peuvent être combinées pour optimiser la qualité de l'air intérieur et répondre aux besoins spécifiques de chaque espace, que ce soit pour réduire l'humidité, éviter la condensation ou simplement assurer une bonne circulation de l'air.
 
 ### Investigation par les élèves
 
@@ -230,15 +217,15 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 ---
 
-## Étape 2 : Afficher les données pour obtenir les informations nécessaires
+## Phase 2 : Afficher les données pour obtenir les informations nécessaires
 
 ### Contexte de la séquence
 
-Cette deuxième étape permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
+Cette deuxième phase permet aux élèves d'approfondir leurs compétences en programmation grâce à des outils (interfaces et matériels). Elle peut être réalisée en classe. Il suffit d'allumer une LED de couleur différente en fonction du taux de CO2 mesuré et d'afficher la valeur sur l'écran de l'ordinateur.
 
 ### Objectifs d'apprentissage
 
-Le but de cette étape est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
+Le but de cette phase est de mesurer le taux de CO2 à l'aide du capteur SCD30 et d'afficher les valeurs (exprimées en ppm) sur l'écran de l'ordinateur, en allumant une LED de couleur différente selon le niveau mesuré.
 
 ### Conceptualisation
 
@@ -246,7 +233,7 @@ Avant de commencer, il est important d'évaluer le niveau de connaissances des �
 
 #### Comment afficher les valeurs de CO2 à l'écran ?
 
-Le programme précédent peut être modifié pour afficher la valeur de CO2 mesurée sur l'écran de l'ordinateur via l'interface Vittascience. Cela peut être utile, par exemple, si vous souhaitez projeter les valeurs mesurées en vidéo. La configuration est la même que pour l'activité 4 de l'étape 1. Il est toutefois possible de se passer du module LCD dans la configuration si vous ne souhaitez pas d'affichage sur cet écran.
+Le programme précédent peut être modifié pour afficher la valeur de CO2 mesurée sur l'écran de l'ordinateur via l'interface Vittascience. Cela peut être utile, par exemple, si vous souhaitez projeter les valeurs mesurées en vidéo. La configuration est la même que pour l'activité 4 de la phase 1. Il est toutefois possible de se passer du module LCD dans la configuration si vous ne souhaitez pas d'affichage sur cet écran.
 
 #### Quelle partie du programme doit être modifiée ?
 
@@ -262,7 +249,7 @@ Dans la partie « communication », vous trouverez un bloc d'instructions permet
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de l'étape 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de la phase 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
 Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Affichage du CO2 »).
 
@@ -276,7 +263,7 @@ Vous trouverez un exemple de programme de travail pour réaliser cette activité
 
 ### Restitution et réflexion
 
-L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à l'étape 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé l'étape 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Chacune d'entre elles est ensuite utilisée pour analyser les données afin de comprendre l'influence des données sur le résultat.
+L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à la phase 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé la phase 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Chacune d'entre elles est ensuite utilisée pour analyser les données afin de comprendre l'influence des données sur le résultat.
 
 **Connaissances mobilisées** : les élèves explorent des méthodes de visualisation des données, comme l'utilisation de LED et d'écrans d'ordinateur.
 
@@ -286,11 +273,11 @@ L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont a
 
 ---
 
-## Étape 3 : Analyser les données et en tirer des leçons
+## Phase 3 : Analyser les données et en tirer des leçons
 
 ### Contexte de la séquence
 
-Cette étape permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
+Cette phase permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
 
 ### Objectifs d'apprentissage
 
@@ -330,11 +317,11 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ---
 
-## Étape 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ
+## Phase 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ
 
 ### Contexte de la séquence
 
-La dernière étape permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
+La dernière phase permet aux élèves de tirer des conclusions de l'analyse des données, d'identifier les faiblesses du système actuel et d'identifier les domaines à améliorer dans la vie quotidienne.
 
 ### Objectifs d'apprentissage
 
@@ -358,7 +345,22 @@ L'activité est lancée par l'enseignant à l'aide des données collectées par 
 
 **Consignes pour les élèves** : Maintenant que les données ont été enregistrées, il peut être intéressant de les comparer avec d'autres données du monde entier grâce à la technologie LoRa. Téléchargez les données que vous avez collectées (grâce à la [technologie LoRa](https://en.vittascience.com/learn/tutorial.php?id=547/activity-no-11-send-the-data-on-the-lora-network-and-display-it-on-the-vittamap-interface-iot-sensors-kit)) et mettez-les à disposition pour consultation sur le site de l'école ou sur le site de Vittascience. Vous pouvez publier les données collectées en temps réel sur Internet via un serveur. Par exemple, la qualité de l'air locale peut être affichée sur un site Web ou un réseau social. Attention cependant, la mise en place d'un tel projet est réservée aux utilisateurs expérimentés !
 
-Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap. Cliquez sur le bouton « + » → « Ajouter une expérience ». Sur le formulaire, remplissez les informations suivantes : Nom du projet ; Type de kit : kit station de mesure ; Comment s'est déroulé le projet ? (décrivez ici votre protocole de mesure) ; Lieu ; Dates de mesure ; Données (pour ajouter des données, vous pouvez inclure plusieurs séries de mesures. Vous pouvez saisir des données directement dans le tableau "Champ de données", et/ou ajouter votre propre fichier .csv depuis votre carte SD) ; Photos/Vidéos ; Langue. Une fois tous les champs remplis, il ne vous reste plus qu'à cliquer sur le bouton "Ajouter une expérience". Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap. Les élèves peuvent ensuite les comparer avec d'autres expériences similaires. Filtrez les expériences par type de "Kit station de mesure". Cliquez ensuite sur une expérience et sur le bouton "comparer". Cliquez à nouveau sur une autre expérience et sur le bouton "comparer avec l'expérience sélectionnée".
+**Procédure pour publier sur Vittamap** :
+
+1. Connectez-vous sur le site Vittascience et accédez à la carte Vittamap : vittascience.com/vittamap.
+2. Cliquez sur le bouton « + » puis « Ajouter une expérience ».
+3. Sur le formulaire, remplissez les informations suivantes :
+   - **Nom du projet**
+   - **Type de kit** : kit station de mesure
+   - **Comment s'est déroulé le projet ?** (décrivez ici votre protocole de mesure)
+   - **Lieu**
+   - **Dates de mesure**
+   - **Données** : vous pouvez inclure plusieurs séries de mesures, saisir des données directement dans le tableau « Champ de données » et/ou ajouter votre propre fichier .csv depuis votre carte SD
+   - **Photos/Vidéos**
+   - **Langue**
+4. Une fois tous les champs remplis, cliquez sur « Ajouter une expérience ». Vos données sont désormais disponibles pour la communauté d'utilisateurs de Vittascience sur la carte Vittamap.
+
+**Pour comparer avec d'autres expériences** : filtrez les expériences par type de « Kit station de mesure ». Cliquez sur une expérience puis sur « comparer ». Cliquez à nouveau sur une autre expérience puis sur « comparer avec l'expérience sélectionnée ».
 
 ### Restitution et réflexion
 
@@ -376,15 +378,11 @@ L'enseignant encourage les élèves à partager des idées pour améliorer le ta
 
 ### Exploration de la problématique au travers d'autres initiatives
 
-**Exploration de la qualité de l'air intérieur à la maison** : Dans cette extension, les élèves surveilleront la qualité de l'air de leurs chambres à l'aide de capteurs de CO2, renforçant ainsi leur compréhension de l'impact de la ventilation sur la santé et le bien-être. En observant et en enregistrant les niveaux de CO2 à différents moments de la journée, ils peuvent identifier les schémas influencés par des activités comme le sommeil, les études ou le nombre d'occupants dans la pièce.
-
-**Établir des liens** : En recueillant des données, les élèves établiront un lien entre les principes scientifiques abordés en classe et leurs expériences vécues. Cette activité les encourage à réfléchir à la façon dont la circulation de l'air, la taille de la pièce et les méthodes de ventilation contribuent à la qualité de l'air. En comprenant ces dynamiques, les élèves peuvent faire des choix éclairés pour améliorer leur environnement immédiat, comme ajuster les fenêtres ou utiliser des techniques de ventilation simples.
-
-**Appliquer les connaissances pour un impact quotidien** : Les élèves peuvent également étudier l'efficacité de changements spécifiques dans l'environnement de leur salle. Par exemple, ils peuvent comparer les niveaux de CO2 avec des fenêtres fermées ou partiellement ouvertes ou expérimenter le flux d'air à l'aide de ventilateurs. Ces observations aident à traduire des concepts abstraits en actions concrètes.
-
-**Engager l'entourage** : Encourager la participation des familles peut amplifier l'impact de l'activité. En partageant leurs découvertes avec d'autres membres du foyer, les élèves peuvent défendre des pratiques qui favorisent une meilleure qualité de l'air, favorisant ainsi une culture de sensibilisation à l'environnement au sein de leur communauté.
-
-**Du suivi au plaidoyer** : Cette expérience pratique transforme les élèves en défenseurs d'espaces de vie plus sains. Armés de leurs données et de leurs observations, ils peuvent discuter des implications plus larges de la qualité de l'air, comme son rôle dans la réduction des maladies transmises par l'air, l'amélioration de la concentration et l'amélioration de la qualité du sommeil. L'activité développe ainsi non seulement la culture scientifique, mais aussi le sens des responsabilités envers un mode de vie durable.
+- **Exploration de la qualité de l'air intérieur à la maison** : dans cette extension, les élèves surveilleront la qualité de l'air de leurs chambres à l'aide de capteurs de CO2, renforçant ainsi leur compréhension de l'impact de la ventilation sur la santé et le bien-être. En observant et en enregistrant les niveaux de CO2 à différents moments de la journée, ils peuvent identifier les schémas influencés par des activités comme le sommeil, les études ou le nombre d'occupants dans la pièce.
+- **Établir des liens** : en recueillant des données, les élèves établiront un lien entre les principes scientifiques abordés en classe et leurs expériences vécues. Cette activité les encourage à réfléchir à la façon dont la circulation de l'air, la taille de la pièce et les méthodes de ventilation contribuent à la qualité de l'air. En comprenant ces dynamiques, les élèves peuvent faire des choix éclairés pour améliorer leur environnement immédiat, comme ajuster les fenêtres ou utiliser des techniques de ventilation simples.
+- **Appliquer les connaissances pour un impact quotidien** : les élèves peuvent également étudier l'efficacité de changements spécifiques dans l'environnement de leur salle. Par exemple, ils peuvent comparer les niveaux de CO2 avec des fenêtres fermées ou partiellement ouvertes ou expérimenter le flux d'air à l'aide de ventilateurs. Ces observations aident à traduire des concepts abstraits en actions concrètes.
+- **Engager l'entourage** : encourager la participation des familles peut amplifier l'impact de l'activité. En partageant leurs découvertes avec d'autres membres du foyer, les élèves peuvent défendre des pratiques qui favorisent une meilleure qualité de l'air, favorisant ainsi une culture de sensibilisation à l'environnement au sein de leur communauté.
+- **Du suivi au plaidoyer** : cette expérience pratique transforme les élèves en défenseurs d'espaces de vie plus sains. Armés de leurs données et de leurs observations, ils peuvent discuter des implications plus larges de la qualité de l'air, comme son rôle dans la réduction des maladies transmises par l'air, l'amélioration de la concentration et l'amélioration de la qualité du sommeil. L'activité développe ainsi non seulement la culture scientifique, mais aussi le sens des responsabilités envers un mode de vie durable.
 
 ## Bibliographie
 

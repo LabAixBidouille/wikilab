@@ -125,7 +125,16 @@ Pour démarrer l'activité, les élèves effectueront une recherche documentaire
 
 #### Conception du protocole
 
-Une fois le corpus documentaire constitué et étudié, les élèves en tireront des enseignements pour élaborer un protocole simple mais rigoureux, permettant d'évaluer les impacts du bruit sur leurs capacités cognitives au sein de la classe. Il devra suivre la démarche scientifique, comprenant plusieurs étapes clés : la formulation d'une question de recherche claire, l'élaboration d'une hypothèse testable, la conception et réalisation d'expériences contrôlées, l'analyse systématique des données recueillies, l'interprétation des résultats et l'évaluation de l'hypothèse initiale, et enfin le partage des résultats et conclusions avec la classe. Cette approche méthodique permettra aux élèves d'explorer rigoureusement l'impact du bruit sur leur concentration et leurs performances cognitives en classe, en utilisant des outils de mesure, des procédures de collecte de données systématiques, et des méthodes d'analyse appropriées. Ils apprendront à identifier des tendances, des corrélations et des relations significatives entre les variables étudiées, et à formuler des conclusions basées sur des preuves empiriques.
+Une fois le corpus documentaire constitué et étudié, les élèves en tirent des enseignements pour élaborer un protocole simple mais rigoureux, permettant d'évaluer les impacts du bruit sur leurs capacités cognitives au sein de la classe. Ce protocole doit suivre la **démarche scientifique**, qui comprend plusieurs étapes clés :
+
+- formulation d'une **question de recherche** claire ;
+- élaboration d'une **hypothèse** testable ;
+- conception et réalisation d'**expériences contrôlées** ;
+- **analyse systématique** des données recueillies ;
+- **interprétation des résultats** et évaluation de l'hypothèse initiale ;
+- **partage des résultats** et conclusions avec la classe.
+
+Cette approche méthodique permet aux élèves d'explorer rigoureusement l'impact du bruit sur leur concentration et leurs performances cognitives en classe, en utilisant des outils de mesure, des procédures de collecte de données systématiques et des méthodes d'analyse appropriées. Ils apprennent à identifier des tendances, des corrélations et des relations significatives entre les variables étudiées, et à formuler des conclusions basées sur des preuves empiriques.
 
 #### Exemple de protocole
 
@@ -137,12 +146,21 @@ Une fois le corpus documentaire constitué et étudié, les élèves en tireront
    - **Mesures qualitatives** : Grille de notation de la perception de bien-être après chaque cours, questionnaire quotidien sur le niveau de fatigue, de stress et la qualité perçue de la journée.
    - **Analyse des facteurs extérieurs** : Évaluation des événements particuliers pouvant influencer le niveau de bruit ou le bien-être des élèves (par exemple, travaux à proximité de l'école, évaluations importantes, conditions météorologiques, activités spéciales - sorties, activités sportives...).
 5. **Utilisation des données** :
-   - **Stockage des données** : Les données quantitatives des capteurs de décibels seront stockées dans un fichier CSV intégrant les informations de date, heure et niveau de décibel relevé. Les données qualitatives seront saisies journalièrement dans un journal d'étude personnel à chaque élève.
-   - **Analyse des données** : Nous calculerons les moyennes quotidiennes de niveau sonore et identifierons les pics de bruit (moments où le niveau sonore dépasse un seuil prédéfini). Des graphiques seront créés pour montrer l'évolution du niveau sonore au fil du temps, avec mise en évidence des pics. Nous agrégerons les données de bien-être et de performance cognitive de tous les élèves. Si des différences importantes sont notées dans les journaux personnels, des questionnaires supplémentaires seront envisagés afin d'intégrer de nouvelles informations à notre étude. Nous comparerons visuellement les niveaux de bruit avec chaque indicateur de bien-être/performance. Nous créerons des graphiques simples montrant les tendances générales entre le bruit et nos indicateurs. Nous identifierons et discuterons des cas qui semblent s'écarter de ces tendances générales. Pour approfondir notre analyse, nous calculerons les coefficients de corrélation entre les niveaux de bruit et chacun de nos indicateurs de bien-être et de performance cognitive. L'interprétation de ces coefficients nous aidera à déterminer quels aspects du bien-être et de la performance sont les plus sensibles aux variations de bruit (voir section "Aller plus loin - Comprendre les coefficients de corrélation" dans la phase 3). Nous catégoriserons les facteurs externes notés (ex: météo, type d'activité, événements particuliers). Nous analyserons l'impact de ces facteurs sur les niveaux sonores et les indicateurs de bien-être/performance. Des graphiques comparatifs seront créés pour montrer les variations selon les différents contextes.
-6. **Présentation des résultats** : Création de graphiques montrant la corrélation entre le niveau de bruit et les performances cognitives et documentation du protocole sur une infographie qui pourra être partagée avec la classe, l'établissement ou sur les réseaux.
+   - **Stockage des données** : Les données quantitatives des capteurs de décibels seront stockées dans un fichier CSV intégrant les informations de date, heure et niveau de décibel relevé. Les données qualitatives seront saisies quotidiennement dans un journal d'étude personnel à chaque élève.
+   - **Analyse des niveaux sonores** : Calcul des moyennes quotidiennes et identification des pics de bruit (moments où le niveau sonore dépasse un seuil prédéfini). Création de graphiques montrant l'évolution du niveau sonore au fil du temps, avec mise en évidence des pics.
+   - **Analyse du bien-être et des performances** : Agrégation des données de bien-être et de performance cognitive de l'ensemble des élèves. Si des différences importantes sont notées dans les journaux personnels, des questionnaires supplémentaires pourront être envisagés.
+   - **Mise en relation bruit / indicateurs** : Comparaison visuelle des niveaux de bruit avec chaque indicateur de bien-être et de performance, création de graphiques simples pour faire ressortir les tendances générales, et identification des cas qui s'écartent de ces tendances.
+   - **Coefficients de corrélation** : Calcul des coefficients de corrélation entre les niveaux de bruit et chacun des indicateurs pour déterminer quels aspects sont les plus sensibles aux variations sonores (voir la section *Aller plus loin* sur la phase 3 pour leur interprétation).
+   - **Facteurs externes** : Catégorisation des facteurs externes notés (météo, type d'activité, événements particuliers) et analyse de leur impact sur les niveaux sonores et les indicateurs. Des graphiques comparatifs permettent de visualiser les variations selon les contextes.
+6. **Présentation des résultats** : Création de graphiques montrant la corrélation entre le niveau de bruit et les performances cognitives, et documentation du protocole sur une infographie qui pourra être partagée avec la classe, l'établissement ou sur les réseaux.
 
-:::info[Conseils pour les enseignants]
-Dans une logique d'apprentissage actif, il est intéressant de laisser les élèves réaliser cet exercice de conception du protocole par eux-mêmes. Cependant, l'enseignant jouera un rôle crucial de guide, adoptant une approche semi-dirigée pour s'assurer que le protocole final intègre les composantes essentielles à l'étude : l'utilisation d'un capteur de bruit (sonomètre) pour des mesures objectives, et la réalisation d'un journal d'enquête comprenant l'analyse qualitative des journées de classe sur au moins une semaine complète. Cette approche permettra de garantir la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves dans leur démarche d'investigation.
+:::info[Notes pour l'enseignant·e]
+Dans une logique d'apprentissage actif, il est intéressant de laisser les élèves réaliser cet exercice de conception du protocole par eux-mêmes. L'enseignant·e joue cependant un rôle de guide, en adoptant une approche semi-dirigée pour s'assurer que le protocole final intègre les composantes essentielles :
+
+- l'utilisation d'un **capteur de bruit (sonomètre)** pour des mesures objectives ;
+- la réalisation d'un **journal d'enquête** comprenant une analyse qualitative des journées de classe sur au moins une semaine complète.
+
+Cette approche garantit la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves.
 :::
 
 ### Restitution et réflexion
@@ -191,6 +209,10 @@ Pour faciliter la mise en oeuvre de cette étape, vous trouverez dans la [fiche 
 
 #### Création du journal de bord
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
+
+<div style={{flex: '1 1 300px'}}>
+
 Les élèves développeront un journal de bord structuré pour enregistrer quotidiennement leurs évaluations de bien-être et de performance cognitive, ainsi que les facteurs externes potentiellement influents (activité physique, météo, type d'activités en classe, qualité du sommeil).
 
 Le journal de bord comprend les éléments suivants :
@@ -205,12 +227,21 @@ Le journal de bord comprend les éléments suivants :
 - **Facteurs externes influents** : Activité physique (type et durée), Météo pendant la journée, Qualité du sommeil la nuit précédente (1-5)
 - Observations complémentaires
 
+</div>
+
+<figure style={{flex: '1 1 300px', maxWidth: 'calc(50% - 1rem)', margin: 0, textAlign: 'center', alignSelf: 'flex-start'}}>
+  <img src="/img/ressources/steamcity/decibel-detective/DecibelDetectiveJournal.png" alt="Journal de bord Decibel Detective" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de journal de bord</figcaption>
+</figure>
+
+</div>
+
 #### Collecte quotidienne de données
 
 Chaque jour de la semaine d'étude, les élèves compléteront leur journal de bord, évaluant leurs indicateurs de bien-être et de performance cognitive, et notant les facteurs externes. Les élèves noteront également dans leur journal tout événement particulier pouvant influencer le niveau de bruit ou leur bien-être (par exemple, travaux à proximité de l'école, évaluations importantes).
 
-:::info[Conseils pour les enseignants]
-Dans une logique interdisciplinaire, il pourrait être intéressant de présenter le protocole aux autres enseignants de la classe. Ceux qui le souhaitent pourraient participer à l'étude, créant ainsi une dynamique collective autour du projet. Les enseignants volontaires pourraient rappeler aux élèves de remplir leur journal de bord et éventuellement intégrer des réflexions sur le bruit dans leurs cours. Cette approche collaborative, si adoptée, permettrait aux élèves de percevoir l'importance de l'étude dans différents contextes d'apprentissage et pourrait favoriser une prise de conscience plus globale de l'impact du bruit sur leur environnement scolaire.
+:::info[Notes pour l'enseignant·e]
+Dans une logique interdisciplinaire, il peut être intéressant de présenter le protocole aux autres enseignant·e·s de la classe. Celles et ceux qui le souhaitent peuvent participer à l'étude, en rappelant aux élèves de remplir leur journal de bord et en intégrant des réflexions sur le bruit dans leurs cours. Cette approche collaborative permet aux élèves de percevoir l'importance de l'étude dans différents contextes d'apprentissage et favorise une prise de conscience plus globale de l'impact du bruit sur leur environnement scolaire.
 :::
 
 ### Restitution et réflexion
@@ -245,10 +276,10 @@ Cette étape est cruciale pour transformer les données brutes en informations e
 
 Au cours de cette phase, les élèves vont aborder plusieurs concepts et outils clés :
 
-- Analyser un ensemble de données pour caractériser une population quant à sa santé : Les élèves apprendront à utiliser des méthodes statistiques pour analyser les données collectées sur les niveaux de bruit et les indicateurs de bien-être/performance. Ils développeront des compétences en analyse quantitative et qualitative pour dresser un portrait de l'impact du bruit sur la santé de la population étudiée.
-- Analyser les interactions entre différents déterminants de l'état de santé d'une population : Les élèves exploreront les corrélations potentielles entre les niveaux de bruit, le bien-être et les performances cognitives. Ils apprendront à identifier et à interpréter les interactions complexes entre ces différents facteurs.
-- Traiter les données quantitatives pour produire une information dans le cadre d'une étude : Les élèves utiliseront des outils de visualisation de données (graphiques, diagrammes) pour représenter leurs résultats de manière claire et compréhensible. Ils apprendront à choisir les représentations les plus appropriées pour mettre en évidence les tendances et les patterns identifiés.
-- Expliquer l'importance de la présentation d'une étude et de sa diffusion : Les élèves comprendront l'importance de communiquer efficacement les résultats de leur étude. Ils apprendront à synthétiser leurs découvertes, à formuler des conclusions basées sur des preuves, et à préparer une présentation convaincante de leurs résultats.
+- **Analyser un ensemble de données pour caractériser une population quant à sa santé** : utilisation de méthodes statistiques pour analyser les niveaux de bruit et les indicateurs de bien-être/performance, et développement de compétences en analyse quantitative et qualitative.
+- **Analyser les interactions entre déterminants de santé** : exploration des corrélations potentielles entre les niveaux de bruit, le bien-être et les performances cognitives, et interprétation des interactions complexes entre ces facteurs.
+- **Traiter les données quantitatives pour produire une information** : utilisation d'outils de visualisation (graphiques, diagrammes) pour représenter les résultats de manière claire, et choix des représentations les plus appropriées pour mettre en évidence tendances et patterns.
+- **Expliquer l'importance de la présentation d'une étude et de sa diffusion** : synthèse des découvertes, formulation de conclusions basées sur des preuves et préparation d'une présentation convaincante.
 
 Cette phase permettra aux élèves de développer des compétences essentielles en analyse de données, en pensée critique et en communication scientifique, tout en approfondissant leur compréhension de l'impact du bruit sur la santé et le bien-être en milieu scolaire.
 
@@ -256,15 +287,37 @@ Cette phase permettra aux élèves de développer des compétences essentielles 
 
 #### Compilation et analyse des données
 
-Les élèves commenceront par compiler toutes les données collectées durant la semaine d'étude. Ils utiliseront des outils numériques comme des tableurs pour organiser et analyser ces données selon les méthodes définies dans leur protocole expérimental. Cette étape leur permettra de développer des compétences en gestion et traitement de données. En fonction de leur protocole spécifique établi en phase 1, cette analyse pourrait inclure le calcul des moyennes quotidiennes de niveau sonore, l'identification des pics de bruit, l'agrégation des données de bien-être et de performance cognitive, la création de graphiques comparatifs, le calcul des coefficients de corrélation si prévu, et l'analyse de l'impact des facteurs externes identifiés. Cette approche approfondie permettra aux élèves de développer une compréhension complète de leurs données tout en respectant la méthodologie qu'ils ont eux-mêmes établie.
+Les élèves commencent par compiler toutes les données collectées durant la semaine d'étude. Ils utilisent des outils numériques comme des tableurs pour organiser et analyser ces données selon les méthodes définies dans leur protocole expérimental, et développent ainsi des compétences en gestion et traitement de données.
+
+En fonction du protocole établi en phase 1, cette analyse peut inclure :
+
+- le calcul des **moyennes quotidiennes** de niveau sonore ;
+- l'identification des **pics de bruit** ;
+- l'**agrégation** des données de bien-être et de performance cognitive ;
+- la création de **graphiques comparatifs** ;
+- le calcul des **coefficients de corrélation** si prévu ;
+- l'**analyse de l'impact des facteurs externes** identifiés.
+
+Cette démarche permet aux élèves de développer une compréhension complète de leurs données tout en respectant la méthodologie qu'ils ont eux-mêmes établie.
 
 ##### Qu'est-ce que le coefficient de corrélation ?
 
 Cette mesure permet aux élèves de quantifier objectivement la relation entre le bruit et leur bien-être.
 
-Le coefficient de corrélation est la mesure spécifique qui quantifie la force de la relation linéaire entre deux variables d'une analyse de corrélation. Le coefficient est noté r dans un rapport de corrélation. Pour deux variables, la formule compare la distance de chaque point de données depuis la moyenne de la variable et l'utilise pour indiquer dans quelle mesure la relation entre les variables suit une ligne imaginaire tracée dans les données. C'est ce que l'on entend par « les corrélations concernent les relations linéaires ». La corrélation n'inclut que deux variables et ne donne aucune information sur des éventuelles relations contenant plus de données. Cette analyse ne détectera pas (et sera donc biaisée par) les valeurs aberrantes présentes dans les données et ne peut pas détecter les facteurs externes importants à considérer dans votre étude.
+Le coefficient de corrélation quantifie la **force de la relation linéaire** entre deux variables. Il est noté **r** dans un rapport de corrélation. Pour deux variables, la formule compare la distance de chaque point de données par rapport à la moyenne et indique dans quelle mesure la relation entre les variables suit une ligne imaginaire tracée dans les données — c'est ce que l'on entend par « les corrélations concernent les relations linéaires ».
 
-Plus r est proche de zéro, plus la relation linéaire est faible. Les valeurs positives de r indiquent une corrélation positive lorsque les valeurs des deux variables tendent à augmenter ensemble. Les valeurs négatives de r indiquent une corrélation négative lorsque les valeurs d'une variable tend à augmenter et que les valeurs de l'autre variable diminuent. Les valeurs 1 et -1 représentent chacune les corrélations « parfaites », positive et négative respectivement.
+Limites à garder en tête :
+
+- la corrélation n'inclut que **deux variables** et ne renseigne pas sur d'éventuelles relations multivariées ;
+- elle ne détecte pas (et est donc biaisée par) les **valeurs aberrantes** ;
+- elle ne capte pas les **facteurs externes** importants à considérer dans l'étude.
+
+Lecture du coefficient :
+
+- plus **r** est proche de zéro, plus la relation linéaire est faible ;
+- les valeurs **positives** indiquent une corrélation positive (les deux variables augmentent ensemble) ;
+- les valeurs **négatives** indiquent une corrélation négative (l'une augmente quand l'autre diminue) ;
+- les valeurs **1** et **-1** représentent les corrélations « parfaites », respectivement positive et négative.
 
 #### Visualisation des données et interprétation des résultats
 
@@ -321,7 +374,14 @@ Le bruit, particulièrement lorsqu'il est chronique, peut avoir de nombreux effe
 
 Ces impacts sont particulièrement notables dans les environnements d'apprentissage et de travail, où le bruit peut compromettre la qualité de l'éducation et réduire la productivité des employés.
 
-Le bruit excessif et prolongé affecte négativement la santé physique et mentale. Il peut engendrer des troubles du sommeil, une gêne chronique, et des problèmes cardiovasculaires. Selon l'Agence Européenne pour l'Environnement (AEE), le bruit ambiant dû au trafic routier est l'une des principales sources de pollution sonore. Environ 20 % de la population européenne — plus de 100 millions de personnes — est exposée à des niveaux sonores jugés dangereux pour la santé. L'AEE estime que chaque année, l'exposition prolongée au bruit contribue à environ 48 000 nouveaux cas de cardiopathies et 12 000 décès prématurés. De plus, 22 millions de personnes subissent une gêne chronique importante, et 6,5 millions souffrent de graves troubles du sommeil. Le bruit affecte également la santé cognitive, surtout chez les enfants. Par exemple, le bruit des avions a été associé à des troubles de la lecture chez environ 12 500 écoliers. Bien que la pollution atmosphérique cause davantage de décès, le bruit a un impact plus immédiat sur la qualité de vie et le bien-être mental, d'après des études de l'OMS.
+Le bruit excessif et prolongé affecte négativement la santé physique et mentale : troubles du sommeil, gêne chronique, problèmes cardiovasculaires. Selon l'Agence européenne pour l'environnement (AEE), le bruit ambiant dû au trafic routier est l'une des principales sources de pollution sonore. Quelques chiffres clés à l'échelle européenne :
+
+- environ **20 %** de la population européenne (plus de **100 millions** de personnes) est exposée à des niveaux sonores jugés dangereux ;
+- l'exposition prolongée contribuerait chaque année à environ **48 000 nouveaux cas de cardiopathies** et **12 000 décès prématurés** ;
+- **22 millions** de personnes subissent une gêne chronique importante et **6,5 millions** souffrent de graves troubles du sommeil ;
+- le bruit affecte aussi la santé cognitive, en particulier chez les enfants : le bruit des avions a par exemple été associé à des troubles de la lecture chez environ **12 500 écoliers**.
+
+D'après les études de l'OMS, bien que la pollution atmosphérique cause davantage de décès, le bruit a un impact plus immédiat sur la qualité de vie et le bien-être mental.
 
 ### Directive 2002/49/EC
 
@@ -331,10 +391,10 @@ La Directive 2002/49/CE, aussi appelée Directive sur le bruit environnemental, 
 
 Elle met en place une approche commune dans l'Union Européenne pour identifier les niveaux de pollution sonore et agir sur eux. Elle poursuit les objectifs suivants :
 
-1. Évaluer l'exposition au bruit : Mesurer les niveaux de bruit dans les zones résidentielles et évaluer leurs effets sur la santé, notamment à travers des cartes de bruit.
-2. Informer le public : Assurer que les citoyens soient informés des niveaux de bruit dans leur environnement et de leurs effets.
-3. Prévenir et réduire le bruit : Protéger les citoyens en réduisant les niveaux de bruit dans les zones où ils sont trop élevés.
-4. Préserver les zones calmes : Conserver la qualité sonore dans les zones où le bruit est encore faible.
+1. **Évaluer l'exposition au bruit** : mesurer les niveaux de bruit dans les zones résidentielles et évaluer leurs effets sur la santé, notamment à travers des cartes de bruit.
+2. **Informer le public** : assurer que les citoyens soient informés des niveaux de bruit dans leur environnement et de leurs effets.
+3. **Prévenir et réduire le bruit** : protéger les citoyens en réduisant les niveaux de bruit dans les zones où ils sont trop élevés.
+4. **Préserver les zones calmes** : conserver la qualité sonore dans les zones où le bruit est encore faible.
 
 La directive ne fixe pas de niveaux de bruit spécifiques à ne pas dépasser, cela est laissé aux autorités nationales. Des méthodes communes sont utilisées pour calculer l'exposition au bruit (indicateurs Lden pour le bruit journalier et Lnight pour le bruit nocturne).
 
@@ -389,45 +449,11 @@ Dans les espaces publics et professionnels, des systèmes d'alerte sonore ou vis
 
 ---
 
-## Annexe : Journal imprimable
+## Annexe
 
-**SUIVI DU BRUIT EN CLASSE**
-
-Propriétaire : \_\_\_\_\_\_\_\_\_\_\_\_ Date : \_\_\_\_\_\_\_\_\_\_\_\_
-
-**A remplir après chaque cours de la journée** :
-
-| | Classe 1 | Classe 2 | Classe 3 |
-|---|---|---|---|
-| Sentiment général (1 à 5) | | | |
-| Niveau de bruit perçu (1 à 5) | | | |
-| Observations courtes | | | |
-
-| | Classe 4 | Classe 5 | Classe 6 |
-|---|---|---|---|
-| Sentiment général (1 à 5) | | | |
-| Niveau de bruit perçu (1 à 5) | | | |
-| Observations courtes | | | |
-
-**A remplir en fin de journée** :
-
-**Indicateurs de bien-être et de performance cognitive** (note de 1 à 5) :
-
-| Niveau de fatigue | Qualité de la participation en classe | Capacité de concentration |
-|---|---|---|
-| | | |
-
-| Performance dans les tâches | Niveau de stress perçu |
-|---|---|
-| | |
-
-**Facteurs externes influents** :
-
-| Activité physique (type et durée) | Météo pendant la journée | Qualité du sommeil la nuit précédente (1-5) |
-|---|---|---|
-| | | |
-
-Observations complémentaires : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Journal de bord « Suivi du bruit en classe » : grille à remplir après chaque cours (sentiment général, niveau de bruit perçu, observations) et en fin de journée (indicateurs de bien-être et de performance cognitive, facteurs externes, observations complémentaires).
+:::
 
 ---
 

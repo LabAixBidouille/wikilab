@@ -61,23 +61,14 @@ Cette activité vise à démontrer que des modes de vie plus sobres énergétiqu
 
 L'activité s'articule autour de quatre phases progressives :
 
-1. **Phase 1 : inventaire énergétique de notre environnement** — Les élèves identifient les usages énergétiques dans leur environnement immédiat (salle de classe, école, domicile) et reconstituent l'évolution historique de ces usages pour comprendre comment nos besoins se sont transformés.
-2. **Phase 2 : comparaison des consommations d'hier et d'aujourd'hui** — À travers l'analyse de données chiffrées et d'exemples concrets, les élèves mesurent l'évolution des consommations énergétiques pour des besoins identiques et identifient les facteurs d'augmentation.
-3. **Phase 3 : exploration des leviers de sobriété** — Les élèves explorent les possibilités de réduction des consommations dans les domaines du transport et de l'habitat, en distinguant les solutions techniques des changements comportementaux.
-4. **Phase 4 : réflexion sur les usages essentiels et les innovations positives** — Les élèves évaluent personnellement leurs propres usages énergétiques et identifient les innovations énergétiques qui leur semblent les plus remarquables et bénéfiques.
+1. **Phase 1 : Inventaire énergétique de notre environnement** — Les élèves identifient les usages énergétiques dans leur environnement immédiat (salle de classe, école, domicile) et reconstituent l'évolution historique de ces usages pour comprendre comment nos besoins se sont transformés.
+2. **Phase 2 : Comparaison des consommations d'hier et d'aujourd'hui** — À travers l'analyse de données chiffrées et d'exemples concrets, les élèves mesurent l'évolution des consommations énergétiques pour des besoins identiques et identifient les facteurs d'augmentation.
+3. **Phase 3 : Exploration des leviers de sobriété** — Les élèves explorent les possibilités de réduction des consommations dans les domaines du transport et de l'habitat, en distinguant les solutions techniques des changements comportementaux.
+4. **Phase 4 : Analyse critique et prospective des usages énergétiques** — Les élèves évaluent personnellement leurs propres usages énergétiques et identifient les innovations énergétiques qui leur semblent les plus remarquables et bénéfiques.
 
 Cette progression permet aux élèves de développer une compréhension nuancée de la sobriété énergétique, en partant de l'observation concrète pour aboutir à une réflexion personnelle sur leurs propres modes de vie et les perspectives d'évolution souhaitable de notre société.
 
-- **Durée** : minimum 2 séances (adaptable sur 3-4 séances pour approfondir)
-- **Niveau de difficulté** : Intermédiaire — Adaptable du cycle 3 (CM1-CM2-6ème) au lycée en ajustant la complexité des analyses et la profondeur des réflexions
-
-Matériel nécessaire :
-
-- **Phase 1** : Feuilles d'observation, appareils photos/smartphones pour documenter les usages énergétiques, accès à différents espaces de l'établissement
-- **Phase 2** : Tableaux de données sur les consommations énergétiques imprimés, calculatrices, graphiques et infographies historiques
-- **Phase 3** : Fiches d'activités sur transport et habitat, tableaux de données sur le mix énergétique, calculatrices ou tableurs simples, matériel pour créer des affiches (feutres, papier affiche), accès à des ressources documentaires
-- **Phase 4** : Fiches de réflexion individuelle, matériel pour présentation créative des innovations
-
+Cette séquence est **adaptable du cycle 3 (CM1-CM2-6ème) au lycée** en ajustant la complexité des analyses et la profondeur des réflexions.
 
 ### Glossaire
 
@@ -104,35 +95,49 @@ Notre quotidien est imprégné d'usages énergétiques souvent invisibles tant i
 
 ### Objectifs d'apprentissage
 
-Identifier les usages énergétiques dans l'environnement quotidien. Reconstituer l'évolution historique des besoins et usages énergétiques. Développer un regard critique sur la "normalité" de nos consommations actuelles.
+- Identifier les usages énergétiques dans l'environnement quotidien.
+- Reconstituer l'évolution historique des besoins et usages énergétiques.
+- Développer un regard critique sur la "normalité" de nos consommations actuelles.
 
 ### Conceptualisation
 
-**Question de recherche** : Quels sont les différents usages énergétiques observables dans notre quotidien et comment les classifier ?
+:::question[Question de recherche]
+Quels sont les différents usages énergétiques observables dans notre quotidien et comment les classifier ?
+:::
 
-**Hypothèse** : Les usages énergétiques dans notre environnement sont plus nombreux que ce que l'on perçoit immédiatement, avec certains très visibles (éclairage, chauffage) et d'autres plus discrets (veille des appareils, ventilation).
+:::hypothese[Hypothèse]
+Les usages énergétiques dans notre environnement sont plus nombreux que ce que l'on perçoit immédiatement, avec certains très visibles (éclairage, chauffage) et d'autres plus discrets (veille des appareils, ventilation).
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Usage énergétique** : Utilisation spécifique de l'énergie pour répondre à un besoin (définition dans le contexte d'observation directe).
 - **Fonction énergétique** : Catégorie générale d'usage (permet la classification et l'analyse).
 - **Besoin énergétique** : Service final recherché (aide à distinguer l'essentiel du superflu).
 
-**Question de recherche** : Quelles solutions techniques et organisationnelles ont été utilisées dans l'histoire pour répondre aux besoins fondamentaux ?
+:::question[Question de recherche]
+Quelles solutions techniques et organisationnelles ont été utilisées dans l'histoire pour répondre aux besoins fondamentaux ?
+:::
 
-**Hypothèse** : Les sociétés pré-industrielles utilisaient des solutions moins énergivores mais plus contraignantes en temps et en effort humain.
+:::hypothese[Hypothèse]
+Les sociétés pré-industrielles utilisaient des solutions moins énergivores mais plus contraignantes en temps et en effort humain.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Substitution énergétique** : Remplacement d'une forme d'énergie par une autre (permet de comprendre les transitions).
 - **Efficacité énergétique** : Rapport entre service rendu et énergie consommée (mesure les progrès techniques).
 - **Sobriété structurelle** : Organisation sociale minimisant les besoins énergétiques (éclaire les choix historiques).
 
-**Question de recherche** : Quels facteurs techniques, économiques et sociaux ont conduit à l'augmentation et à la diversification de nos usages énergétiques ?
+:::question[Question de recherche]
+Quels facteurs techniques, économiques et sociaux ont conduit à l'augmentation et à la diversification de nos usages énergétiques ?
+:::
 
-**Hypothèse** : L'accès à une énergie abondante et peu chère a transformé nos modes de vie en créant de nouveaux besoins considérés aujourd'hui comme normaux.
+:::hypothese[Hypothèse]
+L'accès à une énergie abondante et peu chère a transformé nos modes de vie en créant de nouveaux besoins considérés aujourd'hui comme normaux.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Effet rebond** : Augmentation de la consommation suite à un gain d'efficacité (explique la croissance continue).
 - **Dépendance énergétique** : Intégration de l'énergie dans tous les aspects de la vie (analyse les transformations sociétales).
@@ -142,9 +147,7 @@ Concepts clés :
 
 #### 1. Exploration de notre environnement énergétique
 
-### Objectifs d'apprentissage
-
-Développer un regard analytique sur les usages énergétiques de notre environnement quotidien.
+**Objectif** : développer un regard analytique sur les usages énergétiques de notre environnement quotidien.
 
 Les élèves, organisés par groupes, explorent différents espaces de l'établissement (salle de classe, couloirs, cantine, cour, bureaux administratifs) avec pour mission d'identifier tous les usages de l'énergie qu'ils peuvent observer. Ils utilisent une grille d'observation simple :
 
@@ -164,11 +167,9 @@ Chaque groupe explore un espace différent puis se retrouvent pour mettre en com
 
 Cette première exploration permet aux élèves de prendre conscience de la densité énergétique de leur environnement quotidien.
 
-#### 2. Voyage dans le temps : Retrouver les "ancêtres"
+#### 2. Voyage dans le temps : retrouver les "ancêtres"
 
-### Objectifs d'apprentissage
-
-Comprendre l'évolution historique des moyens de satisfaire nos besoins fondamentaux.
+**Objectif** : comprendre l'évolution historique des moyens de satisfaire nos besoins fondamentaux.
 
 Pour chaque usage énergétique identifié, les élèves cherchent collectivement comment le même besoin était satisfait avant l'avènement des technologies actuelles. Cette recherche peut s'appuyer sur leurs connaissances, des documents fournis par l'enseignant, ou de courtes recherches guidées. Exemples de correspondances historiques :
 
@@ -213,35 +214,49 @@ Après avoir identifié l'évolution qualitative de nos usages énergétiques, c
 
 ### Objectifs d'apprentissage
 
-Quantifier l'évolution des consommations énergétiques. Comprendre les facteurs explicatifs de cette évolution. Développer sa capacité d'analyse critique des données énergétiques.
+- Quantifier l'évolution des consommations énergétiques.
+- Comprendre les facteurs explicatifs de cette évolution.
+- Développer sa capacité d'analyse critique des données énergétiques.
 
 ### Conceptualisation
 
-**Question de recherche** : Comment l'évolution technologique a-t-elle modifié l'efficacité énergétique des services essentiels au cours du temps ?
+:::question[Question de recherche]
+Comment l'évolution technologique a-t-elle modifié l'efficacité énergétique des services essentiels au cours du temps ?
+:::
 
-**Hypothèse** : L'évolution technologique a créé des trajectoires divergentes : certains services sont devenus plus efficaces énergétiquement, tandis que d'autres ont vu leur consommation exploser malgré les gains d'efficacité, en raison de l'augmentation des volumes d'usage et de la création de nouveaux besoins.
+:::hypothese[Hypothèse]
+L'évolution technologique a créé des trajectoires divergentes : certains services sont devenus plus efficaces énergétiquement, tandis que d'autres ont vu leur consommation exploser malgré les gains d'efficacité, en raison de l'augmentation des volumes d'usage et de la création de nouveaux besoins.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Efficacité énergétique historique** : Évolution du rapport entre service rendu et énergie consommée sur le long terme (permet de mesurer les progrès techniques réels).
 - **Intensité énergétique d'un service** : Quantité d'énergie nécessaire pour obtenir une unité de service (éclairage, transport, chauffage) à une époque donnée.
 - **Substitution technologique** : Remplacement d'une technologie par une autre pour le même service (révèle les choix techniques et leurs conséquences).
 
-**Question de recherche** : Pourquoi certains services ont-ils vu leur consommation énergétique diminuer tandis que d'autres ont explosé ?
+:::question[Question de recherche]
+Pourquoi certains services ont-ils vu leur consommation énergétique diminuer tandis que d'autres ont explosé ?
+:::
 
-**Hypothèse** : Les services qui existaient déjà avant l'ère industrielle (éclairage, chauffage, transport) ont bénéficié d'optimisations techniques, tandis que les services nouveaux (réfrigération, électronique) ont créé des postes de consommation inédits qui se sont généralisés.
+:::hypothese[Hypothèse]
+Les services qui existaient déjà avant l'ère industrielle (éclairage, chauffage, transport) ont bénéficié d'optimisations techniques, tandis que les services nouveaux (réfrigération, électronique) ont créé des postes de consommation inédits qui se sont généralisés.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Services préexistants vs émergents** : Distinction entre besoins historiques et besoins créés par la modernité (explique les trajectoires différenciées).
 - **Effet de démocratisation** : Généralisation d'un service initialement élitaire (multiplie l'impact énergétique global).
 - **Création de besoins** : Apparition de nouveaux services considérés comme indispensables (révèle l'évolution des standards de vie).
 
-**Question de recherche** : Quelle est la relation entre progrès technique, confort de vie et consommation énergétique totale ?
+:::question[Question de recherche]
+Quelle est la relation entre progrès technique, confort de vie et consommation énergétique totale ?
+:::
 
-**Hypothèse** : Le progrès technique permet des gains d'efficacité locaux, mais l'augmentation du confort et la multiplication des usages génèrent une croissance globale de la consommation énergétique, créant un paradoxe entre optimisation et sobriété.
+:::hypothese[Hypothèse]
+Le progrès technique permet des gains d'efficacité locaux, mais l'augmentation du confort et la multiplication des usages génèrent une croissance globale de la consommation énergétique, créant un paradoxe entre optimisation et sobriété.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Paradoxe de l'efficacité** : Situation où les gains d'efficacité sont compensés par l'augmentation des usages (questionne le rôle de la technologie dans la sobriété).
 - **Standards de confort** : Niveau de service énergétique considéré comme normal à une époque donnée (révèle l'évolution des attentes sociales).
@@ -251,9 +266,7 @@ Concepts clés :
 
 #### 1. Analyse comparative des consommations
 
-### Objectifs d'apprentissage
-
-Mesurer concrètement l'évolution des consommations énergétiques pour des besoins identiques.
+**Objectif** : mesurer concrètement l'évolution des consommations énergétiques pour des besoins identiques.
 
 Les élèves reçoivent un tableau comparatif des consommations énergétiques pour différents besoins, à différentes époques. Ils travaillent par binômes pour analyser ces données :
 
@@ -271,11 +284,9 @@ Les élèves calculent les facteurs d'évolution et identifient les tendances :
 - **Nouveaux besoins énergétiques** : Certains services (réfrigération, électronique) créent de nouveaux postes de consommation
 - **Changement d'échelle** : La généralisation d'équipements autrefois rares multiplie la consommation totale
 
-#### 2. Débat : Progrès ou surconsommation ?
+#### 2. Débat : progrès ou surconsommation ?
 
-### Objectifs d'apprentissage
-
-Développer un regard critique sur l'évolution de nos consommations énergétiques.
+**Objectif** : développer un regard critique sur l'évolution de nos consommations énergétiques.
 
 À partir des données analysées, l'enseignant organise un débat structuré autour de la question : "L'évolution de nos usages énergétiques représente-t-elle un progrès ou une dérive vers la surconsommation ?"
 
@@ -321,35 +332,49 @@ Fort de leur compréhension de l'évolution historique et quantitative de nos us
 
 ### Objectifs d'apprentissage
 
-Identifier les leviers de sobriété dans le transport et l'habitat. Distinguer les solutions techniques des changements comportementaux. Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
+- Identifier les leviers de sobriété dans le transport et l'habitat.
+- Distinguer les solutions techniques des changements comportementaux.
+- Évaluer la faisabilité et l'acceptabilité de différentes mesures de sobriété.
 
 ### Conceptualisation
 
-**Question de recherche** : Quels sont les leviers d'action disponibles pour réduire les consommations énergétiques sans dégrader la qualité de vie ?
+:::question[Question de recherche]
+Quels sont les leviers d'action disponibles pour réduire les consommations énergétiques sans dégrader la qualité de vie ?
+:::
 
-**Hypothèse** : La sobriété énergétique peut être atteinte par une combinaison de changements comportementaux, d'optimisations techniques et de réorganisations collectives, avec des potentiels d'économie variables selon les domaines et les contextes territoriaux.
+:::hypothese[Hypothèse]
+La sobriété énergétique peut être atteinte par une combinaison de changements comportementaux, d'optimisations techniques et de réorganisations collectives, avec des potentiels d'économie variables selon les domaines et les contextes territoriaux.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Sobriété énergétique** : Réduction des consommations par modification des usages sans dégradation du service rendu (distingue de l'efficacité technique).
 - **Levier comportemental vs structurel** : Actions individuelles modifiables à court terme vs changements d'organisation nécessitant des transformations collectives.
 - **Seuil d'acceptabilité** : Limite au-delà de laquelle les mesures de sobriété sont perçues comme une privation (détermine la faisabilité sociale).
 
-**Question de recherche** : Comment les contraintes territoriales et socio-économiques influencent-elles les possibilités de sobriété énergétique ?
+:::question[Question de recherche]
+Comment les contraintes territoriales et socio-économiques influencent-elles les possibilités de sobriété énergétique ?
+:::
 
-**Hypothèse** : Les marges de manoeuvre pour la sobriété énergétique varient fortement selon le contexte géographique (urbain/rural), les infrastructures disponibles (transports publics, réseaux) et les ressources économiques des ménages, créant des inégalités face à la transition.
+:::hypothese[Hypothèse]
+Les marges de manoeuvre pour la sobriété énergétique varient fortement selon le contexte géographique (urbain/rural), les infrastructures disponibles (transports publics, réseaux) et les ressources économiques des ménages, créant des inégalités face à la transition.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Contrainte territoriale** : Limitation des choix énergétiques imposée par la géographie et les infrastructures (explique les différences d'options disponibles).
 - **Inégalités de sobriété** : Capacités différenciées à adopter des pratiques sobres selon les ressources et contextes (révèle les enjeux de justice sociale).
 - **Seuil de sobriété subie vs choisie** : Distinction entre contraintes économiques et choix délibérés de réduction (questionne l'aspect volontaire de la sobriété).
 
-**Question de recherche** : Quelle est la relation entre solutions techniques (efficacité) et solutions comportementales (sobriété) dans la réduction des consommations ?
+:::question[Question de recherche]
+Quelle est la relation entre solutions techniques (efficacité) et solutions comportementales (sobriété) dans la réduction des consommations ?
+:::
 
-**Hypothèse** : L'efficacité technique et la sobriété comportementale sont complémentaires mais peuvent aussi entrer en tension : les gains d'efficacité peuvent désinhiber les comportements sobres (effet rebond), tandis qu'une sobriété trop contraignante peut freiner l'adoption de solutions techniques.
+:::hypothese[Hypothèse]
+L'efficacité technique et la sobriété comportementale sont complémentaires mais peuvent aussi entrer en tension : les gains d'efficacité peuvent désinhiber les comportements sobres (effet rebond), tandis qu'une sobriété trop contraignante peut freiner l'adoption de solutions techniques.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Complémentarité efficacité-sobriété** : Synergie entre amélioration technique et modification des usages (maximise les économies d'énergie).
 - **Effet rebond comportemental** : Augmentation des usages suite à une baisse des coûts ou amélioration technique (limite l'impact des gains d'efficacité).
@@ -357,20 +382,18 @@ Concepts clés :
 
 ### Investigation par les élèves
 
-#### 1. Atelier transport : Repenser nos déplacements
+#### 1. Atelier transport : repenser nos déplacements
 
-### Objectifs d'apprentissage
-
-Explorer les possibilités de réduction des consommations énergétiques liées aux déplacements.
+**Objectif** : explorer les possibilités de réduction des consommations énergétiques liées aux déplacements.
 
 Les élèves analysent collectivement le "budget transport" d'une famille européenne type, puis explorent différents leviers de sobriété.
 
 **Situation de référence — famille type européenne (2 adultes, 2 enfants, zone périurbaine)** :
 
-- **1-2 voitures selon le pays (moyenne EU** : 1,4 voiture/ménage)
-- 15 000 à 30 000 km/an selon la géographie du pays
+- **Véhicules** : 1 à 2 voitures selon le pays (moyenne UE : 1,4 voiture/ménage)
+- **Distance parcourue** : 15 000 à 30 000 km/an selon la géographie du pays
 - **Consommation** : 5 à 8 L/100 km en moyenne
-- 1 000 à 2 000 L de carburant/an = 10 000 à 20 000 kWh/an
+- **Carburant** : 1 000 à 2 000 L/an = 10 000 à 20 000 kWh/an
 
 Les élèves réfléchissent en petits groupes sur la faisabilité de ces différentes stratégies selon les contextes (urbain dense vs rural, transports publics développés vs limités) et imaginent le quotidien de familles types selon différents scénarios. Ils présentent ensuite leurs conclusions sous forme de "journée type" illustrant les adaptations nécessaires selon les spécificités territoriales.
 
@@ -384,11 +407,9 @@ Les élèves réfléchissent en petits groupes sur la faisabilité de ces diffé
 | Autopartage | Une seule voiture + autopartage ponctuel | -50% coûts fixes | Offre locale disponible |
 | Proximité choisie | Déménagement plus près du travail | -70% trajets quotidiens | Opportunités immobilières |
 
-#### 2. Atelier habitat : Optimiser notre confort énergétique
+#### 2. Atelier habitat : optimiser notre confort énergétique
 
-### Objectifs d'apprentissage
-
-Identifier les possibilités de réduction des consommations énergétiques domestiques tout en préservant le confort.
+**Objectif** : identifier les possibilités de réduction des consommations énergétiques domestiques tout en préservant le confort.
 
 Les élèves explorent les leviers de sobriété dans l'habitat à travers l'exemple d'une maison individuelle de 100 m&#178; construite dans les années 1980.
 
@@ -403,29 +424,27 @@ Les élèves calculent les économies potentielles et évaluent l'impact sur le 
 
 **Leviers de sobriété par poste** :
 
-Chauffage (70% de la consommation) :
+**Chauffage (70% de la consommation)** :
 
 - **Réduction température** : 19°C au lieu de 21°C &#8594; -15%
 - **Programmation/zonage** : chauffer uniquement les pièces occupées &#8594; -20%
 - **Isolation comportementale** : fermer volets, éviter surchauffe &#8594; -10%
 
-Eau chaude (15% de la consommation) :
+**Eau chaude (15% de la consommation)** :
 
 - **Réduction durée douches** : 5 min au lieu de 8 min &#8594; -35%
 - **Température chauffe-eau** : 55°C au lieu de 60°C &#8594; -8%
 - **Installation économiseurs d'eau** &#8594; -20%
 
-Électroménager (15% de la consommation) :
+**Électroménager (15% de la consommation)** :
 
 - **Débranchement appareils en veille** &#8594; -10%
 - **Utilisation optimale** (lave-linge plein, programmes courts) &#8594; -20%
 - **Séchage naturel du linge** &#8594; -30% du poste séchage
 
-#### 3. Atelier alimentation : Repenser notre consommation alimentaire
+#### 3. Atelier alimentation : repenser notre consommation alimentaire
 
-### Objectifs d'apprentissage
-
-Explorer les possibilités de réduction des consommations énergétiques liées à l'alimentation.
+**Objectif** : explorer les possibilités de réduction des consommations énergétiques liées à l'alimentation.
 
 Les élèves pourraient analyser le "budget énergétique alimentaire" d'une famille type, avec :
 
@@ -476,35 +495,49 @@ Cette phase finale invite les élèves à une analyse critique approfondie de le
 
 ### Objectifs d'apprentissage
 
-Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels. Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique. Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
+- Analyser de manière critique ses propres usages énergétiques en tenant compte des contextes sociaux et culturels.
+- Évaluer le potentiel et les limites des innovations énergétiques dans une perspective systémique.
+- Construire une vision personnelle argumentée de la sobriété énergétique et de la transition technologique.
 
 ### Conceptualisation
 
-**Question de recherche** : Dans quelle mesure nos choix énergétiques individuels sont-ils déterminés par des facteurs socioculturels et structurels plutôt que par des décisions rationnelles ?
+:::question[Question de recherche]
+Dans quelle mesure nos choix énergétiques individuels sont-ils déterminés par des facteurs socioculturels et structurels plutôt que par des décisions rationnelles ?
+:::
 
-**Hypothèse** : Les usages énergétiques individuels résultent davantage de contraintes socio-économiques, de normes culturelles et d'infrastructures disponibles que de choix délibérés basés sur une analyse coût-bénéfice, créant des marges d'action variables selon les contextes.
+:::hypothese[Hypothèse]
+Les usages énergétiques individuels résultent davantage de contraintes socio-économiques, de normes culturelles et d'infrastructures disponibles que de choix délibérés basés sur une analyse coût-bénéfice, créant des marges d'action variables selon les contextes.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Déterminisme énergétique** : Influence des structures sociales, économiques et techniques sur les choix individuels (révèle les limites de l'action individuelle).
 - **Capital énergétique** : Ensemble des ressources (économiques, culturelles, techniques) permettant d'accéder à des choix énergétiques durables (explique les inégalités face à la sobriété).
 - **Habitus énergétique** : Pratiques énergétiques intégrées et non-conscientes, transmises socialement (questionne la dimension automatique des consommations).
 
-**Question de recherche** : Comment les innovations technologiques émergentes peuvent-elles transformer structurellement nos modes de vie sans créer de nouveaux effets rebond ?
+:::question[Question de recherche]
+Comment les innovations technologiques émergentes peuvent-elles transformer structurellement nos modes de vie sans créer de nouveaux effets rebond ?
+:::
 
-**Hypothèse** : Les innovations énergétiques ont un potentiel transformateur réel mais leur impact dépend de leur capacité à modifier les systèmes socio-techniques existants plutôt que de simplement améliorer l'efficacité des pratiques actuelles, ce qui nécessite une approche systémique de leur déploiement.
+:::hypothese[Hypothèse]
+Les innovations énergétiques ont un potentiel transformateur réel mais leur impact dépend de leur capacité à modifier les systèmes socio-techniques existants plutôt que de simplement améliorer l'efficacité des pratiques actuelles, ce qui nécessite une approche systémique de leur déploiement.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Innovation de rupture vs incrémentale** : Distinction entre technologies qui transforment les systèmes vs celles qui les optimisent (détermine le potentiel de transformation).
 - **Transition socio-technique** : Processus de changement impliquant simultanément technologies, pratiques sociales et institutions (explique les conditions de réussite des innovations).
 - **Verrouillage technologique** : Dépendance aux systèmes existants qui freine l'adoption d'alternatives (révèle les obstacles aux transitions).
 
-**Question de recherche** : Quelle articulation entre action individuelle et transformation collective permet une transition énergétique efficace et socialement acceptable ?
+:::question[Question de recherche]
+Quelle articulation entre action individuelle et transformation collective permet une transition énergétique efficace et socialement acceptable ?
+:::
 
-**Hypothèse** : La transition énergétique nécessite une cohérence entre engagements individuels et transformations structurelles : ni l'action individuelle seule ni les changements techniques imposés ne suffisent, mais leur combinaison dans des dynamiques collectives peut créer des cercles vertueux de changement.
+:::hypothese[Hypothèse]
+La transition énergétique nécessite une cohérence entre engagements individuels et transformations structurelles : ni l'action individuelle seule ni les changements techniques imposés ne suffisent, mais leur combinaison dans des dynamiques collectives peut créer des cercles vertueux de changement.
+:::
 
-Concepts clés :
+**Concepts clés** :
 
 - **Cohérence multi-niveaux** : Alignement entre actions individuelles, innovations techniques et politiques publiques (conditionne l'efficacité des transitions).
 - **Engagement énergétique** : Forme d'action citoyenne combinant pratiques personnelles et participation collective (dépasse la simple consommation responsable).
@@ -514,9 +547,7 @@ Concepts clés :
 
 #### 1. Audit énergétique personnel et analyse sociologique
 
-### Objectifs d'apprentissage
-
-Réaliser un diagnostic complet de ses propres usages énergétiques et analyser les facteurs qui les déterminent.
+**Objectif** : réaliser un diagnostic complet de ses propres usages énergétiques et analyser les facteurs qui les déterminent.
 
 **Collecte de données personnelles** : Chaque élève tient un journal énergétique (exemple imprimable disponible en annexe) détaillé pendant une semaine, en notant :
 
@@ -555,9 +586,7 @@ Réaliser un diagnostic complet de ses propres usages énergétiques et analyser
 
 #### 2. Évaluation prospective des innovations énergétiques
 
-### Objectifs d'apprentissage
-
-Analyser le potentiel transformateur des innovations énergétiques selon une approche systémique.
+**Objectif** : analyser le potentiel transformateur des innovations énergétiques selon une approche systémique.
 
 Les élèves travaillent par équipes pour analyser en profondeur une innovation énergétique selon une grille d'évaluation multidimensionnelle (disponible pour impression en annexe) :
 
@@ -606,9 +635,7 @@ Chaque équipe dispose de 2 heures pour :
 
 #### 3. Débat prospectif et construction de visions personnelles
 
-### Objectifs d'apprentissage
-
-Confronter les analyses et construire une vision personnelle argumentée de la transition énergétique souhaitable.
+**Objectif** : confronter les analyses et construire une vision personnelle argumentée de la transition énergétique souhaitable.
 
 Chaque équipe présente son innovation en 3 minutes selon le format :
 
@@ -628,9 +655,9 @@ Les élèves circulent entre des "stands" où chaque équipe présente son trava
 
 Il est possible d'organiser un débat pour clôturer la dernière phase autour des questions suivantes :
 
-- **Question 1** : "Faut-il privilégier les innovations qui transforment radicalement nos modes de vie ou celles qui les préservent ?" Arguments "transformation" : efficacité maximale, adaptation aux enjeux. Arguments "préservation" : acceptabilité sociale, continuité culturelle.
-- **Question 2** : "Comment concilier innovation technologique et sobriété énergétique ?" Risque de l'effet rebond (plus d'efficacité &#8594; plus d'usage). Complémentarité possible (technologies + changements comportementaux).
-- **Question 3** : "Qui doit décider des orientations technologiques ?" Légitimité démocratique vs compétence technique. Rôle des lobbies et des intérêts économiques.
+- **Question 1** — *Faut-il privilégier les innovations qui transforment radicalement nos modes de vie ou celles qui les préservent ?* Arguments "transformation" : efficacité maximale, adaptation aux enjeux. Arguments "préservation" : acceptabilité sociale, continuité culturelle.
+- **Question 2** — *Comment concilier innovation technologique et sobriété énergétique ?* Risque de l'effet rebond (plus d'efficacité &#8594; plus d'usage). Complémentarité possible (technologies + changements comportementaux).
+- **Question 3** — *Qui doit décider des orientations technologiques ?* Légitimité démocratique vs compétence technique. Rôle des lobbies et des intérêts économiques.
 
 ### Restitution et réflexion
 
@@ -651,66 +678,11 @@ Cette phase conclut le protocole en donnant aux élèves les outils conceptuels 
 
 ---
 
-## Annexe : Grille d'évaluation multidimensionnelle
-
-Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : \_\_\_\_\_\_\_\_\_\_\_\_
-
-### A. Potentiel technique et économique
-
-| Critère | Évaluation | Justification |
-|---|---|---|
-| Maturité technologique (échelle 1-10) | \_\_\_/10 | |
-| Potentiel de réduction énergétique | \_\_\_% | |
-| Coût de déploiement (EUR/habitant) | \_\_\_EUR | |
-| Délai de généralisation probable | \_\_\_ans | |
-
-### B. Impact sur les modes de vie
-
-| Aspect | Transformation attendue | Acceptabilité probable |
-|---|---|---|
-| Habitat | | Forte / Moyenne / Faible |
-| Transport | | Forte / Moyenne / Faible |
-| Travail | | Forte / Moyenne / Faible |
-| Loisirs | | Forte / Moyenne / Faible |
-
-### C. Effets systémiques et risques
-
-| Dimension | Opportunités | Risques |
-|---|---|---|
-| Environnementale | | |
-| Sociale | | |
-| Économique | | |
-| Géopolitique | | |
-
----
-
-## Annexe : Journal de bord
-
-Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : du \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_ au \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
-
-| Jour/Heure | Usage énergétique | Durée | Contexte | Motivation du choix | Choix possible ? |
-|---|---|---|---|---|---|
-| | | | | | |
-
-Imprimer autant de feuilles que nécessaire pour collecter les informations sur 1 semaine.
-
----
-
-## Annexe : Analyse des usages
-
-Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : du \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_ au \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
-
-| Usage | Consommation estimée (kWh/an) | Statut\* | Marge de manoeuvre | Facteurs contraignants |
-|---|---|---|---|---|
-| | | | | |
-
-\*Statuts :
-- **Contraint** : Usage déterminé par des facteurs externes (infrastructure, revenus, logement)
-- **Partiellement contraint** : Marge de manoeuvre limitée mais existante
-- **Choix personnel** : Usage déterminé principalement par des préférences individuelles
-- **Nécessaire optimisable** : Usage indispensable mais perfectible
-
-Imprimer autant de feuilles que nécessaire pour analyser l'ensemble des usages.
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Grille d'évaluation multidimensionnelle des innovations énergétiques (potentiel technique et économique, impact sur les modes de vie, effets systémiques et risques)
+- Journal de bord énergétique (relevé hebdomadaire des usages)
+- Grille d'analyse des usages (consommation estimée, statut, marge de manoeuvre, facteurs contraignants)
+:::
 
 ---
 

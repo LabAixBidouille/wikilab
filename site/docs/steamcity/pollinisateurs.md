@@ -49,13 +49,13 @@ sidebar_position: 7
 Les pollinisateurs sont des acteurs invisibles et pourtant essentiels de notre environnement. Ils assurent la reproduction de nombreuses plantes, dont la majorité de celles qui produisent nos fruits et légumes. Pourtant, leur population est en danger, victime de la pollution, de la destruction de leurs habitats et des effets des pesticides. Dans cette enquête, les élèves deviendront des scientifiques qui étudieront la présence de pollinisateurs dans leur ville. Quels endroits leur sont favorables et pourquoi ? En tentant de répondre à ces questions, les élèves comprendront mieux le rôle fondamental que jouent les pollinisateurs dans la biodiversité et les effets concrets des activités humaines sur leur survie. Ils exploreront comment cela s'inscrit dans les défis mondiaux, notamment dans le cadre des ODD pour favoriser un avenir plus durable.
 
 
-### Structure de l'activité
+### Structure du protocole
 
-L'expérimentation se déroule en trois étapes clés :
+L'expérimentation se déroule en trois phases clés :
 
-1. **Formuler des hypothèses, cartographier et réaliser une étude documentaire** : Les élèves discutent et formulent des hypothèses sur les endroits où ils s'attendent à trouver des pollinisateurs dans leur environnement urbain. À l'aide d'une carte imprimée, ils marqueront les zones qu'ils considèrent comme des habitats appropriés.
-2. **Construire et mettre en place des pièges non létaux pour pollinisateurs** : Les élèves travailleront en groupe pour créer des pièges non létaux en utilisant des matériaux de base. Une fois les pièges prêts, ils les placeront aux endroits sélectionnés sur la carte. Après une période déterminée, ils reviendront vérifier leurs pièges et enregistreront le nombre et le type de pollinisateurs capturés. Tous les insectes seront ensuite relâchés en toute sécurité.
-3. **Analyser les données et réfléchir sur les biais** : Les élèves analyseront les données recueillies pour identifier les tendances. Ils calculeront des statistiques de base, utiliseront des outils visuels et réfléchiront aux biais et aux limites potentiels de l'expérience.
+1. **Formuler des hypothèses, cartographier et réaliser une étude documentaire** : les élèves discutent et formulent des hypothèses sur les endroits où ils s'attendent à trouver des pollinisateurs dans leur environnement urbain. À l'aide d'une carte imprimée, ils marquent les zones qu'ils considèrent comme des habitats appropriés.
+2. **Construire et mettre en place des pièges non létaux pour pollinisateurs** : les élèves travaillent en groupe pour créer des pièges non létaux à partir de matériaux de base. Une fois les pièges prêts, ils les placent aux endroits sélectionnés sur la carte. Après une période déterminée, ils reviennent vérifier leurs pièges et enregistrent le nombre et le type de pollinisateurs capturés. Tous les insectes sont ensuite relâchés en toute sécurité.
+3. **Analyser les données et réfléchir sur les biais** : les élèves analysent les données recueillies pour identifier les tendances. Ils calculent des statistiques de base, utilisent des outils visuels et réfléchissent aux biais et aux limites potentiels de l'expérience.
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -82,7 +82,7 @@ L'expérimentation se déroule en trois étapes clés :
 
 ---
 
-## Étape 1 : Formuler des hypothèses, cartographier et réaliser une étude documentaire
+## Phase 1 : Formuler des hypothèses, cartographier et réaliser une étude documentaire
 
 ### Contexte de la séquence
 
@@ -112,7 +112,7 @@ Chaque groupe reportera ses hypothèses sur une carte imprimée, en utilisant un
 
 ### Investigation par les élèves
 
-Au cours de cette étape, les élèves apprennent à établir un protocole expérimental pour valider leurs hypothèses.
+Au cours de cette phase, les élèves apprennent à établir un protocole expérimental pour valider leurs hypothèses.
 
 #### Recherche documentaire préliminaire
 
@@ -130,18 +130,18 @@ Le protocole suit la méthode scientifique :
 6. Interpréter et évaluer
 7. Partager les résultats
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Dans une approche d'apprentissage actif, il est pertinent de laisser les élèves concevoir eux-mêmes leur protocole. L'enseignant·e joue alors un rôle de guide, en garantissant l'intégration des éléments essentiels : utilisation de pièges à pollinisateurs pour obtenir des mesures objectives et tenue d'un journal d'enquête comportant une analyse qualitative.
 :::
 
 #### Exemple de protocole
 
-1. **Objectif** : Mettre en évidence l'impact de l'activité humaine sur les pollinisateurs.
-2. **Hypothèse** : Les zones à fort niveau d'activité humaine auront beaucoup moins de pollinisateurs.
-3. **Durée** : Deux semaines, avec des données collectées trois fois par semaine.
-4. **Méthode de collecte** : Mesures quantitatives (pièges non létaux), observations environnementales, mesures qualitatives (niveaux d'activité humaine).
-5. **Utilisation des données** : Stockage en CSV, calcul de moyennes et médianes, création de graphiques, comparaison des facteurs, analyse de corrélation.
-6. **Présentation des résultats** : Graphiques et infographie.
+1. **Objectif** : mettre en évidence l'impact de l'activité humaine sur les pollinisateurs.
+2. **Hypothèse** : les zones à fort niveau d'activité humaine auront beaucoup moins de pollinisateurs.
+3. **Durée** : deux semaines, avec des données collectées trois fois par semaine.
+4. **Méthode de collecte** : mesures quantitatives (pièges non létaux), observations environnementales, mesures qualitatives (niveaux d'activité humaine).
+5. **Utilisation des données** : stockage en CSV, calcul de moyennes et médianes, création de graphiques, comparaison des facteurs, analyse de corrélation.
+6. **Présentation des résultats** : graphiques et infographie.
 
 ### Restitution et réflexion
 
@@ -152,15 +152,15 @@ Questions pour approfondir la réflexion :
 - Comment le changement climatique pourrait-il affecter les populations de pollinisateurs à l'avenir ?
 - Quelles mesures les communautés pourraient-elles prendre pour améliorer les habitats des pollinisateurs ?
 
-**Connaissances mobilisées** : Les élèves ont appris les facteurs influençant le choix d'habitat des pollinisateurs, leur rôle essentiel, et l'utilité de la recherche bibliographique comme fondement de toute démarche scientifique.
+**Connaissances mobilisées** : les élèves ont appris les facteurs influençant le choix d'habitat des pollinisateurs, leur rôle essentiel, et l'utilité de la recherche bibliographique comme fondement de toute démarche scientifique.
 
-**Réflexion sur la mise en oeuvre** : Les élèves ont appris à mener une recherche préliminaire, à participer à des échanges collaboratifs et à élaborer un protocole expérimental structuré.
+**Réflexion sur la mise en oeuvre** : les élèves ont appris à mener une recherche préliminaire, à participer à des échanges collaboratifs et à élaborer un protocole expérimental structuré.
 
-**Résultats d'apprentissage** : Les élèves ont développé des compétences en recherche documentaire, ont formulé des hypothèses argumentées et ont construit collectivement un protocole d'étude.
+**Résultats d'apprentissage** : les élèves ont développé des compétences en recherche documentaire, ont formulé des hypothèses argumentées et ont construit collectivement un protocole d'étude.
 
 ---
 
-## Étape 2 : Construire et mettre en place des pièges non létaux pour pollinisateurs
+## Phase 2 : Construire et mettre en place des pièges non létaux pour pollinisateurs
 
 ### Contexte de la séquence
 
@@ -183,7 +183,7 @@ Les enseignants présenteront les concepts d'attractifs (eau sucrée) et de conc
 - **Attractivité** : solution sucrée au fond
 - **Sécurité** : feuilles ou branchages pour permettre aux insectes de sortir facilement
 
-:::info[Conseil aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Des instructions de construction de piège sont disponibles en annexe. Vidéo : [https://www.youtube.com/watch?v=15B9VCKg-qs](https://www.youtube.com/watch?v=15B9VCKg-qs)
 :::
 
@@ -207,7 +207,7 @@ Les pièges sont placés aux emplacements définis lors de la cartographie, en t
 
 ### Restitution et réflexion
 
-Questions pour conclure cette étape :
+Questions pour conclure cette phase :
 
 - Comment les facteurs environnementaux influencent-ils l'efficacité des pièges ?
 - Pourquoi est-il important de concevoir des pièges non létaux ?
@@ -215,15 +215,15 @@ Questions pour conclure cette étape :
 
 Pour enrichir les données, vous pouvez ajouter des informations sur les espèces observées à l'aide des fiches d'identification du [Great Sunflower Project](https://www.greatsunflower.org).
 
-**Connaissances mobilisées** : Conception et mise en place d'un dispositif expérimental non létal, adaptation du protocole aux conditions locales.
+**Connaissances mobilisées** : conception et mise en place d'un dispositif expérimental non létal, adaptation du protocole aux conditions locales.
 
-**Réflexion sur la mise en oeuvre** : Collaboration, sécurité, collecte de données éthique.
+**Réflexion sur la mise en oeuvre** : collaboration, sécurité, collecte de données éthique.
 
-**Résultats d'apprentissage** : Transformation d'une question de recherche en expérience concrète, première expérience en conception et installation de dispositifs scientifiques.
+**Résultats d'apprentissage** : transformation d'une question de recherche en expérience concrète, première expérience en conception et installation de dispositifs scientifiques.
 
 ---
 
-## Étape 3 : Analyser les données et réfléchir sur les biais
+## Phase 3 : Analyser les données et réfléchir sur les biais
 
 ### Contexte de la séquence
 
@@ -237,9 +237,9 @@ Analyser des données, identifier des tendances, évaluer les résultats expéri
 
 Cette phase comprendra :
 
-1. **L'organisation des données** : Tableaux dans un logiciel de tableur.
-2. **L'analyse statistique** : Moyennes, médianes, tendances, variance et étendue.
-3. **La représentation visuelle** : Graphiques à barres, diagrammes de dispersion, cartes.
+1. **Organisation des données** : tableaux dans un logiciel de tableur.
+2. **Analyse statistique** : moyennes, médianes, tendances, variance et étendue.
+3. **Représentation visuelle** : graphiques à barres, diagrammes de dispersion, cartes.
 
 #### Focus sur les biais et les limites
 
@@ -264,11 +264,11 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 - Comment pourriez-vous élargir cette étude pour obtenir des résultats plus complets ?
 - De quelle manière vos résultats peuvent-ils alimenter des recherches plus larges ou des actions de conservation ?
 
-**Connaissances mobilisées** : Organisation et analyse de données scientifiques, méthodes statistiques, identification des limites.
+**Connaissances mobilisées** : organisation et analyse de données scientifiques, méthodes statistiques, identification des limites.
 
-**Réflexion sur la mise en oeuvre** : Transformation de données brutes en informations exploitables, intégrité des données.
+**Réflexion sur la mise en oeuvre** : transformation de données brutes en informations exploitables, intégrité des données.
 
-**Résultats d'apprentissage** : Compétences en analyse de données, remise en question des modèles expérimentaux, importance des biais et de la rigueur méthodologique.
+**Résultats d'apprentissage** : compétences en analyse de données, remise en question des modèles expérimentaux, importance des biais et de la rigueur méthodologique.
 
 ---
 

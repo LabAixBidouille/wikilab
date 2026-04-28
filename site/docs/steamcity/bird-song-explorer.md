@@ -57,12 +57,9 @@ L'activité vise à :
 5. **Créer une représentation visuelle** de la diversité des oiseaux urbains en géolocalisant et en cartographiant les chants d'oiseaux, afin de mieux comprendre la répartition spatiale des espèces d'oiseaux dans les zones urbaines.
 
 
-### Disciplines et ODD
+**Objectifs de développement durable** : ODD 11 (Villes et communautés durables), ODD 13 (Action pour le climat), ODD 15 (La vie sur terre).
 
-- **Disciplines** : technologie, biologie, géographie.
-- **Objectifs de développement durable** : ODD 11 (Villes et communautés durables), ODD 13 (Action pour le climat), ODD 15 (La vie sur terre).
-
-### Structure de l'activité
+### Structure du protocole
 
 Dans cette activité, nous explorons l'importance des oiseaux, faisons la différence entre les espèces et découvrons le monde de l'I.A., en particulier l'apprentissage supervisé :
 
@@ -74,11 +71,9 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
    - *Analyse des données et test des modèles* — Analyser les données collectées à l'aide de modèles formés et explorer les applications spécialisées pour l'identification des oiseaux.
    - *Création d'une carte de la diversité des oiseaux en milieu urbain* — Synthétiser les données recueillies pour créer une représentation visuelle de la diversité des espèces d'oiseaux dans les sites urbains explorés.
 
-### Pour bien démarrer
-
-- **Durée** : 180 minutes ou 3 leçons.
-- **Niveau de difficulté** : modéré.
-- **Matériel nécessaire** : ordinateurs ou appareils mobiles ; microphones pour l'enregistrement des sons d'oiseaux ; accès à l'application ou au site web BirdNET ou Merlin Bird ID ; carnets pour l'enregistrement des données ; projecteur pour les démonstrations ; OpenStreetMap pour la géolocalisation et la cartographie.
+| Durée | Difficulté | Matériel nécessaire |
+|---|---|---|
+| 180 min (3 séances) | Modéré | Ordinateurs ou appareils mobiles, microphones, BirdNET ou Merlin Bird ID, carnets, projecteur, OpenStreetMap |
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/bird-song-explorer/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -100,7 +95,7 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
 
 ---
 
-## Étape 1 : Exploration de la diversité des oiseaux urbains et de leurs rôles écologiques
+## Phase 1 : Exploration de la diversité des oiseaux urbains et de leurs rôles écologiques
 
 ### Contexte de la séquence
 
@@ -124,7 +119,13 @@ Ensuite, les élèves travailleront à l'élaboration d'une question de recherch
 
 Une fois la question de recherche établie, les élèves travailleront en petits groupes pour réfléchir et explorer les facteurs qui ont un impact sur les populations d'oiseaux en utilisant des livres, des articles scientifiques et des ressources en ligne. Sur la base de leurs recherches, ils formuleront des hypothèses. Une hypothèse est une déclaration qui doit être vérifiée par l'expérimentation ou l'observation. L'objectif d'une hypothèse est de fournir des réponses potentielles à la question de recherche. La validation ou l'invalidation d'une hypothèse peut conduire à reformuler la question de recherche pour l'affiner ou la modifier. Même si la question ne trouve pas de réponse complète, toutes les hypothèses devraient permettre de mieux encadrer la réponse potentielle et d'en clarifier les limites.
 
-Pour la question « Comment l'activité humaine affecte-t-elle la présence d'oiseaux dans les zones urbaines ? », l'hypothèse pourrait être la suivante : « Les zones où l'activité humaine est importante comptent beaucoup moins d'espèces d'oiseaux que les zones plus calmes et moins perturbées ». Pour la question « Quels types d'environnements urbains sont plus favorables aux populations d'oiseaux ? », l'hypothèse pourrait être la suivante : « Les quartiers où la végétation et le couvert arboré sont plus diversifiés présentent une plus grande densité d'espèces d'oiseaux que les zones où l'infrastructure verte est limitée ». Pour la question « Comment la présence d'espaces verts influence-t-elle la diversité des oiseaux dans les villes ? », une hypothèse possible pourrait être la suivante : « Les parcs urbains et les espaces verts naturalisés favorisent une plus grande diversité d'oiseaux que les zones dépourvues de tels espaces ». Chaque groupe inscrira ensuite ses hypothèses sur une carte de la zone d'étude, en utilisant des couleurs différentes pour indiquer les zones où l'on s'attend à une activité élevée ou faible des oiseaux. Ce processus de collaboration comprendra également des discussions sur la manière de spatialiser la zone d'étude et de choisir les emplacements appropriés pour la collecte des données.
+À chaque question peut correspondre une hypothèse :
+
+- **Activité humaine** : « Les zones où l'activité humaine est importante comptent beaucoup moins d'espèces d'oiseaux que les zones plus calmes et moins perturbées. »
+- **Type d'environnement** : « Les quartiers où la végétation et le couvert arboré sont plus diversifiés présentent une plus grande densité d'espèces d'oiseaux que les zones où l'infrastructure verte est limitée. »
+- **Espaces verts** : « Les parcs urbains et les espaces verts naturalisés favorisent une plus grande diversité d'oiseaux que les zones dépourvues de tels espaces. »
+
+Chaque groupe inscrira ensuite ses hypothèses sur une carte de la zone d'étude, en utilisant des couleurs différentes pour indiquer les zones où l'on s'attend à une activité élevée ou faible des oiseaux. Ce processus de collaboration comprendra également des discussions sur la manière de spatialiser la zone d'étude et de choisir les emplacements appropriés pour la collecte des données.
 
 En outre, les étudiants seront encouragés à faire preuve d'esprit critique en confrontant différents points de vue au cours de la phase de conceptualisation. Ils doivent examiner et débattre des différents facteurs susceptibles d'affecter les populations d'oiseaux et discuter des choix les plus logiques pour leur étude. Cela les aidera à prendre des décisions plus éclairées, à évaluer les preuves et à comprendre que la recherche scientifique nécessite souvent d'équilibrer des points de vue divergents.
 
@@ -134,9 +135,11 @@ Cette étape aidera les étudiants à comprendre non seulement l'importance de l
 
 Dans cette phase, les élèves apprendront à établir un protocole expérimental pour valider leurs hypothèses. L'enseignant les guidera à travers les étapes nécessaires à la conception d'une investigation rigoureuse, en encourageant une réflexion systématique et critique sur chaque aspect du processus expérimental.
 
-Recherche documentaire préliminaire : Avant de mettre en place des expériences, les élèves effectueront une analyse documentaire afin d'identifier les articles de recherche existants qui traitent de questions similaires ou du même sujet d'étude. Cette recherche les aidera à acquérir une compréhension fondamentale, à se familiariser avec les concepts clés et à passer en revue les méthodes d'évaluation existantes. Cette phase préliminaire façonnera l'approche des étudiants, garantissant que leur travail s'appuie sur des connaissances établies.
+#### Recherche documentaire préliminaire
 
-À la fin de l'analyse documentaire, l'enseignant encouragera les élèves à partager leurs conclusions afin de développer une vision commune du problème. En tant qu'animateur, l'enseignant guidera la discussion, fournira des exemples et encouragera la participation. Des aides visuelles et des clips audio seront utilisés pour aider les élèves à comprendre le sujet de la conservation des oiseaux. L'enseignant soulignera le lien entre les oiseaux et les indicateurs plus généraux de la santé environnementale.
+Avant de mettre en place des expériences, les élèves effectueront une analyse documentaire afin d'identifier les articles de recherche existants qui traitent de questions similaires ou du même sujet d'étude. Cette recherche les aidera à acquérir une compréhension fondamentale, à se familiariser avec les concepts clés et à passer en revue les méthodes d'évaluation existantes. Cette phase préliminaire façonnera l'approche des étudiants, garantissant que leur travail s'appuie sur des connaissances établies.
+
+À la fin de l'analyse documentaire, l'enseignant encouragera les élèves à partager leurs conclusions afin de développer une vision commune du problème. En tant qu'animateur, il guide la discussion, fournit des exemples et encourage la participation. Des aides visuelles et des clips audio sont utilisés pour aider les élèves à comprendre le sujet de la conservation des oiseaux, et à mettre en évidence le lien entre les oiseaux et les indicateurs plus généraux de la santé environnementale.
 
 Les points suivants doivent être discutés pour élaborer le protocole expérimental :
 
@@ -161,12 +164,12 @@ Une fois l'analyse de la littérature terminée, les étudiants appliqueront leu
 Les élèves collaboreront en petits groupes pour élaborer leurs protocoles expérimentaux, en tenant compte des lieux choisis et des hypothèses. L'enseignant guidera les discussions pour s'assurer que les protocoles sont réalisables et scientifiquement valables. Les groupes utiliseront des outils tels que des cartes, des notes d'analyse documentaire et des séances de remue-méninges pour affiner les détails du protocole.
 
 
-:::info[Conseils aux enseignants]
+:::info[Notes pour l'enseignant·e]
 Une approche d'apprentissage actif permet aux étudiants de concevoir des protocoles de manière indépendante. Cependant, l'enseignant joue un rôle crucial en tant que guide, en adoptant une approche semi-dirigée pour s'assurer que le protocole final comprenne les éléments essentiels de l'étude : techniques d'identification visuelle et auditive, enregistrement régulier des données et accent mis sur les observations quantitatives et qualitatives. Cette approche maintient la rigueur scientifique tout en favorisant l'autonomie et la créativité des élèves dans leur processus d'investigation.
 :::
 
 
-À la fin de cette étape, les élèves disposeront d'un protocole expérimental bien élaboré qu'ils pourront utiliser pour mener leur enquête. Cette approche structurée leur donnera les outils nécessaires pour explorer méthodiquement et rigoureusement l'impact de l'activité humaine sur les oiseaux. L'enseignant jouera le rôle d'animateur en guidant la discussion, en fournissant des exemples et en encourageant la participation. Utiliser des supports visuels et des clips audio pour aider les élèves à comprendre le sujet de la conservation des oiseaux. Souligner le lien entre les oiseaux et les indicateurs plus généraux de la santé environnementale.
+À la fin de cette phase, les élèves disposeront d'un protocole expérimental bien élaboré qu'ils pourront utiliser pour mener leur enquête. Cette approche structurée leur donnera les outils nécessaires pour explorer méthodiquement et rigoureusement l'impact de l'activité humaine sur les oiseaux.
 
 ### Restitution et réflexion
 
@@ -207,7 +210,7 @@ Ces discussions aideront les étudiants à synthétiser leur apprentissage, à �
 
 ---
 
-## Étape 2 : Jeu d'identification des chants d'oiseaux
+## Phase 2 : Jeu d'identification des chants d'oiseaux
 
 ### Contexte de la séquence
 
@@ -242,7 +245,15 @@ Pour faciliter le processus d'identification, les élèves seront initiés aux e
 
 Ces espèces sont couramment observées dans les environnements urbains et constituent une bonne base pour les exercices d'identification des oiseaux de cette activité. Les élèves devraient se familiariser avec ces espèces dans le cadre de leur apprentissage préliminaire.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/bird-song-explorer/exempleoiseau.png" alt="Exemples d'oiseaux urbains" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemples d'oiseaux urbains européens</figcaption>
+</figure>
+
 ### Investigation par les élèves
+
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
+<div style={{flex: 1, minWidth: '280px'}}>
 
 Cette enquête se déroule en trois étapes. Tout d'abord, les élèves examineront des photos de diverses espèces d'oiseaux urbains et écouteront leurs chants, en notant les caractéristiques visuelles et auditives distinctives. Deuxièmement, ils participeront à un jeu-questionnaire sur le chant des oiseaux, identifiant individuellement les espèces d'oiseaux sur la base de leurs chants et d'indices visuels. Enfin, ils travailleront en petits groupes pour affiner leurs compétences en matière d'identification des oiseaux.
 
@@ -256,6 +267,12 @@ Après la phase d'écoute, un quiz est organisé pour tester les capacités de r
 
 - **Questions basées sur l'audio** : les élèves identifient les espèces à partir des chants d'oiseaux, ce qui renforce la mémoire auditive et la capacité à différencier des espèces aux sons similaires.
 - **Questions basées sur l'image** : les élèves associent des images ou des noms d'oiseaux à des chants corrects à partir de plusieurs extraits sonores, en associant des informations visuelles à des caractéristiques auditives.
+
+</div>
+
+<img src="/img/ressources/steamcity/bird-song-explorer/fiche%20activit%C3%A9%20Birds%20Songs.png" alt="Fiche d'activité Birds Songs" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
 
 #### Travail d'équipe et retour d'information
 
@@ -278,13 +295,13 @@ Pour conclure cette phase, engagez les élèves dans une discussion sur les déf
 
 Ces discussions aideront les élèves à synthétiser leur apprentissage, à reconnaître les limites de la mémoire auditive humaine et à apprécier le rôle complémentaire de l'IA dans le soutien aux efforts de conservation de la biodiversité.
 
-:::info[Conseils pour les enseignants]
-L'enseignant peut diffuser une vidéo pour aider les élèves à mieux comprendre l'IA et son mode d'apprentissage. Une vidéo attrayante et informative fournit une explication claire des concepts de l'apprentissage automatique, illustrant la façon dont les systèmes d'IA traitent les données pour reconnaître des modèles et faire des prédictions. En regardant une telle vidéo, les élèves auront un aperçu des principes fondamentaux de l'IA, ce qui leur permettra de mieux comprendre les activités d'apprentissage supervisé qu'ils s'apprêtent à entreprendre. Les représentations visuelles et les exemples aideront à consolider le lien entre les processus d'apprentissage humain et les algorithmes d'apprentissage automatique, préparant ainsi les étudiants à l'expérience pratique avec Google Teachable Machine à l'étape suivante.
+:::info[Notes pour l'enseignant·e]
+L'enseignant peut diffuser une vidéo pour aider les élèves à mieux comprendre l'IA et son mode d'apprentissage. Une vidéo attrayante et informative fournit une explication claire des concepts de l'apprentissage automatique, illustrant la façon dont les systèmes d'IA traitent les données pour reconnaître des modèles et faire des prédictions. En regardant une telle vidéo, les élèves auront un aperçu des principes fondamentaux de l'IA, ce qui leur permettra de mieux comprendre les activités d'apprentissage supervisé qu'ils s'apprêtent à entreprendre. Les représentations visuelles et les exemples aideront à consolider le lien entre les processus d'apprentissage humain et les algorithmes d'apprentissage automatique, préparant ainsi les étudiants à l'expérience pratique avec Google Teachable Machine à la phase suivante.
 :::
 
 ---
 
-## Étape 3 : Construction d'un modèle de reconnaissance des chants d'oiseaux par l'IA
+## Phase 3 : Construction d'un modèle de reconnaissance des chants d'oiseaux par l'IA
 
 ### Contexte de la séquence
 
@@ -314,7 +331,7 @@ Une fois ces concepts introduits, guidez les élèves dans la formulation d'une 
 
 Demandez aux élèves d'émettre des hypothèses sur des scénarios dans lesquels l'IA pourrait être plus performante que l'identification humaine, par exemple en reconnaissant de manière cohérente un vaste ensemble de chants d'oiseaux, ou sur des situations dans lesquelles les humains pourraient être plus précis grâce à leur capacité à comprendre le contexte et les nuances. L'objectif est de favoriser la compréhension du potentiel et des limites de l'IA dans la reconnaissance des formes, en particulier dans les études écologiques.
 
-:::info[Conseils pour les enseignants]
+:::info[Notes pour l'enseignant·e]
 Guidez les étudiants dans la phase de conceptualisation, en expliquant les principes de l'apprentissage supervisé et en soulignant la nature collaborative du processus d'apprentissage entre les étudiants et les systèmes d'IA.
 :::
 
@@ -354,11 +371,11 @@ Ces discussions aideront les élèves à synthétiser ce qu'ils ont appris, à c
 
 ---
 
-## Étape 4 : Collecte, analyse et cartographie des données sur le chant des oiseaux
+## Phase 4 : Collecte, analyse et cartographie des données sur le chant des oiseaux
 
 ### Contexte de la séquence
 
-Les élèves recueillent des chants d'oiseaux au cours d'une promenade dans la nature, analysent ces enregistrements à l'aide des modèles d'IA qu'ils ont précédemment créés et synthétisent leurs résultats en créant une carte visuelle des oiseaux. L'objectif est de valider les hypothèses formulées lors de l'étape 1 en reliant l'apprentissage théorique aux observations sur le terrain, à l'analyse des données et à la visualisation. Cette activité intégrée combine l'exploration en plein air, l'analyse de données et la cartographie pour favoriser une meilleure compréhension de la diversité des oiseaux dans les zones urbaines.
+Les élèves recueillent des chants d'oiseaux au cours d'une promenade dans la nature, analysent ces enregistrements à l'aide des modèles d'IA qu'ils ont précédemment créés et synthétisent leurs résultats en créant une carte visuelle des oiseaux. L'objectif est de valider les hypothèses formulées lors de la phase 1 en reliant l'apprentissage théorique aux observations sur le terrain, à l'analyse des données et à la visualisation. Cette activité intégrée combine l'exploration en plein air, l'analyse de données et la cartographie pour favoriser une meilleure compréhension de la diversité des oiseaux dans les zones urbaines.
 
 ### Objectifs d'apprentissage
 
@@ -400,8 +417,8 @@ Pour organiser efficacement cette session avec les élèves et maximiser les ré
 
 Bien que l'activité puisse être menée avec la classe entière, le fait de diviser les élèves en trois groupes spécialisés permet d'approfondir l'apprentissage et d'acquérir une compréhension plus complète des méthodes d'identification des oiseaux :
 
-1. **Groupe 1 — Identification assistée par la technologie** : ce groupe enregistrera des sons d'oiseaux à l'aide de leurs smartphones et utilisera le modèle d'intelligence artificielle développé à l'étape 3 pour reconnaître les espèces. Cette approche permet aux étudiants d'appliquer et d'évaluer directement l'efficacité de leur modèle d'apprentissage automatique dans des conditions réelles.
-2. **Groupe 2 — Identification traditionnelle** : ces élèves s'appuient uniquement sur les connaissances acquises à l'étape 2 et reconnaissent les oiseaux sans aide technologique. Cette méthode met les élèves au défi d'appliquer les compétences acquises et teste l'efficacité des techniques traditionnelles d'identification des oiseaux.
+1. **Groupe 1 — Identification assistée par la technologie** : ce groupe enregistrera des sons d'oiseaux à l'aide de leurs smartphones et utilisera le modèle d'intelligence artificielle développé à la phase 3 pour reconnaître les espèces. Cette approche permet aux étudiants d'appliquer et d'évaluer directement l'efficacité de leur modèle d'apprentissage automatique dans des conditions réelles.
+2. **Groupe 2 — Identification traditionnelle** : ces élèves s'appuient uniquement sur les connaissances acquises à la phase 2 et reconnaissent les oiseaux sans aide technologique. Cette méthode met les élèves au défi d'appliquer les compétences acquises et teste l'efficacité des techniques traditionnelles d'identification des oiseaux.
 3. **Groupe 3 — Identification professionnelle basée sur une application** : ce groupe utilisera l'application Merlin Bird ID pour l'identification des espèces. En utilisant un outil professionnel, les étudiants peuvent comparer leurs résultats à une base de données plus complète et explorer des fonctions d'identification avancées.
 
 Au fur et à mesure que l'activité progresse, on s'attend à ce que les limites du modèle Teachable Machine deviennent évidentes par rapport aux méthodes d'identification humaine. Alors que l'application Merlin Bird ID devrait démontrer une plus grande capacité de reconnaissance, elle pourrait également rencontrer des difficultés sur le terrain, telles que des interférences avec le bruit ambiant.
@@ -452,21 +469,6 @@ Ces discussions aideront les étudiants à synthétiser leurs résultats, à ré
 - **Teachable Machine** — Outil de Google pour entraîner des modèles d'apprentissage automatique.
 - **Merlin Bird ID** — Application d'identification d'oiseaux du Cornell Lab of Ornithology.
 - **xeno-canto** — Base de données collaborative de chants d'oiseaux (Browse by Region).
-
----
-
-## Annexes (imprimables)
-
-### Chants d'oiseaux
-
-Trouvez l'oiseau correspondant à chaque chanson.
-
-| | | | |
-|---|---|---|---|
-| Chanson 1 | Chanson 2 | Chanson 3 | Chanson 4 |
-| Chanson 5 | Chanson 6 | Chanson 7 | Chanson 8 |
-| Chanson 9 | Chanson 10 | Chanson 11 | Chanson 12 |
-| Chanson 13 | Chanson 14 | Chanson 15 | Chanson 16 |
 
 ---
 

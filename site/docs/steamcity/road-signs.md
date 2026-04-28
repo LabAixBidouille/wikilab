@@ -53,9 +53,9 @@ Au cours de cette expérience, les élèves étudieront les liens entre infrastr
 
 Le protocole se divise en trois phases complémentaires :
 
-- **Étape 1 : familiarisation et conception.** Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
-- **Étape 2 : tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
-- **Étape 3 : entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
+- **Phase 1 : Familiarisation et conception.** Les élèves se familiarisent avec les concepts fondamentaux et s'engagent dans un processus créatif pour développer de nouveaux signaux routiers, en identifiant les besoins et en concevant des solutions répondant à des critères précis.
+- **Phase 2 : Tester l'ambiguïté des panneaux de signalisation.** Les élèves organisent le test d'un outil de classification automatique d'images, entraîné à reconnaître les panneaux routiers classiques. L'objectif est de vérifier si un nouveau panneau n'est pas classé parmi les panneaux existants.
+- **Phase 3 : Entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/road-signs/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -81,19 +81,7 @@ Le protocole se divise en trois phases complémentaires :
 
 ---
 
-## Bibliographie
-
-- D'Angelo, M. & Pellegrino, M. A. (2021). Roobopoli: a project to learn robotics by a constructionism-based approach. *MIS4TEL Workshops*.
-- Gennari, R., Melonio, A., & D'Angelo, M. (2023). Engaging Learners in the Collaborative Design of Sustainable Smart Cities. *S3C Workshop @ CHItaly*.
-- D'Angelo, M. (2023). Engaging Learners in Familiarizing Themselves with Sensors and Actuators. *MIS4TEL Workshops*.
-
----
-
-:::note
-Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
-:::
-
-## Étape 1 : Familiarisation et conception
+## Phase 1 : Familiarisation et conception
 
 ### Contexte de la séquence
 
@@ -144,9 +132,7 @@ Les élèves acquièrent des compétences en conceptualisation, prototypage et �
 
 ---
 
-## Étape 2 : Tester l'ambiguïté des panneaux de signalisation
-
-
+## Phase 2 : Tester l'ambiguïté des panneaux de signalisation
 
 ### Contexte de la séquence
 
@@ -190,7 +176,7 @@ Les élèves approfondissent leur compréhension des outils d'IA pour la classif
 
 ---
 
-## Étape 3 : Entraînement du modèle en fonction des nouveaux panneaux conçus
+## Phase 3 : Entraînement du modèle en fonction des nouveaux panneaux conçus
 
 ### Contexte de la séquence
 
@@ -226,10 +212,14 @@ Les élèves acquièrent une expérience pratique de l'entraînement de modèles
 
 ## Pour aller plus loin
 
-### Approfondir et aller plus loin
+- **Technologie LiDAR** : explorer le LiDAR avec des pointeurs laser et des Arduino/Raspberry Pi. Ressources : [NEON Science](https://www.neonscience.org/resources/learning-hub/tutorials/lidar-basics), [Can You Fool A Self-Driving Car?](https://www.youtube.com/watch?v=IQJL3htsDyQ).
+- **Défi de programmation collaborative de véhicules autonomes** : construire et programmer de petits véhicules autonomes communiquant entre eux (communication V2V et V2I). Ressources : [Argonne National Laboratory](https://www.anl.gov/education/high-school-autonomous-vehicle-competition), [MIT Research on Human Reasoning in AI](https://news.mit.edu/2019/human-reasoning-ai-driverless-car-navigation-0523).
 
-- **Technologie LiDAR** : Explorer le LiDAR avec des pointeurs laser et des Arduino/Raspberry Pi. Ressources : [NEON Science](https://www.neonscience.org/resources/learning-hub/tutorials/lidar-basics), [Can You Fool A Self-Driving Car?](https://www.youtube.com/watch?v=IQJL3htsDyQ)
-- **Défi de programmation collaborative de véhicules autonomes** : Construire et programmer de petits véhicules autonomes communiquant entre eux (communication V2V et V2I). Ressources : [Argonne National Laboratory](https://www.anl.gov/education/high-school-autonomous-vehicle-competition), [MIT Research on Human Reasoning in AI](https://news.mit.edu/2019/human-reasoning-ai-driverless-car-navigation-0523)
+## Bibliographie
+
+- D'Angelo, M. & Pellegrino, M. A. (2021). Roobopoli: a project to learn robotics by a constructionism-based approach. *MIS4TEL Workshops*.
+- Gennari, R., Melonio, A., & D'Angelo, M. (2023). Engaging Learners in the Collaborative Design of Sustainable Smart Cities. *S3C Workshop @ CHItaly*.
+- D'Angelo, M. (2023). Engaging Learners in Familiarizing Themselves with Sensors and Actuators. *MIS4TEL Workshops*.
 
 ---
 

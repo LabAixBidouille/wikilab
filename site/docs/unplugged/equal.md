@@ -154,7 +154,7 @@ L'enseignant est le facilitateur qui :
 
 ### Étape 1
 
-Au début du premier tour, chaque équipe prend une carte dans la pioche (nombre de cartes dans la pioche = nombre d'équipes en jeu). La première équipe qui a pris la carte lit à haute voix la description du métier inscrite sous l'étiquette "Étape 1 : description". Les autres équipes ont 10 secondes pour deviner et noter sur leur tableau des scores la profession correspondant à la description donnée.
+Au début du premier tour, chaque équipe prend une carte dans la pioche (nombre de cartes dans la pioche = nombre d'équipes en jeu). La première équipe qui a pris la carte lit à haute voix la description du métier inscrite sous l'étiquette "Étape 1 : Description". Les autres équipes ont 10 secondes pour deviner et noter sur leur tableau des scores la profession correspondant à la description donnée.
 
 Par exemple, la première équipe lit à haute voix : "Expert qui étudie les civilisations anciennes, notamment en faisant des fouilles". Les autres équipes inscrivent une réponse possible sur leur tableau des score. Quand le temps est écoulé, la première équipe révèle la bonne réponse : "Archéologue".
 
@@ -180,7 +180,7 @@ Si l'enseignant décide d'arrêter le jeu, l'équipe avec le score le plus élev
 
 Au début de la troisième manche, chaque équipe prend une troisième carte dans la pioche (Remarque : une équipe peut prendre la même carte que pour la première et la deuxième manche) et choisir de dessiner l'un des objets liés au metier écrit sous "Étape 3 : Dessine un objet". Les autres équipes ont 10 secondes pour deviner et noter sur leur tableau de scores le métier correspondant au dessin.
 
-Par exemple, la première équipe a piochée la carte-métier "Archéologue". Un membre de l'équipe choisit un objet à dessiner parmi la liste d'objets inscrite dans la rubrique "Étape 3 : dessiner un objet : Pioche, Pinceau, Truelle, Loupe". Les autres équipes notent sur leur tableau des scores le métier lié à l'objet dessiné. A la fin, la première équipe révèle la bonne réponse.
+Par exemple, la première équipe a piochée la carte-métier "Archéologue". Un membre de l'équipe choisit un objet à dessiner parmi la liste d'objets inscrite dans la rubrique "Étape 3 : Dessiner un objet : Pioche, Pinceau, Truelle, Loupe". Les autres équipes notent sur leur tableau des scores le métier lié à l'objet dessiné. A la fin, la première équipe révèle la bonne réponse.
 
 Chaque équipe qui devine la bonne réponse gagne 10 points.
 

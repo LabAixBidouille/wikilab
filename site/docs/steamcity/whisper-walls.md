@@ -60,21 +60,13 @@ Durant ce protocole, les élèves joueront le rôle de scientifiques en charge d
 
 ### Structure du protocole
 
-L'expérimentation se compose de trois étapes clés, guidant les élèves à travers le processus scientifique, de l'exploration des concepts fondamentaux à l'analyse et à l'interprétation des données expérimentales.
+L'expérimentation se compose de trois phases clés, guidant les élèves à travers le processus scientifique, de l'exploration des concepts fondamentaux à l'analyse et à l'interprétation des données expérimentales.
 
-#### Étape 1 : Exploration des concepts clés et formulation de la question de recherche
+- **Phase 1 — Exploration des concepts clés et formulation de la question de recherche** : les élèves explorent les principes fondamentaux du son et du bruit (ondes sonores, échelle des décibels, effets de la pollution sonore sur la santé et le bien-être). Ils formulent collectivement une question de recherche, par exemple sur les matériaux les plus efficaces pour l'isolation acoustique ou sur l'influence de l'épaisseur et de la densité. Une recherche documentaire vient consolider les bases scientifiques de leur expérimentation.
+- **Phase 2 — Conception expérimentale et collecte de données** : les élèves conçoivent et mettent en œuvre un protocole pour mesurer les propriétés d'atténuation acoustique de différents matériaux. À l'aide d'un microcontrôleur programmable équipé d'un microphone et d'une source sonore, ils mesurent l'intensité sonore avant et après passage à travers les matériaux. Ils documentent les conditions expérimentales (type, épaisseur, densité) pour garantir une configuration reproductible.
+- **Phase 3 — Analyse et interprétation des données** : les élèves analysent les données recueillies pour identifier les tendances entre propriétés des matériaux et atténuation du son. Ils visualisent leurs résultats sous forme de graphiques et tableaux, calculent les réductions de décibels, évaluent les sources d'erreur et les limites de la configuration, et relient leurs résultats à des applications concrètes (bruit urbain, construction durable).
 
-Les élèves explorent les principes fondamentaux du son et du bruit, notamment les ondes sonores, l’échelle des décibels et les effets de la pollution sonore sur la santé et le bien-être. Ils discutent ensemble et formulent une question de recherche, comme déterminer les matériaux les plus efficaces pour l’isolation acoustique ou étudier comment l’épaisseur ou la densité influencent l’atténuation du son. Cette phase comprend une recherche documentaire, durant laquelle les élèves consultent des ressources existantes sur les matériaux d’insonorisation et leurs propriétés. Cette étape encourage la pensée critique, la collaboration et l’ancrage de leur expérimentation sur des bases scientifiques solides.
-
-#### Étape 2 : Conception expérimentale et collecte de données
-
-Au cours de cette étape, les élèves collaborent pour concevoir et mettre en œuvre un protocole expérimental permettant de mesurer les propriétés d'atténuation acoustique de différents matériaux. À l’aide d’un microcontrôleur programmable équipé d’un microphone et d’une source sonore, ils mesurent l’intensité sonore avant et après son passage à travers les matériaux sélectionnés. Les élèves documentent les conditions expérimentales — type de matériau, épaisseur, densité — en veillant à maintenir une configuration cohérente et reproductible. Cette phase valorise l’apprentissage par la pratique et la rigueur scientifique tout en permettant de collecter des données quantitatives pour valider leurs hypothèses.
-
-#### Étape 3 : Analyse et interprétation des données
-
-Après l’expérimentation, les élèves analysent les données recueillies pour identifier les tendances et les relations entre les propriétés des matériaux et l’atténuation du son. Ils utilisent des outils visuels tels que des graphiques et des tableaux pour représenter leurs résultats, et calculent des mesures pertinentes comme les réductions de décibels. Cette phase comprend également une réflexion sur le processus expérimental : les élèves évaluent les sources d’erreur potentielles, les limites de la configuration et les moyens d’améliorer la méthodologie. Ils établissent aussi des liens entre leurs résultats et des applications concrètes, comme la réduction du bruit urbain ou les pratiques de construction durable. Cette étape renforce la pensée critique, l’interprétation des données et la communication scientifique rigoureuse.
-
-Il est courant de parler d’isolation dans le cadre des économies d’énergie : pour rendre une maison moins énergivore ou garder une bouteille d’eau fraîche pendant une journée d’été. Mais la chaleur n’est pas le seul type de transfert d’énergie que l’on peut ralentir. Il est aussi possible d’insonoriser, c’est-à-dire de réduire l’intensité des bruits extérieurs.
+Il est courant de parler d'isolation dans le cadre des économies d'énergie : pour rendre une maison moins énergivore ou garder une bouteille d'eau fraîche pendant une journée d'été. Mais la chaleur n'est pas le seul type de transfert d'énergie que l'on peut ralentir. Il est aussi possible d'insonoriser, c'est-à-dire de réduire l'intensité des bruits extérieurs.
 
 Plusieurs questions guident l'activité :
 
@@ -82,23 +74,11 @@ Plusieurs questions guident l'activité :
 - La forme du matériau isolant a-t-elle un impact ?
 - Quels sont les matériaux les plus efficaces ?
 
-Cette activité vise à tester différents matériaux (bois, métal, mousse, etc.) pour déterminer celui qui isole le mieux, tout en découvrant comment mesurer le bruit et comprendre l’échelle des décibels.
+Ce protocole décrit une expérience scientifique qui vise à mesurer le pouvoir d'isolation acoustique de différents matériaux (bois, métal, mousse, etc.). La collecte des données se fait à l'aide d'un microphone, en mesurant l'intensité sonore à l'intérieur et à l'extérieur de boîtes contenant ces matériaux. L'expérience permet aussi de comprendre comment connecter une carte électronique à d'autres périphériques, et comment récupérer les données pour les analyser ensuite.
 
-Ce protocole décrit une expérience scientifique qui vise à mesurer le pouvoir d’isolation acoustique de différents matériaux. La collecte des données se fait à l’aide d’un microphone, en mesurant l’intensité sonore à l’intérieur et à l’extérieur de boîtes contenant ces matériaux. L’expérience permet aussi de comprendre comment connecter une carte électronique à d’autres périphériques, et comment récupérer les données pour les analyser ensuite.
-
-**Durée** : L’activité se déroule en trois séances. La première porte sur l’exploration des concepts clés, la réalisation d’une étude documentaire et la formulation d’une question de recherche. La deuxième est consacrée à la conception et à la réalisation de l’expérience, y compris la collecte de données. La troisième consiste à analyser les résultats, à tirer des conclusions et à réfléchir à la méthodologie et aux résultats de l’expérience.
-
-**Niveau de difficulté** : L’activité combine l’exploration théorique (compréhension du son et du bruit, formulation d’hypothèses), l’application pratique (mise en œuvre de l’expérience, collecte de données) et la réflexion analytique (interprétation et visualisation des résultats).
-
-**Matériel nécessaire** :
-
-- 1 carte programmable (par exemple, un IoT node STM32 ou une carte micro:bit)
-- 1 microphone (par exemple, MP34DT01)
-- 1 buzzer (pour la génération de son)
-- 1 écran LCD (pour l'affichage des données)
-- Câbles de connexion et un câble USB (B micro)
-- Échantillons de matériaux à tester (par exemple, mousse, bois, métal, tissu)
-- Carnet de notes ou outils numériques pour enregistrer et analyser les données
+| Durée | Niveau | Configuration |
+|---|---|---|
+| 3 séances (concepts + recherche documentaire ; conception et collecte ; analyse et restitution) | Combine théorie (son, hypothèses), pratique (expérimentation) et analyse (interprétation des résultats) | Voir la section **Matériel** ci-dessus |
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/whisper-walls/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -128,7 +108,7 @@ Ce protocole décrit une expérience scientifique qui vise à mesurer le pouvoir
 
 ---
 
-## Étape 1 : Exploration des concepts clés et étude documentaire
+## Phase 1 : Exploration des concepts clés et étude documentaire
 
 ### Contexte de la séquence
 
@@ -149,20 +129,18 @@ Ensuite, ils travaillent à la formulation d’une question de recherche précis
 
 La formulation d’une question de recherche bien définie constitue une étape essentielle de toute démarche scientifique. Une bonne question sert de fondement à l’enquête et oriente toutes les étapes suivantes, de la conception de l’expérience à l’interprétation des résultats. Elle garantit que l’investigation reste ciblée et qu’elle repose sur des objectifs mesurables et observables.
 
-Une question de recherche solide devrait être :
+Une question de recherche solide doit être :
 
-1. Claire et précise : Elle doit être suffisamment précise pour guider l’enquête sans être trop large ou ambiguë.
-2. Testable : Il doit s’agir de variables qui peuvent être mesurées ou observées.
-3. En rapport avec le concept clé : Dans ce cas, la question devrait porter directement sur l’atténuation du son ou
-sur les propriétés des matériaux.
-4. Favoriser l'investigation et l'analyse : Il faudrait que la collecte et l’évaluation des données soient nécessaires
-pour parvenir à une conclusion.
+1. **Claire et précise** : suffisamment ciblée pour guider l'enquête sans être trop large ou ambiguë.
+2. **Testable** : portant sur des variables qui peuvent être mesurées ou observées.
+3. **En lien avec le concept clé** : dans ce cas, l'atténuation du son ou les propriétés des matériaux.
+4. **Propice à l'investigation et l'analyse** : la collecte et l'évaluation des données doivent être nécessaires pour parvenir à une conclusion.
 
 Voici des exemples de questions de recherche pour cette activité :
 
-- « Quels matériaux sont les plus efficaces pour réduire l’intensité sonore ? »
-- « Comment l’épaisseur d’un matériau influence-t-elle sa capacité à atténuer le son ? »
-- « La densité d’un matériau est-elle corrélée à ses capacités d’insonorisation ? »
+- *Quels matériaux sont les plus efficaces pour réduire l'intensité sonore ?*
+- *Comment l'épaisseur d'un matériau influence-t-elle sa capacité à atténuer le son ?*
+- *La densité d'un matériau est-elle corrélée à ses capacités d'insonorisation ?*
 
 Une fois la question de recherche établie, les élèves collaborent en petits groupes pour réfléchir et explorer les facteurs qui définissent le son et le bruit à l’aide de livres, d’articles scientifiques et de ressources en ligne. Sur la base de leurs recherches, ils formulent des hypothèses. Une hypothèse est une affirmation qui doit être vérifiée par l’expérimentation (ou par le calcul, dans des domaines comme les mathématiques). Le but d’une hypothèse est de proposer des réponses potentielles à la question de recherche. La validation ou l’invalidation d’une hypothèse peut conduire à reformuler la question de recherche afin de l’affiner ou de l’ajuster. Même si la question n’est pas entièrement résolue, toutes les hypothèses doivent contribuer à mieux encadrer la réponse possible et à en clarifier les limites.
 
@@ -174,30 +152,18 @@ Pour aider les élèves à élaborer une hypothèse, les enseignants peuvent uti
 
 #### Exemples d'hypothèses
 
-Pour la question de recherche « Quels matériaux sont les plus efficaces pour réduire l'intensité sonore ? »
-
-> Hypothèse : « La mousse atténuera le son plus efficacement que le bois ou le métal en raison de sa structure poreuse, qui absorbe les ondes sonores. »
-
-Pour la question de recherche « Comment l'épaisseur d'un matériau influence-t-elle sa capacité à atténuer le son ? »
-
-> Hypothèse : « L’augmentation de l’épaisseur d’un matériau entraînera une plus grande atténuation du son, car les matériaux plus épais fournissent davantage de barrières pour la pénétration des ondes sonores. »
-
-Pour la question de recherche « La densité d’un matériau est-elle corrélée à ses capacités d’insonorisation ? »
-
-> Hypothèse : « Les matériaux plus denses, comme l’acier, atténueront le son plus efficacement que les matériaux moins denses, car les structures plus denses réfléchissent plus d’ondes sonores. »
+- **Question de recherche : *Quels matériaux sont les plus efficaces pour réduire l'intensité sonore ?*** — Hypothèse : « La mousse atténuera le son plus efficacement que le bois ou le métal en raison de sa structure poreuse, qui absorbe les ondes sonores. »
+- **Question de recherche : *Comment l'épaisseur d'un matériau influence-t-elle sa capacité à atténuer le son ?*** — Hypothèse : « L'augmentation de l'épaisseur d'un matériau entraînera une plus grande atténuation du son, car les matériaux plus épais fournissent davantage de barrières pour la pénétration des ondes sonores. »
+- **Question de recherche : *La densité d'un matériau est-elle corrélée à ses capacités d'insonorisation ?*** — Hypothèse : « Les matériaux plus denses, comme l'acier, atténueront le son plus efficacement que les matériaux moins denses, car les structures plus denses réfléchissent plus d'ondes sonores. »
 
 #### Guider les élèves dans la formulation d'hypothèses
 
 Les enseignants peuvent utiliser des invites et des discussions pour aider les élèves à réfléchir de manière critique et à relier leur question de recherche à une hypothèse testable :
 
-1. Question de connaissances préalables : Que savez-vous déjà sur la manière dont les matériaux interagissent
-avec le son ?
-2. Encourager le raisonnement logique : D’après vos recherches, quelles caractéristiques d’un matériau
-pourraient affecter sa capacité à réduire le son ?
-3. Concentrez-vous sur la mesurabilité : Pouvez-vous mesurer ou observer l’effet de cette caractéristique (par
-exemple, l’épaisseur ou la densité) sur l’atténuation du son ?
-4. Aider l’affinement : Si l’hypothèse est trop large ou non testable, demandez aux élèves de restreindre leur
-champ d’action ou de la reformuler pour l’aligner sur la configuration expérimentale disponible.
+1. **Connaissances préalables** : que savez-vous déjà sur la manière dont les matériaux interagissent avec le son ?
+2. **Raisonnement logique** : d'après vos recherches, quelles caractéristiques d'un matériau pourraient affecter sa capacité à réduire le son ?
+3. **Mesurabilité** : pouvez-vous mesurer ou observer l'effet de cette caractéristique (par exemple, l'épaisseur ou la densité) sur l'atténuation du son ?
+4. **Affinement** : si l'hypothèse est trop large ou non testable, demandez aux élèves de restreindre leur champ d'action ou de la reformuler pour l'aligner sur la configuration expérimentale disponible.
 
 #### Exemples de questions d'orientation pour les élèves
 
@@ -223,16 +189,11 @@ Cette phase fait le lien entre la compréhension théorique et la conception exp
 
 #### Recherche documentaire préliminaire
 
-Les élèves commencent par étudier la nature du son et le concept d’atténuation. Le son, en tant qu’onde mécanique, se propage dans un milieu comme l’air, les liquides ou les solides. Ses caractéristiques — intensité, fréquence et vitesse de propagation — déterminent son interaction avec les matériaux. Par exemple, l’intensité sonore, mesurée en décibels (dB), suit une échelle logarithmique : une réduction de 10 dB correspond à une diminution de l’intensité sonore par dix.
+Les élèves commencent par étudier la nature du son et le concept d’atténuation. Cela commence par l’étude du son en tant que phénomène physique. Le son est une onde mécanique qui se propage dans un milieu — air, liquide ou solide — par les vibrations des particules. Il est essentiel de comprendre trois caractéristiques clés du son :
 
-Cela commence par l’étude du son en tant que phénomène physique. Le son est une onde mécanique qui se propage dans un milieu — air, liquide ou solide — par les vibrations des particules. Il est essentiel de comprendre trois caractéristiques clés du son :
-
-1. Fréquence : Il s’agit du nombre de cycles d’onde par seconde, mesuré en hertz (Hz). Les sons à haute fréquence,
-comme un sifflement, ont une longueur d’onde courte, tandis que les sons à basse fréquence, comme un battement de tambour, ont une longueur d’onde plus longue. La fréquence d’un son influence la manière dont les matériaux l’absorbent, certains étant plus efficaces pour atténuer les hautes fréquences que les basses.
-2. Amplitude et intensité : L’amplitude d’une onde sonore détermine son intensité. Cette intensité, mesurée en
-décibels (dB), représente la puissance du son. L’échelle des décibels étant logarithmique, une réduction de 10 dB correspond à une division par dix de l’intensité sonore. Comprendre cette échelle est essentiel pour analyser l’atténuation du son.
-3. Propagation : Les ondes sonores se propagent dans l’espace tridimensionnel, et leur comportement dépend du
-milieu traversé. Lorsqu’elles rencontrent un matériau, elles peuvent être réfléchies, absorbées ou transmises. Par exemple, la mousse absorbe l’énergie sonore et la convertit en chaleur, tandis que des matériaux denses comme le métal tendent à réfléchir les ondes.
+1. **Fréquence** : nombre de cycles d'onde par seconde, mesuré en hertz (Hz). Les sons à haute fréquence (comme un sifflement) ont une longueur d'onde courte, tandis que les sons à basse fréquence (comme un battement de tambour) ont une longueur d'onde plus longue. La fréquence d'un son influence la manière dont les matériaux l'absorbent : certains sont plus efficaces pour atténuer les hautes fréquences que les basses.
+2. **Amplitude et intensité** : l'amplitude d'une onde sonore détermine son intensité, mesurée en décibels (dB). L'échelle des décibels étant logarithmique, une réduction de 10 dB correspond à une division par dix de l'intensité sonore. Comprendre cette échelle est essentiel pour analyser l'atténuation du son.
+3. **Propagation** : les ondes sonores se propagent dans l'espace tridimensionnel, et leur comportement dépend du milieu traversé. Lorsqu'elles rencontrent un matériau, elles peuvent être réfléchies, absorbées ou transmises. Par exemple, la mousse absorbe l'énergie sonore et la convertit en chaleur, tandis que des matériaux denses comme le métal tendent à réfléchir les ondes.
 
 Au cours de leurs recherches, les élèves étudient le lien entre ces principes et l’insonorisation. Ils explorent les implications concrètes de l’atténuation du bruit, comme son rôle dans la réduction de la pollution sonore ou l’amélioration de l’acoustique des bâtiments. Résumer leurs conclusions dans un rapport collaboratif les aide à consolider leur compréhension théorique.
 
@@ -302,10 +263,10 @@ Pour conclure cette phase, les élèves s’engagent dans une discussion centré
 
 ---
 
-## Étape 2 : Conception expérimentale et collecte de données
+## Phase 2 : Conception expérimentale et collecte de données
 
 
-L'objectif de cette phase est de faire passer les élèves de l'exploration théorique à l'expérimentation pratique. Les élèves utilisent leurs connaissances sur les ondes sonores et l’atténuation, combinées à la question de recherche et à l’hypothèse formulées à l’étape 1, pour concevoir et exécuter une expérience. Cette phase introduit les pratiques scientifiques essentielles, telles que la précision des mesures, la collecte systématique de données et le dépannage.
+L'objectif de cette phase est de faire passer les élèves de l'exploration théorique à l'expérimentation pratique. Les élèves utilisent leurs connaissances sur les ondes sonores et l'atténuation, combinées à la question de recherche et à l'hypothèse formulées en phase 1, pour concevoir et exécuter une expérience. Cette phase introduit les pratiques scientifiques essentielles, telles que la précision des mesures, la collecte systématique de données et le dépannage.
 
 ### Contexte de la séquence
 
@@ -325,7 +286,7 @@ Les élèves doivent atteindre les objectifs clés suivants :
 ### Conceptualisation
 
 
-Cette phase relie l’hypothèse formulée à l’étape 1 à une expérience précise et testable. Les élèves définissent clairement leurs paramètres de test et expliquent pourquoi les variables choisies sont importantes pour comprendre l’atténuation du son. En ancrant leur expérience dans les principes fondamentaux du son et des propriétés des matériaux, ils veillent à ce que leur travail apporte des informations à la fois scientifiques et pratiques.
+Cette phase relie l'hypothèse formulée en phase 1 à une expérience précise et testable. Les élèves définissent clairement leurs paramètres de test et expliquent pourquoi les variables choisies sont importantes pour comprendre l’atténuation du son. En ancrant leur expérience dans les principes fondamentaux du son et des propriétés des matériaux, ils veillent à ce que leur travail apporte des informations à la fois scientifiques et pratiques.
 
 Pour engager les élèves et orienter leur réflexion vers la phase expérimentale, il est pertinent de poser les questions suivantes :
 
@@ -353,11 +314,9 @@ Nous contrôlons ces variables supplémentaires :
 
 Cette expérience révèle comment le son interagit avec les matériaux, offrant une valeur à la fois scientifique et pratique :
 
-Compréhension scientifique : Les élèves observent et mesurent le comportement des ondes sonores lorsqu’elles rencontrent des matériaux. Les matériaux poreux comme la mousse absorbent les ondes et les convertissent en chaleur, tandis que les matériaux denses comme le métal les réfléchissent. Grâce à des tests systématiques, ils comprennent les principes de propagation du son et de transformation de l’énergie.
-
-Applications pratiques : Les résultats s’appliquent directement aux défis du monde réel : réduire la pollution sonore urbaine, améliorer l’acoustique des bâtiments et développer une insonorisation durable. Les élèves apprennent comment les principes scientifiques influencent la conception architecturale et la planification environnementale.
-
-Test de l’hypothèse : L’hypothèse formulée à l’étape 1 est évaluée à l’aide de données mesurables. Par exemple, si la prédiction est que « la mousse atténue mieux le son que le métal en raison de sa structure poreuse », les mesures confirmeront ou infirmeront cette affirmation, renforçant ainsi le raisonnement scientifique.
+- **Compréhension scientifique** : les élèves observent et mesurent le comportement des ondes sonores lorsqu'elles rencontrent des matériaux. Les matériaux poreux comme la mousse absorbent les ondes et les convertissent en chaleur, tandis que les matériaux denses comme le métal les réfléchissent. Grâce à des tests systématiques, ils comprennent les principes de propagation du son et de transformation de l'énergie.
+- **Applications pratiques** : les résultats s'appliquent directement aux défis du monde réel — réduire la pollution sonore urbaine, améliorer l'acoustique des bâtiments et développer une insonorisation durable. Les élèves apprennent comment les principes scientifiques influencent la conception architecturale et la planification environnementale.
+- **Test de l'hypothèse** : l'hypothèse formulée en phase 1 est évaluée à l'aide de données mesurables. Par exemple, si la prédiction est que « la mousse atténue mieux le son que le métal en raison de sa structure poreuse », les mesures confirmeront ou infirmeront cette affirmation, renforçant ainsi le raisonnement scientifique.
 
 Les élèves appliquent leurs connaissances théoriques pour prédire les performances des matériaux, par exemple :
 
@@ -394,10 +353,10 @@ Le dispositif expérimental doit être conçu pour isoler l’interaction des on
 
 #### Protocole étape par étape
 
-- **Étalonnage** : Commencez par calibrer le microphone et la source sonore. Mesurez l’intensité sonore de référence (ligne de base) sans aucun matériau entre la source et le microphone. Enregistrez cette valeur comme intensité de départ. Vérifiez que la source sonore émet un ton stable et que le microphone fournit des lectures constantes.
-- **Matériaux de test** : Placez le matériau d’essai entre la source sonore et le microphone à une distance fixe (par exemple, 10 cm entre la source, le matériau et le microphone). Assurez-vous de l’alignement pour éviter la déviation des ondes sonores. Enregistrez l’intensité sonore après le matériau en décibels. Cette valeur représente le son transmis à travers le matériau. Répétez la mesure pour chaque matériau, en maintenant un placement et un alignement cohérents.
-- **Collecte de données pour des essais multiples** : Pour chaque matériau, effectuez au moins trois essais afin de tenir compte de la variabilité. Enregistrez les résultats de chaque essai et calculez l’intensité moyenne pour une meilleure précision. Répétez le processus avec des matériaux de différentes épaisseurs ou densités, en maintenant constantes toutes les autres variables.
-- **Calcul de l'atténuation** : Utilisez la formule : Atténuation (dB) = Intensité de référence (dB) – Intensité transmise (dB). Enregistrez l’atténuation pour chaque matériau et configuration dans un tableau de données structuré.
+- **Étalonnage** : commencez par calibrer le microphone et la source sonore. Mesurez l'intensité sonore de référence (ligne de base) sans aucun matériau entre la source et le microphone. Enregistrez cette valeur comme intensité de départ. Vérifiez que la source sonore émet un ton stable et que le microphone fournit des lectures constantes.
+- **Matériaux de test** : placez le matériau d'essai entre la source sonore et le microphone à une distance fixe (par exemple, 10 cm entre la source, le matériau et le microphone). Assurez-vous de l'alignement pour éviter la déviation des ondes sonores. Enregistrez l'intensité sonore après le matériau en décibels. Cette valeur représente le son transmis à travers le matériau. Répétez la mesure pour chaque matériau, en maintenant un placement et un alignement cohérents.
+- **Collecte de données pour des essais multiples** : pour chaque matériau, effectuez au moins trois essais afin de tenir compte de la variabilité. Enregistrez les résultats de chaque essai et calculez l'intensité moyenne pour une meilleure précision. Répétez le processus avec des matériaux de différentes épaisseurs ou densités, en maintenant constantes toutes les autres variables.
+- **Calcul de l'atténuation** : utilisez la formule **Atténuation (dB) = Intensité de référence (dB) – Intensité transmise (dB)**. Enregistrez l'atténuation pour chaque matériau et configuration dans un tableau de données structuré.
 
 #### Enregistrement et organisation des données
 
@@ -462,7 +421,7 @@ Cette étape renforce le lien entre théorie et pratique, en dotant les élèves
 
 ---
 
-## Étape 3 : Analyse et interprétation des données
+## Phase 3 : Analyse et interprétation des données
 
 
 ### Contexte de la séquence
@@ -703,12 +662,6 @@ Les élèves peuvent étudier comment la suppression active du bruit (ANC) est i
 ### Normes et directives
 
 - **ISO 717-1: Acoustics – Rating of Sound Insulation in Buildings and of Building Elements** : La norme internationale pour mesurer et évaluer les propriétés d'isolation acoustique des matériaux. [Lien](https://www.iso.org/standard/51968.html)
-
----
-
-> Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
-
----
 
 ---
 

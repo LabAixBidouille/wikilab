@@ -51,9 +51,9 @@ Cette activité encourage une réflexion approfondie sur l'impact de l'éclairag
 
 ### Structure du protocole
 
-- **Phase 1 : analyse documentaire** — La Phase 1 pose les bases du projet en familiarisant les élèves avec l'éclairage urbain à travers trois activités principales. D'abord, ils étudient les documents techniques et réglementaires pour comprendre le cadre légal et les normes actuelles. Ensuite, ils analysent en groupes des études de cas réelles de villes ayant mis en place des solutions innovantes, en utilisant une grille d'analyse structurée. Enfin, ils participent à des simulations pour appliquer leurs connaissances. Cette première phase leur permet de maîtriser les concepts clés comme la pollution lumineuse, l'efficacité énergétique et les systèmes d'éclairage adaptatif. Les compétences et connaissances acquises les préparent aux phases suivantes d'observation sur le terrain et de recherche de solutions.
-- **Phase 2 : protocole d'étude sur le territoire** — La phase 2 est une étude pratique où les élèves analysent l'éclairage de leur territoire. Ils observent et documentent les différents types d'éclairage présents, identifient les zones bien ou mal éclairées, et évaluent l'utilisation de la lumière naturelle dans les espaces urbains. Les élèves utilisent des fiches d'observation pour noter méthodiquement leurs constats sur le terrain. Ils recensent les types de luminaires présents, leur état, leur positionnement et leur impact sur l'environnement urbain. Ils évaluent également l'éclairage des commerces, notamment les vitrines et les panneaux publicitaires lumineux. Pour compléter leurs observations, les élèves recueillent les retours des usagers et des commerçants à travers des questionnaires simples. Ces entretiens permettent de comprendre la perception de l'éclairage par les différents acteurs du territoire et d'identifier les problématiques concrètes liées à l'éclairage urbain, comme le sentiment de sécurité ou le confort visuel. Cette démarche peut d'ailleurs être amorcée ou réalisée entièrement au sein même de l'établissement scolaire, permettant aux élèves de s'exercer dans un environnement familier et d'éviter les contraintes liés à l'étude de terrain.
-- **Phase 3 : analyse et recommandations** — La troisième et dernière phase du projet vise à transformer les observations et analyses en actions concrètes. Les élèves synthétiseront leurs découvertes des phases précédentes pour développer des recommandations pratiques et innovantes concernant l'optimisation de l'éclairage urbain. Cette phase cruciale permet de passer de la théorie à la pratique en proposant des solutions adaptées au contexte local, tout en sensibilisant les acteurs du territoire aux enjeux de l'éclairage intelligent. À travers l'analyse des données collectées, l'élaboration de recommandations et la possibilité de prototyper des solutions, les élèves deviennent de véritables acteurs du changement dans leur communauté.
+- **Phase 1 : Analyse documentaire** — La Phase 1 pose les bases du projet en familiarisant les élèves avec l'éclairage urbain à travers trois activités principales. D'abord, ils étudient les documents techniques et réglementaires pour comprendre le cadre légal et les normes actuelles. Ensuite, ils analysent en groupes des études de cas réelles de villes ayant mis en place des solutions innovantes, en utilisant une grille d'analyse structurée. Enfin, ils participent à des simulations pour appliquer leurs connaissances. Cette première phase leur permet de maîtriser les concepts clés comme la pollution lumineuse, l'efficacité énergétique et les systèmes d'éclairage adaptatif. Les compétences et connaissances acquises les préparent aux phases suivantes d'observation sur le terrain et de recherche de solutions.
+- **Phase 2 : Protocole d'étude sur le territoire** — La phase 2 est une étude pratique où les élèves analysent l'éclairage de leur territoire. Ils observent et documentent les différents types d'éclairage présents, identifient les zones bien ou mal éclairées, et évaluent l'utilisation de la lumière naturelle dans les espaces urbains. Les élèves utilisent des fiches d'observation pour noter méthodiquement leurs constats sur le terrain. Ils recensent les types de luminaires présents, leur état, leur positionnement et leur impact sur l'environnement urbain. Ils évaluent également l'éclairage des commerces, notamment les vitrines et les panneaux publicitaires lumineux. Pour compléter leurs observations, les élèves recueillent les retours des usagers et des commerçants à travers des questionnaires simples. Ces entretiens permettent de comprendre la perception de l'éclairage par les différents acteurs du territoire et d'identifier les problématiques concrètes liées à l'éclairage urbain, comme le sentiment de sécurité ou le confort visuel. Cette démarche peut d'ailleurs être amorcée ou réalisée entièrement au sein même de l'établissement scolaire, permettant aux élèves de s'exercer dans un environnement familier et d'éviter les contraintes liés à l'étude de terrain.
+- **Phase 3 : Analyse et recommandations** — La troisième et dernière phase du projet vise à transformer les observations et analyses en actions concrètes. Les élèves synthétiseront leurs découvertes des phases précédentes pour développer des recommandations pratiques et innovantes concernant l'optimisation de l'éclairage urbain. Cette phase cruciale permet de passer de la théorie à la pratique en proposant des solutions adaptées au contexte local, tout en sensibilisant les acteurs du territoire aux enjeux de l'éclairage intelligent. À travers l'analyse des données collectées, l'élaboration de recommandations et la possibilité de prototyper des solutions, les élèves deviennent de véritables acteurs du changement dans leur communauté.
 
 Le protocole peut être entièrement réalisé en deux à trois séquences. Vous pouvez décider de réaliser uniquement l'étape 1 (environ 30 minutes à 1 heure), les étapes 1 et 2 (1 séquence en salle + 1 visite sur site), ou les étapes complètes (une séquence supplémentaire pour conclure et proposer des recommandations).
 
@@ -104,7 +104,12 @@ Dans cette phase initiale, nous explorons comment les politiques publiques actue
 
 Pour étudier notre hypothèse sur l'optimisation de l'éclairage urbain, nous explorerons plusieurs concepts clés qui résonnent directement avec notre problématique :
 
-La pollution lumineuse est au cœur de notre étude. Elle englobe l'éblouissement, la luminescence du ciel nocturne, et la lumière intrusive. Ces phénomènes sont directement liés à notre hypothèse car ils représentent les conséquences négatives d'un éclairage mal optimisé. En comprenant ces aspects, nous pourrons mieux évaluer l'impact de l'éclairage actuel et proposer des solutions pour le réduire. L'intégration de la lumière naturelle est un concept crucial pour notre hypothèse. Elle implique l'utilisation de systèmes de contrôle adaptatifs, de matériaux réfléchissants, et de conceptions architecturales spécifiques. Ces éléments sont essentiels pour maximiser l'utilisation de la lumière naturelle et réduire la dépendance à l'éclairage artificiel, ce qui est au cœur de notre hypothèse d'optimisation. L'efficacité énergétique est un autre concept clé. Elle englobe les technologies basse consommation, la gestion intelligente, les systèmes de gradation, les détecteurs de présence, et les LED avancées. Ces technologies sont directement liées à notre hypothèse car elles offrent des moyens concrets d'optimiser l'utilisation de la lumière tout en réduisant la consommation d'énergie. Enfin, le cadre réglementaire, comprenant les normes techniques, les recommandations internationales, et les politiques locales, est essentiel à notre étude. Il nous permettra de comprendre les contraintes légales et les opportunités d'amélioration dans l'optimisation de l'éclairage urbain, aspect crucial pour valider notre hypothèse et proposer des solutions réalisables. Cette approche multidimensionnelle, combinant l'étude de la pollution lumineuse, l'intégration de la lumière naturelle, l'efficacité énergétique et le cadre réglementaire, nous permettra d'évaluer de manière approfondie notre hypothèse sur l'optimisation de l'éclairage urbain dans les centres-villes et zones commerçantes.
+- **Pollution lumineuse** — Elle englobe l'éblouissement, la luminescence du ciel nocturne, et la lumière intrusive. Ces phénomènes représentent les conséquences négatives d'un éclairage mal optimisé. En les comprenant, nous pourrons mieux évaluer l'impact de l'éclairage actuel et proposer des solutions pour le réduire.
+- **Intégration de la lumière naturelle** — Elle implique l'utilisation de systèmes de contrôle adaptatifs, de matériaux réfléchissants et de conceptions architecturales spécifiques. Ces éléments sont essentiels pour maximiser l'utilisation de la lumière naturelle et réduire la dépendance à l'éclairage artificiel.
+- **Efficacité énergétique** — Elle englobe les technologies basse consommation, la gestion intelligente, les systèmes de gradation, les détecteurs de présence et les LED avancées. Ces technologies offrent des moyens concrets d'optimiser l'utilisation de la lumière tout en réduisant la consommation d'énergie.
+- **Cadre réglementaire** — Comprenant les normes techniques, les recommandations internationales et les politiques locales, il nous permettra de comprendre les contraintes légales et les opportunités d'amélioration.
+
+Cette approche multidimensionnelle nous permettra d'évaluer de manière approfondie notre hypothèse sur l'optimisation de l'éclairage urbain dans les centres-villes et zones commerçantes.
 
 ### Investigation par les élèves
 
@@ -118,7 +123,7 @@ Ces ressources peuvent inclure des documents municipaux, des rapports d'urbanism
 
 Toujours en groupe, les élèves analyseront des études de cas réelles d'initiatives d'éclairage urbain innovantes et de plans lumière. Ils exploreront des solutions telles que les systèmes de gestion centralisée de l'éclairage, les capteurs de luminosité et de présence, et les LED à intensité variable, illustrés dans de vrais agglomérations.
 
-L'enseignant fournira une grille d'analyse structurée pour guider leur réflexion (cf. annexe).
+L'enseignant fournira une grille d'analyse structurée pour guider leur réflexion (modèle imprimable disponible dans le PDF).
 
 Voici quelques exemples d'initiatives qui peuvent être proposées aux élèves pour étude :
 
@@ -128,7 +133,7 @@ Voici quelques exemples d'initiatives qui peuvent être proposées aux élèves 
 
 Chaque groupe présentera son analyse à la classe, en mettant en évidence les leçons apprises et leur applicabilité potentielle à leur propre contexte urbain. Ils présenteront leurs trouvailles sous forme de courtes présentations de 5 minutes à la classe, sous forme de poster ou de présentation (sur Canva, PowerPoint, Prezi, Animaker ...), en incluant des démonstrations virtuelles. L'enseignant guidera une discussion de classe pour synthétiser les informations recueillies, identifier les meilleures pratiques technologiques qui pourraient être appliquées localement, et réfléchir aux implications de ces technologies en termes d'efficacité énergétique, de coût et de durabilité.
 
-Pour vous aider, une présentation de quelques outils graphiques qui pourraient permettre aux élèves de créer une présentation attrayante avec un effort réduit est disponible dans la section aller plus loin de ce protocole.
+Pour vous aider, une présentation de quelques **outils graphiques** permettant aux élèves de créer une présentation attrayante avec un effort réduit est disponible dans la section [Outils numériques de conception et de création](#outils-numériques-de-conception-et-de-création).
 
 #### Simulation d'une ville et résolution de problèmes
 
@@ -173,7 +178,11 @@ En s'appuyant sur les conclusions de la phase initiale d'étude documentaire, ce
 
 L'hypothèse que nous souhaitons explorer est simple : l'éclairage artificiel dans nos centres-villes n'est pas toujours adapté aux usages, ce qui entraîne du gaspillage énergétique et de l'inconfort.
 
-Pour vérifier cette hypothèse, les élèves développeront une méthodologie d'investigation approfondie qui les initiera aux concepts clés de la recherche scientifique : variables dépendantes et indépendantes, contrôle des paramètres, reproductibilité des mesures. Cette approche commence par la collecte de données objectives, utilisant des instruments de mesure précis comme les luxmètres pour quantifier l'intensité lumineuse à différents moments de la journée et sous diverses conditions météorologiques. Ces mesures seront complétées par une analyse détaillée des consommations énergétiques, obtenue grâce à l'étude des relevés de compteurs et des factures d'électricité des commerces et de l'éclairage public. Parallèlement, une dimension qualitative sera explorée à travers des entretiens approfondis avec les différents acteurs du territoire, introduisant les élèves aux méthodes de recherche en sciences sociales.
+Pour vérifier cette hypothèse, les élèves développeront une méthodologie d'investigation approfondie qui les initiera aux concepts clés de la recherche scientifique : variables dépendantes et indépendantes, contrôle des paramètres, reproductibilité des mesures.
+
+Cette approche commence par la **collecte de données objectives**, utilisant des instruments de mesure précis comme les luxmètres pour quantifier l'intensité lumineuse à différents moments de la journée et sous diverses conditions météorologiques. Ces mesures seront complétées par une **analyse détaillée des consommations énergétiques**, obtenue grâce à l'étude des relevés de compteurs et des factures d'électricité des commerces et de l'éclairage public.
+
+Parallèlement, une **dimension qualitative** sera explorée à travers des entretiens approfondis avec les différents acteurs du territoire, introduisant les élèves aux méthodes de recherche en sciences sociales.
 
 #### Concepts clés
 
@@ -189,29 +198,21 @@ Suite à la phase d'étude documentaire et réglementaire, aux analyses de cas e
 
 Les élèves concevront un protocole d'étude de l'éclairage combinant observations visuelles et retours qualitatifs. Ce protocole pourra intégrer l'observation de la présence de systèmes d'éclairage intelligents (détecteurs de mouvement, minuteries), de LED, et de systèmes de contrôle de la luminosité, la luminosité perçue et l'ambiance générale à différents moments de la journée et dans diverses conditions météorologiques, les modalités d'éclairage public et celles utilisés par les commerçants.
 
-Les élèves développeront des fiches d'observation pour noter leurs constats sur l'éclairage et les technologies utilisées, et évaluer les sources lumineuses. Ils créeront également des questionnaires pour recueillir les retours des usagers. Ces outils sont disponibles ci-dessous à titre d'exemples et en annexe pour impression.
+Les élèves développeront des **fiches d'observation** pour noter leurs constats sur l'éclairage et les technologies utilisées, et évaluer les sources lumineuses. Ils créeront également des **questionnaires** pour recueillir les retours des usagers. Les axes à couvrir sont les suivants.
 
-#### Formulaire d'observation — éclairage urbain
+**Formulaire d'observation — éclairage urbain**
 
-Groupe : Date :
+- **Inventaire des éclairages** : type de luminaire, nombre de dispositifs, état visible (bon, moyen, mauvais), hauteur estimée.
+- **Zones d'illumination** : zones surexposées, mal éclairées ou correctement éclairées, avec leurs causes (trop de lumières, éblouissement, ombres, lumière homogène).
+- **Emploi de la lumière naturelle** : surfaces réfléchissantes (miroirs, murs éclairés), obstacles (arbres, bâtiments), réflexions sur l'utilisation possible.
+- **Avis des utilisateurs** : interroger 2 à 3 personnes (trop éclatant / trop sombre / juste ce qu'il faut) + commentaires additionnels.
+- **Éclairage de vente** : éclairage de présentation des boutiques, panneaux publicitaires éclairés, impact sur l'éclairage public.
 
-Emplacement : Heure :
+**Questionnaire de perception — éclairage urbain**
 
-- **Inventaire des éclairages** — Type de luminaire / Nombre de dispositifs d'éclairage à cet endroit / État visible (bon, moyen, mauvais) / Hauteur des éclairages (estimation en mètres).
-- **Zones d'illumination** — Zones surexposées (trop lumineuses) / Zones mal éclairées (trop sombres) / Zones correctement éclairées. Qu'est-ce qui rend la zone excessivement lumineuse ? (trop de lumières, éblouissement intense) / Qu'est-ce qui engendre l'obscurité ? (peu de lumières, ombres) / Pourquoi la zone est-elle bien éclairée ? (lumière homogène, sans éblouissement).
-- **Emploi de la lumière naturelle** — Surfaces réfléchissantes (des miroirs, murs éclairés) / Obstacles (par exemple, arbres, bâtiments). Vos réflexions sur l'utilisation de la lumière naturelle.
-- **Avis des utilisateurs** — (Interrogez 2 à 3 personnes et enregistrez leurs impressions) Pensent-ils que l'éclairage est : Trop éclatant / Trop sombre / Juste ce qu'il faut. Commentaires additionnels des utilisateurs.
-- **Éclairage de vente** (Observez l'éclairage utilisé par les boutiques ou les annonces) — Éclairage de présentation (décrire la catégorie et l'intensité lumineuse) / Existe-t-il des panneaux publicitaires éclairés ? / L'éclairage commercial a-t-il un impact sur l'éclairage public et, le cas échéant, de quelle manière ? (par exemple, génère de l'éclat, augmente la clarté). Observations additionnelles.
-
-#### Questionnaire de perception — éclairage urbain
-
-Groupe : Date :
-
-Emplacement : Heure :
-
-- **Questions destinées aux commerçants** — Comment évalueriez-vous l'éclairage présent de votre vitrine ? Quelles sont vos heures d'éclairage ? Utilisez-vous des systèmes d'éclairage automatisés ou intelligents ? Si tel est le cas, lesquels ? Quel est l'impact de l'éclairage sur votre facture d'énergie ? Avez-vous obtenu des retours de clients au sujet de l'éclairage de votre magasin ?
-- **Questions pour les piétons** — Comment évaluez-vous l'éclairage dans cette zone ? (Trop sombre / Suffisant / Trop lumineux) Vous sentez-vous en sécurité avec l'éclairage actuel ? L'éclairage de la façade vous paraît-il adéquat ? Remarquez-vous des zones particulièrement peu éclairées ? L'éclairage vous dérange-t-il (éblouissement, reflets) ?
-- **Questions à poser à la municipalité** — Quelles sont les politiques en vigueur concernant l'éclairage urbain ? Y a-t-il un projet de modernisation de l'éclairage public ? Quels sont les coûts énergétiques associés à l'éclairage public dans cette zone ? Avez-vous reçu des réclamations concernant l'éclairage dans ce secteur ? Quelles initiatives sont mises en œuvre pour optimiser la consommation énergétique ?
+- **Pour les commerçants** : évaluation de l'éclairage de la vitrine, heures d'éclairage, présence de systèmes automatisés/intelligents, impact sur la facture d'énergie, retours des clients.
+- **Pour les piétons** : évaluation de l'éclairage de la zone (trop sombre / suffisant / trop lumineux), sentiment de sécurité, adéquation de l'éclairage des façades, zones peu éclairées, gêne (éblouissement, reflets).
+- **Pour la municipalité** : politiques en vigueur, projets de modernisation, coûts énergétiques associés, réclamations reçues, initiatives d'optimisation.
 
 Une fois la méthode et les outils définis, l'enseignant organisera une sortie de terrain dans une rue commerçante ou un quartier central de la ville afin d'illustrer les problématiques découvertes lors de la phase d'analyse documentaire et de remplir les différents éléments quantifiables et qualifiables autour de la problématique. Vous pouvez coupler la fiche d'observation avec un outil de cartographie pour créer une visualisation des points étudiés sur une carte (comme sur uMap). Les élèves peuvent noter les emplacements des points de lumières, zones d'éclairage, lampadaires, panneaux réfléchissants ou publicitaires ... sur papier et prendre une photo de chaque éléments d'intérêt. Ils identifieront les zones qui semblent sur-éclairées, sous-éclairées ou inadaptées aux usages, en se basant sur leurs observations visuelles et sur les retours des usagers qu'ils interrogeront brièvement.
 
@@ -349,47 +350,10 @@ Pour conclure l'ensemble du protocole et ouvrir sur d'autres perspectives, les e
 
 ## Annexes
 
-### Formulaire d'observation : Éclairage urbain
-
-Groupe : Date :
-
-Emplacement : Heure :
-
-- **Inventaire des éclairages** — Type de luminaire / Nombre de dispositifs d'éclairage à cet endroit. État visible (bon, moyen, mauvais) / Hauteur des éclairages (estimation en mètres).
-- **Zones d'illumination** — Zones surexposées (trop lumineuses) / Zones mal éclairées (trop sombres) / Zones correctement éclairées. Qu'est-ce qui rend la zone excessivement lumineuse ? (trop de lumières, éblouissement intense) / Qu'est-ce qui engendre l'obscurité ? (peu de lumières, ombres) / Pourquoi la zone est-elle bien éclairée ? (lumière homogène, sans éblouissement).
-- **Emploi de la lumière naturelle** — Surfaces réfléchissantes (des miroirs, murs éclairés) / Obstacles (par exemple, arbres, bâtiments). Vos réflexions sur l'utilisation de la lumière naturelle.
-- **Avis des utilisateurs** — (Interrogez 2 à 3 personnes et enregistrez leurs impressions) Pensent-ils que l'éclairage est : Trop éclatant / Trop sombre / Juste ce qu'il faut. Commentaires additionnels des utilisateurs.
-- **Éclairage de vente** (Observez l'éclairage utilisé par les boutiques ou les annonces) — Éclairage de présentation (décrire la catégorie et l'intensité lumineuse) / Existe-t-il des panneaux publicitaires éclairés ? / L'éclairage commercial a-t-il un impact sur l'éclairage public et, le cas échéant, de quelle manière ? (par exemple, génère de l'éclat, augmente la clarté). Observations additionnelles.
-
-### Questionnaires de perception de l'éclairage urbain
-
-Groupe : Date :
-
-Emplacement : Heure :
-
-#### Questions destinées aux commerçants
-
-- Comment évalueriez-vous l'éclairage présent de votre vitrine ?
-- Quelles sont vos heures d'éclairage ?
-- Utilisez-vous des systèmes d'éclairage automatisés ou intelligents ? Si tel est le cas, lesquels ?
-- Quel est l'impact de l'éclairage sur votre facture d'énergie ?
-- Avez-vous obtenu des retours de clients au sujet de l'éclairage de votre magasin ?
-
-#### Questions pour les piétons
-
-- Comment évaluez-vous l'éclairage dans cette zone ? (Trop sombre / Suffisant / Trop lumineux)
-- Vous sentez-vous en sécurité avec l'éclairage actuel ?
-- L'éclairage de la façade vous paraît-il adéquat ?
-- Remarquez-vous des zones particulièrement peu éclairées ?
-- L'éclairage vous dérange-t-il (éblouissement, reflets) ?
-
-#### Questions à poser à la municipalité
-
-- Quelles sont les politiques en vigueur concernant l'éclairage urbain ?
-- Y a-t-il un projet de modernisation de l'éclairage public ?
-- Quels sont les coûts énergétiques associés à l'éclairage public dans cette zone ?
-- Avez-vous reçu des réclamations concernant l'éclairage dans ce secteur ?
-- Quelles initiatives sont mises en œuvre pour optimiser la consommation énergétique ?
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Formulaire d'observation « Éclairage urbain » prêt à imprimer (champs Groupe / Date / Emplacement / Heure + grilles d'inventaire, zones d'illumination, lumière naturelle, avis des utilisateurs et éclairage de vente).
+- Questionnaires de perception prêts à imprimer (questions pour commerçants, piétons et municipalité).
+:::
 
 ---
 
