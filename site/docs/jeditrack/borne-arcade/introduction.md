@@ -11,15 +11,15 @@ sidebar_position: 1
 
 # Histoire et culture des bornes d'arcade
 
+## Petit historique des bornes d'arcade
+
+Une borne d'arcade est un dispositif autonome qui permet de jouer à des jeux vidéo. Elle est généralement équipée d'un écran, d'un système de contrôle (joysticks et boutons) et d'une unité centrale qui exécute le jeu. Les bornes peuvent varier en taille et en forme, mais toutes partagent ces composantes de base.
+
 </div>
 
 <img src="/img/ressources/jeditrack/borne-arcade/icone.png" alt="Histoire et culture des bornes d'arcade" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
-
-## Petit historique des bornes d'arcade
-
-Une borne d'arcade est un dispositif autonome qui permet de jouer à des jeux vidéo. Elle est généralement équipée d'un écran, d'un système de contrôle (joysticks et boutons) et d'une unité centrale qui exécute le jeu. Les bornes peuvent varier en taille et en forme, mais toutes partagent ces composantes de base.
 
 ![Borne d'arcade](/img/ressources/jeditrack/borne-arcade/Petit_historique_des__photo-1511882150382-421056c89033.avif)
 
