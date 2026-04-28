@@ -33,6 +33,8 @@ sidebar_position: 1
 
 </div>
 
+<img src="/img/ressources/inovmicro-exao/decouverte-steami/icone.png" alt="Découvrir la carte STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---
@@ -44,6 +46,8 @@ La **STeaMi** est une carte électronique éducative conçue en France pour l'ap
 Cette fiche propose une première prise en main de la carte : découverte du hardware, premiers programmes et exploration des possibilités.
 
 Pour aller plus loin, consultez la [documentation officielle](https://wiki.steami.cc/).
+
+<img src="/img/ressources/inovmicro-exao/decouverte-steami/16159881_5700395_edited.png" alt="Carte STeaMi" style={{width: '70%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
 ## Objectifs d'apprentissage
 
@@ -67,6 +71,17 @@ La STeaMi est bâtie autour d'un **microcontrôleur STM32WB55RG** (Cortex-M4 à 
 
 La carte embarque aussi une batterie LiPo rechargeable de 1600 mAh offrant une autonomie confortable pour les projets nomades.
 
+<div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem'}}>
+  <figure style={{flex: '1 1 300px', margin: 0}}>
+    <img src="/img/ressources/inovmicro-exao/decouverte-steami/steami-front.png" alt="STeaMi face avant" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0, textAlign: 'center'}}>Face avant</figcaption>
+  </figure>
+  <figure style={{flex: '1 1 300px', margin: 0}}>
+    <img src="/img/ressources/inovmicro-exao/decouverte-steami/steami-back.png" alt="STeaMi face arrière" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0, textAlign: 'center'}}>Face arrière</figcaption>
+  </figure>
+</div>
+
 ### Les 7 capteurs internes
 
 La STeaMi intègre nativement plusieurs capteurs qui permettent une grande variété d'expérimentations sans matériel externe :
@@ -78,6 +93,11 @@ La STeaMi intègre nativement plusieurs capteurs qui permettent une grande vari�
 - **Capteur d'humidité** : mesure du taux d'humidité relative
 - **Capteur de pression** : mesure de la pression atmosphérique (altimètre)
 - **Capteur de luminosité** : mesure de l'intensité lumineuse
+
+<figure style={{margin: '1rem 0'}}>
+  <img src="/img/ressources/inovmicro-exao/decouverte-steami/block-diagram-4b6b854ea5393525647af2f27d97ee4c.svg" alt="Diagramme bloc de la STeaMi" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0, textAlign: 'center'}}>Diagramme fonctionnel de la STeaMi</figcaption>
+</figure>
 
 ### L'écran OLED 128×128
 
