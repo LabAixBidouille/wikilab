@@ -78,6 +78,11 @@ Il existe deux versions du DHT11/DHT22 :
    - **GND (−)** sur GND
    - **Data (OUT)** sur une broche GPIO de la Micro:bit
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-insulation/assemblage.png" alt="Câblage du capteur DHT" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Câblage du capteur DHT à la Micro:bit</figcaption>
+</figure>
+
 ---
 
 ## Étape 2 : Programmer la Micro:bit
@@ -130,6 +135,16 @@ input.onButtonPressed(Button.A, function () {
 basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-insulation/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+</figure>
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-insulation/code2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+</figure>
 
 ### Comment cela fonctionne ?
 

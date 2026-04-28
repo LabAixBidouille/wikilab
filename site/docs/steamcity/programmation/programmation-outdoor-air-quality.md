@@ -70,6 +70,11 @@ Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Ardu
 - Écran LCD → port I2C
 - Module Openlog (carte SD) → port numérique (D2–D8 pour Arduino, P0 pour micro:bit)
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/cov.png" alt="Capteur COV MICS6814" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Montage avec capteur COV MICS6814 et écran LCD</figcaption>
+</figure>
+
 **Code**
 
 ```python
@@ -87,6 +92,17 @@ while True:
     lcd.writeTxt(str(multichannel_v2.calcVol(multichannel_v2.measure_VOC())))
 ```
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/microbit.png" alt="Vue blocs micro:bit" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Programme — vue blocs micro:bit</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/arduino.png" alt="Vue blocs Arduino" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Programme — vue blocs Arduino</figcaption>
+  </figure>
+</div>
+
 ---
 
 ## Fiche 2 : Collecte multi-capteurs
@@ -101,6 +117,17 @@ Même plateforme (Vittascience). On ajoute le capteur HM3301 (particules fines) 
 - Openlog → port numérique
 
 Les boutons **A** et **B** permettent de sélectionner la mesure à afficher (COV, PM10, température).
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/assemblagemicrobit.png" alt="Assemblage multi-capteurs micro:bit" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Assemblage multi-capteurs — micro:bit</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/assemblagearduino.png" alt="Assemblage multi-capteurs Arduino" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Assemblage multi-capteurs — Arduino</figcaption>
+  </figure>
+</div>
 
 **Code**
 

@@ -903,6 +903,11 @@ Vous trouverez ci-dessous des exemples d'images thermiques réelles. Elles illus
 
 **Points froids dans une pièce :** Cette image thermique d'une pièce révèle des zones froides, autour de 15 °C, le long des angles du plafond, et des zones plus chaudes, proches de 19 °C, à proximité du mobilier. Cette répartition suggère un chauffage inégal, possiblement lié à une isolation partielle ou inefficace. Point clé : L'analyse de ces variations permet d'identifier les endroits où une isolation complémentaire ou une ventilation mieux répartie pourrait être envisagée.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/insulation/camera%20thermique.png" alt="Exemples d'images thermiques" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemples d'images thermiques : radiateur, fenêtres, ponts thermiques et points froids</figcaption>
+</figure>
+
 ### Guide pratique : Utilisation de l'Infiray P2 Pro pour l'analyse thermique
 
 L'Infiray P2 Pro est une caméra thermique compacte conçue pour les smartphones Android. Son interface simple et sa portabilité en font un outil adapté aux activités pédagogiques portant sur l'isolation thermique et l'efficacité énergétique. Vous trouverez ci-dessous un guide détaillé pour en faire un usage efficace dans le cadre d'analyses thermiques.

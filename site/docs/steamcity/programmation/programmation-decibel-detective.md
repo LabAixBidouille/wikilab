@@ -79,6 +79,11 @@ Organisez les blocs en suivant le code ci-dessous (boucle infinie, enregistremen
 
 Cliquez sur **Télécharger** pour générer un fichier `.hex`, puis copiez-le sur le lecteur amovible **MICROBIT**. La carte redémarre automatiquement et exécute le code.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode1.png" alt="Programmation MakeCode - Étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programmation de la Micro:bit dans MakeCode</figcaption>
+</figure>
+
 ---
 
 ## Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
@@ -94,6 +99,11 @@ Une fois en place, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 À la fin de la période de collecte, récupérez le fichier **MY_DATA.HTM** sur le lecteur micro:bit. Copiez-le sur l'ordinateur et renommez-le avec la date du jour (ex. : `LOCATIONNAME_YYYY_MM_DD.HTM`).
 
 Supprimez ensuite le fichier MY_DATA.HTM de la carte pour libérer l'espace. Le fichier HTML contient toutes les données collectées et permet de les exporter au format `.csv`.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode3.png" alt="Récupération des données" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Récupération des données depuis la Micro:bit</figcaption>
+</figure>
 
 ---
 
@@ -114,6 +124,11 @@ input.onButtonPressed(Button.A, function () {
 basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode2.png" alt="Programme MakeCode - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme complet — vue JavaScript</figcaption>
+</figure>
 
 ### Comment cela fonctionne ?
 

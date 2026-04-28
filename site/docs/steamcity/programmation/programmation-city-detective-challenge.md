@@ -60,15 +60,30 @@ Dans le cadre du projet, une carte prête à l'emploi est mise à disposition. E
 
 Ouvrez un navigateur web et allez sur le site uMap. Depuis cet espace, vous pouvez consulter toutes les cartes disponibles et rechercher celle du projet **« City Detective Challenge »** pour y accéder et y contribuer.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-city-detective-challenge/umap1.png" alt="Page d'accueil uMap" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Page d'accueil uMap</figcaption>
+</figure>
+
 ### Étape 2 : Découvrir les couches
 
 Toutes les couches ont été construites à partir du jeu introductif. **Ne pas ajouter ni modifier** les couches existantes — la carte est utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques (ex. : pointeur bleu avec icône médicament pour le département de la santé).
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-city-detective-challenge/umap2.png" alt="Découvrir les couches uMap" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Vue des couches sur la carte uMap</figcaption>
+</figure>
 
 ### Étape 3 : Éditer la carte
 
 Pour enregistrer un nouveau lieu, cliquez sur **éditer**. Recherchez l'emplacement via l'outil de recherche (ou coordonnées GPS), puis cliquez sur l'icône du pointeur. Placez-le sur le bon emplacement : une fenêtre de propriétés s'ouvre.
 
 Choisissez la couche appropriée (ex. : *Service de la mobilité et des transports*), nommez l'emplacement et ajoutez une description.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-city-detective-challenge/umap3.png" alt="Éditer la carte uMap" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Édition d'un nouveau point sur la carte</figcaption>
+</figure>
 
 **Ajouter une image** : collez l'URL entre deux accolades. Pour obtenir une URL d'image, utilisez :
 
