@@ -36,13 +36,9 @@ Dépose dans `site/static/img/ressources/thedexterlab/icones/<fiche-id>.png` (pu
 - `programmation-temperature-vitesse-son` — Son et température STM32
 - `programmation-temps-reaction-demi-seconde` — Temps de réaction STM32
 
-## 📐 Schémas SteamCity manquants (3)
+## 📐 Schémas SteamCity
 
-Dépose dans `site/static/img/ressources/steamcity/<fiche-id>/StructureSchéma.png` :
-
-- `energy-mix` — Simulateur de mix énergétique
-- `energy-perspectives` — Énergies en perspective
-- `negawatt` — Scénario NégaWatt
+Toutes les fiches concernées ont leur schéma. Les fiches énergie (`energy-mix`, `energy-perspectives`, `negawatt`) n'ont pas de schéma de protocole — c'est OK.
 
 ## 📷 Dossiers sans illustration (8)
 
@@ -70,4 +66,4 @@ Dossiers qui ne contiennent que l'icône — à compléter avec des illustration
 
 ---
 
-**Totaux** : 22 icônes · 3 schémas · 8 dossiers à illustrer
+**Totaux** : 22 icônes · 0 schéma manquant · 8 dossiers à illustrer
