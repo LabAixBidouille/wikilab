@@ -96,6 +96,11 @@ Dans MakeCode, créez un nouveau projet. Cliquez sur **EXTENSIONS** et ajoutez :
 
 Cliquez sur **Télécharger** pour générer le fichier `.hex`, puis copiez-le sur le lecteur **MICROBIT**. La carte redémarre et exécute le programme.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-insulation/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+</figure>
+
 ---
 
 ## Étape 3 : Placer la Micro:bit et démarrer l'enregistrement
@@ -135,11 +140,6 @@ input.onButtonPressed(Button.A, function () {
 basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
-
-<figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-insulation/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
-</figure>
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-insulation/code2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />

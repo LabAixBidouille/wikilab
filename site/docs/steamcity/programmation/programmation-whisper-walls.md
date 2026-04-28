@@ -77,6 +77,10 @@ forever(function() {
 
 ## Fiche 2 : Afficher les données sur un écran LCD
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
+
+<div style={{flex: '1 1 300px'}}>
+
 **Câbler l'écran LCD (I2C)** :
 
 - Noir : GND
@@ -87,6 +91,15 @@ forever(function() {
 **Ressources sur les bus** : [I2C](https://fr.wikipedia.org/wiki/I2C), [SPI](https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface), [Qwiic](https://www.sparkfun.com/qwiic), [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemmaqt/what-is-stemma-qt).
 
 **Installer l'extension** : cliquez sur **AVANCÉ** puis **EXTENSIONS** et ajoutez l'extension **lcd_i2c**.
+
+</div>
+
+<figure style={{flex: '0 0 280px', maxWidth: '280px', margin: 0, textAlign: 'center', alignSelf: 'flex-start'}}>
+  <img src="/img/ressources/steamcity/programmation-whisper-walls/%C3%A9cran.png" alt="Écran LCD I2C avec mesure d'intensité sonore" style={{width: '100%', height: 'auto'}} />
+  <figcaption style={{margin: 0}}>Écran LCD affichant l'intensité sonore mesurée</figcaption>
+</figure>
+
+</div>
 
 **Code**
 

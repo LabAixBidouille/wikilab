@@ -68,6 +68,11 @@ Branchez la carte via le câble micro-USB ; elle apparaît comme un lecteur « M
 
 Copiez-collez le code ci-dessous (ou organisez les blocs) puis testez dans le simulateur. Cliquez sur **Télécharger** pour générer le `.hex` et copiez-le sur le lecteur **MICROBIT**.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/lumierebruittemperature/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+</figure>
+
 ### Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
 
 Placez la carte près du lit, dans une zone dégagée. Alimentez-la par ordinateur ou batterie externe. Positionnez-la chaque nuit au même endroit pour obtenir des données comparables. Avant de vous coucher, appuyez sur **A**.
@@ -75,6 +80,11 @@ Placez la carte près du lit, dans une zone dégagée. Alimentez-la par ordinate
 ### Étape 3 : Récupérer les données
 
 Débranchez la carte le matin, connectez-la à l'ordinateur et copiez le fichier **MY_DATA.HTM**. Renommez-le avec la date (ex. `BOARD1_NAME_YYYY-MM-DD.HTM`) puis supprimez l'original de la carte.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/lumierebruittemperature/code3.png" alt="Données collectées dans le datalogger" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Données collectées dans le datalogger</figcaption>
+</figure>
 
 ### Code
 
@@ -96,6 +106,11 @@ basic.showIcon(IconNames.No)
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/lumierebruittemperature/code2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+</figure>
+
 ### Comment cela fonctionne ?
 
 Le programme mesure toutes les minutes la température, la luminosité et le niveau sonore, et compile les informations dans un datalogger.
@@ -114,9 +129,27 @@ Un fichier `.csv` se lit dans Excel ou LibreOffice Calc via l'assistant d'import
 
 ## Fiche 2 : Mesurer les mouvements (accéléromètre)
 
-### Matériel et câblage
+### Étape 1 : Programmer la carte
 
-Identiques à la Fiche 1. Seul le programme change : on remplace les capteurs environnementaux par l'accéléromètre intégré.
+Identique à la Fiche 1 : connexion via micro-USB, ajout de l'extension **Datalogger** dans MakeCode, copier-coller du code ci-dessous, puis téléchargement du `.hex` sur le lecteur **MICROBIT**. Seul le programme change — on remplace les capteurs environnementaux par l'accéléromètre intégré.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code1.png" alt="Programme accéléromètre - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+</figure>
+
+### Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
+
+Placez la carte près du lit ou directement sur le brassard (voir bonus ci-dessous). Avant de vous coucher, appuyez sur **A**.
+
+### Étape 3 : Récupérer les données
+
+Débranchez la carte au matin, copiez le fichier **MY_DATA.HTM** sur l'ordinateur, renommez-le et supprimez l'original sur la carte pour libérer l'espace.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code3.png" alt="Données accéléromètre dans le datalogger" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Données collectées dans le datalogger</figcaption>
+</figure>
 
 ### Code
 
@@ -138,6 +171,11 @@ input.onButtonPressed(Button.A, function () {
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Seconds)
 basic.showIcon(IconNames.No)
 ```
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code2.png" alt="Programme accéléromètre - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+</figure>
 
 ### Comment cela fonctionne ?
 

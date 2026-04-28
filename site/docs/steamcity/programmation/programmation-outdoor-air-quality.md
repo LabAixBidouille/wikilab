@@ -70,10 +70,16 @@ Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Ardu
 - Écran LCD → port I2C
 - Module Openlog (carte SD) → port numérique (D2–D8 pour Arduino, P0 pour micro:bit)
 
-<figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/cov.png" alt="Capteur COV MICS6814" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Montage avec capteur COV MICS6814 et écran LCD</figcaption>
-</figure>
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/microbit.png" alt="Assemblage COV micro:bit" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Assemblage — micro:bit</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/arduino.png" alt="Assemblage COV Arduino" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Assemblage — Arduino</figcaption>
+  </figure>
+</div>
 
 **Code**
 
@@ -92,16 +98,10 @@ while True:
     lcd.writeTxt(str(multichannel_v2.calcVol(multichannel_v2.measure_VOC())))
 ```
 
-<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
-  <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/microbit.png" alt="Vue blocs micro:bit" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Programme — vue blocs micro:bit</figcaption>
-  </figure>
-  <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/arduino.png" alt="Vue blocs Arduino" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Programme — vue blocs Arduino</figcaption>
-  </figure>
-</div>
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/cov.png" alt="Programme COV - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme COV — vue blocs</figcaption>
+</figure>
 
 ---
 
@@ -161,6 +161,11 @@ while True:
         lcd.writeTxt(str(dht11_0.getData(d=1)*9/5 + 32))
 ```
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/code.png" alt="Programme multi-capteurs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme multi-capteurs — vue blocs</figcaption>
+</figure>
+
 ---
 
 ## Fiche 3 : Enregistrement automatisé sur carte SD
@@ -181,6 +186,11 @@ while True:
     uart.init(baudrate=4800, bits=8, parity=None, tx=pin0, rx=pin14)
     uart.write(('{}' * 3).format(hm3301.getData(3), ';', multichannel_v2.calcVol(multichannel_v2.measure_NO2())) + '\n')
 ```
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cartesd/code.png" alt="Programme enregistrement carte SD" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme d'enregistrement vers la carte SD — vue blocs</figcaption>
+</figure>
 
 ---
 

@@ -70,9 +70,21 @@ Deux options de collecte :
 
 Connectez la carte à l'ordinateur via le câble micro-USB. Elle apparaîtra comme un disque amovible (« MICROBIT »).
 
-Ouvrez MakeCode et créez un nouveau projet. Cliquez sur **EXTENSIONS** et installez l'extension **Datalogger**. Organisez les blocs en suivant le code fourni ci-dessous, ou copiez-collez-le dans l'éditeur JavaScript. Testez dans le simulateur MakeCode.
+Ouvrez MakeCode et créez un nouveau projet. Cliquez sur **EXTENSIONS** et installez l'extension **Datalogger**.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-sound-squad/makecode0extension.png" alt="Installation extension Datalogger" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Installation de l'extension Datalogger</figcaption>
+</figure>
+
+Organisez les blocs en suivant le code fourni ci-dessous, ou copiez-collez-le dans l'éditeur JavaScript. Testez dans le simulateur MakeCode.
 
 Cliquez sur **Télécharger** pour générer un fichier `.hex`, copiez-le sur le lecteur **MICROBIT**. La carte redémarre automatiquement et exécute le code.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-sound-squad/makecode1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+</figure>
 
 ---
 
@@ -87,6 +99,11 @@ Appuyez sur le bouton **A** pour démarrer l'enregistrement.
 ## Étape 3 : Récupération des données
 
 À la fin de la collecte, récupérez le fichier **MY_DATA.HTM** sur le lecteur micro:bit. Copiez-le sur votre ordinateur, renommez-le (ex. : `LOCATIONNAME_YYYY_MM_DD.HTM`) et supprimez l'original de la carte pour libérer l'espace. Le fichier HTML permet de télécharger les données au format `.csv`.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-sound-squad/makecode3.png" alt="Données collectées dans le datalogger" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Données collectées dans le datalogger</figcaption>
+</figure>
 
 ---
 
@@ -108,6 +125,11 @@ basic.showIcon(IconNames.No)
 
 datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 ```
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/programmation-sound-squad/makecode2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme complet — vue JavaScript</figcaption>
+</figure>
 
 ### Comment cela fonctionne ?
 

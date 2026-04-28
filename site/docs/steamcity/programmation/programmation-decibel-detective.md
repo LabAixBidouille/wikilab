@@ -101,7 +101,7 @@ Une fois en place, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 Supprimez ensuite le fichier MY_DATA.HTM de la carte pour libérer l'espace. Le fichier HTML contient toutes les données collectées et permet de les exporter au format `.csv`.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode3.png" alt="Récupération des données" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode3.png" alt="Données collectées dans le datalogger" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Récupération des données depuis la Micro:bit</figcaption>
 </figure>
 
