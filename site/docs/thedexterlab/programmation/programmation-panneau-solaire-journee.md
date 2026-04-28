@@ -37,6 +37,8 @@ sidebar_position: 3
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-journee/icone.svg" alt="Suivi panneau solaire STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

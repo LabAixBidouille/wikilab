@@ -39,6 +39,8 @@ sidebar_position: 4
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/icone.svg" alt="Panneau solaire orientable STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

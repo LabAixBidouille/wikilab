@@ -37,6 +37,8 @@ sidebar_position: 11
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/icone.svg" alt="Test de distraction STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

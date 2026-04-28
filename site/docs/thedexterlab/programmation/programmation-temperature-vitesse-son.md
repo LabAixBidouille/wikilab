@@ -34,6 +34,8 @@ sidebar_position: 8
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-temperature-vitesse-son/icone.svg" alt="Son et température STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

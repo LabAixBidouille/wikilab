@@ -32,6 +32,8 @@ sidebar_position: 3
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-whisper-walls/icone.svg" alt="Sonomètre STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

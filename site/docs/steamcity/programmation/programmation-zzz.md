@@ -32,6 +32,8 @@ sidebar_position: 7
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-zzz/icone.svg" alt="Capteur de sommeil micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

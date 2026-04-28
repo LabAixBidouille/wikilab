@@ -33,6 +33,8 @@ sidebar_position: 7
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-corps-acceleration/icone.svg" alt="Accéléromètre STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -36,6 +36,8 @@ sidebar_position: 1
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/icone.svg" alt="Arrosage automatique STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

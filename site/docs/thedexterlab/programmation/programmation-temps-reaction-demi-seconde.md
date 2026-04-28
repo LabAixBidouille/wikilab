@@ -37,6 +37,8 @@ sidebar_position: 10
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-temps-reaction-demi-seconde/icone.svg" alt="Temps de réaction STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

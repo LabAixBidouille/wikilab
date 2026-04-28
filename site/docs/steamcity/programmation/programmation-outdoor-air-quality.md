@@ -39,6 +39,8 @@ sidebar_position: 4
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-outdoor-air-quality/icone.svg" alt="Station air extérieur" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

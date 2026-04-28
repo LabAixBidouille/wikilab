@@ -34,6 +34,8 @@ sidebar_position: 6
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-insulation/icone.svg" alt="Mesure d'isolation micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

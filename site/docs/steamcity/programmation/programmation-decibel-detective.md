@@ -31,6 +31,8 @@ sidebar_position: 1
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-decibel-detective/icone.svg" alt="Sonomètre avec micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

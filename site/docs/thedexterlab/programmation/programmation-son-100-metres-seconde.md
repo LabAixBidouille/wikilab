@@ -34,6 +34,8 @@ sidebar_position: 9
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-son-100-metres-seconde/icone.svg" alt="Mesure vitesse du son STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

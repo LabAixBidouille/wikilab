@@ -34,6 +34,8 @@ sidebar_position: 5
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-plante-co2/icone.svg" alt="Capteur CO2 plantes STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

@@ -31,6 +31,8 @@ sidebar_position: 2
 
 </div>
 
+<img src="/img/ressources/thedexterlab/programmation-ocean-sale/icone.svg" alt="Conductimètre STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---
