@@ -75,7 +75,7 @@ Grâce à la mise en œuvre de ce projet, les élèves pourront aborder plusieur
 - Mathématiques : la collecte et l'analyse de données, la mesure de temps
 - Sciences : la méthode scientifique, la formulation d'hypothèses, la collecte de données, l'analyse de résultats
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -101,7 +101,7 @@ Afin de programmer votre carte et votre expérimentation, vous pouvez réaliser 
 
 Dans cette phase, nous avons appris à collecter des données en mesurant notre temps de réaction à un stimulus sonore ou visuel à l'aide d'un appareil expérimental que nous avons construit. Nous avons également appris à programmer le dispositif expérimental à l'aide d'une carte programmable pour produire un signal aléatoire de son ou de lumière et à enregistrer le temps de réaction.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -130,7 +130,7 @@ Dans cette phase, nous avons réalisé les actions suivantes :
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
 - Utiliser un programme pour afficher des données sur un écran.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

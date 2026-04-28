@@ -61,7 +61,7 @@ sidebar_position: 24
 
 ---
 
-## Session 1 : lancement de la mission et planification de l&#39;histoire
+## Session 1 : Lancement de la mission et planification de l&#39;histoire
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 
@@ -104,7 +104,7 @@ Ils définissent :
 
 ---
 
-## Session 2 : création de l&#39;histoire interactive dans Scratch
+## Session 2 : Création de l&#39;histoire interactive dans Scratch
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 
@@ -141,23 +141,23 @@ Chaque équipe remplit également son Plan de programmation en notant :
 
 Les élèves se lancent dans la création de leur projet Scratch. Voici les étapes suggérées :
 
-#### Étape 1 : créer les décors (15 min)
+#### Étape 1 : Créer les décors (15 min)
 
 - Importer ou dessiner les arrière-plans pour chaque époque historique
 - Créer l&#39;arrière-plan du Laboratoire du temps (point de départ)
 
-#### Étape 2 : ajouter les personnages (15 min)
+#### Étape 2 : Ajouter les personnages (15 min)
 
 - Créer ou importer les sprites : l&#39;Agent du temps, les personnages historiques, les objets importants
 - Positionner les sprites sur la scène
 
-#### Étape 3 : programmer les dialogues et les transitions (20 min)
+#### Étape 3 : Programmer les dialogues et les transitions (20 min)
 
 - Utiliser les blocs « dire » pour faire parler les personnages
 - Programmer les changements de scène (par exemple : « quand la touche espace est pressée, basculer vers l&#39;arrière-plan suivant »)
 - Utiliser « envoyer à tous » pour coordonner les actions entre les sprites
 
-#### Étape 4 : ajouter l&#39;élément interactif (20 min)
+#### Étape 4 : Ajouter l&#39;élément interactif (20 min)
 
 Programmer une interaction dans chaque scène historique :
 
@@ -181,7 +181,7 @@ L&#39;enseignant·e circule entre les groupes pour aider avec les blocs de code,
 
 ---
 
-## Session 3 : finitions, présentations et célébration
+## Session 3 : Finitions, présentations et célébration
 
 ### Mise en route (Warm-up) - Découverte et échauffement
 

@@ -57,7 +57,7 @@ Nous avons tous des idées pour notre ville parfaite, mais elles peuvent être d
 
 ## Intérêt pédagogique et sujets abordés
 
-### L'univers du jeu : explorer les villes et les modes de vie du futur
+### L'univers du jeu : Explorer les villes et les modes de vie du futur
 
 Face au changement climatique, il faut réfléchir à l'évolution des modes de vie pour s'adapter aux nouvelles contraintes. Ce jeu consiste à créer des maquettes en papier de villes du futur.
 

@@ -95,7 +95,7 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
 
 ---
 
-## Étape 1 : exploration de la diversité des oiseaux urbains et de leurs rôles écologiques
+## Étape 1 : Exploration de la diversité des oiseaux urbains et de leurs rôles écologiques
 
 ### Contexte de la séquence
 
@@ -202,7 +202,7 @@ Ces discussions aideront les étudiants à synthétiser leur apprentissage, à �
 
 ---
 
-## Étape 2 : jeu d'identification des chants d'oiseaux
+## Étape 2 : Jeu d'identification des chants d'oiseaux
 
 ### Contexte de la séquence
 
@@ -279,7 +279,7 @@ L'enseignant peut diffuser une vidéo pour aider les élèves à mieux comprendr
 
 ---
 
-## Étape 3 : construction d'un modèle de reconnaissance des chants d'oiseaux par l'IA
+## Étape 3 : Construction d'un modèle de reconnaissance des chants d'oiseaux par l'IA
 
 ### Contexte de la séquence
 
@@ -349,7 +349,7 @@ Ces discussions aideront les élèves à synthétiser ce qu'ils ont appris, à c
 
 ---
 
-## Étape 4 : collecte, analyse et cartographie des données sur le chant des oiseaux
+## Étape 4 : Collecte, analyse et cartographie des données sur le chant des oiseaux
 
 ### Contexte de la séquence
 

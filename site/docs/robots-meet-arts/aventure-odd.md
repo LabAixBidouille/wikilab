@@ -113,7 +113,7 @@ Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe 
 
 À travers cette première activité, les élèves commencent à reconnaître les « grands défis mondiaux » qui se manifestent dans leur vie de tous les jours. Cela éveille leur sensibilité et leur prise de conscience.
 
-### Activité B : jouer avec les ODD
+### Activité B : Jouer avec les ODD
 
 :::info[Notes pour l'enseignant·e]
 
@@ -135,7 +135,7 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 - **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d&#39;aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l&#39;empathie et l&#39;imagination, tout en donnant un visage humain aux défis mondiaux. [https://www.un.org/sustainabledevelopment/sdgbookclub/](https://www.un.org/sustainabledevelopment/sdgbookclub/)
 - **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l&#39;importance de l&#39;eau et le respect de l&#39;environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. [https://issuu.com/unpublications/docs/frieda\_2018](https://issuu.com/unpublications/docs/frieda_2018)
 
-#### 2. Explorer d&#39;autres ressources ludiques : l&#39;exemple d&#39;Unplugged Quest
+#### 2. Explorer d&#39;autres ressources ludiques : L&#39;exemple d&#39;Unplugged Quest
 
 [https://github.com/unplugged-quest/games](https://github.com/unplugged-quest/games)
 
@@ -169,7 +169,7 @@ Cette approche transforme l&#39;apprentissage en expression citoyenne et rend le
 
 À partir de la compréhension des enjeux des ODD acquise lors de la mise en route, cette phase de construction offre aux élèves un espace pour explorer de manière dynamique les défis de société. L&#39;objectif est de développer leur esprit critique en éducation à la citoyenneté.
 
-### Activité A : créer des histoires interactives - Réflexion et remue-méninges
+### Activité A : Créer des histoires interactives - Réflexion et remue-méninges
 
 :::info[Notes pour l'enseignant·e]
 
@@ -201,7 +201,7 @@ Une fois le scénario collectif établi, les élèves sont invités à se répar
 
 Chaque ODD choisi devient une étape du voyage du héros, pour laquelle chaque groupe concevra les défis que le héros devra affronter. L&#39;ordre des niveaux est ensuite décidé collectivement, en veillant à ce que l&#39;aventure conserve une progression cohérente.
 
-### Activité B : préparer son programme - Premiers pas dans MakeCode et remue-méninges
+### Activité B : Préparer son programme - Premiers pas dans MakeCode et remue-méninges
 
 :::info[Notes pour l'enseignant·e]
 
@@ -249,7 +249,7 @@ Une fois la première rotation terminée, faites changer les élèves de rôle a
 
 À la fin de la dernière rotation, réunissez à nouveau les groupes pour qu&#39;ils concluent sur leurs idées finales avant de commencer à programmer leur propre projet interactif.
 
-### Activité C : programmer l&#39;histoire
+### Activité C : Programmer l&#39;histoire
 
 :::info[Notes pour l'enseignant·e]
 
@@ -323,41 +323,41 @@ Les Skill Maps sont des guides visuels qui montrent les étapes pour atteindre u
 
 ### Étapes pour découvrir les Skill Maps
 
-#### Étape 1 : accéder aux Skill Maps
+#### Étape 1 : Accéder aux Skill Maps
 
 Ouvrez MakeCode Arcade [https://arcade.makecode.com/](https://arcade.makecode.com/). Repérez l&#39;espace Beginner Skillmaps situé juste en dessous du bouton Nouveau projet.
 
-#### Étape 2 : explorer les parcours
+#### Étape 2 : Explorer les parcours
 
 Parcourez les différentes Skill Maps disponibles, classées par ordre de complexité. Si vous découvrez MakeCode Arcade ou si vous créez une activité pour la première fois, commencez par la Skill Map « Full of Stories » pour découvrir les blocs les plus couramment utilisés : [https://arcade.makecode.com/--skillmap#story](https://arcade.makecode.com/--skillmap#story)
 
-#### Étape 3 : découvrir les niveaux
+#### Étape 3 : Découvrir les niveaux
 
 Comme vous pouvez le voir dans la Skill Map « Full of Stories », chaque parcours est divisé en niveaux. Cela permet de gérer la complexité tout en offrant au jeune codeur des étapes intermédiaires satisfaisantes, stimulant ainsi la créativité, l&#39;engagement et l&#39;envie de progresser vers le niveau suivant.
 
-#### Étape 4 : découvrir les objectifs d&#39;apprentissage
+#### Étape 4 : Découvrir les objectifs d&#39;apprentissage
 
 Lorsque vous ouvrez une page de Skill Map, vous trouverez sur la droite de l&#39;écran un aperçu du contenu, le nombre d&#39;étapes, les récompenses à obtenir et un lien vers les objectifs d&#39;apprentissage.
 
 Ce lien mène à une page destinée aux éducateurs et aux parents, détaillant les activités contenues dans la Skill Map et les objectifs à atteindre. Par exemple, dans la Skill Map « Full of Stories », les jeunes codeurs découvriront des activités de design, de narration, d&#39;intégration d&#39;effets, de musique et de gestion d&#39;événements.
 
-#### Étape 5 : comprendre les blocs grâce aux tutoriels
+#### Étape 5 : Comprendre les blocs grâce aux tutoriels
 
 Lorsque vous réalisez une étape d&#39;une Skill Map, vous êtes guidé par un tutoriel sur la gauche de l&#39;écran, qui vous permet d&#39;identifier quels tiroirs et blocs utiliser, et dans quel but.
 
 Le tutoriel inclut également des éléments plus informatifs sur les blocs, par exemple : qu&#39;est-ce qu&#39;un événement, qu&#39;est-ce qu&#39;une boucle... Ces éléments permettent d&#39;acquérir les compétences et connaissances nécessaires pour ensuite réaliser des projets en partant de zéro.
 
-#### Étape 6 : créer des parcours, suivre sa progression, collaborer et partager
+#### Étape 6 : Créer des parcours, suivre sa progression, collaborer et partager
 
 Une fois vos Skill Maps commencées, vous pouvez facilement suivre votre progression grâce à la ludification de l&#39;interface MakeCode Arcade. Chaque Skill Map est divisée en étapes, menant à l&#39;obtention de récompenses. À la fin du parcours, vous recevez un certificat de complétion, ajoutant un niveau supplémentaire de ludification à l&#39;apprentissage de la programmation via MakeCode Arcade.
 
 Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et les autres participants.
 
-#### Étape 7 : changer de niveau
+#### Étape 7 : Changer de niveau
 
 Si la Skill Map « Full of Stories » est trop simple pour vos participants, explorez les parcours suivants. Des « Next Level Skillmaps » sont également disponibles pour passer à un niveau de complexité supérieur, via l&#39;écran d&#39;accueil de MakeCode Arcade, sous « Beginner Skillmaps ».
 
-### Pour aller plus loin : vidéos et tutoriels en ligne
+### Pour aller plus loin : Vidéos et tutoriels en ligne
 
 - MakeCode Arcade : Playlist YouTube officielle : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
 - Introduction à MakeCode Arcade : [https://www.youtube.com/watch?v=DE\_-0flM324](https://www.youtube.com/watch?v=DE_-0flM324)

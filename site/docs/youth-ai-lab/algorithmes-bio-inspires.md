@@ -43,7 +43,7 @@ sidebar_position: 1
 
 ---
 
-## Algorithmes bio-inspirés : renforcez vos apprentissages
+## Algorithmes bio-inspirés : Renforcez vos apprentissages
 
 **Phase d'exploration IA :** P2 — Construire des hypothèses sur l'IA
 
@@ -61,7 +61,7 @@ sidebar_position: 1
 
 Cette activité révèle comment les humains et les machines apprennent par essais et erreurs. En jouant le rôle d'un algorithme d'apprentissage, les participants découvrent l'apprentissage par renforcement — récompenses en cas de succès, pénalités en cas d'échec — un principe universel partagé par l'intelligence biologique et artificielle.
 
-### Activité 1 : sois le robot (apprentissage par renforcement, débranché)
+### Activité 1 : Incarner le robot (apprentissage par renforcement, débranché)
 
 Les participants explorent une grille 6×6 pour trouver un objectif caché. Ils ne savent pas où se trouvent les obstacles ni où se situe l'objectif. En se déplaçant d'une case à la fois, le groupe décide collectivement de chaque mouvement. Après chaque mouvement, l'animateur·rice répond uniquement :
 
@@ -72,7 +72,7 @@ Chaque participant remplit sa propre fiche de mémorisation pour enregistrer ses
 
 ---
 
-### Activité 2 : parler aux robots (bases de programmation)
+### Activité 2 : Parler aux robots (bases de programmation)
 
 À travers des missions progressives, les participants découvrent comment programmer des robots. Chaque robot a sa propre logique :
 
@@ -82,9 +82,11 @@ Chaque participant remplit sa propre fiche de mémorisation pour enregistrer ses
 
 Les missions vont du simple (avancer) au complexe (séquences, virages).
 
+![Fiche idéation - Algorithmes bio-inspirés](/img/ressources/youth-ai-lab/algorithmes-bio-inspires/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms%20(1).png)
+
 ---
 
-### Activité 3 : transférer vos connaissances (programmer le chemin)
+### Activité 3 : Transférer les connaissances (programmer le chemin)
 
 En utilisant **UNIQUEMENT** leur fiche de mémorisation de l'Activité 1 et les connaissances acquises dans l'Activité 2, les participants doivent programmer leur robot pour suivre le chemin qu'ils ont découvert. Ils ne peuvent pas regarder la grille avant de programmer.
 
@@ -116,17 +118,19 @@ Les participants **incarnent physiquement l'algorithme** — ils SONT le robot e
 
 ## Annexes
 
-### Annexe 1 : exemple de fiche de mémorisation
+### Annexe 1 : Exemple de fiche de mémorisation
 
 Grille vierge 6×6 avec une case START, permettant aux participants de noter leurs découvertes (obstacles, chemin correct) au fur et à mesure de l'exploration.
 
-### Annexe 2 : exemples de grilles de jeu
+### Annexe 2 : Exemples de grilles de jeu
 
 Trois thèmes de grilles sont proposés avec des images dans les cases obstacles/objectifs :
 
 - **Thème Espace** : fusée, astéroïdes, planètes, satellite, comète
 - **Thème Ville durable** : maison, trottinette électrique, pommier, fontaine, école, bus, usine de recyclage
 - **Thème Santé** : virus, émotions, bactéries, sommeil, hôpital, données de santé
+
+![Fiche idéation - Algorithmes bio-inspirés](/img/ressources/youth-ai-lab/algorithmes-bio-inspires/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms.png)
 
 ---
 

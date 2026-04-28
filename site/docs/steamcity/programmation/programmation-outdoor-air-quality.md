@@ -58,7 +58,7 @@ Cette fiche technique accompagne la ressource [Outdoor Air Quality](/ressources/
 
 ---
 
-## Fiche 1 : surveillance des COV avec écran LCD
+## Fiche 1 : Surveillance des COV avec écran LCD
 
 Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Arduino sont très similaires. Nous présentons ici un programme conçu pour micro:bit.
 
@@ -89,7 +89,7 @@ while True:
 
 ---
 
-## Fiche 2 : collecte multi-capteurs
+## Fiche 2 : Collecte multi-capteurs
 
 Même plateforme (Vittascience). On ajoute le capteur HM3301 (particules fines) et le DHT11 (température/humidité).
 
@@ -136,7 +136,7 @@ while True:
 
 ---
 
-## Fiche 3 : enregistrement automatisé sur carte SD
+## Fiche 3 : Enregistrement automatisé sur carte SD
 
 Ce programme envoie les données vers un module Openlog via UART pour les enregistrer sur carte SD.
 

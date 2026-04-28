@@ -67,7 +67,7 @@ La cartopartie présente l'avantage unique de transformer chaque participant en 
 
 ## Préparation en amont
 
-### Choisir un thème : quel thématique touche notre public cible de manière pertinente et engageante ?
+### Choisir un thème : Quel thématique touche notre public cible de manière pertinente et engageante ?
 Sélectionner un thème approprié est la première étape cruciale pour organiser une cartopartie. Il est impossible -- et peu judicieux -- de tout cartographier dans une zone donnée. Non seulement cela serait excessivement complexe en termes d'observation, mais aussi peu pertinent pour l'analyse. Le thème choisi doit être précis, concret et directement lié aux préoccupations locales des participants. Cette approche donne du sens à l'activité et encourage l'implication de chacun. Le thème doit refléter les enjeux spécifiques du quartier ou de la communauté, tout en permettant d'identifier facilement des points d'intérêt sur la zone sélectionnée. Optez pour un sujet que tous les participants peuvent comprendre, s'approprier et observer aisément. Privilégiez des thèmes où les observations peuvent déboucher sur des améliorations concrètes. Enfin, assurez-vous que le thème puisse susciter l'intérêt des participants de tous âges.
 
 Pour vous aider dans l'exploration du thème, vous pouvez utilisez le vade-mecum de l'OSMeur. Ces fiches « pense-bête » au format PDF et/ou ODT, en A5 recto-verso, en noir et blanc, servent de complément aux cartes papier, peuvent être distribuées lors des cartoparties ou emportées partout pour savoir quoi noter et comment. Vous pouvez les utiliser telles quelles ou créer votre propre version adaptée à vos besoins, en vous en servant comme source d'information et d'inspiration. Voici quelques thèmes exemplifiant la démarche :
@@ -81,7 +81,7 @@ Pour vous aider dans l'exploration du thème, vous pouvez utilisez le vade-mecum
 
 ---
 
-### Définir la zone à cartographier : où commence et où s'arrête notre cartographie ?
+### Définir la zone à cartographier : Où commence et où s'arrête notre cartographie ?
 La zone doit être directement liée au thème choisi et facilement accessible pour tous les participants. Elle doit être suffisamment vaste pour offrir des observations variées, mais pas trop étendue pour être couverte dans le temps imparti. Vous pouvez diviser la zone en groupes. Un groupe de 6 cartographes constitue une bonne limite. En effet, 3 rôles principaux (responsable de la carte, de la relève et de la photographie) seront distribués au sein du groupe, permettant d'avoir un responsable et un suppléant pour chaque rôle. Divisez votre zone en autant de groupes que nécessaire pour que l'ensemble de vos participants ait un rôle. Privilégiez une zone que la majorité des participants connaissent bien, ce qui facilitera les échanges et les observations. Assurez-vous que la zone choisie présente des éléments intéressants à observer en lien avec votre thème. Votre zone de cartopartie doit répondre aux critères suivants :
 
 - [ ]  Être accessible à tous les participants, y compris les personnes à mobilité réduite
@@ -92,7 +92,7 @@ La zone doit être directement liée au thème choisi et facilement accessible p
 
 ---
 
-### Préparer les cartes : comment faciliter le travail de relève grâce à des cartes lisibles ?
+### Préparer les cartes : Comment faciliter le travail de relève grâce à des cartes lisibles ?
 Une fois la zone définie et la répartition par groupe effectuée, la création des dossiers de relève, en particulier des **cartes**, constitue l'étape suivante. Cette phase exige du temps, de la préparation et de la rigueur. Des cartes claires et faciles à lire permettent aux participants de localiser précisément les points d'intérêt sur le terrain et de les noter efficacement. La lisibilité des cartes réduit les erreurs de localisation et garantit une collecte de données plus fiable. Elle encourage tous les participants, quel que soit leur niveau d'expertise en cartographie, à s'impliquer activement dans l'activité. Grâce à des cartes bien conçues, les participants peuvent se concentrer sur l'observation et la collecte de données plutôt que sur l'orientation. En outre, des cartes adaptées à l'annotation sur le terrain permettent aux participants de consigner rapidement et efficacement leurs observations.
 
 OpenStreetMap offre de nombreuses possibilités pour créer des cartes papier de haute résolution. Vous pouvez trouver sur le wiki (https://wiki.openstreetmap.org/wiki/OSM_on_Paper) un comparatif des outils qui existent et vous permettent **d'imprimer des fonds de carte, et parfois (fonctionnalité recommandée) de diviser une zone en plusieurs cartes en format A3, A4, A5 ...**
@@ -121,7 +121,7 @@ Les avantages principaux de l'outil qui nous ont poussé à le choisir sont :
 
 ---
 
-### Préparer le matériel : comment s'équiper efficacement pour une cartopartie réussie ?
+### Préparer le matériel : Comment s'équiper efficacement pour une cartopartie réussie ?
 La préparation du matériel est une étape cruciale pour garantir le bon déroulement de votre cartopartie. Un équipement bien pensé facilitera le travail des participants sur le terrain et assurera la collecte efficace des données. Commencez par imprimer les **cartes détaillées** de la zone à cartographier, qui serviront de base pour les annotations. Prévoyez des **stylos** et des **crayons** pour noter les observations, ainsi que des **surligneurs** pour marquer les rues déjà parcourues. Cette technique simple permet de différencier facilement les zones cartographiées de celles restant à explorer, évitant ainsi les doublons ou les oublis.
 
 Équipez chaque groupe de **porte-blocs** pour faciliter la prise de notes en mouvement (un pour les cartes, un pour les fiches de relève), et **d'appareils photo** ou de **smartphones** pour documenter visuellement les points d'intérêt. Préparez à l'avance des **fiches de relève** adaptées à votre thème spécifique, incluant les champs nécessaires pour une collecte de données structurée. N'oubliez pas d'inclure une **fiche d'aide** résumant les éléments clés à observer et noter, inspirée des vade-mecum mentionnés précédemment. Cette fiche servira de guide rapide sur le terrain, assurant une cohérence dans les relevés entre les différents groupes.
@@ -141,7 +141,7 @@ Une fois que tous les préparatifs sont terminés, la date fixée et les partici
 
 ---
 
-### Poser les bases de l'activité : comment introduire et expliquer la cartopartie ?
+### Poser les bases de l'activité : Comment introduire et expliquer la cartopartie ?
 Commencez par une présentation claire du thème choisi et de son importance pour la communauté. Expliquez les rôles au sein de chaque groupe et détaillez l'utilisation des cartes et des fiches de relevé. Cette étape est cruciale pour sensibiliser les participants et les motiver à s'impliquer activement dans le projet. Assurez-vous que tous comprennent bien les objectifs et le déroulement de l'activité. Donnez leur également des conseils sur l'utilisation du matériel, la manière de faire le relevé, l'utilisation des surligneurs ...
 
 Répartissez les participants dans leurs groupes, distribuez-leur les cartes, et laissez-leur du temps pour découvrir le matériel. Une fois fait, demandez-leur d'identifier avant de partir qui sera en charge de quoi (un responsable et un suppléant) :
@@ -152,12 +152,12 @@ Répartissez les participants dans leurs groupes, distribuez-leur les cartes, et
 
 ---
 
-### Collecter des données sur le quartier : comment explorer le terrain efficacement ?
+### Collecter des données sur le quartier : Comment explorer le terrain efficacement ?
 Une fois l'ensemble des consignes données et les groupes formés, laissez-les partir librement en exploration à la découverte du quartier choisi pour relever les points d'intérêt liés au thème. Ils notent les lieux importants sur la carte, remplissent les fiches de relevé et prennent des photos. Prévoyez un animateur « volant » : c'est une bonne pratique pour s'assurer que tous les groupes travaillent au même rythme et que personne n'a de problèmes de compréhension de l'activité. Cet animateur volant peut communiquer directement avec les groupes -- pensez à collecter un numéro de téléphone d'un référent par groupe -- et il est préférable qu'il ou elle soit véhiculé(e) afin de pouvoir naviguer facilement entre les groupes. Prévoyez un point de ralliement commun -- il peut être judicieux de penser à cet aspect au moment de la découpe des zones de cartographie -- et, si besoin, le rapatriement des groupes se trouvant aux extrémités de la zone.
 
 ---
 
-### Échanger sur les observations : comment restituer et partager les découvertes ?
+### Échanger sur les observations : Comment restituer et partager les découvertes ?
 Une fois de retour au point de ralliement, chaque groupe a l'opportunité de présenter ses découvertes aux autres participants. Animez une discussion collective dynamique sur les observations recueillies, en encourageant tous les membres à partager leurs perspectives. Cette étape peut permettre d'identifier collectivement les points d'amélioration du quartier et pour stimuler la réflexion sur des actions concrètes à entreprendre.
 
 Pour rendre ce moment de partage enrichissant et convivial, vous pouvez organisez une activité sociale en parallèle. Par exemple, vous pourriez prévoir un repas partagé où chacun apporte un plat, organiser un pique-nique dans un parc local, ou même arranger une visite guidée en lien avec la thématique de la cartopartie. Ces moments informels renforcent les liens entre les participants de différentes générations, favorisent des échanges plus personnels, et créent une atmosphère propice à la continuation du dialogue au-delà de l'activité elle-même.

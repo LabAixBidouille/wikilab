@@ -43,11 +43,6 @@ sidebar_position: 5
 
 ---
 
-## L'illusion est tout ce qui compte
-
-**Phase d'exploration IA :** P2 — Construire des hypothèses sur l'IA
-
----
 
 ## Thèmes d'exploration
 
@@ -60,7 +55,7 @@ sidebar_position: 5
 
 ## Déroulé de l'exploration
 
-### Étape 1 : l'illusion de la pensée (en classe, 60 minutes)
+### Étape 1 : L'illusion de la pensée (en classe, 60 minutes)
 
 **Question clé** : *Une machine « pense-t-elle » réellement, ou n'est-elle qu'un très bon miroir ?*
 
@@ -78,7 +73,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 2 : des robots pour le bien commun : introduction aux ODD (en classe, 30 minutes)
+### Étape 2 : Des robots pour le bien commun : introduction aux ODD (en classe, 30 minutes)
 
 **Question clé** : *Comment pouvons-nous utiliser des machines « pensantes » pour résoudre des problèmes mondiaux « insolubles » ?*
 
@@ -90,7 +85,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 3 : comment les machines apprennent : l'apprentissage par renforcement (en classe, 45 minutes)
+### Étape 3 : Comment les machines apprennent : l'apprentissage par renforcement (en classe, 45 minutes)
 
 **Question clé** : *Comment apprendre à un robot à accomplir une tâche sans lui donner d'instructions spécifiques ?*
 
@@ -107,7 +102,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 4 : récapitulatif et travail à la maison (15 minutes)
+### Étape 4 : Récapitulatif et travail à la maison (15 minutes)
 
 **Question clé** : *Comment votre robot va-t-il changer le monde ?*
 

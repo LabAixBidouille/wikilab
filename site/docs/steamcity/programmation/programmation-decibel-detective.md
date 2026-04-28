@@ -69,7 +69,7 @@ Vous pouvez acheter le kit Micro:bit V2 comprenant câble USB + boîtier de pile
 
 ---
 
-## Étape 1 : programmer la Micro:bit
+## Étape 1 : Programmer la Micro:bit
 
 Connectez la carte à l'ordinateur via le câble micro-USB. Une fois connectée, elle apparaîtra comme un lecteur amovible (ex. : « MICROBIT »). Ouvrez l'éditeur MakeCode pour créer un nouveau projet et donnez-lui un nom clair.
 
@@ -81,7 +81,7 @@ Cliquez sur **Télécharger** pour générer un fichier `.hex`, puis copiez-le s
 
 ---
 
-## Étape 2 : placer la Micro:bit et démarrer l'enregistrement
+## Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
 
 Placez la micro:bit à l'endroit où vous voulez collecter des données (jardin, parc, mairie…). Alimentez-la avec la batterie externe pour une collecte autonome sur plusieurs jours.
 
@@ -89,7 +89,7 @@ Une fois en place, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
 ---
 
-## Étape 3 : récupérer les données
+## Étape 3 : Récupérer les données
 
 À la fin de la période de collecte, récupérez le fichier **MY_DATA.HTM** sur le lecteur micro:bit. Copiez-le sur l'ordinateur et renommez-le avec la date du jour (ex. : `LOCATIONNAME_YYYY_MM_DD.HTM`).
 

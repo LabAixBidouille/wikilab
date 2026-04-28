@@ -61,19 +61,19 @@ Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde
 
 ### Structure de l'activité
 
-#### Étape 1 : collecter des données
+#### Étape 1 : Collecter des données
 
 L'étape 1 a permis aux élèves de découvrir les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, les élèves ont acquis des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base. Cette première étape a mis en place les bases de la compréhension de la collecte de données environnementales et de leur interprétation au moyen d'indicateurs visuels.
 
-#### Étape 2 : afficher les données pour obtenir les informations nécessaires
+#### Étape 2 : Afficher les données pour obtenir les informations nécessaires
 
 L'étape 2 vise à développer les compétences de visualisation des données en enseignant aux élèves comment modifier leur programme de détection de CO2 pour afficher les mesures sous forme graphique. Cette activité s'appuie sur la programmation du capteur de l'étape 1, en présentant aux élèves des techniques de représentation des données plus avancées. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, les élèves acquièrent de précieuses compétences en matière de visualisation et d'analyse des données. Cette étape constitue un pont entre la collecte et l'interprétation des données, préparant les élèves au travail d'analyse plus approfondi qui suit dans les étapes suivantes.
 
-#### Étape 3 : analyser les données et en tirer des enseignements
+#### Étape 3 : Analyser les données et en tirer des enseignements
 
 L'étape 3 est une phase cruciale du protocole de surveillance du CO2, au cours de laquelle les élèves passent de la collecte de données à une analyse significative. En 60 minutes, les élèves apprennent à identifier les tendances des niveaux de CO2 et à les corréler avec des événements ou des comportements spécifiques dans leur environnement. En enregistrant des facteurs tels que les ouvertures de fenêtres, l'occupation des pièces et les schémas de ventilation, les élèves développent des compétences analytiques tout en comprenant les implications pratiques de la gestion de la qualité de l'air. Cette étape comble le fossé entre la collecte de données brutes et les informations exploitables, préparant les élèves à prendre des décisions éclairées sur les pratiques de ventilation. Elle est particulièrement utile pour l'enseignement de la méthodologie scientifique, l'interprétation des données et l'application concrète de la surveillance environnementale.
 
-#### Étape 4 : utiliser les données pour modifier son comportement et améliorer la situation de départ
+#### Étape 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ
 
 L'étape 4 est le point culminant du protocole de surveillance du CO2, où les élèves transforment leur analyse de données en solutions exploitables. Cette phase de 40 minutes se concentre sur les applications pratiques des données collectées, encourageant les élèves à développer des solutions concrètes pour améliorer la qualité de l'air. Les élèves apprennent à appliquer des techniques d'analyse statistique, à partager leurs résultats via des plateformes mondiales comme Vittamap et à élaborer des recommandations concrètes pour des changements de comportement. Cette étape est cruciale car elle fait le lien entre l'observation scientifique et la mise en œuvre pratique, en enseignant aux élèves comment utiliser les données pour prendre des décisions éclairées sur les pratiques de ventilation et la gestion de l'environnement. Elle souligne l'importance de la collaboration scientifique mondiale tout en maintenant une focalisation locale sur les améliorations environnementales immédiates.
 
@@ -98,7 +98,7 @@ L'étape 4 est le point culminant du protocole de surveillance du CO2, où les �
 
 ---
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Contexte de la séquence
 
@@ -225,7 +225,7 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 ---
 
-## Étape 2 : afficher les données pour obtenir les informations nécessaires
+## Étape 2 : Afficher les données pour obtenir les informations nécessaires
 
 ### Contexte de la séquence
 
@@ -281,7 +281,7 @@ L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont a
 
 ---
 
-## Étape 3 : analyser les données et en tirer des leçons
+## Étape 3 : Analyser les données et en tirer des leçons
 
 ### Contexte de la séquence
 
@@ -325,7 +325,7 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ---
 
-## Étape 4 : utiliser les données pour modifier son comportement et améliorer la situation de départ
+## Étape 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ
 
 ### Contexte de la séquence
 

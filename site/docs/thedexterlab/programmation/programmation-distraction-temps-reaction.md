@@ -56,7 +56,7 @@ Cette fiche technique accompagne la ressource [Distractions et temps de réactio
 
 ---
 
-## PROG14-TDL-1 : stimulus visuel (LED)
+## PROG14-TDL-1 : Stimulus visuel (LED)
 
 **Câblage :** Bouton-poussoir sur GND/D2, LED anode sur D4, cathode via résistance 330Ω sur GND.
 
@@ -80,7 +80,7 @@ newGame()
 
 ---
 
-## PROG14-TDL-2 : stimulus sonore (buzzer)
+## PROG14-TDL-2 : Stimulus sonore (buzzer)
 
 **Câblage :** Bouton-poussoir sur GND/D2, buzzer '+' sur D3, '-' sur GND.
 
@@ -104,7 +104,7 @@ newGame()
 
 ---
 
-## PROG14-TDL-3 : afficher les données sur un écran
+## PROG14-TDL-3 : Afficher les données sur un écran
 
 **Câblage écran OLED I2C :** GND, VCC (3.3V), SDA (D14), SCL (D15).
 

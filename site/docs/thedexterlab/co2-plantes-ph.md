@@ -76,7 +76,7 @@ Ce protocole mobilise plusieurs compétences :
 
 Les disciplines associées à ce protocole incluent la biologie, la chimie, la physique et les mathématiques, ainsi que la communication scientifique et l'analyse des données.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -129,7 +129,7 @@ Une fois les branchements faits, l'expérimentation peut être démarrée. En ap
 
 À travers la mise en place de l'expérimentation, il a été découvert comment isoler la variable à étudier pour mesurer une grandeur physique de manière indirecte. Le contrôle de la lumière et de l'apport de CO2, ainsi que l'utilisation d'eau pure (déminéralisée), assure que les variations de pH ne sont dues qu'à la variation de CO2. La reproduction de l'expérience par plusieurs élèves avec des conditions initiales différentes montrera la répétabilité de l'expérience.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -162,7 +162,7 @@ Au terme de cette étape, plusieurs objectifs ont été atteints :
 - Utiliser un programme pour afficher des données sur un écran
 - Récupérer les données d'une expérience en vue de leur analyse ultérieure
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

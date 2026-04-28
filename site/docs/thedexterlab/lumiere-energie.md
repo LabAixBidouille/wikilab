@@ -64,7 +64,7 @@ Ce projet peut être relié à plusieurs compétences du programme scolaire, tel
 
 Comme pour l'ensemble des ressources TheDexterLab, les compétences abordées peuvent être adaptées par l'enseignant en fonction de la discipline, du niveau scolaire des élèves et des objectifs d'apprentissage spécifiques.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -90,7 +90,7 @@ Nous sommes maintenant prêts à **connecter notre cellule photovoltaïque à un
 
 Dans cette phase, nous avons appris qu'il est possible de collecter l'énergie de la lumière à l'aide de cellules photovoltaïques, qui transforment l'énergie lumineuse en électricité. Nous avons également appris que la lumière transporte de l'énergie, ce qui peut être démontré par l'exemple de la chaleur que nous ressentons lorsque nous sommes exposés directement à la lumière du soleil. Nous avons également appris que différentes tailles de cellules photovoltaïques peuvent alimenter différents types d'appareils, des plus petits aux plus grands. Enfin, nous avons appris qu'en connectant une cellule photovoltaïque à un moteur ou à une LED, nous pouvons observer son fonctionnement dans différentes conditions de lumière.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -122,7 +122,7 @@ Voici un exemple :
 
 Grâce à cette phase, nous avons compris l'importance de collecter des données afin de tirer des conclusions et de comprendre les phénomènes étudiés. Nous avons également appris comment organiser et enregistrer les données collectées dans un tableau. De plus, nous avons compris l'importance de mener une enquête qualitative pour essayer de répondre à une question de recherche spécifique. Enfin, nous avons appris à discuter et à tirer des conclusions à partir de nos observations en classe.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

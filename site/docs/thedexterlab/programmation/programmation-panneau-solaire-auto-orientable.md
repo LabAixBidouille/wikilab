@@ -58,7 +58,7 @@ Cette fiche technique accompagne la ressource [Panneau solaire auto-orientable](
 
 ---
 
-## Fiche 1 : collecter des données grâce au capteur de lumière
+## Fiche 1 : Collecter des données grâce au capteur de lumière
 
 Le circuit que nous devons assembler se compose de deux éléments : une résistance de 10 kΩ et une cellule photoélectrique.
 
@@ -77,7 +77,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : mesurer le changement d'intensité lumineuse avec deux LDR
+## Fiche 2 : Mesurer le changement d'intensité lumineuse avec deux LDR
 
 Le circuit se compose de deux LDR. Nous brancherons la LDR de "gauche" sur A0 et la cellule photoélectrique de "droite" sur A1.
 
@@ -94,7 +94,7 @@ forever(function () {
 
 ---
 
-## Fiche 3 : programmation d'un servomoteur
+## Fiche 3 : Programmation d'un servomoteur
 
 **Câbler le servomoteur** :
 
@@ -118,7 +118,7 @@ forever(function () {
 
 ---
 
-## Fiche 4 : programmation du suiveur solaire
+## Fiche 4 : Programmation du suiveur solaire
 
 Combiner le servomoteur et les deux LDR. LDR gauche sur A0, LDR droite sur A1, servomoteur sur D9.
 
@@ -168,7 +168,7 @@ forever(function () {
 
 ---
 
-## Fiche 5 : collecter les données grâce au capteur de tension
+## Fiche 5 : Collecter les données grâce au capteur de tension
 
 **Câbler le capteur de tension (I2C)** :
 

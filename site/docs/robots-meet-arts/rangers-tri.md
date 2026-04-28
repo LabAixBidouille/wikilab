@@ -108,7 +108,7 @@ L&#39;enseignant·e présente la grille aux élèves. Le personnage principal s&
 
 Chaque groupe reçoit une grille et un jeu de cartes de déplacement. L&#39;enseignant·e explique la fonction de chaque carte et montre quelques exemples. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
 
-### Le défi : nettoyer la ville de Jean
+### Le défi : Nettoyer la ville de Jean
 
 Chaque élève pioche une carte dans un second paquet : cette carte représente un déchet précis présent sur la grille. À son tour, l&#39;élève doit programmer Jean pour qu&#39;il se déplace jusqu&#39;au déchet, le ramasse, puis le dépose dans la bonne poubelle. Une fois l&#39;action réussie, le déchet est retiré de la grille.
 

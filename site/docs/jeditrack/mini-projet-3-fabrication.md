@@ -97,7 +97,7 @@ La conception technique est une étape essentielle dans la réalisation d'un pro
 
 ---
 
-#### Méthode de fabrication : comment allez-vous créer votre projet ?
+#### Méthode de fabrication : Comment allez-vous créer votre projet ?
 La méthode de fabrication choisie influence le déroulement du projet et les compétences que les jeunes pourront développer. Il existe plusieurs options :
 
 - Utilisation d'une solution prête à l'emploi : Cette option peut être appropriée pour des projets simples ou lorsque le temps est limité.
@@ -106,17 +106,17 @@ La méthode de fabrication choisie influence le déroulement du projet et les co
 
 ---
 
-#### Choix des composants principaux : quelles sont les pièces importantes de votre projet ?
+#### Choix des composants principaux : Quelles sont les pièces importantes de votre projet ?
 La sélection des composants principaux est une étape cruciale qui déterminera les fonctionnalités du projet. Identifiez les éléments clés nécessaires au fonctionnement de votre projet. Pour chacun, recherchez les différentes options disponibles en considérant leurs avantages et inconvénients. Identifiez si votre projet nécessite de l'électronique ou des pièces spécifiques (écran ou contrôleur par exemple). Réfléchissez à l'utilisation de matériaux recyclés, à la consommation d'énergie et à la durabilité de votre création.
 
 ---
 
-#### Sélection des matériaux : de quoi sera fait votre objet ?
+#### Sélection des matériaux : De quoi sera fait votre objet ?
 Le choix des matériaux a un impact sur la durabilité et l'esthétique du projet. Vous pouvez considérer les propriétés physiques requises (résistance, poids, flexibilité), la disponibilité des matériaux et leur compatibilité avec les outils à disposition, la sécurité des matériaux pour une utilisation par des jeunes et bien évidemment, le budget alloué aux matériaux.
 
 ---
 
-#### Finition et esthétique : comment rendre votre projet attrayant visuellement ?
+#### Finition et esthétique : Comment rendre votre projet attrayant visuellement ?
 La phase de finition permet aux jeunes d'exprimer leur créativité et de personnaliser le projet. Vous pouvez choisir une palette de couleurs en accord avec le thème du projet, utiliser des techniques de finition adaptées aux compétences des jeunes (peinture, collage, etc.), intégrer des éléments décoratifs qui reflètent les idées des participants ... Pensez à vous assurer que les finitions n'interfèrent pas avec la fonctionnalité du projet.
 
 :::info[Notre conseil : utiliser les ressources d'un fablab]
@@ -139,7 +139,7 @@ Les objectifs de cette phase sont donc multiples et doivent être partagés avec
 
 ---
 
-#### Matérialiser les idées : passer d'une idée à une première version de l'objet
+#### Matérialiser les idées : Passer d'une idée à une première version de l'objet
 Passer de l'idée à une version physique simple permet aux jeunes de voir concrètement ce qu'ils ont imaginé. Ce premier modèle n'a pas besoin d'être parfait ; il sert surtout à tester des concepts et à explorer différentes solutions. Organisez l'espace de manière à ce que les jeunes puissent travailler librement et en sécurité. Prévoyez des zones pour couper, coller et assembler, et des espaces pour ranger les matériaux et outils. Encouragez les jeunes à explorer des solutions originales et à ne pas se limiter aux idées initiales. Soutenez les collaborations entre groupes pour enrichir le processus. Votre prototype doit permettre de valider (liste non exhaustive) :
 
 - [ ]  Les dimensions et proportions de l'objet
@@ -151,12 +151,12 @@ Passer de l'idée à une version physique simple permet aux jeunes de voir concr
 
 ---
 
-#### Tester et améliorer : se tromper, apprendre de ses erreurs, s'adapter
+#### Tester et améliorer : Se tromper, apprendre de ses erreurs, s'adapter
 Le prototypage est un moyen de repérer les erreurs de conception au plus tôt. Il permet d'apporter des adaptations/corrections avant d'engager plus de temps et de ressources dans la construction finale. C'est un cycle d'essais/erreurs enrichissant qui encourage l'adaptation. Encouragez les jeunes à créer plusieurs versions de leurs prototypes pour explorer différentes approches et comparer les résultats. Insistez sur le fait qu'il n'y a pas de mauvaise réponse dans le prototypage, juste des occasions nouvelles d'apprendre. Chaque erreur est une étape vers une version améliorée de l'objet.
 
 ---
 
-#### Se familiariser avec les outils et les techniques : se préparer pour la construction finale
+#### Se familiariser avec les outils et les techniques : Se préparer pour la construction finale
 Cette étape est l'occasion idéale pour initier les jeunes aux outils et aux techniques manuelles de base qu'ils devront utiliser dans la construction de l'objet (par exemple, la menuiserie, la fabrication numérique mais aussi les techniques de peinture ou d'assemblage ...). En apprenant à utiliser ces outils et techniques, ils développent leurs compétences dans un environnement sécurisé et ludique, sans crainte de l'erreur ou de devoir recommencer. Ne commencez pas directement avec des outils complexes. Laissez les jeunes explorer d'abord avec des matériaux simples avant d'introduire des équipements plus techniques.
 
 ---
@@ -172,7 +172,7 @@ Les objectifs de cette phase sont essentiels à partager avec les jeunes partici
 
 ---
 
-#### Assembler les pièces : créer un objet solide et fonctionnel
+#### Assembler les pièces : Créer un objet solide et fonctionnel
 À partir du prototype, les jeunes vont assembler les différentes pièces en utilisant des matériaux définitifs (bois, métal, plastique). Ils doivent suivre un plan structuré, veiller à ce que toutes les pièces s'emboîtent correctement et vérifier la solidité de l'objet. Montrez-leur comment travailler de manière méthodique et organisée pour éviter les erreurs d'assemblage.
 
 Assurez-vous que l'espace de travail soit bien organisé, avec les outils à disposition et les matériaux répartis de manière accessible. Encouragez les jeunes à procéder par étapes, en vérifiant la stabilité et l'ajustement de chaque pièce avant de passer à l'étape suivante. Voici les éléments à vérifier pour un assemblage réussi :
@@ -184,14 +184,14 @@ Assurez-vous que l'espace de travail soit bien organisé, avec les outils à dis
 
 ---
 
-#### Utiliser les techniques de fabrication adaptées : manipuler les outils avec sécurité et précision
+#### Utiliser les techniques de fabrication adaptées : Manipuler les outils avec sécurité et précision
 Les jeunes vont découvrir les techniques de fabrication spécifiques à leur projet : vissage, perçage, collage, soudage, etc. C'est le moment d'approfondir leur compréhension des outils et d'appliquer les connaissances acquises lors du prototypage. Commencez par des démonstrations pour qu'ils comprennent bien chaque étape, puis laissez-les manipuler les outils sous votre supervision.
 
 L'accent doit être mis sur la **sécurité** : vérifiez que les jeunes portent des équipements de protection (gants, lunettes) et qu'ils suivent les consignes pour éviter tout accident. Soyez attentifs à leur posture et à leur manière de tenir les outils pour éviter les erreurs.
 
 ---
 
-#### Contrôler la qualité : vérifier et ajuster avant d'avancer
+#### Contrôler la qualité : Vérifier et ajuster avant d'avancer
 Avant de passer à la phase de finition, il est crucial de vérifier que l'objet est correctement assemblé et fonctionnel. Encouragez les jeunes à tester la solidité de leur objet, à vérifier l'alignement des pièces et à faire des ajustements si nécessaire. Organisez des points de contrôle réguliers pour valider chaque étape avant de continuer. Cela permet de corriger les erreurs tôt et d'éviter des modifications coûteuses en temps par la suite.
 
 Assurez-vous que :
@@ -213,7 +213,7 @@ Les objectifs de cette phase sont essentiels pour guider les jeunes :
 
 ---
 
-#### Évaluer les performances : tester l'objet dans des conditions réelles
+#### Évaluer les performances : Tester l'objet dans des conditions réelles
 La première étape consiste à tester l'objet dans des conditions d'utilisation proches de celles pour lesquelles il a été conçu. Cela permet aux jeunes de vérifier si l'objet remplit bien sa fonction. Montrez-leur comment réaliser des tests pratiques et évaluez si l'objet est efficace et conforme aux attentes.
 
 Organisez des scénarios de tests en fonction de la nature de l'objet (par exemple, tester la stabilité pour un meuble, vérifier le mouvement d'une pièce mécanique, ou tester la solidité pour un objet interactif). Encouragez les jeunes à observer attentivement les performances de l'objet pour identifier les points forts et faibles.
@@ -226,7 +226,7 @@ Voici quelques critères à vérifier :
 
 ---
 
-#### Identifier les problèmes : repérer les défauts et les dysfonctionnements
+#### Identifier les problèmes : Repérer les défauts et les dysfonctionnements
 Le test permet aussi d'identifier les défauts qui n'étaient pas visibles à l'oeil nu pendant la construction. Il est important que les jeunes repèrent les problèmes pour pouvoir y apporter des solutions avant la finition. Chaque problème rencontré est une opportunité d'apprentissage, et corriger ces défauts permet d'améliorer l'objet.
 
 Invitez les jeunes à documenter les défauts qu'ils observent et à réfléchir à des ajustements possibles pour les résoudre. Encouragez les discussions en groupe pour trouver des solutions collaboratives.
@@ -239,7 +239,7 @@ Points à surveiller lors des tests :
 
 ---
 
-#### Apporter des ajustements : améliorer l'objet avant la finition
+#### Apporter des ajustements : Améliorer l'objet avant la finition
 Une fois les problèmes identifiés, les jeunes doivent apporter les ajustements nécessaires pour corriger les défauts ou améliorer l'efficacité de l'objet. Cela peut impliquer de renforcer certaines pièces, d'ajuster des dimensions, ou de changer un composant.
 
 Organisez un temps dédié à ces ajustements avant de passer à la phase de finition. Montrez aux jeunes comment chaque correction améliore la performance et la qualité de leur création. Cela leur permet de voir l'importance de la phase de test dans l'optimisation d'un projet.
@@ -252,7 +252,7 @@ Les ajustements possibles incluent :
 
 ---
 
-#### Documenter les résultats : garder une trace des tests et des corrections
+#### Documenter les résultats : Garder une trace des tests et des corrections
 Tout comme dans la phase de prototypage, il est important de documenter les résultats des tests. Cela permet aux jeunes de suivre les améliorations qu'ils ont apportées à leur objet et de mieux comprendre l'impact de chaque modification. Encouragez-les à prendre des notes et des photos à chaque étape, en expliquant pourquoi telle ou telle modification a été nécessaire.
 
 Assurez-vous que les jeunes documentent :
@@ -274,7 +274,7 @@ Voici les objectifs de cette phase, à bien communiquer aux participants :
 
 ---
 
-#### Améliorer l'apparence : travailler sur l'esthétique et la qualité visuelle
+#### Améliorer l'apparence : Travailler sur l'esthétique et la qualité visuelle
 La finition est l'occasion de soigner l'apparence de l'objet. Expliquez aux jeunes comment lisser les surfaces avec du papier de verre, appliquer de la peinture ou du vernis, et ajouter des éléments décoratifs. Montrez-leur l'importance de prendre leur temps et d'être minutieux dans ces étapes pour obtenir un résultat propre et professionnel.
 
 Organisez l'espace avec des zones spécifiques pour le ponçage et la peinture, et assurez-vous que tous les outils nécessaires sont à disposition. Prévoyez également des temps de séchage pour les finitions (peinture, vernis). Voici quelques éléments à vérifier pour une finition réussie :
@@ -286,14 +286,14 @@ Organisez l'espace avec des zones spécifiques pour le ponçage et la peinture, 
 
 ---
 
-#### Personnaliser l'objet : rendre chaque création unique
+#### Personnaliser l'objet : Rendre chaque création unique
 La phase de finition est aussi un moment pour permettre aux jeunes d'exprimer leur créativité en personnalisant leur objet. Encouragez-les à ajouter des éléments décoratifs, à choisir les couleurs et les motifs qu'ils préfèrent. Cette personnalisation permet de rendre chaque création unique et reflète la personnalité de chaque participant.
 
 Encouragez des discussions sur les choix esthétiques pour que chaque jeune explique pourquoi il a choisi une couleur ou un motif spécifique. Cela enrichit l'expérience et permet de valoriser l'aspect créatif du projet.
 
 ---
 
-#### Optimiser l'ergonomie : améliorer la prise en main et l'usage de l'objet
+#### Optimiser l'ergonomie : Améliorer la prise en main et l'usage de l'objet
 En plus de l'aspect visuel, la finition permet aussi d'améliorer l'ergonomie de l'objet. C'est le moment de vérifier que l'objet est agréable à utiliser, qu'il n'y a pas de bords tranchants ou de surfaces inconfortables. Si nécessaire, des ajustements peuvent encore être faits pour améliorer la prise en main ou l'équilibre.
 
 Assurez-vous que :

@@ -47,7 +47,7 @@ sidebar_position: 8
 
 ---
 
-## Mener une campagne thermique avec les jeunes : appréhender le confort par la mesure
+## Mener une campagne thermique avec les jeunes : Appréhender le confort par la mesure
 
 Une campagne thermique permet aux jeunes de **comprendre concrètement les enjeux énergétiques** de leur quotidien. En mesurant température et humidité dans différents espaces, ils développent une **approche scientifique** des questions environnementales tout en acquérant des **compétences techniques** transférables.
 

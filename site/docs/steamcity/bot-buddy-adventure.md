@@ -55,19 +55,19 @@ Les solutions d'IA pour les défis urbains visent à rendre les villes plus inte
 - **Interdisciplinarité** : technologie et ingénierie, art et design, physique et chimie
 - **Objectifs de développement durable** : se référer aux ODD pertinents pour l'activité
 
-### Étape 1 : fondamentaux du système et précision
+### Étape 1 : Fondamentaux du système et précision
 
 Cette phase initiale se concentre sur la compréhension des limites de précision des technologies centrales qui alimentent les agents conversationnels. Les élèves explorent les systèmes de géolocalisation et les technologies de reconnaissance vocale à travers des tests comparatifs sur différentes plateformes et environnements. En documentant systématiquement les variations de performance, ils développent une conscience critique des contraintes du monde réel qui éclaireront leurs décisions de conception, créant un état d'esprit scientifique essentiel pour un développement responsable de l'IA.
 
-#### Étape 2 : collecte de données et gestion de l'information
+#### Étape 2 : Collecte de données et gestion de l'information
 
 S'appuyant sur leur compréhension des limitations technologiques, les élèves implémentent leur premier prototype fonctionnel. Cette phase introduit le concept de variables comme la « mémoire » de leur programme, enseignant aux élèves comment capturer et stocker à la fois les coordonnées GPS et les entrées vocales. Grâce à une programmation pratique dans CodeSkool, les élèves créent la couche essentielle de collecte de données de leur agent conversationnel, expérimentant comment les concepts abstraits se traduisent en implémentation pratique.
 
-#### Étape 3 : traitement des données dans un système basé sur l'IA
+#### Étape 3 : Traitement des données dans un système basé sur l'IA
 
 Cette phase transforme les données brutes en informations significatives grâce à l'intégration de l'IA. Les élèves explorent les modèles de langage et découvrent l'art de l'ingénierie des prompts — apprenant à élaborer des instructions efficaces qui guident les réponses de l'IA. À travers des tests itératifs et un raffinement continu, ils convertissent les coordonnées techniques en noms de lieux lisibles par l'homme et développent des compétences pour créer des prompts contextuellement pertinents. Cet apprentissage expérientiel aide les élèves à comprendre à la fois les capacités et les limitations des modèles de langage.
 
-#### Étape 4 : diffusion d'informations accessibles aux utilisateurs finaux
+#### Étape 4 : Diffusion d'informations accessibles aux utilisateurs finaux
 
 La phase finale complète l'agent conversationnel en implémentant les capacités de sortie vocale et la conception conversationnelle. Les élèves configurent les paramètres de synthèse vocale, créent des flux de dialogue logiques et développent des prompts qui fournissent des informations pertinentes sur les environnements urbains. Cette activité culminante intègre tous les composants précédents en un assistant entièrement interactif vocalement qui peut engager une conversation naturelle, démontrant comment la technologie peut améliorer l'accessibilité et fournir des services géolocalisés précieux.
 
@@ -89,7 +89,7 @@ Ce protocole initie les élèves au développement d'un agent conversationnel au
 
 ---
 
-## Étape 1 : fondamentaux du système et précision
+## Étape 1 : Fondamentaux du système et précision
 
 ### Contexte de la séquence
 
@@ -180,7 +180,7 @@ que ces technologies restent accessibles à des groupes d'utilisateurs diversifi
 
 ---
 
-## Étape 2 : collecte de données et gestion de l'information
+## Étape 2 : Collecte de données et gestion de l'information
 
 ### Contexte de la séquence
 
@@ -284,7 +284,7 @@ types d'assistance que votre agent conversationnel pourrait fournir ?
 
 ---
 
-## Étape 3 : traitement des données dans un système basé sur l'IA
+## Étape 3 : Traitement des données dans un système basé sur l'IA
 
 ### Contexte de la séquence
 
@@ -328,7 +328,7 @@ Dans cette phase d'investigation, les élèves exploreront comment intégrer les
 
 Avant d'implémenter l'intégration d'IA, les élèves doivent développer une compréhension de base du fonctionnement des modèles de langage. Commencez par une brève introduction aux modèles de langage comme systèmes d'IA entraînés sur de vastes ensembles de données textuelles qui peuvent comprendre et générer du texte similaire à celui des humains. Faites mener aux élèves une recherche rapide sur les modèles de langage en leur fournissant des ressources recommandées telles qu'une vidéo suggérée (par exemple Comment fonctionnent les modèles de langage), des articles simples expliquant les principes des modèles de langage ou des exemples d'interactions avec des modèles de langage. Cette base aidera les élèves à comprendre pourquoi l'ingénierie des prompts est importante et comment elle influence la qualité des réponses d'IA.
 
-#### Première intégration d'IA : conversion de localisation en ville
+#### Première intégration d'IA : Conversion de localisation en ville
 
 Dans cette étape, les élèves vont implémenter leur première intégration d'IA en transformant des coordonnées GPS brutes en un nom de ville significatif. Cette fonctionnalité sert un objectif important : elle convertit des données techniques (coordonnées numériques) en informations lisibles par l'homme qui sont plus intuitives et utiles tant pour le système que pour ses utilisateurs. Cette conversion servira également de base pour des prompts plus complexes dans les activités suivantes, car inclure le nom de ville dans les futurs prompts aidera l'IA à fournir des informations plus pertinentes contextuellement.
 
@@ -385,7 +385,7 @@ localisation-vers-ville ? Comment votre agent conversationnel pourrait-il gérer
 
 ---
 
-## Étape 4 : diffusion d'informations accessibles aux utilisateurs finaux
+## Étape 4 : Diffusion d'informations accessibles aux utilisateurs finaux
 
 ### Contexte de la séquence
 

@@ -56,7 +56,7 @@ Cette fiche technique accompagne la ressource [Temps de réaction en une demi-se
 
 ---
 
-## PROG13-TDL-1 : stimulus visuel (LED)
+## PROG13-TDL-1 : Stimulus visuel (LED)
 
 **Câblage :**
 
@@ -87,7 +87,7 @@ newGame()
 
 ---
 
-## PROG13-TDL-2 : stimulus sonore (buzzer)
+## PROG13-TDL-2 : Stimulus sonore (buzzer)
 
 **Câblage :**
 
@@ -114,7 +114,7 @@ newGame()
 
 ---
 
-## PROG13-TDL-3 : afficher les données sur un écran
+## PROG13-TDL-3 : Afficher les données sur un écran
 
 **Câblage écran OLED SSD1306 (I2C) :**
 

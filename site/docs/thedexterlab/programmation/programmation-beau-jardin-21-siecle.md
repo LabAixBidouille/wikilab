@@ -55,7 +55,7 @@ Cette fiche technique accompagne la ressource [Beau jardin au 21e siècle](/ress
 
 ---
 
-## Fiche 1 : mesurer la conductivité du sol
+## Fiche 1 : Mesurer la conductivité du sol
 
 **Câbler le capteur d'humidité**
 
@@ -81,7 +81,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : afficher les données collectées sur un écran
+## Fiche 2 : Afficher les données collectées sur un écran
 
 **Câbler le capteur d'humidité**
 
@@ -125,7 +125,7 @@ forever(function () {
 
 ---
 
-## Fiche 3 : programmation d'un servomoteur
+## Fiche 3 : Programmation d'un servomoteur
 
 **Câbler le servomoteur**
 
@@ -149,7 +149,7 @@ forever(function () {
 
 ---
 
-## Fiche 4 : créer un système d'arrosage automatique
+## Fiche 4 : Créer un système d'arrosage automatique
 
 **Câblage du capteur d'humidité**
 

@@ -102,7 +102,7 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ---
 
-## Étape 1 : phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
+## Étape 1 : Phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
 
 ### Contexte de la séquence
 
@@ -192,7 +192,7 @@ Pour guider la discussion de compte rendu et aider les élèves à réfléchir �
 
 ---
 
-## Étape 2 : phase d'enquête sur le terrain : expérience pratique donnant vie aux connaissances théoriques
+## Étape 2 : Phase d'enquête sur le terrain : expérience pratique donnant vie aux connaissances théoriques
 
 ### Contexte de la séquence
 
@@ -286,7 +286,7 @@ L'étape suivante consistera à synthétiser ces résultats pour comprendre les 
 
 ---
 
-## Étape 3 : phase d'analyse et de réflexion : comprendre la collecte de données urbaines
+## Étape 3 : Phase d'analyse et de réflexion : comprendre la collecte de données urbaines
 
 ### Contexte de la séquence
 

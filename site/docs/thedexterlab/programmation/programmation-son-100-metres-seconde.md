@@ -52,7 +52,7 @@ Cette fiche technique accompagne la ressource [Le son et les 100 mètres en 1 se
 
 ---
 
-## PROG12-TDL-1 : mesurer une durée
+## PROG12-TDL-1 : Mesurer une durée
 
 **Câblage capteur HC-SR04 :**
 
@@ -74,7 +74,7 @@ input.buttonUser.onEvent(ButtonEvent.Click, function () {
 
 ---
 
-## PROG12-TDL-2 : afficher les données sur un écran
+## PROG12-TDL-2 : Afficher les données sur un écran
 
 **Câblage écran OLED SSD1306 (I2C) :**
 

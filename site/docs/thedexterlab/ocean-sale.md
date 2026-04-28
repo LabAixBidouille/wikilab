@@ -82,7 +82,7 @@ En mettant en œuvre une expérience par eux-mêmes, les élèves mobiliseront p
     - Sciences de la Vie et de la Terre (SVT) : communication des résultats scientifiques à l'oral et à l'écrit.
     - Physique Chimie : communication des résultats scientifiques à l'oral et à l'écrit.
 
-## Étape 1 : le détecteur de sel
+## Étape 1 : Le détecteur de sel
 
 ### Orientation
 
@@ -124,7 +124,7 @@ Pour utiliser un détecteur de sel nous devons d'abord régler notre instrument.
 - La conductivité augmente avec la concentration en sel.
 - Cette augmentation est régulière, elle est de 407 µS/cm tous les 200 mg/L.
 
-## Étape 2 : expérimentation 1
+## Étape 2 : Expérimentation 1
 
 ### Orientation
 
@@ -144,7 +144,7 @@ Mesure 2, eau de rivière : ________ µS/cm
 
 L'eau récoltée après son passage dans le sol a une plus grande conductivité qu'au départ. Nous pouvons en conclure qu'une partie des sels minéraux du sol s'est dissoute dans l'eau et a augmenté la conductivité de l'eau.
 
-## Étape 3 : expérimentation 2
+## Étape 3 : Expérimentation 2
 
 ### Orientation
 

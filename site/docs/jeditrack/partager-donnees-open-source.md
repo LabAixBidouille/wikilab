@@ -69,7 +69,7 @@ L'intégration de l'open data dans les projets d'animation jeunesse représente 
 
 ## Une démarche en trois phases
 
-### L'exploration initiale : construire sur l'existant
+### L'exploration initiale : Construire sur l'existant
 
 Avant de débuter l'expérimentation, l'exploration des données déjà disponibles constitue une étape fondamentale de la démarche citoyenne. Les portails de données ouvertes, qu'ils soient locaux, nationaux ou européens, offrent des informations permettant aux jeunes de contextualiser leur problématique et de mieux construire leurs questions de recherche.
 
@@ -141,7 +141,7 @@ Durant cette étape, il est important pour l'animateur de questionner le travail
 
 L'animateur joue ici un rôle déterminant en guidant cette analyse critique sans décourager les jeunes. Chaque investigation, aussi modeste soit-elle, contribue à l'édifice de la connaissance pour autant qu'elle respecte ces principes de qualité et de transparence. Cette perspective encourage les jeunes à améliorer continuellement la méthodologie, à affiner les protocoles, et à considérer chaque expérience comme une étape dans un processus de recherche de la connaissance plutôt que comme une fin en soi.
 
-## En pratique : structurer et partager vos données
+## En pratique : Structurer et partager vos données
 ### La structuration des données pour le partage
 
 La valorisation du travail d'investigation passe d'abord par une structuration rigoureuse des données collectées. Cette exigence de rigueur constitue en elle-même un apprentissage fondamental de la démarche citoyenne. Les données doivent être organisées selon un format standardisé incluant systématiquement :
@@ -179,7 +179,7 @@ Pour des projets plus ambitieux, permet de construire des tableaux de bord dynam
 
 Le choix de l'outil dépend du niveau des jeunes et de la complexité du projet, mais l'objectif reste constant : rendre les données accessibles et compréhensibles pour différents publics, des pairs aux décideurs locaux.
 
-## Exemple pratique : cartographie sonore collaborative
+## Exemple pratique : Cartographie sonore collaborative
 Pour illustrer concrètement cette approche, considérons un projet de cartographie sonore du quartier. Ce projet se déroule en quatre phases distinctes sur environ six séances d'animation.
 
 ### Phase 1 : Préparation (1 séance)
@@ -238,7 +238,7 @@ Pour illustrer concrètement cette approche, considérons un projet de cartograp
 - [ ]  **Reconnaissance assurée** : Valorisation du travail des jeunes dans la communication
 - [ ]  **Méthode capitalisée** : Documentation pour faciliter la réplication
 
-## Bonnes pratiques : points de vigilance essentiels
+## Bonnes pratiques : Points de vigilance essentiels
 
 ### Aspects juridiques
 Le respect du Règlement Général sur la Protection des Données impose de veiller à ne jamais collecter ni publier de données personnelles. Les jeunes doivent être sensibilisés à ces enjeux dès la conception du protocole expérimental :

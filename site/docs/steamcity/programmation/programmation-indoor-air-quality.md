@@ -56,7 +56,7 @@ Cette fiche technique accompagne la ressource [Indoor Air Quality](/ressources/s
 
 ---
 
-## Fiche 1 : afficher le taux de CO2 sur écran LCD (capteur SCD30)
+## Fiche 1 : Afficher le taux de CO2 sur écran LCD (capteur SCD30)
 
 Éditeurs : [vittascience.com/l476](https://fr.vittascience.com/l476), [vittascience.com/arduino](https://fr.vittascience.com/arduino) ou [vittascience.com/microbit](https://fr.vittascience.com/microbit).
 
@@ -117,7 +117,7 @@ void loop() {}
 
 ---
 
-## Fiche 2 : configurer la couleur de l'écran LCD RGB
+## Fiche 2 : Configurer la couleur de l'écran LCD RGB
 
 **Code**
 
@@ -137,7 +137,7 @@ void loop() { }
 
 ---
 
-## Fiche 3 : indicateur LED CO2 (NeoPixel)
+## Fiche 3 : Indicateur LED CO2 (NeoPixel)
 
 Ce programme combine le capteur SCD30 et le bandeau NeoPixel. Des **structures conditionnelles** `if/else if/else` permettent d'allumer les LED d'une couleur différente selon le taux de CO2.
 
@@ -225,7 +225,7 @@ void loop() {
 
 ---
 
-## Fiche 4 : affichage du CO2 avec temporisation
+## Fiche 4 : Affichage du CO2 avec temporisation
 
 On ajoute une pause d'une seconde pour limiter la fréquence d'affichage à l'écran et faciliter la lecture des mesures.
 
@@ -312,7 +312,7 @@ void loop() { }
 
 ---
 
-## Fiche 5 : visualisation des données
+## Fiche 5 : Visualisation des données
 
 1. Dans la console d'affichage Vittascience, sélectionnez **Mode graphique** à droite.
 2. À partir du graphique, exportez les données au format `.csv` (bouton **Exporter** en bas de la fenêtre). Les données s'ouvrent alors dans Excel, LibreOffice Calc, Google Sheets ou Numbers, où la fonction **Graphique** permet de tracer l'évolution du CO2 au cours du temps.

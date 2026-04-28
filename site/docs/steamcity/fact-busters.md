@@ -87,7 +87,7 @@ L'activité FactBuster est structurée en trois phases complémentaires, chacune
 
 ---
 
-## Phase 1 : comprendre la démarche de vérification des faits
+## Phase 1 : Comprendre la démarche de vérification des faits
 
 ### Contexte de la séquence
 
@@ -188,7 +188,7 @@ Ces questions visent à renforcer leur esprit critique et à affiner leur compr�
 
 ---
 
-## Phase 2 : construire des protocoles de vérification des faits
+## Phase 2 : Construire des protocoles de vérification des faits
 
 ### Contexte de la séquence
 
@@ -292,7 +292,7 @@ Fournissez des retours constructifs sur les protocoles présentés, en soulignan
 
 ---
 
-## Phase 3 : diffuser la culture scientifique (phase optionnelle)
+## Phase 3 : Diffuser la culture scientifique (phase optionnelle)
 
 ### Contexte de la séquence
 
@@ -388,7 +388,7 @@ En suivant cette phase de diffusion, les élèves deviendront des ambassadeurs d
 - **Debunking Myths** : Dédié à la découverte de la vérité derrière les mythes et les idées fausses populaires sur divers sujets, y compris la science. Voir Debunking Myths sur YouTube.
 - **Science Myths Debunked** : Axée sur la dissipation des faussetés scientifiques, cette chaîne éclaire la réalité en abordant les mythes et les idées fausses courants. Voir Science Myths Debunked sur YouTube.
 
-## Annexe : exemples de mythes
+## Annexe : Exemples de mythes
 
 - **Les épinards sont riches en fer** : Les épinards contiennent du fer, mais pas en quantité exceptionnelle. L'origine de cette croyance provient d'une erreur de virgule dans une étude du 19ème siècle. Les épinards contiennent environ 2.7 mg de fer pour 100 g, ce qui est moins que les lentilles ou les haricots. https://www.researchgate.net/publication/331556841_Spinach_in_Blunderland_How_the_myth_that_spinach_is_rich_in_iron_became_an_urban_academic_legend
 - **Nous utilisons seulement 10% de notre cerveau** : Les techniques d'imagerie cérébrale, comme l'IRM fonctionnelle, montrent que presque toutes les parties du cerveau ont une activité à différents moments, même pendant le sommeil. Aucune zone n'est complètement inactive. https://www.psychologicalscience.org/uncategorized/myth-we-only-use-10-of-our-brains.html
@@ -407,7 +407,7 @@ En suivant cette phase de diffusion, les élèves deviendront des ambassadeurs d
 - **Il n'y a pas de gravité dans l'espace** : La gravité existe dans l'espace et maintient les planètes en orbite. Les astronautes flottent parce qu'ils sont en état de chute libre constante autour de la Terre. Ce phénomène est souvent appelé "apesanteur" ou "microgravité", mais il résulte de la gravité qui continue d'agir. https://www.yalescientific.org/2010/10/mythbusters-does-zero-gravity-exist-in-space/
 - **On ne doit pas nager après avoir mangé** : Il n'y a pas de preuve scientifique solide que nager après avoir mangé est dangereux. Les crampes musculaires peuvent survenir, mais elles ne sont pas directement liées à la digestion. L'activité physique modérée après avoir mangé est généralement sûre pour la plupart des gens. https://www.dignityhealth.org/articles/is-swimming-after-eating-really-dangerous
 
-## Annexe : formulaires imprimables
+## Annexe : Formulaires imprimables
 
 Vous trouverez ci-dessous les deux formulaires utilisés dans ce protocole avec pour objectifs de :
 
@@ -420,7 +420,7 @@ Vous trouverez ci-dessous les deux formulaires utilisés dans ce protocole avec 
    - **Transparence** : Il s'agit de rendre toutes les étapes d'un processus de recherche ou d'expérimentation claires et accessibles. La transparence permet aux autres chercheurs de comprendre précisément comment les résultats ont été obtenus, de reproduire les expériences et de vérifier l'intégrité des conclusions.
    - **Reproductibilité** : Capacité d'une recherche ou d'une expérience à être reproduite par d'autres chercheurs selon les mêmes méthodes et conditions. La reproductibilité est un pilier de la méthode scientifique, car elle permet de vérifier que les découvertes ne sont pas le fruit du hasard ou de biais propres au chercheur initial.
 
-### Formulaire 1 : analyse de la source d'information
+### Formulaire 1 : Analyse de la source d'information
 
 - **Date** : .../.../......
 - **Groupe** : ...........................................................................................................................
@@ -463,7 +463,7 @@ Vous trouverez ci-dessous les deux formulaires utilisés dans ce protocole avec 
 - Des améliorations peuvent être apportées à la méthodologie
 - Comment cette analyse influence-t-elle votre perception du sujet ?
 
-### Formulaire 2 : fiche de protocole scientifique
+### Formulaire 2 : Fiche de protocole scientifique
 
 - **Date** : .../.../......
 - **Groupe** : ...........................................................................................................................

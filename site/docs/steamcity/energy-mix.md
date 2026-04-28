@@ -103,7 +103,7 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ---
 
-## Phase 1 : décryptage du mix énergétique
+## Phase 1 : Décryptage du mix énergétique
 
 ### Contexte de la séquence
 
@@ -214,7 +214,7 @@ L'analyse du mix énergétique européen a révélé aux élèves la complexité
 
 ---
 
-## Phase 2 : construction du simulateur
+## Phase 2 : Construction du simulateur
 
 ### Contexte de la séquence
 
@@ -331,7 +331,7 @@ Pour approfondir la réflexion et préparer l'expérimentation de scénarios, vo
 
 ---
 
-## Phase 3 : expérimentation et scénarios de transition énergétique
+## Phase 3 : Expérimentation et scénarios de transition énergétique
 
 ### Contexte de la séquence
 

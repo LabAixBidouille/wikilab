@@ -103,7 +103,7 @@ Ce qui rend l'adoption si simple, c'est que vous partez de ce que vous faites d�
 
 ### Deux approches selon vos besoins
 
-#### Approche "clé en main" : sélectionner un arbre existant
+#### Approche "clé en main" : Sélectionner un arbre existant
 - Vous débutez avec l'outil et voulez tester sans risque
 - Votre activité correspond à l'un des 70+ arbres disponibles
 - Vous manquez de temps pour créer du contenu sur mesure
@@ -111,7 +111,7 @@ Ce qui rend l'adoption si simple, c'est que vous partez de ce que vous faites d�
 
 Vous transformez instantanément une activité "classique" en parcours structuré et motivant. Un atelier cuisine devient un voyage d'apprentissage avec des étapes claires, des objectifs personnalisés et une progression visible. Vous animez régulièrement des ateliers bricolage ? Prenez le "Woodworking Skill Tree" et imprimez-le : vos participants peuvent maintenant cartographier leurs compétences, se fixer des objectifs et visualiser leur progression.
 
-#### Approche "sur mesure" : créer votre propre arbre
+#### Approche "sur mesure" : Créer votre propre arbre
 - Votre projet a des objectifs pédagogiques spécifiques
 - Vous voulez intégrer vos valeurs éducatives dans l'outil
 - Aucun arbre existant ne correspond parfaitement à votre contexte

@@ -52,7 +52,7 @@ Cette fiche technique accompagne la ressource [Qualité de l'air et personnes](/
 
 ---
 
-## Fiche 1 : mesurer la concentration de CO2
+## Fiche 1 : Mesurer la concentration de CO2
 
 **Câbler le capteur MH-Z19B (PWM)** :
 
@@ -77,7 +77,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : afficher les données collectées sur un écran
+## Fiche 2 : Afficher les données collectées sur un écran
 
 **Connecter l'écran OLED SSD1306 (I2C)** :
 

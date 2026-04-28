@@ -80,7 +80,7 @@ Peut-on s'assurer qu'un tel système sera fiable assez pour qu'on puisse lui fai
 5. **Créativité et innovation** : concevoir des solutions créatives et innovantes à des défis technologiques.
 6. **Citoyenneté numérique** : réfléchir aux implications sociales, éthiques et de sécurité de l'utilisation de la technologie.
 
-## Étape 1 : comprendre la serrure électronique
+## Étape 1 : Comprendre la serrure électronique
 
 ### Orientation
 
@@ -131,7 +131,7 @@ Enfin, expérimentation :
 
 Cette étape offre une opportunité pratique pour les élèves d'apprendre les bases de l'électronique et de la programmation, tout en mettant en œuvre une application réelle de la technologie. Si les élèves ne sont pas encore capables de comprendre l'électronique de contrôle du solénoïde, il est possible de simuler la serrure avec un simple servomoteur qui actionnera un loquet.
 
-## Étape 2 : création et entraînement du modèle IA avec Teachable Machine
+## Étape 2 : Création et entraînement du modèle IA avec Teachable Machine
 
 ### Orientation
 
@@ -191,7 +191,7 @@ L'exercice d'intégrer une IA dans un système de serrure électronique a été 
 - Découvrir des scénarios où l'IA pourrait échouer
 - Développer des compétences en planification, travail en équipe et gestion de ressources
 
-## Étape 3 : implémentation du système avec Adacraft
+## Étape 3 : Implémentation du système avec Adacraft
 
 ### Orientation
 
@@ -240,7 +240,7 @@ Questions :
 
 Ce projet illustre non seulement l'application de l'IA dans la vie quotidienne, mais il est également une excellente opportunité éducative pour les élèves d'apprendre une gamme de compétences en STEM.
 
-## Étape 4 : évaluation des limites et cas anormaux
+## Étape 4 : Évaluation des limites et cas anormaux
 
 ### Orientation
 

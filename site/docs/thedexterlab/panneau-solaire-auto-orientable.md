@@ -68,7 +68,7 @@ Ce protocole mobilise plusieurs disciplines scolaires, notamment :
 
 Ce protocole peut être adapté à différents niveaux scolaires, de la fin du collège au lycée. Il peut être utilisé dans le cadre de projets de physique, de sciences de l'ingénieur ou de technologie.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -122,7 +122,7 @@ En effet, nous pouvons comparer l'intensité lumineuse de plusieurs sources tell
 
 Nous pouvons tester la transparence (ou l'absorption) de différents matériaux et épaisseurs ou éventuellement concentrer la lumière avec une lentille ou un miroir concave. Les recherches sont presque illimitées et, bien qu'elles ne soient pas essentielles au présent projet, elles permettent de se familiariser avec la lumière et de se faire une idée de son intensité.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -171,7 +171,7 @@ Remarques :
 - Les lumières parasites ou même l'éclairage ambiant peuvent altérer les mesures, c'est pourquoi les LDR doivent être enfermées dans un tube (de quelques centimètres de long) qui les protège de la lumière ambiante.
 - Il y a toujours de petites différences entre les LDR gauche et droite, car on n'est pas sûr qu'elles soient exactement symétriques, et elles ne sont pas très précises.
 
-## Étape 3 : commander un servomoteur
+## Étape 3 : Commander un servomoteur
 
 ### Orientation
 
@@ -198,7 +198,7 @@ Les élèves sont maintenant capables d'utiliser et de commander un servomoteur,
 
 En couplant le servomoteur avec la détection d'orientation lumineuse, il devient possible d'orienter un dispositif pour qu'il fasse toujours face à la lumière.
 
-## Étape 4 : réaliser le suiveur solaire
+## Étape 4 : Réaliser le suiveur solaire
 
 ### Orientation
 

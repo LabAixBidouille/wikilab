@@ -78,7 +78,7 @@ En mettant en œuvre une expérience par eux-mêmes, les élèves devront mobili
 - Transdisciplinaire : savoir modéliser, comprendre, formaliser, partager, construire, investiguer, prouver son hypothèse
 - Physique : formuler une hypothèse et conduire une expérimentation basée sur la méthode scientifique pour conclure si elle est correcte ou non.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -108,7 +108,7 @@ Dans cette phase, nous avons fait et réalisé ce qui suit :
 - Utiliser un dispositif qui émet et reçoit des ultrasons grâce à un capteur de distance à ultrasons tel que le HC-SR04,
 - Mesurer la vitesse du son en plaçant un objet à une distance connue du capteur et enregistrer le temps que met l'impulsion ultrasonore pour parcourir deux fois cette distance.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -139,7 +139,7 @@ Dans cette phase, nous avons réalisé ce qui suit :
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
 - Utiliser un programme pour afficher des données sur un écran LCD.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

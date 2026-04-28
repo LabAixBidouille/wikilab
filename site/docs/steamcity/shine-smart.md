@@ -81,7 +81,7 @@ Le protocole peut être entièrement réalisé en deux à trois séquences. Vous
 
 ---
 
-## Phase 1 : analyse documentaire
+## Phase 1 : Analyse documentaire
 
 ### Contexte de la séquence
 
@@ -152,7 +152,7 @@ Pour approfondir la réflexion sur cette phase documentaire, les enseignants pou
 
 ---
 
-## Phase 2 : protocole d'étude sur le territoire
+## Phase 2 : Protocole d'étude sur le territoire
 
 ### Contexte de la séquence
 
@@ -241,7 +241,7 @@ Pour approfondir la réflexion, les enseignants pourront également utiliser les
 
 ---
 
-## Phase 3 : analyse et recommandations
+## Phase 3 : Analyse et recommandations
 
 ### Contexte de la séquence
 
@@ -344,7 +344,7 @@ Pour conclure l'ensemble du protocole et ouvrir sur d'autres perspectives, les e
 
 ## Annexes
 
-### Formulaire d'observation : éclairage urbain
+### Formulaire d'observation : Éclairage urbain
 
 Groupe : Date :
 

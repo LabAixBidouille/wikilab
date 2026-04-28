@@ -37,7 +37,7 @@ sidebar_position: 7
 
 ---
 
-## Le bruit environnemental et l'animation jeunesse : sensibiliser par la pratique
+## Le bruit environnemental et l'animation jeunesse : Sensibiliser par la pratique
 
 Le bruit, défini comme une sensation auditive désagréable ou dérangeante, est omniprésent dans notre quotidien et constitue une source importante de pollution environnementale. Selon l'Agence européenne pour l'environnement, environ **95 millions de personnes** sont exposées à des niveaux nocifs de bruit du trafic routier. Au **moins 20 % de la population urbaine** est exposée à des niveaux considérés comme nocifs pour la santé. Dans de nombreuses villes, ce pourcentage peut atteindre 50 % de la population urbaine. On estime qu'au moins **18 millions de personnes** sont fortement gênées et 5 millions souffrent de troubles du sommeil dus à une exposition à long terme au bruit des transports dans l'UE. En outre, on estime que l'exposition à long terme au bruit des transports provoque environ 11 000 décès prématurés et 40 000 nouveaux cas de cardiopathie ischémique.
 

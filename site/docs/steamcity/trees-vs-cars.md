@@ -84,7 +84,7 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 
 ---
 
-## Étape 1 : comprendre les arbres binaires
+## Étape 1 : Comprendre les arbres binaires
 
 ### Contexte de la séquence
 
@@ -124,7 +124,7 @@ L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où le
 
 ---
 
-## Étape 2 : création d'arbres de décision pour la classification des véhicules
+## Étape 2 : Création d'arbres de décision pour la classification des véhicules
 
 ### Contexte de la séquence
 
@@ -182,7 +182,7 @@ Enfin, les groupes compareront leurs arbres et leurs performances. Il peut être
 
 ---
 
-## Étape 3 : construction d'un arbre de décision guidé par algorithme
+## Étape 3 : Construction d'un arbre de décision guidé par algorithme
 
 ### Contexte de la séquence
 
@@ -231,7 +231,7 @@ Le reste du processus est identique à l'étape précédente. Le résultat sera 
 
 ---
 
-## Étape 4 : explorer les limites des algorithmes d'IA
+## Étape 4 : Explorer les limites des algorithmes d'IA
 
 ### Contexte de la séquence
 

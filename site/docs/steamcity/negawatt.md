@@ -96,7 +96,7 @@ Matériel nécessaire :
 - **Sources pilotables** : Sources d'énergie dont la production peut être ajustée à la demande (nucléaire, gaz, hydraulique).
 - **Sources intermittentes** : Sources d'énergie dont la production dépend de conditions naturelles variables (éolien, solaire).
 
-## Phase 1 : inventaire énergétique de notre environnement
+## Phase 1 : Inventaire énergétique de notre environnement
 
 ### Contexte de la séquence
 
@@ -164,7 +164,7 @@ Chaque groupe explore un espace différent puis se retrouvent pour mettre en com
 
 Cette première exploration permet aux élèves de prendre conscience de la densité énergétique de leur environnement quotidien.
 
-#### 2. Voyage dans le temps : retrouver les "ancêtres"
+#### 2. Voyage dans le temps : Retrouver les "ancêtres"
 
 ### Objectifs d'apprentissage
 
@@ -205,7 +205,7 @@ Pour approfondir la réflexion et développer une compréhension plus nuancée d
 
 ---
 
-## Phase 2 : comparaison des consommations d'hier et d'aujourd'hui
+## Phase 2 : Comparaison des consommations d'hier et d'aujourd'hui
 
 ### Contexte de la séquence
 
@@ -271,7 +271,7 @@ Les élèves calculent les facteurs d'évolution et identifient les tendances :
 - **Nouveaux besoins énergétiques** : Certains services (réfrigération, électronique) créent de nouveaux postes de consommation
 - **Changement d'échelle** : La généralisation d'équipements autrefois rares multiplie la consommation totale
 
-#### 2. Débat : progrès ou surconsommation ?
+#### 2. Débat : Progrès ou surconsommation ?
 
 ### Objectifs d'apprentissage
 
@@ -313,7 +313,7 @@ Pour approfondir la réflexion et développer une compréhension plus systémiqu
 
 ---
 
-## Phase 3 : exploration des leviers de sobriété
+## Phase 3 : Exploration des leviers de sobriété
 
 ### Contexte de la séquence
 
@@ -357,7 +357,7 @@ Concepts clés :
 
 ### Investigation par les élèves
 
-#### 1. Atelier transport : repenser nos déplacements
+#### 1. Atelier transport : Repenser nos déplacements
 
 ### Objectifs d'apprentissage
 
@@ -384,7 +384,7 @@ Les élèves réfléchissent en petits groupes sur la faisabilité de ces diffé
 | Autopartage | Une seule voiture + autopartage ponctuel | -50% coûts fixes | Offre locale disponible |
 | Proximité choisie | Déménagement plus près du travail | -70% trajets quotidiens | Opportunités immobilières |
 
-#### 2. Atelier habitat : optimiser notre confort énergétique
+#### 2. Atelier habitat : Optimiser notre confort énergétique
 
 ### Objectifs d'apprentissage
 
@@ -421,7 +421,7 @@ Eau chaude (15% de la consommation) :
 - **Utilisation optimale** (lave-linge plein, programmes courts) &#8594; -20%
 - **Séchage naturel du linge** &#8594; -30% du poste séchage
 
-#### 3. Atelier alimentation : repenser notre consommation alimentaire
+#### 3. Atelier alimentation : Repenser notre consommation alimentaire
 
 ### Objectifs d'apprentissage
 
@@ -468,7 +468,7 @@ Pour approfondir la réflexion et développer une compréhension plus systémiqu
 
 ---
 
-## Phase 4 : analyse critique et prospective des usages énergétiques
+## Phase 4 : Analyse critique et prospective des usages énergétiques
 
 ### Contexte de la séquence
 
@@ -651,7 +651,7 @@ Cette phase conclut le protocole en donnant aux élèves les outils conceptuels 
 
 ---
 
-## Annexe : grille d'évaluation multidimensionnelle
+## Annexe : Grille d'évaluation multidimensionnelle
 
 Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : \_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -684,7 +684,7 @@ Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date
 
 ---
 
-## Annexe : journal de bord
+## Annexe : Journal de bord
 
 Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : du \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_ au \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 
@@ -696,7 +696,7 @@ Imprimer autant de feuilles que nécessaire pour collecter les informations sur 
 
 ---
 
-## Annexe : analyse des usages
+## Annexe : Analyse des usages
 
 Nom de l'élève : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date : du \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_ au \_\_\_\_/\_\_\_\_/\_\_\_\_\_\_\_\_
 

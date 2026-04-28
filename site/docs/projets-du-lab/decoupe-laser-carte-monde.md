@@ -31,11 +31,11 @@ L'objectif est de réaliser une carte du monde en liège à fixer au mur, sur la
 
 - Inkscape pour la préparation et la mise au point du contour de découpe
 
-### Première étape : trouver un tracé vectoriel
+### Première étape : Trouver un tracé vectoriel
 
 Une simple image ne suffit pas : il faut récupérer un contour vectoriel au format SVG. Le choix de la projection cartographique est important : la projection de Mercator conserve les angles mais déforme les surfaces aux pôles. Le choix s'est porté sur une **projection de Mollweide**, plus compacte, en supprimant l'Antarctique : [BlankMap-World6.svg](https://commons.wikimedia.org/wiki/File:BlankMap-World6.svg)
 
-### Deuxième étape : préparer le contour de découpe
+### Deuxième étape : Préparer le contour de découpe
 
 Le tracé récupéré inclut les frontières des pays. Il ne s'agit pas de découper un puzzle : seul le contour des côtes est nécessaire. Séparer les frontières du contour côtier dans Inkscape peut être fastidieux.
 

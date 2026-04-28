@@ -66,7 +66,7 @@ Ce projet peut être relié à plusieurs compétences du programme scolaire, tel
 
 Comme pour l'ensemble des ressources TheDexterLab, les compétences abordées peuvent être adaptées par l'enseignant en fonction de la discipline, du niveau scolaire des élèves et des objectifs d'apprentissage spécifiques.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -100,7 +100,7 @@ Grâce à la mise en œuvre de cette phase, nous avons abordé les sujets suivan
 - Être capable de construire une turbine simple à l'aide d'une imprimante 3D ou en utilisant des matériaux simples tels que du papier, du carton, des tiges en bois, etc.
 - Comprendre comment tester notre éolienne et nos turbines et étudier ce qui se passe dans différentes conditions de vent ou de courant d'eau.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -138,7 +138,7 @@ Si nous n'avons pas autant de chance avec les conditions de vent dans notre rég
 
 Grâce à cette étape, nous avons appris à tester notre éolienne et nos turbines dans différentes conditions de vent ou de courant d'eau. Nous avons également mis en place une méthode pour collecter des données, afin de mieux comprendre les phénomènes étudiés et en tirer des conclusions. Nous avons également appris comment organiser et enregistrer les données collectées dans un tableau. De plus, nous avons compris l'importance de mener une enquête qualitative pour essayer de répondre à une question de recherche spécifique.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

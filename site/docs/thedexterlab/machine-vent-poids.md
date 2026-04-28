@@ -68,7 +68,7 @@ Ce protocole mobilise plusieurs compétences, incluant l'ingénierie, la concept
 
 Les élèves apprendront à construire des turbines éoliennes, à comprendre les principes de l'aérodynamique et de la conversion de l'énergie, à concevoir des mécanismes pour transformer le mouvement rotatif en mouvement linéaire, et à résoudre des problèmes d'ingénierie complexes. Ils acquerront également une compréhension pratique de l'énergie renouvelable et de son rôle dans un avenir durable.
 
-## Étape 1 : découverte du vent et son usage dans l'histoire
+## Étape 1 : Découverte du vent et son usage dans l'histoire
 
 ### Orientation
 
@@ -102,7 +102,7 @@ Pour structurer l'enquête autour de cette question :
 
 Grâce aux étapes précédentes, nous avons pu comprendre l'importance du vent dans l'histoire et comment il a été utilisé pour différentes tâches.
 
-## Étape 2 : caractéristiques du vent
+## Étape 2 : Caractéristiques du vent
 
 ### Orientation
 
@@ -155,7 +155,7 @@ Matériaux : papier cartonné, crayon avec gomme, paille rigide, épingle, colle
 
 Comprendre ce qu'est le vent et comment il fonctionne est vital pour de nombreux domaines de la science et de l'ingénierie, en particulier pour répondre aux problèmes de la production d'énergie décarbonée.
 
-## Étape 3 : capter le vent
+## Étape 3 : Capter le vent
 
 ### Orientation
 
@@ -185,7 +185,7 @@ Les élèves devront construire plusieurs types de système pour choisir collect
 
 La création des turbines a permis de transformer l'énergie du vent en mouvement mécanique. Les différents types de turbines offrent aux élèves un panel de solutions pour le premier étage du système de levage éolien.
 
-## Étape 4 : transformer le mouvement
+## Étape 4 : Transformer le mouvement
 
 ### Orientation
 
@@ -221,7 +221,7 @@ Matériaux : poulies de différents diamètres, corde fine, support, poids de 50
 
 En engageant les élèves dans cette tâche, on peut couvrir de nombreux sujets éducatifs tels que la mécanique, l'énergie renouvelable, la physique, l'ingénierie, et la résolution de problèmes.
 
-## Étape 5 : intégration d'un système de levage
+## Étape 5 : Intégration d'un système de levage
 
 ### Orientation
 
@@ -253,7 +253,7 @@ Matériaux : un tambour (bobine ou cylindre), corde fine, arbre (boulon ou tige)
 
 La clé de la conversion réussie du mouvement rotatif en mouvement de levage est le choix et la conception corrects du système mécanique, qui dépendent du couple et de la vitesse nécessaires pour lever le poids de 50 g.
 
-## Fiche de programmation : anémomètre
+## Fiche de programmation : Anémomètre
 
 ### Câblage
 

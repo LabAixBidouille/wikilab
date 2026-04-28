@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Corps et accélération](/ressour
 
 ---
 
-## Fiche 1 : collecter des données à l'aide de l'accéléromètre
+## Fiche 1 : Collecter des données à l'aide de l'accéléromètre
 
 L'accéléromètre est présent sur la STM32 IoT Node Discovery, il n'y a donc pas de branchement à faire.
 
@@ -79,7 +79,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : afficher les données sur un écran
+## Fiche 2 : Afficher les données sur un écran
 
 **Connecter l'écran LCD (I2C)** :
 

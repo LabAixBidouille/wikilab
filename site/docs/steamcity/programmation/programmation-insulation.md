@@ -68,7 +68,7 @@ Il est recommandé de programmer entre 3 et 6 cartes Micro:bit afin de les répa
 
 ---
 
-## Étape 1 : câbler le capteur DHT à la Micro:bit
+## Étape 1 : Câbler le capteur DHT à la Micro:bit
 
 Il existe deux versions du DHT11/DHT22 :
 
@@ -80,7 +80,7 @@ Il existe deux versions du DHT11/DHT22 :
 
 ---
 
-## Étape 2 : programmer la Micro:bit
+## Étape 2 : Programmer la Micro:bit
 
 Branchez la carte à l'ordinateur via le câble micro-USB. Elle apparaît comme un lecteur « MICROBIT ».
 
@@ -93,13 +93,13 @@ Cliquez sur **Télécharger** pour générer le fichier `.hex`, puis copiez-le s
 
 ---
 
-## Étape 3 : placer la Micro:bit et démarrer l'enregistrement
+## Étape 3 : Placer la Micro:bit et démarrer l'enregistrement
 
 Placez la carte à un endroit dégagé pour mesurer l'humidité et la température sans obstruction. Alimentez-la par ordinateur ou batterie externe. Le soir, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
 ---
 
-## Étape 4 : récupérer les données
+## Étape 4 : Récupérer les données
 
 Chaque matin, débranchez la Micro:bit pour arrêter la collecte. Connectez-la à l'ordinateur : le fichier **MY_DATA.HTM** est disponible sur le lecteur MICROBIT. Copiez-le sur l'ordinateur, renommez-le (ex. `BOARD1_NAME_YYYY-MM-DD.HTM`), puis supprimez l'original de la carte.
 

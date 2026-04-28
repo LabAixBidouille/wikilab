@@ -75,7 +75,7 @@ Les disciplines associées sont :
 - La programmation informatique (pour la manipulation des capteurs et la récupération des données)
 - La communication scientifique
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -116,7 +116,7 @@ Durant l'expérience, il est impératif que la pièce de l'expérience soit la p
 
 À travers cette expérimentation, nous avons appris à mesurer l'atténuation du son par un matériau. L'échelle des décibels nous a permis de quantifier ces valeurs et de comparer les différents résultats. Apprendre à bien isoler la variable à mesurer et la nécessité d'une valeur de référence est essentiel pour obtenir des résultats valables et cohérents.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -147,7 +147,7 @@ Au terme de cette étape, plusieurs objectifs ont été atteints :
 - Utiliser un programme pour afficher des données sur un écran LCD
 - Récupérer les données d'une expérience en vue de leur analyse ultérieure
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

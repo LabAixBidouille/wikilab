@@ -42,11 +42,6 @@ sidebar_position: 4
 
 ---
 
-## Labo IA : dans la machine
-
-**Phase d'exploration IA :** P1 — Observer et documenter l'IA autour de nous
-
----
 
 ## Thèmes d'exploration
 
@@ -60,7 +55,7 @@ sidebar_position: 4
 
 Cette activité introductive fait interagir les participants avec des concepts d'IA à travers des défis ludiques. En comparant leur propre comportement avec la façon dont l'IA générative effectue les mêmes tâches, ils tirent des conclusions sur le fonctionnement réel de l'IA.
 
-### Activité 1 : le détecteur de règles (reconnaissance de motifs)
+### Activité 1 : Le détecteur de règles (reconnaissance de motifs)
 
 Pour comprendre comment la reconnaissance de motifs et l'apprentissage par l'exemple fonctionnent dans l'IA générative, les participants trient des objets selon qu'ils suivent ou non une règle cachée.
 
@@ -91,7 +86,7 @@ Après plusieurs tours avec des règles différentes, les groupes proposent les 
 
 ---
 
-### Activité 2 : le prédicteur de mots (IA prédictive)
+### Activité 2 : Le prédicteur de mots (IA prédictive)
 
 Les participants reçoivent des débuts de phrases : citations de films célèbres, paroles de chansons, phrases du quotidien ou phrases absurdes. Chaque participant écrit individuellement comment il compléterait la phrase. On compare les résultats et discute des probabilités. Puis on pose les mêmes questions à l'IA et on compare les prédictions humaines et celles de l'IA.
 
@@ -117,7 +112,7 @@ Les participants reçoivent des débuts de phrases : citations de films célèbr
 
 ---
 
-### Activité 3 : le conteur (générer avec un contexte changeant ou faux)
+### Activité 3 : Le conteur (générer avec un contexte changeant ou faux)
 
 En groupes, les participants créent des histoires avec l'IA en utilisant des contraintes : introduire de fausses informations, alterner les tours entre humain et IA, changer de personnage en cours de route. Ils observent comment l'IA suit ces changements et génère du texte plausible indépendamment de la vérité ou de la cohérence.
 

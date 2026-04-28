@@ -80,9 +80,9 @@ Afin de réaliser la station météo finale, les élèves devront suivre les 3 p
 - Construire un anémomètre et réaliser des mesures de vitesses du vent
 - Utiliser un afficheur LCD permettant une lecture pratique des données
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
-### Étape 1.1 : température
+### Étape 1.1 : Température
 
 #### Orientation
 
@@ -98,7 +98,7 @@ Pour mesurer la température, il nous faut un thermomètre, qui généralement s
 
 Après avoir abordé le concept de température et les différents moyens de la mesurer, nous pouvons afficher dans la console, la valeur de la température lue par le microcontrôleur.
 
-### Étape 1.2 : pression atmosphérique
+### Étape 1.2 : Pression atmosphérique
 
 #### Orientation
 
@@ -114,7 +114,7 @@ Les masses d'air s'écoulent toujours des zones de haute pression atmosphérique
 
 Après avoir abordé le concept de pression atmosphérique, nous pouvons afficher dans la console la valeur de la pression lue par le microcontrôleur.
 
-### Étape 1.3 : humidité
+### Étape 1.3 : Humidité
 
 #### Orientation
 
@@ -130,7 +130,7 @@ On quantifie l'humidité de l'air de deux manières : l'humidité absolue et l'h
 
 Après avoir abordé le concept d'humidité, nous pouvons afficher dans la console la valeur d'humidité lue par le microcontrôleur.
 
-### Étape 1.4 : vitesse du vent (anémomètre)
+### Étape 1.4 : Vitesse du vent (anémomètre)
 
 #### Orientation
 
@@ -148,7 +148,7 @@ Nous pouvons maintenant nous installer à l'extérieur avec notre montage (aném
 
 Pour améliorer la précision de cette mesure, nous devons l'étalonner grâce à un anémomètre de référence en mettant devant une soufflerie à différentes distances ou intensités.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -164,7 +164,7 @@ Dès lors nous sommes en mesure maintenant de pouvoir afficher nos mesures sur l
 
 Nous avons à présent un outil permettant d'avoir des données météo (journalières ou hebdomadaires).
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

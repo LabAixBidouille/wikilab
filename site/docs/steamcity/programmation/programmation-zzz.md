@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [ZZZ](/ressources/steamcity/zzz). 
 
 ---
 
-## Fiche 1 : mesurer les données environnementales
+## Fiche 1 : Mesurer les données environnementales
 
 ### Matériel
 
@@ -62,17 +62,17 @@ Cette fiche technique accompagne la ressource [ZZZ](/ressources/steamcity/zzz). 
 
 Recommandation : programmer 3 à 6 cartes pour les partager entre élèves.
 
-### Étape 1 : programmer la carte
+### Étape 1 : Programmer la carte
 
 Branchez la carte via le câble micro-USB ; elle apparaît comme un lecteur « MICROBIT ». Ouvrez MakeCode, créez un nouveau projet, puis ajoutez l'extension **Datalogger** via **EXTENSIONS**.
 
 Copiez-collez le code ci-dessous (ou organisez les blocs) puis testez dans le simulateur. Cliquez sur **Télécharger** pour générer le `.hex` et copiez-le sur le lecteur **MICROBIT**.
 
-### Étape 2 : placer la Micro:bit et démarrer l'enregistrement
+### Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
 
 Placez la carte près du lit, dans une zone dégagée. Alimentez-la par ordinateur ou batterie externe. Positionnez-la chaque nuit au même endroit pour obtenir des données comparables. Avant de vous coucher, appuyez sur **A**.
 
-### Étape 3 : récupérer les données
+### Étape 3 : Récupérer les données
 
 Débranchez la carte le matin, connectez-la à l'ordinateur et copiez le fichier **MY_DATA.HTM**. Renommez-le avec la date (ex. `BOARD1_NAME_YYYY-MM-DD.HTM`) puis supprimez l'original de la carte.
 
@@ -112,7 +112,7 @@ Un fichier `.csv` se lit dans Excel ou LibreOffice Calc via l'assistant d'import
 
 ---
 
-## Fiche 2 : mesurer les mouvements (accéléromètre)
+## Fiche 2 : Mesurer les mouvements (accéléromètre)
 
 ### Matériel et câblage
 
@@ -151,7 +151,7 @@ L'accéléromètre renvoie des valeurs en milli-g (1000 milli-g = 1G = 9,81 m/s�
 
 ---
 
-## Bonus : rajouter un brassard
+## Bonus : Rajouter un brassard
 
 Plusieurs ressources permettent de fixer la Micro:bit à un brassard pour que les élèves la portent pendant la nuit :
 

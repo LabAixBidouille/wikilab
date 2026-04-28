@@ -83,7 +83,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ---
 
-## Étape 1 : familiarisation et idéation
+## Étape 1 : Familiarisation et idéation
 
 ### Contexte de la séquence
 
@@ -103,7 +103,7 @@ Avant de commencer les activités, il est nécessaire de recueillir des informat
 
 ### Investigation par les élèves
 
-#### Familiarisation : création de connaissances fondamentales
+#### Familiarisation : Création de connaissances fondamentales
 
 Les élèves doivent acquérir la terminologie nécessaire pour poursuivre l'idéation. Les enseignants peuvent introduire les objets connectés en répondant à des questions telles que :
 
@@ -139,7 +139,7 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ---
 
-## Étape 2 : conception et prototypage
+## Étape 2 : Conception et prototypage
 
 ### Contexte de la séquence
 

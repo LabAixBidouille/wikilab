@@ -56,15 +56,15 @@ OpenStreetMap est un projet collaboratif visant à créer une carte mondiale lib
 
 Dans le cadre du projet, une carte prête à l'emploi est mise à disposition. Elle permet à plusieurs classes, écoles, régions ou pays de collaborer sur une base commune, enrichissant progressivement une connaissance collective partagée.
 
-### Étape 1 : se connecter à uMap
+### Étape 1 : Se connecter à uMap
 
 Ouvrez un navigateur web et allez sur le site uMap. Depuis cet espace, vous pouvez consulter toutes les cartes disponibles et rechercher celle du projet **« City Detective Challenge »** pour y accéder et y contribuer.
 
-### Étape 2 : découvrir les couches
+### Étape 2 : Découvrir les couches
 
 Toutes les couches ont été construites à partir du jeu introductif. **Ne pas ajouter ni modifier** les couches existantes — la carte est utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques (ex. : pointeur bleu avec icône médicament pour le département de la santé).
 
-### Étape 3 : éditer la carte
+### Étape 3 : Éditer la carte
 
 Pour enregistrer un nouveau lieu, cliquez sur **éditer**. Recherchez l'emplacement via l'outil de recherche (ou coordonnées GPS), puis cliquez sur l'icône du pointeur. Placez-le sur le bon emplacement : une fenêtre de propriétés s'ouvre.
 
@@ -79,7 +79,7 @@ Cliquez sur **enregistrer**, puis passez en mode aperçu pour vérifier la vigne
 
 ---
 
-## Créer votre propre uMap : quelques conseils
+## Créer votre propre uMap : Quelques conseils
 
 ### Commencer votre carte
 

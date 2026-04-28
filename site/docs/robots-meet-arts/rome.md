@@ -108,7 +108,7 @@ Les élèves ont maintenant une vision claire de la société romaine, place à 
 ## Séquence 2 - Approfondissement (Build-up)
 
 
-### Mission Tale-Bot : les classes sociales
+### Mission Tale-Bot : Les classes sociales
 
 :::info[Notes pour l'enseignant·e]
 

@@ -133,7 +133,7 @@ Utilisez ce temps pour évaluer le ressenti de la classe concernant l'activité.
 
 ---
 
-## Étape 2 : données vs. prise de décision
+## Étape 2 : Données vs. prise de décision
 
 ### Contexte de la séquence
 
@@ -192,7 +192,7 @@ Complétez votre discussion réflexive avec des questions telles que : qu'avez-v
 
 ---
 
-## Étape 3 : données vs. contexte
+## Étape 3 : Données vs. contexte
 
 ### Contexte de la séquence
 
@@ -296,21 +296,21 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 
 ---
 
-## Annexe : tableau de réflexion
+## Annexe : Tableau de réflexion
 
-### Restitution de l'étape 1 : découvrir les données qui m'entourent
-
-| Apprentissages | Ressenti |
-|---|---|
-| | |
-
-### Restitution de l'étape 2 : prendre des décisions à partir des données
+### Restitution de l'étape 1 : Découvrir les données qui m'entourent
 
 | Apprentissages | Ressenti |
 |---|---|
 | | |
 
-### Restitution de l'étape 3 : donner du sens aux données par la contextualisation
+### Restitution de l'étape 2 : Prendre des décisions à partir des données
+
+| Apprentissages | Ressenti |
+|---|---|
+| | |
+
+### Restitution de l'étape 3 : Donner du sens aux données par la contextualisation
 
 | Apprentissages | Ressenti |
 |---|---|
@@ -318,7 +318,7 @@ Dans la continuité de ce protocole, il peut être intéressant d'ouvrir une dis
 
 ---
 
-## Annexe : dataset : le mystère du quartier Hollyhock
+## Annexe : Dataset : le mystère du quartier Hollyhock
 
 En tant que citoyen fraîchement arrivé dans le quartier Hollyhock d'Enigma City, vous avez été chargé par vos concitoyens de proposer des solutions lors du prochain conseil de quartier concernant la mystérieuse augmentation du nombre d'accidents sur un passage piéton du quartier, situé après un virage. Vous devez analyser les données ouvertes fournies par le conseil municipal pour résoudre le problème. Voilà une façon de vous intégrer au quartier en apportant un regard neuf !
 
@@ -360,7 +360,7 @@ Demandez-leur également de classer les plaintes par thèmes communs, comme les 
 
 ---
 
-## Annexe : dataset : le dilemme du parc du quartier Iris
+## Annexe : Dataset : le dilemme du parc du quartier Iris
 
 En tant que membre de l'équipe de développement "Parcs et Loisirs" du quartier Iris de Nova City, vous êtes chargé de comprendre le faible pourcentage d'habitants d'Iris utilisant les équipements du parc local au cours des 6 derniers mois.
 
@@ -452,7 +452,7 @@ Enfin, discutez des équipements fournis par les installations concurrentes. Si 
 
 ---
 
-## Annexe : dataset : protection de la faune à Greenwood
+## Annexe : Dataset : protection de la faune à Greenwood
 
 En tant que spécialiste de l'environnement nouvellement nommé dans le district de Greenwood, vous êtes chargé de lutter contre le déclin du nombre d'espèces locales d'oiseaux Bluewing, un symbole bien-aimé du patrimoine naturel de la communauté.
 
@@ -535,7 +535,7 @@ Sur la base de l'analyse de ces ensembles de données, plusieurs stratégies pou
 
 ---
 
-## Annexe : dataset : lutte contre les îlots de chaleur urbains
+## Annexe : Dataset : lutte contre les îlots de chaleur urbains
 
 Depuis plusieurs mois, les îlots de chaleur urbain sont devenus un problème majeur dans le district Solaris de la ville d'Helios. Ils causent une augmentation de la consommation d'énergie car la demande de climatisation augmente pendant les périodes chaudes, ce qui entraîne une augmentation des émissions de gaz à effet de serre. Cela entraîne également des conséquences sur la santé, provoquant des coups de chaleur, insolations, manque d'hydratation et autres soucis de santé au sein de la population. En outre, la hausse des températures peut provoquer une diminution de la qualité de l'eau lorsque les eaux plus chaudes s'écoulent dans les cours d'eau de la région, affectant les écosystèmes aquatiques locaux.
 
@@ -605,7 +605,7 @@ Enfin, les élèves ont accès à des données sur les besoins énergétiques pe
 
 ---
 
-## Annexe : contexte : le mystère du quartier Hollyhock
+## Annexe : Contexte : le mystère du quartier Hollyhock
 
 **CHRONIQUES D'ENIGMA — ÉDITION DU MATIN — 22 septembre 2023**
 
@@ -628,7 +628,7 @@ Chacun des nouveaux arrêts de bus est équipé d'équipements modernes, notamme
 
 ---
 
-## Annexe : contexte : le dilemme du parc du quartier Iris
+## Annexe : Contexte : le dilemme du parc du quartier Iris
 
 **NOVA CITY — RAPPORT PERSPECTIVES DU LOGEMENT ET DE LA CONSTRUCTION — ANNÉE 2023**
 
@@ -653,7 +653,7 @@ Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain
 
 ---
 
-## Annexe : contexte : protection de la faune à Greenwood
+## Annexe : Contexte : protection de la faune à Greenwood
 
 **LES MURMURES DE LA NATURE — Les voix de la nature s'expriment à travers Emily Hartwell**
 
@@ -675,7 +675,7 @@ Cet événement met en lumière la fragilité de nos milieux naturels et la néc
 
 ---
 
-## Annexe : contexte : lutte contre les îlots de chaleur urbains
+## Annexe : Contexte : lutte contre les îlots de chaleur urbains
 
 **Décision officielle — Plan de développement commercial du district de Solaris**
 

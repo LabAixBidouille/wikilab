@@ -63,19 +63,19 @@ Pour en savoir plus sur les enjeux du bruit, explorez la section "Aller plus loi
 
 ### Structure du protocole
 
-#### Phase 1 : compréhension de la problématique et définition des indicateurs
+#### Phase 1 : Compréhension de la problématique et définition des indicateurs
 
 Les élèves découvriront la problématique du bruit, exploreront les différents aspects du bruit urbain et son impact sur la qualité de vie. Ils développeront collectivement des indicateurs pour évaluer le bruit, tels que l'intensité perçue, la fréquence, le type de source perçu, et l'impact sur leur bien-être. Ces indicateurs formeront la base d'un cadre d'analyse structuré pour la suite de l'activité.
 
-#### Phase 2 : cartographie sensible du bruit
+#### Phase 2 : Cartographie sensible du bruit
 
 Les élèves réaliseront une cartographie sensible en notant leur ressenti du bruit sur un trajet de leur quotidien. Ils identifieront les zones perçues comme bruyantes ou calmes, selon leur expérience quotidienne. Chaque élève créera sa propre "carte", dessinée librement, colorée et annotée selon son analyse de ses ressentis quotidiens, en utilisant les indicateurs définis précédemment. Cette cartographie permettra une analyse nuancée et structurée de leur perception du paysage sonore.
 
-#### Phase 3 : mesure quantitative avec capteurs
+#### Phase 3 : Mesure quantitative avec capteurs
 
 Les élèves programmeront des capteurs de bruit et les positionneront dans les zones identifiées comme bruyantes et gênantes lors de la phase de cartographie sensible. Ces capteurs enregistreront les niveaux sonores réels (en décibels) sur plusieurs jours dans plusieurs lieux. Les élèves alimenteront leur cadre d'analyse d'indicateurs quantitatifs basés sur ces mesures, comme le niveau sonore moyen, les pics de bruit, et la durée des périodes de calme. L'objectif sera de comparer les ressentis (indicateurs qualitatifs) avec ces données mesurables, et d'examiner si certaines perceptions sont influencées par des moments spécifiques de la journée ou des caractéristiques particulières du bruit.
 
-#### Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
+#### Phase 4 : Analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
 
 Les élèves examineront les facteurs aggravants du bruit dans les zones problématiques (trafic, chantiers, commerces) et réfléchiront à comment l'aménagement urbain et les activités humaines influencent la pollution sonore. Ils étudieront les acteurs impliqués dans la gestion du bruit (municipalités, entreprises, citoyens, urbanistes) et exploreront leurs rôles respectifs dans la réduction des nuisances sonores.
 
@@ -107,7 +107,7 @@ Ils prendront conscience de l'importance de la coopération entre ces différent
 
 ---
 
-## Phase 1 : compréhension de la problématique et définition des indicateurs
+## Phase 1 : Compréhension de la problématique et définition des indicateurs
 
 ### Contexte de la séquence
 
@@ -157,7 +157,7 @@ Les élèves, guidés par l'enseignant, élaboreront collectivement un ensemble 
 
 ---
 
-## Phase 2 : cartographie sensible du bruit
+## Phase 2 : Cartographie sensible du bruit
 
 ### Contexte de la séquence
 
@@ -191,7 +191,7 @@ Au travers de cette exploration, les élèves abordent des enjeux cruciaux de la
 
 L'enseignant introduira le concept de cartographie sensible. Il s'agira de représenter visuellement les perceptions subjectives du paysage sonore. L'approche adoptée encouragera les élèves à s'affranchir des contraintes formelles géographiques pour se concentrer sur leur ressenti du bruit. Chaque élève choisira de représenter un trajet du quotidien (école/maison, périscolaire/maison, pause déjeuner, etc.) sous la forme d'un dessin libre, qui n'aura pas besoin de respecter les normes de cartographie traditionnelle c'est-à-dire le respect de l'échelle, l'orientation cardinale, la légende … . L'enseignant encouragera les élèves à réfléchir aux éléments suivants lors de la création de leur carte : zones de confort ou d'inconfort sonore, variations d'ambiance sonore (calme, animée, stressante), sources de bruit marquantes (positives ou négatives), émotions ou sensations associées à certains lieux, en se basant sur les indicateurs définis en phase 1.
 
-#### Point méthodologique : la cartographie sensible
+#### Point méthodologique : La cartographie sensible
 
 La cartographie sensible est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et à représenter les perceptions et les sensations ressenties dans un espace donné. Elle se concentre sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
 
@@ -219,7 +219,7 @@ Pour conclure cette phase, les élèves réfléchiront sur le processus de carto
 
 ---
 
-## Phase 3 : mesure quantitative avec capteurs
+## Phase 3 : Mesure quantitative avec capteurs
 
 ### Contexte de la séquence
 
@@ -313,7 +313,7 @@ Pour conclure cette phase, les élèves réfléchiront sur le processus de mesur
 
 ---
 
-## Phase 4 : analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
+## Phase 4 : Analyse du rôle des acteurs dans le traitement d'une problématique de santé publique
 
 ### Contexte de la séquence
 

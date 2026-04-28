@@ -236,7 +236,7 @@ Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d&#3
 
 :::
 
-### Phase d&#39;exploration : vers quelle aventure allons-nous ?
+### Phase d&#39;exploration : Vers quelle aventure allons-nous ?
 
 Présentez aux élèves les différentes possibilités pour prolonger et concrétiser leur labyrinthe narratif. Montrez des exemples concrets de chaque format pour inspirer leur créativité :
 
@@ -248,7 +248,7 @@ Présentez aux élèves les différentes possibilités pour prolonger et concré
 
 Présentez brièvement les avantages et les contraintes de chaque format. Puis, laissez les élèves se réorganiser en groupes selon leurs intérêts et leurs affinités pour ces différents formats.
 
-### Phase de création : donnons vie à notre histoire
+### Phase de création : Donnons vie à notre histoire
 
 Accompagnez chaque groupe en fonction de l&#39;option choisie, en circulant d&#39;un groupe à l&#39;autre et en fournissant les ressources spécifiques nécessaires :
 
@@ -259,7 +259,7 @@ Accompagnez chaque groupe en fonction de l&#39;option choisie, en circulant d&#3
 | Jeu de plateau | Fournissez-leur du matériel pour créer leur plateau de jeu avec différents chemins. Aidez-les à concevoir des cartes événement et décision. Guidez-les dans l&#39;élaboration de règles claires intégrant les mécanismes conditionnels. |
 | Kamishibaï / Genially | Montrez-leur comment adapter leur narration au format visuel choisi. Aidez-les à créer des illustrations efficaces. Guidez-les dans l&#39;organisation des séquences pour préserver l&#39;interactivité. |
 
-### Phase de test : jouons et améliorons
+### Phase de test : Jouons et améliorons
 
 Invitez les élèves à développer une version minimale mais fonctionnelle de leur création. Rappelez-leur qu&#39;il s&#39;agit d&#39;un prototype et non d&#39;une version définitive.
 

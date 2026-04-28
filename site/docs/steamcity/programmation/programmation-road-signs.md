@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Road Signs](/ressources/steamcity
 
 ---
 
-## Fiche 1 : installer et utiliser SignVisionAI
+## Fiche 1 : Installer et utiliser SignVisionAI
 
 SignVisionAI est un logiciel de reconnaissance automatique de panneaux de signalisation. Il utilise des techniques d'apprentissage profond pour identifier **quatorze types de panneaux** à partir d'images fixes ou d'un flux vidéo en direct via webcam.
 
@@ -97,7 +97,7 @@ Cliquer sur **Start Processing** pour lancer la reconnaissance.
 
 ---
 
-## Fiche 2 : utiliser Vittascience pour entraîner un modèle
+## Fiche 2 : Utiliser Vittascience pour entraîner un modèle
 
 [Vittascience – IA Images](https://fr.vittascience.com/ia/images.php) est une plateforme en ligne d'apprentissage supervisé. L'utilisateur crée des catégories, fournit des exemples visuels via webcam, puis entraîne un modèle capable de prédictions en temps réel. **Aucune installation requise.**
 

@@ -55,7 +55,7 @@ Au travers de l'activité "Grille magique de la paix", vous pouvez aborder le co
 
 ## Intérêt pédagogique et sujets ciblés
 
-### Introduction à l'idée du jeu : transmission des données et principe du contrôle de parité
+### Introduction à l'idée du jeu : Transmission des données et principe du contrôle de parité
 
 Les outils et dispositifs numériques sont basés sur le codage de l'information. Régulièrement, des erreurs peuvent se produire lorsque des informations numériques sont stockées ou transmises. Cette activité explore une méthode de détection et de correction des erreurs dans la transmission des données.
 

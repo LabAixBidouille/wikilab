@@ -73,7 +73,7 @@ Les disciplines associées à cette expérience sont la physique, les sciences d
 
 En somme, ce protocole est une excellente façon de développer des compétences scientifiques et techniques, ainsi que des compétences de communication et de collaboration, en travaillant en équipe pour répondre à une question de recherche scientifique.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -91,7 +91,7 @@ Maintenant que nous avons acquis quelques connaissances de base, nous pouvons co
 
 Dans cette étape, nous avons décidé de collecter les données nécessaires à notre enquête en mesurant la concentration de CO2 dans différentes conditions à l'aide d'un capteur électronique appelé MH-Z19B NDIR. Nous avons également acquis des connaissances de base sur le fonctionnement du capteur et ses spécifications, telles que la plage de mesure et les exigences de fonctionnement.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -128,7 +128,7 @@ Dans cette phase, nous avons fait et réalisé ce qui suit :
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
 - Utiliser un programme pour afficher des données sur un écran.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

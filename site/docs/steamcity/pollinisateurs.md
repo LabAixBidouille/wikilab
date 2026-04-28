@@ -77,7 +77,7 @@ L'expérimentation se déroule en trois étapes clés :
 
 ---
 
-## Étape 1 : formuler des hypothèses, cartographier et réaliser une étude documentaire
+## Étape 1 : Formuler des hypothèses, cartographier et réaliser une étude documentaire
 
 ### Contexte de la séquence
 
@@ -155,7 +155,7 @@ Questions pour approfondir la réflexion :
 
 ---
 
-## Étape 2 : construire et mettre en place des pièges non létaux pour pollinisateurs
+## Étape 2 : Construire et mettre en place des pièges non létaux pour pollinisateurs
 
 ### Contexte de la séquence
 
@@ -218,7 +218,7 @@ Pour enrichir les données, vous pouvez ajouter des informations sur les espèce
 
 ---
 
-## Étape 3 : analyser les données et réfléchir sur les biais
+## Étape 3 : Analyser les données et réfléchir sur les biais
 
 ### Contexte de la séquence
 
@@ -312,7 +312,7 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 ---
 
-## Annexe : construction d'un piège non létal
+## Annexe : Construction d'un piège non létal
 
 ### Matériel nécessaire
 

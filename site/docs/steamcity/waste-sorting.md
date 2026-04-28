@@ -86,7 +86,7 @@ Dans ce protocole, les élèves développeront un système de tri des déchets b
 
 ---
 
-## Étape 1 : création d'une base de données d'images pour la classification des déchets
+## Étape 1 : Création d'une base de données d'images pour la classification des déchets
 
 ### Contexte de la séquence
 
@@ -168,7 +168,7 @@ Pour renforcer cet apprentissage, les enseignants peuvent guider les élèves à
 
 ---
 
-## Étape 2 : création d'un modèle de reconnaissance des déchets
+## Étape 2 : Création d'un modèle de reconnaissance des déchets
 
 ### Contexte de la séquence
 
@@ -271,7 +271,7 @@ L'analogie entre l'apprentissage de l'IA et le développement du cerveau humain 
 
 ---
 
-## Étape 3 : analyser les données et en tirer des enseignements
+## Étape 3 : Analyser les données et en tirer des enseignements
 
 ### Contexte de la séquence
 
@@ -321,7 +321,7 @@ Grâce à cette expérience pratique, les élèves ont acquis une compréhension
 
 ---
 
-## Étape 4 : utiliser l'IA pour améliorer l'empreinte environnementale
+## Étape 4 : Utiliser l'IA pour améliorer l'empreinte environnementale
 
 ### Contexte de la séquence
 

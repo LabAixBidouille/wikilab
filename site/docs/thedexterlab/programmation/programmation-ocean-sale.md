@@ -49,7 +49,7 @@ Cette fiche technique accompagne la ressource [Pourquoi l'océan est salé](/res
 
 ---
 
-## Fiche de programmation : mesurer la conductivité de l'eau
+## Fiche de programmation : Mesurer la conductivité de l'eau
 
 ### Câblage du conductimètre
 

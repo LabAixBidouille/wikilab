@@ -504,7 +504,7 @@ Un robot PowerBricks typique est construit à base de briques techniques LEGO et
 
 Les valeurs de vitesse vont de -255 (pleine marche arrière) à 255 (pleine marche avant). Zéro arrête le moteur.
 
-### Programme de navigation sur grille : un exemple de classe
+### Programme de navigation sur grille : Un exemple de classe
 
 Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une grille. Il a été développé pour être utilisé avec le curriculum d'Apprentissage Bio-inspiré, où les élèves mémorisent d'abord un itinéraire eux-mêmes, puis programment le robot pour suivre le même chemin. Le programme est visible ici : [https://makecode.microbit.org/S25194-48798-31124-89886](https://makecode.microbit.org/S25194-48798-31124-89886)
 

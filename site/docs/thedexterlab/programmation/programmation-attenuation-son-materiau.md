@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Atténuation du son par matériau
 
 ---
 
-## PROG19-TDL-1 : mesurer l'intensité d'un son
+## PROG19-TDL-1 : Mesurer l'intensité d'un son
 
 Nous utilisons le microphone intégré à la STM32 IoT Node Discovery, donc pas de branchement particulier. Installez l'extension **serial**.
 
@@ -66,7 +66,7 @@ forever(function(){
 
 ---
 
-## PROG19-TDL-2 : afficher les données sur un écran
+## PROG19-TDL-2 : Afficher les données sur un écran
 
 **Câblage écran LCD I2C :**
 

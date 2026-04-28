@@ -83,7 +83,7 @@ sidebar_position: 26
 
 :::
 
-### Partie A : introduction
+### Partie A : Introduction
 
 Introduisez le thème du jour : la routine quotidienne.
 
@@ -95,7 +95,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves peuvent répondre par des phrases simples avec support visuel.
 - Niveau avancé : Les élèves construisent des phrases complètes de manière autonome.
 
-### Partie B : jeux
+### Partie B : Jeux
 
 Proposez ensuite des activités de pratique grammaticale à travers des jeux interactifs (voir liens utiles). Choisissez 2-3 jeux adaptés à l&#39;âge et au niveau des élèves.
 
@@ -109,7 +109,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Ajoutez progressivement du vocabulaire (*take a shower, brush my teeth, do my homework*).
 - Niveau avancé : Enrichissez avec des expressions plus complexes (*go jogging, work out, read the news*).
 
-### Partie C : la journée de Tom
+### Partie C : La journée de Tom
 
 Présentez ensuite Tom le chat (voir annexe). Toute la classe réfléchit ensemble à la routine quotidienne du chat.
 
@@ -143,11 +143,11 @@ Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à d
 
 :::
 
-### Partie A : présentation de Robin et de son monde (classe entière)
+### Partie A : Présentation de Robin et de son monde (classe entière)
 
 Présentez Robin, le personnage principal de la séance, ainsi que le monde de Robin : la grande grille au sol préparée en amont. Faites le lien entre les lieux de la grille et le vocabulaire vu lors de la mise en route.
 
-### Partie B : production écrite (travail en groupe)
+### Partie B : Production écrite (travail en groupe)
 
 Par petits groupes (3-4 élèves), les élèves décrivent la routine quotidienne de Robin à l&#39;aide de la fiche de travail et du vocabulaire suivant : *get up, breakfast, lunch, sleep, school, play, walk, robot friends, night, eight*.
 
@@ -157,7 +157,7 @@ Adaptation selon le niveau de langue des élèves :
 - Niveau intermédiaire : Les élèves construisent des phrases simples avec un support visuel.
 - Niveau avancé : Les élèves rédigent un court texte de manière autonome.
 
-### Partie C : manipulation (classe entière puis travail en groupe)
+### Partie C : Manipulation (classe entière puis travail en groupe)
 
 Une fois la fiche complétée, chaque groupe reçoit une petite grille de bureau (le monde de Robin) et un jeu de cartes de déplacement. Expliquez la fonction de chaque carte et montrez quelques exemples sur la grande grille au sol. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
 

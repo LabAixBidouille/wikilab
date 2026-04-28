@@ -67,7 +67,7 @@ Cette activité guide les élèves à travers une exploration des pendules pour 
 - Communication et argumentation
 - Connaissances en physique (mouvement, gravité)
 
-## Étape 1 : comprendre le fonctionnement du pendule
+## Étape 1 : Comprendre le fonctionnement du pendule
 
 ### Orientation
 
@@ -145,7 +145,7 @@ Les périodes sont-elles identiques ou différentes ? Comment ces résultats s'a
 
 Cette expérience permet aux élèves de comprendre le principe d'isochronisme dans les oscillations d'un pendule simple et d'appliquer des compétences en mesure et en analyse de données.
 
-## Étape 2 : mesure des oscillations avec un pendule simple
+## Étape 2 : Mesure des oscillations avec un pendule simple
 
 ### Orientation
 
@@ -199,7 +199,7 @@ Cette expérimentation permet aux élèves d'observer et d'analyser les facteurs
 - Comment la masse affecte-t-elle la période d'oscillation ?
 - Les observations correspondent-elles aux hypothèses initiales ?
 
-## Étape 3 : calibrage du pendule
+## Étape 3 : Calibrage du pendule
 
 ### Orientation
 
@@ -234,7 +234,7 @@ Les élèves vont essayer de créer un pendule dont la fréquence sera de 1 Hz (
 
 Dans cette expérimentation, nous avons appris comment ajuster un pendule pour obtenir une période d'oscillation d'une seconde en utilisant des principes de physique fondamentale. L'activité a montré l'importance de la précision dans la mesure. Les élèves ont pu appliquer des formules mathématiques pour résoudre des problèmes pratiques.
 
-## Étape 4 : comprendre les mécanismes d'échappement
+## Étape 4 : Comprendre les mécanismes d'échappement
 
 ### Orientation
 

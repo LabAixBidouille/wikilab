@@ -53,7 +53,7 @@ Cette fiche technique accompagne la ressource [Plantes et CO2](/ressources/thede
 
 ---
 
-## Fiche 1 : mesurer le taux de CO2 dans l'air
+## Fiche 1 : Mesurer le taux de CO2 dans l'air
 
 **Câbler le capteur MH-Z19B** :
 
@@ -77,7 +77,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : afficher les données sur un écran OLED
+## Fiche 2 : Afficher les données sur un écran OLED
 
 **Connecter l'écran SSD1306 (I2C)** :
 
@@ -103,7 +103,7 @@ forever(function () {
 
 ---
 
-## Fiche 3 : exporter les données au format CSV
+## Fiche 3 : Exporter les données au format CSV
 
 :::info
 Pour cette activité, installez les extensions **mh-z19b** et **datalogger**.
@@ -124,7 +124,7 @@ forever(function () {
 
 ---
 
-## Fiche 4 : exporter CO2, température et humidité au format CSV
+## Fiche 4 : Exporter CO2, température et humidité au format CSV
 
 Les capteurs d'humidité et de température sont intégrés à la carte.
 

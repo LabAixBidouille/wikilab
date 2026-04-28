@@ -54,19 +54,19 @@ Ce protocole pédagogique invite les élèves à créer leur propre mur végéta
 
 Ils apprendront à utiliser des microcontrôleurs pour mesurer les conditions environnementales et s'initieront aux nouveaux outils de recherche basés sur l'intelligence artificielle (comme Copilot, ChatGPT, Gemini) pour sélectionner les plantes les mieux adaptées à leur environnement.
 
-### Étape 1 : collecter les données
+### Étape 1 : Collecter les données
 
 Cette première étape du protocole vise à mettre en place une station de mesure environnementale pour caractériser l'habitat du futur mur végétal. Les élèves apprennent à identifier les paramètres essentiels qui influencent la croissance des plantes (température, humidité, luminosité), à assembler et programmer une station de mesure équipée de capteurs et d'une carte Micro:bit, et à comprendre l'importance de la calibration pour obtenir des mesures fiables. Cette approche scientifique et technique permet aux élèves de développer leurs compétences en mesure environnementale tout en préparant le choix éclairé des espèces végétales adaptées à leur environnement.
 
-### Étape 2 : affichez les données pour obtenir les informations nécessaires
+### Étape 2 : Affichez les données pour obtenir les informations nécessaires
 
 L'objectif de l'étape 2 est de mettre en place un système de stockage des données environnementales collectées par les capteurs. Cette étape fait suite à la mise en place des capteurs de l'étape 1, en ajoutant la capacité d'enregistrer les mesures dans le temps plutôt que de n'avoir que des valeurs instantanées. Les élèves doivent choisir et implémenter une solution de stockage adaptée à leur contexte, comme un système avec carte micro-SD ou un relevé manuel. Les données ainsi collectées sur une période prolongée serviront de base pour la sélection des plantes lors des étapes suivantes, permettant d'assurer la viabilité du mur végétal.
 
-### Étape 3 : analyser les données et en tirer des leçons
+### Étape 3 : Analyser les données et en tirer des leçons
 
 L'étape 3 du protocole est centrée sur la sélection des plantes les plus adaptées pour notre mur végétal, en s'appuyant sur une étude documentaire rigoureuse. En s'appuyant sur les données environnementales précises collectées dans les phases précédentes (luminosité, température, humidité), les élèves peuvent identifier les espèces végétales qui s'épanouiront dans ces conditions spécifiques. Pour garantir des choix éclairés, la classe explore trois démarches de recherche différentes : les méthodes traditionnelles avec des ouvrages botaniques et des bases de données spécialisées, la recherche web classique via les sites horticoles, et l'utilisation d'outils d'Intelligence Artificielle. Cette diversité d'approches permet à la fois d'obtenir des informations complètes sur les plantes candidates et de développer l'esprit critique des élèves vis-à-vis des différentes sources d'information. L'analyse comparative des résultats permet d'identifier les espèces végétales les plus prometteuses pour le mur, en considérant leur adaptation aux conditions mesurées, leurs besoins en maintenance, et leur compatibilité entre elles. Les élèves apprennent à croiser les informations obtenues par différentes méthodes, assurant ainsi la fiabilité de leurs choix pour une installation durable.
 
-### Étape 4 : utilisez les données pour créer un mur végétal
+### Étape 4 : Utilisez les données pour créer un mur végétal
 
 L'étape finale de mise en place du mur végétal constitue l'aboutissement concret du protocole. Elle permet la réalisation physique du mur selon les plans élaborés précédemment, accompagnée de l'installation d'un système de monitoring connecté pour suivre la santé des plantes. Cette phase met en application l'ensemble des connaissances botaniques et technologiques acquises pour développer une solution durable et intelligente de végétalisation. Cette phase conclusive permet de concrétiser l'ensemble des apprentissages théoriques et techniques des étapes précédentes. Elle transforme les analyses environnementales, les études botaniques et les compétences technologiques en une réalisation tangible qui améliore concrètement l'environnement urbain. La réussite de cette étape démontre la capacité des élèves à mener un projet environnemental complet, de sa conception à sa réalisation, tout en intégrant des solutions technologiques innovantes pour assurer sa pérennité.
 
@@ -90,7 +90,7 @@ L'étape finale de mise en place du mur végétal constitue l'aboutissement conc
 - **Format CSV** : Un format de fichier texte simple utilisé pour stocker des données sous forme de tableau, séparées par des virgules, pour une importation facile dans un logiciel de tableur.
 - **Hallucination de l'IA** : Un phénomène dans lequel l'IA génère des informations incorrectes ou dénuées de sens en raison d'un contexte limité ou d'une désinformation.
 
-## Étape 1 : collecter les données
+## Étape 1 : Collecter les données
 
 ### Contexte de la séquence
 
@@ -172,7 +172,7 @@ Afin d'approfondir cette phase, vous pouvez également ouvrir des discussions en
 
 ---
 
-## Étape 2 : affichez les données pour obtenir les informations nécessaires
+## Étape 2 : Affichez les données pour obtenir les informations nécessaires
 
 ### Contexte de la séquence
 
@@ -242,7 +242,7 @@ Pour approfondir cette phase, plusieurs questions peuvent être explorées avec 
 
 ---
 
-## Étape 3 : analyser les données et en tirer des leçons
+## Étape 3 : Analyser les données et en tirer des leçons
 
 ### Contexte de la séquence
 
@@ -289,7 +289,7 @@ Cette approche structurée permettra aux élèves d'organiser efficacement leurs
 
 Ces informations serviront de fondement pour la phase suivante de recherche documentaire sur les plantes adaptées.
 
-#### Recherche documentaire : une approche comparative pour comprendre l'apport des nouvelles technologies et de l'IA
+#### Recherche documentaire : Une approche comparative pour comprendre l'apport des nouvelles technologies et de l'IA
 
 L'analyse des données environnementales réalisée précédemment a fourni aux élèves des informations précises sur les conditions dans lesquelles le mur végétal devra vivre : niveaux de luminosité, variations de température, taux d'humidité.
 
@@ -340,7 +340,7 @@ Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion s
 
 ---
 
-## Étape 4 : utilisez les données pour créer un mur végétal
+## Étape 4 : Utilisez les données pour créer un mur végétal
 
 ### Contexte de la séquence
 
@@ -388,7 +388,7 @@ Encouragez les à documenter leur démarche, créer des supports de communicatio
 
 Ils évalueront leur projet selon leurs propres critères de réussite. Ils pourront proposer des améliorations, imaginer des extensions du projet, ou réfléchir à de nouvelles initiatives. Cette phase de réflexion valorisera leur capacité d'analyse critique et leur vision à long terme.
 
-#### Aller plus loin : l'Intelligence Artificielle comme outil créatif et pédagogique dans la conception de murs végétaux
+#### Aller plus loin : L'Intelligence Artificielle comme outil créatif et pédagogique dans la conception de murs végétaux
 
 Les outils d'Intelligence Artificielle générative, tels que DALL·E, ChatGPT ou Midjourney, peuvent être intégrés de manière innovante dans le processus de conception et de réalisation du mur végétal. Cette approche permet non seulement d'enrichir le projet pédagogique mais aussi d'initier les élèves à l'utilisation réfléchie et critique des technologies émergentes.
 
@@ -400,7 +400,7 @@ Les outils d'Intelligence Artificielle générative, tels que DALL·E, ChatGPT o
 
 Voici par exemple, deux générations réalisées grâce à DALL·E sur la création d'un mur végétal dans deux contextes climatiques et urbains différents :
 
-##### Prompt 1 : créer le plan d'implantation d'un mur végétal dans la ville de Marseille
+##### Prompt 1 : Créer le plan d'implantation d'un mur végétal dans la ville de Marseille
 
 Créer un plan d'implantation des espèces pour un mur végétal à Marseille nécessite une sélection adaptée aux conditions locales : un climat méditerranéen caractérisé par des étés chauds et secs, des hivers doux, une luminosité intense, et une humidité modérée.
 
@@ -424,7 +424,7 @@ Plan d'implantation :
 - **Zone inférieure** : Alternez le romarin rampant et la vergerette pour couvrir la base.
 - **Encadrement** : Jasmins étoilés ou bougainvilliers sur les côtés du mur, attachés à un treillis.
 
-##### Prompt 2 : créer le plan d'implantation d'un mur végétal dans la ville de Brest
+##### Prompt 2 : Créer le plan d'implantation d'un mur végétal dans la ville de Brest
 
 La ville de Brest, située en Bretagne, présente un climat océanique. Cela signifie des températures modérées toute l'année, une forte humidité, des précipitations fréquentes, et une luminosité parfois réduite.
 
@@ -475,7 +475,7 @@ A partir de ce travail, il est possible d'ouvrir de nouveaux axes d'étude et de
 
 Dans notre exemple, la station de mesure a été programmée sur la plateforme Vittascience : Vittascience — Micro:bit
 
-### Collecter des données : montage et programmation de la station de mesure
+### Collecter des données : Montage et programmation de la station de mesure
 
 #### Assemblage de la station
 
@@ -505,7 +505,7 @@ Ensuite, il faut cliquer sur le bouton téléverser présent en haut au centre d
 
 Il est normal que le capteur DHT11 renvoie 0 pour la température et l'humidité au début du programme, car ce dernier s'initialise. Après quelques dizaines de secondes, les mesures de température et d'humidité devraient apparaître correctement.
 
-### Affichage des données : montage et programmation de l'OpenLog
+### Affichage des données : Montage et programmation de l'OpenLog
 
 #### Montage
 

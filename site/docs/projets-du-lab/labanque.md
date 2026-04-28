@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# LABanque : monnaie du fablab
+# LABanque : Monnaie du fablab
 
 Picsous trésorier du LAB et forgeur d'écrous
 

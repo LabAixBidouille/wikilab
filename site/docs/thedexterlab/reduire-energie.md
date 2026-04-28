@@ -73,7 +73,7 @@ Les thèmes abordés par cette activité sont les suivants :
 - La construction de maquettes.
 - L'analyse de résultats expérimentaux.
 
-## Étape 1 : créer une maquette d'une habitation
+## Étape 1 : Créer une maquette d'une habitation
 
 ### Orientation
 
@@ -103,7 +103,7 @@ La réalisation de la maquette est l'étape préliminaire de ce protocole. La d�
 
 L'automatisation de l'ouverture est assurée par l'usage d'un servomoteur simple d'usage et facile à programmer.
 
-## Étape 2 : collecter des données
+## Étape 2 : Collecter des données
 
 ### Orientation
 
@@ -138,7 +138,7 @@ La première colonne montre l'isolant utilisé, la deuxième indique l'heure à 
 
 Durant cette expérience, nous avons pu observer l'impact de l'ajout d'un isolant sur la variation de la température d'un bâtiment. La source de chaleur étant une lampe, certains isolants sont avantagés par leur caractère réfléchissant.
 
-## Étape 3 : interactions utilisateur — affichage de la température et régulation avec une ventilation naturelle
+## Étape 3 : Interactions utilisateur — affichage de la température et régulation avec une ventilation naturelle
 
 ### Orientation
 
@@ -161,7 +161,7 @@ Pour informer l'utilisateur de la température mesurée, la première solution q
 
 Lors de cette étape, le système a ajouté de l'interaction utilisateur. Cette interaction permet à l'utilisateur d'avoir un retour d'information sur la température intérieure et d'agir sur la trappe de ventilation pour réduire la température quand il le souhaite. Un système domotique doit permettre à l'utilisateur d'adapter son environnement à ses besoins. Pour ce faire, il a besoin à la fois d'un retour d'information comme de possibilité d'agir sur le système.
 
-## Étape 4 : analyser les données
+## Étape 4 : Analyser les données
 
 ### Orientation
 
@@ -190,7 +190,7 @@ Afin de comparer l'efficacité énergétique d'un matériau en simple ou en doub
 
 Dans cette étape, nous avons récupéré des données sur une plus longue durée pour permettre une analyse plus fine et plus aboutie sur l'effet des isolants. L'utilisation des courbes permet de se rendre compte visuellement des effets de chaque isolant. La comparaison des différentes courbes permet d'approcher plusieurs aspects d'une isolation comme la résistance thermique ou le déphasage. La comparaison entre un grand nombre d'expériences à travers les courbes est une occasion de discuter de la dynamique des variations de températures.
 
-## Étape 5 : réaliser un pare-soleil asservi au taux d'ensoleillement
+## Étape 5 : Réaliser un pare-soleil asservi au taux d'ensoleillement
 
 ### Orientation
 
@@ -224,7 +224,7 @@ Le bien-être de l'habitat n'est pas uniquement lié à la température, en ajou
 
 ## Fiches de programmation
 
-### Fiche 1 : collecter les données grâce au capteur de température
+### Fiche 1 : Collecter les données grâce au capteur de température
 
 Nous allons utiliser le capteur de température présent sur la STM32 IoT Node Discovery, il n'y a donc pas de branchement à faire.
 
@@ -241,7 +241,7 @@ forever(function () {
 })
 ```
 
-### Fiche 2 : afficher les données collectées sur un écran
+### Fiche 2 : Afficher les données collectées sur un écran
 
 **Connecter l'écran LCD via le bus I2C**
 
@@ -267,7 +267,7 @@ forever(function () {
 })
 ```
 
-### Fiche 3 : réaliser un pare-soleil asservi grâce à un servomoteur
+### Fiche 3 : Réaliser un pare-soleil asservi grâce à un servomoteur
 
 **Câbler les boutons** : connecter une patte des boutons à la broche GND de la carte. Connecter ensuite l'autre patte d'un bouton sur la broche D2, et la dernière patte libre du bouton sur D3.
 

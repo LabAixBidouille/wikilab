@@ -110,7 +110,7 @@ Le protocole se divise en trois phases complémentaires :
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 
-## Étape 1 : familiarisation et conception
+## Étape 1 : Familiarisation et conception
 
 ### Contexte de la séquence
 
@@ -161,7 +161,7 @@ Les élèves acquièrent des compétences en conceptualisation, prototypage et �
 
 ---
 
-## Étape 2 : tester l'ambiguïté des panneaux de signalisation
+## Étape 2 : Tester l'ambiguïté des panneaux de signalisation
 
 
 
@@ -207,7 +207,7 @@ Les élèves approfondissent leur compréhension des outils d'IA pour la classif
 
 ---
 
-## Étape 3 : entraînement du modèle en fonction des nouveaux panneaux conçus
+## Étape 3 : Entraînement du modèle en fonction des nouveaux panneaux conçus
 
 ### Contexte de la séquence
 

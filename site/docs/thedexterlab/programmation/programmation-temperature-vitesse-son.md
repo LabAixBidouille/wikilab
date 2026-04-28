@@ -52,7 +52,7 @@ Cette fiche technique accompagne la ressource [Température et vitesse du son](/
 
 ---
 
-## Fiche de programmation : mesurer la variation de la vitesse du son
+## Fiche de programmation : Mesurer la variation de la vitesse du son
 
 ### Câblage
 

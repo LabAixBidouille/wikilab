@@ -74,7 +74,7 @@ Les sujets abordés au niveau des programmes comprennent :
 - L'éducation environnementale : l'importance de protéger et augmenter les espaces verts pour lutter contre le changement climatique
 - La méthode scientifique : comment mener des expériences pour observer les processus de photosynthèse des plantes
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -102,7 +102,7 @@ Les données seront collectées directement sur l'interface de programmation gr�
 
 Durant cette expérimentation, nous avons pu observer qu'une plante consomme du CO2 quand elle est éclairée correctement. Cette diminution du taux de CO2 est liée à l'activité photosynthétique de la plante. Le CO2 absorbé par la plante lui permet d'alimenter les différents processus biochimiques permettant l'assimilation des glucides nécessaire à la croissance de la plante. Le CO2 n'est pas le seul élément nécessaire à la photosynthèse, il faut aussi l'eau et la lumière pour qu'elle se produise. Si la plante n'est pas assez arrosée ou pas assez éclairée, on ne peut pas observer la variation de la concentration de CO2 attendue.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -141,7 +141,7 @@ De même, si la terre du pot est bien sèche ?
 
 L'ajout d'un écran permet de faire plus de tests et de mieux comprendre les phénomènes observés lors de la première étape. Ces expérimentations viennent pour vérifier ce qui a été appris sur la photosynthèse.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 
@@ -171,7 +171,7 @@ Conduire l'expérience avec plusieurs plantes pour observer ce qui se passe sur 
 
 Les données produites permettent de commencer à modéliser la variation du CO2 et son impact sur la croissance de la plante. La comparaison avec des plantes avec des vitesses de croissance différentes permet d'observer que plus une plante grandit vite plus elle va consommer de CO2 chaque jour. La quantité de CO2 disponible est un facteur limitant pour certaines plantes et une complémentation peut permettre à ces plantes d'avoir une croissance optimisée.
 
-## Étape 4 : utiliser les données de température et d'humidité pour observer leurs influences
+## Étape 4 : Utiliser les données de température et d'humidité pour observer leurs influences
 
 ### Orientation
 

@@ -125,7 +125,7 @@ Lorsque le temps est écoulé, le maître du jeu compte les points :
 
 A la fin du jeu, l'équipe qui a le plus de points gagne. Les points de la seconde manche peuvent être aditionner à ceux de la première manche pour trouver le gagnant.
 
-### Version alternative - Brainstorming : sens commun
+### Version alternative - Brainstorming : Sens commun
 
 Pour ce jeu, il faut 3 équipes minimum ! Dans ce tour, les équipes devront trouver des règles ou des solutions pour résoudre un problème/défi. Par exemple, dans le cas du défi mondial "Déforestation", une règle pourrait être "Vous n'avez pas le droit de couper des arbres, sauf s'ils sont morts". L'objectif des équipes est de trouver des règles de bon sens, applicables à tous. Cette fois, c'est "penser comme les autres" qui est encouragé.
 

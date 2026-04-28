@@ -40,11 +40,6 @@ sidebar_position: 2
 
 ---
 
-## Ça a l'air vrai… mais est-ce vrai ?
-
-**Phase d'exploration IA :** P1 & P2 — Observation et hypothèse
-
----
 
 ## Thèmes d'exploration
 
@@ -57,7 +52,7 @@ sidebar_position: 2
 
 ## Déroulé de l'exploration
 
-### Partie 1 : juste, faux ou risqué ?
+### Partie 1 : Juste, faux ou risqué ?
 
 **Objectif** : Amener les élèves à remarquer que du contenu académique généré par l'IA peut sembler convaincant tout en étant incorrect, incomplet ou injuste.
 
@@ -71,7 +66,7 @@ Les élèves classent chaque production comme **Juste / Faux / Risqué** et just
 
 ---
 
-### Partie 2 : interroger l'IA sur une tâche à réponse connue
+### Partie 2 : Interroger l'IA sur une tâche à réponse connue
 
 **Objectif** : Aider les élèves à découvrir que l'IA générative prédit et produit du contenu basé sur des **modèles statistiques**, plutôt que sur une « connaissance de la vérité ». Les élèves apprennent aussi que l'IA peut fournir des citations vagues ou peu fiables.
 
@@ -94,7 +89,7 @@ Les élèves comparent la production de l'IA avec leur propre travail : qu'est-c
 
 ---
 
-### Partie 3 : la tâche à réponse inconnue
+### Partie 3 : La tâche à réponse inconnue
 
 **Objectif** : Tester et affiner les critères des élèves dans une situation plus authentique — comment ils utilisent réellement l'IA dans leur apprentissage quotidien — pour passer de « l'IA comme expert » à « l'IA comme partenaire de réflexion ».
 
@@ -104,7 +99,7 @@ Dans un second temps, les élèves améliorent leur prompt pour que l'IA agisse 
 
 ---
 
-### Partie 4 : synthèse
+### Partie 4 : Synthèse
 
 **Objectif** : Consolider les apprentissages, construire des normes partagées et co-construire une définition de l'IA générative liée à l'éthique et à l'inclusion.
 

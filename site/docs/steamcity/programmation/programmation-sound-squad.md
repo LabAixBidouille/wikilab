@@ -66,7 +66,7 @@ Deux options de collecte :
 
 ---
 
-## Étape 1 : programmer la carte Micro:bit
+## Étape 1 : Programmer la carte Micro:bit
 
 Connectez la carte à l'ordinateur via le câble micro-USB. Elle apparaîtra comme un disque amovible (« MICROBIT »).
 
@@ -76,7 +76,7 @@ Cliquez sur **Télécharger** pour générer un fichier `.hex`, copiez-le sur le
 
 ---
 
-## Étape 2 : placer la Micro:bit et commencer à enregistrer
+## Étape 2 : Placer la Micro:bit et commencer à enregistrer
 
 Placez la carte à l'endroit souhaité (jardin, parc, mairie…). Alimentez-la avec la batterie externe pour une collecte autonome.
 
@@ -84,7 +84,7 @@ Appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
 ---
 
-## Étape 3 : récupération des données
+## Étape 3 : Récupération des données
 
 À la fin de la collecte, récupérez le fichier **MY_DATA.HTM** sur le lecteur micro:bit. Copiez-le sur votre ordinateur, renommez-le (ex. : `LOCATIONNAME_YYYY_MM_DD.HTM`) et supprimez l'original de la carte pour libérer l'espace. Le fichier HTML permet de télécharger les données au format `.csv`.
 

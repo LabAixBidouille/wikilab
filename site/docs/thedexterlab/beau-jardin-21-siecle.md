@@ -84,7 +84,7 @@ Afin de comprendre le fonctionnement de l'irrigation et de l'arrosage des plante
 - **Mesurer et analyser les données**
 - **Conclure**
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -118,7 +118,7 @@ La mesure de la conductivité est très sensible aux contacts. Ainsi, la profond
 
 Nous pouvons déjà mesurer l'humidité de différentes plantes pour obtenir des valeurs de référence pour caractériser l'humidité du sol d'une plante (très sec, sec, légèrement humide, humide, très humide, mouillé).
 
-## Étape 2 : transformer les mesures en informations utiles pour l'arrosage
+## Étape 2 : Transformer les mesures en informations utiles pour l'arrosage
 
 ### Orientation
 
@@ -150,7 +150,7 @@ Le programme résultant pour un iris est écrit comme suit et l'écran affiche (
 
 Grâce à un capteur bon marché et simple d'utilisation, nous pouvons obtenir l'état d'humidité du sol au pied d'une plante. Bien que la mesure ne soit pas précise et assez relative, elle est suffisante pour le cas qui nous intéresse ici. De plus, il permet de bien comprendre le concept d'étalonnage de la mesure (même très simplifié) et l'importance d'une valeur de référence.
 
-## Étape 3 : commander un servomoteur
+## Étape 3 : Commander un servomoteur
 
 ### Orientation
 
@@ -164,7 +164,7 @@ Afin d'utiliser le servomoteur, il est indispensable de se familiariser avec son
 
 Les élèves sont maintenant capables d'utiliser et de commander un servomoteur, qu'ils utiliseront dans la prochaine étape du système d'irrigation. Le choix du servomoteur n'a pas été fait au hasard. En effet, le servomoteur ne nécessite pas d'autres accessoires (alimentation externe, transistor de puissance, relais…) et son utilisation est très simple. Il est candidat pour de nombreuses applications nécessitant de mettre des objets en mouvement et son utilisation se retrouve dans de nombreux autres projets amateurs.
 
-## Étape 4 : créer un système d'arrosage autonome
+## Étape 4 : Créer un système d'arrosage autonome
 
 ### Orientation
 

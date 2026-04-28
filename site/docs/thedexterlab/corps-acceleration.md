@@ -69,7 +69,7 @@ Le projet aborde les sujets suivants :
 - La rigueur scientifique dans la collecte et l'interprétation de données
 - L'expérimentation scientifique en général
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -96,7 +96,7 @@ Dans notre projet, nous devons mesurer une grandeur physique : l'accélération.
 
 Une fois le branchement et la programmation du capteur accéléromètre réalisés, la prochaine étape consistera à apprendre comment interagir avec les capteurs afin de lire leurs valeurs.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -129,7 +129,7 @@ Au cours de cette phase, nous avons accompli les tâches suivantes :
 - Se familiariser avec l'utilisation d'un capteur embarqué.
 - Utiliser un programme pour afficher des données sur un écran.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 

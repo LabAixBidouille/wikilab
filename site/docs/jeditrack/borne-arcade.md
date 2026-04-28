@@ -105,7 +105,7 @@ La borne d'arcade continue d'évoluer, s'adaptant aux nouvelles technologies tou
 
 </div>
 
-## Le Raspberry Pi : cœur du système
+## Le Raspberry Pi : Cœur du système
 
 Le Raspberry Pi est un mini-ordinateur de la taille d'une carte de crédit, développé au Royaume-Uni par la fondation Raspberry Pi. Lancé en 2012, son principal objectif était de promouvoir l'enseignement des sciences informatiques dans les écoles. Grâce à son faible coût, sa flexibilité et sa facilité d'utilisation, il a rapidement trouvé une place dans les projets de bricolage (DIY) et les applications professionnelles.
 

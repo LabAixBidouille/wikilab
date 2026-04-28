@@ -62,15 +62,15 @@ Durant ce protocole, les élèves joueront le rôle de scientifiques en charge d
 
 L'expérimentation se compose de trois étapes clés, guidant les élèves à travers le processus scientifique, de l'exploration des concepts fondamentaux à l'analyse et à l'interprétation des données expérimentales.
 
-#### Étape 1 : exploration des concepts clés et formulation de la question de recherche
+#### Étape 1 : Exploration des concepts clés et formulation de la question de recherche
 
 Les élèves explorent les principes fondamentaux du son et du bruit, notamment les ondes sonores, l’échelle des décibels et les effets de la pollution sonore sur la santé et le bien-être. Ils discutent ensemble et formulent une question de recherche, comme déterminer les matériaux les plus efficaces pour l’isolation acoustique ou étudier comment l’épaisseur ou la densité influencent l’atténuation du son. Cette phase comprend une recherche documentaire, durant laquelle les élèves consultent des ressources existantes sur les matériaux d’insonorisation et leurs propriétés. Cette étape encourage la pensée critique, la collaboration et l’ancrage de leur expérimentation sur des bases scientifiques solides.
 
-#### Étape 2 : conception expérimentale et collecte de données
+#### Étape 2 : Conception expérimentale et collecte de données
 
 Au cours de cette étape, les élèves collaborent pour concevoir et mettre en œuvre un protocole expérimental permettant de mesurer les propriétés d'atténuation acoustique de différents matériaux. À l’aide d’un microcontrôleur programmable équipé d’un microphone et d’une source sonore, ils mesurent l’intensité sonore avant et après son passage à travers les matériaux sélectionnés. Les élèves documentent les conditions expérimentales — type de matériau, épaisseur, densité — en veillant à maintenir une configuration cohérente et reproductible. Cette phase valorise l’apprentissage par la pratique et la rigueur scientifique tout en permettant de collecter des données quantitatives pour valider leurs hypothèses.
 
-#### Étape 3 : analyse et interprétation des données
+#### Étape 3 : Analyse et interprétation des données
 
 Après l’expérimentation, les élèves analysent les données recueillies pour identifier les tendances et les relations entre les propriétés des matériaux et l’atténuation du son. Ils utilisent des outils visuels tels que des graphiques et des tableaux pour représenter leurs résultats, et calculent des mesures pertinentes comme les réductions de décibels. Cette phase comprend également une réflexion sur le processus expérimental : les élèves évaluent les sources d’erreur potentielles, les limites de la configuration et les moyens d’améliorer la méthodologie. Ils établissent aussi des liens entre leurs résultats et des applications concrètes, comme la réduction du bruit urbain ou les pratiques de construction durable. Cette étape renforce la pensée critique, l’interprétation des données et la communication scientifique rigoureuse.
 
@@ -123,7 +123,7 @@ Ce protocole décrit une expérience scientifique qui vise à mesurer le pouvoir
 
 ---
 
-## Étape 1 : exploration des concepts clés et étude documentaire
+## Étape 1 : Exploration des concepts clés et étude documentaire
 
 ### Contexte de la séquence
 
@@ -297,7 +297,7 @@ Pour conclure cette phase, les élèves s’engagent dans une discussion centré
 
 ---
 
-## Étape 2 : conception expérimentale et collecte de données
+## Étape 2 : Conception expérimentale et collecte de données
 
 
 L'objectif de cette phase est de faire passer les élèves de l'exploration théorique à l'expérimentation pratique. Les élèves utilisent leurs connaissances sur les ondes sonores et l’atténuation, combinées à la question de recherche et à l’hypothèse formulées à l’étape 1, pour concevoir et exécuter une expérience. Cette phase introduit les pratiques scientifiques essentielles, telles que la précision des mesures, la collecte systématique de données et le dépannage.
@@ -457,7 +457,7 @@ Cette étape renforce le lien entre théorie et pratique, en dotant les élèves
 
 ---
 
-## Étape 3 : analyse et interprétation des données
+## Étape 3 : Analyse et interprétation des données
 
 
 ### Contexte de la séquence

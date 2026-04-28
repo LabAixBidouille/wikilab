@@ -86,7 +86,7 @@ L'expérimentation se déroule en quatre étapes progressives, permettant aux é
 - **Imagerie thermique aérienne** : Une technique utilisant des drones ou des avions pour capturer des données thermiques de grandes zones, telles que des quartiers ou des villes, afin d'identifier les tendances en matière de perte de chaleur.
 
 
-## Étape 1 : introduction à l'isolation thermique et formulation d'hypothèses
+## Étape 1 : Introduction à l'isolation thermique et formulation d'hypothèses
 
 ### Contexte
 
@@ -301,7 +301,7 @@ Grâce à ce processus réflexif, les élèves seront amenés à analyser de man
 
 ---
 
-## Étape 2 : exploration des matériaux d'isolation thermique : enquête en laboratoire
+## Étape 2 : Exploration des matériaux d'isolation thermique : enquête en laboratoire
 
 ### Contexte
 
@@ -499,7 +499,7 @@ Cette phase permet aux élèves de développer à la fois des connaissances scie
 
 ---
 
-## Étape 3 : application des connaissances à des contextes réels
+## Étape 3 : Application des connaissances à des contextes réels
 
 Au cours de cette phase, les élèves mettront en application leur compréhension des principes de l'isolation dans des situations concrètes. Cette étape fait le lien entre les résultats expérimentaux de la phase 2 et des applications pratiques, en leur permettant d'analyser, évaluer et proposer des solutions pour améliorer l'efficacité énergétique des bâtiments.
 
@@ -672,7 +672,7 @@ Leurs découvertes pourront également déboucher sur des projets concrets, tels
 
 ---
 
-## Étape 4 : cartographie collaborative des pertes de chaleur urbaines
+## Étape 4 : Cartographie collaborative des pertes de chaleur urbaines
 
 Dans cette dernière phase, les élèves seront amenés à étendre leur apprentissage au-delà de l'échelle du bâtiment individuel, en inscrivant leur démarche dans un contexte territorial plus large. En menant un projet collaboratif de cartographie thermique, ils analyseront les schémas de perte de chaleur observables dans leur quartier ou leur ville. Cette activité vise à renforcer leur compréhension des enjeux collectifs liés à l'isolation et à l'efficacité énergétique. Elle permet également aux élèves de contribuer activement à la sensibilisation de leur communauté, en produisant des données visuelles et argumentées susceptibles d'alimenter des recommandations concrètes à destination des habitants, des acteurs locaux ou des décideurs publics.
 
@@ -872,7 +872,7 @@ Le choix d'une caméra thermique pour cette activité dépend des ressources dis
 
 Pour les écoles à la recherche d'options à la fois abordables et accessibles, les caméras thermiques compatibles avec les smartphones, comme l'Infiray P2 Pro, constituent une solution pratique. Ces dispositifs compacts se connectent directement à un smartphone Android et permettent de transformer celui-ci en outil d'imagerie thermique. Leur utilisation est simple et leur format portable les rend adaptés aux contextes éducatifs. Bien qu'ils ne disposent pas des fonctionnalités avancées des caméras thermiques autonomes, ces appareils répondent efficacement aux besoins d'activités pédagogiques où la facilité d'utilisation et la mobilité sont des critères importants.
 
-### Visualisation des données thermiques : exemples d'images
+### Visualisation des données thermiques : Exemples d'images
 
 Vous trouverez ci-dessous des exemples d'images thermiques réelles. Elles illustrent des situations fréquentes : ponts thermiques, infiltrations d'air ou pertes de chaleur au niveau des murs et des fenêtres.
 
@@ -884,7 +884,7 @@ Vous trouverez ci-dessous des exemples d'images thermiques réelles. Elles illus
 
 **Points froids dans une pièce :** Cette image thermique d'une pièce révèle des zones froides, autour de 15 °C, le long des angles du plafond, et des zones plus chaudes, proches de 19 °C, à proximité du mobilier. Cette répartition suggère un chauffage inégal, possiblement lié à une isolation partielle ou inefficace. Point clé : L'analyse de ces variations permet d'identifier les endroits où une isolation complémentaire ou une ventilation mieux répartie pourrait être envisagée.
 
-### Guide pratique : utilisation de l'Infiray P2 Pro pour l'analyse thermique
+### Guide pratique : Utilisation de l'Infiray P2 Pro pour l'analyse thermique
 
 L'Infiray P2 Pro est une caméra thermique compacte conçue pour les smartphones Android. Son interface simple et sa portabilité en font un outil adapté aux activités pédagogiques portant sur l'isolation thermique et l'efficacité énergétique. Vous trouverez ci-dessous un guide détaillé pour en faire un usage efficace dans le cadre d'analyses thermiques.
 

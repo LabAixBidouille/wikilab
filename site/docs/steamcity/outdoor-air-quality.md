@@ -63,19 +63,19 @@ La dimension scientifique du projet permet aux apprenants d'aborder des concepts
 
 Le protocole fonctionne comme un parcours d'apprentissage à travers quatre étapes :
 
-#### Étape 1 : collecter des données, construction et déploiement de capteurs
+#### Étape 1 : Collecter des données, construction et déploiement de capteurs
 
 Les élèves construisent leur station de surveillance de la qualité de l'air et apprennent à collecter des mesures à l'aide de capteurs. Cette première étape présente les composants et concepts techniques tout en générant les données brutes nécessaires à l'analyse ultérieure.
 
-#### Étape 2 : afficher les données, techniques de visualisation et de représentation
+#### Étape 2 : Afficher les données, techniques de visualisation et de représentation
 
 En s'appuyant sur la collecte de données, les élèves apprennent à visualiser leurs mesures à l'aide de graphiques et d'affichages de données. Cette étape développe les compétences en littératie des données et aide les élèves à identifier des tendances qui ne sont pas évidentes sous forme numérique brute.
 
-#### Étape 3 : analyser les données, identifier les tendances et les corrélations environnementales
+#### Étape 3 : Analyser les données, identifier les tendances et les corrélations environnementales
 
 À partir des données visualisées, les élèves effectuent une analyse pour identifier les corrélations, comprendre les facteurs d'influence et tirer des conclusions fondées sur des données probantes. Cette étape analytique transforme les mesures brutes en informations.
 
-#### Étape 4 : utiliser les données pour agir, élaboration de recommandations environnementales
+#### Étape 4 : Utiliser les données pour agir, élaboration de recommandations environnementales
 
 La dernière étape encourage les élèves à appliquer leurs conclusions à des situations concrètes, en les comparant à d'autres données et en formulant des recommandations pour améliorer la qualité de l'air. Cela relie la recherche scientifique à l'action citoyenne et à la sensibilisation à l'environnement.
 
@@ -115,7 +115,7 @@ Chaque étape s'appuie sur la précédente, créant une progression d'apprentiss
 
 ---
 
-## Étape 1 : collecter des données, construction et déploiement d'équipements de capteurs
+## Étape 1 : Collecter des données, construction et déploiement d'équipements de capteurs
 
 ### Contexte de la séquence
 
@@ -142,7 +142,7 @@ L'air que nous respirons est composé de divers éléments chimiques, sous forme
 
 Les polluants tels que les aérosols, les oxydes d'azote, les métaux lourds, le monoxyde de carbone, les composés organiques volatils, etc. sont considérés comme des indicateurs de la pollution atmosphérique. Ils sont donc étroitement surveillés par divers organismes de contrôle (nationaux, comme les [agences ATMO](https://atmo-france.org/la-carte-des-aasqa/), ou internationaux, comme l'OMS).
 
-#### Question de recherche 1 : que sont les polluants environnementaux ?
+#### Question de recherche 1 : Que sont les polluants environnementaux ?
 
 **Hypothèse** : Les polluants atmosphériques d'origine naturelle et anthropique s'accumulent à des concentrations différentes selon le lieu, le moment et les conditions météorologiques.
 
@@ -154,7 +154,7 @@ Les polluants tels que les aérosols, les oxydes d'azote, les métaux lourds, le
 
 Vous trouverez en annexe un glossaire complet des polluants.
 
-#### Question de recherche 2 : comment pouvons-nous quantifier différents types de polluants atmosphériques ?
+#### Question de recherche 2 : Comment pouvons-nous quantifier différents types de polluants atmosphériques ?
 
 **Hypothèse** : Les capteurs électroniques peuvent détecter et mesurer des polluants spécifiques grâce à différents principes de détection physiques et chimiques.
 
@@ -164,7 +164,7 @@ Vous trouverez en annexe un glossaire complet des polluants.
 2. **Parties par million (PPM)** : Unité de mesure utilisée pour quantifier les faibles concentrations de polluants dans l'air, représentant le nombre de particules polluantes trouvées parmi un million de particules d'air.
 3. **Étalonnage** : Processus de configuration d'un capteur ou d'un outil de mesure en comparant ses lectures avec une norme connue pour garantir l'exactitude de la collecte de données.
 
-#### Question de recherche 3 : où la qualité de l'air est-elle un problème important ?
+#### Question de recherche 3 : Où la qualité de l'air est-elle un problème important ?
 
 **Hypothèse** : Les zones à forte densité de population, à activité industrielle et à forte concentration de trafic connaissent des problèmes de qualité de l'air plus importants que les zones rurales ou moins développées.
 
@@ -222,7 +222,7 @@ Les élèves devraient désormais être capables d'identifier les polluants atmo
 
 ---
 
-## Étape 2 : afficher les données, techniques de visualisation et de représentation
+## Étape 2 : Afficher les données, techniques de visualisation et de représentation
 
 ### Contexte de la séquence
 
@@ -297,7 +297,7 @@ L'enseignant peut conclure l'activité en montrant aux élèves qu'ils ont appri
 
 ---
 
-## Étape 3 : analyser les données, identifier les modèles et les corrélations environnementales
+## Étape 3 : Analyser les données, identifier les modèles et les corrélations environnementales
 
 ### Contexte de la séquence
 
@@ -394,7 +394,7 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ---
 
-## Étape 4 : utiliser les données pour agir, élaboration de recommandations environnementales
+## Étape 4 : Utiliser les données pour agir, élaboration de recommandations environnementales
 
 ### Contexte de la séquence
 
@@ -480,7 +480,7 @@ En s'appuyant sur les connaissances et les compétences développées en classe,
 
 ---
 
-## Documentation : glossaire des polluants
+## Documentation : Glossaire des polluants
 
 | Polluants | Effets sur la santé | Effets sur l'environnement (climatique et local) | Valeurs maximales recommandées par l'OMS |
 |---|---|---|---|

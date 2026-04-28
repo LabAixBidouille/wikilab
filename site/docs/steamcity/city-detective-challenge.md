@@ -50,15 +50,15 @@ La ville, en tant que système vivant et complexe, sert de terrain d'enquête. E
 
 Cette activité initie les élèves à la dimension citoyenne du projet SteamCity. Elle les prépare à adopter une posture active sur le terrain, les engage dans l'observation de leur environnement urbain et les initie à une lecture critique de l'espace public. Elle constitue ainsi une mise en situation concrète, essentielle pour ancrer les futures expérimentations dans des réalités vécues. Elle joue un rôle structurant dans la formation de leur citoyenneté. En analysant les services municipaux et leurs effets, les élèves prennent conscience des enjeux collectifs et des responsabilités partagées. Cette expérience alimente les démarches scientifiques ultérieures, en donnant du sens aux données produites et en renforçant leur implication dans les problématiques territoriales. Bien qu'elle repose moins sur des outils technologiques, elle conserve une approche rigoureuse fondée sur l'investigation : recherche documentaire, collecte de données de terrain, structuration cartographique.
 
-### Étape 1 : jeu d'introduction aux services citoyens
+### Étape 1 : Jeu d'introduction aux services citoyens
 
 À l'issue du jeu, un greffier de séance est désigné lors de la phase de conclusion. Il ou elle consigne les éléments clés sur les services et départements rencontrés. Cette première contribution initie la documentation collective.
 
-### Étape 2 : promenade de données et cartographie
+### Étape 2 : Promenade de données et cartographie
 
 Après les recherches et observations de terrain, les élèves préparent une synthèse écrite ou une présentation. Chaque groupe consigne ses résultats dans le Carnet du Détective. Cela permet de relier l'observation directe aux savoirs acquis.
 
-### Étape 3 : simulation de crises
+### Étape 3 : Simulation de crises
 
 Lors des discussions en table ronde, un greffier de crise note les solutions proposées par chaque groupe dans le carnet. Ces contributions servent de base à la construction d'une réponse collective à la crise simulée, enrichissant l'analyse commune.
 
@@ -132,7 +132,7 @@ Le carnet est divisé en trois sections, chacune correspondant à une étape de 
 
 ---
 
-## Phase 1 : jeu introductif
+## Phase 1 : Jeu introductif
 
 ### Contexte de la séquence
 
@@ -239,7 +239,7 @@ D'autre part, cette phase de conclusion peut être utilisée pour approfondir la
 
 ---
 
-## Phase 2 : approfondissement des connaissances
+## Phase 2 : Approfondissement des connaissances
 
 ### Contexte de la séquence
 
@@ -283,7 +283,7 @@ Chaque groupe mène une recherche sur le rôle de son département dans la ville
 
 À ce stade, si vous utilisez le Carnet du Détective pour construire le contenu final de la séquence, chaque groupe peut enregistrer ses découvertes directement dans le carnet, dans la « Section 2 : Approfondissement des connaissances sur les services publics ».
 
-#### Optionnel : visite
+#### Optionnel : Visite
 
 Si les conditions logistiques le permettent, une visite des services municipaux peut être organisée en collaboration avec les bureaux du gouvernement local. Cette visite peut inclure des rencontres avec des agents municipaux, des visites guidées de certaines installations ou des échanges interactifs avec le personnel de différents départements.
 
@@ -337,7 +337,7 @@ Encouragez les élèves à réfléchir à l'usage futur des compétences acquise
 
 ---
 
-## Phase 3 : simulation de crise et mise en situation
+## Phase 3 : Simulation de crise et mise en situation
 
 ### Contexte de la séquence
 
@@ -505,7 +505,7 @@ Un carnet structuré en trois sections : Le carnet est divisé en trois grandes 
 
 Ce carnet accompagne votre parcours de découverte. Il mettra en évidence ce que vous avez appris et comment vous avez progressé dans votre compréhension du fonctionnement des services publics. Abordez chaque activité avec curiosité, et utilisez ce carnet pour garder une trace claire et organisée de vos observations. Bonne enquête !
 
-### Section 1 : découverte des services publics
+### Section 1 : Découverte des services publics
 
 Bienvenue dans la première étape de votre mission ! Cette section est dédiée à vos premières découvertes sur les services publics, issues du jeu introductif.
 
@@ -527,7 +527,7 @@ Services à documenter :
 - Service de la culture, du tourisme, des sports et des loisirs
 - Service de la voirie et propreté des espaces publics
 
-### Section 2 : approfondir les connaissances sur les services publics
+### Section 2 : Approfondir les connaissances sur les services publics
 
 Maintenant que vous avez compris les rôles de chaque service, il est temps de les voir à l'œuvre ! Cette section de votre Carnet du Détective sert à rassembler les résultats de vos recherches et de votre data walk. Pendant cette phase, vous et votre groupe êtes partis sur le terrain pour observer comment les services municipaux fonctionnent concrètement et influencent les quartiers environnants.
 
@@ -549,7 +549,7 @@ Services à documenter :
 - Service de la culture, du tourisme, des sports et des loisirs
 - Service de la voirie et propreté des espaces publics
 
-### Section 3 : réunion de gestion de crise
+### Section 3 : Réunion de gestion de crise
 
 La dernière section de votre Carnet du Détective porte sur l'application et la synthèse. Après avoir appris à connaître les services municipaux et les avoir observés sur le terrain, vous êtes maintenant chargés de répondre à des crises hypothétiques pouvant frapper votre ville.
 
@@ -576,7 +576,7 @@ Services à documenter :
 
 ## Scénarios de crise
 
-### Liste 1 : scénarios « plausibles »
+### Liste 1 : Scénarios « plausibles »
 
 **Crise n°1 : Alerte météo violente : une tempête approche d'Elysian City.** Elysian City se prépare à affronter une violente tempête, nommée Séraphine, attendue dans la nuit. Cette tempête s'annonce d'une intensité exceptionnelle, avec des vents destructeurs et des précipitations records. L'Agence de gestion des urgences a émis un ordre d'évacuation immédiate pour les zones côtières les plus exposées. Elle procède également à l'installation d'abris d'urgence dans divers quartiers de la ville afin de garantir la sécurité des habitants.
 
@@ -612,7 +612,7 @@ Services à documenter :
 
 **Crise n°17 : Retombées soudaines de cendres volcaniques du mont Celos.** Le mont Celos, situé à proximité d'Elysian City, est entré en éruption sans avertissement dans la nuit, projetant d'épais nuages de cendres volcaniques sur la ville. Les autorités ont diffusé des consignes sanitaires et déployé des équipes de nettoyage pour limiter les risques respiratoires et sécuriser les espaces publics.
 
-### Liste 2 : scénarios « improbables »
+### Liste 2 : Scénarios « improbables »
 
 Vous trouverez ci-dessous une liste de crises généralement improbables, à utiliser comme sources d'inspiration. Proposer des scénarios fictifs et invraisemblables permet de rendre l'activité plus ludique et moins anxiogène. Ces situations atypiques sollicitent la créativité et l'imagination des élèves, tout en les confrontant à des défis inattendus. Cela permet aussi de dédramatiser la notion de crise ou d'erreur, en soulignant que l'essentiel reste la capacité à réagir et à s'adapter, quelles que soient les circonstances.
 
@@ -634,7 +634,7 @@ Vous trouverez ci-dessous une liste de crises généralement improbables, à uti
 
 ---
 
-## Annexe : suggestions d'animation
+## Annexe : Suggestions d'animation
 
 Lorsque vos élèves semblent bloqués ou manquent d'idées, plusieurs techniques peuvent relancer efficacement la discussion. N'hésitez pas à changer de perspective en leur demandant de se mettre dans la peau d'un citoyen ordinaire, d'un touriste ou d'une personne âgée. Questionnez leurs priorités : qu'est-ce qui est le plus urgent ? Qu'est-ce qui peut attendre demain ? Explorez les conséquences de leurs choix en posant des questions comme « Que se passe-t-il si on ne fait rien ? Si on fait trop ? » Enfin, encouragez l'innovation en les poussant à imaginer des solutions inédites.
 

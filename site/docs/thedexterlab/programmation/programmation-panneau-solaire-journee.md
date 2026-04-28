@@ -55,7 +55,7 @@ Cette fiche technique accompagne la ressource [Panneau solaire sur une journée]
 
 ---
 
-## Fiche 1 : collecter les données grâce au capteur de tension
+## Fiche 1 : Collecter les données grâce au capteur de tension
 
 **Câbler le capteur de tension (I2C)** :
 
@@ -86,7 +86,7 @@ forever(function () {
 
 ---
 
-## Fiche 2 : afficher les données sur un écran
+## Fiche 2 : Afficher les données sur un écran
 
 **Connecter l'écran OLED SSD1306 (I2C)** :
 
@@ -118,7 +118,7 @@ forever(function () {
 
 ---
 
-## Fiche 3 : créer un système d'alarme
+## Fiche 3 : Créer un système d'alarme
 
 Même câblage que la fiche 2 (écran OLED + capteur INA219 + panneau solaire).
 

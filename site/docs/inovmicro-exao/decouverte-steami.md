@@ -114,7 +114,7 @@ La STeaMi dispose de deux types de connecteurs pour étendre ses fonctionnalité
 
 ## Premier contact avec la carte
 
-### Étape 1 : allumer la carte
+### Étape 1 : Allumer la carte
 
 - Connecte la carte STeaMi à ton ordinateur avec un câble USB-C
 - La carte s'allume et apparaît comme une clé USB nommée **STEAMI** sur ton ordinateur
@@ -126,7 +126,7 @@ Si la carte est équipée d'une batterie, tu peux aussi l'allumer sans ordinateu
 
 :::
 
-### Étape 2 : choisir un environnement de programmation
+### Étape 2 : Choisir un environnement de programmation
 
 Trois environnements sont supportés pour programmer la STeaMi :
 
@@ -136,7 +136,7 @@ Trois environnements sont supportés pour programmer la STeaMi :
 
 Pour commencer, nous recommandons **MicroPython** ou **MakeCode** selon le niveau des élèves.
 
-### Étape 3 : écrire un premier programme
+### Étape 3 : Écrire un premier programme
 
 **En MicroPython** — affiche "Hello !" sur l'écran :
 
@@ -148,7 +148,7 @@ display.show("Hello !")
 
 **En MakeCode** — utilise le bloc `afficher du texte` avec "Hello !" comme paramètre.
 
-### Étape 4 : téléverser le programme
+### Étape 4 : Téléverser le programme
 
 - **Drag and drop** : glisse simplement le fichier `.hex` (MakeCode) ou `.py` (MicroPython) sur le lecteur USB **STEAMI**
 - La LED orange clignote pendant le transfert

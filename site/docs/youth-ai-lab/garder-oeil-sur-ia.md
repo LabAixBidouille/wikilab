@@ -41,11 +41,6 @@ sidebar_position: 3
 
 ---
 
-## Garder un œil sur l'IA
-
-**Phase d'exploration IA :** P1 — Observer et documenter l'IA autour de nous
-
----
 
 ## Thèmes d'exploration
 
@@ -57,7 +52,7 @@ sidebar_position: 3
 
 ## Déroulé de l'exploration
 
-### Étape 1 : introduction guidée (en classe, 60 minutes) : activité de l'enseignant·e
+### Étape 1 : Introduction guidée (en classe, 60 minutes) : activité de l'enseignant·e
 
 **Question clé** : *L'intelligence artificielle est-elle déjà partout ? Peut-on la reconnaître ?*
 
@@ -83,7 +78,7 @@ L'animateur·rice recueille et discute brièvement les réponses des élèves, s
 
 ---
 
-### Étape 2 : tâche pour les élèves (en classe, 60 minutes)
+### Étape 2 : Tâche pour les élèves (en classe, 60 minutes)
 
 Les élèves doivent :
 
@@ -104,7 +99,7 @@ Les élèves doivent :
 
 ---
 
-### Étape 3 : analyse et discussion (en classe, 30 minutes)
+### Étape 3 : Analyse et discussion (en classe, 30 minutes)
 
 - Les groupes partagent leurs découvertes
 - Correction guidée et discussion menée par l'enseignant·e

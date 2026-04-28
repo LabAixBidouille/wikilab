@@ -96,7 +96,7 @@ Une fois la semaine de collecte terminée, les élèves compileront et analysero
 
 ---
 
-## Phase 1 : compréhension de la problématique et préparation de l'étude
+## Phase 1 : Compréhension de la problématique et préparation de l'étude
 
 ### Contexte de la séquence
 
@@ -153,7 +153,7 @@ Dans une logique d'apprentissage actif, il est intéressant de laisser les élè
 
 ---
 
-## Phase 2 : collecte de données
+## Phase 2 : Collecte de données
 
 ### Contexte de la séquence
 
@@ -220,7 +220,7 @@ Dans une logique interdisciplinaire, il pourrait être intéressant de présente
 
 ---
 
-## Phase 3 : analyse, interprétation et conclusion de l'étude
+## Phase 3 : Analyse, interprétation et conclusion de l'étude
 
 ### Contexte de la séquence
 
@@ -384,7 +384,7 @@ Dans les espaces publics et professionnels, des systèmes d'alerte sonore ou vis
 
 ---
 
-## Annexe : journal imprimable
+## Annexe : Journal imprimable
 
 **SUIVI DU BRUIT EN CLASSE**
 

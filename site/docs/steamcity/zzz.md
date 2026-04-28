@@ -80,7 +80,7 @@ Les rythmes circadiens sont notre horloge biologique interne qui contrôle les c
 
 ---
 
-## Phase 1 : compréhension de la problématique et définition des indicateurs
+## Phase 1 : Compréhension de la problématique et définition des indicateurs
 
 ### Contexte de la séquence
 
@@ -147,7 +147,7 @@ Pour approfondir la réflexion, les enseignants pourront également utiliser les
 
 ---
 
-## Phase 2 : collecte de données
+## Phase 2 : Collecte de données
 
 ### Contexte de la séquence
 
@@ -241,7 +241,7 @@ Les contraintes matérielles, bien que limitantes, peuvent donc enrichir la comp
 
 ---
 
-## Phase 3 : analyse, interprétation et conclusion
+## Phase 3 : Analyse, interprétation et conclusion
 
 ### Contexte de la séquence
 

@@ -108,7 +108,7 @@ Matériel nécessaire :
 
 **Énergie chimique** : Énergie stockée dans les liaisons chimiques, libérée lors des réactions.
 
-## Étape 1 : définition et identification des formes d'énergie
+## Étape 1 : Définition et identification des formes d'énergie
 
 ### Contexte de la séquence
 
@@ -231,7 +231,7 @@ Comment une même forme d'énergie se manifeste-t-elle différemment dans notre 
 
 ---
 
-## Étape 2 : impact environnemental et social des différentes formes d'énergie
+## Étape 2 : Impact environnemental et social des différentes formes d'énergie
 
 ### Contexte de la séquence
 
@@ -395,7 +395,7 @@ Ces prolongements permettraient aux élèves de mobiliser leurs connaissances da
 
 ---
 
-## Étape 3 : imaginer un monde sans l'une ou l'autre de ces formes d'énergie
+## Étape 3 : Imaginer un monde sans l'une ou l'autre de ces formes d'énergie
 
 ### Contexte de la séquence
 

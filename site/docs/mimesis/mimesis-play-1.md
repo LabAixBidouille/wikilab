@@ -310,7 +310,7 @@ Dans cette version, les groupes restent les mêmes que dans les actes précéden
 - [https://www.teacherspayteachers.com/Product/Make-your-own-SOLAR-SYSTEM-inclinstructions-all-designs-lesson-on-planets-5592770](https://www.teacherspayteachers.com/Product/Make-your-own-SOLAR-SYSTEM-inclinstructions-all-designs-lesson-on-planets-5592770)
 - [https://simpop.org/solar-system/solar-system.htm](https://simpop.org/solar-system/solar-system.htm)
 
-### Thème 3 - Zone Habitable : la Terre
+### Thème 3 - Zone Habitable : La Terre
 
 - [https://www.youtube.com/watch?v=J04YN9azln8](https://www.youtube.com/watch?v=J04YN9azln8)
 - [https://www.youtube.com/watch?v=6Ihbuy5g84g](https://www.youtube.com/watch?v=6Ihbuy5g84g)

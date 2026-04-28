@@ -69,7 +69,7 @@ Ce protocole mobilise plusieurs compétences qui sont pertinentes pour l'apprent
 - En mathématiques : la capacité à utiliser les données collectées pour calculer des grandeurs physiques comme la tension, l'intensité et la puissance, à tracer des graphiques pour visualiser les résultats et à interpréter les résultats numériques.
 - En technologie : habiliter la programmation d'un capteur de tension pour collecter des données, utiliser un afficheur pour visualiser les résultats, créer un système d'alerte pour prévenir l'utilisateur des conditions optimales d'utilisation de l'énergie solaire et concevoir un système d'orientation automatique pour maximiser la production d'énergie solaire.
 
-## Étape 1 : collecter des données
+## Étape 1 : Collecter des données
 
 ### Orientation
 
@@ -106,7 +106,7 @@ Pour vous aider dans votre enquête, remplir le tableau suivant :
 
 Lors de cette étape, nous avons mis en place une expérience permettant de suivre la production d'énergie d'un panneau solaire en fonction de la position du soleil. L'enquête a permis de découvrir que cette production évolue de manière significative en fonction de l'angle d'incidence.
 
-## Étape 2 : afficher les données collectées
+## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
@@ -128,7 +128,7 @@ Afin d'informer l'utilisateur de la tension mesurée, la première solution qui 
 
 Dans cette étape, nous avons permis d'avoir une vision directe des données mesurées pendant l'expérience. Grâce à cela, l'investigation a pu vérifier directement les hypothèses émises à l'étape précédente.
 
-## Étape 3 : analyser les données
+## Étape 3 : Analyser les données
 
 ### Orientation
 
