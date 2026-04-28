@@ -332,15 +332,6 @@ export default function Catalogue(): React.ReactElement {
               />
 
               <FilterGroup
-                legend="Projet"
-                labels={projectLabels}
-                selected={filters.projects}
-                onToggle={(v) =>
-                  setFilters({...filters, projects: toggle(filters.projects, v)})
-                }
-              />
-
-              <FilterGroup
                 legend="Disciplines"
                 labels={disciplineLabels}
                 selected={filters.disciplines}
@@ -399,6 +390,15 @@ export default function Catalogue(): React.ReactElement {
                     ...filters,
                     difficulties: toggle(filters.difficulties, v),
                   })
+                }
+              />
+
+              <FilterGroup
+                legend="Projet"
+                labels={projectLabels}
+                selected={filters.projects}
+                onToggle={(v) =>
+                  setFilters({...filters, projects: toggle(filters.projects, v)})
                 }
               />
 
