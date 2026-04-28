@@ -3193,6 +3193,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation', 'citoyennete-territoire'],
     keywords: ['uMap', 'OpenStreetMap', 'cartographie', 'services publics', 'quartier'],
+    thumbnail: '/img/ressources/steamcity/programmation-city-detective-challenge/icone.svg',
   },
   {
     id: 'programmation-decibel-detective',
@@ -3300,6 +3301,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation', 'citoyennete-territoire'],
     keywords: ['micro:bit', 'MakeCode', 'bruit urbain', 'datalogger', 'cartographie sonore'],
+    thumbnail: '/img/ressources/steamcity/programmation-sound-squad/icone.svg',
   },
   {
     id: 'programmation-whisper-walls',

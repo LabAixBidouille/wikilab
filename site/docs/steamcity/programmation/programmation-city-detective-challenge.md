@@ -31,6 +31,8 @@ sidebar_position: 9
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-city-detective-challenge/icone.svg" alt="Cartographie citoyenne avec uMap" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---

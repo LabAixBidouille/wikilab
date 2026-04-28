@@ -31,6 +31,8 @@ sidebar_position: 2
 
 </div>
 
+<img src="/img/ressources/steamcity/programmation-sound-squad/icone.svg" alt="Carte sonore avec micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
 </div>
 
 ---
