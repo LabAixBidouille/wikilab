@@ -17,8 +17,12 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://wikilab.example.com',
+  url: 'https://wiki.labaixbidouille.com',
   baseUrl: '/',
+  trailingSlash: false,
+
+  organizationName: 'LabAixBidouille',
+  projectName: 'wikilab',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
