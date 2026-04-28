@@ -136,6 +136,11 @@ Cette définition met en lumière le concept de simulation. Il est essentiel de 
 - **2010** : Siri, développé par Luc Julia et son équipe chez Apple, présente des assistants IA à commande vocale aux consommateurs grand public.
 - **Fin 2022** : OpenAI publie ChatGPT, un grand modèle de langage qui démontre des capacités sans précédent de compréhension et de génération de langage naturel.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/waste-sorting/histoireIA.png" alt="Frise chronologique de l'IA" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Frise chronologique de l'intelligence artificielle</figcaption>
+</figure>
+
 #### Comment les IA apprennent-elles à reconnaître des images ?
 
 Que voit une IA ? La machine utilise des capteurs pour déchiffrer son environnement et collecter des données.
@@ -218,6 +223,11 @@ L'activité peut être menée en petits groupes ou en classe entière, favorisan
 6. Pensez à activer les zones d'interaction pour comprendre sur quel élément votre modèle se base pour prédire un résultat. En cliquant sur « Zones d'interaction », vous pouvez visualiser les zones les plus pertinentes de l'image qui ont permis à la machine de fournir sa prédiction. L'activation de cette zone peut vous aider à mieux expliquer les résultats fournis par la machine.
 7. Remettez en question votre modèle : l'IA a-t-elle reconnu tous les objets 100 % du temps ? D'où viennent les erreurs ? Qu'est-ce qui caractérise le verre ? L'emballage ? Le papier ? L'échantillon représente-t-il la majorité des déchets ?
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/waste-sorting/exempleclassement.png" alt="Exemple de classement par l'IA Vittascience" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de classement obtenu après entraînement</figcaption>
+</figure>
+
 :::info[Important]
 Une fois que vous avez testé votre modèle, si les résultats ne sont pas satisfaisants, ajoutez plus d'images et entraînez-le à nouveau pour l'améliorer.
 :::
@@ -241,9 +251,19 @@ La carte pourra effectuer des actions (déplacer un servomoteur, allumer/éteind
 
 Une fenêtre contextuelle apparaîtra, vous permettant de télécharger un programme que vous pouvez glisser-déposer sur votre carte, lui permettant de « parler » à Adacraft.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/waste-sorting/extensionsvittascience.png" alt="Extensions Vittascience pour connecter une carte" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Extensions Vittascience pour la connexion d'un microcontrôleur</figcaption>
+</figure>
+
 Une fois cela fait, appuyez sur « Connecter » pour créer la connexion série avec la carte
 
 Vous disposez désormais d'un modèle de reconnaissance prêt à détecter des objets et des blocs vous permettant de communiquer avec un tableau physique.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/waste-sorting/code.png" alt="Programme de connexion entre l'IA et le microcontrôleur" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme reliant la sortie du modèle au microcontrôleur</figcaption>
+</figure>
 
 #### Activité 3 : Créer des commentaires interactifs sur l'IA (20 minutes)
 

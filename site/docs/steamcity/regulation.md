@@ -159,6 +159,14 @@ La séance se terminera par un test des fonctionnalités de base, permettant aux
 
 **Ressources** : Le [manuel d'utilisation du Roobokart](https://www.roobopoli.org/wp-content/uploads/2021/05/Roobokart-il-manuale-operativo-RevA1.pdf) (disponible en italien) fournit des instructions détaillées pour cette session. Des kits de montage de véhicules doivent être préparés pour chaque groupe avant la session.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem'}}>
+    <img src="/img/ressources/steamcity/regulation/activiteroobopoli.png" alt="Activité Roobopoli - vue 1" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/regulation/activiteroobopoli2.png" alt="Activité Roobopoli - vue 2" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: '0.75rem 0 0 0'}}>Exemple de mise en oeuvre de Roobopoli</figcaption>
+</figure>
+
 #### Séance 2 : Analyse de code
 
 La deuxième séance passe du matériel au logiciel, aidant les élèves à comprendre la logique de programmation qui contrôle le comportement du Roobokart. Les enseignants commenceront par parcourir le code fourni, en expliquant sa structure générale et la correspondance entre les différentes sections et les fonctions spécifiques du véhicule. Cette explication mettra l'accent sur la relation entre les commandes du code et les actions physiques, renforçant ainsi le lien entre les décisions de programmation et les résultats concrets. Les élèves seront encouragés à poser des questions et à discuter de leurs observations tout en explorant le code ensemble.

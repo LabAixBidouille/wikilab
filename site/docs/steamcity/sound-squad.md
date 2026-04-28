@@ -163,6 +163,24 @@ Cette étape peut être réalisée en partenariat avec l'éducation artistique.
 
 Dans cette phase, les élèves approfondissent l'hypothèse centrale formulée dans la phase 1, à savoir que les perceptions individuelles du bruit varient selon les zones et les moments de la journée. La cartographie sensible du bruit permet d'explorer cette hypothèse de manière plus détaillée et personnelle.
 
+:::info[Point méthodologique : la cartographie sensible]
+La **cartographie sensible** est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et représenter les perceptions et sensations ressenties dans un espace donné, en se concentrant sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
+
+Si une carte sonore peut représenter les sons entendus dans une ville, la carte sensible représente, elle, des émotions : elle cartographie par exemple les espaces ressentis comme rassurants, inquiétants ou gênants. Elle prend généralement la forme d'un dessin qui s'affranchit des normes de la représentation cartographique classique (non-respect de l'échelle, absence d'orientation cardinale, absence de légende, indications subjectives, représentation partielle du réel). Il est également possible d'utiliser une carte existante et de l'annoter par du dessin et des ajouts graphiques (pictogrammes, flux de couleurs selon les ressentis).
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/sound-squad/cartosensible.png" alt="Exemple de cartographie sensible" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de cartographie sensible</figcaption>
+</figure>
+
+**Références** :
+
+- Cartographie sensible, Quentin Lefèvre
+- La cartographie sensible, Tous à pied
+- Carte sensible, Glossaire GeoConfluence de Lyon
+- La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal
+:::
+
 Les élèves utiliseront des capteurs pour mesurer précisément les niveaux de bruit, tout en évaluant leur bien-être et leur performance à l'aide des indicateurs développés précédemment. Ils chercheront à établir des liens entre les fluctuations sonores et les variations de leurs indicateurs de bien-être et de performance. Cela leur permettra de passer de la théorie à la pratique en testant directement leurs hypothèses dans leur environnement quotidien.
 
 L'utilisation de la cartographie sensible offre une approche unique pour explorer cette hypothèse :
@@ -180,19 +198,6 @@ Au travers de cette exploration, les élèves abordent des enjeux cruciaux de la
 #### Préparation de la cartographie sensible
 
 L'enseignant introduira le concept de cartographie sensible. Il s'agira de représenter visuellement les perceptions subjectives du paysage sonore. L'approche adoptée encouragera les élèves à s'affranchir des contraintes formelles géographiques pour se concentrer sur leur ressenti du bruit. Chaque élève choisira de représenter un trajet du quotidien (école/maison, périscolaire/maison, pause déjeuner, etc.) sous la forme d'un dessin libre, qui n'aura pas besoin de respecter les normes de cartographie traditionnelle c'est-à-dire le respect de l'échelle, l'orientation cardinale, la légende … . L'enseignant encouragera les élèves à réfléchir aux éléments suivants lors de la création de leur carte : zones de confort ou d'inconfort sonore, variations d'ambiance sonore (calme, animée, stressante), sources de bruit marquantes (positives ou négatives), émotions ou sensations associées à certains lieux, en se basant sur les indicateurs définis en phase 1.
-
-:::info[Point méthodologique : la cartographie sensible]
-La **cartographie sensible** est une approche permettant de se représenter l'expérience subjective d'un territoire. Elle vise à capturer et représenter les perceptions et sensations ressenties dans un espace donné, en se concentrant sur l'effet que l'environnement produit sur nous. L'objectif principal est de capturer l'expérience produite par le territoire, plutôt que le territoire lui-même.
-
-Si une carte sonore peut représenter les sons entendus dans une ville, la carte sensible représente, elle, des émotions : elle cartographie par exemple les espaces ressentis comme rassurants, inquiétants ou gênants. Elle prend généralement la forme d'un dessin qui s'affranchit des normes de la représentation cartographique classique (non-respect de l'échelle, absence d'orientation cardinale, absence de légende, indications subjectives, représentation partielle du réel). Il est également possible d'utiliser une carte existante et de l'annoter par du dessin et des ajouts graphiques (pictogrammes, flux de couleurs selon les ressentis).
-
-**Références** :
-
-- Cartographie sensible, Quentin Lefèvre
-- La cartographie sensible, Tous à pied
-- Carte sensible, Glossaire GeoConfluence de Lyon
-- La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal
-:::
 
 #### Réalisation de la cartographie individuelle
 

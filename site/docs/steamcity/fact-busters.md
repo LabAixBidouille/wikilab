@@ -126,6 +126,11 @@ Pour chaque groupe et chaque sujet, vous pouvez constituer au préalable une ban
 
 Une fois les ressources identifiées et distribuées, les élèves devront réaliser une vérification de la démarche utilisée pour assurer la fiabilité de l'information par les auteurs. Plusieurs critères seront analysés : crédibilité de l'auteur, diversité des sources, publication dans des revues à comité de lecture... Pour chaque ressource, les élèves remplissent le **Formulaire 1 : Analyse de la source d'information** (disponible en annexe et imprimable depuis le PDF).
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/fact-busters/SourceAnalysisForm/2.png" alt="Formulaire 1 - Analyse de la source d'information" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Formulaire 1 — Analyse de la source d'information</figcaption>
+</figure>
+
 
 ### Restitution et réflexion
 
@@ -181,6 +186,11 @@ Vous pouvez également accélérer ou sauter cette étape en proposant une fiche
 :::
 
 Un modèle de **Fiche de protocole scientifique** est fourni en annexe (Formulaire 2) et imprimable depuis le PDF.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/fact-busters/SourceAnalysisForm/protocol.png" alt="Formulaire 2 - Fiche de protocole scientifique" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Formulaire 2 — Fiche de protocole scientifique</figcaption>
+</figure>
 
 Après avoir défini les étapes de la démarche scientifique de manière collective, reconstituez les groupes de la première phase afin d'élaborer un protocole scientifique pour aborder les sujets et les lieux communs que chaque équipe avait analysés précédemment.
 
@@ -383,6 +393,11 @@ Vous trouverez ci-dessous les deux formulaires utilisés dans ce protocole avec 
 - Des améliorations peuvent être apportées à la méthodologie
 - Comment cette analyse influence-t-elle votre perception du sujet ?
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/fact-busters/SourceAnalysisForm/2.png" alt="Formulaire 1 - Analyse de la source d'information" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Formulaire 1 — Analyse de la source d'information</figcaption>
+</figure>
+
 ### Formulaire 2 : Fiche de protocole scientifique
 
 - **Date** : .../.../......
@@ -415,6 +430,11 @@ Vous trouverez ci-dessous les deux formulaires utilisés dans ce protocole avec 
 
 - Résumé des conclusions
 - Suggestions pour des études futures ou des réplications de l'expérience
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/fact-busters/SourceAnalysisForm/protocol.png" alt="Formulaire 2 - Fiche de protocole scientifique" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Formulaire 2 — Fiche de protocole scientifique</figcaption>
+</figure>
 
 ---
 

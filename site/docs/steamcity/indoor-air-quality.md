@@ -53,7 +53,7 @@ Cette expérience permet de réaliser un détecteur de dioxyde de carbone.
 
 Une fois assemblé et programmé, le détecteur peut être utilisé pour mesurer le taux de dioxyde de carbone dans une pièce. Il peut être utilisé pour montrer aux élèves comment mettre en place une chaîne de mesures, surveiller les changements de niveau au fil du temps et évaluer de manière critique la corrélation entre les changements de taux de CO2 et la ventilation.
 
-:::caution[Avertissement]
+:::info[Avertissement]
 Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde de carbone (CO2) dans le milieu dans lequel se trouve le capteur. Elle ne peut être utilisée qu'à des fins pédagogiques et ne saurait se substituer à un appareil étalonné et certifié.
 :::
 

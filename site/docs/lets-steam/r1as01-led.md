@@ -94,7 +94,7 @@ Pour créer le clignotement, il est nécessaire que nous puissions voir la LED s
 
 ![Créer une pause](/img/ressources/lets-steam/r1as01-led/créer%20une%20pause.png)
 
-:::tip
+:::info[Astuce]
 Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur personnalisée.
 :::
 
@@ -102,7 +102,7 @@ Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur p
 
 ![Éteindre la lumière](/img/ressources/lets-steam/r1as01-led/eteindre%20la%20lumière.png)
 
-:::tip
+:::info[Astuce]
 Au lieu de choisir des blocs dans les sous-menus, vous pouvez cliquer avec le bouton droit de la souris sur un bloc et le "dupliquer".
 :::
 

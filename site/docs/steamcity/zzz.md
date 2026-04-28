@@ -137,6 +137,11 @@ Dans une logique d'apprentissage actif, il est intéressant de laisser les élè
 5. **Méthode de collecte de données** :
    - **Mesures quantitatives** : Capteurs de lumière, de décibels, de température et d'humidité placés dans la chambre, enregistrant les données toutes les 15 minutes pendant la nuit.
    - **Mesures qualitatives** : Journal quotidien incluant l'heure du coucher, l'estimation du temps d'endormissement, la qualité perçue du sommeil, le nombre de réveil nocturne, l'amplitude de mouvement - pouvant être mesurée grâce à un capteur de mouvement - et l'évaluation du bien-être et de la vigilance au réveil.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/zzz/Zzz_SleepJournal.png" alt="Journal de suivi du sommeil" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Journal de suivi du sommeil (voir annexe imprimable)</figcaption>
+</figure>
    - **Analyse des facteurs extérieurs** : Notation des événements particuliers pouvant influencer le sommeil (par exemple, stress, activité physique intense, utilisation d'écrans avant le coucher, temps écoulé entre le dernier repas et le coucher, type d'alimentation consommée le soir, exposition à la lumière naturelle pendant la journée, temps de lecture avant endormissement...).
 6. **Utilisation des données** :
    - **Stockage des données** : Les données quantitatives provenant de l'utilisation de capteurs seront stockées dans un fichier .csv intégrant les informations de date, heure et niveaux de lumière, bruit, température, humidité, mouvement. Les données qualitatives seront saisies quotidiennement dans un journal de sommeil personnel à chaque élève.
@@ -479,6 +484,11 @@ Pour approfondir la réflexion, les enseignants pourront utiliser les questions 
 - Journal de bord « Suivi du sommeil » : fiche quotidienne à remplir avant le coucher (fatigue, stress, météo, efficacité ressentie) et au réveil (temps d'endormissement, qualité du sommeil, interruptions, fatigue au réveil)
 - Sections complémentaires : exposition aux écrans, nourriture (dernier repas, type de repas), conditions environnementales ressenties (bruit, lumière, température), observations
 :::
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/zzz/Zzz_SleepJournal.png" alt="Journal de suivi du sommeil" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Journal de suivi du sommeil — modèle imprimable</figcaption>
+</figure>
 
 ---
 

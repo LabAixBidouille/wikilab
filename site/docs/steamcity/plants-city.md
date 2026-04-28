@@ -92,7 +92,9 @@ Le protocole se déroule en quatre phases successives, qui mènent les élèves 
 
 ### Conceptualisation
 
-**Question de recherche** : comment identifier et mesurer les différents paramètres environnementaux qui détermineront le succès de la végétalisation de notre mur ?
+:::question[Question de recherche]
+comment identifier et mesurer les différents paramètres environnementaux qui détermineront le succès de la végétalisation de notre mur ?
+:::
 
 Pour explorer ce postulat de manière scientifique, les élèves se concentreront sur deux questions directrices :
 
@@ -172,7 +174,9 @@ Afin d'approfondir cette phase, vous pouvez également ouvrir des discussions en
 
 ### Conceptualisation
 
-**Question de recherche** : comment mettre en place un système de stockage de données permettant de conserver et d'analyser efficacement les mesures environnementales sur une période prolongée ?
+:::question[Question de recherche]
+comment mettre en place un système de stockage de données permettant de conserver et d'analyser efficacement les mesures environnementales sur une période prolongée ?
+:::
 
 Pour guider les élèves dans leur démarche d'investigation, ils pourront explorer les questionnements suivants :
 
@@ -243,7 +247,9 @@ Pour approfondir cette phase, plusieurs questions peuvent être explorées avec 
 
 ### Conceptualisation
 
-**Question de recherche** : comment utiliser les données environnementales collectées pour déterminer les plantes les plus adaptées à notre mur végétal grâce à une recherche documentaire ?
+:::question[Question de recherche]
+comment utiliser les données environnementales collectées pour déterminer les plantes les plus adaptées à notre mur végétal grâce à une recherche documentaire ?
+:::
 
 Pour guider les élèves dans leur démarche d'investigation, ils pourront explorer les questionnements suivants :
 
@@ -348,7 +354,9 @@ Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion s
 
 ### Conceptualisation
 
-**Question de recherche** : comment mettre en place et maintenir un mur végétal en milieu urbain ?
+:::question[Question de recherche]
+comment mettre en place et maintenir un mur végétal en milieu urbain ?
+:::
 
 La végétalisation urbaine vise à intégrer des éléments végétaux dans l'environnement bâti afin de créer des villes plus durables. Cette approche apporte de nombreux bénéfices environnementaux essentiels : régulation de la température urbaine, amélioration de la qualité de l'air et de l'eau, enrichissement de la biodiversité et meilleure gestion des eaux pluviales. Dans le cas des murs végétaux, cela suppose la création d'**écosystèmes verticaux**.
 
@@ -433,6 +441,17 @@ Plan d'implantation :
 - **Zone inférieure** : Alternez le romarin rampant et la vergerette pour couvrir la base.
 - **Encadrement** : Jasmins étoilés ou bougainvilliers sur les côtés du mur, attachés à un treillis.
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/plants-city/illustration%20repr%C3%A9sentant%20le%20mur%20v%C3%A9g%C3%A9tal%20adapt%C3%A9%20au%20climat%20m%C3%A9diterran%C3%A9en%20de%20Marseille.%20Vous%20pourrez%20observer%20les%20diff%C3%A9rentes%20zones%20de%20plantation%20et%20la%20disposition%20des%20esp%C3%A8ces%20adapt%C3%A9es.png" alt="Illustration mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Illustration générée pour Marseille</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/plants-city/marseille_croquis%20d%C3%A9taill%C3%A9%20repr%C3%A9sentant%20l%27organisation%20des%20diff%C3%A9rentes%20zones%20du%20mur%20v%C3%A9g%C3%A9tal%2C%20avec%20des%20annotations%20indiquant%20les%20types%20de%20plantes%20et%20leur%20localisation.png" alt="Croquis mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Croquis annoté de l'implantation des espèces</figcaption>
+  </figure>
+</div>
+
 ##### Prompt 2 : Créer le plan d'implantation d'un mur végétal dans la ville de Brest
 
 La ville de Brest, située en Bretagne, présente un climat océanique. Cela signifie des températures modérées toute l'année, une forte humidité, des précipitations fréquentes, et une luminosité parfois réduite.
@@ -456,6 +475,17 @@ Plan d'implantation général :
 - **Zone médiane** : Plantes retombantes, créant un effet de cascade, comme le chèvrefeuille nain, la pervenche et la campanule.
 - **Zone inférieure** : Plantes rampantes et prostrées, telles que le carex, l'ajuga et les hostas.
 - **Encadrement** : Hydrangea petiolaris ou clématites pour ajouter du volume et de la verticalité.
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/plants-city/illustration%20repr%C3%A9sentant%20un%20mur%20v%C3%A9g%C3%A9tal%20con%C3%A7u%20pour%20la%20ville%20de%20Brest%2C%20int%C3%A9grant%20des%20plantes%20adapt%C3%A9es%20au%20climat%20oc%C3%A9anique%20et%20%C3%A0%20un%20environnement%20urbain%20typique.png" alt="Illustration mur végétal Brest" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Illustration générée pour Brest</figcaption>
+  </figure>
+  <figure style={{margin: 0, textAlign: 'center'}}>
+    <img src="/img/ressources/steamcity/plants-city/brest_croquis%20d%C3%A9taill%C3%A9%20repr%C3%A9sentant%20l%27organisation%20des%20diff%C3%A9rentes%20zones%20du%20mur%20v%C3%A9g%C3%A9tal%2C%20avec%20des%20annotations%20indiquant%20les%20types%20de%20plantes%20et%20leur%20localisation.png" alt="Croquis mur végétal Brest" style={{width: '100%', height: 'auto'}} />
+    <figcaption style={{margin: 0}}>Croquis annoté de l'implantation des espèces</figcaption>
+  </figure>
+</div>
 
 ### Restitution et réflexion
 
@@ -488,6 +518,11 @@ Dans notre exemple, la station de mesure et le module d'enregistrement ont été
 
 La carte Micro:bit doit être connectée au Grove Shield. Le capteur de température/humidité peut être placé sur les broches P1/P15 ou P2/P16 du blindage Grove.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/capteur.png" alt="Montage du capteur" style={{maxWidth: '70%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Montage du capteur DHT11 sur le Grove Shield</figcaption>
+</figure>
+
 #### Programmation de la station
 
 L'objectif de cette station est de mesurer la **température**, l'**humidité relative** et la **luminosité ambiante**, et de les afficher à intervalles réguliers sur l'ordinateur. La construction du programme repose sur :
@@ -497,9 +532,19 @@ L'objectif de cette station est de mesurer la **température**, l'**humidité re
 - un bloc de **mise en forme texte** (catégorie texte) pour faciliter la lecture dans la console ;
 - un bloc de **temporisation** (catégorie entrées/sorties) afin d'éviter d'inonder la console de mesures.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/blocsdecode.png" alt="Blocs de code de la station de mesure" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Blocs de code de la station de mesure</figcaption>
+</figure>
+
 #### Programme final et test
 
 Le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 du shield Grove. Si le DHT11 est connecté à une autre broche, il faudra modifier le programme en conséquence. De même, pour les Micro:bit V1 (et non V2 — vérifier l'inscription au dos de la carte en bas à droite), une adaptation du programme sera nécessaire.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/programmefinal.png" alt="Programme final de la station" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programme final de la station de mesure</figcaption>
+</figure>
 
 Pour téléverser le programme :
 
@@ -518,6 +563,11 @@ Il est normal que le capteur DHT11 renvoie 0 pour la température et l'humidité
 
 Le lecteur OpenLog doit être connecté au port P0/P14 du shield Grove, grâce à l'adaptateur Dupont / Grove, de telle sorte que les broches GND, VCC, TXO et RXI de l'OpenLog soient respectivement connectées aux fils noir, rouge, blanc et jaune du câble Grove.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/montageopenlog.png" alt="Montage de l'OpenLog" style={{maxWidth: '70%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Montage du lecteur OpenLog sur le Grove Shield</figcaption>
+</figure>
+
 #### Programmation
 
 L'enjeu est ici d'enregistrer les données collectées sur une carte micro-SD dans un format exploitable par un tableur, afin de pouvoir analyser les résultats obtenus. Les données sont enregistrées au format **CSV** : un format texte simple qui sépare les colonnes par une virgule, un point-virgule ou un espace, et les lignes par un retour à la ligne. Exemple :
@@ -532,6 +582,21 @@ Neri;Régis;07/09/1990
 Dans le programme, il faut écrire sur la carte SD les en-têtes de colonnes, puis les données. L'écriture se fait à l'aide d'un bloc dédié de la catégorie communication. En plus de la température, de l'humidité et de la luminosité, il est intéressant de noter le **temps** correspondant à chaque mesure : des blocs spécifiques permettent respectivement de démarrer un chronomètre et de récupérer sa valeur.
 
 Comme pour la partie précédente, le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 et l'OpenLog à la broche P0/P14.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/openlogcode1.png" alt="Programmation OpenLog - étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programmation OpenLog — initialisation</figcaption>
+</figure>
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/openlogcode2.png" alt="Programmation OpenLog - étape 2" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programmation OpenLog — écriture des en-têtes</figcaption>
+</figure>
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/plants-city/openlogcode3.png" alt="Programmation OpenLog - étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Programmation OpenLog — boucle de mesure</figcaption>
+</figure>
 
 #### Test du programme
 

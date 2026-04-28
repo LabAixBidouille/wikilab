@@ -129,6 +129,11 @@ Exemple de tableau d'idéation :
 | Objet | Description du comportement sous forme d'histoire | Feu de circulation : interagit avec les véhicules autonomes, cède le passage aux autres véhicules |
 | Capteur / Actionneur | Description avec QUAND &lt;CONDITION&gt; ALORS &lt;RÉACTION&gt; | Distance / LED : QUAND un véhicule s'approche ALORS afficher le feu jaune pendant 10 secondes, puis le feu vert pendant 60 secondes |
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/smart-object-safari/tableauiteration.png" alt="Tableau d'idéation rempli" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de tableau d'idéation rempli</figcaption>
+</figure>
+
 :::info[Notes pour l'enseignant·e]
 
 - **Privilégier les objets autonomes.** Orientez les élèves vers des systèmes véritablement autonomes plutôt que des objets répondant uniquement à l'interaction humaine directe.

@@ -32,6 +32,8 @@ sidebar_position: 8
 
 <a href="/pdf/steamcity/Protocol_TreesVsCars_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
 
+<div style={{marginTop: "1.5rem"}}/>
+
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 - Jeu de cartes « Numéro »
 - Jeu de cartes « Dataset de véhicules »
@@ -104,6 +106,11 @@ Pour commencer, chaque élève reçoit une carte numérotée aléatoirement entr
 
 L'enseignant choisit au hasard un élève pour devenir la racine de l'arbre. Cet élève annonce le numéro reçu, et le reste de la classe est divisé en deux : ceux dont le numéro est le plus bas se placent à gauche, les autres à droite. Ce processus est répété jusqu'à ce que tous les élèves soient placés, formant ainsi un arbre complet où chaque « feuille » représente un élève.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/mermaid-diagram-2025-04-01-120933.png" alt="Aperçu de la procédure de création d'un arbre binaire" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Aperçu de la procédure de création d'un arbre binaire</figcaption>
+</figure>
+
 Pour bien comprendre l'organisation des données dans un arbre binaire, l'enseignant choisit un élève au hasard parmi les feuilles de l'arbre. La classe doit ensuite parcourir l'arbre pour identifier le numéro de chaque élève. Les élèves doivent comprendre qu'ils viennent de créer un arbre binaire, et plus précisément un arbre binaire de recherche, c'est-à-dire un arbre binaire dont la particularité est d'être très efficace pour la recherche au sein des données.
 
 Les élèves apprendront ensuite à équilibrer l'arbre qu'ils ont créé. Pour ce faire, l'enseignant divisera la classe en groupes et distribuera les cartes numériques de manière équitable entre ces groupes (environ dix cartes par groupe). Les élèves devront construire un arbre binaire, comme précédemment, mais cette fois-ci, ils tenteront de créer l'arbre le plus efficace.
@@ -111,6 +118,11 @@ Les élèves apprendront ensuite à équilibrer l'arbre qu'ils ont créé. Pour 
 Pour créer un arbre optimal, il faut essayer de trouver l'arbre ayant les branches les plus courtes possibles. Si les élèves ont du mal à saisir le concept, l'enseignant peut demander aux groupes qui éprouvent des difficultés de créer d'abord l'arbre le moins efficace, c'est-à-dire celui ayant les branches les plus longues possibles. En comprenant comment construire l'arbre le moins efficace, les élèves devraient mieux comprendre comment en trouver un meilleur.
 
 L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où les nombres sont classés par ordre (arbre déséquilibré). En revanche, l'arbre le plus efficace est complètement équilibré, c'est-à-dire que toutes les branches de l'arbre ont la même longueur (plus ou moins 1).
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/arbres%C3%A9quilibr%C3%A9setd%C3%A9s%C3%A9quilibr%C3%A9s.png" alt="Arbres équilibrés et déséquilibrés" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Comparaison entre un arbre déséquilibré et un arbre équilibré</figcaption>
+</figure>
 
 ### Restitution et réflexion
 
@@ -142,6 +154,11 @@ Dans cette phase du protocole, les élèves appliqueront leurs connaissances à 
 
 Au cours de cette phase, les élèves devront se familiariser avec un jeu de données, représenté par le jeu de cartes de véhicules. Description des éléments visuels des cartes :
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/exemplecartes.png" alt="Exemple de carte véhicule" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de carte véhicule</figcaption>
+</figure>
+
 - **Icône d'haltère / fond vert** : carte d'entraînement
 - **Icône de fiole / fond rouge** : carte de test
 - Nom du véhicule et illustration
@@ -165,6 +182,11 @@ Après s'être familiarisés avec les cartes, les élèves travailleront en grou
 2. **Diviser les cartes** de véhicules en deux groupes selon que chaque véhicule répond vrai ou faux à cette condition, et les répartir de chaque côté de la carte de question.
 3. **Continuer le processus** pour chaque nouveau groupe formé, en choisissant de nouvelles conditions.
 4. **Arrêter** lorsqu'un groupe ne contient que des véhicules autorisés dans la ZBE (feu vert) ou que des véhicules non autorisés (feu rouge).
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/exemplecartecondition.png" alt="Exemple de carte de condition" style={{maxWidth: '70%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de carte question / condition de séparation</figcaption>
+</figure>
 
 Pour évaluer la performance de leur modèle, les élèves utiliseront des cartes de test. Ils déplaceront chaque carte vers le bas de leur arbre de décision, en suivant les conditions à chaque nœud, jusqu'à atteindre une feuille. Si l'étiquette (feu tricolore) de la carte correspond à celle de la feuille atteinte, la prédiction est considérée comme correcte. Les élèves comptent le nombre de prédictions correctes, puis divisent ce nombre par le nombre total de cartes testées. Le résultat, exprimé en pourcentage, indique la précision du modèle. Plus le score est proche de 100 %, meilleur est le modèle. Cette méthode permet aux élèves d'évaluer objectivement la capacité de leur arbre à prendre des décisions correctes sur de nouvelles données.
 
@@ -217,7 +239,17 @@ Pour les guider, les élèves disposeront du tableau suivant, qui peut être pla
 3. **Identifier la valeur maximale.** À partir de la ou des lignes où MIN ABSOLU ? est coché, identifier la ou les lignes avec la valeur la plus élevée de A ou NA, et cocher la case MAX ABSOLU ? en conséquence.
 4. **Choisir la condition optimale.** La condition de séparation optimale est celle correspondant à la ligne dont les cases sont cochées à la fois dans MIN ABSOLU ? et MAX ABSOLU ?.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/exempletableau%20%C3%A9l%C3%A8ve.png" alt="Exemple de tableau rempli par les élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemple de tableau rempli par les élèves</figcaption>
+</figure>
+
 Le reste du processus est identique à la phase précédente. Le résultat sera l'organigramme disponible ici : [bit.ly/binarytreeiafrsvg](https://bit.ly/binarytreeiafrsvg) (format Mermaid : [bit.ly/binarytreeiafrsource](https://bit.ly/binarytreeiafrsource)). Si les élèves exécutent correctement l'algorithme, ils devraient tous obtenir le même arbre de décision. Lors des tests, ils devraient également obtenir les meilleures performances.
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/mermaid-diagram-2025-04-01-123326.png" alt="Organigramme de l'arbre de décision" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Organigramme de l'arbre de décision pour la classification des véhicules</figcaption>
+</figure>
 
 ### Restitution et réflexion
 
@@ -267,6 +299,19 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 
 - [Mermaid](https://mermaid.live) — Outil en ligne permettant de créer des diagrammes et des schémas à l'aide d'une syntaxe textuelle simple. Particulièrement utile aux développeurs et aux chefs de projet qui souhaitent présenter visuellement des processus complexes de manière claire et efficace.
 - [Chapter 3.2 BINARY SEARCH TREES](https://algs4.cs.princeton.edu/lectures/keynote/32BinarySearchTrees.pdf), Algorithme par Robert Sedgewick, Kevin Wayne.
+
+---
+
+## Annexe : Planche de cartes véhicules
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Planche complète du jeu de cartes « Dataset de véhicules » à imprimer et découper.
+:::
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/trees-vs-cars/exemplescartesplanches.png" alt="Exemples de cartes incluses dans l'annexe imprimable" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemples de cartes incluses dans l'annexe imprimable</figcaption>
+</figure>
 
 ---
 

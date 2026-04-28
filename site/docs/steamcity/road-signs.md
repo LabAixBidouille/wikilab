@@ -113,6 +113,11 @@ L'enseignant présente l'activité et la terminologie. Questions d'introduction 
 - « Existe-t-il des catégories de panneaux destinés uniquement aux véhicules autonomes ? » — \[Laisser les élèves imaginer\]
 - « Qu'entend-on par panneaux non ambigus ? » — Des panneaux qui n'entrent pas en conflit avec la signalisation existante.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/road-signs/panneauxbases.png" alt="Catégories de panneaux de signalisation existants" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Catégories de panneaux de signalisation existants</figcaption>
+</figure>
+
 #### Idéation
 
 Une fois familiarisés, les élèves passent à la conception :
@@ -220,6 +225,19 @@ Les élèves acquièrent une expérience pratique de l'entraînement de modèles
 - D'Angelo, M. & Pellegrino, M. A. (2021). Roobopoli: a project to learn robotics by a constructionism-based approach. *MIS4TEL Workshops*.
 - Gennari, R., Melonio, A., & D'Angelo, M. (2023). Engaging Learners in the Collaborative Design of Sustainable Smart Cities. *S3C Workshop @ CHItaly*.
 - D'Angelo, M. (2023). Engaging Learners in Familiarizing Themselves with Sensors and Actuators. *MIS4TEL Workshops*.
+
+---
+
+## Annexe : Panneaux reconnus par SignVisionAI
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Liste des panneaux de signalisation existants reconnus par le classificateur SignVisionAI, à utiliser comme référence pendant la phase de test d'ambiguïté.
+:::
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/road-signs/annexe.png" alt="Liste des panneaux reconnus par SignVisionAI" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Liste des panneaux reconnus par SignVisionAI</figcaption>
+</figure>
 
 ---
 

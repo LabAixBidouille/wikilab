@@ -108,8 +108,7 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 Le programme enregistre les données dans la mémoire flash (la LED 1 est allumée) jusqu'à ce que vous appuyiez sur le bouton **USER**, ce qui fait s'allumer la LED 2. C'est l'indication que l'enregistrement des données est arrêté et que vous pouvez copier les données sur votre ordinateur.
 
-:::warning[Attention]
-
+:::info[Attention]
 Assurez-vous d'avoir arrêté l'enregistrement de vos données avant d'accéder au fichier `log.csv` avec un programme quelconque. Appuyer sur Reset ou débrancher la carte sans avoir mis en pause l'enregistrement avec le bouton USER corrompra le fichier `log.csv` ! Appuyez sur le bouton USER pour arrêter l'enregistrement — cela fermera correctement le fichier et permettra de copier les données.
 :::
 

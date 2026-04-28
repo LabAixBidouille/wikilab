@@ -214,6 +214,11 @@ Les élèves développeront des **fiches d'observation** pour noter leurs consta
 - **Pour les piétons** : évaluation de l'éclairage de la zone (trop sombre / suffisant / trop lumineux), sentiment de sécurité, adéquation de l'éclairage des façades, zones peu éclairées, gêne (éblouissement, reflets).
 - **Pour la municipalité** : politiques en vigueur, projets de modernisation, coûts énergétiques associés, réclamations reçues, initiatives d'optimisation.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/shine-smart/exemplesficheseleves.png" alt="Exemples de fiches d'élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Exemples de fiches d'observation et de questionnaire</figcaption>
+</figure>
+
 Une fois la méthode et les outils définis, l'enseignant organisera une sortie de terrain dans une rue commerçante ou un quartier central de la ville afin d'illustrer les problématiques découvertes lors de la phase d'analyse documentaire et de remplir les différents éléments quantifiables et qualifiables autour de la problématique. Vous pouvez coupler la fiche d'observation avec un outil de cartographie pour créer une visualisation des points étudiés sur une carte (comme sur uMap). Les élèves peuvent noter les emplacements des points de lumières, zones d'éclairage, lampadaires, panneaux réfléchissants ou publicitaires ... sur papier et prendre une photo de chaque éléments d'intérêt. Ils identifieront les zones qui semblent sur-éclairées, sous-éclairées ou inadaptées aux usages, en se basant sur leurs observations visuelles et sur les retours des usagers qu'ils interrogeront brièvement.
 
 #### Adaptation du protocole pour une étude intra-établissement

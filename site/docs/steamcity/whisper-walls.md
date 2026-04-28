@@ -336,6 +336,11 @@ Ces liens aident les élèves à justifier leurs choix de matériaux et leur con
 
 Ce cadre conceptuel aide les élèves à comprendre l’objectif de leur expérience tout en assurant que leur travail fait le lien entre les principes scientifiques et les applications pratiques.
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/steamcity/whisper-walls/sch%C3%A9mamontage.png" alt="Schéma de montage expérimental" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Schéma du montage expérimental</figcaption>
+</figure>
+
 
 ### Investigation par les élèves
 

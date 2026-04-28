@@ -130,6 +130,15 @@ Le protocole suit la méthode scientifique :
 6. Interpréter et évaluer
 7. Partager les résultats
 
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/1.png" alt="Fiche protocole - page 1" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/2.png" alt="Fiche protocole - page 2" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/3.png" alt="Fiche protocole - page 3" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: '0.75rem 0 0 0'}}>Fiche protocole imprimable (voir annexe)</figcaption>
+</figure>
+
 :::info[Notes pour l'enseignant·e]
 Dans une approche d'apprentissage actif, il est pertinent de laisser les élèves concevoir eux-mêmes leur protocole. L'enseignant·e joue alors un rôle de guide, en garantissant l'intégration des éléments essentiels : utilisation de pièges à pollinisateurs pour obtenir des mesures objectives et tenue d'un journal d'enquête comportant une analyse qualitative.
 :::
@@ -319,6 +328,10 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 ## Annexe : Construction d'un piège non létal
 
+<div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
+
+<div style={{flex: '1 1 300px'}}>
+
 ### Matériel nécessaire
 
 - 2 bouteilles en plastique
@@ -328,12 +341,43 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 - Du ruban adhésif
 - Des branchages et/ou des feuilles
 
+</div>
+
+<img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29.png" alt="Matériel nécessaire" style={{flex: '0 0 220px', maxWidth: '220px', height: 'auto', alignSelf: 'flex-start'}} />
+
+</div>
+
 ### Étapes
 
 1. Coupez le haut de la première bouteille pour créer un entonnoir. Fixez l'entonnoir sur le haut de la première bouteille avec de l'adhésif. Percez le fond de la bouteille pour éviter que les insectes ne se noient.
 2. Utilisez la partie restante de la deuxième bouteille pour créer une protection contre la pluie, en la coupant en deux. Coupez le fond de la deuxième bouteille et remplissez-le de sirop.
 3. Fixez la partie inférieure remplie de sirop sous la première bouteille à l'aide d'adhésif. Fixez la housse de pluie sur l'entonnoir.
 4. Placez les pièges dans différents environnements. Attendez quelques heures. Comptez combien d'insectes ont été capturés. Libérez les insectes capturés.
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%282%29.png" alt="Étape 1" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%283%29.png" alt="Étape 2" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%284%29.png" alt="Étape 3" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%285%29.png" alt="Étape 4" style={{width: '100%', height: 'auto'}} />
+</div>
+
+---
+
+## Annexe : Fiche protocole imprimable
+
+:::tip[**Ressources imprimables incluses dans le PDF.**]
+- Fiche protocole pollinisateurs (3 pages) à compléter par les élèves : question de recherche, hypothèse, observations, analyse.
+- Modèle Canva éditable pour adapter le design : [canva.link/fg9hln5w10zlmn2](https://canva.link/fg9hln5w10zlmn2)
+:::
+
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem'}}>
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/1.png" alt="Fiche protocole - page 1" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/2.png" alt="Fiche protocole - page 2" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/pollinisateurs/SteamCity_Fiche_Protocole_Pollinisateurs/3.png" alt="Fiche protocole - page 3" style={{width: '100%', height: 'auto'}} />
+  </div>
+  <figcaption style={{margin: '0.75rem 0 0 0'}}>Pages de la fiche protocole imprimable</figcaption>
+</figure>
 
 ---
 

@@ -69,7 +69,7 @@ Aujourd'hui, nous allons nous intéresser aux gestes que l'on fait sans y penser
 
 Les élèves commencent par y réfléchir en groupes. Ils peuvent s'aider d'une fiche avec des instructions à remettre dans le bon ordre.
 
-:::caution[Attention]
+:::info[Attention]
 Le robot exécute tout au pied de la lettre. Mieux vaut donc tester les instructions avant de les lui transmettre.
 :::
 

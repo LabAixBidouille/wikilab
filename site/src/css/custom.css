@@ -187,6 +187,7 @@
   font-size: 0.9em;
   color: var(--ifm-color-emphasis-700);
   text-align: center;
+  padding-top: 0.5rem;
 }
 
 /* Toute figure avec figcaption est automatiquement centrée + image centrée */

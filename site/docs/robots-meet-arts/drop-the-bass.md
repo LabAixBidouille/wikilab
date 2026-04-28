@@ -64,7 +64,7 @@ sidebar_position: 10
 - Créer des projets dans Scratch
 - S'amuser à jouer de la guitare basse fabriquée maison !
 
-:::caution[Prérequis]
+:::info[Prérequis]
 Avant de réaliser cette séance, il est conseillé de commencer par le projet classique du piano Makey Makey. Des plans de cours et des vidéos sont disponibles sur le site web de Makey Makey. Si les élèves ont déjà construit le piano, ils maîtriseront les bases essentielles : le fonctionnement du Makey Makey comme extension des touches du clavier, la nécessité d'être « connecté » à l'instrument pour en jouer (bracelet conducteur ou contact avec la masse), et la connexion des pinces crocodiles à la carte.
 :::
 
