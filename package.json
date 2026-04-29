@@ -13,6 +13,7 @@
     "site:start": "npm --prefix site start",
     "site:build": "npm --prefix site run build",
     "site:typecheck": "npm --prefix site run typecheck",
+    "site:clean": "rm -rf site/build site/.docusaurus site/.cache-loader && find site/src -name '*.js' -type f -delete",
     "prepare": "husky"
   },
   "devDependencies": {
