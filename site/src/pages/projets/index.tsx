@@ -44,7 +44,7 @@ export default function Projets(): React.ReactElement {
               key={p.id}
               to={getRoute(p.id)}
               className="wikilab-projets-list__item"
-              style={{'--project-color': p.color} as React.CSSProperties}
+              style={{'--project-color': p.color}}
             >
               {p.logo && (
                 <img src={p.logo} alt={p.name} className="wikilab-projets-list__logo" />

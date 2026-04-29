@@ -137,5 +137,16 @@ stager
 flagWords
 backticks
 pdfs
-hardcodé
-printables
+
+# Identifiants TypeScript en kebab-case ASCII (slugs, IDs, admonition keywords).
+# Ils restent volontairement sans accent pour être des identifiants techniques valides.
+# Quand ils apparaissent dans le markdown (entre backticks), cspell les scinde sur "-"
+# et voit chaque morceau séparément, d'où la nécessité de les lister ici.
+Novmicro
+decouverte
+steami
+exao
+hypothese
+citoyennete
+creativite
+debranchees

@@ -166,10 +166,10 @@ npx docusaurus start --port 3333
 ## TODO
 
 - [x] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
-- [ ] Adapter la couleur du tableau par projet (actuellement hardcodé #09246C)
+- [ ] Adapter la couleur du tableau par projet (actuellement codée en dur `#09246C`)
 - [x] Tous les projets intégrés !
 - [ ] Git LFS pour les 3 PDFs Unplugged >50MB
 - [x] Photos pour les fiches JediTrack et Robots Meet Arts
-- [x] Refonte wiki SteamCity (24 fiches + 9 prog, callouts, annexes printables)
+- [x] Refonte wiki SteamCity (24 fiches + 9 prog, callouts, annexes imprimables)
 - [ ] Refonte wiki similaire pour les autres projets (style hérité PDF→wiki à uniformiser)
-- [ ] Vérifier images d'illustration manquantes sur thedexterlab (20 fiches avec uniquement icone)
+- [ ] Vérifier images d'illustration manquantes sur thedexterlab (20 fiches avec uniquement l'icône)

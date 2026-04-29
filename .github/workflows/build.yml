@@ -40,8 +40,7 @@ jobs:
       - name: Lint Markdown
         run: npm run lint:md
 
-      - name: Spell check (non-blocking, voir issue de dette DX)
-        continue-on-error: true
+      - name: Spell check
         run: npm run lint:spell
 
   build:
@@ -60,9 +59,6 @@ jobs:
 
       - run: npm ci
 
-      # typecheck strict pas encore au vert (voir issue de dette DX) — non bloquant
-      - name: Typecheck (non-blocking)
-        continue-on-error: true
-        run: npm run typecheck
+      - run: npm run typecheck
 
       - run: npm run build

@@ -78,7 +78,8 @@ export const machines: Machine[] = [
     id: 'elegoo-jupiter',
     name: 'Elegoo Jupiter',
     categories: ['impression-3d'],
-    description: 'Imprimante 3D résine grand format (MSLA, 6K) pour impressions volumineuses haute résolution.',
+    description:
+      'Imprimante 3D résine grand format (MSLA, 6K) pour impressions volumineuses haute résolution.',
     specs: ['Résine UV', 'Grand format', 'MSLA 6K'],
     photo: `${MP}/PXL_20260420_084402907.MP.jpg`,
     available: true,

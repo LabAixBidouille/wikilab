@@ -26,19 +26,17 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
     <Layout title={project.name} description={project.summary}>
       <header
         className={`wikilab-project-hero${project.headerLight ? ' wikilab-project-hero--light' : ''}`}
-        style={
-          {
-            ...(project.header
-              ? {
-                  backgroundImage: `url(${project.header})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                }
-              : { backgroundColor: project.color }),
-            '--project-color-accent': project.colorAccent,
-            '--project-color-logo-border': project.colorLogoBorder || project.colorAccent,
-          } as React.CSSProperties
-        }
+        style={{
+          ...(project.header
+            ? {
+                backgroundImage: `url(${project.header})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }
+            : { backgroundColor: project.color }),
+          '--project-color-accent': project.colorAccent,
+          '--project-color-logo-border': project.colorLogoBorder || project.colorAccent,
+        }}
       >
         <div className="container">
           <div className="wikilab-project-hero__inner">
@@ -65,13 +63,11 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
 
       <main
         className="container margin-vert--lg"
-        style={
-          {
-            '--project-color': project.color,
-            '--project-color-secondary': project.colorSecondary,
-            '--project-color-accent': project.colorAccent,
-          } as React.CSSProperties
-        }
+        style={{
+          '--project-color': project.color,
+          '--project-color-secondary': project.colorSecondary,
+          '--project-color-accent': project.colorAccent,
+        }}
       >
         {/* ── En bref ── */}
         {project.id !== 'projets-du-lab' && (

@@ -85,10 +85,7 @@ export default function Home(): React.ReactElement {
           <div className="row">
             {highlights.map((h) => (
               <div className="col col--3" key={h.title}>
-                <div
-                  className="wikilab-highlight-card"
-                  style={{ '--accent': h.color } as React.CSSProperties}
-                >
+                <div className="wikilab-highlight-card" style={{ '--accent': h.color }}>
                   <h3>{h.title}</h3>
                   <p>{h.text}</p>
                 </div>
