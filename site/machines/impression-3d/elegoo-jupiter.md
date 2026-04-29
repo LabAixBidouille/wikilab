@@ -1,7 +1,7 @@
 ---
-id: elegoo-saturn
-title: "Elegoo Saturn — Guide d'utilisation"
-sidebar_label: "Elegoo Saturn"
+id: elegoo-jupiter
+title: "Elegoo Jupiter — Guide d'utilisation"
+sidebar_label: "Elegoo Jupiter"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Elegoo Saturn
+# Elegoo Jupiter
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Impression 3D</span>
@@ -17,13 +17,13 @@ sidebar_position: 5
 </div>
 
 **Type** : MSLA (LCD masqué, résine UV)  
-**Résolution** : 4K mono LCD (3840 x 2400 px, 48 microns/pixel)  
-**Volume d'impression** : 192 x 120 x 200 mm  
+**Résolution** : 6K mono LCD (5760 x 3240 px, 48,25 microns/pixel)  
+**Volume d'impression** : 277,8 x 156,2 x 300 mm  
 **Difficulté** : Intermédiaire
 
 </div>
 
-<img src="/img/photos/machines/PXL_20260420_084402907.MP.jpg" alt="Elegoo Saturn" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0, borderRadius: '10px', background: '#f5f5f5', padding: '0.5rem'}} />
+<img src="/img/photos/machines/PXL_20260420_084402907.MP.jpg" alt="Elegoo Jupiter" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0, borderRadius: '10px', background: '#f5f5f5', padding: '0.5rem'}} />
 
 </div>
 
@@ -31,9 +31,9 @@ sidebar_position: 5
 
 ## Présentation
 
-L'Elegoo Saturn est une imprimante 3D à résine de type MSLA (Masked Stereolithography) dotée d'un écran LCD 4K monochrome. Contrairement aux imprimantes FDM qui déposent du plastique fondu, la Saturn projette de la lumière UV à travers un bac rempli de résine liquide photosensible. Chaque couche est solidifiée en une seule exposition, ce qui rend le temps d'impression indépendant du nombre de pièces sur le plateau.
+L'Elegoo Jupiter est une imprimante 3D à résine de type MSLA (Masked Stereolithography) **grand format**, dotée d'un écran LCD 6K monochrome. Contrairement aux imprimantes FDM qui déposent du plastique fondu, la Jupiter projette de la lumière UV à travers un bac rempli de résine liquide photosensible. Chaque couche est solidifiée en une seule exposition, ce qui rend le temps d'impression indépendant du nombre de pièces sur le plateau.
 
-La résolution de 48 microns par pixel permet d'obtenir un niveau de détail exceptionnel, bien supérieur à ce que peut produire une imprimante FDM. Cette technologie est idéale pour les miniatures de jeux de rôle, les bijoux, les maquettes architecturales détaillées, les prototypes dentaires et toute pièce nécessitant des surfaces lisses et des détails fins.
+Avec son volume de 277,8 x 156,2 x 300 mm, c'est l'imprimante résine la plus grande du LAB : idéale pour les pièces volumineuses ou les impressions multiples en série. La résolution de 48,25 microns par pixel permet d'obtenir un niveau de détail exceptionnel, bien supérieur à ce que peut produire une imprimante FDM. Cette technologie est idéale pour les miniatures de jeux de rôle, les bijoux, les maquettes architecturales détaillées, les prototypes dentaires et toute pièce nécessitant des surfaces lisses et des détails fins.
 
 La contrepartie est que la résine liquide est un produit chimique qui nécessite des précautions de manipulation strictes. Le post-traitement (lavage et polymérisation UV) est aussi plus exigeant qu'en FDM.
 
@@ -78,7 +78,7 @@ La contrepartie est que la résine liquide est un produit chimique qui nécessit
 
 ## Étape 1 — Préparer le fichier
 
-Ouvrez **Chitubox** ou **Lychee Slicer** et sélectionnez le profil "Elegoo Saturn". Importez votre modèle 3D.
+Ouvrez **Chitubox** ou **Lychee Slicer** et sélectionnez le profil "Elegoo Jupiter". Importez votre modèle 3D.
 
 Orientez la pièce pour minimiser les surfaces planes parallèles au plateau : inclinez-la de 20 à 45 degrés. Cela réduit les forces de décollement (suction) à chaque couche et améliore la qualité de surface.
 
@@ -103,7 +103,7 @@ Effectuez le nivellement du plateau si ce n'est pas déjà fait (menu Home > Lev
 
 ## Étape 3 — Lancer l'impression
 
-Insérez la clé USB dans la Saturn. Depuis l'écran tactile, naviguez jusqu'à votre fichier et lancez l'impression. Replacez le capot orange pour protéger la résine de la lumière ambiante.
+Insérez la clé USB dans la Jupiter. Depuis l'écran tactile, naviguez jusqu'à votre fichier et lancez l'impression. Replacez le capot orange pour protéger la résine de la lumière ambiante.
 
 Observez les premières couches : après 5 à 10 couches, vous pouvez vérifier (rapidement, capot à peine soulevé) que la pièce adhère bien au plateau. Si rien ne colle au plateau après les couches de base, arrêtez l'impression, vérifiez le nivellement et augmentez le temps d'exposition des couches de base.
 
@@ -133,7 +133,7 @@ Filtrez la résine restante dans le bac avec un filtre en papier avant de la rev
 
 ## Aller plus loin
 
-- [Elegoo Saturn — Page officielle](https://www.elegoo.com/collections/saturn-series) — Spécifications et mises à jour firmware
+- [Elegoo Jupiter SE — Page officielle](https://fr.elegoo.com/collections/3d-printing/products/jupiter-se) — Spécifications et firmwares
 - [Chitubox — Téléchargement](https://www.chitubox.com/en/download/chitubox-free) — Logiciel de découpe gratuit
 - [Lychee Slicer — Téléchargement](https://mango3d.io/) — Alternative populaire pour la préparation des fichiers résine
 
