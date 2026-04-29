@@ -9,6 +9,30 @@
 > - Tests et vérifications → [`TESTING.md`](TESTING.md)
 > - Présentation du projet → [`README.md`](README.md)
 
+## ⚠️ Workflow obligatoire — toute modification passe par une issue + une PR
+
+**Cette règle est absolue, sans exception, y compris pour les corrections triviales.** La branche `main` est protégée côté GitHub : un push direct sera rejeté par le serveur. N'essaie pas de contourner cette protection.
+
+Pour toute modification, **avant** de modifier le code :
+
+1. **S'assurer qu'une issue existe** pour décrire le travail. Si elle n'existe pas, l'ouvrir (`gh issue create`) avec le bon template (bug / fiche / illustration), label, milestone et type. Référencer cette issue dans le commit et la PR (`Refs #N` ou `Closes #N`).
+2. **Créer une branche dédiée** depuis `main` à jour. Le format est validé automatiquement par `validate-branch-name` (hook pre-commit) : `feat/<kebab>`, `fix/<kebab>`, `docs/<kebab>`, `ci/<kebab>`, `chore/<kebab>`, `refactor/<kebab>`, `content/<kebab>`, ou `release/vX.Y.Z`.
+3. **Commiter** avec des messages aux **Conventional Commits** (validés par `commitlint`, hook commit-msg) : `<type>(<scope>): <description>`.
+4. **Faire passer les checks locaux** (voir [`TESTING.md`](TESTING.md)) : `format:check`, `lint:md`, `lint:spell`, `site:typecheck`, `site:build`.
+5. **Pousser la branche** et **ouvrir une Pull Request** vers `main` (`gh pr create`). La PR doit suivre le template ([`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md)).
+6. **Attendre la CI** (workflow `build.yml` : lint + typecheck + build) et **au moins une approbation humaine** avant tout merge.
+7. **Ne jamais merger soi-même sans accord humain.** L'humain pilote, l'IA propose.
+
+Détails complets du workflow et des conventions : [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+### Si tu détectes une dette ou un correctif rapide
+
+Même flux : issue → branche → PR. Pas de raccourci, même pour un typo. Le prix d'une PR de 2 minutes est dérisoire face à la traçabilité gagnée.
+
+### Si l'humain te demande de pousser direct
+
+Refuser et expliquer la règle. Proposer le flux PR. Si l'humain insiste explicitement et est admin du repo, c'est sa responsabilité — mais alerter d'abord, et privilégier la PR même expéditive (auto-merge possible une fois la CI verte).
+
 ## Architecture
 
 ### Site Docusaurus (`site/`)
