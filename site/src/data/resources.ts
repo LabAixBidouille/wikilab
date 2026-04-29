@@ -3405,7 +3405,7 @@ export const resources: Resource[] = [
     durationMinutes: 180,
     difficulty: 'intermediaire',
     formats: ['jeu-de-role', 'programmation', 'debranchee'],
-    categories: ['ia-esprit-critique', 'robotique-ludique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique', 'robotique-ludique'],
     keywords: [
       'apprentissage par renforcement',
       'bio-inspiré',
@@ -3434,7 +3434,7 @@ export const resources: Resource[] = [
     durationMinutes: 240,
     difficulty: 'intermediaire',
     formats: ['enquete', 'experimentation'],
-    categories: ['ia-esprit-critique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique'],
     keywords: [
       'IA générative',
       'éthique',
@@ -3463,7 +3463,7 @@ export const resources: Resource[] = [
     durationMinutes: 150,
     difficulty: 'debutant',
     formats: ['enquete', 'debranchee'],
-    categories: ['ia-esprit-critique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique'],
     keywords: [
       'IA quotidienne',
       'automatisation',
@@ -3490,7 +3490,7 @@ export const resources: Resource[] = [
     durationMinutes: 180,
     difficulty: 'intermediaire',
     formats: ['jeu-de-role', 'experimentation', 'debranchee'],
-    categories: ['ia-esprit-critique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique'],
     keywords: [
       'IA générative',
       'apprentissage supervisé',
@@ -3517,7 +3517,7 @@ export const resources: Resource[] = [
     durationMinutes: 150,
     difficulty: 'intermediaire',
     formats: ['enquete', 'debranchee'],
-    categories: ['ia-esprit-critique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique'],
     keywords: [
       'illusion de la pensée',
       'apprentissage par renforcement',
@@ -3545,7 +3545,7 @@ export const resources: Resource[] = [
     durationMinutes: 180,
     difficulty: 'intermediaire',
     formats: ['jeu-de-role', 'experimentation'],
-    categories: ['ia-esprit-critique'],
+    categories: ['animation-jeunesse', 'ia-esprit-critique'],
     keywords: [
       'IA générative',
       'persuasion',

@@ -61,6 +61,13 @@ sidebar_position: 6
 
 L'activité débute par un court jeu où les participant·e·s devinent si des produits étranges sont réels ou générés par IA. Ce brise-glace introduit le thème de la **crédibilité** et de la **persuasion**.
 
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '0.25rem 0'}}>
+  <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/2.png" alt="Jeu Réel ou IA - exemple 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/4.png" alt="Jeu Réel ou IA - exemple 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/6.png" alt="Jeu Réel ou IA - exemple 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/8.png" alt="Jeu Réel ou IA - exemple 4" style={{width: '100%', height: 'auto', margin: 0}} />
+</div>
+
 Ensuite, en petits groupes, les participant·e·s imaginent **la pire invention possible** : quelque chose d'absurde, inutile et drôle, mais présenté comme sérieux. Ils complètent une fiche d'idéation avec :
 
 - Le **problème étrange ou inutile** qu'ils veulent résoudre
@@ -90,6 +97,16 @@ L'objectif est de rendre une idée absurde **crédible**. Les groupes analysent 
 - Qu'est-ce qui semble **suspect** ?
 - Comment l'IA peut créer des informations **réalistes mais fausses** ?
 
+**Exemples de visuels publicitaires et de prototype** générés pendant nos séances !
+
+<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', margin: '1rem 0', alignItems: 'start'}}>
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/ChatGPT%20Image%2029%20avr.%202026%2C%2015_12_15.png" alt="Visuel publicitaire Groupe 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <div style={{display: 'flex', flexDirection: 'column', gap: '0.75rem'}}>
+    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/ChatGPT%20Image%2029%20avr.%202026%2C%2015_11_58.png" alt="Visuel publicitaire Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
+    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/prototypage.webp" alt="Prototype Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  </div>
+</div>
+
 ---
 
 ### Session 3 : Pitch final et jury d'investisseurs (60 minutes)
@@ -103,6 +120,35 @@ Chaque groupe présente son invention aux autres et à un **jury de facilitateur
 - Maintient une atmosphère ludique et bienveillante
 
 Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, les participant·e·s votent pour la **meilleure pire invention** et partagent ce qu'ils ont appris sur l'IA, la persuasion et la crédibilité.
+
+**Exemples de pitchs finaux** réalisés par deux groupes de jeunes :
+
+#### Groupe 1
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/1.png" alt="Groupe 1 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/2.png" alt="Groupe 1 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/3.png" alt="Groupe 1 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/4.png" alt="Groupe 1 - slide 4" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/5.png" alt="Groupe 1 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/6.png" alt="Groupe 1 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/7.png" alt="Groupe 1 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/8.png" alt="Groupe 1 - slide 8" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/9.png" alt="Groupe 1 - slide 9" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/10.png" alt="Groupe 1 - slide 10" style={{width: '100%', height: 'auto', margin: 0}} />
+</div>
+
+#### Groupe 2
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/1.png" alt="Groupe 2 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/2.png" alt="Groupe 2 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/3.png" alt="Groupe 2 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/4.png" alt="Groupe 2 - slide 4" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/5.png" alt="Groupe 2 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/6.png" alt="Groupe 2 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/7.png" alt="Groupe 2 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
+</div>
 
 ---
 
@@ -138,9 +184,29 @@ L'activité fonctionne quand les participant·e·s peuvent :
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 - **Annexe 1** — Jeu de brise-glace « Réel ou IA ? » (modèle Canva : [canva.link/5taeklifkw3yw53](https://canva.link/5taeklifkw3yw53))
-- **Annexe 2** — Fiche d'idéation à compléter par les groupes (problème, public, nom, fonctionnement, caractéristiques)
+- **Annexe 2** — Fiche d'idéation à compléter par les groupes (problème, public, nom, fonctionnement, caractéristiques) — modèle Canva : [canva.link/0iqm7b1ku4i6mca](https://canva.link/0iqm7b1ku4i6mca)
 - **Annexe 3** — Exemple de campagne de fausse communication par IA : « Bouteille d'Air Pur de l'Himalaya » (modèle Canva : [canva.link/aghapvayhx0vghm](https://canva.link/aghapvayhx0vghm))
 :::
+
+**Aperçu complet de la campagne « Bouteille d'Air Pur de l'Himalaya »** :
+
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/1.png" alt="Campagne 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/2.png" alt="Campagne 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/3.png" alt="Campagne 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/4.png" alt="Campagne 4" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/5.png" alt="Campagne 5" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/6.png" alt="Campagne 6" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/7.png" alt="Campagne 7" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/8.png" alt="Campagne 8" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/9.png" alt="Campagne 9" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/10.png" alt="Campagne 10" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/11.png" alt="Campagne 11" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/12.png" alt="Campagne 12" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/13.png" alt="Campagne 13" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/14.png" alt="Campagne 14" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplecampagnemarketing/15.png" alt="Campagne 15" style={{width: '100%', height: 'auto', margin: 0}} />
+</div>
 
 ---
 
