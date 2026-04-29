@@ -1,18 +1,36 @@
-# Wiki@LAB — Guide de développement
+# CLAUDE.md — instructions pour les assistants IA
+
+> Ce fichier est destiné aux **assistants IA** (Claude Code, etc.) qui interviennent sur ce repo. Il décrit l'architecture du projet et renvoie vers les documents qui font autorité pour les humains.
+>
+> **Pour les contributeurs humains** :
+>
+> - Conventions de contenu et de formatage des fiches → [`CONVENTIONS.md`](CONVENTIONS.md)
+> - Workflow git, PR, CI, hooks → [`CONTRIBUTING.md`](CONTRIBUTING.md)
+> - Tests et vérifications → [`TESTING.md`](TESTING.md)
+> - Présentation du projet → [`README.md`](README.md)
 
 ## Architecture
 
-- **Framework** : Docusaurus v4 (TypeScript)
-- **Dossier site** : `site/`
-- **Config** : `site/docusaurus.config.ts`
+### Site Docusaurus (`site/`)
+
+- **Framework** : Docusaurus v3.10 (TypeScript, mode strict ; flag `future.v4: true` activé pour préparer la migration v4). Le tsconfig parent `@docusaurus/tsconfig` impose `noEmit: true`, donc `tsc` ne génère pas de `.js` à côté des sources.
+- **Config** : `site/docusaurus.config.ts` (`onBrokenLinks: 'throw'`, `markdown.hooks.onBrokenMarkdownLinks: 'throw'`)
 - **CSS custom** : `site/src/css/custom.css`
-- **Données catalogue** : `site/src/data/resources.ts`
+- **Données catalogue** : `site/src/data/resources.ts` (types stricts : `Discipline`, `Tool`, `Software`, `Project`, `Format`, `Category`)
 - **Données projets** : `site/src/data/projects.ts`
-- **Pages** : `site/src/pages/` (catalogue.tsx, index.tsx, projets/, machines/, about.tsx)
-- **Docs (fiches)** : `site/docs/` (lets-steam/, mimesis/, unplugged/, jeditrack/, robots-meet-arts/, steamcity/)
-- **Images** : `site/static/img/ressources/<projet>/<fiche-id>/` — un sous-dossier par fiche, avec `icone.png`/`icone.svg` + photos additionnelles. Les dossiers sont créés pour les 184 fiches (`.gitkeep` pour celles en attente d'images).
+- **Pages** : `site/src/pages/` (catalogue.tsx, index.tsx, projets/, machines.tsx, about.md)
+- **Theme custom** : `site/src/theme/Admonition/` (composants pour `:::question` et `:::hypothese`)
+- **Types globaux** : `site/src/types/css.d.ts` (extension de `React.CSSProperties` pour les CSS variables `--*`)
+- **Docs (fiches)** : `site/docs/` (un sous-dossier par projet)
+- **Images** : `site/static/img/ressources/<projet>/<fiche-id>/` — un sous-dossier par fiche (`.gitkeep` pour celles en attente)
 - **PDFs** : `site/static/pdf/<projet>/`
-- **Sources markdown brutes** : `markdown/` (fichiers originaux avant conversion)
+- **Sources markdown brutes** : `markdown/` (originaux pré-conversion)
+
+### Outillage qualité (racine)
+
+- **`package.json` racine** : Prettier, markdownlint, cspell, husky, commitlint, lint-staged, validate-branch-name, lychee
+- **Hooks Git** : `.husky/pre-commit` (validate-branch-name + git-precommit-checks + lint-staged), `.husky/commit-msg` (commitlint)
+- **CI** : `.github/workflows/build.yml` (lint + typecheck + build sur PR), `deploy.yml` (Pages), `links.yml` (cron Lychee), `auto-assign.yml`
 
 ## Projets intégrés
 
@@ -25,151 +43,48 @@
 | Robots Meet Arts | 29                    | OK        | OK          | OK                        | `#169da7` |
 | SteamCity        | 25 + 9 fiches prog    | OK        | OK          | OK                        | `#DD5350` |
 | The Dexter Lab   | 20 + 13 fiches prog   | OK        | OK (icônes) | OK (feuilles travail)     | `#1a4a48` |
-| Youth AI Lab     | 5                     | OK        | OK          | OK                        | `#b34520` |
+| Youth AI Lab     | 6                     | OK        | OK          | OK                        | `#b34520` |
 | I-Novmicro #2    | 1 (Découverte STeaMi) | OK        | -           | -                         | `#8a6e18` |
 | Projets du LAB   | 20                    | OK        | Partiels    | -                         | -         |
 
+> **Initiative en cours** : I-Novmicro #2 va recevoir 22+ fiches dans le cadre de l'intégration STeaMi/MicroPython (15 fiches portées de Let's STEAM + 7 fiches enseignants). Voir EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2) (phase 1) et [#30](https://github.com/LabAixBidouille/wikilab/issues/30) (phase 2 — autres projets).
+
 ## Conventions de formatage des fiches
 
-### Header (en-tête)
+**→ Voir [`CONVENTIONS.md`](CONVENTIONS.md)** pour le détail complet (header, structure, callouts, images, texte, catalogue, sous-pages, fiches programmation extraites, couleurs).
 
-- Flex layout : titre + badges + tableau + matériel + PDF + callout à gauche, icône 225px à droite
-- Titre H1 avec icône SVG flat design inline (couleur du projet, opacités 0.1/0.25/1.0)
-- Badges : disciplines (primary), outils (info), logiciels (warning/secondary)
-- Tableau : colonnes égales, en-tête fond `#09246C` + texte blanc
-- Bouton PDF rose (`#e83e8c`) si PDF disponible
-- Callout `:::tip[**Ressources imprimables incluses dans le PDF.**]` avec liste si applicable
+Toute modification de ces conventions doit se faire dans `CONVENTIONS.md` (qui fait autorité), pas ici.
 
-### Structure des fiches (règles SteamCity)
+## Build et commandes locales
 
-- **Introduction** (H2) contient : texte d'intro, Structure du protocole (H3), tableau durée/matériel sans titre "Pour bien démarrer", Glossaire (H3) en liste à puces
-- **Pas de titre "## Protocole"** : les phases sont directement H2
-- **Phases** : `## Phase 1 : Compréhension...` (majuscule après `:`)
-- **Sous-sections des phases** : Conceptualisation, Investigation, Analyse en H3
-- **Fiches programmation** : extraites dans `steamcity/programmation/` avec lien dans la fiche principale
+Prérequis : Node.js 20+. Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) pour l'installation complète.
 
-### Callouts
-
-- `:::tip` (vert, icône imprimante) : ressources imprimables UNIQUEMENT
-- `:::info` (bleu, icône info/ampoule) : conseils, remarques, notes techniques
-- `:::caution` (rose, icône ▶) : phases d'activité
-- `:::note` (gris) : notes diverses
-- Ne JAMAIS utiliser `:::tip` pour des conseils non-imprimables
-
-### Images
-
-- En bloc, alignées à gauche (CSS global `display: block`)
-- Après le texte descriptif qu'elles illustrent
-- Légendes UNIQUEMENT si demandé explicitement (style global déjà appliqué : italique, 0.9em, gris foncé, **centré** via `.markdown figcaption`)
-- **RÈGLE STRICTE** : dès qu'une `<figcaption>` est présente, l'image ET la légende DOIVENT être centrées. Le CSS global `.markdown figure:has(figcaption)` applique le centrage automatiquement, mais il faut quand même appliquer le pattern :
-
-  ```jsx
-  <figure style={{ margin: '1rem auto', textAlign: 'center' }}>
-    <img src="..." style={{ maxWidth: '100%', height: 'auto', margin: '0 auto' }} />
-    <figcaption style={{ margin: 0 }}>...</figcaption>
-  </figure>
-  ```
-
-  NE JAMAIS laisser une image avec figcaption alignée à gauche.
-
-- **Images côte à côte sans étirement** : flex container avec `alignItems: 'flex-start'` et chaque image en `maxWidth: 'calc(50% - 1rem)'` + `height: 'auto'` + `alignSelf: 'flex-start'` (préserve les proportions naturelles, espace vide sous la plus petite si tailles différentes — c'est OK)
-
-  ```jsx
-  <div style={{ display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-    <img
-      src="..."
-      style={{ maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start' }}
-    />
-    <img
-      src="..."
-      style={{ maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start' }}
-    />
-  </div>
-  ```
-
-- Centrage figure + image : `<figure style={{width: 'X%', margin: '1rem auto'}}><img style={{width: '100%'}}/></figure>`
-
-### Texte
-
-- Justifié (CSS global)
-- Titres numérotés de manière homogène (Partie 1, 2, 3...)
-- Pas de bold dans les headings
-- `--` dans les titres → `:` + majuscule après (règle wiki globale)
-- Listes avec `:` → premier élément en gras : `- **Label** : description`
-- Footer Erasmus+ en bas de chaque fiche
-- Gras : "Contexte de la séquence" et "Objectifs d'apprentissage"
-
-### Contenu à supprimer
-
-- Mentions italiques de phase (Découverte et échauffement, Fin de la séquence...)
-- Blockquotes citations en début de page → texte normal
-- Doubles `---` en fin de fiche
-- Mentions "Une activité développée par..."
-- Références QR code → "disponible dans le PDF"
-- Glossaires en tableau → listes à puces
-
-### Notes enseignants
-
-- Format : `:::info[Notes pour l'enseignant·e]` (bleu, pas gris)
-- Convertir tous les blockquotes `> **Notes pour l'enseignant·e**` en callouts info
-
-### Catalogue (`resources.ts`)
-
-- Chaque fiche = une entrée avec id, title, slug, project, summary, disciplines, tools, software, ageMin, ageMax, durationMinutes, difficulty, formats, categories, keywords, pdf?, thumbnail?
-- `categories` : 11 approches pédagogiques (`programmation`, `exploration-scientifique`, `robotique-ludique`, `animation-jeunesse`, `citoyennete-territoire`, `ia-esprit-critique`, `sequences-debranchees`, `theatre-sciences`, `arts-creativite`, `environnement-nature`, `makers-fabrication`). Multi-catégories autorisées.
-- `thumbnail` optionnel : pointe vers `/img/ressources/<projet>/<fiche-id>/icone.png` (ou `.svg`)
-- maxDuration filtre par défaut = 240 min (attention aux fiches longues, utiliser 240 max)
-
-### Suivi photos
-
-- Page interactive : `/photos-suivi` (cases à cocher avec persistance localStorage)
-- Convention : un sous-dossier par fiche sous `site/static/img/ressources/<projet>/<fiche-id>/`
-- Le dossier de chaque fiche doit contenir `icone.png`/`icone.svg` + photos additionnelles
-- Exception : `projets-du-lab/` racine contient le dump d'images historique (référencé dans les MD), plus les sous-dossiers `lab-<id>/` pour les icônes
-
-### Sous-pages (ex: borne-arcade, programmation)
-
-- Dossier dans `docs/PROJET/SOUSPROJET/`
-- Fichier `_category_.json` avec label, position, collapsed
-- Ajouter une entrée au catalogue qui pointe vers la page d'introduction/première page
-
-### Fiches de programmation extraites
-
-- Les fiches longues (SteamCity, TheDexterLab) qui contiennent des sections de programmation doivent avoir ces sections EXTRAITES dans `docs/PROJET/programmation/`
-- **Format obligatoire** : même format que les fiches Let's STEAM (voir `docs/lets-steam/r1as01-led.md` comme référence)
-  - Flex header complet avec SVG icône couleur projet, badges (discipline, carte, logiciel), tableau Projet/Durée/Difficulté/Âge
-  - Section "## Matériel"
-  - Bouton PDF si disponible
-  - Section "## De quoi parle-t-on ?" avec intro sur le concept/hardware
-  - Section "## Objectifs d'apprentissage" en liste à puces
-  - Contenu de programmation (étapes, code, câblage)
-  - Footer Erasmus+
-- Dans la fiche principale, remplacer la section extraite par un lien `## Programmation` pointant vers la fiche technique
-- Les tableaux vides (exemples à remplir) doivent avoir des lignes de taille égale (même nombre de cellules)
-
-## Build
+Raccourcis utiles depuis la racine :
 
 ```bash
-export PATH="/home/manon/.nvm/versions/node/v20.20.2/bin:$PATH"
-cd site
-npx docusaurus build
-npx docusaurus start --port 3333
+npm run site:start       # serveur de dev
+npm run site:build       # build statique
+npm run site:typecheck   # tsc (noEmit hérité de @docusaurus/tsconfig)
+npm run site:clean       # nettoie build/, .docusaurus/, et artefacts .js dans src/
 ```
 
 ## Git
 
 - Remote : `https://github.com/LabAixBidouille/wikilab.git`
-- Branche : `main`
+- Branche par défaut : `main` — **protégée**, modifications via PR uniquement
+- Conventional Commits + validate-branch-name (voir [`CONTRIBUTING.md`](CONTRIBUTING.md))
 - Auth : `gh auth login` (GitHub CLI)
-- 3 PDFs exclus (.gitignore) car >50MB : Vivre en harmonie, Potluck March, Equal
+- 3 PDFs exclus (`.gitignore`) car >50MB : Vivre en harmonie, Potluck March, Equal
 
-## TODO
+## Travaux en cours
 
-- [x] Icônes projet (icone.png) pour JediTrack et Robots Meet Arts
-- [ ] Adapter la couleur du tableau par projet (actuellement codée en dur `#09246C`)
-- [x] Tous les projets intégrés !
-- [ ] Git LFS pour les 3 PDFs Unplugged >50MB
-- [x] Photos pour les fiches JediTrack et Robots Meet Arts
-- [x] Refonte wiki SteamCity (24 fiches + 9 prog, callouts, annexes imprimables)
-- [ ] Refonte wiki similaire pour les autres projets (style hérité PDF→wiki à uniformiser)
-- [ ] Vérifier images d'illustration manquantes sur thedexterlab (20 fiches avec uniquement l'icône)
+Le suivi détaillé est sur GitHub : [issues](https://github.com/LabAixBidouille/wikilab/issues), [milestones](https://github.com/LabAixBidouille/wikilab/milestones), [project board](https://github.com/orgs/LabAixBidouille/projects/1).
+
+Chantiers ouverts notables :
+
+- Adapter la couleur du tableau header de fiche par projet (actuellement codée en dur `#09246C`)
+- Git LFS pour les 3 PDFs Unplugged >50MB
+- Refonte wiki similaire à SteamCity pour les autres projets (style hérité PDF→wiki à uniformiser)
+- Vérifier images d'illustration manquantes sur TheDexterLab (20 fiches avec uniquement l'icône)
+- **Intégration STeaMi/MicroPython** — voir EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2) (phase 1, 22+ fiches) et [#30](https://github.com/LabAixBidouille/wikilab/issues/30) (phase 2)
+- **Dette DX** — voir [#39](https://github.com/LabAixBidouille/wikilab/issues/39) (couverture cspell sur fiches, passe Prettier sur fiches après refactor MDX)

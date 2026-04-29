@@ -2,7 +2,7 @@
 
 Merci de l'intérêt que tu portes au projet ! Ce document décrit le workflow et les conventions pour contribuer.
 
-Pour les **conventions de formatage des fiches** (header, callouts, images, footer Erasmus+, etc.), voir [`CLAUDE.md`](CLAUDE.md) qui fait référence. Pour les **vérifications et tests**, voir [`TESTING.md`](TESTING.md).
+Pour les **conventions de contenu et de formatage des fiches** (header, callouts, images, footer, catalogue), voir [`CONVENTIONS.md`](CONVENTIONS.md) qui fait autorité. Pour les **vérifications et tests**, voir [`TESTING.md`](TESTING.md).
 
 ## À qui s'adresse ce document
 
@@ -42,17 +42,18 @@ Le `npm ci` à la racine installe automatiquement les **hooks Git** (husky) qui 
 
 Depuis la racine du repo :
 
-| Commande                 | Description                                      |
-| ------------------------ | ------------------------------------------------ |
-| `npm run format`         | Formate tous les fichiers (Prettier)             |
-| `npm run format:check`   | Vérifie le formatage                             |
-| `npm run lint:md`        | Vérifie le Markdown (markdownlint)               |
-| `npm run lint:md:fix`    | Corrige automatiquement le Markdown              |
-| `npm run lint:spell`     | Vérifie l'orthographe (cspell, FR + EN)          |
-| `npm run lint:links`     | Vérifie les liens externes (Docker requis, lent) |
-| `npm run site:start`     | Raccourci vers `npm start` dans `site/`          |
-| `npm run site:build`     | Raccourci vers `npm run build` dans `site/`      |
-| `npm run site:typecheck` | Raccourci vers `npm run typecheck` dans `site/`  |
+| Commande                 | Description                                                            |
+| ------------------------ | ---------------------------------------------------------------------- |
+| `npm run format`         | Formate tous les fichiers (Prettier)                                   |
+| `npm run format:check`   | Vérifie le formatage                                                   |
+| `npm run lint:md`        | Vérifie le Markdown (markdownlint)                                     |
+| `npm run lint:md:fix`    | Corrige automatiquement le Markdown                                    |
+| `npm run lint:spell`     | Vérifie l'orthographe (cspell, FR + EN)                                |
+| `npm run lint:links`     | Vérifie les liens externes (Docker requis, lent)                       |
+| `npm run site:start`     | Raccourci vers `npm start` dans `site/`                                |
+| `npm run site:build`     | Raccourci vers `npm run build` dans `site/`                            |
+| `npm run site:typecheck` | Raccourci vers `npm run typecheck` dans `site/`                        |
+| `npm run site:clean`     | Nettoie `site/build`, `site/.docusaurus`, et artefacts `*.js` dans src |
 
 ## Workflow de contribution
 
@@ -158,7 +159,7 @@ Installés via `npm ci` à la racine. Ils s'exécutent à chaque commit sans act
 
 1. Créer une issue avec le template **Nouvelle fiche** ([.github/ISSUE_TEMPLATE/fiche.md](.github/ISSUE_TEMPLATE/fiche.md)).
 2. Créer une branche `content/<id-de-la-fiche>` ou `feat/<projet>-<id>`.
-3. Créer le fichier markdown dans `site/docs/<projet>/<id-fiche>.md` en suivant le format de [`CLAUDE.md`](CLAUDE.md) (header flex, badges, tableau, callouts, footer).
+3. Créer le fichier markdown dans `site/docs/<projet>/<id-fiche>.md` en suivant les règles de [`CONVENTIONS.md`](CONVENTIONS.md) (header flex, badges, tableau, callouts, footer).
 4. Créer le dossier d'images correspondant : `site/static/img/ressources/<projet>/<id-fiche>/` (avec au minimum `icone.png` ou `icone.svg`).
 5. Si un PDF accompagne la fiche : `site/static/pdf/<projet>/<nom>.pdf`.
 6. Ajouter une entrée dans le catalogue [`site/src/data/resources.ts`](site/src/data/resources.ts) avec tous les champs requis (`id`, `title`, `slug`, `project`, `summary`, `disciplines`, `tools`, `software`, `ageMin`, `ageMax`, `durationMinutes`, `difficulty`, `formats`, `categories`, `keywords`, `pdf?`, `thumbnail?`).
@@ -166,7 +167,7 @@ Installés via `npm ci` à la racine. Ils s'exécutent à chaque commit sans act
 
 ### Modifier une fiche existante
 
-- Conserver le format défini dans [`CLAUDE.md`](CLAUDE.md).
+- Conserver le format défini dans [`CONVENTIONS.md`](CONVENTIONS.md).
 - Si le sujet/durée/difficulté change, mettre à jour aussi l'entrée dans `resources.ts`.
 - Pour les changements importants, mentionner dans la PR si une re-validation pédagogique est nécessaire.
 
@@ -190,7 +191,7 @@ Issue avec le template **Bug** ([.github/ISSUE_TEMPLATE/bug.md](.github/ISSUE_TE
 
 ## Conventions de contenu (fiches)
 
-→ Voir [`CLAUDE.md`](CLAUDE.md) en détail. Points clés :
+→ Voir [`CONVENTIONS.md`](CONVENTIONS.md) en détail. Points clés :
 
 - Header flex : titre + icône SVG + badges + tableau + matériel + bouton PDF (selon disponibilité)
 - Callouts : `:::tip` réservé aux ressources imprimables, `:::info` pour les conseils, `:::caution` pour les phases d'activité
@@ -226,7 +227,7 @@ Issue avec le template **Bug** ([.github/ISSUE_TEMPLATE/bug.md](.github/ISSUE_TE
 ## Process de revue
 
 - Une PR doit être validée par **au moins un autre membre de l'équipe Wiki** avant merge.
-- Les revues portent sur le contenu pédagogique (fiches), le formatage (conventions `CLAUDE.md`), et la qualité technique (code).
+- Les revues portent sur le contenu pédagogique (fiches), le formatage (conventions `CONVENTIONS.md`), et la qualité technique (code).
 - En cas de désaccord sur le contenu pédagogique, le mainteneur du projet concerné tranche.
 
 ## Protection de la branche `main`
@@ -236,11 +237,19 @@ Issue avec le template **Bug** ([.github/ISSUE_TEMPLATE/bug.md](.github/ISSUE_TE
 - 1 approbation de review requise
 - Squash merge (historique linéaire)
 
+## Suivi du projet
+
+- **Issues** : <https://github.com/LabAixBidouille/wikilab/issues>
+- **Milestones** : 7 jalons structurants de l'initiative STeaMi/MicroPython (Bootstrap, Fiches enseignants, Portage Let's STEAM, Outillage CI, Harmonisation P1, Audit phase 2, Portage phase 2). Voir <https://github.com/LabAixBidouille/wikilab/milestones>.
+- **Project board** : <https://github.com/orgs/LabAixBidouille/projects/1>
+- **Issue types** (de l'org `LabAixBidouille`) : `Task` pour les tâches concrètes, `Feature` pour les EPICs et grandes initiatives, `Bug` pour les défauts. Le type est posé sur l'issue (champ GitHub natif), au-delà des labels.
+- **Labels usuels** : `epic`, `phase-1`, `phase-2`, `prepa`, `steami`, `micropython`, `fiche-portage`, `fiche-enseignant`, `outillage`, `audit`, `bug`, `documentation`.
+
 ## Ressources et contact
 
 - **Repo** : <https://github.com/LabAixBidouille/wikilab>
 - **Site en prod** : <https://wiki.labaixbidouille.com>
-- **Conventions de fiches détaillées** : [`CLAUDE.md`](CLAUDE.md)
+- **Conventions de contenu et de fiches** : [`CONVENTIONS.md`](CONVENTIONS.md)
 - **Tests et vérifications** : [`TESTING.md`](TESTING.md)
 - **Contact** : <contact@labaixbidouille.com>
 
