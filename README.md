@@ -25,7 +25,7 @@ Catalogue de 185 fiches issues de projets éducatifs, créatifs et makers (progr
 
 ### Site Docusaurus (`site/`)
 
-- **Framework** : [Docusaurus v4](https://docusaurus.io/) (TypeScript, mode strict)
+- **Framework** : [Docusaurus v3.10](https://docusaurus.io/) (TypeScript, mode strict ; flag `future.v4: true` activé pour préparer la migration v4)
 - **Config** : [`site/docusaurus.config.ts`](site/docusaurus.config.ts)
 - **Catalogue typé** : [`site/src/data/resources.ts`](site/src/data/resources.ts)
 - **Données projets** : [`site/src/data/projects.ts`](site/src/data/projects.ts)

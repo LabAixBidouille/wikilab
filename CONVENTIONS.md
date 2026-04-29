@@ -37,7 +37,7 @@ Règles consolidées (héritées de la refonte SteamCity) :
 - **Pas de titre `## Protocole`** : les phases sont directement H2
 - **Phases** : `## Phase 1 : Compréhension...` (majuscule après `:`)
 - **Sous-sections des phases** : Conceptualisation, Investigation, Analyse en H3
-- **Fiches programmation** : extraites dans `docs/<projet>/programmation/` avec lien dans la fiche principale (voir [Fiches de programmation extraites](#fiches-de-programmation-extraites))
+- **Fiches programmation** : extraites dans `site/docs/<projet>/programmation/` avec lien dans la fiche principale (voir [Fiches de programmation extraites](#fiches-de-programmation-extraites))
 
 ## Callouts
 
@@ -156,15 +156,15 @@ Les types sont stricts : ajouter une nouvelle valeur impose d'éditer le type au
 
 ## Sous-pages (borne-arcade, programmation)
 
-- Dossier dans `docs/<projet>/<sous-projet>/`
+- Dossier dans `site/docs/<projet>/<sous-projet>/`
 - Fichier `_category_.json` avec `label`, `position`, `collapsed`
 - Ajouter une entrée au catalogue pointant vers la page d'introduction/première page
 
 ## Fiches de programmation extraites
 
-Les fiches longues (SteamCity, TheDexterLab) qui contiennent des sections de programmation doivent avoir ces sections **extraites** dans `docs/<projet>/programmation/`.
+Les fiches longues (SteamCity, TheDexterLab) qui contiennent des sections de programmation doivent avoir ces sections **extraites** dans `site/docs/<projet>/programmation/`.
 
-**Format obligatoire** : même format qu'une fiche Let's STEAM (référence : [`docs/lets-steam/r1as01-led.md`](site/docs/lets-steam/r1as01-led.md)) :
+**Format obligatoire** : même format qu'une fiche Let's STEAM (référence : [`site/docs/lets-steam/r1as01-led.md`](site/docs/lets-steam/r1as01-led.md)) :
 
 - Flex header complet avec SVG icône couleur projet, badges (discipline, carte, logiciel), tableau Projet/Durée/Difficulté/Âge
 - Section `## Matériel`

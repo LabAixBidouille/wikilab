@@ -13,7 +13,7 @@
 
 ### Site Docusaurus (`site/`)
 
-- **Framework** : Docusaurus v4 (TypeScript, mode strict, `noEmit`)
+- **Framework** : Docusaurus v3.10 (TypeScript, mode strict ; flag `future.v4: true` activé pour préparer la migration v4). Le tsconfig parent `@docusaurus/tsconfig` impose `noEmit: true`, donc `tsc` ne génère pas de `.js` à côté des sources.
 - **Config** : `site/docusaurus.config.ts` (`onBrokenLinks: 'throw'`, `markdown.hooks.onBrokenMarkdownLinks: 'throw'`)
 - **CSS custom** : `site/src/css/custom.css`
 - **Données catalogue** : `site/src/data/resources.ts` (types stricts : `Discipline`, `Tool`, `Software`, `Project`, `Format`, `Category`)
@@ -64,7 +64,7 @@ Raccourcis utiles depuis la racine :
 ```bash
 npm run site:start       # serveur de dev
 npm run site:build       # build statique
-npm run site:typecheck   # tsc --noEmit
+npm run site:typecheck   # tsc (noEmit hérité de @docusaurus/tsconfig)
 npm run site:clean       # nettoie build/, .docusaurus/, et artefacts .js dans src/
 ```
 
