@@ -103,7 +103,7 @@ L'objectif est de rendre une idée absurde **crédible**. Les groupes analysent 
   <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/ChatGPT%20Image%2029%20avr.%202026%2C%2015_12_15.png" alt="Visuel publicitaire Groupe 1" style={{width: '100%', height: 'auto', margin: 0}} />
   <div style={{display: 'flex', flexDirection: 'column', gap: '0.75rem'}}>
     <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/ChatGPT%20Image%2029%20avr.%202026%2C%2015_11_58.png" alt="Visuel publicitaire Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
-    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/prototypage.webp" alt="prototypage.png" style={{width: '100%', height: 'auto', margin: 0}} />
+    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/prototypage.png" alt="Prototype Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
   </div>
 </div>
 
