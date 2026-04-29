@@ -41,14 +41,14 @@ Installation de Mosquitto MQTT broker sur le Raspberry Pi (RP).
 
 Installation d'Avahi Daemon :
 
-```
+```bash
 sudo apt-get install avahi-daemon avahi-discover libnss-mdns
 
 ```
 
 Installation de Mosquitto MQTT Broker :
 
-```
+```bash
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 sudo apt-get update
 sudo apt-get install mosquitto python-mosquitto
@@ -58,28 +58,28 @@ sudo apt-get install mosquitto-clients
 
 Pour attribuer une adresse IP temporaire (192.168.0.9) au RP :
 
-```
+```bash
 sudo ip addr add 192.168.0.9/24 dev eth0
 
 ```
 
 Pour fixer une adresse IP statique (permanente) :
 
-```
+```bash
 sudo nano /etc/network/interfaces
 
 ```
 
 Remplacer :
 
-```
+```text
 iface eth0 inet dhcp
 
 ```
 
 Par :
 
-```
+```text
 iface eth0 inet static
     	address 192.168.0.9
     	netmask 255.255.255.0
@@ -89,14 +89,14 @@ iface eth0 inet static
 
 Pour vérifier l'adresse IP :
 
-```
+```bash
 ip addr
 
 ```
 
 Pour visualiser les données dans la console :
 
-```
+```bash
 mosquitto_sub -t "#" -v
 
 ```
@@ -130,7 +130,7 @@ Il utilise la librairie DHT, disponible ici : [DHT](https://github.com/adafruit/
 
 Il faut également télécharger la librairie MQTTClient : [MQTTClient](https://projects.eclipse.org/projects/technology.paho/downloads)
 
-```
+```cpp
 /*******************************************************************************
  * Copyleft (c) 2014 LabAixBidouille
  *
@@ -281,7 +281,7 @@ Le montage est simplement composé de l'Arduino et des deux shields empilés.
 
 Voici le programme à éditer dans l'IDE Arduino, puis à compiler et charger dans la carte Arduino. Il utilise la librairie LiquidCrystal, fournie en standard avec l'IDE.
 
-```
+```cpp
 /*******************************************************************************
  * Copyleft (c) 2014 LabAixBidouille
  *

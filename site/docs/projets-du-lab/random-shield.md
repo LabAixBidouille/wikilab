@@ -50,7 +50,7 @@ Note : au fur et à mesure que les piles 9 V se déchargent, il sera probablemen
 
 ### Code Arduino
 
-```
+```cpp
 // Basic program that acquires the noise bits as fast as possible
 // Led interface for status report
 // One bit per byte in the SD file
@@ -144,21 +144,19 @@ void loop()
 
 Il n'existe aucune méthode fiable pour déterminer si une suite de nombres est réellement aléatoire. On ne peut que vérifier si le générateur se comporte de manière conforme d'un point de vue statistique. La batterie de tests DieHarder a été utilisée à cet effet :
 
-```
-terminal:sudo apt-get install dieharder
-
+```bash
+sudo apt-get install dieharder
 ```
 
 Pour lancer les tests sur un échantillon de 2 mégabits :
 
-```
-terminal:dieharder -f rng.txt -a
-
+```bash
+dieharder -f rng.txt -a
 ```
 
 Voici le résultat :
 
-```
+```text
 #=============================================================================#
 #            dieharder version 3.31.1 Copyright 2003 Robert G. Brown          #
 #=============================================================================#

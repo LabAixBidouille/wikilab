@@ -164,7 +164,7 @@ La bibliothèque musicale intégrée à MakeCode nous permet de jouer de la musi
 
 ![Commande MakeCode play tone](/img/ressources/lets-steam/r1as07-musique/commandemiddkeC.png)
 
-```
+```text
 play tone at [Middle C] for [1/2 beat]
 ```
 
@@ -174,7 +174,7 @@ Où `Middle C` = note et `1 beat` = 1 temps.
 
 Si nous voulons recréer nos chansons préférées, nous devons d'abord avoir une connaissance de base des partitions. Voici un rappel des notes les plus courantes utilisées dans une partition musicale :
 
-```
+```text
 C4  D4  E4  F4  G4  A4  B4  C5  D5  E5  F5  G5  A5
 ```
 

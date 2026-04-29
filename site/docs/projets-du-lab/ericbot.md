@@ -61,7 +61,7 @@ Même principe : des fonctions de rotation ne font tourner qu'un seul moteur à 
 
 #### Code
 
-```
+```cpp
 #include <Servo.h>
 
 Servo myservoGauche;
@@ -137,7 +137,7 @@ Ce programme combine la navigation autonome et les effets lumineux sur l'anneau 
 - **Orange** : le robot tourne (obstacle entre 10 et 30 cm)
 - **Rouge** : le robot recule (obstacle à moins de 10 cm)
 
-```
+```cpp
 #include <Servo.h>
 #include <Adafruit_NeoPixel.h>
 #define PIN      6

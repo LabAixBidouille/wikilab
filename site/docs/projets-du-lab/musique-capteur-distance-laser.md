@@ -37,7 +37,7 @@ Le résultat est un instrument sans contact, jouable en déplaçant la main au-d
 
 ### Code Arduino
 
-```
+```cpp
 #include "Adafruit_VL53L0X.h"
 
 Adafruit_VL53L0X lox = Adafruit_VL53L0X();

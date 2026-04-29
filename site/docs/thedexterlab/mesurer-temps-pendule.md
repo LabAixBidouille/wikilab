@@ -162,7 +162,7 @@ Pour un pendule donné, l'étape précédente a montré que la fréquence est co
 
 Dans un pendule simple, sans frottement ni résistance de l'air, la période T est donnée par :
 
-```
+```text
 T = 2π × √(L / g)
 ```
 

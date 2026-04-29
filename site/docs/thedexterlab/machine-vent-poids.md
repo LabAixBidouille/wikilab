@@ -268,7 +268,7 @@ La fonction `millis` donne le temps écoulé depuis le lancement du programme, e
 
 Pour connaître la vitesse, on utilise l'équation du mouvement circulaire uniforme :
 
-```
+```text
 v = 2π × R / T
 ```
 

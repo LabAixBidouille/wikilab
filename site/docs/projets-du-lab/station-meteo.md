@@ -54,7 +54,7 @@ Liste du matériel :
 
 Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte STM32 Nucleo 32 F303K8.
 
-```
+```cpp
 /*
 Station Météo (V0.0)
 
@@ -165,7 +165,7 @@ Le transistor NMOS 2N2700 adapte le signal de sortie (3,3 V) de la carte Wemos D
 
 Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte D1 Mini (ESP 8266).
 
-```
+```cpp
 /*
 Station Météo (V1.0)
 
