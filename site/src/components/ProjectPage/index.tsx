@@ -211,7 +211,16 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
                   to={r.slug}
                   className="card wikilab-project-resource-card"
                 >
-                  <h3>{r.title}</h3>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem'}}>
+                    {r.thumbnail && (
+                      <img
+                        src={r.thumbnail}
+                        alt=""
+                        style={{width: '45px', height: '45px', objectFit: 'contain', flexShrink: 0}}
+                      />
+                    )}
+                    <h3 style={{margin: 0}}>{r.title}</h3>
+                  </div>
                   <p>{r.summary}</p>
                   <div className="wikilab-project-resource-card__meta">
                     {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}

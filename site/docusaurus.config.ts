@@ -51,6 +51,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'ressources',
+          editUrl: 'https://github.com/LabAixBidouille/wikilab/edit/main/site/',
           admonitions: {
             keywords: ['question', 'hypothese'],
             extendDefaults: true,
