@@ -187,6 +187,7 @@ Mots à éviter (équivalents accentués préférés) listés dans `cspell.json`
 - **Le build échoue en local** : `rm -rf node_modules .docusaurus && npm ci && npm run site:build`
 - **Le hook pre-commit bloque inutilement** : ne **pas** utiliser `--no-verify` ; corriger le souci, ou poser la question dans une issue si la règle pose un problème.
 - **Le build échoue en CI mais marche en local** : vérifier la version Node (`node --version` doit être ≥ 20), refaire `npm ci` propre.
+- **Le build affiche `Duplicate routes found` en local** : c'est typiquement dû à des artefacts `.js` laissés par un IDE/`tsc` à côté des `.tsx` source dans `site/src/`. Lancer `npm run site:clean` à la racine pour les nettoyer (le build CI n'est pas affecté car ces fichiers ne sont pas commités).
 - **Une fiche n'apparaît pas dans le catalogue** : vérifier l'entrée dans `resources.ts` (id unique, slug correct), redémarrer `npm run site:start`.
 - **Un lien interne casse** : vérifier la sortie du build, mettre à jour les références.
 
