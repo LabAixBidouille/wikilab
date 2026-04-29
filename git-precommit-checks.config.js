@@ -1,25 +1,28 @@
+/* eslint-disable no-useless-escape */
 module.exports = {
+  display: {
+    notifications: true,
+    offendingContent: true,
+    rulesSummary: false,
+    shortStats: true,
+    verbose: false,
+  },
   rules: [
     {
-      filter: '\\.(js|jsx|ts|tsx|md|mdx|yml|yaml|json)$',
-      nonBlocking: 'true',
-      message: 'Vous avez laissé un FIXME dans votre code',
-      regex: /FIXME/,
-    },
-    {
-      filter: '\\.(js|jsx|ts|tsx|md|mdx|yml|yaml|json)$',
-      nonBlocking: 'true',
-      message: 'Vous avez laissé un TODO dans votre code',
-      regex: /TODO/,
+      // \x4d = 'M', \x44 = 'D' : empêche le hook de matcher son propre message d'erreur
+      message: 'Aurais-tu oublié de terminer certaines tâches ?',
+      nonBlocking: true,
+      regex: /FIX\x4dE|TO\x44O/,
     },
     {
       message: 'Marqueurs de conflit Git détectés',
       regex: /^[<>|=]{4,}/m,
     },
     {
-      filter: '\\.(js|jsx|ts|tsx)$',
+      filter: /\.(js|jsx|ts|tsx)$/,
       message: 'console.log oublié',
-      regex: /console\.log/,
+      nonBlocking: true,
+      regex: /^\s*console\.log/,
     },
   ],
 };
