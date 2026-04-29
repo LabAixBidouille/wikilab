@@ -194,6 +194,6 @@ Mots à éviter (équivalents accentués préférés) listés dans `cspell.json`
 ## Ressources
 
 - [Documentation Docusaurus v4](https://docusaurus.io/docs)
-- [Conventions de contenu](CLAUDE.md)
+- [Conventions de contenu](CONVENTIONS.md)
 - [Workflow de contribution](CONTRIBUTING.md)
 - [Issues outillage CI](https://github.com/LabAixBidouille/wikilab/issues?q=is%3Aissue+label%3Aoutillage)

@@ -137,6 +137,9 @@ stager
 flagWords
 backticks
 pdfs
+precommit
+prepa
+micropython
 
 # Identifiants TypeScript en kebab-case ASCII (slugs, IDs, admonition keywords).
 # Ils restent volontairement sans accent pour être des identifiants techniques valides.
@@ -150,3 +153,8 @@ hypothese
 citoyennete
 creativite
 debranchees
+debranchee
+enquete
+intermediaire
+debutant
+avance
