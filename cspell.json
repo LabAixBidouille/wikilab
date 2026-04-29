@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "fr,en",
+  "import": ["@cspell/dict-fr-fr/cspell-ext.json"],
+  "dictionaries": ["fr-fr", "wikilab-terms"],
+  "dictionaryDefinitions": [
+    {
+      "name": "wikilab-terms",
+      "path": ".cspell/wikilab.txt",
+      "addWords": true
+    }
+  ],
+  "files": ["README.md", "CONTRIBUTING.md", "TESTING.md", "CLAUDE.md"],
+  "ignorePaths": [
+    "node_modules",
+    "site/build",
+    "site/.docusaurus",
+    "site/static/pdf",
+    "site/static/img",
+    "markdown",
+    "projets",
+    "package-lock.json"
+  ],
+  "ignoreRegExpList": [
+    "/(```[\\s\\S]*?```)/g",
+    "/`[^`]+`/g",
+    "/https?:\\/\\/\\S+/g",
+    "/\\[.*?\\]\\(.*?\\)/g",
+    "/!\\[.*?\\]\\(.*?\\)/g",
+    "/import\\s+.*?from\\s+.*?;/g",
+    "/\\b[A-Z][A-Z0-9_]{2,}\\b/g"
+  ],
+  "flagWords": [
+    "developpement",
+    "memoire",
+    "peripherique",
+    "microcontroleur",
+    "controleur",
+    "systeme",
+    "ecran",
+    "electronique",
+    "electrique",
+    "accelerometre",
+    "magnetometre",
+    "caracteristiques",
+    "schemas",
+    "schema"
+  ]
+}

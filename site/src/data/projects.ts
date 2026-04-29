@@ -1,4 +1,4 @@
-import {type Project} from './resources';
+import { type Project } from './resources';
 
 export interface Partner {
   name: string;
@@ -55,14 +55,22 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       "Rapport d'impact mapping et analyse des besoins des enseignants",
     ],
     partners: [
-      {name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png`},
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: "Université Côte d'Azur", country: 'France', logo: `${P}/uca.png`},
-      {name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg`},
-      {name: 'Ellinogermaniki Agogi', country: 'Grèce', logo: `${P}/ellinogermaniki.png`},
-      {name: 'Evroproject OOD', country: 'Bulgarie', logo: `${P}/evroproject.png`},
-      {name: 'Università degli Studi di Napoli Federico II', country: 'Italie', logo: `${P}/unina.png`},
-      {name: 'Universitat Rovira i Virgili', country: 'Espagne', logo: `${P}/urv.png`},
+      { name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png` },
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      { name: "Université Côte d'Azur", country: 'France', logo: `${P}/uca.png` },
+      { name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg` },
+      { name: 'Ellinogermaniki Agogi', country: 'Grèce', logo: `${P}/ellinogermaniki.png` },
+      { name: 'Evroproject OOD', country: 'Bulgarie', logo: `${P}/evroproject.png` },
+      {
+        name: 'Università degli Studi di Napoli Federico II',
+        country: 'Italie',
+        logo: `${P}/unina.png`,
+      },
+      { name: 'Universitat Rovira i Virgili', country: 'Espagne', logo: `${P}/urv.png` },
     ],
     photos: [
       '/img/photos/projets/lets-steam/broche digital write.png',
@@ -99,9 +107,17 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       'Plus de 30 éducateurs et 300 élèves impliqués entre la France et la Bulgarie',
     ],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: 'La Fabulerie', country: 'France', logo: `${P}/la-fabulerie.png`},
-      {name: 'SPACES Foundation for Art and Culture', country: 'Bulgarie', logo: `${P}/spaces.png`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      { name: 'La Fabulerie', country: 'France', logo: `${P}/la-fabulerie.png` },
+      {
+        name: 'SPACES Foundation for Art and Culture',
+        country: 'Bulgarie',
+        logo: `${P}/spaces.png`,
+      },
     ],
     photos: [
       '/img/photos/projets/mimesis/20231122_135656.webp',
@@ -132,19 +148,27 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       "Cultiver l'engagement des élèves dans la littératie numérique et les Arts/Sciences humaines",
     ],
     results: [
-      "Programme de formation des enseignants en apprentissage mixte (blended learning)",
+      'Programme de formation des enseignants en apprentissage mixte (blended learning)',
       'Curriculum pour les élèves avec livret de leçons',
-      "Lignes directrices pour une implémentation inclusive",
+      'Lignes directrices pour une implémentation inclusive',
       "Rapport de bonnes pratiques et résultats d'évaluation",
     ],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: 'Dimotiko Scholeio Plateos Imathias', country: 'Grèce', logo: `${P}/dimotiko-plateos.png`},
-      {name: 'Escola Maria Fortuny', country: 'Espagne', logo: `${P}/escola-maria-fortuny.png`},
-      {name: 'Scholengemeenschap KSO Leuven', country: 'Belgique', logo: `${P}/kso-leuven.png`},
-      {name: 'Stimmuli for Social Change', country: 'Grèce', logo: `${P}/stimmuli.png`},
-      {name: 'UC Leuven', country: 'Belgique', logo: `${P}/uc-leuven.png`},
-      {name: 'Universitat Rovira i Virgili', country: 'Espagne', logo: `${P}/urv.png`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      {
+        name: 'Dimotiko Scholeio Plateos Imathias',
+        country: 'Grèce',
+        logo: `${P}/dimotiko-plateos.png`,
+      },
+      { name: 'Escola Maria Fortuny', country: 'Espagne', logo: `${P}/escola-maria-fortuny.png` },
+      { name: 'Scholengemeenschap KSO Leuven', country: 'Belgique', logo: `${P}/kso-leuven.png` },
+      { name: 'Stimmuli for Social Change', country: 'Grèce', logo: `${P}/stimmuli.png` },
+      { name: 'UC Leuven', country: 'Belgique', logo: `${P}/uc-leuven.png` },
+      { name: 'Universitat Rovira i Virgili', country: 'Espagne', logo: `${P}/urv.png` },
     ],
     photos: [
       '/img/photos/projets/robots-meet-arts/20250903_092550.jpg',
@@ -180,14 +204,22 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       'Plateforme de centralisation des résultats expérimentaux des écoles européennes participantes',
     ],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: 'Associazione Perlatecnica', country: 'Italie', logo: `${P}/perlatecnica.jpg`},
-      {name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png`},
-      {name: 'Les 7 Vents', country: 'France', logo: `${P}/les-7-vents.png`},
-      {name: 'Private Secondary School "Educational Technologies"', country: 'Bulgarie', logo: `${P}/edu-technologies.jpg`},
-      {name: 'Ultralab S.L.', country: 'Espagne', logo: `${P}/ultralab.png`},
-      {name: 'Vittascience', country: 'France', logo: `${P}/vittascience.png`},
-      {name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      { name: 'Associazione Perlatecnica', country: 'Italie', logo: `${P}/perlatecnica.jpg` },
+      { name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png` },
+      { name: 'Les 7 Vents', country: 'France', logo: `${P}/les-7-vents.png` },
+      {
+        name: 'Private Secondary School "Educational Technologies"',
+        country: 'Bulgarie',
+        logo: `${P}/edu-technologies.jpg`,
+      },
+      { name: 'Ultralab S.L.', country: 'Espagne', logo: `${P}/ultralab.png` },
+      { name: 'Vittascience', country: 'France', logo: `${P}/vittascience.png` },
+      { name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png` },
     ],
     photos: [
       '/img/photos/projets/steamcity/IMG-affc4e7d226f602a9a099723ce634203-V.webp',
@@ -224,14 +256,14 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       'Ressources éducatives ouvertes sous licence Creative Commons BY-SA 4.0',
     ],
     partners: [
-      {name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png`},
-      {name: "Université Côte d'Azur", country: 'France', logo: `${P}/uca.png`},
-      {name: 'La Fabulerie', country: 'France', logo: `${P}/la-fabulerie.png`},
-      {name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg`},
-      {name: 'Hands On! International', country: 'Autriche', logo: `${P}/hands-on.jpg`},
-      {name: 'Museo dei Bambini', country: 'Italie', logo: `${P}/museo-dei-bambini.webp`},
-      {name: 'Muzeiko Foundation', country: 'Bulgarie', logo: `${P}/muzeiko.jpg`},
-      {name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png`},
+      { name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png` },
+      { name: "Université Côte d'Azur", country: 'France', logo: `${P}/uca.png` },
+      { name: 'La Fabulerie', country: 'France', logo: `${P}/la-fabulerie.png` },
+      { name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg` },
+      { name: 'Hands On! International', country: 'Autriche', logo: `${P}/hands-on.jpg` },
+      { name: 'Museo dei Bambini', country: 'Italie', logo: `${P}/museo-dei-bambini.webp` },
+      { name: 'Muzeiko Foundation', country: 'Bulgarie', logo: `${P}/muzeiko.jpg` },
+      { name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png` },
     ],
     photos: [
       '/img/photos/projets/unplugged/Untitled.webp',
@@ -253,21 +285,25 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
     colorAccent: '#92d003',
     summary: 'Jeunes en quête de science pour les territoires.',
     description:
-      "JediTrack accompagne des jeunes de quartiers prioritaires en France et en Belgique dans une démarche de science citoyenne. Le projet leur propose de concevoir, développer et valoriser des actions scientifiques liées à la qualité de vie dans leur quartier, en développant au passage des compétences clés (programmation, fabrication numérique, gestion de projet).",
+      'JediTrack accompagne des jeunes de quartiers prioritaires en France et en Belgique dans une démarche de science citoyenne. Le projet leur propose de concevoir, développer et valoriser des actions scientifiques liées à la qualité de vie dans leur quartier, en développant au passage des compétences clés (programmation, fabrication numérique, gestion de projet).',
     objectives: [
-      "Encourager les jeunes à concevoir et promouvoir des actions de science citoyenne liées à leur quartier",
-      "Développer des compétences clés : programmation, fabrication numérique, design, gestion de projet",
-      "Renforcer le tissu social en impliquant activement les jeunes dans leur communauté",
+      'Encourager les jeunes à concevoir et promouvoir des actions de science citoyenne liées à leur quartier',
+      'Développer des compétences clés : programmation, fabrication numérique, design, gestion de projet',
+      'Renforcer le tissu social en impliquant activement les jeunes dans leur communauté',
     ],
     results: [
-      "Ressources pratiques pour animer des activités de science citoyenne avec un public jeune",
-      "Expériences de terrain transformées en démarche complète et réplicable pour les animateurs",
-      "Contenus à vocation éducative, civique et ludique pour stimuler les actions socio-environnementales",
+      'Ressources pratiques pour animer des activités de science citoyenne avec un public jeune',
+      'Expériences de terrain transformées en démarche complète et réplicable pour les animateurs',
+      'Contenus à vocation éducative, civique et ludique pour stimuler les actions socio-environnementales',
     ],
     partners: [
-      {name: 'Les Émulsionneurs', country: 'France', logo: `${P}/les-emulsionneurs.png`},
-      {name: 'Centre social et culturel Vent des Îles', country: 'France', logo: `${P}/vent-des-iles.png`},
-      {name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png`},
+      { name: 'Les Émulsionneurs', country: 'France', logo: `${P}/les-emulsionneurs.png` },
+      {
+        name: 'Centre social et culturel Vent des Îles',
+        country: 'France',
+        logo: `${P}/vent-des-iles.png`,
+      },
+      { name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png` },
     ],
     photos: [
       '/img/photos/projets/jeditrack/Image collée.png',
@@ -304,11 +340,11 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       'Supports documentaires pour enseignants et familles',
     ],
     partners: [
-      {name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png`},
-      {name: 'Ellinogermaniki Agogi', country: 'Grèce', logo: `${P}/ellinogermaniki.png`},
-      {name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png`},
-      {name: 'Ultralab S.L.', country: 'Espagne', logo: `${P}/ultralab.png`},
-      {name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png`},
+      { name: "Université d'Aix-Marseille", country: 'France', logo: `${P}/amu.png` },
+      { name: 'Ellinogermaniki Agogi', country: 'Grèce', logo: `${P}/ellinogermaniki.png` },
+      { name: 'La Scientothèque', country: 'Belgique', logo: `${P}/la-scientotheque.png` },
+      { name: 'Ultralab S.L.', country: 'Espagne', logo: `${P}/ultralab.png` },
+      { name: 'ZeUGMA OOD', country: 'Bulgarie', logo: `${P}/zeugma.png` },
     ],
     photos: [
       '/img/photos/projets/the-dexter-lab/Untitled.webp',
@@ -344,11 +380,19 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       '5 histoires de succès documentées avec témoignages et vidéos',
     ],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: 'Centre social et culturel Vent des Îles', country: 'France', logo: `${P}/vent-des-iles.png`},
-      {name: 'Associazione Perlatecnica', country: 'Italie', logo: `${P}/perlatecnica.jpg`},
-      {name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg`},
-      {name: 'Universitat Autònoma de Barcelona', country: 'Espagne', logo: `${P}/uab.png`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      {
+        name: 'Centre social et culturel Vent des Îles',
+        country: 'France',
+        logo: `${P}/vent-des-iles.png`,
+      },
+      { name: 'Associazione Perlatecnica', country: 'Italie', logo: `${P}/perlatecnica.jpg` },
+      { name: 'Digitale Wolven vzw', country: 'Belgique', logo: `${P}/digitale-wolven.svg` },
+      { name: 'Universitat Autònoma de Barcelona', country: 'Espagne', logo: `${P}/uab.png` },
     ],
     photos: [
       '/img/photos/projets/youth-ai-lab/1000016575.webp',
@@ -369,19 +413,28 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
     color: '#8a6e18',
     colorSecondary: '#8a6e18',
     colorAccent: '#8a6e18',
-    summary: "Expérimentation assistée par ordinateur avec la carte STeaM32 et des outils open source.",
+    summary:
+      'Expérimentation assistée par ordinateur avec la carte STeaM32 et des outils open source.',
     description:
       "En se basant sur la carte STeaM32 développée dans le cadre du PIA3, cette action fournit aux enseignants un ensemble de ressources pédagogiques intégrant de l'IoT pour mettre en œuvre une démarche d'ExAO (expérimentation assistée par ordinateur) en utilisant uniquement des outils open source. Les ressources s'adressent aussi bien aux élèves de spécialité en électronique qu'aux collégiens et lycéens en filière générale et technologique.",
     objectives: [
       "Fournir des ressources pédagogiques pour l'ExAO basées sur la carte STeaM32",
-      "Utiliser exclusivement des outils open source pour la démarche expérimentale",
-      "Adresser un public large : du collège au lycée, filières générales, technologiques et spécialité électronique",
+      'Utiliser exclusivement des outils open source pour la démarche expérimentale',
+      'Adresser un public large : du collège au lycée, filières générales, technologiques et spécialité électronique',
     ],
     results: [],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
-      {name: 'ST', country: 'France', logo: `${P}/st.svg`},
-      {name: "Campus des Métiers et des Qualifications Industrie du Futur", country: 'France', logo: `${P}/campus-industrie-futur.png`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+      { name: 'ST', country: 'France', logo: `${P}/st.svg` },
+      {
+        name: 'Campus des Métiers et des Qualifications Industrie du Futur',
+        country: 'France',
+        logo: `${P}/campus-industrie-futur.png`,
+      },
     ],
     photos: [
       '/img/photos/projets/inovmicro-exao/Image collée.png',
@@ -425,7 +478,11 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
       'Ampli audio 2x170W TAS3251',
     ],
     partners: [
-      {name: "Laboratoire d'Aix-périmentation et de Bidouille", country: 'France', logo: `${P}/lab.svg`},
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
     ],
     photos: [
       '/img/photos/projets/lab/22638228_4500_2_05.jpg',

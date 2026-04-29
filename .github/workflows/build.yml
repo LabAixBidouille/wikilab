@@ -1,0 +1,68 @@
+name: Build & lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Lint commit messages
+        if: github.event_name == 'pull_request'
+        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+      - name: Check formatting (Prettier)
+        run: npm run format:check
+
+      - name: Lint Markdown
+        run: npm run lint:md
+
+      - name: Spell check (non-blocking, voir issue de dette DX)
+        continue-on-error: true
+        run: npm run lint:spell
+
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - run: npm ci
+
+      # typecheck strict pas encore au vert (voir issue de dette DX) — non bloquant
+      - name: Typecheck (non-blocking)
+        continue-on-error: true
+        run: npm run typecheck
+
+      - run: npm run build

@@ -8,18 +8,18 @@ Catalogue de 184 fiches issues de projets éducatifs, créatifs et makers (progr
 
 ## Projets intégrés
 
-| Projet | Fiches | Couleur |
-|---|---:|---|
-| Let's STEAM | 15 | `#140e4e` |
-| Mimesis | 8 | `#09246C` |
-| Unplugged | 24 | `#0081A7` |
-| JediTrack | 15 (+ borne arcade) | `#1198f0` |
-| Robots Meet Arts | 29 | `#169da7` |
-| SteamCity | 25 + 9 prog | `#DD5350` |
-| The Dexter Lab | 20 + 13 prog | `#1a4a48` |
-| Youth AI Lab | 5 | `#b34520` |
-| I-Novmicro #2 | 1 | `#8a6e18` |
-| Projets du LAB | 20 | — |
+| Projet           |              Fiches | Couleur   |
+| ---------------- | ------------------: | --------- |
+| Let's STEAM      |                  15 | `#140e4e` |
+| Mimesis          |                   8 | `#09246C` |
+| Unplugged        |                  24 | `#0081A7` |
+| JediTrack        | 15 (+ borne arcade) | `#1198f0` |
+| Robots Meet Arts |                  29 | `#169da7` |
+| SteamCity        |         25 + 9 prog | `#DD5350` |
+| The Dexter Lab   |        20 + 13 prog | `#1a4a48` |
+| Youth AI Lab     |                   5 | `#b34520` |
+| I-Novmicro #2    |                   1 | `#8a6e18` |
+| Projets du LAB   |                  20 | —         |
 
 ## Architecture
 
@@ -39,12 +39,17 @@ Voir [`CLAUDE.md`](CLAUDE.md) pour les conventions de formatage, la structure de
 Prérequis : Node.js 20+.
 
 ```bash
+git clone https://github.com/LabAixBidouille/wikilab.git
+cd wikilab
+npm ci                # outillage racine (linters, hooks Git)
 cd site
-npm ci
-npm start              # serveur de dev sur http://localhost:3000
-npm run build          # build statique dans site/build/
-npm run serve          # sert le build localement
+npm ci                # Docusaurus
+npm start             # serveur de dev sur http://localhost:3000
+npm run build         # build statique dans site/build/
+npm run serve         # sert le build localement
 ```
+
+Le `npm ci` racine installe les hooks Git automatiquement (Conventional Commits, validation de branche, lint). Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) pour les commandes complètes.
 
 ## Déploiement
 
@@ -55,12 +60,9 @@ Le site est déployé automatiquement sur **GitHub Pages** via [`.github/workflo
 
 ## Contribution
 
-Les conventions complètes sont dans [`CLAUDE.md`](CLAUDE.md) (rédigé pour l'assistant IA Claude Code mais lisible pour tout contributeur). Points clés :
-
-- **Header de fiche** : flex layout avec icône SVG, badges, tableau, callout
-- **Callouts** : `:::tip` réservé aux ressources imprimables, `:::info` pour les conseils, `:::caution` pour les phases d'activité
-- **Images** : alignées à gauche par défaut, centrées si légende
-- **Catalogue** : chaque fiche a une entrée dans `site/src/data/resources.ts` avec disciplines, outils, âge, durée, catégories pédagogiques
+- **Comment contribuer** (workflow, branches, PR, checklists) : voir [`CONTRIBUTING.md`](CONTRIBUTING.md)
+- **Tests et vérifications** (build, typecheck, lint, CI) : voir [`TESTING.md`](TESTING.md)
+- **Conventions de formatage des fiches** (header, callouts, images, footer) : voir [`CLAUDE.md`](CLAUDE.md)
 
 ## Licence
 

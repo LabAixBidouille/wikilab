@@ -65,7 +65,7 @@
   display: none !important;
 }
 
-.alert--warning [class^="admonitionIcon"]::before {
+.alert--warning [class^='admonitionIcon']::before {
   content: '';
   display: inline-block;
   width: 1.4em;
@@ -85,7 +85,7 @@
   --ifm-alert-background-color: #f5edf9 !important;
   --ifm-alert-background-color-highlight: rgba(123, 63, 168, 0.15) !important;
   --ifm-alert-foreground-color: #5c2e7e !important;
-  --ifm-alert-border-color: #7B3FA8 !important;
+  --ifm-alert-border-color: #7b3fa8 !important;
 }
 
 [data-theme='dark'] .theme-admonition-question {
@@ -99,7 +99,7 @@
   display: none !important;
 }
 
-.theme-admonition-question [class^="admonitionIcon"]::before {
+.theme-admonition-question [class^='admonitionIcon']::before {
   content: '';
   display: inline-block;
   width: 1.4em;
@@ -133,7 +133,7 @@
   display: none !important;
 }
 
-.theme-admonition-hypothese [class^="admonitionIcon"]::before {
+.theme-admonition-hypothese [class^='admonitionIcon']::before {
   content: '';
   display: inline-block;
   width: 1.4em;
@@ -153,7 +153,7 @@
   display: none !important;
 }
 
-.alert--success [class^="admonitionIcon"]::before {
+.alert--success [class^='admonitionIcon']::before {
   content: '';
   display: inline-block;
   width: 1.4em;
@@ -221,7 +221,7 @@ article li,
 }
 
 .markdown table thead th {
-  background-color: #09246C;
+  background-color: #09246c;
   color: #fff !important;
   font-weight: 700;
 }
@@ -450,7 +450,9 @@ article > table:first-of-type {
   background: var(--ifm-background-surface-color, #fff);
   text-decoration: none !important;
   color: inherit !important;
-  transition: border-color 0.2s, border-bottom-color 0.2s;
+  transition:
+    border-color 0.2s,
+    border-bottom-color 0.2s;
   aspect-ratio: 1 / 1;
   border-bottom: 4px solid var(--ifm-color-emphasis-200);
   overflow: hidden;
@@ -552,7 +554,6 @@ article > table:first-of-type {
   padding: 2.5rem 0;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
-
 
 .wikilab-project-hero__inner {
   display: flex;
@@ -981,7 +982,7 @@ aside input[type='checkbox'] {
   margin: 0 0.5rem;
 }
 
-.navbar__item.navbar__link[href="/catalogue"] {
+.navbar__item.navbar__link[href='/catalogue'] {
   background-color: var(--wikilab-pink);
   color: #fff !important;
   border-radius: 20px;
@@ -989,7 +990,7 @@ aside input[type='checkbox'] {
   font-weight: 700;
 }
 
-.navbar__item.navbar__link[href="/catalogue"]:hover {
+.navbar__item.navbar__link[href='/catalogue']:hover {
   background-color: #d12f78;
 }
 
@@ -1011,7 +1012,7 @@ aside input[type='checkbox'] {
   margin-top: 2rem;
 }
 
-.footer__link-item[href*="/projets/"] {
+.footer__link-item[href*='/projets/'] {
   /* handled by parent column layout */
 }
 
@@ -1088,7 +1089,9 @@ aside input[type='checkbox'] {
   text-decoration: none;
   color: inherit;
   display: block;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
   cursor: pointer;
 }
 

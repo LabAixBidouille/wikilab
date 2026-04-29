@@ -1,0 +1,24 @@
+verbose = "info"
+no_progress = true
+max_concurrency = 8
+max_redirects = 5
+timeout = 30
+retry_wait_time = 2
+max_retries = 2
+accept = [200, 203, 206, 429]
+
+# Headers pour limiter les faux positifs
+include_verbatim = true
+include_mail = false
+
+# Domaines à exclure (robots.txt strict, accès anti-bot, login requis)
+exclude = [
+  "^https://(www\\.)?linkedin\\.com",
+  "^https://(www\\.)?facebook\\.com",
+  "^https://(www\\.)?instagram\\.com",
+  "^https://twitter\\.com",
+  "^https://x\\.com",
+  "^https://([a-z0-9-]+\\.)*github\\.com.*/blame/",
+  "^mailto:",
+  "^tel:",
+]

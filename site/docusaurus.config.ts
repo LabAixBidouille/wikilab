@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -9,7 +9,12 @@ const config: Config = {
   headTags: [
     {
       tagName: 'link',
-      attributes: {rel: 'icon', type: 'image/png', sizes: '192x192', href: '/img/favicon-192.png'},
+      attributes: {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        href: '/img/favicon-192.png',
+      },
     },
   ],
 
@@ -124,10 +129,10 @@ const config: Config = {
         {
           title: 'Navigation',
           items: [
-            {label: 'À propos', to: '/about'},
-            {label: 'Nos actions', to: '/projets'},
-            {label: 'Catalogue des ressources', to: '/catalogue'},
-            {label: 'Nos machines', to: '/machines'},
+            { label: 'À propos', to: '/about' },
+            { label: 'Nos actions', to: '/projets' },
+            { label: 'Catalogue des ressources', to: '/catalogue' },
+            { label: 'Nos machines', to: '/machines' },
           ],
         },
         {
@@ -146,16 +151,16 @@ const config: Config = {
         {
           title: 'Nos actions',
           items: [
-            {label: 'Projets du LAB', to: '/projets/projets-du-lab'},
-            {label: "Let's STEAM", to: '/projets/lets-steam'},
-            {label: 'Mimesis', to: '/projets/mimesis'},
-            {label: 'Robots Meet Arts', to: '/projets/robots-meet-arts'},
-            {label: 'SteamCity', to: '/projets/steamcity'},
-            {label: 'Unplugged', to: '/projets/unplugged'},
-            {label: 'The Dexter Lab', to: '/projets/the-dexter-lab'},
-            {label: 'JediTrack', to: '/projets/jeditrack'},
-            {label: 'Youth AI Lab', to: '/projets/youth-ai-lab'},
-            {label: 'I-Novmicro #2', to: '/projets/inovmicro-exao'},
+            { label: 'Projets du LAB', to: '/projets/projets-du-lab' },
+            { label: "Let's STEAM", to: '/projets/lets-steam' },
+            { label: 'Mimesis', to: '/projets/mimesis' },
+            { label: 'Robots Meet Arts', to: '/projets/robots-meet-arts' },
+            { label: 'SteamCity', to: '/projets/steamcity' },
+            { label: 'Unplugged', to: '/projets/unplugged' },
+            { label: 'The Dexter Lab', to: '/projets/the-dexter-lab' },
+            { label: 'JediTrack', to: '/projets/jeditrack' },
+            { label: 'Youth AI Lab', to: '/projets/youth-ai-lab' },
+            { label: 'I-Novmicro #2', to: '/projets/inovmicro-exao' },
           ],
         },
       ],

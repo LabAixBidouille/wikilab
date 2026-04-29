@@ -1,11 +1,6 @@
-import React, {useMemo, useState} from 'react';
+import React, { useMemo, useState } from 'react';
 import Layout from '@theme/Layout';
-import {
-  machines,
-  categoryLabels,
-  type MachineCategory,
-  type Machine,
-} from '../data/machines';
+import { machines, categoryLabels, type MachineCategory, type Machine } from '../data/machines';
 
 function toggle(set: Set<MachineCategory>, value: MachineCategory): Set<MachineCategory> {
   const next = new Set(set);
@@ -26,9 +21,7 @@ export default function Machines(): React.ReactElement {
     if (query.trim()) {
       const q = query.toLowerCase();
       list = list.filter(
-        (m) =>
-          m.name.toLowerCase().includes(q) ||
-          m.description.toLowerCase().includes(q),
+        (m) => m.name.toLowerCase().includes(q) || m.description.toLowerCase().includes(q),
       );
     }
     return list;
@@ -40,32 +33,31 @@ export default function Machines(): React.ReactElement {
   };
 
   return (
-    <Layout
-      title="Nos machines"
-      description="Les machines et outils du fablab du L.A.B"
-    >
+    <Layout title="Nos machines" description="Les machines et outils du fablab du L.A.B">
       <main className="container margin-vert--lg">
         <h1>Nos machines</h1>
         <p>
-          Le fablab du L.A.B met à disposition de ses membres un ensemble
-          de machines et outils pour expérimenter, prototyper et fabriquer.
+          Le fablab du L.A.B met à disposition de ses membres un ensemble de machines et outils pour
+          expérimenter, prototyper et fabriquer.
         </p>
 
         <div className="wikilab-machines-layout">
           <aside>
-            <div className="card" style={{padding: '1rem'}}>
+            <div className="card" style={{ padding: '1rem' }}>
               <input
                 type="search"
                 placeholder="Rechercher une machine…"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                style={{width: '100%', padding: '0.5rem', marginBottom: '1rem'}}
+                style={{ width: '100%', padding: '0.5rem', marginBottom: '1rem' }}
               />
 
-              <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
-                <legend><strong>Catégorie</strong></legend>
+              <fieldset style={{ border: 'none', padding: 0, marginBottom: '1rem' }}>
+                <legend>
+                  <strong>Catégorie</strong>
+                </legend>
                 {(Object.keys(categoryLabels) as MachineCategory[]).map((cat) => (
-                  <label key={cat} style={{display: 'block'}}>
+                  <label key={cat} style={{ display: 'block' }}>
                     <input
                       type="checkbox"
                       checked={categories.has(cat)}
@@ -95,12 +87,16 @@ export default function Machines(): React.ReactElement {
             <div className="wikilab-machines-grid">
               {results.map((m) => {
                 const CardWrapper = m.docPath
-                  ? ({children}: {children: React.ReactNode}) => (
-                      <a href={m.docPath} className="card wikilab-machine-card wikilab-machine-card--link" key={m.id}>
+                  ? ({ children }: { children: React.ReactNode }) => (
+                      <a
+                        href={m.docPath}
+                        className="card wikilab-machine-card wikilab-machine-card--link"
+                        key={m.id}
+                      >
                         {children}
                       </a>
                     )
-                  : ({children}: {children: React.ReactNode}) => (
+                  : ({ children }: { children: React.ReactNode }) => (
                       <div className="card wikilab-machine-card" key={m.id}>
                         {children}
                       </div>
@@ -108,15 +104,17 @@ export default function Machines(): React.ReactElement {
                 return (
                   <CardWrapper key={m.id}>
                     {m.photo && (
-                      <img
-                        src={m.photo}
-                        alt={m.name}
-                        className="wikilab-machine-card__photo"
-                      />
+                      <img src={m.photo} alt={m.name} className="wikilab-machine-card__photo" />
                     )}
                     <div className="wikilab-machine-card__content">
                       {m.categories.map((c) => (
-                        <span key={c} className="badge badge--success" style={{marginRight: '0.25rem'}}>{categoryLabels[c]}</span>
+                        <span
+                          key={c}
+                          className="badge badge--success"
+                          style={{ marginRight: '0.25rem' }}
+                        >
+                          {categoryLabels[c]}
+                        </span>
                       ))}
                       <h3>{m.name}</h3>
                       <p>{m.description}</p>
@@ -128,7 +126,9 @@ export default function Machines(): React.ReactElement {
                         </ul>
                       )}
                       <div className="wikilab-machine-card__footer">
-                        <span className={`wikilab-machine-card__status ${m.available ? 'wikilab-machine-card__status--ok' : 'wikilab-machine-card__status--off'}`}>
+                        <span
+                          className={`wikilab-machine-card__status ${m.available ? 'wikilab-machine-card__status--ok' : 'wikilab-machine-card__status--off'}`}
+                        >
                           {m.available ? 'Disponible' : 'Indisponible'}
                         </span>
                         {m.docPath && (

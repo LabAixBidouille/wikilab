@@ -1,7 +1,7 @@
-import React, {useMemo} from 'react';
+import React, { useMemo } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import {type ProjectInfo} from '../../data/projects';
+import { type ProjectInfo } from '../../data/projects';
 import {
   resources,
   disciplineLabels,
@@ -11,7 +11,7 @@ import {
   type Resource,
 } from '../../data/resources';
 
-export default function ProjectPage({project}: {project: ProjectInfo}): React.ReactElement {
+export default function ProjectPage({ project }: { project: ProjectInfo }): React.ReactElement {
   const projectResources = useMemo<Resource[]>(
     () => resources.filter((r) => r.project === project.id),
     [project.id],
@@ -26,22 +26,24 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
     <Layout title={project.name} description={project.summary}>
       <header
         className={`wikilab-project-hero${project.headerLight ? ' wikilab-project-hero--light' : ''}`}
-        style={{
-          ...(project.header
-            ? {backgroundImage: `url(${project.header})`, backgroundSize: 'cover', backgroundPosition: 'center'}
-            : {backgroundColor: project.color}),
-          '--project-color-accent': project.colorAccent,
-          '--project-color-logo-border': project.colorLogoBorder || project.colorAccent,
-        } as React.CSSProperties}
+        style={
+          {
+            ...(project.header
+              ? {
+                  backgroundImage: `url(${project.header})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }
+              : { backgroundColor: project.color }),
+            '--project-color-accent': project.colorAccent,
+            '--project-color-logo-border': project.colorLogoBorder || project.colorAccent,
+          } as React.CSSProperties
+        }
       >
         <div className="container">
           <div className="wikilab-project-hero__inner">
             {project.logo && (
-              <img
-                src={project.logo}
-                alt={project.name}
-                className="wikilab-project-hero__logo"
-              />
+              <img src={project.logo} alt={project.name} className="wikilab-project-hero__logo" />
             )}
             <div>
               <h1 className="wikilab-project-hero__title">{project.name}</h1>
@@ -61,46 +63,43 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
         </div>
       </header>
 
-      <main className="container margin-vert--lg" style={{
-        '--project-color': project.color,
-        '--project-color-secondary': project.colorSecondary,
-        '--project-color-accent': project.colorAccent,
-      } as React.CSSProperties}>
+      <main
+        className="container margin-vert--lg"
+        style={
+          {
+            '--project-color': project.color,
+            '--project-color-secondary': project.colorSecondary,
+            '--project-color-accent': project.colorAccent,
+          } as React.CSSProperties
+        }
+      >
         {/* ── En bref ── */}
-        {project.id !== 'projets-du-lab' && <section className="wikilab-project-stats">
-          <div className="wikilab-project-stat">
-            <span className="wikilab-project-stat__value">
-              {project.partners.length}
-            </span>
-            <span className="wikilab-project-stat__label">
-              partenaire{project.partners.length > 1 ? 's' : ''}
-            </span>
-          </div>
-          <div className="wikilab-project-stat">
-            <span className="wikilab-project-stat__value">
-              {countries}
-            </span>
-            <span className="wikilab-project-stat__label">
-              pay{countries > 1 ? 's' : 's'}
-            </span>
-          </div>
-          {project.duration && (
+        {project.id !== 'projets-du-lab' && (
+          <section className="wikilab-project-stats">
             <div className="wikilab-project-stat">
-              <span className="wikilab-project-stat__value">
-                {project.duration}
+              <span className="wikilab-project-stat__value">{project.partners.length}</span>
+              <span className="wikilab-project-stat__label">
+                partenaire{project.partners.length > 1 ? 's' : ''}
               </span>
-              <span className="wikilab-project-stat__label">période</span>
             </div>
-          )}
-          <div className="wikilab-project-stat">
-            <span className="wikilab-project-stat__value">
-              {projectResources.length}
-            </span>
-            <span className="wikilab-project-stat__label">
-              ressource{projectResources.length > 1 ? 's' : ''} dispo
-            </span>
-          </div>
-        </section>}
+            <div className="wikilab-project-stat">
+              <span className="wikilab-project-stat__value">{countries}</span>
+              <span className="wikilab-project-stat__label">pay{countries > 1 ? 's' : 's'}</span>
+            </div>
+            {project.duration && (
+              <div className="wikilab-project-stat">
+                <span className="wikilab-project-stat__value">{project.duration}</span>
+                <span className="wikilab-project-stat__label">période</span>
+              </div>
+            )}
+            <div className="wikilab-project-stat">
+              <span className="wikilab-project-stat__value">{projectResources.length}</span>
+              <span className="wikilab-project-stat__label">
+                ressource{projectResources.length > 1 ? 's' : ''} dispo
+              </span>
+            </div>
+          </section>
+        )}
 
         {/* ── Présentation ── */}
         <section className="wikilab-project-section">
@@ -147,7 +146,12 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
 
         {/* ── Photos ── */}
         {project.photos && project.photos.length > 0 && (
-          <div className={`wikilab-gallery${project.photos.length === 1 ? ' wikilab-gallery--1' : project.photos.length === 2 ? ' wikilab-gallery--2' : ' wikilab-gallery--3'}`} style={project.photos.length > 4 ? {gridTemplateColumns: 'repeat(3, 1fr)'} : undefined}>
+          <div
+            className={`wikilab-gallery${project.photos.length === 1 ? ' wikilab-gallery--1' : project.photos.length === 2 ? ' wikilab-gallery--2' : ' wikilab-gallery--3'}`}
+            style={
+              project.photos.length > 4 ? { gridTemplateColumns: 'repeat(3, 1fr)' } : undefined
+            }
+          >
             {project.photos.map((photo, i) => (
               <img key={i} src={photo} alt={`${project.name}`} />
             ))}
@@ -162,15 +166,9 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
               {project.partners.map((p) => (
                 <div key={p.name} className="wikilab-partner-card">
                   {p.logo ? (
-                    <img
-                      src={p.logo}
-                      alt={p.name}
-                      className="wikilab-partner-card__logo"
-                    />
+                    <img src={p.logo} alt={p.name} className="wikilab-partner-card__logo" />
                   ) : (
-                    <div className="wikilab-partner-card__placeholder">
-                      {p.name.charAt(0)}
-                    </div>
+                    <div className="wikilab-partner-card__placeholder">{p.name.charAt(0)}</div>
                   )}
                   <div className="wikilab-partner-card__info">
                     <strong>
@@ -182,9 +180,7 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
                         p.name
                       )}
                     </strong>
-                    <span className="wikilab-partner-card__country">
-                      {p.country}
-                    </span>
+                    <span className="wikilab-partner-card__country">{p.country}</span>
                   </div>
                 </div>
               ))}
@@ -206,20 +202,28 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
           ) : (
             <div className="wikilab-project-resources">
               {projectResources.map((r) => (
-                <Link
-                  key={r.id}
-                  to={r.slug}
-                  className="card wikilab-project-resource-card"
-                >
-                  <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem'}}>
+                <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
+                  <div
+                    style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '0.75rem',
+                      marginBottom: '0.5rem',
+                    }}
+                  >
                     {r.thumbnail && (
                       <img
                         src={r.thumbnail}
                         alt=""
-                        style={{width: '45px', height: '45px', objectFit: 'contain', flexShrink: 0}}
+                        style={{
+                          width: '45px',
+                          height: '45px',
+                          objectFit: 'contain',
+                          flexShrink: 0,
+                        }}
                       />
                     )}
-                    <h3 style={{margin: 0}}>{r.title}</h3>
+                    <h3 style={{ margin: 0 }}>{r.title}</h3>
                   </div>
                   <p>{r.summary}</p>
                   <div className="wikilab-project-resource-card__meta">
@@ -248,18 +252,23 @@ export default function ProjectPage({project}: {project: ProjectInfo}): React.Re
             </div>
           )}
 
-          <div style={{marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap'}}>
+          <div
+            style={{
+              marginTop: '2rem',
+              display: 'flex',
+              gap: '1rem',
+              justifyContent: 'center',
+              flexWrap: 'wrap',
+            }}
+          >
             <Link
               to={`/catalogue?projet=${project.id}`}
               className="button wikilab-project-btn-catalogue"
-              style={{backgroundColor: project.color, borderColor: project.color}}
+              style={{ backgroundColor: project.color, borderColor: project.color }}
             >
               Voir dans le catalogue
             </Link>
-            <Link
-              to="/"
-              className="button wikilab-project-btn-home"
-            >
+            <Link to="/" className="button wikilab-project-btn-home">
               Retour à la page d'accueil
             </Link>
           </div>

@@ -1,0 +1,17 @@
+node_modules
+site/build
+site/.docusaurus
+site/.cache-loader
+site/static/pdf
+site/static/img
+site/docs
+site/machines
+site/**/*.js
+markdown
+projets
+*.min.js
+*.min.css
+package-lock.json
+titles-backup.md
+analyse-categories.md
+demandes-photos.md

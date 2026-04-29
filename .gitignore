@@ -6,6 +6,14 @@ site/.cache-loader/
 .env*
 *.log
 
+# Artefacts de compilation TypeScript (tsc) — le projet utilise .ts/.tsx en source
+site/**/*.js
+
+# Caches outillage racine
+.cache/
+.lychee/
+.cspell-cache
+
 # Sources PDF non-compressées (projets/) — les versions compressées sont dans site/static/pdf/
 projets/unplugged/Unplugged_Vivre en harmonie_FR.pdf
 projets/unplugged/Unplugged_Potluck March_FR.pdf

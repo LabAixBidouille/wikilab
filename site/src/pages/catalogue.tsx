@@ -1,4 +1,4 @@
-import React, {useMemo, useState} from 'react';
+import React, { useMemo, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Fuse from 'fuse.js';
@@ -70,10 +70,7 @@ const INITIAL_FILTERS: Filters = {
 
 // Labels catégories sans emoji (pour le filtre)
 const categoryFilterLabels = Object.fromEntries(
-  Object.entries(categoryLabels).map(([k, v]) => [
-    k,
-    v.replace(/^\S+\s+/, ''),
-  ]),
+  Object.entries(categoryLabels).map(([k, v]) => [k, v.replace(/^\S+\s+/, '')]),
 ) as Record<Category, string>;
 
 // Ordre pédagogique d'affichage des catégories
@@ -113,15 +110,13 @@ function FilterGroup<T extends string>({
 }) {
   const keys = order ?? (Object.keys(labels) as T[]);
   return (
-    <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
-      <legend><strong>{legend}</strong></legend>
+    <fieldset style={{ border: 'none', padding: 0, marginBottom: '1rem' }}>
+      <legend>
+        <strong>{legend}</strong>
+      </legend>
       {keys.map((key) => (
-        <label key={key} style={{display: 'block'}}>
-          <input
-            type="checkbox"
-            checked={selected.has(key)}
-            onChange={() => onToggle(key)}
-          />{' '}
+        <label key={key} style={{ display: 'block' }}>
+          <input type="checkbox" checked={selected.has(key)} onChange={() => onToggle(key)} />{' '}
           {labels[key]}
         </label>
       ))}
@@ -129,7 +124,7 @@ function FilterGroup<T extends string>({
   );
 }
 
-function ResourceCard({r}: {r: Resource}) {
+function ResourceCard({ r }: { r: Resource }) {
   return (
     <Link
       to={r.slug}
@@ -143,7 +138,7 @@ function ResourceCard({r}: {r: Resource}) {
         flexDirection: 'column',
       }}
     >
-      <div style={{display: 'flex', alignItems: 'center', gap: '0.75rem'}}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
         {r.thumbnail && (
           <img
             src={r.thumbnail}
@@ -166,15 +161,14 @@ function ResourceCard({r}: {r: Resource}) {
           >
             {projectLabels[r.project]}
           </div>
-          <h3 style={{marginTop: '0.15rem', marginBottom: 0}}>{r.title}</h3>
+          <h3 style={{ marginTop: '0.15rem', marginBottom: 0 }}>{r.title}</h3>
         </div>
       </div>
-      <p style={{fontSize: '0.9rem', marginTop: '0.75rem'}}>{r.summary}</p>
-      <div style={{fontSize: '0.8rem', opacity: 0.8, marginTop: 'auto'}}>
-        {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}
-        {difficultyLabels[r.difficulty]}
+      <p style={{ fontSize: '0.9rem', marginTop: '0.75rem' }}>{r.summary}</p>
+      <div style={{ fontSize: '0.8rem', opacity: 0.8, marginTop: 'auto' }}>
+        {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min · {difficultyLabels[r.difficulty]}
       </div>
-      <div style={{marginTop: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.25rem'}}>
+      <div style={{ marginTop: '0.5rem', display: 'flex', flexWrap: 'wrap', gap: '0.25rem' }}>
         {r.categories.map((c) => (
           <span
             key={c}
@@ -221,38 +215,16 @@ export default function Catalogue(): React.ReactElement {
       : resources;
 
     return list.filter((r) => {
-      if (
-        filters.categories.size > 0 &&
-        !r.categories.some((c) => filters.categories.has(c))
-      )
+      if (filters.categories.size > 0 && !r.categories.some((c) => filters.categories.has(c)))
         return false;
-      if (filters.projects.size > 0 && !filters.projects.has(r.project))
+      if (filters.projects.size > 0 && !filters.projects.has(r.project)) return false;
+      if (filters.disciplines.size > 0 && !r.disciplines.some((d) => filters.disciplines.has(d)))
         return false;
-      if (
-        filters.disciplines.size > 0 &&
-        !r.disciplines.some((d) => filters.disciplines.has(d))
-      )
+      if (filters.tools.size > 0 && !r.tools.some((t) => filters.tools.has(t))) return false;
+      if (filters.software.size > 0 && !r.software.some((s) => filters.software.has(s)))
         return false;
-      if (
-        filters.tools.size > 0 &&
-        !r.tools.some((t) => filters.tools.has(t))
-      )
-        return false;
-      if (
-        filters.software.size > 0 &&
-        !r.software.some((s) => filters.software.has(s))
-      )
-        return false;
-      if (
-        filters.autreOnly &&
-        r.tools.some((t) => REAL_TOOLS.includes(t))
-      )
-        return false;
-      if (
-        filters.difficulties.size > 0 &&
-        !filters.difficulties.has(r.difficulty)
-      )
-        return false;
+      if (filters.autreOnly && r.tools.some((t) => REAL_TOOLS.includes(t))) return false;
+      if (filters.difficulties.size > 0 && !filters.difficulties.has(r.difficulty)) return false;
       if (r.ageMax < filters.ageMin || r.ageMin > filters.ageMax) return false;
       if (r.durationMinutes > filters.maxDuration) return false;
       return true;
@@ -262,9 +234,7 @@ export default function Catalogue(): React.ReactElement {
   // Groupement par catégorie uniquement quand un filtre catégorie est actif
   const grouped = useMemo(() => {
     if (filters.categories.size === 0) return null;
-    const visibleCategories = CATEGORY_ORDER.filter((c) =>
-      filters.categories.has(c),
-    );
+    const visibleCategories = CATEGORY_ORDER.filter((c) => filters.categories.has(c));
     return visibleCategories
       .map((cat) => ({
         category: cat,
@@ -273,9 +243,7 @@ export default function Catalogue(): React.ReactElement {
       .filter((g) => g.items.length > 0);
   }, [results, filters.categories]);
 
-  const totalDisplayed = grouped
-    ? grouped.reduce((n, g) => n + g.items.length, 0)
-    : results.length;
+  const totalDisplayed = grouped ? grouped.reduce((n, g) => n + g.items.length, 0) : results.length;
   const uniqueCount = results.length;
 
   const reset = () => setFilters(INITIAL_FILTERS);
@@ -288,10 +256,9 @@ export default function Catalogue(): React.ReactElement {
       <main className="container margin-vert--lg">
         <h1>Catalogue des ressources</h1>
         <p>
-          Parcourez les fiches d'activité par approche pédagogique. Utilisez
-          les filtres pour affiner par projet, discipline, outil, âge, durée
-          ou mot-clé. Chaque fiche apparaît dans toutes les catégories qui la
-          concernent.
+          Parcourez les fiches d'activité par approche pédagogique. Utilisez les filtres pour
+          affiner par projet, discipline, outil, âge, durée ou mot-clé. Chaque fiche apparaît dans
+          toutes les catégories qui la concernent.
         </p>
 
         <div
@@ -303,14 +270,12 @@ export default function Catalogue(): React.ReactElement {
           }}
         >
           <aside>
-            <div className="card" style={{padding: '1rem'}}>
+            <div className="card" style={{ padding: '1rem' }}>
               <input
                 type="search"
                 placeholder="Rechercher un mot-clé…"
                 value={filters.query}
-                onChange={(e) =>
-                  setFilters({...filters, query: e.target.value})
-                }
+                onChange={(e) => setFilters({ ...filters, query: e.target.value })}
                 style={{
                   width: '100%',
                   padding: '0.5rem',
@@ -343,10 +308,12 @@ export default function Catalogue(): React.ReactElement {
                 }
               />
 
-              <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
-                <legend><strong>Matériel</strong></legend>
+              <fieldset style={{ border: 'none', padding: 0, marginBottom: '1rem' }}>
+                <legend>
+                  <strong>Matériel</strong>
+                </legend>
                 {REAL_TOOLS.map((key) => (
-                  <label key={key} style={{display: 'block'}}>
+                  <label key={key} style={{ display: 'block' }}>
                     <input
                       type="checkbox"
                       checked={filters.tools.has(key)}
@@ -360,13 +327,11 @@ export default function Catalogue(): React.ReactElement {
                     {toolLabels[key]}
                   </label>
                 ))}
-                <label style={{display: 'block'}}>
+                <label style={{ display: 'block' }}>
                   <input
                     type="checkbox"
                     checked={filters.autreOnly}
-                    onChange={() =>
-                      setFilters({...filters, autreOnly: !filters.autreOnly})
-                    }
+                    onChange={() => setFilters({ ...filters, autreOnly: !filters.autreOnly })}
                   />{' '}
                   Autre
                 </label>
@@ -376,9 +341,7 @@ export default function Catalogue(): React.ReactElement {
                 legend="Outils informatiques"
                 labels={softwareLabels}
                 selected={filters.software}
-                onToggle={(v) =>
-                  setFilters({...filters, software: toggle(filters.software, v)})
-                }
+                onToggle={(v) => setFilters({ ...filters, software: toggle(filters.software, v) })}
               />
 
               <FilterGroup
@@ -397,12 +360,10 @@ export default function Catalogue(): React.ReactElement {
                 legend="Projet"
                 labels={projectLabels}
                 selected={filters.projects}
-                onToggle={(v) =>
-                  setFilters({...filters, projects: toggle(filters.projects, v)})
-                }
+                onToggle={(v) => setFilters({ ...filters, projects: toggle(filters.projects, v) })}
               />
 
-              <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
+              <fieldset style={{ border: 'none', padding: 0, marginBottom: '1rem' }}>
                 <legend>
                   <strong>Âge</strong> : {filters.ageMin}–{filters.ageMax} ans
                 </legend>
@@ -416,10 +377,7 @@ export default function Catalogue(): React.ReactElement {
                     onChange={(e) =>
                       setFilters({
                         ...filters,
-                        ageMin: Math.min(
-                          Number(e.target.value),
-                          filters.ageMax,
-                        ),
+                        ageMin: Math.min(Number(e.target.value), filters.ageMax),
                       })
                     }
                   />
@@ -434,17 +392,14 @@ export default function Catalogue(): React.ReactElement {
                     onChange={(e) =>
                       setFilters({
                         ...filters,
-                        ageMax: Math.max(
-                          Number(e.target.value),
-                          filters.ageMin,
-                        ),
+                        ageMax: Math.max(Number(e.target.value), filters.ageMin),
                       })
                     }
                   />
                 </label>
               </fieldset>
 
-              <fieldset style={{border: 'none', padding: 0, marginBottom: '1rem'}}>
+              <fieldset style={{ border: 'none', padding: 0, marginBottom: '1rem' }}>
                 <legend>
                   <strong>Durée max</strong> : {filters.maxDuration} min
                 </legend>
@@ -460,7 +415,7 @@ export default function Catalogue(): React.ReactElement {
                       maxDuration: Number(e.target.value),
                     })
                   }
-                  style={{width: '100%'}}
+                  style={{ width: '100%' }}
                 />
               </fieldset>
 
@@ -476,26 +431,26 @@ export default function Catalogue(): React.ReactElement {
 
           <section>
             <p>
-              <strong>{uniqueCount}</strong> fiche{uniqueCount > 1 ? 's' : ''}
-              {' '}trouvée{uniqueCount > 1 ? 's' : ''}
+              <strong>{uniqueCount}</strong> fiche{uniqueCount > 1 ? 's' : ''} trouvée
+              {uniqueCount > 1 ? 's' : ''}
               {totalDisplayed !== uniqueCount && (
-                <span style={{opacity: 0.7}}>
+                <span style={{ opacity: 0.7 }}>
                   {' '}
-                  · {totalDisplayed} affichages au total (certaines fiches
-                  apparaissent dans plusieurs catégories)
+                  · {totalDisplayed} affichages au total (certaines fiches apparaissent dans
+                  plusieurs catégories)
                 </span>
               )}
             </p>
 
             {results.length === 0 && (
-              <p style={{opacity: 0.7, fontStyle: 'italic'}}>
+              <p style={{ opacity: 0.7, fontStyle: 'italic' }}>
                 Aucune ressource ne correspond à ces filtres.
               </p>
             )}
 
             {grouped ? (
-              grouped.map(({category, items}) => (
-                <section key={category} style={{marginBottom: '2.5rem'}}>
+              grouped.map(({ category, items }) => (
+                <section key={category} style={{ marginBottom: '2.5rem' }}>
                   <h2
                     style={{
                       borderBottom: '2px solid var(--ifm-color-emphasis-300)',

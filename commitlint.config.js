@@ -1,0 +1,31 @@
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'subject-case': [0],
+    'scope-enum': [
+      1,
+      'always',
+      [
+        'wip',
+        'configs',
+        'formatting',
+        'code',
+        'ci',
+        'docs',
+        'catalogue',
+        'lets-steam',
+        'mimesis',
+        'unplugged',
+        'jeditrack',
+        'robots-meet-arts',
+        'steamcity',
+        'thedexterlab',
+        'youth-ai-lab',
+        'inovmicro-exao',
+        'projets-du-lab',
+        'machines',
+      ],
+    ],
+    'body-max-line-length': [1, 'always', 100],
+  },
+};

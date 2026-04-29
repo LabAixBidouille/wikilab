@@ -1,5 +1,5 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
-import {resources, categoryLabels, type Category} from './src/data/resources';
+import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
+import { resources, categoryLabels, type Category } from './src/data/resources';
 
 // Ordre d'affichage des approches pédagogiques dans la sidebar
 const CATEGORY_ORDER: Category[] = [
@@ -32,10 +32,7 @@ const categorySections = CATEGORY_ORDER.map((cat) => {
 }).filter((section) => section.items.length > 0);
 
 const sidebars: SidebarsConfig = {
-  ressourcesSidebar: [
-    'intro',
-    ...categorySections,
-  ],
+  ressourcesSidebar: ['intro', ...categorySections],
 };
 
 export default sidebars;

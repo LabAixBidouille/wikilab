@@ -37,7 +37,8 @@ export const machines: Machine[] = [
     id: 'bambu-x1-carbon',
     name: 'Bambu Lab X1-Carbon',
     categories: ['impression-3d'],
-    description: 'Imprimante 3D FDM rapide avec AMS (changement automatique de filament multi-couleur).',
+    description:
+      'Imprimante 3D FDM rapide avec AMS (changement automatique de filament multi-couleur).',
     specs: ['Volume : 256x256x256 mm', 'Multi-couleur avec AMS', 'FDM Core XY'],
     photo: `${MP}/PXL_20260420_084443907.jpg`,
     available: true,
@@ -97,7 +98,8 @@ export const machines: Machine[] = [
     id: 'omtech-laser',
     name: 'OMTech Laser CO2',
     categories: ['decoupe', 'gravure'],
-    description: 'Découpe et gravure laser CO2 pour bois, acrylique, carton, cuir et autres matériaux.',
+    description:
+      'Découpe et gravure laser CO2 pour bois, acrylique, carton, cuir et autres matériaux.',
     specs: ['Laser CO2', 'Grand plateau', 'Découpe et gravure'],
     photo: `${MP}/PXL_20260420_084512472.MP.jpg`,
     available: true,
@@ -137,7 +139,8 @@ export const machines: Machine[] = [
     id: 'silhouette-cameo-4',
     name: 'Silhouette Cameo 4',
     categories: ['decoupe'],
-    description: 'Découpe vinyle et matériaux souples, version améliorée avec plus de force de coupe.',
+    description:
+      'Découpe vinyle et matériaux souples, version améliorée avec plus de force de coupe.',
     specs: ['Largeur de coupe : 305 mm', 'Force de coupe : 5 kg', 'Découpe vinyle, carton, tissu'],
     photo: `${MP}/2329059278.jpg`,
     available: true,
@@ -167,7 +170,8 @@ export const machines: Machine[] = [
     id: 'station-soudure',
     name: 'Stations de soudure Yihua + Weller',
     categories: ['electronique'],
-    description: 'Station de soudure et pistolet à air chaud pour le prototypage de circuits électroniques.',
+    description:
+      'Station de soudure et pistolet à air chaud pour le prototypage de circuits électroniques.',
     specs: ['Yihua 959D II (soudure + air chaud)', 'Weller (soudure de précision)'],
     photo: `${MP}/PXL_20260420_085047621.jpg`,
     available: true,
