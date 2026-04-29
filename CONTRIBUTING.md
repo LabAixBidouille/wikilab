@@ -57,7 +57,9 @@ Depuis la racine du repo :
 
 ## Workflow de contribution
 
-1. **Créer une issue** décrivant le changement (sauf typo trivial).
+> **La branche `main` est protégée**. Toute modification — y compris correction de typo — passe obligatoirement par une issue et une PR. Cela vaut pour les contributeurs humains comme pour les **assistants IA** (Claude Code, Copilot, etc.) qui interviennent sur ce repo. Le push direct sur `main` est rejeté par GitHub. Voir [`CLAUDE.md`](CLAUDE.md) pour les instructions spécifiques aux assistants IA.
+
+1. **Créer une issue** décrivant le changement (sauf typo trivial — et encore, préférer une issue).
 2. **Créer une branche** depuis `main` au format conventionnel (voir ci-dessous).
 3. **Développer** en commitant régulièrement avec des messages aux Conventional Commits.
 4. **Vérifier localement** :
