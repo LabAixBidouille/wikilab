@@ -29,8 +29,13 @@ const config: Config = {
   organizationName: 'LabAixBidouille',
   projectName: 'wikilab',
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'throw',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
 
   i18n: {
     defaultLocale: 'fr',
