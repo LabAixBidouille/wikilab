@@ -997,7 +997,7 @@ aside input[type='checkbox'] {
 /* ── Footer ── */
 
 .footer--dark {
-  background-color: #1d2a54;
+  background-color: var(--wikilab-purple);
 }
 
 .footer__title {
