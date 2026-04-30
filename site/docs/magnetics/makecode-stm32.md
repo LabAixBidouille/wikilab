@@ -70,6 +70,9 @@ Pour réaliser cette activité nous avons besoin de **quatre cartes STM32 IoT No
 
 #### 1. Câbler l'écran OLED
 
+<div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '0.75rem 0'}}>
+<div style={{flex: '1 1 320px', minWidth: '280px'}}>
+
 Nous devons en premier lieu câbler l'écran OLED directement à la carte collectrice. Il y a deux façons de câbler l'écran **OLED SSD1306** à une carte, soit avec une connexion **I2C** ou **SPI**. Pour notre écran, nous utilisons la connexion I2C via le câble **QWIIC/STEMMA** avec la convention suivante :
 
 - **Noir** pour GND
@@ -77,7 +80,9 @@ Nous devons en premier lieu câbler l'écran OLED directement à la carte collec
 - **Bleu** pour SDA (D14)
 - **Jaune** pour SCL (D15)
 
-<img src="/img/ressources/magnetics/makecode-stm32/oled.png" alt="Câblage de l'écran OLED sur la carte collectrice" style={{maxWidth: '60%', height: 'auto', margin: '0.75rem 0'}} />
+</div>
+<img src="/img/ressources/magnetics/makecode-stm32/oled.png" alt="Câblage de l'écran OLED sur la carte collectrice" style={{flex: '0 1 280px', maxWidth: '280px', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
 #### 2. Connecter la carte à l'ordinateur
 

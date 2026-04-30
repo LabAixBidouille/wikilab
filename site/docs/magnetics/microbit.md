@@ -169,9 +169,10 @@ magnetics.setAdvertisingKeyValueData("Temp (°C)", input.temperature())
 })
 ```
 
-<img src="/img/ressources/magnetics/microbit/blocs-emettrice-temperature.png" alt="Blocs pour le code de la carte émettrice de la température" style={{maxWidth: '70%', height: 'auto', margin: '0.75rem 0'}} />
-
-<img src="/img/ressources/magnetics/microbit/exemple-editeur-bloc-emettrice-temperature.png" alt="Exemple de l'éditeur en mode bloc pour le code de la carte émettrice de la température" style={{maxWidth: '90%', height: 'auto', margin: '0.75rem 0'}} />
+<div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '0.75rem 0'}}>
+  <img src="/img/ressources/magnetics/microbit/blocs-emettrice-temperature.png" alt="Blocs pour le code de la carte émettrice de la température" style={{maxWidth: 'calc(50% - 0.75rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/magnetics/microbit/exemple-editeur-bloc-emettrice-temperature.png" alt="Exemple de l'éditeur en mode bloc pour le code de la carte émettrice de la température" style={{maxWidth: 'calc(50% - 0.75rem)', height: 'auto', alignSelf: 'flex-start'}} />
+</div>
 
 ### Code de la carte émettrice de l'intensité lumineuse
 
