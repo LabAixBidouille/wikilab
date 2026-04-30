@@ -1,0 +1,10 @@
+# Marquer les binaires pour que `git diff` n'essaie pas de les afficher en texte.
+# Évite l'overflow de stdout sur les hooks pre-commit (git-precommit-checks).
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.svg text
