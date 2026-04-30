@@ -36,6 +36,7 @@ const projectLogos: Record<Project, string> = {
   jeditrack: '/img/logos/jeditrack.png',
   thedexterlab: '/img/logos/the-dexter-lab.png',
   'youth-ai-lab': '/img/logos/youth-ai-lab.png',
+  magnetics: '/img/logos/magnetics.png',
   'inovmicro-exao': '/img/logos/exao.png',
   'projets-du-lab': '/img/logos/wikilab.svg',
 };
@@ -49,6 +50,7 @@ const projectRoutes: Record<Project, string> = {
   jeditrack: '/projets/jeditrack',
   thedexterlab: '/projets/the-dexter-lab',
   'youth-ai-lab': '/projets/youth-ai-lab',
+  magnetics: '/projets/magnetics',
   'inovmicro-exao': '/projets/inovmicro-exao',
   'projets-du-lab': '/projets/projets-du-lab',
 };

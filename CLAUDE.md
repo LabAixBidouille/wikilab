@@ -58,18 +58,19 @@ Refuser et expliquer la règle. Proposer le flux PR. Si l'humain insiste explici
 
 ## Projets intégrés
 
-| Projet           | Fiches                | Catalogue | Images      | PDFs                      | Couleur   |
-| ---------------- | --------------------- | --------- | ----------- | ------------------------- | --------- |
-| Let's STEAM      | 15                    | OK        | OK          | OK                        | `#140e4e` |
-| Mimesis          | 8                     | OK        | OK          | OK                        | `#09246C` |
-| Unplugged        | 24                    | OK        | OK          | Partiels (3 >50MB exclus) | `#0081A7` |
-| JediTrack        | 14 + 8 borne arcade   | OK        | OK          | Non                       | `#1198f0` |
-| Robots Meet Arts | 29                    | OK        | OK          | OK                        | `#169da7` |
-| SteamCity        | 25 + 9 fiches prog    | OK        | OK          | OK                        | `#DD5350` |
-| The Dexter Lab   | 20 + 13 fiches prog   | OK        | OK (icônes) | OK (feuilles travail)     | `#1a4a48` |
-| Youth AI Lab     | 6                     | OK        | OK          | OK                        | `#b34520` |
-| I-Novmicro #2    | 1 (Découverte STeaMi) | OK        | -           | -                         | `#8a6e18` |
-| Projets du LAB   | 20                    | OK        | Partiels    | -                         | -         |
+| Projet           | Fiches                            | Catalogue | Images                 | PDFs                      | Couleur   |
+| ---------------- | --------------------------------- | --------- | ---------------------- | ------------------------- | --------- |
+| Let's STEAM      | 15                                | OK        | OK                     | OK                        | `#140e4e` |
+| Mimesis          | 8                                 | OK        | OK                     | OK                        | `#09246C` |
+| Unplugged        | 24                                | OK        | OK                     | Partiels (3 >50MB exclus) | `#0081A7` |
+| JediTrack        | 14 + 8 borne arcade               | OK        | OK                     | Non                       | `#1198f0` |
+| Robots Meet Arts | 29                                | OK        | OK                     | OK                        | `#169da7` |
+| SteamCity        | 25 + 9 fiches prog                | OK        | OK                     | OK                        | `#DD5350` |
+| The Dexter Lab   | 20 + 13 fiches prog               | OK        | OK (icônes)            | OK (feuilles travail)     | `#1a4a48` |
+| Youth AI Lab     | 6                                 | OK        | OK                     | OK                        | `#b34520` |
+| Magnetics        | 3 (micro:bit, STM32, MicroPython) | OK        | OK (icônes + captures) | OK (guide + 3 fiches)     | `#094869` |
+| I-Novmicro #2    | 1 (Découverte STeaMi)             | OK        | -                      | -                         | `#8a6e18` |
+| Projets du LAB   | 20                                | OK        | Partiels               | -                         | -         |
 
 > **Initiative en cours** : I-Novmicro #2 va recevoir 22+ fiches dans le cadre de l'intégration STeaMi/MicroPython (15 fiches portées de Let's STEAM + 7 fiches enseignants). Voir EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2) (phase 1) et [#30](https://github.com/LabAixBidouille/wikilab/issues/30) (phase 2 — autres projets).
 

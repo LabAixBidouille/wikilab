@@ -6,6 +6,7 @@ import {projectsInfo, type ProjectInfo} from '../../data/projects';
 const projectOrder = [
   'projets-du-lab',
   'lets-steam',
+  'magnetics',
   'unplugged',
   'thedexterlab',
   'mimesis',

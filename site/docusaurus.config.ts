@@ -165,6 +165,7 @@ const config: Config = {
             { label: 'The Dexter Lab', to: '/projets/the-dexter-lab' },
             { label: 'JediTrack', to: '/projets/jeditrack' },
             { label: 'Youth AI Lab', to: '/projets/youth-ai-lab' },
+            { label: 'Magnetics', to: '/projets/magnetics' },
             { label: 'I-Novmicro #2', to: '/projets/inovmicro-exao' },
           ],
         },
