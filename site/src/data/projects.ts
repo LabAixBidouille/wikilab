@@ -27,6 +27,7 @@ export interface ProjectInfo {
   funding: string;
   duration?: string;
   projectNumber?: string;
+  guidePdf?: string;
 }
 
 const P = '/img/logos/partenaires';
@@ -405,6 +406,44 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
     funding: 'Erasmus+ KA220 — Partenariat de coopération',
     duration: '2025–2028',
     projectNumber: '2025-1-FR02-KA220-YOU-000357192',
+  },
+  magnetics: {
+    id: 'magnetics',
+    name: 'Magnetics',
+    logo: '/img/logos/magnetics.png',
+    color: '#094869',
+    colorSecondary: '#dd5350',
+    colorAccent: '#027189',
+    colorLogoBorder: '#f05558',
+    summary:
+      'Maillage numérique BLE Mesh entre cartes programmables (micro:bit, STM32, Raspberry Pi).',
+    description:
+      "Financé par le dispositif Edu-up, Magnetics a duré 2 ans, entre novembre 2020 et décembre 2022 avec pour objectif de construire une brique logicielle permettant de créer un maillage numérique dédié à la programmation à l'école. Au travers de Magnetics, l'équipe du L.A.B souhaite participer à la promotion des outils numériques et de la programmation dans les classes au service d'une pédagogie active et innovante dédiée à l'enseignement interdisciplinaire et créatif des STEAM (Sciences, Technologies, Ingénierie, Arts, Mathématiques).",
+    objectives: [
+      "Utiliser la programmation au service de l'apprentissage STEAM dans le secondaire",
+      "Faciliter l'utilisation des outils numériques éducatifs entre disciplines",
+      'Promouvoir une pédagogie active et la curiosité dans les STEAM',
+      'Développer un prototype de maillage numérique interconnectant Scratch, MakeCode et CircuitPython',
+    ],
+    results: [
+      'Brique logicielle de maillage numérique compatible Bluetooth Low Energy Mesh (BLE Mesh)',
+      'Extension Magnetics pour MakeCode (micro:bit et STM32 IoT Node)',
+      'Bibliothèque MicroPython compatible STM32 IoT Node',
+      'Compatibilité multi-cartes : STM32, Raspberry Pi, micro:bit',
+      'Fiches pédagogiques pour découvrir le maillage BLE en classe',
+    ],
+    partners: [
+      {
+        name: "Laboratoire d'Aix-périmentation et de Bidouille",
+        country: 'France',
+        logo: `${P}/lab.svg`,
+      },
+    ],
+    header: '/img/headersprojects/magnetics.png',
+    externalUrl: 'https://labaixbidouille.wixsite.com/magnetics',
+    guidePdf: '/pdf/magnetics/Magnetics_GuideFinal.pdf',
+    funding: "Edu-up — Ministère de l'Éducation nationale",
+    duration: '2020–2022',
   },
   'inovmicro-exao': {
     id: 'inovmicro-exao',

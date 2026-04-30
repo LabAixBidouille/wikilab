@@ -21,6 +21,7 @@ module.exports = {
         'steamcity',
         'thedexterlab',
         'youth-ai-lab',
+        'magnetics',
         'inovmicro-exao',
         'projets-du-lab',
         'machines',

@@ -46,16 +46,29 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
             <div>
               <h1 className="wikilab-project-hero__title">{project.name}</h1>
               <p className="wikilab-project-hero__summary">{project.summary}</p>
-              {project.externalUrl && (
-                <a
-                  href={project.externalUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="button button--outline button--sm wikilab-project-hero__link"
-                >
-                  {project.id === 'projets-du-lab' ? 'Site du L.A.B' : 'Site du projet'}
-                </a>
-              )}
+              <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap' }}>
+                {project.externalUrl && (
+                  <a
+                    href={project.externalUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button button--outline button--sm wikilab-project-hero__link"
+                  >
+                    {project.id === 'projets-du-lab' ? 'Site du L.A.B' : 'Site du projet'}
+                  </a>
+                )}
+                {project.guidePdf && (
+                  <a
+                    href={project.guidePdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="button button--sm wikilab-project-hero__link"
+                    style={{ backgroundColor: '#e83e8c', borderColor: '#e83e8c', color: '#fff' }}
+                  >
+                    Télécharger le guide (PDF)
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         </div>

@@ -190,6 +190,7 @@ Les tableaux vides (exemples à remplir) doivent avoir des lignes de taille éga
 | SteamCity        | `#DD5350`          |
 | The Dexter Lab   | `#1a4a48`          |
 | Youth AI Lab     | `#b34520`          |
+| Magnetics        | `#094869`          |
 | I-Novmicro #2    | `#8a6e18`          |
 | Projets du LAB   | (variable)         |
 

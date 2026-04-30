@@ -158,3 +158,18 @@ enquete
 intermediaire
 debutant
 avance
+
+# Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
+magnetics
+multicartes
+Adafruit
+Bluefruit
+microbit
+makecode
+datalogger
+OLED
+oled
+extensionsmagneticssurmicrobit
+blocmagneticsextension
+blocspourlecollecteur
+editeurmicropython
