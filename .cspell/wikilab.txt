@@ -173,3 +173,5 @@ extensionsmagneticssurmicrobit
 blocmagneticsextension
 blocspourlecollecteur
 editeurmicropython
+editeur
+emettrice
