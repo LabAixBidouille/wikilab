@@ -436,15 +436,15 @@ article > table:first-of-type {
 
 .wikilab-projects-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
 }
 
 .wikilab-project-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 12px;
   border: 2px solid var(--ifm-color-emphasis-200);
   background: var(--ifm-background-surface-color, #fff);
@@ -471,10 +471,10 @@ article > table:first-of-type {
 
 .wikilab-project-card__name {
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   text-align: center;
   margin-top: auto;
-  padding-top: 0.75rem;
+  padding-top: 0.5rem;
 }
 
 /* ── CTA bas de page ── */
@@ -998,31 +998,21 @@ aside input[type='checkbox'] {
 
 .footer--dark {
   background-color: var(--wikilab-purple);
-}
-
-.footer__title {
-  font-weight: 700;
-}
-
-.footer .row {
-  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: auto;
 }
 
 .footer__bottom {
-  margin-top: 2rem;
+  margin-top: 0;
+  text-align: center;
 }
 
-.footer__link-item[href*='/projets/'] {
-  /* handled by parent column layout */
-}
-
-.col.footer__col:nth-child(3) .footer__items {
-  columns: 2;
-  column-gap: 1.5rem;
-}
-
-.col.footer__col:nth-child(3) .footer__items li {
-  break-inside: avoid;
+.footer__copyright {
+  margin: 0;
+  text-align: center;
 }
 
 /* ── Page machines ── */
