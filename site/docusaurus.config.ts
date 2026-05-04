@@ -130,46 +130,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Navigation',
-          items: [
-            { label: 'À propos', to: '/about' },
-            { label: 'Nos actions', to: '/projets' },
-            { label: 'Catalogue des ressources', to: '/catalogue' },
-            { label: 'Nos machines', to: '/machines' },
-          ],
-        },
-        {
-          title: 'Licence & contact',
-          items: [
-            {
-              label: 'Creative Commons BY-SA 4.0',
-              href: 'https://creativecommons.org/licenses/by-sa/4.0/deed.fr',
-            },
-            {
-              label: 'Contact',
-              href: 'mailto:contact@labaixbidouille.com',
-            },
-          ],
-        },
-        {
-          title: 'Nos actions',
-          items: [
-            { label: 'Projets du LAB', to: '/projets/projets-du-lab' },
-            { label: "Let's STEAM", to: '/projets/lets-steam' },
-            { label: 'Mimesis', to: '/projets/mimesis' },
-            { label: 'Robots Meet Arts', to: '/projets/robots-meet-arts' },
-            { label: 'SteamCity', to: '/projets/steamcity' },
-            { label: 'Unplugged', to: '/projets/unplugged' },
-            { label: 'The Dexter Lab', to: '/projets/the-dexter-lab' },
-            { label: 'JediTrack', to: '/projets/jeditrack' },
-            { label: 'Youth AI Lab', to: '/projets/youth-ai-lab' },
-            { label: 'Magnetics', to: '/projets/magnetics' },
-            { label: 'I-Novmicro #2', to: '/projets/inovmicro-exao' },
-          ],
-        },
-      ],
       copyright: `© ${new Date().getFullYear()} Wiki@LAB — Laboratoire d'Aix-périmentation et de Bidouille. Contenu sous licence Creative Commons BY-SA 4.0.`,
     },
     tableOfContents: {
