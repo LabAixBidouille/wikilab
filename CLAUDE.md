@@ -26,7 +26,7 @@
 | SteamCity        | 25 + 9 fiches prog    | OK        | OK          | OK                        | `#DD5350` |
 | The Dexter Lab   | 20 + 13 fiches prog   | OK        | OK (icônes) | OK (feuilles travail)     | `#1a4a48` |
 | Youth AI Lab     | 5                     | OK        | OK          | OK                        | `#b34520` |
-| I-Novmicro #2    | 1 (Découverte STeaMi) | OK        | -           | -                         | `#8a6e18` |
+| I-Novmicro #2    | 1 + 22 prévues   | OK        | Dossiers .gitkeep          | -                         | `#8a6e18` |
 | Projets du LAB   | 20                    | OK        | Partiels    | -                         | -         |
 
 ## Conventions de formatage des fiches
@@ -146,6 +146,89 @@
   - Footer Erasmus+
 - Dans la fiche principale, remplacer la section extraite par un lien `## Programmation` pointant vers la fiche technique
 - Les tableaux vides (exemples à remplir) doivent avoir des lignes de taille égale (même nombre de cellules)
+
+### Fiches MicroPython I-NOVMICRO
+
+Les fiches du projet **I-Novmicro #2 — Action EXAO** suivent des conventions spécifiques pour la programmation MicroPython sur la carte STeaMi.
+
+#### Convention de nommage
+
+- Format : `iXX-slug-court.md` (préfixe `i` + numéro 2 chiffres + slug court)
+- Exemples : `i01-editeur-web-steami`, `i08-clignoter-led`, `i22-collecter-donnees`
+- Numérotation continue : i01-i07 = fiches enseignants (prise en main), i08-i22 = fiches élèves (apprentissage)
+
+#### Type `Format` à utiliser dans `resources.ts`
+
+- `tutoriel` : pour les fiches enseignants (prise en main d'un éditeur, bases du langage, présentation des capteurs). Peut être combiné avec d'autres formats.
+- `programmation` : pour les fiches élèves (activités d'apprentissage par la pratique).
+- `experimentation` : à ajouter quand la fiche implique mesure, capteurs, démarche scientifique.
+- Exemple fiche enseignante : `formats: ['tutoriel']` ou `formats: ['tutoriel', 'experimentation']`
+- Exemple fiche élève : `formats: ['programmation']` ou `formats: ['programmation', 'projet-maker']`
+
+#### Blocs Python — version firmware testée
+
+Chaque bloc de code MicroPython doit commencer par un commentaire indiquant la version du firmware avec laquelle il a été testé :
+
+```python
+# Testée avec firmware STeaMi v1.2.0
+from steami import display
+import time
+
+display.show("Hello !")
+```
+
+- La version doit être au format `vX.Y.Z` (ex: `v1.2.0`)
+- Cette ligne se trouve **toujours** en première ligne du bloc, avant les imports
+- Si la fiche utilise plusieurs blocs Python, la mention apparaît dans le premier bloc uniquement
+
+#### Schémas de câblage STeaMi
+
+- Pour les connexions GPIO simples : utiliser des images dans `site/static/img/ressources/inovmicro-exao/<fiche-id>/cablage-*.png`
+- Pour les capteurs Qwiic : préciser le port (Qwiic gauche/droite) en commentaire dans le code
+- Pour les capteurs externes via breadboard : fournir un schéma type Fritzing en `cablage.png` et un tableau des connexions
+
+Exemple de tableau de câblage :
+
+```md
+| STeaMi   | Composant       |
+| -------- | --------------- |
+| GPIO 13  | LED (anode +)   |
+| GND      | LED (cathode -) |
+| 3.3V     | Bouton (entrée) |
+```
+
+#### Footer crédits — fiches portées de Let's STEAM
+
+Les fiches `i08-i22` sont des portages de fiches Let's STEAM existantes. Leur footer doit conserver la traçabilité et la licence d'origine :
+
+```md
+---
+
+_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](https://lets-steam.eu) (fiche `r1asXX-nom`) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+```
+
+Pour les fiches originales (i01-i07, fiches enseignants non issues de Let's STEAM), footer simplifié :
+
+```md
+---
+
+_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+```
+
+#### Sous-sections du projet (sidebar / page projet)
+
+Le projet est organisé en 4 sous-sections affichées sur la page `/projets/inovmicro-exao` :
+
+1. **Découverte** : `decouverte-steami` (existant)
+2. **Prise en main** : 7 fiches enseignants (i01-i07) — éditeurs, bases du langage, capteurs
+3. **Apprentissage de la programmation** : 15 fiches élèves (i08-i22) portées de Let's STEAM
+4. **(Réservé) Projets et expérimentations** : à remplir ultérieurement
+
+#### Photos communes mutualisées
+
+Les photos communes à plusieurs fiches (carte STeaMi vue d'ensemble, branchement USB-C, écran OLED, capteurs intégrés) sont placées dans : site/static/img/ressources/inovmicro-exao/_commun/
+
+Le préfixe `_` empêche la confusion avec les dossiers de fiches `iXX-...`.
 
 ## Build
 
