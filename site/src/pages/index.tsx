@@ -130,21 +130,60 @@ export default function Home(): React.ReactElement {
         </div>
       </section>
 
-      <section className="wikilab-eu">
+      <section className="wikilab-funders">
         <div className="container">
-          <div className="wikilab-eu__inner">
-            <img
-              src="/img/logos/eu-cofinance.png"
-              alt="Cofinancé par l'Union européenne"
-              className="wikilab-eu__logo"
-            />
-            <p>
-              La création de ce catalogue de ressources a été rendue possible grâce au cofinancement
-              de l'Union européenne. Les points de vue et avis exprimés n'engagent toutefois que
-              leur(s) auteur(s) et ne reflètent pas nécessairement ceux de l'Union européenne ou de
-              l'Agence exécutive européenne pour l'éducation et la culture (EACEA). Ni l'Union
-              européenne ni l'EACEA ne sauraient en être tenues pour responsables.
-            </p>
+          <div className="wikilab-funders__grid">
+            <div className="wikilab-funders__block">
+              <img
+                src="/img/logos/eu-cofinance.png"
+                alt="Cofinancé par l'Union européenne"
+                className="wikilab-funders__logo"
+              />
+              <p>
+                La création de ce catalogue de ressources a été rendue possible grâce au
+                cofinancement de l'Union européenne. Les points de vue et avis exprimés n'engagent
+                toutefois que leur(s) auteur(s) et ne reflètent pas nécessairement ceux de l'Union
+                européenne ou de l'Agence exécutive européenne pour l'éducation et la culture
+                (EACEA). Ni l'Union européenne ni l'EACEA ne sauraient en être tenues pour
+                responsables.
+              </p>
+            </div>
+            <div className="wikilab-funders__block">
+              <img src="/img/logos/edu-up.jpg" alt="Édu-Up" className="wikilab-funders__logo" />
+              <p>
+                Le projet <strong>Magnetics</strong> a été soutenu par le dispositif Édu-Up de la
+                direction du numérique pour l'éducation (DNE), Ministère de l'Éducation nationale.
+              </p>
+            </div>
+            <div className="wikilab-funders__block">
+              <div className="wikilab-funders__logos-row">
+                <img
+                  src="/img/logos/france-2030.png"
+                  alt="France 2030"
+                  className="wikilab-funders__logo"
+                />
+                <img
+                  src="/img/logos/banque-territoires.png"
+                  alt="Banque des Territoires"
+                  className="wikilab-funders__logo"
+                />
+                <img
+                  src="/img/logos/region-sud.png"
+                  alt="Région Sud"
+                  className="wikilab-funders__logo"
+                />
+                <img
+                  src="/img/logos/campus-excellence.png"
+                  alt="Campus d'excellence Industrie du Futur"
+                  className="wikilab-funders__logo"
+                />
+              </div>
+              <p>
+                Le projet <strong>I-Novmicro #2</strong> est une opération soutenue par l'État dans
+                le cadre de l'AMI Compétences et Métiers d'Avenir du Programme France 2030, opéré
+                par la Caisse des Dépôts, avec le soutien de la Région Sud.
+              </p>
+            </div>
           </div>
         </div>
       </section>
