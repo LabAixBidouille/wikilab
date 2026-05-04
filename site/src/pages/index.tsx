@@ -140,12 +140,15 @@ export default function Home(): React.ReactElement {
                 className="wikilab-funders__logo"
               />
               <p>
-                La création de ce catalogue de ressources a été rendue possible grâce au
-                cofinancement de l'Union européenne. Les points de vue et avis exprimés n'engagent
-                toutefois que leur(s) auteur(s) et ne reflètent pas nécessairement ceux de l'Union
-                européenne ou de l'Agence exécutive européenne pour l'éducation et la culture
-                (EACEA). Ni l'Union européenne ni l'EACEA ne sauraient en être tenues pour
-                responsables.
+                Les projets <strong>Let's STEAM</strong>, <strong>Mimesis</strong>,{' '}
+                <strong>Robots Meet Arts</strong>, <strong>SteamCity</strong>,{' '}
+                <strong>Unplugged</strong>, <strong>JediTrack</strong>,{' '}
+                <strong>The Dexter Lab</strong> et <strong>Youth AI Lab</strong> ont été rendus
+                possibles grâce au cofinancement de l'Union européenne (programme Erasmus+). Les
+                points de vue et avis exprimés n'engagent toutefois que leur(s) auteur(s) et ne
+                reflètent pas nécessairement ceux de l'Union européenne ou de l'Agence exécutive
+                européenne pour l'éducation et la culture (EACEA). Ni l'Union européenne ni l'EACEA
+                ne sauraient en être tenues pour responsables.
               </p>
             </div>
             <div className="wikilab-funders__block">
