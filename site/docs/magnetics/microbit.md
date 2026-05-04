@@ -118,6 +118,8 @@ De la même manière qu'à l'étape 1, ajoutez l'extension **Magnetics** à la l
 
 Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "**Programmer**" ci-dessous relatif à la carte émettrice que vous êtes en train de programmer. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "**Télécharger**" et attendez que la carte finisse de clignoter.
 
+<img src="/img/ressources/magnetics/microbit/exemple-editeur-bloc-emettrice-temperature.png" alt="Exemple de l'éditeur en mode bloc pour le code de la carte émettrice de la température" style={{maxWidth: '90%', height: 'auto', margin: '0.75rem 0'}} />
+
 ### Activité 3 - Exécuter, modifier, jouer
 
 Une fois votre carte collectrice reliée à votre écran, et vos quatre cartes programmées, votre programme est prêt à être utilisé. Votre programme s'exécutera automatiquement chaque fois que vous les mettrez sous tension ou que vous réinitialiserez votre carte (appuyez sur le bouton intitulé RESET). Essayez de comprendre le fonctionnement de votre code et commencez à le modifier en créant vos propres projets.
@@ -169,10 +171,7 @@ magnetics.setAdvertisingKeyValueData("Temp (°C)", input.temperature())
 })
 ```
 
-<div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '0.75rem 0'}}>
-  <img src="/img/ressources/magnetics/microbit/blocs-emettrice-temperature.png" alt="Blocs pour le code de la carte émettrice de la température" style={{maxWidth: 'calc(50% - 0.75rem)', height: 'auto', alignSelf: 'flex-start'}} />
-  <img src="/img/ressources/magnetics/microbit/exemple-editeur-bloc-emettrice-temperature.png" alt="Exemple de l'éditeur en mode bloc pour le code de la carte émettrice de la température" style={{maxWidth: 'calc(50% - 0.75rem)', height: 'auto', alignSelf: 'flex-start'}} />
-</div>
+<img src="/img/ressources/magnetics/microbit/blocs-emettrice-temperature.png" alt="Blocs pour le code de la carte émettrice de la température" style={{maxWidth: '70%', height: 'auto', margin: '0.75rem 0'}} />
 
 ### Code de la carte émettrice de l'intensité lumineuse
 
