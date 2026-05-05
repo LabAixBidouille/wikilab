@@ -34,7 +34,7 @@ sidebar_position: 2
 <!--
   Icône thématique de la fiche.
   À créer en SVG flat-design dans la couleur du projet (#8a6e18),
-  puis exportée en PNG dans /static/img/ressources/inovmicro-exao/_commun/icone.png
+  puis exportée en PNG dans /static/img/ressources/inovmicro-exao/<id-fiche>/icone.png
 -->
 <img src="/img/ressources/inovmicro-exao/<id-fiche>/icone.png" alt="<description courte de la fiche>" style={{width: '180px', height: 'auto'}} />
 
