@@ -134,11 +134,18 @@ export default function Home(): React.ReactElement {
         <div className="container">
           <div className="wikilab-funders__grid">
             <div className="wikilab-funders__block">
-              <img
-                src="/img/logos/eu-cofinance.png"
-                alt="Cofinancé par l'Union européenne"
-                className="wikilab-funders__logo"
-              />
+              <a
+                href="https://erasmus-plus.ec.europa.eu/fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wikilab-funders__logo-link"
+              >
+                <img
+                  src="/img/logos/eu-cofinance.png"
+                  alt="Cofinancé par l'Union européenne"
+                  className="wikilab-funders__logo"
+                />
+              </a>
               <p>
                 Les projets <strong>Let's STEAM</strong>, <strong>Mimesis</strong>,{' '}
                 <strong>Robots Meet Arts</strong>, <strong>SteamCity</strong>,{' '}
@@ -150,42 +157,101 @@ export default function Home(): React.ReactElement {
                 européenne pour l'éducation et la culture (EACEA). Ni l'Union européenne ni l'EACEA
                 ne sauraient en être tenues pour responsables.
               </p>
+              <a
+                href="https://erasmus-plus.ec.europa.eu/fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wikilab-funders__more"
+              >
+                En savoir plus sur Erasmus+ →
+              </a>
             </div>
             <div className="wikilab-funders__block">
-              <img src="/img/logos/edu-up.jpg" alt="Édu-Up" className="wikilab-funders__logo" />
+              <a
+                href="https://www.education.gouv.fr/le-dispositif-edu-un-soutien-la-production-de-ressources-numeriques-pour-l-ecole-450476"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wikilab-funders__logo-link"
+              >
+                <img src="/img/logos/edu-up.jpg" alt="Édu-Up" className="wikilab-funders__logo" />
+              </a>
               <p>
                 Le projet <strong>Magnetics</strong> a été soutenu par le dispositif Édu-Up de la
                 direction du numérique pour l'éducation (DNE), Ministère de l'Éducation nationale.
               </p>
+              <a
+                href="https://www.education.gouv.fr/le-dispositif-edu-un-soutien-la-production-de-ressources-numeriques-pour-l-ecole-450476"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wikilab-funders__more"
+              >
+                En savoir plus sur Édu-Up →
+              </a>
             </div>
             <div className="wikilab-funders__block">
               <div className="wikilab-funders__logos-row">
-                <img
-                  src="/img/logos/france-2030.png"
-                  alt="France 2030"
-                  className="wikilab-funders__logo"
-                />
-                <img
-                  src="/img/logos/banque-territoires.png"
-                  alt="Banque des Territoires"
-                  className="wikilab-funders__logo"
-                />
-                <img
-                  src="/img/logos/region-sud.png"
-                  alt="Région Sud"
-                  className="wikilab-funders__logo"
-                />
-                <img
-                  src="/img/logos/campus-excellence.png"
-                  alt="Campus d'excellence Industrie du Futur"
-                  className="wikilab-funders__logo"
-                />
+                <a
+                  href="https://www.gouvernement.fr/france-2030"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="wikilab-funders__logo-link"
+                >
+                  <img
+                    src="/img/logos/france-2030.png"
+                    alt="France 2030"
+                    className="wikilab-funders__logo"
+                  />
+                </a>
+                <a
+                  href="https://www.banquedesterritoires.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="wikilab-funders__logo-link"
+                >
+                  <img
+                    src="/img/logos/banque-territoires.png"
+                    alt="Banque des Territoires"
+                    className="wikilab-funders__logo"
+                  />
+                </a>
+                <a
+                  href="https://www.maregionsud.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="wikilab-funders__logo-link"
+                >
+                  <img
+                    src="/img/logos/region-sud.png"
+                    alt="Région Sud"
+                    className="wikilab-funders__logo"
+                  />
+                </a>
+                <a
+                  href="https://campus-industriefutur-sud.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="wikilab-funders__logo-link"
+                >
+                  <img
+                    src="/img/logos/campus-excellence.png"
+                    alt="Campus d'excellence Industrie du Futur"
+                    className="wikilab-funders__logo"
+                  />
+                </a>
               </div>
               <p>
                 Le projet <strong>I-Novmicro #2</strong> est une opération soutenue par l'État dans
                 le cadre de l'AMI Compétences et Métiers d'Avenir du Programme France 2030, opéré
                 par la Caisse des Dépôts, avec le soutien de la Région Sud.
               </p>
+              <a
+                href="https://campus-industriefutur-sud.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="wikilab-funders__more"
+              >
+                En savoir plus sur le Campus des Métiers et des Qualifications Industrie du Futur →
+              </a>
             </div>
           </div>
         </div>
