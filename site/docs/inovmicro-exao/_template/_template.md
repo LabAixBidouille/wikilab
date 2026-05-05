@@ -36,7 +36,7 @@ sidebar_position: 2
   À créer en SVG flat-design dans la couleur du projet (#8a6e18),
   puis exportée en PNG dans /static/img/ressources/inovmicro-exao/<id-fiche>/icone.png
 -->
-<img src="/img/ressources/inovmicro-exao/<id-fiche>/icone.png" alt="<description courte de la fiche>" style={{width: '180px', height: 'auto'}} />
+<img src="/img/ressources/inovmicro-exao/<id-fiche>/icone.png" alt="<description courte de la fiche>" style={{width: '180px', height: '180px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
