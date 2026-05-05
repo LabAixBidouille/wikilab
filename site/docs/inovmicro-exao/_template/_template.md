@@ -8,7 +8,7 @@ sidebar_position: 2
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1rem'}}>
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle'}}><!-- icône inline éventuelle --></svg> Titre de la fiche
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle'}}></svg> Titre de la fiche
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
 <span className="badge badge--primary">Informatique</span>
