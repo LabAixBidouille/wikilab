@@ -4,6 +4,7 @@ site/.docusaurus
 site/.cache-loader
 site/static/pdf
 site/static/img
+site/static/google*.html
 site/docs
 site/machines
 site/**/*.js
