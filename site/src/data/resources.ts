@@ -3649,6 +3649,7 @@ export const resources: Resource[] = [
     pdf: '/pdf/magnetics/Magnetics_MicroPython.pdf',
     thumbnail: '/img/ressources/magnetics/micropython/icone.png',
   },
+
   {
     id: 'decouverte-steami',
     title: 'Découvrir la carte STeaMi',
@@ -3667,6 +3668,34 @@ export const resources: Resource[] = [
     categories: ['programmation', 'exploration-scientifique'],
     keywords: ['STeaMi', 'STM32', 'MicroPython', 'MakeCode', 'IoT', 'capteurs', 'BLE'],
     thumbnail: '/img/ressources/inovmicro-exao/decouverte-steami/icone.png',
+  },
+  {
+    id: 'i17-texte-oled',
+    title: "Afficher du texte sur l'écran OLED",
+    slug: '/ressources/inovmicro-exao/i17-texte-oled',
+    project: 'inovmicro-exao',
+    summary:
+      "Porter sur la STeaMi la fiche Let's STEAM R1AS10 : afficher du texte sur l'écran OLED 128×128 intégré, en MicroPython avec la bibliothèque steami_screen. Positions cardinales, framebuffer, animation et mise en page d'un tableau de bord.",
+    disciplines: ['informatique', 'technologie'],
+    tools: ['steami'],
+    software: ['python'],
+    ageMin: 11,
+    ageMax: 15,
+    durationMinutes: 60,
+    difficulty: 'intermediaire',
+    formats: ['programmation'],
+    categories: ['programmation'],
+    keywords: [
+      'STeaMi',
+      'MicroPython',
+      'OLED',
+      'SSD1327',
+      'écran',
+      'framebuffer',
+      'steami_screen',
+      'affichage',
+    ],
+    thumbnail: '/img/ressources/inovmicro-exao/i17-texte-oled/icone.png',
   },
   {
     id: 'programmation-city-detective-challenge',
