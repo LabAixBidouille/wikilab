@@ -293,7 +293,7 @@ Le **REPL** (`>>>` dans le panneau Shell) permet de tester du code **directement
 
 Dans l'exemple ci-dessous, les `>>>` représentent le prompt — c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit le prompt.
 
-```pycon
+```python
 # Allumer la LED rouge à la main
 >>> from machine import Pin
 >>> led_r = Pin('LED_RED', Pin.OUT)
