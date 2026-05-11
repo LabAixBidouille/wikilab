@@ -7,7 +7,7 @@ sidebar_position: 17
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="5" width="20" height="14" rx="1.5" fill="#8a6e18" opacity="0.1"/><rect x="3.5" y="6.5" width="17" height="11" rx="0.5" fill="#8a6e18" opacity="0.25"/><rect x="5" y="8" width="9" height="1.5" rx="0.2" fill="#8a6e18"/><rect x="5" y="10.5" width="6" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="12.5" width="11" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="14.5" width="5" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><circle cx="17" cy="11" r="0.6" fill="#8a6e18"/><circle cx="17" cy="13" r="0.6" fill="#8a6e18" opacity="0.6"/><circle cx="17" cy="15" r="0.6" fill="#8a6e18" opacity="0.3"/></svg> AFFICHER DU TEXTE SUR L'ÉCRAN OLED
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="5" width="20" height="14" rx="1.5" fill="#8a6e18" opacity="0.1"/><rect x="3.5" y="6.5" width="17" height="11" rx="0.5" fill="#8a6e18" opacity="0.25"/><rect x="5" y="8" width="9" height="1.5" rx="0.2" fill="#8a6e18"/><rect x="5" y="10.5" width="6" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="12.5" width="11" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="14.5" width="5" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><circle cx="17" cy="11" r="0.6" fill="#8a6e18"/><circle cx="17" cy="13" r="0.6" fill="#8a6e18" opacity="0.6"/><circle cx="17" cy="15" r="0.6" fill="#8a6e18" opacity="0.3"/></svg> Afficher du texte sur l'écran OLED
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -23,9 +23,8 @@ sidebar_position: 17
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB-C
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur avec un IDE MicroPython (Thonny, VS Code, `mpremote`…)
-- L'écran OLED 128×128 (SSD1327) est **intégré à la carte STeaMi** : aucun câblage n'est nécessaire, contrairement à la fiche Let's STEAM d'origine qui demandait un écran externe Adafruit relié en I²C via un câble QWIIC/STEMMA.
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i17-texte-oled/icone.png" alt="Écran OLED de la STeaMi affichant du texte" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -37,14 +36,14 @@ sidebar_position: 17
 
 Programmer une carte électronique, c'est parfois travailler dans une « boîte noire » : on ne voit pas ce qui s'y passe. L'écran OLED de la STeaMi permet d'**afficher des informations issues du programme** — un message d'accueil, l'état d'un capteur, la valeur d'une variable — pour rendre visible le comportement de la carte.
 
-Cette fiche reprend l'activité Let's STEAM [R1AS10 — Affichage de texte avec un écran OLED](/ressources/lets-steam/r1as10-ecran-oled) et la porte sur la carte STeaMi en MicroPython, en utilisant la bibliothèque haut niveau `steami_screen`. Côté matériel, on passe d'un écran externe à un écran intégré ; côté logiciel, on passe des blocs MakeCode à des fonctions Python.
+Cette fiche met en pratique l'affichage de texte sur l'écran OLED 128×128 de la STeaMi, en MicroPython, à l'aide de la bibliothèque haut niveau `steami_screen`.
 
 ---
 
 ## Objectifs d'apprentissage
 
 - Connecter la STeaMi à l'ordinateur et y déposer un programme MicroPython
-- Comprendre la notion de **framebuffer** et le rôle de `screen.show()` pour transférer le buffer vers l'écran
+- Comprendre pourquoi rien ne s'affiche tant qu'on n'a pas appelé `screen.show()` (notion de **framebuffer**)
 - Afficher du texte avec `screen.text()` aux **points cardinaux** (`N`, `S`, `CENTER`…) ou à des coordonnées précises
 - Utiliser les raccourcis `screen.title()` et `screen.subtitle()` pour structurer l'affichage
 - Faire évoluer l'affichage dans le temps pour suivre l'état d'une variable du programme
@@ -54,7 +53,7 @@ Cette fiche reprend l'activité Let's STEAM [R1AS10 — Affichage de texte avec 
 
 Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux choses à faire avant de programmer.
 
-**1. Connecter la carte à l'ordinateur.** Brancher la STeaMi avec un câble USB-C. Un nouveau lecteur appelé `STEAMI` apparaît sur l'ordinateur — c'est l'équivalent du lecteur `DIS_L4IOT` mentionné dans la fiche Let's STEAM d'origine.
+**1. Connecter la carte à l'ordinateur.** Brancher la STeaMi avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la STeaMi V2). Un nouveau lecteur appelé `STEAMI` apparaît sur l'ordinateur.
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
@@ -88,7 +87,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
     Le fichier main.py prêt à être téléversé sur la carte.
   </figcaption>
 </figure>
-**3. Pas d'extension à installer.** Contrairement à MakeCode où il fallait ajouter l'extension `oled` depuis le menu **AVANCÉ → EXTENSIONS**, les bibliothèques `ssd1327` (bas niveau) et `steami_screen` (haut niveau) sont déjà incluses dans le firmware MicroPython de la STeaMi. Il suffit de les importer.
+**3. Pas d'extension à installer.** Les bibliothèques `ssd1327` (bas niveau) et `steami_screen` (haut niveau) sont déjà incluses dans MicroPython sur la STeaMi : il suffit de les importer, aucune installation préalable.
 
 ---
 
@@ -104,7 +103,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
 
 import ssd1327
 from machine import SPI, Pin
-from steami_screen import Screen, SSD1327Display, WHITE, GRAY
+from steami_screen import Screen, SSD1327Display
 
 # Initialisation de l'écran intégré (SSD1327, 128x128)
 spi = SPI(1)
@@ -120,7 +119,7 @@ screen.clear()                          # efface l'écran (noir)
 screen.title("Hello World")             # texte en haut, centré
 screen.text("<3", at="CENTER")          # cœur au centre de l'écran
 screen.text("------------", at="S")     # ligne de tirets en bas
-screen.show()                           # envoi du framebuffer à l'écran
+screen.show()                           # affiche enfin ce qu'on a préparé sur l'écran
 ```
 
 Copier ce code sur la carte sous le nom `main.py` à l'aide de votre IDE MicroPython, puis redémarrer la carte (bouton RESET, ou `Ctrl+D` dans le REPL). Le titre apparaît en haut, le cœur au centre et les tirets en bas.
@@ -138,7 +137,7 @@ Copier ce code sur la carte sous le nom `main.py` à l'aide de votre IDE MicroPy
 
 ### Comment ça fonctionne ?
 
-La fonction MakeCode `oled.printString(texte, couleur, x, y)` est remplacée en MicroPython par **`screen.text(texte, at=..., color=..., scale=...)`**. Plutôt que de calculer des coordonnées en pixels, on indique une **position cardinale**.
+La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'afficher du texte sans calculer de coordonnées en pixels : il suffit d'indiquer une **position cardinale**.
 
 <figure style={{textAlign: 'center', margin: '1.5rem auto'}}>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="280" height="280" role="img" aria-label="Schéma des points cardinaux sur l'écran 128x128">
@@ -174,7 +173,9 @@ La fonction MakeCode `oled.printString(texte, couleur, x, y)` est remplacée en 
 Couleurs disponibles dans `steami_screen` : `BLACK`, `DARK`, `GRAY`, `LIGHT`, `WHITE` (5 niveaux de gris du SSD1327), plus `RED`, `GREEN`, `BLUE`, `YELLOW` (qui dégradent automatiquement en niveaux de gris sur l'écran monochrome).
 
 :::warning Étape importante : `screen.show()`
-Sur MakeCode, l'affichage était immédiat. En MicroPython, les fonctions `text()`, `clear()`, `pixel()`… écrivent dans un **framebuffer en mémoire**. Rien n'apparaît à l'écran tant que `screen.show()` n'a pas été appelé. C'est cet appel qui transfère effectivement le buffer via SPI vers le contrôleur SSD1327.
+On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`… dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
+
+Techniquement, ce « tableau caché » s'appelle un **framebuffer** — une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
 :::
 
 :::tip API bas niveau
@@ -221,13 +222,13 @@ screen  = Screen(display)
 
 ### Défi 2 — Animation à La Linea
 
-Avec une boucle `while`, créer une animation simple qui fait avancer un personnage minimaliste fait des symboles `|` et `_`. Utiliser `sleep(0.1)` pour ralentir le mouvement et ne pas oublier d'appeler `screen.clear()` au début de chaque image pour effacer l'écran.
+Avec une boucle `while`, créer une animation simple qui fait avancer un personnage minimaliste fait des symboles `|` et `_`. Utiliser `sleep_ms(100)` pour ralentir le mouvement et ne pas oublier d'appeler `screen.clear()` au début de chaque image pour effacer l'écran.
 
 ```python
 # Testée avec firmware STeaMi 0.23.1
 # Le bloc d'initialisation ci-dessus doit précéder ce code.
 
-from time import sleep
+from time import sleep_ms
 
 x = 0
 while True:
@@ -235,7 +236,7 @@ while True:
     screen.text("|_", at=(x, 60))
     screen.show()
     x = (x + 4) % 128
-    sleep(0.1)
+    sleep_ms(100)
 ```
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
@@ -251,23 +252,22 @@ while True:
 
 ### Défi 3 — État du bouton USER
 
-Afficher en temps réel si le bouton A de la STeaMi est pressé ou non, par exemple avec `screen.title("A: ON")` ou `screen.title("A: OFF")`. Que se passe-t-il avec un `sleep(1)` long dans la boucle ? Comment améliorer la réactivité ? *(Indice : raccourcir le délai, ou utiliser `uasyncio` pour faire la lecture du bouton en parallèle de l'affichage.)*
+Afficher en temps réel si le bouton A de la STeaMi est pressé ou non, par exemple avec `screen.title("A: ON")` ou `screen.title("A: OFF")`. Que se passe-t-il avec un `sleep_ms(1000)` long dans la boucle ? Comment améliorer la réactivité ? *(Indice : raccourcir le délai. Pour aller plus loin (terminale informatique), explorer la programmation asynchrone avec `uasyncio`.)*
 
 ### Défi 4 — Tableau de bord capteurs
 
-Afficher simultanément plusieurs valeurs en utilisant les positions cardinales pour répartir l'information sur l'écran. Voici un squelette qui anime des valeurs simulées — l'objectif ici est de maîtriser la **mise en page**, pas la lecture des capteurs (sujet de la une fiche dédiée à venir).
+Afficher simultanément plusieurs valeurs en utilisant les positions cardinales pour répartir l'information sur l'écran. Voici un squelette qui anime des valeurs simulées — l'objectif ici est de maîtriser la **mise en page**, pas la lecture des capteurs.
 
 ```python
 # Testée avec firmware STeaMi 0.23.1
 # Le bloc d'initialisation ci-dessus doit précéder ce code.
 
-from time import sleep
+from time import sleep_ms
 from math import sin
 
 t = 0
 while True:
-    # Valeurs simulées — à remplacer par la lecture réelle des capteurs
-    # (voir la fiche "Capteurs intégrés" pour HTS221, ISM330DL, etc.)
+    # Valeurs simulées — à remplacer par la lecture réelle des capteurs.
     temp = 22 + 3 * sin(t / 5)
     humi = 50 + 10 * sin(t / 7)
     accel_z = sin(t / 3)
@@ -280,10 +280,10 @@ while True:
     screen.show()
 
     t += 1
-    sleep(0.5)
+    sleep_ms(500)
 ```
 
-Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les capteurs intégrés (HTS221 pour la température/humidité, ISM330DL pour l'accélération). Les imports et l'API précise des capteurs sont détaillés dans la une fiche dédiée à venir.
+Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les capteurs intégrés (HTS221 pour la température/humidité, ISM330DL pour l'accélération).
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
@@ -300,7 +300,6 @@ Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les c
 
 ## Ressources et liens utiles
 
-- [Fiche Let's STEAM source — R1AS10 Écran OLED](/ressources/lets-steam/r1as10-ecran-oled) (version originale MakeCode + STM32 IOT Node)
 - [Wiki STeaMi — Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé, écran OLED)
 - [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib) — code source de `steami_screen` et `ssd1327`
 - [Documentation `framebuf`](https://docs.micropython.org/en/latest/library/framebuf.html) — API bas niveau de dessin sur framebuffer

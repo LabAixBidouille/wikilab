@@ -158,6 +158,9 @@ enquete
 intermediaire
 debutant
 avance
+framebuffer
+rgba
+uasyncio
 
 # Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
 magnetics
