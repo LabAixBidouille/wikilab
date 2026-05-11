@@ -65,6 +65,8 @@ Ici, "construire" veut dire mettre en place l'environnement logiciel : installer
 sudo apt install thonny
 
 # Ou via pipx pour avoir la dernière version
+# (pipx doit être installé au préalable :
+#  sudo apt install pipx && pipx ensurepath)
 pipx install thonny
 ```
 
@@ -83,7 +85,7 @@ pipx install thonny
 
 :::info Étape éventuellement déjà faite
 
-Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny*) le prompt `>>>` apparaît dans le Shell de Thonny, cette étape d'installation est déjà faite : passez directement à *Configurer Thonny pour la STeaMi*.
+Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny pour la STeaMi*) le prompt `>>>` apparaît dans le Shell de Thonny, cette étape d'installation est déjà faite : passez directement à la section suivante.
 
 :::
 
@@ -93,7 +95,7 @@ Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comm
 2. La carte apparaît comme un disque amovible nommé `STEAMI`.
 3. **Télécharger** le fichier `steami-micropython-firmware-vX.Y.Z.hex` depuis les [releases](https://github.com/steamicc/micropython-steami-lib/releases). Attention : ne pas confondre avec `steami-daplink-firmware-...hex`, qui est un autre fichier sans rapport avec MicroPython.
 4. **Glisser-déposer** le `.hex` sur le disque `STEAMI`.
-5. La LED de status clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
+5. La LED de statut clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
 :::warning[Câble incompatible]
 
 Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câble : un câble qui ne transporte que l'alimentation ne suffit pas, il faut un câble de données.
@@ -231,7 +233,7 @@ while True:
 - **Test rapide** : bouton **Run** (▶) ou `F5`. Le code s'exécute sur la carte sans être sauvegardé.
 - **Programme persistant** : **Fichier → Enregistrer sous… → MicroPython device**, et nommer le fichier **`main.py`**. Il sera relancé à chaque démarrage de la carte.
 
-:::tip Un programme est déjà en cours d'exécution
+:::info Un programme est déjà en cours d'exécution
 
 Si la carte tourne déjà un programme (par exemple un `main.py` précédemment enregistré), Thonny refuse de lancer le suivant : il faut d'abord l'interrompre avec **`Ctrl+C`** dans le panneau Shell, ou cliquer sur le bouton **Stop** (■).
 
