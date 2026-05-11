@@ -16,9 +16,9 @@ sidebar_position: 3
   <span className="badge badge--warning">MicroPython</span>
   <span className="badge badge--secondary">Thonny</span>
 </div>
-| Projet        | Durée   | Difficulté | Âge       | Version MicroPython testée |
-| ------------- | ------- | ---------- | --------- | -------------------------- |
-| I-Novmicro #2 | 40 min  | Débutant   | 11-99 ans | 0.23.1                     |
+| Projet        | Durée   | Difficulté | Âge       | Version STeaMi testée |
+| ------------- | ------- | ---------- | --------- | --------------------- |
+| I-Novmicro #2 | 40 min  | Débutant   | 11-99 ans | 0.23.1                |
 
 ## Matériel et Montage
 
@@ -61,11 +61,11 @@ Ici, "construire" veut dire mettre en place l'environnement logiciel : installer
 **Linux (Debian / Ubuntu)** :
 
 ```bash
-# Méthode recommandée (toujours à jour)
-pip install --user thonny
-
-# Ou via les dépôts
+# Via les dépôts de la distribution (recommandé pour un public débutant)
 sudo apt install thonny
+
+# Ou via pipx pour avoir la dernière version
+pipx install thonny
 ```
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
@@ -80,13 +80,20 @@ sudo apt install thonny
 </figure>
 
 ### Installer MicroPython sur la STeaMi
+
+:::info Étape éventuellement déjà faite
+
+Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny*) le prompt `>>>` apparaît dans le Shell de Thonny, cette étape d'installation est déjà faite : passez directement à *Configurer Thonny pour la STeaMi*.
+
+:::
+
 Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comme une **clé USB** : installer MicroPython revient à un simple glisser-déposer.
 
 1. **Brancher** la STeaMi en USB (câble de données, pas un câble de charge seul).
 2. La carte apparaît comme un disque amovible nommé `STEAMI`.
 3. **Télécharger** le fichier `steami-micropython-firmware-vX.Y.Z.hex` depuis les [releases](https://github.com/steamicc/micropython-steami-lib/releases). Attention : ne pas confondre avec `steami-daplink-firmware-...hex`, qui est un autre fichier sans rapport avec MicroPython.
 4. **Glisser-déposer** le `.hex` sur le disque `STEAMI`.
-5. La LED de status clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython.
+5. La LED de status clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
 :::warning[Câble incompatible]
 
 Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câble : un câble qui ne transporte que l'alimentation ne suffit pas, il faut un câble de données.
@@ -223,6 +230,12 @@ while True:
 
 - **Test rapide** : bouton **Run** (▶) ou `F5`. Le code s'exécute sur la carte sans être sauvegardé.
 - **Programme persistant** : **Fichier → Enregistrer sous… → MicroPython device**, et nommer le fichier **`main.py`**. Il sera relancé à chaque démarrage de la carte.
+
+:::tip Un programme est déjà en cours d'exécution
+
+Si la carte tourne déjà un programme (par exemple un `main.py` précédemment enregistré), Thonny refuse de lancer le suivant : il faut d'abord l'interrompre avec **`Ctrl+C`** dans le panneau Shell, ou cliquer sur le bouton **Stop** (■).
+
+:::
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/i03-thonny/05-thonny-editeur-code.png"
@@ -276,7 +289,9 @@ Une fois le premier programme fonctionnel, trois pistes pour aller plus loin ave
 
 Le **REPL** (`>>>` dans le panneau Shell) permet de tester du code **directement sur la carte**, sans créer de fichier. Pratique pour la découverte et le débogage.
 
-```python
+Dans l'exemple ci-dessous, les `>>>` représentent le prompt — c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit le prompt.
+
+```pycon
 # Allumer la LED rouge à la main
 >>> from machine import Pin
 >>> led_r = Pin('LED_RED', Pin.OUT)
@@ -330,11 +345,14 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 </figure>
 
 ### Dépanner les erreurs courantes
-| Symptôme                              | Cause probable           | Solution                                                                            |
-| ------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------- |
-| Port série absent                     | Câble sans fil de données | Changer de câble                                                                    |
-| REPL vide après connexion             | MicroPython non installé | Reprendre l'étape « Installer MicroPython sur la STeaMi »                           |
-| `Couldn't find the device`            | Plusieurs cartes connectées | Choisir le port à la main                                                        |
+
+| Symptôme                                | Cause probable                            | Solution                                                                                                       |
+| --------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Port série absent                       | Câble sans fil de données                 | Changer de câble                                                                                               |
+| REPL vide après connexion               | MicroPython non installé                  | Reprendre l'étape « Installer MicroPython sur la STeaMi »                                                      |
+| `Couldn't find the device`              | Plusieurs cartes connectées               | Choisir le port à la main                                                                                      |
+| `Device is busy` ou accès refusé        | Programme déjà en cours, ou autre IDE qui occupe le port | `Ctrl+C` dans le Shell, ou bouton **Stop** ; fermer les autres IDE qui pourraient être ouverts |
+| Un ancien `main.py` redémarre en boucle | Programme persistant qui boucle ou plante | `Ctrl+C` pour interrompre ; supprimer ou renommer `main.py` via Thonny (panneau Files → MicroPython device)    |
 
 ---
 
