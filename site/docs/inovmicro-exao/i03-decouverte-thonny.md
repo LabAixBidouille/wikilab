@@ -235,7 +235,7 @@ while True:
 
 :::info Un programme est déjà en cours d'exécution
 
-Si la carte tourne déjà un programme (par exemple un `main.py` précédemment enregistré), Thonny refuse de lancer le suivant : il faut d'abord l'interrompre avec **`Ctrl+C`** dans le panneau Shell, ou cliquer sur le bouton **Stop** (■).
+Quand un programme est déjà en cours d'exécution sur la carte (par exemple un `main.py` précédemment enregistré), Thonny refuse de lancer le suivant : il faut d'abord l'interrompre avec **`Ctrl+C`** dans le panneau Shell, ou cliquer sur le bouton **Stop** (■).
 
 :::
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
