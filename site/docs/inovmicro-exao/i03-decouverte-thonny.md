@@ -351,4 +351,3 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 ---
 
 _Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._
-
