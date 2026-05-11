@@ -3703,7 +3703,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i03-decouverte-thonny',
     project: 'inovmicro-exao',
     summary:
-      "Mettre en place un environnement desktop, gratuit et hors-ligne pour programmer la STeaMi en MicroPython avec Thonny : installation, configuration de la communication entre Thonny et la carte, et premier programme LED RGB + boutons.",
+      'Mettre en place un environnement desktop, gratuit et hors-ligne pour programmer la STeaMi en MicroPython avec Thonny : installation, configuration de la communication entre Thonny et la carte, et premier programme LED RGB + boutons.',
     disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
     software: ['python'],
