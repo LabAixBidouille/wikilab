@@ -161,6 +161,11 @@ avance
 framebuffer
 rgba
 uasyncio
+daplink
+usbmodem
+dialout
+pinout
+thonny
 
 # Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
 magnetics

@@ -2,7 +2,7 @@
 id: i03-decouverte-thonny
 title: Thonny — Prise en main de MicroPython sur la STeaMi
 sidebar_label: "Thonny"
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
@@ -201,7 +201,7 @@ def set_rgb(r, g, b):
     led_b.value(b)
 
 
-print("Programme démarré. Appuie sur A, B ou les deux.")
+print("Programme démarré. Appuyez sur A, B ou les deux.")
 
 while True:
     a_pressed = btn_a.value() == 0
