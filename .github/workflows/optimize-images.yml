@@ -6,9 +6,16 @@ name: Optimize images
 #
 # Cible : éviter d'avoir à compresser à la main avant push (cf. PR #67 et
 # #70 où plusieurs JPEG dépassaient 2 Mo).
+#
+# Limitation : calibreapp/image-actions fait de la compression seule,
+# pas de redimensionnement. Pour une photo de 4032×3024 qu'on affiche
+# à 600 px, la compression seule descend à ~300 Ko ; un resize manuel
+# à 1200 px ferait mieux. Pour les rares cas où c'est nécessaire,
+# compresser avec `magick mogrify -resize 1200x` avant push reste utile.
 
 on:
   pull_request:
+    branches: [main]
     paths:
       - 'site/static/img/**/*.jpg'
       - 'site/static/img/**/*.jpeg'
@@ -41,7 +48,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
 
-      - uses: calibreapp/image-actions@main
+      # Pinné sur une release explicite plutôt que @main pour limiter
+      # le risque supply-chain et garantir la reproductibilité.
+      # Dernière release : https://github.com/calibreapp/image-actions/releases
+      - uses: calibreapp/image-actions@1.4.1
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # compressOnly: false → l'action commit + poste un récap sur la PR.
