@@ -159,7 +159,7 @@ grep -n "—\|–\|…" site/docs/<projet>/<fiche>.md
 
 **Autorisés** : les **symboles scientifiques et techniques** (`Ω` pour les Ohms, `°C` pour les degrés, `≈` pour les approximations, `∥` pour le parallèle en électricité, `µ` pour micro), les **flèches** (`→`, `↑`, `↓`, `←`) quand elles structurent visuellement une explication, les **icônes UI** quand elles reproduisent un bouton de l'interface (`▶` pour Run, etc.), le **point médian `·`** de l'écriture inclusive (`enseignant·e`, `élève·s`), et les **émojis** avec parcimonie. Ces caractères apportent une valeur sémantique ou pédagogique qui justifie le copier-coller au moment où on en a besoin.
 
-**Apostrophes typographiques** : tolérées. La plupart des éditeurs font l'auto-substitution `'` (ASCII U+0027) en `'` (typographique U+2019) sans intervention. Si vous préférez forcer l'apostrophe droite ASCII, c'est aussi accepté ; la cohérence à l'intérieur d'une fiche compte plus que le choix.
+**Apostrophes typographiques** : tolérées. La plupart des éditeurs font l'auto-substitution `'` (ASCII U+0027) en `’` (typographique U+2019) sans intervention. Si vous préférez forcer l'apostrophe droite ASCII, c'est aussi accepté ; la cohérence à l'intérieur d'une fiche compte plus que le choix.
 
 **Exception temporaire** : le nom du projet `I-Novmicro #2 — Action EXAO` contient un em-dash et est référencé tel quel dans les footers des fiches portées et dans `site/src/data/projects.ts`. Le renommage est tracé dans l'[issue #84](https://github.com/LabAixBidouille/wikilab/issues/84) et sera propagé partout en une seule fois.
 
@@ -270,7 +270,7 @@ from machine import Pin
 # ...
 ```
 
-(Le mot _firmware_ est toléré ici dans un commentaire de code parce qu'il s'adresse au·à la contributeur·rice qui modifie le code, pas au lecteur·rice de la fiche.)
+(Le mot _firmware_ est toléré ici dans un commentaire de code parce qu'il s'adresse aux personnes qui modifient le code, pas à celles qui lisent la fiche.)
 
 ### Noms de broches parlants
 
@@ -365,7 +365,7 @@ Pour les fiches portées depuis Let's STEAM (slugs `i08` à `i22`), **rédiger l
 
 - Pas de comparaison à la fiche d'origine dans le corps (_« contrairement à la fiche Let's STEAM qui demandait... »_, _« on passe des blocs MakeCode à des fonctions Python »_, etc.).
 - Pas de mention de l'éditeur d'origine (MakeCode) ni du matériel d'origine (Adafruit, breadboard externe...).
-- Le lecteur·rice n'a pas besoin de connaître la fiche d'origine pour comprendre.
+- La personne qui lit la fiche n'a pas besoin de connaître la fiche d'origine pour comprendre.
 
 L'**attribution CC BY-SA 4.0** reste obligatoire **dans le footer** :
 
