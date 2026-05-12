@@ -117,8 +117,8 @@ Couleurs et icônes : voir [`site/src/css/custom.css`](site/src/css/custom.css) 
 Préférer aussi l'infinitif ou les tournures impersonnelles quand le contexte s'y prête (instructions techniques, étapes à suivre), ce qui évite la question du registre :
 
 - _« Brancher la carte à l'ordinateur. »_ (infinitif)
-- _« On peut vérifier dans le REPL que… »_ (impersonnel)
-- _« Si vous utilisez Linux… »_ (vouvoiement quand on s'adresse directement)
+- _« On peut vérifier dans le REPL que... »_ (impersonnel)
+- _« Si vous utilisez Linux... »_ (vouvoiement quand on s'adresse directement)
 
 ### Vocabulaire
 
@@ -135,7 +135,7 @@ Préférer aussi l'infinitif ou les tournures impersonnelles quand le contexte s
 
 Quand un concept technique est central mais opaque pour la cible, introduire une **métaphore** avant le terme technique, jamais l'inverse. Exemples installés dans le wiki :
 
-- **Framebuffer** : _« On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions text(), clear()… dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup. »_
+- **Framebuffer** : _« On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions text(), clear()... dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup. »_
 - **REPL** : _« une fenêtre de dialogue où l'on tape une instruction et la carte y répond immédiatement »_
 - **DAPLink** : _« la STeaMi est livrée avec un mode "clé USB" préinstallé »_ (le nom DAPLink lui-même n'a pas besoin d'apparaître).
 
@@ -143,7 +143,7 @@ Le principe : **on part de ce que voit l'élève, on introduit le mot technique 
 
 ### Caractères à éviter
 
-**Ne pas utiliser de caractères Unicode qui ne sont pas directement accessibles sur un clavier AZERTY standard**. Ces caractères créent une friction d'édition (impossibles à taper directement) et, dans le cas du _em-dash_ notamment, sont aujourd'hui perçus comme un signal de texte généré par IA, ce qu'on veut explicitement éviter sur un wiki pédagogique.
+**Ne pas utiliser de caractères de ponctuation typographique** (em-dash, en-dash, ellipsis Unicode). Ces caractères créent une friction d'édition (impossibles à taper directement sur AZERTY standard) et, dans le cas du _em-dash_ notamment, sont aujourd'hui perçus comme un signal de texte généré par IA, ce qu'on veut explicitement éviter sur un wiki pédagogique.
 
 | À éviter     | Pourquoi                         | À utiliser à la place                  |
 | ------------ | -------------------------------- | -------------------------------------- |
@@ -157,7 +157,9 @@ Pour repérer les occurrences dans une fiche :
 grep -n "—\|–\|…" site/docs/<projet>/<fiche>.md
 ```
 
-**Exception** : les **émojis** restent autorisés mais avec parcimonie (copier-coller au moment où on en a besoin). Les apostrophes typographiques `'` sont également tolérées (la plupart des éditeurs font l'auto-substitution `'` → `'`, donc pas de friction réelle).
+**Autorisés** : les **symboles scientifiques et techniques** (`Ω` pour les Ohms, `°C` pour les degrés, `≈` pour les approximations, `∥` pour le parallèle en électricité, `µ` pour micro), les **flèches** (`→`, `↑`, `↓`, `←`) quand elles structurent visuellement une explication, et les **émojis** avec parcimonie. Ces caractères apportent une valeur sémantique ou pédagogique qui justifie le copier-coller au moment où on en a besoin.
+
+**Apostrophes typographiques** : tolérées. La plupart des éditeurs font l'auto-substitution `'` (ASCII U+0027) en `'` (typographique U+2019) sans intervention. Si vous préférez forcer l'apostrophe droite ASCII, c'est aussi accepté ; la cohérence à l'intérieur d'une fiche compte plus que le choix.
 
 **Exception temporaire** : le nom du projet `I-Novmicro #2 — Action EXAO` contient un em-dash et est référencé tel quel dans les footers des fiches portées et dans `site/src/data/projects.ts`. Le renommage est tracé dans l'[issue #84](https://github.com/LabAixBidouille/wikilab/issues/84) et sera propagé partout en une seule fois.
 
@@ -345,7 +347,7 @@ Garder la fence ` ```python ` (pas `pycon`, qui n'est pas dans les `additionalLa
 
 ## Fiches éditeur-agnostiques
 
-Les fiches de **capteur / actionneur / activité** ne doivent pas être liées à un éditeur Python spécifique. Seules les fiches de prise en main des éditeurs eux-mêmes (i01–i05 du projet I-Novmicro #2 : éditeur web STeaMi, Mu, Thonny, VS Code, Vittascience) sont éditeur-spécifiques. Toutes les autres fiches sont écrites de façon à fonctionner avec n'importe quel IDE compatible MicroPython.
+Les fiches de **capteur / actionneur / activité** ne doivent pas être liées à un éditeur Python spécifique. Seules les fiches de prise en main des éditeurs eux-mêmes (i01 à i05 du projet I-Novmicro #2 : éditeur web STeaMi, Mu, Thonny, VS Code, Vittascience) sont éditeur-spécifiques. Toutes les autres fiches sont écrites de façon à fonctionner avec n'importe quel IDE compatible MicroPython.
 
 Patterns à adopter :
 
@@ -359,10 +361,10 @@ Si une fonctionnalité spécifique à un éditeur mérite d'être mentionnée (p
 
 ### Une fiche STeaMi se suffit à elle-même
 
-Pour les fiches portées depuis Let's STEAM (slugs `i08`–`i22`), **rédiger la fiche STeaMi comme si Let's STEAM n'existait pas** :
+Pour les fiches portées depuis Let's STEAM (slugs `i08` à `i22`), **rédiger la fiche STeaMi comme si Let's STEAM n'existait pas** :
 
-- Pas de comparaison à la fiche d'origine dans le corps (_« contrairement à la fiche Let's STEAM qui demandait… »_, _« on passe des blocs MakeCode à des fonctions Python »_, etc.).
-- Pas de mention de l'éditeur d'origine (MakeCode) ni du matériel d'origine (Adafruit, breadboard externe…).
+- Pas de comparaison à la fiche d'origine dans le corps (_« contrairement à la fiche Let's STEAM qui demandait... »_, _« on passe des blocs MakeCode à des fonctions Python »_, etc.).
+- Pas de mention de l'éditeur d'origine (MakeCode) ni du matériel d'origine (Adafruit, breadboard externe...).
 - Le lecteur·rice n'a pas besoin de connaître la fiche d'origine pour comprendre.
 
 L'**attribution CC BY-SA 4.0** reste obligatoire **dans le footer** :
