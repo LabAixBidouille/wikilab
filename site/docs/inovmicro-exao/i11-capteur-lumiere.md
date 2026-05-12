@@ -17,9 +17,9 @@ sidebar_position: 11
   <span className="badge badge--warning">MicroPython</span>
 </div>
 
-| Projet        | Durée    | Difficulté    | Âge       | Version MicroPython testée |
-| ------------- | -------- | ------------- | --------- | -------------------------- |
-| I-Novmicro #2 | 35 min   | Débutant | 11 ans et plus | 0.23.1                     |
+| Projet        | Durée  | Difficulté | Âge       | Version STeaMi testée |
+| ------------- | ------ | ---------- | --------- | --------------------- |
+| I-Novmicro #2 | 35 min | Débutant   | 11-99 ans | 0.23.1                |
 
 ## Matériel et Montage
 
@@ -50,6 +50,7 @@ L'avantage du capteur intégré : pas de breadboard ni de câblage. Tout passe p
 - Afficher périodiquement une mesure dans la console et observer ses variations
 - Utiliser une LED RGB comme indicateur visuel d'un seuil de mesure
 - Découvrir les autres mesures accessibles avec le capteur APDS-9960 (couleurs RGB)
+
 ---
 
 ## Étape 1 — Construire
@@ -62,7 +63,7 @@ Le capteur **APDS-9960** est soudé sur la face avant de la STeaMi, près de l'�
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/01-emplacement-capteur.png"
+    src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/01-emplacement-capteur.jpeg"
     alt="Emplacement du capteur APDS-9960 sur la face avant de la STeaMi"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -188,9 +189,9 @@ Une fois le programme lancé, plusieurs choses à essayer :
   </figcaption>
 </figure>
 
-:::tip[Tracer un graphique avec Thonny]
+:::info[Tracer un graphique avec Thonny]
 
-Thonny propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté du Shell et trace en temps réel toutes les valeurs numériques affichées par `print()`. C'est l'équivalent direct du « graphique qui montre comment une valeur varie dans le temps » de la fiche Let's STEAM d'origine.
+Thonny propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté du Shell et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
 
 :::
 

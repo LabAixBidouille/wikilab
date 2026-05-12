@@ -166,6 +166,10 @@ usbmodem
 dialout
 pinout
 thonny
+APDS
+apds9960
+breadboard
+lumiere
 
 # Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
 magnetics
