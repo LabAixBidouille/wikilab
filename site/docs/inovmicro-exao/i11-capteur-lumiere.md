@@ -17,7 +17,7 @@ sidebar_position: 11
   <span className="badge badge--warning">MicroPython</span>
 </div>
 
-| Projet        | Durée  | Difficulté | Âge       | Version STeaMi testée |
+| Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 35 min | Débutant   | 11-99 ans | 0.23.1                |
 
@@ -26,7 +26,7 @@ sidebar_position: 11
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- [Thonny](https://thonny.org/) installé et configuré pour la STeaMi (voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny))
+- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place — tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
 </div>
 <img src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
@@ -80,11 +80,11 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si Thonny est déjà configuré (voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny)), le panneau **Shell** de Thonny devrait afficher le prompt `>>>` de MicroPython.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
 
 ### Vérifier que le capteur répond
 
-Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que le capteur est bien détecté sur le bus I2C :
+Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que le capteur est bien détecté sur le bus I2C. Les `>>>` ci-dessous sont le prompt affiché par MicroPython dans la console pour indiquer qu'il attend une commande — ne les tapez pas, écrivez seulement ce qui suit.
 
 ```python
 >>> from machine import I2C
@@ -169,8 +169,9 @@ Le capteur retourne une valeur sur **16 bits**, donc entre **0** (obscurité tot
 
 ### Exécution
 
-- **Test rapide** : bouton **Run** (▶) ou `F5`. Les valeurs défilent dans le panneau **Shell** de Thonny.
-- **Programme persistant** : **Fichier → Enregistrer sous… → MicroPython device**, et nommer le fichier **`main.py`**. Il sera relancé à chaque démarrage de la carte.
+- **Test rapide** : lancer le programme depuis votre IDE (typiquement bouton **Run** ▶ ou `F5`). Les valeurs défilent dans la console MicroPython.
+- **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
 ### Observer les variations
 
 Une fois le programme lancé, plusieurs choses à essayer :
@@ -178,20 +179,21 @@ Une fois le programme lancé, plusieurs choses à essayer :
 - Couvrir le capteur avec la main : la valeur affichée chute, la LED devient rouge.
 - Approcher la carte d'une fenêtre ou d'une lampe : la valeur grimpe, la LED passe au vert.
 - Allumer la lampe d'un téléphone et la diriger vers le capteur : on voit clairement le seuil franchi.
+
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/02-thonny-shell-mesures.png"
-    alt="Valeurs de lumière qui défilent dans le panneau Shell de Thonny"
+    alt="Valeurs de lumière qui défilent dans la console MicroPython"
     style={{maxWidth: '100%', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Les valeurs défilent dans le panneau Shell, et chutent quand on couvre le capteur.
+    Les valeurs défilent dans la console MicroPython, et chutent quand on couvre le capteur.
   </figcaption>
 </figure>
 
-:::info[Tracer un graphique avec Thonny]
+:::info[Tracer un graphique (spécifique à Thonny)]
 
-Thonny propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté du Shell et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
+Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté de la console et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
 
 :::
 
@@ -214,12 +216,14 @@ Une amélioration plus avancée consiste à **transformer la valeur brute en pou
 
 L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est très différent — on peut, par exemple, distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que la simple lecture de `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
 
+Les lignes ci-dessous remplacent l'appel à `ambient_light()` dans la boucle du programme précédent — `sensor` est déjà initialisé en haut de fichier.
+
 ```python
 # Lire les quatre canaux du capteur (clair + RGB)
 ambiant = sensor.ambient_light()
-rouge   = sensor.red_light()
-vert    = sensor.green_light()
-bleu    = sensor.blue_light()
+rouge = sensor.red_light()
+vert = sensor.green_light()
+bleu = sensor.blue_light()
 
 print("Ambiant :", ambiant, "  R :", rouge, "  V :", vert, "  B :", bleu)
 ```
@@ -228,7 +232,7 @@ print("Ambiant :", ambiant, "  R :", rouge, "  V :", vert, "  B :", bleu)
 
 ### 3. Reproduire la couleur sur la LED RGB
 
-En combinant les deux idées précédentes, on peut faire en sorte que la **LED RGB de la carte reproduise approximativement la couleur dominante** de la lumière reçue. Pour cela, comparer les trois canaux R, V, B et allumer la composante la plus forte. Une piste de structure :
+En combinant les deux idées précédentes, on peut faire en sorte que la **LED RGB de la carte reproduise approximativement la couleur dominante** de la lumière reçue. Pour cela, comparer les trois canaux R, V, B et allumer la composante la plus forte. Une piste de structure, à placer après les lectures des canaux (`sensor` et `set_rgb` sont définis dans le programme principal) :
 
 ```python
 if rouge > vert and rouge > bleu:
@@ -250,4 +254,3 @@ else:
 ---
 
 _Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
-
