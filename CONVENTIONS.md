@@ -19,7 +19,7 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 10. [Sous-pages (borne-arcade, programmation)](#sous-pages-borne-arcade-programmation)
 11. [Fiches de programmation extraites](#fiches-de-programmation-extraites)
 12. [Code MicroPython sur STeaMi](#code-micropython-sur-steami)
-13. [Fiches éditeur-agnostiques](#fiches-éditeur-agnostiques)
+13. [Fiches indépendantes de l'éditeur](#fiches-indépendantes-de-léditeur)
 14. [Couleurs des projets](#couleurs-des-projets)
 
 ## Header (en-tête de fiche)
@@ -157,7 +157,7 @@ Pour repérer les occurrences dans une fiche :
 grep -n "—\|–\|…" site/docs/<projet>/<fiche>.md
 ```
 
-**Autorisés** : les **symboles scientifiques et techniques** (`Ω` pour les Ohms, `°C` pour les degrés, `≈` pour les approximations, `∥` pour le parallèle en électricité, `µ` pour micro), les **flèches** (`→`, `↑`, `↓`, `←`) quand elles structurent visuellement une explication, et les **émojis** avec parcimonie. Ces caractères apportent une valeur sémantique ou pédagogique qui justifie le copier-coller au moment où on en a besoin.
+**Autorisés** : les **symboles scientifiques et techniques** (`Ω` pour les Ohms, `°C` pour les degrés, `≈` pour les approximations, `∥` pour le parallèle en électricité, `µ` pour micro), les **flèches** (`→`, `↑`, `↓`, `←`) quand elles structurent visuellement une explication, les **icônes UI** quand elles reproduisent un bouton de l'interface (`▶` pour Run, etc.), le **point médian `·`** de l'écriture inclusive (`enseignant·e`, `élève·s`), et les **émojis** avec parcimonie. Ces caractères apportent une valeur sémantique ou pédagogique qui justifie le copier-coller au moment où on en a besoin.
 
 **Apostrophes typographiques** : tolérées. La plupart des éditeurs font l'auto-substitution `'` (ASCII U+0027) en `'` (typographique U+2019) sans intervention. Si vous préférez forcer l'apostrophe droite ASCII, c'est aussi accepté ; la cohérence à l'intérieur d'une fiche compte plus que le choix.
 
@@ -345,7 +345,7 @@ Les sessions REPL avec prompts `>>>` doivent être précédées d'un avertisseme
 
 Garder la fence ` ```python ` (pas `pycon`, qui n'est pas dans les `additionalLanguages` de la config Prism du site).
 
-## Fiches éditeur-agnostiques
+## Fiches indépendantes de l'éditeur
 
 Les fiches de **capteur / actionneur / activité** ne doivent pas être liées à un éditeur Python spécifique. Seules les fiches de prise en main des éditeurs eux-mêmes (i01 à i05 du projet I-Novmicro #2 : éditeur web STeaMi, Mu, Thonny, VS Code, Vittascience) sont éditeur-spécifiques. Toutes les autres fiches sont écrites de façon à fonctionner avec n'importe quel IDE compatible MicroPython.
 
