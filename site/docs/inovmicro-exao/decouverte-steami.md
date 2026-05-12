@@ -117,12 +117,12 @@ La STeaMi dispose de deux types de connecteurs pour étendre ses fonctionnalité
 ### Étape 1 : Allumer la carte
 
 - Connectez la carte STeaMi à votre ordinateur avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la STeaMi V2)
-- La carte s'allume et apparaît comme une clé USB nommée **STEAMI** sur ton ordinateur
+- La carte s'allume et apparaît comme une clé USB nommée **STEAMI** sur l'ordinateur
 - L'écran OLED affiche un message de démarrage
 
 :::info[Conseil]
 
-Si la carte est équipée d'une batterie, tu peux aussi l'allumer sans ordinateur en utilisant l'interrupteur latéral.
+Si la carte est équipée d'une batterie, il est aussi possible de l'allumer sans ordinateur en utilisant l'interrupteur latéral.
 
 :::
 
@@ -138,7 +138,7 @@ Pour commencer, nous recommandons **MicroPython** ou **MakeCode** selon le nivea
 
 ### Étape 3 : Écrire un premier programme
 
-**En MicroPython** : affiche "Hello !" sur l'écran :
+**En MicroPython**, afficher "Hello !" sur l'écran :
 
 ```python
 from steami import display
@@ -146,13 +146,13 @@ from steami import display
 display.show("Hello !")
 ```
 
-**En MakeCode** : utilise le bloc `afficher du texte` avec "Hello !" comme paramètre.
+**En MakeCode**, utiliser le bloc `afficher du texte` avec "Hello !" comme paramètre.
 
 ### Étape 4 : Téléverser le programme
 
-- **Drag and drop** : glisse simplement le fichier `.hex` (MakeCode) ou `.py` (MicroPython) sur le lecteur USB **STEAMI**
+- **Drag and drop** : glisser simplement le fichier `.hex` (MakeCode) ou `.py` (MicroPython) sur le lecteur USB **STEAMI**
 - La LED orange clignote pendant le transfert
-- La carte redémarre automatiquement et exécute ton programme
+- La carte redémarre automatiquement et exécute le programme
 
 :::info[Conseil pour l'enseignant]
 
