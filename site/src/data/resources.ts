@@ -3721,7 +3721,8 @@ export const resources: Resource[] = [
     title: 'Prise en main du capteur de lumière',
     slug: '/ressources/inovmicro-exao/i11-capteur-lumiere',
     project: 'inovmicro-exao',
-    summary: 'Prise en main de la carte éducative STeaMi : découverte du capteur APDS-9960',
+    summary:
+      'Lire le capteur APDS-9960 intégré à la STeaMi, observer les variations de lumière dans Thonny et piloter la LED RGB selon un seuil.',
     disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
     software: ['python'],
