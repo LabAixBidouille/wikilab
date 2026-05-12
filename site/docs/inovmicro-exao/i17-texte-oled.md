@@ -16,7 +16,7 @@ sidebar_position: 17
   <span className="badge badge--warning">MicroPython</span>
 </div>
 
-| Projet        | Durée  | Difficulté | Âge       | Version MicroPython testée |
+| Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------ | ---------- | --------- | -------------------------- |
 | I-Novmicro #2 | 60 min | Intermédiaire   | 11-15 ans | 0.23.1                     |
 
@@ -34,7 +34,7 @@ sidebar_position: 17
 
 ## De quoi parle-t-on ?
 
-Programmer une carte électronique, c'est parfois travailler dans une « boîte noire » : on ne voit pas ce qui s'y passe. L'écran OLED de la STeaMi permet d'**afficher des informations issues du programme** — un message d'accueil, l'état d'un capteur, la valeur d'une variable — pour rendre visible le comportement de la carte.
+Programmer une carte électronique, c'est parfois travailler dans une « boîte noire » : on ne voit pas ce qui s'y passe. L'écran OLED de la STeaMi permet d'**afficher des informations issues du programme** : un message d'accueil, l'état d'un capteur, la valeur d'une variable, pour rendre visible le comportement de la carte.
 
 Cette fiche met en pratique l'affichage de texte sur l'écran OLED 128×128 de la STeaMi, en MicroPython, à l'aide de la bibliothèque haut niveau `steami_screen`.
 
@@ -49,7 +49,7 @@ Cette fiche met en pratique l'affichage de texte sur l'écran OLED 128×128 de l
 - Faire évoluer l'affichage dans le temps pour suivre l'état d'une variable du programme
 ---
 
-## Étape 1 — Construire
+## Étape 1 : Construire
 
 Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux choses à faire avant de programmer.
 
@@ -91,7 +91,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
 
 ---
 
-## Étape 2 — Programmer
+## Étape 2 : Programmer
 
 ### Code
 
@@ -153,7 +153,7 @@ La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'affi
     <text x="28" y="183" textAnchor="middle" fontFamily="monospace" fontSize="9" fill="#8a6e18">"SW"</text>
     <text x="172" y="183" textAnchor="middle" fontFamily="monospace" fontSize="9" fill="#8a6e18">"SE"</text>
     <text x="100" y="104" textAnchor="middle" fontFamily="monospace" fontSize="11" fontWeight="bold" fill="#8a6e18">"CENTER"</text>
-    <text x="100" y="200" textAnchor="middle" fontFamily="sans-serif" fontSize="8" fill="#8a6e18" opacity="0.7">Écran 128 × 128 pixels — origine (0,0) en haut à gauche</text>
+    <text x="100" y="200" textAnchor="middle" fontFamily="sans-serif" fontSize="8" fill="#8a6e18" opacity="0.7">Écran 128 × 128 pixels, origine (0,0) en haut à gauche</text>
   </svg>
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
     Les neuf positions cardinales utilisables avec `screen.text(texte, at=...)`.
@@ -175,7 +175,7 @@ Couleurs disponibles dans `steami_screen` : `BLACK`, `DARK`, `GRAY`, `LIGHT`, `W
 :::warning Étape importante : `screen.show()`
 On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`… dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
 
-Techniquement, ce « tableau caché » s'appelle un **framebuffer** — une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
+Techniquement, ce « tableau caché » s'appelle un **framebuffer** : une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
 :::
 
 :::tip API bas niveau
@@ -184,9 +184,9 @@ Si vous avez besoin de coordonnées exactes (par exemple pour une animation pixe
 
 ---
 
-## Étape 3 — Améliorer
+## Étape 3 : Améliorer
 
-Quatre défis dans l'esprit de la fiche d'origine, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2 — on le rappelle ici une fois pour gagner de la place :
+Quatre défis dans l'esprit de la fiche d'origine, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2, on le rappelle ici une fois pour gagner de la place :
 
 ```python
 # Bloc d'initialisation commun à tous les défis ci-dessous.
@@ -205,7 +205,7 @@ display = SSD1327Display(raw)
 screen  = Screen(display)
 ```
 
-### Défi 1 — Afficher le cœur en grand
+### Défi 1 : Afficher le cœur en grand
 
 `screen.text()` accepte un paramètre `scale` qui agrandit le texte. Essayer `screen.text("<3", at="CENTER", scale=3)`. Quelle est la limite avant que le texte ne sorte de l'écran ?
 
@@ -220,7 +220,7 @@ screen  = Screen(display)
   </figcaption>
 </figure>
 
-### Défi 2 — Animation à La Linea
+### Défi 2 : Animation à La Linea
 
 Avec une boucle `while`, créer une animation simple qui fait avancer un personnage minimaliste fait des symboles `|` et `_`. Utiliser `sleep_ms(100)` pour ralentir le mouvement et ne pas oublier d'appeler `screen.clear()` au début de chaque image pour effacer l'écran.
 
@@ -250,13 +250,13 @@ while True:
   </figcaption>
 </figure>
 
-### Défi 3 — État du bouton USER
+### Défi 3 : État du bouton USER
 
 Afficher en temps réel si le bouton A de la STeaMi est pressé ou non, par exemple avec `screen.title("A: ON")` ou `screen.title("A: OFF")`. Que se passe-t-il avec un `sleep_ms(1000)` long dans la boucle ? Comment améliorer la réactivité ? *(Indice : raccourcir le délai. Pour aller plus loin (terminale informatique), explorer la programmation asynchrone avec `uasyncio`.)*
 
-### Défi 4 — Tableau de bord capteurs
+### Défi 4 : Tableau de bord capteurs
 
-Afficher simultanément plusieurs valeurs en utilisant les positions cardinales pour répartir l'information sur l'écran. Voici un squelette qui anime des valeurs simulées — l'objectif ici est de maîtriser la **mise en page**, pas la lecture des capteurs.
+Afficher simultanément plusieurs valeurs en utilisant les positions cardinales pour répartir l'information sur l'écran. Voici un squelette qui anime des valeurs simulées, l'objectif ici est de maîtriser la **mise en page**, pas la lecture des capteurs.
 
 ```python
 # Testée avec firmware STeaMi 0.23.1
@@ -267,7 +267,7 @@ from math import sin
 
 t = 0
 while True:
-    # Valeurs simulées — à remplacer par la lecture réelle des capteurs.
+    # Valeurs simulées, à remplacer par la lecture réelle des capteurs.
     temp = 22 + 3 * sin(t / 5)
     humi = 50 + 10 * sin(t / 7)
     accel_z = sin(t / 3)
@@ -300,12 +300,12 @@ Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les c
 
 ## Ressources et liens utiles
 
-- [Wiki STeaMi — Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé, écran OLED)
-- [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib) — code source de `steami_screen` et `ssd1327`
-- [Documentation `framebuf`](https://docs.micropython.org/en/latest/library/framebuf.html) — API bas niveau de dessin sur framebuffer
+- [Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé, écran OLED)
+- [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib) : code source de `steami_screen` et `ssd1327`
+- [Documentation `framebuf`](https://docs.micropython.org/en/latest/library/framebuf.html) : API bas niveau de dessin sur framebuffer
 - [Documentation MicroPython](https://docs.micropython.org/)
-- **Widgets de `steami_screen`** : `title()`, `subtitle()`, `value()`, `bar()`, `gauge()`, `graph()`, `menu()`, `compass()`, `watch()`, `face()` — pour transformer rapidement la STeaMi en tableau de bord ou en jouet interactif.
+- **Widgets de `steami_screen`** : `title()`, `subtitle()`, `value()`, `bar()`, `gauge()`, `graph()`, `menu()`, `compass()`, `watch()`, `face()`, pour transformer rapidement la STeaMi en tableau de bord ou en jouet interactif.
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as10-ecran-oled`](/ressources/lets-steam/r1as10-ecran-oled)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as10-ecran-oled`](/ressources/lets-steam/r1as10-ecran-oled)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._
 

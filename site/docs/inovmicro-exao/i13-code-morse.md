@@ -1,5 +1,5 @@
 ---
-id: i13-morse
+id: i13-code-morse
 title: Envoyer des messages en code Morse avec la STeaMi
 sidebar_label: "Code Morse"
 sidebar_position: 13
@@ -318,5 +318,5 @@ C'est un excellent exercice pour découvrir les **structures de données** (dict
 - [Wiki STeaMi : Boutons et buzzer](https://wiki.steami.cc/docs/hardware/main-components/buttons-audio) : description matérielle du buzzer et des boutons sur la carte.
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as06-morse`](/ressources/lets-steam/r1as06-morse)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as06-morse`](/ressources/lets-steam/r1as06-morse)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 

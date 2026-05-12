@@ -12,7 +12,7 @@ sidebar_position: 2
 <!--
   Icône SVG inline du titre (à côté du H1).
   Le SVG ci-dessous représente la carte STeaMi (placeholder par défaut).
-  Pour ta fiche, remplace-le par une icône thématique de l'activité, en flat-design,
+  Pour votre fiche, remplacez-le par une icône thématique de l'activité, en flat-design,
   dans la couleur du projet (#8a6e18) avec les opacités 0.1 / 0.25 / 1.0
   (cf. CONVENTIONS.md, section "Header").
 -->
@@ -27,16 +27,16 @@ sidebar_position: 2
   <span className="badge badge--warning">MicroPython</span>
 </div>
 
-| Projet        | Durée                | Difficulté                                 | Âge                    | Version MicroPython testée |
-| ------------- | -------------------- | ------------------------------------------ | ---------------------- | -------------------------- |
-| I-Novmicro #2 | <!-- ex: 45 min -->  | <!-- Débutant / Intermédiaire / Avancé --> | <!-- ex: 11-99 ans --> | <!-- ex: 1.23.1 -->        |
+| Projet        | Durée               | Difficulté                                 | Âge                    | Logiciel STeaMi testé |
+| ------------- | ------------------- | ------------------------------------------ | ---------------------- | --------------------- |
+| I-Novmicro #2 | <!-- ex: 45 min --> | <!-- Débutant / Intermédiaire / Avancé --> | <!-- ex: 11-99 ans --> | <!-- ex: 0.23.1 -->   |
 
 ## Matériel et Montage
 
 <!-- Lister le matériel nécessaire, une ligne par item -->
 
 - 1 carte STeaMi
-- 1 câble USB-C
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur avec navigateur web
 
 </div>
@@ -48,7 +48,7 @@ sidebar_position: 2
 
   La taille 225×225 est la convention du wiki ; le comportement responsive global
   du header (icône qui peut s'écraser sur très petit écran) est un sujet
-  qui dépasse le scope d'une fiche unique — à traiter au niveau du CSS global.
+  qui dépasse le scope d'une fiche unique, à traiter au niveau du CSS global.
 -->
 <img src="/img/ressources/inovmicro-exao/<id-fiche>/icone.png" alt="<description courte de la fiche>" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
@@ -80,7 +80,7 @@ sidebar_position: 2
 
 ---
 
-## Étape 1 — Construire
+## Étape 1 : Construire
 
 <!--
   Décrire le câblage / l'assemblage matériel.
@@ -102,7 +102,7 @@ sidebar_position: 2
 
 ---
 
-## Étape 2 — Programmer
+## Étape 2 : Programmer
 
 <!--
   Présenter le code progressivement :
@@ -112,13 +112,13 @@ sidebar_position: 2
 -->
 
 ```python
-# Testée avec firmware STeaMi 1.23.1
+# Testée avec firmware STeaMi 0.23.1
 #
 ```
 
 ---
 
-## Étape 3 — Améliorer
+## Étape 3 : Améliorer
 
 <!--
   Proposer 2 ou 3 pistes d'extension / variations :
@@ -131,8 +131,8 @@ sidebar_position: 2
 
 <!-- Footer pour fiches originales (i01-i07) : -->
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 
 <!-- Footer pour fiches portées de Let's STEAM (i08-i22), à utiliser à la place du footer ci-dessus :
-*Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asXX-nom`](/ressources/lets-steam/r1asXX-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+*Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asXX-nom`](/ressources/lets-steam/r1asXX-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
 -->

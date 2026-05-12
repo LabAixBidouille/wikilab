@@ -3675,7 +3675,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i17-texte-oled',
     project: 'inovmicro-exao',
     summary:
-      "Porter sur la STeaMi la fiche Let's STEAM R1AS10 : afficher du texte sur l'écran OLED 128×128 intégré, en MicroPython avec la bibliothèque steami_screen. Positions cardinales, framebuffer, animation et mise en page d'un tableau de bord.",
+      "Afficher du texte sur l'écran OLED 128×128 intégré à la STeaMi, en MicroPython avec la bibliothèque steami_screen. Positions cardinales, framebuffer, animation et mise en page d'un tableau de bord.",
     disciplines: ['informatique', 'technologie'],
     tools: ['steami'],
     software: ['python'],
@@ -3736,9 +3736,9 @@ export const resources: Resource[] = [
     thumbnail: '/img/ressources/inovmicro-exao/i11-capteur-lumiere/icone.png',
   },
   {
-    id: 'i13-morse',
-    title: 'Découvrir le buzzer de la STeaMi',
-    slug: '/ressources/inovmicro-exao/i13-morse',
+    id: 'i13-code-morse',
+    title: 'Envoyer des messages en code Morse avec la STeaMi',
+    slug: '/ressources/inovmicro-exao/i13-code-morse',
     project: 'inovmicro-exao',
     summary:
       "Programmer un émetteur Morse avec le buzzer piézo intégré et les boutons A et B de la STeaMi. Génération d'une fréquence audio par bascule rapide d'une broche, codage à longueur variable et envoi de messages en code Morse international.",

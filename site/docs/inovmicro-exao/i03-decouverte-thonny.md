@@ -1,13 +1,13 @@
 ---
 id: i03-decouverte-thonny
-title: Thonny — Prise en main de MicroPython sur la STeaMi
+title: "Thonny : Prise en main de MicroPython sur la STeaMi"
 sidebar_label: "Thonny"
 sidebar_position: 3
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="14" rx="2" fill="#8a6e18" opacity="0.1"/><rect x="3" y="4" width="18" height="3" rx="1" fill="#8a6e18" opacity="0.3"/><circle cx="5.5" cy="5.5" r="0.5" fill="#8a6e18"/><circle cx="7" cy="5.5" r="0.5" fill="#8a6e18"/><circle cx="8.5" cy="5.5" r="0.5" fill="#8a6e18"/><polyline points="6,11 8,13 6,15" fill="none" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/><polyline points="9,11 11,13 9,15" fill="none" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/><line x1="13" y1="15" x2="18" y2="15" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="20" x2="18" y2="20" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="18" x2="12" y2="20" stroke="#8a6e18" strokeWidth="1.5"/></svg> Thonny — Prise en main de MicroPython sur la STeaMi
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="3" y="4" width="18" height="14" rx="2" fill="#8a6e18" opacity="0.1"/><rect x="3" y="4" width="18" height="3" rx="1" fill="#8a6e18" opacity="0.3"/><circle cx="5.5" cy="5.5" r="0.5" fill="#8a6e18"/><circle cx="7" cy="5.5" r="0.5" fill="#8a6e18"/><circle cx="8.5" cy="5.5" r="0.5" fill="#8a6e18"/><polyline points="6,11 8,13 6,15" fill="none" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/><polyline points="9,11 11,13 9,15" fill="none" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/><line x1="13" y1="15" x2="18" y2="15" stroke="#8a6e18" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="20" x2="18" y2="20" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="18" x2="12" y2="20" stroke="#8a6e18" strokeWidth="1.5"/></svg> Thonny : Prise en main de MicroPython sur la STeaMi
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
@@ -16,7 +16,7 @@ sidebar_position: 3
   <span className="badge badge--warning">MicroPython</span>
   <span className="badge badge--secondary">Thonny</span>
 </div>
-| Projet        | Durée   | Difficulté | Âge       | Version STeaMi testée |
+| Projet        | Durée   | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------- | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 40 min  | Débutant   | 11-99 ans | 0.23.1                |
 
@@ -35,7 +35,7 @@ sidebar_position: 3
 ## De quoi parle-t-on ?
 
 Programmer une carte microcontrôleur peut sembler intimidant : plusieurs logiciels à installer, environnement à configurer, code à envoyer vers la carte…
-**Thonny** est un éditeur Python conçu pour l'apprentissage qui simplifie cette mise en route. Couplé à **MicroPython** — une version de Python adaptée aux cartes électroniques — une fois installé sur la STeaMi, il offre un environnement **gratuit et hors-ligne** où l'on peut écrire du code, le tester en direct dans le **REPL** (une fenêtre de dialogue où l'on tape une instruction et la carte y répond immédiatement), et déboguer pas-à-pas.
+**Thonny** est un éditeur Python conçu pour l'apprentissage qui simplifie cette mise en route. Couplé à **MicroPython** : une version de Python adaptée aux cartes électroniques, une fois installé sur la STeaMi, il offre un environnement **gratuit et hors-ligne** où l'on peut écrire du code, le tester en direct dans le **REPL** (une fenêtre de dialogue où l'on tape une instruction et la carte y répond immédiatement), et déboguer pas-à-pas.
 
 Cette fiche met en place tout l'environnement de travail : installation de Thonny, installation de MicroPython sur la carte, configuration de la communication entre Thonny et la carte, et écriture d'un premier programme qui pilote la **LED RGB** de la STeaMi avec ses **boutons A et B**. À privilégier en salle informatique avec postes fixes ; pour des postes verrouillés ou en mobilité, préférer **Vittascience** (en ligne).
 
@@ -50,7 +50,7 @@ Cette fiche met en place tout l'environnement de travail : installation de Thonn
 - Identifier la différence entre exécution temporaire (Run) et programme persistant (`main.py`)
 ---
 
-## Étape 1 — Construire
+## Étape 1 : Construire
 
 Ici, "construire" veut dire mettre en place l'environnement logiciel : installer Thonny, installer MicroPython sur la carte, et configurer la communication entre les deux.
 
@@ -165,7 +165,7 @@ Type "help()" for more information.
 
 ---
 
-## Étape 2 — Programmer
+## Étape 2 : Programmer
 
 Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé**. Sur la STeaMi, la LED RGB s'allume en écrivant `1` sur la broche, et s'éteint avec `0`. Les boutons A et B, eux, fonctionnent à l'envers : leur valeur vaut `1` au repos et passe à `0` quand on appuie (une résistance présente sur la carte impose ce comportement, on n'a rien à faire dans le code).
 
@@ -173,9 +173,9 @@ Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé*
 
 | Composant       | Nom dans le programme | Comportement                          |
 | --------------- | --------------------- | ------------------------------------- |
-| LED RGB — Rouge | `LED_RED`             | 1 = allumée, 0 = éteinte              |
-| LED RGB — Verte | `LED_GREEN`           | 1 = allumée, 0 = éteinte              |
-| LED RGB — Bleue | `LED_BLUE`            | 1 = allumée, 0 = éteinte              |
+| LED RGB Rouge | `LED_RED`             | 1 = allumée, 0 = éteinte              |
+| LED RGB Verte | `LED_GREEN`           | 1 = allumée, 0 = éteinte              |
+| LED RGB Bleue | `LED_BLUE`            | 1 = allumée, 0 = éteinte              |
 | Bouton A        | `A_BUTTON`            | 0 = appuyé, 1 = relâché               |
 | Bouton B        | `B_BUTTON`            | 0 = appuyé, 1 = relâché               |
 
@@ -184,7 +184,7 @@ Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé*
 ```python
 # Testée avec firmware STeaMi 0.23.1
 #
-# Premier programme STeaMi avec Thonny — LED RGB + boutons A/B
+# Premier programme STeaMi avec Thonny, LED RGB + boutons A/B
 # - Bouton A     -> LED rouge
 # - Bouton B     -> LED verte
 # - A + B        -> LED bleue
@@ -283,7 +283,7 @@ Quand un programme est déjà en cours d'exécution sur la carte (par exemple un
 
 ---
 
-## Étape 3 — Améliorer
+## Étape 3 : Améliorer
 
 Une fois le premier programme fonctionnel, trois pistes pour aller plus loin avec Thonny.
 
@@ -291,7 +291,7 @@ Une fois le premier programme fonctionnel, trois pistes pour aller plus loin ave
 
 Le **REPL** (`>>>` dans le panneau Shell) permet de tester du code **directement sur la carte**, sans créer de fichier. Pratique pour la découverte et le débogage.
 
-Dans l'exemple ci-dessous, les `>>>` représentent le prompt — c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit le prompt.
+Dans l'exemple ci-dessous, les `>>>` représentent le prompt, c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit le prompt.
 
 ```python
 # Allumer la LED rouge à la main
@@ -360,14 +360,14 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 
 ## Ressources et liens utiles
 
-- [Site STeaMi](https://www.steami.cc/) — présentation matérielle
-- [Wiki STeaMi — Thonny](https://wiki.steami.cc/docs/software/micropython/thonny)
-- [Wiki STeaMi — Premiers pas](https://wiki.steami.cc/docs/software/getting-started)
-- [Wiki STeaMi — Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé)
+- [Site STeaMi](https://www.steami.cc/) : présentation matérielle
+- [Wiki STeaMi : Thonny](https://wiki.steami.cc/docs/software/micropython/thonny)
+- [Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)
+- [Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé)
 - [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)
 - [Documentation MicroPython](https://docs.micropython.org/)
 - [thonny.org](https://thonny.org/)
-- [MOOC FUN — Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)
+- [MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._

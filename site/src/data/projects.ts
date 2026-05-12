@@ -447,7 +447,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   },
   'inovmicro-exao': {
     id: 'inovmicro-exao',
-    name: 'I-Novmicro #2 — Action EXAO',
+    name: 'I-Novmicro #2 : Action EXAO',
     logo: '/img/logos/exao.png',
     color: '#8a6e18',
     colorSecondary: '#8a6e18',
