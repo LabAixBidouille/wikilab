@@ -1,6 +1,6 @@
 ---
 id: i03-decouverte-thonny
-title: Thonny : Prise en main de MicroPython sur la STeaMi
+title: "Thonny : Prise en main de MicroPython sur la STeaMi"
 sidebar_label: "Thonny"
 sidebar_position: 3
 ---
