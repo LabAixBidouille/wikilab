@@ -1,0 +1,56 @@
+name: Optimize images
+
+# Compresse automatiquement les images ajoutées ou modifiées dans une PR,
+# puis commite les versions optimisées dans la branche source et poste un
+# commentaire récapitulatif avec les gains par fichier.
+#
+# Cible : éviter d'avoir à compresser à la main avant push (cf. PR #67 et
+# #70 où plusieurs JPEG dépassaient 2 Mo).
+
+on:
+  pull_request:
+    paths:
+      - 'site/static/img/**/*.jpg'
+      - 'site/static/img/**/*.jpeg'
+      - 'site/static/img/**/*.png'
+      - 'site/static/img/**/*.gif'
+      - 'site/static/img/**/*.webp'
+
+# Annuler les runs précédents si plusieurs pushes arrivent rapidement
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  optimize:
+    name: Compress images
+    # Ne tourne pas sur les PR depuis un fork : le GITHUB_TOKEN n'a pas
+    # le droit d'écrire dans le fork. Les contributeur·rices externes
+    # devront compresser à la main, ou faire une PR depuis une branche
+    # de l'org. À reconsidérer plus tard avec un PAT si on accueille des
+    # contributions externes régulières.
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          # compressOnly: false → l'action commit + poste un récap sur la PR.
+          compressOnly: false
+          # Les SVG sont écrits à la main dans les fiches (icônes, schémas)
+          # et ne doivent pas être recompressés.
+          ignorePaths: '**/*.svg'
+          jpegQuality: '80'
+          pngQuality: '80'
+          webpQuality: '80'
+          # Niveau 3 (max) pour les GIF animés type capture d'écran.
+          gifsicleOptimizationLevel: 3
