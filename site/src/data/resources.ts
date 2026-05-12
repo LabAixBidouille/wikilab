@@ -3753,6 +3753,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Morse', 'PWM', 'buzzer', 'piézo', 'codage'],
     thumbnail: '/img/ressources/inovmicro-exao/i13-code-morse/icone.png',
+  },
   {
     id: 'programmation-city-detective-challenge',
     title: 'Cartographie citoyenne avec uMap',
