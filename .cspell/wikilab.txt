@@ -170,6 +170,11 @@ APDS
 apds9960
 breadboard
 lumiere
+piézo
+piezo
+buzzer
+Morse
+morse
 
 # Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
 magnetics
