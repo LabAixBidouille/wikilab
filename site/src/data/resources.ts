@@ -3741,7 +3741,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i13-morse',
     project: 'inovmicro-exao',
     summary:
-      'Programmer un émetteur Morse avec le buzzer piézo intégré et les boutons A et B de la STeaMi. Découverte du PWM, du codage à longueur variable et envoi de messages en code Morse international.',
+      "Programmer un émetteur Morse avec le buzzer piézo intégré et les boutons A et B de la STeaMi. Génération d'une fréquence audio par bascule rapide d'une broche, codage à longueur variable et envoi de messages en code Morse international.",
     disciplines: ['informatique', 'technologie'],
     tools: ['steami'],
     software: ['python'],
