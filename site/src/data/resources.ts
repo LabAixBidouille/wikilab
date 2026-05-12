@@ -3751,7 +3751,7 @@ export const resources: Resource[] = [
     difficulty: 'avance',
     formats: ['programmation', 'experimentation'],
     categories: ['programmation'],
-    keywords: ['STeaMi', 'MicroPython', 'Morse', 'PWM', 'buzzer', 'piézo', 'codage'],
+    keywords: ['STeaMi', 'MicroPython', 'Morse', 'buzzer', 'piézo', 'codage'],
     thumbnail: '/img/ressources/inovmicro-exao/i13-code-morse/icone.png',
   },
   {
