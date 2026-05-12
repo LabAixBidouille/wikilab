@@ -26,7 +26,7 @@ sidebar_position: 11
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place — tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
+- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
 </div>
 <img src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
@@ -37,7 +37,7 @@ sidebar_position: 11
 
 Cette fiche explore une caractéristique clé de l'informatique embarquée : la possibilité de **mesurer une grandeur physique** avec un capteur, et de représenter graphiquement la façon dont cette grandeur **varie dans le temps**.
 
-La STeaMi intègre un capteur **APDS-9960** capable de mesurer la lumière ambiante, mais aussi les composantes **rouge, verte et bleue** de cette lumière, ainsi que la proximité d'un objet et certains gestes. Pour cette fiche, on se concentre sur la mesure de la lumière ambiante — la couleur sera abordée dans l'étape « Améliorer ».
+La STeaMi intègre un capteur **APDS-9960** capable de mesurer la lumière ambiante, mais aussi les composantes **rouge, verte et bleue** de cette lumière, ainsi que la proximité d'un objet et certains gestes. Pour cette fiche, on se concentre sur la mesure de la lumière ambiante, la couleur sera abordée dans l'étape « Améliorer ».
 
 L'avantage du capteur intégré : pas de breadboard ni de câblage. Tout passe par le bus **I2C** interne de la carte, ce qui permet de se concentrer sur la programmation et l'analyse des mesures.
 
@@ -53,7 +53,7 @@ L'avantage du capteur intégré : pas de breadboard ni de câblage. Tout passe p
 
 ---
 
-## Étape 1 — Construire
+## Étape 1 : Construire
 
 Ici, "construire" est rapide : tout le matériel nécessaire est déjà sur la carte.
 
@@ -74,17 +74,17 @@ Le capteur **APDS-9960** est soudé sur la face avant de la STeaMi, près de l'�
 
 :::info[Qu'est-ce qu'un capteur numérique I2C ?]
 
-Contrairement à une photorésistance qui fournit une tension variable lue par un convertisseur analogique-numérique, l'APDS-9960 est un **capteur numérique** : il fait lui-même la mesure et la conversion, puis envoie le résultat sous forme de **nombre** à la carte via une liaison appelée **I2C** (deux fils : SDA pour les données, SCL pour l'horloge). C'est ce qui permet d'avoir un seul composant qui mesure à la fois la lumière, la couleur, la proximité et les gestes — sans câblage supplémentaire.
+Contrairement à une photorésistance qui fournit une tension variable lue par un convertisseur analogique-numérique, l'APDS-9960 est un **capteur numérique** : il fait lui-même la mesure et la conversion, puis envoie le résultat sous forme de **nombre** à la carte via une liaison appelée **I2C** (deux fils : SDA pour les données, SCL pour l'horloge). C'est ce qui permet d'avoir un seul composant qui mesure à la fois la lumière, la couleur, la proximité et les gestes, sans câblage supplémentaire.
 
 :::
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny — Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
 
 ### Vérifier que le capteur répond
 
-Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que le capteur est bien détecté sur le bus I2C. Les `>>>` ci-dessous sont le prompt affiché par MicroPython dans la console pour indiquer qu'il attend une commande — ne les tapez pas, écrivez seulement ce qui suit.
+Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que le capteur est bien détecté sur le bus I2C. Les `>>>` ci-dessous sont le prompt affiché par MicroPython dans la console pour indiquer qu'il attend une commande, ne les tapez pas, écrivez seulement ce qui suit.
 
 ```python
 >>> from machine import I2C
@@ -93,11 +93,11 @@ Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que l
 ['0x1e', '0x29', '0x39', '0x55', '0x5d', '0x5f', '0x6b']
 ```
 
-L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répond — on peut passer à la programmation.
+L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répond, on peut passer à la programmation.
 
 ---
 
-## Étape 2 — Programmer
+## Étape 2 : Programmer
 
 Premier programme : **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre).
 
@@ -106,7 +106,7 @@ Premier programme : **lire la lumière ambiante toutes les demi-secondes et l'af
 ```python
 # Testée avec firmware STeaMi 0.23.1
 #
-# Capteur de lumière — lecture périodique de la lumière ambiante
+# Capteur de lumière, lecture périodique de la lumière ambiante
 # avec retour visuel sur la LED RGB :
 #   - lumière forte  -> LED verte
 #   - lumière faible -> LED rouge
@@ -163,7 +163,7 @@ Le programme tient en quatre éléments :
 
 :::info[Plage de valeurs]
 
-Le capteur retourne une valeur sur **16 bits**, donc entre **0** (obscurité totale) et **65535** (lumière très forte). En conditions normales d'éclairage de salle, on observe typiquement des valeurs de quelques dizaines à quelques milliers — il faudra peut-être ajuster `SEUIL_CLAIR` selon l'environnement. Une lampe pointée directement sur le capteur peut faire saturer la valeur à 65535.
+Le capteur retourne une valeur sur **16 bits**, donc entre **0** (obscurité totale) et **65535** (lumière très forte). En conditions normales d'éclairage de salle, on observe typiquement des valeurs de quelques dizaines à quelques milliers, il faudra peut-être ajuster `SEUIL_CLAIR` selon l'environnement. Une lampe pointée directement sur le capteur peut faire saturer la valeur à 65535.
 
 :::
 
@@ -199,7 +199,7 @@ Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affi
 
 ---
 
-## Étape 3 — Améliorer
+## Étape 3 : Améliorer
 
 Trois pistes pour aller plus loin avec le capteur de lumière.
 
@@ -214,9 +214,9 @@ Une amélioration plus avancée consiste à **transformer la valeur brute en pou
 
 ### 2. Lire les composantes RGB de la lumière
 
-L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est très différent — on peut, par exemple, distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que la simple lecture de `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
+L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est très différent, on peut, par exemple, distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que la simple lecture de `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
 
-Les lignes ci-dessous remplacent l'appel à `ambient_light()` dans la boucle du programme précédent — `sensor` est déjà initialisé en haut de fichier.
+Les lignes ci-dessous remplacent l'appel à `ambient_light()` dans la boucle du programme précédent, `sensor` est déjà initialisé en haut de fichier.
 
 ```python
 # Lire les quatre canaux du capteur (clair + RGB)
@@ -247,10 +247,10 @@ else:
 
 ## Aller plus loin
 
-- [Documentation du driver APDS-9960 sur la STeaMi](https://github.com/steamicc/micropython-steami-lib/blob/main/lib/apds9960/README.md) — toutes les fonctions disponibles, y compris la proximité et les gestes.
-- [Fiche technique du capteur APDS-9960 (Broadcom)](https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960) — caractéristiques détaillées du composant.
-- [Wiki STeaMi — Capteurs internes](https://wiki.steami.cc/docs/hardware/) — liste de tous les capteurs présents sur la carte.
-- [Documentation MicroPython — module `machine.I2C`](https://docs.micropython.org/en/latest/library/machine.I2C.html) — pour comprendre comment fonctionne le bus I2C en MicroPython.
+- [Documentation du driver APDS-9960 sur la STeaMi](https://github.com/steamicc/micropython-steami-lib/blob/main/lib/apds9960/README.md) : toutes les fonctions disponibles, y compris la proximité et les gestes.
+- [Fiche technique du capteur APDS-9960 (Broadcom)](https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960) : caractéristiques détaillées du composant.
+- [Wiki STeaMi : Capteurs internes](https://wiki.steami.cc/docs/hardware/) : liste de tous les capteurs présents sur la carte.
+- [Documentation MicroPython : module `machine.I2C`](https://docs.micropython.org/en/latest/library/machine.I2C.html) : pour comprendre comment fonctionne le bus I2C en MicroPython.
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
