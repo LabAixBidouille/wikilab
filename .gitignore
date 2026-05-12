@@ -23,3 +23,6 @@ projets/unplugged/Unplugged_Equal_FR.pdf
 *.mp4
 *.mov
 *.webm
+
+# Claude Code working artifacts
+.claude/
