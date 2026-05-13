@@ -119,12 +119,6 @@ La STeaMi dispose de deux types de connecteurs pour étendre ses fonctionnalité
 - La carte s'allume et apparaît comme une clé USB nommée **STEAMI** sur l'ordinateur
 - L'écran OLED affiche un message de démarrage
 
-:::info[Conseil]
-
-Si la carte est équipée d'une batterie, il est aussi possible de l'allumer sans ordinateur en utilisant l'interrupteur latéral.
-
-:::
-
 ### Étape 2 : Choisir un environnement de programmation
 
 Trois environnements sont supportés pour programmer la STeaMi :
