@@ -240,7 +240,7 @@ Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm
 Approche simple mais collaborative : les jeunes ont réalisé des essais de peinture sur les prototypes avec plusieurs associations de couleurs, puis ont validé collectivement le choix final (en prenant en compte les chocs et traces potentiels). Ils ont proposé des dessins sur une zone limitée et dédiée, le reste étant recouvert de stickers sélectionnés ensemble. Bandes de chant pour protéger les tranches.
 
 :::note[Ressources stickers et finitions]
-- [https://www.buzz-arcade.com/fr/36-stickers-bornes](https://www.buzz-arcade.com/fr/36-stickers-bornes)
+- ~~[https://www.buzz-arcade.com/fr/36-stickers-bornes](https://www.buzz-arcade.com/fr/36-stickers-bornes)~~ *(page supprimée)*
 - [https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html](https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html)
 - [https://stickergameshop.com/](https://stickergameshop.com/)
 - [https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/](https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/)
