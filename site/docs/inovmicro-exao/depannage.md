@@ -2,7 +2,6 @@
 id: depannage
 title: Dépannage STeaMi
 sidebar_label: 'Dépannage'
-sidebar_position: 99
 ---
 
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#8a6e18" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#8a6e18" opacity="0.25"/><path d="M9 9a3 3 0 1 1 4.5 2.6c-1 .55-1.5 1.1-1.5 2.4" fill="none" stroke="#8a6e18" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><circle cx="12" cy="17" r="1" fill="#8a6e18"/></svg> Dépannage STeaMi
@@ -74,17 +73,17 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 **Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu du prompt `>>>` de MicroPython.
 
-**Cause** : la carte a peut-être un autre firmware (MakeCode, CODAL, ou rien) au lieu de MicroPython.
+**Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
 **Solution** : (ré)installer MicroPython STeaMi en suivant la procédure de la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny), section *« Installer MicroPython sur la STeaMi »*. En résumé :
 
-1. Télécharger le fichier `steami-micropython-firmware-vX.Y.Z.hex` depuis les [releases du firmware](https://github.com/steamicc/micropython-steami-lib/releases).
+1. Télécharger le fichier `steami-micropython-firmware-vX.Y.Z.hex` (le logiciel interne MicroPython de la STeaMi) depuis les [versions publiées sur GitHub](https://github.com/steamicc/micropython-steami-lib/releases).
 2. Glisser ce fichier sur le disque `STEAMI` qui apparaît à l'ordinateur.
 3. Attendre que la LED de statut arrête de clignoter et que la carte redémarre (5 à 15 secondes).
 
 :::warning Attention au bon fichier
 
-Le repo `micropython-steami-lib` propose aussi un fichier `steami-daplink-firmware-...hex` qui n'a rien à voir avec MicroPython (c'est le firmware de l'interface de programmation). Bien choisir celui dont le nom commence par `steami-micropython-firmware-`.
+Le dépôt GitHub `micropython-steami-lib` propose aussi un fichier `steami-daplink-firmware-...hex` qui n'a rien à voir avec MicroPython (c'est le logiciel de l'interface de programmation, pas celui qui exécute vos programmes Python). Bien choisir celui dont le nom commence par `steami-micropython-firmware-`.
 
 :::
 

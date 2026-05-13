@@ -92,6 +92,10 @@ export interface Resource {
   keywords: string[];
   pdf?: string;
   thumbnail?: string;
+  // Force la position dans la sidebar : tri par (sidebarOrder, slug).
+  // Défaut implicite 0 → ordre alphabétique naturel. Valeur élevée
+  // (ex. 99) pour les pages transverses qui doivent rester en bas.
+  sidebarOrder?: number;
 }
 
 export const resources: Resource[] = [
@@ -3771,6 +3775,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'dépannage', 'port série', 'IDE'],
+    sidebarOrder: 99,
   },
   {
     id: 'programmation-city-detective-challenge',
