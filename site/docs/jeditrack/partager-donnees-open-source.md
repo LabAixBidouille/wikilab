@@ -77,28 +77,28 @@ Les données disponibles doivent être adaptées à chaque situation et à chaqu
 
 **Plateformes locales et régionales :**
 
-- Agglomération de La Rochelle : [https://opendata.agglo-larochelle.fr/accueil](https://opendata.agglo-larochelle.fr/accueil)
-- Grand Lyon : [https://data.grandlyon.com](https://data.grandlyon.com/)
-- Toulouse Métropole : [https://data.toulouse-metropole.fr](https://data.toulouse-metropole.fr/)
-- Paris : [https://opendata.paris.fr](https://opendata.paris.fr/)
-- Région Île-de-France : [https://data.iledefrance.fr](https://data.iledefrance.fr/)
-- Région Sud : [https://datasud.fr](https://datasud.fr/)
+- Agglomération de La Rochelle : https://opendata.agglo-larochelle.fr/accueil
+- Grand Lyon : https://data.grandlyon.com/
+- Toulouse Métropole : https://data.toulouse-metropole.fr/
+- Paris : https://opendata.paris.fr/
+- Région Île-de-France : https://data.iledefrance.fr/
+- Région Sud : https://datasud.fr/
 
 **Plateformes nationales :**
 
-- Portail national des données ouvertes : [https://www.data.gouv.fr](https://www.data.gouv.fr/)
-- Géorisques : [https://www.georisques.gouv.fr](https://www.georisques.gouv.fr/)
-- Géoportail IGN : [https://www.geoportail.gouv.fr](https://www.geoportail.gouv.fr/)
-- INSEE : [https://www.insee.fr](https://www.insee.fr/)
-- ATMO France (qualité de l'air) : [https://www.atmo-france.org](https://www.atmo-france.org/)
-- ADES (eaux souterraines) : [https://ades.eaufrance.fr](https://ades.eaufrance.fr/)
+- Portail national des données ouvertes : https://www.data.gouv.fr/
+- Géorisques : https://www.georisques.gouv.fr/
+- Géoportail IGN : https://www.geoportail.gouv.fr/
+- INSEE : https://www.insee.fr/
+- ATMO France (qualité de l'air) : https://www.atmo-france.org/
+- ADES (eaux souterraines) : https://ades.eaufrance.fr/
 
 **Plateformes européennes :**
 
-- Portail européen de données : [https://data.europa.eu](https://data.europa.eu/)
-- Agence Européenne de l'Environnement : [https://www.eea.europa.eu/data-and-maps](https://www.eea.europa.eu/data-and-maps)
-- Copernicus Climate Data Store : [https://climate.copernicus.eu/climate-data-store](https://climate.copernicus.eu/climate-data-store)
-- Copernicus Land Monitoring : [https://land.copernicus.eu](https://land.copernicus.eu/)
+- Portail européen de données : https://data.europa.eu/
+- Agence Européenne de l'Environnement : https://www.eea.europa.eu/data-and-maps
+- Copernicus Climate Data Store : https://climate.copernicus.eu/climate-data-store
+- Copernicus Land Monitoring : https://land.copernicus.eu/
 
 ### L'enrichissement pendant l'expérimentation
 
@@ -164,14 +164,14 @@ La transformation des données brutes en visualisations compréhensibles constit
 - **Usage** : Créer des cartes interactives avec les observations terrain
 - **Avantages** : Gratuit, simple, résultats immédiatement visibles
 - **Formation** : 2h suffisent pour maîtriser l'essentiel avec un groupe
-- **Lien** : [https://umap.openstreetmap.fr/](https://umap.openstreetmap.fr/)
+- **Lien** : https://umap.openstreetmap.fr/
 
 **Datawrapper - Visualisations simples**
 
 - **Usage** : Transformer les données en graphiques et cartes interactives
 - **Avantages** : Interface intuitive, rendu professionnel
 - **Formation** : Tutoriels en ligne, apprentissage autonome possible
-- **Lien** : [https://datawrapper.de/](https://datawrapper.de/)
+- **Lien** : https://datawrapper.de/
 
 **Grafana - Tableaux de bord avancés**
 
@@ -255,17 +255,17 @@ Le respect du Règlement Général sur la Protection des Données impose de veil
 
 ## Références
 
-- [https://www.data.gouv.fr](https://www.data.gouv.fr/) (portail national français)
-- [https://data.europa.eu](https://data.europa.eu/) (portail européen)
-- [https://www.geoportail.gouv.fr](https://www.geoportail.gouv.fr/) (cartes et géographie)
-- [https://umap.openstreetmap.fr/](https://umap.openstreetmap.fr/) (cartes collaboratives)
-- [https://datawrapper.de/](https://datawrapper.de/) (graphiques et visualisations)
-- [https://framaforms.org/](https://framaforms.org/) (questionnaires et sondages)
-- [https://postimg.cc/](https://postimg.cc/) (hébergement d'images)
-- [https://www.opendatafrance.net/](https://www.opendatafrance.net/) (réseau des collectivités)
-- [https://www.cnil.fr/fr/educnum](https://www.cnil.fr/fr/educnum) (protection des données)
-- [https://creativecommons.fr/](https://creativecommons.fr/) (licences ouvertes)
-- [https://fing.org/](https://fing.org/) (innovation numérique participative)
+- https://www.data.gouv.fr/ (portail national français)
+- https://data.europa.eu/ (portail européen)
+- https://www.geoportail.gouv.fr/ (cartes et géographie)
+- https://umap.openstreetmap.fr/ (cartes collaboratives)
+- https://datawrapper.de/ (graphiques et visualisations)
+- https://framaforms.org/ (questionnaires et sondages)
+- https://postimg.cc/ (hébergement d'images)
+- https://www.opendatafrance.net/ (réseau des collectivités)
+- https://www.cnil.fr/fr/educnum (protection des données)
+- https://creativecommons.fr/ (licences ouvertes)
+- https://fing.org/ (innovation numérique participative)
 
 ---
 

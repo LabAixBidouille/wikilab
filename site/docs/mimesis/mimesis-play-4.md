@@ -212,19 +212,19 @@ Dans cette activité, les élèves apprendront quelques techniques de base du th
 
 **Flocons de neige** : Un processus de changement intéressant est celui de la création des flocons de neige. Est-il possible que l'eau passe directement de l'état gazeux à l'état solide ? Pourquoi les flocons de neige sont-ils uniques ? Apprenons-en davantage sur le sujet et créons nos flocons de neige uniques :
 
-- en utilisant des modèles imprimables : [https://littlebinsforlittlehands.com/snowflake-template/](https://littlebinsforlittlehands.com/snowflake-template/)
-- en dessinant votre motif en commençant par 3 lignes croisées : [https://iheartcraftythings.com/snowflake-drawing.html](https://iheartcraftythings.com/snowflake-drawing.html)
+- en utilisant des modèles imprimables : https://littlebinsforlittlehands.com/snowflake-template/
+- en dessinant votre motif en commençant par 3 lignes croisées : https://iheartcraftythings.com/snowflake-drawing.html
 
 **Théâtre physique** : Si l'enseignant est intéressé par le thème du théâtre physique, voici des ressources pertinentes à explorer :
 
-- [https://www.youtube.com/watch?v=dL97TvbE0bk](https://www.youtube.com/watch?v=dL97TvbE0bk)
-- [https://www.youtube.com/watch?v=vNVPumETpuA](https://www.youtube.com/watch?v=vNVPumETpuA)
-- [https://www.youtube.com/watch?v=oY-cKl71FmQ](https://www.youtube.com/watch?v=oY-cKl71FmQ)
+- https://www.youtube.com/watch?v=dL97TvbE0bk
+- https://www.youtube.com/watch?v=vNVPumETpuA
+- https://www.youtube.com/watch?v=oY-cKl71FmQ
 
 Jacques Lecoq est l'une des figures marquantes du développement du théâtre physique. Sa méthode consiste en grande partie à travailler avec un masque neutre et un masque larvaire. Une belle occasion de faire le lien entre le théâtre physique et le théâtre de masques, qui sera introduit dans l'acte 3 et l'acte 4 suivants :
 
-- [https://www.youtube.com/watch?v=tcuM5reT16E](https://www.youtube.com/watch?v=tcuM5reT16E)
-- [https://www.youtube.com/watch?v=FzHPu5xD_hg](https://www.youtube.com/watch?v=FzHPu5xD_hg)
+- https://www.youtube.com/watch?v=tcuM5reT16E
+- https://www.youtube.com/watch?v=FzHPu5xD_hg
 
 Ce sera un grand bénéfice pour les enfants si l'enseignant travaille en collaboration avec un comédien ou une comédienne formé·e au théâtre physique.
 
@@ -391,7 +391,7 @@ L'activité se termine par les félicitations de l'enseignant pour les excellent
 
 **Développement de l'intrigue** : L'imagination des enfants et l'enthousiasme du groupe peuvent permettre de développer la présentation des personnages en une intrigue avec un conflit, plusieurs événements consécutifs et une résolution. L'enseignant peut proposer qu'une personne du groupe assume le rôle de narrateur. Une opportunité de collaboration se présentera si le groupe invite un narrateur invité d'un autre groupe.
 
-**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité dans votre classe afin de vous épauler pendant les périodes de répétition où un accompagnement individuel plus précis pourrait être nécessaire. Une courte vidéo avec exemple d'entraînement physique avec masque pourrait également être présentée : [https://bptp.live/larval-mask/](https://bptp.live/larval-mask/)
+**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité dans votre classe afin de vous épauler pendant les périodes de répétition où un accompagnement individuel plus précis pourrait être nécessaire. Une courte vidéo avec exemple d'entraînement physique avec masque pourrait également être présentée : https://bptp.live/larval-mask/
 
 **Utilisation de la musique** : L'ajout de musique d'ambiance peut améliorer l'impact et l'expérience du spectacle. Les exemples de bandes sonores de l'acte 2 peuvent également être utilisés ici.
 
@@ -463,8 +463,8 @@ Lieu : Grèce ; époque : 5ème siècle avant JC.
 
 C'est le début du théâtre en tant qu'art que nous connaissons aujourd'hui. Nous avons tous vu à maintes reprises les deux masques de la tragédie et de la comédie qui sont les symboles de l'art théâtral.
 
-- Informations détaillées pour l'enseignant : [https://youtu.be/aSRLK7SogvE](https://youtu.be/aSRLK7SogvE)
-- Récits simples et amusants pour les enfants : [https://www.youtube.com/watch?v=rFDT-c6QGpk](https://www.youtube.com/watch?v=rFDT-c6QGpk)
+- Informations détaillées pour l'enseignant : https://youtu.be/aSRLK7SogvE
+- Récits simples et amusants pour les enfants : https://www.youtube.com/watch?v=rFDT-c6QGpk
 
 ### Théâtre Nô
 
@@ -472,8 +472,8 @@ Lieu : Japon ; époque : 14ème siècle.
 
 Une des formes théâtrales les plus anciennes et encore existantes. Le Nô étant une forme d'art utilisant des masques, il en existe une grande variété. Il existait à l'origine environ 60 types de masques nô de base, mais aujourd'hui, il en existe plus de 200 types différents.
 
-- [https://www.youtube.com/watch?v=88v-HYGAKMQ](https://www.youtube.com/watch?v=88v-HYGAKMQ)
-- [https://www.youtube.com/watch?v=w9kJXe_ckFM](https://www.youtube.com/watch?v=w9kJXe_ckFM)
+- https://www.youtube.com/watch?v=88v-HYGAKMQ
+- https://www.youtube.com/watch?v=w9kJXe_ckFM
 
 ### Commedia dell'arte
 
@@ -481,10 +481,10 @@ Lieu : Italie ; époque : 16ème - 18ème siècle.
 
 La Commedia dell'arte était une forme de théâtre populaire qui mettait l'accent sur le jeu d'ensemble et les improvisations. Les acteurs professionnels se spécialisaient généralement dans un rôle et développaient une technique de jeu comique inégalée, ce qui contribua à la popularité des troupes de commedia itinérantes qui parcouraient l'Europe.
 
-- [https://www.youtube.com/c/commediadellarteactortraining](https://www.youtube.com/c/commediadellarteactortraining)
-- [https://www.youtube.com/watch?v=4sjLWLG5z70](https://www.youtube.com/watch?v=4sjLWLG5z70)
-- [https://www.youtube.com/watch?v=xw8ky22vobI](https://www.youtube.com/watch?v=xw8ky22vobI)
-- [https://www.youtube.com/watch?v=HZLTWIz8_VY](https://www.youtube.com/watch?v=HZLTWIz8_VY)
+- https://www.youtube.com/c/commediadellarteactortraining
+- https://www.youtube.com/watch?v=4sjLWLG5z70
+- https://www.youtube.com/watch?v=xw8ky22vobI
+- https://www.youtube.com/watch?v=HZLTWIz8_VY
 
 <img src="/img/ressources/mimesis/mimesis-play-4/commediadelarte.png" alt="Commedia dell'arte" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
 

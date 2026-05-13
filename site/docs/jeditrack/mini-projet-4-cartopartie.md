@@ -106,7 +106,7 @@ Voici les critères essentiels pour vos cartes de cartopartie :
 - [ ]  Être divisées en plusieurs fiches si nécessaire pour une meilleure visibilité
 
 :::info[Notre choix : Milvusmap]
-[http://milvusmap.eu/](http://milvusmap.eu/)
+http://milvusmap.eu/
 Milvusmap est un outil en ligne gratuit qui permet de créer des cartes personnalisées à partir des données OpenStreetMap. Il offre une interface simple et intuitive pour générer des cartes au format PDF, idéales pour les cartoparties et autres activités de cartographie sur le terrain.
 Il offre des données de terrain en haute résolution et permet de générer des cartes multi-pages dans divers formats, allant du A5 au A3. Les utilisateurs peuvent choisir parmi une gamme d'échelles standard, de 1:50000 à 1:1000. Cet outil gratuit ne nécessite pas d'inscription et bénéficie de mises à jour régulières des données OpenStreetMap. Les cartes sont exportées au format PDF, ce qui facilite leur impression et leur utilisation lors des cartoparties.
 Les avantages principaux de l'outil qui nous ont poussé à le choisir sont :

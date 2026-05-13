@@ -81,7 +81,7 @@ Photo du montage du kit en MDF :
 
 #### Impression 3D
 
-Les boutons de commande de la carte n'étant plus accessibles une fois le kit assemblé, il est nécessaire d'imprimer des rallonges à l'aide de l'imprimante 3D. Le fichier correspondant est disponible sous l'appellation "bouton" dans le dépôt suivant : [https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)
+Les boutons de commande de la carte n'étant plus accessibles une fois le kit assemblé, il est nécessaire d'imprimer des rallonges à l'aide de l'imprimante 3D. Le fichier correspondant est disponible sous l'appellation "bouton" dans le dépôt suivant : https://github.com/LabAixBidouille/Kit_STM32
 
 #### Stickers
 
@@ -108,8 +108,8 @@ Pour faciliter l'utilisation du kit et le changement de plaques de TP, le câbla
 
 #### Composants
 
-[http://wiki.seeedstudio.com/Grove_System/](http://wiki.seeedstudio.com/Grove_System/)
+http://wiki.seeedstudio.com/Grove_System/
 
 #### Fichiers
 
-[https://github.com/LabAixBidouille/Kit_STM32](https://github.com/LabAixBidouille/Kit_STM32)
+https://github.com/LabAixBidouille/Kit_STM32

@@ -351,7 +351,7 @@ Au terme de cette activité complète d'analyse de l'impact du bruit sur l'appre
 
 Le bruit, défini comme une sensation auditive désagréable ou dérangeante, est omniprésent dans notre quotidien et constitue une source importante de pollution environnementale. Selon l'Agence européenne pour l'environnement, environ 95 millions de personnes sont exposées à des niveaux nocifs de bruit du trafic routier. Au moins 20 % de la population urbaine est exposée à des niveaux considérés comme nocifs pour la santé. Dans de nombreuses villes, ce pourcentage peut atteindre 50 % de la population urbaine. On estime qu'au moins 18 millions de personnes sont fortement gênées et 5 millions souffrent de troubles du sommeil dus à une exposition à long terme au bruit des transports dans l'UE. En outre, on estime que l'exposition à long terme au bruit des transports provoque environ 11 000 décès prématurés et 40 000 nouveaux cas de cardiopathie ischémique.
 
-[https://www.eea.europa.eu/en/topics/in-depth/noise](https://www.eea.europa.eu/en/topics/in-depth/noise)
+https://www.eea.europa.eu/en/topics/in-depth/noise
 
 Le bruit est une vibration sonore perçue par l'oreille humaine. Bien que certains sons soient perçus comme agréables ou neutres, le bruit devient nuisible lorsqu'il est ressenti comme désagréable, imprévisible ou incontrôlable. Ces caractéristiques peuvent transformer le bruit en facteur de stress et d'insatisfaction dans le cadre de vie ou de travail.
 
@@ -387,7 +387,7 @@ D'après les études de l'OMS, bien que la pollution atmosphérique cause davant
 
 La Directive 2002/49/CE, aussi appelée Directive sur le bruit environnemental, est une loi européenne qui vise à mesurer et à gérer les niveaux de bruit dans l'environnement pour protéger la santé des citoyens. Le bruit affecte au moins 1 Européen sur 5, causant des problèmes comme les maladies cardiovasculaires, les troubles du sommeil et la gêne.
 
-[https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0049](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0049)
+https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0049
 
 Elle met en place une approche commune dans l'Union Européenne pour identifier les niveaux de pollution sonore et agir sur eux. Elle poursuit les objectifs suivants :
 
@@ -402,7 +402,7 @@ La directive a été révisée pour améliorer les méthodes de calcul du bruit 
 
 La mise en oeuvre de la directive européenne sur le bruit n'a pas permis d'atteindre tous les objectifs, notamment en raison d'un manque de données et d'une production insuffisante de cartes de bruit et de plans d'action dans certaines régions. Néanmoins, diverses stratégies sont mises en place, telles que l'utilisation de revêtements routiers antibruit, le développement de véhicules électriques et la création de zones calmes dans les villes. Une approche combinée visant à réduire à la fois le bruit et la pollution de l'air pourrait optimiser les résultats pour la santé publique.
 
-[https://www.eea.europa.eu/publications/environmental-noise-in-europe](https://www.eea.europa.eu/publications/environmental-noise-in-europe)
+https://www.eea.europa.eu/publications/environmental-noise-in-europe
 
 ### Pistes d'extension
 
@@ -425,7 +425,7 @@ Dans les espaces publics et professionnels, des systèmes d'alerte sonore ou vis
 - **Animaker** : Création de vidéos animées, infographies vidéo, présentations vidéo, GIF animés. Modérément accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Aucun plan pour l'éducation.
 - **Powtoon** : Création de graphiques, présentations, vidéos, infographies, collaboration en temps réel. Accessible. Fonctionnalités gratuites : exportation de vidéos SD, accès limité aux ressources, filigrane sur les vidéos. Réduire les frais d'accès aux comptes professionnels pour les enseignants.
 - **Piktochart** : Création d'infographies, présentations, rapports, affiches. Très accessible. Fonctionnalités gratuites : Accès aux modèles de base, exportation limitée à certains formats, stockage limité. Tarifs réduits des comptes professionnels destinés aux enseignants.
-- **Freepik et Flaticon** : Accès à des ressources de conception, des icônes et des illustrations gratuites et premium. Très accessible. Fonctionnalités gratuites : Accès gratuit aux ressources de base avec attribution. Aucun plan pour l'éducation. [https://www.freepik.com](https://www.freepik.com) / [https://www.flaticon.com](https://www.flaticon.com)
+- **Freepik et Flaticon** : Accès à des ressources de conception, des icônes et des illustrations gratuites et premium. Très accessible. Fonctionnalités gratuites : Accès gratuit aux ressources de base avec attribution. Aucun plan pour l'éducation. https://www.freepik.com / https://www.flaticon.com
 
 ---
 

@@ -420,7 +420,7 @@ Concluez l'activité par une discussion collective centrée sur la collaboration
 
 ## Jeu de cartes : Order Overload : Mairie
 
-Le jeu introductif de la Phase 1 utilise « Order Overload : Mairie », un jeu de mémoire collaboratif où les élèves incarnent des réceptionnistes municipaux et doivent mémoriser un flux croissant de demandes citoyennes. Les règles complètes sont détaillées en Phase 1 ; le matériel imprimable est disponible gratuitement sur Canva, modifiable et réutilisable : [https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview](https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview).
+Le jeu introductif de la Phase 1 utilise « Order Overload : Mairie », un jeu de mémoire collaboratif où les élèves incarnent des réceptionnistes municipaux et doivent mémoriser un flux croissant de demandes citoyennes. Les règles complètes sont détaillées en Phase 1 ; le matériel imprimable est disponible gratuitement sur Canva, modifiable et réutilisable : https://www.canva.com/design/DAGBQgPsNuc/1OnCb0ANDTu_OEoi5gKLIw/view?mode=preview.
 
 :::tip[**Matériel imprimable inclus dans le PDF / Canva.**]
 - Cartes « Demandes » (15 pages recto + 15 pages verso optionnelles)
@@ -432,7 +432,7 @@ Impression conseillée en couleur sur papier épais ; nuances de gris possibles 
 
 ## Carnet du Détective
 
-Le Carnet du Détective accompagne les élèves tout au long du protocole. Il sert de support de **documentation** (notes, idées, solutions), de **réflexion** (analyse et liens entre informations) et de **collaboration** (outil collectif partagé à l'échelle de la classe). Une version imprimable est fournie dans le PDF, et une version en ligne est disponible sur Miroverse : [https://miro.com/miroverse/detective-clue-board/](https://miro.com/miroverse/detective-clue-board/).
+Le Carnet du Détective accompagne les élèves tout au long du protocole. Il sert de support de **documentation** (notes, idées, solutions), de **réflexion** (analyse et liens entre informations) et de **collaboration** (outil collectif partagé à l'échelle de la classe). Une version imprimable est fournie dans le PDF, et une version en ligne est disponible sur Miroverse : https://miro.com/miroverse/detective-clue-board/.
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 Le carnet se compose de trois sections, une par phase du protocole :

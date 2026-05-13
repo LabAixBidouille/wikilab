@@ -11,7 +11,15 @@
       "addWords": true
     }
   ],
-  "files": ["README.md", "CONTRIBUTING.md", "TESTING.md", "CLAUDE.md"],
+  "files": [
+    "README.md",
+    "CONTRIBUTING.md",
+    "TESTING.md",
+    "CLAUDE.md",
+    "CONVENTIONS.md",
+    "site/docs/**/*.md",
+    "site/docs/**/*.mdx"
+  ],
   "ignorePaths": [
     "node_modules",
     "site/build",
@@ -31,7 +39,8 @@
     "/import\\s+.*?from\\s+.*?;/g",
     "/\\b[A-Z][A-Z0-9_]{2,}\\b/g",
     "/(src|href)=[\"'][^\"']+[\"']/g",
-    "/\\/(img|pdf)\\/[^\\s\"'`)]+/g"
+    "/\\/(img|pdf)\\/[^\\s\"'`)]+/g",
+    "/^(id|slug|sidebar_label|sidebar_position):.*$/gm"
   ],
   "flagWords": [
     "developpement",

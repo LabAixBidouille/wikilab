@@ -137,10 +137,10 @@ Aidez le groupe à faire une synthèse collective en identifiant sur une carte g
 
 ## Références
 
-- Cartographie sensible, Quentin Lefèvre : [https://quentinlefevre.com/cartographie-sensible/](https://quentinlefevre.com/cartographie-sensible/) - Approche théorique et exemples pratiques de cartographies émotionnelles urbaines
-- La cartographie sensible, Tous à pied : [https://www.tousapied.be/articles/la-cartographie-sensible/](https://www.tousapied.be/articles/la-cartographie-sensible/) - Guide méthodologique pour l'animation de projets de cartographie sensible avec des groupes
-- Carte sensible, Glossaire GeoConfluences de Lyon : [https://geoconfluences.ens-lyon.fr/glossaire/carte-sensible](https://geoconfluences.ens-lyon.fr/glossaire/carte-sensible) - Définition académique et exemples d'usage pédagogique
-- La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal : [https://journals.openedition.org/vertigo/24604](https://journals.openedition.org/vertigo/24604) - Recherche sur l'usage pédagogique de la cartographie sensible
+- Cartographie sensible, Quentin Lefèvre : https://quentinlefevre.com/cartographie-sensible/ - Approche théorique et exemples pratiques de cartographies émotionnelles urbaines
+- La cartographie sensible, Tous à pied : https://www.tousapied.be/articles/la-cartographie-sensible/ - Guide méthodologique pour l'animation de projets de cartographie sensible avec des groupes
+- Carte sensible, Glossaire GeoConfluences de Lyon : https://geoconfluences.ens-lyon.fr/glossaire/carte-sensible - Définition académique et exemples d'usage pédagogique
+- La cartographie sensible et participative comme levier d'apprentissage de la géographie, Sophie Gaujal : https://journals.openedition.org/vertigo/24604 - Recherche sur l'usage pédagogique de la cartographie sensible
 
 ---
 

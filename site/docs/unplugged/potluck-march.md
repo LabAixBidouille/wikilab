@@ -112,8 +112,8 @@ L'enseignant demande aux joueurs situés à la ligne d'arrivée de compter le no
 
 ### Sujet 1 - Pauvreté et égalité
 
-- [https://www.verywellfamily.com/how-to-talk-to-kids-about-poverty-4142890](https://www.verywellfamily.com/how-to-talk-to-kids-about-poverty-4142890)
-- [https://educators4sc.org/topic-guides/teaching-about-hunger-and-poverty/](https://educators4sc.org/topic-guides/teaching-about-hunger-and-poverty/)
+- https://www.verywellfamily.com/how-to-talk-to-kids-about-poverty-4142890
+- https://educators4sc.org/topic-guides/teaching-about-hunger-and-poverty/
 
 ### Sujet 2 - Addition et soustraction, stratégie
 
@@ -121,7 +121,7 @@ Vous pouvez vous référer à [Biscuits et paix](/ressources/unplugged/biscuits-
 
 ### Sujet 3 - Nutrition
 
-- [https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2016/01/KidsHealthyEatingPlate_Guide_Jan2016.pdf](https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2016/01/KidsHealthyEatingPlate_Guide_Jan2016.pdf)
+- https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2016/01/KidsHealthyEatingPlate_Guide_Jan2016.pdf
 
 ---
 

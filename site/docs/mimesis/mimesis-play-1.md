@@ -197,12 +197,12 @@ L'enseignant·e explique que le système solaire n'est pas le seul système plan
 
 Pour mieux expliquer le fonctionnement d'un système planétaire, l'enseignant peut montrer les vidéos suivantes :
 
-- Qu'est-ce qu'une exoplanète : [https://www.youtube.com/watch?v=0ZOhJe_7GrE](https://www.youtube.com/watch?v=0ZOhJe_7GrE) (Saviez-vous que la première exoplanète en orbite autour d'une étoile de type solaire a été découverte en 1995 dans un observatoire des Alpes françaises ?)
+- Qu'est-ce qu'une exoplanète : https://www.youtube.com/watch?v=0ZOhJe_7GrE (Saviez-vous que la première exoplanète en orbite autour d'une étoile de type solaire a été découverte en 1995 dans un observatoire des Alpes françaises ?)
 - Les types d'exoplanètes :
-  - [https://www.youtube.com/watch?v=k1UcseLVNVc](https://www.youtube.com/watch?v=k1UcseLVNVc)
-  - [https://www.youtube.com/watch?v=4IXYp9Fse44](https://www.youtube.com/watch?v=4IXYp9Fse44)
-  - [https://www.youtube.com/watch?v=J04YN9azln8](https://www.youtube.com/watch?v=J04YN9azln8)
-- Qu'est-ce que la Zone habitable : [https://www.youtube.com/watch?v=J04YN9azln8](https://www.youtube.com/watch?v=J04YN9azln8)
+  - https://www.youtube.com/watch?v=k1UcseLVNVc
+  - https://www.youtube.com/watch?v=4IXYp9Fse44
+  - https://www.youtube.com/watch?v=J04YN9azln8
+- Qu'est-ce que la Zone habitable : https://www.youtube.com/watch?v=J04YN9azln8
 
 ### Activité principale
 
@@ -225,11 +225,11 @@ Ensuite, chaque enfant dessine (ou peint) sa propre planète. Une fois les plan�
 
 À l'aide de l'application Adobe Aero, l'enseignant peut créer une version en réalité augmentée du système solaire. Les enfants pourront ainsi prendre une photo de leur système solaire avec eux-mêmes dedans !
 
-Les enfants découpent leurs planètes et les prennent en photo sur un fond coloré. Les enseignants suppriment le fond de l'image à l'aide de n'importe quel outil gratuit en ligne : [https://www.remove.bg/fr](https://www.remove.bg/fr) ; [https://www.erase.bg/fr](https://www.erase.bg/fr)
+Les enfants découpent leurs planètes et les prennent en photo sur un fond coloré. Les enseignants suppriment le fond de l'image à l'aide de n'importe quel outil gratuit en ligne : https://www.remove.bg/fr ; https://www.erase.bg/fr
 
 L'enseignant télécharge les images sans arrière-plan dans l'application. Il crée une nouvelle scène pour chaque système et y place les planètes. Vous pouvez même animer les planètes pour qu'elles suivent une trajectoire ou tournent sur elles-mêmes.
 
-Le tutoriel pour Adobe Aero est disponible ici : [https://helpx.adobe.com/ca_fr/aero/tutorials.html](https://helpx.adobe.com/ca_fr/aero/tutorials.html)
+Le tutoriel pour Adobe Aero est disponible ici : https://helpx.adobe.com/ca_fr/aero/tutorials.html
 
 ---
 
@@ -299,29 +299,29 @@ Dans cette version, les groupes restent les mêmes que dans les actes précéden
 
 ### Thème 1 - Comprendre le concept d'infiniment grand
 
-- [https://www.youtube.com/watch?v=i93Z7zljQ7I](https://www.youtube.com/watch?v=i93Z7zljQ7I)
-- [https://openstax.org/books/astronomy/pages/11-2-the-giant-planets](https://openstax.org/books/astronomy/pages/11-2-the-giant-planets)
-- [https://www.youtube.com/watch?v=NIyjtgvRcnQ](https://www.youtube.com/watch?v=NIyjtgvRcnQ)
-- [https://www.youtube.com/watch?v=I7cajVnzm8k](https://www.youtube.com/watch?v=I7cajVnzm8k)
+- https://www.youtube.com/watch?v=i93Z7zljQ7I
+- https://openstax.org/books/astronomy/pages/11-2-the-giant-planets
+- https://www.youtube.com/watch?v=NIyjtgvRcnQ
+- https://www.youtube.com/watch?v=I7cajVnzm8k
 
 ### Thème 2 - Créer un système planétaire
 
-- [https://fr.scribd.com/article/509136083/Make-Your-Own-Solar-System-Mobile](https://fr.scribd.com/article/509136083/Make-Your-Own-Solar-System-Mobile)
-- [https://www.teacherspayteachers.com/Product/Make-your-own-SOLAR-SYSTEM-inclinstructions-all-designs-lesson-on-planets-5592770](https://www.teacherspayteachers.com/Product/Make-your-own-SOLAR-SYSTEM-inclinstructions-all-designs-lesson-on-planets-5592770)
-- [https://simpop.org/solar-system/solar-system.htm](https://simpop.org/solar-system/solar-system.htm)
+- https://fr.scribd.com/article/509136083/Make-Your-Own-Solar-System-Mobile
+- https://www.teacherspayteachers.com/Product/Make-your-own-SOLAR-SYSTEM-inclinstructions-all-designs-lesson-on-planets-5592770
+- https://simpop.org/solar-system/solar-system.htm
 
 ### Thème 3 - Zone Habitable : La Terre
 
-- [https://www.youtube.com/watch?v=J04YN9azln8](https://www.youtube.com/watch?v=J04YN9azln8)
-- [https://www.youtube.com/watch?v=6Ihbuy5g84g](https://www.youtube.com/watch?v=6Ihbuy5g84g)
+- https://www.youtube.com/watch?v=J04YN9azln8
+- https://www.youtube.com/watch?v=6Ihbuy5g84g
 
 ### Thème 4 - Exoplanètes
 
 Les exoplanètes font partie du système solaire. Voici quelques ressources vidéo pour vous aider à les comprendre.
 
-- [https://www.youtube.com/watch?v=0ZOhJe_7GrE](https://www.youtube.com/watch?v=0ZOhJe_7GrE)
-- [https://www.youtube.com/watch?v=k1UcseLVNVc](https://www.youtube.com/watch?v=k1UcseLVNVc)
-- [https://www.youtube.com/watch?v=4IXYp9Fse44](https://www.youtube.com/watch?v=4IXYp9Fse44)
+- https://www.youtube.com/watch?v=0ZOhJe_7GrE
+- https://www.youtube.com/watch?v=k1UcseLVNVc
+- https://www.youtube.com/watch?v=4IXYp9Fse44
 
 ---
 

@@ -76,9 +76,9 @@ sidebar_position: 1
 
 ## Liens utiles
 
-- Technique d'impression avec LEGO Dots : [https://www.youtube.com/watch?v=ebdl15nteck&t=16s](https://www.youtube.com/watch?v=ebdl15nteck&t=16s)
-- Informations sur le code binaire : [https://www.youtube.com/watch?v=USCBCmwMCDA](https://www.youtube.com/watch?v=USCBCmwMCDA)
-- À propos des Lego Dots : [https://www.lego.com/fr-fr/themes/dots/about](https://www.lego.com/fr-fr/themes/dots/about)
+- Technique d'impression avec LEGO Dots : https://www.youtube.com/watch?v=ebdl15nteck&t=16s
+- Informations sur le code binaire : https://www.youtube.com/watch?v=USCBCmwMCDA
+- À propos des Lego Dots : https://www.lego.com/fr-fr/themes/dots/about
 
 ## Information préliminaire - Codes des cadenas
 

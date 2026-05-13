@@ -193,7 +193,7 @@ Les enseignants présenteront les concepts d'attractifs (eau sucrée) et de conc
 - **Sécurité** : feuilles ou branchages pour permettre aux insectes de sortir facilement
 
 :::info[Notes pour l'enseignant·e]
-Des instructions de construction de piège sont disponibles en annexe. Vidéo : [https://www.youtube.com/watch?v=15B9VCKg-qs](https://www.youtube.com/watch?v=15B9VCKg-qs)
+Des instructions de construction de piège sont disponibles en annexe. Vidéo : https://www.youtube.com/watch?v=15B9VCKg-qs
 :::
 
 #### Placement des pièges

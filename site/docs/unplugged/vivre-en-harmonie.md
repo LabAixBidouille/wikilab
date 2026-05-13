@@ -110,17 +110,17 @@ Lancez une discussion sur ce qui unit les nations européennes.
 
 ### Sujet 1 - Identité
 
-- [https://thelinkingnetwork.org.uk/resource/identity-activities/](https://thelinkingnetwork.org.uk/resource/identity-activities/)
-- [https://www.youtube.com/watch?v=om3INBWfoxY](https://www.youtube.com/watch?v=om3INBWfoxY)
+- https://thelinkingnetwork.org.uk/resource/identity-activities/
+- https://www.youtube.com/watch?v=om3INBWfoxY
 
 ### Sujet 2 - Égalité
 
 - Autres quêtes Unplugged : [Form factor](/ressources/unplugged/form-factor), [Equal](/ressources/unplugged/equal), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
-- [https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/](https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/)
+- https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/
 
 ### Sujet 3 - Identité européenne
 
-- Fonds Européen pour la Jeunesse : [https://www.coe.int/fr/web/european-youth-foundation](https://www.coe.int/fr/web/european-youth-foundation)
+- Fonds Européen pour la Jeunesse : https://www.coe.int/fr/web/european-youth-foundation
 
 ---
 

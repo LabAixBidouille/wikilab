@@ -63,7 +63,7 @@ Créons une mélodie agréable à nos oreilles, inspirée des consoles 8 bits.
 
 Alors que nous faisons beaucoup de bruit à l'aide de buzzers et de haut-parleurs dans diverses fiches d'activité, comme lors de la fabrication d'un thérémine avec un capteur de distance ou le jeu de questions-réponses avec des boutons et des LED, voyons ce qui peut être fait pour créer une mélodie plus agréable pour les oreilles. Nous allons apprendre à jouer quelques notes et tonalités à l'aide d'un programme pour diffuser une mélodie bien connue. Pour rester dans l'ambiance des sons électroniques, nous commencerons par une musique inspirée des consoles 8 bits. Le **chiptune**, également connu sous le nom de musique chip ou musique 8 bits, est un style de musique électronique synthétisée réalisée à l'aide des puces sonores ou synthétiseurs PSG (*Programmable Sound Generator* ou générateur de son programmable) des machines d'arcade, ordinateurs et consoles de jeux vidéo vintage.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Chiptune](https://en.wikipedia.org/wiki/Chiptune)
+**Ressource :** https://en.wikipedia.org/wiki/Chiptune
 :::
 
 <img src="/img/ressources/lets-steam/r1as07-musique/dessin%20mico.png" alt="Illustration du micro-contrôleur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
@@ -217,16 +217,16 @@ Si nous regardons à nouveau les notes d'une partition de musique, vous remarque
 ## Aller plus loin
 
 - **233 projets musicaux** utilisant Arduino.
-  [https://create.arduino.cc/projecthub/projects/tags/music](https://create.arduino.cc/projecthub/projects/tags/music)
+  https://create.arduino.cc/projecthub/projects/tags/music
 
 - **Comment faire de la musique avec des micro:bits** - En utilisant des pinces crocodiles, vous pouvez connecter toutes sortes de choses à votre micro:bit, y compris un haut-parleur.
-  [https://www.youtube.com/watch?v=bm7MGKspk0o](https://www.youtube.com/watch?v=bm7MGKspk0o)
+  https://www.youtube.com/watch?v=bm7MGKspk0o
 
 - **Codage avec micro:bit - Partie 4 - Faire de la musique** - Jetez un oeil aux fonctionnalités son et audio de micro:bit et testez une variété de différents buzzers et haut-parleurs.
-  [https://www.youtube.com/watch?v=6hxvLZSM_pM](https://www.youtube.com/watch?v=6hxvLZSM_pM)
+  https://www.youtube.com/watch?v=6hxvLZSM_pM
 
 - **Faire de la musique avec micro:bit** - Utiliser la bibliothèque musicale intégrée à MakeCode pour jouer de la musique sur notre micro:bit.
-  [https://www.teachwithict.com/microbit-music.html](https://www.teachwithict.com/microbit-music.html)
+  https://www.teachwithict.com/microbit-music.html
 
 ---
 

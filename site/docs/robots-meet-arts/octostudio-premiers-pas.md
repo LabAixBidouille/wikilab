@@ -24,20 +24,20 @@ sidebar_position: 15
 
 ## Matériel
 
-**Pour l&#39;enseignant·e :**
+**Pour l'enseignant·e :**
 
-- 1 vidéoprojecteur et câble pour projeter depuis une tablette (l&#39;application est disponible sur tablette)
+- 1 vidéoprojecteur et câble pour projeter depuis une tablette (l'application est disponible sur tablette)
 - 1 corrigé des cartes défis
 - 1 clochette
-- 1 annexe avec les captures vidéo de l&#39;application
+- 1 annexe avec les captures vidéo de l'application
 
 **Pour chaque binôme :**
 
-- 1 tablette ou smartphone chargé(e) avec l&#39;application Octo Studio (gratuite)
+- 1 tablette ou smartphone chargé(e) avec l'application Octo Studio (gratuite)
 - 1 jeu de cartes défis
 - 1 jeu de cartes rôles (plastifiées)
 - 1 feutre effaçable
-- 1 fiche « Ceci n&#39;est pas un cercle »
+- 1 fiche « Ceci n'est pas un cercle »
 - Des crayons de couleur
 
 <div style={{marginTop: "1.5rem"}}/>
@@ -64,20 +64,20 @@ sidebar_position: 15
 
 ## Liens utiles
 
-- Guide de référence Octo Studio : [https://octostudio.org/resources/Reference%20Guide.pdf](https://octostudio.org/resources/Reference%20Guide.pdf)
-- Source d&#39;inspiration pour cette séance : [https://www.exploratorium.edu/tinkering/animate-shape](https://www.exploratorium.edu/tinkering/animate-shape)
+- Guide de référence Octo Studio : https://octostudio.org/resources/Reference%20Guide.pdf
+- Source d'inspiration pour cette séance : https://www.exploratorium.edu/tinkering/animate-shape
 
 ---
 
-## Introduction - Pourquoi choisir OctoStudio plutôt qu&#39;un autre programme de blocs, comme Scratch ?
+## Introduction - Pourquoi choisir OctoStudio plutôt qu'un autre programme de blocs, comme Scratch ?
 
 OctoStudio offre une expérience mobile pensée pour la création et le code. Si Scratch est bien connu, OctoStudio se distingue sur plusieurs points importants :
 
-- **Des ressources d&#39;apprentissage complètes** : Démarrez rapidement grâce à une riche bibliothèque de tutoriels vidéo et de démonstrations disponibles sur la chaîne YouTube d&#39;OctoStudio.
-- **Conçu pour le mobile, pensé pour la flexibilité** : OctoStudio est spécifiquement conçu pour les appareils mobiles, permettant de créer des projets n&#39;importe où, n&#39;importe quand — sans ordinateur. Donnez vie à vos projets grâce à des fonctionnalités interactives qui réagissent au toucher, aux secousses, à l&#39;inclinaison et aux autres capteurs de l&#39;appareil. Intégrez facilement des photos, vidéos et sons de votre environnement dans vos projets, encourageant une créativité qui dépasse l&#39;écran.
-- **Une programmation par blocs gratuite et intuitive** : Grâce à une interface glisser-déposer conviviale, OctoStudio permet aux enfants de 7 à 14 ans d&#39;apprendre les concepts de programmation sans se soucier de la syntaxe. L&#39;application est gratuite et, selon de nombreux utilisateurs, plus intuitive que Scratch.
+- **Des ressources d'apprentissage complètes** : Démarrez rapidement grâce à une riche bibliothèque de tutoriels vidéo et de démonstrations disponibles sur la chaîne YouTube d'OctoStudio.
+- **Conçu pour le mobile, pensé pour la flexibilité** : OctoStudio est spécifiquement conçu pour les appareils mobiles, permettant de créer des projets n'importe où, n'importe quand — sans ordinateur. Donnez vie à vos projets grâce à des fonctionnalités interactives qui réagissent au toucher, aux secousses, à l'inclinaison et aux autres capteurs de l'appareil. Intégrez facilement des photos, vidéos et sons de votre environnement dans vos projets, encourageant une créativité qui dépasse l'écran.
+- **Une programmation par blocs gratuite et intuitive** : Grâce à une interface glisser-déposer conviviale, OctoStudio permet aux enfants de 7 à 14 ans d'apprendre les concepts de programmation sans se soucier de la syntaxe. L'application est gratuite et, selon de nombreux utilisateurs, plus intuitive que Scratch.
 - **Fonctionne sans internet** : OctoStudio fonctionne hors ligne, ce qui en fait un outil idéal pour les zones avec un accès internet limité ou inexistant.
-- **Multilingue et accessible** : Disponible dans plus de 20 langues et doté de fonctionnalités d&#39;accessibilité comme la compatibilité avec les lecteurs d&#39;écran et l&#39;agrandissement des images, OctoStudio est véritablement inclusif pour tous les utilisateurs.
+- **Multilingue et accessible** : Disponible dans plus de 20 langues et doté de fonctionnalités d'accessibilité comme la compatibilité avec les lecteurs d'écran et l'agrandissement des images, OctoStudio est véritablement inclusif pour tous les utilisateurs.
 
 ---
 
@@ -86,29 +86,29 @@ OctoStudio offre une expérience mobile pensée pour la création et le code. Si
 
 :::info[Notes pour l'enseignant·e]
 
-- Téléchargez l&#39;application sur les tablettes et sélectionnez la langue adaptée à votre classe.
+- Téléchargez l'application sur les tablettes et sélectionnez la langue adaptée à votre classe.
 - Préparez le matériel indiqué ci-dessus.
-- Constituez les binômes à l&#39;avance.
-- Réalisez l&#39;exercice de démarrage pour renforcer vos connaissances en tant qu&#39;enseignant·e.
+- Constituez les binômes à l'avance.
+- Réalisez l'exercice de démarrage pour renforcer vos connaissances en tant qu'enseignant·e.
 - Consultez le guide de référence Octo Studio qui explique chaque bloc de programmation.
 
 :::
 
-### « Ceci n&#39;est pas un cercle »
+### « Ceci n'est pas un cercle »
 
-Les élèves s&#39;installent en binômes. Distribuez les fiches de travail « Ceci n&#39;est pas un cercle » et les crayons de couleur. Demandez aux élèves de colorier le cercle avec leur couleur préférée. Puis dites-leur : « Transformez ce cercle en autre chose qui n&#39;est plus un cercle. Laissez parler votre imagination. »
+Les élèves s'installent en binômes. Distribuez les fiches de travail « Ceci n'est pas un cercle » et les crayons de couleur. Demandez aux élèves de colorier le cercle avec leur couleur préférée. Puis dites-leur : « Transformez ce cercle en autre chose qui n'est plus un cercle. Laissez parler votre imagination. »
 
-Annoncez aux élèves l&#39;objectif de la séance : créer un programme avec leur « objet qui n&#39;est plus un cercle » dans l&#39;application Octo Studio. Ensuite, faites-les réfléchir aux deux rôles possibles, puisqu&#39;il n&#39;y a qu&#39;une seule tablette par binôme. Par exemple : un élève manipule la tablette et l&#39;autre lui indique ce qu&#39;il doit faire. Demandez-leur d&#39;écrire ces rôles sur les cartes avec le feutre effaçable et de choisir chacun un rôle.
+Annoncez aux élèves l'objectif de la séance : créer un programme avec leur « objet qui n'est plus un cercle » dans l'application Octo Studio. Ensuite, faites-les réfléchir aux deux rôles possibles, puisqu'il n'y a qu'une seule tablette par binôme. Par exemple : un élève manipule la tablette et l'autre lui indique ce qu'il doit faire. Demandez-leur d'écrire ces rôles sur les cartes avec le feutre effaçable et de choisir chacun un rôle.
 
-Pour commencer sur Octo Studio, la première étape sera la création de sprite. « Aujourd&#39;hui, nous allons programmer. Pour cela, nous avons besoin d&#39;un élément : un sprite ou un décor. Pour ce projet, nous allons programmer un sprite. »
+Pour commencer sur Octo Studio, la première étape sera la création de sprite. « Aujourd'hui, nous allons programmer. Pour cela, nous avons besoin d'un élément : un sprite ou un décor. Pour ce projet, nous allons programmer un sprite. »
 
 Devant la classe, créez un nouveau sprite dans un nouveau projet en dessinant le cercle dans la couleur choisie (voir vidéo).
 
 ### Découvrir les blocs de code
 
-Demandez aux élèves d&#39;appuyer sur le bouton Lecture. Demandez-leur ce qui se passe. Il ne se passe rien. C&#39;est parce que nous n&#39;avons encore rien programmé. C&#39;est ce que nous allons faire maintenant.
+Demandez aux élèves d'appuyer sur le bouton Lecture. Demandez-leur ce qui se passe. Il ne se passe rien. C'est parce que nous n'avons encore rien programmé. C'est ce que nous allons faire maintenant.
 
-Expliquez aux élèves qu&#39;ils vont utiliser des blocs pour indiquer au sprite exactement ce qu&#39;il doit faire, étape par étape. On place les blocs de haut en bas, comme des instructions de montage.
+Expliquez aux élèves qu'ils vont utiliser des blocs pour indiquer au sprite exactement ce qu'il doit faire, étape par étape. On place les blocs de haut en bas, comme des instructions de montage.
 
 Il existe différents types de blocs. Chaque catégorie a sa propre couleur de fond. Interrogez les élèves sur la signification de chaque catégorie.
 
@@ -120,13 +120,13 @@ Il existe différents types de blocs. Chaque catégorie a sa propre couleur de f
 
 ### Programmer les cartes défis
 
-Présentez les cartes défis aux élèves. Expliquez la signification du pseudocode sur ces cartes. Il s&#39;agit de l&#39;explication écrite, étape par étape, de ce qui se passe lorsqu&#39;on lance le programme (en appuyant sur le bouton Lecture).
+Présentez les cartes défis aux élèves. Expliquez la signification du pseudocode sur ces cartes. Il s'agit de l'explication écrite, étape par étape, de ce qui se passe lorsqu'on lance le programme (en appuyant sur le bouton Lecture).
 
-Il est conseillé de réaliser le premier défi tous ensemble en classe entière. Les élèves peuvent ensuite choisir s&#39;ils souhaitent réaliser le Niveau 1 ou le Niveau 2. Le Niveau 2 est plus difficile. En haut à droite de chaque carte défi, la catégorie de blocs à utiliser est indiquée.
+Il est conseillé de réaliser le premier défi tous ensemble en classe entière. Les élèves peuvent ensuite choisir s'ils souhaitent réaliser le Niveau 1 ou le Niveau 2. Le Niveau 2 est plus difficile. En haut à droite de chaque carte défi, la catégorie de blocs à utiliser est indiquée.
 
-Vous pouvez également choisir de réaliser chaque exercice en classe entière plutôt que de laisser les élèves travailler en binômes. Avant de passer au défi suivant, les élèves doivent montrer leur solution à l&#39;enseignant·e.
+Vous pouvez également choisir de réaliser chaque exercice en classe entière plutôt que de laisser les élèves travailler en binômes. Avant de passer au défi suivant, les élèves doivent montrer leur solution à l'enseignant·e.
 
-Avant de commencer le défi 8, pensez à donner une instruction supplémentaire aux élèves : la vidéo d&#39;instruction 2. Celle-ci leur permet d&#39;ajouter un second sprite (leur propre création à partir du cercle). Dans le défi 8, ils programment le cercle et le sprite qu&#39;ils ont créé. Un exemple de programme est disponible en vidéo dans le PowerPoint.
+Avant de commencer le défi 8, pensez à donner une instruction supplémentaire aux élèves : la vidéo d'instruction 2. Celle-ci leur permet d'ajouter un second sprite (leur propre création à partir du cercle). Dans le défi 8, ils programment le cercle et le sprite qu'ils ont créé. Un exemple de programme est disponible en vidéo dans le PowerPoint.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
@@ -146,7 +146,7 @@ Avant de commencer le défi 8, pensez à donner une instruction supplémentaire 
 
 ### Jeu « Devine le cercle »
 
-Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochette au centre. Les élèves présentent leur programme à tour de rôle. Dès qu&#39;un autre élève reconnaît ce que le cercle est devenu, il peut sonner la clochette.
+Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochette au centre. Les élèves présentent leur programme à tour de rôle. Dès qu'un autre élève reconnaît ce que le cercle est devenu, il peut sonner la clochette.
 
 
 ---
@@ -189,8 +189,8 @@ Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochett
 
 ### Défi 8
 
-- Je vois mon cercle d&#39;origine.
-- Mon cercle d&#39;origine disparaît après une seconde et je vois mon nouveau sprite.
+- Je vois mon cercle d'origine.
+- Mon cercle d'origine disparaît après une seconde et je vois mon nouveau sprite.
 - Mon nouveau sprite grandit ou je peux le déplacer en bougeant la tablette.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>

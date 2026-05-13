@@ -70,10 +70,10 @@ Avant de réaliser cette séance, il est conseillé de commencer par le projet c
 
 ## Liens utiles
 
-- Vidéo explicative sur les différentes guitares et genres musicaux : [https://www.youtube.com/watch?v=SAdk4FuE1pU](https://www.youtube.com/watch?v=SAdk4FuE1pU)
-- Vidéo tutoriel pour construire la guitare : [https://www.youtube.com/watch?v=0-nYfF7DHYk](https://www.youtube.com/watch?v=0-nYfF7DHYk)
-- Exemple d'activité introductive Makey Makey : [https://campus.recit.qc.ca/mod/page/view.php?id=5136](https://campus.recit.qc.ca/mod/page/view.php?id=5136)
-- Site officiel Makey Makey : [https://makeymakey.com/](https://makeymakey.com/)
+- Vidéo explicative sur les différentes guitares et genres musicaux : https://www.youtube.com/watch?v=SAdk4FuE1pU
+- Vidéo tutoriel pour construire la guitare : https://www.youtube.com/watch?v=0-nYfF7DHYk
+- Exemple d'activité introductive Makey Makey : https://campus.recit.qc.ca/mod/page/view.php?id=5136
+- Site officiel Makey Makey : https://makeymakey.com/
 
 ---
 

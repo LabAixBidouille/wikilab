@@ -303,6 +303,6 @@ Hormis deux instances marquées WEAK, le résultat est très satisfaisant et att
 
 ### Références
 
-[http://holdenc.altervista.org/avalanche/](http://holdenc.altervista.org/avalanche/)
+http://holdenc.altervista.org/avalanche/
 
-[https://www.random.org/](https://www.random.org/)
+https://www.random.org/

@@ -368,7 +368,7 @@ Terminez cette phase par une projection concrète : *"La semaine prochaine, vous
 
 Pour gagner du temps, vous pouvez proposer aux jeunes de partir du template suivant :
 
-[https://github.com/jedi-track/template_site_web](https://github.com/jedi-track/template_site_web)
+https://github.com/jedi-track/template_site_web
 
 ### Phase 5 : Publication et valorisation
 
@@ -645,37 +645,37 @@ Cette fiche est à imprimer et distribuer aux jeunes pendant l'atelier. Elle leu
 
 ### Documentation pour Github Pages
 
-- **Documentation complète Github Pages** : [https://docs.github.com/fr/pages](https://docs.github.com/fr/pages)
-- **Tutoriel débutant Github** : [https://github.com/skills/introduction-to-github](https://github.com/skills/introduction-to-github)
-- **Guide markdown de Github** : [https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/)
-- **Thèmes Jekyll pour Github Pages** : [https://github.com/topics/jekyll-theme](https://github.com/topics/jekyll-theme)
+- **Documentation complète Github Pages** : https://docs.github.com/fr/pages
+- **Tutoriel débutant Github** : https://github.com/skills/introduction-to-github
+- **Guide markdown de Github** : https://guides.github.com/features/mastering-markdown/
+- **Thèmes Jekyll pour Github Pages** : https://github.com/topics/jekyll-theme
 
 ### Tutoriels markdown
 
-- **Guide markdown** : [https://www.markdownguide.org/](https://www.markdownguide.org/)
-- **Markdown interactif** : [https://www.markdowntutorial.com/fr/](https://www.markdowntutorial.com/fr/)
-- **Editeur markdown en ligne** : [https://stackedit.io/](https://stackedit.io/)
+- **Guide markdown** : https://www.markdownguide.org/
+- **Markdown interactif** : https://www.markdowntutorial.com/fr/
+- **Editeur markdown en ligne** : https://stackedit.io/
 
 ### Outils de visualisation
 
-- **uMap** (cartes collaboratives) : [https://umap.openstreetmap.fr/](https://umap.openstreetmap.fr/)
-- **Datawrapper** (graphiques) : [https://www.datawrapper.de/](https://www.datawrapper.de/)
-- **Flourish** (visualisations) : [https://flourish.studio/](https://flourish.studio/)
-- **Timeline JS** (frises chronologiques) : [https://timeline.knightlab.com/](https://timeline.knightlab.com/)
+- **uMap** (cartes collaboratives) : https://umap.openstreetmap.fr/
+- **Datawrapper** (graphiques) : https://www.datawrapper.de/
+- **Flourish** (visualisations) : https://flourish.studio/
+- **Timeline JS** (frises chronologiques) : https://timeline.knightlab.com/
 
 ### Ressources open data
 
-- **data.gouv.fr** : [https://www.data.gouv.fr/](https://www.data.gouv.fr/)
-- **Portail européen de données** : [https://data.europa.eu/fr](https://data.europa.eu/fr)
+- **data.gouv.fr** : https://www.data.gouv.fr/
+- **Portail européen de données** : https://data.europa.eu/fr
 
 ### Inspiration - exemples de projets jeunesse
 
-- **Safecast** (monitoring citoyen) : [https://safecast.org/](https://safecast.org/)
-- **Surfrider Foundation** (protection océans) : [https://surfrider.eu/](https://surfrider.eu/)
-- **Globe Program** (observations environnementales par les écoles) : [https://www.globe.gov/](https://www.globe.gov/)
-- **eBird Young Birders** (ornithologie jeunesse) : [https://ebird.org/about/for-young-birders](https://ebird.org/about/for-young-birders)
-- **Plastic Pirates** (monitoring pollution plastique en Europe) : [https://www.plastic-pirates.eu/fr](https://www.plastic-pirates.eu/fr)
-- **City Nature Challenge** (inventaire biodiversité urbaine) : [https://citynaturechallenge.org/](https://citynaturechallenge.org/)
+- **Safecast** (monitoring citoyen) : https://safecast.org/
+- **Surfrider Foundation** (protection océans) : https://surfrider.eu/
+- **Globe Program** (observations environnementales par les écoles) : https://www.globe.gov/
+- **eBird Young Birders** (ornithologie jeunesse) : https://ebird.org/about/for-young-birders
+- **Plastic Pirates** (monitoring pollution plastique en Europe) : https://www.plastic-pirates.eu/fr
+- **City Nature Challenge** (inventaire biodiversité urbaine) : https://citynaturechallenge.org/
 
 ---
 

@@ -174,17 +174,17 @@ La ligne la plus importante ici est la condition `if (weCanPushIt) { ... }` qui 
 ## Aller plus loin
 
 - **Bouton-poussoir** - En savoir plus sur les utilisations du bouton-poussoir.
-  [https://en.wikipedia.org/wiki/Push-button](https://en.wikipedia.org/wiki/Push-button)
+  https://en.wikipedia.org/wiki/Push-button
 
 - **Derrière le matériel MakeCode - Boutons sur micro:bit** - Tout sur les boutons et leur utilisation dans MakeCode avec Shawn Hymel.
-  [https://www.youtube.com/watch?v=t_Qujjd_38o](https://www.youtube.com/watch?v=t_Qujjd_38o)
+  https://www.youtube.com/watch?v=t_Qujjd_38o
 
 - **Jeu de réflexes** - Créez un jeu de réflexes avec des interrupteurs que vous pouvez actionner aussi vite que vous le souhaitez !
-  [https://microbit.org/projects/make-it-code-it/reaction-game/](https://microbit.org/projects/make-it-code-it/reaction-game/)
+  https://microbit.org/projects/make-it-code-it/reaction-game/
 
 - **Découvrez ce qu'est une variable** - Apprenez-en plus sur les variables et les fonctions en programmation.
-  [https://www.computerhope.com/jargon/v/variable.htm](https://www.computerhope.com/jargon/v/variable.htm),
-  [https://www.makeuseof.com/what-is-a-function-programming/](https://www.makeuseof.com/what-is-a-function-programming/)
+  https://www.computerhope.com/jargon/v/variable.htm,
+  https://www.makeuseof.com/what-is-a-function-programming/
 
 ---
 

@@ -137,9 +137,9 @@ Pendant qu'ils marchent, les élèves sont invités à regarder autour d'eux afi
 
 **Le cas étrange du nombre Pi**
 
-Chaque ligne continue est une courbe : [https://www.khanacademy.org/math/geometry-home/geometry-shapes/geometry-curves-and-polygons/](https://www.khanacademy.org/math/geometry-home/geometry-shapes/geometry-curves-and-polygons/)
+Chaque ligne continue est une courbe : https://www.khanacademy.org/math/geometry-home/geometry-shapes/geometry-curves-and-polygons/
 
-Ce postulat mathématique est une bonne occasion de créer une situation dans laquelle les élèves peuvent découvrir et explorer l'idée de continuité. La continuité est associée à l'infini. Éveillez la curiosité des enfants pour les faits intéressants et amusants en mathématiques en leur faisant découvrir le nombre Pi : [https://www.piday.org/pi-facts/](https://www.piday.org/pi-facts/)
+Ce postulat mathématique est une bonne occasion de créer une situation dans laquelle les élèves peuvent découvrir et explorer l'idée de continuité. La continuité est associée à l'infini. Éveillez la curiosité des enfants pour les faits intéressants et amusants en mathématiques en leur faisant découvrir le nombre Pi : https://www.piday.org/pi-facts/
 
 **Points d'intersection = Points d'action**
 
@@ -248,22 +248,22 @@ L'enseignant répartit les enfants en binômes. Dans le duo, l'élève A est une
 
 L'Homme de Vitruve de Léonard de Vinci est l'une de ses œuvres les plus célèbres. Étudier la géométrie à travers le corps est une excellente occasion de présenter aux enfants des faits intéressants sur le sens de son travail :
 
-- [https://kids.kiddle.co/Vitruvian_Man](https://kids.kiddle.co/Vitruvian_Man)
-- [https://www.kidpid.com/da-vinci-and-the-vitruvian-man/](https://www.kidpid.com/da-vinci-and-the-vitruvian-man/)
-- [https://www.youtube.com/watch?v=aMsaFP3kgqQ](https://www.youtube.com/watch?v=aMsaFP3kgqQ)
+- https://kids.kiddle.co/Vitruvian_Man
+- https://www.kidpid.com/da-vinci-and-the-vitruvian-man/
+- https://www.youtube.com/watch?v=aMsaFP3kgqQ
 
 **Analyse du mouvement Laban**
 
 Pour approfondir le sens kinesthésique du corps tridimensionnel dans un espace tridimensionnel, diverses idées pertinentes peuvent être tirées de l'analyse du mouvement de Laban :
 
-- [https://www.youtube.com/watch?v=KB30hsl7UYg](https://www.youtube.com/watch?v=KB30hsl7UYg)
-- [https://www.youtube.com/watch?v=rtnIfls5800](https://www.youtube.com/watch?v=rtnIfls5800)
+- https://www.youtube.com/watch?v=KB30hsl7UYg
+- https://www.youtube.com/watch?v=rtnIfls5800
 
 **Géométrie dans la danse**
 
-- [https://www.youtube.com/watch?v=cSGLGnHJDSQ](https://www.youtube.com/watch?v=cSGLGnHJDSQ)
-- [https://www.youtube.com/watch?v=ZThM3dRp7mI](https://www.youtube.com/watch?v=ZThM3dRp7mI)
-- [https://www.youtube.com/watch?v=zW40Su5m0rI](https://www.youtube.com/watch?v=zW40Su5m0rI)
+- https://www.youtube.com/watch?v=cSGLGnHJDSQ
+- https://www.youtube.com/watch?v=ZThM3dRp7mI
+- https://www.youtube.com/watch?v=zW40Su5m0rI
 
 :::tip[Ressources imprimables]
 
@@ -325,19 +325,19 @@ Chaque présentation se termine par des saluts et des applaudissements du public
 
 ### Aller plus loin
 
-**Géométrie en architecture** : La géométrie est une base fondamentale de l'architecture, et l'architecture est partout autour de nous. Faites découvrir aux enfants quelques réalisations de l'architecture de l'Antiquité aux temps modernes. Exemples : Taj Mahal (Inde), Pyramide égyptienne, Sphère amazonienne (USA), Sagrada Familia (Espagne), Tour de Pise (Italie), Maisons cubes (Pays-Bas), le Gherkin (Londres, Royaume-Uni). Source : [https://archi-monarch.com/geometry-in-architecture/](https://archi-monarch.com/geometry-in-architecture/)
+**Géométrie en architecture** : La géométrie est une base fondamentale de l'architecture, et l'architecture est partout autour de nous. Faites découvrir aux enfants quelques réalisations de l'architecture de l'Antiquité aux temps modernes. Exemples : Taj Mahal (Inde), Pyramide égyptienne, Sphère amazonienne (USA), Sagrada Familia (Espagne), Tour de Pise (Italie), Maisons cubes (Pays-Bas), le Gherkin (Londres, Royaume-Uni). Source : https://archi-monarch.com/geometry-in-architecture/
 
 <img src="/img/ressources/mimesis/mimesis-play-5/geometriearchitecture.png" alt="Géométrie en architecture" style={{maxWidth: '400px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 **Géométrie dans les peintures** : De nombreux artistes célèbres, représentants de styles tels que le cubisme, l'abstraction et le suprématisme, utilisent la géométrie dans leurs peintures. Exemples : Guernica (Pablo Picasso, 1937), Filles dans les champs (Kazimir Malevitch, 1932), Atelier au vase noir (Georges Braque, 1938), Senecio 2 (Paul Klee, 1922).
 
-- [https://www.youtube.com/watch?v=uEI3clnsyyU](https://www.youtube.com/watch?v=uEI3clnsyyU)
-- [https://www.youtube.com/watch?v=1sfZ2gPGOW4](https://www.youtube.com/watch?v=1sfZ2gPGOW4)
+- https://www.youtube.com/watch?v=uEI3clnsyyU
+- https://www.youtube.com/watch?v=1sfZ2gPGOW4
 
 **Géométrie dans les costumes de théâtre** : Les costumes de théâtre peuvent être confectionnés à partir de différents types de matériaux. Ceux destinés au recyclage sont particulièrement adaptés. Les élèves peuvent s'initier au Ballet triadique d'Oskar Schlemmer et s'inspirer de ses costumes de théâtre géométriques.
 
-- [https://www.youtube.com/watch?v=mHQmnumnNgo](https://www.youtube.com/watch?v=mHQmnumnNgo)
-- [https://www.youtube.com/watch?v=FmThAic44GI](https://www.youtube.com/watch?v=FmThAic44GI)
+- https://www.youtube.com/watch?v=mHQmnumnNgo
+- https://www.youtube.com/watch?v=FmThAic44GI
 
 ---
 
@@ -411,13 +411,13 @@ Temps de création d'une histoire : 20 min.
 
 ### Aller plus loin
 
-**Théâtre de marionnettes** : Les marionnettes fascinent les enfants de tous âges et offrent de nombreuses opportunités d'apprendre et de développer des compétences. Pour en savoir plus : [https://www.twinkl.bg/teaching-wiki/puppet](https://www.twinkl.bg/teaching-wiki/puppet)
+**Théâtre de marionnettes** : Les marionnettes fascinent les enfants de tous âges et offrent de nombreuses opportunités d'apprendre et de développer des compétences. Pour en savoir plus : https://www.twinkl.bg/teaching-wiki/puppet
 
-**Théâtre d'ombres à partir de formes géométriques** : Vous pouvez accrocher les différentes formes géométriques sur un bâton (les brochettes en bois conviennent très bien à cet effet). De cette manière, chacune des figures peut devenir une marionnette indépendante et proposer un nouveau type de manipulation et de jeu. Ensuite, vous pourrez facilement créer votre théâtre d'ombres à l'aide de cartons vides, de papier sulfurisé et de lampes de poche : [https://www.youtube.com/watch?v=YOtHfxbae-o](https://www.youtube.com/watch?v=YOtHfxbae-o)
+**Théâtre d'ombres à partir de formes géométriques** : Vous pouvez accrocher les différentes formes géométriques sur un bâton (les brochettes en bois conviennent très bien à cet effet). De cette manière, chacune des figures peut devenir une marionnette indépendante et proposer un nouveau type de manipulation et de jeu. Ensuite, vous pourrez facilement créer votre théâtre d'ombres à l'aide de cartons vides, de papier sulfurisé et de lampes de poche : https://www.youtube.com/watch?v=YOtHfxbae-o
 
-**Plus de possibilités** : Les marionnettes à doigts sont faciles à fabriquer avec très peu de matériaux facilement disponibles : [https://www.youtube.com/watch?v=NsjTXXzIXEk](https://www.youtube.com/watch?v=NsjTXXzIXEk)
+**Plus de possibilités** : Les marionnettes à doigts sont faciles à fabriquer avec très peu de matériaux facilement disponibles : https://www.youtube.com/watch?v=NsjTXXzIXEk
 
-**Marionnettes** : Si vous voulez vous mettre au défi, vous et les élèves, créez vos marionnettes. La vidéo proposée offre une belle opportunité d'étudier la structure du squelette humain en créant une marionnette avec des matériaux facilement disponibles et recyclables : [https://www.youtube.com/watch?v=6JExdmnD6xE](https://www.youtube.com/watch?v=6JExdmnD6xE)
+**Marionnettes** : Si vous voulez vous mettre au défi, vous et les élèves, créez vos marionnettes. La vidéo proposée offre une belle opportunité d'étudier la structure du squelette humain en créant une marionnette avec des matériaux facilement disponibles et recyclables : https://www.youtube.com/watch?v=6JExdmnD6xE
 
 :::tip[Ressources imprimables]
 

@@ -111,16 +111,16 @@ Le joueur ayant obtenu le plus de points à l'issue de toutes les cartes remport
 
 ### Sujet 1 - Orientation
 
-- [http://www.xplaner.com/visual-thinking-school/](http://www.xplaner.com/visual-thinking-school/)
+- http://www.xplaner.com/visual-thinking-school/
 
 ### Sujet 2 - Découvrez l'engagement social
 
-- [https://go-goals.org/](https://go-goals.org/)
-- [https://culpeer-for-change.eu/quiz/en](https://culpeer-for-change.eu/quiz/en)
+- https://go-goals.org/
+- https://culpeer-for-change.eu/quiz/en
 
 ### Sujet 3 - Concentration et dextérité
 
-- [https://empoweredparents.co/why-are-fine-motor-skills-important/](https://empoweredparents.co/why-are-fine-motor-skills-important/)
+- https://empoweredparents.co/why-are-fine-motor-skills-important/
 
 ---
 

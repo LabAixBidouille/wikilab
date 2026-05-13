@@ -29,8 +29,8 @@ sidebar_position: 20
 - Accès à [CodeSkool](https://ide.codeskool.cc/)
 
 **Ressources en ligne :**
-- **Introduction au prompting** : [https://www.youtube.com/watch?v=8IQ9i\_QoA3A](https://www.youtube.com/watch?v=8IQ9i_QoA3A)
-- **Introduction aux modèles de langage** : [https://youtu.be/K8gOvC8gvB4](https://youtu.be/K8gOvC8gvB4)
+- **Introduction au prompting** : https://www.youtube.com/watch?v=8IQ9i_QoA3A
+- **Introduction aux modèles de langage** : https://youtu.be/K8gOvC8gvB4
 
 <a href="/pdf/steamcity/Protocol_BotBuddyAdventure_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#DD5350', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
 

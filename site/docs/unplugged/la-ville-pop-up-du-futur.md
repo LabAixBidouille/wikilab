@@ -111,17 +111,17 @@ Quelle sera la bande sonore parfaite pour votre ville ? Essayez de l'enregistrer
 
 ### Thème 1 - Développement urbain et durable
 
-- [https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment](https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment)
-- [https://ourworldindata.org/urbanization](https://ourworldindata.org/urbanization)
+- https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment
+- https://ourworldindata.org/urbanization
 
 ### Thème 2 - Villes futuristes
 
-- [https://www.nationalgeographic.com/magazine/graphics/see-sustainable-future-city-designed-for-people-and-nature](https://www.nationalgeographic.com/magazine/graphics/see-sustainable-future-city-designed-for-people-and-nature)
+- https://www.nationalgeographic.com/magazine/graphics/see-sustainable-future-city-designed-for-people-and-nature
 
 ### Thème 3 - Stimuler la créativité
 
-- [https://lafabulerie.com/ressource/carte-pop-up/](https://lafabulerie.com/ressource/carte-pop-up/)
-- [https://www.youtube.com/watch?v=wXWrw6JYGIE](https://www.youtube.com/watch?v=wXWrw6JYGIE)
+- https://lafabulerie.com/ressource/carte-pop-up/
+- https://www.youtube.com/watch?v=wXWrw6JYGIE
 
 ---
 

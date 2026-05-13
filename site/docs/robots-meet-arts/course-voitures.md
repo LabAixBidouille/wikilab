@@ -69,7 +69,7 @@ sidebar_position: 4
 
 ## Lien utile
 
-- LEGO Spike Essential - Instructions pour construire une voiture : [https://spike.legoeducation.com/essential/models/blt6eb22e7183320242](https://spike.legoeducation.com/essential/models/blt6eb22e7183320242)
+- LEGO Spike Essential - Instructions pour construire une voiture : https://spike.legoeducation.com/essential/models/blt6eb22e7183320242
 
 ---
 

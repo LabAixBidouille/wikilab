@@ -118,13 +118,13 @@ Avec votre câble USB, connectez la carte à votre ordinateur en utilisant le **
 
 Copiez le fichier `log.csv` sur votre disque pour le sauvegarder et le consulter ultérieurement.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Serial_Peripheral_Interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
+**Ressource :** https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
 
 ### 8. Visualiser les données
 
 Ouvrez un **programme de feuille de calcul** tel que Google Sheets, Microsoft Excel, macOS Numbers, etc. Ouvrez le fichier `log.csv`. Le tableur devrait reconnaître le CSV (si votre programme ne le reconnaît pas, vous devrez peut-être préciser que vous essayez d'ouvrir un fichier CSV ou utiliser une fonction d'importation). Dans Google Sheets, le fichier s'ouvre correctement.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Comma-separated_values](https://en.wikipedia.org/wiki/Comma-separated_values)
+**Ressource :** https://en.wikipedia.org/wiki/Comma-separated_values
 
 Les lignes `sep=` et `NAN` peuvent être ignorées si elles apparaissent. La ligne 2 contient les titres des données que vous lisez. D'abord l'heure, puis, pour l'exemple, les relevés de température, de lumière et d'humidité du sol dans chaque colonne.
 
@@ -227,16 +227,16 @@ Dans la boucle principale, il suffit de lire les données et de les envoyer au d
 ## Aller plus loin
 
 - **Mémoire flash** - En savoir plus sur la mémoire flash, support de stockage électronique non volatile.
-  [https://en.wikipedia.org/wiki/Flash_memory](https://en.wikipedia.org/wiki/Flash_memory)
+  https://en.wikipedia.org/wiki/Flash_memory
 
 - **Gestionnaires d'événements** - Découvrez les gestionnaires d'événements (comment associer du code à un événement particulier).
-  [https://makecode.microbit.org/reference/event-handler](https://makecode.microbit.org/reference/event-handler)
+  https://makecode.microbit.org/reference/event-handler
 
 - **Make It Log** - Enregistrez les données de votre Circuit Playground Express directement dans une feuille de calcul.
-  [https://learn.adafruit.com/make-it-data-log-spreadsheet-circuit-playground/logging-via-android-phone](https://learn.adafruit.com/make-it-data-log-spreadsheet-circuit-playground/logging-via-android-phone)
+  https://learn.adafruit.com/make-it-data-log-spreadsheet-circuit-playground/logging-via-android-phone
 
 - **Datalogger MakeCode** - Utilisez la carte micro:bit comme enregistreur de données sans fil pour enregistrer les données de ses capteurs.
-  [https://microbit.org/projects/make-it-code-it/makecode-wireless-data-logger/](https://microbit.org/projects/make-it-code-it/makecode-wireless-data-logger/)
+  https://microbit.org/projects/make-it-code-it/makecode-wireless-data-logger/
 
 ---
 

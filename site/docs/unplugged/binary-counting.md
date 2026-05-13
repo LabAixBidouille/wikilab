@@ -145,24 +145,24 @@ Dans ces feuilles de travail, ils doivent changer les nombres de binaire en déc
 
 ### Sujet 1 - Apprendre le système numérique binaire
 
-- [https://kids.kiddle.co/Binary_number](https://kids.kiddle.co/Binary_number)
-- [https://info.thinkfun.com/stem-education/6-unplugged-coding-activities-for-hour-of-code](https://info.thinkfun.com/stem-education/6-unplugged-coding-activities-for-hour-of-code)
-- [https://teachyourkidscode.com/learn-binary-numbers/](https://teachyourkidscode.com/learn-binary-numbers/)
-- [https://blogs.glowscotland.org.uk/glowblogs/computingscience/2021/08/06/binary-understanding-how-computers-work-and-challenge-in-numeracy/](https://blogs.glowscotland.org.uk/glowblogs/computingscience/2021/08/06/binary-understanding-how-computers-work-and-challenge-in-numeracy/)
-- [https://classic.csunplugged.org/activities/binary-numbers/](https://classic.csunplugged.org/activities/binary-numbers/)
+- https://kids.kiddle.co/Binary_number
+- https://info.thinkfun.com/stem-education/6-unplugged-coding-activities-for-hour-of-code
+- https://teachyourkidscode.com/learn-binary-numbers/
+- https://blogs.glowscotland.org.uk/glowblogs/computingscience/2021/08/06/binary-understanding-how-computers-work-and-challenge-in-numeracy/
+- https://classic.csunplugged.org/activities/binary-numbers/
 
 ### Sujet 2 - Nombres et calculs
 
 Vous trouverez ici des documents utiles pour introduire la conversion des nombres binaires en décimaux et vice versa :
 
-- [https://www.ducksters.com/kidsmath/binary_numbers_basics.php](https://www.ducksters.com/kidsmath/binary_numbers_basics.php)
-- Pour convertir des nombres binaires en mots : [https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/](https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/)
-- Convertir un texte en code binaire : [https://study.com/learn/lesson/kinesthetic-intelligence-skills.html](https://study.com/learn/lesson/kinesthetic-intelligence-skills.html)
-- Apprenez à convertir un texte en code binaire : [https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/](https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/)
+- https://www.ducksters.com/kidsmath/binary_numbers_basics.php
+- Pour convertir des nombres binaires en mots : https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/
+- Convertir un texte en code binaire : https://study.com/learn/lesson/kinesthetic-intelligence-skills.html
+- Apprenez à convertir un texte en code binaire : https://www.sciencefriday.com/educational-resources/write-your-name-in-binary-code/
 
 ### Sujet 3 - Raison
 
-Voir les énigmes binaires pour enseigner le raisonnement de manière amusante : [https://www.sciencekiddo.com/teach-kids-binary/](https://www.sciencekiddo.com/teach-kids-binary/)
+Voir les énigmes binaires pour enseigner le raisonnement de manière amusante : https://www.sciencekiddo.com/teach-kids-binary/
 
 ---
 

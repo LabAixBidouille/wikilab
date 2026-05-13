@@ -173,7 +173,7 @@ Organisez une brève table ronde sur la programmation par blocs. Posez des quest
 
 L'enseignant présente le concept de boucle à l'aide de diapositives et d'exemples dans MakeCode. En utilisant une approche de complexité incrémentale : absence de boucle (bloc « au démarrage »), puis boucle « toujours », puis boucle « répéter ».
 
-Exemple disponible : [https://makecode.microbit.org/_C2yeP6E4xJrR](https://makecode.microbit.org/_C2yeP6E4xJrR)
+Exemple disponible : https://makecode.microbit.org/_C2yeP6E4xJrR
 
 :::info[Notes pour l'enseignant·e]
 
@@ -186,8 +186,8 @@ Exemple disponible : [https://makecode.microbit.org/_C2yeP6E4xJrR](https://makec
 L'enseignant introduit des conditions et des comparaisons simples à travers des exemples de complexité croissante dans MakeCode.
 
 Exemples disponibles :
-- [https://makecode.microbit.org/_Led0ghTFY8xy](https://makecode.microbit.org/_Led0ghTFY8xy)
-- [https://makecode.microbit.org/_ewq3W0EwmHjJ](https://makecode.microbit.org/_ewq3W0EwmHjJ)
+- https://makecode.microbit.org/_Led0ghTFY8xy
+- https://makecode.microbit.org/_ewq3W0EwmHjJ
 
 Progression : interaction avec un bouton, modification du comportement, ajout de « else », remplacement de capteurs et de sorties.
 
@@ -201,7 +201,7 @@ Progression : interaction avec un bouton, modification du comportement, ajout de
 
 L'enseignant présente les conditions complexes (opérateurs ET, OU) à l'aide d'exemples dans MakeCode.
 
-Exemple disponible : [https://makecode.microbit.org/_LK0UUU2pUXoo](https://makecode.microbit.org/_LK0UUU2pUXoo)
+Exemple disponible : https://makecode.microbit.org/_LK0UUU2pUXoo
 
 Progression : condition avec OU, remplacement par ET, modification des entrées, ajout de « else ».
 

@@ -100,7 +100,7 @@ Après avoir joué, les élèves découvrent des anecdotes sur les professions, 
 
 ### L'univers du jeu
 
-EQUAL est un jeu de société inspiré du Time's Up ([https://www.asmodee.it/linea_timesup.php](https://www.asmodee.it/linea_timesup.php)). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant, contribuant ainsi à dépasser les stéréotypes de genre.
+EQUAL est un jeu de société inspiré du Time's Up (https://www.asmodee.it/linea_timesup.php). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant, contribuant ainsi à dépasser les stéréotypes de genre.
 
 ### Qu'est-ce qui fait que le joueur avance et gagne ?
 
@@ -220,9 +220,9 @@ Les joueurs pourront trouver des informations complémentaires sur les métiers 
 Pour aborder les thématiques d'égalité et d'inclusion en classe :
 
 - Autres quêtes Unplugged, par exemple [Form factor](/ressources/unplugged/form-factor), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
-- [https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/](https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/)
-- Découvrez le jeu Equal de l'univers Unplugged : [https://www.youtube.com/watch?v=-hc0kZh6CnM](https://www.youtube.com/watch?v=-hc0kZh6CnM)
-- [https://kids.kiddle.co/Social_equality](https://kids.kiddle.co/Social_equality)
+- https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/
+- Découvrez le jeu Equal de l'univers Unplugged : https://www.youtube.com/watch?v=-hc0kZh6CnM
+- https://kids.kiddle.co/Social_equality
 
 ---
 

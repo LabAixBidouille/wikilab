@@ -24,7 +24,7 @@ sidebar_position: 26
 ## Matériel
 
 - 1 jeu de cartes de déplacement du robot par groupe (10 cartes « avancer », 4 « tourner à droite », 4 « tourner à gauche », 2 « pivoter », 2 « rire », 1 « répéter x2 », 1 « répéter x3 », 1 « répéter x4 »)
-- Grande grille au sol (représentant l&#39;univers du robot)
+- Grande grille au sol (représentant l'univers du robot)
 - Petite grille de bureau (représentant le même univers)
 - Fiches de travail pour décrire la routine quotidienne du robot
 - Crayons, feutres, ciseaux, colle
@@ -53,11 +53,11 @@ sidebar_position: 26
 
 ---
 
-## Objectifs d&#39;apprentissage
+## Objectifs d'apprentissage
 
-À l&#39;issue de cette séance, les élèves seront capables de :
+À l'issue de cette séance, les élèves seront capables de :
 
-- Utiliser la grammaire et le vocabulaire appropriés pour décrire la routine quotidienne de quelqu&#39;un.
+- Utiliser la grammaire et le vocabulaire appropriés pour décrire la routine quotidienne de quelqu'un.
 - Créer des plans de déplacement étape par étape pour un robot.
 - Identifier des schémas de déplacement.
 - Travailler ensemble pour résoudre des défis.
@@ -66,9 +66,9 @@ sidebar_position: 26
 ## Liens utiles
 
 - Jeux de révision grammaticale sur le présent simple et la routine quotidienne :
-  - [https://wordwall.net/en-ar/community/present-simple/daily-routines](https://wordwall.net/en-ar/community/present-simple/daily-routines)
-  - [https://learnenglishkids.britishcouncil.org/category/topics/daily-routines](https://learnenglishkids.britishcouncil.org/category/topics/daily-routines)
-  - [https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines](https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines)
+  - https://wordwall.net/en-ar/community/present-simple/daily-routines
+  - https://learnenglishkids.britishcouncil.org/category/topics/daily-routines
+  - https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines
 
 ---
 
@@ -97,7 +97,7 @@ Adaptation selon le niveau de langue des élèves :
 
 ### Partie B : Jeux
 
-Proposez ensuite des activités de pratique grammaticale à travers des jeux interactifs (voir liens utiles). Choisissez 2-3 jeux adaptés à l&#39;âge et au niveau des élèves.
+Proposez ensuite des activités de pratique grammaticale à travers des jeux interactifs (voir liens utiles). Choisissez 2-3 jeux adaptés à l'âge et au niveau des élèves.
 
 Après les jeux, attribuez à différents élèves des actions de la routine quotidienne à mimer devant la classe, pendant que les autres devinent.
 
@@ -115,7 +115,7 @@ Présentez ensuite Tom le chat (voir annexe). Toute la classe réfléchit ensemb
 
 Posez des questions aux élèves et notez leurs réponses au tableau : *« What does Tom do in the morning? », « What does Tom do in the afternoon? », « What does Tom do in the evening? »*.
 
-Encouragez ensuite les élèves à raconter la journée de Tom. Pendant qu&#39;un élève raconte, les autres miment les actions de Tom.
+Encouragez ensuite les élèves à raconter la journée de Tom. Pendant qu'un élève raconte, les autres miment les actions de Tom.
 
 Adaptation selon le niveau de langue des élèves :
 
@@ -133,13 +133,13 @@ Adaptation selon le niveau de langue des élèves :
 
 - Imprimez et découpez les cartes de déplacement pour chaque groupe (voir composition du jeu dans la liste du matériel).
 - Imprimez la petite grille de bureau pour chaque groupe.
-- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe. La grille représente l&#39;environnement du robot et est divisée en différents lieux correspondant à la routine quotidienne :
+- Créez une grande grille au sol à l'aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe. La grille représente l'environnement du robot et est divisée en différents lieux correspondant à la routine quotidienne :
   - Maison (Home) : Activités du matin et du soir (se réveiller, se brosser les dents, prendre le petit-déjeuner, aller dormir).
-  - École (School) : Activités liées à l&#39;apprentissage (étudier, lire, écrire, jouer avec ses amis).
+  - École (School) : Activités liées à l'apprentissage (étudier, lire, écrire, jouer avec ses amis).
 - Chaque section doit être clairement identifiée pour aider les élèves à associer le vocabulaire anglais aux lieux physiques.
 - Répartissez les élèves en petits groupes (3-4 élèves) et encouragez le travail en équipe et une communication claire.
 
-Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à droite signifie que le robot pivote de 90 degrés vers la droite tout en restant sur la même case. Pour que le robot se déplace vers la case située à droite, les élèves doivent utiliser une carte « tourner à droite » suivie d&#39;une carte « avancer ».
+Important : Clarifiez bien ce que signifie « tourner à droite ». Tourner à droite signifie que le robot pivote de 90 degrés vers la droite tout en restant sur la même case. Pour que le robot se déplace vers la case située à droite, les élèves doivent utiliser une carte « tourner à droite » suivie d'une carte « avancer ».
 
 :::
 
@@ -154,7 +154,7 @@ Présentez Robin, le personnage principal de la séance, ainsi que le monde de R
 
 ### Partie B : Production écrite (travail en groupe)
 
-Par petits groupes (3-4 élèves), les élèves décrivent la routine quotidienne de Robin à l&#39;aide de la fiche de travail et du vocabulaire suivant : *get up, breakfast, lunch, sleep, school, play, walk, robot friends, night, eight*.
+Par petits groupes (3-4 élèves), les élèves décrivent la routine quotidienne de Robin à l'aide de la fiche de travail et du vocabulaire suivant : *get up, breakfast, lunch, sleep, school, play, walk, robot friends, night, eight*.
 
 Adaptation selon le niveau de langue des élèves :
 
@@ -164,13 +164,13 @@ Adaptation selon le niveau de langue des élèves :
 
 ### Partie C : Manipulation (classe entière puis travail en groupe)
 
-Une fois la fiche complétée, chaque groupe reçoit une petite grille de bureau (le monde de Robin) et un jeu de cartes de déplacement. Expliquez la fonction de chaque carte et montrez quelques exemples sur la grande grille au sol. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
+Une fois la fiche complétée, chaque groupe reçoit une petite grille de bureau (le monde de Robin) et un jeu de cartes de déplacement. Expliquez la fonction de chaque carte et montrez quelques exemples sur la grande grille au sol. Par exemple, la carte « avancer » signifie que le robot avance d'une case sur la grille.
 
-Chaque groupe « programme » ensuite Robin pour qu&#39;il se déplace sur la petite grille et accomplisse sa routine quotidienne étape par étape, en utilisant les cartes de déplacement.
+Chaque groupe « programme » ensuite Robin pour qu'il se déplace sur la petite grille et accomplisse sa routine quotidienne étape par étape, en utilisant les cartes de déplacement.
 
 Adaptation selon le niveau de langue des élèves :
 
-- Niveau débutant : Limitez le nombre d&#39;actions à programmer (3-4 déplacements).
+- Niveau débutant : Limitez le nombre d'actions à programmer (3-4 déplacements).
 - Niveau intermédiaire : Ajoutez des étapes supplémentaires et introduisez les cartes « répéter ».
 - Niveau avancé : Les élèves créent des programmes plus complexes en utilisant toutes les cartes disponibles.
 
@@ -184,15 +184,15 @@ Adaptation selon le niveau de langue des élèves :
 
 Lorsque toutes les équipes sont prêtes, elles présentent le parcours de la routine quotidienne de leur robot devant toute la classe, en utilisant la grande grille au sol.
 
-Pendant que le robot se déplace, les élèves du groupe commentent ses actions en utilisant le présent simple (par exemple : *« Robin wakes up at 8 o&#39;clock »*).
+Pendant que le robot se déplace, les élèves du groupe commentent ses actions en utilisant le présent simple (par exemple : *« Robin wakes up at 8 o'clock »*).
 
 Si le robot arrive au mauvais endroit, la classe aide le groupe à corriger son programme en lui donnant des pistes.
 
-Ensemble, les élèves identifient des schémas de déplacement récurrents et proposent des améliorations pour simplifier les instructions et raccourcir l&#39;algorithme.
+Ensemble, les élèves identifient des schémas de déplacement récurrents et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme.
 
 Adaptation selon le niveau de langue des élèves :
 
-- Niveau débutant : Les élèves peuvent s&#39;appuyer sur des phrases modèles affichées au tableau pour commenter les actions.
+- Niveau débutant : Les élèves peuvent s'appuyer sur des phrases modèles affichées au tableau pour commenter les actions.
 - Niveau intermédiaire : Les élèves construisent leurs phrases avec un support visuel.
 - Niveau avancé : Les élèves narrent le parcours de manière fluide et autonome.
 
@@ -206,10 +206,10 @@ Pour conclure, invitez les élèves à comparer la routine de leur robot avec le
 
 Rassemblez et rangez le matériel, puis revenez sur les points clés avec les élèves :
 
-- *« What was easy about programming your robot&#39;s routine? »*
+- *« What was easy about programming your robot's routine? »*
 - *« What was challenging? »*
-- *« How did you fix mistakes in your robot&#39;s journey? »*
-- *« How can you improve your instructions (algorithm) during Robin&#39;s routine? »*
+- *« How did you fix mistakes in your robot's journey? »*
+- *« How can you improve your instructions (algorithm) during Robin's routine? »*
 
 Adaptation selon le niveau de langue des élèves :
 
@@ -222,9 +222,9 @@ Adaptation selon le niveau de langue des élèves :
 
 ## Annexe - Le monde de Robin
 
-« Hi! This is my world! Robin&#39;s World :) »
+« Hi! This is my world! Robin's World :) »
 
-Lieux représentés dans la grille : *best friend&#39;s house, school, playground, home, football field, supermarket, park*.
+Lieux représentés dans la grille : *best friend's house, school, playground, home, football field, supermarket, park*.
 
 <img src="/img/ressources/robots-meet-arts/journee-robin/lemondederobin.png" alt="Le monde de Robin" style={{maxWidth: '100%', height: 'auto'}} />
 

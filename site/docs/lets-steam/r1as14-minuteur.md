@@ -165,16 +165,16 @@ Lorsque vous avez fini de compter de 0 à 179, vous commencez à déplacer rapid
 ## Aller plus loin
 
 - **Modulation de largeur d'impulsion** - En savoir plus sur le signal numérique de modulation de largeur d'impulsion.
-  [https://learn.sparkfun.com/tutorials/pulse-width-modulation/all](https://learn.sparkfun.com/tutorials/pulse-width-modulation/all)
+  https://learn.sparkfun.com/tutorials/pulse-width-modulation/all
 
 - **Comment faire bouillir un oeuf à la perfection** - Apprenez combien de temps il faut faire bouillir un oeuf pour obtenir la consistance parfaite.
-  [https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)
+  https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly
 
 - **Compte à rebours** - Créez un compte à rebours et regardez les secondes défiler sur la montre micro:bit.
-  [https://makecode.microbit.org/projects/watch/timer](https://makecode.microbit.org/projects/watch/timer)
+  https://makecode.microbit.org/projects/watch/timer
 
 - **Micro:bit Egg Timer** - Réalisez un minuteur amusant pour garantir le temps de cuisson parfait des oeufs en utilisant l'impression 3D et micro:bit.
-  [https://www.myminifactory.com/object/3d-print-micro-bit-egg-timer-18361](https://www.myminifactory.com/object/3d-print-micro-bit-egg-timer-18361)
+  https://www.myminifactory.com/object/3d-print-micro-bit-egg-timer-18361
 
 ---
 

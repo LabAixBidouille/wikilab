@@ -130,11 +130,11 @@ Les enfants plus âgés peuvent reproduire une figure à partir d'une aire donn�
 La programmation devient une compétence importante à acquérir. Des sites Web proposent des façons ludiques d'apprendre à coder. Pour vous exercer davantage à la programmation en classe, vous pouvez vous référer à :
 
 - D'autres quêtes de Unplugged comme [Memory](/ressources/unplugged/memory), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix), [Comptage binaire](/ressources/unplugged/binary-counting), [Programme ta chorégraphie](/ressources/unplugged/programming-a-choreography)
-- Des outils de programmation adaptés au jeune public tels que Scratch : [https://scratch.mit.edu/](https://scratch.mit.edu/), Code.org : [https://code.org/](https://code.org/) et Code Combat : [https://codecombat.com/](https://codecombat.com/)
+- Des outils de programmation adaptés au jeune public tels que Scratch : https://scratch.mit.edu/, Code.org : https://code.org/ et Code Combat : https://codecombat.com/
 
 ### Thématique 2 - Travailler sa cognition spatiale
 
-- Visualisez et reproduisez les images du lien donné sur un tableau 10x10 : [https://www.pinterest.fr/pin/18999629663311867/](https://www.pinterest.fr/pin/18999629663311867/)
+- Visualisez et reproduisez les images du lien donné sur un tableau 10x10 : https://www.pinterest.fr/pin/18999629663311867/
 - Pour approfondir le travail avec les images, vous pouvez vous référer à d'autres quêtes de Unplugged, par exemple [Form factor](/ressources/unplugged/form-factor), [Fantasy out there!](/ressources/unplugged/fantasy-out-there), [Good ways](/ressources/unplugged/good-ways).
 
 ### Thématique 3 - S'exprimer clairement et efficacement
@@ -144,10 +144,10 @@ Essayez de parler à un assistant virtuel sur un téléphone ou un ordinateur. V
 ### Thématique 4 - Débattre pour perfectionner sa stratégie
 
 - Autres jeux Unplugged : [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Reroute better world](/ressources/unplugged/reroute-better-world), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), etc.
-- Débattre des questions environnementales à l'école : [https://www.kindergartenlessons.com/environmental_education_for_kids/](https://www.kindergartenlessons.com/environmental_education_for_kids/)
-- [http://gogreencyclopedia.blogspot.com/2013/09/50-facts-about-your-environment-for-kids.html](http://gogreencyclopedia.blogspot.com/2013/09/50-facts-about-your-environment-for-kids.html)
-- Apprendre à connaître les énergies propres : [https://energync.org/forkids/](https://energync.org/forkids/)
-- Plus d'exercices physiques ludo-pédagogiques : [https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/](https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/)
+- Débattre des questions environnementales à l'école : https://www.kindergartenlessons.com/environmental_education_for_kids/
+- http://gogreencyclopedia.blogspot.com/2013/09/50-facts-about-your-environment-for-kids.html
+- Apprendre à connaître les énergies propres : https://energync.org/forkids/
+- Plus d'exercices physiques ludo-pédagogiques : https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/
 
 ---
 

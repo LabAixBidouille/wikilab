@@ -161,7 +161,7 @@ Les Skill Trees peuvent servir d'outil de dialogue et de planification personnal
 
 ### Bien démarrer
 
-- **Étape 1 - Choisir et préparer l'arbre :** Rendez-vous sur le repository GitHub des Skill Trees : [https://github.com/sjpiper145/MakerSkillTree](https://github.com/sjpiper145/MakerSkillTree). Parcourez les différents arbres disponibles selon vos thématiques. Téléchargez le PDF de votre choix (ou créez un nouvel arbre à partir du modèle vierge) et imprimez-le en A4 ou A3. Préparez le matériel de coloriage (crayons, feutres, surligneurs).
+- **Étape 1 - Choisir et préparer l'arbre :** Rendez-vous sur le repository GitHub des Skill Trees : https://github.com/sjpiper145/MakerSkillTree. Parcourez les différents arbres disponibles selon vos thématiques. Téléchargez le PDF de votre choix (ou créez un nouvel arbre à partir du modèle vierge) et imprimez-le en A4 ou A3. Préparez le matériel de coloriage (crayons, feutres, surligneurs).
 - **Étape 2 - Présenter le concept :** Expliquez l'origine et l'objectif des Skill Trees. Montrez la structure : **base = débutant**, **sommet = expert.** Rassurez sur l'absence de jugement. Précisez que la progression n'est **pas obligatoirement linéaire.**
 - **Étape 3 - Diagnostic initial du projet :** Chaque participant colorie son état de départ en toute honnêteté, créant une photo initiale de ses compétences (soit individuellement - chaque participant a son arbre - soit collectivement, ce qui donne une idée du point de départ des participants en tant que groupe). Encouragez l'honnêteté bienveillante et rappelez que les objectifs peuvent être interprétés selon le contexte. Cette évaluation initiale servira de référence pour mesurer la progression tout au long du projet.
 - **Étape 4 - Planification des séances :** À partir des arbres individuels et/ou collectifs, identifiez 2-3 compétences à travailler lors de chaque atelier. Utilisez les cases non coloriées comme guide pour programmer vos activités. Définissez clairement quelles compétences chaque séance permettra de développer.
@@ -218,13 +218,13 @@ Les Skill Trees peuvent servir d'outil de dialogue et de planification personnal
 
 **Site principal du projet**
 
-- Repository GitHub officiel : [https://github.com/sjpiper145/MakerSkillTree/tree/main](https://github.com/sjpiper145/MakerSkillTree/tree/main)
+- Repository GitHub officiel : https://github.com/sjpiper145/MakerSkillTree/tree/main
 - Créatrice : Steph Piper / Maker Queen
 - Licence : Creative Commons CC BY-NC-SA 4.0
 
 **Templates et outils**
 
-- Template vierge : [https://github.com/sjpiper145/MakerSkillTree/tree/main/Template%20Skill%20Tree](https://github.com/sjpiper145/MakerSkillTree/tree/main/Template%20Skill%20Tree)
+- Template vierge : https://github.com/sjpiper145/MakerSkillTree/tree/main/Template%20Skill%20Tree
 - Plus de 70 arbres thématiques disponibles au téléchargement
 - Formats A4 et A3 prêts à imprimer
 

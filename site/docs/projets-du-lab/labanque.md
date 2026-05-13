@@ -107,4 +107,4 @@ Coût des ateliers de formation :
 
 ### Protocole d'échange
 
-[http://nutsbank.herokuapp.com/makers/sign_in](http://nutsbank.herokuapp.com/makers/sign_in)
+http://nutsbank.herokuapp.com/makers/sign_in

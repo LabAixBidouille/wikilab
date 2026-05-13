@@ -72,12 +72,12 @@ Extension de l'expérimentation précédente avec plusieurs nœuds récepteurs s
 
 ### Bibliographie
 
-- [https://fr.wikipedia.org/wiki/Controller_Area_Network](https://fr.wikipedia.org/wiki/Controller_Area_Network)
+- https://fr.wikipedia.org/wiki/Controller_Area_Network
 
-- [http://modelrail.otenko.com/arduino/arduino-controller-area-network-can](http://modelrail.otenko.com/arduino/arduino-controller-area-network-can)
+- http://modelrail.otenko.com/arduino/arduino-controller-area-network-can
 
-- [http://www.seeedstudio.com/wiki/CAN-BUS_Shield](http://www.seeedstudio.com/wiki/CAN-BUS_Shield)
+- http://www.seeedstudio.com/wiki/CAN-BUS_Shield
 
-- [http://skpang.co.uk/blog/archives/55](http://skpang.co.uk/blog/archives/55)
+- http://skpang.co.uk/blog/archives/55
 
-- [https://www.sparkfun.com/products/10039](https://www.sparkfun.com/products/10039)
+- https://www.sparkfun.com/products/10039

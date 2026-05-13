@@ -167,23 +167,23 @@ Ce programme est une version étendue du programme "Faire clignoter une LED" ada
 2. Branchez des LED de différentes couleurs — rouge, vert et jaune — et essayez de simuler un feu de signalisation tricolore.
 
 3. Vous pouvez utiliser les LED pour aborder le **comptage binaire** ! Lorsque nous comptons en binaire, nous représentons les nombres par des suites de 0 et de 1. Découvrez plus d'informations sur le comptage binaire sur le centre de ressources CS Unplugged. Une fois les bases du comptage binaire acquises, transformez ce programme pour afficher les nombres de 0 à 7 en binaire avec les trois LED.
-   **Ressource :** [https://csunplugged.org/en/topics/binary-numbers/unit-plan/](https://csunplugged.org/en/topics/binary-numbers/unit-plan/)
+   **Ressource :** https://csunplugged.org/en/topics/binary-numbers/unit-plan/
 
 ---
 
 ## Aller plus loin
 
 - **Comment utiliser une breadboard** - Tutoriel vidéo présentant une introduction aux breadboards et expliquant comment les utiliser dans des projets électroniques pour débutants.
-  [https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard](https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard)
+  https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard
 
 - **Utilisez une vraie breadboard (planche à pain) pour prototyper votre circuit** - Prototypage pas à pas avec une breadboard.
-  [https://www.instructables.com/Use-a-real-Bread-Board-for-prototyping-your-circui/](https://www.instructables.com/Use-a-real-Bread-Board-for-prototyping-your-circui/)
+  https://www.instructables.com/Use-a-real-Bread-Board-for-prototyping-your-circui/
 
 - **Animations de LED simples pour débutants (Arduino)** - Tutoriel pour revoir certains concepts sur l'utilisation des LED et créer des effets amusants en utilisant le RedBoard Qwiic pour contrôler les LED individuelles.
-  [https://learn.sparkfun.com/tutorials/basic-led-animations-for-beginners-arduino/all](https://learn.sparkfun.com/tutorials/basic-led-animations-for-beginners-arduino/all)
+  https://learn.sparkfun.com/tutorials/basic-led-animations-for-beginners-arduino/all
 
 - **10 principes de base de l'électronique** - Un aperçu du fonctionnement des breadboards.
-  [https://www.youtube.com/watch?v=fq6U5Y14oM4](https://www.youtube.com/watch?v=fq6U5Y14oM4)
+  https://www.youtube.com/watch?v=fq6U5Y14oM4
 
 ---
 

@@ -50,7 +50,7 @@ sidebar_position: 2
 
 **A la recherche d'un projet concret mêlant électronique, programmation et robotique, cette fiche accompagne les animateurs et éducateurs dans la réalisation d'un robot autonome avec des jeunes. Des bases de Python aux montages électroniques, découvrez comment transformer des composants simples en un véritable robot capable d'éviter les obstacles.**
 
-Afin d'initier les jeunes à la programmation et aux capteurs, le projet Robot autonome est une valeur sure pour introduire des notions majeures. En développant un robot motorisé sur base d'un Raspberry Pi Pico, à l'aide d'un capteur à ultrson, qui repère les obstacles et les évite, les jeunes mobilise leurs compétences en fonctionnement des capteurs, programmation en python, logiciels disponible au sein d'un fablab, machine, câblage, soudure ...
+Afin d'initier les jeunes à la programmation et aux capteurs, le projet Robot autonome est une valeur sure pour introduire des notions majeures. En développant un robot motorisé sur base d'un Raspberry Pi Pico, à l'aide d'un capteur à ultrason, qui repère les obstacles et les évite, les jeunes mobilise leurs compétences en fonctionnement des capteurs, programmation en python, logiciels disponible au sein d'un fablab, machine, câblage, soudure ...
 
 :::info[Conseil pour l'animateur]
 Parce que les jeunes voient immédiatement le résultat de leur travail. Chaque ligne de code modifiée fait bouger le robot différemment, chaque connexion réalisée a un impact visible. Cette rétroaction instantanée maintient l'engagement et facilite la compréhension des concepts abstraits de programmation. **Le plus ? C'est un projet évolutif.** On peut commencer simple (faire clignoter une LED) et progresser vers un robot autonome complet. Les participants moins à l'aise peuvent se concentrer sur le montage physique, tandis que les plus avancés peuvent améliorer l'intelligence du robot. Chacun trouve sa place et contribue selon ses forces. Ce projet développe des compétences multiples : logique de programmation, électronique, résolution de problèmes, travail manuel avec les outils, et même un peu de mathématiques avec le calcul des distances. Les jeunes repartent avec un objet qu'ils ont créé de A à Z, source de fierté et de motivation pour continuer.
@@ -114,7 +114,7 @@ Pour bien le connecter, branchez votre Pico à l'aide du câble micro USB, en ga
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101612.png" alt="Connexion du Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Dans cet emplacement, glissez le fichier **MicroPython UF2 file (téléchargeable ici : [https://www.raspberrypi.com/documentation/microcontrollers/micropython.html](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) ). Une fois que c'est fait, vous pouvez ouvrir Thonny et définir le PiCo comme interpréteur.**
+Dans cet emplacement, glissez le fichier **MicroPython UF2 file (téléchargeable ici : https://www.raspberrypi.com/documentation/microcontrollers/micropython.html ). Une fois que c'est fait, vous pouvez ouvrir Thonny et définir le PiCo comme interpréteur.**
 
 Pour ce faire, allez dans l'onglet Exécuter (ou run si le programme est en anglais, mais il sera au même emplacement), puis dans le menu déroulant cliquez sur « Sélectionner l'interpréteur ».
 
@@ -376,7 +376,7 @@ Voici un exemples de code qui fonctionne (à combiner avec la partie en haut à 
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_8.png" alt="Code final robot" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-**Enfin, ci-dessous un schema des connections :**
+**Enfin, ci-dessous un schéma des connexions :**
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_9.png" alt="Schéma des connections" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 

@@ -103,24 +103,24 @@ L'enseignant divise les enfants en groupes de 4 à 5 personnes et distribue diff
 
 ### Sujet 1 - Comprendre la relation leadership/influence et manipulation
 
-- [https://teacherblog.evan-moor.com/2019/04/16/using-voice-to-persuade-persuasive-writing-prompts-for-grades-4-6](https://teacherblog.evan-moor.com/2019/04/16/using-voice-to-persuade-persuasive-writing-prompts-for-grades-4-6)
-- [https://www.youtube.com/watch?v=goSXuGe8Er0](https://www.youtube.com/watch?v=goSXuGe8Er0)
+- https://teacherblog.evan-moor.com/2019/04/16/using-voice-to-persuade-persuasive-writing-prompts-for-grades-4-6
+- https://www.youtube.com/watch?v=goSXuGe8Er0
 
 ### Sujet 2 - Manipulation et désinformation
 
-- [https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children](https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children)
+- https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children
 
 ### Sujet 3 - Penser logiquement pour résoudre des problèmes
 
 Consulter les quêtes [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix) et [Plastic continent](/ressources/unplugged/plastic-continent).
 
-- [https://heidisongs.blogspot.com/2019/07/how-to-teach-critical-thinking-skills.html](https://heidisongs.blogspot.com/2019/07/how-to-teach-critical-thinking-skills.html)
+- https://heidisongs.blogspot.com/2019/07/how-to-teach-critical-thinking-skills.html
 
 ### Sujet 4 - Construction de la ville
 
 Voir les jeux [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur) et [Ferme en ville](/ressources/unplugged/ferme-en-ville).
 
-- [https://geoalliance.asu.edu/createcity](https://geoalliance.asu.edu/createcity)
+- https://geoalliance.asu.edu/createcity
 
 ---
 

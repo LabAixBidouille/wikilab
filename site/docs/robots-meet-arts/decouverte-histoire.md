@@ -24,7 +24,7 @@ sidebar_position: 23
 ## Matériel
 
 - Cartes imprimées des itinéraires des explorateurs
-- Cartes d&#39;instructions (avancer de X pas, tourner à gauche, tourner à droite, s&#39;arrêter, etc.)
+- Cartes d'instructions (avancer de X pas, tourner à gauche, tourner à droite, s'arrêter, etc.)
 - Petits jetons ou figurines représentant des navires ou des explorateurs
 - Crayons et feuilles A4
 
@@ -39,12 +39,12 @@ sidebar_position: 23
 
 ---
 
-## Objectifs d&#39;apprentissage
+## Objectifs d'apprentissage
 
-À l&#39;issue de cette séance, les élèves seront capables de :
+À l'issue de cette séance, les élèves seront capables de :
 
 - Identifier les voyages de différents explorateurs européens.
-- Comprendre l&#39;importance d&#39;instructions claires et ordonnées.
+- Comprendre l'importance d'instructions claires et ordonnées.
 - Faire le lien entre la pensée algorithmique et la navigation historique.
 - Collaborer pour résoudre des défis et suivre des consignes.
 - Développer leur esprit critique et leurs compétences en résolution de problèmes.
@@ -58,10 +58,10 @@ sidebar_position: 23
 :::info[Notes pour l'enseignant·e]
 
 - Imprimez et préparez les cartes historiques avec les itinéraires des différents explorateurs.
-- Vérifiez que les élèves ont accès aux cartes d&#39;instructions et aux jetons représentant les navires.
+- Vérifiez que les élèves ont accès aux cartes d'instructions et aux jetons représentant les navires.
 - Abordez le vocabulaire clé en amont (navigation, séquence, débogage).
-- Encouragez les élèves à réfléchir étape par étape lorsqu&#39;ils créent leurs algorithmes.
-- Rappelez aux élèves que se tromper fait partie de l&#39;apprentissage : le débogage est essentiel !
+- Encouragez les élèves à réfléchir étape par étape lorsqu'ils créent leurs algorithmes.
+- Rappelez aux élèves que se tromper fait partie de l'apprentissage : le débogage est essentiel !
 
 :::
 
@@ -70,12 +70,12 @@ sidebar_position: 23
 Projetez une carte historique et posez des questions pour guider la réflexion :
 
 - Qui étaient les explorateurs ? Que cherchaient-ils ?
-- Comment pensez-vous qu&#39;ils naviguaient sans les technologies modernes ?
+- Comment pensez-vous qu'ils naviguaient sans les technologies modernes ?
 - Pourquoi est-il important de donner des instructions claires et structurées ?
 
-### 2. Démonstration par l&#39;enseignant·e
+### 2. Démonstration par l'enseignant·e
 
-L&#39;enseignant·e exécute des instructions incorrectes ou imprécises données par les élèves (par exemple : « Tourne à droite » sans préciser de combien). Cela provoque des erreurs et aide les élèves à comprendre l&#39;importance de la précision dans les consignes.
+L'enseignant·e exécute des instructions incorrectes ou imprécises données par les élèves (par exemple : « Tourne à droite » sans préciser de combien). Cela provoque des erreurs et aide les élèves à comprendre l'importance de la précision dans les consignes.
 
 
 ---
@@ -87,28 +87,28 @@ L&#39;enseignant·e exécute des instructions incorrectes ou imprécises donnée
 
 Chaque groupe reçoit le matériel suivant :
 - Cartes imprimées des itinéraires des explorateurs
-- Cartes d&#39;instructions (avancer de X pas, tourner à gauche, tourner à droite, s&#39;arrêter, etc.)
+- Cartes d'instructions (avancer de X pas, tourner à gauche, tourner à droite, s'arrêter, etc.)
 - Petits jetons ou figurines représentant des navires et des explorateurs
 - Crayons et feuilles A4
 
 Pour ajuster le niveau de difficulté, vous pouvez :
 - Commencer par des formes géométriques simples pour faciliter les instructions orales.
-- Limiter le nombre d&#39;instructions que le « navigateur » peut utiliser.
-- Demander au « navigateur » d&#39;écrire ses instructions sur papier avant de les donner.
+- Limiter le nombre d'instructions que le « navigateur » peut utiliser.
+- Demander au « navigateur » d'écrire ses instructions sur papier avant de les donner.
 - Proposer des tracés plus complexes ou irréguliers au lieu de formes géométriques connues.
-- Augmenter ou réduire le nombre d&#39;étapes selon le niveau des élèves.
+- Augmenter ou réduire le nombre d'étapes selon le niveau des élèves.
 
 :::
 
-### Programmer l&#39;explorateur
+### Programmer l'explorateur
 
 Chaque groupe reçoit une carte et un explorateur attribué (par exemple, Christophe Colomb, Magellan).
 
-Les élèves créent une séquence d&#39;instructions pour reproduire le voyage de l&#39;explorateur. Un élève joue le rôle du « Navigateur » et suit les consignes du groupe en déplaçant le jeton sur la carte.
+Les élèves créent une séquence d'instructions pour reproduire le voyage de l'explorateur. Un élève joue le rôle du « Navigateur » et suit les consignes du groupe en déplaçant le jeton sur la carte.
 
-### Déboguer l&#39;algorithme
+### Déboguer l'algorithme
 
-Les autres groupes examinent les instructions données pour vérifier si l&#39;itinéraire a été correctement suivi. Si l&#39;« explorateur » se perd ou n&#39;atteint pas sa destination, le groupe corrige ses instructions. Le processus est répété jusqu&#39;à ce que l&#39;itinéraire soit parcouru correctement.
+Les autres groupes examinent les instructions données pour vérifier si l'itinéraire a été correctement suivi. Si l'« explorateur » se perd ou n'atteint pas sa destination, le groupe corrige ses instructions. Le processus est répété jusqu'à ce que l'itinéraire soit parcouru correctement.
 
 
 ---
@@ -121,7 +121,7 @@ Les élèves rangent et ordonnent le matériel à sa place. Les groupes comparen
 Questions pour guider la discussion :
 
 - Quels problèmes avez-vous rencontrés en donnant vos instructions ?
-- Pourquoi pensez-vous que l&#39;ordre et la précision sont importants ?
+- Pourquoi pensez-vous que l'ordre et la précision sont importants ?
 - Quel lien voyez-vous entre cette activité et la programmation informatique ?
 
 

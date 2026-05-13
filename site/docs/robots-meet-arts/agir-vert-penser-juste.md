@@ -24,14 +24,14 @@ sidebar_position: 17
 
 ## Matériel
 
-- Tapis de sol (grille 5x5 avec des carrés de 15 cm) avec photographies d&#39;actions favorables et défavorables au climat
-- Un Blue-Bot pour chaque groupe d&#39;élèves
+- Tapis de sol (grille 5x5 avec des carrés de 15 cm) avec photographies d'actions favorables et défavorables au climat
+- Un Blue-Bot pour chaque groupe d'élèves
 - Cartes avec des actions favorables et défavorables au climat
 
 Facultatif :
 
-- Une tablette par groupe avec l&#39;application Blue-Bot installée
-- Photo du tapis téléchargée dans l&#39;application pour activer la vue numérique
+- Une tablette par groupe avec l'application Blue-Bot installée
+- Photo du tapis téléchargée dans l'application pour activer la vue numérique
 - Blue-Bot connecté via Bluetooth pour permettre la programmation à distance
 
 <div style={{marginTop: "1.5rem"}}/>
@@ -55,10 +55,10 @@ Facultatif :
 
 ## Liens utiles
 
-- Objectif de développement durable n°13 : Action pour le climat : [https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13\_Fast-Facts.pdf](https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13_Fast-Facts.pdf)
-- Vidéo « Climate Action : SDG 13 : Sustainable Development Goals for Kids » : [https://youtu.be/jhoa3OHivN8](https://youtu.be/jhoa3OHivN8) (en espagnol)
-- Application Blue-Bot (Google Play) : [https://play.google.com/store/apps/details?id=tts.bluebot](https://play.google.com/store/apps/details?id=tts.bluebot)
-- Application Blue-Bot (Apple Store) : [https://apps.apple.com/fr/app/blue-bot/id957753068](https://apps.apple.com/fr/app/blue-bot/id957753068)
+- Objectif de développement durable n°13 : Action pour le climat : https://www.un.org/sustainabledevelopment/wp-content/uploads/2023/09/Goal-13_Fast-Facts.pdf
+- Vidéo « Climate Action : SDG 13 : Sustainable Development Goals for Kids » : https://youtu.be/jhoa3OHivN8 (en espagnol)
+- Application Blue-Bot (Google Play) : https://play.google.com/store/apps/details?id=tts.bluebot
+- Application Blue-Bot (Apple Store) : https://apps.apple.com/fr/app/blue-bot/id957753068
 
 ---
 
@@ -67,7 +67,7 @@ Facultatif :
 :::info[Notes pour l'enseignant·e]
 
 Avant la séance :
-- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe (une grande grille par groupe).
+- Créez une grande grille au sol à l'aide de ruban adhésif ou de papier, ou imprimez la grille exemple fournie en annexe (une grande grille par groupe).
 - Le tapis de sol (grille 5x5 avec des carrés de 15 cm) comporte dans chaque case une photographie représentant soit une action favorable au climat, soit une action défavorable au climat.
 - Assurez-vous que les robots sont suffisamment chargés avant la séance.
 
@@ -78,11 +78,11 @@ Avant la séance :
 ## Séquence 1 - Mise en route (Warm-up)
 
 
-Commencez par une conversation avec les élèves sur le changement climatique : qu&#39;est-ce que c&#39;est ? Pourquoi est-ce un problème ? Laissez les élèves s&#39;exprimer et partager ce qu&#39;ils savent déjà.
+Commencez par une conversation avec les élèves sur le changement climatique : qu'est-ce que c'est ? Pourquoi est-ce un problème ? Laissez les élèves s'exprimer et partager ce qu'ils savent déjà.
 
-Présentez ensuite l&#39;Objectif de développement durable n°13 (Action pour le climat) à l&#39;aide de ressources visuelles et d&#39;une courte vidéo adaptée à l&#39;âge des élèves (voir liens utiles).
+Présentez ensuite l'Objectif de développement durable n°13 (Action pour le climat) à l'aide de ressources visuelles et d'une courte vidéo adaptée à l'âge des élèves (voir liens utiles).
 
-Introduisez le Blue-Bot comme un « robot écologiste » qui a besoin d&#39;aide pour trouver les actions durables et éviter celles qui polluent. Expliquez aux élèves qu&#39;ils vont devenir les guides de ce petit robot pour l&#39;aider à faire les bons choix pour la planète !
+Introduisez le Blue-Bot comme un « robot écologiste » qui a besoin d'aide pour trouver les actions durables et éviter celles qui polluent. Expliquez aux élèves qu'ils vont devenir les guides de ce petit robot pour l'aider à faire les bons choix pour la planète !
 
 Les élèves sont maintenant sensibilisés au sujet et motivés, place à la programmation !
 
@@ -94,15 +94,15 @@ Les élèves sont maintenant sensibilisés au sujet et motivés, place à la pro
 
 :::info[Notes pour l'enseignant·e]
 
-Organisez les élèves en petits groupes de 3-4 et encouragez le travail d&#39;équipe ainsi qu&#39;une communication claire au sein de chaque groupe.
+Organisez les élèves en petits groupes de 3-4 et encouragez le travail d'équipe ainsi qu'une communication claire au sein de chaque groupe.
 
-Clarifiez ce que signifie « tourner à droite ». Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d&#39;abord programmer « tourner à droite », puis « avancer ». Il est essentiel d&#39;expliquer clairement ce point aux élèves, car ils risquent d&#39;interpréter les commandes différemment. Sur de nombreux robots éducatifs, tourner à droite signifie pivoter de 90 degrés sans changer de case.
+Clarifiez ce que signifie « tourner à droite ». Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d'abord programmer « tourner à droite », puis « avancer ». Il est essentiel d'expliquer clairement ce point aux élèves, car ils risquent d'interpréter les commandes différemment. Sur de nombreux robots éducatifs, tourner à droite signifie pivoter de 90 degrés sans changer de case.
 
 :::
 
-Chaque groupe reçoit un défi : programmer le Blue-Bot pour qu&#39;il visite trois actions durables tout en évitant deux actions néfastes pour l&#39;environnement.
+Chaque groupe reçoit un défi : programmer le Blue-Bot pour qu'il visite trois actions durables tout en évitant deux actions néfastes pour l'environnement.
 
-Les élèves doivent planifier l&#39;itinéraire ensemble, le tester et apporter des corrections si nécessaire. Encouragez-les à noter les trajets prévus et à faire des prédictions avant de lancer le robot. Cette étape de réflexion préalable les aide à développer leur pensée algorithmique.
+Les élèves doivent planifier l'itinéraire ensemble, le tester et apporter des corrections si nécessaire. Encouragez-les à noter les trajets prévus et à faire des prédictions avant de lancer le robot. Cette étape de réflexion préalable les aide à développer leur pensée algorithmique.
 
 <figure style={{width: '50%', margin: '1rem auto'}}>
   <img src="/img/ressources/robots-meet-arts/agir-vert-penser-juste/exempletapisdesol.png" alt="Exemple de tapis de sol" style={{width: '100%', height: 'auto'}} />
@@ -123,39 +123,39 @@ Les parcours sont prêts et testés, il est temps de les partager avec toute la 
 
 Lorsque toutes les équipes sont prêtes, chaque groupe présente le parcours de son robot à travers les actions favorables au climat en utilisant la grande grille au sol.
 
-Pendant que le robot se déplace, les élèves du groupe commentent les actions sur lesquelles le robot passe. Cela permet de travailler l&#39;expression orale et de consolider les apprentissages sur les gestes écologiques.
+Pendant que le robot se déplace, les élèves du groupe commentent les actions sur lesquelles le robot passe. Cela permet de travailler l'expression orale et de consolider les apprentissages sur les gestes écologiques.
 
-Si le robot n&#39;atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l&#39;algorithme. Cette entraide favorise un climat de classe bienveillant et collaboratif.
+Si le robot n'atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme. Cette entraide favorise un climat de classe bienveillant et collaboratif.
 
 Les présentations terminées, il est temps de garder une trace de ces apprentissages !
 
 
 ---
 
-## Réflexion autour de la séquence - Création d&#39;une fresque
+## Réflexion autour de la séquence - Création d'une fresque
 
 
 :::info[Notes pour l'enseignant·e : matériel pour la fresque ou l'infographie]
 
 - Grandes feuilles de papier ou papier pour affiche (divisé en deux sections : actions positives et actions négatives)
-- Photographies imprimées d&#39;actions liées au changement climatique (recyclage, gaspillage d&#39;eau, vélo, plastiques à usage unique, etc.)
+- Photographies imprimées d'actions liées au changement climatique (recyclage, gaspillage d'eau, vélo, plastiques à usage unique, etc.)
 - Magazines ou catalogues pour découper des images
 - Fournitures artistiques : feutres, crayons de couleur, ciseaux, colle, autocollants, etc.
 - Étiquettes ou notes autocollantes pour écrire de courtes descriptions des actions
-- Appareils numériques (facultatif) : pour créer une infographie numérique avec des outils comme Canva ou Google Slides, si cela convient à l&#39;âge des élèves
+- Appareils numériques (facultatif) : pour créer une infographie numérique avec des outils comme Canva ou Google Slides, si cela convient à l'âge des élèves
 
 :::
 
-Pour conclure l&#39;activité Blue-Bot sur l&#39;ODD 13, proposez aux élèves de créer ensemble une fresque ou une infographie qui met en évidence la différence entre les actions favorables et défavorables au climat. Chaque groupe d&#39;élèves contribue en sélectionnant des images ou en dessinant des représentations des actions qu&#39;ils ont explorées pendant l&#39;activité, notamment les actions que le Blue-Bot a visitées sur la grille.
+Pour conclure l'activité Blue-Bot sur l'ODD 13, proposez aux élèves de créer ensemble une fresque ou une infographie qui met en évidence la différence entre les actions favorables et défavorables au climat. Chaque groupe d'élèves contribue en sélectionnant des images ou en dessinant des représentations des actions qu'ils ont explorées pendant l'activité, notamment les actions que le Blue-Bot a visitées sur la grille.
 
-La fresque ou l&#39;infographie comporte deux sections distinctes :
+La fresque ou l'infographie comporte deux sections distinctes :
 
-- **Actions favorables au climat** : recycler, marcher ou faire du vélo au lieu de prendre la voiture, économiser l&#39;eau, planter des arbres, etc.
-- **Actions défavorables au climat** : jeter des déchets par terre, gaspiller l&#39;électricité, utiliser des plastiques à usage unique, polluer l&#39;eau, etc.
+- **Actions favorables au climat** : recycler, marcher ou faire du vélo au lieu de prendre la voiture, économiser l'eau, planter des arbres, etc.
+- **Actions défavorables au climat** : jeter des déchets par terre, gaspiller l'électricité, utiliser des plastiques à usage unique, polluer l'eau, etc.
 
-Cette représentation visuelle permet de consolider les apprentissages, de renforcer le vocabulaire et d&#39;encourager la discussion. Les élèves développent ainsi un sentiment de fierté en contribuant à un affichage collectif centré sur la durabilité.
+Cette représentation visuelle permet de consolider les apprentissages, de renforcer le vocabulaire et d'encourager la discussion. Les élèves développent ainsi un sentiment de fierté en contribuant à un affichage collectif centré sur la durabilité.
 
-Affichez la fresque dans la classe ou dans un couloir de l&#39;école pour partager ce que les élèves ont appris avec le reste de la communauté scolaire. Rangez ensuite le matériel et les robots.
+Affichez la fresque dans la classe ou dans un couloir de l'école pour partager ce que les élèves ont appris avec le reste de la communauté scolaire. Rangez ensuite le matériel et les robots.
 
 
 ---
@@ -166,21 +166,21 @@ Affichez la fresque dans la classe ou dans un couloir de l&#39;école pour parta
 
 **Actions favorables au climat (bonnes pour la planète) :**
 
-- Aller à l&#39;école à pied ou à vélo
-- Éteindre les lumières quand on n&#39;en a pas besoin
+- Aller à l'école à pied ou à vélo
+- Éteindre les lumières quand on n'en a pas besoin
 - Utiliser des gourdes réutilisables
 - Recycler et trier correctement les déchets
 - Réutiliser du papier ou des matériaux pour des bricolages
 - Utiliser des sacs en tissu au lieu de sacs en plastique
 - Planter des arbres ou prendre soin des plantes
-- Économiser l&#39;eau en se lavant les mains ou en se brossant les dents
+- Économiser l'eau en se lavant les mains ou en se brossant les dents
 
 **Actions défavorables au climat (mauvaises pour la planète) :**
 
 - Jeter du plastique par terre ou dans la mer
 - Laisser les appareils électroniques allumés quand on ne les utilise pas
 - Prendre la voiture pour de très courts trajets
-- Acheter beaucoup de choses dont on n&#39;a pas vraiment besoin
+- Acheter beaucoup de choses dont on n'a pas vraiment besoin
 - Gaspiller des matériaux ou jeter de la nourriture
 - Utiliser beaucoup de produits à usage unique (gobelets en plastique, serviettes en papier, etc.)
 - Couper des arbres sans en replanter

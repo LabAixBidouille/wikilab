@@ -35,7 +35,7 @@ sidebar_position: 9
 
 ---
 
-uMap est un outil de cartographie open-source qui permet de créer, gérer et partager des cartes personnalisées. Il s'appuie sur les données d'OpenStreetMap, offrant une plateforme souple et accessible pour représenter des informations géographiques. Au sein de Jedi Track, il a été utilisé pour valoriser la campagne de relève AccessQuest par la création d'une carte participative des quartiers étudiés afin d'identifier les enjeux d'accessibilité : [http://u.osmfr.org/m/1218866/](http://u.osmfr.org/m/1218866/)
+uMap est un outil de cartographie open-source qui permet de créer, gérer et partager des cartes personnalisées. Il s'appuie sur les données d'OpenStreetMap, offrant une plateforme souple et accessible pour représenter des informations géographiques. Au sein de Jedi Track, il a été utilisé pour valoriser la campagne de relève AccessQuest par la création d'une carte participative des quartiers étudiés afin d'identifier les enjeux d'accessibilité : http://u.osmfr.org/m/1218866/
 
 OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable. Elle est alimentée par des bénévoles, à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Elle rassemble une grande variété de données géographiques : rues, équipements publics, commerces, transports, etc. Souvent comparée à Wikipedia, cette carte permet à chacun de contribuer, mais aussi de réutiliser les données dans de nombreux contextes.
 
@@ -75,8 +75,8 @@ Les jeunes d'aujourd'hui évoluent souvent dans leur territoire sans vraiment le
 
     Vous pouvez également **ajouter une image**. Pour cela, collez l'URL entre deux accolades : `{{URL}}`. Pour créer facilement une URL à partir de vos images, utilisez un outil libre comme :
 
-    1. **Postimage** ([https://postimg.cc/](https://postimg.cc/)). Téléversez l'image, puis copiez le **Lien Direct** (sans créer de compte)
-    2. Vous pouvez également utiliser **GitHub** ([https://github.com/](https://github.com/)) : ajoutez votre image dans un dépôt public, ouvrez le fichier, puis copiez l'adresse de l'image (clic droit -> copier l'adresse de l'image).
+    1. **Postimage** (https://postimg.cc/). Téléversez l'image, puis copiez le **Lien Direct** (sans créer de compte)
+    2. Vous pouvez également utiliser **GitHub** (https://github.com/) : ajoutez votre image dans un dépôt public, ouvrez le fichier, puis copiez l'adresse de l'image (clic droit -> copier l'adresse de l'image).
 
     Lorsque vous avez terminé, cliquez sur **enregistrer**. Passez en mode **aperçu** pour vérifier l'affichage de votre vignette.
 
@@ -131,14 +131,14 @@ uMap offre deux possibilités d'usage qui s'adaptent à vos contraintes et objec
 
 ## Références
 
-- Site officiel : [https://umap.openstreetmap.fr/](https://umap.openstreetmap.fr/)
-- Projet OpenStreetMap : [https://www.openstreetmap.org/](https://www.openstreetmap.org/)
-- Documentation : [https://wiki.openstreetmap.org/wiki/UMap/Guide](https://wiki.openstreetmap.org/wiki/UMap/Guide)
-- Tutoriel complet uMap : [https://www.youtube.com/watch?v=j7o96lUxN6o](https://www.youtube.com/watch?v=j7o96lUxN6o)
-- Bases sans compte : [https://www.youtube.com/watch?v=-gR4IN1meOY](https://www.youtube.com/watch?v=-gR4IN1meOY)
-- Forum d'aide OpenStreetMap : [https://forum.openstreetmap.org/](https://forum.openstreetmap.org/)
-- Postimage (hébergement gratuit) : [https://postimg.cc/](https://postimg.cc/)
-- GitHub (stockage images) : [https://github.com/](https://github.com/)
+- Site officiel : https://umap.openstreetmap.fr/
+- Projet OpenStreetMap : https://www.openstreetmap.org/
+- Documentation : https://wiki.openstreetmap.org/wiki/UMap/Guide
+- Tutoriel complet uMap : https://www.youtube.com/watch?v=j7o96lUxN6o
+- Bases sans compte : https://www.youtube.com/watch?v=-gR4IN1meOY
+- Forum d'aide OpenStreetMap : https://forum.openstreetmap.org/
+- Postimage (hébergement gratuit) : https://postimg.cc/
+- GitHub (stockage images) : https://github.com/
 
 ---
 
