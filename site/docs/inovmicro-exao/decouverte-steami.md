@@ -1,8 +1,7 @@
 ---
 id: decouverte-steami
 title: Découvrir la carte STeaMi
-sidebar_label: "Découvrir la carte STeaMi"
-sidebar_position: 1
+sidebar_label: 'Découvrir la carte STeaMi'
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
@@ -67,7 +66,7 @@ La STeaMi est bâtie autour d'un **microcontrôleur STM32WB55RG** (Cortex-M4 à 
 
 - **Bluetooth Low Energy 5.2** pour la communication sans fil
 - **OpenThread** et **ZigBee** pour les réseaux maillés IoT
-- **DAPLink** pour la programmation drag-and-drop par USB
+- **Mode clé USB** (DAPLink) pour copier un programme sur la carte par simple glisser-déposer
 
 La carte embarque aussi une batterie LiPo rechargeable de 1600 mAh offrant une autonomie confortable pour les projets nomades.
 
@@ -94,9 +93,9 @@ La STeaMi intègre nativement plusieurs capteurs qui permettent une grande vari�
 - **Capteur de pression** : mesure de la pression atmosphérique (altimètre)
 - **Capteur de luminosité** : mesure de l'intensité lumineuse
 
-<figure style={{margin: '1rem 0'}}>
-  <img src="/img/ressources/inovmicro-exao/decouverte-steami/block-diagram-4b6b854ea5393525647af2f27d97ee4c.svg" alt="Diagramme bloc de la STeaMi" style={{width: '100%', height: 'auto'}} />
-  <figcaption style={{margin: 0, textAlign: 'center'}}>Diagramme fonctionnel de la STeaMi</figcaption>
+<figure style={{margin: '1rem auto', textAlign: 'center'}}>
+  <img src="/img/ressources/inovmicro-exao/decouverte-steami/block-diagram-4b6b854ea5393525647af2f27d97ee4c.svg" alt="Diagramme bloc de la STeaMi" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <figcaption style={{margin: 0}}>Diagramme fonctionnel de la STeaMi</figcaption>
 </figure>
 
 ### L'écran OLED 128×128
@@ -138,25 +137,33 @@ Pour commencer, nous recommandons **MicroPython** ou **MakeCode** selon le nivea
 
 ### Étape 3 : Écrire un premier programme
 
-**En MicroPython**, afficher "Hello !" sur l'écran :
+Le programme le plus simple : faire clignoter la LED rouge.
 
 ```python
-from steami import display
+# Testée avec firmware STeaMi 0.23.1
+from machine import Pin
+from time import sleep_ms
 
-display.show("Hello !")
+led = Pin('LED_RED', Pin.OUT)
+
+while True:
+    led.on()
+    sleep_ms(500)
+    led.off()
+    sleep_ms(500)
 ```
 
-**En MakeCode**, utiliser le bloc `afficher du texte` avec "Hello !" comme paramètre.
+Pour les éditeurs MakeCode, l'équivalent passe par le bloc _allumer la LED_ + une pause de 500 ms, en boucle.
 
 ### Étape 4 : Téléverser le programme
 
-- **Drag and drop** : glisser simplement le fichier `.hex` (MakeCode) ou `.py` (MicroPython) sur le lecteur USB **STEAMI**
-- La LED orange clignote pendant le transfert
-- La carte redémarre automatiquement et exécute le programme
+- **Glisser-déposer** : depuis l'ordinateur, glisser le fichier `.hex` (MakeCode) ou `.py` (MicroPython) sur la clé USB **STEAMI**.
+- La LED orange clignote pendant le transfert.
+- La carte redémarre automatiquement et exécute le programme.
 
-:::info[Conseil pour l'enseignant]
+:::info[Conseil pour l'enseignant·e]
 
-L'approche drag-and-drop rend la STeaMi très accessible aux débutants : pas besoin d'installer un IDE complexe. Les élèves peuvent développer directement dans leur navigateur et téléverser leur code en un clic.
+Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny).
 
 :::
 
@@ -164,41 +171,15 @@ L'approche drag-and-drop rend la STeaMi très accessible aux débutants : pas be
 
 ## Premières expérimentations
 
-### Lire la température
+Une fois la LED qui clignote validée, plusieurs pistes permettent d'explorer les capteurs et l'écran de la carte. Chacune fait l'objet d'une fiche dédiée :
 
-Utilise le capteur de température intégré pour afficher la température ambiante sur l'écran :
+- **Allumer la LED selon la luminosité ambiante** : voir la fiche [Capteur de lumière en MicroPython](/ressources/inovmicro-exao/i11-capteur-lumiere).
+- **Faire sonner le buzzer en code Morse** : voir la fiche [Code Morse avec le buzzer](/ressources/inovmicro-exao/i13-code-morse).
+- **Afficher du texte et des graphismes sur l'écran OLED** : voir la fiche [Texte sur l'écran OLED](/ressources/inovmicro-exao/i17-texte-oled).
 
-```python
-from steami import display, temperature
+Pour les autres capteurs (température et humidité via le HTS221, accélération via l'ISM330DL, pression atmosphérique, magnétomètre), des fiches dédiées sont en préparation dans le cadre du projet I-Novmicro #2.
 
-while True:
-    t = temperature.read()
-    display.show(f"{t:.1f} °C")
-```
-
-### Détecter un mouvement
-
-L'accéléromètre permet de détecter quand la carte est secouée, penchée ou retournée :
-
-```python
-from steami import display, accelerometer
-
-while True:
-    if accelerometer.is_shaken():
-        display.show("Secouée !")
-```
-
-### Afficher une boussole
-
-Le magnétomètre peut être utilisé comme une boussole numérique :
-
-```python
-from steami import display, compass
-
-while True:
-    angle = compass.heading()
-    display.show(f"{angle}°")
-```
+En cas de problème (carte qui n'apparaît pas, port série introuvable, console qui reste muette), consulter la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage) avant de creuser plus loin.
 
 ---
 
