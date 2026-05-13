@@ -26,8 +26,10 @@ exclude = [
   # Liens internes : déjà validés par Docusaurus au build
   # (onBrokenLinks: 'throw'). Ce workflow vise uniquement les liens
   # externes, donc on exclut notre propre domaine après résolution
-  # via `base`.
-  "^https?://(www\\.)?wiki\\.labaixbidouille\\.com",
+  # via `base_url`. La borne `(/|$)` après le nom de domaine évite
+  # de matcher accidentellement un sous-domaine usurpé du type
+  # `wiki.labaixbidouille.com.evil.tld`.
+  "^https?://(www\\.)?wiki\\.labaixbidouille\\.com(/|$)",
 
   # Réseaux sociaux et accès login requis
   "^https://(www\\.)?linkedin\\.com",
