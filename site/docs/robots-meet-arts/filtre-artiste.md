@@ -28,7 +28,7 @@ sidebar_position: 12
 
 - 1 ordinateur portable ou tablette avec caméra pour chaque binôme
 - 1 fiche modèle vierge pour chaque binôme
-- 4 fiches d&#39;inspiration pour chaque binôme
+- 4 fiches d'inspiration pour chaque binôme
 
 **Matériel artistique :**
 
@@ -65,8 +65,8 @@ sidebar_position: 12
 ## Liens utiles
 
 - Scratch et IA : FaceSensing | Tutoriel : [https://www.youtube.com/watch?v=uLFh9Fvuj1k&t=290s](https://www.youtube.com/watch?v=uLFh9Fvuj1k&t=290s)
-- Cartes d&#39;inspiration Scratch et IA : [https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf](https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf)
-- Jeux de détection de visage dans Scratch avec l&#39;IA : [https://www.youtube.com/watch?v=ynISkhphQWg](https://www.youtube.com/watch?v=ynISkhphQWg)
+- Cartes d'inspiration Scratch et IA : [https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf](https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf)
+- Jeux de détection de visage dans Scratch avec l'IA : [https://www.youtube.com/watch?v=ynISkhphQWg](https://www.youtube.com/watch?v=ynISkhphQWg)
 
 ---
 
@@ -75,29 +75,29 @@ sidebar_position: 12
 
 :::info[Notes pour l'enseignant·e]
 
-Afin de préparer l&#39;activité, vous pouvez consulter le tutoriel de l&#39;outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
+Afin de préparer l'activité, vous pouvez consulter le tutoriel de l'outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
 
-Assurez-vous que chaque binôme a accès à une tablette avec l&#39;application Google Arts &amp; Culture installée ou accessible via le navigateur. Préparez les fiches modèles vierges pour chaque groupe.
+Assurez-vous que chaque binôme a accès à une tablette avec l'application Google Arts &amp; Culture installée ou accessible via le navigateur. Préparez les fiches modèles vierges pour chaque groupe.
 
 :::
 
 ### Partie 1 : Découverte des œuvres (20 min)
 
-En binômes, les élèves ouvrent Google Arts &amp; Culture sur leur tablette et utilisent la fonction « Art Projector » pour visualiser des œuvres d&#39;art de manière interactive.
+En binômes, les élèves ouvrent Google Arts &amp; Culture sur leur tablette et utilisent la fonction « Art Projector » pour visualiser des œuvres d'art de manière interactive.
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/googleart.png" alt="Google Arts & Culture - Art Projector" style={{maxWidth: '100%', height: 'auto'}} />
 
-Laissez les élèves explorer plusieurs œuvres, puis chaque groupe choisit une œuvre d&#39;art sur laquelle il souhaite travailler.
+Laissez les élèves explorer plusieurs œuvres, puis chaque groupe choisit une œuvre d'art sur laquelle il souhaite travailler.
 
 ### Partie 2 : Conception du filtre (40 min)
 
-Maintenant que chaque groupe a choisi son œuvre d&#39;art, il est temps de réfléchir à la manière de s&#39;y intégrer !
+Maintenant que chaque groupe a choisi son œuvre d'art, il est temps de réfléchir à la manière de s'y intégrer !
 
-Chaque groupe reçoit une fiche modèle vierge sur laquelle il conçoit un filtre visage pour s&#39;insérer dans l&#39;œuvre choisie. Les élèves dessinent des éléments de réalité augmentée tels qu&#39;un chapeau, un nez, des lunettes ou un masque pour s&#39;intégrer de manière créative dans le tableau.
+Chaque groupe reçoit une fiche modèle vierge sur laquelle il conçoit un filtre visage pour s'insérer dans l'œuvre choisie. Les élèves dessinent des éléments de réalité augmentée tels qu'un chapeau, un nez, des lunettes ou un masque pour s'intégrer de manière créative dans le tableau.
 
 Encouragez les élèves à observer attentivement leur œuvre : quels accessoires portent les personnages ? Quelles couleurs dominent ? Quel style artistique pourrait inspirer leurs créations ?
 
-À la fin de cette phase, chaque groupe doit avoir un croquis clair des éléments de réalité augmentée qu&#39;il souhaite créer. Les idées sont prêtes, il est temps de passer à la réalisation !
+À la fin de cette phase, chaque groupe doit avoir un croquis clair des éléments de réalité augmentée qu'il souhaite créer. Les idées sont prêtes, il est temps de passer à la réalisation !
 
 
 ---
@@ -110,65 +110,65 @@ Encouragez les élèves à observer attentivement leur œuvre : quels accessoire
 Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
 
 - Vidéo pour supprimer un arrière-plan dans Scratch Lab : [https://www.youtube.com/watch?v=Za0eJwV8jvk](https://www.youtube.com/watch?v=Za0eJwV8jvk)
-- Pour plus d&#39;informations sur la programmation, regardez cette vidéo : [https://www.youtube.com/watch?v=uJVfvysUwa0](https://www.youtube.com/watch?v=uJVfvysUwa0)
+- Pour plus d'informations sur la programmation, regardez cette vidéo : [https://www.youtube.com/watch?v=uJVfvysUwa0](https://www.youtube.com/watch?v=uJVfvysUwa0)
 
 :::
 
 ### Partie 1 : Création des éléments de réalité augmentée (30-60 min)
 
-Les croquis sont prêts, place à la création ! Les élèves vont maintenant donner vie à leurs idées en réalisant concrètement les éléments de réalité augmentée qu&#39;ils ont imaginés. Trois options sont possibles. Vous pouvez laisser les élèves choisir ou n&#39;en proposer qu&#39;une seule.
+Les croquis sont prêts, place à la création ! Les élèves vont maintenant donner vie à leurs idées en réalisant concrètement les éléments de réalité augmentée qu'ils ont imaginés. Trois options sont possibles. Vous pouvez laisser les élèves choisir ou n'en proposer qu'une seule.
 
 #### Option 1 : Matériel artistique (60 min)
 
 **Préparation** : Rassemblez sur une table divers matériaux artistiques : peinture, pastels, feutres, papier de couleur, ciseaux, colle. Proposez uniquement des matériaux 2D.
 
-**Déroulement** : Les élèves dessinent chaque élément de réalité augmentée choisi sur une feuille A4 séparée. Encouragez la créativité en leur laissant la liberté d&#39;utiliser différents matériaux.
+**Déroulement** : Les élèves dessinent chaque élément de réalité augmentée choisi sur une feuille A4 séparée. Encouragez la créativité en leur laissant la liberté d'utiliser différents matériaux.
 
-**Numérisation** : Une fois les créations terminées, scannez les éléments de réalité augmentée. Assurez-vous que chaque groupe a accès à ses éléments scannés. Importez l&#39;élément de réalité augmentée dans Scratch Lab et supprimez l&#39;arrière-plan.
+**Numérisation** : Une fois les créations terminées, scannez les éléments de réalité augmentée. Assurez-vous que chaque groupe a accès à ses éléments scannés. Importez l'élément de réalité augmentée dans Scratch Lab et supprimez l'arrière-plan.
 
 **Critères à respecter :**
 
 - Chaque élément de réalité augmentée doit être dessiné sur une feuille A4 séparée.
-- Aucune tache ou arrière-plan autour de l&#39;élément de réalité augmentée.
-- Si des taches sont présentes, découpez l&#39;élément.
+- Aucune tache ou arrière-plan autour de l'élément de réalité augmentée.
+- Si des taches sont présentes, découpez l'élément.
 - Les éléments de réalité augmentée doivent avoir un contour net.
-- Coloriez complètement pour qu&#39;aucun papier blanc ne soit visible.
+- Coloriez complètement pour qu'aucun papier blanc ne soit visible.
 
 #### Option 2 : Outil numérique Tate (30 min)
 
 **Préparation** : Accédez au site : [https://www.tate.org.uk/kids/games-quizzes/tate-paint](https://www.tate.org.uk/kids/games-quizzes/tate-paint)
 
-**Déroulement** : Ouvrez l&#39;outil sur une tablette. Cliquez sur « Let&#39;s Create » et sélectionnez le canevas jaune (facilite la suppression de l&#39;arrière-plan). Les élèves utilisent les différents outils de création. Une fois satisfaits, ils cliquent sur la coche verte, répondent « oui » à « Have you finished? », puis téléchargent l&#39;élément avec un nom clair (ex : « Chapeau »).
+**Déroulement** : Ouvrez l'outil sur une tablette. Cliquez sur « Let's Create » et sélectionnez le canevas jaune (facilite la suppression de l'arrière-plan). Les élèves utilisent les différents outils de création. Une fois satisfaits, ils cliquent sur la coche verte, répondent « oui » à « Have you finished? », puis téléchargent l'élément avec un nom clair (ex : « Chapeau »).
 
-Importez dans Scratch Lab et supprimez l&#39;arrière-plan.
+Importez dans Scratch Lab et supprimez l'arrière-plan.
 
 **Critères à respecter :**
 
 - Chaque élément de réalité augmentée sur un canevas séparé.
-- Aucune tache autour de l&#39;élément.
+- Aucune tache autour de l'élément.
 - Contour net et élément entièrement colorié.
 
 #### Option 3 : Éditeur de dessin Scratch Lab (30 min)
 
-**Préparation** : Comment utiliser l&#39;éditeur : [https://www.youtube.com/watch?v=9C_wblf4FIE](https://www.youtube.com/watch?v=9C_wblf4FIE)
+**Préparation** : Comment utiliser l'éditeur : [https://www.youtube.com/watch?v=9C_wblf4FIE](https://www.youtube.com/watch?v=9C_wblf4FIE)
 
-**Déroulement** : Ouvrez [https://lab.scratch.mit.edu/](https://lab.scratch.mit.edu/), sélectionnez « Face sensing » dans les extensions et créez un nouveau sprite avec le pinceau. Les élèves dessinent et modifient leur élément de réalité augmentée directement dans l&#39;outil.
+**Déroulement** : Ouvrez [https://lab.scratch.mit.edu/](https://lab.scratch.mit.edu/), sélectionnez « Face sensing » dans les extensions et créez un nouveau sprite avec le pinceau. Les élèves dessinent et modifient leur élément de réalité augmentée directement dans l'outil.
 
 **Critères à respecter :**
 
 - Chaque élément de réalité augmentée est un « sprite » séparé.
 - Élément entièrement colorié sans espace vide.
-- Placez l&#39;élément au centre de la feuille.
+- Placez l'élément au centre de la feuille.
 
-Les éléments de réalité augmentée sont maintenant créés et importés dans Scratch Lab. Il ne reste plus qu&#39;à leur donner vie grâce à la programmation !
+Les éléments de réalité augmentée sont maintenant créés et importés dans Scratch Lab. Il ne reste plus qu'à leur donner vie grâce à la programmation !
 
 ### Partie 2 : Programmation du filtre de réalité augmentée (60 min)
 
-Les éléments de réalité augmentée sont prêts, il est maintenant temps de les faire prendre vie en les programmant pour qu&#39;ils suivent le visage !
+Les éléments de réalité augmentée sont prêts, il est maintenant temps de les faire prendre vie en les programmant pour qu'ils suivent le visage !
 
 :::info[Notes pour l'enseignant·e]
 
-Si la taille ou le placement d&#39;un élément de réalité augmentée ne convient pas, sélectionnez-le et cliquez sur « Costumes » pour le redimensionner ou le repositionner.
+Si la taille ou le placement d'un élément de réalité augmentée ne convient pas, sélectionnez-le et cliquez sur « Costumes » pour le redimensionner ou le repositionner.
 
 :::
 
@@ -176,33 +176,33 @@ Ouvrez [https://lab.scratch.mit.edu/face/](https://lab.scratch.mit.edu/face/) et
 
 #### Étape 1 : Démarrer le programme
 
-Dans la colonne de gauche, cliquez sur l&#39;onglet jaune « Événements ». Sélectionnez le bloc de démarrage (drapeau vert). Ce bloc lance le programme quand on clique sur le drapeau vert.
+Dans la colonne de gauche, cliquez sur l'onglet jaune « Événements ». Sélectionnez le bloc de démarrage (drapeau vert). Ce bloc lance le programme quand on clique sur le drapeau vert.
 
-#### Étape 2 : Placer l&#39;élément sur le visage
+#### Étape 2 : Placer l'élément sur le visage
 
-Cliquez sur « Face sensing » et ajoutez le bloc à votre programme. Sélectionnez la partie du corps souhaitée (nez, front, bouche...) pour placer l&#39;élément de réalité augmentée.
+Cliquez sur « Face sensing » et ajoutez le bloc à votre programme. Sélectionnez la partie du corps souhaitée (nez, front, bouche...) pour placer l'élément de réalité augmentée.
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch.png" alt="Scratch - Face sensing" style={{maxWidth: '100%', height: 'auto'}} />
 
 #### Étape 3 : Faire suivre le mouvement
 
-Lorsque vous testez le programme, vous remarquerez que l&#39;élément de réalité augmentée ne se place qu&#39;une seule fois. Pour qu&#39;il suive le visage en continu, ajoutez le bloc « répéter indéfiniment » (sous « Contrôle »).
+Lorsque vous testez le programme, vous remarquerez que l'élément de réalité augmentée ne se place qu'une seule fois. Pour qu'il suive le visage en continu, ajoutez le bloc « répéter indéfiniment » (sous « Contrôle »).
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch2.png" alt="Scratch - répéter indéfiniment" style={{maxWidth: '100%', height: 'auto'}} />
 
 #### Étape 4 : Adapter la taille
 
-Lorsque vous vous approchez ou vous éloignez de la caméra, l&#39;élément de réalité augmentée ne change pas de taille. Pour corriger cela, ajoutez le bloc « mettre la taille à (taille du visage) ». Ainsi, l&#39;élément s&#39;agrandit quand vous êtes près et rétrécit quand vous êtes loin.
+Lorsque vous vous approchez ou vous éloignez de la caméra, l'élément de réalité augmentée ne change pas de taille. Pour corriger cela, ajoutez le bloc « mettre la taille à (taille du visage) ». Ainsi, l'élément s'agrandit quand vous êtes près et rétrécit quand vous êtes loin.
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/scratch3.png" alt="Scratch - mettre la taille à" style={{maxWidth: '100%', height: 'auto'}} />
 
 #### Étape 5 : Ajouter les autres éléments
 
-Répétez ces étapes pour chaque élément de réalité augmentée. Ajoutez des décorations ou un cadre de tableau pour enrichir votre œuvre d&#39;art vivante.
+Répétez ces étapes pour chaque élément de réalité augmentée. Ajoutez des décorations ou un cadre de tableau pour enrichir votre œuvre d'art vivante.
 
 #### Étape 6 : Personnaliser
 
-Distribuez les fiches d&#39;inspiration et laissez les élèves ajouter des éléments supplémentaires à leur création : effets sonores, animations, arrière-plans...
+Distribuez les fiches d'inspiration et laissez les élèves ajouter des éléments supplémentaires à leur création : effets sonores, animations, arrière-plans...
 
 Les filtres sont maintenant programmés et fonctionnels. Place aux tests et aux présentations !
 
@@ -212,60 +212,60 @@ Les filtres sont maintenant programmés et fonctionnels. Place aux tests et aux 
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
 
-Les filtres sont terminés, c&#39;est le moment de les tester et de les partager !
+Les filtres sont terminés, c'est le moment de les tester et de les partager !
 
 ### Partie 1 : Tests et ajustements (10 min)
 
-Chaque binôme teste son filtre une dernière fois. Les élèves vérifient que tous les éléments de réalité augmentée suivent correctement le visage et s&#39;adaptent à la distance de la caméra.
+Chaque binôme teste son filtre une dernière fois. Les élèves vérifient que tous les éléments de réalité augmentée suivent correctement le visage et s'adaptent à la distance de la caméra.
 
 Si nécessaire, ils effectuent les derniers ajustements : repositionner un élément, modifier sa taille, corriger un bug dans le code.
 
 ### Partie 2 : Présentations (10 min)
 
-Invitez chaque binôme à présenter son filtre d&#39;artiste à la classe. Chaque groupe montre son filtre en action devant la caméra et explique brièvement ses choix :
+Invitez chaque binôme à présenter son filtre d'artiste à la classe. Chaque groupe montre son filtre en action devant la caméra et explique brièvement ses choix :
 
-- Quelle œuvre d&#39;art avez-vous choisie et pourquoi ?
+- Quelle œuvre d'art avez-vous choisie et pourquoi ?
 - Quels éléments de réalité augmentée avez-vous créés ?
-- Qu&#39;est-ce qui a été facile ou difficile ?
+- Qu'est-ce qui a été facile ou difficile ?
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/exemple.png" alt="Exemple de réalisation" style={{maxWidth: '100%', height: 'auto'}} />
 
 Les présentations terminées, il est temps de ranger le matériel et de célébrer le travail accompli !
 
-Vous pouvez également transformer le temps de présentation en activité ludique : affichez les reproductions des œuvres d&#39;art sélectionnées au tableau ou disposez-les sur une table. Les élèves doivent retrouver quelle œuvre correspond à chaque binôme en observant les filtres présentés.
+Vous pouvez également transformer le temps de présentation en activité ludique : affichez les reproductions des œuvres d'art sélectionnées au tableau ou disposez-les sur une table. Les élèves doivent retrouver quelle œuvre correspond à chaque binôme en observant les filtres présentés.
 
-Après chaque présentation, l&#39;enseignant·e prend un moment pour expliquer l&#39;œuvre originale : qui est l&#39;artiste ? À quelle époque a-t-elle été réalisée ? Quel est son style artistique ? Quelles sont les anecdotes intéressantes liées à cette œuvre ?
+Après chaque présentation, l'enseignant·e prend un moment pour expliquer l'œuvre originale : qui est l'artiste ? À quelle époque a-t-elle été réalisée ? Quel est son style artistique ? Quelles sont les anecdotes intéressantes liées à cette œuvre ?
 
 ### Rangement (5 min)
 
 Les présentations terminées, il est temps de ranger le matériel et de célébrer le travail accompli ! Rassemblez et rangez le matériel artistique et numérique.
 
-Les élèves sauvegardent leur projet Scratch pour pouvoir le partager avec leur famille ou d&#39;autres classes.
+Les élèves sauvegardent leur projet Scratch pour pouvoir le partager avec leur famille ou d'autres classes.
 
 
 ---
 
-## Fiches d&#39;inspiration
+## Fiches d'inspiration
 
 ### Peux-tu animer ton élément de réalité augmentée ?
 
-- Va dans « Costumes » sur l&#39;élément de réalité augmentée que tu souhaites animer.
+- Va dans « Costumes » sur l'élément de réalité augmentée que tu souhaites animer.
 - Duplique-le plusieurs fois.
 - Ensuite, modifie quelque chose sur chaque costume.
-- Exemple : Supprime une partie de l&#39;élément de réalité augmentée petit à petit. Puis programme ton élément pour qu&#39;il apparaisse progressivement à l&#39;écran.
+- Exemple : Supprime une partie de l'élément de réalité augmentée petit à petit. Puis programme ton élément pour qu'il apparaisse progressivement à l'écran.
 
 ### Peux-tu faire un son avec ton nez ?
 
-- Crée un nouveau sprite en cliquant sur le pinceau : une feuille vide s&#39;ouvrira.
+- Crée un nouveau sprite en cliquant sur le pinceau : une feuille vide s'ouvrira.
 - Sur cette feuille, dessine un bouton.
-- Place ensuite le bouton sur l&#39;image de ta caméra.
-- Programme le bouton pour qu&#39;il joue un son lorsque tu le touches avec ton nez.
+- Place ensuite le bouton sur l'image de ta caméra.
+- Programme le bouton pour qu'il joue un son lorsque tu le touches avec ton nez.
 
 ### Peux-tu faire changer la couleur de ton élément de réalité augmentée en agrandissant ou réduisant ta tête ?
 
 - Choisis un élément de réalité augmentée dont tu voudrais changer la couleur.
 - Quand ta tête devient plus petite ou plus grande, la couleur de ton élément de réalité augmentée change.
-- De cette façon, ton élément peut prendre toutes les couleurs de l&#39;arc-en-ciel !
+- De cette façon, ton élément peut prendre toutes les couleurs de l'arc-en-ciel !
 
 ### Peux-tu faire bouger ton tableau avec ta tête ?
 

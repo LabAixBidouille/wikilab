@@ -123,7 +123,7 @@ Lorsque le temps est écoulé, le maître du jeu compte les points :
 - Une idée hors sujet est -2 points (manger des pâtes, jouer une partie d'échecs)
 - Une idée trouvée uniquement par une équipe vaut 2 points
 
-A la fin du jeu, l'équipe qui a le plus de points gagne. Les points de la seconde manche peuvent être aditionner à ceux de la première manche pour trouver le gagnant.
+A la fin du jeu, l'équipe qui a le plus de points gagne. Les points de la seconde manche peuvent être additionnés à ceux de la première manche pour trouver le gagnant.
 
 ### Version alternative - Brainstorming : Sens commun
 

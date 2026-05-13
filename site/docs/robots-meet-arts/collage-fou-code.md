@@ -13,7 +13,7 @@ sidebar_position: 11
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts plastiques</span>
-  <span className="badge badge--primary">Histoire de l&#39;art</span>
+  <span className="badge badge--primary">Histoire de l'art</span>
   <span className="badge badge--info">Activité débranchée</span>
   <span className="badge badge--secondary">Aucun logiciel</span>
 </div>
@@ -61,22 +61,22 @@ sidebar_position: 11
 
 Avant de commencer la séance, découpez 2 lots de formes identiques. Par exemple : 2 triangles, 2 carrés, 2 hexagones, 2 cercles. Préparez également 2 crayons et 2 feuilles A4 blanches à portée de main.
 
-Quand les élèves donnent des instructions confuses ou trop nombreuses, n&#39;hésitez pas à lancer « Erreur ! » — à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l&#39;ordre logique des étapes.
+Quand les élèves donnent des instructions confuses ou trop nombreuses, n'hésitez pas à lancer « Erreur ! » — à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l'ordre logique des étapes.
 
-Envie de changer d&#39;artiste ? Voici d&#39;autres maîtres du collage : Hannah Höch, Kurt Schwitters ou Eduardo Paolozzi.
+Envie de changer d'artiste ? Voici d'autres maîtres du collage : Hannah Höch, Kurt Schwitters ou Eduardo Paolozzi.
 
 :::
 
-« Aujourd&#39;hui, nous allons créer des œuvres inspirées de l&#39;artiste Henri Matisse. »
+« Aujourd'hui, nous allons créer des œuvres inspirées de l'artiste Henri Matisse. »
 
-Pour lancer l&#39;activité, commencez par projeter une œuvre de Matisse au tableau (par exemple *Deux Masques \[La Tomate\]*).
+Pour lancer l'activité, commencez par projeter une œuvre de Matisse au tableau (par exemple *Deux Masques \[La Tomate\]*).
 <img src="/img/ressources/robots-meet-arts/collage-fou-code/matisseles2tomates.jpg" alt="Henri Matisse - Deux Masques (La Tomate)" style={{width: '30%', height: 'auto', display: 'block', marginTop: '0.5rem'}} />
 
 Utilisez les questions suivantes pour discuter de ce que les élèves observent :
 
 - Que voyez-vous ?
-- Avec quel matériau l&#39;œuvre est-elle réalisée ?
-- À votre avis, comment l&#39;artiste a-t-il procédé ?
+- Avec quel matériau l'œuvre est-elle réalisée ?
+- À votre avis, comment l'artiste a-t-il procédé ?
 
 ### Programmer la maîtresse / le maître
 
@@ -84,21 +84,21 @@ Distribuez à chaque groupe : 1 feuille A4, 1 bâton de colle et 1 lot de formes
 
 Les élèves ont quelques minutes pour réaliser une composition avec leurs formes — veillez à ne pas regarder leur œuvre pendant cette phase.
 
-Une fois leur composition terminée, les élèves vous « programment » en vous donnant des instructions précises. L&#39;objectif : réussir à vous faire reproduire exactement la même œuvre en suivant uniquement ces consignes.
+Une fois leur composition terminée, les élèves vous « programment » en vous donnant des instructions précises. L'objectif : réussir à vous faire reproduire exactement la même œuvre en suivant uniquement ces consignes.
 
 ### Réflexion autour de la séquence de mise en route
 
 
 Suite à votre performance, prévoyez une phase de bilan collectif. Vous pouvez guider la réflexion avec ces questions :
 
-- Qu&#39;est-ce qui a bien fonctionné ?
-- Qu&#39;est-ce qui a posé problème ?
-- Comment pourrait-on s&#39;améliorer la prochaine fois ?
+- Qu'est-ce qui a bien fonctionné ?
+- Qu'est-ce qui a posé problème ?
+- Comment pourrait-on s'améliorer la prochaine fois ?
 
-Cette phase vous a permis d&#39;introduire les compétences liées à la pensée computationnelle suivantes :
+Cette phase vous a permis d'introduire les compétences liées à la pensée computationnelle suivantes :
 
 - Décomposition : Découper un problème complexe en petites étapes plus faciles à comprendre et à résoudre.
-- Algorithme : Un algorithme, c&#39;est une suite d&#39;instructions pour résoudre un problème ou accomplir une tâche — c&#39;est comme ça qu&#39;on « explique » aux ordinateurs ce qu&#39;ils doivent faire.
+- Algorithme : Un algorithme, c'est une suite d'instructions pour résoudre un problème ou accomplir une tâche — c'est comme ça qu'on « explique » aux ordinateurs ce qu'ils doivent faire.
 
 
 ---
@@ -117,9 +117,9 @@ Prévoyez le matériel suivant pour chaque binôme :
 - 1 gomme et 1 taille-crayon
 
 Pour ajuster le niveau de difficulté, vous pouvez :
-- Commencer par des formes géométriques simples, plus faciles à décrire à l&#39;oral.
-- Limiter le nombre d&#39;instructions que l&#39;artiste peut donner.
-- Demander à l&#39;artiste d&#39;écrire ses instructions avant de les transmettre.
+- Commencer par des formes géométriques simples, plus faciles à décrire à l'oral.
+- Limiter le nombre d'instructions que l'artiste peut donner.
+- Demander à l'artiste d'écrire ses instructions avant de les transmettre.
 - Proposer des formes organiques plutôt que des formes géométriques connues.
 - Augmenter ou réduire le nombre de formes selon le niveau des élèves.
 
@@ -133,7 +133,7 @@ Par exemple :
 - 2 cercles bleus
 - …
 
-Chaque élève réalise ensuite une composition avec l&#39;un de ses lots de formes et la colle sur une feuille A4. Attention : les élèves ne doivent pas voir l&#39;œuvre de leur partenaire.
+Chaque élève réalise ensuite une composition avec l'un de ses lots de formes et la colle sur une feuille A4. Attention : les élèves ne doivent pas voir l'œuvre de leur partenaire.
 
 
 ---
@@ -141,11 +141,11 @@ Chaque élève réalise ensuite une composition avec l&#39;un de ses lots de for
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
 
-Pour cette phase, les élèves s&#39;assoient dos à dos afin de ne pas voir la feuille de l&#39;autre. L&#39;un devient l&#39;« artiste », l&#39;autre le « faussaire ». L&#39;artiste donne des instructions claires au faussaire, qui tente de les exécuter du mieux possible. L&#39;objectif : reproduire l&#39;œuvre de l&#39;artiste sans la voir, uniquement grâce aux consignes données.
+Pour cette phase, les élèves s'assoient dos à dos afin de ne pas voir la feuille de l'autre. L'un devient l'« artiste », l'autre le « faussaire ». L'artiste donne des instructions claires au faussaire, qui tente de les exécuter du mieux possible. L'objectif : reproduire l'œuvre de l'artiste sans la voir, uniquement grâce aux consignes données.
 
-Une fois terminé, les élèves comparent l&#39;« œuvre originale » et la « contrefaçon ». Le faussaire a-t-il relevé le défi ?
+Une fois terminé, les élèves comparent l'« œuvre originale » et la « contrefaçon ». Le faussaire a-t-il relevé le défi ?
 
-Une fois les discussions terminées, laissez les élèves échanger leurs rôles pour pouvoir vivre l&#39;ensemble des situations d&#39;apprentissage.
+Une fois les discussions terminées, laissez les élèves échanger leurs rôles pour pouvoir vivre l'ensemble des situations d'apprentissage.
 
 Les élèves rangent les chutes de papier et le matériel à leur place.
 
@@ -156,14 +156,14 @@ Pour conclure la séance, vous pouvez organiser une petite exposition pour mettr
 
 ## Adapter le niveau de difficulté
 
-Ces pistes de différenciation vous permettent d&#39;adapter le niveau de difficulté selon vos élèves.
+Ces pistes de différenciation vous permettent d'adapter le niveau de difficulté selon vos élèves.
 
 - Nombre de formes : Vous pouvez laisser les élèves utiliser plus ou moins de formes dans leur composition. Plus il y en a, plus la tâche se complexifie.
 - Types de formes : Pour commencer, privilégiez des formes géométriques simples (carré, cercle, hexagone…). Elles sont plus faciles à nommer, ce qui aide les élèves à associer la bonne consigne à la bonne forme.
-- Invention de forme : Pour corser l&#39;exercice, proposez aux élèves d&#39;inventer leurs propres formes. Ces formes originales sont plus difficiles à décrire, ce qui complique la formulation des instructions.
+- Invention de forme : Pour corser l'exercice, proposez aux élèves d'inventer leurs propres formes. Ces formes originales sont plus difficiles à décrire, ce qui complique la formulation des instructions.
 - Utilisation des couleurs : Limitez le nombre de couleurs autorisées — par exemple trois maximum. Cela évite que les élèves se reposent uniquement sur la couleur pour identifier une forme, et les pousse à formuler des descriptions plus précises et abstraites.
-- Limitation du nombre d&#39;instructions : Fixez un nombre maximum d&#39;étapes ou de phrases — par exemple 10. Vous pouvez aussi en faire un défi : qui réussira à obtenir le bon résultat avec le moins d&#39;instructions possible ? Autre possibilité : demander aux élèves d&#39;écrire leurs instructions sur papier avant de les transmettre à l&#39;« exécuteur ».
-- Coups d&#39;œil (indices) : Si la tâche devient trop difficile, vous pouvez accorder aux élèves un nombre limité de « coups d&#39;œil » — par exemple trois. Pendant un coup d&#39;œil, l&#39;élève peut regarder l&#39;œuvre de son partenaire, puis ajuster ses instructions en fonction de ce qu&#39;il a observé.
+- Limitation du nombre d'instructions : Fixez un nombre maximum d'étapes ou de phrases — par exemple 10. Vous pouvez aussi en faire un défi : qui réussira à obtenir le bon résultat avec le moins d'instructions possible ? Autre possibilité : demander aux élèves d'écrire leurs instructions sur papier avant de les transmettre à l'« exécuteur ».
+- Coups d'œil (indices) : Si la tâche devient trop difficile, vous pouvez accorder aux élèves un nombre limité de « coups d'œil » — par exemple trois. Pendant un coup d'œil, l'élève peut regarder l'œuvre de son partenaire, puis ajuster ses instructions en fonction de ce qu'il a observé.
 
 
 ---

@@ -23,8 +23,8 @@ sidebar_position: 21
 
 ## Matériel
 
-- Cartes de déplacement du robot (avancer, tourner à gauche, tourner à droite, s&#39;arrêter, sauter, pivoter, etc.)
-- Grande grille au sol (représentant l&#39;univers du robot)
+- Cartes de déplacement du robot (avancer, tourner à gauche, tourner à droite, s'arrêter, sauter, pivoter, etc.)
+- Grande grille au sol (représentant l'univers du robot)
 - Fiches de travail pour écrire les légendes de chaque poubelle de recyclage
 - Crayons, feutres, ciseaux, colle
 
@@ -49,9 +49,9 @@ sidebar_position: 21
 
 ---
 
-## Objectifs d&#39;apprentissage
+## Objectifs d'apprentissage
 
-À l&#39;issue de cette séance, les élèves seront capables de :
+À l'issue de cette séance, les élèves seront capables de :
 
 - Trier les matériaux et les déposer dans la bonne poubelle de recyclage.
 - Utiliser le vocabulaire approprié pour décrire les matériaux recyclables correspondant à chaque couleur de poubelle.
@@ -76,11 +76,11 @@ Introduisez le thème du jour : le recyclage.
 
 Proposez une courte présentation expliquant :
 
-- Ce qu&#39;est le recyclage et son importance
+- Ce qu'est le recyclage et son importance
 - Les matériaux recyclables
-- Les couleurs des poubelles de recyclage et les matériaux qu&#39;elles accueillent
+- Les couleurs des poubelles de recyclage et les matériaux qu'elles accueillent
 
-Faites participer les élèves à un jeu interactif sur les matériaux et les couleurs des poubelles pour récapituler ce qu&#39;ils ont appris lors de la présentation.
+Faites participer les élèves à un jeu interactif sur les matériaux et les couleurs des poubelles pour récapituler ce qu'ils ont appris lors de la présentation.
 
 
 ---
@@ -90,34 +90,34 @@ Faites participer les élèves à un jeu interactif sur les matériaux et les co
 
 :::info[Notes pour l'enseignant·e]
 
-- Imprimez et découpez les cartes de déplacement pour chaque groupe. Chaque groupe doit disposer d&#39;un jeu de cartes composé de : 10 cartes « avancer », 4 cartes « tourner à droite », 4 cartes « tourner à gauche », 1 carte « retour à la maison ».
-- Créez une grande grille au sol à l&#39;aide de ruban adhésif ou de papier. La grille représente l&#39;environnement du robot et est divisée en différentes sections, chacune représentant un pâté de maisons. Dans certaines cases se trouve une poubelle de recyclage, dans d&#39;autres des déchets.
+- Imprimez et découpez les cartes de déplacement pour chaque groupe. Chaque groupe doit disposer d'un jeu de cartes composé de : 10 cartes « avancer », 4 cartes « tourner à droite », 4 cartes « tourner à gauche », 1 carte « retour à la maison ».
+- Créez une grande grille au sol à l'aide de ruban adhésif ou de papier. La grille représente l'environnement du robot et est divisée en différentes sections, chacune représentant un pâté de maisons. Dans certaines cases se trouve une poubelle de recyclage, dans d'autres des déchets.
 - Répartissez les élèves en petits groupes (3-4 élèves). Encouragez le travail en équipe et une communication claire. Veillez à ce que les élèves utilisent correctement le mode impératif.
 
 :::
 
-Après la phase de mise en route, répartissez les élèves en groupes de 3-4. Chaque groupe reçoit une fiche de travail sur laquelle ils doivent rédiger une légende pour chaque poubelle de recyclage, accompagnée de 2-3 phrases expliquant l&#39;importance de recycler ou réutiliser ce type de matériau.
+Après la phase de mise en route, répartissez les élèves en groupes de 3-4. Chaque groupe reçoit une fiche de travail sur laquelle ils doivent rédiger une légende pour chaque poubelle de recyclage, accompagnée de 2-3 phrases expliquant l'importance de recycler ou réutiliser ce type de matériau.
 
-Par exemple : « Dans les poubelles rouges, on peut déposer les vêtements ou chaussures usagés. C&#39;est important car des personnes dans le besoin peuvent les réutiliser. »
+Par exemple : « Dans les poubelles rouges, on peut déposer les vêtements ou chaussures usagés. C'est important car des personnes dans le besoin peuvent les réutiliser. »
 
-Chaque groupe présente ensuite son travail à la classe. C&#39;est l&#39;occasion de mettre en commun les légendes et de partager les réflexions de chacun sur le recyclage et le réemploi. L&#39;enseignant·e note les propositions au tableau.
+Chaque groupe présente ensuite son travail à la classe. C'est l'occasion de mettre en commun les légendes et de partager les réflexions de chacun sur le recyclage et le réemploi. L'enseignant·e note les propositions au tableau.
 
 ### Découverte de la grille et des cartes de déplacement
 
-L&#39;enseignant·e présente la grille aux élèves. Le personnage principal s&#39;appelle Jean : c&#39;est lui que les élèves vont « programmer ». La grande grille au sol représente son environnement — une ville divisée en cases, avec des déchets de différents types dispersés un peu partout.
+L'enseignant·e présente la grille aux élèves. Le personnage principal s'appelle Jean : c'est lui que les élèves vont « programmer ». La grande grille au sol représente son environnement — une ville divisée en cases, avec des déchets de différents types dispersés un peu partout.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/robots-meet-arts/rangers-tri/grillesol.png" alt="Grille au sol" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Exemple de grille au sol</figcaption>
 </figure>
 
-Chaque groupe reçoit une grille et un jeu de cartes de déplacement. L&#39;enseignant·e explique la fonction de chaque carte et montre quelques exemples. Par exemple, la carte « avancer » signifie que le robot avance d&#39;une case sur la grille.
+Chaque groupe reçoit une grille et un jeu de cartes de déplacement. L'enseignant·e explique la fonction de chaque carte et montre quelques exemples. Par exemple, la carte « avancer » signifie que le robot avance d'une case sur la grille.
 
 ### Le défi : Nettoyer la ville de Jean
 
-Chaque élève pioche une carte dans un second paquet : cette carte représente un déchet précis présent sur la grille. À son tour, l&#39;élève doit programmer Jean pour qu&#39;il se déplace jusqu&#39;au déchet, le ramasse, puis le dépose dans la bonne poubelle. Une fois l&#39;action réussie, le déchet est retiré de la grille.
+Chaque élève pioche une carte dans un second paquet : cette carte représente un déchet précis présent sur la grille. À son tour, l'élève doit programmer Jean pour qu'il se déplace jusqu'au déchet, le ramasse, puis le dépose dans la bonne poubelle. Une fois l'action réussie, le déchet est retiré de la grille.
 
-Les élèves se relaient pour guider Jean à travers la grille, étape par étape, à l&#39;aide des cartes de déplacement. L&#39;objectif : rendre la ville de Jean propre en triant correctement tous les déchets !
+Les élèves se relaient pour guider Jean à travers la grille, étape par étape, à l'aide des cartes de déplacement. L'objectif : rendre la ville de Jean propre en triant correctement tous les déchets !
 
 
 ---
@@ -125,18 +125,18 @@ Les élèves se relaient pour guider Jean à travers la grille, étape par étap
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
 
-Lorsque toutes les équipes sont prêtes, elles présentent l&#39;itinéraire de leur robot pour nettoyer la ville devant toute la classe. Les élèves discutent ensemble des trajets les plus efficaces et les plus rapides pour ramasser les déchets.
+Lorsque toutes les équipes sont prêtes, elles présentent l'itinéraire de leur robot pour nettoyer la ville devant toute la classe. Les élèves discutent ensemble des trajets les plus efficaces et les plus rapides pour ramasser les déchets.
 
 Pendant que le robot se déplace, les élèves commentent ses actions à voix haute, en rappelant à la classe dans quelle poubelle ils ont choisi de jeter chaque déchet.
 
-Si le robot fait un mauvais choix, la classe donne son avis et l&#39;équipe doit corriger ses instructions. La classe vérifie également la bonne utilisation du mode impératif. Ensemble, les élèves identifient des schémas de déplacement récurrents et proposent des améliorations pour simplifier les instructions et raccourcir l&#39;algorithme.
+Si le robot fait un mauvais choix, la classe donne son avis et l'équipe doit corriger ses instructions. La classe vérifie également la bonne utilisation du mode impératif. Ensemble, les élèves identifient des schémas de déplacement récurrents et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme.
 
 ### Réflexion autour de la séquence
 
-Pour conclure, l&#39;enseignant·e rassemble le matériel, puis revient sur les points clés avec les élèves :
+Pour conclure, l'enseignant·e rassemble le matériel, puis revient sur les points clés avec les élèves :
 
-- « Qu&#39;est-ce qui était facile dans la programmation de votre robot ? »
-- « Qu&#39;est-ce qui était difficile ? »
+- « Qu'est-ce qui était facile dans la programmation de votre robot ? »
+- « Qu'est-ce qui était difficile ? »
 - « Comment avez-vous corrigé les erreurs dans le parcours de votre robot ? »
 - « Comment pourriez-vous améliorer vos instructions (votre algorithme) ? »
 
@@ -145,9 +145,9 @@ Pour conclure, l&#39;enseignant·e rassemble le matériel, puis revient sur les 
 
 ## Fiche de travail - Jean apprend à recycler
 
-« Bonjour ! J&#39;ai besoin de votre aide pour recycler ! »
+« Bonjour ! J'ai besoin de votre aide pour recycler ! »
 
-Voici Jean. Jean a récemment entendu parler du recyclage et il a un sac plein de matériaux recyclables, mais il ne sait pas quelle poubelle utiliser. Pouvez-vous l&#39;aider ? Dessinez les poubelles de recyclage que vous connaissez et écrivez une légende pour chaque poubelle, accompagnée de 2-3 phrases expliquant comment les matériaux que vous mentionnez pourraient être réutilisés ou pourquoi leur recyclage est important.
+Voici Jean. Jean a récemment entendu parler du recyclage et il a un sac plein de matériaux recyclables, mais il ne sait pas quelle poubelle utiliser. Pouvez-vous l'aider ? Dessinez les poubelles de recyclage que vous connaissez et écrivez une légende pour chaque poubelle, accompagnée de 2-3 phrases expliquant comment les matériaux que vous mentionnez pourraient être réutilisés ou pourquoi leur recyclage est important.
 
 <img src="/img/ressources/robots-meet-arts/rangers-tri/fichetravail.png" alt="Fiche de travail" style={{maxWidth: '100%', height: 'auto'}} />
 

@@ -27,7 +27,7 @@ sidebar_position: 27
 
 **Matériel de base (indispensable)**
 
-- Boussoles traditionnelles (au moins une pour la démonstration), cartes du quartier ou de l&#39;école, carnets, crayons
+- Boussoles traditionnelles (au moins une pour la démonstration), cartes du quartier ou de l'école, carnets, crayons
 - Carton épais ou boîtes de récupération, ciseaux, colle, ruban adhésif, feutres et peinture pour la décoration
 - Images des points cardinaux, schémas de boussoles, vidéos explicatives sur le magnétisme
 
@@ -37,7 +37,7 @@ sidebar_position: 27
 - Boîtier de piles AAA pour rendre le robot autonome
 - Accès à un ordinateur avec MakeCode : [makecode.microbit.org](https://makecode.microbit.org)
 
-**Pour les parcours d&#39;orientation (optionnel)**
+**Pour les parcours d'orientation (optionnel)**
 
 - Balises ou cônes de couleur, cartes imprimées du parcours, chronomètres, carnets de bord
 
@@ -63,22 +63,22 @@ sidebar_position: 27
 
 ## Points du programme abordés
 
-**« Se repérer dans l&#39;espace » - Géographie, Cycle 3**
+**« Se repérer dans l'espace » - Géographie, Cycle 3**
 
-Cette séquence permet aux élèves de développer leurs compétences d&#39;orientation spatiale en construisant un outil concret : un robot en carton équipé d&#39;une boussole numérique programmée sur micro:bit. En combinant fabrication manuelle et programmation, les élèves découvrent comment fonctionne une boussole, comprennent les notions de points cardinaux et apprennent à s&#39;orienter dans leur environnement proche.
+Cette séquence permet aux élèves de développer leurs compétences d'orientation spatiale en construisant un outil concret : un robot en carton équipé d'une boussole numérique programmée sur micro:bit. En combinant fabrication manuelle et programmation, les élèves découvrent comment fonctionne une boussole, comprennent les notions de points cardinaux et apprennent à s'orienter dans leur environnement proche.
 
 Les compétences mobilisées sont les suivantes :
 
-- Se repérer dans l&#39;espace : construire des repères géographiques - Les élèves apprennent à nommer et situer les points cardinaux, à orienter une carte et à se repérer dans un espace connu
-- Raisonner, justifier une démarche - Formulation d&#39;hypothèses sur le fonctionnement du magnétomètre et vérification par l&#39;expérimentation
-- Pratiquer différents langages en géographie - Lecture et orientation de cartes, utilisation de symboles directionnels, création de parcours d&#39;orientation
-- Coopérer et mutualiser - Construction collaborative du robot et des parcours d&#39;orientation
+- Se repérer dans l'espace : construire des repères géographiques - Les élèves apprennent à nommer et situer les points cardinaux, à orienter une carte et à se repérer dans un espace connu
+- Raisonner, justifier une démarche - Formulation d'hypothèses sur le fonctionnement du magnétomètre et vérification par l'expérimentation
+- Pratiquer différents langages en géographie - Lecture et orientation de cartes, utilisation de symboles directionnels, création de parcours d'orientation
+- Coopérer et mutualiser - Construction collaborative du robot et des parcours d'orientation
 
-**Liens avec d&#39;autres domaines du programme :**
+**Liens avec d'autres domaines du programme :**
 
 - Sciences et technologie : Découvrir le magnétisme terrestre, pratiquer une démarche scientifique en calibrant un capteur et programmer un objet technique en équipe.
 - Mathématiques : Travailler sur les angles (90, 180, 270, 360 degrés), les directions et la relation entre degrés et points cardinaux.
-- Éducation physique et sportive : S&#39;orienter dans un contexte sportif et ludique lors d&#39;une course d&#39;orientation avec le robot-boussole.
+- Éducation physique et sportive : S'orienter dans un contexte sportif et ludique lors d'une course d'orientation avec le robot-boussole.
 - Arts plastiques : Concevoir et décorer le robot en carton, mobilisant création plastique et design.
 
 ## Liens utiles
@@ -93,19 +93,19 @@ Les compétences mobilisées sont les suivantes :
 
 ---
 
-## Préambule sur l&#39;orientation robotique du projet
+## Préambule sur l'orientation robotique du projet
 
-La robotique éducative est souvent associée à des kits coûteux mais l&#39;objectif de ce projet est d&#39;illustrer le fait qu&#39;avec une simple carte micro:bit, du carton de récupération et un peu de créativité, les élèves peuvent construire un robot fonctionnel qui leur apprend à s&#39;orienter dans l&#39;espace. Car qu&#39;est-ce qu&#39;un robot, sinon un objet physique capable de percevoir son environnement (ici, le champ magnétique terrestre) et d&#39;y réagir (afficher une direction, faire tourner une flèche) ? Pas besoin de bras articulés ni de roues motorisées : notre robot-boussole en carton incarne parfaitement ce lien entre le code et le monde réel. L&#39;élève programme des instructions, et un objet concret qu&#39;il a fabriqué de ses mains répond à ces instructions. C&#39;est cette magie de voir le numérique agir sur le physique qui rend la robotique captivante.
+La robotique éducative est souvent associée à des kits coûteux mais l'objectif de ce projet est d'illustrer le fait qu'avec une simple carte micro:bit, du carton de récupération et un peu de créativité, les élèves peuvent construire un robot fonctionnel qui leur apprend à s'orienter dans l'espace. Car qu'est-ce qu'un robot, sinon un objet physique capable de percevoir son environnement (ici, le champ magnétique terrestre) et d'y réagir (afficher une direction, faire tourner une flèche) ? Pas besoin de bras articulés ni de roues motorisées : notre robot-boussole en carton incarne parfaitement ce lien entre le code et le monde réel. L'élève programme des instructions, et un objet concret qu'il a fabriqué de ses mains répond à ces instructions. C'est cette magie de voir le numérique agir sur le physique qui rend la robotique captivante.
 
-Ici, les élèves ne codent pas pour coder : ils codent pour comprendre comment fonctionne une boussole, pour s&#39;orienter dans leur quartier, pour créer des parcours d&#39;orientation. Le robot n&#39;est pas une fin en soi, mais un compagnon d&#39;apprentissage qui rend tangibles des notions abstraites comme les points cardinaux, les angles ou le magnétisme terrestre.
+Ici, les élèves ne codent pas pour coder : ils codent pour comprendre comment fonctionne une boussole, pour s'orienter dans leur quartier, pour créer des parcours d'orientation. Le robot n'est pas une fin en soi, mais un compagnon d'apprentissage qui rend tangibles des notions abstraites comme les points cardinaux, les angles ou le magnétisme terrestre.
 
-Enfin, ce projet démontre qu&#39;on peut faire de la robotique avec un budget minimal. Une carte micro:bit partagée entre plusieurs groupes, des boîtes de céréales, de la colle : voilà les ingrédients d&#39;un robot qui n&#39;a rien à envier aux kits du commerce, et qui a l&#39;avantage d&#39;être entièrement personnalisable et compréhensible par les élèves.
+Enfin, ce projet démontre qu'on peut faire de la robotique avec un budget minimal. Une carte micro:bit partagée entre plusieurs groupes, des boîtes de céréales, de la colle : voilà les ingrédients d'un robot qui n'a rien à envier aux kits du commerce, et qui a l'avantage d'être entièrement personnalisable et compréhensible par les élèves.
 
-## Introduction - Les enjeux de l&#39;orientation spatiale
+## Introduction - Les enjeux de l'orientation spatiale
 
-Savoir s&#39;orienter dans l&#39;espace est une compétence fondamentale que les humains ont développée depuis des millénaires. Des étoiles aux boussoles magnétiques, des cartes papier aux GPS, les outils d&#39;orientation ont évolué mais le besoin reste le même : savoir où l&#39;on est et dans quelle direction aller. Dans cette séquence, les élèves vont construire leur propre outil d&#39;orientation : un robot en carton équipé d&#39;une boussole numérique. Ce projet leur permettra de comprendre concrètement comment fonctionne une boussole, de manipuler les notions de points cardinaux et de degrés, et de développer leurs compétences de repérage dans l&#39;espace.
+Savoir s'orienter dans l'espace est une compétence fondamentale que les humains ont développée depuis des millénaires. Des étoiles aux boussoles magnétiques, des cartes papier aux GPS, les outils d'orientation ont évolué mais le besoin reste le même : savoir où l'on est et dans quelle direction aller. Dans cette séquence, les élèves vont construire leur propre outil d'orientation : un robot en carton équipé d'une boussole numérique. Ce projet leur permettra de comprendre concrètement comment fonctionne une boussole, de manipuler les notions de points cardinaux et de degrés, et de développer leurs compétences de repérage dans l'espace.
 
-Le robot-boussole devient un compagnon d&#39;apprentissage : son « visage » (la matrice LED de la carte micro:bit) affiche une flèche pointant vers le Nord, permettant aux élèves de s&#39;orienter de manière ludique. La fabrication du robot en carton ajoute une dimension créative et personnalisable au projet, tandis que la programmation développe la pensée algorithmique. L&#39;objectif final est double : maîtriser les concepts d&#39;orientation spatiale du programme de géographie, tout en découvrant les possibilités offertes par la programmation et les capteurs numériques.
+Le robot-boussole devient un compagnon d'apprentissage : son « visage » (la matrice LED de la carte micro:bit) affiche une flèche pointant vers le Nord, permettant aux élèves de s'orienter de manière ludique. La fabrication du robot en carton ajoute une dimension créative et personnalisable au projet, tandis que la programmation développe la pensée algorithmique. L'objectif final est double : maîtriser les concepts d'orientation spatiale du programme de géographie, tout en découvrant les possibilités offertes par la programmation et les capteurs numériques.
 
 ---
 
@@ -116,42 +116,42 @@ Le robot-boussole devient un compagnon d&#39;apprentissage : son « visage » (l
 
 - Procurez-vous une ou plusieurs boussoles traditionnelles pour la démonstration
 - Préparez des affichettes « N », « S », « E », « O » à placer aux quatre coins de la classe
-- Repérez à l&#39;avance où se situe le Nord dans votre salle de classe (vérifiez avec une boussole ou une application smartphone)
+- Repérez à l'avance où se situe le Nord dans votre salle de classe (vérifiez avec une boussole ou une application smartphone)
 - Sélectionnez une courte vidéo sur le magnétisme terrestre adaptée à vos élèves
-- Imprimez une carte du quartier ou de l&#39;école pour la manipulation
+- Imprimez une carte du quartier ou de l'école pour la manipulation
 
 :::
 
-**Objectif** : Comprendre ce qu&#39;est l&#39;orientation, découvrir les points cardinaux et le fonctionnement d&#39;une boussole.
+**Objectif** : Comprendre ce qu'est l'orientation, découvrir les points cardinaux et le fonctionnement d'une boussole.
 
-Commencez par une discussion ouverte avec la classe : « Que signifie s&#39;orienter ? Quand avez-vous besoin de vous orienter dans la vie quotidienne ? » Notez les réponses des élèves au tableau. Faites émerger les différentes situations : trouver son chemin dans une ville inconnue, se repérer dans une forêt, suivre un itinéraire sur une carte...
+Commencez par une discussion ouverte avec la classe : « Que signifie s'orienter ? Quand avez-vous besoin de vous orienter dans la vie quotidienne ? » Notez les réponses des élèves au tableau. Faites émerger les différentes situations : trouver son chemin dans une ville inconnue, se repérer dans une forêt, suivre un itinéraire sur une carte...
 
-Introduisez ensuite l&#39;étymologie du mot « orientation » : il vient de « orient », qui désigne l&#39;Est, là où le soleil se lève. Historiquement, les humains se repéraient grâce au soleil : l&#39;Est (lever), l&#39;Ouest (coucher), et en déduisaient le Nord et le Sud.
+Introduisez ensuite l'étymologie du mot « orientation » : il vient de « orient », qui désigne l'Est, là où le soleil se lève. Historiquement, les humains se repéraient grâce au soleil : l'Est (lever), l'Ouest (coucher), et en déduisaient le Nord et le Sud.
 
-Présentez les quatre points cardinaux : Nord, Sud, Est, Ouest. Expliquez leur disposition dans l&#39;ordre horaire (Nord, Est, Sud, Ouest) et faites remarquer que les directions opposées se font face (Nord/Sud, Est/Ouest).
+Présentez les quatre points cardinaux : Nord, Sud, Est, Ouest. Expliquez leur disposition dans l'ordre horaire (Nord, Est, Sud, Ouest) et faites remarquer que les directions opposées se font face (Nord/Sud, Est/Ouest).
 
-Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l&#39;Est ! ». Ce jeu kinesthésique ancre les notions de manière corporelle.
+Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l'Est ! ». Ce jeu kinesthésique ancre les notions de manière corporelle.
 
-Montrez une boussole traditionnelle à la classe. Laissez les élèves l&#39;observer : que voient-ils ? Une aiguille qui bouge, des lettres (N, S, E, O), des graduations... Expliquez que l&#39;aiguille est aimantée et qu&#39;elle pointe toujours vers le Nord magnétique grâce au champ magnétique terrestre.
+Montrez une boussole traditionnelle à la classe. Laissez les élèves l'observer : que voient-ils ? Une aiguille qui bouge, des lettres (N, S, E, O), des graduations... Expliquez que l'aiguille est aimantée et qu'elle pointe toujours vers le Nord magnétique grâce au champ magnétique terrestre.
 
-Pour les plus curieux, vous pouvez montrer une courte vidéo expliquant que la Terre se comporte comme un gigantesque aimant, avec un pôle Nord et un pôle Sud magnétiques. L&#39;aiguille de la boussole, qui est elle-même aimantée, est attirée par ce champ magnétique.
+Pour les plus curieux, vous pouvez montrer une courte vidéo expliquant que la Terre se comporte comme un gigantesque aimant, avec un pôle Nord et un pôle Sud magnétiques. L'aiguille de la boussole, qui est elle-même aimantée, est attirée par ce champ magnétique.
 
-Faites manipuler la boussole par les élèves (par petits groupes si vous n&#39;en avez qu&#39;une). Demandez-leur de vérifier si le Nord identifié précédemment dans la classe est bien confirmé par la boussole.
+Faites manipuler la boussole par les élèves (par petits groupes si vous n'en avez qu'une). Demandez-leur de vérifier si le Nord identifié précédemment dans la classe est bien confirmé par la boussole.
 
 Annoncez le projet :
 
 > « Nous allons construire notre propre boussole, mais pas une boussole ordinaire : un robot en carton qui nous indiquera le Nord grâce à un ordinateur miniature ! »
 
-Montrez une carte micro:bit et expliquez qu&#39;elle contient un capteur spécial appelé magnétomètre, capable de détecter le champ magnétique terrestre, exactement comme l&#39;aiguille d&#39;une boussole traditionnelle.
+Montrez une carte micro:bit et expliquez qu'elle contient un capteur spécial appelé magnétomètre, capable de détecter le champ magnétique terrestre, exactement comme l'aiguille d'une boussole traditionnelle.
 
-En activité introductive, vous pouvez proposer aux élèves un **memory** pour associer points cardinaux, flèches et angles, et ainsi se familiariser avec le vocabulaire de l&#39;orientation.
+En activité introductive, vous pouvez proposer aux élèves un **memory** pour associer points cardinaux, flèches et angles, et ainsi se familiariser avec le vocabulaire de l'orientation.
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '1rem'}}>
   <img src="/img/ressources/robots-meet-arts/cabane-outils/memory.png" alt="Cartes memory orientation" style={{flex: 1, minWidth: '200px'}} />
   <img src="/img/ressources/robots-meet-arts/cabane-outils/memory2.png" alt="Cartes memory orientation" style={{flex: 1, minWidth: '200px'}} />
 </div>
 
-Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille qui tourne, notre robot affichera une flèche lumineuse qui pointera toujours vers le Nord ! »
+Montrez l'écran LED de la carte micro:bit : « Au lieu d'une aiguille qui tourne, notre robot affichera une flèche lumineuse qui pointera toujours vers le Nord ! »
 
 
 ---
@@ -161,9 +161,9 @@ Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille q
 
 :::info[Notes pour l'enseignant·e]
 
-- Collectez à l&#39;avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) : sollicitez les familles quelques jours avant
+- Collectez à l'avance des boîtes en carton de récupération (céréales, chaussures, mouchoirs) : sollicitez les familles quelques jours avant
 - Préparez un poste avec le matériel de découpe et collage (ciseaux, colle, ruban adhésif, feutres)
-- Testez l&#39;accès à MakeCode ([makecode.microbit.org](https://makecode.microbit.org)) sur les ordinateurs de la classe et vérifiez que le site n&#39;est pas bloqué
+- Testez l'accès à MakeCode ([makecode.microbit.org](https://makecode.microbit.org)) sur les ordinateurs de la classe et vérifiez que le site n'est pas bloqué
 - Chargez les cartes micro:bit et vérifiez que les boîtiers de piles fonctionnent
 - Préparez un exemple de gabarit de robot à montrer aux élèves (voir annexe)
 
@@ -171,9 +171,9 @@ Montrez l&#39;écran LED de la carte micro:bit : « Au lieu d&#39;une aiguille q
 
 **Objectif** : Fabriquer le robot en carton et programmer la boussole numérique sur carte micro:bit.
 
-Si c&#39;est la première fois que les élèves utilisent MakeCode, commencez par une découverte collective de l&#39;interface projetée au vidéoprojecteur. Identifiez ensemble les différentes zones : l&#39;émulateur de la carte micro:bit à gauche, les catégories de blocs au centre (Entrées, Musique, LED, etc.), l&#39;espace de programmation à droite. Explorez la catégorie « Entrées » et trouvez le bloc « direction de la boussole (degres) ».
+Si c'est la première fois que les élèves utilisent MakeCode, commencez par une découverte collective de l'interface projetée au vidéoprojecteur. Identifiez ensemble les différentes zones : l'émulateur de la carte micro:bit à gauche, les catégories de blocs au centre (Entrées, Musique, LED, etc.), l'espace de programmation à droite. Explorez la catégorie « Entrées » et trouvez le bloc « direction de la boussole (degres) ».
 
-Expliquez que ce bloc renvoie un nombre entre 0 et 359 correspondant à l&#39;angle par rapport au Nord magnétique :
+Expliquez que ce bloc renvoie un nombre entre 0 et 359 correspondant à l'angle par rapport au Nord magnétique :
 
 - 0 degres = Nord
 - 90 degres = Est
@@ -184,29 +184,29 @@ Expliquez que ce bloc renvoie un nombre entre 0 et 359 correspondant à l&#39;an
 
 Selon le niveau de vos élèves et le temps disponible, plusieurs versions du projet peuvent être explorées. En voici deux versions :
 
-| Caractéristiques du projet | Affichage simple sur la carte | Affichage sur la carte couplée d&#39;une flèche motorisée sur le robot |
+| Caractéristiques du projet | Affichage simple sur la carte | Affichage sur la carte couplée d'une flèche motorisée sur le robot |
 |---|---|---|
 | Principe | La carte micro:bit affiche une flèche sur ses LEDs qui pointe vers le Nord | Une flèche en carton fixée sur un servomoteur tourne physiquement pour pointer vers le Nord |
-| Effet visuel | Flèche lumineuse sur l&#39;écran 5x5 LEDs | Flèche mécanique qui tourne réellement |
+| Effet visuel | Flèche lumineuse sur l'écran 5x5 LEDs | Flèche mécanique qui tourne réellement |
 | Matériel spécifique | Carte micro:bit + boîtier piles uniquement | Carte micro:bit + servomoteur + câbles + alimentation externe recommandée |
-| Contraintes de construction | Prévoir une ouverture de 5x4 cm pour voir l&#39;écran LED | Prévoir un emplacement stable pour le servo au sommet du robot + passage des câbles |
-| Programmation | Blocs conditionnels simples (si... alors) | Idem + conversion d&#39;angles + contrôle du servo |
-| Idéal pour | Première découverte de la programmation, classes à effectif important, temps limité | Élèves à l&#39;aise avec la programmation, projet approfondi, club ou atelier |
+| Contraintes de construction | Prévoir une ouverture de 5x4 cm pour voir l'écran LED | Prévoir un emplacement stable pour le servo au sommet du robot + passage des câbles |
+| Programmation | Blocs conditionnels simples (si... alors) | Idem + conversion d'angles + contrôle du servo |
+| Idéal pour | Première découverte de la programmation, classes à effectif important, temps limité | Élèves à l'aise avec la programmation, projet approfondi, club ou atelier |
 
 ### Concevoir le robot
 
 Avant de construire votre robot, lancez une réflexion collective : à quoi ressemblera notre robot-boussole ? Quelques contraintes techniques à respecter :
 
-- Le robot doit pouvoir accueillir la carte micro:bit de manière visible (l&#39;écran LED doit être accessible)
+- Le robot doit pouvoir accueillir la carte micro:bit de manière visible (l'écran LED doit être accessible)
 - Il doit être suffisamment stable pour tenir debout
-- Il doit être facilement transportable pour les activités d&#39;orientation
-- L&#39;emplacement de la carte micro:bit doit permettre de le retirer et le remettre facilement (si partagé entre plusieurs robots)
+- Il doit être facilement transportable pour les activités d'orientation
+- L'emplacement de la carte micro:bit doit permettre de le retirer et le remettre facilement (si partagé entre plusieurs robots)
 
-Proposez aux élèves de dessiner leur robot idéal sur papier avant de passer à la construction. Ils peuvent s&#39;inspirer de formes variées : robot humanoïde, animal (hibou qui sait toujours où est le Nord), véhicule futuriste, personnage fantaisiste... puis laissez la classe en petit groupe construire plusieurs versions.
+Proposez aux élèves de dessiner leur robot idéal sur papier avant de passer à la construction. Ils peuvent s'inspirer de formes variées : robot humanoïde, animal (hibou qui sait toujours où est le Nord), véhicule futuriste, personnage fantaisiste... puis laissez la classe en petit groupe construire plusieurs versions.
 
 :::info[Notes pour l'enseignant·e]
 
-Encouragez la créativité tout en rappelant les contraintes techniques. Un robot très décoré mais qui ne tient pas debout ou dont on ne voit pas l&#39;écran LED ne sera pas fonctionnel. C&#39;est l&#39;occasion d&#39;aborder la notion de cahier des charges en technologie.
+Encouragez la créativité tout en rappelant les contraintes techniques. Un robot très décoré mais qui ne tient pas debout ou dont on ne voit pas l'écran LED ne sera pas fonctionnel. C'est l'occasion d'aborder la notion de cahier des charges en technologie.
 
 :::
 
@@ -216,17 +216,17 @@ Une fois les robots construits, ou en parallèle pour proposer aux élèves de t
 
 #### Étape 1 - Afficher la valeur brute
 
-Dans le bloc « toujours » (bloc de base), affichez simplement la direction de la boussole avec les blocs « montrer nombre » (bloc de base) et « direction de la boussole » (bloc d&#39;entrée). Testez sur l&#39;émulateur (cliquez sur la boussole simulée) puis sur une vraie carte micro:bit. Les élèves voient défiler des nombres qui changent quand ils tournent la carte.
+Dans le bloc « toujours » (bloc de base), affichez simplement la direction de la boussole avec les blocs « montrer nombre » (bloc de base) et « direction de la boussole » (bloc d'entrée). Testez sur l'émulateur (cliquez sur la boussole simulée) puis sur une vraie carte micro:bit. Les élèves voient défiler des nombres qui changent quand ils tournent la carte.
 
 <img src="/img/ressources/robots-meet-arts/cabane-outils/code1.png" alt="Code étape 1" style={{maxWidth: '100%', height: 'auto'}} />
 
 #### Étape 2 - Afficher la lettre du point cardinal
 
-Utilisez des blocs « si... alors... sinon » pour afficher N, E, S ou O selon la valeur de l&#39;angle. Par exemple : si l&#39;angle est entre 315 et 45 degres, afficher « N » ; si entre 45 et 135, afficher « E », etc.
+Utilisez des blocs « si... alors... sinon » pour afficher N, E, S ou O selon la valeur de l'angle. Par exemple : si l'angle est entre 315 et 45 degres, afficher « N » ; si entre 45 et 135, afficher « E », etc.
 
 #### Étape 3 - Afficher une flèche pointant vers le Nord
 
-Utilisez les blocs de LED pour créer des flèches dans les 8 directions. La flèche pointe toujours vers le Nord, donc si l&#39;utilisateur fait face au Nord (0 degres), la flèche pointe vers le haut ; s&#39;il fait face à l&#39;Est (90 degres), la flèche pointe vers la gauche (car le Nord est alors à sa gauche). À ce stade, vous pouvez également ajouter plus de détails, en spécifiant Nord-Ouest, Sud-Ouest...
+Utilisez les blocs de LED pour créer des flèches dans les 8 directions. La flèche pointe toujours vers le Nord, donc si l'utilisateur fait face au Nord (0 degres), la flèche pointe vers le haut ; s'il fait face à l'Est (90 degres), la flèche pointe vers la gauche (car le Nord est alors à sa gauche). À ce stade, vous pouvez également ajouter plus de détails, en spécifiant Nord-Ouest, Sud-Ouest...
 
 <img src="/img/ressources/robots-meet-arts/cabane-outils/code3.png" alt="Code étape 3" style={{maxWidth: '100%', height: 'auto'}} />
 
@@ -234,25 +234,25 @@ Pour les groupes qui ont choisi la version avec servomoteur, poursuivez avec ces
 
 #### Étape 4 - Comprendre le principe
 
-Le servomoteur ne peut tourner que de 0 à 180 degres, soit un demi-tour. On va donc utiliser la flèche pour indiquer le Nord uniquement sur l&#39;arc avant : de l&#39;Ouest (à gauche) jusqu&#39;à l&#39;Est (à droite), en passant par le Nord (devant). Quand le Nord est derrière nous (dans la zone Sud), la flèche restera bloquée sur le côté pour indiquer « le Nord est par là, tourne-toi ! ».
+Le servomoteur ne peut tourner que de 0 à 180 degres, soit un demi-tour. On va donc utiliser la flèche pour indiquer le Nord uniquement sur l'arc avant : de l'Ouest (à gauche) jusqu'à l'Est (à droite), en passant par le Nord (devant). Quand le Nord est derrière nous (dans la zone Sud), la flèche restera bloquée sur le côté pour indiquer « le Nord est par là, tourne-toi ! ».
 
 #### Étape 5 - Créer les variables et calculer
 
-Dans la catégorie « Variables », créez une nouvelle variable « angle » (pour la position du servo). La variable « degres » créée à l&#39;étape 2 contient déjà la direction de la boussole. Utilisez des blocs « si... alors... sinon » (catégorie « Logique ») avec des blocs de calcul (catégorie « Maths ») pour calculer l&#39;angle du servo.
+Dans la catégorie « Variables », créez une nouvelle variable « angle » (pour la position du servo). La variable « degres » créée à l'étape 2 contient déjà la direction de la boussole. Utilisez des blocs « si... alors... sinon » (catégorie « Logique ») avec des blocs de calcul (catégorie « Maths ») pour calculer l'angle du servo.
 
 #### Étape 6 - Commander le servomoteur
 
-Cliquez sur « Avancé » pour faire apparaître la catégorie « Broches ». Utilisez le bloc « régler position servo broche P0 à » et placez-y la variable « angle ». Ajoutez une pause de 100 ms (catégorie « Base », bloc « pause (ms) ») pour stabiliser le mouvement. Testez : quand vous tournez face au Nord, la flèche pointe devant ; face à l&#39;Est, elle pointe à droite ; face à l&#39;Ouest, elle pointe à gauche.
+Cliquez sur « Avancé » pour faire apparaître la catégorie « Broches ». Utilisez le bloc « régler position servo broche P0 à » et placez-y la variable « angle ». Ajoutez une pause de 100 ms (catégorie « Base », bloc « pause (ms) ») pour stabiliser le mouvement. Testez : quand vous tournez face au Nord, la flèche pointe devant ; face à l'Est, elle pointe à droite ; face à l'Ouest, elle pointe à gauche.
 
 <img src="/img/ressources/robots-meet-arts/cabane-outils/code4.png" alt="Code étape 6" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Organisation pratique
 
-Si vous disposez de peu de cartes micro:bit physiques, organisez des ateliers tournants : un atelier « Programmation » où les élèves codent sur l&#39;émulateur MakeCode, un atelier « Fabrication » où ils construisent et décorent leur robot, et un atelier « Test réel » où un petit groupe utilise les cartes physiques pour tester, calibrer et valider. Faites tourner tous les groupes sur ces trois ateliers.
+Si vous disposez de peu de cartes micro:bit physiques, organisez des ateliers tournants : un atelier « Programmation » où les élèves codent sur l'émulateur MakeCode, un atelier « Fabrication » où ils construisent et décorent leur robot, et un atelier « Test réel » où un petit groupe utilise les cartes physiques pour tester, calibrer et valider. Faites tourner tous les groupes sur ces trois ateliers.
 
-Prolongement mathématique : La symétrie des points cardinaux : Profitez de cette activité pour faire réfléchir les élèves sur la symétrie des directions. Si la flèche indique où est le Nord, où se trouve le Sud ? Réponse : toujours à l&#39;opposé, à 180 degres d&#39;écart !
+Prolongement mathématique : La symétrie des points cardinaux : Profitez de cette activité pour faire réfléchir les élèves sur la symétrie des directions. Si la flèche indique où est le Nord, où se trouve le Sud ? Réponse : toujours à l'opposé, à 180 degres d'écart !
 
-> Calibration : La première fois qu&#39;on utilise la boussole sur une vraie carte micro:bit, elle demande une calibration. Il faut incliner la carte dans tous les sens jusqu&#39;à ce que toutes les LEDs s&#39;allument, formant un cercle. C&#39;est une étape indispensable pour que les mesures soient précises. Prévoyez du temps pour cette étape avec les élèves.
+> Calibration : La première fois qu'on utilise la boussole sur une vraie carte micro:bit, elle demande une calibration. Il faut incliner la carte dans tous les sens jusqu'à ce que toutes les LEDs s'allument, formant un cercle. C'est une étape indispensable pour que les mesures soient précises. Prévoyez du temps pour cette étape avec les élèves.
 
 
 ---
@@ -262,44 +262,44 @@ Prolongement mathématique : La symétrie des points cardinaux : Profitez de cet
 
 :::info[Notes pour l'enseignant·e]
 
-- Repérez le terrain à l&#39;avance : identifiez les zones adaptées pour les parcours (cour, parc proche) et vérifiez les autorisations de sortie si nécessaire
+- Repérez le terrain à l'avance : identifiez les zones adaptées pour les parcours (cour, parc proche) et vérifiez les autorisations de sortie si nécessaire
 - Préparez et imprimez des cartes du lieu avec le Nord indiqué (utilisez Géoportail ou OpenStreetMap)
-- Installez les balises ou cônes de couleur avant la séance pour les parcours d&#39;orientation
+- Installez les balises ou cônes de couleur avant la séance pour les parcours d'orientation
 - Rédigez les indices directionnels de la chasse au trésor et cachez-les aux emplacements prévus
 - Prévoyez des carnets de bord ou feuilles pour que les élèves notent leurs directions
 
 :::
 
-**Objectif** : Mettre en pratique les compétences d&#39;orientation avec le robot-boussole à travers des activités ludiques.
+**Objectif** : Mettre en pratique les compétences d'orientation avec le robot-boussole à travers des activités ludiques.
 
-Distribuez à chaque groupe une carte de la cour d&#39;école ou du quartier proche. La première tâche est d&#39;apprendre à « orienter » la carte, c&#39;est-à-dire la positionner de manière à ce que le Nord de la carte corresponde au Nord réel :
+Distribuez à chaque groupe une carte de la cour d'école ou du quartier proche. La première tâche est d'apprendre à « orienter » la carte, c'est-à-dire la positionner de manière à ce que le Nord de la carte corresponde au Nord réel :
 
 1. Posez la carte à plat devant vous
 2. Tenez le robot-boussole et observez la flèche : elle pointe vers le Nord
-3. Tournez la carte jusqu&#39;à ce que la flèche « N » de la carte soit alignée avec la direction indiquée par le robot
+3. Tournez la carte jusqu'à ce que la flèche « N » de la carte soit alignée avec la direction indiquée par le robot
 4. La carte est maintenant orientée : ce qui est à droite sur la carte est réellement à votre droite !
 
-Demandez aux élèves de repérer sur la carte orientée où se trouvent différents éléments : le bâtiment de l&#39;école, le portail, le préau, les arbres... Vérifiez ensemble que tout correspond à la réalité.
+Demandez aux élèves de repérer sur la carte orientée où se trouvent différents éléments : le bâtiment de l'école, le portail, le préau, les arbres... Vérifiez ensemble que tout correspond à la réalité.
 
-Préparez un parcours dans la cour ou un espace proche de l&#39;école. À chaque étape, les élèves trouvent un indice qui leur donne une direction à suivre (exemple : « Va vers l&#39;Est pendant 20 pas »). Le robot-boussole permet de trouver la bonne direction.
+Préparez un parcours dans la cour ou un espace proche de l'école. À chaque étape, les élèves trouvent un indice qui leur donne une direction à suivre (exemple : « Va vers l'Est pendant 20 pas »). Le robot-boussole permet de trouver la bonne direction.
 
-Exemples d&#39;indices :
+Exemples d'indices :
 
-- « Marche vers le Nord jusqu&#39;au grand arbre »
-- « Tourne-toi vers l&#39;Ouest et fais 15 pas »
+- « Marche vers le Nord jusqu'au grand arbre »
+- « Tourne-toi vers l'Ouest et fais 15 pas »
 - « Le prochain indice est au Sud-Est, près du banc »
 
-Les élèves utilisent leur robot-boussole pour s&#39;orienter et suivre les directions. Ils notent leur parcours dans leur carnet de bord, traçant les directions suivies.
+Les élèves utilisent leur robot-boussole pour s'orienter et suivre les directions. Ils notent leur parcours dans leur carnet de bord, traçant les directions suivies.
 
-Pour une version plus sportive, organisez une vraie course d&#39;orientation dans un parc proche (avec les autorisations nécessaires). Les élèves doivent trouver plusieurs balises dans un ordre imposé, en utilisant une carte et leur robot-boussole :
+Pour une version plus sportive, organisez une vraie course d'orientation dans un parc proche (avec les autorisations nécessaires). Les élèves doivent trouver plusieurs balises dans un ordre imposé, en utilisant une carte et leur robot-boussole :
 
 - Placez 5 à 8 balises (cônes, fanions) à différents endroits
 - Marquez leur position sur la carte avec des numéros
 - Les équipes partent à intervalles réguliers
 - À chaque balise, les élèves récupèrent un poinçon ou notent un code
-- L&#39;équipe qui termine le parcours le plus rapidement avec tous les codes gagne
+- L'équipe qui termine le parcours le plus rapidement avec tous les codes gagne
 
-> Adaptation : Si une sortie extérieure n&#39;est pas possible, créez un parcours d&#39;orientation dans l&#39;école elle-même : couloirs, salles, cour. L&#39;objectif pédagogique reste le même, seul l&#39;espace change.
+> Adaptation : Si une sortie extérieure n'est pas possible, créez un parcours d'orientation dans l'école elle-même : couloirs, salles, cour. L'objectif pédagogique reste le même, seul l'espace change.
 
 
 ---
@@ -307,14 +307,14 @@ Pour une version plus sportive, organisez une vraie course d&#39;orientation dan
 ## Réflexion autour de la séquence
 
 
-Une fois l&#39;ensemble des activités réalisées, vous pouvez organiser une exposition des robots-boussoles dans la classe ou dans un espace commun de l&#39;école. Chaque groupe présente son robot : son nom, son design, le programme utilisé, et fait une démonstration de son fonctionnement. Invitez d&#39;autres classes, les parents, ou des représentants de l&#39;école à venir découvrir les créations. Les élèves expliquent le fonctionnement de la boussole, les points cardinaux, et montrent comment orienter une carte.
+Une fois l'ensemble des activités réalisées, vous pouvez organiser une exposition des robots-boussoles dans la classe ou dans un espace commun de l'école. Chaque groupe présente son robot : son nom, son design, le programme utilisé, et fait une démonstration de son fonctionnement. Invitez d'autres classes, les parents, ou des représentants de l'école à venir découvrir les créations. Les élèves expliquent le fonctionnement de la boussole, les points cardinaux, et montrent comment orienter une carte.
 
 Concluez le projet par un moment de réflexion collective. Posez des questions ouvertes aux élèves :
 
-- « Qu&#39;avez-vous appris sur l&#39;orientation que vous ne saviez pas avant ? »
+- « Qu'avez-vous appris sur l'orientation que vous ne saviez pas avant ? »
 - « Comment fonctionne une boussole ? Expliquez-le avec vos mots. »
 - « Quelle a été la partie la plus difficile du projet ? La plus amusante ? »
-- « Dans quelles situations de la vie quotidienne pourriez-vous utiliser ces compétences d&#39;orientation ? »
+- « Dans quelles situations de la vie quotidienne pourriez-vous utiliser ces compétences d'orientation ? »
 
 Aidez les élèves à prendre conscience des compétences développées : lire une carte, utiliser les points cardinaux, programmer, travailler en équipe, résoudre des problèmes techniques...
 
@@ -324,7 +324,7 @@ Créez ensemble une trace écrite récapitulative du projet, incluant :
 - Une explication du fonctionnement de la boussole (magnétisme terrestre)
 - Les étapes de fabrication du robot
 - Le code utilisé (en blocs ou en pseudo-code simplifié)
-- Des photos du projet et des activités d&#39;orientation
+- Des photos du projet et des activités d'orientation
 
 
 ---
@@ -333,9 +333,9 @@ Créez ensemble une trace écrite récapitulative du projet, incluant :
 
 ### Introduction
 
-Le BBC micro:bit est une carte de programmation polyvalente qui peut être transformée en cerveau de nombreux projets robotiques. Contrairement à Cubetto ou Sphero Indi, qui sont des systèmes autonomes, les robots micro:bit sont construits à partir de composants séparés : la carte micro:bit elle-même, une carte d&#39;extension (aussi appelée « shield » ou « breakout board »), des moteurs, des capteurs et un châssis ou système de construction. Cette modularité apporte une grande flexibilité mais introduit également un concept important : chaque plateforme robotique nécessite d&#39;être programmée sur MakeCode en utilisant des extensions spécifiques.
+Le BBC micro:bit est une carte de programmation polyvalente qui peut être transformée en cerveau de nombreux projets robotiques. Contrairement à Cubetto ou Sphero Indi, qui sont des systèmes autonomes, les robots micro:bit sont construits à partir de composants séparés : la carte micro:bit elle-même, une carte d'extension (aussi appelée « shield » ou « breakout board »), des moteurs, des capteurs et un châssis ou système de construction. Cette modularité apporte une grande flexibilité mais introduit également un concept important : chaque plateforme robotique nécessite d'être programmée sur MakeCode en utilisant des extensions spécifiques.
 
-### Qu&#39;est-ce que MakeCode ?
+### Qu'est-ce que MakeCode ?
 
 MakeCode est un environnement de programmation gratuit, basé sur navigateur, développé par Microsoft. Il propose une approche de codage visuelle par blocs qui rend la programmation accessible aux débutants tout en offrant des alternatives textuelles pour les utilisateurs plus avancés. Caractéristiques principales :
 
@@ -347,7 +347,7 @@ MakeCode est un environnement de programmation gratuit, basé sur navigateur, d�
 
 Accéder à MakeCode : [https://makecode.microbit.org/](https://makecode.microbit.org/)
 
-MakeCode propose trois façons d&#39;écrire le même programme :
+MakeCode propose trois façons d'écrire le même programme :
 
 - Mode blocs (par défaut) : Programmation visuelle utilisant des blocs colorés et imbriqués. Idéal pour les débutants et les jeunes élèves.
 - Mode JavaScript : Programmation textuelle utilisant la syntaxe JavaScript. Les blocs se convertissent automatiquement en JavaScript, et vice versa.
@@ -355,14 +355,14 @@ MakeCode propose trois façons d&#39;écrire le même programme :
 
 Les trois modes sont interconnectés : les modifications dans un mode se reflètent dans les autres (avec quelques limitations pour le code Python complexe). Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
 
-Pour les élèves de 8 à 12 ans, nous recommandons d&#39;utiliser le mode blocs car il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
+Pour les élèves de 8 à 12 ans, nous recommandons d'utiliser le mode blocs car il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
 
 ### Si vous utilisez une carte micro:bit pour la première fois
 
 - Ouvrir MakeCode dans votre navigateur.
-- Connecter la carte à l&#39;ordinateur : Utiliser un câble micro-USB. La carte apparaîtra comme une clé USB nommée « MICROBIT ».
+- Connecter la carte à l'ordinateur : Utiliser un câble micro-USB. La carte apparaîtra comme une clé USB nommée « MICROBIT ».
 - Transférer le programme : Une fois votre code créé, cliquez sur « Télécharger » et le programme se téléchargera automatiquement sur la carte associée.
-- Alimentation autonome : Ajouter un pack de piles AAA dans le support fourni s&#39;il n&#39;est pas inclus dans votre kit robotique.
+- Alimentation autonome : Ajouter un pack de piles AAA dans le support fourni s'il n'est pas inclus dans votre kit robotique.
 
 ### Programme 1 - Version sans servomoteur
 
@@ -392,7 +392,7 @@ basic.forever(function () {
 
 Que fait le programme ?
 
-Le programme lit en continu la direction de la boussole (en degrés de 0 à 359). Selon l&#39;angle mesuré, il affiche une flèche parmi 8 directions possibles. Attention : la flèche indique où se trouve le Nord, pas où l&#39;utilisateur regarde !
+Le programme lit en continu la direction de la boussole (en degrés de 0 à 359). Selon l'angle mesuré, il affiche une flèche parmi 8 directions possibles. Attention : la flèche indique où se trouve le Nord, pas où l'utilisateur regarde !
 
 | Direction | Degrés |
 |---|---|
@@ -456,11 +456,11 @@ Ce programme fait tourner une flèche mécanique fixée sur un servomoteur pour 
 | Alimentation + | Rouge |
 | Masse - | Marron ou Noir |
 
-> Attention : Le servomoteur consomme du courant. Pour une utilisation prolongée, il est préférable d&#39;alimenter le servo avec une source externe (pack de 4 piles AA) plutôt que directement depuis la carte micro:bit.
+> Attention : Le servomoteur consomme du courant. Pour une utilisation prolongée, il est préférable d'alimenter le servo avec une source externe (pack de 4 piles AA) plutôt que directement depuis la carte micro:bit.
 
 Formules de conversion :
 
-| Zone boussole | Condition | Calcul de l&#39;angle servo |
+| Zone boussole | Condition | Calcul de l'angle servo |
 |---|---|---|
 | Ouest vers Nord | degres &gt;= 270 | angle = degres - 270 |
 | Nord vers Est | degres &lt;= 90 | angle = degres + 90 |
@@ -479,7 +479,7 @@ Exemples concrets :
 ### Accéder aux projets sur MakeCode Micro:bit
 
 - Affichage simple sur la carte : [https://makecode.microbit.org/S08413-6091064519-56678](https://makecode.microbit.org/S08413-6091064519-56678)
-- Affichage sur la carte couplée d&#39;une flèche motorisée sur le robot : [https://makecode.microbit.org/S22604-2436276889-84217](https://makecode.microbit.org/S22604-2436276889-84217)
+- Affichage sur la carte couplée d'une flèche motorisée sur le robot : [https://makecode.microbit.org/S22604-2436276889-84217](https://makecode.microbit.org/S22604-2436276889-84217)
 
 ---
 
