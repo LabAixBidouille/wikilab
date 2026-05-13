@@ -3816,7 +3816,7 @@ export const resources: Resource[] = [
       'clignotement',
       'programmation',
     ],
-    thumbnail: '/img/ressources/inovmicro-exao/clignement-led/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/clignotement-led/icone.png',
   },
   {
     id: 'programmation-city-detective-challenge',

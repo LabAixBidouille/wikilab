@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="9" r="4" fill="#8a6e18" opacity="0.1"/><circle cx="12" cy="9" r="3" fill="#8a6e18" opacity="0.25"/><path d="M10 13.5 L9 17 L15 17 L14 13.5 Z" fill="#8a6e18"/><rect x="9" y="17" width="6" height="1" rx="0.3" fill="#8a6e18"/><line x1="12" y1="5" x2="12" y2="3" stroke="#8a6e18" strokeWidth="1"/><line x1="8.5" y1="6" x2="7" y2="4.5" stroke="#8a6e18" strokeWidth="1"/><line x1="15.5" y1="6" x2="17" y2="4.5" stroke="#8a6e18" strokeWidth="1"/><circle cx="12" cy="9" r="2" fill="#8a6e18"/></svg> Faire clignoter une LED
+ # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '0.25rem'}}><path d="M9 18h6"/><path d="M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.75c.62.44 1 1.13 1 1.89V17h6v-.36c0-.76.38-1.45 1-1.89A7 7 0 0 0 12 2z"/></svg> Faire clignoter une LED
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -19,28 +19,25 @@ sidebar_position: 2
   <span className="badge badge--warning">MicroPython</span>
 </div>
 
-| Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
-| ------------- | ------ | ---------- | --------- | --------------------- |
+| Projet | Durée | Difficulté | Âge | Logiciel STeaMi testé |
+ | --- | --- | --- | --- | --- |    
 | I-Novmicro #2 | 15 min | Débutant   | 11-99 ans | 1.23.1                |
 
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble micro-USB (STeaMi V1) ou USB-C (STeaMi V2)
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
 
 </div>
 
-<img src="/img/ressources/inovmicro-exao/clignement-led/icone.png" alt="Faire clignoter une LED sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
+ <img src="/img/ressources/inovmicro-exao/clignement-led/icone.png" alt="Icône Faire clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---
 
 ## De quoi parle-t-on ?
-
-Une LED est un composant électronique qui produit de la lumière lorsqu'elle est traversée par un courant. Elle peut être utilisée pour éclairer une pièce, ou pour indiquer quelque chose (un réservoir presque vide, une machine allumée, etc.). Les LED existent sous différentes formes et couleurs.
 
 La STeaMi intègre directement une LED pouvant éclairer de 3 couleurs différentes : **bleue**, **rouge** et **verte**, accessibles sans aucun câblage. C'est le point de départ idéal pour comprendre comment un programme contrôle un composant physique : allumer, éteindre, attendre, recommencer.
 
@@ -95,12 +92,9 @@ Le programme est court : on importe deux modules, on initialise la LED, et on en
 ### Le code
 
 ```python
-# Testée avec firmware STeaMi 1.23.1
-#
-# Faire clignoter la LED bleue de la STeaMi
-
-import pyb
-from time import sleep
+ # Testé avec le firmware STeaMi v1.0
+ import pyb
+ from time import sleep
 
 # Initialisation de la LED bleue (numéro 3)
 led_blue = pyb.LED(3)
@@ -149,4 +143,4 @@ Une fois le clignotement maîtrisé, une bonne piste pour aller plus loin est de
 
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as06-morse`](/ressources/lets-steam/r1as06-morse)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+*Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet Let's STEAM. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
