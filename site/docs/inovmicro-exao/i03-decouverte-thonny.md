@@ -348,13 +348,14 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 
 ### Dépanner les erreurs courantes
 
-| Symptôme                                | Cause probable                            | Solution                                                                                                       |
-| --------------------------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Port série absent                       | Câble sans fil de données                 | Changer de câble                                                                                               |
-| REPL vide après connexion               | MicroPython non installé                  | Reprendre l'étape « Installer MicroPython sur la STeaMi »                                                      |
-| `Couldn't find the device`              | Plusieurs cartes connectées               | Choisir le port à la main                                                                                      |
-| `Device is busy` ou accès refusé        | Programme déjà en cours, ou autre IDE qui occupe le port | `Ctrl+C` dans le Shell, ou bouton **Stop** ; fermer les autres IDE qui pourraient être ouverts |
-| Un ancien `main.py` redémarre en boucle | Programme persistant qui boucle ou plante | `Ctrl+C` pour interrompre ; supprimer ou renommer `main.py` via Thonny (panneau Files → MicroPython device)    |
+La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thonny mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépannage STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
+
+- la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
+- le port série introuvable ou avec accès refusé (Windows / Linux) ;
+- la console vide après connexion (MicroPython pas installé) ;
+- `Couldn't find the device` (plusieurs cartes branchées) ;
+- `Device is busy` (programme déjà en cours) ;
+- un `main.py` qui redémarre en boucle.
 
 ---
 

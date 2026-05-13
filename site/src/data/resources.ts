@@ -92,6 +92,10 @@ export interface Resource {
   keywords: string[];
   pdf?: string;
   thumbnail?: string;
+  // Force la position dans la sidebar : tri par (sidebarOrder, slug).
+  // Défaut implicite 0 → ordre alphabétique naturel. Valeur élevée
+  // (ex. 99) pour les pages transverses qui doivent rester en bas.
+  sidebarOrder?: number;
 }
 
 export const resources: Resource[] = [
@@ -3753,6 +3757,25 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Morse', 'buzzer', 'piézo', 'codage'],
     thumbnail: '/img/ressources/inovmicro-exao/i13-code-morse/icone.png',
+  },
+  {
+    id: 'depannage',
+    title: 'Dépannage STeaMi',
+    slug: '/ressources/inovmicro-exao/depannage',
+    project: 'inovmicro-exao',
+    summary:
+      "Page de référence transverse pour le projet I-Novmicro #2 : problèmes courants (câble incompatible, port série, MicroPython non installé, programme déjà en cours, main.py en boucle) et leurs solutions, indépendamment de l'IDE utilisé.",
+    disciplines: ['informatique', 'technologie'],
+    tools: ['steami'],
+    software: ['python'],
+    ageMin: 11,
+    ageMax: 99,
+    durationMinutes: 10,
+    difficulty: 'debutant',
+    formats: ['programmation'],
+    categories: ['programmation'],
+    keywords: ['STeaMi', 'MicroPython', 'dépannage', 'port série', 'IDE'],
+    sidebarOrder: 99,
   },
   {
     id: 'programmation-city-detective-challenge',

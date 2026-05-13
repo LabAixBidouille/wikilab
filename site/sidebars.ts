@@ -18,11 +18,17 @@ const CATEGORY_ORDER: Category[] = [
 
 // Construit les catégories sidebar à partir des données resources.ts.
 // Chaque fiche apparaît dans chaque catégorie dont elle fait partie.
+// Tri : (sidebarOrder ?? 0, slug). Une fiche avec sidebarOrder élevé
+// (ex. dépannage transverse) reste en bas malgré son slug.
 const categorySections = CATEGORY_ORDER.map((cat) => {
   const items = resources
     .filter((r) => r.categories.includes(cat))
-    .map((r) => r.slug.replace(/^\/ressources\//, ''))
-    .sort();
+    .map((r) => ({
+      id: r.slug.replace(/^\/ressources\//, ''),
+      order: r.sidebarOrder ?? 0,
+    }))
+    .sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
+    .map((x) => x.id);
   return {
     type: 'category' as const,
     label: categoryLabels[cat],
