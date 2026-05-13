@@ -149,6 +149,7 @@ Novmicro
 decouverte
 steami
 exao
+depannage
 hypothese
 citoyennete
 creativite
@@ -174,6 +175,7 @@ piezo
 morse
 Qwiic
 Sparkfun
+mpremote
 
 # Magnetics — projet Edu-up (BLE Mesh micro:bit / STM32 / MicroPython)
 magnetics
