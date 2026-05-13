@@ -18,7 +18,12 @@ accept = [200, 203, 206, 429]
 base_url = "https://wiki.labaixbidouille.com"
 
 # Headers pour limiter les faux positifs
-include_verbatim = true
+#
+# `include_verbatim` reste à la valeur par défaut (false) : on ne
+# vérifie pas les URLs à l'intérieur des blocs de code (souvent des
+# exemples ou des placeholders). Bonus : ça évite aussi un double
+# comptage des autoliens markdown `[url](url)` où lychee parsait à la
+# fois le texte (perçu comme URL) et la cible.
 include_mail = false
 
 # Domaines à exclure

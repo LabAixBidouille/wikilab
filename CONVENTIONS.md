@@ -110,6 +110,31 @@ Couleurs et icônes : voir [`site/src/css/custom.css`](site/src/css/custom.css) 
 - Footer Erasmus+ en bas de chaque fiche concernée
 - Gras pour : "Contexte de la séquence" et "Objectifs d'apprentissage"
 
+### URLs affichées telles quelles : laisser nues
+
+Pour afficher une URL en clair (sans texte de remplacement), l'écrire **nue** plutôt que de la doubler en `[url](url)`. Docusaurus 3 (via GFM, cf. [guide de migration v3](https://docusaurus.io/fr/docs/migration/v3)) détecte automatiquement les URLs nues et les transforme en liens cliquables ; le rendu HTML est identique à `[url](url)`.
+
+Avantages :
+
+- URL écrite une seule fois (pas de risque de divergence entre texte affiché et cible),
+- source plus lisible,
+- lychee (le vérificateur de liens) ne risque plus de compter la même URL deux fois.
+
+| À éviter                                       | À préférer             |
+| ---------------------------------------------- | ---------------------- |
+| `[https://example.com](https://example.com)`   | `https://example.com`  |
+| `[https://example.com/](https://example.com/)` | `https://example.com/` |
+
+**Ne pas utiliser** la syntaxe CommonMark `<https://example.com>` : elle casse la compilation MDX dès que l'URL contient un chemin (Docusaurus 3 lit le `<` comme début de balise JSX).
+
+Quand l'URL a un **texte de remplacement** (lien hypertexte classique), la forme `[texte](url)` reste évidemment la bonne : `[la documentation officielle](https://example.com)`.
+
+Détection des occurrences à corriger :
+
+```bash
+grep -rE '\[https?://[^\]]+\]\(https?://[^)]+\)' site/docs/
+```
+
 ### Registre
 
 **Vouvoiement** (_« vous »_) dans toute la fiche, pas de tutoiement. Ce choix laisse à l'enseignant·e le choix du registre à utiliser avec sa classe : une fiche tutoyante imposerait le tutoiement à toute la classe ; une fiche vouvoyante peut être lue puis reformulée par l'enseignant·e.
