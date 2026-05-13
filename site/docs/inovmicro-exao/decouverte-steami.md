@@ -155,7 +155,7 @@ Pour les éditeurs MakeCode, l'équivalent passe par le bloc _allumer la LED_ + 
 - La LED orange clignote pendant le transfert.
 - La carte redémarre automatiquement et exécute le programme.
 
-:::info[Conseil pour l'enseignant·e]
+:::info[Notes pour l'enseignant·e]
 
 Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny).
 
