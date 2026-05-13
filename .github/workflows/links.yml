@@ -30,10 +30,29 @@ jobs:
             'TESTING.md'
           fail: false
 
+      # Cherche s'il existe déjà une issue ouverte avec ce titre.
+      # Si oui, on passe son numéro à l'étape suivante pour mettre
+      # à jour son contenu plutôt que d'en créer une nouvelle (sinon
+      # on accumule 52 issues identiques par an, cf. #91).
+      - name: Find existing open issue
+        id: find-issue
+        if: steps.check-links.outputs.exit_code != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          issue_number=$(gh issue list \
+            --repo "${{ github.repository }}" \
+            --search '"Liens externes cassés détectés" in:title' \
+            --state open \
+            --json number \
+            --jq '.[0].number // empty')
+          echo "issue_number=${issue_number}" >> "$GITHUB_OUTPUT"
+
       - name: Update or create issue on failure
         if: steps.check-links.outputs.exit_code != '0'
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: 'Liens externes cassés détectés'
           content-filepath: ./lychee/out.md
+          issue-number: ${{ steps.find-issue.outputs.issue_number }}
           labels: 'bug,liens'

@@ -7,18 +7,47 @@ retry_wait_time = 2
 max_retries = 2
 accept = [200, 203, 206, 429]
 
+# Permet à lychee de parser les liens root-relative (/ressources/foo,
+# /projets/bar, /img/baz) en les résolvant contre l'URL du site
+# déployé. Sans cette ligne, ~78 % des erreurs du rapport
+# hebdomadaire étaient des faux positifs "Cannot convert path ... to
+# a URI". Cf. issue #91.
+base = "https://wiki.labaixbidouille.com"
+
 # Headers pour limiter les faux positifs
 include_verbatim = true
 include_mail = false
 
-# Domaines à exclure (robots.txt strict, accès anti-bot, login requis)
+# Domaines à exclure
 exclude = [
+  # Liens internes : déjà validés par Docusaurus au build
+  # (onBrokenLinks: 'throw'). Ce workflow vise uniquement les liens
+  # externes, donc on exclut notre propre domaine après résolution
+  # via `base`.
+  "^https?://(www\\.)?wiki\\.labaixbidouille\\.com",
+
+  # Réseaux sociaux et accès login requis
   "^https://(www\\.)?linkedin\\.com",
   "^https://(www\\.)?facebook\\.com",
   "^https://(www\\.)?instagram\\.com",
   "^https://twitter\\.com",
   "^https://x\\.com",
   "^https://([a-z0-9-]+\\.)*github\\.com.*/blame/",
+
+  # Services avec protection anti-bot (Cloudflare et co.) qui
+  # retournent 403/401 aux requêtes automatisées mais fonctionnent
+  # dans un navigateur. À ne pas confondre avec les vraies 404 :
+  # n'ajouter ici que les domaines récurrents et clairement anti-bot,
+  # pas les liens qui ont peut-être déménagé.
+  "^https?://(www\\.)?leonardo\\.ai",
+  "^https?://(www\\.)?midjourney\\.com",
+  "^https?://(www\\.)?chatgpt\\.com",
+  "^https?://(www\\.)?canva\\.com",
+  "^https?://(www\\.)?microbit\\.org",
+  "^https?://(www\\.)?raspberrypi\\.com",
+  "^https?://helpx\\.adobe\\.com",
+  "^https?://(www\\.)?unsplash\\.com",
+
   "^mailto:",
   "^tel:",
 ]
