@@ -114,7 +114,7 @@ Pour bien le connecter, branchez votre Pico à l'aide du câble micro USB, en ga
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101612.png" alt="Connexion du Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Dans cet emplacement, glissez le fichier **MicroPython UF2 file (téléchargeable ici : [https://www.raspberrypi.com/documentation/microcontrollers/micropython.html](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html) ). Une fois que c'est fait, vous pouvez ouvrir Thonny et définir le PiCo comme interpréteur.**
+Dans cet emplacement, glissez le fichier **MicroPython UF2 file (téléchargeable ici : https://www.raspberrypi.com/documentation/microcontrollers/micropython.html ). Une fois que c'est fait, vous pouvez ouvrir Thonny et définir le PiCo comme interpréteur.**
 
 Pour ce faire, allez dans l'onglet Exécuter (ou run si le programme est en anglais, mais il sera au même emplacement), puis dans le menu déroulant cliquez sur « Sélectionner l'interpréteur ».
 

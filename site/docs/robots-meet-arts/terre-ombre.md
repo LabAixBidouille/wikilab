@@ -33,7 +33,7 @@ sidebar_position: 29
 
 **Pour les mesures numériques (optionnel mais recommandé) :**
 
-- Carte Micro:bit (intègre déjà un capteur de température, des boutons pour le comptage et la possibilité de mesurer l'ensoleillement). Kit complet ~20 EUR : [https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html](https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html)
+- Carte Micro:bit (intègre déjà un capteur de température, des boutons pour le comptage et la possibilité de mesurer l'ensoleillement). Kit complet ~20 EUR : https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html
 - Boîtes plastique étanches ou contenants alimentaires récupérés pour protection
 - Accès ordinateur avec MakeCode (gratuit en ligne)
 
@@ -88,7 +88,7 @@ Les compétences mobilisées sont les suivantes :
 
 ## Liens utiles
 
-- [http://www.ecoquartiers.logement.gouv.fr/](http://www.ecoquartiers.logement.gouv.fr/)
+- http://www.ecoquartiers.logement.gouv.fr/
 - [ADEME : Aménager les écoquartiers](https://www.ademe.fr/collectivites-secteur-public/integrer-lenvironnement-domaines-dintervention/urbanisme-amenagement/amenager-ecoquartiers)
 - [MakeCode micro:bit](https://makecode.microbit.org/)
 - [Projets micro:bit](https://microbit.org/fr/projects/make-it-code-it/)

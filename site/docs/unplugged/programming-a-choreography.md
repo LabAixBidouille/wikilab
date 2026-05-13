@@ -104,13 +104,13 @@ Le deuxième tour est axé sur la conception de nouvelles cartes à l'aide de bl
 ### Sujet 1 - Programmation de l'approche
 
 - D'autres quêtes Unplugged : [Comptage binaire](/ressources/unplugged/binary-counting), [Brain Twister](/ressources/unplugged/brain-twister), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix), [Memory](/ressources/unplugged/memory)
-- Scratch : [https://scratch.mit.edu/](https://scratch.mit.edu/)
-- Code.org : [https://code.org/](https://code.org/)
+- Scratch : https://scratch.mit.edu/
+- Code.org : https://code.org/
 
 ### Sujet 2 - Interdisciplinarité
 
-- Apprendre en bougeant : [https://www.gonoodle.com](https://www.gonoodle.com)
-- Énergies propres : [https://energync.org/forkids/](https://energync.org/forkids/)
+- Apprendre en bougeant : https://www.gonoodle.com
+- Énergies propres : https://energync.org/forkids/
 
 ---
 

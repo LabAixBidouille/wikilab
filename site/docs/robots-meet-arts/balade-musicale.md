@@ -59,8 +59,8 @@ sidebar_position: 9
 
 ## Liens utiles
 
-- Cinq façons de jouer avec les boomwhackers : [https://www.youtube.com/watch?v=Zu5im8Xzy_U](https://www.youtube.com/watch?v=Zu5im8Xzy_U)
-- Exercice de deux minutes avec boomwhackers, conçu pour démarrer une séance de musique. Vous pouvez ajuster la vitesse de lecture pour ralentir ou accélérer selon le niveau des élèves : [https://www.youtube.com/watch?v=sHlyCKE_yRM](https://www.youtube.com/watch?v=sHlyCKE_yRM)
+- Cinq façons de jouer avec les boomwhackers : https://www.youtube.com/watch?v=Zu5im8Xzy_U
+- Exercice de deux minutes avec boomwhackers, conçu pour démarrer une séance de musique. Vous pouvez ajuster la vitesse de lecture pour ralentir ou accélérer selon le niveau des élèves : https://www.youtube.com/watch?v=sHlyCKE_yRM
 
 ---
 

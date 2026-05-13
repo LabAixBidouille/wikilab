@@ -66,17 +66,17 @@ sidebar_position: 8
 
 **Jeux de société pour découvrir le routage :**
 
-- [https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-villes/](https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-villes/)
-- [https://www.supermeeple.com/nos-jeux/expeditions/](https://www.supermeeple.com/nos-jeux/expeditions/)
+- https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-villes/
+- https://www.supermeeple.com/nos-jeux/expeditions/
 
 **Découvrir les algorithmes de routage :**
 
-- [https://www.youngwonks.com/blog/routing-algorithms](https://www.youngwonks.com/blog/routing-algorithms)
-- [https://kids.kiddle.co/Maze_solving_algorithm](https://kids.kiddle.co/Maze_solving_algorithm)
+- https://www.youngwonks.com/blog/routing-algorithms
+- https://kids.kiddle.co/Maze_solving_algorithm
 
 **CS Unplugged pour aller plus loin :**
 
-- [https://classic.csunplugged.org/documents/activities/network-protocols/unplugged-en-network_protocols-v3.1.pdf](https://classic.csunplugged.org/documents/activities/network-protocols/unplugged-en-network_protocols-v3.1.pdf)
+- https://classic.csunplugged.org/documents/activities/network-protocols/unplugged-en-network_protocols-v3.1.pdf
 
 ---
 
@@ -193,7 +193,7 @@ Un **algorithme de routage** peut être expliqué aux élèves comme un ensemble
 
 ### Aller plus loin - Explorez les choix heuristiques grâce à un jeu de société (facultatif)
 
-Après avoir exploré les concepts de l'algorithme de routage à travers les activités physiques, vous pouvez utiliser le jeu de société **« Les Aventuriers du Rail »** pour organiser une séance ludique et explorer les mêmes concepts par une autre approche. Vous pouvez contextualiser le jeu à un territoire d'étude précis car la collection de cartes disponibles et d'extensions est vaste (Europe, France, Allemagne, Royaume-Uni, Italie, Pays-Bas, Japon, États-Unis...) : [https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-collection-de-cartes/](https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-collection-de-cartes/).
+Après avoir exploré les concepts de l'algorithme de routage à travers les activités physiques, vous pouvez utiliser le jeu de société **« Les Aventuriers du Rail »** pour organiser une séance ludique et explorer les mêmes concepts par une autre approche. Vous pouvez contextualiser le jeu à un territoire d'étude précis car la collection de cartes disponibles et d'extensions est vaste (Europe, France, Allemagne, Royaume-Uni, Italie, Pays-Bas, Japon, États-Unis...) : https://www.daysofwonder.com/fr/univers/les-aventuriers-du-rail-collection-de-cartes/.
 
 Expliquez aux élèves comment planifier leurs itinéraires de trains, en soulignant le lien avec le concept de routage. Jouez une ou deux manches pour familiariser les élèves. Une fois quelques manches jouées, demandez aux élèves de réfléchir à la façon dont ils ont planifié leurs itinéraires, et comment cela pourrait se rapporter à la programmation d'algorithmes de routage.
 
@@ -259,7 +259,7 @@ Autres outils :
 - **CyclOSM** ([cyclosm.org](https://cyclosm.org)) est conçu pour la navigation liée au cyclisme avec une infrastructure cyclable détaillée
 - **MilvusMap** ([milvusmap.eu](https://milvusmap.eu)) propose des informations détaillées, notamment des calques liés à l'accessibilité et la possibilité d'imprimer les cartes au format PDF.
 
-Base de données d'outils OpenStreetMap pour la réalisation de cartes sur papier : [https://wiki.openstreetmap.org/wiki/OSM_on_Paper](https://wiki.openstreetmap.org/wiki/OSM_on_Paper).
+Base de données d'outils OpenStreetMap pour la réalisation de cartes sur papier : https://wiki.openstreetmap.org/wiki/OSM_on_Paper.
 
 :::
 

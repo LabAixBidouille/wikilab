@@ -54,8 +54,8 @@ sidebar_position: 24
 
 ## Liens utiles
 
-- Tutoriels Scratch : [https://scratch.mit.edu/ideas](https://scratch.mit.edu/ideas)
-- Conseils pour l'éditeur de sons : [https://youtu.be/f9XdHoOBJY8](https://youtu.be/f9XdHoOBJY8)
+- Tutoriels Scratch : https://scratch.mit.edu/ideas
+- Conseils pour l'éditeur de sons : https://youtu.be/f9XdHoOBJY8
 
 > Ce plan de cours comprend un guide complet dédié aux enseignants en annexe.
 
@@ -328,7 +328,7 @@ Ce guide accompagne les enseignant·e·s dans la mise en oeuvre de l'activité �
 - Âge recommandé : 9-12 ans
 - Durée : 3 séances de 90 min
 - Format : Travail en groupe (binômes ou groupes de 3)
-- Plateforme : Scratch ([https://scratch.mit.edu](https://scratch.mit.edu))
+- Plateforme : Scratch (https://scratch.mit.edu)
 
 ### Comment démarrer
 
@@ -373,9 +373,9 @@ Ce guide accompagne les enseignant·e·s dans la mise en oeuvre de l'activité �
 
 ### Ressources
 
-- Tutoriels Scratch : [https://scratch.mit.edu/ideas](https://scratch.mit.edu/ideas)
-- BBC Bitesize History (en anglais) : [https://www.bbc.co.uk/bitesize/subjects/zcw76sg](https://www.bbc.co.uk/bitesize/subjects/zcw76sg)
-- Ducksters European History (en anglais simplifié) : [https://www.ducksters.com/history/](https://www.ducksters.com/history/)
+- Tutoriels Scratch : https://scratch.mit.edu/ideas
+- BBC Bitesize History (en anglais) : https://www.bbc.co.uk/bitesize/subjects/zcw76sg
+- Ducksters European History (en anglais simplifié) : https://www.ducksters.com/history/
 
 Laissez votre classe explorer, créer et partager ses voyages uniques à travers le passé de l'Europe !
 

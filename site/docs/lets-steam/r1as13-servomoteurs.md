@@ -59,7 +59,7 @@ Un servomoteur est un moteur doté d'un ensemble de systèmes de contrôle autom
 
 Les servomoteurs sont commandés par l'intermédiaire d'un **câble électrique à trois fils** qui permet d'alimenter le moteur et de lui transmettre des consignes de position sous forme d'un signal codé en largeur d'impulsion, plus communément appelé PWM. Cela signifie que c'est la durée des impulsions qui détermine l'angle absolu de l'axe de sortie et donc la position du bras de commande du servomoteur. Le cycle d'un signal de référence servomoteur est de 20 ms. Sur le servomoteur proposé, la position du bras varie de 0 à 180°, pour des largeurs d'impulsion allant de 1 à 2 ms (respectivement).
 
-**Ressources :** [https://en.wikipedia.org/wiki/DC_motor](https://en.wikipedia.org/wiki/DC_motor), [https://en.wikipedia.org/wiki/Potentiometer](https://en.wikipedia.org/wiki/Potentiometer)
+**Ressources :** https://en.wikipedia.org/wiki/DC_motor, https://en.wikipedia.org/wiki/Potentiometer
 
 ---
 
@@ -157,13 +157,13 @@ Les moteurs CC ordinaires s'utilisent comme source d'énergie rotative, tandis q
 ## Aller plus loin
 
 - **Servomoteur** - Apprenez-en plus sur le mécanisme et le fonctionnement du servomoteur.
-  [https://en.wikipedia.org/wiki/Servomotor](https://en.wikipedia.org/wiki/Servomotor)
+  https://en.wikipedia.org/wiki/Servomotor
 
 - **Servomoteurs sur micro:bit** - Tout sur les servomoteurs et leur utilisation dans MakeCode avec Shawn Hymel.
-  [https://www.youtube.com/watch?v=okxooamdAP4&t=200s](https://www.youtube.com/watch?v=okxooamdAP4&t=200s)
+  https://www.youtube.com/watch?v=okxooamdAP4&t=200s
 
 - **Bras robotique trieur de couleurs DIY** - Apprenez à fabriquer votre propre bras robotique de triage des couleurs à l'aide de capteurs ultrasoniques et IR.
-  [https://thestempedia.com/project/diy-color-sorting-robotic-arm/](https://thestempedia.com/project/diy-color-sorting-robotic-arm/)
+  https://thestempedia.com/project/diy-color-sorting-robotic-arm/
 
 ---
 

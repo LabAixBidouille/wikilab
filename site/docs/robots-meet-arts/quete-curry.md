@@ -66,28 +66,28 @@ sidebar_position: 22
 
 **Outils et plateformes numériques :**
 
-- Scratch : [https://scratch.mit.edu](https://scratch.mit.edu)
-- Genially : [https://genial.ly](https://genial.ly)
-- MakeCode Arcade : [https://arcade.makecode.com](https://arcade.makecode.com)
-- Twine : [https://twinery.org](https://twinery.org)
-- Book Creator : [https://bookcreator.com](https://bookcreator.com)
-- Kamishibaï : [https://kamishibais.com/content/10-qu-est-ce-qu-un-kamishibai](https://kamishibais.com/content/10-qu-est-ce-qu-un-kamishibai)
+- Scratch : https://scratch.mit.edu
+- Genially : https://genial.ly
+- MakeCode Arcade : https://arcade.makecode.com
+- Twine : https://twinery.org
+- Book Creator : https://bookcreator.com
+- Kamishibaï : https://kamishibais.com/content/10-qu-est-ce-qu-un-kamishibai
 
 **Structures narratives :**
 
-- Le voyage du héros : [https://www.davidvellut.com/voyage-du-heros/](https://www.davidvellut.com/voyage-du-heros/)
-- Les cartes à histoires de Propp : [https://jouer-collectif.org/contenu/45](https://jouer-collectif.org/contenu/45)
-- Le schéma actantiel de Greimas : [https://narrationetcafeine.fr/schema-actantiel/](https://narrationetcafeine.fr/schema-actantiel/)
+- Le voyage du héros : https://www.davidvellut.com/voyage-du-heros/
+- Les cartes à histoires de Propp : https://jouer-collectif.org/contenu/45
+- Le schéma actantiel de Greimas : https://narrationetcafeine.fr/schema-actantiel/
 
 **Algorigrammes et pensée computationnelle :**
 
-- Introduction aux algorigrammes : [https://technocolette.blogs.laclasse.com/2020/04/08/les-algorigrammes-de-programmation/](https://technocolette.blogs.laclasse.com/2020/04/08/les-algorigrammes-de-programmation/)
-- Mermaid : [https://mermaid.live/](https://mermaid.live/)
+- Introduction aux algorigrammes : https://technocolette.blogs.laclasse.com/2020/04/08/les-algorigrammes-de-programmation/
+- Mermaid : https://mermaid.live/
 
 **Exemples de livres-jeux et récits interactifs :**
 
-- La bibliothèque des Défis Fantastiques : [https://www.gallimard.fr/collections/un-livre-dont-vous-etes-le-heros/defis-fantastiques](https://www.gallimard.fr/collections/un-livre-dont-vous-etes-le-heros/defis-fantastiques)
-- Livres dont vous êtes le héros : [https://www.gallimard-jeunesse.fr/collection/un-livre-dont-vous-etes-le-heros/](https://www.gallimard-jeunesse.fr/collection/un-livre-dont-vous-etes-le-heros/)
+- La bibliothèque des Défis Fantastiques : https://www.gallimard.fr/collections/un-livre-dont-vous-etes-le-heros/defis-fantastiques
+- Livres dont vous êtes le héros : https://www.gallimard-jeunesse.fr/collection/un-livre-dont-vous-etes-le-heros/
 
 ---
 

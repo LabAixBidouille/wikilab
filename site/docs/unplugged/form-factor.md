@@ -125,16 +125,16 @@ Durant la phase de concours, un vote collectif est organisé par l'arbitre. Chaq
 
 Pour entraîner d'autres enfants à développer leur pensée analytique et visuelle, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Memory](/ressources/unplugged/memory), [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Plastic continent](/ressources/unplugged/plastic-continent), etc.
 
-- [http://www.xplaner.com/visual-thinking-school/](http://www.xplaner.com/visual-thinking-school/)
+- http://www.xplaner.com/visual-thinking-school/
 
 ### Sujet 2 - Dextérité et motricité fine
 
-- [https://empoweredparents.co/why-are-fine-motor-skills-important/](https://empoweredparents.co/why-are-fine-motor-skills-important/)
+- https://empoweredparents.co/why-are-fine-motor-skills-important/
 
 ### Sujet 3 - Vitesse de traitement et coopération
 
-- [https://www.cognifit.com/science/cognitive-skills/processing-speed](https://www.cognifit.com/science/cognitive-skills/processing-speed)
-- [https://www.scholastic.com/parents/family-life/parent-child/teach-kids-to-manage-time.html](https://www.scholastic.com/parents/family-life/parent-child/teach-kids-to-manage-time.html)
+- https://www.cognifit.com/science/cognitive-skills/processing-speed
+- https://www.scholastic.com/parents/family-life/parent-child/teach-kids-to-manage-time.html
 
 ---
 

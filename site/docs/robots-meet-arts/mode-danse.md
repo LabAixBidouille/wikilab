@@ -68,18 +68,18 @@ sidebar_position: 14
 
 **Programmation débranchée et par blocs :**
 
-- Projet Erasmus+ Unplugged : [https://www.unplugged-quest.eu/fr](https://www.unplugged-quest.eu/fr)
-- Scratch Jr (5-7 ans) : [https://www.scratchjr.org/](https://www.scratchjr.org/)
-- Scratch (8-18 ans) : [https://scratch.mit.edu/](https://scratch.mit.edu/)
+- Projet Erasmus+ Unplugged : https://www.unplugged-quest.eu/fr
+- Scratch Jr (5-7 ans) : https://www.scratchjr.org/
+- Scratch (8-18 ans) : https://scratch.mit.edu/
 - Tutoriels pour enfants : [vidéo 1](https://www.youtube.com/watch?v=svC8TGqPHhE), [vidéo 2](https://www.youtube.com/watch?v=tJNzdLChCe8)
-- Code.org : [https://code.org/](https://code.org/)
-- Kodable : [https://www.kodable.com/](https://www.kodable.com/)
+- Code.org : https://code.org/
+- Kodable : https://www.kodable.com/
 
 **Volet interdisciplinaire :**
 
 - Apprendre en bougeant et en dansant : [www.gonoodle.com](https://www.gonoodle.com)
-- Idées de jeux de mouvement : [https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/](https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/)
-- Intelligence kinesthésique : [https://study.com/learn/lesson/kinesthetic-intelligence-skills.html](https://study.com/learn/lesson/kinesthetic-intelligence-skills.html)
+- Idées de jeux de mouvement : https://earlyimpactlearning.com/mindful-movement-for-kids-14-games-tips/
+- Intelligence kinesthésique : https://study.com/learn/lesson/kinesthetic-intelligence-skills.html
 
 ---
 
@@ -108,7 +108,7 @@ Pendant le déroulement du jeu, circulez entre les groupes pour aider les élèv
 
 ### Réflexion autour de la séquence de mise en route
 
-Après la partie de Memory, rassemblez tous les élèves et ouvrez l'éditeur Scratch ([https://scratch.mit.edu/projects/editor/](https://scratch.mit.edu/projects/editor/)) afin de l'explorer collectivement et de rendre le jeu concret. Vous pouvez également utiliser des affiches telles que : [https://edutechwiki.unige.ch/fmediawiki/images/3/37/Blocs-de-Scratch.png](https://edutechwiki.unige.ch/fmediawiki/images/3/37/Blocs-de-Scratch.png).
+Après la partie de Memory, rassemblez tous les élèves et ouvrez l'éditeur Scratch (https://scratch.mit.edu/projects/editor/) afin de l'explorer collectivement et de rendre le jeu concret. Vous pouvez également utiliser des affiches telles que : https://edutechwiki.unige.ch/fmediawiki/images/3/37/Blocs-de-Scratch.png.
 
 <img src="/img/ressources/robots-meet-arts/mode-danse/Blocs-de-Scratch.png" alt="Blocs de Scratch" style={{maxWidth: '100%', height: 'auto'}} />
 

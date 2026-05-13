@@ -101,16 +101,16 @@ Dans Plastic continent, déplacez les tas de déchets sur un échiquier afin de 
 
 ### Sujet 1 - Raisonnement logique
 
-- [https://criticalthinkingsecrets.com/what-is-logical-thinking/](https://criticalthinkingsecrets.com/what-is-logical-thinking/)
+- https://criticalthinkingsecrets.com/what-is-logical-thinking/
 
 ### Sujet 2 - Orientation spatiale
 
-- [http://www.xplaner.com/visual-thinking-school/](http://www.xplaner.com/visual-thinking-school/)
-- [https://kids.frontiersin.org/articles/10.3389/frym.2020.00050](https://kids.frontiersin.org/articles/10.3389/frym.2020.00050)
+- http://www.xplaner.com/visual-thinking-school/
+- https://kids.frontiersin.org/articles/10.3389/frym.2020.00050
 
 ### Sujet 3 - Objectifs de développement sociétal
 
-- [https://go-goals.org/](https://go-goals.org/)
+- https://go-goals.org/
 
 ---
 

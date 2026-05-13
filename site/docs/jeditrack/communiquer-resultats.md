@@ -158,20 +158,20 @@ Visez un ratio de 30% de texte pour 70% d'éléments visuels - cela force les je
 ## Références
 
 ### Outils recommandés
-- [https://www.canva.com/](https://www.canva.com/) (création graphique simple)
-- [https://www.figma.com/](https://www.figma.com/) (design collaboratif avancé)
-- [https://piktochart.com/](https://piktochart.com/) (infographies spécialisées)
-- [https://unsplash.com/](https://unsplash.com/) (banque d'images libres haute qualité)
+- https://www.canva.com/ (création graphique simple)
+- https://www.figma.com/ (design collaboratif avancé)
+- https://piktochart.com/ (infographies spécialisées)
+- https://unsplash.com/ (banque d'images libres haute qualité)
 
 ### Formation et inspiration
-- [https://designschool.canva.com/](https://designschool.canva.com/) (cours gratuits de design)
-- [https://www.behance.net/](https://www.behance.net/) (galerie de créations professionnelles)
-- [https://www.pinterest.fr/](https://www.pinterest.fr/) (inspiration et références visuelles)
+- https://designschool.canva.com/ (cours gratuits de design)
+- https://www.behance.net/ (galerie de créations professionnelles)
+- https://www.pinterest.fr/ (inspiration et références visuelles)
 
 ### IA générative pour visuels
-- [https://midjourney.com/](https://midjourney.com/) (création d'images par IA)
-- [https://leonardo.ai/](https://leonardo.ai/) (alternative gratuite pour débuter)
-- [https://chatgpt.com/](https://chatgpt.com/) (DALL-E intégré, création d'images + aide à la rédaction)
+- https://midjourney.com/ (création d'images par IA)
+- https://leonardo.ai/ (alternative gratuite pour débuter)
+- https://chatgpt.com/ (DALL-E intégré, création d'images + aide à la rédaction)
 
 ---
 

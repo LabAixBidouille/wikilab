@@ -116,7 +116,7 @@ Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez 
 
 Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (en appuyant sur le bouton RESET). Essayez de comprendre le code et commencez à le modifier en changeant la période entre deux clignotements. N'hésitez pas à essayer de faire clignoter à différents rythmes ou à faire un SOS visuel en morse.
 
-**Ressource :** [https://en.wikipedia.org/wiki/SOS](https://en.wikipedia.org/wiki/SOS)
+**Ressource :** https://en.wikipedia.org/wiki/SOS
 
 ---
 
@@ -157,16 +157,16 @@ Tentez de créer un feu de signalisation ferroviaire en utilisant l'autre LED in
 ## Aller plus loin
 
 - **Diode électroluminescente** - Apprenez-en plus sur l'histoire des LED, les principes physiques qui les sous-tendent, les typologies et les couleurs.
-  [https://en.wikipedia.org/wiki/Light-emitting_diode](https://en.wikipedia.org/wiki/Light-emitting_diode)
+  https://en.wikipedia.org/wiki/Light-emitting_diode
 
 - **Derrière MakeCode - LED sur micro:bit** - Comment les LED fonctionnent-elles sur la carte micro:bit ? Apprenez tout cela avec Shawn Hymel (en anglais).
-  [https://www.youtube.com/watch?v=qqBmvHD5bCw](https://www.youtube.com/watch?v=qqBmvHD5bCw)
+  https://www.youtube.com/watch?v=qqBmvHD5bCw
 
 - **Courant et tension - Bases de l'électricité** - Tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement.
-  [https://www.codrey.com/dc-circuits/current-and-voltage/](https://www.codrey.com/dc-circuits/current-and-voltage/)
+  https://www.codrey.com/dc-circuits/current-and-voltage/
 
 - **Boucles** - Apprenez-en plus sur les boucles dans MakeCode.
-  [https://www.youtube.com/watch?v=wxds6MAtUQ0](https://www.youtube.com/watch?v=wxds6MAtUQ0)
+  https://www.youtube.com/watch?v=wxds6MAtUQ0
 
 ---
 

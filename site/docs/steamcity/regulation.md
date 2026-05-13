@@ -84,7 +84,7 @@ La durée totale dépend de la complexité du cadre, de la disponibilité du mat
 - Outils numériques : [Roobopoli](https://www.roobopoli.org)
 - Phase de formation : [Manuel Roobokart](https://www.roobopoli.org/wp-content/uploads/2021/05/Roobokart-il-manuale-operativo-RevA1.pdf) (en italien)
 - Défi de mise en oeuvre : code de mission de base sur GitHub — [roobokart\_basic\_mission.bin](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin). Il est suggéré de fournir un Roobokart par groupe pour tester le code.
-- Hackathon : un seul Roobopoli pour tous les groupes — [https://www.roobopoli.org/semaforo](https://www.roobopoli.org/semaforo)
+- Hackathon : un seul Roobopoli pour tous les groupes — https://www.roobopoli.org/semaforo
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>

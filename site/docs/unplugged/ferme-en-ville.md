@@ -120,24 +120,24 @@ La seconde phase du jeu commence par une présentation du contexte et de l'histo
 
 ### Sujet 1 - Théorie des jeux, communication et confiance
 
-- [https://kids.kiddle.co/Game_theory](https://kids.kiddle.co/Game_theory)
-- [https://kids.frontiersin.org/articles/10.3389/frym.2017.00066](https://kids.frontiersin.org/articles/10.3389/frym.2017.00066)
+- https://kids.kiddle.co/Game_theory
+- https://kids.frontiersin.org/articles/10.3389/frym.2017.00066
 
 Pour vous entraîner davantage à la planification de stratégies d'équipe et à la communication, vous pouvez consulter d'autres activités Unplugged, par exemple [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Reroute better world](/ressources/unplugged/reroute-better-world), [Good ways](/ressources/unplugged/good-ways), [Brain Twister](/ressources/unplugged/brain-twister).
 
 ### Sujet 2 - Agriculture urbaine
 
-- [https://en.wikipedia.org/wiki/Urban_agriculture](https://en.wikipedia.org/wiki/Urban_agriculture)
-- [https://www.unesco.org/en/articles/unesco-promotes-biodiversity-and-urban-gardening-its-own-premises](https://www.unesco.org/en/articles/unesco-promotes-biodiversity-and-urban-gardening-its-own-premises)
-- [https://www.petitjourney.com.au/petit-childrens-garden-activities/](https://www.petitjourney.com.au/petit-childrens-garden-activities/)
-- [https://www.littledayout.com/urban-farming-for-kids/](https://www.littledayout.com/urban-farming-for-kids/)
-- Bombe de graines : [https://littlebinsforlittlehands.com/make-seed-bombs-earth-day-activity/](https://littlebinsforlittlehands.com/make-seed-bombs-earth-day-activity/)
+- https://en.wikipedia.org/wiki/Urban_agriculture
+- https://www.unesco.org/en/articles/unesco-promotes-biodiversity-and-urban-gardening-its-own-premises
+- https://www.petitjourney.com.au/petit-childrens-garden-activities/
+- https://www.littledayout.com/urban-farming-for-kids/
+- Bombe de graines : https://littlebinsforlittlehands.com/make-seed-bombs-earth-day-activity/
 
 ### Sujet 3 - Ville intelligente et apprenante
 
-- [https://mocomi.com/what-is-a-smart-city/](https://mocomi.com/what-is-a-smart-city/)
-- [https://circularcomputing.com/news/10-ways-make-school-sustainable/](https://circularcomputing.com/news/10-ways-make-school-sustainable/)
-- [https://smartkidsproject.eu/](https://smartkidsproject.eu/)
+- https://mocomi.com/what-is-a-smart-city/
+- https://circularcomputing.com/news/10-ways-make-school-sustainable/
+- https://smartkidsproject.eu/
 
 ---
 

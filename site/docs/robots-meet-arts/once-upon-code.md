@@ -27,8 +27,8 @@ sidebar_position: 7
 - Un ordinateur par binôme avec accès à internet
 - Ordinateur de l'enseignant·e et vidéoprojecteur, connecté à des haut-parleurs pour diffuser la narration et les effets sonores
 - Casques avec microphones pour chaque binôme afin d'enregistrer la narration
-- **Projet exemple de l'enseignant·e** - *The story of the lazy fox and the chick* : [https://scratch.mit.edu/projects/582056414/](https://scratch.mit.edu/projects/582056414/)
-- **Modèle de projet pour les élèves** : [https://scratch.mit.edu/projects/582178307/](https://scratch.mit.edu/projects/582178307/)
+- **Projet exemple de l'enseignant·e** - *The story of the lazy fox and the chick* : https://scratch.mit.edu/projects/582056414/
+- **Modèle de projet pour les élèves** : https://scratch.mit.edu/projects/582178307/
 - Fiche de travail 1 : Banque de vocabulaire
 - Fiche de travail 2 : Storyboard
 - Fiche de travail 3 : Grille de critères des éléments de l'histoire
@@ -55,10 +55,10 @@ sidebar_position: 7
 
 ## Liens utiles
 
-- Site web Scratch : [https://scratch.mit.edu/](https://scratch.mit.edu/)
-- Tutoriel vidéo Scratch : [https://youtu.be/D-nW4jvzRr8](https://youtu.be/D-nW4jvzRr8)
-- Projet exemple - *The story of the lazy fox and the chick* : [https://scratch.mit.edu/projects/582056414/](https://scratch.mit.edu/projects/582056414/)
-- Modèle de projet pour les élèves : [https://scratch.mit.edu/projects/582178307/](https://scratch.mit.edu/projects/582178307/)
+- Site web Scratch : https://scratch.mit.edu/
+- Tutoriel vidéo Scratch : https://youtu.be/D-nW4jvzRr8
+- Projet exemple - *The story of the lazy fox and the chick* : https://scratch.mit.edu/projects/582056414/
+- Modèle de projet pour les élèves : https://scratch.mit.edu/projects/582178307/
 
 ---
 
@@ -79,7 +79,7 @@ Cette phase vise à activer les connaissances préalables des élèves et à sus
 
 Accueillez les élèves et expliquez brièvement : *« Today we'll create our own fairy tale using Scratch! »* (Aujourd'hui, nous allons créer notre propre conte de fées avec Scratch !)
 
-Montrez le projet exemple *« The story of the lazy fox and the chick »* ([https://scratch.mit.edu/projects/582056414/](https://scratch.mit.edu/projects/582056414/)) en utilisant le vidéoprojecteur et le son.
+Montrez le projet exemple *« The story of the lazy fox and the chick »* (https://scratch.mit.edu/projects/582056414/) en utilisant le vidéoprojecteur et le son.
 
 Posez des questions guidées :
 

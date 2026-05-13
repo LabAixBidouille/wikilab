@@ -117,7 +117,7 @@ S'il a réussi le défi, le joueur gagne 1 point de plus. Le premier joueur à o
 
 ### Sujet 1 - Sensibilisation à la numérisation
 
-- [https://www.oecd.org/education/education-in-the-digital-age-1209166a-en.htm](https://www.oecd.org/education/education-in-the-digital-age-1209166a-en.htm)
+- https://www.oecd.org/education/education-in-the-digital-age-1209166a-en.htm
 
 ### Sujet 2 - Compétitivité et rapidité de réaction
 
@@ -125,7 +125,7 @@ Vous pouvez vous référer aux quêtes [Brain Twister](/ressources/unplugged/bra
 
 ### Sujet 3 - La pensée associative
 
-- [https://www.psychologytoday.com/us/blog/prime-your-gray-cells/201802/study-reveals-thought-processes-foster-creativity](https://www.psychologytoday.com/us/blog/prime-your-gray-cells/201802/study-reveals-thought-processes-foster-creativity)
+- https://www.psychologytoday.com/us/blog/prime-your-gray-cells/201802/study-reveals-thought-processes-foster-creativity
 
 ---
 

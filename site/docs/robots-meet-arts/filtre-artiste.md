@@ -64,9 +64,9 @@ sidebar_position: 12
 
 ## Liens utiles
 
-- Scratch et IA : FaceSensing | Tutoriel : [https://www.youtube.com/watch?v=uLFh9Fvuj1k&t=290s](https://www.youtube.com/watch?v=uLFh9Fvuj1k&t=290s)
-- Cartes d'inspiration Scratch et IA : [https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf](https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf)
-- Jeux de détection de visage dans Scratch avec l'IA : [https://www.youtube.com/watch?v=ynISkhphQWg](https://www.youtube.com/watch?v=ynISkhphQWg)
+- Scratch et IA : FaceSensing | Tutoriel : https://www.youtube.com/watch?v=uLFh9Fvuj1k&t=290s
+- Cartes d'inspiration Scratch et IA : https://resources.scratch.mit.edu/www/cards/en/facesensingcards.pdf
+- Jeux de détection de visage dans Scratch avec l'IA : https://www.youtube.com/watch?v=ynISkhphQWg
 
 ---
 
@@ -75,7 +75,7 @@ sidebar_position: 12
 
 :::info[Notes pour l'enseignant·e]
 
-Afin de préparer l'activité, vous pouvez consulter le tutoriel de l'outil Google Arts &amp; Culture : [https://youtube.com/shorts/qojH2qx9M-w](https://youtube.com/shorts/qojH2qx9M-w)
+Afin de préparer l'activité, vous pouvez consulter le tutoriel de l'outil Google Arts &amp; Culture : https://youtube.com/shorts/qojH2qx9M-w
 
 Assurez-vous que chaque binôme a accès à une tablette avec l'application Google Arts &amp; Culture installée ou accessible via le navigateur. Préparez les fiches modèles vierges pour chaque groupe.
 
@@ -109,8 +109,8 @@ Encouragez les élèves à observer attentivement leur œuvre : quels accessoire
 
 Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
 
-- Vidéo pour supprimer un arrière-plan dans Scratch Lab : [https://www.youtube.com/watch?v=Za0eJwV8jvk](https://www.youtube.com/watch?v=Za0eJwV8jvk)
-- Pour plus d'informations sur la programmation, regardez cette vidéo : [https://www.youtube.com/watch?v=uJVfvysUwa0](https://www.youtube.com/watch?v=uJVfvysUwa0)
+- Vidéo pour supprimer un arrière-plan dans Scratch Lab : https://www.youtube.com/watch?v=Za0eJwV8jvk
+- Pour plus d'informations sur la programmation, regardez cette vidéo : https://www.youtube.com/watch?v=uJVfvysUwa0
 
 :::
 
@@ -136,7 +136,7 @@ Les croquis sont prêts, place à la création ! Les élèves vont maintenant do
 
 #### Option 2 : Outil numérique Tate (30 min)
 
-**Préparation** : Accédez au site : [https://www.tate.org.uk/kids/games-quizzes/tate-paint](https://www.tate.org.uk/kids/games-quizzes/tate-paint)
+**Préparation** : Accédez au site : https://www.tate.org.uk/kids/games-quizzes/tate-paint
 
 **Déroulement** : Ouvrez l'outil sur une tablette. Cliquez sur « Let's Create » et sélectionnez le canevas jaune (facilite la suppression de l'arrière-plan). Les élèves utilisent les différents outils de création. Une fois satisfaits, ils cliquent sur la coche verte, répondent « oui » à « Have you finished? », puis téléchargent l'élément avec un nom clair (ex : « Chapeau »).
 
@@ -150,9 +150,9 @@ Importez dans Scratch Lab et supprimez l'arrière-plan.
 
 #### Option 3 : Éditeur de dessin Scratch Lab (30 min)
 
-**Préparation** : Comment utiliser l'éditeur : [https://www.youtube.com/watch?v=9C_wblf4FIE](https://www.youtube.com/watch?v=9C_wblf4FIE)
+**Préparation** : Comment utiliser l'éditeur : https://www.youtube.com/watch?v=9C_wblf4FIE
 
-**Déroulement** : Ouvrez [https://lab.scratch.mit.edu/](https://lab.scratch.mit.edu/), sélectionnez « Face sensing » dans les extensions et créez un nouveau sprite avec le pinceau. Les élèves dessinent et modifient leur élément de réalité augmentée directement dans l'outil.
+**Déroulement** : Ouvrez https://lab.scratch.mit.edu/, sélectionnez « Face sensing » dans les extensions et créez un nouveau sprite avec le pinceau. Les élèves dessinent et modifient leur élément de réalité augmentée directement dans l'outil.
 
 **Critères à respecter :**
 
@@ -172,7 +172,7 @@ Si la taille ou le placement d'un élément de réalité augmentée ne convient 
 
 :::
 
-Ouvrez [https://lab.scratch.mit.edu/face/](https://lab.scratch.mit.edu/face/) et cliquez sur « Try it out ». Assurez-vous que les éléments de réalité augmentée sont importés et prêts à être programmés.
+Ouvrez https://lab.scratch.mit.edu/face/ et cliquez sur « Try it out ». Assurez-vous que les éléments de réalité augmentée sont importés et prêts à être programmés.
 
 #### Étape 1 : Démarrer le programme
 

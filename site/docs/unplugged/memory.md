@@ -112,17 +112,17 @@ Les enfants retournent deux cartes simultanément pour découvrir la bonne combi
 
 ### Sujet 1 - S'informer dans le monde numérique
 
-- [https://tekkieuni.com/blog/computer-basics-for-kids/](https://tekkieuni.com/blog/computer-basics-for-kids/)
+- https://tekkieuni.com/blog/computer-basics-for-kids/
 
 ### Sujet 2 - Raconter et témoigner avec des images
 
-- [https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/](https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/)
+- https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/
 
 ### Sujet 3 - Aborder la programmation
 
-- Scratch Jr : [https://www.scratchjr.org/](https://www.scratchjr.org/)
-- Scratch : [https://scratch.mit.edu/](https://scratch.mit.edu/)
-- Code.org : [https://code.org/](https://code.org/)
+- Scratch Jr : https://www.scratchjr.org/
+- Scratch : https://scratch.mit.edu/
+- Code.org : https://code.org/
 
 ---
 

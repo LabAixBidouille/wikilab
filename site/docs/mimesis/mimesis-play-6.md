@@ -238,7 +238,7 @@ L'enseignant·e crée une scène dans la classe. Il installe le projecteur et s'
 
 ### Le jeu
 
-L'enseignant·e joue de manière aléatoire les fichiers vidéo d'arrière-plan de YouTube : [https://www.youtube.com/playlist?list=PLkWoF9vy6_sws76UtXB4FTsxlwUVN8AJn](https://www.youtube.com/playlist?list=PLkWoF9vy6_sws76UtXB4FTsxlwUVN8AJn). Lorsqu'un fichier vidéo est diffusé, les groupes qui ont travaillé sur la catastrophe à l'écran montent sur scène et commencent à jouer, en suivant le scénario qu'ils ont écrit dans l'acte 3.
+L'enseignant·e joue de manière aléatoire les fichiers vidéo d'arrière-plan de YouTube : https://www.youtube.com/playlist?list=PLkWoF9vy6_sws76UtXB4FTsxlwUVN8AJn. Lorsqu'un fichier vidéo est diffusé, les groupes qui ont travaillé sur la catastrophe à l'écran montent sur scène et commencent à jouer, en suivant le scénario qu'ils ont écrit dans l'acte 3.
 
 ### Conclusion
 
@@ -252,25 +252,25 @@ Lorsque chaque groupe a joué, l'enseignant·e éteint le projecteur. Il demande
 
 Ces ressources peuvent être utilisées pour l'acte 1 et l'acte 3.
 
-- [https://insights.gostudent.org/fr/ecrire-avec-les-enfants-ateliers-ludiques](https://insights.gostudent.org/fr/ecrire-avec-les-enfants-ateliers-ludiques)
-- [https://apprendre-reviser-memoriser.fr/travailler-ecriture-enfants/](https://apprendre-reviser-memoriser.fr/travailler-ecriture-enfants/)
-- [https://youtu.be/y3L7VzcEFMI](https://youtu.be/y3L7VzcEFMI)
-- [https://youtu.be/Vear7UYup3Y](https://youtu.be/Vear7UYup3Y)
-- [https://www.loumina.fr/blog-l-ecriture-creative](https://www.loumina.fr/blog-l-ecriture-creative)
+- https://insights.gostudent.org/fr/ecrire-avec-les-enfants-ateliers-ludiques
+- https://apprendre-reviser-memoriser.fr/travailler-ecriture-enfants/
+- https://youtu.be/y3L7VzcEFMI
+- https://youtu.be/Vear7UYup3Y
+- https://www.loumina.fr/blog-l-ecriture-creative
 
 ### Thème 2 - Techniques de jeu de scène
 
 Ces ressources peuvent être utilisées pour l'acte 2 et l'acte 3.
 
-- [https://youtu.be/Qm4ZjFxTCs0](https://youtu.be/Qm4ZjFxTCs0)
-- [https://youtu.be/akANMxTg1zU](https://youtu.be/akANMxTg1zU)
+- https://youtu.be/Qm4ZjFxTCs0
+- https://youtu.be/akANMxTg1zU
 
 ### Thème 3 - L'affirmation de soi au théâtre
 
 Ces ressources peuvent être utilisées pour l'acte 4.
 
-- [https://youtu.be/P3ZFbDDyS3A](https://youtu.be/P3ZFbDDyS3A)
-- [https://youtu.be/6JuKXBCeqzM](https://youtu.be/6JuKXBCeqzM)
+- https://youtu.be/P3ZFbDDyS3A
+- https://youtu.be/6JuKXBCeqzM
 
 ---
 

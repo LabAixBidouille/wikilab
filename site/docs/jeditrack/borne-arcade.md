@@ -166,8 +166,8 @@ Recalbox est particulièrement facile à utiliser pour la création d'une borne 
 
 ### Étape 1 : Télécharger Recalbox
 
-1. Rendez-vous sur le site officiel : [https://www.recalbox.com/fr/](https://www.recalbox.com/fr/)
-2. Cliquez sur Télécharger : [https://www.recalbox.com/fr/download/stable/](https://www.recalbox.com/fr/download/stable/)
+1. Rendez-vous sur le site officiel : https://www.recalbox.com/fr/
+2. Cliquez sur Télécharger : https://www.recalbox.com/fr/download/stable/
 3. Sélectionnez votre version de Raspberry Pi
 4. Téléchargez le fichier image (extension `.img.xz`)
 5. Alternative : installez Raspberry Pi Imager
@@ -206,11 +206,11 @@ Accédez aux jeux directement via le menu principal de Recalbox. Sélectionnez l
 Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit préfabriqué à assembler soi-même, ou construire entièrement la borne. Notre choix s'est porté sur la construction complète de la borne en bois, en simplifiant au maximum le design et en intégrant des éléments de personnalisation choisis par les jeunes. Cette décision s'est avérée moins onéreuse qu'un kit complet, car nous avons pu adapter nos envies et nos achats à notre budget et à notre niveau de complexité.
 
 :::note[Ressources]
-- [https://retromash.com/2015/01/02/building-a-home-arcade-machine-part-1/](https://retromash.com/2015/01/02/building-a-home-arcade-machine-part-1/)
-- [https://arcade-for-good.com/construction-arcade/fabriquer-borne-arcade/](https://arcade-for-good.com/construction-arcade/fabriquer-borne-arcade/)
-- [https://www.jdfarcade.com/blog/comment-construire-sa-borne-darcade-a-la-facon-diy--b24.html](https://www.jdfarcade.com/blog/comment-construire-sa-borne-darcade-a-la-facon-diy--b24.html)
-- [https://retro-arcade.fr/](https://retro-arcade.fr/)
-- [https://omniretro.com/fr/](https://omniretro.com/fr/)
+- https://retromash.com/2015/01/02/building-a-home-arcade-machine-part-1/
+- https://arcade-for-good.com/construction-arcade/fabriquer-borne-arcade/
+- https://www.jdfarcade.com/blog/comment-construire-sa-borne-darcade-a-la-facon-diy--b24.html
+- https://retro-arcade.fr/
+- https://omniretro.com/fr/
 :::
 
 ### Choix des composants principaux
@@ -221,10 +221,10 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 - La **gestion du son** : haut-parleurs de qualité pour répondre au souhait des jeunes d'utiliser la borne avec de la musique.
 
 :::note[Ressources]
-- Écran à recycler : [https://ressourceries.info/](https://ressourceries.info/)
+- Écran à recycler : https://ressourceries.info/
 - Système de jeu : [Recalbox](https://www.recalbox.com/fr/) — [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - Joysticks et boutons : recherchez "arcade kit 2 joueurs" sur Amazon
-- Gestion du son : [https://www.jdfarcade.com/composants/40-kit-audio-arcade.html](https://www.jdfarcade.com/composants/40-kit-audio-arcade.html)
+- Gestion du son : https://www.jdfarcade.com/composants/40-kit-audio-arcade.html
 :::
 
 ### Sélection des matériaux
@@ -240,13 +240,13 @@ Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm
 Approche simple mais collaborative : les jeunes ont réalisé des essais de peinture sur les prototypes avec plusieurs associations de couleurs, puis ont validé collectivement le choix final (en prenant en compte les chocs et traces potentiels). Ils ont proposé des dessins sur une zone limitée et dédiée, le reste étant recouvert de stickers sélectionnés ensemble. Bandes de chant pour protéger les tranches.
 
 :::note[Ressources stickers et finitions]
-- [https://www.buzz-arcade.com/fr/36-stickers-bornes](https://www.buzz-arcade.com/fr/36-stickers-bornes)
-- [https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html](https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html)
-- [https://stickergameshop.com/](https://stickergameshop.com/)
-- [https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/](https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/)
-- [https://www.goodstickers.fr/stickers/jeux-video/](https://www.goodstickers.fr/stickers/jeux-video/)
-- [https://adhesifs-de-france.fr/80-pop-culture](https://adhesifs-de-france.fr/80-pop-culture)
-- T-molding : [https://fabulous-arcade.com/fr/58-t-molding](https://fabulous-arcade.com/fr/58-t-molding)
+- https://www.buzz-arcade.com/fr/36-stickers-bornes
+- https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html
+- https://stickergameshop.com/
+- https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/
+- https://www.goodstickers.fr/stickers/jeux-video/
+- https://adhesifs-de-france.fr/80-pop-culture
+- T-molding : https://fabulous-arcade.com/fr/58-t-molding
 :::
 
 ## Méthodes de prototypage
@@ -344,7 +344,7 @@ Au sein des bornes classiques, plusieurs styles existent :
 - **Konami** (The Simpsons, TMNT) : conçu pour le multijoueur, panneaux étendus, visuels colorés, prisé des fans de coopération.
 
 :::info[Pour aller plus loin]
-[https://retromash.com/2016/02/09/building-a-home-arcade-machine-part-3-cabinet-design/](https://retromash.com/2016/02/09/building-a-home-arcade-machine-part-3-cabinet-design/)
+https://retromash.com/2016/02/09/building-a-home-arcade-machine-part-3-cabinet-design/
 :::
 
 ### Modélisation de la borne avec Onshape
@@ -358,7 +358,7 @@ Nous avons utilisé **Onshape**, un logiciel de CAO (conception assistée par or
 Onshape est utilisé pour concevoir des objets de toutes sortes : pièces de machines, produits électroniques, dispositifs médicaux, prototypes pour l'impression 3D. Comme tout fonctionne via Internet, le logiciel se met à jour automatiquement.
 
 :::info[Pour aller plus loin]
-- [https://www.onshape.com/fr/](https://www.onshape.com/fr/)
+- https://www.onshape.com/fr/
 - [Tutoriel vidéo Onshape](https://www.youtube.com/watch?v=Jf-FNe-3MCQ)
 - [Onshape Primer](https://cad.onshape.com/help/fr_FR/Content/Primer/onshape_primer.htm)
 - [Plans de borne d'arcade (Retromash)](https://retromash.com/2016/05/01/building-a-home-arcade-machine-part-7-cabinet-plans/)

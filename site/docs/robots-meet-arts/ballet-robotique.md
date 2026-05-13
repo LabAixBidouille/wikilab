@@ -50,9 +50,9 @@ sidebar_position: 2
 
 ## Liens utiles
 
-- Site général LEGO WeDo 2.0 : [https://education.lego.com/nl-nl/](https://education.lego.com/nl-nl/)
-- Logiciel : [https://education.lego.com/nl-nl/downloads/retiredproducts/wedo-2/software/](https://education.lego.com/nl-nl/downloads/retiredproducts/wedo-2/software/)
-- Vidéo sur le ballet : [https://www.youtube.com/watch?v=OEekFTj5PvU](https://www.youtube.com/watch?v=OEekFTj5PvU)
+- Site général LEGO WeDo 2.0 : https://education.lego.com/nl-nl/
+- Logiciel : https://education.lego.com/nl-nl/downloads/retiredproducts/wedo-2/software/
+- Vidéo sur le ballet : https://www.youtube.com/watch?v=OEekFTj5PvU
 
 ---
 

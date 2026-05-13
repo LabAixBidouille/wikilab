@@ -45,8 +45,8 @@ sidebar_position: 19
 
 ## Liens utiles
 
-- Site web Scratch : [https://scratch.mit.edu/](https://scratch.mit.edu/)
-- Tutoriel vidéo Scratch : [https://youtu.be/D-nW4jvzRr8](https://youtu.be/D-nW4jvzRr8)
+- Site web Scratch : https://scratch.mit.edu/
+- Tutoriel vidéo Scratch : https://youtu.be/D-nW4jvzRr8
 
 ---
 

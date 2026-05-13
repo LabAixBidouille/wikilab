@@ -60,7 +60,7 @@ sidebar_position: 5
 
 - Vocabulaire des saisons (Wordwall) : [lien 1](https://wordwall.net/el/resource/17342546), [lien 2](https://wordwall.net/el/resource/29454093)
 - Vocabulaire des vêtements (Wordwall) : [lien 1](https://wordwall.net/el/resource/17590847), [lien 2](https://wordwall.net/el/resource/39408664)
-- Découvrir les bases de la robotique avec Edison : [https://meetedison.com/](https://meetedison.com/)
+- Découvrir les bases de la robotique avec Edison : https://meetedison.com/
 
 ---
 

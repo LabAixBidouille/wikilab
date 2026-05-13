@@ -66,7 +66,7 @@ Dans cette fiche d'activité, nous allons travailler sur un détecteur de mouvem
 
 Cela permettra de découvrir le détecteur de mouvement intégré et ses usages. Un détecteur de mouvement est un dispositif électrique qui utilise un capteur pour détecter un mouvement à proximité. Un tel dispositif est souvent intégré en tant que composant d'un système qui exécute automatiquement une tâche ou alerte un utilisateur en cas de mouvement dans une zone. Ils constituent un élément essentiel de la sécurité, du contrôle automatisé de l'éclairage, de la domotique et d'autres systèmes utiles.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Motion_detector](https://en.wikipedia.org/wiki/Motion_detector)
+**Ressource :** https://en.wikipedia.org/wiki/Motion_detector
 
 ---
 
@@ -154,16 +154,16 @@ Considérons que votre boîte est fermée. La distance entre l'objet à l'intér
 ## Aller plus loin
 
 - **Alarme infrarouge Arduino** - Tutoriel pour construire votre propre alarme infrarouge en utilisant un capteur de proximité infrarouge.
-  [https://www.instructables.com/Arduino-IR-Alarm/](https://www.instructables.com/Arduino-IR-Alarm/)
+  https://www.instructables.com/Arduino-IR-Alarm/
 
 - **Alarme de porte Arduino** - Appliquez ce que vous avez appris pour construire une alarme de porte *do it yourself* (DIY).
-  [https://www.instructables.com/Arduino-Door-Alarm-1/](https://www.instructables.com/Arduino-Door-Alarm-1/)
+  https://www.instructables.com/Arduino-Door-Alarm-1/
 
 - **Alarme de porte radio** - Tutoriel pour créer une alarme sans fil qui vous prévient lorsque quelqu'un ouvre une porte.
-  [https://microbit.org/projects/make-it-code-it/door-alarm/](https://microbit.org/projects/make-it-code-it/door-alarm/)
+  https://microbit.org/projects/make-it-code-it/door-alarm/
 
 - **Créez une alarme pour votre chambre** - Programmez une alarme pour votre chambre avec une carte micro:bit.
-  [https://www.youtube.com/watch?v=aqRh9Phjcwc](https://www.youtube.com/watch?v=aqRh9Phjcwc)
+  https://www.youtube.com/watch?v=aqRh9Phjcwc
 
 ---
 

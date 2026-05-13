@@ -60,7 +60,7 @@ Un écran qui vous permet d'afficher certaines informations nichées dans vos co
 
 La programmation d'une carte électronique est parfois une activité très déroutante. Un microcontrôleur est une boîte noire (nous ne pouvons pas voir ce qui se passe à l'intérieur). Pour éclaircir votre code, vous pouvez utiliser un écran qui vous aide à afficher certaines informations nichées dans vos composants électroniques. Cette fiche d'activité explore comment utiliser les **écrans OLED monochromes à base de SSD1306 avec MakeCode**.
 
-**Ressource :** [https://www.electronicwings.com/sensors-modules/ssd1306-oled-display](https://www.electronicwings.com/sensors-modules/ssd1306-oled-display)
+**Ressource :** https://www.electronicwings.com/sensors-modules/ssd1306-oled-display
 
 ---
 
@@ -78,10 +78,10 @@ Il y a deux façons de câbler l'écran OLED **SSD1306** à une carte : soit ave
 - **Jaune** pour SCL (D15)
 
 **Ressources :**
-- [https://en.wikipedia.org/wiki/I2C](https://en.wikipedia.org/wiki/I2C)
-- [https://en.wikipedia.org/wiki/Serial_Peripheral_Interface](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface)
-- [https://www.sparkfun.com/qwiic](https://www.sparkfun.com/qwiic)
-- [https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt)
+- https://en.wikipedia.org/wiki/I2C
+- https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
+- https://www.sparkfun.com/qwiic
+- https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
 
 ### 2. Connecter la carte à l'ordinateur
 
@@ -164,7 +164,7 @@ Sur l'écran du SSD1306, l'origine (la position x=0 et y=0) se trouve dans le co
 1. Essayez de **centrer le coeur de la deuxième ligne** en modifiant la coordonnée X du texte.
 
 2. En ajoutant une boucle, **créez une animation de texte simple** dans l'esprit de La Linea en utilisant les symboles `|` et `_`. Pour ralentir votre animation, utilisez la fonction `pause()`.
-   **Ressource :** [https://en.wikipedia.org/wiki/La_Linea_(TV_series)](https://en.wikipedia.org/wiki/La_Linea_(TV_series))
+   **Ressource :** https://en.wikipedia.org/wiki/La_Linea_(TV_series)
 
 3. **Montrez l'état courant du bouton USER à chaque instant.** Que se passe-t-il si vous ajoutez un `sleep()` plutôt long dans votre boucle principale ? Comment améliorer la réactivité de votre affichage ?
 
@@ -175,13 +175,13 @@ Sur l'écran du SSD1306, l'origine (la position x=0 et y=0) se trouve dans le co
 ## Aller plus loin
 
 - **I2C** - Tutoriel pour tout savoir sur le protocole de communication I2C, pourquoi et comment l'utiliser ainsi que le mettre en oeuvre.
-  [https://learn.sparkfun.com/tutorials/i2c/all](https://learn.sparkfun.com/tutorials/i2c/all)
+  https://learn.sparkfun.com/tutorials/i2c/all
 
 - **QWIIC/STEMMA** - Utilisez le level shifter et le régulateur de voltage avec les contrôleurs Grove/Gravity/STEMMA/Qwiic.
-  [https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt)
+  https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
 
 - **Écran OLED** - Écran à diode électroluminescente organique (OLED ou LED organique).
-  [https://en.wikipedia.org/wiki/OLED](https://en.wikipedia.org/wiki/OLED)
+  https://en.wikipedia.org/wiki/OLED
 
 ---
 

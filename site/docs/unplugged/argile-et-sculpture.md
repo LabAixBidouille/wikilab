@@ -144,32 +144,32 @@ L'enseignant peut choisir d'utiliser du matériel pour cette activité ou laisse
 
 Il s'agit d'un moyen amusant d'apprendre aux enfants à travailler ensemble et à instaurer la confiance. Le jeu améliorer les rapports au sein groupe et aider à réduire les disputes en classe et certains problèmes de comportement. Pour travailler cette thématique vous pouvez vous référer à d'autres quêtes Unplugged, par ex. [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix). Vous pouvez également consulter les ressources suivantes :
 
-- 30 activités de team building pour les enfants : [https://www.teachingexpertise.com/classroom-ideas/team-building-activities-for-kids](https://www.teachingexpertise.com/classroom-ideas/team-building-activities-for-kids)
-- Les 10 meilleurs jeux et activités de renforcement de la confiance pour les enfants : [https://parenting.firstcry.com/articles/10-fun-trust-building-activities-for-kids](https://parenting.firstcry.com/articles/10-fun-trust-building-activities-for-kids)
+- 30 activités de team building pour les enfants : https://www.teachingexpertise.com/classroom-ideas/team-building-activities-for-kids
+- Les 10 meilleurs jeux et activités de renforcement de la confiance pour les enfants : https://parenting.firstcry.com/articles/10-fun-trust-building-activities-for-kids
 
 ### Sujet 2 - La communication non verbale dans l'interaction humaine
 
 La communication non verbale est un élément important de la communication quotidienne. Lorsqu'elle est utilisée efficacement, elle peut servir à apaiser, rassurer, pacifier les relations et améliorer la communication entre les personnes.
 
-- Activités de communication non verbale : [https://www.thoughtco.com/nonverbal-communication-activities-1857230](https://www.thoughtco.com/nonverbal-communication-activities-1857230)
-- La communication non verbale en classe : [https://www.learnersedge.com/blog/nonverbal-communication-in-the-classroom](https://www.learnersedge.com/blog/nonverbal-communication-in-the-classroom)
-- 15 stratégies d'adaptation pour les enfants : [https://www.verywellfamily.com/coping-skills-for-kids-4586871](https://www.verywellfamily.com/coping-skills-for-kids-4586871)
+- Activités de communication non verbale : https://www.thoughtco.com/nonverbal-communication-activities-1857230
+- La communication non verbale en classe : https://www.learnersedge.com/blog/nonverbal-communication-in-the-classroom
+- 15 stratégies d'adaptation pour les enfants : https://www.verywellfamily.com/coping-skills-for-kids-4586871
 
 ### Sujet 3 - Mettre des mots sur les émotions et les sentiments
 
 Lorsque les enfants savent nommer ce qu'ils ressentent, ils peuvent apprendre à gérer leurs émotions. Les enseignants peuvent aider les enfants à exprimer leurs sentiments. Pour approfondir l'éducation émotionnelle, vous pouvez vous référer à [Likadislike](/ressources/unplugged/likadislike), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), etc. Vous pouvez également consulter les ressources suivantes :
 
-- 10 conseils pour enseigner la régulation émotionnelle (et améliorer le comportement en classe par la même occasion) : [https://www.weareteachers.com/emotional-regulation](https://www.weareteachers.com/emotional-regulation)
-- Connexions émotionnelles et comportementales : Ce que les enfants doivent savoir : [http://www.creativeyoulearninglab.com/emotion-behavior-connections](http://www.creativeyoulearninglab.com/emotion-behavior-connections)
-- 10 activités simples pour construire un vocabulaire des sentiments : [https://www.socialemotionalworkshop.com/feelings-vocabulary-activities/](https://www.socialemotionalworkshop.com/feelings-vocabulary-activities/)
-- Emotions pour les enfants : Leçons et activités pour développer la conscience de soi : [https://proudtobeprimary.com/emotions-for-kids/](https://proudtobeprimary.com/emotions-for-kids/)
+- 10 conseils pour enseigner la régulation émotionnelle (et améliorer le comportement en classe par la même occasion) : https://www.weareteachers.com/emotional-regulation
+- Connexions émotionnelles et comportementales : Ce que les enfants doivent savoir : http://www.creativeyoulearninglab.com/emotion-behavior-connections
+- 10 activités simples pour construire un vocabulaire des sentiments : https://www.socialemotionalworkshop.com/feelings-vocabulary-activities/
+- Emotions pour les enfants : Leçons et activités pour développer la conscience de soi : https://proudtobeprimary.com/emotions-for-kids/
 
 ### Sujet 4 - Le corps humain
 
 Les liens suivants peuvent vous donner des idées pour enseigner le corps humain, les différents organes et leurs fonctions :
 
-- Comment fonctionne le corps (pour les enfants) : [https://kidshealth.org/en/kids/center/htbw-main-page.html](https://kidshealth.org/en/kids/center/htbw-main-page.html)
-- Le jeu du corps humain | STEM : [https://www.stem.org.uk/resources/elibrary/resource/35233/human-body-game](https://www.stem.org.uk/resources/elibrary/resource/35233/human-body-game)
+- Comment fonctionne le corps (pour les enfants) : https://kidshealth.org/en/kids/center/htbw-main-page.html
+- Le jeu du corps humain | STEM : https://www.stem.org.uk/resources/elibrary/resource/35233/human-body-game
 
 ---
 

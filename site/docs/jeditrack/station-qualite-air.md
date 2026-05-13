@@ -152,7 +152,7 @@ L'I2C, pour Inter-Integrated Circuit en anglais, est un protocole de communicati
 
 Le programme va avoir deux objectifs principaux : d'une part afficher les données mesurées par les capteurs en temps réel, et d'autre part d'enregistrer ces données sur une carte micro-sd, que ce soit à intervalles réguliers où lors d'un événement particulier (comme l'appui d'un bouton par exemple), pour pouvoir les analyser plus tard.
 
-La programmation de la station se fera sur la plateforme Vittascience, section Programmer -> micro:bit : [https://fr.vittascience.com/microbit/](https://fr.vittascience.com/microbit/)
+La programmation de la station se fera sur la plateforme Vittascience, section Programmer -> micro:bit : https://fr.vittascience.com/microbit/
 
 Le programme est expliqué étape par étape ci-après, mais il convient de noter qu'il est plus intéressant de laisser les jeunes expérimenter et chercher par eux-mêmes avant de leur donner la solution. La solution expliquée ici est avant tout destinée à l'animateur pour qu'il comprenne bien le programme pour pouvoir l'expliquer aux jeunes.
 
@@ -239,7 +239,7 @@ Ensuite, nous avons choisi d'enregistrer une nouvelle donnée sur la carte micro
 
 Le programme final complet peut être retrouvé en suivant le lien suivant :
 
-[https://fr.vittascience.com/microbit/?link=667ebb07071a6](https://fr.vittascience.com/microbit/?link=667ebb07071a6)
+https://fr.vittascience.com/microbit/?link=667ebb07071a6
 
 ### PHASE 3 : RÉALISATION DES MESURES (OPTIONNEL)
 
@@ -277,25 +277,25 @@ Cette conclusion peut être frustrante pour les jeunes. Dans ces cas-là, il fau
 
 ---
 
-Lien vers l'archive zip du boîtier de la station : [https://drive.google.com/file/d/1eEqfA9jsekhII7OHwHJh6-rs1cf3e_EA/view?usp=drive_link](https://drive.google.com/file/d/1eEqfA9jsekhII7OHwHJh6-rs1cf3e_EA/view?usp=drive_link)
+Lien vers l'archive zip du boîtier de la station : https://drive.google.com/file/d/1eEqfA9jsekhII7OHwHJh6-rs1cf3e_EA/view?usp=drive_link
 
-Un kit complet avec tous les composants nécessaires à l'activité peut s'acheter via ce lien : [https://fr.vittascience.com/shop/171/qualite-d-air---version-micro-bit](https://fr.vittascience.com/shop/171/qualite-d-air---version-micro-bit)
+Un kit complet avec tous les composants nécessaires à l'activité peut s'acheter via ce lien : https://fr.vittascience.com/shop/171/qualite-d-air---version-micro-bit
 
 Sinon, la liste exhaustive de tous les composants est la suivante :
 
 | **Nom** | **Lien** |
 | --- | --- |
-| **micro:bit** | [https://www.mouser.be/ProductDetail/microbit/MEFV2S](https://www.mouser.be/ProductDetail/microbit/MEFV2S) |
-| **micro:bit grove shield** | [https://www.mouser.be/ProductDetail/Seeed-Studio/103100063](https://www.mouser.be/ProductDetail/Seeed-Studio/103100063) |
-| **lecteur Openlog** | [https://www.mouser.be/ProductDetail/SparkFun/DEV-13955](https://www.mouser.be/ProductDetail/SparkFun/DEV-13955) |
-| **écran I2C grove** | [https://www.mouser.be/ProductDetail/Seeed-Studio/104020111](https://www.mouser.be/ProductDetail/Seeed-Studio/104020111) |
-| **adaptateur grove / dupont** | [https://www.mouser.be/ProductDetail/M5Stack/A099](https://www.mouser.be/ProductDetail/M5Stack/A099) |
-| **câbles grove** | [https://www.mouser.be/ProductDetail/M5Stack/A034-G](https://www.mouser.be/ProductDetail/M5Stack/A034-G) |
-| **câbles dupont femelle/femelle** | [https://www.mouser.be/ProductDetail/Adafruit/1949](https://www.mouser.be/ProductDetail/Adafruit/1949) |
-| **DHT11** | [https://www.mouser.be/ProductDetail/Seeed-Studio/101020011](https://www.mouser.be/ProductDetail/Seeed-Studio/101020011) |
-| **HM3301** | [https://www.mouser.be/ProductDetail/Seeed-Studio/101020613](https://www.mouser.be/ProductDetail/Seeed-Studio/101020613) |
-| **capteur de gaz multicanal V2** | [https://www.mouser.be/ProductDetail/Seeed-Studio/101020820](https://www.mouser.be/ProductDetail/Seeed-Studio/101020820) |
-| **rallonge I2C grove** | [https://www.mouser.be/ProductDetail/Seeed-Studio/103020006](https://www.mouser.be/ProductDetail/Seeed-Studio/103020006) |
+| **micro:bit** | https://www.mouser.be/ProductDetail/microbit/MEFV2S |
+| **micro:bit grove shield** | https://www.mouser.be/ProductDetail/Seeed-Studio/103100063 |
+| **lecteur Openlog** | https://www.mouser.be/ProductDetail/SparkFun/DEV-13955 |
+| **écran I2C grove** | https://www.mouser.be/ProductDetail/Seeed-Studio/104020111 |
+| **adaptateur grove / dupont** | https://www.mouser.be/ProductDetail/M5Stack/A099 |
+| **câbles grove** | https://www.mouser.be/ProductDetail/M5Stack/A034-G |
+| **câbles dupont femelle/femelle** | https://www.mouser.be/ProductDetail/Adafruit/1949 |
+| **DHT11** | https://www.mouser.be/ProductDetail/Seeed-Studio/101020011 |
+| **HM3301** | https://www.mouser.be/ProductDetail/Seeed-Studio/101020613 |
+| **capteur de gaz multicanal V2** | https://www.mouser.be/ProductDetail/Seeed-Studio/101020820 |
+| **rallonge I2C grove** | https://www.mouser.be/ProductDetail/Seeed-Studio/103020006 |
 
 ---
 

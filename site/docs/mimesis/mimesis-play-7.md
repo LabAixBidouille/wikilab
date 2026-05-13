@@ -112,17 +112,17 @@ Au sein de cette activité, les élèves vont découvrir un genre théâtral qui
 
 **Dessine-moi... Dessin géométrique et symétrique** : Il est possible de demander aux élèves de s'exercer à la symétrie en réalisant des modèles d'animaux géométriques à faire en classe ou à la maison.
 
-- [http://jeuxremuemeninge.blogspot.com/2019/02/symetrie-animaux-cycle-2-et-3.html](http://jeuxremuemeninge.blogspot.com/2019/02/symetrie-animaux-cycle-2-et-3.html)
-- [http://cinexavier.free.fr/34AnimauxSymetrieAxialeQuadrillage.pdf](http://cinexavier.free.fr/34AnimauxSymetrieAxialeQuadrillage.pdf)
+- http://jeuxremuemeninge.blogspot.com/2019/02/symetrie-animaux-cycle-2-et-3.html
+- http://cinexavier.free.fr/34AnimauxSymetrieAxialeQuadrillage.pdf
 
 **1, 2, 3... Action ! Le mime** : Pour aller plus loin, faire une brève introduction sur ce qu'est le mime et expliquer ses origines, puis montrer quelques vidéos. Citer des personnes célèbres comme Marcel Marceau ou Charlie Chaplin.
 
-- [https://www.youtube.com/watch?v=XEsfpRrfXf4](https://www.youtube.com/watch?v=XEsfpRrfXf4)
-- [https://www.youtube.com/watch?v=7wBF4t6rly4](https://www.youtube.com/watch?v=7wBF4t6rly4)
+- https://www.youtube.com/watch?v=XEsfpRrfXf4
+- https://www.youtube.com/watch?v=7wBF4t6rly4
 
 <img src="/img/ressources/mimesis/mimesis-play-7/fichemime.png" alt="Fiche mime et symétrie" style={{maxWidth: '300px', marginTop: '1rem', marginBottom: '1rem'}} />
 
-**Silence, ça tourne !** : Filmer les élèves pour qu'ils puissent s'observer. Montrer que la symétrie est présente dans la mise en scène, l'art, la nature : [https://www.youtube.com/watch?v=c9UQmAo_TM4](https://www.youtube.com/watch?v=c9UQmAo_TM4)
+**Silence, ça tourne !** : Filmer les élèves pour qu'ils puissent s'observer. Montrer que la symétrie est présente dans la mise en scène, l'art, la nature : https://www.youtube.com/watch?v=c9UQmAo_TM4
 
 ---
 
@@ -191,8 +191,8 @@ Précédemment les élèves ont pu découvrir le mime. L'objectif de cette activ
 
 **Le corps dans tous ses états : danse et géométrie** : Découvrir le groupe de danse Géométrie Variable dont le chorégraphe Sadeck Waff compose des danses géométriques :
 
-- [https://www.youtube.com/watch?v=JfDVVJgls34](https://www.youtube.com/watch?v=JfDVVJgls34)
-- [https://www.youtube.com/watch?v=U26jnb3kd_Y](https://www.youtube.com/watch?v=U26jnb3kd_Y)
+- https://www.youtube.com/watch?v=JfDVVJgls34
+- https://www.youtube.com/watch?v=U26jnb3kd_Y
 
 :::tip[Ressources imprimables]
 
@@ -283,7 +283,7 @@ Après la bataille finale, il est temps de se concentrer désormais sur une part
 
 > **L'ENSEIGNANT** — Aujourd'hui nous allons faire une activité particulière. Pour cela, vous allez créer des groupes de 3. Vous allez devoir créer une chorégraphie avec vos mains et doigts, en réalisant des figures géométriques, du rythme et surtout il va falloir que vous soyez synchronisés tous ensemble. Mais avant de commencer, nous allons regarder une vidéo pour vous inspirer.
 
-Lien pour la vidéo : [https://www.youtube.com/watch?v=GC-PV2BSYD4](https://www.youtube.com/watch?v=GC-PV2BSYD4)
+Lien pour la vidéo : https://www.youtube.com/watch?v=GC-PV2BSYD4
 
 ### Objectifs pédagogiques
 
@@ -310,16 +310,16 @@ La chorégraphie des doigts est une activité proche du théâtre puisqu'elle co
 
 **Coulisses : décors et musique** : Les élèves peuvent créer des décors (motifs, couleurs sur cartons) et choisir une musique. Pour les plus petits, musiques classiques suggérées :
 
-- Clair de Lune, Claude Debussy : [https://youtu.be/CvFH_6DNRCY](https://youtu.be/CvFH_6DNRCY)
-- Symphonie N°7 op.92, Ludwig van Beethoven : [https://youtu.be/vCHREyE5GzQ](https://youtu.be/vCHREyE5GzQ)
-- Été, Vivaldi : [https://youtu.be/ciTCKnePyq4](https://youtu.be/ciTCKnePyq4)
-- La danse macabre, Camille Saint-Saëns : [https://youtu.be/71fZhMXlGT4](https://youtu.be/71fZhMXlGT4)
+- Clair de Lune, Claude Debussy : https://youtu.be/CvFH_6DNRCY
+- Symphonie N°7 op.92, Ludwig van Beethoven : https://youtu.be/vCHREyE5GzQ
+- Été, Vivaldi : https://youtu.be/ciTCKnePyq4
+- La danse macabre, Camille Saint-Saëns : https://youtu.be/71fZhMXlGT4
 
 **Ouverture sur le monde : Les mains dans la danse** : Découvrir l'importance des mains dans certaines danses traditionnelles :
 
-- Danse cambodgienne : [https://www.youtube.com/watch?v=7vs-H7xLnrs](https://www.youtube.com/watch?v=7vs-H7xLnrs)
-- Danse indienne : [https://www.youtube.com/watch?v=JWhA3ldZcyY](https://www.youtube.com/watch?v=JWhA3ldZcyY)
-- Danse hawaïenne : [https://www.youtube.com/watch?v=tWeqgY6uRx0](https://www.youtube.com/watch?v=tWeqgY6uRx0)
+- Danse cambodgienne : https://www.youtube.com/watch?v=7vs-H7xLnrs
+- Danse indienne : https://www.youtube.com/watch?v=JWhA3ldZcyY
+- Danse hawaïenne : https://www.youtube.com/watch?v=tWeqgY6uRx0
 
 Aller encore plus loin avec la langue des signes : apprendre à signer des mots simples (« Bonjour », « Merci », « Désolé », « S'il te plaît », « Oui », « Non »).
 
@@ -374,7 +374,7 @@ L'objectif à travers cette dernière activité est d'amener les élèves à pro
 
 ### Aller plus loin
 
-**Kaléidoscope à doigt** : Après avoir vu les chorégraphies, montrer une vidéo de Finger Kaléidoscope : [https://youtu.be/GC-PV2BSYD4](https://youtu.be/GC-PV2BSYD4). Discuter des émotions ressenties, introduire le kaléidoscope.
+**Kaléidoscope à doigt** : Après avoir vu les chorégraphies, montrer une vidéo de Finger Kaléidoscope : https://youtu.be/GC-PV2BSYD4. Discuter des émotions ressenties, introduire le kaléidoscope.
 
 **Qu'est-ce qu'un kaléidoscope ?** Le kaléidoscope est un instrument optique, créé par un physicien au 19e siècle, permettant d'observer des formes géométriques et des couleurs à travers un jeu de miroir.
 

@@ -105,20 +105,20 @@ Deux équipes ou plus (4-5 joueurs par équipe) avec les rôles :
 
 ### Sujet 1 - Livres pour enfants sur la pauvreté et la faim
 
-- [https://www.rebekahgienapp.com/poverty-books/](https://www.rebekahgienapp.com/poverty-books/)
+- https://www.rebekahgienapp.com/poverty-books/
 
 ### Sujet 2 - Pensée créative
 
-- [https://diy.org/](https://diy.org/)
-- [http://krokotak.com/](http://krokotak.com/)
+- https://diy.org/
+- http://krokotak.com/
 
 ### Sujet 3 - Jeux pour enfants connus dans le monde entier
 
-- [https://www.whatdowedoallday.com/traditional-games/](https://www.whatdowedoallday.com/traditional-games/)
+- https://www.whatdowedoallday.com/traditional-games/
 
 ### Sujet 4 - Méthodologie du sprint de conception
 
-- [https://designsprintkit.withgoogle.com/methodology/overview](https://designsprintkit.withgoogle.com/methodology/overview)
+- https://designsprintkit.withgoogle.com/methodology/overview
 
 ---
 

@@ -121,18 +121,18 @@ Si un joueur n'arrive pas à se rappeler de tout le conte, il peut y être aidé
 
 Pour développer davantage les compétences en matière de narration, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Brain Twister](/ressources/unplugged/brain-twister), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), etc.
 
-- Pour en savoir plus sur l'importance du développement des compétences en matière de narration (en) : [https://www.playskipy.com/blog/art-of-storytelling-for-kids/](https://www.playskipy.com/blog/art-of-storytelling-for-kids/)
+- Pour en savoir plus sur l'importance du développement des compétences en matière de narration (en) : https://www.playskipy.com/blog/art-of-storytelling-for-kids/
 
 ### Sujet 2 - Sens esthétique
 
 Pour développer davantage le sens esthétique et la créativité, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), etc.
 
-- [https://bit.ly/3LWBsmq](https://bit.ly/3LWBsmq)
-- [https://www.scirp.org/html/2-6302236_51211.htm](https://www.scirp.org/html/2-6302236_51211.htm)
+- https://bit.ly/3LWBsmq
+- https://www.scirp.org/html/2-6302236_51211.htm
 
 ### Sujet 3 - Réalité augmentée
 
-Pour en savoir plus sur les avantages de l'utilisation de la réalité augmentée dans l'apprentissage (en) : [https://saferkidsonline.eset.com/uk/article/get-to-know-augmented-reality](https://saferkidsonline.eset.com/uk/article/get-to-know-augmented-reality)
+Pour en savoir plus sur les avantages de l'utilisation de la réalité augmentée dans l'apprentissage (en) : https://saferkidsonline.eset.com/uk/article/get-to-know-augmented-reality
 
 ---
 

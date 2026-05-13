@@ -145,25 +145,25 @@ Comment enseigner aux enfants la pensée créative : Vous pouvez vous référer 
 
 Voici aussi quelques bibliothèques en ligne qui proposent des activités plastiques et créatives :
 
-- [https://diy.org/](https://diy.org/)
-- [http://krokotak.com/](http://krokotak.com/)
-- Les Ludobox de La Fabulerie sont des petites activités de bricolage à imprimer et à réaliser à la maison. Retrouvez-les en français ici avec un tutoriel vidéo associé et un PDF téléchargeable : [https://lefabuleuxmusee.com/les-ludobox-du-fabuleux-musee](https://lefabuleuxmusee.com/les-ludobox-du-fabuleux-musee)
+- https://diy.org/
+- http://krokotak.com/
+- Les Ludobox de La Fabulerie sont des petites activités de bricolage à imprimer et à réaliser à la maison. Retrouvez-les en français ici avec un tutoriel vidéo associé et un PDF téléchargeable : https://lefabuleuxmusee.com/les-ludobox-du-fabuleux-musee
 
 ### Sujet 2 - Apprentissage collaboratif
 
 Des informations autour de l'apprentissage collaboratif et ses bienfaits :
 
-- [https://wondertree.co/benefits-of-collaborative-learning-in-early-childhood-education/](https://wondertree.co/benefits-of-collaborative-learning-in-early-childhood-education/)
-- [https://www.bell-foundation.org.uk/eal-programme/guidance/effective-teaching-of-eal-learners/great-ideas/collaborative-activities/](https://www.bell-foundation.org.uk/eal-programme/guidance/effective-teaching-of-eal-learners/great-ideas/collaborative-activities/)
+- https://wondertree.co/benefits-of-collaborative-learning-in-early-childhood-education/
+- https://www.bell-foundation.org.uk/eal-programme/guidance/effective-teaching-of-eal-learners/great-ideas/collaborative-activities/
 
 ### Sujet 3 - Argumentez vos idées
 
 Pour améliorer les capacités d'argumentation des élèves/enfants :
 
 - D'autres quêtes Unplugged, telles que [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Ferme en ville](/ressources/unplugged/ferme-en-ville)
-- [https://theconversation.com/how-to-make-good-arguments-at-school-and-everywhere-else-121305](https://theconversation.com/how-to-make-good-arguments-at-school-and-everywhere-else-121305)
-- [https://www.globalcognition.org/argument-skills-how-to-teach/](https://www.globalcognition.org/argument-skills-how-to-teach/)
-- Vous pouvez envisager de filmer ou d'enregistrer les enfants pour garder une trace de leur idée et améliorer leurs capacités d'expression. La Fabulerie a créé des interfaces pour enregistrer des témoignages vidéo disponibles ici : [https://lafabulerie.com/ressource/videomaton/](https://lafabulerie.com/ressource/videomaton/)
+- https://theconversation.com/how-to-make-good-arguments-at-school-and-everywhere-else-121305
+- https://www.globalcognition.org/argument-skills-how-to-teach/
+- Vous pouvez envisager de filmer ou d'enregistrer les enfants pour garder une trace de leur idée et améliorer leurs capacités d'expression. La Fabulerie a créé des interfaces pour enregistrer des témoignages vidéo disponibles ici : https://lafabulerie.com/ressource/videomaton/
 
 ---
 

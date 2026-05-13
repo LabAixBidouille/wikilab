@@ -94,7 +94,7 @@ Pour comprendre la détection d'erreurs, nous utiliserons des grilles composées
 
 ### Phase 1 - Expliquer le fonctionnement du code correcteur
 
-L'enseignant explique le fonctionnement du contrôle de parité sur une grille simple affichée au tableau blanc. Les enseignants peuvent également suivre les étapes présentées dans l'activité CS Unplugged : [https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/](https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/)
+L'enseignant explique le fonctionnement du contrôle de parité sur une grille simple affichée au tableau blanc. Les enseignants peuvent également suivre les étapes présentées dans l'activité CS Unplugged : https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/
 
 <img src="/img/ressources/unplugged/grille-magique-de-la-paix/exemplegrille.png" alt="Exemple de grille magique avec bit de parité" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -117,23 +117,23 @@ Une fois l'information découverte, toute la classe se retrouve pour présenter 
 
 ### Sujet 1 - Contrôle de parité
 
-- [https://www.techopedia.com/definition/1803/parity-check](https://www.techopedia.com/definition/1803/parity-check)
-- [https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/](https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/)
-- [https://www.youtube.com/watch?v=2bI4E3Zbzdk](https://www.youtube.com/watch?v=2bI4E3Zbzdk)
+- https://www.techopedia.com/definition/1803/parity-check
+- https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/
+- https://www.youtube.com/watch?v=2bI4E3Zbzdk
 
 ### Sujet 2 - Désinformation et fausses nouvelles
 
-- [https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children](https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children)
-- [https://www.bbc.co.uk/bitesize/articles/zmvdd6f](https://www.bbc.co.uk/bitesize/articles/zmvdd6f)
+- https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children
+- https://www.bbc.co.uk/bitesize/articles/zmvdd6f
 
 ### Sujet 3 - Défis sociétaux
 
-- [https://www.icivics.org/teachers](https://www.icivics.org/teachers)
-- [https://www.compassion.com.au/blog/how-to-teach-children-about-poverty](https://www.compassion.com.au/blog/how-to-teach-children-about-poverty)
+- https://www.icivics.org/teachers
+- https://www.compassion.com.au/blog/how-to-teach-children-about-poverty
 
 ### Sujet 4 - Défis environnementaux
 
-- [https://www.kindergartenlessons.com/environmental_education_for_kids/](https://www.kindergartenlessons.com/environmental_education_for_kids/)
+- https://www.kindergartenlessons.com/environmental_education_for_kids/
 
 ---
 

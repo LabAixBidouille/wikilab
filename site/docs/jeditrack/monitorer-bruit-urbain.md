@@ -91,7 +91,7 @@ Pour programmer une carte micro:bit pour mesurer le niveau sonore, vous aurez be
 
 #### Étape 1 : Programmer
 
-Ouvrez l'éditeur en ligne MakeCode pour micro:bit : [https://makecode.microbit.org/#editor](https://makecode.microbit.org/#editor). Cet outil propose aux utilisateurs de programmer par bloc.
+Ouvrez l'éditeur en ligne MakeCode pour micro:bit : https://makecode.microbit.org/#editor. Cet outil propose aux utilisateurs de programmer par bloc.
 
 :::info[Conseil : Trente secondes pour comprendre la programmation par blocs]
 La programmation "**par blocs**" est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme "faire bouger un personnage", "jouer un son" ou "compter jusqu'à 10". En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche permet de comprendre les bases de la programmation en manipulant des concepts de manière concrète et ludique.

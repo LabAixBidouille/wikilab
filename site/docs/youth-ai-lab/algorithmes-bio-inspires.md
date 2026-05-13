@@ -98,7 +98,7 @@ Cela révèle la qualité de leur modèle mental : des notes claires rendent la 
 
 À la fin de cette activité, les participants ont vécu l'apprentissage par renforcement de l'intérieur — en tant qu'agent apprenant, puis en tant que programmeur. Ils ont créé leur propre modèle mental et découvert que la même logique peut être exprimée par la programmation.
 
-Pour conclure, leur faire observer comment l'IA fait le même travail en utilisant : [https://steamcity.github.io/BioLearningGame/](https://steamcity.github.io/BioLearningGame/) pour comparer son chemin d'apprentissage avec les stratégies biologiques.
+Pour conclure, leur faire observer comment l'IA fait le même travail en utilisant : https://steamcity.github.io/BioLearningGame/ pour comparer son chemin d'apprentissage avec les stratégies biologiques.
 
 ---
 

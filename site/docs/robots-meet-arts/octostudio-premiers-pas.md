@@ -64,8 +64,8 @@ sidebar_position: 15
 
 ## Liens utiles
 
-- Guide de référence Octo Studio : [https://octostudio.org/resources/Reference%20Guide.pdf](https://octostudio.org/resources/Reference%20Guide.pdf)
-- Source d'inspiration pour cette séance : [https://www.exploratorium.edu/tinkering/animate-shape](https://www.exploratorium.edu/tinkering/animate-shape)
+- Guide de référence Octo Studio : https://octostudio.org/resources/Reference%20Guide.pdf
+- Source d'inspiration pour cette séance : https://www.exploratorium.edu/tinkering/animate-shape
 
 ---
 

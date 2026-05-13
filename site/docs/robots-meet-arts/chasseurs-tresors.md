@@ -98,12 +98,12 @@ sidebar_position: 3
 
 ## Liens utiles
 
-- [https://spike.legoeducation.com/](https://spike.legoeducation.com/)
-- [https://www.youtube.com/watch?v=ZkG1v1owSq4](https://www.youtube.com/watch?v=ZkG1v1owSq4)
-- [https://scratch.mit.edu/educators/](https://scratch.mit.edu/educators/)
-- [https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1](https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1)
-- [https://www.readwritethink.org/classroom-resources/student-interactives/story](https://www.readwritethink.org/classroom-resources/student-interactives/story)
-- [https://www.teachstarter.com/us/blog/drama-games-for-kids-years-4-7-us/](https://www.teachstarter.com/us/blog/drama-games-for-kids-years-4-7-us/)
+- https://spike.legoeducation.com/
+- https://www.youtube.com/watch?v=ZkG1v1owSq4
+- https://scratch.mit.edu/educators/
+- https://www.bbc.co.uk/bitesize/guides/zp92mp3/revision/1
+- https://www.readwritethink.org/classroom-resources/student-interactives/story
+- https://www.teachstarter.com/us/blog/drama-games-for-kids-years-4-7-us/
 
 ---
 

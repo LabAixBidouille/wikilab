@@ -65,7 +65,7 @@ L'accélération fait tourner le monde - littéralement ! C'est la force qui pro
 
 Pour découvrir le potentiel de ce capteur de mouvement, nous allons écrire un capteur d'inclinaison qui allume une LED lorsque l'accélération est trop forte. Ce genre de dispositif est utile si vous voulez éviter la tricherie sur un vieux flipper classique.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Pinball](https://en.wikipedia.org/wiki/Pinball)
+**Ressource :** https://en.wikipedia.org/wiki/Pinball
 
 :::info[Accéléromètre intégré]
 
@@ -175,13 +175,13 @@ Une fonction est un bloc de code qui exécute une tâche spécifique. Comme une 
 ## Aller plus loin
 
 - **Accéléromètre** - Apprenez-en plus sur les principes physiques et les applications de l'accéléromètre.
-  [https://en.wikipedia.org/wiki/Accelerometer](https://en.wikipedia.org/wiki/Accelerometer)
+  https://en.wikipedia.org/wiki/Accelerometer
 
 - **Détection de chute libre à l'aide d'un accéléromètre à 3 axes** - Méthode facile pour déterminer la détection de chute libre à l'aide d'un simple accéléromètre à 3 axes.
-  [https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e](https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e)
+  https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e
 
 - **Mettre une plate-forme de niveau en utilisant un accéléromètre** - Utilise un accéléromètre pour mettre une plate-forme de niveau.
-  [https://www.hackster.io/mtashiro/level-platform-using-accelerometer-80a343](https://www.hackster.io/mtashiro/level-platform-using-accelerometer-80a343)
+  https://www.hackster.io/mtashiro/level-platform-using-accelerometer-80a343
 
 ---
 

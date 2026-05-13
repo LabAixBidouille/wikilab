@@ -65,7 +65,7 @@ Le thérémine est un instrument de musique électronique contrôlé sans contac
 
 Notre version sera plus simple : nous ne contrôlerons que la hauteur du son avec le capteur de distance, le volume sera prédéterminé. Faisons de la musique !
 
-**Ressources :** [https://en.wikipedia.org/wiki/Theremin](https://en.wikipedia.org/wiki/Theremin), [https://youtu.be/x0NVb25p1oU](https://youtu.be/x0NVb25p1oU)
+**Ressources :** https://en.wikipedia.org/wiki/Theremin, https://youtu.be/x0NVb25p1oU
 
 ---
 
@@ -160,16 +160,16 @@ Nous avons maintenant une fréquence. Il est temps de la jouer, en utilisant sim
 ## Aller plus loin
 
 - **Thérémine** - Découvrez l'histoire, les principes de fonctionnement et les utilisations du thérémine.
-  [https://en.wikipedia.org/wiki/Theremin](https://en.wikipedia.org/wiki/Theremin)
+  https://en.wikipedia.org/wiki/Theremin
 
 - **Capteur de distance à anneau LED** - Découvrez un projet amusant, qui aboutira à un capteur de recul.
-  [https://www.instructables.com/LED-Ring-Distance-Sensor/](https://www.instructables.com/LED-Ring-Distance-Sensor/)
+  https://www.instructables.com/LED-Ring-Distance-Sensor/
 
 - **Détecteur du niveau d'eau** - Découvrez les capteurs à ultrasons qui convertissent l'énergie électrique en ondes acoustiques.
-  [https://www.instructables.com/Water-Level-Detector-2/](https://www.instructables.com/Water-Level-Detector-2/)
+  https://www.instructables.com/Water-Level-Detector-2/
 
 - **Mangeoire pour chats** - Utilisez un capteur à ultrasons pour construire une mangeoire automatique pour chats.
-  [https://www.instructables.com/Cat-Feeder/](https://www.instructables.com/Cat-Feeder/)
+  https://www.instructables.com/Cat-Feeder/
 
 ---
 

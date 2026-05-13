@@ -65,9 +65,9 @@ sidebar_position: 13
 
 ## Liens utiles
 
-- Identifier des œuvres d'art avec Google Lens : [https://lens.google/](https://lens.google/)
-- Programmer Cubetto : [https://www.youtube.com/watch?v=iuUDkpvIwcU](https://www.youtube.com/watch?v=iuUDkpvIwcU)
-- Programmer Bee-Bot : [https://www.youtube.com/watch?v=iNg5QLqYP_Y](https://www.youtube.com/watch?v=iNg5QLqYP_Y)
+- Identifier des œuvres d'art avec Google Lens : https://lens.google/
+- Programmer Cubetto : https://www.youtube.com/watch?v=iuUDkpvIwcU
+- Programmer Bee-Bot : https://www.youtube.com/watch?v=iNg5QLqYP_Y
 
 ---
 

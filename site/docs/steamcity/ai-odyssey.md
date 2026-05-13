@@ -89,7 +89,7 @@ Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Cr
 
 ### Contexte de la séquence
 
-Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius ([https://eurocities.eu/stories/smile-youre-on-camera/](https://eurocities.eu/stories/smile-youre-on-camera/)), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin ([https://www.youtube.com/watch?v=AuxgoNMqLFU](https://www.youtube.com/watch?v=AuxgoNMqLFU)). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
+Les systèmes d'IA urbains peuvent collecter de nombreuses données sur vous, en tant que citoyen, à votre insu. Par exemple, grâce à l'IA, les caméras modernes peuvent reconnaître votre visage ou analyser vos émotions à partir de votre expression faciale. On peut citer comme exemples d'usage la conception d'un « indice de bonheur » comme à Vilnius (https://eurocities.eu/stories/smile-youre-on-camera/), ou la reconnaissance faciale pour limiter le nombre de feuilles de papier toilette distribuées à une personne, comme au Temple du Ciel de Pékin (https://www.youtube.com/watch?v=AuxgoNMqLFU). Dans ce contexte, cette première étape vise à identifier les capteurs présents dans votre ville/quartier et les données qu'ils collectent.
 
 ### Objectifs d'apprentissage
 
@@ -139,7 +139,7 @@ Vous pouvez aborder plusieurs catégories de dispositifs :
 - **Systèmes de mobilité partagée** : transports en commun, vélos en libre-service, trottinettes électriques
 
 :::info[Notes pour l'enseignant·e]
-Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : [https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf](https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf)
+Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf
 :::
 
 #### Cadre d'analyse des données
@@ -230,9 +230,9 @@ Avant de commencer la datawalk, les élèves doivent être équipés d'outils de
 
 :::info[Notes pour l'enseignant·e]
 Pour vous inspirer dans l'organisation de votre marche, plusieurs ressources en ligne proposent des informations sur la logistique et les étapes de mise en œuvre d'un atelier de datawalk :
-- [https://www.datawalking.uk](https://www.datawalking.uk)
-- [https://amai.vlaanderen/activiteit-datawalk](https://amai.vlaanderen/activiteit-datawalk)
-- [https://data-en-maatschappij.ai/tools/datawalk-handleiding](https://data-en-maatschappij.ai/tools/datawalk-handleiding)
+- https://www.datawalking.uk
+- https://amai.vlaanderen/activiteit-datawalk
+- https://data-en-maatschappij.ai/tools/datawalk-handleiding
 :::
 
 **Organisation des groupes.** Les élèves doivent travailler en petits groupes collaboratifs. Cette approche permet une couverture plus efficace de la zone tout en favorisant une discussion en temps réel des observations. Les groupes peuvent mettre en place un **système de rotation** où différents membres se relaient pour observer et documenter, garantissant que tout le monde reste engagé.
@@ -365,21 +365,21 @@ Pour approfondir la réflexion critique, envisagez d'ouvrir des discussions supp
 
 **FARI** est une organisation qui se concentre sur l'exploration de l'intersection entre l'intelligence artificielle et le développement urbain. Dans le cadre du datawalking, FARI invite les participants à des visites guidées dans des villes comme Bruxelles, où ils découvrent le rôle transformateur de la collecte de données dans l'élaboration d'applications de villes intelligentes. Ces visites visent à approfondir la compréhension de ce qui constitue une ville intelligente, ainsi qu'à examiner les opportunités et les défis associés à l'utilisation des données pour une vie plus efficace et durable.
 
-**Aller plus loin** : [https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk](https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk)
+**Aller plus loin** : https://www.fari.brussels/news-and-media-article/calling-for-participations-in-the-data-walk
 
 ### Projet Spectre et Data Walking
 
 **SPECTRE** s'intéresse aux multiples implications du développement des villes intelligentes en matière de protection de la vie privée, en examinant ces défis sous l'angle du droit, des sciences sociales et de l'économie. L'objectif principal du projet est de développer une méthode collaborative d'**analyse d'impact relative à la protection des données (AIPD)** pour les villes intelligentes, prenant en compte leurs intérêts socio-économiques. Le projet explore également le potentiel des règles de marchés publics pour intégrer cette nouvelle méthode d'AIPD.
 
 **Aller plus loin** :
-- [https://spectreproject.be](https://spectreproject.be)
-- [https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf](https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf)
+- https://spectreproject.be
+- https://spectreproject.be/output/downloads-1/spectre-walkshop-report-brussel.pdf
 
 ### DataWalk ou Walkshop
 
 Ce projet de promenade de données est né d'un processus pédagogique encourageant les élèves à observer les médiations de données dans l'espace urbain. Inspiré par l'**ethnographie flashmob** de Laura Forlano et les ateliers de réseautage d'Adam Greenfield, l'« atelier de datawalk » a évolué grâce à des collaborations avec le projet du Museum of Contemporary Commodities (Paula Crutchlow et Ian Cook, Université d'Exeter) et la Furtherfield Gallery de Londres.
 
-**Aller plus loin** : [https://www.datawalking.uk](https://www.datawalking.uk)
+**Aller plus loin** : https://www.datawalking.uk
 
 ---
 

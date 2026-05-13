@@ -33,7 +33,7 @@ sidebar_position: 27
 
 **Pour la boussole numérique (recommandé)**
 
-- Carte micro:bit (avec magnétomètre intégré). Kit complet recommandé (~20 EUR) : [https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html](https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html)
+- Carte micro:bit (avec magnétomètre intégré). Kit complet recommandé (~20 EUR) : https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html
 - Boîtier de piles AAA pour rendre le robot autonome
 - Accès à un ordinateur avec MakeCode : [makecode.microbit.org](https://makecode.microbit.org)
 
@@ -83,13 +83,13 @@ Les compétences mobilisées sont les suivantes :
 
 ## Liens utiles
 
-- [https://www.youtube.com/watch?v=lg3VLcSRUNc](https://www.youtube.com/watch?v=lg3VLcSRUNc)
-- [https://microbit.org/projects/make-it-code-it/compass-bearing/](https://microbit.org/projects/make-it-code-it/compass-bearing/)
-- [https://www.youtube.com/watch?v=9IyssvevhJ0](https://www.youtube.com/watch?v=9IyssvevhJ0)
-- [https://www.youtube.com/watch?v=KeDDMq60stI](https://www.youtube.com/watch?v=KeDDMq60stI)
-- [https://makecode.microbit.org/projects/compass](https://makecode.microbit.org/projects/compass)
-- [https://www.instructables.com/Microbit-Compass/](https://www.instructables.com/Microbit-Compass/)
-- [https://www.elecfreaks.com/blog/post/make-a-compass-with-your-microbit.html](https://www.elecfreaks.com/blog/post/make-a-compass-with-your-microbit.html)
+- https://www.youtube.com/watch?v=lg3VLcSRUNc
+- https://microbit.org/projects/make-it-code-it/compass-bearing/
+- https://www.youtube.com/watch?v=9IyssvevhJ0
+- https://www.youtube.com/watch?v=KeDDMq60stI
+- https://makecode.microbit.org/projects/compass
+- https://www.instructables.com/Microbit-Compass/
+- https://www.elecfreaks.com/blog/post/make-a-compass-with-your-microbit.html
 
 ---
 
@@ -345,7 +345,7 @@ MakeCode est un environnement de programmation gratuit, basé sur navigateur, d�
 - Simulateur inclus : Tester les programmes sans matériel physique
 - Documentation complète : Tutoriels, exemples et ressources enseignants intégrés
 
-Accéder à MakeCode : [https://makecode.microbit.org/](https://makecode.microbit.org/)
+Accéder à MakeCode : https://makecode.microbit.org/
 
 MakeCode propose trois façons d'écrire le même programme :
 
@@ -478,8 +478,8 @@ Exemples concrets :
 
 ### Accéder aux projets sur MakeCode Micro:bit
 
-- Affichage simple sur la carte : [https://makecode.microbit.org/S08413-6091064519-56678](https://makecode.microbit.org/S08413-6091064519-56678)
-- Affichage sur la carte couplée d'une flèche motorisée sur le robot : [https://makecode.microbit.org/S22604-2436276889-84217](https://makecode.microbit.org/S22604-2436276889-84217)
+- Affichage simple sur la carte : https://makecode.microbit.org/S08413-6091064519-56678
+- Affichage sur la carte couplée d'une flèche motorisée sur le robot : https://makecode.microbit.org/S22604-2436276889-84217
 
 ---
 

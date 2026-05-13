@@ -145,16 +145,16 @@ Vous pouvez jouer avec le capteur simulé en appuyant sur la **petite icône de 
 ## Aller plus loin
 
 - **Écran à cristaux liquides** - En savoir plus sur l'histoire et les caractéristiques des écrans à cristaux liquides (LCD).
-  [https://en.wikipedia.org/wiki/Liquid-crystal_display](https://en.wikipedia.org/wiki/Liquid-crystal_display)
+  https://en.wikipedia.org/wiki/Liquid-crystal_display
 
 - **Réveil LCD avec de nombreux visages** - Y compris beaucoup d'autres horloges LCD1602 trouvées sur des sites de fabricants.
-  [https://www.hackster.io/john-bradnam/lcd-alarm-clock-with-many-faces-new-version-9352a2](https://www.hackster.io/john-bradnam/lcd-alarm-clock-with-many-faces-new-version-9352a2)
+  https://www.hackster.io/john-bradnam/lcd-alarm-clock-with-many-faces-new-version-9352a2
 
 - **Le jeu Chrome Dino sur un écran LCD.**
-  [https://create.arduino.cc/projecthub/Unsigned_Arduino/the-chrome-dino-game-on-an-lcd-shield-883afb](https://create.arduino.cc/projecthub/Unsigned_Arduino/the-chrome-dino-game-on-an-lcd-shield-883afb)
+  https://create.arduino.cc/projecthub/Unsigned_Arduino/the-chrome-dino-game-on-an-lcd-shield-883afb
 
 - **Luminomètre** - Mesurez et affichez les niveaux de lumière.
-  [https://learn.adafruit.com/light-meter](https://learn.adafruit.com/light-meter)
+  https://learn.adafruit.com/light-meter
 
 ---
 

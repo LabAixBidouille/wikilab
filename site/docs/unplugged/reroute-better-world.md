@@ -110,11 +110,11 @@ Chaque joueur gagne un nombre de points égal au nombre de villes traversées. L
 
 ### Sujet 1 - La pensée informatique
 
-- [https://sphero.com/blogs/news/how-to-teach-computational-thinking-in-classroom](https://sphero.com/blogs/news/how-to-teach-computational-thinking-in-classroom)
+- https://sphero.com/blogs/news/how-to-teach-computational-thinking-in-classroom
 
 ### Sujet 2 - Naviguer dans l'espace
 
-- [https://www.parentingforbrain.com/visual-spatial-reasoning-skills-stem/](https://www.parentingforbrain.com/visual-spatial-reasoning-skills-stem/)
+- https://www.parentingforbrain.com/visual-spatial-reasoning-skills-stem/
 
 ### Sujet 3 - Coexistence
 

@@ -263,7 +263,7 @@ Un deuxième tour peut être joué (mais l'enseignant·e doit veiller à ne pas 
 
 :::info[Crédits]
 
-Ce jeu est basé sur le travail de planktomania : [https://planktomania.org](https://planktomania.org) et utilise le jeu de cartes planktomania comme point de départ. Les dessins et tableaux de référence se trouvent ici : [www.eclm.fr/livre/le-manuel-du-plancton/](https://www.eclm.fr/livre/le-manuel-du-plancton/). Les images de référence se trouvent ici : [https://planktonchronicles.org/fr/le-projet/](https://planktonchronicles.org/fr/le-projet/)
+Ce jeu est basé sur le travail de planktomania : https://planktomania.org et utilise le jeu de cartes planktomania comme point de départ. Les dessins et tableaux de référence se trouvent ici : [www.eclm.fr/livre/le-manuel-du-plancton/](https://www.eclm.fr/livre/le-manuel-du-plancton/). Les images de référence se trouvent ici : https://planktonchronicles.org/fr/le-projet/
 :::
 
 ### Set de questions
@@ -319,19 +319,19 @@ Cartes personnage (Ressource 1), set de questions (Ressource 2), pyramide alimen
 
 ### Thème 1 - Les mouvements des animaux
 
-La dernière partie de l'activité, qui consiste à demander aux enfants de reproduire le mouvement des animaux marins, peut être étendue à tous les animaux. Vous trouverez de nombreuses vidéos d'animaux sur Internet. Utilisez-les comme base pour essayer de reproduire le plus grand nombre possible de marches d'animaux. Vous pouvez aussi vous baser sur cette vidéo : [https://www.youtube.com/watch?v=-KezeE9-y0c](https://www.youtube.com/watch?v=-KezeE9-y0c)
+La dernière partie de l'activité, qui consiste à demander aux enfants de reproduire le mouvement des animaux marins, peut être étendue à tous les animaux. Vous trouverez de nombreuses vidéos d'animaux sur Internet. Utilisez-les comme base pour essayer de reproduire le plus grand nombre possible de marches d'animaux. Vous pouvez aussi vous baser sur cette vidéo : https://www.youtube.com/watch?v=-KezeE9-y0c
 
 ### Thème 2 - Découvrir le plancton
 
 Apprenez-en encore plus sur le plancton en regardant la télé plancton sur planktomania et Chroniques du plancton.
 
-- [https://planktomania.org/#planctontv](https://planktomania.org/#planctontv)
-- [https://planktonchronicles.org/en/episodes/](https://planktonchronicles.org/en/episodes/)
+- https://planktomania.org/#planctontv
+- https://planktonchronicles.org/en/episodes/
 - Capitaine Coco - YouTube
 
 ### Thème 3 - Jouer avec le plancton
 
-Jouez au jeu du plancton "7 familles" pour apprendre à connaître les différentes familles de plancton et à les étudier. Le jeu est disponible sur le site planktomania dans la rubrique jeux : [https://planktomania.org/en/#modeles](https://planktomania.org/en/#modeles)
+Jouez au jeu du plancton "7 familles" pour apprendre à connaître les différentes familles de plancton et à les étudier. Le jeu est disponible sur le site planktomania dans la rubrique jeux : https://planktomania.org/en/#modeles
 
 ---
 

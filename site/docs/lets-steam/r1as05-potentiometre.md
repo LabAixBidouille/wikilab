@@ -71,7 +71,7 @@ Les potentiomètres sont couramment utilisés pour **contrôler des dispositifs 
 
 Les potentiomètres sont rarement utilisés pour contrôler directement une puissance importante (plus d'un watt) car la puissance dissipée serait comparable à la puissance de la charge contrôlée.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Potentiometer](https://en.wikipedia.org/wiki/Potentiometer)
+**Ressource :** https://en.wikipedia.org/wiki/Potentiometer
 :::
 
 <img src="/img/ressources/lets-steam/r1as05-potentiometre/bitmap.png" alt="Schéma de câblage du potentiomètre" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
@@ -158,16 +158,16 @@ Comme vous le verrez en utilisant ce programme, vous n'utiliserez pas la gamme c
 ## Aller plus loin
 
 - **Modulation de largeur d'impulsion** - Tutoriel Arduino sur l'utilisation d'une sortie analogique (PWM) pour faire clignoter une LED.
-  [https://www.arduino.cc/en/Tutorial/Foundations/PWM](https://www.arduino.cc/en/Tutorial/Foundations/PWM)
+  https://www.arduino.cc/en/Tutorial/Foundations/PWM
 
 - **Diviseurs de tension** - Découvrez comment les diviseurs de tension se comportent.
-  [https://learn.sparkfun.com/tutorials/voltage-dividers](https://learn.sparkfun.com/tutorials/voltage-dividers)
+  https://learn.sparkfun.com/tutorials/voltage-dividers
 
 - **Jeu de pong Arduino avec une matrice de 24x16 LED avec MAX7219** - Construire une petite console de pong.
-  [https://www.youtube.com/watch?v=dK9F5AJM2XI](https://www.youtube.com/watch?v=dK9F5AJM2XI)
+  https://www.youtube.com/watch?v=dK9F5AJM2XI
 
 - **Jeu du potentiomètre** - Contrôlez le personnage dans un jeu à l'aide d'un potentiomètre.
-  [https://www.hackster.io/matejadjukic03/potentiometer-game-05ee93?f=1#](https://www.hackster.io/matejadjukic03/potentiometer-game-05ee93?f=1#)
+  https://www.hackster.io/matejadjukic03/potentiometer-game-05ee93?f=1#
 
 ---
 

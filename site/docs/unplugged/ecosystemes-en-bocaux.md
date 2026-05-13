@@ -138,27 +138,27 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 
 ### Sujet 1 - Concept d'écosystème
 
-- Comment créer un écosystème dans un bocal : [https://www.nsta.org/science-teacher/science-teacher-januaryfebruary2021/ecosystem-jar](https://www.nsta.org/science-teacher/science-teacher-januaryfebruary2021/ecosystem-jar)
-- Qu'est-ce qu'un écosystème : [https://learnykids.com/worksheets/what-is-an-ecosystem](https://learnykids.com/worksheets/what-is-an-ecosystem)
-- Ecosystèmes, Leçon de science pour les enfants : [https://www.generationgenius.com/ecosystems-for-kids/](https://www.generationgenius.com/ecosystems-for-kids/)
-- L'écosystème, vidéo éducative pour les enfants : [https://www.youtube.com/watch?v=qr_U1P7XwhI](https://www.youtube.com/watch?v=qr_U1P7XwhI)
+- Comment créer un écosystème dans un bocal : https://www.nsta.org/science-teacher/science-teacher-januaryfebruary2021/ecosystem-jar
+- Qu'est-ce qu'un écosystème : https://learnykids.com/worksheets/what-is-an-ecosystem
+- Ecosystèmes, Leçon de science pour les enfants : https://www.generationgenius.com/ecosystems-for-kids/
+- L'écosystème, vidéo éducative pour les enfants : https://www.youtube.com/watch?v=qr_U1P7XwhI
 
 ### Sujet 2 - Interaction entre les composants de l'écosystème
 
-- Interaction dans l'écosystème - YouTube : [https://www.youtube.com/watch?v=XJ6VtduDSyY](https://www.youtube.com/watch?v=XJ6VtduDSyY)
-- 10 composantes biotiques et abiotiques des écosystèmes avec l'explication : [https://deepoceanfacts.com/biotic-and-abiotic-components-ecosystems](https://deepoceanfacts.com/biotic-and-abiotic-components-ecosystems)
+- Interaction dans l'écosystème - YouTube : https://www.youtube.com/watch?v=XJ6VtduDSyY
+- 10 composantes biotiques et abiotiques des écosystèmes avec l'explication : https://deepoceanfacts.com/biotic-and-abiotic-components-ecosystems
 
 ### Sujet 3 - Explorer et expérimenter
 
-- Plan de cours sur les écosystèmes de la science d'investigation : [https://www.nfer.ac.uk/media/3097/timss_lesson_plans_ecosystems.pdf](https://www.nfer.ac.uk/media/3097/timss_lesson_plans_ecosystems.pdf)
-- Activités pratiques pour présenter les écosystèmes aux élèves du primaire : [https://www.plt.org/educator-tips/ecosystem-activities-elementary-students](https://www.plt.org/educator-tips/ecosystem-activities-elementary-students)
-- Activités et expériences pour explorer la photosynthèse en classe : [https://www.plt.org/educator-tips/activities-experiments-photosynthesis-classroom/](https://www.plt.org/educator-tips/activities-experiments-photosynthesis-classroom/)
+- Plan de cours sur les écosystèmes de la science d'investigation : https://www.nfer.ac.uk/media/3097/timss_lesson_plans_ecosystems.pdf
+- Activités pratiques pour présenter les écosystèmes aux élèves du primaire : https://www.plt.org/educator-tips/ecosystem-activities-elementary-students
+- Activités et expériences pour explorer la photosynthèse en classe : https://www.plt.org/educator-tips/activities-experiments-photosynthesis-classroom/
 
 ### Sujet 4 - Discussion ouverte
 
-- Objectifs de développement durable | Programme des Nations unies pour le développement : [https://www.undp.org/sustainable-development-goals](https://www.undp.org/sustainable-development-goals)
-- Feuille de travail sur les écosystèmes pour les enfants : [https://kidsworksheetfun.com/ecosystem-worksheet-for-kids](https://kidsworksheetfun.com/ecosystem-worksheet-for-kids)
-- Idées fausses et courantes sur les biomes et les écosystèmes : [https://beyondpenguins.ehe.osu.edu/issue/tundra-life-in-the-polar-extremes/common-misconceptions-about-biomes-and-ecosystems](https://beyondpenguins.ehe.osu.edu/issue/tundra-life-in-the-polar-extremes/common-misconceptions-about-biomes-and-ecosystems)
+- Objectifs de développement durable | Programme des Nations unies pour le développement : https://www.undp.org/sustainable-development-goals
+- Feuille de travail sur les écosystèmes pour les enfants : https://kidsworksheetfun.com/ecosystem-worksheet-for-kids
+- Idées fausses et courantes sur les biomes et les écosystèmes : https://beyondpenguins.ehe.osu.edu/issue/tundra-life-in-the-polar-extremes/common-misconceptions-about-biomes-and-ecosystems
 
 ---
 

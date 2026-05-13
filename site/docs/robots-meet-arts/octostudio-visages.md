@@ -69,10 +69,10 @@ sidebar_position: 16
 
 ## Liens utiles
 
-- Guide de référence Octo Studio : [https://octostudio.org/resources/Reference%20Guide.pdf](https://octostudio.org/resources/Reference%20Guide.pdf)
+- Guide de référence Octo Studio : https://octostudio.org/resources/Reference%20Guide.pdf
 - Source d'inspiration pour cette séance : [présentation Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vRuuU6uQNuqVtodR9bVa0IfI1XmOEc4FSoO4BPEisfwGi551g9bSaKTfp1zgalKkVdbVITxNtYB3hLJ/pub)
-- Site web de Hanoch Piven : [https://www.pivenworld.com/](https://www.pivenworld.com/)
-- Vidéo d'inspiration pour créer des visages : [https://vimeo.com/508166355/87a701bc4c](https://vimeo.com/508166355/87a701bc4c)
+- Site web de Hanoch Piven : https://www.pivenworld.com/
+- Vidéo d'inspiration pour créer des visages : https://vimeo.com/508166355/87a701bc4c
 
 ---
 
@@ -89,7 +89,7 @@ Si vous ne disposez pas d'assez de tablettes pour chaque binôme, envisagez une 
 
 ### Rencontre avec Hanoch Piven
 
-En démarrage de séquence, montrez le site de Hanoch Piven ([https://www.pivenworld.com](https://www.pivenworld.com)) et explorez ses œuvres. Discutez de la façon dont il construit ses créations à partir d'objets du quotidien. Expliquez aux élèves que durant cette séance, ils vont créer et animer leur propre œuvre à la manière de Hanoch Piven en utilisant Octo Studio.
+En démarrage de séquence, montrez le site de Hanoch Piven (https://www.pivenworld.com) et explorez ses œuvres. Discutez de la façon dont il construit ses créations à partir d'objets du quotidien. Expliquez aux élèves que durant cette séance, ils vont créer et animer leur propre œuvre à la manière de Hanoch Piven en utilisant Octo Studio.
 
 ### Observer les expressions théâtrales
 
@@ -131,7 +131,7 @@ Expliquez aux élèves qu'aujourd'hui, ils vont travailler sur quatre émotions 
 
 Présentez la bibliothèque de matériaux. Expliquez que les élèves vont créer leurs propres visages avec les objets disponibles, sur le fond de papier blanc. Demandez-leur de nommer les éléments qu'ils peuvent faire varier : yeux, nez, bouche, sourcils...
 
-L'objectif est de réaliser les 4 expressions faciales avec les mêmes matériaux. Cette vidéo peut servir d'inspiration supplémentaire : [https://vimeo.com/508166355/87a701bc4c](https://vimeo.com/508166355/87a701bc4c)
+L'objectif est de réaliser les 4 expressions faciales avec les mêmes matériaux. Cette vidéo peut servir d'inspiration supplémentaire : https://vimeo.com/508166355/87a701bc4c
 
 <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempler%C3%A9alisationvisage.png" alt="Exemple de réalisation de visage" style={{maxWidth: '100%', height: 'auto'}} />
 

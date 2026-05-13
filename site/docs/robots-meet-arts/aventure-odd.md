@@ -31,7 +31,7 @@ sidebar_position: 18
 - Unplugged Quest : activités débranchées autour des ODD.
 - Papier, crayons, feutres pour le storyboard.
 
-**Accès à MakeCode Arcade** ([https://arcade.makecode.com/](https://arcade.makecode.com/)) :
+**Accès à MakeCode Arcade** (https://arcade.makecode.com/) :
 
 - Ordinateurs ou tablettes avec connexion internet.
 - Si disponible, vidéoprojecteur ou tableau interactif pour les démonstrations.
@@ -57,13 +57,13 @@ sidebar_position: 18
 
 ## Liens utiles
 
-- MakeCode Arcade (créer et partager des jeux) : [https://arcade.makecode.com](https://arcade.makecode.com)
-- Go Goals! (ONU) : jeu de plateau pour découvrir les ODD : [https://go-goals.org](https://go-goals.org)
-- Unplugged Quest : activités débranchées autour des ODD : [https://unplugged-quest.eu/](https://unplugged-quest.eu/)
-- Icônes et ressources officielles des ODD : [https://globalgoals.org/resources](https://globalgoals.org/resources)
-- ONU : Ressources pour les élèves sur le développement durable : [https://www.un.org/sustainabledevelopment/student-resources/](https://www.un.org/sustainabledevelopment/student-resources/)
-- UNESCO : Ressources pédagogiques sur les ODD : [https://www.unesco.org/en/sustainable-development/education](https://www.unesco.org/en/sustainable-development/education)
-- Université de York : Kit pédagogique ODD pour la classe : [https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/](https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/)
+- MakeCode Arcade (créer et partager des jeux) : https://arcade.makecode.com
+- Go Goals! (ONU) : jeu de plateau pour découvrir les ODD : https://go-goals.org
+- Unplugged Quest : activités débranchées autour des ODD : https://unplugged-quest.eu/
+- Icônes et ressources officielles des ODD : https://globalgoals.org/resources
+- ONU : Ressources pour les élèves sur le développement durable : https://www.un.org/sustainabledevelopment/student-resources/
+- UNESCO : Ressources pédagogiques sur les ODD : https://www.unesco.org/en/sustainable-development/education
+- Université de York : Kit pédagogique ODD pour la classe : https://www.yorku.ca/unsdgs/toolkit/teaching-the-17-un-sdgs/sdg-resources-for-the-classrooms/
 
 ---
 
@@ -135,16 +135,16 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 
 #### 1. Explorer les ressources de l'UNESCO et de l'ONU
 
-- **Go Goals!** : go Goals! est un jeu de plateau créé par l'ONU pour aider les enfants à découvrir les ODD de manière simple et conviviale. En répondant à des questions, en lançant les dés et en déplaçant des pions, les élèves pratiquent la coopération et apprennent en s'amusant. [http://go-goals.org/](http://go-goals.org/)
+- **Go Goals!** : go Goals! est un jeu de plateau créé par l'ONU pour aider les enfants à découvrir les ODD de manière simple et conviviale. En répondant à des questions, en lançant les dés et en déplaçant des pions, les élèves pratiquent la coopération et apprennent en s'amusant. http://go-goals.org/
 
   <img src="/img/ressources/robots-meet-arts/aventure-odd/SDG_BoardGame_FR-1000px-1024x724.png" alt="Plateau de jeu Go Goals" style={{maxWidth: '100%', height: 'auto', marginTop: '0.5rem'}} />
 
-- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d'aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l'empathie et l'imagination, tout en donnant un visage humain aux défis mondiaux. [https://www.un.org/sustainabledevelopment/sdgbookclub/](https://www.un.org/sustainabledevelopment/sdgbookclub/)
-- **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l'importance de l'eau et le respect de l'environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. [https://issuu.com/unpublications/docs/frieda\_2018](https://issuu.com/unpublications/docs/frieda_2018)
+- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d'aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l'empathie et l'imagination, tout en donnant un visage humain aux défis mondiaux. https://www.un.org/sustainabledevelopment/sdgbookclub/
+- **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l'importance de l'eau et le respect de l'environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. https://issuu.com/unpublications/docs/frieda_2018
 
 #### 2. Explorer d'autres ressources ludiques : L'exemple d'Unplugged Quest
 
-[https://github.com/unplugged-quest/games](https://github.com/unplugged-quest/games)
+https://github.com/unplugged-quest/games
 
 Unplugged Quest est un projet Erasmus+ qui vise à contribuer au développement de l'éducation à la citoyenneté, entendue comme un ensemble de connaissances, compétences et attitudes permettant aux enfants de reconnaître les valeurs nécessaires à la vie en communauté. Pour atteindre cet objectif pédagogique, Unplugged Quest a créé un écosystème d'apprentissage par le jeu dédié aux enjeux de société. La plateforme propose une variété de jeux, chacun centré sur une thématique citoyenne comme l'égalité, la solidarité, la diversité ou le développement durable. Les enseignants et éducateurs peuvent composer leur propre parcours d'apprentissage en sélectionnant et combinant les jeux selon l'âge des élèves, le temps disponible et les compétences visées. Cette flexibilité fait d'Unplugged Quest une porte d'entrée ludique vers les ODD et l'éducation à la citoyenneté.
 
@@ -228,7 +228,7 @@ Cette deuxième activité vise donc à :
 - analyser comment leurs idées peuvent s'intégrer aux fonctionnalités offertes par MakeCode Arcade ;
 - définir leur contribution au scénario collectif, en combinant les possibilités techniques avec leurs idées créatives.
 
-Commencez par leur montrer quelques vidéos, tutoriels et programmes créés sur MakeCode Arcade via YouTube : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
+Commencez par leur montrer quelques vidéos, tutoriels et programmes créés sur MakeCode Arcade via YouTube : https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q
 
 Le matériel informatique étant souvent limité en classe, les activités peuvent être organisées en parallèle : certains élèves utilisent les ordinateurs pour découvrir MakeCode, tandis que les autres poursuivent leur réflexion et esquissent leurs idées. Ils tournent ensuite pour atteindre les objectifs de cette étape : apprendre à utiliser le logiciel et identifier comment il peut permettre de concrétiser leurs idées.
 
@@ -332,11 +332,11 @@ Les Skill Maps sont des guides visuels qui montrent les étapes pour atteindre u
 
 #### Étape 1 : Accéder aux Skill Maps
 
-Ouvrez MakeCode Arcade [https://arcade.makecode.com/](https://arcade.makecode.com/). Repérez l'espace Beginner Skillmaps situé juste en dessous du bouton Nouveau projet.
+Ouvrez MakeCode Arcade https://arcade.makecode.com/. Repérez l'espace Beginner Skillmaps situé juste en dessous du bouton Nouveau projet.
 
 #### Étape 2 : Explorer les parcours
 
-Parcourez les différentes Skill Maps disponibles, classées par ordre de complexité. Si vous découvrez MakeCode Arcade ou si vous créez une activité pour la première fois, commencez par la Skill Map « Full of Stories » pour découvrir les blocs les plus couramment utilisés : [https://arcade.makecode.com/--skillmap#story](https://arcade.makecode.com/--skillmap#story)
+Parcourez les différentes Skill Maps disponibles, classées par ordre de complexité. Si vous découvrez MakeCode Arcade ou si vous créez une activité pour la première fois, commencez par la Skill Map « Full of Stories » pour découvrir les blocs les plus couramment utilisés : https://arcade.makecode.com/--skillmap#story
 
 #### Étape 3 : Découvrir les niveaux
 
@@ -366,10 +366,10 @@ Si la Skill Map « Full of Stories » est trop simple pour vos participants, exp
 
 ### Pour aller plus loin : Vidéos et tutoriels en ligne
 
-- MakeCode Arcade : Playlist YouTube officielle : [https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T\_Q](https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q)
-- Introduction à MakeCode Arcade : [https://www.youtube.com/watch?v=DE\_-0flM324](https://www.youtube.com/watch?v=DE_-0flM324)
-- Comment créer un jeu simple dans MakeCode Arcade : [https://www.youtube.com/watch?v=kiP6YSkOdTQ&list=PLMMBk9hE-SeoU2gS3trU9gRKbX0hX8p7O](https://www.youtube.com/watch?v=kiP6YSkOdTQ&list=PLMMBk9hE-SeoU2gS3trU9gRKbX0hX8p7O)
-- Tutoriel débutant : MakeCode Arcade : [https://arcade.makecode.com/tutorials](https://arcade.makecode.com/tutorials)
+- MakeCode Arcade : Playlist YouTube officielle : https://www.youtube.com/channel/UCye7YlvFUUQ1dSy0WZZ1T_Q
+- Introduction à MakeCode Arcade : https://www.youtube.com/watch?v=DE_-0flM324
+- Comment créer un jeu simple dans MakeCode Arcade : https://www.youtube.com/watch?v=kiP6YSkOdTQ&list=PLMMBk9hE-SeoU2gS3trU9gRKbX0hX8p7O
+- Tutoriel débutant : MakeCode Arcade : https://arcade.makecode.com/tutorials
 
 ---
 

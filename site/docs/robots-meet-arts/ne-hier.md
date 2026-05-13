@@ -27,7 +27,7 @@ sidebar_position: 28
 - Grille 6x6 (version géante au sol ou version papier A3/A4)
 - Fiches de mémorisation (une par équipe)
 - Récompenses (bonbons, pompons, jetons ou points) pour simuler le renforcement
-- Ordinateur/tablette avec accès à BioLearningGame : [https://steamcity.github.io/BioLearningGame/](https://steamcity.github.io/BioLearningGame/)
+- Ordinateur/tablette avec accès à BioLearningGame : https://steamcity.github.io/BioLearningGame/
 - Vidéoprojecteur pour démonstration collective
 - Robots pour la partie programmation (Cubetto, Sphero Indi, robot micro:bit ou un seul type)
 
@@ -77,12 +77,12 @@ Les compétences mobilisées sont les suivantes :
 
 ## Liens utiles
 
-- BioLearningGame : Outil de simulation IA : [https://steamcity.github.io/BioLearningGame/](https://steamcity.github.io/BioLearningGame/)
-- Machine Learning for Kids : [https://machinelearningforkids.co.uk](https://machinelearningforkids.co.uk)
-- Cubetto : Documentation : [https://www.primotoys.com](https://www.primotoys.com)
-- Sphero Indi : Guide pédagogique : [https://sphero.com/pages/indi](https://sphero.com/pages/indi)
-- MakeCode micro:bit : [https://makecode.microbit.org](https://makecode.microbit.org)
-- CS Unplugged : Activités débranchées : [https://csunplugged.org](https://csunplugged.org)
+- BioLearningGame : Outil de simulation IA : https://steamcity.github.io/BioLearningGame/
+- Machine Learning for Kids : https://machinelearningforkids.co.uk
+- Cubetto : Documentation : https://www.primotoys.com
+- Sphero Indi : Guide pédagogique : https://sphero.com/pages/indi
+- MakeCode micro:bit : https://makecode.microbit.org
+- CS Unplugged : Activités débranchées : https://csunplugged.org
 
 ---
 
@@ -279,7 +279,7 @@ Affichez les fiches (ou faites circuler) et animez une discussion :
 - « Y a-t-il eu des difficultés à relire vos propres notes ? »
 - « Si vous deviez refaire l'activité, que changeriez-vous sur votre fiche ? »
 
-Maintenant que les élèves ont vécu l'expérience d'apprendre un chemin et de le mémoriser, montrez-leur comment une intelligence artificielle résout exactement le même problème. Projetez BioLearningGame ([https://steamcity.github.io/BioLearningGame/](https://steamcity.github.io/BioLearningGame/)), spécifiquement l'onglet appelé « AI Part ».
+Maintenant que les élèves ont vécu l'expérience d'apprendre un chemin et de le mémoriser, montrez-leur comment une intelligence artificielle résout exactement le même problème. Projetez BioLearningGame (https://steamcity.github.io/BioLearningGame/), spécifiquement l'onglet appelé « AI Part ».
 
 <img src="/img/ressources/robots-meet-arts/ne-hier/biolearninggame.png" alt="BioLearningGame - AI Part" style={{width: '100%', height: 'auto'}} />
 
@@ -329,7 +329,7 @@ Pour la trace écrite, créez ensemble une affiche ou un document récapitulatif
 
 ## Annexe : Tutoriel Cubetto
 
-*Source : [https://primotoys.com/cubetto-user-manual/](https://primotoys.com/cubetto-user-manual/)*
+*Source : https://primotoys.com/cubetto-user-manual/*
 
 ### Introduction
 
@@ -423,7 +423,7 @@ Le bloc fonction bleu est un outil puissant qui permet aux enfants de regrouper 
 
 ## Annexe : Tutoriel Sphero Indi
 
-*Source : [https://cdn.shopify.com/s/files/1/0306/6419/6141/files/Indi-Booklet_150x150_v15_outlined.pdf](https://cdn.shopify.com/s/files/1/0306/6419/6141/files/Indi-Booklet_150x150_v15_outlined.pdf)*
+*Source : https://cdn.shopify.com/s/files/1/0306/6419/6141/files/Indi-Booklet_150x150_v15_outlined.pdf*
 
 ### Introduction
 
@@ -455,7 +455,7 @@ Indi est livré avec un ensemble de tuiles en silicone colorées. Chaque couleur
 
 Certains souhaitent créer leurs propres tuiles, cartes ou chemins pour Indi. Gardez à l'esprit que chaque couleur est programmée dans le firmware et instantanément reconnaissable par Indi. D'autres sources de couleur, comme le papier de construction ou les feutres, peuvent ne pas offrir une expérience aussi cohérente que les tuiles et/ou cartes de couleur fournies avec votre Indi.
 
-Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : [https://sphero.com/pages/sphero-indi](https://sphero.com/pages/sphero-indi). N'hésitez pas à créer autant de chemins que possible et amusez-vous !
+Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : https://sphero.com/pages/sphero-indi. N'hésitez pas à créer autant de chemins que possible et amusez-vous !
 
 ---
 
@@ -476,7 +476,7 @@ MakeCode est un environnement de programmation gratuit, basé sur navigateur, d�
 - Simulateur inclus : tester les programmes sans matériel physique
 - Documentation complète : tutoriels, exemples et ressources enseignants intégrés
 
-Accéder à MakeCode : [https://makecode.microbit.org/](https://makecode.microbit.org/)
+Accéder à MakeCode : https://makecode.microbit.org/
 
 MakeCode propose trois façons d'écrire le même programme :
 
@@ -522,7 +522,7 @@ Les valeurs de vitesse vont de -255 (pleine marche arrière) à 255 (pleine marc
 
 ### Programme de navigation sur grille : Un exemple de classe
 
-Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une grille. Il a été développé pour être utilisé avec le curriculum d'Apprentissage Bio-inspiré, où les élèves mémorisent d'abord un itinéraire eux-mêmes, puis programment le robot pour suivre le même chemin. Le programme est visible ici : [https://makecode.microbit.org/S25194-48798-31124-89886](https://makecode.microbit.org/S25194-48798-31124-89886)
+Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une grille. Il a été développé pour être utilisé avec le curriculum d'Apprentissage Bio-inspiré, où les élèves mémorisent d'abord un itinéraire eux-mêmes, puis programment le robot pour suivre le même chemin. Le programme est visible ici : https://makecode.microbit.org/S25194-48798-31124-89886
 
 **Structure du programme** - Le programme est organisé en sections distinctes :
 

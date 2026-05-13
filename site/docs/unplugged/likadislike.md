@@ -114,15 +114,15 @@ Tous les joueurs retournent leurs cartes de réaction en même temps. Les joueur
 
 ### Sujet 1 - Exprimer une opinion
 
-- [https://www.rolemodels.me/news/express-opinions-confidently](https://www.rolemodels.me/news/express-opinions-confidently)
+- https://www.rolemodels.me/news/express-opinions-confidently
 
 ### Sujet 2 - Exprimer ses sentiments
 
-- [https://ideas.ted.com/how-to-raise-emotionally-intelligent-kids/](https://ideas.ted.com/how-to-raise-emotionally-intelligent-kids/)
+- https://ideas.ted.com/how-to-raise-emotionally-intelligent-kids/
 
 ### Sujet 3 - Inclusivité
 
-- [https://www.twinkl.bg/teaching-wiki/inclusion](https://www.twinkl.bg/teaching-wiki/inclusion)
+- https://www.twinkl.bg/teaching-wiki/inclusion
 
 ---
 

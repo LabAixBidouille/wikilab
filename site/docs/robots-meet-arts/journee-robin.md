@@ -66,9 +66,9 @@ sidebar_position: 26
 ## Liens utiles
 
 - Jeux de révision grammaticale sur le présent simple et la routine quotidienne :
-  - [https://wordwall.net/en-ar/community/present-simple/daily-routines](https://wordwall.net/en-ar/community/present-simple/daily-routines)
-  - [https://learnenglishkids.britishcouncil.org/category/topics/daily-routines](https://learnenglishkids.britishcouncil.org/category/topics/daily-routines)
-  - [https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines](https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines)
+  - https://wordwall.net/en-ar/community/present-simple/daily-routines
+  - https://learnenglishkids.britishcouncil.org/category/topics/daily-routines
+  - https://en.islcollective.com/english-esl-worksheets/grammar-practice/general-grammar-practice/daily-routines
 
 ---
 

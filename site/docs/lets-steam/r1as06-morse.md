@@ -50,7 +50,7 @@ sidebar_position: 6
 
 Le code Morse est une méthode utilisée dans les télécommunications pour coder les caractères d'un texte sous forme de séquences normalisées de deux durées de signal différentes, appelées **points** et **tirets**.
 
-**Ressource :** [https://en.wikipedia.org/wiki/Telecommunication](https://en.wikipedia.org/wiki/Telecommunication)
+**Ressource :** https://en.wikipedia.org/wiki/Telecommunication
 
 <img src="/img/ressources/lets-steam/r1as06-morse/International_Morse_Code-fr.svg" alt="Tableau du code Morse international" style={{maxWidth: '250px'}} />
 
@@ -67,7 +67,7 @@ Le code Morse est une méthode utilisée dans les télécommunications pour code
 
 Des micro-ondes aux jeux télévisés, les buzzers sont partout autour de nous et permettent de signaler quelque chose par un signal sonore. Pour émettre un son (ou un bruit), le buzzer contient une fine membrane (en quartz), qui vibre à une fréquence donnée (entre 20 Hz et 20 000 Hz, qui sont les fréquences audibles). Dans cette fiche d'activité, vous allez fixer quelques boutons et un buzzer à la carte et apprendre à communiquer en **Morse** !
 
-**Ressources :** [https://en.wikipedia.org/wiki/Buzzer](https://en.wikipedia.org/wiki/Buzzer), [https://en.wikipedia.org/wiki/Morse_code](https://en.wikipedia.org/wiki/Morse_code)
+**Ressources :** https://en.wikipedia.org/wiki/Buzzer, https://en.wikipedia.org/wiki/Morse_code
 :::
 
 <img src="/img/ressources/lets-steam/r1as06-morse/montage_buzzer.png" alt="Schéma de câblage du buzzer" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
@@ -156,16 +156,16 @@ Essayez d'envoyer "**SOS**" à quelqu'un !
 ## Aller plus loin
 
 - **Le code Morse** - Apprenez-en plus sur l'histoire du code Morse, les représentations, le timing, les vitesses et les méthodes d'apprentissage.
-  [https://en.wikipedia.org/wiki/Morse_code](https://en.wikipedia.org/wiki/Morse_code)
+  https://en.wikipedia.org/wiki/Morse_code
 
 - **Notions de base sur les buzzers** - Technologies, tonalités et circuits de commande.
-  [https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits](https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits)
+  https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits
 
 - **Son** - Découvrez les bases de l'acoustique, la physique et la perception des sons.
-  [https://en.wikipedia.org/wiki/Sound](https://en.wikipedia.org/wiki/Sound)
+  https://en.wikipedia.org/wiki/Sound
 
 - **Piano d'épingles à linge avec micro:bit** - Lire un signal analogique (0 à 1023) à partir de la broche.
-  [https://browndoggadgets.dozuki.com/Guide/Clothespin+Piano+with+micro:bit/302](https://browndoggadgets.dozuki.com/Guide/Clothespin+Piano+with+micro:bit/302)
+  https://browndoggadgets.dozuki.com/Guide/Clothespin+Piano+with+micro:bit/302
 
 ---
 

@@ -53,7 +53,7 @@ sidebar_position: 20
 
 ## Lien utile
 
-- [https://www.helpguide.org/relationships/communication/conflict-resolution-skills](https://www.helpguide.org/relationships/communication/conflict-resolution-skills)
+- https://www.helpguide.org/relationships/communication/conflict-resolution-skills
 
 ---
 

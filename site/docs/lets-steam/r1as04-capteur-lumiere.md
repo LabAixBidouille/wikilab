@@ -63,7 +63,7 @@ Cette fiche d'activité aborde les résistances. Une photorésistance (*Light De
 
 Cette activité illustre une caractéristique clé du *Physical Computing* : la possibilité de mesurer une quantité physique à l'aide d'un capteur et de représenter graphiquement la façon dont cette quantité varie dans le temps. Nous allons connecter une **photorésistance** (LDR) à la carte pour mesurer l'intensité de lumière. Ce type de capteur est appelé un **capteur analogique** car il présente une caractéristique analogique du circuit (tension) pour représenter la valeur physique réelle.
 
-**Ressource :** [https://www.watelectrical.com/what-are-analog-sensors-types-and-their-characteristics/](https://www.watelectrical.com/what-are-analog-sensors-types-and-their-characteristics/)
+**Ressource :** https://www.watelectrical.com/what-are-analog-sensors-types-and-their-characteristics/
 
 ### 1. Câbler la cellule photoélectrique
 
@@ -182,16 +182,16 @@ Le deuxième bloc écrit sur la console de la carte ce qui a été obtenu par la
 ## Aller plus loin
 
 - **Photorésistance** - En savoir plus sur les photorésistances, leurs applications et leur conception.
-  [https://en.wikipedia.org/wiki/Photoresistor](https://en.wikipedia.org/wiki/Photoresistor)
+  https://en.wikipedia.org/wiki/Photoresistor
 
 - **Guide de branchement des cellules photoélectriques** - Introduction rapide aux cellules photoélectriques résistives, et démonstration de leur branchement et de leur utilisation.
-  [https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all](https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all)
+  https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all
 
 - **Cellules photoélectriques** - Découvrez les cellules photoélectriques, une résistance qui change de valeur résistive en fonction de la quantité de lumière qui éclaire la face avec un circuit ondulé.
-  [https://learn.adafruit.com/photocells](https://learn.adafruit.com/photocells)
+  https://learn.adafruit.com/photocells
 
 - **Lecture analogique d'une broche** - Choisissez une broche et lisez un signal analogique (0-1023) à partir de celle-ci.
-  [https://makecode.microbit.org/reference/pins/analog-read-pin](https://makecode.microbit.org/reference/pins/analog-read-pin)
+  https://makecode.microbit.org/reference/pins/analog-read-pin
 
 ---
 

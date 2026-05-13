@@ -236,10 +236,10 @@ Pochoir - Attention, manque rampe
 
 ## Tutoriels vidéos
 
-- [https://www.youtube.com/@SilhouetteFrance](https://www.youtube.com/@SilhouetteFrance)
-- [https://www.youtube.com/@CricutFrance](https://www.youtube.com/@CricutFrance)
-- [https://www.youtube.com/watch?v=PV7iHqJn3FU](https://www.youtube.com/watch?v=PV7iHqJn3FU)
-- [https://www.youtube.com/watch?v=Mlra_XRrkg0](https://www.youtube.com/watch?v=Mlra_XRrkg0)
+- https://www.youtube.com/@SilhouetteFrance
+- https://www.youtube.com/@CricutFrance
+- https://www.youtube.com/watch?v=PV7iHqJn3FU
+- https://www.youtube.com/watch?v=Mlra_XRrkg0
 
 ---
 
