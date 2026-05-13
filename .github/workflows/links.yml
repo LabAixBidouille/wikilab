@@ -34,6 +34,12 @@ jobs:
       # Si oui, on passe son numéro à l'étape suivante pour mettre
       # à jour son contenu plutôt que d'en créer une nouvelle (sinon
       # on accumule 52 issues identiques par an, cf. #91).
+      #
+      # Tri explicite par `updatedAt` décroissant pour départager
+      # plusieurs issues homonymes (cas réel après #92 : #61 et #71
+      # existent toutes les deux). On met à jour la plus récemment
+      # touchée, ce qui converge sur une seule issue active dans le
+      # temps.
       - name: Find existing open issue
         id: find-issue
         if: steps.check-links.outputs.exit_code != '0'
@@ -44,8 +50,8 @@ jobs:
             --repo "${{ github.repository }}" \
             --search '"Liens externes cassés détectés" in:title' \
             --state open \
-            --json number \
-            --jq '.[0].number // empty')
+            --json number,updatedAt \
+            --jq 'sort_by(.updatedAt) | reverse | .[0].number // empty')
           echo "issue_number=${issue_number}" >> "$GITHUB_OUTPUT"
 
       - name: Update or create issue on failure

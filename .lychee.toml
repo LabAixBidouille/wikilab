@@ -12,7 +12,10 @@ accept = [200, 203, 206, 429]
 # déployé. Sans cette ligne, ~78 % des erreurs du rapport
 # hebdomadaire étaient des faux positifs "Cannot convert path ... to
 # a URI". Cf. issue #91.
-base = "https://wiki.labaixbidouille.com"
+#
+# La clé TOML est `base_url` (pas `base`, qui crashe lychee avec
+# "unknown field").
+base_url = "https://wiki.labaixbidouille.com"
 
 # Headers pour limiter les faux positifs
 include_verbatim = true
@@ -23,8 +26,10 @@ exclude = [
   # Liens internes : déjà validés par Docusaurus au build
   # (onBrokenLinks: 'throw'). Ce workflow vise uniquement les liens
   # externes, donc on exclut notre propre domaine après résolution
-  # via `base`.
-  "^https?://(www\\.)?wiki\\.labaixbidouille\\.com",
+  # via `base_url`. La borne `(/|$)` après le nom de domaine évite
+  # de matcher accidentellement un sous-domaine usurpé du type
+  # `wiki.labaixbidouille.com.evil.tld`.
+  "^https?://(www\\.)?wiki\\.labaixbidouille\\.com(/|$)",
 
   # Réseaux sociaux et accès login requis
   "^https://(www\\.)?linkedin\\.com",
