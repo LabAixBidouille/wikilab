@@ -697,3 +697,11 @@ Zooniverse
 # Marques de robots éducatifs
 Matatastudio
 matatastudio
+
+# Domaines cités en clair dans le texte (sans lien hypertexte) après
+# neutralisation des liens anti-bot pour réduire le bruit du rapport #71
+Exploratorium
+exploratorium
+oinkgames
+consilium
+europa
