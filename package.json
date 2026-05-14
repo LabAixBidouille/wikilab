@@ -43,5 +43,8 @@
       "prettier --check"
     ],
     "*.{json,css,yml,yaml}": "prettier --check"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
