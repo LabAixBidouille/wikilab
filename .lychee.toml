@@ -38,12 +38,13 @@ exclude = [
   # `wiki.labaixbidouille.com.evil.tld`.
   "^https?://(www\\.)?wiki\\.labaixbidouille\\.com(/|$)",
 
-  # Réseaux sociaux et accès login requis
-  "^https://(www\\.)?linkedin\\.com",
-  "^https://(www\\.)?facebook\\.com",
-  "^https://(www\\.)?instagram\\.com",
-  "^https://twitter\\.com",
-  "^https://x\\.com",
+  # Réseaux sociaux et accès login requis. La borne `(/|$)` après le nom de
+  # domaine évite de matcher un sous-domaine usurpé type `linkedin.com.evil.tld`.
+  "^https://(www\\.)?linkedin\\.com(/|$)",
+  "^https://(www\\.)?facebook\\.com(/|$)",
+  "^https://(www\\.)?instagram\\.com(/|$)",
+  "^https://twitter\\.com(/|$)",
+  "^https://x\\.com(/|$)",
   "^https://([a-z0-9-]+\\.)*github\\.com.*/blame/",
 
   # Services avec protection anti-bot (Cloudflare et co.) qui
@@ -51,34 +52,34 @@ exclude = [
   # dans un navigateur. À ne pas confondre avec les vraies 404 :
   # n'ajouter ici que les domaines récurrents et clairement anti-bot,
   # pas les liens qui ont peut-être déménagé.
-  "^https?://(www\\.)?leonardo\\.ai",
-  "^https?://(www\\.)?midjourney\\.com",
-  "^https?://(www\\.)?chatgpt\\.com",
-  "^https?://chat\\.openai\\.com",
-  "^https?://(www\\.)?openai\\.com",
-  "^https?://chat\\.mistral\\.ai",
-  "^https?://(www\\.)?canva\\.com",
-  "^https?://(www\\.)?microbit\\.org",
-  "^https?://(www\\.)?raspberrypi\\.com",
-  "^https?://helpx\\.adobe\\.com",
-  "^https?://(www\\.)?unsplash\\.com",
+  "^https?://(www\\.)?leonardo\\.ai(/|$)",
+  "^https?://(www\\.)?midjourney\\.com(/|$)",
+  "^https?://(www\\.)?chatgpt\\.com(/|$)",
+  "^https?://chat\\.openai\\.com(/|$)",
+  "^https?://(www\\.)?openai\\.com(/|$)",
+  "^https?://chat\\.mistral\\.ai(/|$)",
+  "^https?://(www\\.)?canva\\.com(/|$)",
+  "^https?://(www\\.)?microbit\\.org(/|$)",
+  "^https?://(www\\.)?raspberrypi\\.com(/|$)",
+  "^https?://helpx\\.adobe\\.com(/|$)",
+  "^https?://(www\\.)?unsplash\\.com(/|$)",
   # Banques d'images / icônes derrière Cloudflare (403 récurrents)
-  "^https?://(www\\.)?freepik\\.com",
-  "^https?://(www\\.)?flaticon\\.com",
+  "^https?://(www\\.)?freepik\\.com(/|$)",
+  "^https?://(www\\.)?flaticon\\.com(/|$)",
   # Plateformes éducatives et de jeux derrière Cloudflare / WAF
-  "^https?://(www\\.)?study\\.com",
-  "^https?://(www\\.)?daysofwonder\\.com",
-  "^https?://minds-in-bloom\\.com",
-  "^https?://quizlet\\.com",
+  "^https?://(www\\.)?study\\.com(/|$)",
+  "^https?://(www\\.)?daysofwonder\\.com(/|$)",
+  "^https?://minds-in-bloom\\.com(/|$)",
+  "^https?://quizlet\\.com(/|$)",
   # Revues scientifiques et encyclopédies (403 systématique sur les bots)
-  "^https?://(www\\.)?britannica\\.com",
-  "^https?://(www\\.)?researchgate\\.net",
-  "^https?://onlinelibrary\\.wiley\\.com",
-  "^https?://jamanetwork\\.com",
-  "^https?://medium\\.com",
+  "^https?://(www\\.)?britannica\\.com(/|$)",
+  "^https?://(www\\.)?researchgate\\.net(/|$)",
+  "^https?://onlinelibrary\\.wiley\\.com(/|$)",
+  "^https?://jamanetwork\\.com(/|$)",
+  "^https?://medium\\.com(/|$)",
   # Sites institutionnels souvent derrière WAF (ADEME, UNICEF)
-  "^https?://(www\\.)?ademe\\.fr",
-  "^https?://(www\\.)?unicef\\.org",
+  "^https?://(www\\.)?ademe\\.fr(/|$)",
+  "^https?://(www\\.)?unicef\\.org(/|$)",
 
   "^mailto:",
   "^tel:",
