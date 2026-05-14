@@ -100,7 +100,7 @@ Après avoir joué, les élèves découvrent des anecdotes sur les professions, 
 
 ### L'univers du jeu
 
-EQUAL est un jeu de société inspiré du Time's Up (https://www.asmodee.it/linea_timesup.php). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant, contribuant ainsi à dépasser les stéréotypes de genre.
+EQUAL est un jeu de société inspiré du Time's Up (archive.org 2023-09 : https://web.archive.org/web/20230922102956/https://www.asmodee.it/linea_timesup.php). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant, contribuant ainsi à dépasser les stéréotypes de genre.
 
 ### Qu'est-ce qui fait que le joueur avance et gagne ?
 

@@ -147,7 +147,7 @@ Voici aussi quelques bibliothèques en ligne qui proposent des activités plasti
 
 - https://diy.org/
 - http://krokotak.com/
-- Les Ludobox de La Fabulerie sont des petites activités de bricolage à imprimer et à réaliser à la maison. Retrouvez-les en français ici avec un tutoriel vidéo associé et un PDF téléchargeable : https://lefabuleuxmusee.com/les-ludobox-du-fabuleux-musee
+- Les Ludobox de La Fabulerie sont des petites activités de bricolage à imprimer et à réaliser à la maison. Retrouvez-les en français ici avec un tutoriel vidéo associé et un PDF téléchargeable : https://web.archive.org/web/20250219024139/https://lefabuleuxmusee.com/les-ludobox-du-fabuleux-musee (archive.org 2025-02)
 
 ### Sujet 2 - Apprentissage collaboratif
 

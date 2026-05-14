@@ -112,7 +112,6 @@ L'enseignant demande aux joueurs situés à la ligne d'arrivée de compter le no
 
 ### Sujet 1 - Pauvreté et égalité
 
-- https://www.verywellfamily.com/how-to-talk-to-kids-about-poverty-4142890
 - https://educators4sc.org/topic-guides/teaching-about-hunger-and-poverty/
 
 ### Sujet 2 - Addition et soustraction, stratégie

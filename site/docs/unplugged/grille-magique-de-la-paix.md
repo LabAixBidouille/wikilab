@@ -117,7 +117,6 @@ Une fois l'information découverte, toute la classe se retrouve pour présenter 
 
 ### Sujet 1 - Contrôle de parité
 
-- https://www.techopedia.com/definition/1803/parity-check
 - https://www.csunplugged.org/en/topics/error-detection-and-correction/unit-plan/parity-magic/
 - https://www.youtube.com/watch?v=2bI4E3Zbzdk
 

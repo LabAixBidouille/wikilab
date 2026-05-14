@@ -138,7 +138,6 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 
 ### Sujet 1 - Concept d'écosystème
 
-- Comment créer un écosystème dans un bocal : https://www.nsta.org/science-teacher/science-teacher-januaryfebruary2021/ecosystem-jar
 - Qu'est-ce qu'un écosystème : https://learnykids.com/worksheets/what-is-an-ecosystem
 - Ecosystèmes, Leçon de science pour les enfants : https://www.generationgenius.com/ecosystems-for-kids/
 - L'écosystème, vidéo éducative pour les enfants : https://www.youtube.com/watch?v=qr_U1P7XwhI
@@ -146,18 +145,18 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 ### Sujet 2 - Interaction entre les composants de l'écosystème
 
 - Interaction dans l'écosystème - YouTube : https://www.youtube.com/watch?v=XJ6VtduDSyY
-- 10 composantes biotiques et abiotiques des écosystèmes avec l'explication : https://deepoceanfacts.com/biotic-and-abiotic-components-ecosystems
+- 10 composantes biotiques et abiotiques des écosystèmes avec l'explication : https://web.archive.org/web/20221018101113/https://deepoceanfacts.com/biotic-and-abiotic-components-ecosystems (archive.org 2022-10)
 
 ### Sujet 3 - Explorer et expérimenter
 
-- Plan de cours sur les écosystèmes de la science d'investigation : https://www.nfer.ac.uk/media/3097/timss_lesson_plans_ecosystems.pdf
+- Plan de cours sur les écosystèmes de la science d'investigation : https://web.archive.org/web/20230606022424/https://www.nfer.ac.uk/media/3097/timss_lesson_plans_ecosystems.pdf (archive.org 2023-06)
 - Activités pratiques pour présenter les écosystèmes aux élèves du primaire : https://www.plt.org/educator-tips/ecosystem-activities-elementary-students
 - Activités et expériences pour explorer la photosynthèse en classe : https://www.plt.org/educator-tips/activities-experiments-photosynthesis-classroom/
 
 ### Sujet 4 - Discussion ouverte
 
 - Objectifs de développement durable | Programme des Nations unies pour le développement : https://www.undp.org/sustainable-development-goals
-- Feuille de travail sur les écosystèmes pour les enfants : https://kidsworksheetfun.com/ecosystem-worksheet-for-kids
+- Feuille de travail sur les écosystèmes pour les enfants : https://web.archive.org/web/20240917053029/https://kidsworksheetfun.com/ecosystem-worksheet-for-kids (archive.org 2024-09)
 - Idées fausses et courantes sur les biomes et les écosystèmes : https://beyondpenguins.ehe.osu.edu/issue/tundra-life-in-the-polar-extremes/common-misconceptions-about-biomes-and-ecosystems
 
 ---

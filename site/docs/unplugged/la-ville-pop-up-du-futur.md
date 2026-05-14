@@ -120,7 +120,7 @@ Quelle sera la bande sonore parfaite pour votre ville ? Essayez de l'enregistrer
 
 ### Thème 3 - Stimuler la créativité
 
-- https://lafabulerie.com/ressource/carte-pop-up/
+- https://web.archive.org/web/20250119002829/https://lafabulerie.com/ressource/carte-pop-up/ (archive.org 2025-01)
 - https://www.youtube.com/watch?v=wXWrw6JYGIE
 
 ---
