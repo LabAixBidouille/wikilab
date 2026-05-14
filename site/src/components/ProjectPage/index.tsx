@@ -11,7 +11,12 @@ import {
   type Resource,
 } from '../../data/resources';
 
-function renderResourceCard(r: Resource): React.ReactElement {
+// `titleLevel` permet d'imbriquer correctement les titres de fiche sous
+// un titre de section (h3) : on passe `h4` pour la navigation lecteur
+// d'écran et l'outline du document. Quand les ressources sont en liste
+// plate (sous le h2 « Ressources »), on garde `h3`.
+function renderResourceCard(r: Resource, titleLevel: 'h3' | 'h4' = 'h3'): React.ReactElement {
+  const TitleTag = titleLevel;
   return (
     <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
       <div
@@ -34,7 +39,7 @@ function renderResourceCard(r: Resource): React.ReactElement {
             }}
           />
         )}
-        <h3 style={{ margin: 0 }}>{r.title}</h3>
+        <TitleTag style={{ margin: 0 }}>{r.title}</TitleTag>
       </div>
       <p>{r.summary}</p>
       <div className="wikilab-project-resource-card__meta">
@@ -69,22 +74,27 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
 
   // Si au moins une ressource du projet porte un champ `section`, on
   // groupe par section au lieu d'afficher une liste plate. L'ordre des
-  // sections est celui de leur première apparition dans `resources` ;
-  // les ressources sans section partent dans une catégorie "Autres
-  // ressources" à la fin.
+  // sections nommées est celui de leur première apparition dans
+  // `resources` ; les ressources sans section sont collectées dans une
+  // catégorie « Autres ressources » qui est forcée en dernier, quel
+  // que soit l'ordre d'apparition (cas migration partielle : une fiche
+  // sans `section` peut précéder une fiche avec `section` dans la
+  // liste).
   const sectionedResources = useMemo<{ name: string; items: Resource[] }[] | null>(() => {
     const hasSections = projectResources.some((r) => r.section);
     if (!hasSections) return null;
-    const order: string[] = [];
+    const FALLBACK = 'Autres ressources';
+    const namedOrder: string[] = [];
     const buckets = new Map<string, Resource[]>();
     for (const r of projectResources) {
-      const key = r.section ?? 'Autres ressources';
+      const key = r.section ?? FALLBACK;
       if (!buckets.has(key)) {
         buckets.set(key, []);
-        order.push(key);
+        if (key !== FALLBACK) namedOrder.push(key);
       }
       buckets.get(key)!.push(r);
     }
+    const order = buckets.has(FALLBACK) ? [...namedOrder, FALLBACK] : namedOrder;
     return order.map((name) => ({ name, items: buckets.get(name)! }));
   }, [projectResources]);
 
@@ -284,7 +294,7 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
               <div key={s.name} className="wikilab-project-section-group">
                 <h3 className="wikilab-project-section-group__title">{s.name}</h3>
                 <div className="wikilab-project-resources">
-                  {s.items.map((r) => renderResourceCard(r))}
+                  {s.items.map((r) => renderResourceCard(r, 'h4'))}
                 </div>
               </div>
             ))
