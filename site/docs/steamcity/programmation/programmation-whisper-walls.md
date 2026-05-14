@@ -88,7 +88,7 @@ forever(function() {
 - Violet : SDA (D14)
 - Vert : SCL (D15)
 
-**Ressources sur les bus** : [I2C](https://fr.wikipedia.org/wiki/I2C), [SPI](https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface), [Qwiic](https://www.sparkfun.com/qwiic), [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemmaqt/what-is-stemma-qt).
+**Ressources sur les bus** : [I2C](https://fr.wikipedia.org/wiki/I2C), [SPI](https://fr.wikipedia.org/wiki/Serial_Peripheral_Interface), [Qwiic](https://www.sparkfun.com/qwiic), [STEMMA QT](https://learn.adafruit.com/introducing-adafruit-stemma-qt).
 
 **Installer l'extension** : cliquez sur **AVANCÉ** puis **EXTENSIONS** et ajoutez l'extension **lcd_i2c**.
 

@@ -583,7 +583,7 @@ Après la fin de cette discussion, Buddy passe à proposer des informations sur 
 - Si l'utilisateur dit oui, Buddy présente l'histoire de la ville.
 - Si l'utilisateur dit non, Buddy termine poliment la conversation : « D'accord. Je reste disponible si besoin »
 
-Voici notre exemple complet qui s'appuie sur toutes les activités de programmation réalisées dans les étapes précédentes, disponible à ce lien : https://share.codeskool.cc/cqZu
+Voici notre exemple complet qui s'appuie sur toutes les activités de programmation réalisées dans les étapes précédentes (lien de partage expiré, l'exemple n'est plus accessible publiquement).
 
 Cette investigation démontre que créer un agent conversationnel de base est relativement simple avec les bons outils et la bonne approche. Cependant, le défi clé réside dans la conception d'un flux de conversation logique et engageant qui apporte de la valeur aux utilisateurs. Bien que notre exemple utilise une structure simple et linéaire avec des réponses prédéterminées, cela ne représente qu'une seule approche d'implémentation possible.
 
