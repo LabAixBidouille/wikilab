@@ -157,7 +157,7 @@ Pour les éditeurs MakeCode, l'équivalent passe par le bloc _allumer la LED_ + 
 
 :::info[Notes pour l'enseignant·e]
 
-Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny).
+Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny).
 
 :::
 
@@ -167,9 +167,9 @@ Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'i
 
 Une fois la LED qui clignote validée, plusieurs pistes permettent d'explorer les capteurs et l'écran de la carte. Chacune fait l'objet d'une fiche dédiée :
 
-- **Allumer la LED selon la luminosité ambiante** : voir la fiche [Capteur de lumière en MicroPython](/ressources/inovmicro-exao/i11-capteur-lumiere).
-- **Faire sonner le buzzer en code Morse** : voir la fiche [Code Morse avec le buzzer](/ressources/inovmicro-exao/i13-code-morse).
-- **Afficher du texte et des graphismes sur l'écran OLED** : voir la fiche [Texte sur l'écran OLED](/ressources/inovmicro-exao/i17-texte-oled).
+- **Allumer la LED selon la luminosité ambiante** : voir la fiche [Capteur de lumière en MicroPython](/ressources/inovmicro-exao/i04-capteur-lumiere).
+- **Faire sonner le buzzer en code Morse** : voir la fiche [Code Morse avec le buzzer](/ressources/inovmicro-exao/i06-code-morse).
+- **Afficher du texte et des graphismes sur l'écran OLED** : voir la fiche [Texte sur l'écran OLED](/ressources/inovmicro-exao/i10-texte-oled).
 
 Pour les autres capteurs (température et humidité via le HTS221, accélération via l'ISM330DL, pression atmosphérique, magnétomètre), des fiches dédiées sont en préparation dans le cadre du projet I-Novmicro #2.
 

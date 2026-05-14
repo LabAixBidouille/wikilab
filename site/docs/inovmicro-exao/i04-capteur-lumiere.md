@@ -1,5 +1,5 @@
 ---
-id: i11-capteur-lumiere
+id: i04-capteur-lumiere
 title: Capteur de lumière avec la STeaMi
 sidebar_label: "Capteur de lumière"
 sidebar_position: 11
@@ -26,9 +26,9 @@ sidebar_position: 11
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
+- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
 </div>
-<img src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---
@@ -63,7 +63,7 @@ Le capteur **APDS-9960** est soudé sur la face avant de la STeaMi, près de l'�
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/01-emplacement-capteur.jpeg"
+    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/01-emplacement-capteur.jpeg"
     alt="Emplacement du capteur APDS-9960 sur la face avant de la STeaMi"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -80,7 +80,7 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
 
 ### Vérifier que le capteur répond
 
@@ -182,7 +182,7 @@ Une fois le programme lancé, plusieurs choses à essayer :
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i11-capteur-lumiere/02-thonny-shell-mesures.png"
+    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/02-thonny-shell-mesures.png"
     alt="Valeurs de lumière qui défilent dans la console MicroPython"
     style={{maxWidth: '100%', height: 'auto'}}
   />

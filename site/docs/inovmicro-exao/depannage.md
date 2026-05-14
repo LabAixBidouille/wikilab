@@ -75,7 +75,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 **Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
-**Solution** : (ré)installer MicroPython STeaMi en suivant la procédure de la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny), section *« Installer MicroPython sur la STeaMi »*. En résumé :
+**Solution** : (ré)installer MicroPython STeaMi en suivant la procédure de la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny), section *« Installer MicroPython sur la STeaMi »*. En résumé :
 
 1. Télécharger le fichier `steami-micropython-firmware-vX.Y.Z.hex` (le logiciel interne MicroPython de la STeaMi) depuis les [versions publiées sur GitHub](https://github.com/steamicc/micropython-steami-lib/releases).
 2. Glisser ce fichier sur le disque `STEAMI` qui apparaît à l'ordinateur.
@@ -141,7 +141,7 @@ Le programme reste accessible et exécutable manuellement (bouton Run de l'IDE),
 
 ## Ressources
 
-- [Thonny : Prise en main de MicroPython sur la STeaMi](/ressources/inovmicro-exao/i03-decouverte-thonny) : installation et configuration de l'IDE de référence
+- [Thonny : Prise en main de MicroPython sur la STeaMi](/ressources/inovmicro-exao/t03-decouverte-thonny) : installation et configuration de l'IDE de référence
 - [Wiki STeaMi : matériel](https://wiki.steami.cc/docs/hardware/) : pinout et caractéristiques de la carte
 - [Documentation MicroPython](https://docs.micropython.org/) : référence du langage et des modules
 

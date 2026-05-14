@@ -48,7 +48,7 @@ sidebar_position: 6
 
 :::info[Version STeaMi / MicroPython]
 
-Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Code Morse (I-Novmicro)](/ressources/inovmicro-exao/i13-code-morse).
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Code Morse (I-Novmicro)](/ressources/inovmicro-exao/i06-code-morse).
 
 :::
 
