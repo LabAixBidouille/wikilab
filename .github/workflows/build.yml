@@ -17,6 +17,7 @@ concurrency:
 
 jobs:
   lint:
+    name: Lint (Prettier, Markdown, cspell, crosslinks)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -47,6 +48,7 @@ jobs:
         run: npm run lint:crosslinks
 
   build:
+    name: Build Docusaurus + typecheck
     runs-on: ubuntu-latest
     defaults:
       run:
