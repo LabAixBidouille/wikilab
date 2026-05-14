@@ -4,23 +4,23 @@ Ce projet est principalement un **site de contenu** (Docusaurus). Il n'y a pas d
 
 ## Vue d'ensemble
 
-| Niveau                          | Quand                            | Outil                                |
-| ------------------------------- | -------------------------------- | ------------------------------------ |
-| Validation du nom de branche    | À chaque commit (hook)           | `validate-branch-name`               |
-| Détection FIXME/TODO/conflits   | À chaque commit (hook)           | `git-precommit-checks`               |
-| Lint des fichiers stagés        | À chaque commit (hook)           | `lint-staged`                        |
-| Validation du message de commit | À chaque commit (hook)           | `commitlint`                         |
-| Formatage                       | Avant push, en CI                | `npm run format:check` (Prettier)    |
-| Lint Markdown                   | Avant push, en CI                | `npm run lint:md` (markdownlint)     |
-| Lint orthographique             | Avant push, en CI                | `npm run lint:spell` (cspell)        |
-| Type-checking                   | Avant push, en CI                | `npm run site:typecheck`             |
-| Build                           | Avant push, en CI                | `npm run site:build`                 |
-| Liens cassés (internes)         | À chaque build (Docusaurus)      | Sortie du build                      |
-| Liens cassés (externes)         | Cron hebdomadaire (lundi 8h UTC) | `links.yml` (Lychee + Playwright)    |
-| Vérification visuelle           | Avant PR                         | Navigateur sur `npm run site:start`  |
-| Lint des liens croisés          | À venir (issue #26)              | `npm run lint:crosslinks`            |
-| Audit firmware STeaMi           | À venir (issue #27)              | Workflow GitHub Actions hebdomadaire |
-| Déploiement Pages               | Auto sur push `main`             | `.github/workflows/deploy.yml`       |
+| Niveau                          | Quand                            | Outil                               |
+| ------------------------------- | -------------------------------- | ----------------------------------- |
+| Validation du nom de branche    | À chaque commit (hook)           | `validate-branch-name`              |
+| Détection FIXME/TODO/conflits   | À chaque commit (hook)           | `git-precommit-checks`              |
+| Lint des fichiers stagés        | À chaque commit (hook)           | `lint-staged`                       |
+| Validation du message de commit | À chaque commit (hook)           | `commitlint`                        |
+| Formatage                       | Avant push, en CI                | `npm run format:check` (Prettier)   |
+| Lint Markdown                   | Avant push, en CI                | `npm run lint:md` (markdownlint)    |
+| Lint orthographique             | Avant push, en CI                | `npm run lint:spell` (cspell)       |
+| Type-checking                   | Avant push, en CI                | `npm run site:typecheck`            |
+| Build                           | Avant push, en CI                | `npm run site:build`                |
+| Liens cassés (internes)         | À chaque build (Docusaurus)      | Sortie du build                     |
+| Liens cassés (externes)         | Cron hebdomadaire (lundi 8h UTC) | `links.yml` (Lychee + Playwright)   |
+| Vérification visuelle           | Avant PR                         | Navigateur sur `npm run site:start` |
+| Lint des liens croisés          | À chaque PR (CI `build.yml`)     | `npm run lint:crosslinks`           |
+| Audit firmware STeaMi           | Cron hebdomadaire (lundi 9h UTC) | `firmware-audit.yml`                |
+| Déploiement Pages               | Auto sur push `main`             | `.github/workflows/deploy.yml`      |
 
 ## Vérifications côté contributeur
 
@@ -126,8 +126,9 @@ Sur chaque push `main` et chaque pull request :
 2. `npm run format:check` (Prettier)
 3. `npm run lint:md` (markdownlint)
 4. `npm run lint:spell` (cspell)
-5. `npm run site:typecheck` (TypeScript)
-6. `npm run site:build` (Docusaurus)
+5. `npm run lint:crosslinks` (réciprocité Let's STEAM ↔ I-NOVMICRO)
+6. `npm run site:typecheck` (TypeScript)
+7. `npm run site:build` (Docusaurus)
 
 **Si la CI échoue** : ne pas merger avant correction. Logs dans l'onglet Actions.
 
@@ -199,29 +200,25 @@ Quand le rapport remonte une URL qui est vraiment morte, l'ordre de préférence
 
 Une PR par projet (cf. l'historique des PR #115-#125) garde la revue lisible et le diff serré.
 
+### Lint des liens croisés Let's STEAM ↔ I-NOVMICRO (`npm run lint:crosslinks`)
+
+Le script [`site/scripts/lint-crosslinks.mjs`](site/scripts/lint-crosslinks.mjs) :
+
+- vérifie que chaque fiche I-NOVMICRO portée pointe vers sa source Let's STEAM (footer documenté dans `CONVENTIONS.md` §Fiches indépendantes de l'éditeur) ;
+- vérifie que la fiche Let's STEAM source pointe à son tour vers la version I-NOVMICRO (callout `:::info[Version STeaMi / MicroPython]` en haut de fiche) ;
+- détecte les liens cassés (cibles inexistantes).
+
+Lancé en CI via [`build.yml`](.github/workflows/build.yml) sur chaque PR. Sort en code 1 si désynchronisation, ce qui fait échouer la CI.
+
+### Workflow `firmware-audit.yml` (cron hebdomadaire, lundi 9h UTC)
+
+Compare la dernière release publiée du firmware MicroPython STeaMi (source : `steamicc/micropython-steami-lib`) avec les versions effectivement testées dans les fiches I-NOVMICRO (convention : ligne `# Testée avec firmware STeaMi X.Y.Z` en début de bloc Python, cf. [`CONVENTIONS.md`](CONVENTIONS.md) §Code MicroPython sur STeaMi).
+
+Ouvre (ou met à jour) une issue listant les fiches à retester si désynchronisation détectée. Lançable manuellement via `workflow_dispatch`.
+
 ### Workflow `auto-assign.yml`
 
 À l'ouverture d'une issue ou PR, assigne automatiquement un mainteneur.
-
-## Vérifications à venir
-
-### Lint des liens croisés (issue #26)
-
-Script TypeScript prévu dans `site/scripts/lint-crosslinks.ts` qui :
-
-- Vérifie que chaque fiche I-NOVMICRO portée pointe vers sa source Let's STEAM
-- Vérifie que chaque fiche Let's STEAM ayant une version portée pointe vers I-NOVMICRO
-- Détecte les liens cassés (cibles inexistantes)
-
-Sera intégré dans la CI : `npm run lint:crosslinks` avant `npm run site:build`.
-
-### Audit firmware STeaMi (issue #27)
-
-Workflow GitHub Actions séparé `firmware-audit.yml` qui :
-
-- Tourne en cron hebdomadaire ou mensuel
-- Compare la dernière release du firmware STeaMi avec les versions mentionnées dans les fiches I-NOVMICRO
-- Ouvre une issue automatique si désynchronisation détectée
 
 ## Audit périodique manuel
 
