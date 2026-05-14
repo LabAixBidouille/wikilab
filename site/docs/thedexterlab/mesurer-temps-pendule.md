@@ -283,7 +283,7 @@ Cette expérimentation avec un pendule et un mécanisme d'échappement a permis 
 Pour aller plus loin :
 
 - [Pendules et Horloges](https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/simple-harmonic-motion/a/simple-harmonic-motion-review) - Un cours de Khan Academy sur les oscillations.
-- [Explication des mécanismes d'échappement](https://www.explainthatstuff.com/how-escapements-work.html) - Un article expliquant le fonctionnement des mécanismes d'échappement.
+- [Explication des mécanismes d'échappement](https://www.explainthatstuff.com/how-pendulum-clocks-work.html) - Un article expliquant le fonctionnement des mécanismes d'échappement.
 
 ---
 
