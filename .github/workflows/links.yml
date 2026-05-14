@@ -44,12 +44,15 @@ jobs:
           # résumé GitHub est généré à partir du markdown ; ici on produit
           # du JSON brut, le résumé serait vide.
           #
-          # `lycheeVersion: v0.24.2` épingle la version pour matcher celle
-          # utilisée en local (cargo install). L'action par défaut prend
-          # v0.23.0 dont la sortie JSON est moins complète (pas de
-          # `span.line` pour les erreurs), ce qui faisait apparaître
-          # `ligne 0` partout dans le rapport.
-          lycheeVersion: v0.24.2
+          # Pas de `lycheeVersion` épinglée : l'action `@v2` ne sait pas
+          # extraire correctement l'archive lychee v0.24.x (binaire dans un
+          # sous-dossier au lieu de la racine du temp dir, cf. `install:
+          # cannot stat .../lychee-download/lychee`). On reste donc sur la
+          # version par défaut de l'action (v0.23.0 à ce jour), dont la
+          # sortie JSON n'inclut pas `span.line` pour les erreurs. Le script
+          # `verify-broken-links.mjs` gère ce cas en affichant `ligne ?` à
+          # la place du numéro de ligne. À ré-épingler quand l'action sera
+          # mise à jour pour gérer la nouvelle layout des releases.
           format: json
           output: ./lychee.json
           jobSummary: false
