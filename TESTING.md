@@ -141,6 +141,24 @@ Vérification des liens externes via [Lychee](https://github.com/lycheeverse/lyc
 
 Localement : `npm run lint:links` (Docker requis).
 
+### Vérification anti-bot via Playwright (`npm run verify-broken-links`)
+
+Lychee ne distingue pas une vraie 404 d'une 403 anti-bot (Cloudflare Turnstile, etc.). Le script [`site/scripts/verify-broken-links.mjs`](site/scripts/verify-broken-links.mjs) rejoue les erreurs lychee via un Chromium headless avec plugin stealth (`puppeteer-extra-plugin-stealth`) pour écarter les faux positifs. Seules les URLs où lychee **et** le navigateur échouent sont conservées comme cassures à corriger.
+
+Usage typique :
+
+```bash
+# 1. Lychee en mode JSON
+lychee --config .lychee.toml --format json --output /tmp/lychee.json site/docs/**/*.md
+
+# 2. Filtrage navigateur
+npm run verify-broken-links -- /tmp/lychee.json --report=/tmp/report.md
+```
+
+Pré-requis : `npx playwright install chromium` (~150 Mo, à faire une fois).
+
+L'intégration de ce filtre dans le workflow `links.yml` est suivie en PR séparée.
+
 ### Workflow `auto-assign.yml`
 
 À l'ouverture d'une issue ou PR, assigne automatiquement un mainteneur.
