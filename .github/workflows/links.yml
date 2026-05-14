@@ -29,30 +29,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v5
-        with:
-          node-version: 20
-          cache: npm
-
-      - run: npm ci
-
-      # Le binaire Chromium pèse ~150 Mo, on le cache pour éviter le re-download
-      # à chaque cron hebdomadaire. La clé inclut le hash du lockfile : si on
-      # bump playwright, le cache est invalidé et Chromium réinstallé.
-      - name: Cache Playwright Chromium
-        id: playwright-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-chromium-${{ hashFiles('package-lock.json') }}
-
-      - name: Install Playwright Chromium
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: npx playwright install chromium
-
-      # Étape 1 : lychee en sortie JSON (consommable par le script de
-      # vérification). `fail: false` pour que la suite tourne quoi qu'il
-      # arrive ; on regarde l'exit code via les outputs.
+      # Étape 1 : lychee en premier. Sortie JSON consommable par le script
+      # de vérification. `fail: false` pour que la suite tourne quoi qu'il
+      # arrive ; on regarde l'exit code via les outputs. On ne fait pas
+      # `npm ci` ni Playwright install ici : si lychee ne remonte rien
+      # (cas courant), inutile de payer ces étapes.
       - name: Check external links (lychee)
         id: check-links
         uses: lycheeverse/lychee-action@v2
@@ -69,14 +50,40 @@ jobs:
             'TESTING.md'
           fail: false
 
-      # Étape 2 : filtre Playwright. Si lychee n'a rien remonté, on n'a rien
-      # à filtrer ; sinon on rejoue chaque erreur dans Chromium stealth et
-      # on construit le rapport markdown final.
-      #
-      # `|| true` après le script : il sort en 1 si des cassures sont
-      # confirmées, mais on veut continuer le step pour examiner le rapport.
-      # On détermine ensuite via grep si le rapport contient au moins une
-      # section fichier (`## site/docs/...`).
+      # Étapes suivantes : seulement si lychee a remonté des erreurs. Évite
+      # d'installer Node + Chromium pour rien quand la semaine est propre.
+      - name: Setup Node
+        if: steps.check-links.outputs.exit_code != '0'
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install npm dependencies
+        if: steps.check-links.outputs.exit_code != '0'
+        run: npm ci
+
+      # Le binaire Chromium pèse ~150 Mo, on le cache pour éviter le re-download
+      # à chaque cron hebdomadaire. La clé inclut le hash du lockfile : si on
+      # bump playwright, le cache est invalidé et Chromium réinstallé.
+      - name: Cache Playwright Chromium
+        id: playwright-cache
+        if: steps.check-links.outputs.exit_code != '0'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright Chromium
+        if: steps.check-links.outputs.exit_code != '0' && steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
+
+      # Étape 2 : filtre Playwright. On lit l'exit code du script plutôt que
+      # de parser le rapport :
+      #  - 0 = aucune cassure confirmée (toutes les erreurs lychee étaient
+      #        des faux positifs anti-bot, on ne touche pas à l'issue).
+      #  - 1 = cassures confirmées (lychee ET le navigateur en échec).
+      #  - 2+ = erreur inattendue (le script a planté), on fait remonter.
       - name: Verify with browser (filter anti-bot false positives)
         id: verify
         if: steps.check-links.outputs.exit_code != '0'
@@ -85,17 +92,23 @@ jobs:
             echo "::error::lychee.json absent — lychee a probablement planté avant d'écrire son rapport."
             exit 1
           fi
-          node site/scripts/verify-broken-links.mjs ./lychee.json --report=./final-report.md || true
-          if [ ! -s ./final-report.md ]; then
-            echo "::error::Le script n'a produit aucun rapport."
-            exit 1
-          fi
-          if grep -q '^## ' ./final-report.md; then
-            echo "has_breakages=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "has_breakages=false" >> "$GITHUB_OUTPUT"
-            echo "Aucune cassure confirmée par le navigateur — toutes les erreurs lychee étaient des faux positifs anti-bot."
-          fi
+          set +e
+          node site/scripts/verify-broken-links.mjs ./lychee.json --report=./final-report.md
+          rc=$?
+          set -e
+          case "$rc" in
+            0)
+              echo "has_breakages=false" >> "$GITHUB_OUTPUT"
+              echo "Aucune cassure confirmée — toutes les erreurs lychee étaient des faux positifs anti-bot."
+              ;;
+            1)
+              echo "has_breakages=true" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "::error::Le script verify-broken-links a planté (exit $rc)."
+              exit "$rc"
+              ;;
+          esac
 
       # Cherche s'il existe déjà une issue ouverte avec ce titre. Si oui, on
       # passe son numéro à l'étape suivante pour mettre à jour son contenu
