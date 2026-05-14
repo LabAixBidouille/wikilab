@@ -46,6 +46,12 @@ sidebar_position: 6
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Code Morse (I-Novmicro)](/ressources/inovmicro-exao/i13-code-morse).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Le code Morse est une méthode utilisée dans les télécommunications pour coder les caractères d'un texte sous forme de séquences normalisées de deux durées de signal différentes, appelées **points** et **tirets**.

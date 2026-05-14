@@ -398,6 +398,20 @@ L'**attribution CC BY-SA 4.0** reste obligatoire **dans le footer** :
 _Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asXX-nom`](/ressources/lets-steam/r1asXX-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 ```
 
+### Lien croisé réciproque côté Let's STEAM
+
+Toute fiche Let's STEAM qui a une version portée dans I-NOVMICRO doit pointer vers son port via un callout `:::info[Version STeaMi / MicroPython]` placé juste après le séparateur `---` de fin de header, avant la première section de contenu :
+
+```md
+:::info[Version STeaMi / MicroPython]
+
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Titre lisible (I-Novmicro)](/ressources/inovmicro-exao/iXX-slug).
+
+:::
+```
+
+La réciprocité (footer côté I-NOVMICRO + callout côté Let's STEAM) est vérifiée par `npm run lint:crosslinks` (script [`site/scripts/lint-crosslinks.mjs`](site/scripts/lint-crosslinks.mjs)), bloquant en CI.
+
 ## Couleurs des projets
 
 | Projet           | Couleur principale |

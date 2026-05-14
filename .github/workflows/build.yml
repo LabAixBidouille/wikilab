@@ -43,6 +43,9 @@ jobs:
       - name: Spell check
         run: npm run lint:spell
 
+      - name: Lint crosslinks Let's STEAM <-> I-NOVMICRO
+        run: npm run lint:crosslinks
+
   build:
     runs-on: ubuntu-latest
     defaults:
