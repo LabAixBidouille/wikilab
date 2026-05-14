@@ -68,7 +68,7 @@ sidebar_position: 14
 
 **Programmation débranchée et par blocs :**
 
-- Projet Erasmus+ Unplugged : https://www.unplugged-quest.eu/fr
+- Projet Erasmus+ Unplugged : https://web.archive.org/web/20250810030514/https://www.unplugged-quest.eu/fr (archive.org 2025-08)
 - Scratch Jr (5-7 ans) : https://www.scratchjr.org/
 - Scratch (8-18 ans) : https://scratch.mit.edu/
 - Tutoriels pour enfants : [vidéo 1](https://www.youtube.com/watch?v=svC8TGqPHhE), [vidéo 2](https://www.youtube.com/watch?v=tJNzdLChCe8)

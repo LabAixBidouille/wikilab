@@ -257,7 +257,7 @@ Pour créer les fonds de cartes, plusieurs outils de cartographie numérique son
 Autres outils :
 - **OpenStreetMap** ([openstreetmap.org](https://openstreetmap.org)) fournit des cartes open source avec des calques détaillés
 - **CyclOSM** ([cyclosm.org](https://cyclosm.org)) est conçu pour la navigation liée au cyclisme avec une infrastructure cyclable détaillée
-- **MilvusMap** ([milvusmap.eu](https://milvusmap.eu)) propose des informations détaillées, notamment des calques liés à l'accessibilité et la possibilité d'imprimer les cartes au format PDF.
+- **MilvusMap** ([milvusmap.eu, archive.org 2026-01](https://web.archive.org/web/20260122061522/https://milvusmap.eu/)) propose des informations détaillées, notamment des calques liés à l'accessibilité et la possibilité d'imprimer les cartes au format PDF.
 
 Base de données d'outils OpenStreetMap pour la réalisation de cartes sur papier : https://wiki.openstreetmap.org/wiki/OSM_on_Paper.
 

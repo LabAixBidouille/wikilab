@@ -476,11 +476,6 @@ Exemples concrets :
 | 0 (Nord) | 0 + 90 | 90 |
 | 45 (Nord-Est) | 45 + 90 | 135 |
 
-### Accéder aux projets sur MakeCode Micro:bit
-
-- Affichage simple sur la carte : https://makecode.microbit.org/S08413-6091064519-56678
-- Affichage sur la carte couplée d'une flèche motorisée sur le robot : https://makecode.microbit.org/S22604-2436276889-84217
-
 ---
 
 *Cette fiche fait partie du projet [Robots Meet Arts](/projets/robots-meet-arts), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
