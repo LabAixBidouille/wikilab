@@ -47,11 +47,41 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
+          # fetch-depth: 0 nécessaire pour que le `git diff` ci-dessous voie
+          # la base de la PR.
+          fetch-depth: 0
+
+      # Filtre les images réellement ajoutées ou modifiées en contenu (statut
+      # A ou M) en excluant les renames purs (R). Sinon un PR qui se contente
+      # de déplacer des dossiers (ex. PR #102) déclenche une recompression
+      # inutile et un commit parasite "Optimised images" qui change la taille
+      # de fichiers déjà compressés.
+      - name: Check for added or modified images
+        id: changed
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" -- \
+            'site/static/img/**/*.jpg' \
+            'site/static/img/**/*.jpeg' \
+            'site/static/img/**/*.png' \
+            'site/static/img/**/*.gif' \
+            'site/static/img/**/*.webp')
+          if [ -z "$changed" ]; then
+            echo "Aucune image ajoutée ou modifiée en contenu (que des renames). Skip."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Images à traiter :"
+            echo "$changed"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
 
       # Pinné sur une release explicite plutôt que @main pour limiter
       # le risque supply-chain et garantir la reproductibilité.
       # Dernière release : https://github.com/calibreapp/image-actions/releases
-      - uses: calibreapp/image-actions@1.4.1
+      - if: steps.changed.outputs.skip != 'true'
+        uses: calibreapp/image-actions@1.4.1
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # compressOnly: false → l'action commit + poste un récap sur la PR.
