@@ -128,7 +128,7 @@ Les fablabs incarnent l'esprit maker : partage, collaboration, innovation ouvert
 
 **Comment trouver un fablab près de chez vous ?**
 
-Pour localiser un fablab dans votre région, plusieurs ressources fiables s'offrent à vous. Le **Réseau Français des FabLabs** ([www.fablab.fr](http://www.fablab.fr/)) propose une carte interactive très complète des fablabs français, avec des fiches détaillées indiquant les équipements disponibles, les horaires d'ouverture et les tarifs pratiqués. Au niveau international, la **Fab Foundation** ([www.fablabs.io](http://www.fablabs.io/)) maintient une cartographie mondiale des fablabs officiels respectant les critères de labellisation du MIT.
+Pour localiser un fablab dans votre région, plusieurs ressources fiables s'offrent à vous. Le **Réseau Français des FabLabs** ([www.fablab.fr](http://www.fablab.fr/)) propose une carte interactive très complète des fablabs français, avec des fiches détaillées indiquant les équipements disponibles, les horaires d'ouverture et les tarifs pratiqués. Au niveau international, la **Fab Foundation** ([www.fablabs.io](https://www.fablabs.io/)) maintient une cartographie mondiale des fablabs officiels respectant les critères de labellisation du MIT.
 
 D'autres plateformes élargissent le spectre de recherche. **Makery** ([www.makery.info](http://www.makery.info/)) offre une cartographie européenne qui inclut non seulement les fablabs mais aussi les hackerspaces et repair cafés, souvent équipés d'outils similaires. Le site **France Tiers-Lieux** (francetierslieux.fr) répertorie l'ensemble des tiers-lieux français par région et spécialités, permettant d'identifier les espaces dédiés à la fabrication numérique.
 

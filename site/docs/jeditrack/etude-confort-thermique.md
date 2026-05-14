@@ -409,7 +409,7 @@ Pour les structures à la recherche d'options à la fois abordables et accessibl
 
 - [**ADEME - Maîtrise de l'énergie dans le bâtiment**](https://www.ademe.fr/expertises/batiment) - Données officielles sur la consommation énergétique des logements français
 - [**ADEME - Guide de l'isolation**](https://www.ademe.fr/particuliers-eco-citoyens/habitation/bien-choisir-equipements/isolation) - Comprendre les enjeux de l'isolation thermique
-- [**Observatoire National de la Précarité Énergétique**](https://onpe.org/) - Statistiques et analyses sur les inégalités de confort thermique
+- [**Observatoire National de la Précarité Énergétique**](https://web.archive.org/web/20251231065014/https://onpe.org/) (archive.org, 2025-12-31) - Statistiques et analyses sur les inégalités de confort thermique
 - [**Micro:bit Educational Foundation**](https://microbit.org/fr/) - Ressources pédagogiques pour l'utilisation de micro:bit dans des projets environnementaux
 - [**Point Info Énergie**](https://www.faire.gouv.fr/trouver-un-conseiller) - Réseau de conseillers pour accompagner les projets d'efficacité énergétique
 - [**Thermographie.fr**](https://www.thermographie.fr/) - Ressources techniques sur l'imagerie thermique dans le bâtiment

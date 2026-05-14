@@ -232,7 +232,7 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm d'épaisseur**. Le MDF se coupe, se perce et se ponce aisément, c'est un matériau économique. Nous l'avons fait découper à la demande chez Leroy Merlin (≈ 200 EUR de bois). Sa surface est idéale pour la peinture et les stickers ; il résiste bien aux changements de température et d'humidité, et se trouve facilement dans les magasins de bricolage.
 
 :::note[Ressources]
-- [Panneaux MDF chez Leroy Merlin](https://www.leroymerlin.fr/produits/menuiserie/panneau-planche-et-materiaux-bois/panneau-bois-agglomere-mdf/panneau-mdf/)
+- [Leroy Merlin](https://www.leroymerlin.fr/) — rayon menuiserie, panneaux bois agglomérés MDF (chercher « panneau MDF » sur le site)
 :::
 
 ### Finition et esthétique
@@ -240,11 +240,11 @@ Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm
 Approche simple mais collaborative : les jeunes ont réalisé des essais de peinture sur les prototypes avec plusieurs associations de couleurs, puis ont validé collectivement le choix final (en prenant en compte les chocs et traces potentiels). Ils ont proposé des dessins sur une zone limitée et dédiée, le reste étant recouvert de stickers sélectionnés ensemble. Bandes de chant pour protéger les tranches.
 
 :::note[Ressources stickers et finitions]
-- https://www.buzz-arcade.com/fr/36-stickers-bornes
+- https://web.archive.org/web/20251013023643/https://www.buzz-arcade.com/fr/36-stickers-bornes
 - https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html
 - https://stickergameshop.com/
 - https://www.spreadshirt.fr/shop/papeterie/stickers/pop+culture/
-- https://www.goodstickers.fr/stickers/jeux-video/
+- https://web.archive.org/web/20240624200758/https://www.goodstickers.fr/stickers/jeux-video/
 - https://adhesifs-de-france.fr/80-pop-culture
 - T-molding : https://fabulous-arcade.com/fr/58-t-molding
 :::
