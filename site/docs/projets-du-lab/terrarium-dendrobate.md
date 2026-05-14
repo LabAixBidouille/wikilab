@@ -183,7 +183,7 @@ Ce projet est encore à l'état de prototype, mais depuis fin août 2015, il hé
 
 - Projet DomoDuLAB
 
-- [Site du projet Internet Of Frogs](http://www.internet-of-frogs.com/)
+- [Site du projet Internet Of Frogs (archive.org 2016-03)](https://web.archive.org/web/20160318213229/http://www.internet-of-frogs.com/)
 
 - [Github du projet](https://github.com/carole-laitong/InternetOfFrogs)
 
