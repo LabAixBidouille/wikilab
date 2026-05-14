@@ -391,7 +391,7 @@ L'activité se termine par les félicitations de l'enseignant pour les excellent
 
 **Développement de l'intrigue** : L'imagination des enfants et l'enthousiasme du groupe peuvent permettre de développer la présentation des personnages en une intrigue avec un conflit, plusieurs événements consécutifs et une résolution. L'enseignant peut proposer qu'une personne du groupe assume le rôle de narrateur. Une opportunité de collaboration se présentera si le groupe invite un narrateur invité d'un autre groupe.
 
-**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité dans votre classe afin de vous épauler pendant les périodes de répétition où un accompagnement individuel plus précis pourrait être nécessaire. Une courte vidéo avec exemple d'entraînement physique avec masque pourrait également être présentée : https://bptp.live/larval-mask/
+**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité dans votre classe afin de vous épauler pendant les périodes de répétition où un accompagnement individuel plus précis pourrait être nécessaire. Une courte vidéo avec exemple d'entraînement physique avec masque pourrait également être présentée : https://web.archive.org/web/20250808172336/https://bptp.live/larval-mask/
 
 **Utilisation de la musique** : L'ajout de musique d'ambiance peut améliorer l'impact et l'expérience du spectacle. Les exemples de bandes sonores de l'acte 2 peuvent également être utilisés ici.
 
