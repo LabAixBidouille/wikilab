@@ -10,6 +10,7 @@
     "lint:md:fix": "markdownlint --fix \"**/*.md\" --ignore-path .markdownlintignore",
     "lint:spell": "cspell --no-must-find-files",
     "lint:links": "docker run --rm -v $PWD:/input lycheeverse/lychee --config /input/.lychee.toml '/input/site/docs/**/*.md' '/input/README.md'",
+    "lint:crosslinks": "node site/scripts/lint-crosslinks.mjs",
     "site:start": "npm --prefix site start",
     "site:build": "npm --prefix site run build",
     "site:typecheck": "npm --prefix site run typecheck",
@@ -34,7 +35,7 @@
       "markdownlint",
       "cspell --no-must-find-files"
     ],
-    "*.{js,jsx,ts,tsx}": [
+    "*.{js,mjs,cjs,jsx,ts,tsx}": [
       "prettier --check"
     ],
     "*.{json,css,yml,yaml}": "prettier --check"

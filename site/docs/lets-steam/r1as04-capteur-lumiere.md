@@ -47,6 +47,12 @@ sidebar_position: 4
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Capteur de lumière (I-Novmicro)](/ressources/inovmicro-exao/i11-capteur-lumiere).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Cette fiche d'activité aborde les résistances. Une photorésistance (*Light Dependent Resistor* - LDR) est un composant utilisé pour mesurer l'intensité de la lumière.
