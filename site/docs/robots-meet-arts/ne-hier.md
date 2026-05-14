@@ -80,7 +80,7 @@ Les compétences mobilisées sont les suivantes :
 - BioLearningGame : Outil de simulation IA : https://steamcity.github.io/BioLearningGame/
 - Machine Learning for Kids : https://machinelearningforkids.co.uk
 - Cubetto : Documentation : https://www.primotoys.com
-- Sphero Indi : Guide pédagogique : https://sphero.com/pages/indi
+- Sphero Indi : Guide pédagogique : https://sphero.com/collections/indi
 - MakeCode micro:bit : https://makecode.microbit.org
 - CS Unplugged : Activités débranchées : https://csunplugged.org
 
@@ -455,7 +455,7 @@ Indi est livré avec un ensemble de tuiles en silicone colorées. Chaque couleur
 
 Certains souhaitent créer leurs propres tuiles, cartes ou chemins pour Indi. Gardez à l'esprit que chaque couleur est programmée dans le firmware et instantanément reconnaissable par Indi. D'autres sources de couleur, comme le papier de construction ou les feutres, peuvent ne pas offrir une expérience aussi cohérente que les tuiles et/ou cartes de couleur fournies avec votre Indi.
 
-Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : https://sphero.com/pages/sphero-indi. N'hésitez pas à créer autant de chemins que possible et amusez-vous !
+Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : https://web.archive.org/web/20260312233345/https://sphero.com/pages/sphero-indi (archive.org 2026-03). N'hésitez pas à créer autant de chemins que possible et amusez-vous !
 
 ---
 

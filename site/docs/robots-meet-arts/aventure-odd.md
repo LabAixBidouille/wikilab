@@ -59,7 +59,7 @@ sidebar_position: 18
 
 - MakeCode Arcade (créer et partager des jeux) : https://arcade.makecode.com
 - Go Goals! (ONU) : jeu de plateau pour découvrir les ODD : https://go-goals.org
-- Unplugged Quest : activités débranchées autour des ODD : https://unplugged-quest.eu/
+- Unplugged Quest : activités débranchées autour des ODD : https://labaixbidouille.wixsite.com/unplugged-metaverse (nouveau site officiel depuis la migration depuis unplugged-quest.eu)
 - Icônes et ressources officielles des ODD : https://globalgoals.org/resources
 - ONU : Ressources pour les élèves sur le développement durable : https://www.un.org/sustainabledevelopment/student-resources/
 - UNESCO : Ressources pédagogiques sur les ODD : https://www.unesco.org/en/sustainable-development/education

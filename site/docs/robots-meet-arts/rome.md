@@ -69,7 +69,7 @@ sidebar_position: 25
 
 ## Liens utiles
 
-- Guide d'utilisation Tale-Bot (site officiel) : https://shop.matatastudio.com/fr/products/matatastudio-talebot-pro
+- Site officiel Matatastudio (chercher « Tale-Bot Pro ») : https://shop.matatastudio.com/fr/
 - BBC Bitesize : La société romaine : https://www.bbc.co.uk/bitesize/articles/zdnd239#ztrxs82
 - Quizlet : https://quizlet.com/668976125/ancient-rome-social-classes-flash-cards/
 - Plus d'informations sur les classes sociales dans la Rome antique : https://www.twinkl.es/teaching-wiki/roman-social-classes-pyramid

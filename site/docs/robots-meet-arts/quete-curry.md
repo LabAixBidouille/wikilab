@@ -76,7 +76,7 @@ sidebar_position: 22
 **Structures narratives :**
 
 - Le voyage du héros : https://www.davidvellut.com/voyage-du-heros/
-- Les cartes à histoires de Propp : https://jouer-collectif.org/contenu/45
+- Les cartes à histoires de Propp : https://web.archive.org/web/20250928101223/https://jouer-collectif.org/contenu/45 (archive.org 2025-09)
 - Le schéma actantiel de Greimas : https://narrationetcafeine.fr/schema-actantiel/
 
 **Algorigrammes et pensée computationnelle :**
