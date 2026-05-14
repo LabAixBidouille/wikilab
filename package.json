@@ -45,6 +45,6 @@
     "*.{json,css,yml,yaml}": "prettier --check"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=24"
   }
 }

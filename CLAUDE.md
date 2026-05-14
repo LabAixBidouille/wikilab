@@ -82,7 +82,7 @@ Toute modification de ces conventions doit se faire dans `CONVENTIONS.md` (qui f
 
 ## Build et commandes locales
 
-Prérequis : Node.js 20+. Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) pour l'installation complète.
+Prérequis : Node.js 24+. Voir [`CONTRIBUTING.md`](CONTRIBUTING.md) pour l'installation complète.
 
 Raccourcis utiles depuis la racine :
 
