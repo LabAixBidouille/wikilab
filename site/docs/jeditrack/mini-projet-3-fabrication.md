@@ -26,7 +26,7 @@ sidebar_position: 3
 - Matériaux de construction (bois, vis, colle)
 - Outils de bricolage (scie, tournevis, pistolet à colle)
 - Papier de verre, peinture, vernis
-- Equipements de protection (gants, lunettes)
+- Équipements de protection (gants, lunettes)
 - Accès fablab recommandé
 
 </div>

@@ -43,7 +43,7 @@ sidebar_position: 7
 
 </div>
 
-<img src="/img/ressources/unplugged/ecosystemes-en-bocaux/icone.png" alt="Ecosystemes en bocaux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/unplugged/ecosystemes-en-bocaux/icone.png" alt="Écosystèmes en bocaux" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -139,7 +139,7 @@ Les enfants créent un écosystème plus complexe dans un bocal qui contient des
 ### Sujet 1 - Concept d'écosystème
 
 - Qu'est-ce qu'un écosystème : https://learnykids.com/worksheets/what-is-an-ecosystem
-- Ecosystèmes, Leçon de science pour les enfants : https://www.generationgenius.com/ecosystems-for-kids/
+- Écosystèmes, Leçon de science pour les enfants : https://www.generationgenius.com/ecosystems-for-kids/
 - L'écosystème, vidéo éducative pour les enfants : https://www.youtube.com/watch?v=qr_U1P7XwhI
 
 ### Sujet 2 - Interaction entre les composants de l'écosystème

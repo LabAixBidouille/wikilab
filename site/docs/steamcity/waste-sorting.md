@@ -218,7 +218,7 @@ L'activité peut être menée en petits groupes ou en classe entière, favorisan
 1. Sur l'interface Vittascience, allez dans « Formation IA ».
 2. Créez 3 catégories dans la section « données » : « Verre », « Emballage » et « Papier ».
 3. Faites glisser et déposez les images collectées.
-4. Une fois le jeu de données créé, cliquez sur « Entrainer ».
+4. Une fois le jeu de données créé, cliquez sur « Entraîner ».
 5. Testez le modèle avec différents objets (une bouteille en plastique, une bouteille de bière en verre, un vieux journal, etc.). Vous pouvez le tester soit en glissant-déposant un fichier, soit en allumant la webcam. La phase de test est importante en IA ; prenez donc le temps de vérifier que le modèle est bien entraîné. Le modèle doit être testé avec des objets fournis en entrée et d'autres objets pour lesquels il n'a pas été entraîné.
 6. Pensez à activer les zones d'interaction pour comprendre sur quel élément votre modèle se base pour prédire un résultat. En cliquant sur « Zones d'interaction », vous pouvez visualiser les zones les plus pertinentes de l'image qui ont permis à la machine de fournir sa prédiction. L'activation de cette zone peut vous aider à mieux expliquer les résultats fournis par la machine.
 7. Remettez en question votre modèle : l'IA a-t-elle reconnu tous les objets 100 % du temps ? D'où viennent les erreurs ? Qu'est-ce qui caractérise le verre ? L'emballage ? Le papier ? L'échantillon représente-t-il la majorité des déchets ?

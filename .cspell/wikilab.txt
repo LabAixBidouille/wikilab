@@ -211,7 +211,6 @@ Animaker
 Anning
 annotables
 Antoni
-apparait
 aralia
 Armbian
 Asplenium
@@ -236,7 +235,6 @@ bluetooth
 Bluewing
 Bocuse
 Bogard
-boitier
 Boomwhackers
 boomwhackers
 Bootsel
@@ -278,8 +276,6 @@ coeur
 colourful
 Commedia
 commedia
-connait
-connaitrez
 coquartier
 Corel
 corone
@@ -323,14 +319,9 @@ Duquesnoy
 DÉMÊ
 décibelmètre
 décopatch
-Dégouté
 déli
 Eberle
-Echantillons
-Ecosystemes
 Ecosystèmes
-Ecrire
-Ecrivez
 Edmonds
 Edvard
 Eeeeetttt
@@ -342,9 +333,6 @@ Embry
 embuches
 emiliedubois
 Enercoop
-Entrainer
-entrainera
-Equipements
 Eriksen
 Erithacus
 Eurostat

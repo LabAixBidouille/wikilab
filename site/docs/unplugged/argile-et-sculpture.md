@@ -34,7 +34,7 @@ sidebar_position: 1
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 
-- Cartes d'émotions (Paisible, En colère, Dégouté-e, Surpris-e, Ravi-e, Coquin-e, Triste, Embêté-e)
+- Cartes d'émotions (Paisible, En colère, Dégoûté-e, Surpris-e, Ravi-e, Coquin-e, Triste, Embêté-e)
 
 :::
 

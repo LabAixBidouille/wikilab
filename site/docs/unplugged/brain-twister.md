@@ -48,7 +48,7 @@ sidebar_position: 4
 
 ## De quoi parle-t-on ?
 
-Dans le futur, les interactions avec des robots et interfaces numériques seront de plus en plus courantes. Pour parler à une machine, vous devez donner des ordres très clairs. Ce jeu vous entrainera à donner des indications claires et précises, avec des chiffres et des directions. Un bon jeu pour découvrir les bases du language informatique, tout en faisant une activité physique et en s'amusant !
+Dans le futur, les interactions avec des robots et interfaces numériques seront de plus en plus courantes. Pour parler à une machine, vous devez donner des ordres très clairs. Ce jeu vous entraînera à donner des indications claires et précises, avec des chiffres et des directions. Un bon jeu pour découvrir les bases du language informatique, tout en faisant une activité physique et en s'amusant !
 
 ---
 
