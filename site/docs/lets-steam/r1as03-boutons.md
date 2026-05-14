@@ -183,8 +183,8 @@ La ligne la plus importante ici est la condition `if (weCanPushIt) { ... }` qui 
   https://microbit.org/projects/make-it-code-it/reaction-game/
 
 - **Découvrez ce qu'est une variable** - Apprenez-en plus sur les variables et les fonctions en programmation.
-  https://www.computerhope.com/jargon/v/variable.htm,
-  https://web.archive.org/web/20230620020907/https://www.makeuseof.com/what-is-a-function-programming/
+  - https://www.computerhope.com/jargon/v/variable.htm
+  - https://web.archive.org/web/20230620020907/https://www.makeuseof.com/what-is-a-function-programming/
 
 ---
 
