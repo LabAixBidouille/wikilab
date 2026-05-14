@@ -174,7 +174,7 @@ Ce programme est une version étendue du programme "Faire clignoter une LED" ada
 ## Aller plus loin
 
 - **Comment utiliser une breadboard** - Tutoriel vidéo présentant une introduction aux breadboards et expliquant comment les utiliser dans des projets électroniques pour débutants.
-  https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard
+  https://web.archive.org/web/20260209225821/https://www.sciencebuddies.org/science-fair-projects/references/how-to-use-a-breadboard
 
 - **Utilisez une vraie breadboard (planche à pain) pour prototyper votre circuit** - Prototypage pas à pas avec une breadboard.
   https://www.instructables.com/Use-a-real-Bread-Board-for-prototyping-your-circui/
