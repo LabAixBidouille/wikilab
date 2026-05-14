@@ -28,7 +28,6 @@ Cortex
 DAPLink
 ZigBee
 OpenThread
-Theremine
 Thérémine
 Mimesis
 SteamCity
@@ -55,7 +54,6 @@ cspell
 breadboard
 breadboards
 photorésistance
-photorésistor
 servomoteur
 servomoteurs
 potentiomètre
@@ -128,7 +126,6 @@ MatteoCnda1
 DumontALINE
 labaixbidouille.com
 wiki.steami.cc
-campus-industriefutur-sud.com
 crosslinks
 crosslink
 icone
@@ -171,7 +168,6 @@ APDS
 apds9960
 lumiere
 piézo
-piezo
 morse
 Qwiic
 Sparkfun
