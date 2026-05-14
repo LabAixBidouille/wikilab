@@ -1,5 +1,15 @@
 name: Check external links
 
+# Pipeline en deux étapes :
+#  1. Lychee balaye les liens externes des fiches et sort la liste des erreurs
+#     en JSON. Rapide (~3 min), mais ne distingue pas une vraie 404 d'un 403
+#     anti-bot (Cloudflare, WAF) ; ces faux positifs polluaient le rapport.
+#  2. `site/scripts/verify-broken-links.mjs` rejoue chaque erreur via un
+#     Chromium headless + plugin stealth. Seules les URLs où lychee ET le
+#     navigateur échouent sont conservées dans le rapport final.
+#
+# Cf. issue #71 et la PR Playwright (#107) pour le diagnostic.
+
 on:
   schedule:
     - cron: '0 8 * * 1' # tous les lundis à 8h UTC
@@ -11,18 +21,47 @@ permissions:
 
 jobs:
   check-links:
+    name: Vérification liens externes (lychee + Playwright)
     runs-on: ubuntu-latest
+    # Verify peut prendre ~10-15 min sur ~100 URLs en erreur lychee
+    # (concurrency 1 imposée par le plugin stealth). 30 min de marge.
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
 
-      - name: Check external links
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Le binaire Chromium pèse ~150 Mo, on le cache pour éviter le re-download
+      # à chaque cron hebdomadaire. La clé inclut le hash du lockfile : si on
+      # bump playwright, le cache est invalidé et Chromium réinstallé.
+      - name: Cache Playwright Chromium
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-chromium-${{ hashFiles('package-lock.json') }}
+
+      - name: Install Playwright Chromium
+        if: steps.playwright-cache.outputs.cache-hit != 'true'
+        run: npx playwright install chromium
+
+      # Étape 1 : lychee en sortie JSON (consommable par le script de
+      # vérification). `fail: false` pour que la suite tourne quoi qu'il
+      # arrive ; on regarde l'exit code via les outputs.
+      - name: Check external links (lychee)
         id: check-links
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
             --config .lychee.toml
-            --verbose
             --no-progress
+            --format json
+            --output ./lychee.json
             'site/docs/**/*.md'
             'site/docs/**/*.mdx'
             'README.md'
@@ -30,19 +69,46 @@ jobs:
             'TESTING.md'
           fail: false
 
-      # Cherche s'il existe déjà une issue ouverte avec ce titre.
-      # Si oui, on passe son numéro à l'étape suivante pour mettre
-      # à jour son contenu plutôt que d'en créer une nouvelle (sinon
-      # on accumule 52 issues identiques par an, cf. #91).
+      # Étape 2 : filtre Playwright. Si lychee n'a rien remonté, on n'a rien
+      # à filtrer ; sinon on rejoue chaque erreur dans Chromium stealth et
+      # on construit le rapport markdown final.
       #
-      # Tri explicite par `updatedAt` décroissant pour départager
-      # plusieurs issues homonymes (cas réel après #92 : #61 et #71
-      # existent toutes les deux). On met à jour la plus récemment
-      # touchée, ce qui converge sur une seule issue active dans le
-      # temps.
+      # `|| true` après le script : il sort en 1 si des cassures sont
+      # confirmées, mais on veut continuer le step pour examiner le rapport.
+      # On détermine ensuite via grep si le rapport contient au moins une
+      # section fichier (`## site/docs/...`).
+      - name: Verify with browser (filter anti-bot false positives)
+        id: verify
+        if: steps.check-links.outputs.exit_code != '0'
+        run: |
+          if [ ! -f ./lychee.json ]; then
+            echo "::error::lychee.json absent — lychee a probablement planté avant d'écrire son rapport."
+            exit 1
+          fi
+          node site/scripts/verify-broken-links.mjs ./lychee.json --report=./final-report.md || true
+          if [ ! -s ./final-report.md ]; then
+            echo "::error::Le script n'a produit aucun rapport."
+            exit 1
+          fi
+          if grep -q '^## ' ./final-report.md; then
+            echo "has_breakages=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_breakages=false" >> "$GITHUB_OUTPUT"
+            echo "Aucune cassure confirmée par le navigateur — toutes les erreurs lychee étaient des faux positifs anti-bot."
+          fi
+
+      # Cherche s'il existe déjà une issue ouverte avec ce titre. Si oui, on
+      # passe son numéro à l'étape suivante pour mettre à jour son contenu
+      # plutôt que d'en créer une nouvelle (sinon on accumule 52 issues
+      # identiques par an, cf. #91).
+      #
+      # Tri explicite par `updatedAt` décroissant pour départager plusieurs
+      # issues homonymes (cas réel après #92 : #61 et #71 existaient toutes
+      # les deux). On met à jour la plus récemment touchée, ce qui converge
+      # sur une seule issue active dans le temps.
       - name: Find existing open issue
         id: find-issue
-        if: steps.check-links.outputs.exit_code != '0'
+        if: steps.verify.outputs.has_breakages == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -54,11 +120,11 @@ jobs:
             --jq 'sort_by(.updatedAt) | reverse | .[0].number // empty')
           echo "issue_number=${issue_number}" >> "$GITHUB_OUTPUT"
 
-      - name: Update or create issue on failure
-        if: steps.check-links.outputs.exit_code != '0'
+      - name: Update or create issue
+        if: steps.verify.outputs.has_breakages == 'true'
         uses: peter-evans/create-issue-from-file@v6
         with:
           title: 'Liens externes cassés détectés'
-          content-filepath: ./lychee/out.md
+          content-filepath: ./final-report.md
           issue-number: ${{ steps.find-issue.outputs.issue_number }}
           labels: 'bug,liens'
