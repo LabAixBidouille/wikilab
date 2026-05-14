@@ -32,7 +32,7 @@ sidebar_position: 15
 - Écran (CRT recyclé ou LCD) + câble HDMI
 - Joysticks et boutons d'arcade (kit 2 joueurs) + interface i-Pac
 - Haut-parleurs + amplificateur audio
-- Panneaux MDF 18 mm (≈ 200 EUR chez Leroy Merlin)
+- Panneaux MDF 18 mm (≈ 200 EUR en GSB)
 - T-molding, vinyle adhésif ou peinture pour finitions
 - Outillage : scie sauteuse, perceuse, ponceuse, fer à souder
 
@@ -232,7 +232,9 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm d'épaisseur**. Le MDF se coupe, se perce et se ponce aisément, c'est un matériau économique. Nous l'avons fait découper à la demande chez Leroy Merlin (≈ 200 EUR de bois). Sa surface est idéale pour la peinture et les stickers ; il résiste bien aux changements de température et d'humidité, et se trouve facilement dans les magasins de bricolage.
 
 :::note[Ressources]
-- [Leroy Merlin](https://www.leroymerlin.fr/) — rayon menuiserie, panneaux bois agglomérés MDF (chercher « panneau MDF » sur le site)
+
+Les panneaux MDF se trouvent dans toutes les grandes surfaces de bricolage (GSB) au rayon menuiserie / bois agglomérés.
+
 :::
 
 ### Finition et esthétique
