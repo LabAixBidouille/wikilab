@@ -62,12 +62,19 @@ jobs:
           BASE: ${{ github.event.pull_request.base.sha }}
           HEAD: ${{ github.event.pull_request.head.sha }}
         run: |
-          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" -- \
-            'site/static/img/**/*.jpg' \
-            'site/static/img/**/*.jpeg' \
-            'site/static/img/**/*.png' \
-            'site/static/img/**/*.gif' \
-            'site/static/img/**/*.webp')
+          # `fetch-depth: 0` au checkout couvre normalement tous les objets,
+          # mais base.sha peut ne plus être atteignable s'il a été
+          # force-pushé après la création de la PR. On le re-fetche
+          # explicitement pour fiabiliser le diff (le `|| true` évite de
+          # planter le step si le fetch est déjà à jour).
+          git fetch --quiet --depth=1 origin "$BASE" || true
+          # Filtrage post-hoc via `grep` plutôt que pathspecs `**` : les
+          # pathspecs git n'interprètent pas `**` comme un globstar (le `*`
+          # par défaut matche déjà `/` mais la sémantique reste différente
+          # du filtre `paths:` au top du workflow). `grep` est plus lisible
+          # et a la même intention que le filtre de déclencheur.
+          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" \
+            | grep -E '^site/static/img/.*\.(jpg|jpeg|png|gif|webp)$' || true)
           if [ -z "$changed" ]; then
             echo "Aucune image ajoutée ou modifiée en contenu (que des renames). Skip."
             echo "skip=true" >> "$GITHUB_OUTPUT"
