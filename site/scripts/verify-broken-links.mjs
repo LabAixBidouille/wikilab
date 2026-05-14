@@ -61,7 +61,10 @@ function collectFailures(lycheeJson) {
           url: e.url,
           lycheeStatus: e.status?.code ?? 0,
           lycheeText: e.status?.text ?? 'timeout',
-          line: e.span?.line ?? 0,
+          // `span.line` est rempli par lychee ≥ 0.24 ; certaines anciennes
+          // versions le laissent absent. On garde `null` pour signaler
+          // l'absence côté rendu (« ligne ? »).
+          line: e.span?.line ?? null,
         });
       }
     }
@@ -143,7 +146,8 @@ function buildReport(verified) {
     for (const e of entries) {
       const browserNote =
         e.browserStatus > 0 ? `navigateur ${e.browserStatus}` : e.error || 'navigateur erreur';
-      lines.push(`- ligne ${e.line} : ${e.url} — lychee ${e.lycheeStatus}, ${browserNote}`);
+      const linePrefix = e.line ? `ligne ${e.line}` : 'ligne ?';
+      lines.push(`- ${linePrefix} : ${e.url} — lychee ${e.lycheeStatus}, ${browserNote}`);
     }
     lines.push('');
   }
