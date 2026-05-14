@@ -263,7 +263,7 @@ Le respect du Règlement Général sur la Protection des Données impose de veil
 - https://framaforms.org/ (questionnaires et sondages)
 - https://postimg.cc/ (hébergement d'images)
 - https://www.opendatafrance.net/ (réseau des collectivités)
-- https://www.cnil.fr/fr/educnum (protection des données)
+- https://www.cnil.fr/ (protection des données — ressources éducatives en ligne)
 - https://creativecommons.fr/ (licences ouvertes)
 - https://fing.org/ (innovation numérique participative)
 
