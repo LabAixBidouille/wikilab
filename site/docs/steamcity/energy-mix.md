@@ -50,7 +50,7 @@ Notre système énergétique repose sur un équilibre complexe entre différente
 - **Combustibles fossiles** : 31,7 % (gaz 17 %, charbon 11,7 %)
 - **Nucléaire** : près de 23 %
 
-Le bouquet électrique varie considérablement d'un État membre à l'autre, la part des renouvelables allant de plus de 90 % à moins de 15 % (voir l'[infographie du Conseil européen](https://www.consilium.europa.eu/fr/infographics/how-is-eu-electricity-produced-and-sold/#0)).
+Le bouquet électrique varie considérablement d'un État membre à l'autre, la part des renouvelables allant de plus de 90 % à moins de 15 % (voir les infographies du Conseil européen sur le mix électrique de l'UE, accessibles depuis https://www.consilium.europa.eu/fr/infographics/).
 
 Cette diversité n'est pas accidentelle : elle résulte de choix stratégiques visant à concilier sécurité d'approvisionnement, coûts acceptables et objectifs climatiques. Cependant, cette interdépendance crée aussi des vulnérabilités. La crise énergétique de 2022-2023, déclenchée par la guerre en Ukraine, a révélé les conséquences d'une dépendance excessive au gaz russe. De même, les arrêts programmés de centrales nucléaires en Allemagne ou en Belgique posent des questions sur la capacité du système à maintenir l'équilibre offre-demande tout en respectant les objectifs climatiques.
 

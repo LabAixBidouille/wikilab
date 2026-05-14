@@ -139,7 +139,7 @@ Vous pouvez aborder plusieurs catégories de dispositifs :
 - **Systèmes de mobilité partagée** : transports en commun, vélos en libre-service, trottinettes électriques
 
 :::info[Notes pour l'enseignant·e]
-Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf
+Le Centre de Connaissances, Données et Société en Belgique a conçu un document qui peut servir de point de départ pour identifier des exemples de capteurs intelligents dans les villes : https://web.archive.org/web/20240919051731/https://data-en-maatschappij.ai/uploads/Databronkaarten.pdf (archive.org 2024-09)
 :::
 
 #### Cadre d'analyse des données

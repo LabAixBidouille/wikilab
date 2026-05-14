@@ -195,7 +195,6 @@ Plusieurs ressources permettent de fixer la Micro:bit à un brassard pour que le
 
 - [Smart Coding Watch Kit pour micro:bit](https://www.my-etechno.com/pack-d-extension/1557-smart-coding-watch-kit-microbit.html)
 - [Duct Tape Watch (tutoriel low-cost)](https://makecode.microbit.org/projects/duct-tape-watch)
-- [BBC micro:bit wrist holder (mattoppenheim)](https://mattoppenheim.com/bbc-microbit-wrist-holder/)
 - [Yahboom Wrist:bit wearable watch kit](https://category.yahboom.net/products/wristbit)
 - [CHARGE for micro:bit](https://forwardedu.com/collections/charge-for-micro-bit)
 

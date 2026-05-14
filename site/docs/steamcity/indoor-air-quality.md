@@ -390,7 +390,7 @@ L'enseignant encourage les élèves à partager des idées pour améliorer le ta
 
 2. **Seuils de CO2 et impact sur la qualité de l'air** — Source : NousAérons.fr. URL : http://nousaerons.fr/ — Intérêt : Discute des seuils de CO2 et de l'importance de la qualité de l'air dans les environnements intérieurs, particulièrement en ce qui concerne la santé et la ventilation.
 
-3. **Aération et ventilation dans les espaces scolaires** — Source : Ministère de l'Éducation (Avril 2021). URL : https://www.education.gouv.fr/media/88756/download — Intérêt : Un guide sur les meilleures pratiques en matière de ventilation dans les milieux éducatifs, soulignant son rôle dans la réduction de la transmission des maladies aéroportées.
+3. **Aération et ventilation dans les espaces scolaires** — Source : Ministère de l'Éducation (Avril 2021). URL : https://web.archive.org/web/20221230220742/https://www.education.gouv.fr/media/88756/download (archive.org 2022-12) — Intérêt : Un guide sur les meilleures pratiques en matière de ventilation dans les milieux éducatifs, soulignant son rôle dans la réduction de la transmission des maladies aéroportées.
 
 4. **Alerte basée sur Arduino pour l'aération** — Source : Vittascience, Alerte Aération Arduino. URL : https://fr.vittascience.com/learn/tutorial.php?id=340/guide-d-utilisation-alerte-aeration-Arduino — Intérêt : Propose un tutoriel étape par étape pour la mise en œuvre d'un système d'alerte basé sur Arduino pour optimiser la qualité de l'air dans les espaces clos.
 
