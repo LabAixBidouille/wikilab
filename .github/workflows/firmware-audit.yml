@@ -1,0 +1,151 @@
+name: Audit firmware STeaMi
+
+# Compare la dernière release publiée du firmware MicroPython STeaMi avec les
+# versions effectivement testées dans les fiches I-NOVMICRO. Si désynchronisation,
+# crée (ou met à jour) une issue listant les fiches à retester. Convention de
+# versionnage : ligne `# Testée avec firmware STeaMi X.Y.Z` en début de chaque
+# bloc de code Python des fiches (cf. CONVENTIONS.md §Code MicroPython sur STeaMi).
+#
+# Source de vérité de la release : steamicc/micropython-steami-lib (releases).
+#
+# Le fichier `_template/_template.md` est volontairement exclu : sa version
+# d'exemple est figée et sert d'illustration de la convention, pas de fiche
+# à retester.
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # tous les lundis à 9h UTC (1h après le run lychee)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  audit:
+    name: Compare versions firmware
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Fetch latest firmware release
+        id: latest
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          latest=$(gh release view \
+            --repo steamicc/micropython-steami-lib \
+            --json tagName --jq '.tagName' | sed 's/^v//')
+          if [ -z "$latest" ]; then
+            echo "::error::Impossible de récupérer la dernière release de steamicc/micropython-steami-lib"
+            exit 1
+          fi
+          echo "Latest firmware: v${latest}"
+          echo "version=${latest}" >> "$GITHUB_OUTPUT"
+
+      - name: Find versions mentioned in fiches
+        id: mentioned
+        run: |
+          # Cherche le commentaire `# Testée avec firmware STeaMi X.Y.Z` dans
+          # toutes les fiches I-NOVMICRO sauf le template.
+          versions=$(grep -rohE 'Testée avec firmware STeaMi [0-9]+\.[0-9]+\.[0-9]+' \
+            site/docs/inovmicro-exao/ \
+            --include='*.md' \
+            --exclude-dir='_template' \
+            | sed 's/Testée avec firmware STeaMi //' \
+            | sort -u || true)
+          if [ -z "$versions" ]; then
+            echo "Aucune mention de version trouvée dans les fiches."
+          else
+            echo "Versions mentionnées : $(echo "$versions" | tr '\n' ' ')"
+          fi
+          {
+            echo "versions<<EOF"
+            echo "$versions"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Identify stale versions
+        id: check
+        env:
+          LATEST: ${{ steps.latest.outputs.version }}
+          MENTIONED: ${{ steps.mentioned.outputs.versions }}
+        run: |
+          stale=""
+          while IFS= read -r v; do
+            [ -z "$v" ] && continue
+            if [ "$v" != "$LATEST" ]; then
+              stale="${stale}${v} "
+            fi
+          done <<< "$MENTIONED"
+          stale=$(echo "$stale" | xargs || true)
+          if [ -n "$stale" ]; then
+            echo "Versions obsolètes : $stale"
+            echo "is_stale=true" >> "$GITHUB_OUTPUT"
+            echo "stale=${stale}" >> "$GITHUB_OUTPUT"
+          else
+            echo "Toutes les fiches sont à jour."
+            echo "is_stale=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build issue body
+        if: steps.check.outputs.is_stale == 'true'
+        env:
+          LATEST: ${{ steps.latest.outputs.version }}
+          STALE: ${{ steps.check.outputs.stale }}
+          REPO: ${{ github.repository }}
+        run: |
+          mkdir -p .audit
+          {
+            echo "## Versions firmware obsolètes dans les fiches I-NOVMICRO"
+            echo ""
+            echo "Dernière release publiée : \`v${LATEST}\` (steamicc/micropython-steami-lib)"
+            echo ""
+            echo "Versions encore mentionnées dans les fiches : \`${STALE}\`"
+            echo ""
+            echo "### Fichiers à retester puis mettre à jour"
+            echo ""
+            for v in $STALE; do
+              echo "**Version \`${v}\`** :"
+              echo ""
+              grep -rln "Testée avec firmware STeaMi $v" site/docs/inovmicro-exao/ \
+                --include='*.md' --exclude-dir='_template' \
+                | sort -u \
+                | while read -r f; do
+                  echo "- [\`$f\`](https://github.com/${REPO}/blob/main/$f)"
+                done
+              echo ""
+            done
+            echo "### Action attendue"
+            echo ""
+            echo "1. Retester chaque fiche listée avec le firmware \`v${LATEST}\`."
+            echo "2. Mettre à jour la colonne **« Logiciel STeaMi testé »** du tableau header et le commentaire \`# Testée avec firmware STeaMi X.Y.Z\` des blocs de code."
+            echo "3. Conventions : voir [CONVENTIONS.md §Code MicroPython sur STeaMi](https://github.com/${REPO}/blob/main/CONVENTIONS.md#code-micropython-sur-steami)."
+            echo ""
+            echo "_Cette issue est mise à jour automatiquement chaque lundi par le workflow [\`firmware-audit.yml\`](https://github.com/${REPO}/blob/main/.github/workflows/firmware-audit.yml)._"
+          } > .audit/out.md
+
+      # Recherche une issue ouverte existante avec ce titre pour la mettre à
+      # jour plutôt qu'en créer une nouvelle (même pattern que `links.yml`).
+      - name: Find existing audit issue
+        id: find-issue
+        if: steps.check.outputs.is_stale == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          issue_number=$(gh issue list \
+            --repo "${{ github.repository }}" \
+            --search '"Firmware STeaMi obsolète dans les fiches" in:title' \
+            --state open \
+            --json number,updatedAt \
+            --jq 'sort_by(.updatedAt) | reverse | .[0].number // empty')
+          echo "issue_number=${issue_number}" >> "$GITHUB_OUTPUT"
+
+      - name: Update or create audit issue
+        if: steps.check.outputs.is_stale == 'true'
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: 'Firmware STeaMi obsolète dans les fiches'
+          content-filepath: ./.audit/out.md
+          issue-number: ${{ steps.find-issue.outputs.issue_number }}
+          labels: 'audit,steami'
