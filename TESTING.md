@@ -16,7 +16,7 @@ Ce projet est principalement un **site de contenu** (Docusaurus). Il n'y a pas d
 | Type-checking                   | Avant push, en CI                | `npm run site:typecheck`             |
 | Build                           | Avant push, en CI                | `npm run site:build`                 |
 | Liens cassés (internes)         | À chaque build (Docusaurus)      | Sortie du build                      |
-| Liens cassés (externes)         | Cron hebdomadaire (lundi 8h UTC) | `links.yml` + Lychee                 |
+| Liens cassés (externes)         | Cron hebdomadaire (lundi 8h UTC) | `links.yml` (Lychee + Playwright)    |
 | Vérification visuelle           | Avant PR                         | Navigateur sur `npm run site:start`  |
 | Lint des liens croisés          | À venir (issue #26)              | `npm run lint:crosslinks`            |
 | Audit firmware STeaMi           | À venir (issue #27)              | Workflow GitHub Actions hebdomadaire |
@@ -137,15 +137,22 @@ Build + déploiement vers GitHub Pages → <https://wiki.labaixbidouille.com>.
 
 ### Workflow `links.yml` (cron hebdomadaire, lundi 8h UTC)
 
-Vérification des liens externes via [Lychee](https://github.com/lycheeverse/lychee). Ouvre une issue automatique en cas de liens cassés. Lançable manuellement via `workflow_dispatch`.
+Vérification des liens externes en deux étapes. Lançable manuellement via `workflow_dispatch`. Le workflow ouvre (ou met à jour, cf. #91) une issue intitulée « Liens externes cassés détectés » uniquement si des cassures sont **confirmées** par les deux étapes.
 
-Localement : `npm run lint:links` (Docker requis).
+#### Pipeline
 
-### Vérification anti-bot via Playwright (`npm run verify-broken-links`)
+1. **[Lychee](https://github.com/lycheeverse/lychee)** balaye les fiches et sort un JSON des erreurs (~3 min). Rapide mais incapable de distinguer une vraie 404 d'un blocage anti-bot (Cloudflare Turnstile, WAF, JA3 fingerprint, IP du runner CI sur Azure pénalisée par les CDN).
+2. **[`site/scripts/verify-broken-links.mjs`](site/scripts/verify-broken-links.mjs)** rejoue chaque erreur via Chromium headless avec [`puppeteer-extra-plugin-stealth`](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth). Seules les URLs où lychee **et** Playwright échouent sont conservées dans le rapport final (concurrency 1, ~10 min sur ~100 erreurs lychee).
 
-Lychee ne distingue pas une vraie 404 d'une 403 anti-bot (Cloudflare Turnstile, etc.). Le script [`site/scripts/verify-broken-links.mjs`](site/scripts/verify-broken-links.mjs) rejoue les erreurs lychee via un Chromium headless avec plugin stealth (`puppeteer-extra-plugin-stealth`) pour écarter les faux positifs. Seules les URLs où lychee **et** le navigateur échouent sont conservées comme cassures à corriger.
+Codes de sortie du script :
 
-Usage typique :
+- `0` — aucune cassure confirmée (toutes les erreurs lychee étaient des faux positifs anti-bot). L'issue existante n'est pas modifiée.
+- `1` — cassures confirmées, le rapport est posté sur l'issue.
+- `2+` — erreur inattendue, le workflow remonte l'échec.
+
+Pour préserver la quota d'exécution CI, Node + Chromium ne sont installés que si lychee remonte des erreurs (cas le plus fréquent : tout est propre, on s'arrête après l'étape 1).
+
+#### Reproduire localement
 
 ```bash
 # 1. Lychee en mode JSON. Soit avec le binaire natif :
@@ -156,8 +163,8 @@ docker run --rm -v "$PWD:/input" lycheeverse/lychee \
   --config /input/.lychee.toml --format json --output /input/lychee.json \
   '/input/site/docs/**/*.md'
 
-# 2. Filtrage navigateur
-npm run verify-broken-links -- /tmp/lychee.json --report=/tmp/report.md
+# 2. Filtrage navigateur (+ option curl-fallback recommandée en local)
+npm run verify-broken-links -- /tmp/lychee.json --report=/tmp/report.md --curl-fallback
 ```
 
 Pré-requis :
@@ -165,7 +172,32 @@ Pré-requis :
 - Lychee installé en binaire (`cargo install lychee` ou `brew install lychee`) OU Docker (la commande `lint:links` du `package.json` utilise déjà Docker).
 - Chromium pour Playwright : `npx playwright install chromium` (~150 Mo, à faire une fois). Le package `playwright` n'auto-télécharge **pas** les navigateurs depuis la v1.40, donc cette étape reste manuelle.
 
-L'intégration de ce filtre dans le workflow `links.yml` est suivie en PR séparée.
+#### Option `--curl-fallback`
+
+Quand Playwright échoue toujours sur une URL (par exemple parce que le site bloque les User-Agents headless mais répond à un `curl` standard), `--curl-fallback` ajoute une 3e tentative via `fetch` avec en-têtes navigateur. Utile :
+
+- **En local** : oui, l'IP résidentielle est généralement bien notée par les CDN. Permet d'écarter plus de faux positifs.
+- **En CI** : peu utile. Les runners GitHub Actions sont sur Azure et de nombreux CDN (Cloudflare en tête) bloquent ces plages d'IP indépendamment du User-Agent. L'option est passée dans le workflow par cohérence, mais on n'attend pas qu'elle change beaucoup l'issue.
+
+#### Faux positifs reconnus (mai 2026)
+
+Quelques liens restent classés "cassés" par Playwright sur le runner CI alors qu'ils sont vivants depuis un navigateur ordinaire. Ces résidus sont identifiables visuellement dans le rapport hebdomadaire :
+
+- `geoconfluences.ens-lyon.fr/*` — Cloudflare bloque l'IP du runner Azure quel que soit le UA.
+- `roobopoli.org/*` — idem (3 occurrences).
+
+Ne pas les "corriger" en supprimant le lien : ils sont valides. Si la liste s'allonge ou qu'un nouveau pattern apparaît, ouvrir une issue dédiée.
+
+#### Triage d'une cassure réelle
+
+Quand le rapport remonte une URL qui est vraiment morte, l'ordre de préférence pour la correction est :
+
+1. **URL alternative officielle** — le contenu a peut-être bougé chez le même éditeur. Chercher avec le titre de la page.
+2. **Archive.org (Wayback Machine)** — `https://web.archive.org/web/<date>/<url>`. Indiquer dans le texte « page d'origine n'est plus en ligne, snapshot archivé » pour rester transparent.
+3. **Reformulation textuelle** — mentionner la source par son nom + domaine sans lien (ex. « atelier _Animate a Shape_ de l'Exploratorium (exploratorium.edu) »). Préférable quand le lien était purement illustratif.
+4. **Suppression** — seulement si le contenu n'apporte rien d'essentiel à la fiche.
+
+Une PR par projet (cf. l'historique des PR #115-#125) garde la revue lisible et le diff serré.
 
 ### Workflow `auto-assign.yml`
 

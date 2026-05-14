@@ -379,6 +379,7 @@ Gammonoid
 Gaujal
 Geissmar
 Gennari
+geoconfluences
 geocoder
 geopy
 Gigafactory
@@ -465,6 +466,7 @@ Linkwitz
 livia
 Lnight
 Lonicera
+lyon
 ludifiée
 Ludobox
 Maarten
@@ -586,6 +588,7 @@ Rokach
 Roobokart
 Roobokarts
 Roobopoli
+roobopoli
 Rosenblatt
 Rosmarinus
 Rossing
