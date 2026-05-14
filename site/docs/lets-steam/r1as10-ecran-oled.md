@@ -45,7 +45,7 @@ sidebar_position: 10
 
 :::info[Version STeaMi / MicroPython]
 
-Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Texte sur l'écran OLED (I-Novmicro)](/ressources/inovmicro-exao/i17-texte-oled).
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Texte sur l'écran OLED (I-Novmicro)](/ressources/inovmicro-exao/i10-texte-oled).
 
 :::
 

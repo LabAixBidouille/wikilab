@@ -129,10 +129,12 @@ sidebar_position: 2
 
 ---
 
-<!-- Footer pour fiches originales (i01-i07) : -->
+<!-- Footer pour fiches enseignants (slugs t01-t07) : -->
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 
-<!-- Footer pour fiches portées de Let's STEAM (i08-i22), à utiliser à la place du footer ci-dessus :
-*Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asXX-nom`](/ressources/lets-steam/r1asXX-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
+<!-- Footer pour fiches élèves portées de Let's STEAM (slugs i01-i15, où le
+     numéro iNN colle au numéro r1asNN de la fiche source), à utiliser à la
+     place du footer ci-dessus :
+*Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asNN-nom`](/ressources/lets-steam/r1asNN-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).*
 -->

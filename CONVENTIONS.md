@@ -372,13 +372,24 @@ Garder la fence ` ```python ` (pas `pycon`, qui n'est pas dans les `additionalLa
 
 ## Fiches indépendantes de l'éditeur
 
-Les fiches de **capteur / actionneur / activité** ne doivent pas être liées à un éditeur Python spécifique. Seules les fiches de prise en main des éditeurs eux-mêmes (i01 à i05 du projet I-Novmicro #2 : éditeur web STeaMi, Mu, Thonny, VS Code, Vittascience) sont éditeur-spécifiques. Toutes les autres fiches sont écrites de façon à fonctionner avec n'importe quel IDE compatible MicroPython.
+### Convention de nommage des fiches I-NOVMICRO
+
+Deux préfixes pour distinguer les deux audiences :
+
+- **`tNN-`** (`t` comme _tutoriel_) : fiches enseignant·es. `t01-t05` couvrent les éditeurs (éditeur web STeaMi, Mu, Thonny, VS Code, Vittascience), `t06` les bases du langage, `t07` les capteurs intégrés.
+- **`iNN-`** : fiches élèves portées de Let's STEAM. **Le numéro `iNN` colle au numéro `r1asNN` de la fiche Let's STEAM source**, ce qui rend la correspondance immédiate (`i04-capteur-lumiere` ↔ `r1as04-capteur-lumiere`, `i10-texte-oled` ↔ `r1as10-ecran-oled`, etc.). 15 fiches portées au total (`i01` à `i15`).
+
+Le slug après le numéro est adapté au contenu I-NOVMICRO (qui peut différer du nom Let's STEAM si la pédagogie a évolué).
+
+### Fiches de capteur / actionneur / activité : pas d'éditeur imposé
+
+Les fiches de **capteur / actionneur / activité** (slugs `iNN-`) ne doivent pas être liées à un éditeur Python spécifique. Seules les fiches enseignant·es `t01-t05` (prise en main des éditeurs eux-mêmes) sont éditeur-spécifiques. Toutes les autres fiches sont écrites de façon à fonctionner avec n'importe quel IDE compatible MicroPython.
 
 Patterns à adopter :
 
 | À éviter                                     | À préférer                                                                                                                                                                                                                    |
 | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _« Thonny installé »_ dans la liste matériel | _« Un IDE MicroPython installé. Voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/i03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython fonctionne aussi. »_ |
+| _« Thonny installé »_ dans la liste matériel | _« Un IDE MicroPython installé. Voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython fonctionne aussi. »_ |
 | _« le panneau Shell de Thonny »_             | _« la console MicroPython »_                                                                                                                                                                                                  |
 | _« bouton Run (▶) ou F5 »_ (sans précision)  | _« lancer le programme depuis votre IDE (typiquement bouton Run ▶ ou F5) »_                                                                                                                                                   |
 
@@ -386,7 +397,7 @@ Si une fonctionnalité spécifique à un éditeur mérite d'être mentionnée (p
 
 ### Une fiche STeaMi se suffit à elle-même
 
-Pour les fiches portées depuis Let's STEAM (slugs `i08` à `i22`), **rédiger la fiche STeaMi comme si Let's STEAM n'existait pas** :
+Pour les fiches portées depuis Let's STEAM (slugs `i01` à `i15`), **rédiger la fiche STeaMi comme si Let's STEAM n'existait pas** :
 
 - Pas de comparaison à la fiche d'origine dans le corps (_« contrairement à la fiche Let's STEAM qui demandait... »_, _« on passe des blocs MakeCode à des fonctions Python »_, etc.).
 - Pas de mention de l'éditeur d'origine (MakeCode) ni du matériel d'origine (Adafruit, breadboard externe...).
@@ -395,7 +406,7 @@ Pour les fiches portées depuis Let's STEAM (slugs `i08` à `i22`), **rédiger l
 L'**attribution CC BY-SA 4.0** reste obligatoire **dans le footer** :
 
 ```md
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asXX-nom`](/ressources/lets-steam/r1asXX-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asNN-nom`](/ressources/lets-steam/r1asNN-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 ```
 
 ### Lien croisé réciproque côté Let's STEAM
@@ -405,7 +416,7 @@ Toute fiche Let's STEAM qui a une version portée dans I-NOVMICRO doit pointer v
 ```md
 :::info[Version STeaMi / MicroPython]
 
-Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Titre lisible (I-Novmicro)](/ressources/inovmicro-exao/iXX-slug).
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Titre lisible (I-Novmicro)](/ressources/inovmicro-exao/iNN-slug).
 
 :::
 ```

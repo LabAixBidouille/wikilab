@@ -1,5 +1,5 @@
 ---
-id: i03-decouverte-thonny
+id: t03-decouverte-thonny
 title: "Thonny : Prise en main de MicroPython sur la STeaMi"
 sidebar_label: "Thonny"
 sidebar_position: 3
@@ -28,7 +28,7 @@ sidebar_position: 3
 - [Thonny](https://thonny.org/) installé (version 4.x ou supérieure)
 - Le programme MicroPython STeaMi `.hex` ([dernière release](https://github.com/steamicc/micropython-steami-lib/releases))
 </div>
-<img src="/img/ressources/inovmicro-exao/i03-thonny/Thonny.png" alt="Logo Thonny" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/Thonny.png" alt="Logo Thonny" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 ---
 
@@ -72,7 +72,7 @@ pipx install thonny
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/01-thonny-premier-lancement.png"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/01-thonny-premier-lancement.png"
     alt="Fenêtre principale de Thonny au premier démarrage"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -104,7 +104,7 @@ Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câ
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/02-drag-drop-firmware.gif"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/02-drag-drop-firmware.gif"
     alt="Animation : glisser-déposer du fichier .hex sur le disque STEAMI"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -144,7 +144,7 @@ Type "help()" for more information.
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/03-thonny-options-interpreter.png"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/03-thonny-options-interpreter.png"
     alt="Fenêtre des options de Thonny avec le sélecteur d'interpréteur MicroPython"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -154,7 +154,7 @@ Type "help()" for more information.
 </figure>
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/04-thonny-repl-prompt.png"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/04-thonny-repl-prompt.png"
     alt="Prompt MicroPython >>> dans le Shell de Thonny"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -240,7 +240,7 @@ Quand un programme est déjà en cours d'exécution sur la carte (par exemple un
 :::
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/05-thonny-editeur-code.png"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/05-thonny-editeur-code.png"
     alt="Programme LED RGB + boutons ouvert dans l'éditeur de Thonny"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -251,7 +251,7 @@ Quand un programme est déjà en cours d'exécution sur la carte (par exemple un
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center', margin: '1rem auto'}}>
   <figure style={{textAlign: 'center', margin: 0, flex: '1 1 200px', maxWidth: '300px'}}>
     <img
-      src="/img/ressources/inovmicro-exao/i03-thonny/06-steami-led-rouge.jpeg"
+      src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/06-steami-led-rouge.jpeg"
       alt="STeaMi avec LED RGB allumée en rouge (bouton A)"
       style={{maxWidth: '100%', height: 'auto'}}
     />
@@ -261,7 +261,7 @@ Quand un programme est déjà en cours d'exécution sur la carte (par exemple un
   </figure>
   <figure style={{textAlign: 'center', margin: 0, flex: '1 1 200px', maxWidth: '300px'}}>
     <img
-      src="/img/ressources/inovmicro-exao/i03-thonny/07-steami-led-verte.jpeg"
+      src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/07-steami-led-verte.jpeg"
       alt="STeaMi avec LED RGB allumée en vert (bouton B)"
       style={{maxWidth: '100%', height: 'auto'}}
     />
@@ -271,7 +271,7 @@ Quand un programme est déjà en cours d'exécution sur la carte (par exemple un
   </figure>
   <figure style={{textAlign: 'center', margin: 0, flex: '1 1 200px', maxWidth: '300px'}}>
     <img
-      src="/img/ressources/inovmicro-exao/i03-thonny/08-steami-led-bleue.jpeg"
+      src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/08-steami-led-bleue.jpeg"
       alt="STeaMi avec LED RGB allumée en bleu (boutons A + B)"
       style={{maxWidth: '100%', height: 'auto'}}
     />
@@ -337,7 +337,7 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i03-thonny/09-thonny-debug-pas-a-pas.png"
+    src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/09-thonny-debug-pas-a-pas.png"
     alt="Session de débogage pas-à-pas dans Thonny avec point d'arrêt et panneau Variables"
     style={{maxWidth: '100%', height: 'auto'}}
   />

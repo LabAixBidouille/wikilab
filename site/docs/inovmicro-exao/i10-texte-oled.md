@@ -1,5 +1,5 @@
 ---
-id: i17-texte-oled
+id: i10-texte-oled
 title: Afficher du texte sur l'écran OLED
 sidebar_label: "Écran OLED"
 sidebar_position: 17
@@ -27,7 +27,7 @@ sidebar_position: 17
 - 1 ordinateur avec un IDE MicroPython (Thonny, VS Code, `mpremote`…)
 
 </div>
-<img src="/img/ressources/inovmicro-exao/i17-texte-oled/icone.png" alt="Écran OLED de la STeaMi affichant du texte" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/i10-texte-oled/icone.png" alt="Écran OLED de la STeaMi affichant du texte" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---
@@ -57,7 +57,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/01-steami-oled-vide.jpeg"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/01-steami-oled-vide.jpeg"
     alt="Carte STeaMi connectée en USB, écran OLED encore éteint"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -67,7 +67,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
 </figure>
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/02-lecteur-steami.png"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/02-lecteur-steami.png"
     alt="Le lecteur STEAMI apparaît dans l'explorateur de fichiers"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -79,7 +79,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne. Il ne reste que deux chos
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/03-ide-micropython-main-py.png"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/03-ide-micropython-main-py.png"
     alt="IDE MicroPython avec le fichier main.py ouvert, prêt à être téléversé"
     style={{maxWidth: '100%', height: 'auto'}}
   />
@@ -126,7 +126,7 @@ Copier ce code sur la carte sous le nom `main.py` à l'aide de votre IDE MicroPy
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/04-steami-hello-world.jpeg"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/04-steami-hello-world.jpeg"
     alt="STeaMi affichant Hello World en haut, un cœur au centre et une ligne de tirets en bas"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -211,7 +211,7 @@ screen  = Screen(display)
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/05-steami-coeur-grand.jpeg"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/05-steami-coeur-grand.jpeg"
     alt="STeaMi affichant un cœur agrandi avec scale=3"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -241,7 +241,7 @@ while True:
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/06-steami-animation-linea.gif"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/06-steami-animation-linea.gif"
     alt="Animation : un petit personnage |_ traverse l'écran de gauche à droite"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
@@ -287,7 +287,7 @@ Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les c
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i17-texte-oled/07-steami-tableau-bord.jpeg"
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/07-steami-tableau-bord.jpeg"
     alt="STeaMi affichant un tableau de bord avec température, humidité et accélération"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />

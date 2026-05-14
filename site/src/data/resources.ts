@@ -3674,9 +3674,9 @@ export const resources: Resource[] = [
     thumbnail: '/img/ressources/inovmicro-exao/decouverte-steami/icone.png',
   },
   {
-    id: 'i17-texte-oled',
+    id: 'i10-texte-oled',
     title: "Afficher du texte sur l'écran OLED",
-    slug: '/ressources/inovmicro-exao/i17-texte-oled',
+    slug: '/ressources/inovmicro-exao/i10-texte-oled',
     project: 'inovmicro-exao',
     summary:
       "Afficher du texte sur l'écran OLED 128×128 intégré à la STeaMi, en MicroPython avec la bibliothèque steami_screen. Positions cardinales, framebuffer, animation et mise en page d'un tableau de bord.",
@@ -3699,12 +3699,12 @@ export const resources: Resource[] = [
       'steami_screen',
       'affichage',
     ],
-    thumbnail: '/img/ressources/inovmicro-exao/i17-texte-oled/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/i10-texte-oled/icone.png',
   },
   {
-    id: 'i03-decouverte-thonny',
+    id: 't03-decouverte-thonny',
     title: 'Thonny — Prise en main de MicroPython sur la STeaMi',
-    slug: '/ressources/inovmicro-exao/i03-decouverte-thonny',
+    slug: '/ressources/inovmicro-exao/t03-decouverte-thonny',
     project: 'inovmicro-exao',
     summary:
       'Mettre en place un environnement desktop, gratuit et hors-ligne pour programmer la STeaMi en MicroPython avec Thonny : installation, configuration de la communication entre Thonny et la carte, et premier programme LED RGB + boutons.',
@@ -3718,12 +3718,12 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Thonny', 'REPL', 'éditeur', 'desktop'],
-    thumbnail: '/img/ressources/inovmicro-exao/i03-thonny/Thonny.png',
+    thumbnail: '/img/ressources/inovmicro-exao/t03-decouverte-thonny/Thonny.png',
   },
   {
-    id: 'i11-capteur-lumiere',
+    id: 'i04-capteur-lumiere',
     title: 'Prise en main du capteur de lumière',
-    slug: '/ressources/inovmicro-exao/i11-capteur-lumiere',
+    slug: '/ressources/inovmicro-exao/i04-capteur-lumiere',
     project: 'inovmicro-exao',
     summary:
       'Lire le capteur APDS-9960 intégré à la STeaMi, observer les variations de lumière dans Thonny et piloter la LED RGB selon un seuil.',
@@ -3737,12 +3737,12 @@ export const resources: Resource[] = [
     formats: ['programmation', 'experimentation'],
     categories: ['programmation', 'exploration-scientifique'],
     keywords: ['STeaMi', 'MicroPython', 'capteur', 'lumière', 'APDS-9960', 'I2C'],
-    thumbnail: '/img/ressources/inovmicro-exao/i11-capteur-lumiere/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/i04-capteur-lumiere/icone.png',
   },
   {
-    id: 'i13-code-morse',
+    id: 'i06-code-morse',
     title: 'Envoyer des messages en code Morse avec la STeaMi',
-    slug: '/ressources/inovmicro-exao/i13-code-morse',
+    slug: '/ressources/inovmicro-exao/i06-code-morse',
     project: 'inovmicro-exao',
     summary:
       "Programmer un émetteur Morse avec le buzzer piézo intégré et les boutons A et B de la STeaMi. Génération d'une fréquence audio par bascule rapide d'une broche, codage à longueur variable et envoi de messages en code Morse international.",
@@ -3756,7 +3756,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'experimentation'],
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Morse', 'buzzer', 'piézo', 'codage'],
-    thumbnail: '/img/ressources/inovmicro-exao/i13-code-morse/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/i06-code-morse/icone.png',
   },
   {
     id: 'depannage',

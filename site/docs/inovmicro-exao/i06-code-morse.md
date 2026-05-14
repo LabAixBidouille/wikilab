@@ -1,5 +1,5 @@
 ---
-id: i13-code-morse
+id: i06-code-morse
 title: Envoyer des messages en code Morse avec la STeaMi
 sidebar_label: "Code Morse"
 sidebar_position: 13
@@ -26,7 +26,7 @@ sidebar_position: 13
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE prenant en charge MicroPython
 </div>
-<img src="/img/ressources/inovmicro-exao/i13-code-morse/icone.png" alt="Code Morse sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/i06-code-morse/icone.png" alt="Code Morse sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 ---
 
@@ -38,7 +38,7 @@ La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un 
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i13-code-morse/01-morse-international.svg"
+    src="/img/ressources/inovmicro-exao/i06-code-morse/01-morse-international.svg"
     alt="Tableau du code Morse international"
     style={{maxWidth: '400px', height: 'auto'}}
   />
