@@ -47,7 +47,7 @@ Cette fiche d'activité propose de créer des projets plus complexes en utilisan
 
 **Ressources :**
 
-- [magnetics.edu-up.fr](https://www.magnetics.edu-up.fr/)
+- [magnetics.edu-up.fr (archive.org, 2025-12-06)](https://web.archive.org/web/20251206204723/https://magnetics.edu-up.fr/)
 - [blog.rtone.fr/bluetooth-mesh](https://blog.rtone.fr/bluetooth-mesh)
 - [Bluetooth basse consommation (Wikipédia)](https://fr.wikipedia.org/wiki/Bluetooth_%C3%A0_basse_consommation)
 
