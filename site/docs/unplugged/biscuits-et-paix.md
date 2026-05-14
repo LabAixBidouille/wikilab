@@ -144,7 +144,7 @@ La classe/l'école peut également envisager de déclarer une "Journée des ress
 Vous pouvez explorer la relation entre la nourriture et la richesse, et de la manière dont elles ont un impact sur chacun d'entre nous, individuellement et collectivement. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [PotLuck March](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix) et consulter les ressources suivantes :
 
 - CFBNJ Hunger Activities de Diana Levy : https://cfbnj.org/wp-content/uploads/2021/11/Roots-of-Hunger.pdf
-- Jeu Graham-Cracker : https://rswr.org/sites/default/files/2018-06/Graham-Cracker-Game.pdf
+- Jeu Graham-Cracker : https://web.archive.org/web/20221018101114/https://rswr.org/sites/default/files/2018-06/Graham-Cracker-Game.pdf (archive.org 2022-10)
 - Global Food Challenge : https://oxfamilibrary.openrepository.com/handle/10546/620812
 
 ### Sujet 2 - Importance de la négociation et de la coopération
@@ -159,7 +159,7 @@ Nouer et entretenir de bonnes relations est une compétence essentielle pour le 
 
 Il est très important de doter les enfants de compétences en matière de résolution des conflits. La créativité encourage à trouver de nouvelles perspectives et à proposer des solutions innovantes lorsque la pensée conventionnelle échoue. Vous pouvez vous référer à d'autres quêtes d'Unplugged, par exemple [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Form factor](/ressources/unplugged/form-factor), etc. et consulter :
 
-- Les jeux qui favorisent les compétences en résolution de problèmes : https://www.stenhouse.com/sites/default/files/public/legacy/pdfs/8247ch10.pdf
+- Les jeux qui favorisent les compétences en résolution de problèmes : https://web.archive.org/web/20221018101102/https://www.stenhouse.com/sites/default/files/public/legacy/pdfs/8247ch10.pdf (archive.org 2022-10)
 - 10 vidéos sans paroles qui enseignent la résolution de problèmes : https://speechisbeautiful.com/2017/03/10-wordless-videos-teach-problem-solving
 - Outils et compétences créatifs de résolution de problèmes pour les élèves et les enseignants : https://www.innovativeteachingideas.com/blog/creative-problem-solving-tools-and-skills-for-students-and-teachers
 
@@ -167,7 +167,7 @@ Il est très important de doter les enfants de compétences en matière de réso
 
 Vous pouvez utiliser les ressources suivantes pour vous inspirer et lancer des discussions sur la question des ressources limitées par rapport à la demande de biens et de services, aux besoins humains :
 
-- Consumer Stuff for Kids : https://www.consumer.vic.gov.au/library/publications/resources-and-education/teacher-resources/consumer-stuff-for-kids-a-teaching-and-learning-resource.pdf
+- Consumer Stuff for Kids : https://web.archive.org/web/20230321042152/https://www.consumer.vic.gov.au/library/publications/resources-and-education/teacher-resources/consumer-stuff-for-kids-a-teaching-and-learning-resource.pdf (archive.org 2023-03)
 - 10 façons d'enseigner aux enfants la résolution de problèmes : https://www.powerofpositivity.com/problem-solving-skills-teach-children
 
 ---

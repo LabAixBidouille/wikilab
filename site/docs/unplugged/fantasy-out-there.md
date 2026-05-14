@@ -132,7 +132,7 @@ Pour développer davantage le sens esthétique et la créativité, vous pouvez v
 
 ### Sujet 3 - Réalité augmentée
 
-Pour en savoir plus sur les avantages de l'utilisation de la réalité augmentée dans l'apprentissage (en) : https://saferkidsonline.eset.com/uk/article/get-to-know-augmented-reality
+Pour en savoir plus sur les avantages de l'utilisation de la réalité augmentée dans l'apprentissage (en) : https://web.archive.org/web/20250214053126/https://saferkidsonline.eset.com/uk/article/get-to-know-augmented-reality (archive.org 2025-02)
 
 ---
 

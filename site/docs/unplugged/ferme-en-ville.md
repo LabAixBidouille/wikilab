@@ -129,13 +129,13 @@ Pour vous entraîner davantage à la planification de stratégies d'équipe et �
 
 - https://en.wikipedia.org/wiki/Urban_agriculture
 - https://www.unesco.org/en/articles/unesco-promotes-biodiversity-and-urban-gardening-its-own-premises
-- https://www.petitjourney.com.au/petit-childrens-garden-activities/
+- https://web.archive.org/web/20240915232157/https://www.petitjourney.com.au/petit-childrens-garden-activities/ (archive.org 2024-09)
 - https://www.littledayout.com/urban-farming-for-kids/
 - Bombe de graines : https://littlebinsforlittlehands.com/make-seed-bombs-earth-day-activity/
 
 ### Sujet 3 - Ville intelligente et apprenante
 
-- https://mocomi.com/what-is-a-smart-city/
+- https://web.archive.org/web/20260307114631/https://mocomi.com/what-is-a-smart-city/ (archive.org 2026-03)
 - https://circularcomputing.com/news/10-ways-make-school-sustainable/
 - https://smartkidsproject.eu/
 

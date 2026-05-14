@@ -120,7 +120,7 @@ Lancez une discussion sur ce qui unit les nations européennes.
 
 ### Sujet 3 - Identité européenne
 
-- Fonds Européen pour la Jeunesse : https://www.coe.int/fr/web/european-youth-foundation
+- Fonds Européen pour la Jeunesse : https://web.archive.org/web/20250804154235/https://www.coe.int/fr/web/european-youth-foundation (archive.org 2025-08)
 
 ---
 

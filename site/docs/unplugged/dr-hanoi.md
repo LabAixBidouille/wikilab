@@ -139,7 +139,6 @@ Pour développer davantage le raisonnement logique, tu peux te référer à d'au
 
 Pour développer davantage la dextérité, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Reroute better world](/ressources/unplugged/reroute-better-world), [Plastic continent](/ressources/unplugged/plastic-continent), [Brain Twister](/ressources/unplugged/brain-twister), etc.
 
-- Pour en savoir plus sur l'importance du développement de la dextérité et du contrôle des mains (en) : https://childdevelopment.com.au/areas-of-concern/fine-motor-skills/hand-control/
 - Pour vous inspirer d'autres idées pour entraîner la dextérité (en) : https://www.teachearlyyears.com/images/uploads/article/Developing_fine_motor_skills.pdf
 
 ### Sujet 3 - Tour de Hanoi

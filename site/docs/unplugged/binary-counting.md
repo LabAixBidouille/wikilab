@@ -146,7 +146,7 @@ Dans ces feuilles de travail, ils doivent changer les nombres de binaire en déc
 ### Sujet 1 - Apprendre le système numérique binaire
 
 - https://kids.kiddle.co/Binary_number
-- https://info.thinkfun.com/stem-education/6-unplugged-coding-activities-for-hour-of-code
+- https://web.archive.org/web/20230329123401/https://info.thinkfun.com/stem-education/6-unplugged-coding-activities-for-hour-of-code (archive.org 2023-03)
 - https://teachyourkidscode.com/learn-binary-numbers/
 - https://blogs.glowscotland.org.uk/glowblogs/computingscience/2021/08/06/binary-understanding-how-computers-work-and-challenge-in-numeracy/
 - https://classic.csunplugged.org/activities/binary-numbers/

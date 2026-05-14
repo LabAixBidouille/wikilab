@@ -116,7 +116,7 @@ Les enfants retournent deux cartes simultanément pour découvrir la bonne combi
 
 ### Sujet 2 - Raconter et témoigner avec des images
 
-- https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/
+- https://web.archive.org/web/20221006131842/https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/ (archive.org 2022-10)
 
 ### Sujet 3 - Aborder la programmation
 
