@@ -109,7 +109,7 @@ jobs:
             exit 1
           fi
           set +e
-          node site/scripts/verify-broken-links.mjs ./lychee.json --report=./final-report.md
+          node site/scripts/verify-broken-links.mjs ./lychee.json --report=./final-report.md --curl-fallback
           rc=$?
           set -e
           case "$rc" in
