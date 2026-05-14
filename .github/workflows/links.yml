@@ -43,6 +43,13 @@ jobs:
           # as in the action configuration". `jobSummary: false` parce que le
           # résumé GitHub est généré à partir du markdown ; ici on produit
           # du JSON brut, le résumé serait vide.
+          #
+          # `lycheeVersion: v0.24.2` épingle la version pour matcher celle
+          # utilisée en local (cargo install). L'action par défaut prend
+          # v0.23.0 dont la sortie JSON est moins complète (pas de
+          # `span.line` pour les erreurs), ce qui faisait apparaître
+          # `ligne 0` partout dans le rapport.
+          lycheeVersion: v0.24.2
           format: json
           output: ./lychee.json
           jobSummary: false
@@ -75,7 +82,7 @@ jobs:
       - name: Cache Playwright Chromium
         id: playwright-cache
         if: steps.check-links.outputs.exit_code != '0'
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-chromium-${{ hashFiles('package-lock.json') }}
