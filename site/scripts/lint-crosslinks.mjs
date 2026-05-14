@@ -41,8 +41,7 @@ const ADAPTED_FROM_RE =
 // callout (cf. CONVENTIONS.md §Lien croisé réciproque côté Let's STEAM) :
 // une mention de l'URL en passant dans le corps ne suffit pas, on veut le
 // callout dédié pour la visibilité côté lecteur.
-const VERSION_STEAMI_CALLOUT_RE =
-  /:::info\[Version STeaMi \/ MicroPython\]\s*([\s\S]*?):::/g;
+const VERSION_STEAMI_CALLOUT_RE = /:::info\[Version STeaMi \/ MicroPython\]\s*([\s\S]*?):::/g;
 const INOVMICRO_LINK_RE = /\/ressources\/inovmicro-exao\/([a-z0-9][a-z0-9-]*)/g;
 
 async function listFiches(dir) {

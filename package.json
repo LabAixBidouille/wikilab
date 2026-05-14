@@ -35,7 +35,7 @@
       "markdownlint",
       "cspell --no-must-find-files"
     ],
-    "*.{js,jsx,ts,tsx}": [
+    "*.{js,mjs,cjs,jsx,ts,tsx}": [
       "prettier --check"
     ],
     "*.{json,css,yml,yaml}": "prettier --check"
