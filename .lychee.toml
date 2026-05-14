@@ -1,11 +1,13 @@
 verbose = "info"
 no_progress = true
 max_concurrency = 8
-max_redirects = 5
+max_redirects = 10
 timeout = 30
 retry_wait_time = 2
 max_retries = 2
-accept = [200, 203, 206, 429]
+# 202 Accepted : utilisé par certains serveurs derrière un CDN/WAF qui
+# acceptent la requête en asynchrone. À traiter comme un succès.
+accept = [200, 202, 203, 206, 429]
 
 # Permet à lychee de parser les liens root-relative (/ressources/foo,
 # /projets/bar, /img/baz) en les résolvant contre l'URL du site
@@ -52,11 +54,31 @@ exclude = [
   "^https?://(www\\.)?leonardo\\.ai",
   "^https?://(www\\.)?midjourney\\.com",
   "^https?://(www\\.)?chatgpt\\.com",
+  "^https?://chat\\.openai\\.com",
+  "^https?://(www\\.)?openai\\.com",
+  "^https?://chat\\.mistral\\.ai",
   "^https?://(www\\.)?canva\\.com",
   "^https?://(www\\.)?microbit\\.org",
   "^https?://(www\\.)?raspberrypi\\.com",
   "^https?://helpx\\.adobe\\.com",
   "^https?://(www\\.)?unsplash\\.com",
+  # Banques d'images / icônes derrière Cloudflare (403 récurrents)
+  "^https?://(www\\.)?freepik\\.com",
+  "^https?://(www\\.)?flaticon\\.com",
+  # Plateformes éducatives et de jeux derrière Cloudflare / WAF
+  "^https?://(www\\.)?study\\.com",
+  "^https?://(www\\.)?daysofwonder\\.com",
+  "^https?://minds-in-bloom\\.com",
+  "^https?://quizlet\\.com",
+  # Revues scientifiques et encyclopédies (403 systématique sur les bots)
+  "^https?://(www\\.)?britannica\\.com",
+  "^https?://(www\\.)?researchgate\\.net",
+  "^https?://onlinelibrary\\.wiley\\.com",
+  "^https?://jamanetwork\\.com",
+  "^https?://medium\\.com",
+  # Sites institutionnels souvent derrière WAF (ADEME, UNICEF)
+  "^https?://(www\\.)?ademe\\.fr",
+  "^https?://(www\\.)?unicef\\.org",
 
   "^mailto:",
   "^tel:",
