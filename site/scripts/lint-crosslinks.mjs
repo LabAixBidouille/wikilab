@@ -36,7 +36,13 @@ const LETSSTEAM_DIR = join(DOCS_ROOT, 'lets-steam');
 const ADAPTED_FROM_RE =
   /Adaptée du projet \[Let's STEAM\]\([^)]+\) \(fiche \[`[^`]+`\]\(\/ressources\/lets-steam\/([a-z0-9][a-z0-9-]*)\)/;
 
-// Capture tout lien Let's STEAM -> I-NOVMICRO dans le corps de la fiche.
+// Capture les liens I-NOVMICRO uniquement à l'intérieur d'un callout
+// `:::info[Version STeaMi / MicroPython] ... :::`. La convention impose ce
+// callout (cf. CONVENTIONS.md §Lien croisé réciproque côté Let's STEAM) :
+// une mention de l'URL en passant dans le corps ne suffit pas, on veut le
+// callout dédié pour la visibilité côté lecteur.
+const VERSION_STEAMI_CALLOUT_RE =
+  /:::info\[Version STeaMi \/ MicroPython\]\s*([\s\S]*?):::/g;
 const INOVMICRO_LINK_RE = /\/ressources\/inovmicro-exao\/([a-z0-9][a-z0-9-]*)/g;
 
 async function listFiches(dir) {
@@ -66,11 +72,17 @@ async function main() {
     if (m) portToSource.set(slugOf(f), m[1]);
   }
 
-  // Map: slug Let's STEAM -> set de slugs I-NOVMICRO référencés dans le corps.
+  // Map: slug Let's STEAM -> set de slugs I-NOVMICRO référencés à l'intérieur
+  // du callout `:::info[Version STeaMi / MicroPython] ... :::`.
   const letsToInov = new Map();
   for (const f of letsFiles) {
     const text = await readFile(f, 'utf8');
-    const refs = new Set([...text.matchAll(INOVMICRO_LINK_RE)].map((m) => m[1]));
+    const refs = new Set();
+    for (const callout of text.matchAll(VERSION_STEAMI_CALLOUT_RE)) {
+      for (const link of callout[1].matchAll(INOVMICRO_LINK_RE)) {
+        refs.add(link[1]);
+      }
+    }
     letsToInov.set(slugOf(f), refs);
   }
 
