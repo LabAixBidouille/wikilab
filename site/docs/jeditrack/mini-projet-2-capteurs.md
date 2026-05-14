@@ -110,7 +110,7 @@ Pour s'assurer que le Pico soit identifié comme un interpréteur par Thonny, il
 *Pico emploie par défaut le langage C. Il faut donc faire une petite manipulation pour qu'il emploie python.*
 :::
 
-Pour bien le connecter, branchez votre Pico à l'aide du câble micro USB, en gardant le bouton « Bootsel » de la carte enfoncée. Vous pouvez relâcher le bouton une fois que la fenêtre contenant le fichier du Pico s'ouvre (il apparait comme un emplacement de stockage sur votre PC, ayant pour nom RPI-RP2).
+Pour bien le connecter, branchez votre Pico à l'aide du câble micro USB, en gardant le bouton « Bootsel » de la carte enfoncée. Vous pouvez relâcher le bouton une fois que la fenêtre contenant le fichier du Pico s'ouvre (il apparaît comme un emplacement de stockage sur votre PC, ayant pour nom RPI-RP2).
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101612.png" alt="Connexion du Pico" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -126,17 +126,17 @@ Restez attentif à la console. En effet il peut déjà  y avoir des erreurs à c
 *Assurez-vous bien qu'il n'y a pas de programme déjà ouvert et qu'il n'y ai pas d'autre programme sur le pico, une autre erreur possible est que le Pico est « busy », ce qui signifie qu'un programme tourne déjà dessus et qu'il n'est pas possible d'y exécuter un nouveau.*
 :::
 
-**Ecrire dans la console**
+**Écrire dans la console**
 
 La fonction « print » permet d'écrire dans la console. Nous choisissons ici du texte, mais on peut imprimer des variables, des mesures etc.
 
 Insistez sur l'importance de la syntaxe (bien écrire tous les caractères, respecter les majuscules, etc.)
 
-Ecrivez donc maintenant une phrase dans la console à l'aide de la commande « print ».
+Écrivez donc maintenant une phrase dans la console à l'aide de la commande « print ».
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101910.png" alt="Commande print" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Soyez déjà vigilant à la syntaxe. En effet la moindre différence peut empêcher ce programme pourtant très simple de fonctionner. Ecrire Print avec une majuscule par exemple ne fonctionne pas, oublier les guillemets non plus, etc.
+Soyez déjà vigilant à la syntaxe. En effet la moindre différence peut empêcher ce programme pourtant très simple de fonctionner. Écrire Print avec une majuscule par exemple ne fonctionne pas, oublier les guillemets non plus, etc.
 
 Une fois le code écrit, appuyer sur le bouton exécuter, vous devrez alors choisir d'utiliser l'ordinateur ou la carte pour sauvegarder le programme. Pour pouvoir exécuter le programme sur la carte sans qu'elle soit branchée, il faut sauvegarder le programme sur cette dernière. Nous vous conseillons cependant de faire une copie sur l'ordinateur au cas où il y a un problème sur la carte.
 
@@ -222,9 +222,9 @@ De façon contre-intuitive il est plus simple de répéter indéfiniment une bou
 
 Nous allons à nouveau employer « while », mais au lieu d'utiliser « True », il va falloir utiliser une condition qui n'est pas toujours vrai et qui pourra changer. Pour simplifier les choses nous allons avoir recours à une variable.
 
-Une variable est une donnée dont la valeur est susceptible de changer durant l'exécution du code. On peut par exemple imaginer que l'heure est une variable. Si je vous demande l'heure qu'il est, vous ne connaitrez pas spécialement la réponse sans regarder votre montre, mais pourtant vous savez ce dont je parle.
+Une variable est une donnée dont la valeur est susceptible de changer durant l'exécution du code. On peut par exemple imaginer que l'heure est une variable. Si je vous demande l'heure qu'il est, vous ne connaîtrez pas spécialement la réponse sans regarder votre montre, mais pourtant vous savez ce dont je parle.
 
-Attention à ne pas faire d'amalgame avec une variable mathématique. En programmation une variable a une valeur précise, on ne le connait pas spécialement à tout moment (en particulier dans des cas où sa valeur est aléatoire), mais elle est définie en amont, soit dans le code (comme dans notre cas), soit par des instruments de mesures (thermomètre, capteur de lumière etc.).
+Attention à ne pas faire d'amalgame avec une variable mathématique. En programmation une variable a une valeur précise, on ne le connaît pas spécialement à tout moment (en particulier dans des cas où sa valeur est aléatoire), mais elle est définie en amont, soit dans le code (comme dans notre cas), soit par des instruments de mesures (thermomètre, capteur de lumière etc.).
 
 Dans notre cas on veut juste une sorte de compteur et allons simplement appeler notre variable i, mais vous pouvez l'appelez comme vous le souhaitez. Avant d'y avoir recours il faut définir ce dont il s'agit, et nous allons simplement lui donner une valeur numérique.
 

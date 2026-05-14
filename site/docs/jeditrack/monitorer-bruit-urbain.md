@@ -83,7 +83,7 @@ Pour programmer une carte micro:bit pour mesurer le niveau sonore, vous aurez be
 
 - **Cartes Micro:bit V2 et ses capteurs intégrés :** La carte programmable principale incluant un capteur de niveau sonore intégré - Environ 19 EUR par micro:bit ([consultez les prix ici](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html)). Vous pouvez acheter le kit Micro:bit V2 comprenant le câble USB et le boîtier de piles pour 21 EUR par kit ([ici](https://www.kubii.com/fr/kits-micro-controleurs/3092-kit-microbit-go-v2-5051259252592.html)), ou 177 EUR pour 10 kits ([ici](https://www.kubii.com/fr/kits-micro-controleurs/3093-kit-microbit-club-v2-5051259252615.html)).
 - **Câbles micro-USB :** pour alimenter et programmer le micro:bit
-- **Batterie externe (en option) :** Pour un fonctionnement portable si la micro:bit doit être détachée, vous pouvez trouver le boitier de piles officielle de micro:bit disponible à l'achat pour environ 2,20 EUR par pack [ici](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html)
+- **Batterie externe (en option) :** Pour un fonctionnement portable si la micro:bit doit être détachée, vous pouvez trouver le boîtier de piles officielle de micro:bit disponible à l'achat pour environ 2,20 EUR par pack [ici](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html)
 - **Ordinateur ou tablette :** pour écrire et télécharger le code.
 - **Environnement de programmation :** [Éditeur en ligne MakeCode](https://makecode.microbit.org/#editor)
 
