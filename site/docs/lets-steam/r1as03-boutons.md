@@ -184,7 +184,7 @@ La ligne la plus importante ici est la condition `if (weCanPushIt) { ... }` qui 
 
 - **Découvrez ce qu'est une variable** - Apprenez-en plus sur les variables et les fonctions en programmation.
   https://www.computerhope.com/jargon/v/variable.htm,
-  https://www.makeuseof.com/what-is-a-function-programming/
+  https://web.archive.org/web/20230620020907/https://www.makeuseof.com/what-is-a-function-programming/
 
 ---
 
