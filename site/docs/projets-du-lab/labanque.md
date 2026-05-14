@@ -43,10 +43,6 @@ Tout temps consacré à faire vivre la communauté est compensé en ⬡.
 
 Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle a la possibilité d'acheter des ⬡ (100 ⬡ = 8 €).
 
-### Tout le monde en parle
-
-- [Le Fab Shop](http://www.lefabshop.fr/nutsbank-une-monnaie-pour-les-makers/)
-
 ### Comment gagner des ⬡ ?
 
 - En donnant du temps à l'association
@@ -105,6 +101,3 @@ Coût des ateliers de formation :
 | Atelier d'initiation de 2 h | 50 ⬡ |
 | Atelier de formation | 400 ⬡/0,5 j |
 
-### Protocole d'échange
-
-http://nutsbank.herokuapp.com/makers/sign_in

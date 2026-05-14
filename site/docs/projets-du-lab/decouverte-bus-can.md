@@ -27,7 +27,7 @@ Matériel nécessaire :
 
 - 2 Arduino Uno
 
-- 2 [shield CAN-BUS Sparkfun](https://www.sparkfun.com/products/10039) ou un [shield Seeduino](https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html) ou un [breakout](https://www.botshop.co.za/product/can-bus-module-arduino-mcp2515/)
+- 2 [shield CAN-BUS Sparkfun](https://www.sparkfun.com/products/10039) ou un [shield Seeduino](https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html) ou un [breakout (archive.org 2021-04)](https://web.archive.org/web/20210422223931/https://www.botshop.co.za/product/can-bus-module-arduino-mcp2515/)
 
 - 2 Résistances de 120 Ohms (terminaison de bus, une à chaque extrémité)
 
@@ -76,8 +76,6 @@ Extension de l'expérimentation précédente avec plusieurs nœuds récepteurs s
 
 - http://modelrail.otenko.com/arduino/arduino-controller-area-network-can
 
-- http://www.seeedstudio.com/wiki/CAN-BUS_Shield
-
-- http://skpang.co.uk/blog/archives/55
+- https://web.archive.org/web/20160803041145/http://www.seeedstudio.com/wiki/CAN-BUS_Shield (archive.org 2016-08)
 
 - https://www.sparkfun.com/products/10039

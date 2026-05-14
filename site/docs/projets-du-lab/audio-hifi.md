@@ -25,11 +25,11 @@ Le point de départ est la convergence de trois découvertes :
 
 - Les enceintes **LXmini**, conçues par Siegfried Linkwitz (inventeur des filtres Linkwitz-Riley). Elles promettent une restitution exceptionnelle de la scène sonore et sont réalisables soi-même. Le [site de Linkwitz](http://www.linkwitzlab.com/LXmini/Introduction.htm) est une mine de connaissances sur les principes acoustiques. Le dossier de réalisation est payant mais en vaut le prix.
 
-- La possibilité de remplacer les filtres passifs des enceintes par du **traitement numérique du signal** (filtrage, égalisation, retards). Plus besoin de composants ésotériques ni de discussions sans fin sur les condensateurs. Le tout peut tourner sur une Raspberry Pi avec des outils open source ([HOWTO](http://rtaylor.sites.tru.ca/2013/06/25/digital-crossovereq-with-open-source-software-howto/)).
+- La possibilité de remplacer les filtres passifs des enceintes par du **traitement numérique du signal** (filtrage, égalisation, retards). Plus besoin de composants ésotériques ni de discussions sans fin sur les condensateurs. Le tout peut tourner sur une Raspberry Pi avec des outils open source ([HOWTO, archive.org 2024-02](https://web.archive.org/web/20240227142132/http://rtaylor.sites.tru.ca/2013/06/25/digital-crossovereq-with-open-source-software-howto/)).
 
-- Les amplificateurs **classe D Full Digital** (FDA), qui atteignent des niveaux de performance remarquables pour un coût modeste ([Derrière le micro exactement](http://audiolalies.blogspot.fr/2015/03/derriere-le-micro-exactement.html#!/2015/03/derriere-le-micro-exactement.html), [FX Audio D802](http://www.audiophile-magazine.com/autour-des-1000-et-moins/fx-audio-d802/)).
+- Les amplificateurs **classe D Full Digital** (FDA), qui atteignent des niveaux de performance remarquables pour un coût modeste ([Derrière le micro exactement, archive.org 2018-05](https://web.archive.org/web/20180521062932/http://audiolalies.blogspot.fr/2015/03/derriere-le-micro-exactement.html), [FX Audio D802](http://www.audiophile-magazine.com/autour-des-1000-et-moins/fx-audio-d802/)).
 
-Le fil rouge du projet : [David 3, Goliath 0](http://audiolalies.blogspot.fr/2016/03/tribune-libre.html#!/2016/03/tribune-libre.html).
+Le fil rouge du projet : [David 3, Goliath 0, archive.org 2018-05](https://web.archive.org/web/20180528185301/http://audiolalies.blogspot.fr/2016/03/tribune-libre.html).
 
 ### Architecture du système
 
