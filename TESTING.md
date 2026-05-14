@@ -148,14 +148,22 @@ Lychee ne distingue pas une vraie 404 d'une 403 anti-bot (Cloudflare Turnstile, 
 Usage typique :
 
 ```bash
-# 1. Lychee en mode JSON
+# 1. Lychee en mode JSON. Soit avec le binaire natif :
 lychee --config .lychee.toml --format json --output /tmp/lychee.json site/docs/**/*.md
+
+# Soit via Docker (cf. `npm run lint:links` plus haut) :
+docker run --rm -v "$PWD:/input" lycheeverse/lychee \
+  --config /input/.lychee.toml --format json --output /input/lychee.json \
+  '/input/site/docs/**/*.md'
 
 # 2. Filtrage navigateur
 npm run verify-broken-links -- /tmp/lychee.json --report=/tmp/report.md
 ```
 
-Pré-requis : `npx playwright install chromium` (~150 Mo, à faire une fois).
+Pré-requis :
+
+- Lychee installé en binaire (`cargo install lychee` ou `brew install lychee`) OU Docker (la commande `lint:links` du `package.json` utilise déjà Docker).
+- Chromium pour Playwright : `npx playwright install chromium` (~150 Mo, à faire une fois). Le package `playwright` n'auto-télécharge **pas** les navigateurs depuis la v1.40, donc cette étape reste manuelle.
 
 L'intégration de ce filtre dans le workflow `links.yml` est suivie en PR séparée.
 

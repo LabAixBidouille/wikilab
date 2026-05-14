@@ -12,7 +12,8 @@
 // cassures de bonne foi à corriger dans les fiches.
 //
 // Usage :
-//   node site/scripts/verify-broken-links.mjs <lychee-output.json> [--report=<path.md>]
+//   npm run verify-broken-links -- <lychee-output.json> [--report=<path.md>]
+//   ou : node site/scripts/verify-broken-links.mjs <lychee-output.json> [--report=<path.md>]
 //
 // Sans `--report`, écrit le markdown sur stdout. Exit 0 si le rapport est
 // vide (aucune cassure confirmée), sinon exit 1.
@@ -39,7 +40,10 @@ function parseArgs(argv) {
     else if (!args.input) args.input = a;
   }
   if (!args.input) {
-    console.error('Usage : node verify-broken-links.mjs <lychee.json> [--report=<path.md>]');
+    console.error('Usage : npm run verify-broken-links -- <lychee.json> [--report=<path.md>]');
+    console.error(
+      '   ou : node site/scripts/verify-broken-links.mjs <lychee.json> [--report=<path.md>]',
+    );
     process.exit(2);
   }
   return args;
