@@ -20,7 +20,8 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 11. [Fiches de programmation extraites](#fiches-de-programmation-extraites)
 12. [Code MicroPython sur STeaMi](#code-micropython-sur-steami)
 13. [Fiches indépendantes de l'éditeur](#fiches-indépendantes-de-léditeur)
-14. [Couleurs des projets](#couleurs-des-projets)
+14. [Captures vidéo / GIFs](#captures-vidéo--gifs)
+15. [Couleurs des projets](#couleurs-des-projets)
 
 ## Header (en-tête de fiche)
 
@@ -422,6 +423,94 @@ Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Tit
 ```
 
 La réciprocité (footer côté I-NOVMICRO + callout côté Let's STEAM) est vérifiée par `npm run lint:crosslinks` (script [`site/scripts/lint-crosslinks.mjs`](site/scripts/lint-crosslinks.mjs)), bloquant en CI.
+
+## Captures vidéo / GIFs
+
+Une capture animée est parfois plus parlante qu'une suite d'images statiques, notamment pour les fiches éditeurs (glisser-déposer du firmware sur la clé USB, séquence dans un IDE, animation d'un programme sur la carte).
+
+### Quand utiliser un GIF
+
+- Manipulation continue qui s'enchaîne (drag-and-drop, ouverture menu → sélection → résultat).
+- Phénomène temporel (LED qui clignote, animation OLED).
+
+Préférer des captures statiques quand l'étape est ponctuelle (un seul clic, un seul écran).
+
+### Format : WebM par défaut, GIF en repli
+
+**Préférer le WebM** (codec VP9 ou AV1) au GIF :
+
+- Compression 5 à 10× supérieure à GIF pour une qualité visuelle équivalente.
+- Couleurs 24 bits (vs. 256 indexées pour GIF), pas de banding dans les gradients.
+- Lecture native dans tous les navigateurs modernes. Docusaurus 3 (MDX) supporte la balise `<video>` JSX inline.
+
+**GIF en repli** quand :
+
+- L'outil de capture ne sort que du GIF et qu'on n'a pas envie de passer par `ffmpeg` pour la conversion.
+- On veut un aperçu qui marche aussi dans la prévisualisation Markdown de GitHub (qui ne lit pas les `<video>` JSX).
+- Le clip est très court et la différence de taille est négligeable.
+
+| Critère    | Cible                                                                |
+| ---------- | -------------------------------------------------------------------- |
+| Dimensions | 1200 px de large maximum                                             |
+| Durée      | 5–15 secondes                                                        |
+| Frame rate | 10–15 fps (captures d'écran) ; 30 fps réservé aux animations fluides |
+| Taille     | viser < 500 ko en WebM, < 2 Mo en GIF                                |
+| Format     | WebM (par défaut), GIF (repli)                                       |
+
+### Intégration dans une fiche
+
+**WebM** : balise `<video>` JSX, auto-play silencieux en boucle pour un comportement proche d'un GIF :
+
+```jsx
+<video
+  src="/img/ressources/inovmicro-exao/t01-editeur-web-steami/01-flash-firmware.webm"
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{ maxWidth: '100%', height: 'auto' }}
+/>
+```
+
+**GIF** : syntaxe Markdown standard.
+
+```md
+![Flash du firmware par glisser-déposer](/img/ressources/inovmicro-exao/t01-editeur-web-steami/01-flash-firmware.gif)
+```
+
+### Outils recommandés par OS
+
+- **Linux** : [Peek](https://github.com/phw/peek) — open source, sortie GIF ou WebM, sans inscription. Installation `sudo apt install peek` ou via Flatpak.
+- **Windows** : [ShareX](https://getsharex.com/) — open source, supporte WebM directement (via ffmpeg embarqué) en plus de GIF/MP4. Capture région ou fenêtre via raccourci clavier, sortie WebM en un clic. Alternative pour les flux GIF-centrés (éditeur de frames, optimisation gifsicle native) : [ScreenToGif](https://www.screentogif.com/) — la conversion en WebM se fait alors via `ffmpeg` après coup.
+- **macOS** : capture native via `Cmd+Shift+5` → _Enregistrer une partie de l'écran_ (produit un `.mov`) puis conversion avec `ffmpeg`. Alternative : [Kap](https://getkap.co/) — open source, export direct en GIF, MP4 ou WebM.
+- **Terminal uniquement** : [asciinema](https://asciinema.org/) — capture du texte (pas des pixels), beaucoup plus léger qu'un GIF ou un WebM. Idéal pour un REPL ou un workflow `mpremote`. Conversion en GIF possible via [agg](https://github.com/asciinema/agg).
+
+### Post-traitement
+
+Convertir un MOV/MP4 en WebM optimisé (codec VP9, CRF 35) :
+
+```bash
+ffmpeg -i input.mov -c:v libvpx-vp9 -crf 35 -b:v 0 -an \
+  -vf "fps=12,scale=1200:-1:flags=lanczos" output.webm
+```
+
+Convertir un MOV/MP4 en GIF (repli) :
+
+```bash
+ffmpeg -i input.mov -vf "fps=12,scale=1200:-1:flags=lanczos" -loop 0 output.gif
+```
+
+Réduire un GIF existant :
+
+```bash
+gifsicle -O3 --colors 128 --lossy=80 input.gif -o output.gif
+```
+
+Note : le workflow [`optimize-images.yml`](.github/workflows/optimize-images.yml) recompresse automatiquement les GIFs ajoutés en PR (gifsicle niveau 3). Pas de traitement automatique pour les WebM, qui doivent donc être exportés correctement dès la capture.
+
+### Exemple de référence
+
+La fiche [Thonny : prise en main de MicroPython](site/docs/inovmicro-exao/t03-decouverte-thonny.md) intègre un GIF (`02-drag-drop-firmware.gif`, 334 ko, 1920×1080, ~6 s) qui montre la séquence de flash du firmware par glisser-déposer. C'est un exemple **historique** (avant cette convention) ; pour les prochaines fiches éditeurs (t01, t02, t04, t05), produire du WebM via `<video>`.
 
 ## Couleurs des projets
 
