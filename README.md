@@ -48,7 +48,7 @@ Pour les **conventions de contenu et de formatage des fiches**, voir [`CONVENTIO
 
 ## Développement local
 
-Prérequis : Node.js 20+.
+Prérequis : Node.js 24+.
 
 ```bash
 git clone https://github.com/LabAixBidouille/wikilab.git

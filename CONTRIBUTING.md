@@ -13,7 +13,7 @@ Pour les **conventions de contenu et de formatage des fiches** (header, callouts
 
 ### Prérequis
 
-- **Node.js 20+** (vérifier avec `node --version`)
+- **Node.js 24+** (vérifier avec `node --version`)
 - **Git** + un compte GitHub avec accès au repo `LabAixBidouille/wikilab`
 - Un éditeur Markdown (VSCode recommandé, MDX support)
 - **Docker** (optionnel, pour vérifier les liens externes en local avec `lint:links`)
