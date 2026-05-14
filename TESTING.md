@@ -150,7 +150,7 @@ Codes de sortie du script :
 - `1` — cassures confirmées, le rapport est posté sur l'issue.
 - `2+` — erreur inattendue, le workflow remonte l'échec.
 
-Pour préserver la quota d'exécution CI, Node + Chromium ne sont installés que si lychee remonte des erreurs (cas le plus fréquent : tout est propre, on s'arrête après l'étape 1).
+Pour préserver le quota d'exécution CI, Node + Chromium ne sont installés que si lychee remonte des erreurs (cas le plus fréquent : tout est propre, on s'arrête après l'étape 1).
 
 #### Reproduire localement
 
@@ -170,7 +170,7 @@ npm run verify-broken-links -- /tmp/lychee.json --report=/tmp/report.md --curl-f
 Pré-requis :
 
 - Lychee installé en binaire (`cargo install lychee` ou `brew install lychee`) OU Docker (la commande `lint:links` du `package.json` utilise déjà Docker).
-- Chromium pour Playwright : `npx playwright install chromium` (~150 Mo, à faire une fois). Le package `playwright` n'auto-télécharge **pas** les navigateurs depuis la v1.40, donc cette étape reste manuelle.
+- Chromium pour Playwright : `npx playwright install chromium` (~150 Mo, à faire une fois). Le binaire n'est pas tiré par `npm ci` ; il faut le télécharger explicitement. Le workflow CI fait pareil et le met en cache (cf. [`.github/workflows/links.yml`](.github/workflows/links.yml)).
 
 #### Option `--curl-fallback`
 
@@ -193,7 +193,7 @@ Ne pas les "corriger" en supprimant le lien : ils sont valides. Si la liste s'al
 Quand le rapport remonte une URL qui est vraiment morte, l'ordre de préférence pour la correction est :
 
 1. **URL alternative officielle** — le contenu a peut-être bougé chez le même éditeur. Chercher avec le titre de la page.
-2. **Archive.org (Wayback Machine)** — `https://web.archive.org/web/<date>/<url>`. Indiquer dans le texte « page d'origine n'est plus en ligne, snapshot archivé » pour rester transparent.
+2. **Archive.org (Wayback Machine)** — `https://web.archive.org/web/<date>/<url>`. Indiquer dans le texte « la page d'origine n'est plus en ligne, snapshot archivé » pour rester transparent.
 3. **Reformulation textuelle** — mentionner la source par son nom + domaine sans lien (ex. « atelier _Animate a Shape_ de l'Exploratorium (exploratorium.edu) »). Préférable quand le lien était purement illustratif.
 4. **Suppression** — seulement si le contenu n'apporte rien d'essentiel à la fiche.
 
