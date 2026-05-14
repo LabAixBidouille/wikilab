@@ -11,11 +11,92 @@ import {
   type Resource,
 } from '../../data/resources';
 
+// `titleLevel` permet d'imbriquer correctement les titres de fiche sous
+// un titre de section (h3) : on passe `h4` pour la navigation lecteur
+// d'écran et l'outline du document. Quand les ressources sont en liste
+// plate (sous le h2 « Ressources »), on garde `h3`.
+function renderResourceCard(r: Resource, titleLevel: 'h3' | 'h4' = 'h3'): React.ReactElement {
+  const TitleTag = titleLevel;
+  return (
+    <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.75rem',
+          marginBottom: '0.5rem',
+        }}
+      >
+        {r.thumbnail && (
+          <img
+            src={r.thumbnail}
+            alt=""
+            style={{
+              width: '45px',
+              height: '45px',
+              objectFit: 'contain',
+              flexShrink: 0,
+            }}
+          />
+        )}
+        <TitleTag style={{ margin: 0 }}>{r.title}</TitleTag>
+      </div>
+      <p>{r.summary}</p>
+      <div className="wikilab-project-resource-card__meta">
+        {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min · {difficultyLabels[r.difficulty]}
+      </div>
+      <div className="wikilab-project-resource-card__badges">
+        {r.disciplines.map((d) => (
+          <span key={d} className="badge badge--primary">
+            {disciplineLabels[d]}
+          </span>
+        ))}
+        {r.tools.map((t) => (
+          <span key={t} className="badge badge--info">
+            {toolLabels[t]}
+          </span>
+        ))}
+        {r.software.map((s) => (
+          <span key={s} className="badge badge--warning">
+            {softwareLabels[s]}
+          </span>
+        ))}
+      </div>
+    </Link>
+  );
+}
+
 export default function ProjectPage({ project }: { project: ProjectInfo }): React.ReactElement {
   const projectResources = useMemo<Resource[]>(
     () => resources.filter((r) => r.project === project.id),
     [project.id],
   );
+
+  // Si au moins une ressource du projet porte un champ `section`, on
+  // groupe par section au lieu d'afficher une liste plate. L'ordre des
+  // sections nommées est celui de leur première apparition dans
+  // `resources` ; les ressources sans section sont collectées dans une
+  // catégorie « Autres ressources » qui est forcée en dernier, quel
+  // que soit l'ordre d'apparition (cas migration partielle : une fiche
+  // sans `section` peut précéder une fiche avec `section` dans la
+  // liste).
+  const sectionedResources = useMemo<{ name: string; items: Resource[] }[] | null>(() => {
+    const hasSections = projectResources.some((r) => r.section);
+    if (!hasSections) return null;
+    const FALLBACK = 'Autres ressources';
+    const namedOrder: string[] = [];
+    const buckets = new Map<string, Resource[]>();
+    for (const r of projectResources) {
+      const key = r.section ?? FALLBACK;
+      if (!buckets.has(key)) {
+        buckets.set(key, []);
+        if (key !== FALLBACK) namedOrder.push(key);
+      }
+      buckets.get(key)!.push(r);
+    }
+    const order = buckets.has(FALLBACK) ? [...namedOrder, FALLBACK] : namedOrder;
+    return order.map((name) => ({ name, items: buckets.get(name)! }));
+  }, [projectResources]);
 
   const countries = useMemo(() => {
     const set = new Set(project.partners.map((p) => p.country));
@@ -208,56 +289,18 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
             <div className="wikilab-project-empty">
               Les ressources de ce projet seront bientôt disponibles.
             </div>
+          ) : sectionedResources ? (
+            sectionedResources.map((s) => (
+              <div key={s.name} className="wikilab-project-section-group">
+                <h3 className="wikilab-project-section-group__title">{s.name}</h3>
+                <div className="wikilab-project-resources">
+                  {s.items.map((r) => renderResourceCard(r, 'h4'))}
+                </div>
+              </div>
+            ))
           ) : (
             <div className="wikilab-project-resources">
-              {projectResources.map((r) => (
-                <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.75rem',
-                      marginBottom: '0.5rem',
-                    }}
-                  >
-                    {r.thumbnail && (
-                      <img
-                        src={r.thumbnail}
-                        alt=""
-                        style={{
-                          width: '45px',
-                          height: '45px',
-                          objectFit: 'contain',
-                          flexShrink: 0,
-                        }}
-                      />
-                    )}
-                    <h3 style={{ margin: 0 }}>{r.title}</h3>
-                  </div>
-                  <p>{r.summary}</p>
-                  <div className="wikilab-project-resource-card__meta">
-                    {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}
-                    {difficultyLabels[r.difficulty]}
-                  </div>
-                  <div className="wikilab-project-resource-card__badges">
-                    {r.disciplines.map((d) => (
-                      <span key={d} className="badge badge--primary">
-                        {disciplineLabels[d]}
-                      </span>
-                    ))}
-                    {r.tools.map((t) => (
-                      <span key={t} className="badge badge--info">
-                        {toolLabels[t]}
-                      </span>
-                    ))}
-                    {r.software.map((s) => (
-                      <span key={s} className="badge badge--warning">
-                        {softwareLabels[s]}
-                      </span>
-                    ))}
-                  </div>
-                </Link>
-              ))}
+              {projectResources.map((r) => renderResourceCard(r))}
             </div>
           )}
 

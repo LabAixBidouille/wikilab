@@ -724,7 +724,8 @@ article > table:first-of-type {
   color: var(--ifm-color-primary-darkest);
 }
 
-.wikilab-project-resource-card h3 {
+.wikilab-project-resource-card h3,
+.wikilab-project-resource-card h4 {
   color: var(--ifm-color-primary-darkest);
 }
 
@@ -843,13 +844,32 @@ article > table:first-of-type {
   gap: 1rem;
 }
 
+/* Groupes de ressources par section (projets avec ≥10 fiches structurées
+ * — voir le champ optionnel `Resource.section`). */
+.wikilab-project-section-group {
+  margin-top: 1.5rem;
+}
+
+.wikilab-project-section-group:first-of-type {
+  margin-top: 0.5rem;
+}
+
+.wikilab-project-section-group__title {
+  font-size: 1.2rem;
+  margin: 0 0 0.75rem 0;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--project-color, var(--ifm-color-primary));
+  color: var(--project-color, var(--ifm-color-primary));
+}
+
 .wikilab-project-resource-card {
   padding: 1rem;
   text-decoration: none !important;
   color: inherit !important;
 }
 
-.wikilab-project-resource-card h3 {
+.wikilab-project-resource-card h3,
+.wikilab-project-resource-card h4 {
   margin-top: 0;
   font-size: 1.05rem;
 }
