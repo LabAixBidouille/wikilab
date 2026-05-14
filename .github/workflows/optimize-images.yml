@@ -62,12 +62,27 @@ jobs:
           BASE: ${{ github.event.pull_request.base.sha }}
           HEAD: ${{ github.event.pull_request.head.sha }}
         run: |
-          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" -- \
-            'site/static/img/**/*.jpg' \
-            'site/static/img/**/*.jpeg' \
-            'site/static/img/**/*.png' \
-            'site/static/img/**/*.gif' \
-            'site/static/img/**/*.webp')
+          # `fetch-depth: 0` au checkout couvre normalement tous les objets,
+          # mais base.sha peut ne plus être atteignable s'il a été
+          # force-pushé après la création de la PR. On vérifie sa présence
+          # locale et on le re-fetche uniquement si nécessaire, en
+          # échouant franchement si le fetch ne récupère rien (sinon le
+          # `git diff` qui suit donne des résultats incohérents et
+          # silencieux).
+          if ! git rev-parse --verify --quiet "$BASE^{commit}" > /dev/null; then
+            echo "Base SHA $BASE absent du clone local, fetch défensif..."
+            if ! git fetch --depth=1 origin "$BASE"; then
+              echo "::error::Impossible de récupérer la base SHA $BASE (force-push ?). Diff impossible."
+              exit 1
+            fi
+          fi
+          # Filtrage post-hoc plutôt que pathspecs `**` : les pathspecs git
+          # n'interprètent pas `**` comme un globstar, la sémantique reste
+          # différente du filtre `paths:` au top du workflow. `awk` plutôt
+          # que `grep` pour éviter le quirk "exit 1 quand pas de match"
+          # qui forcerait un `|| true` masquant aussi les vraies erreurs.
+          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" \
+            | awk '/^site\/static\/img\/.*\.(jpg|jpeg|png|gif|webp)$/')
           if [ -z "$changed" ]; then
             echo "Aucune image ajoutée ou modifiée en contenu (que des renames). Skip."
             echo "skip=true" >> "$GITHUB_OUTPUT"
