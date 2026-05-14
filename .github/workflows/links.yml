@@ -38,11 +38,17 @@ jobs:
         id: check-links
         uses: lycheeverse/lychee-action@v2
         with:
+          # `format` et `output` doivent passer par les inputs de l'action,
+          # pas dans `args` : sinon l'action plante avec "set in args as well
+          # as in the action configuration". `jobSummary: false` parce que le
+          # résumé GitHub est généré à partir du markdown ; ici on produit
+          # du JSON brut, le résumé serait vide.
+          format: json
+          output: ./lychee.json
+          jobSummary: false
           args: >-
             --config .lychee.toml
             --no-progress
-            --format json
-            --output ./lychee.json
             'site/docs/**/*.md'
             'site/docs/**/*.mdx'
             'README.md'
