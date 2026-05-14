@@ -12,11 +12,20 @@
 // cassures de bonne foi à corriger dans les fiches.
 //
 // Usage :
-//   npm run verify-broken-links -- <lychee-output.json> [--report=<path.md>]
-//   ou : node site/scripts/verify-broken-links.mjs <lychee-output.json> [--report=<path.md>]
+//   npm run verify-broken-links -- <lychee-output.json> [--report=<path.md>] [--curl-fallback]
+//   ou : node site/scripts/verify-broken-links.mjs <lychee-output.json> [--report=<path.md>] [--curl-fallback]
 //
 // Sans `--report`, écrit le markdown sur stdout. Exit 0 si le rapport est
 // vide (aucune cassure confirmée), sinon exit 1.
+//
+// `--curl-fallback` : quand Playwright stealth retourne lui aussi un statut
+// d'échec, retente l'URL via un simple `fetch` Node avec des en-têtes
+// navigateur complets (UA + Accept + Sec-Fetch-*). Si ce GET HTTP voit 2xx
+// ou 3xx, on considère que le navigateur stealth s'est fait griller par
+// l'anti-bot (Cloudflare détecte parfois headless Chromium même avec
+// stealth) et on déclasse l'URL en faux positif. Avec ce flag, on perd
+// très peu de signal (vrais cassures = personne ne peut accéder) tout
+// en éliminant la majorité du bruit anti-bot résiduel.
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { chromium } from 'playwright-extra';
@@ -34,19 +43,53 @@ const USER_AGENT =
   'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 function parseArgs(argv) {
-  const args = { input: null, report: null };
+  const args = { input: null, report: null, curlFallback: false };
   for (const a of argv.slice(2)) {
     if (a.startsWith('--report=')) args.report = a.slice('--report='.length);
+    else if (a === '--curl-fallback') args.curlFallback = true;
     else if (!args.input) args.input = a;
   }
   if (!args.input) {
-    console.error('Usage : npm run verify-broken-links -- <lychee.json> [--report=<path.md>]');
     console.error(
-      '   ou : node site/scripts/verify-broken-links.mjs <lychee.json> [--report=<path.md>]',
+      'Usage : npm run verify-broken-links -- <lychee.json> [--report=<path.md>] [--curl-fallback]',
+    );
+    console.error(
+      '   ou : node site/scripts/verify-broken-links.mjs <lychee.json> [--report=<path.md>] [--curl-fallback]',
     );
     process.exit(2);
   }
   return args;
+}
+
+// Fallback `fetch` avec en-têtes navigateur complets, exécuté quand
+// Playwright stealth retourne aussi un statut d'échec. Sert à attraper
+// les URLs où le navigateur headless se fait griller par Cloudflare /
+// WAF alors qu'une simple requête HTTP avec UA navigateur passe. Ce
+// scénario est plus fréquent qu'on ne le pense parce que la détection
+// anti-bot moderne se base aussi sur le TLS fingerprint et l'absence
+// d'interaction utilisateur — un GET HTTP brut est paradoxalement moins
+// suspect qu'un headless Chromium qui exécute du JS.
+async function curlFallback(url) {
+  try {
+    const resp = await fetch(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept:
+          'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Upgrade-Insecure-Requests': '1',
+      },
+      signal: AbortSignal.timeout(TIMEOUT_MS),
+      redirect: 'follow',
+    });
+    return { ok: resp.status > 0 && resp.status < 400, status: resp.status };
+  } catch (e) {
+    return { ok: false, status: 0, error: e.message.split('\n')[0].slice(0, 120) };
+  }
 }
 
 // Extrait les (file, url, status, line) de error_map + timeout_map.
@@ -72,7 +115,7 @@ function collectFailures(lycheeJson) {
   return out;
 }
 
-async function verifyOne(browser, url) {
+async function verifyOne(browser, url, withCurlFallback) {
   const ctx = await browser.newContext({
     userAgent: USER_AGENT,
     locale: 'fr-FR',
@@ -80,19 +123,39 @@ async function verifyOne(browser, url) {
     viewport: { width: 1280, height: 800 },
   });
   const page = await ctx.newPage();
+  let browserResult;
   try {
     const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: TIMEOUT_MS });
     const status = resp ? resp.status() : 0;
-    return { url, browserStatus: status, ok: status > 0 && status < 400, error: null };
+    browserResult = {
+      url,
+      browserStatus: status,
+      ok: status > 0 && status < 400,
+      error: null,
+      rescuedBy: null,
+    };
   } catch (e) {
-    return { url, browserStatus: 0, ok: false, error: e.message.split('\n')[0].slice(0, 200) };
+    browserResult = {
+      url,
+      browserStatus: 0,
+      ok: false,
+      error: e.message.split('\n')[0].slice(0, 200),
+      rescuedBy: null,
+    };
   } finally {
     await ctx.close();
   }
+  if (browserResult.ok || !withCurlFallback) return browserResult;
+  // Browser a échoué : on tente le fallback HTTP brut.
+  const fallback = await curlFallback(url);
+  if (fallback.ok) {
+    return { ...browserResult, ok: true, rescuedBy: `curl ${fallback.status}` };
+  }
+  return browserResult;
 }
 
 // Pool simple à N workers concurrents.
-async function verifyAll(browser, failures) {
+async function verifyAll(browser, failures, withCurlFallback) {
   // Dédupliquer par URL (une même URL peut apparaître dans plusieurs fichiers).
   const byUrl = new Map();
   for (const f of failures) {
@@ -106,9 +169,13 @@ async function verifyAll(browser, failures) {
     while (next < uniqueUrls.length) {
       const i = next++;
       const url = uniqueUrls[i];
-      const r = await verifyOne(browser, url);
+      const r = await verifyOne(browser, url, withCurlFallback);
       results.set(url, r);
-      const tag = r.ok ? '\x1b[32mOK\x1b[0m' : `\x1b[31m${r.browserStatus || 'ERR'}\x1b[0m`;
+      const tag = r.rescuedBy
+        ? `\x1b[33mOK (${r.rescuedBy})\x1b[0m`
+        : r.ok
+          ? '\x1b[32mOK\x1b[0m'
+          : `\x1b[31m${r.browserStatus || 'ERR'}\x1b[0m`;
       console.error(`  ${tag}  ${url}`);
     }
   }
@@ -117,7 +184,7 @@ async function verifyAll(browser, failures) {
   return failures.map((f) => ({ ...f, ...results.get(f.url) }));
 }
 
-function buildReport(verified) {
+function buildReport(verified, withCurlFallback) {
   const confirmed = verified.filter((r) => !r.ok);
   // Group par fichier
   const byFile = new Map();
@@ -128,9 +195,16 @@ function buildReport(verified) {
   const lines = [];
   lines.push('# Liens externes cassés (confirmés par navigateur)');
   lines.push('');
-  lines.push('Liens détectés en erreur par lychee **et** par un navigateur Chromium');
-  lines.push('avec plugin stealth. Les protections anti-bot sont donc écartées : ces');
-  lines.push('URLs sont des cassures réelles à corriger dans les fiches.');
+  if (withCurlFallback) {
+    lines.push('Liens détectés en erreur par lychee, par un navigateur Chromium avec plugin');
+    lines.push('stealth, **et** par un `fetch` HTTP avec en-têtes navigateur complets. Les');
+    lines.push('protections anti-bot et faux positifs Playwright sont donc écartés : ces URLs');
+    lines.push('sont des cassures réelles à corriger dans les fiches.');
+  } else {
+    lines.push('Liens détectés en erreur par lychee **et** par un navigateur Chromium');
+    lines.push('avec plugin stealth. Les protections anti-bot sont donc écartées : ces');
+    lines.push('URLs sont des cassures réelles à corriger dans les fiches.');
+  }
   lines.push('');
   lines.push(`Total : **${confirmed.length}** cassure(s) confirmée(s) sur **${verified.length}**`);
   lines.push(`signalée(s) initialement par lychee.`);
@@ -160,20 +234,23 @@ async function main() {
   const failures = collectFailures(lycheeJson);
   console.error(`Lychee a signalé ${failures.length} erreur(s) à vérifier au navigateur.`);
   if (failures.length === 0) {
-    const report = buildReport([]);
+    const report = buildReport([], args.curlFallback);
     if (args.report) await writeFile(args.report, report);
     else console.log(report);
     process.exit(0);
   }
   const browser = await chromium.launch({ headless: true });
   try {
-    console.error(`Vérification (concurrence = ${CONCURRENCY}) :`);
-    const verified = await verifyAll(browser, failures);
-    const confirmed = verified.filter((r) => !r.ok).length;
     console.error(
-      `Après vérification : ${confirmed} cassure(s) confirmée(s) / ${failures.length} signalée(s).`,
+      `Vérification (concurrence = ${CONCURRENCY}${args.curlFallback ? ', curl-fallback actif' : ''}) :`,
     );
-    const report = buildReport(verified);
+    const verified = await verifyAll(browser, failures, args.curlFallback);
+    const confirmed = verified.filter((r) => !r.ok).length;
+    const rescued = verified.filter((r) => r.rescuedBy).length;
+    console.error(
+      `Après vérification : ${confirmed} cassure(s) confirmée(s) / ${failures.length} signalée(s)${rescued ? ` (${rescued} sauvée(s) par curl-fallback)` : ''}.`,
+    );
+    const report = buildReport(verified, args.curlFallback);
     if (args.report) {
       await writeFile(args.report, report);
       console.error(`Rapport écrit dans ${args.report}.`);
