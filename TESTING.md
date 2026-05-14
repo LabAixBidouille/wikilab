@@ -126,8 +126,9 @@ Sur chaque push `main` et chaque pull request :
 2. `npm run format:check` (Prettier)
 3. `npm run lint:md` (markdownlint)
 4. `npm run lint:spell` (cspell)
-5. `npm run site:typecheck` (TypeScript)
-6. `npm run site:build` (Docusaurus)
+5. `npm run lint:crosslinks` (réciprocité Let's STEAM ↔ I-NOVMICRO)
+6. `npm run site:typecheck` (TypeScript)
+7. `npm run site:build` (Docusaurus)
 
 **Si la CI échoue** : ne pas merger avant correction. Logs dans l'onglet Actions.
 
