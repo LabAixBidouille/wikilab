@@ -96,6 +96,14 @@ export interface Resource {
   // Défaut implicite 0 → ordre alphabétique naturel. Valeur élevée
   // (ex. 99) pour les pages transverses qui doivent rester en bas.
   sidebarOrder?: number;
+  // Sous-section d'affichage sur la page projet. Quand au moins une
+  // ressource d'un projet porte ce champ, la page projet groupe les
+  // ressources par section au lieu de les afficher en liste plate.
+  // L'ordre des sections est dérivé de leur ordre de première
+  // apparition dans `resources`. Utile pour les projets avec ≥10
+  // fiches structurées (ex. I-NOVMICRO : Découverte / Prise en main /
+  // Apprentissage / Ressources transverses).
+  section?: string;
 }
 
 export const resources: Resource[] = [
@@ -3672,6 +3680,7 @@ export const resources: Resource[] = [
     categories: ['programmation', 'exploration-scientifique'],
     keywords: ['STeaMi', 'STM32', 'MicroPython', 'MakeCode', 'IoT', 'capteurs', 'BLE'],
     thumbnail: '/img/ressources/inovmicro-exao/decouverte-steami/icone.png',
+    section: 'Découverte',
   },
   {
     id: 'i10-texte-oled',
@@ -3700,6 +3709,7 @@ export const resources: Resource[] = [
       'affichage',
     ],
     thumbnail: '/img/ressources/inovmicro-exao/i10-texte-oled/icone.png',
+    section: 'Apprentissage de la programmation',
   },
   {
     id: 't03-decouverte-thonny',
@@ -3719,6 +3729,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Thonny', 'REPL', 'éditeur', 'desktop'],
     thumbnail: '/img/ressources/inovmicro-exao/t03-decouverte-thonny/Thonny.png',
+    section: 'Prise en main',
   },
   {
     id: 'i04-capteur-lumiere',
@@ -3738,6 +3749,7 @@ export const resources: Resource[] = [
     categories: ['programmation', 'exploration-scientifique'],
     keywords: ['STeaMi', 'MicroPython', 'capteur', 'lumière', 'APDS-9960', 'I2C'],
     thumbnail: '/img/ressources/inovmicro-exao/i04-capteur-lumiere/icone.png',
+    section: 'Apprentissage de la programmation',
   },
   {
     id: 'i06-code-morse',
@@ -3757,6 +3769,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'Morse', 'buzzer', 'piézo', 'codage'],
     thumbnail: '/img/ressources/inovmicro-exao/i06-code-morse/icone.png',
+    section: 'Apprentissage de la programmation',
   },
   {
     id: 'depannage',
@@ -3776,6 +3789,7 @@ export const resources: Resource[] = [
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'dépannage', 'port série', 'IDE'],
     sidebarOrder: 99,
+    section: 'Ressources transverses',
   },
   {
     id: 'programmation-city-detective-challenge',

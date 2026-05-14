@@ -11,11 +11,82 @@ import {
   type Resource,
 } from '../../data/resources';
 
+function renderResourceCard(r: Resource): React.ReactElement {
+  return (
+    <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.75rem',
+          marginBottom: '0.5rem',
+        }}
+      >
+        {r.thumbnail && (
+          <img
+            src={r.thumbnail}
+            alt=""
+            style={{
+              width: '45px',
+              height: '45px',
+              objectFit: 'contain',
+              flexShrink: 0,
+            }}
+          />
+        )}
+        <h3 style={{ margin: 0 }}>{r.title}</h3>
+      </div>
+      <p>{r.summary}</p>
+      <div className="wikilab-project-resource-card__meta">
+        {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min · {difficultyLabels[r.difficulty]}
+      </div>
+      <div className="wikilab-project-resource-card__badges">
+        {r.disciplines.map((d) => (
+          <span key={d} className="badge badge--primary">
+            {disciplineLabels[d]}
+          </span>
+        ))}
+        {r.tools.map((t) => (
+          <span key={t} className="badge badge--info">
+            {toolLabels[t]}
+          </span>
+        ))}
+        {r.software.map((s) => (
+          <span key={s} className="badge badge--warning">
+            {softwareLabels[s]}
+          </span>
+        ))}
+      </div>
+    </Link>
+  );
+}
+
 export default function ProjectPage({ project }: { project: ProjectInfo }): React.ReactElement {
   const projectResources = useMemo<Resource[]>(
     () => resources.filter((r) => r.project === project.id),
     [project.id],
   );
+
+  // Si au moins une ressource du projet porte un champ `section`, on
+  // groupe par section au lieu d'afficher une liste plate. L'ordre des
+  // sections est celui de leur première apparition dans `resources` ;
+  // les ressources sans section partent dans une catégorie "Autres
+  // ressources" à la fin.
+  const sectionedResources = useMemo<{ name: string; items: Resource[] }[] | null>(() => {
+    const hasSections = projectResources.some((r) => r.section);
+    if (!hasSections) return null;
+    const order: string[] = [];
+    const buckets = new Map<string, Resource[]>();
+    for (const r of projectResources) {
+      const key = r.section ?? 'Autres ressources';
+      if (!buckets.has(key)) {
+        buckets.set(key, []);
+        order.push(key);
+      }
+      buckets.get(key)!.push(r);
+    }
+    return order.map((name) => ({ name, items: buckets.get(name)! }));
+  }, [projectResources]);
 
   const countries = useMemo(() => {
     const set = new Set(project.partners.map((p) => p.country));
@@ -208,56 +279,18 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
             <div className="wikilab-project-empty">
               Les ressources de ce projet seront bientôt disponibles.
             </div>
+          ) : sectionedResources ? (
+            sectionedResources.map((s) => (
+              <div key={s.name} className="wikilab-project-section-group">
+                <h3 className="wikilab-project-section-group__title">{s.name}</h3>
+                <div className="wikilab-project-resources">
+                  {s.items.map((r) => renderResourceCard(r))}
+                </div>
+              </div>
+            ))
           ) : (
             <div className="wikilab-project-resources">
-              {projectResources.map((r) => (
-                <Link key={r.id} to={r.slug} className="card wikilab-project-resource-card">
-                  <div
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '0.75rem',
-                      marginBottom: '0.5rem',
-                    }}
-                  >
-                    {r.thumbnail && (
-                      <img
-                        src={r.thumbnail}
-                        alt=""
-                        style={{
-                          width: '45px',
-                          height: '45px',
-                          objectFit: 'contain',
-                          flexShrink: 0,
-                        }}
-                      />
-                    )}
-                    <h3 style={{ margin: 0 }}>{r.title}</h3>
-                  </div>
-                  <p>{r.summary}</p>
-                  <div className="wikilab-project-resource-card__meta">
-                    {r.ageMin}–{r.ageMax} ans · {r.durationMinutes} min ·{' '}
-                    {difficultyLabels[r.difficulty]}
-                  </div>
-                  <div className="wikilab-project-resource-card__badges">
-                    {r.disciplines.map((d) => (
-                      <span key={d} className="badge badge--primary">
-                        {disciplineLabels[d]}
-                      </span>
-                    ))}
-                    {r.tools.map((t) => (
-                      <span key={t} className="badge badge--info">
-                        {toolLabels[t]}
-                      </span>
-                    ))}
-                    {r.software.map((s) => (
-                      <span key={s} className="badge badge--warning">
-                        {softwareLabels[s]}
-                      </span>
-                    ))}
-                  </div>
-                </Link>
-              ))}
+              {projectResources.map((r) => renderResourceCard(r))}
             </div>
           )}
 
