@@ -1,8 +1,8 @@
 ---
-id: clignotement-led
+id: i08-clignoter-led
 title: Faire clignoter une LED
 sidebar_label: "Faire clignoter une LED"
-sidebar_position: 2
+sidebar_position: 8
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
@@ -32,7 +32,7 @@ sidebar_position: 2
 
 </div>
 
- <img src="/img/ressources/inovmicro-exao/clignement-led/icone.png" alt="Icône Faire clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+ <img src="/img/ressources/inovmicro-exao/i08-clignoter-led/icone.png" alt="Icône Faire clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---
@@ -64,7 +64,7 @@ La LED de la STeaMi se trouve sur la face avant de la carte. Chaque couleur corr
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/clignement-led/LED.png"
+    src="/img/ressources/inovmicro-exao/i08-clignoter-led/LED.png"
     alt="LED sur la carte STeaMi"
     style={{maxWidth: '200px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />

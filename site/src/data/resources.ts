@@ -3792,9 +3792,9 @@ export const resources: Resource[] = [
     section: 'Ressources transverses',
   },
   {
-    id: 'clignotement-led',
+    id: 'i08-clignoter-led',
     title: 'Faire clignoter une LED',
-    slug: '/ressources/inovmicro-exao/clignotement-led',
+    slug: '/ressources/inovmicro-exao/i08-clignoter-led',
     project: 'inovmicro-exao',
     summary:
       'Programmer un clignotement de LED sur la carte STeaMi avec MicroPython ou MakeCode pour découvrir les bases de la programmation embarquée et du contrôle de matériel.',
@@ -3807,16 +3807,8 @@ export const resources: Resource[] = [
     difficulty: 'debutant',
     formats: ['programmation'],
     categories: ['programmation'],
-    keywords: [
-      'STeaMi',
-      'STM32',
-      'MakeCode',
-      'MicroPython',
-      'LED',
-      'clignotement',
-      'programmation',
-    ],
-    thumbnail: '/img/ressources/inovmicro-exao/clignotement-led/icone.png',
+    keywords: ['STeaMi', 'STM32', 'MicroPython', 'LED', 'clignotement', 'programmation'],
+    thumbnail: '/img/ressources/inovmicro-exao/i08-clignoter-led/icone.png',
   },
   {
     id: 'programmation-city-detective-challenge',
