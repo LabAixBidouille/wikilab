@@ -91,6 +91,8 @@ On va maintenant écrire un programme qui allume la LED verte quand on appuie su
 
 # On commence par définir les pins des LED, des boutons et une variable 
 # pour savoir si on peut appuyer sur les boutons ou pas
+from pyb import Pin
+
 LED_RED = Pin("LED_RED", Pin.OUT_PP)
 LED_BLUE = Pin("LED_BLUE", Pin.OUT_PP)
 
@@ -99,18 +101,17 @@ B_BUTTON = Pin("B_BUTTON", Pin.IN, Pin.PULL_UP)
 
 weCanPushIt = True
 
-# Ensuite, on entre dans une boucle infinie pour vérifier en permanence l'état des boutons
 while True:
-  if weCanPushIt and digitalRead(A_BUTTON) == 0:
-      LED_RED.value(1)
-      weCanPushIt = False
-  elif weCanPushIt and digitalRead(B_BUTTON) == 0:
-      LED_BLUE.value(1)
-      weCanPushIt = False
-  else:
-      LED_RED.value(0)
-      LED_BLUE.value(0)
-      weCanPushIt = True
+    if A_BUTTON.value() == 1 and B_BUTTON.value() == 1:
+        LED_RED.value(0)
+        LED_BLUE.value(0)
+        weCanPushIt = True
+    elif weCanPushIt and A_BUTTON.value() == 0:
+        weCanPushIt = False
+        LED_RED.value(1)
+    elif weCanPushIt and B_BUTTON.value() == 0:
+        weCanPushIt = False
+        LED_BLUE.value(1)
 ```
 
 ### Comment cela fonctionne ?
