@@ -58,7 +58,7 @@ L'ISM330DL est déjà soudé sur la STeaMi — pas besoin de connecter quoi que 
 
 ### L'accéléromètre ISM330DL
 
-L'ISM330DL est un IMU (**I**nertial **M**easurement **U**nit) 6 axes : il combine un accéléromètre 3 axes et un gyroscope 3 axes dans un seul boîtier. Dans cette fiche, on utilise uniquement l'accéléromètre.
+L'ISM330DL est un **IMU** (Inertial Measurement Unit) 6 axes : il combine un accéléromètre 3 axes et un gyroscope 3 axes dans un seul boîtier. Dans cette fiche, on utilise uniquement l'accéléromètre.
 
 L'accélération est mesurée en **G** (force gravitationnelle). Sur Terre, la gravité exerce 1 G sur tout objet au repos. Quand la carte est posée à plat sur une table, l'axe Z mesure environ −1 G ; quand elle est tenue verticalement, c'est l'axe X ou Y qui reçoit ce 1 G. C'est cette répartition de la gravité entre les axes qui permet de déduire l'orientation.
 
