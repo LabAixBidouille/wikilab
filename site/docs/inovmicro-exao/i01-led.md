@@ -46,7 +46,7 @@ Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressource
 ## Objectifs d'apprentissage
 
 - Comprendre la structure d'un programme MicroPython simple (imports, initialisation, boucle infinie)
-- Contrôler une LED intégrée à un microcontrôleur
+- Contrôler une LED connectée à un microcontrôleur
 - Initialiser une LED en MicroPython avec le module `machine` et la nommer par son nom de broche
 - Utiliser `sleep_ms` pour introduire des délais d'attente (parfois qualifié de "pause") dans un programme
 
