@@ -15,6 +15,7 @@ sidebar_position: 13
   <span className="badge badge--info">SteaMi</span>
   <span className="badge badge--warning">MicroPython</span>
 </div>
+
 | Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 30 min | Avancé     | 11-99 ans | 0.23.1                |
@@ -24,10 +25,12 @@ sidebar_position: 13
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE prenant en charge MicroPython
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i06-code-morse/icone.png" alt="Code Morse sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
+
 ---
 
 ## De quoi parle-t-on ?
@@ -46,6 +49,7 @@ La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un 
     Le code Morse international : chaque lettre est une combinaison de points et de tirets.
   </figcaption>
 </figure>
+
 ---
 
 ## Objectifs d'apprentissage
@@ -56,6 +60,7 @@ La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un 
 - Programmer un émetteur Morse interactif avec les boutons A et B
 - Identifier la structure temporelle du code Morse (point, tiret, espaces inter-lettres et inter-mots)
 - Lire et coder une séquence de caractères en Morse
+
 ---
 
 ## Étape 1 : Construire
@@ -76,7 +81,7 @@ Il existe deux familles de buzzers. Un **buzzer actif** contient déjà l'élect
 
 Le buzzer de la STeaMi se pilote en alternant très rapidement la broche entre **allumé** (3,3 V) et **éteint** (0 V). Si on alterne 440 fois par seconde, le buzzer vibre à 440 Hz et on entend la note La. C'est le programme lui-même qui se charge de ce va-et-vient, d'où l'utilité d'une **fonction `tone()`** qu'on écrit une fois pour toutes et qui gère l'alternance.
 
-### Initialiser les composants
+### 1. Initialiser les composants
 
 Le firmware STeaMi expose les composants de la carte avec des **noms parlants** qu'on peut utiliser directement dans `Pin(...)`. Pour le programme, il faudra trois composants :
 
@@ -92,13 +97,14 @@ Deux remarques sur cet extrait :
 
 - **`Pin.OUT_PP`** signifie *output push-pull* : la broche peut activement imposer 0 V ou 3,3 V. C'est ce qu'il faut pour piloter un buzzer.
 - **`Pin.IN`** signifie *input* : on lit l'état du bouton sans rien lui imposer. Les boutons A et B de la STeaMi sont câblés avec une résistance externe (4,7 kΩ) qui maintient la broche à 3,3 V quand le bouton est relâché. Quand on appuie, le bouton tire la broche à 0 V. C'est pour cela qu'un bouton appuyé renvoie `0` et un bouton relâché `1` (logique inverse).
-### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si un des IDE proposés est déjà configuré, vous devriez voir le shell MicroPython (`>>>`).
+### 2. Connecter la carte à l'ordinateur
 
-### Tester le buzzer dans le REPL
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré, la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
-Avant d'écrire le programme principal, on peut vérifier que le buzzer répond en tapant directement dans le **REPL**. Les `>>>` ci-dessous sont le prompt affiché par MicroPython dans la console pour indiquer qu'il attend une commande, ne les tapez pas, écrivez seulement ce qui suit.
+### 3. Tester le buzzer dans le REPL
+
+Avant d'écrire le programme principal, on peut vérifier que le buzzer répond en tapant directement dans la console MicroPython, en mode interactif (appelé **REPL** pour _Read-Eval-Print Loop_ : on tape une commande, elle s'exécute, on voit le résultat, et la console attend la suivante). Les `>>>` ci-dessous sont l'invite affichée par la console pour signaler qu'elle attend votre commande : ne les tapez pas, écrivez seulement ce qui suit.
 
 ```python
 >>> from machine import Pin
@@ -112,16 +118,33 @@ Avant d'écrire le programme principal, on peut vérifier que le buzzer répond 
 ...     time.sleep_us(1136)
 ```
 
-Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dès l'étape suivante.
+Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dans le programme de l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous.
+
+### 4. Lancer le programme
+
+Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : bouton A → signal court (point, 100 ms), bouton B → signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+
+Une fois le code en place, deux manières de le lancer :
+
+- **Test rapide** : lancer le programme depuis l'IDE (typiquement bouton **Run** ▶ ou `F5`). Appuyer sur A fait un bip court, sur B un bip long.
+- **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
+### 5. Envoyer un message en Morse
+
+Voici les règles standard pour transmettre un message en Morse :
+
+1. La durée d'un **point** est **1 unité**.
+2. La durée d'un **tiret** est **3 unités**.
+3. L'**espace entre deux signaux d'une même lettre** est **1 unité**.
+4. L'**espace entre deux lettres** est **3 unités**.
+5. L'**espace entre deux mots** est **7 unités**.
+
+Avec une unité de 100 ms (comme dans le programme), essayer d'envoyer **SOS** : trois points (S), pause, trois tirets (O), pause, trois points (S). Soit, sur les boutons : `A A A` (pause) `B B B` (pause) `A A A`.
 
 ---
 
 ## Étape 2 : Programmer
 
-Premier programme : **émettre des points et des tirets selon le bouton appuyé**.
-
-- **Bouton A** → signal court (point) : 100 ms
-- **Bouton B** → signal long (tiret) : 300 ms
 ### Composants utilisés
 
 | Composant | Nom dans le programme | Rôle                                                   |
@@ -205,22 +228,6 @@ Le programme s'organise en quatre parties :
 - **Fonction `tone(pin, freq, duration_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est ce qu'on appelle du **bit-banging** : le programme génère lui-même le signal, sans utiliser de module hardware dédié.
 - **Détection de transition** : on ne veut pas qu'un appui maintenu déclenche une rafale de sons. La technique consiste à mémoriser l'état précédent du bouton et à ne déclencher que quand on passe de **relâché** (`1`) à **appuyé** (`0`).
 - **Boucle principale** : elle scrute les deux boutons toutes les 20 ms et déclenche le bip approprié.
-### Exécution
-
-- **Test rapide** : lancer le programme depuis votre IDE (typiquement bouton **Run** ▶ ou `F5`). Appuyer sur A fait un bip court, sur B un bip long.
-- **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
-
-### Envoyer un message en Morse
-
-Voici les règles standard pour transmettre un message en Morse :
-
-1. La durée d'un **point** est **1 unité**.
-2. La durée d'un **tiret** est **3 unités**.
-3. L'**espace entre deux signaux d'une même lettre** est **1 unité**.
-4. L'**espace entre deux lettres** est **3 unités**.
-5. L'**espace entre deux mots** est **7 unités**.
-
-Avec une unité de 100 ms (comme dans le programme), essayer d'envoyer **SOS** : trois points (S), pause, trois tirets (O), pause, trois points (S). Soit, sur les boutons : `A A A` (pause) `B B B` (pause) `A A A`.
 
 ---
 
@@ -313,9 +320,20 @@ C'est un excellent exercice pour découvrir les **structures de données** (dict
 
 ## Aller plus loin
 
-- [Code Morse international (Wikipédia)](https://fr.wikipedia.org/wiki/Code_Morse_international) : histoire, table complète, règles de timing détaillées.
-- [Capteur piézoélectrique (Wikipédia)](https://fr.wikipedia.org/wiki/Capteur_pi%C3%A9zo%C3%A9lectrique) : principes physiques du transducteur utilisé pour générer le son.
-- [Wiki STeaMi : Boutons et buzzer](https://wiki.steami.cc/docs/hardware/main-components/buttons-audio) : description matérielle du buzzer et des boutons sur la carte.
+### Pour comprendre
+
+- **[Code Morse international — Wikipedia](https://fr.wikipedia.org/wiki/Code_Morse_international)** : histoire, table complète, règles de timing détaillées.
+- **[Effet piézoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_pi%C3%A9zo%C3%A9lectrique)** : pourquoi un cristal de céramique se déforme quand on lui applique une tension. Le principe derrière les buzzers, les briquets électriques, les microphones de guitare et les capteurs de pression.
+- **[Samuel Morse — Wikipedia](https://fr.wikipedia.org/wiki/Samuel_Morse)** : peintre américain reconnu, il invente le télégraphe après avoir appris trop tard la mort de sa femme. Une bascule de carrière qui révolutionnera les communications.
+- **[Théorie de l'information — Wikipedia](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information)** : le code Morse est le premier exemple historique de **codage à longueur variable** (les lettres fréquentes sont les plus courtes). Cette intuition a inspiré le codage de Huffman et toute la compression de données moderne (zip, JPEG, MP3…).
+
+### Pour s'inspirer
+
+- **[Les « messages personnels » de Radio Londres](https://fr.wikipedia.org/wiki/Messages_personnels)** : pendant la Seconde Guerre mondiale, la BBC ouvrait ses émissions vers la France par les premières notes de la 5ᵉ symphonie de Beethoven — qui sont exactement la lettre **V** en code Morse (`. . . -`), pour _Victoire_. Suivaient des phrases codées destinées à la Résistance.
+- **[SOS, le signal de détresse universel](https://fr.wikipedia.org/wiki/SOS)** : adopté en 1908 pour sa simplicité en Morse (`. . . - - - . . .`), c'est l'un des premiers signaux radio à avoir traversé les océans. Le Titanic l'a utilisé en 1912, contribuant à imposer son usage international.
+- **[Radioamateurisme](https://fr.wikipedia.org/wiki/Radioamateur)** : un hobby mondial qui continue d'organiser des concours de transmission en Morse à très longue distance, parfois avec très peu d'énergie. Une communauté active de bidouilleurs d'ondes.
+- **[Chiptune — Wikipedia](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits — la STeaMi fait exactement ce qu'une Game Boy faisait pour produire ses musiques.
+
 ---
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as06-morse`](/ressources/lets-steam/r1as06-morse)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
