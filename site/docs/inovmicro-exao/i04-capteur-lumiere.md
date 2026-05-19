@@ -80,11 +80,11 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher le prompt `>>>`.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### Vérifier que le capteur répond
 
-Avant d'écrire le programme principal, on peut vérifier dans le **REPL** que le capteur est bien détecté sur le bus I2C. Les `>>>` ci-dessous sont le prompt affiché par MicroPython dans la console pour indiquer qu'il attend une commande, ne les tapez pas, écrivez seulement ce qui suit.
+Avant d'écrire le programme principal, on peut vérifier que le capteur est bien détecté sur le bus I2C. Pour ça, on utilise la console MicroPython en mode interactif (appelé **REPL** pour _Read-Eval-Print Loop_ : on tape une commande, elle s'exécute, on voit le résultat, et la console attend la suivante). Les `>>>` ci-dessous sont l'invite affichée par la console pour signaler qu'elle attend votre commande : ne les tapez pas, écrivez seulement ce qui suit.
 
 ```python
 >>> from machine import I2C
@@ -210,11 +210,12 @@ La valeur de `SEUIL_CLAIR = 100` est arbitraire. Pour adapter le détecteur à u
 1. Lancer le programme dans la condition « sombre » visée (par exemple capteur recouvert) et noter la valeur lue.
 2. Faire de même dans la condition « claire » (lumière ambiante normale).
 3. Choisir comme seuil la moyenne des deux valeurs.
+
 Une amélioration plus avancée consiste à **transformer la valeur brute en pourcentage** par rapport à un minimum et un maximum mesurés, ce qui rend la mesure plus parlante.
 
 ### 2. Lire les composantes RGB de la lumière
 
-L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est très différent, on peut, par exemple, distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que la simple lecture de `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
+L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est une différence importante : alors que `ambient_light()` dit juste « il y a beaucoup ou peu de lumière », les canaux R, V, B disent **quelle couleur** est dominante. Le capteur peut donc distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
 
 Les lignes ci-dessous remplacent l'appel à `ambient_light()` dans la boucle du programme précédent, `sensor` est déjà initialisé en haut de fichier.
 
@@ -247,10 +248,17 @@ else:
 
 ## Aller plus loin
 
-- [Documentation du driver APDS-9960 sur la STeaMi](https://github.com/steamicc/micropython-steami-lib/blob/main/lib/apds9960/README.md) : toutes les fonctions disponibles, y compris la proximité et les gestes.
-- [Fiche technique du capteur APDS-9960 (Broadcom)](https://www.broadcom.com/products/optical-sensors/integrated-ambient-light-and-proximity-sensors/apds-9960) : caractéristiques détaillées du composant.
-- [Wiki STeaMi : Capteurs internes](https://wiki.steami.cc/docs/hardware/) : liste de tous les capteurs présents sur la carte.
-- [Documentation MicroPython : module `machine.I2C`](https://docs.micropython.org/en/latest/library/machine.I2C.html) : pour comprendre comment fonctionne le bus I2C en MicroPython.
----
+### Pour comprendre
+
+- **[Photorésistance — Wikipedia](https://fr.wikipedia.org/wiki/Photor%C3%A9sistance)** : le composant cousin de l'APDS-9960. Plus simple : sa résistance change avec la lumière, et c'est tout. Beaucoup de capteurs de lumière débutants en utilisent.
+- **[Effet photoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication d'Einstein en 1905 qui lui a valu le prix Nobel — pas la relativité comme on le croit souvent.
+- **[L'œil humain — Wikipedia](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est exactement le principe d'un capteur RGB comme l'APDS-9960, mais en chair et en os.
+
+### Pour s'inspirer
+
+- **[Public Lab — DIY spectromètre](https://publiclab.org/wiki/spectrometry)** : une communauté de scientifiques amateurs qui ont construit un spectromètre à partir d'un téléphone et d'un DVD. Sert à analyser la pollution de l'eau, identifier des matériaux, ou étudier la chlorophylle des plantes.
+- **[Éclairage public adaptatif (Cerema)](https://www.cerema.fr/fr/actualites/eclairage-public-adaptation-eclairage-presence)** : éteindre ou réduire les lampadaires quand la rue est vide, c'est exactement ce qu'on fait dans cette fiche, mais à l'échelle d'une ville. Économies d'énergie + moins de pollution lumineuse.
+- **[Photographier la Voie Lactée](https://www.lemonde.fr/blog/autourduciel/2020/05/22/photographier-la-voie-lactee-en-pause-longue/)** : avec des poses de plusieurs secondes ou minutes, un capteur photo accumule la lumière la plus faible — c'est comme cela que les astronomes amateurs photographient des galaxies invisibles à l'œil nu.
+- **[Sextant — Wikipedia](https://fr.wikipedia.org/wiki/Sextant)** : avant le GPS, les marins se repéraient en mesurant l'angle entre un astre et l'horizon. Une histoire fascinante d'instruments de mesure et de navigation.
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
