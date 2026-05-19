@@ -23,7 +23,7 @@ sidebar_position: 8
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
 
@@ -37,9 +37,9 @@ sidebar_position: 8
 
 La **LED** (light-emitting diode) est un composant électronique qui produit de la lumière lorsqu'un courant la traverse. On la retrouve partout dans le quotidien : pour éclairer, pour signaler un état (réservoir presque vide, machine allumée…), ou simplement comme indicateur visuel.
 
-La STeaMi intègre directement une LED RGB pilotable via trois couleurs séparées — **rouge**, **verte** et **bleue** — accessibles sans aucun câblage. C'est le point de départ idéal pour comprendre comment un programme contrôle un composant physique : **allumer, éteindre, attendre, recommencer**. Le « Hello World » de l'électronique embarquée.
+La STeaMi intègre une LED RGB, accessibles sans aucun câblage, avec trois couleurs : **rouge**, **verte** et **bleue**. C'est le point de départ idéal pour comprendre comment un programme contrôle un composant physique : **allumer, éteindre, attendre, recommencer**. Le programme que vous allez écrire est le premier programme qu'on écrit quand on découvre l'électronique embarquée (les informaticiens appellent ça un « Hello World »).
 
-Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressources/lets-steam/r1as01-led), portée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython.
+Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressources/lets-steam/r1as01-led), adaptée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython.
 
 ---
 
@@ -48,13 +48,13 @@ Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressource
 - Comprendre la structure d'un programme MicroPython simple (imports, initialisation, boucle infinie)
 - Contrôler une LED intégrée à un microcontrôleur
 - Initialiser une LED en MicroPython avec le module `machine` et la nommer par son nom de broche
-- Utiliser `sleep_ms` pour introduire des délais dans un programme
+- Utiliser `sleep_ms` pour introduire des délais d'attente (parfois qualifié de "pause") dans un programme
 
 ---
 
 ## Étape 1 : Construire
 
-Ici, « construire » est rapide : la LED RGB est déjà soudée à la carte, aucun câblage n'est nécessaire.
+Ici, « construire » est rapide : la LED RGB est déjà soudée à la carte, aucun câblage additionnel n'est requis.
 
 ### Localiser les LED sur la carte
 
@@ -79,13 +79,13 @@ La LED RGB de la STeaMi se trouve sur la face avant. Chaque couleur est pilotée
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place initiale), la console MicroPython doit afficher le prompt `>>>`.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place initiale), la console MicroPython doit afficher `>>>`.
 
 ---
 
 ## Étape 2 : Programmer
 
-Le programme est court : on importe deux modules, on initialise la LED, et on entre dans une boucle infinie qui l'allume et l'éteint avec une pause entre chaque état.
+Le programme est court : on importe deux modules, on initialise la LED, et on entre dans une boucle qui continue sans jamais s'arrêter et qui allume et éteint la LED avec une pause (un délai d'attente) entre chaque étape pour qu'on ait le temps de voir les changements se produire.
 
 ### Le code
 
