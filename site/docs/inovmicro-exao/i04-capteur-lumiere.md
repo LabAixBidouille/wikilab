@@ -253,7 +253,7 @@ else:
 ### Pour comprendre
 
 - **[Photorésistance — Wikipedia](https://fr.wikipedia.org/wiki/Photor%C3%A9sistance)** : le composant cousin de l'APDS-9960. Plus simple : sa résistance change avec la lumière, et c'est tout. Beaucoup de capteurs de lumière débutants en utilisent.
-- **[Effet photoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication d'Einstein en 1905 qui lui a valu le prix Nobel — pas la relativité comme on le croit souvent.
+- **[Effet photoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication publiée par Einstein en 1905 qui lui a valu le prix Nobel de physique en 1921 — pas la relativité comme on le croit souvent.
 - **[L'œil humain — Wikipedia](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est exactement le principe d'un capteur RGB comme l'APDS-9960, mais en chair et en os.
 
 ### Pour s'inspirer
