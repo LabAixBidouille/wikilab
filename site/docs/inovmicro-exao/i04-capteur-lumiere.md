@@ -57,7 +57,7 @@ L'avantage du capteur intégré : pas de breadboard ni de câblage. Tout passe p
 
 Ici, "construire" est rapide : tout le matériel nécessaire est déjà sur la carte.
 
-### Localiser le capteur de lumière
+### 1. Localiser le capteur de lumière
 
 Le capteur **APDS-9960** est soudé sur la face avant de la STeaMi, près de l'écran OLED. Il n'a pas besoin d'être éclairé directement par une source : il mesure la **lumière ambiante** qui atteint sa petite fenêtre transparente.
 
@@ -78,11 +78,11 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 :::
 
-### Connecter la carte à l'ordinateur
+### 2. Connecter la carte à l'ordinateur
 
 Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
-### Vérifier que le capteur répond
+### 3. Vérifier que le capteur répond
 
 Avant d'écrire le programme principal, on peut vérifier que le capteur est bien détecté sur le bus I2C. Pour ça, on utilise la console MicroPython en mode interactif (appelé **REPL** pour _Read-Eval-Print Loop_ : on tape une commande, elle s'exécute, on voit le résultat, et la console attend la suivante). Les `>>>` ci-dessous sont l'invite affichée par la console pour signaler qu'elle attend votre commande : ne les tapez pas, écrivez seulement ce qui suit.
 
@@ -93,13 +93,45 @@ Avant d'écrire le programme principal, on peut vérifier que le capteur est bie
 ['0x1e', '0x29', '0x39', '0x55', '0x5d', '0x5f', '0x6b']
 ```
 
-L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répond, on peut passer à la programmation.
+L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répond, on peut passer à la suite.
+
+### 4. Lancer le programme
+
+Notre premier programme va **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+
+Une fois le code en place, deux manières de le lancer :
+
+- **Test rapide** : lancer le programme depuis l'IDE (typiquement bouton **Run** ▶ ou `F5`). Les valeurs défilent dans la console MicroPython.
+- **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
+### 5. Observer les variations
+
+Une fois le programme lancé, plusieurs choses à essayer :
+
+- Couvrir le capteur avec la main : la valeur affichée chute, la LED devient rouge.
+- Approcher la carte d'une fenêtre ou d'une lampe : la valeur grimpe, la LED passe au vert.
+- Allumer la lampe d'un téléphone et la diriger vers le capteur : on voit clairement le seuil franchi.
+
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/02-thonny-shell-mesures.png"
+    alt="Valeurs de lumière qui défilent dans la console MicroPython"
+    style={{maxWidth: '100%', height: 'auto'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    Les valeurs défilent dans la console MicroPython, et chutent quand on couvre le capteur.
+  </figcaption>
+</figure>
+
+:::info[Tracer un graphique (spécifique à Thonny)]
+
+Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté de la console et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
+
+:::
 
 ---
 
 ## Étape 2 : Programmer
-
-Premier programme : **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre).
 
 ### Le code
 
@@ -164,36 +196,6 @@ Le programme tient en quatre éléments :
 :::info[Plage de valeurs]
 
 Le capteur retourne une valeur sur **16 bits**, donc entre **0** (obscurité totale) et **65535** (lumière très forte). En conditions normales d'éclairage de salle, on observe typiquement des valeurs de quelques dizaines à quelques milliers, il faudra peut-être ajuster `SEUIL_CLAIR` selon l'environnement. Une lampe pointée directement sur le capteur peut faire saturer la valeur à 65535.
-
-:::
-
-### Exécution
-
-- **Test rapide** : lancer le programme depuis votre IDE (typiquement bouton **Run** ▶ ou `F5`). Les valeurs défilent dans la console MicroPython.
-- **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
-
-### Observer les variations
-
-Une fois le programme lancé, plusieurs choses à essayer :
-
-- Couvrir le capteur avec la main : la valeur affichée chute, la LED devient rouge.
-- Approcher la carte d'une fenêtre ou d'une lampe : la valeur grimpe, la LED passe au vert.
-- Allumer la lampe d'un téléphone et la diriger vers le capteur : on voit clairement le seuil franchi.
-
-<figure style={{textAlign: 'center', margin: '1rem auto'}}>
-  <img
-    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/02-thonny-shell-mesures.png"
-    alt="Valeurs de lumière qui défilent dans la console MicroPython"
-    style={{maxWidth: '100%', height: 'auto'}}
-  />
-  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Les valeurs défilent dans la console MicroPython, et chutent quand on couvre le capteur.
-  </figcaption>
-</figure>
-
-:::info[Tracer un graphique (spécifique à Thonny)]
-
-Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté de la console et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
 
 :::
 
