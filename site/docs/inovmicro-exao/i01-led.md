@@ -137,10 +137,19 @@ Une fois le clignotement maîtrisé, une bonne piste pour aller plus loin est de
 
 ## Aller plus loin
 
-- [Diode électroluminescente — Wikipedia](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente) : histoire des LED, principes physiques, typologies et couleurs.
-- **Documentation officielle STeaMi** : [wiki.steami.cc](https://wiki.steami.cc/)
-- **Drivers MicroPython STeaMi** : [github.com/steamicc/micropython-steami-lib](https://github.com/steamicc/micropython-steami-lib)
-- **Documentation MicroPython — module `machine`** : [docs.micropython.org/en/latest/library/machine.html](https://docs.micropython.org/en/latest/library/machine.html)
+### Pour comprendre
+
+- **[Diode électroluminescente — Wikipedia](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : histoire des LED, principes physiques qui les sous-tendent, typologies et couleurs.
+- **[Courant et tension — bases de l'électricité](https://www.codrey.com/dc-circuits/current-and-voltage/)** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement (en anglais).
+- **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur. Une belle histoire de persévérance face à des décennies d'échecs annoncés.
+
+### Pour s'inspirer
+
+- **[Fête des Lumières de Lyon](https://fr.wikipedia.org/wiki/F%C3%AAte_des_lumi%C3%A8res)** : 4 jours par an, la ville devient une scène d'installations lumineuses pilotées par des programmes — un exemple à grande échelle de ce qu'un peu de code et beaucoup de LED peuvent produire.
+- **[The Bay Lights — Leo Villareal](https://en.wikipedia.org/wiki/The_Bay_Lights)** : 25 000 LED disposées sur le Bay Bridge de San Francisco, animées par un programme génératif qui ne se répète jamais. Une œuvre d'art urbain visible à des kilomètres.
+- **[Faire un cube LED de A à Z](https://www.youtube.com/watch?v=ciaFar8nfHc)** (GreatScott!, en anglais) : le grand classique maker — 64 ou 512 LED soudées en 3D, multiplexage temporel pour les piloter avec quelques broches seulement, animations volumétriques.
+- **[Word Clock — l'horloge à mots](https://www.instructables.com/The-Word-Clock-Arduino-version/)** : une grille de LED qui éclaire des lettres pour écrire l'heure en toutes lettres (« IL EST DIX HEURES VINGT »). Petit projet de programmation + design plein de charme.
+- **[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)** : les LED RGB adressables WS2812 — un bus de données, des centaines de LED en chaîne, des effets arc-en-ciel et des bandeaux décoratifs à l'infini. La suite logique quand une seule LED ne suffit plus.
 
 ---
 
