@@ -118,11 +118,11 @@ Avant d'écrire le programme principal, on peut vérifier que le buzzer répond 
 ...     time.sleep_us(1136)
 ```
 
-Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dans le programme de l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous.
+Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dans le programme de l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous.
 
 ### 4. Lancer le programme
 
-Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : bouton A → signal court (point, 100 ms), bouton B → signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : bouton A → signal court (point, 100 ms), bouton B → signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous — copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
