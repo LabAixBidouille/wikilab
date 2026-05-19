@@ -22,6 +22,12 @@ sidebar_position: 1
 |---|---|---|---|
 | Let's STEAM | 15 minutes | Débutant | 11-15 ans |
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Faire clignoter une LED](/ressources/inovmicro-exao/i01-led).
+
+:::
+
 ## Matériel
 
 - 1 carte programmable "STM32 IoT Node"
