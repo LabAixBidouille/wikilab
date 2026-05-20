@@ -25,7 +25,7 @@ Page de référence transverse : si une fiche I-Novmicro #2 ne se comporte pas c
 | Le port série n'apparaît pas dans l'IDE                        | Plusieurs ports COM (Windows) ou permissions (Linux)     | [Identifier le bon port](#identifier-le-bon-port-série)                              |
 | La console reste muette à la connexion (`>>>` ne s'affiche pas) | MicroPython pas installé sur la carte                    | [Installer MicroPython](#micropython-pas-installé)                                   |
 | Message `Couldn't find the device` (_« appareil introuvable »_) | Plusieurs cartes branchées en même temps                 | [Sélectionner la carte](#plusieurs-cartes-connectées)                                |
-| Message `Device is busy` (_« appareil occupé »_) ou accès refusé | Programme déjà en cours, ou autre IDE qui occupe le port | [Interrompre le programme](#un-programme-est-déjà-en-cours)                          |
+| Message `Device is busy` (_« appareil occupé »_) ou `Access is denied` (_« accès refusé »_) | Programme déjà en cours, ou autre IDE qui occupe le port | [Interrompre le programme](#un-programme-est-déjà-en-cours) |
 | Un `main.py` redémarre en boucle                               | Programme persistant qui plante                          | [Désactiver le programme persistant](#un-mainpy-redémarre-en-boucle)                 |
 
 ---
@@ -71,7 +71,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 ## MicroPython pas installé
 
-**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu de l'**invite** `>>>` de MicroPython (le signe en début de ligne qui indique que la console attend une commande ; l'équivalent anglais « prompt » apparaît parfois dans la documentation).
+**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu de `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 **Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
