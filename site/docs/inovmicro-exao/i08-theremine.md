@@ -37,7 +37,15 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé par Léon Thérémine en 1928, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol qui joue parfaitement le rôle de cette antenne : approcher ou éloigner la main change la fréquence du son émis par le buzzer. Faisons de la musique sans rien toucher !
+Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé en 1928 par le physicien russe Léon Thérémine, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol qui joue parfaitement le rôle de cette antenne : approcher ou éloigner la main change la fréquence du son émis par le buzzer. Faisons de la musique sans rien toucher !
+
+:::info[Aux origines de la musique électronique]
+
+Quand Léon Thérémine présente son instrument à Moscou en 1920, **l'électricité est encore une curiosité** dans les foyers : la radio commence à peine, le synthétiseur n'existe pas, et la musique « se touche » (piano, violon, voix). Faire sortir un son d'un boîtier en agitant les mains dans le vide tient alors du tour de magie.
+
+Son brevet de 1928 et ses tournées en Europe puis aux États-Unis vont durablement marquer la culture : le thérémine est utilisé dans les bandes-son de films d'horreur des années 1940-1950 (_Spellbound_, _The Day the Earth Stood Still_), puis par les Beach Boys dans _Good Vibrations_ (1966), Led Zeppelin sur scène, et toute la pop électronique qui suivra. C'est aussi **le premier instrument joué en concert sans contact physique**, ouvrant la voie aux synthétiseurs, samplers, contrôleurs gestuels et autres instruments numériques que tout le monde connaît aujourd'hui.
+
+:::
 
 ---
 
@@ -211,6 +219,14 @@ Le programme s'articule autour de trois éléments :
 
 Le bloc `try / finally` garantit que le buzzer est coupé proprement quand on arrête le programme avec `Ctrl+C`, pour ne pas laisser un son continu.
 
+:::info[Du geste au son]
+
+Cette boucle d'une dizaine de lignes réalise une transformation que personne, avant le thérémine de 1928, n'avait jamais entendue : **un mouvement du corps qui devient directement de la musique**, sans corde à pincer, sans touche à enfoncer, sans bouche à former. Le capteur lit la position de la main (donnée physique), `map_val` la convertit en fréquence (donnée musicale), le Timer PWM la rend audible.
+
+Tout l'enjeu d'un instrument numérique, c'est ce **lien** entre geste et son : c'est lui qui détermine si l'instrument est expressif (subtil, sensible à de petites variations) ou rigide (binaire, sans nuance). Les variables `DIST_MIN`, `DIST_MAX`, `FREQ_MIN`, `FREQ_MAX` ne sont donc pas que des paramètres techniques : ce sont les **réglages de jeu** de notre instrument, à ajuster selon la main et l'oreille.
+
+:::
+
 ### Exécution
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). Approcher et éloigner la main devant le capteur pour jouer.
@@ -233,7 +249,9 @@ FREQ_MAX = 1760   # Hz : LA_6, deux octaves plus haut
 
 ### 2. Quantifier les notes
 
-Le thérémine classique joue en glissando continu. On peut au contraire **quantifier** la fréquence pour ne jouer que les notes de la gamme de La :
+Entre 440 Hz et 880 Hz, il y a une **infinité** de fréquences possibles, mais l'oreille occidentale reconnaît surtout **sept** d'entre elles comme « musicales » : les notes de la gamme. Une **gamme** est ainsi une sélection esthétique de fréquences que des siècles d'usage ont retenues comme harmonieuses ensemble (cf. la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) pour le détail sur l'octave).
+
+Notre thérémine joue pour l'instant **en glissando continu**, comme un violoniste : la main glisse, le son glisse avec elle, et on peut tomber « entre les notes ». C'est expressif mais difficile à maîtriser. À l'opposé, un piano joue **en notes discrètes** : on ne peut pas glisser, mais on tombe toujours juste. **Quantifier** la fréquence consiste justement à forcer notre instrument à se comporter comme un piano : peu importe la position exacte de la main, le programme choisit la note de la gamme la plus proche.
 
 ```python
 # Gamme de La majeur en Hz (La, Si, Do#, Ré, Mi, Fa#, Sol#, La)
