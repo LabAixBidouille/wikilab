@@ -82,16 +82,18 @@ Sur la STeaMi, trois boutons-poussoirs sont accessibles dans le code via des **n
 
 :::info[Logique inverse : `value()` renvoie `0` quand on APPUIE]
 
-Spontanément, on pourrait penser que « bouton appuyé = `1` » et « bouton relâché = `0` ». Sur la STeaMi, c'est l'**inverse** :
+Spontanément, on pourrait penser que « bouton appuyé = `1` » et « bouton relâché = `0` ». Sur la STeaMi (comme sur la plupart des cartes microcontrôleurs), c'est l'**inverse** :
 
 | État du bouton  | Tension sur la broche | Ce que renvoie `value()` |
 | --------------- | --------------------- | ------------------------ |
 | Relâché (repos) | 3,3 V                 | `1`                      |
 | Appuyé          | 0 V                   | `0`                      |
 
-D'où vient cette inversion ? Sur la carte, une **résistance** (4,7 kΩ) relie chaque broche de bouton à l'alimentation (3,3 V). Tant que personne n'appuie, cette résistance « tire » la broche vers le haut : on lit `1`. Appuyer sur le bouton crée un chemin direct vers la masse (0 V), beaucoup plus « fort » que la résistance : la broche tombe à `0`. On parle de **résistance de tirage**.
+**Pourquoi cette inversion ?** Un bouton-poussoir, ce n'est rien d'autre qu'un interrupteur qui ferme un fil quand on appuie. Sans précaution, quand le bouton est relâché, la broche du microcontrôleur n'est connectée à rien : elle « flotte » et lit n'importe quoi (du bruit électrique). Pour éviter ça, il faut **forcer une valeur par défaut**, et c'est précisément le rôle d'une **résistance de tirage**.
 
-Conséquence pratique pour la suite du code : on testera `btn_a.value() == 0` pour savoir si A est appuyé, pas `== 1`.
+Sur la STeaMi, cette résistance (4,7 kΩ) relie chaque broche de bouton à l'alimentation (3,3 V). Tant que personne n'appuie, elle « tire » doucement la broche vers le haut : on lit `1`. Appuyer sur le bouton crée un chemin direct vers la masse (0 V), beaucoup plus « fort » que la résistance : la broche tombe à `0`. Ce câblage « tirage vers le haut » (*pull-up* en anglais) est la convention la plus courante en électronique embarquée. C'est pour cela que la quasi-totalité des cartes éducatives (STeaMi, micro:bit, Arduino, Raspberry Pi Pico...) renvoient `0` quand on appuie.
+
+**Conséquence pratique** : dans le code, on teste `btn_a.value() == 0` pour savoir si A est appuyé, pas `== 1`.
 
 :::
 
