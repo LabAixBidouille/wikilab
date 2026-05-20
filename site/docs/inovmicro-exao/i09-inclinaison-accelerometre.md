@@ -81,10 +81,10 @@ from machine import I2C
 from ism330dl import ISM330DL
 
 i2c = I2C(1)
-imu = ISM330DL(i2c)
+accelerometre = ISM330DL(i2c)
 
-ax, ay, az = imu.acceleration_g()   # valeurs en G (float)
-print(ax, ay, az)
+acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()   # valeurs en G (float)
+print(acceleration_x, acceleration_y, acceleration_z)
 ```
 
 ### Demander directement l'orientation
@@ -103,13 +103,13 @@ Plutôt que d'analyser nous-mêmes les trois valeurs, on peut demander au module
 
 ### Valeur absolue : ignorer la direction
 
-Imagine qu'on veut savoir si la carte penche, sans se soucier de **vers quel côté** : à gauche ou à droite, les deux comptent. Un coup tapé sur le côté gauche donne `ax = -0.7` ; un coup tapé à droite donne `ax = +0.7`. Ce sont deux situations différentes par leur signe (négatif ou positif), mais l'intensité du coup est la même.
+Imagine qu'on veut savoir si la carte penche, sans se soucier de **vers quel côté** : à gauche ou à droite, les deux comptent. Un coup tapé sur le côté gauche donne `acceleration_x = -0.7` ; un coup tapé à droite donne `acceleration_x = +0.7`. Ce sont deux situations différentes par leur signe (négatif ou positif), mais l'intensité du coup est la même.
 
 La fonction `abs()` (pour _absolute value_, valeur absolue en français) supprime le signe : `abs(-0.7)` et `abs(+0.7)` valent tous les deux `0.7`. C'est exactement ce qu'il nous faut pour détecter une inclinaison « peu importe le sens » :
 
 ```python
-ax, ay, az = imu.acceleration_g()
-if abs(ax) > 0.5:
+acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
+if abs(acceleration_x) > 0.5:
     print("La carte penche fortement sur le côté (peu importe lequel) !")
 ```
 
@@ -124,14 +124,14 @@ Avant d'écrire le programme principal, on peut vérifier que l'accéléromètre
 ```python
 >>> from machine import I2C
 >>> from ism330dl import ISM330DL
->>> imu = ISM330DL(I2C(1))
->>> imu.acceleration_g()
+>>> accelerometre = ISM330DL(I2C(1))
+>>> accelerometre.acceleration_g()
 (-0.01, 0.02, -0.99)
->>> imu.orientation()
+>>> accelerometre.orientation()
 'SCREEN_UP'
 ```
 
-La carte est à plat, écran vers le haut : az ≈ -1 G et `orientation()` renvoie `SCREEN_UP`. Incliner la carte dans différentes directions et observer les valeurs changer.
+La carte est à plat, écran vers le haut : `acceleration_z` vaut environ -1 G et `orientation()` renvoie `SCREEN_UP`. Incliner la carte dans différentes directions et observer les valeurs changer.
 
 ---
 
@@ -149,9 +149,9 @@ Cette fiche utilise l'écran intégré à la STeaMi pour afficher les mesures en
 
 | Composant       | Nom dans le programme | Rôle                                              |
 | --------------- | --------------------- | ------------------------------------------------- |
-| Accéléromètre   | objet `imu`           | Lecture de l'accélération et de l'orientation     |
-| Écran OLED      | objet `screen`        | Affichage des valeurs en temps réel               |
-| Buzzer          | `SPEAKER`             | Alerte sonore en cas de choc détecté              |
+| Accéléromètre   | objet `accelerometre` | Lecture de l'accélération et de l'orientation     |
+| Écran OLED      | objet `ecran`         | Affichage des valeurs en temps réel               |
+| Buzzer          | objet `buzzer`        | Alerte sonore en cas de choc détecté              |
 
 ### Programme
 
@@ -166,71 +166,71 @@ import math
 import time
 from machine import I2C, SPI, Pin
 from ism330dl import ISM330DL
-from steami_screen import Screen, SSD1327Display, WHITE, GRAY, LIGHT
+from steami_screen import Screen, SSD1327Display
 
-# --- Écran ---
+# --- Écran OLED ---
 spi = SPI(1)
-dc  = Pin("DATA_COMMAND_DISPLAY")
-res = Pin("RST_DISPLAY")
-cs  = Pin("CS_DISPLAY")
-raw_display = ssd1327.WS_OLED_128X128_SPI(spi, dc, res, cs)
-display = SSD1327Display(raw_display)
-screen  = Screen(display)
+broche_dc = Pin("DATA_COMMAND_DISPLAY")
+broche_reset = Pin("RST_DISPLAY")
+broche_cs = Pin("CS_DISPLAY")
+oled_brut = ssd1327.WS_OLED_128X128_SPI(spi, broche_dc, broche_reset, broche_cs)
+pilote_oled = SSD1327Display(oled_brut)
+ecran = Screen(pilote_oled)
 
 # --- Accéléromètre ---
 i2c = I2C(1)
-imu = ISM330DL(i2c)
+accelerometre = ISM330DL(i2c)
 
 # --- Buzzer ---
-SPEAKER = Pin("SPEAKER", Pin.OUT_PP)
+buzzer = Pin("SPEAKER", Pin.OUT_PP)
 
 # --- Seuil de détection de choc (en G) ---
 SEUIL_CHOC = 1.5   # au-delà de 1.5 G sur l'accélération totale
 
 
-def tone(pin, freq, duration_ms):
-    """Fait sonner le buzzer à la fréquence demandée pendant duration_ms."""
-    if freq == 0:
-        time.sleep_ms(duration_ms)
+def jouer_note(broche, frequence, duree_ms):
+    """Fait sonner le buzzer à la fréquence demandée pendant duree_ms."""
+    if frequence == 0:
+        time.sleep_ms(duree_ms)
         return
-    period_us = int(1_000_000 / freq)
-    half_period = period_us // 2
-    end_time = time.ticks_add(time.ticks_us(), duration_ms * 1000)
-    while time.ticks_diff(end_time, time.ticks_us()) > 0:
-        pin.on()
-        time.sleep_us(half_period)
-        pin.off()
-        time.sleep_us(half_period)
+    periode_us = int(1_000_000 / frequence)
+    demi_periode = periode_us // 2
+    fin = time.ticks_add(time.ticks_us(), duree_ms * 1000)
+    while time.ticks_diff(fin, time.ticks_us()) > 0:
+        broche.on()
+        time.sleep_us(demi_periode)
+        broche.off()
+        time.sleep_us(demi_periode)
 
 
 def bip_alerte():
     """Bip court pour signaler un choc."""
-    tone(SPEAKER, 880, 80)
+    jouer_note(buzzer, 880, 80)
 
 
-def afficher_capteur(ax, ay, az, orientation):
+def afficher_capteur(acceleration_x, acceleration_y, acceleration_z, orientation):
     """Met à jour l'écran avec les valeurs d'accélération et l'orientation."""
-    screen.clear()
-    screen.title(orientation)
-    screen.text("X:{:+.2f}g".format(ax), at="NW")
-    screen.text("Y:{:+.2f}g".format(ay), at="W")
-    screen.text("Z:{:+.2f}g".format(az), at="SW")
-    screen.show()
+    ecran.clear()
+    ecran.title(orientation)
+    ecran.text("X:{:+.2f}g".format(acceleration_x), at="NW")
+    ecran.text("Y:{:+.2f}g".format(acceleration_y), at="W")
+    ecran.text("Z:{:+.2f}g".format(acceleration_z), at="SW")
+    ecran.show()
 
 
 # --- Programme principal ---
 print("Capteur d'inclinaison prêt.")
 
 while True:
-    ax, ay, az = imu.acceleration_g()
-    orientation = imu.orientation()
+    acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
+    orientation = accelerometre.orientation()
 
-    # Magnitude totale de l'accélération (norme du vecteur)
-    magnitude = math.sqrt(ax * ax + ay * ay + az * az)
+    # Intensité totale de l'accélération (norme du vecteur en 3D)
+    intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z ** 2)
 
-    afficher_capteur(ax, ay, az, orientation)
+    afficher_capteur(acceleration_x, acceleration_y, acceleration_z, orientation)
 
-    if magnitude > SEUIL_CHOC:
+    if intensite > SEUIL_CHOC:
         bip_alerte()
 
     time.sleep_ms(200)
@@ -249,14 +249,14 @@ Le programme se lit en trois temps :
 Tu vois cette ligne mystérieuse dans le programme ?
 
 ```python
-magnitude = math.sqrt(ax * ax + ay * ay + az * az)
+intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z ** 2)
 ```
 
 C'est le **théorème de Pythagore en 3D**. En 2D au collège, on apprend que la longueur de la diagonale d'un rectangle est `sqrt(largeur² + hauteur²)`. En 3D, on rajoute simplement la troisième dimension : `sqrt(largeur² + hauteur² + profondeur²)`. Cette formule donne **l'intensité totale** d'un mouvement, quel que soit le sens dans lequel on l'a fait.
 
-Pourquoi c'est utile ? Imagine que la carte est posée à plat (donc `az = -1 G`, la gravité tire vers le bas). Si on lui tape dessus sur le côté, c'est `ax` qui réagit. Si on la cogne par devant, c'est `ay`. Si on regardait un seul axe à la fois, on ne détecterait que les chocs venus d'une certaine direction. En additionnant les trois axes au carré, on construit un capteur de choc **omnidirectionnel** : il réagit à tout coup, peu importe d'où il vient.
+Pourquoi c'est utile ? Imagine que la carte est posée à plat (donc `acceleration_z` vaut -1 G, la gravité tire vers le bas). Si on lui tape dessus sur le côté, c'est `acceleration_x` qui réagit. Si on la cogne par devant, c'est `acceleration_y`. Si on regardait un seul axe à la fois, on ne détecterait que les chocs venus d'une certaine direction. En additionnant les trois axes au carré, on construit un capteur de choc **omnidirectionnel** : il réagit à tout coup, peu importe d'où il vient.
 
-Au repos, cette `magnitude` vaut toujours environ 1 G (juste la gravité). Quand quelqu'un secoue la carte, elle dépasse rapidement 1,5 G ou 2 G. C'est sur ce dépassement qu'on déclenche l'alarme.
+Au repos, cette `intensite` vaut toujours environ 1 G (juste la gravité). Quand quelqu'un secoue la carte, elle dépasse rapidement 1,5 G ou 2 G. C'est sur ce dépassement qu'on déclenche l'alarme.
 
 :::
 
@@ -273,17 +273,17 @@ Trois pistes pour aller plus loin.
 
 ### 1. Trouver le bon seuil expérimentalement
 
-La valeur `SEUIL_CHOC = 1.5` qu'on a choisie est arbitraire : peut-être qu'elle est trop sensible (le buzzer sonne au moindre frôlement), peut-être pas assez (il faut taper fort pour la déclencher). On peut faire mieux en **mesurant** ce qui se passe vraiment. Remplacer la boucle principale par celle-ci, qui affiche la magnitude dans l'invite :
+La valeur `SEUIL_CHOC = 1.5` qu'on a choisie est arbitraire : peut-être qu'elle est trop sensible (le buzzer sonne au moindre frôlement), peut-être pas assez (il faut taper fort pour la déclencher). On peut faire mieux en **mesurant** ce qui se passe vraiment. Remplacer la boucle principale par celle-ci, qui affiche l'intensité dans l'invite :
 
 ```python
 while True:
-    ax, ay, az = imu.acceleration_g()
-    magnitude = math.sqrt(ax * ax + ay * ay + az * az)
-    print("{:.3f} G".format(magnitude))
+    acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
+    intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z ** 2)
+    print("{:.3f} G".format(intensite))
     time.sleep_ms(100)
 ```
 
-Noter la magnitude pour quatre actions : carte immobile (le « bruit de fond », environ 1 G), petit tapotement, secousse franche, choc fort. Le bon seuil se situe **juste au-dessus** du tapotement, et **en-dessous** de la secousse, selon ce qu'on veut déclencher comme alerte. C'est ce qu'on appelle **calibrer** un capteur : ajuster ses paramètres avec des mesures réelles plutôt que des valeurs prises au hasard.
+Noter l'intensité pour quatre actions : carte immobile (le « bruit de fond », environ 1 G), petit tapotement, secousse franche, choc fort. Le bon seuil se situe **juste au-dessus** du tapotement, et **en-dessous** de la secousse, selon ce qu'on veut déclencher comme alerte. C'est ce qu'on appelle **calibrer** un capteur : ajuster ses paramètres avec des mesures réelles plutôt que des valeurs prises au hasard.
 
 ### 2. Détecter la chute libre
 
@@ -295,13 +295,13 @@ On peut s'en servir pour détecter qu'on est en train de **lâcher la carte** :
 SEUIL_CHUTE_LIBRE = 0.2   # en G
 
 while True:
-    ax, ay, az = imu.acceleration_g()
-    magnitude = math.sqrt(ax * ax + ay * ay + az * az)
+    acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
+    intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z ** 2)
 
-    if magnitude < SEUIL_CHUTE_LIBRE:
-        screen.clear()
-        screen.value("CHUTE !", label="Alerte")
-        screen.show()
+    if intensite < SEUIL_CHUTE_LIBRE:
+        ecran.clear()
+        ecran.value("CHUTE !", label="Alerte")
+        ecran.show()
         bip_alerte()
 
     time.sleep_ms(50)   # scruter plus fréquemment pour ne pas rater l'événement
@@ -313,23 +313,24 @@ La chute libre est plus facile à simuler **en faisant tourner la carte au-dessu
 
 ### 3. Transformer la carte en niveau à bulle
 
-Plutôt que d'afficher des chiffres bruts, on peut représenter visuellement l'inclinaison comme un **niveau à bulle de menuisier**. Avec `screen.bar()`, on dessine une barre qui se déplace selon l'axe X : quand la carte est parfaitement à plat (`ax = 0`), la barre est au centre (50 %). Quand on penche la carte vers la gauche, la barre va à gauche ; vers la droite, à droite.
+Plutôt que d'afficher des chiffres bruts, on peut représenter visuellement l'inclinaison comme un **niveau à bulle de menuisier**. Avec `ecran.bar()`, on dessine une barre qui se déplace selon l'axe X : quand la carte est parfaitement à plat (`acceleration_x` vaut 0), la barre est au centre (50 %). Quand on penche la carte vers la gauche, la barre va à gauche ; vers la droite, à droite.
 
 ```python
-def axe_vers_pct(valeur_g):
+def axe_vers_pourcent(valeur_g):
     """Convertit une valeur en G (-1 à +1) en pourcentage (0 à 100)."""
-    clamp = max(-1.0, min(1.0, valeur_g))
-    return int((clamp + 1.0) * 50)   # -1 G : 0 %, 0 G : 50 %, +1 G : 100 %
+    valeur_bornee = max(-1.0, min(1.0, valeur_g))
+    return int((valeur_bornee + 1.0) * 50)   # -1 G : 0 %, 0 G : 50 %, +1 G : 100 %
+
 
 while True:
-    ax, ay, az = imu.acceleration_g()
-    pct_x = axe_vers_pct(ax)
+    acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
+    pourcent_x = axe_vers_pourcent(acceleration_x)
 
-    screen.clear()
-    screen.title("Inclinaison X")
-    screen.value("{:+.2f}g".format(ax))
-    screen.bar(pct_x, max_val=100)
-    screen.show()
+    ecran.clear()
+    ecran.title("Inclinaison X")
+    ecran.value("{:+.2f}g".format(acceleration_x))
+    ecran.bar(pourcent_x, max_val=100)
+    ecran.show()
 
     time.sleep_ms(100)
 ```

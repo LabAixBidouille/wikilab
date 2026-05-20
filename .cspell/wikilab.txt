@@ -516,6 +516,9 @@ paddingtop
 paddingbottom
 staffwidth
 abcjs
+accelerometre
+ecran
+intensite
 Octo
 oeil
 oeuf
