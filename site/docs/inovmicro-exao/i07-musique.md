@@ -84,27 +84,41 @@ Sur la STeaMi, ce n'est pas un circuit dédié qui génère le signal : c'est **
 
 ### 2. Notes et fréquences
 
-Chaque note de musique correspond à une fréquence précise (en hertz, Hz). Sur une partition, la **hauteur** d'une note (son nom) se lit à sa position verticale sur les cinq lignes de la **portée** : plus la note est haute sur la portée, plus sa fréquence est élevée et plus le son est aigu. Le symbole en tête de portée — la **clef de sol** — fixe le repère : sur la deuxième ligne en partant du bas, on lit toujours un Sol.
+Chaque note de musique correspond à une fréquence précise, en hertz (Hz) :
 
-Voici les sept notes principales, leur position sur la portée (à gauche : la note grave ; à droite : la même note à l'octave au-dessus) et leur fréquence en hertz :
+| Note    | Octave grave (Hz) | Octave aiguë (Hz) |
+| ------- | ----------------- | ----------------- |
+| Do (C)  | 262               | 523               |
+| Ré (D)  | 294               | 587               |
+| Mi (E)  | 330               | 659               |
+| Fa (F)  | 349               | 698               |
+| Sol (G) | 392               | 784               |
+| La (A)  | 440               | 880               |
+| Si (B)  | 494               | 988               |
 
-| Note    | Sur la portée                                                          | Octave grave (Hz) | Octave aiguë (Hz) |
-| ------- | ---------------------------------------------------------------------- | ----------------- | ----------------- |
-| Do (C)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nC c"}</ABCNotation>     | 262               | 523               |
-| Ré (D)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nD d"}</ABCNotation>     | 294               | 587               |
-| Mi (E)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nE e"}</ABCNotation>     | 330               | 659               |
-| Fa (F)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nF f"}</ABCNotation>     | 349               | 698               |
-| Sol (G) | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nG g"}</ABCNotation>     | 392               | 784               |
-| La (A)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nA a"}</ABCNotation>     | 440               | 880               |
-| Si (B)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nB b"}</ABCNotation>     | 494               | 988               |
+Bon à savoir : doubler la fréquence d'une note donne la même note à l'octave au-dessus. C'est la base de toute la musique tonale.
 
-Bon à savoir : doubler la fréquence d'une note donne la même note à l'octave au-dessus (c'est pour cela que les deux Do de la première ligne s'écrivent à des hauteurs différentes mais portent le même nom). C'est la base de toute la musique tonale.
+### 3. Lire une portée
 
-### 3. Connecter la carte à l'ordinateur
+Sur une partition, la **hauteur** d'une note (son nom) se lit à sa position verticale sur les cinq lignes de la **portée** : plus la note est haute sur la portée, plus sa fréquence est élevée et plus le son est aigu. Le symbole en tête de portée, la **clef de sol**, fixe le repère : sur la deuxième ligne en partant du bas, on lit toujours un Sol.
+
+| Note    | Octave grave                                                       | Octave aiguë                                                       |
+| ------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| Do (C)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nC"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nc"}</ABCNotation>   |
+| Ré (D)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nD"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nd"}</ABCNotation>   |
+| Mi (E)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nE"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\ne"}</ABCNotation>   |
+| Fa (F)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nF"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nf"}</ABCNotation>   |
+| Sol (G) | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nG"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\ng"}</ABCNotation>   |
+| La (A)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nA"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\na"}</ABCNotation>   |
+| Si (B)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nB"}</ABCNotation>   | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nb"}</ABCNotation>   |
+
+Les deux Do (ou les deux Ré, etc.) sont la même note à une octave d'écart : visuellement, ils se ressemblent mais sont écrits plus haut sur la portée à droite, exactement comme leur fréquence qui double d'une colonne à l'autre.
+
+### 4. Connecter la carte à l'ordinateur
 
 Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
-### 4. Lancer le programme
+### 5. Lancer le programme
 
 Notre premier programme va **jouer une mélodie en boucle**. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 

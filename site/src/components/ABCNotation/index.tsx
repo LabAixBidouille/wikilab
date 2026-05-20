@@ -19,7 +19,7 @@ function ABCNotationClient({
 }: ABCNotationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const effectiveResponsive = responsive ?? !inline;
-  const effectiveStaffWidth = staffwidth ?? (inline ? 140 : 740);
+  const effectiveStaffWidth = staffwidth ?? (inline ? 60 : 740);
 
   useEffect(() => {
     let cancelled = false;
@@ -35,6 +35,19 @@ function ABCNotationClient({
         paddingbottom: 0,
         scale: inline ? 0.7 : 1,
       });
+      if (inline && containerRef.current) {
+        const svg = containerRef.current.querySelector('svg');
+        if (svg) {
+          const bbox = (svg as SVGSVGElement).getBBox();
+          const pad = 2;
+          svg.setAttribute(
+            'viewBox',
+            `${bbox.x - pad} ${bbox.y - pad} ${bbox.width + pad * 2} ${bbox.height + pad * 2}`,
+          );
+          svg.setAttribute('width', String(bbox.width + pad * 2));
+          svg.setAttribute('height', String(bbox.height + pad * 2));
+        }
+      }
     });
     return () => {
       cancelled = true;
