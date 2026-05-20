@@ -43,10 +43,11 @@ Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instr
 
 ## Objectifs d'apprentissage
 
-- Initialiser et lire un capteur de distance à temps de vol (VL53L1X) en MicroPython
-- Utiliser un Timer PWM pour générer un son continu et non bloquant sur le buzzer
-- Appliquer la fonction `map` pour convertir une plage de valeurs en une autre
-- Comprendre le lien entre fréquence et hauteur d'une note musicale
+- Découvrir le **thérémine**, premier instrument joué sans contact (inventé en 1928), et plus largement l'origine de la musique électronique
+- Établir un lien sensible entre un **geste** (la distance de la main) et son **expression sonore** (la hauteur de la note)
+- Comprendre comment un capteur **traduit le monde physique en données numériques** grâce à un VL53L1X à temps de vol
+- Utiliser un **Timer PWM** pour générer un son continu et expressif, et appliquer la fonction `map` pour transformer une plage de valeurs en une autre
+- Expérimenter la **gamme** et la **quantification** : passer du _glissando_ continu aux notes discrètes d'une mélodie
 
 ---
 
@@ -230,21 +231,21 @@ FREQ_MIN = 220    # Hz : LA_3, une octave plus bas
 FREQ_MAX = 1760   # Hz : LA_6, deux octaves plus haut
 ```
 
-### 2. Quantiser les notes
+### 2. Quantifier les notes
 
-Le thérémine classique joue en glissando continu. On peut au contraire **quantiser** la fréquence pour ne jouer que les notes de la gamme de La :
+Le thérémine classique joue en glissando continu. On peut au contraire **quantifier** la fréquence pour ne jouer que les notes de la gamme de La :
 
 ```python
 # Gamme de La majeur en Hz (La, Si, Do#, Ré, Mi, Fa#, Sol#, La)
 GAMME = [440, 494, 554, 587, 659, 740, 831, 880]
 
-def quantiser(freq, gamme):
+def quantifier(freq, gamme):
     """Retourne la note de la gamme la plus proche de freq."""
     return min(gamme, key=lambda note: abs(note - freq))
 
 # Dans la boucle :
 freq_brute = map_val(distance, DIST_MIN, DIST_MAX, GAMME[0], GAMME[-1])
-freq = quantiser(freq_brute, GAMME)
+freq = quantifier(freq_brute, GAMME)
 buzzer_tim.freq(freq)
 ```
 
