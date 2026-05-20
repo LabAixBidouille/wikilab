@@ -139,6 +139,12 @@ La carte est à plat, écran vers le haut : az ≈ -1 G et `orientation()` renvo
 
 On va écrire un programme qui répète sans cesse la même boucle : **lire** le capteur, **afficher** ce qu'il dit sur l'écran, et **bipper** si quelqu'un secoue la carte. C'est ce qu'on appelle une **boucle de mesure** : c'est le squelette de presque tous les programmes qui interagissent avec un capteur en temps réel.
 
+:::info[Première fois avec l'écran OLED ?]
+
+Cette fiche utilise l'écran intégré à la STeaMi pour afficher les mesures en temps réel. Si tu n'as encore jamais piloté l'écran, la fiche [Afficher du texte sur l'écran OLED](/ressources/inovmicro-exao/i10-texte-oled) explique le fonctionnement de la librairie `steami_screen` (méthodes `title`, `text`, `show`, positionnement par points cardinaux, etc.). Tu peux la consulter en parallèle si certaines lignes du programme te paraissent obscures.
+
+:::
+
 ### Composants utilisés
 
 | Composant       | Nom dans le programme | Rôle                                              |
