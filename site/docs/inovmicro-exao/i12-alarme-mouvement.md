@@ -79,7 +79,7 @@ L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. O
 <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'flex-start', marginBottom: '1rem', flexWrap: 'wrap'}}>
     <figure style={{textAlign: 'center', margin: '0', flex: '1', minWidth: '200px'}}>
         <img
-            src="/img/ressources/inovmicro-exao/i12-alarme-mouvement/acelerometre.png"
+            src="/img/ressources/inovmicro-exao/i12-alarme-mouvement/accelerometre.png"
             alt="Emplacement de l'accéléromètre sur la face arrière de la STeaMi"
             style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
         />
