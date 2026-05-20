@@ -3777,7 +3777,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i08-theremine',
     project: 'inovmicro-exao',
     summary:
-      'Construire un thérémine en MicroPython : le capteur de distance VL53L1X intégré à la STeaMi pilote la fréquence du buzzer via un Timer PWM matériel. Introduit la conversion de plages de valeurs avec map() et le son continu non bloquant.',
+      'Construire un thérémine en MicroPython : le capteur de distance VL53L1X intégré à la STeaMi pilote la fréquence du buzzer via un Timer PWM matériel. Introduit la conversion de plages de valeurs avec une fonction map_val() et le son continu non bloquant.',
     disciplines: ['informatique', 'technologie', 'musique', 'sciences'],
     tools: ['steami'],
     software: ['python'],
