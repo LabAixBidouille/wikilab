@@ -194,7 +194,18 @@ B,2 B, C | D2 E2 | C2 A,2 | A,2 D2 |
 F A A G | F E2 C- | C E2 D | C B,2 B, |]`}
 </ABCNotation>
 
-Chaque mesure de la portée correspond à une ligne (ou un fragment) de la liste Python. Le suffixe `_3` ou `_4` dans les noms de notes indique l'**octave** : `MI_4` est le mi grave qu'on entend ici, `MI_5` serait l'octave au-dessus. Une partition Python se lit donc comme une partition papier, à un détail près : on travaille en hertz et en millisecondes plutôt qu'en noires et croches.
+Chaque mesure de la portée correspond à une ligne (ou un fragment) de la liste Python. Le suffixe `_3` ou `_4` dans les noms de notes indique l'**octave** : `MI_4` est le mi grave qu'on entend ici, `MI_5` serait l'octave au-dessus.
+
+#### Noires, croches et millisecondes
+
+Sur une partition, la durée d'une note se lit à la forme du symbole : une **noire** (♩) est deux fois plus longue qu'une **croche** (♪). Notre code reproduit exactement ce rapport, mais en millisecondes :
+
+| Notation musicale | Symbole | Durée dans le code | Valeur |
+| ----------------- | ------- | ------------------ | ------ |
+| Noire             | ♩       | `LONGUE`           | 500 ms |
+| Croche            | ♪       | `BREVE`            | 250 ms |
+
+Une noire dure exactement deux croches : `LONGUE = 2 × BREVE`. À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms — d'où la valeur choisie. Pour accélérer la mélodie, il suffit de diviser `LONGUE` et `BREVE` par le même nombre.
 
 ### Comment cela fonctionne ?
 
