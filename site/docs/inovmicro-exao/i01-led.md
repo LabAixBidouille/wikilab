@@ -25,7 +25,7 @@ sidebar_position: 8
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i01-led/icone.png" alt="Faire clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -35,7 +35,7 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-La **LED** (light-emitting diode) est un composant électronique qui produit de la lumière lorsqu'un courant la traverse. On la retrouve partout dans le quotidien : pour éclairer, pour signaler un état (réservoir presque vide, machine allumée…), ou simplement comme indicateur visuel.
+La **LED** (light-emitting diode) est un composant électronique qui produit de la lumière lorsqu'un courant la traverse. On la retrouve partout dans le quotidien : pour éclairer, pour signaler un état (réservoir presque vide, machine allumée, etc.), ou simplement comme indicateur visuel.
 
 La STeaMi intègre une LED RGB, accessibles sans aucun câblage, avec trois couleurs : **rouge**, **verte** et **bleue**. C'est le point de départ idéal pour comprendre comment un programme contrôle un composant physique : **allumer, éteindre, attendre, recommencer**. Le programme que vous allez écrire est le premier programme qu'on écrit quand on découvre l'électronique embarquée (les informaticiens appellent ça un « Hello World »).
 
@@ -110,7 +110,7 @@ while True:
 
 - `from machine import Pin` importe l'objet `Pin` du module `machine`, qui permet de piloter les broches du microcontrôleur.
 - `from time import sleep_ms` importe la fonction `sleep_ms`, qui suspend l'exécution du programme pendant un nombre de millisecondes donné.
-- `Pin('LED_BLUE', Pin.OUT)` crée un objet qui représente la LED bleue, configurée en **sortie** (la broche envoie un signal, elle ne le lit pas). Le firmware STeaMi expose les composants intégrés sous des noms parlants — pas besoin de mémoriser un numéro de broche.
+- `Pin('LED_BLUE', Pin.OUT)` crée un objet qui représente la LED bleue, configurée en **sortie** (la broche envoie un signal, elle ne le lit pas). Le firmware STeaMi expose les composants intégrés sous des noms parlants. Pas besoin de mémoriser un numéro de broche.
 - La variable `delay` fixe la durée de chaque état (allumée ou éteinte) à 500 millisecondes. Modifier cette valeur change directement la vitesse de clignotement.
 - La boucle `while True:` s'exécute indéfiniment : elle allume la LED, attend `delay` ms, éteint la LED, attend encore `delay` ms, et recommence.
 
@@ -139,17 +139,17 @@ Une fois le clignotement maîtrisé, une bonne piste pour aller plus loin est de
 
 ### Pour comprendre
 
-- **[Diode électroluminescente — Wikipedia](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : histoire des LED, principes physiques qui les sous-tendent, typologies et couleurs.
-- **[Courant et tension — bases de l'électricité](https://www.codrey.com/dc-circuits/current-and-voltage/)** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement (en anglais).
+- **[Diode électroluminescente (Wikipedia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : histoire des LED, principes physiques qui les sous-tendent, typologies et couleurs.
+- **[Courant et tension, bases de l'électricité](https://www.codrey.com/dc-circuits/current-and-voltage/)** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement (en anglais).
 - **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur. Une belle histoire de persévérance face à des décennies d'échecs annoncés.
 
 ### Pour s'inspirer
 
-- **[Fête des Lumières de Lyon](https://fr.wikipedia.org/wiki/F%C3%AAte_des_lumi%C3%A8res)** : 4 jours par an, la ville devient une scène d'installations lumineuses pilotées par des programmes — un exemple à grande échelle de ce qu'un peu de code et beaucoup de LED peuvent produire.
-- **[The Bay Lights — Leo Villareal](https://en.wikipedia.org/wiki/The_Bay_Lights)** : 25 000 LED disposées sur le Bay Bridge de San Francisco, animées par un programme génératif qui ne se répète jamais. Une œuvre d'art urbain visible à des kilomètres.
-- **[Faire un cube LED de A à Z](https://www.youtube.com/watch?v=ciaFar8nfHc)** (GreatScott!, en anglais) : le grand classique maker — 64 ou 512 LED soudées en 3D, multiplexage temporel pour les piloter avec quelques broches seulement, animations volumétriques.
-- **[Word Clock — l'horloge à mots](https://www.instructables.com/The-Word-Clock-Arduino-version/)** : une grille de LED qui éclaire des lettres pour écrire l'heure en toutes lettres (« IL EST DIX HEURES VINGT »). Petit projet de programmation + design plein de charme.
-- **[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)** : les LED RGB adressables WS2812 — un bus de données, des centaines de LED en chaîne, des effets arc-en-ciel et des bandeaux décoratifs à l'infini. La suite logique quand une seule LED ne suffit plus.
+- **[Fête des Lumières de Lyon](https://fr.wikipedia.org/wiki/F%C3%AAte_des_lumi%C3%A8res)** : 4 jours par an, la ville devient une scène d'installations lumineuses pilotées par des programmes, un exemple à grande échelle de ce qu'un peu de code et beaucoup de LED peuvent produire.
+- **[The Bay Lights de Leo Villareal](https://en.wikipedia.org/wiki/The_Bay_Lights)** : 25 000 LED disposées sur le Bay Bridge de San Francisco, animées par un programme génératif qui ne se répète jamais. Une œuvre d'art urbain visible à des kilomètres.
+- **[Faire un cube LED de A à Z](https://www.youtube.com/watch?v=ciaFar8nfHc)** (GreatScott!, en anglais) : le grand classique maker, 64 ou 512 LED soudées en 3D, multiplexage temporel pour les piloter avec quelques broches seulement, animations volumétriques.
+- **[Word Clock, l'horloge à mots](https://www.instructables.com/The-Word-Clock-Arduino-version/)** : une grille de LED qui éclaire des lettres pour écrire l'heure en toutes lettres (« IL EST DIX HEURES VINGT »). Petit projet de programmation + design plein de charme.
+- **[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)** : les LED RGB adressables WS2812, un bus de données, des centaines de LED en chaîne, des effets arc-en-ciel et des bandeaux décoratifs à l'infini. La suite logique quand une seule LED ne suffit plus.
 
 ---
 
