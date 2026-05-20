@@ -520,8 +520,10 @@ accelerometre
 ecran
 intensite
 armee
+decompte
 Würth
 Elektronik
+Pomodoro
 Octo
 oeil
 oeuf
