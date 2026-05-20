@@ -138,7 +138,6 @@ pdfs
 precommit
 prepa
 micropython
-acelerometre
 
 # Identifiants TypeScript en kebab-case ASCII (slugs, IDs, admonition keywords).
 # Ils restent volontairement sans accent pour être des identifiants techniques valides.

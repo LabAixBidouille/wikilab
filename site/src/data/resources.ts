@@ -3962,7 +3962,7 @@ export const resources: Resource[] = [
     project: 'inovmicro-exao',
     summary:
       "Fabriquer une alarme à double protection avec la STeaMi en MicroPython : l'accéléromètre ISM330DL détecte si on déplace la carte, le capteur de distance VL53L1X détecte une intrusion à moins de 20 cm. Le bouton Menu sert d'interrupteur pour armer / désarmer, le buzzer sonne l'alerte.",
-    disciplines: ['informatique', 'technologie'],
+    disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
     software: ['python'],
     ageMin: 11,

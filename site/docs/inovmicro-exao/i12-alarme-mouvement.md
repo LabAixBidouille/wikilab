@@ -149,7 +149,7 @@ accelerometre = ISM330DL(i2c)
 accel_x_precedent, accel_y_precedent, accel_z_precedent = accelerometre.acceleration_g()
 
 # --- Bouton Menu et état de l'alarme ---
-bouton_menu = Pin("MENU_BUTTON", Pin.IN, Pin.PULL_UP)
+bouton_menu = Pin("MENU_BUTTON", Pin.IN)
 alarme_armee = False
 
 # --- Buzzer ---
