@@ -47,6 +47,12 @@ sidebar_position: 9
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Inclinaison avec accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Les accéléromètres sont de petits capteurs qui peuvent détecter la force de l'accélération et sont parfaits pour détecter le mouvement et l'orientation.
