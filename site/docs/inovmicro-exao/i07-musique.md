@@ -415,25 +415,23 @@ d9 e3 f24 e6 d6 | c9 =d3 =e24 =g6 f6 |]`}
 </ABCNotation>
 
 ```python
-# Nouvelles constantes :
-FA_4 = 349
-SOL_4 = 392
+# Nouvelles constantes — uniquement les bémols et les octaves 5+
+# (les notes naturelles octaves 3/4 sont déjà définies en Étape 2).
 SOL_BEMOL_4 = 370
-LA_4 = 440
 LA_BEMOL_4 = 415
 SI_BEMOL_4 = 466
 DO_5 = 523
-RE_5 = 587
 RE_BEMOL_5 = 554
-MI_5 = 659
+RE_5 = 587
 MI_BEMOL_5 = 622
+MI_5 = 659
 FA_5 = 698
-SOL_5 = 784
 SOL_BEMOL_5 = 740
+SOL_5 = 784
 LA_BEMOL_5 = 831
 SI_BEMOL_5 = 932
 
-# Durées dérivées de CROCHE et NOIRE déjà définis plus haut :
+# Durées dérivées de CROCHE et NOIRE déjà définis en Étape 2 :
 # on les exprime relativement, pour rester cohérents si on change le tempo.
 DOUBLE_CROCHE = CROCHE // 2  # 125 ms
 CROCHE_POINTEE = CROCHE + DOUBLE_CROCHE  # 375 ms
@@ -441,32 +439,34 @@ NOIRE_POINTEE = NOIRE + CROCHE  # 750 ms
 BLANCHE = 2 * NOIRE  # 1000 ms
 BLANCHE_POINTEE = BLANCHE + NOIRE  # 1500 ms
 
-# Le motif suit le morceau original en Sib mineur. Les durées
-# 30/40/42 (rythmes nuancés du piano original) sont arrondies à la
-# blanche pointée pour rester jouable au buzzer.
+# Le motif suit le morceau original en Sib mineur. Les durées de
+# 2,5 et 3,5 temps (Sib et Lab tenus de l'intro) sont représentées
+# explicitement par BLANCHE + CROCHE et BLANCHE + NOIRE_POINTEE.
+# Les triolets de croches (mesures 7-8 — Solb/Lab à 1/3 de temps)
+# sont approximés par des doubles-croches sur le buzzer.
 partition = [
     # Mesures 1-4 — intro tenue
-    (SI_BEMOL_4, BLANCHE_POINTEE), (FA_4, NOIRE),                (SI_BEMOL_4, CROCHE),
-    (LA_BEMOL_4, DOUBLE_CROCHE),   (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_BEMOL_4, BLANCHE_POINTEE),
-    (SI_BEMOL_4, BLANCHE_POINTEE), (SOL_BEMOL_4, NOIRE),         (SI_BEMOL_4, CROCHE),
-    (LA_4, DOUBLE_CROCHE),         (SOL_4, DOUBLE_CROCHE),       (LA_BEMOL_4, BLANCHE_POINTEE),
+    (SI_BEMOL_4, BLANCHE + CROCHE), (FA_4, NOIRE),                (SI_BEMOL_4, CROCHE),
+    (LA_BEMOL_4, DOUBLE_CROCHE),    (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
+    (SI_BEMOL_4, BLANCHE + CROCHE), (SOL_BEMOL_4, NOIRE),         (SI_BEMOL_4, CROCHE),
+    (LA_4, DOUBLE_CROCHE),          (SOL_4, DOUBLE_CROCHE),       (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
     # Mesures 5-6 — motif iconique : Sib martelé, saut Fa, montée chromatique vers Fa5 aigu
-    (SI_BEMOL_4, NOIRE),           (FA_4, NOIRE_POINTEE),        (SI_BEMOL_4, CROCHE_POINTEE),
-    (DO_5, DOUBLE_CROCHE),         (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, CROCHE),                (SI_BEMOL_4, CROCHE_POINTEE),
-    (DO_5, DOUBLE_CROCHE),         (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (SI_BEMOL_4, NOIRE),            (FA_4, NOIRE_POINTEE),        (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE),                 (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
     (FA_5, BLANCHE),
     # Mesures 7-8 — montée vers la culmination Sib5
-    (FA_5, BLANCHE_POINTEE),       (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
-    (SI_BEMOL_5, BLANCHE_POINTEE), (LA_BEMOL_5, DOUBLE_CROCHE),  (SOL_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE_POINTEE),        (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
+    (SI_BEMOL_5, BLANCHE_POINTEE),  (LA_BEMOL_5, DOUBLE_CROCHE),  (SOL_BEMOL_5, DOUBLE_CROCHE),
     # Mesures 9-12 — développement descendant qui résout sur Fa5
-    (LA_BEMOL_5, CROCHE_POINTEE),  (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
-    (MI_BEMOL_5, CROCHE_POINTEE),  (FA_5, DOUBLE_CROCHE),        (SOL_BEMOL_5, BLANCHE),
-    (FA_5, CROCHE),                (MI_BEMOL_5, CROCHE),
-    (RE_BEMOL_5, CROCHE_POINTEE),  (MI_BEMOL_5, DOUBLE_CROCHE),  (FA_5, BLANCHE),
-    (MI_BEMOL_5, CROCHE),          (RE_BEMOL_5, CROCHE),
-    (DO_5, CROCHE_POINTEE),        (RE_5, DOUBLE_CROCHE),        (MI_5, BLANCHE),
-    (SOL_5, CROCHE),               (FA_5, CROCHE),
+    (LA_BEMOL_5, CROCHE_POINTEE),   (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
+    (MI_BEMOL_5, CROCHE_POINTEE),   (FA_5, DOUBLE_CROCHE),        (SOL_BEMOL_5, BLANCHE),
+    (FA_5, CROCHE),                 (MI_BEMOL_5, CROCHE),
+    (RE_BEMOL_5, CROCHE_POINTEE),   (MI_BEMOL_5, DOUBLE_CROCHE),  (FA_5, BLANCHE),
+    (MI_BEMOL_5, CROCHE),           (RE_BEMOL_5, CROCHE),
+    (DO_5, CROCHE_POINTEE),         (RE_5, DOUBLE_CROCHE),        (MI_5, BLANCHE),
+    (SOL_5, CROCHE),                (FA_5, CROCHE),
 ]
 ```
 
