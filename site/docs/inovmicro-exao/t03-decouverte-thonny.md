@@ -77,7 +77,7 @@ pipx install thonny
     style={{maxWidth: '100%', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Thonny au premier lancement : éditeur en haut, panneau Shell (REPL) en bas.
+    Thonny au premier lancement : éditeur en haut, **panneau Shell** en bas — c'est la console interactive de MicroPython (aussi appelée **REPL**, pour _Read-Eval-Print Loop_) où l'on peut taper une commande et voir la carte y répondre immédiatement.
   </figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ pipx install thonny
 
 :::info Étape éventuellement déjà faite
 
-Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny pour la STeaMi*) le prompt `>>>` apparaît dans le Shell de Thonny, cette étape d'installation est déjà faite : passez directement à la section suivante.
+Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny pour la STeaMi*) l'invite `>>>` apparaît dans le Shell de Thonny (le signe en début de ligne qui indique que MicroPython attend une commande — équivalent du mot anglais « prompt »), cette étape d'installation est déjà faite : passez directement à la section suivante.
 
 :::
 
@@ -155,11 +155,11 @@ Type "help()" for more information.
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/t03-decouverte-thonny/04-thonny-repl-prompt.png"
-    alt="Prompt MicroPython >>> dans le Shell de Thonny"
+    alt="Invite MicroPython >>> dans le Shell de Thonny"
     style={{maxWidth: '100%', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Le prompt >>> confirme que Thonny dialogue avec MicroPython sur la STeaMi.
+    L'invite >>> confirme que Thonny dialogue avec MicroPython sur la STeaMi.
   </figcaption>
 </figure>
 
@@ -291,7 +291,7 @@ Une fois le premier programme fonctionnel, trois pistes pour aller plus loin ave
 
 Le **REPL** (`>>>` dans le panneau Shell) permet de tester du code **directement sur la carte**, sans créer de fichier. Pratique pour la découverte et le débogage.
 
-Dans l'exemple ci-dessous, les `>>>` représentent le prompt, c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit le prompt.
+Dans l'exemple ci-dessous, les `>>>` représentent l'invite, c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit.
 
 ```python
 # Allumer la LED rouge à la main
@@ -359,16 +359,24 @@ La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thon
 
 ---
 
-## Ressources et liens utiles
+## Aller plus loin
 
-- [Site STeaMi](https://www.steami.cc/) : présentation matérielle
-- [Wiki STeaMi : Thonny](https://wiki.steami.cc/docs/software/micropython/thonny)
-- [Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)
-- [Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé)
-- [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)
-- [Documentation MicroPython](https://docs.micropython.org/)
-- [thonny.org](https://thonny.org/)
-- [MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)
+### Pour s'inspirer
+
+- **[MOOC FUN — Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage et son écosystème, avant de l'enseigner.
+- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : porté en 2013 par Damien George via une campagne Kickstarter, MicroPython a démocratisé Python sur microcontrôleur. Une petite bibliothèque scientifique embarquée qui tient dans 256 ko de mémoire.
+- **[Thonny — pensé pour l'enseignement](https://thonny.org/)** : conçu par Aivar Annamaa (Université de Tartu) pour rendre Python accessible aux débutant·es. Visualisation pas-à-pas des variables, débogueur didactique, installation sans dépendance.
+
+### Pour approfondir
+
+Documentation technique pour préparer une séquence ou répondre aux questions des élèves :
+
+- **[Site STeaMi](https://www.steami.cc/)** : présentation matérielle
+- **[Wiki STeaMi : Thonny](https://wiki.steami.cc/docs/software/micropython/thonny)**
+- **[Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)**
+- **[Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/)** : pinout détaillé
+- **[Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)** : code source des modules `steami_*`
+- **[Documentation MicroPython](https://docs.micropython.org/)** : référence complète du langage et des modules
 ---
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). Informations basées sur la [documentation officielle STeaMi](https://wiki.steami.cc/)._
