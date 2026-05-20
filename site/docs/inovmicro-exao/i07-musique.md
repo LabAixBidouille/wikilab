@@ -396,27 +396,38 @@ partition = [
 
 #### The Legend of Zelda, thème principal (Koji Kondo, 1986)
 
-L'écran-titre du tout premier Zelda sur NES, transcrit en 12 mesures suivant le morceau original (en Sib mineur). C'est le morceau le plus dense des quatre. On y trouve quatre temps : une **intro tenue** (Sib + Fa + Sib, puis Lab-Solb-Lab), le **motif iconique** (Sib martelé, saut grave vers Fa, montée chromatique Sib-Do-Ré-Mib culminant sur Fa5 aigu), une **culmination** sur Sib5 et un **développement descendant** Fa-Mib-Réb-Do qui résout sur Mi naturel-Sol-Fa.
+L'écran-titre du tout premier Zelda sur NES, transcrit dans sa quasi-intégralité (30 mesures) en Sib majeur. La structure se découpe en quatre temps : une **intro tenue** (Sib-Fa-Sib avec ornements descendants en Lab-Solb), le **motif iconique** répété deux fois avec des silences qui aèrent la phrase (Sib-Fa-Sib + montée chromatique culminant sur Fa5, contrebalancé par une descente grave Do-Ré-Mib-Fa en réponse), une **culmination** sur Sib5 avec développement descendant Fa-Mib-Réb-Do, puis une **reprise et coda** qui pousse encore plus haut (Do6 + Réb6) avant la résolution finale sur Fa4 grave.
 
-C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. Le Sib mineur en contient cinq (Sib, Mib, Lab, Solb, Réb), d'où la quantité de constantes ci-dessous.
+C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. La signature en Sib majeur n'a que deux bémols à la clé (Sib, Mib), mais le morceau utilise plusieurs accidents (`_A` = Lab, `_G` = Solb, `_d` = Réb…) qui apparaissent en `LA_BEMOL_4`, `SOL_BEMOL_5`, `RE_BEMOL_5`, etc. côté Python (chaque constante est suffixée par son octave).
 
 <ABCNotation>
 {`X:1
-T:The Legend of Zelda - Main Theme
+T:The Legend of Zelda, thème principal
 M:4/4
 L:1/48
 Q:1/4=130
-K:Bbm
-B30 F12 B6 | A3 G3 A42 | B30 G12 B6 | =A3 =G3 A42 |
-B12 F18 B9 c3 =d3 e3 | f6 B9 c3 =d3 e3 f24 |
-f40 g4 a4 | b40 a4 g4 |
-a9 g3 f36 | e9 f3 g24 f6 e6 |
-d9 e3 f24 e6 d6 | c9 =d3 =e24 =g6 f6 |]`}
+K:Bb
+B30 F12 B6 | _A3 _G3 A42 | B30 _G12 B6 | A3 G3 A42 |
+z48 | z48 |
+B9 z3 F12 z6 B9 c3 d3 e3 | f9 z6 C3 D3 E3 F6 z18 |
+B9 z3 F12 z6 B9 c3 d3 e3 | f9 z6 C3 D3 E3 F6 z18 |
+B12 F18 B9 c3 d3 e3 | f40 _g4 _a4 |
+b40 _a4 _g4 | _a8 _g4 f36 |
+e9 f3 _g24 f6 e6 | _d9 e3 f24 e6 d6 |
+c9 d3 =e24 g12 | f6 F42 |
+B12 F18 B9 c3 d3 e3 | f40 _g4 _a4 |
+b36 _d'12 | c'12 a24 f12 |
+_g36 b12 | a12 f36 |
+_g36 b12 | a12 f24 d12 |
+e36 _g12 | f12 _d24 B12 |
+c9 d3 =e24 g12 | f6 F42 |]`}
 </ABCNotation>
 
 ```python
-# Nouvelles constantes — uniquement les bémols et les octaves 5+
-# (les notes naturelles octaves 3/4 sont déjà définies en Étape 2).
+# Nouvelles constantes — bémols et 5e/6e octaves
+# (les notes naturelles octave 4 + LA_3/SI_3 sont déjà en Étape 2).
+SILENCE = 0  # déjà défini avec Mario, rappel ici pour autonomie
+MI_BEMOL_4 = 311
 SOL_BEMOL_4 = 370
 LA_BEMOL_4 = 415
 SI_BEMOL_4 = 466
@@ -429,44 +440,81 @@ FA_5 = 698
 SOL_BEMOL_5 = 740
 SOL_5 = 784
 LA_BEMOL_5 = 831
+LA_5 = 880
 SI_BEMOL_5 = 932
+DO_6 = 1047
+RE_BEMOL_6 = 1109
 
 # Durées dérivées de CROCHE et NOIRE déjà définis en Étape 2 :
 # on les exprime relativement, pour rester cohérents si on change le tempo.
 DOUBLE_CROCHE = CROCHE // 2  # 125 ms
+TRIOLET_CROCHE = NOIRE // 3  # 166 ms — une croche dans un triolet
 CROCHE_POINTEE = CROCHE + DOUBLE_CROCHE  # 375 ms
 NOIRE_POINTEE = NOIRE + CROCHE  # 750 ms
 BLANCHE = 2 * NOIRE  # 1000 ms
 BLANCHE_POINTEE = BLANCHE + NOIRE  # 1500 ms
 
-# Le motif suit le morceau original en Sib mineur. Les durées de
-# 2,5 et 3,5 temps (Sib et Lab tenus de l'intro) sont représentées
-# explicitement par BLANCHE + CROCHE et BLANCHE + NOIRE_POINTEE.
-# Les triolets de croches (mesures 7-8 — Solb/Lab à 1/3 de temps)
-# sont approximés par des doubles-croches sur le buzzer.
+# Partition de 30 mesures, suit fidèlement le MIDI source. Les durées
+# 2,5 et 3,5 temps sont représentées par BLANCHE + CROCHE et
+# BLANCHE + NOIRE_POINTEE ; les triolets de croches sont approximés
+# par des doubles-croches sur le buzzer mono-voix.
 partition = [
-    # Mesures 1-4 — intro tenue
-    (SI_BEMOL_4, BLANCHE + CROCHE), (FA_4, NOIRE),                (SI_BEMOL_4, CROCHE),
-    (LA_BEMOL_4, DOUBLE_CROCHE),    (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
-    (SI_BEMOL_4, BLANCHE + CROCHE), (SOL_BEMOL_4, NOIRE),         (SI_BEMOL_4, CROCHE),
-    (LA_4, DOUBLE_CROCHE),          (SOL_4, DOUBLE_CROCHE),       (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
-    # Mesures 5-6 — motif iconique : Sib martelé, saut Fa, montée chromatique vers Fa5 aigu
-    (SI_BEMOL_4, NOIRE),            (FA_4, NOIRE_POINTEE),        (SI_BEMOL_4, CROCHE_POINTEE),
-    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, CROCHE),                 (SI_BEMOL_4, CROCHE_POINTEE),
-    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE),
-    # Mesures 7-8 — montée vers la culmination Sib5
-    (FA_5, BLANCHE_POINTEE),        (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
-    (SI_BEMOL_5, BLANCHE_POINTEE),  (LA_BEMOL_5, DOUBLE_CROCHE),  (SOL_BEMOL_5, DOUBLE_CROCHE),
-    # Mesures 9-12 — développement descendant qui résout sur Fa5
-    (LA_BEMOL_5, CROCHE_POINTEE),   (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
-    (MI_BEMOL_5, CROCHE_POINTEE),   (FA_5, DOUBLE_CROCHE),        (SOL_BEMOL_5, BLANCHE),
-    (FA_5, CROCHE),                 (MI_BEMOL_5, CROCHE),
-    (RE_BEMOL_5, CROCHE_POINTEE),   (MI_BEMOL_5, DOUBLE_CROCHE),  (FA_5, BLANCHE),
-    (MI_BEMOL_5, CROCHE),           (RE_BEMOL_5, CROCHE),
-    (DO_5, CROCHE_POINTEE),         (RE_5, DOUBLE_CROCHE),        (MI_5, BLANCHE),
-    (SOL_5, CROCHE),                (FA_5, CROCHE),
+    # Mesures 1-4 — intro tenue, dialogue Sib-Fa et Lab-Solb-La
+    (SI_BEMOL_4, BLANCHE + CROCHE), (FA_4, NOIRE), (SI_BEMOL_4, CROCHE),
+    (LA_BEMOL_4, DOUBLE_CROCHE), (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_4, BLANCHE + NOIRE_POINTEE),
+    (SI_BEMOL_4, BLANCHE + CROCHE), (SOL_BEMOL_4, NOIRE), (SI_BEMOL_4, CROCHE),
+    (LA_4, DOUBLE_CROCHE), (SOL_4, DOUBLE_CROCHE), (LA_4, BLANCHE + NOIRE_POINTEE),
+    # Mesures 5-6 — silences (basse seule sur le morceau original)
+    (SILENCE, 2 * BLANCHE),
+    (SILENCE, 2 * BLANCHE),
+    # Mesures 7-8 — motif iconique aéré + descente grave en réponse
+    (SI_BEMOL_4, CROCHE_POINTEE), (SILENCE, DOUBLE_CROCHE),
+    (FA_4, NOIRE), (SILENCE, CROCHE),
+    (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE_POINTEE), (SILENCE, CROCHE),
+    (DO_4, DOUBLE_CROCHE), (RE_4, DOUBLE_CROCHE), (MI_BEMOL_4, DOUBLE_CROCHE), (FA_4, CROCHE),
+    (SILENCE, NOIRE_POINTEE),
+    # Mesures 9-10 — répétition du motif (avec sa réponse grave)
+    (SI_BEMOL_4, CROCHE_POINTEE), (SILENCE, DOUBLE_CROCHE),
+    (FA_4, NOIRE), (SILENCE, CROCHE),
+    (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE_POINTEE), (SILENCE, CROCHE),
+    (DO_4, DOUBLE_CROCHE), (RE_4, DOUBLE_CROCHE), (MI_BEMOL_4, DOUBLE_CROCHE), (FA_4, CROCHE),
+    (SILENCE, NOIRE_POINTEE),
+    # Mesures 11-12 — relance vers la culmination
+    (SI_BEMOL_4, NOIRE), (FA_4, NOIRE_POINTEE), (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE),
+    # Mesures 13-14 — culmination Sib5 + redescente
+    (SI_BEMOL_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE),
+    (LA_BEMOL_5, 2 * TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (FA_5, BLANCHE_POINTEE),
+    # Mesures 15-17 — développement descendant Mib-Réb-Do
+    (MI_BEMOL_5, CROCHE_POINTEE), (FA_5, DOUBLE_CROCHE), (SOL_BEMOL_5, BLANCHE),
+    (FA_5, CROCHE), (MI_BEMOL_5, CROCHE),
+    (RE_BEMOL_5, CROCHE_POINTEE), (MI_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE),
+    (MI_BEMOL_5, CROCHE), (RE_5, CROCHE),
+    (DO_5, CROCHE_POINTEE), (RE_5, DOUBLE_CROCHE), (MI_5, BLANCHE), (SOL_5, NOIRE),
+    # Mesure 18 — résolution sur Fa grave
+    (FA_5, CROCHE), (FA_4, BLANCHE + NOIRE_POINTEE),
+    # Mesures 19-22 — reprise + ascension vers le sommet absolu (Do6, Réb6)
+    (SI_BEMOL_4, NOIRE), (FA_4, NOIRE_POINTEE), (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE),
+    (SI_BEMOL_5, BLANCHE_POINTEE), (RE_BEMOL_6, NOIRE),
+    (DO_6, NOIRE), (LA_5, BLANCHE), (FA_5, NOIRE),
+    # Mesures 23-26 — oscillations descendantes Solb-Sib-La-Fa
+    (SOL_BEMOL_5, BLANCHE_POINTEE), (SI_BEMOL_5, NOIRE),
+    (LA_5, NOIRE), (FA_5, BLANCHE_POINTEE),
+    (SOL_BEMOL_5, BLANCHE_POINTEE), (SI_BEMOL_5, NOIRE),
+    (LA_5, NOIRE), (FA_5, BLANCHE), (RE_5, NOIRE),
+    # Mesures 27-28 — descente diatonique Mib-Solb / Fa-Réb
+    (MI_BEMOL_5, BLANCHE_POINTEE), (SOL_BEMOL_5, NOIRE),
+    (FA_5, NOIRE), (RE_BEMOL_5, BLANCHE), (SI_BEMOL_4, NOIRE),
+    # Mesures 29-30 — coda identique aux mesures 17-18, conclusion sur Fa4 grave
+    (DO_5, CROCHE_POINTEE), (RE_5, DOUBLE_CROCHE), (MI_5, BLANCHE), (SOL_5, NOIRE),
+    (FA_5, CROCHE), (FA_4, BLANCHE + NOIRE_POINTEE),
 ]
 ```
 
