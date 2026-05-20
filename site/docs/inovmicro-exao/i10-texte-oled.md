@@ -23,9 +23,9 @@ sidebar_position: 17
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i10-texte-oled/icone.png" alt="Écran OLED de la STeaMi affichant du texte" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -44,7 +44,7 @@ Cette fiche met en pratique l'affichage de texte sur l'écran OLED 128×128 de l
 ## Objectifs d'apprentissage
 
 - Comprendre comment l'écran s'actualise (notion de **framebuffer**)
-- Composer un affichage à l'écran en plaçant texte et symboles aux **points cardinaux** (`N`, `S`, `CENTER`…) ou à des coordonnées précises
+- Composer un affichage à l'écran en plaçant texte et symboles aux **points cardinaux** (`N`, `S`, `CENTER`, etc.) ou à des coordonnées précises
 - Hiérarchiser l'information affichée avec les raccourcis `screen.title()` et `screen.subtitle()`
 - Faire vivre l'écran au rythme du programme pour suivre l'état d'une variable
 
@@ -56,7 +56,7 @@ Sur la STeaMi, l'écran est déjà câblé en interne, il n'y a aucun montage ex
 
 ### 1. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la STeaMi V2). Un nouveau lecteur appelé `STEAMI` apparaît sur l'ordinateur. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la STeaMi V2). Un nouveau lecteur appelé `STEAMI` apparaît sur l'ordinateur. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
@@ -123,7 +123,7 @@ Avec `at="N"`, le texte est aligné en haut et centré horizontalement ; avec `a
 
 ### 4. Lancer le programme
 
-Le programme principal est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+Le programme principal est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
@@ -191,12 +191,12 @@ screen.show()                           # affiche enfin ce qu'on a préparé sur
 
 La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'afficher du texte sans calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1, section « Repérer la géométrie de l'écran »](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
 
-Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un texte en haut en `GRAY`, `screen.subtitle()` un texte en bas en `DARK` — pas besoin de préciser position ni couleur.
+Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un texte en haut en `GRAY`, `screen.subtitle()` un texte en bas en `DARK`. Pas besoin de préciser position ni couleur.
 
 Couleurs disponibles dans `steami_screen` : `BLACK`, `DARK`, `GRAY`, `LIGHT`, `WHITE` (5 niveaux de gris du SSD1327), plus `RED`, `GREEN`, `BLUE`, `YELLOW` (qui dégradent automatiquement en niveaux de gris sur l'écran monochrome).
 
 :::warning Étape importante : `screen.show()`
-On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`… dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
+On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`, etc. dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
 
 Techniquement, ce « tableau caché » s'appelle un **framebuffer** : une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
 :::
@@ -273,7 +273,7 @@ while True:
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Le personnage |_ qui traverse l'écran : effacer → dessiner → afficher → attendre.
+    Le personnage |_ qui traverse l'écran : effacer, dessiner, afficher, attendre, puis recommencer.
   </figcaption>
 </figure>
 
@@ -333,14 +333,14 @@ Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les c
 
 ### Pour comprendre
 
-- **[OLED — Wikipedia](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente_organique)** : la technologie d'écran utilisée par la STeaMi. Contrairement à un LCD, chaque pixel émet sa propre lumière (pas de rétro-éclairage), ce qui permet des noirs profonds et une consommation très basse quand peu de pixels sont allumés.
-- **[Pixel art — Wikipedia](https://fr.wikipedia.org/wiki/Pixel_art)** : histoire et esthétique du dessin en pixels — des premiers jeux vidéo aux installations contemporaines. Quand chaque pixel compte, la contrainte devient un style.
-- **[Framebuffer — Wikipedia](https://fr.wikipedia.org/wiki/Tampon_d%27image)** : le « tableau caché » qu'on prépare avant de l'envoyer à l'écran. Concept fondateur du graphisme moderne, présent depuis les GPU jusqu'aux navigateurs web.
+- **[OLED (Wikipedia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente_organique)** : la technologie d'écran utilisée par la STeaMi. Contrairement à un LCD, chaque pixel émet sa propre lumière (pas de rétro-éclairage), ce qui permet des noirs profonds et une consommation très basse quand peu de pixels sont allumés.
+- **[Pixel art (Wikipedia)](https://fr.wikipedia.org/wiki/Pixel_art)** : histoire et esthétique du dessin en pixels, des premiers jeux vidéo aux installations contemporaines. Quand chaque pixel compte, la contrainte devient un style.
+- **[Framebuffer (Wikipedia)](https://fr.wikipedia.org/wiki/Tampon_d%27image)** : le « tableau caché » qu'on prépare avant de l'envoyer à l'écran. Concept fondateur du graphisme moderne, présent depuis les GPU jusqu'aux navigateurs web.
 
 ### Pour s'inspirer
 
-- **[Jenny Holzer — Survival Series (Centre Pompidou)](https://www.centrepompidou.fr/fr/ressources/oeuvre/c888Bex)** : depuis Times Square en 1982, l'artiste a fait du panneau LED un médium à part entière. Des messages diffusés en lumière, programmés pour défiler, qui interrogent la société.
-- **[Pixel Revival : quand l'esthétique 8-bit redéfinit les codes du design graphique (Étapes)](https://www.etapes.com/2025/04/18/pixel-revival-quand-lesthetique-8-bit-redefinit-les-codes-du-design-graphique/)** : comment la contrainte du pixel — autrefois subie — est devenue une esthétique revendiquée dans le design contemporain.
+- **[Jenny Holzer, Survival Series (Centre Pompidou)](https://www.centrepompidou.fr/fr/ressources/oeuvre/c888Bex)** : depuis Times Square en 1982, l'artiste a fait du panneau LED un médium à part entière. Des messages diffusés en lumière, programmés pour défiler, qui interrogent la société.
+- **[Pixel Revival : quand l'esthétique 8-bit redéfinit les codes du design graphique (Étapes)](https://www.etapes.com/2025/04/18/pixel-revival-quand-lesthetique-8-bit-redefinit-les-codes-du-design-graphique/)** : comment la contrainte du pixel, autrefois subie, est devenue une esthétique revendiquée dans le design contemporain.
 - **[Susan Kare et les icônes du Macintosh](https://fr.wikipedia.org/wiki/Susan_Kare)** : la designer qui a dessiné les premières icônes du Mac en 1984 sur une grille de 16 × 16 pixels. Une démonstration magistrale de ce qu'on peut exprimer avec très peu de pixels.
 
 ---

@@ -24,9 +24,9 @@ sidebar_position: 11
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`…) fonctionne aussi.
+- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`...) fonctionne aussi.
 </div>
 <img src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
@@ -80,7 +80,7 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 ### 2. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 3. Vérifier que le capteur répond
 
@@ -97,7 +97,7 @@ L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répon
 
 ### 4. Lancer le programme
 
-Notre premier programme va **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+Notre premier programme va **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -125,7 +125,7 @@ Une fois le programme lancé, plusieurs choses à essayer :
 
 :::info[Tracer un graphique (spécifique à Thonny)]
 
-Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affichage → Plotter** (ou **View → Plotter**). Une fenêtre s'ouvre à côté de la console et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
+Si vous utilisez Thonny, l'éditeur propose un **traceur de variables** : **Affichage > Plotter** (ou **View > Plotter** en anglais). Une fenêtre s'ouvre à côté de la console et trace en temps réel toutes les valeurs numériques affichées par `print()`. Pratique pour visualiser comment la lumière varie dans le temps quand on bouge un objet devant le capteur.
 
 :::
 
@@ -252,15 +252,15 @@ else:
 
 ### Pour comprendre
 
-- **[Photorésistance — Wikipedia](https://fr.wikipedia.org/wiki/Photor%C3%A9sistance)** : le composant cousin de l'APDS-9960. Plus simple : sa résistance change avec la lumière, et c'est tout. Beaucoup de capteurs de lumière débutants en utilisent.
-- **[Effet photoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication publiée par Einstein en 1905 qui lui a valu le prix Nobel de physique en 1921 — pas la relativité comme on le croit souvent.
-- **[L'œil humain — Wikipedia](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est exactement le principe d'un capteur RGB comme l'APDS-9960, mais en chair et en os.
+- **[Photorésistance (Wikipedia)](https://fr.wikipedia.org/wiki/Photor%C3%A9sistance)** : le composant cousin de l'APDS-9960. Plus simple : sa résistance change avec la lumière, et c'est tout. Beaucoup de capteurs de lumière débutants en utilisent.
+- **[Effet photoélectrique (Wikipedia)](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication publiée par Einstein en 1905 qui lui a valu le prix Nobel de physique en 1921, pas la relativité comme on le croit souvent.
+- **[L'œil humain (Wikipedia)](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est exactement le principe d'un capteur RGB comme l'APDS-9960, mais en chair et en os.
 
 ### Pour s'inspirer
 
-- **[Public Lab — DIY spectromètre](https://publiclab.org/wiki/spectrometry)** : une communauté de scientifiques amateurs qui ont construit un spectromètre à partir d'un téléphone et d'un DVD. Sert à analyser la pollution de l'eau, identifier des matériaux, ou étudier la chlorophylle des plantes.
+- **[Public Lab, DIY spectromètre](https://publiclab.org/wiki/spectrometry)** : une communauté de scientifiques amateurs qui ont construit un spectromètre à partir d'un téléphone et d'un DVD. Sert à analyser la pollution de l'eau, identifier des matériaux, ou étudier la chlorophylle des plantes.
 - **[Éclairage public adaptatif (Cerema)](https://www.cerema.fr/fr/actualites/eclairage-public-adaptation-eclairage-presence)** : éteindre ou réduire les lampadaires quand la rue est vide, c'est exactement ce qu'on fait dans cette fiche, mais à l'échelle d'une ville. Économies d'énergie + moins de pollution lumineuse.
-- **[Photographier la Voie Lactée](https://www.lemonde.fr/blog/autourduciel/2020/05/22/photographier-la-voie-lactee-en-pause-longue/)** : avec des poses de plusieurs secondes ou minutes, un capteur photo accumule la lumière la plus faible — c'est comme cela que les astronomes amateurs photographient des galaxies invisibles à l'œil nu.
-- **[Sextant — Wikipedia](https://fr.wikipedia.org/wiki/Sextant)** : avant le GPS, les marins se repéraient en mesurant l'angle entre un astre et l'horizon. Une histoire fascinante d'instruments de mesure et de navigation.
+- **[Photographier la Voie Lactée](https://www.lemonde.fr/blog/autourduciel/2020/05/22/photographier-la-voie-lactee-en-pause-longue/)** : avec des poses de plusieurs secondes ou minutes, un capteur photo accumule la lumière la plus faible. C'est comme cela que les astronomes amateurs photographient des galaxies invisibles à l'œil nu.
+- **[Sextant (Wikipedia)](https://fr.wikipedia.org/wiki/Sextant)** : avant le GPS, les marins se repéraient en mesurant l'angle entre un astre et l'horizon. Une histoire fascinante d'instruments de mesure et de navigation.
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

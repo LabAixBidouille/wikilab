@@ -23,9 +23,9 @@ sidebar_position: 13
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i06-code-morse/icone.png" alt="Code Morse sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -100,7 +100,7 @@ Deux remarques sur cet extrait :
 
 ### 2. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré, la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré, la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 3. Tester le buzzer dans le REPL
 
@@ -118,11 +118,11 @@ Avant d'écrire le programme principal, on peut vérifier que le buzzer répond 
 ...     time.sleep_us(1136)
 ```
 
-Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dans le programme de l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous.
+Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est laborieux : on va l'emballer dans une fonction `tone()` réutilisable dans le programme de l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous.
 
 ### 4. Lancer le programme
 
-Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : bouton A → signal court (point, 100 ms), bouton B → signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#etape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : le bouton A produit un signal court (point, 100 ms), le bouton B produit un signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -322,17 +322,17 @@ C'est un excellent exercice pour découvrir les **structures de données** (dict
 
 ### Pour comprendre
 
-- **[Code Morse international — Wikipedia](https://fr.wikipedia.org/wiki/Code_Morse_international)** : histoire, table complète, règles de timing détaillées.
-- **[Effet piézoélectrique — Wikipedia](https://fr.wikipedia.org/wiki/Effet_pi%C3%A9zo%C3%A9lectrique)** : pourquoi un cristal de céramique se déforme quand on lui applique une tension. Le principe derrière les buzzers, les briquets électriques, les microphones de guitare et les capteurs de pression.
-- **[Samuel Morse — Wikipedia](https://fr.wikipedia.org/wiki/Samuel_Morse)** : peintre américain reconnu, il invente le télégraphe après avoir appris trop tard la mort de sa femme. Une bascule de carrière qui révolutionnera les communications.
-- **[Théorie de l'information — Wikipedia](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information)** : le code Morse est le premier exemple historique de **codage à longueur variable** (les lettres fréquentes sont les plus courtes). Cette intuition a inspiré le codage de Huffman et toute la compression de données moderne (zip, JPEG, MP3…).
+- **[Code Morse international (Wikipedia)](https://fr.wikipedia.org/wiki/Code_Morse_international)** : histoire, table complète, règles de timing détaillées.
+- **[Effet piézoélectrique (Wikipedia)](https://fr.wikipedia.org/wiki/Effet_pi%C3%A9zo%C3%A9lectrique)** : pourquoi un cristal de céramique se déforme quand on lui applique une tension. Le principe derrière les buzzers, les briquets électriques, les microphones de guitare et les capteurs de pression.
+- **[Samuel Morse (Wikipedia)](https://fr.wikipedia.org/wiki/Samuel_Morse)** : peintre américain reconnu, il invente le télégraphe après avoir appris trop tard la mort de sa femme. Une bascule de carrière qui révolutionnera les communications.
+- **[Théorie de l'information (Wikipedia)](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information)** : le code Morse est le premier exemple historique de **codage à longueur variable** (les lettres fréquentes sont les plus courtes). Cette intuition a inspiré le codage de Huffman et toute la compression de données moderne (zip, JPEG, MP3...).
 
 ### Pour s'inspirer
 
-- **[Les « messages personnels » de Radio Londres](https://fr.wikipedia.org/wiki/Messages_personnels)** : pendant la Seconde Guerre mondiale, la BBC ouvrait ses émissions vers la France par les premières notes de la 5ᵉ symphonie de Beethoven — qui sont exactement la lettre **V** en code Morse (`. . . -`), pour _Victoire_. Suivaient des phrases codées destinées à la Résistance.
+- **[Les « messages personnels » de Radio Londres](https://fr.wikipedia.org/wiki/Messages_personnels)** : pendant la Seconde Guerre mondiale, la BBC ouvrait ses émissions vers la France par les premières notes de la 5ᵉ symphonie de Beethoven, qui sont exactement la lettre **V** en code Morse (`. . . -`), pour _Victoire_. Suivaient des phrases codées destinées à la Résistance.
 - **[SOS, le signal de détresse universel](https://fr.wikipedia.org/wiki/SOS)** : adopté en 1908 pour sa simplicité en Morse (`. . . - - - . . .`), c'est l'un des premiers signaux radio à avoir traversé les océans. Le Titanic l'a utilisé en 1912, contribuant à imposer son usage international.
 - **[Radioamateurisme](https://fr.wikipedia.org/wiki/Radioamateur)** : un hobby mondial qui continue d'organiser des concours de transmission en Morse à très longue distance, parfois avec très peu d'énergie. Une communauté active de bidouilleurs d'ondes.
-- **[Chiptune — Wikipedia](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits — la STeaMi fait exactement ce qu'une Game Boy faisait pour produire ses musiques.
+- **[Chiptune (Wikipedia)](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits. La STeaMi fait exactement ce qu'une Game Boy faisait pour produire ses musiques.
 
 ---
 

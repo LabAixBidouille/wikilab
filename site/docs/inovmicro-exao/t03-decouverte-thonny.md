@@ -34,12 +34,12 @@ sidebar_position: 3
 
 ## De quoi parle-t-on ?
 
-Programmer une carte microcontrôleur peut sembler intimidant : plusieurs logiciels à installer, environnement à configurer, code à envoyer vers la carte…
+Programmer une carte microcontrôleur peut sembler intimidant : plusieurs logiciels à installer, environnement à configurer, code à envoyer vers la carte...
 **Thonny** est un éditeur Python conçu pour l'apprentissage qui simplifie cette mise en route. Couplé à **MicroPython** : une version de Python adaptée aux cartes électroniques, une fois installé sur la STeaMi, il offre un environnement **gratuit et hors-ligne** où l'on peut écrire du code, le tester en direct dans le **REPL** (une fenêtre de dialogue où l'on tape une instruction et la carte y répond immédiatement), et déboguer pas-à-pas.
 
 Cette fiche met en place tout l'environnement de travail : installation de Thonny, installation de MicroPython sur la carte, configuration de la communication entre Thonny et la carte, et écriture d'un premier programme qui pilote la **LED RGB** de la STeaMi avec ses **boutons A et B**. À privilégier en salle informatique avec postes fixes ; pour des postes verrouillés ou en mobilité, préférer **Vittascience** (en ligne).
 
-Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (Mu, VS Code, Vittascience, mpremote…) permet de programmer la STeaMi de la même façon. Cette fiche s'appuie sur Thonny pour fixer les idées, mais la démarche reste valable sur d'autres outils.
+Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (Mu, VS Code, Vittascience, mpremote, etc.) permet de programmer la STeaMi de la même façon. Cette fiche s'appuie sur Thonny pour fixer les idées, mais la démarche reste valable sur d'autres outils.
 
 ---
 
@@ -79,7 +79,7 @@ pipx install thonny
     style={{maxWidth: '100%', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Thonny au premier lancement : éditeur en haut, **panneau Shell** en bas — c'est la console interactive de MicroPython (aussi appelée **REPL**, pour _Read-Eval-Print Loop_) où l'on peut taper une commande et voir la carte y répondre immédiatement.
+    Thonny au premier lancement : éditeur en haut, **panneau Shell** en bas. C'est la console interactive de MicroPython (aussi appelée **REPL**, pour _Read-Eval-Print Loop_) où l'on peut taper une commande et voir la carte y répondre immédiatement.
   </figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ pipx install thonny
 
 :::info Étape éventuellement déjà faite
 
-Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny pour la STeaMi*) l'invite `>>>` apparaît dans le Shell de Thonny (le signe en début de ligne qui indique que MicroPython attend une commande — équivalent du mot anglais « prompt »), cette étape d'installation est déjà faite : passez directement à la section suivante.
+Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si après l'étape suivante (*Configurer Thonny pour la STeaMi*) l'invite `>>>` apparaît dans le Shell de Thonny (le signe en début de ligne qui indique que MicroPython attend une commande, équivalent du mot anglais « prompt »), cette étape d'installation est déjà faite : passez directement à la section suivante.
 
 :::
 
@@ -116,15 +116,15 @@ Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câ
 </figure>
 
 ### Configurer Thonny pour la STeaMi
-Si Thonny démarre en anglais : **Tools → Options → onglet General → Language: Français**, puis redémarrer Thonny. La suite utilise les libellés français.
+Si Thonny démarre en anglais : **Tools > Options > onglet General > Language: Français**, puis redémarrer Thonny. La suite utilise les libellés français.
 
 1. Ouvrir Thonny.
-2. **Outils → Options… → onglet Interpréteur** (le terme employé par Thonny pour désigner l'appareil sur lequel le code va s'exécuter).
+2. **Outils > Options... > onglet Interpréteur** (le terme employé par Thonny pour désigner l'appareil sur lequel le code va s'exécuter).
 3. Liste **Quel interpréteur ou appareil utiliser** : choisir **MicroPython (generic)**.
 4. **Port** (la prise par laquelle l'ordinateur dialogue avec la carte) : sélectionner celui de la STeaMi.
    - Linux : `/dev/ttyACM0`
    - macOS : `/dev/cu.usbmodemXXXX`
-   - Windows : `COM3`, `COM4`…
+   - Windows : `COM3`, `COM4`, etc.
 5. Cliquer **OK**.
 :::info[Identifier le bon port]
 
@@ -151,7 +151,7 @@ Type "help()" for more information.
     style={{maxWidth: '100%', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Outils → Options → Interpréteur : choisir « MicroPython (generic) » et le port de la STeaMi.
+    Outils > Options > Interpréteur : choisir « MicroPython (generic) » et le port de la STeaMi.
   </figcaption>
 </figure>
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
@@ -239,7 +239,7 @@ while True:
 ### Exécution
 
 - **Test rapide** : bouton **Run** (▶) ou `F5`. Le code s'exécute sur la carte sans être sauvegardé.
-- **Programme persistant** : **Fichier → Enregistrer sous… → MicroPython device**, et nommer le fichier **`main.py`**. Il sera relancé à chaque démarrage de la carte.
+- **Programme persistant** : **Fichier > Enregistrer sous... > MicroPython device**, et nommer le fichier **`main.py`**. Il sera relancé à chaque démarrage de la carte.
 
 :::info Un programme est déjà en cours d'exécution
 
@@ -334,7 +334,7 @@ Raccourcis utiles dans le REPL :
 Thonny propose un débogueur intégré, particulièrement adapté à l'enseignement :
 
 1. Cliquer dans la marge à gauche d'une ligne pour poser un **point d'arrêt**.
-2. **Run → Debug current script** (`Ctrl+F5`).
+2. **Run > Debug current script** (`Ctrl+F5`).
 3. Avancer avec **Step over** (`F6`), **Step into** (`F7`), **Step out** (`F8`).
 4. Observer les variables dans le panneau **Variables**.
 :::tip[Limite à connaître]
@@ -371,9 +371,9 @@ La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thon
 
 ### Pour s'inspirer
 
-- **[MOOC FUN — Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage et son écosystème, avant de l'enseigner.
-- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués — un interpréteur compact capable de tourner sur des cartes avec très peu de mémoire, qui a démocratisé Python sur microcontrôleur.
-- **[Thonny — pensé pour l'enseignement](https://thonny.org/)** : conçu par Aivar Annamaa (Université de Tartu) pour rendre Python accessible aux débutant·es. Visualisation pas-à-pas des variables, débogueur didactique, installation sans dépendance.
+- **[MOOC FUN, Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage et son écosystème, avant de l'enseigner.
+- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, un interpréteur compact capable de tourner sur des cartes avec très peu de mémoire, qui a démocratisé Python sur microcontrôleur.
+- **[Thonny, pensé pour l'enseignement](https://thonny.org/)** : conçu par Aivar Annamaa (Université de Tartu) pour rendre Python accessible aux débutant·es. Visualisation pas-à-pas des variables, débogueur didactique, installation sans dépendance.
 
 ### Pour approfondir
 

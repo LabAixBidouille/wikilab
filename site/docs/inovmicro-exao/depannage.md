@@ -51,11 +51,11 @@ Plusieurs ports `COM` (Windows) ou `/dev/cu.usbmodem*` (macOS) peuvent apparaît
 
 ### Windows
 
-Ouvrir le **Gestionnaire de périphériques** (Windows + R → `devmgmt.msc`), dérouler **Ports (COM et LPT)**. Brancher puis débrancher la carte fait apparaître / disparaître l'entrée correspondante. Le numéro `COMx` affiché à côté est celui à choisir dans votre IDE.
+Ouvrir le **Gestionnaire de périphériques** (Windows + R, puis `devmgmt.msc`), dérouler **Ports (COM et LPT)**. Brancher puis débrancher la carte fait apparaître / disparaître l'entrée correspondante. Le numéro `COMx` affiché à côté est celui à choisir dans votre IDE.
 
 ### Linux
 
-Sur la plupart des distributions, la STeaMi apparaît comme `/dev/ttyACM0` (ou `ACM1`, etc. si plusieurs cartes série sont déjà branchées). Si l'accès au port est refusé avec une erreur **`Permission denied`** (en anglais : « permission refusée »), c'est que l'utilisateur·rice n'est pas dans le groupe `dialout` — un groupe Linux qui rassemble les comptes autorisés à communiquer avec les ports série. Une fois pour toutes :
+Sur la plupart des distributions, la STeaMi apparaît comme `/dev/ttyACM0` (ou `ACM1`, etc. si plusieurs cartes série sont déjà branchées). Si l'accès au port est refusé avec une erreur **`Permission denied`** (en anglais : « permission refusée »), c'est que l'utilisateur·rice n'est pas dans le groupe `dialout`, un groupe Linux qui rassemble les comptes autorisés à communiquer avec les ports série. Une fois pour toutes :
 
 ```bash
 sudo usermod -aG dialout $USER
@@ -71,7 +71,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 ## MicroPython pas installé
 
-**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu de `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu de `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 **Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
@@ -97,9 +97,9 @@ Le dépôt GitHub `micropython-steami-lib` propose aussi un fichier `steami-dapl
 
 **Solution** : sélectionner explicitement le port dans la configuration de l'IDE.
 
-- **Thonny** : `Outils → Options → onglet Interpréteur → Port`, puis choisir le bon port dans la liste.
-- **Mu** : la sélection se fait automatiquement, mais on peut forcer via `Préférences → Mode → MicroPython (generic)`.
-- **VS Code** + extension MicroPython : `Ctrl+Shift+P` → `MicroPython: Select Device`.
+- **Thonny** : `Outils > Options > onglet Interpréteur > Port`, puis choisir le bon port dans la liste.
+- **Mu** : la sélection se fait automatiquement, mais on peut forcer via `Préférences > Mode > MicroPython (generic)`.
+- **VS Code** + extension MicroPython : `Ctrl+Shift+P` puis `MicroPython: Select Device`.
 - **`mpremote`** : ajouter `connect <port>` à la commande, par exemple `mpremote connect /dev/ttyACM1 repl`.
 
 Pour identifier le port à choisir, voir [Identifier le bon port série](#identifier-le-bon-port-série).
