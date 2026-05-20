@@ -48,6 +48,7 @@ Dans cette fiche, on apprend à piloter le buzzer en MicroPython, à choisir une
 - Comprendre la relation entre **fréquence** d'un signal électrique et **hauteur** d'une note
 - Découvrir comment un microcontrôleur génère un son en faisant osciller un buzzer (technique du _bit-banging_)
 - Représenter une mélodie en MicroPython sous forme de **liste de couples (fréquence, durée)**
+- Utiliser une **fonction** pour abstraire la génération du son et écrire une partition lisible
 - Utiliser une boucle `for` pour parcourir une séquence de notes et les jouer dans l'ordre
 
 ---
@@ -121,52 +122,94 @@ import time
 
 speaker = Pin('SPEAKER', Pin.OUT_PP)
 
+# Fréquences des notes en hertz (Hz). On garde le nom français des notes ;
+# le chiffre indique l'octave (3 = très grave, 4 = grave, 5 = aigu).
+LA_3 = 220
+SI_3 = 247
+DO_4 = 262
+RE_4 = 294
+MI_4 = 330
+FA_4 = 349
+SOL_4 = 392
+LA_4 = 440
 
-def tone(pin, freq, duration_ms):
-    """Fait sonner le buzzer à la fréquence demandée pendant duration_ms."""
-    if freq == 0:
-        time.sleep_ms(duration_ms)
+# Durées en millisecondes (ms).
+LONGUE = 500
+BREVE = 250
+
+
+def jouer_note(pin, frequence, duree_ms):
+    """Fait vibrer le buzzer à la fréquence demandée pendant duree_ms."""
+    if frequence == 0:
+        time.sleep_ms(duree_ms)
         return
-    period_us = int(1_000_000 / freq)
-    half_period = period_us // 2
-    end_time = time.ticks_add(time.ticks_us(), duration_ms * 1000)
-    while time.ticks_diff(end_time, time.ticks_us()) > 0:
+    periode_us = int(1_000_000 / frequence)
+    demi_periode = periode_us // 2
+    fin = time.ticks_add(time.ticks_us(), duree_ms * 1000)
+    while time.ticks_diff(fin, time.ticks_us()) > 0:
         pin.on()
-        time.sleep_us(half_period)
+        time.sleep_us(demi_periode)
         pin.off()
-        time.sleep_us(half_period)
+        time.sleep_us(demi_periode)
 
 
-# La mélodie sous forme d'une liste de (fréquence, durée en ms).
-# Chaque tuple est une note ; freq=0 produit un silence.
-# Ici : le thème principal de Tetris ("Korobeïniki", chanson traditionnelle
+# Le thème principal de Tetris ("Korobeïniki", chanson traditionnelle
 # russe de 1861, popularisée par le jeu Nintendo en 1989), transposé
 # une octave en dessous pour mieux sonner sur le buzzer.
+# Chaque tuple est une note (fréquence, durée).
 partition = [
-    (330, 500), (247, 250), (262, 250), (294, 500),
-    (262, 250), (247, 250), (220, 500), (220, 250),
-    (262, 250), (330, 500), (294, 250), (262, 250),
-    (247, 500), (247, 250), (262, 250), (294, 500),
-    (330, 500), (262, 500), (220, 500), (220, 500),
-    (294, 500), (349, 250), (440, 250), (440, 250),
-    (392, 250), (349, 250), (330, 500), (262, 500),
-    (330, 500), (294, 250), (262, 250), (247, 500),
-    (247, 250),
+    (MI_4, LONGUE),  (SI_3, BREVE),  (DO_4, BREVE),  (RE_4, LONGUE),
+    (DO_4, BREVE),   (SI_3, BREVE),  (LA_3, LONGUE), (LA_3, BREVE),
+    (DO_4, BREVE),   (MI_4, LONGUE), (RE_4, BREVE),  (DO_4, BREVE),
+    (SI_3, LONGUE),  (SI_3, BREVE),  (DO_4, BREVE),  (RE_4, LONGUE),
+    (MI_4, LONGUE),  (DO_4, LONGUE), (LA_3, LONGUE), (LA_3, LONGUE),
+    (RE_4, LONGUE),  (FA_4, BREVE),  (LA_4, BREVE),  (LA_4, BREVE),
+    (SOL_4, BREVE),  (FA_4, BREVE),  (MI_4, LONGUE), (DO_4, LONGUE),
+    (MI_4, LONGUE),  (RE_4, BREVE),  (DO_4, BREVE),  (SI_3, LONGUE),
+    (SI_3, BREVE),
 ]
 
 while True:
-    for freq, duree in partition:
-        tone(speaker, freq, duree)
+    for frequence, duree in partition:
+        jouer_note(speaker, frequence, duree)
         time.sleep_ms(30)   # petit silence entre deux notes
 ```
 
+:::tip[Lire la partition dans le code]
+
+Les quatre premières lignes de la liste `partition` correspondent à la première phrase musicale de Korobeïniki, exactement comme on la lirait sur une vraie partition :
+
+| Code Python                                                    | Lecture musicale                            |
+| -------------------------------------------------------------- | ------------------------------------------- |
+| `(MI_4, LONGUE), (SI_3, BREVE), (DO_4, BREVE), (RE_4, LONGUE)` | MI (long), SI, DO, RÉ (long)                |
+| `(DO_4, BREVE), (SI_3, BREVE), (LA_3, LONGUE), (LA_3, BREVE)`  | DO, SI, LA (long), LA                       |
+| `(DO_4, BREVE), (MI_4, LONGUE), (RE_4, BREVE), (DO_4, BREVE)`  | DO, MI (long), RÉ, DO                       |
+| `(SI_3, LONGUE), (SI_3, BREVE), (DO_4, BREVE), (RE_4, LONGUE)` | SI (long), SI, DO, RÉ (long)                |
+
+Le suffixe `_3` ou `_4` indique l'octave : `MI_4` est le mi grave, `MI_5` serait son octave au-dessus. Une partition Python se lit donc comme une partition papier, à un détail près : on travaille en hertz et en millisecondes plutôt qu'en noires et croches.
+
+:::
+
 ### Comment cela fonctionne ?
 
-Le programme s'organise en trois parties :
+Le programme s'organise en quatre parties :
 
 - **Initialisation** : `Pin('SPEAKER', Pin.OUT_PP)` configure la broche du buzzer en sortie _push-pull_ (la broche peut activement imposer 0 V ou 3,3 V, c'est ce qu'il faut pour piloter le buzzer).
-- **Fonction `tone(pin, freq, duration_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est le _bit-banging_ évoqué plus haut.
-- **Boucle principale** : on parcourt la liste `partition` avec une boucle `for`, on joue chaque note via `tone()`, et on ajoute un petit silence de 30 ms entre les notes pour qu'elles soient bien distinctes. Le `while True` extérieur fait répéter la mélodie indéfiniment.
+- **Constantes nommées** : avant tout calcul, on donne un nom parlant aux fréquences (`DO_4`, `RE_4`, `MI_4`...) et aux durées (`LONGUE`, `BREVE`). Le code ne manipule plus des nombres mystérieux comme `330` ou `500`, mais des notes et des durées qu'un musicien reconnaît au premier coup d'œil.
+- **Fonction `jouer_note(pin, frequence, duree_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est le _bit-banging_ évoqué plus haut.
+- **Boucle principale** : on parcourt la liste `partition` avec une boucle `for`, on joue chaque note via `jouer_note()`, et on ajoute un petit silence de 30 ms entre les notes pour qu'elles soient bien distinctes. Le `while True` extérieur fait répéter la mélodie indéfiniment.
+
+:::info[Pourquoi écrire une fonction ?]
+
+Sans la fonction `jouer_note`, il faudrait recopier les six lignes de _bit-banging_ pour **chaque** note de la partition, soit environ 200 lignes pour notre mélodie de 33 notes. Avec la fonction :
+
+- on écrit l'algorithme du buzzer **une seule fois**, on le teste, et on n'y touche plus ;
+- la partition devient une liste de couples `(note, durée)` qui se lit comme une vraie partition musicale ;
+- pour changer de mélodie, on modifie la liste sans toucher au code technique du son.
+
+C'est le principe d'**abstraction** : cacher un détail technique derrière un nom expressif (`jouer_note`) pour que le reste du programme parle le langage du problème (« joue un MI long ») plutôt que celui de la machine (« allume la broche, attends 1515 µs, éteins-la... »).
+
+:::
 
 :::info[Le format `(fréquence, durée)`]
 
