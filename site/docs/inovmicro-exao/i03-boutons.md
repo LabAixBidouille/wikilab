@@ -23,9 +23,9 @@ sidebar_position: 10
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`…).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i03-boutons/icone.png" alt="Boutons-poussoirs de la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -35,21 +35,23 @@ sidebar_position: 10
 
 ## De quoi parle-t-on ?
 
-Le **bouton-poussoir** est le composant le plus simple pour faire le lien entre une **action physique** (un doigt qui appuie) et une **action numérique** (un programme qui réagit). On en trouve partout : clavier d'ordinateur, interrupteur de chevet, manette de console, bouton d'arrêt d'urgence… Tous fonctionnent sur le même principe : un appui ferme un circuit, un relâchement le rouvre.
+Le **bouton-poussoir** est un composant simple pour faire le lien entre une **action physique** (un doigt qui appuie dessus) et une **action numérique** (un programme qui réagit). On en trouve partout : clavier d'ordinateur, interrupteur de chevet, manette de console, bouton d'arrêt d'urgence... Tous fonctionnent sur le même principe : un appui ferme un circuit (laisse le courant électrique passer), un relâchement le rouvre (empêche le courant de passer).
 
-La STeaMi intègre trois boutons-poussoirs directement utilisables sans câblage : les boutons **A**, **B** et **Menu**. Dans cette fiche, on apprend à les lire en MicroPython et à déclencher des actions selon qu'ils sont appuyés ou relâchés. C'est la brique de base pour construire toute interface utilisateur : menus, jeux, télécommandes.
+La STeaMi intègre trois boutons-poussoirs simples directement utilisables sans câblage : les boutons **A**, **B** et **Menu**. La carte possède aussi un bouton multidirectionnel que nous n'utiliserons pas pour le moment.
 
-Cette fiche reprend l'activité Let's STEAM [Utiliser des boutons-poussoirs](/ressources/lets-steam/r1as03-boutons), adaptée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython. Dans la fiche source, l'élève câble deux boutons et deux LED sur une breadboard ; ici on tire parti des composants déjà soudés sur la STeaMi.
+Dans cette fiche, on apprend à lire leur état en MicroPython et à déclencher des actions selon qu'ils sont appuyés ou relâchés. C'est la brique de base pour construire de l'interaction utilisateur sur des objets électroniques : sonnette, jeux, télécommandes... Concrètement, nous allons construire un **mini-jeu de réflexes pour deux joueurs** : chacun choisit un bouton (A ou B), un arbitre donne le signal de départ, et le premier qui appuie sur son bouton allume sa LED.
+
+Cette fiche reprend l'activité Let's STEAM [Utiliser des boutons-poussoirs](/ressources/lets-steam/r1as03-boutons), adaptée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython. Dans la fiche source, l'élève câble deux boutons et deux LED sur une breadboard ; ici on tire parti des composants déjà intégrés sur la carte STeaMi.
 
 ---
 
 ## Objectifs d'apprentissage
 
-- Lire l'état d'un bouton intégré à la STeaMi en MicroPython avec le module `machine`
-- Comprendre la **logique inverse** des boutons (1 au repos, 0 quand on appuie) due à la résistance de tirage
+- Lire l'état d'un bouton intégré à la STeaMi en MicroPython
+- Comprendre la **logique inverse** des boutons (1 au repos, 0 quand on appuie) et le principe de la résistance de tirage
 - Détecter une **transition** d'état (relâché → appuyé) plutôt qu'un simple état, pour ne déclencher qu'une fois par appui
-- Combiner lecture de bouton et pilotage de LED dans une même boucle d'événements
-- Identifier le pattern « machine à états » derrière un mini-jeu à deux joueurs
+- Combiner lecture de bouton et pilotage de LED
+- Découvrir ce qu'est une « machine à états » avec un mini-jeu à deux joueurs
 
 ---
 
@@ -78,19 +80,28 @@ Sur la STeaMi, trois boutons-poussoirs sont accessibles dans le code via des **n
 | Bouton B    | `B_BUTTON`     |
 | Bouton Menu | `MENU_BUTTON`  |
 
-:::info[Logique inverse]
+:::info[Logique inverse : `value()` renvoie `0` quand on APPUIE]
 
-Chacun de ces boutons est câblé sur la carte avec une **résistance de tirage** (4,7 kΩ) qui maintient la broche à **3,3 V** quand le bouton est relâché. Appuyer sur le bouton met la broche à **0 V**. C'est pour cela que `value()` renvoie **`1` quand le bouton est relâché** et **`0` quand on appuie**. Logique inverse de ce qu'on attendrait intuitivement.
+Spontanément, on pourrait penser que « bouton appuyé = `1` » et « bouton relâché = `0` ». Sur la STeaMi, c'est l'**inverse** :
+
+| État du bouton  | Tension sur la broche | Ce que renvoie `value()` |
+| --------------- | --------------------- | ------------------------ |
+| Relâché (repos) | 3,3 V                 | `1`                      |
+| Appuyé          | 0 V                   | `0`                      |
+
+D'où vient cette inversion ? Sur la carte, une **résistance** (4,7 kΩ) relie chaque broche de bouton à l'alimentation (3,3 V). Tant que personne n'appuie, cette résistance « tire » la broche vers le haut : on lit `1`. Appuyer sur le bouton crée un chemin direct vers la masse (0 V), beaucoup plus « fort » que la résistance : la broche tombe à `0`. On parle de **résistance de tirage**.
+
+Conséquence pratique pour la suite du code : on testera `btn_a.value() == 0` pour savoir si A est appuyé, pas `== 1`.
 
 :::
 
 ### 2. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 3. Lancer le programme
 
-Notre premier programme va proposer un **mini-jeu à deux joueurs** : la première personne qui appuie sur son bouton allume sa LED. Bouton A → LED rouge, bouton B → LED bleue. Tant qu'un bouton est maintenu enfoncé, l'autre joueur ne peut plus gagner. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+Notre premier programme va proposer un **mini-jeu à deux joueurs** : la première personne qui appuie sur son bouton allume sa LED. Bouton A allume la LED rouge, bouton B allume la LED bleue. Tant qu'un bouton est maintenu enfoncé, l'autre joueur ne peut plus gagner. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -103,7 +114,9 @@ Une fois le programme lancé :
 
 - Appuyer sur **A** : la LED rouge s'allume.
 - Appuyer sur **B** : la LED bleue s'allume.
-- Tant qu'un bouton reste enfoncé, l'autre n'a plus aucun effet — le premier joueur a gagné le tour.
+- Chaque joueur choisi son bouton et l'objectif est de savoir qui sera le plus rapide.
+- Le premier joueur qui fait éclairer sa LED a gagné le tour. C'est l'arbitre qui donnera le signal au joueur pour réagir.
+- Tant qu'un bouton reste enfoncé, l'autre n'a plus aucun effet.
 - Relâcher les deux boutons : les LED s'éteignent, le tour suivant peut commencer.
 
 À deux personnes, c'est un mini-jeu de réflexes. Seul, c'est l'occasion d'observer en temps réel comment chaque appui modifie l'état du programme.
@@ -155,14 +168,14 @@ while True:
 
 Le programme s'organise en quatre parties :
 
-- **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des **noms parlants** (`'LED_RED'`, `'A_BUTTON'`…) — pas besoin de mémoriser un numéro de broche.
+- **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des **noms parlants** (`'LED_RED'`, `'A_BUTTON'`...). Pas besoin de mémoriser un numéro de broche.
 - **Lecture des boutons** : `btn_a.value()` renvoie `1` ou `0`. À cause de la logique inverse, on compare à `0` pour savoir si le bouton est appuyé. On stocke le résultat dans `a_appuye` (booléen) pour rendre la suite plus lisible.
-- **Détection de transition** : la variable `tour_libre` joue le rôle de **drapeau**. Elle passe à `False` dès qu'on allume une LED, ce qui empêche l'autre bouton de prendre la main. Elle ne repasse à `True` que quand **les deux boutons sont relâchés** — c'est ce qui marque la fin du tour.
+- **Détection de transition** : la variable `tour_libre` joue le rôle de **drapeau**. Elle prend la valeur `False` dès qu'on allume une LED, ce qui empêche l'autre bouton de prendre la main. Elle ne reprend la valeur `True` que quand **les deux boutons sont relâchés** : c'est ce qui marque la fin du tour.
 - **Boucle principale** : à chaque tour de boucle, on lit les deux boutons et on choisit la branche `if/elif/elif` appropriée. Les LED restent allumées tant qu'un bouton est appuyé.
 
 :::info[Machine à états]
 
-Le drapeau `tour_libre` transforme cette boucle en mini **machine à états** : on est soit dans l'état « tour libre » (aucune LED allumée, on attend un appui), soit dans l'état « tour gagné » (une LED allumée, on attend que les deux boutons se relâchent). Ce pattern revient partout en programmation interactive — distributeurs, menus, jeux vidéo.
+Le drapeau `tour_libre` transforme cette boucle en une **machine à états** : on est soit dans l'état « tour libre » (aucune LED allumée, on attend un appui), soit dans l'état « tour gagné » (une LED allumée, on attend que les deux boutons se relâchent). Ce principe revient partout en programmation interactive (distributeurs, menus, jeux vidéo).
 
 :::
 
@@ -184,7 +197,7 @@ Combiner cette fiche avec la fiche [Afficher du texte sur l'écran OLED](/ressou
 
 ### 4. Jeu de réaction (bonus)
 
-Au lieu de lancer la partie immédiatement, attendre un délai aléatoire (`random.uniform(1, 5)` secondes), puis allumer brièvement les deux LED simultanément comme signal de départ. Le premier qui appuie après le signal gagne — celui qui appuie avant a un faux départ. Idée centrale : mesurer le **temps de réaction**, lié à la fiche transverse [Temps de réaction](/ressources/thedexterlab/programmation/programmation-distraction-temps-reaction).
+Au lieu de lancer la partie immédiatement, attendre un délai aléatoire (`random.uniform(1, 5)` secondes), puis allumer brièvement les deux LED simultanément comme signal de départ. Le premier qui appuie après le signal gagne ; celui qui appuie avant a un faux départ. Idée centrale : mesurer le **temps de réaction**, lié à la fiche transverse [Temps de réaction](/ressources/thedexterlab/programmation/programmation-distraction-temps-reaction).
 
 ---
 
@@ -192,13 +205,13 @@ Au lieu de lancer la partie immédiatement, attendre un délai aléatoire (`rand
 
 ### Pour comprendre
 
-- **[Bouton-poussoir — Wikipedia](https://fr.wikipedia.org/wiki/Bouton-poussoir)** : histoire, types (à fermeture, à ouverture, à accrochage), applications. Le composant le plus simple, mais le pilier de presque toutes les interfaces.
-- **[Anti-rebond — Wikipedia](https://fr.wikipedia.org/wiki/Anti-rebond)** : un bouton qui se ferme rebondit pendant quelques millisecondes, ce qui peut faire enregistrer plusieurs appuis pour un seul clic. Le pattern de détection de transition utilisé ici résout en partie ce problème ; les solutions plus poussées sont logicielles (temporisation) ou matérielles (condensateur).
-- **[Automate fini — Wikipedia](https://fr.wikipedia.org/wiki/Automate_fini)** : le drapeau `tour_libre` est une mini machine à états à deux états. Les automates finis sont une des formalisations les plus utiles en informatique : compilateurs, ascenseurs, distributeurs, expressions régulières…
+- **[Bouton-poussoir (Wikipedia)](https://fr.wikipedia.org/wiki/Bouton-poussoir)** : histoire, types (à fermeture, à ouverture, à accrochage), applications. Le composant le plus simple, mais le pilier de presque toutes les interfaces.
+- **[Anti-rebond (Wikipedia)](https://fr.wikipedia.org/wiki/Anti-rebond)** : un bouton qui se ferme rebondit pendant quelques millisecondes, ce qui peut faire enregistrer plusieurs appuis pour un seul clic. Le pattern de détection de transition utilisé ici résout en partie ce problème ; les solutions plus poussées sont logicielles (temporisation) ou matérielles (condensateur).
+- **[Automate fini (Wikipedia)](https://fr.wikipedia.org/wiki/Automate_fini)** : le drapeau `tour_libre` est une mini machine à états à deux états. Les automates finis sont une des formalisations les plus utiles en informatique : compilateurs, ascenseurs, distributeurs, expressions régulières...
 
 ### Pour s'inspirer
 
-- **[Le buzzer de jeu télévisé](https://fr.wikipedia.org/wiki/Buzzer_(jeu_t%C3%A9l%C3%A9vis%C3%A9))** : exactement le même principe que notre mini-jeu, mais à l'échelle d'un plateau de télévision — *Questions pour un champion*, *Slam*, *Burger Quiz*… Premier appuyé, premier servi.
+- **[Le buzzer de jeu télévisé](https://fr.wikipedia.org/wiki/Buzzer_(jeu_t%C3%A9l%C3%A9vis%C3%A9))** : exactement le même principe que notre mini-jeu, mais à l'échelle d'un plateau de télévision (*Questions pour un champion*, *Slam*, *Burger Quiz*...). Premier appuyé, premier servi.
 - **[Borne d'arcade (projet JediTrack)](/ressources/jeditrack/borne-arcade)** : fiche du wiki sur la fabrication d'une borne d'arcade complète. Les boutons d'arcade fonctionnent exactement comme ceux de la STeaMi, en plus gros et en plus colorés.
 - **[Bouton STOP des bus](https://fr.wikipedia.org/wiki/Bus_%C3%A0_arr%C3%AAt_sur_demande)** : un bouton-poussoir qui change la trajectoire d'un véhicule à quelques tonnes. Présent partout dans les transports en commun depuis les années 1950.
 - **[Manette NES (Nintendo)](https://fr.wikipedia.org/wiki/Manette_de_Nintendo_Entertainment_System)** : 8 boutons-poussoirs sur un PCB, et toute l'histoire du jeu vidéo des années 80. Une bonne occasion de regarder ce qu'il y a *à l'intérieur* d'un objet familier.
