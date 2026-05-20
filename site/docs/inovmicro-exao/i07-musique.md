@@ -139,6 +139,9 @@ def tone(pin, freq, duration_ms):
 
 # La mélodie sous forme d'une liste de (fréquence, durée en ms).
 # Chaque tuple est une note ; freq=0 produit un silence.
+# Ici : le thème principal de Tetris ("Korobeïniki", chanson traditionnelle
+# russe de 1861, popularisée par le jeu Nintendo en 1989), transposé
+# une octave en dessous pour mieux sonner sur le buzzer.
 partition = [
     (330, 500), (247, 250), (262, 250), (294, 500),
     (262, 250), (247, 250), (220, 500), (220, 250),
