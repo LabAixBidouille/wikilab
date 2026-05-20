@@ -57,10 +57,11 @@ L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi.
 
 À la fin de cette activité, l'élève sera capable de :
 
-- **Construire un objet utile et amusant** : un vrai minuteur de cuisine en assemblant un écran, un buzzer et des boutons dans un seul programme cohérent.
-- **Lire un écran graphique comme un vrai cadran** : transformer une donnée brute (des millisecondes) en information utile (un chrono `MM:SS` lisible, une barre qui se vide, une mélodie qui sonne).
-- **Mesurer le temps qui passe** sans figer le programme, pour que l'écran puisse se rafraîchir pendant le décompte.
-- **Détourner le squelette** pour inventer d'autres usages : Pomodoro pour les devoirs, chronomètre de sport, sablier numérique pour les enfants, minuteur de jeu de société...
+- **Construire un objet utile et amusant** qu'on n'a pas honte de poser sur la table de la cuisine : un vrai minuteur à œufs en état de marche.
+- **Faire dialoguer plusieurs composants intégrés** à la STeaMi (écran, buzzer, boutons) dans un seul programme cohérent, là où on les utilisait jusqu'ici un par un.
+- **Rendre une donnée brute lisible** : transformer un nombre de millisecondes en chrono `MM:SS`, en barre qui se vide, et en mélodie qui sonne. C'est exactement ce que font les apps du téléphone, le four à micro-ondes et le tableau de bord d'une voiture.
+- **Faire tourner un programme qui reste vivant** pendant qu'il attend : l'écran continue de se rafraîchir, les boutons restent à l'écoute. Plutôt qu'un programme endormi qui ne se réveille qu'à la fin.
+- **Détourner ce squelette** pour inventer d'autres usages (Pomodoro pour les devoirs, chronomètre de sport, sablier numérique pour les jeux de société...), et comprendre qu'on n'a pas écrit « un minuteur à œufs » mais « un patron de programme qui compte le temps », adaptable à l'infini.
 ---
 
 ## Étape 1 : Construire
