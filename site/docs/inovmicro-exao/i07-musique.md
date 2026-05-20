@@ -296,7 +296,7 @@ Représenter une mélodie comme une **liste de tuples** est un choix courant en 
 
 ### 1. Changer de mélodie
 
-Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici cinq gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
+Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici quatre gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
 
 #### Super Mario Bros, Ground Theme (Koji Kondo, 1985)
 
@@ -371,7 +371,8 @@ M:4/4
 L:1/8
 Q:1/4=120
 K:Bb
-B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 |]`}
+B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 | _e2 d2 _e2 f2 |
+B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 | B8 |]`}
 </ABCNotation>
 
 ```python
@@ -380,13 +381,26 @@ FA_4 = 349
 SOL_4 = 392
 LA_4 = 440
 SI_BEMOL_4 = 466
+RE_5 = 587
+MI_BEMOL_5 = 622
 FA_5 = 698
+BLANCHE = 1000
 
 partition = [
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, BLANCHE),
-    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),     (SI_BEMOL_4, CROCHE),
+    # Phrase principale : Sib martelé puis montée en croches
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, BLANCHE),
+    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),      (SI_BEMOL_4, CROCHE),
     (FA_5, BLANCHE),
+    # Pont : motif ondulant Mib-Ré-Mib-Fa
+    (MI_BEMOL_5, NOIRE), (RE_5, NOIRE),   (MI_BEMOL_5, NOIRE), (FA_5, NOIRE),
+    # Reprise de la phrase principale
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, BLANCHE),
+    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),      (SI_BEMOL_4, CROCHE),
+    (FA_5, BLANCHE),
+    # Conclusion sur Sib tenu
+    (SI_BEMOL_4, BLANCHE),
 ]
 ```
 
@@ -421,41 +435,6 @@ partition = [
     (DO_5, CROCHE), (FA_5, CROCHE), (LA_5, NOIRE),
     (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, CROCHE), (SOL_5, CROCHE),
     (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, NOIRE),
-]
-```
-
-#### DuckTales, Moon Theme (Hiroshige Tonomura, 1989)
-
-Souvent cité parmi les plus belles musiques de la NES. Voici les premières mesures du motif principal, celles qui s'enchaînent dès l'arrivée sur la Lune.
-
-<ABCNotation>
-{`X:1
-T:DuckTales - Moon Theme
-M:4/4
-L:1/8
-Q:1/4=130
-K:C
-a2 a g ^f2 e d | e2 ^f g a2 b c' | d'4 z4 |]`}
-</ABCNotation>
-
-```python
-# Nouvelles constantes :
-RE_5 = 587
-MI_5 = 659
-FA_5 = 698
-FA_DIESE_5 = 740
-SOL_5 = 784
-LA_5 = 880
-SI_5 = 988
-DO_6 = 1047
-RE_6 = 1175
-
-partition = [
-    (LA_5, NOIRE),  (LA_5, CROCHE),       (SOL_5, CROCHE),
-    (FA_DIESE_5, NOIRE), (MI_5, CROCHE),  (RE_5, CROCHE),
-    (MI_5, NOIRE),  (FA_DIESE_5, CROCHE), (SOL_5, CROCHE),
-    (LA_5, NOIRE),  (SI_5, CROCHE),       (DO_6, CROCHE),
-    (RE_6, BLANCHE),
 ]
 ```
 
