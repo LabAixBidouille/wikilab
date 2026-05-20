@@ -433,11 +433,13 @@ SOL_BEMOL_5 = 740
 LA_BEMOL_5 = 831
 SI_BEMOL_5 = 932
 
-DOUBLE_CROCHE = 125
-CROCHE_POINTEE = 375
-NOIRE_POINTEE = 750
-BLANCHE = 1000
-BLANCHE_POINTEE = 1500
+# Durées dérivées de CROCHE et NOIRE déjà définis plus haut :
+# on les exprime relativement, pour rester cohérents si on change le tempo.
+DOUBLE_CROCHE = CROCHE // 2  # 125 ms
+CROCHE_POINTEE = CROCHE + DOUBLE_CROCHE  # 375 ms
+NOIRE_POINTEE = NOIRE + CROCHE  # 750 ms
+BLANCHE = 2 * NOIRE  # 1000 ms
+BLANCHE_POINTEE = BLANCHE + NOIRE  # 1500 ms
 
 # Le motif suit le morceau original en Sib mineur. Les durées
 # 30/40/42 (rythmes nuancés du piano original) sont arrondies à la
