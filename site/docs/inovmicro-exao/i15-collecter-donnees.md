@@ -233,6 +233,10 @@ def attendre_avec_bouton(duree_ms):
         bouton = bouton_a.value()
         if bouton == 0 and bouton_precedent == 1:
             time.sleep_ms(300)   # anti-rebond
+            # Attendre le relâchement avant de rendre la main
+            # (évite un double toggle dans la boucle principale)
+            while bouton_a.value() == 0:
+                time.sleep_ms(20)
             return True
         bouton_precedent = bouton
         time.sleep_ms(20)
@@ -259,6 +263,10 @@ ecran.show()
 while bouton_a.value() == 1:
     time.sleep_ms(20)
 time.sleep_ms(300)   # anti-rebond
+# Attendre le relâchement avant d'entrer dans la boucle principale
+# (sinon la transition serait détectée à tort et basculerait en pause)
+while bouton_a.value() == 0:
+    time.sleep_ms(20)
 
 # --- Boucle principale ---
 enregistrement = True
@@ -506,7 +514,7 @@ Le projet [**SteamCity**](/projets/steamcity) du Wiki@LAB est entièrement dédi
 **Et au-delà de SteamCity** :
 
 - **[Sensor.community, le réseau citoyen mondial](https://sensor.community/fr/)** : des milliers de bénévoles ont installé chez eux des capteurs de qualité de l'air qui publient leurs mesures en open data. Ta STeaMi peut faire pareil pour ta rue, ton balcon, ton école.
-- **[ARSO Citizen Science Air Quality (EPA)](https://www.epa.gov/air-sensor-toolbox)** : programme de l'agence de l'environnement américaine pour aider les citoyens à mesurer leur propre air.
+- **[EPA Air Sensor Toolbox](https://www.epa.gov/air-sensor-toolbox)** : programme de l'agence de l'environnement américaine (EPA) pour aider les citoyens à mesurer eux-mêmes la qualité de l'air, avec choix de capteurs et bonnes pratiques d'interprétation.
 - **[Cartophonies, cartographie sonore française](https://cartophonies.fr/)** : ambiances sonores de villes entières grâce à des contributions citoyennes.
 - **[Greta Thunberg et la force des données](https://fr.wikipedia.org/wiki/Greta_Thunberg)** : son discours public s'appuie sur les courbes collectées par les climatologues depuis des décennies. Une conviction durable se construit toujours sur un capteur qui mesure et écrit.
 

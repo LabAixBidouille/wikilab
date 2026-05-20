@@ -3894,7 +3894,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i15-collecter-donnees',
     project: 'inovmicro-exao',
     summary:
-      'Programmer un datalogger en MicroPython : enregistrement de la température, pression (WSEN-PADS) et humidité (HTS221) dans un fichier CSV sur la mémoire de la STeaMi, export sur ordinateur et visualisation dans un tableur.',
+      "Programmer un datalogger en MicroPython : enregistrement de la température et de la pression (WSEN-PADS) ainsi que de l'humidité (HTS221) dans un fichier CSV sur la mémoire de la STeaMi, export sur ordinateur et visualisation dans un tableur.",
     disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
     software: ['python'],
