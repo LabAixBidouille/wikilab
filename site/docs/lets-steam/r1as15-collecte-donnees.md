@@ -42,6 +42,12 @@ sidebar_position: 15
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Collecter des données avec la STeaMi](/ressources/inovmicro-exao/i15-collecter-donnees).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Cette fiche d'activité explique comment collecter les données d'un capteur environnemental et les exporter vers un ordinateur afin d'effectuer une analyse simple à l'aide d'un tableur.
