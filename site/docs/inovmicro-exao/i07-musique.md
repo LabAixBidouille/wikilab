@@ -5,6 +5,8 @@ sidebar_label: 'Composer une mélodie'
 sidebar_position: 7
 ---
 
+import ABCNotation from '@site/src/components/ABCNotation';
+
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#8a6e18" opacity="0.1"/><path d="M9 17.5V7l10-2v10.5" stroke="#8a6e18" strokeWidth="1.5" fill="none" opacity="0.25"/><ellipse cx="6.5" cy="17.5" rx="2.5" ry="2" fill="#8a6e18"/><ellipse cx="16.5" cy="15.5" rx="2.5" ry="2" fill="#8a6e18"/><line x1="9" y1="10" x2="19" y2="8" stroke="#8a6e18" strokeWidth="1" opacity="0.25"/></svg> Composer une mélodie
@@ -175,20 +177,24 @@ while True:
         time.sleep_ms(30)   # petit silence entre deux notes
 ```
 
-:::tip[Lire la partition dans le code]
+### Lire la partition dans le code
 
-Les quatre premières lignes de la liste `partition` correspondent à la première phrase musicale de Korobeïniki, exactement comme on la lirait sur une vraie partition :
+La liste `partition` est exactement la transposition Python de la première moitié de Korobeïniki, mesure par mesure :
 
-| Code Python                                                    | Lecture musicale                            |
-| -------------------------------------------------------------- | ------------------------------------------- |
-| `(MI_4, LONGUE), (SI_3, BREVE), (DO_4, BREVE), (RE_4, LONGUE)` | MI (long), SI, DO, RÉ (long)                |
-| `(DO_4, BREVE), (SI_3, BREVE), (LA_3, LONGUE), (LA_3, BREVE)`  | DO, SI, LA (long), LA                       |
-| `(DO_4, BREVE), (MI_4, LONGUE), (RE_4, BREVE), (DO_4, BREVE)`  | DO, MI (long), RÉ, DO                       |
-| `(SI_3, LONGUE), (SI_3, BREVE), (DO_4, BREVE), (RE_4, LONGUE)` | SI (long), SI, DO, RÉ (long)                |
+<ABCNotation caption="Korobeïniki (thème principal de Tetris) — transposé d'une octave vers le grave pour mieux sonner sur le buzzer.">
+{`X:1
+T:Korobeïniki (thème principal de Tetris)
+C:Anonyme, Russie (1861)
+M:2/4
+L:1/8
+Q:1/4=120
+K:Am
+E2 B, C | D2 C B, | A,2 A, C | E2 D C |
+B,2 B, C | D2 E2 | C2 A,2 | A,2 D2 |
+F A A G | F E2 C- | C E2 D | C B,2 B, |]`}
+</ABCNotation>
 
-Le suffixe `_3` ou `_4` indique l'octave : `MI_4` est le mi grave, `MI_5` serait son octave au-dessus. Une partition Python se lit donc comme une partition papier, à un détail près : on travaille en hertz et en millisecondes plutôt qu'en noires et croches.
-
-:::
+Chaque mesure de la portée correspond à une ligne (ou un fragment) de la liste Python. Le suffixe `_3` ou `_4` dans les noms de notes indique l'**octave** : `MI_4` est le mi grave qu'on entend ici, `MI_5` serait l'octave au-dessus. Une partition Python se lit donc comme une partition papier, à un détail près : on travaille en hertz et en millisecondes plutôt qu'en noires et croches.
 
 ### Comment cela fonctionne ?
 
