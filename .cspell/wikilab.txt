@@ -519,6 +519,8 @@ abcjs
 accelerometre
 ecran
 intensite
+Würth
+Elektronik
 Octo
 oeil
 oeuf
