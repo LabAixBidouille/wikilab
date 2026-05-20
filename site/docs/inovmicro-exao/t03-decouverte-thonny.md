@@ -39,15 +39,17 @@ Programmer une carte microcontrôleur peut sembler intimidant : plusieurs logici
 
 Cette fiche met en place tout l'environnement de travail : installation de Thonny, installation de MicroPython sur la carte, configuration de la communication entre Thonny et la carte, et écriture d'un premier programme qui pilote la **LED RGB** de la STeaMi avec ses **boutons A et B**. À privilégier en salle informatique avec postes fixes ; pour des postes verrouillés ou en mobilité, préférer **Vittascience** (en ligne).
 
+Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (Mu, VS Code, Vittascience, mpremote…) permet de programmer la STeaMi de la même façon. Cette fiche s'appuie sur Thonny pour fixer les idées, mais la démarche reste valable sur d'autres outils.
+
 ---
 
 ## Objectifs d'apprentissage
 
-- Installer Thonny et le configurer pour communiquer avec une carte MicroPython
-- Comprendre le rôle du programme MicroPython et savoir l'installer sur la STeaMi
+- Comprendre le principe de la programmation embarquée : un programme écrit sur l'ordinateur est envoyé à la carte, qui l'exécute ensuite par elle-même
+- Distinguer le rôle de l'éditeur (Thonny), du langage (MicroPython) et de la carte (STeaMi)
+- Installer Thonny et MicroPython, puis les configurer pour qu'ils dialoguent avec la STeaMi
 - Écrire et exécuter un premier programme MicroPython qui interagit avec le matériel (LED, boutons)
-- Découvrir le REPL pour tester du code en direct sans créer de fichier
-- Identifier la différence entre exécution temporaire (Run) et programme persistant (`main.py`)
+- Découvrir le REPL pour tester du code en direct sans créer de fichier, et distinguer exécution temporaire (Run) et programme persistant (`main.py`)
 ---
 
 ## Étape 1 : Construire
@@ -117,9 +119,9 @@ Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câ
 Si Thonny démarre en anglais : **Tools → Options → onglet General → Language: Français**, puis redémarrer Thonny. La suite utilise les libellés français.
 
 1. Ouvrir Thonny.
-2. **Outils → Options… → onglet Interpréteur**.
+2. **Outils → Options… → onglet Interpréteur** (le terme employé par Thonny pour désigner l'appareil sur lequel le code va s'exécuter).
 3. Liste **Quel interpréteur ou appareil utiliser** : choisir **MicroPython (generic)**.
-4. **Port** : sélectionner celui de la STeaMi.
+4. **Port** (la prise par laquelle l'ordinateur dialogue avec la carte) : sélectionner celui de la STeaMi.
    - Linux : `/dev/ttyACM0`
    - macOS : `/dev/cu.usbmodemXXXX`
    - Windows : `COM3`, `COM4`…
@@ -227,6 +229,12 @@ while True:
 
     sleep_ms(20)
 ```
+
+### Fonctionnement du programme
+
+- **Préparation des composants.** Les premières lignes donnent un nom à chaque élément et précisent comment on l'utilise. `Pin('LED_RED', Pin.OUT)` déclare la LED rouge en **sortie** (la carte lui envoie une valeur pour l'allumer ou l'éteindre), tandis que `Pin('A_BUTTON', Pin.IN)` déclare le bouton A en **entrée** (la carte lit sa valeur). On répète l'opération pour les trois LED et les deux boutons.
+- **La fonction `set_rgb`.** Plutôt que de réécrire trois lignes à chaque fois, on regroupe l'allumage des trois LED dans une petite fonction : `set_rgb(1, 0, 0)` allume le rouge et éteint les deux autres.
+- **La boucle.** `while True` répète sans fin. À chaque tour, le programme lit l'état des deux boutons, allume la couleur correspondante, puis fait une courte pause `sleep_ms(20)`. La boucle tourne ainsi environ 50 fois par seconde : assez vite pour que la réponse paraisse instantanée, assez doucement pour ne pas surcharger la carte.
 
 ### Exécution
 
