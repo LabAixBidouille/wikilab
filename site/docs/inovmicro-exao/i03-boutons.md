@@ -146,20 +146,20 @@ btn_b = Pin('B_BUTTON', Pin.IN)
 tour_libre = True
 
 while True:
-    a_appuye = btn_a.value() == 0
-    b_appuye = btn_b.value() == 0
+    a_actif = btn_a.value() == 0
+    b_actif = btn_b.value() == 0
 
-    if not a_appuye and not b_appuye:
+    if not a_actif and not b_actif:
         # Les deux boutons sont relâchés : on éteint les LED et
         # on rouvre le tour suivant.
         led_r.off()
         led_b.off()
         tour_libre = True
-    elif tour_libre and a_appuye:
+    elif tour_libre and a_actif:
         # Premier appui du tour, sur A : LED rouge.
         led_r.on()
         tour_libre = False
-    elif tour_libre and b_appuye:
+    elif tour_libre and b_actif:
         # Premier appui du tour, sur B : LED bleue.
         led_b.on()
         tour_libre = False
@@ -175,7 +175,7 @@ while True:
 Le programme s'organise en quatre parties :
 
 - **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des **noms parlants** (`'LED_RED'`, `'A_BUTTON'`...). Pas besoin de mémoriser un numéro de broche.
-- **Lecture des boutons** : `btn_a.value()` renvoie `1` ou `0`. À cause de la logique inverse, on compare à `0` pour savoir si le bouton est appuyé. On stocke le résultat dans `a_appuye` (booléen) pour rendre la suite plus lisible.
+- **Lecture des boutons** : `btn_a.value()` renvoie `1` ou `0`. À cause de la logique inverse, on compare à `0` pour savoir si le bouton est appuyé. On stocke le résultat dans `a_actif` (booléen) pour rendre la suite plus lisible.
 - **Détection de transition** : la variable `tour_libre` joue le rôle de **drapeau**. Elle prend la valeur `False` dès qu'on allume une LED, ce qui empêche l'autre bouton de prendre la main. Elle ne reprend la valeur `True` que quand **les deux boutons sont relâchés** : c'est ce qui marque la fin du tour.
 - **Boucle principale** : à chaque tour de boucle, on lit les deux boutons et on choisit la branche `if/elif/elif` appropriée. Les LED restent allumées tant qu'un bouton est appuyé. Le `sleep_ms(20)` final laisse souffler le processeur (sans pause, la boucle tournerait à 100 % CPU) et atténue les rebonds mécaniques du contact (le bouton se ferme plusieurs fois en quelques millisecondes au moment de l'appui).
 
