@@ -444,10 +444,14 @@ C'est la même méthode que celle qu'utilisent les horlogers et les ingénieurs 
 
 ### Pour s'inspirer
 
-- **[Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)** : la règle du 3, 6, 9 expliquée par des cuisiniers, avec les nuances (eau bouillante vs froide, taille de l'œuf).
-- **[Pomodoro Technique (Wikipédia)](https://fr.wikipedia.org/wiki/Technique_Pomodoro)** : la méthode de gestion du temps qui découpe le travail en sessions de 25 minutes séparées par 5 minutes de pause. Le minuteur ci-dessus s'adapte facilement à cet usage en remplaçant les durées 3/6/9 par 25/5/15.
-- **[Time Timer](https://www.timetimer.com/)** : un minuteur visuel utilisé en école maternelle et avec les enfants autistes. La barre de progression rouge qui se vide en temps réel rend le temps « visible » pour qui ne sait pas encore lire l'horloge.
-- **[Wiki STeaMi : Écran OLED](https://wiki.steami.cc/docs/hardware/main-components/display)** : description matérielle de l'écran et de la bibliothèque `steami_screen`.
+- **[Top Chef, l'épreuve de la guerre des restos](https://fr.wikipedia.org/wiki/Top_Chef_(France))** : dans certaines émissions de cuisine, les candidats ont par exemple 30 minutes pour préparer un plat complet, sous l'œil d'un minuteur géant. La tension est palpable, la cuisine devient un sport. Ton minuteur fait pareil, en plus discret.
+- **[Le compte à rebours des fusées SpaceX et Apollo](https://fr.wikipedia.org/wiki/Compte_%C3%A0_rebours)** : « T moins 10... 9... 8... ». Quand des humains montent dans une fusée, chaque seconde du décompte est utile : test des moteurs, ouverture des vannes, vérification finale. Le minuteur est devenu le **rythme officiel** des grands lancements.
+- **[Mission Impossible et le détonateur qui clignote](https://fr.wikipedia.org/wiki/Mission_impossible_(film,_1996))** : au cinéma, le minuteur sur la bombe est devenu un personnage à part entière. Combien de fois Tom Cruise a-t-il coupé le bon fil à 0:00:01 ? Le minuteur, c'est aussi un outil de **mise en scène**.
+- **[Speedrun de Super Mario 64](https://www.youtube.com/results?search_query=super+mario+64+speedrun+16+stars)** : il y a des joueurs qui terminent Mario 64 en moins de 15 minutes. Le chronomètre tourne en permanence en haut de l'écran, et une communauté entière compare les records à la milliseconde près. Ton minuteur peut servir d'arbitre pour tes propres records.
+- **[Time's Up et le sablier qu'on retourne](https://fr.wikipedia.org/wiki/Time%27s_Up_!)** : dans ce jeu de société, un sablier de 30 secondes rythme chaque manche. Avec ta STeaMi, tu peux remplacer le sablier en plastique qu'on perd toujours, et même afficher des cris « VITE ! » à l'écran quand il ne reste que 5 secondes.
+- **[Pomodoro Technique (Wikipédia)](https://fr.wikipedia.org/wiki/Technique_Pomodoro)** : la méthode des 25 minutes de travail / 5 minutes de pause, inventée par un étudiant italien équipé d'un... minuteur de cuisine en forme de tomate (_pomodoro_ en italien). Cf. l'amélioration n°1.
+- **[Time Timer, le minuteur pour les petits et les personnes autistes](https://www.timetimer.com/)** : un disque rouge qui se vide en temps réel, sans chiffres. Pour qui ne sait pas encore lire l'heure, ça change la vie. C'est exactement ce que fait notre barre de progression.
+- **[Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)** : la règle du 3, 6, 9 expliquée par des cuisiniers, avec toutes les nuances (eau bouillante vs froide, taille de l'œuf, altitude). Le sérieux des chefs pour cuire un œuf est inspirant.
 
 ---
 
