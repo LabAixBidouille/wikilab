@@ -61,18 +61,13 @@ export type Project =
   | 'inovmicro-exao'
   | 'projets-du-lab';
 
-export type Category =
-  | 'programmation'
-  | 'exploration-scientifique'
-  | 'theatre-sciences'
-  | 'sequences-debranchees'
-  | 'robotique-ludique'
-  | 'citoyennete-territoire'
-  | 'ia-esprit-critique'
-  | 'makers-fabrication'
-  | 'arts-creativite'
-  | 'environnement-nature'
-  | 'animation-jeunesse';
+// Category + categoryLabels vivent dans ./categories.ts pour que les
+// modules qui n'ont besoin que des libellés (DocBreadcrumbs) ne tirent
+// pas tout le tableau `resources` dans leur bundle. On les importe
+// pour l'usage local + on les réexporte pour ne pas casser les
+// imports existants depuis ce module.
+import { type Category, categoryLabels } from './categories';
+export { type Category, categoryLabels };
 
 export interface Resource {
   id: string;
@@ -4478,20 +4473,6 @@ export const projectLabels: Record<Project, string> = {
   magnetics: 'Magnetics',
   'inovmicro-exao': 'I-Novmicro #2',
   'projets-du-lab': 'Projets du LAB',
-};
-
-export const categoryLabels: Record<Category, string> = {
-  programmation: '🔌 Programmation',
-  'exploration-scientifique': '🔬 Exploration scientifique',
-  'theatre-sciences': '🎭 Théâtre et sciences',
-  'sequences-debranchees': '📝 Séquences débranchées',
-  'robotique-ludique': '🤖 Robotique ludique',
-  'citoyennete-territoire': '🏙️ Citoyenneté et territoire',
-  'ia-esprit-critique': '🧠 IA et esprit critique',
-  'makers-fabrication': '🛠️ Makers et fabrication',
-  'arts-creativite': '🎨 Arts et créativité',
-  'environnement-nature': '🌱 Environnement et nature',
-  'animation-jeunesse': "🎯 Actions d'animation jeunesse",
 };
 
 export const disciplineLabels: Record<Discipline, string> = {
