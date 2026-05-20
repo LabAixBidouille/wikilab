@@ -360,52 +360,6 @@ partition = [
 ]
 ```
 
-#### The Legend of Zelda, thème principal (Koji Kondo, 1986)
-
-L'appel à l'aventure du tout premier Zelda sur NES, transcrit ici dans sa phrase la plus reconnaissable : Sib martelé, saut grave vers Fa, retour Sib, montée chromatique **Sib-Do-Ré-Mib** qui culmine sur le Fa aigu, et coda ascendante vers le Sib aigu via Fa#-Sol#. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`, `MI_BEMOL_5` est un demi-ton sous `MI_5`).
-
-<ABCNotation>
-{`X:1
-T:The Legend of Zelda - Main Theme
-M:4/4
-L:1/16
-Q:1/4=130
-K:Bb
-B4 F6 B2 B c d e | f8 B8 | ^f2 ^g2 b12 |]`}
-</ABCNotation>
-
-```python
-# Nouvelles constantes :
-FA_4 = 349
-SI_BEMOL_4 = 466
-DO_5 = 523
-RE_5 = 587
-MI_BEMOL_5 = 622
-FA_5 = 698
-FA_DIESE_5 = 740
-SOL_DIESE_5 = 831
-SI_BEMOL_5 = 932
-
-DOUBLE_CROCHE = 125
-BLANCHE = 1000
-BLANCHE_POINTEE = 1500
-
-# Mesure 1 — motif iconique : Sib4 noire, saut grave vers Fa4 (noire
-# pointée), retour Sib4 (croche), montée chromatique Sib-Do-Ré-Mib en
-# doubles-croches. Mesure 2 — culmination Fa5 tenu (blanche) puis
-# palier descendant Sib4 tenu (blanche). Mesure 3 — coda : passage
-# chromatique Fa#5-Sol#5 (croches), culmination sur le Sib5 aigu
-# (blanche pointée).
-partition = [
-    (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
-    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
-    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE),             (SI_BEMOL_4, BLANCHE),
-    (FA_DIESE_5, CROCHE),        (SOL_DIESE_5, CROCHE),
-    (SI_BEMOL_5, BLANCHE_POINTEE),
-]
-```
-
 #### Kirby's Dream Land, Green Greens (Jun Ishikawa, 1992)
 
 Le thème principal du tout premier Kirby sur Game Boy : sautillant, joyeux, immédiatement reconnaissable. Sons rapides en croches.
@@ -437,6 +391,80 @@ partition = [
     (DO_5, CROCHE), (FA_5, CROCHE), (LA_5, NOIRE),
     (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, CROCHE), (SOL_5, CROCHE),
     (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, NOIRE),
+]
+```
+
+#### The Legend of Zelda, thème principal (Koji Kondo, 1986)
+
+L'écran-titre du tout premier Zelda sur NES, transcrit en 12 mesures suivant le morceau original (en Sib mineur). C'est le morceau le plus dense des quatre. On y trouve quatre temps : une **intro tenue** (Sib + Fa + Sib, puis Lab-Solb-Lab), le **motif iconique** (Sib martelé, saut grave vers Fa, montée chromatique Sib-Do-Ré-Mib culminant sur Fa5 aigu), une **culmination** sur Sib5 et un **développement descendant** Fa-Mib-Réb-Do qui résout sur Mi naturel-Sol-Fa.
+
+C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. Le Sib mineur en contient cinq (Sib, Mib, Lab, Solb, Réb), d'où la quantité de constantes ci-dessous.
+
+<ABCNotation>
+{`X:1
+T:The Legend of Zelda - Main Theme
+M:4/4
+L:1/48
+Q:1/4=130
+K:Bbm
+B30 F12 B6 | A3 G3 A42 | B30 G12 B6 | =A3 =G3 A42 |
+B12 F18 B9 c3 =d3 e3 | f6 B9 c3 =d3 e3 f24 |
+f40 g4 a4 | b40 a4 g4 |
+a9 g3 f36 | e9 f3 g24 f6 e6 |
+d9 e3 f24 e6 d6 | c9 =d3 =e24 =g6 f6 |]`}
+</ABCNotation>
+
+```python
+# Nouvelles constantes :
+FA_4 = 349
+SOL_4 = 392
+SOL_BEMOL_4 = 370
+LA_4 = 440
+LA_BEMOL_4 = 415
+SI_BEMOL_4 = 466
+DO_5 = 523
+RE_5 = 587
+RE_BEMOL_5 = 554
+MI_5 = 659
+MI_BEMOL_5 = 622
+FA_5 = 698
+SOL_5 = 784
+SOL_BEMOL_5 = 740
+LA_BEMOL_5 = 831
+SI_BEMOL_5 = 932
+
+DOUBLE_CROCHE = 125
+CROCHE_POINTEE = 375
+NOIRE_POINTEE = 750
+BLANCHE = 1000
+BLANCHE_POINTEE = 1500
+
+# Le motif suit le morceau original en Sib mineur. Les durées
+# 30/40/42 (rythmes nuancés du piano original) sont arrondies à la
+# blanche pointée pour rester jouable au buzzer.
+partition = [
+    # Mesures 1-4 — intro tenue
+    (SI_BEMOL_4, BLANCHE_POINTEE), (FA_4, NOIRE),                (SI_BEMOL_4, CROCHE),
+    (LA_BEMOL_4, DOUBLE_CROCHE),   (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_BEMOL_4, BLANCHE_POINTEE),
+    (SI_BEMOL_4, BLANCHE_POINTEE), (SOL_BEMOL_4, NOIRE),         (SI_BEMOL_4, CROCHE),
+    (LA_4, DOUBLE_CROCHE),         (SOL_4, DOUBLE_CROCHE),       (LA_BEMOL_4, BLANCHE_POINTEE),
+    # Mesures 5-6 — motif iconique : Sib martelé, saut Fa, montée chromatique vers Fa5 aigu
+    (SI_BEMOL_4, NOIRE),           (FA_4, NOIRE_POINTEE),        (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),         (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE),                (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),         (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE),
+    # Mesures 7-8 — montée vers la culmination Sib5
+    (FA_5, BLANCHE_POINTEE),       (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
+    (SI_BEMOL_5, BLANCHE_POINTEE), (LA_BEMOL_5, DOUBLE_CROCHE),  (SOL_BEMOL_5, DOUBLE_CROCHE),
+    # Mesures 9-12 — développement descendant qui résout sur Fa5
+    (LA_BEMOL_5, CROCHE_POINTEE),  (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
+    (MI_BEMOL_5, CROCHE_POINTEE),  (FA_5, DOUBLE_CROCHE),        (SOL_BEMOL_5, BLANCHE),
+    (FA_5, CROCHE),                (MI_BEMOL_5, CROCHE),
+    (RE_BEMOL_5, CROCHE_POINTEE),  (MI_BEMOL_5, DOUBLE_CROCHE),  (FA_5, BLANCHE),
+    (MI_BEMOL_5, CROCHE),          (RE_BEMOL_5, CROCHE),
+    (DO_5, CROCHE_POINTEE),        (RE_5, DOUBLE_CROCHE),        (MI_5, BLANCHE),
+    (SOL_5, CROCHE),               (FA_5, CROCHE),
 ]
 ```
 
