@@ -44,6 +44,12 @@ sidebar_position: 11
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Dans cette activité, nous allons apprendre à quel point il est facile de lire le capteur de température de la carte et d'afficher sa valeur.

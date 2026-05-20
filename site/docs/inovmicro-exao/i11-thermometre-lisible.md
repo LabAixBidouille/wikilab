@@ -2,40 +2,43 @@
 id: i11-thermometre-lisible
 title: Thermomètre très lisible
 sidebar_label: "Thermomètre très lisible"
-sidebar_position: 18
+sidebar_position: 11
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="1" width="6" height="16" rx="3" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="18" r="4" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="18" r="2" fill="#140e4e"/><rect x="11" y="4" width="2" height="11" rx="1" fill="#140e4e"/><line x1="15" y1="6" x2="17" y2="6" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="9" x2="17" y2="9" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="12" x2="17" y2="12" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Thermomètre très lisible
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="1" width="6" height="16" rx="3" fill="#8a6e18" fillOpacity="0.1"/><circle cx="12" cy="18" r="4" fill="#8a6e18" fillOpacity="0.25"/><circle cx="12" cy="18" r="2" fill="#8a6e18"/><rect x="11" y="4" width="2" height="11" rx="1" fill="#8a6e18"/><line x1="15" y1="6" x2="17" y2="6" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="9" x2="17" y2="9" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="12" x2="17" y2="12" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/></svg> Thermomètre très lisible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
   <span className="badge badge--primary">Sciences</span>
-  <span className="badge badge--info">STeaMi</span>
+  <span className="badge badge--info">SteaMi</span>
   <span className="badge badge--warning">MicroPython</span>
 </div>
-| Projet        | Durée  | Difficulté      | Âge       | Logiciel STeaMi testé |
-| ------------- | ------ | --------------- | --------- | --------------------- |
-| I-Novmicro #2 | 20 min | Intermédiaire   | 11-99 ans | 0.23.1                |
+
+| Projet        | Durée  | Difficulté    | Âge       | Logiciel STeaMi testé |
+| ------------- | ------ | ------------- | --------- | --------------------- |
+| I-Novmicro #2 | 20 min | Intermédiaire | 11-99 ans | 0.23.1                |
 
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2)
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE prenant en charge MicroPython
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i11-thermometre-lisible/icone.png" alt="Thermomètre très lisible sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
+
 ---
 
 ## De quoi parle-t-on ?
 
-La température est une grandeur physique qui exprime le chaud et le froid — c'est la manifestation de l'énergie thermique présente dans toute matière. Un [capteur de température](https://fr.wikipedia.org/wiki/Capteur_de_temp%C3%A9rature) est un dispositif électronique qui mesure cette grandeur et la convertit en données numériques.
+La température est une grandeur physique qui exprime le chaud et le froid : c'est la manifestation de l'énergie thermique présente dans toute matière. Un [capteur de température](https://fr.wikipedia.org/wiki/Capteur_de_temp%C3%A9rature) est un dispositif électronique qui mesure cette grandeur et la convertit en données numériques.
 
-La STeaMi intègre un capteur de pression et de température **WSEN-PADS** de Würth Elektronik. Dans cette activité, on va lire la température (et la pression en bonus) et les afficher de façon claire sur l'écran OLED — avec la valeur en grand, une jauge en arc de cercle, et un indicateur de confort thermique. Pas besoin d'écran LCD externe ni de câblage.
+La STeaMi intègre un capteur de pression et de température **WSEN-PADS** de Würth Elektronik. Dans cette activité, on va lire la température (et la pression en bonus) et les afficher de façon claire sur l'écran OLED : la valeur en grand, une jauge en arc de cercle, et un indicateur de confort thermique. Pas besoin d'écran LCD externe ni de câblage.
 
 ---
 
@@ -49,7 +52,7 @@ La STeaMi intègre un capteur de pression et de température **WSEN-PADS** de W�
 
 ## Étape 1 : Construire
 
-"Construire" se résume ici à comprendre comment accéder aux composants de la carte — tout est déjà soudé.
+« Construire » se résume ici à comprendre comment accéder aux composants de la carte : tout est déjà soudé.
 
 ### Le capteur WSEN-PADS
 
@@ -75,9 +78,9 @@ Le WSEN-PADS mesure la température au niveau de sa puce, proche des autres comp
 
 Pour rendre l'affichage expressif, on va combiner trois widgets de `steami_screen` :
 
-- `screen.gauge(val, min_val, max_val)` — un arc de cercle qui se remplit selon la valeur
-- `screen.value(val, unit="°C", label="...")` — la valeur numérique en grand au centre
-- `screen.subtitle("...")` — un texte de commentaire en bas
+- `screen.gauge(val, min_val, max_val)` : un arc de cercle qui se remplit selon la valeur
+- `screen.value(val, unit="°C", label="...")` : la valeur numérique en grand au centre
+- `screen.subtitle("...")` : un texte de commentaire en bas
 L'initialisation de l'écran est toujours la même séquence :
 
 ```python
@@ -96,9 +99,9 @@ screen  = Screen(display)
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si un des IDE proposés est déjà configuré, vous devriez voir le shell MicroPython (`>>>`).
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
-### Tester le capteur dans le REPL
+### Tester le capteur dans l'invite
 
 ```python
 >>> from machine import I2C
@@ -200,17 +203,19 @@ finally:
 Le programme s'articule autour de deux fonctions :
 
 - **`confort(temp)`** : une suite de conditions `if / elif / else` qui associe une plage de température à un commentaire lisible. C'est un exemple classique de **table de correspondance** codée avec des conditions imbriquées.
-- **`afficher_temperature(temp)`** : appelle trois widgets `steami_screen` dans l'ordre. `screen.gauge()` doit être appelé **avant** `screen.value()` car la jauge dessine un arc près du bord de l'écran — le texte se superpose par-dessus proprement.
+- **`afficher_temperature(temp)`** : appelle trois widgets `steami_screen` dans l'ordre. `screen.gauge()` doit être appelé **avant** `screen.value()` car la jauge dessine un arc près du bord de l'écran, le texte se superpose par-dessus proprement.
+
 Le bloc `try / finally` coupe l'écran et met le capteur en veille proprement à `Ctrl+C` grâce à `pads.power_off()`.
 
 :::info[Ordre des widgets]
-Dans `steami_screen`, `gauge()` remplit l'arc en arrière-plan. Si on l'appelle après `value()`, l'arc se dessinerait par-dessus la valeur. L'ordre `gauge → value → subtitle → show` garantit que le texte est toujours au premier plan.
+Dans `steami_screen`, `gauge()` remplit l'arc en arrière-plan. Si on l'appelle après `value()`, l'arc se dessinerait par-dessus la valeur. L'ordre `gauge`, puis `value`, puis `subtitle`, puis `show` garantit que le texte est toujours au premier plan.
 :::
 
 ### Exécution
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). L'écran affiche la température en temps réel ; souffler sur la carte pour voir la valeur monter.
 - **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
 ---
 
 ## Étape 3 : Améliorer
@@ -274,9 +279,20 @@ while True:
 
 ## Aller plus loin
 
-- [Capteur de température (Wikipédia)](https://fr.wikipedia.org/wiki/Capteur_de_temp%C3%A9rature) : principes physiques et types de capteurs.
-- [Wiki STeaMi : Capteurs intégrés](https://wiki.steami.cc/docs/hardware/main-components/sensors) : description de l'ISM330DL et des autres capteurs de la carte.
+### Pour comprendre
+
+- **[Capteur de température (Wikipédia)](https://fr.wikipedia.org/wiki/Capteur_de_temp%C3%A9rature)** : la grande famille des capteurs thermiques (thermistance, thermocouple, capteur infrarouge, MEMS) et leurs principes physiques très différents. Le WSEN-PADS appartient à la famille des capteurs MEMS, comme l'accéléromètre de la fiche [i09](/ressources/inovmicro-exao/i09-inclinaison-accelerometre).
+- **[Pression atmosphérique (Wikipédia)](https://fr.wikipedia.org/wiki/Pression_atmosph%C3%A9rique)** : pourquoi la pression varie entre 980 et 1040 hPa, comment elle annonce le beau temps ou la pluie, et pourquoi un baromètre est un outil météorologique fondamental.
+- **[Auto-échauffement d'un circuit (Wikipédia)](https://fr.wikipedia.org/wiki/Auto-%C3%A9chauffement)** : pourquoi un capteur posé sur une carte électronique mesure une température légèrement supérieure à la température ambiante. La calibration de l'Étape 3 corrige précisément cet effet.
+
+### Pour s'inspirer
+
+- **[Wiki STeaMi : Capteurs intégrés](https://wiki.steami.cc/docs/hardware/main-components/sensors)** : description complète du WSEN-PADS et des autres capteurs de la carte, avec datasheet officielle.
+- **[Station météo connectée](https://learn.adafruit.com/wifi-weather-station-with-tft-display)** : un projet Adafruit qui combine température, pression, humidité et un affichage graphique. Le grand frère ambitieux de notre fiche, prêt à poser sur un rebord de fenêtre.
+- **[Thermomètre d'aquarium / vivarium](https://www.instructables.com/Aquarium-Temperature-Monitor-Using-DS18B20/)** : application pratique où la température doit être surveillée en continu et déclencher une alerte si elle sort d'une plage. Notre code de confort se transforme facilement en alarme.
+- **[Sonde de température de cuisson](https://www.instructables.com/Smart-BBQ-Wireless-Temperature-Monitoring/)** : la même physique appliquée à la cuisine, avec une plage 0-300 °C et un buzzer qui sonne quand le steak est à point.
+
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée de la fiche Let's STEAM [`r1as11-thermometre`](/ressources/lets-steam/r1as11-thermometre) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as11-thermometre`](/ressources/lets-steam/r1as11-thermometre)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 
