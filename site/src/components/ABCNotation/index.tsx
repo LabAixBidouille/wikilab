@@ -189,32 +189,37 @@ function ABCNotationClient({
     }
     if (!midiPitches || midiPitches.length === 0) return;
 
-    try {
-      const visualObj = visualObjRef.current;
-      const ms =
-        typeof visualObj?.millisecondsPerMeasure === 'function'
-          ? visualObj.millisecondsPerMeasure()
-          : 1000;
-      await abcjs.synth.playEvent(midiPitches, [], ms);
+    const visualObj = visualObjRef.current;
+    const ms =
+      typeof visualObj?.millisecondsPerMeasure === 'function'
+        ? visualObj.millisecondsPerMeasure()
+        : 1000;
 
-      // abcjs ajoute la classe `abcjs-note_selected` (rouge) sur la note
-      // cliquée et la laisse en place jusqu'à un autre clic. On la retire
-      // à la fin de la note pour revenir au noir et signaler que le son
-      // est terminé. Durée = somme des `duration` (en "whole notes")
-      // multipliée par `millisecondsPerMeasure`.
-      const totalWholeNotes = midiPitches.reduce(
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (max: number, p: any) => Math.max(max, (p.start ?? 0) + (p.duration ?? 0.5)),
-        0,
-      );
-      const noteDurationMs = Math.max(150, ms * totalWholeNotes + 100);
-      window.setTimeout(() => {
-        const root = containerRef.current;
-        if (!root) return;
-        root.querySelectorAll('.abcjs-note_selected').forEach((el) => {
-          el.classList.remove('abcjs-note_selected');
+    // abcjs ajoute la classe `abcjs-note_selected` (rouge) sur la note
+    // cliquée et la laisse en place jusqu'à un autre clic. On la retire
+    // à la fin du son pour revenir au noir et signaler que le son est
+    // terminé. On programme le timer EN PARALLÈLE de `playEvent` (pas
+    // après son `await`) car selon les versions d'abcjs, la Promise
+    // peut ne jamais se résoudre — programmation indépendante plus sûre.
+    const totalWholeNotes = midiPitches.reduce(
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (max: number, p: any) => Math.max(max, (p.start ?? 0) + (p.duration ?? 0.5)),
+      0,
+    );
+    const noteDurationMs = Math.max(150, ms * totalWholeNotes + 100);
+    window.setTimeout(() => {
+      // Cible scopée au container, avec fallback global au cas où abcjs
+      // poserait la classe sur un ancêtre hors du containerRef.
+      const root = containerRef.current ?? document;
+      root.querySelectorAll('.abcjs-note_selected, [class*="note_selected"]').forEach((el) => {
+        el.classList.forEach((cls) => {
+          if (cls.includes('note_selected')) el.classList.remove(cls);
         });
-      }, noteDurationMs);
+      });
+    }, noteDurationMs);
+
+    try {
+      await abcjs.synth.playEvent(midiPitches, [], ms);
     } catch (e) {
       // eslint-disable-next-line no-console
       console.error('ABCNotation note click play failed:', e);
