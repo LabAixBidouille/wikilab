@@ -520,6 +520,7 @@ abcjs
 accelerometre
 ecran
 intensite
+armee
 Würth
 Elektronik
 Octo
