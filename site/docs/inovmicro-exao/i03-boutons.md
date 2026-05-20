@@ -41,8 +41,6 @@ La STeaMi intègre trois boutons-poussoirs simples directement utilisables sans 
 
 Dans cette fiche, on apprend à lire leur état en MicroPython et à déclencher des actions selon qu'ils sont appuyés ou relâchés. C'est la brique de base pour construire de l'interaction utilisateur sur des objets électroniques : sonnette, jeux, télécommandes... Concrètement, nous allons construire un **mini-jeu de réflexes pour deux joueurs** : chacun choisit un bouton (A ou B), un arbitre donne le signal de départ, et le premier qui appuie sur son bouton allume sa LED.
 
-Cette fiche reprend l'activité Let's STEAM [Utiliser des boutons-poussoirs](/ressources/lets-steam/r1as03-boutons), adaptée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython. Dans la fiche source, l'élève câble deux boutons et deux LED sur une breadboard ; ici on tire parti des composants déjà intégrés sur la carte STeaMi.
-
 ---
 
 ## Objectifs d'apprentissage
@@ -116,7 +114,7 @@ Une fois le programme lancé :
 
 - Appuyer sur **A** : la LED rouge s'allume.
 - Appuyer sur **B** : la LED bleue s'allume.
-- Chaque joueur choisi son bouton et l'objectif est de savoir qui sera le plus rapide.
+- Chaque joueur choisit son bouton et l'objectif est de savoir qui sera le plus rapide.
 - Le premier joueur qui fait éclairer sa LED a gagné le tour. C'est l'arbitre qui donnera le signal au joueur pour réagir.
 - Tant qu'un bouton reste enfoncé, l'autre n'a plus aucun effet.
 - Relâcher les deux boutons : les LED s'éteignent, le tour suivant peut commencer.
@@ -132,6 +130,7 @@ Une fois le programme lancé :
 ```python
 # Testée avec firmware STeaMi 0.23.1
 from machine import Pin
+from time import sleep_ms
 
 # LED RGB de la STeaMi (sortie push-pull)
 led_r = Pin('LED_RED', Pin.OUT)
@@ -164,6 +163,11 @@ while True:
         # Premier appui du tour, sur B : LED bleue.
         led_b.on()
         tour_libre = False
+
+    # Petite pause pour ne pas saturer le processeur et atténuer
+    # les rebonds mécaniques du bouton (cf. la fiche concept
+    # "Anti-rebond" en Aller plus loin).
+    sleep_ms(20)
 ```
 
 ### Comment cela fonctionne ?
@@ -173,7 +177,7 @@ Le programme s'organise en quatre parties :
 - **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des **noms parlants** (`'LED_RED'`, `'A_BUTTON'`...). Pas besoin de mémoriser un numéro de broche.
 - **Lecture des boutons** : `btn_a.value()` renvoie `1` ou `0`. À cause de la logique inverse, on compare à `0` pour savoir si le bouton est appuyé. On stocke le résultat dans `a_appuye` (booléen) pour rendre la suite plus lisible.
 - **Détection de transition** : la variable `tour_libre` joue le rôle de **drapeau**. Elle prend la valeur `False` dès qu'on allume une LED, ce qui empêche l'autre bouton de prendre la main. Elle ne reprend la valeur `True` que quand **les deux boutons sont relâchés** : c'est ce qui marque la fin du tour.
-- **Boucle principale** : à chaque tour de boucle, on lit les deux boutons et on choisit la branche `if/elif/elif` appropriée. Les LED restent allumées tant qu'un bouton est appuyé.
+- **Boucle principale** : à chaque tour de boucle, on lit les deux boutons et on choisit la branche `if/elif/elif` appropriée. Les LED restent allumées tant qu'un bouton est appuyé. Le `sleep_ms(20)` final laisse souffler le processeur (sans pause, la boucle tournerait à 100 % CPU) et atténue les rebonds mécaniques du contact (le bouton se ferme plusieurs fois en quelques millisecondes au moment de l'appui).
 
 :::info[Machine à états]
 
