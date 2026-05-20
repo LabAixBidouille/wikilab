@@ -32,3 +32,23 @@
 [data-theme='dark'] .score svg {
   filter: invert(0.92) hue-rotate(180deg);
 }
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}
+
+.inline svg {
+  max-width: 140px;
+  height: auto;
+  display: block;
+}
+
+[data-theme='dark'] .inline svg {
+  filter: invert(0.92) hue-rotate(180deg);
+}
+
+.inlineFallback {
+  color: var(--ifm-color-emphasis-500);
+}

@@ -84,19 +84,21 @@ Sur la STeaMi, ce n'est pas un circuit dédié qui génère le signal : c'est **
 
 ### 2. Notes et fréquences
 
-Chaque note de musique correspond à une fréquence précise (en hertz, Hz). Voici les sept notes principales sur deux octaves :
+Chaque note de musique correspond à une fréquence précise (en hertz, Hz). Sur une partition, la **hauteur** d'une note (son nom) se lit à sa position verticale sur les cinq lignes de la **portée** : plus la note est haute sur la portée, plus sa fréquence est élevée et plus le son est aigu. Le symbole en tête de portée — la **clef de sol** — fixe le repère : sur la deuxième ligne en partant du bas, on lit toujours un Sol.
 
-| Note    | Octave grave (Hz) | Octave aiguë (Hz) |
-| ------- | ----------------- | ----------------- |
-| Do (C)  | 262               | 523               |
-| Ré (D)  | 294               | 587               |
-| Mi (E)  | 330               | 659               |
-| Fa (F)  | 349               | 698               |
-| Sol (G) | 392               | 784               |
-| La (A)  | 440               | 880               |
-| Si (B)  | 494               | 988               |
+Voici les sept notes principales, leur position sur la portée (à gauche : la note grave ; à droite : la même note à l'octave au-dessus) et leur fréquence en hertz :
 
-Bon à savoir : doubler la fréquence d'une note donne la même note à l'octave au-dessus. C'est la base de toute la musique tonale.
+| Note    | Sur la portée                                                          | Octave grave (Hz) | Octave aiguë (Hz) |
+| ------- | ---------------------------------------------------------------------- | ----------------- | ----------------- |
+| Do (C)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nC c"}</ABCNotation>     | 262               | 523               |
+| Ré (D)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nD d"}</ABCNotation>     | 294               | 587               |
+| Mi (E)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nE e"}</ABCNotation>     | 330               | 659               |
+| Fa (F)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nF f"}</ABCNotation>     | 349               | 698               |
+| Sol (G) | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nG g"}</ABCNotation>     | 392               | 784               |
+| La (A)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nA a"}</ABCNotation>     | 440               | 880               |
+| Si (B)  | <ABCNotation inline>{"X:1\nM:none\nL:1/4\nK:C\nB b"}</ABCNotation>     | 494               | 988               |
+
+Bon à savoir : doubler la fréquence d'une note donne la même note à l'octave au-dessus (c'est pour cela que les deux Do de la première ligne s'écrivent à des hauteurs différentes mais portent le même nom). C'est la base de toute la musique tonale.
 
 ### 3. Connecter la carte à l'ordinateur
 

@@ -7,15 +7,19 @@ type ABCNotationProps = {
   caption?: ReactNode;
   responsive?: boolean;
   staffwidth?: number;
+  inline?: boolean;
 };
 
 function ABCNotationClient({
   children,
   caption,
-  responsive = true,
-  staffwidth = 740,
+  responsive,
+  staffwidth,
+  inline = false,
 }: ABCNotationProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const effectiveResponsive = responsive ?? !inline;
+  const effectiveStaffWidth = staffwidth ?? (inline ? 140 : 740);
 
   useEffect(() => {
     let cancelled = false;
@@ -23,18 +27,29 @@ function ABCNotationClient({
       if (cancelled || !containerRef.current) return;
       const abcjs = mod.default ?? mod;
       abcjs.renderAbc(containerRef.current, children, {
-        responsive: responsive ? 'resize' : undefined,
-        staffwidth,
+        responsive: effectiveResponsive ? 'resize' : undefined,
+        staffwidth: effectiveStaffWidth,
         paddingleft: 0,
         paddingright: 0,
         paddingtop: 0,
         paddingbottom: 0,
+        scale: inline ? 0.7 : 1,
       });
     });
     return () => {
       cancelled = true;
     };
-  }, [children, responsive, staffwidth]);
+  }, [children, effectiveResponsive, effectiveStaffWidth, inline]);
+
+  if (inline) {
+    return (
+      <span
+        ref={containerRef}
+        className={styles.inline}
+        aria-label="Position de la note sur la portée"
+      />
+    );
+  }
 
   return (
     <figure className={styles.figure}>
@@ -46,7 +61,15 @@ function ABCNotationClient({
 
 export default function ABCNotation(props: ABCNotationProps): ReactNode {
   return (
-    <BrowserOnly fallback={<div className={styles.fallback}>Chargement de la partition…</div>}>
+    <BrowserOnly
+      fallback={
+        props.inline ? (
+          <span className={styles.inlineFallback}>…</span>
+        ) : (
+          <div className={styles.fallback}>Chargement de la partition…</div>
+        )
+      }
+    >
       {() => <ABCNotationClient {...props} />}
     </BrowserOnly>
   );
