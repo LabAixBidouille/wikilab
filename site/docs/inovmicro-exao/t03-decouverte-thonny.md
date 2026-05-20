@@ -291,7 +291,7 @@ Une fois le premier programme fonctionnel, trois pistes pour aller plus loin ave
 
 Le **REPL** (`>>>` dans le panneau Shell) permet de tester du code **directement sur la carte**, sans créer de fichier. Pratique pour la découverte et le débogage.
 
-Dans l'exemple ci-dessous, les `>>>` représentent l'invite, c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne pas les recopier dans l'éditeur, tapez uniquement ce qui suit.
+Dans l'exemple ci-dessous, les `>>>` représentent l'invite, c'est ce que Thonny affiche pour signaler qu'il attend une commande. Ne recopiez pas ces chevrons : tapez uniquement la commande qui suit l'invite.
 
 ```python
 # Allumer la LED rouge à la main
@@ -364,7 +364,7 @@ La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thon
 ### Pour s'inspirer
 
 - **[MOOC FUN — Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage et son écosystème, avant de l'enseigner.
-- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : porté en 2013 par Damien George via une campagne Kickstarter, MicroPython a démocratisé Python sur microcontrôleur. Une petite bibliothèque scientifique embarquée qui tient dans 256 ko de mémoire.
+- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués — un interpréteur compact capable de tourner sur des cartes avec très peu de mémoire, qui a démocratisé Python sur microcontrôleur.
 - **[Thonny — pensé pour l'enseignement](https://thonny.org/)** : conçu par Aivar Annamaa (Université de Tartu) pour rendre Python accessible aux débutant·es. Visualisation pas-à-pas des variables, débogueur didactique, installation sans dépendance.
 
 ### Pour approfondir
