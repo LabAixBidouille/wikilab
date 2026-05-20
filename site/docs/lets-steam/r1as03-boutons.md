@@ -22,6 +22,12 @@ sidebar_position: 3
 |---|---|---|---|
 | Let's STEAM | 25 minutes | Intermédiaire | 11-15 ans |
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Utiliser des boutons-poussoirs](/ressources/inovmicro-exao/i03-boutons).
+
+:::
+
 ## Matériel
 
 - 1 carte programmable "STM32 IoT Node Board"
