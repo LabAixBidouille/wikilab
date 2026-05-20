@@ -89,3 +89,21 @@
   opacity: 0.6;
   cursor: progress;
 }
+
+/* Indique que les notes sont cliquables (clic = joue la note).
+   abcjs ajoute la classe `abcjs-note` sur les noteheads. */
+.score :global(.abcjs-note),
+.inline :global(.abcjs-note) {
+  cursor: pointer;
+}
+
+/* Curseur de lecture : highlight la note en cours pendant le play.
+   abcjs nous donne les SVG elements via TimingCallbacks.eventCallback,
+   on leur ajoute `cursorHighlight`. La couleur reste lisible en mode
+   dark grâce à l'inversion appliquée plus haut sur le SVG. */
+.score :global(.abcjs-note).cursorHighlight,
+.score :global(.abcjs-rest).cursorHighlight,
+.score .cursorHighlight {
+  fill: var(--ifm-color-primary);
+  stroke: var(--ifm-color-primary);
+}

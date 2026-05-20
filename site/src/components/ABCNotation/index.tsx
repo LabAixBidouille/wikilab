@@ -26,6 +26,10 @@ function ABCNotationClient({
   const abcjsRef = useRef<any>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const synthRef = useRef<any>(null);
+  // TimingCallbacks d'abcjs : déclenche un événement par note pendant la
+  // lecture, on s'en sert pour highlighter la note en cours sur la portée.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const timingCallbacksRef = useRef<any>(null);
   const audioCtxRef = useRef<AudioContext | null>(null);
   const stopTimerRef = useRef<number | null>(null);
   const [audioSupported, setAudioSupported] = useState(false);
@@ -42,6 +46,12 @@ function ABCNotationClient({
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const abcjs: any = (mod as any).default ?? mod;
       abcjsRef.current = abcjs;
+      const supports = Boolean(
+        abcjs.synth &&
+        typeof abcjs.synth.supportsAudio === 'function' &&
+        abcjs.synth.supportsAudio(),
+      );
+
       const visualObjs = abcjs.renderAbc(containerRef.current, children, {
         responsive: effectiveResponsive ? 'resize' : undefined,
         staffwidth: effectiveStaffWidth,
@@ -50,14 +60,23 @@ function ABCNotationClient({
         paddingtop: 0,
         paddingbottom: 0,
         scale: inline ? 0.7 : 1,
+        // Clic sur une note → la joue. Branché aussi en mode inline pour
+        // le tableau des 7 notes (Do, Ré…) où c'est l'usage premier.
+        // `playEvent` gère son propre AudioContext interne.
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        clickListener: supports
+          ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            (abcElem: any) => {
+              void playSingleNote(abcElem);
+            }
+          : undefined,
       });
       visualObjRef.current = visualObjs?.[0] ?? null;
 
-      // Le synthé n'est exposé qu'en mode non-inline (UX trop chargée
-      // pour les mini-portées d'illustration). `supportsAudio` vérifie
-      // que WebAudio est dispo côté navigateur.
-      if (!inline && abcjs.synth && typeof abcjs.synth.supportsAudio === 'function') {
-        setAudioSupported(Boolean(abcjs.synth.supportsAudio()));
+      // Le bouton « Écouter » n'est exposé qu'en mode non-inline (UX
+      // trop chargée pour les mini-portées d'illustration).
+      if (!inline && supports) {
+        setAudioSupported(true);
       }
 
       if (inline && containerRef.current) {
@@ -80,6 +99,14 @@ function ABCNotationClient({
         window.clearTimeout(stopTimerRef.current);
         stopTimerRef.current = null;
       }
+      if (timingCallbacksRef.current) {
+        try {
+          timingCallbacksRef.current.stop();
+        } catch {
+          /* noop */
+        }
+        timingCallbacksRef.current = null;
+      }
       if (synthRef.current) {
         try {
           synthRef.current.stop();
@@ -98,6 +125,48 @@ function ABCNotationClient({
   const setRef = (el: HTMLElement | null) => {
     containerRef.current = el;
   };
+
+  function stopTimingCallbacks() {
+    if (timingCallbacksRef.current) {
+      try {
+        timingCallbacksRef.current.stop();
+      } catch {
+        /* noop */
+      }
+      timingCallbacksRef.current = null;
+    }
+  }
+
+  function clearCursorHighlights() {
+    const root = containerRef.current;
+    if (!root) return;
+    root.querySelectorAll(`.${styles.cursorHighlight}`).forEach((el) => {
+      el.classList.remove(styles.cursorHighlight);
+    });
+  }
+
+  // Joue une seule note via abcjs.synth.playEvent. Utilisé par le
+  // clickListener pour rendre chaque note interactive (en particulier
+  // dans le tableau des 7 notes Do…Si). `playEvent` gère son propre
+  // AudioContext et son propre soundfont, donc pas besoin de réutiliser
+  // celui de handlePlay.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  async function playSingleNote(abcElem: any) {
+    const abcjs = abcjsRef.current;
+    if (!abcjs?.synth?.playEvent) return;
+    if (!abcElem?.midiPitches?.length) return;
+    try {
+      const visualObj = visualObjRef.current;
+      const ms =
+        typeof visualObj?.millisecondsPerMeasure === 'function'
+          ? visualObj.millisecondsPerMeasure()
+          : 1000;
+      await abcjs.synth.playEvent(abcElem.midiPitches, [], ms);
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.error('ABCNotation note click play failed:', e);
+    }
+  }
 
   async function handlePlay() {
     const abcjs = abcjsRef.current;
@@ -131,6 +200,37 @@ function ABCNotationClient({
       });
       await synth.prime();
       synthRef.current = synth;
+
+      // TimingCallbacks : déclenche un eventCallback par note avec la
+      // référence aux SVG correspondants. On s'en sert pour highlighter
+      // la note en cours sur la portée pendant la lecture.
+      if (typeof abcjs.TimingCallbacks === 'function') {
+        const timing = new abcjs.TimingCallbacks(visualObj, {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          eventCallback: (ev: any) => {
+            clearCursorHighlights();
+            if (!ev) return;
+            // ev.elements est un array d'arrays de SVG elements (un par
+            // voix). On highlight chaque élément graphique de chaque voix.
+            if (Array.isArray(ev.elements)) {
+              ev.elements.forEach(
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                (voice: any[]) => {
+                  if (!Array.isArray(voice)) return;
+                  voice.forEach((el) => {
+                    if (el && typeof el.classList?.add === 'function') {
+                      el.classList.add(styles.cursorHighlight);
+                    }
+                  });
+                },
+              );
+            }
+          },
+        });
+        timing.start();
+        timingCallbacksRef.current = timing;
+      }
+
       synth.start();
       setIsPlaying(true);
 
@@ -144,6 +244,8 @@ function ABCNotationClient({
             setIsPlaying(false);
             synthRef.current = null;
             stopTimerRef.current = null;
+            stopTimingCallbacks();
+            clearCursorHighlights();
           },
           totalSec * 1000 + 200,
         );
@@ -172,6 +274,8 @@ function ABCNotationClient({
       }
       synthRef.current = null;
     }
+    stopTimingCallbacks();
+    clearCursorHighlights();
     setIsPlaying(false);
   }
 
