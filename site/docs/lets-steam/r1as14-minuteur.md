@@ -45,6 +45,12 @@ sidebar_position: 14
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Créons un objet simple mais utile : un minuteur à oeufs ! Cette activité permettra d'appliquer les connaissances acquises sur les servomoteurs à un problème du quotidien.

@@ -7,14 +7,15 @@ sidebar_position: 14
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="13" r="9" fill="#140e4e" fillOpacity="0.1"/><circle cx="12" cy="13" r="7" fill="#140e4e" fillOpacity="0.25"/><circle cx="12" cy="13" r="1" fill="#140e4e"/><line x1="12" y1="13" x2="12" y2="8" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="13" x2="15" y2="15" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/><rect x="10" y="2" width="4" height="2" rx="1" fill="#140e4e"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#140e4e" strokeWidth="1.5" strokeLinecap="round"/></svg> Minuteur électronique
+# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="13" r="9" fill="#8a6e18" fillOpacity="0.1"/><circle cx="12" cy="13" r="7" fill="#8a6e18" fillOpacity="0.25"/><circle cx="12" cy="13" r="1" fill="#8a6e18"/><line x1="12" y1="13" x2="12" y2="8" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="12" y1="13" x2="15" y2="15" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><rect x="10" y="2" width="4" height="2" rx="1" fill="#8a6e18"/><line x1="18" y1="5" x2="19.5" y2="3.5" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/></svg> Minuteur électronique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
-  <span className="badge badge--info">STeaMi</span>
+  <span className="badge badge--info">SteaMi</span>
   <span className="badge badge--warning">MicroPython</span>
 </div>
+
 | Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 35 min | Avancé     | 11-99 ans | 0.23.1                |
@@ -22,68 +23,90 @@ sidebar_position: 14
 ## Matériel et Montage
 
 - 1 carte STeaMi
-- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
+- 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2)
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE prenant en charge MicroPython
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/icone.png" alt="Minuteur électronique sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
+
 ---
 
 ## De quoi parle-t-on ?
 
-Un minuteur, c'est un programme qui compte le temps et prévient quand c'est terminé — en apparence très simple, mais qui cache des questions de programmation concrètes : comment mesurer du temps précisément ? Comment afficher une progression en temps réel ? Comment déclencher une alarme ?
+Un minuteur, on en croise partout : sur le four pour les gâteaux, sur la machine à laver pour la lessive, sur le téléphone pour les exercices de sport, sur l'écran de l'ordinateur pour la technique Pomodoro. À chaque fois, c'est la même idée : un programme **compte le temps qui passe** et **prévient quand c'est fini**.
 
-Dans cette activité, on va construire un **minuteur à œufs** en MicroPython, en utilisant uniquement les composants intégrés à la STeaMi : l'écran OLED pour afficher le décompte, le buzzer pour sonner à la fin, et les boutons A et B pour choisir la durée. La règle du **3, 6, 9** guide la cuisson parfaite :
+En apparence c'est très simple, mais ça cache trois questions de programmation très concrètes :
 
-- **3 minutes** → œuf à la coque
-- **6 minutes** → œuf mollet
-- **9 minutes** → œuf dur
+- Comment **mesurer du temps** précisément quand le processeur fait plein d'autres choses ?
+- Comment **afficher une progression** qui se met à jour en temps réel sans figer le programme ?
+- Comment **déclencher une alarme** sonore reconnaissable ?
+
+Dans cette activité, on va construire un **minuteur à œufs** en MicroPython, en utilisant uniquement les composants intégrés à la STeaMi : l'écran OLED pour afficher le décompte, le buzzer pour sonner à la fin, et les boutons A et B pour choisir la durée. La règle des **3, 6, 9 minutes** guide la cuisson parfaite :
+
+- **3 minutes** : œuf à la coque (blanc cuit, jaune coulant)
+- **6 minutes** : œuf mollet (blanc cuit, jaune crémeux)
+- **9 minutes** : œuf dur (tout cuit)
+
 Pas besoin de câbles ni de montage : tout est déjà là.
+
+:::info[Capteurs et acteurs intégrés, rien à câbler]
+L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code.
+:::
 
 ---
 
 ## Objectifs d'apprentissage
 
-- Utiliser `time.ticks_ms()` pour mesurer le temps écoulé sans bloquer le programme
-- Afficher une barre de progression sur l'écran OLED en calculant un pourcentage
-- Combiner plusieurs composants intégrés (écran, buzzer, boutons) dans un seul programme
-- Comprendre la différence entre une temporisation bloquante (`time.sleep`) et une boucle non bloquante
+À la fin de cette activité, l'élève sera capable de :
+
+- **Expliquer** la différence entre une temporisation **bloquante** (`time.sleep`, qui fige le programme) et une **boucle non bloquante** (qui laisse le programme respirer entre deux mesures du temps).
+- **Mesurer un temps qui s'écoule** en MicroPython avec `time.ticks_ms()` et `time.ticks_diff()`, et expliquer pourquoi on n'utilise pas une simple soustraction.
+- **Afficher une progression** sur l'écran OLED avec une valeur numérique au format `MM:SS` et une barre qui se vide proportionnellement.
+- **Combiner plusieurs composants** (écran, buzzer, boutons) dans un même programme structuré en fonctions.
+- **Imaginer** d'autres applications du même squelette : Pomodoro, minuteur de sport, minuteur visuel pour enfants, sablier numérique...
 ---
 
 ## Étape 1 : Construire
 
-"Construire" se résume ici à comprendre comment accéder aux composants de la carte — tout est déjà soudé.
+« Construire » se résume ici à comprendre comment accéder aux composants de la carte : tout est déjà soudé.
 
 ### L'écran OLED de la STeaMi
 
 La STeaMi intègre un [**écran OLED 128 × 128 pixels**](https://wiki.steami.cc/docs/hardware/main-components/display) piloté via SPI. On l'utilise à travers le module `steami_screen`, qui fournit une API haut niveau avec des widgets prêts à l'emploi : titre, valeur, barre de progression, jauge, etc.
 
-L'initialisation est toujours la même séquence — on la copie telle quelle depuis les exemples :
+L'initialisation est toujours la même séquence, on la copie telle quelle depuis les exemples :
 
 ```python
 import ssd1327
 from machine import SPI, Pin
-from steami_screen import Screen, SSD1327Display, WHITE, GRAY, LIGHT
+from steami_screen import Screen, SSD1327Display
 
 spi = SPI(1)
-dc  = Pin("DATA_COMMAND_DISPLAY")
-res = Pin("RST_DISPLAY")
-cs  = Pin("CS_DISPLAY")
+broche_dc = Pin("DATA_COMMAND_DISPLAY")
+broche_reset = Pin("RST_DISPLAY")
+broche_cs = Pin("CS_DISPLAY")
 
-raw_display = ssd1327.WS_OLED_128X128_SPI(spi, dc, res, cs)
-display = SSD1327Display(raw_display)
-screen  = Screen(display)
+oled_brut = ssd1327.WS_OLED_128X128_SPI(spi, broche_dc, broche_reset, broche_cs)
+pilote_oled = SSD1327Display(oled_brut)
+ecran = Screen(pilote_oled)
 ```
 
-Une fois l'objet `screen` créé, on dispose notamment de :
+:::info[Première fois avec l'écran OLED ?]
 
-- `screen.clear()` — efface l'écran
-- `screen.title("texte")` — affiche un titre en haut
-- `screen.value(val, label="...", unit="...")` — affiche une grande valeur au centre
-- `screen.bar(val, max_val=100)` — dessine une barre de progression horizontale
-- `screen.text("texte", at="S")` — texte positionné par point cardinal (N, S, E, W, CENTER…)
-- `screen.show()` — envoie le tampon vers l'écran physique
+Si tu n'as encore jamais piloté l'écran OLED, la fiche [Afficher du texte sur l'écran OLED](/ressources/inovmicro-exao/i10-texte-oled) explique en détail le fonctionnement de la librairie `steami_screen`. Tu peux la consulter en parallèle si certaines lignes te paraissent obscures.
+
+:::
+
+Une fois l'objet `ecran` créé, on dispose notamment de :
+
+- `ecran.clear()` : efface l'écran
+- `ecran.title("texte")` : affiche un titre en haut
+- `ecran.value(val, label="...", unit="...")` : affiche une grande valeur au centre
+- `ecran.bar(val, max_val=100)` : dessine une barre de progression horizontale
+- `ecran.text("texte", at="S")` : texte positionné par point cardinal (N, S, E, W, CENTER...)
+- `ecran.show()` : envoie le tampon vers l'écran physique
 :::info[Le tampon d'affichage]
 L'écran ne se met pas à jour automatiquement quand on lui envoie du contenu. Toutes les fonctions de dessin modifient un **tampon en mémoire**. C'est seulement `screen.show()` qui transfère ce tampon vers l'écran physique. Cette approche évite les scintillements : on prépare toute l'image, puis on l'affiche d'un coup.
 :::
@@ -96,26 +119,29 @@ Le buzzer de la STeaMi est un [transducteur piézoélectrique](https://fr.wikipe
 from machine import Pin
 import time
 
-SPEAKER = Pin("SPEAKER", Pin.OUT_PP)
+buzzer = Pin("SPEAKER", Pin.OUT_PP)
 
-def tone(pin, freq, duration_ms):
-    """Fait sonner le buzzer à la fréquence demandée pendant duration_ms."""
-    if freq == 0:
-        time.sleep_ms(duration_ms)
+
+def jouer_note(broche, frequence, duree_ms):
+    """Fait sonner le buzzer à la fréquence demandée pendant duree_ms."""
+    if frequence == 0:
+        time.sleep_ms(duree_ms)
         return
-    period_us = int(1_000_000 / freq)
-    half_period = period_us // 2
-    end_time = time.ticks_add(time.ticks_us(), duration_ms * 1000)
-    while time.ticks_diff(end_time, time.ticks_us()) > 0:
-        pin.on()
-        time.sleep_us(half_period)
-        pin.off()
-        time.sleep_us(half_period)
+    periode_us = int(1_000_000 / frequence)
+    demi_periode = periode_us // 2
+    fin = time.ticks_add(time.ticks_us(), duree_ms * 1000)
+    while time.ticks_diff(fin, time.ticks_us()) > 0:
+        broche.on()
+        time.sleep_us(demi_periode)
+        broche.off()
+        time.sleep_us(demi_periode)
 ```
+
+Cette fonction `jouer_note()` est la même que celle qu'on a vue dans la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) : on génère le signal par _bit-banging_ (allumer-éteindre rapidement la broche du buzzer).
 
 ### Les boutons A et B
 
-Les boutons se lisent via `Pin("A_BUTTON", Pin.IN)` et `Pin("B_BUTTON", Pin.IN)`. Rappel : un bouton appuyé renvoie `0`, relâché renvoie `1` (logique inverse, car la broche est tirée à 3,3 V au repos par une résistance de rappel externe).
+Les boutons se lisent via `Pin("A_BUTTON", Pin.IN)` et `Pin("B_BUTTON", Pin.IN)`. Rappel : un bouton **appuyé** renvoie `0`, **relâché** renvoie `1` (logique inverse, car la broche est tirée à 3,3 V au repos par une résistance de rappel externe). Voir la fiche [Utiliser des boutons-poussoirs](/ressources/inovmicro-exao/i03-boutons) pour le détail.
 
 ### Mesurer le temps sans bloquer
 
@@ -137,12 +163,12 @@ while True:
 ```
 
 :::info[`ticks_ms()` et `ticks_diff()`]
-`time.ticks_ms()` renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Ce compteur finit par revenir à zéro après quelques semaines. `ticks_diff(a, b)` calcule la différence `a - b` en tenant compte de ce rebouclage éventuel — c'est pour ça qu'on l'utilise à la place d'une simple soustraction.
+`time.ticks_ms()` renvoie le nombre de millisecondes écoulées depuis le démarrage de la carte. Ce compteur finit par revenir à zéro après quelques semaines. `ticks_diff(a, b)` calcule la différence `a - b` en tenant compte de ce rebouclage éventuel : c'est pour ça qu'on l'utilise à la place d'une simple soustraction.
 :::
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si un des IDE proposés est déjà configuré, vous devriez voir le shell MicroPython (`>>>`).
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ---
 
@@ -157,12 +183,12 @@ Pendant le décompte, l'écran affiche le temps restant en minutes et secondes, 
 
 ### Composants utilisés
 
-| Composant  | Nom dans le programme           | Rôle                                                    |
-| ---------- | ------------------------------- | ------------------------------------------------------- |
-| Écran OLED | objet `screen` (`steami_screen`)| Affichage du temps restant et de la barre de progression |
-| Buzzer     | `SPEAKER`                       | Alarme sonore à la fin du décompte                      |
-| Bouton A   | `A_BUTTON`                      | Sélectionner 3 min                                      |
-| Bouton B   | `B_BUTTON`                      | Sélectionner 6 min                                      |
+| Composant  | Nom dans le programme | Rôle                                                     |
+| ---------- | --------------------- | -------------------------------------------------------- |
+| Écran OLED | objet `ecran`         | Affichage du temps restant et de la barre de progression |
+| Buzzer     | objet `buzzer`        | Alarme sonore à la fin du décompte                       |
+| Bouton A   | objet `bouton_a`      | Sélectionner 3 min                                       |
+| Bouton B   | objet `bouton_b`      | Sélectionner 6 min                                       |
 
 ### Programme
 
@@ -174,83 +200,83 @@ Pendant le décompte, l'écran affiche le temps restant en minutes et secondes, 
 # Le buzzer sonne une mélodie d'alarme à la fin.
 
 import ssd1327
-from machine import SPI, Pin
 import time
-from steami_screen import Screen, SSD1327Display, WHITE, GRAY, LIGHT
+from machine import SPI, Pin
+from steami_screen import Screen, SSD1327Display
 
-# --- Écran ---
+# --- Écran OLED ---
 spi = SPI(1)
-dc  = Pin("DATA_COMMAND_DISPLAY")
-res = Pin("RST_DISPLAY")
-cs  = Pin("CS_DISPLAY")
-raw_display = ssd1327.WS_OLED_128X128_SPI(spi, dc, res, cs)
-display = SSD1327Display(raw_display)
-screen  = Screen(display)
+broche_dc = Pin("DATA_COMMAND_DISPLAY")
+broche_reset = Pin("RST_DISPLAY")
+broche_cs = Pin("CS_DISPLAY")
+oled_brut = ssd1327.WS_OLED_128X128_SPI(spi, broche_dc, broche_reset, broche_cs)
+pilote_oled = SSD1327Display(oled_brut)
+ecran = Screen(pilote_oled)
 
 # --- Boutons et buzzer ---
-SPEAKER  = Pin("SPEAKER",  Pin.OUT_PP)
-A_BUTTON = Pin("A_BUTTON", Pin.IN)
-B_BUTTON = Pin("B_BUTTON", Pin.IN)
+buzzer = Pin("SPEAKER", Pin.OUT_PP)
+bouton_a = Pin("A_BUTTON", Pin.IN)
+bouton_b = Pin("B_BUTTON", Pin.IN)
 
 
-def tone(pin, freq, duration_ms):
-    """Fait sonner le buzzer à la fréquence demandée pendant duration_ms."""
-    if freq == 0:
-        time.sleep_ms(duration_ms)
+def jouer_note(broche, frequence, duree_ms):
+    """Fait sonner le buzzer à la fréquence demandée pendant duree_ms."""
+    if frequence == 0:
+        time.sleep_ms(duree_ms)
         return
-    period_us = int(1_000_000 / freq)
-    half_period = period_us // 2
-    end_time = time.ticks_add(time.ticks_us(), duration_ms * 1000)
-    while time.ticks_diff(end_time, time.ticks_us()) > 0:
-        pin.on()
-        time.sleep_us(half_period)
-        pin.off()
-        time.sleep_us(half_period)
+    periode_us = int(1_000_000 / frequence)
+    demi_periode = periode_us // 2
+    fin = time.ticks_add(time.ticks_us(), duree_ms * 1000)
+    while time.ticks_diff(fin, time.ticks_us()) > 0:
+        broche.on()
+        time.sleep_us(demi_periode)
+        broche.off()
+        time.sleep_us(demi_periode)
 
 
 def jouer_alarme():
     """Mélodie d'alarme : trois séries de bips descendants."""
     for _ in range(3):
-        tone(SPEAKER, 880, 150)
+        jouer_note(buzzer, 880, 150)
         time.sleep_ms(80)
-        tone(SPEAKER, 660, 150)
+        jouer_note(buzzer, 660, 150)
         time.sleep_ms(80)
-        tone(SPEAKER, 440, 300)
+        jouer_note(buzzer, 440, 300)
         time.sleep_ms(200)
 
 
 def afficher_decompte(restant_ms, total_ms):
     """Met à jour l'écran avec le temps restant et la barre de progression."""
     restant_s = restant_ms // 1000
-    minutes   = restant_s // 60
-    secondes  = restant_s % 60
+    minutes = restant_s // 60
+    secondes = restant_s % 60
     texte_temps = "{:02d}:{:02d}".format(minutes, secondes)
 
-    # Pourcentage de temps restant (0 → 100)
-    pct = int(100 * restant_ms / total_ms)
+    # Pourcentage de temps restant (0 a 100)
+    pourcent = int(100 * restant_ms / total_ms)
 
-    screen.clear()
-    screen.value(texte_temps, label="Minuteur a oeufs")
-    screen.bar(pct, max_val=100)
-    screen.show()
+    ecran.clear()
+    ecran.value(texte_temps, label="Minuteur a oeufs")
+    ecran.bar(pourcent, max_val=100)
+    ecran.show()
 
 
 def choisir_duree():
     """Affiche le menu de choix et attend un appui sur A, B ou A+B."""
-    screen.clear()
-    screen.title("Choisir duree")
-    screen.text(" A  = 3 min",  at="NW")
-    screen.text(" B  = 6 min",  at="W")
-    screen.text(" A+B = 9 min", at="SW")
-    screen.show()
+    ecran.clear()
+    ecran.title("Choisir duree")
+    ecran.text(" A  = 3 min", at="NW")
+    ecran.text(" B  = 6 min", at="W")
+    ecran.text(" A+B = 9 min", at="SW")
+    ecran.show()
 
     # Attendre que les boutons soient relâchés avant de scruter
-    while A_BUTTON.value() == 0 or B_BUTTON.value() == 0:
+    while bouton_a.value() == 0 or bouton_b.value() == 0:
         time.sleep_ms(20)
 
     while True:
-        a = A_BUTTON.value()
-        b = B_BUTTON.value()
+        a = bouton_a.value()
+        b = bouton_b.value()
 
         if a == 0 and b == 0:
             return 9 * 60 * 1000   # 9 minutes en ms
@@ -268,13 +294,13 @@ def lancer_minuteur(duree_ms):
 
     while True:
         maintenant = time.ticks_ms()
-        ecoule  = time.ticks_diff(maintenant, debut)
+        ecoule = time.ticks_diff(maintenant, debut)
         restant = duree_ms - ecoule
 
         if restant <= 0:
-            screen.clear()
-            screen.value("00:00", label="Temps ecoule !")
-            screen.show()
+            ecran.clear()
+            ecran.value("00:00", label="Temps ecoule !")
+            ecran.show()
             jouer_alarme()
             return
 
@@ -292,13 +318,29 @@ while True:
 
 ### Comment cela fonctionne ?
 
-Le programme s'organise en quatre fonctions bien séparées :
+Le programme s'organise en **cinq fonctions** bien séparées, et la boucle principale n'a plus que trois lignes :
 
-- **`tone()`** : génère une fréquence par bit-banging sur la broche du buzzer — elle alterne `pin.on()` / `pin.off()` à la vitesse correspondant à la fréquence demandée.
+- **`jouer_note(broche, frequence, duree_ms)`** : génère une fréquence par _bit-banging_ sur la broche du buzzer. Elle alterne `broche.on()` / `broche.off()` à la vitesse correspondant à la fréquence demandée.
 - **`jouer_alarme()`** : enchaîne trois notes descendantes (880 Hz → 660 Hz → 440 Hz) répétées trois fois pour former une mélodie reconnaissable.
-- **`afficher_decompte(restant_ms, total_ms)`** : calcule le temps restant en minutes/secondes, convertit le temps restant en pourcentage (0–100), puis utilise les widgets `steami_screen` — `screen.value()` avec son paramètre `label` pour afficher à la fois le titre et le chrono `MM:SS` en grand sans chevauchement, et `screen.bar()` pour la barre de progression. On appelle `screen.clear()` à chaque fois pour repartir d'un écran vide.
-- **`choisir_duree()`** : affiche le menu avec `screen.text(..., at="...")` positionné par points cardinaux, puis scrute les deux boutons. La détection A+B simultané est possible parce qu'on lit les deux broches au même instant dans la boucle.
-- **`lancer_minuteur(duree_ms)`** : c'est le cœur du programme — la boucle non bloquante. Elle calcule à chaque itération le temps restant grâce à `ticks_diff()`, met à jour l'écran, et se termine dès que le compteur atteint zéro.
+- **`afficher_decompte(restant_ms, total_ms)`** : calcule le temps restant en minutes/secondes, convertit ce reste en pourcentage (0 à 100), puis utilise les widgets `steami_screen` : `ecran.value()` pour afficher le chrono `MM:SS` en grand, et `ecran.bar()` pour la barre de progression qui se vide au fil du temps.
+- **`choisir_duree()`** : affiche le menu avec `ecran.text(..., at="...")` positionné par points cardinaux, puis scrute les deux boutons. La détection A+B simultané est possible parce qu'on lit les deux broches au même instant dans la boucle.
+- **`lancer_minuteur(duree_ms)`** : c'est le cœur du programme, la **boucle non bloquante**. Elle calcule à chaque itération le temps restant grâce à `ticks_diff()`, met à jour l'écran, et se termine dès que le compteur atteint zéro.
+
+:::info[Boucle bloquante vs boucle non bloquante]
+
+La tentation naturelle pour faire un minuteur de 3 minutes est d'écrire :
+
+```python
+time.sleep(180)        # attendre 3 min
+jouer_alarme()         # sonner
+```
+
+Ça fonctionne, mais pendant ces 180 secondes le programme **dort** : impossible de mettre à jour l'écran, d'écouter les boutons, ou même d'interrompre le minuteur. C'est une boucle **bloquante**.
+
+Notre fonction `lancer_minuteur()` fait autrement : elle prend la mesure du temps à intervalles courts (100 ms), met à jour l'affichage, puis attend juste un peu avant de recommencer. Entre deux mises à jour, le programme reste **réactif**. C'est le principe d'une boucle **non bloquante**, le squelette de toute interface graphique moderne.
+
+:::
+
 ### Exécution
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). L'écran affiche le menu de choix, appuyer sur A lance un minuteur de 3 minutes.
@@ -331,17 +373,17 @@ def lancer_minuteur(duree_ms):
     en_pause = False
 
     while True:
-        if A_BUTTON.value() == 0 and not en_pause:
+        if bouton_a.value() == 0 and not en_pause:
             # Mettre en pause
             en_pause = True
             debut_pause = time.ticks_ms()
-            screen.clear()
-            screen.title("En pause")
-            screen.text("A = reprendre", at="S")
-            screen.show()
+            ecran.clear()
+            ecran.title("En pause")
+            ecran.text("A = reprendre", at="S")
+            ecran.show()
             time.sleep_ms(300)   # anti-rebond
 
-        if A_BUTTON.value() == 0 and en_pause:
+        if bouton_a.value() == 0 and en_pause:
             # Reprendre
             temps_pause += time.ticks_diff(time.ticks_ms(), debut_pause)
             en_pause = False
@@ -376,8 +418,8 @@ MELODIE = [
 ]
 
 def jouer_melodie():
-    for freq, duree in MELODIE:
-        tone(SPEAKER, freq, duree)
+    for frequence, duree in MELODIE:
+        jouer_note(buzzer, frequence, duree)
         time.sleep_ms(50)   # silence inter-note
 ```
 
@@ -385,11 +427,20 @@ def jouer_melodie():
 
 ## Aller plus loin
 
-- [Mesure du temps en MicroPython (documentation officielle)](https://docs.micropython.org/en/latest/library/time.html) : référence complète de `ticks_ms()`, `ticks_diff()`, et des autres fonctions de temporisation.
-- [Wiki STeaMi : Écran OLED](https://wiki.steami.cc/docs/hardware/main-components/display) : description matérielle de l'écran et de la bibliothèque `steami_screen`.
-- [Wiki STeaMi : Boutons et buzzer](https://wiki.steami.cc/docs/hardware/main-components/buttons-audio) : description matérielle du buzzer et des boutons sur la carte.
-- [Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly) : la règle du 3, 6, 9 expliquée par des cuisiniers.
+### Pour comprendre
+
+- **[Mesure du temps en MicroPython (documentation officielle)](https://docs.micropython.org/en/latest/library/time.html)** : référence complète de `ticks_ms()`, `ticks_diff()`, et des autres fonctions de temporisation. Comprendre pourquoi MicroPython propose deux familles de fonctions de temps (`sleep` bloquant vs `ticks` non bloquant).
+- **[Programmation événementielle (Wikipédia)](https://fr.wikipedia.org/wiki/Programmation_%C3%A9v%C3%A9nementielle)** : le paradigme général dont notre boucle non bloquante est un exemple simple. Toutes les interfaces graphiques modernes (téléphone, ordinateur, console de jeu) reposent sur ce principe.
+- **[Horloge temps réel (RTC) (Wikipédia)](https://fr.wikipedia.org/wiki/Horloge_temps_r%C3%A9el)** : pourquoi `ticks_ms()` n'est pas adapté pour mesurer de longues durées (cf. rebouclage tous les ~25 jours), et comment les ordinateurs gardent l'heure même éteints.
+
+### Pour s'inspirer
+
+- **[Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)** : la règle du 3, 6, 9 expliquée par des cuisiniers, avec les nuances (eau bouillante vs froide, taille de l'œuf).
+- **[Pomodoro Technique (Wikipédia)](https://fr.wikipedia.org/wiki/Technique_Pomodoro)** : la méthode de gestion du temps qui découpe le travail en sessions de 25 minutes séparées par 5 minutes de pause. Le minuteur ci-dessus s'adapte facilement à cet usage en remplaçant les durées 3/6/9 par 25/5/15.
+- **[Time Timer](https://www.timetimer.com/)** : un minuteur visuel utilisé en école maternelle et avec les enfants autistes. La barre de progression rouge qui se vide en temps réel rend le temps « visible » pour qui ne sait pas encore lire l'horloge.
+- **[Wiki STeaMi : Écran OLED](https://wiki.steami.cc/docs/hardware/main-components/display)** : description matérielle de l'écran et de la bibliothèque `steami_screen`.
+
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée de la fiche Let's STEAM [`r1as14-minuteur`](/ressources/lets-steam/r1as14-minuteur) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as14-minuteur`](/ressources/lets-steam/r1as14-minuteur)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 
