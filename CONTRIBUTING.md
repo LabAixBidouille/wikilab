@@ -190,7 +190,7 @@ Vérifie l'alignement structurel avec les autres fiches I-NOVMICRO :
 - [ ] Footer canonique « Adaptée du projet \[Let's STEAM\] (...) (fiche \[\`r1asNN-...\`\](...)) » détectable par `lint:crosslinks`
 - [ ] Callout `:::info[Version STeaMi / MicroPython]` réciproque dans la fiche LS source
 - [ ] Caractères non-ASCII (em-dashes `—`, en-dashes `–`, ellipses `…`, flèches `→`) remplacés (cf. [`CONVENTIONS.md` § Caractères à éviter](CONVENTIONS.md#caractères-à-éviter))
-- [ ] Section « Aller plus loin » structurée en « Pour comprendre » + « Pour s'inspirer » (cf. [`CONVENTIONS.md`](CONVENTIONS.md#section--aller-plus-loin--pour-comprendre--pour-sinspirer))
+- [ ] Section « Aller plus loin » structurée en « Pour comprendre » + « Pour s'inspirer » (cf. [`CONVENTIONS.md`](CONVENTIONS.md#section-aller-plus-loin--pour-comprendre--pour-sinspirer))
 - [ ] Icône `icone.png` flat-illustration Flaticon, pas image IA (cf. [`CONVENTIONS.md` § Icône PNG](CONVENTIONS.md#icône-png-vignette-du-header))
 
 #### Passe 2 — Pédagogie « élève secondaire »

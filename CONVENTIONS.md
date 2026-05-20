@@ -151,7 +151,7 @@ Critères :
 - **Pas de carte STeaMi dessinée** dessus, pas de texte dessiné dessus (le titre est déjà à côté).
 - **Pas d'image générée par IA** : ces images sont reconnaissables (effet « rendu 3D kitsch », polices typographiques génératives, faux composants électroniques) et créent une rupture visuelle avec le reste du wiki.
 
-Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit avec attribution dans `documentation/credits.md` si besoin), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
+Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit suffisant ; l'attribution Flaticon n'est requise que dans certains cas, voir [les conditions Flaticon](https://www.flaticon.com/legal/12)), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
 
 ## Texte
 
