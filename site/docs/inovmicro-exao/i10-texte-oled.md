@@ -84,17 +84,6 @@ Brancher la STeaMi avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la
 
 Les bibliothèques `ssd1327` (bas niveau) et `steami_screen` (haut niveau) sont déjà incluses dans MicroPython sur la STeaMi : il suffit de les importer, aucune installation préalable.
 
-<figure style={{textAlign: 'center', margin: '1rem auto'}}>
-  <img
-    src="/img/ressources/inovmicro-exao/i10-texte-oled/03-ide-micropython-main-py.png"
-    alt="IDE MicroPython avec le fichier main.py ouvert, prêt à être téléversé"
-    style={{maxWidth: '100%', height: 'auto'}}
-  />
-  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Le fichier `main.py` prêt à être téléversé sur la carte.
-  </figcaption>
-</figure>
-
 ### 3. Repérer la géométrie de l'écran
 
 L'écran de la STeaMi mesure **128 × 128 pixels**. L'origine `(0, 0)` se situe en haut à gauche, l'axe horizontal va vers la droite, l'axe vertical vers le bas. Tout pixel peut donc être désigné par un couple de coordonnées comprises entre `(0, 0)` et `(127, 127)`.
@@ -135,6 +124,17 @@ Avec `at="N"`, le texte est aligné en haut et centré horizontalement ; avec `a
 ### 4. Lancer le programme
 
 Le programme principal est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous — copiez-le dans votre IDE.
+
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i10-texte-oled/03-ide-micropython-main-py.png"
+    alt="IDE MicroPython avec le fichier main.py ouvert, prêt à être téléversé"
+    style={{maxWidth: '100%', height: 'auto'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    Le fichier `main.py` prêt à être téléversé sur la carte depuis l'IDE.
+  </figcaption>
+</figure>
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -189,7 +189,7 @@ screen.show()                           # affiche enfin ce qu'on a préparé sur
 
 ### Comment ça fonctionne ?
 
-La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'afficher du texte sans calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1 step 3](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
+La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'afficher du texte sans calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1, section « Repérer la géométrie de l'écran »](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
 
 Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un texte en haut en `GRAY`, `screen.subtitle()` un texte en bas en `DARK` — pas besoin de préciser position ni couleur.
 
