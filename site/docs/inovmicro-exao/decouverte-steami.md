@@ -177,9 +177,11 @@ En cas de problème (carte qui n'apparaît pas, port série introuvable, console
 
 ---
 
-## Idées de projets pour aller plus loin
+## Aller plus loin
 
-La STeaMi permet de réaliser de nombreux projets pédagogiques :
+### Pour s'inspirer
+
+La STeaMi permet de réaliser de nombreux projets pédagogiques. Quelques pistes pour amorcer une séquence :
 
 - **Station météo** : enregistrer température, humidité et pression sur plusieurs jours
 - **Altimètre** : mesurer une altitude à partir de la pression atmosphérique
@@ -189,9 +191,9 @@ La STeaMi permet de réaliser de nombreux projets pédagogiques :
 - **Jeu de réflexes** : utiliser boutons et écran pour mesurer les temps de réaction
 - **Transmission sans fil** : envoyer des données de capteur en Bluetooth vers un smartphone
 
----
+### Pour approfondir
 
-## Ressources pour approfondir
+Documentation technique pour préparer une séquence ou répondre aux questions des élèves les plus avancé·es :
 
 - **Documentation officielle** : [wiki.steami.cc](https://wiki.steami.cc/)
 - **Site STeaMi** : [steami.cc](https://steami.cc)
