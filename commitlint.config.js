@@ -7,7 +7,11 @@ module.exports = {
   //   `Optimised images with calibre/image-actions` hardcodé côté action
   //   (pas d'input pour le personnaliser, vérifié sur 1.4.1 et 1.5.0).
   //   Cette exception est notre solution durable, cf. décision sur #154.
-  ignores: [(msg) => msg.startsWith('Optimised images with calibre/image-actions')],
+  // Match strict sur la 1ʳᵉ ligne du commit (pas `startsWith`) pour qu'un
+  // humain ne puisse pas bypasser commitlint en préfixant son message par
+  // cette chaîne. Le body éventuel ajouté un jour par l'action n'est pas
+  // contraint.
+  ignores: [(msg) => msg.split('\n', 1)[0] === 'Optimised images with calibre/image-actions'],
   rules: {
     'subject-case': [0],
     'scope-enum': [
