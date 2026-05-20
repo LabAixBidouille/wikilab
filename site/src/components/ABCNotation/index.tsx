@@ -145,6 +145,19 @@ function ABCNotationClient({
     });
   }
 
+  // Convertit une position diatonique abcjs (`abcElem.pitches[i].pitch`)
+  // en pitch MIDI absolu. La convention abcjs : 0 = C4 (Do central, MIDI
+  // 60), chaque unité = un degré de la gamme diatonique de la tonalité.
+  // En `K:C` les degrés sont C-D-E-F-G-A-B (offsets en demi-tons :
+  // 0-2-4-5-7-9-11). Pour les autres tonalités, abcjs ajuste déjà via
+  // `accidental` au niveau de chaque pitch — on s'aligne donc dessus.
+  function diatonicToMidi(diatonic: number, accidental: number | undefined): number {
+    const semitones = [0, 2, 4, 5, 7, 9, 11];
+    const octave = Math.floor(diatonic / 7);
+    const step = ((diatonic % 7) + 7) % 7;
+    return 60 + octave * 12 + semitones[step] + (accidental ?? 0);
+  }
+
   // Joue une seule note via abcjs.synth.playEvent. Utilisé par le
   // clickListener pour rendre chaque note interactive (en particulier
   // dans le tableau des 7 notes Do…Si). `playEvent` gère son propre
@@ -154,14 +167,35 @@ function ABCNotationClient({
   async function playSingleNote(abcElem: any) {
     const abcjs = abcjsRef.current;
     if (!abcjs?.synth?.playEvent) return;
-    if (!abcElem?.midiPitches?.length) return;
+
+    // En mode `inline` (M:none, L:1/4) abcjs ne génère pas toujours
+    // `midiPitches`. On le reconstruit alors depuis `abcElem.pitches`,
+    // qui reste fourni avec la position diatonique + altération.
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let midiPitches: any[] | undefined = abcElem?.midiPitches;
+    if ((!midiPitches || midiPitches.length === 0) && Array.isArray(abcElem?.pitches)) {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      midiPitches = abcElem.pitches.map((p: any) => ({
+        cmd: 'note',
+        pitch: diatonicToMidi(
+          typeof p?.pitch === 'number' ? p.pitch : 0,
+          typeof p?.accidental === 'number' ? p.accidental : undefined,
+        ),
+        volume: 80,
+        start: 0,
+        duration: typeof p?.duration === 'number' && p.duration > 0 ? p.duration : 0.5,
+        instrument: 0,
+      }));
+    }
+    if (!midiPitches || midiPitches.length === 0) return;
+
     try {
       const visualObj = visualObjRef.current;
       const ms =
         typeof visualObj?.millisecondsPerMeasure === 'function'
           ? visualObj.millisecondsPerMeasure()
           : 1000;
-      await abcjs.synth.playEvent(abcElem.midiPitches, [], ms);
+      await abcjs.synth.playEvent(midiPitches, [], ms);
     } catch (e) {
       // eslint-disable-next-line no-console
       console.error('ABCNotation note click play failed:', e);
