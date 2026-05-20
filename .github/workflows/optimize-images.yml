@@ -7,6 +7,13 @@ name: Optimize images
 # Cible : éviter d'avoir à compresser à la main avant push (cf. PR #67 et
 # #70 où plusieurs JPEG dépassaient 2 Mo).
 #
+# Garde-fous (cf. issue #150) :
+# - on ne regarde que les images touchées par le push courant, pas tout le PR,
+#   pour ne jamais recompresser une image déjà optimisée par un run précédent ;
+# - on ignore les images sous SIZE_THRESHOLD_BYTES (300 Ko par défaut) : sous
+#   ce seuil, la compression n'apporte rien et peut même faire perdre quelques
+#   octets ou dégrader légèrement la qualité.
+#
 # Limitation : calibreapp/image-actions fait de la compression seule,
 # pas de redimensionnement. Pour une photo de 4032×3024 qu'on affiche
 # à 600 px, la compression seule descend à ~300 Ko ; un resize manuel
@@ -48,49 +55,120 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.ref }}
           # fetch-depth: 0 nécessaire pour que le `git diff` ci-dessous voie
-          # la base de la PR.
+          # la base de la PR et le HEAD du push précédent.
           fetch-depth: 0
 
       # Filtre les images réellement ajoutées ou modifiées en contenu (statut
       # A ou M) en excluant les renames purs (R). Sinon un PR qui se contente
       # de déplacer des dossiers (ex. PR #102) déclenche une recompression
-      # inutile et un commit parasite "Optimised images" qui change la taille
-      # de fichiers déjà compressés.
-      - name: Check for added or modified images
+      # inutile. Applique aussi un filtre par taille pour ne pas dégrader
+      # les images déjà petites (cf. issue #150).
+      - name: Determine images to compress
         id: changed
         env:
           BASE: ${{ github.event.pull_request.base.sha }}
           HEAD: ${{ github.event.pull_request.head.sha }}
+          # event.before : SHA du HEAD du PR avant ce push (synchronize).
+          # Vide ou nul pour les events opened/reopened : on retombe sur BASE.
+          BEFORE: ${{ github.event.before }}
+          # 300 Ko : seuil sous lequel la compression n'apporte rien et risque
+          # de dégrader. À ajuster ici si besoin.
+          SIZE_THRESHOLD_BYTES: '307200'
         run: |
-          # `fetch-depth: 0` au checkout couvre normalement tous les objets,
-          # mais base.sha peut ne plus être atteignable s'il a été
-          # force-pushé après la création de la PR. On vérifie sa présence
-          # locale et on le re-fetche uniquement si nécessaire, en
-          # échouant franchement si le fetch ne récupère rien (sinon le
-          # `git diff` qui suit donne des résultats incohérents et
-          # silencieux).
-          if ! git rev-parse --verify --quiet "$BASE^{commit}" > /dev/null; then
-            echo "Base SHA $BASE absent du clone local, fetch défensif..."
-            if ! git fetch --depth=1 origin "$BASE"; then
-              echo "::error::Impossible de récupérer la base SHA $BASE (force-push ?). Diff impossible."
-              exit 1
+          # Choix de la référence pour le diff :
+          # - sur un push (event synchronize), BEFORE pointe vers le HEAD du
+          #   PR avant ce push : on ne traite que ce qui a vraiment été
+          #   modifié maintenant, pas tout le PR depuis la base. Évite la
+          #   recompression à chaque push d'images déjà compressées par un
+          #   run précédent (cf. PR #134, issue #150).
+          # - sur l'ouverture du PR (opened / reopened), BEFORE est absent
+          #   ou nul (40 zéros) : on retombe sur BASE pour traiter toutes
+          #   les images du PR initial.
+          REF=""
+          if [ -n "$BEFORE" ] \
+             && [ "$BEFORE" != "0000000000000000000000000000000000000000" ] \
+             && git rev-parse --verify --quiet "$BEFORE^{commit}" > /dev/null; then
+            REF="$BEFORE"
+            echo "Diff vs HEAD du push précédent ($BEFORE)."
+          else
+            # `fetch-depth: 0` au checkout couvre normalement tous les objets,
+            # mais base.sha peut ne plus être atteignable s'il a été
+            # force-pushé après la création de la PR. On vérifie sa présence
+            # locale et on le re-fetche uniquement si nécessaire, en
+            # échouant franchement si le fetch ne récupère rien (sinon le
+            # `git diff` qui suit donne des résultats incohérents et
+            # silencieux).
+            if ! git rev-parse --verify --quiet "$BASE^{commit}" > /dev/null; then
+              echo "Base SHA $BASE absent du clone local, fetch défensif..."
+              if ! git fetch --depth=1 origin "$BASE"; then
+                echo "::error::Impossible de récupérer la base SHA $BASE (force-push ?). Diff impossible."
+                exit 1
+              fi
             fi
+            REF="$BASE"
+            echo "Diff vs base de PR ($BASE) (premier déclenchement ou before indisponible)."
           fi
+
           # Filtrage post-hoc plutôt que pathspecs `**` : les pathspecs git
           # n'interprètent pas `**` comme un globstar, la sémantique reste
           # différente du filtre `paths:` au top du workflow. `awk` plutôt
           # que `grep` pour éviter le quirk "exit 1 quand pas de match"
           # qui forcerait un `|| true` masquant aussi les vraies erreurs.
-          changed=$(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" \
+          changed=$(git diff --name-only --diff-filter=AM "$REF" "$HEAD" \
             | awk '/^site\/static\/img\/.*\.(jpg|jpeg|png|gif|webp)$/')
+
           if [ -z "$changed" ]; then
-            echo "Aucune image ajoutée ou modifiée en contenu (que des renames). Skip."
+            echo "Aucune image ajoutée ou modifiée dans ce diff. Skip."
             echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Images à traiter :"
-            echo "$changed"
-            echo "skip=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          # Filtre par taille : sous le seuil, la compression n'apporte rien
+          # de significatif. Une image qui pèse déjà 30 Ko n'a typiquement
+          # rien à gagner et peut même perdre en qualité, donc on la laisse
+          # intacte. On construit deux listes : à compresser et à ignorer.
+          threshold_kb=$((SIZE_THRESHOLD_BYTES / 1024))
+          to_compress=""
+          to_ignore=""
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            # Un diff AM peut mentionner un fichier qui n'existe plus si
+            # le diff sous-jacent compte un rename comme delete+add. On
+            # ignore silencieusement ces cas.
+            [ ! -f "$f" ] && continue
+            size=$(stat -c %s "$f")
+            if [ "$size" -ge "$SIZE_THRESHOLD_BYTES" ]; then
+              to_compress="${to_compress}${f}"$'\n'
+            else
+              to_ignore="${to_ignore}${f}"$'\n'
+            fi
+          done <<< "$changed"
+
+          if [ -n "$to_ignore" ]; then
+            echo "Images ignorées (< ${threshold_kb} Ko) :"
+            printf '%s' "$to_ignore"
+          fi
+
+          if [ -z "$to_compress" ]; then
+            echo "Toutes les images modifiées sont sous le seuil de ${threshold_kb} Ko. Skip."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "Images à compresser (>= ${threshold_kb} Ko) :"
+          printf '%s' "$to_compress"
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+          # Construit la liste à passer en `ignorePaths` de calibreapp/image-actions :
+          # chaque fichier sous le seuil, plus l'exclusion globale des SVG.
+          # Format attendu par l'action : comma-separated.
+          ignore_csv=$(printf '%s' "$to_ignore" | awk 'NF{print $0}' | paste -sd, -)
+          if [ -n "$ignore_csv" ]; then
+            ignore_csv="${ignore_csv},**/*.svg"
+          else
+            ignore_csv='**/*.svg'
+          fi
+          echo "ignore=${ignore_csv}" >> "$GITHUB_OUTPUT"
 
       # Pinné sur une release explicite plutôt que @main pour limiter
       # le risque supply-chain et garantir la reproductibilité.
@@ -101,9 +179,11 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # compressOnly: false → l'action commit + poste un récap sur la PR.
           compressOnly: false
-          # Les SVG sont écrits à la main dans les fiches (icônes, schémas)
-          # et ne doivent pas être recompressés.
-          ignorePaths: '**/*.svg'
+          # Liste construite dynamiquement par l'étape précédente :
+          # - les SVG (écrits à la main : icônes, schémas) ;
+          # - les images sous le seuil de taille (rien à gagner d'une
+          #   recompression — cf. issue #150).
+          ignorePaths: ${{ steps.changed.outputs.ignore }}
           jpegQuality: '80'
           pngQuality: '80'
           webpQuality: '80'
