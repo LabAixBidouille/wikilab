@@ -9,16 +9,16 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 
 1. [Header (en-tête de fiche)](#header-en-tête-de-fiche)
 2. [Structure des fiches](#structure-des-fiches)
-3. [Callouts](#callouts)
-4. [Images](#images)
-5. [Texte](#texte)
+3. [Callouts](#callouts) — incluant les [encarts récurrents pour les fiches I-NOVMICRO](#encarts-récurrents-pour-les-fiches-i-novmicro)
+4. [Images](#images) — incluant l'[icône PNG (vignette)](#icône-png-vignette-du-header)
+5. [Texte](#texte) — incluant le [style pédagogique](#style-pédagogique--écrire-pour-des-élèves-pas-des-ingénieurs), les [objectifs d'apprentissage](#objectifs-dapprentissage), la [section Aller plus loin](#section-aller-plus-loin--pour-comprendre--pour-sinspirer)
 6. [Contenu à supprimer](#contenu-à-supprimer)
 7. [Notes enseignants](#notes-enseignants)
 8. [Catalogue (`resources.ts`)](#catalogue-resourcests)
 9. [Suivi photos](#suivi-photos)
 10. [Sous-pages (borne-arcade, programmation)](#sous-pages-borne-arcade-programmation)
 11. [Fiches de programmation extraites](#fiches-de-programmation-extraites)
-12. [Code MicroPython sur STeaMi](#code-micropython-sur-steami)
+12. [Code MicroPython sur STeaMi](#code-micropython-sur-steami) — incluant les [identifiants Python en français](#identifiants-python-en-français)
 13. [Fiches indépendantes de l'éditeur](#fiches-indépendantes-de-léditeur)
 14. [Captures vidéo / GIFs](#captures-vidéo--gifs)
 15. [Couleurs des projets](#couleurs-des-projets)
@@ -66,6 +66,46 @@ Couleurs et icônes : voir [`site/src/css/custom.css`](site/src/css/custom.css) 
 - Le titre par défaut est posé par le composant : surcharger avec `:::question[Mon titre]` si besoin
 - Pour ajouter un nouveau type custom : 1) déclarer le keyword dans `docusaurus.config.ts`, 2) créer le composant dans `site/src/theme/Admonition/Type/`, 3) référencer dans `site/src/theme/Admonition/Types.tsx`, 4) ajouter le CSS dans `custom.css`
 
+### Encarts récurrents pour les fiches I-NOVMICRO
+
+Plusieurs encarts récurrents structurent les fiches portées. Ils sont à reprendre à l'identique pour rester cohérent d'une fiche à l'autre.
+
+#### `:::info[Capteurs intégrés, rien à câbler]`
+
+À placer dans la section « De quoi parle-t-on ? » dès qu'on utilise un ou plusieurs capteurs internes :
+
+```md
+:::info[Capteurs intégrés, rien à câbler]
+[Liste des capteurs / actionneurs internes utilisés] sont déjà soudés à la STeaMi. Aucun montage à faire : on plonge directement dans le code.
+:::
+```
+
+#### `:::info[Première fois avec l'écran OLED ?]`
+
+À placer dans la section qui introduit `steami_screen`, juste avant le premier appel `ecran.show()` :
+
+```md
+:::info[Première fois avec l'écran OLED ?]
+Si tu n'as encore jamais piloté l'écran, la fiche [Afficher du texte sur l'écran OLED](/ressources/inovmicro-exao/i10-texte-oled) explique en détail le fonctionnement de la librairie `steami_screen`. Tu peux la consulter en parallèle si certaines lignes te paraissent obscures.
+:::
+```
+
+#### `:::info[Mesure vs réalité : ne pas conclure trop vite]`
+
+À placer dans toute fiche capteur qui présente une mesure absolue (température, pression, distance...). Encart de **rigueur scientifique** qui rappelle les biais possibles (auto-échauffement, emplacement, calibration) et renvoie vers `set_temp_offset()` ou équivalent. Phrase clé : _« notre mesure est utile pour explorer, pas pour certifier »_.
+
+#### `:::info[Conditions matérielles pour une mesure longue]`
+
+À placer dès qu'une fiche propose une expérience de plusieurs heures (datalogger, suivi nuit, etc.). Lister les options d'alimentation (USB ordi, chargeur secteur, batterie LiPo) et avertir des risques spécifiques (condensation en environnement froid, autonomie batterie limitée).
+
+#### `:::info[Comment lire la fiche en N minutes]`
+
+Quand une fiche dépasse une heure de matière, ajouter en haut d'Étape 2 un encart qui distingue la **séance** (Étapes 1-3 : construire, programmer, tester) du **prolongement** (Étape 4 : vraie expérience longue, calibration, transfert vers d'autres usages). Permet au prof de planifier son créneau.
+
+#### Encarts de curiosité
+
+Les encarts qui développent un concept au-delà du strict besoin du programme (par exemple « Le tampon d'affichage », « Pourquoi écrire une fonction ? », « Pythagore en 3D », « Aux origines de la musique électronique ») sont à encourager. Ils transforment la fiche en lecture qu'on peut traverser sans coder, ce qui élargit la cible.
+
 ## Images
 
 - En bloc, alignées à gauche par défaut (CSS global `display: block`)
@@ -99,7 +139,45 @@ Couleurs et icônes : voir [`site/src/css/custom.css`](site/src/css/custom.css) 
 
 - Centrage figure + image : `<figure style={{width: 'X%', margin: '1rem auto'}}><img style={{width: '100%'}}/></figure>`
 
+### Icône PNG (vignette du header)
+
+La vignette `icone.png` qui s'affiche à droite du header (225×225 px) est une **flat-illustration** qui représente le **sujet** de la fiche (l'objet, le concept, ou le résultat), pas la STeaMi ni le matériel.
+
+Critères :
+
+- **Style flat-illustration** vectoriel à plat, sans dégradés réalistes ni ombrage 3D. La banque [Flaticon](https://www.flaticon.com/) (catégorie « free icons ») est la source de référence du wiki ; toutes les fiches I-NOVMICRO partagent cette esthétique.
+- **Multicolore** dans la palette douce des autres fiches (jaune / rouge / vert / bleu, pas de noir massif).
+- **Représente le sujet** : une LED qui éclaire (i01), une note de musique (i07), un thérémine (i08), 3 axes pour l'accéléromètre (i09), un thermomètre (i11), un œuf au plat pour le minuteur à œufs (i14), un dashboard d'analyse de données pour le datalogger (i15).
+- **Pas de carte STeaMi dessinée** dessus, pas de texte dessiné dessus (le titre est déjà à côté).
+- **Pas d'image générée par IA** : ces images sont reconnaissables (effet « rendu 3D kitsch », polices typographiques génératives, faux composants électroniques) et créent une rupture visuelle avec le reste du wiki.
+
+Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit avec attribution dans `documentation/credits.md` si besoin), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
+
 ## Texte
+
+### Style pédagogique : écrire pour des élèves, pas des ingénieurs
+
+Le wiki s'adresse en priorité à des **élèves de collège et lycée**, dont seule une fraction a déjà la fibre programmation. La fiche doit accrocher tout le monde, et pas seulement ceux qui aiment déjà ça. Deux questions à se poser à chaque section :
+
+1. **Un élève qui n'aime pas le code, qui est là par obligation, va-t-il trouver une raison de continuer après ce paragraphe ?**
+2. **L'élément technique présenté répond-il à une question que l'élève s'est déjà posée, ou est-ce moi qui décide qu'il devrait se la poser ?**
+
+Si la réponse à la première est « non » ou si la réponse à la seconde est « c'est moi qui décide », il faut reformuler.
+
+**Principe directeur** : la technique pour la technique n'est jamais une fin en soi, c'est un moyen pour arriver à un résultat dont l'intérêt ne se mesure que par son utilité pour autrui. Une boucle non bloquante n'a aucune valeur en soi ; elle prend sa valeur dès qu'elle permet de cuisiner un œuf, de chronométrer un sprint ou de jouer à Time's Up.
+
+#### Ouverture concrète avant concept abstrait
+
+La section « De quoi parle-t-on ? » d'une fiche commence par **deux à quatre situations concrètes** que l'élève reconnaît dans sa vie quotidienne, avant d'introduire le concept central :
+
+| À éviter                                                                                                                                                             | À préférer                                                                                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _« Un minuteur cache trois questions de programmation : comment mesurer du temps précisément ? comment afficher une progression ? comment déclencher une alarme ? »_ | _« Tu connais ces petits minuteurs en plastique en forme d'œuf qu'on trouve dans certaines cuisines ? Sans lui le drame est garanti : œuf trop cuit, blanc caoutchouteux, jaune sec et farineux. »_ |
+| _« Un capteur mesure une grandeur physique et la convertit en valeur numérique. »_                                                                                   | _« Tu veux savoir comment évolue la température de ton frigo entre deux ouvertures de porte ? Si la classe est plus chaude le matin ou l'après-midi ? »_                                            |
+
+#### Référencer la culture pop, la cuisine, la vie courante
+
+Quand on illustre un concept ou qu'on liste des « usages », piocher dans **les références qui parlent aux ados** plutôt que dans la doc technique. La section « Pour s'inspirer » d'un Aller plus loin peut citer cuisine (Top Chef), espace (SpaceX), cinéma (Mission Impossible), gaming (speedrun Mario), jeu de société (Time's Up), productivité (Pomodoro), inclusion (Time Timer). Un élève doit pouvoir trouver au moins un angle qui le branche dans chaque liste.
 
 ### Mise en forme
 
@@ -166,6 +244,53 @@ Quand un concept technique est central mais opaque pour la cible, introduire une
 - **DAPLink** : _« la STeaMi est livrée avec un mode "clé USB" préinstallé »_ (le nom DAPLink lui-même n'a pas besoin d'apparaître).
 
 Le principe : **on part de ce que voit l'élève, on introduit le mot technique après pour le nommer**, jamais avant.
+
+### Objectifs d'apprentissage
+
+Format obligatoire : **« À la fin de cette activité, l'élève sera capable de... »** suivi d'une liste de 4 à 6 puces, chacune commençant par un **verbe d'action observable** au début (en gras), et orientée **usage** plutôt que **technique**.
+
+Verbes d'action recommandés, par registre :
+
+| Registre                   | Verbes                                                                    |
+| -------------------------- | ------------------------------------------------------------------------- |
+| Connaissance / restitution | **Citer**, **Définir**, **Décrire**, **Expliquer**                        |
+| Compréhension / lien       | **Faire le lien**, **Établir une relation**, **Comparer**, **Distinguer** |
+| Application                | **Construire**, **Faire dialoguer**, **Lire**, **Mesurer**, **Détecter**  |
+| Analyse                    | **Interpréter**, **Reconnaître**, **Identifier une variation**            |
+| Création / transfert       | **Détourner**, **Imaginer**, **Inventer**, **Adapter**                    |
+
+Comparatif de formulation :
+
+| À éviter                                                                                      | À préférer                                                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _« Comprendre la différence entre une temporisation bloquante et une boucle non bloquante. »_ | _« Faire tourner un programme qui reste vivant pendant l'attente, plutôt qu'un programme endormi qui ne se réveille qu'à la fin. »_                                                                 |
+| _« Lire plusieurs capteurs environnementaux en MicroPython. »_                                | _« Mener une vraie expérience scientifique du début à la fin : choisir une question, enregistrer les données, ouvrir le fichier sur l'ordinateur, et tirer une conclusion à partir d'une courbe. »_ |
+
+Au moins un objectif doit ouvrir sur la **transposition à d'autres usages** (« imaginer », « détourner »), pour signaler à l'élève qu'on n'apprend pas une technique isolée mais un patron adaptable.
+
+### Section Aller plus loin : Pour comprendre / Pour s'inspirer
+
+Toute fiche se termine par une section **`## Aller plus loin`** structurée en deux sous-sections obligatoires :
+
+```md
+## Aller plus loin
+
+### Pour comprendre
+
+- Liens qui nourrissent la curiosité sur le **sujet de fond** (histoire, physique, biologie, psychologie...).
+  Pas de documentation technique d'implémentation ici.
+
+### Pour s'inspirer
+
+- Projets, références culturelles, démarches citoyennes qui illustrent le concept appliqué « en vrai ».
+  Couvrir plusieurs angles (culture pop, sciences, art, sport, métiers) pour que chaque élève trouve un point d'entrée.
+```
+
+Règles :
+
+- **« Pour comprendre »** est non-technique. Pas de doc MicroPython, pas de doc librairie. Privilégier Wikipédia, CNRS Journal, articles de vulgarisation, sites de musées scientifiques. Pour un sujet « datalogger », mieux vaut citer _l'histoire des marins du 19e siècle qui notaient température et pression à la main_ que la doc `time.ticks_ms()`.
+- **« Pour s'inspirer »** mélange pop culture et démarche citoyenne. Cible explicite : un élève doit trouver au moins un lien qui le branche, peu importe ses centres d'intérêt. Citer 4 à 8 entrées.
+- **Crosslinks internes** : citer largement les autres fiches du wiki (`/ressources/...`) qui couvrent un angle complémentaire. Une fiche datalogger renvoie vers les fiches SteamCity (qualité de l'air, bruit, isolation) ; une fiche musique renvoie vers les fiches d'autres instruments ; etc.
 
 ### Caractères à éviter
 
@@ -362,6 +487,38 @@ raw     = ssd1327.WS_OLED_128X128_SPI(spi, dc, res, cs)
 display = SSD1327Display(raw)
 screen  = Screen(display)
 ```
+
+### Identifiants Python en français
+
+Les identifiants Python (variables, fonctions, paramètres) sont en **français ASCII** : pas d'accent (les identifiants Python ne supportent les accents que depuis 3.0, et la portabilité est meilleure sans), mais en français explicite plutôt qu'en anglais ou en abréviation.
+
+Tableau de renommage standard appliqué dans toutes les fiches I-NOVMICRO :
+
+| Domaine                        | Anglais / abrégé                                  | Français explicite                                                                |
+| ------------------------------ | ------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Écran OLED                     | `screen`                                          | `ecran`                                                                           |
+| Écran OLED (driver bas niveau) | `raw_display`                                     | `oled_brut`                                                                       |
+| Écran OLED (adaptateur)        | `display`                                         | `pilote_oled`                                                                     |
+| Buzzer (variable)              | `SPEAKER` (variable, distinct du nom de broche)   | `buzzer`                                                                          |
+| Capteurs                       | `pads`, `hts`, `tof`, `imu`                       | `capteur_pads`, `capteur_hts`, `capteur_distance`, `accelerometre`                |
+| Boutons (variables)            | `A_BUTTON`, `B_BUTTON`, `MENU_BUTTON` (variables) | `bouton_a`, `bouton_b`, `bouton_menu`                                             |
+| Broches d'initialisation       | `dc`, `res`, `cs`                                 | `broche_dc`, `broche_reset`, `broche_cs`                                          |
+| Fonction de son                | `tone(pin, freq, duration_ms)`                    | `jouer_note(broche, frequence, duree_ms)`                                         |
+| Variables son                  | `period_us`, `half_period`, `end_time`            | `periode_us`, `demi_periode`, `fin`                                               |
+| Mesures                        | `ax, ay, az`                                      | `acceleration_x, acceleration_y, acceleration_z`                                  |
+| Mesures (état précédent)       | `prev_ax, prev_ay, prev_az`                       | `acceleration_x_precedente, acceleration_y_precedente, acceleration_z_precedente` |
+| Norme vectorielle              | `magnitude`                                       | `intensite`                                                                       |
+| Fichier ouvert                 | `f` (dans `with open`)                            | `fichier`                                                                         |
+| Pourcentage                    | `pct`                                             | `pourcent`                                                                        |
+| Anglicismes divers             | `clamp`, `is_active`                              | `valeur_bornee`, `alarme_armee` (préfixer par le sujet, pas par `is_`)            |
+
+**Constantes en majuscules** restent dans le même style : `DO_4 = 262`, `NOIRE = 500`, `SEUIL_MOUVEMENT = 0.3`, `DISTANCE_ALERTE = 200`, `INTERVALLE_MS = 10_000`, etc.
+
+**Noms de broches firmware** (`"A_BUTTON"`, `"SPEAKER"`, `"MENU_BUTTON"`, `"DATA_COMMAND_DISPLAY"`, etc.) restent en anglais : ce sont des constantes du firmware STeaMi, on ne les renomme pas. On renomme seulement la **variable Python** qui contient l'objet `Pin` correspondant.
+
+**Affichage écran OLED** : la police embarquée ne supporte pas tous les caractères accentués ni le symbole `°`. Pour les chaînes affichées sur l'écran (`ecran.value(...)`, `ecran.title(...)`, etc.), utiliser de l'**ASCII pur** (`"Temperature"`, `"C"`, `"PAUSE"`), avec si besoin un callout `:::tip` expliquant le choix.
+
+**Cspell** : les identifiants ASCII français peuvent être flaggés comme « unknown words ». Quand un nouvel identifiant apparaît dans une fiche (par exemple `intensite`, `armee`, `decompte`), l'ajouter au dictionnaire `.cspell/wikilab.txt`. Si l'identifiant existe **aussi** comme `flagWord` (par exemple `accelerometre`, `ecran`), retirer cette entrée des `flagWords` dans `cspell.json` pour permettre l'usage en code Python.
 
 ### Bloc REPL avec avertissement sur `>>>`
 
