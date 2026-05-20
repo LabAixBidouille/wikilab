@@ -80,7 +80,7 @@ Brancher la STeaMi avec son câble USB (micro-USB sur la STeaMi V1, USB-C sur la
   </figcaption>
 </figure>
 
-### 2. Pas d'extension à installer
+### 2. Bibliothèques déjà incluses
 
 Les bibliothèques `ssd1327` (bas niveau) et `steami_screen` (haut niveau) sont déjà incluses dans MicroPython sur la STeaMi : il suffit de les importer, aucune installation préalable.
 
