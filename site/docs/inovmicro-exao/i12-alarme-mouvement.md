@@ -146,7 +146,7 @@ capteur_distance = VL53L1X(i2c)
 accelerometre = ISM330DL(i2c)
 
 # Mémoire de la dernière accélération (pour détecter une variation)
-accel_x_precedent, accel_y_precedent, accel_z_precedent = accelerometre.acceleration_g()
+acceleration_x_precedente, acceleration_y_precedente, acceleration_z_precedente = accelerometre.acceleration_g()
 
 # --- Bouton Menu et état de l'alarme ---
 bouton_menu = Pin("MENU_BUTTON", Pin.IN)
@@ -170,11 +170,11 @@ def sonner_alarme():
 
 while True:
     # 1. Mesurer l'accélération et calculer la variation depuis le tour précédent
-    accel_x, accel_y, accel_z = accelerometre.acceleration_g()
+    acceleration_x, acceleration_y, acceleration_z = accelerometre.acceleration_g()
     variation = (
-        abs(accel_x - accel_x_precedent)
-        + abs(accel_y - accel_y_precedent)
-        + abs(accel_z - accel_z_precedent)
+        abs(acceleration_x - acceleration_x_precedente)
+        + abs(acceleration_y - acceleration_y_precedente)
+        + abs(acceleration_z - acceleration_z_precedente)
     )
 
     # 2. Mesurer la distance à l'objet le plus proche
@@ -198,7 +198,11 @@ while True:
         sonner_alarme()
 
     # 5. Mémoriser l'accélération courante pour le prochain tour
-    accel_x_precedent, accel_y_precedent, accel_z_precedent = accel_x, accel_y, accel_z
+    acceleration_x_precedente, acceleration_y_precedente, acceleration_z_precedente = (
+        acceleration_x,
+        acceleration_y,
+        acceleration_z,
+    )
 
     time.sleep_ms(200)
 ```
