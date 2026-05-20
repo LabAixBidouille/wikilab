@@ -35,24 +35,20 @@ sidebar_position: 14
 
 ## De quoi parle-t-on ?
 
-Un minuteur, on en croise partout : sur le four pour les gâteaux, sur la machine à laver pour la lessive, sur le téléphone pour les exercices de sport, sur l'écran de l'ordinateur pour la technique Pomodoro. À chaque fois, c'est la même idée : un programme **compte le temps qui passe** et **prévient quand c'est fini**.
+Tu connais ces petits minuteurs en plastique en forme d'œuf qu'on trouve dans certaines cuisines ? On les remonte d'un tour, on les pose sur la table, et **ding !** ils sonnent quand c'est l'heure. C'est l'objet le plus simple imaginable, mais sans lui le drame est garanti : œuf trop cuit, blanc caoutchouteux, jaune sec et farineux. Personne ne veut ça.
 
-En apparence c'est très simple, mais ça cache trois questions de programmation très concrètes :
+Dans cette activité, on va **construire son propre minuteur à œufs** avec la STeaMi. Pas besoin d'acheter le petit gadget en plastique : on a tout ce qu'il faut intégré dans la carte. Le minuteur affichera le décompte en grand sur l'écran (style chronomètre de four), une barre de progression montrera le temps qui passe, et le buzzer sonnera l'alarme quand l'œuf est prêt. **Après l'avoir réalisé, tu seras un vrai grand chef !**
 
-- Comment **mesurer du temps** précisément quand le processeur fait plein d'autres choses ?
-- Comment **afficher une progression** qui se met à jour en temps réel sans figer le programme ?
-- Comment **déclencher une alarme** sonore reconnaissable ?
+Pour faire bouillir un œuf à la perfection, les chefs utilisent la règle des **3, 6, 9 minutes** :
 
-Dans cette activité, on va construire un **minuteur à œufs** en MicroPython, en utilisant uniquement les composants intégrés à la STeaMi : l'écran OLED pour afficher le décompte, le buzzer pour sonner à la fin, et les boutons A et B pour choisir la durée. La règle des **3, 6, 9 minutes** guide la cuisson parfaite :
+- **3 minutes** : œuf à la coque (blanc cuit, jaune coulant pour la mouillette)
+- **6 minutes** : œuf mollet (blanc cuit, jaune crémeux qui se savoure tiède)
+- **9 minutes** : œuf dur (idéal pour les salades et les pique-niques)
 
-- **3 minutes** : œuf à la coque (blanc cuit, jaune coulant)
-- **6 minutes** : œuf mollet (blanc cuit, jaune crémeux)
-- **9 minutes** : œuf dur (tout cuit)
+Et le même squelette de programme servira ensuite pour plein d'autres usages : compter tes 25 minutes de devoirs Pomodoro, chronométrer un sprint de 30 secondes, ou faire un sablier numérique pour les petits de la famille.
 
-Pas besoin de câbles ni de montage : tout est déjà là.
-
-:::info[Capteurs et acteurs intégrés, rien à câbler]
-L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code.
+:::info[Rien à câbler, tout est intégré]
+L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi. Aucun montage à faire : on plonge directement dans le code.
 :::
 
 ---
@@ -61,11 +57,10 @@ L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi.
 
 À la fin de cette activité, l'élève sera capable de :
 
-- **Expliquer** la différence entre une temporisation **bloquante** (`time.sleep`, qui fige le programme) et une **boucle non bloquante** (qui laisse le programme respirer entre deux mesures du temps).
-- **Mesurer un temps qui s'écoule** en MicroPython avec `time.ticks_ms()` et `time.ticks_diff()`, et expliquer pourquoi on n'utilise pas une simple soustraction.
-- **Afficher une progression** sur l'écran OLED avec une valeur numérique au format `MM:SS` et une barre qui se vide proportionnellement.
-- **Combiner plusieurs composants** (écran, buzzer, boutons) dans un même programme structuré en fonctions.
-- **Imaginer** d'autres applications du même squelette : Pomodoro, minuteur de sport, minuteur visuel pour enfants, sablier numérique...
+- **Construire un objet utile et amusant** : un vrai minuteur de cuisine en assemblant un écran, un buzzer et des boutons dans un seul programme cohérent.
+- **Lire un écran graphique comme un vrai cadran** : transformer une donnée brute (des millisecondes) en information utile (un chrono `MM:SS` lisible, une barre qui se vide, une mélodie qui sonne).
+- **Mesurer le temps qui passe** sans figer le programme, pour que l'écran puisse se rafraîchir pendant le décompte.
+- **Détourner le squelette** pour inventer d'autres usages : Pomodoro pour les devoirs, chronomètre de sport, sablier numérique pour les enfants, minuteur de jeu de société...
 ---
 
 ## Étape 1 : Construire
@@ -326,18 +321,13 @@ Le programme s'organise en **cinq fonctions** bien séparées, et la boucle prin
 - **`choisir_duree()`** : affiche le menu avec `ecran.text(..., at="...")` positionné par points cardinaux, puis scrute les deux boutons. La détection A+B simultané est possible parce qu'on lit les deux broches au même instant dans la boucle.
 - **`lancer_minuteur(duree_ms)`** : c'est le cœur du programme, la **boucle non bloquante**. Elle calcule à chaque itération le temps restant grâce à `ticks_diff()`, met à jour l'écran, et se termine dès que le compteur atteint zéro.
 
-:::info[Boucle bloquante vs boucle non bloquante]
+:::info[Pourquoi un écran qui se rafraîchit, et pas juste un long `sleep` ?]
 
-La tentation naturelle pour faire un minuteur de 3 minutes est d'écrire :
+La façon la plus simple d'attendre 3 minutes en Python, c'est d'écrire `time.sleep(180)`. Sauf que pendant ces 180 secondes, le programme dort comme une marmotte : impossible de mettre à jour l'écran, impossible d'écouter un bouton, impossible d'interrompre le minuteur en cours de route. Si tu te trompes de durée, tu attends 3 minutes pour pouvoir recommencer.
 
-```python
-time.sleep(180)        # attendre 3 min
-jouer_alarme()         # sonner
-```
+Notre minuteur fait autrement : il regarde l'horloge toutes les 100 millisecondes, recalcule combien il reste, redessine l'écran, et **seulement après** attend 100 ms avant de recommencer. C'est ce qui rend le chrono « vivant » : la barre se vide en continu, et le programme reste prêt à réagir.
 
-Ça fonctionne, mais pendant ces 180 secondes le programme **dort** : impossible de mettre à jour l'écran, d'écouter les boutons, ou même d'interrompre le minuteur. C'est une boucle **bloquante**.
-
-Notre fonction `lancer_minuteur()` fait autrement : elle prend la mesure du temps à intervalles courts (100 ms), met à jour l'affichage, puis attend juste un peu avant de recommencer. Entre deux mises à jour, le programme reste **réactif**. C'est le principe d'une boucle **non bloquante**, le squelette de toute interface graphique moderne.
+C'est la même technique qu'utilisent les jeux vidéo, les applications de téléphone, les distributeurs de billets : ne jamais bloquer trop longtemps, redessiner souvent, rester à l'écoute.
 
 :::
 
@@ -349,22 +339,25 @@ Notre fonction `lancer_minuteur()` fait autrement : elle prend la mesure du temp
 
 ## Étape 3 : Améliorer
 
-Trois pistes pour aller plus loin.
+Quatre pistes pour rendre ton minuteur encore plus utile (ou plus rigolo).
 
-### 1. Calibrer le minuteur
+### 1. Mode Pomodoro pour les devoirs
 
-Le minuteur tel qu'il est écrit n'est pas parfaitement précis : le temps passé dans `afficher_decompte()` et `jouer_alarme()` s'ajoute aux 100 ms de `sleep_ms()`, ce qui fait dériver le décompte. Pour mesurer l'écart, utiliser une horloge de référence (le téléphone) et chronométrer 10 fois la durée réelle d'un minuteur de 3 minutes. On calcule la valeur moyenne et on utilise un produit en croix pour trouver la correction à appliquer.
+Tes parents te tannent pour que tu fasses tes devoirs sans toucher au téléphone ? Voici le hack ultime : la **technique Pomodoro**, mise au point par un étudiant italien dans les années 1980. On bosse 25 minutes, on souffle 5 minutes, on recommence. Au bout de 4 cycles, on prend une vraie pause de 15 minutes.
+
+Adapte le minuteur en remplaçant les durées 3/6/9 par 25/5/15 :
 
 ```python
-# Si le minuteur mesure 3 min 05 s (185 s) pour 180 s réelles,
-# la valeur corrigée du délai est :
-# sleep_corrige = 100 × (180 / 185) ≈ 97 ms
-time.sleep_ms(97)   # à la place de 100
+DUREE_TRAVAIL = 25 * 60 * 1000
+DUREE_PAUSE_COURTE = 5 * 60 * 1000
+DUREE_PAUSE_LONGUE = 15 * 60 * 1000
 ```
 
-### 2. Ajouter un mode pause
+Bonus : enchaîne automatiquement travail → pause courte → travail → ... et joue un son différent au début de chaque phase.
 
-En l'état, le minuteur ne peut pas être mis en pause. On peut ajouter une vérification du bouton A dans la boucle principale pour suspendre et reprendre le décompte :
+### 2. Mode pause sur le minuteur
+
+L'eau bout trop fort, tu dois baisser le feu, et pendant ce temps tu voudrais bien arrêter le décompte. En l'état, impossible : le minuteur fonce jusqu'au bout. Ajoute un **bouton pause** en surveillant le bouton A dans la boucle principale :
 
 ```python
 def lancer_minuteur(duree_ms):
@@ -403,7 +396,7 @@ def lancer_minuteur(duree_ms):
 
 ### 3. Mélodie de fin personnalisée
 
-Remplacer la mélodie d'alarme par une vraie mélodie en définissant une séquence de notes. Chaque note est une combinaison de fréquence et de durée.
+Le « bip-bip-bip » d'alarme c'est efficace, mais ça manque de personnalité. Remplace-le par une vraie mélodie : une gamme ascendante triomphale, le thème de Tetris, le générique d'un dessin animé... À toi de choisir ce qui joue dans ta cuisine quand l'œuf est prêt.
 
 ```python
 # Mélodie : fréquence en Hz, durée en ms
@@ -422,6 +415,22 @@ def jouer_melodie():
         jouer_note(buzzer, frequence, duree)
         time.sleep_ms(50)   # silence inter-note
 ```
+
+Pour des mélodies plus ambitieuses (Mario, Tetris, Zelda), va voir la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) qui propose plusieurs partitions de jeux vidéo emblématiques.
+
+### 4. Calibrer ton minuteur pour qu'il soit précis à la seconde
+
+Le minuteur dérive légèrement : il met un peu plus de 3 minutes à atteindre zéro parce que rafraîchir l'écran et lire les boutons prend du temps. Pour les œufs, ce n'est pas grave (5 secondes d'écart ne ruinent pas une coque). Mais si tu veux chronométrer un sprint de 100 m précis, ça pose problème.
+
+**L'expérience scientifique** : lance le minuteur de 3 minutes et déclenche en même temps le chronomètre de ton téléphone. Quand le buzzer sonne, regarde combien de temps s'est vraiment écoulé. Si tu mesures 3 min 05 s (185 s) pour une consigne de 180 s, applique un produit en croix pour ajuster :
+
+```python
+# Si le minuteur affiche 0 alors qu'il s'est écoulé 185 s réelles
+# au lieu des 180 s annoncées, on accélère le décompte de 5/185 :
+time.sleep_ms(97)   # à la place de 100 (97 ≈ 100 × 180 / 185)
+```
+
+C'est la même méthode que celle qu'utilisent les horlogers et les ingénieurs en métrologie : on mesure, on compare, on corrige.
 
 ---
 
