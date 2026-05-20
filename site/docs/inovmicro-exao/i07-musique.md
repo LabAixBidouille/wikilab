@@ -362,7 +362,7 @@ partition = [
 
 #### The Legend of Zelda, thème principal (Koji Kondo, 1986)
 
-L'appel à l'aventure du tout premier Zelda sur NES, transcrit ici dans sa phrase la plus reconnaissable : Sib tenu, saut vers Fa, puis montée chromatique **Sib-Do-Ré-Mib** qui culmine sur le Fa aigu. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`, `MI_BEMOL_5` est un demi-ton sous `MI_5`).
+L'appel à l'aventure du tout premier Zelda sur NES, transcrit ici dans sa phrase la plus reconnaissable : Sib tenu, saut vers Fa, puis montée chromatique **Sib-Do-Ré-Mib** qui culmine sur le Fa aigu, et coda ascendante vers le Sib aigu via Fa#-Sol#. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`, `MI_BEMOL_5` est un demi-ton sous `MI_5`).
 
 <ABCNotation>
 {`X:1
@@ -371,7 +371,7 @@ M:4/4
 L:1/16
 Q:1/4=130
 K:Bb
-B4 F6 B2 B c d e | f2 B2 B c d e f8 | B4 F6 B2 B c d e | f2 B2 B c d e f8 |]`}
+B4 F6 B2 B c d e | f2 B2 B c d e f8 | f8 ^f ^g b6 |]`}
 </ABCNotation>
 
 ```python
@@ -382,14 +382,19 @@ DO_5 = 523
 RE_5 = 587
 MI_BEMOL_5 = 622
 FA_5 = 698
+FA_DIESE_5 = 740
+SOL_DIESE_5 = 831
+SI_BEMOL_5 = 932
 
 DOUBLE_CROCHE = 125
 NOIRE_POINTEE = 750
 BLANCHE = 1000
 
-# Le motif tourne deux fois : Sib4 tenu, saut grave vers Fa4, retour
-# Sib4, montée chromatique Sib-Do-Ré-Mib en doubles-croches, descente
-# sur le Fa5 aigu, nouvelle montée chromatique, conclusion sur Fa5.
+# Mesure 1 — motif iconique : Sib4 noire, saut grave vers Fa4 (noire
+# pointée), retour Sib4, montée chromatique Sib-Do-Ré-Mib en doubles-
+# croches. Mesure 2 — descente sur le Fa5 aigu, nouvelle montée
+# chromatique, Fa5 tenu en blanche. Mesure 3 — coda : Fa5 tenu, deux
+# doubles-croches Fa#-Sol# en passage, et culmination sur le Sib aigu.
 partition = [
     (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
     (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
@@ -398,14 +403,8 @@ partition = [
     (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
     (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
     (FA_5, BLANCHE),
-    # Répétition
-    (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
-    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
-    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, CROCHE),              (SI_BEMOL_4, CROCHE),
-    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
-    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE),
+    (FA_DIESE_5, DOUBLE_CROCHE), (SOL_DIESE_5, DOUBLE_CROCHE),
+    (SI_BEMOL_5, NOIRE_POINTEE),
 ]
 ```
 
