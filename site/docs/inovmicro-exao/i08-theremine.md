@@ -17,6 +17,7 @@ sidebar_position: 8
   <span className="badge badge--info">STeaMi</span>
   <span className="badge badge--warning">MicroPython</span>
 </div>
+
 | Projet        | Durée  | Difficulté | Âge       | Logiciel STeaMi testé |
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 30 min | Avancé     | 11-99 ans | 0.23.1                |
@@ -26,15 +27,17 @@ sidebar_position: 8
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE prenant en charge MicroPython
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i08-theremine/icone.png" alt="Thérémine sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
+
 ---
 
 ## De quoi parle-t-on ?
 
-Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé par Léon Thérémine en 1928, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol qui joue parfaitement le rôle de cette antenne — approcher ou éloigner la main change la fréquence du son émis par le buzzer. Faisons de la musique sans rien toucher !
+Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé par Léon Thérémine en 1928, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol qui joue parfaitement le rôle de cette antenne : approcher ou éloigner la main change la fréquence du son émis par le buzzer. Faisons de la musique sans rien toucher !
 
 ---
 
@@ -44,15 +47,16 @@ Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instr
 - Utiliser un Timer PWM pour générer un son continu et non bloquant sur le buzzer
 - Appliquer la fonction `map` pour convertir une plage de valeurs en une autre
 - Comprendre le lien entre fréquence et hauteur d'une note musicale
+
 ---
 
 ## Étape 1 : Construire
 
-"Construire" se résume ici à comprendre comment accéder aux composants de la carte — tout est déjà soudé.
+« Construire » se résume ici à comprendre comment accéder aux composants de la carte : tout est déjà soudé.
 
 ### Le capteur de distance VL53L1X
 
-Le VL53L1X est un capteur **ToF** (**T**ime **o**f **F**light — temps de vol) : il émet un faisceau laser infrarouge invisible et mesure le temps que met la lumière à revenir après réflexion sur un obstacle. Ce temps, multiplié par la vitesse de la lumière et divisé par deux, donne la distance en millimètres.
+Le VL53L1X est un capteur **ToF** (**T**ime **o**f **F**light, soit « temps de vol ») : il émet un faisceau laser infrarouge invisible et mesure le temps que met la lumière à revenir après réflexion sur un obstacle. Ce temps, multiplié par la vitesse de la lumière et divisé par deux, donne la distance en millimètres.
 
 :::info[Temps de vol vs ultrasons]
 Les capteurs à ultrasons utilisés dans d'autres projets mesurent aussi une distance par temps de vol, mais avec des ondes sonores (~340 m/s). Le VL53L1X utilise la lumière (~300 000 km/s), ce qui le rend beaucoup plus rapide et précis, avec une portée utile de 40 mm à 1300 mm environ.
@@ -77,21 +81,21 @@ Pour le thérémine, le son doit être **continu** et changer de fréquence en d
 from machine import Pin
 from pyb import Timer
 
-# Timer 1, canal 4 → broche SPEAKER
+# Timer 1, canal 4 : broche SPEAKER
 buzzer_tim = Timer(1, freq=440)
-buzzer_ch  = buzzer_tim.channel(4, Timer.PWM, pin=Pin("SPEAKER"))
+buzzer_ch = buzzer_tim.channel(4, Timer.PWM, pin=Pin("SPEAKER"))
 
-buzzer_ch.pulse_width_percent(50)   # 50% → son actif
-buzzer_ch.pulse_width_percent(0)    # 0%  → silence
+buzzer_ch.pulse_width_percent(50)   # 50% : son actif
+buzzer_ch.pulse_width_percent(0)    # 0%  : silence
 ```
 
 :::info[PWM et rapport cyclique]
-Un signal PWM alterne entre 0 V et 3,3 V à une fréquence donnée. Le **rapport cyclique** (ici `pulse_width_percent`) est le pourcentage du temps passé à 3,3 V. À 50 %, le signal est symétrique — c'est ce qui fait vibrer la membrane du buzzer à la fréquence du Timer et produit un son audible. À 0 %, le signal reste à 0 V : silence.
+Un signal PWM alterne entre 0 V et 3,3 V à une fréquence donnée. Le **rapport cyclique** (ici `pulse_width_percent`) est le pourcentage du temps passé à 3,3 V. À 50 %, le signal est symétrique : c'est ce qui fait vibrer la membrane du buzzer à la fréquence du Timer et produit un son audible. À 0 %, le signal reste à 0 V : silence.
 :::
 
 ### La fonction `map`
 
-MicroPython n'a pas de `map()` numérique intégré. On l'écrit en une ligne — c'est une simple règle de trois :
+MicroPython n'a pas de `map()` numérique intégré. On l'écrit en une ligne, c'est une simple règle de trois :
 
 ```python
 def map_val(val, in_min, in_max, out_min, out_max):
@@ -111,9 +115,9 @@ Les fréquences 440 Hz et 880 Hz ne sont pas choisies au hasard : 880 = 2 × 440
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si un des IDE proposés est déjà configuré, vous devriez voir le shell MicroPython (`>>>`).
+Brancher la STeaMi à l'ordinateur via le câble USB. Si un des IDE proposés est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
-### Tester le capteur dans le REPL
+### Tester le capteur dans l'invite
 
 ```python
 >>> from machine import I2C
@@ -161,10 +165,10 @@ buzzer_ch  = buzzer_tim.channel(4, Timer.PWM, pin=Pin("SPEAKER"))
 buzzer_ch.pulse_width_percent(0)   # silence au démarrage
 
 # --- Plages de jeu ---
-DIST_MIN = 50    # mm — en dessous, silence (trop proche)
-DIST_MAX = 500   # mm — au dessus, silence (trop loin)
-FREQ_MIN = 440   # Hz — La3
-FREQ_MAX = 880   # Hz — La4 (une octave au dessus)
+DIST_MIN = 50    # mm : en dessous, silence (trop proche)
+DIST_MAX = 500   # mm : au-dessus, silence (trop loin)
+FREQ_MIN = 440   # Hz : LA_4
+FREQ_MAX = 880   # Hz : LA_5 (une octave au-dessus)
 
 
 def map_val(val, in_min, in_max, out_min, out_max):
@@ -184,7 +188,7 @@ try:
             buzzer_tim.freq(freq)
             buzzer_ch.pulse_width_percent(50)
         else:
-            # Hors plage → silence
+            # Hors plage : silence
             buzzer_ch.pulse_width_percent(0)
 
         time.sleep_ms(30)
@@ -200,15 +204,17 @@ finally:
 
 Le programme s'articule autour de trois éléments :
 
-- **`VL53L1X`** : `tof.read()` déclenche une mesure et retourne la distance en millimètres. Le capteur gère lui-même la synchronisation — pas besoin d'attendre manuellement.
+- **`VL53L1X`** : `tof.read()` déclenche une mesure et retourne la distance en millimètres. Le capteur gère lui-même la synchronisation, pas besoin d'attendre manuellement.
 - **Timer PWM** : `buzzer_tim.freq(freq)` change la fréquence du Timer à la volée, sans interrompre le son ni bloquer la boucle. C'est ce qui donne l'effet glissando caractéristique du thérémine.
-- **`map_val()`** : transforme la distance (50–500 mm) en fréquence (440–880 Hz) par une règle de trois. Plus la main est proche, plus la valeur de distance est petite, plus la fréquence est basse — et inversement.
+- **`map_val()`** : transforme la distance (50 à 500 mm) en fréquence (440 à 880 Hz) par une règle de trois. Plus la main est proche, plus la valeur de distance est petite, plus la fréquence est basse, et inversement.
+
 Le bloc `try / finally` garantit que le buzzer est coupé proprement quand on arrête le programme avec `Ctrl+C`, pour ne pas laisser un son continu.
 
 ### Exécution
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). Approcher et éloigner la main devant le capteur pour jouer.
 - **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
 ---
 
 ## Étape 3 : Améliorer
@@ -217,11 +223,11 @@ Trois pistes pour aller plus loin.
 
 ### 1. Étendre la plage musicale
 
-Modifier `FREQ_MIN` et `FREQ_MAX` pour couvrir plusieurs octaves. En doublant la fréquence à chaque octave, on peut atteindre trois octaves avec 440 → 3520 Hz. Attention : le buzzer piézo de la STeaMi a une réponse en fréquence limitée, les extrêmes peuvent sonner moins fort.
+Modifier `FREQ_MIN` et `FREQ_MAX` pour couvrir plusieurs octaves. En doublant la fréquence à chaque octave, on peut atteindre trois octaves avec 440 Hz à 3520 Hz. Attention : le buzzer piézo de la STeaMi a une réponse en fréquence limitée, les extrêmes peuvent sonner moins fort.
 
 ```python
-FREQ_MIN = 220    # La2 — une octave plus bas
-FREQ_MAX = 1760   # La5 — deux octaves plus haut
+FREQ_MIN = 220    # Hz : LA_3, une octave plus bas
+FREQ_MAX = 1760   # Hz : LA_6, deux octaves plus haut
 ```
 
 ### 2. Quantiser les notes
@@ -262,6 +268,7 @@ screen.value(distance, label="Distance", unit="mm")
 screen.bar(map_val(distance, DIST_MIN, DIST_MAX, 0, 100), max_val=100)
 screen.show()
 ```
+
 <div style={{display: 'flex', justifyContent: 'center', margin: '1rem 0'}}>
 <img src="/img/ressources/inovmicro-exao/i08-theremine/steami_theremine.jpeg" alt="Thérémine sur la STeaMi avec écran" style={{width: '500px', height: '500px', objectFit: 'contain'}} />
 </div>
@@ -270,10 +277,19 @@ screen.show()
 
 ## Aller plus loin
 
-- [Thérémine (Wikipédia)](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) : histoire, principes de fonctionnement et utilisations de l'instrument.
-- [Wiki STeaMi : Capteurs intégrés](https://wiki.steami.cc/docs/hardware/main-components/sensors) : description du VL53L1X et des autres capteurs de la carte.
-- [Capteur de distance à anneau LED (Instructables)](https://www.instructables.com/LED-Ring-Distance-Sensor/) : projet amusant à base de capteur de distance.
+### Pour comprendre
+
+- **[Thérémine (Wikipédia)](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine)** : histoire de l'instrument, inventé en 1928 par Léon Thérémine, premier instrument joué sans contact physique. Comment fonctionnent ses deux antennes capacitives et pourquoi il a fasciné les compositeurs de musique électronique.
+- **[Temps de vol (Wikipédia)](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_temps_de_vol)** : la physique derrière le VL53L1X. Comment on peut mesurer une distance avec la vitesse de la lumière, et pourquoi cette technologie est aujourd'hui dans tous les téléphones (autofocus, déverrouillage facial) et dans les voitures autonomes (LIDAR).
+- **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsion)** : pourquoi un signal numérique qui ne sait dire que 0 ou 3,3 V peut produire un son audible, contrôler la vitesse d'un moteur ou faire varier la luminosité d'une LED. Le PWM est l'un des outils universels de l'électronique embarquée.
+
+### Pour s'inspirer
+
+- **[Clara Rockmore](https://fr.wikipedia.org/wiki/Clara_Rockmore)** : violoniste devenue première grande virtuose du thérémine dans les années 1930. Ses performances ont prouvé que cet « instrument bizarre » pouvait jouer du Bach et du Tchaïkovski avec une expressivité bouleversante. À écouter sur YouTube avec les yeux fermés.
+- **[Theremin Hero](https://www.thereminhero.com/)** : compositeur contemporain qui mêle thérémine, jeu vidéo rétro et pop électronique. Une preuve vivante que l'instrument de 1928 n'a rien perdu de son pouvoir d'évocation.
+- **[Capteur de distance à anneau LED (Instructables)](https://www.instructables.com/LED-Ring-Distance-Sensor/)** : un capteur de distance qui pilote un anneau de LED. Même principe que notre thérémine (mapper une distance vers autre chose), appliqué à la lumière au lieu du son.
+
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée de la fiche Let's STEAM [`r1as08-theremine`](/ressources/lets-steam/r1as08-theremine) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as08-theremine`](/ressources/lets-steam/r1as08-theremine)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 
