@@ -402,7 +402,7 @@ C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse l
 
 <ABCNotation>
 {`X:1
-T:The Legend of Zelda - Title
+T:The Legend of Zelda, thème principal
 M:4/4
 L:1/48
 Q:1/4=130
