@@ -46,6 +46,12 @@ sidebar_position: 12
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Alarme de mouvement](/ressources/inovmicro-exao/i12-alarme-mouvement).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Dans cette fiche d'activité, nous allons travailler sur un détecteur de mouvement comprenant une alarme avec 2 types de protections : protection contre l'ouverture par la force et détection d'ouverture.
