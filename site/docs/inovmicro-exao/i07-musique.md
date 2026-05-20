@@ -398,7 +398,7 @@ partition = [
 
 L'écran-titre du tout premier Zelda sur NES, transcrit dans sa quasi-intégralité (30 mesures) en Sib majeur. La structure se découpe en quatre temps : une **intro tenue** (Sib-Fa-Sib avec ornements descendants en Lab-Solb), le **motif iconique** répété deux fois avec des silences qui aèrent la phrase (Sib-Fa-Sib + montée chromatique culminant sur Fa5, contrebalancé par une descente grave Do-Ré-Mib-Fa en réponse), une **culmination** sur Sib5 avec développement descendant Fa-Mib-Réb-Do, puis une **reprise et coda** qui pousse encore plus haut (Do6 + Réb6) avant la résolution finale sur Fa4 grave.
 
-C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. La signature en Sib majeur n'a que deux bémols à la clé (Sib, Mib), mais le morceau utilise plusieurs accidents (`_A` = Lab, `_G` = Solb, `_d` = Réb…) qui apparaissent en `LA_BEMOL`, `SOL_BEMOL`, `RE_BEMOL` côté Python.
+C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. La signature en Sib majeur n'a que deux bémols à la clé (Sib, Mib), mais le morceau utilise plusieurs accidents (`_A` = Lab, `_G` = Solb, `_d` = Réb…) qui apparaissent en `LA_BEMOL_4`, `SOL_BEMOL_5`, `RE_BEMOL_5`, etc. côté Python (chaque constante est suffixée par son octave).
 
 <ABCNotation>
 {`X:1
@@ -448,6 +448,7 @@ RE_BEMOL_6 = 1109
 # Durées dérivées de CROCHE et NOIRE déjà définis en Étape 2 :
 # on les exprime relativement, pour rester cohérents si on change le tempo.
 DOUBLE_CROCHE = CROCHE // 2  # 125 ms
+TRIOLET_CROCHE = NOIRE // 3  # 166 ms — une croche dans un triolet
 CROCHE_POINTEE = CROCHE + DOUBLE_CROCHE  # 375 ms
 NOIRE_POINTEE = NOIRE + CROCHE  # 750 ms
 BLANCHE = 2 * NOIRE  # 1000 ms
@@ -485,10 +486,10 @@ partition = [
     # Mesures 11-12 — relance vers la culmination
     (SI_BEMOL_4, NOIRE), (FA_4, NOIRE_POINTEE), (SI_BEMOL_4, CROCHE_POINTEE),
     (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE_POINTEE), (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE),
     # Mesures 13-14 — culmination Sib5 + redescente
-    (SI_BEMOL_5, BLANCHE_POINTEE), (LA_BEMOL_5, DOUBLE_CROCHE), (SOL_BEMOL_5, DOUBLE_CROCHE),
-    (LA_BEMOL_5, CROCHE), (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
+    (SI_BEMOL_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE),
+    (LA_BEMOL_5, 2 * TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (FA_5, BLANCHE_POINTEE),
     # Mesures 15-17 — développement descendant Mib-Réb-Do
     (MI_BEMOL_5, CROCHE_POINTEE), (FA_5, DOUBLE_CROCHE), (SOL_BEMOL_5, BLANCHE),
     (FA_5, CROCHE), (MI_BEMOL_5, CROCHE),
@@ -500,7 +501,7 @@ partition = [
     # Mesures 19-22 — reprise + ascension vers le sommet absolu (Do6, Réb6)
     (SI_BEMOL_4, NOIRE), (FA_4, NOIRE_POINTEE), (SI_BEMOL_4, CROCHE_POINTEE),
     (DO_5, DOUBLE_CROCHE), (RE_5, DOUBLE_CROCHE), (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE_POINTEE), (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE_POINTEE + TRIOLET_CROCHE), (SOL_BEMOL_5, TRIOLET_CROCHE), (LA_BEMOL_5, TRIOLET_CROCHE),
     (SI_BEMOL_5, BLANCHE_POINTEE), (RE_BEMOL_6, NOIRE),
     (DO_6, NOIRE), (LA_5, BLANCHE), (FA_5, NOIRE),
     # Mesures 23-26 — oscillations descendantes Solb-Sib-La-Fa
