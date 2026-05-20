@@ -302,6 +302,16 @@ Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes
 
 L'ouverture la plus reconnaissable de l'histoire du jeu vidéo, « doo-doo doodoodoo-doo ». N'utilise que des notes naturelles.
 
+<ABCNotation>
+{`X:1
+T:Super Mario Bros - Ground Theme
+M:4/4
+L:1/8
+Q:1/4=200
+K:C
+e e z e z c e z | g4 z4 | G4 z4 |]`}
+</ABCNotation>
+
 ```python
 # Nouvelles constantes à ajouter en haut du fichier :
 SILENCE = 0   # 0 Hz est traité comme un silence par jouer_note
@@ -320,6 +330,16 @@ partition = [
 #### Pac-Man, jingle de démarrage (Toshio Kai, 1980)
 
 Le petit motif joué au lancement de chaque partie sur la borne arcade. Il introduit les **dièses** (`♯`) : un dièse hausse la note d'un demi-ton. En français on les nomme `FA_DIESE`, `RE_DIESE`, etc.
+
+<ABCNotation>
+{`X:1
+T:Pac-Man - Game Start
+M:2/4
+L:1/8
+Q:1/4=140
+K:C
+B b ^f ^d | b ^f ^d2 | c c' g e | c' g e2 |]`}
+</ABCNotation>
 
 ```python
 # Nouvelles constantes :
@@ -344,6 +364,16 @@ partition = [
 
 L'appel à l'aventure du tout premier Zelda sur NES. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`).
 
+<ABCNotation>
+{`X:1
+T:The Legend of Zelda - Overworld Theme
+M:4/4
+L:1/8
+Q:1/4=120
+K:Bb
+B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 |]`}
+</ABCNotation>
+
 ```python
 # Nouvelles constantes :
 FA_4 = 349
@@ -363,6 +393,16 @@ partition = [
 #### Kirby's Dream Land, Green Greens (Jun Ishikawa, 1992)
 
 Le thème principal du tout premier Kirby sur Game Boy : sautillant, joyeux, immédiatement reconnaissable. Sons rapides en croches.
+
+<ABCNotation>
+{`X:1
+T:Kirby - Green Greens
+M:4/4
+L:1/8
+Q:1/4=140
+K:C
+c e g e c e g2 | c f a f c f a2 | d g b g d g b2 |]`}
+</ABCNotation>
 
 ```python
 # Nouvelles constantes :
@@ -387,6 +427,16 @@ partition = [
 #### DuckTales, Moon Theme (Hiroshige Tonomura, 1989)
 
 Souvent cité parmi les plus belles musiques de la NES. Voici les premières mesures du motif principal, celles qui s'enchaînent dès l'arrivée sur la Lune.
+
+<ABCNotation>
+{`X:1
+T:DuckTales - Moon Theme
+M:4/4
+L:1/8
+Q:1/4=130
+K:C
+a2 a g ^f2 e d | e2 ^f g a2 b c' | d'4 z4 |]`}
+</ABCNotation>
 
 ```python
 # Nouvelles constantes :
