@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Fuse from 'fuse.js';
@@ -67,6 +67,98 @@ const INITIAL_FILTERS: Filters = {
   ageMax: 99,
   maxDuration: 240,
 };
+
+// Sérialisation des filtres dans les query params de l'URL : on omet
+// les valeurs par défaut pour garder l'URL courte et lisible.
+// Schéma : ?q=…&cat=a,b&proj=…&disc=…&tool=…&sw=…&diff=…&autre=1&age=4-99&dur=240
+const URL_KEYS = {
+  query: 'q',
+  categories: 'cat',
+  projects: 'proj',
+  disciplines: 'disc',
+  tools: 'tool',
+  software: 'sw',
+  difficulties: 'diff',
+  autre: 'autre',
+  age: 'age',
+  duration: 'dur',
+} as const;
+
+function filtersToSearch(f: Filters): string {
+  const params = new URLSearchParams();
+  if (f.query.trim()) params.set(URL_KEYS.query, f.query.trim());
+  if (f.categories.size > 0) params.set(URL_KEYS.categories, [...f.categories].join(','));
+  if (f.projects.size > 0) params.set(URL_KEYS.projects, [...f.projects].join(','));
+  if (f.disciplines.size > 0) params.set(URL_KEYS.disciplines, [...f.disciplines].join(','));
+  if (f.tools.size > 0) params.set(URL_KEYS.tools, [...f.tools].join(','));
+  if (f.software.size > 0) params.set(URL_KEYS.software, [...f.software].join(','));
+  if (f.difficulties.size > 0) params.set(URL_KEYS.difficulties, [...f.difficulties].join(','));
+  if (f.autreOnly) params.set(URL_KEYS.autre, '1');
+  if (f.ageMin !== INITIAL_FILTERS.ageMin || f.ageMax !== INITIAL_FILTERS.ageMax) {
+    params.set(URL_KEYS.age, `${f.ageMin}-${f.ageMax}`);
+  }
+  if (f.maxDuration !== INITIAL_FILTERS.maxDuration) {
+    params.set(URL_KEYS.duration, String(f.maxDuration));
+  }
+  return params.toString();
+}
+
+function parseSet<T extends string>(raw: string | null, allowed: readonly T[]): Set<T> {
+  if (!raw) return new Set();
+  const valid = new Set(allowed);
+  return new Set(
+    raw
+      .split(',')
+      .map((s) => s.trim())
+      .filter((s): s is T => (valid as Set<string>).has(s)),
+  );
+}
+
+function parseFiltersFromSearch(search: string): Filters {
+  const params = new URLSearchParams(search);
+  const next: Filters = { ...INITIAL_FILTERS };
+
+  const q = params.get(URL_KEYS.query);
+  if (q) next.query = q;
+
+  next.categories = parseSet(
+    params.get(URL_KEYS.categories),
+    Object.keys(categoryLabels) as Category[],
+  );
+  next.projects = parseSet(params.get(URL_KEYS.projects), Object.keys(projectLabels) as Project[]);
+  next.disciplines = parseSet(
+    params.get(URL_KEYS.disciplines),
+    Object.keys(disciplineLabels) as Discipline[],
+  );
+  next.tools = parseSet(params.get(URL_KEYS.tools), Object.keys(toolLabels) as Tool[]);
+  next.software = parseSet(
+    params.get(URL_KEYS.software),
+    Object.keys(softwareLabels) as Software[],
+  );
+  next.difficulties = parseSet(
+    params.get(URL_KEYS.difficulties),
+    Object.keys(difficultyLabels) as Difficulty[],
+  );
+
+  if (params.get(URL_KEYS.autre) === '1') next.autreOnly = true;
+
+  const age = params.get(URL_KEYS.age);
+  if (age && /^\d+-\d+$/.test(age)) {
+    const [min, max] = age.split('-').map(Number);
+    if (min >= 4 && max <= 99 && min <= max) {
+      next.ageMin = min;
+      next.ageMax = max;
+    }
+  }
+
+  const dur = params.get(URL_KEYS.duration);
+  if (dur && /^\d+$/.test(dur)) {
+    const n = Number(dur);
+    if (n >= 15 && n <= 240) next.maxDuration = n;
+  }
+
+  return next;
+}
 
 // Labels catégories sans emoji (pour le filtre)
 const categoryFilterLabels = Object.fromEntries(
@@ -198,6 +290,31 @@ function ResourceCard({ r }: { r: Resource }) {
 
 export default function Catalogue(): React.ReactElement {
   const [filters, setFilters] = useState<Filters>(INITIAL_FILTERS);
+  // `hydrated` empêche d'écrire l'URL avant d'avoir lu l'état initial
+  // depuis l'URL (sinon le 1er rendu effacerait les params au montage).
+  const hydrated = useRef(false);
+
+  // Hydratation : au montage côté client, lire les filtres depuis l'URL.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (window.location.search) {
+      setFilters(parseFiltersFromSearch(window.location.search));
+    }
+    hydrated.current = true;
+  }, []);
+
+  // Sync : à chaque changement de filtres (après hydratation), mettre à
+  // jour l'URL via replaceState (pas pushState, sinon chaque clic sur
+  // une checkbox crée une entrée dans l'historique navigateur).
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (!hydrated.current) return;
+    const search = filtersToSearch(filters);
+    const newUrl = window.location.pathname + (search ? `?${search}` : '') + window.location.hash;
+    if (newUrl !== window.location.pathname + window.location.search + window.location.hash) {
+      window.history.replaceState(null, '', newUrl);
+    }
+  }, [filters]);
 
   const fuse = useMemo(
     () =>
