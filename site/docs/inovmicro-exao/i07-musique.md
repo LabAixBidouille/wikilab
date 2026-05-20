@@ -296,7 +296,7 @@ Représenter une mélodie comme une **liste de tuples** est un choix courant en 
 
 ### 1. Changer de mélodie
 
-Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici cinq gimicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
+Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici cinq gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
 
 #### Super Mario Bros, Ground Theme (Koji Kondo, 1985)
 

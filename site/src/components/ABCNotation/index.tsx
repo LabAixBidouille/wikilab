@@ -17,7 +17,7 @@ function ABCNotationClient({
   staffwidth,
   inline = false,
 }: ABCNotationProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLElement | null>(null);
   const effectiveResponsive = responsive ?? !inline;
   const effectiveStaffWidth = staffwidth ?? (inline ? 60 : 740);
 
@@ -54,19 +54,19 @@ function ABCNotationClient({
     };
   }, [children, effectiveResponsive, effectiveStaffWidth, inline]);
 
+  const setRef = (el: HTMLElement | null) => {
+    containerRef.current = el;
+  };
+
   if (inline) {
     return (
-      <span
-        ref={containerRef}
-        className={styles.inline}
-        aria-label="Position de la note sur la portée"
-      />
+      <span ref={setRef} className={styles.inline} aria-label="Position de la note sur la portée" />
     );
   }
 
   return (
     <figure className={styles.figure}>
-      <div ref={containerRef} className={styles.score} aria-label="Partition musicale" />
+      <div ref={setRef} className={styles.score} aria-label="Partition musicale" />
       {caption && <figcaption className={styles.caption}>{caption}</figcaption>}
     </figure>
   );
@@ -77,9 +77,9 @@ export default function ABCNotation(props: ABCNotationProps): ReactNode {
     <BrowserOnly
       fallback={
         props.inline ? (
-          <span className={styles.inlineFallback}>…</span>
+          <span className={styles.inlineFallback}>...</span>
         ) : (
-          <div className={styles.fallback}>Chargement de la partition…</div>
+          <div className={styles.fallback}>Chargement de la partition...</div>
         )
       }
     >
