@@ -3836,7 +3836,7 @@ export const resources: Resource[] = [
     slug: '/ressources/inovmicro-exao/i11-thermometre-lisible',
     project: 'inovmicro-exao',
     summary:
-      "Lire la température et la pression depuis le capteur WSEN-PADS intégré à la STeaMi et les afficher sur l'écran OLED avec une jauge en arc de cercle, la valeur numérique en grand et un indicateur de confort thermique, sans aucun câblage externe.",
+      "Lire la température depuis le capteur WSEN-PADS intégré à la STeaMi et l'afficher sur l'écran OLED avec une jauge en arc de cercle, la valeur numérique en grand et un indicateur de confort thermique, sans aucun câblage externe. L'étape d'amélioration ajoute la pression atmosphérique et un historique graphique.",
     disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
     software: ['python'],

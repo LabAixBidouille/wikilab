@@ -97,8 +97,12 @@ print("{:.1f} °C  {:.0f} hPa".format(temperature, pression))
 Pour rendre l'affichage expressif, on va combiner trois widgets de `steami_screen` :
 
 - `ecran.gauge(val, min_val, max_val)` : un arc de cercle qui se remplit selon la valeur
-- `ecran.value(val, unit="°C", label="...")` : la valeur numérique en grand au centre
+- `ecran.value(val, unit="C", label="Temperature")` : la valeur numérique en grand au centre
 - `ecran.subtitle("...")` : un texte de commentaire en bas
+
+:::tip[Pourquoi pas de °C ni d'accent sur l'écran ?]
+La petite police de l'écran OLED n'embarque pas tous les caractères accentués ni le symbole `°`. On utilise donc des chaînes en ASCII pur (`"C"` au lieu de `"°C"`, `"Temperature"` au lieu de `"Température"`) pour garantir un affichage propre. Dans le corps du texte de la fiche, on garde évidemment les accents.
+:::
 
 :::info[Première fois avec l'écran OLED ?]
 
@@ -221,7 +225,16 @@ finally:
     ecran.show()
     capteur.power_off()
 ```
-<img src="/img/ressources/inovmicro-exao/i11-thermometre-lisible/thermometre.jpeg" alt="Thermomètre très lisible sur la STeaMi" style={{width: '550px', height: '550px', objectFit: 'contain', flexShrink: 0}} />
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i11-thermometre-lisible/thermometre.jpeg"
+    alt="Thermomètre très lisible sur la STeaMi"
+    style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    La STeaMi affichant la température et un commentaire de confort.
+  </figcaption>
+</figure>
 
 ### Comment cela fonctionne ?
 
