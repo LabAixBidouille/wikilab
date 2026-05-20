@@ -195,12 +195,17 @@ function ABCNotationClient({
         ? visualObj.millisecondsPerMeasure()
         : 1000;
 
-    // abcjs ajoute la classe `abcjs-note_selected` (rouge) sur la note
-    // cliquée et la laisse en place jusqu'à un autre clic. On la retire
-    // à la fin du son pour revenir au noir et signaler que le son est
-    // terminé. On programme le timer EN PARALLÈLE de `playEvent` (pas
-    // après son `await`) car selon les versions d'abcjs, la Promise
-    // peut ne jamais se résoudre — programmation indépendante plus sûre.
+    // abcjs ne pose pas de classe de sélection : il colorise les notes
+    // cliquées en mettant un attribut `fill` directement sur le `<g>`
+    // parent (les `path.abcjs-notehead` / `path.abcjs-stem` héritent en
+    // SVG, ou peuvent recevoir leur propre `fill`). Et cette couleur
+    // n'est jamais retirée tant qu'on ne re-clique pas ailleurs : les
+    // notes précédemment cliquées s'accumulent en rouge sur la portée.
+    // On nettoie tous les `[fill]` du containerRef à la fin du son.
+    //
+    // Timer programmé EN PARALLÈLE de `playEvent` (pas après son
+    // `await`) : selon les versions d'abcjs la Promise ne se résout
+    // pas toujours, donc on évite de dépendre du await.
     const totalWholeNotes = midiPitches.reduce(
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (max: number, p: any) => Math.max(max, (p.start ?? 0) + (p.duration ?? 0.5)),
@@ -208,13 +213,10 @@ function ABCNotationClient({
     );
     const noteDurationMs = Math.max(150, ms * totalWholeNotes + 100);
     window.setTimeout(() => {
-      // Cible scopée au container, avec fallback global au cas où abcjs
-      // poserait la classe sur un ancêtre hors du containerRef.
-      const root = containerRef.current ?? document;
-      root.querySelectorAll('.abcjs-note_selected, [class*="note_selected"]').forEach((el) => {
-        el.classList.forEach((cls) => {
-          if (cls.includes('note_selected')) el.classList.remove(cls);
-        });
+      const root = containerRef.current;
+      if (!root) return;
+      root.querySelectorAll('svg [fill]').forEach((el) => {
+        el.removeAttribute('fill');
       });
     }, noteDurationMs);
 
