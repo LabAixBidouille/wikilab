@@ -360,47 +360,52 @@ partition = [
 ]
 ```
 
-#### The Legend of Zelda, thème de la carte (Koji Kondo, 1986)
+#### The Legend of Zelda, thème principal (Koji Kondo, 1986)
 
-L'appel à l'aventure du tout premier Zelda sur NES. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`).
+L'appel à l'aventure du tout premier Zelda sur NES, transcrit ici dans sa phrase la plus reconnaissable : Sib tenu, saut vers Fa, puis montée chromatique **Sib-Do-Ré-Mib** qui culmine sur le Fa aigu. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`, `MI_BEMOL_5` est un demi-ton sous `MI_5`).
 
 <ABCNotation>
 {`X:1
-T:The Legend of Zelda - Overworld Theme
+T:The Legend of Zelda - Main Theme
 M:4/4
-L:1/8
-Q:1/4=120
+L:1/16
+Q:1/4=130
 K:Bb
-B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 | _e2 d2 _e2 f2 |
-B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 | B8 |]`}
+B4 F6 B2 B c d e | f2 B2 B c d e f8 | B4 F6 B2 B c d e | f2 B2 B c d e f8 |]`}
 </ABCNotation>
 
 ```python
 # Nouvelles constantes :
 FA_4 = 349
-SOL_4 = 392
-LA_4 = 440
 SI_BEMOL_4 = 466
+DO_5 = 523
 RE_5 = 587
 MI_BEMOL_5 = 622
 FA_5 = 698
+
+DOUBLE_CROCHE = 125
+NOIRE_POINTEE = 750
 BLANCHE = 1000
 
+# Le motif tourne deux fois : Sib4 tenu, saut grave vers Fa4, retour
+# Sib4, montée chromatique Sib-Do-Ré-Mib en doubles-croches, descente
+# sur le Fa5 aigu, nouvelle montée chromatique, conclusion sur Fa5.
 partition = [
-    # Phrase principale : Sib martelé puis montée en croches
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, BLANCHE),
-    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),      (SI_BEMOL_4, CROCHE),
+    (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
+    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
+    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE),              (SI_BEMOL_4, CROCHE),
+    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
+    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
     (FA_5, BLANCHE),
-    # Pont : motif ondulant Mib-Ré-Mib-Fa
-    (MI_BEMOL_5, NOIRE), (RE_5, NOIRE),   (MI_BEMOL_5, NOIRE), (FA_5, NOIRE),
-    # Reprise de la phrase principale
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),   (SI_BEMOL_4, BLANCHE),
-    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),      (SI_BEMOL_4, CROCHE),
+    # Répétition
+    (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
+    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
+    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE),              (SI_BEMOL_4, CROCHE),
+    (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
+    (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
     (FA_5, BLANCHE),
-    # Conclusion sur Sib tenu
-    (SI_BEMOL_4, BLANCHE),
 ]
 ```
 
