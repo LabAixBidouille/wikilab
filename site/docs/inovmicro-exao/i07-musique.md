@@ -296,7 +296,120 @@ Représenter une mélodie comme une **liste de tuples** est un choix courant en 
 
 ### 1. Changer de mélodie
 
-Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Les partitions classiques (« Au clair de la lune », « Frère Jacques », thèmes de jeux vidéo) se trouvent facilement en ligne avec leurs fréquences. Astuce : commencer petit (8-10 notes), tester, puis allonger.
+Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici cinq gimicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
+
+#### Super Mario Bros, Ground Theme (Koji Kondo, 1985)
+
+L'ouverture la plus reconnaissable de l'histoire du jeu vidéo, « doo-doo doodoodoo-doo ». N'utilise que des notes naturelles.
+
+```python
+# Nouvelles constantes à ajouter en haut du fichier :
+SILENCE = 0   # 0 Hz est traité comme un silence par jouer_note
+DO_5 = 523
+MI_5 = 659
+SOL_5 = 784
+
+partition = [
+    (MI_5, CROCHE),    (MI_5, CROCHE),    (SILENCE, CROCHE), (MI_5, CROCHE),
+    (SILENCE, CROCHE), (DO_5, CROCHE),    (MI_5, CROCHE),    (SILENCE, CROCHE),
+    (SOL_5, NOIRE),    (SILENCE, NOIRE),
+    (SOL_4, NOIRE),    (SILENCE, NOIRE),
+]
+```
+
+#### Pac-Man, jingle de démarrage (Toshio Kai, 1980)
+
+Le petit motif joué au lancement de chaque partie sur la borne arcade. Il introduit les **dièses** (`♯`) : un dièse hausse la note d'un demi-ton. En français on les nomme `FA_DIESE`, `RE_DIESE`, etc.
+
+```python
+# Nouvelles constantes :
+SI_4 = 494
+DO_5 = 523
+RE_DIESE_5 = 622
+MI_5 = 659
+FA_DIESE_5 = 740
+SOL_5 = 784
+SI_5 = 988
+DO_6 = 1047
+
+partition = [
+    (SI_4, CROCHE),       (SI_5, CROCHE),       (FA_DIESE_5, CROCHE), (RE_DIESE_5, CROCHE),
+    (SI_5, CROCHE),       (FA_DIESE_5, CROCHE), (RE_DIESE_5, NOIRE),
+    (DO_5, CROCHE),       (DO_6, CROCHE),       (SOL_5, CROCHE),      (MI_5, CROCHE),
+    (DO_6, CROCHE),       (SOL_5, CROCHE),      (MI_5, NOIRE),
+]
+```
+
+#### The Legend of Zelda, thème de la carte (Koji Kondo, 1986)
+
+L'appel à l'aventure du tout premier Zelda sur NES. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`).
+
+```python
+# Nouvelles constantes :
+FA_4 = 349
+SOL_4 = 392
+LA_4 = 440
+SI_BEMOL_4 = 466
+FA_5 = 698
+
+partition = [
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
+    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, BLANCHE),
+    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),     (SI_BEMOL_4, CROCHE),
+    (FA_5, BLANCHE),
+]
+```
+
+#### Kirby's Dream Land, Green Greens (Jun Ishikawa, 1992)
+
+Le thème principal du tout premier Kirby sur Game Boy : sautillant, joyeux, immédiatement reconnaissable. Sons rapides en croches.
+
+```python
+# Nouvelles constantes :
+DO_5 = 523
+RE_5 = 587
+MI_5 = 659
+FA_5 = 698
+SOL_5 = 784
+LA_5 = 880
+SI_5 = 988
+
+partition = [
+    (DO_5, CROCHE), (MI_5, CROCHE), (SOL_5, CROCHE), (MI_5, CROCHE),
+    (DO_5, CROCHE), (MI_5, CROCHE), (SOL_5, NOIRE),
+    (DO_5, CROCHE), (FA_5, CROCHE), (LA_5, CROCHE),  (FA_5, CROCHE),
+    (DO_5, CROCHE), (FA_5, CROCHE), (LA_5, NOIRE),
+    (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, CROCHE), (SOL_5, CROCHE),
+    (RE_5, CROCHE), (SOL_5, CROCHE), (SI_5, NOIRE),
+]
+```
+
+#### DuckTales, Moon Theme (Hiroshige Tonomura, 1989)
+
+Souvent cité parmi les plus belles musiques de la NES. Voici les premières mesures du motif principal, celles qui s'enchaînent dès l'arrivée sur la Lune.
+
+```python
+# Nouvelles constantes :
+RE_5 = 587
+MI_5 = 659
+FA_5 = 698
+FA_DIESE_5 = 740
+SOL_5 = 784
+LA_5 = 880
+SI_5 = 988
+DO_6 = 1047
+RE_6 = 1175
+
+partition = [
+    (LA_5, NOIRE),  (LA_5, CROCHE),       (SOL_5, CROCHE),
+    (FA_DIESE_5, NOIRE), (MI_5, CROCHE),  (RE_5, CROCHE),
+    (MI_5, NOIRE),  (FA_DIESE_5, CROCHE), (SOL_5, CROCHE),
+    (LA_5, NOIRE),  (SI_5, CROCHE),       (DO_6, CROCHE),
+    (RE_6, BLANCHE),
+]
+```
+
+Astuce : pour transcrire une mélodie qu'on a en tête, commencer petit (4-8 notes), tester sur la STeaMi, ajuster les notes qui sonnent faux, puis allonger. Les chiptunes annotées sont nombreuses sur YouTube ou sur des archives spécialisées comme [VGMusic](https://www.vgmusic.com/) et [The Mod Archive](https://modarchive.org/).
 
 ### 2. Choisir sa mélodie au bouton
 
