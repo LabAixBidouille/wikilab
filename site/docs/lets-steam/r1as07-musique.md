@@ -23,6 +23,12 @@ sidebar_position: 7
 |---|---|---|---|
 | Let's STEAM | 30 minutes | Avancé | 11-15 ans |
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Composer une mélodie](/ressources/inovmicro-exao/i07-musique).
+
+:::
+
 ## Matériel
 
 - 1 carte programmable "STM32 IoT Node Board"

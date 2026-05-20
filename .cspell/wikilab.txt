@@ -157,6 +157,8 @@ enquete
 intermediaire
 debutant
 avance
+frequence
+duree
 framebuffer
 rgba
 uasyncio
@@ -422,6 +424,7 @@ Kodi
 kohms
 Kojima
 Kombat
+Korobeïniki
 Kosny
 Kurzgesagt
 l'ajuga
@@ -506,6 +509,13 @@ Nucleo
 Nuruzzaman
 Néga
 Oakwood
+Overworld
+paddingleft
+paddingright
+paddingtop
+paddingbottom
+staffwidth
+abcjs
 Octo
 oeil
 oeuf
