@@ -157,6 +157,7 @@ enquete
 intermediaire
 debutant
 avance
+appuye
 framebuffer
 rgba
 uasyncio
