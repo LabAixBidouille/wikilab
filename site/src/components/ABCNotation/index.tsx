@@ -119,6 +119,13 @@ function ABCNotationClient({
         audioCtxRef.current.close().catch(() => undefined);
         audioCtxRef.current = null;
       }
+      // Réinitialise les états UI : si l'effet se relance (changement de
+      // `children`, `inline`…) on a stoppé le son ci-dessus, donc le
+      // bouton ne doit plus afficher « ⏹ Arrêter » ou « ⏳ Chargement… ».
+      // setState dans un cleanup est sans effet à l'unmount (React le
+      // détecte) et propre lors d'un re-déclenchement d'effet.
+      setIsPlaying(false);
+      setIsLoadingAudio(false);
     };
   }, [children, effectiveResponsive, effectiveStaffWidth, inline]);
 
