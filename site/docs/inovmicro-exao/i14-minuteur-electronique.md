@@ -103,13 +103,14 @@ Une fois l'objet `ecran` créé, on dispose notamment de :
 - `ecran.bar(val, max_val=100)` : dessine une barre de progression horizontale
 - `ecran.text("texte", at="S")` : texte positionné par point cardinal (N, S, E, W, CENTER...)
 - `ecran.show()` : envoie le tampon vers l'écran physique
+
 :::info[Le tampon d'affichage]
-L'écran ne se met pas à jour automatiquement quand on lui envoie du contenu. Toutes les fonctions de dessin modifient un **tampon en mémoire**. C'est seulement `screen.show()` qui transfère ce tampon vers l'écran physique. Cette approche évite les scintillements : on prépare toute l'image, puis on l'affiche d'un coup.
+L'écran ne se met pas à jour automatiquement quand on lui envoie du contenu. Toutes les fonctions de dessin modifient un **tampon en mémoire**. C'est seulement `ecran.show()` qui transfère ce tampon vers l'écran physique. Cette approche évite les scintillements : on prépare toute l'image, puis on l'affiche d'un coup.
 :::
 
 ### Le buzzer
 
-Le buzzer de la STeaMi est un [transducteur piézoélectrique](https://fr.wikipedia.org/wiki/Capteur_pi%C3%A9zo%C3%A9lectrique) passif : quand on lui applique une tension qui alterne rapidement, une fine plaque de céramique vibre et produit un son. La fréquence de l'alternance détermine la hauteur de la note. On le pilote avec une fonction `tone()` qui génère la fréquence voulue par bit-banging :
+Le buzzer de la STeaMi est un [transducteur piézoélectrique](https://fr.wikipedia.org/wiki/Capteur_pi%C3%A9zo%C3%A9lectrique) passif : quand on lui applique une tension qui alterne rapidement, une fine plaque de céramique vibre et produit un son. La fréquence de l'alternance détermine la hauteur de la note. On le pilote avec une fonction `jouer_note()` qui génère la fréquence voulue par bit-banging :
 
 ```python
 from machine import Pin
@@ -249,7 +250,7 @@ def afficher_decompte(restant_ms, total_ms):
     texte_temps = "{:02d}:{:02d}".format(minutes, secondes)
 
     # Pourcentage de temps restant (0 a 100)
-    pourcent = int(100 * restant_ms / total_ms)
+    pourcent = (100 * restant_ms) // total_ms
 
     ecran.clear()
     ecran.value(texte_temps, label="Minuteur a oeufs")
