@@ -84,29 +84,39 @@ jobs:
           # - sur l'ouverture du PR (opened / reopened), BEFORE est absent
           #   ou nul (40 zéros) : on retombe sur BASE pour traiter toutes
           #   les images du PR initial.
+          # `fetch-depth: 0` au checkout couvre normalement tous les objets,
+          # mais BEFORE ou BASE peuvent ne plus être atteignables s'ils ont
+          # été force-pushés / réécrits. On tente d'abord un fetch défensif
+          # de BEFORE pour préserver le scope « diff du push courant » et
+          # on ne retombe sur BASE qu'en dernier recours (sinon un rebase
+          # déclencherait un diff base..head qui recompresserait tout le PR).
           REF=""
           if [ -n "$BEFORE" ] \
-             && [ "$BEFORE" != "0000000000000000000000000000000000000000" ] \
-             && git rev-parse --verify --quiet "$BEFORE^{commit}" > /dev/null; then
-            REF="$BEFORE"
-            echo "Diff vs HEAD du push précédent ($BEFORE)."
-          else
-            # `fetch-depth: 0` au checkout couvre normalement tous les objets,
-            # mais base.sha peut ne plus être atteignable s'il a été
-            # force-pushé après la création de la PR. On vérifie sa présence
-            # locale et on le re-fetche uniquement si nécessaire, en
-            # échouant franchement si le fetch ne récupère rien (sinon le
-            # `git diff` qui suit donne des résultats incohérents et
-            # silencieux).
+             && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+            if ! git rev-parse --verify --quiet "$BEFORE^{commit}" > /dev/null; then
+              echo "BEFORE SHA $BEFORE absent du clone local, fetch défensif..."
+              if git fetch --depth=1 origin "$BEFORE" 2>/dev/null \
+                 && git rev-parse --verify --quiet "$BEFORE^{commit}" > /dev/null; then
+                REF="$BEFORE"
+                echo "BEFORE récupéré : diff vs HEAD du push précédent ($BEFORE)."
+              else
+                echo "::warning::BEFORE SHA $BEFORE introuvable (rebase / force-push ?). Fallback sur BASE."
+              fi
+            else
+              REF="$BEFORE"
+              echo "Diff vs HEAD du push précédent ($BEFORE)."
+            fi
+          fi
+          if [ -z "$REF" ]; then
             if ! git rev-parse --verify --quiet "$BASE^{commit}" > /dev/null; then
               echo "Base SHA $BASE absent du clone local, fetch défensif..."
               if ! git fetch --depth=1 origin "$BASE"; then
-                echo "::error::Impossible de récupérer la base SHA $BASE (force-push ?). Diff impossible."
+                echo "::error::Impossible de récupérer la base SHA $BASE. Diff impossible."
                 exit 1
               fi
             fi
             REF="$BASE"
-            echo "Diff vs base de PR ($BASE) (premier déclenchement ou before indisponible)."
+            echo "Diff vs base de PR ($BASE) (premier déclenchement, before indisponible ou non récupérable)."
           fi
 
           # Filtrage post-hoc plutôt que pathspecs `**` : les pathspecs git
@@ -176,6 +186,11 @@ jobs:
       - if: steps.changed.outputs.skip != 'true'
         uses: calibreapp/image-actions@1.4.1
         with:
+          # GITHUB_TOKEN (et non un PAT) : les commits poussés par l'action
+          # avec ce token ne re-déclenchent volontairement pas de workflow
+          # côté GitHub, donc pas besoin d'un garde-fou
+          # `github.actor != 'github-actions[bot]'` pour casser une boucle
+          # éventuelle — la plateforme la casse déjà.
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # compressOnly: false → l'action commit + poste un récap sur la PR.
           compressOnly: false
