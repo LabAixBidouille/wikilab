@@ -173,6 +173,53 @@ Installés via `npm ci` à la racine. Ils s'exécutent à chaque commit sans act
 - Si le sujet/durée/difficulté change, mettre à jour aussi l'entrée dans `resources.ts`.
 - Pour les changements importants, mentionner dans la PR si une re-validation pédagogique est nécessaire.
 
+### Porter une fiche Let's STEAM vers I-NOVMICRO (STeaMi / MicroPython)
+
+Les 15 fiches Let's STEAM (`r1as01` à `r1as15`) ont leur équivalent STeaMi / MicroPython (`i01` à `i15`). La démarche de portage a été standardisée pendant la phase 1 (cf. EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2)). Pour adapter une nouvelle fiche d'un autre projet vers I-NOVMICRO, ou pour relire une PR de portage, suivre le workflow en **trois passes successives** :
+
+#### Passe 1 — Conformité LS-spirit
+
+Vérifie l'alignement structurel avec les autres fiches I-NOVMICRO :
+
+- [ ] Convention de nommage : `iNN` correspondant au `r1asNN` source (cf. [`CONVENTIONS.md` § Fiches indépendantes de l'éditeur](CONVENTIONS.md#convention-de-nommage-des-fiches-i-novmicro))
+- [ ] `sidebar_position: NN` cohérent avec le numéro
+- [ ] Couleur SVG du header : `#8a6e18` (I-Novmicro), pas `#140e4e` (Let's STEAM)
+- [ ] Badge tool : `SteaMi` (capitalisation canonique), pas `STeaMi`
+- [ ] Matériel : retire l'avertissement « câble qui ne sert qu'à charger un téléphone », ajoute la référence à la fiche Thonny `t03-decouverte-thonny`
+- [ ] Vocabulaire : remplacer « shell », « REPL » par « invite » avec définition (cf. [`CONVENTIONS.md` § Fiches indépendantes de l'éditeur](CONVENTIONS.md#fiches-de-capteur--actionneur--activité--pas-déditeur-imposé))
+- [ ] Footer canonique « Adaptée du projet \[Let's STEAM\] (...) (fiche \[\`r1asNN-...\`\](...)) » détectable par `lint:crosslinks`
+- [ ] Callout `:::info[Version STeaMi / MicroPython]` réciproque dans la fiche LS source
+- [ ] Caractères non-ASCII (em-dashes `—`, en-dashes `–`, ellipses `…`, flèches `→`) remplacés (cf. [`CONVENTIONS.md` § Caractères à éviter](CONVENTIONS.md#caractères-à-éviter))
+- [ ] Section « Aller plus loin » structurée en « Pour comprendre » + « Pour s'inspirer » (cf. [`CONVENTIONS.md`](CONVENTIONS.md#section-aller-plus-loin--pour-comprendre--pour-sinspirer))
+- [ ] Icône `icone.png` flat-illustration Flaticon, pas image IA (cf. [`CONVENTIONS.md` § Icône PNG](CONVENTIONS.md#icône-png-vignette-du-header))
+
+#### Passe 2 — Pédagogie « élève secondaire »
+
+C'est l'étape qui transforme une fiche techniquement correcte en fiche **engageante pour tous les élèves**. Au minimum :
+
+- [ ] « De quoi parle-t-on ? » s'ouvre par **2 à 4 situations concrètes** que l'élève reconnaît (pas par 3 questions de programmation)
+- [ ] Objectifs au format **« L'élève sera capable de... »** avec verbes d'action observables, orientés usage plutôt que technique (cf. [`CONVENTIONS.md` § Objectifs d'apprentissage](CONVENTIONS.md#objectifs-dapprentissage))
+- [ ] Au moins un objectif ouvre sur la **transposition** à d'autres usages (« imaginer », « détourner »)
+- [ ] Encarts récurrents en place quand applicables (« Capteurs intégrés », « Première fois avec l'écran OLED », « Mesure vs réalité », « Conditions matérielles pour une mesure longue », cf. [`CONVENTIONS.md` § Encarts récurrents](CONVENTIONS.md#encarts-récurrents-pour-les-fiches-i-novmicro))
+- [ ] « Pour s'inspirer » mélange culture pop, sciences, art, sport, métiers — pas que la doc technique
+- [ ] Crosslinks vers les autres fiches I-NOVMICRO et SteamCity dès qu'un angle complémentaire existe
+
+#### Passe 3 — Code en français explicite
+
+- [ ] Identifiants Python renommés selon le tableau standard (cf. [`CONVENTIONS.md` § Identifiants Python en français](CONVENTIONS.md#identifiants-python-en-français))
+- [ ] Mise à jour systématique dans toutes les Étapes (initialisation, programme principal, améliorations)
+- [ ] Identifiants ajoutés à `.cspell/wikilab.txt` si flaggés comme unknown words
+- [ ] `flagWords` de `cspell.json` mis à jour si nécessaire
+
+#### Workflow de PR pour un portage
+
+1. Première PR par le ou la contributrice : portage technique fonctionnel (LS-spirit minimal, code en franglais accepté).
+2. Revue par un mainteneur : applique les passes 1 et 2 sur la branche, force-push après alignement et relecture humaine.
+3. Passe 3 (code FR) en parallèle ou immédiatement après si la base technique est validée.
+4. Revue Copilot, traitement des retours, merge.
+
+Le pattern « PR initiale + passes mainteneur » est explicite et documenté dans la description de PR pour que le ou la contributrice initiale puisse voir comment sa fiche a évolué. Un commentaire d'explication détaillé est posté pour partager le _pourquoi_ des changements.
+
 ### Ajouter un nouveau projet
 
 Plus rare et plus structurant. Préalable : ouvrir une issue pour discuter du périmètre. Voir comment les projets existants sont structurés (`site/data/projects.ts`, `site/docs/<projet>/`, page projet dans `site/src/pages/projets/`).

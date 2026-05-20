@@ -520,7 +520,10 @@ accelerometre
 ecran
 intensite
 armee
+bornee
 decompte
+periode
+precedente
 Würth
 Elektronik
 Pomodoro
