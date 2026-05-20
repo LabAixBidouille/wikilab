@@ -151,9 +151,51 @@ FA_4 = 349
 SOL_4 = 392
 LA_4 = 440
 
-# Durées en millisecondes (ms).
-LONGUE = 500
-BREVE = 250
+# Durées en millisecondes (ms). Notre partition n'utilise que CROCHE et NOIRE,
+# mais on pourrait ajouter DOUBLE_CROCHE = 125, BLANCHE = 1000, RONDE = 2000
+# pour enrichir le vocabulaire rythmique (voir tableau ci-dessous).
+CROCHE = 250
+NOIRE = 500
+
+# Le thème principal de Tetris ("Korobeïniki", chanson traditionnelle
+# russe de 1861, popularisée par le jeu Nintendo en 1989), transposé
+# une octave en dessous pour mieux sonner sur le buzzer.
+# Chaque tuple est une note (fréquence, durée).
+partition = [
+    (MI_4, NOIRE),
+    (SI_3, CROCHE),
+    (DO_4, CROCHE),
+    (RE_4, NOIRE),
+    (DO_4, CROCHE),
+    (SI_3, CROCHE),
+    (LA_3, NOIRE),
+    (LA_3, CROCHE),
+    (DO_4, CROCHE),
+    (MI_4, NOIRE),
+    (RE_4, CROCHE),
+    (DO_4, CROCHE),
+    (SI_3, NOIRE),
+    (SI_3, CROCHE),
+    (DO_4, CROCHE),
+    (RE_4, NOIRE),
+    (MI_4, NOIRE),
+    (DO_4, NOIRE),
+    (LA_3, NOIRE),
+    (LA_3, NOIRE),
+    (RE_4, NOIRE),
+    (FA_4, CROCHE),
+    (LA_4, CROCHE),
+    (LA_4, CROCHE),
+    (SOL_4, CROCHE),
+    (FA_4, CROCHE),
+    (MI_4, NOIRE),
+    (DO_4, NOIRE),
+    (MI_4, NOIRE),
+    (RE_4, CROCHE),
+    (DO_4, CROCHE),
+    (SI_3, NOIRE),
+    (SI_3, CROCHE),
+]
 
 
 def jouer_note(pin, frequence, duree_ms):
@@ -171,22 +213,6 @@ def jouer_note(pin, frequence, duree_ms):
         time.sleep_us(demi_periode)
 
 
-# Le thème principal de Tetris ("Korobeïniki", chanson traditionnelle
-# russe de 1861, popularisée par le jeu Nintendo en 1989), transposé
-# une octave en dessous pour mieux sonner sur le buzzer.
-# Chaque tuple est une note (fréquence, durée).
-partition = [
-    (MI_4, LONGUE),  (SI_3, BREVE),  (DO_4, BREVE),  (RE_4, LONGUE),
-    (DO_4, BREVE),   (SI_3, BREVE),  (LA_3, LONGUE), (LA_3, BREVE),
-    (DO_4, BREVE),   (MI_4, LONGUE), (RE_4, BREVE),  (DO_4, BREVE),
-    (SI_3, LONGUE),  (SI_3, BREVE),  (DO_4, BREVE),  (RE_4, LONGUE),
-    (MI_4, LONGUE),  (DO_4, LONGUE), (LA_3, LONGUE), (LA_3, LONGUE),
-    (RE_4, LONGUE),  (FA_4, BREVE),  (LA_4, BREVE),  (LA_4, BREVE),
-    (SOL_4, BREVE),  (FA_4, BREVE),  (MI_4, LONGUE), (DO_4, LONGUE),
-    (MI_4, LONGUE),  (RE_4, BREVE),  (DO_4, BREVE),  (SI_3, LONGUE),
-    (SI_3, BREVE),
-]
-
 while True:
     for frequence, duree in partition:
         jouer_note(speaker, frequence, duree)
@@ -197,7 +223,7 @@ while True:
 
 La liste `partition` est exactement la transposition Python de la première moitié de Korobeïniki, mesure par mesure :
 
-<ABCNotation caption="Korobeïniki (thème principal de Tetris) — transposé d'une octave vers le grave pour mieux sonner sur le buzzer.">
+<ABCNotation caption="Korobeïniki (thème principal de Tetris), transposé d'une octave vers le grave pour mieux sonner sur le buzzer.">
 {`X:1
 T:Korobeïniki (thème principal de Tetris)
 C:Anonyme, Russie (1861)
@@ -212,23 +238,37 @@ F A A G | F E2 C- | C E2 D | C B,2 B, |]`}
 
 Chaque mesure de la portée correspond à une ligne (ou un fragment) de la liste Python. Le suffixe `_3` ou `_4` dans les noms de notes indique l'**octave** : `MI_4` est le mi grave qu'on entend ici, `MI_5` serait l'octave au-dessus.
 
-#### Noires, croches et millisecondes
+#### Du symbole musical aux millisecondes
 
-Sur une partition, la durée d'une note se lit à la forme du symbole : une **noire** (♩) est deux fois plus longue qu'une **croche** (♪). Notre code reproduit exactement ce rapport, mais en millisecondes :
+Sur une partition, la durée d'une note se lit à la forme du symbole. Chaque symbole vaut deux fois la durée du précédent : une **ronde** dure deux **blanches**, une blanche dure deux **noires**, une noire dure deux **croches**, et une croche dure deux **doubles croches**.
 
-| Notation musicale | Symbole | Durée dans le code | Valeur |
-| ----------------- | ------- | ------------------ | ------ |
-| Noire             | ♩       | `LONGUE`           | 500 ms |
-| Croche            | ♪       | `BREVE`            | 250 ms |
+<ABCNotation caption="Les cinq durées de note, du plus long au plus court. Chaque symbole dure deux fois moins que le précédent.">
+{`X:1
+M:none
+L:1/4
+K:C
+C4 C2 C C/2 C/4 |]
+w: Ronde Blanche Noire Croche Double-croche`}
+</ABCNotation>
 
-Une noire dure exactement deux croches : `LONGUE = 2 × BREVE`. À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms — d'où la valeur choisie. Pour accélérer la mélodie, il suffit de diviser `LONGUE` et `BREVE` par le même nombre.
+Notre code reproduit exactement ce rapport, mais en millisecondes :
+
+| Notation musicale | Durée dans le code | Valeur (ms) |
+| ----------------- | ------------------ | ----------- |
+| Ronde             | `RONDE`            | 2000        |
+| Blanche           | `BLANCHE`          | 1000        |
+| Noire             | `NOIRE`            | 500         |
+| Croche            | `CROCHE`           | 250         |
+| Double croche     | `DOUBLE_CROCHE`    | 125         |
+
+À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms, d'où la valeur choisie. Notre mélodie de Tetris n'utilise que `NOIRE` et `CROCHE`, mais le même principe permet d'ajouter les trois autres durées dès qu'on veut tenir une note plus longtemps (`BLANCHE`, `RONDE`) ou jouer des passages plus rapides (`DOUBLE_CROCHE`). Pour accélérer ou ralentir l'ensemble de la mélodie, il suffit de multiplier ou diviser toutes les durées par un même facteur.
 
 ### Comment cela fonctionne ?
 
 Le programme s'organise en quatre parties :
 
 - **Initialisation** : `Pin('SPEAKER', Pin.OUT_PP)` configure la broche du buzzer en sortie _push-pull_ (la broche peut activement imposer 0 V ou 3,3 V, c'est ce qu'il faut pour piloter le buzzer).
-- **Constantes nommées** : avant tout calcul, on donne un nom parlant aux fréquences (`DO_4`, `RE_4`, `MI_4`...) et aux durées (`LONGUE`, `BREVE`). Le code ne manipule plus des nombres mystérieux comme `330` ou `500`, mais des notes et des durées qu'un musicien reconnaît au premier coup d'œil.
+- **Constantes nommées** : avant tout calcul, on donne un nom parlant aux fréquences (`DO_4`, `RE_4`, `MI_4`...) et aux durées (`NOIRE`, `CROCHE`). Le code ne manipule plus des nombres mystérieux comme `330` ou `500`, mais des notes et des durées qu'un musicien reconnaît au premier coup d'œil.
 - **Fonction `jouer_note(pin, frequence, duree_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est le _bit-banging_ évoqué plus haut.
 - **Boucle principale** : on parcourt la liste `partition` avec une boucle `for`, on joue chaque note via `jouer_note()`, et on ajoute un petit silence de 30 ms entre les notes pour qu'elles soient bien distinctes. Le `while True` extérieur fait répéter la mélodie indéfiniment.
 
