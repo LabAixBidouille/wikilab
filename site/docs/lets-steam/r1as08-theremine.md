@@ -47,6 +47,12 @@ sidebar_position: 8
 
 ---
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine).
+
+:::
+
 ## De quoi parle-t-on ?
 
 Un thérémine est un instrument de musique électronique dont on peut jouer sans le toucher. Le concept original est basé sur l'utilisation de deux antennes pour détecter la position des mains. Une antenne est utilisée pour le volume, et l'autre pour la hauteur du son.
