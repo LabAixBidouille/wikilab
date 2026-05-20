@@ -21,7 +21,10 @@ import { translate } from '@docusaurus/Translate';
 import HomeBreadcrumbItem from '@theme/DocBreadcrumbs/Items/Home';
 import DocBreadcrumbsStructuredData from '@theme/DocBreadcrumbs/StructuredData';
 
-import { categoryLabels, type Category } from '../../data/resources';
+// Import depuis le module léger `categories.ts` plutôt que `resources.ts`
+// pour ne pas embarquer le tableau `resources` (~4500 lignes) dans le
+// bundle des pages docs où DocBreadcrumbs est rendu.
+import { categoryLabels, type Category } from '../../data/categories';
 import styles from './styles.module.css';
 
 // Map inverse : label affiché → clé Category. Permet de retrouver
@@ -96,13 +99,15 @@ export default function DocBreadcrumbs(): ReactNode {
           {homePageRoute && <HomeBreadcrumbItem />}
           {breadcrumbs.map((item, idx) => {
             const isLast = idx === breadcrumbs.length - 1;
-            let href: string | undefined =
-              item.type === 'category' && item.linkUnlisted ? undefined : item.href;
+            const isUnlisted = item.type === 'category' && item.linkUnlisted;
+            let href: string | undefined = isUnlisted ? undefined : item.href;
 
             // Pour les catégories sans href (= pas de page d'index)
             // dont le label correspond à une catégorie pédagogique
             // connue, on génère un lien vers le catalogue préfiltré.
-            if (!href && item.type === 'category') {
+            // On exclut les `linkUnlisted` : Docusaurus a volontairement
+            // retiré leur lien, on respecte cette intention.
+            if (!href && !isUnlisted && item.type === 'category') {
               const catKey = LABEL_TO_CATEGORY[item.label];
               if (catKey) {
                 href = `${catalogueBase}?cat=${catKey}`;
