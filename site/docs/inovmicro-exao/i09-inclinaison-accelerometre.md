@@ -36,22 +36,27 @@ sidebar_position: 9
 
 ## De quoi parle-t-on ?
 
-Les [accéléromètres](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre) sont de petits capteurs qui mesurent la force d'accélération appliquée à un objet, y compris la gravité terrestre. En lisant cette force sur les trois axes X, Y et Z, on peut déterminer l'orientation d'un objet, détecter un choc, ou encore reconnaître une chute libre.
+Quand tu inclines ton téléphone, l'écran bascule du mode portrait au mode paysage. Quand tu secoues une manette de Wii, le personnage du jeu réagit. Quand un airbag se déclenche dans une voiture, c'est parce qu'un minuscule composant a détecté le choc en une fraction de seconde. Ces trois petits miracles du quotidien fonctionnent grâce au même composant : un [**accéléromètre**](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre).
 
-La STeaMi intègre un accéléromètre 6 axes **ISM330DL** directement sur la carte. Dans cette activité, on va écrire un **capteur d'inclinaison** qui affiche l'orientation de la carte sur l'écran OLED et déclenche une alarme sonore si l'accélération dépasse un seuil : le genre de dispositif utile pour détecter la triche sur un vieux flipper classique.
+Un accéléromètre est un capteur qui mesure les **forces** qui agissent sur lui : un coup, une secousse, une chute, mais aussi, en permanence, la **force de gravité** qui tire tout vers le bas. Quand on tient un téléphone droit, la gravité « appuie » sur le côté du bas ; quand on l'incline, elle appuie sur un autre côté. C'est exactement ainsi que le téléphone sait dans quel sens il est tenu.
 
-:::info[Accéléromètre intégré]
-L'ISM330DL est déjà soudé sur la STeaMi : pas besoin de connecter quoi que ce soit pour l'utiliser. On y accède directement via le bus I2C interne de la carte.
+Dans cette activité, on va utiliser l'accéléromètre intégré à la STeaMi pour fabriquer un **détecteur d'inclinaison et de choc** : la carte affiche son orientation en temps réel sur l'écran et déclenche un bip d'alarme si on la secoue. C'est le principe du capteur anti-triche d'un flipper, ou de l'alarme antivol d'un sac.
+
+:::info[Capteur intégré, rien à câbler]
+L'accéléromètre est déjà soudé à l'intérieur de la STeaMi. On n'a rien à brancher : il suffit de l'appeler depuis le code.
 :::
 
 ---
 
 ## Objectifs d'apprentissage
 
-- Comprendre ce qu'est un **accéléromètre**, comment il « ressent » la gravité, et où on en croise dans la vie quotidienne (téléphones, manettes de jeu, podomètres, sacs gonflables des voitures)
-- Lire l'**accélération** sur les axes X, Y et Z et **interpréter** les valeurs pour déduire l'orientation de la carte
-- Reconnaître un événement physique (**choc**, **chute libre**) à partir d'un capteur, et comprendre pourquoi on raisonne sur la **norme** d'un vecteur plutôt que sur un axe isolé
-- Initialiser un capteur I2C en MicroPython avec le module `ism330dl` et afficher des mesures temps réel sur l'écran OLED via `steami_screen`
+À la fin de cette activité, l'élève sera capable de :
+
+- **Expliquer** ce qu'est un accéléromètre, et citer trois objets du quotidien qui en contiennent un (téléphone, manette de jeu, montre connectée, voiture, drone...).
+- **Faire le lien** entre la force de gravité et l'orientation d'un objet : pourquoi un capteur immobile peut indiquer dans quel sens il est tenu.
+- **Lire** les valeurs d'accélération sur les trois axes X, Y et Z, et **interpréter** ce qu'elles disent (à plat ? sur la tranche ? à l'envers ?).
+- **Reconnaître un événement physique** (un choc, une chute libre) à partir des mesures du capteur, et comprendre pourquoi on regarde **l'ensemble** des trois axes plutôt qu'un seul.
+- **Imaginer** d'autres usages du capteur : alarme antivol, détecteur de pas, manette de jeu, niveau à bulle numérique...
 
 ---
 
@@ -59,11 +64,17 @@ L'ISM330DL est déjà soudé sur la STeaMi : pas besoin de connecter quoi que ce
 
 « Construire » se résume ici à comprendre comment accéder aux composants de la carte : tout est déjà soudé.
 
-### L'accéléromètre ISM330DL
+### Comment un accéléromètre « voit » le monde
 
-L'ISM330DL est un **IMU** (Inertial Measurement Unit) 6 axes : il combine un accéléromètre 3 axes et un gyroscope 3 axes dans un seul boîtier. Dans cette fiche, on utilise uniquement l'accéléromètre.
+Un accéléromètre mesure les forces qui agissent sur lui, dans **trois directions** qu'on appelle des **axes** : X (gauche-droite), Y (haut-bas du point de vue de la carte) et Z (devant-derrière, c'est-à-dire entre l'écran et le dos). Quand la carte est immobile, la seule force qui agit dessus est la **gravité**, qui tire tout vers le bas. Selon la façon dont on tient la carte, cette force se répartit différemment entre les trois axes : c'est ce qui permet de deviner son orientation.
 
-L'accélération est mesurée en **G** (force gravitationnelle). Sur Terre, la gravité exerce 1 G sur tout objet au repos. Quand la carte est posée à plat sur une table, l'axe Z mesure environ -1 G ; quand elle est tenue verticalement, c'est l'axe X ou Y qui reçoit ce 1 G. C'est cette répartition de la gravité entre les axes qui permet de déduire l'orientation.
+L'unité de mesure utilisée est le **G**, qui correspond à la gravité terrestre. Une valeur de 1 G, c'est la force que tu sens en permanence quand tu es debout (le poids de ton corps). Une valeur de 0 G, c'est l'apesanteur des astronautes en orbite. Un coup brusque sur la carte peut dépasser 2 ou 3 G.
+
+:::info[Une image pour s'y retrouver]
+Imagine que la carte est un petit aquarium contenant une bille très lourde. La bille tombe toujours vers le bas. Selon la position de l'aquarium, la bille se retrouve contre l'un des six côtés. L'accéléromètre fait pareil, mais avec une masse minuscule gravée dans le silicium, et il mesure **précisément** vers quels côtés cette masse appuie. C'est de là que vient le nom de capteur **MEMS** (microsystème électromécanique).
+:::
+
+### Lire l'accélération en MicroPython
 
 ```python
 from machine import I2C
@@ -76,29 +87,30 @@ ax, ay, az = imu.acceleration_g()   # valeurs en G (float)
 print(ax, ay, az)
 ```
 
-Le module `ism330dl` expose également une méthode `orientation()` qui analyse les trois axes et renvoie directement une chaîne décrivant l'orientation :
+### Demander directement l'orientation
 
-| Valeur retournée  | Signification                        |
-| ----------------- | ------------------------------------ |
-| `SCREEN_UP`       | Écran vers le haut (à plat)          |
-| `SCREEN_DOWN`     | Écran vers le bas (retourné)         |
-| `TOP_EDGE_DOWN`   | Bord supérieur vers le bas           |
-| `BOTTOM_EDGE_DOWN`| Bord inférieur vers le bas           |
-| `RIGHT_EDGE_DOWN` | Bord droit vers le bas               |
-| `LEFT_EDGE_DOWN`  | Bord gauche vers le bas              |
-| `MOVING`          | En mouvement (aucun axe dominant)    |
+Plutôt que d'analyser nous-mêmes les trois valeurs, on peut demander au module `ism330dl` de le faire pour nous, avec la méthode `orientation()`. Elle renvoie un mot-clé qui décrit la position de la carte :
 
-### La valeur absolue
+| Mot-clé retourné   | Que dit la carte                     |
+| ------------------ | ------------------------------------ |
+| `SCREEN_UP`        | « Je suis à plat, écran vers le haut » |
+| `SCREEN_DOWN`      | « Je suis à plat, écran vers le bas (retournée) » |
+| `TOP_EDGE_DOWN`    | « Je suis sur la tranche, bord haut en bas » |
+| `BOTTOM_EDGE_DOWN` | « Je suis sur la tranche, bord bas en bas » |
+| `RIGHT_EDGE_DOWN`  | « Je suis sur le côté droit »        |
+| `LEFT_EDGE_DOWN`   | « Je suis sur le côté gauche »       |
+| `MOVING`           | « Je bouge, je ne sais pas dire »    |
 
-Pour détecter une inclinaison ou un choc, la direction de l'accélération n'a souvent pas d'importance : seule l'intensité compte. On utilise `abs()` pour ignorer le signe :
+### Valeur absolue : ignorer la direction
+
+Imagine qu'on veut savoir si la carte penche, sans se soucier de **vers quel côté** : à gauche ou à droite, les deux comptent. Un coup tapé sur le côté gauche donne `ax = -0.7` ; un coup tapé à droite donne `ax = +0.7`. Ce sont deux situations différentes par leur signe (négatif ou positif), mais l'intensité du coup est la même.
+
+La fonction `abs()` (pour _absolute value_, valeur absolue en français) supprime le signe : `abs(-0.7)` et `abs(+0.7)` valent tous les deux `0.7`. C'est exactement ce qu'il nous faut pour détecter une inclinaison « peu importe le sens » :
 
 ```python
-import math
-
 ax, ay, az = imu.acceleration_g()
-# abs() donne la magnitude sans tenir compte du signe
 if abs(ax) > 0.5:
-    print("Inclinaison détectée sur X !")
+    print("La carte penche fortement sur le côté (peu importe lequel) !")
 ```
 
 ### Connecter la carte à l'ordinateur
@@ -125,7 +137,7 @@ La carte est à plat, écran vers le haut : az ≈ -1 G et `orientation()` renvo
 
 ## Étape 2 : Programmer
 
-Le programme affiche en permanence l'accélération sur les trois axes et l'orientation sur l'écran OLED. Si l'accélération totale dépasse un seuil configurable (choc ou secousse), le buzzer émet un bip d'alerte.
+On va écrire un programme qui répète sans cesse la même boucle : **lire** le capteur, **afficher** ce qu'il dit sur l'écran, et **bipper** si quelqu'un secoue la carte. C'est ce qu'on appelle une **boucle de mesure** : c'est le squelette de presque tous les programmes qui interagissent avec un capteur en temps réel.
 
 ### Composants utilisés
 
@@ -220,14 +232,26 @@ while True:
 
 ### Comment cela fonctionne ?
 
-Le programme s'organise en trois parties :
+Le programme se lit en trois temps :
 
-- **Initialisation** : on instancie `ISM330DL` sur le bus I2C interne (`I2C(1)`). Le constructeur configure automatiquement l'accéléromètre à 104 Hz et ±2 G de pleine échelle, des réglages adaptés à la détection d'inclinaison.
-- **`afficher_capteur()`** : utilise `screen.title()` pour afficher l'orientation en haut, et `screen.text(..., at="...")` avec les points cardinaux pour positionner les trois valeurs X, Y, Z sur le côté gauche de l'écran.
-- **Boucle principale** : lit les trois axes, calcule la **norme** du vecteur accélération (`sqrt(ax² + ay² + az²)`). Au repos, cette norme vaut toujours environ 1 G (la gravité). Si elle dépasse `SEUIL_CHOC`, c'est qu'un choc ou une secousse s'est produit, et le buzzer sonne.
+- **Préparation** : on « réveille » les trois composants qu'on va utiliser : l'écran OLED, l'accéléromètre, et la broche du buzzer. C'est l'équivalent de sortir ses crayons et ses cahiers avant un contrôle : on n'écrit pas encore, mais tout est prêt.
+- **Fonctions auxiliaires** : `bip_alerte()` et `afficher_capteur()` rassemblent des opérations qui seront utilisées plusieurs fois. Les définir une bonne fois pour toutes rend la boucle principale beaucoup plus courte et lisible (c'est le principe de l'abstraction, vu dans la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique)).
+- **Boucle principale** (`while True`) : c'est le cœur du programme. À chaque tour (environ 5 fois par seconde), on lit l'accéléromètre, on calcule l'intensité totale du mouvement, on rafraîchit l'écran, et on déclenche un bip si on dépasse le seuil. Cette boucle ne s'arrête jamais : c'est ce qui rend notre détecteur **réactif**.
 
-:::info[La norme du vecteur accélération]
-Quand la carte est immobile, la gravité (~1 G) se répartit entre les axes selon l'inclinaison, mais la norme reste 1 G. Un choc ajoute une accélération supplémentaire qui fait monter la norme au-delà de 1 G. C'est pour ça qu'on compare la norme à `SEUIL_CHOC` plutôt qu'à un axe individuel : cette méthode détecte les chocs quelle que soit l'orientation de la carte.
+:::info[Pourquoi on additionne les trois axes au carré]
+
+Tu vois cette ligne mystérieuse dans le programme ?
+
+```python
+magnitude = math.sqrt(ax * ax + ay * ay + az * az)
+```
+
+C'est le **théorème de Pythagore en 3D**. En 2D au collège, on apprend que la longueur de la diagonale d'un rectangle est `sqrt(largeur² + hauteur²)`. En 3D, on rajoute simplement la troisième dimension : `sqrt(largeur² + hauteur² + profondeur²)`. Cette formule donne **l'intensité totale** d'un mouvement, quel que soit le sens dans lequel on l'a fait.
+
+Pourquoi c'est utile ? Imagine que la carte est posée à plat (donc `az = -1 G`, la gravité tire vers le bas). Si on lui tape dessus sur le côté, c'est `ax` qui réagit. Si on la cogne par devant, c'est `ay`. Si on regardait un seul axe à la fois, on ne détecterait que les chocs venus d'une certaine direction. En additionnant les trois axes au carré, on construit un capteur de choc **omnidirectionnel** : il réagit à tout coup, peu importe d'où il vient.
+
+Au repos, cette `magnitude` vaut toujours environ 1 G (juste la gravité). Quand quelqu'un secoue la carte, elle dépasse rapidement 1,5 G ou 2 G. C'est sur ce dépassement qu'on déclenche l'alarme.
+
 :::
 
 ### Exécution
@@ -241,9 +265,9 @@ Quand la carte est immobile, la gravité (~1 G) se répartit entre les axes selo
 
 Trois pistes pour aller plus loin.
 
-### 1. Calibrer le seuil de choc
+### 1. Trouver le bon seuil expérimentalement
 
-Le seuil `SEUIL_CHOC = 1.5` est arbitraire. Pour le calibrer, afficher la magnitude dans le REPL et noter les valeurs lors de différentes actions (pose douce, tape légère, secousse franche) :
+La valeur `SEUIL_CHOC = 1.5` qu'on a choisie est arbitraire : peut-être qu'elle est trop sensible (le buzzer sonne au moindre frôlement), peut-être pas assez (il faut taper fort pour la déclencher). On peut faire mieux en **mesurant** ce qui se passe vraiment. Remplacer la boucle principale par celle-ci, qui affiche la magnitude dans l'invite :
 
 ```python
 while True:
@@ -253,11 +277,13 @@ while True:
     time.sleep_ms(100)
 ```
 
-Choisir ensuite `SEUIL_CHOC` juste au-dessus du bruit de fond (environ 1.05 G) et en-dessous des actions que l'on veut détecter.
+Noter la magnitude pour quatre actions : carte immobile (le « bruit de fond », environ 1 G), petit tapotement, secousse franche, choc fort. Le bon seuil se situe **juste au-dessus** du tapotement, et **en-dessous** de la secousse, selon ce qu'on veut déclencher comme alerte. C'est ce qu'on appelle **calibrer** un capteur : ajuster ses paramètres avec des mesures réelles plutôt que des valeurs prises au hasard.
 
 ### 2. Détecter la chute libre
 
-En chute libre, la gravité ne s'applique plus : les trois axes tendent vers 0 G et la norme devient très faible. On peut détecter cette situation avec un seuil bas :
+Voici une expérience contre-intuitive : un objet **en chute libre** ne ressent plus la gravité. Les astronautes dans la Station spatiale internationale tombent en permanence (autour de la Terre), c'est pour ça qu'ils flottent. Plus simplement : lorsqu'on lâche un téléphone, pendant le bref instant où il chute, son accéléromètre indique presque 0 G sur tous les axes.
+
+On peut s'en servir pour détecter qu'on est en train de **lâcher la carte** :
 
 ```python
 SEUIL_CHUTE_LIBRE = 0.2   # en G
@@ -275,9 +301,13 @@ while True:
     time.sleep_ms(50)   # scruter plus fréquemment pour ne pas rater l'événement
 ```
 
-### 3. Afficher une jauge d'inclinaison
+:::tip[Ne pas tester en vrai]
+La chute libre est plus facile à simuler **en faisant tourner la carte au-dessus de sa tête au bout d'une ficelle** (la force centrifuge contre l'attraction) qu'en la lâchant pour de bon. Le capteur fonctionne, ce serait dommage de casser la carte pour le prouver.
+:::
 
-Plutôt que des chiffres bruts, on peut représenter l'inclinaison visuellement avec `screen.bar()`. Par exemple, mapper l'axe X (-1 G à +1 G) sur une barre de progression (0 à 100) :
+### 3. Transformer la carte en niveau à bulle
+
+Plutôt que d'afficher des chiffres bruts, on peut représenter visuellement l'inclinaison comme un **niveau à bulle de menuisier**. Avec `screen.bar()`, on dessine une barre qui se déplace selon l'axe X : quand la carte est parfaitement à plat (`ax = 0`), la barre est au centre (50 %). Quand on penche la carte vers la gauche, la barre va à gauche ; vers la droite, à droite.
 
 ```python
 def axe_vers_pct(valeur_g):
