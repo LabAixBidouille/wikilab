@@ -296,7 +296,7 @@ Représenter une mélodie comme une **liste de tuples** est un choix courant en 
 
 ### 1. Changer de mélodie
 
-Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici cinq gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
+Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici quatre gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
 
 #### Super Mario Bros, Ground Theme (Koji Kondo, 1985)
 
@@ -360,36 +360,6 @@ partition = [
 ]
 ```
 
-#### The Legend of Zelda, thème de la carte (Koji Kondo, 1986)
-
-L'appel à l'aventure du tout premier Zelda sur NES. Il introduit les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton (`SI_BEMOL_4` est un demi-ton sous `SI_4`).
-
-<ABCNotation>
-{`X:1
-T:The Legend of Zelda - Overworld Theme
-M:4/4
-L:1/8
-Q:1/4=120
-K:Bb
-B2 f2 B2 F2 | B2 f2 B4 | F G A B f4 |]`}
-</ABCNotation>
-
-```python
-# Nouvelles constantes :
-FA_4 = 349
-SOL_4 = 392
-LA_4 = 440
-SI_BEMOL_4 = 466
-FA_5 = 698
-
-partition = [
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, NOIRE), (FA_4, NOIRE),
-    (SI_BEMOL_4, NOIRE), (FA_5, NOIRE),  (SI_BEMOL_4, BLANCHE),
-    (FA_4, CROCHE),      (SOL_4, CROCHE), (LA_4, CROCHE),     (SI_BEMOL_4, CROCHE),
-    (FA_5, BLANCHE),
-]
-```
-
 #### Kirby's Dream Land, Green Greens (Jun Ishikawa, 1992)
 
 Le thème principal du tout premier Kirby sur Game Boy : sautillant, joyeux, immédiatement reconnaissable. Sons rapides en croches.
@@ -424,38 +394,79 @@ partition = [
 ]
 ```
 
-#### DuckTales, Moon Theme (Hiroshige Tonomura, 1989)
+#### The Legend of Zelda, thème principal (Koji Kondo, 1986)
 
-Souvent cité parmi les plus belles musiques de la NES. Voici les premières mesures du motif principal, celles qui s'enchaînent dès l'arrivée sur la Lune.
+L'écran-titre du tout premier Zelda sur NES, transcrit en 12 mesures suivant le morceau original (en Sib mineur). C'est le morceau le plus dense des quatre. On y trouve quatre temps : une **intro tenue** (Sib + Fa + Sib, puis Lab-Solb-Lab), le **motif iconique** (Sib martelé, saut grave vers Fa, montée chromatique Sib-Do-Ré-Mib culminant sur Fa5 aigu), une **culmination** sur Sib5 et un **développement descendant** Fa-Mib-Réb-Do qui résout sur Mi naturel-Sol-Fa.
+
+C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. Le Sib mineur en contient cinq (Sib, Mib, Lab, Solb, Réb), d'où la quantité de constantes ci-dessous.
 
 <ABCNotation>
 {`X:1
-T:DuckTales - Moon Theme
+T:The Legend of Zelda - Main Theme
 M:4/4
-L:1/8
+L:1/48
 Q:1/4=130
-K:C
-a2 a g ^f2 e d | e2 ^f g a2 b c' | d'4 z4 |]`}
+K:Bbm
+B30 F12 B6 | A3 G3 A42 | B30 G12 B6 | =A3 =G3 A42 |
+B12 F18 B9 c3 =d3 e3 | f6 B9 c3 =d3 e3 f24 |
+f40 g4 a4 | b40 a4 g4 |
+a9 g3 f36 | e9 f3 g24 f6 e6 |
+d9 e3 f24 e6 d6 | c9 =d3 =e24 =g6 f6 |]`}
 </ABCNotation>
 
 ```python
-# Nouvelles constantes :
+# Nouvelles constantes — uniquement les bémols et les octaves 5+
+# (les notes naturelles octaves 3/4 sont déjà définies en Étape 2).
+SOL_BEMOL_4 = 370
+LA_BEMOL_4 = 415
+SI_BEMOL_4 = 466
+DO_5 = 523
+RE_BEMOL_5 = 554
 RE_5 = 587
+MI_BEMOL_5 = 622
 MI_5 = 659
 FA_5 = 698
-FA_DIESE_5 = 740
+SOL_BEMOL_5 = 740
 SOL_5 = 784
-LA_5 = 880
-SI_5 = 988
-DO_6 = 1047
-RE_6 = 1175
+LA_BEMOL_5 = 831
+SI_BEMOL_5 = 932
 
+# Durées dérivées de CROCHE et NOIRE déjà définis en Étape 2 :
+# on les exprime relativement, pour rester cohérents si on change le tempo.
+DOUBLE_CROCHE = CROCHE // 2  # 125 ms
+CROCHE_POINTEE = CROCHE + DOUBLE_CROCHE  # 375 ms
+NOIRE_POINTEE = NOIRE + CROCHE  # 750 ms
+BLANCHE = 2 * NOIRE  # 1000 ms
+BLANCHE_POINTEE = BLANCHE + NOIRE  # 1500 ms
+
+# Le motif suit le morceau original en Sib mineur. Les durées de
+# 2,5 et 3,5 temps (Sib et Lab tenus de l'intro) sont représentées
+# explicitement par BLANCHE + CROCHE et BLANCHE + NOIRE_POINTEE.
+# Les triolets de croches (mesures 7-8 — Solb/Lab à 1/3 de temps)
+# sont approximés par des doubles-croches sur le buzzer.
 partition = [
-    (LA_5, NOIRE),  (LA_5, CROCHE),       (SOL_5, CROCHE),
-    (FA_DIESE_5, NOIRE), (MI_5, CROCHE),  (RE_5, CROCHE),
-    (MI_5, NOIRE),  (FA_DIESE_5, CROCHE), (SOL_5, CROCHE),
-    (LA_5, NOIRE),  (SI_5, CROCHE),       (DO_6, CROCHE),
-    (RE_6, BLANCHE),
+    # Mesures 1-4 — intro tenue
+    (SI_BEMOL_4, BLANCHE + CROCHE), (FA_4, NOIRE),                (SI_BEMOL_4, CROCHE),
+    (LA_BEMOL_4, DOUBLE_CROCHE),    (SOL_BEMOL_4, DOUBLE_CROCHE), (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
+    (SI_BEMOL_4, BLANCHE + CROCHE), (SOL_BEMOL_4, NOIRE),         (SI_BEMOL_4, CROCHE),
+    (LA_4, DOUBLE_CROCHE),          (SOL_4, DOUBLE_CROCHE),       (LA_BEMOL_4, BLANCHE + NOIRE_POINTEE),
+    # Mesures 5-6 — motif iconique : Sib martelé, saut Fa, montée chromatique vers Fa5 aigu
+    (SI_BEMOL_4, NOIRE),            (FA_4, NOIRE_POINTEE),        (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, CROCHE),                 (SI_BEMOL_4, CROCHE_POINTEE),
+    (DO_5, DOUBLE_CROCHE),          (RE_5, DOUBLE_CROCHE),        (MI_BEMOL_5, DOUBLE_CROCHE),
+    (FA_5, BLANCHE),
+    # Mesures 7-8 — montée vers la culmination Sib5
+    (FA_5, BLANCHE_POINTEE),        (SOL_BEMOL_5, DOUBLE_CROCHE), (LA_BEMOL_5, DOUBLE_CROCHE),
+    (SI_BEMOL_5, BLANCHE_POINTEE),  (LA_BEMOL_5, DOUBLE_CROCHE),  (SOL_BEMOL_5, DOUBLE_CROCHE),
+    # Mesures 9-12 — développement descendant qui résout sur Fa5
+    (LA_BEMOL_5, CROCHE_POINTEE),   (SOL_BEMOL_5, DOUBLE_CROCHE), (FA_5, BLANCHE_POINTEE),
+    (MI_BEMOL_5, CROCHE_POINTEE),   (FA_5, DOUBLE_CROCHE),        (SOL_BEMOL_5, BLANCHE),
+    (FA_5, CROCHE),                 (MI_BEMOL_5, CROCHE),
+    (RE_BEMOL_5, CROCHE_POINTEE),   (MI_BEMOL_5, DOUBLE_CROCHE),  (FA_5, BLANCHE),
+    (MI_BEMOL_5, CROCHE),           (RE_BEMOL_5, CROCHE),
+    (DO_5, CROCHE_POINTEE),         (RE_5, DOUBLE_CROCHE),        (MI_5, BLANCHE),
+    (SOL_5, CROCHE),                (FA_5, CROCHE),
 ]
 ```
 
