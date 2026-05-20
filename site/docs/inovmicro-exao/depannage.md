@@ -19,14 +19,14 @@ Page de référence transverse : si une fiche I-Novmicro #2 ne se comporte pas c
 
 ## Vue d'ensemble
 
-| Symptôme                                         | Cause probable                                  | Solution rapide                                                                  |
-| ------------------------------------------------ | ----------------------------------------------- | -------------------------------------------------------------------------------- |
-| La carte n'apparaît pas comme disque `STEAMI`    | Câble qui ne transporte que l'alimentation      | Changer de câble (cf. [Câble incompatible](#câble-incompatible-vs-câble-de-données)) |
-| Le port série n'apparaît pas dans l'IDE          | Plusieurs ports COM (Windows) ou permissions (Linux) | [Identifier le bon port](#identifier-le-bon-port-série)                    |
-| La console reste vide après connexion (`>>>`)    | MicroPython pas installé sur la carte           | [Installer MicroPython](#micropython-pas-installé)                              |
-| `Couldn't find the device`                       | Plusieurs cartes branchées en même temps        | [Sélectionner la carte](#plusieurs-cartes-connectées)                            |
-| `Device is busy` ou accès refusé au port         | Programme déjà en cours, ou autre IDE qui occupe le port | [Interrompre le programme](#un-programme-est-déjà-en-cours)              |
-| Un `main.py` redémarre en boucle                 | Programme persistant qui plante                 | [Désactiver le programme persistant](#un-mainpy-redémarre-en-boucle)             |
+| Symptôme                                                       | Cause probable                                           | Solution rapide                                                                      |
+| -------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| La carte n'apparaît pas comme disque `STEAMI`                  | Câble qui ne transporte que l'alimentation               | Changer de câble (cf. [Câble incompatible](#câble-incompatible-vs-câble-de-données)) |
+| Le port série n'apparaît pas dans l'IDE                        | Plusieurs ports COM (Windows) ou permissions (Linux)     | [Identifier le bon port](#identifier-le-bon-port-série)                              |
+| La console reste muette à la connexion (`>>>` ne s'affiche pas) | MicroPython pas installé sur la carte                    | [Installer MicroPython](#micropython-pas-installé)                                   |
+| Message `Couldn't find the device` (_« appareil introuvable »_) | Plusieurs cartes branchées en même temps                 | [Sélectionner la carte](#plusieurs-cartes-connectées)                                |
+| Message `Device is busy` (_« appareil occupé »_) ou `Access is denied` (_« accès refusé »_) | Programme déjà en cours, ou autre IDE qui occupe le port | [Interrompre le programme](#un-programme-est-déjà-en-cours) |
+| Un `main.py` redémarre en boucle                               | Programme persistant qui plante                          | [Désactiver le programme persistant](#un-mainpy-redémarre-en-boucle)                 |
 
 ---
 
@@ -55,13 +55,13 @@ Ouvrir le **Gestionnaire de périphériques** (Windows + R → `devmgmt.msc`), d
 
 ### Linux
 
-Sur la plupart des distributions, la STeaMi apparaît comme `/dev/ttyACM0` (ou `ACM1`, etc. si plusieurs cartes série sont déjà branchées). Si l'accès au port est refusé avec une erreur **`Permission denied`**, c'est que l'utilisateur·rice n'est pas dans le groupe `dialout`. Une fois pour toutes :
+Sur la plupart des distributions, la STeaMi apparaît comme `/dev/ttyACM0` (ou `ACM1`, etc. si plusieurs cartes série sont déjà branchées). Si l'accès au port est refusé avec une erreur **`Permission denied`** (en anglais : « permission refusée »), c'est que l'utilisateur·rice n'est pas dans le groupe `dialout` — un groupe Linux qui rassemble les comptes autorisés à communiquer avec les ports série. Une fois pour toutes :
 
 ```bash
 sudo usermod -aG dialout $USER
 ```
 
-Puis se déconnecter et se reconnecter à la session (ou redémarrer) pour que le changement prenne effet.
+Cette commande ajoute le compte courant (`$USER`) au groupe `dialout`. Puis se déconnecter et se reconnecter à la session (ou redémarrer) pour que le changement prenne effet.
 
 ### macOS
 
@@ -71,7 +71,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 ## MicroPython pas installé
 
-**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu du prompt `>>>` de MicroPython.
+**Symptôme** : la carte apparaît bien (disque `STEAMI` visible, port série détecté), mais la console de l'IDE reste vide ou affiche un message d'erreur au lieu de `>>>` — c'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 **Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
@@ -91,7 +91,7 @@ Le dépôt GitHub `micropython-steami-lib` propose aussi un fichier `steami-dapl
 
 ## Plusieurs cartes connectées
 
-**Symptôme** : l'IDE affiche `Couldn't find the device` ou refuse de se connecter, alors que la carte est branchée.
+**Symptôme** : l'IDE affiche `Couldn't find the device` (« appareil introuvable ») ou refuse de se connecter, alors que la carte est branchée.
 
 **Cause** : plusieurs cartes STeaMi (ou plusieurs périphériques compatibles MicroPython) sont branchées en même temps, et l'IDE ne sait pas laquelle choisir.
 
@@ -108,13 +108,13 @@ Pour identifier le port à choisir, voir [Identifier le bon port série](#identi
 
 ## Un programme est déjà en cours
 
-**Symptôme** : l'IDE refuse de lancer un nouveau programme, ou affiche `Device is busy`, ou la console est figée et ne répond plus aux commandes.
+**Symptôme** : l'IDE refuse de lancer un nouveau programme, ou affiche `Device is busy` (« appareil occupé »), ou la console est figée et ne répond plus aux commandes.
 
 **Cause** : un programme tourne déjà sur la carte (souvent un `main.py` enregistré précédemment) et occupe la connexion série.
 
 **Solution** : interrompre le programme avant de relancer.
 
-- Dans la console de l'IDE, taper **`Ctrl+C`**. Ça envoie un signal d'interruption à MicroPython qui arrête le programme en cours et redonne le prompt `>>>`.
+- Dans la console de l'IDE, taper **`Ctrl+C`**. Ça envoie un signal d'interruption à MicroPython qui arrête le programme en cours et redonne l'invite `>>>`.
 - Sinon, cliquer sur le bouton **Stop** (■) de l'IDE.
 - Si rien ne répond, débrancher puis rebrancher la carte. Au redémarrage, `main.py` se relance automatiquement, donc si le problème est causé par `main.py`, voir [Un main.py redémarre en boucle](#un-mainpy-redémarre-en-boucle).
 
@@ -131,7 +131,7 @@ Autre piste : si plusieurs IDE sont ouverts en même temps (par exemple Thonny e
 **Solution** :
 
 1. Brancher la carte et **immédiatement appuyer plusieurs fois sur `Ctrl+C`** dans la console de l'IDE pour interrompre l'exécution de `main.py`. La fenêtre de tir est courte (quelques centaines de millisecondes), il faut parfois plusieurs tentatives.
-2. Une fois le prompt `>>>` accessible, ouvrir le panneau Files de l'IDE (`MicroPython device` côté droit dans Thonny).
+2. Une fois l'invite `>>>` accessible, ouvrir le panneau Files de l'IDE (`MicroPython device` côté droit dans Thonny).
 3. **Renommer** `main.py` en `main.py.bak` (ou supprimer) pour empêcher son exécution au prochain démarrage.
 4. Reprendre le développement normalement.
 
