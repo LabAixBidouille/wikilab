@@ -84,15 +84,23 @@ const URL_KEYS = {
   duration: 'dur',
 } as const;
 
+// Tri systématique avant join pour que l'URL soit déterministe :
+// cocher A puis B doit produire la même URL que B puis A (sinon
+// l'URL n'est pas partageable de façon stable et on déclenche des
+// replaceState inutiles sur l'ordre d'insertion).
+function setToParam(s: Set<string>): string {
+  return [...s].sort().join(',');
+}
+
 function filtersToSearch(f: Filters): string {
   const params = new URLSearchParams();
   if (f.query.trim()) params.set(URL_KEYS.query, f.query.trim());
-  if (f.categories.size > 0) params.set(URL_KEYS.categories, [...f.categories].join(','));
-  if (f.projects.size > 0) params.set(URL_KEYS.projects, [...f.projects].join(','));
-  if (f.disciplines.size > 0) params.set(URL_KEYS.disciplines, [...f.disciplines].join(','));
-  if (f.tools.size > 0) params.set(URL_KEYS.tools, [...f.tools].join(','));
-  if (f.software.size > 0) params.set(URL_KEYS.software, [...f.software].join(','));
-  if (f.difficulties.size > 0) params.set(URL_KEYS.difficulties, [...f.difficulties].join(','));
+  if (f.categories.size > 0) params.set(URL_KEYS.categories, setToParam(f.categories));
+  if (f.projects.size > 0) params.set(URL_KEYS.projects, setToParam(f.projects));
+  if (f.disciplines.size > 0) params.set(URL_KEYS.disciplines, setToParam(f.disciplines));
+  if (f.tools.size > 0) params.set(URL_KEYS.tools, setToParam(f.tools));
+  if (f.software.size > 0) params.set(URL_KEYS.software, setToParam(f.software));
+  if (f.difficulties.size > 0) params.set(URL_KEYS.difficulties, setToParam(f.difficulties));
   if (f.autreOnly) params.set(URL_KEYS.autre, '1');
   if (f.ageMin !== INITIAL_FILTERS.ageMin || f.ageMax !== INITIAL_FILTERS.ageMax) {
     params.set(URL_KEYS.age, `${f.ageMin}-${f.ageMax}`);
@@ -130,7 +138,11 @@ function parseFiltersFromSearch(search: string): Filters {
     params.get(URL_KEYS.disciplines),
     Object.keys(disciplineLabels) as Discipline[],
   );
-  next.tools = parseSet(params.get(URL_KEYS.tools), Object.keys(toolLabels) as Tool[]);
+  // Restreint volontairement aux REAL_TOOLS : l'UI propose REAL_TOOLS
+  // comme checkboxes + un booléen séparé "autreOnly" pour les outils
+  // non matériels. Une URL forgée avec ?tool=debranchee créerait un
+  // filtre invisible dans l'UI, à éviter.
+  next.tools = parseSet(params.get(URL_KEYS.tools), REAL_TOOLS);
   next.software = parseSet(
     params.get(URL_KEYS.software),
     Object.keys(softwareLabels) as Software[],
@@ -151,9 +163,12 @@ function parseFiltersFromSearch(search: string): Filters {
     }
   }
 
+  // Le slider UI utilise step=15 : on aligne la valeur lue depuis l'URL
+  // sur ce pas pour éviter un état que l'UI ne peut pas représenter
+  // (ex. ?dur=17 → arrondi à 15).
   const dur = params.get(URL_KEYS.duration);
   if (dur && /^\d+$/.test(dur)) {
-    const n = Number(dur);
+    const n = Math.round(Number(dur) / 15) * 15;
     if (n >= 15 && n <= 240) next.maxDuration = n;
   }
 
