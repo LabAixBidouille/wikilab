@@ -371,7 +371,7 @@ M:4/4
 L:1/16
 Q:1/4=130
 K:Bb
-B4 F6 B2 B c d e | f8 ^f ^g b6 |]`}
+B4 F6 B2 B c d e | f8 B8 | ^f2 ^g2 b12 |]`}
 </ABCNotation>
 
 ```python
@@ -387,21 +387,22 @@ SOL_DIESE_5 = 831
 SI_BEMOL_5 = 932
 
 DOUBLE_CROCHE = 125
-NOIRE_POINTEE = 750
 BLANCHE = 1000
+BLANCHE_POINTEE = 1500
 
 # Mesure 1 — motif iconique : Sib4 noire, saut grave vers Fa4 (noire
 # pointée), retour Sib4 (croche), montée chromatique Sib-Do-Ré-Mib en
-# doubles-croches. Mesure 2 — coda : Fa5 tenu (blanche), passage
-# chromatique Fa#5-Sol#5 (deux doubles-croches), culmination sur le
-# Sib5 aigu.
+# doubles-croches. Mesure 2 — culmination Fa5 tenu (blanche) puis
+# palier descendant Sib4 tenu (blanche). Mesure 3 — coda : passage
+# chromatique Fa#5-Sol#5 (croches), culmination sur le Sib5 aigu
+# (blanche pointée).
 partition = [
     (SI_BEMOL_4, NOIRE),         (FA_4, NOIRE_POINTEE),       (SI_BEMOL_4, CROCHE),
     (SI_BEMOL_4, DOUBLE_CROCHE), (DO_5, DOUBLE_CROCHE),
     (RE_5, DOUBLE_CROCHE),       (MI_BEMOL_5, DOUBLE_CROCHE),
-    (FA_5, BLANCHE),
-    (FA_DIESE_5, DOUBLE_CROCHE), (SOL_DIESE_5, DOUBLE_CROCHE),
-    (SI_BEMOL_5, NOIRE_POINTEE),
+    (FA_5, BLANCHE),             (SI_BEMOL_4, BLANCHE),
+    (FA_DIESE_5, CROCHE),        (SOL_DIESE_5, CROCHE),
+    (SI_BEMOL_5, BLANCHE_POINTEE),
 ]
 ```
 
