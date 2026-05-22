@@ -337,6 +337,29 @@ C'est la même technique qu'utilisent les jeux vidéo, les applications de tél�
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). L'écran affiche le menu de choix, appuyer sur A lance un minuteur de 3 minutes.
 - **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
+<div style={{display: 'flex', gap: '1rem', margin: '1rem auto', flexWrap: 'wrap', justifyContent: 'center'}}>
+  <figure style={{textAlign: 'center', margin: 0}}>
+    <img
+      src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/steami_minuteur_1.jpeg"
+      alt="La STeaMi affichant le menu de choix de durée"
+      style={{maxWidth: '320px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+    />
+    <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+      Le menu de sélection : A = 3 min, B = 6 min, A+B = 9 min.
+    </figcaption>
+  </figure>
+  <figure style={{textAlign: 'center', margin: 0}}>
+    <img
+      src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/steami_minuteur_2.jpeg"
+      alt="La STeaMi affichant le décompte MM:SS et la barre de progression"
+      style={{maxWidth: '320px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+    />
+    <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+      Le décompte en cours : chrono MM:SS en grand et barre de progression qui se vide.
+    </figcaption>
+  </figure>
+</div>
 ---
 
 ## Étape 3 : Améliorer
@@ -395,6 +418,17 @@ def lancer_minuteur(duree_ms):
 
         time.sleep_ms(100)
 ```
+
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/steami_minuteur_pause.jpeg"
+    alt="La STeaMi affichant l'écran de pause du minuteur"
+    style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    Mode pause : le minuteur s'arrête proprement sur appui du bouton A, le temps de baisser le feu.
+  </figcaption>
+</figure>
 
 ### 3. Mélodie de fin personnalisée
 
