@@ -388,9 +388,9 @@ export default function Catalogue(): React.ReactElement {
       <main className="container margin-vert--lg">
         <h1>Catalogue des ressources</h1>
         <p>
-          Parcourez les fiches d'activité par approche pédagogique. Utilisez les filtres pour
-          affiner par projet, discipline, outil, âge, durée ou mot-clé. Chaque fiche apparaît dans
-          toutes les catégories qui la concernent.
+          Parcourez les fiches d'activité par thématique abordée. Utilisez les filtres pour affiner
+          par projet, discipline, outil, âge, durée ou mot-clé. Chaque fiche apparaît sous toutes
+          les thématiques qui la concernent.
         </p>
 
         <div
@@ -416,7 +416,7 @@ export default function Catalogue(): React.ReactElement {
               />
 
               <FilterGroup
-                legend="Catégorie d'activité"
+                legend="Thématique abordée"
                 labels={categoryFilterLabels}
                 order={CATEGORY_ORDER}
                 selected={filters.categories}
