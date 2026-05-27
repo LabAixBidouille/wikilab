@@ -11,6 +11,10 @@ sidebar_position: 19
 
 # Réparer une porte de frigo en 3D
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Débutant |
+
 ### Présentation
 
 La charnière de la porte du frigo était cassée : le bout de plastique maintenant l'axe avait disparu, et l'axe reposait directement sur la tôle de la porte. Résultat : une porte bancale.

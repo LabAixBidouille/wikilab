@@ -11,6 +11,10 @@ sidebar_position: 2
 
 # Ampli HiFi numérique
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Avancé |
+
 ### Présentation
 
 Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([voir fiche dédiée](./audio-hifi)). L'objectif est de remplacer les amplificateurs précédents, dont la puissance était insuffisante, par de nouveaux amplis répondant à trois critères :

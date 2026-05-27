@@ -11,6 +11,10 @@ sidebar_position: 13
 
 # Bobine Tesla musicale
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Avancé |
+
 ### Présentation
 
 Projet réalisé par Jonathan dans le cadre du Hackathon de Devoxx France.

@@ -11,6 +11,10 @@ sidebar_position: 1
 
 # Chaîne HiFi 100% numérique
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Avancé |
+
 ### Présentation
 
 Ce projet vise à construire un système HiFi de très haute qualité, entièrement en DIY, avec une chaîne 100 % numérique du serveur de musique jusqu'aux amplificateurs.

@@ -11,6 +11,10 @@ sidebar_position: 5
 
 # Station météo DIY
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Intermédiaire |
+
 ### Description du projet
 
 L'objectif de ce projet est de proposer différentes solutions DIY (Do It Yourself) pour fabriquer une station météo adaptée aux besoins et aux envies de chacun.

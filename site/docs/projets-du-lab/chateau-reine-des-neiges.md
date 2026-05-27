@@ -11,6 +11,10 @@ sidebar_position: 16
 
 # Château de la Reine des Neiges
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Intermédiaire |
+
 ### Présentation
 
 Ce projet reproduit en découpe laser un château inspiré d'un modèle vendu dans le commerce à environ 120 €.
