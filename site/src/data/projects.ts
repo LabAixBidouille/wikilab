@@ -10,6 +10,11 @@ export interface Partner {
 export interface ProjectInfo {
   id: Project;
   name: string;
+  /** Sous-titre court (verbe en début, ~30 caractères max) affiché dans
+   * la sidebar des docs à côté du nom court : "Let's STEAM — Programmer
+   * la carte STM32 sur MakeCode". Sert à donner le contexte du projet
+   * sans avoir à lire la description longue. */
+  subtitle: string;
   logo: string;
   color: string;
   colorSecondary: string;
@@ -36,6 +41,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   'lets-steam': {
     id: 'lets-steam',
     name: "Let's STEAM",
+    subtitle: 'Programmer la carte STM32 sur MakeCode',
     logo: '/img/logos/lets-steam.svg',
     color: '#140e4e',
     colorSecondary: '#62549F',
@@ -87,6 +93,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   mimesis: {
     id: 'mimesis',
     name: 'Mimesis',
+    subtitle: 'Faire des sciences grâce au théâtre',
     logo: '/img/logos/mimesis.svg',
     color: '#09246C',
     colorSecondary: '#FFB1C5',
@@ -135,6 +142,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   'robots-meet-arts': {
     id: 'robots-meet-arts',
     name: 'Robots Meet Arts',
+    subtitle: 'Utiliser la robotique au service des humanités',
     logo: '/img/logos/robots-meet-arts.svg',
     color: '#169da7',
     colorSecondary: '#eb407e',
@@ -186,6 +194,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   steamcity: {
     id: 'steamcity',
     name: 'SteamCity',
+    subtitle: 'Mener une investigation scientifique et citoyenne',
     logo: '/img/logos/steamcity.svg',
     color: '#DD5350',
     colorSecondary: '#99D69F',
@@ -237,6 +246,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   unplugged: {
     id: 'unplugged',
     name: 'Unplugged',
+    subtitle: "Jouer pour développer sa citoyenneté à l'école",
     logo: '/img/logos/unplugged.png',
     color: '#0081A7',
     colorSecondary: '#A06A83',
@@ -280,6 +290,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   jeditrack: {
     id: 'jeditrack',
     name: 'JediTrack',
+    subtitle: 'Découvrir son environnement par les sciences citoyennes',
     logo: '/img/logos/jeditrack.png',
     color: '#1198f0',
     colorSecondary: '#ef476c',
@@ -321,6 +332,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   thedexterlab: {
     id: 'thedexterlab',
     name: 'The Dexter Lab',
+    subtitle: 'Expérimenter les sciences en DIY',
     logo: '/img/logos/the-dexter-lab.png',
     color: '#1a4a48',
     colorSecondary: '#1a4a48',
@@ -362,6 +374,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   'youth-ai-lab': {
     id: 'youth-ai-lab',
     name: 'Youth AI Lab',
+    subtitle: "Explorer l'IA générative par la démarche scientifique",
     logo: '/img/logos/youth-ai-lab.png',
     color: '#b34520',
     colorSecondary: '#b34520',
@@ -410,6 +423,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   magnetics: {
     id: 'magnetics',
     name: 'Magnetics',
+    subtitle: 'Connecter des cartes en BLE Mesh',
     logo: '/img/logos/magnetics.png',
     color: '#094869',
     colorSecondary: '#dd5350',
@@ -448,6 +462,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   'inovmicro-exao': {
     id: 'inovmicro-exao',
     name: 'I-Novmicro #2 : Action EXAO',
+    subtitle: 'Découvrir et programmer la carte STeaMi',
     logo: '/img/logos/exao.png',
     color: '#8a6e18',
     colorSecondary: '#8a6e18',
@@ -490,6 +505,7 @@ export const projectsInfo: Record<Project, ProjectInfo> = {
   'projets-du-lab': {
     id: 'projets-du-lab',
     name: 'Projets du LAB',
+    subtitle: 'Découvrir nos projets makers',
     logo: '/img/logos/wikilab.svg',
     color: '#356bac',
     colorSecondary: '#e83e8c',
