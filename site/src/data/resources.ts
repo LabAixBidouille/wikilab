@@ -3743,7 +3743,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'VS Code', 'REPL', 'éditeur', 'desktop'],
-    thumbnail: '/img/ressources/inovmicro-exao/t04-vscode/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/t04-vscode/VSCode.png',
     section: 'Prise en main',
   },
   {

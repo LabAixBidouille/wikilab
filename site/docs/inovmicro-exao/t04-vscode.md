@@ -25,10 +25,10 @@ sidebar_position: 4
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
 - 1 ordinateur sous Windows, macOS ou Linux
-- [VS Code](https://code.visualstudio.com/) installé (version 1.60.0 ou supérieure)
+- [VS Code](https://code.visualstudio.com/) installé (une version récente)
 - Le programme MicroPython STeaMi `.hex` ([dernière release](https://github.com/steamicc/micropython-steami-lib/releases))
 </div>
-<img src="/img/ressources/inovmicro-exao/t04-vscode/icone.png" alt="Logo VS Code" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/t04-vscode/VSCode.png" alt="Logo VS Code" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 ---
 
@@ -67,7 +67,7 @@ Quel que soit votre système d'exploitation, vous pouvez télécharger et instal
     style={{maxWidth: '800px', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Page de téléchargement de Visual Studio Code sur le site officiel.
+    Choisir la version qui correspond à votre système (Windows, Linux ou macOS) puis suivre les instructions d'installation.
   </figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
     style={{maxWidth: '800px', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Page d'accueil de Visual Studio Code au premier démarrage.
+    La page d'accueil propose des raccourcis (Open Folder, Clone Git Repository) et des walkthroughs pour découvrir l'interface.
   </figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ Si ce n'est pas le cas, vous devrez installer le firmware MicroPython sur votre 
     style={{maxWidth: '800px', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Fichier .hex du firmware MicroPython.
+    Sur la page des releases STeaMi, télécharger uniquement `steami-micropython-firmware-vX.Y.Z.hex` (pas le `daplink`).
   </figcaption>
 </figure>
 
@@ -262,17 +262,35 @@ La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais t
 - `Device is busy` (programme déjà en cours) ;
 - un `main.py` qui redémarre en boucle.
 
---- 
+---
 
-## Ressources et liens utiles
+## Aller plus loin
 
-- [Site STeaMi](https://www.steami.cc/) : présentation matérielle
-- [Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)
-- [Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/) (pinout détaillé)
-- [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)
-- [Documentation MicroPython](https://docs.micropython.org/)
-- [thonny.org](https://thonny.org/)
-- [MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)
+### Pour comprendre
+
+- **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, VS Code est un éditeur **libre** (licence MIT) qui repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify. Une application web déguisée en application de bureau, qui peut ajouter des fonctionnalités via des extensions écrites en JavaScript.
+- **[Le Language Server Protocol (Wikipédia)](https://fr.wikipedia.org/wiki/Language_Server_Protocol)** : VS Code a popularisé en 2016 un format standard pour communiquer entre un éditeur et un langage de programmation (autocomplétion, détection d'erreurs, renommage). Aujourd'hui Neovim, Emacs, Sublime, IntelliJ parlent tous ce même protocole. Un exemple concret de standard utile qui émerge.
+- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire. C'est lui qui rend possible le code que vous venez d'exécuter sur la STeaMi.
+- **[Electron (Wikipédia)](<https://fr.wikipedia.org/wiki/Electron_(framework)>)** : créé par GitHub en 2013 pour transformer une page web en application de bureau. Approche controversée (gourmande en RAM), mais qui a permis à VS Code, Slack ou Discord d'être identiques sur Windows, macOS et Linux.
+
+### Pour s'inspirer
+
+- **[Live Share : programmer à plusieurs sur le même écran](https://code.visualstudio.com/learn/collaboration/live-share)** : extension officielle VS Code qui permet à plusieurs personnes d'éditer le même fichier en temps réel, comme un Google Docs du code. Pratique pour s'entraider en classe ou demander un coup de main à distance.
+- **[mpremote, la télécommande des cartes MicroPython](https://docs.micropython.org/en/latest/reference/mpremote.html)** : la commande utilisée dans cette fiche pilote tout un écosystème — STeaMi, BBC micro:bit, ESP32, Raspberry Pi Pico, Pyboard. Une seule syntaxe pour une demi-douzaine de cartes différentes.
+- **[La guerre des éditeurs (Wikipédia)](https://fr.wikipedia.org/wiki/Guerre_des_%C3%A9diteurs)** : depuis les années 80, les développeurs s'opposent en deux camps autour de leur choix d'éditeur (vim vs Emacs, puis tous les autres). Une « guerre » mi-sérieuse mi-amusée qui a duré 40 ans, jusqu'à ce que VS Code finisse par mettre presque tout le monde d'accord. Les outils façonnent les communautés.
+- **[GitHub Copilot (Wikipédia)](https://fr.wikipedia.org/wiki/GitHub_Copilot)** : l'extension VS Code qui propose en temps réel des suggestions de code générées par une IA. Gratuite pour les enseignant·es et les élèves via [GitHub Education](https://education.github.com/). Outil clivant — aide ou triche ? — à tester en classe pour se forger une opinion.
+
+### Pour approfondir
+
+Documentation technique pour préparer une séquence ou répondre aux questions des élèves :
+
+- **[Site STeaMi](https://www.steami.cc/)** : présentation matérielle
+- **[Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)**
+- **[Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/)** : pinout détaillé
+- **[Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)** : code source des modules `steami_*`
+- **[Documentation MicroPython](https://docs.micropython.org/)**
+- **[Documentation VS Code](https://code.visualstudio.com/docs)**
+- **[MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)**
 
 ---
 
