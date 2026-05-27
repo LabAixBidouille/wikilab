@@ -192,9 +192,13 @@ Ce défi sert à voir que `read_u16()` borne toujours la valeur dans `0..65535`,
 
 ### Défi 2 : Deux LED inversées
 
-Brancher une **deuxième LED** sur la broche **P11** (signal `GPIO6_EDGE_BOUTON_B`, supporte aussi le PWM). Faire en sorte que cette LED s'**éteigne** quand la première s'**allume**, et vice versa.
+Brancher une **deuxième LED** sur la broche **P10** (signal `ANALOG05_EDGE`, qui supporte aussi le PWM). Faire en sorte que cette LED s'**éteigne** quand la première s'**allume**, et vice versa.
 
 Indice : `65535 - valeur` retourne la valeur miroir.
+
+:::info[Pourquoi P10 et pas P11 ?]
+La broche **P11** supporte aussi le PWM, mais elle est **partagée avec le bouton B intégré** de la STeaMi (`GPIO6_EDGE_BOUTON_B`). Y câbler une LED externe est tentant techniquement, mais déconseillé pour une fiche élève : si quelqu'un appuie par mégarde sur le bouton B pendant le programme, la broche change d'état et la LED clignote n'importe comment. **P10** (`ANALOG05_EDGE`) est dédiée et sans conflit, c'est le choix prudent.
+:::
 
 ### Défi 3 : Buzzer en volume variable
 
