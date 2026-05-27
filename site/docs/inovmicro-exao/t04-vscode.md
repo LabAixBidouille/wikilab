@@ -52,7 +52,7 @@ La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés 
 
 - **Installer** VS Code sur Windows, macOS ou Linux, et y ajouter les extensions Python et Pylance pour bénéficier de l'autocomplétion et de la détection d'erreurs sur le code Python.
 - **Distinguer** le rôle de MicroPython (le logiciel installé sur la carte qui exécute le code) de celui de VS Code (l'éditeur sur l'ordinateur qui sert à écrire ce code et à l'envoyer sur la carte).
-- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, et le **lancer** sur la STeaMi depuis VS Code en CLI avec `mpremote` (et tester l'extension MicroPico en variante intégrée si elle accepte la STeaMi).
+- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, et le **lancer** sur la STeaMi depuis VS Code en utilisant `mpremote` en ligne de commande.
 - **Utiliser** le REPL pour tester une instruction en direct sur la carte, sans écrire de fichier complet.
 - **Faire le lien** entre une exécution temporaire (le programme tourne tant qu'on est connecté) et une installation persistante (le programme redémarre seul à chaque mise sous tension).
 - **Adapter** ce flux de travail à n'importe quelle autre carte MicroPython (Raspberry Pi Pico, BBC micro:bit, ESP32) : la procédure ne change presque pas.
@@ -93,7 +93,7 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
   </figcaption>
 </figure>
 
-Pour programmer en MicroPython avec VS Code, le chemin recommandé est la ligne de commande avec `mpremote` (présentée à l'Étape 2). L'extension **MicroPico**, qui ajoute des boutons « Run » / « Upload » directement dans VS Code, est officiellement ciblée Raspberry Pi Pico mais peut fonctionner avec la STeaMi : présentée comme variante à tester en fin d'Étape 2. Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
+Pour programmer en MicroPython avec VS Code, la fiche utilise `mpremote` en ligne de commande (présentée à l'Étape 2). Les extensions VS Code MicroPython (MicroPico, Pymakr...) ne supportent pas officiellement la STeaMi à ce jour : voir le callout déconseillant MicroPico en fin d'Étape 2. Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
 
 ### Installer MicroPython sur la STeaMi
 
@@ -260,24 +260,25 @@ Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'ex�
 Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
 :::
 
-### Variante à tester : workflow intégré avec MicroPico
+### Extensions MicroPython graphiques : déconseillées avec la STeaMi
 
-L'extension **MicroPico** (de Paul Ober) ajoute à VS Code une **interface graphique** par-dessus `mpremote` : boutons « Run » / « Upload current file », terminal REPL intégré, navigation des fichiers présents sur la carte. Pour des élèves qui découvrent la ligne de commande, ça peut être moins déroutant que de taper `mpremote connect auto run ...` à chaque exécution.
+Plusieurs extensions VS Code (MicroPico, Pymakr...) proposent une **interface graphique** par-dessus `mpremote` : boutons Run / Upload / REPL en barre d'état. C'est tentant pour des élèves qui découvrent la ligne de commande, mais aucune ne supporte officiellement la STeaMi à ce jour.
 
-:::caution[Périmètre officiel limité au Raspberry Pi Pico]
-La [page MicroPico sur la Marketplace](https://marketplace.visualstudio.com/items?itemName=paulober.pico-w-go) cible **Raspberry Pi Pico et Pico W** ; les autres cartes MicroPython (ESP32, Teensy...) ne sont mentionnées qu'en support **expérimental**. La STeaMi ne figure pas dans la liste officielle. Comme MicroPico communique avec la carte par le port série en empruntant les conventions `mpremote`, elle peut fonctionner avec la STeaMi sans garantie : à tester en classe avant de la déployer sur tous les postes. La méthode `mpremote` en CLI décrite plus haut reste le chemin garanti dans cette fiche.
+:::caution[MicroPico (paulober.pico-w-go) : non utilisable en classe sans patch invasif]
+Cible officiellement **Raspberry Pi Pico et Pico W** ; depuis la version 4.2.0, un filtre VID/PID hardcodé refuse de se connecter à toute carte hors liste blanche, **même quand le port est forcé manuellement** via `manualComDevice` (bug upstream [paulober/MicroPico#285](https://github.com/paulober/MicroPico/issues/285), ouvert sans résolution depuis février 2025).
+
+Le contournement consiste à modifier le bundle JavaScript de l'extension installée localement pour y ajouter les identifiants USB de la STeaMi (`0x0d28` / `0x0204`). Avec ce patch, en test pratique :
+
+- ✓ Connexion à la carte
+- ✓ Run du fichier courant (exécution éphémère)
+- ✓ REPL interactif
+- ✓ Autocomplétion Pylance via `micropython-stm32-stubs`
+- ✗ **Upload du fichier (échec silencieux avec `Failed to execute script on Pico`)** : impossible d'installer un programme persistant via MicroPico, il faut toujours retomber sur `mpremote fs cp` en CLI.
+
+Le patch est par ailleurs **réécrit à chaque mise à jour de l'extension**. La fonctionnalité phare pour la classe (« installer le programme en un clic, ça redémarre tout seul ») reste cassée, et le coût d'entretien est démesuré.
+
+**Recommandation** : ne pas déployer MicroPico en classe. La voie `mpremote` en ligne de commande décrite plus haut reste le chemin garanti et stable, qui marche sans patch sur n'importe quel poste.
 :::
-
-Installation : panneau **Extensions** (`Ctrl+Shift+X`), taper « MicroPico », cliquer sur **Install** (auteur **paulober**, à ne pas confondre avec l'extension RT-Thread MicroPython qui est différente).
-
-Une fois installée, ouvrir un fichier `.py` puis utiliser la barre du bas de VS Code :
-
-- **« All commands »** → **« Connect »** pour tenter une connexion à la STeaMi.
-- **« Run »** (▶) en haut à droite de l'éditeur pour lancer le fichier ouvert directement sur la carte (équivalent de `mpremote connect auto run`).
-- **« Upload current file »** pour copier le fichier sur la carte (équivalent de `mpremote ... fs cp`).
-- **« Toggle REPL »** pour ouvrir une console MicroPython interactive dans le terminal VS Code.
-
-Si la connexion échoue ou si les boutons ne réagissent pas, retomber sur `mpremote` en CLI : la procédure marche à coup sûr et ne dépend d'aucune extension.
 
 ---
 
