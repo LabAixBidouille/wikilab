@@ -32,7 +32,11 @@ sidebar_position: 13
 - **Câbles de connexion** (le servo est livré avec un connecteur 3 broches femelle, à brancher sur la STeaMi via le connecteur Edge ou les pads crocodile)
 
 :::caution[Alimentation du servomoteur]
-Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les **3,3 V** que fournit la STeaMi, un SG-90 fonctionne **à vide** sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une **alimentation externe 5 V** (pile, alim secteur) reliée seulement à GND et V+ du servo, en laissant la STeaMi piloter uniquement la broche signal.
+Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les **3,3 V** que fournit la STeaMi, un SG-90 fonctionne **à vide** sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une **alimentation externe 5 V** (pile 4×AA, alim secteur, powerbank...). Le câblage devient alors :
+
+- **V+ du servo** (fil rouge) → **+5 V** de l'alim externe (et **rien** côté STeaMi).
+- **GND du servo** (fil noir), **GND de l'alim externe** et **GND de la STeaMi** : **les trois reliés entre eux** (typiquement sur la même bande GND de la breadboard). Cette **masse commune est impérative** : sans elle, le signal PWM envoyé par la STeaMi n'a pas de référence électrique commune avec le servo, et le servo ne réagit pas (ou se met à vibrer).
+- **Signal du servo** (fil orange/jaune) → broche **P7** de la STeaMi, comme dans le câblage principal.
 :::
 
 </div>
@@ -198,9 +202,17 @@ L'opérateur `//` réalise une **division entière**, qui retourne un entier au 
 - **Test rapide** : lancer le programme depuis l'IDE. Le bras du servo balaie de 0° à 180° toutes les secondes.
 - **Programme persistant** : enregistrer sous **`main.py`** pour relancer le balayage à chaque démarrage.
 
-Si le servo **vibre ou tremble sans bouger** : signe que la durée de pause est trop courte (il n'a pas le temps d'atteindre la consigne avant la suivante). Augmenter `sleep_ms` à 1500 ou 2000.
+### Dépannage : le servo vibre ou refuse de tourner
 
-Si le servo **fait un mouvement bizarre au démarrage** : c'est le premier appel à `duty_u16()` qui peut envoyer une impulsion à durée indéterminée. Pour éviter, ajouter `regler_servo(90)` (position médiane) au début, puis `sleep_ms(500)` avant la boucle.
+Si le servo **vibre, tremble sur place ou bourdonne sans atteindre la position**, dérouler la checklist dans cet ordre :
+
+1. **Masse commune** : si vous utilisez une alim externe pour le servo, vérifier que **GND alim ext + GND servo + GND STeaMi sont bien reliés ensemble** (cf. callout « Alimentation du servomoteur »). Sans cette masse commune, le signal PWM n'a pas de référence et le servo réagit n'importe comment. C'est **la cause la plus fréquente** de servo qui vibre.
+2. **Tension trop faible** : sur les 3,3 V de la STeaMi, un SG-90 fonctionne à vide mais bloque dès qu'on lui demande un effort. Si le servo doit déplacer quelque chose (bras, levier, hélice), passer à une alim externe 5 V comme décrit dans le callout.
+3. **Charge mécanique** : le bras du servo bute contre quelque chose ou n'a pas la liberté de tourner ? Démonter pour vérifier que rien ne le bloque, puis relancer à vide.
+4. **Mauvaise broche** : le fil signal est-il bien sur **P7** ? Une broche non-PWM (ex. `GPIO2_EDGE` / P6 qui n'est pas listée PWM) donnera des résultats erratiques. Cf. tableau « Broches utilisées ».
+5. **Calibration PWM** : si tout le reste est OK mais que la course n'est pas 0-180°, ajuster `DUTY_MIN` et `DUTY_MAX` : certains servos demandent 0,5-2,5 ms (donc 1638-8192) au lieu de 1-2 ms (3277-6554).
+
+Si le servo **fait un mouvement bizarre au démarrage** (sursaut, position aléatoire) : c'est le premier appel à `duty_u16()` qui peut envoyer une impulsion à durée indéterminée. Pour éviter, ajouter `regler_servo(90)` (position médiane) au début, puis `sleep_ms(500)` avant la boucle.
 
 ---
 
