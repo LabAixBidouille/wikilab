@@ -155,6 +155,12 @@ Brancher la STeaMi en USB. La carte apparaît comme un disque amovible `STEAMI` 
 | LED 2     | `GPIO3_EDGE`         | `P7`   | `led_2`         | 1 = allumée, 0 = éteinte  |
 | LED 3     | `GPIO4_EDGE`         | `P8`   | `led_3`         | 1 = allumée, 0 = éteinte  |
 
+:::info[Nom court `P6` ou nom de signal `GPIO2_EDGE` ?]
+Les broches du connecteur Edge ont deux noms : un **nom court** style micro:bit (`P6`, `P7`, `P8`...) et un **nom de signal** explicite documenté côté STeaMi (`GPIO2_EDGE`, `GPIO3_EDGE`, etc., cf. [wiki.steami.cc → Pin Mapping → Signaux](https://wiki.steami.cc/docs/hardware/pin-mapping/signals)). Selon la version du firmware MicroPython STeaMi, les deux notations peuvent être acceptées par `Pin(...)`, ou seulement l'une des deux.
+
+Le code de cette fiche utilise la forme courte `Pin('P6')`. Si vous obtenez `ValueError: invalid pin name`, essayez `Pin('GPIO2_EDGE')` (et `'GPIO3_EDGE'`, `'GPIO4_EDGE'` pour les deux autres).
+:::
+
 ### Programme
 
 ```python
@@ -261,7 +267,7 @@ Imaginer un autre usage des trois LED, sans contrainte. Quelques pistes :
 
 ### Pour comprendre
 
-- **[Breadboard (Wikipédia)](https://fr.wikipedia.org/wiki/Platine_d%27essais)** : histoire et anatomie de la plaque d'essai. Le nom « breadboard » (planche à pain) vient des prototypes du début du XXᵉ siècle, où les amateurs visssaient leurs composants sur de vraies planches en bois.
+- **[Breadboard (Wikipédia)](https://fr.wikipedia.org/wiki/Platine_d%27essais)** : histoire et anatomie de la plaque d'essai. Le nom « breadboard » (planche à pain) vient des prototypes du début du XXᵉ siècle, où les amateurs vissaient leurs composants sur de vraies planches en bois.
 - **[Diode électroluminescente (Wikipédia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : comment une LED transforme un courant en lumière, à la rencontre de la physique des semi-conducteurs. Inventée en 1962, généralisée dans nos téléphones et nos plafonds à partir des années 2000.
 - **[Loi d'Ohm (Wikipédia)](https://fr.wikipedia.org/wiki/Loi_d%27Ohm)** : la formule `U = R × I` qui explique pourquoi on met une résistance en série de la LED. Avec une LED de 2 V et une alimentation de 3,3 V, on dissipe 1,3 V dans la résistance ; pour limiter le courant à 4 mA, il faut `1,3 / 0,004 = 325 Ω`, d'où le standard 330 Ω.
 - **[Système binaire (Wikipédia)](https://fr.wikipedia.org/wiki/Syst%C3%A8me_binaire)** : pour le défi 3, comprendre pourquoi tout ordinateur représente les nombres en base 2.
@@ -271,7 +277,7 @@ Imaginer un autre usage des trois LED, sans contrainte. Quelques pistes :
 - **[Adafruit Industries](https://www.adafruit.com/)** : entreprise américaine fondée par Limor Fried qui a popularisé l'électronique loisir grâce à des kits débutants extrêmement bien documentés. Aller voir leurs tutoriels « learn » est une mine pour des idées de projets STeaMi.
 - **[Lumière artistique de Leo Villareal](https://villareal.net/)** : l'artiste a installé en 2013 plus de 25 000 LED sous le Bay Bridge de San Francisco pour créer une œuvre lumineuse animée, _The Bay Lights_. Toutes les LED de la planète n'ont pas vocation à clignoter dans un projet STEM ; certaines participent à des œuvres d'art à l'échelle d'une ville.
 - **[Concours de la Maison Hantée Open Source](https://www.instructables.com/contest/halloween2024/)** : tous les ans, le site Instructables organise un concours de bricolages Halloween. Les meilleurs projets utilisent justement breadboards + LED + microcontrôleur pour animer des décorations qui réagissent au mouvement, à la voix ou à la pression. Bon exemple de transposition du circuit appris ici à un objet sensoriel complet.
-- **[Le projet Tetris de pluvier (CodingTrain)](https://www.youtube.com/c/TheCodingTrain)** : Daniel Shiffman a recouvert des bâtiments avec des grilles de LED pilotées par Arduino pour reproduire des jeux vidéo grandeur nature. Le passage du « circuit avec 3 LED » au « mur de 1 000 LED » est plus une question d'organisation que de difficulté technique.
+- **[Project Blinkenlights (Wikipédia anglais)](https://en.wikipedia.org/wiki/Project_Blinkenlights)** : en 2001, le Chaos Computer Club a transformé la façade de la Haus des Lehrers à Berlin en écran géant 18×8 pixels en allumant et éteignant les lampes de chaque fenêtre depuis un ordinateur. Le public pouvait y jouer à Pong par téléphone. Une version XXL du circuit que vous venez de monter, avec 144 LED « fenêtres » à la place de 3 LED « breadboard ». (Page Wikipédia anglais uniquement.)
 
 ---
 
