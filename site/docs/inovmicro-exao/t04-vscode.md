@@ -60,6 +60,17 @@ Ici la partie « Construire » est un peu différente de ce qu'on a l'habitude d
 
 Quel que soit votre système d'exploitation, vous pouvez télécharger et installer Visual Studio Code depuis le [site officiel](https://code.visualstudio.com/). Il vous suffit de choisir la version adaptée à votre système (Windows, macOS ou Linux) et de suivre les instructions d'installation.
 
+### Installer les extensions VS Code essentielles
+
+VS Code traite par défaut les fichiers `.py` comme du texte brut. Deux extensions Microsoft sont à installer en premier lieu :
+
+- **Python** (`ms-python.python`) : coloration syntaxique enrichie, IntelliSense, débogueur, détection des environnements Python installés. VS Code la propose d'ailleurs en pop-up dès qu'on ouvre un fichier `.py`.
+- **Pylance** : analyse statique, autocomplétion, vérification de types. **Installée automatiquement** avec l'extension Python, rien à ajouter en plus.
+
+Pour les installer, ouvrir le panneau **Extensions** (icône carrés en barre latérale, ou `Ctrl+Shift+X`), taper « Python », et cliquer sur **Install** sur la première proposition signée Microsoft.
+
+À ce stade, ouvrir un fichier `.py` montre du code coloré et propose l'autocomplétion sur les fonctions Python standard. L'autocomplétion sur les modules **MicroPython** (`machine`, `time.sleep_ms`...) demande une étape supplémentaire couverte à l'Étape 3.
+
 ### Configurer VS Code pour la STeaMi
 
 Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêtre d'accueil.
@@ -75,7 +86,7 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
   </figcaption>
 </figure>
 
- Pour programmer en MicroPython avec VS Code, vous pouvez passer par une extension dédiée **ou** par le terminal avec un outil comme `mpremote`. Dans cette fiche, on utilisera `mpremote` (voir plus bas). Pour créer un nouveau projet, vous devrez simplement créer un nouveau dossier pour votre projet et y ajouter un fichier `.py` qui contiendra votre code MicroPython.
+Pour programmer en MicroPython avec VS Code, deux flux coexistent : la ligne de commande avec `mpremote` (présentée d'abord, à l'Étape 2), et l'extension **MicroPico** qui ajoute des boutons « Run » / « Upload » directement dans VS Code (variante intégrée présentée en fin d'Étape 2). Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
 
 ### Installer le firmware MicroPython sur la STeaMi
 
@@ -242,6 +253,25 @@ Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'ex�
 Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
 :::
 
+### Variante : workflow intégré avec MicroPico
+
+L'extension **MicroPico** (de Paul Ober) ajoute à VS Code une **interface graphique** par-dessus `mpremote` : boutons « Run » / « Upload current file », terminal REPL intégré, navigation des fichiers présents sur la carte. Pour des élèves qui découvrent la ligne de commande, c'est moins déroutant que de taper `mpremote connect auto run ...` à chaque exécution.
+
+Installation : panneau **Extensions** (`Ctrl+Shift+X`), taper « MicroPico », cliquer sur **Install** (auteur **paulober**, à ne pas confondre avec l'extension RT-Thread MicroPython qui est différente).
+
+Malgré son nom historique lié au Raspberry Pi Pico, MicroPico fonctionne avec **n'importe quelle carte MicroPython** car elle utilise `mpremote` sous le capot.
+
+Une fois installée, ouvrir un fichier `.py` puis utiliser la barre du bas de VS Code :
+
+- **« All commands »** → **« Connect »** pour se connecter à la STeaMi.
+- **« Run »** (▶) en haut à droite de l'éditeur pour lancer le fichier ouvert directement sur la carte (équivalent de `mpremote connect auto run`).
+- **« Upload current file »** pour copier le fichier sur la carte (équivalent de `mpremote ... fs cp`).
+- **« Toggle REPL »** pour ouvrir une console MicroPython interactive dans le terminal VS Code.
+
+:::info[Pourquoi cette fiche présente quand même `mpremote` en CLI]
+La ligne de commande `mpremote` reste utile pour automatiser (scripts de déploiement, tester plusieurs cartes d'un coup), pour comprendre ce que MicroPico fait sous le capot, et parce qu'elle marche partout (en SSH, sur un poste sans VS Code, sur un Raspberry Pi minimal, etc.). MicroPico est un raccourci confortable par-dessus, pas un remplacement.
+:::
+
 ---
 
 ## Étape 3 : Améliorer
@@ -288,6 +318,41 @@ Raccourcis utiles dans le REPL :
 | `Ctrl+D`  | Redémarrage logiciel (relance `main.py`) |
 | `Ctrl+X`  | Quitter le REPL et revenir au terminal |
 | Flèche ↑  | Rappeler la dernière commande |
+
+### Activer l'autocomplétion sur les modules MicroPython
+
+Avec l'extension Python installée à l'Étape 1, Pylance reconnaît la syntaxe Python générique mais **ne connaît pas les modules MicroPython** (`machine.Pin`, `time.sleep_ms`, etc.). Résultat à l'écran : les imports sont soulignés en jaune avec « Import "machine" could not be resolved », et il n'y a pas d'autocomplétion en tapant `Pin.`.
+
+La solution : installer des **stubs**, des descriptions des signatures de fonctions (sans implémentation) qui décrivent l'API MicroPython à Pylance. La voie la plus simple est de créer un **environnement virtuel au niveau du projet**, que VS Code détecte tout seul :
+
+```bash
+# Dans le dossier du projet, une seule fois :
+python3 -m venv .venv
+.venv/bin/pip install -U micropython-stdlib-stubs
+
+# Sur Windows, le chemin de pip dans le venv est différent :
+# .venv\Scripts\pip install -U micropython-stdlib-stubs
+```
+
+Une fois `.venv` créé, VS Code propose en pop-up de l'utiliser comme interpréteur Python du projet. Accepter, puis redémarrer VS Code. L'autocomplétion sur `from machine import Pin` puis `Pin.` s'active, et les imports ne sont plus soulignés.
+
+Le paquet `micropython-stdlib-stubs` couvre les modules standard (`machine`, `time`, `os`, `json`...). Pour aller plus loin, le repo [josverl/micropython-stubs](https://github.com/Josverl/micropython-stubs) maintient aussi des stubs par port (`micropython-stm32-stubs` pour la famille STM32 dont fait partie la STeaMi).
+
+:::info[Limite : pas de stubs pour les modules STeaMi]
+Les modules **spécifiques à la STeaMi** (`steami_screen`, `ism330dl`, `mcp23009e`...) ne sont pas publiés sous forme de stubs à ce jour. Pylance continuera à les signaler comme imports non résolus. Deux contournements :
+
+- **Solution propre** : copier les fichiers `.py` du repo [micropython-steami-lib](https://github.com/steamicc/micropython-steami-lib) dans un dossier `typings/` du projet, et ajouter dans `.vscode/settings.json` :
+
+  ```json
+  {
+    "python.analysis.extraPaths": ["typings"]
+  }
+  ```
+
+  Pylance lit alors leurs signatures comme s'ils étaient installés.
+
+- **Solution paresseuse** : ignorer les avertissements, le code marche très bien sur la carte (l'erreur est purement cosmétique dans l'éditeur).
+:::
 
 ### Dépanner les erreurs courantes
 

@@ -720,3 +720,4 @@ europa
 pipx
 venv
 ensurepath
+stdlib
