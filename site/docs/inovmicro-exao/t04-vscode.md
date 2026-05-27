@@ -34,21 +34,28 @@ sidebar_position: 4
 
 ## De quoi parle-t-on ?
 
-Pour pouvoir programmer la STeaMi, vous allez avoir besoin d'un éditeur de code qui puisse transférer du code MicroPython sur la carte. Il en existe plusieurs. Pour cela, vous pouvez utiliser Visual Studio Code, un éditeur de code gratuit et très populaire étant donné qu'il supporte de nombreux langages et plateformes. Il est disponible sur Windows, macOS et Linux, et dispose d'une grande bibliothèque d'extensions pour ajouter des fonctionnalités spécifiques.
+Vous avez déjà vu un personnage dans une série taper du code dans une fenêtre noire pleine de mots colorés ? Vous avez peut-être regardé un YouTubeur expliquer comment construire son site web ? Vous utilisez sans doute déjà Word ou Google Docs pour écrire un texte. Un **éditeur de code** comme [Visual Studio Code](https://code.visualstudio.com/) (« VS Code »), c'est exactement pareil mais pour du code : un logiciel qui colore les mots-clés, signale les fautes de frappe, propose la suite quand on commence à taper, et permet de lancer le programme d'un clic.
 
-Cette fiche vous guidera à travers les étapes d'installation de Visual Studio Code, de configuration pour la STeaMi, et de création de votre premier programme MicroPython pour interagir avec les composants matériels de la carte.
+VS Code est gratuit, libre, disponible sur Windows, macOS et Linux. Avec quelques extensions bien choisies, il devient possible d'écrire du **MicroPython** sur l'ordinateur puis de l'envoyer s'exécuter sur la STeaMi, branchée en USB.
 
-Il existe d'autres éditeurs de code compatibles avec la STeaMi, comme Thonny. N'hésitez pas à explorer différentes options pour trouver celle qui vous convient le mieux !
+Cette fiche couvre l'installation de VS Code, sa configuration pour parler à la STeaMi, et un premier programme qui change la couleur de la LED RGB selon le bouton pressé. D'autres éditeurs compatibles existent ([Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny), Mu, Vittascience) ; la fiche se concentre sur VS Code parce que c'est l'éditeur que rencontrent souvent les élèves au lycée, dans les MOOC et en entreprise.
+
+:::info[Composants intégrés, rien à câbler]
+La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés à la STeaMi. Aucun montage à faire : on plonge directement dans le code.
+:::
 
 ---
 
 ## Objectifs d'apprentissage
 
-- Installer VS Code et le configurer pour communiquer avec une carte MicroPython
-- Comprendre le rôle du programme MicroPython et savoir l'installer sur la STeaMi
-- Écrire et exécuter un premier programme MicroPython qui interagit avec le matériel (LED, boutons)
-- Découvrir le REPL pour tester du code en direct sans créer de fichier
-- Identifier la différence entre exécution temporaire (Run) et programme persistant (`main.py`)
+À la fin de cette activité, l'élève sera capable de :
+
+- **Installer** VS Code sur Windows, macOS ou Linux, et le configurer avec les extensions Python et MicroPico pour parler à une carte MicroPython.
+- **Distinguer** le rôle de MicroPython (le logiciel installé sur la carte qui exécute le code) de celui de VS Code (l'éditeur sur l'ordinateur qui sert à écrire ce code et à l'envoyer sur la carte).
+- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, et le **lancer** sur la STeaMi depuis VS Code (soit en CLI avec `mpremote`, soit en un clic avec MicroPico).
+- **Utiliser** le REPL pour tester une instruction en direct sur la carte, sans écrire de fichier complet.
+- **Faire le lien** entre une exécution temporaire (le programme tourne tant qu'on est connecté) et une installation persistante (le programme redémarre seul à chaque mise sous tension).
+- **Adapter** ce flux de travail à n'importe quelle autre carte MicroPython (Raspberry Pi Pico, BBC micro:bit, ESP32) — la procédure ne change presque pas.
 
 ---
 
@@ -88,11 +95,11 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
 
 Pour programmer en MicroPython avec VS Code, deux flux coexistent : la ligne de commande avec `mpremote` (présentée d'abord, à l'Étape 2), et l'extension **MicroPico** qui ajoute des boutons « Run » / « Upload » directement dans VS Code (variante intégrée présentée en fin d'Étape 2). Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
 
-### Installer le firmware MicroPython sur la STeaMi
+### Installer MicroPython sur la STeaMi
 
 Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé, vous pouvez donc passer directement à la section suivante.
 
-Si ce n'est pas le cas, vous devrez installer le firmware MicroPython sur votre STeaMi :
+Si ce n'est pas le cas, voici comment installer MicroPython sur la STeaMi :
 1. **Branchez** la STeaMi en USB (câble de données, pas un câble de charge seul).
 2. La carte apparaît comme un disque amovible nommé `STEAMI`.
 3. **Téléchargez** le fichier `steami-micropython-firmware-vX.Y.Z.hex` depuis les [releases](https://github.com/steamicc/micropython-steami-lib/releases). Attention : ne pas confondre avec `steami-daplink-firmware-...hex`, qui est un autre fichier sans rapport avec MicroPython.
@@ -102,7 +109,7 @@ Si ce n'est pas le cas, vous devrez installer le firmware MicroPython sur votre 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/t04-vscode/hex.png"
-    alt="Fichier .hex du firmware MicroPython"
+    alt="Fichier .hex de MicroPython pour la STeaMi sur la page des releases GitHub"
     style={{maxWidth: '800px', height: 'auto'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
@@ -129,13 +136,13 @@ Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé*
 
 ### Brochage utilisé
 
-| Composant       | Nom dans le programme | Comportement                          |
-| --------------- | --------------------- | ------------------------------------- |
-| LED RGB Rouge | `LED_RED`             | 1 = allumée, 0 = éteinte              |
-| LED RGB Verte | `LED_GREEN`           | 1 = allumée, 0 = éteinte              |
-| LED RGB Bleue | `LED_BLUE`            | 1 = allumée, 0 = éteinte              |
-| Bouton A        | `A_BUTTON`            | 0 = appuyé, 1 = relâché               |
-| Bouton B        | `B_BUTTON`            | 0 = appuyé, 1 = relâché               |
+| Composant     | Nom de broche STeaMi | Variable Python | Comportement             |
+| ------------- | ------------------------ | --------------- | ------------------------ |
+| LED RGB Rouge | `LED_RED`                | `led_rouge`     | 1 = allumée, 0 = éteinte |
+| LED RGB Verte | `LED_GREEN`              | `led_verte`     | 1 = allumée, 0 = éteinte |
+| LED RGB Bleue | `LED_BLUE`               | `led_bleue`     | 1 = allumée, 0 = éteinte |
+| Bouton A      | `A_BUTTON`               | `bouton_a`      | 0 = appuyé, 1 = relâché  |
+| Bouton B      | `B_BUTTON`               | `bouton_b`      | 0 = appuyé, 1 = relâché  |
 
 ### Programme
 
@@ -151,37 +158,37 @@ Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé*
 from machine import Pin
 from time import sleep_ms
 
-# LED RGB : on() allume, off() éteint
-led_r = Pin('LED_RED', Pin.OUT)
-led_g = Pin('LED_GREEN', Pin.OUT)
-led_b = Pin('LED_BLUE', Pin.OUT)
+# LED RGB : value(1) allume, value(0) éteint
+led_rouge = Pin('LED_RED', Pin.OUT)
+led_verte = Pin('LED_GREEN', Pin.OUT)
+led_bleue = Pin('LED_BLUE', Pin.OUT)
 
 # Boutons A et B (résistance pull-up sur la carte : 1 au repos, 0 quand on appuie)
-btn_a = Pin('A_BUTTON', Pin.IN)
-btn_b = Pin('B_BUTTON', Pin.IN)
+bouton_a = Pin('A_BUTTON', Pin.IN)
+bouton_b = Pin('B_BUTTON', Pin.IN)
 
 
-def set_rgb(r, g, b):
-    """Allume chaque LED selon la composante (1 = on, 0 = off)."""
-    led_r.value(r)
-    led_g.value(g)
-    led_b.value(b)
+def regler_led(rouge, verte, bleue):
+    """Allume chaque composante de la LED RGB (1 = on, 0 = off)."""
+    led_rouge.value(rouge)
+    led_verte.value(verte)
+    led_bleue.value(bleue)
 
 
 print("Programme démarré. Appuyez sur A, B ou les deux.")
 
 while True:
-    a_pressed = btn_a.value() == 0
-    b_pressed = btn_b.value() == 0
+    bouton_a_appuye = bouton_a.value() == 0
+    bouton_b_appuye = bouton_b.value() == 0
 
-    if a_pressed and b_pressed:
-        set_rgb(0, 0, 1)   # bleu
-    elif a_pressed:
-        set_rgb(1, 0, 0)   # rouge
-    elif b_pressed:
-        set_rgb(0, 1, 0)   # vert
+    if bouton_a_appuye and bouton_b_appuye:
+        regler_led(0, 0, 1)   # bleu
+    elif bouton_a_appuye:
+        regler_led(1, 0, 0)   # rouge
+    elif bouton_b_appuye:
+        regler_led(0, 1, 0)   # vert
     else:
-        set_rgb(0, 0, 0)   # éteint
+        regler_led(0, 0, 0)   # éteint
 
     sleep_ms(20)
 ```
@@ -293,14 +300,14 @@ Dans les exemples ci-dessous, les `>>>` représentent l'invite MicroPython. Ne r
 ```python
 # Allumer la LED rouge à la main
 >>> from machine import Pin
->>> led_r = Pin('LED_RED', Pin.OUT)
->>> led_r.value(1)         # allumée
->>> led_r.value(0)         # éteinte
+>>> led_rouge = Pin('LED_RED', Pin.OUT)
+>>> led_rouge.value(1)         # allumée
+>>> led_rouge.value(0)         # éteinte
 
 # Lire l'état du bouton A
->>> btn_a = Pin('A_BUTTON', Pin.IN)
->>> btn_a.value()
-1                          # 1 = relâché, 0 = appuyé
+>>> bouton_a = Pin('A_BUTTON', Pin.IN)
+>>> bouton_a.value()
+1                              # 1 = relâché, 0 = appuyé
 
 # Scanner les capteurs I2C internes
 >>> from machine import I2C
