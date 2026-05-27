@@ -202,7 +202,7 @@ On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un
 Techniquement, ce « tableau caché » s'appelle un **framebuffer** : une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
 :::
 
-:::tip[API bas niveau]
+:::info[API bas niveau]
 
 Si vous avez besoin de coordonnées exactes (par exemple pour une animation pixel par pixel), `steami_screen` expose aussi `screen.pixel()`, `screen.line()`, `screen.rect()` et `screen.circle()`.
 :::
