@@ -175,22 +175,71 @@ while True:
     sleep_ms(20)
 ```
 
-### Exécution
+### Installer mpremote
 
-Avant de pouvoir exécuter le programme, il faut installer `mpremote`, un outil en ligne de commande pour communiquer avec les cartes MicroPython. Pour cela, ouvrez un terminal (cmd, PowerShell, terminal macOS ou Linux) et tapez la commande suivante : `pip install mpremote`. Une fois installé, vous pouvez exécuter votre programme de deux façons différentes :
+VS Code n'embarque pas d'outil pour parler à la carte STeaMi : il faut installer `mpremote`, un outil en ligne de commande qui copie les fichiers vers la carte et lance le code dessus. C'est un **paquet Python**, donc Python 3 doit être installé au préalable (voir [python.org/downloads](https://www.python.org/downloads/) — sur Linux et macOS récents il est généralement déjà là).
+
+Ouvrir un terminal (l'invite de commande / PowerShell sur Windows, le Terminal sur macOS, n'importe quel terminal sur Linux) et lancer :
+
+```bash
+# Recommandé : pipx isole l'outil dans son propre environnement
+# et ajoute la commande au PATH automatiquement.
+pipx install mpremote
+
+# Si pipx n'est pas disponible, l'installer d'abord :
+# - Windows / macOS : pip install --user pipx && pipx ensurepath
+# - Linux (Debian/Ubuntu) : sudo apt install pipx && pipx ensurepath
+# - Linux (Fedora) : sudo dnf install pipx && pipx ensurepath
+```
+
+:::info[Si `pip install mpremote` refuse l'installation]
+Depuis quelques années (PEP 668), `pip install` global est refusé sur Ubuntu 24.04+, Debian 12+, Fedora 38+ et avec le Python installé par Homebrew sur macOS, avec un message **`externally-managed-environment`**. C'est intentionnel pour ne pas casser le Python du système. La solution standard est `pipx install mpremote` (voir ci-dessus).
+:::
+
+:::info[Cas particulier : poste sans droits administrateur (salle informatique)]
+Si la machine n'a pas `pipx` installé et qu'il est impossible d'utiliser `sudo apt install pipx`, il reste un repli qui ne demande aucun droit admin : créer un **environnement virtuel Python** dans le dossier personnel et y installer `mpremote`.
+
+```bash
+# Une seule fois, dans le terminal :
+python3 -m venv ~/.venvs/mpremote
+~/.venvs/mpremote/bin/pip install mpremote
+
+# À chaque session VS Code, soit on appelle mpremote via son chemin complet :
+~/.venvs/mpremote/bin/mpremote connect auto run projet.py
+
+# Soit on définit un alias permanent (à ajouter à ~/.bashrc ou ~/.zshrc) :
+alias mpremote='~/.venvs/mpremote/bin/mpremote'
+```
+
+`venv` est livré avec Python 3 et marche sans aucune permission système ; c'est la solution la plus universelle pour des élèves sur postes verrouillés.
+:::
+
+:::info[La commande `mpremote` n'est pas reconnue ?]
+Si le terminal répond `mpremote: command not found` (Linux/macOS) ou `'mpremote' n'est pas reconnu` (Windows) juste après l'installation, le dossier des scripts Python n'est pas dans le PATH. Solution rapide : utiliser `python -m mpremote ...` (ou `python3 -m mpremote ...`) à la place de `mpremote ...`. Solution durable : exécuter `pipx ensurepath` puis rouvrir le terminal, ou ajouter le dossier des scripts au PATH (`~/.local/bin` sur Linux/macOS, `%APPDATA%\Python\PythonXX\Scripts` sur Windows).
+:::
+
+### Exécuter le programme
+
+Une fois `mpremote` installé, vous pouvez exécuter votre programme de deux façons différentes :
 
 **Programme persistant :**
-- Si ce n'est pas déjà fait, ouvrez le terminal intégré de VS Code (Menu `Terminal > New Terminal`).
-- Dans le terminal, lancez la commande `mpremote connect auto fs cp chemin/projet.py :main.py` puis `mpremote connect auto reset` pour exécuter le programme.
+
+- Si ce n'est pas déjà fait, ouvrir le terminal intégré de VS Code (Menu `Terminal > New Terminal`).
+- Lancer `mpremote connect auto fs cp chemin/projet.py :main.py` puis `mpremote connect auto reset` pour exécuter le programme.
 
 **Programme temporaire :**
-- Ouvrez le terminal intégré de VS Code (Menu `Terminal > New Terminal`).
-- Dans le terminal, lancez la commande `mpremote connect auto run chemin/projet.py` pour exécuter le programme sans le copier sur la carte.
+
+- Ouvrir le terminal intégré de VS Code (Menu `Terminal > New Terminal`).
+- Lancer `mpremote connect auto run chemin/projet.py` pour exécuter le programme sans le copier sur la carte.
 
 :::tip[Un programme est déjà en cours d'exécution]
 
-Si un programme est déjà en cours d'exécution sur la STeaMi et vous empêche d'exécuter votre nouveau programme, vous pouvez le stopper en exécutant la commande `mpremote connect auto` dans le terminal. Une fois que `>>>` apparaît, appuyez sur `Ctrl+C` pour interrompre le programme en cours et `Ctrl+D` pour fermer la connexion. Vous devriez alors pouvoir exécuter votre programme normalement.
+Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'exécuter le nouveau, on peut le stopper en lançant `mpremote connect auto` dans le terminal. Une fois que `>>>` apparaît, `Ctrl+C` interrompt le programme en cours et `Ctrl+D` ferme la connexion. Le nouveau programme peut alors s'exécuter normalement.
 
+:::
+
+:::info[Sous Linux : `Permission denied` sur `/dev/ttyACM*`]
+Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
 :::
 
 ---
