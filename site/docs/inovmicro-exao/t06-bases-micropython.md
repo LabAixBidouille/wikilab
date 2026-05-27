@@ -467,7 +467,7 @@ while True:
 ### Comment ça fonctionne ?
 
 1. **Imports** : `random` pour tirer une couleur au hasard, `Pin` pour piloter les broches, `sleep_ms` pour les pauses.
-2. **Initialisation** : on prépare les deux LED en sortie et les deux boutons en entrée. Les boutons ont une résistance interne câblée sur la carte qui maintient leur valeur à 1 au repos, donc on ne se préoccupe pas de pull-up dans le code.
+2. **Initialisation** : on prépare les deux LED en sortie et les deux boutons en entrée. Les boutons disposent de **résistances pull-up externes** câblées directement sur la carte STeaMi (à ne pas confondre avec la pull-up interne du microcontrôleur) : elles maintiennent leur valeur à 1 au repos, donc on ne déclare rien de plus côté code.
 3. **`lire_choix_joueur()`** : boucle d'attente qui scrute les deux boutons et retourne dès que l'un est pressé. Le clignotement de la LED sert d'**accusé de réception** visuel pour le joueur.
 4. **`annoncer_carte()`** : affiche le tirage de la carte par un éclat de la LED correspondante, pendant 1 seconde.
 5. **Boucle principale** : propose un message dans la console, lit le choix du joueur, tire au sort, annonce le résultat de la manche, recommence. Pas de condition de fin : le jeu tourne tant que la carte est alimentée (sortie par `Ctrl+C`).
