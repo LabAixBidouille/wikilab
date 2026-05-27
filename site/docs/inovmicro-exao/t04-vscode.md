@@ -50,12 +50,12 @@ La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés 
 
 À la fin de cette activité, l'élève sera capable de :
 
-- **Installer** VS Code sur Windows, macOS ou Linux, et le configurer avec les extensions Python et MicroPico pour parler à une carte MicroPython.
+- **Installer** VS Code sur Windows, macOS ou Linux, et y ajouter les extensions Python et Pylance pour bénéficier de l'autocomplétion et de la détection d'erreurs sur le code Python.
 - **Distinguer** le rôle de MicroPython (le logiciel installé sur la carte qui exécute le code) de celui de VS Code (l'éditeur sur l'ordinateur qui sert à écrire ce code et à l'envoyer sur la carte).
-- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, et le **lancer** sur la STeaMi depuis VS Code (soit en CLI avec `mpremote`, soit en un clic avec MicroPico).
+- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, et le **lancer** sur la STeaMi depuis VS Code en CLI avec `mpremote` (et tester l'extension MicroPico en variante intégrée si elle accepte la STeaMi).
 - **Utiliser** le REPL pour tester une instruction en direct sur la carte, sans écrire de fichier complet.
 - **Faire le lien** entre une exécution temporaire (le programme tourne tant qu'on est connecté) et une installation persistante (le programme redémarre seul à chaque mise sous tension).
-- **Adapter** ce flux de travail à n'importe quelle autre carte MicroPython (Raspberry Pi Pico, BBC micro:bit, ESP32) — la procédure ne change presque pas.
+- **Adapter** ce flux de travail à n'importe quelle autre carte MicroPython (Raspberry Pi Pico, BBC micro:bit, ESP32) : la procédure ne change presque pas.
 
 ---
 
@@ -93,7 +93,7 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
   </figcaption>
 </figure>
 
-Pour programmer en MicroPython avec VS Code, deux flux coexistent : la ligne de commande avec `mpremote` (présentée d'abord, à l'Étape 2), et l'extension **MicroPico** qui ajoute des boutons « Run » / « Upload » directement dans VS Code (variante intégrée présentée en fin d'Étape 2). Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
+Pour programmer en MicroPython avec VS Code, le chemin recommandé est la ligne de commande avec `mpremote` (présentée à l'Étape 2). L'extension **MicroPico**, qui ajoute des boutons « Run » / « Upload » directement dans VS Code, est officiellement ciblée Raspberry Pi Pico mais peut fonctionner avec la STeaMi : présentée comme variante à tester en fin d'Étape 2. Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
 
 ### Installer MicroPython sur la STeaMi
 
@@ -195,7 +195,7 @@ while True:
 
 ### Installer mpremote
 
-VS Code n'embarque pas d'outil pour parler à la carte STeaMi : il faut installer `mpremote`, un outil en ligne de commande qui copie les fichiers vers la carte et lance le code dessus. C'est un **paquet Python**, donc Python 3 doit être installé au préalable (voir [python.org/downloads](https://www.python.org/downloads/) — sur Linux et macOS récents il est généralement déjà là).
+VS Code n'embarque pas d'outil pour parler à la carte STeaMi : il faut installer `mpremote`, un outil en ligne de commande qui copie les fichiers vers la carte et lance le code dessus. C'est un **paquet Python**, donc Python 3 doit être installé au préalable (voir [python.org/downloads](https://www.python.org/downloads/) ; sur Linux et macOS récents il est généralement déjà là).
 
 Ouvrir un terminal (l'invite de commande / PowerShell sur Windows, le Terminal sur macOS, n'importe quel terminal sur Linux) et lancer :
 
@@ -250,7 +250,7 @@ Une fois `mpremote` installé, vous pouvez exécuter votre programme de deux fa�
 - Ouvrir le terminal intégré de VS Code (Menu `Terminal > New Terminal`).
 - Lancer `mpremote connect auto run chemin/projet.py` pour exécuter le programme sans le copier sur la carte.
 
-:::tip[Un programme est déjà en cours d'exécution]
+:::info[Un programme est déjà en cours d'exécution]
 
 Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'exécuter le nouveau, on peut le stopper en lançant `mpremote connect auto` dans le terminal. Une fois que `>>>` apparaît, `Ctrl+C` interrompt le programme en cours et `Ctrl+D` ferme la connexion. Le nouveau programme peut alors s'exécuter normalement.
 
@@ -260,24 +260,24 @@ Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'ex�
 Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
 :::
 
-### Variante : workflow intégré avec MicroPico
+### Variante à tester : workflow intégré avec MicroPico
 
-L'extension **MicroPico** (de Paul Ober) ajoute à VS Code une **interface graphique** par-dessus `mpremote` : boutons « Run » / « Upload current file », terminal REPL intégré, navigation des fichiers présents sur la carte. Pour des élèves qui découvrent la ligne de commande, c'est moins déroutant que de taper `mpremote connect auto run ...` à chaque exécution.
+L'extension **MicroPico** (de Paul Ober) ajoute à VS Code une **interface graphique** par-dessus `mpremote` : boutons « Run » / « Upload current file », terminal REPL intégré, navigation des fichiers présents sur la carte. Pour des élèves qui découvrent la ligne de commande, ça peut être moins déroutant que de taper `mpremote connect auto run ...` à chaque exécution.
+
+:::caution[Périmètre officiel limité au Raspberry Pi Pico]
+La [page MicroPico sur la Marketplace](https://marketplace.visualstudio.com/items?itemName=paulober.pico-w-go) cible **Raspberry Pi Pico et Pico W** ; les autres cartes MicroPython (ESP32, Teensy...) ne sont mentionnées qu'en support **expérimental**. La STeaMi ne figure pas dans la liste officielle. Comme MicroPico communique avec la carte par le port série en empruntant les conventions `mpremote`, elle peut fonctionner avec la STeaMi sans garantie : à tester en classe avant de la déployer sur tous les postes. La méthode `mpremote` en CLI décrite plus haut reste le chemin garanti dans cette fiche.
+:::
 
 Installation : panneau **Extensions** (`Ctrl+Shift+X`), taper « MicroPico », cliquer sur **Install** (auteur **paulober**, à ne pas confondre avec l'extension RT-Thread MicroPython qui est différente).
 
-Malgré son nom historique lié au Raspberry Pi Pico, MicroPico fonctionne avec **n'importe quelle carte MicroPython** car elle utilise `mpremote` sous le capot.
-
 Une fois installée, ouvrir un fichier `.py` puis utiliser la barre du bas de VS Code :
 
-- **« All commands »** → **« Connect »** pour se connecter à la STeaMi.
+- **« All commands »** → **« Connect »** pour tenter une connexion à la STeaMi.
 - **« Run »** (▶) en haut à droite de l'éditeur pour lancer le fichier ouvert directement sur la carte (équivalent de `mpremote connect auto run`).
 - **« Upload current file »** pour copier le fichier sur la carte (équivalent de `mpremote ... fs cp`).
 - **« Toggle REPL »** pour ouvrir une console MicroPython interactive dans le terminal VS Code.
 
-:::info[Pourquoi cette fiche présente quand même `mpremote` en CLI]
-La ligne de commande `mpremote` reste utile pour automatiser (scripts de déploiement, tester plusieurs cartes d'un coup), pour comprendre ce que MicroPico fait sous le capot, et parce qu'elle marche partout (en SSH, sur un poste sans VS Code, sur un Raspberry Pi minimal, etc.). MicroPico est un raccourci confortable par-dessus, pas un remplacement.
-:::
+Si la connexion échoue ou si les boutons ne réagissent pas, retomber sur `mpremote` en CLI : la procédure marche à coup sûr et ne dépend d'aucune extension.
 
 ---
 
@@ -330,20 +330,22 @@ Raccourcis utiles dans le REPL :
 
 Avec l'extension Python installée à l'Étape 1, Pylance reconnaît la syntaxe Python générique mais **ne connaît pas les modules MicroPython** (`machine.Pin`, `time.sleep_ms`, etc.). Résultat à l'écran : les imports sont soulignés en jaune avec « Import "machine" could not be resolved », et il n'y a pas d'autocomplétion en tapant `Pin.`.
 
-La solution : installer des **stubs**, des descriptions des signatures de fonctions (sans implémentation) qui décrivent l'API MicroPython à Pylance. La voie la plus simple est de créer un **environnement virtuel au niveau du projet**, que VS Code détecte tout seul :
+La solution : installer des **stubs**, des descriptions des signatures de fonctions (sans implémentation) qui décrivent l'API MicroPython à Pylance. Pour la STeaMi (microcontrôleur STM32WB55), il faut le paquet **`micropython-stm32-stubs`** qui contient `machine.pyi`, `network.pyi` et les autres modules propres au port STM32. Le paquet `micropython-stdlib-stubs` seul ne suffit pas : il ne couvre que les modules empruntés à la stdlib Python (`os`, `json`, `sys`, etc.) et **ne contient pas `machine`**.
+
+La voie la plus simple est de créer un **environnement virtuel au niveau du projet**, que VS Code détecte tout seul :
 
 ```bash
 # Dans le dossier du projet, une seule fois :
 python3 -m venv .venv
-.venv/bin/pip install -U micropython-stdlib-stubs
+.venv/bin/pip install -U micropython-stm32-stubs
 
 # Sur Windows, le chemin de pip dans le venv est différent :
-# .venv\Scripts\pip install -U micropython-stdlib-stubs
+# .venv\Scripts\pip install -U micropython-stm32-stubs
 ```
 
 Une fois `.venv` créé, VS Code propose en pop-up de l'utiliser comme interpréteur Python du projet. Accepter, puis redémarrer VS Code. L'autocomplétion sur `from machine import Pin` puis `Pin.` s'active, et les imports ne sont plus soulignés.
 
-Le paquet `micropython-stdlib-stubs` couvre les modules standard (`machine`, `time`, `os`, `json`...). Pour aller plus loin, le repo [josverl/micropython-stubs](https://github.com/Josverl/micropython-stubs) maintient aussi des stubs par port (`micropython-stm32-stubs` pour la famille STM32 dont fait partie la STeaMi).
+Le paquet `micropython-stm32-stubs` tire automatiquement `micropython-stdlib-stubs` comme dépendance, donc une seule installation couvre tout. Le repo [josverl/micropython-stubs](https://github.com/Josverl/micropython-stubs) maintient aussi des paquets par port pour les autres cartes (`micropython-rp2-stubs` pour Pico, `micropython-esp32-stubs` pour ESP32, etc.).
 
 :::info[Limite : pas de stubs pour les modules STeaMi]
 Les modules **spécifiques à la STeaMi** (`steami_screen`, `ism330dl`, `mcp23009e`...) ne sont pas publiés sous forme de stubs à ce jour. La publication d'un paquet `micropython-steami-stubs` est suivie sur [steamicc/micropython-steami-lib#427](https://github.com/steamicc/micropython-steami-lib/issues/427). En attendant, Pylance continuera à signaler ces imports comme non résolus. Deux contournements :
@@ -381,14 +383,14 @@ La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais t
 - **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, dont le code source ([Code-OSS](https://github.com/microsoft/vscode)) est publié sous licence libre MIT. La distribution **« Visual Studio Code »** officielle (téléchargée depuis code.visualstudio.com) ajoute par-dessus de la télémétrie, la marque Microsoft et quelques extensions propriétaires (comme le debugger C++) ; elle est donc sous licence Microsoft, pas MIT. Pour une version 100 % libre sans ces ajouts, voir [VSCodium](https://vscodium.com/), qui recompile Code-OSS tel quel. VS Code repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify.
 - **[Le Language Server Protocol (Wikipédia)](https://fr.wikipedia.org/wiki/Language_Server_Protocol)** : VS Code a popularisé en 2016 un format standard pour communiquer entre un éditeur et un langage de programmation (autocomplétion, détection d'erreurs, renommage). Aujourd'hui Neovim, Emacs, Sublime, IntelliJ parlent tous ce même protocole. Un exemple concret de standard utile qui émerge.
 - **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire. C'est lui qui rend possible le code que vous venez d'exécuter sur la STeaMi.
-- **[Electron (Wikipédia)](<https://fr.wikipedia.org/wiki/Electron_(framework)>)** : créé par GitHub en 2013 pour transformer une page web en application de bureau. Approche controversée (gourmande en RAM), mais qui a permis à VS Code, Slack ou Discord d'être identiques sur Windows, macOS et Linux.
+- **[Electron (Wikipédia)](https://fr.wikipedia.org/wiki/Electron_%28framework%29)** : créé par GitHub en 2013 pour transformer une page web en application de bureau. Approche controversée (gourmande en RAM), mais qui a permis à VS Code, Slack ou Discord d'être identiques sur Windows, macOS et Linux.
 
 ### Pour s'inspirer
 
-- **[Live Share : programmer à plusieurs sur le même écran](https://code.visualstudio.com/learn/collaboration/live-share)** : extension officielle VS Code qui permet à plusieurs personnes d'éditer le même fichier en temps réel, comme un Google Docs du code. Pratique pour s'entraider en classe ou demander un coup de main à distance.
-- **[mpremote, la télécommande des cartes MicroPython](https://docs.micropython.org/en/latest/reference/mpremote.html)** : la commande utilisée dans cette fiche pilote tout un écosystème — STeaMi, BBC micro:bit, ESP32, Raspberry Pi Pico, Pyboard. Une seule syntaxe pour une demi-douzaine de cartes différentes.
-- **[La guerre des éditeurs (Wikipédia)](https://fr.wikipedia.org/wiki/Guerre_des_%C3%A9diteurs)** : depuis les années 80, les développeurs s'opposent en deux camps autour de leur choix d'éditeur (vim vs Emacs, puis tous les autres). Une « guerre » mi-sérieuse mi-amusée qui a duré 40 ans, jusqu'à ce que VS Code finisse par mettre presque tout le monde d'accord. Les outils façonnent les communautés.
-- **[GitHub Copilot (Wikipédia)](https://fr.wikipedia.org/wiki/GitHub_Copilot)** : l'extension VS Code qui propose en temps réel des suggestions de code générées par une IA. Gratuite pour les enseignant·es et les élèves via [GitHub Education](https://education.github.com/). Outil clivant — aide ou triche ? — à tester en classe pour se forger une opinion.
+- **[Live Share : programmer à plusieurs sur le même écran](https://visualstudio.microsoft.com/services/live-share/)** : extension officielle Microsoft qui permet à plusieurs personnes d'éditer le même fichier dans VS Code en temps réel, comme un Google Docs du code. Pratique pour s'entraider en classe ou demander un coup de main à distance.
+- **[mpremote, la télécommande des cartes MicroPython](https://docs.micropython.org/en/latest/reference/mpremote.html)** : la commande utilisée dans cette fiche pilote tout un écosystème : STeaMi, BBC micro:bit, ESP32, Raspberry Pi Pico, Pyboard. Une seule syntaxe pour une demi-douzaine de cartes différentes.
+- **[Editor war (Wikipédia anglais)](https://en.wikipedia.org/wiki/Editor_war)** : depuis les années 80, les développeurs s'opposent en deux camps autour de leur choix d'éditeur (vim vs Emacs, puis tous les autres). Une « guerre » mi-sérieuse mi-amusée qui a duré 40 ans, jusqu'à ce que VS Code finisse par mettre presque tout le monde d'accord. Les outils façonnent les communautés. (La page Wikipédia n'existe qu'en anglais à ce jour.)
+- **[GitHub Copilot (Wikipédia)](https://fr.wikipedia.org/wiki/GitHub_Copilot)** : l'extension VS Code qui propose en temps réel des suggestions de code générées par une IA. Gratuite pour les enseignant·es et les élèves via [GitHub Education](https://education.github.com/). Outil clivant (aide ou triche ?) à tester en classe pour se forger une opinion.
 
 ### Pour approfondir
 
