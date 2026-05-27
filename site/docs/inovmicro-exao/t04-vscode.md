@@ -289,7 +289,7 @@ Une fois le premier programme fonctionnel, voici quelques pistes pour aller plus
 
 Le REPL (`>>>` dans le terminal) permet de tester du code directement sur la carte, sans créer de fichier. Pratique pour la découverte et le débogage.
 
-Pour ouvrir le REPL, lancez dans le terminal intégré de VS Code (`Ctrl+J`) :
+Pour ouvrir le REPL, lancez dans le terminal intégré de VS Code (`` Ctrl+` `` sur Windows/Linux, `` Cmd+` `` sur macOS ; ou Menu `Terminal > New Terminal`) :
 
 ```bash
 mpremote connect auto
@@ -378,7 +378,7 @@ La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais t
 
 ### Pour comprendre
 
-- **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, VS Code est un éditeur **libre** (licence MIT) qui repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify. Une application web déguisée en application de bureau, qui peut ajouter des fonctionnalités via des extensions écrites en JavaScript.
+- **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, dont le code source ([Code-OSS](https://github.com/microsoft/vscode)) est publié sous licence libre MIT. La distribution **« Visual Studio Code »** officielle (téléchargée depuis code.visualstudio.com) ajoute par-dessus de la télémétrie, la marque Microsoft et quelques extensions propriétaires (comme le debugger C++) ; elle est donc sous licence Microsoft, pas MIT. Pour une version 100 % libre sans ces ajouts, voir [VSCodium](https://vscodium.com/), qui recompile Code-OSS tel quel. VS Code repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify.
 - **[Le Language Server Protocol (Wikipédia)](https://fr.wikipedia.org/wiki/Language_Server_Protocol)** : VS Code a popularisé en 2016 un format standard pour communiquer entre un éditeur et un langage de programmation (autocomplétion, détection d'erreurs, renommage). Aujourd'hui Neovim, Emacs, Sublime, IntelliJ parlent tous ce même protocole. Un exemple concret de standard utile qui émerge.
 - **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire. C'est lui qui rend possible le code que vous venez d'exécuter sur la STeaMi.
 - **[Electron (Wikipédia)](<https://fr.wikipedia.org/wiki/Electron_(framework)>)** : créé par GitHub en 2013 pour transformer une page web en application de bureau. Approche controversée (gourmande en RAM), mais qui a permis à VS Code, Slack ou Discord d'être identiques sur Windows, macOS et Linux.
