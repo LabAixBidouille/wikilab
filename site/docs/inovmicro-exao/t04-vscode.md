@@ -339,7 +339,7 @@ Une fois `.venv` créé, VS Code propose en pop-up de l'utiliser comme interpré
 Le paquet `micropython-stdlib-stubs` couvre les modules standard (`machine`, `time`, `os`, `json`...). Pour aller plus loin, le repo [josverl/micropython-stubs](https://github.com/Josverl/micropython-stubs) maintient aussi des stubs par port (`micropython-stm32-stubs` pour la famille STM32 dont fait partie la STeaMi).
 
 :::info[Limite : pas de stubs pour les modules STeaMi]
-Les modules **spécifiques à la STeaMi** (`steami_screen`, `ism330dl`, `mcp23009e`...) ne sont pas publiés sous forme de stubs à ce jour. Pylance continuera à les signaler comme imports non résolus. Deux contournements :
+Les modules **spécifiques à la STeaMi** (`steami_screen`, `ism330dl`, `mcp23009e`...) ne sont pas publiés sous forme de stubs à ce jour. La publication d'un paquet `micropython-steami-stubs` est suivie sur [steamicc/micropython-steami-lib#427](https://github.com/steamicc/micropython-steami-lib/issues/427). En attendant, Pylance continuera à signaler ces imports comme non résolus. Deux contournements :
 
 - **Solution propre** : copier les fichiers `.py` du repo [micropython-steami-lib](https://github.com/steamicc/micropython-steami-lib) dans un dossier `typings/` du projet, et ajouter dans `.vscode/settings.json` :
 
