@@ -270,11 +270,11 @@ Au repos, cette `intensite` vaut toujours environ 1 G (juste la gravité). Quand
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/i09-inclinaison-accelerometre/Steami_prog1.jpeg"
-    alt="Thermomètre très lisible sur la STeaMi"
+    alt="STeaMi affichant l'orientation SCREEN_UP et les valeurs X, Y, Z de l'accéléromètre"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    La STeaMi affichant les valeurs obtenues via l'accelerometre.
+    La STeaMi affichant les valeurs obtenues via l'accéléromètre.
   </figcaption>
 </figure>
 
@@ -351,7 +351,7 @@ while True:
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
     src="/img/ressources/inovmicro-exao/i09-inclinaison-accelerometre/Steami_amelioration3.jpeg"
-    alt="Thermomètre très lisible sur la STeaMi"
+    alt="STeaMi affichant un niveau à bulle : inclinaison X et barre de progression"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
