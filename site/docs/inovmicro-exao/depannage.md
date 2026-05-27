@@ -4,6 +4,9 @@ title: Dépannage STeaMi
 sidebar_label: 'Dépannage'
 ---
 
+<div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
+<div style={{flex: 1}}>
+
 # <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#8a6e18" opacity="0.1"/><circle cx="12" cy="12" r="7" fill="#8a6e18" opacity="0.25"/><path d="M9 9a3 3 0 1 1 4.5 2.6c-1 .55-1.5 1.1-1.5 2.4" fill="none" stroke="#8a6e18" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/><circle cx="12" cy="17" r="1" fill="#8a6e18"/></svg> Dépannage STeaMi
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
@@ -14,6 +17,12 @@ sidebar_label: 'Dépannage'
 </div>
 
 Page de référence transverse : si une fiche I-Novmicro #2 ne se comporte pas comme attendu, vérifiez ici **avant de creuser** plus loin. Les problèmes rencontrés en classe se ramènent à quelques causes connues : câble, port série, MicroPython non installé, plusieurs cartes branchées, ou programme déjà en cours d'exécution sur la carte.
+
+</div>
+
+<img src="/img/ressources/inovmicro-exao/depannage/icone.png" alt="Boîte à outils ouverte avec clé à molette et tournevis" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ---
 
