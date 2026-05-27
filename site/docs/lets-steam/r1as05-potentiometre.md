@@ -23,6 +23,12 @@ sidebar_position: 5
 |---|---|---|---|
 | Let's STEAM | 20 minutes | Intermédiaire | 11-15 ans |
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Contrôler avec un potentiomètre](/ressources/inovmicro-exao/i05-potentiometre).
+
+:::
+
 ## Matériel
 
 - 1 carte programmable "STM32 IoT Node Board"
