@@ -723,3 +723,6 @@ ensurepath
 stdlib
 Pymakr
 paulober
+
+# Identifiants Python fr (fonctions custom dans les fiches t04/t05/t06)
+regler
