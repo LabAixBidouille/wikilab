@@ -126,18 +126,26 @@ Câblage pour cette première LED :
 
 1. Insérer la **LED** dans deux trous d'une rangée de raccordement (anode à gauche par exemple, cathode à droite, sur deux rangées différentes pour éviter le court-circuit).
 2. Insérer une **résistance 330 Ω** entre la cathode de la LED et la **bande −** de la breadboard.
-3. Relier l'**anode** de la LED à la broche **P6** (signal `GPIO2_EDGE`) de la STeaMi via un fil dupont ou une pince crocodile.
+3. Relier l'**anode** de la LED à une broche de sortie de la STeaMi :
+   - **Avec adaptateur Edge breakout** : à la broche **P6** (signal `GPIO2_EDGE`) du connecteur Edge, via un fil dupont.
+   - **Sans adaptateur Edge** : au pad **P0** (broche du bas, accessible par pince crocodile).
 
-Quand la STeaMi écrira `1` sur cette broche, le courant ira de P6 → anode → cathode → résistance → GND, et la LED s'allumera.
+Quand la STeaMi écrira `1` sur cette broche, le courant ira de la broche → anode → cathode → résistance → GND, et la LED s'allumera.
 
 ### Câbler les deux autres LED
 
 Sur le même principe, brancher :
 
-- Une **deuxième LED** sur **P7** (signal `GPIO3_EDGE`), avec sa résistance vers GND.
-- Une **troisième LED** sur **P8** (signal `GPIO4_EDGE`), idem.
+- **Avec adaptateur Edge** : une deuxième LED sur **P7** (signal `GPIO3_EDGE`) et une troisième sur **P8** (signal `GPIO4_EDGE`), chacune avec sa résistance vers GND.
+- **Sans adaptateur Edge** : une deuxième LED sur le pad **P1** et une troisième sur le pad **P2** (toujours via pinces crocodile).
 
 On a maintenant trois LED indépendamment pilotables par trois broches différentes.
+
+:::info[Quel parcours choisir ?]
+Les deux variantes mènent au même résultat. Les **pads P0/P1/P2** sont parfaits pour démarrer : pas d'adaptateur à acheter, branchement direct par pinces crocodile. Le **connecteur Edge** offre en revanche une vingtaine de broches utilisables et reste indispensable pour les fiches qui demandent plusieurs entrées/sorties simultanées (potentiomètre + LED, plusieurs capteurs, etc.).
+
+Dans la suite de la fiche, le code et le tableau sont présentés pour les deux variantes : choisissez la ligne qui correspond à votre montage.
+:::
 
 ### Connecter la STeaMi à l'ordinateur
 
@@ -149,11 +157,13 @@ Brancher la STeaMi en USB. La carte apparaît comme un disque amovible `STEAMI` 
 
 ### Broches utilisées
 
-| Composant | Signal STeaMi (Edge) | Broche | Variable Python | Comportement              |
-| --------- | -------------------- | ------ | --------------- | ------------------------- |
-| LED 1     | `GPIO2_EDGE`         | `P6`   | `led_1`         | 1 = allumée, 0 = éteinte  |
-| LED 2     | `GPIO3_EDGE`         | `P7`   | `led_2`         | 1 = allumée, 0 = éteinte  |
-| LED 3     | `GPIO4_EDGE`         | `P8`   | `led_3`         | 1 = allumée, 0 = éteinte  |
+Selon le montage choisi à l'étape précédente, les LED sont branchées soit sur le **connecteur Edge** (P6/P7/P8), soit sur les **pads crocodile** (P0/P1/P2).
+
+| Composant | Avec adaptateur Edge       | Sans adaptateur (pads) | Variable Python | Comportement             |
+| --------- | -------------------------- | ---------------------- | --------------- | ------------------------ |
+| LED 1     | `P6` (signal `GPIO2_EDGE`) | `P0`                   | `led_1`         | 1 = allumée, 0 = éteinte |
+| LED 2     | `P7` (signal `GPIO3_EDGE`) | `P1`                   | `led_2`         | 1 = allumée, 0 = éteinte |
+| LED 3     | `P8` (signal `GPIO4_EDGE`) | `P2`                   | `led_3`         | 1 = allumée, 0 = éteinte |
 
 :::info[Nom court `P6` ou nom de signal `GPIO2_EDGE` ?]
 Les broches du connecteur Edge ont deux noms : un **nom court** style micro:bit (`P6`, `P7`, `P8`...) et un **nom de signal** explicite documenté côté STeaMi (`GPIO2_EDGE`, `GPIO3_EDGE`, etc., cf. [wiki.steami.cc → Pin Mapping → Signaux](https://wiki.steami.cc/docs/hardware/pin-mapping/signals)). Selon la version du firmware MicroPython STeaMi, les deux notations peuvent être acceptées par `Pin(...)`, ou seulement l'une des deux.
@@ -163,19 +173,29 @@ Le code de cette fiche utilise la forme courte `Pin('P6')`. Si vous obtenez `Val
 
 ### Programme
 
+Le programme principal est identique pour les deux variantes. **Seules les trois lignes d'initialisation des broches changent** selon votre montage.
+
 ```python
 # Testée avec firmware STeaMi 0.23.1
 #
 # Premier circuit sur breadboard : trois LED externes connectées
-# au connecteur Edge de la STeaMi (P6, P7, P8). Le programme allume
-# chaque LED à tour de rôle pour une seconde, puis recommence.
+# à la STeaMi. Le programme allume chaque LED à tour de rôle
+# pendant une seconde, puis recommence.
 
 from machine import Pin
 from time import sleep_ms
 
+# --- Variante AVEC adaptateur Edge breakout ---
 led_1 = Pin('P6', Pin.OUT)
 led_2 = Pin('P7', Pin.OUT)
 led_3 = Pin('P8', Pin.OUT)
+
+# --- Variante SANS adaptateur (pads crocodile) ---
+# Commentez les trois lignes ci-dessus et décommentez
+# celles ci-dessous si vous utilisez les pads P0/P1/P2.
+# led_1 = Pin('P0', Pin.OUT)
+# led_2 = Pin('P1', Pin.OUT)
+# led_3 = Pin('P2', Pin.OUT)
 
 while True:
     led_1.value(1)   # allume LED 1
@@ -201,7 +221,8 @@ Une LED qui ne s'allume pas ? Trois suspects à vérifier dans l'ordre :
 
 - **Polarité inversée** : la LED a été branchée cathode en haut. La désinsérer et la remettre dans l'autre sens.
 - **Résistance absente ou mauvaise valeur** : sans résistance, la LED peut griller en quelques secondes. Mauvaise valeur (trop forte) : la LED est très faible. Vérifier le marquage des bandes de couleur (orange-orange-marron-or pour 330 Ω).
-- **Mauvaise broche** : le fil va sur P5 au lieu de P6 ? Vérifier avec la doc Edge connector.
+- **Mauvaise broche** : le fil va sur la voisine plutôt que celle attendue (P5 au lieu de P6, ou un pad voisin de P0) ? Recompter sur la STeaMi en s'aidant du [pin mapping officiel](https://wiki.steami.cc/docs/hardware/pin-mapping/signals).
+- **Variante choisie ≠ code** : LED branchées sur les pads P0/P1/P2 mais code laissé sur P6/P7/P8 (ou inversement). Vérifier que le code initialise bien les broches que vous avez réellement câblées.
 
 ### Exécution
 
