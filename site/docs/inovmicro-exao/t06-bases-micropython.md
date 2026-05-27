@@ -1,5 +1,5 @@
 ---
-id: t06-bases-langage
+id: t06-bases-micropython
 title: "Bases du langage : Prise en main de MicroPython"
 sidebar_label: "Bases du langage"
 sidebar_position: 6
@@ -28,7 +28,7 @@ sidebar_position: 6
 - Un IDE compatible MicroPython : [Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny), Mu, [VS Code](/ressources/inovmicro-exao/t04-vscode), Vittascience, ou tout autre éditeur capable d'ouvrir une console série.
 
 </div>
-<img src="/img/ressources/inovmicro-exao/t06-bases-langage/icone.png" alt="Logo MicroPython" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/t06-bases-micropython/icone.png" alt="Logo MicroPython" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---

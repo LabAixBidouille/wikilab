@@ -3747,9 +3747,9 @@ export const resources: Resource[] = [
     section: 'Prise en main',
   },
   {
-    id: 't06-bases-langage',
+    id: 't06-bases-micropython',
     title: 'Bases du langage — Prise en main de MicroPython sur la STeaMi',
-    slug: '/ressources/inovmicro-exao/t06-bases-langage',
+    slug: '/ressources/inovmicro-exao/t06-bases-micropython',
     project: 'inovmicro-exao',
     summary:
       'Prise en main de la programmation en MicroPython : variables, boucles, conditions, fonctions, et les bonnes pratiques pour structurer son code sur la STeaMi.',
@@ -3771,7 +3771,7 @@ export const resources: Resource[] = [
       'fonctions',
       'structure de code',
     ],
-    thumbnail: '/img/ressources/inovmicro-exao/t06-bases-langage/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/t06-bases-micropython/icone.png',
     section: 'Prise en main',
   },
   {
