@@ -195,13 +195,15 @@ Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un te
 
 Couleurs disponibles dans `steami_screen` : `BLACK`, `DARK`, `GRAY`, `LIGHT`, `WHITE` (5 niveaux de gris du SSD1327), plus `RED`, `GREEN`, `BLUE`, `YELLOW` (qui dégradent automatiquement en niveaux de gris sur l'écran monochrome).
 
-:::warning Étape importante : `screen.show()`
+:::warning[Étape importante : `screen.show()`]
+
 On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`, etc. dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
 
 Techniquement, ce « tableau caché » s'appelle un **framebuffer** : une zone de mémoire dans laquelle on prépare l'image, avant de la transférer vers l'écran.
 :::
 
-:::tip API bas niveau
+:::info[API bas niveau]
+
 Si vous avez besoin de coordonnées exactes (par exemple pour une animation pixel par pixel), `steami_screen` expose aussi `screen.pixel()`, `screen.line()`, `screen.rect()` et `screen.circle()`.
 :::
 
