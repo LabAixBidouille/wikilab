@@ -714,3 +714,12 @@ exploratorium
 oinkgames
 consilium
 europa
+
+# Outillage Python pour l'installation de paquets en ligne de commande
+# (fiche I-NOVMICRO t04-vscode + dépannage)
+pipx
+venv
+ensurepath
+stdlib
+Pymakr
+paulober
