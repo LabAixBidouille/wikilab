@@ -138,6 +138,12 @@ Brancher la STeaMi en USB. Disque amovible `STEAMI` visible, port série prêt d
 | Servomoteur (V+)     | (alimentation) | 3V3 ou alim ext | (pas de variable) | Alimentation 3,3 V à vide, 5 V externe en charge |
 | Servomoteur (GND)    | (masse)        | GND  | (pas de variable) | Masse commune                                    |
 
+:::info[Nom court `P7` ou nom de signal `GPIO3_EDGE` ?]
+La broche du connecteur Edge a deux noms : un **nom court** style micro:bit (`P7`) et un **nom de signal** documenté côté STeaMi (`GPIO3_EDGE`, cf. [wiki.steami.cc → Pin Mapping → Signaux](https://wiki.steami.cc/docs/hardware/pin-mapping/signals)). Selon la version du firmware MicroPython STeaMi, l'une ou les deux notations peuvent être acceptées par `Pin(...)`.
+
+Le code de cette fiche utilise la forme courte `Pin('P7')`. Si vous obtenez `ValueError: invalid pin name`, essayez `Pin('GPIO3_EDGE')`.
+:::
+
 ### Programme
 
 ```python
