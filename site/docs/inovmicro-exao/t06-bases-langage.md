@@ -51,7 +51,7 @@ Le programme final pilote la LED RGB et lit les boutons A et B de la STeaMi. Ces
 
 À la fin de cette activité, l'élève sera capable de :
 
-- **Distinguer** les principaux types de variables Python (entier, décimal, chaîne de caractères, booléen) et les utiliser à bon escient.
+- **Distinguer** les principaux types de variables Python (entier, décimal, chaîne de caractères, booléen, **liste**) et les combiner avec les opérateurs du langage (arithmétiques, de comparaison, logiques).
 - **Écrire** une condition `if`/`elif`/`else` qui adapte le comportement du programme à une situation.
 - **Construire** une boucle `for` ou `while` pour répéter une action sans dupliquer le code.
 - **Définir** une fonction qui encapsule une suite d'instructions réutilisable, avec ou sans paramètres.
@@ -156,7 +156,6 @@ object <class 'Pin'> is of type type
 ...
 ```
 
-
 #### Tester une commande à la volée
 
 ```python
@@ -174,12 +173,12 @@ Tout ce qui suit dans cette fiche peut être testé d'abord ligne par ligne dans
 
 #### Raccourcis utiles dans le REPL
 
-| Raccourci  | Effet                                                            |
-| ---------- | ---------------------------------------------------------------- |
+| Raccourci  | Effet                                                              |
+| ---------- | ------------------------------------------------------------------ |
 | `Ctrl+C`   | Interrompre le programme en cours (utile en cas de boucle infinie) |
-| `Ctrl+D`   | Redémarrer l'interpréteur (relance `main.py` s'il y en a un)     |
-| `Flèche ↑` | Rappeler la dernière commande tapée                              |
-| `Tab`      | Autocomplétion sur les noms disponibles                          |
+| `Ctrl+D`   | Redémarrer l'interpréteur (relance `main.py` s'il y en a un)       |
+| `Flèche ↑` | Rappeler la dernière commande tapée                                |
+| `Tab`      | Autocomplétion sur les noms disponibles                            |
 
 :::info[Le REPL et les fichiers, deux modes complémentaires]
 Le REPL est parfait pour **explorer**, tester une idée, valider une formule à la volée. Les **fichiers** (typiquement `main.py`) sont nécessaires dès qu'on veut un programme **persistant** qui se relance au démarrage de la carte, sans connexion à un ordinateur. La suite de cette fiche bascule progressivement du REPL vers les fichiers.
@@ -207,9 +206,107 @@ Pour créer une variable en MicroPython, il suffit de lui donner un nom et de lu
 15 3.5 Nathan True
 ```
 
+Pour mélanger du texte fixe et des valeurs de variables dans un même affichage, le plus pratique est la **f-string** (« formatted string ») : on préfixe la chaîne d'un `f` et on insère les variables entre accolades `{}`.
+
+```python
+>>> print(f"Bonjour {prenom}, vous avez {age} ans.")
+Bonjour Nathan, vous avez 15 ans.
+>>> print(f"Avec la TVA, le prix devient {prix * 1.20} €.")
+Avec la TVA, le prix devient 4.2 €.
+```
+
 :::info[Typage dynamique : un atout à manier avec prudence]
 En MicroPython, une variable peut **changer de type** en cours de programme (`age = 15` puis `age = "quinze"` est accepté). C'est ce qu'on appelle le **typage dynamique** : pratique pour bricoler vite, dangereux pour la lisibilité. Convention : **garder le même type tout au long de la vie d'une variable**. Si vous avez besoin d'autre chose, créez une nouvelle variable au nom explicite.
 :::
+
+Quand on a besoin de **changer volontairement** le type d'une valeur (par exemple lire un nombre saisi par l'utilisateur, qui arrive toujours sous forme de chaîne de caractères), Python propose des fonctions de **conversion** :
+
+```python
+>>> int("15")           # str -> int
+15
+>>> float("3.14")       # str -> float
+3.14
+>>> str(15)             # int -> str
+'15'
+>>> int(3.7)            # float -> int (tronque vers 0, ne pas confondre avec round())
+3
+>>> bool(0), bool(1)    # int -> bool (0 = False, tout le reste = True)
+(False, True)
+```
+
+Une conversion impossible (`int("abc")`) lève une erreur ; on apprendra plus tard à les attraper avec `try / except`.
+
+### Les opérateurs
+
+Les **opérateurs** sont les symboles qui combinent les valeurs. Python en propose quatre familles utiles dès les premiers programmes :
+
+| Famille     | Opérateurs                       | Exemple                              |
+| ----------- | -------------------------------- | ------------------------------------ |
+| Arithmétique | `+ - * / // % **`                | `7 // 2` vaut `3`, `7 % 2` vaut `1`  |
+| Comparaison | `== != < > <= >=`                | `age >= 18` renvoie `True` ou `False` |
+| Logique     | `and` `or` `not`                 | `age >= 13 and age < 18` (adolescent) |
+| Affectation | `= += -= *= /=`                  | `compteur += 1` équivaut à `compteur = compteur + 1` |
+
+À tester dans le REPL :
+
+```python
+>>> 10 + 3 * 2              # priorités habituelles : * avant +
+16
+>>> 10 / 3                  # division flottante : résultat décimal
+3.3333333333333335
+>>> 10 // 3                 # division entière : on garde la partie entière
+3
+>>> 10 % 3                  # modulo : reste de la division entière
+1
+>>> 2 ** 8                  # puissance : 2 à la puissance 8
+256
+>>> age = 15
+>>> age >= 13 and age < 18  # combinaison logique
+True
+>>> not (age == 15)         # négation
+False
+```
+
+Quelques pièges classiques :
+
+- **`=` versus `==`** : `=` _affecte_ une valeur à une variable (`age = 15`), `==` _compare_ deux valeurs (`age == 15`). Confondre les deux est l'erreur la plus fréquente des débutant·es.
+- **Division `/` versus `//`** : `7 / 2` vaut `3.5` (flottant), `7 // 2` vaut `3` (entier). Utile à connaître quand on travaille avec des index ou des compteurs.
+
+### Les listes
+
+Une **liste** regroupe plusieurs valeurs dans une même variable, **dans un ordre défini**. C'est la structure de données la plus utilisée en Python, et celle qu'on retrouve dans le programme de l'Étape 2 (`['rouge', 'bleu']`).
+
+```python
+>>> couleurs = ['rouge', 'bleu', 'vert']
+>>> couleurs
+['rouge', 'bleu', 'vert']
+>>> len(couleurs)             # nombre d'éléments
+3
+>>> couleurs[0]               # accès par index, le premier élément est en position 0
+'rouge'
+>>> couleurs[-1]              # un index négatif compte depuis la fin
+'vert'
+>>> couleurs.append('jaune')  # ajouter un élément à la fin
+>>> couleurs
+['rouge', 'bleu', 'vert', 'jaune']
+>>> 'bleu' in couleurs        # tester l'appartenance
+True
+```
+
+Une liste peut contenir n'importe quel type de valeur, voire mélanger des types (`[1, "deux", 3.0, True]`), même si en pratique on garde des éléments de **même nature**.
+
+On parcourt une liste avec une boucle `for`, sans avoir besoin de gérer un index à la main :
+
+```python
+>>> for couleur in couleurs:
+...     print(f"Une couleur : {couleur}")
+Une couleur : rouge
+Une couleur : bleu
+Une couleur : vert
+Une couleur : jaune
+```
+
+C'est ce que fera implicitement `random.choice(['rouge', 'bleu'])` dans le jeu de l'Étape 2 : il pioche un élément au hasard parmi ceux de la liste.
 
 ### Les conditions
 
