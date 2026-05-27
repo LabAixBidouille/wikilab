@@ -22,6 +22,12 @@ sidebar_position: 2
 |---|---|---|---|
 | Let's STEAM | 15 minutes | Débutant | 11-15 ans |
 
+:::info[Version STeaMi / MicroPython]
+
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard).
+
+:::
+
 ## Matériel
 
 - 1 carte programmable "STM32 IoT Node Board"
