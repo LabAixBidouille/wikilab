@@ -60,17 +60,6 @@ Ici la partie « Construire » est un peu différente de ce qu'on a l'habitude d
 
 Quel que soit votre système d'exploitation, vous pouvez télécharger et installer Visual Studio Code depuis le [site officiel](https://code.visualstudio.com/). Il vous suffit de choisir la version adaptée à votre système (Windows, macOS ou Linux) et de suivre les instructions d'installation.
 
-<figure style={{textAlign: 'center', margin: '1rem auto'}}>
-  <img
-    src="/img/ressources/inovmicro-exao/t04-vscode/installer.png"
-    alt="Page de téléchargement de Visual Studio Code (site officiel)"
-    style={{maxWidth: '800px', height: 'auto'}}
-  />
-  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
-    Choisir la version qui correspond à votre système (Windows, Linux ou macOS) puis suivre les instructions d'installation.
-  </figcaption>
-</figure>
-
 ### Configurer VS Code pour la STeaMi
 
 Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêtre d'accueil.
