@@ -220,51 +220,13 @@ article li,
   border-collapse: collapse;
 }
 
-/* Couleur de fond du `thead` : pilotée par projet via la variable
- * `--wiki-table-thead-bg`. La valeur par défaut (#09246c, bleu Mimesis)
- * reste appliquée si aucun projet n'est détecté. Les overrides projet
- * sont définis plus bas via le sélecteur `[class*="docs-doc-id-<projet>/"]`
- * que Docusaurus ajoute au wrapper de chaque page de fiche.
- *
- * Source des couleurs : `site/src/data/projects.ts` (champ `color`). */
+/* Couleur de fond unifiée pour le `thead` de toutes les fiches.
+ * Choix utilisateur : bleu profond #1d2a54, identique à travers tous
+ * les projets pour une cohérence visuelle. */
 .markdown table thead th {
-  background-color: var(--wiki-table-thead-bg, #09246c);
+  background-color: #1d2a54;
   color: #fff !important;
   font-weight: 700;
-}
-
-[class*='docs-doc-id-lets-steam/'] {
-  --wiki-table-thead-bg: #140e4e;
-}
-[class*='docs-doc-id-mimesis/'] {
-  --wiki-table-thead-bg: #09246c;
-}
-[class*='docs-doc-id-robots-meet-arts/'] {
-  --wiki-table-thead-bg: #169da7;
-}
-[class*='docs-doc-id-steamcity/'] {
-  --wiki-table-thead-bg: #dd5350;
-}
-[class*='docs-doc-id-unplugged/'] {
-  --wiki-table-thead-bg: #0081a7;
-}
-[class*='docs-doc-id-jeditrack/'] {
-  --wiki-table-thead-bg: #1198f0;
-}
-[class*='docs-doc-id-thedexterlab/'] {
-  --wiki-table-thead-bg: #1a4a48;
-}
-[class*='docs-doc-id-youth-ai-lab/'] {
-  --wiki-table-thead-bg: #b34520;
-}
-[class*='docs-doc-id-magnetics/'] {
-  --wiki-table-thead-bg: #094869;
-}
-[class*='docs-doc-id-inovmicro-exao/'] {
-  --wiki-table-thead-bg: #8a6e18;
-}
-[class*='docs-doc-id-projets-du-lab/'] {
-  --wiki-table-thead-bg: #356bac;
 }
 
 .markdown table td,
