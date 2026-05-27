@@ -78,28 +78,84 @@ Dans les exemples ci-dessous, les chevrons `>>>` sont **affichés par MicroPytho
 
 #### Inspecter ce qui est déjà chargé
 
+Trois commandes complémentaires permettent d'explorer ce qui est disponible :
+
 ```python
 >>> dir()
 ['__name__', 'machine']
 ```
 
-Au démarrage, MicroPython expose déjà `machine`, le module qui donne accès au matériel. On peut creuser le contenu d'un module avec `dir()` :
+`dir()` sans argument liste ce qui est **déjà chargé** en mémoire au démarrage : peu de choses. La carte n'a pas encore importé quoi que ce soit, mais le module `machine` est rendu disponible d'office.
+
+```python
+>>> help('modules')
+__main__          bq27441/__init__  json              ssd1327/device
+_asyncio          bq27441/const     lis2mdl/__init__  steami_config/__init__
+_onewire          bq27441/device    lis2mdl/const     steami_config/device
+aioble/__init__   bq27441/exceptions                  lis2mdl/device    steami_screen/__init__
+aioble/central    builtins          logging           steami_screen/colors
+aioble/client     cbor2/__init__    machine           steami_screen/device
+aioble/core       cbor2/_decoder    math              steami_screen/ssd1327
+aioble/device     cbor2/_encoder    mcp23009e/__init__                  stm
+aioble/l2cap      cmath             mcp23009e/active_low_pin            struct
+aioble/peripheral collections       mcp23009e/const   sys
+aioble/security   daplink_bridge/__init__             mcp23009e/device  time
+aioble/server     daplink_bridge/const                mcp23009e/pin     time
+apds9960/__init__ daplink_bridge/device               micropython       uasyncio
+apds9960/const    daplink_flash/__init__              network           uctypes
+apds9960/device   daplink_flash/const                 onewire           vfs
+apds9960/exceptions                 daplink_flash/device                os                vl53l1x/__init__
+array             deflate           platform          vl53l1x/const
+asyncio/__init__  dht               pyb               vl53l1x/device
+asyncio/core      errno             random            wsen_hids/__init__
+asyncio/event     framebuf          re                wsen_hids/const
+asyncio/funcs     gc                select            wsen_hids/device
+asyncio/lock      hashlib           senml/__init__    wsen_hids/exceptions
+asyncio/stream    heapq             senml/senml_base  wsen_pads/__init__
+binascii          hts221            senml/senml_pack  wsen_pads/const
+bluetooth         io                senml/senml_record                  wsen_pads/device
+bme280/__init__   ism330dl/__init__ senml/senml_unit  wsen_pads/exceptions
+bme280/const      ism330dl/const    socket
+bme280/device     ism330dl/device   ssd1327/__init__
+bme280/exceptions ism330dl/exceptions                 ssd1327/const
+Plus any modules on the filesystem
+```
+
+`help('modules')` liste tout ce qui est **disponible à l'import**. On y retrouve les classiques Python (`time`, `random`, `os`, `json`, `math`...) mais aussi les **drivers spécifiques à la STeaMi** (`steami_screen` pour l'écran OLED, `ism330dl` pour l'accéléromètre, `hts221` pour la température et l'humidité, `apds9960` pour la lumière, `vl53l1x` pour la distance, `lis2mdl` pour le magnétomètre, `mcp23009e` pour les boutons directionnels). Ces drivers ne sont pas magiques, ce sont des modules Python comme les autres, simplement déjà compilés dans MicroPython.
+
+Une fois un module choisi, `dir(module)` zoome sur son contenu :
 
 ```python
 >>> import machine
 >>> dir(machine)
-['__name__', 'Pin', 'I2C', 'SPI', 'UART', 'ADC', 'PWM', 'Timer', 'reset', 'freq', ...]
+['__class__', '__name__', 'ADC', 'DEEPSLEEP_RESET', 'HARD_RESET', 'I2C', 'I2CTarget', 'PWM', 'PWRON_RESET', 'Pin', 'RTC', 'SOFT_RESET', 'SPI', 'Signal', 'SoftI2C', 'SoftSPI', 'Timer', 'UART', 'WDT', 'WDT_RESET', '__dict__', 'bitstream', 'bootloader', 'deepsleep', 'dht_readinto', 'disable_irq', 'enable_irq', 'freq', 'idle', 'info', 'lightsleep', 'mem16', 'mem32', 'mem8', 'reset', 'reset_cause', 'rng', 'sleep', 'soft_reset', 'time_pulse_us', 'unique_id']
 ```
 
-Et obtenir l'aide intégrée sur n'importe quel élément avec `help()` :
+Et `help(element)` donne l'aide intégrée sur un objet précis :
 
 ```python
 >>> help(machine.Pin)
-class Pin -- control I/O pins
+object <class 'Pin'> is of type type
+  init -- <function>
+  value -- <function>
+  off -- <function>
+  on -- <function>
+  irq -- <function>
+  low -- <function>
+  high -- <function>
+  name -- <function>
+  names -- <function>
+  af_list -- <function>
+  port -- <function>
+  pin -- <function>
+  gpio -- <function>
+  mode -- <function>
+  pull -- <function>
+  af -- <function>
+  mapper -- <classmethod>
 ...
 ```
 
-Faire la même chose avec les autres modules pré-installés sur la STeaMi pour découvrir ce qui est disponible : `time` (chronométrage), `random` (nombres aléatoires), `os` (système de fichiers), `gc` (gestion mémoire), ou les drivers spécifiques à la carte (`steami_screen` pour l'écran OLED, `ism330dl` pour l'accéléromètre, etc.).
 
 #### Tester une commande à la volée
 
