@@ -120,6 +120,12 @@ Brancher la STeaMi en USB. La carte apparaît comme disque amovible `STEAMI` et 
 | Potentiomètre     | `ANALOG01_EDGE`      | `P3`   | `potentiometre`  | Lecture ADC : 0 (bouton à fond à gauche) à 65535 (à fond à droite) |
 | LED               | `GPIO3_EDGE`         | `P7`   | `led`            | Sortie PWM : 0 (éteinte) à 65535 (à fond)   |
 
+:::info[Nom court `P3` / `P7` ou nom de signal complet ?]
+Les broches du connecteur Edge ont deux noms : un **nom court** style micro:bit (`P3`, `P7`...) et un **nom de signal** documenté côté STeaMi (`ANALOG01_EDGE`, `GPIO3_EDGE`, cf. [wiki.steami.cc → Pin Mapping → Signaux](https://wiki.steami.cc/docs/hardware/pin-mapping/signals)). Selon la version du firmware MicroPython STeaMi, l'une ou les deux notations peuvent être acceptées par `Pin(...)` / `ADC(Pin(...))` / `PWM(Pin(...))`.
+
+Le code de cette fiche utilise la forme courte `Pin('P3')` / `Pin('P7')`. Si vous obtenez `ValueError: invalid pin name`, essayez `Pin('ANALOG01_EDGE')` et `Pin('GPIO3_EDGE')`.
+:::
+
 ### Programme
 
 ```python
@@ -182,7 +188,7 @@ while True:
     sleep_ms(200)
 ```
 
-Ce défi sert à voir que `read_u16()` ne couvre pas forcément `0` à `65535` strict : les vrais minimums et maximums sont souvent un peu plus bas que 0 et un peu plus haut que 65535, parce que les composants ne sont jamais parfaits.
+Ce défi sert à voir que `read_u16()` borne toujours la valeur dans `0..65535`, mais que **les deux extrêmes ne sont pas toujours atteints en pratique** : selon la précision du potentiomètre, on observe souvent un minimum réel un peu au-dessus de 0 et un maximum réel un peu en-dessous de 65535. Les composants ne sont jamais parfaits, et l'ADC du microcontrôleur a son propre bruit.
 
 ### Défi 2 : Deux LED inversées
 
@@ -199,7 +205,7 @@ Remplacer la LED par un **buzzer piézo** (ou ajouter un buzzer en plus). Le buz
 Imaginer un usage qui sorte du « variateur de lumière ». Pistes :
 
 - Un **contrôleur de température cible** d'un thermostat (la position du bouton fixe une consigne, comparée à la température lue sur le HTS221 intégré à la STeaMi).
-- Un **manette analogique** pour un mini-jeu sur l'écran OLED : la position du curseur déplace un sprite horizontalement.
+- Une **manette analogique** pour un mini-jeu sur l'écran OLED : la position du curseur déplace un sprite horizontalement.
 - Un **prototype de jauge** où le potentiomètre simule le niveau d'essence d'une voiture et la LED s'allume rouge quand on passe en réserve.
 - Un **doseur** virtuel : on tourne le bouton pour fixer une durée (entre 1 et 10 minutes), un buzzer sonne à la fin (en combinaison avec la fiche [Minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique)).
 
