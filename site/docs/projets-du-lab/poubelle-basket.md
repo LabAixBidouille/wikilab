@@ -11,6 +11,10 @@ sidebar_position: 17
 
 # Poubelle basket
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Débutant |
+
 ### Présentation
 
 Ce projet consiste à fabriquer une poubelle surmontée d'un panier de basket, en découpe laser. C'est avant tout un prétexte pour apprendre à utiliser la Trotec Speedy 400.

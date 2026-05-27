@@ -11,6 +11,10 @@ sidebar_position: 6
 
 # Terrarium connecté
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Avancé |
+
 Les dendrobates vivent à une température comprise entre 24 et 26 °C le jour (2 °C de moins la nuit), dans un milieu tropical très humide, avec une humidité relative de 70 à 80 %. Elles ne doivent pas être exposées à la lumière directe du soleil et nécessitent donc un éclairage artificiel adapté.
 
 </div>

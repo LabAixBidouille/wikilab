@@ -11,6 +11,10 @@ sidebar_position: 11
 
 # Harpe laser MIDI
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Avancé |
+
 ### Présentation
 
 Ce projet vise à construire une harpe laser fonctionnant comme un clavier MIDI. Il a été développé en vue d'une démonstration lors de la conférence [Devoxx](http://www.devoxx.fr/) à Paris, du 16 au 18 avril 2014.

@@ -11,6 +11,10 @@ sidebar_position: 8
 
 # Robot ERICbot
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Intermédiaire |
+
 ### Matériel
 
 Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. Il est équipé de :

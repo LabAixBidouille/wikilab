@@ -11,6 +11,10 @@ sidebar_position: 20
 
 # LABanque : Monnaie du fablab
 
+| Projet | Type | Difficulté |
+| --- | --- | --- |
+| Projets du LAB | Projet maker | Débutant |
+
 Picsous trésorier du LAB et forgeur d'écrous
 
 ### Notre ambition
