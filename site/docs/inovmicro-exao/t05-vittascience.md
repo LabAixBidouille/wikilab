@@ -41,7 +41,15 @@ sidebar_position: 5
 
 ## De quoi parle-t-on ?
 
-Pour programmer votre carte STeaMi, vous avez besoin d'un éditeur de code. Dans cette fiche vous allez découvrir comment utiliser l'éditeur de code en ligne de Vittascience pour programmer votre carte en MicroPython ou en blocs. Vous allez apprendre à configurer l'éditeur, puis à écrire et exécuter un programme qui interagit avec les composants de la STeaMi (LED RGB et boutons). Enfin, vous découvrirez des outils pour tester du code en direct et déboguer vos programmes.
+Vous avez peut-être déjà bricolé un projet sur [Scratch](https://scratch.mit.edu/), assemblé des blocs dans l'application [code.org](https://code.org/), ou même programmé en blocs sur une calculatrice. C'est la même idée ici : un **éditeur de programmation** qui propose deux modes côte à côte, **blocs** (les briques à assembler à la souris) et **MicroPython** (le code texte derrière), pour piloter la STeaMi sans avoir besoin d'installer quoi que ce soit de lourd sur l'ordinateur.
+
+[Vittascience](https://vittascience.com/) est une plateforme française gratuite, utilisable directement dans le navigateur, ou installable en application bureau pour fonctionner hors-ligne. C'est l'outil idéal pour les classes équipées de postes verrouillés où l'on ne peut pas installer Thonny ou VS Code, ou pour des élèves qui débutent et préfèrent les blocs avant de basculer en code texte.
+
+Cette fiche couvre l'installation de Vittascience (web ou bureau), la mise en place de la communication avec la STeaMi, et un premier programme **LED RGB + boutons A/B** écrit côte à côte en blocs et en MicroPython, pour faire le pont entre les deux représentations.
+
+:::info[Composants intégrés, rien à câbler]
+La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés à la STeaMi. Aucun câblage externe à faire.
+:::
 
 ---
 
@@ -49,10 +57,12 @@ Pour programmer votre carte STeaMi, vous avez besoin d'un éditeur de code. Dans
 
 À la fin de cette activité, l'élève sera capable de :
 
-- **Comprendre** le principe de la programmation embarquée : un programme écrit sur l'ordinateur est envoyé à la carte, qui l'exécute ensuite par elle-même
-- **Distinguer** le rôle de l'éditeur, du langage (MicroPython ou blocs) et de la carte (STeaMi)
-- **Écrire** et exécuter un premier programme MicroPython qui interagit avec le matériel (LED, boutons)
-- **Tester** du code avec le REPL sans créer de fichier, et distinguer exécution temporaire (Téléverser) et programme persistant (`main.py`)
+- **Expliquer** le principe de la programmation embarquée : un programme écrit sur l'ordinateur est envoyé à la carte, qui l'exécute ensuite par elle-même.
+- **Distinguer** le rôle de l'éditeur (Vittascience), du langage (MicroPython ou blocs) et de la carte (STeaMi).
+- **Écrire** un premier programme qui allume la LED RGB selon le bouton pressé, à la fois en blocs et en MicroPython, et **basculer** d'une représentation à l'autre dans Vittascience.
+- **Téléverser** ce programme sur la STeaMi, et **faire la différence** entre une exécution temporaire (téléversement) et un programme persistant (enregistrement en `main.py`).
+- **Tester** une instruction à la volée dans le REPL, sans écrire de fichier complet.
+- **Adapter** ce flux de travail à d'autres petits programmes ou à un autre éditeur compatible MicroPython si Vittascience n'est pas disponible (Thonny, Mu, VS Code...).
 
 ---
 
@@ -117,45 +127,61 @@ Dans l'éditeur web vous avez la possibilité de programmer en blocs ou en Micro
 
 ## Étape 2 : Programmer
 
-Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé**. Sur la STeaMi, la LED RGB s'allume en écrivant `1` sur la broche, et s'éteint avec `0`. Les boutons A et B, eux, fonctionnent à l'envers : leur valeur vaut `1` au repos et passe à `0` quand on appuie.
+Premier programme : **changer la couleur de la LED RGB selon le bouton enfoncé**. Sur la STeaMi, la LED RGB s'allume en écrivant `1` sur la broche, et s'éteint avec `0`. Les boutons A et B, eux, fonctionnent à l'envers : leur valeur vaut `1` au repos et passe à `0` quand on appuie (résistances pull-up externes câblées sur la carte, à ne pas confondre avec la pull-up interne du microcontrôleur).
 
-### Brochage utilisé
+### Broches utilisées
 
-| Composant       | Nom dans le programme | Comportement             |
-| --------------- | --------------------- | ------------------------- |
-| LED RGB Rouge   | `led3_red`            | 1 = allumée, 0 = éteinte |
-| LED RGB Verte   | `led2_green`          | 1 = allumée, 0 = éteinte |
-| LED RGB Bleue   | `led1_blue`           | 1 = allumée, 0 = éteinte |
-| Bouton A        | `A_BUTTON`            | 0 = appuyé, 1 = relâché  |
-| Bouton B        | `B_BUTTON`            | 0 = appuyé, 1 = relâché  |
+| Composant     | Nom de broche STeaMi | Variable Python | Comportement             |
+| ------------- | -------------------- | --------------- | ------------------------ |
+| LED RGB Rouge | `LED_RED`            | `led_rouge`     | 1 = allumée, 0 = éteinte |
+| LED RGB Verte | `LED_GREEN`          | `led_verte`     | 1 = allumée, 0 = éteinte |
+| LED RGB Bleue | `LED_BLUE`           | `led_bleue`     | 1 = allumée, 0 = éteinte |
+| Bouton A      | `A_BUTTON`           | `bouton_a`      | 0 = appuyé, 1 = relâché  |
+| Bouton B      | `B_BUTTON`           | `bouton_b`      | 0 = appuyé, 1 = relâché  |
 
 ### Programme
 
 ```python
 # Testée avec firmware STeaMi 0.23.1
+#
+# Premier programme STeaMi avec Vittascience, LED RGB + boutons A/B
+# - Bouton A seul    -> LED rouge
+# - Bouton B seul    -> LED verte
+# - A + B            -> LED bleue
+# - Aucun bouton     -> LED éteinte
 
-import pyb
+from machine import Pin
 from time import sleep_ms
 
-led1_blue  = pyb.LED(1)
-led2_green = pyb.LED(2)
-led3_red   = pyb.LED(3)
+led_rouge = Pin('LED_RED', Pin.OUT)
+led_verte = Pin('LED_GREEN', Pin.OUT)
+led_bleue = Pin('LED_BLUE', Pin.OUT)
 
-def blink(led):
-    led.on()
-    sleep_ms(20)
-    led.off()
+bouton_a = Pin('A_BUTTON', Pin.IN)
+bouton_b = Pin('B_BUTTON', Pin.IN)
 
-a_button = pyb.Pin('A_BUTTON', pyb.Pin.IN)
-b_button = pyb.Pin('B_BUTTON', pyb.Pin.IN)
+
+def regler_led(rouge, verte, bleue):
+    """Allume chaque composante de la LED RGB (1 = on, 0 = off)."""
+    led_rouge.value(rouge)
+    led_verte.value(verte)
+    led_bleue.value(bleue)
+
 
 while True:
-    if not a_button.value() and b_button.value():
-        blink(led1_blue)
-    elif not b_button.value() and a_button.value():
-        blink(led2_green)
-    elif not a_button.value() and not b_button.value():
-        blink(led3_red)
+    bouton_a_appuye = bouton_a.value() == 0
+    bouton_b_appuye = bouton_b.value() == 0
+
+    if bouton_a_appuye and bouton_b_appuye:
+        regler_led(0, 0, 1)   # bleu
+    elif bouton_a_appuye:
+        regler_led(1, 0, 0)   # rouge
+    elif bouton_b_appuye:
+        regler_led(0, 1, 0)   # vert
+    else:
+        regler_led(0, 0, 0)   # éteint
+
+    sleep_ms(20)
 ```
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
@@ -169,15 +195,13 @@ while True:
   </figcaption>
 </figure>
 
-### Fonctionnement du programme
+### Comment ça fonctionne ?
 
-- Le programme commence par importer le module `pyb`, qui contient les fonctions pour interagir avec le matériel de la STeaMi, ainsi que `sleep_ms` pour gérer les temporisations.
-- La fonction `blink(led)` allume la LED passée en argument pendant 20 ms, puis l'éteint.
-- Les boutons A et B sont configurés en entrée (`pyb.Pin.IN`). Les résistances de pull-up sont déjà présentes sur la carte STeaMi, il n'est donc pas nécessaire d'activer les pull-up internes dans le code.
-- La boucle `while True` tourne indéfiniment : à chaque itération, elle vérifie l'état des boutons et allume la LED correspondante :
-  - Si le bouton A seul est appuyé (`not a_button.value()`), la LED bleue clignote.
-  - Si le bouton B seul est appuyé (`not b_button.value()`), la LED verte clignote.
-  - Si les deux boutons sont appuyés en même temps, la LED rouge clignote.
+1. **Imports** : `machine.Pin` pour piloter les broches de la carte, `sleep_ms` pour temporiser dans la boucle.
+2. **Initialisation des LED** : trois broches en sortie, une pour chaque composante de la LED RGB. Les noms `LED_RED`, `LED_GREEN`, `LED_BLUE` sont des constantes exposées par MicroPython sur la STeaMi (cf. table « Broches utilisées »).
+3. **Initialisation des boutons** : entrée simple, sans pull-up interne dans le code (les pull-up sont déjà câblées sur la carte). Au repos la broche lit `1`, quand on appuie elle lit `0`.
+4. **`regler_led(rouge, verte, bleue)`** : factorise les trois `value()` en un seul appel. Plus court à lire, plus facile à étendre si on ajoute un capteur.
+5. **Boucle principale** : à chaque itération, lit l'état des deux boutons et choisit la couleur correspondante. Le `sleep_ms(20)` évite que la boucle ne consomme inutilement le CPU (et fait office de petit anti-rebond).
 
 ### Exécution
 
@@ -203,16 +227,16 @@ Le **REPL** (`>>>` dans le panneau console) permet de tester du code **directeme
 Dans l'exemple ci-dessous, les `>>>` représentent l'invite, c'est ce que Vittascience affiche pour signaler qu'il attend une commande. Ne recopiez pas ces chevrons : tapez uniquement la commande qui suit l'invite.
 
 ```python
-# Allumer la LED bleue à la main
->>> import pyb
->>> led = pyb.LED(1)
->>> led.on()           # allumée
->>> led.off()          # éteinte
+# Allumer la LED rouge à la main
+>>> from machine import Pin
+>>> led_rouge = Pin('LED_RED', Pin.OUT)
+>>> led_rouge.value(1)         # allumée
+>>> led_rouge.value(0)         # éteinte
 
 # Lire l'état du bouton A
->>> btn_a = pyb.Pin('A_BUTTON', pyb.Pin.IN)
->>> btn_a.value()
-1                      # 1 = relâché, 0 = appuyé
+>>> bouton_a = Pin('A_BUTTON', Pin.IN)
+>>> bouton_a.value()
+1                              # 1 = relâché, 0 = appuyé
 
 # Scanner les capteurs I2C internes
 >>> from machine import I2C
@@ -230,46 +254,53 @@ Raccourcis utiles dans le REPL :
 | `Ctrl+D`  | Redémarrage logiciel (relance `main.py`) |
 | Flèche ↑  | Rappeler la dernière commande            |
 
-## Déboguer pas-à-pas
+### Déboguer pas-à-pas
 
 Vittascience ne propose pas de débogueur pas-à-pas intégré. Pour observer l'état de votre programme, la méthode recommandée est d'utiliser `print()` dans le code et de lire la sortie dans le REPL.
 
 ```python
-print("valeur du bouton A :", a_button.value())
+print("valeur du bouton A :", bouton_a.value())
 ```
 
 Le résultat s'affiche directement dans la console en bas de l'interface.
 
-## Limite à connaître
+:::info[Compatibilité navigateur du REPL web]
+Le REPL de Vittascience web utilise la **Web Serial API**, disponible uniquement sur **Chrome** et **Edge**. Firefox et Safari ne sont pas supportés. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste la méthode la plus pratique pour suivre l'exécution. La version bureau de Vittascience contourne cette limite (elle utilise le port série natif du système).
+:::
 
-Le REPL de Vittascience web utilise la **Web Serial API**, disponible uniquement sur **Chrome** et **Edge**. Firefox et Safari ne sont pas supportés. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste la méthode la plus pratique pour suivre l'exécution.
-
-## Dépanner les erreurs courantes
+### Dépanner les erreurs courantes
 
 La plupart des problèmes rencontrés ne sont pas spécifiques à Vittascience mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépannage STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
 
-* la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
-* le port série introuvable ou avec accès refusé (Windows / Linux) ;
-* la console vide après connexion (MicroPython pas installé) ;
-* `Couldn't find the device` (plusieurs cartes branchées) ;
-* `Device is busy` (programme déjà en cours) ;
-* un `main.py` qui redémarre en boucle.
+- la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
+- le port série introuvable ou avec accès refusé (Windows / Linux) ;
+- la console vide après connexion (MicroPython pas installé) ;
+- `Couldn't find the device` (plusieurs cartes branchées) ;
+- `Device is busy` (programme déjà en cours) ;
+- un `main.py` qui redémarre en boucle.
 
 ## Aller plus loin
 
 ### Pour comprendre
 
-* [L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython) : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une implémentation de Python pensée pour les systèmes embarqués.
-* [Documentation MicroPython](https://docs.micropython.org/) : référence complète du langage et des modules.
-* [Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/) : pinout détaillé et informations matérielles.
+- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par **Damien George** via une campagne Kickstarter, MicroPython est une implémentation de Python pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire.
+- **[Programmation visuelle par blocs (Wikipédia anglais)](https://en.wikipedia.org/wiki/Visual_programming_language)** : Scratch, Blockly, Snap!, MakeCode... la programmation par blocs s'est imposée dans le monde scolaire depuis les années 2000. Comprendre comment ces blocs sont traduits en code texte (et inversement, comme dans Vittascience) éclaire la différence entre représentation et calcul. (La page n'existe qu'en anglais à ce jour.)
+- **[Blockly, le moteur derrière les éditeurs blocs](https://developers.google.com/blockly)** : bibliothèque open source de Google sur laquelle reposent la plupart des éditeurs blocs modernes, dont MakeCode, Scratch (en partie) et Vittascience.
 
 ### Pour s'inspirer
 
-* [MOOC FUN, Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/) : cours gratuit pour découvrir MicroPython.
-* [Vittascience](https://vittascience.com/) : plateforme pédagogique française de programmation par blocs et texte.
-* [Wiki STeaMi : Vittascience](https://wiki.steami.cc/docs/software/micropython/vittascience)
-* [Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)
-* [Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib) : code source des modules `steami_*`
+- **[MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage avant de l'enseigner.
+- **[Vittascience pour la classe](https://vittascience.com/)** : la plateforme propose une partie gestion de classe, des kits pédagogiques (capteurs, robots) et des tutoriels. À explorer pour bâtir une séquence complète au-delà de la STeaMi.
+
+### Pour approfondir
+
+Documentation technique pour préparer une séquence ou répondre aux questions des élèves :
+
+- **[Wiki STeaMi : Vittascience](https://wiki.steami.cc/docs/software/micropython/vittascience)**
+- **[Wiki STeaMi : Premiers pas](https://wiki.steami.cc/docs/software/getting-started)**
+- **[Wiki STeaMi : Hardware](https://wiki.steami.cc/docs/hardware/)** : pinout détaillé et informations matérielles.
+- **[Drivers MicroPython STeaMi](https://github.com/steamicc/micropython-steami-lib)** : code source des modules `steami_*` exposés par l'environnement MicroPython de la carte.
+- **[Documentation MicroPython](https://docs.micropython.org/)** : référence complète du langage et des modules.
 
 ---
 
