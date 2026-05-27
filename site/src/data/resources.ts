@@ -4088,6 +4088,7 @@ export const resources: Resource[] = [
     formats: ['programmation'],
     categories: ['programmation'],
     keywords: ['STeaMi', 'MicroPython', 'dépannage', 'port série', 'IDE'],
+    thumbnail: '/img/ressources/inovmicro-exao/depannage/icone.png',
     sidebarOrder: 99,
   },
   {
