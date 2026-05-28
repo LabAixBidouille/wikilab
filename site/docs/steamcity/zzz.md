@@ -443,7 +443,11 @@ Pour renforcer la rigueur scientifique de l'analyse, il est recommandé d'ajoute
 #### Méthodologie et calcul de l'intervalle de confiance
 
 1. Calculer le coefficient de corrélation (**r**) entre deux variables (par exemple, le niveau de bruit et le nombre d'interruptions de sommeil).
-2. Appliquer la formule simplifiée de l'intervalle de confiance à 95 %.
+2. Appliquer la formule simplifiée de l'intervalle de confiance à 95 % :
+
+$$
+IC_{95\%} = r \pm \frac{1{,}96}{\sqrt{n}}
+$$
 
 Variables de la formule :
 
