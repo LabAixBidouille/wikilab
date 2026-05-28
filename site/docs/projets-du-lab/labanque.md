@@ -17,18 +17,6 @@ sidebar_position: 20
 
 Picsous trésorier du LAB et forgeur d'écrous
 
-## Les règles
-
-- La monnaie est l'écrou ; son symbole : ⬡
-
-- Elle est entièrement numérique.
-
-- Il faut être membre de l'association pour l'utiliser.
-
-- L'étalon est l'heure d'impression 3D : 100 ⬡.
-
-- Elle est fondante.
-
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -40,6 +28,18 @@ Picsous trésorier du LAB et forgeur d'écrous
 LABanque n'est plus en usage au LAB aujourd'hui. On le garde documenté ici comme une idée qui pourrait renaître dans une future utopie du fablab.
 
 :::
+
+## Les règles
+
+- La monnaie est l'écrou ; son symbole : ⬡
+
+- Elle est entièrement numérique.
+
+- Il faut être membre de l'association pour l'utiliser.
+
+- L'étalon est l'heure d'impression 3D : 100 ⬡.
+
+- Elle est fondante.
 
 Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
 
