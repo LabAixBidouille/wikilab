@@ -1,7 +1,7 @@
 ---
 id: algorithmes-bio-inspires
-title: Algorithmes bio-inspirés
-sidebar_label: "Algorithmes bio-inspirés"
+title: Découvrir les algorithmes bio-inspirés
+sidebar_label: "Découvrir les algorithmes bio-inspirés"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Algorithmes bio-inspirés
+# Découvrir les algorithmes bio-inspirés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

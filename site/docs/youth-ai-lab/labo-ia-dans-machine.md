@@ -1,7 +1,7 @@
 ---
 id: labo-ia-dans-machine
-title: "Labo IA : dans la machine"
-sidebar_label: "Labo IA : dans la machine"
+title: "Explorer l'IA dans la machine"
+sidebar_label: "Explorer l'IA dans la machine"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Labo IA : dans la machine
+# Explorer l'IA dans la machine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

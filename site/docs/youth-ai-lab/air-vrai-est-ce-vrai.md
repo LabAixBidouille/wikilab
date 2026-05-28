@@ -1,7 +1,7 @@
 ---
 id: air-vrai-est-ce-vrai
-title: "Vrai ou faux selon l'IA ?"
-sidebar_label: "Vrai ou faux selon l'IA ?"
+title: "Distinguer le vrai du faux avec l'IA"
+sidebar_label: "Distinguer le vrai du faux avec l'IA"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Vrai ou faux selon l'IA ?
+# Distinguer le vrai du faux avec l'IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
