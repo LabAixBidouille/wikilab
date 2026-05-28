@@ -161,7 +161,9 @@ for (const dir of REF_DIRS) {
       (_m, a, ref, b) => a + remap(ref, counter) + b,
     );
     txt = txt.replace(
-      new RegExp(`((?:image|thumbnail|icon):\\s*')(/img/[^']+?${EXT})(')`, 'gi'),
+      // toute chaîne simple-quote '/img/…' : couvre image/thumbnail/icon ET
+      // les tableaux `photos: ['/img/…', …]` de projects.ts (cf. revue #221).
+      new RegExp(`(')(/img/[^']+?${EXT})(')`, 'gi'),
       (_m, a, ref, b) => a + remap(ref, counter) + b,
     );
     if (counter.n > 0) {
@@ -171,4 +173,6 @@ for (const dir of REF_DIRS) {
   }
 }
 console.log(`\n${mapping.length} fichier(s) renommé(s), ${refCount} référence(s) mise(s) à jour.`);
-console.log('Vérifiez ensuite avec : node site/scripts/check-local-assets.mjs');
+console.log(
+  'Vérifiez ensuite avec : npm run site:build (et `npm run lint:assets` une fois #220 mergé).',
+);
