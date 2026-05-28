@@ -27,8 +27,6 @@ Un produit équivalent existe en version commerciale sur Aliexpress.
 
 </div>
 
-![Poubelle Basket](/img/ressources/projets-du-lab/PoubelleBasket.jpeg)
-
 ## Matériel
 
 - Planche de MDF 3 mm
