@@ -56,7 +56,7 @@ Dans le contexte actuel où les jeunes s'engagent de plus en plus dans des proje
 
 L'utilisation de Github Pages présente de nombreux avantages : gratuit, open source, permettant le partage de données ouvertes et contribuant à la transparence des actions citoyennes. Que votre projet s'inscrive dans le cadre de Jedi-Track, d'un programme environnemental local, ou de toute autre initiative de science participative, cette approche reste pertinente et adaptable.
 
-:::note[Pourquoi cet atelier en animation jeunesse ?]
+:::info[Pourquoi cet atelier en animation jeunesse ?]
 - **Citoyenneté active** : Les jeunes deviennent acteurs de leur communication, documentent leurs campagnes de relève environnementale et partagent leurs découvertes avec la communauté.
 - **Compétences STEAM** : Développement de compétences numériques concrètes et valorisables sur le marché du travail, sans barrière technique.
 - **Autonomisation** : Les jeunes gèrent eux-mêmes la visibilité de leurs projets de science citoyenne.

@@ -31,7 +31,7 @@ sidebar_position: 13
 - **1 mini-servomoteur** type SG-90 (le « tower pro » bleu et blanc à environ 3 €, présent dans tous les kits Arduino débutants)
 - **Câbles de connexion** (le servo est livré avec un connecteur 3 broches femelle, à brancher sur la STeaMi via le connecteur Edge ou les pads crocodile)
 
-:::caution[Alimentation du servomoteur]
+:::info[Alimentation du servomoteur]
 Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les **3,3 V** que fournit la STeaMi, un SG-90 fonctionne **à vide** sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une **alimentation externe 5 V** (pile 4×AA, alim secteur, powerbank...). Le câblage devient alors :
 
 - **V+ du servo** (fil rouge) → **+5 V** de l'alim externe (et **rien** côté STeaMi).

@@ -102,7 +102,7 @@ Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comm
 4. **Glisser-déposer** le `.hex` sur le disque `STEAMI`.
 5. La LED de statut clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
 
-:::warning[Câble incompatible]
+:::info[Câble incompatible]
 
 Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câble : un câble qui ne transporte que l'alimentation ne suffit pas, il faut un câble de données.
 

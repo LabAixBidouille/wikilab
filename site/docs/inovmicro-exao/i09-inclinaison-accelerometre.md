@@ -307,7 +307,7 @@ while True:
     time.sleep_ms(50)   # scruter plus fréquemment pour ne pas rater l'événement
 ```
 
-:::tip[Ne pas tester en vrai]
+:::info[Ne pas tester en vrai]
 La chute libre est plus facile à simuler **en faisant tourner la carte au-dessus de sa tête au bout d'une ficelle** (la force centrifuge contre l'attraction) qu'en la lâchant pour de bon. Le capteur fonctionne, ce serait dommage de casser la carte pour le prouver.
 :::
 

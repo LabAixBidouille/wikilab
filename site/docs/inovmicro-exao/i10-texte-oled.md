@@ -195,7 +195,7 @@ Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un te
 
 Couleurs disponibles dans `steami_screen` : `BLACK`, `DARK`, `GRAY`, `LIGHT`, `WHITE` (5 niveaux de gris du SSD1327), plus `RED`, `GREEN`, `BLUE`, `YELLOW` (qui dégradent automatiquement en niveaux de gris sur l'écran monochrome).
 
-:::warning[Étape importante : `screen.show()`]
+:::info[Étape importante : `screen.show()`]
 
 On peut imaginer l'écran de la STeaMi comme un tableau noir caché derrière un voile. Les fonctions `text()`, `clear()`, `pixel()`, etc. dessinent sur le tableau, mais le voile reste en place tant qu'on n'a pas appelé `screen.show()`. À ce moment-là, le voile tombe et tout ce qu'on a dessiné apparaît d'un coup.
 

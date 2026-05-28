@@ -72,7 +72,7 @@ Les **déséquilibres thermiques chroniques** peuvent avoir des effets sur la sa
 - **Difficultés de concentration** dans des espaces trop chauds ou trop froids
 - **Stress économique** lié aux factures de chauffage excessives
 
-:::note[Pourquoi cibler cette thématique auprès des jeunes ?]
+:::info[Pourquoi cibler cette thématique auprès des jeunes ?]
 - **Développer l'esprit critique** des jeunes face aux enjeux énergétiques de leur quotidien
 - **Favoriser l'engagement citoyen** en leur donnant les outils pour comprendre et agir sur leur environnement thermique
 - **Créer du lien social** autour d'un projet collectif de mesure et d'analyse

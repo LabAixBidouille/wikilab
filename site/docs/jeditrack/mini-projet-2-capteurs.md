@@ -70,7 +70,7 @@ Parce que les jeunes voient immédiatement le résultat de leur travail. Chaque 
 ### Caractéristiques du Raspberry Pico
 Le Raspberry-Pi Pico est un microcontrôleur dont le principal avantage est sa petite taille.
 
-:::note
+:::info
 *Si votre groupe ne voit pas ce qu'est un microcontrôleur, il s'agit en quelque sorte d'un petit ordinateur (d'où le « micro »), en général disposant de broches programmables (d'où le « contrôleur »). Il n'est pas nécessaire de trop rentrer dans les détails à ce stade-ci, car nous développerons les caractéristiques des éléments dont nous aurons besoin au moment où nous en aurons besoin.*
 :::
 
@@ -87,7 +87,7 @@ On peut également voir le processeur, des résistance, etc. mais ils ne sont pa
 ### Bases de programmation
 Nous allons programmer les Pico avec le programme « Thonny », qui n'est au fond qu'un éditeur de texte optimisé pour python. Il offre simplement la possibilité de télécharger les programmes que vous écrirez directement dans le microcontrôleur.
 
-:::note
+:::info
 *Une première chose à comprendre, c'est qu'un code n'est finalement qu'un texte, écrit de telle façon qu'il soit compréhensible par la machine. « Python » est un langage de programmation, et ce terme « langage » n'est pas anodin. En effet tous les microcontrôleurs ou programme n'utilise pas le même, et utiliser un langage qui n'est pas compris par votre programme ne fonctionnera pas, un peu comme si je vous parlais une langue que vous n'aviez jamais apprise : vous ne comprendriez pas grand-chose.*
 :::
 
@@ -99,14 +99,14 @@ Il y a 2 zones principales. La première (encadrée en rouge) est la zone du pro
 
 **Brancher le Pico**
 
-:::note
+:::info
 *Vous pouvez lancer Thonny, et brancher votre Pico. Brancher ensuite votre Pico et sélectionnez le comme interpréteur, c'est-à-dire comme lieu d'exécution et de sauvegarde du programme. Il est également possible de sauvegarder sur son ordinateur mais la carte ne pourra alors pas exécuter le programme sans y être connecté.*
 *Par défaut Thonny utilise l'ordinateur comme interpréteur (c'est-à-dire comme entité qui exécutera le code), nous voulons utiliser la Pico.*
 :::
 
 Pour s'assurer que le Pico soit identifié comme un interpréteur par Thonny, il faut insérer un programme dans le pico la première fois qu'on le connecte afin qu'il utilise bien micropython.
 
-:::note
+:::info
 *Pico emploie par défaut le langage C. Il faut donc faire une petite manipulation pour qu'il emploie python.*
 :::
 
@@ -122,7 +122,7 @@ Une fenêtre s'ouvrira et dans cette fenêtre il y a 2 menus déroulant, dans le
 
 Restez attentif à la console. En effet il peut déjà  y avoir des erreurs à ce moment-ci. La plus fréquente étant que Thonny ne trouve pas le pico, ce qui est causé soit par un mauvais choix de port (si vous avez choisi un bluetooth plutôt qu'un USB par exemple), soit par un mauvais branchement (débranchez et rebranchez les deux extrémité du câble).
 
-:::note
+:::info
 *Assurez-vous bien qu'il n'y a pas de programme déjà ouvert et qu'il n'y ai pas d'autre programme sur le pico, une autre erreur possible est que le Pico est « busy », ce qui signifie qu'un programme tourne déjà dessus et qu'il n'est pas possible d'y exécuter un nouveau.*
 :::
 
@@ -156,7 +156,7 @@ et le texte « Ceci par exemple » est bien ce que nous voulions.
 
 Vous allez maintenant allumer la Led intégrée au Pico. Pour ce faire vous aller devoir importer les fonctions liées aux Pins (broches en anglais) qui sont reprises dans une bibliothèque (library en anglais) qui est en résumé un module qui reprend des fonctions de bases du python de base, mais adaptées pour fonctionner sur micropython. Celle dont nous avons besoin est « Pin », qui se trouve elle-même dans la bibliothèque « machine ».
 
-:::note
+:::info
 *Ils existent beaucoup de bibliothèques différentes imbriquées les unes dans les autres. Par exemple « time » regroupe les fonctions liées au temps, et dans cette librairie on retrouvera « sleep » qui est une fonction qui permet de faire « dormir » le programme. Nous y aurons recours plus tard.*
 :::
 
@@ -170,7 +170,7 @@ Une fois les fonctions liées aux pins importées, nous allons renommée notre P
 
 Nous avons ici défini « led » comme étant la broche 25 en mode sortie ( OUT ). « led » est maintenant le nom associée à la pin 25, et nous pourrons dès lors utiliser « led » dans le code, plutôt que d'avoir à écrire « Pin(25, Pin.OUT) » à chaque fois, pour la contrôler.
 
-:::note
+:::info
 *Une broche digitale (il existe différents types de broches mais nous en parlerons plus tard) peut être définie en entrée ou en sortie. Pour faire simple une broche en entrée va mesurer un courant entrant ( pour faire des mesures à l'aide de capteurs par exemple), tandis qu'une broche en sortie permet d'envoyer du courant (pour contrôler des éléments extérieurs, comme par exemple une Led dans notre cas).*
 :::
 
@@ -191,13 +191,13 @@ Nous allons maintenant alterner entre les 2 états, afin d'être certain que le 
 
 Nous allons pour nous aider utiliser la fonction « sleep », qu'il va falloir importer. Cette dernière sert à faire une pause dans le programme, par exemple dans notre cas pour attendre entre le moment ou la led s'allume et s'éteint.
 
-:::note
+:::info
 *Attention « sleep » ne met le programme en pause, mais va plutôt ajouter un délai avant d'exécuter la commande qu'elle précède. Nous l'employons ici pour bien voir les alternances. Sans ce « sleep » il n'y aurait pas de délai entre les instructions et la led resterait théoriquement allumée 0 seconde.*
 :::
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102722.png" alt="Alternance LED avec sleep" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-:::note
+:::info
 *Des données incluses dans les parenthèses d'une fonction comme ici s'appellent des arguments. L'argument de la fonction « sleep » dans la fenêtre ci-dessus est le temps, en l'occurrence 1 seconde.*
 :::
 
@@ -246,7 +246,7 @@ Branchez une des broches GND (ground en anglais, il s'agit en quelque sorte du p
 
 La résistance est un composant qui va en quelque sorte « freiner » le courant. Dans notre cas elle protège la led, qui brulerait si on la branchait directement à la carte.
 
-:::note
+:::info
 *Vous pouvez ici faire un parallèle avec le cours de physique. Une led ne supporte pas plus d'un certain ampérage (qui dépend d'où elle vient mais on se trouve en général aux alentours de 15 mA. Le courant sortant du Pico étant de 3.3V vous pouvez calculez la résistance nécessaire avec la formule U = R.I .*
 :::
 
@@ -296,7 +296,7 @@ Ce sont les bornes « trig » et « echo » qui vont nous intéresser, et que no
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104222.png" alt="Configuration des broches capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-:::note
+:::info
 *Pull down est un nom donné à un système qui permet de lire clairement un signal électrique. On ne va pas rentrer dans les détails mais il fait un rapport entre  la tension aux bornes de plusieurs résistances pour savoir si celle du système change bien.*
 :::
 

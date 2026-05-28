@@ -460,7 +460,7 @@ Et surtout : un capteur de température ne te dira **jamais** si ton frigo est c
 
 :::
 
-:::tip[Et la « qualité de l'air » dans tout ça ?]
+:::info[Et la « qualité de l'air » dans tout ça ?]
 
 Avec température / pression / humidité, on observe le **confort thermique** et des indices **indirects** d'aération (l'humidité monte quand des gens respirent dans une pièce mal aérée). Mais **on ne mesure pas** la qualité de l'air au sens scientifique : ni le **CO2**, ni les **particules fines** (PM2.5, PM10), ni les **composés organiques volatils** (COV, peintures, plastiques, parfums). Pour ça, il faut d'autres capteurs spécialisés ([sensor.community](https://sensor.community/) propose des kits citoyens). Ne pas conclure « l'air est bon » uniquement à partir de la STeaMi.
 

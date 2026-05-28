@@ -205,7 +205,7 @@ Accédez aux jeux directement via le menu principal de Recalbox. Sélectionnez l
 
 Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit préfabriqué à assembler soi-même, ou construire entièrement la borne. Notre choix s'est porté sur la construction complète de la borne en bois, en simplifiant au maximum le design et en intégrant des éléments de personnalisation choisis par les jeunes. Cette décision s'est avérée moins onéreuse qu'un kit complet, car nous avons pu adapter nos envies et nos achats à notre budget et à notre niveau de complexité.
 
-:::note[Ressources]
+:::info[Ressources]
 - https://retromash.com/2015/01/02/building-a-home-arcade-machine-part-1/
 - https://arcade-for-good.com/construction-arcade/fabriquer-borne-arcade/
 - https://www.jdfarcade.com/blog/comment-construire-sa-borne-darcade-a-la-facon-diy--b24.html
@@ -220,7 +220,7 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 - Les **joysticks et boutons** : joystick à 4 directions pour les jeux classiques, deux boutons LED de type interrupteur, configuration 2 joueurs. Acheté en kit sur Amazon.
 - La **gestion du son** : haut-parleurs de qualité pour répondre au souhait des jeunes d'utiliser la borne avec de la musique.
 
-:::note[Ressources]
+:::info[Ressources]
 - Écran à recycler : https://ressourceries.info/
 - Système de jeu : [Recalbox](https://www.recalbox.com/fr/) — [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - Joysticks et boutons : recherchez "arcade kit 2 joueurs" sur Amazon
@@ -231,7 +231,7 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 
 Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm d'épaisseur**. Le MDF se coupe, se perce et se ponce aisément, c'est un matériau économique. Nous l'avons fait découper à la demande chez Leroy Merlin (≈ 200 EUR de bois). Sa surface est idéale pour la peinture et les stickers ; il résiste bien aux changements de température et d'humidité, et se trouve facilement dans les magasins de bricolage.
 
-:::note[Ressources]
+:::info[Ressources]
 
 Les panneaux MDF se trouvent dans toutes les grandes surfaces de bricolage (GSB) au rayon menuiserie / bois agglomérés.
 
@@ -241,7 +241,7 @@ Les panneaux MDF se trouvent dans toutes les grandes surfaces de bricolage (GSB)
 
 Approche simple mais collaborative : les jeunes ont réalisé des essais de peinture sur les prototypes avec plusieurs associations de couleurs, puis ont validé collectivement le choix final (en prenant en compte les chocs et traces potentiels). Ils ont proposé des dessins sur une zone limitée et dédiée, le reste étant recouvert de stickers sélectionnés ensemble. Bandes de chant pour protéger les tranches.
 
-:::note[Ressources stickers et finitions]
+:::info[Ressources stickers et finitions]
 - https://web.archive.org/web/20251013023643/https://www.buzz-arcade.com/fr/36-stickers-bornes
 - https://www.jdfarcade.com/stickers-borne-d-arcade/376-sticker-supreme.html
 - https://stickergameshop.com/

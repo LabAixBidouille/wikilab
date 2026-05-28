@@ -88,7 +88,7 @@ Cette progression permet aux élèves de passer d'une compréhension statique du
 - **Merit order (ordre de mérite)** : Ordre de priorité d'appel des centrales électriques selon leur coût marginal de production, du moins cher au plus cher.
 
 
-:::note
+:::info
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 
