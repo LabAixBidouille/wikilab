@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Outfit:wght@500;600;700&family=Righteous&display=swap');
 
 :root {
   /* Primaire — Bleu */
@@ -21,8 +21,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Nunito', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Outfit', 'Nunito', system-ui, -apple-system, sans-serif;
+  --wikilab-brand-font: 'Righteous', system-ui, -apple-system, sans-serif;
   --ifm-font-weight-bold: 700;
-  --ifm-heading-font-weight: 700;
+  --ifm-heading-font-weight: 600;
   --ifm-border-radius: 10px;
   --ifm-navbar-background-color: #ffffff;
   --ifm-footer-background-color: #1e2a3a;
@@ -315,9 +316,10 @@ article > table:first-of-type {
 }
 
 .wikilab-hero__title {
-  font-size: 3rem !important;
-  font-weight: 800 !important;
-  letter-spacing: -0.02em;
+  font-family: var(--wikilab-brand-font);
+  font-size: 3.25rem !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.01em;
   color: #fff;
   text-shadow: none;
 }
@@ -1048,9 +1050,9 @@ aside input[type='checkbox'] {
 }
 
 .navbar__title {
-  font-family: var(--ifm-heading-font-family);
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-family: var(--wikilab-brand-font);
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
 .navbar__link {
