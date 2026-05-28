@@ -38,7 +38,7 @@ sidebar_position: 4
 - 1 batterie et connecteur
 - 1 câble USB
 
-<a href="/pdf/steamcity/Protocol_OutdoorAirQuality_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_OutdoorAirQuality_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

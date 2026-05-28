@@ -32,7 +32,7 @@ sidebar_position: 3
 - Échantillons de matériaux à tester (mousse, bois, métal, tissu)
 - Carnet de notes ou outils numériques pour enregistrer et analyser les données
 
-<a href="/pdf/steamcity/Protocol_WhisperWalls_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_WhisperWalls_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

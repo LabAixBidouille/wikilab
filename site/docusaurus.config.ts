@@ -29,6 +29,14 @@ const config: Config = {
   organizationName: 'LabAixBidouille',
   projectName: 'wikilab',
 
+  // Base des assets lourds (PDFs) externalisés vers le repo wikilab-assets
+  // (cf. #203). Les PDFs ne sont plus dans site/static : <PdfLink> et
+  // ProjectPage préfixent les chemins `/pdf/...` par ce domaine.
+  // Surchargeable via ASSETS_BASE_URL (ex. pointer un miroir local).
+  customFields: {
+    assetsBaseUrl: process.env.ASSETS_BASE_URL ?? 'https://assets.wikilab.labaixbidouille.com',
+  },
+
   onBrokenLinks: 'throw',
 
   markdown: {

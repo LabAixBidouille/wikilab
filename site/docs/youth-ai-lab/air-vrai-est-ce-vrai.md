@@ -29,7 +29,7 @@ sidebar_position: 2
 - Accès à un outil d'IA générative (pour la Partie 2)
 - Ensemble de sources approuvées fournies par l'enseignant·e (Partie 3)
 
-<a href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_LooksRight.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la fiche d'exploration</a>
+<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_LooksRight.pdf">Télécharger la fiche d'exploration</PdfLink>
 
 </div>
 

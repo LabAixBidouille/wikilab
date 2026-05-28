@@ -41,7 +41,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 - [Faisons clignoter une LED](/ressources/lets-steam/r1as01-led)
 
-<a href="/pdf/lets-steam/LS_R1AS02_Breadboard_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/lets-steam/LS_R1AS02_Breadboard_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

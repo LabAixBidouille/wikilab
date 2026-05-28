@@ -35,7 +35,7 @@ sidebar_position: 12
 - 1 buzzer
 - 1 capteur de distance à ultrasons HC-SR04
 
-<a href="/pdf/thedexterlab/PR12-TDL_Feuille_Travail_Vierge_A3.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la feuille de travail</a>
+<PdfLink href="/pdf/thedexterlab/PR12-TDL_Feuille_Travail_Vierge_A3.pdf">Télécharger la feuille de travail</PdfLink>
 
 </div>
 

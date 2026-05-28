@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { type ProjectInfo } from '../../data/projects';
 import {
   resources,
@@ -67,6 +68,9 @@ function renderResourceCard(r: Resource, titleLevel: 'h3' | 'h4' = 'h3'): React.
 }
 
 export default function ProjectPage({ project }: { project: ProjectInfo }): React.ReactElement {
+  const { siteConfig } = useDocusaurusContext();
+  const assetsBaseUrl = (siteConfig.customFields?.assetsBaseUrl as string) ?? '';
+
   const projectResources = useMemo<Resource[]>(
     () => resources.filter((r) => r.project === project.id),
     [project.id],
@@ -140,7 +144,7 @@ export default function ProjectPage({ project }: { project: ProjectInfo }): Reac
                 )}
                 {project.guidePdf && (
                   <a
-                    href={project.guidePdf}
+                    href={`${assetsBaseUrl}${project.guidePdf}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="button button--sm wikilab-project-hero__link"

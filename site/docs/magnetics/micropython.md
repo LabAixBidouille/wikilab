@@ -29,7 +29,7 @@ sidebar_position: 3
 - 1 écran OLED Monochrome 1.3" 128x64 OLED de Adafruit
 - 1 câble QT pour connecter l'écran à la carte
 
-<a href="/pdf/magnetics/Magnetics_MicroPython.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/magnetics/Magnetics_MicroPython.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

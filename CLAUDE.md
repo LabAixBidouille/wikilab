@@ -47,7 +47,7 @@ Refuser et expliquer la règle. Proposer le flux PR. Si l'humain insiste explici
 - **Types globaux** : `site/src/types/css.d.ts` (extension de `React.CSSProperties` pour les CSS variables `--*`)
 - **Docs (fiches)** : `site/docs/` (un sous-dossier par projet)
 - **Images** : `site/static/img/ressources/<projet>/<fiche-id>/` — un sous-dossier par fiche (`.gitkeep` pour celles en attente)
-- **PDFs** : `site/static/pdf/<projet>/`
+- **PDFs** : **externalisés** dans le repo [`wikilab-assets`](https://github.com/LabAixBidouille/wikilab-assets), servis sur `https://assets.wikilab.labaixbidouille.com/pdf/<projet>/`. Les fiches les référencent via `<PdfLink href="/pdf/<projet>/<fichier>.pdf">…</PdfLink>` (le domaine est préfixé par le customField `assetsBaseUrl`, surchargeable via `ASSETS_BASE_URL`). Voir #203.
 - **Sources markdown brutes** : `markdown/` (originaux pré-conversion)
 
 ### Outillage qualité (racine)
@@ -58,19 +58,19 @@ Refuser et expliquer la règle. Proposer le flux PR. Si l'humain insiste explici
 
 ## Projets intégrés
 
-| Projet           | Fiches                            | Catalogue | Images                 | PDFs                      | Couleur   |
-| ---------------- | --------------------------------- | --------- | ---------------------- | ------------------------- | --------- |
-| Let's STEAM      | 15                                | OK        | OK                     | OK                        | `#140e4e` |
-| Mimesis          | 8                                 | OK        | OK                     | OK                        | `#09246C` |
-| Unplugged        | 24                                | OK        | OK                     | Partiels (3 >50MB exclus) | `#0081A7` |
-| JediTrack        | 14 + 8 borne arcade               | OK        | OK                     | Non                       | `#1198f0` |
-| Robots Meet Arts | 29                                | OK        | OK                     | OK                        | `#169da7` |
-| SteamCity        | 25 + 9 fiches prog                | OK        | OK                     | OK                        | `#DD5350` |
-| The Dexter Lab   | 20 + 13 fiches prog               | OK        | OK (icônes)            | OK (feuilles travail)     | `#1a4a48` |
-| Youth AI Lab     | 6                                 | OK        | OK                     | OK                        | `#b34520` |
-| Magnetics        | 3 (micro:bit, STM32, MicroPython) | OK        | OK (icônes + captures) | OK (guide + 3 fiches)     | `#094869` |
-| I-Novmicro #2    | 1 (Découverte STeaMi)             | OK        | -                      | -                         | `#8a6e18` |
-| Projets du LAB   | 20                                | OK        | Partiels               | -                         | -         |
+| Projet           | Fiches                            | Catalogue | Images                 | PDFs                  | Couleur   |
+| ---------------- | --------------------------------- | --------- | ---------------------- | --------------------- | --------- |
+| Let's STEAM      | 15                                | OK        | OK                     | OK                    | `#140e4e` |
+| Mimesis          | 8                                 | OK        | OK                     | OK                    | `#09246C` |
+| Unplugged        | 24                                | OK        | OK                     | OK                    | `#0081A7` |
+| JediTrack        | 14 + 8 borne arcade               | OK        | OK                     | Non                   | `#1198f0` |
+| Robots Meet Arts | 29                                | OK        | OK                     | OK                    | `#169da7` |
+| SteamCity        | 25 + 9 fiches prog                | OK        | OK                     | OK                    | `#DD5350` |
+| The Dexter Lab   | 20 + 13 fiches prog               | OK        | OK (icônes)            | OK (feuilles travail) | `#1a4a48` |
+| Youth AI Lab     | 6                                 | OK        | OK                     | OK                    | `#b34520` |
+| Magnetics        | 3 (micro:bit, STM32, MicroPython) | OK        | OK (icônes + captures) | OK (guide + 3 fiches) | `#094869` |
+| I-Novmicro #2    | 1 (Découverte STeaMi)             | OK        | -                      | -                     | `#8a6e18` |
+| Projets du LAB   | 20                                | OK        | Partiels               | -                     | -         |
 
 > **Initiative en cours** : I-Novmicro #2 va recevoir 22+ fiches dans le cadre de l'intégration STeaMi/MicroPython (15 fiches portées de Let's STEAM + 7 fiches enseignants). Voir EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2) (phase 1) et [#30](https://github.com/LabAixBidouille/wikilab/issues/30) (phase 2 — autres projets).
 
@@ -99,7 +99,7 @@ npm run site:clean       # nettoie build/, .docusaurus/, et artefacts .js dans s
 - Branche par défaut : `main` — **protégée**, modifications via PR uniquement
 - Conventional Commits + validate-branch-name (voir [`CONTRIBUTING.md`](CONTRIBUTING.md))
 - Auth : `gh auth login` (GitHub CLI)
-- 3 PDFs exclus (`.gitignore`) car >50MB : Vivre en harmonie, Potluck March, Equal
+- PDFs externalisés dans le repo [`wikilab-assets`](https://github.com/LabAixBidouille/wikilab-assets) (cf. #203) — ne plus committer de PDF dans `site/static/`
 
 ## Travaux en cours
 
@@ -108,7 +108,6 @@ Le suivi détaillé est sur GitHub : [issues](https://github.com/LabAixBidouille
 Chantiers ouverts notables :
 
 - Adapter la couleur du tableau header de fiche par projet (actuellement codée en dur `#09246C`)
-- Git LFS pour les 3 PDFs Unplugged >50MB
 - Refonte wiki similaire à SteamCity pour les autres projets (style hérité PDF→wiki à uniformiser)
 - Vérifier images d'illustration manquantes sur TheDexterLab (20 fiches avec uniquement l'icône)
 - **Intégration STeaMi/MicroPython** — voir EPIC [#2](https://github.com/LabAixBidouille/wikilab/issues/2) (phase 1, 22+ fiches) et [#30](https://github.com/LabAixBidouille/wikilab/issues/30) (phase 2)

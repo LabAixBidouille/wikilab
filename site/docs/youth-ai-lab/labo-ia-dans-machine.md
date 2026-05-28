@@ -31,7 +31,7 @@ sidebar_position: 4
 - Divers objets/images d'objets pour l'étape de reconnaissance de motifs
 - Carton ou panneau en mousse pour la trace finale
 
-<a href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_IntroductoryAIGame_PredictiveAI.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la fiche d'exploration</a>
+<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_IntroductoryAIGame_PredictiveAI.pdf">Télécharger la fiche d'exploration</PdfLink>
 
 </div>
 

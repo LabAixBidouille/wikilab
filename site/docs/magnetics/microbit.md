@@ -27,7 +27,7 @@ sidebar_position: 1
 - 4 cartes programmables _micro:bit v2_
 - 1 câble USB Micro-B
 
-<a href="/pdf/magnetics/Magnetics_Microbit.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/magnetics/Magnetics_Microbit.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

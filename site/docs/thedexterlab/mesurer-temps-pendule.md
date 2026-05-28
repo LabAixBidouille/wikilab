@@ -40,7 +40,7 @@ sidebar_position: 20
 - 1 calculatrice
 - Feuilles de papier et stylos pour l'enregistrement de données
 
-<a href="/pdf/thedexterlab/PR20-TDL_Feuille_Travail_Vierge_A3.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la feuille de travail</a>
+<PdfLink href="/pdf/thedexterlab/PR20-TDL_Feuille_Travail_Vierge_A3.pdf">Télécharger la feuille de travail</PdfLink>
 
 </div>
 

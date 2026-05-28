@@ -30,7 +30,7 @@ sidebar_position: 15
 - Crayons de couleur, bâtons de colle, ciseaux
 - Dés ou cartes (imprimables)
 
-<a href="/pdf/unplugged/Unplugged_La ville Pop-up du Futur_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/unplugged/Unplugged_La_ville_Pop-up_du_Futur_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

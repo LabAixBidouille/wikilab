@@ -28,7 +28,7 @@ sidebar_position: 16
 - Papier et crayons
 - Liste de mots clefs, phrases persuasives (imprimables)
 
-<a href="/pdf/unplugged/Unplugged_La ville parfaite_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/unplugged/Unplugged_La_ville_parfaite_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 
