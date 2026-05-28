@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-8
-title: Kamishibaï scientifique
-sidebar_label: "Kamishibaï scientifique"
+title: Créer un kamishibaï scientifique
+sidebar_label: "Créer un kamishibaï scientifique"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Kamishibaï scientifique
+# Créer un kamishibaï scientifique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

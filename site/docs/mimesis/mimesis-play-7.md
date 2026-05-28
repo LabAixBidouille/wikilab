@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-7
-title: Les sciences avec son corps
-sidebar_label: "Les sciences avec son corps"
+title: Explorer les sciences avec son corps
+sidebar_label: "Explorer les sciences avec son corps"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Les sciences avec son corps
+# Explorer les sciences avec son corps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

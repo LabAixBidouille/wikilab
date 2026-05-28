@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-3
-title: La vie secrète du plancton
-sidebar_label: "La vie secrète du plancton"
+title: Mettre en scène la vie du plancton
+sidebar_label: "Mettre en scène la vie du plancton"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# La vie secrète du plancton
+# Mettre en scène la vie du plancton
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

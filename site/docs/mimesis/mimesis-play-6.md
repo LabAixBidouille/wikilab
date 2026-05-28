@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-6
-title: Catastrophes naturelles en scène
-sidebar_label: "Catastrophes naturelles en scène"
+title: Comprendre les catastrophes naturelles par la mise en scène
+sidebar_label: "Comprendre les catastrophes naturelles par la mise en scène"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Catastrophes naturelles en scène
+# Comprendre les catastrophes naturelles par la mise en scène
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
