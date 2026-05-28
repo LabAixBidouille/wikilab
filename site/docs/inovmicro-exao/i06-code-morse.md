@@ -27,6 +27,8 @@ sidebar_position: 13
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
+<PdfLink href="/pdf/inovmicro-exao/STeaMi_Morse.pdf">Télécharger en PDF</PdfLink>
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i06-code-morse/icone.png" alt="Code Morse sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
