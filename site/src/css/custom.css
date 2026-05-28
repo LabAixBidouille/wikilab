@@ -1046,7 +1046,8 @@ aside input[type='checkbox'] {
 }
 
 .navbar__title {
-  font-weight: 800;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 700;
   font-size: 1.25rem;
 }
 
