@@ -29,7 +29,7 @@ sidebar_position: 17
 - Feuilles de papier 15 cm x 15 cm
 - Outil de classification d'images IA : [SignVisionAI](https://drive.google.com/drive/folders/1gYf5JkDzg41ZbesaIQk72BvD7rWRo5EN?usp=sharing) ou [Vittascience](https://it.vittascience.com/ia/images.php)
 
-<PdfLink href="/pdf/steamcity/Protocol_RoadSigns_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_RoadSigns_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

@@ -15,7 +15,7 @@ sidebar_position: 8
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Intermédiaire |
 
-### Matériel
+## Matériel
 
 Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. Il est équipé de :
 
@@ -33,17 +33,17 @@ Le robot est construit autour d'un Arduino Uno et d'un châssis imprimé en 3D. 
 
 </div>
 
-### Assemblage
+## Assemblage
 
-#### L'interrupteur
+### L'interrupteur
 
 Fixer l'interrupteur sur la plaque, puis souder les fils sur ses broches. Ces fils sont ensuite soudés sur la connectique du bloc de piles.
 
-#### Le bloc de piles
+### Le bloc de piles
 
 Il est fixé au carter de l'interrupteur avec du scotch double-face et relié à la prise d'alimentation de l'Arduino Uno.
 
-#### L'Arduino Uno
+### L'Arduino Uno
 
 <img src="/img/ressources/projets-du-lab/Robotarduino.jpg" alt="Arduino du robot" style={{width: "250px"}} />
 
@@ -51,19 +51,19 @@ Fixer l'Arduino Uno sur le châssis, puis câbler le contrôleur à ses périph�
 
 L'Arduino Uno ne dispose que d'une seule sortie 5V : il faut démultiplier l'alimentation en soudant des straps.
 
-#### Les roues
+### Les roues
 
 Pour améliorer l'adhérence au sol, coller sur chaque roue un petit élastique ou un morceau de chambre à air.
 
-### Déplacement avant/arrière
+## Déplacement avant/arrière
 
 En branchant les deux moteurs, on constate que les roues ne sont pas synchronisées. Il faut écrire des fonctions dédiées pour les faire avancer et reculer de manière coordonnée.
 
-### Rotation droite/gauche
+## Rotation droite/gauche
 
 Même principe : des fonctions de rotation ne font tourner qu'un seul moteur à la fois.
 
-#### Code
+### Code
 
 ```cpp
 #include <Servo.h>
@@ -121,7 +121,7 @@ delay(1500);
 
 ```
 
-### Capteur ultrason
+## Capteur ultrason
 
 Le capteur se fixe à l'avant du robot. Quatre fils le relient à l'Arduino :
 
@@ -133,7 +133,7 @@ Le branchement suit le tutoriel "Mesure de distance - Ultrason".
 
 Les yeux de ERICbot
 
-#### Code complet avec évitement d'obstacles et LEDs
+### Code complet avec évitement d'obstacles et LEDs
 
 Ce programme combine la navigation autonome et les effets lumineux sur l'anneau NeoPixel :
 
@@ -266,7 +266,7 @@ void loop()
 
 ```
 
-### Intégration de l'anneau de LEDs
+## Intégration de l'anneau de LEDs
 
 Se référer au tutoriel "Sur bandeau de LED". Attention : il s'agit d'un anneau (Ring), pas d'un bandeau — le branchement diffère. Connecter le 5V au 5V, le Ground au GND et le Data In à la broche souhaitée.
 
@@ -274,7 +274,7 @@ Pour brancher plusieurs composants sur le 5V : souder des picots entre eux pour 
 
 Picots soudés
 
-### Conseils pratiques
+## Conseils pratiques
 
 1. Prévoir des élastiques ou de la chambre à air de rechange pour les roues.
 2. Intégrer les pas de vis directement à l'impression du socle, plutôt que de les forcer après coup.

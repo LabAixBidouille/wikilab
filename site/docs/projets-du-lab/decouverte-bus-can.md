@@ -15,7 +15,7 @@ sidebar_position: 7
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Intermédiaire |
 
-### Présentation
+## Présentation
 
 Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](https://fr.wikipedia.org/wiki/Controller_Area_Network). Sur cette page sont regroupés les liens vers les différentes expérimentations conduites par les membres du LAB.
 
@@ -25,7 +25,7 @@ Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](http
 
 </div>
 
-### Matériel
+## Matériel
 
 Matériel nécessaire :
 
@@ -37,7 +37,7 @@ Matériel nécessaire :
 
 - Straps ou fils de liaison
 
-### Logiciel
+## Logiciel
 
 Logiciels utilisés :
 
@@ -45,7 +45,7 @@ Logiciels utilisés :
 
 - Bibliothèque CAN-BUS Shield [GitHub](https://github.com/Seeed-Studio/CAN_BUS_Shield)
 
-### Principe
+## Principe
 
 Ces informations sont principalement issues de la page Wikipédia ["Bus CAN"](https://fr.wikipedia.org/wiki/Controller_Area_Network).
 
@@ -60,21 +60,21 @@ Il met en application une approche connue sous le nom de multiplexage, qui consi
 - **Trames** : chaque message contient un identifiant (11 ou 29 bits), un champ de données (0 à 8 octets) et un CRC de contrôle d'erreur.
 - **Terminaison** : le bus doit être terminé par une résistance de 120 Ω à chaque extrémité pour éviter les réflexions de signal.
 
-### Expérimentations
+## Expérimentations
 
-#### 1. Émission/Réception simple
+### 1. Émission/Réception simple
 
 Le cas le plus basique : un Arduino envoie une trame CAN contenant quelques octets, l'autre Arduino la reçoit et l'affiche sur le moniteur série. Cela permet de vérifier le câblage, la configuration des shields et le bon fonctionnement de la bibliothèque CAN-BUS Shield.
 
-#### 2. Émission de données RTC / Réception et affichage
+### 2. Émission de données RTC / Réception et affichage
 
 L'Arduino émetteur lit l'heure depuis un module RTC (Real Time Clock) et l'envoie sous forme de trame CAN. L'Arduino récepteur décode la trame et affiche l'heure. Cela introduit la notion d'encodage de données structurées dans les 8 octets d'une trame CAN.
 
-#### 3. Émission RTC / Réception multi-shields avec adressage
+### 3. Émission RTC / Réception multi-shields avec adressage
 
 Extension de l'expérimentation précédente avec plusieurs nœuds récepteurs sur le même bus. Chaque récepteur filtre les trames par identifiant CAN pour ne traiter que celles qui lui sont destinées. Cela illustre le fonctionnement multi-nœuds du bus et le mécanisme de filtrage par identifiant.
 
-### Bibliographie
+## Bibliographie
 
 - https://fr.wikipedia.org/wiki/Controller_Area_Network
 

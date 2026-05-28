@@ -43,8 +43,9 @@ sidebar_position: 6
 - Rallonge I2C Grove x1
 - Batterie externe (power bank) x1
 
-</div>
+Une liste exhaustive d'où trouver les composants est disponible dans la section « Références et liens utiles » présente à la fin de ce document. Une archive zip contenant différents modèles 3D et dessins vectoriels (pour découpe laser) que nous avons utilisés pour réaliser un boîtier pour la station y est également disponible.
 
+</div>
 
 <img src="/img/ressources/jeditrack/station-qualite-air/icone.png" alt="Station qualité de l'air" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
@@ -52,37 +53,15 @@ sidebar_position: 6
 
 ---
 
-Afin de mesurer la qualité de l'air en ville, cette activité propose la fabrication et la programmation d'une station de mesure comprenant différents capteurs. Cette station se veut modulaire, pour correspondre au mieux selon le matériel disponible et les objectifs de mesure. Il sera également possible, après la création de la station de mesure, de l'utiliser en conditions réelles et d'effectuer des mesures dans les environs, et d'effectuer une analyse des données récoltées.
+## Objectifs pédagogiques
 
-### Objectifs pédagogiques
+Afin de mesurer la qualité de l'air en ville, cette activité propose la fabrication et la programmation d'une station de mesure comprenant différents capteurs. Cette station se veut modulaire, pour correspondre au mieux selon le matériel disponible et les objectifs de mesure. Il sera également possible, après la création de la station de mesure, de l'utiliser en conditions réelles et d'effectuer des mesures dans les environs, et d'effectuer une analyse des données récoltées. Au-delà de l'assemblage et de la programmation de la station, l'activité amène les jeunes à formuler des hypothèses et à réaliser une expérience en suivant la démarche scientifique.
 
-- Assembler une station de mesure et la programmer
-- Apprendre à formuler des hypothèses, et réaliser une expérience en suivant la démarche scientifique
+**Tranche d'âge :** à partir de 10 ans
 
-### Tranche d'âge
+**Durée :** 3h-7h
 
-A partir de 10 ans
-
-### Durée
-
-3h-7h
-
-Une liste exhaustive d'où trouver les composants est disponible dans la section "Références et liens utiles" présente à la fin de ce document. Sera également présente une archive zip contenant différents modèles 3D et dessins vectoriels (pour découpe laser) que nous avons utilisés pour réaliser un boîtier pour la station.
-
-## Déroulé de l'activité
-
----
-
-| **Phase** | **Description** | **Durée** |
-| --- | --- | --- |
-| 1 | Montage de la station de mesure | 1h |
-| 2 | Programmation de la station de mesure | 2h |
-| 3 | Réalisation des mesures (optionnel) | 1-3h |
-| 4 | Interprétation des résultats (optionnel) | 30m-1h |
-
-### PHASE 0 : PRÉPARATIFS
-
----
+## Préparation
 
 Si vous souhaitez créer un boîtier pour la station de mesure en vue de de faire une excursion pour utiliser cette dernière, et que vous souhaitez utiliser les modèles 3D donnés en annexe, nous vous conseillons de pré-assembler celle-ci avant le début de l'activité.
 
@@ -90,9 +69,7 @@ Si vous souhaitez créer un boîtier pour la station de mesure en vue de de fair
 
 Enfin, si vous souhaitez réaliser la phase de mesures en extérieur, nous vous recommandons de prévoir l'itinéraire à l'avance afin de, si les environs le permettent, de prendre des mesures dans des lieux plus ou moins pollués (grande avenue, parc, forêt, etc...).
 
-### PHASE 1 : MONTAGE DE LA STATION DE MESURE
-
----
+## Phase 1 : Montage de la station de mesure
 
 **Objectifs :**
 
@@ -139,9 +116,7 @@ Pour connecter le capteur de gaz multicanal à la station de mesure, connectez-l
 L'I2C, pour Inter-Integrated Circuit en anglais, est un protocole de communication utilisé en électronique pour communiquer entre différents appareils. A l'instar du système postal pour la livraison de courrier, ce système utilise des adresses, ce qui permet d'utiliser le même câble pour communiquer entre les différents appareils, en ne délivrant les messages qu'aux appareils à la bonne adresse. C'est pourquoi il n'y a qu'un seul port I2C sur le shield grove, et que tous les composants I2C sont reliés à ce port via la rallonge I2C, comme si les câbles étaient des rues, les appareils des maisons et le port I2C du shield grove la poste.
 :::
 
-### PHASE 2 : PROGRAMMATION DE LA STATION DE MESURE
-
----
+## Phase 2 : Programmation de la station de mesure
 
 **Objectifs :**
 
@@ -227,8 +202,6 @@ Comme on peut le voir dans le bloc, les données à écrire sur la carte micro-s
 
 **Neri;Régis;07/09/1990**
 
----
-
 Dans notre cas, nous allons enregistrer les 8 mesures citées plus haut. Il faut donc, au démarrage du programme, écrire sur la carte micro-sd les en-tête des colonnes correspondantes :
 
 <img src="/img/ressources/jeditrack/station-qualite-air/image_10.png" alt="Bloc d'écriture des en-têtes CSV" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
@@ -241,9 +214,7 @@ Le programme final complet peut être retrouvé en suivant le lien suivant :
 
 https://fr.vittascience.com/microbit/?link=667ebb07071a6
 
-### PHASE 3 : RÉALISATION DES MESURES (OPTIONNEL)
-
----
+## Phase 3 : Réalisation des mesures (optionnel)
 
 **Objectif :**
 
@@ -257,9 +228,7 @@ Si vous avez choisi de prendre des mesures de manière ponctuelle (à l'appui d'
 
 Si vous avez préféré implémenter les mesures prises à intervalles réguliers, notez le temps mis pour atteindre chaque point d'intérêt, afin de pouvoir relier le temps enregistré dans les données à ces points d'intérêts et ainsi retracer avec plus ou moins de précision les mesures selon le trajet effectué.
 
-### PHASE 4 : INTERPRÉTATION DES RÉSULTATS (OPTIONNEL)
-
----
+## Phase 4 : Interprétation des résultats (optionnel)
 
 **Objectif :**
 
@@ -274,8 +243,6 @@ L'objectif ici est d'essayer de voir s'il existe une corrélation entre les nive
 Cette conclusion peut être frustrante pour les jeunes. Dans ces cas-là, il faut expliquer que cette activité s'inscrit dans l'esprit de la démarche scientifique, et que ce n'est pas parce qu'on formule des hypothèses plausibles que celles-ci sont vraies. Il est également possible que l'expérience effectuée présente un biais, un défaut qui l'empêche de répondre correctement à l'hypothèse proposée. Par exemple, nous n'avions fait prendre qu'une seule mesure aux jeunes par point d'intérêt, et avions eu seulement 6 ou 7 points d'intérêts. Il est possible que nous n'ayons pas assez pris de données pour pouvoir en faire une analyse correcte.
 
 ## Références et liens utiles
-
----
 
 Lien vers l'archive zip du boîtier de la station : https://drive.google.com/file/d/1eEqfA9jsekhII7OHwHJh6-rs1cf3e_EA/view?usp=drive_link
 

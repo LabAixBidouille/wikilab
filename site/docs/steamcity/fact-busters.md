@@ -28,7 +28,7 @@ sidebar_position: 21
 - **Phase 2 :** Pas de matériel spécifique nécessaire
 - **Phase 3 :** Pour une version numérique : ordinateurs ou tablettes avec outils de création graphique (Canva). Pour une version papier : panneaux type carton-plume pour créer des posters
 
-<PdfLink href="/pdf/steamcity/Protocol_FactBusters_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_FactBusters_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

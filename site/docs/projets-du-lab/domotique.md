@@ -23,13 +23,15 @@ Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes
 
 </div>
 
-### Principes
+## Principes
 
-### Protocoles
+L'idée est d'assembler des briques matérielles et logicielles simples (cartes Arduino, Raspberry Pi, capteurs) qui communiquent par le réseau. La démonstration ci-dessous illustre ce principe avec le protocole MQTT : des capteurs publient leurs mesures sur des _topics_, un _broker_ central (le Raspberry Pi) les redistribue, et un afficheur s'y abonne pour les recevoir.
 
-#### Protocole MQTT
+## Protocoles
 
-##### Exemple de mise en oeuvre du protocole MQTT
+### Protocole MQTT
+
+#### Exemple de mise en oeuvre du protocole MQTT
 
 Ce premier exemple montre comment mettre en oeuvre le protocole MQTT sur un réseau IP :
 
@@ -39,7 +41,7 @@ Ce premier exemple montre comment mettre en oeuvre le protocole MQTT sur un rés
 
 ![Montage Démo MQTT](/img/ressources/projets-du-lab/300px-DemoMQTT.png)
 
-#### Broker (Raspberry Pi)
+### Broker (Raspberry Pi)
 
 Installation de Mosquitto MQTT broker sur le Raspberry Pi (RP).
 
@@ -111,22 +113,22 @@ Pour prendre la main à distance depuis un PC (Avahi Daemon doit être installé
 - Login : pi
 - Mot de passe : raspberry
 
-#### Émetteur (Arduino + shield Ethernet + DHT11)
+### Émetteur (Arduino + shield Ethernet + DHT11)
 
-##### Matériel
+#### Matériel
 
 - Arduino Uno
 - Shield Ethernet (avec chip W5100)
 - Capteur DHT11 ou DHT22
 - Résistance 4,7 kOhm (ou 10 kOhm) 1/4 W (si besoin)
 
-##### Montage
+#### Montage
 
 ![Montage DHT11](/img/ressources/projets-du-lab/DHT11_schema.png)
 
 Remarque : le shield Ethernet n'est pas représenté ici.
 
-##### Programme
+#### Programme
 
 Voici le programme à éditer dans l'IDE Arduino, puis à compiler et charger dans la carte Arduino.
 
@@ -269,19 +271,19 @@ void loop()
 
 ```
 
-#### Récepteur (Arduino + shield Ethernet + shield LCD)
+### Récepteur (Arduino + shield Ethernet + shield LCD)
 
-##### Matériel
+#### Matériel
 
 - Arduino Uno
 - Shield Ethernet (avec chip W5100)
 - Shield LCD (DFR0009)
 
-##### Montage
+#### Montage
 
 Le montage est simplement composé de l'Arduino et des deux shields empilés.
 
-##### Programme
+#### Programme
 
 Voici le programme à éditer dans l'IDE Arduino, puis à compiler et charger dans la carte Arduino. Il utilise la librairie LiquidCrystal, fournie en standard avec l'IDE.
 
@@ -457,8 +459,16 @@ void loop()
 
 ```
 
-### Matériels
+## Matériels
 
-### Logiciels
+L'exemple de démonstration MQTT mobilise :
 
-### Exemple de réalisation : Mini-serre
+- **Broker** : un Raspberry Pi
+- **Émetteur** : Arduino Uno + shield Ethernet (chip W5100) + capteur DHT11 ou DHT22 + résistance 4,7 kOhm (ou 10 kOhm)
+- **Récepteur** : Arduino Uno + shield Ethernet (chip W5100) + shield LCD (DFR0009)
+
+## Logiciels
+
+- **Broker** : Mosquitto (broker MQTT) et Avahi Daemon, installés sur le Raspberry Pi
+- **Arduino** : IDE Arduino avec les librairies DHT, MQTTClient (Eclipse Paho) et LiquidCrystal
+- **Accès distant** : PuTTY pour prendre la main sur le Raspberry Pi

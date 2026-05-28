@@ -34,7 +34,7 @@ sidebar_position: 13
 
 **Phase 4 :** Fiches de réflexion individuelle, matériel pour présentation créative des innovations
 
-<PdfLink href="/pdf/steamcity/Protocol_Negawatt_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_Negawatt_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

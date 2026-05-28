@@ -289,6 +289,8 @@ Cubetto
 Cyanistes
 cyberincidents
 Cycl
+Avahi
+Paho
 d'Avahi
 d'holoplancton
 d'Indi

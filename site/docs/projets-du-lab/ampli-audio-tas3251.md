@@ -15,7 +15,7 @@ sidebar_position: 2
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Avancé |
 
-### Présentation
+## Présentation
 
 Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([voir fiche dédiée](./audio-hifi)). L'objectif est de remplacer les amplificateurs précédents, dont la puissance était insuffisante, par de nouveaux amplis répondant à trois critères :
 
@@ -37,7 +37,7 @@ Le PCB a été conçu avec KiCAD et fabriqué chez JLCPCB, qui a également réa
 
 L'historique complet du projet est documenté sur [DIYAudio](https://www.diyaudio.com/forums/class-d/325826-design-log-neat-2x170w-i2s-i2c-controlled-integrated-dsp-amp-tas3251-14.html). La partie logicielle est développée sur [GitHub](https://github.com/jmf13/NeatAmpTAS3251/wiki).
 
-### Photos
+## Photos
 
 Rendu 3D de la carte :
 
@@ -45,7 +45,7 @@ Rendu 3D de la carte :
 
 ![Rendu 3D TAS3251 Neat Amp](/img/ressources/projets-du-lab/TAS3251_Neat_Amp.jpg)
 
-### Matériel
+## Matériel
 
 - Chip amplificateur TI TAS3251 (package HSSOP-56)
 - PCB conçu sous KiCAD, fabriqué et partiellement assemblé par JLCPCB
@@ -53,7 +53,7 @@ Rendu 3D de la carte :
 - Pâte à souder
 - Station de soudage à air chaud
 
-### Fabrication de stencils avec la découpe laser du LAB
+## Fabrication de stencils avec la découpe laser du LAB
 
 JLCPCB assemble environ 80 % des composants de surface. Il reste cependant à souder le TAS3251 (package HSSOP-56) au centre de la carte. En temps normal, on utiliserait un stencil pleine carte avec pâte à souder et reflow à air chaud. Mais les composants déjà soudés empêchent de poser un stencil standard.
 
@@ -62,18 +62,18 @@ La solution retenue est de fabriquer un mini stencil ne comportant que l'emprein
 - Pads : gravure laser CO2, P:40, V:8, Freq:1000 (variante : P:20, V:4 ou 5, Freq:1000)
 - Découpe extérieure : Cut CO2, P:11, V:6, Freq:1000 (légèrement insuffisant, à finir à la main si nécessaire)
 
-### Logiciels
+## Logiciels
 
 - **KiCAD** : conception du schéma électronique et routage du PCB
 - **GitHub** : documentation et développement logiciel sur [NeatAmpTAS3251/wiki](https://github.com/jmf13/NeatAmpTAS3251/wiki)
 
-### Évolutions possibles
+## Évolutions possibles
 
 - Documentation de la partie logicielle (configuration DSP, paramétrage I2C)
 - Remplacement des derniers composants par des versions audiophiles
 - Intégration dans le système Audio HiFi Full numérique
 
-### Bibliographie
+## Bibliographie
 
 - [Design log : Neat 2x170W TAS3251 (DIYAudio)](https://www.diyaudio.com/forums/class-d/325826-design-log-neat-2x170w-i2s-i2c-controlled-integrated-dsp-amp-tas3251-14.html)
 - [GitHub NeatAmpTAS3251/wiki](https://github.com/jmf13/NeatAmpTAS3251/wiki)

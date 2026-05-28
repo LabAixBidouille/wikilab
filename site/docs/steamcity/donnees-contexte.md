@@ -28,7 +28,7 @@ sidebar_position: 24
 - **Étape 2 :** 1 jeu de données par groupe d'élèves à imprimer, 1 modèle « Data Storytelling » par groupe
 - **Étape 3 :** 1 élément d'information complémentaire par groupe à imprimer, 1 modèle « Data Storytelling » par groupe
 
-<PdfLink href="/pdf/steamcity/Protocole_Donnees_Contexte_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocole_Donnees_Contexte_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 
@@ -353,7 +353,9 @@ Voici quelques exemples de thèmes pouvant être abordés sur la base des situat
 
 ---
 
-## Annexe : Dataset : le mystère du quartier Hollyhock
+## Annexe : Datasets
+
+### Le mystère du quartier Hollyhock
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -398,7 +400,7 @@ Demandez-leur également de classer les plaintes par thèmes communs, comme les 
 
 ---
 
-## Annexe : Dataset : le dilemme du parc du quartier Iris
+### Le dilemme du parc du quartier Iris
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -493,7 +495,7 @@ Enfin, discutez des équipements fournis par les installations concurrentes. Si 
 
 ---
 
-## Annexe : Dataset : protection de la faune à Greenwood
+### Protection de la faune à Greenwood
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -590,7 +592,7 @@ Sur la base de l'analyse de ces ensembles de données, plusieurs stratégies pou
 
 ---
 
-## Annexe : Dataset : lutte contre les îlots de chaleur urbains
+### Lutte contre les îlots de chaleur urbains
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -663,7 +665,9 @@ Enfin, les élèves ont accès à des données sur les besoins énergétiques pe
 
 ---
 
-## Annexe : Contexte : le mystère du quartier Hollyhock
+## Annexe : Contextes
+
+### Le mystère du quartier Hollyhock
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -689,7 +693,7 @@ Chacun des nouveaux arrêts de bus est équipé d'équipements modernes, notamme
 
 ---
 
-## Annexe : Contexte : le dilemme du parc du quartier Iris
+### Le dilemme du parc du quartier Iris
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -717,7 +721,7 @@ Organisé par Hannah Morales, Service du logement. Préparé pour Jamie Chastain
 
 ---
 
-## Annexe : Contexte : protection de la faune à Greenwood
+### Protection de la faune à Greenwood
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::
@@ -747,7 +751,7 @@ Cet événement met en lumière la fragilité de nos milieux naturels et la néc
 
 ---
 
-## Annexe : Contexte : lutte contre les îlots de chaleur urbains
+### Lutte contre les îlots de chaleur urbains
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 :::

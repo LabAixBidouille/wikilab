@@ -26,7 +26,7 @@ sidebar_position: 18
 
 - Outils hybrides (numériques + physiques), en privilégiant la composante physique lors des phases de familiarisation et de prototypage
 
-<PdfLink href="/pdf/steamcity/Protocol_SmartObjectSafari_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_SmartObjectSafari_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

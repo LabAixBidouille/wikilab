@@ -15,13 +15,21 @@ sidebar_position: 20
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Débutant |
 
-Picsous trésorier du LAB et forgeur d'écrous
+Projet mené par Picsous, trésorier du LAB et forgeur d'écrous.
 
-### Notre ambition
+:::info[Un projet d'hier, et d'une utopie de demain]
 
-Faire émerger nos projets.
+LABanque n'est plus en usage au LAB aujourd'hui. On le garde documenté ici comme une idée qui pourrait renaître dans une future utopie du fablab.
 
-### Les règles
+:::
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
+
+## Les règles
 
 - La monnaie est l'écrou ; son symbole : ⬡
 
@@ -33,12 +41,6 @@ Faire émerger nos projets.
 
 - Elle est fondante.
 
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
-
 Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
 
 L'objectif est de permettre aux personnes qui font vivre la communauté de profiter des services du LAB en contrepartie.
@@ -47,7 +49,7 @@ Tout temps consacré à faire vivre la communauté est compensé en ⬡.
 
 Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle a la possibilité d'acheter des ⬡ (100 ⬡ = 8 €).
 
-### Comment gagner des ⬡ ?
+## Comment gagner des ⬡ ?
 
 - En donnant du temps à l'association
 
@@ -73,7 +75,7 @@ Exemples de compensation :
 | Portion de repas partagé avec un autre maker | 50 ⬡ |
 | Tweet d'une réalisation avec le compte du LAB | 10 ⬡ |
 
-### Comment dépenser ses ⬡ ?
+## Comment dépenser ses ⬡ ?
 
 - En les donnant à ceux qui participent à vos projets
 
