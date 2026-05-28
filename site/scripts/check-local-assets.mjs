@@ -34,7 +34,9 @@ const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;
 // accents — le piège récurrent est un regex `[^)]` qui rate `… (2).png`).
 const PATTERNS = [
   new RegExp(`src="(/img/[^"]+?${IMG_EXT})"`, 'gi'), // <img src="…"> JSX/HTML
-  new RegExp(`!\\[[^\\]]*\\]\\((/img/[^)\\s]+?${IMG_EXT})\\)`, 'gi'), // markdown ![](…)
+  // markdown ![](…) : l'URL peut contenir des parenthèses équilibrées
+  // (ex. `…image_(2).png`) — un simple `[^)]` les raterait (cf. #216).
+  new RegExp(`!\\[[^\\]]*\\]\\((/img/(?:[^()\\s]|\\([^()]*\\))*?${IMG_EXT})\\)`, 'gi'),
   new RegExp(`(?:image|thumbnail|icon):\\s*'(/img/[^']+?${IMG_EXT})'`, 'gi'), // data files
 ];
 
@@ -67,7 +69,10 @@ for (const root of SCAN_DIRS) {
         }
         // Placeholders du template (<id-fiche>, <svg>…) : on ignore.
         if (decoded.includes('<')) continue;
-        const fsPath = join(STATIC_ROOT, decoded);
+        // `decoded` commence par "/img/…" ; on retire le slash de tête pour
+        // joindre sous STATIC_ROOT sans ambiguïté (path.join le gère déjà,
+        // mais on est explicite).
+        const fsPath = join(STATIC_ROOT, decoded.replace(/^\//, ''));
         if (existsSync(fsPath) && statSync(fsPath).isFile()) continue;
         if (KNOWN_MISSING.has(decoded)) {
           knownHit.add(decoded);
