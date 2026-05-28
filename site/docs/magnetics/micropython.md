@@ -1,7 +1,7 @@
 ---
 id: micropython
-title: Magnetics — Créer des projets multicartes (MicroPython)
-sidebar_label: 'Magnetics — MicroPython'
+title: Créer des projets multicartes en MicroPython
+sidebar_label: 'MicroPython'
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Magnetics — Créer des projets multicartes (MicroPython)
+# Créer des projets multicartes en MicroPython
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

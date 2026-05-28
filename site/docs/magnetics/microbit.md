@@ -1,7 +1,7 @@
 ---
 id: microbit
-title: Magnetics — Créer des projets multicartes (micro:bit)
-sidebar_label: 'Magnetics — micro:bit'
+title: Créer des projets multicartes sur micro:bit
+sidebar_label: 'micro:bit'
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Magnetics — Créer des projets multicartes (micro:bit)
+# Créer des projets multicartes sur micro:bit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

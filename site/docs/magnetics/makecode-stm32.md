@@ -1,7 +1,7 @@
 ---
 id: makecode-stm32
-title: Magnetics — Créer des projets multicartes (MakeCode STM32)
-sidebar_label: 'Magnetics — MakeCode STM32'
+title: Créer des projets multicartes sur MakeCode (STM32)
+sidebar_label: 'MakeCode STM32'
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Magnetics — Créer des projets multicartes (MakeCode STM32)
+# Créer des projets multicartes sur MakeCode (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
