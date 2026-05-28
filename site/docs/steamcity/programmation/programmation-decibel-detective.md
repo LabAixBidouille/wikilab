@@ -1,7 +1,7 @@
 ---
 id: programmation-decibel-detective
-title: "Sonomètre avec micro:bit"
-sidebar_label: "Sonomètre avec micro:bit"
+title: "Construire un sonomètre avec micro:bit"
+sidebar_label: "Construire un sonomètre avec micro:bit"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Sonomètre avec micro:bit
+# Construire un sonomètre avec micro:bit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

@@ -1,7 +1,7 @@
 ---
 id: outdoor-air-quality
-title: "Qualité de l'air extérieur"
-sidebar_label: "Qualité de l'air extérieur"
+title: "Mesurer la qualité de l'air extérieur"
+sidebar_label: "Mesurer la qualité de l'air extérieur"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Qualité de l'air extérieur
+# Mesurer la qualité de l'air extérieur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

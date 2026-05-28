@@ -1,7 +1,7 @@
 ---
 id: bio-inspired-processes
-title: Processus bio-inspirés
-sidebar_label: "Processus bio-inspirés"
+title: Comprendre les processus d'apprentissage bio-inspirés
+sidebar_label: "Comprendre les processus d'apprentissage bio-inspirés"
 sidebar_position: 23
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# Processus bio-inspirés
+# Comprendre les processus d'apprentissage bio-inspirés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

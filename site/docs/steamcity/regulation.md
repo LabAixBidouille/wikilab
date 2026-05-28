@@ -1,7 +1,7 @@
 ---
 id: regulation
-title: Mobilité et écologie
-sidebar_label: "Mobilité et écologie"
+title: Étudier les liens entre mobilité et écologie
+sidebar_label: "Étudier les liens entre mobilité et écologie"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# Mobilité et écologie
+# Étudier les liens entre mobilité et écologie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

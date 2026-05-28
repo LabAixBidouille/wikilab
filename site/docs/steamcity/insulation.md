@@ -1,7 +1,7 @@
 ---
 id: insulation
-title: Isolation des murs et villes fraîches
-sidebar_label: "Isolation des murs et villes fraîches"
+title: Étudier l'isolation des murs et les îlots de fraîcheur
+sidebar_label: "Étudier l'isolation des murs et les îlots de fraîcheur"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Isolation des murs et villes fraîches
+# Étudier l'isolation des murs et les îlots de fraîcheur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

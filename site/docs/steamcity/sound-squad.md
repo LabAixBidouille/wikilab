@@ -1,7 +1,7 @@
 ---
 id: sound-squad
-title: Carte sonore du quartier
-sidebar_label: "Carte sonore du quartier"
+title: Cartographier le son du quartier
+sidebar_label: "Cartographier le son du quartier"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Carte sonore du quartier
+# Cartographier le son du quartier
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

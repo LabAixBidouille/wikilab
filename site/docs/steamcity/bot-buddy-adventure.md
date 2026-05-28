@@ -1,7 +1,7 @@
 ---
 id: bot-buddy-adventure
-title: "Chatbot d'accessibilité urbaine"
-sidebar_label: "Chatbot d'accessibilité urbaine"
+title: "Créer un chatbot d'accessibilité urbaine"
+sidebar_label: "Créer un chatbot d'accessibilité urbaine"
 sidebar_position: 20
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# Chatbot d'accessibilité urbaine
+# Créer un chatbot d'accessibilité urbaine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

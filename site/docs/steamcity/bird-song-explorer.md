@@ -1,7 +1,7 @@
 ---
 id: bird-song-explorer
-title: "Chants d'oiseaux par IA"
-sidebar_label: "Chants d'oiseaux par IA"
+title: "Reconnaître les chants d'oiseaux grâce à des outils d'IA"
+sidebar_label: "Reconnaître les chants d'oiseaux grâce à des outils d'IA"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Chants d'oiseaux par IA
+# Reconnaître les chants d'oiseaux grâce à des outils d'IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

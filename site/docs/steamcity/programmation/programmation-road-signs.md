@@ -1,7 +1,7 @@
 ---
 id: programmation-road-signs
-title: Reconnaissance de panneaux par IA
-sidebar_label: "Reconnaissance de panneaux par IA"
+title: Reconnaître des panneaux par IA
+sidebar_label: "Reconnaître des panneaux par IA"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Reconnaissance de panneaux par IA
+# Reconnaître des panneaux par IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

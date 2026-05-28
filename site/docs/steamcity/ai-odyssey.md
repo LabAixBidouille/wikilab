@@ -1,7 +1,7 @@
 ---
 id: ai-odyssey
-title: "L'odyssée de l'IA"
-sidebar_label: "L'odyssée de l'IA"
+title: "Explorer la présence de l'IA dans notre environnement"
+sidebar_label: "Explorer la présence de l'IA dans notre environnement"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# L'odyssée de l'IA
+# Explorer la présence de l'IA dans notre environnement
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

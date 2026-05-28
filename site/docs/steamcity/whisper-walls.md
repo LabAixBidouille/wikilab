@@ -1,7 +1,7 @@
 ---
 id: whisper-walls
-title: Matériaux isolants acoustiques
-sidebar_label: "Matériaux isolants acoustiques"
+title: Tester des matériaux isolants acoustiques
+sidebar_label: "Tester des matériaux isolants acoustiques"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Matériaux isolants acoustiques
+# Tester des matériaux isolants acoustiques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

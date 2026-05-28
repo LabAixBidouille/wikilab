@@ -1,7 +1,7 @@
 ---
 id: road-signs
-title: Signalisation de demain
-sidebar_label: "Signalisation de demain"
+title: Concevoir la signalisation de demain
+sidebar_label: "Concevoir la signalisation de demain"
 sidebar_position: 17
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# Signalisation de demain
+# Concevoir la signalisation de demain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

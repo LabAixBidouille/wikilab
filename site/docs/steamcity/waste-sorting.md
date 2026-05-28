@@ -1,7 +1,7 @@
 ---
 id: waste-sorting
-title: Tri des déchets par IA
-sidebar_label: "Tri des déchets par IA"
+title: Trier les déchets grâce à la reconnaissance visuelle
+sidebar_label: "Trier les déchets grâce à la reconnaissance visuelle"
 sidebar_position: 22
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 22
 
 <div style={{flex: 1}}>
 
-# Tri des déchets par IA
+# Trier les déchets grâce à la reconnaissance visuelle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

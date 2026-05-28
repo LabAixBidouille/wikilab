@@ -1,7 +1,7 @@
 ---
 id: programmation-whisper-walls
-title: Sonomètre STM32
-sidebar_label: "Sonomètre STM32"
+title: Construire un sonomètre (STM32)
+sidebar_label: "Construire un sonomètre (STM32)"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Sonomètre STM32
+# Construire un sonomètre (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

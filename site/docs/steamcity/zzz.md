@@ -1,7 +1,7 @@
 ---
 id: zzz
-title: Lumière et sommeil
-sidebar_label: "Lumière et sommeil"
+title: Étudier la lumière et le sommeil
+sidebar_label: "Étudier la lumière et le sommeil"
 sidebar_position: 25
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 25
 
 <div style={{flex: 1}}>
 
-# Lumière et sommeil
+# Étudier la lumière et le sommeil
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>
