@@ -100,7 +100,7 @@ La manière la plus simple de mesurer un capteur résistif est de connecter une 
 
 Une fois que la breadboard a été assemblée, il faut la connecter à la carte. La carte possède quatre blocs de broches, nommés respectivement **CN1**, **CN2**, **CN3** et **CN4**. Comme les quatre blocs ont des fonctions différentes, utilisez le bouton bleu situé à l'un des quatre coins de la carte comme point de repère pour identifier correctement les quatre blocs.
 
-<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/3%20(1).png" alt="Connexion des câbles à la carte" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/3-1.png" alt="Connexion des câbles à la carte" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 Le fil rouge doit être connecté à la **broche 4** du bloc **CN2**, qui est connectée en interne à un potentiel de 3,3 V. Le fil noir doit être connecté à la **broche 6** du bloc **CN2**, qui est connectée en interne au potentiel de masse (**GND**). Enfin, le fil jaune doit être connecté à la **broche 1** du bloc **CN4**. Cette broche est connectée en interne à la broche d'entrée analogique nommée **A0**.
 

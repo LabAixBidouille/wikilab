@@ -351,8 +351,8 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap'}}>
-    <img src="/img/ressources/mimesis/mimesis-play-6/%28Fran%C3%A7ais%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
-    <img src="/img/ressources/mimesis/mimesis-play-6/%28Fran%C3%A7ais%29%20%282%29.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
+    <img src="/img/ressources/mimesis/mimesis-play-6/francais.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
+    <img src="/img/ressources/mimesis/mimesis-play-6/francais-2.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
     <img src="/img/ressources/mimesis/mimesis-play-6/11.png" alt="Page du livret d'information" style={{maxWidth: '30%', minWidth: '200px'}} />
   </div>
   <figcaption style={{textAlign: 'center', fontStyle: 'italic', opacity: 0.7, marginTop: '0.5rem'}}>Extraits du livret d'information sur les catastrophes naturelles</figcaption>

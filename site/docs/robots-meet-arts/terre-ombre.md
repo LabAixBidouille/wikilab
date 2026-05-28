@@ -384,7 +384,7 @@ BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londr
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
   <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20BedZED%20-%20Londres%2C%20Royaume-Uni.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20BedZED%20-%20Londres%2C%20Royaume-Uni%20(2).png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/ecoquartier-bedzed-londres-royaume-uni-2.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
 ### Bo01 "City of Tomorrow" - Malmö, Suède
@@ -398,7 +398,7 @@ Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, co
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
   <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20Bo01%20-%20Malm%C3%B6%2C%20Su%C3%A8de.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20Bo01%20-%20Malm%C3%B6%2C%20Su%C3%A8de%20(2).png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/ecoquartier-bo01-malmo-suede-2.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
 ### ZAC de Bonne - Grenoble, France
@@ -411,8 +411,8 @@ La ZAC de Bonne est un écoquartier de 8,5 hectares situé en plein centre de Gr
 - **Gestion de l'eau** : Des noues paysagères et des bassins de rétention collectent les eaux pluviales, réduisant le ruissellement et créant des espaces verts humides appréciés pour la biodiversité.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/L'%C3%A9coquartier%20de%20Bonne%20-%20Grenoble%2C%20France.png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/L'%C3%A9coquartier%20de%20Bonne%20-%20Grenoble%2C%20France%20(2).png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/l-ecoquartier-de-bonne-grenoble-france.png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/l-ecoquartier-de-bonne-grenoble-france-2.png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
 ---

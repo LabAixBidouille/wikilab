@@ -447,7 +447,7 @@ Plan d'implantation :
     <figcaption style={{margin: 0}}>Illustration générée pour Marseille</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/plants-city/marseille_croquis%20d%C3%A9taill%C3%A9%20repr%C3%A9sentant%20l%27organisation%20des%20diff%C3%A9rentes%20zones%20du%20mur%20v%C3%A9g%C3%A9tal%2C%20avec%20des%20annotations%20indiquant%20les%20types%20de%20plantes%20et%20leur%20localisation.png" alt="Croquis mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/plants-city/marseille-croquis-mur-vegetal.png" alt="Croquis mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
     <figcaption style={{margin: 0}}>Croquis annoté de l'implantation des espèces</figcaption>
   </figure>
 </div>
@@ -482,7 +482,7 @@ Plan d'implantation général :
     <figcaption style={{margin: 0}}>Illustration générée pour Brest</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/plants-city/brest_croquis%20d%C3%A9taill%C3%A9%20repr%C3%A9sentant%20l%27organisation%20des%20diff%C3%A9rentes%20zones%20du%20mur%20v%C3%A9g%C3%A9tal%2C%20avec%20des%20annotations%20indiquant%20les%20types%20de%20plantes%20et%20leur%20localisation.png" alt="Croquis mur végétal Brest" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/plants-city/brest-croquis-detaille-representant-l-organisation-des-diffe.png" alt="Croquis mur végétal Brest" style={{width: '100%', height: 'auto'}} />
     <figcaption style={{margin: 0}}>Croquis annoté de l'implantation des espèces</figcaption>
   </figure>
 </div>

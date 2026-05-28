@@ -157,7 +157,7 @@ music.playTone(247, music.beat(BeatFraction.Half))
 </div>
 <div style={{flex: '1', minWidth: '200px'}}>
 
-![Capture d'écran MakeCode du programme musique](/img/ressources/lets-steam/r1as07-musique/lets-steam-screenshot%20(6).png)
+![Capture d'écran MakeCode du programme musique](/img/ressources/lets-steam/r1as07-musique/lets-steam-screenshot-6.png)
 
 </div>
 </div>

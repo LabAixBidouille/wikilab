@@ -61,7 +61,7 @@ Certains arbres ciblent spécifiquement les jeunes avec "Kids STEAM Skills" adap
 [GitHub - sjpiper145/MakerSkillTree: A repository of Maker Skill Trees and templates to make your own.](https://github.com/sjpiper145/MakerSkillTree/tree/main)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '1rem 0'}}>
-  <img src="/img/ressources/jeditrack/skill-trees/Civics%20%26%20Community%20Skill%20Tree.png" alt="Civics & Community Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/civics-community-skill-tree.png" alt="Civics & Community Skill Tree" style={{flex: 1, minWidth: '200px'}} />
   <img src="/img/ressources/jeditrack/skill-trees/Cooking%20Skill%20Tree.png" alt="Cooking Skill Tree" style={{flex: 1, minWidth: '200px'}} />
   <img src="/img/ressources/jeditrack/skill-trees/Gardening%20Skill%20Tree.png" alt="Gardening Skill Tree" style={{flex: 1, minWidth: '200px'}} />
 </div>

@@ -586,9 +586,9 @@ Exemple : Le projet SIRenergy, financé par Interreg Europe, vise à promouvoir 
 <figure style={{margin: '1.5rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem'}}>
     <img src="/img/ressources/steamcity/energy-mix/Mod%C3%A9lisation%20%C3%A9nerg%C3%A9tique%20territoriale%20avec%20les%20collectivit%C3%A9s%20locales.png" alt="Modélisation énergétique territoriale" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/energy-mix/Projet%20de%20micro-r%C3%A9seau%20intelligent%20au%20sein%20de%20l%27%C3%A9tablissement.png" alt="Micro-réseau intelligent" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/energy-mix/Participation%20aux%20concours%20internationaux%20d%27innovation%20%C3%A9nerg%C3%A9tique.png" alt="Concours d'innovation énergétique" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/energy-mix/Cr%C3%A9ation%20d%27une%20coop%C3%A9rative%20%C3%A9nerg%C3%A9tique%20citoyenne.png" alt="Coopérative énergétique citoyenne" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/projet-de-micro-reseau-intelligent-au-sein-de-l-etablissemen.png" alt="Micro-réseau intelligent" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/participation-aux-concours-internationaux-d-innovation-energ.png" alt="Concours d'innovation énergétique" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/creation-d-une-cooperative-energetique-citoyenne.png" alt="Coopérative énergétique citoyenne" style={{width: '100%', height: 'auto'}} />
   </div>
   <figcaption style={{margin: '0.75rem 0 0 0'}}>Pistes d'engagement et de prolongement du projet</figcaption>
 </figure>
