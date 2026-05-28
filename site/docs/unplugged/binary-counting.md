@@ -29,7 +29,7 @@ sidebar_position: 2
 - Petites cartes binaires (imprimables)
 - Feuilles de travail (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Binary Counting_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Binary_Counting_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

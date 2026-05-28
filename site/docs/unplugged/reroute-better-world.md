@@ -28,7 +28,7 @@ sidebar_position: 23
 - Paire de ciseaux
 - Plateau, pions de transport, cartes (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Reroute better world _FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Reroute_better_world_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

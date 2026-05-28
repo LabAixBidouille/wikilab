@@ -30,7 +30,7 @@ sidebar_position: 12
 - Paire de ciseaux
 - Cartes et points (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Good ways_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Good_ways_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

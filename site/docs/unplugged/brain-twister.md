@@ -28,7 +28,7 @@ sidebar_position: 4
 - De quoi dessiner un tableau géant au sol : ruban adhésif, craie, carrelage, ficelle...
 - Plateau et pions à imprimer (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Brain twister_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Brain_twister_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

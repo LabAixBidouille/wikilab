@@ -28,7 +28,7 @@ sidebar_position: 11
 - Paire de ciseaux, montre
 - Formes complexes et formes simples (imprimables)
 
-<PdfLink href="/pdf/unplugged/_Unplugged_Form factor_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Form_factor_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

@@ -27,7 +27,7 @@ sidebar_position: 22
 
 - Cartes de blocs de chorégraphie basées sur Scratch (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Programming a Choreography_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Programming_a_Choreography_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

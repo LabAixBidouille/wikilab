@@ -29,7 +29,7 @@ sidebar_position: 13
 - Papier de couleur pour découper des carrés
 - Grilles imprimables
 
-<PdfLink href="/pdf/unplugged/Unplugged_Grille magique de la paix_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Grille_magique_de_la_paix_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

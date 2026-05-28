@@ -577,7 +577,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['émotions', 'sculpture', 'communication non verbale', 'corps humain', 'empathie'],
-    pdf: '/pdf/unplugged/Unplugged_Argile et sculpture_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Argile_et_sculpture_FR.pdf',
     thumbnail: '/img/ressources/unplugged/argile-et-sculpture/icone.png',
   },
   {
@@ -597,7 +597,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['binaire', 'programmation', 'nombres', 'conversion', 'calcul'],
-    pdf: '/pdf/unplugged/Unplugged_Binary Counting_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Binary_Counting_FR.pdf',
     thumbnail: '/img/ressources/unplugged/binary-counting/icone.png',
   },
   {
@@ -617,7 +617,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['cuisine', 'inégalité', 'ressources', 'négociation', 'partage'],
-    pdf: '/pdf/unplugged/Unplugged_Biscuits et paix_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Biscuits_et_paix_FR.pdf',
     thumbnail: '/img/ressources/unplugged/biscuits-et-paix/icone.png',
   },
   {
@@ -643,7 +643,7 @@ export const resources: Resource[] = [
       'cognition spatiale',
       'robots',
     ],
-    pdf: '/pdf/unplugged/Unplugged_Brain twister_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Brain_twister_FR.pdf',
     thumbnail: '/img/ressources/unplugged/brain-twister/icone.png',
   },
   {
@@ -689,7 +689,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['logique', 'réflexion', 'dextérité', 'tours de Hanoï', 'combinatoire'],
-    pdf: '/pdf/unplugged/Unplugged_Dr Hanoï _FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Dr_Hanoi_FR.pdf',
     thumbnail: '/img/ressources/unplugged/dr-hanoi/icone.png',
   },
   {
@@ -709,7 +709,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'experimentation'],
     categories: ['sequences-debranchees', 'environnement-nature'],
     keywords: ['écosystème', 'biologie', 'écologie', 'expérimentation', 'plantes'],
-    pdf: '/pdf/unplugged/Unplugged_Ecosystèmes  en bocaux_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Ecosystemes_en_bocaux_FR.pdf',
     thumbnail: '/img/ressources/unplugged/ecosystemes-en-bocaux/icone.png',
   },
   {
@@ -749,7 +749,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'bricolage'],
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['narration', 'coopération', 'créativité', 'réalité augmentée', 'décoration'],
-    pdf: '/pdf/unplugged/Unplugged_Fantasy out there!_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Fantasy_out_there!_FR.pdf',
     thumbnail: '/img/ressources/unplugged/fantasy-out-there/icone.png',
   },
   {
@@ -775,7 +775,7 @@ export const resources: Resource[] = [
       'ville intelligente',
       'algorithme',
     ],
-    pdf: '/pdf/unplugged/Unplugged_Ferme en ville_FR .pdf',
+    pdf: '/pdf/unplugged/Unplugged_Ferme_en_ville_FR.pdf',
     thumbnail: '/img/ressources/unplugged/ferme-en-ville/icone.png',
   },
   {
@@ -795,7 +795,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['géométrie', 'analyse', 'pensée visuelle', 'précision', 'coopération'],
-    pdf: '/pdf/unplugged/_Unplugged_Form factor_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Form_factor_FR.pdf',
     thumbnail: '/img/ressources/unplugged/form-factor/icone.png',
   },
   {
@@ -815,7 +815,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['orientation', 'développement durable', 'ODD', 'concentration', 'motricité'],
-    pdf: '/pdf/unplugged/Unplugged_Good ways_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Good_ways_FR.pdf',
     thumbnail: '/img/ressources/unplugged/good-ways/icone.png',
   },
   {
@@ -841,7 +841,7 @@ export const resources: Resource[] = [
       'désinformation',
       'citoyenneté',
     ],
-    pdf: '/pdf/unplugged/Unplugged_Grille magique de la paix_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Grille_magique_de_la_paix_FR.pdf',
     thumbnail: '/img/ressources/unplugged/grille-magique-de-la-paix/icone.png',
   },
   {
@@ -861,7 +861,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['culture numérique', "association d'idées", 'rapidité', 'technologie', 'indices'],
-    pdf: '/pdf/unplugged/Unplugged_Iterative clues_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Iterative_clues_FR.pdf',
     thumbnail: '/img/ressources/unplugged/iterative-clues/icone.png',
   },
   {
@@ -881,7 +881,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees', 'citoyennete-territoire'],
     keywords: ['manipulation', 'désinformation', 'leadership', 'esprit critique', 'urbanisme'],
-    pdf: '/pdf/unplugged/Unplugged_La ville parfaite_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_La_ville_parfaite_FR.pdf',
     thumbnail: '/img/ressources/unplugged/la-ville-parfaite/icone.png',
   },
   {
@@ -901,7 +901,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'bricolage'],
     categories: ['sequences-debranchees', 'citoyennete-territoire'],
     keywords: ['ville du futur', 'développement durable', 'pop-up', 'créativité', 'génie civil'],
-    pdf: '/pdf/unplugged/Unplugged_La ville Pop-up du Futur_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_La_ville_Pop-up_du_Futur_FR.pdf',
     thumbnail: '/img/ressources/unplugged/la-ville-pop-up-du-futur/icone.png',
   },
   {
@@ -961,7 +961,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees', 'environnement-nature'],
     keywords: ['logique', 'écologie', 'pollution plastique', 'orientation spatiale', 'ODD'],
-    pdf: '/pdf/unplugged/_Unplugged_Plastic continent _FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Plastic_continent_FR.pdf',
     thumbnail: '/img/ressources/unplugged/plastic-continent/icone.png',
   },
   {
@@ -981,7 +981,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['inégalité', 'nutrition', 'partage', 'privilège', 'alimentation'],
-    pdf: '/pdf/unplugged/Unplugged_Potluck March_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Potluck_March_FR.pdf',
     thumbnail: '/img/ressources/unplugged/potluck-march/icone.png',
   },
   {
@@ -1001,7 +1001,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'bricolage'],
     categories: ['sequences-debranchees'],
     keywords: ['pauvreté', 'créativité', 'collaboration', 'ODD', 'jeux'],
-    pdf: '/pdf/unplugged/Unplugged_Poverty Free Game Collection.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Poverty_Free_Game_Collection.pdf',
     thumbnail: '/img/ressources/unplugged/poverty-free-game-collection/icone.png',
   },
   {
@@ -1021,7 +1021,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees', 'arts-creativite'],
     keywords: ['programmation', 'Scratch', 'chorégraphie', 'sport', 'coordination'],
-    pdf: '/pdf/unplugged/Unplugged_Programming a Choreography_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Programming_a_Choreography_FR.pdf',
     thumbnail: '/img/ressources/unplugged/programming-a-choreography/icone.png',
   },
   {
@@ -1041,7 +1041,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['géographie', 'logique', 'transport', 'Europe', 'pensée computationnelle'],
-    pdf: '/pdf/unplugged/Unplugged_Reroute better world _FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Reroute_better_world_FR.pdf',
     thumbnail: '/img/ressources/unplugged/reroute-better-world/icone.png',
   },
   {
@@ -1061,7 +1061,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['sequences-debranchees'],
     keywords: ['identité', 'Union Européenne', 'diversité', 'géographie', 'égalité'],
-    pdf: '/pdf/unplugged/Unplugged_Vivre en harmonie_FR.pdf',
+    pdf: '/pdf/unplugged/Unplugged_Vivre_en_harmonie_FR.pdf',
     thumbnail: '/img/ressources/unplugged/vivre-en-harmonie/icone.png',
   },
   {

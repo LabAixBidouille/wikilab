@@ -29,7 +29,7 @@ sidebar_position: 14
 - Ardoises (optionnel)
 - Cartes concepts et points (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Iterative clues_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Iterative_clues_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

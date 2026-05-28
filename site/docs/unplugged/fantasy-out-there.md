@@ -31,7 +31,7 @@ sidebar_position: 9
 - Paire de ciseaux
 - Montre
 
-<PdfLink href="/pdf/unplugged/Unplugged_Fantasy out there!_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Fantasy_out_there!_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

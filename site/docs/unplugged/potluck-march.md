@@ -28,7 +28,7 @@ sidebar_position: 20
 - Panier/conteneur pour la ligne d'arrivée
 - 36 cartes d'aliments, 10 étapes à franchir (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Potluck March_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Potluck_March_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

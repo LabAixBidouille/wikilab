@@ -28,7 +28,7 @@ sidebar_position: 1
 - Aucun matériel supplémentaire nécessaire
 - Cartes décrivant les émotions (facultatif)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Argile et sculpture_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Argile_et_sculpture_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

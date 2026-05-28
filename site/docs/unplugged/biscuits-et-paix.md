@@ -29,7 +29,7 @@ sidebar_position: 3
 - Ustensiles de cuisine (bols, ustensiles pour remuer, tasses à mesurer, papier sulfurisé)
 - Four et/ou plaque chauffante (optionnel)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Biscuits et paix_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Biscuits_et_paix_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

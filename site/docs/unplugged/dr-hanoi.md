@@ -28,7 +28,7 @@ sidebar_position: 6
 - Paire de ciseaux
 - Cartes objectif, tubes à essai, éléments (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Dr Hanoï _FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Dr_Hanoi_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

@@ -29,7 +29,7 @@ sidebar_position: 10
 - Papiers translucides
 - Carte de la ville, graphes, badges (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Ferme en ville_FR .pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Ferme_en_ville_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

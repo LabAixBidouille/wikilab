@@ -28,7 +28,7 @@ sidebar_position: 19
 - Paire de ciseaux
 - Plateau, niveaux, pièces (imprimables)
 
-<PdfLink href="/pdf/unplugged/_Unplugged_Plastic continent _FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Plastic_continent_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

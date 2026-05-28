@@ -29,7 +29,7 @@ sidebar_position: 7
 - Cailloux, terre, mousse, eau
 - En option : vers de terre, autres insectes, plantes, étiquettes
 
-<PdfLink href="/pdf/unplugged/Unplugged_Ecosystèmes  en bocaux_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Ecosystemes_en_bocaux_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

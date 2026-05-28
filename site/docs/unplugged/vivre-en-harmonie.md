@@ -28,7 +28,7 @@ sidebar_position: 24
 - Crayons de couleur, papier, ciseaux, bâtons de colle
 - Visuels pays, fiches pays (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Vivre en harmonie_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Vivre_en_harmonie_FR.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 

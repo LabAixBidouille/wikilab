@@ -29,7 +29,7 @@ sidebar_position: 21
 - Accessoires de maison optionnels
 - Cartes de rôle (imprimables)
 
-<PdfLink href="/pdf/unplugged/Unplugged_Poverty Free Game Collection.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/unplugged/Unplugged_Poverty_Free_Game_Collection.pdf">Télécharger en PDF</PdfLink>
 
 <div style={{marginTop: "1.5rem"}}/>
 
