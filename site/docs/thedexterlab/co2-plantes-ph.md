@@ -1,7 +1,7 @@
 ---
 id: co2-plantes-ph
-title: CO2, plantes et pH
-sidebar_label: "CO2, plantes et pH"
+title: Étudier le CO2, les plantes et le pH
+sidebar_label: "Étudier le CO2, les plantes et le pH"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# CO2, plantes et pH
+# Étudier le CO2, les plantes et le pH
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

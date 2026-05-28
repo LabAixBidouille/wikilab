@@ -1,7 +1,7 @@
 ---
 id: programmation-solution-meteo
-title: Station météo STM32
-sidebar_label: "Station météo STM32"
+title: Construire une station météo (STM32)
+sidebar_label: "Construire une station météo (STM32)"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Station météo STM32
+# Construire une station météo (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

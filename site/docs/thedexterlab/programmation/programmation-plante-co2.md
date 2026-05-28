@@ -1,7 +1,7 @@
 ---
 id: programmation-plante-co2
-title: Capteur CO2 plantes STM32
-sidebar_label: "Capteur CO2 plantes STM32"
+title: Mesurer le CO2 des plantes (STM32)
+sidebar_label: "Mesurer le CO2 des plantes (STM32)"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Capteur CO2 plantes STM32
+# Mesurer le CO2 des plantes (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

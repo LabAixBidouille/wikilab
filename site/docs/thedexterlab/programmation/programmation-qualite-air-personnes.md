@@ -1,7 +1,7 @@
 ---
 id: programmation-qualite-air-personnes
-title: Capteur CO2 classe STM32
-sidebar_label: "Capteur CO2 classe STM32"
+title: Mesurer le CO2 en classe (STM32)
+sidebar_label: "Mesurer le CO2 en classe (STM32)"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Capteur CO2 classe STM32
+# Mesurer le CO2 en classe (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

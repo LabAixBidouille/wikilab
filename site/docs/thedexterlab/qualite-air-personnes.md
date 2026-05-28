@@ -1,7 +1,7 @@
 ---
 id: qualite-air-personnes
-title: "Qualité de l'air et nombre d'élèves"
-sidebar_label: "Qualité de l'air et nombre d'élèves"
+title: "Mesurer la qualité de l'air selon le nombre d'élèves"
+sidebar_label: "Mesurer la qualité de l'air selon le nombre d'élèves"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Qualité de l'air et nombre d'élèves
+# Mesurer la qualité de l'air selon le nombre d'élèves
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

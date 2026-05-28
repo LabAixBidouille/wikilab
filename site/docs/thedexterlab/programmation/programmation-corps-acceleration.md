@@ -1,7 +1,7 @@
 ---
 id: programmation-corps-acceleration
-title: Accéléromètre STM32
-sidebar_label: "Accéléromètre STM32"
+title: Mesurer l'accélération (STM32)
+sidebar_label: "Mesurer l'accélération (STM32)"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Accéléromètre STM32
+# Mesurer l'accélération (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

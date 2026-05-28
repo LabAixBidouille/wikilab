@@ -1,7 +1,7 @@
 ---
 id: programmation-beau-jardin-21-siecle
-title: Arrosage automatique STM32
-sidebar_label: "Arrosage automatique STM32"
+title: Automatiser l'arrosage (STM32)
+sidebar_label: "Automatiser l'arrosage (STM32)"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Arrosage automatique STM32
+# Automatiser l'arrosage (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

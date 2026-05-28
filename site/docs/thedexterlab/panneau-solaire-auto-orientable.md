@@ -1,7 +1,7 @@
 ---
 id: panneau-solaire-auto-orientable
-title: Panneau solaire auto-orientable
-sidebar_label: "Panneau solaire auto-orientable"
+title: Construire un panneau solaire auto-orientable
+sidebar_label: "Construire un panneau solaire auto-orientable"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Panneau solaire auto-orientable
+# Construire un panneau solaire auto-orientable
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

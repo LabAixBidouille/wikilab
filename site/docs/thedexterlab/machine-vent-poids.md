@@ -1,7 +1,7 @@
 ---
 id: machine-vent-poids
-title: Machine éolienne à 50g
-sidebar_label: "Machine éolienne à 50g"
+title: Construire une machine éolienne à 50 g
+sidebar_label: "Construire une machine éolienne à 50 g"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# Machine éolienne à 50g
+# Construire une machine éolienne à 50 g
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

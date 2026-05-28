@@ -1,7 +1,7 @@
 ---
 id: programmation-panneau-solaire-auto-orientable
-title: Panneau solaire orientable STM32
-sidebar_label: "Panneau solaire orientable STM32"
+title: Construire un panneau solaire orientable (STM32)
+sidebar_label: "Construire un panneau solaire orientable (STM32)"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Panneau solaire orientable STM32
+# Construire un panneau solaire orientable (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

@@ -1,7 +1,7 @@
 ---
 id: ia-securite
-title: Serrure intelligente par IA
-sidebar_label: "Serrure intelligente par IA"
+title: Construire une serrure intelligente en utilisant l'IA
+sidebar_label: "Construire une serrure intelligente en utilisant l'IA"
 sidebar_position: 17
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# Serrure intelligente par IA
+# Construire une serrure intelligente en utilisant l'IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

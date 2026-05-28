@@ -1,7 +1,7 @@
 ---
 id: temperature-vitesse-son
-title: Température et vitesse du son
-sidebar_label: "Température et vitesse du son"
+title: Étudier la température et la vitesse du son
+sidebar_label: "Étudier la température et la vitesse du son"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Température et vitesse du son
+# Étudier la température et la vitesse du son
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

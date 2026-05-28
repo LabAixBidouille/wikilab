@@ -1,7 +1,7 @@
 ---
 id: vent-chutes-eau-energie
-title: "Énergie du vent et de l'eau"
-sidebar_label: "Énergie du vent et de l'eau"
+title: "Étudier l'énergie du vent et de l'eau"
+sidebar_label: "Étudier l'énergie du vent et de l'eau"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Énergie du vent et de l'eau
+# Étudier l'énergie du vent et de l'eau
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

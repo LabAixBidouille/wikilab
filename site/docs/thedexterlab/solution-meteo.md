@@ -1,7 +1,7 @@
 ---
 id: solution-meteo
-title: Station météo complète
-sidebar_label: "Station météo complète"
+title: Construire une station météo complète
+sidebar_label: "Construire une station météo complète"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# Station météo complète
+# Construire une station météo complète
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

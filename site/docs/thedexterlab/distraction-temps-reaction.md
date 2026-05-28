@@ -1,7 +1,7 @@
 ---
 id: distraction-temps-reaction
-title: Distractions et temps de réaction
-sidebar_label: "Distractions et temps de réaction"
+title: Mesurer l'effet des distractions sur le temps de réaction
+sidebar_label: "Mesurer l'effet des distractions sur le temps de réaction"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Distractions et temps de réaction
+# Mesurer l'effet des distractions sur le temps de réaction
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

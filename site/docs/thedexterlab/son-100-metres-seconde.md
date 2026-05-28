@@ -1,7 +1,7 @@
 ---
 id: son-100-metres-seconde
-title: Vitesse du son
-sidebar_label: "Vitesse du son"
+title: Mesurer la vitesse du son
+sidebar_label: "Mesurer la vitesse du son"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Vitesse du son
+# Mesurer la vitesse du son
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

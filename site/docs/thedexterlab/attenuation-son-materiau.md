@@ -1,7 +1,7 @@
 ---
 id: attenuation-son-materiau
-title: Atténuation du son par matériaux
-sidebar_label: "Atténuation du son par matériaux"
+title: Mesurer l'atténuation du son selon les matériaux
+sidebar_label: "Mesurer l'atténuation du son selon les matériaux"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# Atténuation du son par matériaux
+# Mesurer l'atténuation du son selon les matériaux
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

@@ -1,7 +1,7 @@
 ---
 id: programmation-ocean-sale
-title: Conductimètre STM32
-sidebar_label: "Conductimètre STM32"
+title: Construire un conductimètre (STM32)
+sidebar_label: "Construire un conductimètre (STM32)"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Conductimètre STM32
+# Construire un conductimètre (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
