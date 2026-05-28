@@ -1,7 +1,7 @@
 ---
 id: reparer-porte-frigo
-title: Réparer une porte de frigo en 3D
-sidebar_label: "Réparer une porte de frigo en 3D"
+title: Réparer une porte de frigo en utilisant une imprimante 3D
+sidebar_label: "Réparer une porte de frigo en utilisant une imprimante 3D"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# Réparer une porte de frigo en 3D
+# Réparer une porte de frigo en utilisant une imprimante 3D
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |
@@ -21,7 +21,7 @@ La charnière de la porte du frigo était cassée : le bout de plastique mainten
 
 </div>
 
-<img src="/img/ressources/projets-du-lab/lab-porte-frigo/icone.png" alt="Réparer une porte de frigo en 3D" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/projets-du-lab/lab-porte-frigo/icone.png" alt="Réparer une porte de frigo en utilisant une imprimante 3D" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -48,11 +48,11 @@ La porte fonctionne parfaitement.
 
 ## Photos
 
-![Porte de frigo](/img/ressources/projets-du-lab/PorteFrigo.JPG)
-
-![Porte de frigo](/img/ressources/projets-du-lab/PorteFrigo.JPG)
-
-![Pièces imprimées](/img/ressources/projets-du-lab/PiecesPorteFrigo.JPG)
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem', margin: '1rem 0', alignItems: 'start'}}>
+  <img src="/img/ressources/projets-du-lab/PorteFrigo.JPG" alt="Porte de frigo réparée" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
+  <img src="/img/ressources/projets-du-lab/PorteFrigo.JPG" alt="Porte de frigo réparée" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
+  <img src="/img/ressources/projets-du-lab/PiecesPorteFrigo.JPG" alt="Pièces imprimées en 3D" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
+</div>
 
 ## Matériel et logiciels
 
