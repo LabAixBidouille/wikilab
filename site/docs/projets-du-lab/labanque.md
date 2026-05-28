@@ -35,6 +35,12 @@ Picsous trésorier du LAB et forgeur d'écrous
 
 </div>
 
+:::info[Un projet d'hier, et d'une utopie de demain]
+
+LABanque n'est plus en usage au LAB aujourd'hui. On le garde documenté ici comme une idée qui pourrait renaître dans une future utopie du fablab.
+
+:::
+
 Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
 
 L'objectif est de permettre aux personnes qui font vivre la communauté de profiter des services du LAB en contrepartie.
