@@ -30,7 +30,7 @@ sidebar_position: 3
 - Tableau blanc ou vidéoprojecteur pour l'analyse collective
 - Une liste de référence d'exemples d'IA du quotidien (utilisée uniquement lors de la discussion finale)
 
-<a href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la fiche d'exploration</a>
+<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.pdf">Télécharger la fiche d'exploration</PdfLink>
 
 </div>
 

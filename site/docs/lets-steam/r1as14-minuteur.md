@@ -35,7 +35,7 @@ sidebar_position: 14
 
 - [Servomoteurs](/ressources/lets-steam/r1as13-servomoteurs)
 
-<a href="/pdf/lets-steam/LS_R1AS14_Timer_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/lets-steam/LS_R1AS14_Timer_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

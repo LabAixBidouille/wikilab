@@ -29,6 +29,14 @@ const config: Config = {
   organizationName: 'LabAixBidouille',
   projectName: 'wikilab',
 
+  // Base des assets lourds (PDFs) externalisés. Vide par défaut → les liens
+  // restent locaux (`/pdf/...`, servis depuis site/static/pdf). En production,
+  // définir ASSETS_BASE_URL=https://assets.wikilab.labaixbidouille.com pour
+  // que <PdfLink> et ProjectPage pointent vers le repo d'assets (cf. #203).
+  customFields: {
+    assetsBaseUrl: process.env.ASSETS_BASE_URL ?? '',
+  },
+
   onBrokenLinks: 'throw',
 
   markdown: {

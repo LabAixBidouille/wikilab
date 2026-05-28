@@ -35,7 +35,7 @@ sidebar_position: 2
 - Logiciel de traitement de données (Excel, Google Sheets)
 - Fond de carte pour la carte de synthèse collective
 
-<a href="/pdf/steamcity/Protocol_SoundSquad_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_SoundSquad_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

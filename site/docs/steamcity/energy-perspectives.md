@@ -32,7 +32,7 @@ sidebar_position: 11
 
 **Phase 3 :** Fiches de mission pour chaque groupe imprimées ou projetées, matrices d'analyse sectorielle imprimées vierges, matériel pour créer le "Guide du nouvel habitant" (papier, crayons de couleur, etc.)
 
-<a href="/pdf/steamcity/Protocol_EnergyPerspectives_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#DD5350', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_EnergyPerspectives_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
 
 </div>
 

@@ -34,7 +34,7 @@ sidebar_position: 1
 - Logiciel de traitement de données (Excel, Google Sheets, LibreOffice)
 - Logiciel de création de graphiques et visualisations (Canva Education, Genially)
 
-<a href="/pdf/steamcity/Protocol_DecibelDetective_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_DecibelDetective_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

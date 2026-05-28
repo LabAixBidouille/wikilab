@@ -28,7 +28,7 @@ sidebar_position: 23
 - Un ordinateur ou une tablette pour accéder à l'outil en ligne [BioLearningGame](https://charly-sketch.github.io/DiscoverAI/PlayerLearningGame/PlayerBiolearning.html)
 - Des tableaux blancs pour des discussions collaboratives
 
-<a href="/pdf/steamcity/Protocol_BioInspiredProcesses_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#DD5350', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_BioInspiredProcesses_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
 
 </div>
 

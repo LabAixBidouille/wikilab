@@ -37,7 +37,7 @@ sidebar_position: 4
 - [Breadboard : premier circuit](/ressources/lets-steam/r1as02-breadboard)
 - [Boutons et affichage LED](/ressources/lets-steam/r1as03-boutons)
 
-<a href="/pdf/lets-steam/LS_R1AS04_Light_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/lets-steam/LS_R1AS04_Light_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

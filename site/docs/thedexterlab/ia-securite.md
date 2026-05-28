@@ -42,7 +42,7 @@ sidebar_position: 17
 - 1 boîtier pour la serrure
 - 1 set d'outils de montage : tournevis, pinces, etc.
 
-<a href="/pdf/thedexterlab/PR17-TDL_Feuille_Travail_Vierge_A3.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la feuille de travail</a>
+<PdfLink href="/pdf/thedexterlab/PR17-TDL_Feuille_Travail_Vierge_A3.pdf">Télécharger la feuille de travail</PdfLink>
 
 </div>
 

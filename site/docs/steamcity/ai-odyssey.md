@@ -28,7 +28,7 @@ sidebar_position: 19
 - Carnets ou appareils numériques pour la prise de notes
 - Smartphones ou appareils photo pour la documentation
 
-<a href="/pdf/steamcity/Protocol_AI_Odyssey_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#DD5350', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_AI_Odyssey_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
 
 </div>
 

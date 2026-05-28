@@ -40,7 +40,7 @@ sidebar_position: 16
 - Matériel pour construire l'anémomètre : pics à brochette, paille en plastique, bouchon en liège, deux balles de Ping-Pong. Ou anémomètre (imprimable en 3D), pics à brochette, pastille adhésive, morceau de bois
 - Un support stable pour l'axe de rotation
 
-<a href="/pdf/thedexterlab/PR16-TDL_Feuille_Travail_Vierge_A3.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#e83e8c', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger la feuille de travail</a>
+<PdfLink href="/pdf/thedexterlab/PR16-TDL_Feuille_Travail_Vierge_A3.pdf">Télécharger la feuille de travail</PdfLink>
 
 </div>
 

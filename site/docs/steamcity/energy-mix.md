@@ -31,7 +31,7 @@ sidebar_position: 10
 
 **Phase 3 :** Fiches de scénarios imprimées, accès aux simulateurs créés, matériel pour noter les résultats, supports de présentation (vidéoprojecteur, tableaux), matériel pour créer des recommandations visuelles
 
-<a href="/pdf/steamcity/Protocol_EnergyMix_FR.pdf" target="_blank" style={{display: 'inline-block', backgroundColor: '#DD5350', color: '#fff', borderRadius: '20px', padding: '0.5rem 1.5rem', fontWeight: 700, textDecoration: 'none', fontSize: '0.95rem'}}>Télécharger en PDF</a>
+<PdfLink href="/pdf/steamcity/Protocol_EnergyMix_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
 
 </div>
 
