@@ -43,6 +43,7 @@ export type Software =
   | 'makecode'
   | 'scratch'
   | 'python'
+  | 'vittascience'
   | 'makecode-arcade'
   | 'octostudio'
   | 'github-pages'
@@ -2124,7 +2125,7 @@ export const resources: Resource[] = [
       "Créer un mur végétal en utilisant des microcontrôleurs pour mesurer les conditions environnementales et l'IA pour sélectionner les plantes adaptées.",
     disciplines: ['sciences', 'technologie'],
     tools: ['microbit'],
-    software: ['makecode'],
+    software: ['makecode', 'vittascience'],
     ageMin: 10,
     ageMax: 14,
     durationMinutes: 240,
@@ -2377,7 +2378,7 @@ export const resources: Resource[] = [
       "Co-concevoir des signaux routiers adaptés aux véhicules autonomes et tester leur reconnaissance par un classificateur d'images IA.",
     disciplines: ['technologie', 'ingenierie', 'informatique'],
     tools: ['demarche-scientifique'],
-    software: [],
+    software: ['vittascience'],
     ageMin: 10,
     ageMax: 15,
     durationMinutes: 360,
@@ -2511,7 +2512,7 @@ export const resources: Resource[] = [
       "Développer un système de tri des déchets basé sur la reconnaissance d'images par IA avec micro:bit et vision par ordinateur.",
     disciplines: ['technologie', 'sciences', 'informatique'],
     tools: ['microbit'],
-    software: [],
+    software: ['vittascience'],
     ageMin: 8,
     ageMax: 16,
     durationMinutes: 180,
@@ -3723,7 +3724,7 @@ export const resources: Resource[] = [
       'Mettre en place un environnement web (ou desktop) gratuit pour programmer la STeaMi en MicroPython et en blocs avec Vittascience : installation, configuration de la communication entre Vittascience et la carte, premier programme LED RGB + boutons.',
     disciplines: ['informatique', 'technologie', 'sciences'],
     tools: ['steami'],
-    software: ['python'],
+    software: ['python', 'vittascience'],
     ageMin: 11,
     ageMax: 99,
     durationMinutes: 40,
@@ -4222,7 +4223,7 @@ export const resources: Resource[] = [
       'Assembler et programmer un capteur CO2 avec SCD30, écran LCD RGB et bandeau NeoPixel sur NUCLEO, Arduino ou micro:bit via Vittascience.',
     disciplines: ['informatique', 'technologie'],
     tools: ['capteurs', 'microbit'],
-    software: [],
+    software: ['vittascience'],
     ageMin: 12,
     ageMax: 16,
     durationMinutes: 150,
@@ -4260,7 +4261,7 @@ export const resources: Resource[] = [
       "Assembler une station de mesure de qualité de l'air extérieur (MICS6814, HM3301, DHT11, LCD) sur micro:bit, NUCLEO ou Arduino via Vittascience.",
     disciplines: ['informatique', 'technologie'],
     tools: ['microbit', 'capteurs'],
-    software: [],
+    software: ['vittascience'],
     ageMin: 12,
     ageMax: 16,
     durationMinutes: 90,
@@ -4279,7 +4280,7 @@ export const resources: Resource[] = [
       "Utiliser Python et SignVisionAI ou Vittascience IA pour entraîner un modèle de reconnaissance d'images capable d'identifier des panneaux de signalisation.",
     disciplines: ['informatique'],
     tools: ['demarche-scientifique'],
-    software: ['python'],
+    software: ['python', 'vittascience'],
     ageMin: 12,
     ageMax: 18,
     durationMinutes: 90,
@@ -4658,6 +4659,7 @@ export const softwareLabels: Record<Software, string> = {
   makecode: 'MakeCode',
   scratch: 'Scratch',
   python: 'Python',
+  vittascience: 'Éditeur Vittascience',
   'makecode-arcade': 'MakeCode Arcade',
   octostudio: 'OctoStudio',
   'github-pages': 'GitHub Pages',
