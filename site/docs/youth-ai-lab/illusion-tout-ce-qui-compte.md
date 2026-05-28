@@ -1,7 +1,7 @@
 ---
 id: illusion-tout-ce-qui-compte
-title: "L'illusion de la pensée"
-sidebar_label: "L'illusion de la pensée"
+title: "Démonter l'illusion de la pensée"
+sidebar_label: "Démonter l'illusion de la pensée"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# L'illusion de la pensée
+# Démonter l'illusion de la pensée
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

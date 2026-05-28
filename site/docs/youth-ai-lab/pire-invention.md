@@ -1,7 +1,7 @@
 ---
 id: pire-invention
-title: "La pire invention"
-sidebar_label: "La pire invention"
+title: "Imaginer la pire invention"
+sidebar_label: "Imaginer la pire invention"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# La pire invention
+# Imaginer la pire invention
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
