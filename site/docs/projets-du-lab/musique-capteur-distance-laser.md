@@ -15,7 +15,7 @@ sidebar_position: 12
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Débutant |
 
-### Présentation
+## Présentation
 
 Ce projet transforme un capteur de distance laser en instrument de musique, sur le principe du thérémine optique. Un capteur VL53L0X mesure en continu la distance de la main placée devant lui et la convertit en fréquence sonore envoyée à un buzzer piézoélectrique. Plus la main est proche, plus le son est aigu ; plus elle s'éloigne, plus le son est grave.
 
@@ -27,19 +27,19 @@ Ce projet transforme un capteur de distance laser en instrument de musique, sur 
 
 Le résultat est un instrument sans contact, jouable en déplaçant la main au-dessus du capteur, sur une plage d'environ 20 à 300 mm.
 
-### Matériel
+## Matériel
 
 - Capteur VL53L0X (Time of Flight)
 - Arduino Nano
 - Buzzer piézoélectrique
 
-### Logiciel
+## Logiciel
 
 - IDE Arduino
 - Driver CH340G (nécessaire pour que le PC reconnaisse le port série des clones Arduino Nano chinois)
 - Bibliothèque Adafruit VL53L0X (installable depuis le gestionnaire de bibliothèques Arduino)
 
-### Code Arduino
+## Code Arduino
 
 ```cpp
 #include "Adafruit_VL53L0X.h"
@@ -110,7 +110,7 @@ void loop() {
 
 ```
 
-### Fonctionnement du code
+## Fonctionnement du code
 
 Le programme fonctionne en boucle continue :
 
@@ -122,7 +122,7 @@ Le programme fonctionne en boucle continue :
 
 La constante `delaiBase` (28.4 µs) calibre la plage de fréquences jouables. En la modifiant, on décale l'instrument vers les aigus ou les graves.
 
-### Pistes d'amélioration
+## Pistes d'amélioration
 
 - Utiliser la fonction `tone()` d'Arduino pour simplifier la génération de son
 - Ajouter un module audio (DAC ou shield MP3) pour des timbres plus riches

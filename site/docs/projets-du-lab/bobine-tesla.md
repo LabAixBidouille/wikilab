@@ -15,7 +15,7 @@ sidebar_position: 13
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Avancé |
 
-### Présentation
+## Présentation
 
 Projet réalisé par Jonathan dans le cadre du Hackathon de Devoxx France.
 
@@ -29,7 +29,7 @@ Une bobine de Tesla est un transformateur résonant qui produit des arcs électr
 
 Le signal d'excitation de la bobine est modulé par un signal audio (MIDI ou analogique), de sorte que la fréquence des arcs corresponde aux notes souhaitées.
 
-### Matériel typique
+## Matériel typique
 
 - Bobine de Tesla à semi-conducteurs (SSTC ou DRSSTC)
 - Circuit de commande (driver) avec entrée de modulation audio
@@ -37,6 +37,6 @@ Le signal d'excitation de la bobine est modulé par un signal audio (MIDI ou ana
 - Interface MIDI ou entrée audio analogique
 - Équipements de sécurité (cage de Faraday, mise à la terre, distance de sécurité)
 
-### Sécurité
+## Sécurité
 
 Ce type de projet met en jeu des tensions très élevées (plusieurs dizaines de milliers de volts). Il nécessite des connaissances solides en électronique de puissance et le respect strict des règles de sécurité : distance, mise à la terre, protection des spectateurs.

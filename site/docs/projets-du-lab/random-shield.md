@@ -15,7 +15,7 @@ sidebar_position: 3
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Avancé |
 
-### Présentation du projet
+## Présentation du projet
 
 Générateur de bits aléatoires pour Arduino.
 
@@ -35,12 +35,12 @@ Générateur de bits aléatoires pour Arduino.
 
 ![Random Shield](/img/ressources/projets-du-lab/Random2.jpg)
 
-### Circuit de base
+## Circuit de base
 
 ![Circuit random 1](/img/ressources/projets-du-lab/Circuitrandom1.jpg)
 ![Circuit random 2](/img/ressources/projets-du-lab/Circuitrandom2.jpg)
 
-### Principe de fonctionnement
+## Principe de fonctionnement
 
 Le bruit est généré en polarisant une diode Zener ou une jonction PN de transistor en inverse, dans la zone dite d'avalanche. Dans cette zone, les électrons se déplacent de manière totalement aléatoire. Le transistor 2N3904 est utilisé ici car sa tension inverse est relativement faible (8,2 V) et le bruit qu'il produit présente une grande amplitude.
 
@@ -52,7 +52,7 @@ Note : un bruit de 90 mV a été mesuré à la sortie de C1. Avec une résistanc
 
 Note : au fur et à mesure que les piles 9 V se déchargent, il sera probablement nécessaire de réajuster le potentiomètre P1 pour maintenir une tension de +12 V. La valeur de la tension négative importe peu, tant qu'elle reste inférieure à -3 V, seuil nécessaire à une amplification correcte du signal. Il conviendra également de vérifier que P2 délivre bien 2,5 V.
 
-### Code Arduino
+## Code Arduino
 
 ```cpp
 // Basic program that acquires the noise bits as fast as possible
@@ -144,7 +144,7 @@ void loop()
 
 ```
 
-### Test du générateur
+## Test du générateur
 
 Il n'existe aucune méthode fiable pour déterminer si une suite de nombres est réellement aléatoire. On ne peut que vérifier si le générateur se comporte de manière conforme d'un point de vue statistique. La batterie de tests DieHarder a été utilisée à cet effet :
 
@@ -291,7 +291,7 @@ Preparing to run test 209.  ntuple = 0
 
 Hormis deux instances marquées WEAK, le résultat est très satisfaisant et atteste de l'efficacité du générateur.
 
-### Évolutions envisagées
+## Évolutions envisagées
 
 - Conception d'un boîtier de rangement.
 
@@ -305,7 +305,7 @@ Hormis deux instances marquées WEAK, le résultat est très satisfaisant et att
 
 - Ajout d'une seconde carte SD pour l'application cryptographique One Time Pad.
 
-### Références
+## Références
 
 http://holdenc.altervista.org/avalanche/
 

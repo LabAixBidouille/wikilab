@@ -31,7 +31,7 @@ Les parois du terrarium sont en verre pour une meilleure visibilité sous tous l
 
 Le nombre d'individus doit être adapté en fonction de la taille du terrarium. Par exemple, dans un terrarium moyen de 45 cm de côté, on peut maintenir de un à trois individus.
 
-##### Fonctionnement du terrarium
+#### Fonctionnement du terrarium
 
 Le terrarium doit permettre d'aérer, humidifier, chauffer et éclairer l'atmosphère intérieure afin de réguler l'environnement en fonction des besoins de l'écosystème qu'il abrite : des dendrobates, des plantes tropicales et des drosophiles enfermées dans une boîte servant de nourriture aux grenouilles.
 
@@ -69,7 +69,7 @@ Le seul paramètre de régulation de l'éclairage à ce stade est la durée d'al
 
 Comme le câble chauffant, l'éclairage est un actionneur de type « tout ou rien » et doit donc être piloté par l'intermédiaire d'un relais.
 
-##### Aménagement du terrarium
+#### Aménagement du terrarium
 
 L'aménagement du terrarium doit répondre à des impératifs à la fois fonctionnels, techniques et esthétiques.
 
@@ -117,13 +117,13 @@ L'armoire technique
 
 L'armoire technique est la partie du terrarium où se trouvent toutes les cartes électroniques (principalement des Arduino et un Raspberry Pi). Elle doit être extérieure au bac principal pour ne pas être soumise à de fortes contraintes environnementales. Il faut prévoir dès le début le câblage des différents capteurs et actionneurs pour éviter les problèmes de longueur et de passage des câbles. L'intégration de cette armoire technique doit également prendre en compte le besoin d'accessibilité, afin de pouvoir intervenir sur le système après sa mise en service. On pourrait envisager d'ajouter des afficheurs pour contrôler l'état du terrarium sans accès à internet.
 
-##### Développement informatique de la régulation
+#### Développement informatique de la régulation
 
 La régulation constitue l'élément central du fonctionnement du terrarium. Le système de régulation s'appuie sur l'architecture matérielle et logicielle du projet DomoduLAB. Dans l'implémentation actuelle, les différents sous-systèmes sont interconnectés par un réseau IP de type Ethernet.
 
 ![Système informatique du terrarium](/img/ressources/projets-du-lab/Systeme_informatique_terrarium.jpg)
 
-##### Événements et actions
+#### Événements et actions
 
 Le système doit se comporter comme un système réactif dans lequel chaque actionneur ne peut être activé qu'en réponse à un événement. Voici la liste des événements et les actions associées identifiés pour le prototype :
 
@@ -157,7 +157,7 @@ Le système doit se comporter comme un système réactif dans lequel chaque acti
 
 À ces événements liés au fonctionnement automatique du vivarium, il faut ajouter une activation et une désactivation manuelles pour permettre à l'utilisateur de reprendre la main sur le système lorsqu'il le souhaite.
 
-##### Implémentation du système réactif
+#### Implémentation du système réactif
 
 Pour implémenter le système de régulation, le projet s'appuie sur le protocole MQTT. Le principe de fonctionnement de ce protocole repose sur un mécanisme de publication/souscription de messages, dans lequel les émetteurs ne destinent pas a priori les messages à des destinataires précis. Chaque tiers souhaitant être informé d'un message doit au préalable s'abonner auprès de son émetteur.
 
@@ -175,7 +175,7 @@ Le code des émetteurs et des récepteurs se trouve sur GitHub : [InternetOfFrog
 
 L'interconnexion logicielle se fait grâce au logiciel Node-RED, qu'il faut installer sur le Raspberry Pi.
 
-### Conclusion
+## Conclusion
 
 ![Internet Of Frogs](/img/ressources/projets-du-lab/InternetOfFrogs.jpg)
 
@@ -183,7 +183,7 @@ Ce projet est encore à l'état de prototype, mais depuis fin août 2015, il hé
 
 ![Grenouilles sur le prototype](/img/ressources/projets-du-lab/Grenouilles_on_proto.jpg)
 
-### Liens
+## Liens
 
 - Projet DomoDuLAB
 
@@ -191,6 +191,6 @@ Ce projet est encore à l'état de prototype, mais depuis fin août 2015, il hé
 
 - [Github du projet](https://github.com/carole-laitong/InternetOfFrogs)
 
-### Références
+## Références
 
 - [1] Dans l'écosystème Arduino, on appelle « shield » les cartes additionnelles qui viennent ajouter des fonctionnalités à l'Arduino. Il en existe un large éventail permettant de prototyper des systèmes de manière modulaire (comme des Lego).

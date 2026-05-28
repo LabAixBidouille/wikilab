@@ -15,7 +15,7 @@ sidebar_position: 16
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Intermédiaire |
 
-### Présentation
+## Présentation
 
 Ce projet reproduit en découpe laser un château inspiré d'un modèle vendu dans le commerce à environ 120 €.
 
@@ -27,14 +27,14 @@ Ce projet reproduit en découpe laser un château inspiré d'un modèle vendu da
 
 ![Inspiration Reine des Neiges](/img/ressources/projets-du-lab/InspirationRDN.jpg)
 
-### Matériel
+## Matériel
 
 - Planches de MDF 3 mm
 - Planches de MDF 6 mm
 - Feuilles autocollantes A3
 - Feuilles autocollantes A4
 
-### Coût
+## Coût
 
 - 20 € de bois
 - ~10 € de peinture
@@ -42,21 +42,21 @@ Ce projet reproduit en découpe laser un château inspiré d'un modèle vendu da
 
 Le modèle 3D est adaptable : il est possible de modifier les dimensions selon les matériaux disponibles.
 
-### Logiciels
+## Logiciels
 
-#### Modélisation 3D
+### Modélisation 3D
 
 ![Château modèle 3D](/img/ressources/projets-du-lab/Chateau_full_3D.jpg)
 
 Toutes les pièces ont été modélisées dans SketchUp. La structure a ensuite été aplanie pour permettre l'export en 2D au format .eps.
 
-#### Préparation 2D
+### Préparation 2D
 
 ![Château modèle 2D](/img/ressources/projets-du-lab/Chateau_full_2D.jpg)
 
 N'importe quel logiciel de dessin vectoriel convient pour préparer le fichier de découpe : contours à découper en rouge, gravures en noir.
 
-### Peinture et finitions
+## Peinture et finitions
 
 ![Peinture des pièces](/img/ressources/projets-du-lab/IMG_7492.JPG)
 
@@ -66,7 +66,7 @@ Exemple de planche de stickers (les fichiers complets ne sont pas téléchargeab
 
 ![Planche de stickers](/img/ressources/projets-du-lab/ACP_PDF_2_file_document.png)
 
-### Résultat
+## Résultat
 
 ![Château vue 1](/img/ressources/projets-du-lab/DSC_0001.jpg)
 ![Château vue 2](/img/ressources/projets-du-lab/DSC_0004.jpg)

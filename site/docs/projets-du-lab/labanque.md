@@ -17,11 +17,11 @@ sidebar_position: 20
 
 Picsous trésorier du LAB et forgeur d'écrous
 
-### Notre ambition
+## Notre ambition
 
 Faire émerger nos projets.
 
-### Les règles
+## Les règles
 
 - La monnaie est l'écrou ; son symbole : ⬡
 
@@ -47,7 +47,7 @@ Tout temps consacré à faire vivre la communauté est compensé en ⬡.
 
 Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle a la possibilité d'acheter des ⬡ (100 ⬡ = 8 €).
 
-### Comment gagner des ⬡ ?
+## Comment gagner des ⬡ ?
 
 - En donnant du temps à l'association
 
@@ -73,7 +73,7 @@ Exemples de compensation :
 | Portion de repas partagé avec un autre maker | 50 ⬡ |
 | Tweet d'une réalisation avec le compte du LAB | 10 ⬡ |
 
-### Comment dépenser ses ⬡ ?
+## Comment dépenser ses ⬡ ?
 
 - En les donnant à ceux qui participent à vos projets
 
