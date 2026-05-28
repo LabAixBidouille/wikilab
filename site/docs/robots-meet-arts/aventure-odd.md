@@ -1,7 +1,7 @@
 ---
 id: aventure-odd
-title: "L'aventure des ODD"
-sidebar_label: "L'aventure des ODD"
+title: "Coder les Objectifs de Développement Durable en jeu vidéo"
+sidebar_label: "Coder les Objectifs de Développement Durable en jeu vidéo"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# L'aventure des ODD
+# Coder les Objectifs de Développement Durable en jeu vidéo
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

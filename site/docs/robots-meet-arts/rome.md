@@ -1,7 +1,7 @@
 ---
 id: rome
-title: La Rome antique en robot
-sidebar_label: "La Rome antique en robot"
+title: Explorer la Rome antique
+sidebar_label: "Explorer la Rome antique"
 sidebar_position: 25
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 25
 
 <div style={{flex: 1}}>
 
-# La Rome antique en robot
+# Explorer la Rome antique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Histoire</span>

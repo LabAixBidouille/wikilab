@@ -1,7 +1,7 @@
 ---
 id: decouverte-histoire
-title: Sur les pas des explorateurs
-sidebar_label: "Sur les pas des explorateurs"
+title: Marcher sur les pas des explorateurs
+sidebar_label: "Marcher sur les pas des explorateurs"
 sidebar_position: 23
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# Sur les pas des explorateurs
+# Marcher sur les pas des explorateurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Histoire</span>

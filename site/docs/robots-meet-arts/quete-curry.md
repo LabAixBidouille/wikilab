@@ -1,7 +1,7 @@
 ---
 id: quete-curry
-title: La quête du curry
-sidebar_label: "La quête du curry"
+title: Programmer une histoire dont vous êtes le héros
+sidebar_label: "Programmer une histoire dont vous êtes le héros"
 sidebar_position: 22
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 22
 
 <div style={{flex: 1}}>
 
-# La quête du curry
+# Programmer une histoire dont vous êtes le héros
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Français</span>

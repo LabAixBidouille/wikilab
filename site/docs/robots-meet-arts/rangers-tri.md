@@ -1,7 +1,7 @@
 ---
 id: rangers-tri
-title: Rangers du tri robotique
-sidebar_label: "Rangers du tri robotique"
+title: Programmer un robot trieur de déchets
+sidebar_label: "Programmer un robot trieur de déchets"
 sidebar_position: 21
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 21
 
 <div style={{flex: 1}}>
 
-# Rangers du tri robotique
+# Programmer un robot trieur de déchets
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langue maternelle</span>

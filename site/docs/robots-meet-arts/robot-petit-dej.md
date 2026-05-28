@@ -1,7 +1,7 @@
 ---
 id: robot-petit-dej
-title: Robot petit-déjeuner
-sidebar_label: "Robot petit-déjeuner"
+title: Programmer son petit-déjeuner
+sidebar_label: "Programmer son petit-déjeuner"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Robot petit-déjeuner
+# Programmer son petit-déjeuner
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

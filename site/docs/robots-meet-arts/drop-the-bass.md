@@ -1,7 +1,7 @@
 ---
 id: drop-the-bass
-title: Guitare Makey Makey
-sidebar_label: "Guitare Makey Makey"
+title: Fabriquer une guitare Makey Makey
+sidebar_label: "Fabriquer une guitare Makey Makey"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Guitare Makey Makey
+# Fabriquer une guitare Makey Makey
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

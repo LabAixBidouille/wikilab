@@ -1,7 +1,7 @@
 ---
 id: ballet-robotique
-title: Ballet robotique
-sidebar_label: "Ballet robotique"
+title: Chorégraphier un ballet robotique
+sidebar_label: "Chorégraphier un ballet robotique"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Ballet robotique
+# Chorégraphier un ballet robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

@@ -1,7 +1,7 @@
 ---
 id: once-upon-code
-title: Histoire animée en code
-sidebar_label: "Histoire animée en code"
+title: Animer une histoire en code
+sidebar_label: "Animer une histoire en code"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Histoire animée en code
+# Animer une histoire en code
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

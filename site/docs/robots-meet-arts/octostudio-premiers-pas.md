@@ -1,7 +1,7 @@
 ---
 id: octostudio-premiers-pas
-title: Premiers pas avec Octo Studio
-sidebar_label: "Premiers pas avec Octo Studio"
+title: Faire ses premiers pas avec Octo Studio
+sidebar_label: "Faire ses premiers pas avec Octo Studio"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# Premiers pas avec Octo Studio
+# Faire ses premiers pas avec Octo Studio
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Programmation</span>

@@ -1,7 +1,7 @@
 ---
 id: chefs-oeuvre
-title: "Mémoire des chefs-d'œuvre"
-sidebar_label: "Mémoire des chefs-d'œuvre"
+title: "Jouer au memory des chefs-d'œuvre"
+sidebar_label: "Jouer au memory des chefs-d'œuvre"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Mémoire des chefs-d'œuvre
+# Jouer au memory des chefs-d'œuvre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts plastiques</span>

@@ -1,7 +1,7 @@
 ---
 id: chasseurs-tresors
-title: Chasse au trésor robotique
-sidebar_label: "Chasse au trésor robotique"
+title: Organiser une chasse au trésor robotique
+sidebar_label: "Organiser une chasse au trésor robotique"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Chasse au trésor robotique
+# Organiser une chasse au trésor robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

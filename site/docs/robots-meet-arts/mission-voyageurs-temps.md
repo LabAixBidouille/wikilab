@@ -1,7 +1,7 @@
 ---
 id: mission-voyageurs-temps
-title: Voyageurs du temps
-sidebar_label: "Voyageurs du temps"
+title: Devenir voyageurs du temps
+sidebar_label: "Devenir voyageurs du temps"
 sidebar_position: 24
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 24
 
 <div style={{flex: 1}}>
 
-# Voyageurs du temps
+# Devenir voyageurs du temps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Histoire</span>

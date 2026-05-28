@@ -1,7 +1,7 @@
 ---
 id: terre-ombre
-title: "La terre à l'ombre"
-sidebar_label: "La terre à l'ombre"
+title: "Comprendre et concevoir des éco-quartiers"
+sidebar_label: "Comprendre et concevoir des éco-quartiers"
 sidebar_position: 29
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 29
 
 <div style={{flex: 1}}>
 
-# La terre à l'ombre
+# Comprendre et concevoir des éco-quartiers
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

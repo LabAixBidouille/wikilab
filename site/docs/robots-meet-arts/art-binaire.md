@@ -1,7 +1,7 @@
 ---
 id: art-binaire
-title: "L'art en binaire"
-sidebar_label: "L'art en binaire"
+title: "Créer de l'art en binaire"
+sidebar_label: "Créer de l'art en binaire"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# L'art en binaire
+# Créer de l'art en binaire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
