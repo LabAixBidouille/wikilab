@@ -27,9 +27,7 @@ Pour cela, nous expérimentons diverses solutions de capteurs, de communications
 
 </div>
 
-Les différentes solutions et expérimentations sont présentées dans la rubrique "Éléments du projet". Certaines d'entre elles seront sélectionnées et combinées pour fabriquer une station météo performante : "MétéoDuLAB".
-
-## Éléments du projet et expérimentations
+Les différentes solutions et expérimentations sont présentées ci-dessous. Certaines d'entre elles seront sélectionnées et combinées pour fabriquer une station météo performante : "MétéoDuLAB".
 
 ## Mesure de la température et du taux d'humidité avec une carte STM32 Nucleo 32
 
