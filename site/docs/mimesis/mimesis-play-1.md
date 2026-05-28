@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-1
-title: "À l'échelle du système solaire"
-sidebar_label: "À l'échelle du système solaire"
+title: "Représenter l'échelle du système solaire"
+sidebar_label: "Représenter l'échelle du système solaire"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# À l'échelle du système solaire
+# Représenter l'échelle du système solaire
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

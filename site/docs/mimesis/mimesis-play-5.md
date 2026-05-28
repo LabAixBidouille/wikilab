@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-5
-title: Marionnettes géométriques
-sidebar_label: "Marionnettes géométriques"
+title: Fabriquer des marionnettes géométriques
+sidebar_label: "Fabriquer des marionnettes géométriques"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Marionnettes géométriques
+# Fabriquer des marionnettes géométriques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

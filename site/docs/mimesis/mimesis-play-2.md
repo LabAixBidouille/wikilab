@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-2
-title: Conteurs de sciences
-sidebar_label: "Conteurs de sciences"
+title: Conter les sciences
+sidebar_label: "Conter les sciences"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Conteurs de sciences
+# Conter les sciences
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

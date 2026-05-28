@@ -1,7 +1,7 @@
 ---
 id: mimesis-play-4
-title: "Le cycle de l'eau en scène"
-sidebar_label: "Le cycle de l'eau en scène"
+title: "Mettre en scène le cycle de l'eau"
+sidebar_label: "Mettre en scène le cycle de l'eau"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Le cycle de l'eau en scène
+# Mettre en scène le cycle de l'eau
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
