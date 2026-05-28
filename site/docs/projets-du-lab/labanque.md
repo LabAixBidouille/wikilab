@@ -17,10 +17,6 @@ sidebar_position: 20
 
 Picsous trésorier du LAB et forgeur d'écrous
 
-## Notre ambition
-
-Faire émerger nos projets.
-
 ## Les règles
 
 - La monnaie est l'écrou ; son symbole : ⬡
