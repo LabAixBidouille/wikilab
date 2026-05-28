@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [ZZZ](/ressources/steamcity/zzz). 
 
 ---
 
-## Fiche 1 : Mesurer les données environnementales
+## Mesurer les données environnementales
 
 ### Matériel
 
@@ -127,11 +127,11 @@ Un fichier `.csv` se lit dans Excel ou LibreOffice Calc via l'assistant d'import
 
 ---
 
-## Fiche 2 : Mesurer les mouvements (accéléromètre)
+## Mesurer les mouvements (accéléromètre)
 
 ### Étape 1 : Programmer la carte
 
-Identique à la Fiche 1 : connexion via micro-USB, ajout de l'extension **Datalogger** dans MakeCode, copier-coller du code ci-dessous, puis téléchargement du `.hex` sur le lecteur **MICROBIT**. Seul le programme change — on remplace les capteurs environnementaux par l'accéléromètre intégré.
+Identique à la section précédente : connexion via micro-USB, ajout de l'extension **Datalogger** dans MakeCode, copier-coller du code ci-dessous, puis téléchargement du `.hex` sur le lecteur **MICROBIT**. Seul le programme change — on remplace les capteurs environnementaux par l'accéléromètre intégré.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code1.png" alt="Programme accéléromètre - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
