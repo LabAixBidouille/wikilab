@@ -9,14 +9,6 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-<!--
-  Icône SVG inline du titre (à côté du H1).
-  Le SVG ci-dessous représente la carte STeaMi (placeholder par défaut).
-  Pour votre fiche, remplacez-le par une icône thématique de l'activité, en flat-design,
-  dans la couleur du projet (#8a6e18) avec les opacités 0.1 / 0.25 / 1.0
-  (cf. CONVENTIONS.md, section "Header").
--->
-
 # Titre de la fiche
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
