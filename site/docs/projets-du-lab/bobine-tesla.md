@@ -29,7 +29,7 @@ Une bobine de Tesla est un transformateur résonant qui produit des arcs électr
 
 Le signal d'excitation de la bobine est modulé par un signal audio (MIDI ou analogique), de sorte que la fréquence des arcs corresponde aux notes souhaitées.
 
-## Matériel typique
+## Matériel suggéré
 
 - Bobine de Tesla à semi-conducteurs (SSTC ou DRSSTC)
 - Circuit de commande (driver) avec entrée de modulation audio
