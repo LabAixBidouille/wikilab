@@ -100,10 +100,10 @@ L'objectif est de rendre une idée absurde **crédible**. Les groupes analysent 
 **Exemples de visuels publicitaires et de prototype** générés pendant nos séances !
 
 <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem', margin: '1rem 0', alignItems: 'start'}}>
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/ChatGPT%20Image%2029%20avr.%202026%2C%2015_12_15.png" alt="Visuel publicitaire Groupe 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/ChatGPT Image 29 avr. 2026, 15_12_15.png" alt="Visuel publicitaire Groupe 1" style={{width: '100%', height: 'auto', margin: 0}} />
   <div style={{display: 'flex', flexDirection: 'column', gap: '0.75rem'}}>
-    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/ChatGPT%20Image%2029%20avr.%202026%2C%2015_11_58.png" alt="Visuel publicitaire Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
-    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/prototypage.png" alt="Prototype Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
+    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/ChatGPT Image 29 avr. 2026, 15_11_58.png" alt="Visuel publicitaire Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
+    <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/prototypage.png" alt="Prototype Groupe 2" style={{width: '100%', height: 'auto', margin: 0}} />
   </div>
 </div>
 
@@ -126,28 +126,28 @@ Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, le
 #### Groupe 1
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/1.png" alt="Groupe 1 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/2.png" alt="Groupe 1 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/3.png" alt="Groupe 1 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/1.png" alt="Groupe 1 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/2.png" alt="Groupe 1 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/3.png" alt="Groupe 1 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
   <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/4.png" alt="Groupe 1 - slide 4" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/5.png" alt="Groupe 1 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/6.png" alt="Groupe 1 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/7.png" alt="Groupe 1 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/8.png" alt="Groupe 1 - slide 8" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/9.png" alt="Groupe 1 - slide 9" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%201/10.png" alt="Groupe 1 - slide 10" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/5.png" alt="Groupe 1 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/6.png" alt="Groupe 1 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/7.png" alt="Groupe 1 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/8.png" alt="Groupe 1 - slide 8" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/9.png" alt="Groupe 1 - slide 9" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-1/10.png" alt="Groupe 1 - slide 10" style={{width: '100%', height: 'auto', margin: 0}} />
 </div>
 
 #### Groupe 2
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/1.png" alt="Groupe 2 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/2.png" alt="Groupe 2 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/3.png" alt="Groupe 2 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/1.png" alt="Groupe 2 - slide 1" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/2.png" alt="Groupe 2 - slide 2" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/3.png" alt="Groupe 2 - slide 3" style={{width: '100%', height: 'auto', margin: 0}} />
   <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/4.png" alt="Groupe 2 - slide 4" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/5.png" alt="Groupe 2 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/6.png" alt="Groupe 2 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
-  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/Copie%20de%20L%27invention%20stupide%20-%20Groupe%202/7.png" alt="Groupe 2 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/5.png" alt="Groupe 2 - slide 5" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/6.png" alt="Groupe 2 - slide 6" style={{width: '100%', height: 'auto', margin: 0}} />
+  <img src="/img/ressources/youth-ai-lab/pire-invention/exemplevraierealisation/copie-de-l-invention-stupide-groupe-2/7.png" alt="Groupe 2 - slide 7" style={{width: '100%', height: 'auto', margin: 0}} />
 </div>
 
 ---

@@ -451,8 +451,8 @@ Les finitions déterminent l'aspect final et la durabilité de votre borne. Plus
 ### Phase d'idéation
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem'}}>
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Untitled_(5).png" alt="Idéation - croquis 1" style={{maxWidth: '320px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Untitled_(6).png" alt="Idéation - croquis 2" style={{maxWidth: '320px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/version-realisee-p-untitled-5.png" alt="Idéation - croquis 1" style={{maxWidth: '320px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/version-realisee-p-untitled-6.png" alt="Idéation - croquis 2" style={{maxWidth: '320px'}} />
 </div>
 
 ### Phase de prototypage

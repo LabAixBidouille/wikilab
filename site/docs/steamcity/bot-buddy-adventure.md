@@ -303,14 +303,14 @@ Après avoir ajouté l'extension, ils peuvent trouver des blocs liés au GPS dan
 4. Connecter les blocs **« position actuelle »** appropriés de l'extension Capteurs de Téléphone à chaque valeur de variable. Sélectionner **« latitude »** pour la première variable et **« longitude »** pour la seconde. Quand ces blocs s'exécutent, ils captureront les lectures de capteurs et les stockeront dans la mémoire de votre programme.
 5. Cliquer sur le drapeau vert dans le panneau de test pour vérifier que vos variables stockent avec succès l'information.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Cliquer%20sur%20le%20drapeau%20vert%20dans%20le%20panneau%20de%20test%20pour%20v%C3%A9rifier%20que%20vos%20variables%20stockent%20avec%20succ%C3%A8s%0Al%27information..png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/cliquer-sur-le-drapeau-vert-dans-le-panneau-de-test-pour-ver.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 
 Ce programme fonctionnera soit sur l'ordinateur en utilisant la localisation de la machine, soit via un appareil mobile grâce à l'extension Capteurs de Téléphone.
 
 #### Implémenter et tester la reconnaissance vocale
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Impl%C3%A9menter%20et%20tester%20la%20reconnaissance%0Avocale.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/implementer-et-tester-la-reconnaissance-vocale.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 En s'appuyant sur le programme créé, les élèves devront implémenter la seconde fonctionnalité pour la reconnaissance vocale. Sur le même éditeur, les élèves doivent retourner au bouton « Extensions » à la fin de la barre d'outils et chercher « Speech to Text » dans la bibliothèque d'extensions pour l'ajouter au projet.
 
@@ -411,11 +411,11 @@ La variable **« Prompt_Location »** devrait permettre de transformer les varia
 
 Dans le même bloc d'événement **« Quand le bouton est cliqué »** où ils récupèrent les coordonnées GPS, les élèves doivent ajouter un bloc **« mettre [LocationPrompt] à [valeur] »** qui sera utilisé pour définir la structure du prompt.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Dans%20le%20m%C3%AAme%20bloc%20d%27%C3%A9v%C3%A9nement%20%C2%AB%20Quand%20le%20bouton%20est%20cliqu%C3%A9%20%C2%BB.png" alt="Code" style={{maxWidth: '60%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/dans-le-meme-bloc-d-evenement-quand-le-bouton-est-clique.png" alt="Code" style={{maxWidth: '60%', height: 'auto'}} />
 
 Ils doivent ensuite définir dans la zone [valeur], la structure du prompt.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Ils%20doivent%20ensuite%20d%C3%A9finir%20dans%20la%20zone%20%5Bvaleur.png" alt="Code" style={{maxWidth: '60%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/ils-doivent-ensuite-definir-dans-la-zone-valeur.png" alt="Code" style={{maxWidth: '60%', height: 'auto'}} />
 
 Commencez par demander aux élèves comment ils formuleraient naturellement leur demande en proposant des prompts à voix haute. Cela peut être par exemple « Dites-moi quelle ville se trouve à cette latitude et longitude ». Une fois qu'ils ont plusieurs idées, testons-les dans le programme.
 
@@ -458,7 +458,7 @@ Les élèves doivent maintenant affiner leur prompt pour demander seulement l'in
 
 En testant et affinant leur prompt, les élèves apprennent un principe important de l'ingénierie des prompts : être spécifique à la fois sur l'information demandée et le format de réponse désiré. Ce processus itératif démontre comment les prompts peuvent être optimisés pour produire précisément l'information nécessaire, enseignant aux élèves que l'interaction efficace avec l'IA nécessite souvent plusieurs raffinements pour atteindre les résultats souhaités.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/%C3%AAtre%20sp%C3%A9cifique%20%C3%A0%20la%20fois%20sur%0Al%27information%20demand%C3%A9e%20et%20le%20format%20de%20r%C3%A9ponse%0Ad%C3%A9sir%C3%A9.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/etre-specifique-a-la-fois-sur-l-information-demandee-et-le-f.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 
 #### Comprendre les limites de l'IA dans l'identification de localisation
@@ -556,7 +556,7 @@ Une fois cela fait, les élèves doivent configurer les paramètres vocaux pour 
 
 - **« choisir la voix [valeur] »** : Ce bloc vous permet de sélectionner différentes options de voix pour la sortie de synthèse vocale. Différentes voix peuvent varier en genre, âge ou caractéristiques d'accent
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/%20choisir%20la%20voix%20%5Bvaleur%5D.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/choisir-la-voix-valeur.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
 
 
 #### Concevoir des flux de conversation avec des prompts
