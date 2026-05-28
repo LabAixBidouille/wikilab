@@ -54,7 +54,7 @@ Contraintes de conception :
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
   <img src="/img/ressources/projets-du-lab/IMG_7650.JPG" alt="Mélangeur imprimé en 3D, vue 1" style={{width: '100%', aspectRatio: '1 / 1', objectFit: 'cover', borderRadius: '8px'}} />
-  <img src="/img/ressources/projets-du-lab/IMG_7649.JPG" alt="Mélangeur imprimé en 3D, vue 2" style={{width: '100%', aspectRatio: '1 / 1', objectFit: 'cover', borderRadius: '8px'}} />
+  <img src="/img/ressources/projets-du-lab/IMG_7649.JPG" alt="Mélangeur imprimé en 3D, vue 2" style={{width: '100%', aspectRatio: '1 / 1', objectFit: 'cover', objectPosition: 'center bottom', borderRadius: '8px'}} />
   <img src="/img/ressources/projets-du-lab/IMG_7651.JPG" alt="Mélangeur imprimé en 3D, vue 3" style={{width: '100%', aspectRatio: '1 / 1', objectFit: 'cover', borderRadius: '8px'}} />
   <img src="/img/ressources/projets-du-lab/IMG_7652.JPG" alt="Mélangeur imprimé en 3D, vue 4" style={{width: '100%', aspectRatio: '1 / 1', objectFit: 'cover', borderRadius: '8px'}} />
 </div>
