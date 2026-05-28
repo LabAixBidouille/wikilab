@@ -28,7 +28,7 @@ sidebar_position: 14
 - Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
-<img src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/icone.png" alt="Minuteur électronique sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/i14-minuteur-electronique/icone.svg" alt="Minuteur électronique sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>
 
 ---

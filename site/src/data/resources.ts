@@ -4068,7 +4068,7 @@ export const resources: Resource[] = [
       'bouton',
       'booléen',
     ],
-    thumbnail: '/img/ressources/inovmicro-exao/i12-alarme-mouvement/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/i12-alarme-mouvement/icone.svg',
   },
   {
     id: 'i13-servomoteur',
@@ -4123,7 +4123,7 @@ export const resources: Resource[] = [
       'temporisation',
       'boucle non bloquante',
     ],
-    thumbnail: '/img/ressources/inovmicro-exao/i14-minuteur-electronique/icone.png',
+    thumbnail: '/img/ressources/inovmicro-exao/i14-minuteur-electronique/icone.svg',
   },
   {
     id: 'i15-collecter-donnees',

@@ -32,7 +32,7 @@ sidebar_position: 12
 
 </div>
 
-<img src="/img/ressources/inovmicro-exao/i12-alarme-mouvement/icone.png" alt="Alarme de mouvement" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/inovmicro-exao/i12-alarme-mouvement/icone.svg" alt="Alarme de mouvement" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
