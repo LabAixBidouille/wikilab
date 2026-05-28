@@ -31,6 +31,12 @@ sidebar_position: 13
 - **1 mini-servomoteur** type SG-90 (le « tower pro » bleu et blanc à environ 3 €, présent dans tous les kits Arduino débutants)
 - **Câbles de connexion** (le servo est livré avec un connecteur 3 broches femelle, à brancher sur la STeaMi via le connecteur Edge ou les pads crocodile)
 
+</div>
+
+<img src="/img/ressources/inovmicro-exao/i13-servomoteur/icone.png" alt="Servomoteur SG-90" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
+
 :::caution[Alimentation du servomoteur]
 Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les **3,3 V** que fournit la STeaMi, un SG-90 fonctionne **à vide** sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une **alimentation externe 5 V** (pile 4×AA, alim secteur, powerbank...). Le câblage devient alors :
 
@@ -38,12 +44,6 @@ Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charg
 - **GND du servo** (fil noir), **GND de l'alim externe** et **GND de la STeaMi** : **les trois reliés entre eux** (typiquement sur la même bande GND de la breadboard). Cette **masse commune est impérative** : sans elle, le signal PWM envoyé par la STeaMi n'a pas de référence électrique commune avec le servo, et le servo ne réagit pas (ou se met à vibrer).
 - **Signal du servo** (fil orange/jaune) → broche **P7** de la STeaMi, comme dans le câblage principal.
 :::
-
-</div>
-
-<img src="/img/ressources/inovmicro-exao/i13-servomoteur/icone.png" alt="Servomoteur SG-90" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
 
 ---
 
