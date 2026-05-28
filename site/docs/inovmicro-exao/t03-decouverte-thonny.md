@@ -27,6 +27,7 @@ sidebar_position: 3
 - 1 ordinateur sous Windows, macOS ou Linux
 - [Thonny](https://thonny.org/) installé (version 4.x ou supérieure)
 - Le programme MicroPython STeaMi `.hex` ([dernière release](https://github.com/steamicc/micropython-steami-lib/releases))
+
 <PdfLink href="/pdf/inovmicro-exao/STeaMi_Thonny.pdf">Télécharger en PDF</PdfLink>
 
 </div>
