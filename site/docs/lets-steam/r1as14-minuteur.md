@@ -1,7 +1,7 @@
 ---
 id: r1as14-minuteur
-title: Minuteur à œufs électronique
-sidebar_label: "Minuteur à œufs électronique"
+title: Fabriquer un minuteur à œufs électronique
+sidebar_label: "Fabriquer un minuteur à œufs électronique"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Minuteur à œufs électronique
+# Fabriquer un minuteur à œufs électronique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

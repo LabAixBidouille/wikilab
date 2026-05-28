@@ -1,7 +1,7 @@
 ---
 id: r1as06-morse
-title: Messages en code Morse
-sidebar_label: "Messages en code Morse"
+title: Envoyer des messages en code Morse
+sidebar_label: "Envoyer des messages en code Morse"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Messages en code Morse
+# Envoyer des messages en code Morse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

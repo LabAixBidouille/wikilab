@@ -1,7 +1,7 @@
 ---
 id: r1as12-detecteur-mouvement
-title: Alarme de mouvement
-sidebar_label: "Alarme de mouvement"
+title: Créer une alarme de mouvement
+sidebar_label: "Créer une alarme de mouvement"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Alarme de mouvement
+# Créer une alarme de mouvement
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

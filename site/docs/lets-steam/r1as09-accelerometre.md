@@ -1,7 +1,7 @@
 ---
 id: r1as09-accelerometre
-title: Inclinaison avec accéléromètre
-sidebar_label: "Inclinaison avec accéléromètre"
+title: Mesurer l'inclinaison avec l'accéléromètre
+sidebar_label: "Mesurer l'inclinaison avec l'accéléromètre"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Inclinaison avec accéléromètre
+# Mesurer l'inclinaison avec l'accéléromètre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
