@@ -1,7 +1,7 @@
 ---
 id: cartographie-sensible
-title: Cartographie sensible du quartier
-sidebar_label: "Cartographie sensible du quartier"
+title: Cartographier son quartier de façon sensible
+sidebar_label: "Cartographier son quartier de façon sensible"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Cartographie sensible du quartier
+# Cartographier son quartier de façon sensible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

@@ -1,7 +1,7 @@
 ---
 id: mini-projet-2-capteurs
-title: Robot autonome à capteurs
-sidebar_label: "Robot autonome à capteurs"
+title: Construire un robot autonome à capteurs
+sidebar_label: "Construire un robot autonome à capteurs"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Robot autonome à capteurs
+# Construire un robot autonome à capteurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

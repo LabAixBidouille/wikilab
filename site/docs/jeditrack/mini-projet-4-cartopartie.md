@@ -1,7 +1,7 @@
 ---
 id: mini-projet-4-cartopartie
-title: Cartopartie intergénérationnelle
-sidebar_label: "Cartopartie intergénérationnelle"
+title: Organiser une cartopartie intergénérationnelle
+sidebar_label: "Organiser une cartopartie intergénérationnelle"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Cartopartie intergénérationnelle
+# Organiser une cartopartie intergénérationnelle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Education civique</span>

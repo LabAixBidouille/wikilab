@@ -1,7 +1,7 @@
 ---
 id: creer-cartes-umap
-title: Cartes collaboratives uMap
-sidebar_label: "Cartes collaboratives uMap"
+title: Créer des cartes collaboratives avec uMap
+sidebar_label: "Créer des cartes collaboratives avec uMap"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Cartes collaboratives uMap
+# Créer des cartes collaboratives avec uMap
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

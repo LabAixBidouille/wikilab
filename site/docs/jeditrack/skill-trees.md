@@ -1,7 +1,7 @@
 ---
 id: skill-trees
-title: Skill Trees du maker
-sidebar_label: "Skill Trees du maker"
+title: Utiliser vos premiers « Maker Skill Trees »
+sidebar_label: "Utiliser vos premiers « Maker Skill Trees »"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Skill Trees du maker
+# Utiliser vos premiers « Maker Skill Trees »
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

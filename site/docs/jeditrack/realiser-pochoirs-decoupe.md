@@ -1,7 +1,7 @@
 ---
 id: realiser-pochoirs-decoupe
-title: Pochoirs en découpe vinyle
-sidebar_label: "Pochoirs en découpe vinyle"
+title: Réaliser des pochoirs en découpe vinyle
+sidebar_label: "Réaliser des pochoirs en découpe vinyle"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Pochoirs en découpe vinyle
+# Réaliser des pochoirs en découpe vinyle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>
