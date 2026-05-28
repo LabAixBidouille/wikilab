@@ -20,7 +20,7 @@ Les ressources présentes dans le wiki sont produites selon plusieurs approches 
 - **Open source et libre** : tous les contenus, outils et logiciels sont diffusés sous licences ouvertes pour favoriser la réutilisation et l'adaptation
 
 <div class="wikilab-gallery">
-  <img src="/img/photos/ressources/Image collée.png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/Image-collee.png" alt="Ressource pédagogique" />
   <img src="/img/photos/ressources/image-collee-2.png" alt="Ressource pédagogique" />
   <img src="/img/photos/ressources/image-collee-3.png" alt="Ressource pédagogique" />
   <img src="/img/photos/ressources/image-collee-4.png" alt="Ressource pédagogique" />
@@ -45,7 +45,7 @@ Notre espace est ouvert à tous : on y trouve des imprimantes 3D, une découpe l
 C'est cet ancrage dans la fabrication et la médiation scientifique qui nous a amenés à concevoir des ressources pédagogiques. Depuis 2019, le L.A.B coordonne et contribue à des projets éducatifs et makers, locaux, nationaux et internationaux, dans lesquels nous développons des activités STEAM testées en classe et librement réutilisables.
 
 <div class="wikilab-gallery">
-  <img src="/img/photos/ateliers/Image collée.png" alt="Atelier" />
+  <img src="/img/photos/ateliers/Image-collee.png" alt="Atelier" />
   <img src="/img/photos/ateliers/image-collee-2.png" alt="Atelier" />
   <img src="/img/photos/ateliers/image-collee-3.png" alt="Atelier" />
   <img src="/img/photos/ateliers/image-collee-4.png" alt="Atelier" />

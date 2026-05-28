@@ -79,7 +79,7 @@ Ce protocole initie les élèves au développement d'un agent conversationnel au
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/bot-buddy-adventure/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/bot-buddy-adventure/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -425,7 +425,7 @@ Pour combiner texte et variables en un prompt complet, les élèves auront besoi
 
 Cela nécessite trois blocs « regrouper [valeur] [valeur] » imbriqués ensemble. Cette structure d'imbrication est nécessaire car les blocs de jointure ne peuvent combiner que deux éléments à la fois. En les imbriquant, nous pouvons construire une phrase complète qui incorpore plusieurs variables et segments de texte :
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Cela%20n%C3%A9cessite%20trois%20blocs%20%C2%AB%20regrouper%20%5Bvaleur%5D%20%5Bvaleur%5D%20%C2%BB%20imbriqu%C3%A9s%20ensemble..png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Cela-necessite-trois-blocs-regrouper-valeur-valeur-imbriques-ensemble..png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 - **Premier bloc de jointure** : Valeur 1 : Le texte « Dis-moi quelle ville se trouve à la latitude » (notez l'espace à la fin) / Valeur 2 : Le deuxième bloc de jointure
 - **Deuxième bloc de jointure** : Valeur 1 : La variable « Latitude » / Valeur 2 : Le troisième bloc de jointure
@@ -445,15 +445,15 @@ Laissez les élèves tester leur prompt. Ils doivent d'abord créer un nouveau b
 
 Faites cliquer les élèves sur le drapeau vert pour tester leur programme.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Faites%20cliquer%20les%20%C3%A9l%C3%A8ves%20sur%20le%20drapeau%20vert%20pour%20tester%20leur%20programme.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Faites-cliquer-les-eleves-sur-le-drapeau-vert-pour-tester-leur-programme.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
 
 Ils observeront que l'IA fournit typiquement des réponses verbeuses comme « La ville située à la latitude 48,8566 et longitude 2,3522 est Paris, France. Paris est la capitale et la ville la plus peuplée de France. » Cette verbosité, bien qu'informative, peut ne pas être idéale pour leur agent conversationnel qui a besoin juste du nom de ville comme composant pour les prompts suivants.
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/%20nom%20de%20ville%20comme%20composant%20pour%20les%20prompts%20suivant.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/nom-de-ville-comme-composant-pour-les-prompts-suivant.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 Les élèves doivent maintenant affiner leur prompt pour demander seulement l'information spécifique nécessaire. Ils peuvent modifier Prompt_Location pour être plus précis : « Dis-moi en un mot quelle ville se trouve à la latitude [variable Latitude] et longitude [variable Longitude] ».
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Lavariable%20Longitude%20.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Lavariable-Longitude.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 
 En testant et affinant leur prompt, les élèves apprennent un principe important de l'ingénierie des prompts : être spécifique à la fois sur l'information demandée et le format de réponse désiré. Ce processus itératif démontre comment les prompts peuvent être optimisés pour produire précisément l'information nécessaire, enseignant aux élèves que l'interaction efficace avec l'IA nécessite souvent plusieurs raffinements pour atteindre les résultats souhaités.
@@ -546,13 +546,13 @@ Les élèves vont mettre en place la structure de base de leur assistant activé
 
 Pour implémenter cela dans CodeSkool, les élèves doivent s'assurer que les extensions « Text to speech » et « Synthèse vocale » sont ajoutées au projet. Dans les blocs « Synthèse vocale », ils peuvent sélectionner le bloc déclencheur « Quand j'entends [valeur] » pour activer l'agent conversationnel. Ainsi, chaque fois que le drapeau vert sera cliqué, grâce au bloc « Écouter et attendre » ajouté au début du protocole, l'agent conversationnel réagira automatiquement s'il entend la phrase déclencheur (dans l'exemple « Bonjour Buddy »).
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Text%20to%20speech%20%C2%BB%20et%20%C2%AB%20Synth%C3%A8se%20vocale.png" alt="Code" style={{maxWidth: '50%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/Text-to-speech-et-Synthese-vocale.png" alt="Code" style={{maxWidth: '50%', height: 'auto'}} />
 
 Une fois cela fait, les élèves doivent configurer les paramètres vocaux pour l'agent conversationnel. Optimiser les paramètres vocaux est essentiel pour une communication naturelle et efficace. Les bons réglages pour la vitesse et le type de voix impactent significativement la façon dont les utilisateurs comprennent et interagissent avec l'agent conversationnel. Ainsi, deux blocs doivent être utilisés pour définir ces paramètres disponibles directement dans la section « Text to Speech », dans la catégorie réglages :
 
 - **« set playback speed to [valeur] »** : Ce bloc contrôle à quelle vitesse la voix synthétique parle. La valeur va typiquement de 0 (très lent) à 2 (très rapide), avec 1 étant la vitesse normale
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/set%20playback%20speed%20to%20%5Bvaleur%5D.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/set-playback-speed-to-valeur.png" alt="Code" style={{maxWidth: '70%', height: 'auto'}} />
 
 - **« choisir la voix [valeur] »** : Ce bloc vous permet de sélectionner différentes options de voix pour la sortie de synthèse vocale. Différentes voix peuvent varier en genre, âge ou caractéristiques d'accent
 
@@ -568,7 +568,7 @@ Exemple - Bonjour Buddy ! Créer des variables pour stocker différents prompts 
 - **Proposer des activités à proximité** : nous avons créé la variable **« Prompt_Activity »** en utilisant 3 blocs de jointure comme : « Considérant que ma localisation actuelle est [variable Location], je veux [speech] »
 - **Fournir des informations historiques sur la ville actuelle** : nous avons créé la variable **« Prompt_History »** en utilisant 2 blocs de jointure comme : « Considérant que ma localisation actuelle est [variable Location], raconte-moi un peu l'histoire de la ville »
 
-<img src="/img/ressources/steamcity/bot-buddy-adventure/code/raconte-moi%20un%20peu%20l%27histoire%20de%20la%20ville.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/bot-buddy-adventure/code/raconte-moi-un-peu-l-histoire-de-la-ville.png" alt="Code" style={{maxWidth: '100%', height: 'auto'}} />
 
 
 #### Implémenter un arbre de dialogue simple qui répond aux entrées vocales

@@ -63,7 +63,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 2. **Phase 2 : Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/smart-object-safari/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/smart-object-safari/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

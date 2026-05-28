@@ -93,13 +93,13 @@ Les différentes solutions de génie civil et de transport urbain ont un impact 
 
 Les enfants lancent le "dé de la localisation" qui détermine le lieu de la ville qu'ils devraient développer (sous l'eau, sous terre, dans les airs, dans une forêt). Ils créent avec les adultes un paysage urbain en trois dimensions.
 
-<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/d%C3%A9localisation.png" alt="Dé de localisation" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/delocalisation.png" alt="Dé de localisation" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Phase 2
 
 Les enfants lancent les "dés de l'action" qui détermineront un domaine de projet à explorer : nouvelles professions, nouveaux aliments, transports, bâtiments, sources d'énergie, etc.
 
-<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/d%C3%A9actions.png" alt="Dé des actions" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/deactions.png" alt="Dé des actions" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Phase 3 (additionnel) - Musiques de votre ville
 

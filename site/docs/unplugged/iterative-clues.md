@@ -82,7 +82,7 @@ Mélangez le paquet de cartes concepts et placez-le au centre des joueurs. Dispo
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
   <img src="/img/ressources/unplugged/iterative-clues/Printables.png" alt="Cartes concepts imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged/iterative-clues/Printables%20(2).png" alt="Points et pièces imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/iterative-clues/Printables-2.png" alt="Points et pièces imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---

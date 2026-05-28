@@ -84,12 +84,12 @@ Mélangez le paquet de cartes situations et placez-le au centre des joueurs. Don
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
   <img src="/img/ressources/unplugged/likadislike/Printables.png" alt="Cartes de situations imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged/likadislike/Printables%20(2).png" alt="Cartes de réaction imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables-2.png" alt="Cartes de réaction imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1rem', marginBottom: '1rem'}}>
-  <img src="/img/ressources/unplugged/likadislike/Printables%20(3).png" alt="Cartes de groupe imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/unplugged/likadislike/Printables%20(4).png" alt="Cartes supplémentaires imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables-3.png" alt="Cartes de groupe imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/unplugged/likadislike/Printables-4.png" alt="Cartes supplémentaires imprimables" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 ---

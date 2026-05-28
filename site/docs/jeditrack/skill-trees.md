@@ -62,8 +62,8 @@ Certains arbres ciblent spécifiquement les jeunes avec "Kids STEAM Skills" adap
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '1rem 0'}}>
   <img src="/img/ressources/jeditrack/skill-trees/civics-community-skill-tree.png" alt="Civics & Community Skill Tree" style={{flex: 1, minWidth: '200px'}} />
-  <img src="/img/ressources/jeditrack/skill-trees/Cooking%20Skill%20Tree.png" alt="Cooking Skill Tree" style={{flex: 1, minWidth: '200px'}} />
-  <img src="/img/ressources/jeditrack/skill-trees/Gardening%20Skill%20Tree.png" alt="Gardening Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/Cooking-Skill-Tree.png" alt="Cooking Skill Tree" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/jeditrack/skill-trees/Gardening-Skill-Tree.png" alt="Gardening Skill Tree" style={{flex: 1, minWidth: '200px'}} />
 </div>
 
 ## Pourquoi les Skill Trees fonctionnent-ils si bien ?

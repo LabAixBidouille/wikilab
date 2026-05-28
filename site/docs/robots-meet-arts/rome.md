@@ -229,7 +229,7 @@ Ta classe sociale dépendait principalement de la famille dans laquelle tu naiss
 
 </div>
 
-<img src="/img/ressources/robots-meet-arts/rome/ficheactivit%C3%A9.png" alt="Fiche activité - Organise tes idées" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+<img src="/img/ressources/robots-meet-arts/rome/ficheactivite.png" alt="Fiche activité - Organise tes idées" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
 
 </div>
 

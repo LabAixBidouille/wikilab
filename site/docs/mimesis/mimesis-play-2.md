@@ -263,7 +263,7 @@ Cartes fournies : Albert Einstein ; Michael Faraday ; Isaac Newton ; Marie Curie
 
 <div style={{display: 'flex', gap: '1.5rem', flexWrap: 'wrap', marginTop: '1.5rem', marginBottom: '1.5rem'}}>
   <img src="/img/ressources/mimesis/mimesis-play-2/exemplecartesscientifiquecelebre.png" alt="Exemple de cartes scientifiques célèbres" style={{maxWidth: '45%', minWidth: '250px'}} />
-  <img src="/img/ressources/mimesis/mimesis-play-2/exempleficheidentité.png" alt="Exemple de fiche d'identité" style={{maxWidth: '45%', minWidth: '250px'}} />
+  <img src="/img/ressources/mimesis/mimesis-play-2/exempleficheidentite.png" alt="Exemple de fiche d'identité" style={{maxWidth: '45%', minWidth: '250px'}} />
 </div>
 
 :::tip[Ressources imprimables]

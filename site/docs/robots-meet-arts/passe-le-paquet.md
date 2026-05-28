@@ -151,7 +151,7 @@ Cette situation reflète une véritable congestion du réseau. La **congestion d
 Vous pouvez éventuellement ajouter un dernier tour où les élèves, à l'exception de ceux qui livrent et reçoivent le paquet, ont les yeux bandés. Revenez à la configuration initiale avec une seule balle passée et bandez les yeux de tous les élèves sauf ceux de l'expéditeur et du destinataire.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/%C3%A0laveugle.png" alt="Dernier tour - à l'aveugle" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/robots-meet-arts/passe-le-paquet/alaveugle.png" alt="Dernier tour - à l'aveugle" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Dernier tour - à l'aveugle</figcaption>
 </figure>
 

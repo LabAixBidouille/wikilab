@@ -90,7 +90,7 @@ Les **photorésistances** (alias LDR, cellule photoélectrique, ou cellule photo
 
 </div>
 <div style={{flex: '0 0 300px'}}>
-<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/ldr_step1%20(1).png" alt="Schéma de câblage" style={{width: '100%', borderRadius: '8px'}} />
+<img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/ldr_step1-1.png" alt="Schéma de câblage" style={{width: '100%', borderRadius: '8px'}} />
 </div>
 </div>
 
@@ -122,7 +122,7 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 Dans l'éditeur MakeCode, cliquez sur le bouton "Show console Simulator" sur le côté gauche, en dessous de la représentation de la carte. Le terminal montre alors les valeurs de lumière lues périodiquement par le programme. Ces valeurs peuvent être exportées sous forme de fichier CSV en cliquant sur le bouton "Export data" dans le coin supérieur droit de la console.
 
-![Console MakeCode](/img/ressources/lets-steam/r1as04-capteur-lumiere/lumière.png)
+![Console MakeCode](/img/ressources/lets-steam/r1as04-capteur-lumiere/lumiere.png)
 
 ### 7. Exécuter, modifier, jouer
 
@@ -135,7 +135,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
 
-![Programme en blocs](/img/ressources/lets-steam/r1as04-capteur-lumiere/lets-steam-screenshot%20(3).png)
+![Programme en blocs](/img/ressources/lets-steam/r1as04-capteur-lumiere/lets-steam-screenshot-3.png)
 
 </div>
 <div style={{flex: '1', minWidth: '280px'}}>

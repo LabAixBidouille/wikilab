@@ -218,8 +218,8 @@ Ces idées sont des inspirations, concevez votre plan de continuation et de valo
 
 <figure style={{margin: '1rem 0'}}>
   <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
-    <img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/TemplateFicheRel%C3%A8ve%20-%201.png" alt="Template fiche relève" style={{flex: 1, minWidth: '200px'}} />
-    <img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/TemplateVadeMecumAccessibilit%C3%A9%20-%201.png" alt="Template vade-mecum accessibilité" style={{flex: 1, minWidth: '200px'}} />
+    <img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/TemplateFicheReleve-1.png" alt="Template fiche relève" style={{flex: 1, minWidth: '200px'}} />
+    <img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/TemplateVadeMecumAccessibilite-1.png" alt="Template vade-mecum accessibilité" style={{flex: 1, minWidth: '200px'}} />
   </div>
   <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de matériel préparé pour une cartopartie sur le thème de l'accessibilité</figcaption>
 </figure>

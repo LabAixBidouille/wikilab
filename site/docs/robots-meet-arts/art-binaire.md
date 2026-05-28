@@ -89,7 +89,7 @@ sidebar_position: 1
 - Cadenas E : 4127
 - Cadenas F : 9133
 
-<img src="/img/ressources/robots-meet-arts/art-binaire/codeded%C3%A9part.png" alt="Code de départ" style={{width: '50%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/art-binaire/codededepart.png" alt="Code de départ" style={{width: '50%', height: 'auto'}} />
 
 ---
 

@@ -133,7 +133,7 @@ Présentez la bibliothèque de matériaux. Expliquez que les élèves vont crée
 
 L'objectif est de réaliser les 4 expressions faciales avec les mêmes matériaux. Cette vidéo peut servir d'inspiration supplémentaire : https://vimeo.com/508166355/87a701bc4c
 
-<img src="/img/ressources/robots-meet-arts/octostudio-visages/exempler%C3%A9alisationvisage.png" alt="Exemple de réalisation de visage" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/octostudio-visages/exemplerealisationvisage.png" alt="Exemple de réalisation de visage" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Créer une émotion spécifique
 
@@ -197,9 +197,9 @@ Distribuez les cartes défis avec le pseudocode. Laissez les élèves trouver le
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem'}}>
-    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempled%C3%A9fi.png" alt="Exemple défi" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempler%C3%A9solution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempler%C3%A9solution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempledefi.png" alt="Exemple défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempleresolution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-visages/exempleresolution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
   </div>
   <figcaption style={{margin: 0}}>Exemple de défis et résolutions</figcaption>
 </figure>

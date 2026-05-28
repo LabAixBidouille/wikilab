@@ -127,7 +127,7 @@ L'enseignant·e joue le rôle du soleil et se place au milieu de la cour/du parc
 | Uranus | 50 |
 | Neptune | 78 |
 
-<img src="/img/ressources/mimesis/mimesis-play-1/Échelle du système solaire.png" alt="Échelle du système solaire" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/mimesis/mimesis-play-1/Echelle-du-systeme-solaire.png" alt="Échelle du système solaire" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
 :::info[Remarque]
 

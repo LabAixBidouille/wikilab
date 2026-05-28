@@ -62,7 +62,7 @@ Les rythmes circadiens sont notre horloge biologique interne qui contrôle les c
 **Phase 3 : Analyse, interprétation et conclusion.** Cette dernière phase permet de conclure le protocole en permettant aux élèves de synthétiser et donner du sens à leurs recherches sur le sommeil. Durant cette phase, ils développent des compétences en analyse statistique et visualisation de données scientifiques, en combinant les données des capteurs environnementaux avec les journaux de bord. Les élèves apprennent à identifier les corrélations entre les variables environnementales urbaines et la qualité du sommeil, tout en développant leur esprit critique sur les biais potentiels et les limites de l'étude. Cette phase finale permet non seulement de vérifier leurs hypothèses initiales sur l'impact des pollutions urbaines sur le sommeil, mais aussi de proposer des solutions concrètes basées sur des preuves empiriques. C'est une opportunité d'apprentissage complète qui renforce leurs compétences en communication scientifique et leur compréhension de la façon dont la recherche peut informer les politiques de santé publique.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/zzz/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/zzz/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

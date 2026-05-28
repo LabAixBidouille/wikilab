@@ -95,7 +95,7 @@ forever(function() {
 </div>
 
 <figure style={{flex: '0 0 280px', maxWidth: '280px', margin: 0, textAlign: 'center', alignSelf: 'flex-start'}}>
-  <img src="/img/ressources/steamcity/programmation-whisper-walls/%C3%A9cran.png" alt="Écran LCD I2C avec mesure d'intensité sonore" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/programmation-whisper-walls/ecran.png" alt="Écran LCD I2C avec mesure d'intensité sonore" style={{width: '100%', height: 'auto'}} />
   <figcaption style={{margin: 0}}>Écran LCD affichant l'intensité sonore mesurée</figcaption>
 </figure>
 

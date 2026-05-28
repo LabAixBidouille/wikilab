@@ -146,7 +146,7 @@ Commencez la séance dans la cour ou le gymnase par un rappel de l'objectif : cr
 
 Divisez la classe en deux groupes et distribuez à chaque groupe un jeu de cartes Scratch identique. Expliquez que les deux groupes vont travailler en parallèle et s'échanger leurs créations devenant à tour de rôle programmeur et exécutant.
 
-<img src="/img/ressources/robots-meet-arts/mode-danse/blocscratchsutilis%C3%A9s%20base.png" alt="Blocs Scratch utilisés (base)" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/mode-danse/blocscratchsutilises-base.png" alt="Blocs Scratch utilisés (base)" style={{maxWidth: '100%', height: 'auto'}} />
 
 Chaque groupe utilise les cartes qui lui ont été données pour programmer une chorégraphie. Laissez-les découvrir par eux-mêmes les principes de construction d'une séquence logique, sans trop les guider initialement. Cette approche par découverte leur permettra de comprendre par l'expérience l'importance d'une structure cohérente.
 

@@ -69,7 +69,7 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 - **Phase 4 : Explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, cette dernière phase incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/trees-vs-cars/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/trees-vs-cars/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -120,7 +120,7 @@ Pour créer un arbre optimal, il faut essayer de trouver l'arbre ayant les branc
 L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où les nombres sont classés par ordre (arbre déséquilibré). En revanche, l'arbre le plus efficace est complètement équilibré, c'est-à-dire que toutes les branches de l'arbre ont la même longueur (plus ou moins 1).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/trees-vs-cars/arbres%C3%A9quilibr%C3%A9setd%C3%A9s%C3%A9quilibr%C3%A9s.png" alt="Arbres équilibrés et déséquilibrés" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/trees-vs-cars/arbresequilibresetdesequilibres.png" alt="Arbres équilibrés et déséquilibrés" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Comparaison entre un arbre déséquilibré et un arbre équilibré</figcaption>
 </figure>
 
@@ -240,7 +240,7 @@ Pour les guider, les élèves disposeront du tableau suivant, qui peut être pla
 4. **Choisir la condition optimale.** La condition de séparation optimale est celle correspondant à la ligne dont les cases sont cochées à la fois dans MIN ABSOLU ? et MAX ABSOLU ?.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/trees-vs-cars/exempletableau%20%C3%A9l%C3%A8ve.png" alt="Exemple de tableau rempli par les élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/trees-vs-cars/exempletableau-eleve.png" alt="Exemple de tableau rempli par les élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Exemple de tableau rempli par les élèves</figcaption>
 </figure>
 

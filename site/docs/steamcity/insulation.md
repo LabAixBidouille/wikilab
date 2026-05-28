@@ -68,7 +68,7 @@ L'expérimentation se déroule en quatre étapes progressives, permettant aux é
 4. **Phase 4 — cartographie collaborative des pertes de chaleur urbaines.** Les élèves élargissent leur démarche à l'échelle du quartier ou de la ville. Ils mènent une « marche thermique » équipée de caméras thermiques, afin de collecter des données sur les déperditions de chaleur de plusieurs bâtiments. Ces observations sont ensuite utilisées pour créer une carte collaborative des pertes thermiques urbaines. Cette étape replace leur travail dans un cadre collectif et citoyen, et conduit à proposer des pistes concrètes d'amélioration de l'efficacité énergétique à l'échelle de la communauté.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/insulation/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/insulation/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -904,7 +904,7 @@ Vous trouverez ci-dessous des exemples d'images thermiques réelles. Elles illus
 **Points froids dans une pièce :** Cette image thermique d'une pièce révèle des zones froides, autour de 15 °C, le long des angles du plafond, et des zones plus chaudes, proches de 19 °C, à proximité du mobilier. Cette répartition suggère un chauffage inégal, possiblement lié à une isolation partielle ou inefficace. Point clé : L'analyse de ces variations permet d'identifier les endroits où une isolation complémentaire ou une ventilation mieux répartie pourrait être envisagée.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/insulation/camera%20thermique.png" alt="Exemples d'images thermiques" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/insulation/camera-thermique.png" alt="Exemples d'images thermiques" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Exemples d'images thermiques : radiateur, fenêtres, ponts thermiques et points froids</figcaption>
 </figure>
 
