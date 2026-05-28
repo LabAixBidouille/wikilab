@@ -48,7 +48,6 @@ Refuser et expliquer la règle. Proposer le flux PR. Si l'humain insiste explici
 - **Docs (fiches)** : `site/docs/` (un sous-dossier par projet)
 - **Images** : `site/static/img/ressources/<projet>/<fiche-id>/` — un sous-dossier par fiche (`.gitkeep` pour celles en attente)
 - **PDFs** : **externalisés** dans le repo [`wikilab-assets`](https://github.com/LabAixBidouille/wikilab-assets), servis sur `https://assets.wikilab.labaixbidouille.com/pdf/<projet>/`. Les fiches les référencent via `<PdfLink href="/pdf/<projet>/<fichier>.pdf">…</PdfLink>` (le domaine est préfixé par le customField `assetsBaseUrl`, surchargeable via `ASSETS_BASE_URL`). Voir #203.
-- **Sources markdown brutes** : `markdown/` (originaux pré-conversion)
 
 ### Outillage qualité (racine)
 

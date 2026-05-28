@@ -4,8 +4,6 @@ site/.docusaurus
 site/node_modules
 site/docs
 site/machines
-markdown
-projets
 titles-backup.md
 analyse-categories.md
 demandes-photos.md

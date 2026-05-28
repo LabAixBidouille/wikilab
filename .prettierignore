@@ -8,8 +8,6 @@ site/static/google*.html
 site/docs
 site/machines
 site/**/*.js
-markdown
-projets
 *.min.js
 *.min.css
 package-lock.json
