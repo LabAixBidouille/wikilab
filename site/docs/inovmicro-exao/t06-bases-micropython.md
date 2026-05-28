@@ -1,13 +1,13 @@
 ---
 id: t06-bases-micropython
-title: "Bases du langage : Prise en main de MicroPython"
+title: "Découvrir les bases de MicroPython"
 sidebar_label: "Bases du langage"
 sidebar_position: 6
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Bases du langage : Prise en main de MicroPython
+# Découvrir les bases de MicroPython
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>

@@ -1,6 +1,6 @@
 ---
 id: t05-vittascience
-title: "Vittascience : Prise en main de MicroPython et blocs sur la STeaMi"
+title: "Prendre en main la STeaMi sur l'éditeur Vittascience"
 sidebar_label: "Vittascience"
 sidebar_position: 5
 ---
@@ -8,7 +8,7 @@ sidebar_position: 5
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# Vittascience : Prise en main de MicroPython et blocs sur la STeaMi
+# Prendre en main la STeaMi sur l'éditeur Vittascience
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

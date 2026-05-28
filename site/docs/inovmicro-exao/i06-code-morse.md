@@ -1,13 +1,13 @@
 ---
 id: i06-code-morse
-title: Envoyer des messages en code Morse avec la STeaMi
+title: Envoyer des messages en code Morse
 sidebar_label: "Code Morse"
 sidebar_position: 13
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Envoyer des messages en code Morse avec la STeaMi
+# Envoyer des messages en code Morse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

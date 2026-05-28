@@ -1,13 +1,13 @@
 ---
 id: i04-capteur-lumiere
-title: Capteur de lumière avec la STeaMi
-sidebar_label: "Capteur de lumière"
+title: Mesurer la lumière ambiante
+sidebar_label: "Mesurer la lumière"
 sidebar_position: 11
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Capteur de lumière avec la STeaMi
+# Mesurer la lumière ambiante
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
