@@ -39,13 +39,13 @@ Le **code Morse** est l'une des premières méthodes de télécommunication num�
 
 La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un **buzzer piézo** pour le signal sonore, et les **boutons A et B** pour saisir les points et les tirets.
 
-<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+<figure style={{textAlign: 'left', margin: '1rem 0'}}>
   <img
     src="/img/ressources/inovmicro-exao/i06-code-morse/01-morse-international.svg"
     alt="Tableau du code Morse international"
-    style={{maxWidth: '400px', height: 'auto'}}
+    style={{maxWidth: '400px', height: 'auto', marginLeft: 0, marginRight: 0}}
   />
-  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem', textAlign: 'left'}}>
     Le code Morse international : chaque lettre est une combinaison de points et de tirets.
   </figcaption>
 </figure>
