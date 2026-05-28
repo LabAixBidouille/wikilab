@@ -41,7 +41,7 @@ sidebar_position: 22
 
 :::
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_Qu%C3%AAteCurry.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_QueteCurry.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

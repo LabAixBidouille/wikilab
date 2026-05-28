@@ -28,7 +28,7 @@ sidebar_position: 23
 - Petits jetons ou figurines représentant des navires ou des explorateurs
 - Crayons et feuilles A4
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_D%C3%A9couverteHistoire_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_DecouverteHistoire_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

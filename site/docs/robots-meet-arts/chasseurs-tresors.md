@@ -48,7 +48,7 @@ sidebar_position: 3
 
 :::
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_ChasseursTr%C3%A9sors_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_ChasseursTresors_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

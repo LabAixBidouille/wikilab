@@ -1559,7 +1559,7 @@ export const resources: Resource[] = [
     formats: ['programmation', 'bricolage'],
     categories: ['robotique-ludique'],
     keywords: ['LEGO Spike', 'chasse au trésor', 'narration', 'théâtre', 'robot'],
-    pdf: '/pdf/robots-meet-arts/RMA_ChasseursTr%C3%A9sors_FR.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_ChasseursTresors_FR.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/chasseurs-tresors/icone.png',
   },
   {
@@ -1639,7 +1639,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['robotique-ludique', 'citoyennete-territoire'],
     keywords: ['histoire', 'explorateurs', 'itinéraire', 'algorithme', 'carte'],
-    pdf: '/pdf/robots-meet-arts/RMA_D%C3%A9couverteHistoire_FR.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_DecouverteHistoire_FR.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/decouverte-histoire/icone.png',
   },
   {
@@ -1739,7 +1739,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['robotique-ludique'],
     keywords: ['anglais', 'routine', 'grille', 'robot', 'grammaire'],
-    pdf: '/pdf/robots-meet-arts/RMA_Journ%C3%A9eRobin_FR.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_JourneeRobin_FR.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/journee-robin/icone.png',
   },
   {
@@ -1805,7 +1805,7 @@ export const resources: Resource[] = [
       'grille',
       'simulation',
     ],
-    pdf: '/pdf/robots-meet-arts/RMA_N%C3%A9_hier_FR.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_Ne_hier_FR.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/ne-hier/icone.png',
   },
   {
@@ -1905,7 +1905,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'bricolage'],
     categories: ['robotique-ludique'],
     keywords: ['algorigramme', 'jeu de société', 'narration', 'littérature', 'cuisine'],
-    pdf: '/pdf/robots-meet-arts/RMA_Qu%C3%AAteCurry.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_QueteCurry.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/quete-curry/icone.png',
   },
   {
@@ -1945,7 +1945,7 @@ export const resources: Resource[] = [
     formats: ['debranchee'],
     categories: ['robotique-ludique', 'citoyennete-territoire'],
     keywords: ['conflit', 'résolution', 'algorithme', 'vivre ensemble', 'empathie'],
-    pdf: '/pdf/robots-meet-arts/RMA_R%C3%A9solutionConflit_FR.pdf',
+    pdf: '/pdf/robots-meet-arts/RMA_ResolutionConflit_FR.pdf',
     thumbnail: '/img/ressources/robots-meet-arts/resolution-conflit/icone.png',
   },
   {

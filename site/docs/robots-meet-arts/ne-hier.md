@@ -40,7 +40,7 @@ sidebar_position: 28
 
 :::
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_N%C3%A9_hier_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_Ne_hier_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

@@ -42,7 +42,7 @@ sidebar_position: 26
 
 :::
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_Journ%C3%A9eRobin_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_JourneeRobin_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

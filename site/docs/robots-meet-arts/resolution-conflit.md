@@ -40,7 +40,7 @@ sidebar_position: 20
 
 :::
 
-<PdfLink href="/pdf/robots-meet-arts/RMA_R%C3%A9solutionConflit_FR.pdf">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/robots-meet-arts/RMA_ResolutionConflit_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 
