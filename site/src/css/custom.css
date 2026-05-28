@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
 
 :root {
   /* Primaire — Bleu */
@@ -20,9 +20,9 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Nunito', system-ui, -apple-system, sans-serif;
-  --ifm-heading-font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Space Grotesk', 'Nunito', system-ui, -apple-system, sans-serif;
   --ifm-font-weight-bold: 700;
-  --ifm-heading-font-weight: 800;
+  --ifm-heading-font-weight: 700;
   --ifm-border-radius: 10px;
   --ifm-navbar-background-color: #ffffff;
   --ifm-footer-background-color: #1e2a3a;
