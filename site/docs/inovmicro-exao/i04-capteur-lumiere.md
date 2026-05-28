@@ -66,7 +66,7 @@ Le capteur **APDS-9960** est soudé sur la face avant de la STeaMi, près de l'�
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
-    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/01-emplacement-capteur.jpeg"
+    src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/01-emplacement-capteur.png"
     alt="Emplacement du capteur APDS-9960 sur la face avant de la STeaMi"
     style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
