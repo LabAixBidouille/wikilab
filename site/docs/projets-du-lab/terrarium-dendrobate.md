@@ -23,6 +23,8 @@ Les dendrobates vivent à une température comprise entre 24 et 26 °C le jour (
 
 </div>
 
+## Introduction
+
 Un éclairage dont le spectre contient des UVB n'est pas indispensable (contrairement aux reptiles), mais il favorise la croissance des grenouilles et des plantes. Le cycle jour/nuit peut être de 12/12 heures, mais il est possible de le moduler par rapport à la durée du jour (jusqu'à 10/14 h). Les changements importants et les manipulations sont source de stress chez les animaux et doivent donc être évités.
 
 Les dendrobates ont besoin d'un abreuvoir. Les points d'eau doivent être peu profonds (moins de 2 cm) afin qu'elles ne se noient pas. Pour augmenter l'humidité, il est possible de créer une cascade ou un petit bassin avec une pompe pour faire circuler l'eau. Afin d'éviter les proliférations bactériennes et fongiques, il ne faut pas laisser d'eau stagnante. Il est recommandé d'utiliser de l'eau en bouteille avec une composition minérale adaptée, ou de l'eau filtrée pour éliminer le calcaire, les bactéries et les résidus de chlore.
@@ -41,13 +43,9 @@ Le système de régulation s'appuie sur l'architecture matérielle et logicielle
 
 Cette architecture repose sur le protocole MQTT. Ce protocole fonctionne selon un principe de souscription. Chaque acteur souhaitant être notifié d'un événement (appelé « récepteur » par la suite) doit s'abonner aux sujets qui l'intéressent. Régulièrement, les capteurs publient des données en les associant à des sujets particuliers. Ces capteurs, qui poussent les données sur ces sujets, sont appelés « émetteurs ». Dans MQTT, il existe un troisième type d'acteur nommé « broker ». Son rôle est de récupérer les données des émetteurs et de notifier tous les récepteurs qui souhaitent les recevoir.
 
-_Illustration du principe Publish/Subscribe (Source Wikipedia)_
-
 ### Régulation de la température
 
 La régulation repose sur un capteur de température et un câble chauffant. Le capteur, branché sur l'Arduino, relève la valeur de température puis la publie sur un sujet MQTT auquel l'Arduino actionneur approprié est abonné. L'émetteur MQTT est donc l'Arduino capteur, et le récepteur est l'actionneur.
-
-_Câble chauffant dans un terrarium_
 
 Le câble chauffant est un actionneur de type « tout ou rien » : il doit donc être piloté par l'intermédiaire d'un relais. Un relais est un composant qui permet de laisser passer le courant ou non grâce à une simple impulsion électrique. Pour simplifier la mise en œuvre, il est possible d'utiliser un shield[1] relais avec l'Arduino actionneur. Le câble chauffant est placé dans le socle du terrarium.
 
@@ -58,8 +56,6 @@ En cas de température trop élevée, un récepteur connecté à une ventilation
 De la même manière que pour la température, la régulation de l'humidité s'appuie sur un capteur dédié et un actionneur. Dans le système proposé, il existe deux façons d'augmenter l'humidité : soit en utilisant un brumisateur à ultrasons pour une augmentation rapide, soit en activant la cascade pour une augmentation plus progressive.
 
 Comme le câble chauffant, le brumisateur et la pompe fonctionnent comme des actionneurs de type « tout ou rien ». Ils sont donc eux aussi pilotés par l'intermédiaire de relais. Pour disperser la brume produite par le brumisateur à ultrasons, celui-ci est couplé à une ventilation mécanique de faible intensité (type ventilateur d'ordinateur).
-
-_Essai du Fogger_
 
 Comme pour la température, la ventilation mécanique ne peut pas être utilisée si l'atmosphère extérieure est trop humide.
 
@@ -87,27 +83,19 @@ La structure du terrarium se compose de plusieurs éléments :
 
 - L'armoire technique
 
-_Schéma de principe de l'aménagement du terrarium_
-
 ### Le socle
 
 Le socle du terrarium peut être constitué d'un double fond. Cette méthode n'a pas été utilisée pour le prototype et ne sera pas détaillée ici. Le socle créé pour le prototype est un assemblage de plaques de polystyrène recouvertes de mousse expansive, découpée selon les formes souhaitées, puis enduites de colle à carrelage. Le tout est ensuite recouvert de peinture acrylique marron mat, puis de vernis approprié (type Elastopur). L'ensemble est enfin recouvert de 3 à 6 cm de substrat imputrescible (par exemple : fibre de coco, sphaigne). Il est recommandé de prévoir des emplacements pour les plantes. Si ceux-ci sont sur le côté ou dans la mousse, les trous doivent disposer d'un conduit d'évacuation pour l'eau excédentaire.
 
 Le terrarium doit comporter des éléments d'aménagement tels que des supports de plantes, des morceaux de bois imputrescibles et des cachettes. Les dendrobates étant territoriales, plusieurs cachettes sont nécessaires. Les plantes elles-mêmes peuvent servir de cachettes si elles sont suffisamment touffues. Un pot découpé verticalement peut également faire l'affaire.
 
-_Fabrication du socle_
-
 ### La réserve d'eau
 
 Le bac à eau du prototype est intégré à l'intérieur du terrarium : un espace réservé a été découpé dans un coin et recouvert d'un morceau de polystyrène amovible afin de permettre l'accès à la pompe. Il faut veiller à ce que le niveau de la réserve reste suffisant.
 
-_Système de filtration du réservoir d'eau_
-
 ### Le circuit d'eau
 
 Il est possible de construire une cascade ou d'aménager un ruisseau. L'eau doit s'écouler vers le réservoir (ou vers le fond s'il y a un double fond), où elle est filtrée et pompée vers le haut du circuit. Il faut veiller à ce que des poches d'eau stagnante ne se forment pas. Dans le prototype, l'eau remonte directement au-dessus du bac à eau et se déverse dans un bassin en hauteur.
-
-_Fabrication de la cascade_
 
 ### La galerie
 
@@ -169,8 +157,6 @@ Ce protocole nécessite plusieurs sous-systèmes :
 
 - Des récepteurs pour les actionneurs et l'affichage (une carte Arduino + shield Ethernet + actionneur ou afficheur).
 
-_Schéma de principe de l'architecture du système_
-
 Le code des émetteurs et des récepteurs se trouve sur GitHub : [InternetOfFrogs](https://github.com/carole-laitong/InternetOfFrogs)
 
 L'interconnexion logicielle se fait grâce au logiciel Node-RED, qu'il faut installer sur le Raspberry Pi.
@@ -184,8 +170,6 @@ Ce projet est encore à l'état de prototype, mais depuis fin août 2015, il hé
 ![Grenouilles sur le prototype](/img/ressources/projets-du-lab/Grenouilles_on_proto.jpg)
 
 ## Liens
-
-- Projet DomoDuLAB
 
 - [Site du projet Internet Of Frogs (archive.org 2016-03)](https://web.archive.org/web/20160318213229/http://www.internet-of-frogs.com/)
 
