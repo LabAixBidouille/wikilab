@@ -459,10 +459,6 @@ Cette formule permet d'estimer la plage dans laquelle la vraie corrélation de l
 
 Par exemple, avec les données de notre étude où r = 0,99 et n = 7 (pour les 7 jours de la semaine), l'intervalle de confiance serait approximativement \[0,96 ; 1,00\]. On peut donc être confiant à 95 % que la vraie corrélation entre le niveau de bruit et les interruptions de sommeil se situe entre 0,96 et 1,00, indiquant une corrélation très forte à presque parfaite.
 
-:::tip[**Formule mathématique complète disponible dans le PDF.**]
-- Écriture détaillée de la formule de l'intervalle de confiance à 95 %
-:::
-
 #### Visualisation des données
 
 Pour représenter visuellement les résultats de l'étude, les élèves utiliseront des outils simples et accessibles. Ils créeront des graphiques à l'aide de logiciels comme Excel ou Google Sheets, qui offrent des fonctionnalités de base pour générer des diagrammes en barres, des graphiques linéaires et des nuages de points. Ces outils permettront aux élèves de produire facilement des représentations visuelles claires de leurs données, telles que l'évolution du niveau de bruit au fil du temps ou la relation entre le bruit et les interruptions de sommeil. Pour des visualisations plus spécifiques, ils pourront également utiliser des applications en ligne gratuites comme Canva, qui proposent des modèles préconçus pour créer des infographies attrayantes. Ces approches simplifiées permettront aux élèves de se concentrer sur l'interprétation des données plutôt que sur la maîtrise d'outils complexes. Ils pourront par exemple créer des graphiques de dispersion, des diagrammes en boîte et des graphiques linéaires pour visualiser les relations entre les variables et leur évolution temporelle.
