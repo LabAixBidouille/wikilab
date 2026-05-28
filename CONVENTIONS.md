@@ -26,9 +26,9 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 ## Header (en-tête de fiche)
 
 - Flex layout : titre + badges + tableau + matériel + PDF + callout à gauche, icône 225px à droite
-- Titre H1 avec icône SVG flat design inline (couleur du projet, opacités 0.1/0.25/1.0)
+- Titre H1 **sans icône inline** : juste `# Titre` (les anciennes icônes SVG flat design devant le titre ont été retirées — ne pas en remettre). L'illustration du header reste l'icône 225px à droite.
 - Badges : disciplines (primary), outils (info), logiciels (warning/secondary)
-- Tableau : colonnes égales, en-tête fond `#09246C` + texte blanc (sera adapté par projet, [TODO ouvert](https://github.com/LabAixBidouille/wikilab/issues))
+- Tableau : colonnes égales, en-tête fond unifié `#1d2a54` + texte blanc (même couleur pour tous les projets)
 - Bouton PDF rose (`#e83e8c`) si PDF disponible
 - Callout `:::tip[**Ressources imprimables incluses dans le PDF.**]` avec liste si applicable
 
@@ -685,4 +685,4 @@ La fiche [Thonny : prise en main de MicroPython](site/docs/inovmicro-exao/t03-de
 | I-Novmicro #2    | `#8a6e18`          |
 | Projets du LAB   | (variable)         |
 
-À utiliser pour : icône SVG inline du header (avec opacités 0.1/0.25/1.0), code couleur de l'entrée projet dans [`site/src/data/projects.ts`](site/src/data/projects.ts).
+À utiliser pour : le code couleur de l'entrée projet dans [`site/src/data/projects.ts`](site/src/data/projects.ts) (hero de la page projet, etc.). Note : les titres de fiches n'ont plus d'icône SVG inline colorée (retirées) — la couleur du projet ne sert donc plus à cet usage.

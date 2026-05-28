@@ -21,11 +21,11 @@ Les ressources présentes dans le wiki sont produites selon plusieurs approches 
 
 <div class="wikilab-gallery">
   <img src="/img/photos/ressources/Image collée.png" alt="Ressource pédagogique" />
-  <img src="/img/photos/ressources/Image collée (2).png" alt="Ressource pédagogique" />
-  <img src="/img/photos/ressources/Image collée (3).png" alt="Ressource pédagogique" />
-  <img src="/img/photos/ressources/Image collée (4).png" alt="Ressource pédagogique" />
-  <img src="/img/photos/ressources/Image collée (5).png" alt="Ressource pédagogique" />
-  <img src="/img/photos/ressources/Image collée (6).png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/image-collee-2.png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/image-collee-3.png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/image-collee-4.png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/image-collee-5.png" alt="Ressource pédagogique" />
+  <img src="/img/photos/ressources/image-collee-6.png" alt="Ressource pédagogique" />
 </div>
 
 ## Qui sommes-nous ?
@@ -46,11 +46,11 @@ C'est cet ancrage dans la fabrication et la médiation scientifique qui nous a a
 
 <div class="wikilab-gallery">
   <img src="/img/photos/ateliers/Image collée.png" alt="Atelier" />
-  <img src="/img/photos/ateliers/Image collée (2).png" alt="Atelier" />
-  <img src="/img/photos/ateliers/Image collée (3).png" alt="Atelier" />
-  <img src="/img/photos/ateliers/Image collée (4).png" alt="Atelier" />
-  <img src="/img/photos/ateliers/Image collée (5).png" alt="Atelier" />
-  <img src="/img/photos/ateliers/Image collée (6).png" alt="Atelier" />
+  <img src="/img/photos/ateliers/image-collee-2.png" alt="Atelier" />
+  <img src="/img/photos/ateliers/image-collee-3.png" alt="Atelier" />
+  <img src="/img/photos/ateliers/image-collee-4.png" alt="Atelier" />
+  <img src="/img/photos/ateliers/image-collee-5.png" alt="Atelier" />
+  <img src="/img/photos/ateliers/image-collee-6.png" alt="Atelier" />
 </div>
 
 **Nos valeurs : Bidouiller. Collaborer. Partager.**

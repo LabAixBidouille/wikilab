@@ -9,7 +9,7 @@ sidebar_position: 24
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#0081A7" opacity="0.1"/><path d="M7 14 C7 14, 8 12, 10 13 C11 13.5, 11 14, 12 14 C13 14, 13 13.5, 14 13 C16 12, 17 14, 17 14" stroke="#0081A7" strokeWidth="1.2" fill="none" opacity="0.25"/><path d="M8 10 C8 9, 9 8, 10 8 C11 8, 11 9, 11 9" stroke="#0081A7" strokeWidth="1.5" fill="none"/><path d="M13 9 C13 9, 13 8, 14 8 C15 8, 16 9, 16 10" stroke="#0081A7" strokeWidth="1.5" fill="none"/><path d="M9 16 C9 16, 10 18, 12 18 C14 18, 15 16, 15 16" stroke="#0081A7" strokeWidth="1.5" fill="none"/><circle cx="6" cy="7" r="1" fill="#0081A7" opacity="0.25"/><circle cx="18" cy="7" r="1" fill="#0081A7" opacity="0.25"/><path d="M5 8 L7 7" stroke="#0081A7" strokeWidth="0.8" opacity="0.25"/><path d="M19 8 L17 7" stroke="#0081A7" strokeWidth="0.8" opacity="0.25"/></svg> Vivre en harmonie
+# Vivre en harmonie
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

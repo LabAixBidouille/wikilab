@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><rect x="4" y="4" width="16" height="16" rx="1" fill="#0081A7" opacity="0.25"/><line x1="4" y1="9.3" x2="20" y2="9.3" stroke="#0081A7" strokeWidth="0.8"/><line x1="4" y1="14.6" x2="20" y2="14.6" stroke="#0081A7" strokeWidth="0.8"/><line x1="9.3" y1="4" x2="9.3" y2="20" stroke="#0081A7" strokeWidth="0.8"/><line x1="14.6" y1="4" x2="14.6" y2="20" stroke="#0081A7" strokeWidth="0.8"/><circle cx="12" cy="12" r="3.5" fill="none" stroke="#0081A7" strokeWidth="1.5"/><line x1="12" y1="8.5" x2="12" y2="15.5" stroke="#0081A7" strokeWidth="1.2"/><line x1="8.8" y1="13" x2="12" y2="15.5" stroke="#0081A7" strokeWidth="1.2"/><line x1="15.2" y1="13" x2="12" y2="15.5" stroke="#0081A7" strokeWidth="1.2"/></svg> Grille magique de la paix
+# Grille magique de la paix
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><ellipse cx="12" cy="14" rx="9" ry="3" fill="#0081A7" opacity="0.1" stroke="#0081A7" strokeWidth="1.2"/><path d="M5 14 C5 14, 5 8, 12 8 C19 8, 19 14, 19 14" fill="none" stroke="#0081A7" strokeWidth="1.2"/><circle cx="10" cy="10" r="1.5" fill="#0081A7" opacity="0.25"/><circle cx="14" cy="9.5" r="1" fill="#0081A7" opacity="0.25"/><circle cx="12" cy="11.5" r="1.2" fill="#0081A7"/><path d="M8 17 L8 20" stroke="#0081A7" strokeWidth="1.5" strokeLinecap="round"/><path d="M16 17 L16 20" stroke="#0081A7" strokeWidth="1.5" strokeLinecap="round"/><path d="M12 17 L12 21" stroke="#0081A7" strokeWidth="1.5" strokeLinecap="round" opacity="0.25"/></svg> PotLuck March
+# PotLuck March
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

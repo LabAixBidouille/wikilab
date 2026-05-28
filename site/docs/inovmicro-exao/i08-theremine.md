@@ -7,7 +7,7 @@ sidebar_position: 8
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#8a6e18" opacity="0.1"/><rect x="6" y="3" width="12" height="3" rx="1.5" fill="#8a6e18" opacity="0.25"/><ellipse cx="8" cy="6.5" rx="1.2" ry="1" fill="#8a6e18" opacity="0.25"/><ellipse cx="11" cy="6.5" rx="1.2" ry="1" fill="#8a6e18" opacity="0.25"/><ellipse cx="14" cy="6.5" rx="1.2" ry="1" fill="#8a6e18" opacity="0.25"/><ellipse cx="16.5" cy="6.5" rx="1.2" ry="1" fill="#8a6e18" opacity="0.25"/><path d="M 9 12 Q 12 9 15 12" stroke="#8a6e18" strokeWidth="1.2" fill="none"/><path d="M 7 13 Q 12 8 17 13" stroke="#8a6e18" strokeWidth="1" fill="none" opacity="0.5"/><path d="M 5 14 Q 12 7 19 14" stroke="#8a6e18" strokeWidth="0.8" fill="none" opacity="0.25"/><line x1="12" y1="13" x2="12" y2="20" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><rect x="9" y="20" width="6" height="2" rx="0.5" fill="#8a6e18" opacity="0.5"/></svg> Fabriquer un thérémine
+# Fabriquer un thérémine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

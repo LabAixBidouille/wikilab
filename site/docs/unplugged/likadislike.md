@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#0081A7" opacity="0.1"/><path d="M7 13 C7 9, 11 6, 12 6 C13 6, 14 7, 14 8 C14 7, 15 6, 16 6 C17 6, 18 7, 18 9 C18 11, 12 15, 12 15 C12 15, 6 11, 7 9" fill="#0081A7" opacity="0.25" transform="translate(0,-2) scale(0.7) translate(4,4)"/><path d="M7 11 L7 7 C7 6, 8 5, 9 5 C10 5, 11 6, 11 7 L11 11" stroke="#0081A7" strokeWidth="1.2" fill="none"/><path d="M11 7 C11 6, 12 5, 13 5 C14 5, 15 6, 15 7 L15 10" stroke="#0081A7" strokeWidth="1.2" fill="none"/><rect x="6" y="11" width="10" height="6" rx="2" fill="#0081A7" opacity="0.1"/><path d="M8 14 L13 14" stroke="#0081A7" strokeWidth="1" opacity="0.25"/><path d="M6 11 L16 11 C17 11, 18 12, 18 13 L18 15 C18 17, 16 19, 14 19 L10 19 C8 19, 6 17, 6 15 Z" fill="none" stroke="#0081A7" strokeWidth="1.5"/></svg> Likadislike
+# Likadislike
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><rect x="3" y="10" width="5" height="10" fill="#0081A7" opacity="0.25"/><rect x="9.5" y="5" width="5" height="15" fill="#0081A7"/><rect x="16" y="8" width="5" height="12" fill="#0081A7" opacity="0.25"/><rect x="4" y="12" width="1.5" height="2" fill="white"/><rect x="4" y="16" width="1.5" height="2" fill="white"/><rect x="11" y="7" width="1.5" height="2" fill="white"/><rect x="11" y="11" width="1.5" height="2" fill="white"/><rect x="11" y="15" width="1.5" height="2" fill="white"/><rect x="17.5" y="10" width="1.5" height="2" fill="white"/><rect x="17.5" y="14" width="1.5" height="2" fill="white"/></svg> La ville parfaite
+# La ville parfaite
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

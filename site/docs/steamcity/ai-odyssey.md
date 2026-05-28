@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="9" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#DD5350" opacity="0.25"/><circle cx="12" cy="8" r="1.5" fill="#DD5350" opacity="1.0"/><circle cx="8.5" cy="14" r="1.5" fill="#DD5350" opacity="1.0"/><circle cx="15.5" cy="14" r="1.5" fill="#DD5350" opacity="1.0"/><line x1="12" y1="8" x2="8.5" y2="14" stroke="#DD5350" strokeWidth="1" opacity="1.0"/><line x1="12" y1="8" x2="15.5" y2="14" stroke="#DD5350" strokeWidth="1" opacity="1.0"/><line x1="8.5" y1="14" x2="15.5" y2="14" stroke="#DD5350" strokeWidth="1" opacity="1.0"/></svg> L'odyssée de l'IA
+# L'odyssée de l'IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

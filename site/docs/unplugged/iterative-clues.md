@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><circle cx="11" cy="10" r="6" fill="#0081A7" opacity="0.25"/><circle cx="11" cy="10" r="4" fill="none" stroke="#0081A7" strokeWidth="2"/><line x1="15.5" y1="14.5" x2="20" y2="19" stroke="#0081A7" strokeWidth="2.5" strokeLinecap="round"/></svg> Iterative clues
+# Iterative clues
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

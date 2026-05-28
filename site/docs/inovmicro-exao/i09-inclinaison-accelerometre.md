@@ -7,7 +7,7 @@ sidebar_position: 9
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="1" y="1" width="22" height="22" rx="3" fill="#8a6e18" opacity="0.1"/><g transform="rotate(-12 12 12)"><rect x="2.5" y="10" width="19" height="4" rx="0.8" fill="#8a6e18" opacity="0.25"/><rect x="2.5" y="10" width="19" height="4" rx="0.8" fill="none" stroke="#8a6e18" strokeWidth="1.2"/><line x1="8.5" y1="10.5" x2="8.5" y2="13.5" stroke="#8a6e18" strokeWidth="0.8" opacity="0.7"/><line x1="15.5" y1="10.5" x2="15.5" y2="13.5" stroke="#8a6e18" strokeWidth="0.8" opacity="0.7"/><ellipse cx="14.5" cy="12" rx="1.6" ry="0.95" fill="#8a6e18"/></g></svg> Inclinaison avec accéléromètre
+# Inclinaison avec accéléromètre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

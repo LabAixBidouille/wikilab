@@ -8,7 +8,7 @@ sidebar_position: 5
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#8a6e18" opacity="0.1"/><circle cx="12" cy="12" r="10" fill="none" stroke="#8a6e18" strokeWidth="1.5" opacity="1.0"/><circle cx="12" cy="12" r="3" fill="#8a6e18" opacity="0.25"/><line x1="12" y1="12" x2="7" y2="5" stroke="#8a6e18" strokeWidth="2" strokeLinecap="round" opacity="1.0"/><circle cx="12" cy="12" r="1" fill="#8a6e18" opacity="1.0"/><path d="M6 19.5a10 10 0 0 1-1.5-2" stroke="#8a6e18" strokeWidth="1" strokeLinecap="round" opacity="0.25"/><path d="M18 19.5a10 10 0 0 0 1.5-2" stroke="#8a6e18" strokeWidth="1" strokeLinecap="round" opacity="0.25"/></svg> Contrôler avec un potentiomètre
+# Contrôler avec un potentiomètre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

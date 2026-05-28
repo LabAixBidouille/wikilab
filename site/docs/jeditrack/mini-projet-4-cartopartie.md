@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="3" rx="2" ry="2" width="20" height="18" fill="#1198f0" opacity="0.1"/><path d="M2 3h20v18H2z" stroke="#1198f0" strokeWidth="1.2" fill="none" rx="2" opacity="0.25"/><path d="M6 8h4M6 11h3M14 8h4M14 11h3" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round" opacity="1.0"/><circle cx="8" cy="16" r="2" fill="#1198f0" opacity="0.25"/><circle cx="16" cy="16" r="2" fill="#1198f0" opacity="0.25"/><circle cx="8" cy="16" r="1" fill="#1198f0" opacity="1.0"/><circle cx="16" cy="16" r="1" fill="#1198f0" opacity="1.0"/><path d="M12 6v12M5 14l3-2 3 2M13 14l3-2 3 2" stroke="#1198f0" strokeWidth="0.8" strokeLinecap="round" opacity="0.25"/></svg> Cartopartie intergénérationnelle
+# Cartopartie intergénérationnelle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Education civique</span>

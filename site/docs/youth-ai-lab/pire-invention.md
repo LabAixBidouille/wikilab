@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#b34520" opacity="0.1"/><path d="M9 4 L15 4 L13 10 L13 14 L11 14 L11 10 Z" fill="#b34520" opacity="0.25"/><circle cx="12" cy="8" r="2" fill="#b34520" opacity="1.0"/><path d="M8 18 L16 18 L15 21 L9 21 Z" fill="#b34520" opacity="1.0"/><path d="M12 6 L12 8" stroke="#ffffff" strokeWidth="0.8" opacity="1.0"/></svg> La pire invention
+# La pire invention
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
