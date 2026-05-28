@@ -317,11 +317,21 @@ article > table:first-of-type {
 
 .wikilab-hero__title {
   font-family: var(--wikilab-brand-font);
-  font-size: 3.25rem !important;
+  font-size: 4.5rem !important;
   font-weight: 400 !important;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
   color: #fff;
   text-shadow: none;
+}
+
+.wikilab-hero__title::after {
+  content: '';
+  display: block;
+  width: 140px;
+  height: 2px;
+  margin: 1rem auto 0;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 .wikilab-hero__subtitle {
@@ -1049,10 +1059,15 @@ aside input[type='checkbox'] {
   height: 100%;
 }
 
+/* Espacement entre le logo et le nom du site (les liens gardent leur espacement par défaut) */
+.navbar__logo {
+  margin-right: 1.5rem;
+}
+
 .navbar__title {
-  font-family: var(--wikilab-brand-font);
-  font-weight: 400;
-  font-size: 1.6rem;
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 500;
+  font-size: 1.7rem;
 }
 
 .navbar__link {
