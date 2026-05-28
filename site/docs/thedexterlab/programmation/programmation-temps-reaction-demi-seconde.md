@@ -1,7 +1,7 @@
 ---
 id: programmation-temps-reaction-demi-seconde
-title: Temps de réaction STM32
-sidebar_label: "Temps de réaction STM32"
+title: Mesurer le temps de réaction (STM32)
+sidebar_label: "Mesurer le temps de réaction (STM32)"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Temps de réaction STM32
+# Mesurer le temps de réaction (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

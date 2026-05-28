@@ -1,7 +1,7 @@
 ---
 id: ocean-sale
-title: "Pourquoi l'océan est salé ?"
-sidebar_label: "Pourquoi l'océan est salé ?"
+title: "Comprendre pourquoi l'océan est salé"
+sidebar_label: "Comprendre pourquoi l'océan est salé"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Pourquoi l'océan est salé ?
+# Comprendre pourquoi l'océan est salé
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

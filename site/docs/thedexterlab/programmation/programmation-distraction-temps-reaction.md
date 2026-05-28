@@ -1,7 +1,7 @@
 ---
 id: programmation-distraction-temps-reaction
-title: Test de distraction STM32
-sidebar_label: "Test de distraction STM32"
+title: Mesurer la distraction (STM32)
+sidebar_label: "Mesurer la distraction (STM32)"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Test de distraction STM32
+# Mesurer la distraction (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

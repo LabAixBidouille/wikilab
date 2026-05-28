@@ -1,7 +1,7 @@
 ---
 id: panneau-solaire-journee
-title: Panneau solaire sur une journée
-sidebar_label: "Panneau solaire sur une journée"
+title: Étudier un panneau solaire sur une journée
+sidebar_label: "Étudier un panneau solaire sur une journée"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Panneau solaire sur une journée
+# Étudier un panneau solaire sur une journée
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

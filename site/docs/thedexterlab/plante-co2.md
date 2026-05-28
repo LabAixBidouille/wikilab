@@ -1,7 +1,7 @@
 ---
 id: plante-co2
-title: CO2 et photosynthèse
-sidebar_label: "CO2 et photosynthèse"
+title: Étudier le CO2 et la photosynthèse
+sidebar_label: "Étudier le CO2 et la photosynthèse"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# CO2 et photosynthèse
+# Étudier le CO2 et la photosynthèse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

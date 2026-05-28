@@ -1,7 +1,7 @@
 ---
 id: programmation-son-100-metres-seconde
-title: Mesure vitesse du son STM32
-sidebar_label: "Mesure vitesse du son STM32"
+title: Mesurer la vitesse du son (STM32)
+sidebar_label: "Mesurer la vitesse du son (STM32)"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Mesure vitesse du son STM32
+# Mesurer la vitesse du son (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

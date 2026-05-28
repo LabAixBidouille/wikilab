@@ -1,7 +1,7 @@
 ---
 id: lumiere-energie
-title: "L'énergie de la lumière"
-sidebar_label: "L'énergie de la lumière"
+title: "Étudier l'énergie de la lumière"
+sidebar_label: "Étudier l'énergie de la lumière"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# L'énergie de la lumière
+# Étudier l'énergie de la lumière
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

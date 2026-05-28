@@ -1,7 +1,7 @@
 ---
 id: beau-jardin-21-siecle
-title: "Arrosage automatique d'une plante"
-sidebar_label: "Arrosage automatique d'une plante"
+title: "Automatiser l'arrosage d'une plante"
+sidebar_label: "Automatiser l'arrosage d'une plante"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Arrosage automatique d'une plante
+# Automatiser l'arrosage d'une plante
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

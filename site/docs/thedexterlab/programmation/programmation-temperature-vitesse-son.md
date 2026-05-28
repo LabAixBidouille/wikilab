@@ -1,7 +1,7 @@
 ---
 id: programmation-temperature-vitesse-son
-title: Son et température STM32
-sidebar_label: "Son et température STM32"
+title: Étudier le son et la température (STM32)
+sidebar_label: "Étudier le son et la température (STM32)"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Son et température STM32
+# Étudier le son et la température (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

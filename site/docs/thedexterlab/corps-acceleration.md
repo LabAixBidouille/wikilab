@@ -1,7 +1,7 @@
 ---
 id: corps-acceleration
-title: Accélération du corps
-sidebar_label: "Accélération du corps"
+title: Mesurer l'accélération du corps
+sidebar_label: "Mesurer l'accélération du corps"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Accélération du corps
+# Mesurer l'accélération du corps
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

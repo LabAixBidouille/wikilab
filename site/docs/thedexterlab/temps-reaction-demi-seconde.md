@@ -1,7 +1,7 @@
 ---
 id: temps-reaction-demi-seconde
-title: Temps de réaction
-sidebar_label: "Temps de réaction"
+title: Mesurer le temps de réaction
+sidebar_label: "Mesurer le temps de réaction"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Temps de réaction
+# Mesurer le temps de réaction
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

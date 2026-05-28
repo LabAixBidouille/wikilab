@@ -1,7 +1,7 @@
 ---
 id: programmation-panneau-solaire-journee
-title: Suivi panneau solaire STM32
-sidebar_label: "Suivi panneau solaire STM32"
+title: Suivre un panneau solaire (STM32)
+sidebar_label: "Suivre un panneau solaire (STM32)"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Suivi panneau solaire STM32
+# Suivre un panneau solaire (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
