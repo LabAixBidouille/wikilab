@@ -22,12 +22,7 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 
 // Références cassées connues et tracées ailleurs, tolérées pour ne pas
 // bloquer la CI. Retirer une entrée dès que l'issue liée est résolue.
-const KNOWN_MISSING = new Set([
-  // cf. #205 — galerie « Exemple de Skill Tree » : images jamais fournies.
-  '/img/ressources/jeditrack/skill-trees/image.png',
-  '/img/ressources/jeditrack/skill-trees/image_1.png',
-  '/img/ressources/jeditrack/skill-trees/image_2.png',
-]);
+const KNOWN_MISSING = new Set([]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;
 // Capture le contenu COMPLET entre délimiteurs (tolère parenthèses, espaces,
