@@ -48,8 +48,7 @@ La porte fonctionne parfaitement.
 
 ## Photos
 
-<div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem', margin: '1rem 0', alignItems: 'start'}}>
-  <img src="/img/ressources/projets-du-lab/PorteFrigo.JPG" alt="Porte de frigo réparée" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0', alignItems: 'start'}}>
   <img src="/img/ressources/projets-du-lab/PorteFrigo.JPG" alt="Porte de frigo réparée" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
   <img src="/img/ressources/projets-du-lab/PiecesPorteFrigo.JPG" alt="Pièces imprimées en 3D" style={{width: '100%', height: 'auto', borderRadius: '8px'}} />
 </div>
