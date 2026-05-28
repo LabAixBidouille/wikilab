@@ -1,13 +1,13 @@
 ---
 id: t04-vscode
-title: "VS Code : Prise en main de MicroPython sur la STeaMi"
+title: "Prendre en main MicroPython avec VS Code"
 sidebar_label: "VS Code"
 sidebar_position: 4
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# VS Code : Prise en main de MicroPython sur la STeaMi
+# Prendre en main MicroPython avec VS Code
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>

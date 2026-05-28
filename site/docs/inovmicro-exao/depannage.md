@@ -1,13 +1,13 @@
 ---
 id: depannage
-title: Dépannage STeaMi
-sidebar_label: 'Dépannage'
+title: Dépanner la STeaMi
+sidebar_label: 'Dépanner'
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# Dépannage STeaMi
+# Dépanner la STeaMi
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

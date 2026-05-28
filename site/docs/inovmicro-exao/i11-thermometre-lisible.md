@@ -1,13 +1,13 @@
 ---
 id: i11-thermometre-lisible
-title: Thermomètre très lisible
-sidebar_label: "Thermomètre très lisible"
+title: Afficher un thermomètre très lisible
+sidebar_label: "Afficher un thermomètre très lisible"
 sidebar_position: 11
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Thermomètre très lisible
+# Afficher un thermomètre très lisible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

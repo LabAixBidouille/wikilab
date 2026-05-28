@@ -1,13 +1,13 @@
 ---
 id: t03-decouverte-thonny
-title: "Thonny : Prise en main de MicroPython sur la STeaMi"
+title: "Prendre en main MicroPython avec Thonny"
 sidebar_label: "Thonny"
 sidebar_position: 3
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Thonny : Prise en main de MicroPython sur la STeaMi
+# Prendre en main MicroPython avec Thonny
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>

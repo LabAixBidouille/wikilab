@@ -1,14 +1,14 @@
 ---
 id: i02-premier-circuit-breadboard
-title: Premier circuit sur breadboard
-sidebar_label: "Premier circuit sur breadboard"
+title: Construire un premier circuit sur breadboard
+sidebar_label: "Construire un premier circuit sur breadboard"
 sidebar_position: 2
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# Premier circuit sur breadboard
+# Construire un premier circuit sur breadboard
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

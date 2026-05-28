@@ -1,13 +1,13 @@
 ---
 id: i14-minuteur-electronique
-title: Minuteur électronique
-sidebar_label: "Minuteur électronique"
+title: Fabriquer un minuteur électronique
+sidebar_label: "Fabriquer un minuteur électronique"
 sidebar_position: 14
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Minuteur électronique
+# Fabriquer un minuteur électronique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
