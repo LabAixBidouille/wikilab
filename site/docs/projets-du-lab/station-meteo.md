@@ -1,7 +1,7 @@
 ---
 id: station-meteo
-title: Station météo DIY
-sidebar_label: "Station météo DIY"
+title: Construire une station météo DIY
+sidebar_label: "Construire une station météo DIY"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Station météo DIY
+# Construire une station météo DIY
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

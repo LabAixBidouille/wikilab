@@ -1,7 +1,7 @@
 ---
 id: bobine-tesla
-title: Bobine Tesla musicale
-sidebar_label: "Bobine Tesla musicale"
+title: Construire une bobine Tesla musicale
+sidebar_label: "Construire une bobine Tesla musicale"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Bobine Tesla musicale
+# Construire une bobine Tesla musicale
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

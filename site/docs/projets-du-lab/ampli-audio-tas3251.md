@@ -1,7 +1,7 @@
 ---
 id: ampli-audio-tas3251
-title: Ampli HiFi numérique
-sidebar_label: "Ampli HiFi numérique"
+title: Construire un ampli HiFi numérique
+sidebar_label: "Construire un ampli HiFi numérique"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Ampli HiFi numérique
+# Construire un ampli HiFi numérique
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

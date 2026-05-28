@@ -1,7 +1,7 @@
 ---
 id: musique-capteur-distance-laser
-title: Musique au capteur laser
-sidebar_label: "Musique au capteur laser"
+title: Créer de la musique grâce à un capteur laser
+sidebar_label: "Créer de la musique grâce à un capteur laser"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Musique au capteur laser
+# Créer de la musique grâce à un capteur laser
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

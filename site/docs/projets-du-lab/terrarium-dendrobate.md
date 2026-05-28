@@ -1,7 +1,7 @@
 ---
 id: terrarium-dendrobate
-title: Terrarium connecté
-sidebar_label: "Terrarium connecté"
+title: Fabriquer un terrarium connecté
+sidebar_label: "Fabriquer un terrarium connecté"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Terrarium connecté
+# Fabriquer un terrarium connecté
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

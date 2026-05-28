@@ -1,7 +1,7 @@
 ---
 id: random-shield
-title: Random Shield Arduino
-sidebar_label: "Random Shield Arduino"
+title: Fabriquer un Random Shield Arduino
+sidebar_label: "Fabriquer un Random Shield Arduino"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Random Shield Arduino
+# Fabriquer un Random Shield Arduino
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

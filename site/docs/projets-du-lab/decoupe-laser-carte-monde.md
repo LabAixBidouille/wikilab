@@ -1,7 +1,7 @@
 ---
 id: decoupe-laser-carte-monde
-title: Carte du monde en liège
-sidebar_label: "Carte du monde en liège"
+title: Découper une carte du monde en liège
+sidebar_label: "Découper une carte du monde en liège"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# Carte du monde en liège
+# Découper une carte du monde en liège
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

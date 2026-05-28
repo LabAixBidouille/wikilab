@@ -1,7 +1,7 @@
 ---
 id: poubelle-basket
-title: Poubelle basket
-sidebar_label: "Poubelle basket"
+title: Fabriquer une poubelle-basket
+sidebar_label: "Fabriquer une poubelle-basket"
 sidebar_position: 17
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# Poubelle basket
+# Fabriquer une poubelle-basket
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

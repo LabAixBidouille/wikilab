@@ -1,7 +1,7 @@
 ---
 id: harpe-laser
-title: Harpe laser MIDI
-sidebar_label: "Harpe laser MIDI"
+title: Construire une harpe laser MIDI
+sidebar_label: "Construire une harpe laser MIDI"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Harpe laser MIDI
+# Construire une harpe laser MIDI
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

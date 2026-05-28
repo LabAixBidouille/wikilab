@@ -1,7 +1,7 @@
 ---
 id: xylorobot
-title: XyloRobot musical
-sidebar_label: "XyloRobot musical"
+title: Construire un xylophone robotisé (XyloRobot)
+sidebar_label: "Construire un xylophone robotisé (XyloRobot)"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# XyloRobot musical
+# Construire un xylophone robotisé (XyloRobot)
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

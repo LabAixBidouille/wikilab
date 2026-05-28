@@ -1,7 +1,7 @@
 ---
 id: ericbot
-title: Robot ERICbot
-sidebar_label: "Robot ERICbot"
+title: Découvrir le robot ERICbot
+sidebar_label: "Découvrir le robot ERICbot"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Robot ERICbot
+# Découvrir le robot ERICbot
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

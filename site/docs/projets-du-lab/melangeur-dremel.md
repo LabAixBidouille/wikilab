@@ -1,7 +1,7 @@
 ---
 id: melangeur-dremel
-title: Mélangeur pour Dremel
-sidebar_label: "Mélangeur pour Dremel"
+title: Fabriquer un mélangeur pour Dremel
+sidebar_label: "Fabriquer un mélangeur pour Dremel"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# Mélangeur pour Dremel
+# Fabriquer un mélangeur pour Dremel
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

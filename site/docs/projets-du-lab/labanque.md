@@ -1,7 +1,7 @@
 ---
 id: labanque
-title: "LABanque : monnaie du fablab"
-sidebar_label: "LABanque : monnaie du fablab"
+title: Découvrir la monnaie du fablab (LABanque)
+sidebar_label: "Découvrir la monnaie du fablab (LABanque)"
 sidebar_position: 20
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# LABanque : Monnaie du fablab
+# Découvrir la monnaie du fablab (LABanque)
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |
