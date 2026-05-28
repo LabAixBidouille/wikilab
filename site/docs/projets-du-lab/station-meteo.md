@@ -31,9 +31,9 @@ Les différentes solutions et expérimentations sont présentées dans la rubriq
 
 ## Éléments du projet et expérimentations
 
-### Mesure de la température et du taux d'humidité avec une carte STM32 Nucleo 32
+## Mesure de la température et du taux d'humidité avec une carte STM32 Nucleo 32
 
-#### Description
+### Description
 
 Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22 branché sur une carte STM32 Nucleo 32 F303K8 (fonctionne également avec une carte STM32 Nucleo 64 L474RG), puis d'afficher les résultats sur un afficheur LCD Nokia 5110.
 
@@ -44,17 +44,17 @@ Liste du matériel :
 - Afficheur LCD Nokia 5110
 - Capteur DHT 22
 
-#### Schéma structurel
+### Schéma structurel
 
 ![Schéma structurel STM32 Nucleo 32 F303K8](/img/ressources/projets-du-lab/Schema_structurel_STM32_Nucleo_32_F303K8.PNG)
 
-#### Montage
+### Montage
 
 ![Composants STM32 DHT22](/img/ressources/projets-du-lab/STM32_DHT22_composants.jpg)
 
 ![Soudures STM32 Nucleo32 DHT](/img/ressources/projets-du-lab/STM32_Nucleo32_DHT_soudures.jpg)
 
-#### Programme
+### Programme
 
 Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte STM32 Nucleo 32 F303K8.
 
@@ -134,9 +134,9 @@ void loop() {
 
 ```
 
-### Mesure de la température et du taux d'humidité avec une carte Wemos D1 Mini
+## Mesure de la température et du taux d'humidité avec une carte Wemos D1 Mini
 
-#### Description
+### Description
 
 Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22, ainsi que la température extérieure grâce à un capteur OneWire DS18B20. Les capteurs sont branchés sur une carte Wemos D1 Mini (ESP 8266).
 
@@ -153,7 +153,7 @@ Liste du matériel :
 - Capteur OneWire DS18B20
 - LED RGB adressable
 
-#### Schéma structurel
+### Schéma structurel
 
 ![Schéma structurel D1 Mini](/img/ressources/projets-du-lab/Schema_structurel_D1mini.PNG)
 
@@ -161,11 +161,11 @@ Le régulateur LM7805 fournit l'alimentation 5 V nécessaire au fonctionnement d
 
 Le transistor NMOS 2N2700 adapte le signal de sortie (3,3 V) de la carte Wemos D1 Mini au 5 V requis par la LED RGB adressable.
 
-#### Montage
+### Montage
 
 ![Composants D1 Mini DHT22 OneWire](/img/ressources/projets-du-lab/D1mini_DHT22_OW_composants.jpg)
 
-#### Programme
+### Programme
 
 Le programme suivant doit être édité dans l'IDE Arduino, puis compilé et chargé dans la carte D1 Mini (ESP 8266).
 
