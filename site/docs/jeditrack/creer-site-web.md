@@ -1,7 +1,7 @@
 ---
 id: creer-site-web
-title: Site web avec GitHub Pages
-sidebar_label: "Site web avec GitHub Pages"
+title: Publier un site web avec GitHub Pages
+sidebar_label: "Publier un site web avec GitHub Pages"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Site web avec GitHub Pages
+# Publier un site web avec GitHub Pages
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

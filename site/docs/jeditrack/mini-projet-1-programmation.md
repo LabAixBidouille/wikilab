@@ -1,7 +1,7 @@
 ---
 id: mini-projet-1-programmation
-title: Atelier MakeCode Arcade
-sidebar_label: "Atelier MakeCode Arcade"
+title: S'initier à MakeCode Arcade
+sidebar_label: "S'initier à MakeCode Arcade"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Atelier MakeCode Arcade
+# S'initier à MakeCode Arcade
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

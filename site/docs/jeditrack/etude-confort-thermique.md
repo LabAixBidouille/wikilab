@@ -1,7 +1,7 @@
 ---
 id: etude-confort-thermique
-title: Confort thermique urbain
-sidebar_label: "Confort thermique urbain"
+title: Étudier le confort thermique urbain
+sidebar_label: "Étudier le confort thermique urbain"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Confort thermique urbain
+# Étudier le confort thermique urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

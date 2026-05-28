@@ -1,7 +1,7 @@
 ---
 id: station-qualite-air
-title: "Station qualité de l'air"
-sidebar_label: "Station qualité de l'air"
+title: "Construire une station qualité de l'air"
+sidebar_label: "Construire une station qualité de l'air"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Station qualité de l'air
+# Construire une station qualité de l'air
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>
