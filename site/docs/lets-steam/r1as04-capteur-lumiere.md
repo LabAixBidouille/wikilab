@@ -1,7 +1,7 @@
 ---
 id: r1as04-capteur-lumiere
-title: Capteur de lumière avec STM32
-sidebar_label: "Capteur de lumière avec STM32"
+title: Mesurer la lumière ambiante (STM32)
+sidebar_label: "Mesurer la lumière ambiante (STM32)"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Capteur de lumière avec STM32
+# Mesurer la lumière ambiante (STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
