@@ -559,7 +559,7 @@ Dans notre proposition, nous combinons ces approches pour permettre aux élèves
 
 L'enseignant commence par une séance d'introduction expliquant l'objectif de cette nouvelle phase : il s'agit d'un exercice de prospective qui vise à imaginer un futur alternatif où une forme d'énergie serait absente ou drastiquement limitée.
 
-:::note[FLASH INFO SPÉCIAL — Crise énergétique majeure]
+:::info[FLASH INFO SPÉCIAL — Crise énergétique majeure]
 Suite à un incident international majeur, le gouvernement vient d'annoncer des mesures d'urgence exceptionnelles. À partir de demain et pour une durée indéterminée, des restrictions sévères seront mises en place concernant une source d'énergie essentielle. Les experts préviennent : cette crise pourrait durer bien plus longtemps que prévu initialement. Les autorités appellent au calme et à la solidarité nationale face à cette situation sans précédent...
 :::
 

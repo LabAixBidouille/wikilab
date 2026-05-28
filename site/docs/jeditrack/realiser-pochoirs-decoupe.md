@@ -58,7 +58,7 @@ Cette richesse d'applications permet d'intégrer l'outil dans différents contex
 - **Reproductibilité et partage** : Une fois le fichier créé, le pochoir peut être reproduit à l'identique pour plusieurs participants ou réutilisé dans d'autres projets. Cette dimension collaborative enrichit les dynamiques de groupe.
 - **Apprentissage technique accessible** : L'utilisation de la découpeuse initie naturellement aux logiciels de dessin vectoriel, aux formats de fichiers, et aux principes de fabrication numérique, sans complexité excessive.
 
-:::note
+:::info
 
 La découpe vinyle s'intègre parfaitement dans les projets d'animation jeunesse pour **structurer les activités créatives, professionnaliser les réalisations et ouvrir de nouveaux horizons artistiques**. En animation, nous menons souvent des ateliers créatifs riches, mais nous manquons parfois d'outils qui permettent d'obtenir des **résultats précis, reproductibles et valorisants**.
 
@@ -103,7 +103,7 @@ La **Silhouette Cameo 4** ressort comme le choix optimal pour l'animation jeunes
 
 Ce qui rend l'adoption simple, c'est que vous partez de projets créatifs que vous menez déjà. Pas besoin de révolutionner vos ateliers - la découpe vinyle vient enrichir et préciser vos réalisations artistiques existantes.
 
-:::note[Approche "fablab partenaire" : utiliser un équipement externe]
+:::info[Approche "fablab partenaire" : utiliser un équipement externe]
 
 **Si vous hésitez encore à franchir le pas** - que ce soit par prudence budgétaire, par manque d'expérience technique, ou simplement parce que vous voulez explorer avant d'investir - les **fablabs** constituent la porte d'entrée parfaite vers la découpe vinyle et l'univers maker en général. Les fablabs représentent bien plus qu'un simple accès à l'équipement - ils constituent de véritables **écosystèmes d'innovation collaborative** où l'apprentissage se fait par l'expérimentation collective et l'entraide entre makers de tous niveaux.
 

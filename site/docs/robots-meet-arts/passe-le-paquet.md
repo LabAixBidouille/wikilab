@@ -248,7 +248,7 @@ L'objectif de chaque groupe sera de créer un algorithme de routage pour son mod
   <figcaption style={{margin: 0}}>Exemple de cartographie</figcaption>
 </figure>
 
-:::note[Préparation des cartes]
+:::info[Préparation des cartes]
 
 Pour créer les fonds de cartes, plusieurs outils de cartographie numérique sont disponibles.
 

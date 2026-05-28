@@ -90,7 +90,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 2. Glisser ce fichier sur le disque `STEAMI` qui apparaît à l'ordinateur.
 3. Attendre que la LED de statut arrête de clignoter et que la carte redémarre (5 à 15 secondes).
 
-:::warning[Attention au bon fichier]
+:::info[Attention au bon fichier]
 
 Le dépôt GitHub `micropython-steami-lib` propose aussi un fichier `steami-daplink-firmware-...hex` qui n'a rien à voir avec MicroPython (c'est le logiciel de l'interface de programmation, pas celui qui exécute vos programmes Python). Bien choisir celui dont le nom commence par `steami-micropython-firmware-`.
 

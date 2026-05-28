@@ -25,9 +25,11 @@ const PROJECT_ORDER: Project[] = [
 // (cf. champ `subtitle` dans projects.ts). Cela donne du contexte
 // d'entrée au lecteur quand il navigue d'un projet à l'autre.
 //
-// Tri intra-projet : (sidebarOrder ?? 0, slug). Une fiche avec
-// sidebarOrder élevé (ex. dépannage transverse) reste en bas
-// malgré son slug.
+// Tri intra-projet : on suit l'ordre du tableau `resources.ts`
+// (le même que la page /catalogue). Le tri par `sidebarOrder` seul
+// est stable, donc l'ordre source est préservé ; `sidebarOrder` ne
+// sert que d'exception pour forcer une position (ex. `depannage: 99`
+// reste en bas malgré sa place dans le tableau).
 const projectSections = PROJECT_ORDER.map((proj) => {
   const items = resources
     .filter((r) => r.project === proj)
@@ -35,7 +37,7 @@ const projectSections = PROJECT_ORDER.map((proj) => {
       id: r.slug.replace(/^\/ressources\//, ''),
       order: r.sidebarOrder ?? 0,
     }))
-    .sort((a, b) => a.order - b.order || a.id.localeCompare(b.id))
+    .sort((a, b) => a.order - b.order)
     .map((x) => x.id);
   const info = projectsInfo[proj];
   return {

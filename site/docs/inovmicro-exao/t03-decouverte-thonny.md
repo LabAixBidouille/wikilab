@@ -27,6 +27,7 @@ sidebar_position: 3
 - 1 ordinateur sous Windows, macOS ou Linux
 - [Thonny](https://thonny.org/) installé (version 4.x ou supérieure)
 - Le programme MicroPython STeaMi `.hex` ([dernière release](https://github.com/steamicc/micropython-steami-lib/releases))
+
 <PdfLink href="/pdf/inovmicro-exao/STeaMi_Thonny.pdf">Télécharger en PDF</PdfLink>
 
 </div>
@@ -101,13 +102,13 @@ Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comm
 4. **Glisser-déposer** le `.hex` sur le disque `STEAMI`.
 5. La LED de statut clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
 
-:::warning[Attention au bon fichier]
+:::info[Attention au bon fichier]
 
 Ne pas confondre `steami-micropython-firmware-...hex` avec `steami-daplink-firmware-...hex`, qui est un autre fichier sans rapport avec MicroPython (c'est le logiciel de l'interface de programmation, pas celui qui exécute vos programmes Python). Bien choisir celui dont le nom commence par `steami-micropython-firmware-`.
 
 :::
 
-:::warning[Câble incompatible]
+:::info[Câble incompatible]
 
 Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câble : un câble qui ne transporte que l'alimentation ne suffit pas, il faut un câble de données.
 
@@ -346,7 +347,7 @@ Thonny propose un débogueur intégré, particulièrement adapté à l'enseignem
 2. **Run > Debug current script** (`Ctrl+F5`).
 3. Avancer avec **Step over** (`F6`), **Step into** (`F7`), **Step out** (`F8`).
 4. Observer les variables dans le panneau **Variables**.
-:::tip[Limite à connaître]
+:::info[Limite à connaître]
 
 Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste souvent plus pratique.
 
