@@ -141,7 +141,7 @@ Lorsque le temps est écoulé, le maître du jeu compte les points :
 
 ### Sujet 1 - Pensée créative
 
-Comment enseigner aux enfants la pensée créative : Vous pouvez vous référer à d'autres quêtes de l'univers Unplugged comme [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Form factor](/ressources/unplugged/form-factor), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Fantasy out there!](/ressources/unplugged/fantasy-out-there)
+Comment enseigner aux enfants la pensée créative : Vous pouvez vous référer à d'autres quêtes de l'univers Unplugged comme [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [Fantasy out there!](/ressources/unplugged/fantasy-out-there)
 
 Voici aussi quelques bibliothèques en ligne qui proposent des activités plastiques et créatives :
 
@@ -160,7 +160,7 @@ Des informations autour de l'apprentissage collaboratif et ses bienfaits :
 
 Pour améliorer les capacités d'argumentation des élèves/enfants :
 
-- D'autres quêtes Unplugged, telles que [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Ferme en ville](/ressources/unplugged/ferme-en-ville)
+- D'autres quêtes Unplugged, telles que [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [Ferme en ville](/ressources/unplugged/ferme-en-ville)
 - https://theconversation.com/how-to-make-good-arguments-at-school-and-everywhere-else-121305
 - https://www.globalcognition.org/argument-skills-how-to-teach/
 - Vous pouvez envisager de filmer ou d'enregistrer les enfants pour garder une trace de leur idée et améliorer leurs capacités d'expression. La Fabulerie a créé des interfaces pour enregistrer des témoignages vidéo disponibles ici : https://lafabulerie.com/ressource/videomaton/

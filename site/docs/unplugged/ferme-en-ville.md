@@ -123,7 +123,7 @@ La seconde phase du jeu commence par une présentation du contexte et de l'histo
 - https://kids.kiddle.co/Game_theory
 - https://kids.frontiersin.org/articles/10.3389/frym.2017.00066
 
-Pour vous entraîner davantage à la planification de stratégies d'équipe et à la communication, vous pouvez consulter d'autres activités Unplugged, par exemple [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Reroute better world](/ressources/unplugged/reroute-better-world), [Good ways](/ressources/unplugged/good-ways), [Brain Twister](/ressources/unplugged/brain-twister).
+Pour vous entraîner davantage à la planification de stratégies d'équipe et à la communication, vous pouvez consulter d'autres activités Unplugged, par exemple [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [S'orienter sur la route des ODD](/ressources/unplugged/reroute-better-world), [Good ways](/ressources/unplugged/good-ways), [Brain Twister](/ressources/unplugged/brain-twister).
 
 ### Sujet 2 - Agriculture urbaine
 

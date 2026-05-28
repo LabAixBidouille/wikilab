@@ -142,7 +142,7 @@ L'enseignant peut choisir d'utiliser du matériel pour cette activité ou laisse
 
 ### Sujet 1 - Coopération avec les autres et responsabilité partagées
 
-Il s'agit d'un moyen amusant d'apprendre aux enfants à travailler ensemble et à instaurer la confiance. Le jeu améliorer les rapports au sein groupe et aider à réduire les disputes en classe et certains problèmes de comportement. Pour travailler cette thématique vous pouvez vous référer à d'autres quêtes Unplugged, par ex. [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix). Vous pouvez également consulter les ressources suivantes :
+Il s'agit d'un moyen amusant d'apprendre aux enfants à travailler ensemble et à instaurer la confiance. Le jeu améliorer les rapports au sein groupe et aider à réduire les disputes en classe et certains problèmes de comportement. Pour travailler cette thématique vous pouvez vous référer à d'autres quêtes Unplugged, par ex. [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [Négocier la paix avec des biscuits](/ressources/unplugged/biscuits-et-paix). Vous pouvez également consulter les ressources suivantes :
 
 - 30 activités de team building pour les enfants : https://www.teachingexpertise.com/classroom-ideas/team-building-activities-for-kids
 - Les 10 meilleurs jeux et activités de renforcement de la confiance pour les enfants : https://parenting.firstcry.com/articles/10-fun-trust-building-activities-for-kids
@@ -157,7 +157,7 @@ La communication non verbale est un élément important de la communication quot
 
 ### Sujet 3 - Mettre des mots sur les émotions et les sentiments
 
-Lorsque les enfants savent nommer ce qu'ils ressentent, ils peuvent apprendre à gérer leurs émotions. Les enseignants peuvent aider les enfants à exprimer leurs sentiments. Pour approfondir l'éducation émotionnelle, vous pouvez vous référer à [Likadislike](/ressources/unplugged/likadislike), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), etc. Vous pouvez également consulter les ressources suivantes :
+Lorsque les enfants savent nommer ce qu'ils ressentent, ils peuvent apprendre à gérer leurs émotions. Les enseignants peuvent aider les enfants à exprimer leurs sentiments. Pour approfondir l'éducation émotionnelle, vous pouvez vous référer à [Explorer ses goûts et dégoûts sans jugement](/ressources/unplugged/likadislike), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), etc. Vous pouvez également consulter les ressources suivantes :
 
 - 10 conseils pour enseigner la régulation émotionnelle (et améliorer le comportement en classe par la même occasion) : https://www.weareteachers.com/emotional-regulation
 - Connexions émotionnelles et comportementales : Ce que les enfants doivent savoir : https://web.archive.org/web/20221018101455/http://www.creativeyoulearninglab.com/emotion-behavior-connections (archive.org 2022-10)

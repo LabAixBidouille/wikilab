@@ -454,7 +454,7 @@ Les capteurs de la STeaMi sont précis, mais ils mesurent **au niveau de la cart
 - **Auto-échauffement** : l'électronique en marche dégage un peu de chaleur. Si la carte est posée au contact de l'air froid d'un frigo, le capteur indique souvent 1 à 3 °C de plus que la température réelle au centre du frigo.
 - **Emplacement** : poser la carte près de la porte du frigo, c'est mesurer l'air qui rentre à chaque ouverture, pas la zone froide du fond. La même pièce peut afficher 18 °C près d'une fenêtre et 23 °C près d'un radiateur.
 
-Pour rester scientifique : **compare toujours à un thermomètre de référence** (médical, station météo, thermomètre de cuisine, thermomètre du frigo si disponible) pendant 5 minutes au début de l'expérience. Note l'écart constant entre les deux, et corrige tes valeurs après coup. C'est exactement ce que fait la fiche [Thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible) avec `set_temp_offset()`.
+Pour rester scientifique : **compare toujours à un thermomètre de référence** (médical, station météo, thermomètre de cuisine, thermomètre du frigo si disponible) pendant 5 minutes au début de l'expérience. Note l'écart constant entre les deux, et corrige tes valeurs après coup. C'est exactement ce que fait la fiche [Afficher un thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible) avec `set_temp_offset()`.
 
 Et surtout : un capteur de température ne te dira **jamais** si ton frigo est conforme aux normes de sécurité alimentaire. Pour ça, il faut un thermomètre certifié et savoir où poser la sonde. Notre mesure est utile pour **explorer**, pas pour **certifier**.
 
@@ -464,7 +464,7 @@ Et surtout : un capteur de température ne te dira **jamais** si ton frigo est c
 
 Avec température / pression / humidité, on observe le **confort thermique** et des indices **indirects** d'aération (l'humidité monte quand des gens respirent dans une pièce mal aérée). Mais **on ne mesure pas** la qualité de l'air au sens scientifique : ni le **CO2**, ni les **particules fines** (PM2.5, PM10), ni les **composés organiques volatils** (COV, peintures, plastiques, parfums). Pour ça, il faut d'autres capteurs spécialisés ([sensor.community](https://sensor.community/) propose des kits citoyens). Ne pas conclure « l'air est bon » uniquement à partir de la STeaMi.
 
-Pour aller plus loin sur ces questions, le projet SteamCity propose deux fiches dédiées : [Qualité de l'air en classe](/ressources/steamcity/indoor-air-quality) et [Qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality), qui complètent parfaitement la mesure de confort thermique faite ici.
+Pour aller plus loin sur ces questions, le projet SteamCity propose deux fiches dédiées : [Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality) et [Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality), qui complètent parfaitement la mesure de confort thermique faite ici.
 
 :::
 
@@ -489,23 +489,23 @@ Le projet [**SteamCity**](/projets/steamcity) du Wiki@LAB est entièrement dédi
 
 **Mesure de l'air et de l'atmosphère** :
 
-- **[Qualité de l'air en classe](/ressources/steamcity/indoor-air-quality)** et **[Qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality)** : avec des capteurs dédiés CO2, particules fines et COV (que la STeaMi seule ne mesure pas). Excellent complément à notre confort thermique.
-- **[Véhicules polluants en ville](/ressources/steamcity/trees-vs-cars)** : comparer la pollution générée par la circulation et le rôle absorbant des arbres.
+- **[Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality)** et **[Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality)** : avec des capteurs dédiés CO2, particules fines et COV (que la STeaMi seule ne mesure pas). Excellent complément à notre confort thermique.
+- **[Étudier les véhicules polluants en ville](/ressources/steamcity/trees-vs-cars)** : comparer la pollution générée par la circulation et le rôle absorbant des arbres.
 
 **Mesure sonore** :
 
-- **[Le bruit dans la classe](/ressources/steamcity/decibel-detective)** et **[Carte sonore du quartier](/ressources/steamcity/whisper-walls)** : mesurer les décibels là où on travaille, là où on dort, là où on joue.
-- **[Matériaux isolants acoustiques](/ressources/steamcity/sound-squad)** : tester différents matériaux pour atténuer le bruit, démarche purement expérimentale.
+- **[Mesurer le bruit dans la classe](/ressources/steamcity/decibel-detective)** et **[Cartographier le son du quartier](/ressources/steamcity/sound-squad)** : mesurer les décibels là où on travaille, là où on dort, là où on joue.
+- **[Tester des matériaux isolants acoustiques](/ressources/steamcity/whisper-walls)** : tester différents matériaux pour atténuer le bruit, démarche purement expérimentale.
 
 **Mesure énergétique et lumineuse** :
 
-- **[Isolation des murs et villes fraîches](/ressources/steamcity/insulation)** : un cousin direct de notre datalogger thermique, appliqué aux bâtiments.
-- **[Éclairage urbain intelligent](/ressources/steamcity/shine-smart)** et **[Lumière et sommeil](/ressources/steamcity/zzz)** : comment la pollution lumineuse perturbe le sommeil et la biodiversité.
-- **[Simulateur de mix énergétique](/ressources/steamcity/energy-mix)** : visualiser d'où vient l'électricité qui alimente une ville.
+- **[Étudier l'isolation des murs et les îlots de fraîcheur](/ressources/steamcity/insulation)** : un cousin direct de notre datalogger thermique, appliqué aux bâtiments.
+- **[Concevoir un éclairage urbain intelligent](/ressources/steamcity/shine-smart)** et **[Étudier la lumière et le sommeil](/ressources/steamcity/zzz)** : comment la pollution lumineuse perturbe le sommeil et la biodiversité.
+- **[Simuler un mix énergétique](/ressources/steamcity/energy-mix)** : visualiser d'où vient l'électricité qui alimente une ville.
 
 **Biodiversité et nature en ville** :
 
-- **[Végétalisation urbaine](/ressources/steamcity/plants-city)** et **[Gardiens des pollinisateurs](/ressources/steamcity/pollinisateurs)** : la science citoyenne appliquée au vivant urbain.
+- **[Végétalisation urbaine](/ressources/steamcity/plants-city)** et **[Protéger les pollinisateurs](/ressources/steamcity/pollinisateurs)** : la science citoyenne appliquée au vivant urbain.
 
 **Programmation de capteurs** (cousins programmation de notre fiche) :
 

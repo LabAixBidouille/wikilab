@@ -47,7 +47,7 @@ sidebar_position: 4
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Panneau solaire auto-orientable](/ressources/thedexterlab/panneau-solaire-auto-orientable). Elle couvre toute la chaîne de programmation : mesurer la lumière avec deux photorésistances, piloter un servomoteur et créer un suiveur solaire automatique qui oriente le panneau en fonction de la différence d'éclairage.
+Cette fiche technique accompagne la ressource [Construire un panneau solaire auto-orientable](/ressources/thedexterlab/panneau-solaire-auto-orientable). Elle couvre toute la chaîne de programmation : mesurer la lumière avec deux photorésistances, piloter un servomoteur et créer un suiveur solaire automatique qui oriente le panneau en fonction de la différence d'éclairage.
 
 ## Objectifs d'apprentissage
 

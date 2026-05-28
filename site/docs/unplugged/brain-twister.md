@@ -129,21 +129,21 @@ Les enfants plus âgés peuvent reproduire une figure à partir d'une aire donn�
 
 La programmation devient une compétence importante à acquérir. Des sites Web proposent des façons ludiques d'apprendre à coder. Pour vous exercer davantage à la programmation en classe, vous pouvez vous référer à :
 
-- D'autres quêtes de Unplugged comme [Memory](/ressources/unplugged/memory), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix), [Comptage binaire](/ressources/unplugged/binary-counting), [Programme ta chorégraphie](/ressources/unplugged/programming-a-choreography)
+- D'autres quêtes de Unplugged comme [Memory](/ressources/unplugged/memory), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix), [Comptage binaire](/ressources/unplugged/binary-counting), [Programme ta chorégraphie](/ressources/unplugged/programming-a-choreography)
 - Des outils de programmation adaptés au jeune public tels que Scratch : https://scratch.mit.edu/, Code.org : https://code.org/ et Code Combat : https://codecombat.com/
 
 ### Thématique 2 - Travailler sa cognition spatiale
 
 - Visualisez et reproduisez les images du lien donné sur un tableau 10x10 : https://www.pinterest.fr/pin/18999629663311867/
-- Pour approfondir le travail avec les images, vous pouvez vous référer à d'autres quêtes de Unplugged, par exemple [Form factor](/ressources/unplugged/form-factor), [Fantasy out there!](/ressources/unplugged/fantasy-out-there), [Good ways](/ressources/unplugged/good-ways).
+- Pour approfondir le travail avec les images, vous pouvez vous référer à d'autres quêtes de Unplugged, par exemple [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), [Fantasy out there!](/ressources/unplugged/fantasy-out-there), [Good ways](/ressources/unplugged/good-ways).
 
 ### Thématique 3 - S'exprimer clairement et efficacement
 
-Essayez de parler à un assistant virtuel sur un téléphone ou un ordinateur. Vous devrez séparer vos mots et maîtriser votre ton pour que la machine comprenne ce que vous dites. La diction est importante lorsque vous vous adressez à des robots, mais aussi lorsque vous parlez à des humains. Si vous souhaitez améliorer votre diction, essayez de vous enregistrer et identifiez les points à améliorer. Devriez-vous parler plus lentement, séparer davantage vos mots, etc. Pour vous entraîner davantage à l'expression orale, vous pouvez vous référer à d'autres quêtes Unplugged, telles que [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Brainstorming](/ressources/unplugged/brainstorming), etc.
+Essayez de parler à un assistant virtuel sur un téléphone ou un ordinateur. Vous devrez séparer vos mots et maîtriser votre ton pour que la machine comprenne ce que vous dites. La diction est importante lorsque vous vous adressez à des robots, mais aussi lorsque vous parlez à des humains. Si vous souhaitez améliorer votre diction, essayez de vous enregistrer et identifiez les points à améliorer. Devriez-vous parler plus lentement, séparer davantage vos mots, etc. Pour vous entraîner davantage à l'expression orale, vous pouvez vous référer à d'autres quêtes Unplugged, telles que [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Brainstorming](/ressources/unplugged/brainstorming), etc.
 
 ### Thématique 4 - Débattre pour perfectionner sa stratégie
 
-- Autres jeux Unplugged : [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Reroute better world](/ressources/unplugged/reroute-better-world), [La ville parfaite](/ressources/unplugged/la-ville-parfaite), etc.
+- Autres jeux Unplugged : [Ferme en ville](/ressources/unplugged/ferme-en-ville), [S'orienter sur la route des ODD](/ressources/unplugged/reroute-better-world), [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), etc.
 - Débattre des questions environnementales à l'école : https://www.kindergartenlessons.com/environmental_education_for_kids/
 - http://gogreencyclopedia.blogspot.com/2013/09/50-facts-about-your-environment-for-kids.html
 - Apprendre à connaître les énergies propres : https://energync.org/forkids/

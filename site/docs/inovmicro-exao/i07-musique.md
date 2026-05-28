@@ -526,7 +526,7 @@ Au lieu d'une seule mélodie en boucle, en stocker plusieurs dans des listes dif
 
 ### 3. Coder un message en Morse
 
-Avec le même buzzer, on peut produire des points et des tirets pour transmettre un message en code Morse. La fiche [Envoyer des messages en code Morse avec la STeaMi](/ressources/inovmicro-exao/i06-code-morse) explore cette piste en détail.
+Avec le même buzzer, on peut produire des points et des tirets pour transmettre un message en code Morse. La fiche [Envoyer des messages en code Morse](/ressources/inovmicro-exao/i06-code-morse) explore cette piste en détail.
 
 ### 4. Mélodie au rythme d'un capteur (bonus)
 

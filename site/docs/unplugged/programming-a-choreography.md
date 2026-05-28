@@ -103,7 +103,7 @@ Le deuxième tour est axé sur la conception de nouvelles cartes à l'aide de bl
 
 ### Sujet 1 - Programmation de l'approche
 
-- D'autres quêtes Unplugged : [Comptage binaire](/ressources/unplugged/binary-counting), [Brain Twister](/ressources/unplugged/brain-twister), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix), [Memory](/ressources/unplugged/memory)
+- D'autres quêtes Unplugged : [Comptage binaire](/ressources/unplugged/binary-counting), [Brain Twister](/ressources/unplugged/brain-twister), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix), [Memory](/ressources/unplugged/memory)
 - Scratch : https://scratch.mit.edu/
 - Code.org : https://code.org/
 

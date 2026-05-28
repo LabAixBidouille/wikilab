@@ -45,7 +45,7 @@ sidebar_position: 3
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Panneau solaire sur une journée](/ressources/thedexterlab/panneau-solaire-journee). Elle explique comment câbler un capteur de tension INA219 (I2C) à un panneau solaire, afficher ses valeurs sur un écran OLED et déclencher une alarme lorsque le rendement chute.
+Cette fiche technique accompagne la ressource [Étudier un panneau solaire sur une journée](/ressources/thedexterlab/panneau-solaire-journee). Elle explique comment câbler un capteur de tension INA219 (I2C) à un panneau solaire, afficher ses valeurs sur un écran OLED et déclencher une alarme lorsque le rendement chute.
 
 ## Objectifs d'apprentissage
 

@@ -219,7 +219,7 @@ Les joueurs pourront trouver des informations complémentaires sur les métiers 
 
 Pour aborder les thématiques d'égalité et d'inclusion en classe :
 
-- Autres quêtes Unplugged, par exemple [Form factor](/ressources/unplugged/form-factor), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
+- Autres quêtes Unplugged, par exemple [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), [Vivre en harmonie](/ressources/unplugged/vivre-en-harmonie), [Négocier la paix avec des biscuits](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
 - https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/
 - Découvrez le jeu Equal de l'univers Unplugged : https://www.youtube.com/watch?v=-hc0kZh6CnM
 - https://kids.kiddle.co/Social_equality

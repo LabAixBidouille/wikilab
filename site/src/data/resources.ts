@@ -124,7 +124,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as02-breadboard',
-    title: 'Premier circuit sur breadboard',
+    title: 'Construire un premier circuit sur breadboard',
     slug: '/ressources/lets-steam/r1as02-breadboard',
     project: 'lets-steam',
     summary:
@@ -164,7 +164,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as04-capteur-lumiere',
-    title: 'Capteur de lumière avec STM32',
+    title: 'Mesurer la lumière ambiante (STM32)',
     slug: '/ressources/lets-steam/r1as04-capteur-lumiere',
     project: 'lets-steam',
     summary:
@@ -204,7 +204,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as06-morse',
-    title: 'Messages en code Morse',
+    title: 'Envoyer des messages en code Morse',
     slug: '/ressources/lets-steam/r1as06-morse',
     project: 'lets-steam',
     summary: 'Programmer un émetteur et un récepteur de code Morse avec des LED et un buzzer.',
@@ -261,7 +261,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as09-accelerometre',
-    title: 'Inclinaison avec accéléromètre',
+    title: "Mesurer l'inclinaison avec l'accéléromètre",
     slug: '/ressources/lets-steam/r1as09-accelerometre',
     project: 'lets-steam',
     summary: "Utiliser l'accéléromètre intégré pour détecter l'inclinaison et contrôler des LED.",
@@ -299,7 +299,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as11-thermometre',
-    title: 'Thermomètre très lisible',
+    title: 'Afficher un thermomètre très lisible',
     slug: '/ressources/lets-steam/r1as11-thermometre',
     project: 'lets-steam',
     summary: 'Fabriquer un thermomètre avec un capteur de température et un affichage visuel.',
@@ -318,7 +318,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as12-detecteur-mouvement',
-    title: 'Alarme de mouvement',
+    title: 'Créer une alarme de mouvement',
     slug: '/ressources/lets-steam/r1as12-detecteur-mouvement',
     project: 'lets-steam',
     summary:
@@ -357,7 +357,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'r1as14-minuteur',
-    title: 'Minuteur à œufs électronique',
+    title: 'Fabriquer un minuteur à œufs électronique',
     slug: '/ressources/lets-steam/r1as14-minuteur',
     project: 'lets-steam',
     summary: 'Créer un minuteur avec un compte à rebours, un buzzer et un affichage.',
@@ -396,7 +396,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-1',
-    title: "À l'échelle du système solaire",
+    title: "Représenter l'échelle du système solaire",
     slug: '/ressources/mimesis/mimesis-play-1',
     project: 'mimesis',
     summary:
@@ -416,7 +416,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-2',
-    title: 'Conteurs de sciences',
+    title: 'Conter les sciences',
     slug: '/ressources/mimesis/mimesis-play-2',
     project: 'mimesis',
     summary:
@@ -436,7 +436,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-3',
-    title: 'La vie secrète du plancton',
+    title: 'Mettre en scène la vie du plancton',
     slug: '/ressources/mimesis/mimesis-play-3',
     project: 'mimesis',
     summary:
@@ -456,7 +456,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-4',
-    title: "Le cycle de l'eau en scène",
+    title: "Mettre en scène le cycle de l'eau",
     slug: '/ressources/mimesis/mimesis-play-4',
     project: 'mimesis',
     summary:
@@ -476,7 +476,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-5',
-    title: 'Marionnettes géométriques',
+    title: 'Fabriquer des marionnettes géométriques',
     slug: '/ressources/mimesis/mimesis-play-5',
     project: 'mimesis',
     summary:
@@ -496,7 +496,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-6',
-    title: 'Catastrophes naturelles en scène',
+    title: 'Comprendre les catastrophes naturelles par la mise en scène',
     slug: '/ressources/mimesis/mimesis-play-6',
     project: 'mimesis',
     summary:
@@ -516,7 +516,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-7',
-    title: 'Les sciences avec son corps',
+    title: 'Explorer les sciences avec son corps',
     slug: '/ressources/mimesis/mimesis-play-7',
     project: 'mimesis',
     summary:
@@ -536,7 +536,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mimesis-play-8',
-    title: 'Kamishibaï scientifique',
+    title: 'Créer un kamishibaï scientifique',
     slug: '/ressources/mimesis/mimesis-play-8',
     project: 'mimesis',
     summary:
@@ -602,7 +602,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'biscuits-et-paix',
-    title: 'Biscuits et paix',
+    title: 'Négocier la paix avec des biscuits',
     slug: '/ressources/unplugged/biscuits-et-paix',
     project: 'unplugged',
     summary:
@@ -622,7 +622,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'brain-twister',
-    title: 'Casse-têtes Brain Twister',
+    title: 'Résoudre les casse-têtes « Brain Twister »',
     slug: '/ressources/unplugged/brain-twister',
     project: 'unplugged',
     summary:
@@ -648,7 +648,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'brainstorming',
-    title: 'Brainstorming en classe',
+    title: 'Animer un brainstorming en classe',
     slug: '/ressources/unplugged/brainstorming',
     project: 'unplugged',
     summary:
@@ -674,7 +674,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'dr-hanoi',
-    title: 'Les tours de Hanoï',
+    title: 'Combiner des formules pour le Docteur Hanoï',
     slug: '/ressources/unplugged/dr-hanoi',
     project: 'unplugged',
     summary:
@@ -694,7 +694,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ecosystemes-en-bocaux',
-    title: 'Écosystème en bocal',
+    title: 'Construire un écosystème en bocal',
     slug: '/ressources/unplugged/ecosystemes-en-bocaux',
     project: 'unplugged',
     summary:
@@ -714,7 +714,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'equal',
-    title: 'Equal : égalité et stéréotypes',
+    title: 'Déjouer les stéréotypes',
     slug: '/ressources/unplugged/equal',
     project: 'unplugged',
     summary:
@@ -734,7 +734,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'fantasy-out-there',
-    title: 'Créatures fantastiques',
+    title: 'Créer des créatures fantastiques',
     slug: '/ressources/unplugged/fantasy-out-there',
     project: 'unplugged',
     summary:
@@ -754,7 +754,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ferme-en-ville',
-    title: 'Ferme urbaine',
+    title: 'Comprendre les ensembles dominants en créant des fermes urbaines',
     slug: '/ressources/unplugged/ferme-en-ville',
     project: 'unplugged',
     summary:
@@ -780,7 +780,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'form-factor',
-    title: 'Form factor',
+    title: 'Modéliser des formes complexes grâce à des formes de base',
     slug: '/ressources/unplugged/form-factor',
     project: 'unplugged',
     summary:
@@ -800,7 +800,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'good-ways',
-    title: 'Good ways : chemin éthique',
+    title: 'Choisir le chemin éthique',
     slug: '/ressources/unplugged/good-ways',
     project: 'unplugged',
     summary:
@@ -820,7 +820,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'grille-magique-de-la-paix',
-    title: 'Grille magique de la paix',
+    title: 'Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité',
     slug: '/ressources/unplugged/grille-magique-de-la-paix',
     project: 'unplugged',
     summary:
@@ -846,7 +846,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'iterative-clues',
-    title: 'Iterative clues',
+    title: 'Suivre des indices pas à pas',
     slug: '/ressources/unplugged/iterative-clues',
     project: 'unplugged',
     summary:
@@ -866,7 +866,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'la-ville-parfaite',
-    title: 'La ville parfaite',
+    title: 'Imaginer la ville parfaite',
     slug: '/ressources/unplugged/la-ville-parfaite',
     project: 'unplugged',
     summary:
@@ -886,7 +886,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'la-ville-pop-up-du-futur',
-    title: 'Ville pop-up du futur',
+    title: 'Construire une ville pop-up du futur',
     slug: '/ressources/unplugged/la-ville-pop-up-du-futur',
     project: 'unplugged',
     summary:
@@ -906,7 +906,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'likadislike',
-    title: 'Likadislike',
+    title: 'Explorer ses goûts et dégoûts sans jugement',
     slug: '/ressources/unplugged/likadislike',
     project: 'unplugged',
     summary:
@@ -926,7 +926,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'memory',
-    title: 'Memory éducatif',
+    title: 'Découvrir Scratch et le numérique en jouant au memory',
     slug: '/ressources/unplugged/memory',
     project: 'unplugged',
     summary:
@@ -946,7 +946,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'plastic-continent',
-    title: 'Continent de plastique',
+    title: 'Déjouer le continent de plastique',
     slug: '/ressources/unplugged/plastic-continent',
     project: 'unplugged',
     summary:
@@ -966,7 +966,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'potluck-march',
-    title: 'PotLuck March',
+    title: "Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires",
     slug: '/ressources/unplugged/potluck-march',
     project: 'unplugged',
     summary:
@@ -986,7 +986,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'poverty-free-game-collection',
-    title: 'Jeux anti-pauvreté',
+    title: 'Créer des jeux anti-pauvreté',
     slug: '/ressources/unplugged/poverty-free-game-collection',
     project: 'unplugged',
     summary:
@@ -1026,7 +1026,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'reroute-better-world',
-    title: 'Reroute better world',
+    title: "S'orienter sur la route des ODD",
     slug: '/ressources/unplugged/reroute-better-world',
     project: 'unplugged',
     summary:
@@ -1066,7 +1066,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-1-programmation',
-    title: 'Atelier MakeCode Arcade',
+    title: "S'initier à MakeCode Arcade",
     slug: '/ressources/jeditrack/mini-projet-1-programmation',
     project: 'jeditrack',
     summary:
@@ -1092,7 +1092,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-2-capteurs',
-    title: 'Robot autonome à capteurs',
+    title: 'Construire un robot autonome à capteurs',
     slug: '/ressources/jeditrack/mini-projet-2-capteurs',
     project: 'jeditrack',
     summary:
@@ -1130,7 +1130,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mini-projet-4-cartopartie',
-    title: 'Cartopartie intergénérationnelle',
+    title: 'Organiser une cartopartie intergénérationnelle',
     slug: '/ressources/jeditrack/mini-projet-4-cartopartie',
     project: 'jeditrack',
     summary:
@@ -1156,7 +1156,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'cartographie-sensible',
-    title: 'Cartographie sensible du quartier',
+    title: 'Cartographier son quartier de façon sensible',
     slug: '/ressources/jeditrack/cartographie-sensible',
     project: 'jeditrack',
     summary:
@@ -1182,7 +1182,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'station-qualite-air',
-    title: "Station qualité de l'air",
+    title: "Construire une station qualité de l'air",
     slug: '/ressources/jeditrack/station-qualite-air',
     project: 'jeditrack',
     summary:
@@ -1225,7 +1225,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'etude-confort-thermique',
-    title: 'Confort thermique urbain',
+    title: 'Étudier le confort thermique urbain',
     slug: '/ressources/jeditrack/etude-confort-thermique',
     project: 'jeditrack',
     summary:
@@ -1244,7 +1244,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'creer-cartes-umap',
-    title: 'Cartes collaboratives uMap',
+    title: 'Créer des cartes collaboratives avec uMap',
     slug: '/ressources/jeditrack/creer-cartes-umap',
     project: 'jeditrack',
     summary:
@@ -1270,7 +1270,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'creer-site-web',
-    title: 'Site web avec GitHub Pages',
+    title: 'Publier un site web avec GitHub Pages',
     slug: '/ressources/jeditrack/creer-site-web',
     project: 'jeditrack',
     summary:
@@ -1348,7 +1348,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'realiser-pochoirs-decoupe',
-    title: 'Pochoirs en découpe vinyle',
+    title: 'Réaliser des pochoirs en découpe vinyle',
     slug: '/ressources/jeditrack/realiser-pochoirs-decoupe',
     project: 'jeditrack',
     summary:
@@ -1372,7 +1372,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'skill-trees',
-    title: 'Skill Trees du maker',
+    title: 'Utiliser vos premiers « Maker Skill Trees »',
     slug: '/ressources/jeditrack/skill-trees',
     project: 'jeditrack',
     summary:
@@ -1444,7 +1444,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'art-binaire',
-    title: "L'art en binaire",
+    title: "Créer de l'art en binaire",
     slug: '/ressources/robots-meet-arts/art-binaire',
     project: 'robots-meet-arts',
     summary:
@@ -1464,7 +1464,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'aventure-odd',
-    title: "L'aventure des ODD",
+    title: 'Coder les Objectifs de Développement Durable en jeu vidéo',
     slug: '/ressources/robots-meet-arts/aventure-odd',
     project: 'robots-meet-arts',
     summary:
@@ -1484,7 +1484,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'balade-musicale',
-    title: 'Balade musicale robotique',
+    title: 'Programmer une balade musicale robotique',
     slug: '/ressources/robots-meet-arts/balade-musicale',
     project: 'robots-meet-arts',
     summary:
@@ -1504,7 +1504,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ballet-robotique',
-    title: 'Ballet robotique',
+    title: 'Chorégraphier un ballet robotique',
     slug: '/ressources/robots-meet-arts/ballet-robotique',
     project: 'robots-meet-arts',
     summary:
@@ -1524,7 +1524,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'cabane-outils',
-    title: 'Cabane-boussole à outils',
+    title: 'Construire une boussole robotisée en carton',
     slug: '/ressources/robots-meet-arts/cabane-outils',
     project: 'robots-meet-arts',
     summary:
@@ -1544,7 +1544,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'chasseurs-tresors',
-    title: 'Chasse au trésor robotique',
+    title: 'Organiser une chasse au trésor robotique',
     slug: '/ressources/robots-meet-arts/chasseurs-tresors',
     project: 'robots-meet-arts',
     summary:
@@ -1564,7 +1564,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'chefs-oeuvre',
-    title: "Mémoire des chefs-d'œuvre",
+    title: "Jouer au memory des chefs-d'œuvre",
     slug: '/ressources/robots-meet-arts/chefs-oeuvre',
     project: 'robots-meet-arts',
     summary:
@@ -1584,7 +1584,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'collage-fou-code',
-    title: 'Collage fou à la Matisse',
+    title: 'Créer un collage à la Matisse',
     slug: '/ressources/robots-meet-arts/collage-fou-code',
     project: 'robots-meet-arts',
     summary:
@@ -1604,7 +1604,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'course-voitures',
-    title: 'Course de voitures LEGO',
+    title: 'Organiser une course de voitures LEGO',
     slug: '/ressources/robots-meet-arts/course-voitures',
     project: 'robots-meet-arts',
     summary:
@@ -1624,7 +1624,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'decouverte-histoire',
-    title: 'Sur les pas des explorateurs',
+    title: 'Marcher sur les pas des explorateurs',
     slug: '/ressources/robots-meet-arts/decouverte-histoire',
     project: 'robots-meet-arts',
     summary:
@@ -1644,7 +1644,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'dilemmes-valeurs',
-    title: 'Dilemmes et valeurs',
+    title: 'Explorer vos dilemmes et valeurs grâce à la pensée computationnelle',
     slug: '/ressources/robots-meet-arts/dilemmes-valeurs',
     project: 'robots-meet-arts',
     summary:
@@ -1664,7 +1664,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'drop-the-bass',
-    title: 'Guitare Makey Makey',
+    title: 'Fabriquer une guitare Makey Makey',
     slug: '/ressources/robots-meet-arts/drop-the-bass',
     project: 'robots-meet-arts',
     summary:
@@ -1684,7 +1684,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ed-range-chambre',
-    title: 'Ed range sa chambre',
+    title: 'Programmer Ed pour ranger sa chambre',
     slug: '/ressources/robots-meet-arts/ed-range-chambre',
     project: 'robots-meet-arts',
     summary:
@@ -1704,7 +1704,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'filtre-artiste',
-    title: "Filtre d'artiste AR",
+    title: "Créer un filtre d'artiste en réalité augmentée",
     slug: '/ressources/robots-meet-arts/filtre-artiste',
     project: 'robots-meet-arts',
     summary:
@@ -1724,7 +1724,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'journee-robin',
-    title: 'La journée de Robin',
+    title: 'Programmer la journée de Robin',
     slug: '/ressources/robots-meet-arts/journee-robin',
     project: 'robots-meet-arts',
     summary:
@@ -1744,7 +1744,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mission-voyageurs-temps',
-    title: 'Voyageurs du temps',
+    title: 'Devenir voyageurs du temps',
     slug: '/ressources/robots-meet-arts/mission-voyageurs-temps',
     project: 'robots-meet-arts',
     summary:
@@ -1764,7 +1764,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'mode-danse',
-    title: 'Jeu du mode danse',
+    title: 'Programmer le jeu du mode danse',
     slug: '/ressources/robots-meet-arts/mode-danse',
     project: 'robots-meet-arts',
     summary:
@@ -1784,7 +1784,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ne-hier',
-    title: "Né d'hier : initiation robotique",
+    title: "S'initier à la robotique et à l'apprentissage bio-inspiré",
     slug: '/ressources/robots-meet-arts/ne-hier',
     project: 'robots-meet-arts',
     summary:
@@ -1810,7 +1810,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'octostudio-premiers-pas',
-    title: 'Premiers pas avec Octo Studio',
+    title: 'Faire ses premiers pas avec Octo Studio',
     slug: '/ressources/robots-meet-arts/octostudio-premiers-pas',
     project: 'robots-meet-arts',
     summary:
@@ -1830,7 +1830,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'octostudio-visages',
-    title: 'Visages avec Octo Studio',
+    title: 'Créer des visages avec Octo Studio',
     slug: '/ressources/robots-meet-arts/octostudio-visages',
     project: 'robots-meet-arts',
     summary:
@@ -1850,7 +1850,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'once-upon-code',
-    title: 'Histoire animée en code',
+    title: 'Animer une histoire en code',
     slug: '/ressources/robots-meet-arts/once-upon-code',
     project: 'robots-meet-arts',
     summary:
@@ -1870,7 +1870,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'passe-le-paquet',
-    title: 'Passe le paquet',
+    title: 'Découvrir les algorithmes de routage',
     slug: '/ressources/robots-meet-arts/passe-le-paquet',
     project: 'robots-meet-arts',
     summary:
@@ -1890,7 +1890,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'quete-curry',
-    title: 'La quête du curry',
+    title: 'Programmer une histoire dont vous êtes le héros',
     slug: '/ressources/robots-meet-arts/quete-curry',
     project: 'robots-meet-arts',
     summary:
@@ -1910,7 +1910,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'rangers-tri',
-    title: 'Rangers du tri robotique',
+    title: 'Programmer un robot trieur de déchets',
     slug: '/ressources/robots-meet-arts/rangers-tri',
     project: 'robots-meet-arts',
     summary:
@@ -1950,7 +1950,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'robot-petit-dej',
-    title: 'Robot petit-déjeuner',
+    title: 'Programmer son petit-déjeuner',
     slug: '/ressources/robots-meet-arts/robot-petit-dej',
     project: 'robots-meet-arts',
     summary:
@@ -1970,7 +1970,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'rome',
-    title: 'La Rome antique en robot',
+    title: 'Explorer la Rome antique',
     slug: '/ressources/robots-meet-arts/rome',
     project: 'robots-meet-arts',
     summary:
@@ -1990,7 +1990,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'terre-ombre',
-    title: "La terre à l'ombre",
+    title: 'Comprendre et concevoir des éco-quartiers',
     slug: '/ressources/robots-meet-arts/terre-ombre',
     project: 'robots-meet-arts',
     summary:
@@ -2010,7 +2010,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'decibel-detective',
-    title: 'Le bruit dans la classe',
+    title: 'Mesurer le bruit dans la classe',
     slug: '/ressources/steamcity/decibel-detective',
     project: 'steamcity',
     summary:
@@ -2030,7 +2030,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'sound-squad',
-    title: 'Carte sonore du quartier',
+    title: 'Cartographier le son du quartier',
     slug: '/ressources/steamcity/sound-squad',
     project: 'steamcity',
     summary:
@@ -2050,7 +2050,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'whisper-walls',
-    title: 'Matériaux isolants acoustiques',
+    title: 'Tester des matériaux isolants acoustiques',
     slug: '/ressources/steamcity/whisper-walls',
     project: 'steamcity',
     summary:
@@ -2077,7 +2077,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'outdoor-air-quality',
-    title: "Qualité de l'air extérieur",
+    title: "Mesurer la qualité de l'air extérieur",
     slug: '/ressources/steamcity/outdoor-air-quality',
     project: 'steamcity',
     summary:
@@ -2097,7 +2097,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'indoor-air-quality',
-    title: "Qualité de l'air en classe",
+    title: "Mesurer la qualité de l'air en classe",
     slug: '/ressources/steamcity/indoor-air-quality',
     project: 'steamcity',
     summary:
@@ -2117,7 +2117,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'plants-city',
-    title: 'Végétalisation urbaine par IA',
+    title: 'Végétaliser la ville',
     slug: '/ressources/steamcity/plants-city',
     project: 'steamcity',
     summary:
@@ -2137,7 +2137,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'pollinisateurs',
-    title: 'Gardiens des pollinisateurs',
+    title: 'Protéger les pollinisateurs',
     slug: '/ressources/steamcity/pollinisateurs',
     project: 'steamcity',
     summary:
@@ -2157,7 +2157,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'trees-vs-cars',
-    title: 'Véhicules polluants en ville',
+    title: 'Étudier les véhicules polluants en ville',
     slug: '/ressources/steamcity/trees-vs-cars',
     project: 'steamcity',
     summary:
@@ -2184,7 +2184,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'bird-song-explorer',
-    title: "Chants d'oiseaux par IA",
+    title: "Reconnaître les chants d'oiseaux grâce à des outils d'IA",
     slug: '/ressources/steamcity/bird-song-explorer',
     project: 'steamcity',
     summary:
@@ -2204,7 +2204,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'energy-mix',
-    title: 'Simulateur de mix énergétique',
+    title: 'Simuler un mix énergétique',
     slug: '/ressources/steamcity/energy-mix',
     project: 'steamcity',
     summary:
@@ -2231,7 +2231,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'energy-perspectives',
-    title: 'Énergies en perspective',
+    title: 'Mettre les énergies en perspective',
     slug: '/ressources/steamcity/energy-perspectives',
     project: 'steamcity',
     summary:
@@ -2257,7 +2257,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'insulation',
-    title: 'Isolation des murs et villes fraîches',
+    title: "Étudier l'isolation des murs et les îlots de fraîcheur",
     slug: '/ressources/steamcity/insulation',
     project: 'steamcity',
     summary:
@@ -2277,7 +2277,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'negawatt',
-    title: 'Scénario NégaWatt',
+    title: 'Explorer le scénario NégaWatt',
     slug: '/ressources/steamcity/negawatt',
     project: 'steamcity',
     summary:
@@ -2304,7 +2304,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'shine-smart',
-    title: 'Éclairage urbain intelligent',
+    title: 'Concevoir un éclairage urbain intelligent',
     slug: '/ressources/steamcity/shine-smart',
     project: 'steamcity',
     summary:
@@ -2330,7 +2330,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'regulation',
-    title: 'Mobilité et écologie',
+    title: 'Étudier les liens entre mobilité et écologie',
     slug: '/ressources/steamcity/regulation',
     project: 'steamcity',
     summary:
@@ -2350,7 +2350,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'city-detective-challenge',
-    title: 'Détective urbain',
+    title: "Mener l'enquête du détective urbain",
     slug: '/ressources/steamcity/city-detective-challenge',
     project: 'steamcity',
     summary:
@@ -2370,7 +2370,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'road-signs',
-    title: 'Signalisation de demain',
+    title: 'Concevoir la signalisation de demain',
     slug: '/ressources/steamcity/road-signs',
     project: 'steamcity',
     summary:
@@ -2397,7 +2397,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'smart-object-safari',
-    title: 'Safari des objets connectés',
+    title: 'Partir en safari des objets connectés',
     slug: '/ressources/steamcity/smart-object-safari',
     project: 'steamcity',
     summary:
@@ -2424,7 +2424,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ai-odyssey',
-    title: "L'odyssée de l'IA",
+    title: "Explorer la présence de l'IA dans notre environnement",
     slug: '/ressources/steamcity/ai-odyssey',
     project: 'steamcity',
     summary:
@@ -2451,7 +2451,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'bot-buddy-adventure',
-    title: "Chatbot d'accessibilité urbaine",
+    title: "Créer un chatbot d'accessibilité urbaine",
     slug: '/ressources/steamcity/bot-buddy-adventure',
     project: 'steamcity',
     summary:
@@ -2504,7 +2504,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'waste-sorting',
-    title: 'Tri des déchets par IA',
+    title: 'Trier les déchets grâce à la reconnaissance visuelle',
     slug: '/ressources/steamcity/waste-sorting',
     project: 'steamcity',
     summary:
@@ -2524,7 +2524,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'bio-inspired-processes',
-    title: 'Processus bio-inspirés',
+    title: "Comprendre les processus d'apprentissage bio-inspirés",
     slug: '/ressources/steamcity/bio-inspired-processes',
     project: 'steamcity',
     summary:
@@ -2544,7 +2544,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'donnees-contexte',
-    title: 'Données vs contexte',
+    title: 'Comparer données et contexte',
     slug: '/ressources/steamcity/donnees-contexte',
     project: 'steamcity',
     summary:
@@ -2571,7 +2571,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'zzz',
-    title: 'Lumière et sommeil',
+    title: 'Étudier la lumière et le sommeil',
     slug: '/ressources/steamcity/zzz',
     project: 'steamcity',
     summary:
@@ -2592,7 +2592,7 @@ export const resources: Resource[] = [
   // ─── Projets du LAB ───
   {
     id: 'lab-audio-hifi',
-    title: 'Chaîne HiFi 100% numérique',
+    title: 'Assembler une chaîne HiFi 100% numérique',
     slug: '/ressources/projets-du-lab/audio-hifi',
     project: 'projets-du-lab',
     summary:
@@ -2611,7 +2611,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-ampli-tas3251',
-    title: 'Ampli HiFi numérique',
+    title: 'Construire un ampli HiFi numérique',
     slug: '/ressources/projets-du-lab/ampli-audio-tas3251',
     project: 'projets-du-lab',
     summary:
@@ -2630,7 +2630,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-random-shield',
-    title: 'Random Shield Arduino',
+    title: 'Fabriquer un Random Shield Arduino',
     slug: '/ressources/projets-du-lab/random-shield',
     project: 'projets-du-lab',
     summary:
@@ -2649,7 +2649,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-domotique',
-    title: 'Domotique MQTT',
+    title: 'Mettre en place une domotique MQTT',
     slug: '/ressources/projets-du-lab/domotique',
     project: 'projets-du-lab',
     summary:
@@ -2668,7 +2668,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-station-meteo',
-    title: 'Station météo DIY',
+    title: 'Construire une station météo DIY',
     slug: '/ressources/projets-du-lab/station-meteo',
     project: 'projets-du-lab',
     summary:
@@ -2687,7 +2687,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-terrarium',
-    title: 'Terrarium connecté',
+    title: 'Fabriquer un terrarium connecté',
     slug: '/ressources/projets-du-lab/terrarium-dendrobate',
     project: 'projets-du-lab',
     summary:
@@ -2706,7 +2706,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-bus-can',
-    title: 'Découverte du bus CAN',
+    title: 'Découvrir le bus CAN',
     slug: '/ressources/projets-du-lab/decouverte-bus-can',
     project: 'projets-du-lab',
     summary:
@@ -2725,7 +2725,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-ericbot',
-    title: 'Robot ERICbot',
+    title: 'Découvrir le robot ERICbot',
     slug: '/ressources/projets-du-lab/ericbot',
     project: 'projets-du-lab',
     summary:
@@ -2744,7 +2744,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-robot-du-lab',
-    title: 'RobotDuLAB',
+    title: 'Découvrir le RobotDuLAB',
     slug: '/ressources/projets-du-lab/robot-du-lab',
     project: 'projets-du-lab',
     summary:
@@ -2763,7 +2763,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-xylorobot',
-    title: 'XyloRobot musical',
+    title: 'Construire un xylophone robotisé (XyloRobot)',
     slug: '/ressources/projets-du-lab/xylorobot',
     project: 'projets-du-lab',
     summary:
@@ -2782,7 +2782,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-harpe-laser',
-    title: 'Harpe laser MIDI',
+    title: 'Construire une harpe laser MIDI',
     slug: '/ressources/projets-du-lab/harpe-laser',
     project: 'projets-du-lab',
     summary:
@@ -2801,7 +2801,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-musique-laser',
-    title: 'Musique au capteur laser',
+    title: 'Créer de la musique grâce à un capteur laser',
     slug: '/ressources/projets-du-lab/musique-capteur-distance-laser',
     project: 'projets-du-lab',
     summary:
@@ -2820,7 +2820,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-bobine-tesla',
-    title: 'Bobine Tesla musicale',
+    title: 'Construire une bobine Tesla musicale',
     slug: '/ressources/projets-du-lab/bobine-tesla',
     project: 'projets-du-lab',
     summary:
@@ -2839,7 +2839,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-kit-stm32',
-    title: 'Kit pédagogique STM32',
+    title: 'Découvrir le kit pédagogique STM32',
     slug: '/ressources/projets-du-lab/kit-pedagogique-stm32',
     project: 'projets-du-lab',
     summary:
@@ -2858,7 +2858,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-carte-monde',
-    title: 'Carte du monde en liège',
+    title: 'Découper une carte du monde en liège',
     slug: '/ressources/projets-du-lab/decoupe-laser-carte-monde',
     project: 'projets-du-lab',
     summary:
@@ -2877,7 +2877,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-chateau',
-    title: 'Château de la Reine des Neiges',
+    title: 'Fabriquer le château de la Reine des Neiges',
     slug: '/ressources/projets-du-lab/chateau-reine-des-neiges',
     project: 'projets-du-lab',
     summary:
@@ -2896,7 +2896,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-poubelle-basket',
-    title: 'Poubelle basket',
+    title: 'Fabriquer une poubelle-basket',
     slug: '/ressources/projets-du-lab/poubelle-basket',
     project: 'projets-du-lab',
     summary:
@@ -2915,7 +2915,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-melangeur',
-    title: 'Mélangeur pour Dremel',
+    title: 'Fabriquer un mélangeur pour Dremel',
     slug: '/ressources/projets-du-lab/melangeur-dremel',
     project: 'projets-du-lab',
     summary:
@@ -2934,7 +2934,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-porte-frigo',
-    title: 'Réparer une porte de frigo en 3D',
+    title: 'Réparer une porte de frigo en utilisant une imprimante 3D',
     slug: '/ressources/projets-du-lab/reparer-porte-frigo',
     project: 'projets-du-lab',
     summary:
@@ -2953,7 +2953,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-labanque',
-    title: 'LABanque : monnaie du fablab',
+    title: 'Découvrir la monnaie du fablab (LABanque)',
     slug: '/ressources/projets-du-lab/labanque',
     project: 'projets-du-lab',
     summary:
@@ -2972,7 +2972,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'beau-jardin-21-siecle',
-    title: "Arrosage automatique d'une plante",
+    title: "Automatiser l'arrosage d'une plante",
     slug: '/ressources/thedexterlab/beau-jardin-21-siecle',
     project: 'thedexterlab',
     summary:
@@ -2999,7 +2999,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ocean-sale',
-    title: "Pourquoi l'océan est salé ?",
+    title: "Comprendre pourquoi l'océan est salé",
     slug: '/ressources/thedexterlab/ocean-sale',
     project: 'thedexterlab',
     summary:
@@ -3019,7 +3019,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lumiere-energie',
-    title: "L'énergie de la lumière",
+    title: "Étudier l'énergie de la lumière",
     slug: '/ressources/thedexterlab/lumiere-energie',
     project: 'thedexterlab',
     summary:
@@ -3039,7 +3039,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'vent-chutes-eau-energie',
-    title: "Énergie du vent et de l'eau",
+    title: "Étudier l'énergie du vent et de l'eau",
     slug: '/ressources/thedexterlab/vent-chutes-eau-energie',
     project: 'thedexterlab',
     summary:
@@ -3086,7 +3086,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'panneau-solaire-journee',
-    title: 'Panneau solaire sur une journée',
+    title: 'Étudier un panneau solaire sur une journée',
     slug: '/ressources/thedexterlab/panneau-solaire-journee',
     project: 'thedexterlab',
     summary:
@@ -3106,7 +3106,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'panneau-solaire-auto-orientable',
-    title: 'Panneau solaire auto-orientable',
+    title: 'Construire un panneau solaire auto-orientable',
     slug: '/ressources/thedexterlab/panneau-solaire-auto-orientable',
     project: 'thedexterlab',
     summary:
@@ -3133,7 +3133,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'plante-co2',
-    title: 'CO2 et photosynthèse',
+    title: 'Étudier le CO2 et la photosynthèse',
     slug: '/ressources/thedexterlab/plante-co2',
     project: 'thedexterlab',
     summary:
@@ -3153,7 +3153,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'qualite-air-personnes',
-    title: "Qualité de l'air et nombre d'élèves",
+    title: "Mesurer la qualité de l'air selon le nombre d'élèves",
     slug: '/ressources/thedexterlab/qualite-air-personnes',
     project: 'thedexterlab',
     summary:
@@ -3173,7 +3173,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'corps-acceleration',
-    title: 'Accélération du corps',
+    title: "Mesurer l'accélération du corps",
     slug: '/ressources/thedexterlab/corps-acceleration',
     project: 'thedexterlab',
     summary:
@@ -3193,7 +3193,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'temperature-vitesse-son',
-    title: 'Température et vitesse du son',
+    title: 'Étudier la température et la vitesse du son',
     slug: '/ressources/thedexterlab/temperature-vitesse-son',
     project: 'thedexterlab',
     summary:
@@ -3213,7 +3213,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'son-100-metres-seconde',
-    title: 'Vitesse du son',
+    title: 'Mesurer la vitesse du son',
     slug: '/ressources/thedexterlab/son-100-metres-seconde',
     project: 'thedexterlab',
     summary:
@@ -3233,7 +3233,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'temps-reaction-demi-seconde',
-    title: 'Temps de réaction',
+    title: 'Mesurer le temps de réaction',
     slug: '/ressources/thedexterlab/temps-reaction-demi-seconde',
     project: 'thedexterlab',
     summary:
@@ -3253,7 +3253,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'distraction-temps-reaction',
-    title: 'Distractions et temps de réaction',
+    title: "Mesurer l'effet des distractions sur le temps de réaction",
     slug: '/ressources/thedexterlab/distraction-temps-reaction',
     project: 'thedexterlab',
     summary:
@@ -3273,7 +3273,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'machine-vent-poids',
-    title: 'Machine éolienne à 50g',
+    title: 'Construire une machine éolienne à 50 g',
     slug: '/ressources/thedexterlab/machine-vent-poids',
     project: 'thedexterlab',
     summary:
@@ -3293,7 +3293,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'solution-meteo',
-    title: 'Station météo complète',
+    title: 'Construire une station météo complète',
     slug: '/ressources/thedexterlab/solution-meteo',
     project: 'thedexterlab',
     summary:
@@ -3313,7 +3313,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'ia-securite',
-    title: 'Serrure intelligente par IA',
+    title: "Construire une serrure intelligente en utilisant l'IA",
     slug: '/ressources/thedexterlab/ia-securite',
     project: 'thedexterlab',
     summary:
@@ -3340,7 +3340,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'co2-plantes-ph',
-    title: 'CO2, plantes et pH',
+    title: 'Étudier le CO2, les plantes et le pH',
     slug: '/ressources/thedexterlab/co2-plantes-ph',
     project: 'thedexterlab',
     summary:
@@ -3360,7 +3360,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'attenuation-son-materiau',
-    title: 'Atténuation du son par matériaux',
+    title: "Mesurer l'atténuation du son selon les matériaux",
     slug: '/ressources/thedexterlab/attenuation-son-materiau',
     project: 'thedexterlab',
     summary:
@@ -3400,7 +3400,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'algorithmes-bio-inspires',
-    title: 'Algorithmes bio-inspirés',
+    title: 'Découvrir les algorithmes bio-inspirés',
     slug: '/ressources/youth-ai-lab/algorithmes-bio-inspires',
     project: 'youth-ai-lab',
     summary:
@@ -3429,7 +3429,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'air-vrai-est-ce-vrai',
-    title: "Vrai ou faux selon l'IA ?",
+    title: "Distinguer le vrai du faux avec l'IA",
     slug: '/ressources/youth-ai-lab/air-vrai-est-ce-vrai',
     project: 'youth-ai-lab',
     summary:
@@ -3485,7 +3485,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'labo-ia-dans-machine',
-    title: 'Labo IA : dans la machine',
+    title: "Explorer l'IA dans la machine",
     slug: '/ressources/youth-ai-lab/labo-ia-dans-machine',
     project: 'youth-ai-lab',
     summary:
@@ -3512,7 +3512,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'illusion-tout-ce-qui-compte',
-    title: "L'illusion de la pensée",
+    title: "Démonter l'illusion de la pensée",
     slug: '/ressources/youth-ai-lab/illusion-tout-ce-qui-compte',
     project: 'youth-ai-lab',
     summary:
@@ -3540,7 +3540,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'pire-invention',
-    title: 'La pire invention',
+    title: 'Imaginer la pire invention',
     slug: '/ressources/youth-ai-lab/pire-invention',
     project: 'youth-ai-lab',
     summary:
@@ -3569,7 +3569,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'microbit',
-    title: 'Magnetics — Créer des projets multicartes (micro:bit)',
+    title: 'Créer des projets multicartes sur micro:bit',
     slug: '/ressources/magnetics/microbit',
     project: 'magnetics',
     summary:
@@ -3598,7 +3598,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'makecode-stm32',
-    title: 'Magnetics — Créer des projets multicartes (MakeCode STM32)',
+    title: 'Créer des projets multicartes sur MakeCode (STM32)',
     slug: '/ressources/magnetics/makecode-stm32',
     project: 'magnetics',
     summary:
@@ -3628,7 +3628,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'micropython',
-    title: 'Magnetics — Créer des projets multicartes (MicroPython)',
+    title: 'Créer des projets multicartes en MicroPython',
     slug: '/ressources/magnetics/micropython',
     project: 'magnetics',
     summary:
@@ -3678,7 +3678,7 @@ export const resources: Resource[] = [
   },
   {
     id: 't03-decouverte-thonny',
-    title: 'Thonny — Prise en main de MicroPython sur la STeaMi',
+    title: 'Prendre en main MicroPython avec Thonny',
     slug: '/ressources/inovmicro-exao/t03-decouverte-thonny',
     project: 'inovmicro-exao',
     summary:
@@ -3697,7 +3697,7 @@ export const resources: Resource[] = [
   },
   {
     id: 't04-vscode',
-    title: 'VS Code — Prise en main de MicroPython sur la STeaMi',
+    title: 'Prendre en main MicroPython avec VS Code',
     slug: '/ressources/inovmicro-exao/t04-vscode',
     project: 'inovmicro-exao',
     summary:
@@ -3716,7 +3716,7 @@ export const resources: Resource[] = [
   },
   {
     id: 't05-vittascience',
-    title: 'Vittascience — Prise en main de MicroPython sur la STeaMi',
+    title: "Prendre en main la STeaMi sur l'éditeur Vittascience",
     slug: '/ressources/inovmicro-exao/t05-vittascience',
     project: 'inovmicro-exao',
     summary:
@@ -3735,7 +3735,7 @@ export const resources: Resource[] = [
   },
   {
     id: 't06-bases-micropython',
-    title: 'Bases du langage — Prise en main de MicroPython sur la STeaMi',
+    title: 'Découvrir les bases de MicroPython',
     slug: '/ressources/inovmicro-exao/t06-bases-micropython',
     project: 'inovmicro-exao',
     summary:
@@ -3781,7 +3781,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i02-premier-circuit-breadboard',
-    title: 'Premier circuit sur breadboard',
+    title: 'Construire un premier circuit sur breadboard',
     slug: '/ressources/inovmicro-exao/i02-premier-circuit-breadboard',
     project: 'inovmicro-exao',
     summary:
@@ -3835,7 +3835,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i04-capteur-lumiere',
-    title: 'Prise en main du capteur de lumière',
+    title: 'Mesurer la lumière ambiante',
     slug: '/ressources/inovmicro-exao/i04-capteur-lumiere',
     project: 'inovmicro-exao',
     summary:
@@ -3882,7 +3882,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i06-code-morse',
-    title: 'Envoyer des messages en code Morse avec la STeaMi',
+    title: 'Envoyer des messages en code Morse',
     slug: '/ressources/inovmicro-exao/i06-code-morse',
     project: 'inovmicro-exao',
     summary:
@@ -3957,7 +3957,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i09-inclinaison-accelerometre',
-    title: 'Inclinaison avec accéléromètre',
+    title: "Mesurer l'inclinaison avec l'accéléromètre",
     slug: '/ressources/inovmicro-exao/i09-inclinaison-accelerometre',
     project: 'inovmicro-exao',
     summary:
@@ -4013,7 +4013,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i11-thermometre-lisible',
-    title: 'Thermomètre très lisible',
+    title: 'Afficher un thermomètre très lisible',
     slug: '/ressources/inovmicro-exao/i11-thermometre-lisible',
     project: 'inovmicro-exao',
     summary:
@@ -4042,7 +4042,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i12-alarme-mouvement',
-    title: 'Alarme de mouvement',
+    title: 'Créer une alarme de mouvement',
     slug: '/ressources/inovmicro-exao/i12-alarme-mouvement',
     project: 'inovmicro-exao',
     summary:
@@ -4100,7 +4100,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'i14-minuteur-electronique',
-    title: 'Minuteur électronique',
+    title: 'Fabriquer un minuteur électronique',
     slug: '/ressources/inovmicro-exao/i14-minuteur-electronique',
     project: 'inovmicro-exao',
     summary:
@@ -4157,7 +4157,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'depannage',
-    title: 'Dépannage STeaMi',
+    title: 'Dépanner la STeaMi',
     slug: '/ressources/inovmicro-exao/depannage',
     project: 'inovmicro-exao',
     summary:
@@ -4177,7 +4177,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-city-detective-challenge',
-    title: 'Cartographie citoyenne avec uMap',
+    title: 'Cartographier sa ville avec uMap',
     slug: '/ressources/steamcity/programmation/programmation-city-detective-challenge',
     project: 'steamcity',
     summary:
@@ -4196,7 +4196,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-decibel-detective',
-    title: 'Sonomètre avec micro:bit',
+    title: 'Construire un sonomètre avec micro:bit',
     slug: '/ressources/steamcity/programmation/programmation-decibel-detective',
     project: 'steamcity',
     summary:
@@ -4215,7 +4215,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-indoor-air-quality',
-    title: 'Capteur CO2 intérieur',
+    title: 'Mesurer le CO2 intérieur',
     slug: '/ressources/steamcity/programmation/programmation-indoor-air-quality',
     project: 'steamcity',
     summary:
@@ -4234,7 +4234,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-insulation',
-    title: "Mesure d'isolation micro:bit",
+    title: "Mesurer l'isolation avec micro:bit",
     slug: '/ressources/steamcity/programmation/programmation-insulation',
     project: 'steamcity',
     summary:
@@ -4253,7 +4253,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-outdoor-air-quality',
-    title: 'Station air extérieur',
+    title: 'Construire une station air extérieur',
     slug: '/ressources/steamcity/programmation/programmation-outdoor-air-quality',
     project: 'steamcity',
     summary:
@@ -4272,7 +4272,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-road-signs',
-    title: 'Reconnaissance de panneaux par IA',
+    title: 'Reconnaître des panneaux par IA',
     slug: '/ressources/steamcity/programmation/programmation-road-signs',
     project: 'steamcity',
     summary:
@@ -4291,7 +4291,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-sound-squad',
-    title: 'Carte sonore avec micro:bit',
+    title: 'Cartographier le son avec micro:bit',
     slug: '/ressources/steamcity/programmation/programmation-sound-squad',
     project: 'steamcity',
     summary:
@@ -4310,7 +4310,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-whisper-walls',
-    title: 'Sonomètre STM32',
+    title: 'Construire un sonomètre (STM32)',
     slug: '/ressources/steamcity/programmation/programmation-whisper-walls',
     project: 'steamcity',
     summary:
@@ -4329,7 +4329,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-zzz',
-    title: 'Capteur de sommeil micro:bit',
+    title: 'Mesurer le sommeil avec la carte micro:bit',
     slug: '/ressources/steamcity/programmation/programmation-zzz',
     project: 'steamcity',
     summary:
@@ -4348,7 +4348,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-attenuation-son-materiau',
-    title: 'Atténuation sonore STM32',
+    title: "Mesurer l'atténuation sonore (STM32)",
     slug: '/ressources/thedexterlab/programmation/programmation-attenuation-son-materiau',
     project: 'thedexterlab',
     summary:
@@ -4367,7 +4367,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-beau-jardin-21-siecle',
-    title: 'Arrosage automatique STM32',
+    title: "Automatiser l'arrosage (STM32)",
     slug: '/ressources/thedexterlab/programmation/programmation-beau-jardin-21-siecle',
     project: 'thedexterlab',
     summary:
@@ -4386,7 +4386,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-corps-acceleration',
-    title: 'Accéléromètre STM32',
+    title: "Mesurer l'accélération (STM32)",
     slug: '/ressources/thedexterlab/programmation/programmation-corps-acceleration',
     project: 'thedexterlab',
     summary:
@@ -4405,7 +4405,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-distraction-temps-reaction',
-    title: 'Test de distraction STM32',
+    title: 'Mesurer la distraction (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-distraction-temps-reaction',
     project: 'thedexterlab',
     summary:
@@ -4424,7 +4424,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-ocean-sale',
-    title: 'Conductimètre STM32',
+    title: 'Construire un conductimètre (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-ocean-sale',
     project: 'thedexterlab',
     summary:
@@ -4443,7 +4443,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-panneau-solaire-auto-orientable',
-    title: 'Panneau solaire orientable STM32',
+    title: 'Construire un panneau solaire orientable (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-panneau-solaire-auto-orientable',
     project: 'thedexterlab',
     summary:
@@ -4463,7 +4463,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-panneau-solaire-journee',
-    title: 'Suivi panneau solaire STM32',
+    title: 'Suivre un panneau solaire (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-panneau-solaire-journee',
     project: 'thedexterlab',
     summary:
@@ -4482,7 +4482,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-plante-co2',
-    title: 'Capteur CO2 plantes STM32',
+    title: 'Mesurer le CO2 des plantes (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-plante-co2',
     project: 'thedexterlab',
     summary:
@@ -4501,7 +4501,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-qualite-air-personnes',
-    title: 'Capteur CO2 classe STM32',
+    title: 'Mesurer le CO2 en classe (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-qualite-air-personnes',
     project: 'thedexterlab',
     summary:
@@ -4520,7 +4520,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-solution-meteo',
-    title: 'Station météo STM32',
+    title: 'Construire une station météo (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-solution-meteo',
     project: 'thedexterlab',
     summary:
@@ -4539,7 +4539,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-son-100-metres-seconde',
-    title: 'Mesure vitesse du son STM32',
+    title: 'Mesurer la vitesse du son (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-son-100-metres-seconde',
     project: 'thedexterlab',
     summary:
@@ -4558,7 +4558,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-temperature-vitesse-son',
-    title: 'Son et température STM32',
+    title: 'Étudier le son et la température (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-temperature-vitesse-son',
     project: 'thedexterlab',
     summary:
@@ -4577,7 +4577,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'programmation-temps-reaction-demi-seconde',
-    title: 'Temps de réaction STM32',
+    title: 'Mesurer le temps de réaction (STM32)',
     slug: '/ressources/thedexterlab/programmation/programmation-temps-reaction-demi-seconde',
     project: 'thedexterlab',
     summary:

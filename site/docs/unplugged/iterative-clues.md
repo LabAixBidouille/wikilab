@@ -121,7 +121,7 @@ S'il a réussi le défi, le joueur gagne 1 point de plus. Le premier joueur à o
 
 ### Sujet 2 - Compétitivité et rapidité de réaction
 
-Vous pouvez vous référer aux quêtes [Brain Twister](/ressources/unplugged/brain-twister), [Plastic continent](/ressources/unplugged/plastic-continent), [Form factor](/ressources/unplugged/form-factor), etc.
+Vous pouvez vous référer aux quêtes [Brain Twister](/ressources/unplugged/brain-twister), [Plastic continent](/ressources/unplugged/plastic-continent), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), etc.
 
 ### Sujet 3 - La pensée associative
 

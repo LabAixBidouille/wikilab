@@ -24,7 +24,7 @@ sidebar_position: 2
 
 :::info[Version STeaMi / MicroPython]
 
-Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard).
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Construire un premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard).
 
 :::
 

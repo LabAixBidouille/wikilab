@@ -112,7 +112,7 @@ L'enseignant divise les enfants en groupes de 4 à 5 personnes et distribue diff
 
 ### Sujet 3 - Penser logiquement pour résoudre des problèmes
 
-Consulter les quêtes [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix) et [Plastic continent](/ressources/unplugged/plastic-continent).
+Consulter les quêtes [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix) et [Plastic continent](/ressources/unplugged/plastic-continent).
 
 - https://heidisongs.blogspot.com/2019/07/how-to-teach-critical-thinking-skills.html
 
