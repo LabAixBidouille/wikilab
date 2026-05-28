@@ -11,6 +11,7 @@
     "lint:spell": "cspell --no-must-find-files",
     "lint:links": "docker run --rm -v $PWD:/input lycheeverse/lychee --config /input/.lychee.toml '/input/site/docs/**/*.md' '/input/README.md'",
     "lint:crosslinks": "node site/scripts/lint-crosslinks.mjs",
+    "lint:assets": "node site/scripts/check-local-assets.mjs",
     "verify-broken-links": "node site/scripts/verify-broken-links.mjs",
     "site:start": "npm --prefix site start",
     "site:build": "npm --prefix site run build",
