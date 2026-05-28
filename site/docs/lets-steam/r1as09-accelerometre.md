@@ -49,7 +49,7 @@ sidebar_position: 9
 
 :::info[Version STeaMi / MicroPython]
 
-Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Inclinaison avec accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre).
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Mesurer l'inclinaison avec l'accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre).
 
 :::
 

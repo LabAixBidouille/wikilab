@@ -25,7 +25,7 @@ sidebar_position: 10
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 <PdfLink href="/pdf/inovmicro-exao/STeaMi_Boutons.pdf">Télécharger en PDF</PdfLink>
 
@@ -99,7 +99,7 @@ Sur la STeaMi, cette résistance (4,7 kΩ) relie chaque broche de bouton à l'al
 
 ### 2. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 3. Lancer le programme
 

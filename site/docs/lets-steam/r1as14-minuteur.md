@@ -47,7 +47,7 @@ sidebar_position: 14
 
 :::info[Version STeaMi / MicroPython]
 
-Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique).
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Fabriquer un minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique).
 
 :::
 

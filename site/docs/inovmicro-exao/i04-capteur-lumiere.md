@@ -1,13 +1,13 @@
 ---
 id: i04-capteur-lumiere
-title: Capteur de lumière avec la STeaMi
-sidebar_label: "Capteur de lumière"
+title: Mesurer la lumière ambiante
+sidebar_label: "Mesurer la lumière"
 sidebar_position: 11
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Capteur de lumière avec la STeaMi
+# Mesurer la lumière ambiante
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -26,7 +26,7 @@ sidebar_position: 11
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`...) fonctionne aussi.
+- Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`...) fonctionne aussi.
 <PdfLink href="/pdf/inovmicro-exao/STeaMi_Lumiere.pdf">Télécharger en PDF</PdfLink>
 
 </div>
@@ -82,7 +82,7 @@ Contrairement à une photorésistance qui fournit une tension variable lue par u
 
 ### 2. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 3. Vérifier que le capteur répond
 

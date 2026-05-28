@@ -157,7 +157,7 @@ Pour les éditeurs MakeCode, l'équivalent passe par le bloc _allumer la LED_ + 
 
 :::info[Notes pour l'enseignant·e]
 
-Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Thonny : prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny).
+Le glisser-déposer rend la STeaMi accessible aux débutant·es : pas besoin d'installer un IDE complexe pour le tout premier programme. Les élèves peuvent développer dans l'éditeur web puis copier le fichier en un clic. Pour aller plus loin et bénéficier d'une console interactive, voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny).
 
 :::
 
@@ -173,7 +173,7 @@ Une fois la LED qui clignote validée, plusieurs pistes permettent d'explorer le
 
 Pour les autres capteurs (température et humidité via le HTS221, accélération via l'ISM330DL, pression atmosphérique, magnétomètre), des fiches dédiées sont en préparation dans le cadre du projet I-Novmicro #2.
 
-En cas de problème (carte qui n'apparaît pas, port série introuvable, console qui reste muette), consulter la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage) avant de creuser plus loin.
+En cas de problème (carte qui n'apparaît pas, port série introuvable, console qui reste muette), consulter la fiche [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage) avant de creuser plus loin.
 
 ---
 

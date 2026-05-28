@@ -48,7 +48,7 @@ sidebar_position: 12
 
 :::info[Version STeaMi / MicroPython]
 
-Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Alarme de mouvement](/ressources/inovmicro-exao/i12-alarme-mouvement).
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Créer une alarme de mouvement](/ressources/inovmicro-exao/i12-alarme-mouvement).
 
 :::
 

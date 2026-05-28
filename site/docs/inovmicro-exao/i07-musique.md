@@ -27,7 +27,7 @@ import ABCNotation from '@site/src/components/ABCNotation';
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 <img src="/img/ressources/inovmicro-exao/i07-musique/icone.png" alt="Composer une mélodie sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
@@ -116,7 +116,7 @@ Les deux Do (ou les deux Ré, etc.) sont la même note à une octave d'écart : 
 
 ### 4. Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### 5. Lancer le programme
 
@@ -526,7 +526,7 @@ Au lieu d'une seule mélodie en boucle, en stocker plusieurs dans des listes dif
 
 ### 3. Coder un message en Morse
 
-Avec le même buzzer, on peut produire des points et des tirets pour transmettre un message en code Morse. La fiche [Envoyer des messages en code Morse avec la STeaMi](/ressources/inovmicro-exao/i06-code-morse) explore cette piste en détail.
+Avec le même buzzer, on peut produire des points et des tirets pour transmettre un message en code Morse. La fiche [Envoyer des messages en code Morse](/ressources/inovmicro-exao/i06-code-morse) explore cette piste en détail.
 
 ### 4. Mélodie au rythme d'un capteur (bonus)
 

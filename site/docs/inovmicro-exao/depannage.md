@@ -1,13 +1,13 @@
 ---
 id: depannage
-title: Dépannage STeaMi
-sidebar_label: 'Dépannage'
+title: Dépanner la STeaMi
+sidebar_label: 'Dépanner'
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# Dépannage STeaMi
+# Dépanner la STeaMi
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -84,7 +84,7 @@ Le port apparaît sous la forme `/dev/cu.usbmodemXXXX` (le suffixe est généré
 
 **Cause** : la carte a peut-être un autre logiciel installé en interne (MakeCode, CODAL, ou rien) au lieu de MicroPython.
 
-**Solution** : (ré)installer MicroPython STeaMi en suivant la procédure de la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny), section *« Installer MicroPython sur la STeaMi »*. En résumé :
+**Solution** : (ré)installer MicroPython STeaMi en suivant la procédure de la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny), section *« Installer MicroPython sur la STeaMi »*. En résumé :
 
 1. Télécharger le fichier `steami-micropython-firmware-vX.Y.Z.hex` (le logiciel interne MicroPython de la STeaMi) depuis les [versions publiées sur GitHub](https://github.com/steamicc/micropython-steami-lib/releases).
 2. Glisser ce fichier sur le disque `STEAMI` qui apparaît à l'ordinateur.
@@ -150,7 +150,7 @@ Le programme reste accessible et exécutable manuellement (bouton Run de l'IDE),
 
 ## Ressources
 
-- [Thonny : Prise en main de MicroPython sur la STeaMi](/ressources/inovmicro-exao/t03-decouverte-thonny) : installation et configuration de l'IDE de référence
+- [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) : installation et configuration de l'IDE de référence
 - [Wiki STeaMi : matériel](https://wiki.steami.cc/docs/hardware/) : pinout et caractéristiques de la carte
 - [Documentation MicroPython](https://docs.micropython.org/) : référence du langage et des modules
 

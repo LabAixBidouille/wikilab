@@ -1,13 +1,13 @@
 ---
 id: t04-vscode
-title: "VS Code : Prise en main de MicroPython sur la STeaMi"
+title: "Prendre en main MicroPython avec VS Code"
 sidebar_label: "VS Code"
 sidebar_position: 4
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# VS Code : Prise en main de MicroPython sur la STeaMi
+# Prendre en main MicroPython avec VS Code
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
@@ -254,7 +254,7 @@ Si un programme est déjà en cours d'exécution sur la STeaMi et empêche d'ex�
 :::
 
 :::info[Sous Linux : `Permission denied` sur `/dev/ttyACM*`]
-Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépannage STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
+Si `mpremote connect auto` répond une erreur de permission, il faut ajouter le compte au groupe `dialout` (commande détaillée dans la fiche [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage)), puis se déconnecter / reconnecter à la session.
 :::
 
 ---
@@ -343,7 +343,7 @@ Les modules **spécifiques à la STeaMi** (`steami_screen`, `ism330dl`, `mcp2300
 
 ### Dépanner les erreurs courantes
 
-La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépannage STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
+La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
 
 - la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
 - le port série introuvable ou avec accès refusé (Windows / Linux) ;

@@ -46,7 +46,7 @@ sidebar_position: 11
 
 :::info[Version STeaMi / MicroPython]
 
-Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible).
+Une version de cette activité portée sur la carte **STeaMi** en **MicroPython** est disponible dans le projet I-Novmicro : [Afficher un thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible).
 
 :::
 

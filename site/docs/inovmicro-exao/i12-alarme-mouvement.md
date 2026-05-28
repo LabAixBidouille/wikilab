@@ -1,7 +1,7 @@
 ---
 id: i12-alarme-mouvement
-title: Alarme de mouvement
-sidebar_label: 'Alarme de mouvement'
+title: Créer une alarme de mouvement
+sidebar_label: 'Créer une alarme de mouvement'
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Alarme de mouvement
+# Créer une alarme de mouvement
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -28,7 +28,7 @@ sidebar_position: 12
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2)
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 </div>
 
@@ -50,7 +50,7 @@ La STeaMi embarque deux capteurs qui permettent de détecter le mouvement de deu
 Dans cette activité, on combine les deux pour fabriquer une **alarme à double protection** : la STeaMi sonne soit si on la déplace, soit si une main s'approche d'elle. On utilise le bouton Menu pour armer ou désarmer l'alarme, comme une vraie alarme de maison.
 
 :::info[Capteurs intégrés, rien à câbler]
-L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code. Voir les fiches [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine) (capteur de distance) et [Inclinaison avec accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre) pour découvrir chaque capteur en détail.
+L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code. Voir les fiches [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine) (capteur de distance) et [Mesurer l'inclinaison avec l'accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre) pour découvrir chaque capteur en détail.
 :::
 
 ---
@@ -105,7 +105,7 @@ La STeaMi possède un bouton noté **Menu** en plus des boutons A et B. On va s'
 
 ### Connecter la carte à l'ordinateur
 
-Branchez la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Branchez la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython est déjà configuré (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ---
 

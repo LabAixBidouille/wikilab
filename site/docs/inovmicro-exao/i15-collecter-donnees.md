@@ -26,7 +26,7 @@ sidebar_position: 15
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2)
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 - Un tableur (Google Sheets, LibreOffice Calc, Microsoft Excel...)
 
 </div>
@@ -118,7 +118,7 @@ ecoule_s = time.ticks_diff(time.ticks_ms(), debut) // 1000
 
 ### Connecter la carte à l'ordinateur
 
-Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
+Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà configuré (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) si vous démarrez), la console MicroPython doit afficher `>>>`. C'est **l'invite** (parfois appelée « prompt » en anglais) : un signe qui apparaît en début de ligne pour vous dire que la console est prête à recevoir une commande.
 
 ### Tester les capteurs dans l'invite
 
@@ -454,7 +454,7 @@ Les capteurs de la STeaMi sont précis, mais ils mesurent **au niveau de la cart
 - **Auto-échauffement** : l'électronique en marche dégage un peu de chaleur. Si la carte est posée au contact de l'air froid d'un frigo, le capteur indique souvent 1 à 3 °C de plus que la température réelle au centre du frigo.
 - **Emplacement** : poser la carte près de la porte du frigo, c'est mesurer l'air qui rentre à chaque ouverture, pas la zone froide du fond. La même pièce peut afficher 18 °C près d'une fenêtre et 23 °C près d'un radiateur.
 
-Pour rester scientifique : **compare toujours à un thermomètre de référence** (médical, station météo, thermomètre de cuisine, thermomètre du frigo si disponible) pendant 5 minutes au début de l'expérience. Note l'écart constant entre les deux, et corrige tes valeurs après coup. C'est exactement ce que fait la fiche [Thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible) avec `set_temp_offset()`.
+Pour rester scientifique : **compare toujours à un thermomètre de référence** (médical, station météo, thermomètre de cuisine, thermomètre du frigo si disponible) pendant 5 minutes au début de l'expérience. Note l'écart constant entre les deux, et corrige tes valeurs après coup. C'est exactement ce que fait la fiche [Afficher un thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible) avec `set_temp_offset()`.
 
 Et surtout : un capteur de température ne te dira **jamais** si ton frigo est conforme aux normes de sécurité alimentaire. Pour ça, il faut un thermomètre certifié et savoir où poser la sonde. Notre mesure est utile pour **explorer**, pas pour **certifier**.
 

@@ -49,7 +49,7 @@ sidebar_position: 4
 
 :::info[Version STeaMi / MicroPython]
 
-Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Capteur de lumière (I-Novmicro)](/ressources/inovmicro-exao/i04-capteur-lumiere).
+Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Mesurer la lumière ambiante (I-Novmicro)](/ressources/inovmicro-exao/i04-capteur-lumiere).
 
 :::
 

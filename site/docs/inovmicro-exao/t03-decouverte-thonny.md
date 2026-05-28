@@ -1,13 +1,13 @@
 ---
 id: t03-decouverte-thonny
-title: "Thonny : Prise en main de MicroPython sur la STeaMi"
+title: "Prendre en main MicroPython avec Thonny"
 sidebar_label: "Thonny"
 sidebar_position: 3
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Thonny : Prise en main de MicroPython sur la STeaMi
+# Prendre en main MicroPython avec Thonny
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
@@ -365,7 +365,7 @@ Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. 
 
 ### Dépanner les erreurs courantes
 
-La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thonny mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépannage STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
+La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thonny mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
 
 - la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
 - le port série introuvable ou avec accès refusé (Windows / Linux) ;

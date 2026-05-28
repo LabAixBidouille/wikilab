@@ -1,13 +1,13 @@
 ---
 id: i06-code-morse
-title: Envoyer des messages en code Morse avec la STeaMi
+title: Envoyer des messages en code Morse
 sidebar_label: "Code Morse"
 sidebar_position: 13
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# Envoyer des messages en code Morse avec la STeaMi
+# Envoyer des messages en code Morse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
@@ -25,7 +25,7 @@ sidebar_position: 13
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
-- Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
+- Un IDE compatible MicroPython : Thonny (voir la fiche [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
 <PdfLink href="/pdf/inovmicro-exao/STeaMi_Morse.pdf">Télécharger en PDF</PdfLink>
 
