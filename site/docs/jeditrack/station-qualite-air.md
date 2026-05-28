@@ -69,18 +69,7 @@ A partir de 10 ans
 
 Une liste exhaustive d'où trouver les composants est disponible dans la section "Références et liens utiles" présente à la fin de ce document. Sera également présente une archive zip contenant différents modèles 3D et dessins vectoriels (pour découpe laser) que nous avons utilisés pour réaliser un boîtier pour la station.
 
-## Déroulé de l'activité
-
----
-
-| **Phase** | **Description** | **Durée** |
-| --- | --- | --- |
-| 1 | Montage de la station de mesure | 1h |
-| 2 | Programmation de la station de mesure | 2h |
-| 3 | Réalisation des mesures (optionnel) | 1-3h |
-| 4 | Interprétation des résultats (optionnel) | 30m-1h |
-
-## Phase 0 : Préparatifs
+## Préparation
 
 ---
 
