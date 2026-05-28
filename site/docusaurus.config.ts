@@ -1,6 +1,8 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'Wiki@LAB',
@@ -15,6 +17,16 @@ const config: Config = {
         sizes: '192x192',
         href: '/img/favicon-192.png',
       },
+    },
+  ],
+
+  // CSS de KaTeX (rendu des formules mathématiques `$...$` / `$$...$$`).
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
+      type: 'text/css',
+      integrity: 'sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV',
+      crossorigin: 'anonymous',
     },
   ],
 
@@ -74,6 +86,8 @@ const config: Config = {
             keywords: ['question', 'hypothese'],
             extendDefaults: true,
           },
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {

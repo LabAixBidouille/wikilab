@@ -333,26 +333,19 @@ Exemple de tableau à remplir, séparé en deux pour rester lisible.
 
 Grâce à la consolidation des données dans un tableur numérique unique, les élèves pourront calculer pour chaque variable des statistiques descriptives simples : moyennes, médianes, écart-types.
 
-**Moyenne** : La valeur centrale d'un ensemble de données, calculée en additionnant toutes les valeurs et en divisant par le nombre total de valeurs.
-
-Méthode de calcul : Somme de toutes les valeurs / Nombre total de valeurs
-
-**Médiane** : La valeur qui se trouve au milieu d'un ensemble de données triées par ordre croissant ou décroissant.
-
-Méthode de calcul :
-
-1. Trier les données par ordre croissant
-2. Si le nombre de valeurs est impair, la médiane est la valeur du milieu
-3. Si le nombre de valeurs est pair, la médiane est la moyenne des deux valeurs du milieu
-
-**Écart-type** : Une mesure de la dispersion des valeurs autour de la moyenne, indiquant la variabilité des données.
-
-Méthode de calcul :
-
-1. Calculer la moyenne
-2. Pour chaque valeur, calculer son écart à la moyenne et le mettre au carré
-3. Calculer la moyenne de ces écarts au carré
-4. Prendre la racine carrée du résultat
+- **Moyenne** : la valeur centrale d'un ensemble de données, calculée en additionnant toutes les valeurs et en divisant par le nombre total de valeurs.
+  - _Méthode de calcul_ : somme de toutes les valeurs / nombre total de valeurs.
+- **Médiane** : la valeur qui se trouve au milieu d'un ensemble de données triées par ordre croissant ou décroissant.
+  - _Méthode de calcul_ :
+    - trier les données par ordre croissant ;
+    - si le nombre de valeurs est impair, la médiane est la valeur du milieu ;
+    - si le nombre de valeurs est pair, la médiane est la moyenne des deux valeurs du milieu.
+- **Écart-type** : une mesure de la dispersion des valeurs autour de la moyenne, indiquant la variabilité des données.
+  - _Méthode de calcul_ :
+    - calculer la moyenne ;
+    - pour chaque valeur, calculer son écart à la moyenne et le mettre au carré ;
+    - calculer la moyenne de ces écarts au carré ;
+    - prendre la racine carrée du résultat.
 
 Dans un deuxième temps, les élèves procéderont à l'analyse des corrélations entre les variables mesurées. En se basant sur leurs analyses préalables et leurs hypothèses de travail, les élèves choisiront les paires de variables les plus pertinentes à étudier. Par exemple :
 
@@ -366,18 +359,80 @@ Pour chaque paire de variables sélectionnée, les élèves calculeront le coeff
 
 Le coefficient de corrélation est la mesure spécifique qui quantifie la force de la relation linéaire entre deux variables d'une analyse de corrélation. Le coefficient est noté **r** dans un rapport de corrélation. Pour deux variables, la formule compare la distance de chaque point de données depuis la moyenne de la variable et l'utilise pour indiquer dans quelle mesure la relation entre les variables suit une ligne imaginaire tracée dans les données : c'est ce que l'on entend par « les corrélations concernent les relations linéaires ». La corrélation n'inclut que deux variables et ne donne aucune information sur des éventuelles relations contenant plus de données. Cette analyse ne détectera pas (et sera donc biaisée par) les valeurs aberrantes présentes dans les données et ne peut pas détecter les facteurs externes importants à considérer dans l'étude.
 
-**Étapes de calcul (exemple appliqué au protocole avec un nombre limité de mesures) :**
+**Formule** : le coefficient de corrélation de l'échantillon est donné par :
 
-1. Calculer les moyennes de l'échantillon pour chaque variable.
-2. Calculer la distance de chaque point de données par rapport à sa moyenne.
-3. Calculer le numérateur de l'équation du coefficient (somme des produits des écarts).
-4. Calculer le dénominateur de l'équation du coefficient (racine du produit des sommes des écarts au carré).
-5. Diviser le numérateur par le dénominateur pour obtenir **r**, puis interpréter.
+$$
+r = \frac{\sum\left[(x_i - \overline{x})(y_i - \overline{y})\right]}{\sqrt{\sum(x_i - \overline{x})^2 \cdot \sum(y_i - \overline{y})^2}}
+$$
 
-:::tip[**Détail des calculs et formule complète disponibles dans le PDF.**]
-- Tableau d'exemple chiffré étape par étape
-- Formule mathématique complète du coefficient de corrélation de Pearson
-:::
+**Exemple illustré** (appliqué au protocole, avec un nombre limité de mesures) :
+
+**Étape 1 — Calculer les moyennes de l'échantillon**
+
+| Nuit | Niveau de bruit (dB) | Interruptions de sommeil |
+| --- | --- | --- |
+| Lundi | 45 | 2 |
+| Mardi | 40 | 1 |
+| Mercredi | 55 | 4 |
+| Jeudi | 50 | 3 |
+| Vendredi | 60 | 5 |
+| Samedi | 35 | 0 |
+| Dimanche | 30 | 0 |
+| **Moyenne** | **45** | **2,14** |
+
+**Étape 2 — Calculer la distance de chaque point de données par rapport à sa moyenne**
+
+| Nuit | Niveau de bruit (dB) | Distance bruit − moyenne | Interruptions de sommeil | Distance interruptions − moyenne |
+| --- | --- | --- | --- | --- |
+| Lundi | 45 | 0 | 2 | -0,14 |
+| Mardi | 40 | -5 | 1 | -1,14 |
+| Mercredi | 55 | 10 | 4 | 1,86 |
+| Jeudi | 50 | 5 | 3 | 0,86 |
+| Vendredi | 60 | 15 | 5 | 2,86 |
+| Samedi | 35 | -10 | 0 | -2,14 |
+| Dimanche | 30 | -15 | 0 | -2,14 |
+
+**Étape 3 — Calculer le numérateur de l'équation**
+
+$$
+\sum\left[(x_i - \overline{x})(y_i - \overline{y})\right]
+$$
+
+| Nuit | Distance bruit − moyenne | Distance interruptions − moyenne | Produit |
+| --- | --- | --- | --- |
+| Lundi | 0 | -0,14 | 0 |
+| Mardi | -5 | -1,14 | 5,7 |
+| Mercredi | 10 | 1,86 | 18,6 |
+| Jeudi | 5 | 0,86 | 4,3 |
+| Vendredi | 15 | 2,86 | 42,9 |
+| Samedi | -10 | -2,14 | 21,4 |
+| Dimanche | -15 | -2,14 | 32,1 |
+| **Somme** |  |  | **125** |
+
+**Étape 4 — Calculer le dénominateur de l'équation**
+
+| Nuit | Distance bruit − moyenne | Distance bruit au carré | Distance interruptions − moyenne | Distance interruptions au carré |
+| --- | --- | --- | --- | --- |
+| Lundi | 0 | 0 | -0,14 | 0,0196 |
+| Mardi | -5 | 25 | -1,14 | 1,2996 |
+| Mercredi | 10 | 100 | 1,86 | 3,4596 |
+| Jeudi | 5 | 25 | 0,86 | 0,7396 |
+| Vendredi | 15 | 225 | 2,86 | 8,1796 |
+| Samedi | -10 | 100 | -2,14 | 4,5796 |
+| Dimanche | -15 | 225 | -2,14 | 4,5796 |
+| **Somme** |  | **700** |  | **22,86** |
+
+En multipliant les deux sommes, puis en prenant la racine carrée :
+
+$$
+700 \times 22{,}86 = 16\,002 \qquad \sqrt{16\,002} = 126{,}5
+$$
+
+**Étape 5 — Finaliser le calcul et conclure**
+
+$$
+r = \frac{125}{126{,}5} = 0{,}99
+$$
 
 **Interprétation :** plus **r** est proche de zéro, plus la relation linéaire est faible. Les valeurs positives de **r** indiquent une corrélation positive (les deux variables tendent à augmenter ensemble) ; les valeurs négatives, une corrélation négative (l'une augmente quand l'autre diminue). Les valeurs 1 et -1 représentent les corrélations « parfaites », positive et négative respectivement. Avec un coefficient de corrélation de 0,99, on peut conclure qu'il existe une très forte corrélation positive entre le niveau de bruit et le nombre d'interruptions de sommeil.
 
