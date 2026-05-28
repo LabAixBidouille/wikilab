@@ -299,7 +299,7 @@ Prenez quelques notes sur ce qui a bien fonctionné et ce qui pourrait être am�
 - La fortune sourit aux audacieux.
 - Ce que les yeux cachent, les mains le révèlent.
 
-<img src="/img/ressources/robots-meet-arts/chasseurs-tresors/exemple%20cartephrase.png" alt="Exemple de carte de phrase" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/chasseurs-tresors/exemple-cartephrase.png" alt="Exemple de carte de phrase" style={{maxWidth: '100%', height: 'auto'}} />
 
 ### Fiche de vocabulaire de programmation LEGO SPIKE
 

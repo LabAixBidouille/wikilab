@@ -634,7 +634,7 @@ Chaque équipe dispose de 2 heures pour :
 - **Équipe 6** : Fusion nucléaire commerciale
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/negawatt/Capture%20d%E2%80%99%C3%A9cran%20du%202026-04-27%2014-28-50.png" alt="Innovations énergétiques à analyser" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/negawatt/Capture-d-ecran-du-2026-04-27-14-28-50.png" alt="Innovations énergétiques à analyser" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Vue d'ensemble des innovations à analyser par équipe</figcaption>
 </figure>
 

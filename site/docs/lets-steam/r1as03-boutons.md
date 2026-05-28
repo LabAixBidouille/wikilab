@@ -90,7 +90,7 @@ La LED a une orientation. Pour désigner l'orientation correcte, chaque branche 
 - **Cathode** : C'est le « - » de la LED. La branche de la cathode est plus courte que le fil de l'anode.
 :::
 
-<img src="/img/ressources/lets-steam/r1as03-boutons/button%20breadboard.png" alt="Schéma de câblage boutons et LED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as03-boutons/button-breadboard.png" alt="Schéma de câblage boutons et LED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 2. Connecter la carte à l'ordinateur
 

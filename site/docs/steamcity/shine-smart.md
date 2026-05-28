@@ -58,7 +58,7 @@ Cette activité encourage une réflexion approfondie sur l'impact de l'éclairag
 Le protocole peut être entièrement réalisé en deux à trois séquences. Vous pouvez décider de réaliser uniquement l'étape 1 (environ 30 minutes à 1 heure), les étapes 1 et 2 (1 séquence en salle + 1 visite sur site), ou les étapes complètes (une séquence supplémentaire pour conclure et proposer des recommandations).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/shine-smart/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/shine-smart/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

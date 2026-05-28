@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   lint:
-    name: Lint (Prettier, Markdown, cspell, crosslinks)
+    name: Lint (Prettier, Markdown, cspell, crosslinks, assets)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
@@ -46,6 +46,9 @@ jobs:
 
       - name: Lint crosslinks Let's STEAM <-> I-NOVMICRO
         run: npm run lint:crosslinks
+
+      - name: Check local image assets (<img src> non couvert par le build)
+        run: npm run lint:assets
 
   build:
     name: Build Docusaurus + typecheck

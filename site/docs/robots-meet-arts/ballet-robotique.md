@@ -186,7 +186,7 @@ Rangez ensuite le matériel : éteignez les robots, fermez les logiciels et rang
 
 ## Annexe 1 - Caractéristiques de la danse ballet
 
-<img src="/img/ressources/robots-meet-arts/ballet-robotique/particularit%C3%A9ballet.png" alt="Caractéristiques de la danse ballet" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/ballet-robotique/particulariteballet.png" alt="Caractéristiques de la danse ballet" style={{maxWidth: '100%', height: 'auto'}} />
 
 ---
 

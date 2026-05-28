@@ -65,7 +65,7 @@ L'activité FactBuster est structurée en trois phases complémentaires, chacune
 L'activité peut être répartie sur plusieurs séances, ou sur plusieurs disciplines dans une approche interdisciplinaire : phase 1 seule (environ 30 minutes), phases 1 et 2 (2 séances) ou les trois phases (minimum 3 séances).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/fact-busters/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/fact-busters/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

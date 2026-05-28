@@ -72,7 +72,7 @@ Le **Carnet du Détective** est un outil central du protocole : il sert de fil c
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/city-detective-challenge/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/city-detective-challenge/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -353,7 +353,7 @@ Tableau de suivi : Service / Nom des agents / Date
 | Crise #3 | | |
 | Crise #… | | |
 
-<img src="/img/ressources/steamcity/city-detective-challenge/exemplecompterendu%20gestion%20crise.png" alt="Exemple de compte-rendu de gestion de crise" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/steamcity/city-detective-challenge/exemplecompterendu-gestion-crise.png" alt="Exemple de compte-rendu de gestion de crise" style={{maxWidth: '100%', height: 'auto'}} />
 
 Des fiches missions sont également disponibles pour structurer la réflexion de chaque service face aux crises :
 

@@ -322,19 +322,19 @@ Plusieurs formats de bornes sont disponibles, chacun avec ses particularités en
 
 **Borne Bartop** : modèle compact conçu pour être posé sur un meuble ou une table. Solution idéale pour les petits espaces ou pour ceux qui recherchent un modèle transportable. Espace limité pour les contrôles et l'écran.
 
-![Borne bartop](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__a9909538-a460-40b5-a585-99da017f76a3.png)
+![Borne bartop](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__a9909538-a460-40b5-a585-99da017f76a3.png)
 
 **Borne Cocktail** : design en forme de table, permettant de jouer assis face à face. Look rétro et polyvalence d'usage, mais plus complexe à construire et plus encombrante au sol.
 
-![Borne Cocktail](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image.png)
+![Borne Cocktail](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__image.png)
 
 **Borne Pedestal** : piédestal avec contrôles connectés à un écran séparé ou un téléviseur. Grande flexibilité en termes de taille d'écran, mais nécessite un support externe.
 
-![Borne pedestal](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image_1.png)
+![Borne pedestal](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__image_1.png)
 
 **Notre choix : la borne classique (Upright)**. Modèle debout de taille standard qui rappelle les bornes des années 80-90. Expérience nostalgique avec plus d'espace pour les contrôles et possibilité d'intégrer un écran de grande taille.
 
-![Bornes classiques](/img/ressources/jeditrack/borne-arcade/Modélisation_finale__image_2.png)
+![Bornes classiques](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__image_2.png)
 
 Au sein des bornes classiques, plusieurs styles existent :
 
@@ -468,18 +468,18 @@ Pour notre borne d'arcade, nous avons réalisé deux maquettes à l'échelle 1:6
 En parallèle, nous avons développé un prototype fonctionnel du panneau de contrôle pour valider l'ergonomie et l'électronique. Ce prototype a été testé lors d'un tournoi de retro gaming, ce qui nous a permis de valider l'espacement optimal entre les contrôles, tester la réactivité des joysticks sur différents types de jeux, identifier les ajustements nécessaires et recueillir les retours des utilisateurs.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem'}}>
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image.png" alt="Prototype - vue 1" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_1.png" alt="Prototype - vue 2" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_2.png" alt="Prototype - vue 3" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image.png" alt="Prototype - vue 1" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_1.png" alt="Prototype - vue 2" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_2.png" alt="Prototype - vue 3" style={{maxWidth: '280px'}} />
 </div>
 
 ### Modélisation finale
 
-![Modélisation 3D](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__025b50c0-d444-497d-8f14-dd7d3e1d3894.png)
+![Modélisation 3D](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__025b50c0-d444-497d-8f14-dd7d3e1d3894.png)
 
-![Modélisation - vue détaillée](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_3.png)
+![Modélisation - vue détaillée](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_3.png)
 
-![Modélisation - vue alternative](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_(2).png)
+![Modélisation - vue alternative](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_-2.png)
 
 ### Assemblage et finition
 
@@ -504,24 +504,24 @@ L'application s'est déroulée en plusieurs étapes :
 Pour compléter l'ensemble, nous avons installé le **T-molding** sur tous les bords exposés, ce qui donne une finition parfaite et protège les arêtes de la borne.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem'}}>
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_4.png" alt="Assemblage - étape 1" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_5.png" alt="Assemblage - étape 2" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_6.png" alt="Assemblage - étape 3" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_7.png" alt="Assemblage - étape 4" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_8.png" alt="Assemblage - étape 5" style={{maxWidth: '280px'}} />
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_9.png" alt="Assemblage - étape 6" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_4.png" alt="Assemblage - étape 1" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_5.png" alt="Assemblage - étape 2" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_6.png" alt="Assemblage - étape 3" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_7.png" alt="Assemblage - étape 4" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_8.png" alt="Assemblage - étape 5" style={{maxWidth: '280px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_9.png" alt="Assemblage - étape 6" style={{maxWidth: '280px'}} />
 </div>
 
 <figure style={{margin: '1.5rem 0'}}>
-<img src="/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__image_10.png" alt="Borne terminée" style={{maxWidth: '600px'}} />
+<img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_10.png" alt="Borne terminée" style={{maxWidth: '600px'}} />
 <figcaption style={{margin: 0}}>La borne d'arcade terminée, prête pour le retro gaming.</figcaption>
 </figure>
 
 ## Plans et ressources téléchargeables
 
-- [Plan de découpe complet (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Plan-de-dcoupe-Borne-dArcade.pdf)
-- [Cotes de découpe (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Dcoupe-Cts-Borne-dArcade.pdf)
-- [Emplacement des boutons (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Emplacement-boutons.pdf)
+- [Plan de découpe complet (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Plan-de-dcoupe-Borne-dArcade.pdf)
+- [Cotes de découpe (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Dcoupe-Cts-Borne-dArcade.pdf)
+- [Emplacement des boutons (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Emplacement-boutons.pdf)
 
 ---
 

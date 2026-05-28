@@ -27,6 +27,8 @@ sidebar_position: 8
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE compatible MicroPython : Thonny (voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny)) ou tout autre éditeur compatible (Mu, VS Code, Vittascience, `mpremote`...).
 
+<PdfLink href="/pdf/inovmicro-exao/STeaMi_LED.pdf">Télécharger en PDF</PdfLink>
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i01-led/icone.png" alt="Faire clignoter une LED" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>

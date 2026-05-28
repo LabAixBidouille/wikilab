@@ -85,9 +85,9 @@ Après plusieurs tours avec des règles différentes, les groupes proposent les 
 | | Les objets dont le nom commence par une VOYELLE |
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginTop: '1rem'}}>
-  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesr%C3%A8gles.png" alt="Exemple cartes-règles 1" style={{flex: 1, minWidth: '200px'}} />
-  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesr%C3%A8gles2.png" alt="Exemple cartes-règles 2" style={{flex: 1, minWidth: '200px'}} />
-  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesr%C3%A8gles3.png" alt="Exemple cartes-règles 3" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesregles.png" alt="Exemple cartes-règles 1" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesregles2.png" alt="Exemple cartes-règles 2" style={{flex: 1, minWidth: '200px'}} />
+  <img src="/img/ressources/youth-ai-lab/labo-ia-dans-machine/exemplecartesregles3.png" alt="Exemple cartes-règles 3" style={{flex: 1, minWidth: '200px'}} />
 </div>
 
 ---

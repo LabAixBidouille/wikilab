@@ -124,7 +124,7 @@ Commencez par présenter le robot de sol aux élèves. Faites une démonstration
 Expliquez ensuite l'activité aux élèves : Six cartes sont placées de manière aléatoire sur le sol ou sur une grande table. Chaque paire de cartes représente un mélange de couleurs. Par exemple : une carte « Jaune + Bleu » doit être associée à la carte « Vert ».
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/robots-meet-arts/chefs-oeuvre/m%C3%A9langecouleurs.png" alt="Mélange des couleurs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/robots-meet-arts/chefs-oeuvre/melangecouleurs.png" alt="Mélange des couleurs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0, textAlign: 'center'}}>Exemple de mélange des couleurs</figcaption>
 </figure>
 

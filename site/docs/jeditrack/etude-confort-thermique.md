@@ -82,7 +82,7 @@ Les **déséquilibres thermiques chroniques** peuvent avoir des effets sur la sa
 :::
 
 <figure style={{margin: '1rem 0'}}>
-  <img src="/img/ressources/jeditrack/etude-confort-thermique/les%20etudes%20des%20jeunes.png" alt="Illustration des données collectées pendant un atelier jeunesse" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/etude-confort-thermique/les-etudes-des-jeunes.png" alt="Illustration des données collectées pendant un atelier jeunesse" style={{width: '100%', height: 'auto'}} />
   <figcaption style={{margin: 0, textAlign: 'center'}}>Illustration des données collectées pendant un atelier jeunesse avec la caméra thermique Infiray P2 Pro</figcaption>
 </figure>
 

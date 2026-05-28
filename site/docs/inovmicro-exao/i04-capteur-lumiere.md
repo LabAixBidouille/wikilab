@@ -27,6 +27,8 @@ sidebar_position: 11
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
 - 1 ordinateur sous Windows, macOS ou Linux
 - Un IDE MicroPython installé et configuré pour la STeaMi. Voir la fiche [Thonny : Prise en main de MicroPython](/ressources/inovmicro-exao/t03-decouverte-thonny) pour la mise en place, tout autre éditeur compatible MicroPython (Mu, VS Code, Vittascience, `mpremote`...) fonctionne aussi.
+<PdfLink href="/pdf/inovmicro-exao/STeaMi_Lumiere.pdf">Télécharger en PDF</PdfLink>
+
 </div>
 <img src="/img/ressources/inovmicro-exao/i04-capteur-lumiere/icone.png" alt="Capteur de lumière sur la STeaMi" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 </div>

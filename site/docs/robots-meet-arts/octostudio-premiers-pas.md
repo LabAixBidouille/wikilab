@@ -130,10 +130,10 @@ Avant de commencer le défi 8, pensez à donner une instruction supplémentaire 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesdefi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesdefi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempleresolution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempleresolution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
   </div>
   <figcaption style={{margin: 0}}>Exemple de défis et résolutions</figcaption>
 </figure>
@@ -195,10 +195,10 @@ Rassemblez tous les élèves avec leurs tablettes en cercle. Placez une clochett
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesd%C3%A9fi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempler%C3%A9solution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesdefi.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exemplecartesdefi2.png" alt="Exemple carte défi" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempleresolution.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/robots-meet-arts/octostudio-premiers-pas/exempleresolution2.png" alt="Exemple résolution" style={{width: '100%', height: 'auto'}} />
   </div>
   <figcaption style={{margin: 0}}>Exemple de défis et résolutions</figcaption>
 </figure>

@@ -71,7 +71,7 @@ Les servomoteurs sont commandés par l'intermédiaire d'un **câble électrique 
 
 ## Étape 1 - Construire
 
-<img src="/img/ressources/lets-steam/r1as13-servomoteurs/servo%20(1).png" alt="Schéma de câblage du servomoteur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as13-servomoteurs/servo-1.png" alt="Schéma de câblage du servomoteur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Connecter le servomoteur à la carte
 
@@ -91,7 +91,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 **Ressource :** [makecode.lets-steam.eu](https://makecode.lets-steam.eu)
 
-![MakeCode Editor servomoteur](/img/ressources/lets-steam/r1as13-servomoteurs/MakeCode%20Editor.png)
+![MakeCode Editor servomoteur](/img/ressources/lets-steam/r1as13-servomoteurs/MakeCode-Editor.png)
 
 ### 4. Programmer la carte
 

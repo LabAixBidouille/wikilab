@@ -58,7 +58,7 @@ Le protocole se divise en trois phases complémentaires :
 - **Phase 3 : Entraînement du modèle en fonction des nouveaux signes conçus.** Validation et affinement des signaux via l'entraînement de l'outil automatique à reconnaître et classer les panneaux proposés par les élèves.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/road-signs/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/road-signs/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

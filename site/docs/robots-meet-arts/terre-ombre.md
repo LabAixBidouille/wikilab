@@ -383,7 +383,7 @@ BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londr
 - Vie de quartier : Chaque appartement a un petit jardin privé de 15 m2. Le quartier comprend un centre communautaire, une salle de spectacles, une crèche, un complexe sportif, un café et un restaurant. Il y a 33% de logements sociaux pour favoriser la mixité.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20BedZED%20-%20Londres%2C%20Royaume-Uni.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/Ecoquartier-BedZED-Londres-Royaume-Uni.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
   <img src="/img/ressources/robots-meet-arts/terre-ombre/ecoquartier-bedzed-londres-royaume-uni-2.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
@@ -397,7 +397,7 @@ Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, co
 - **Déplacements** : Le quartier est conçu pour favoriser la marche et le vélo. Un réseau de pistes cyclables le relie au centre-ville, et une ligne de bus à haut niveau de service dessert le quartier.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
-  <img src="/img/ressources/robots-meet-arts/terre-ombre/%C3%89coquartier%20Bo01%20-%20Malm%C3%B6%2C%20Su%C3%A8de.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/terre-ombre/Ecoquartier-Bo01-Malmo-Suede.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
   <img src="/img/ressources/robots-meet-arts/terre-ombre/ecoquartier-bo01-malmo-suede-2.png" alt="Écoquartier Bo01 - Malmö" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 

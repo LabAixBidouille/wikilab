@@ -160,7 +160,7 @@ Chaque élève reçoit une fiche de mémorisation vierge (grille vide ou feuille
 
 > « Vous pouvez utiliser cette fiche pour noter ce que vous découvrez. C'est votre fiche personnelle, vous pouvez la remplir comme vous le voulez. Attention : cette fiche sera votre seule aide pour programmer votre robot dans la suite de l'activité ! »
 
-<img src="/img/ressources/robots-meet-arts/ne-hier/BaseActiviteRobotique%20-%201.png" alt="Fiche de mémorisation - Base activité robotique" style={{width: '50%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/ne-hier/BaseActiviteRobotique-1.png" alt="Fiche de mémorisation - Base activité robotique" style={{width: '50%', height: 'auto'}} />
 
 L'exploration est collective (le groupe décide ensemble des mouvements), mais chaque élève remplit sa propre fiche de mémorisation individuelle. Cela permet d'observer la diversité des représentations mentales pour une même expérience vécue.
 

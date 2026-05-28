@@ -71,7 +71,7 @@ Le capteur d'humidité que nous utilisons possède trois broches : deux broches 
 Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Pour cette activité, installez les extensions **serial** et **soil-hygrometer**.
 :::
 
-<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%281%29.webp" alt="Datalogger capteur d'humidité" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled-1.webp" alt="Datalogger capteur d'humidité" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -105,7 +105,7 @@ forever(function () {
 Pour cette activité, installez les extensions **soil-hygrometer** et **oled**.
 :::
 
-<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%282%29.webp" alt="Capteur d'humidité avec écran" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled-2.webp" alt="Capteur d'humidité avec écran" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -139,7 +139,7 @@ forever(function () {
 - **Rouge** sur le 5V
 - **Orange** sur la broche 9
 
-<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%283%29.webp" alt="Servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled-3.webp" alt="Servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 
@@ -165,7 +165,7 @@ forever(function () {
 - La broche **-** du capteur sur GND
 - La broche **S** du capteur sur A0
 
-<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled%20%284%29.webp" alt="Capteur d'humidité avec servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-beau-jardin-21-siecle/Untitled-4.webp" alt="Capteur d'humidité avec servomoteur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 **Programme**
 

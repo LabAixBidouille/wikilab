@@ -59,7 +59,7 @@ L'expérimentation se déroule en trois phases clés :
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/pollinisateurs/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -343,7 +343,7 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 </div>
 
-<img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29.png" alt="Matériel nécessaire" style={{flex: '0 0 220px', maxWidth: '220px', height: 'auto', alignSelf: 'flex-start'}} />
+<img src="/img/ressources/steamcity/pollinisateurs/Materials-needed/French.png" alt="Matériel nécessaire" style={{flex: '0 0 220px', maxWidth: '220px', height: 'auto', alignSelf: 'flex-start'}} />
 
 </div>
 
@@ -355,10 +355,10 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 4. Placez les pièges dans différents environnements. Attendez quelques heures. Comptez combien d'insectes ont été capturés. Libérez les insectes capturés.
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '1rem 0'}}>
-  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%282%29.png" alt="Étape 1" style={{width: '100%', height: 'auto'}} />
-  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%283%29.png" alt="Étape 2" style={{width: '100%', height: 'auto'}} />
-  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%284%29.png" alt="Étape 3" style={{width: '100%', height: 'auto'}} />
-  <img src="/img/ressources/steamcity/pollinisateurs/Materials%20needed/%28French%29%20%285%29.png" alt="Étape 4" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials-needed/French-2.png" alt="Étape 1" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials-needed/French-3.png" alt="Étape 2" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials-needed/French-4.png" alt="Étape 3" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/steamcity/pollinisateurs/Materials-needed/French-5.png" alt="Étape 4" style={{width: '100%', height: 'auto'}} />
 </div>
 
 ---

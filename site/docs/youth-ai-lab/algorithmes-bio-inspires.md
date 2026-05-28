@@ -82,7 +82,7 @@ Chaque participant remplit sa propre fiche de mémorisation pour enregistrer ses
 
 Les missions vont du simple (avancer) au complexe (séquences, virages).
 
-![Fiche idéation - Algorithmes bio-inspirés](/img/ressources/youth-ai-lab/algorithmes-bio-inspires/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms%20(1).png)
+![Fiche idéation - Algorithmes bio-inspirés](/img/ressources/youth-ai-lab/algorithmes-bio-inspires/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms-1.png)
 
 ---
 

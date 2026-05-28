@@ -64,7 +64,7 @@ forever(function(){
 })
 ```
 
-<img src="/img/ressources/thedexterlab/programmation-attenuation-son-materiau/Untitled%20%289%29.webp" alt="Simulateur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-attenuation-son-materiau/Untitled-9.webp" alt="Simulateur" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 ---
 

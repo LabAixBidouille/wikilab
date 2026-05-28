@@ -58,7 +58,7 @@ L'activité se déroulera en trois étapes principales, chacune conçue pour int
 À la fin de l'activité, la discussion sera ouverte pour considérer avec les élèves les impacts positifs de l'IA dans leur vie quotidienne et leur avenir ainsi que pour identifier ses limites.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/bio-inspired-processes/StructureSch%C3%A9ma1.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/bio-inspired-processes/StructureSchema1.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -103,10 +103,10 @@ Ils doivent déplacer le marqueur dans l'une des quatre directions possibles (ha
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem'}}>
-    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/1.png" alt="Carte défi 1" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/2.png" alt="Carte défi 2" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/3.png" alt="Carte défi 3" style={{width: '100%', height: 'auto'}} />
-    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedéfis/4.png" alt="Carte défi 4" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedefis/1.png" alt="Carte défi 1" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedefis/2.png" alt="Carte défi 2" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedefis/3.png" alt="Carte défi 3" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/bio-inspired-processes/cartedefis/4.png" alt="Carte défi 4" style={{width: '100%', height: 'auto'}} />
   </div>
   <figcaption style={{margin: 0}}>Exemples de cartes défis</figcaption>
 </figure>

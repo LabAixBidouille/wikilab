@@ -69,7 +69,7 @@ Le protocole se déroule en quatre phases :
 - **Phase 4 — Analyse du rôle des acteurs** : examen des facteurs aggravants (trafic, chantiers, commerces), des acteurs impliqués (municipalités, entreprises, citoyens, urbanistes) et de leurs rôles respectifs dans la réduction des nuisances. Présentation possible aux acteurs locaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/sound-squad/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/sound-squad/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

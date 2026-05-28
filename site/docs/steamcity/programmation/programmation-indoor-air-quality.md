@@ -61,7 +61,7 @@ Cette fiche technique accompagne la ressource [Indoor Air Quality](/ressources/s
 Éditeurs : [vittascience.com/l476](https://fr.vittascience.com/l476), [vittascience.com/arduino](https://fr.vittascience.com/arduino) ou [vittascience.com/microbit](https://fr.vittascience.com/microbit).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/CO2%C3%A9cranLCDcapteurSCD30/assemblage.png" alt="Assemblage Étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/CO2ecranLCDcapteurSCD30/assemblage.png" alt="Assemblage Étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Assemblage du capteur SCD30 et de l'écran LCD</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ void loop() {}
 ```
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/CO2%C3%A9cranLCDcapteurSCD30/code.png" alt="Vue blocs Étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/CO2ecranLCDcapteurSCD30/code.png" alt="Vue blocs Étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Vue blocs du programme Étape 1</figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ Ce programme combine le capteur SCD30 et le bandeau NeoPixel. Des **structures c
 On stocke la valeur mesurée dans une variable **Taux de CO2** (via le menu Variables > Créer une variable) pour éviter de la recalculer à chaque test.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/indicateur%20led%20co2/assemblage.png" alt="Assemblage Étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/indicateur-led-co2/assemblage.png" alt="Assemblage Étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Assemblage du capteur SCD30 et du bandeau NeoPixel</figcaption>
 </figure>
 
@@ -249,7 +249,7 @@ void loop() {
 ```
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/indicateur%20led%20co2/code.png" alt="Vue blocs Étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/programmation-indoor-air-quality/indicateur-led-co2/code.png" alt="Vue blocs Étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Vue blocs du programme Étape 3</figcaption>
 </figure>
 
