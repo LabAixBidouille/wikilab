@@ -25,6 +25,8 @@ Le projet "Domotique" du LAB a pour objectif de construire nos propres systèmes
 
 ## Principes
 
+L'idée est d'assembler des briques matérielles et logicielles simples (cartes Arduino, Raspberry Pi, capteurs) qui communiquent par le réseau. La démonstration ci-dessous illustre ce principe avec le protocole MQTT : des capteurs publient leurs mesures sur des _topics_, un _broker_ central (le Raspberry Pi) les redistribue, et un afficheur s'y abonne pour les recevoir.
+
 ## Protocoles
 
 ### Protocole MQTT
@@ -459,6 +461,14 @@ void loop()
 
 ## Matériels
 
+L'exemple de démonstration MQTT mobilise :
+
+- **Broker** : un Raspberry Pi
+- **Émetteur** : Arduino Uno + shield Ethernet (chip W5100) + capteur DHT11 ou DHT22 + résistance 4,7 kOhm (ou 10 kOhm)
+- **Récepteur** : Arduino Uno + shield Ethernet (chip W5100) + shield LCD (DFR0009)
+
 ## Logiciels
 
-## Exemple de réalisation : Mini-serre
+- **Broker** : Mosquitto (broker MQTT) et Avahi Daemon, installés sur le Raspberry Pi
+- **Arduino** : IDE Arduino avec les librairies DHT, MQTTClient (Eclipse Paho) et LiquidCrystal
+- **Accès distant** : PuTTY pour prendre la main sur le Raspberry Pi
