@@ -33,7 +33,7 @@ L'objectif est de réaliser une carte du monde en liège à fixer au mur, sur la
 
 ## Logiciel
 
-- Inkscape pour la préparation et la mise au point du contour de découpe
+Inkscape pour la préparation et la mise au point du contour de découpe.
 
 ## Première étape : Trouver un tracé vectoriel
 
