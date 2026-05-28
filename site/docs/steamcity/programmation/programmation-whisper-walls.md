@@ -51,7 +51,7 @@ Cette fiche technique accompagne la ressource [Whisper Walls](/ressources/steamc
 
 ---
 
-## Fiche 1 : Mesurer l'intensité du son
+## Étape 1 : Mesurer l'intensité du son
 
 **Utilisation du microphone** : le microphone intégré au STM32 IoT Node Discovery est prêt à l'emploi, aucun câblage nécessaire.
 
@@ -75,7 +75,7 @@ forever(function() {
 
 ---
 
-## Fiche 2 : Afficher les données sur un écran LCD
+## Étape 2 : Afficher les données sur un écran LCD
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap', margin: '1rem 0'}}>
 
