@@ -30,5 +30,5 @@ export const categoryLabels: Record<Category, string> = {
   'makers-fabrication': '🛠️ Makers et fabrication',
   'arts-creativite': '🎨 Arts et créativité',
   'environnement-nature': '🌱 Environnement et nature',
-  'animation-jeunesse': "🎯 Actions d'animation jeunesse",
+  'animation-jeunesse': '🎯 Animation jeunesse',
 };
