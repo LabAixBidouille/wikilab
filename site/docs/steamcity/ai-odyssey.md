@@ -80,7 +80,7 @@ Le protocole se déroule en trois étapes complémentaires :
 - **Ville intelligente** : Une zone urbaine qui utilise différents types de méthodes et de capteurs électroniques pour collecter des données, qui sont utilisées pour gérer efficacement les actifs, les ressources et les services tout en améliorant la qualité de vie des citoyens.
 
 
-:::note
+:::info
 Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
 :::
 

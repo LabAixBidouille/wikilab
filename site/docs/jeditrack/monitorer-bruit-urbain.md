@@ -64,7 +64,7 @@ Le bruit **excessif et prolongé** affecte négativement la santé physique et m
 
 Le bruit affecte également la santé cognitive, surtout chez les enfants. Par exemple, le bruit des avions a été associé à des **troubles de la lecture chez environ 12 500 écoliers**. Bien que la pollution atmosphérique cause davantage de décès, le bruit a un impact plus immédiat sur la **qualité de vie** et le **bien-être mental**, d'après des études de l'OMS.
 
-:::note[Pourquoi cibler cette thématique auprès des jeunes ?]
+:::info[Pourquoi cibler cette thématique auprès des jeunes ?]
 - **Développer l'esprit critique** des jeunes face aux problématiques environnementales de leur quotidien
 - **Favoriser l'engagement citoyen** en leur donnant les outils pour comprendre et agir sur leur environnement
 - **Créer du lien social** autour d'un projet collectif de mesure et d'analyse

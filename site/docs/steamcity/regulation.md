@@ -264,7 +264,7 @@ Le premier défi, intitulé « City Challenge », représente la phase de mise e
 
 La mission de base est définie comme suit :
 
-:::note
+:::info
 Le kart se déplace dans les rues d'un Roobopoli standard, sur sa propre voie, en lisant les panneaux horizontaux qui renseignent sur les possibilités de franchissement d'intersections. Il doit respecter les feux de circulation, traverser au vert et s'arrêter au rouge, et traverser les intersections en choisissant aléatoirement les chemins disponibles. En cas d'obstacle, le kart doit s'arrêter et reprendre la mission dès qu'il est éliminé.
 :::
 

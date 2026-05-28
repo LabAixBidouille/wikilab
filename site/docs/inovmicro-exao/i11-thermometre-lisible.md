@@ -100,7 +100,7 @@ Pour rendre l'affichage expressif, on va combiner trois widgets de `steami_scree
 - `ecran.value(val, unit="C", label="Temperature")` : la valeur numérique en grand au centre
 - `ecran.subtitle("...")` : un texte de commentaire en bas
 
-:::tip[Pourquoi pas de °C ni d'accent sur l'écran ?]
+:::info[Pourquoi pas de °C ni d'accent sur l'écran ?]
 La petite police de l'écran OLED n'embarque pas tous les caractères accentués ni le symbole `°`. On utilise donc des chaînes en ASCII pur (`"C"` au lieu de `"°C"`, `"Temperature"` au lieu de `"Température"`) pour garantir un affichage propre. Dans le corps du texte de la fiche, on garde évidemment les accents.
 :::
 
