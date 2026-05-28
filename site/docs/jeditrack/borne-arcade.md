@@ -519,9 +519,9 @@ Pour compléter l'ensemble, nous avons installé le **T-molding** sur tous les b
 
 ## Plans et ressources téléchargeables
 
-- [Plan de découpe complet (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Plan-de-dcoupe-Borne-dArcade.pdf)
-- [Cotes de découpe (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Dcoupe-Cts-Borne-dArcade.pdf)
-- [Emplacement des boutons (PDF)](/img/ressources/jeditrack/borne-arcade/Version_réalisée_p__Emplacement-boutons.pdf)
+- [Plan de découpe complet (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Plan-de-dcoupe-Borne-dArcade.pdf)
+- [Cotes de découpe (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Dcoupe-Cts-Borne-dArcade.pdf)
+- [Emplacement des boutons (PDF)](/img/ressources/jeditrack/borne-arcade/Version_realisee_p__Emplacement-boutons.pdf)
 
 ---
 
