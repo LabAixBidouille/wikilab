@@ -1,7 +1,7 @@
 ---
 id: ecosystemes-en-bocaux
-title: Écosystème en bocal
-sidebar_label: "Écosystème en bocal"
+title: Construire un écosystème en bocal
+sidebar_label: "Construire un écosystème en bocal"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Écosystème en bocal
+# Construire un écosystème en bocal
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences</span>

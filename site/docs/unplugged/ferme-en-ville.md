@@ -1,7 +1,7 @@
 ---
 id: ferme-en-ville
-title: Ferme urbaine
-sidebar_label: "Ferme urbaine"
+title: Comprendre les ensembles dominants en créant des fermes urbaines
+sidebar_label: "Comprendre les ensembles dominants en créant des fermes urbaines"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Ferme urbaine
+# Comprendre les ensembles dominants en créant des fermes urbaines
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

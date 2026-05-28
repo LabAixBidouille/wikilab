@@ -1,7 +1,7 @@
 ---
 id: fantasy-out-there
-title: Créatures fantastiques
-sidebar_label: "Créatures fantastiques"
+title: Créer des créatures fantastiques
+sidebar_label: "Créer des créatures fantastiques"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Créatures fantastiques
+# Créer des créatures fantastiques
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

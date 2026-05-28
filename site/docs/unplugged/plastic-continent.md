@@ -1,7 +1,7 @@
 ---
 id: plastic-continent
-title: Continent de plastique
-sidebar_label: "Continent de plastique"
+title: Déjouer le continent de plastique
+sidebar_label: "Déjouer le continent de plastique"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# Continent de plastique
+# Déjouer le continent de plastique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Logique</span>

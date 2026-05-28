@@ -1,7 +1,7 @@
 ---
 id: la-ville-pop-up-du-futur
-title: Ville pop-up du futur
-sidebar_label: "Ville pop-up du futur"
+title: Construire une ville pop-up du futur
+sidebar_label: "Construire une ville pop-up du futur"
 sidebar_position: 15
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# Ville pop-up du futur
+# Construire une ville pop-up du futur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

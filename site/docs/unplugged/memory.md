@@ -1,7 +1,7 @@
 ---
 id: memory
-title: Memory éducatif
-sidebar_label: "Memory éducatif"
+title: Découvrir Scratch et le numérique en jouant au memory
+sidebar_label: "Découvrir Scratch et le numérique en jouant au memory"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# Memory éducatif
+# Découvrir Scratch et le numérique en jouant au memory
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

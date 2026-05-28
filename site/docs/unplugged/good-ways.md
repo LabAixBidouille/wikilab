@@ -1,7 +1,7 @@
 ---
 id: good-ways
-title: "Good ways : chemin éthique"
-sidebar_label: "Good ways : chemin éthique"
+title: "Choisir le chemin éthique"
+sidebar_label: "Choisir le chemin éthique"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Good ways : chemin éthique
+# Choisir le chemin éthique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

@@ -1,7 +1,7 @@
 ---
 id: grille-magique-de-la-paix
-title: Grille magique de la paix
-sidebar_label: "Grille magique de la paix"
+title: Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité
+sidebar_label: "Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Grille magique de la paix
+# Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

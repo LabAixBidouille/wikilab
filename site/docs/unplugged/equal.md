@@ -1,7 +1,7 @@
 ---
 id: equal
-title: "Equal : égalité et stéréotypes"
-sidebar_label: "Equal : égalité et stéréotypes"
+title: "Déjouer les stéréotypes"
+sidebar_label: "Déjouer les stéréotypes"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Equal : égalité et stéréotypes
+# Déjouer les stéréotypes
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

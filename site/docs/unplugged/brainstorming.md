@@ -1,7 +1,7 @@
 ---
 id: brainstorming
-title: Brainstorming en classe
-sidebar_label: "Brainstorming en classe"
+title: Animer un brainstorming en classe
+sidebar_label: "Animer un brainstorming en classe"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Brainstorming en classe
+# Animer un brainstorming en classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Expression orale</span>

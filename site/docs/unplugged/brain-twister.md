@@ -1,7 +1,7 @@
 ---
 id: brain-twister
-title: Casse-têtes Brain Twister
-sidebar_label: "Casse-têtes Brain Twister"
+title: Résoudre les casse-têtes « Brain Twister »
+sidebar_label: "Résoudre les casse-têtes « Brain Twister »"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Casse-têtes Brain Twister
+# Résoudre les casse-têtes « Brain Twister »
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

@@ -1,7 +1,7 @@
 ---
 id: potluck-march
-title: PotLuck March
-sidebar_label: "PotLuck March"
+title: Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires
+sidebar_label: "Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires"
 sidebar_position: 20
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 20
 
 <div style={{flex: 1}}>
 
-# PotLuck March
+# Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>
