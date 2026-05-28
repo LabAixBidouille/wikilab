@@ -11,6 +11,5 @@ site/**/*.js
 *.min.js
 *.min.css
 package-lock.json
-titles-backup.md
 analyse-categories.md
 demandes-photos.md
