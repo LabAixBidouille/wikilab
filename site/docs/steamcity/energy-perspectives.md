@@ -190,7 +190,7 @@ Soyez attentif aux confusions fréquentes (énergie/électricité, énergie/forc
 La carte mentale est simple et contient principalement les concepts intuitifs des élèves. On y trouve le terme central "ÉNERGIE" avec quelques branches principales par exemple : Sources (électricité, soleil, nourriture), Usages (chauffer, éclairer, bouger) et Sensations (force, chaleur, fatigue). À ce stade, la carte reflète les connaissances quotidiennes des élèves sans organisation spécifique.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Repr%C3%A9sentations%20Initiales.png" alt="Carte mentale - représentations initiales" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/energy-perspectives/ENERGIE-Representations-Initiales.png" alt="Carte mentale - représentations initiales" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Carte mentale au stade des représentations initiales</figcaption>
 </figure>
 
@@ -213,7 +213,7 @@ Des exemples de cartes sont disponibles en annexe.
 Les élèves enrichissent ensuite la carte mentale collective en y intégrant ces nouvelles classifications. Ils identifient les nouvelles branches à ajouter comme les types de sources, leur caractère renouvelable ou non, et leurs usages. Ils complètent également la branche "FORMES" avec les exemples tirés des cartes. L'enseignant guide les élèves pour établir des connexions significatives entre les différentes branches, rendant ainsi visible la complexité du concept d'énergie.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Structuration%20des%20connaissances.png" alt="Carte mentale - structuration des connaissances" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/energy-perspectives/ENERGIE-Structuration-des-connaissances.png" alt="Carte mentale - structuration des connaissances" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Carte mentale après la structuration des connaissances</figcaption>
 </figure>
 
@@ -256,14 +256,14 @@ De retour en classe entière, les élèves partagent leurs observations en utili
 Après avoir complété leurs fiches, les élèves enrichissent collectivement la carte mentale. Ils détaillent la branche "FORMES" avec les caractéristiques observées à chaque station, ajoutent une branche "CARACTÉRISTIQUES" avec les propriétés découvertes (transformation, transfert, conservation) et une branche "MESURES" avec les unités rencontrées. Les connexions établies entre les différentes formes d'énergie et leurs manifestations renforcent leur compréhension des interactions entre ces concepts.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Sources%20d%C3%A9taill%C3%A9es.png" alt="Carte mentale - sources détaillées" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/energy-perspectives/ENERGIE-Sources-detaillees.png" alt="Carte mentale - sources détaillées" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Carte mentale enrichie avec les sources détaillées</figcaption>
 </figure>
 
 La carte atteint sa forme finale. La définition centrale est plus précise et scientifique. Toutes les branches sont complètes. Chaque étape est représentée avec une couleur différente pour montrer visuellement la progression de la construction collective des connaissances. Cette visualisation permet de montrer comment le concept d'énergie, initialement vague et fragmenté, devient progressivement un concept scientifique structuré et cohérent.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/energy-perspectives/%C3%89NERGIE%20%E2%80%93%20Carte%20mentale%20finale.png" alt="Carte mentale finale" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/energy-perspectives/ENERGIE-Carte-mentale-finale.png" alt="Carte mentale finale" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Carte mentale finale</figcaption>
 </figure>
 
@@ -479,7 +479,7 @@ Pour prolonger cette phase et ancrer davantage les apprentissages dans une déma
 Ces prolongements permettraient aux élèves de mobiliser leurs connaissances dans des contextes concrets, renforçant ainsi leur capacité d'action et leur sentiment de pouvoir contribuer positivement aux défis énergétiques contemporains.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/energy-perspectives/Enjeux%20soci%C3%A9taux%20de%20l%27%C3%A9nergie%20%28version%20finalis%C3%A9e%29.png" alt="Enjeux sociétaux de l'énergie - synthèse finalisée" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/energy-perspectives/Enjeux-societaux-de-l-energie-version-finalisee.png" alt="Enjeux sociétaux de l'énergie - synthèse finalisée" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Synthèse finalisée des enjeux sociétaux de l'énergie</figcaption>
 </figure>
 

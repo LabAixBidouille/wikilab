@@ -72,7 +72,7 @@ Alors que nous faisons beaucoup de bruit à l'aide de buzzers et de haut-parleur
 **Ressource :** https://en.wikipedia.org/wiki/Chiptune
 :::
 
-<img src="/img/ressources/lets-steam/r1as07-musique/dessin%20mico.png" alt="Illustration du micro-contrôleur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/lets-steam/r1as07-musique/dessin-mico.png" alt="Illustration du micro-contrôleur" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
 ### 1. Câbler le buzzer/haut-parleur
 

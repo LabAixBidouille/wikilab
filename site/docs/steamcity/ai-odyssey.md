@@ -64,7 +64,7 @@ Le protocole se déroule en trois étapes complémentaires :
 - **Étape 3 — Phase d'analyse et de réflexion : comprendre la collecte de données urbaines.** En classe, les élèves comparent les résultats de terrain aux attentes initiales, répertorient les nouvelles découvertes et examinent les applications d'IA associées à chaque capteur. Ils réfléchissent de manière critique aux implications en matière de confidentialité, et évaluent l'équilibre entre progrès technologiques et vie privée.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/ai-odyssey/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/ai-odyssey/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

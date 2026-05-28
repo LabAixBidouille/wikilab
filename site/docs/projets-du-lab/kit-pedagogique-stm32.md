@@ -71,7 +71,7 @@ Commencez par découper la plaque de 3 mm d'épaisseur à la découpeuse laser e
 
 La plateforme de manipulation peut être adaptée selon les besoins de votre TP grâce au motif fourni précédemment.
 
-![Découpe laser du kit](/img/ressources/projets-du-lab/DécoupeST.jpg)
+![Découpe laser du kit](/img/ressources/projets-du-lab/DecoupeST.jpg)
 
 #### Montage
 

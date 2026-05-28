@@ -92,7 +92,7 @@ Les mood boards sont facilement réalisables sur un morceau de carton, un tablea
 :::
 
 <figure style={{margin: '1rem 0'}}>
-  <img src="/img/ressources/jeditrack/mini-projet-3-fabrication/Mini%20projet%203.png" alt="Exemples d'outils d'idéation" style={{width: '100%', height: 'auto'}} />
+  <img src="/img/ressources/jeditrack/mini-projet-3-fabrication/Mini-projet-3.png" alt="Exemples d'outils d'idéation" style={{width: '100%', height: 'auto'}} />
   <figcaption style={{margin: 0, textAlign: 'center'}}>Exemples d'outils d'idéation</figcaption>
 </figure>
 

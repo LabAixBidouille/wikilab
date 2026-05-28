@@ -64,7 +64,7 @@ Cette fiche technique accompagne la ressource [Distractions et temps de réactio
 
 Installez l'extension **Serial**.
 
-<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/donn%C3%A9escollect%C3%A9esledbouton.webp" alt="Données collectées LED + bouton" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-distraction-temps-reaction/donneescollecteesledbouton.webp" alt="Données collectées LED + bouton" style={{width: '100%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 ```javascript
 input.buttonD2.onEvent(ButtonEvent.Down, function () {

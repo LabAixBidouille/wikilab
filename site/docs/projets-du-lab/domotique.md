@@ -122,7 +122,7 @@ Pour prendre la main à distance depuis un PC (Avahi Daemon doit être installé
 
 ##### Montage
 
-![Montage DHT11](/img/ressources/projets-du-lab/DHT11_schéma.png)
+![Montage DHT11](/img/ressources/projets-du-lab/DHT11_schema.png)
 
 Remarque : le shield Ethernet n'est pas représenté ici.
 

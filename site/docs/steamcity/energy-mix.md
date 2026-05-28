@@ -585,7 +585,7 @@ Exemple : Le projet SIRenergy, financé par Interreg Europe, vise à promouvoir 
 
 <figure style={{margin: '1.5rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '0.75rem'}}>
-    <img src="/img/ressources/steamcity/energy-mix/Mod%C3%A9lisation%20%C3%A9nerg%C3%A9tique%20territoriale%20avec%20les%20collectivit%C3%A9s%20locales.png" alt="Modélisation énergétique territoriale" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/energy-mix/Modelisation-energetique-territoriale-avec-les-collectivites-locales.png" alt="Modélisation énergétique territoriale" style={{width: '100%', height: 'auto'}} />
     <img src="/img/ressources/steamcity/energy-mix/projet-de-micro-reseau-intelligent-au-sein-de-l-etablissemen.png" alt="Micro-réseau intelligent" style={{width: '100%', height: 'auto'}} />
     <img src="/img/ressources/steamcity/energy-mix/participation-aux-concours-internationaux-d-innovation-energ.png" alt="Concours d'innovation énergétique" style={{width: '100%', height: 'auto'}} />
     <img src="/img/ressources/steamcity/energy-mix/creation-d-une-cooperative-energetique-citoyenne.png" alt="Coopérative énergétique citoyenne" style={{width: '100%', height: 'auto'}} />

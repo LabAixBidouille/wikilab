@@ -64,7 +64,7 @@ Le protocole se déroule en quatre phases successives, qui mènent les élèves 
 - **Phase 4 — Créer le mur végétal** : concrétiser le projet en concevant la structure du mur, en sélectionnant les plantes, en installant un système de monitoring et en réfléchissant aux enjeux citoyens et environnementaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/plants-city/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/plants-city/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -443,7 +443,7 @@ Plan d'implantation :
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
   <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/plants-city/illustration%20repr%C3%A9sentant%20le%20mur%20v%C3%A9g%C3%A9tal%20adapt%C3%A9%20au%20climat%20m%C3%A9diterran%C3%A9en%20de%20Marseille.%20Vous%20pourrez%20observer%20les%20diff%C3%A9rentes%20zones%20de%20plantation%20et%20la%20disposition%20des%20esp%C3%A8ces%20adapt%C3%A9es.png" alt="Illustration mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/plants-city/illustration-representant-le-mur-vegetal-adapte-au-climat-mediterraneen-de-Marseille.-Vous-pourrez-observer-les-differentes-zones-de-plantation-et-la-disposition-des-especes-adaptees.png" alt="Illustration mur végétal Marseille" style={{width: '100%', height: 'auto'}} />
     <figcaption style={{margin: 0}}>Illustration générée pour Marseille</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>
@@ -478,7 +478,7 @@ Plan d'implantation général :
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
   <figure style={{margin: 0, textAlign: 'center'}}>
-    <img src="/img/ressources/steamcity/plants-city/illustration%20repr%C3%A9sentant%20un%20mur%20v%C3%A9g%C3%A9tal%20con%C3%A7u%20pour%20la%20ville%20de%20Brest%2C%20int%C3%A9grant%20des%20plantes%20adapt%C3%A9es%20au%20climat%20oc%C3%A9anique%20et%20%C3%A0%20un%20environnement%20urbain%20typique.png" alt="Illustration mur végétal Brest" style={{width: '100%', height: 'auto'}} />
+    <img src="/img/ressources/steamcity/plants-city/illustration-representant-un-mur-vegetal-concu-pour-la-ville-de-Brest-integrant-des-plantes-adaptees-au-climat-oceanique-et-a-un-environnement-urbain-typique.png" alt="Illustration mur végétal Brest" style={{width: '100%', height: 'auto'}} />
     <figcaption style={{margin: 0}}>Illustration générée pour Brest</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>

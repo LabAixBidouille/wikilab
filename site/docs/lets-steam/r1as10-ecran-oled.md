@@ -110,7 +110,7 @@ Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas d
 
 Vous voyez le bouton noir **AVANCÉ** en bas de la colonne des différents groupes de blocs. Si vous cliquez sur **AVANCÉ**, vous verrez apparaître des groupes de blocs supplémentaires. En bas, il y a une boîte grise appelée **EXTENSIONS**. Cliquez sur ce bouton.
 
-![Menu des extensions MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/menu%20extension.png)
+![Menu des extensions MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/menu-extension.png)
 
 Choisissez l'extension **« oled »**.
 
@@ -153,7 +153,7 @@ Vous pouvez écrire une ligne de texte avec la fonction `printString()`. Cette f
 </div>
 <div style={{flex: '0 0 180px'}}>
 
-![Capture d'écran MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/lets-steam-screenshot%20(4).png)
+![Capture d'écran MakeCode](/img/ressources/lets-steam/r1as10-ecran-oled/lets-steam-screenshot-4.png)
 
 </div>
 </div>

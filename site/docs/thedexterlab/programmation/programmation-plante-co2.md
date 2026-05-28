@@ -88,7 +88,7 @@ forever(function () {
 - SDA sur D14
 - SCL sur D15
 
-<img src="/img/ressources/thedexterlab/programmation-plante-co2/%C3%A9cran.webp" alt="Capteur CO2 avec écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-plante-co2/ecran.webp" alt="Capteur CO2 avec écran OLED" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez les extensions **mh-z19b** et **oled**.

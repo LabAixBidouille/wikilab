@@ -76,7 +76,7 @@ Dans cette activité, nous explorons l'importance des oiseaux, faisons la diffé
 | 180 min (3 séances) | Modéré | Ordinateurs ou appareils mobiles, microphones, BirdNET ou Merlin Bird ID, carnets, projecteur, OpenStreetMap |
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/bird-song-explorer/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/bird-song-explorer/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 
@@ -270,7 +270,7 @@ Après la phase d'écoute, un quiz est organisé pour tester les capacités de r
 
 </div>
 
-<img src="/img/ressources/steamcity/bird-song-explorer/fiche%20activit%C3%A9%20Birds%20Songs.png" alt="Fiche d'activité Birds Songs" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
+<img src="/img/ressources/steamcity/bird-song-explorer/fiche-activite-Birds-Songs.png" alt="Fiche d'activité Birds Songs" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
 
 </div>
 

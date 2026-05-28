@@ -88,7 +88,7 @@ forever(function () {
 - Violet pour SDA (D14)
 - Vert pour SCL (D15)
 
-<img src="/img/ressources/thedexterlab/programmation-corps-acceleration/Untitled%20%281%29.webp" alt="Écran LCD connecté" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
+<img src="/img/ressources/thedexterlab/programmation-corps-acceleration/Untitled-1.webp" alt="Écran LCD connecté" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
 :::info
 Pour cette activité, installez l'extension **lcd_i2c**.

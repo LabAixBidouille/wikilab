@@ -78,7 +78,7 @@ L'animateur·rice recueille et discute brièvement les réponses des élèves, s
 
 **Clarification fondamentale : Tout ce qui est automatique n'est pas de l'intelligence artificielle.**
 
-<img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI%20(1).png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
+<img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI-1.png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
 ---
 

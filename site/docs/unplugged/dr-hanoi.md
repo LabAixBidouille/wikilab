@@ -122,7 +122,7 @@ Si tous les joueurs sont éliminés, il n'y a pas de gagnant.
 
 En début ou fin de partie, l'enseignant/éducateur peut utiliser les tests de logique à faire par écrit disponibles dans le PDF pour diversifier le jeu.
 
-<img src="/img/ressources/unplugged/dr-hanoi/exempleactivité.png" alt="Exemple d'activité Dr. Hanoï" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
+<img src="/img/ressources/unplugged/dr-hanoi/exempleactivite.png" alt="Exemple d'activité Dr. Hanoï" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 

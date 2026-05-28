@@ -62,7 +62,7 @@ Nous proposons une approche en trois étapes dans laquelle les élèves sont con
 3. **Phase 3 — « Données vs. contexte »** : les élèves, toujours organisés dans les groupes créés à la phase 2, avec la même mission, auront accès à une nouvelle information qui n'avait pas été révélée à l'étape précédente. Ils devront discuter si et comment cette nouvelle ressource a un impact sur leurs conclusions. Ils peuvent affiner leurs propositions de politiques publiques et réfléchir à la façon dont ils ont construit leur compréhension de la situation tout au long de l'activité.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
-  <img src="/img/ressources/steamcity/donnees-contexte/StructureSch%C3%A9ma.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
+  <img src="/img/ressources/steamcity/donnees-contexte/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Structure du protocole</figcaption>
 </figure>
 

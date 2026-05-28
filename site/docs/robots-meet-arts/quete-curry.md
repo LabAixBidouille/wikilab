@@ -369,8 +369,8 @@ Chaque étape peut devenir un point de décision potentiel dans votre labyrinthe
 ## Annexe - Templates Storytelling
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
-  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming%20-%20Storytelling%20-%20Template%20-%20Copy%20of%20Storytelling.jpg" alt="Template Storytelling" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
-  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming%20-%20Storytelling%20-%20Template%20-%20Copy%20of%20Settings.jpg" alt="Template Settings" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming-Storytelling-Template-Copy-of-Storytelling.jpg" alt="Template Storytelling" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
+  <img src="/img/ressources/robots-meet-arts/quete-curry/Brainstorming-Storytelling-Template-Copy-of-Settings.jpg" alt="Template Settings" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
 ## Annexe - Diagramme du labyrinthe narratif
