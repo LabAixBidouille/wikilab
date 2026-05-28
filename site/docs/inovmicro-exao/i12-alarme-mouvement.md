@@ -50,7 +50,7 @@ La STeaMi embarque deux capteurs qui permettent de détecter le mouvement de deu
 Dans cette activité, on combine les deux pour fabriquer une **alarme à double protection** : la STeaMi sonne soit si on la déplace, soit si une main s'approche d'elle. On utilise le bouton Menu pour armer ou désarmer l'alarme, comme une vraie alarme de maison.
 
 :::info[Capteurs intégrés, rien à câbler]
-L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code. Voir les fiches [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine) (capteur de distance) et [Inclinaison avec accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre) pour découvrir chaque capteur en détail.
+L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code. Voir les fiches [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine) (capteur de distance) et [Mesurer l'inclinaison avec l'accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre) pour découvrir chaque capteur en détail.
 :::
 
 ---

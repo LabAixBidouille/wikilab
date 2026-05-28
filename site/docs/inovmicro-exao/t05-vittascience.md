@@ -270,7 +270,7 @@ Le REPL de Vittascience web utilise la **Web Serial API**, disponible uniquement
 
 ### Dépanner les erreurs courantes
 
-La plupart des problèmes rencontrés ne sont pas spécifiques à Vittascience mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépannage STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
+La plupart des problèmes rencontrés ne sont pas spécifiques à Vittascience mais touchent le matériel ou l'environnement MicroPython (câble, port série, programme bloqué). Ils sont regroupés sur la page transverse [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage), qui couvre :
 
 - la carte qui n'apparaît pas comme disque `STEAMI` (câble) ;
 - le port série introuvable ou avec accès refusé (Windows / Linux) ;

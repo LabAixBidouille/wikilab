@@ -45,7 +45,7 @@ sidebar_position: 11
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Distractions et temps de réaction](/ressources/thedexterlab/distraction-temps-reaction). Elle reprend la chaîne de programmation pour mesurer le temps de réaction avec stimulus visuel ou sonore, afin d'étudier comment différentes formes de distraction (musique, téléphone, conversation) affectent la vitesse de réponse.
+Cette fiche technique accompagne la ressource [Mesurer l'effet des distractions sur le temps de réaction](/ressources/thedexterlab/distraction-temps-reaction). Elle reprend la chaîne de programmation pour mesurer le temps de réaction avec stimulus visuel ou sonore, afin d'étudier comment différentes formes de distraction (musique, téléphone, conversation) affectent la vitesse de réponse.
 
 ## Objectifs d'apprentissage
 

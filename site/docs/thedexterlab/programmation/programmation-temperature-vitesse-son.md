@@ -42,7 +42,7 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Température et vitesse du son](/ressources/thedexterlab/temperature-vitesse-son). Elle décrit le câblage d'un capteur à ultrasons HC-SR04 et d'un écran OLED, ainsi que le programme qui déclenche la mesure et affiche à la fois la température et le temps de parcours du son.
+Cette fiche technique accompagne la ressource [Étudier la température et la vitesse du son](/ressources/thedexterlab/temperature-vitesse-son). Elle décrit le câblage d'un capteur à ultrasons HC-SR04 et d'un écran OLED, ainsi que le programme qui déclenche la mesure et affiche à la fois la température et le temps de parcours du son.
 
 ## Objectifs d'apprentissage
 

@@ -150,7 +150,7 @@ Le programme reste accessible et exécutable manuellement (bouton Run de l'IDE),
 
 ## Ressources
 
-- [Thonny : Prise en main de MicroPython sur la STeaMi](/ressources/inovmicro-exao/t03-decouverte-thonny) : installation et configuration de l'IDE de référence
+- [Prendre en main MicroPython avec Thonny](/ressources/inovmicro-exao/t03-decouverte-thonny) : installation et configuration de l'IDE de référence
 - [Wiki STeaMi : matériel](https://wiki.steami.cc/docs/hardware/) : pinout et caractéristiques de la carte
 - [Documentation MicroPython](https://docs.micropython.org/) : référence du langage et des modules
 

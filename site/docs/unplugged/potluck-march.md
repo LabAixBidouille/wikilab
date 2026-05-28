@@ -116,7 +116,7 @@ L'enseignant demande aux joueurs situés à la ligne d'arrivée de compter le no
 
 ### Sujet 2 - Addition et soustraction, stratégie
 
-Vous pouvez vous référer à [Biscuits et paix](/ressources/unplugged/biscuits-et-paix), [Comptage binaire](/ressources/unplugged/binary-counting), etc.
+Vous pouvez vous référer à [Négocier la paix avec des biscuits](/ressources/unplugged/biscuits-et-paix), [Comptage binaire](/ressources/unplugged/binary-counting), etc.
 
 ### Sujet 3 - Nutrition
 

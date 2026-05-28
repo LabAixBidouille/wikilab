@@ -115,7 +115,7 @@ Lancez une discussion sur ce qui unit les nations européennes.
 
 ### Sujet 2 - Égalité
 
-- Autres quêtes Unplugged : [Form factor](/ressources/unplugged/form-factor), [Equal](/ressources/unplugged/equal), [Biscuits et paix](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
+- Autres quêtes Unplugged : [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), [Equal](/ressources/unplugged/equal), [Négocier la paix avec des biscuits](/ressources/unplugged/biscuits-et-paix), [Argile et sculpture](/ressources/unplugged/argile-et-sculpture)
 - https://minds-in-bloom.com/how-to-teach-equality-and-diversity-in/
 
 ### Sujet 3 - Identité européenne

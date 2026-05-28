@@ -86,7 +86,7 @@ La cuisine est également largement liée à plusieurs processus chimiques qui p
 
 :::info[Remarque]
 
-Si la classe ne peut pas utiliser de vrais ingrédients, l'enseignant peut utiliser des cartes à la place. Reportez-vous au jeu [PotLuck March](/ressources/unplugged/potluck-march) pour imprimer des cartes avec des ingrédients.
+Si la classe ne peut pas utiliser de vrais ingrédients, l'enseignant peut utiliser des cartes à la place. Reportez-vous au jeu [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march) pour imprimer des cartes avec des ingrédients.
 :::
 
 ### Règles du jeu
@@ -141,7 +141,7 @@ La classe/l'école peut également envisager de déclarer une "Journée des ress
 
 ### Sujet 1 - Distribution inégale des ressources
 
-Vous pouvez explorer la relation entre la nourriture et la richesse, et de la manière dont elles ont un impact sur chacun d'entre nous, individuellement et collectivement. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [PotLuck March](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix) et consulter les ressources suivantes :
+Vous pouvez explorer la relation entre la nourriture et la richesse, et de la manière dont elles ont un impact sur chacun d'entre nous, individuellement et collectivement. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix) et consulter les ressources suivantes :
 
 - CFBNJ Hunger Activities de Diana Levy : https://cfbnj.org/wp-content/uploads/2021/11/Roots-of-Hunger.pdf
 - Jeu Graham-Cracker : https://web.archive.org/web/20221018101114/https://rswr.org/sites/default/files/2018-06/Graham-Cracker-Game.pdf (archive.org 2022-10)
@@ -149,7 +149,7 @@ Vous pouvez explorer la relation entre la nourriture et la richesse, et de la ma
 
 ### Sujet 2 - Importance de la négociation et de la coopération
 
-Nouer et entretenir de bonnes relations est une compétence essentielle pour le développement social et émotionnel des enfants. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [PotLuck March](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), etc. ou consulter les liens suivants :
+Nouer et entretenir de bonnes relations est une compétence essentielle pour le développement social et émotionnel des enfants. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), etc. ou consulter les liens suivants :
 
 - 41 jeux coopératifs amusants pour les enfants : https://kidactivities.net/41-fun-cooperative-games-for-kids
 - 14 activités amusantes et motivantes de renforcement de l'esprit d'équipe pour les enfants : https://www.merakilane.com/14-fun-and-engaging-team-building-activities-for-kids
@@ -157,7 +157,7 @@ Nouer et entretenir de bonnes relations est une compétence essentielle pour le 
 
 ### Sujet 3 - Créativité et réflexion hors des sentiers battus pour résoudre les problèmes
 
-Il est très important de doter les enfants de compétences en matière de résolution des conflits. La créativité encourage à trouver de nouvelles perspectives et à proposer des solutions innovantes lorsque la pensée conventionnelle échoue. Vous pouvez vous référer à d'autres quêtes d'Unplugged, par exemple [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Form factor](/ressources/unplugged/form-factor), etc. et consulter :
+Il est très important de doter les enfants de compétences en matière de résolution des conflits. La créativité encourage à trouver de nouvelles perspectives et à proposer des solutions innovantes lorsque la pensée conventionnelle échoue. Vous pouvez vous référer à d'autres quêtes d'Unplugged, par exemple [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), etc. et consulter :
 
 - Les jeux qui favorisent les compétences en résolution de problèmes : https://web.archive.org/web/20221018101102/https://www.stenhouse.com/sites/default/files/public/legacy/pdfs/8247ch10.pdf (archive.org 2022-10)
 - 10 vidéos sans paroles qui enseignent la résolution de problèmes : https://speechisbeautiful.com/2017/03/10-wordless-videos-teach-problem-solving

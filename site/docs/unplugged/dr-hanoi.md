@@ -130,14 +130,14 @@ En début ou fin de partie, l'enseignant/éducateur peut utiliser les tests de l
 
 ### Sujet 1 - Réflexion logique et stratégique
 
-Pour développer davantage le raisonnement logique, tu peux te référer à d'autres jeux Unplugged, parmi lesquels : [Memory](/ressources/unplugged/memory), [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Grille magique de la paix](/ressources/unplugged/grille-magique-de-la-paix), [PotLuck March](/ressources/unplugged/potluck-march), [Reroute better world](/ressources/unplugged/reroute-better-world), [Plastic continent](/ressources/unplugged/plastic-continent), etc.
+Pour développer davantage le raisonnement logique, tu peux te référer à d'autres jeux Unplugged, parmi lesquels : [Memory](/ressources/unplugged/memory), [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix), [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march), [S'orienter sur la route des ODD](/ressources/unplugged/reroute-better-world), [Plastic continent](/ressources/unplugged/plastic-continent), etc.
 
 - Pour en savoir plus sur le raisonnement logique : https://criticalthinkingsecrets.com/what-is-logical-thinking/
 - Pour en savoir plus sur la combinatoire et sa relation avec l'informatique : https://www.carthrottle.com/post/2zm2ele/
 
 ### Sujet 2 - Dextérité
 
-Pour développer davantage la dextérité, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Reroute better world](/ressources/unplugged/reroute-better-world), [Plastic continent](/ressources/unplugged/plastic-continent), [Brain Twister](/ressources/unplugged/brain-twister), etc.
+Pour développer davantage la dextérité, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [S'orienter sur la route des ODD](/ressources/unplugged/reroute-better-world), [Plastic continent](/ressources/unplugged/plastic-continent), [Brain Twister](/ressources/unplugged/brain-twister), etc.
 
 - Pour vous inspirer d'autres idées pour entraîner la dextérité (en) : https://www.teachearlyyears.com/images/uploads/article/Developing_fine_motor_skills.pdf
 

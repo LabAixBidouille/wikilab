@@ -211,7 +211,7 @@ Imaginer un usage qui sorte du « variateur de lumière ». Pistes :
 - Un **contrôleur de température cible** d'un thermostat (la position du bouton fixe une consigne, comparée à la température lue sur le HTS221 intégré à la STeaMi).
 - Une **manette analogique** pour un mini-jeu sur l'écran OLED : la position du curseur déplace un sprite horizontalement.
 - Un **prototype de jauge** où le potentiomètre simule le niveau d'essence d'une voiture et la LED s'allume rouge quand on passe en réserve.
-- Un **doseur** virtuel : on tourne le bouton pour fixer une durée (entre 1 et 10 minutes), un buzzer sonne à la fin (en combinaison avec la fiche [Minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique)).
+- Un **doseur** virtuel : on tourne le bouton pour fixer une durée (entre 1 et 10 minutes), un buzzer sonne à la fin (en combinaison avec la fiche [Fabriquer un minuteur électronique](/ressources/inovmicro-exao/i14-minuteur-electronique)).
 
 ---
 
