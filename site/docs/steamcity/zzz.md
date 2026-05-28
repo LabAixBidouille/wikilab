@@ -305,16 +305,29 @@ Après la consolidation des données individuelles dans un dossier organisé et 
 
 **Traitement initial des données** : Chaque groupe crée un tableau unique pour chaque participant étudié, regroupant toutes les variables mesurées (environnementales et liées au sommeil). Standardisez les formats de données (unités de mesure, échelles d'évaluation) pour assurer la cohérence entre les différentes études. Le traitement des données sera facilité si elles sont toutes disponibles (dans la mesure du possible) au format numérique. Par exemple, pour les évaluations qualitatives, nous pouvons utiliser des échelles de notation entre 1 et 5 ou 1 et 10 afin de créer plus facilement des corrélations grâce à des outils mathématiques et statistiques.
 
-Exemple de tableau à remplir :
+Exemple de tableau à remplir, séparé en deux pour rester lisible.
 
-| Date | Niveau de bruit (dB) | Lumière (Lux) | Température (°C) | Humidité (%) | Mouvements nocturnes (Amplitude) | Temps d'endormissement (Minutes) | Exposition aux écrans (Minutes) | Nombre d'interruptions | Qualité du sommeil (1-10) | Niveau de fatigue (1-10) |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 16/11/2024 | 45 | 10 | 20 | 60 | 0.8 | 120 | 25 | 2 | 7 | 3 |
-| 17/11/2024 | 50 | 5 | 19 | 65 | 1.2 | 90 | 35 | 3 | 6 | 4 |
-| 18/11/2024 | 40 | 8 | 21 | 55 | 0.5 | 60 | 20 | 1 | 8 | 2 |
-| Moyenne | 45 | 7.67 | 20 | 60 | 0.83 | 90 | 26.67 | 2 | 7 | 3 |
-| Médiane | 45 | 8 | 20 | 60 | 0.8 | 90 | 25 | 2 | 7 | 3 |
-| Écart type | 5 | 2.52 | 1 | 5 | 0.35 | 30 | 7.64 | 1 | 1 | 1 |
+**Variables environnementales :**
+
+| Date | Niveau de bruit (dB) | Lumière (Lux) | Température (°C) | Humidité (%) | Mouvements nocturnes (Amplitude) |
+|---|---|---|---|---|---|
+| 16/11/2024 | 45 | 10 | 20 | 60 | 0.8 |
+| 17/11/2024 | 50 | 5 | 19 | 65 | 1.2 |
+| 18/11/2024 | 40 | 8 | 21 | 55 | 0.5 |
+| Moyenne | 45 | 7.67 | 20 | 60 | 0.83 |
+| Médiane | 45 | 8 | 20 | 60 | 0.8 |
+| Écart type | 5 | 2.52 | 1 | 5 | 0.35 |
+
+**Variables liées au sommeil :**
+
+| Date | Temps d'endormissement (Minutes) | Exposition aux écrans (Minutes) | Nombre d'interruptions | Qualité du sommeil (1-10) | Niveau de fatigue (1-10) |
+|---|---|---|---|---|---|
+| 16/11/2024 | 120 | 25 | 2 | 7 | 3 |
+| 17/11/2024 | 90 | 35 | 3 | 6 | 4 |
+| 18/11/2024 | 60 | 20 | 1 | 8 | 2 |
+| Moyenne | 90 | 26.67 | 2 | 7 | 3 |
+| Médiane | 90 | 25 | 2 | 7 | 3 |
+| Écart type | 30 | 7.64 | 1 | 1 | 1 |
 
 #### Analyse statistique
 
