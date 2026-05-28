@@ -28,7 +28,7 @@ sidebar_position: 19
 - Carnets ou appareils numériques pour la prise de notes
 - Smartphones ou appareils photo pour la documentation
 
-<PdfLink href="/pdf/steamcity/Protocol_AI_Odyssey_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_AI_Odyssey_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 
@@ -78,12 +78,6 @@ Le protocole se déroule en trois étapes complémentaires :
 - **Service de données** : Également appelé « technologie des données », « service intelligent » ou « solution intelligente ». Service dans une ville intelligente où des données (personnelles) sont collectées ou traitées pour fournir un service à (un groupe spécifique d') utilisateurs ou pour améliorer les services existants.
 - **Systèmes d'IA** : Systèmes informatiques capables d'effectuer des tâches nécessitant généralement l'intelligence humaine, telles que la perception visuelle, la reconnaissance vocale et la prise de décision. En milieu urbain, ces systèmes traitent les données de divers capteurs pour fournir des services ou des informations automatisés.
 - **Ville intelligente** : Une zone urbaine qui utilise différents types de méthodes et de capteurs électroniques pour collecter des données, qui sont utilisées pour gérer efficacement les actifs, les ressources et les services tout en améliorant la qualité de vie des citoyens.
-
-
-:::note
-Ce protocole fait partie du curriculum STEAMCITY. Ce travail est sous licence Creative Commons Attribution-ShareAlike 4.0 International License et a été réalisé avec le soutien de la Commission européenne. Son contenu n'engage que son auteur et la Commission ne peut être tenue responsable de l'usage qui pourrait être fait des informations qu'il contient.
-:::
-
 
 ## Étape 1 : Phase d'exploration : développement des connaissances de base sur les usages urbains des capteurs
 

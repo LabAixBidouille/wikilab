@@ -31,7 +31,7 @@ sidebar_position: 15
 - Un Roobopoli pour le hackathon
 - Matériel de présentation (projecteur, ordinateurs)
 
-<PdfLink href="/pdf/steamcity/Protocol_Regulation_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_Regulation_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

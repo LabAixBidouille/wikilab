@@ -30,7 +30,7 @@ sidebar_position: 12
 - Accès à des cartes permettant d'annoter les observations de pertes de chaleur urbaines
 - Carnets ou outils numériques pour la collecte et l'analyse de données
 
-<PdfLink href="/pdf/steamcity/Protocol_Insulation_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_Insulation_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

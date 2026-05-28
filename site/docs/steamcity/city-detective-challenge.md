@@ -31,7 +31,7 @@ sidebar_position: 16
 
 **Simulation de crise (15-20 min discussion + 30-45 min débat) :** Matériel de prise de notes, liste d'alerte de crise, minuteur, Carnet du Détective
 
-<PdfLink href="/pdf/steamcity/Protocol_CityDetectiveChallenge_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_CityDetectiveChallenge_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

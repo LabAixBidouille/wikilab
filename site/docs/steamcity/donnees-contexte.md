@@ -28,7 +28,7 @@ sidebar_position: 24
 - **Étape 2 :** 1 jeu de données par groupe d'élèves à imprimer, 1 modèle « Data Storytelling » par groupe
 - **Étape 3 :** 1 élément d'information complémentaire par groupe à imprimer, 1 modèle « Data Storytelling » par groupe
 
-<PdfLink href="/pdf/steamcity/Protocole_Donnees_Contexte_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocole_Donnees_Contexte_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

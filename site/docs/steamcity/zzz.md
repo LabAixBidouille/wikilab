@@ -29,7 +29,7 @@ sidebar_position: 25
 - **Phase 2 :** Cartes programmables Micro:bit (6 recommandé, min. 1-2), carnet de bord, solutions pour le brassard (cf. PDF)
 - **Phase 3 :** Ordinateurs avec logiciels de traitement de données, outils de présentation (PowerPoint, Canva), templates pour rapport scientifique
 
-<PdfLink href="/pdf/steamcity/Protocol_Zzz_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_Zzz_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

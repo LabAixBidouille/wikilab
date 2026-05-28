@@ -30,7 +30,7 @@ sidebar_position: 14
 
 **Analyse et recommandations (30 min à 1h) :** Supports de présentation (affiches, projecteur), matériaux de prototypage selon les projets choisis
 
-<PdfLink href="/pdf/steamcity/Protocol_ShineSmart_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_ShineSmart_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

@@ -30,7 +30,7 @@ sidebar_position: 22
 - Servomoteur
 - Accès à [Vittascience](https://fr.vittascience.com/) et [Adacraft](https://www.adacraft.org/)
 
-<PdfLink href="/pdf/steamcity/Protocol_WasteSorting_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_WasteSorting_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 

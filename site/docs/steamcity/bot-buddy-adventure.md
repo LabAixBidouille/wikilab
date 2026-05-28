@@ -32,7 +32,7 @@ sidebar_position: 20
 - **Introduction au prompting** : https://www.youtube.com/watch?v=8IQ9i_QoA3A
 - **Introduction aux modèles de langage** : https://youtu.be/K8gOvC8gvB4
 
-<PdfLink href="/pdf/steamcity/Protocol_BotBuddyAdventure_FR.pdf" color="#DD5350">Télécharger en PDF</PdfLink>
+<PdfLink href="/pdf/steamcity/Protocol_BotBuddyAdventure_FR.pdf">Télécharger en PDF</PdfLink>
 
 </div>
 
