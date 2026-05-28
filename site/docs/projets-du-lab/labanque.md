@@ -15,19 +15,19 @@ sidebar_position: 20
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Débutant |
 
-Picsous trésorier du LAB et forgeur d'écrous
-
-</div>
-
-<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
-
-</div>
+Projet mené par Picsous, trésorier du LAB et forgeur d'écrous.
 
 :::info[Un projet d'hier, et d'une utopie de demain]
 
 LABanque n'est plus en usage au LAB aujourd'hui. On le garde documenté ici comme une idée qui pourrait renaître dans une future utopie du fablab.
 
 :::
+
+</div>
+
+<img src="/img/ressources/projets-du-lab/lab-labanque/icone.png" alt="LABanque : monnaie du fablab" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+
+</div>
 
 ## Les règles
 
