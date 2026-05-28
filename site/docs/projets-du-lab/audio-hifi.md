@@ -37,15 +37,17 @@ Le fil rouge du projet : [David 3, Goliath 0, archive.org 2018-05](https://web.a
 
 ## Architecture du système
 
-- **Serveur de musique** : un OrangePi SBC sous Linux avec MPD (Music Player Daemon), un disque dur externe et une sortie audio USB. La commande se fait depuis un client MPD sur téléphone, tablette ou PC.
+**Serveur de musique** : un OrangePi SBC sous Linux avec MPD (Music Player Daemon), un disque dur externe et une sortie audio USB. La commande se fait depuis un client MPD sur téléphone, tablette ou PC.
 
-- **Carte Nucleo STM32F746**, cœur du système :
+**Carte Nucleo STM32F746**, cœur du système :
+
 - Réception du flux audio en USB asynchrone. La carte Nucleo impose son horloge, ce qui limite le jitter habituellement lié aux SBC.
 - Traitement DSP : filtrage, égalisation et séparation en 4 voies à partir du flux stéréo.
 - Sortie des 4 flux en SPDIF (l'I2S serait préférable, mais les amplis actuels ne l'acceptent pas).
-- **Amplification** : deux amplis FX-Audio D802.
 
-- **Enceintes** : LXmini de Siegfried Linkwitz.
+**Amplification** : deux amplis FX-Audio D802.
+
+**Enceintes** : LXmini de Siegfried Linkwitz.
 
 ## Photos
 
