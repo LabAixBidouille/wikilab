@@ -1,7 +1,7 @@
 ---
 id: balade-musicale
-title: Balade musicale robotique
-sidebar_label: "Balade musicale robotique"
+title: Programmer une balade musicale robotique
+sidebar_label: "Programmer une balade musicale robotique"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Balade musicale robotique
+# Programmer une balade musicale robotique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

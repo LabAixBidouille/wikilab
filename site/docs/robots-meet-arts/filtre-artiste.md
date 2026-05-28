@@ -1,7 +1,7 @@
 ---
 id: filtre-artiste
-title: "Filtre d'artiste AR"
-sidebar_label: "Filtre d'artiste AR"
+title: "Créer un filtre d'artiste en réalité augmentée"
+sidebar_label: "Créer un filtre d'artiste en réalité augmentée"
 sidebar_position: 12
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# Filtre d'artiste AR
+# Créer un filtre d'artiste en réalité augmentée
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts plastiques</span>

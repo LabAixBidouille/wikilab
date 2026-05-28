@@ -1,7 +1,7 @@
 ---
 id: dilemmes-valeurs
-title: Dilemmes et valeurs
-sidebar_label: "Dilemmes et valeurs"
+title: Explorer vos dilemmes et valeurs grâce à la pensée computationnelle
+sidebar_label: "Explorer vos dilemmes et valeurs grâce à la pensée computationnelle"
 sidebar_position: 19
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 19
 
 <div style={{flex: 1}}>
 
-# Dilemmes et valeurs
+# Explorer vos dilemmes et valeurs grâce à la pensée computationnelle
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Enseignement moral et civique</span>

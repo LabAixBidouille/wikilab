@@ -1,7 +1,7 @@
 ---
 id: ne-hier
-title: "Né d'hier : initiation robotique"
-sidebar_label: "Né d'hier : initiation robotique"
+title: "S'initier à la robotique et à l'apprentissage bio-inspiré"
+sidebar_label: "S'initier à la robotique et à l'apprentissage bio-inspiré"
 sidebar_position: 28
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 28
 
 <div style={{flex: 1}}>
 
-# Né d'hier : initiation robotique
+# S'initier à la robotique et à l'apprentissage bio-inspiré
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Sciences et technologie</span>

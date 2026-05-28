@@ -1,7 +1,7 @@
 ---
 id: course-voitures
-title: Course de voitures LEGO
-sidebar_label: "Course de voitures LEGO"
+title: Organiser une course de voitures LEGO
+sidebar_label: "Organiser une course de voitures LEGO"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Course de voitures LEGO
+# Organiser une course de voitures LEGO
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

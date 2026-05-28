@@ -1,7 +1,7 @@
 ---
 id: passe-le-paquet
-title: Passe le paquet
-sidebar_label: "Passe le paquet"
+title: Découvrir les algorithmes de routage
+sidebar_label: "Découvrir les algorithmes de routage"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Passe le paquet
+# Découvrir les algorithmes de routage
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Humanités</span>

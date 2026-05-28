@@ -1,7 +1,7 @@
 ---
 id: mode-danse
-title: Jeu du mode danse
-sidebar_label: "Jeu du mode danse"
+title: Programmer le jeu du mode danse
+sidebar_label: "Programmer le jeu du mode danse"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Jeu du mode danse
+# Programmer le jeu du mode danse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">EPS</span>

@@ -1,7 +1,7 @@
 ---
 id: octostudio-visages
-title: Visages avec Octo Studio
-sidebar_label: "Visages avec Octo Studio"
+title: Créer des visages avec Octo Studio
+sidebar_label: "Créer des visages avec Octo Studio"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# Visages avec Octo Studio
+# Créer des visages avec Octo Studio
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Programmation</span>

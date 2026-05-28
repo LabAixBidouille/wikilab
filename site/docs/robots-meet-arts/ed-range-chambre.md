@@ -1,7 +1,7 @@
 ---
 id: ed-range-chambre
-title: Ed range sa chambre
-sidebar_label: "Ed range sa chambre"
+title: Programmer Ed pour ranger sa chambre
+sidebar_label: "Programmer Ed pour ranger sa chambre"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Ed range sa chambre
+# Programmer Ed pour ranger sa chambre
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

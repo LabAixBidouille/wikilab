@@ -1,7 +1,7 @@
 ---
 id: journee-robin
-title: La journée de Robin
-sidebar_label: "La journée de Robin"
+title: Programmer la journée de Robin
+sidebar_label: "Programmer la journée de Robin"
 sidebar_position: 26
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 26
 
 <div style={{flex: 1}}>
 
-# La journée de Robin
+# Programmer la journée de Robin
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues vivantes (Anglais)</span>

@@ -1,7 +1,7 @@
 ---
 id: cabane-outils
-title: Cabane-boussole à outils
-sidebar_label: "Cabane-boussole à outils"
+title: Construire une boussole robotisée en carton
+sidebar_label: "Construire une boussole robotisée en carton"
 sidebar_position: 27
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 27
 
 <div style={{flex: 1}}>
 
-# Cabane-boussole à outils
+# Construire une boussole robotisée en carton
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

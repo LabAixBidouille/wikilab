@@ -1,7 +1,7 @@
 ---
 id: collage-fou-code
-title: Collage fou à la Matisse
-sidebar_label: "Collage fou à la Matisse"
+title: Créer un collage à la Matisse
+sidebar_label: "Créer un collage à la Matisse"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Collage fou à la Matisse
+# Créer un collage à la Matisse
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts plastiques</span>
