@@ -191,6 +191,15 @@
   padding-top: 0.5rem;
 }
 
+/* MDX enveloppe le texte d'une figcaption multi-lignes dans un <p>. Sans
+ * cette règle, ce <p> hérite de `.markdown p { text-align: justify }` et
+ * la légende apparaît alignée à gauche sous une image centrée. On force
+ * le centrage (et on annule la marge du <p>). */
+.markdown figcaption p {
+  text-align: center;
+  margin: 0;
+}
+
 /* Toute figure avec figcaption est automatiquement centrée + image centrée */
 .markdown figure:has(figcaption) {
   text-align: center;
