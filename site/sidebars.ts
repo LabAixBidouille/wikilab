@@ -21,7 +21,7 @@ const PROJECT_ORDER: Project[] = [
 
 // Construit les sections de la sidebar à partir des fiches groupées
 // par projet. Le label de chaque section est de la forme :
-//   "Nom du projet — Sous-titre verbe-début"
+//   "Nom du projet : Sous-titre verbe-début"
 // (cf. champ `subtitle` dans projects.ts). Cela donne du contexte
 // d'entrée au lecteur quand il navigue d'un projet à l'autre.
 //
@@ -42,7 +42,7 @@ const projectSections = PROJECT_ORDER.map((proj) => {
   const info = projectsInfo[proj];
   return {
     type: 'category' as const,
-    label: `${info.name} — ${info.subtitle}`,
+    label: `${info.name} : ${info.subtitle}`,
     collapsed: true,
     items,
   };
