@@ -7,7 +7,7 @@ sidebar_position: 11
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="1" width="6" height="16" rx="3" fill="#8a6e18" fillOpacity="0.1"/><circle cx="12" cy="18" r="4" fill="#8a6e18" fillOpacity="0.25"/><circle cx="12" cy="18" r="2" fill="#8a6e18"/><rect x="11" y="4" width="2" height="11" rx="1" fill="#8a6e18"/><line x1="15" y1="6" x2="17" y2="6" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="9" x2="17" y2="9" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><line x1="15" y1="12" x2="17" y2="12" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/></svg> Thermomètre très lisible
+# Thermomètre très lisible
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

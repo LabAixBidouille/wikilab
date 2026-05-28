@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#0081A7" opacity="0.1"/><circle cx="12" cy="12" r="8" fill="#0081A7" opacity="0.25"/><circle cx="9" cy="10" r="1.2" fill="#0081A7"/><circle cx="14" cy="9" r="1" fill="#0081A7"/><circle cx="11" cy="14" r="1.1" fill="#0081A7"/><circle cx="15" cy="13" r="0.9" fill="#0081A7"/><circle cx="8" cy="13" r="0.8" fill="#0081A7"/></svg> Biscuits et paix
+# Biscuits et paix
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

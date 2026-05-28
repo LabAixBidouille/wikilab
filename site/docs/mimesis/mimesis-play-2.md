@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="9" y="12" width="6" height="10" rx="1" fill="#09246C" opacity="0.1"/><rect x="10" y="14" width="4" height="8" rx="0.5" fill="#09246C" opacity="0.25"/><circle cx="12" cy="6" r="5" fill="#09246C" opacity="0.1"/><circle cx="12" cy="6" r="3" fill="#09246C" opacity="0.25"/><circle cx="12" cy="6" r="1.2" fill="#09246C"/><line x1="12" y1="9" x2="12" y2="12" stroke="#09246C" strokeWidth="1.5"/><line x1="8" y1="18" x2="16" y2="18" stroke="#09246C" strokeWidth="1.2"/><circle cx="15" cy="4.5" r="0.6" fill="#09246C"/><circle cx="14" cy="7" r="0.6" fill="#09246C"/></svg> Conteurs de sciences
+# Conteurs de sciences
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

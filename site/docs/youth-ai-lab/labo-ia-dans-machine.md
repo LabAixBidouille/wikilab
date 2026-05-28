@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="4" y="7" width="16" height="12" rx="2" fill="#b34520" opacity="0.1"/><rect x="6" y="9" width="12" height="8" rx="1" fill="#b34520" opacity="0.25"/><circle cx="9" cy="13" r="1" fill="#b34520" opacity="1.0"/><circle cx="15" cy="13" r="1" fill="#b34520" opacity="1.0"/><rect x="10" y="15" width="4" height="1" fill="#b34520" opacity="1.0"/><line x1="12" y1="4" x2="12" y2="7" stroke="#b34520" strokeWidth="1.5" opacity="1.0"/><circle cx="12" cy="3.5" r="1" fill="#b34520" opacity="1.0"/><line x1="3" y1="20" x2="6" y2="20" stroke="#b34520" strokeWidth="1.5" opacity="1.0"/><line x1="18" y1="20" x2="21" y2="20" stroke="#b34520" strokeWidth="1.5" opacity="1.0"/></svg> Labo IA : dans la machine
+# Labo IA : dans la machine
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

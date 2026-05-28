@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><rect x="6" y="8" width="12" height="10" rx="1.5" fill="#1198f0" opacity="0.25"/><path d="M4 10l8-5 8 5" stroke="#1198f0" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/><rect x="9" y="12" width="6" height="3" rx="0.5" fill="#1198f0"/><line x1="9" y1="17" x2="15" y2="17" stroke="#fff" strokeWidth="0.8" strokeLinecap="round"/></svg> Communiquer ses résultats
+# Communiquer ses résultats
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Langues</span>

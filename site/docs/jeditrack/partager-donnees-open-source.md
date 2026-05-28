@@ -9,7 +9,7 @@ sidebar_position: 12
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#1198f0" opacity="0.1"/><circle cx="12" cy="12" r="6" fill="#1198f0" opacity="0.25"/><path d="M8 12l3-6h2l3 6-3 6h-2l-3-6z" fill="#1198f0"/><line x1="18" y1="8" x2="22" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="18" y1="16" x2="22" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="8" x2="2" y2="6" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><line x1="6" y1="16" x2="2" y2="18" stroke="#1198f0" strokeWidth="1.2" strokeLinecap="round"/><circle cx="22" cy="6" r="1.5" fill="#1198f0"/><circle cx="22" cy="18" r="1.5" fill="#1198f0"/><circle cx="2" cy="6" r="1.5" fill="#1198f0"/><circle cx="2" cy="18" r="1.5" fill="#1198f0"/></svg> Partager ses données en open source
+# Partager ses données en open source
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

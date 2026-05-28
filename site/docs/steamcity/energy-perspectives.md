@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="9" fill="#DD5350" opacity="0.1"/><circle cx="12" cy="12" r="5" fill="#DD5350" opacity="0.25"/><line x1="12" y1="2" x2="12" y2="5" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="12" y1="19" x2="12" y2="22" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="2" y1="12" x2="5" y2="12" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/><line x1="19" y1="12" x2="22" y2="12" stroke="#DD5350" strokeWidth="1.5" strokeLinecap="round" opacity="1.0"/></svg> Énergies en perspective
+# Énergies en perspective
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

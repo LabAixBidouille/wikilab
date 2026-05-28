@@ -8,7 +8,7 @@ sidebar_position: 13
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#8a6e18" fillOpacity="0.1"/><circle cx="12" cy="12" r="6" fill="#8a6e18" fillOpacity="0.25"/><circle cx="12" cy="12" r="2" fill="#8a6e18"/><path d="M12 6V2M18 12h4" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><path d="M16.24 7.76l2.83-2.83" stroke="#8a6e18" strokeWidth="1.5" strokeLinecap="round"/><path d="M6 12l-2.5 0M12 18v2.5" stroke="#8a6e18" strokeWidth="1" strokeLinecap="round" strokeDasharray="2 2"/></svg> Animer avec un servomoteur
+# Animer avec un servomoteur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
