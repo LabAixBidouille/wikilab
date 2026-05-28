@@ -1,7 +1,7 @@
 ---
 id: programmation-city-detective-challenge
-title: Cartographie citoyenne avec uMap
-sidebar_label: "Cartographie citoyenne avec uMap"
+title: Cartographier sa ville avec uMap
+sidebar_label: "Cartographier sa ville avec uMap"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# Cartographie citoyenne avec uMap
+# Cartographier sa ville avec uMap
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

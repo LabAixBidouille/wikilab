@@ -1,7 +1,7 @@
 ---
 id: plants-city
-title: Végétalisation urbaine par IA
-sidebar_label: "Végétalisation urbaine par IA"
+title: Végétaliser la ville
+sidebar_label: "Végétaliser la ville"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Végétalisation urbaine par IA
+# Végétaliser la ville
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie / SVT</span>

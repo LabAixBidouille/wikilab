@@ -1,7 +1,7 @@
 ---
 id: indoor-air-quality
-title: "Qualité de l'air en classe"
-sidebar_label: "Qualité de l'air en classe"
+title: "Mesurer la qualité de l'air en classe"
+sidebar_label: "Mesurer la qualité de l'air en classe"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Qualité de l'air en classe
+# Mesurer la qualité de l'air en classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

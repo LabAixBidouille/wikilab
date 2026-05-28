@@ -1,7 +1,7 @@
 ---
 id: programmation-insulation
-title: "Mesure d'isolation micro:bit"
-sidebar_label: "Mesure d'isolation micro:bit"
+title: "Mesurer l'isolation avec micro:bit"
+sidebar_label: "Mesurer l'isolation avec micro:bit"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Mesure d'isolation micro:bit
+# Mesurer l'isolation avec micro:bit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

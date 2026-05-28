@@ -1,7 +1,7 @@
 ---
 id: pollinisateurs
-title: Gardiens des pollinisateurs
-sidebar_label: "Gardiens des pollinisateurs"
+title: Protéger les pollinisateurs
+sidebar_label: "Protéger les pollinisateurs"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Gardiens des pollinisateurs
+# Protéger les pollinisateurs
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

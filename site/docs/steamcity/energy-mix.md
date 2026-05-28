@@ -1,7 +1,7 @@
 ---
 id: energy-mix
-title: Simulateur de mix énergétique
-sidebar_label: "Simulateur de mix énergétique"
+title: Simuler un mix énergétique
+sidebar_label: "Simuler un mix énergétique"
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 
 <div style={{flex: 1}}>
 
-# Simulateur de mix énergétique
+# Simuler un mix énergétique
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

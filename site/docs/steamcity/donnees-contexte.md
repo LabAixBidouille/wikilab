@@ -1,7 +1,7 @@
 ---
 id: donnees-contexte
-title: Données vs contexte
-sidebar_label: "Données vs contexte"
+title: Comparer données et contexte
+sidebar_label: "Comparer données et contexte"
 sidebar_position: 24
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 24
 
 <div style={{flex: 1}}>
 
-# Données vs contexte
+# Comparer données et contexte
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

@@ -1,7 +1,7 @@
 ---
 id: programmation-outdoor-air-quality
-title: Station air extérieur
-sidebar_label: "Station air extérieur"
+title: Construire une station air extérieur
+sidebar_label: "Construire une station air extérieur"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Station air extérieur
+# Construire une station air extérieur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

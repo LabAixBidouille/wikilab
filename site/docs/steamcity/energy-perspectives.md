@@ -1,7 +1,7 @@
 ---
 id: energy-perspectives
-title: Énergies en perspective
-sidebar_label: "Énergies en perspective"
+title: Mettre les énergies en perspective
+sidebar_label: "Mettre les énergies en perspective"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Énergies en perspective
+# Mettre les énergies en perspective
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

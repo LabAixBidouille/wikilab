@@ -1,7 +1,7 @@
 ---
 id: negawatt
-title: Scénario NégaWatt
-sidebar_label: "Scénario NégaWatt"
+title: Explorer le scénario NégaWatt
+sidebar_label: "Explorer le scénario NégaWatt"
 sidebar_position: 13
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 13
 
 <div style={{flex: 1}}>
 
-# Scénario NégaWatt
+# Explorer le scénario NégaWatt
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Physique</span>

@@ -1,7 +1,7 @@
 ---
 id: trees-vs-cars
-title: Véhicules polluants en ville
-sidebar_label: "Véhicules polluants en ville"
+title: Étudier les véhicules polluants en ville
+sidebar_label: "Étudier les véhicules polluants en ville"
 sidebar_position: 8
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 8
 
 <div style={{flex: 1}}>
 
-# Véhicules polluants en ville
+# Étudier les véhicules polluants en ville
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

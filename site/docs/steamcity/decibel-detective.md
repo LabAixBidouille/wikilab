@@ -1,7 +1,7 @@
 ---
 id: decibel-detective
-title: Le bruit dans la classe
-sidebar_label: "Le bruit dans la classe"
+title: Mesurer le bruit dans la classe
+sidebar_label: "Mesurer le bruit dans la classe"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Le bruit dans la classe
+# Mesurer le bruit dans la classe
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

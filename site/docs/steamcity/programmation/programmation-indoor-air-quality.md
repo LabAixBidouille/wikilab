@@ -1,7 +1,7 @@
 ---
 id: programmation-indoor-air-quality
-title: Capteur CO2 intérieur
-sidebar_label: "Capteur CO2 intérieur"
+title: Mesurer le CO2 intérieur
+sidebar_label: "Mesurer le CO2 intérieur"
 sidebar_position: 5
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 5
 
 <div style={{flex: 1}}>
 
-# Capteur CO2 intérieur
+# Mesurer le CO2 intérieur
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

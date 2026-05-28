@@ -1,7 +1,7 @@
 ---
 id: programmation-zzz
-title: "Capteur de sommeil micro:bit"
-sidebar_label: "Capteur de sommeil micro:bit"
+title: "Mesurer le sommeil avec la carte micro:bit"
+sidebar_label: "Mesurer le sommeil avec la carte micro:bit"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Capteur de sommeil micro:bit
+# Mesurer le sommeil avec la carte micro:bit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

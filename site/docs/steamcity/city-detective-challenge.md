@@ -1,7 +1,7 @@
 ---
 id: city-detective-challenge
-title: Détective urbain
-sidebar_label: "Détective urbain"
+title: Mener l'enquête du détective urbain
+sidebar_label: "Mener l'enquête du détective urbain"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# Détective urbain
+# Mener l'enquête du détective urbain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique et morale</span>

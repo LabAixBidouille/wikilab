@@ -1,7 +1,7 @@
 ---
 id: shine-smart
-title: Éclairage urbain intelligent
-sidebar_label: "Éclairage urbain intelligent"
+title: Concevoir un éclairage urbain intelligent
+sidebar_label: "Concevoir un éclairage urbain intelligent"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Éclairage urbain intelligent
+# Concevoir un éclairage urbain intelligent
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

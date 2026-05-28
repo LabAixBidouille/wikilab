@@ -1,7 +1,7 @@
 ---
 id: programmation-sound-squad
-title: "Carte sonore avec micro:bit"
-sidebar_label: "Carte sonore avec micro:bit"
+title: "Cartographier le son avec micro:bit"
+sidebar_label: "Cartographier le son avec micro:bit"
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# Carte sonore avec micro:bit
+# Cartographier le son avec micro:bit
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

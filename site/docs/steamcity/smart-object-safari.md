@@ -1,7 +1,7 @@
 ---
 id: smart-object-safari
-title: Safari des objets connectés
-sidebar_label: "Safari des objets connectés"
+title: Partir en safari des objets connectés
+sidebar_label: "Partir en safari des objets connectés"
 sidebar_position: 18
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# Safari des objets connectés
+# Partir en safari des objets connectés
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>
