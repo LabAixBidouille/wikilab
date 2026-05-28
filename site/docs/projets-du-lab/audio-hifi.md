@@ -1,7 +1,7 @@
 ---
 id: audio-hifi
-title: Chaîne HiFi 100% numérique
-sidebar_label: "Chaîne HiFi 100% numérique"
+title: Assembler une chaîne HiFi 100% numérique
+sidebar_label: "Assembler une chaîne HiFi 100% numérique"
 sidebar_position: 1
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 1
 
 <div style={{flex: 1}}>
 
-# Chaîne HiFi 100% numérique
+# Assembler une chaîne HiFi 100% numérique
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

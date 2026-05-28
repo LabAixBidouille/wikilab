@@ -1,7 +1,7 @@
 ---
 id: kit-pedagogique-stm32
-title: Kit pédagogique STM32
-sidebar_label: "Kit pédagogique STM32"
+title: Découvrir le kit pédagogique STM32
+sidebar_label: "Découvrir le kit pédagogique STM32"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Kit pédagogique STM32
+# Découvrir le kit pédagogique STM32
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

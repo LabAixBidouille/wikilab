@@ -1,7 +1,7 @@
 ---
 id: domotique
-title: Domotique MQTT
-sidebar_label: "Domotique MQTT"
+title: Mettre en place une domotique MQTT
+sidebar_label: "Mettre en place une domotique MQTT"
 sidebar_position: 4
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 4
 
 <div style={{flex: 1}}>
 
-# Domotique MQTT
+# Mettre en place une domotique MQTT
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

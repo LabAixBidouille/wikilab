@@ -1,7 +1,7 @@
 ---
 id: chateau-reine-des-neiges
-title: Château de la Reine des Neiges
-sidebar_label: "Château de la Reine des Neiges"
+title: Fabriquer le château de la Reine des Neiges
+sidebar_label: "Fabriquer le château de la Reine des Neiges"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# Château de la Reine des Neiges
+# Fabriquer le château de la Reine des Neiges
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

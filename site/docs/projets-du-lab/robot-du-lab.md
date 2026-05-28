@@ -1,7 +1,7 @@
 ---
 id: robot-du-lab
-title: RobotDuLAB
-sidebar_label: "RobotDuLAB"
+title: Découvrir le RobotDuLAB
+sidebar_label: "Découvrir le RobotDuLAB"
 sidebar_position: 9
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 9
 
 <div style={{flex: 1}}>
 
-# RobotDuLAB
+# Découvrir le RobotDuLAB
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |

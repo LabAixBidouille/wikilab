@@ -1,7 +1,7 @@
 ---
 id: decouverte-bus-can
-title: Découverte du bus CAN
-sidebar_label: "Découverte du bus CAN"
+title: Découvrir le bus CAN
+sidebar_label: "Découvrir le bus CAN"
 sidebar_position: 7
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 7
 
 <div style={{flex: 1}}>
 
-# Découverte du bus CAN
+# Découvrir le bus CAN
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |
