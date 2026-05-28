@@ -9,7 +9,7 @@ sidebar_position: 2
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#094869" opacity="0.1"/><circle cx="12" cy="12" r="2.5" fill="#094869" opacity="1.0"/><circle cx="4" cy="6" r="2" fill="#094869" opacity="0.6"/><circle cx="20" cy="6" r="2" fill="#094869" opacity="0.6"/><circle cx="4" cy="18" r="2" fill="#094869" opacity="0.6"/><circle cx="20" cy="18" r="2" fill="#094869" opacity="0.6"/><line x1="12" y1="12" x2="4" y2="6" stroke="#094869" strokeWidth="1" opacity="0.5"/><line x1="12" y1="12" x2="20" y2="6" stroke="#094869" strokeWidth="1" opacity="0.5"/><line x1="12" y1="12" x2="4" y2="18" stroke="#094869" strokeWidth="1" opacity="0.5"/><line x1="12" y1="12" x2="20" y2="18" stroke="#094869" strokeWidth="1" opacity="0.5"/></svg> Magnetics — Créer des projets multicartes (MakeCode STM32)
+# Magnetics — Créer des projets multicartes (MakeCode STM32)
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

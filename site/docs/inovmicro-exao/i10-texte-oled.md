@@ -7,7 +7,7 @@ sidebar_position: 17
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="5" width="20" height="14" rx="1.5" fill="#8a6e18" opacity="0.1"/><rect x="3.5" y="6.5" width="17" height="11" rx="0.5" fill="#8a6e18" opacity="0.25"/><rect x="5" y="8" width="9" height="1.5" rx="0.2" fill="#8a6e18"/><rect x="5" y="10.5" width="6" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="12.5" width="11" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><rect x="5" y="14.5" width="5" height="1.2" rx="0.2" fill="#8a6e18" opacity="0.7"/><circle cx="17" cy="11" r="0.6" fill="#8a6e18"/><circle cx="17" cy="13" r="0.6" fill="#8a6e18" opacity="0.6"/><circle cx="17" cy="15" r="0.6" fill="#8a6e18" opacity="0.3"/></svg> Afficher du texte sur l'écran OLED
+# Afficher du texte sur l'écran OLED
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

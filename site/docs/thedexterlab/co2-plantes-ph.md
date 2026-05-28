@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><path d="M4 18 Q4 14 8 14 Q8 10 12 10 Q16 10 16 14 Q20 14 20 18 L20 21 L4 21 Z" fill="#1a4a48" opacity="0.1"/><ellipse cx="12" cy="8" rx="3" ry="5" fill="#1a4a48" opacity="0.25"/><path d="M12 13 L12 4" stroke="#1a4a48" strokeWidth="1.5" opacity="1.0"/><circle cx="10" cy="6" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="14" cy="5" r="1" fill="#1a4a48" opacity="1.0"/><circle cx="9" cy="9" r="0.8" fill="#1a4a48" opacity="1.0"/><circle cx="15" cy="9" r="0.8" fill="#1a4a48" opacity="1.0"/></svg> CO2, plantes et pH
+# CO2, plantes et pH
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Biologie</span>

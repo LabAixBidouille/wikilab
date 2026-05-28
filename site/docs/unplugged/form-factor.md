@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="4" fill="#0081A7" opacity="0.1"/><rect x="4" y="13" width="7" height="7" fill="#0081A7" opacity="0.25"/><circle cx="15" cy="8" r="4" fill="#0081A7" opacity="0.25"/><polygon points="14,14 17.5,21 10.5,21" fill="#0081A7"/><rect x="5" y="5" width="5" height="5" rx="1" fill="#0081A7"/></svg> Form factor
+# Form factor
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

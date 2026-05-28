@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="2" width="20" height="20" rx="3" fill="#0081A7" opacity="0.1"/><path d="M6 8 L12 8 L12 12 L18 12" stroke="#0081A7" strokeWidth="1.5" fill="none" strokeLinecap="round"/><path d="M6 16 L10 16 L10 12" stroke="#0081A7" strokeWidth="1.5" fill="none" strokeLinecap="round" opacity="0.25"/><circle cx="6" cy="8" r="2" fill="#0081A7"/><circle cx="18" cy="12" r="2" fill="#0081A7"/><polygon points="16,10 18,12 16,14" fill="#0081A7" opacity="0.25"/><circle cx="6" cy="16" r="1.5" fill="#0081A7" opacity="0.25"/></svg> Reroute better world
+# Reroute better world
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

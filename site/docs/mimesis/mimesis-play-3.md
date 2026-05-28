@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><circle cx="12" cy="12" r="10" fill="#09246C" opacity="0.1"/><ellipse cx="12" cy="12" rx="6" ry="4.5" fill="#09246C" opacity="0.25"/><circle cx="12" cy="12" r="2" fill="#09246C"/><line x1="12" y1="7.5" x2="12" y2="4" stroke="#09246C" strokeWidth="1.5"/><circle cx="12" cy="3" r="1.2" fill="#09246C"/><line x1="17" y1="10" x2="20" y2="8" stroke="#09246C" strokeWidth="1.5"/><circle cx="20.8" cy="7.3" r="1.2" fill="#09246C"/><line x1="17" y1="14" x2="20" y2="16" stroke="#09246C" strokeWidth="1.5"/><circle cx="20.8" cy="16.7" r="1.2" fill="#09246C"/><line x1="7" y1="10" x2="4" y2="8" stroke="#09246C" strokeWidth="1.5"/><circle cx="3.2" cy="7.3" r="1.2" fill="#09246C"/><line x1="7" y1="14" x2="4" y2="16" stroke="#09246C" strokeWidth="1.5"/><circle cx="3.2" cy="16.7" r="1.2" fill="#09246C"/></svg> La vie secrète du plancton
+# La vie secrète du plancton
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

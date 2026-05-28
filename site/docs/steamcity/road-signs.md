@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><polygon points="12,2 22,20 2,20" fill="#DD5350" opacity="0.1"/><polygon points="12,6 18,17 6,17" fill="#DD5350" opacity="0.25"/><text x="12" y="15" fontSize="7" fontFamily="sans-serif" fill="#DD5350" textAnchor="middle" fontWeight="bold" opacity="1.0">!</text></svg> Signalisation de demain
+# Signalisation de demain
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie et ingénierie</span>

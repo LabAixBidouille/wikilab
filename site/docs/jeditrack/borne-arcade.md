@@ -9,7 +9,7 @@ sidebar_position: 15
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="5" y="2" width="14" height="20" rx="1.2" fill="#1198f0" opacity="0.1"/><rect x="6" y="4" width="12" height="7" rx="0.6" fill="#1198f0" opacity="0.25"/><rect x="7.5" y="5.2" width="9" height="4.6" rx="0.3" fill="#1198f0"/><rect x="6" y="12" width="12" height="3.5" rx="0.4" fill="#1198f0" opacity="0.25"/><circle cx="9" cy="13.7" r="0.6" fill="#1198f0"/><circle cx="11" cy="13.7" r="0.6" fill="#1198f0"/><circle cx="13" cy="13.7" r="0.6" fill="#1198f0"/><circle cx="15" cy="13.7" r="0.6" fill="#1198f0"/><rect x="11.5" y="16.5" width="1" height="3" fill="#1198f0"/><rect x="9" y="19" width="6" height="1.2" rx="0.3" fill="#1198f0"/></svg> Construire une borne d'arcade
+# Construire une borne d'arcade
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Technologie</span>

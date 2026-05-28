@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# <svg viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><ellipse cx="12" cy="12" rx="10" ry="6" fill="#b34520" opacity="0.1"/><ellipse cx="12" cy="12" rx="7" ry="4.5" fill="none" stroke="#b34520" strokeWidth="1.5" opacity="0.25"/><circle cx="12" cy="12" r="3.5" fill="#b34520" opacity="0.25"/><circle cx="12" cy="12" r="2" fill="#b34520" opacity="1.0"/><circle cx="12.8" cy="11.2" r="0.6" fill="#ffffff" opacity="1.0"/></svg> Garder un œil sur l'IA
+# Garder un œil sur l'IA
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

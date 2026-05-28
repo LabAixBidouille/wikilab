@@ -7,7 +7,7 @@ sidebar_position: 13
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
 <div style={{flex: 1}}>
-# <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" style={{verticalAlign: 'middle', marginRight: '0.5rem', marginBottom: '4px'}}><rect x="2" y="10" width="20" height="4" rx="1" fill="#8a6e18" opacity="0.1"/><circle cx="5" cy="12" r="1.5" fill="#8a6e18" opacity="1.0"/><circle cx="9" cy="12" r="1.5" fill="#8a6e18" opacity="1.0"/><rect x="12" y="11" width="7" height="2" rx="0.5" fill="#8a6e18" opacity="1.0"/><path d="M3 7 Q12 4 21 7" fill="none" stroke="#8a6e18" strokeWidth="1" opacity="0.25"/><path d="M3 17 Q12 20 21 17" fill="none" stroke="#8a6e18" strokeWidth="1" opacity="0.25"/></svg> Envoyer des messages en code Morse avec la STeaMi
+# Envoyer des messages en code Morse avec la STeaMi
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
