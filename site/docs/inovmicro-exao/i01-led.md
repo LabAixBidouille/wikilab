@@ -66,7 +66,7 @@ La LED RGB de la STeaMi se trouve sur la face avant. Chaque couleur est pilotée
   <img
     src="/img/ressources/inovmicro-exao/i01-led/LED.png"
     alt="Emplacement de la LED RGB sur la carte STeaMi"
-    style={{maxWidth: '200px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+    style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
   />
   <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
     La LED RGB intégrée à la face avant de la STeaMi.
