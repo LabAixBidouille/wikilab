@@ -80,7 +80,7 @@ Une liste exhaustive d'où trouver les composants est disponible dans la section
 | 3 | Réalisation des mesures (optionnel) | 1-3h |
 | 4 | Interprétation des résultats (optionnel) | 30m-1h |
 
-### PHASE 0 : PRÉPARATIFS
+## Phase 0 : Préparatifs
 
 ---
 
@@ -90,7 +90,7 @@ Si vous souhaitez créer un boîtier pour la station de mesure en vue de de fair
 
 Enfin, si vous souhaitez réaliser la phase de mesures en extérieur, nous vous recommandons de prévoir l'itinéraire à l'avance afin de, si les environs le permettent, de prendre des mesures dans des lieux plus ou moins pollués (grande avenue, parc, forêt, etc...).
 
-### PHASE 1 : MONTAGE DE LA STATION DE MESURE
+## Phase 1 : Montage de la station de mesure
 
 ---
 
@@ -139,7 +139,7 @@ Pour connecter le capteur de gaz multicanal à la station de mesure, connectez-l
 L'I2C, pour Inter-Integrated Circuit en anglais, est un protocole de communication utilisé en électronique pour communiquer entre différents appareils. A l'instar du système postal pour la livraison de courrier, ce système utilise des adresses, ce qui permet d'utiliser le même câble pour communiquer entre les différents appareils, en ne délivrant les messages qu'aux appareils à la bonne adresse. C'est pourquoi il n'y a qu'un seul port I2C sur le shield grove, et que tous les composants I2C sont reliés à ce port via la rallonge I2C, comme si les câbles étaient des rues, les appareils des maisons et le port I2C du shield grove la poste.
 :::
 
-### PHASE 2 : PROGRAMMATION DE LA STATION DE MESURE
+## Phase 2 : Programmation de la station de mesure
 
 ---
 
@@ -241,7 +241,7 @@ Le programme final complet peut être retrouvé en suivant le lien suivant :
 
 https://fr.vittascience.com/microbit/?link=667ebb07071a6
 
-### PHASE 3 : RÉALISATION DES MESURES (OPTIONNEL)
+## Phase 3 : Réalisation des mesures (optionnel)
 
 ---
 
@@ -257,7 +257,7 @@ Si vous avez choisi de prendre des mesures de manière ponctuelle (à l'appui d'
 
 Si vous avez préféré implémenter les mesures prises à intervalles réguliers, notez le temps mis pour atteindre chaque point d'intérêt, afin de pouvoir relier le temps enregistré dans les données à ces points d'intérêts et ainsi retracer avec plus ou moins de précision les mesures selon le trajet effectué.
 
-### PHASE 4 : INTERPRÉTATION DES RÉSULTATS (OPTIONNEL)
+## Phase 4 : Interprétation des résultats (optionnel)
 
 ---
 
