@@ -1,7 +1,7 @@
 ---
 id: poverty-free-game-collection
-title: Jeux anti-pauvreté
-sidebar_label: "Jeux anti-pauvreté"
+title: Créer des jeux anti-pauvreté
+sidebar_label: "Créer des jeux anti-pauvreté"
 sidebar_position: 21
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 21
 
 <div style={{flex: 1}}>
 
-# Jeux anti-pauvreté
+# Créer des jeux anti-pauvreté
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Arts</span>

@@ -1,7 +1,7 @@
 ---
 id: la-ville-parfaite
-title: La ville parfaite
-sidebar_label: "La ville parfaite"
+title: Imaginer la ville parfaite
+sidebar_label: "Imaginer la ville parfaite"
 sidebar_position: 16
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 16
 
 <div style={{flex: 1}}>
 
-# La ville parfaite
+# Imaginer la ville parfaite
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>

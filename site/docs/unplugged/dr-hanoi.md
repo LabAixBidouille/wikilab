@@ -1,7 +1,7 @@
 ---
 id: dr-hanoi
-title: Les tours de Hanoï
-sidebar_label: "Les tours de Hanoï"
+title: Combiner des formules pour le Docteur Hanoï
+sidebar_label: "Combiner des formules pour le Docteur Hanoï"
 sidebar_position: 6
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 6
 
 <div style={{flex: 1}}>
 
-# Les tours de Hanoï
+# Combiner des formules pour le Docteur Hanoï
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

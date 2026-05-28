@@ -1,7 +1,7 @@
 ---
 id: form-factor
-title: Form factor
-sidebar_label: "Form factor"
+title: Modéliser des formes complexes grâce à des formes de base
+sidebar_label: "Modéliser des formes complexes grâce à des formes de base"
 sidebar_position: 11
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 11
 
 <div style={{flex: 1}}>
 
-# Form factor
+# Modéliser des formes complexes grâce à des formes de base
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

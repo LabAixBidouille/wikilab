@@ -1,7 +1,7 @@
 ---
 id: reroute-better-world
-title: Reroute better world
-sidebar_label: "Reroute better world"
+title: S'orienter sur la route des ODD
+sidebar_label: "S'orienter sur la route des ODD"
 sidebar_position: 23
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# Reroute better world
+# S'orienter sur la route des ODD
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Géographie</span>

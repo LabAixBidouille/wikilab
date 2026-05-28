@@ -1,7 +1,7 @@
 ---
 id: biscuits-et-paix
-title: Biscuits et paix
-sidebar_label: "Biscuits et paix"
+title: Négocier la paix avec des biscuits
+sidebar_label: "Négocier la paix avec des biscuits"
 sidebar_position: 3
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 3
 
 <div style={{flex: 1}}>
 
-# Biscuits et paix
+# Négocier la paix avec des biscuits
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Mathématiques</span>

@@ -1,7 +1,7 @@
 ---
 id: iterative-clues
-title: Iterative clues
-sidebar_label: "Iterative clues"
+title: Suivre des indices pas à pas
+sidebar_label: "Suivre des indices pas à pas"
 sidebar_position: 14
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 14
 
 <div style={{flex: 1}}>
 
-# Iterative clues
+# Suivre des indices pas à pas
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>

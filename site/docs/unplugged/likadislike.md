@@ -1,7 +1,7 @@
 ---
 id: likadislike
-title: Likadislike
-sidebar_label: "Likadislike"
+title: Explorer ses goûts et dégoûts sans jugement
+sidebar_label: "Explorer ses goûts et dégoûts sans jugement"
 sidebar_position: 17
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 17
 
 <div style={{flex: 1}}>
 
-# Likadislike
+# Explorer ses goûts et dégoûts sans jugement
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>
