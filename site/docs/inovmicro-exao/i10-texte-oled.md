@@ -1,7 +1,7 @@
 ---
 id: i10-texte-oled
 title: Afficher du texte sur l'écran OLED
-sidebar_label: "Écran OLED"
+sidebar_label: "Afficher du texte sur l'écran OLED"
 sidebar_position: 17
 ---
 

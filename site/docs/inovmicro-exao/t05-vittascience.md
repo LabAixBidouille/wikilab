@@ -1,7 +1,7 @@
 ---
 id: t05-vittascience
 title: "Prendre en main la STeaMi sur l'éditeur Vittascience"
-sidebar_label: "Vittascience"
+sidebar_label: "Prendre en main la STeaMi sur l'éditeur Vittascience"
 sidebar_position: 5
 ---
 

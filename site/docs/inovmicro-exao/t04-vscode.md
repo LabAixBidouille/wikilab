@@ -1,7 +1,7 @@
 ---
 id: t04-vscode
 title: "Prendre en main MicroPython avec VS Code"
-sidebar_label: "VS Code"
+sidebar_label: "Prendre en main MicroPython avec VS Code"
 sidebar_position: 4
 ---
 

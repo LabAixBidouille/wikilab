@@ -1,7 +1,7 @@
 ---
 id: i15-collecter-donnees
 title: Collecter des données avec la STeaMi
-sidebar_label: "Collecter des données"
+sidebar_label: "Collecter des données avec la STeaMi"
 sidebar_position: 15
 ---
 

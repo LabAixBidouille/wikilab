@@ -1,7 +1,7 @@
 ---
 id: i04-capteur-lumiere
 title: Mesurer la lumière ambiante
-sidebar_label: "Mesurer la lumière"
+sidebar_label: "Mesurer la lumière ambiante"
 sidebar_position: 11
 ---
 

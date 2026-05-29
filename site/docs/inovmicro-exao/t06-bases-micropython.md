@@ -1,7 +1,7 @@
 ---
 id: t06-bases-micropython
 title: "Découvrir les bases de MicroPython"
-sidebar_label: "Bases du langage"
+sidebar_label: "Découvrir les bases de MicroPython"
 sidebar_position: 6
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: depannage
 title: Dépanner la STeaMi
-sidebar_label: 'Dépanner'
+sidebar_label: "Dépanner la STeaMi"
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>

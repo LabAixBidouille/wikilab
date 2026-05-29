@@ -1,7 +1,7 @@
 ---
 id: t03-decouverte-thonny
 title: "Prendre en main MicroPython avec Thonny"
-sidebar_label: "Thonny"
+sidebar_label: "Prendre en main MicroPython avec Thonny"
 sidebar_position: 3
 ---
 
