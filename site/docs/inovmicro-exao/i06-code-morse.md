@@ -1,7 +1,7 @@
 ---
 id: i06-code-morse
 title: Envoyer des messages en code Morse
-sidebar_label: "Code Morse"
+sidebar_label: "Envoyer des messages en code Morse"
 sidebar_position: 13
 ---
 
