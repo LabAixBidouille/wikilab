@@ -11,9 +11,9 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 2. [Structure des fiches](#structure-des-fiches)
 3. [Callouts](#callouts) — incluant les [encarts récurrents pour les fiches I-NOVMICRO](#encarts-récurrents-pour-les-fiches-i-novmicro)
 4. [Images](#images) — incluant l'[icône PNG (vignette)](#icône-png-vignette-du-header)
-5. [Texte](#texte) — incluant le [style pédagogique](#style-pédagogique--écrire-pour-des-élèves-pas-des-ingénieurs), les [objectifs d'apprentissage](#objectifs-dapprentissage), la [section Aller plus loin](#section-aller-plus-loin--pour-comprendre--pour-sinspirer)
+5. [Texte](#texte) — incluant le [style pédagogique](#style-pédagogique--écrire-pour-des-élèves-pas-des-ingénieurs), le [vocabulaire des personnes selon le projet](#vocabulaire-des-personnes-selon-le-projet), les [objectifs d'apprentissage](#objectifs-dapprentissage), la [section Aller plus loin](#section-aller-plus-loin--pour-comprendre--pour-sinspirer)
 6. [Contenu à supprimer](#contenu-à-supprimer)
-7. [Notes enseignants](#notes-enseignants)
+7. [Notes pour l'adulte encadrant](#notes-pour-ladulte-encadrant)
 8. [Catalogue (`resources.ts`)](#catalogue-resourcests)
 9. [Suivi photos](#suivi-photos)
 10. [Sous-pages (borne-arcade, programmation)](#sous-pages-borne-arcade-programmation)
@@ -224,6 +224,34 @@ Préférer aussi l'infinitif ou les tournures impersonnelles quand le contexte s
 - _« On peut vérifier dans le REPL que... »_ (impersonnel)
 - _« Si vous utilisez Linux... »_ (vouvoiement quand on s'adresse directement)
 
+### Vocabulaire des personnes selon le projet
+
+Le wiki héberge des projets qui ne s'adressent pas au même cadre. Un projet scolaire parle d'enseignant·e et d'élève ; un projet d'éducation non formelle parle d'animateur·rice et de participant·e. **Le vocabulaire suit le projet, pas l'habitude de rédaction.**
+
+| Projet                      | L'adulte qui encadre                              | Le public                  |
+| --------------------------- | ------------------------------------------------- | -------------------------- |
+| **Youth AI Lab**            | animateur·rice, éducateur·rice, facilitateur·rice | participant·es, les jeunes |
+| Autres projets (par défaut) | enseignant·e                                      | élève·s                    |
+
+Sur **Youth AI Lab**, projet Erasmus+ d'animation jeunesse, les mots _enseignant·e_, _élève_ et _classe_ (au sens du groupe scolaire) ne doivent pas apparaître :
+
+- **enseignant·e** → _animateur·rice_ pour la personne, _équipe d'animation_ pour le collectif. Les trois termes _animateur·rice_, _éducateur·rice_ et _facilitateur·rice_ sont acceptés ; rester cohérent à l'intérieur d'une même fiche.
+- **élève·s** → _participant·es_, ou _les jeunes_ quand la phrase se prête mal au point médian.
+- **en classe** → _en salle_ ; **salle de classe** → _salle d'activité_ ; **par classe** → _pour l'ensemble du groupe_ ; **accord de classe** → _accord collectif_ ; **devoir** → _travail à la maison_.
+
+Attention à ne pas toucher les emplois techniques de _classe_ (les classes d'un modèle, classer, classification), qui n'ont rien à voir.
+
+Deux exceptions légitimes :
+
+- une **persona** peut être une enseignante, c'est un profil d'utilisatrice du chatbot et pas le rôle d'encadrement (fiche [WikiYouthBot](site/docs/youth-ai-lab/wikiyouthbot.md)) ;
+- les fiches issues de partenaires scolaires peuvent conserver _usage scolaire_ ou _intégrité académique_ quand c'est le sujet même de l'activité.
+
+Vérification rapide avant de proposer une fiche Youth AI Lab :
+
+```bash
+grep -nE "élève|enseignant·e|en classe" site/docs/youth-ai-lab/*.md
+```
+
 ### Vocabulaire
 
 **Principe général** : vocabulaire le moins technique possible. Chaque terme technique conservé est glosé à sa première mention, par exemple _« MicroPython, une version de Python adaptée aux cartes électroniques »_ à la première occurrence dans la fiche.
@@ -269,6 +297,8 @@ Comparatif de formulation :
 Au moins un objectif doit ouvrir sur la **transposition à d'autres usages** (« imaginer », « détourner »), pour signaler à l'élève qu'on n'apprend pas une technique isolée mais un patron adaptable.
 
 ### Section Aller plus loin : Pour comprendre / Pour s'inspirer
+
+> **Exception Youth AI Lab** : les fiches de ce projet ne portent pas de section `## Aller plus loin`. Elles se terminent sur les indicateurs de réussite, puis le footer Erasmus+. Ne pas en ajouter.
 
 Toute fiche se termine par une section **`## Aller plus loin`** structurée en deux sous-sections obligatoires :
 
@@ -325,10 +355,11 @@ Lors de la conversion d'un PDF/source vers une fiche wiki :
 - Références QR code → "disponible dans le PDF"
 - Glossaires en tableau → listes à puces
 
-## Notes enseignants
+## Notes pour l'adulte encadrant
 
 - Format : `:::info[Notes pour l'enseignant·e]` (bleu, pas gris)
 - Convertir tous les blockquotes `> **Notes pour l'enseignant·e**` en callouts info
+- **Sur Youth AI Lab**, le libellé devient `:::info[Notes pour l'animateur·rice]` (voir [Vocabulaire des personnes](#vocabulaire-des-personnes-selon-le-projet))
 
 ## Catalogue (`resources.ts`)
 

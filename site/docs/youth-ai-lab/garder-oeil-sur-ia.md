@@ -52,7 +52,7 @@ sidebar_position: 3
 
 ## Déroulé de l'exploration
 
-### Étape 1 : Introduction guidée (en classe, 60 minutes) : activité de l'enseignant·e
+### Étape 1 : Introduction guidée (en salle, 60 minutes) : activité de l'animateur·rice
 
 **Question clé** : *L'intelligence artificielle est-elle déjà partout ? Peut-on la reconnaître ?*
 
@@ -64,16 +64,16 @@ Explication non technique de ce que signifie l'intelligence artificielle :
 
 <img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
-**Approche de facilitation suggérée** : Avant de fournir une explication non technique de l'intelligence artificielle, l'animateur·rice est encouragé·e à impliquer activement les élèves en leur demandant de partager leurs propres idées et perceptions. On peut poser des questions telles que :
+**Approche de facilitation suggérée** : Avant de fournir une explication non technique de l'intelligence artificielle, l'animateur·rice est encouragé·e à impliquer activement les participant·es en leur demandant de partager leurs propres idées et perceptions. On peut poser des questions telles que :
 
 - Que pensez-vous qu'est l'intelligence artificielle ?
 - Où avez-vous entendu parler de l'IA auparavant ?
 - Pouvez-vous citer un exemple d'IA dans la vie quotidienne ?
 
-L'animateur·rice recueille et discute brièvement les réponses des élèves, sans les juger comme justes ou fausses. Ce moment permet de :
+L'animateur·rice recueille et discute brièvement les réponses des participant·es, sans les juger comme justes ou fausses. Ce moment permet de :
 
 - Identifier les préconceptions et idées reçues sur l'IA
-- Valoriser les connaissances préalables des élèves
+- Valoriser les connaissances préalables des participant·es
 - Créer un point de départ commun pour l'activité
 
 **Clarification fondamentale : Tout ce qui est automatique n'est pas de l'intelligence artificielle.**
@@ -82,9 +82,9 @@ L'animateur·rice recueille et discute brièvement les réponses des élèves, s
 
 ---
 
-### Étape 2 : Tâche pour les élèves (en classe, 60 minutes)
+### Étape 2 : Tâche pour les participant·es (en salle, 60 minutes)
 
-Les élèves doivent :
+Les participant·es doivent :
 
 - Identifier des objets ou systèmes dans leur ville
 - Vérifier s'ils utilisent l'IA ou non
@@ -103,10 +103,10 @@ Les élèves doivent :
 
 ---
 
-### Étape 3 : Analyse et discussion (en classe, 30 minutes)
+### Étape 3 : Analyse et discussion (en salle, 30 minutes)
 
 - Les groupes partagent leurs découvertes
-- Correction guidée et discussion menée par l'enseignant·e
+- Correction guidée et discussion menée par l'animateur·rice
 - Distinction claire entre : **règles fixes** et **algorithmes d'apprentissage**
 - Analyse d'exemples concrets de systèmes d'IA utilisés dans la vie quotidienne :
     - Feux de circulation intelligents
@@ -132,7 +132,7 @@ Les élèves doivent :
 
 ## L'accroche et le côté ludique
 
-- Les élèves jouent les **« détectives de l'IA »**
+- Les participant·es jouent les **« détectives de l'IA »**
 - La ville devient un laboratoire
 - Effet de surprise : découvrir à quel point l'IA nous entoure déjà
 - Travail en groupe et confrontation des interprétations
@@ -142,7 +142,7 @@ Les élèves doivent :
 
 ## Indicateurs de réussite
 
-Les élèves peuvent :
+Les participant·es peuvent :
 
 - Identifier correctement des exemples de systèmes IA et non-IA
 - Utiliser des concepts clés tels que *données*, *apprentissage*, *décision*
