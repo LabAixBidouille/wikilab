@@ -22,7 +22,18 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 
 // Références cassées connues et tracées ailleurs, tolérées pour ne pas
 // bloquer la CI. Retirer une entrée dès que l'issue liée est résolue.
-const KNOWN_MISSING = new Set([]);
+const KNOWN_MISSING = new Set([
+  // Icônes des 7 fiches Youth AI Lab ajoutées par #264. Les fiches et le
+  // catalogue référencent déjà `icone.png` ; les visuels restent à produire
+  // (flat-illustration Flaticon, choix humain). Suivi dans #265.
+  '/img/ressources/youth-ai-lab/enqueter-machines-apprennent/icone.png',
+  '/img/ressources/youth-ai-lab/entrainer-cerveau-machine/icone.png',
+  '/img/ressources/youth-ai-lab/concevoir-ia-avec-robot/icone.png',
+  '/img/ressources/youth-ai-lab/traquer-biais-genre/icone.png',
+  '/img/ressources/youth-ai-lab/pirater-prompts-biaises/icone.png',
+  '/img/ressources/youth-ai-lab/rendre-ville-vivable/icone.png',
+  '/img/ressources/youth-ai-lab/wikiyouthbot/icone.png',
+]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;
 // Capture le contenu COMPLET entre délimiteurs (tolère parenthèses, espaces,

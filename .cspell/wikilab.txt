@@ -731,3 +731,19 @@ regler
 
 # Vocabulaire FR
 surchargeable
+
+# Fiches Youth AI Lab (#264) : partenaire, autrices citées, outils et
+# vocabulaire IA propre aux fiches d'idéation
+Universitat
+l'Universitat
+Autònoma
+Buolamwini
+Criado
+gemini
+Wikibot
+chatbots
+classifieur
+débiaiser
+genrer
+neurodivergents
+étalonnable
