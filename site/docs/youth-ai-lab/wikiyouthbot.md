@@ -520,7 +520,7 @@ Boîte à outils pour l'enquête de l'étape 3, du gratuit à l'équipement de l
 - Les repères du CLEMI sur l'éducation aux médias et la vérification de l'information : https://www.clemi.fr/
 - La page Wikipédia des hallucinations des modèles de langage, pour nommer ce que la conférence de presse fait apparaître : https://fr.wikipedia.org/wiki/Hallucination_(intelligence_artificielle)
 - Les données ouvertes d'Eurostat, source institutionnelle pour vérifier un chiffre européen : https://ec.europa.eu/eurostat
-- Le guide de la CNIL sur les assistants conversationnels et les données personnelles : https://www.cnil.fr/fr/intelligence-artificielle
+- Le dossier de la CNIL sur l'intelligence artificielle, à consulter avant de faire manipuler un chatbot à des mineur·es : https://www.cnil.fr/fr/intelligence-artificielle
 
 ### Pour s'inspirer
 

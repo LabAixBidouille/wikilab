@@ -132,10 +132,10 @@ Les groupes retournent aux ordinateurs et saisissent leur consigne **exactement 
 
 ### Pour comprendre
 
-- Les biais des grands modèles de langage, expliqués par la CNIL : https://www.cnil.fr/fr/intelligence-artificielle
+- Le dossier de la CNIL sur l'intelligence artificielle, pour la partie biais et responsabilités : https://www.cnil.fr/fr/intelligence-artificielle
 - Les travaux de l'Algorithmic Justice League sur les préjugés encodés dans les systèmes automatisés : https://www.ajl.org/
 - La page Wikipédia du biais algorithmique, pour poser le vocabulaire après la séance : https://fr.wikipedia.org/wiki/Biais_algorithmique
-- Le dossier d'Interstices sur le traitement automatique des langues : https://interstices.info/domaine/intelligence-artificielle/
+- Le dossier « Intelligence artificielle » d'Interstices, la revue de vulgarisation d'Inria : https://interstices.info/domaine/intelligence-artificielle/
 
 ### Pour s'inspirer
 

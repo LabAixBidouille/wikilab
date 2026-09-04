@@ -165,7 +165,7 @@ Les participant·es :
 - L'ouvrage « Invisible Women » de Caroline Criado Perez, sur l'écart de données entre les femmes et les hommes dans la conception des objets et des services : https://fr.wikipedia.org/wiki/Femmes_invisibles
 - Les travaux de l'Algorithmic Justice League sur les biais des systèmes automatisés : https://www.ajl.org/
 - Le dossier de la CNIL sur l'intelligence artificielle et les droits des personnes : https://www.cnil.fr/fr/intelligence-artificielle
-- Le rapport annuel d'ONU Femmes sur l'égalité de genre : https://www.unwomen.org/fr
+- Les rapports annuels d'ONU Femmes : https://www.unwomen.org/fr/digital-library/annual-report
 
 ### Pour s'inspirer
 

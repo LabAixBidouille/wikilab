@@ -165,9 +165,9 @@ Les jeunes :
 ### Pour comprendre
 
 - La page Wikipédia du perceptron, pour mettre un nom d'histoire sur le montage en gobelets : https://fr.wikipedia.org/wiki/Perceptron
-- Le dossier d'Interstices sur les réseaux de neurones artificiels : https://interstices.info/domaine/intelligence-artificielle/
+- Le dossier « Intelligence artificielle » d'Interstices, la revue de vulgarisation d'Inria : https://interstices.info/domaine/intelligence-artificielle/
 - Les travaux de Joy Buolamwini sur les écarts de performance des systèmes de reconnaissance faciale selon les personnes, point d'appui de l'étape 2 : https://www.ajl.org/
-- Les ressources de la CNIL sur les biais des systèmes automatisés : https://www.cnil.fr/fr/intelligence-artificielle
+- Le dossier de la CNIL sur l'intelligence artificielle, qui traite notamment des biais : https://www.cnil.fr/fr/intelligence-artificielle
 
 ### Pour s'inspirer
 
