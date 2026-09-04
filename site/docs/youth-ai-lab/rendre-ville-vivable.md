@@ -135,24 +135,4 @@ La matrice de confusion est l'outil qui transforme un « ça marche » vague en 
 
 ---
 
-## Aller plus loin
-
-### Pour comprendre
-
-- L'Objectif de développement durable 11 des Nations unies, villes et communautés durables : https://www.un.org/sustainabledevelopment/fr/cities/
-- Les données officielles de qualité de l'air en France, station par station, publiées par les associations agréées de surveillance : https://www.atmo-france.org/
-- La page Wikipédia de l'îlot de chaleur urbain : https://fr.wikipedia.org/wiki/%C3%8Elot_de_chaleur_urbain
-- Le dossier de l'Agence européenne pour l'environnement sur la pollution de l'air et ses effets : https://www.eea.europa.eu/fr
-
-### Pour s'inspirer
-
-- Les fiches SteamCity sur la qualité de l'air, le bruit et la ville, qui couvrent la partie mesure avec du matériel : [/projets/steamcity](/projets/steamcity)
-- [Concevoir une IA avec un robot](/ressources/youth-ai-lab/concevoir-ia-avec-robot), pour transformer l'audit en prototype
-- [Entraîner le cerveau de la machine](/ressources/youth-ai-lab/entrainer-cerveau-machine), qui prépare la lecture des erreurs d'un modèle
-- [Garder un œil sur l'IA](/ressources/youth-ai-lab/garder-oeil-sur-ia), enquête de terrain sur l'IA déjà présente dans l'espace urbain
-- [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot), qui pousse la démarche jusqu'à la campagne de sensibilisation
-- OpenStreetMap et uMap, pour cartographier collectivement les obstacles repérés : https://umap.openstreetmap.fr/fr/
-
----
-
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

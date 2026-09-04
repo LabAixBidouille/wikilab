@@ -159,22 +159,4 @@ Les trois derniers indicateurs sont signalés comme provisoires dans la fiche so
 
 ---
 
-## Aller plus loin
-
-### Pour comprendre
-
-- Les 17 Objectifs de développement durable des Nations unies, et leurs cibles détaillées : https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/
-- La page Wikipédia du design thinking, pour situer la démarche suivie pendant la séance : https://fr.wikipedia.org/wiki/Design_thinking
-- Le dossier d'Interstices sur la robotique, du capteur à la décision : https://interstices.info/domaine/robotique/
-
-### Pour s'inspirer
-
-- Les deux séances qui précèdent : [Enquêter sur la façon dont les machines apprennent](/ressources/youth-ai-lab/enqueter-machines-apprennent) et [Entraîner le cerveau de la machine](/ressources/youth-ai-lab/entrainer-cerveau-machine)
-- [Rendre la ville plus vivable avec l'IA](/ressources/youth-ai-lab/rendre-ville-vivable), qui donne des sens au robot avec de vrais capteurs d'environnement
-- [Découvrir les algorithmes bio-inspirés](/ressources/youth-ai-lab/algorithmes-bio-inspires), pour une autre façon de faire décider un robot sur une grille
-- [Imaginer la pire invention](/ressources/youth-ai-lab/pire-invention), l'exercice inverse : concevoir volontairement le pire objet possible pour mieux voir ce qui rend un projet souhaitable
-- Les projets du LAB, pour voir à quoi ressemblent des prototypes menés jusqu'au bout : [/projets](/projets)
-
----
-
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

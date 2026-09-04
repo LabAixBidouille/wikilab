@@ -44,7 +44,7 @@ sidebar_position: 13
 - Smartphones ou capteurs simples pour les mesures de terrain
 - Appareil photo, carnets et stylos pour l'enquête de terrain
 
-<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Template_Explorations_Ideation_Sheet_WikiYouthBot.pdf">Télécharger la fiche d'exploration</PdfLink>
+<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_WikiYouthBot.pdf">Télécharger la fiche d'exploration</PdfLink>
 
 </div>
 
@@ -509,27 +509,6 @@ Boîte à outils pour l'enquête de l'étape 3, du gratuit à l'équipement de l
 - Photo macro (gratuit, smartphone) : les détails, mégots, fissures, déchets, fleurs.
 - Vidéo en accéléré (gratuit) : les changements lents, marée, ombre, activité.
 - Court enregistrement audio (gratuit) : un témoignage ou une ambiance sonore.
-
----
-
-## Aller plus loin
-
-### Pour comprendre
-
-- Les 17 Objectifs de développement durable des Nations unies, matière première du bingo et des causes : https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/
-- Les repères du CLEMI sur l'éducation aux médias et la vérification de l'information : https://www.clemi.fr/
-- La page Wikipédia des hallucinations des modèles de langage, pour nommer ce que la conférence de presse fait apparaître : https://fr.wikipedia.org/wiki/Hallucination_(intelligence_artificielle)
-- Les données ouvertes d'Eurostat, source institutionnelle pour vérifier un chiffre européen : https://ec.europa.eu/eurostat
-- Le dossier de la CNIL sur l'intelligence artificielle, à consulter avant de faire manipuler un chatbot à des mineur·es : https://www.cnil.fr/fr/intelligence-artificielle
-
-### Pour s'inspirer
-
-- [Distinguer le vrai du faux avec l'IA](/ressources/youth-ai-lab/air-vrai-est-ce-vrai), qui travaille le même réflexe de vérification sur un format plus court
-- [Pirater ses prompts pour déjouer les biais](/ressources/youth-ai-lab/pirater-prompts-biaises), pour préparer l'écriture des règles de l'étape 4
-- [Garder un œil sur l'IA](/ressources/youth-ai-lab/garder-oeil-sur-ia), une autre enquête de terrain, sur l'IA déjà installée dans le quartier
-- [Rendre la ville plus vivable avec l'IA](/ressources/youth-ai-lab/rendre-ville-vivable), qui partage le volet mesure et l'ancrage sur l'Objectif 11
-- [Démonter l'illusion de la pensée](/ressources/youth-ai-lab/illusion-tout-ce-qui-compte), pour prolonger la discussion sur ce qu'une IA fait vraiment quand elle a l'air sûre d'elle
-- Les fiches SteamCity sur la mesure environnementale en ville : [/projets/steamcity](/projets/steamcity)
 
 ---
 

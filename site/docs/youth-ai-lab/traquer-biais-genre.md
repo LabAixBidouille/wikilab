@@ -157,24 +157,4 @@ Les participant·es :
 
 ---
 
-## Aller plus loin
-
-### Pour comprendre
-
-- L'Objectif de développement durable 5 des Nations unies, avec ses cibles détaillées : https://www.un.org/sustainabledevelopment/fr/gender-equality/
-- L'ouvrage « Invisible Women » de Caroline Criado Perez, sur l'écart de données entre les femmes et les hommes dans la conception des objets et des services : https://fr.wikipedia.org/wiki/Femmes_invisibles
-- Les travaux de l'Algorithmic Justice League sur les biais des systèmes automatisés : https://www.ajl.org/
-- Le dossier de la CNIL sur l'intelligence artificielle et les droits des personnes : https://www.cnil.fr/fr/intelligence-artificielle
-- Les rapports annuels d'ONU Femmes : https://www.unwomen.org/fr/digital-library/annual-report
-
-### Pour s'inspirer
-
-- [Pirater ses prompts pour déjouer les biais](/ressources/youth-ai-lab/pirater-prompts-biaises), la suite naturelle : une fois le biais repéré, apprendre à écrire une consigne qui l'empêche
-- [Entraîner le cerveau de la machine](/ressources/youth-ai-lab/entrainer-cerveau-machine), pour manipuler un perceptron avant de lancer le script de l'étape 3
-- [Distinguer le vrai du faux avec l'IA](/ressources/youth-ai-lab/air-vrai-est-ce-vrai), sur le même réflexe de vérification appliqué aux faits plutôt qu'aux stéréotypes
-- [Démonter l'illusion de la pensée](/ressources/youth-ai-lab/illusion-tout-ce-qui-compte), qui interroge ce qu'une IA fait réellement quand elle semble raisonner
-- Le TensorFlow Playground, pour voir une frontière de décision se déplacer en direct : https://playground.tensorflow.org/
-
----
-
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

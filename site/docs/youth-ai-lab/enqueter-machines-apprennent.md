@@ -159,24 +159,4 @@ Les jeunes :
 
 ---
 
-## Aller plus loin
-
-### Pour comprendre
-
-- Les 17 Objectifs de développement durable des Nations unies, cadre commun à tout le parcours : https://www.un.org/sustainabledevelopment/fr/objectifs-de-developpement-durable/
-- La page Wikipédia sur l'apprentissage supervisé, pour poser le vocabulaire après la séance : https://fr.wikipedia.org/wiki/Apprentissage_supervis%C3%A9
-- Les ressources de la CNIL sur les algorithmes et l'intelligence artificielle, côté droits et responsabilités : https://www.cnil.fr/fr/intelligence-artificielle
-- Le dossier « Intelligence artificielle » d'Interstices, la revue de vulgarisation d'Inria : https://interstices.info/domaine/intelligence-artificielle/
-
-### Pour s'inspirer
-
-- Teachable Machine, l'outil de Google utilisé au troisième temps, à retester chez soi avec ses propres objets : https://teachablemachine.withgoogle.com/
-- La suite du parcours : [Entraîner le cerveau de la machine](/ressources/youth-ai-lab/entrainer-cerveau-machine) et [Concevoir une IA avec un robot](/ressources/youth-ai-lab/concevoir-ia-avec-robot)
-- [Garder un œil sur l'IA](/ressources/youth-ai-lab/garder-oeil-sur-ia) prolonge l'enquête hors de la salle, en cherchant l'IA dans l'espace urbain
-- [Explorer l'IA dans la machine](/ressources/youth-ai-lab/labo-ia-dans-machine) aborde la même question par la prédiction de texte plutôt que par le classement d'images
-- [Découvrir les algorithmes bio-inspirés](/ressources/youth-ai-lab/algorithmes-bio-inspires) montre une autre famille d'apprentissage, par essais et récompenses
-- Le jeu « Quick, Draw! » de Google, où l'on voit un modèle deviner un dessin en direct et se tromper avec aplomb : https://quickdraw.withgoogle.com/
-
----
-
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

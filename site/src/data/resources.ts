@@ -3703,7 +3703,7 @@ export const resources: Resource[] = [
       'contraintes',
       'esprit critique',
     ],
-    pdf: '/pdf/youth-ai-lab/YouthAiLab_Template_Explorations_Ideation_Sheet_BiasBountyHunt.pdf',
+    pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_BiasBountyHunt.pdf',
     thumbnail: '/img/ressources/youth-ai-lab/pirater-prompts-biaises/icone.png',
   },
   {
@@ -3760,7 +3760,7 @@ export const resources: Resource[] = [
       'hallucination',
       'enquête de terrain',
     ],
-    pdf: '/pdf/youth-ai-lab/YouthAiLab_Template_Explorations_Ideation_Sheet_WikiYouthBot.pdf',
+    pdf: '/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_WikiYouthBot.pdf',
     thumbnail: '/img/ressources/youth-ai-lab/wikiyouthbot/icone.png',
   },
   {

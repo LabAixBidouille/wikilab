@@ -298,6 +298,8 @@ Au moins un objectif doit ouvrir sur la **transposition à d'autres usages** («
 
 ### Section Aller plus loin : Pour comprendre / Pour s'inspirer
 
+> **Exception Youth AI Lab** : les fiches de ce projet ne portent pas de section `## Aller plus loin`. Elles se terminent sur les indicateurs de réussite, puis le footer Erasmus+. Ne pas en ajouter.
+
 Toute fiche se termine par une section **`## Aller plus loin`** structurée en deux sous-sections obligatoires :
 
 ```md

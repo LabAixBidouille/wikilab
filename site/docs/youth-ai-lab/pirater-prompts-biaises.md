@@ -32,7 +32,7 @@ sidebar_position: 11
 - 1 ou 2 ordinateurs avec accès à une IA par groupe
 - La liste de phrases à compléter, sélectionnée à l'avance par l'équipe d'animation
 
-<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Template_Explorations_Ideation_Sheet_BiasBountyHunt.pdf">Télécharger la fiche d'exploration</PdfLink>
+<PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_BiasBountyHunt.pdf">Télécharger la fiche d'exploration</PdfLink>
 
 </div>
 
@@ -125,25 +125,6 @@ Les groupes retournent aux ordinateurs et saisissent leur consigne **exactement 
 - Les participant·es **prennent part activement** au jeu physique et savent expliquer pourquoi le groupe a spontanément produit des stéréotypes
 - Les prompts piratés affichés montrent une **pensée structurée**, et pas de simples questions
 - Le groupe **démontre effectivement** que sa consigne conçue sur papier a forcé l'IA à produire une réponse non biaisée lors du test final
-
----
-
-## Aller plus loin
-
-### Pour comprendre
-
-- Le dossier de la CNIL sur l'intelligence artificielle, pour la partie biais et responsabilités : https://www.cnil.fr/fr/intelligence-artificielle
-- Les travaux de l'Algorithmic Justice League sur les préjugés encodés dans les systèmes automatisés : https://www.ajl.org/
-- La page Wikipédia du biais algorithmique, pour poser le vocabulaire après la séance : https://fr.wikipedia.org/wiki/Biais_algorithmique
-- Le dossier « Intelligence artificielle » d'Interstices, la revue de vulgarisation d'Inria : https://interstices.info/domaine/intelligence-artificielle/
-
-### Pour s'inspirer
-
-- [Explorer l'IA dans la machine](/ressources/youth-ai-lab/labo-ia-dans-machine), dont l'activité 2 fournit la mécanique de prédiction sur laquelle ce jeu s'appuie
-- [Traquer les biais de genre de l'IA](/ressources/youth-ai-lab/traquer-biais-genre), qui creuse le même sujet côté données d'entraînement et Objectif de développement durable 5
-- [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot), où les règles écrites par le groupe deviennent la personnalité durable d'une IA
-- [Imaginer la pire invention](/ressources/youth-ai-lab/pire-invention), qui utilise aussi l'IA générative comme complice d'une démonstration critique
-- [Distinguer le vrai du faux avec l'IA](/ressources/youth-ai-lab/air-vrai-est-ce-vrai), pour enchaîner sur la vérification des faits
 
 ---
 

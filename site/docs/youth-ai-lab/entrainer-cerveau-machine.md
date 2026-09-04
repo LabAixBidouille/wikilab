@@ -160,24 +160,4 @@ Les jeunes :
 
 ---
 
-## Aller plus loin
-
-### Pour comprendre
-
-- La page Wikipédia du perceptron, pour mettre un nom d'histoire sur le montage en gobelets : https://fr.wikipedia.org/wiki/Perceptron
-- Le dossier « Intelligence artificielle » d'Interstices, la revue de vulgarisation d'Inria : https://interstices.info/domaine/intelligence-artificielle/
-- Les travaux de Joy Buolamwini sur les écarts de performance des systèmes de reconnaissance faciale selon les personnes, point d'appui de l'étape 2 : https://www.ajl.org/
-- Le dossier de la CNIL sur l'intelligence artificielle, qui traite notamment des biais : https://www.cnil.fr/fr/intelligence-artificielle
-
-### Pour s'inspirer
-
-- Teachable Machine, à reprendre chez soi avec ses propres objets : https://teachablemachine.withgoogle.com/
-- Le TensorFlow Playground, un réseau de neurones qu'on entraîne dans le navigateur en voyant la frontière de décision bouger en direct : https://playground.tensorflow.org/
-- La suite du parcours : [Concevoir une IA avec un robot](/ressources/youth-ai-lab/concevoir-ia-avec-robot), qui transforme ces idées en prototype
-- [Découvrir les algorithmes bio-inspirés](/ressources/youth-ai-lab/algorithmes-bio-inspires), où l'apprentissage se fait par récompense plutôt que par exemples étiquetés
-- [Traquer les biais de genre de l'IA](/ressources/youth-ai-lab/traquer-biais-genre) reprend la discussion de l'étape 2 et en fait une séance entière
-- [Rendre la ville plus vivable avec l'IA](/ressources/youth-ai-lab/rendre-ville-vivable) applique la même logique de classification à des mesures d'environnement
-
----
-
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
