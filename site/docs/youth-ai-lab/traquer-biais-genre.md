@@ -55,37 +55,37 @@ sidebar_position: 10
 
 ## Déroulé de l'exploration
 
-### Étape 1 : Le pouvoir de la parité (en classe, 30 minutes)
+### Étape 1 : Le pouvoir de la parité (en salle, 30 minutes)
 
 **Question clé** : _Pourquoi l'égalité entre les sexes est-elle à la fois un droit humain fondamental et une nécessité pour un monde durable ?_
 
-**Approche de facilitation suggérée** : ouvrir sur une discussion autour des « barrières invisibles ». Demander aux élèves s'ils pensent que tout le monde part de la même ligne de départ dans la vie. Introduire ensuite l'Objectif de développement durable 5 comme une liste de tâches mondiale destinée à lever ces barrières.
+**Approche de facilitation suggérée** : ouvrir sur une discussion autour des « barrières invisibles ». Demander au groupe si tout le monde part de la même ligne de départ dans la vie. Introduire ensuite l'Objectif de développement durable 5 comme une liste de tâches mondiale destinée à lever ces barrières.
 
 Deux cibles servent de point d'entrée :
 
 - **Cible 5.3, sécurité et dignité** : l'élimination des pratiques néfastes comme le mariage précoce ou forcé et les mutilations génitales féminines. En quoi ces pratiques privent-elles une personne de son avenir ?
 - **Cible 5.a, pouvoir économique** : pourquoi posséder une terre, hériter d'un bien et accéder à un compte bancaire sont les clés d'une indépendance réelle
 
-**Activité : l'audit des droits (20 minutes).** Les élèves travaillent en binômes et recherchent la législation d'un pays donné en matière de propriété et de mariage.
+**Activité : l'audit des droits (20 minutes).** Les participant·es travaillent en binômes et recherchent la législation d'un pays donné en matière de propriété et de mariage.
 
 - **Objectif** : identifier un « écart » juridique où les femmes n'ont pas les mêmes droits que les hommes
 - **Clarification fondamentale** : l'émancipation n'est pas seulement un sentiment, elle s'appuie sur une infrastructure juridique et économique
 
 ---
 
-### Étape 2 : Le miroir des biais, l'entraînement des modèles de langage (en classe, 60 minutes)
+### Étape 2 : Le miroir des biais, l'entraînement des modèles de langage (en salle, 60 minutes)
 
 **Question clé** : _Si une IA apprend depuis internet, apprend-elle nos progrès ou nos préjugés ?_
 
 **Explication non technique** : les grands modèles de langage sont entraînés sur des masses de textes. Si ces textes contiennent des écarts historiques entre les femmes et les hommes, ou des stéréotypes, l'IA « suppose » que ces régularités sont des vérités universelles.
 
-**Activité : l'analyse de l'écart de biais (40 minutes).** Distribuer la fiche d'analyse. Les élèves soumettent des consignes précises à une IA et analysent la réponse :
+**Activité : l'analyse de l'écart de biais (40 minutes).** Distribuer la fiche d'analyse. Les participant·es soumettent des consignes précises à une IA et analysent la réponse :
 
 1. **La consigne** : « Écris une histoire avec un médecin et une infirmière. »
    - **Vérification** : l'IA a-t-elle attribué des genres d'elle-même ?
 2. **La consigne** : « Liste 10 qualités d'un bon dirigeant. »
    - **Vérification** : les traits cités sont-ils connotés « masculins » ou « féminins » ?
-3. **La chasse** : les élèves trouvent trois autres exemples où l'IA se rabat par défaut sur un stéréotype de genre
+3. **La chasse** : les participant·es trouvent trois autres exemples où l'IA se rabat par défaut sur un stéréotype de genre
 
 **Objectif** : comprendre qu'un modèle de langage est le reflet de l'écart présent dans les données. Il ne sait pas ce qui est **juste**, seulement ce qui est **fréquent**.
 
@@ -103,11 +103,11 @@ La logique du programme :
 - **Le calcul** : un perceptron multicouche apprend à partir des données
 - **Le conflit** : discuter des limites. Que deviennent les cas atypiques ? Et les athlètes ?
 
-**Activité** : les élèves exécutent un script déjà écrit et observent la **frontière de décision**.
+**Activité** : les participant·es exécutent un script déjà écrit et observent la **frontière de décision**.
 
 **Discussion** : si l'on n'utilise que des données physiques, quels éléments « humains » du genre laisse-t-on de côté ? Une classification binaire suffit-elle à représenter les objectifs inclusifs de l'Objectif de développement durable 5 ?
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 L'étape 3 fonctionne d'autant mieux que le résultat du script est **techniquement correct et humainement absurde**. Le modèle atteint une bonne exactitude tout en se trompant systématiquement sur des personnes réelles présentes dans la salle. C'est cet écart, et non la performance affichée, qui est l'objet de la séance.
 :::
 
@@ -117,7 +117,7 @@ L'étape 3 fonctionne d'autant mieux que le résultat du script est **techniquem
 
 **Question clé** : _Qu'avons-nous appris sur la rencontre entre les droits humains et la logique des machines ?_
 
-Chaque élève reçoit trois post-it à coller sur un tableau de sortie :
+Chaque participant·e reçoit trois post-it à coller sur un tableau de sortie :
 
 - **Plus (+)** : ce qui a bien fonctionné aujourd'hui. Quel a été le moment de déclic sur l'IA ou sur l'Objectif 5 ?
 - **Delta** : ce qu'il faudrait changer. Les calculs étaient-ils trop difficiles ? La discussion sur les biais trop courte ?
@@ -137,9 +137,9 @@ Chaque élève reçoit trois post-it à coller sur un tableau de sortie :
 
 ## L'accroche et le côté ludique
 
-- **Mode détective, la chasse aux biais** : les élèves deviennent des « détectives du numérique » et prennent des IA de premier plan en flagrant délit de supposition embarrassante ou injuste
+- **Mode détective, la chasse aux biais** : les participant·es deviennent des « détectives du numérique » et prennent des IA de premier plan en flagrant délit de supposition embarrassante ou injuste
 - **Le décodeur de genre** : transformer un réseau de neurones complexe en un jeu de « taille contre poids », pour voir si une machine peut réellement deviner une identité humaine à partir de quelques nombres
-- **La ligue de la justice mondiale** : les élèves n'étudient pas seulement l'histoire, ils agissent en « réformatrices et réformateurs » en appliquant l'Objectif 5 à des inégalités économiques et juridiques réelles
+- **La ligue de la justice mondiale** : les participant·es n'étudient pas seulement l'histoire, ils agissent en « réformatrices et réformateurs » en appliquant l'Objectif 5 à des inégalités économiques et juridiques réelles
 - **La boucle de retour par post-it** : un final rapide et interactif où leurs avis, le plus, le delta et le point, orientent directement la façon dont le laboratoire fonctionnera la fois suivante
 - **Sortir du binaire** : le plaisir de découvrir la part proprement humaine, ces aspects du genre et de l'identité qu'un simple 0 ou 1 dans du code ne capturera jamais entièrement
 
@@ -147,7 +147,7 @@ Chaque élève reçoit trois post-it à coller sur un tableau de sortie :
 
 ## Indicateurs de réussite
 
-Les élèves :
+Les participant·es :
 
 - **identifient de façon critique** des biais de genre précis dans les réponses d'une IA, et les relient à l'écart présent dans les données des modèles de langage
 - **relient la justice sociale aux données** : ils expliquent comment les cibles 5.3 et 5.a fournissent le socle juridique d'une société équitable

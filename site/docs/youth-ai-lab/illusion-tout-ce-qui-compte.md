@@ -22,7 +22,7 @@ sidebar_position: 5
 
 | Projet | Durée | Difficulté | Âge |
 |---|---|---|---|
-| Youth AI Lab | 2h30 en classe + travail maison | Intermédiaire | 12-18 ans |
+| Youth AI Lab | 2h30 en salle + travail à la maison | Intermédiaire | 12-18 ans |
 
 ## Matériel
 
@@ -55,25 +55,25 @@ sidebar_position: 5
 
 ## Déroulé de l'exploration
 
-### Étape 1 : L'illusion de la pensée (en classe, 60 minutes)
+### Étape 1 : L'illusion de la pensée (en salle, 60 minutes)
 
 **Question clé** : *Une machine « pense-t-elle » réellement, ou n'est-elle qu'un très bon miroir ?*
 
-**Approche de facilitation suggérée** : Distribuer l'article « L'illusion de la pensée ». Avant la lecture, demander aux élèves s'ils pensent qu'un ordinateur peut « comprendre » une blague ou une histoire triste. Utiliser la fiche d'analyse pour guider leur lecture.
+**Approche de facilitation suggérée** : Distribuer l'article « L'illusion de la pensée ». Avant la lecture, demander au groupe s'il pense qu'un ordinateur peut « comprendre » une blague ou une histoire triste. Utiliser la fiche d'analyse pour guider leur lecture.
 
 **Déroulé de l'activité :**
 
-- **Lecture individuelle (20 min)** : Les élèves lisent l'article en marquant les passages qui les surprennent.
-- **Analyse et conclusion (30 min)** : En utilisant la fiche d'analyse, les élèves doivent identifier :
+- **Lecture individuelle (20 min)** : Les participant·es lisent l'article en marquant les passages qui les surprennent.
+- **Analyse et conclusion (30 min)** : En utilisant la fiche d'analyse, les participant·es doivent identifier :
     - **Le « tour de magie »** : Comment l'IA imite le raisonnement humain.
     - **Le manque** : Ce qui manque au processus de « pensée » de l'IA (par exemple, la conscience, l'intention véritable).
-- **Discussion en classe (10 min)** : Partager les conclusions.
+- **Discussion collective (10 min)** : Partager les conclusions.
 
 **Clarification fondamentale** : Traiter du langage n'est pas la même chose que posséder une conscience.
 
 ---
 
-### Étape 2 : Des robots pour le bien commun : introduction aux ODD (en classe, 30 minutes)
+### Étape 2 : Des robots pour le bien commun : introduction aux ODD (en salle, 30 minutes)
 
 **Question clé** : *Comment pouvons-nous utiliser des machines « pensantes » pour résoudre des problèmes mondiaux « insolubles » ?*
 
@@ -87,7 +87,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 3 : Comment les machines apprennent : l'apprentissage par renforcement (en classe, 45 minutes)
+### Étape 3 : Comment les machines apprennent : l'apprentissage par renforcement (en salle, 45 minutes)
 
 **Question clé** : *Comment apprendre à un robot à accomplir une tâche sans lui donner d'instructions spécifiques ?*
 
@@ -108,7 +108,7 @@ sidebar_position: 5
 
 **Question clé** : *Comment votre robot va-t-il changer le monde ?*
 
-**Le devoir** : Les élèves doivent reprendre le concept de robot basique commencé en classe et le développer :
+**Le travail à la maison** : Les participant·es doivent reprendre le concept de robot basique commencé pendant l'atelier et le développer :
 
 1. **Intégrer un ODD** : Préciser exactement quel objectif le robot aide à atteindre.
 2. **Définir la boucle d'apprentissage par renforcement** : Si votre robot utilisait l'apprentissage par renforcement, quelle serait la « Récompense » et quelle serait la « Pénalité » ?
@@ -131,9 +131,9 @@ sidebar_position: 5
 
 ## L'accroche et le côté ludique
 
-- **Démystifier la magie** : Les élèves jouent les « Philosophes-Ingénieurs » pour lever le rideau sur la « pensée » de l'IA.
+- **Démystifier la magie** : Les participant·es jouent les « Philosophes-Ingénieurs » pour lever le rideau sur la « pensée » de l'IA.
 - **Le jeu de la récompense** : Utiliser des vidéos d'IA apprenant par essais et erreurs pour voir comment l'« échec » mène au succès.
-- **Conception basée sur une mission** : Les élèves ne fabriquent pas juste un robot ; ils conçoivent un outil pour sauver la planète (ODD).
+- **Conception basée sur une mission** : Les participant·es ne fabriquent pas juste un robot, elles et ils conçoivent un outil pour sauver la planète (ODD).
 - **Liberté créative** : Passer de la lecture d'un article à l'esquisse de leurs propres améliorations de robot.
 - **Défier la machine** : Essayer de trouver des choses que les humains peuvent faire et que l'IA ne peut tout simplement pas.
 
@@ -141,14 +141,14 @@ sidebar_position: 5
 
 ## Indicateurs de réussite
 
-Les élèves peuvent :
+Les participant·es peuvent :
 
 - Définir correctement les éléments de l'**apprentissage par renforcement**
 - Expliquer pourquoi la « compréhension » d'une IA est souvent considérée comme une illusion basée sur des modèles de données
 - Associer une **fonction robotique** à un **ODD** spécifique (par exemple, « Ce robot aide l'Objectif 14 en nettoyant les océans »)
 - Justifier les ajouts de leur devoir en s'appuyant sur les limites techniques de l'IA
 
-Amélioration de la profondeur d'analyse dans la discussion de classe partagée concernant l'article « L'illusion de la pensée ».
+Amélioration de la profondeur d'analyse dans la discussion collective concernant l'article « L'illusion de la pensée ».
 
 Capacité à reformuler le message clé : **« L'IA ne pense pas comme nous, mais nous pouvons lui apprendre à nous aider à résoudre les plus grands problèmes du monde. »**
 

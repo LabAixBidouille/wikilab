@@ -68,7 +68,7 @@ L'objet de cette activité est d'**analyser la machine, pas de juger les partici
 
 ### Étape 1 : Le jeu du modèle de langage humain (débranché puis sur écran, environ 35 minutes)
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Ce jeu s'appuie sur les mécanismes explorés dans [Explorer l'IA dans la machine](/ressources/youth-ai-lab/labo-ia-dans-machine), activité 2. Là où la séance précédente portait sur la façon dont une IA prédit du texte de manière probabiliste, celle-ci explore **quelles données nourrissent ces probabilités**, et révèle comment les stéréotypes humains se retrouvent enchâssés dans la machine.
 :::
 

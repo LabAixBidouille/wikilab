@@ -28,7 +28,7 @@ sidebar_position: 7
 
 - 1 jeu de cartes « situations du quotidien » par groupe, mêlant des objets à IA et des objets sans IA (porte automatique, fil d'actualité, feu tricolore, aspirateur robot, filtre de visage, assistant vocal)
 - 1 jeu de cartes de formes concaves et convexes par groupe, avec les formes de test marquées d'un point d'interrogation
-- 2 affiches ou 2 boîtes étiquetées « Pile 1 » et « Pile 2 », 1 jeu par classe
+- 2 affiches ou 2 boîtes étiquetées « Pile 1 » et « Pile 2 », 1 jeu pour l'ensemble du groupe
 - Fiches de relevé, 1 par groupe
 - 1 ordinateur par groupe
 - Teachable Machine, outil en ligne utilisé au troisième temps
@@ -71,7 +71,7 @@ Après la question d'ouverture, chaque groupe trie les cartes « situations du q
 
 Une discussion en grand groupe compare les réponses et construit une première définition de travail : il y a IA quand un système **utilise des données pour reconnaître des régularités** et **faire des prédictions ou prendre des décisions**.
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Les désaccords entre groupes sont la matière première de l'étape. Un feu tricolore à minuterie fixe et un feu tricolore qui adapte ses cycles au trafic mesuré se ressemblent de l'extérieur : c'est en cherchant ce qui les distingue que les jeunes formulent eux-mêmes le critère « données + apprentissage ».
 :::
 
@@ -93,7 +93,7 @@ L'activité se joue en deux manches sur la même tâche de classement de formes.
 
 Le débat de clôture nomme le vocabulaire que les jeunes viennent de manipuler sans le savoir : **entrée**, **modèle**, **sortie**, **données d'entraînement**, **données de test**, **prédiction**. La règle cachée est enfin révélée : concave contre convexe.
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Les cartes se prêtent à trois critères de tri : la couleur (jaune / bleu), le remplissage (motif / uni) et la forme (concave / convexe). Les deux premiers sont évidents et servent d'échauffement. Le troisième est celui qui produit le déclic, parce qu'il est difficile à verbaliser même quand on l'a compris. C'est exactement la situation d'un modèle entraîné : il classe correctement sans pouvoir énoncer la règle.
 :::
 

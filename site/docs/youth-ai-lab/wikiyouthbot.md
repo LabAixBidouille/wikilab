@@ -116,7 +116,7 @@ Après la partie, chaque participant·e place 5 gommettes sur les images qui l'o
 | Triple carton plein (les 3 grilles complètes)      | 10 pts          |
 | Point bonus coché sur la carte dédiée              | 1 pt par bonus  |
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Les 30 cartes murales fournies dans le PDF sont des propositions, à adapter au contexte local. Elles comprennent 27 situations et 3 cartes de rééquilibrage du jeu : un joker, un échange de grilles et un double tirage. La version française du projet ajoute, à côté du texte de la situation, une photo tirée de la presse locale, pour que les situations restent reconnaissables par les participant·es.
 :::
 
@@ -135,7 +135,7 @@ En comparant les deux résultats, les jeunes découvrent qu'une **IA générique
 
 La cause et les premiers réflexes de vérification formulés par le groupe sont **écrits dans le chatbot**, ce qui lui donne un sujet et un premier jeu de règles de conduite.
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Pour qu'une rumeur soit pédagogiquement utile, elle doit être **équilibrée** avant d'être lue : y ajouter un élément presque vrai (chiffre approximatif, citation réelle ou plausible, source partielle), une formulation ambiguë qui laisse place à la nuance, ou un détail qui sonne familier sans être tout à fait exact. Une rumeur sans aucune part de vrai se démonte trop facilement et perd sa valeur.
 
 Les 3 rumeurs d'une même série s'appuient sur 3 sources différentes, pour ne pas faire porter le soupçon toujours sur la même institution et pour ouvrir la vérification sur plusieurs sites. Le chiffre provient d'une institution internationale ou européenne reconnue (ONU, OMS, FAO, OIT, OCDE, UNESCO, UNICEF, AIE, IRENA, AEE, Commission européenne). La citation est attribuée à une personne nommée : scientifique, militant·e, personnalité publique. Le PDF de la fiche donne des exemples complets, et l'équipe d'animation dispose d'une base de rumeurs interne, accessible sur demande.
@@ -480,7 +480,7 @@ Boîte à outils pour l'enquête de l'étape 3, du gratuit à l'équipement de l
 - Sites des associations agréées de surveillance de la qualité de l'air, réunies dans Atmo France (gratuit) : données officielles station par station, avec historique. La source la plus fiable pour comparer un point dans le temps. https://www.atmo-france.org/
 - Couche « qualité de l'air » de Google Maps (gratuit) : indice disponible pour un lieu à l'instant T.
 - Capteur portable de particules fines (50 à 150 €) : mesure directe, plus crédible qu'une application.
-- Capteur portable de CO2 (50 à 100 €) : pour l'intérieur, salles de classe et lieux clos. Sans intérêt en extérieur.
+- Capteur portable de CO2 (50 à 100 €) : pour l'intérieur, salles d'activité et lieux clos. Sans intérêt en extérieur.
 
 **La température et l'humidité**
 

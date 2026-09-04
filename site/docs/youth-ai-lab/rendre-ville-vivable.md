@@ -53,11 +53,11 @@ sidebar_position: 12
 
 ## Déroulé de l'exploration
 
-### Étape 1 : Le plan d'urbanisme, l'Objectif 11 (en classe, 60 minutes)
+### Étape 1 : Le plan d'urbanisme, l'Objectif 11 (en salle, 60 minutes)
 
 **Question clé** : _Comment transformer nos villes en espaces inclusifs, sûrs et verts pour tout le monde ?_
 
-**Approche de facilitation suggérée** : ouvrir sur un « audit de la ville ». Demander aux élèves de décrire leur trajet jusqu'à l'établissement. Est-il bruyant ? L'air y est-il propre ? Une personne en fauteuil roulant ou un voisin âgé peuvent-ils s'y déplacer facilement ? Introduire ensuite l'Objectif de développement durable 11, villes et communautés durables, comme le plan d'ensemble qui répond à ces défis urbains.
+**Approche de facilitation suggérée** : ouvrir sur un « audit de la ville ». Demander au groupe de décrire son trajet quotidien. Est-il bruyant ? L'air y est-il propre ? Une personne en fauteuil roulant ou un voisin âgé peuvent-ils s'y déplacer facilement ? Introduire ensuite l'Objectif de développement durable 11, villes et communautés durables, comme le plan d'ensemble qui répond à ces défis urbains.
 
 Trois cibles servent de point d'entrée :
 
@@ -65,7 +65,7 @@ Trois cibles servent de point d'entrée :
 - **Cible 11.4, la protection du patrimoine** : pourquoi la sauvegarde du patrimoine culturel et naturel est-elle vitale pour l'identité d'une ville ?
 - **Cible 11.6, l'impact environnemental** : la qualité de l'air et les déchets. Comment une ville « respire »-t-elle ?
 
-**Activité : la carte de l'accessibilité (20 minutes).** Les élèves travaillent en binômes, identifient un obstacle dans leur propre commune (absence de pistes cyclables, zone de forte pollution) et proposent une solution numérique.
+**Activité : la carte de l'accessibilité (20 minutes).** Les participant·es travaillent en binômes, identifient un obstacle dans leur propre commune (absence de pistes cyclables, zone de forte pollution) et proposent une solution numérique.
 
 **Clarification fondamentale** : une ville n'est pas seulement un ensemble de bâtiments, c'est un système vivant qui a besoin de données pour rester en bonne santé.
 
@@ -89,9 +89,9 @@ L'ensemble de capteurs :
 
 **Question clé** : _Comment notre IA entraînée réagit-elle à des situations réelles ?_
 
-**Le test par scénarios** : une fois le modèle entraîné, les élèves utilisent la section d'inférence du carnet Python pour simuler un robot qui traverse différents quartiers.
+**Le test par scénarios** : une fois le modèle entraîné, les participant·es utilisent la section d'inférence du carnet Python pour simuler un robot qui traverse différents quartiers.
 
-**Activité : le défi des scénarios (30 minutes).** Les élèves saisissent de « nouvelles mesures » dans le modèle et observent ses niveaux de confiance :
+**Activité : le défi des scénarios (30 minutes).** Les participant·es saisissent de « nouvelles mesures » dans le modèle et observent ses niveaux de confiance :
 
 - **Scénario A** : un parc ensoleillé (peu de bruit, peu de particules fines). Résultat attendu : vivable.
 - **Scénario B** : un embouteillage (bruit élevé, particules élevées, forte chaleur). Résultat attendu : non vivable.
@@ -99,7 +99,7 @@ L'ensemble de capteurs :
 
 **Discussion** : observer la matrice de confusion. Où l'IA s'est-elle trompée ? A-t-elle pris un parc bruyant pour un chantier ? Pourquoi la **confiance**, c'est-à-dire la probabilité en pourcentage, compte-t-elle autant que la réponse finale ?
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 La matrice de confusion est l'outil qui transforme un « ça marche » vague en une lecture précise des erreurs. Prendre le temps de la lire ensemble, ligne par ligne : elle dit non seulement combien de fois le modèle s'est trompé, mais surtout **dans quel sens** il s'est trompé, ce qui n'a pas les mêmes conséquences selon qu'on déclare vivable un lieu qui ne l'est pas, ou l'inverse.
 :::
 
@@ -116,8 +116,8 @@ La matrice de confusion est l'outil qui transforme un « ça marche » vague en 
 
 ## L'accroche et le côté ludique
 
-- **Se sentir concerné et propriétaire du sujet** : en auditant leur propre ville ou leur propre établissement, le projet cesse d'être un exercice de manuel pour devenir une mission. Les élèves ne sont plus seulement des élèves, ce sont des « concepteurs et conceptrices d'espace urbain » ou des « militant·es du numérique » qui s'attaquent à des problèmes réels, vus tous les jours.
-- **La perspective cyborg** : au lieu de lire un texte sur la pollution, les élèves donnent des sens à un robot. Voir un écran réagir instantanément à un claquement de mains (microphone) ou à un souffle (capteur de CO2) transforme une science abstraite en un jeu tangible et interactif.
+- **Se sentir concerné et propriétaire du sujet** : en auditant leur propre ville ou leur propre lieu de vie, le projet cesse d'être un exercice de manuel pour devenir une mission. Le groupe ne se contente plus de suivre une activité : il endosse un rôle, « concepteur et conceptrice d'espace urbain » ou « militant·e du numérique », face à des problèmes réels et vus tous les jours.
+- **La perspective cyborg** : au lieu de lire un texte sur la pollution, les participant·es donnent des sens à un robot. Voir un écran réagir instantanément à un claquement de mains (microphone) ou à un souffle (capteur de CO2) transforme une science abstraite en un jeu tangible et interactif.
 
 ---
 
@@ -125,13 +125,13 @@ La matrice de confusion est l'outil qui transforme un « ça marche » vague en 
 
 **1. Le passage de la donnée à l'action**
 
-- **Indicateur** : pendant le temps en salle, les élèves savent-ils expliquer pourquoi la température ou la qualité de l'air comptent pour un public fragile précis ?
-- **Preuve** : un élève qui dit « le capteur montre qu'il fait trop chaud ici, ce serait un îlot de chaleur dangereux pour une personne âgée au sens de l'Objectif 11 » démontre une synthèse réussie entre technique et éthique.
+- **Indicateur** : pendant le temps en salle, les participant·es savent-ils expliquer pourquoi la température ou la qualité de l'air comptent pour un public fragile précis ?
+- **Preuve** : un·e participant·e qui dit « le capteur montre qu'il fait trop chaud ici, ce serait un îlot de chaleur dangereux pour une personne âgée au sens de l'Objectif 11 » démontre une synthèse réussie entre technique et éthique.
 
 **2. L'autonomie technique**
 
 - **Indicateur** : la capacité à interpréter et à corriger la frontière de décision du réseau de neurones.
-- **Preuve** : les élèves exécutent le script Python et identifient correctement comment les cas atypiques mettent en difficulté un modèle de classification.
+- **Preuve** : les participant·es exécutent le script Python et identifient correctement comment les cas atypiques mettent en difficulté un modèle de classification.
 
 ---
 

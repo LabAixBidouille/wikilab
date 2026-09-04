@@ -72,7 +72,7 @@ Chaque groupe choisit son projet en le confrontant à des critères de viabilit�
 
 **Question clé** : _Pour qui construit-on, exactement ?_
 
-Chaque groupe remplit une carte d'empathie guidée sur son contexte ou sur son utilisateur type. Le contexte peut être une salle de classe, un jardin, une cour de récréation, les poubelles du centre, un espace partagé.
+Chaque groupe remplit une carte d'empathie guidée sur son contexte ou sur son utilisateur type. Le contexte peut être une salle d'activité, un jardin, une cour de récréation, les poubelles du centre, un espace partagé.
 
 La carte d'empathie fait le tour de la personne visée :
 
@@ -122,7 +122,7 @@ Le prototype doit couvrir au minimum :
 
 Le flux recommandé se lit d'un bout à l'autre : **entrée → classification par l'IA → décision → action du robot**.
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Le PDF de la fiche contient les deux gabarits utilisés à l'UAB : la carte d'empathie de l'étape 2 et le gabarit de conception de l'étape 4, chacun accompagné d'un exemple rempli. Les imprimer en A3 facilite le travail en groupe.
 :::
 
@@ -153,7 +153,7 @@ Chaque groupe cesse de parler de l'IA pour **concevoir sa propre solution**, sou
 - Il nomme **2 à 3 catégories observables** que l'IA aurait à classer, et une action du robot cohérente pour chacune
 - Il anticipe **au moins une erreur ou une limite réaliste**, et ce qu'il faudrait pour l'améliorer
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Les trois derniers indicateurs sont signalés comme provisoires dans la fiche source : ils ont été formulés pendant la conception de la séance et attendent d'être confrontés à plusieurs mises en oeuvre avant d'être stabilisés.
 :::
 

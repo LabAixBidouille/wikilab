@@ -31,7 +31,7 @@ sidebar_position: 8
 - 1 fiche de relevé d'entraînement et de test par groupe (A4 recto-verso)
 - 1 jeu de post-it de couleurs différentes par groupe
 - 4 gobelets de 50 ml et 3 béchers gradués de 250 ml par groupe
-- 1 paquet de post-it indicateurs de couleur par classe
+- 1 paquet de post-it indicateurs de couleur pour l'ensemble du groupe
 - 0,5 à 1 L d'eau par groupe
 - Teachable Machine, outil en ligne
 
@@ -78,7 +78,7 @@ Les résultats d'entraînement et de test sont consignés sur la fiche de relev�
 - distance différente
 - accessoire jamais présenté pendant l'entraînement
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 L'objectif n'est pas d'obtenir un modèle qui marche, mais un modèle qu'on a réussi à casser en sachant pourquoi. Un groupe qui obtient 100 % de réussite n'a pas encore cherché assez loin : l'inviter à sortir du cadre d'entraînement (contre-jour, arrière-plan chargé, main partiellement hors champ).
 :::
 
@@ -110,7 +110,7 @@ Les groupes construisent un perceptron en gobelets d'eau :
 
 Le groupe ajuste les quantités d'eau jusqu'à classer correctement les cas proposés. Puis vient le défi diagonal, qu'un perceptron unique ne sait pas résoudre : il faut alors introduire une **couche cachée** de deux neurones, chacun alimenté par une couleur de gobelets, avant un neurone final. La solution consiste à remplir les gobelets d'une couleur sur une diagonale et ceux de l'autre couleur sur l'autre diagonale.
 
-:::info[Notes pour l'enseignant·e]
+:::info[Notes pour l'animateur·rice]
 Le PDF de la fiche contient les deux schémas de correction : le neurone unique de la première manche (seuil à 120 ml, soit moins de 3 petits gobelets) et la couche cachée à deux neurones du défi final (seuil de moins de 2 petits gobelets par neurone). Prévoir de quoi éponger.
 :::
 
