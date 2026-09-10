@@ -211,10 +211,12 @@ def bip_alerte():
 def afficher_capteur(acceleration_x, acceleration_y, acceleration_z, orientation):
     """Met à jour l'écran avec les valeurs d'accélération et l'orientation."""
     ecran.clear()
-    ecran.title(orientation)
-    ecran.text("X:{:+.2f}g".format(acceleration_x), at="NW")
-    ecran.text("Y:{:+.2f}g".format(acceleration_y), at="W")
-    ecran.text("Z:{:+.2f}g".format(acceleration_z), at="SW")
+    ecran._d.text(orientation, 25, 30, 15)   # x=10, y=10, couleur=blanc fixe
+    ecran.value("{:+.2f}".format(acceleration_x), label="X", unit="g")
+    ecran.subtitle(
+        "Y:{:+.2f}g".format(acceleration_y),
+        "Z:{:+.2f}g".format(acceleration_z),
+    )
     ecran.show()
 
 
@@ -264,6 +266,17 @@ Au repos, cette `intensite` vaut toujours environ 1 G (juste la gravité). Quand
 
 - **Test rapide** : lancer le programme depuis votre IDE (bouton **Run** ▶ ou `F5`). L'écran affiche les valeurs en temps réel ; donner un petit coup sur la table pour déclencher le buzzer.
 - **Programme persistant** : enregistrer le fichier sous le nom **`main.py`** sur la carte. Il sera relancé à chaque démarrage.
+
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i09-inclinaison-accelerometre/Steami_prog1.jpeg"
+    alt="STeaMi affichant l'orientation SCREEN_UP et les valeurs X, Y, Z de l'accéléromètre"
+    style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    La STeaMi affichant les valeurs obtenues via l'accéléromètre.
+  </figcaption>
+</figure>
 
 ---
 
@@ -334,6 +347,17 @@ while True:
 
     time.sleep_ms(100)
 ```
+
+<figure style={{textAlign: 'center', margin: '1rem auto'}}>
+  <img
+    src="/img/ressources/inovmicro-exao/i09-inclinaison-accelerometre/Steami_amelioration3.jpeg"
+    alt="STeaMi affichant un niveau à bulle : inclinaison X et barre de progression"
+    style={{maxWidth: '450px', width: '100%', height: 'auto', borderRadius: '8px', border: '1px solid #eee', boxShadow: '0 2px 8px rgba(0,0,0,0.05)'}}
+  />
+  <figcaption style={{fontStyle: 'italic', marginTop: '0.5rem'}}>
+    La STeaMi affichant le niveau à bulle.
+  </figcaption>
+</figure>
 
 ---
 
