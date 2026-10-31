@@ -155,9 +155,9 @@ Prévoir environ 45 minutes de préparation :
 - **Préparer deux messages difficiles par classe**, dans chaque langue de la salle (15 min). C'est le test honnête de l'étape 3 de la partie 4, car aucun binôme ne les a vus : ne pas les donner à la partie 3.
 - **Imprimer** la fiche d'une page, une par binôme, et prévoir une carte par personne pour la carte de sortie (5 min).
 
-**Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter claude`, plus le test de la clé par `workshop-login` : moins d'un centime par binôme, même après plusieurs passages. Ce coût a été mesuré une fois, avec la clé de test.
+**Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter claude`, plus le test de la clé par `workshop-login` : moins d'un centime par binôme, même après plusieurs passages. Ce coût a été mesuré avec la clé de test.
 
-**Mesures du 31 octobre 2026**, dans une copie du Codespace (2 processeurs, 8 Go de mémoire), avec les messages du dépôt (40 exemples, 32 messages de test) :
+**Mesures du 31 octobre 2026**, dans une copie du Codespace (2 processeurs, 8 Go de mémoire), avec les messages du dépôt (40 exemples, 32 messages de test). Le même jour, tout l'atelier a été joué dans un vrai Codespace (image `2026.10.39`, 2 processeurs, 7 Go, piloté par SSH, de `workshop-start 6` à `workshop-save`) : setup 151 s, baseline 14 s, train 65 s, test 32 sur 32 à 7 ms par message, `./sorter claude` le même 30 sur 32 à 0,8 s par message, mémoire 4,6 Go au plus. Les boutons du navigateur (Download, glisser-déposer) et un vrai groupe n'ont pas été essayés.
 
 | Commande                                | Mesure                                                                                                           |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -166,7 +166,7 @@ Prévoir environ 45 minutes de préparation :
 | `./sorter train` (40 exemples)          | 62 s et 64 s                                                                                                     |
 | `./sorter train` (80 exemples)          | 132 s                                                                                                            |
 | `./sorter test`                         | 32 sur 32, aucune urgence manquée ; 9 ms par message ; pas sûr pour 2 messages                                   |
-| `./sorter claude` (un passage)          | 30 sur 32, 2 urgences manquées ; 0,9 s par message ; 0,0007 dollar, soit environ 0,02 dollar pour 1 000 messages |
+| `./sorter claude` (premier de deux passages, même résultat) | 30 sur 32, 2 urgences manquées ; 0,9 s par message ; 0,0007 dollar, soit environ 0,02 dollar pour 1 000 messages |
 
 **Ce 32 sur 32 ne dit rien des vrais messages** : les messages de test du dépôt ont été écrits avec les exemples. La partie 3 sert à cela : le test écrit par un autre binôme est le test honnête.
 
@@ -218,7 +218,7 @@ Les bibliothèques qui règlent un modèle sont grosses (environ 2 Go avec le mo
 
 2. Pendant l'installation, lire la section suivante.
 
-Au bout de deux minutes à deux minutes et demie (123 s et 151 s lors de deux essais le 31 octobre 2026, dans une copie du Codespace à 2 processeurs), on doit voir `Model ready (... s). Next: ./sorter baseline`.
+Au bout de deux minutes à deux minutes et demie (de 123 à 151 s lors de nos essais du 31 octobre 2026, 151 s dans un vrai Codespace), on doit voir `Model ready (... s). Next: ./sorter baseline`.
 
 :::
 
@@ -380,7 +380,7 @@ Voilà pourquoi quelques dizaines d'exemples suffisent : avec 40 exemples, elle 
    ./sorter train
    ```
 
-   On doit voir `Fine-tuning on ... examples (topic ..., today ..., urgent ..., off-topic ...)...`, quelques barres de progression (la longue compte les pas : 50 pour 40 exemples), puis `Fine-tuned in ... s`. Lors de nos essais du 31 octobre 2026 : environ une minute avec les 40 exemples de départ (62 s et 64 s), environ deux minutes avec 80 (132 s).
+   On doit voir `Fine-tuning on ... examples (topic ..., today ..., urgent ..., off-topic ...)...`, quelques barres de progression (la longue compte les pas : 50 pour 40 exemples), puis `Fine-tuned in ... s`. Lors de nos essais du 31 octobre 2026 : environ une minute avec les 40 exemples de départ (de 62 à 65 s), environ deux minutes avec 80 (132 s).
 
 4. Tester :
 
@@ -388,7 +388,7 @@ Voilà pourquoi quelques dizaines d'exemples suffisent : avec 40 exemples, elle 
    ./sorter test
    ```
 
-   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de notre essai : 32 sur 32, aucune urgence manquée, 9 ms par message, puis `Not sure (below 0.5) for 2 message(s)` : la bonne classe, mais avec une confiance faible. L'étape 3 explique ce qu'en fait un chatbot.
+   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de nos essais : 32 sur 32, aucune urgence manquée, de 7 à 9 ms par message, puis `Not sure (below 0.5) for 2 message(s)` : la bonne classe, mais avec une confiance faible. L'étape 3 explique ce qu'en fait un chatbot.
 
 5. **Comparer** avec le score sans entraînement et avec la prédiction. Écrire les deux scores au tableau.
 
@@ -463,7 +463,7 @@ Vos messages difficiles viennent en dernier, à lire à voix haute : personne ne
 
    Claude (`claude-haiku-5-5`, le plus petit Claude actuel) reçoit une description des quatre classes, puis chaque message de test, et répond en un mot. Il n'a jamais vu vos exemples.
 
-   On doit voir le même tableau, puis le temps, les jetons et le coût estimé, pour le test et pour 1 000 messages. Lors de notre essai du 31 octobre 2026 (un passage, avec les messages du dépôt) : 30 sur 32, et **2 urgences manquées**, « Someone at school keeps hitting me and I'm afraid » (Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur) et « Un ragazzo mi minaccia e ho paura » (Un garçon me menace et j'ai peur), classées `off-topic`. 0,9 s par message, 0,0007 dollar pour les 32 messages, soit environ 0,02 dollar pour 1 000 messages.
+   On doit voir le même tableau, puis le temps, les jetons et le coût estimé, pour le test et pour 1 000 messages. Lors de notre essai du 31 octobre 2026 (deux passages, avec les messages du dépôt, le même résultat les deux fois) : 30 sur 32, et **2 urgences manquées**, « Someone at school keeps hitting me and I'm afraid » (Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur) et « Un ragazzo mi minaccia e ho paura » (Un garçon me menace et j'ai peur), classées `off-topic`. De 0,8 à 0,9 s par message, 0,0007 dollar pour les 32 messages, soit environ 0,02 dollar pour 1 000 messages.
 
 2. Remplir la comparaison au tableau :
 
@@ -471,7 +471,7 @@ Vos messages difficiles viennent en dernier, à lire à voix haute : personne ne
    | ------------------------- | ------------------------------------------------ | --------------------------- |
    | Bonnes réponses au test   |                                                  |                             |
    | Urgences manquées         |                                                  |                             |
-   | Temps par message         | environ 9 ms                                     |                             |
+   | Temps par message         | de 7 à 9 ms                                     |                             |
    | Coût pour 1 000 messages  | rien                                             |                             |
    | Fonctionne sans le réseau | oui                                              | non                         |
    | Où va le message          | il reste dans le Codespace                       | chez Anthropic              |
@@ -495,7 +495,7 @@ Vos messages difficiles viennent en dernier, à lire à voix haute : personne ne
 
 :::info[Notes pour l'animateur·rice]
 
-« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Claude n'avait que la description, qui parle de feux de forêt : c'est peut-être pour cela que ces messages lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu. Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Et c'est un seul passage : Claude ne répond pas toujours de la même façon.
+« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Claude n'avait que la description, qui parle de feux de forêt : c'est peut-être pour cela que ces messages lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu. Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Deux passages ont donné le même résultat, mais Claude ne répond pas toujours de la même façon.
 
 « 10 000 messages par mois ? » Le petit modèle : aucun coût par message, pas de réseau, rien ne sort du Codespace. « Une cinquième classe ? » Claude : une ligne dans sa description. Le petit modèle : de nouveaux exemples, et une ou deux minutes d'entraînement.
 
