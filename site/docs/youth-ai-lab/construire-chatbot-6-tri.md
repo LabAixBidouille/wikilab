@@ -111,7 +111,7 @@ La série, une pièce du chatbot à la fois :
 
 Rien à apporter des ateliers précédents. **Pensez à de vrais messages** : comment des jeunes écrivent-ils à un chatbot dans votre langue, avec quels mots, quelles fautes ? Vous en aurez besoin à la partie 3. La clé du binôme ne sert qu'à la partie 5.
 
-Dans `SETUP.md`, seules les étapes 1 à 3 servent aujourd'hui : `workshop-start` et `workshop-save` appartiennent aux ateliers 1 à 5, et ne fonctionnent pas dans ce dépôt.
+Dans `SETUP.md`, les étapes 1 à 3 et l'étape 6 servent aujourd'hui. Cet atelier n'a pas de chatbot : on saute les étapes 4 et 5.
 
 Les documents de référence sont tous dans le Codespace, dans la liste des fichiers à gauche :
 
@@ -151,7 +151,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 Prévoir environ 45 minutes de préparation :
 
 - **Une clé d'API Anthropic par binôme**, pour la partie 5 seulement (10 min). Si vous avez mené l'atelier 5, les mêmes clés servent.
-- **Faire son propre parcours la veille**, dans un Codespace neuf (15 min) : `./sorter setup`, `baseline`, `train`, `test`, `try`, `claude`. Dans un Codespace, les 2 Go de téléchargement passent par le cloud de GitHub, pas par le réseau de la salle. Ce Codespace prêt à l'avance sert aussi de secours.
+- **Faire son propre parcours la veille**, dans un Codespace neuf (15 min) : `workshop-login`, `workshop-start 6`, `./sorter setup`, `baseline`, `train`, `test`, `try`, `claude`. Dans un Codespace, les 2 Go de téléchargement passent par le cloud de GitHub, pas par le réseau de la salle. Ce Codespace prêt à l'avance sert aussi de secours.
 - **Préparer deux messages difficiles par classe**, dans chaque langue de la salle (15 min). C'est le test honnête de l'étape 3 de la partie 4, car aucun binôme ne les a vus : ne pas les donner à la partie 3.
 - **Imprimer** la fiche d'une page, une par binôme, et prévoir une carte par personne pour la carte de sortie (5 min).
 
@@ -188,7 +188,15 @@ Prévoir environ 45 minutes de préparation :
    workshop-login
    ```
 
-   Coller la clé (`Ctrl+Shift+V`, `Cmd+V` sur Mac), appuyer sur Entrée. On doit voir une ligne qui commence par `Key OK`. La clé ne sert qu'à la partie 5. La fin de la ligne (`You can start: workshop bare`) concerne les ateliers 1 à 5 : aujourd'hui, on continue avec `./sorter setup`.
+   Coller la clé (`Ctrl+Shift+V`, `Cmd+V` sur Mac), appuyer sur Entrée. On doit voir une ligne qui commence par `Key OK` et se termine par `You can start: workshop-start 6`. La clé ne sert qu'à la partie 5.
+
+4. Préparer la séance :
+
+   ```bash
+   workshop-start 6
+   ```
+
+   On doit voir `Ready for workshop 6.`, puis `First command: ./sorter setup`.
 
 :::
 
@@ -509,13 +517,22 @@ Ce que vous avez fait aujourd'hui, dans un vrai chatbot :
 
 :::caution[Étape 1 : Garder ses exemples, remplir la carte de sortie]
 
-1. Vos exemples et votre test sont le vrai travail du jour. Dans la liste des fichiers, clic droit sur `messages/examples.md`, puis **Download**. Faire de même pour `messages/test.md`.
+1. Vos exemples et votre test sont le vrai travail du jour. Les enregistrer :
+
+   ```bash
+   workshop-save
+   ```
+
+   On doit voir `Saved ... in my-work.zip`. Dans la liste des fichiers, clic droit sur `my-work.zip`, puis **Download...**.
+
 2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
    1. Pourquoi un classifieur ne peut-il pas inventer de réponse ?
    2. Pourquoi un message de test ne doit-il jamais être un exemple ?
    3. Citez un cas où vous régleriez un petit modèle, et un cas où vous demanderiez à un grand.
 
 :::
+
+**Pour reprendre plus tard**, dans un nouveau Codespace : glisser `my-work.zip` dans la liste des fichiers, taper `workshop-start 6 --from my-work.zip`, puis `./sorter setup` et `./sorter train`. Le modèle réglé n'est pas dans le fichier : il revient à partir de vos exemples, en une minute ou deux.
 
 **C'est la fin de la série.** Revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions), ou essayer une autre façon de construire un chatbot avec les guides :
 
@@ -561,7 +578,7 @@ Les problèmes communs à toute la série sont dans la section Troubleshooting d
 - `examples.md` contient au moins 20 messages par classe, sans aucune donnée personnelle, et `test.md` contient les messages d'un autre binôme
 - Deux scores par binôme sont au tableau (sans entraînement, réglé), avec le nombre d'urgences manquées pour chacun
 - Le tableau de comparaison de la partie 5 est rempli, et chaque binôme sait dire en une phrase quand il choisirait chaque modèle
-- `messages/examples.md` et `messages/test.md` sont téléchargés sur l'ordinateur
+- `my-work.zip` est téléchargé sur l'ordinateur
 - Les cartes de sortie montrent que chacun·e sait pourquoi un classifieur ne peut pas inventer de réponse, et pourquoi un message de test n'est jamais un exemple
 
 ---

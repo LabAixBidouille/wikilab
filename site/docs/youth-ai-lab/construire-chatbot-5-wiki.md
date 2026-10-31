@@ -112,12 +112,12 @@ Préparation, environ 1 heure :
 | Partie 2 : Le wiki             | 30 min | ★★★    | Lire le wiki, y ajouter son document, voir quelles pages il alimente | `E`      |
 | Partie 3 : Le lint             | 15 min | ★★     | Faire vérifier le wiki par le modèle, lire le rapport, décider       | `E`      |
 | Partie 4 : Le graphe           | 25 min | ★★     | Explorer la carte des idées, vérifier un lien deviné par un modèle   | terminal |
-| Partie 5 : Clôture, le chatbot construit | 20 min |        | Lire ses scores, empaqueter son chatbot, le voir dans Open WebUI     | terminal |
+| Partie 5 : Le chatbot construit | 20 min |        | Lire ses scores, empaqueter son chatbot, le voir dans Open WebUI     | terminal |
 | Marge                          | 10 min |        | Réservée à la partie 5                                               | -        |
 
 :::info[Notes pour l'animateur·rice]
 
-La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un long rapport à trier. À 10 minutes, demander à tout le monde d'arrêter de lire et de décider. Si le temps manque à la clôture, garder `chatbot-export` et `workshop-save` : tout le reste peut attendre, mais pas le Codespace, qui s'arrête de lui-même. Les 10 minutes de marge servent à la partie 5, y compris les 5 minutes du formulaire d'auto-évaluation, que les 20 minutes de la clôture ne comprennent pas. Les durées réelles de chaque partie sont à compléter après la répétition.
+La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un long rapport à trier. À 10 minutes, demander à tout le monde d'arrêter de lire et de décider. Si le temps manque à la partie 5, garder `chatbot-export` et `workshop-save` : tout le reste peut attendre, mais pas le Codespace, qui s'arrête de lui-même. Les 10 minutes de marge servent à la partie 5, y compris les 5 minutes du formulaire d'auto-évaluation, que les 20 minutes de la clôture ne comprennent pas. Les durées réelles de chaque partie sont à compléter après la répétition.
 
 :::
 
@@ -160,7 +160,7 @@ La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un
 
 ## Partie 1 : Accueil (20 min)
 
-**Objectif** : ouvrir le Codespace, récupérer son travail, et lancer Open WebUI pour la clôture.
+**Objectif** : ouvrir le Codespace, récupérer son travail, et lancer Open WebUI pour la partie 5.
 
 Ouvrir le Codespace, un par binôme : https://codespaces.new/Youth-AI-Lab/yal-workshop-wiki
 
@@ -206,7 +206,7 @@ Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voi
 
 ### Étape 3 : Lancer Open WebUI en arrière-plan
 
-À la clôture, on verra le chatbot terminé dans Open WebUI. Son premier démarrage prend quelques minutes (3 min 21 dans un Codespace le 26 octobre 2026, avec une image plus ancienne) : le lancer maintenant.
+À la partie 5, on verra le chatbot terminé dans Open WebUI. Son premier démarrage prend quelques minutes (3 min 21 dans un Codespace le 26 octobre 2026, avec une image plus ancienne) : le lancer maintenant.
 
 1. Dans le deuxième terminal, taper :
 
@@ -648,7 +648,7 @@ Un verdict sur un lien proposé par un modèle. **Réutilisé pour** préparer u
 
 ---
 
-## Partie 5 : Clôture, le chatbot construit (20 min)
+## Partie 5 : Le chatbot construit (20 min)
 
 **Objectif** : lire ce que disent les scores, empaqueter son chatbot, et le voir dans un autre outil.
 
@@ -732,7 +732,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
 
 :::info[Notes pour l'animateur·rice]
 
-**Open WebUI n'est pas prêt à la clôture** : sauter `openwebui chatbot`, et montrer votre propre chatbot sur grand écran. `chatbot-export` fonctionne sans lui. Si Open WebUI ne tourne pas, le message est `Open WebUI is not running. Type: openwebui start` : le taper dans le deuxième terminal, attendre `Open WebUI is ready`, puis relancer `openwebui chatbot`.
+**Open WebUI n'est pas prêt à la partie 5** : sauter `openwebui chatbot`, et montrer votre propre chatbot sur grand écran. `chatbot-export` fonctionne sans lui. Si Open WebUI ne tourne pas, le message est `Open WebUI is not running. Type: openwebui start` : le taper dans le deuxième terminal, attendre `Open WebUI is ready`, puis relancer `openwebui chatbot`.
 
 :::
 
