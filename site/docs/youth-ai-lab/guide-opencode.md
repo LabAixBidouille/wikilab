@@ -2,7 +2,7 @@
 id: guide-opencode
 title: 'Construire son chatbot avec OpenCode'
 sidebar_label: 'Construire son chatbot avec OpenCode'
-sidebar_position: 21
+sidebar_position: 22
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>

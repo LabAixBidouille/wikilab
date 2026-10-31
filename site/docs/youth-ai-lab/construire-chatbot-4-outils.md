@@ -39,9 +39,9 @@ sidebar_position: 17
 
 ---
 
-:::info[Atelier 4 sur 5 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
+:::info[Atelier 4 sur 6 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
 
-Cette série de cinq ateliers de 2 h s'adresse aux **animateur·rices**, avant tout usage avec des jeunes : on y construit, pièce par pièce, un chatbot sur la prévention des feux de forêt, pour comprendre ce qu'il y a derrière les cases _Instructions_ et _Knowledge_ d'un Claude Project ou d'un Gemini Gem. Dans cette fiche, les « participant·es » sont donc les animateur·rices qui suivent l'atelier, en binômes.
+Cette série de six ateliers de 2 h s'adresse aux **animateur·rices**, avant tout usage avec des jeunes : on y construit, pièce par pièce, un chatbot sur la prévention des feux de forêt, pour comprendre ce qu'il y a derrière les cases _Instructions_ et _Knowledge_ d'un Claude Project ou d'un Gemini Gem. Dans cette fiche, les « participant·es » sont donc les animateur·rices qui suivent l'atelier, en binômes.
 
 Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran sont dans le dépôt de l'atelier.
 
@@ -73,6 +73,7 @@ La série avance une pièce du chatbot à la fois :
 - **Atelier 3** : le modèle cherche tout seul, et les skills
 - **Atelier 4** (celui-ci) : des **outils** qui apportent les faits du jour
 - **Atelier 5** : organiser ce qu'il sait dans un wiki, et emballer le chatbot de son territoire
+- **Atelier 6** : régler un petit modèle, pour trier les messages avant le chatbot
 
 ### Structure de l'atelier
 

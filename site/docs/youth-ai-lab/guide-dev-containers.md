@@ -2,7 +2,7 @@
 id: guide-dev-containers
 title: 'Ouvrir les ateliers sur son propre ordinateur'
 sidebar_label: 'Ouvrir les ateliers sur son propre ordinateur'
-sidebar_position: 22
+sidebar_position: 23
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
@@ -19,9 +19,9 @@ sidebar_position: 22
   <span className="badge badge--warning">VS Code</span>
 </div>
 
-| Projet       | Durée                          | Difficulté | Âge                       |
-| ------------ | ------------------------------ | ---------- | ------------------------- |
-| Youth AI Lab | Environ 1 h la première fois   | Avancé     | Adultes (animateur·rices) |
+| Projet       | Durée                        | Difficulté | Âge                       |
+| ------------ | ---------------------------- | ---------- | ------------------------- |
+| Youth AI Lab | Environ 1 h la première fois | Avancé     | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -47,7 +47,7 @@ Les pages, les commandes et l'environnement de travail sont en anglais ; cette f
 
 ## Introduction
 
-Les cinq ateliers et les guides du projet Youth AI Lab tournent dans un **GitHub Codespace** : un ordinateur dans le navigateur, préparé par GitHub, sans rien à installer. Ce guide propose l'autre voie : **la même chose sur votre propre ordinateur**, dans un _conteneur_.
+Les six ateliers et les guides du projet Youth AI Lab tournent dans un **GitHub Codespace** : un ordinateur dans le navigateur, préparé par GitHub, sans rien à installer. Ce guide propose l'autre voie : **la même chose sur votre propre ordinateur**, dans un _conteneur_.
 
 On installe une fois quelques outils (Docker, git, Visual Studio Code et son extension Dev Containers), puis on ouvre le dépôt d'un atelier ou d'un guide. On retrouve alors la même image, les mêmes commandes et les mêmes versions que dans un Codespace : vous testez chez vous ce que les binômes auront en salle.
 
@@ -145,17 +145,18 @@ Dans VS Code, on ouvre la vue des extensions, on cherche **Dev Containers**, on 
 
 Pour suivre un atelier, **ouvrir son propre dépôt** : il contient sa page, sa fiche et seulement ce dont il a besoin. Le kit présente la série et contient tous les fichiers, mais il n'a pas de page d'atelier. Les dépôts concernés :
 
-| Dépôt                    | Ce que c'est                                                                                              |
-| ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| `yal-workshop-preprompt` | [Atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions)                                   |
-| `yal-workshop-rag`       | [Atelier 2](/ressources/youth-ai-lab/construire-chatbot-2-rag)                                            |
-| `yal-workshop-search`    | [Atelier 3](/ressources/youth-ai-lab/construire-chatbot-3-recherche)                                      |
-| `yal-workshop-tools`     | [Atelier 4](/ressources/youth-ai-lab/construire-chatbot-4-outils)                                         |
-| `yal-workshop-wiki`      | [Atelier 5](/ressources/youth-ai-lab/construire-chatbot-5-wiki)                                           |
-| `yal-workshop-kit`       | L'accueil de la série, avec les fichiers des cinq ateliers                                                |
-| `yal-openwebui-guide`    | [Des chatbots pour vos groupes avec Open WebUI](/ressources/youth-ai-lab/guide-open-webui)                |
-| `yal-opencode-guide`     | [Un chatbot à soi avec OpenCode](/ressources/youth-ai-lab/guide-opencode)                                 |
-| `yal-hermes-guide`       | [Un assistant pour préparer ses séances](/ressources/youth-ai-lab/guide-hermes), jamais avec des jeunes   |
+| Dépôt                    | Ce que c'est                                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------------------------- |
+| `yal-workshop-preprompt` | [Atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions)                                 |
+| `yal-workshop-rag`       | [Atelier 2](/ressources/youth-ai-lab/construire-chatbot-2-rag)                                          |
+| `yal-workshop-search`    | [Atelier 3](/ressources/youth-ai-lab/construire-chatbot-3-recherche)                                    |
+| `yal-workshop-tools`     | [Atelier 4](/ressources/youth-ai-lab/construire-chatbot-4-outils)                                       |
+| `yal-workshop-wiki`      | [Atelier 5](/ressources/youth-ai-lab/construire-chatbot-5-wiki)                                         |
+| `yal-workshop-finetune`  | [Atelier 6](/ressources/youth-ai-lab/construire-chatbot-6-tri)                                          |
+| `yal-workshop-kit`       | L'accueil de la série, avec les fichiers des cinq premiers ateliers                                     |
+| `yal-openwebui-guide`    | [Des chatbots pour vos groupes avec Open WebUI](/ressources/youth-ai-lab/guide-open-webui)              |
+| `yal-opencode-guide`     | [Un chatbot à soi avec OpenCode](/ressources/youth-ai-lab/guide-opencode)                               |
+| `yal-hermes-guide`       | [Un assistant pour préparer ses séances](/ressources/youth-ai-lab/guide-hermes), jamais avec des jeunes |
 
 On suit ensuite la page du dépôt (son README). Pour les guides Open WebUI et OpenCode, on la reprend à la partie 1, étape 2 : l'étape 1 ouvre un Codespace, ce qui n'est plus utile ici. Pour le guide Hermes, la première fois, attendre que le conteneur ait fini d'installer Hermes Agent.
 

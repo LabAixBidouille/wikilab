@@ -2,7 +2,7 @@
 id: guide-ia-locale
 title: 'Installer un chatbot sur un ordinateur de sa structure'
 sidebar_label: 'Installer un chatbot sur un ordinateur de sa structure'
-sidebar_position: 20
+sidebar_position: 21
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>

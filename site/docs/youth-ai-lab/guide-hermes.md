@@ -2,7 +2,7 @@
 id: guide-hermes
 title: 'Préparer ses séances avec un assistant qui se souvient'
 sidebar_label: 'Préparer ses séances avec un assistant qui se souvient'
-sidebar_position: 23
+sidebar_position: 24
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>

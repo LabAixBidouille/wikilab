@@ -46,9 +46,9 @@ sidebar_position: 18
 
 </div>
 
-:::info[Atelier 5 sur 5 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
+:::info[Atelier 5 sur 6 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
 
-Cet atelier est le dernier de la série. Il s'adresse aux animateur·rices, qui le suivent entre adultes avant tout usage avec des jeunes. Atelier précédent : [Brancher des outils sur un chatbot](/ressources/youth-ai-lab/construire-chatbot-4-outils). Début de la série : [Donner des instructions à un chatbot et le tester](/ressources/youth-ai-lab/construire-chatbot-1-instructions).
+Cet atelier est le dernier sur le chatbot du binôme. Il s'adresse aux animateur·rices, qui le suivent entre adultes avant tout usage avec des jeunes. Atelier précédent : [Brancher des outils sur un chatbot](/ressources/youth-ai-lab/construire-chatbot-4-outils). Atelier suivant : [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri). Début de la série : [Donner des instructions à un chatbot et le tester](/ressources/youth-ai-lab/construire-chatbot-1-instructions).
 
 Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran annotées se trouvent dans la page de l'atelier, sur le dépôt.
 
@@ -58,7 +58,7 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 ## Introduction
 
-À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. On termine en rassemblant tout ce qui a été construit pendant la série dans un seul fichier. La question du jour :
+À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
 
 > **Comment garder des connaissances propres quand elles grandissent ?**
 
@@ -68,13 +68,14 @@ Cela a un prix : les pages vieillissent, et elles peuvent s'éloigner de leurs s
 
 **Le lien avec WikiYouthBot.** Dans l'activité [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot), le chatbot se construit dans un outil qui a **deux cases** : _Instructions_ et _Knowledge_ (connaissances). On peut déjà le faire aujourd'hui avec Open WebUI : voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). La partie 2 fournit des pages propres pour la case _Knowledge_, et la partie 5 remet tout dans les deux cases. Ce que des jeunes ont construit avec cette activité à La Rochelle, en juillet 2026 : https://youth-ai-lab.github.io/wikiyouthbot/
 
-La série a construit le chatbot une pièce à la fois, et elle se termine ici :
+La série a construit le chatbot une pièce à la fois, et il se termine ici :
 
 - **Atelier 1** : les instructions, et comment tester un chatbot
 - **Atelier 2** : toutes les connaissances dans le contexte, puis un RAG
 - **Atelier 3** : le modèle cherche lui-même, et les skills
 - **Atelier 4** : des outils qui agissent à l'extérieur, comme le niveau de danger d'incendie du jour
 - **Atelier 5** (celui-ci) : organiser ce qu'il sait dans un wiki, et empaqueter le chatbot de son territoire
+- **Atelier 6** : régler un petit modèle, pour trier les messages avant le chatbot
 
 Le binôme continue de tester son chatbot : aujourd'hui, la colonne **E** du tableau de scores, avec les questions 3, 10, 11 et 12.
 
@@ -89,7 +90,7 @@ Le binôme continue de tester son chatbot : aujourd'hui, la colonne **E** du tab
 
 :::info[Notes pour l'animateur·rice]
 
-Message à transmettre : **le travail est fait une fois, avant la question, et chaque fait garde son chemin vers une source ; le modèle écrit et signale, une personne vérifie, arbitre et signe.** C'est aussi le dernier atelier de la série : il répond à la question de toute la série, « qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ? ».
+Message à transmettre : **le travail est fait une fois, avant la question, et chaque fait garde son chemin vers une source ; le modèle écrit et signale, une personne vérifie, arbitre et signe.** C'est aussi le dernier atelier sur le chatbot du binôme : il répond à la question de toute la série, « qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ? ».
 
 Préparation, environ 1 heure :
 
@@ -111,7 +112,7 @@ Préparation, environ 1 heure :
 | Partie 2 : Le wiki             | 30 min | ★★★    | Lire le wiki, y ajouter son document, voir quelles pages il alimente | `E`      |
 | Partie 3 : Le lint             | 15 min | ★★     | Faire vérifier le wiki par le modèle, lire le rapport, décider       | `E`      |
 | Partie 4 : Le graphe           | 25 min | ★★     | Explorer la carte des idées, vérifier un lien deviné par un modèle   | terminal |
-| Partie 5 : Clôture de la série | 20 min |        | Lire ses scores, empaqueter son chatbot, le voir dans Open WebUI     | terminal |
+| Partie 5 : Clôture, le chatbot construit | 20 min |        | Lire ses scores, empaqueter son chatbot, le voir dans Open WebUI     | terminal |
 | Marge                          | 10 min |        | Réservée à la partie 5                                               | -        |
 
 :::info[Notes pour l'animateur·rice]
@@ -647,7 +648,7 @@ Un verdict sur un lien proposé par un modèle. **Réutilisé pour** préparer u
 
 ---
 
-## Partie 5 : Clôture de la série (20 min)
+## Partie 5 : Clôture, le chatbot construit (20 min)
 
 **Objectif** : lire ce que disent les scores, empaqueter son chatbot, et le voir dans un autre outil.
 
@@ -682,7 +683,7 @@ Toute cette série posait une seule question : **qu'est-ce qui entre dans le con
 Deux autres options figurent sur les diapositives :
 
 - **Un modèle local** : les mêmes étapes, sur sa propre machine. Rien n'en sort, mais il faut un ordinateur puissant, et les petits modèles font plus d'erreurs. Voir la fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
-- **L'affinage** (_fine-tuning_, entraîner encore le modèle sur ses propres exemples) : les connaissances entrent dans le modèle, sans source, et une erreur oblige à réentraîner. L'affinage convient à un style, mais il est risqué pour des faits qui changent.
+- **L'affinage** (_fine-tuning_, entraîner encore le modèle sur ses propres exemples) : les connaissances entrent dans le modèle, sans source, et une erreur oblige à réentraîner. L'affinage convient à un style, mais il est risqué pour des faits qui changent. L'atelier 6 le pratique sur une tâche étroite, sans écrire de réponses : [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri).
 
 :::info[Notes pour l'animateur·rice]
 
@@ -778,7 +779,7 @@ La clé du binôme a été fournie par l'animateur·rice pour la série : elle p
 
 :::
 
-**C'est la fin de la série.** Revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions), ou essayer une autre façon de construire un chatbot avec les guides :
+Votre chatbot est terminé. **La suite** : l'atelier 6, [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri). Vous y changez vous-même un modèle, et il ne demande rien d'aujourd'hui. Vous pouvez aussi revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions), ou essayer une autre façon de construire un chatbot avec les guides :
 
 - **Un chatbot pour un groupe** : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)
 - **Rien qui ne sorte de la machine de la structure** : [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale)
@@ -788,7 +789,7 @@ La clé du binôme a été fournie par l'animateur·rice pour la série : elle p
 
 :::info[Notes pour l'animateur·rice]
 
-Après l'atelier : noter les durées réelles des cinq parties et de la marge, ainsi que les coûts. Vérifier que chaque binôme a téléchargé ses deux fichiers. C'est la fin de la série : supprimer les clés des binômes, ou baisser le plafond de l'espace de travail.
+Après l'atelier : noter les durées réelles des cinq parties et de la marge, ainsi que les coûts. Vérifier que chaque binôme a téléchargé ses deux fichiers. Si vous menez l'atelier 6, gardez les clés : sa partie 5 s'en sert, pour moins d'un centime par binôme. Si c'est votre dernier atelier, supprimer les clés des binômes, ou baisser le plafond de l'espace de travail.
 
 **Réemploi avec des jeunes.** Le wiki est une façon de remplir la case _Knowledge_ : un groupe apporte des documents locaux, un adulte les vérifie, et le chatbot reçoit des pages propres, chaque fait avec sa source. L'habitude compte plus que l'outil : deux sources qui ne concordent pas sont montrées côte à côte, et un lien deviné par un modèle est vérifié par une personne. Une ligne `Contradiction` du journal peut lancer une discussion avec un groupe, sans ordinateur : deux sources, la même question, qui a raison, et comment le savoir ? Avant tout usage avec un groupe, lire la partie sur les données des participant·es de la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), et ne jamais utiliser le port 3000 d'un Codespace pour l'ouvrir.
 

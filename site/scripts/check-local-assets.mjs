@@ -30,6 +30,7 @@ const KNOWN_MISSING = new Set([
   '/img/ressources/youth-ai-lab/construire-chatbot-3-recherche/icone.png',
   '/img/ressources/youth-ai-lab/construire-chatbot-4-outils/icone.png',
   '/img/ressources/youth-ai-lab/construire-chatbot-5-wiki/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-6-tri/icone.png',
   '/img/ressources/youth-ai-lab/guide-open-webui/icone.png',
   '/img/ressources/youth-ai-lab/guide-ia-locale/icone.png',
   '/img/ressources/youth-ai-lab/guide-opencode/icone.png',

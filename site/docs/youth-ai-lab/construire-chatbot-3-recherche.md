@@ -50,7 +50,7 @@ sidebar_position: 16
 
 </div>
 
-:::info[Atelier 3 sur 5 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
+:::info[Atelier 3 sur 6 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
 
 Cet atelier s'adresse aux animateur·rices, qui le vivent en binômes avant tout usage avec des jeunes. Il fait suite à [Nourrir un chatbot de documents, puis d'extraits choisis](/ressources/youth-ai-lab/construire-chatbot-2-rag) (atelier 2) et prépare [Brancher des outils sur un chatbot](/ressources/youth-ai-lab/construire-chatbot-4-outils) (atelier 4). La page d'accueil de la série est le kit : https://github.com/Youth-AI-Lab/yal-workshop-kit
 
@@ -89,6 +89,7 @@ La série avance une pièce du chatbot à la fois :
 - **Atelier 3** (celui-ci) : le modèle **cherche lui-même**, et les **skills**
 - **Atelier 4** : [des outils qui agissent à l'extérieur, comme le niveau de danger feu du jour](/ressources/youth-ai-lab/construire-chatbot-4-outils)
 - **Atelier 5** : [organiser ce qu'il sait dans un wiki, et emballer le chatbot de votre territoire](/ressources/youth-ai-lab/construire-chatbot-5-wiki)
+- **Atelier 6** : [régler un petit modèle, pour trier les messages avant le chatbot](/ressources/youth-ai-lab/construire-chatbot-6-tri)
 
 ### Structure de l'atelier
 

@@ -2,7 +2,7 @@
 id: guide-open-webui
 title: 'Partager un chatbot avec un groupe grâce à Open WebUI'
 sidebar_label: 'Partager un chatbot avec un groupe grâce à Open WebUI'
-sidebar_position: 19
+sidebar_position: 20
 ---
 
 <div style={{display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '2rem', marginBottom: '1.5rem'}}>
@@ -40,7 +40,7 @@ sidebar_position: 19
 
 :::info[Un guide pour l'animateur·rice, à suivre seul·e]
 
-Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rices qui travaillent avec des jeunes de 12 à 25 ans. C'est la version « à faire soi-même » de la série d'ateliers [Construire son propre chatbot : ce qu'il lit, et qui décide](/ressources/youth-ai-lab/construire-chatbot-1-instructions), qui va plus loin, en cinq ateliers, pour comprendre ce qu'il y a derrière chaque pièce d'un chatbot. Le guide, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran se trouvent dans le dépôt.
+Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rices qui travaillent avec des jeunes de 12 à 25 ans. C'est la version « à faire soi-même » de la série d'ateliers [Construire son propre chatbot : ce qu'il lit, et qui décide](/ressources/youth-ai-lab/construire-chatbot-1-instructions), qui va plus loin, en six ateliers, pour comprendre ce qu'il y a derrière chaque pièce d'un chatbot. Le guide, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran se trouvent dans le dépôt.
 
 :::
 

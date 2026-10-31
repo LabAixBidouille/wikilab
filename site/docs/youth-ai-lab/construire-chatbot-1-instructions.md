@@ -39,9 +39,9 @@ sidebar_position: 14
 
 </div>
 
-:::info[Atelier 1 sur 5 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
+:::info[Atelier 1 sur 6 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
 
-Cet atelier est le premier d'une série de cinq ateliers de 2 h. Il s'adresse aux **animateur·rices**, qui le vivent en binômes avant tout usage avec des jeunes. Atelier suivant : [Nourrir un chatbot de documents, puis d'extraits choisis](/ressources/youth-ai-lab/construire-chatbot-2-rag).
+Cet atelier est le premier d'une série de six ateliers de 2 h. Il s'adresse aux **animateur·rices**, qui le vivent en binômes avant tout usage avec des jeunes. Atelier suivant : [Nourrir un chatbot de documents, puis d'extraits choisis](/ressources/youth-ai-lab/construire-chatbot-2-rag).
 
 Les pages, les commandes et le Codespace de l'atelier sont en anglais ; cette fiche en est l'adaptation française. Les commandes à taper, les libellés de l'écran et ce que le terminal affiche restent donc en anglais ci-dessous, tels qu'on les voit. Quand une partie de ce qui s'affiche varie (une adresse, un nombre), elle est remplacée par `...`. Les captures d'écran sont dans le dépôt de l'atelier.
 
@@ -80,6 +80,7 @@ La série avance d'une pièce du chatbot à la fois :
 - [**Atelier 3**](/ressources/youth-ai-lab/construire-chatbot-3-recherche) : le modèle cherche lui-même, et des skills pour ajouter un document vérifié
 - [**Atelier 4**](/ressources/youth-ai-lab/construire-chatbot-4-outils) : des outils qui agissent à l'extérieur, comme le niveau de danger d'incendie du jour
 - [**Atelier 5**](/ressources/youth-ai-lab/construire-chatbot-5-wiki) : organiser ce qu'il sait dans un wiki, et emballer le chatbot de son territoire
+- [**Atelier 6**](/ressources/youth-ai-lab/construire-chatbot-6-tri) : régler un petit modèle, pour trier les messages avant le chatbot
 
 Le fil rouge de la série est la **prévention des feux de forêt**.
 
@@ -130,7 +131,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 - **Juge** : un autre modèle, plus petit que celui du chatbot, qui note les réponses avec les mêmes règles que les binômes.
 - **Codespace** : un VS Code (un éditeur de fichiers) qui tourne dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Un Codespace par binôme.
 - **Clé API** : un long mot de passe qui permet au Codespace d'utiliser le modèle. Elle commence par `sk-ant-`.
-- **Kit** : l'ensemble des documents, questions et commandes que partagent les cinq ateliers de la série.
+- **Kit** : l'ensemble des documents, questions et commandes que partagent les ateliers 1 à 5 de la série.
 - **Open WebUI** : un outil de discussion que l'on démarre soi-même, avec les deux cases _Instructions_ et _Connaissances_.
 - **RAG** : une méthode où un programme choisit des extraits de documents et les donne au modèle avant qu'il réponde. C'est le sujet de l'atelier 2.
 

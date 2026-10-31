@@ -48,9 +48,9 @@ sidebar_position: 15
 
 </div>
 
-:::info[Atelier 2 sur 5 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
+:::info[Atelier 2 sur 6 de la série Construire son propre chatbot : ce qu'il lit, et qui décide]
 
-Cette série de cinq ateliers de 2 h s'adresse aux **animateur·rices**, avant tout usage avec des jeunes. Chaque atelier ajoute une pièce au chatbot de chaque binôme, et toute la série répond à une seule question : _qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ?_
+Cette série de six ateliers de 2 h s'adresse aux **animateur·rices**, avant tout usage avec des jeunes. Chaque atelier ajoute une pièce au chatbot de chaque binôme, et toute la série répond à une seule question : _qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ?_
 
 - Atelier précédent : [Donner des instructions à un chatbot et le tester](/ressources/youth-ai-lab/construire-chatbot-1-instructions)
 - Atelier suivant : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)
@@ -114,6 +114,7 @@ La série avance une pièce du chatbot à la fois :
 - **Atelier 3** : le modèle cherche lui-même, et des skills pour ajouter un document que l'on a vérifié
 - **Atelier 4** : des outils qui agissent à l'extérieur, comme le niveau de danger d'incendie du jour
 - **Atelier 5** : organiser ce qu'il sait dans un wiki, et emporter le chatbot de son territoire
+- **Atelier 6** : régler un petit modèle, pour trier les messages avant le chatbot
 
 ### Avant de commencer
 
