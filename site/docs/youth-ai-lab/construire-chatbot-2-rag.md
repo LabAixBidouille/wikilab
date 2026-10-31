@@ -76,7 +76,7 @@ La question du jour est :
 
 > **Qui choisit les morceaux ?**
 
-D'abord, on met tout dans le contexte du modèle et on regarde ce que cela coûte. Ensuite, un moteur de recherche choisit quelques morceaux pour chaque question, et on regarde lesquels il choisit. C'est ce qu'on appelle le **RAG** (_Retrieval-Augmented Generation_, génération augmentée par la recherche).
+D'abord, on met tout dans le contexte du modèle et on regarde ce que cela coûte. Ensuite, un moteur de recherche choisit quelques morceaux pour chaque question (il cherche dans les documents, pas sur le web), et on regarde lesquels il choisit. C'est ce qu'on appelle le **RAG** (_Retrieval-Augmented Generation_, génération augmentée par la recherche).
 
 Pendant toute la séance, on continue de tester le chatbot avec les mêmes questions qu'à l'atelier 1 : aujourd'hui, ce sont les colonnes **B** et **RAG** de la feuille de scores.
 
@@ -132,7 +132,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 ### Glossaire
 
 - **Modèle** : le programme d'IA qui lit un texte et écrit une réponse. Ici, le même modèle pour tous les binômes.
-- **Contexte, ou fenêtre de contexte** : tout ce que le modèle lit avant de répondre. Ici, au plus 200 000 jetons.
+- **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est sa taille maximale : ici, 200 000 jetons.
 - **Jeton** (_token_) : un morceau de mot. C'est l'unité dans laquelle on compte la taille du contexte et le prix d'une question.
 - **Préprompt, ou instructions** : le texte qui dit au chatbot qui il est et comment répondre. Dans l'atelier, c'est le fichier `AGENTS.md`.
 - **Jauge** : la ligne au-dessus de la zone de saisie de Claude Code, par exemple `0 / 200k`, qui montre à quel point le contexte est rempli.
@@ -140,6 +140,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 - **RAG** (_Retrieval-Augmented Generation_) : un moteur de recherche choisit quelques morceaux de documents pour chaque question, et le modèle ne lit que ceux-là.
 - **Morceau** (_chunk_) ou **extrait** : une partie d'un document, découpée avant qu'on pose la moindre question.
 - **Embedding** : une liste de nombres qu'un petit modèle calcule pour chaque morceau et pour chaque question. Deux textes au sens proche reçoivent des nombres proches.
+- **Base** : les morceaux découpés et leurs nombres, gardés pour les recherches.
 - **Top-k** : le nombre de morceaux que le modèle reçoit pour chaque question. Ici, 5.
 - **Codespace** : un ordinateur dans le navigateur, avec VS Code, fourni par GitHub. Rien à installer.
 - **Clé d'API** : le mot de passe qui permet au Codespace d'appeler le modèle, et qui paie les questions.
@@ -165,7 +166,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 **Préparation (environ 1 heure)** :
 
 - **Les clés (15 min)** : une clé d'API Anthropic par binôme, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes** (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en un atelier de 2 h ; voir « Qui paie »). Open WebUI et le juge ont besoin d'une clé Anthropic. Vérifier que `workshop-login` affiche `Key OK`. Pour créer une clé et poser le plafond : section « Avant de commencer » du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), ou, en anglais, [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key).
-- **Votre propre essai (20 min)** : un nouveau Codespace depuis https://codespaces.new/Youth-AI-Lab/yal-workshop-rag, `workshop-login`, `workshop-start 2`, puis attendre `READY` dans `.workshop/openwebui-start.log` ; `openwebui query` sur la question 10 avec les deux tailles ; `replay RAG 10`. Les extraits de 2000 caractères doivent contenir les deux chiffres de la question 10.
+- **Votre propre essai (20 min)** : un nouveau Codespace depuis https://codespaces.new/Youth-AI-Lab/yal-workshop-rag, `workshop-login`, `workshop-start 2`, puis attendre `READY` dans `.workshop/openwebui-start.log` ; `openwebui query` sur la question 10 avec les deux tailles ; `replay RAG 10`. `openwebui query` affiche les extraits en entier : ceux de 2000 caractères doivent contenir les deux chiffres de la question 10.
 - **Les bandes (15 min)** : imprimer et découper une série par groupe de deux binômes, manche 1 et manche 2 dans deux enveloppes, plus les deux cartes-questions.
 - **La fiche (10 min)** : imprimer la fiche d'une page (une par binôme) et prévoir une carte vierge par personne pour la carte de sortie. Si besoin, traduire la fiche dans la langue du groupe avant de l'imprimer, en gardant en anglais les commandes et ce qu'affiche le terminal.
 
@@ -179,7 +180,7 @@ La fiche animateur n'est pas dans les dépôts que les participant·es ouvrent, 
 
 ## Partie 1 : Accueil (20 min)
 
-**Objectif** : ouvrir le Codespace de cet atelier, retrouver son travail, et laisser Open WebUI préparer ses deux bases de connaissances en arrière-plan pendant qu'on travaille.
+**Objectif** : ouvrir le Codespace de cet atelier, retrouver son travail, et laisser Open WebUI préparer ses deux bases de connaissances (les documents, découpés en morceaux et prêts pour une recherche) en arrière-plan pendant qu'on travaille.
 
 ### Étape 1 : Ouvrir son Codespace et enregistrer sa clé
 
@@ -208,7 +209,7 @@ Le même dépôt s'ouvre sur votre propre ordinateur, avec Docker et VS Code : v
    workshop-start 2 --from my-work.zip
    ```
 
-   Sans sauvegarde, taper `workshop-start 2`. On doit voir les fichiers restaurés, puis :
+   Sans sauvegarde, taper `workshop-start 2`. On doit voir les fichiers restaurés et, à la fin :
 
    ```text
    Ready for workshop 2.
@@ -241,7 +242,7 @@ On accède à Open WebUI par le **port 3000** du Codespace : une porte numérot�
 :::
 
 :::note[Point de contrôle]
-`Key OK`, `Ready for workshop 2`, et le journal d'Open WebUI qui s'allonge dans le second terminal.
+`Key OK`, `Ready for workshop 2`, et le journal d'Open WebUI (le fichier où il note ce qu'il fait) qui s'allonge dans le second terminal.
 :::
 
 :::info[Notes pour l'animateur·rice]
@@ -257,7 +258,7 @@ Les parties 2 et 3 n'ont pas besoin d'Open WebUI : elles servent de temps d'atte
 ### Ce que vous allez découvrir
 
 - **Le mode `B`** : le préprompt, plus tous les résumés et toutes les copies lisibles des documents, lus à chaque message.
-- **La taille des connaissances** : environ la moitié de la fenêtre de contexte, envoyée avec la première question (la jauge la montre après ce message). La fenêtre de contexte, c'est tout ce que le modèle lit avant de répondre : ici, au plus 200 000 **jetons** (un jeton est un morceau de mot).
+- **La taille des connaissances** : environ la moitié de la fenêtre de contexte, envoyée avec la première question (la jauge la montre après ce message). Le contexte, c'est tout ce que le modèle lit avant de répondre, et la fenêtre de contexte est sa taille maximale : ici, 200 000 **jetons** (un jeton est un morceau de mot).
 - **Le coût de tout lire** : chaque message paie à nouveau pour tout.
 
 ### Ce que lit le modèle en mode B
@@ -271,6 +272,18 @@ Instructions générales de l'outil
 ```
 
 **À retenir** : en mode B, personne ne choisit. Tout entre dans le contexte à chaque message, et se paie à chaque message. Le modèle peut donc trouver n'importe quelle information, et voir une contradiction entre deux documents, parce qu'il a les deux.
+
+**Pourquoi chaque message paie.** Un modèle se paie au jeton, pour ce qu'il lit et pour ce qu'il écrit. En mode B, le modèle lit environ 100 000 jetons même pour une question de quelques mots, et la réponse n'a parfois besoin que d'une phrase d'un seul fichier.
+
+### Les trois questions du jour
+
+Les parties 2 à 6 reviennent sur ces trois questions du jeu de test.
+
+| N° | Question                                                                                                                               | Ce qu'elle met à l'épreuve                                                         |
+| -- | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| 3  | In Bouches-du-Rhône, at which fire-risk levels is access to forest massifs forbidden, and at the 'severe' level, when is work allowed? | Un fait que seul le texte complet d'un document officiel donne, pas les résumés    |
+| 7  | How many hectares burnt in Campania in 2025?                                                                                           | Une réponse qui n'existe nulle part : la bonne réponse est de le dire              |
+| 10 | How many hectares burnt outside the EU in 2025?                                                                                        | Deux sources en désaccord : le chatbot doit signaler la contradiction, pas choisir |
 
 ### Étape 1 : Regarder la jauge
 
@@ -295,7 +308,7 @@ Instructions générales de l'outil
    replay B
    ```
 
-   À la répétition : 1 min 35 et **0,47 \$**, environ cinq fois les 0,09 \$ du mode A à l'atelier 1, parce que chaque question renvoie tout le kit.
+   À la répétition : 1 min 35 et **0,47 \$**, environ cinq fois les 0,09 \$ du mode A à l'atelier 1. Chaque question renvoie tout le kit.
 
 3. Noter les trois questions du jour avec l'aide du juge. Cette fois, il propose une note, et on l'accepte (Entrée) ou on la corrige (0, 1 ou 2) :
 
@@ -313,12 +326,18 @@ Instructions générales de l'outil
 
 4. **Comparer les colonnes A et B** dans `scores.md`, pour les questions 3, 7 et 10, et avec la prédiction. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées. Pas de colonne A, parce que le binôme a commencé sans sauvegarde ? Taper d'abord `replay A`, puis `score A` : avec Feurisson, on a mesuré 1 min 12 et 0,09 \$ (avant l'ajout de ses deux dernières règles).
 
+   **Ce qu'il faut regarder.** En mode A, le chatbot n'avait aucun document : une question précise recevait surtout un « je ne sais pas » honnête. Une note qui monte en colonne B veut dire que le modèle a trouvé le fait dans le kit. La question 7 ne devrait pas baisser : plus de documents ne doit pas le faire inventer. Pour la question 10, chercher les deux chiffres dans la même réponse : le modèle ne peut les comparer que parce qu'il a les deux documents.
+
 :::info[Le barème]
 
 - **2** : juste, et la réponse dit d'où elle vient (pour les questions 7 et 9, dire « je ne sais pas » ou refuser est juste).
 - **1** : honnête mais insuffisant : « je ne sais pas » alors que la réponse existe, pas de source, ou réponse en partie juste.
 - **0** : faux ou inventé.
 
+:::
+
+:::note[Point de contrôle]
+Les questions 3, 7 et 10 sont notées dans la colonne B, et la jauge a été lue.
 :::
 
 ### Pour réfléchir
@@ -363,13 +382,17 @@ Les deux cartes-questions :
 
 1. **Manche 1 (petites bandes, une phrase chacune), question 10.** Le binôme 1 a 2 minutes pour passer 3 bandes. Le binôme 2 répond en une ou deux phrases. La réponse voit-elle que deux sources ne sont pas d'accord ?
 2. **Manche 1, question 7.** Même chose. Les bandes sur la Campanie ne portent pas sur 2025. Que répond le binôme 2 ?
-3. **Manche 2 (grandes bandes, un paragraphe chacune), question 10.** Échanger les rôles. Le binôme 1 passe 2 bandes. Est-il plus facile de donner au modèle les deux côtés de la contradiction ?
+3. **Manche 2 (grandes bandes, un paragraphe chacune), question 10.** Échanger les rôles. Le nouveau moteur de recherche passe 2 bandes. Est-il plus facile de donner au modèle les deux côtés de la contradiction ?
 4. **En discuter dans le groupe de deux binômes** : comment le moteur de recherche a-t-il choisi ? Par les mots de la question, ou par leur sens ?
 
 **À retenir** : le modèle ne peut utiliser que ce qu'il reçoit. Si le moteur de recherche ne choisit pas le morceau qui contient la réponse, le modèle ne peut pas la trouver. Et un moteur de recherche donne toujours quelque chose, même quand la réponse n'existe nulle part.
 
 :::note[Cette activité fonctionne avec des jeunes]
-Sans ordinateur : des bandes tirées de leurs propres documents, une question, et un binôme qui joue le moteur de recherche.
+Sans ordinateur : des bandes tirées de leurs propres documents, une question, et un binôme qui joue le moteur de recherche. Les bandes de cet atelier, à imprimer ou à prendre pour modèle : https://youth-ai-lab.github.io/yal-workshop/2/strips.html
+:::
+
+:::note[Point de contrôle]
+Le groupe sait dire où la réponse a été coupée.
 :::
 
 :::info[Notes pour l'animateur·rice]
@@ -398,6 +421,8 @@ Sans ordinateur : des bandes tirées de leurs propres documents, une question, e
 - **Les embeddings** : un petit modèle transforme chaque morceau, et chaque question, en une liste de nombres. Deux textes au sens proche reçoivent des nombres proches. Le moteur de recherche compare ces nombres.
 - **Le top-k** : le nombre de morceaux que le modèle reçoit pour chaque question. Ici, 5.
 
+À la partie 3, cela s'est fait à la main : chaque bande était un morceau, et le nombre de bandes à passer était le top-k. Open WebUI fait le même travail avec des nombres.
+
 ```text
 Avant toute question :
   les 37 fichiers du kit → découpés en morceaux → chaque morceau devient des nombres (embedding)
@@ -409,6 +434,83 @@ Avant toute question :
 ```
 
 **À retenir** : le moteur de recherche travaille avant le modèle, et le modèle ne voit jamais le reste des documents.
+
+### Comment un texte devient des nombres
+
+**Une carte des sens.** Imaginer une carte. Chaque texte y reçoit une place, et les textes qui parlent de la même chose sont proches. La liste de nombres est cette place, comme les coordonnées d'une ville. Une ville a besoin de deux nombres. Ici, chaque texte en reçoit **384** : un sens a bien plus de directions que le nord et l'est. La question 10 commence par `0.090, 0.084, 0.047, 0.003, 0.041, -0.064, -0.064, -0.046`, et 376 nombres suivent. Personne n'a écrit ces nombres, et aucun ne veut dire à lui seul « feu » ou « Europe ». Le petit modèle (son nom est `all-MiniLM-L6-v2`) a appris à placer les textes en s'entraînant sur un très grand nombre de phrases.
+
+**Un score de proximité.** La recherche compare deux listes de nombres et leur donne un score. Près de 1, les deux textes sont au même endroit. Autour de 0,5, le petit modèle ne voit aucun lien entre eux.
+
+**Prédire avant de regarder.** Voici des paires de textes. En binôme, les trier : quelles paires le petit modèle trouve-t-il proches ? Lesquelles trouve-t-il éloignées ? Ouvrir ensuite la réponse ci-dessous.
+
+- _wildfire_ et _forest fire_ ; _wildfire_ et _campfire_ ; _wildfire_ et _birthday cake_ ; _wildfire_ et _incendie de forêt_ (en français).
+- _burnt outside the EU_ et _burnt beyond the EU_ ; _outside the EU_ et _inside the EU_.
+- _Access to the forest is forbidden._ et _Access to the forest is allowed._
+- _1 092 095 hectares burnt._ et _2.2 million hectares burnt._
+
+<details>
+<summary>Les scores mesurés avec le petit modèle</summary>
+
+| Texte 1                            | Texte 2                          | Score     |
+| ---------------------------------- | -------------------------------- | --------- |
+| Access to the forest is forbidden. | Access to the forest is allowed. | **0,964** |
+| burnt outside the EU               | burnt beyond the EU              | **0,944** |
+| outside the EU                     | inside the EU                    | **0,935** |
+| 1 092 095 hectares burnt.          | 2.2 million hectares burnt.      | **0,929** |
+| wildfire                           | campfire                         | **0,865** |
+| wildfire                           | forest fire                      | **0,844** |
+| wildfire                           | birthday cake                    | **0,618** |
+| wildfire                           | incendie de forêt                | **0,559** |
+
+</details>
+
+**Ce que disent ces scores.** À la partie 3, la question était de savoir comment le moteur de recherche choisissait : par les mots de la question, ou par leur sens ? Open WebUI compare des sens : « outside the EU » et « beyond the EU » obtiennent 0,944. La question 10 dit « outside the EU », le résumé 90 dit « beyond the EU », et son morceau revient.
+
+Mais le « sens » a une limite. _Forbidden_ (interdit) et _allowed_ (autorisé) obtiennent le score le plus haut du tableau : les deux phrases parlent de la même chose, et un seul mot change. La recherche trouve **ce dont parle un texte**. Elle ne sait pas si le texte est vrai, ni s'il vous répond. C'est le travail du modèle qui lit les extraits, puis le vôtre.
+
+Regarder aussi la dernière ligne. _Incendie de forêt_ est la traduction de _forest fire_, et le petit modèle le place plus loin de _wildfire_ que _birthday cake_. Et _campfire_ dépasse _forest fire_ : personne n'a choisi ces nombres, ils ne suivent donc pas toujours l'idée qu'on se fait du sens.
+
+### Une question, du début à la fin
+
+Voici ce qui se passe pour la question 10, avec les chiffres de notre test. Chaque étape peut s'expliquer.
+
+**Avant toute question.** Open WebUI a découpé les 37 fichiers en **322 morceaux**, et le petit modèle a donné à chaque morceau ses 384 nombres. Cela se fait une fois, et se garde. C'est ce stock qu'on appelle une **base**.
+
+1. **La question devient des nombres.** Le même petit modèle donne à la question ses 384 nombres.
+2. **Chaque morceau reçoit un score.** La recherche compare la question aux 322 morceaux. Le meilleur score est 0,861, le plus bas 0,490, et la moitié des morceaux sont sous 0,599.
+3. **La recherche trie les morceaux et coupe la liste après 5.** C'est le top-k :
+
+   | Rang  | Score         | Fichier                           | Contient                                                  |
+   | ----- | ------------- | --------------------------------- | --------------------------------------------------------- |
+   | 1     | 0,861         | `summaries/10`                    | le total de l'UE et les 2 242 195 de tous les territoires |
+   | 2 à 4 | 0,855 à 0,853 | `corpus/text/10` (trois morceaux) | la même saison                                            |
+   | 5     | 0,847         | `summaries/90`                    | **les 2,2 millions « au-delà de l'UE »**                  |
+   |       |               | _la liste est coupée ici_         |                                                           |
+   | 6     | 0,845         | `corpus/text/90`                  | la même saison                                            |
+   | 7     | 0,832         | `summaries/10`                    | **les 1 092 095 hectares**                                |
+   | 8     | 0,825         | `corpus/text/10`                  | les 1 092 095 hectares                                    |
+
+   Les 1 092 095 hectares manquent la coupe de moins de 0,02. Le morceau n'est pas mauvais : il est seulement septième, donc avec un top-k de 5 le modèle ne le voit pas.
+
+4. **Open WebUI écrit le message.** Il colle les extraits dans le message pour le modèle, devant la question. Voici ce qui sort d'Open WebUI, tel qu'on l'a capturé :
+
+   ```text
+   System message:  the rules of the chatbot
+   User message:    ### Task:
+                    Respond to the user query using the provided context...
+                    <context>
+                    <source id="1" ...>the text of the excerpt</source>
+                    <source id="2" ...>the text of the next excerpt</source>
+                    ...
+                    </context>
+                    How many hectares burnt outside the EU in 2025?
+   ```
+
+   Le nombre `id` est le fichier : c'est ainsi que la réponse peut nommer ses sources.
+
+5. **Le modèle lit ce message et écrit.** Il n'a rien cherché. Il ne sait pas que 317 autres morceaux existent.
+
+Ces étapes sont les trois mots de **RAG** : _Retrieval_ (étapes 1 à 3, la recherche), _Augmented_ (étape 4, le message allongé), _Generation_ (étape 5, la réponse).
 
 ### Déroulé
 
@@ -426,31 +528,54 @@ Avant toute question :
    Base: excerpts of 1000 characters. Top-k: 5.
    The 5 excerpts the RAG gives the model (closest first):
 
-   #1 summaries__10-eu-2025-wildfire-season.md
+   #1 summaries__10-eu-2025-wildfire-season.md (score 0.861)
+      # The 2025 wildfire season in the EU (EFFIS figures) The 2025 fire season was the worst...
+
+   #2 corpus-text__10-jrc-eu-2025-wildfire-season.md (score 0.855)
       ...
    The model sees only these excerpts. Is the answer to your question in them?
    ```
 
-   Cette commande ne pose **aucune question au modèle** : elle montre seulement la recherche. Elle ne coûte rien.
+   **Lire cet écran depuis le haut.** `#1` est l'extrait le plus proche de la question. Un **extrait** est un morceau que la recherche a rendu. Le nom après le numéro est son fichier : `summaries__10-...` est `summaries/10-...`, et `corpus-text__43-...` est `corpus/text/43-...`. Le nombre entre parenthèses est le score de proximité vu plus haut. Chaque extrait s'affiche en entier : remonter dans le terminal pour lire depuis `#1`.
 
-3. **Lire les 5 extraits.** Le chiffre de 1 092 095 hectares (pays européens hors UE, résumé 10) y est-il ? Et les 2,2 millions du résumé 90 ?
-4. Faire de même pour la question 7 (`How many hectares burnt in Campania in 2025?`). La réponse n'existe nulle part. Combien d'extraits reviennent ?
+   Cette commande ne pose **aucune question au modèle** qui écrit les réponses : elle montre seulement la recherche. Elle ne coûte rien, parce que la recherche utilise le petit modèle d'Open WebUI, pas votre clé.
+
+3. **Lire les 5 extraits.** La réponse attendue signale que deux sources sont en désaccord. Pour cela, le modèle a besoin des deux côtés : les 1 092 095 hectares des pays européens hors UE (résumé 10) et les 2,2 millions (résumé 90). Lesquels de ces deux fichiers reviennent ? Lequel des deux chiffres trouve-t-on ?
+4. Faire de même pour la question 7 (`How many hectares burnt in Campania in 2025?`). La réponse n'existe nulle part. Combien d'extraits reviennent ? De quoi parlent-ils ? Comparer leurs scores avec ceux de la question 10.
 5. Faire de même pour la question 3 :
 
    ```bash
    openwebui query "In Bouches-du-Rhône, at which fire-risk levels is access to forest massifs forbidden, and at the 'severe' level, when is work allowed?"
    ```
 
-   Regarder le nom de chaque extrait : l'article de `corpus/text/43` qui répond est-il là, ou seulement le début du document ?
+   Regarder les noms : quels extraits viennent de `corpus-text__43-...` ? C'est le texte complet d'un arrêté des Bouches-du-Rhône, une décision juridique de la préfecture. Lire le début de ces extraits. La réponse est à l'article 4 (accès) et à l'article 9 (travaux) de l'arrêté : des listes de niveaux de risque, avec le mot `INTERDITS`. Le début du document est une liste de lignes qui commencent par `VU`. La recherche a-t-elle donné les articles, ou autre chose ?
 
-**Ce qui a été mesuré** (sans le modèle, sur le kit) : pour la question 3, les morceaux du document 43 venaient de sa première page, jamais de l'article qui répond, à toutes les tailles. Pour la question 7, le RAG a toujours donné 5 morceaux. Pour la question 10, voir la partie 5.
+**Ce qui a été mesuré** (sans le modèle, sur le kit) : pour la question 3, les morceaux du document 43 venaient de sa première page et, dans la base de 1000, de l'article 5 (les personnes à qui les interdictions ne s'appliquent pas), jamais des articles qui répondent, à toutes les tailles. Dans la base de 1000, les deux morceaux qui contiennent le mot `INTERDITS` arrivent **56e** et **58e** sur 322. Pour la question 7, le RAG a toujours donné 5 morceaux. Pour la question 10, voir la partie 5.
 
-:::info[Une piste pour la question 3, non testée]
-Le document 43 est en français, et la question en anglais. Le petit modèle qui calcule les embeddings a été entraîné surtout sur de l'anglais : cela pourrait expliquer l'échec de la question 3. **Ce n'est pas testé.** Essayer la question en français, si vous le souhaitez, et dire à la salle ce que vous voyez.
+**Pourquoi toujours 5.** La recherche ne se demande pas si un morceau est assez bon. Elle trie les morceaux du plus proche au plus lointain, et prend les 5 premiers. Même quand aucun morceau n'est vraiment proche, il y a toujours 5 premiers. Les bandes suivaient la même règle : toujours passer quelque chose.
+
+Les scores le montrent. Essayer : `openwebui query "What is the best recipe for a chocolate cake?"`. Dans notre test, le meilleur score est **0,573**, et les 5 extraits sont surtout des listes de villes françaises. Pour la question 7, le meilleur score est **0,831**, proche des 0,861 de la question 10, et pourtant la réponse n'existe nulle part. Deux extraits parlent de la Campanie, en 2017 et en 2026. Trois parlent des hectares de 2025 dans l'UE. Le score bas a dit que rien n'était proche, et le score haut n'a pas dit que la réponse était là.
+
+:::info[La langue explique-t-elle la question 3 ?]
+Le document 43 est en français, la question en anglais, et le petit modèle a été fait pour l'anglais. La question a été essayée en français. La recherche change : 4 des 5 extraits viennent alors du document 40, en français. Les deux morceaux avec `INTERDITS` passent de 56e et 58e à 30e et 70e : aucun ne revient. La langue change donc le résultat, et elle n'explique pas tout. Ces morceaux sont des listes de niveaux, avec peu de phrases : cela peut compter aussi, mais **cela n'a pas été testé**. Essayer la question en français, si vous le souhaitez, et dire à la salle ce que vous voyez.
 :::
 
+:::note[Point de contrôle]
+Les extraits des questions 10, 7 et 3 ont été lus, et on sait dire ce que la recherche a donné pour chacune.
+:::
+
+### Pour réfléchir
+
+Pour la question 7, le modèle reçoit 5 extraits, et aucun ne contient la réponse. Que devrait-il en faire ? Qu'est-ce qui pourrait le lui faire dire ? (Indice : quelle règle avez-vous donnée à votre chatbot sur ce qu'il ne sait pas ?)
+
 :::info[Notes pour l'animateur·rice]
-Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire clairement que l'explication par la langue (le modèle d'embeddings d'Open WebUI, `all-MiniLM-L6-v2`, entraîné surtout sur de l'anglais) **n'a pas été testée**.
+
+Les mots du jour : morceau (_chunk_), embedding, top-k.
+
+**Question 3.** Elle échoue à toutes les tailles. Les morceaux du document 43 viennent de sa première page et, dans la base de 1000, de l'article 5. Le document est en français, la question en anglais, et le modèle d'embeddings d'Open WebUI (`all-MiniLM-L6-v2`) a été fait pour l'anglais (sa fiche indique `language: en`). Testé le 31 octobre 2026 : en français, 4 des 5 extraits viennent du document 40, et les deux morceaux avec `INTERDITS` passent de 56e et 58e à 30e et 70e sur 322. La langue change le résultat et n'explique pas tout. Le rôle éventuel de la forme de ces morceaux, des listes de niveaux, **n'a pas été testé** : le dire.
+
+**Embeddings.** Les binômes trient des paires de textes par proximité, puis ouvrent les scores mesurés. Prévoir 5 minutes dans les 20 de la partie 4, et réduire la question 3 à un coup d'œil si la partie prend du retard. Le point à garder : _forbidden_ et _allowed_ obtiennent 0,964, la recherche trouve ce dont parle un texte, pas ce qui est vrai. Les chiffres et les scripts sont dans `facilitator/atelier-2-measures/2026-10-31-embeddings/`. Ce minutage n'a pas été essayé avec un groupe.
+
 :::
 
 ---
@@ -465,6 +590,18 @@ Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire
 - **`--top-k`** : plus de morceaux pour une recherche.
 - **`openwebui top-k N`** : plus de morceaux dans la discussion, dès la question suivante, pour tous les modèles « Wildfire RAG ».
 
+### Deux réglages, deux moments
+
+On peut changer deux choses dans ce RAG, et elles n'agissent pas au même moment.
+
+**La taille des morceaux** se décide avant toute question : les documents sont découpés une fois. Pour essayer une autre taille, il faut les redécouper. C'est pour cela que `workshop-start 2` a préparé deux bases à l'avance.
+
+**Le nombre de morceaux** (le top-k) peut changer à chaque question : la recherche prend seulement plus de morceaux dans la même liste triée.
+
+Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comme une bande de la partie 3. Un morceau plus grand garde plus de texte autour, et plus de morceaux donnent au bon morceau plus de chances de revenir.
+
+**Une limite du petit modèle.** Il lit au plus 256 jetons d'un texte, et ignore le reste. Dans notre test, cela faisait environ 1 230 caractères d'anglais et environ 780 de français. Un morceau plus long part donc en entier vers le modèle qui écrit la réponse, mais la recherche ne le place que d'après son début. Cela a été vérifié : une nouvelle fin ajoutée après cette limite ne change pas un seul des 384 nombres. Au-delà de cette limite, un morceau plus grand apporte plus de texte au modèle, et la recherche n'en lit pas davantage.
+
 ### Étape 1 : Des morceaux plus grands
 
 1. Poser la question 10 à la base de 2000 :
@@ -473,7 +610,7 @@ Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire
    openwebui query --size 2000 "How many hectares burnt outside the EU in 2025?"
    ```
 
-2. Les deux chiffres sont-ils maintenant dans les extraits ? Mesure de l'équipe : avec des morceaux de 2000, les deux côtés de la contradiction reviennent ensemble ; avec des morceaux de 1000 et 5 extraits, le chiffre de 1 092 095 hectares manque.
+2. Trouve-t-on maintenant les deux chiffres ? Mesure de l'équipe : avec des morceaux de 2000, les deux côtés de la contradiction reviennent ensemble ; avec des morceaux de 1000 et 5 extraits, le résumé 10 revient, mais pas son morceau avec les 1 092 095 hectares : c'est le premier échec de la partie 3, une réponse coupée en deux.
 
 ### Étape 2 : Plus de morceaux
 
@@ -496,11 +633,13 @@ Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire
 
    Est-ce que quelque chose ramène l'article qui répond ?
 
+   Mesure de l'équipe : non, à aucune des deux tailles, même avec 10 extraits. Dans la base de 1000, les deux morceaux avec `INTERDITS` sont 56e et 58e : un top-k de 10 s'arrête bien avant. Les réglages changent la part du résultat de la recherche que reçoit le modèle. Ils ne peuvent pas ramener un passage que la recherche ne place pas près de la question. À l'atelier 3, le modèle cherche lui-même : dans notre test, il a ouvert cet arrêté.
+
 ### Étape 3 : Interroger le modèle dans Open WebUI
 
 1. Ouvrir l'adresse donnée dans `.workshop/openwebui-start.log` (`Ctrl` + clic), ou passer par l'onglet **Ports** → `3000` → **Open in Browser**.
 2. Cliquer sur **New Chat**, puis choisir **Wildfire RAG 1000** dans la zone de saisie, en bas à droite. Poser la question 10. La liste montre aussi **Wildfire RAG (workshop kit)** : il utilise les mêmes morceaux de 1000 que Wildfire RAG 1000, et c'est celui qu'utilise `replay RAG` à la partie 6 (capture `images/rag-models.png` dans le dépôt).
-3. Sous la réponse, cliquer sur **Sources** (avec leur nombre, par exemple `3 Sources`) : la liste montre les fichiers d'où viennent les extraits. Les étiquettes grises dans le texte indiquent de quel fichier vient chaque phrase (capture `images/rag-sources.png` dans le dépôt).
+3. Sous la réponse, cliquer sur **Sources** (avec leur nombre, par exemple `3 Sources`) : la liste montre les fichiers d'où viennent les extraits. Les étiquettes grises dans le texte indiquent de quel fichier vient chaque phrase (capture `images/rag-sources.png` dans le dépôt). Cliquer sur un fichier de la liste : tout son passage s'ouvre, avec un score en pourcentage. Ce n'est pas le score de la partie 4 (sa formule n'a pas été cherchée), donc ne pas les comparer. Trouve-t-on les 1 092 095 hectares ? Regarder de nouveau à l'étape suivante, avec **Wildfire RAG 2000**.
 4. **New Chat** avec **Wildfire RAG 2000**, même question. Comparer les deux réponses.
 
    Voici les deux réponses mesurées avec le modèle de l'atelier :
@@ -508,11 +647,15 @@ Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire
    - **Morceaux de 1000** : la réponse soustrait l'UE du total (environ 1 162 657 hectares), précise que c'est son propre calcul, et voit que les 2,2 millions ne concordent pas. Mais elle « ne peut pas dire quelle lecture est la bonne » (_"can't tell which reading is correct"_) : le chiffre de 1 092 095 hectares n'est pas dans ses extraits. Le juge a donné 1.
    - **Morceaux de 2000** : la réponse donne 1 092 095 + 70 562 hectares, écrit que « les sources ne sont pas d'accord » (_"the sources disagree"_), et explique pourquoi : _"The figures add up only if the 2.2 million includes the EU"_ (les chiffres ne concordent que si les 2,2 millions incluent l'UE). Le juge a donné 2.
 
-5. Si vous le souhaitez, donner 10 extraits à la discussion, reposer la question à **Wildfire RAG 1000**, puis **revenir à 5** avant la partie 6 :
+   **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse.
+
+5. Si vous le souhaitez, donner 10 extraits à la discussion :
 
    ```bash
    openwebui top-k 10
    ```
+
+   Reposer la question à **Wildfire RAG 1000**. La réponse donne-t-elle maintenant les 1 092 095 hectares ? Puis **revenir à 5** avant la partie 6 :
 
    ```bash
    openwebui top-k 5
@@ -520,6 +663,10 @@ Les mots du jour : morceau (_chunk_), embedding, top-k. Pour la question 3, dire
 
 :::caution[Revenir à 5 extraits avant la partie 6]
 `replay RAG` refuse de tourner quand la discussion ne reçoit pas 5 extraits : la colonne RAG est toujours mesurée avec 5, pour que les binômes puissent comparer. Taper `openwebui top-k 5` avant la partie 6.
+:::
+
+:::note[Point de contrôle]
+Les deux réponses à la question 10 ont été comparées, et la discussion est revenue à 5 extraits.
 :::
 
 ### Pour réfléchir
@@ -544,7 +691,7 @@ Lire les deux réponses mesurées à la question 10. Les deux voient que les sou
    replay RAG
    ```
 
-   Chaque question part au chatbot « Wildfire RAG (workshop kit) » d'Open WebUI (les mêmes morceaux de 1000 que Wildfire RAG 1000), dans une nouvelle conversation. Les réponses vont dans un nouveau fichier du dossier `answers/` : la ligne qui commence par `Answers:`, vers la fin, donne son nom, par exemple `Answers: answers/RAG-15h20.md`. L'ouvrir : sous chaque réponse, il indique de quels documents viennent les extraits. Mesures de l'équipe : 3 à 11 secondes par question, et environ **0,14 \$** pour 11 questions.
+   Chaque question part au chatbot « Wildfire RAG (workshop kit) » d'Open WebUI (les mêmes morceaux de 1000 que Wildfire RAG 1000), dans une nouvelle conversation. Les réponses vont dans un nouveau fichier du dossier `answers/` : la ligne qui commence par `Answers:`, vers la fin, donne son nom, par exemple `Answers: answers/RAG-15h20.md`. L'ouvrir : sous chaque réponse, il indique de quels documents viennent les extraits. Mesures de l'équipe : 3 à 11 secondes par question. La ligne `Answers:` dit aussi `cost: not shown by Open WebUI` : notre chiffre d'environ **0,14 \$** pour 11 questions est donc une estimation, faite à partir du nombre de jetons. Sous chaque réponse, la ligne `Context: ... tokens` donne la taille de ce que le modèle a lu : 1 872 à 2 869 jetons par question mesurés, contre environ 100 000 en mode B.
 
 2. Noter les questions 3, 7 et 10, avec l'aide du juge :
 
@@ -560,7 +707,7 @@ Lire les deux réponses mesurées à la question 10. Les deux voient que les sou
 
    **Remarque.** L'atelier 3 compare les questions 11 et 12 avec les colonnes B et RAG : s'il ne reste qu'une minute, noter ces deux-là d'abord, avec `score RAG 11 12`.
 
-3. **Comparer les colonnes B et RAG** pour les questions 3, 7 et 10, puis les coûts : 0,47 \$ pour B, environ 0,14 \$ pour le RAG, d'après les mesures. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées.
+3. **Comparer les colonnes B et RAG** pour les questions 3, 7 et 10, puis les coûts : 0,47 \$ pour B d'après nos mesures, environ 0,14 \$ pour le RAG d'après notre estimation. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées.
 
 :::info[Qui paie les questions]
 Ces coûts sont payés avec la clé du binôme. Le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) présente cinq façons de payer le modèle. Un modèle installé sur un ordinateur de votre structure n'a pas de coût par question : voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
@@ -572,6 +719,10 @@ La colonne B utilise votre `AGENTS.md`. Le chatbot « Wildfire RAG (workshop kit
 
 Mesures de l'équipe, avec le juge : 18 sur 22 pour le RAG de 1000, 19 sur 22 pour celui de 2000. La question 7 a obtenu 2 aux deux tailles : le modèle a dit que les extraits ne contenaient pas la réponse, alors qu'il en recevait toujours 5. La question 3 a obtenu 1 aux deux tailles : l'article qui répond n'a jamais été dans les extraits.
 
+**Regarder côte à côte les questions 3 et 7.** Avec des morceaux de 1000, le chatbot a dit « je ne sais pas » aux deux. Pour la question 7, c'est juste : la réponse n'existe nulle part. Pour la question 3, la réponse est dans le kit, dans le document 43, mais la recherche ne l'a pas ramenée. Dans la discussion, les deux réponses se ressemblent. Seul le jeu de test montre la différence, parce qu'il dit que la question 3 a une réponse.
+
+Pourquoi n'a-t-il pas inventé de réponse à la question 7 ? Ses instructions fixes disent : _If the information is not in the excerpts you were given, say "I don't know"._ (si l'information n'est pas dans les extraits reçus, dire « je ne sais pas »). Ce chatbot n'a pas été mesuré sans cette règle.
+
 :::note[Point de contrôle]
 Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme peut citer une question où les morceaux ont fait la différence.
 :::
@@ -579,6 +730,8 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 ---
 
 ## Partie 7 : Clôture (10 min)
+
+**Objectif** : décider quand un RAG est un bon choix, voir ce que certains outils de discussion font d'eux-mêmes, et sauvegarder son travail.
 
 ### Quand choisir un RAG
 
@@ -590,6 +743,8 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 | **Son échec**                | s'arrête quand les connaissances grandissent | **donne toujours quelque chose**, même quand la réponse n'est pas dans les morceaux : l'échec est invisible |
 
 **À retenir** : l'échec d'un RAG ne se voit pas. Quand il choisit les mauvais morceaux, le modèle reçoit quand même 5 extraits, et il peut répondre à partir d'eux avec assurance. C'est pour cela que les questions de test comptent : elles montrent les échecs que la discussion ne montre pas.
+
+**En pratique.** Si vos documents sont peu nombreux et courts, mettez-les tous dans le contexte : c'est simple, et le modèle peut les comparer. S'ils ne tiennent plus, ou si chaque message coûte trop cher, utilisez un RAG, et continuez de le tester avec des questions dont vous connaissez les réponses.
 
 ### Ce que certains outils de discussion font d'eux-mêmes
 
@@ -609,7 +764,7 @@ La même case _Knowledge_ peut donc tout lire, chercher des morceaux, ou en manq
    3. Pourquoi l'échec d'un RAG est-il plus difficile à voir qu'un échec du mode B ?
 
 :::note[Ce que vous avez construit]
-Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connaissances d'un chatbot Open WebUI (partie 2 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) ; en anglais, [Step 1 - Gather your documents](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-1---gather-your-documents-knowledge) pour rassembler ses documents, puis [Step 4 - Try it](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-4---try-it) pour l'essayer et lire les passages trouvés), et sur un ordinateur de votre structure (guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), section des mesures : les deux mêmes échecs, avec des modèles locaux). Dans le chatbot du guide Open WebUI, par défaut, c'est le modèle qui décide quand chercher (la ligne `Explored...` au-dessus de sa réponse) ; ici, Open WebUI cherchait avant chaque réponse.
+Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connaissances d'un chatbot Open WebUI (partie 2 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) ; en anglais, [Step 1 - Gather your documents](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-1---gather-your-documents-knowledge) pour rassembler ses documents, puis [Step 4 - Try it](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-4---try-it) pour l'essayer et lire les passages trouvés), et sur un ordinateur de votre structure (guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), section des mesures : les deux mêmes échecs, avec des modèles locaux). Dans le chatbot du guide Open WebUI, par défaut, c'est le modèle qui décide quand chercher (une ligne `Explored...` ou `View Result from...` au-dessus de sa réponse) ; ici, Open WebUI cherchait avant chaque réponse.
 :::
 
 **Suite** : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche) (dépôt https://github.com/Youth-AI-Lab/yal-workshop-search). Ouvrir son propre Codespace depuis la page du dépôt de l'atelier 3, et apporter `my-work.zip`.

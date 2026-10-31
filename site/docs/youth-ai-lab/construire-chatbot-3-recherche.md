@@ -68,7 +68,7 @@ La question du jour : **et si le modèle cherchait lui-même ?** (à l'écran : 
 
 ### Ce que change cette approche
 
-Le mode B payait tout, à chaque message. Un RAG donnait toujours des extraits, même quand la réponse n'y était pas. En mode C, **rien n'est chargé à l'avance** : le modèle sait où se trouvent les connaissances, dans deux dossiers qui ont chacun un index, et il cherche comme le ferait une personne. Quand une recherche ne trouve rien, le modèle voit zéro résultat, et il peut dire « je ne sais pas ».
+Le mode B payait tout, à chaque message. Un RAG donnait toujours des extraits, même quand la réponse n'y était pas. En mode C, **rien n'est chargé à l'avance** : le modèle sait où se trouvent les connaissances, dans deux dossiers qui ont chacun un index, et il cherche comme le ferait une personne. Quand une recherche ne trouve rien, ou rien qui réponde, le modèle le voit, et il peut dire « je ne sais pas ».
 
 Vient ensuite **la curation**, que les outils ne font pas à votre place : une personne décide quel document entre dans les connaissances, vérifie le résumé que le modèle en écrit, et le signe de son nom. Le modèle propose, la personne décide.
 
@@ -105,7 +105,7 @@ La série avance une pièce du chatbot à la fois :
 
 **Apportez `my-work.zip`**, le fichier enregistré à la fin de l'atelier 2. Il contient vos instructions (le préprompt), votre question 12 et vos notes. Sans lui, l'exemple du kit, Feurisson, devient votre préprompt. **Apportez aussi l'adresse de la page officielle de votre question 12** : à la partie 3, elle entre dans votre chatbot. Pas encore de question 12 ? Écrivez-en une au début de la partie 3 (fichier `test-questions.md`, section `Question 12: your territory`), ou faites la curation du document de Bénévent et ne notez que les questions 3, 8 et 11. Plus de détails dans la section _Before you start_ du fichier `SETUP.md` du dépôt.
 
-Tout au long de la séance, vous continuez à tester votre chatbot avec les mêmes questions : aujourd'hui, la colonne **C**, avec les questions 3, 11 et 12, et la question 8 pour l'atelier 4. Le barème ne change pas :
+Tout au long de la séance, vous continuez à tester votre chatbot avec les mêmes questions. Aujourd'hui, vous remplissez la colonne **C** de `scores.md`, pour les questions 3, 11 et 12, et la question 8 pour l'atelier 4 : la partie 5 dit ce que chacune met à l'épreuve. Le barème ne change pas :
 
 - **2** : juste, et sourcé
 - **1** : honnête mais insuffisant
@@ -146,7 +146,7 @@ Tous ces fichiers sont dans votre Codespace, dans la liste des fichiers à gauch
 - **RAG** : une méthode vue à l'atelier 2, où un moteur de recherche choisit des extraits de documents et les donne au modèle.
 - **Recherche agentique** : le modèle décide lui-même quoi chercher et quoi ouvrir, étape par étape (lister un dossier, chercher un mot, lire un fichier).
 - **Corpus** : les documents officiels du chatbot, dans `corpus/`, jamais modifiés, avec une copie lisible de chacun dans `corpus/text/`.
-- **Résumé** : un texte court par document, dans `summaries/`, écrit par le modèle puis vérifié par une personne.
+- **Résumé** : un texte court sur un document officiel, dans `summaries/`, écrit par le modèle puis vérifié par une personne.
 - **Curation** : choisir ce qui entre dans les connaissances du chatbot, le vérifier et le signer.
 - **Skill** : une procédure écrite en langage courant dans un fichier `SKILL.md`, que le modèle ouvre seulement quand une demande correspond à sa description.
 - **Juge** : un second modèle qui propose une note de 0 à 2 pour chaque réponse, avec la commande `score`.
@@ -236,7 +236,7 @@ Dans ce Codespace, Claude Code demande à nouveau si vous faites confiance au do
 
 :::caution[Attention]
 
-**Ne rendez jamais le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
+**Ne rendez jamais le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). C'est la porte numérotée par laquelle on accède à Open WebUI. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 
 :::
 
@@ -256,9 +256,11 @@ Dans ce Codespace, Claude Code demande à nouveau si vous faites confiance au do
 
 - **La recherche agentique** : le modèle décide ce qu'il ouvre, une étape après l'autre. Vous pouvez lire chaque étape dans la conversation.
 - **Des outils qui lisent** : lister un dossier (`ls`), chercher un mot (`grep`), lire un fichier. Ils ne demandent pas votre permission. Écrire un fichier, si.
-- **Un échec visible** : quand une recherche ne trouve rien, le modèle voit zéro résultat.
+- **Un échec visible** : quand les documents ne contiennent pas la réponse, une recherche ne trouve rien (zéro résultat), ou elle trouve des fichiers qui ne répondent pas. Le modèle le voit, et vous aussi.
 
 ### Ce que lit le modèle en mode C
+
+Seul, un modèle ne peut pas ouvrir un fichier. En mode C, il demande à **Claude Code**, le programme autour de lui, de lister un dossier, de chercher un mot ou de lire un fichier. Ce qui revient entre dans le contexte, et le modèle décide de la suite : une autre recherche, un autre fichier, ou la réponse. `workshop C` ajoute aussi un court texte au préprompt. Il dit où sont les deux dossiers, et il demande au modèle de commencer par les résumés, d'aller aux documents complets pour les détails, et de dire quel document il a utilisé.
 
 ```text
 AGENTS.md + où sont les connaissances (deux dossiers, deux index)  →  Modèle
@@ -282,22 +284,31 @@ Modèle  →  Réponse
 
 ### Étape 2 : Question 3, une réponse qui n'est que dans un document complet
 
-1. Ouvrir `test-questions.md`, copier la question 3 et la coller dans la conversation avec `Ctrl+Shift+V` (`Cmd+V` sur Mac). Elle porte sur l'accès aux massifs forestiers dans les Bouches-du-Rhône. Sa réponse **n'est pas dans les résumés** : seulement dans le texte complet d'un arrêté.
+1. Ouvrir `test-questions.md`, copier la question 3 et la coller dans la conversation avec `Ctrl+Shift+V` (`Cmd+V` sur Mac). Elle porte sur l'accès aux massifs forestiers dans les Bouches-du-Rhône. Sa réponse **n'est pas dans les résumés** : seulement dans le texte complet d'un arrêté, une décision juridique de la préfecture. À l'atelier 2, dans notre test, le RAG l'a manquée : l'article qui répond n'était jamais dans ses morceaux. Le modèle peut-il l'atteindre en cherchant ?
 2. Au-dessus de la réponse, une ligne grise résume les étapes, par exemple `Searched for 1 pattern, read 2 files`. Appuyer sur **Ctrl+O** (aussi sur Mac) pour voir chaque étape : quel mot il a cherché, quels fichiers il a ouverts. L'écran affiche alors `Showing detailed transcript · ctrl+o to toggle` : **Ctrl+O** à nouveau ramène à la conversation. Les captures du dépôt montrent les deux vues sur une autre question.
-3. Regarder la jauge. Lors de notre essai du 30 octobre 2026, le modèle a cherché avec `grep` dans `summaries/` et `corpus/`, a lu le résumé des Bouches-du-Rhône puis l'arrêté complet dans `corpus/text/`, sans demander aucune permission, et la jauge affichait environ **23 000 jetons**. En mode B, elle en affichait environ 100 000 (mesure prise après la question 10) : tout le kit est dans la fenêtre, quelle que soit la question. Vos étapes peuvent être différentes : le modèle décide à chaque fois.
+3. Regarder la jauge. Lors de notre essai du 30 octobre 2026, le modèle a cherché avec `grep` dans `summaries/` et `corpus/`, a lu le résumé des Bouches-du-Rhône puis l'arrêté complet dans `corpus/text/`, sans demander aucune permission, et la jauge affichait environ **23 000 jetons** (un jeton est un morceau de mot). En mode B, elle en affichait environ 100 000 (mesure prise après la question 10) : tout le kit est dans la fenêtre, quelle que soit la question. Vos étapes peuvent être différentes : le modèle décide à chaque fois.
 
 ### Étape 3 : Question 7, une réponse qui n'existe nulle part
 
 1. Poser la question 7 de `test-questions.md`.
 2. Observer les recherches : quels documents trouvent-elles, et ces documents répondent-ils à la question ? Que dit le modèle ? Comparer avec ce que faisait le RAG à l'atelier 2, où le modèle recevait toujours 5 extraits.
+3. **Ce que cela veut dire.** Une recherche peut trouver des documents sur le même lieu et n'apporter aucune réponse : le modèle les lit et voit que le chiffre n'y est pas. Une recherche peut aussi ne rien trouver du tout. Dans les deux cas, vous pouvez lire ce qu'il a cherché et ce qu'il a trouvé : l'échec se voit. À l'atelier 2, dans notre test, le modèle a lui aussi dit que la réponse manquait, mais il ne pouvait pas regarder plus loin que ses 5 morceaux. Ici, il choisit chaque recherche : vous pouvez juger la recherche autant que la réponse.
 
 ### Étape 4 : Quitter
 
 Appuyer deux fois sur **Ctrl+C**. À partir du mode C, `/exit` fonctionne aussi, et `/context` montre en détail ce qui remplit la fenêtre de contexte.
 
+:::note[Point de contrôle]
+
+Vous savez nommer les fichiers que le modèle a ouverts pour la question 3, et dire ce que ses recherches ont trouvé pour la question 7.
+
+:::
+
 ### À vous de réfléchir
 
 En mode B, personne ne choisissait. Dans le RAG, un moteur de recherche choisissait. **Qui choisit en mode C, et comment pouvez-vous le vérifier ?**
+
+**Vous avez construit** un chatbot qui va chercher ce dont il a besoin, et qui montre chaque étape. **Réemployé dans** votre propre dossier de chatbot : partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::info[Notes pour l'animateur·rice]
 
@@ -315,17 +326,19 @@ Faites appuyer toute la salle sur **Ctrl+O** et nommer les fichiers ouverts. Pui
 
 - **`corpus-add`** : la commande qui ajoute un document officiel à `corpus/`, sans le modifier.
 - **La skill `summarize`** : le modèle écrit un brouillon de résumé en anglais, et une table de vérification qui place chaque phrase à côté du passage de l'original qui l'appuie.
-- **La skill `validate-summary`** : elle enregistre qu'**une personne** a vérifié le résumé. Le modèle ne peut pas le signer.
+- **La skill `validate-summary`** : elle enregistre qu'**une personne** a vérifié le résumé. Le modèle ne doit pas le signer : ses règles le disent, et vous lisez ce qu'il écrit.
 
 ### Les trois couches de connaissances
 
-| Dossier             | Ce qu'il contient                                                                                 | Qui l'écrit                                 |
-| ------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| `corpus/`           | les documents officiels, **jamais modifiés**, et une copie lisible de chacun dans `corpus/text/`   | les autorités                               |
-| `summaries/`        | un résumé court en anglais par document, de 5 à 15 phrases, un fait par phrase                     | le modèle, puis une personne le vérifie     |
-| `summaries/checks/` | la table de vérification de chaque résumé écrit aujourd'hui                                        | le modèle                                   |
+| Dossier             | Ce qu'il contient                                                                                      | Qui l'écrit                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| `corpus/`           | les documents officiels, **jamais modifiés**, et une copie lisible de chacun dans `corpus/text/`       | les autorités ; un programme fait la copie lisible (`corpus-add` pour les vôtres) |
+| `summaries/`        | de courts résumés en anglais des documents officiels, de 5 à 15 phrases chacun, un fait par phrase     | le modèle, puis une personne le vérifie                                           |
+| `summaries/checks/` | le dossier de travail de la vérification : la table de vérification de chaque résumé écrit aujourd'hui | le modèle                                                                         |
 
-Chaque résumé commence par un en-tête. `status: draft` signifie qu'aucune personne ne l'a vérifié. `verified: ... human:<name>` signifie qu'une personne l'a fait, et `status: stable` suit.
+**Pourquoi un résumé, si le modèle peut lire le document complet.** Un document peut être long, et il reste dans sa langue. Les résumés sont courts et en anglais : le modèle commence donc par eux, et ouvre un document complet pour les détails ou quand les résumés ne suffisent pas. Un résumé peut alors être tout ce qu'il lit pour une question.
+
+Chaque résumé commence par un **en-tête** : quelques lignes entre deux `---` qui disent d'où il vient et qui s'en porte garant. Ouvrir `summaries/31-charente-maritime-fire-use-rules.md` pour en voir un : sa dernière ligne `verified` porte le nom d'une personne. `status: draft` signifie qu'aucune personne n'a vérifié le résumé. `verified: ... human:<name>` signifie qu'une personne l'a fait, et `status: stable` suit. Le modèle lit aussi cet en-tête : `workshop C` lui dit que `status: draft` veut dire pas encore vérifié par une personne. Aujourd'hui, 4 des 17 résumés du kit portent le nom d'une personne : chercher `(human-reviewed)` à la fin des lignes de `summaries/index.md`.
 
 **À retenir** : un résumé faux donne une réponse fausse, avec assurance. **La curation**, c'est qu'une personne décide de ce qui entre dans les connaissances, et signe ce que le chatbot en dira.
 
@@ -359,7 +372,7 @@ Surveillez trois moments :
 
 ### Étape 1 : Ajouter le document de Bénévent (question 11)
 
-1. Ouvrir `inbox/README.md` (`Ctrl+Shift+V`) et copier sa commande `corpus-add`. Elle tient sur **une seule ligne**, même si votre écran la coupe.
+1. Ouvrir `inbox/README.md` et copier sa commande `corpus-add`. Elle tient sur **une seule ligne**, même si votre écran la coupe. Dans l'éditeur, `Ctrl+Shift+V` montre un fichier comme une page ; dans le terminal, les mêmes touches collent.
 2. La coller dans le premier terminal, hors d'une conversation, avec `Ctrl+Shift+V`, puis appuyer sur Entrée. Vous devez voir, en moins d'une seconde :
 
    ```text
@@ -378,12 +391,12 @@ Trois choses se sont produites : le PDF original est gardé sans modification da
    corpus-add "https://..." --name my-town-fire-rules
    ```
 
-2. Vous devez voir les trois mêmes lignes, avec le numéro **81**, et peut-être une ligne `To complete in the header of corpus/text/81-....md: description.` : elle liste ce que la page ne disait pas d'elle-même. Vous pouvez ajouter `--title "..." --publisher "..." --description "..."` pour le donner.
-3. **Ouvrir la copie lisible** `corpus/text/81-....md` et vérifier que le fait de votre question 12 s'y trouve. Certaines pages chargent leur contenu avec un script : la copie est alors presque vide. Par exemple, la carte d'une préfecture française n'a donné que 318 jetons, car le niveau du jour n'est pas dans la page elle-même.
+2. Vous devez voir les trois mêmes lignes, avec le numéro **81**, et peut-être une ligne `To complete in the header of corpus/text/81-....md: description.` : elle liste ce que la page ne disait pas d'elle-même. Ouvrir ce fichier et remplacer `TO BE COMPLETED` dans son en-tête par un texte court, et aussi dans la dernière ligne de `corpus/index.md` s'il y est. Ne pas retaper `corpus-add` pour cette page : cela ajouterait une seconde copie, avec le numéro 82.
+3. **Ouvrir la copie lisible** `corpus/text/81-....md` et vérifier que le fait de votre question 12 s'y trouve. Sur certaines pages, le texte n'est pas dans la page elle-même : le navigateur va le chercher ensuite, avec un petit programme appelé **script**. `corpus-add` télécharge seulement la page et ne lance pas le script : la copie est alors presque vide. Par exemple, la carte d'une préfecture française n'a donné que 318 jetons : le niveau de danger du jour n'était pas dans la copie.
 
 :::info[Si votre page est refusée]
 
-Si votre page est refusée (un PDF scanné, une page dont le texte est chargé par un script, ou un site qui refuse les téléchargements : voir [Dépannage](#dépannage)), ou si sa copie est vide, faites les étapes 3 à 6 avec le document de Bénévent : `summarize corpus/80-benevento-aib-2026.pdf`. Lisez alors **80** au lieu de 81 aux étapes 4 et 5, et posez la question **11** à l'étape 6.
+Si votre page est refusée (un PDF scanné, une page dont le texte est chargé par un script, ou un site qui refuse les téléchargements : voir [Dépannage](#dépannage)), ou si sa copie est vide, faites les étapes 3 à 6 avec le document de Bénévent : `summarize corpus/80-benevento-aib-2026.pdf`. Lisez alors **80** au lieu de 81 dans ces étapes, et posez la question **11** à l'étape 6.
 
 :::
 
@@ -413,9 +426,12 @@ Lors de notre essai du 30 octobre 2026, le résumé du document de Bénévent a 
 
 1. Ouvrir la table `summaries/checks/81-....md`.
 2. Ouvrir la source à côté : clic droit sur elle dans la liste des fichiers, puis **Open to the Side**.
-   - Pour une **page web**, ouvrir la copie lisible `corpus/text/81-....md` (le `.html` original est du balisage, difficile à lire), et si vous voulez la mise en page officielle, la page elle-même dans un onglet du navigateur.
+   - Pour une **page web**, ouvrir la copie lisible `corpus/text/81-....md` (le `.html` original est le code de la page, difficile à lire), et si vous voulez la mise en page officielle, la page elle-même dans un onglet du navigateur.
    - Pour un **PDF**, ouvrir l'original `corpus/81-....pdf` : il s'ouvre dans une visionneuse de PDF.
 3. Pour chaque ligne : copier quelques mots du passage original, les chercher dans la source avec `Ctrl+F`, et comparer avec la phrase. Les dates et les chiffres se comparent facilement, dans toutes les langues.
+
+   Chercher trois sortes d'erreurs : un chiffre, une unité ou une date qui a changé ; une condition ou une exception qui a disparu (`except...`, `from level...`) ; une phrase qui dit plus que son passage. Le passage est copié mot pour mot : il doit donc être dans la source. Si on ne le trouve pas, chercher moins de mots. S'il n'y est toujours pas, la ligne est fausse.
+
 4. Remplir la colonne **OK?** : `yes`, ou écrire la bonne version dans **Correction**, entre les deux `|` de la cellule, sans ajouter ni retirer de `|`. Enregistrer (`Ctrl+S`). Vous pouvez aussi le dire dans la conversation, à l'étape 5 : `I checked sentences 1 to 10, sentence 3 is wrong, it should be ...`.
 
 :::caution[Important : chaque ligne doit être vérifiée]
@@ -426,7 +442,7 @@ Un « c'est bon » général ne suffit pas : la skill liste les lignes non véri
 
 ### Étape 5 : Signer
 
-1. Dans la conversation, dire au chatbot, avec vos noms :
+1. Dans la conversation, dire au chatbot, avec vos noms. Garder ces mots : ils correspondent à la description de la skill, et c'est ce qui l'ouvre :
 
    ```text
    Validate summary 81. I checked every row. My name is <first name last name>.
@@ -439,9 +455,14 @@ Un « c'est bon » général ne suffit pas : la skill liste les lignes non véri
 
 ### Étape 6 : Vérifier le résultat
 
-1. Ouvrir `summaries/index.md` : sous `Added during the session`, votre résumé est passé de `(draft, not verified)` à `(human-reviewed)`.
+1. Ouvrir `summaries/index.md` : sous `Added during the session`, votre résumé est passé de `(draft, not verified)` à `(human-reviewed)`. Ouvrir ensuite `summaries/81-...` et lire sa ligne `verified`, avec votre nom.
 2. Quitter avec deux fois **Ctrl+C** : cette conversation vient de lire votre document, elle répondrait donc de mémoire.
-3. Relancer `workshop C` et poser votre question 12 dans cette nouvelle conversation. Appuyer sur **Ctrl+O** : ouvre-t-il `summaries/81-...` ou `corpus/text/81-...` ? **Ctrl+O** à nouveau, puis quitter avec deux fois **Ctrl+C**.
+3. Relancer `workshop C` et poser votre question 12 dans cette nouvelle conversation. Appuyer sur **Ctrl+O** : ouvre-t-il `summaries/81-...` ou `corpus/text/81-...` ?
+   - `summaries/81-...` : le chatbot répond à partir du texte que vous avez vérifié et signé.
+   - `corpus/text/81-...` seulement : il répond à partir du document complet, et votre résumé n'a pas servi cette fois.
+   - Ni l'un ni l'autre : regarder les mots qu'il a cherchés, s'il a cherché. Ils peuvent montrer pourquoi il a manqué votre document.
+
+   **Ctrl+O** à nouveau, puis quitter avec deux fois **Ctrl+C**.
 
 :::note[Point de contrôle]
 
@@ -484,13 +505,13 @@ Pensez à votre classeur de fiches d'activité. Le sommaire est posé sur la tab
 | Qui décide de s'en servir       | vous : elle est toujours là                    | le modèle, d'après la description         |
 | Ce qu'elle coûte dans le contexte | tout le texte, à chaque fois                 | quelques lignes, tant qu'elle ne sert pas |
 
-**À retenir** : une skill fait qu'une tâche se déroule de la même façon à chaque fois. Le résumé reçoit toujours sa table de vérification, et certaines règles ne peuvent pas être sautées : `summarize` dit `Never add a verified entry yourself, and never mark a summary as checked.` (n'ajoutez jamais vous-même une ligne `verified`, et ne marquez jamais un résumé comme vérifié).
+**À retenir** : une skill fait qu'une tâche se déroule de la même façon à chaque utilisation. Le résumé reçoit sa table de vérification, et les règles restent écrites : `summarize` dit `Never add a verified entry yourself, and never mark a summary as checked.` (n'ajoutez jamais vous-même une ligne `verified`, et ne marquez jamais un résumé comme vérifié). Mais une skill n'est que du texte : rien n'oblige le modèle à l'ouvrir ni à la suivre. Appuyer donc sur **Ctrl+O** pour vérifier, et lire ce qu'il veut écrire avant d'accepter.
 
 ### Étape 1 : Lire une vraie skill
 
 1. Ouvrir `.claude/skills/summarize/SKILL.md`, puis appuyer sur `Ctrl+Shift+V`.
-2. Lire l'en-tête entre les deux lignes `---` : le `name` et la `description`. Votre demande de la partie 3, `summarize corpus/81-...`, y correspondrait-elle ?
-3. Lire les étapes et les règles.
+2. Lire l'en-tête entre les deux lignes `---` : le `name` et la `description`. Votre demande de la partie 3, `summarize corpus/81-...`, y correspondrait-elle ? `Validate summary 81...` a ouvert `validate-summary` de la même façon : ses mots correspondent à la description de cette skill.
+3. Lire les étapes et les règles. Trouver l'étape qui dit quel fichier lit le modèle, l'étape qui crée la table de vérification, et la règle sur `verified`. Vous avez vu les trois à l'œuvre dans la partie 3 : le modèle les a suivies parce que ce texte le lui disait.
 
 ### Étape 2 : Écrire une skill
 
@@ -536,7 +557,7 @@ Pour votre propre skill, garder les mêmes quatre parties : un **nom**, une **de
 1. **Quitter et relancer `workshop C`**, pour que le modèle voie à coup sûr votre nouvelle skill.
 2. Faire une demande qui devrait utiliser votre skill. Pour `rumour-check` : `I heard that in France, clearing the brush around your house is only a piece of advice.` Vous devez voir la ligne `Skill(rumour-check)`, puis une recherche. La réponse est-elle TRUE, FALSE ou NOT IN OUR DOCUMENTS, avec une source ?
 3. Faire une demande qui ne devrait **pas** l'utiliser : `Hello, who are you?`
-4. Modifier la description, enregistrer, quitter (deux fois **Ctrl+C**), relancer `workshop C`, et tester à nouveau les deux demandes, jusqu'à ce que la skill se déclenche quand il le faut, et seulement à ce moment-là.
+4. Voir maintenant que la description est le déclencheur. La modifier, enregistrer, quitter (deux fois **Ctrl+C**), relancer `workshop C`, et tester à nouveau les deux demandes. Si la skill se déclenche déjà quand il le faut, essayer une description qui en dit moins : retirer la phrase qui commence par `Use when`, et voir ce qui change. Garder la version qui se déclenche quand il le faut, et seulement à ce moment-là. Une skill qui s'ouvre sur `Hello` ajoute son texte au contexte pour rien, et elle peut imposer sa forme à une réponse qui n'en a pas besoin.
 5. Quitter avec deux fois **Ctrl+C** : la partie 5 commence dans le terminal.
 
 Dans un vrai Codespace, le 30 octobre 2026, cette rumeur a utilisé `rumour-check` deux fois sur deux (`● Skill(rumour-check)`, puis une recherche dans les documents), et `Hello, who are you?` n'a utilisé aucune skill. Chaque essai remplissait environ 11 000 à 12 000 jetons de la fenêtre.
@@ -563,6 +584,15 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
 
 ## Partie 5 : Clôture (10 min)
 
+**Objectif** : mesurer ce qu'aujourd'hui a changé, sur les questions qui peuvent le montrer. Voir ensuite votre chatbot hors du terminal, et sauvegarder votre travail.
+
+| Question | Ce qu'elle met à l'épreuve aujourd'hui                                                            |
+| -------- | ------------------------------------------------------------------------------------------------- |
+| 3        | une réponse qui n'est que dans un document complet : le modèle peut-il l'atteindre en cherchant ? |
+| 8        | quelque chose qui change chaque jour : votre point de départ pour l'atelier 4                     |
+| 11       | le document de Bénévent, que vous avez fait entrer aujourd'hui                                    |
+| 12       | la page de votre territoire, dont vous avez vérifié et signé le résumé                            |
+
 ### Étape 1 : Rejouer et noter la colonne C
 
 1. **Prédire** sur papier : lesquelles des questions 3, 11 et 12 vont progresser de la colonne B à la colonne C ?
@@ -572,7 +602,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    replay C
    ```
 
-   Sous chaque réponse, la ligne `What the model did:` liste ce qu'il a lu, cherché et utilisé, par exemple `used the skill rumour-check`. Lors de notre essai du 30 octobre 2026, avec les 11 questions du kit (sans question 12) : 1 min 42 et 0,30 \$.
+   Sous chaque réponse, la ligne `What the model did:` liste ce qu'il a lu, cherché et utilisé, par exemple `used the skill rumour-check`. Les questions du jeu de test ne sont pas des rumeurs : cet exemple peut ne pas apparaître. Lors de notre essai du 30 octobre 2026, aucune question n'a utilisé cette skill. Cet essai, avec les 11 questions du kit (sans question 12) : 1 min 42 et 0,30 \$.
 
 3. Noter les questions du jour, et la question 8, que l'atelier 4 compare avec son outil, avec l'aide du juge (sans question 12 : `score C 3 8 11`) :
 
@@ -581,6 +611,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    ```
 
 4. **Comparer la colonne C** avec les colonnes B et RAG dans `scores.md`, pour les questions 3, 11 et 12, et avec votre prédiction. Aujourd'hui, seules certaines questions sont notées : **la ligne Total ne veut donc rien dire ici**, lisez les lignes. Sans sauvegarde, il n'y a pas de colonnes B et RAG : comparer avec un binôme voisin.
+5. **Comment lire les lignes.** Les questions 11 et 12 montrent ce que vous avez fait entrer : leurs documents sont arrivés aujourd'hui, donc une hausse vient de votre curation. La question 3 montre la recherche. En mode B, l'arrêté complet était déjà dans le contexte : la colonne B peut donc déjà être juste, et le gain est dans la jauge, environ 23 000 jetons contre environ 100 000. Face au RAG, la note peut monter : dans nos tests, les questions 3 et 11 ont chacune obtenu 1 avec le RAG et 2 en mode C.
 
 :::info[Lignes 11 et 12 vides dans les colonnes B ou RAG ?]
 
@@ -596,7 +627,8 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    openwebui chatbot --name "Feurisson"
    ```
 
-2. Ouvrir l'adresse, choisir votre chatbot, et poser votre question 12. Votre chatbot a maintenant vos documents, et il y cherche lui-même.
+2. Ouvrir l'adresse, choisir votre chatbot, et poser votre question 12. Votre chatbot a maintenant vos documents, et il y cherche lui-même. Quand il cherche, une ligne apparaît au-dessus de la réponse : elle commence par `Explored` après plusieurs recherches, et par `View Result from` après une seule. Cliquer dessus pour voir ses recherches, comme avec **Ctrl+O** en mode C.
+3. Votre skill n'a pas suivi : ce chatbot reçoit votre préprompt et vos fichiers de connaissances. La skill reste dans ce dépôt, et l'étape 3 la sauvegarde dans `my-work.zip`.
 
 ### Étape 3 : Sauvegarder son travail, remplir la carte de sortie
 

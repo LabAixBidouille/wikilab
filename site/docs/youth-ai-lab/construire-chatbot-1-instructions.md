@@ -55,7 +55,7 @@ Les participant·es ont déjà discuté avec un chatbot comme ChatGPT, Gemini ou
 
 > **Que lit le chatbot avant de répondre ?**
 
-C'est la première étape de la question qui traverse toute la série : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui en décide ?**
+C'est la première étape de la question qui traverse toute la série : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui en décide ?** Un **modèle** est le programme qui écrit les réponses : ici Claude Sonnet, le même pour tous les binômes. Un **chatbot** est un modèle, plus ce qu'on lui ajoute.
 
 Avant de modifier un chatbot, on le mesure. Sans test fixe, on n'a que des impressions, et un chatbot peut sembler meilleur tout en se trompant plus souvent. L'atelier commence donc par un jeu de test de 12 questions, posées au modèle seul. Chaque modification suivante est mesurée par rapport à cette première colonne.
 
@@ -67,7 +67,7 @@ Message à retenir en fin de séance : **les instructions changent la façon don
 
 ### Le lien avec WikiYouthBot
 
-Dans l'activité [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot) (WikiYouthBot), le chatbot se construit dans un outil à deux cases : _Instructions_ et _Connaissances_. On peut déjà le faire avec Open WebUI, un outil de discussion que l'on démarre soi-même : aujourd'hui dans son Codespace, pour soi seul (partie 5), et plus tard pour un groupe, avec le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). Cet atelier porte sur la première case.
+[Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot) (WikiYouthBot) est l'activité chatbot à mener avec des jeunes de 12 à 15 ans. Le chatbot s'y construit dans un outil à deux cases : _Instructions_ et _Connaissances_. On peut déjà le faire avec Open WebUI, un outil de discussion que l'on démarre soi-même : aujourd'hui dans son Codespace, pour soi seul (partie 5), et plus tard pour un groupe, avec le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). Cet atelier porte sur la première case.
 
 - **Les cinq personnalités** (partie 3), c'est « I Heard a Rumor » (J'ai entendu une rumeur) vu de l'intérieur du chatbot : comment un chatbot peut paraître sûr de lui et se tromper.
 - **Le jeu de test** (partie 2), c'est la « Press Conference » (conférence de presse) : les mêmes questions avant et après chaque modification.
@@ -76,7 +76,7 @@ Dans l'activité [Construire le chatbot de son quartier](/ressources/youth-ai-la
 La série avance d'une pièce du chatbot à la fois :
 
 - **Atelier 1** (celui-ci) : les instructions, et comment tester un chatbot
-- [**Atelier 2**](/ressources/youth-ai-lab/construire-chatbot-2-rag) : toutes les connaissances dans le contexte, puis un RAG : qui choisit les extraits ?
+- [**Atelier 2**](/ressources/youth-ai-lab/construire-chatbot-2-rag) : toutes les connaissances dans le contexte, puis un moteur de recherche qui choisit des morceaux de documents (un RAG)
 - [**Atelier 3**](/ressources/youth-ai-lab/construire-chatbot-3-recherche) : le modèle cherche lui-même, et des skills pour ajouter un document vérifié
 - [**Atelier 4**](/ressources/youth-ai-lab/construire-chatbot-4-outils) : des outils qui agissent à l'extérieur, comme le niveau de danger d'incendie du jour
 - [**Atelier 5**](/ressources/youth-ai-lab/construire-chatbot-5-wiki) : organiser ce qu'il sait dans un wiki, et emballer le chatbot de son territoire
@@ -121,12 +121,12 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 ### Glossaire
 
 - **Modèle** : le programme d'IA qui produit les réponses (ici Claude Sonnet, le même pour tous les binômes). Il a lu beaucoup de textes pendant son entraînement, il y a longtemps.
-- **Contexte** : tout ce que le modèle lit avant de répondre : les instructions de l'outil, le préprompt, la question, et éventuellement des documents.
+- **Contexte** : tout ce que le modèle lit avant de répondre : les instructions de l'outil, le préprompt, la conversation en cours, et éventuellement des documents.
 - **Fenêtre de contexte** : la quantité maximale de texte que le modèle peut lire en une fois. Ici, 200 000 jetons.
 - **Jeton** (_token_) : l'unité qui sert à mesurer le texte pour un modèle, un morceau de mot, en moyenne 4 caractères de texte anglais.
-- **Jauge** : la ligne affichée au-dessus de la zone de saisie de Claude Code, qui indique combien de jetons le modèle a lus pour une réponse (par exemple `0 / 200k` avant le premier message).
+- **Jauge** : la ligne affichée au-dessus de la zone de saisie de Claude Code, qui indique combien de jetons sont dans le contexte à cet instant (par exemple `0 / 200k` avant le premier message).
 - **Préprompt** (_system prompt_, instructions) : un texte que le modèle lit au début de chaque conversation, avant le premier message : qui est le chatbot, à quoi il sert, quelles règles il suit. Ici, c'est le fichier `AGENTS.md`.
-- **Mode** : la façon dont la commande `workshop` lance le chatbot. En mode `bare`, le modèle seul ; en mode `A`, le modèle et son préprompt.
+- **Mode** : la façon dont la commande `workshop` lance le chatbot, qui décide de ce qui entre dans son contexte. En mode `bare`, le modèle seul ; en mode `A`, le modèle et son préprompt.
 - **Jeu de test** : les 12 questions de `test-questions.md`, reposées à l'identique après chaque modification du chatbot.
 - **Juge** : un autre modèle, plus petit que celui du chatbot, qui note les réponses avec les mêmes règles que les binômes.
 - **Codespace** : un VS Code (un éditeur de fichiers) qui tourne dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Un Codespace par binôme.
@@ -168,7 +168,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 ### L'environnement de travail
 
-On travaille dans un GitHub Codespace : VS Code dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Chaque binôme a besoin d'un compte GitHub gratuit. L'animateur·rice donne à chaque binôme une clé API, qui permet au Codespace d'utiliser le modèle (Claude Sonnet, le même pour tous), et plafonne ce que les clés peuvent dépenser.
+On travaille dans un GitHub Codespace : un éditeur de texte (VS Code) dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Chaque binôme a besoin d'un compte GitHub gratuit. L'animateur·rice donne à chaque binôme une clé API, qui permet au Codespace d'utiliser le modèle (Claude Sonnet, le même pour tous), et plafonne ce que les clés peuvent dépenser.
 
 :::info
 
@@ -194,7 +194,7 @@ Key OK (Claude Code, Anthropic, model claude-sonnet-5-5). You can start: worksho
 
 :::note[Avec OpenCode]
 
-OpenCode est un autre programme qui fait tourner le même chatbot : mêmes modes, même `replay`, mêmes fichiers. Enregistrer alors la clé avec `workshop-login --engine opencode`. Les différences sont expliquées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode). Le juge de `score` demande une clé Anthropic (`sk-ant-`) : avec une clé OpenRouter, on note seul. Open WebUI (étape 3 et partie 5) demande aussi une clé Anthropic : avec une clé OpenRouter, sauter ces étapes et suivre l'écran de l'animateur·rice à la clôture.
+OpenCode est un autre programme qui fait tourner le même chatbot : mêmes modes, même `replay`, mêmes fichiers. Enregistrer alors la clé avec `workshop-login --engine opencode`. Les différences sont expliquées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode). Le juge de `score` (partie 3) demande une clé Anthropic (`sk-ant-`). OpenCode accepte aussi une clé OpenRouter, pour essayer d'autres modèles : avec elle, on note seul. Open WebUI (étape 3 et partie 5) demande aussi une clé Anthropic : avec une clé OpenRouter, sauter ces étapes et suivre l'écran de l'animateur·rice à la clôture.
 
 :::
 
@@ -265,10 +265,11 @@ Commencer par l'auto-évaluation « Avant » (5 min, avant le Codespace), puis p
 
 ### Ce que l'on va découvrir
 
-- **Le contexte** d'un modèle : tout ce qu'il lit avant de répondre. En mode `bare`, ce n'est que la question (plus les instructions générales de l'outil).
+- **Un mode** : une façon de lancer le chatbot, qui décide de ce qui entre dans son contexte. `bare` veut dire que rien n'est ajouté : ni instructions ni documents du binôme. `A` arrive à la partie 3, et `B` à `E` aux ateliers suivants.
+- **Le contexte** d'un modèle : tout ce qu'il lit avant de répondre. En mode `bare`, il commence avec la question et les instructions générales de l'outil. L'outil, ici, c'est Claude Code : il ajoute ses propres instructions, et on ne les écrit pas. Le mot a aussi un autre sens : les _outils_ d'un chatbot sont ce qu'il peut utiliser lui-même, comme le niveau de danger d'incendie du jour (atelier 4).
 - **Les règles de notation** : une réponse obtient 0, 1 ou 2, et **une réponse inventée vaut moins que « je ne sais pas »**.
 - **`replay`** : la commande qui pose chaque question dans une nouvelle conversation, pour que rien ne passe d'une question à la suivante.
-- **La jauge** : combien de jetons le modèle a lus pour une réponse.
+- **La jauge** : combien de jetons sont dans le contexte à cet instant. Le contexte a une taille maximale, la **fenêtre de contexte** : ici, 200 000 jetons. Chaque message paie pour tout ce qu'elle contient.
 
 ### Ce que lit le modèle seul
 
@@ -312,6 +313,12 @@ Le même « je ne sais pas » peut donc valoir **2** (question 7 : la réponse n
 | 11      | Dans un document ajouté            | Un document que le binôme ajoute lui-même (atelier 3)                                              |
 | 12      | **La vôtre**                       | Un fait précis sur son territoire, avec sa source (étape 5)                                        |
 
+:::info
+
+Les sources citées dans `test-questions.md`, comme `summaries/10` ou `corpus/43`, sont des fichiers des ateliers suivants. Ils ne sont pas dans ce dépôt : ils arrivent à l'atelier 2. Les **résumés** (_summaries_) sont de courts textes en anglais sur les documents officiels. Aujourd'hui, comparer chaque réponse avec la réponse attendue.
+
+:::
+
 ### Étape 1 : Prédire
 
 Avant de lancer les questions, noter sur papier, en binôme : combien de questions le modèle seul va-t-il réussir (note 2) ? Lesquelles ? On vérifie cette prédiction à l'étape 4.
@@ -332,15 +339,18 @@ Avant de lancer les questions, noter sur papier, en binôme : combien de questio
    ...
    Question 11 (11/11)...
    Answers: answers/bare-14h05.md   (cost: $0.10, time: 1 min 42 s)
+   Next: score bare
    ```
 
    Cela prend environ 2 minutes et coûte environ 0,10 \$, d'après les mesures. L'heure dans le nom du fichier et le coût seront différents pour chaque binôme.
 
-2. **Pendant que la commande tourne**, ouvrir le dossier `answers/` : le fichier s'écrit au fur et à mesure que les réponses arrivent. Appuyer sur `Ctrl+Shift+V` pour le lire comme une page.
+   La dernière ligne et le haut du fichier de réponses disent tous deux `score bare`. Ne pas le taper aujourd'hui : dans cette partie, on note à la main (étape 4).
+
+2. **Pendant que la commande tourne**, ouvrir le dossier `answers/` : le fichier s'écrit au fur et à mesure que les réponses arrivent. Appuyer sur `Ctrl+Shift+V` pour le lire comme une page. La première réponse cite-t-elle une source ?
 
 ### Étape 3 : Parler au modèle seul
 
-Pendant que les questions tournent, ouvrir une conversation avec le même modèle, pour le voir répondre en direct.
+Pendant que les questions tournent, ouvrir une conversation avec le même modèle. `replay` donne une réponse à chaque question. Dans une conversation, on peut demander plus : ici, d'où vient un chiffre.
 
 1. Aller dans le second terminal. Si `openwebui start` y tourne encore, ouvrir un troisième terminal avec le `+` du panneau des terminaux. Taper `workshop bare`, puis poser la question 1 :
 
@@ -351,14 +361,14 @@ Pendant que les questions tournent, ouvrir une conversation avec le même modèl
    (Combien d'hectares ont brûlé dans l'UE en 2025 selon EFFIS, et combien de feux ont été cartographiés ?)
 
 2. Puis demander : `Where does this figure come from? Give me your source.` (D'où vient ce chiffre ? Donne-moi ta source.) Donne-t-il un document, un lien, ou rien ? Dit-il qu'il ne peut pas vérifier ?
-3. **Regarder la jauge** : environ 1 600 jetons ont été mesurés après la question 1, et environ 2 200 après la question sur la source. La plupart sont les instructions générales de l'outil : la question ne fait que quelques mots. Le modèle seul n'a aucun document à lire : il répond à partir de ce qu'il a appris pendant son entraînement.
+3. **Regarder la jauge** : environ 1 600 jetons ont été mesurés après la question 1, et environ 2 200 après la question sur la source. La plupart sont les instructions générales de l'outil : la question ne fait que quelques mots. Le nombre a augmenté parce que toute la conversation reste dans le contexte : les questions et les réponses du modèle. C'est ainsi que le modèle sait ce que veut dire « ce chiffre », et c'est pour cela que `replay` ouvre une nouvelle conversation à chaque question. Le modèle seul n'a aucun document à lire : il répond à partir de ce qu'il a appris pendant son entraînement.
 4. Quitter avec **Ctrl+C deux fois**.
 
 ### Étape 4 : Noter la colonne Bare, à la main
 
 Aujourd'hui, on note le modèle seul à la main : c'est ainsi qu'on apprend les règles. Dans les parties suivantes, un juge aidera.
 
-1. Dans le fichier de réponses, lire chaque réponse, puis la comparer avec la réponse attendue de `test-questions.md`. Sous chaque réponse, une ligne `*Context: ... tokens*` donne la taille du contexte pour cette réponse.
+1. Dans le fichier de réponses, lire chaque réponse, puis la comparer avec la réponse attendue de `test-questions.md`. Sous chaque réponse, une ligne `*Context: ... tokens*` donne la taille du contexte pour cette réponse. Ce n'est pas le nombre de la jauge : ne le comparer qu'avec la même ligne dans ses autres fichiers de réponses.
 2. **Se mettre d'accord** sur 0, 1 ou 2 dans le binôme.
 3. Ouvrir `scores.md` et taper la note dans la colonne **Bare**, entre deux `|`. Par exemple, une note de 1 pour la question 1 :
 
@@ -380,7 +390,7 @@ Le modèle seul peut donner un chiffre précis, le nom d'un organisme ou d'un si
 La question 12 appartient au binôme : un fait précis sur les feux de forêt là où il travaille avec des jeunes. À l'atelier 3, le binôme ajoutera sa source aux documents de son chatbot, et la question 12 devrait alors obtenir 2. Aujourd'hui, aucun mode n'a cette page : « je ne sais pas » est la réponse honnête.
 
 1. Lire la section **Question 12: your territory** de `test-questions.md`.
-2. Trouver une page officielle de son territoire (une préfecture, une région, un service de protection civile, un parc), et un fait précis qu'elle contient et que le kit ne donne pas : une date, un nombre, une règle. La section de `test-questions.md` renvoie à la liste des résumés du kit.
+2. Trouver une page officielle de son territoire (une préfecture, une région, un service de protection civile, un parc), et un fait précis qu'elle contient et que le kit ne donne pas : une date, un nombre, une règle. Ainsi, un 2 à l'atelier 3 viendra de cette page. La section de `test-questions.md` renvoie à la liste des résumés du kit.
 3. Cliquer sur `test-questions.md` dans la liste des fichiers : la page redevient du texte (on ne peut pas écrire dans la page). Écrire la question et sa réponse attendue, avec l'adresse de la page, dans la ligne 12. On peut l'écrire dans sa propre langue. Enregistrer (`Ctrl+S`).
 4. Rejouer cette seule question avec le modèle seul :
 
@@ -388,7 +398,7 @@ La question 12 appartient au binôme : un fait précis sur les feux de forêt l�
    replay bare 12
    ```
 
-   Cela prend quelques secondes. Noter sa réponse dans la colonne **Bare** de `scores.md`.
+   Cela prend quelques secondes. Sa réponse est dans un nouveau fichier : la ligne `Answers:` donne son nom. La noter dans la colonne **Bare** de `scores.md`.
 
 :::info
 
@@ -485,6 +495,7 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
 
    ```text
    Answers: answers/A-liar-14h32.md   (cost: $0.11, time: 1 min 20 s)
+   Next: score answers/A-liar-14h32.md --blind
    ```
 
    Les mesures vont de moins d'une minute à environ 2 minutes un quart, et de 0,06 \$ à 0,17 \$ (Claude Code, 11 questions), selon la personnalité : le conteur et le sophiste écrivent de longues réponses.
@@ -495,7 +506,7 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
 
 `score` montre chaque réponse à côté de sa réponse attendue. On tape sa note d'abord. Ensuite, un juge montre la sienne : un autre modèle, plus petit que celui du chatbot, avec les mêmes règles. Noter d'abord à l'aveugle empêche le juge d'influencer le binôme.
 
-1. Taper, avec le nom de son fichier de réponses :
+1. Taper la commande de la ligne `Next:`. Elle contient déjà le nom de son fichier de réponses :
 
    ```bash
    score answers/A-liar-14h32.md --blind
@@ -509,6 +520,8 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
    Judge: 2 out of 22 (11 question(s) scored)
    Disagreements: 3
    ```
+
+   **Ce qu'il faut regarder** : si le total du binôme dépasse celui du juge, le binôme a peut-être cru une réponse que le juge n'a pas crue. Regarder d'abord les questions où il a donné plus de points.
 
    Les notes du binôme et celles du juge vont dans `scores-personas.md`, pas dans `scores.md` : les colonnes de son propre chatbot restent propres.
 
@@ -525,7 +538,7 @@ Maintenant que la notation est faite, ouvrir son fichier dans `examples/` et lir
 | Personnalité    | Ce qu'il faut chercher                                                                                                                                 |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Feurisson       | Pas de truc. Pourquoi dit-il si souvent « je ne sais pas » ? Lire sa raison.                                                                           |
-| Captain Certain | Des noms d'organismes, d'arrêtés et des chiffres donnés avec une assurance totale. Existent-ils ?                                                      |
+| Captain Certain | Des noms d'organismes, d'arrêtés officiels et des chiffres donnés avec une assurance totale. Existent-ils ?                                            |
 | Grandpa Beaver  | Le vrai fait est-il encore dans l'histoire, juste, et avec sa source ?                                                                                 |
 | Doctor Proof    | Chaque fait peut être vrai, et la conclusion fausse quand même : un chiffre d'une autre année, d'un autre territoire, d'une autre échelle. Regarder la question 2. |
 | Prudence        | Des refus, même quand la réponse existe. Donne-t-elle jamais un chiffre ?                                                                              |
@@ -570,9 +583,9 @@ Si `replay` est trop lent, passer à un sous-ensemble : `replay A --agents examp
 
 ### Pour réfléchir
 
-Feurisson n'a aucun document en mode A. Dans notre test (avant l'ajout de ses deux dernières règles), il a obtenu autant de points qu'un robot qui refuse tout. **Comment est-ce possible ?** Qu'est-ce qu'un total ne montre pas ? (Indice : lire les réponses de Feurisson et de Prudence à la question 1. Pourquoi chacun refuse-t-il ? Que fera chacun quand il aura des documents ?)
+Feurisson n'a aucun document en mode A. Dans notre test, il a obtenu autant de points qu'un robot qui refuse tout. **Comment est-ce possible ?** Qu'est-ce qu'un total ne montre pas ? (Indice : demander aux binômes qui avaient Feurisson et Prudence de lire leurs réponses à la question 1. Pourquoi chacun refuse-t-il ? Que fera chacun quand il aura des documents ?)
 
-**Vous avez construit** votre œil pour les mauvaises réponses. **Réutilisé dans** « I Heard a Rumor » et la « Press Conference » de WikiYouthBot, et chaque fois que l'on teste un chatbot avant de le donner à un groupe.
+**Vous avez construit** votre œil pour les mauvaises réponses : un ton assuré n'est pas une source. **Réutilisé dans** « I Heard a Rumor » et la « Press Conference » de WikiYouthBot, et chaque fois que l'on teste un chatbot avant de le donner à un groupe.
 
 ---
 
@@ -622,6 +635,18 @@ Les ateliers suivants sont notés sur ces deux sections.
 
 :::
 
+:::caution[Recopier les deux dernières règles « Never »]
+
+Dans **Bans and constraints**, recopier les deux dernières règles « Never » de l'exemple Feurisson, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle, et il renvoie un ou une jeune qui va mal ou qui est en danger vers un adulte de confiance et vers le numéro d'urgence.
+
+:::
+
+:::info
+
+Tous les chiffres sur Feurisson de cette page, dans les parties 3 et 4, ont été mesurés avant l'ajout de ces deux règles à l'exemple.
+
+:::
+
 ### Étape 2 : Lui parler
 
 1. Taper :
@@ -630,7 +655,9 @@ Les ateliers suivants sont notés sur ces deux sections.
    workshop A
    ```
 
-2. Dire bonjour (`Hello`, puis Entrée), et regarder **la jauge**. Avec l'exemple Feurisson (avant l'ajout de ses deux dernières règles), environ 2 600 jetons ont été mesurés, contre environ 1 700 pour le même `Hello` en mode `bare` (dans la partie 2, on en voyait plus : deux questions et leurs réponses étaient dans la fenêtre). **La différence, c'est surtout le préprompt**, relu à chaque message (`workshop A` ajoute aussi une courte ligne qui dit que le chatbot n'a pas d'outils). La première fois en mode `A`, l'écran de confiance revient : choisir de nouveau `Yes, I trust this folder`.
+   **Attention.** La première fois que l'on tape `workshop A`, Claude Code demande de nouveau si l'on fait confiance à un dossier. Descendre avec la flèche sur `Yes, I trust this folder`, puis Entrée. Entrée seule ferme Claude Code : dans ce cas, retaper `workshop A`.
+
+2. Dire bonjour (`Hello`, puis Entrée), et regarder **la jauge**. Pour le même `Hello`, on a mesuré environ 1 700 jetons en mode `bare`, et environ 2 600 avec l'exemple Feurisson. Le nombre du binôme sera différent : il dépend de ce qu'il a écrit. **La différence, c'est surtout le préprompt**, relu à chaque message. `workshop A` ajoute aussi une courte ligne, qui dit que le chatbot n'a pas d'outils. Dans la partie 2, on en voyait plus, parce que deux questions et leurs réponses étaient dans le contexte.
 3. Tester le comportement, une question à la fois :
    - `Who are you?` (Qui es-tu ?)
    - `What is the best insurance company for my house?` (Quelle est la meilleure compagnie d'assurance pour ma maison ? question 9)
@@ -642,7 +669,7 @@ Les ateliers suivants sont notés sur ces deux sections.
 
 :::info
 
-En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions générales de l'outil décrivent quand même un terminal et des outils pour lire des fichiers. En mode `A`, `workshop` ajoute une ligne qui dit « You have no tools in this conversation » (tu n'as pas d'outils dans cette conversation). En mode `bare`, rien ne le dit : si on lui demande quels outils il a, il peut les énumérer quand même. Une raison de plus de vérifier ce qu'un modèle dit de lui-même.
+En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions générales de Claude Code décrivent quand même des outils pour lancer des commandes et lire des fichiers. En mode `A`, `workshop` ajoute une ligne qui dit « You have no tools in this conversation » (tu n'as pas d'outils dans cette conversation). En mode `bare`, rien ne le dit : si on lui demande quels outils il a, il peut les énumérer quand même. Une raison de plus de vérifier ce qu'un modèle dit de lui-même.
 
 :::
 
@@ -655,9 +682,9 @@ En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions gén�
    replay A
    ```
 
-   Avec l'exemple Feurisson, on a mesuré 1 min 12 et 0,09 \$ (11 questions, avant l'ajout de ses deux dernières règles).
+   Avec l'exemple Feurisson, on a mesuré 1 min 12 et 0,09 \$ (11 questions).
 
-3. Noter à l'aveugle. `score` trouve tout seul les dernières réponses du mode A :
+3. Noter à l'aveugle. `score` trouve tout seul les dernières réponses du mode A. La ligne `Next:` dit seulement `score A` : ajouter `--blind`.
 
    ```bash
    score A --blind
@@ -667,7 +694,7 @@ En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions gén�
 
 4. **Comparer les colonnes Bare et A**, et sa prédiction.
 
-**Ce qu'il faut observer** : le **comportement** change (ton, refus, « je ne sais pas », sources demandées). Les **connaissances**, non : les questions précises (1 à 4) ne s'améliorent pas. Avec l'exemple Feurisson, le juge a donné 13 sur 22 aux questions 1 à 11 (mesuré avant l'existence de la question 12 et avant l'ajout de ses deux dernières règles ; avec le préprompt du binôme, le total est sur 24) : presque uniquement des « je ne sais pas » honnêtes.
+**Ce qu'il faut observer** : le **comportement** change (ton, refus, « je ne sais pas », sources demandées). Les **connaissances**, non : sur les questions précises (1 à 4), le chatbot n'a toujours aucun document qui donne le fait. Une note peut quand même passer de 0 à 1 : une réponse inventée est devenue un « je ne sais pas » honnête, ce qui est un changement de comportement. Avec l'exemple Feurisson, le juge a donné 13 sur 22 aux questions 1 à 11 (mesuré avant l'existence de la question 12 ; avec le préprompt du binôme, le total est sur 24) : presque uniquement des « je ne sais pas » honnêtes.
 
 :::note[Point de contrôle]
 
@@ -683,7 +710,7 @@ Tous les chiffres sur Feurisson (jauge, 13 sur 22 du juge, « même total » de 
 
 ### Pour réfléchir
 
-Même avec un préprompt parfait, pourquoi les questions précises (1 à 4) ne s'améliorent-elles pas ? En discuter en binôme. (Indice : qu'y a-t-il dans `AGENTS.md`, et qu'est-ce qui n'y est pas ?)
+Même avec un préprompt parfait, pourquoi les questions précises (1 à 4) n'atteignent-elles pas 2 ? En discuter en binôme. (Indice : qu'y a-t-il dans `AGENTS.md`, et qu'est-ce qui n'y est pas ?)
 
 **Vous avez construit** un préprompt. **Réutilisé dans** la case _Instructions_ de WikiYouthBot ; dans le préprompt d'un chatbot Open WebUI (guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)) ; dans le `AGENTS.md` d'un chatbot OpenCode (guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)).
 
@@ -719,11 +746,11 @@ Dans Open WebUI, le fichier `AGENTS.md` devient les instructions d'un chatbot.
    - `How many hectares burnt in Campania in 2025?` (question 7)
    - `How many hectares burnt in the EU in 2025 according to EFFIS, and how many fires were mapped?` (question 1)
 
-**À retenir** : le préprompt **voyage** : le même texte devient les instructions d'un chatbot dans un autre outil. Les réponses peuvent quand même différer un peu : chaque outil ajoute ses propres instructions autour de celles du binôme (ici, Open WebUI ajoute un court paragraphe sur sa base de connaissances et laisse le modèle y chercher). Ses connaissances n'existent pas encore : ce dépôt n'a aucun document, donc dans Open WebUI aussi, le chatbot n'a rien pour répondre à la question 1. Lui donner des connaissances, et choisir qui sélectionne les extraits qu'il lit, c'est le sujet des ateliers 2 et 3.
+**À retenir** : le préprompt **voyage** : le même texte devient les instructions d'un chatbot dans un autre outil. Les réponses peuvent quand même différer un peu : chaque outil ajoute ses propres instructions autour de celles du binôme (ici, Open WebUI ajoute un court paragraphe sur sa base de connaissances et laisse le modèle y chercher). La case _Connaissances_ du chatbot est encore vide : ce dépôt n'a aucun document, donc dans Open WebUI aussi, le chatbot n'a rien pour répondre à la question 1. Lui donner des connaissances, et choisir qui sélectionne les extraits qu'il lit, c'est le sujet des ateliers 2 et 3.
 
 :::info
 
-On voit aussi un modèle appelé « Wildfire RAG (workshop kit) » : il sert à l'atelier 2, et il n'a pas encore de documents. Choisir son propre chatbot.
+Open WebUI appelle chaque chatbot un modèle. On voit donc aussi un modèle appelé « Wildfire RAG (workshop kit) » : il sert à l'atelier 2, et il n'a pas encore de documents. Choisir son propre chatbot.
 
 :::
 
@@ -750,7 +777,7 @@ Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'es
 
 :::info[Notes pour l'animateur·rice]
 
-Une carte par personne, ramassée à la fin. Les trois questions sont les mêmes à chaque édition, pour pouvoir comparer. Ce que contient une bonne réponse : (1) les instructions générales de l'outil (en mode A, avec une ligne ajoutée : il n'a pas d'outils et ne peut ouvrir aucun fichier), son préprompt (`AGENTS.md`) et la question, aucun document ; (2) le ton, les refus ou les « je ne sais pas » / les connaissances, les chiffres ; (3) les réponses elles-mêmes : détails inventés, sources, refus, les questions où ils diffèrent.
+Une carte par personne, ramassée à la fin. Les trois questions sont les mêmes à chaque édition, pour pouvoir comparer. Ce que contient une bonne réponse : (1) les instructions générales de l'outil (en mode A, avec une ligne ajoutée : il n'a pas d'outils et ne peut ouvrir aucun fichier), son préprompt (`AGENTS.md`) et la conversation en cours, aucun document ; (2) le ton, les refus ou les « je ne sais pas » / les connaissances, les chiffres ; (3) les réponses elles-mêmes : détails inventés, sources, refus, les questions où ils diffèrent.
 
 Si Open WebUI n'est pas prêt à la clôture, sauter l'étape 1 et montrer son propre chatbot dans Open WebUI sur le grand écran.
 

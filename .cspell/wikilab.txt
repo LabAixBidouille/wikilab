@@ -791,3 +791,5 @@ Summarise
 dquote
 finetune
 safetensors
+charente
+rewordings

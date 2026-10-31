@@ -21,7 +21,7 @@ sidebar_position: 19
 
 | Projet       | Durée                           | Difficulté    | Âge                       |
 | ------------ | ------------------------------- | ------------- | ------------------------- |
-| Youth AI Lab | 2 h (110 min + 10 min de marge) | Intermédiaire | Adultes (animateur·rices) |
+| Youth AI Lab | 2 h (115 min + 5 min de marge)  | Intermédiaire | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -31,7 +31,7 @@ sidebar_position: 19
 - La fiche d'une page (`sheet.md`), imprimée, une par binôme
 - 1 carte vierge ou une demi-feuille par personne, pour la carte de sortie
 - Du papier, pour écrire les messages de test d'un autre binôme
-- Un grand écran, pour le tableau de confusion de la partie 2 et les deux diapositives de la partie 4
+- Un grand écran, pour le tableau de confusion de la partie 2, puis, à la partie 4, les deux diapositives, le dossier du modèle et vos messages difficiles
 - Un tableau, pour noter les scores et la comparaison de la partie 5
 
 **Ressources en ligne**
@@ -75,11 +75,11 @@ La tâche du jour est réelle. Un chatbot reçoit quatre sortes de messages, qui
 | `urgent`    | « De la fumée sort du bois derrière ma maison ! »   | donner tout de suite une réponse de sécurité fixe, sans IA entre les deux            |
 | `off-topic` | « Tu peux m'aider pour mes devoirs de maths ? »     | refuser poliment, sans dépenser de jetons, en donnant quand même le numéro d'urgence |
 
-Placé **avant** le chatbot, un trieur fait ce travail en quelques millisecondes, gratuitement, sans envoyer le message nulle part.
+Placé **avant** le chatbot, un trieur fait ce travail en quelques millisecondes, sans coût par message, et sans envoyer le message nulle part.
 
 La question de la série était : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ?** La réponse d'aujourd'hui : un petit modèle décide si un message arrive ou non au grand modèle, et c'est vous qui décidez, avec vos exemples, comment il trie.
 
-Message à retenir en fin de séance : **un petit modèle qui choisit seulement parmi quelques classes ne peut pas inventer de réponse. Il apprend en une ou deux minutes à partir de quelques dizaines d'exemples, et chaque message ne coûte rien. Sa qualité vient de ses exemples, et seul un test honnête, écrit par quelqu'un d'autre, dit ce qu'il vaut.**
+Message à retenir en fin de séance : **un petit modèle qui choisit seulement parmi quelques classes ne peut pas inventer de réponse. Il apprend en une ou deux minutes à partir de quelques dizaines d'exemples, et chaque message ne coûte rien, sur un ordinateur qui reste allumé. Sa qualité vient de ses exemples, et seul un test honnête, écrit par quelqu'un d'autre, dit ce qu'il vaut.**
 
 ### Le lien avec WikiYouthBot
 
@@ -103,10 +103,10 @@ La série, une pièce du chatbot à la fois :
 | Partie 1 : Accueil                                              | -      | 15 min |
 | Partie 2 : Un modèle qui n'a encore rien appris                 | ★      | 15 min |
 | Partie 3 : Écrire ses exemples, et un test pour un autre binôme | ★★     | 25 min |
-| Partie 4 : Régler, tester, améliorer                            | ★★     | 25 min |
+| Partie 4 : Régler, tester, améliorer                            | ★★     | 30 min |
 | Partie 5 : Le grand modèle, sans entraînement                   | ★★★    | 15 min |
 | Partie 6 : Clôture                                              | -      | 15 min |
-| Marge                                                           | -      | 10 min |
+| Marge                                                           | -      | 5 min  |
 
 ### Avant de commencer
 
@@ -119,13 +119,13 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - `messages/examples.md` : les exemples dont le modèle apprend, sous quatre titres. On écrit dedans aujourd'hui.
 - `messages/test.md` : les messages de test. Le modèle ne les voit jamais pendant qu'il apprend.
 - `sorter` : la commande du jour (taper `./sorter` pour voir ce qu'elle sait faire).
-- `tools/sorter.py` : le programme derrière elle, environ 400 lignes de Python, si vous êtes curieux·se.
+- `tools/sorter.py` : le programme derrière elle, environ 450 lignes de Python, si vous êtes curieux·se.
 - `SETUP.md` : mise en place et problèmes courants de toute la série.
 
 ### Glossaire
 
 - **Modèle** : un programme dont le comportement n'est pas écrit sous forme de règles, mais stocké comme une très longue liste de nombres. Ici, il y en a deux : un petit modèle qui tourne dans le Codespace, et Claude, qui tourne chez Anthropic.
-- **Paramètres** : les nombres d'un modèle. Le petit modèle du jour en a 117 653 760.
+- **Paramètres** : les nombres d'un modèle. Le petit modèle du jour en a 117 653 760. Seul l'entraînement les change.
 - **Entraînement** : la boucle qui trouve ces nombres. Le programme reçoit un exemple, répond, mesure son erreur, puis change tous ses nombres d'un tout petit peu.
 - **Contexte** : le texte que le modèle lit avant de répondre.
 - **Classifieur** : un modèle qui ne fait que choisir une classe parmi une liste. Il n'écrit pas de texte.
@@ -135,13 +135,13 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **Message de test** : un message avec sa classe que le modèle n'a jamais vu. Il sert à mesurer.
 - **Tableau de confusion** : un tableau qui croise la bonne classe (lignes) et la classe choisie (colonnes). Les bonnes réponses sont sur la diagonale.
 - **Confiance** : un nombre de 0,25 à 1 qui dit à quel point le trieur est sûr de son choix, pas s'il a raison. Sous 0,5, le trieur n'est pas sûr.
-- **Adresse** : la liste de 384 nombres que le modèle donne à une phrase. Deux phrases de même sens reçoivent des adresses proches, sur une sorte de carte du sens.
+- **Adresse** : la liste de 384 nombres que le modèle calcule pour une phrase. Deux phrases de même sens reçoivent des adresses proches, sur une sorte de carte du sens.
 - **Proximité** : un nombre qui va d'environ 0 (rien en commun) à 1 (le même sens) pour deux adresses.
 - **Corps** : la partie du trieur qui transforme une phrase en adresse. C'est le modèle de la partie 1.
-- **Tête** : un très petit modèle ajouté sur le corps. Il lit l'adresse et donne un score par classe.
+- **Tête** : un très petit modèle ajouté sur le corps. Il lit l'adresse et donne une valeur par classe.
 - **SetFit** : la méthode de réglage fin de l'atelier. Elle règle le corps à partir de paires d'exemples, puis apprend la tête.
-- **Score de l'entraînement** : le nombre que l'entraînement fait baisser, calculé de la même façon à chaque tour. On parle de **fonction de perte** (_loss function_) en apprentissage automatique, et parfois de **fonction de fitness** (_fitness function_) dans d'autres domaines. Ici, plus il est bas, mieux c'est, et 0 serait parfait.
-- **Gradient** : pour chaque nombre du modèle, la pente du score, qui dit dans quel sens le score descend et à quelle vitesse. Faire un très petit pas vers le bas pour chaque nombre s'appelle la **descente de gradient**.
+- **Score de l'entraînement** : le nombre que l'entraînement fait baisser, calculé de la même façon à chaque tour. On parle de **fonction de perte** (_loss function_) en apprentissage automatique, et parfois de **fonction de fitness** (_fitness function_) dans d'autres domaines. Ici, plus il est bas, mieux c'est, et 0 serait parfait. Le score d'un test (28 sur 32) marche dans l'autre sens : plus il est haut, mieux c'est.
+- **Gradient** : pour chaque nombre du modèle, la pente du score, qui dit dans quel sens le score descend et à quelle vitesse. Quand chaque nombre qui a une pente fait un très petit pas vers le bas, on parle de **descente de gradient**.
 - **Surapprentissage** (_overfitting_) : un modèle qui continue de progresser sur ses exemples, mais devient moins bon sur de nouveaux messages.
 - **Jeton** (_token_) : un morceau de mot. Les grands modèles se paient au nombre de jetons lus et écrits.
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
@@ -162,7 +162,7 @@ Prévoir environ 45 minutes de préparation :
 
 - **Une clé d'API Anthropic par binôme**, pour la partie 5 seulement (10 min). `workshop-login` doit dire `Key OK`.
 - **Faire son propre parcours la veille**, dans un Codespace neuf (15 min) : `workshop-login`, `workshop-start 6`, `./sorter setup`, `baseline`, `train`, `test`, `try`, `claude`. Dans un Codespace, les 2 Go de téléchargement passent par le cloud de GitHub, pas par le réseau de la salle. Ce Codespace prêt à l'avance sert aussi de secours.
-- **Préparer deux messages difficiles par classe**, dans chaque langue de la salle (15 min). C'est le test honnête de l'étape 4 de la partie 4, car aucun binôme ne les a vus : ne pas les donner à la partie 3.
+- **Préparer un message difficile par classe**, soit quatre messages, dans chaque langue de la salle (15 min). C'est le test honnête de l'étape 4 de la partie 4, car aucun binôme ne les a vus : ne pas les donner à la partie 3.
 - **Imprimer** la fiche d'une page, une par binôme, et prévoir une carte vierge ou une demi-feuille par personne pour la carte de sortie (5 min). Les trois questions sont à la partie 6, étape 1.
 
 **Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter claude`, plus le test de la clé par `workshop-login` : moins d'un centime par binôme, même après plusieurs passages. Ce coût a été mesuré avec la clé de test.
@@ -252,7 +252,7 @@ Après de nombreux tours, les nombres gardent ce que les exemples ont en commun.
 
 Le modèle du jour s'appelle `paraphrase-multilingual-MiniLM-L12-v2`. Il est publié par les auteurs de la bibliothèque sentence-transformers, sous licence Apache 2.0. Il connaît environ 50 langues, dont l'anglais, le français, l'espagnol, le catalan, l'italien et le néerlandais. Son nom dit à quoi il sert : une paraphrase est la même idée en d'autres mots. Sa page ne dit pas sur quels textes il a été entraîné.
 
-Il ne fait qu'une chose : il transforme une phrase en une liste de 384 nombres. Voyez ces nombres comme une adresse sur une carte du sens. Une adresse sur une carte en papier a deux nombres ; celle-ci en a 384, si bien que personne ne peut dessiner la carte, mais l'idée est la même : **deux phrases de même sens reçoivent des adresses proches**, quels que soient leurs mots et leur langue. La proximité va d'environ 0 (rien en commun) à 1 (le même sens). Dans notre essai :
+Il ne fait qu'une chose : il transforme une phrase en une liste de 384 nombres. Voyez ces nombres comme une adresse sur une carte du sens. Une adresse sur une carte en papier a deux nombres ; celle-ci en a 384, si bien que personne ne peut dessiner la carte, mais l'idée est la même : **deux phrases de même sens reçoivent des adresses proches**, quels que soient leurs mots et leur langue. La proximité va d'environ 0 (rien en commun) à 1 (le même sens). Ce n'est pas l'échelle de l'atelier 2, où 0,5 voulait déjà dire aucun lien. Dans notre essai :
 
 | Phrase                  | Comparée à « Is the forest closed today? » (La forêt est-elle fermée aujourd'hui ?)       | Proximité |
 | ----------------------- | ----------------------------------------------------------------------------------------- | --------- |
@@ -261,6 +261,8 @@ Il ne fait qu'une chose : il transforme une phrase en une liste de 384 nombres. 
 | Autre chose             | « Can you help me with my maths homework? » (Tu peux m'aider pour mes devoirs de maths ?) | 0,04      |
 
 La première ligne montre pourquoi un seul modèle suffit pour toutes les langues de la salle. La deuxième montre sa limite : le modèle donne plus de poids à « forêt » et « aujourd'hui » qu'à « ouverte » ou « fermée ». Pour trier, cela ne compte pas, car les deux sont des questions sur le jour même. C'est tout ce qu'il sait. Il ne connaît rien à la sécurité incendie, et il n'écrit rien.
+
+Ne confondez pas deux sortes de nombres. Les 117 653 760 paramètres sont le modèle lui-même : ils restent les mêmes d'une phrase à l'autre, et seul l'entraînement les change. Les 384 nombres de l'adresse sont un résultat : le modèle calcule une nouvelle liste pour chaque phrase. L'entraînement change la première sorte de nombres, et c'est pour cela que la seconde sort différente.
 
 **À retenir** : aujourd'hui, vous ne construisez pas un modèle. Vous partez d'un modèle qui sait déjà dire si deux phrases sont proches, et vous lui apprenez ce qu'il ne sait pas encore : vos quatre classes.
 
@@ -276,7 +278,7 @@ Pendant l'installation, expliquer le modèle : même sens, nombres proches.
 
 ## Partie 2 : Un modèle qui n'a encore rien appris (★, 15 min)
 
-**Objectif** : voir ce que fait le modèle sans aucun entraînement, et apprendre à lire un tableau de confusion. Ce premier score est votre point de départ : sans lui, impossible de dire ce que l'entraînement a apporté.
+**Objectif** : voir ce que fait le modèle sans aucun entraînement, et apprendre à lire un tableau de confusion. Ce premier score, le score sans entraînement (`baseline`), est votre point de départ : sans lui, impossible de dire ce que l'entraînement a apporté.
 
 ### Ce que vous allez découvrir
 
@@ -371,17 +373,13 @@ Le modèle apprendra de chaque ligne de `messages/examples.md` : de bons exemple
 
 :::info
 
-**Un message long est difficile à trier.** Le modèle donne une adresse à chaque jeton (un mot ou une partie de mot) du message, puis en fait la moyenne : une phrase urgente se noie donc dans un long message. Cela arrive bien avant la limite de 128 jetons (environ 100 mots en anglais), après laquelle le modèle ne lit plus rien du tout. Sur 240 messages écrits à la main, chacun avec une urgence dans un texte plus long, la lecture du message entier n'en a trouvé que 62.
-
-`./sorter try` fait donc deux choses de plus. Dans un message de plusieurs phrases, il lit aussi chaque phrase seule, et une phrase à 0,5 ou plus en `urgent` reçoit la réponse de sécurité. Et un message de plus de 15 mots sans urgence sûre n'est pas trié : il va au chatbot. Avec ponctuation, les 240 urgences ont reçu la réponse de sécurité. Sans ponctuation, 29 l'ont reçue et 211 sont allées au chatbot, dont les instructions doivent alors couvrir les urgences (cette partie n'a pas été mesurée). Et quelques longues questions de prévention reçoivent la réponse de sécurité par erreur (6 sur les 8 essayées).
-
-Garder ses exemples et ses messages de test à 15 mots au plus. `./sorter test` signale un message de test trop long à trier, mais ne vérifie pas les exemples : compter leurs mots soi-même.
+**Garder chaque message à 15 mots au plus.** Le modèle donne une adresse à chaque jeton (un mot ou une partie de mot), puis en fait la moyenne : une phrase urgente se noie donc dans un long message. Cela arrive bien avant la limite de 128 jetons (environ 100 mots en anglais), où le modèle cesse de lire. `./sorter test` signale un message de test trop long à trier. Il ne vérifie pas les exemples : compter leurs mots soi-même. Le Dépannage dit ce que le trieur fait d'un long message.
 
 :::
 
 :::caution[Étape 1 : Écrire ses exemples et son test]
 
-1. **Ajouter au moins dix messages par classe** à `messages/examples.md`, dans sa langue, sous les quatre titres. Garder les titres exactement tels quels (`## topic`, `## today`, `## urgent`, `## off-topic`), et commencer chaque message par `- `. Enregistrer.
+1. **Ajouter au moins dix messages par classe** à `messages/examples.md`, dans sa langue, en 15 mots au plus, sous les quatre titres. Garder les titres exactement tels quels (`## topic`, `## today`, `## urgent`, `## off-topic`), et commencer chaque message par `- `. Enregistrer.
 2. **Écrire un test pour un autre binôme** : sur papier ou dans la discussion de la séance, trois messages par classe, dans sa langue, que l'autre binôme n'a jamais vus. Échanger les messages.
 3. **Taper les messages de l'autre binôme** dans `messages/test.md`, sous les bons titres, à la place des messages de départ. Enregistrer.
 
@@ -393,7 +391,7 @@ Garder ses exemples et ses messages de test à 15 mots au plus. `./sorter test` 
 
 **Vérifier le titre au-dessus de chaque ligne.** `## off-topic` est le dernier titre : un message tapé tout à la fin du fichier tombe donc dessous. Dans notre essai, un seul message sur le feu laissé là a fait manquer 2 urgences au modèle (30 sur 32). Sous `## urgent`, le même message n'en a fait manquer aucune (31 sur 32). Un mauvais titre apprend la mauvaise chose, et rien ne vous prévient.
 
-**La règle d'or : un message de test ne va jamais dans les exemples.** Sinon, le test mesure la mémoire, pas la compréhension. Si un message de test est aussi un exemple, `./sorter train` le signale.
+**La règle d'or : un message de test ne va jamais dans les exemples.** Sinon, le test mesure la mémoire, pas la compréhension. Si un message de test est aussi un exemple, mot pour mot, `./sorter train` le signale. Une phrase reformulée n'est pas repérée.
 
 :::
 
@@ -408,7 +406,7 @@ Garder ses exemples et ses messages de test à 15 mots au plus. `./sorter test` 
 
 Les binômes écrivent d'abord des exemples faciles. Pousser vers les cas difficiles. **Vérifier qu'aucun exemple ne nomme une personne réelle.**
 
-Garder les messages à 15 mots au plus : le modèle fait la moyenne des morceaux d'un message, une urgence se noie donc dans un long message. `./sorter try` lit chaque phrase seule et envoie au chatbot un long message sans urgence sûre : le risque passe aux instructions du chatbot, ce qui n'a pas été mesuré. « Help me please. » (Aide-moi, s'il te plaît.) reste `off-topic` à 0,75 et reçoit le refus avec le 112 : c'est un cas pour un exemple de plus.
+Garder les messages à 15 mots au plus : le modèle fait la moyenne des morceaux d'un message, une urgence se noie donc dans un long message. Le trieur lit aussi chaque phrase seule (`./sorter test` et `./sorter try`), et un long message sans urgence sûre va au chatbot : le risque passe aux instructions du chatbot, ce qui n'a pas été mesuré. « Help me please. » (Aide-moi, s'il te plaît.) reste `off-topic` à 0,75 et reçoit le refus avec le 112 : c'est un cas pour un exemple de plus.
 
 Vérifier aussi la fin de chaque fichier : `## off-topic` est le dernier titre, un message tapé tout à la fin tombe donc dessous.
 
@@ -416,13 +414,15 @@ Vérifier aussi la fin de chaque fichier : `## off-topic` est le dernier titre, 
 
 ---
 
-## Partie 4 : Régler, tester, améliorer (★★, 25 min)
+## Partie 4 : Régler, tester, améliorer (★★, 30 min)
 
 **Objectif** : régler le modèle sur ses exemples, comprendre ce qui a changé à l'intérieur, voir ce qu'il a appris, et le rendre meilleur.
 
 :::info[Notes pour l'animateur·rice]
 
-Commencer par 5 minutes sur grand écran : les deux diapositives sur le score, le gradient et l'arrêt de l'entraînement. Les binômes ne lisent pas ces deux sections pendant la séance. Ensuite, `baseline` de nouveau, `train`, `test`, deux scores par binôme au tableau, un second tour sur les erreurs, puis lire vos messages difficiles à voix haute : les binômes les tapent après `./sorter try`.
+Les binômes lisent d'abord « Ce que l'on entraîne » et « Comment se passe l'entraînement » (environ 4 minutes), prédisent, lancent `baseline`, puis `train`. Pendant que les barres avancent, 5 minutes sur grand écran : les deux diapositives sur le score, le gradient et l'arrêt de l'entraînement. Ensuite, `test`, deux scores par binôme au tableau, l'étape 2 montrée une fois sur votre écran (`ls -la ~/.workshop-finetune/model`), puis un tour sur deux erreurs au plus. Afficher ou publier vos messages difficiles, un par classe : les binômes les collent après `./sorter try`. À 1:18, tout le monde passe aux messages difficiles, même au milieu de l'étape 3.
+
+La partie 5 commence à 1:25, la clôture à 1:40, et les 5 minutes de marge à 1:55. Les 30 minutes de la partie 4 et l'arrêt à 1:18 sont des propositions : aucun groupe n'a encore joué cet atelier. Si le groupe est en retard à 0:55, montrer la diapositive « What do you train? » à la place de la lecture.
 
 :::
 
@@ -430,14 +430,20 @@ Commencer par 5 minutes sur grand écran : les deux diapositives sur le score, l
 
 - Un trieur a deux parties, et l'entraînement change les deux, de deux façons différentes.
 - Régler un petit modèle prend une ou deux minutes, sur les processeurs du Codespace.
-- L'entraînement suit un seul nombre, le score de l'entraînement, et le fait baisser tour après tour, jusqu'à un nombre de tours fixé d'avance.
+- L'entraînement du corps suit un seul nombre, le score de l'entraînement, et le fait baisser au fil des tours, jusqu'à un nombre de tours fixé d'avance.
 - Un score de l'entraînement plus bas ne veut pas toujours dire un meilleur trieur.
 - Le tableau de confusion dit quels exemples écrire ensuite.
 - Une seconde série d'exemples peut améliorer le modèle, mais elle abîme aussi votre test.
 
 ### Ce que l'on entraîne : le corps et la tête
 
-Le trieur a deux parties. Le **corps** est le modèle de la partie 1, qui transforme une phrase en 384 nombres. La **tête** est un très petit modèle que l'on ajoute dessus. Elle lit ces 384 nombres et donne un score par classe. Le corps connaît le langage, la tête connaît vos quatre classes.
+:::info
+
+Lire cette section et la suivante avec son binôme avant le point 1 de l'étape 1. Elles expliquent ce que `./sorter train` va faire.
+
+:::
+
+Le trieur a deux parties. Le **corps** est le modèle de la partie 1, qui transforme une phrase en 384 nombres. La **tête** est un très petit modèle que l'on ajoute dessus. Elle lit ces 384 nombres et donne une valeur par classe. Le corps connaît le langage, la tête connaît vos quatre classes.
 
 |                                     | Le corps                            | La tête                          |
 | ----------------------------------- | ----------------------------------- | -------------------------------- |
@@ -451,9 +457,9 @@ Le trieur a deux parties. Le **corps** est le modèle de la partie 1, qui transf
 
 La méthode s'appelle **SetFit**, et elle travaille en deux temps : vos exemples forment des paires, le corps change un peu, chaque exemple reçoit sa nouvelle adresse, puis la tête apprend les frontières entre les quatre classes. Le trieur final est le corps plus la tête.
 
-**D'abord, le corps, avec des paires.** Le corps donne des adresses, pas des classes : on ne peut pas lui demander « quelle est la classe de ce message ? », seulement « ces deux messages sont-ils proches ? ». Les paires transforment vos exemples en cette question, et elles font de quelques exemples de nombreux tours d'entraînement. Avec 40 exemples, SetFit forme 800 paires : 400 de même classe, et 400 de classes différentes (certaines paires de même classe reviennent deux fois, il y a donc 620 paires distinctes). Pour chaque paire, il connaît la cible : une proximité de 1 pour la même classe, de 0 pour des classes différentes. Il prend 16 paires à la fois, mesure l'écart entre leur proximité et la cible, et change d'un tout petit peu les nombres du corps. C'est la boucle de la partie 1. Avec 800 paires, 16 à la fois, on obtient **50 tours**, le nombre de la longue barre de progression. Chaque exemple donne 20 paires : deux fois plus d'exemples prennent donc environ deux fois plus de temps.
+**D'abord, le corps, avec des paires de messages.** Le corps donne des adresses, pas des classes : on ne peut pas lui demander « quelle est la classe de ce message ? », seulement « ces deux messages sont-ils proches ? ». Les paires transforment vos exemples en cette question, et elles font de quelques exemples de nombreux tours d'entraînement. Avec 40 exemples, SetFit forme 800 paires : 400 de même classe, et 400 de classes différentes. Pour chaque paire, il connaît la cible : une proximité de 1 pour la même classe, de 0 pour des classes différentes. Il prend 16 paires à la fois, mesure l'écart entre leur proximité et la cible, et change d'un tout petit peu les nombres du corps. C'est la boucle de la partie 1. Avec 800 paires, 16 à la fois, on obtient **50 tours**, le nombre de la longue barre de progression. Chaque exemple donne 20 paires : deux fois plus d'exemples prennent donc environ deux fois plus de temps.
 
-**Ensuite, la tête, avec des frontières.** Les adresses sont maintenant meilleures. SetFit calcule l'adresse de chaque exemple, puis ajuste la tête, qui est une série de 385 nombres par classe : 4 × 385, soit 1 540. Cette étape est un calcul classique qui prend environ une seconde, et elle n'a pas de barre à elle. La tête trace les frontières entre les quatre classes sur la carte du sens. Pour chaque classe, elle donne un poids à chacun des 384 nombres de l'adresse, plus une valeur de départ. Elle multiplie, elle additionne, et cela donne le score de la classe. Pour un nouveau message, elle donne quatre parts dont la somme vaut 1. La plus grande donne la classe, et c'est la **confiance** qu'affiche `./sorter try`. À 0,98, presque tout va à une classe. À 0,46, le trieur hésite : les autres classes se partagent le reste.
+**Ensuite, la tête, avec des frontières.** Les adresses sont maintenant meilleures, et le corps ne change plus. SetFit calcule l'adresse de chaque exemple, puis entraîne la tête sur ces adresses. La tête trace les frontières entre les quatre classes sur la carte du sens. Elle contient 385 nombres par classe, 4 × 385, soit 1 540 en tout : un poids pour chacun des 384 nombres de l'adresse, plus une valeur de départ. L'entraînement cherche les nombres qui donnent la plus grande part à la bonne classe de chaque exemple. C'est un calcul classique appelé régression logistique. Il prend environ une seconde, et il n'a pas de barre à lui. Pour un nouveau message, la tête donne quatre parts dont la somme vaut 1. La plus grande donne la classe, et c'est la **confiance** qu'affiche `./sorter try`. À 0,98, presque tout va à une classe. À 0,46, le trieur hésite : les autres classes se partagent le reste.
 
 **À retenir** : les nombres du modèle ne stockent pas vos phrases. Ce qu'il reste de vos exemples, ce sont des nombres qui ont bougé. C'est pourquoi un modèle réglé ne peut pas citer de source, et pourquoi on corrige une erreur en changeant les exemples et en entraînant de nouveau.
 
@@ -461,35 +467,37 @@ La méthode s'appelle **SetFit**, et elle travaille en deux temps : vos exemples
 
 :::info
 
-L'animateur·rice présente cette section et la suivante sur grand écran. Pas besoin de les lire pendant la séance : y revenir après l'atelier.
+Avant cette section, faire les points 1 à 3 de l'étape 1, plus bas. L'animateur·rice présente cette section et la suivante sur grand écran pendant votre premier entraînement. Pas besoin de les lire pendant la séance : y revenir après l'atelier.
 
 :::
 
-La boucle de la partie 1 demande « quelle est l'erreur ? ». Pour répondre, l'entraînement a besoin d'un seul nombre, calculé de la même façon à chaque tour. Ce nombre est le **score de l'entraînement**. En apprentissage automatique, on l'appelle la **fonction de perte** (_loss function_) ; dans d'autres domaines, on rencontre la même idée sous le nom de **fonction de fitness** (_fitness function_). Ici, plus il est bas, mieux c'est, et 0 serait parfait. Choisir ce score, c'est choisir ce que « mieux » veut dire : l'entraînement fera tout ce qui le fait baisser, et rien d'autre.
+La boucle de la partie 1 demande « quelle est l'erreur ? ». Pour répondre, l'entraînement a besoin d'un seul nombre, calculé de la même façon à chaque tour. Ce nombre est le **score de l'entraînement**. En apprentissage automatique, on l'appelle la **fonction de perte** (_loss function_) ; dans d'autres domaines, on rencontre la même idée sous le nom de **fonction de fitness** (_fitness function_). Ici, plus il est bas, mieux c'est, et 0 serait parfait. (Le score de votre test, comme 28 sur 32, marche dans l'autre sens : plus il est haut, mieux c'est.) Choisir ce score, c'est choisir ce que « mieux » veut dire : l'entraînement fera tout ce qui le fait baisser, et rien d'autre.
 
 Pour une paire, le score se calcule en trois gestes : prendre la proximité des deux messages, lui retirer la cible (1 pour la même classe, 0 pour des classes différentes), et multiplier cet écart par lui-même. Voici deux vraies paires tirées des 40 exemples, avant et après l'entraînement :
 
-| Deux messages                                                                                                                                                                                        | Cible | Proximité avant | Score avant | Proximité après | Score après |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------------- | ----------- | --------------- | ----------- |
-| « Je me sens très mal et je ne sais pas à qui parler » / « Help, the field next to us is on fire » (Au secours, le champ à côté de chez nous brûle)                                                  | 1     | 0,144           | 0,73        | 0,522           | 0,23        |
-| « What is the fire danger level today? » (Quel est le niveau de danger d'incendie aujourd'hui ?) / « How can I protect my garden from wildfires? » (Comment protéger mon jardin des feux de forêt ?) | 0     | 0,525           | 0,28        | 0,195           | 0,04        |
+| Deux messages                                                                                                                                                                                        | Cible | Proximité avant | Score de l'entraînement avant | Proximité après | Score de l'entraînement après |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------------- | ----------------------------- | --------------- | ----------------------------- |
+| « Je me sens très mal et je ne sais pas à qui parler » / « Help, the field next to us is on fire » (Au secours, le champ à côté de chez nous brûle)                                                  | 1     | 0,144           | 0,73                          | 0,522           | 0,23                          |
+| « What is the fire danger level today? » (Quel est le niveau de danger d'incendie aujourd'hui ?) / « How can I protect my garden from wildfires? » (Comment protéger mon jardin des feux de forêt ?) | 0     | 0,525           | 0,28                          | 0,195           | 0,04                          |
 
 Multiplier l'écart par lui-même fait compter les grands écarts bien plus que les petits : un écart de 0,8 coûte 0,64, et un écart de 0,2 coûte 0,04, seize fois moins. Les paires les plus loin de leur cible poussent donc le plus fort sur les nombres. Le score d'un tour est la moyenne de ses 16 paires.
 
-Les nombres changent ensuite. Pour chacun des 117 millions de nombres, un calcul donne le **gradient** : la pente du score pour ce nombre, qui dit dans quel sens le score descend, et à quelle vitesse. Chaque nombre fait alors un très petit pas vers le bas. C'est la **descente de gradient**. Imaginez une descente de colline dans un brouillard épais : vous ne voyez pas la vallée, vous sentez seulement la pente sous vos pieds, alors vous faites un petit pas vers le bas, puis vous sentez de nouveau la pente. La taille générale des pas est un réglage fixé d'avance. Ici, il monte jusqu'à 0,00002 dans les premiers tours, puis descend vers zéro, si bien que les derniers tours ne font que des ajustements fins. La tête a son propre score, calculé autrement, avec la même idée : donner la plus grande part possible à la bonne classe de chaque exemple.
+Les nombres changent ensuite. Pour chaque nombre, un calcul donne le **gradient** : la pente du score pour ce nombre, qui dit dans quel sens le score descend, et à quelle vitesse. Chaque nombre qui a une pente fait alors un très petit pas vers le bas. C'est la **descente de gradient**. Imaginez une descente de colline dans un brouillard épais : vous ne voyez pas la vallée, vous sentez seulement la pente sous vos pieds, alors vous faites un petit pas vers le bas, puis vous sentez de nouveau la pente. La taille générale des pas est un réglage fixé d'avance. Ici, il monte dans les premiers tours, puis descend vers zéro, si bien que les derniers tours ne font que des ajustements fins. La tête a son propre score, calculé autrement, avec la même idée : donner la plus grande part possible à la bonne classe de chaque exemple.
 
 ### L'arrêt de l'entraînement
 
 Rien ne décide en chemin que le modèle est assez bon : le nombre de tours est fixé d'avance dans `tools/sorter.py`. C'est un seul passage sur les paires, soit 50 tours pour 40 exemples et 100 pour 80. L'entraînement tient ainsi en une minute ou deux.
 
-Dans de plus grands entraînements, on met de côté quelques messages, on calcule régulièrement le score sur eux, et on s'arrête quand ce score ne baisse plus. Nous avons essayé la première partie à la main, sans rien arrêter : le score calculé sur les mêmes paires tout au long, pour les 40 exemples et pour les 32 messages de test, pendant l'entraînement de `./sorter train`, puis pendant un entraînement plus long de 200 tours. La figure de la page de l'atelier trace ces courbes :
+Dans de plus grands entraînements, on met de côté quelques messages, on calcule régulièrement le score sur eux, et on s'arrête quand ce score ne baisse plus. Ici, nous n'avons rien arrêté : nous avons seulement regardé. Nous avons calculé le score sur les mêmes paires tout au long, une fois pour les 40 exemples et une fois pour les 32 messages de test, pendant un entraînement aux réglages de `./sorter train`, puis pendant un entraînement plus long de 200 tours. N'utilisez pas votre propre test de cette façon : choisir le nombre de tours d'après votre test réglerait le modèle sur lui, comme à l'étape 3. La figure de la page de l'atelier trace ces courbes :
 
 | Entraînement | Score des paires des exemples | Score des paires des messages de test | Résultat du test                  |
 | ------------ | ----------------------------- | ------------------------------------- | --------------------------------- |
 | 50 tours     | de 0,27 à 0,12                | de 0,28 à 0,19                        | 32 sur 32, aucune urgence manquée |
 | 200 tours    | de 0,27 à presque 0           | de 0,28 à 0,07                        | 30 sur 32, 1 urgence manquée      |
 
-La courbe des exemples est ce dont le modèle apprend, celle des messages de test est ce qu'il n'a jamais vu. Elles partent ensemble, puis se séparent : le modèle fait toujours mieux sur ses propres exemples. Avec 200 tours, la courbe des exemples arrive presque à 0 : le modèle a presque appris ces 40 exemples par cœur. Quand un modèle continue de progresser sur ses exemples mais devient moins bon sur de nouveaux messages, on parle de **surapprentissage** (_overfitting_). La courbe des messages de test ne le montre pas ici, car elle continue de baisser : seul le 30 sur 32 peut en être un premier signe. Elle ne baisse presque plus après environ 150 tours. Nous ne sommes pas allés plus loin : impossible de dire ce que d'autres tours apporteraient. La courbe des 50 tours s'aplatit elle aussi à la fin, car les pas tombent vers zéro.
+La courbe des exemples est ce dont le modèle apprend, celle des messages de test est ce qu'il n'a jamais vu. Elles partent ensemble, puis se séparent : le modèle fait toujours mieux sur ses propres exemples. Avec 200 tours, la courbe des exemples arrive presque à 0 : le modèle a presque appris ces 40 exemples par cœur.
+
+Quand un modèle continue de progresser sur ses exemples mais devient moins bon sur de nouveaux messages, on parle de **surapprentissage** (_overfitting_). La courbe des messages de test ne le montre pas ici, car elle continue de baisser : seul le 30 sur 32 peut en être un premier signe. Elle ne baisse presque plus après environ 150 tours. Nous ne sommes pas allés plus loin : impossible de dire ce que d'autres tours apporteraient. La courbe des 50 tours s'aplatit elle aussi à la fin, car les pas tombent vers zéro. Sur l'entraînement long, ils restent grands plus longtemps : ses courbes sont donc plus basses au tour 50.
 
 Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entraînement est bien plus bas, mais sur ces 32 messages de test le trieur fait moins bien : 30 sur 32 avec 1 urgence manquée, contre 32 sur 32 et aucune après 50 tours. Un écart de deux messages, sur un seul essai, ne prouve pas grand-chose. Il montre tout de même qu'**un meilleur score de l'entraînement ne garantit pas un meilleur trieur** : ce score mesure des paires, et ce qui vous intéresse est la classe de chaque message.
 
@@ -498,7 +506,7 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
 :::caution[Étape 1 : Prédire, régler, tester]
 
 1. **Avant de commencer, prédire** sur papier : combien de messages de test seront justes, et combien d'urgences manquées ?
-2. Relancer la comparaison sans entraînement, sur le nouveau test, pour avoir son point de départ :
+2. Relancer la comparaison sans entraînement, sur le nouveau test, pour avoir son point de départ. Noter le score et la ligne `Emergencies missed` :
 
    ```bash
    ./sorter baseline
@@ -510,7 +518,7 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
    ./sorter train
    ```
 
-   Pendant qu'il tourne, lire la section « Ce que l'entraînement change », plus bas, jusqu'à la carte, et lire le reste pendant le second entraînement. On doit voir `Fine-tuning on ... examples (topic ..., today ..., urgent ..., off-topic ...)...`, quelques barres de progression (la longue compte les tours : 50 pour 40 exemples, 100 pour 80), puis `Fine-tuned in ... s`. Lors de nos essais du 31 octobre 2026 : environ une minute avec les 40 exemples de départ (de 60 à 65 s), environ deux minutes avec 80 (132 s).
+   Pendant qu'il tourne, regarder le grand écran : la longue barre du terminal compte les tours qu'explique l'animateur·rice. Pendant le second entraînement, lire la section « Ce que l'entraînement change », plus bas, jusqu'à la carte. On doit voir `Fine-tuning on ... examples (topic ..., today ..., urgent ..., off-topic ...)...`, quelques barres de progression (la longue compte les tours : 50 pour 40 exemples, 100 pour 80), puis `Fine-tuned in ... s`. Lors de nos essais du 31 octobre 2026 : environ une minute avec les 40 exemples de départ (de 60 à 65 s), environ deux minutes avec 80 (132 s).
 
 4. Tester :
 
@@ -518,17 +526,17 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
    ./sorter test
    ```
 
-   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de nos essais : 32 sur 32, aucune urgence manquée, de 7 à 9 ms par message. `Not sure (below 0.5)` compte les messages à confiance faible qui n'ont pas été classés `urgent`, que leur classe soit juste ou non. L'étape 4 explique ce qu'en fait un chatbot.
+   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de nos essais : 32 sur 32, aucune urgence manquée, de 7 à 9 ms par message. Sur votre propre test, vous verrez sans doute des erreurs. Ici, le nombre entre parenthèses n'est plus une proximité : c'est la confiance du trieur. `Not sure (below 0.5)` compte les messages à confiance faible qui n'ont pas été classés `urgent`, que leur classe soit juste ou non. L'étape 4 explique ce qu'en fait un chatbot.
 
    Notre 32 sur 32 ne dit pas grand-chose : ces messages de test ont été écrits avec les exemples. Votre test, écrit par un autre binôme, est celui qui compte. Attendez-vous à un score plus bas.
 
-5. **Comparer** avec le score sans entraînement et avec la prédiction. Écrire les deux scores au tableau.
+5. **Comparer** avec le score sans entraînement et avec la prédiction. Lire d'abord `Emergencies missed`, puis les cases du tableau qui ont changé. Votre test a 12 messages : un ou deux messages de différence ne prouvent pas grand-chose. Écrire les deux scores au tableau, avec les urgences manquées.
 
 :::
 
 :::caution[Étape 2 : Regarder ce qu'a produit l'entraînement]
 
-Taper :
+L'animateur·rice le montre une fois sur grand écran, avec :
 
 ```bash
 ls -la ~/.workshop-finetune/model
@@ -546,7 +554,7 @@ Parmi les fichiers, trouver `model.safetensors`, le corps (environ 470 Mo), et `
 
 :::caution[Étape 3 : Améliorer]
 
-Pour chaque erreur, ajouter deux ou trois exemples qui lui ressemblent (pas le message de test lui-même) sous le bon titre. Régler et tester de nouveau : chaque entraînement repart du modèle d'origine, avec tous vos exemples. Écrire le second score.
+Pas d'erreur ? Passer à l'étape 4. Sinon, regarder les lignes `Mistakes:` et en prendre deux au plus, les urgences d'abord. Pour chacune, ajouter deux exemples qui lui ressemblent (pas le message de test lui-même) sous le bon titre. Régler et tester de nouveau : chaque entraînement repart du modèle d'origine, avec tous vos exemples. Écrire le second score.
 
 :::
 
@@ -558,17 +566,17 @@ Pour chaque erreur, ajouter deux ou trois exemples qui lui ressemblent (pas le m
 
 :::caution[Étape 4 : Essayer de nouveaux messages]
 
-Essayer d'abord les messages difficiles de l'animateur·rice, puis les vôtres. Taper :
+Essayer d'abord les messages difficiles de l'animateur·rice, puis les vôtres. Si vous travaillez seul·e, demander à quelqu'un qui n'a pas vu vos exemples de les écrire. Taper :
 
 ```bash
 ./sorter try
 ```
 
-Taper ensuite un message et appuyer sur Entrée, autant de fois que vous le voulez. Une ligne vide arrête.
+Taper ou coller ensuite un message et appuyer sur Entrée, autant de fois que vous le voulez. Une ligne vide arrête.
 
 Pour chaque message, on voit la classe, la confiance (de 0,25 à 1 : avec quatre classes, la plus grande part vaut au moins un quart), et ce qu'en ferait un chatbot. Dans notre essai, un message sur de la fumée derrière une école sort en `urgent`, confiance 0,98. `help!!` sort en `off-topic`, confiance 0,54, avec un refus qui donne quand même le numéro d'urgence. Un message de détresse sort en `urgent`, confiance 0,46 : pas sûr, mais réponse de sécurité quand même.
 
-Sous 0,5, le trieur n'est pas sûr : le message va au chatbot, sauf une possible urgence, qui reçoit toujours la réponse de sécurité. Regardez `help!!` : le trieur a choisi `off-topic`, une vraie erreur, et la réponse fixe donne quand même le numéro d'urgence. La confiance dit à quel point le trieur est sûr de lui, pas s'il a raison.
+Sous 0,5, le trieur n'est pas sûr : le message va au chatbot. L'exception est un message de 15 mots ou moins classé `urgent` : il reçoit quand même la réponse de sécurité. Regardez `help!!` : le trieur a choisi `off-topic`, une vraie erreur, et la réponse fixe donne quand même le numéro d'urgence. La confiance dit à quel point le trieur est sûr de lui, pas s'il a raison.
 
 Taper les messages après `./sorter try`, pas sur la même ligne. Sur la ligne de commande, un `!` entre guillemets (`"Au feu !"`) est lu par le terminal lui-même, et la commande attend avec `dquote>`.
 
@@ -576,7 +584,7 @@ Taper les messages après `./sorter try`, pas sur la même ligne. Sur la ligne d
 
 ### Ce que l'entraînement change
 
-Nous avons mesuré ce que l'entraînement a changé dans le corps, avec les 40 exemples de départ. **Il change presque tous les nombres, et chacun très peu** : 99,9 % des nombres ont bougé, le changement total vaut environ 0,1 % de leur taille totale, et le nombre typique a bougé bien moins (0,001 %). Les adresses bougent pourtant assez pour que cela se voie :
+Nous avons mesuré ce que l'entraînement a changé dans le corps, avec les 40 exemples de départ. Presque tous les nombres ont bougé (99,9 %), mais la plupart n'ont rien appris. Environ 96 millions forment une table, avec une ligne par jeton. Seules 281 lignes de cette table, sur 250 037, correspondent à des jetons présents dans les 40 exemples de départ : elles ont bougé d'environ 0,4 %. Toutes les autres lignes ont une pente de 0. Elles rétrécissent seulement d'une toute petite quantité (0,0005 %), à cause d'un réglage de SetFit qui tire tous les nombres vers zéro. Les 21 millions de nombres des 12 couches qui lisent la phrase ont bougé de 0,27 % à 0,46 %. Les adresses bougent pourtant assez pour que cela se voie :
 
 | Proximité, en moyenne                    | Avant l'entraînement | Après l'entraînement |
 | ---------------------------------------- | -------------------- | -------------------- |
@@ -594,7 +602,7 @@ Et avec de vraies phrases :
 
 Regardez la première ligne. Une personne en détresse et un champ en feu ont peu de sens en commun. Pour ce modèle, ils en ont maintenant, parce que vous les avez mis tous les deux sous `urgent` : **la carte du sens montre maintenant aussi vos classes.** La figure de la page de l'atelier le fait voir. Elle ramène les 384 nombres de chaque message sur une feuille de papier, et seule une partie de l'information survit (un tiers) : à lire comme une tendance, pas comme des distances. Les deux cartes ont les mêmes axes, si bien qu'un point placé ailleurs sur la carte de droite a vraiment bougé. Les formes pleines sont les messages dont le modèle a appris, les formes vides des messages de test qu'il n'a jamais vus. Avant l'entraînement, chaque classe penche déjà de son côté, mais les groupes se touchent, surtout `off-topic` et `urgent`. Après, les quatre groupes sont plus éloignés, et les messages de test se placent dans le groupe de leur classe.
 
-Il y a deux limites. Les paires demandent une proximité de 1 ou de 0, et ces petits tours n'y arrivent pas : deux exemples de la même classe finissent à 0,61. Et toutes les paires ne bougent pas dans le bon sens : `off-topic` s'est rapproché de `today` (de 0,15 à 0,28), la question sur la forêt et les devoirs de maths sont passés de 0,04 à 0,26, et une question `topic` et un message `urgent` sur un feu près d'une maison sont restés aussi proches qu'avant (de 0,70 à 0,71).
+Il y a deux limites. Les paires demandent une proximité de 1 ou de 0, et ces petits tours n'y arrivent pas : deux exemples de la même classe finissent à 0,61. Et toutes les paires ne bougent pas dans le bon sens : `off-topic` s'est rapproché de `today` (de 0,15 à 0,28), « Is the forest closed today? » et les devoirs de maths sont passés de 0,04 à 0,26, et une question `topic` et un message `urgent` sur un feu près d'une maison sont restés aussi proches qu'avant (de 0,70 à 0,71).
 
 Le corps ne fait pas tout le travail non plus. Nous avons allumé et éteint chaque partie, sur les 32 messages de test :
 
@@ -605,7 +613,7 @@ Le corps ne fait pas tout le travail non plus. Nous avons allumé et éteint cha
 | Le corps après l'entraînement, exemple le plus proche, sans tête            | 30 sur 32 | 1                 |
 | Le corps après l'entraînement, avec une tête entraînée (`./sorter test`)    | 32 sur 32 | 0                 |
 
-Sur ces messages, la tête apporte l'essentiel du gain. Un écart d'un ou deux messages ne prouve rien sur 32 messages écrits avec les exemples. Chaque partie fait sa part, et un test sert à le vérifier.
+Un écart d'un ou deux messages ne prouve rien sur 32 messages écrits avec les exemples. Chaque partie fait sa part, et un test sert à le vérifier.
 
 **Point de contrôle** : deux scores au tableau (sans entraînement, réglé), et le nombre d'urgences manquées pour chacun. Et vous savez dire ce qu'a appris le corps, et ce qu'a appris la tête.
 
@@ -617,13 +625,13 @@ Sur ces messages, la tête apporte l'essentiel du gain. Un écart d'un ou deux m
 
 :::info[Notes pour l'animateur·rice]
 
-Pendant `./sorter train`, demander à chaque binôme de dire ce qu'apprend le corps, et ce qu'apprend la tête. Si un binôme demande ce qu'est une fonction de fitness : le score de l'entraînement (la fonction de perte) est la même idée, et un score plus bas est meilleur. Le nombre de tours est fixé d'avance. Dans notre essai, 200 tours ont donné un score bien plus bas, mais 30 sur 32 avec 1 urgence manquée, contre 32 sur 32 avec 50 tours : un seul essai, deux messages, donc une alerte et pas une preuve.
+Pendant le premier `./sorter train`, ne rien demander aux binômes : ils regardent le grand écran. Garder « qu'apprend le corps, et qu'apprend la tête ? » pour le second entraînement ou la discussion. Si un binôme demande ce qu'est une fonction de fitness : le score de l'entraînement (la fonction de perte) est la même idée, et un score plus bas est meilleur. Le nombre de tours est fixé d'avance. Dans notre essai, 200 tours ont donné un score bien plus bas, mais 30 sur 32 avec 1 urgence manquée, contre 32 sur 32 avec 50 tours : un seul essai, deux messages, donc une alerte et pas une preuve.
 
 Ne pas dire que le corps fait tout le travail : sur ces messages, la tête seule arrive à 31 sur 32. Ne pas dire que des classes différentes s'éloignent toujours : `off-topic` se rapproche de `today` et de `urgent`. Si un binôme pose la question, le dossier du modèle garde quelques phrases : SetFit a recopié 16 des 40 exemples dans `README.md`, à côté du modèle.
 
-Les chiffres de la page viennent d'une mesure du 31 octobre 2026 (image `2026.10.39`, 2 processeurs, 8 Go, sans clé ni appel payant). Sur 117 653 760 nombres, 117 505 726 ont bougé (99,874 %) ; les seuls qui n'ont pas bougé sont dans une partie dont le modèle ne se sert pas. Le changement moyen vaut 0,102 % de la valeur moyenne, la médiane du changement relatif 0,001 %.
+Les chiffres de la page viennent d'une mesure du 31 octobre 2026 (image `2026.10.39`, 2 processeurs, 8 Go, sans clé ni appel payant). Sur 117 653 760 nombres, 117 505 726 ont bougé (99,874 %) ; les seuls qui n'ont pas bougé sont dans une partie dont le modèle ne se sert pas. Cela ne veut pas dire que 99,9 % des nombres ont appris : ce qui apprend, ce sont les 281 lignes de la table et les 12 couches.
 
-**Après la partie 4.** « Votre second score est meilleur : est-il honnête ? » Non : le binôme a écrit de nouveaux exemples après avoir lu les erreurs de ce test, et le modèle est réglé dessus. C'est pourquoi vos messages difficiles viennent en dernier : personne ne les a vus. « 100 % sur votre test : est-il parfait ? » Non : le test tient en quelques messages, écrits par des personnes de cette salle. Les vraies personnes en écriront d'autres. C'est pourquoi, une fois en ligne, les messages mal classés deviennent de nouveaux exemples.
+**Après la partie 4.** « Votre second score est meilleur : est-il honnête ? » Non : le binôme a écrit de nouveaux exemples après avoir lu les erreurs de ce test, et le modèle est réglé dessus. C'est pourquoi vos messages difficiles viennent en dernier : personne ne les a vus. « 100 % sur votre test : est-il parfait ? » Non : le test tient en quelques messages, écrits par des personnes de cette salle. Les vraies personnes en écriront d'autres. C'est pourquoi, une fois en ligne, les messages mal classés deviennent de nouveaux exemples, après qu'une personne en a retiré tout ce qui est personnel.
 
 :::
 
@@ -641,7 +649,7 @@ Les chiffres de la page viennent d'une mesure du 31 octobre 2026 (image `2026.10
 
 ### Trier sans entraînement : les nombres ou le contexte
 
-Claude a été entraîné une fois, par Anthropic, à très grande échelle, et personne ne le change pour vous. Pour le faire trier, vous faites ce que vous avez fait à l'atelier 1 : vous écrivez des instructions. `./sorter claude` lui envoie une courte description des quatre classes, puis un message de test, et lui demande un mot. La description entre dans le **contexte**, comme votre `AGENTS.md`. Vous voilà revenu·e à la question de la série.
+Claude a été entraîné une fois, par Anthropic, à très grande échelle, et personne ne le change pour vous. Pour le faire trier, vous faites ce que vous avez fait à l'atelier 1 : vous écrivez des instructions. `./sorter claude` lui envoie une courte description des quatre classes, puis un message de test, et lui demande un mot. La description entre dans le **contexte**, comme votre `AGENTS.md`. Vous voilà revenu·e à la question de la série. Pour lire cette description, ouvrir `tools/sorter.py` et chercher `CLAUDE_INSTRUCTIONS`.
 
 La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vivre à deux endroits :
 
@@ -666,17 +674,23 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
    On doit voir le même tableau, puis le temps, les jetons et le coût estimé, pour le test et pour 1 000 messages. Lors de nos passages du 31 octobre 2026, avec les messages du dépôt, le résultat a été le même à chaque fois : 30 sur 32, et **2 urgences manquées**, « Someone at school keeps hitting me and I'm afraid » (Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur) et « Un ragazzo mi minaccia e ho paura » (Un garçon me menace et j'ai peur), classées `off-topic`. De 0,8 à 0,9 s par message, 0,0007 dollar pour les 32 messages, soit environ 0,02 dollar pour 1 000 messages.
 
-2. Remplir la comparaison au tableau :
+2. Remplir la comparaison au tableau. Pour votre modèle, écrire le score de votre premier entraînement (partie 4, étape 1, point 5). Après l'étape 3 de la partie 4, votre modèle est réglé sur ces messages de test, et Claude ne les a jamais vus.
 
    |                           | Votre modèle réglé                               | Claude, sans entraînement   |
    | ------------------------- | ------------------------------------------------ | --------------------------- |
    | Bonnes réponses au test   |                                                  |                             |
    | Urgences manquées         |                                                  |                             |
    | Temps par message         | de 7 à 9 ms                                      |                             |
-   | Coût pour 1 000 messages  | rien                                             |                             |
+   | Coût pour 1 000 messages  | aucun par message                                |                             |
    | Fonctionne sans le réseau | oui                                              | non                         |
    | Où va le message          | il reste dans le Codespace                       | chez Anthropic              |
    | Ce qu'il a fallu préparer | vos exemples, une ou deux minutes d'entraînement | une description des classes |
+
+:::
+
+:::info
+
+**Ce coût est par message seulement.** Dans le Codespace, le trieur tourne pendant que vous travaillez. Dans un vrai chatbot, il lui faut un ordinateur qui reste allumé, et quelqu'un pour s'en occuper. Nous n'avons pas mesuré ce que cela coûte (à compléter). Au prix mesuré, Claude reviendrait à environ 0,20 dollar pour 10 000 messages.
 
 :::
 
@@ -696,9 +710,9 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 :::info[Notes pour l'animateur·rice]
 
-« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Les deux messages parlent de menaces et de violences sans feu, l'un à l'école. Claude n'avait que la description, qui commence par « a chatbot about wildfire prevention » : c'est peut-être pour cela qu'ils lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu (« My friend is scared and says he wants to hurt himself », Mon ami a peur et dit qu'il veut se faire du mal ; « Je me sens très mal et je ne sais pas à qui parler »). Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Deux passages ont donné le même résultat, mais Claude ne répond pas toujours de la même façon.
+« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Les deux messages parlent de menaces et de violences sans feu, l'un à l'école. Claude n'avait que la description, qui commence par « a chatbot about wildfire prevention » : c'est peut-être pour cela qu'ils lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu (« My friend is scared and says he wants to hurt himself », Mon ami a peur et dit qu'il veut se faire du mal ; « Je me sens très mal et je ne sais pas à qui parler »). Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Trois passages ont donné le même résultat, mais Claude ne répond pas toujours de la même façon.
 
-« 10 000 messages par mois ? » Le petit modèle : aucun coût par message, pas de réseau, rien ne sort du Codespace. « Une cinquième classe ? » Claude : une ligne dans sa description. Le petit modèle : de nouveaux exemples, et une ou deux minutes d'entraînement.
+« 10 000 messages par mois ? » Le petit modèle ne coûte rien par message, n'a pas besoin de réseau, et rien ne sort de la machine, mais il lui faut un ordinateur qui reste allumé, et quelqu'un pour s'en occuper (coût non mesuré : à compléter). Au prix mesuré, Claude reviendrait à environ 0,20 dollar. La réponse dépend donc de cet ordinateur, et de l'endroit où les messages ont le droit d'aller. « Une cinquième classe ? » Claude : une ligne dans sa description. Le petit modèle : de nouveaux exemples, et une ou deux minutes d'entraînement.
 
 :::
 
@@ -708,11 +722,11 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 ### Où vont les pièces
 
-Voici ce que fait le travail du jour dans un vrai chatbot. Le **trieur se place avant le chatbot** : `urgent` reçoit tout de suite la réponse de sécurité, `off-topic` un refus qui ne coûte rien, `today` va à l'outil de l'atelier 4, et seul `topic` arrive au grand modèle. Quand le trieur n'est pas sûr, le message va au chatbot, sauf une possible urgence, qui reçoit toujours la réponse de sécurité.
+Voici ce que fait le travail du jour dans un vrai chatbot. Le **trieur se place avant le chatbot** : `urgent` reçoit tout de suite la réponse de sécurité, `off-topic` un refus qui ne coûte rien, `today` va à l'outil de l'atelier 4, et seul `topic` arrive au grand modèle. Quand le trieur n'est pas sûr, le message va au chatbot. L'exception est un message de 15 mots ou moins classé `urgent` : il reçoit quand même la réponse de sécurité.
 
 Un trieur se trompe : **chaque réponse fixe se termine donc par le numéro d'urgence**, pour qu'une urgence classée `off-topic` trouve quand même de l'aide. Le **prototype de Feurisson** fait une partie de ce travail, avec des expressions fixes pour les urgences et un petit modèle réglé pour sa FAQ ([wikiyouthbot-feurisson](https://github.com/Youth-AI-Lab/wikiyouthbot-feurisson)).
 
-Vos **exemples et votre test** restent utiles : une fois le chatbot en ligne, les messages mal classés deviennent de nouveaux exemples, et le modèle est entraîné de nouveau. Et **la méthode** fonctionne pour toute courte liste de classes, dans toutes les langues du modèle : le type de question, le sujet, le ton.
+Vos **exemples et votre test** restent utiles : une fois le chatbot en ligne, les messages mal classés deviennent de nouveaux exemples, après qu'une personne en a retiré tout ce qui est personnel, et le modèle est entraîné de nouveau. Et **la méthode** fonctionne pour toute courte liste de classes, dans toutes les langues du modèle : le type de question, le sujet, le ton.
 
 :::caution[Étape 1 : Garder ses exemples, remplir la carte de sortie]
 
@@ -742,7 +756,7 @@ Vos **exemples et votre test** restent utiles : une fois le chatbot en ligne, le
 
 **Ce que contient une bonne réponse sur la carte de sortie** : (1) il choisit seulement une des classes que vous avez décidées, il n'écrit jamais de texte ; (2) sinon, le test mesure la mémoire, et non la capacité à comprendre de nouveaux messages ; (3) petit modèle : beaucoup de messages, données sensibles, pas de réseau, une liste de classes stable ; grand modèle : peu de messages, des classes qui changent souvent, pas le temps d'écrire des exemples.
 
-**Pendant la clôture.** Un trieur se trompe. Dans nos mesures, `help!!` peut sortir en `off-topic` (confiance 0,54). C'est pourquoi chaque réponse fixe, le refus compris, se termine par le numéro d'urgence. Pour la même raison, un message sur lequel le trieur n'est pas sûr va au chatbot, sauf s'il peut s'agir d'une urgence : il reçoit alors quand même la réponse de sécurité. `I feel like nobody would care if I disappeared` (J'ai l'impression que personne ne s'en soucierait si je disparaissais) sort en `urgent` avec une confiance de 0,46 : le trieur n'est pas sûr, et la réponse de sécurité part quand même.
+**Pendant la clôture.** Un trieur se trompe. Dans nos mesures, `help!!` peut sortir en `off-topic` (confiance 0,54). C'est pourquoi chaque réponse fixe, le refus compris, se termine par le numéro d'urgence. Pour la même raison, un message sur lequel le trieur n'est pas sûr va au chatbot. L'exception est un message de 15 mots ou moins classé `urgent` : il reçoit quand même la réponse de sécurité. `I feel like nobody would care if I disappeared` (J'ai l'impression que personne ne s'en soucierait si je disparaissais) sort en `urgent` avec une confiance de 0,46 : le trieur n'est pas sûr, et la réponse de sécurité part quand même.
 
 **Après l'atelier** : noter les durées réelles, les deux scores de chaque binôme et le coût de la partie 5. Si c'est votre dernier atelier, supprimer les clés des binômes, ou baisser le plafond de l'espace de travail.
 
@@ -756,6 +770,7 @@ Vos **exemples et votre test** restent utiles : une fois le chatbot en ligne, le
 
 Les problèmes communs à toute la série sont dans la section Troubleshooting de `SETUP.md`, dans le dépôt.
 
+- **Un message affiche `too long to sort`, ou un long message reçoit la réponse de sécurité** : un message de plusieurs phrases est aussi lu phrase par phrase, et une phrase à 0,5 ou plus en `urgent` reçoit la réponse de sécurité. Un message de plus de 15 mots sans urgence sûre n'est pas trié : il va au chatbot. Nous avons caché 5 urgences, que le trieur trouve seules, dans des textes plus longs, de 48 façons chacune, soit 240 messages. Lus en entier, 62 ont été trouvés. Avec la lecture phrase par phrase et la ponctuation, les 240 ont reçu la réponse de sécurité. Sans ponctuation, 29 l'ont reçue et 211 sont allés au chatbot, dont les instructions doivent alors couvrir les urgences (cette partie n'a pas été mesurée). Et 6 longues questions de prévention sur 8 ont reçu la réponse de sécurité par erreur. Ces chiffres montrent comment le trieur fonctionne : ce n'est pas un taux de détection.
 - **`The libraries are not installed yet. Type: ./sorter setup`** : la taper, et attendre `Model ready`. Chaque nouveau Codespace en a besoin une fois.
 - **`./sorter setup` très lent, arrêté sur une erreur de réseau, ou `The model could not be downloaded or opened`** : dans un Codespace, GitHub, PyPI ou Hugging Face peuvent être lents ; avec des dev containers sur les ordinateurs de la salle, c'est le réseau de la salle. Retaper `./sorter setup`, qui repart de là où il s'est arrêté. Si l'échec se répète, mener l'atelier sur grand écran dans votre propre Codespace, et faire écrire les exemples sur papier.
 - **`messages/... : ... line(s) to fix`** : le trieur liste chaque ligne qu'il ne sait pas lire, avec son numéro. Les titres doivent être exactement `## topic`, `## today`, `## urgent`, `## off-topic`. Chaque message commence par `- `, un tiret et une espace : ni `*`, ni `1.`, ni le tiret long qu'ajoute un traitement de texte.
@@ -778,7 +793,7 @@ Les problèmes communs à toute la série sont dans la section Troubleshooting d
 - Deux scores par binôme sont au tableau (sans entraînement, réglé), avec le nombre d'urgences manquées pour chacun
 - Chaque binôme sait dire ce que l'entraînement fait aux nombres d'un modèle, ce qu'a appris le corps, et ce qu'a appris la tête
 - Les messages difficiles de l'animateur·rice ont été essayés avec `./sorter try`
-- Le tableau de comparaison de la partie 5 est rempli, et chaque binôme sait dire en une phrase quand il choisirait chaque modèle
+- Le tableau de comparaison de la partie 5 est rempli avec le score du premier entraînement, et chaque binôme sait dire en une phrase quand il choisirait chaque modèle
 - `my-work.zip` est téléchargé sur l'ordinateur
 - Les cartes de sortie montrent que chacun·e sait pourquoi un classifieur ne peut pas inventer de réponse, et pourquoi un message de test n'est jamais un exemple
 

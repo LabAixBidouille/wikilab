@@ -52,13 +52,13 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 ## Introduction
 
-Jusqu'ici, le chatbot ne lisait que ce qui se trouvait déjà dans le Codespace : ses instructions, ses documents, ses skills. Mais certaines connaissances changent tous les jours, comme le niveau de danger feu de forêt, et aucun document ne peut les contenir. Aujourd'hui, on branche des **outils** sur le chatbot : de petits programmes qu'il peut appeler pendant qu'il répond, et qui lui rapportent ce qu'ils trouvent. La question du jour :
+Jusqu'ici, le chatbot ne lisait que ce qui se trouvait déjà dans le Codespace : ses instructions, ses documents, ses skills. Mais certaines connaissances changent tous les jours, comme le niveau de danger feu de forêt, et aucun document ne peut les contenir. Aujourd'hui, on branche des **outils** sur le chatbot : des actions qu'il peut appeler pendant qu'il répond, et qui lui rapportent ce qu'elles trouvent. La question du jour :
 
 > **Que se passe-t-il quand le chatbot agit à l'extérieur ?**
 
 Un document dit ce qui était vrai le jour où il a été écrit. Le niveau de danger feu de forêt, lui, est décidé chaque jour par une autorité, et le chatbot ne peut pas le deviner. Un outil comble ce manque : le modèle lui pose une question, l'outil répond par un fait, et le modèle s'en sert dans sa réponse.
 
-Mais un outil est un programme qui tourne **dans votre Codespace, avec vos droits**. Il peut lire des fichiers, et certains outils envoient ce que le modèle leur demande (un lieu, un mot) à un service sur Internet. Avant d'en brancher un, on lit donc ce qu'il fait, comme on regarde une application avant de l'installer sur son téléphone.
+Ce pouvoir a un prix. Derrière un outil, il y a un programme qui tourne **dans votre Codespace, avec vos droits** : il peut y faire ce que vous pouvez y faire, comme ouvrir un fichier, le modifier ou lire votre clé. Les règles de `AGENTS.md` s'adressent au modèle, pas au programme : elles ne l'arrêtent donc pas. Certains outils envoient aussi ce que le modèle leur demande (un lieu, un mot) à un service sur Internet. Avant d'en brancher un, on lit donc ce qu'il fait, comme on regarde une application avant de l'installer sur son téléphone.
 
 Un outil, enfin, ne rapporte que ce que contiennent ses données. L'outil de danger feu de forêt de l'atelier lit un fichier qu'**une personne** remplit, le jour même, à partir de la source officielle. Si personne ne l'a rempli, l'outil le dit, et ne donne aucun niveau.
 
@@ -94,7 +94,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 
 - `mcp/fire-danger.json` : les données de l'outil, une entrée par territoire. On le remplit aujourd'hui.
 - `mcp/fire_danger_server.py` : le programme de l'outil, environ 160 lignes de Python.
-- `.mcp.json` : la liste des outils que branche le mode D, et comment chacun démarre.
+- `.mcp.json` : la liste des serveurs que branche le mode D, et comment chacun démarre.
 - `test-questions.md` et `scores.md` : le jeu de test et la feuille de notes. La façon de noter (0, 1 ou 2) est dans `test-questions.md`, section « How to score ».
 - `SETUP.md` : mise en place, commandes et problèmes courants. La jauge (la ligne `... / 200k` au-dessus de la zone de saisie) y est expliquée à l'étape 4.
 
@@ -106,9 +106,9 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **Jauge** : la ligne au-dessus de la zone de saisie qui montre combien de jetons occupe le contexte.
 - **Préprompt** (ou instructions) : le texte, dans `AGENTS.md`, qui dit au chatbot qui il est et quelles règles il suit.
 - **Skill** : une procédure écrite que le modèle peut suivre quand une demande correspond à sa description (vue à l'atelier 3).
-- **Outil** : un petit programme que le modèle peut appeler pendant qu'il répond, et qui lui rapporte un fait.
-- **MCP** (_Model Context Protocol_) : la manière commune de brancher un tel programme sur un chatbot. Un même programme d'outils peut se brancher sur Claude Code, sur OpenCode ou sur un autre chatbot.
-- **Serveur MCP** : le programme qui fournit un ou plusieurs outils. Il tourne dans le Codespace.
+- **Outil** : une action que le modèle peut appeler pendant qu'il répond, et qui lui rapporte un fait.
+- **Serveur MCP** : le petit programme qui offre un ou plusieurs outils. Il tourne dans le Codespace.
+- **MCP** (_Model Context Protocol_) : la manière commune de brancher un serveur sur un chatbot. Le même serveur peut se brancher sur Claude Code, sur OpenCode ou sur un autre programme qui fait tourner un chatbot.
 - **Description d'un outil** : le texte qui dit au modèle à quoi sert l'outil. C'est d'après elle que le modèle décide de l'appeler.
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
 - **Claude Code** : le programme qui fait tourner le chatbot dans le terminal du Codespace. **OpenCode** est le second moteur possible.
@@ -121,7 +121,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 
 - **Expliquer** pourquoi seul un outil peut donner le niveau de danger du jour, et lire un appel d'outil ainsi que ce qu'il a rapporté.
 - **Remplir** l'entrée d'un territoire à partir de sa source officielle, pour que l'outil donne ce niveau avec sa source.
-- **Comparer** trois outils : ce que chacun lit, ce qui sort du Codespace, ce que chacun coûte dans le contexte.
+- **Comparer** trois serveurs : ce que chacun lit, ce qui sort du Codespace, ce que chacun coûte dans le contexte.
 - **Décider** s'il faut brancher un outil, d'après ce qu'il peut faire avec ses droits et ce qu'il envoie à l'extérieur.
 - **Adapter** la démarche à un chatbot destiné à des jeunes : se demander, avant toute activité, ce qu'il envoie à l'extérieur et qui le lit.
 
@@ -155,7 +155,7 @@ Ce lien crée une copie personnelle du dépôt, dans VS Code qui tourne dans le 
 
 :::note[Si vous utilisez OpenCode]
 
-Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à OpenCode les mêmes outils. OpenCode demande l'accord avant chaque commande du terminal et chaque fichier qu'il écrit, mais pas avant d'appeler l'un de ces outils. Avec une clé OpenRouter (`sk-or-`), le juge de `score` ne fonctionne pas, car il lui faut une clé Anthropic : on note alors seul.
+Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à OpenCode les mêmes outils. OpenCode demande l'accord avant chaque commande qu'il veut lancer dans le terminal et chaque fichier qu'il écrit, mais pas avant d'appeler l'un de ces outils. Avec une clé OpenRouter (`sk-or-`), la conversation passe par OpenRouter vers l'entreprise du modèle choisi, qui n'est pas forcément Anthropic. Le juge de `score` ne fonctionne alors pas, car il lui faut une clé Anthropic : on note seul. D'autres façons de payer le modèle sont présentées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::
 
@@ -213,9 +213,10 @@ Le binôme doit restaurer le fichier le plus récent (peut-être `my-work (1).zi
 
 ### Ce que vous allez découvrir
 
-- **Un outil** est un petit programme que le modèle peut appeler pendant qu'il répond. Il rapporte un fait, ici le niveau du jour, lu dans un fichier.
-- **MCP** (_Model Context Protocol_) est la manière commune de brancher un tel programme sur un chatbot : un même programme d'outils, appelé **serveur**, peut se brancher sur Claude Code, sur OpenCode ou sur un autre chatbot.
-- **C'est le modèle qui décide** quand appeler un outil, d'après sa description. Il ne demande pas l'accord d'abord : l'atelier autorise les outils du mode D.
+- **Un outil** est une action que le modèle peut appeler pendant qu'il répond. Il rapporte un fait, ici le niveau du jour, lu dans un fichier. À l'atelier 3, vous avez vu des outils qui font partie de Claude Code : chercher un mot, lire un fichier. Les outils du jour s'y ajoutent.
+- **Un serveur** est le petit programme qui offre ces outils. Malgré son nom, ce n'est pas un gros ordinateur quelque part : ici, il tourne dans votre Codespace. Un serveur peut offrir plusieurs outils : `fire-danger` en offre deux.
+- **MCP** (_Model Context Protocol_) est la manière commune de brancher un serveur sur un chatbot : le même serveur peut se brancher sur Claude Code, sur OpenCode ou sur un autre programme qui fait tourner un chatbot.
+- **C'est le modèle qui décide** quand appeler un outil, d'après sa description. Il ne demande pas l'accord d'abord : les outils branchés en mode D ne font que lire, et les personnes qui ont préparé l'atelier les ont autorisés à l'avance.
 
 ### Ce que lit le modèle en mode D
 
@@ -224,7 +225,15 @@ Le modèle reçoit, d'un côté, `AGENTS.md`, l'indication de l'endroit où se t
 - **chercher un mot ou lire un fichier** dans `summaries/` et `corpus/text/` ;
 - **appeler un outil** (`fire-danger` ou `time`), qui ne lui renvoie que ce que l'outil choisit de renvoyer.
 
+**Ce qui se passe pendant un appel d'outil.** Le modèle ne tourne pas dans votre Codespace : il tourne chez Anthropic. Claude Code, le programme de votre terminal, lui envoie votre question et les descriptions des outils. Quand le modèle veut un outil, il répond par le nom de l'outil et ce qu'il faut lui demander. Claude Code le transmet au serveur, dans votre Codespace, puis renvoie au modèle ce qui est revenu, et le modèle écrit sa réponse.
+
 **L'idée clé** : le mode D, c'est le mode C plus des outils. Ce qu'un outil renvoie entre dans le contexte exactement comme un document que le modèle aurait lu.
+
+:::info[Notre outil lit un fichier : pourquoi n'est-ce pas un document de plus ?]
+
+Parce qu'il vérifie le fichier à chaque appel du modèle. Il compare la date du fichier à la date du jour. Si ce n'est pas la date du jour, ou si personne n'a écrit que la source montre un niveau aujourd'hui, il ne donne aucun niveau et dit pourquoi. Un document ne peut rien vérifier : le modèle lirait un vieux niveau comme s'il était celui du jour. Ici, une personne remplit le fichier. D'autres outils interrogent eux-mêmes un service : vous en verrez un à la partie 3.
+
+:::
 
 :::caution[Étape 1 : Voir les outils du mode D]
 
@@ -238,6 +247,8 @@ Le modèle reçoit, d'un côté, `AGENTS.md`, l'indication de l'endroit où se t
      ❯ ✔ fire-danger   2 tools
        ✔ time          2 tools
    ```
+
+   Le ✔ veut dire que le serveur a démarré, même avant la première question.
 
 3. Appuyer sur Entrée sur `fire-danger`, puis sur `1. View tools` : ses deux outils sont `territories` (la liste des territoires qu'il connaît) et `fire_danger` (le niveau d'un territoire aujourd'hui). Appuyer sur **Échap** jusqu'à revenir dans la conversation.
 
@@ -253,7 +264,11 @@ Le modèle reçoit, d'un côté, `AGENTS.md`, l'indication de l'endroit où se t
    "why_no_level": "The file is dated YYYY-MM-DD, not today (...). Nobody has filled in today's level yet."
    ```
 
+   `YYYY-MM-DD` est ce que contient le fichier tant que personne n'y a écrit de date.
+
    Que fait le modèle de cette réponse ? Lors du test du 2026-10-30, il a appelé `fire_danger`, puis `territories` (la liste des territoires), sans rien demander, en 6 secondes environ, pour environ 0,03 dollar.
+
+   Lire maintenant la réponse du chatbot. Donne-t-elle un niveau, ou dit-elle qu'il n'y en a pas aujourd'hui ? Cite-t-elle la source ? Le modèle ne peut pas connaître le niveau par lui-même, et ici l'outil ne lui en a donné aucun. La description de l'outil dit aussi au modèle de ne jamais deviner (vous la lirez à la partie 4). Une réponse qui dit « pas de niveau aujourd'hui » est un échec visible, comme à l'atelier 3 : une réponse inventée est pire que « je ne sais pas ».
 
 :::
 
@@ -268,9 +283,9 @@ L'outil lit `mcp/fire-danger.json`. Une personne le remplit, le jour même, à p
    - `"source_says"` : la phrase de la page sur aujourd'hui, recopiée telle quelle, dans sa langue ;
    - seulement si le statut est `"live"` : `"level"`, le niveau du jour, et les lignes de `"advice"`, recopiées telles quelles.
 
-   Garder les guillemets : chaque valeur entre guillemets, une virgule entre deux lignes, et aucune après la dernière. Enregistrer (`Ctrl+S`).
+   La plupart des lignes ont un nom à gauche et une valeur à droite. Ne changer que la valeur : remplacer tout le texte `TO BE COMPLETED...` entre les guillemets. Un programme lit ce fichier, et une seule virgule manquante l'arrête : garder donc les guillemets, une virgule entre deux lignes, et aucune après la dernière. Laisser telles quelles les lignes dont on n'a pas besoin : l'outil n'envoie pas une ligne qui dit encore `TO BE COMPLETED`. Enregistrer (`Ctrl+S`).
 
-4. Dans la même conversation, reposer la question 8. L'outil relit le fichier à chaque appel : il n'y a rien à redémarrer. Appuyer de nouveau sur **Ctrl+O** : qu'est-ce qui a changé dans ce que l'outil a renvoyé ?
+4. Dans la même conversation, reposer la question 8. L'outil relit le fichier à chaque appel : il n'y a rien à redémarrer. Appuyer de nouveau sur **Ctrl+O** : qu'est-ce qui a changé dans ce que l'outil a renvoyé ? Regarder `status`, `level`, `source_says` et `why_no_level`.
 5. Quitter avec **Ctrl+C deux fois**.
 
 :::
@@ -281,11 +296,9 @@ N'écrire que ce que dit la source officielle, le jour même. Si la page n'affic
 
 :::
 
-:::info[Quand l'outil donne-t-il un niveau ?]
+:::info
 
-L'outil ne donne un niveau que si la date est celle du jour et si le statut est `"live"`. Avec un autre statut, il ne donne aucun niveau et explique pourquoi, avec la phrase de la source. Un vieux fichier ne passe jamais pour le niveau du jour.
-
-Si le chatbot dit que `fire-danger.json is malformed`, il manque un guillemet ou une virgule. Le nom du fichier passe en rouge, avec le nombre de problèmes à côté. Chercher la ligne ondulée rouge dans l'éditeur et y poser la souris : VS Code dit ce qui manque (ici : `Expected comma`). Une virgule manquante se trouve en général à la fin de la ligne juste au-dessus. Corriger et enregistrer. Les captures de ces écrans sont dans le dépôt.
+Si le chatbot dit que `fire-danger.json is malformed`, il manque un guillemet ou une virgule : voir la première entrée du [Dépannage](#dépannage).
 
 :::
 
@@ -313,6 +326,8 @@ Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décid
 
 **Objectif** : utiliser deux serveurs écrits par d'autres, lire comment ils sont branchés, et voir ce que chacun envoie à l'extérieur et ce qu'il coûte dans le contexte.
 
+De nombreux serveurs existent déjà, pour un agenda, une base de données, un site web. En utiliser un évite du travail, mais on fait alors tourner, dans son Codespace, un programme écrit par quelqu'un d'autre.
+
 ### Ce que vous allez découvrir
 
 - **Time** : le serveur d'exemple officiel de MCP. Il donne la date et l'heure dans un fuseau horaire. Il n'appelle aucun service : il lit l'horloge du Codespace.
@@ -325,7 +340,7 @@ Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décid
 | ------------- | -------------------------------------- | ---------------------------------------- | --------------------------------------------------- |
 | `fire-danger` | l'atelier                              | le fichier `mcp/fire-danger.json`        | rien                                                |
 | `time`        | le projet MCP (exemple officiel)       | l'horloge du Codespace                   | rien                                                |
-| `open-meteo`  | un bénévole (logiciel libre)           | le service Open-Meteo, sur Internet      | le lieu et les coordonnées demandés par le modèle   |
+| `open-meteo`  | un bénévole (son code est public)      | le service Open-Meteo, sur Internet      | le lieu et les coordonnées demandés par le modèle   |
 
 Et pour les trois : ce que l'outil renvoie entre dans le contexte, et part donc chez l'entreprise du modèle (Anthropic) avec la question, comme tout ce qui se trouve dans la conversation.
 
@@ -333,8 +348,8 @@ Et pour les trois : ce que l'outil renvoie entre dans le contexte, et part donc 
 
 :::caution[Étape 1 : Lire comment les outils sont branchés]
 
-1. Ouvrir `.mcp.json`. Il liste les serveurs du mode D : pour chacun, le programme qui le lance (`command`) et ses options (`args`).
-2. Trouver la ligne de `time`. Quelle option reçoit-il ? (`--local-timezone Europe/Paris` : le fuseau horaire qu'il utilise quand le modèle n'en nomme pas. À l'étape 2, observer quel fuseau horaire le modèle demande.)
+1. Ouvrir `.mcp.json`. Il liste les serveurs du mode D : pour chacun, le programme qui le lance (`command`) et ses options (`args`). Les chemins qui commencent par `/opt/workshop/` sont des programmes déjà installés dans le Codespace.
+2. Trouver la ligne de `time`. Quelle option reçoit-il ? (`--local-timezone Europe/Paris` : le fuseau horaire qu'il utilise quand le modèle n'en nomme pas. À l'étape 2, observer quel fuseau horaire le modèle demande.) Une option change ce que fait le programme : c'est la « façon dont il est lancé » de l'idée clé ci-dessus.
 
 :::
 
@@ -355,20 +370,23 @@ La carte du Pla Alfa, en Catalogne, est mise à jour à heures fixes : le résum
    Use the time tool: is it already past 9:30 in Barcelona, so that the Pla Alfa map has had its morning update?
    ```
 
-4. Comparer les deux réponses. Lors du test du 2026-10-30, le modèle n'a pas appelé `time` la première fois : il a trouvé les heures de mise à jour dans le résumé, puis a dit qu'il ne pouvait pas savoir. La seconde fois, il a appelé `time` (`get_current_time`, fuseau `Europe/Madrid`) et a répondu avec l'heure de Barcelone. La date, le modèle l'avait déjà : Claude Code la lui donne, et l'outil de danger feu de forêt aussi.
+4. Comparer les deux réponses. Lors du test du 2026-10-30, le modèle n'a pas appelé `time` la première fois : il a trouvé les heures de mise à jour dans le résumé, puis a dit qu'il ne pouvait pas savoir. La seconde fois, il a appelé `time` (`get_current_time`) et a répondu avec l'heure de Barcelone. Il a choisi lui-même le fuseau `Europe/Madrid`, celui qui couvre Barcelone, et non le `Europe/Paris` de l'option. La date, le modèle l'avait déjà : Claude Code la lui donne, et l'outil de danger feu de forêt aussi.
+
+   **Ce que cela veut dire.** Un outil branché n'est pas toujours utilisé. Le modèle choisit d'après la question et d'après les descriptions des outils. Dans notre test, il n'a pas utilisé l'horloge tant que la question ne nommait pas l'outil, et la description de `time` est quand même entrée dans le contexte. Il faut donc tester un outil avec les questions que les gens poseront vraiment.
+
 5. Quitter avec **Ctrl+C deux fois**.
 
 :::
 
 :::caution[Étape 3 : Brancher la météo]
 
-L'outil météo n'est pas dans le mode D par défaut. Pour le brancher le temps d'une conversation, taper :
+L'outil météo n'est pas dans le mode D par défaut. Il diffère des deux premiers serveurs sur deux points : ce que le modèle lui demande sort du Codespace, et ses descriptions prennent beaucoup plus de place dans le contexte. Il est listé dans un second fichier, `.mcp.weather.json`, et non dans `.mcp.json`. Pour le brancher le temps d'une conversation, taper la commande ci-dessous : `WORKSHOP_WEATHER=1` devant `workshop D` est un réglage valable pour ce démarrage seulement.
 
 ```bash
 WORKSHOP_WEATHER=1 workshop D
 ```
 
-1. Taper `/mcp` : on doit voir un troisième serveur, `✔ open-meteo   17 tools`. L'atelier n'en montre au modèle **que 2** (la prévision, et la recherche d'un lieu par son nom) : les descriptions des 17 outils font environ 112 000 caractères, celles des 2 retenus environ 12 000. Appuyer sur **Échap**. L'atelier autorise aussi ces deux outils : le modèle les appelle sans demander, et ce qu'il leur envoie sort du Codespace.
+1. Taper `/mcp` : on doit voir un troisième serveur, `✔ open-meteo   17 tools`. L'atelier n'en montre au modèle **que 2** (la prévision, et la recherche d'un lieu par son nom) : les descriptions des 17 outils font environ 112 000 caractères, celles des 2 retenus environ 12 000 (en moyenne, 4 caractères de texte anglais font un jeton). Appuyer sur **Échap**. L'atelier autorise aussi ces deux outils : le modèle les appelle sans demander, et ce qu'il leur envoie sort du Codespace.
 2. Demander :
 
    ```text
@@ -377,9 +395,10 @@ WORKSHOP_WEATHER=1 workshop D
 
    Appuyer sur **Ctrl+O** : qu'est-ce que le modèle a envoyé à Open-Meteo ? Lors du test du 2026-10-30, il a envoyé les coordonnées de La Rochelle (46.16, -1.15), qu'il connaissait sans chercher, et la réponse est arrivée en 5 secondes environ.
 
+   Regarder la jauge maintenant, avant la question suivante : elle compte toute la conversation, et monte donc à chaque message. Lors du test, la première réponse d'une nouvelle conversation occupait environ 14 000 jetons de contexte pour cette question sur la météo, et environ 8 000 pour la question 8 sans la météo. Ce sont deux questions différentes : l'écart ne vient donc pas seulement des descriptions des outils, la prévision reçue compte aussi, et la part de chacune n'a pas été mesurée. Les descriptions des outils entrent dans le contexte à chaque message, même quand le modèle ne les appelle pas. Ne brancher donc que les outils dont le chatbot a besoin.
+
 3. Demander maintenant : `Given the weather, what is the fire danger level today in La Rochelle?` Le modèle présente-t-il une prévision météo comme si c'était le niveau officiel ? Lors du test, non : il a appelé l'outil de danger feu de forêt, et a dit que la météo ne donne pas le niveau officiel. Un test sur une seule question ne prouve pas grand-chose : essayez vous-même.
-4. Regarder la jauge. Lors du test, avec la météo branchée, chaque réponse occupait environ 14 000 jetons de contexte, contre 8 000 sans elle. Les descriptions des outils entrent dans le contexte à chaque message, même quand le modèle ne les appelle pas.
-5. Quitter avec **Ctrl+C deux fois**.
+4. Quitter avec **Ctrl+C deux fois**.
 
 :::
 
@@ -427,7 +446,7 @@ Si Open-Meteo ne répond pas (réseau, limite), sauter l'étape météo : les de
 ### Ce que vous allez découvrir
 
 - **Un serveur démarre avec vos droits.** Il peut lire les fichiers du Codespace, et certains envoient des données à un service sur Internet. Le modèle décide quand l'appeler, mais c'est le programme qui décide de ce qu'il fait.
-- **Ce qu'un outil renvoie entre dans le contexte.** Une page web ou la réponse d'un service peut contenir des instructions, comme un document. L'animateur·rice en montre un exemple.
+- **Ce qu'un outil renvoie entre dans le contexte.** Une page web ou la réponse d'un service peut contenir des instructions que personne n'a écrites dans votre `AGENTS.md`. L'animateur·rice en montre un exemple.
 - **La source fait partie des données.** L'entrée d'un territoire dit d'où vient le niveau, pour que chacun puisse le vérifier.
 
 ### Avant d'installer un serveur : cinq questions
@@ -440,26 +459,41 @@ Si Open-Meteo ne répond pas (réseau, limite), sauter l'étape météo : les de
 | Écrit-il ou supprime-t-il quelque chose ?         | sa liste d'outils : tout outil qui écrit, supprime ou envoie un message                                          |
 | Sa version est-elle figée ?                       | `.mcp.json`, et la façon dont il a été installé (ici : dans l'image du Codespace, avec des versions figées)      |
 
+:::info[Quelques mots de ce tableau]
+
+GitHub, PyPI et npm sont des sites où l'on publie des programmes. La page d'un programme montre qui l'a écrit et sa dernière version (une **release**). **Entretenu** veut dire que quelqu'un le corrige encore. Une **version figée** veut dire que le chatbot garde la version vérifiée : si un programme se met à jour tout seul, le programme lu aujourd'hui peut faire autre chose demain. L'**image du Codespace** est l'ensemble de programmes tout prêt d'où part chaque Codespace de cet atelier.
+
+:::
+
 **L'idée clé** : une description dit à quoi sert un outil. Seul son code dit ce qu'il fait. Lire les deux, ou demander à quelqu'un qui sait lire le code.
 
 :::caution[Étape 1 : Lire notre outil]
 
 1. Ouvrir `mcp/fire_danger_server.py`. Pas besoin de savoir lire le Python pour en voir l'essentiel.
-2. Trouver les deux fonctions marquées `@mcp.tool()` : leur texte entre `"""` est la **description** que lit le modèle. Trouver la ligne `DATA = ...` : le fichier que lisent ces deux outils. La ligne en dessous, `RECORDED = ...`, sert à un troisième outil (un jour passé), qui reste coupé sauf si l'animateur·rice l'active.
-3. Répondre aux cinq questions ci-dessus pour ce serveur. Appelle-t-il une adresse sur Internet ?
+2. Trouver les deux blocs qui commencent par `@mcp.tool()` : leur texte entre `"""` est la **description** que lit le modèle. Trouver la ligne `DATA = ...` : le fichier que lisent ces deux outils. La ligne en dessous, `RECORDED = ...`, sert à un troisième outil (un jour passé), qui reste coupé sauf si l'animateur·rice l'active.
+3. Répondre aux cinq questions ci-dessus pour ce serveur. Pour « Qu'envoie-t-il à l'extérieur ? », appuyer sur **Ctrl+F** dans l'éditeur et chercher `http` : une adresse sur Internet commence par ces lettres. Ici, la recherche ne trouve rien. C'est bon signe, pas une preuve : pour un gros programme, demander à quelqu'un qui sait lire le code.
+4. Essayer maintenant les cinq mêmes questions sur `open-meteo`, avec ce qui a été vu à la partie 3. Auxquelles peut-on répondre ? Lesquelles demandent son code ?
 
 :::
 
 :::caution[Étape 2 : Regarder l'exemple de l'animateur·rice]
 
-L'animateur·rice montre, sur le grand écran, une page web qui cache une phrase destinée aux assistants d'IA. Observer ce que le chatbot en fait, puis discuter : qui a écrit cette phrase, et qui l'a lue ?
+Tout ce que lit le modèle entre dans le contexte avec le même poids que votre question : un document, une page web, ce que renvoie un outil. Un texte peut donc porter des instructions que personne n'a écrites dans votre `AGENTS.md`, et la personne qui utilise le chatbot peut n'en rien voir.
+
+L'animateur·rice montre cela sur le grand écran, avec une page web qui cache une phrase destinée aux assistants d'IA (du texte blanc sur fond blanc, en très petite taille), et demande au chatbot de la résumer.
+
+1. Lire la réponse. Le chatbot dit-il que la page cache quelque chose ?
+2. L'animateur·rice ouvre le fichier dans l'éditeur, et la phrase apparaît. Lire ce qu'elle demande. Le chatbot l'a-t-il fait ?
+3. Discuter : qui a écrit cette phrase, qui l'a lue, et que pourrait-elle demander d'autre ?
+
+Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude Code ni avec OpenCode. OpenCode l'a signalée, Claude Code n'en a rien dit. Un seul essai ne prouve pas grand-chose : une phrase plus habile, ou un modèle plus petit, peut obéir. Les règles d'un chatbot ne sont pas un verrou.
 
 :::
 
 :::caution[Étape 3 : Remplir l'entrée de son territoire]
 
 1. Rouvrir `mcp/fire-danger.json`. Si votre territoire y figure (La Rochelle, Aix-en-Provence, Barcelone, Anvers, Naples), remplir son entrée comme pour Anvers en partie 2 : `status`, `source_says`, et `level` et `advice` seulement si le statut est `"live"`.
-2. Si votre territoire n'est pas dans le fichier, copier une entrée, la coller après la dernière, mettre une virgule entre les deux, et remplacer son nom, `scale`, `source` et `season` par ceux de votre territoire (supprimer la ligne `season`, avec sa virgule, si vous ne la connaissez pas).
+2. Si votre territoire n'est pas dans le fichier, copier une entrée, la coller après la dernière, mettre une virgule entre les deux, et remplacer son nom, `scale` (les niveaux qu'utilise l'autorité, dans les mots de la source), `source` et `season` par ceux de votre territoire. Si vous ne connaissez pas `scale`, écrire `TO BE COMPLETED` : l'outil ne l'envoie pas. Si vous ne connaissez pas `season`, supprimer sa ligne, avec sa virgule.
 3. Vérifier que `"date"` est toujours celle du jour, et enregistrer.
 4. Taper `workshop D` et demander `What is the fire danger level today in <your territory>?`, en remplaçant `<your territory>` par le nom de votre territoire. Appuyer sur **Ctrl+O** pour voir ce que l'outil a renvoyé (de nouveau **Ctrl+O** pour revenir) : la réponse cite-t-elle votre source ?
 5. Quitter avec **Ctrl+C deux fois**.
@@ -490,7 +524,7 @@ L'entrée de votre territoire dans un outil vivant, avec sa source. **À réempl
 
 :::info[Notes pour l'animateur·rice]
 
-**La démonstration de la phrase cachée.** Déposer la page piégée dans **votre** Codespace, lancer `workshop D`, demander `Summarise trap-page.html for a group of young people.`, montrer la réponse, puis ouvrir le fichier dans l'éditeur : la ligne cachée apparaît. Discuter : qui l'a écrite, qui l'a lue, que pourrait-elle demander d'autre ? **Supprimer la page avant tout `replay`.** Lors des essais (Claude Code et OpenCode, mode D), aucun des deux n'a suivi la phrase cachée ; OpenCode l'a signalée, Claude Code non.
+**La démonstration de la phrase cachée.** Déposer la page piégée dans **votre** Codespace, lancer `workshop D`, demander `Summarise trap-page.html for a group of young people.`, montrer la réponse, puis ouvrir le fichier dans l'éditeur : la ligne cachée apparaît. Discuter : qui l'a écrite, qui l'a lue, que pourrait-elle demander d'autre ? La page des participant·es donne notre résultat de test sous cette étape : faire la démonstration avant que les binômes la lisent jusque-là. **Supprimer la page avant tout `replay`.** Lors des essais (Claude Code et OpenCode, mode D), aucun des deux n'a suivi la phrase cachée ; OpenCode l'a signalée, Claude Code non.
 
 **Territoires sans niveau public quotidien.** Naples : aucune page publique quotidienne trouvée (statut `no-level-shown` ; dans le fichier, `scale` et `source` sont encore à compléter, et renvoient à l'animateur·rice). La Rochelle et Aix-en-Provence, hors saison : les cartes des préfectures ne publient pas de données ; pour La Rochelle, l'arrêté 26EB142 (`corpus/text/30`) dit ce qui s'applique alors, et sa phrase fait un bon `source_says`. Barcelone : le Pla Alfa fonctionne toute l'année.
 
@@ -499,6 +533,10 @@ Après la partie : « Brancheriez-vous un serveur que vous ne pouvez pas lire ? 
 :::
 
 ## Partie 5 : Clôture (15 min)
+
+**Objectif** : voir ce que les outils ont changé dans la note du chatbot, et sauvegarder son travail.
+
+Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, qu'aucun document ne contient. Les questions 11 et 12 portent sur ce qui a été ajouté à l'atelier 3, le document de Bénévent et la page de son territoire : elles vérifient que le chatbot les trouve encore quand il a aussi des outils.
 
 :::caution[Étape 1 : Rejouer et noter la colonne D]
 
@@ -509,7 +547,7 @@ Après la partie : « Brancheriez-vous un serveur que vous ne pouvez pas lire ? 
    replay D
    ```
 
-   Sous chaque réponse, la ligne `What the model did:` liste ce que le modèle a lu et cherché, et les outils qu'il a appelés, par exemple `called the MCP tool fire_danger`. Lors du test du 2026-10-30, avec les 11 questions du kit (sans question 12) : 1 min 54 et 0,24 dollar. D'autres façons de payer le modèle sont présentées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+   Sous chaque réponse, la ligne `What the model did:` liste ce que le modèle a lu et cherché, et les outils qu'il a appelés, par exemple `called the MCP tool fire_danger`. Lors du test du 2026-10-30, avec les 11 questions du kit (sans question 12) : 1 min 54 et 0,24 dollar.
 
 3. Noter seulement les trois questions du jour, avec l'aide du juge (sans question 12 : `score D 8 11`) :
 
@@ -555,7 +593,7 @@ Rappel du barème (fiche d'une page) :
 
 Les problèmes courants (clé, Codespace, terminal) sont dans la section « Troubleshooting » de `SETUP.md`.
 
-- **`fire-danger.json is malformed (Expecting ',' delimiter: line ... column ...). Fix it and try again.`** : il manque une virgule ou un guillemet dans `mcp/fire-danger.json`. Aller à la ligne indiquée dans le message et chercher le soulignement rouge dans l'éditeur. Une virgule manquante se trouve en général à la fin de la ligne juste au-dessus. Corriger et enregistrer : inutile de redémarrer la conversation.
+- **`fire-danger.json is malformed (Expecting ',' delimiter: line ... column ...). Fix it and try again.`** : il manque une virgule ou un guillemet dans `mcp/fire-danger.json`. Le nom du fichier passe en rouge, avec le nombre de problèmes à côté. Aller à la ligne indiquée dans le message, chercher la ligne ondulée rouge dans l'éditeur et y poser la souris : VS Code dit ce qui manque (ici : `Expected comma`). Les captures de ces écrans sont dans le dépôt. Une virgule manquante se trouve en général à la fin de la ligne juste au-dessus. Corriger et enregistrer : inutile de redémarrer la conversation.
 - **L'outil dit `The file is dated ..., not today`** : écrire la date du jour dans `"date"`, en haut du fichier, sous la forme année-mois-jour, et enregistrer.
 - **L'outil ne donne pas de niveau alors que j'en ai écrit un** : l'outil ne donne un niveau que si le statut est `"live"`. Avec `"season-over"` ou `"no-level-shown"`, il donne la phrase de la source à la place.
 - **`/mcp` affiche un serveur avec ✘ au lieu de ✔** : quitter la conversation (**Ctrl+C deux fois**) et relancer `workshop D`. Si le ✘ reste, demander à l'animateur·rice.

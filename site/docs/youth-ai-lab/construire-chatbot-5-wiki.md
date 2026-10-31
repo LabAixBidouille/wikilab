@@ -68,7 +68,7 @@ Cela a un prix : les pages vieillissent, et elles peuvent s'éloigner de leurs s
 
 **Le lien avec WikiYouthBot.** Dans l'activité [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot), le chatbot se construit dans un outil qui a **deux cases** : _Instructions_ et _Knowledge_ (connaissances). On peut déjà le faire aujourd'hui avec Open WebUI : voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). La partie 2 fournit des pages propres pour la case _Knowledge_, et la partie 5 remet tout dans les deux cases. Ce que des jeunes ont construit avec cette activité à La Rochelle, en juillet 2026 : https://youth-ai-lab.github.io/wikiyouthbot/
 
-La série a construit le chatbot une pièce à la fois, et il se termine ici :
+Toute la série, une pièce du chatbot à la fois :
 
 - **Atelier 1** : les instructions, et comment tester un chatbot
 - **Atelier 2** : toutes les connaissances dans le contexte, puis un RAG
@@ -125,11 +125,11 @@ La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un
 
 - **Modèle** : le programme d'IA générative qui lit un texte et écrit la suite (ici, Claude Sonnet, le même pour tous les binômes).
 - **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est le maximum qu'il peut lire d'un coup.
-- **Jeton** (_token_) : un morceau de mot, l'unité de mesure du contexte. La **jauge** affichée au-dessus de la zone de saisie indique combien de jetons le modèle a lus.
+- **Jeton** (_token_) : un morceau de mot, l'unité de mesure du contexte. La **jauge** affichée au-dessus de la zone de saisie indique combien de jetons sont dans le contexte à cet instant.
 - **Instructions** (ou préprompt) : le texte placé avant toute conversation pour donner au chatbot son rôle et ses règles, ici le fichier `AGENTS.md`.
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
 - **Claude Code** : l'outil qui fait dialoguer le modèle avec les fichiers du Codespace. La commande `workshop` le lance dans un mode de la série (`bare`, `A`, `B`, `C`, `D`, `E`, `F`).
-- **Mode E** : le chatbot qui lit d'abord le wiki, garde l'outil de l'atelier 4, et ne cherche dans les sources que si le wiki ne suffit pas.
+- **Mode E** : le chatbot qui lit d'abord le wiki, garde les outils de l'atelier 4, et ne cherche dans les sources que si le wiki ne suffit pas.
 - **Skill** : une procédure écrite, que le modèle suit quand on lui demande une tâche précise (ici `ingest` et `lint`).
 - **MCP** : une façon standard de brancher un outil extérieur sur un modèle (à l'atelier 4, le niveau de danger d'incendie du jour).
 - **Wiki** : un ensemble de pages, une par sujet, reliées entre elles.
@@ -139,7 +139,7 @@ La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un
 - **Ingest** : la skill qui fait entrer un document dans le wiki.
 - **Lint** : la skill qui vérifie tout le wiki, signale les problèmes et ne corrige rien d'elle-même.
 - **Graphe de connaissances** : une carte des idées et des liens entre elles. Un **nœud** est un point de la carte, une **arête** est une ligne entre deux nœuds.
-- **Communauté** : un groupe de nœuds fortement reliés, trouvé par un calcul. Un **pôle** (_hub_) est l'un des nœuds les plus reliés.
+- **Communauté** : un groupe de nœuds fortement reliés, trouvé par un calcul.
 - **EXTRACTED / INFERRED** : une arête écrite dans une page, ou une arête devinée par le modèle (une suggestion, pas un fait).
 - **Instantané** (_snapshot_) : une image prise à un moment donné. Le graphe ne change pas quand le wiki change.
 - **Juge** : un modèle qui propose une note pour chaque réponse ; une personne accepte ou corrige.
@@ -257,7 +257,9 @@ L'animateur·rice a préparé ce wiki avant la séance : un modèle l'a écrit �
 - Le lint lit les pages et les sources → un rapport pour vous
 - Votre question → le modèle, qui lit d'abord `index.md`, puis les pages utiles
 
-En mode E, le modèle a pour consigne de lire d'abord `wiki/index.md`, puis les pages utiles, et de ne chercher dans les sources que si le wiki ne suffit pas. Il garde aussi l'outil de l'atelier 4. Comme dans les autres ateliers, la **jauge** montre combien de jetons le modèle a lus, et la **fenêtre de contexte** est le maximum qu'il peut contenir.
+Vous avez déjà des résumés : pourquoi des pages ? Un résumé suit un document. Une page du wiki suit un **sujet** : un document peut alimenter plusieurs pages, et une page peut citer plusieurs documents. Ce que disent les documents sur un sujet se trouve ainsi à un seul endroit.
+
+En mode E, le modèle a pour consigne de lire d'abord `wiki/index.md`, puis les pages utiles, et de ne chercher dans les sources que si le wiki ne suffit pas. Il garde aussi les outils de l'atelier 4. Comme dans les autres ateliers, la **jauge** montre combien de jetons (des morceaux de mots) le modèle a lus, et la **fenêtre de contexte** est le maximum qu'il peut contenir.
 
 **Idée clé** : le travail est fait une fois, avant la question. Chaque fait garde son chemin vers une source. Et quand deux sources ne concordent pas, le wiki garde les deux.
 
@@ -277,15 +279,15 @@ Une page du wiki n'est pas un résumé signé. Son en-tête a une ligne `generat
 
 #### Étape 2 : Lire le journal
 
-Ouvrir `wiki/log.md`, et appuyer sur `Ctrl+Shift+V` : une ligne par changement, `Creation`, `Update` ou `Contradiction`. Il y a 6 lignes `Contradiction` : appuyer sur `Ctrl+F` et chercher ce mot. En choisir une, la lire en binôme, et retrouver les deux sources qu'elle cite.
+Ouvrir `wiki/log.md`, et appuyer sur `Ctrl+Shift+V` : une ligne par changement, `Creation`, `Update` ou `Contradiction`. Il y a 6 lignes `Contradiction` : appuyer sur `Ctrl+F` et chercher ce mot. En choisir une, la lire en binôme, et retrouver les deux sources qu'elle cite. Regarder ce qui diffère : le chiffre, ou la portée ?
 
 La règle de la skill `ingest` : le modèle écrit `According to one source, X; according to another, Y` (« selon une source, X ; selon une autre, Y »), avec une note sur chacune. Il ne choisit pas, il n'enlève rien, et il ne reformule rien.
 
 #### Étape 3 : Prédire avant d'ingérer
 
-1. Trouver son numéro. Avec une sauvegarde, c'est le résumé signé à l'atelier 3 : en général **81**, ou **80** si la page du binôme a été refusée ce jour-là. Ouvrir `summaries/index.md` : sous « Added during the session », la ligne du binôme doit indiquer `(human-reviewed)`. Si elle indique `(draft, not verified)`, on fera entrer à la place le texte officiel du document (étape 4). Sans sauvegarde, ou sans ligne à cet endroit, c'est Bénévent : chercher dans `corpus/` le fichier `8N-benevento-aib-2026.pdf` ; son numéro est en général **80**.
+1. Trouver son numéro : chaque document et chaque résumé en a un au début de son nom de fichier, et il sert à retrouver son document dans le dessin. Avec une sauvegarde, c'est le résumé signé à l'atelier 3 : en général **81**, ou **80** si la page du binôme a été refusée ce jour-là. Ouvrir `summaries/index.md` : sous « Added during the session », la ligne du binôme doit indiquer `(human-reviewed)`. Si elle indique `(draft, not verified)`, on fera entrer à la place le texte officiel du document (étape 4). Sans sauvegarde, ou sans ligne à cet endroit, c'est Bénévent : chercher dans `corpus/` le fichier `8N-benevento-aib-2026.pdf` ; son numéro est en général **80**.
 2. Regarder `wiki/index.md`, et **noter les pages que ce document devrait, selon vous, alimenter**.
-3. Dans le premier terminal, taper, avec son numéro :
+3. `wiki-graph` n'utilise aucun modèle. Il lit les pages du wiki et écrit un dessin, `wiki/graph.md`, avec une boîte pour chaque page et une forme pour chaque document source. `--highlight` désigne le document à peindre en orange, avec les pages qui le citent. Dans le premier terminal, taper, avec son numéro :
 
    ```bash
    wiki-graph --highlight 81
@@ -297,6 +299,8 @@ La règle de la skill `ingest` : le modèle écrit `According to one source, X; 
    Wrote wiki/graph.md: 18 pages, 20 source documents.
    No page cites a document matching '81' yet. Has it been ingested? (ask the chatbot: "ingest summaries/<file>")
    ```
+
+   La seconde ligne est ce qu'on veut à ce stade : aucune page ne cite encore le document. `18 pages, 20 source documents` est le wiki avant la modification. À l'étape 5, on retape la même commande, et on compare.
 
 #### Étape 4 : Faire entrer son document dans le wiki
 
@@ -331,10 +335,16 @@ La règle de la skill `ingest` : le modèle écrit `According to one source, X; 
    Sans sauvegarde : `ingest corpus/80-benevento-aib-2026.pdf into the wiki`. Si le résumé est encore un brouillon, demander le texte officiel, par exemple `ingest corpus/81-my-town-fire-rules.html into the wiki`.
 
 2. Repérer la ligne `Skill(ingest)`. La skill lit le schéma et l'index, parcourt les sujets du document, en général 1 à 5, met à jour ou crée une page pour chacun, compare chaque chiffre et sa portée avec le wiki, et ajoute des lignes à `wiki/log.md`.
-3. À chaque fois qu'elle veut écrire, lire ce qu'elle écrit, puis accepter avec **1. Yes**.
+3. À chaque fois qu'elle veut écrire, lire ce qu'elle écrit. Dans une page du wiki, chaque fait nouveau se termine-t-il par une note `[^...]` ? Chaque chiffre est-il celui du document ? (L'en-tête d'une page, l'index et le journal n'ont pas de notes.) Si oui, accepter avec **1. Yes**. Si quelque chose ne va pas, choisir **3. No** : `User rejected update to ...` s'affiche, rien n'est écrit, et le modèle s'arrête. Taper ce qui ne va pas et appuyer sur Entrée : il reçoit votre phrase et repart de là.
 4. Lire son compte rendu : quelles pages ont changé, a-t-elle trouvé une contradiction ? Quitter avec **Ctrl+C deux fois**.
 
 Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et non dans un Codespace, autorisations acceptées automatiquement), faire entrer le document de Bénévent a pris 42 secondes et coûté 0,14 \$ : une page créée, une mise à jour, l'index et le journal, avec une contradiction que personne n'avait placée là. Un binôme aurait eu 6 autorisations à donner, et la jauge a atteint environ 26 000 jetons.
+
+:::info[Comment lire nos mesures]
+
+L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. Personne n'a répondu aux autorisations : le temps de votre propre lecture n'est donc pas compté. Chaque « même essai » ci-dessous a tourné dans ces conditions. Vos nombres seront différents.
+
+:::
 
 #### Étape 5 : Voir où il est allé
 
@@ -359,14 +369,24 @@ Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et n
 
 On le lance maintenant, après `ingest`, pour que les réponses puissent utiliser le document du binôme.
 
-1. **Prédire** sur papier : les questions 3, 10, 11 et 12 auront-elles un meilleur score dans la colonne E que dans les colonnes précédentes ? La jauge sera-t-elle plus petite qu'en mode C ? On le vérifie à la partie 5.
+1. **Prédire** sur papier. Chaque question teste autre chose :
+
+   | N° | Ce qu'elle teste                                                                   |
+   | -- | ---------------------------------------------------------------------------------- |
+   | 3  | un fait que seul le texte complet d'un document officiel donne                     |
+   | 10 | deux sources en désaccord : le chatbot doit signaler la contradiction, pas choisir |
+   | 11 | un fait d'un document que vous avez ajouté : le document de Bénévent               |
+   | 12 | un fait précis sur votre territoire, avec sa source                                |
+
+   Ces quatre questions auront-elles un meilleur score dans la colonne E que dans les colonnes précédentes ? La jauge sera-t-elle plus petite qu'en mode C ? Si le binôme a ingéré son propre document, Bénévent n'est pas dans le wiki : le chatbot retournera-t-il aux sources pour la question 11 ? On le vérifie à la partie 5.
+
 2. Dans le deuxième terminal, une fois `openwebui start` terminé, taper (s'il n'est pas terminé, ouvrir un troisième terminal) :
 
    ```bash
    replay E
    ```
 
-3. Le jeu se déroule sans intervention, et les réponses attendent le binôme à la partie 5. Dans le même essai (image 2026.10.34, dans un conteneur, sans personne pour répondre), il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12.
+3. Le jeu se déroule sans intervention : le terminal montre chaque question au fur et à mesure, puis une ligne `Answers: ...` avec le coût. Ne pas l'attendre : continuer la partie 3 dans le premier terminal. Les réponses attendent le binôme à la partie 5. Dans le même essai, il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12.
 
 :::note[Point de contrôle]
 
@@ -379,7 +399,7 @@ On le lance maintenant, après `ingest`, pour que les réponses puissent utilise
 Surveiller quatre moments :
 
 - **La prédiction** : les binômes veulent la sauter. Sans elle, le dessin orange n'apprend rien.
-- **Les demandes d'autorisation** : lire chaque écriture et accepter avec **1. Yes**, jamais l'option qui arrête de demander. Compter environ 6 demandes.
+- **Les demandes d'autorisation** : lire chaque écriture, accepter avec **1. Yes** ou refuser avec **3. No** si quelque chose ne va pas, et ne jamais prendre l'option qui arrête de demander. Compter environ 6 demandes.
 - **Le numéro** : `--highlight 81` n'est qu'un exemple. Un binôme qui a fait entrer Bénévent tape 80.
 - **Ce qui entre** : un résumé signé, ou le texte officiel, jamais un brouillon.
 
@@ -416,6 +436,14 @@ Une base de connaissances qui reste rangée en grandissant. **Réutilisée dans*
 - **Les neuf vérifications** de la skill `lint` : en-têtes, notes de bas de page, sources, liens, index, pages orphelines (aucune autre page ne pointe vers elles), contradictions, omissions silencieuses (un chiffre de la source qui manque dans la page), et doublons.
 - **Les propositions** : une action par ligne, que l'on accepte ou que l'on refuse.
 
+### Pourquoi un wiki a besoin d'une vérification
+
+`ingest` travaille sur un document et les pages de ses sujets. Il compare les chiffres avec le wiki, mais il ne vérifie jamais toutes les pages par rapport à leurs sources. De petits défauts peuvent donc s'accumuler, de modification en modification : un chiffre absent d'une page, une phrase sans note, un lien vers une page qui n'existe pas, deux pages sur le même sujet.
+
+La skill `lint` passe en revue **toutes** les pages, retourne à leurs sources, et écrit un rapport. Elle ne change rien sans votre accord. C'est la ligne « Le lint lit les pages et les sources » de la partie 2.
+
+Le lint est lui aussi un modèle. Il peut manquer un problème, et il peut en signaler un qui n'existe pas. Son rapport est donc une liste de choses à vérifier.
+
 **Idée clé** : un wiki dérive, un peu à chaque changement. Le lint signale, la personne décide.
 
 ### Déroulé
@@ -435,17 +463,21 @@ Une base de connaissances qui reste rangée en grandissant. **Réutilisée dans*
    ```
 
 3. Repérer la ligne `Skill(lint)`. S'il demande à lancer une commande qui lit des fichiers, accepter avec **1. Yes**.
-4. Regarder la jauge.
+4. Regarder la jauge. Elle monte bien plus haut que pour `ingest`, parce que le lint lit toutes les pages et retourne aux sources. C'est pour cela qu'on a démarré une nouvelle conversation.
 
-Dans le même essai (image 2026.10.34, dans un conteneur, sans personne pour répondre), le lint a pris 2 min 10 et coûté 0,55 \$, et la jauge a atteint environ 137 000 jetons, 68 % de la fenêtre. C'est plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document.
+Dans le même essai, le lint a pris 2 min 10 et coûté 0,55 \$, et la jauge a atteint environ 137 000 jetons, 68 % de la fenêtre. C'est plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document.
 
 #### Étape 2 : Lire le rapport
 
-Le rapport commence par une ligne de décomptes, et sa dernière section s'appelle `Proposals`. Dans notre essai, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste. En binôme, trouver une remarque que l'on peut vérifier : ouvrir la page qu'elle cite. Est-ce un vrai problème, ou une affaire de goût ?
+Le rapport commence par une ligne de décomptes, et sa dernière section s'appelle `Proposals`. Entre les deux viennent les **remarques** (_findings_) : ce que le lint juge faux, sous des titres comme `Contradictions`, `Statements without a valid source` et `Omissions and rewordings`. Une proposition est une action qu'il suggère, en général pour répondre à une remarque.
+
+Dans notre essai, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste.
+
+En binôme, trouver une remarque que l'on peut vérifier. Ouvrir la page qu'elle cite, puis sa source dans `corpus/text/`, et chercher le chiffre ou les mots avec `Ctrl+F`. Est-ce un vrai problème : une personne qui lit la page recevrait-elle un fait faux ou incomplet ? Ou est-ce une affaire de goût ?
 
 #### Étape 3 : Décider
 
-Choisir une ou deux propositions à appliquer, ou aucune, et dire pourquoi en une phrase. Donner son choix au modèle avec ses propres mots, lire chaque modification, et accepter avec **1. Yes**. Quitter avec **Ctrl+C deux fois**.
+Choisir une ou deux propositions à appliquer, ou aucune, et dire pourquoi en une phrase. Donner son choix au modèle avec ses propres mots, et lire chaque modification : une ligne rouge retire-t-elle un chiffre ? Sinon, accepter avec **1. Yes**. Si oui, choisir **3. No**, et le dire au modèle. Quitter avec **Ctrl+C deux fois**.
 
 :::note[Point de contrôle]
 
@@ -484,14 +516,16 @@ Une habitude : une vérification régulière, avec une personne qui décide. **R
 
 **Objectif** : voir les idées à travers les pages, et vérifier dans les sources un lien qu'un modèle a deviné.
 
-L'animateur·rice projette d'abord deux cartes côte à côte : le dessin de la partie 2 pour tout le wiki, et la carte que l'on va ouvrir. Dans la partie 2, chaque flèche était écrite dans une page. Ici, un outil a dessiné les **idées**, et il a deviné certains liens.
+L'animateur·rice projette d'abord deux cartes côte à côte : le dessin de la partie 2 pour tout le wiki, et la carte que l'on va ouvrir. Si vous lisez cette page seul·e, taper `wiki-graph`, ouvrir `wiki/graph.md`, et le comparer à la carte de l'étape 1. Dans la partie 2, chaque flèche était écrite dans une page. Ici, un outil a dessiné les **idées**, et il a deviné certains liens.
 
 ### Ce que vous allez découvrir
 
 Avant la séance, l'animateur·rice a donné le wiki à **graphify**, un outil qui fait lire chaque page à un modèle, en 10 minutes environ, et qui dessine un **graphe de connaissances** : une carte des idées et des liens entre elles.
 
+`wiki/index.md` liste les pages, et le dessin de la partie 2 montre ce que chaque page relie et cite. Ni l'un ni l'autre ne montre deux pages, dans deux pays, qui parlent d'une règle semblable quand aucun lien ne les joint. Un graphe de connaissances cherche cela, pour que l'on puisse explorer ce que ses documents disent ensemble, et voir où il en manque.
+
 - **Un nœud** est un point de la carte : une page, une règle, un organisme, une idée. **Une arête** est une ligne entre deux nœuds.
-- **Une communauté** est un groupe de nœuds fortement reliés, trouvé par un calcul. **Un pôle** (_hub_) est l'un des nœuds les plus reliés.
+- **Une communauté** est un groupe de nœuds fortement reliés, trouvé par un calcul.
 - **`EXTRACTED`** marque une arête écrite dans une page. **`INFERRED`** marque une arête devinée par le modèle : une suggestion, pas un fait.
 - **Un instantané** est une image prise à un moment donné : ce graphe ne change pas quand le wiki change.
 
@@ -519,13 +553,13 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
 
    On doit voir `The map of the wiki is open at: http://localhost:8765`, et un nouvel onglet du navigateur. Si aucun onglet ne s'ouvre : onglet Ports (panneau du bas), 8765, **Open in Browser**.
 
-2. À droite, cocher ou décocher les `Communities`. Dans `Search nodes...`, taper `Montoro`. Cliquer sur un nœud de la carte pour voir ses liens dans `Node Info`. Si l'on clique plutôt sur un nom dans les résultats de recherche, la zone de recherche se vide : c'est normal. Pour fermer la carte, plus tard : `wiki-explore stop`.
+2. Chaque couleur de la carte est une communauté. À droite, cocher ou décocher les `Communities`, et regarder ce que le calcul a rassemblé : ces groupes ont-ils du sens pour vous ? Dans `Search nodes...`, taper `Montoro`. Cliquer sur un nœud Montoro de la carte : `Node Info` liste les nœuds qui lui sont reliés. L'un d'eux vient-il d'un autre pays ? Si l'on clique plutôt sur un nom dans les résultats de recherche, la zone de recherche se vide : c'est normal. Pour fermer la carte, plus tard : `wiki-explore stop`.
 
 #### Étape 2 : Lire le rapport
 
 1. Ouvrir `wiki/graphify-out/GRAPH_REPORT.md`, et appuyer sur `Ctrl+Shift+V`.
-2. Lire d'abord `Corpus Check` : `Corpus is ~16,359 words - fits in a single context window. You may not need a graph.` Qu'en pensez-vous ?
-3. Lire `Surprising Connections`, et choisir une connexion qui vous surprend. Dire à son binôme si on y croit. L'étape 3 reprend l'un de ces liens, entre Montoro et le débroussaillement français, et l'étape 4 le vérifie.
+2. Lire d'abord `Corpus Check` (ici, `Corpus` désigne les pages du wiki, pas le dossier `corpus/`) : `Corpus is ~16,359 words - fits in a single context window. You may not need a graph.` Qu'en pensez-vous ?
+3. Lire `Surprising Connections` : des liens que le rapport pense inconnus de vous. Chaque élément se lit `first node --kind of link--> second node`, puis donne les deux pages. `[INFERRED]` dit que le modèle a deviné le lien. Choisir une connexion qui vous surprend, et dire à son binôme si on y croit. L'étape 3 reprend l'un de ces liens, entre Montoro et le débroussaillement français, et l'étape 4 le vérifie.
 
 #### Étape 3 : Interroger le graphe
 
@@ -616,11 +650,11 @@ La carte s'est ouverte dans le navigateur, et le binôme a écrit un verdict.
 
 :::info[Notes pour l'animateur·rice]
 
-**La carte ne s'ouvre pas** : onglet Ports, 8765, icône du globe. Sinon, `wiki-explore path`, `wiki-explore explain` et `GRAPH_REPORT.md` fonctionnent dans le terminal et sans internet, et la vérification à la main n'a pas besoin de carte. Seule la page de la carte a besoin d'internet dans le navigateur. On peut aussi montrer la diapositive du graphe dans le deck, en petit : en plein écran, l'image devient lisible et contient des réponses attendues. Ne pas présenter le graphe comme une amélioration du chatbot.
+**La carte ne s'ouvre pas** : onglet Ports, 8765, **Open in Browser**. Sinon, `wiki-explore path`, `wiki-explore explain` et `GRAPH_REPORT.md` fonctionnent dans le terminal et sans internet, et la vérification à la main n'a pas besoin de carte. Seule la page de la carte a besoin d'internet dans le navigateur. On peut aussi montrer la diapositive du graphe dans le deck, en petit : en plein écran, l'image devient lisible et contient des réponses attendues. Ne pas présenter le graphe comme une amélioration du chatbot.
 
 :::
 
-### Pour aller au-delà, si le temps le permet (payant)
+### Si le temps le permet (payant)
 
 Demander la même vérification au chatbot dans `workshop E`, puis appuyer sur **Ctrl+O** pour voir ses étapes (**Ctrl+O** de nouveau pour revenir) : a-t-il ouvert les originaux ?
 
@@ -628,7 +662,7 @@ Demander la même vérification au chatbot dans `workshop E`, puis appuyer sur *
 Compare the clearing distances of the Montoro ordinance and of the French brush-clearing obligation. Check the figures in the original documents (corpus/text/) and give their sources.
 ```
 
-Ou taper `replay F 1 3 10`, et comparer avec les mêmes questions dans son fichier `answers/E-...`.
+Ou taper `replay F 1 3 10`, et comparer avec les mêmes questions dans son fichier `answers/E-...` : les lignes `Context: ... tokens` et `What the model did:`. A-t-il interrogé le graphe (`called the MCP tool ...`) avant de lire les pages ?
 
 ### À vous de réfléchir
 
@@ -654,7 +688,7 @@ Un verdict sur un lien proposé par un modèle. **Réutilisé pour** préparer u
 
 ### Étape 1 : Noter la colonne E
 
-Ouvrir les réponses de `replay E` dans `answers/` : la ligne `What the model did:` liste ce que le modèle a lu. Puis noter les questions du jour avec l'aide du juge (sans question 12 : `score E 3 10 11`) :
+Ouvrir les réponses de `replay E` dans `answers/` : la ligne `What the model did:` liste ce que le modèle a lu. A-t-il commencé par `wiki/index.md`, puis une page de `wiki/` ? A-t-il aussi regardé dans `summaries/` ou `corpus/text/` ? C'est ce qu'on lui a dit de faire si le wiki ne suffit pas. Puis noter les questions du jour avec l'aide du juge (sans question 12 : `score E 3 10 11`) :
 
 ```bash
 score E 3 10 11 12
@@ -664,7 +698,7 @@ Pour chaque question, le juge propose une note. Appuyer sur Entrée pour l'accep
 
 ### Étape 2 : Lire ses scores ligne par ligne
 
-Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat.** Sans sauvegarde, comparer avec un binôme voisin. Les scores de référence de l'animateur·rice, pour comparer, ne sont pas encore prêts : à compléter.
+Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat** : le chatbot répond aussi bien, il lit moins, et chaque question coûte moins cher. Sans sauvegarde, comparer avec un binôme voisin. Les scores de référence de l'animateur·rice, pour comparer, ne sont pas encore prêts : à compléter.
 
 ### Étape 3 : La réponse à la question de la série
 
@@ -709,7 +743,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
 
 ### Étape 5 : Le montrer dans Open WebUI
 
-1. Dans le deuxième terminal, taper, avec le nom de son chatbot :
+1. `openwebui chatbot` remplit les deux cases à votre place. Il empaquette de nouveau le chatbot, comme à l'étape 4 : `AGENTS.md` va dans la case _Instructions_, et les résumés, les pages du wiki et les documents dans la case _Knowledge_ d'un nouveau chatbot. Dans le deuxième terminal, taper, avec le nom de son chatbot :
 
    ```bash
    openwebui chatbot --name "Feurisson"
@@ -721,8 +755,8 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
    Ready. In Open WebUI (...): New Chat, then choose "Feurisson chatbot" in the message box (bottom right).
    ```
 
-2. Ouvrir l'adresse, choisir son chatbot (le bouton en bas à droite de la zone de saisie montre le modèle utilisé), et poser sa question 12. Le chatbot a maintenant aussi les pages du wiki, et il y cherche lui-même.
-3. En binôme, dire ce que l'on changerait avant qu'un groupe ne l'utilise.
+2. Ouvrir l'adresse, choisir son chatbot (le bouton en bas à droite de la zone de saisie montre le modèle utilisé), et poser sa question 12 ou, sans question 12, l'une des questions du jour. Le chatbot a maintenant aussi les pages du wiki et, comme en mode E, le modèle décide lui-même quand chercher. La réponse donne-t-elle sa source ? Est-elle aussi bonne que dans son fichier `answers/E-...` ?
+3. En binôme, dire ce que l'on changerait avant qu'un groupe ne l'utilise, à partir de ce qu'on a vu dans ses réponses et ses scores.
 
 :::caution[Attention]
 
@@ -803,7 +837,7 @@ Les problèmes communs à toute la série sont dans la section Troubleshooting d
 
 - **`The wiki is already there: open wiki/index.md, or type: workshop E`** : c'est normal, `workshop-start 5` a déjà lancé `wiki-start`.
 - **`No page cites a document matching '...' yet. Has it been ingested?...`** : normal avant `ingest`. Après : vérifier le numéro, et lire le compte rendu de la skill.
-- **La carte ne s'ouvre pas** : onglet Ports, 8765, puis l'icône du globe. La carte a besoin d'internet ; `wiki-explore path`, `wiki-explore explain` et le rapport, non.
+- **La carte ne s'ouvre pas** : onglet Ports, 8765, **Open in Browser**. La carte a besoin d'internet ; `wiki-explore path`, `wiki-explore explain` et le rapport, non.
 - **`No node matching '...' found.`** : copier le nom depuis la carte ou depuis le rapport. Ce qui a été ajouté aujourd'hui n'est pas dans le graphe.
 - **`Ambiguous: '...' matches 3 nodes in different files.`** : copier un **id** de la liste, et retaper la commande avec lui.
 - **`Open WebUI is not running. Type: openwebui start`** : le taper dans le deuxième terminal, attendre `Open WebUI is ready`, puis relancer `openwebui chatbot`.
