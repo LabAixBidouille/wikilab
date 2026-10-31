@@ -601,7 +601,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
 ### Étape 3 : Sauvegarder son travail, remplir la carte de sortie
 
 1. Taper `workshop-save`, puis faire un clic droit sur `my-work.zip` → **Download...**. Le fichier contient vos documents, votre résumé et votre skill. Apportez-le à l'atelier 4. Si votre ordinateur a déjà un `my-work.zip`, le nouveau s'appelle peut-être `my-work (1).zip` : apportez le plus récent.
-2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. En mode C, qui décide de ce que lit le modèle, et comment pouvez-vous le vérifier ?
    2. Pourquoi est-ce le nom d'une personne, et non celui du modèle, qui figure dans la ligne `verified` d'un résumé ?
    3. Quand le modèle ouvre-t-il une skill ?

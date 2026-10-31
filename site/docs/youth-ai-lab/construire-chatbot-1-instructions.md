@@ -742,7 +742,7 @@ On voit aussi un modèle appelé « Wildfire RAG (workshop kit) » : il sert à 
 
 ### Étape 3 : Carte de sortie
 
-Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
 
 1. Que lit le modèle avant de répondre, en mode A ?
 2. Citer une chose qu'un préprompt a changée aujourd'hui, et une chose qu'il n'a pas pu changer.

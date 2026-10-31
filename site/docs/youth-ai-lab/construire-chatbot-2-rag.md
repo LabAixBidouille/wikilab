@@ -603,7 +603,7 @@ La même case _Knowledge_ peut donc tout lire, chercher des morceaux, ou en manq
 ### Sauvegarder son travail, remplir la carte de sortie
 
 1. Taper `workshop-save`, puis faire un clic droit sur `my-work.zip` → **Download...**. L'apporter à l'atelier 3 (capture `images/download-zip.png` dans le dépôt). Si l'ordinateur a déjà un `my-work.zip`, le nouveau s'appellera peut-être `my-work (1).zip` : apporter le plus récent.
-2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. Qui choisit les morceaux dans un RAG, et quand ?
    2. Citer une question où la taille ou le nombre des morceaux a changé la réponse.
    3. Pourquoi l'échec d'un RAG est-il plus difficile à voir qu'un échec du mode B ?

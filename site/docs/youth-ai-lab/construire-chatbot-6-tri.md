@@ -167,7 +167,7 @@ Prévoir environ 45 minutes de préparation :
 
 **Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter claude`, plus le test de la clé par `workshop-login` : moins d'un centime par binôme, même après plusieurs passages. Ce coût a été mesuré avec la clé de test.
 
-**Mesures du 31 octobre 2026**, dans une copie du Codespace (image `2026.10.38`, limitée à 2 processeurs et 8 Go de mémoire), avec les messages du dépôt (40 exemples, 32 messages de test, écrits pour l'atelier). Le même jour, tout l'atelier a été joué dans un vrai Codespace (image `2026.10.39`, 2 processeurs, 7 Go, piloté par SSH, de `workshop-start 6` à `workshop-save`) : setup 151 s, baseline 14 s, train 65 s, test 32 sur 32 à 7 ms par message, `./sorter claude` le même 30 sur 32 à 0,8 s par message, mémoire 4,6 Go au plus.
+**Mesures du 31 octobre 2026**, dans une copie du Codespace (image `2026.10.38`, limitée à 2 processeurs et 8 Go de mémoire ; le vrai Codespace mesuré a 7 Go), avec les messages du dépôt (40 exemples, 32 messages de test, écrits pour l'atelier). Le même jour, tout l'atelier a été joué dans un vrai Codespace (image `2026.10.39`, 2 processeurs, 7 Go, piloté par SSH, de `workshop-start 6` à `workshop-save`) : setup 151 s, baseline 14 s, train 65 s, test 32 sur 32 à 7 ms par message, `./sorter claude` le même 30 sur 32 à 0,8 s par message, mémoire 4,6 Go au plus.
 
 Ensuite, avec deux nouveaux vrais Codespaces : `workshop-save` dans le premier, **Download...** dans Chrome (un simple téléchargement du navigateur, sans fenêtre d'enregistrement), le fichier déposé sur la liste des fichiers du second (même empreinte SHA-256 à chaque étape), `workshop-start 6 --from my-work.zip` (le message est revenu dans `messages/examples.md`), `./sorter setup` 108 s, `./sorter train` 65 s. VS Code ouvre le fichier déposé dans un onglet et dit qu'il ne peut pas l'afficher : le fermer. Limites de cet essai : VS Code venait de `code serve-web` dans le Codespace (le même éditeur, pas la page github.dev), dans un Chrome sans fenêtre, et le glissement a été envoyé par le protocole de débogage de Chrome, pas par une main. Pas joué : un groupe.
 
@@ -183,7 +183,7 @@ Ensuite, avec deux nouveaux vrais Codespaces : `workshop-save` dans le premier, 
 | `./sorter try`, puis `I feel like nobody would care if I disappeared`                               | `urgent`, confiance 0,46 : pas sûr, réponse de sécurité quand même                                                                                             |
 | Un message sur le feu à la fin de `examples.md`, donc sous `## off-topic`                           | 30 sur 32, 2 urgences manquées, deux détresses sans feu. Le même message sous `## urgent` : 31 sur 32, aucune manquée (ordinateur portable, mêmes données)     |
 | Mémoire                                                                                             | 4,3 Go au plus avec 40 exemples, 5,1 Go avec 80, sur 8                                                                                                         |
-| `./sorter claude` (premier de deux passages, même résultat ; `claude-haiku-5-5`, réflexion coupée)  | 30 sur 32, 2 urgences manquées ; 28 s, 0,9 s par message ; 6 025 jetons en entrée, 146 en sortie ; 0,0007 dollar, soit environ 0,02 dollar pour 1 000 messages |
+| `./sorter claude` (premier de trois passages, même résultat ; `claude-haiku-5-5`, réflexion coupée)  | 30 sur 32, 2 urgences manquées ; 28 s, 0,9 s par message ; 6 025 jetons en entrée, 146 en sortie ; 0,0007 dollar, soit environ 0,02 dollar pour 1 000 messages |
 | Un autre modèle, `intfloat/multilingual-e5-small` (MIT), mêmes données, sur un ordinateur portable  | 23 sur 32 sans entraînement, 29 sur 32 réglé, une urgence manquée : pas retenu                                                                                 |
 
 **Ce 32 sur 32 ne dit rien des vrais messages** : les messages de test du dépôt ont été écrits avec les exemples. La partie 3 sert à cela : le test écrit par un autre binôme est le test honnête.
@@ -724,7 +724,7 @@ Vos **exemples et votre test** restent utiles : une fois le chatbot en ligne, le
 
    On doit voir `Saved ... in my-work.zip`. Dans la liste des fichiers, clic droit sur `my-work.zip`, puis **Download...**.
 
-2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. Pourquoi un classifieur ne peut-il pas inventer de réponse ?
    2. Pourquoi un message de test ne doit-il jamais être un exemple ?
    3. Citez un cas où vous régleriez un petit modèle, et un cas où vous demanderiez à un grand.
@@ -767,7 +767,7 @@ Les problèmes communs à toute la série sont dans la section Troubleshooting d
 - **`Claude is busy`** : plusieurs binômes demandent en même temps. Attendre une minute, puis retaper `./sorter claude` (la commande a déjà réessayé trois fois).
 - **`Claude refused the request (HTTP 400): ...`** : montrer le message à l'animateur·rice. Souvent, l'espace de travail a atteint son plafond de dépense.
 - **Pas de clé pour la partie 5** : comparer avec les chiffres que vous avez mesurés la veille.
-- **Le Codespace manque de mémoire** : fermer les autres terminaux. L'entraînement demande environ 5 Go sur 8 avec 80 exemples.
+- **Le Codespace manque de mémoire** : fermer les autres terminaux. L'entraînement demande environ 5 Go avec 80 exemples, et un Codespace en a 7 à 8.
 
 ---
 

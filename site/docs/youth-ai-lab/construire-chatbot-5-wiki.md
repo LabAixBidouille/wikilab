@@ -739,7 +739,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
 ### Étape 6 : Enregistrer son travail, remplir la carte de sortie
 
 1. Taper `workshop-save`, puis clic droit sur `my-work.zip` → **Download...**. Un Codespace s'arrête de lui-même, et il est supprimé après 30 jours d'inactivité : seuls les fichiers téléchargés restent. Si l'ordinateur a déjà un `my-work.zip`, le nouveau peut s'appeler `my-work (1).zip` : garder le plus récent.
-2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. Pourquoi le wiki garde-t-il deux chiffres qui ne concordent pas ?
    2. Quelle est la différence entre `EXTRACTED` et `INFERRED`, et qui vérifie ?
    3. Qui a écrit ce que le chatbot lit en mode E, quand, et qui décide ?

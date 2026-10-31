@@ -532,7 +532,7 @@ Rappel du barème (fiche d'une page) :
 :::caution[Étape 2 : Sauvegarder son travail, remplir la carte de sortie]
 
 1. Taper `workshop-save`, puis clic droit sur `my-work.zip` → **Download...**. Le fichier contient `fire-danger.json` et tout le travail précédent. L'apporter à l'atelier 5. Si l'ordinateur a déjà un `my-work.zip`, le nouveau peut s'appeler `my-work (1).zip` : apporter le plus récent.
-2. Répondre sur la carte de l'animateur·rice, seul·e, en quelques mots :
+2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. Pourquoi seul un outil peut-il donner le niveau de danger feu de forêt du jour ?
    2. Que peut faire un serveur dans votre Codespace, et comment le vérifier avant de le brancher ?
    3. Quelle est la différence entre une prévision météo et le niveau officiel de danger feu de forêt ?
