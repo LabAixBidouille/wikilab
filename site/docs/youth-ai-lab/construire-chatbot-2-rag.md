@@ -548,7 +548,7 @@ Ces étapes sont les trois mots de **RAG** : _Retrieval_ (étapes 1 à 3, la rec
    openwebui query "In Bouches-du-Rhône, at which fire-risk levels is access to forest massifs forbidden, and at the 'severe' level, when is work allowed?"
    ```
 
-   Regarder les noms : quels extraits viennent de `corpus-text__43-...` ? C'est le texte complet d'un arrêté des Bouches-du-Rhône, une décision juridique de la préfecture. Lire le début de ces extraits. La réponse est à l'article 4 (accès) et à l'article 9 (travaux) de l'arrêté : des listes de niveaux de risque, avec le mot `INTERDITS`. Le début du document est une liste de lignes qui commencent par `VU`. La recherche a-t-elle donné les articles, ou autre chose ?
+   Regarder les noms : quels extraits viennent de `corpus-text__43-...` ? C'est le texte complet d'un arrêté des Bouches-du-Rhône, une décision juridique de la préfecture. Lire ces extraits. La réponse est à l'article 4 (accès) et à l'article 9 (travaux) de l'arrêté : des listes de niveaux de risque, avec le mot `INTERDITS`. Le début du document est une liste de lignes qui commencent par `VU`. La recherche a-t-elle donné les articles, ou autre chose ?
 
 **Ce qui a été mesuré** (sans le modèle, sur le kit) : pour la question 3, les morceaux du document 43 venaient de sa première page et, dans la base de 1000, de l'article 5 (les personnes à qui les interdictions ne s'appliquent pas), jamais des articles qui répondent, à toutes les tailles. Dans la base de 1000, les deux morceaux qui contiennent le mot `INTERDITS` arrivent **56e** et **58e** sur 322. Pour la question 7, le RAG a toujours donné 5 morceaux. Pour la question 10, voir la partie 5.
 
