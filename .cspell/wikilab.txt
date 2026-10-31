@@ -790,3 +790,4 @@ recognised
 Summarise
 dquote
 finetune
+safetensors
