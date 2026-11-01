@@ -36,6 +36,7 @@ const KNOWN_MISSING = new Set([
   '/img/ressources/youth-ai-lab/guide-opencode/icone.png',
   '/img/ressources/youth-ai-lab/guide-dev-containers/icone.png',
   '/img/ressources/youth-ai-lab/guide-hermes/icone.png',
+  '/img/ressources/youth-ai-lab/guide-openrouter/icone.png',
 ]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;

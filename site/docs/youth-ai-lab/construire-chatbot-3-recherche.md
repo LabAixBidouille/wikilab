@@ -28,7 +28,7 @@ sidebar_position: 16
 
 - 1 ordinateur avec un navigateur web
 - 1 compte GitHub gratuit, pour ouvrir le Codespace
-- 1 clé d'API Anthropic, remise par l'animateur·rice
+- 1 clé d'API (Anthropic ou OpenRouter), remise par l'animateur·rice
 - Le fichier `my-work.zip` enregistré à la fin de l'atelier 2
 - L'adresse de la page officielle de votre question 12 (la question sur votre territoire)
 - La fiche d'une page imprimée
@@ -124,20 +124,21 @@ Tous ces fichiers sont dans votre Codespace, dans la liste des fichiers à gauch
 :::info[Notes pour l'animateur·rice]
 
 - **Préparation (environ 1 h).** Une clé d'API Anthropic par binôme, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes** (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en 2 h d'atelier). Le plafond porte sur l'espace de travail, pas sur chaque clé : un binôme peut donc consommer la part d'un autre. Gardez la console Anthropic ouverte pendant l'atelier. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent ; comptez 3 \$ × binômes × ateliers du mois, ou relevez-le avant chaque atelier. Chaque organisation partenaire paie ses propres séances. Le coût par binôme mesuré pour cet atelier est d'environ 0,55 \$ (rejeu, questions 3 et 7, résumé et juge), le reste est à compléter.
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter), en anglais). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter (coût par binôme : à compléter). Avec des jeunes, tapez `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
 - **Votre propre essai (25 min).** Faites tout le parcours dans un Codespace neuf, y compris le refus d'un « I checked summary 80 » général puis la signature, et `openwebui chatbot` : ce chatbot vous servira de repli à la clôture.
 - **Quelques jours avant**, demandez à chaque binôme l'adresse de la page officielle de sa question 12, et essayez-la avec `corpus-add` : certaines pages sont refusées ou presque vides.
 - **Imprimez** la fiche d'une page (une par binôme, à traduire si votre salle a besoin d'une autre langue) et les cartes de sortie (une par personne).
-- **Version de l'image.** N'animez cet atelier qu'avec l'image 2026.10.34 du Codespace ou une plus récente : sans elle, la skill de la partie 4 ne se déclenche pas en conversation.
+- **Version de l'image.** N'animez cet atelier qu'avec l'image 2026.10.34 du Codespace ou une plus récente : sans elle, la skill de la partie 4 ne se déclenche pas en conversation. La voie OpenRouter décrite ici et `--europe` arrivent avec l'image 2026.10.43, celle qu'épingle le dépôt.
 - **Ne citez jamais une réponse attendue dans les pages du dépôt.** À partir du mode C, le modèle peut lire tous les fichiers du dépôt, y compris son `README.md`. Gardez cette règle si vous adaptez les pages.
 
 :::
 
 ### Glossaire
 
-- **Modèle** : le modèle de langage, le programme d'IA qui écrit les réponses. Dans cet atelier, le même modèle d'Anthropic pour tous les binômes.
+- **Modèle** : le modèle de langage, le programme d'IA qui écrit les réponses. Dans cet atelier, Claude Sonnet avec une clé Anthropic et `deepseek/deepseek-v4-flash` avec une clé OpenRouter, le même pour tous les binômes qui ont ce type de clé.
 - **Codespace** : un ordinateur prêt à l'emploi chez GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
 - **Terminal** : la fenêtre où l'on tape des commandes, en bas de VS Code. Cet atelier en utilise deux.
-- **Claude Code** : le programme qui fait dialoguer le modèle avec les fichiers du Codespace. La commande `workshop` le lance dans le mode du jour.
+- **Claude Code** : le programme qui fait dialoguer le modèle avec les fichiers du Codespace. La commande `workshop` le lance dans le mode du jour. Avec une clé OpenRouter, c'est OpenCode qui joue ce rôle.
 - **Mode** : un réglage de la commande `workshop`. Le mode B charge toutes les connaissances ; le mode C, celui d'aujourd'hui, ne charge rien et laisse le modèle chercher.
 - **Préprompt (instructions)** : le texte qui dit au chatbot qui il est et quelles règles suivre, lu avec chaque message. Ici, le fichier `AGENTS.md`, écrit à l'atelier 1.
 - **Contexte** : tout ce que le modèle a sous les yeux pour répondre : instructions, question, fichiers ouverts. Sa taille est limitée (la « fenêtre »).
@@ -149,7 +150,7 @@ Tous ces fichiers sont dans votre Codespace, dans la liste des fichiers à gauch
 - **Résumé** : un texte court sur un document officiel, dans `summaries/`, écrit par le modèle puis vérifié par une personne.
 - **Curation** : choisir ce qui entre dans les connaissances du chatbot, le vérifier et le signer.
 - **Skill** : une procédure écrite en langage courant dans un fichier `SKILL.md`, que le modèle ouvre seulement quand une demande correspond à sa description.
-- **Juge** : un second modèle qui propose une note de 0 à 2 pour chaque réponse, avec la commande `score`.
+- **Juge** : un modèle qui propose une note de 0 à 2 pour chaque réponse, avec la commande `score`. C'est un modèle plus petit avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter.
 - **Open WebUI** : une interface de chatbot, lancée dans le Codespace, où vous retrouvez votre chatbot à la clôture.
 
 ---
@@ -184,7 +185,21 @@ Suivre les étapes 1 à 5 de `SETUP.md`, avec le lien ci-dessus : laisser le Cod
 
 :::note[Si vous utilisez OpenCode]
 
-OpenCode est le second moteur possible, à la place de Claude Code. Les commandes sont les mêmes, après `workshop-login --engine opencode`. En mode C, OpenCode cherche avec ses propres outils (`read`, `grep`, `glob`), et il vous demande votre accord avant **chaque** commande et chaque fichier qu'il écrit. Avec une clé OpenRouter (qui commence par `sk-or-`), Open WebUI et le juge de `score` ne fonctionnent pas : ils ont besoin d'une clé Anthropic, vous notez donc seuls. La fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre le même genre de recherche dans un dossier de chatbot.
+OpenCode est le second moteur possible, à la place de Claude Code. Les commandes sont les mêmes, après `workshop-login --engine opencode`. En mode C, OpenCode cherche avec ses propres outils (`read`, `grep`, `glob`), et il vous demande votre accord avant **chaque** commande et chaque fichier qu'il écrit. La fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre le même genre de recherche dans un dossier de chatbot.
+
+:::
+
+:::note[Si votre clé commence par sk-or- (OpenRouter)]
+
+Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score` et Open WebUI passent aussi par OpenRouter. Non testés : `openwebui chatbot`, et les skills ou Open WebUI avec le modèle par défaut, DeepSeek V4 Flash. Ne comparez que vos propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Les chiffres du chatbot dans cette page (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle.
+
+Les étapes de cette page décrivent l'écran de Claude Code. **Ctrl+O** et la jauge sont les siens : OpenCode montre ce que le chatbot a fait au-dessus de chaque réponse, et son panneau latéral a un compteur **context**, avec le coût (`Ctrl+X` puis `B` affiche ou masque ce panneau). Ses commandes `/` ne sont pas les mêmes : `/mcps`, et non `/mcp`. Voir aussi [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données), en anglais, avant toute séance avec des jeunes.
 
 :::
 
@@ -604,7 +619,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    replay C
    ```
 
-   Sous chaque réponse, la ligne `What the model did:` liste ce qu'il a lu, cherché et utilisé, par exemple `used the skill rumour-check`. Les questions du jeu de test ne sont pas des rumeurs : cet exemple peut ne pas apparaître. Lors de notre essai du 30 octobre 2026, aucune question n'a utilisé cette skill. Cet essai, avec les 11 questions du kit (sans question 12) : 1 min 42 et 0,30 \$.
+   Sous chaque réponse, la ligne `What the model did:` liste ce qu'il a lu, cherché et utilisé, par exemple `used the skill rumour-check`. Les questions du jeu de test ne sont pas des rumeurs : cet exemple peut ne pas apparaître. Lors de notre essai du 30 octobre 2026, aucune question n'a utilisé cette skill. Cet essai, avec les 11 questions du kit (sans question 12) : 1 min 42 et 0,30 \$. Avec `deepseek/deepseek-v4-flash`, 11 questions ont pris 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E (un essai).
 
 3. Noter les questions du jour, et la question 8, que l'atelier 4 compare avec son outil, avec l'aide du juge (sans question 12 : `score C 3 8 11`) :
 
@@ -645,7 +660,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
 :::info[Notes pour l'animateur·rice]
 
 - **Open WebUI n'est pas prêt à la clôture** : sauter `openwebui chatbot` et montrer votre propre chatbot sur grand écran, construit lors de votre essai.
-- **Un binôme utilise OpenCode** : on lui demande son accord avant chaque commande et chaque fichier écrit, ce sont les mêmes étapes avec davantage de réponses à donner. Avec une clé OpenRouter : ni juge, ni Open WebUI.
+- **Un binôme utilise OpenCode** : on lui demande son accord avant chaque commande et chaque fichier écrit, ce sont les mêmes étapes avec davantage de réponses à donner. Une clé OpenRouter suit les mêmes étapes, juge et Open WebUI compris. Avec cette clé, `openwebui chatbot` : non testé. Les skills avec le modèle par défaut : non testé.
 - **Un binôme a restauré une ancienne sauvegarde** (la date `saved on` n'est pas la fin de l'atelier 2) : `workshop-start 3 --from` avec le zip le plus récent, son nom exact entre guillemets.
 - **Après l'atelier** : notez les durées réelles, surtout celle de la partie 3, et les coûts. Rappelez à chaque binôme de garder `my-work.zip` pour l'atelier 4.
 - **Réemploi avec des jeunes** : la partie 3, c'est la boîte à données de WikiYouthBot. Un groupe apporte des documents locaux, et un adulte vérifie ce que le chatbot en dira avant qu'ils n'entrent. Pour construire un chatbot aux documents vérifiés pour un groupe : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
@@ -656,7 +671,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
 
 ## Dépannage
 
-Les problèmes communs (clé, Codespace, terminal) sont traités dans la section _Troubleshooting_ du fichier `SETUP.md` du dépôt.
+Les problèmes communs (clé, Codespace, terminal) sont traités dans la section _Troubleshooting_ du fichier `SETUP.md` du dépôt. Les messages liés à une clé OpenRouter ou à `--europe` sont aussi dans le [dépannage de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#dépannage).
 
 - **`File not found: ...`** (affiché par `corpus-add`) : vérifier le nom du fichier. Pour le document de Bénévent, recopier la commande de `inbox/README.md` : elle tient sur une seule ligne.
 - **`Not added: almost no text could be read (...). A scanned PDF (only images)? Ask the facilitator.`** : ce PDF est une image de page, sans texte à l'intérieur. Le chatbot ne pourrait pas le lire. Choisir un autre document, ou faire la partie 3 avec le document de Bénévent.

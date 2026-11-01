@@ -109,7 +109,7 @@ Les tailles mesurées sur un portable Linux (Ubuntu 26.04, Docker Engine 29.9), 
 
 | Quoi                          | Taille                                                               | Quand                                                |
 | ----------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------- |
-| L'image des ateliers          | 4,34 Go sur le disque (versions suivantes et arm64 non mesurées)     | une fois, à la première ouverture d'un de ces dépôts |
+| L'image des ateliers          | 4,34 Go sur le disque (version `2026.10.32`, amd64 ; versions suivantes et arm64 non mesurées) | une fois, à la première ouverture d'un de ces dépôts |
 | Open WebUI, dans le conteneur | 6,1 Go sur le disque (1,6 Go téléchargés ; 86 s sur cette connexion) | une fois par conteneur, au premier lancement         |
 | Open WebUI en marche          | environ 1,2 Go de mémoire (mesuré dans un Codespace)                 | tant qu'il tourne                                    |
 
@@ -168,7 +168,7 @@ Le guide décrit aussi une voie par le terminal, sans VS Code, pour les personne
 
 ### Partie 4 : Votre clé
 
-Chaque dépôt indique comment enregistrer la clé du modèle : `workshop-login` dans les ateliers, le kit et le guide Open WebUI, `/connect` dans OpenCode, `hermes auth add` dans le guide Hermes. On la tape **dans un terminal du conteneur**, celui qui s'ouvre dans VS Code quand le coin en bas à gauche affiche `Dev Container:`.
+Chaque dépôt indique comment enregistrer la clé du modèle, une clé Anthropic ou une clé OpenRouter : `workshop-login` dans les ateliers, le kit et le guide Open WebUI, `/connect` dans OpenCode, `hermes auth add` dans le guide Hermes. On la tape **dans un terminal du conteneur**, celui qui s'ouvre dans VS Code quand le coin en bas à gauche affiche `Dev Container:`.
 
 La clé est gardée dans le dossier personnel du conteneur, **jamais dans le dossier du dépôt** : elle ne peut donc pas être partagée ou publiée avec votre travail par erreur. Fermer VS Code ou redémarrer l'ordinateur la conserve. Elle se perd quand le conteneur est refait (commande `Dev Containers: Rebuild Container`, nouvelle version de l'image, conteneur supprimé) : il faut alors la retaper. Voir [Part 4 - Your key](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-4---your-key).
 

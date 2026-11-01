@@ -29,7 +29,7 @@ sidebar_position: 18
 
 - 1 ordinateur par binôme, avec un navigateur web : rien à installer
 - 1 compte GitHub par binôme (un compte gratuit suffit)
-- 1 clé d'accès au modèle (clé API Anthropic) par binôme, fournie par l'animateur·rice
+- 1 clé d'accès au modèle (clé API Anthropic, qui commence par `sk-ant-`, ou clé OpenRouter, qui commence par `sk-or-`) par binôme, fournie par l'animateur·rice
 - Le fichier `my-work.zip` enregistré par le binôme à la fin de l'atelier 4 (facultatif)
 - La fiche d'une page (`sheet.md`), imprimée, une par binôme
 - 1 carte vierge ou une demi-feuille par personne, pour la carte de sortie
@@ -95,6 +95,7 @@ Message à transmettre : **le travail est fait une fois, avant la question, et c
 Préparation, environ 1 heure :
 
 - **Une clé API Anthropic par binôme**, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Le plafond porte sur l'espace de travail, pas sur chaque clé : un binôme peut consommer la part d'un autre. Garder la console Anthropic ouverte pendant l'atelier. Chaque structure partenaire paie ses propres séances.
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter ; coût par binôme : à compléter. Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide).
 - **Faire tout le parcours soi-même** (environ 30 minutes) dans un Codespace gardé pour la séance : environ 1,05 \$ au total.
 - **Préparer la projection de la partie 4** : `wiki-graph`, `wiki/graph.md` ouvert avec `Ctrl+Shift+V`, et `wiki-explore` dans un onglet à côté. Dézoomer les deux cartes jusqu'à ce qu'aucune étiquette ne soit lisible.
 - **Rappeler à chaque binôme**, quelques jours avant, d'apporter son `my-work.zip` le plus récent, avec un résumé signé à l'atelier 3.
@@ -123,12 +124,12 @@ La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un
 
 ### Glossaire
 
-- **Modèle** : le programme d'IA générative qui lit un texte et écrit la suite (ici, Claude Sonnet, le même pour tous les binômes).
+- **Modèle** : le programme d'IA générative qui lit un texte et écrit la suite (ici, Claude Sonnet avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter : le même pour tous les binômes qui ont ce type de clé).
 - **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est le maximum qu'il peut lire d'un coup.
-- **Jeton** (_token_) : un morceau de mot, l'unité de mesure du contexte. La **jauge** affichée au-dessus de la zone de saisie indique combien de jetons sont dans le contexte à cet instant.
+- **Jeton** (_token_) : un morceau de mot, l'unité de mesure du contexte. La **jauge** affichée au-dessus de la zone de saisie indique combien de jetons sont dans le contexte à cet instant. Avec OpenCode, c'est le compteur **context** du panneau latéral.
 - **Instructions** (ou préprompt) : le texte placé avant toute conversation pour donner au chatbot son rôle et ses règles, ici le fichier `AGENTS.md`.
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
-- **Claude Code** : l'outil qui fait dialoguer le modèle avec les fichiers du Codespace. La commande `workshop` le lance dans un mode de la série (`bare`, `A`, `B`, `C`, `D`, `E`, `F`).
+- **Claude Code** : l'outil qui fait dialoguer le modèle avec les fichiers du Codespace. La commande `workshop` le lance dans un mode de la série (`bare`, `A`, `B`, `C`, `D`, `E`, `F`). Avec une clé OpenRouter, elle lance **OpenCode** à sa place.
 - **Mode E** : le chatbot qui lit d'abord le wiki, garde les outils de l'atelier 4, et ne cherche dans les sources que si le wiki ne suffit pas.
 - **Skill** : une procédure écrite, que le modèle suit quand on lui demande une tâche précise (ici `ingest` et `lint`).
 - **MCP** : une façon standard de brancher un outil extérieur sur un modèle (à l'atelier 4, le niveau de danger d'incendie du jour).
@@ -142,7 +143,7 @@ La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un
 - **Communauté** : un groupe de nœuds fortement reliés, trouvé par un calcul.
 - **EXTRACTED / INFERRED** : une arête écrite dans une page, ou une arête devinée par le modèle (une suggestion, pas un fait).
 - **Instantané** (_snapshot_) : une image prise à un moment donné. Le graphe ne change pas quand le wiki change.
-- **Juge** : un modèle qui propose une note pour chaque réponse ; une personne accepte ou corrige.
+- **Juge** : un modèle qui propose une note pour chaque réponse ; une personne accepte ou corrige. C'est un modèle plus petit avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter.
 
 ---
 
@@ -174,7 +175,33 @@ Dans un nouveau Codespace, le premier `workshop E` demande encore une fois si l'
 
 :::info[Si vous utilisez OpenCode]
 
-Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. Avec une clé OpenRouter (`sk-or-`), Open WebUI et le juge de `score` ne fonctionnent pas. `ingest`, `lint` et `replay E` n'ont pas encore été mesurés avec OpenCode : à compléter. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. `ingest` et `lint` n'ont pas encore été mesurés avec OpenCode : à compléter. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+
+:::
+
+:::info[Si votre clé commence par sk-or- (OpenRouter)]
+
+OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` et Open WebUI passent aussi par OpenRouter. `openwebui chatbot`, et Open WebUI avec le modèle par défaut, DeepSeek V4 Flash : non testés.
+
+À l'enregistrement, le message de réussite devient :
+
+```text
+Key OK (OpenCode, OpenRouter, model openrouter/deepseek/deepseek-v4-flash). You can start: workshop bare
+```
+
+Avec un modèle gratuit, une ligne s'ajoute : `Free requests left today: <number>.`
+
+Au démarrage d'une conversation, une ligne de plus dit `Engine: OpenCode (model openrouter/deepseek/deepseek-v4-flash)`, puis viennent le logo d'OpenCode et une zone de saisie. Les premiers écrans de Claude Code n'apparaissent pas. La jauge est propre à Claude Code : une fois la conversation commencée, le panneau latéral d'OpenCode a un compteur **context**, avec le coût (`Ctrl+X` puis `B` affiche ou masque ce panneau). OpenCode montre ce que le chatbot a fait au-dessus de chaque réponse, et `Ctrl+O` ne sert que dans Claude Code. Ses commandes `/` ne sont pas les mêmes.
+
+Pour essayer un autre modèle, `workshop-login --models free` liste les modèles gratuits, qui ont un quota quotidien (voir [Avec une clé OpenRouter](#avec-une-clé-openrouter)), et `workshop-login --model <name>` en choisit un.
+
+Ne comparer que ses propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Ne comparer ses totaux qu'avec un binôme qui utilise le même modèle. Les chiffres de cette fiche sur le chatbot (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle : les vôtres seront différents. Tout est détaillé dans le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter).
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande un forfait Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
 
 :::
 
@@ -386,7 +413,7 @@ On le lance maintenant, après `ingest`, pour que les réponses puissent utilise
    replay E
    ```
 
-3. Le jeu se déroule sans intervention : le terminal montre chaque question au fur et à mesure, puis une ligne `Answers: ...` avec le coût. Ne pas l'attendre : continuer la partie 3 dans le premier terminal. Les réponses attendent le binôme à la partie 5. Dans le même essai, il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12.
+3. Le jeu se déroule sans intervention : le terminal montre chaque question au fur et à mesure, puis une ligne `Answers: ...` avec le coût. Ne pas l'attendre : continuer la partie 3 dans le premier terminal. Les réponses attendent le binôme à la partie 5. Dans le même essai, il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12. Avec `deepseek/deepseek-v4-flash`, 11 questions ont pris de 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E (un seul essai).
 
 :::note[Point de contrôle]
 
@@ -700,7 +727,7 @@ Pour chaque question, le juge propose une note. Appuyer sur Entrée pour l'accep
 
 ### Étape 2 : Lire ses scores ligne par ligne
 
-Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat** : le chatbot répond aussi bien, il lit moins, et chaque question coûte moins cher. Sans sauvegarde, comparer avec un binôme voisin. Les scores de référence de l'animateur·rice, pour comparer, ne sont pas encore prêts : à compléter.
+Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat** : le chatbot répond aussi bien, il lit moins, et chaque question coûte moins cher. Sans sauvegarde, comparer avec un binôme voisin qui utilise le même modèle. Les scores de référence de l'animateur·rice, pour comparer, ne sont pas encore prêts : à compléter.
 
 ### Étape 3 : La réponse à la question de la série
 
@@ -811,7 +838,13 @@ Pour reconstruire son chatbot, le chemin le plus court est **Open WebUI** : dans
 
 :::caution[Important]
 
-La clé du binôme a été fournie par l'animateur·rice pour la série : elle peut cesser de fonctionner ensuite, lui demander. Pour continuer, il faut une clé à soi, avec des crédits achetés par carte bancaire (voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Sans carte, un modèle peut tourner sur un ordinateur de la structure, sans clé et sans coût par question : voir la fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
+La clé du binôme a été fournie par l'animateur·rice pour la série : elle peut cesser de fonctionner ensuite, lui demander. Pour continuer, il faut une clé à soi, avec des crédits achetés par carte bancaire (voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)), ou une clé OpenRouter créée depuis son [compte OpenRouter](https://openrouter.ai/settings/keys). Sans carte, un modèle peut tourner sur un ordinateur de la structure, sans clé et sans coût par question : voir la fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
 
 :::
 
@@ -835,7 +868,7 @@ Après l'atelier : noter les durées réelles des cinq parties et de la marge, a
 
 ## Dépannage
 
-Les problèmes communs à toute la série sont dans la section Troubleshooting de `SETUP.md`, dans le dépôt.
+Les problèmes communs à toute la série sont dans la section Troubleshooting de `SETUP.md`, dans le dépôt. Ceux d'une clé OpenRouter sont plus bas, dans [Avec une clé OpenRouter](#avec-une-clé-openrouter).
 
 - **`The wiki is already there: open wiki/index.md, or type: workshop E`** : c'est normal, `workshop-start 5` a déjà lancé `wiki-start`.
 - **`No page cites a document matching '...' yet. Has it been ingested?...`** : normal avant `ingest`. Après : vérifier le numéro, et lire le compte rendu de la skill.
@@ -846,6 +879,22 @@ Les problèmes communs à toute la série sont dans la section Troubleshooting d
 - **Le dessin de `wiki/graph.md` ne s'affiche pas** : ouvrir l'aperçu avec `Ctrl+Shift+V`. Si cela échoue, lire la liste `Pages that cite ...` en bas du fichier : elle donne la même réponse.
 
 **Raccourcis utiles** : quitter une conversation avec `Ctrl+C` deux fois ; copier et coller dans le terminal avec `Ctrl+Shift+C` et `Ctrl+Shift+V` (`Cmd+C` et `Cmd+V` sur un Mac).
+
+### Avec une clé OpenRouter
+
+Les messages de clé de `SETUP.md` qui nomment Anthropic existent aussi avec `OpenRouter` à la place d'`Anthropic`. Ceux-ci sont propres à cette voie :
+
+- **`This is an OpenRouter key: Claude Code in the workshop needs an Anthropic key (sk-ant-…).`** : vous avez demandé Claude Code, avec `--engine claude` ou `WORKSHOP_ENGINE=claude`. Rien n'a été enregistré. Une clé OpenRouter tourne dans OpenCode : la ligne suivante du message dit quoi taper.
+- **`The saved key is an OpenRouter key: it works with OpenCode only. Type this command without WORKSHOP_ENGINE=claude.`** : votre clé est enregistrée, mais cette commande a demandé Claude Code, à qui il faut une clé Anthropic (elle commence par `sk-ant-`). Faire ce que dit le message, ou taper `workshop-login` et coller une clé Anthropic.
+- **`OpenRouter has no model <model> that can use tools.`** : rien n'a été enregistré. Le nom est faux, ou ce modèle ne sait pas utiliser d'outils, ce que demandent les ateliers. Les lignes suivantes montrent des noms proches.
+- **`Key saved, but this OpenRouter account has no credits left. Add credits, or choose a free model: workshop-login --models free`** : c'est l'erreur HTTP 402, prévenir l'animateur·rice. Dans `replay`, la ligne dit `no credits left on this key`. Une clé arrivée à sa limite peut donner ce message aussi (non testé). Avec un solde négatif, les modèles gratuits sont bloqués eux aussi. Après `workshop-login --europe`, le message s'arrête à `Add credits.` : aucun modèle gratuit ne tourne en Europe.
+- **`Key saved, but this key has reached its spending limit. Tell the facilitator.`** : dans `replay`, la ligne dit `this key or its account reached a spending limit`.
+- **`Key saved, but the quota of the model <model> is reached for now (HTTP 429). Try again later, or choose another model: workshop-login --models openrouter`**, ou **`Key saved, but the model <model> is busy (HTTP <code>). Try again in a few minutes, or choose another model: workshop-login --models openrouter`** : faire ce que dit le message. Dans `replay`, la ligne dit `too many requests, or the quota of this key or of this model is used up`, après une attente, car OpenCode réessaie d'abord tout seul. Les modèles gratuits ont un quota : le 1er novembre 2026, 50 requêtes par jour (1 000 une fois que le compte a acheté au moins 10 \$ de crédits), requêtes échouées comprises. Lors de notre seul essai, avec deux modèles gratuits en même temps, `replay` s'est arrêté sur cette erreur : après les modes bare et A pour l'un, dès le début pour l'autre. Un seul à la fois, avec du quota restant, `cohere/north-mini-code:free` a terminé `replay C`, et `google/gemma-4-26b-a4b-it:free` s'est arrêté sur trois erreurs 429 en 10 secondes. Après `workshop-login --europe`, le message nomme un modèle Mistral au lieu de la liste : ce modèle suit la même règle.
+- **`Key saved, but no company can serve the model <model> under the workshop's data rule. Choose another model: workshop-login --models openrouter`** : avec une clé OpenRouter, chaque requête demande d'écarter les entreprises qui peuvent collecter les données ou s'en servir pour l'entraînement. Certaines de celles qui restent peuvent quand même garder les questions un temps. Aucune ne sert ce modèle en ce moment. Dans `replay`, la ligne dit `the model is busy, or no company can serve it now` : réessayer plus tard, ou demander à l'animateur·rice.
+- **`Key saved, but Mistral does not serve the model <model> in Europe with zero data retention. Choose another model, for example: workshop-login --model <name>`** : vous avez activé `workshop-login --europe`, et ce modèle n'a aucune entreprise de ce type. Taper la commande que donne le message.
+- **`OpenCode is already open and keeps the old data rule: close it and start it again. A replay stops by itself before its next question.`** : vous avez changé `--europe` pendant qu'OpenCode tournait. Ce que vous y tapez part encore sous l'ancienne règle. Fermer ce chatbot, puis le relancer avec `workshop`.
+- **`Your data rule changed during this replay (workshop-login --europe or --no-europe). The next question was not sent.`** : la question en cours a fini sous l'ancienne règle. Sa réponse reste dans `answers/`. Retaper la même commande `replay`.
+- **`Open WebUI keeps the old data rule until you type: openwebui start`**, ou **`Your data rule changed since Open WebUI started (workshop-login --europe). Type openwebui start (it takes the new rule), then this command again.`** : Open WebUI lit la règle à son démarrage. Jusqu'à `openwebui start`, ses chatbots répondent encore sous l'ancienne règle.
 
 ---
 

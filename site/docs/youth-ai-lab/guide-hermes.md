@@ -28,7 +28,7 @@ sidebar_position: 24
 - Le dépôt du guide, où se trouvent la page à suivre et la configuration : https://github.com/Youth-AI-Lab/yal-hermes-guide
 - Le Codespace du guide, qui s'ouvre depuis : https://codespaces.new/Youth-AI-Lab/yal-hermes-guide
 - Un compte GitHub
-- Une clé d'API Anthropic, de préférence créée par votre structure
+- Une clé d'API Anthropic ou une clé OpenRouter (non testée), de préférence créée par votre structure
 - Un ordinateur avec un navigateur web, rien à installer
 
 </div>
@@ -76,14 +76,14 @@ L'assistant travaille dans un **Codespace**, un ordinateur dans le navigateur fo
 
 ## Avant de commencer
 
-Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) et environ **une heure**. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
+Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) ou une [clé OpenRouter](#ou-une-clé-openrouter-non-testé), et environ **une heure**. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
 
 - **Une clé de votre structure** : pour un usage professionnel, utiliser une clé créée avec l'accord de votre organisation, pas votre carte personnelle. Ce qu'Anthropic fait des données et le contrat nécessaire sont décrits dans le [guide OpenCode](/ressources/youth-ai-lab/guide-opencode).
-- **Une région en Europe** : choisir une région européenne pour le Codespace avant de le créer. Vos conversations et la mémoire restent alors en Europe ; vos questions, elles, partent toujours chez Anthropic.
-- **Un plafond de dépense** : dans la console Anthropic, le plafond se règle sur l'espace de travail (_workspace_) de la clé, pas sur la clé elle-même (`Spending` puis `Spend limits`). L'espace `Default` ne peut pas en avoir : créer la clé dans un espace plafonné.
+- **Une région en Europe** : choisir une région européenne pour le Codespace avant de le créer. Vos conversations et la mémoire restent alors en Europe ; vos questions, elles, partent toujours chez le fournisseur de votre clé.
+- **Un plafond de dépense** : dans la console Anthropic, le plafond se règle sur l'espace de travail (_workspace_) de la clé, pas sur la clé elle-même (`Spending` puis `Spend limits`). L'espace `Default` ne peut pas en avoir : créer la clé dans un espace plafonné. Avec une clé OpenRouter, le plafond est la **Credit limit** de la clé.
 - **Êtes-vous prêt·e ?** Oui si vous pouvez citer une séance que vous allez bientôt préparer, et deux ou trois informations sur vos groupes qu'un assistant devrait connaître (âge, taille, durée des séances).
 
-**Coûts mesurés** le 29 octobre 2026 avec Claude Sonnet 5.5, selon l'estimation de Hermes à partir des prix d'Anthropic : 0,045 dollar pour la question de la partie 1, 0,016 dollar pour un « Remember this », 0,021 dollar pour le niveau du jour, 0,089 dollar pour un plan de séance d'une heure. Six questions ont coûté 0,21 dollar au total. Côté GitHub, l'offre gratuite donne 120 heures-cœur par mois, soit 60 heures sur la machine à 2 cœurs du guide.
+**Coûts mesurés** le 29 octobre 2026 avec Claude Sonnet 5.5, selon l'estimation de Hermes à partir des prix d'Anthropic : 0,045 dollar pour la question de la partie 1, 0,016 dollar pour un « Remember this », 0,021 dollar pour le niveau du jour, 0,089 dollar pour un plan de séance d'une heure. Six questions ont coûté 0,21 dollar au total. Avec une clé OpenRouter, ces chiffres ne valent pas : **à compléter** (non mesuré). Côté GitHub, l'offre gratuite donne 120 heures-cœur par mois, soit 60 heures sur la machine à 2 cœurs du guide.
 
 ---
 
@@ -98,6 +98,37 @@ hermes auth add anthropic --type api-key
 ```
 
 Point de vigilance : ne jamais rouvrir le lien de création (il crée un nouveau Codespace vide) et ne **jamais** choisir `Rebuild Container`, ni accepter une reconstruction (_rebuild_) proposée par VS Code, ce qui efface la clé, la mémoire, les conversations et vos skills. Arrêter le Codespace après usage : GitHub supprime un Codespace resté arrêté 30 jours, avec tout son contenu. [Partie 1 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-1---set-up)
+
+#### Ou une clé OpenRouter (non testé)
+
+**Rien dans cette section n'a été testé.** Elle suit la documentation de Hermes pour la version 0.22.5. Les questions et les coûts de ce guide ont été mesurés avec une clé Anthropic et Claude Sonnet 5.5 : ils ne disent rien d'un autre modèle. La règle reste la même : jamais avec des jeunes.
+
+Créer la clé comme dans la [façon 3 du guide OpenCode](https://github.com/Youth-AI-Lab/yal-opencode-guide#way-3---an-openrouter-key), avec une **Credit limit**. Puis, à la place de la commande ci-dessus :
+
+1. Enregistrer la clé :
+
+   ```bash
+   hermes auth add openrouter --type api-key
+   ```
+
+   À `Paste your API key:`, coller la clé et appuyer sur Entrée. À `Label (optional, default: api-key-1):`, appuyer sur Entrée. Hermes devrait dire `Added openrouter credential #1: "api-key-1"`.
+
+2. Taper `code ~/.hermes/config.yaml`. C'est la copie que lit Hermes : le fichier `hermes/config.yaml` du guide n'est copié qu'à la création du Codespace, et il ne faut pas le modifier pour cela. Changer les deux lignes sous `model:` et ajouter la section `provider_routing`, qui demande des entreprises qui ne collectent pas les données des utilisateurs :
+
+   ```yaml
+   model:
+     provider: openrouter
+     default: deepseek/deepseek-v4-flash
+
+   provider_routing:
+     data_collection: deny
+   ```
+
+   `deepseek/deepseek-v4-flash` est le modèle des ateliers avec cette clé, mesuré avec OpenCode. `data_collection: deny` ne veut pas dire zéro conservation : le 1er novembre 2026, avec OpenCode, `google/gemini-2.5-flash-lite` a répondu avec cette règle active, et la seule entreprise qui le sert est listée avec 55 jours de conservation.
+
+3. Dans vos [paramètres de confidentialité](https://openrouter.ai/settings/privacy), refuser les entreprises qui peuvent entraîner leurs modèles sur vos données, pour les modèles payants et pour les gratuits. `provider_routing` ne couvre pas les tâches annexes de Hermes, comme le titre d'une conversation ou le résumé d'une longue conversation ([sa documentation](https://github.com/NousResearch/hermes-agent/blob/v0.22.5/website/docs/user-guide/configuration.md#openrouter-routing--pareto-code-for-auxiliary-tasks)). Si le modèle principal échoue, son code peut aussi les envoyer à un modèle gratuit.
+
+Lancer ensuite l'assistant avec `hermes`. Si la clé est refusée, vérifier la clé et son crédit sur https://openrouter.ai, taper `hermes auth remove openrouter api-key-1`, puis l'enregistrer de nouveau. Pour les données et les conditions, lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données).
 
 ### Partie 2 : Ce qui entre dans le contexte
 
@@ -131,7 +162,7 @@ Point de vigilance : certaines commandes tapées par vous désactivent ces règl
 
 ### Partie 7 : Garder et effacer
 
-Le guide donne les commandes pour lister et supprimer une conversation, effacer les journaux (qui gardent le texte de vos questions), vider la mémoire, rejeter les propositions en attente et retirer la clé. Seule la **suppression du Codespace** efface tout ce qu'il contient. À la fin du travail, ou si quelque chose de réel a été tapé par erreur, la procédure est la suivante : arrêter, révoquer la clé dans la console Anthropic (une clé retirée du Codespace marche encore ailleurs), supprimer le Codespace (ce qui n'efface ni ce que vous avez téléchargé, export ou sauvegarde, ni ce qui a déjà été envoyé à Anthropic, qui le garde selon ses propres conditions) et, s'il s'agissait d'un ou une jeune réel·le, noter ce qui a été tapé et quand, puis prévenir la personne chargée de la protection des données dans votre structure.
+Le guide donne les commandes pour lister et supprimer une conversation, effacer les journaux (qui gardent le texte de vos questions), vider la mémoire, rejeter les propositions en attente et retirer la clé (`hermes auth remove anthropic api-key-1`, ou `hermes auth remove openrouter api-key-1`). Seule la **suppression du Codespace** efface tout ce qu'il contient. À la fin du travail, ou si quelque chose de réel a été tapé par erreur, la procédure est la suivante : arrêter, révoquer la clé dans la console de son fournisseur (une clé retirée du Codespace marche encore ailleurs), supprimer le Codespace (ce qui n'efface ni ce que vous avez téléchargé, export ou sauvegarde, ni ce qui a déjà été envoyé au fournisseur de votre clé, qui le garde selon ses propres conditions) et, s'il s'agissait d'un ou une jeune réel·le, noter ce qui a été tapé et quand, puis prévenir la personne chargée de la protection des données dans votre structure.
 
 Point de vigilance : `hermes backup` met la clé dans l'archive produite. Ne jamais partager une telle archive. [Partie 7 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-7---keep-and-delete)
 
@@ -151,17 +182,17 @@ Point de vigilance : `hermes backup` met la clé dans l'archive produite. Ne jam
 
 - **Ne jamais taper d'information sur un ou une jeune réel·le ou une situation réelle** : ni nom, ni établissement, ni détail de santé ou de famille, ni incident réel, rien qui permette d'identifier quelqu'un, même sans nom. Décrire les besoins en termes généraux, ou inventer l'exemple. Tout ce que vous tapez part au modèle, reste dans le Codespace et peut être proposé pour la mémoire.
 - **Ce qui a été observé** : prié de retenir le nom, l'établissement et l'état de santé d'une jeune inventée, l'assistant a refusé. Ce refus vient de ses instructions ; un modèle peut se tromper, et seule votre approbation décide.
-- **Aucun document sur des jeunes dans le Codespace** : ni liste de participant·es, ni formulaire, évaluation, photo ou message. L'assistant peut ouvrir n'importe quel fichier du Codespace, et ce qu'il ouvre part chez Anthropic.
+- **Aucun document sur des jeunes dans le Codespace** : ni liste de participant·es, ni formulaire, évaluation, photo ou message. L'assistant peut ouvrir n'importe quel fichier du Codespace, et ce qu'il ouvre part chez le fournisseur de votre clé.
 - **Aucune messagerie** : Hermes sait répondre sur Telegram, WhatsApp, Discord, Signal, par e-mail et d'autres. Le guide ne les configure pas, et il ne faut pas le faire : quiconque peut écrire à l'agent par ce biais peut lui faire utiliser ses outils, et des jeunes pourraient l'atteindre.
 
 ### Où vont les données
 
-Chaque question, avec les instructions, la mémoire et les documents lus, est envoyée à Anthropic avec votre clé. Dans le Codespace, que GitHub fait tourner, restent les conversations complètes, le texte des questions dans les journaux, la mémoire, la clé (lisible par vous seul) et les propositions en attente. Après une erreur du modèle, la question entière peut être enregistrée dans un fichier (lu dans le code de Hermes, **non testé**). Les statistiques d'usage demandées par Nous Research ne sont pas envoyées : la configuration répond « No thanks » à votre place, et ce réglage ne couvre que ces statistiques. [Le tableau complet](https://github.com/Youth-AI-Lab/yal-hermes-guide#where-the-data-goes)
+Chaque question, avec les instructions, la mémoire et les documents lus, est envoyée à Anthropic avec votre clé. Avec une clé OpenRouter, elle part chez OpenRouter et chez l'entreprise qui sert le modèle ([guide OpenRouter, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)). Dans le Codespace, que GitHub fait tourner, restent les conversations complètes, le texte des questions dans les journaux, la mémoire, la clé (lisible par vous seul) et les propositions en attente. Après une erreur du modèle, la question entière peut être enregistrée dans un fichier (lu dans le code de Hermes, **non testé**). Les statistiques d'usage demandées par Nous Research ne sont pas envoyées : la configuration répond « No thanks » à votre place, et ce réglage ne couvre que ces statistiques : vos questions partent quand même chez le fournisseur de votre clé. [Le tableau complet](https://github.com/Youth-AI-Lab/yal-hermes-guide#where-the-data-goes)
 
 ### Ce que les règles ne peuvent pas empêcher
 
 - **L'assistant peut lire les autres fichiers du Codespace** : seuls les fichiers de la clé lui sont refusés (et `/proc/self/environ`, où les programmes gardent leurs réglages). Ne rien garder de personnel dans le Codespace. Un Codespace garde aussi un jeton GitHub du dépôt dont il est issu, dans un fichier que l'assistant peut ouvrir (`/workspaces/.codespaces/shared/`) ; dans le test, avec un faux jeton du même type, Hermes l'a masqué avant de l'envoyer au modèle. Pour cette raison, ne créer son Codespace qu'à partir du dépôt du guide.
-- **Le modèle voit tout ce que vous tapez et tout ce qu'il lit**, et Anthropic aussi.
+- **Le modèle voit tout ce que vous tapez et tout ce qu'il lit**, et le fournisseur de votre clé aussi.
 - **Un document peut le piéger** : un texte peut lui demander de retenir quelque chose, d'écrire une skill ou un plan trompeur. Relire chaque proposition avant de l'approuver, et chaque plan avant de s'en servir.
 - **Vous pouvez désactiver les règles vous-même**, depuis le terminal ou depuis Hermes. Dans le terminal, `hermes tools`, `hermes chat -t ...` et `hermes chat --yolo` changent les outils ou les approbations ; l'assistant, lui, n'a pas de terminal pour les taper. Dans Hermes, ne jamais taper `/yolo`, `/approvals`, `/tools`, `/memory approval` ou `/skills approval`, ni `/update`, `/init` ou `/debug` (ce dernier envoie vos journaux, avec le texte de vos questions, pour les partager). Ne pas lancer `hermes update` : le guide est écrit pour la version 0.22.5.
 - **Les skills installées à la main ne sont pas contrôlées** : en lire tous les fichiers avant de les installer. Le guide n'en a besoin d'aucune.
@@ -175,7 +206,7 @@ Chaque question, avec les instructions, la mémoire et les documents lus, est en
 - **Un vrai modèle n'a été essayé que sur six questions** (Claude Sonnet 5.5, 29 octobre 2026). Dans un vrai Codespace (image `2026.10.30`), seuls l'installation et `ci/check_hermes.py` ont été lancés (22 PASS, 0 FAIL, avant l'ajout du contrôle du jeton), pas tout le guide. Non testés : une skill proposée par l'assistant lui-même, une longue conversation.
 - **Hermes évolue vite** : le guide est figé sur la version 0.22.5, alors que sa documentation en ligne décrit la dernière version.
 - **Pas de modèle local de petite taille** : avec Ollama (un logiciel qui fait tourner un modèle sur un ordinateur de la structure) sur un portable doté d'une carte graphique de 6 Go, `qwen2.5:7b` n'a pas répondu et `mistral:7b` a donné une réponse fausse. Le guide ne fonctionne donc pas avec un petit modèle local ; avec un modèle plus grand, sur un ordinateur bien plus puissant : **non testé**. Voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale) pour Ollama.
-- **Autres fournisseurs** : Hermes accepte OpenRouter et d'autres, **non testés** ici.
+- **[OpenRouter](#ou-une-clé-openrouter-non-testé) et autres fournisseurs** : Hermes les accepte, **non testés** ici.
 - **Sans Codespace** : le guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers) ouvre le dépôt sur votre machine ; le test de sécurité y tourne sous Linux, **non testé** sous macOS et Windows.
 - **Message affiché quand la clé est refusée** : **à compléter** (non testé avec une clé refusée).
 - **Effacement réel d'une conversation supprimée** dans la base de Hermes : **non testé**.

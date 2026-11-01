@@ -27,7 +27,7 @@ sidebar_position: 19
 
 - 1 ordinateur par binôme, avec un navigateur web : rien à installer
 - 1 compte GitHub par binôme (un compte gratuit suffit)
-- 1 clé d'accès au modèle (clé d'API Anthropic, qui commence par `sk-ant-`) par binôme, fournie par l'animateur·rice : une petite requête de test à la partie 1, puis la partie 5
+- 1 clé d'accès au modèle par binôme, fournie par l'animateur·rice : une clé d'API Anthropic (elle commence par `sk-ant-`) ou une clé OpenRouter (elle commence par `sk-or-`). Elle sert à une petite requête de test à la partie 1, puis à la partie 5
 - La fiche d'une page (`sheet.md`), imprimée, une par binôme
 - 1 carte vierge ou une demi-feuille par personne, pour la carte de sortie
 - Du papier, pour écrire un test destiné à un autre binôme
@@ -59,7 +59,7 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 ## Introduction
 
-Dans les ateliers 1 à 5, le chatbot a reçu des instructions, des connaissances, une façon de chercher, des outils et un wiki. Tout cela est entré dans le **contexte** : le texte que le modèle lit avant de répondre. Le modèle, lui, n'a jamais changé : c'était le même Claude pour tout le monde, avec les mêmes nombres à l'intérieur. Aujourd'hui, on change un modèle. Un petit, pour une seule tâche : **trier les messages** que les gens envoient à un chatbot, avant que le chatbot ne les voie. La question du jour :
+Dans les ateliers 1 à 5, le chatbot a reçu des instructions, des connaissances, une façon de chercher, des outils et un wiki. Tout cela est entré dans le **contexte** : le texte que le modèle lit avant de répondre. Le modèle, lui, n'a jamais changé : c'était le même modèle pour tout le monde, avec les mêmes nombres à l'intérieur. Aujourd'hui, on change un modèle. Un petit, pour une seule tâche : **trier les messages** que les gens envoient à un chatbot, avant que le chatbot ne les voie. La question du jour :
 
 > **Quand vaut-il la peine d'apprendre quelque chose à un petit modèle, plutôt que de demander à un grand ?**
 
@@ -137,12 +137,12 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - `messages/examples.md` : les exemples dont le modèle apprend, sous quatre titres. On écrit dedans aujourd'hui.
 - `messages/test.md` : les messages de test. Le modèle ne les voit jamais pendant qu'il apprend.
 - `sorter` : la commande du jour (taper `./sorter` pour voir ce qu'elle sait faire).
-- `tools/sorter.py` : le programme derrière elle, environ 500 lignes de Python, si vous êtes curieux·se.
+- `tools/sorter.py` : le programme derrière elle, environ 800 lignes de Python, si vous êtes curieux·se.
 - `SETUP.md` : mise en place et problèmes courants de toute la série.
 
 ### Glossaire
 
-- **Modèle** : un programme dont le comportement n'est pas écrit sous forme de règles, mais stocké comme une très longue liste de nombres. Ici, il y en a deux : un petit modèle qui tourne dans le Codespace, et Claude, qui tourne chez Anthropic.
+- **Modèle** : un programme dont le comportement n'est pas écrit sous forme de règles, mais stocké comme une très longue liste de nombres. Ici, il y en a deux : un petit modèle, qui tourne dans le Codespace, et un grand, qui tourne ailleurs (Claude Haiku chez Anthropic, ou Mistral Small chez une entreprise jointe par OpenRouter).
 - **Paramètres** : les nombres d'un modèle. Le petit modèle du jour en a 117 653 760. Seul l'entraînement les change.
 - **Entraînement** : la boucle qui trouve ces nombres. Le programme reçoit un exemple, répond, mesure son erreur, puis change ses nombres d'un tout petit peu.
 - **Contexte** : le texte que le modèle lit avant de répondre.
@@ -152,7 +152,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **Exemple** : un message avec sa classe, dont le modèle apprend.
 - **Message de test** : un message avec sa classe que le modèle n'a jamais vu. Il sert à mesurer.
 - **Score sans entraînement** (_baseline score_) : le score de `./sorter baseline`, le point de départ.
-- **Premier score** : le score de `./sorter test` après le premier entraînement, sur le test d'un autre binôme. C'est le seul test honnête du modèle, et celui que l'on compare à Claude.
+- **Premier score** : le score de `./sorter test` après le premier entraînement, sur le test d'un autre binôme. C'est le seul test honnête du modèle, et celui que l'on compare au grand modèle.
 - **Score amélioré** : le score après la seconde série d'exemples. Il n'est pas honnête : le modèle est réglé sur ce test.
 - **Tableau de confusion** : un tableau qui croise la bonne classe (lignes) et la classe choisie (colonnes). Les bonnes réponses sont sur la diagonale.
 - **Confiance** : un nombre de 0,25 à 1 qui dit à quel point le trieur est sûr de son choix, pas s'il a raison. Sous 0,5, le trieur n'est pas sûr.
@@ -174,21 +174,23 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **Expliquer** ce que fait un classifieur, ce que l'entraînement change dans un modèle, et pourquoi un modèle qui choisit ne peut pas inventer de réponse.
 - **Écrire** des exemples et un test dans leur langue, régler un modèle sur ces exemples, et le tester.
 - **Lire** un tableau de confusion, et trouver l'erreur qui compte le plus.
-- **Comparer** leur petit modèle avec Claude (bonnes réponses, vitesse, coût, ce qui sort du Codespace), et décider quand un réglage fin vaut la peine.
+- **Comparer** leur petit modèle avec un grand (bonnes réponses, vitesse, coût, ce qui sort du Codespace), et décider quand un réglage fin vaut la peine.
 - **Imaginer** d'autres tris avec la même méthode : le type de question, le sujet, le ton.
 
 :::info[Notes pour l'animateur·rice]
 
 Prévoir environ 45 minutes de préparation :
 
-- **Une clé d'API Anthropic par binôme** (`sk-ant-`) (10 min), toutes dans un seul espace de travail pour la salle, plafonné, avec des clés de courte durée : une petite requête de `workshop-login` à la partie 1, puis `./sorter claude` à la partie 5. Le plafond porte sur l'espace de travail : quand il est atteint, toutes les clés s'arrêtent. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) et la préparation de l'[atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions). `workshop-login` doit dire `Key OK`. Il vérifie la clé avec Sonnet, et la partie 5 utilise Haiku : prendre l'une de ces clés pour son propre passage de `claude`.
-- **Faire son propre parcours la veille**, dans un Codespace neuf (15 min) : `workshop-login`, `workshop-start 6`, `./sorter setup`, `baseline`, `train`, `test`, `try`, `claude`, `workshop-save`. Noter les durées qu'affichent `setup` et `train`, et les comparer aux mesures ci-dessous. Dans un Codespace, le téléchargement (environ 2 Go une fois installé) passe par le cloud de GitHub, pas par le réseau de la salle. Ce Codespace prêt à l'avance sert aussi de secours.
+- **Une clé d'API Anthropic par binôme** (`sk-ant-`) (10 min), toutes dans un seul espace de travail pour la salle, plafonné, avec des clés de courte durée : une petite requête de `workshop-login` à la partie 1, puis `./sorter compare` à la partie 5. Le plafond porte sur l'espace de travail : quand il est atteint, toutes les clés s'arrêtent. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) et la préparation de l'[atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions). `workshop-login` doit dire `Key OK`. Il vérifie la clé avec Sonnet, et la partie 5 utilise Haiku : prendre l'une de ces clés pour son propre passage de `compare`.
+- **Faire son propre parcours la veille**, dans un Codespace neuf (15 min) : `workshop-login`, `workshop-start 6`, `./sorter setup`, `baseline`, `train`, `test`, `try`, `compare`, `workshop-save`. Noter les durées qu'affichent `setup` et `train`, et les comparer aux mesures ci-dessous. Dans un Codespace, le téléchargement (environ 2 Go une fois installé) passe par le cloud de GitHub, pas par le réseau de la salle. Ce Codespace prêt à l'avance sert aussi de secours.
 - **Préparer un message difficile par classe**, soit quatre messages, dans chaque langue de la salle (15 min). Pour `urgent`, prendre une personne en danger sans feu, ou un appel à l'aide court, avec des mots qui ne sont pas sur la page de l'atelier. C'est le test honnête de l'étape 4 de la partie 4, car aucun binôme ne les a vus : ne pas les donner à la partie 3.
 - **Imprimer** la [fiche d'une page](https://github.com/Youth-AI-Lab/yal-workshop-finetune/blob/main/sheet.md), une par binôme, et prévoir une carte vierge ou une demi-feuille par personne pour la carte de sortie (5 min). Les trois questions sont à la partie 6, étape 1. La fiche d'une page est en anglais, à traduire si besoin : ses titres sont ceux de la page anglaise, et sa partie 4 a sa propre numérotation (voir « Les repères de la salle »).
 
-**Protection de l'enfance (_safeguarding_).** Convenir d'abord de la procédure de votre structure : qui traite un message inquiétant, et comment. La partie 3 demande des messages inventés sur le danger et la détresse, et quelqu'un peut quand même écrire quelque chose de réel. Une confidence réelle cesse d'être une donnée d'atelier : elle reçoit une réponse privée d'une personne, selon cette procédure. Elle n'est ni lue à voix haute, ni affichée, ni utilisée pour l'entraînement, ni envoyée à Claude. Cela vaut dans cet atelier, et quand vous le réemployez avec des jeunes.
+**Ou des clés OpenRouter** (`sk-or-`) : aucun modèle Claude, et toute la salle sur un seul modèle, pour que les résultats se comparent (voir le [guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter), en anglais). La partie 5 lance alors `./sorter compare` avec `mistralai/mistral-small-3.2-24b-instruct` : 32 sur 32, aucune urgence manquée, 18 s, 0,0003 dollar sur le test du dépôt, en un seul passage ([mesures](https://youth-ai-lab.github.io/yal-workshop/measures/2026-11-01-openrouter-free/README.md)). Les chiffres de Claude donnés plus bas ne valent pas pour ce modèle. Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
 
-**Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter claude` sur 32 messages (mesuré), plus la petite requête de `workshop-login` à la partie 1 : moins d'un centime par binôme.
+**Protection de l'enfance (_safeguarding_).** Convenir d'abord de la procédure de votre structure : qui traite un message inquiétant, et comment. La partie 3 demande des messages inventés sur le danger et la détresse, et quelqu'un peut quand même écrire quelque chose de réel. Une confidence réelle cesse d'être une donnée d'atelier : elle reçoit une réponse privée d'une personne, selon cette procédure. Elle n'est ni lue à voix haute, ni affichée, ni utilisée pour l'entraînement, ni envoyée à un grand modèle. Cela vaut dans cet atelier, et quand vous le réemployez avec des jeunes.
+
+**Coût par binôme.** Le trieur ne coûte rien. La partie 5 coûte 0,0007 dollar par passage de `./sorter compare` sur 32 messages avec Claude Haiku (mesuré), plus la petite requête de `workshop-login` à la partie 1 : moins d'un centime par binôme.
 
 **Mesures.** Sauf mention contraire, elles ont utilisé les messages du dépôt (40 exemples, 32 messages de test, écrits pour l'atelier). Tous les temps ont été mesurés avec 2 processeurs. La dernière colonne du tableau donne l'image. L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. Journaux bruts du code final : [mesures du 1er novembre 2026](https://youth-ai-lab.github.io/yal-workshop/measures/2026-11-01-finetune-audit/README.md).
 
@@ -196,7 +198,7 @@ Le **code final** a tourné le 1er novembre 2026, de `workshop-start 6` à `work
 
 Ensuite, avec deux nouveaux vrais Codespaces (image `2026.10.39`, celle épinglée ce jour-là) : `workshop-save` dans le premier, **Download...** dans Chrome, le fichier déposé sur la liste des fichiers du second (même empreinte SHA-256 à chaque étape), `workshop-start 6 --from my-work.zip`, `./sorter setup` 108 s, `./sorter train` 65 s. VS Code ouvre le fichier déposé dans un onglet et dit qu'il ne peut pas l'afficher : le fermer. Limites : VS Code venait de `code serve-web`, dans un Chrome sans fenêtre, et le glissement a été envoyé par le protocole de débogage de Chrome, pas par une main. Pas joué : un groupe.
 
-Un nouveau Codespace ouvre l'image nommée dans `.devcontainer/devcontainer.json`. Si cette image est plus récente que celles du tableau, votre parcours de la veille sert de vérification de ces temps.
+Un nouveau Codespace ouvre l'image nommée dans `.devcontainer/devcontainer.json`. Si cette image est plus récente que celles du tableau, votre parcours de la veille sert de vérification de ces temps. Les clés OpenRouter et `workshop-login --europe` arrivent avec l'image `2026.10.43`.
 
 | Quoi                                                                                                                                          | Mesure                                                                                                                                                                                                                                                                                                                        | Image                                                                              |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -216,6 +218,8 @@ Un nouveau Codespace ouvre l'image nommée dans `.devcontainer/devcontainer.json
 | Un message sur le feu à la fin de `examples.md`, donc sous `## off-topic`                                                                     | 30 sur 32, 2 urgences manquées, deux détresses sans feu. Le même message sous `## urgent` : 31 sur 32, aucune manquée                                                                                                                                                                                                         | ordinateur portable, mêmes données                                                 |
 | Mémoire                                                                                                                                       | 4,3 Go au plus avec 40 exemples, 5,1 Go avec 80, sur 8                                                                                                                                                                                                                                                                        | `2026.10.38`                                                                       |
 | `./sorter claude` (premier de trois passages, même résultat ; `claude-haiku-5-5`, réflexion coupée)                                           | 30 sur 32, 2 urgences manquées (« Un ragazzo mi minaccia e ho paura », Un garçon me menace et j'ai peur ; « Someone at school keeps hitting me and I'm afraid », Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur : `off-topic`) ; 0,9 s par message ; 0,0007 dollar, soit environ 0,02 dollar pour 1 000 messages | `2026.10.38`                                                                       |
+| `./sorter compare`, clé OpenRouter, `mistralai/mistral-small-3.2-24b-instruct` (un seul passage, 1er novembre 2026) | 32 sur 32, aucune urgence manquée ; 18 s, 0,0003 dollar. Pas joué avec un groupe, ni dans un vrai Codespace | `2026.10.42`, nouveau `bin/` placé devant celui de l'image |
+| `./sorter compare`, clé OpenRouter, `deepseek/deepseek-v4-flash` (un seul passage, 1er novembre 2026) | 30 sur 32, 1 urgence manquée ; 38 s, 0,0002 dollar. Pas joué avec un groupe, ni dans un vrai Codespace | `2026.10.42`, nouveau `bin/` placé devant celui de l'image |
 | Un autre modèle, `intfloat/multilingual-e5-small` (MIT), mêmes données                                                                        | 23 sur 32 sans entraînement, 29 sur 32 réglé, une urgence manquée : pas retenu                                                                                                                                                                                                                                                | ordinateur portable                                                                |
 
 **Ce 32 sur 32 ne dit rien des vrais messages** : les messages de test du dépôt ont été écrits avec les exemples. La partie 3 sert à cela : le test écrit par un autre binôme est le test honnête.
@@ -240,7 +244,7 @@ Un seul Codespace par binôme, à garder pendant tout l'atelier. Changer de pers
    workshop-login
    ```
 
-   Coller la clé une seule fois (`Ctrl+Shift+V`, `Cmd+V` sur Mac). Le navigateur peut demander la permission de coller : accepter. La clé s'affiche en `*` : c'est normal. Appuyer sur Entrée. On doit voir une ligne qui commence par `Key OK` et se termine par `You can start: workshop-start 6`. Cette commande envoie une petite requête à Claude Sonnet. Ensuite, seule la partie 5 utilise la clé, avec Claude Haiku, et ce doit être une clé Anthropic (elle commence par `sk-ant-`). Si votre clé échoue, prévenir l'animateur·rice et continuer : les parties 1 à 4 n'en ont pas besoin.
+   Coller la clé une seule fois (`Ctrl+Shift+V`, `Cmd+V` sur Mac). Le navigateur peut demander la permission de coller : accepter. La clé s'affiche en `*` : c'est normal. Appuyer sur Entrée. On doit voir une ligne qui commence par `Key OK` et se termine par `You can start: workshop-start 6`. Cette commande envoie une petite requête à Claude Sonnet, ou à DeepSeek V4 Flash avec une clé OpenRouter. Ensuite, seule la partie 5 utilise la clé : Claude Haiku avec une clé Anthropic (elle commence par `sk-ant-`), Mistral Small avec une clé OpenRouter (elle commence par `sk-or-`). Si votre clé échoue, prévenir l'animateur·rice et continuer : les parties 1 à 4 n'en ont pas besoin.
 
 4. Préparer la séance :
 
@@ -420,7 +424,7 @@ Ouvrir `messages/examples.md`. Le commentaire du haut rappelle les règles. Dess
 
 Le modèle apprendra de chaque ligne de `messages/examples.md` : de bons exemples ressemblent donc aux messages qu'il recevra vraiment. Écrire comme écrit un·e jeune ou un·e habitant·e, avec de l'argot, des fautes, sans ponctuation, parfois en un mot (« help!! »), parfois en une phrase entière. Varier les mots, les longueurs et les langues pour une même classe. Surtout, ajouter les **cas difficiles**, ceux qui se trouvent près d'une frontière entre deux classes : une urgence qui contient une question (« il y a de la fumée, je fais quoi ? »), une personne en danger sans feu (« quelqu'un me suit »), un message hors sujet qui parle de feu (« allumer mes bougies d'anniversaire ? »), une question `today` qui ne dit pas « aujourd'hui » (« on peut faire un barbecue ce week-end ? »).
 
-Une règle pour les deux fichiers : **chaque message est inventé, sans rien sur une personne réelle**. À la partie 5, `./sorter claude` envoie chaque message de test à Anthropic.
+Une règle pour les deux fichiers : **chaque message est inventé, sans rien sur une personne réelle**. À la partie 5, `./sorter compare` envoie chaque message de test à Anthropic, ou, par OpenRouter, à une entreprise qui fait tourner le modèle.
 
 :::info
 
@@ -457,7 +461,7 @@ Une règle pour les deux fichiers : **chaque message est inventé, sans rien sur
 
 Employer les mêmes mots que la fiche. `urgent` : un feu en cours, ou une personne en danger ou en détresse, même sans feu. `today` : une question qui a besoin des faits du moment, ce soir ou ce week-end compris. Les binômes écrivent d'abord des exemples faciles. Pousser vers les cas difficiles : une urgence qui contient une question, une personne en danger sans feu, une question `today` sans le mot aujourd'hui, un message hors sujet qui parle de feu. Lire les lignes que chaque binôme ajoute sous `## urgent` : si elles parlent toutes de feu, demander des personnes en danger et des appels à l'aide courts.
 
-**Quand les binômes commencent à écrire, avant l'échange, le dire une fois : les exemples et les messages de test sont inventés, sans rien sur une personne réelle.** `./sorter claude` envoie chaque message de test à Anthropic.
+**Quand les binômes commencent à écrire, avant l'échange, le dire une fois : les exemples et les messages de test sont inventés, sans rien sur une personne réelle.** `./sorter compare` envoie chaque message de test à Anthropic, ou, par OpenRouter, à une entreprise qui fait tourner le modèle.
 
 Les appels à l'aide courts sont le manque des exemples de départ, qui restent tels quels : `help!!` (au secours !!), `Help me please.` (Aide-moi, s'il te plaît.) et `aidez moi` sortent en `off-topic`. Selon la langue, le résultat change : `aiuto` (à l'aide, en italien) sort en `urgent` à 0,41, donc réponse de sécurité ; `hulp` (en néerlandais) et `ajuda` (en catalan) sortent en `off-topic` à 0,43 et 0,45, donc pas sûr, au chatbot et sans refus. Essayer ceux de votre langue pendant votre parcours de la veille. Chaque binôme teste donc des appels à l'aide courts dans sa langue avec `./sorter try`, à l'étape 4 de la partie 4.
 
@@ -589,7 +593,7 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
    ./sorter test
    ```
 
-   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de nos essais : 32 sur 32, aucune urgence manquée, de 7 à 9 ms par message dans un lot de 32. Sur votre propre test, vous verrez sans doute des erreurs. Le score obtenu est votre **premier score** : le seul test honnête de votre modèle, et celui que vous comparez à Claude à la partie 5. Ici, le nombre entre parenthèses n'est plus une proximité : c'est la confiance du trieur. `Not sure (below 0.5)` liste les messages de 15 mots ou moins à confiance faible, non classés `urgent`, que leur classe soit juste ou non. `Too long to sort` liste les messages plus longs sans urgence sûre. `Right but below 0.5` liste les urgences bien classées, avec peu de marge. L'étape 4 et le Dépannage expliquent ce qu'en ferait un chatbot.
+   On doit voir le même tableau que sans entraînement, pour le modèle réglé. Avec les messages du dépôt, lors de nos essais : 32 sur 32, aucune urgence manquée, de 7 à 9 ms par message dans un lot de 32. Sur votre propre test, vous verrez sans doute des erreurs. Le score obtenu est votre **premier score** : le seul test honnête de votre modèle, et celui que vous comparez au grand modèle à la partie 5. Ici, le nombre entre parenthèses n'est plus une proximité : c'est la confiance du trieur. `Not sure (below 0.5)` liste les messages de 15 mots ou moins à confiance faible, non classés `urgent`, que leur classe soit juste ou non. `Too long to sort` liste les messages plus longs sans urgence sûre. `Right but below 0.5` liste les urgences bien classées, avec peu de marge. L'étape 4 et le Dépannage expliquent ce qu'en ferait un chatbot.
 
    Notre 32 sur 32 ne dit pas grand-chose : ces messages de test ont été écrits avec les exemples. Votre test, écrit par un autre binôme, est celui qui compte. Attendez-vous à un score plus bas.
 
@@ -700,7 +704,7 @@ Ne pas dire que les nombres ne stockent pas vos phrases : le trieur sort une cla
 
 Les chiffres de la page viennent d'une [mesure du 31 octobre 2026](https://youth-ai-lab.github.io/yal-workshop/measures/2026-10-31-finetune-what-changes/README.md) (image `2026.10.39`, 2 processeurs, 8 Go, sans clé ni appel payant). Sur 117 653 760 nombres, 117 505 726 ont bougé (99,874 %) ; les seuls qui n'ont pas bougé sont dans une partie dont le modèle ne se sert pas. Cela ne veut pas dire que 99,9 % des nombres ont appris : ce qui apprend, ce sont les 281 lignes de la table et les 12 couches.
 
-**Après la partie 4.** « Votre score amélioré est meilleur : est-il honnête ? » Non : le binôme a écrit de nouveaux exemples après avoir lu les erreurs de ce test, et le modèle est réglé dessus. Le premier score est le score honnête, et c'est lui qu'on compare à Claude. Vos messages difficiles viennent en dernier : personne ne les a vus. « 100 % sur votre test : est-il parfait ? » Non : le test tient en quelques messages, écrits par des personnes de cette salle. Écrire ceci au tableau : un trieur qui manque 1 urgence sur 10 (un nombre inventé) affiche quand même `Emergencies missed: 0` sur 3 urgences au hasard environ 3 fois sur 4 : 0,9 × 0,9 × 0,9 = 0,73. Les vraies personnes écriront d'autres messages. C'est pourquoi, une fois en ligne, une personne relit les erreurs et écrit de nouveaux exemples inventés qui montrent le même schéma. Les vrais messages de jeunes ne deviennent pas des exemples, même sans les noms.
+**Après la partie 4.** « Votre score amélioré est meilleur : est-il honnête ? » Non : le binôme a écrit de nouveaux exemples après avoir lu les erreurs de ce test, et le modèle est réglé dessus. Le premier score est le score honnête, et c'est lui qu'on compare au grand modèle. Vos messages difficiles viennent en dernier : personne ne les a vus. « 100 % sur votre test : est-il parfait ? » Non : le test tient en quelques messages, écrits par des personnes de cette salle. Écrire ceci au tableau : un trieur qui manque 1 urgence sur 10 (un nombre inventé) affiche quand même `Emergencies missed: 0` sur 3 urgences au hasard environ 3 fois sur 4 : 0,9 × 0,9 × 0,9 = 0,73. Les vraies personnes écriront d'autres messages. C'est pourquoi, une fois en ligne, une personne relit les erreurs et écrit de nouveaux exemples inventés qui montrent le même schéma. Les vrais messages de jeunes ne deviennent pas des exemples, même sans les noms.
 
 :::
 
@@ -710,6 +714,12 @@ Les chiffres de la page viennent d'une [mesure du 31 octobre 2026](https://youth
 
 **Objectif** : comparer son petit modèle réglé avec un grand modèle qui n'a jamais vu ses exemples, et décider quand chacun vaut la peine.
 
+:::info
+
+**Avec une clé OpenRouter (`sk-or-`)**, le grand modèle est Mistral Small (`mistralai/mistral-small-3.2-24b-instruct`). Dans les étapes de cette partie, lire Mistral Small là où il est écrit Claude. Les chiffres restent ceux de Claude Haiku, sauf s'ils nomment un autre modèle. Comparer vos résultats seulement avec un binôme qui utilise le même modèle.
+
+:::
+
 ### Ce que vous allez découvrir
 
 - Un grand modèle trie bien à partir d'une courte description des classes, sans aucun exemple.
@@ -718,7 +728,7 @@ Les chiffres de la page viennent d'une [mesure du 31 octobre 2026](https://youth
 
 ### Trier sans entraînement : les nombres ou le contexte
 
-Claude a été entraîné une fois, par Anthropic, à très grande échelle, et personne ne le change pour vous. Pour le faire trier, vous faites ce que vous avez fait à l'atelier 1 : vous écrivez des instructions. `./sorter claude` lui envoie une courte description des quatre classes, puis un message de test, et lui demande un mot. La description entre dans le **contexte**, comme votre `AGENTS.md`. Vous voilà revenu·e à la question de la série. Pour lire cette description, ouvrir `tools/sorter.py` et chercher `CLAUDE_INSTRUCTIONS`.
+Claude a été entraîné une fois, par Anthropic, à très grande échelle, et personne ne le change pour vous. Pour le faire trier, vous faites ce que vous avez fait à l'atelier 1 : vous écrivez des instructions. `./sorter compare` lui envoie une courte description des quatre classes, puis un message de test, et lui demande un mot. La description entre dans le **contexte**, comme votre `AGENTS.md`. Vous voilà revenu·e à la question de la série. Pour lire cette description, ouvrir `tools/sorter.py` et chercher `CLAUDE_INSTRUCTIONS`.
 
 La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vivre à deux endroits :
 
@@ -736,12 +746,14 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 1. Taper :
 
    ```bash
-   ./sorter claude
+   ./sorter compare
    ```
 
    Claude (`claude-haiku-5-5`, le plus petit Claude actuel) n'a jamais vu vos exemples.
 
-   On doit voir le même tableau, puis le temps, les jetons et le coût estimé, pour le test et pour 1 000 messages. Lors de nos passages du 31 octobre 2026, avec les messages du dépôt, le résultat a été le même à chaque fois : 30 sur 32, et **2 urgences manquées**, « Someone at school keeps hitting me and I'm afraid » (Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur) et « Un ragazzo mi minaccia e ho paura » (Un garçon me menace et j'ai peur), classées `off-topic`. De 0,8 à 0,9 s par message, 0,0007 dollar pour les 32 messages, soit environ 0,02 dollar pour 1 000 messages.
+   On doit voir le même tableau, puis le temps, les jetons et le coût estimé, pour le test et pour 1 000 messages. Lors de nos passages du 31 octobre 2026 avec Claude Haiku, avec les messages du dépôt, le résultat a été le même à chaque fois : 30 sur 32, et **2 urgences manquées**, « Someone at school keeps hitting me and I'm afraid » (Quelqu'un à l'école n'arrête pas de me frapper et j'ai peur) et « Un ragazzo mi minaccia e ho paura » (Un garçon me menace et j'ai peur), classées `off-topic`. De 0,8 à 0,9 s par message, 0,0007 dollar pour les 32 messages, soit environ 0,02 dollar pour 1 000 messages.
+
+   La capture de la page de l'atelier montre `./sorter claude`, un autre nom de `./sorter compare`. Avec une clé OpenRouter, un seul passage par modèle, le 1er novembre 2026, a donné 32 sur 32 et aucune urgence manquée avec `mistralai/mistral-small-3.2-24b-instruct` (18 s, 0,0003 dollar), et 30 sur 32 et 1 urgence manquée avec `deepseek/deepseek-v4-flash` (38 s, 0,0002 dollar). La ligne `Time:` affiche alors `Cost given by OpenRouter:` au lieu de `Estimated cost:`.
 
 2. Remplir la comparaison au tableau. Pour votre modèle, écrire votre **premier score** (partie 4, étape 1, point 5). Le score amélioré est réglé sur ces messages de test, et Claude ne les a jamais vus.
 
@@ -752,7 +764,7 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
    | Temps par message         | de 7 à 9 ms dans un lot                          |                             |
    | Coût pour 1 000 messages  | aucun par message                                |                             |
    | Fonctionne sans le réseau | oui                                              | non                         |
-   | Où se fait le tri         | dans le Codespace                                | chez Anthropic              |
+   | Où se fait le tri         | dans le Codespace                                | chez Anthropic, ou chez une entreprise jointe par OpenRouter |
    | Ce qu'il a fallu préparer | vos exemples, une ou deux minutes d'entraînement | une description des classes |
 
 :::
@@ -765,7 +777,13 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 :::info
 
-**Ce qui sort du Codespace.** `./sorter claude` envoie chaque message de test à Anthropic. Votre petit modèle trie dans le Codespace. Mais dans un vrai chatbot, les messages `topic`, `today`, pas sûrs et longs arrivent ensuite au grand modèle : pour des messages écrits par des jeunes, regardez donc les deux modèles.
+**Ce qui sort du Codespace.** `./sorter compare` envoie chaque message de test à Anthropic, ou, par OpenRouter, à une entreprise qui fait tourner le modèle. Votre petit modèle trie dans le Codespace. Mais dans un vrai chatbot, les messages `topic`, `today`, pas sûrs et longs arrivent ensuite au grand modèle : pour des messages écrits par des jeunes, regardez donc les deux modèles.
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne vont alors qu'à Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : l'entreprise dit ne rien stocker). Le modèle par défaut devient `mistralai/mistral-small-2603`, et `./sorter compare` reste sur `mistralai/mistral-small-3.2-24b-instruct`, même si la ligne `Key OK` nomme un autre modèle. OpenRouter lui-même peut quand même traiter ces requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande une offre Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter, ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données), en anglais, avant toute séance avec des jeunes.
 
 :::
 
@@ -779,7 +797,7 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 :::info[Notes pour l'animateur·rice]
 
-« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Les deux messages parlent de menaces et de violences sans feu, l'un à l'école. Claude n'avait que la description, qui commence par « a chatbot about wildfire prevention » : c'est peut-être pour cela qu'ils lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu. Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Trois passages ont donné le même résultat, mais Claude ne répond pas toujours de la même façon.
+« Claude a manqué deux urgences, votre petit modèle aucune : Claude est-il moins bon ? » Pas vraiment. Les deux messages parlent de menaces et de violences sans feu, l'un à l'école. Claude n'avait que la description, qui commence par « a chatbot about wildfire prevention » : c'est peut-être pour cela qu'ils lui ont paru hors sujet (la cause n'a pas été mesurée). Le petit modèle a appris d'exemples où des personnes en détresse sont `urgent`, sans feu. Chacun échoue à sa façon : Claude là où la description est floue, le petit modèle là où les exemples manquent. Trois passages ont donné le même résultat, mais Claude ne répond pas toujours de la même façon. Avec une clé OpenRouter, la salle lit son propre résultat : lors de notre seul passage, Mistral Small n'a manqué aucune urgence.
 
 Cette description est un exemple d'atelier, pas une consigne vérifiée. Avant tout réemploi, la changer dans `tools/sorter.py`, puis la tester sur des urgences, avec et sans feu, que personne n'a utilisées pour l'écrire. Nous n'avons pas mesuré de description corrigée.
 
@@ -851,12 +869,12 @@ Un trieur se trompe, et un refus n'est pas un filet de sécurité : un appel à 
 
 ## Dépannage
 
-Les problèmes communs à toute la série (clé, Codespace, terminal) sont dans la [section Troubleshooting de `SETUP.md`](https://github.com/Youth-AI-Lab/yal-workshop-finetune/blob/main/SETUP.md#troubleshooting) : `Nothing was pasted.`, clé refusée en HTTP 401, Codespace arrêté à rouvrir sur https://github.com/codespaces.
+Les problèmes communs à toute la série (clé, Codespace, terminal) sont dans la [section Troubleshooting de `SETUP.md`](https://github.com/Youth-AI-Lab/yal-workshop-finetune/blob/main/SETUP.md#troubleshooting) : `Nothing was pasted.`, clé refusée en HTTP 401, messages propres à OpenRouter (plus de crédits, plafond, quota d'un modèle, `--europe`), Codespace arrêté à rouvrir sur https://github.com/codespaces.
 
 - **Un message affiche `too long to sort`, ou un long message reçoit la réponse de sécurité** : un message de plusieurs phrases est aussi lu phrase par phrase, sur `.`, `!`, `?`, les points de suspension et les retours à la ligne, pas sur les virgules. Une phrase où `urgent` est la plus grande part compte comme une urgence. Elle reçoit la réponse de sécurité si le message a 15 mots ou moins, ou si cette part vaut 0,5 ou plus. Au-delà de 15 mots sans urgence sûre, le message n'est pas trié : il va au chatbot. Cela comprend une urgence classée `urgent` sous 0,5 : `Emergencies missed` ne la compte pas, `./sorter test` la liste donc sous `Too long to sort`, avec une flèche. Nous avons croisé 5 urgences avec des longueurs et des positions. Avec la ponctuation, les 240 messages ont reçu la réponse de sécurité. Sans ponctuation, 29 sur 240 l'ont reçue et 211 sont allés au chatbot, aucun refusé et aucun envoyé à l'outil en direct. Nous n'avons pas mesuré si les règles du chatbot les couvrent alors. Et sur 8 extraits croissants d'un même texte de prévention, 6 ont reçu la réponse de sécurité par erreur. Cela montre comment la règle fonctionne : ce n'est pas un taux de détection.
 - **Un message de prévention reçoit la réponse de sécurité dans `./sorter try`** : c'est une fausse alerte, pas une panne. C'est un choix : une urgence possible passe d'abord. Une seule phrase ordinaire sur le feu peut se lire comme `urgent`. Taper chaque phrase seule pour la trouver. La règle est à l'entrée précédente.
 - **`The libraries are not installed yet. Type: ./sorter setup`** : la taper, et attendre `Model ready`. Chaque nouveau Codespace en a besoin une fois.
-- **`./sorter setup` très lent, arrêté sur une erreur de réseau, ou `The model could not be downloaded or opened`** : dans un Codespace, GitHub, PyPI ou Hugging Face peuvent être lents ; avec des dev containers sur les ordinateurs de la salle, c'est le réseau de la salle. Retaper `./sorter setup`, qui repart de là où il s'est arrêté. Si l'échec se répète, prévenir l'animateur·rice, qui mène l'atelier sur grand écran dans son propre Codespace : les binômes remplissent des feuilles avec les quatre titres, les échangent et les gardent. `./sorter claude` (partie 5) marche sans `./sorter setup`, dans leur Codespace.
+- **`./sorter setup` très lent, arrêté sur une erreur de réseau, ou `The model could not be downloaded or opened`** : dans un Codespace, GitHub, PyPI ou Hugging Face peuvent être lents ; avec des dev containers sur les ordinateurs de la salle, c'est le réseau de la salle. Retaper `./sorter setup`, qui repart de là où il s'est arrêté. Si l'échec se répète, prévenir l'animateur·rice, qui mène l'atelier sur grand écran dans son propre Codespace : les binômes remplissent des feuilles avec les quatre titres, les échangent et les gardent. `./sorter compare` (partie 5) marche sans `./sorter setup`, dans leur Codespace.
 - **`messages/...: ... line(s) to fix`** : le trieur liste chaque ligne qu'il ne sait pas lire, avec son numéro. Les titres doivent être exactement `## topic`, `## today`, `## urgent`, `## off-topic`. Chaque message commence par `- `, un tiret et une espace : ni `*`, ni `1.`, ni le tiret long qu'ajoute un traitement de texte.
 - **`Each class needs at least 2 examples`** : un titre a moins de deux messages.
 - **`Emergencies missed: none tested`** : le score ne dit rien des urgences. Mettre les urgences de l'autre binôme sous `## urgent` dans `messages/test.md`, puis relancer la commande.
@@ -865,9 +883,11 @@ Les problèmes communs à toute la série (clé, Codespace, terminal) sont dans 
 - **`Warning: the same message is under ## ... and ## ...`, ou `this example has more than 15 words`** : garder le message sous le bon titre seulement, ou le raccourcir, puis régler de nouveau.
 - **`Warning: messages/examples.md changed after the last training`** : le score vient de l'ancien modèle. Taper `./sorter train`, puis `./sorter test`. Après 1 h 15 de séance, pas d'entraînement : `./sorter try` marche encore, avec l'ancien modèle.
 - **`workshop-login` ne dit pas `Key OK` à la partie 1** : le binôme continue, les parties 1 à 4 n'ont pas besoin de la clé. Régler le problème avant la partie 5 ; sinon, voir plus bas « Pas de clé pour la partie 5 ».
-- **`./sorter claude` dit que la clé est refusée, ou `This comparison needs an Anthropic key`** : taper `workshop-login` et coller la clé Anthropic fournie par l'animateur·rice (elle commence par `sk-ant-`). Le second message veut dire que le binôme a enregistré une clé OpenRouter.
-- **`Claude is busy`** : plusieurs binômes demandent en même temps. Attendre une minute, puis retaper `./sorter claude` (la commande a déjà réessayé trois fois).
-- **`Claude refused the request (HTTP 400): ...`** : montrer le message à l'animateur·rice. Souvent, l'espace de travail a atteint son plafond de dépense.
+- **`./sorter compare` dit que la clé est refusée, ou `This comparison needs an Anthropic key (it starts with sk-ant-) or an OpenRouter key (it starts with sk-or-).`** : taper `workshop-login` et coller la clé fournie par l'animateur·rice. Le second message veut dire que la clé enregistrée ne commence ni par `sk-ant-`, ni par `sk-or-`.
+- **`Claude is busy`, ou le nom d'un modèle suivi de `is busy`** : plusieurs binômes demandent en même temps. Attendre une minute, puis retaper `./sorter compare` (la commande a déjà réessayé trois fois).
+- **`Claude refused the request (HTTP 400): ...`, `OpenRouter says this account has no credit left: ...` ou `A spending limit stopped the test: ...`** : montrer le message à l'animateur·rice. Souvent, le plafond de dépense de la salle est atteint. Avec OpenRouter, l'animateur·rice ajoute des crédits, ou relève le plafond de la clé.
+- **`No company can run ... for this test`** : avec une clé OpenRouter, l'atelier écarte les entreprises qui peuvent collecter les données ou s'entraîner dessus, et aucune de celles qui restent ne fait tourner ce modèle. Ce n'est pas une surcharge : attendre n'aidera pas. Montrer le message à l'animateur·rice.
+- **`Not sorted: ... of ... messages. Why:`, ou une colonne `(unsorted)` dans le tableau** : aucune classe n'est revenue pour ces messages, et la raison est écrite dessous : filtre de sécurité, refus du modèle, erreur de l'entreprise qui le fait tourner, réponse coupée ou vide. Chacun compte comme une erreur, et le test continue avec les suivants. Les messages de détresse sont ceux qu'un filtre peut bloquer. Une urgence non triée compte dans `Emergencies missed`, et une ligne le précise : `... of them not sorted at all: nobody knows what the model would have chosen.`
 - **Pas de clé pour la partie 5** : comparer avec les chiffres que vous avez mesurés la veille.
 - **Le Codespace manque de mémoire** : fermer les autres terminaux. L'entraînement demande environ 5 Go avec 80 exemples, et le vrai Codespace mesuré en a 7.
 

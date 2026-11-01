@@ -25,7 +25,7 @@ sidebar_position: 14
 ## Matériel
 
 - 1 ordinateur avec un navigateur web par binôme, et 1 compte GitHub gratuit par binôme
-- 1 clé API Anthropic par binôme, fournie par l'animateur·rice
+- 1 clé API par binôme (Anthropic ou OpenRouter), fournie par l'animateur·rice
 - La fiche d'une page de l'atelier (`sheet.md`), imprimée pour chaque binôme
 - 1 carte vierge ou une demi-feuille par personne pour la carte de sortie
 - Un tableau (papier ou effaçable) pour le tableau de la salle de la partie 3
@@ -55,13 +55,13 @@ Les participant·es ont déjà discuté avec un chatbot comme ChatGPT, Gemini ou
 
 > **Que lit le chatbot avant de répondre ?**
 
-C'est la première étape de la question qui traverse toute la série : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui en décide ?** Un **modèle** est le programme qui écrit les réponses : ici Claude Sonnet, le même pour tous les binômes. Un **chatbot** est un modèle, plus ce qu'on lui ajoute.
+C'est la première étape de la question qui traverse toute la série : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui en décide ?** Un **modèle** est le programme qui écrit les réponses : ici Claude Sonnet avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter, le même pour tous les binômes qui ont ce type de clé. Un **chatbot** est un modèle, plus ce qu'on lui ajoute.
 
 Avant de modifier un chatbot, on le mesure. Sans test fixe, on n'a que des impressions, et un chatbot peut sembler meilleur tout en se trompant plus souvent. L'atelier commence donc par un jeu de test de 12 questions, posées au modèle seul. Chaque modification suivante est mesurée par rapport à cette première colonne.
 
 Ensuite, au lieu d'écrire tout de suite des instructions, les binômes observent cinq chatbots construits sur le même modèle avec des instructions différentes. Certains font des erreurs volontaires. Les trouver, et voir combien certaines sont difficiles à repérer, prépare à écrire ses propres instructions : on sait ce qu'on veut éviter.
 
-Le chatbot tourne dans **Claude Code**, un programme où un modèle travaille sur un dossier de fichiers. Ce n'est pas l'outil à utiliser avec des jeunes. On l'utilise parce que c'est une boîte en verre : on voit à quel point le contexte est rempli, et chaque fichier que lit le modèle. Les mécanismes sont les mêmes que dans les outils de discussion habituels.
+Le chatbot tourne dans **Claude Code** (dans OpenCode avec une clé OpenRouter, voir la partie 1), un programme où un modèle travaille sur un dossier de fichiers. Ce n'est pas l'outil à utiliser avec des jeunes. On l'utilise parce que c'est une boîte en verre : on voit à quel point le contexte est rempli, et chaque fichier que lit le modèle. Les mécanismes sont les mêmes que dans les outils de discussion habituels.
 
 Message à retenir en fin de séance : **les instructions changent la façon dont un chatbot se comporte, pas ce qu'il sait ; et un total ne montre pas tout.**
 
@@ -120,17 +120,17 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 ### Glossaire
 
-- **Modèle** : le programme d'IA qui produit les réponses (ici Claude Sonnet, le même pour tous les binômes). Il a lu beaucoup de textes pendant son entraînement, il y a longtemps.
+- **Modèle** : le programme d'IA qui produit les réponses (ici Claude Sonnet avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter, le même pour tous les binômes qui ont ce type de clé). Il a lu beaucoup de textes pendant son entraînement, il y a longtemps.
 - **Contexte** : tout ce que le modèle lit avant de répondre : les instructions de l'outil, le préprompt, la conversation en cours, et éventuellement des documents.
-- **Fenêtre de contexte** : la quantité maximale de texte que le modèle peut lire en une fois. Ici, 200 000 jetons.
+- **Fenêtre de contexte** : la quantité maximale de texte que le modèle peut lire en une fois. Ici, 200 000 jetons au plus.
 - **Jeton** (_token_) : l'unité qui sert à mesurer le texte pour un modèle, un morceau de mot, en moyenne 4 caractères de texte anglais. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
-- **Jauge** : la ligne affichée au-dessus de la zone de saisie de Claude Code, qui indique combien de jetons sont dans le contexte à cet instant (par exemple `0 / 200k` avant le premier message).
+- **Jauge** : la ligne affichée au-dessus de la zone de saisie de Claude Code, qui indique combien de jetons sont dans le contexte à cet instant (par exemple `0 / 200k` avant le premier message). OpenCode a un autre compteur, décrit dans la partie 1.
 - **Préprompt** (_system prompt_, instructions) : un texte que le modèle lit au début de chaque conversation, avant le premier message : qui est le chatbot, à quoi il sert, quelles règles il suit. Ici, c'est le fichier `AGENTS.md`.
 - **Mode** : la façon dont la commande `workshop` lance le chatbot, qui décide de ce qui entre dans son contexte. En mode `bare`, le modèle seul ; en mode `A`, le modèle et son préprompt.
 - **Jeu de test** : les 12 questions de `test-questions.md`, reposées à l'identique après chaque modification du chatbot.
-- **Juge** : un autre modèle, plus petit que celui du chatbot, qui note les réponses avec les mêmes règles que les binômes.
+- **Juge** : un modèle qui note les réponses avec les mêmes règles que les binômes. Avec une clé Anthropic, il est plus petit que celui du chatbot ; avec une clé OpenRouter, c'est `deepseek/deepseek-v4-flash`.
 - **Codespace** : un VS Code (un éditeur de fichiers) qui tourne dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Un Codespace par binôme.
-- **Clé API** : un long mot de passe qui permet au Codespace d'utiliser le modèle. Elle commence par `sk-ant-`.
+- **Clé API** : un long mot de passe qui permet au Codespace d'utiliser un modèle. Elle commence par `sk-ant-` (Anthropic) ou par `sk-or-` (OpenRouter).
 - **Kit** : l'ensemble des documents, questions et commandes que partagent les ateliers 1 à 5 de la série.
 - **Open WebUI** : un outil de discussion que l'on démarre soi-même, avec les deux cases _Instructions_ et _Connaissances_.
 - **RAG** : une méthode où un programme choisit des extraits de documents et les donne au modèle avant qu'il réponde. C'est le sujet de l'atelier 2.
@@ -154,6 +154,8 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 **Qui paie.** Chaque organisation partenaire paie ses propres séances : son compte Anthropic, son espace de travail et ses clés. Plafond de la salle : 3 \$ × le nombre de binômes (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en 2 h). Le plafond porte sur l'espace de travail, pas sur chaque clé : **un binôme peut consommer la part d'un autre**. Garder la console Anthropic ouverte pendant l'atelier pour suivre les dépenses. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent. Compter alors 3 \$ × binômes × ateliers du mois, ou relever le plafond avant chaque atelier. Coût mesuré pour le parcours complet d'un binôme dans cet atelier : environ 0,39 \$. Un binôme qui parle plus, ou qui rejoue deux fois, dépense davantage, et 1 \$ par binôme reste une estimation sûre, sous la part de 3 \$ de chaque binôme. Coût indicatif par binôme pour toute la série : à compléter à la répétition.
 
+**Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter), en anglais). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter (coût par binôme : à compléter). Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
+
 **Quota GitHub.** L'offre gratuite de GitHub donne 120 heures-cœur par mois (60 heures sur la machine à 2 cœurs du kit) et 15 Go-mois de stockage. Open WebUI en prend 6,1 Go. Chaque binôme utilise son propre compte.
 
 **Auto-évaluation.** Un questionnaire « Avant » se remplit en début de séance (5 min, avant le Codespace), avec un code personnel sans nom : https://youth-ai-lab.github.io/yal-workshop/1/self-assessment.html (lien du formulaire : à compléter). Vérifier avant la séance qu'il s'ouvre sur un téléphone et qu'il ne recueille ni nom, ni adresse e-mail, ni âge.
@@ -168,7 +170,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 ### L'environnement de travail
 
-On travaille dans un GitHub Codespace : un éditeur de texte (VS Code) dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Chaque binôme a besoin d'un compte GitHub gratuit. L'animateur·rice donne à chaque binôme une clé API, qui permet au Codespace d'utiliser le modèle (Claude Sonnet, le même pour tous), et plafonne ce que les clés peuvent dépenser.
+On travaille dans un GitHub Codespace : un éditeur de texte (VS Code) dans le navigateur, sur un ordinateur de GitHub, avec tout déjà installé. Chaque binôme a besoin d'un compte GitHub gratuit. L'animateur·rice donne à chaque binôme une clé API, qui permet au Codespace d'utiliser un modèle, et plafonne ce que les clés peuvent dépenser. Pour tous les outils de la série, une clé qui commence par `sk-ant-` passe par Anthropic, et une clé qui commence par `sk-or-` passe par OpenRouter.
 
 :::info
 
@@ -182,7 +184,7 @@ Suivre les étapes 1 à 5 de la mise en place (`SETUP.md` du dépôt, en anglais
 
 1. **Laisser le Codespace attendre pendant les longues pauses**, avant de le créer. Par défaut, un Codespace s'arrête après 30 minutes sans activité. Se connecter à GitHub, ouvrir https://github.com/settings/codespaces, trouver le réglage **Default idle timeout**, taper **120** (le maximum est 240), puis cliquer sur **Save**. Le réglage ne vaut que pour les Codespaces créés après lui ; on le fait une fois par compte GitHub.
 2. **Ouvrir le Codespace** depuis le lien https://codespaces.new/Youth-AI-Lab/yal-workshop-preprompt, puis cliquer sur **Create codespace** sans changer les autres choix. Il faut compter 1 à 2 minutes. On voit alors VS Code dans le navigateur : la liste des fichiers à gauche, et un **terminal** en bas de l'écran, où l'on tape les commandes. Garder le même Codespace pendant tout l'atelier ; s'il s'arrête après une longue pause, le rouvrir depuis https://github.com/codespaces : rien n'est perdu.
-3. **Enregistrer la clé** : cliquer dans le terminal, taper `workshop-login`, puis coller la clé entière **une seule fois** (`Ctrl+Shift+V`, ou `Cmd+V` sur Mac) quand le terminal la demande, et appuyer sur Entrée. La clé ne s'affiche pas : on voit une `*` par caractère, c'est normal pour un mot de passe.
+3. **Enregistrer la clé** : cliquer dans le terminal, taper `workshop-login`, puis coller la clé entière **une seule fois** (`Ctrl+Shift+V`, ou `Cmd+V` sur Mac) quand le terminal la demande, et appuyer sur Entrée. C'est un long mot qui commence par `sk-ant-`, ou par `sk-or-` pour OpenRouter. La clé ne s'affiche pas : on voit une `*` par caractère, c'est normal pour un mot de passe.
 4. **Avoir une première conversation** avec `workshop bare`. La première fois, plusieurs écrans se succèdent : garder le thème proposé (Entrée) ; aux écrans _Security notes_, « Claude can make mistakes » et « Welcome to Claude Code for VS Code », appuyer sur Entrée ; si la question `Use Claude Code's terminal setup?` apparaît, choisir `2. No, maybe later with /terminal-setup`, puis Entrée. À l'écran de confiance (« Quick safety check »), **attention : le choix proposé est `No, exit`** et Entrée seule ferme Claude Code. Descendre avec la flèche sur `Yes, I trust this folder`, puis Entrée. Taper `Hello`, regarder la jauge au-dessus de la zone de saisie (une ligne du type `Clear 0% of context 0 / 200k`), puis quitter avec **Ctrl+C deux fois**.
 5. **Ouvrir un second terminal** avec le `+` en haut à droite du panneau des terminaux.
 
@@ -192,9 +194,35 @@ Suivre les étapes 1 à 5 de la mise en place (`SETUP.md` du dépôt, en anglais
 Key OK (Claude Code, Anthropic, model claude-sonnet-5-5). You can start: workshop bare
 ```
 
+Avec une clé OpenRouter, on doit voir :
+
+```text
+Key OK (OpenCode, OpenRouter, model openrouter/deepseek/deepseek-v4-flash). You can start: workshop bare
+```
+
+Avec un modèle gratuit, une ligne de plus suit : `Free requests left today: <number>.`
+
 :::note[Avec OpenCode]
 
-OpenCode est un autre programme qui fait tourner le même chatbot : mêmes modes, même `replay`, mêmes fichiers. Enregistrer alors la clé avec `workshop-login --engine opencode`. Les différences sont expliquées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode). Le juge de `score` (partie 3) demande une clé Anthropic (`sk-ant-`). OpenCode accepte aussi une clé OpenRouter, pour essayer d'autres modèles : avec elle, on note seul. Open WebUI (étape 3 et partie 5) demande aussi une clé Anthropic : avec une clé OpenRouter, sauter ces étapes et suivre l'écran de l'animateur·rice à la clôture.
+OpenCode est un autre programme qui fait tourner le même chatbot : mêmes modes, même `replay`, mêmes fichiers. Une clé Anthropic peut aussi l'utiliser : l'enregistrer alors avec `workshop-login --engine opencode`. Les différences sont expliquées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+
+:::
+
+:::note[Si la clé commence par sk-or-]
+
+C'est une clé OpenRouter. OpenRouter est un service qui transmet la question à une entreprise qui fait tourner le modèle, et donne accès aux modèles de nombreuses entreprises avec une seule clé. Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score` et Open WebUI passent aussi par OpenRouter. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : `deepseek/deepseek-v4-flash` écrit les réponses et les note. Non testés : `openwebui chatbot`, et Open WebUI avec ce modèle par défaut, DeepSeek V4 Flash.
+
+Dans une salle, chaque binôme garde le même modèle. Un binôme qui a une autre clé ne compare que ses propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Les chiffres du chatbot dans cette page (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle.
+
+La première conversation change aussi. On arrive dans **OpenCode**, pas dans Claude Code : une deuxième ligne affiche `Engine: OpenCode (model openrouter/deepseek/deepseek-v4-flash)`, puis viennent son logo et une zone de message. Les premiers écrans de Claude Code (point 4 ci-dessus) n'apparaissent pas. La jauge est celle de Claude Code : dans OpenCode, une fois la conversation commencée, le panneau latéral a un compteur **context**, avec le coût (`Ctrl+X` puis `B` affiche ou masque ce panneau). OpenCode montre ce que le chatbot a fait au-dessus de chaque réponse et, à partir du mode C, demande l'accord avant toute commande du terminal. Ses commandes `/` ne sont pas les mêmes : `/mcps`, et non `/mcp`.
+
+Pour essayer un autre modèle, `workshop-login --models free` liste les modèles gratuits, qui ont un quota par jour (voir le [dépannage](#dépannage)), et `workshop-login --model <name>` en choisit un. Plus de détails dans le [guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter), en anglais.
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données), en anglais, avant toute séance avec des jeunes.
 
 :::
 
@@ -504,7 +532,7 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
 
 ### Étape 3 : Noter à l'aveugle, puis voir le juge
 
-`score` montre chaque réponse à côté de sa réponse attendue. On tape sa note d'abord. Ensuite, un juge montre la sienne : un autre modèle, plus petit que celui du chatbot, avec les mêmes règles. Noter d'abord à l'aveugle empêche le juge d'influencer le binôme.
+`score` montre chaque réponse à côté de sa réponse attendue. On tape sa note d'abord. Ensuite, un juge montre la sienne : un modèle qui applique les mêmes règles (plus petit que celui du chatbot avec une clé Anthropic). Noter d'abord à l'aveugle empêche le juge d'influencer le binôme.
 
 1. Taper la commande de la ligne `Next:`. Elle contient déjà le nom de son fichier de réponses :
 
@@ -527,7 +555,7 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
 
 :::info
 
-Le juge est lui aussi un modèle, et il peut se tromper. En cas de désaccord, c'est la note **du binôme** qui est enregistrée. Si la discussion fait changer d'avis, noter de nouveau cette question sans `--blind`, par exemple `score answers/A-liar-14h32.md 3` : appuyer sur Entrée pour accepter la note du juge, ou taper la sienne. Elle remplace l'ancienne. Cela coûte très peu : environ 0,002 \$ pour 11 réponses, d'après les mesures.
+Le juge est lui aussi un modèle, et il peut se tromper. En cas de désaccord, c'est la note **du binôme** qui est enregistrée. Si la discussion fait changer d'avis, noter de nouveau cette question sans `--blind`, par exemple `score answers/A-liar-14h32.md 3` : appuyer sur Entrée pour accepter la note du juge, ou taper la sienne. Elle remplace l'ancienne. Cela coûte très peu : environ 0,002 \$ pour 11 réponses, d'après les mesures faites avec Claude.
 
 :::
 
@@ -811,17 +839,32 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la section _Troubl
 
 - **`Instructions file not found: ...`** (affiché par `replay --agents`) : vérifier le nom : `examples/`, puis `AGENTS.`, puis la personnalité, puis `.md`. Exemple : `examples/AGENTS.sophist.md`.
 - **`score` demande un fichier** : donner le nom du fichier de réponses de sa personnalité, tel que `replay` l'a écrit : `score answers/A-sophist-14h32.md --blind`. Pour son propre chatbot : `score A --blind`.
-- **`No judge with an OpenRouter key`** : le juge demande une clé Anthropic. Noter seul : taper sa note pour chaque réponse, comme dans la partie 2.
+- **`These columns used different models, so they cannot be compared: ...`** : une clé ou un modèle a changé entre deux colonnes. La ligne `Models:` sous le tableau dit quel modèle a servi à chaque colonne : comparer un modèle à la fois.
 - **La question 12 n'apparaît pas dans `replay`** : sa case de question est vide, ou il manque un `|`. Comparer la ligne 12 avec la ligne 11 de `test-questions.md`.
 - **`openwebui chatbot` affiche `Warning: your AGENTS.md is still empty`** : remplir `AGENTS.md` (partie 4), enregistrer, et retaper la commande.
 - **`Open WebUI is not running, or not ready yet.`** : attendre la ligne `Open WebUI is ready` dans le second terminal. Si le Codespace s'est arrêté, retaper `openwebui start`.
 - **`This repository is for workshop 1. Workshop 2 has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Rien n'a été changé. Ici, taper `workshop-start 1`. Pour l'atelier suivant, ouvrir son propre lien de Codespace.
 
+**Avec une clé OpenRouter, ou après `workshop-login --europe`.** Les messages de clé de `SETUP.md` existent aussi avec `OpenRouter`, ou `the model ...`, à la place d'`Anthropic`, et se traitent de la même façon. Quand le message se termine par `Your earlier key is kept.`, la nouvelle clé n'a pas été enregistrée : le chatbot garde l'ancienne.
+
+- **`This is an OpenRouter key: Claude Code in the workshop needs an Anthropic key (sk-ant-…).`** : Claude Code a été demandé, avec `--engine claude` ou `WORKSHOP_ENGINE=claude`. Rien n'a été enregistré. Une clé OpenRouter tourne dans OpenCode : la ligne suivante du message dit quoi taper.
+- **`The saved key is an OpenRouter key: it works with OpenCode only. Type this command without WORKSHOP_ENGINE=claude.`** : la clé est enregistrée, mais cette commande a demandé Claude Code, qui exige une clé Anthropic (elle commence par `sk-ant-`). Faire ce que dit le message, ou taper `workshop-login` et coller une clé Anthropic.
+- **`Key saved, but this OpenRouter account has no credits left. Add credits, or choose a free model: workshop-login --models free`** : erreur HTTP 402, à signaler à l'animateur·rice. Dans `replay`, la ligne dit `no credits left on this key`. Une clé qui a atteint sa limite peut aussi donner ce message (non testé). Avec un solde négatif, les modèles gratuits sont bloqués aussi. Après `workshop-login --europe`, le message s'arrête à `Add credits.` : aucun modèle gratuit ne tourne en Europe.
+- **`Key saved, but this key has reached its spending limit. Tell the facilitator.`** : dans `replay`, la ligne dit `this key or its account reached a spending limit`.
+- **`Key saved, but the quota of the model ... is reached for now (HTTP 429). Try again later, or choose another model: workshop-login --models openrouter`**, ou **`Key saved, but the model ... is busy (HTTP ...). Try again in a few minutes, or choose another model: workshop-login --models openrouter`** : faire ce que dit le message. Dans `replay`, la ligne dit `too many requests, or the quota of this key or of this model is used up`, après une attente, car OpenCode réessaie d'abord tout seul. Les modèles gratuits ont un quota : le 1er novembre 2026, 50 requêtes par jour (1 000 une fois que le compte a acheté au moins 10 \$ de crédits), requêtes échouées comprises. Dans notre seul essai, avec deux modèles gratuits en même temps, `replay` s'est arrêté sur cette erreur : après les modes bare et A pour l'un, dès le début pour l'autre. Un seul à la fois, avec du quota restant : `cohere/north-mini-code:free` a terminé `replay C`, et `google/gemma-4-26b-a4b-it:free` s'est arrêté sur trois erreurs 429 en 10 s. Après `workshop-login --europe`, le message nomme un modèle Mistral au lieu de la liste : il marche sous la même règle.
+- **`Key saved, but no company can serve the model ... under the workshop's data rule. Choose another model: workshop-login --models openrouter`** : avec une clé OpenRouter, chaque requête demande d'écarter les entreprises qui peuvent collecter les données ou s'entraîner dessus. Certaines de celles qui restent peuvent quand même garder les questions un temps. Aucune ne sert ce modèle en ce moment. Dans `replay`, la ligne dit `the model is busy, or no company can serve it now` : réessayer plus tard, ou demander à l'animateur·rice.
+- **`Key saved, but Mistral does not serve the model ... in Europe with zero data retention. Choose another model, for example: workshop-login --model ...`** : `workshop-login --europe` est activé, et aucune entreprise de ce type ne sert ce modèle. Taper la commande que donne le message.
+- **`OpenCode is already open and keeps the old data rule: close it and start it again. A replay stops by itself before its next question.`** : `--europe` a changé pendant qu'OpenCode tournait. Ce qu'on y tape part encore sous l'ancienne règle. Fermer ce chatbot, puis le relancer avec `workshop`.
+- **`Your data rule changed during this replay (workshop-login --europe or --no-europe). The next question was not sent.`** : la question en cours s'est terminée sous l'ancienne règle, et sa réponse reste dans `answers/`. Retaper la même commande `replay`. Avec `replay RAG`, taper d'abord `openwebui start`.
+- **`Open WebUI keeps the old data rule until you type: openwebui start`**, ou **`Your data rule changed since Open WebUI started (workshop-login --europe). Type openwebui start (it takes the new rule), then this command again.`** : Open WebUI lit la règle à son démarrage. Jusqu'à `openwebui start`, ses chatbots répondent encore sous l'ancienne règle.
+- **`OpenRouter has no model ... that can use tools.`** : rien n'a été enregistré. Le nom est faux, ou ce modèle ne sait pas utiliser d'outils, ce dont les ateliers ont besoin. Les lignes suivantes montrent des noms proches.
+- **`replay` est long** : avec `deepseek/deepseek-v4-flash`, 11 questions ont pris 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E (un essai).
+
 :::info[Notes pour l'animateur·rice]
 
 - **Pas de Codespace** (réseau, quota) : le dépôt de l'atelier s'ouvre sur un ordinateur avec Docker (guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)), ou bien regrouper deux binômes.
 - **Une clé est refusée** : vérifier d'abord l'espace de travail dans la console Anthropic. Le plafond est partagé : quand la salle l'atteint, toutes les clés s'arrêtent, la clé de réserve aussi (non testé). Relever le plafond si le budget le permet, sinon donner la clé de réserve.
-- **Un binôme utilise OpenCode avec une clé OpenRouter** : pas de juge, il note seul, et ses totaux ne sont pas comparables avec les autres (autre modèle). Pas d'Open WebUI non plus : `openwebui start` refuse une clé OpenRouter (`Open WebUI here needs an Anthropic key`). À la clôture, il suit le chatbot de l'animateur·rice sur le grand écran.
+- **Un binôme utilise OpenCode avec une clé OpenRouter** : mêmes étapes, juge et Open WebUI compris. Ses totaux ne sont pas comparables avec les autres (autre modèle, autre juge). Un `replay` de 11 questions a pris 3 à 4,5 minutes avec le modèle par défaut. `openwebui chatbot` avec cette clé : non testé. Si cela échoue, il suit le chatbot de l'animateur·rice sur le grand écran.
 
 :::
 

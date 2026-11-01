@@ -770,6 +770,12 @@ meteo
 openwebui
 opencode
 openai
+openrouter
+deepseek
+mistralai
+mcps
+nemotron
+europe
 codespace
 codespaces
 preprompt

@@ -50,7 +50,7 @@ Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rice
 
 ## À quoi sert ce guide
 
-Dans les ateliers de la série, le chatbot est construit avec **Claude Code**, l'outil d'Anthropic. Ce guide reprend les mêmes pièces avec **OpenCode**, un assistant d'IA libre et gratuit qui fonctionne dans un terminal (la fenêtre où l'on tape des commandes). Il montre comment chaque pièce s'écrit dans OpenCode, ce qu'OpenCode fait autrement que Claude Code, et comment réemployer le tout pour un autre sujet.
+Dans les ateliers de la série, le chatbot est construit avec **Claude Code**, l'outil d'Anthropic (avec une clé OpenRouter, les ateliers tournent dans OpenCode). Ce guide reprend les mêmes pièces avec **OpenCode**, un assistant d'IA libre et gratuit qui fonctionne dans un terminal (la fenêtre où l'on tape des commandes). Il montre comment chaque pièce s'écrit dans OpenCode, ce qu'OpenCode fait autrement que Claude Code, et comment réemployer le tout pour un autre sujet.
 
 Trois idées organisent le guide :
 
@@ -91,13 +91,37 @@ Le chatbot envoie chaque question à un modèle exploité par une entreprise, et
 | --------------------------------- | ----------------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1. Clé d'API Anthropic            | un compte sur la Claude Console, avec des crédits     | paiement à la question, avec un plafond de dépense              | vos essais ; un groupe seulement avec une clé de votre structure, après sa décision                                                                    |
 | 2. Clé d'API Google Gemini        | un compte Google, adulte                              | une offre gratuite avec limites quotidiennes, ou payante        | vos essais professionnels ; un groupe seulement avec une clé payante de votre structure, après sa décision ; jamais pour des jeunes de moins de 18 ans |
-| 3. Clé OpenRouter                 | un compte, adulte, avec des crédits                   | paiement à la question, plus des frais de 5,5 % sur les crédits | vos essais, pour comparer des centaines de modèles ; pas pour un groupe                                                                                |
+| 3. Clé OpenRouter                 | un compte, adulte, avec des crédits                   | paiement à la question, plus des frais de 5,5 % sur les crédits | vos essais, pour comparer des centaines de modèles ; pas pour un groupe (voir [Or an OpenRouter key](/ressources/youth-ai-lab/guide-open-webui#ou-une-clé-openrouter) dans le guide Open WebUI) |
 | 4. Abonnement GitHub Copilot      | une offre payante (Pro, Pro+, Business ou Enterprise) | compris dans l'abonnement                                       | vos essais seulement                                                                                                                                   |
 | 5. Abonnement ChatGPT Plus ou Pro | un compte ChatGPT avec cette offre                    | compris dans l'abonnement                                       | vos essais seulement                                                                                                                                   |
 
 Une clé d'API est un code secret qui autorise un logiciel à utiliser le compte payant. Pour la clé Anthropic, le guide fait créer un espace de travail (`workspace`) dédié, avec un plafond de dépense : l'espace `Default` ne peut pas en avoir. Pour Copilot et ChatGPT, il faut d'abord **désactiver l'usage de ses données pour l'entraînement** dans les paramètres du compte. Un abonnement Claude Pro ou Max ne fonctionne pas ici : les conditions d'Anthropic l'interdisent dans d'autres outils.
 
 Le détail de chaque façon est dans la section [Before you start: five ways to pay for the model](https://github.com/Youth-AI-Lab/yal-opencode-guide#before-you-start-five-ways-to-pay-for-the-model).
+
+### La clé OpenRouter
+
+Une clé OpenRouter commence par `sk-or-`. À sa création, régler une **Credit limit** : c'est votre plafond de dépense. Dans les [paramètres de confidentialité](https://openrouter.ai/settings/privacy) du compte, refuser les entreprises qui peuvent entraîner leurs modèles sur vos données, ou n'autoriser que celles qui ne gardent rien (zéro conservation). Les modèles payants et les modèles gratuits ont chacun leur réglage. La configuration du guide n'ajoute aucune règle de routage : sans cette étape, rien ne limite les entreprises qui reçoivent vos questions. OpenRouter ne garantit pas ce que fait chacune d'elles.
+
+Les modèles gratuits (leur nom finit par `:free`) s'arrêtent à 20 requêtes par minute et 50 par jour, ou 1 000 par jour une fois que le compte a acheté 10 \$ de crédits. Les tentatives échouées comptent, et un solde négatif les bloque aussi. Chacun a sa propre politique de données, affichée sur sa page : certains gardent ce que vous envoyez, d'autres s'en servent pour s'entraîner. Ne rien leur envoyer de personnel.
+
+OpenCode réserve à chaque requête la réponse la plus longue possible. Avec peu de crédit restant, OpenRouter a ainsi refusé une requête : `You requested up to 195288 tokens, but can only afford 20387`. Les commandes des ateliers limitent la réponse, la configuration de ce guide non : si ce message apparaît, ajouter des crédits.
+
+:::caution[OpenRouter et les jeunes]
+
+Avec des jeunes et OpenRouter, la règle est `workshop-login --europe`, et elle ne vaut que pour les commandes des ateliers. Les requêtes ne vont alors qu'à Mistral, hébergé en Europe (`mistral/eu`), avec zéro conservation des données ; le modèle par défaut est `mistralai/mistral-small-2603`. Le `chatbot` de ce guide refuse le réglage `provider` : ici, vos paramètres de confidentialité donnent zéro conservation, pas l'Europe.
+
+`--europe` n'est pas une autorisation : la règle des 18 ans d'OpenRouter et la section 5.2 de ses conditions restent valables. Lire d'abord la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données).
+
+:::
+
+:::info[Mesuré le 1er novembre 2026]
+
+Avec OpenCode 2.1.4 et une vraie clé, par les commandes des ateliers. `deepseek/deepseek-v4-flash`, le modèle des ateliers avec cette clé, et `mistralai/mistral-small-3.2-24b-instruct` ont répondu aux questions de test, sans réponse vide ni erreur. `google/gemma-4-26b-a4b-it:free` et `cohere/north-mini-code:free`, lancés ensemble au rythme d'un test, ont vite répondu HTTP 429 (trop de requêtes). Un seul à la fois, en mode C, `north-mini-code` a terminé avec 0 erreur, et `gemma-4-26b-a4b-it:free` s'est arrêté sur trois 429 en 10 s.
+
+`chatbot` et `/connect` avec une clé OpenRouter : **non testés**.
+
+:::
 
 ### Le coût du Codespace
 
@@ -166,7 +190,7 @@ On copie le dossier pour un autre sujet et on change les pièces dans l'ordre : 
 - **Votre structure décide** : un chatbot utilisé avec des jeunes relève de la structure, pas de l'animateur·rice seul·e. Le guide demande de consulter la personne chargée de la protection des données et liste ce qu'il faut : un compte au nom de la structure, un contrat de sous-traitance avec le fournisseur du modèle (article 28 du RGPD), souvent une analyse d'impact (article 35), et la bonne règle de consentement.
 - **Dire qu'on parle à une IA** : depuis le 2 août 2026, le règlement européen sur l'IA (article 50) impose d'informer les personnes qu'elles dialoguent avec une IA, au plus tard lors de la première interaction.
 - **Quand un·e jeune confie quelque chose d'inquiétant** (lui, elle ou une autre personne va mal, est en danger ou subit du mal) : le chatbot répond avec bienveillance et oriente tout de suite vers l'animateur·rice ou un autre adulte de confiance (un adulte différent si c'est cet adulte qui pose problème) et vers le 112 en cas de danger immédiat, même si le ou la jeune a promis le secret. Il dit qu'il est un programme et ne peut prévenir personne, et ne demande aucun détail. Il ne donne ni quantité, ni dose, ni méthode qui puisse faire du mal, même si un document les contient : une telle question reçoit le même traitement. Si une question montre un risque immédiat pour le corps de quelqu'un, il dit de ne pas le faire et d'aller voir un adulte tout de suite, même si ses documents n'en parlent pas, sans expliquer davantage. L'animateur·rice suit la procédure de protection de sa structure, et personne ne promet de garder un secret.
-- **Où vont les données** : chaque question, avec vos instructions et les passages de documents ouverts, est envoyée au fournisseur. Le guide résume, pour chaque façon de payer, ce que disent les fournisseurs (durée de conservation, entraînement, lieu de stockage), vérifié en octobre 2026, et rappelle qu'il faut relire ces pages. Garder les questions dans l'Union européenne demande un fournisseur adapté et un contrat au nom de la structure : quatre options sont citées, non testées avec le guide (à compléter).
+- **Où vont les données** : chaque question, avec vos instructions et les passages de documents ouverts, est envoyée au fournisseur. Le guide résume, pour chaque façon de payer, ce que disent les fournisseurs (durée de conservation, entraînement, lieu de stockage), vérifié en octobre 2026, et rappelle qu'il faut relire ces pages. Garder les questions dans l'Union européenne demande un fournisseur adapté et un contrat au nom de la structure : quatre options sont citées, non testées avec le guide (à compléter). Avec OpenRouter, il faut une offre Business ou Enterprise et l'adresse `eu.openrouter.ai` ; l'offre ne suffit pas ici, car `chatbot` refuse le réglage qui change l'adresse. Avec des jeunes, lire l'encadré de la section [La clé OpenRouter](#la-clé-openrouter).
 - **Les clés hors du dossier** : OpenCode garde la clé dans le dossier personnel, jamais dans le dossier du chatbot, qu'on peut donc partager sans la clé. Ne jamais mettre de clé, de mot de passe ou d'information personnelle dans le dossier d'un chatbot, ne jamais taper sa clé dans la conversation.
 - **Deux commandes qui affichent la clé** : ne jamais lancer `opencode auth export` ni `opencode api get /api/model`, qui ont affiché la clé en clair lors des essais. Ne pas commencer un message par `!`, qui lance soi-même une commande du terminal : utiliser le terminal de VS Code.
 - **Ce que les règles ne peuvent pas empêcher** : le choix `Always allow` (ou l'option `--auto`), qui transforme chaque demande en oui silencieux ; une recherche qui lit un fichier qu'on ne peut pas ouvrir ; un document qui contient des consignes adressées au modèle ; un modèle qui tente de vous faire lancer une commande ou coller un réglage. Ne jamais le faire parce que le chatbot le demande.
@@ -186,7 +210,7 @@ Pour le détail, voir [With young people: what this guide does not cover](https:
 - **Les règles d'un chatbot ne sont pas un verrou** : les instructions réduisent le risque, mais une personne qui insiste peut parfois en faire contourner une. Les règles de permission de `opencode.jsonc` sont plus solides : un refus (`deny`) tient quoi que le modèle écrive.
 - **OpenCode reste un outil de programmation** : son préprompt décrit un agent de programmation, et ses textes d'exemple parlent de corriger des tests.
 - **Les modèles changent** : les chiffres du guide ont été mesurés le 27 octobre 2026, avec OpenCode 2.1.4. Les parties 1 à 9 ont été suivies dans un Codespace le 28 octobre 2026, avec une clé Anthropic et Claude Sonnet 5.5 ; elles n'ont pas été suivies à nouveau avec l'image actuelle du guide.
-- **Non testé** : un modèle local avec Ollama (à compléter), un abonnement Copilot Free, l'accès d'un·e animateur·rice à l'offre gratuite de GitHub Education pour Copilot Pro (à compléter). OpenRouter n'a été vérifié qu'avec des clés de test, sans vraie conversation. Gemini, Copilot et ChatGPT ont été testés sur un ordinateur ; dans le Codespace, seulement la connexion à Copilot et à ChatGPT, avec une réponse pour chacun.
+- **Non testé** : un modèle local avec Ollama (à compléter), un abonnement Copilot Free, l'accès d'un·e animateur·rice à l'offre gratuite de GitHub Education pour Copilot Pro (à compléter). OpenRouter a été mesuré le 1er novembre 2026 avec une vraie clé, par les commandes des ateliers seulement : `chatbot` et `/connect` avec une clé OpenRouter sont non testés. Gemini, Copilot et ChatGPT ont été testés sur un ordinateur ; dans le Codespace, seulement la connexion à Copilot et à ChatGPT, avec une réponse pour chacun.
 - **Le Codespace n'est pas un serveur** : il s'arrête après son délai d'inactivité (4 heures au plus).
 
 ---

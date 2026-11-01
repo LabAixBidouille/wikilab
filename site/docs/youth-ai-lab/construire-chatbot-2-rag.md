@@ -29,7 +29,7 @@ sidebar_position: 15
 **Pour la séance**
 
 - 1 Codespace par binôme, ouvert depuis https://codespaces.new/Youth-AI-Lab/yal-workshop-rag (un compte GitHub gratuit suffit)
-- 1 clé d'API Anthropic par binôme (elle commence par `sk-ant-`), toutes dans un même espace de travail pour la salle
+- 1 clé d'API par binôme : Anthropic (elle commence par `sk-ant-`), toutes dans un même espace de travail pour la salle, ou OpenRouter (elle commence par `sk-or-`)
 - Le fichier `my-work.zip` sauvegardé par chaque binôme à la fin de l'atelier 1
 - Les bandes de papier de la partie 3, découpées : une série par groupe de deux binômes, en deux enveloppes, avec les deux cartes-questions
 - La fiche d'une page imprimée, une par binôme
@@ -131,11 +131,11 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 ### Glossaire
 
-- **Modèle** : le programme d'IA qui lit un texte et écrit une réponse. Ici, le même modèle pour tous les binômes.
-- **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est sa taille maximale : ici, 200 000 jetons.
+- **Modèle** : le programme d'IA qui lit un texte et écrit une réponse. Ici, Claude Sonnet avec une clé Anthropic et `deepseek/deepseek-v4-flash` avec une clé OpenRouter, le même pour tous les binômes qui ont ce type de clé.
+- **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est sa taille maximale : ici, 200 000 jetons au plus.
 - **Jeton** (_token_) : un morceau de mot. C'est l'unité dans laquelle on compte la taille du contexte et le prix d'une question. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
 - **Préprompt, ou instructions** : le texte qui dit au chatbot qui il est et comment répondre. Dans l'atelier, c'est le fichier `AGENTS.md`.
-- **Jauge** : la ligne au-dessus de la zone de saisie de Claude Code, par exemple `0 / 200k`, qui montre à quel point le contexte est rempli.
+- **Jauge** : la ligne au-dessus de la zone de saisie de Claude Code, par exemple `0 / 200k`, qui montre à quel point le contexte est rempli. OpenCode a un autre compteur, **context**, dans son panneau latéral.
 - **Mode `B`** : le préprompt, plus tous les résumés et toutes les copies lisibles des documents, lus à chaque message.
 - **RAG** (_Retrieval-Augmented Generation_) : un moteur de recherche choisit quelques morceaux de documents pour chaque question, et le modèle ne lit que ceux-là.
 - **Morceau** (_chunk_) ou **extrait** : une partie d'un document, découpée avant qu'on pose la moindre question.
@@ -165,12 +165,16 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 **Préparation (environ 1 heure)** :
 
-- **Les clés (15 min)** : une clé d'API Anthropic par binôme, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes** (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en un atelier de 2 h ; voir « Qui paie »). Open WebUI et le juge ont besoin d'une clé Anthropic. Vérifier que `workshop-login` affiche `Key OK`. Pour créer une clé et poser le plafond : section « Avant de commencer » du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), ou, en anglais, [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key).
+- **Les clés (15 min)** : une clé d'API Anthropic par binôme, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes** (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en un atelier de 2 h ; voir « Qui paie »). Vérifier que `workshop-login` affiche `Key OK`. Pour créer une clé et poser le plafond : section « Avant de commencer » du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), ou, en anglais, [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key).
 - **Votre propre essai (20 min)** : un nouveau Codespace depuis https://codespaces.new/Youth-AI-Lab/yal-workshop-rag, `workshop-login`, `workshop-start 2`, puis attendre `READY` dans `.workshop/openwebui-start.log` ; `openwebui query` sur la question 10 avec les deux tailles ; `replay RAG 10`. `openwebui query` affiche les extraits en entier : ceux de 2000 caractères doivent contenir les deux chiffres de la question 10.
 - **Les bandes (15 min)** : imprimer et découper une série par groupe de deux binômes, manche 1 et manche 2 dans deux enveloppes, plus les deux cartes-questions.
 - **La fiche (10 min)** : imprimer la fiche d'une page (une par binôme) et prévoir une carte vierge par personne pour la carte de sortie. Si besoin, traduire la fiche dans la langue du groupe avant de l'imprimer, en gardant en anglais les commandes et ce qu'affiche le terminal.
 
 **Qui paie** : chaque organisation partenaire paie ses propres séances (son compte Anthropic, son espace de travail, ses clés). Le plafond porte sur l'espace de travail, pas sur chaque clé : **un binôme peut consommer la part d'un autre**. Garder la console Anthropic ouverte pendant l'atelier et surveiller les dépenses. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent ; compter alors 3 \$ × binômes × ateliers du mois, ou le relever avant chaque atelier. Coût indicatif par binôme pour toute la série : à compléter à la répétition. Coût mesuré pour cet atelier : environ 0,75 \$ par binôme, les conversations restant à compléter à la répétition.
+
+**Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter), en anglais). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter (coût par binôme : à compléter). Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
+
+Avec `--europe`, le modèle du chatbot est `mistralai/mistral-small-2603`, et le mode B tourne. Dans un essai du 1er novembre 2026, `replay B 3 7 10` a pris 10 s, avec environ 70 000 jetons par question et 0,01 \$ affichés. C'est environ un tiers de la fenêtre de 200 000, pas la moitié qu'annonce la partie 2 : le dire avant que les binômes regardent la jauge. `replay A`, le `replay B` complet (26 s, 0,01 \$ affichés) et `replay RAG 1 7` ont tourné avec ce modèle. Non testés : `openwebui sizes` et ses modèles Wildfire RAG 1000 et 2000. Si un binôme a tapé lui-même `mistralai/mistral-small-3.2-24b-instruct`, le mode B s'arrête et donne la commande à taper.
 
 La fiche animateur n'est pas dans les dépôts que les participant·es ouvrent, et c'est voulu : elle donne des scores mesurés, et à partir de l'atelier 3 le modèle peut lire tous les fichiers du dépôt.
 
@@ -193,7 +197,21 @@ Suivre les étapes 1 à 5 de la mise en place du kit (`SETUP.md`, https://github
 5. **Ouvrir un second terminal** avec le `+` en haut à droite du panneau des terminaux.
 
 :::note[Si vous utilisez OpenCode]
-Les commandes sont les mêmes, après `workshop-login --engine opencode`. Le juge de `score` et Open WebUI ont besoin d'une clé Anthropic (`sk-ant-`). La partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre l'autre façon de donner des connaissances à un chatbot, par la recherche : c'est l'atelier 3.
+Les commandes sont les mêmes, après `workshop-login --engine opencode`. La partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre l'autre façon de donner des connaissances à un chatbot, par la recherche : c'est l'atelier 3.
+:::
+
+:::note[Si votre clé commence par sk-or- (OpenRouter)]
+
+Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score`, Open WebUI et `replay RAG` passent aussi par OpenRouter. Open WebUI a été mesuré ainsi avec Mistral Small, pas avec le modèle par défaut, DeepSeek V4 Flash (non testé). On arrive alors dans OpenCode, sans les premiers écrans de Claude Code : voir [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
+
+Ne comparez que vos propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Les chiffres du chatbot dans cette page (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle.
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données), en anglais, avant toute séance avec des jeunes.
+
 :::
 
 :::info[Pas de Codespace ?]
@@ -284,6 +302,23 @@ Les parties 2 à 6 reviennent sur ces trois questions du jeu de test.
 | 3  | In Bouches-du-Rhône, at which fire-risk levels is access to forest massifs forbidden, and at the 'severe' level, when is work allowed? | Un fait que seul le texte complet d'un document officiel donne, pas les résumés    |
 | 7  | How many hectares burnt in Campania in 2025?                                                                                           | Une réponse qui n'existe nulle part : la bonne réponse est de le dire              |
 | 10 | How many hectares burnt outside the EU in 2025?                                                                                        | Deux sources en désaccord : le chatbot doit signaler la contradiction, pas choisir |
+
+:::note[Le mode B avec une clé OpenRouter]
+
+Les chiffres de cette partie ont été mesurés avec Claude. Avec une clé OpenRouter, ils changent, et la jauge devient le compteur **context** d'OpenCode, dans son panneau latéral, une fois la conversation commencée (`Ctrl+X` puis `B` affiche ou masque ce panneau).
+
+Après `workshop-login --europe`, le modèle est `mistralai/mistral-small-2603`, et le mode B tourne. Dans un essai du 1er novembre 2026, il a lu environ 70 000 jetons par question : environ un tiers de la fenêtre de 200 000, pas la moitié.
+
+Le mode B envoie tout le kit d'un coup, ce qu'un modèle à petite fenêtre ne peut pas lire. Avec Mistral Small 3.2 en Europe, qui lit 32 768 jetons au plus, le mode B a échoué avant le premier mot du modèle. Les commandes refusent donc le mode B avec un tel modèle, avec ou sans `--europe` :
+
+```text
+Mode B sends the whole kit at once, and this model reads 32,768 tokens at most.
+This mode cannot run with it. Choose a model with a larger window: workshop-login --model mistralai/mistral-small-2603
+```
+
+Sans `--europe`, la seconde ligne se termine par `workshop-login --models openrouter`. Taper la commande que donne le message, puis appuyer sur Entrée seule pour garder sa clé. `workshop-start 2` prévient dès la fin de sa préparation, avec la ligne `Mode B does not run with this model.`
+
+:::
 
 ### Étape 1 : Regarder la jauge
 
@@ -842,7 +877,7 @@ Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connais
 
 ## Dépannage
 
-Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubleshooting de `SETUP.md` : https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/SETUP.md
+Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubleshooting de `SETUP.md` : https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/SETUP.md. Les messages liés à une clé OpenRouter ou à `--europe` sont aussi dans le [dépannage de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#dépannage).
 
 - **Le journal se termine par `STOPPED: ...`** : lire le message au-dessus, puis taper dans un terminal `openwebui start && openwebui sizes`.
 - **`The search still finds nothing in ...`** (dans le journal), ou une base ne donne aucun extrait : à la fin de sa préparation, Open WebUI vérifie chaque base par une recherche test, et redémarre une fois si une base ne trouve rien. Si cela ne suffit pas, taper `openwebui stop`, puis `openwebui start && openwebui sizes`.
@@ -851,6 +886,8 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubles
 - **`replay RAG` dit que les modèles reçoivent 10 extraits** : le top-k a été changé à la partie 5. Taper `openwebui top-k 5`, puis relancer `replay RAG`.
 - **`Open WebUI is not started here (not a Codespace or a dev container).`** : Open WebUI ne démarre automatiquement que dans un Codespace ou un dev container. Ailleurs, taper `openwebui start && openwebui sizes`.
 - **`This repository is for workshop 2. Workshop ... has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Rien n'a été changé. Ici, taper `workshop-start 2`.
+- **`Mode B sends the whole kit at once, and this model reads ... tokens at most.`**, ou **`Mode B does not run with this model.`** : ce modèle ne peut pas lire tout le kit d'un coup, sa fenêtre (ce qu'il peut lire en une fois) est trop petite. Cela peut arriver avec un modèle choisi avec `--model`. Taper la commande que donne le message, puis appuyer sur Entrée seule pour garder sa clé.
+- **`Open WebUI keeps the old data rule until you type: openwebui start`**, ou **`Your data rule changed since Open WebUI started (workshop-login --europe). Type openwebui start (it takes the new rule), then this command again.`** : Open WebUI lit la règle à son démarrage. Jusqu'à `openwebui start`, ses chatbots répondent encore sous l'ancienne règle.
 
 :::info[Notes pour l'animateur·rice]
 
@@ -859,7 +896,7 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubles
 - **Open WebUI pas prêt dans un Codespace** : les parties 2 et 3 sont son temps d'attente. Après 0:50, faire les parties 4 et 5 sur votre propre Open WebUI au grand écran ; le binôme rejoint quand son journal affiche `READY`.
 - **Pas de Docker, ou pas de Codespace** : le dépôt s'ouvre sur un ordinateur avec Docker (guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)). Sinon, parties 4 et 5 sur votre écran.
 - **Open WebUI ne démarre nulle part, pas même sur votre écran** : parties 2 et 3 comme prévu. Pour les parties 4 à 6, projeter la dernière diapositive du deck de l'atelier 2, **Backup: what a RAG hands to the model** (pour la question 10, bases de 1000 et de 2000 : de quels fichiers viennent les extraits, quels chiffres sont arrivés, et les réponses), depuis https://youth-ai-lab.github.io/yal-workshop/2/ ou le PDF que vous avez apporté. Pas de colonne RAG ce jour-là.
-- **Un binôme utilise OpenCode avec une clé OpenRouter** : pas d'Open WebUI, pas de juge ; il suit les parties 4 à 6 sur votre écran.
+- **Un binôme utilise OpenCode avec une clé OpenRouter** : mêmes étapes, Open WebUI et juge compris. Ses totaux ne sont pas comparables avec les autres (autre modèle, autre juge). `replay RAG` avec `mistralai/mistral-small-3.2-24b-instruct` : 11 réponses en 44 s. Avec le modèle par défaut : non testé.
 
 :::
 

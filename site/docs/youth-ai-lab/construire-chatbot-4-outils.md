@@ -28,7 +28,7 @@ sidebar_position: 17
 - **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-tools
 - **Les diapositives** projetées par l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/4/
 - **La fiche animateur** (en anglais) : https://youth-ai-lab.github.io/yal-workshop/4/facilitator.html
-- **Par binôme** : un ordinateur avec un navigateur, un compte GitHub, une clé d'API Anthropic, le fichier `my-work.zip` sauvegardé à la fin de l'atelier 3, et l'adresse de la page officielle qui donne le niveau de danger feu de forêt de son territoire, s'il en existe une
+- **Par binôme** : un ordinateur avec un navigateur, un compte GitHub, une clé d'API (elle commence par `sk-ant-` pour Anthropic, par `sk-or-` pour OpenRouter), le fichier `my-work.zip` sauvegardé à la fin de l'atelier 3, et l'adresse de la page officielle qui donne le niveau de danger feu de forêt de son territoire, s'il en existe une
 - **Imprimés** : la fiche d'une page `sheet.md` du dépôt (une par binôme) et les cartes de sortie (une par personne)
 
 </div>
@@ -100,10 +100,10 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 
 ### Glossaire
 
-- **Modèle** : le programme d'IA qui lit le texte qu'on lui envoie et écrit la réponse. Dans l'atelier, c'est le même modèle d'Anthropic pour tous les binômes.
+- **Modèle** : le programme d'IA qui lit le texte qu'on lui envoie et écrit la réponse. Aux ateliers 1 à 5, Claude Sonnet écrit les réponses avec une clé Anthropic, et `deepseek/deepseek-v4-flash` avec une clé OpenRouter : le même pour tous les binômes qui ont ce type de clé.
 - **Contexte** : tout ce que le modèle lit avant de répondre (instructions, documents, conversation, résultats des outils). Sa taille est limitée.
 - **Jeton** (_token_) : un morceau de mot. La taille du contexte se compte en jetons : 200k signifie 200 000 jetons.
-- **Jauge** : la ligne au-dessus de la zone de saisie qui montre combien de jetons occupe le contexte.
+- **Jauge** : la ligne au-dessus de la zone de saisie qui montre combien de jetons occupe le contexte. Avec OpenCode, c'est le compteur **context** du panneau latéral.
 - **Préprompt** (ou instructions) : le texte, dans `AGENTS.md`, qui dit au chatbot qui il est et quelles règles il suit.
 - **Skill** : une procédure écrite que le modèle peut suivre quand une demande correspond à sa description (vue à l'atelier 3).
 - **Outil** : une action que le modèle peut appeler pendant qu'il répond, et qui lui rapporte un fait.
@@ -111,9 +111,9 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **MCP** (_Model Context Protocol_) : la manière commune de brancher un serveur sur un chatbot. Le même serveur peut se brancher sur Claude Code, sur OpenCode ou sur un autre programme qui fait tourner un chatbot.
 - **Description d'un outil** : le texte qui dit au modèle à quoi sert l'outil. C'est d'après elle que le modèle décide de l'appeler.
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
-- **Claude Code** : le programme qui fait tourner le chatbot dans le terminal du Codespace. **OpenCode** est le second moteur possible.
+- **Claude Code** : le programme qui fait tourner le chatbot dans le terminal du Codespace. **OpenCode** est le second moteur possible, celui que choisit une clé OpenRouter.
 - **Mode D** : le mode de l'atelier, lancé par `workshop D`. C'est le mode C de l'atelier 3 (le modèle cherche dans les documents) plus des outils.
-- **`replay` et `score`** : les commandes qui reposent toutes les questions du jeu de test, puis les notent avec l'aide d'un juge (un autre modèle qui compare chaque réponse à la réponse attendue).
+- **`replay` et `score`** : les commandes qui reposent toutes les questions du jeu de test, puis les notent avec l'aide d'un juge (un modèle qui compare chaque réponse à la réponse attendue : un plus petit avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter).
 
 ## Objectifs d'apprentissage
 
@@ -130,6 +130,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 Prévoir environ 1 heure de préparation :
 
 - **Une clé d'API Anthropic par binôme**, toutes dans **un seul workspace pour la salle**, plafonné à **3 dollars × le nombre de binômes**. Le plafond porte sur le workspace et non sur chaque clé : un binôme peut donc consommer la part d'un autre. Garder la console Anthropic ouverte pendant l'atelier. Coût mesuré par binôme pour ce que demande la page : environ 0,45 dollar. Chaque organisation partenaire paie ses propres séances (son compte, son workspace, ses clés). Non vérifié : si le plafond de la console est mensuel, les ateliers du même mois le partagent. Il faut alors compter 3 dollars × binômes × ateliers du mois, ou le relever avant chaque atelier. Coût indicatif par binôme pour toute la série : à compléter à la répétition. Pour créer une clé et fixer un plafond : guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter ; coût par binôme : à compléter. Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide).
 - **Lire les sources officielles du jour**, le matin même : la page de chaque territoire, donnée dans le champ `source` de son entrée dans `mcp/fire-danger.json`. Noter pour chacune s'il y a un niveau aujourd'hui, une phrase qui annonce la fin de la saison, ou rien. Rappeler à la fin de l'atelier 3 aux binômes d'un autre territoire d'apporter l'adresse de leur page officielle.
 - **Faire l'atelier soi-même** dans un Codespace neuf (environ 20 min), de `workshop-start 4` jusqu'à `replay D 8`.
 - **Préparer la page piégée** de la partie 4 : https://youth-ai-lab.github.io/yal-workshop/4/trap-page.html à enregistrer sur son ordinateur. Jamais dans le Codespace d'un binôme, jamais avant un `replay`.
@@ -155,7 +156,33 @@ Ce lien crée une copie personnelle du dépôt, dans VS Code qui tourne dans le 
 
 :::note[Si vous utilisez OpenCode]
 
-Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à OpenCode les mêmes outils. OpenCode demande l'accord avant chaque commande qu'il veut lancer dans le terminal et chaque fichier qu'il écrit, mais pas avant d'appeler l'un de ces outils. Avec une clé OpenRouter (`sk-or-`), la conversation passe par OpenRouter vers l'entreprise du modèle choisi, qui n'est pas forcément Anthropic. Le juge de `score` ne fonctionne alors pas, car il lui faut une clé Anthropic : on note seul. D'autres façons de payer le modèle sont présentées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à OpenCode les mêmes outils. OpenCode demande l'accord avant chaque commande qu'il veut lancer dans le terminal et chaque fichier qu'il écrit, mais pas avant d'appeler l'un de ces outils. D'autres façons de payer le modèle sont présentées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+
+:::
+
+:::note[Si votre clé commence par sk-or- (OpenRouter)]
+
+OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` passe aussi par OpenRouter. La conversation va par OpenRouter jusqu'à une entreprise qui fait tourner le modèle choisi, qui n'est pas forcément Anthropic.
+
+À l'enregistrement, le message de réussite devient :
+
+```text
+Key OK (OpenCode, OpenRouter, model openrouter/deepseek/deepseek-v4-flash). You can start: workshop bare
+```
+
+Avec un modèle gratuit, une ligne s'ajoute : `Free requests left today: <number>.`
+
+Au démarrage d'une conversation, une ligne de plus dit `Engine: OpenCode (model openrouter/deepseek/deepseek-v4-flash)`, puis viennent le logo d'OpenCode et une zone de saisie. Les premiers écrans de Claude Code n'apparaissent pas. La jauge est propre à Claude Code : une fois la conversation commencée, le panneau latéral d'OpenCode a un compteur **context**, avec le coût (`Ctrl+X` puis `B` affiche ou masque ce panneau). OpenCode montre ce que le chatbot a fait au-dessus de chaque réponse, et `Ctrl+O` ne sert que dans Claude Code. Ses commandes `/` ne sont pas les mêmes : `/mcps`, pas `/mcp`.
+
+Pour essayer un autre modèle, `workshop-login --models free` liste les modèles gratuits, qui ont un quota quotidien (voir [Avec une clé OpenRouter](#avec-une-clé-openrouter)), et `workshop-login --model <name>` en choisit un.
+
+Ne comparer que ses propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Ne comparer ses totaux qu'avec un binôme qui utilise le même modèle. Les chiffres de cette fiche sur le chatbot (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle : les vôtres seront différents. Tout est détaillé dans le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter).
+
+:::
+
+:::caution[Avec des jeunes et une clé OpenRouter]
+
+Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande un forfait Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
 
 :::
 
@@ -225,7 +252,7 @@ Le modèle reçoit, d'un côté, `AGENTS.md`, l'indication de l'endroit où se t
 - **chercher un mot ou lire un fichier** dans `summaries/` et `corpus/text/` ;
 - **appeler un outil** (`fire-danger` ou `time`), qui ne lui renvoie que ce que l'outil choisit de renvoyer.
 
-**Ce qui se passe pendant un appel d'outil.** Le modèle ne tourne pas dans votre Codespace : il tourne chez Anthropic. Claude Code, le programme de votre terminal, lui envoie votre question et les descriptions des outils. Quand le modèle veut un outil, il répond par le nom de l'outil et ce qu'il faut lui demander. Claude Code le transmet au serveur, dans votre Codespace, puis renvoie au modèle ce qui est revenu, et le modèle écrit sa réponse.
+**Ce qui se passe pendant un appel d'outil.** Le modèle ne tourne pas dans votre Codespace : il tourne chez Anthropic, ou chez une entreprise jointe par OpenRouter. Claude Code ou OpenCode, le programme de votre terminal, lui envoie votre question et les descriptions des outils. Quand le modèle veut un outil, il répond par le nom de l'outil et ce qu'il faut lui demander. Le programme le transmet au serveur, dans votre Codespace, puis renvoie au modèle ce qui est revenu, et le modèle écrit sa réponse.
 
 **L'idée clé** : le mode D, c'est le mode C plus des outils. Ce qu'un outil renvoie entre dans le contexte exactement comme un document que le modèle aurait lu.
 
@@ -342,7 +369,7 @@ De nombreux serveurs existent déjà, pour un agenda, une base de données, un s
 | `time`        | le projet MCP (exemple officiel)       | l'horloge du Codespace                   | rien                                                |
 | `open-meteo`  | un bénévole (son code est public)      | le service Open-Meteo, sur Internet      | le lieu et les coordonnées demandés par le modèle   |
 
-Et pour les trois : ce que l'outil renvoie entre dans le contexte, et part donc chez l'entreprise du modèle (Anthropic) avec la question, comme tout ce qui se trouve dans la conversation.
+Et pour les trois : ce que l'outil renvoie entre dans le contexte, et part donc chez l'entreprise du modèle (Anthropic, ou une entreprise jointe par OpenRouter) avec la question, comme tout ce qui se trouve dans la conversation.
 
 **L'idée clé** : un serveur est un programme qui tourne dans le Codespace avec vos droits. Ce qu'il peut faire, et ce qu'il envoie à l'extérieur, est écrit dans son code et dans la façon dont il est lancé, pas dans son nom.
 
@@ -549,7 +576,7 @@ Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, q
    replay D
    ```
 
-   Sous chaque réponse, la ligne `What the model did:` liste ce que le modèle a lu et cherché, et les outils qu'il a appelés, par exemple `called the MCP tool fire_danger`. Lors du test du 2026-10-30, avec les 11 questions du kit (sans question 12) : 1 min 54 et 0,24 dollar.
+   Sous chaque réponse, la ligne `What the model did:` liste ce que le modèle a lu et cherché, et les outils qu'il a appelés, par exemple `called the MCP tool fire_danger`. Lors du test du 2026-10-30, avec les 11 questions du kit (sans question 12) : 1 min 54 et 0,24 dollar. Avec `deepseek/deepseek-v4-flash`, 11 questions ont pris de 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E (un seul essai).
 
 3. Noter seulement les trois questions du jour, avec l'aide du juge (sans question 12 : `score D 8 11`) :
 
@@ -559,7 +586,7 @@ Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, q
 
    Pour la question 8 : quand l'entrée d'Anvers n'est pas `"live"`, une réponse qui dit qu'il n'y a pas de niveau officiel aujourd'hui, avec la phrase de la source, est juste.
 
-4. **Comparer la colonne D** avec la colonne C dans `scores.md`, pour les questions 8, 11 et 12, et avec la prédiction. Quelle question a changé, et pourquoi ? Aujourd'hui, seules quelques questions sont notées : **la ligne Total ne veut rien dire ici**, lire les lignes une à une. Si la colonne C n'a pas de note pour la question 8, taper `score C 8` : les réponses de l'atelier 3 sont toujours dans `answers/`. Sans sauvegarde, il n'y a pas de colonne C : comparer avec un binôme voisin.
+4. **Comparer la colonne D** avec la colonne C dans `scores.md`, pour les questions 8, 11 et 12, et avec la prédiction. Quelle question a changé, et pourquoi ? Aujourd'hui, seules quelques questions sont notées : **la ligne Total ne veut rien dire ici**, lire les lignes une à une. Si la colonne C n'a pas de note pour la question 8, taper `score C 8` : les réponses de l'atelier 3 sont toujours dans `answers/`. Sans sauvegarde, il n'y a pas de colonne C : comparer avec un binôme voisin qui utilise le même modèle.
 
 :::
 
@@ -593,7 +620,7 @@ Rappel du barème (fiche d'une page) :
 
 ## Dépannage
 
-Les problèmes courants (clé, Codespace, terminal) sont dans la section « Troubleshooting » de `SETUP.md`.
+Les problèmes courants (clé, Codespace, terminal) sont dans la section « Troubleshooting » de `SETUP.md`. Ceux d'une clé OpenRouter sont plus bas, dans [Avec une clé OpenRouter](#avec-une-clé-openrouter).
 
 - **`fire-danger.json is malformed (Expecting ',' delimiter: line ... column ...). Fix it and try again.`** : il manque une virgule ou un guillemet dans `mcp/fire-danger.json`. Le nom du fichier passe en rouge, avec le nombre de problèmes à côté. Aller à la ligne indiquée dans le message, chercher la ligne ondulée rouge dans l'éditeur et y poser la souris : VS Code dit ce qui manque (ici : `Expected comma`). Les captures de ces écrans sont dans le dépôt. Une virgule manquante se trouve en général à la fin de la ligne juste au-dessus. Corriger et enregistrer : inutile de redémarrer la conversation.
 - **L'outil dit `The file is dated ..., not today`** : écrire la date du jour dans `"date"`, en haut du fichier, sous la forme année-mois-jour, et enregistrer.
@@ -602,6 +629,21 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la section « Trou
 - **Le modèle n'appelle pas l'outil** : poser la question sur **aujourd'hui**, et nommer le territoire comme il est écrit dans le fichier (`territories` en donne la liste). Une question sur les règles (ce qui est interdit, les amendes) trouve sa réponse dans les documents, pas dans l'outil.
 - **`WORKSHOP_WEATHER=1 works with modes D, E and F only.`** : taper `WORKSHOP_WEATHER=1 workshop D`, pas avec un autre mode.
 - **Quitter une conversation** : `Ctrl+C` deux fois. **Copier / coller dans le terminal** : `Ctrl+Shift+C` / `Ctrl+Shift+V` (`Cmd+C` / `Cmd+V` sur Mac).
+
+### Avec une clé OpenRouter
+
+Les messages de clé de `SETUP.md` qui nomment Anthropic existent aussi avec `OpenRouter` à la place d'`Anthropic`. Ceux-ci sont propres à cette voie :
+
+- **`This is an OpenRouter key: Claude Code in the workshop needs an Anthropic key (sk-ant-…).`** : vous avez demandé Claude Code, avec `--engine claude` ou `WORKSHOP_ENGINE=claude`. Rien n'a été enregistré. Une clé OpenRouter tourne dans OpenCode : la ligne suivante du message dit quoi taper.
+- **`The saved key is an OpenRouter key: it works with OpenCode only. Type this command without WORKSHOP_ENGINE=claude.`** : votre clé est enregistrée, mais cette commande a demandé Claude Code, à qui il faut une clé Anthropic (elle commence par `sk-ant-`). Faire ce que dit le message, ou taper `workshop-login` et coller une clé Anthropic.
+- **`OpenRouter has no model <model> that can use tools.`** : rien n'a été enregistré. Le nom est faux, ou ce modèle ne sait pas utiliser d'outils, ce que demandent les ateliers. Les lignes suivantes montrent des noms proches.
+- **`Key saved, but this OpenRouter account has no credits left. Add credits, or choose a free model: workshop-login --models free`** : c'est l'erreur HTTP 402, prévenir l'animateur·rice. Dans `replay`, la ligne dit `no credits left on this key`. Une clé arrivée à sa limite peut donner ce message aussi (non testé). Avec un solde négatif, les modèles gratuits sont bloqués eux aussi. Après `workshop-login --europe`, le message s'arrête à `Add credits.` : aucun modèle gratuit ne tourne en Europe.
+- **`Key saved, but this key has reached its spending limit. Tell the facilitator.`** : dans `replay`, la ligne dit `this key or its account reached a spending limit`.
+- **`Key saved, but the quota of the model <model> is reached for now (HTTP 429). Try again later, or choose another model: workshop-login --models openrouter`**, ou **`Key saved, but the model <model> is busy (HTTP <code>). Try again in a few minutes, or choose another model: workshop-login --models openrouter`** : faire ce que dit le message. Dans `replay`, la ligne dit `too many requests, or the quota of this key or of this model is used up`, après une attente, car OpenCode réessaie d'abord tout seul. Les modèles gratuits ont un quota : le 2026-11-01, 50 requêtes par jour (1 000 une fois que le compte a acheté au moins 10 dollars de crédits), requêtes échouées comprises. Lors de notre seul essai, avec deux modèles gratuits en même temps, `replay` s'est arrêté sur cette erreur : après les modes bare et A pour l'un, dès le début pour l'autre. Un seul à la fois, avec du quota restant, `cohere/north-mini-code:free` a terminé `replay C`, et `google/gemma-4-26b-a4b-it:free` s'est arrêté sur trois erreurs 429 en 10 secondes. Après `workshop-login --europe`, le message nomme un modèle Mistral au lieu de la liste : ce modèle suit la même règle.
+- **`Key saved, but no company can serve the model <model> under the workshop's data rule. Choose another model: workshop-login --models openrouter`** : avec une clé OpenRouter, chaque requête demande d'écarter les entreprises qui peuvent collecter les données ou s'en servir pour l'entraînement. Certaines de celles qui restent peuvent quand même garder les questions un temps. Aucune ne sert ce modèle en ce moment. Dans `replay`, la ligne dit `the model is busy, or no company can serve it now` : réessayer plus tard, ou demander à l'animateur·rice.
+- **`Key saved, but Mistral does not serve the model <model> in Europe with zero data retention. Choose another model, for example: workshop-login --model <name>`** : vous avez activé `workshop-login --europe`, et ce modèle n'a aucune entreprise de ce type. Taper la commande que donne le message.
+- **`OpenCode is already open and keeps the old data rule: close it and start it again. A replay stops by itself before its next question.`** : vous avez changé `--europe` pendant qu'OpenCode tournait. Ce que vous y tapez part encore sous l'ancienne règle. Fermer ce chatbot, puis le relancer avec `workshop`.
+- **`Your data rule changed during this replay (workshop-login --europe or --no-europe). The next question was not sent.`** : la question en cours a fini sous l'ancienne règle. Sa réponse reste dans `answers/`. Retaper la même commande `replay`.
 
 ## Indicateurs de réussite
 
