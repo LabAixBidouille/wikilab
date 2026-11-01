@@ -468,6 +468,8 @@ Avant toute question :
 
 Mais le « sens » a une limite. _Forbidden_ (interdit) et _allowed_ (autorisé) obtiennent le score le plus haut du tableau : les deux phrases parlent de la même chose, et un seul mot change. La recherche trouve **ce dont parle un texte**. Elle ne sait pas si le texte est vrai, ni s'il vous répond. C'est le travail du modèle qui lit les extraits, puis le vôtre.
 
+La première décision vient donc avant toute question : **quels documents peuvent entrer dans la base ?** Le modèle et le lecteur ne peuvent juger que ce que la recherche rapporte. Un mauvais document sur le bon sujet reviendra. Un passage manquant ne peut pas être jugé du tout. Un document peut même contenir une phrase écrite pour le chatbot : l'atelier 4 le montre.
+
 Regarder aussi la dernière ligne. _Incendie de forêt_ est la traduction de _forest fire_, et le petit modèle le place plus loin de _wildfire_ que _birthday cake_. Et _campfire_ dépasse _forest fire_ : personne n'a choisi ces nombres, ils ne suivent donc pas toujours l'idée qu'on se fait du sens.
 
 ### Une question, du début à la fin
@@ -745,6 +747,8 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 **À retenir** : l'échec d'un RAG ne se voit pas. Quand il choisit les mauvais morceaux, le modèle reçoit quand même 5 extraits, et il peut répondre à partir d'eux avec assurance. C'est pour cela que les questions de test comptent : elles montrent les échecs que la discussion ne montre pas.
 
 **En pratique.** Si vos documents sont peu nombreux et courts, mettez-les tous dans le contexte : c'est simple, et le modèle peut les comparer. S'ils ne tiennent plus, ou si chaque message coûte trop cher, utilisez un RAG, et continuez de le tester avec des questions dont vous connaissez les réponses.
+
+**Pourquoi ne pas couper sous un score ?** Après le gâteau à 0,573, on peut avoir envie de ne garder que les extraits au-dessus de 0,75. Nos chiffres montrent le piège. La question 7, qui n'a pas de réponse, reste à 0,831. Les deux morceaux qui contiennent `INTERDITS`, et qui répondent à la question 3, sont à environ 0,72. La coupe garderait la réponse vide et retirerait la bonne.
 
 ### Ce que certains outils de discussion font d'eux-mêmes
 

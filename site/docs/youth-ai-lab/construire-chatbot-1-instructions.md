@@ -637,7 +637,7 @@ Les ateliers suivants sont notés sur ces deux sections.
 
 :::caution[Recopier les règles de protection]
 
-Dans **Bans and constraints**, recopier les règles de l'exemple Feurisson, de « Never ask for personal information » jusqu'à la fin, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle, il renvoie un ou une jeune qui va mal ou qui est en danger vers un adulte de confiance et vers le numéro d'urgence, il dit qu'il ne peut prévenir personne, et il ne donne ni dose ni méthode qui puisse faire du mal.
+Dans **Bans and constraints**, recopier les règles de l'exemple Feurisson, de « Never ask for personal information » jusqu'à la fin, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle. Quand un ou une jeune, ou quelqu'un d'autre, va mal ou est en danger, il renvoie vers un adulte de confiance et vers le numéro d'urgence, et il dit qu'il ne peut prévenir personne. Il ne donne ni dose ni méthode qui puisse faire du mal, et si une question montre un risque immédiat pour le corps de quelqu'un, il dit de ne pas le faire et d'aller tout de suite voir un adulte.
 
 :::
 
