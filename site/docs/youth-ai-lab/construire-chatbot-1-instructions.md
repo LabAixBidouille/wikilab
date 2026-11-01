@@ -807,7 +807,7 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la section _Troubl
 - **La question 12 n'apparaît pas dans `replay`** : sa case de question est vide, ou il manque un `|`. Comparer la ligne 12 avec la ligne 11 de `test-questions.md`.
 - **`openwebui chatbot` affiche `Warning: your AGENTS.md is still empty`** : remplir `AGENTS.md` (partie 4), enregistrer, et retaper la commande.
 - **`Open WebUI is not running, or not ready yet.`** : attendre la ligne `Open WebUI is ready` dans le second terminal. Si le Codespace s'est arrêté, retaper `openwebui start`.
-- **`! This repository is for workshop 1. Workshop 2 has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Ici, taper `workshop-start 1`. Pour l'atelier suivant, ouvrir son propre lien de Codespace.
+- **`This repository is for workshop 1. Workshop 2 has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Rien n'a été changé. Ici, taper `workshop-start 1`. Pour l'atelier suivant, ouvrir son propre lien de Codespace.
 
 :::info[Notes pour l'animateur·rice]
 

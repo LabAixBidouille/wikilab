@@ -279,7 +279,7 @@ Une page du wiki n'est pas un résumé signé. Son en-tête a une ligne `generat
 
 #### Étape 2 : Lire le journal
 
-Ouvrir `wiki/log.md`, et appuyer sur `Ctrl+Shift+V` : une ligne par changement, `Creation`, `Update` ou `Contradiction`. Il y a 6 lignes `Contradiction` : appuyer sur `Ctrl+F` et chercher ce mot. En choisir une, la lire en binôme, et retrouver les deux sources qu'elle cite. Regarder ce qui diffère : le chiffre, ou la portée ?
+Ouvrir `wiki/log.md`, et appuyer sur `Ctrl+Shift+V` : une ligne par changement, `Creation`, `Update` ou `Contradiction`. Il y a 9 lignes `Contradiction` : appuyer sur `Ctrl+F` et chercher ce mot. En choisir une, la lire en binôme, et retrouver les deux sources qu'elle cite (deux lignes comparent deux passages d'un même document). Regarder ce qui diffère : le chiffre, ou la portée ?
 
 La règle de la skill `ingest` : le modèle écrit `According to one source, X; according to another, Y` (« selon une source, X ; selon une autre, Y »), avec une note sur chacune. Il ne choisit pas, il n'enlève rien, et il ne reformule rien.
 

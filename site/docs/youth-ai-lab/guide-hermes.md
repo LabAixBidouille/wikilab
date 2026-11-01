@@ -91,7 +91,7 @@ Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code sec
 
 ### Partie 1 : Mise en place
 
-Ouvrir le Codespace, attendre l'installation de Hermes (environ deux minutes la première fois : 99 et 124 secondes mesurées sur un ordinateur avec la même image, **pas encore mesuré dans un Codespace**), enregistrer la clé, puis lancer l'assistant avec `hermes`. Une première question sur les niveaux de vigilance en Charente-Maritime montre l'assistant qui lit ses documents et cite sa source. La clé est gardée dans un fichier lisible par vous seul, hors du dossier du guide.
+Ouvrir le Codespace, attendre l'installation de Hermes (environ quatre minutes au total la première fois, mesurées une fois dans un vrai Codespace, création comprise ; l'installation a pris 99 et 124 secondes sur un ordinateur avec la même image), enregistrer la clé, puis lancer l'assistant avec `hermes`. Une première question sur les niveaux de vigilance en Charente-Maritime montre l'assistant qui lit ses documents et cite sa source. La clé est gardée dans un fichier lisible par vous seul, hors du dossier du guide.
 
 ```bash
 hermes auth add anthropic --type api-key
@@ -172,7 +172,7 @@ Chaque question, avec les instructions, la mémoire et les documents lus, est en
 
 ## Limites
 
-- **Un vrai modèle n'a été essayé que sur six questions** (Claude Sonnet 5.5, 29 octobre 2026). Non testés : un vrai Codespace, une skill proposée par l'assistant lui-même, une longue conversation.
+- **Un vrai modèle n'a été essayé que sur six questions** (Claude Sonnet 5.5, 29 octobre 2026). Dans un vrai Codespace (image `2026.10.30`), seuls l'installation et `ci/check_hermes.py` ont été lancés (22 PASS, 0 FAIL, avant l'ajout du contrôle du jeton), pas tout le guide. Non testés : une skill proposée par l'assistant lui-même, une longue conversation.
 - **Hermes évolue vite** : le guide est figé sur la version 0.22.5, alors que sa documentation en ligne décrit la dernière version.
 - **Pas de modèle local de petite taille** : avec Ollama (un logiciel qui fait tourner un modèle sur un ordinateur de la structure) sur un portable doté d'une carte graphique de 6 Go, `qwen2.5:7b` n'a pas répondu et `mistral:7b` a donné une réponse fausse. Le guide ne fonctionne donc pas avec un petit modèle local ; avec un modèle plus grand, sur un ordinateur bien plus puissant : **non testé**. Voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale) pour Ollama.
 - **Autres fournisseurs** : Hermes accepte OpenRouter et d'autres, **non testés** ici.

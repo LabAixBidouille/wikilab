@@ -791,7 +791,7 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubles
 - **`Open WebUI is not running, or not ready yet.`** : attendre `READY` dans le journal. Si le Codespace s'est arrêté, taper `openwebui start`.
 - **`replay RAG` dit que les modèles reçoivent 10 extraits** : le top-k a été changé à la partie 5. Taper `openwebui top-k 5`, puis relancer `replay RAG`.
 - **`Open WebUI is not started here (not a Codespace or a dev container).`** : Open WebUI ne démarre automatiquement que dans un Codespace ou un dev container. Ailleurs, taper `openwebui start && openwebui sizes`.
-- **`! This repository is for workshop 2. Workshop ... has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Ici, taper `workshop-start 2`.
+- **`This repository is for workshop 2. Workshop ... has its own repository...`** : `workshop-start` a été tapé avec le numéro d'un autre atelier. Rien n'a été changé. Ici, taper `workshop-start 2`.
 
 :::info[Notes pour l'animateur·rice]
 
