@@ -690,7 +690,7 @@ Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comm
 
    Les parties tombent juste. Hors UE, cela fait 1 092 095 + 70 562 = 1 162 657 hectares : le même chiffre que la soustraction, par un second chemin que les 5 morceaux de 1000 ne donnaient pas. Le résumé 90 dit 2,2 millions au-delà de l'UE, presque deux fois plus. Or 2 242 195, UE comprise, s'arrondit à 2,2 millions : les deux ne concordent que si les 2,2 millions incluent l'UE. Cette somme ne dit pas quelle source a raison : la réponse avec des morceaux de 2000 dit aussi _"I can't confirm this from the excerpts alone"_ (je ne peux pas le confirmer à partir des seuls extraits).
 
-   **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-temperature)).
+   **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-température)).
 
 5. Si vous le souhaitez, donner 10 extraits à la discussion :
 

@@ -283,13 +283,17 @@ L'[article](https://arxiv.org/abs/1706.03762) divise chaque score par la racine 
 
 $$
 s_j = \frac{q \cdot k_j}{\sqrt{d}}
-\qquad
+$$
+
+$$
 a_j = \frac{e^{s_j}}{\sum_i e^{s_i}}
-\qquad
+$$
+
+$$
 \text{mélange} = \sum_j a_j v_j
 $$
 
-La part $a_j$ est le calcul qui donne les probabilités du jeton suivant, à [température](#la-temperature) 1.
+La part $a_j$ est le calcul qui donne les probabilités du jeton suivant, à [température](#la-température) 1.
 
 </details>
 

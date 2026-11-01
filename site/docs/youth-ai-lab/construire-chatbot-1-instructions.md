@@ -459,7 +459,7 @@ Le dossier `examples/` contient cinq préprompts pour le même modèle :
 
 Trois d'entre eux font des erreurs volontaires. Chacune de leurs réponses commence par cette étiquette : `⚠️ Demo bot: this answer contains deliberate errors.` (robot de démonstration : cette réponse contient des erreurs volontaires). Le travail du binôme : trouver quelles erreurs, et comment elles sont faites.
 
-**À retenir** : le modèle, ses connaissances et les questions sont les mêmes pour les cinq chatbots. **Seul un texte change.** Les grandes différences observées (une étiquette, un refus, une erreur qui revient à chaque fois) viennent donc de ce texte. De petites différences de formulation peuvent aussi venir du hasard : le même chatbot n'écrit jamais deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-temperature)).
+**À retenir** : le modèle, ses connaissances et les questions sont les mêmes pour les cinq chatbots. **Seul un texte change.** Les grandes différences observées (une étiquette, un refus, une erreur qui revient à chaque fois) viennent donc de ce texte. De petites différences de formulation peuvent aussi venir du hasard : le même chatbot n'écrit jamais deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-température)).
 
 :::caution[Ne pas ouvrir son fichier avant d'avoir noté]
 
