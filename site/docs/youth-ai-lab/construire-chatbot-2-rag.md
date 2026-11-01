@@ -676,8 +676,19 @@ Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comm
 
    Voici les deux réponses mesurées avec le modèle de l'atelier :
 
-   - **Morceaux de 1000** : la réponse soustrait l'UE du total (environ 1 162 657 hectares), précise que c'est son propre calcul, et voit que les 2,2 millions ne concordent pas. Mais elle « ne peut pas dire quelle lecture est la bonne » (_"can't tell which reading is correct"_) : le chiffre de 1 092 095 hectares n'est pas dans ses extraits. Le juge a donné 1.
+   - **Morceaux de 1000** : la réponse soustrait l'UE du total (environ 1 162 657 hectares), précise que c'est son propre calcul, et voit que les 2,2 millions ne concordent pas. Mais elle « ne peut pas dire quelle lecture est la bonne » (_"can't tell which reading is correct"_), et le chiffre de 1 092 095 hectares n'est pas dans ses extraits. Le juge a donné 1.
    - **Morceaux de 2000** : la réponse donne 1 092 095 + 70 562 hectares, écrit que « les sources ne sont pas d'accord » (_"the sources disagree"_), et explique pourquoi : _"The figures add up only if the 2.2 million includes the EU"_ (les chiffres ne concordent que si les 2,2 millions incluent l'UE). Le juge a donné 2.
+
+   **Vérifier à la calculatrice.** Le résumé 10 donne les trois parties de son total :
+
+   | Où                              |      Hectares |
+   | ------------------------------- | ------------: |
+   | UE                              |     1 079 538 |
+   | Pays européens hors UE          |     1 092 095 |
+   | Moyen-Orient et Afrique du Nord |        70 562 |
+   | **Tous les territoires**        | **2 242 195** |
+
+   Les parties tombent juste. Hors UE, cela fait 1 092 095 + 70 562 = 1 162 657 hectares : le même chiffre que la soustraction, par un second chemin que les 5 morceaux de 1000 ne donnaient pas. Le résumé 90 dit 2,2 millions au-delà de l'UE, presque deux fois plus. Or 2 242 195, UE comprise, s'arrondit à 2,2 millions : les deux ne concordent que si les 2,2 millions incluent l'UE. Cette somme ne dit pas quelle source a raison : la réponse avec des morceaux de 2000 dit aussi _"I can't confirm this from the excerpts alone"_ (je ne peux pas le confirmer à partir des seuls extraits).
 
    **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse.
 
@@ -706,7 +717,7 @@ Les deux réponses à la question 10 ont été comparées, et la discussion est 
 Des morceaux plus grands ont trouvé la question 10. Pourquoi ne pas toujours prendre les plus grands ? (Indice : que reçoit le modèle à chaque question, et pour quoi paie-t-on ?)
 
 :::info[Notes pour l'animateur·rice]
-Lire les deux réponses mesurées à la question 10. Les deux voient que les sources ne sont pas d'accord. Avec des morceaux de 1000, seuls les totaux arrivent, donc le modèle les soustrait et dit qu'il ne peut pas trancher à partir des seuls extraits. Avec des morceaux de 2000, un morceau contient aussi les chiffres des pays européens hors UE et du Moyen-Orient et de l'Afrique du Nord, donc le modèle vérifie la somme et explique le désaccord. **Le modèle est le même : la différence vient de ce que contiennent les morceaux.** À la fin de la partie, faire taper `openwebui top-k 5` à toute la salle.
+Lire les deux réponses mesurées à la question 10. Les deux voient que les sources ne sont pas d'accord. Avec des morceaux de 1000, seuls les totaux arrivent, donc le modèle les soustrait et dit qu'il ne peut pas trancher à partir des seuls extraits. Avec des morceaux de 2000, un morceau contient aussi les chiffres des pays européens hors UE et du Moyen-Orient et de l'Afrique du Nord, donc le modèle vérifie la somme et explique le désaccord. **Le modèle est le même : la différence vient de ce que contiennent les morceaux.** Faire la somme au tableau : 1 079 538 + 1 092 095 + 70 562 = 2 242 195, le total exact du résumé 10. Elle confirme les 1 162 657, pas la source qui a raison : la réponse avec des morceaux de 2000 dit aussi qu'elle ne peut pas confirmer à partir des seuls extraits. À la fin de la partie, faire taper `openwebui top-k 5` à toute la salle.
 :::
 
 ---
@@ -741,6 +752,16 @@ Lire les deux réponses mesurées à la question 10. Les deux voient que les sou
 
 3. **Comparer les colonnes B et RAG** pour les questions 3, 7 et 10, puis les coûts : 0,47 \$ pour B d'après nos mesures, environ 0,14 \$ pour le RAG d'après notre estimation. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées.
 
+**Faire le calcul.** Le RAG lit environ 40 fois moins que le mode B (environ 2 400 jetons par question en moyenne, contre 100 000), mais il ne coûte qu'environ 3 fois moins. Dans notre essai, le modèle coûtait 2 \$ par million de jetons lus et 10 \$ par million de jetons écrits. Pour les 11 questions du RAG :
+
+|        | Jetons | Coût                                 |
+| ------ | ------ | ------------------------------------ |
+| Lus    | 26 789 | 26 789 × 2 \$ ÷ 1 000 000 = 0,054 \$ |
+| Écrits | 8 633  | 8 633 × 10 \$ ÷ 1 000 000 = 0,086 \$ |
+| Total  |        | environ **0,14 \$**                  |
+
+D'abord, un RAG réduit la lecture, pas l'écriture, et un jeton écrit coûte cinq fois plus qu'un jeton lu : ici, l'écriture fait l'essentiel de la facture. Ensuite, le mode B ne paie pas plein tarif. À plein tarif, 11 × 100 000 jetons lus coûteraient 2,20 \$, et nous avons mesuré 0,47 \$ pour le tout. Le service qui fait tourner le modèle garde quelque temps le texte qu'il vient de recevoir (un _prompt cache_), et le facture moins cher quand le même texte revient. Chaque message qui suit de près paie donc encore pour tout, mais à un prix plus bas.
+
 :::info[Qui paie les questions]
 Ces coûts sont payés avec la clé du binôme. Le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) présente cinq façons de payer le modèle. Un modèle installé sur un ordinateur de votre structure n'a pas de coût par question : voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
 :::
@@ -757,6 +778,10 @@ Pourquoi n'a-t-il pas inventé de réponse à la question 7 ? Ses instructions f
 
 :::note[Point de contrôle]
 Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme peut citer une question où les morceaux ont fait la différence.
+:::
+
+:::info[Notes pour l'animateur·rice]
+**« Environ 3 fois moins » est un ordre de grandeur.** Les 0,47 \$ sont ce que `replay B` a affiché à la répétition du 21 octobre 2026 ; les 0,14 \$ sont une estimation à plein tarif, du 30 octobre 2026, avec d'autres instructions. Les jetons écrits et les comptes du cache du mode B n'ont pas été gardés : personne ne peut répartir les 0,47 \$ entre lecture et écriture. La fiche ne donne ni prix ni durée pour le cache : ni l'un ni l'autre ne sont dans nos mesures. L'économie n'arrive que lorsque le texte revient : une seule question du mode B a affiché 0,27 \$, plus que les 0,21 \$ de ses 103 865 jetons lus à plein tarif.
 :::
 
 ---

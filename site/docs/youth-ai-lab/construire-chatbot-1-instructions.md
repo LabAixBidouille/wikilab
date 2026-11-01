@@ -694,7 +694,15 @@ En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions gén�
 
 4. **Comparer les colonnes Bare et A**, et sa prédiction.
 
-**Ce qu'il faut observer** : le **comportement** change (ton, refus, « je ne sais pas », sources demandées). Les **connaissances**, non : sur les questions précises (1 à 4), le chatbot n'a toujours aucun document qui donne le fait. Une note peut quand même passer de 0 à 1 : une réponse inventée est devenue un « je ne sais pas » honnête, ce qui est un changement de comportement. Avec l'exemple Feurisson, le juge a donné 13 sur 22 aux questions 1 à 11 (mesuré avant l'existence de la question 12 ; avec le préprompt du binôme, le total est sur 24) : presque uniquement des « je ne sais pas » honnêtes.
+**Ce qu'il faut observer** : le **comportement** change (ton, refus, « je ne sais pas », sources demandées). Les **connaissances**, non : sur les questions précises (1 à 4), le chatbot n'a toujours aucun document qui donne le fait. Une note peut quand même passer de 0 à 1 : une réponse inventée est devenue un « je ne sais pas » honnête, ce qui est un changement de comportement. Avec l'exemple Feurisson, le juge a donné 13 sur 22 aux questions 1 à 11 (mesuré avant l'existence de la question 12) : presque uniquement des « je ne sais pas » honnêtes.
+
+**D'où vient ce 13 ?** On peut le calculer avant tout essai. Un chatbot qui répond « je ne sais pas » à tout obtient 2 points aux questions 7 et 9, et 1 point aux 9 autres :
+
+$$
+2 \times 2 + 9 \times 1 = 13
+$$
+
+13 sur 22 est donc ce que rapporte l'honnêteté seule : c'est pourquoi Feurisson et Prudence ont eu le même total dans notre essai. Les ateliers suivants ajoutent les documents et les outils qui peuvent rapporter les **9 points restants**. Avec la question 12, le total est sur 24, et une réponse honnête à cette question ajoute 1 : 14. Sous ces totaux, chercher une réponse fausse ou inventée.
 
 :::note[Point de contrôle]
 

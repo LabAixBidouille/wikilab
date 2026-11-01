@@ -286,7 +286,7 @@ Modèle  →  Réponse
 
 1. Ouvrir `test-questions.md`, copier la question 3 et la coller dans la conversation avec `Ctrl+Shift+V` (`Cmd+V` sur Mac). Elle porte sur l'accès aux massifs forestiers dans les Bouches-du-Rhône. Sa réponse **n'est pas dans les résumés** : seulement dans le texte complet d'un arrêté, une décision juridique de la préfecture. À l'atelier 2, dans notre test, le RAG l'a manquée : l'article qui répond n'était jamais dans ses morceaux. Le modèle peut-il l'atteindre en cherchant ?
 2. Au-dessus de la réponse, une ligne grise résume les étapes, par exemple `Searched for 1 pattern, read 2 files`. Appuyer sur **Ctrl+O** (aussi sur Mac) pour voir chaque étape : quel mot il a cherché, quels fichiers il a ouverts. L'écran affiche alors `Showing detailed transcript · ctrl+o to toggle` : **Ctrl+O** à nouveau ramène à la conversation. Les captures du dépôt montrent les deux vues sur une autre question.
-3. Regarder la jauge. Lors de notre essai du 30 octobre 2026, le modèle a cherché avec `grep` dans `summaries/` et `corpus/`, a lu le résumé des Bouches-du-Rhône puis l'arrêté complet dans `corpus/text/`, sans demander aucune permission, et la jauge affichait environ **23 000 jetons** (un jeton est un morceau de mot). En mode B, elle en affichait environ 100 000 (mesure prise après la question 10) : tout le kit est dans la fenêtre, quelle que soit la question. Vos étapes peuvent être différentes : le modèle décide à chaque fois.
+3. Regarder la jauge. Lors de notre essai du 30 octobre 2026, le modèle a cherché avec `grep` dans `summaries/` et `corpus/`, a lu le résumé des Bouches-du-Rhône puis l'arrêté complet dans `corpus/text/`, sans demander aucune permission, et la jauge affichait environ **23 000 jetons** (un jeton est un morceau de mot). La jauge est une somme : ce qui est toujours là, plus ce que le modèle a ouvert. Un simple « Hello » en mode C remplit déjà environ 8 000 jetons : les instructions, les outils, la liste des skills. Ici, les recherches, le résumé et l'arrêté ont donc ajouté environ 15 000 jetons (23 000 - 8 000). En mode B, elle en affichait environ 100 000 (mesure prise après la question 10) : tout le kit est dans la fenêtre, quelle que soit la question. Vos étapes peuvent être différentes : le modèle décide à chaque fois.
 
 ### Étape 3 : Question 7, une réponse qui n'existe nulle part
 
@@ -313,6 +313,8 @@ En mode B, personne ne choisissait. Dans le RAG, un moteur de recherche choisiss
 :::info[Notes pour l'animateur·rice]
 
 Faites appuyer toute la salle sur **Ctrl+O** et nommer les fichiers ouverts. Puis : « En mode B, personne ne choisissait ; dans le RAG, un moteur de recherche choisissait ; ici, le modèle a choisi, et vous voyez chaque étape. » Pour la question 7, la recherche trouve des documents proches du sujet, mais pas le chiffre demandé : le modèle voit que la réponse n'y est pas.
+
+**Estimations de jetons.** `corpus-add` affiche les caractères divisés par 4 (Bénévent : environ 5 400 caractères, affichés comme 1 346 jetons). Sur nos documents, la jauge compte davantage : environ 2,3 à 2,7 caractères par jeton (mode B : 230 204 caractères, environ 97 400 jetons de plus que le mode A). Nous n'avons pas mesuré pourquoi. Si quelqu'un pose la question, dire que le nombre affiché est une estimation basse. Les 8 000 de la fiche viennent du « Hello » sur l'écran interactif de l'image `2026.10.34`, les 23 000 d'un essai `-p` sur l'image `2026.10.33` : les 15 000 sont donc une soustraction entre deux installations, pas une mesure.
 
 :::
 

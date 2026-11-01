@@ -525,7 +525,7 @@ Avant la séance, l'animateur·rice a donné le wiki à **graphify**, un outil q
 `wiki/index.md` liste les pages, et le dessin de la partie 2 montre ce que chaque page relie et cite. Ni l'un ni l'autre ne montre deux pages, dans deux pays, qui parlent d'une règle semblable quand aucun lien ne les joint. Un graphe de connaissances cherche cela, pour que l'on puisse explorer ce que ses documents disent ensemble, et voir où il en manque.
 
 - **Un nœud** est un point de la carte : une page, une règle, un organisme, une idée. **Une arête** est une ligne entre deux nœuds.
-- **Une communauté** est un groupe de nœuds fortement reliés, trouvé par un calcul.
+- **Une communauté** est un groupe de nœuds avec beaucoup de lignes entre eux, et peu vers le reste. Un calcul déplace les nœuds d'un groupe à l'autre. Il compare les lignes à l'intérieur des groupes avec ce que donnerait le hasard, et garde un déplacement quand l'écart augmente. Dans notre graphe, 103 des 132 arêtes (78 %) restent à l'intérieur d'un groupe ; avec des lignes placées au hasard, environ 16 % le feraient. Le calcul ne voit que des lignes, pas le sens : c'est pourquoi l'étape 1 vous demande si les groupes ont du sens.
 - **`EXTRACTED`** marque une arête écrite dans une page. **`INFERRED`** marque une arête devinée par le modèle : une suggestion, pas un fait.
 - **Un instantané** est une image prise à un moment donné : ce graphe ne change pas quand le wiki change.
 
@@ -538,6 +538,8 @@ Notre graphe a 82 nœuds, 132 arêtes et 7 communautés ; 115 arêtes sont `EXTR
 Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à ce qu'aucune étiquette ne soit lisible. C'est la première fois que la salle voit le `wiki-graph` complet : il a été gardé exprès pour aujourd'hui. Dire : sur la carte de gauche, chaque flèche est écrite dans une page ; sur celle de droite, un outil a dessiné des idées, et deviné certains liens.
 
 **Ne jamais projeter** : le dossier `answers/`, `wiki/log.md` et la page Bénévent du wiki, `GRAPH_REPORT.md` au-delà de sa ligne `Corpus Check`, les étiquettes de la carte graphify et les titres de pages du `wiki/graph.md` complet : ils contiennent des réponses du jeu de test.
+
+**Si un binôme demande ce que veut dire `Cohesion: 0.30` dans le rapport.** Ce sont les lignes tracées à l'intérieur du groupe, divisées par les lignes possibles. Entre n nœuds, n(n-1)/2 lignes sont possibles. La communauté 4 a 12 nœuds, donc 66 lignes possibles, et 20 sont tracées (compté dans `graph.json` ; le rapport n'imprime pas ce nombre) : 20 / 66 = 0,30. Ce score vient après le regroupement : ce n'est pas lui qui fait les groupes. Ne pas classer les groupes avec lui, car un petit groupe obtient plus facilement un score élevé : dans la communauté 6 (0,33), un nœud a en moyenne 2 lignes à l'intérieur, dans la communauté 4 (0,30), il en a 3,3. Faire la somme avec la communauté 4 : pour les communautés 0 et 2, le rapport imprime `Nodes (14)` et `Nodes (12)` alors que `graph.json` en a 15 et 13, et la somme ne tombe pas juste.
 
 :::
 
@@ -558,7 +560,7 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
 #### Étape 2 : Lire le rapport
 
 1. Ouvrir `wiki/graphify-out/GRAPH_REPORT.md`, et appuyer sur `Ctrl+Shift+V`.
-2. Lire d'abord `Corpus Check` (ici, `Corpus` désigne les pages du wiki, pas le dossier `corpus/`) : `Corpus is ~16,359 words - fits in a single context window. You may not need a graph.` Qu'en pensez-vous ?
+2. Lire d'abord `Corpus Check` (ici, `Corpus` désigne les pages du wiki, pas le dossier `corpus/`) : `Corpus is ~16,359 words - fits in a single context window. You may not need a graph.` Le rapport compte des mots, et la jauge compte des jetons. Sur ces pages, nos mesures donnent environ 3 jetons par mot, donc 16 359 × 3 ≈ 49 000 jetons : environ un quart de la fenêtre de contexte (200 000 jetons), et la moitié de ce que le mode B envoyait à l'atelier 2. Qu'en pensez-vous ?
 3. Lire `Surprising Connections` : des liens que le rapport pense inconnus de vous. Chaque élément se lit `first node --kind of link--> second node`, puis donne les deux pages. `[INFERRED]` dit que le modèle a deviné le lien. Choisir une connexion qui vous surprend, et dire à son binôme si on y croit. L'étape 3 reprend l'un de ces liens, entre Montoro et le débroussaillement français, et l'étape 4 le vérifie.
 
 #### Étape 3 : Interroger le graphe
