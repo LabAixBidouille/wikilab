@@ -150,7 +150,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 :::info[Notes pour l'animateur·rice]
 
-**Préparation (environ 1 h).** Créer **une clé API Anthropic par binôme**, toutes dans **un seul espace de travail (_workspace_) pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Faire son propre parcours dans un Codespace neuf : `workshop-login`, `workshop-start 1`, `replay bare`, `replay A --agents examples/AGENTS.sophist.md`, `score answers/A-sophist-....md --blind`, `openwebui start`, puis `cp examples/AGENTS.feurisson.md AGENTS.md` (qui remplace la partie 4 : la clôture demande un `AGENTS.md` rempli) et `openwebui chatbot --name "Feurisson"`. Cette dernière commande doit afficher `Instructions: your AGENTS.md, 32 lines. ...` (et non `Warning: your AGENTS.md is still empty`), et `Who are you?` dans Open WebUI doit répondre en Feurisson. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), section « Avant de commencer : comptes et clé » (_Your Anthropic API key_ dans le dépôt anglais). Imprimer la fiche d'une page pour chaque binôme, et la traduire avant si besoin, en gardant en anglais les commandes et ce qu'affiche le terminal. Préparer une carte de sortie par personne, l'attribution des personnalités et le tableau de la salle. Plan de secours : une clé de réserve, et les fichiers de réponses mesurés (fiche animateur) sur une clé USB ou dans un dossier partagé.
+**Préparation (environ 1 h).** Créer **une clé API Anthropic par binôme**, toutes dans **un seul espace de travail (_workspace_) pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Faire son propre parcours dans un Codespace neuf : `workshop-login`, `workshop-start 1`, `replay bare`, `replay A --agents examples/AGENTS.sophist.md`, `score answers/A-sophist-....md --blind`, `openwebui start`, puis `cp examples/AGENTS.feurisson.md AGENTS.md` (qui remplace la partie 4 : la clôture demande un `AGENTS.md` rempli) et `openwebui chatbot --name "Feurisson"`. Cette dernière commande doit afficher `Instructions: your AGENTS.md, 39 lines. ...` (et non `Warning: your AGENTS.md is still empty`), et `Who are you?` dans Open WebUI doit répondre en Feurisson. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), section « Avant de commencer : comptes et clé » (_Your Anthropic API key_ dans le dépôt anglais). Imprimer la fiche d'une page pour chaque binôme, et la traduire avant si besoin, en gardant en anglais les commandes et ce qu'affiche le terminal. Préparer une carte de sortie par personne, l'attribution des personnalités et le tableau de la salle. Plan de secours : une clé de réserve, et les fichiers de réponses mesurés (fiche animateur) sur une clé USB ou dans un dossier partagé.
 
 **Qui paie.** Chaque organisation partenaire paie ses propres séances : son compte Anthropic, son espace de travail et ses clés. Plafond de la salle : 3 \$ × le nombre de binômes (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en 2 h). Le plafond porte sur l'espace de travail, pas sur chaque clé : **un binôme peut consommer la part d'un autre**. Garder la console Anthropic ouverte pendant l'atelier pour suivre les dépenses. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent. Compter alors 3 \$ × binômes × ateliers du mois, ou relever le plafond avant chaque atelier. Coût mesuré pour le parcours complet d'un binôme dans cet atelier : environ 0,39 \$. Un binôme qui parle plus, ou qui rejoue deux fois, dépense davantage, et 1 \$ par binôme reste une estimation sûre, sous la part de 3 \$ de chaque binôme. Coût indicatif par binôme pour toute la série : à compléter à la répétition.
 
@@ -479,7 +479,7 @@ L'animateur·rice donne une personnalité à chaque binôme. Noter son nom sur p
 
 :::info[Notes pour l'animateur·rice]
 
-Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prudence ; avec 3, ajouter Doctor Proof ; avec 4, Captain Certain ; avec 5, Grandpa Beaver ; à partir de 6, recommencer à Feurisson, et deux binômes qui ont la même personnalité comparent leurs notes **humaines**. Feurisson et Prudence passent en premier : leur **même total** est la discussion principale de la partie 3 (mesuré avant l'ajout des deux règles de protection de Feurisson : à vérifier à la répétition). Rappeler : **ne pas ouvrir le fichier avant d'avoir noté**.
+Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prudence ; avec 3, ajouter Doctor Proof ; avec 4, Captain Certain ; avec 5, Grandpa Beaver ; à partir de 6, recommencer à Feurisson, et deux binômes qui ont la même personnalité comparent leurs notes **humaines**. Feurisson et Prudence passent en premier : leur **même total** est la discussion principale de la partie 3 (mesuré avant l'ajout des règles de protection de Feurisson : à vérifier à la répétition). Rappeler : **ne pas ouvrir le fichier avant d'avoir noté**.
 
 :::
 
@@ -635,15 +635,15 @@ Les ateliers suivants sont notés sur ces deux sections.
 
 :::
 
-:::caution[Recopier les deux dernières règles « Never »]
+:::caution[Recopier les règles de protection]
 
-Dans **Bans and constraints**, recopier les deux dernières règles « Never » de l'exemple Feurisson, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle, et il renvoie un ou une jeune qui va mal ou qui est en danger vers un adulte de confiance et vers le numéro d'urgence.
+Dans **Bans and constraints**, recopier les règles de l'exemple Feurisson, de « Never ask for personal information » jusqu'à la fin, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle, il renvoie un ou une jeune qui va mal ou qui est en danger vers un adulte de confiance et vers le numéro d'urgence, il dit qu'il ne peut prévenir personne, et il ne donne ni dose ni méthode qui puisse faire du mal.
 
 :::
 
 :::info
 
-Tous les chiffres sur Feurisson de cette page, dans les parties 3 et 4, ont été mesurés avant l'ajout de ces deux règles à l'exemple.
+Tous les chiffres sur Feurisson de cette page, dans les parties 3 et 4, ont été mesurés avant l'ajout de ces règles à l'exemple.
 
 :::
 
@@ -704,7 +704,7 @@ En modes `bare` et `A`, le chatbot n'a pas d'outils. Mais les instructions gén�
 
 :::info[Notes pour l'animateur·rice]
 
-Tous les chiffres sur Feurisson (jauge, 13 sur 22 du juge, « même total » de la partie 3) ont été mesurés **avant** l'ajout de deux règles de protection (les deux dernières lignes « Never ») à `examples/AGENTS.feurisson.md`. Les totaux avec les nouvelles règles sont à compléter. Ce sont aussi les mesures d'**une seule passe** par personnalité : une différence d'un point sur une question, entre deux binômes, ne veut pas dire grand-chose à elle seule.
+Tous les chiffres sur Feurisson (jauge, 13 sur 22 du juge, « même total » de la partie 3) ont été mesurés **avant** les règles de protection (de « Never ask for personal information » à la fin), ajoutées à `examples/AGENTS.feurisson.md` le 31 octobre 2026 et allongées le 1er novembre. Les totaux avec les nouvelles règles sont à compléter. Ce sont aussi les mesures d'**une seule passe** par personnalité : une différence d'un point sur une question, entre deux binômes, ne veut pas dire grand-chose à elle seule.
 
 :::
 
@@ -733,7 +733,7 @@ Dans Open WebUI, le fichier `AGENTS.md` devient les instructions d'un chatbot.
    Cela prend quelques secondes. On doit voir, à la fin :
 
    ```text
-   Instructions: your AGENTS.md, 32 lines. It starts with: "You are Feurisson, a friendly hedgehog who helps young people prevent..."
+   Instructions: your AGENTS.md, 39 lines. It starts with: "You are Feurisson, a friendly hedgehog who helps young people prevent..."
    Ready. In Open WebUI (https://...-3000.app.github.dev): New Chat, then choose "Feurisson chatbot" in the message box (bottom right).
    To check the instructions, ask it: Who are you?
    Ask it your test questions again, and compare with scores.md.

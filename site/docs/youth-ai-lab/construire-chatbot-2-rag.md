@@ -324,7 +324,7 @@ Les parties 2 à 6 reviennent sur ces trois questions du jeu de test.
 
    **Remarque.** `score B` sans numéros note de nouveau toutes les questions, y compris 3, 7 et 10 : donner les numéros. L'atelier 3 compare les questions 11 et 12 avec la colonne B : s'il ne reste qu'une minute, noter ces deux-là d'abord, avec `score B 11 12`.
 
-4. **Comparer les colonnes A et B** dans `scores.md`, pour les questions 3, 7 et 10, et avec la prédiction. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées. Pas de colonne A, parce que le binôme a commencé sans sauvegarde ? Taper d'abord `replay A`, puis `score A` : avec Feurisson, on a mesuré 1 min 12 et 0,09 \$ (avant l'ajout de ses deux dernières règles).
+4. **Comparer les colonnes A et B** dans `scores.md`, pour les questions 3, 7 et 10, et avec la prédiction. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées. Pas de colonne A, parce que le binôme a commencé sans sauvegarde ? Taper d'abord `replay A`, puis `score A` : avec Feurisson, on a mesuré 1 min 12 et 0,09 \$ (avant l'ajout de ses règles de protection).
 
    **Ce qu'il faut regarder.** En mode A, le chatbot n'avait aucun document : une question précise recevait surtout un « je ne sais pas » honnête. Une note qui monte en colonne B veut dire que le modèle a trouvé le fait dans le kit. La question 7 ne devrait pas baisser : plus de documents ne doit pas le faire inventer. Pour la question 10, chercher les deux chiffres dans la même réponse : le modèle ne peut les comparer que parce qu'il a les deux documents.
 

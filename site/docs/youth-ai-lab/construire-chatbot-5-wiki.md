@@ -342,7 +342,7 @@ Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et n
 
 :::info[Comment lire nos mesures]
 
-L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. Personne n'a répondu aux autorisations : le temps de votre propre lecture n'est donc pas compté. Chaque « même essai » ci-dessous a tourné dans ces conditions. Vos nombres seront différents.
+L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. `AGENTS.md` était l'exemple Feurisson, avant l'ajout de ses règles de protection. Personne n'a répondu aux autorisations : le temps de votre propre lecture n'est donc pas compté. Chaque « même essai » ci-dessous a tourné dans ces conditions. Vos nombres seront différents.
 
 :::
 
