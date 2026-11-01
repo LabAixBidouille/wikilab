@@ -141,7 +141,7 @@ Tous ces fichiers sont dans votre Codespace, dans la liste des fichiers à gauch
 - **Mode** : un réglage de la commande `workshop`. Le mode B charge toutes les connaissances ; le mode C, celui d'aujourd'hui, ne charge rien et laisse le modèle chercher.
 - **Préprompt (instructions)** : le texte qui dit au chatbot qui il est et quelles règles suivre, lu avec chaque message. Ici, le fichier `AGENTS.md`, écrit à l'atelier 1.
 - **Contexte** : tout ce que le modèle a sous les yeux pour répondre : instructions, question, fichiers ouverts. Sa taille est limitée (la « fenêtre »).
-- **Jeton** : l'unité dans laquelle on compte la taille du contexte, un morceau de mot.
+- **Jeton** : l'unité dans laquelle on compte la taille du contexte, un morceau de mot. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
 - **Jauge** : l'indicateur affiché sous la conversation, qui montre combien de jetons remplissent le contexte.
 - **RAG** : une méthode vue à l'atelier 2, où un moteur de recherche choisit des extraits de documents et les donne au modèle.
 - **Recherche agentique** : le modèle décide lui-même quoi chercher et quoi ouvrir, étape par étape (lister un dossier, chercher un mot, lire un fichier).

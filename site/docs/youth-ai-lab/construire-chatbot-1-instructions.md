@@ -123,7 +123,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 - **Modèle** : le programme d'IA qui produit les réponses (ici Claude Sonnet, le même pour tous les binômes). Il a lu beaucoup de textes pendant son entraînement, il y a longtemps.
 - **Contexte** : tout ce que le modèle lit avant de répondre : les instructions de l'outil, le préprompt, la conversation en cours, et éventuellement des documents.
 - **Fenêtre de contexte** : la quantité maximale de texte que le modèle peut lire en une fois. Ici, 200 000 jetons.
-- **Jeton** (_token_) : l'unité qui sert à mesurer le texte pour un modèle, un morceau de mot, en moyenne 4 caractères de texte anglais.
+- **Jeton** (_token_) : l'unité qui sert à mesurer le texte pour un modèle, un morceau de mot, en moyenne 4 caractères de texte anglais. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
 - **Jauge** : la ligne affichée au-dessus de la zone de saisie de Claude Code, qui indique combien de jetons sont dans le contexte à cet instant (par exemple `0 / 200k` avant le premier message).
 - **Préprompt** (_system prompt_, instructions) : un texte que le modèle lit au début de chaque conversation, avant le premier message : qui est le chatbot, à quoi il sert, quelles règles il suit. Ici, c'est le fichier `AGENTS.md`.
 - **Mode** : la façon dont la commande `workshop` lance le chatbot, qui décide de ce qui entre dans son contexte. En mode `bare`, le modèle seul ; en mode `A`, le modèle et son préprompt.
@@ -459,7 +459,7 @@ Le dossier `examples/` contient cinq préprompts pour le même modèle :
 
 Trois d'entre eux font des erreurs volontaires. Chacune de leurs réponses commence par cette étiquette : `⚠️ Demo bot: this answer contains deliberate errors.` (robot de démonstration : cette réponse contient des erreurs volontaires). Le travail du binôme : trouver quelles erreurs, et comment elles sont faites.
 
-**À retenir** : le modèle, ses connaissances et les questions sont les mêmes pour les cinq chatbots. **Seul un texte change.** Les grandes différences observées (une étiquette, un refus, une erreur qui revient à chaque fois) viennent donc de ce texte. De petites différences de formulation peuvent aussi venir du hasard : le même chatbot n'écrit jamais deux fois exactement la même réponse.
+**À retenir** : le modèle, ses connaissances et les questions sont les mêmes pour les cinq chatbots. **Seul un texte change.** Les grandes différences observées (une étiquette, un refus, une erreur qui revient à chaque fois) viennent donc de ce texte. De petites différences de formulation peuvent aussi venir du hasard : le même chatbot n'écrit jamais deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-temperature)).
 
 :::caution[Ne pas ouvrir son fichier avant d'avoir noté]
 

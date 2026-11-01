@@ -133,7 +133,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 - **Modèle** : le programme d'IA qui lit un texte et écrit une réponse. Ici, le même modèle pour tous les binômes.
 - **Contexte** : tout ce que le modèle lit avant de répondre. La **fenêtre de contexte** est sa taille maximale : ici, 200 000 jetons.
-- **Jeton** (_token_) : un morceau de mot. C'est l'unité dans laquelle on compte la taille du contexte et le prix d'une question.
+- **Jeton** (_token_) : un morceau de mot. C'est l'unité dans laquelle on compte la taille du contexte et le prix d'une question. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
 - **Préprompt, ou instructions** : le texte qui dit au chatbot qui il est et comment répondre. Dans l'atelier, c'est le fichier `AGENTS.md`.
 - **Jauge** : la ligne au-dessus de la zone de saisie de Claude Code, par exemple `0 / 200k`, qui montre à quel point le contexte est rempli.
 - **Mode `B`** : le préprompt, plus tous les résumés et toutes les copies lisibles des documents, lus à chaque message.
@@ -690,7 +690,7 @@ Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comm
 
    Les parties tombent juste. Hors UE, cela fait 1 092 095 + 70 562 = 1 162 657 hectares : le même chiffre que la soustraction, par un second chemin que les 5 morceaux de 1000 ne donnaient pas. Le résumé 90 dit 2,2 millions au-delà de l'UE, presque deux fois plus. Or 2 242 195, UE comprise, s'arrondit à 2,2 millions : les deux ne concordent que si les 2,2 millions incluent l'UE. Cette somme ne dit pas quelle source a raison : la réponse avec des morceaux de 2000 dit aussi _"I can't confirm this from the excerpts alone"_ (je ne peux pas le confirmer à partir des seuls extraits).
 
-   **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse.
+   **Seuls les morceaux ont changé.** Open WebUI présente Wildfire RAG 1000 et 2000 comme deux « modèles », mais derrière, le modèle et les instructions sont les mêmes. Avec des morceaux de 1000, il n'avait que les totaux. Avec des morceaux de 2000, un morceau contenait aussi les chiffres détaillés. Vos propres réponses ne seront pas identiques mot pour mot : le même chatbot n'écrit pas deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-temperature)).
 
 5. Si vous le souhaitez, donner 10 extraits à la discussion :
 

@@ -185,7 +185,7 @@ Cette partie n'est pas une étape : on peut construire son chatbot sans elle. El
 
 :::info[D'où viennent les chiffres]
 
-Tous les chiffres viennent d'un seul modèle sur un seul ordinateur : `qwen2.5:7b`, avec Ollama 0.40.8, sur un portable avec une carte graphique NVIDIA RTX PRO 500 Blackwell de 6 Go, mesurés le 1er novembre 2026. Un autre modèle découpe les mots autrement et donne d'autres chiffres. Sur les schémas, les textes envoyés au modèle et ses jetons restent en anglais : ce sont eux qui ont été mesurés. Le texte des schémas larges est petit sur un téléphone : ouvrir l'image dans un nouvel onglet, puis zoomer.
+Sauf le calcul à la main du Transformer, dont les nombres sont inventés, tous les chiffres viennent d'un seul modèle sur un seul ordinateur : `qwen2.5:7b`, avec Ollama 0.40.8, sur un portable avec une carte graphique NVIDIA RTX PRO 500 Blackwell de 6 Go, mesurés le 1er novembre 2026. Un autre modèle découpe les mots autrement et donne d'autres chiffres. Sur les schémas, les textes envoyés au modèle et ses jetons restent en anglais : ce sont eux qui ont été mesurés. Le texte des schémas larges est petit sur un téléphone : ouvrir l'image dans un nouvel onglet, puis zoomer.
 
 Schémas : © 2026 Youth AI Lab partners, licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr), repris du guide en anglais avec des libellés traduits en français.
 
@@ -226,7 +226,7 @@ Les jetons comptent à trois endroits. Tout ce que le modèle lit et écrit doit
 Le texte passe par trois étapes.
 
 1. **Chaque jeton devient une liste de nombres**, car un ordinateur ne calcule qu'avec des nombres. Cette liste s'appelle un _embedding_ : 3 584 nombres par jeton ici. Pensez à une place sur une carte : les jetons de sens proche ont tendance à être proches. L'atelier 2 de la série utilise la même idée pour chercher dans des documents.
-2. **Les couches changent ces nombres.** Ce modèle a 28 couches. Dans chacune, chaque jeton regarde les jetons avant lui, certains plus que d'autres, et change ses propres nombres. C'est l'**attention**. Après « put », le jeton « out » veut dire « éteindre », pas « dehors » : ce sens vient des jetons d'avant. Un jeton ne peut pas utiliser ceux qui le suivent, car le modèle a été entraîné à prédire la suite. Le schéma ci-dessous est une illustration, pas une mesure.
+2. **Les couches changent ces nombres.** Ce modèle a 28 couches. Dans chacune, chaque jeton regarde les jetons avant lui, certains plus que d'autres, et change ses propres nombres. C'est l'**attention**. Après « put », le jeton « out » veut dire « éteindre », pas « dehors » : ce sens vient des jetons d'avant. Un jeton ne peut pas utiliser ceux qui le suivent, car le modèle a été entraîné à prédire la suite. Le schéma ci-dessous est une illustration, pas une mesure. [Le principe d'un Transformer](#le-principe-dun-transformer) refait ce regard en arrière à la main.
 
    ![Les jetons de « How do I put out a campfire? » avec « out » en évidence : des flèches courbes reviennent vers les quatre jetons précédents de la question, et une flèche en pointillés vers un jeton suivant est barrée ; une illustration, pas une mesure.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-attention.svg)
 
@@ -243,6 +243,57 @@ Pensez à un panneau de 7,6 milliards de boutons, réglés à l'usine puis laiss
 ![Un panneau de boutons fixes, les 7,6 milliards de paramètres, le même pour tous les textes. Deux textes le traversent : les 3 584 nombres de chaque jeton partent de la table des paramètres et changent pour chaque texte ; ils donnent les probabilités et ne sont pas gardés dans le modèle.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-parameters-vs-numbers.svg)
 
 Quand le modèle répond, ses paramètres ne changent pas : il n'apprend rien des conversations. La mémoire d'un chatbot est du texte renvoyé : à chaque nouvelle question, les messages précédents repartent vers le modèle. Si l'interrupteur **Memory** d'un chatbot est activé, Open WebUI garde aussi des notes sur chaque participant·e et les renvoie dans les conversations suivantes. Ces notes sont du texte, elles aussi. Open WebUI stocke les conversations sur l'ordinateur.
+
+### Le principe d'un Transformer
+
+Les trois étapes ci-dessus ont un nom : un **Transformer**. L'idée vient d'un article de 2017, [Attention Is All You Need](https://arxiv.org/abs/1706.03762), qui décrit un modèle construit autour de l'attention, d'abord conçu pour traduire des textes. Les modèles de langue gardent la partie qui écrit, celle qui ne regarde qu'en arrière. Qwen2.5 est un Transformer, comme les autres modèles de ce guide, et le T de GPT, dans ChatGPT, désigne la même chose.
+
+Le principe tient en une phrase : pour trouver son sens, chaque jeton interroge les jetons qui le précèdent et prend surtout à ceux qui répondent le mieux. Les modèles plus anciens lisaient un texte mot après mot en transportant un résumé, si bien que le début d'un long texte pouvait s'effacer. Un Transformer permet à un jeton de regarder directement n'importe quel jeton précédent, proche ou lointain. Tous les jetons d'un texte peuvent aussi être calculés en même temps, ce qui convient à une carte graphique.
+
+Dans chaque couche, chaque jeton fabrique trois listes de nombres à partir de ses propres nombres, avec les paramètres de cette couche :
+
+- sa **question** : ce qu'il cherche ;
+- son **étiquette** : ce qu'il montre, pour être comparée aux questions des autres jetons ;
+- son **contenu** : ce qu'il donne aux jetons qui le choisissent.
+
+Ces noms ne sont qu'une image : personne n'a choisi ce que contiennent ces listes, c'est l'entraînement qui l'a trouvé. Les termes habituels sont _query_, _key_ et _value_.
+
+Voici le calcul à la main, avec des nombres inventés : deux nombres par liste et trois jetons seulement. Le jeton « out » regarde « I », « put » et lui-même, car un jeton fait partie de ceux qu'il regarde. Sa question est (2 ; 1).
+
+![L'attention à la main, avec des nombres inventés. Le jeton « out » a la question (2 ; 1). Comparée aux étiquettes (0 ; 1) de « I », (1 ; 2) de « put » et (0,5 ; 1) de « out », elle donne les scores 1, 4 et 2. Ils deviennent les parts 4,2 %, 84,4 % et 11,4 %. Les contenus (0 ; 10), (10 ; 0) et (5 ; 5), mélangés selon ces parts, donnent (9 ; 1), qui s'ajoute aux nombres du jeton : (1 ; 3) devient (10 ; 4).](/img/ressources/youth-ai-lab/guide-ia-locale/llm-attention-steps.svg)
+
+1. **Comparer.** Multiplier la question par chaque étiquette, nombre par nombre, puis additionner. Pour « put » : 2 × 1 + 1 × 2 = 4. Un score élevé veut dire que l'étiquette correspond à la question. L'[atelier 2](/ressources/youth-ai-lab/construire-chatbot-2-rag) compare ses listes avec le même genre de somme.
+2. **Transformer les scores en parts.** C'est le calcul qui donne les probabilités du jeton suivant. À la calculatrice, 2,718 à la puissance de chaque score donne 2,7 ; 54,6 et 7,4, soit 64,7 au total. Diviser chaque nombre par 64,7 donne 4,2 %, 84,4 % et 11,4 %.
+3. **Mélanger les contenus selon ces parts.** Premier nombre : 0,042 × 0 + 0,844 × 10 + 0,114 × 5, environ 9. Second nombre : 0,042 × 10 + 0,844 × 0 + 0,114 × 5, environ 1.
+
+Le mélange (9 ; 1) s'ajoute aux nombres de « out » : (1 ; 3) devient (10 ; 4). L'essentiel de ce qu'il a reçu vient de « put ». Avec de vrais nombres, c'est ainsi que « out » finit par vouloir dire « éteindre ».
+
+Le reste du modèle s'organise autour de ce calcul :
+
+- **Les têtes.** Les trois étapes tournent 28 fois côte à côte dans chaque couche, chacune avec sa propre question, et les 28 résultats sont réunis. Dans ce modèle, les 28 têtes partagent 4 jeux d'étiquettes et de contenus, ce qui économise de la mémoire. Personne n'a choisi ce que cherche chaque tête.
+- **Les couches.** Après le second calcul, les nombres passent à la couche suivante. Un jeton y regarde des nombres qui contiennent déjà ce que la couche d'avant a rassemblé : ce que « put » a donné à « out » peut donc atteindre un jeton plus loin.
+- **L'ordre.** Le calcul ci-dessus ne dépend pas de la place d'un jeton dans le texte : si on mélange les jetons, les scores restent les mêmes. Le modèle utilise donc aussi la position de chaque jeton.
+- **Pas de regard en avant.** Les jetons suivants ne reçoivent aucune part.
+- **Ce que garde Ollama.** Pour les jetons précédents, il garde les étiquettes et les contenus de chaque couche. Un nouveau jeton n'a plus qu'à poser sa question.
+
+<details>
+<summary>La formule, pour qui la veut</summary>
+
+L'[article](https://arxiv.org/abs/1706.03762) divise chaque score par la racine carrée de $d$, le nombre de nombres d'une étiquette, pour que les longues listes ne donnent pas des scores énormes. Notre calcul à la main laisse cette étape de côté pour rester court. Avec $q$ la question d'un jeton, $k_j$ l'étiquette du jeton $j$, $v_j$ son contenu, $s_j$ son score et $a_j$ sa part :
+
+$$
+s_j = \frac{q \cdot k_j}{\sqrt{d}}
+\qquad
+a_j = \frac{e^{s_j}}{\sum_i e^{s_i}}
+\qquad
+\text{mélange} = \sum_j a_j v_j
+$$
+
+La part $a_j$ est le calcul qui donne les probabilités du jeton suivant, à [température](#la-temperature) 1.
+
+</details>
+
+**À refaire à la main.** Reprendre les trois étapes avec la question (1 ; 2) à la place de (2 ; 1), en gardant une décimale. On doit trouver les scores 2, 5 et 2,5, les parts 4,4 %, 88,3 % et 7,3 %, et le mélange (9,2 ; 0,8).
 
 ### Une question, du début à la fin
 

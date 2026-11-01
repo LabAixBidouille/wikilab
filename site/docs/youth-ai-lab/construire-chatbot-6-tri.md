@@ -164,7 +164,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 - **Score de l'entraînement** : le nombre que l'entraînement fait baisser, calculé de la même façon à chaque tour. On parle de **fonction de perte** (_loss function_) en apprentissage automatique, et parfois de **fonction de fitness** (_fitness function_) dans d'autres domaines. Ici, plus il est bas, mieux c'est, et 0 serait parfait. Le score d'un test (28 sur 32) marche dans l'autre sens : plus il est haut, mieux c'est.
 - **Gradient** : pour chaque nombre du modèle, la pente du score, qui dit dans quel sens le score descend et à quelle vitesse. Quand chaque nombre qui a une pente fait un très petit pas vers le bas, on parle de **descente de gradient**.
 - **Surapprentissage** (_overfitting_) : un modèle qui continue de progresser sur ses exemples, mais devient moins bon sur de nouveaux messages.
-- **Jeton** (_token_) : un morceau de mot. Les grands modèles se paient au nombre de jetons lus et écrits.
+- **Jeton** (_token_) : un morceau de mot. Les grands modèles se paient au nombre de jetons lus et écrits. Voir [ce qu'est vraiment un jeton](/ressources/youth-ai-lab/guide-ia-locale#ce-quest-vraiment-un-jeton).
 - **Codespace** : un ordinateur prêté par GitHub, ouvert dans le navigateur avec l'éditeur VS Code. Rien à installer.
 
 ## Objectifs d'apprentissage
