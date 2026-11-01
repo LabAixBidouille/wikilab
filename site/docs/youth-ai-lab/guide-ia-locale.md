@@ -179,6 +179,105 @@ Les participant·es se connectent depuis leur téléphone, sur le même Wi-Fi, �
 
 ---
 
+## Comment marche un modèle de langue
+
+Cette partie n'est pas une étape : on peut construire son chatbot sans elle. Elle sert à comprendre ce que fait le chatbot, ou à l'expliquer à un groupe. La page complète, en anglais, va plus loin : [How a language model works](https://github.com/Youth-AI-Lab/yal-local-ai-guide/blob/main/how-an-llm-works.md).
+
+:::info[D'où viennent les chiffres]
+
+Tous les chiffres viennent d'un seul modèle sur un seul ordinateur : `qwen2.5:7b`, avec Ollama 0.40.8, sur un portable avec une carte graphique NVIDIA RTX PRO 500 Blackwell de 6 Go, mesurés le 1er novembre 2026. Un autre modèle découpe les mots autrement et donne d'autres chiffres. Sur les schémas, les textes envoyés au modèle et ses jetons restent en anglais : ce sont eux qui ont été mesurés. Le texte des schémas larges est petit sur un téléphone : ouvrir l'image dans un nouvel onglet, puis zoomer.
+
+Schémas : © 2026 Youth AI Lab partners, licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr), repris du guide en anglais avec des libellés traduits en français.
+
+:::
+
+### Toute la chaîne
+
+![Toute la chaîne de haut en bas : la question « How do I put out a campfire? » et le texte caché autour d'elle sont découpés en 38 jetons, 9 pour la question et 29 cachés ; chaque jeton devient 3 584 nombres ; 28 couches les changent ; la dernière étape donne des probabilités pour 152 064 jetons ; le tirage en choisit un, ici le jeton en tête « To » ; une flèche l'ajoute au texte et recommence pour chaque jeton de la réponse, et seul le nouveau jeton passe ; dans le modèle, 7,6 milliards de paramètres fixes alimentent les nombres, les couches et la dernière étape.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-overview.svg)
+
+Lire le schéma de haut en bas. Ollama, le programme qui fait tourner le modèle, découpe le texte en **jetons**, de petits morceaux de texte. Un chatbot ajoute du texte qu'on ne voit pas : le modèle lit ici 38 jetons pour une question de 9 jetons. Chaque jeton devient une liste de nombres. Les couches du modèle changent ces nombres, et la dernière étape donne une probabilité à chaque jeton que le modèle connaît. Ollama en choisit un au hasard, comme un ticket de loterie (c'est le **tirage**), et l'ajoute au texte.
+
+La chaîne repart ensuite pour le jeton suivant, une fois par jeton de la réponse. Ollama garde ce qu'il a calculé pour les jetons précédents : seul le nouveau jeton traverse les couches.
+
+Les **paramètres** sont les nombres fixes d'un fichier sur le disque. Ils font ce travail et restent les mêmes du début à la fin. Ce fichier est le modèle lui-même : Ollama s'en sert, et Open WebUI envoie le texte à Ollama.
+
+### Il prédit le jeton suivant
+
+Un modèle de langue fait une seule chose : il prédit le jeton suivant. Ollama ajoute ce jeton au texte, et le modèle prédit de nouveau. Une réponse entière est cette étape répétée. Voici une vraie étape, après les mots « To put out a campfire, pour » (pour éteindre un feu de camp, verser) :
+
+![Barres de probabilité après « To put out a campfire, pour » : water 82,2 %, a 3,1 %, un espace 2,4 %, soil 2,4 %, sand 1,6 %, cold 1,3 %, tous les autres 7,0 %, à côté des mêmes parts en 100 tickets de loterie.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-next-token.svg)
+
+Le modèle donne une probabilité à chacun des 152 064 jetons qu'il connaît, et les jetons probables ont plus de tickets. Les 100 tickets du schéma sont arrondis. Ce sont les probabilités brutes : un réglage, la température, change le tirage (plus bas).
+
+**Probable ne veut pas dire vrai.** Ce jeton a souvent suivi de tels mots dans les textes qui ont servi à construire le modèle. Le modèle n'a pas de base de données et ne cherche rien : il peut sembler sûr et se tromper, et la réponse ne montre pas la différence entre un jeton à 11,6 % et un jeton à 82,2 %. Quand le chatbot a des documents, Open WebUI y cherche des passages et les ajoute au texte. Le modèle, lui, prédit toujours le jeton suivant.
+
+### Ce qu'est vraiment un jeton
+
+Un jeton est un morceau de texte tiré de la liste fixe du modèle. Imaginez une boîte de 152 064 tuiles différentes, chacune utilisable autant de fois qu'il le faut : tout texte doit être composé avec elles. Voici de vraies découpes :
+
+![De vraies découpes de texte en tuiles de couleur : une phrase en anglais en 8 jetons, une phrase en français en 17, une ligne avec des nombres en 18 et le nom Feurisson en 3, avec une petite marque pour l'espace qui appartient à un jeton.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-tokens.svg)
+
+Les mots courts et courants font un jeton. Les mots rares et les noms se cassent en morceaux, comme Feurisson. Beaucoup de mots de tous les jours se cassent aussi dans les langues autres que l'anglais, comme « forêt ». Dans ce modèle, chaque chiffre est un jeton. On lit parfois qu'un jeton fait environ 4 caractères : c'est une estimation d'OpenAI pour l'anglais, pas une règle pour tout texte. Sur une même phrase, nous avons mesuré 5,0 caractères par jeton en anglais et 3,71 en français.
+
+Les jetons comptent à trois endroits. Tout ce que le modèle lit et écrit doit tenir dans un nombre fixe de jetons, la fenêtre de contexte. Le modèle écrit un jeton à la fois : ici 34,9 jetons par seconde sur un essai court, donc environ 9 secondes pour 300 jetons, après l'attente du premier mot. Et les entreprises qui vendent un modèle en ligne comptent les jetons pour fixer le prix : sur son propre ordinateur, il n'y a pas de coût par question.
+
+### Les parties du modèle
+
+Le texte passe par trois étapes.
+
+1. **Chaque jeton devient une liste de nombres**, car un ordinateur ne calcule qu'avec des nombres. Cette liste s'appelle un _embedding_ : 3 584 nombres par jeton ici. Pensez à une place sur une carte : les jetons de sens proche ont tendance à être proches. L'atelier 2 de la série utilise la même idée pour chercher dans des documents.
+2. **Les couches changent ces nombres.** Ce modèle a 28 couches. Dans chacune, chaque jeton regarde les jetons avant lui, certains plus que d'autres, et change ses propres nombres. C'est l'**attention**. Après « put », le jeton « out » veut dire « éteindre », pas « dehors » : ce sens vient des jetons d'avant. Un jeton ne peut pas utiliser ceux qui le suivent, car le modèle a été entraîné à prédire la suite. Le schéma ci-dessous est une illustration, pas une mesure.
+
+   ![Les jetons de « How do I put out a campfire? » avec « out » en évidence : des flèches courbes reviennent vers les quatre jetons précédents de la question, et une flèche en pointillés vers un jeton suivant est barrée ; une illustration, pas une mesure.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-attention.svg)
+
+   Les couches fonctionnent comme une chaîne de montage. Une couche a deux postes : regarder en arrière, puis un second calcul. Chaque couche regarde de 28 façons à la fois (28 têtes d'attention, un chiffre distinct des 28 couches). Les postes se ressemblent d'une couche à l'autre, mais chaque couche a ses propres paramètres.
+
+   ![Une couche ouverte comme une chaîne de montage : les nombres entrent, passent le poste « regarder les jetons précédents » (attention, 28 façons à la fois), puis « calcul propre », et repartent vers la couche suivante ; en dessous, 28 cases numérotées, chacune avec deux postes de même nature et ses propres paramètres.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-layer.svg)
+
+3. **La dernière étape donne les probabilités**, une pour chacun des 152 064 jetons. Elle n'utilise que les nombres du dernier jeton, qui a regardé tout ce qui le précède.
+
+Ce travail est fait par un immense ensemble de nombres fixes, les **paramètres** : ici 7 615 616 512, environ 7,6 milliards. Les nombres d'un jeton partent d'une table de ces paramètres, puis les couches les changent pour ce texte. Ces résultats restent en mémoire le temps du calcul et n'entrent jamais dans les paramètres.
+
+Pensez à un panneau de 7,6 milliards de boutons, réglés à l'usine puis laissés tels quels. La comparaison a deux limites : personne ne tourne ces boutons à la main, et aucun bouton ne veut rien dire à lui seul. Personne ne peut montrer le bouton du « feu » ou de l'honnêteté. L'**entraînement** trouve leurs positions : le modèle prédit des jetons sur une énorme quantité de texte, et chaque erreur change un peu les paramètres.
+
+![Un panneau de boutons fixes, les 7,6 milliards de paramètres, le même pour tous les textes. Deux textes le traversent : les 3 584 nombres de chaque jeton partent de la table des paramètres et changent pour chaque texte ; ils donnent les probabilités et ne sont pas gardés dans le modèle.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-parameters-vs-numbers.svg)
+
+Quand le modèle répond, ses paramètres ne changent pas : il n'apprend rien des conversations. La mémoire d'un chatbot est du texte renvoyé : à chaque nouvelle question, les messages précédents repartent vers le modèle. Si l'interrupteur **Memory** d'un chatbot est activé, Open WebUI garde aussi des notes sur chaque participant·e et les renvoie dans les conversations suivantes. Ces notes sont du texte, elles aussi. Open WebUI stocke les conversations sur l'ordinateur.
+
+### Une question, du début à la fin
+
+Voici la chaîne avec une vraie question, « How do I put out a campfire? » (comment éteindre un feu de camp ?), tirage coupé : le jeton en tête gagne à chaque étape. La question fait 9 jetons, et le modèle en a reçu 38 : le message système caché et les marques de rôle en ajoutent 29. Dans un chatbot, les instructions prennent la place de ce message système.
+
+![La réponse construite jeton par jeton : pour les 8 premières étapes, le jeton choisi et le deuxième avec leurs probabilités (To 64,0 % contre Putting 35,6 %, safely 64,5 % contre properly 25,4 %, et ainsi de suite) et le texte qui grandit jusqu'à « To safely put out a campfire, », à température 0.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-journey.svg)
+
+Les premières étapes avaient de vrais choix : avec un tirage, la réponse aurait pu commencer par « Putting » (35,6 %). Ensuite, le texte laisse peu de choix : « out » atteint 100 % après arrondi.
+
+### La fenêtre de contexte
+
+La **fenêtre** est le nombre de jetons que le modèle peut tenir pour une réponse : les instructions, les passages des documents, la conversation et la réponse elle-même. Le fichier de ce modèle permet jusqu'à 32 768 jetons. Le réglage par défaut d'Ollama est de 4096 sur notre ordinateur, et la partie 4 règle **num_ctx (Ollama)** sur 8192.
+
+Nous avons fabriqué un texte de 4 122 jetons, avec un mot de code au début (TULIP), un au milieu (OTTER) et un à la fin (MAPLE), puis demandé chacun dans un essai séparé :
+
+![Deux barres pour le même texte de 4 122 jetons, à l'échelle sauf les 4 premiers jetons, dessinés plus larges : avec une fenêtre de 8192, tout est gardé et TULIP, OTTER et MAPLE sont trouvés ; avec 2048, seuls les 4 premiers et les 1 022 derniers jetons restent, 1 026 en tout, 3 096 sont hachurés, et seul MAPLE est trouvé.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-window.svg)
+
+Regardez la seconde barre. Le texte ne tenait pas, et Ollama l'a coupé à 1 026 jetons, environ la moitié de la fenêtre, et non à 2 048. Il y avait 2 074 jetons de trop, et 3 096 sont partis. Aucune erreur n'est apparue et le modèle a quand même répondu : interrogé sur TULIP et OTTER, il a écrit des nombres faux. Nous avons utilisé 2048 seulement pour montrer la coupe. D'après le programme d'Ollama, une fenêtre de 8192 ferait de même avec un texte plus long et garderait 4 098 jetons. Cela n'a pas été testé.
+
+### La température
+
+La **température** décide à quel point le tirage suit les probabilités. Basse, le jeton en tête a presque tous les tickets. Haute, les jetons rares en reçoivent plus. La température 1 ne change rien, et la température 0 supprime le tirage. Nous avons tiré 50 fois le premier jeton après « The capital of France is » (la capitale de la France est), à chaque température, avec **Top K** à 100 et **Top P** à 1 :
+
+![Quatre panneaux de 50 points, un par tirage du premier jeton après « The capital of France is » : Paris est tiré 50, 50, 38 et 16 fois aux températures 0 ; 0,2 ; 0,8 et 1,5.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-temperature.svg)
+
+Les autres jetons tirés étaient des blancs ou des mots qui commencent une autre phrase, pas de mauvaises villes. Laisser ces réglages sur **Default** (température 0,8, **Top K** 40, **Top P** 0,9 avec Ollama) : les notes du guide ont été mesurées ainsi. La température ne rend pas un chatbot plus juste : elle change le tirage, ni ce que le modèle sait, ni ce que disent les documents. Nous n'avons pas mesuré quelle valeur donne les meilleures réponses sur des documents.
+
+:::info[Ce qu'on peut dire à un groupe]
+
+« Un chatbot écrit un petit morceau de texte à la fois. À chaque fois, il choisit un morceau suivant probable. Probable ne veut pas dire vrai : il peut donc sembler sûr et se tromper quand même. Le modèle seul n'a rien où chercher. Il lit seulement le texte envoyé avec votre question. Avec Ollama, s'il y a trop de texte, une partie est retirée, parfois bien plus que le surplus, et la réponse ne prévient pas. Notre modèle n'apprend pas de ce que vous tapez, mais votre conversation est stockée sur cet ordinateur et, si Memory est activé, Open WebUI garde des notes sur vous. Les chatbots en ligne peuvent être différents : certains gardent vos conversations pour entraîner de futurs modèles. Alors ne tapez jamais de choses privées. »
+
+:::
+
+---
+
 ## Sécurité et protection des données
 
 :::caution[Ce que le guide impose]
