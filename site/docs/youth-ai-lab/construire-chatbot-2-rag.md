@@ -439,7 +439,37 @@ Avant toute question :
 
 **Une carte des sens.** Imaginer une carte. Chaque texte y reçoit une place, et les textes qui parlent de la même chose sont proches. La liste de nombres est cette place, comme les coordonnées d'une ville. Une ville a besoin de deux nombres. Ici, chaque texte en reçoit **384** : un sens a bien plus de directions que le nord et l'est. La question 10 commence par `0.090, 0.084, 0.047, 0.003, 0.041, -0.064, -0.064, -0.046`, et 376 nombres suivent. Personne n'a écrit ces nombres, et aucun ne veut dire à lui seul « feu » ou « Europe ». Le petit modèle (son nom est `all-MiniLM-L6-v2`) a appris à placer les textes en s'entraînant sur un très grand nombre de phrases.
 
-**Un score de proximité.** La recherche compare deux listes de nombres et leur donne un score. Près de 1, les deux textes sont au même endroit. Autour de 0,5, le petit modèle ne voit aucun lien entre eux.
+**Un score de proximité.** Imaginez chaque texte comme une flèche, du centre de la carte jusqu'à sa place. Toutes les flèches ont la même longueur : seule leur direction compte. Deux textes sur le même sujet pointent presque dans la même direction. Ce qui compte, c'est l'**angle** entre les deux flèches.
+
+La recherche ne mesure pas cet angle avec un rapporteur. Elle multiplie les deux listes nombre par nombre, puis additionne les résultats. Cette somme s'appelle le **cosinus** de l'angle. La voici avec 2 nombres, pour pouvoir la dessiner sur papier (les nombres sont inventés pour l'exemple) :
+
+|         | Premier nombre | Second nombre | Somme    |
+| ------- | -------------- | ------------- | -------- |
+| A × B   | 0,48           | 0,48          | **0,96** |
+| Texte B | 0,8            | 0,6           |          |
+| A × B   | 0,48           | 0,48          | **0,96** |
+
+Avec 384 nombres, personne ne peut dessiner les flèches, mais la somme se calcule de la même façon, à partir des nombres $a_1$ à $a_{384}$ d'un texte et $b_1$ à $b_{384}$ de l'autre :
+
+$$
+\cos(\text{angle}) = a_1 b_1 + a_2 b_2 + \dots + a_{384} b_{384}
+$$
+
+Open WebUI transforme ensuite cette somme en un score entre 0 et 1 :
+
+$$
+\text{score} = \frac{1 + \cos(\text{angle})}{2}
+$$
+
+| Les deux flèches                           | Angle | Cosinus (la somme) | Score     |
+| ------------------------------------------ | ----- | ------------------ | --------- |
+| Même direction                             | 0°    | 1                  | **1**     |
+| Texte A et texte B                         | 16°   | 0,96               | **0,98**  |
+| _wildfire_ et _fire in the woods_ (mesuré) | 51°   | 0,625              | **0,813** |
+| Angle droit                                | 90°   | 0                  | **0,5**   |
+| Directions opposées                        | 180°  | -1                 | **0**     |
+
+Un score proche de 1 veut donc dire presque la même direction. Un score autour de 0,5 veut dire un angle droit : le petit modèle ne voit aucun lien entre les deux textes.
 
 **Prédire avant de regarder.** Voici des paires de textes. En binôme, les trier : quelles paires le petit modèle trouve-t-il proches ? Lesquelles trouve-t-il éloignées ? Ouvrir ensuite la réponse ci-dessous.
 
@@ -576,7 +606,7 @@ Les mots du jour : morceau (_chunk_), embedding, top-k.
 
 **Question 3.** Elle échoue à toutes les tailles. Les morceaux du document 43 viennent de sa première page et, dans la base de 1000, de l'article 5. Le document est en français, la question en anglais, et le modèle d'embeddings d'Open WebUI (`all-MiniLM-L6-v2`) a été fait pour l'anglais (sa fiche indique `language: en`). Testé le 31 octobre 2026 : en français, 4 des 5 extraits viennent du document 40, et les deux morceaux avec `INTERDITS` passent de 56e et 58e à 30e et 70e sur 322. La langue change le résultat et n'explique pas tout. Le rôle éventuel de la forme de ces morceaux, des listes de niveaux, **n'a pas été testé** : le dire.
 
-**Embeddings.** Les binômes trient des paires de textes par proximité, puis ouvrent les scores mesurés. Prévoir 5 minutes dans les 20 de la partie 4, et réduire la question 3 à un coup d'œil si la partie prend du retard. Le point à garder : _forbidden_ et _allowed_ obtiennent 0,964, la recherche trouve ce dont parle un texte, pas ce qui est vrai. Les chiffres et les scripts sont dans `facilitator/atelier-2-measures/2026-10-31-embeddings/`. Ce minutage n'a pas été essayé avec un groupe.
+**Embeddings.** Avant l'activité, dessiner deux flèches au tableau : la fiche et le deck expliquent le score par l'angle entre deux flèches, et par la somme des produits de deux listes. Open WebUI montre `(1 + cosinus) / 2`, d'où le « aucun lien » à 0,5 ici et à environ 0 dans l'atelier 6. Ne pas expliquer le pourcentage affiché quand on clique sur une source : ce n'est pas ce score, et sa formule n'a pas été recherchée. Les binômes trient des paires de textes par proximité, puis ouvrent les scores mesurés. Prévoir 5 minutes dans les 20 de la partie 4, et réduire la question 3 à un coup d'œil si la partie prend du retard. Le point à garder : _forbidden_ et _allowed_ obtiennent 0,964, la recherche trouve ce dont parle un texte, pas ce qui est vrai. Les chiffres et les scripts sont dans `facilitator/atelier-2-measures/2026-10-31-embeddings/`. Ce minutage n'a pas été essayé avec un groupe.
 
 :::
 
