@@ -816,7 +816,7 @@ La clé du binôme a été fournie par l'animateur·rice pour la série : elle p
 Votre chatbot est terminé. **La suite** : l'atelier 6, [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri). Vous y changez vous-même un modèle, et il ne demande rien d'aujourd'hui. Vous pouvez aussi revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions), ou essayer une autre façon de construire un chatbot avec les guides :
 
 - **Un chatbot pour un groupe** : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)
-- **Rien qui ne sorte de la machine de la structure** : [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale)
+- **Garder les questions du groupe sur un ordinateur de la structure** : [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale)
 - **Les mêmes pièces dans un dossier, avec d'autres modèles** : [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)
 - **Les dépôts de la série sur son propre ordinateur** (pas pour un groupe) : [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)
 - **Un assistant qui prépare vos séances**, pour vous et jamais avec des jeunes : [Préparer ses séances avec un assistant qui se souvient](/ressources/youth-ai-lab/guide-hermes)

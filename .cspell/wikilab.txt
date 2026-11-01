@@ -793,3 +793,9 @@ finetune
 safetensors
 charente
 rewordings
+ragazzo
+minaccia
+paura
+aiuto
+hulp
+ajuda
