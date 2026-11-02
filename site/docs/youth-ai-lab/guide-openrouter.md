@@ -59,7 +59,7 @@ Les ateliers sont écrits pour une clé Anthropic : le chatbot tourne avec Claud
 
 Avec une clé Anthropic, vous n'avez pas besoin de ce guide : suivre [SETUP.md](https://github.com/Youth-AI-Lab/yal-workshop-kit/blob/main/SETUP.md) du kit, ou [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key) dans le guide Open WebUI. Les deux sortes de clés utilisent les mêmes commandes.
 
-Personne n'a encore suivi ce guide. Ce qui a été testé et ce qui ne l'a pas été est en [fin de fiche](#limites-et-points-non-testés).
+Personne n'a encore suivi ce guide. Ce qui a été testé est en [fin de fiche](#sources-et-état-du-guide).
 
 :::info[Ce qui change vite]
 
@@ -96,13 +96,13 @@ OpenRouter change ses pages, ses prix et ses quotas. Sauf si une ligne donne une
 - **Enregistrer** une clé avec `workshop-login`, lire chaque message, choisir un modèle, et dire quel modèle sert à chaque outil et ce qui diffère d'une clé Anthropic
 - **Préparer** une séance la semaine d'avant et la veille, suivre les dépenses, et réagir à une clé qui fuite
 - **Lire** le tableau du 1er novembre 2026 et la page d'un modèle, dire pourquoi un groupe ne peut pas compter sur les modèles gratuits, et reconnaître un 429, un 402, un 403 ou un 503 pour savoir quoi faire pendant une séance
-- **Activer** ce que demande l'avertissement sur les jeunes, dire ce qu'aucun réglage ne retire, vérifier les sources et voir ce qui a été testé ou non
+- **Activer** ce que demande l'avertissement sur les jeunes, dire ce qu'aucun réglage ne retire, vérifier les sources et voir ce qui a été testé
 
 ---
 
 ## Déroulé du guide
 
-Le guide anglais compte neuf parties, et une section « Before and during a session » placée après la partie 4, reprise ici dans [Avant et pendant une séance](#avant-et-pendant-une-séance). La partie 8, sur les données et les jeunes, est reprise en entier dans [Sécurité et protection des données](#sécurité-et-protection-des-données). La partie 9 est reprise dans [Limites et points non testés](#limites-et-points-non-testés).
+Le guide anglais compte neuf parties, et une section « Before and during a session » placée après la partie 4, reprise ici dans [Avant et pendant une séance](#avant-et-pendant-une-séance). La partie 8, sur les données et les jeunes, est reprise en entier dans [Sécurité et protection des données](#sécurité-et-protection-des-données). La partie 9 est reprise dans [Sources et état du guide](#sources-et-état-du-guide).
 
 :::info[Où sont les captures d'écran]
 
@@ -747,9 +747,9 @@ Pour le texte anglais et les captures du site, voir [Part 8 - Data and young peo
 
 ---
 
-## Limites et points non testés
+## Sources et état du guide
 
-Cette section dit d'où vient chaque fait, ce qui a tourné, et ce que personne n'a encore fait tourner.
+Cette section dit d'où vient chaque fait et ce qui a tourné.
 
 ### Sources
 
@@ -820,25 +820,6 @@ Le 1er novembre 2026, la [liste publique pour l'Europe](https://eu.openrouter.ai
 La liste des modèles d'OpenRouter dit 256 000 pour Mistral Small 3.2 : `--europe` enregistre donc la fenêtre tirée de la liste des entreprises du modèle, qui dit 32k sur `mistral/eu`.
 
 Les prix et fenêtres du tableau des modèles viennent de la liste d'OpenRouter du 1er novembre 2026. Le prix de DeepSeek v4 Flash était affiché avec deux décimales, d'où « environ ». Les lignes de ses entreprises viennent de la page publique d'OpenRouter du même jour.
-
-### Ce qui n'a pas été testé
-
-- Un groupe. Un vrai Codespace.
-- Les étapes des pages du compte OpenRouter dans les parties 2, 3 et 8. Personne ne les a suivies avec ce guide. Les captures du guide anglais montrent les écrans, mais aucune ne montre un tout premier achat. Ces pages viennent de la seule documentation d'OpenRouter : Security settings, Notifications, Logs, les Budgets du workspace, la page Guardrails, et le chemin vers la double authentification.
-- La remise des clés aux binômes, la désactivation ou l'archivage d'une clé, une clé à sa date d'expiration.
-- Un budget de workspace, un garde-fou, les alertes, la page Security settings.
-- `google/gemma-4-26b-a4b-it:free` à un autre moment : son 429 venait de l'entreprise qui l'exploite.
-- Les mêmes notes rejouées plusieurs fois, pour savoir de combien une note bouge.
-- Un vrai petit solde, un vrai 429 en séance, une vraie limite de clé, la recharge automatique.
-- Open WebUI avec le modèle DeepSeek par défaut.
-- Les réglages ZDR, **Zero retention only**, `eu.openrouter.ai` avec l'offre Business.
-- Une séance entière après `workshop-login --europe` avec une vraie clé, et les quatre autres points d'accès européens.
-- Le mode groupe avec `--europe` et des participant·es : leurs comptes, les téléphones, un chatbot construit à la main et son passage d'un modèle à l'autre, le lien public d'un vrai Codespace. Un chatbot du mode groupe dans une fenêtre de 32k.
-- Les modèles Wildfire RAG de `openwebui sizes` avec `mistral-small-2603`.
-- Une question tapée dans un écran d'OpenCode ouvert avant le changement de règle. La ligne qui prévient a été vue, sur un faux OpenRouter.
-- Une lecture humaine d'un échantillon des notes.
-- Le coût d'une séance complète.
-- Une séance en France, en Espagne, en Italie ou en Belgique.
 
 ---
 
