@@ -59,7 +59,7 @@ Les ateliers sont écrits pour une clé Anthropic : le chatbot tourne avec Claud
 
 Avec une clé Anthropic, vous n'avez pas besoin de ce guide : suivre [SETUP.md](https://github.com/Youth-AI-Lab/yal-workshop-kit/blob/main/SETUP.md) du kit, ou [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key) dans le guide Open WebUI. Les deux sortes de clés utilisent les mêmes commandes.
 
-Personne n'a encore suivi ce guide. Ce qui a été testé est en [fin de fiche](#sources-et-état-du-guide).
+Personne n'a encore suivi ce guide.
 
 :::info[Ce qui change vite]
 
@@ -96,7 +96,7 @@ OpenRouter change ses pages, ses prix et ses quotas. Sauf si une ligne donne une
 - **Enregistrer** une clé avec `workshop-login`, lire chaque message, choisir un modèle, et dire quel modèle sert à chaque outil et ce qui diffère d'une clé Anthropic
 - **Préparer** une séance la semaine d'avant et la veille, suivre les dépenses, et réagir à une clé qui fuite
 - **Lire** le tableau du 1er novembre 2026 et la page d'un modèle, dire pourquoi un groupe ne peut pas compter sur les modèles gratuits, et reconnaître un 429, un 402, un 403 ou un 503 pour savoir quoi faire pendant une séance
-- **Activer** ce que demande l'avertissement sur les jeunes, dire ce qu'aucun réglage ne retire, vérifier les sources et voir ce qui a été testé
+- **Activer** ce que demande l'avertissement sur les jeunes, dire ce qu'aucun réglage ne retire, vérifier les sources et lire les notes sur les mesures
 
 ---
 
@@ -570,7 +570,7 @@ Si les mots parlent d'un guardrail ou d'une région de données, l'argent n'y es
 
 `replay` a une troisième ligne, pour des mots comme `moderation` ou `flagged` : `ERROR: the company that runs the model blocked this text (403: <details>). Change the question, or ask the facilitator.`
 
-Les deux colonnes ont été vues avec un faux OpenRouter le 2 novembre 2026 ([Ce qui a été testé](#ce-qui-a-été-testé)), avec des mots copiés de la documentation d'OpenRouter. Ce qu'écrit le vrai quand un garde-fou refuse une entreprise n'a pas été testé.
+Les deux colonnes ont été vues avec un faux OpenRouter le 2 novembre 2026, avec des mots copiés de la documentation d'OpenRouter. Ce qu'écrit le vrai quand un garde-fou refuse une entreprise n'a pas été testé.
 
 #### 503 : occupé, ou aucune entreprise
 
@@ -648,7 +648,7 @@ Lire la première ligne de ce tableau comme ce que vous avez, et la deuxième co
 
 | Ce que vous voulez | Compte ordinaire (Standard) | Offre Business |
 | --- | --- | --- |
-| Une entreprise européenne nommée dans chaque requête : `workshop-login --europe` | oui : OpenRouter l'a accepté ([Ce qui a été testé](#ce-qui-a-été-testé)) | inutile |
+| Une entreprise européenne nommée dans chaque requête : `workshop-login --europe` | oui : OpenRouter l'a accepté le 1er novembre 2026 | inutile |
 | Des requêtes envoyées à `eu.openrouter.ai`, traitées et servies seulement en Europe (UE et EEE, Royaume-Uni, Suisse), sans repli ailleurs | non : le tableau des offres le réserve aux offres Business et Enterprise | oui, mais les commandes du kit ne le prennent pas en charge |
 | Un modèle gratuit en Europe | aucun | aucun |
 
@@ -749,7 +749,7 @@ Pour le texte anglais et les captures du site, voir [Part 8 - Data and young peo
 
 ## Sources et état du guide
 
-Cette section dit d'où vient chaque fait et ce qui a tourné.
+Cette section dit d'où vient chaque fait, et donne les notes sur les mesures.
 
 ### Sources
 
@@ -758,29 +758,6 @@ Les sources ont été lues le 1er novembre 2026 : conditions, politique de confi
 ### Les captures
 
 Les captures des pages publiques d'OpenRouter datent du 1er novembre 2026, vues sans compte et sans connexion. Celles des pages du compte (crédits, clés, activité, confidentialité) ont été prises le 2 novembre 2026 sur un vrai compte, avec les données personnelles masquées. Les libellés de ces pages dans ce guide viennent d'elles. Les captures du terminal viennent des vraies commandes de l'image 2026.10.43, dans un conteneur sans réseau, avec une fausse clé et un faux OpenRouter. Les noms des modèles sont réels : le faux OpenRouter servait une copie de la liste publique de ce jour-là.
-
-### Ce qui a été testé
-
-En bref : les commandes ont tourné pour de vrai le 1er novembre 2026 avec OpenRouter, avec et sans `--europe`, dans un conteneur d'essai, mais jamais avec un groupe, jamais dans un vrai Codespace, et sans aucune séance complète. Le détail ci-dessous sert à vérifier.
-
-<details>
-<summary>Le détail</summary>
-
-Le 1er novembre 2026, avec OpenCode 2.1.4, dans un conteneur de l'image 2026.10.42 avec les nouvelles commandes placées devant, sur une copie du kit préparée par `workshop-start 5` :
-
-- les notes, les juges et le trieur de la [partie 6](#partie-6--les-modèles-au-1er-novembre-2026) ;
-- sur un compte avec des crédits, une clé collée sans option : `workshop-login`, la skill `summarize` avec `deepseek/deepseek-v4-flash`, `replay D`, `score D --auto`, `./sorter compare`, puis les deux modèles gratuits l'un après l'autre ;
-- Open WebUI v0.12.4 en mode kit, avec Mistral Small par OpenRouter : `openwebui start` 250 s, `openwebui sizes` 885 s (2 cœurs, trois autres mesures en même temps), `openwebui query` juste, `replay RAG` 11 réponses en 44 s, 0 ERROR, rien dans le journal d'erreurs ;
-- le plafond de 8 192 jetons, sur un faux OpenRouter et dans le passage avec des crédits, pas avec un vrai petit solde ;
-- Open WebUI en mode groupe, sur un faux OpenRouter, sans `--europe` : il démarre, il affiche l'avertissement, et la règle `data_collection: deny` atteint le faux OpenRouter ;
-- `workshop-login --europe`, sur un faux OpenRouter : le routage dans chaque requête de `workshop` et de `replay`, les fenêtres de 262k et 32k, le mode B lancé avec la première et refusé avec la seconde, et un changement de règle pendant un `replay` ;
-- sur un compte ordinaire sans offre Business, une toute petite requête à `openrouter.ai`, modèle Mistral Small, en nommant `mistral/eu` seul : HTTP 200, et OpenRouter a nommé Mistral comme entreprise. Une requête à `eu.openrouter.ai` a répondu 403 avec `error code: 1010`, ce qui ne dit pas pourquoi ;
-- un vrai passage par `workshop-login --europe` le 1er novembre 2026, avec un relais qui enregistre les requêtes : OpenCode en modes C et D (4 questions), `score`, `./sorter compare` et Open WebUI en mode kit (2 questions). 60 requêtes ont reçu une réponse, toutes les 60 portaient la règle, et OpenRouter a nommé Mistral comme entreprise sur les 60. Le trieur a eu 32 sur 32, sans urgence manquée. L'ensemble a coûté 0,0065 \$. DeepSeek v4 Flash, qui n'a pas d'entreprise de ce type, a été refusé. Le refus du mode B avant toute requête n'a été testé que sur un faux OpenRouter ;
-- un deuxième vrai passage le 1er novembre 2026, un seul passage sur 2 cœurs, avec `mistralai/mistral-small-2603` et `mistral/eu` seul : `replay B 3 7 10`, `replay C`, `replay D 1 8`, `score C --auto` et `./sorter compare`. 100 requêtes sur 100 ont reçu HTTP 200, portaient la règle et nommaient Mistral : 89 sur `mistral-small-2603`, et 11 appels du juge sur Mistral Small 3.2. Le passage a coûté 0,037 \$ ;
-- un troisième vrai passage le 1er novembre 2026, un seul passage sur 2 cœurs, `workshop-login --europe` sans autre option : `replay bare`, `replay A`, `replay E 1 3`, les 11 questions de `replay B` (26 s, 0,01 \$ affiché, environ 70 000 jetons chacune), `./sorter compare` (32 sur 32, aucune urgence manquée), Open WebUI en mode kit avec `replay RAG 1 7`, puis Open WebUI en mode groupe : `openwebui start` et `openwebui share open` sans l'avertissement, et une vraie question à chacun des deux modèles de base. 78 requêtes sur 78 ont reçu HTTP 200 et nommaient Mistral. Aucun ERROR dans les réponses. 0,03 \$ pour l'ensemble ;
-- le 2 novembre 2026, dans un conteneur de l'image 2026.10.43 sans réseau, avec un faux OpenRouter et une fausse clé : cinq messages 403 à travers `workshop-login`, `replay`, `score` et `./sorter compare`. Trois messages copiés de la documentation d'OpenRouter (une clé à sa limite, un budget de workspace, un garde-fou de région de données) ont donné la ligne de limite de dépense. Un quatrième (`Request blocked: prompt injection patterns detected`) et un message inventé sur une entreprise ont donné la ligne de refus. Le même passage a testé un modèle encore listé qui répond 404 (`no company can serve the model`), et un modèle sorti de la liste (`OpenRouter has no model`, `Nothing saved.`, aucune requête envoyée).
-
-</details>
 
 ### Notes sur les mesures
 
