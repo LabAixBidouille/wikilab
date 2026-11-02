@@ -103,7 +103,7 @@ Point de vigilance : ne jamais rouvrir le lien de création (il crée un nouveau
 
 **Rien dans cette section n'a été testé.** Elle suit la documentation de Hermes pour la version 0.22.5. Les questions et les coûts de ce guide ont été mesurés avec une clé Anthropic et Claude Sonnet 5.5 : ils ne disent rien d'un autre modèle. La règle reste la même : jamais avec des jeunes.
 
-Créer la clé comme dans la [façon 3 du guide OpenCode](https://github.com/Youth-AI-Lab/yal-opencode-guide#way-3---an-openrouter-key), avec une **Credit limit**. Puis, à la place de la commande ci-dessus :
+Créer la clé comme dans la [partie 3 du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#partie-3--une-clé-par-binôme), avec une **Credit limit**. Puis, à la place de la commande ci-dessus :
 
 1. Enregistrer la clé :
 

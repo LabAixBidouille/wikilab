@@ -89,7 +89,7 @@ Le pas à pas, menu par menu, est dans la section [Before you start: accounts an
 
 ### Ou une clé OpenRouter
 
-Vous pouvez utiliser à la place une clé d'[OpenRouter](https://openrouter.ai) : une seule clé pour des modèles de nombreuses entreprises. Elle se crée comme dans la [façon 3 du guide OpenCode](https://github.com/Youth-AI-Lab/yal-opencode-guide#way-3---an-openrouter-key). Réglez une **Credit limit** sur la clé : c'est votre plafond de dépense. La clé commence par `sk-or-`. Elle se colle au même moment que l'autre, dans la partie 1 : `workshop-login` reconnaît de qui vient la clé, et finit par :
+Vous pouvez utiliser à la place une clé d'[OpenRouter](https://openrouter.ai) : une seule clé pour des modèles de nombreuses entreprises. Elle se crée comme dans la [partie 3 du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#partie-3--une-clé-par-binôme). Réglez une **Credit limit** sur la clé : c'est votre plafond de dépense. La clé commence par `sk-or-`. Elle se colle au même moment que l'autre, dans la partie 1 : `workshop-login` reconnaît de qui vient la clé, et finit par :
 
 ```
 Warning: with young people, turn on zero-data-retention models hosted in Europe: workshop-login --europe
