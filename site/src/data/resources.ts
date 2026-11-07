@@ -3769,7 +3769,7 @@ export const resources: Resource[] = [
     slug: '/ressources/youth-ai-lab/construire-chatbot-1-instructions',
     project: 'youth-ai-lab',
     summary:
-      "Premier atelier de la série « Construire son propre chatbot » : les animateur·rices, en binômes, testent un modèle seul avec un jeu de 12 questions notées de 0 à 2, démasquent cinq personnalités construites sur le même modèle, puis écrivent le préprompt de leur propre chatbot et mesurent ce qu'il change (le comportement, pas les connaissances).",
+      "Premier atelier de la série « Construire son propre chatbot » : les animateur·rices, en binômes, testent un modèle seul avec un jeu de 11 questions notées de 0 à 2, démasquent cinq personnalités construites sur le même modèle, puis écrivent le préprompt de leur propre chatbot et mesurent ce qu'il change (le comportement, pas les connaissances).",
     disciplines: ['informatique'],
     tools: ['ia-generative'],
     software: [],
