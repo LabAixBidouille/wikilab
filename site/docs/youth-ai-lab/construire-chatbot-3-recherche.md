@@ -20,7 +20,7 @@ sidebar_position: 16
 
 | Projet       | Durée                                    | Difficulté    | Âge                      |
 | ------------ | ---------------------------------------- | ------------- | ------------------------ |
-| Youth AI Lab | 2 h (110 min de déroulé, 10 min de marge) | Intermédiaire | Adultes (animateur·rices) |
+| Youth AI Lab | 2 h (115 min de déroulé, 5 min de marge) | Intermédiaire | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -98,7 +98,7 @@ La série avance une pièce du chatbot à la fois :
 | 1. Accueil                                   | 20 min |        | Ouvrir le Codespace, reprendre son travail, lancer Open WebUI en arrière-plan            |
 | 2. Le laisser chercher                       | 20 min | ★★     | Regarder le modèle chercher pour deux questions et lire chacune de ses étapes            |
 | 3. Faire entrer un document, et s'en porter garant | 35 min | ★★★    | Ajouter deux documents, vérifier un résumé phrase par phrase, le signer             |
-| 4. Écrire sa propre skill                    | 25 min | ★★★    | Lire une vraie skill, en écrire une, tester quand elle se déclenche                      |
+| 4. Écrire sa propre skill                    | 30 min | ★★★    | Lire une vraie skill, utiliser `source-note`, en écrire une, tester quand elle se déclenche |
 | 5. Clôture                                   | 10 min |        | Rejouer et noter la colonne C, voir son chatbot dans Open WebUI, sauvegarder              |
 
 ### Avant de commencer
@@ -124,11 +124,11 @@ Tous ces fichiers sont dans votre Codespace, dans la liste des fichiers à gauch
 :::info[Notes pour l'animateur·rice]
 
 - **Préparation (environ 1 h).** Une clé d'API Anthropic par binôme, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes** (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en 2 h d'atelier). Le plafond porte sur l'espace de travail, pas sur chaque clé : un binôme peut donc consommer la part d'un autre. Gardez la console Anthropic ouverte pendant l'atelier. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent ; comptez 3 \$ × binômes × ateliers du mois, ou relevez-le avant chaque atelier. Chaque organisation partenaire paie ses propres séances. Le coût par binôme mesuré pour cet atelier est d'environ 0,55 \$ (rejeu, questions 3 et 7, résumé et juge), le reste est à compléter.
-- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter (coût par binôme : à compléter). Avec des jeunes, tapez `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,03 \$ pour les commandes du terminal de cet atelier, et environ 0,12 \$ pour les ateliers 1 à 5, mesuré une fois le 5 novembre 2026 dans un conteneur de l'image 2026.11.4, ni dans un Codespace ni avec un groupe ; `replay RAG` et les chatbots Open WebUI ne sont pas comptés, et un binôme qui pose plus de questions dépense plus. Les ateliers sont pour les adultes : aucun jeune ne tape dans le Codespace ni ne détient de clé. Les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirez noms et détails personnels, et tapez d'abord `workshop-login --europe` ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
 - **Votre propre essai (25 min).** Faites tout le parcours dans un Codespace neuf, y compris le refus d'un « I checked summary 80 » général puis la signature, et `openwebui chatbot` : ce chatbot vous servira de repli à la clôture.
 - **Quelques jours avant**, demandez à chaque binôme l'adresse de la page officielle de sa question 12, et essayez-la avec `corpus-add` : certaines pages sont refusées ou presque vides.
 - **Imprimez** la fiche d'une page (une par binôme, à traduire si votre salle a besoin d'une autre langue) et les cartes de sortie (une par personne).
-- **Version de l'image.** N'animez cet atelier qu'avec l'image 2026.10.34 du Codespace ou une plus récente : sans elle, la skill de la partie 4 ne se déclenche pas en conversation. La voie OpenRouter décrite ici et `--europe` arrivent avec l'image 2026.10.43, celle qu'épingle le dépôt.
+- **Version de l'image.** N'animez cet atelier qu'avec l'image 2026.10.34 du Codespace ou une plus récente : sans elle, la skill de la partie 4 ne se déclenche pas en conversation. La voie OpenRouter décrite ici et `--europe` arrivent avec l'image 2026.10.43, et les skills qui suivent le chatbot dans Open WebUI (partie 5) avec l'image 2026.11.4. Le dépôt épingle l'image 2026.11.8.
 - **Ne citez jamais une réponse attendue dans les pages du dépôt.** À partir du mode C, le modèle peut lire tous les fichiers du dépôt, y compris son `README.md`. Gardez cette règle si vous adaptez les pages.
 
 :::
@@ -191,7 +191,7 @@ OpenCode est le second moteur possible, à la place de Claude Code. Les commande
 
 :::note[Si votre clé commence par sk-or- (OpenRouter)]
 
-Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score` et Open WebUI passent aussi par OpenRouter. Non testés : `openwebui chatbot`, et les skills ou Open WebUI avec le modèle par défaut, DeepSeek V4 Flash. Ne comparez que vos propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Les chiffres du chatbot dans cette page (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle.
+Coller la clé dans `workshop-login`, sans option, et lire la section _With an OpenRouter key_ du fichier `SETUP.md` du dépôt. `openwebui chatbot` et une skill dans Open WebUI avec le modèle par défaut, DeepSeek V4 Flash, ont été essayés une fois le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : la skill a cherché dans les documents et donné un verdict avec ses citations, mais en français, à une rumeur posée en anglais. Dans le terminal, un essai le 5 novembre 2026 : `summarize` a écrit un brouillon sans sa table de vérification, et `validate-summary` et `source-note` n'ont rien écrit : vérifiez que les fichiers sont bien là.
 
 Les étapes de cette page décrivent l'écran de Claude Code. **Ctrl+O** et la jauge sont les siens : OpenCode montre ce que le chatbot a fait au-dessus de chaque réponse, et son panneau latéral a un compteur **context**, avec le coût (`Ctrl+X` puis `B` affiche ou masque ce panneau). Ses commandes `/` ne sont pas les mêmes : `/mcps`, et non `/mcp`. Voir aussi [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
 
@@ -199,7 +199,7 @@ Les étapes de cette page décrivent l'écran de Claude Code. **Ctrl+O** et la j
 
 :::caution[Avec des jeunes et une clé OpenRouter]
 
-Taper `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) avant toute séance avec des jeunes.
+Avant que quoi que ce soit d'écrit par des jeunes passe par OpenRouter, lire la section _Young people and OpenRouter_ du fichier `SETUP.md` du dépôt, ainsi que la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données).
 
 :::
 
@@ -302,6 +302,7 @@ Modèle  →  Réponse
 1. Ouvrir `test-questions.md`, copier la question 3 et la coller dans la conversation avec `Ctrl+Shift+V` (`Cmd+V` sur Mac). Elle porte sur l'accès aux massifs forestiers dans les Bouches-du-Rhône. Sa réponse **n'est pas dans les résumés** : seulement dans le texte complet d'un arrêté, une décision juridique de la préfecture. À l'atelier 2, dans notre test, le RAG l'a manquée : l'article qui répond n'était jamais dans ses morceaux. Le modèle peut-il l'atteindre en cherchant ?
 2. Au-dessus de la réponse, une ligne grise résume les étapes, par exemple `Searched for 1 pattern, read 2 files`. Appuyer sur **Ctrl+O** (aussi sur Mac) pour voir chaque étape : quel mot il a cherché, quels fichiers il a ouverts. L'écran affiche alors `Showing detailed transcript · ctrl+o to toggle` : **Ctrl+O** à nouveau ramène à la conversation. Les captures du dépôt montrent les deux vues sur une autre question.
 3. Regarder la jauge. Lors de notre essai du 30 octobre 2026, le modèle a cherché avec `grep` dans `summaries/` et `corpus/`, a lu le résumé des Bouches-du-Rhône puis l'arrêté complet dans `corpus/text/`, sans demander aucune permission, et la jauge affichait environ **23 000 jetons** (un jeton est un morceau de mot). La jauge est une somme : ce qui est toujours là, plus ce que le modèle a ouvert. Un simple « Hello » en mode C remplit déjà environ 8 000 jetons : les instructions, les outils, la liste des skills. Ici, les recherches, le résumé et l'arrêté ont donc ajouté environ 15 000 jetons (23 000 - 8 000). En mode B, elle en affichait environ 100 000 (mesure prise après la question 10) : tout le kit est dans la fenêtre, quelle que soit la question. Vos étapes peuvent être différentes : le modèle décide à chaque fois.
+4. **Vérifier la réponse vous-mêmes.** Qu'un fichier ait été ouvert par le modèle ne prouve pas qu'il l'a bien lu. Ouvrir le fichier qu'il a lu dans `corpus/text/` (dans notre essai, celui de l'arrêté d'accès aux massifs des Bouches-du-Rhône, dont le nom commence par `43-`), appuyer sur **Ctrl+F** et chercher `5 h` : la ligne du niveau `Sévère` donne les horaires. La réponse donne-t-elle les mêmes niveaux et les mêmes horaires que la source, et que la réponse attendue de `test-questions.md` ? Sinon, elle obtient 1 ou 0, même avec une source.
 
 ### Étape 3 : Question 7, une réponse qui n'existe nulle part
 
@@ -315,7 +316,7 @@ Appuyer deux fois sur **Ctrl+C**. À partir du mode C, `/exit` fonctionne aussi,
 
 :::note[Point de contrôle]
 
-Vous savez nommer les fichiers que le modèle a ouverts pour la question 3, et dire ce que ses recherches ont trouvé pour la question 7.
+Vous savez nommer les fichiers que le modèle a ouverts pour la question 3, vous avez trouvé dans sa source la phrase qui y répond, et vous savez dire ce que ses recherches ont trouvé pour la question 7.
 
 :::
 
@@ -323,7 +324,7 @@ Vous savez nommer les fichiers que le modèle a ouverts pour la question 3, et d
 
 En mode B, personne ne choisissait. Dans le RAG, un moteur de recherche choisissait. **Qui choisit en mode C, et comment pouvez-vous le vérifier ?**
 
-**Vous avez construit** un chatbot qui va chercher ce dont il a besoin, et qui montre chaque étape. **Réemployé dans** votre propre dossier de chatbot : partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+**Vous avez construit** un chatbot qui va chercher ce dont il a besoin, et qui montre chaque étape. **Réemployé dans** votre chatbot dans Open WebUI, à la fin de cet atelier : il cherche lui-même dans ses documents, sur la même idée ([partie 5, étape 2](#étape-2--votre-chatbot-dans-open-webui)). Une autre voie, sans Claude Code : partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::info[Notes pour l'animateur·rice]
 
@@ -355,7 +356,7 @@ Faites appuyer toute la salle sur **Ctrl+O** et nommer les fichiers ouverts. Pui
 
 **Pourquoi un résumé, si le modèle peut lire le document complet.** Un document peut être long, et il reste dans sa langue. Les résumés sont courts et en anglais : le modèle commence donc par eux, et ouvre un document complet pour les détails ou quand les résumés ne suffisent pas. Un résumé peut alors être tout ce qu'il lit pour une question.
 
-Chaque résumé commence par un **en-tête** : quelques lignes entre deux `---` qui disent d'où il vient et qui s'en porte garant. Ouvrir `summaries/30-charente-maritime-vigilance-levels.md` pour en voir un : sa dernière ligne `verified` porte le nom d'une personne. `status: draft` signifie qu'aucune personne n'a vérifié le résumé. `verified: ... human:<name>` signifie qu'une personne l'a fait, et `status: stable` suit. Le modèle lit aussi cet en-tête : `workshop C` lui dit que `status: draft` veut dire pas encore vérifié par une personne. Aujourd'hui, 3 des 17 résumés du kit portent le nom d'une personne : chercher `(human-reviewed)` à la fin des lignes de `summaries/index.md`.
+Chaque résumé commence par un **en-tête** : quelques lignes entre deux `---` qui disent d'où il vient et qui s'en porte garant. Ouvrir `summaries/30-charente-maritime-vigilance-levels.md` pour en voir un : sa dernière ligne `verified` porte le nom d'une personne. `status: draft` signifie qu'aucune personne n'a vérifié le résumé. `verified: ... human:<name>` signifie qu'une personne l'a fait, et `status: stable` suit. Le modèle lit aussi cet en-tête : `workshop C` lui dit que `status: draft` veut dire pas encore vérifié par une personne. Aujourd'hui, 8 des 17 résumés du kit portent un nom : celui d'une personne, ou celui de l'organisation partenaire qui a vérifié les résumés de son territoire pendant l'atelier du 22 octobre 2026. Chercher `(human-reviewed)` à la fin des lignes de `summaries/index.md`.
 
 **À retenir** : un résumé faux donne une réponse fausse, avec assurance. **La curation**, c'est qu'une personne décide de ce qui entre dans les connaissances, et signe ce que le chatbot en dira.
 
@@ -371,7 +372,7 @@ Claude Code vous demande votre accord avant d'écrire ou de modifier un fichier.
  Esc to cancel · Tab to amend
 ```
 
-**Ne choisissez jamais 2** : vous ne verriez plus ce qu'il écrit. Chercher et lire ne demandent pas votre permission.
+**Ne choisissez jamais 2** : vous ne verriez plus ce qu'il écrit. Chercher et lire ne demandent pas votre permission. **N'approuvez jamais une commande qui mentionne `sudo` ou `workshop-key`** : choisissez **3. No**. Une telle commande pourrait lire votre clé.
 
 :::
 
@@ -501,7 +502,7 @@ Réponse attendue à la question de réflexion : une personne est responsable de
 
 ---
 
-## Partie 4 : Écrire sa propre skill (25 min)
+## Partie 4 : Écrire sa propre skill (30 min)
 
 **Objectif** : comprendre ce qu'est une skill, en écrire une pour une tâche de votre choix, et tester qu'elle se déclenche quand il le faut, et seulement à ce moment-là.
 
@@ -530,13 +531,38 @@ Pensez à votre classeur de fiches d'activité. Le sommaire est posé sur la tab
 2. Lire l'en-tête entre les deux lignes `---` : le `name` et la `description`. Votre demande de la partie 3, `summarize corpus/81-...`, y correspondrait-elle ? `Validate summary 81...` a ouvert `validate-summary` de la même façon : ses mots correspondent à la description de cette skill.
 3. Lire les étapes et les règles. Trouver l'étape qui dit quel fichier lit le modèle, l'étape qui crée la table de vérification, et la règle sur `verified`. Vous avez vu les trois à l'œuvre dans la partie 3 : le modèle les a suivies parce que ce texte le lui disait.
 
-### Étape 2 : Écrire une skill
+### Étape 2 : Utiliser une skill qui demande sa source
+
+Les connaissances ne viennent pas seulement des documents. Un pompier venu faire une présentation, la mairie, votre propre travail avec les jeunes : des personnes savent des choses, elles aussi. La troisième skill du kit, `source-note`, écrit un résumé à partir de **ce que vous lui dites**, et le traite comme un document : elle demande la source, et le résumé reste un brouillon tant qu'une personne ne l'a pas vérifié.
+
+1. Ouvrir `.claude/skills/source-note/SKILL.md`, puis appuyer sur `Ctrl+Shift+V`. Lire la description : quels mots d'une demande ouvriraient cette skill ? Lire les étapes et la partie `What you don't do`.
+2. Dans le terminal, dans `workshop C` (taper `workshop C` s'il ne tourne pas), lui donner quelque chose que votre binôme sait sur la prévention des feux sur votre territoire, et qui n'est pas dans les documents. Un fait, jamais quelque chose sur une personne :
+
+   ```text
+   Add this to the summaries: <what you know, in one or two sentences>
+   ```
+
+   **Ce que vous devez voir :** la ligne `Skill(source-note)`, puis une question sur la source. La donner si vous en avez une : l'organisation, la page ou la présentation, et la date. Si vous n'en avez pas, répondre `We have no source.` Elle écrit quand même le résumé, avec `TO BE COMPLETED` à la place de la source et `status: draft`, et ajoute une ligne `(draft, not verified)` à `summaries/index.md`. Lire ce qu'elle veut écrire avant d'accepter.
+
+3. Lui donner maintenant une rumeur, pour voir ce qu'elle fait quand un résumé pourrait dire autre chose :
+
+   ```text
+   Add this to the summaries: in France, clearing the brush around your house is only a piece of advice.
+   ```
+
+   **Ce que vous devez voir :** si un résumé dit déjà autre chose, elle ne l'écrit pas tout de suite. Elle nomme ce résumé et vous demande quoi faire. Répondre `Do not write it.` Vous retrouverez cette rumeur à l'étape 4, et la confronterez aux documents.
+
+Un résumé avec `TO BE COMPLETED` ne doit pas rester ainsi : trouvez sa source avant l'atelier suivant, ou supprimez-le, avec sa ligne dans `summaries/index.md`. D'ici là, votre chatbot peut utiliser un fait que personne n'a vérifié.
+
+**À retenir** : les règles tiennent parce qu'elles sont écrites dans la skill : ne jamais inventer de source, ne jamais modifier un résumé sans votre accord, dire quand deux sources ne sont pas d'accord. La décision reste la vôtre. Mais la skill n'est que du texte : appuyer sur **Ctrl+O** pour vérifier qu'elle a vraiment demandé.
+
+### Étape 3 : Écrire une skill
 
 Choisir une de ces idées, ou une des vôtres :
 
 | Skill               | Ce qu'elle fait                                                                                                               | Dans WikiYouthBot              |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| `rumour-check`      | prend une phrase entendue quelque part et répond TRUE, FALSE ou NOT IN OUR DOCUMENTS, avec la source                          | J'ai entendu une rumeur        |
+| `rumour-check`      | prend une phrase entendue quelque part et répond TRUE, PARTLY TRUE, FALSE ou NOT IN OUR DOCUMENTS, avec la source             | J'ai entendu une rumeur        |
 | `quiz-maker`        | écrit 5 questions à choix multiple pour les 12-15 ans à partir d'un résumé, chacune avec sa réponse et sa source               | Le bingo des ODD               |
 | `explain-for-kids`  | réécrit un résumé pour un ou une jeune de 12 ans : phrases courtes, sans jargon, mêmes chiffres et même source                  | Le studio du chatbot           |
 | `translate-summary` | traduit un résumé, garde les chiffres, et marque le résultat comme brouillon à vérifier                                        | La boîte à données             |
@@ -556,8 +582,9 @@ description: Checks a rumour about wildfires against the documents. Use when the
 
 1. Write the rumour as one short sentence.
 2. Search summaries/ first, then corpus/text/ if needed.
-3. Answer with one of three words: TRUE, FALSE, or NOT IN OUR DOCUMENTS.
-4. Give the sentence of the document that proves it, and the name of the document.
+3. Answer with one of four verdicts: TRUE, PARTLY TRUE, FALSE, or NOT IN OUR DOCUMENTS.
+4. Give the sentence of the document that proves it, and the name of the document. For PARTLY
+   TRUE, say which part is true and which part is not, each with its sentence.
 
 ## What you don't do
 
@@ -565,19 +592,23 @@ description: Checks a rumour about wildfires against the documents. Use when the
 - Say TRUE or FALSE when the documents disagree: say so, and give both.
 ```
 
-Cette skill reformule la rumeur, cherche d'abord dans les résumés puis dans les copies lisibles, répond par l'un des trois mots, et cite la phrase du document qui le prouve. Elle ne répond jamais de mémoire, et ne tranche pas quand les documents se contredisent.
+Cette skill reformule la rumeur, cherche d'abord dans les résumés puis dans les copies lisibles, répond par l'un des quatre verdicts, et cite la phrase du document qui le prouve. Pour PARTLY TRUE (en partie vrai), elle dit quelle partie est vraie et laquelle ne l'est pas, chacune avec sa phrase. Elle ne répond jamais de mémoire, et ne tranche pas quand les documents se contredisent.
+
+Pourquoi PARTLY TRUE ? Une rumeur contient souvent une part de vérité : c'est pour cela qu'on y croit. Et le modèle a pu lire la même rumeur pendant son entraînement : sa propre idée peut donc être biaisée, elle aussi. La skill lui fait d'abord chercher dans les documents, et garder la partie qu'un document prouve.
 
 Pour votre propre skill, garder les mêmes quatre parties : un **nom**, une **description** qui dit quand s'en servir, les **étapes**, et ce que le modèle ne doit **jamais** faire.
 
-### Étape 3 : Tester quand elle se déclenche
+### Étape 4 : Tester quand elle se déclenche
 
 1. **Quitter et relancer `workshop C`**, pour que le modèle voie à coup sûr votre nouvelle skill.
-2. Faire une demande qui devrait utiliser votre skill. Pour `rumour-check` : `I heard that in France, clearing the brush around your house is only a piece of advice.` Vous devez voir la ligne `Skill(rumour-check)`, puis une recherche. La réponse est-elle TRUE, FALSE ou NOT IN OUR DOCUMENTS, avec une source ?
+2. Faire une demande qui devrait utiliser votre skill. Pour `rumour-check` : `I heard that in France, clearing the brush around your house is only a piece of advice.` Vous devez voir la ligne `Skill(rumour-check)`, puis une recherche. Le verdict est-il l'un des quatre, avec une source ? C'est vous qui décidez si la source le dit vraiment : ouvrez le document.
 3. Faire une demande qui ne devrait **pas** l'utiliser : `Hello, who are you?`
 4. Voir maintenant que la description est le déclencheur. La modifier, enregistrer, quitter (deux fois **Ctrl+C**), relancer `workshop C`, et tester à nouveau les deux demandes. Si la skill se déclenche déjà quand il le faut, essayer une description qui en dit moins : retirer la phrase qui commence par `Use when`, et voir ce qui change. Garder la version qui se déclenche quand il le faut, et seulement à ce moment-là. Une skill qui s'ouvre sur `Hello` ajoute son texte au contexte pour rien, et elle peut imposer sa forme à une réponse qui n'en a pas besoin.
 5. Quitter avec deux fois **Ctrl+C** : la partie 5 commence dans le terminal.
 
-Dans un vrai Codespace, le 30 octobre 2026, cette rumeur a utilisé `rumour-check` deux fois sur deux (`● Skill(rumour-check)`, puis une recherche dans les documents), et `Hello, who are you?` n'a utilisé aucune skill. Chaque essai remplissait environ 11 000 à 12 000 jetons de la fenêtre.
+Dans un vrai Codespace, le 30 octobre 2026, cette rumeur a utilisé `rumour-check` deux fois sur deux (`● Skill(rumour-check)`, puis une recherche dans les documents), et `Hello, who are you?` n'a utilisé aucune skill. Chaque essai remplissait environ 11 000 à 12 000 jetons de la fenêtre. Cet essai utilisait une version antérieure de l'exemple, avec trois verdicts et la même description.
+
+**À retenir** : la recherche et les skills travaillent ensemble. La recherche trouve les faits et montre où ils sont ; la skill dit quoi en faire, de la même façon à chaque fois. Ensemble, elles font une tâche que vous répéteriez sinon à la main, et elles vous donnent les sources pour décider.
 
 :::note[Point de contrôle]
 
@@ -589,7 +620,7 @@ Votre `SKILL.md` existe, il se déclenche sur une demande, et pas sur `Hello, wh
 
 **Qu'est-ce qui va dans le préprompt, et qu'est-ce qui va dans une skill ?** (Indice : que doit faire le chatbot pour chaque réponse, et que doit-il faire seulement pour un type de demande ?)
 
-**Vous avez construit** une skill. **Réemployé dans** les skills d'un chatbot OpenCode (voir [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)), et dans tout agent construit sur la même idée.
+**Vous avez construit** une skill. **Réemployé dans** votre chatbot dans Open WebUI, qui la reçoit avec ses instructions ([partie 5, étape 2](#étape-2--votre-chatbot-dans-open-webui)), et dans tout agent construit sur la même idée. Avec un groupe : le fichier que produit `chatbot-export` à l'atelier 5 emporte votre skill, et `openwebui import` l'attache au chatbot de la séance (partie 6 de [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), importer un chatbot). Une autre voie, sans Claude Code : les skills d'un chatbot OpenCode (voir [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)).
 
 :::info[Notes pour l'animateur·rice]
 
@@ -628,7 +659,7 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    ```
 
 4. **Comparer la colonne C** avec les colonnes B et RAG dans `scores.md`, pour les questions 3, 11 et 12, et avec votre prédiction. Aujourd'hui, seules certaines questions sont notées : **la ligne Total ne veut donc rien dire ici**, lisez les lignes. Sans sauvegarde, il n'y a pas de colonnes B et RAG : comparer avec un binôme voisin.
-5. **Comment lire les lignes.** Les questions 11 et 12 montrent ce que vous avez fait entrer : leurs documents sont arrivés aujourd'hui, donc une hausse vient de votre curation. La question 3 montre la recherche. En mode B, l'arrêté complet était déjà dans le contexte : la colonne B peut donc déjà être juste, et le gain est dans la jauge, environ 23 000 jetons contre environ 100 000. Face au RAG, la note peut monter : dans nos tests, les questions 3 et 11 ont chacune obtenu 1 avec le RAG et 2 en mode C.
+5. **Comment lire les lignes.** Les questions 11 et 12 montrent ce que vous avez fait entrer : leurs documents sont arrivés aujourd'hui, donc une hausse vient de votre curation. La question 3 montre la recherche. En mode B, l'arrêté complet était déjà dans le contexte : la colonne B peut donc déjà être juste, et le gain est dans la jauge, environ 23 000 jetons contre environ 100 000. Face au RAG, la note peut monter : dans nos tests, la question 3 a obtenu 1 avec le RAG et 2 en mode C. La question 11 est montée aussi, mais son document n'était pas dans le RAG : cette hausse vient de votre curation, pas de la recherche. Le RAG coûte moins cher : environ 2 500 jetons par question en moyenne à l'atelier 2, parce qu'il n'envoie que 5 extraits.
 
 :::info[Lignes 11 et 12 vides dans les colonnes B ou RAG ?]
 
@@ -644,8 +675,16 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
    openwebui chatbot --name "Feurisson"
    ```
 
+   C'est terminé quand vous voyez `Ready.` Juste avant, une ligne nomme votre skill : `Your skills came along: rumour-check.` (avec le nom de la vôtre).
+
 2. Ouvrir l'adresse, choisir votre chatbot, et poser votre question 12. Votre chatbot a maintenant vos documents, et il y cherche lui-même. Quand il cherche, une ligne apparaît au-dessus de la réponse : elle commence par `Explored` après plusieurs recherches, et par `View Result from` après une seule. Cliquer dessus pour voir ses recherches, comme avec **Ctrl+O** en mode C.
-3. Votre skill n'a pas suivi : ce chatbot reçoit votre préprompt et vos fichiers de connaissances. La skill reste dans ce dépôt, et l'étape 3 la sauvegarde dans `my-work.zip`.
+3. Faire une demande qui a déclenché votre skill à la partie 4, par exemple avec `rumour-check` : `I heard that in France, clearing the brush around your house is only a piece of advice.` Votre skill a suivi, mais elle ne fonctionne pas comme dans Claude Code. Open WebUI envoie son texte entier avec **chaque** message, même `Hello` : sa description ne décide plus du moment où elle est lue, et aucune ligne n'apparaît pour elle au-dessus de la réponse. Chaque message coûte un peu plus : environ 200 jetons pour l'exemple `rumour-check`, selon notre estimation. Le chatbot ne peut pas la modifier. Les trois skills du kit (`summarize`, `validate-summary`, `source-note`) restent dans ce dépôt : elles écrivent des fichiers, et un chatbot dans Open WebUI ne le peut pas.
+
+:::info[Si la réponse reste vide]
+
+Le modèle a pris votre skill pour un outil qu'il pouvait appeler. Nous l'avons vu avec un petit modèle sur notre propre ordinateur (`qwen3:8b`), 3 fois sur 3. Avec Claude, en un essai, le chatbot a cherché dans les documents et donné son verdict.
+
+:::
 
 ### Étape 3 : Sauvegarder son travail, remplir la carte de sortie
 
@@ -660,7 +699,8 @@ Un binôme sans idée prend `rumour-check`. Si un binôme ne voit pas apparaîtr
 :::info[Notes pour l'animateur·rice]
 
 - **Open WebUI n'est pas prêt à la clôture** : sauter `openwebui chatbot` et montrer votre propre chatbot sur grand écran, construit lors de votre essai.
-- **Un binôme utilise OpenCode** : on lui demande son accord avant chaque commande et chaque fichier écrit, ce sont les mêmes étapes avec davantage de réponses à donner. Une clé OpenRouter suit les mêmes étapes, juge et Open WebUI compris. Avec cette clé, `openwebui chatbot` : non testé. Les skills avec le modèle par défaut : non testé.
+- **Un binôme utilise OpenCode** : on lui demande son accord avant chaque commande et chaque fichier écrit, ce sont les mêmes étapes avec davantage de réponses à donner. Une clé OpenRouter suit les mêmes étapes, juge et Open WebUI compris. Avec cette clé, `openwebui chatbot` et une skill dans Open WebUI ont été essayés une fois, sur un ordinateur portable, le 5 novembre 2026 (voir la partie 1). Les skills du terminal avec le modèle par défaut, en conversation : le 2 novembre 2026, `summarize` a écrit le résumé et sa table de vérification ; le 5 novembre 2026, il a écrit le résumé sans sa table, et `validate-summary` et `source-note` n'ont rien écrit (un essai chacun). Vérifiez que les fichiers sont bien là.
+- **Une bulle de réponse vide dans Open WebUI**, sur la demande qui déclenche la skill du binôme : dites ce que c'est, un modèle qui a pris la skill pour un outil, pas un chatbot cassé.
 - **Un binôme a restauré une ancienne sauvegarde** (la date `saved on` n'est pas la fin de l'atelier 2) : `workshop-start 3 --from` avec le zip le plus récent, son nom exact entre guillemets.
 - **Après l'atelier** : notez les durées réelles, surtout celle de la partie 3, et les coûts. Rappelez à chaque binôme de garder `my-work.zip` pour l'atelier 4.
 - **Réemploi avec des jeunes** : la partie 3, c'est la boîte à données de WikiYouthBot. Un groupe apporte des documents locaux, et un adulte vérifie ce que le chatbot en dira avant qu'ils n'entrent. Pour construire un chatbot aux documents vérifiés pour un groupe : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
