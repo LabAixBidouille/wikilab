@@ -64,7 +64,7 @@ Un outil, enfin, ne rapporte que ce que contiennent ses données. L'outil de dan
 
 Pendant toute la séance, on continue de tester le chatbot avec les mêmes questions : aujourd'hui, la colonne **D**, avec les questions 8, 11 et 12.
 
-**Le lien avec WikiYouthBot.** La partie 2 donne au chatbot ce que les jeunes demandent souvent en premier : « Peut-on aller en forêt aujourd'hui ? ». Seule une source officielle peut y répondre, le jour même. La partie 4 donne la question à se poser avant toute activité avec un chatbot qui utilise des outils : qu'envoie-t-il à l'extérieur, et qui le lit ? Les mêmes outils peuvent se brancher sur un chatbot OpenCode : voir le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode), partie 6.
+**Le lien avec WikiYouthBot.** La partie 2 donne au chatbot ce que les jeunes demandent souvent en premier : « Peut-on aller en forêt aujourd'hui ? ». Seule une source officielle peut y répondre, le jour même. La partie 4 donne la question à se poser avant toute activité avec un chatbot qui utilise des outils : qu'envoie-t-il à l'extérieur, et qui le lit ? La partie 5 met le même outil dans votre chatbot dans Open WebUI, en lecture seule, avec des sources publiques seulement ([partie 5](#partie-5--clôture-15-min), étape 2). Une autre voie, pour les adultes, sans Claude Code : le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode), partie 6.
 
 La série avance une pièce du chatbot à la fois :
 
@@ -130,7 +130,8 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 Prévoir environ 1 heure de préparation :
 
 - **Une clé d'API Anthropic par binôme**, toutes dans **un seul workspace pour la salle**, plafonné à **3 dollars × le nombre de binômes**. Le plafond porte sur le workspace et non sur chaque clé : un binôme peut donc consommer la part d'un autre. Garder la console Anthropic ouverte pendant l'atelier. Coût mesuré par binôme pour ce que demande la page : environ 0,45 dollar. Chaque organisation partenaire paie ses propres séances (son compte, son workspace, ses clés). Non vérifié : si le plafond de la console est mensuel, les ateliers du même mois le partagent. Il faut alors compter 3 dollars × binômes × ateliers du mois, ou le relever avant chaque atelier. Coût indicatif par binôme pour toute la série : à compléter à la répétition. Pour créer une clé et fixer un plafond : guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
-- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter ; coût par binôme : à compléter. Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide).
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,01 dollar pour les commandes du terminal de cet atelier, et environ 0,12 dollar pour les ateliers 1 à 5, mesuré une fois le 2026-11-05 dans un conteneur de l'image `2026.11.4`, ni dans un Codespace ni avec un groupe ; `replay RAG` et les chatbots Open WebUI ne sont pas comptés, et un binôme qui pose plus de questions dépense plus. Les ateliers sont pour les adultes : aucun jeune ne tape dans le Codespace ni ne détient de clé, et les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirer noms et détails personnels, et taper d'abord `workshop-login --europe` (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide).
+- **Version de l'image.** L'outil dans Open WebUI (partie 5) arrive avec l'image `2026.11.4` ; le dépôt épingle l'image `2026.11.8`, à partir de laquelle le mode groupe du guide Open WebUI a aussi l'outil.
 - **Lire les sources officielles du jour**, le matin même : la page de chaque territoire, donnée dans le champ `source` de son entrée dans `mcp/fire-danger.json`. Noter pour chacune s'il y a un niveau aujourd'hui, une phrase qui annonce la fin de la saison, ou rien. Rappeler à la fin de l'atelier 3 aux binômes d'un autre territoire d'apporter l'adresse de leur page officielle.
 - **Faire l'atelier soi-même** dans un Codespace neuf (environ 20 min), de `workshop-start 4` jusqu'à `replay D 8`.
 - **Préparer la page piégée** de la partie 4 : https://youth-ai-lab.github.io/yal-workshop/4/trap-page.html à enregistrer sur son ordinateur. Jamais dans le Codespace d'un binôme, jamais avant un `replay`.
@@ -142,7 +143,7 @@ En mode D, le modèle peut lire tous les fichiers du dépôt, y compris sa page 
 
 ## Partie 1 : Accueil (20 min)
 
-**Objectif** : ouvrir le Codespace de cet atelier et récupérer le travail des ateliers précédents.
+**Objectif** : ouvrir le Codespace de cet atelier, récupérer le travail des ateliers précédents, et lancer Open WebUI pour la clôture.
 
 :::caution[Étape 1 : Ouvrir son Codespace et enregistrer sa clé]
 
@@ -162,7 +163,7 @@ Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à 
 
 :::note[Si votre clé commence par sk-or- (OpenRouter)]
 
-OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` passe aussi par OpenRouter. La conversation va par OpenRouter jusqu'à une entreprise qui fait tourner le modèle choisi, qui n'est pas forcément Anthropic.
+Coller la clé dans `workshop-login`, sans option, et lire la section _With an OpenRouter key_ du fichier `SETUP.md` du dépôt : la conversation va par OpenRouter jusqu'à une entreprise qui fait tourner le modèle, qui n'est pas forcément Anthropic. En résumé : OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` passe aussi par OpenRouter.
 
 À l'enregistrement, le message de réussite devient :
 
@@ -182,7 +183,7 @@ Ne comparer que ses propres colonnes : `score` écrit le modèle sous le tableau
 
 :::caution[Avec des jeunes et une clé OpenRouter]
 
-Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande un forfait Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
+Avant que quoi que ce soit d'écrit par des jeunes passe par OpenRouter, lire la section _Young people and OpenRouter_ du fichier `SETUP.md` du dépôt, ainsi que la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter.
 
 :::
 
@@ -222,15 +223,35 @@ Dans ce Codespace, Claude Code demande à nouveau si l'on fait confiance au doss
 
 :::
 
+:::caution[Étape 3 : Lancer Open WebUI en arrière-plan]
+
+À la clôture, vous verrez votre chatbot dans Open WebUI, avec le même outil qu'en mode D. Son premier démarrage prend quelques minutes : le lancer maintenant.
+
+1. Dans le second terminal, taper :
+
+   ```bash
+   openwebui start
+   ```
+
+2. Ne pas l'attendre : passer à la partie 2 dans le premier terminal. Le démarrage se termine par `Open WebUI is ready, ...`. En chemin, vers le début, une ligne dit `Live tool ready: fire-danger (fire_danger, territories), read-only.`
+
+:::
+
+:::caution[Attention]
+
+**Ne jamais rendre le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). C'est la porte numérotée par laquelle on accède à Open WebUI. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
+
+:::
+
 :::note[Point de contrôle]
 
-`Key OK`, puis `Ready for workshop 4`.
+`Key OK`, `Ready for workshop 4`, et `openwebui start` en cours dans le second terminal.
 
 :::
 
 :::info[Notes pour l'animateur·rice]
 
-Le binôme doit restaurer le fichier le plus récent (peut-être `my-work (1).zip`, avec son nom exact entre guillemets) et vérifier la date `saved on`. Si un binôme a restauré une ancienne sauvegarde, relancer `workshop-start 4 --from` avec le fichier le plus récent. À la fin de la partie, toute la salle doit voir `Ready for workshop 4`.
+Le binôme doit restaurer le fichier le plus récent (peut-être `my-work (1).zip`, avec son nom exact entre guillemets) et vérifier la date `saved on`. Si un binôme a restauré une ancienne sauvegarde, relancer `workshop-start 4 --from` avec le fichier le plus récent. À la fin de la partie, toute la salle doit voir `Ready for workshop 4`, avec `openwebui start` en cours dans le second terminal (quelques minutes : les binômes continuent sans attendre).
 
 :::
 
@@ -353,7 +374,7 @@ Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décid
 
 **Objectif** : utiliser deux serveurs écrits par d'autres, lire comment ils sont branchés, et voir ce que chacun envoie à l'extérieur et ce qu'il coûte dans le contexte.
 
-De nombreux serveurs existent déjà, pour un agenda, une base de données, un site web. En utiliser un évite du travail, mais on fait alors tourner, dans son Codespace, un programme écrit par quelqu'un d'autre.
+De nombreux serveurs existent déjà, pour un agenda, une base de données, un site web, une carte, le catalogue d'une bibliothèque. Le projet MCP tient une liste d'exemples et de liens vers d'autres serveurs ([modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)), et des milliers d'autres sont recensés ailleurs. C'est tout un monde à explorer. En utiliser un évite du travail, mais on fait alors tourner, dans son Codespace, un programme écrit par quelqu'un d'autre.
 
 ### Ce que vous allez découvrir
 
@@ -457,6 +478,8 @@ Pour chacun des trois serveurs, on sait dire ce qu'il lit et ce qui sort du Code
 
 Le modèle a choisi le lieu et les coordonnées, et le serveur météo les a envoyés à Open-Meteo. **Qu'est-ce qu'un serveur pourrait envoyer d'autre, si on l'interrogeait sur l'adresse d'un·e jeune ?**
 
+**Les outils peuvent aussi se combiner.** Chacun, seul, peut sembler sans danger : un agenda dit quand, une carte dit où, un service météo dit quel temps il fera. Une seule question peut les appeler tous les trois, et la réponse rassemble l'endroit où se trouvera une personne, et à quel moment. Croiser des données n'a jamais été aussi facile. Le droit européen sur les données personnelles (le RGPD, et en France la loi _Informatique et Libertés_) demande que les données personnelles soient collectées pour un but annoncé, et pas utilisées pour un autre ([RGPD, article 5](https://eur-lex.europa.eu/eli/reg/2016/679/oj)). Un chatbot avec des outils peut croiser des données en quelques secondes, sans que personne ne l'ait décidé : demandez-vous ce que chaque outil ajoute aux autres.
+
 :::info[Notes pour l'animateur·rice]
 
 Deux moments à animer :
@@ -515,7 +538,12 @@ L'animateur·rice montre cela sur le grand écran, avec une page web qui cache u
 2. L'animateur·rice ouvre le fichier dans l'éditeur, et la phrase apparaît. Lire ce qu'elle demande. Le chatbot l'a-t-il fait ?
 3. Discuter : qui a écrit cette phrase, qui l'a lue, et que pourrait-elle demander d'autre ?
 
+<details>
+<summary>Après la discussion : ce qui s'est passé lors de notre test</summary>
+
 Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude Code ni avec OpenCode. OpenCode l'a signalée, Claude Code n'en a rien dit. Un seul essai ne prouve pas grand-chose : une phrase plus habile, ou un modèle plus petit, peut obéir. Les règles d'un chatbot ne sont pas un verrou.
+
+</details>
 
 :::
 
@@ -525,7 +553,8 @@ Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude C
 2. Si votre territoire n'est pas dans le fichier, copier une entrée, la coller après la dernière, mettre une virgule entre les deux, et remplacer son nom, `scale` (les niveaux qu'utilise l'autorité, dans les mots de la source), `source` et `season` par ceux de votre territoire. Si vous ne connaissez pas `scale`, écrire `TO BE COMPLETED` : l'outil ne l'envoie pas. Si vous ne connaissez pas `season`, supprimer sa ligne, avec sa virgule.
 3. Vérifier que `"date"` est toujours celle du jour, et enregistrer.
 4. Taper `workshop D` et demander `What is the fire danger level today in <your territory>?`, en remplaçant `<your territory>` par le nom de votre territoire. Appuyer sur **Ctrl+O** pour voir ce que l'outil a renvoyé (de nouveau **Ctrl+O** pour revenir) : la réponse cite-t-elle votre source ?
-5. Quitter avec **Ctrl+C deux fois**.
+5. Voir maintenant une question que le chatbot doit vous poser. Toujours dans `workshop D`, demander : `Add a field "checked_by" with our names to the entry of <your territory> in mcp/fire-danger.json.` Claude Code s'arrête avant d'écrire : un cadre **Edit file** avec les lignes qu'il changerait, et `Do you want to make this edit to fire-danger.json?`. Choisir **3. No** : rien ne change. L'outil `fire_danger` ne vous a rien demandé, parce qu'il ne fait que lire ; une modification de fichier attend votre oui.
+6. Quitter avec **Ctrl+C deux fois**.
 
 :::
 
@@ -545,15 +574,31 @@ L'entrée de votre territoire porte un statut, la phrase de sa source et son adr
 
 Vous avez répondu à cinq questions avant de faire confiance à un serveur d'environ 160 lignes. **Brancheriez-vous un serveur que vous ne pouvez pas lire, capable d'écrire des fichiers et d'envoyer des messages, sur un chatbot utilisé par des jeunes ?**
 
+### Ce que l'atelier a mis en place pour vous, et pourquoi
+
+Vous n'avez pas posé ces garde-fous aujourd'hui, mais chacun a sa raison d'être :
+
+- **Pas de niveau sans le fichier du jour.** `fire-danger` ne donne un niveau que si son fichier est daté du jour et que le statut est `live`. Sinon, il dit pourquoi (`why_no_level`, partie 2) : un vieux niveau ressemblerait à un niveau du jour.
+- **Deux outils sur 17.** Le serveur météo a 17 outils ; l'atelier n'en montre que 2 au modèle. Moins d'outils, c'est moins de texte dans le contexte, et moins de choses que le modèle peut faire.
+- **Ces outils autorisés à l'avance, pas les autres.** En mode D, le modèle appelle ces outils sans vous demander, parce qu'ils ne font que lire. Un serveur que vous ajoutez vous-même à `.mcp.json` vous est demandé à chaque appel, et écrire un fichier demande toujours votre oui (point 5 de l'étape 3 ci-dessus).
+- **Un fichier de réglages vide.** Le serveur météo pourrait lire un fichier de réglages (`.env`) dans le dossier où il démarre. L'atelier lui en donne un vide, pour qu'un fichier laissé dans le dossier ne puisse pas changer ce qu'il fait.
+- **Des versions figées.** Les serveurs de l'heure et de la météo viennent avec l'image du Codespace, dans la version qui a été lue : ils ne se mettent pas à jour tout seuls.
+
+:::caution[Avec des jeunes]
+
+Tenez-vous-en à des outils comme ceux-ci : ils ne font que lire, ne demandent aucune donnée personnelle, et n'utilisent que des sources publiques.
+
+:::
+
 :::note[Ce que vous avez construit]
 
-L'entrée de votre territoire dans un outil vivant, avec sa source. **À réemployer** dans tout chatbot qui utilise des outils : avec OpenCode, le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) reprend l'exemple `fire-danger`, explique comment remplir le niveau du jour, et donne les vérifications à faire sur les autres serveurs MCP.
+L'entrée de votre territoire dans un outil vivant, avec sa source. **À réemployer** dans tout chatbot qui utilise des outils : d'abord votre chatbot dans Open WebUI, avec le même outil ([partie 5](#partie-5--clôture-15-min), étape 2) ; avec un groupe, le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, l'outil en direct), où l'animateur·rice remplit le fichier le jour même. Une autre voie, pour les adultes, sans Claude Code : avec OpenCode, le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) reprend l'exemple `fire-danger`, explique comment remplir le niveau du jour, et donne les vérifications à faire sur les autres serveurs MCP.
 
 :::
 
 :::info[Notes pour l'animateur·rice]
 
-**La démonstration de la phrase cachée.** Déposer la page piégée dans **votre** Codespace, lancer `workshop D`, demander `Summarise trap-page.html for a group of young people.`, montrer la réponse, puis ouvrir le fichier dans l'éditeur : la ligne cachée apparaît. Discuter : qui l'a écrite, qui l'a lue, que pourrait-elle demander d'autre ? La page des participant·es donne notre résultat de test sous cette étape : faire la démonstration avant que les binômes la lisent jusque-là. **Supprimer la page avant tout `replay`.** Lors des essais (Claude Code et OpenCode, mode D), aucun des deux n'a suivi la phrase cachée ; OpenCode l'a signalée, Claude Code non.
+**La démonstration de la phrase cachée.** Déposer la page piégée dans **votre** Codespace, lancer `workshop D`, demander `Summarise trap-page.html for a group of young people.`, montrer la réponse, puis ouvrir le fichier dans l'éditeur : la ligne cachée apparaît. Discuter : qui l'a écrite, qui l'a lue, que pourrait-elle demander d'autre ? La page des participant·es donne notre résultat de test sous cette étape, replié jusqu'à la discussion (« After the discussion: what happened in our test »). **Supprimer la page avant tout `replay`.** Lors des essais (Claude Code et OpenCode, mode D), aucun des deux n'a suivi la phrase cachée ; OpenCode l'a signalée, Claude Code non.
 
 **Territoires sans niveau public quotidien.** Naples : aucune page publique quotidienne trouvée (statut `no-level-shown` ; dans le fichier, `scale` et `source` sont encore à compléter, et renvoient à l'animateur·rice). La Rochelle et Aix-en-Provence, hors saison : les cartes des préfectures ne publient pas de données ; pour La Rochelle, l'arrêté 26EB142 (`corpus/text/30`) dit ce qui s'applique alors, et sa phrase fait un bon `source_says`. Barcelone : le Pla Alfa fonctionne toute l'année.
 
@@ -563,7 +608,7 @@ Après la partie : « Brancheriez-vous un serveur que vous ne pouvez pas lire ? 
 
 ## Partie 5 : Clôture (15 min)
 
-**Objectif** : voir ce que les outils ont changé dans la note du chatbot, et sauvegarder son travail.
+**Objectif** : voir ce que les outils ont changé dans la note du chatbot, voir le même outil dans Open WebUI, et sauvegarder son travail.
 
 Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, qu'aucun document ne contient. Les questions 11 et 12 portent sur ce qui a été ajouté à l'atelier 3, le document de Bénévent et la page de son territoire : elles vérifient que le chatbot les trouve encore quand il a aussi des outils.
 
@@ -596,7 +641,47 @@ Rappel du barème (fiche d'une page) :
 - **1** : honnête mais insuffisant : « je ne sais pas » alors que la réponse existe, pas de source, ou réponse partielle.
 - **0** : faux ou inventé.
 
-:::caution[Étape 2 : Sauvegarder son travail, remplir la carte de sortie]
+:::caution[Étape 2 : Votre chatbot dans Open WebUI, avec son outil]
+
+Le mode D est dans votre terminal. Le même outil peut aller dans un chatbot que d'autres personnes utilisent par une page web : ici, Open WebUI.
+
+1. Dans le second terminal, vérifier qu'Open WebUI est prêt, puis taper, avec le nom de votre chatbot :
+
+   ```bash
+   openwebui chatbot --name "Feurisson"
+   ```
+
+   **Ce que vous devez voir**, vers la fin :
+
+   ```text
+   "Feurisson chatbot" has the live tool of mcp/, as in mode D: fire_danger (today's level, read from mcp/fire-danger.json) and territories. Read-only. Under the message box, the wrench icon shows it.
+   Ready. In Open WebUI (...): New Chat, then choose "Feurisson chatbot" in the message box (bottom right).
+   ```
+
+2. Ouvrir l'adresse, **New Chat**, choisir votre chatbot, et poser la question 8. Si le modèle appelle l'outil, une ligne **View Result from fire-danger_fire_danger** apparaît au-dessus de la réponse. Cliquer dessus : elle montre ce que l'outil a renvoyé, comme **Ctrl+O** le faisait en mode D. La réponse donne-t-elle le même niveau, ou la même raison de ne pas en donner, que votre fichier `answers/D-...` ?
+3. Poser la même question pour votre territoire.
+
+:::
+
+:::info[Ce que peut faire cet outil dans Open WebUI]
+
+Il a les deux mêmes outils, `fire_danger` et `territories`, et rien d'autre : ni le serveur de l'heure, ni la météo. Il ne fait que lire `mcp/fire-danger.json`, un fichier rempli à partir de sources publiques, sans aucune donnée personnelle. Il ne peut rien écrire, et il n'a aucune sortie vers Internet. Il lit le fichier à chaque appel : si le fichier n'est pas daté du jour, il renvoie `why_no_level`, comme à la partie 2. Avec Claude, en un essai, le chatbot a appelé l'outil pour la question 8 et n'a donné aucun niveau, parce que le fichier n'était pas daté du jour. Avec un petit modèle local (qwen3:8b), le premier appel après le démarrage d'Open WebUI n'a reçu aucune réponse, une fois sur trois essais : reposer la question.
+
+:::
+
+:::info
+
+Un chatbot créé avec `--rag` (atelier 2) ne reçoit aucun outil : Open WebUI choisit ses extraits avant chaque réponse, et il n'appelle rien. L'outil n'est pas non plus dans le fichier de `chatbot-export` (atelier 5) : c'est un programme, pas un document.
+
+:::
+
+:::caution[Avec des jeunes]
+
+Cet Open WebUI n'a pas de comptes : il est réservé à votre binôme, jamais à un groupe. Pour un groupe, le même outil se trouve dans le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, ajouter l'outil en direct), à partir de la version 2026.11.8 de l'image du Codespace. Là, l'animateur·rice remplit `mcp/fire-danger.json` le matin de chaque séance, à partir de la source publique, et coche l'outil dans chaque chatbot qui doit s'en servir ; les participant·es ne font que discuter. Le Codespace de ce guide a son propre fichier : votre entrée d'aujourd'hui n'y va pas d'elle-même.
+
+:::
+
+:::caution[Étape 3 : Sauvegarder son travail, remplir la carte de sortie]
 
 1. Taper `workshop-save`, puis clic droit sur `my-work.zip` → **Download...**. Le fichier contient `fire-danger.json` et tout le travail précédent. L'apporter à l'atelier 5. Si l'ordinateur a déjà un `my-work.zip`, le nouveau peut s'appeler `my-work (1).zip` : apporter le plus récent.
 2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
@@ -614,7 +699,9 @@ Rappel du barème (fiche d'une page) :
 
 **Après l'atelier** : noter les durées réelles, les coûts, et le statut choisi pour chaque territoire ce jour-là. Rappeler à chaque binôme de garder `my-work.zip` pour l'atelier 5.
 
-**Réemploi avec des jeunes** : « Peut-on aller en forêt aujourd'hui ? » est une question que les jeunes posent. Seule la source officielle peut y répondre, le jour même, et un chatbot doit dire quand il n'y a pas de niveau. Pour un chatbot avec outils destiné à un groupe, le guide OpenCode présente le même serveur et ses règles de sécurité.
+**Réemploi avec des jeunes** : « Peut-on aller en forêt aujourd'hui ? » est une question que les jeunes posent. Seule la source officielle peut y répondre, le jour même, et un chatbot doit dire quand il n'y a pas de niveau. Le chatbot du binôme dans Open WebUI a cet outil en lecture seule, sans donnée personnelle, avec des sources publiques seulement ; il reste dans le Codespace du binôme, sans comptes, et `chatbot-export` ne l'emporte pas. Avec un groupe, l'outil arrive aux jeunes par le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2), où vous remplissez vous-même le fichier le matin de la séance.
+
+**Manque de temps à la clôture** : montrer votre propre chatbot Open WebUI sur grand écran au lieu de ceux des binômes.
 
 :::
 
@@ -628,6 +715,9 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la section « Trou
 - **`/mcp` affiche un serveur avec ✘ au lieu de ✔** : quitter la conversation (**Ctrl+C deux fois**) et relancer `workshop D`. Si le ✘ reste, demander à l'animateur·rice.
 - **Le modèle n'appelle pas l'outil** : poser la question sur **aujourd'hui**, et nommer le territoire comme il est écrit dans le fichier (`territories` en donne la liste). Une question sur les règles (ce qui est interdit, les amendes) trouve sa réponse dans les documents, pas dans l'outil.
 - **`WORKSHOP_WEATHER=1 works with modes D, E and F only.`** : taper `WORKSHOP_WEATHER=1 workshop D`, pas avec un autre mode.
+- **`! The live tool fire-danger could not start, so your chatbot answers without it.`** : les lignes en dessous donnent la fin de l'erreur. Si vous avez modifié `mcp/fire_danger_server.py`, annuler la modification. Puis taper de nouveau `openwebui start` : il garde vos chatbots et vos documents.
+- **`openwebui chatbot` dit `It is not running now: type openwebui start.`** : le chatbot a été créé, avec son outil, mais l'outil n'a pas démarré. Taper `openwebui start` : l'outil revient, et le chatbot le garde.
+- **Dans Open WebUI, le chatbot n'affiche jamais `View Result from fire-danger_fire_danger`** : vérifier que vous avez choisi `Feurisson chatbot` (avec le nom du vôtre), et non un chatbot dont le nom finit par `(RAG)` ni un « Wildfire RAG » : ils n'ont pas d'outil. Voir ensuite « Le modèle n'appelle pas l'outil », plus haut.
 - **Quitter une conversation** : `Ctrl+C` deux fois. **Copier / coller dans le terminal** : `Ctrl+Shift+C` / `Ctrl+Shift+V` (`Cmd+C` / `Cmd+V` sur Mac).
 
 ### Avec une clé OpenRouter
@@ -651,7 +741,8 @@ Les messages de clé de `SETUP.md` qui nomment Anthropic existent aussi avec `Op
 - L'entrée d'Anvers porte la date du jour, un statut et la phrase de sa source, et la question 8 obtient une réponse qui cite cette source, sans niveau inventé.
 - Chaque binôme sait dire, pour chacun des trois serveurs (`fire-danger`, `time`, `open-meteo`), ce qu'il lit et ce qui sort du Codespace.
 - Chaque binôme a rempli l'entrée de son propre territoire avec un statut, la phrase de sa source et son adresse, et le chatbot cite cette source.
-- La colonne D est notée pour les questions 8, 11 et 12, et `my-work.zip` est téléchargé pour l'atelier 5.
+- Chaque binôme a vu une demande de permission (`Do you want to make this edit to fire-danger.json?`) et y a répondu **3. No**.
+- La colonne D est notée pour les questions 8, 11 et 12, la question 8 a été posée au chatbot dans Open WebUI, et `my-work.zip` est téléchargé pour l'atelier 5.
 - Sur la carte de sortie, chacun·e explique pourquoi seul un outil donne le niveau du jour, comment vérifier un serveur avant de le brancher, et pourquoi une prévision météo n'est pas un niveau officiel.
 
 ---
