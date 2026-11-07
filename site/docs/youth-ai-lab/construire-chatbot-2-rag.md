@@ -520,7 +520,7 @@ La recherche ne mesure pas cet angle avec un rapporteur. Elle multiplie les deux
 
 |         | Premier nombre | Second nombre | Somme    |
 | ------- | -------------- | ------------- | -------- |
-| A × B   | 0,48           | 0,48          | **0,96** |
+| Texte A | 0,6            | 0,8           |          |
 | Texte B | 0,8            | 0,6           |          |
 | A × B   | 0,48           | 0,48          | **0,96** |
 
