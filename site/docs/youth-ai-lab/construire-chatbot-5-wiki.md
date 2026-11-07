@@ -58,11 +58,13 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 ## Introduction
 
-À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
+À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages reliées entre elles, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. Une personne peut suivre les liens de page en page, et un modèle aussi. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
 
-> **Comment garder des connaissances propres quand elles grandissent ?**
+> **Comment ranger des connaissances pour qu'une personne et un modèle puissent les explorer ?**
 
 **Pourquoi cette approche ?** Le mode B lisait tout, à chaque fois. Avec le RAG, un moteur de recherche choisissait des extraits, et le modèle ne recevait qu'eux. Le mode C cherchait, puis repartait de zéro à la question suivante. Chaque question payait donc de nouveau le même travail. Un **wiki** fait ce travail une seule fois, à l'avance. C'est un ensemble de pages, une page par **sujet** (une règle, un lieu, un organisme), reliées entre elles, et chaque fait se termine par une **note de bas de page**, une marque qui renvoie à sa source.
+
+Mettre par écrit ce que l'on sait a toujours compté. Cela compte encore plus aujourd'hui : un modèle peut explorer ces pages à votre place, suivre leurs liens, et retrouver ce que vous aviez oublié savoir. On appelle un tel ensemble de notes un **second cerveau** (l'expression vient du livre de Tiago Forte, _Building a Second Brain_). Un wiki écrit et tenu à jour par un modèle est une idée qu'Andrej Karpathy a décrite en avril 2026 ([LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)) : cet atelier la suit.
 
 Cela a un prix : les pages vieillissent, et elles peuvent s'éloigner de leurs sources. C'est pourquoi **le modèle entretient les pages, et une personne décide.** Le wiki garde un historique, le **journal** (_log_). Le modèle peut vérifier tout le wiki avec un **lint** (une relecture automatique), qui signale les problèmes sans rien corriger de lui-même. Et quand un modèle devine un lien entre deux idées, une personne va voir dans les sources.
 
@@ -95,7 +97,7 @@ Message à transmettre : **le travail est fait une fois, avant la question, et c
 Préparation, environ 1 heure :
 
 - **Une clé API Anthropic par binôme**, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Le plafond porte sur l'espace de travail, pas sur chaque clé : un binôme peut consommer la part d'un autre. Garder la console Anthropic ouverte pendant l'atelier. Chaque structure partenaire paie ses propres séances.
-- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter ; coût par binôme : à compléter. Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide).
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,04 \$ pour les commandes du terminal de cet atelier, et environ 0,12 \$ pour les ateliers 1 à 5, joués une fois le 5 novembre 2026 dans un conteneur de l'image 2026.11.4, pas dans un Codespace ni avec un groupe ; sans compter `replay RAG` ni les chatbots d'Open WebUI. Un binôme qui pose plus de questions dépense plus : c'est un minimum. Les ateliers sont pour les adultes : aucun jeune ne tape dans le Codespace ni ne détient de clé, et OpenRouter demande des utilisateurs de 18 ans et plus. Les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirer les noms et les informations personnelles, et taper d'abord `workshop-login --europe` (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide). Avec le modèle de chatbot de `--europe` (Mistral Small 2603), **le lint n'est pas fiable** : le 2 novembre 2026, il n'a lu que `index.md` et `log.md`, puis a répondu « Everything is clean! », alors que les pages avaient 6 contradictions et qu'une page manquait dans l'index. Un seul essai. Si un binôme obtient un rapport propre, montrer les propositions de votre propre rapport, obtenu par la voie Claude.
 - **Faire tout le parcours soi-même** (environ 30 minutes) dans un Codespace gardé pour la séance : environ 1,05 \$ au total.
 - **Préparer la projection de la partie 4** : `wiki-graph`, `wiki/graph.md` ouvert avec `Ctrl+Shift+V`, et `wiki-explore` dans un onglet à côté. Dézoomer les deux cartes jusqu'à ce qu'aucune étiquette ne soit lisible.
 - **Rappeler à chaque binôme**, quelques jours avant, d'apporter son `my-work.zip` le plus récent, avec un résumé signé à l'atelier 3.
@@ -175,13 +177,13 @@ Dans un nouveau Codespace, le premier `workshop E` demande encore une fois si l'
 
 :::info[Si vous utilisez OpenCode]
 
-Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. `ingest` et `lint` n'ont pas encore été mesurés avec OpenCode : à compléter. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. `ingest` et `lint` ont été mesurés avec OpenCode le 2 novembre 2026, avec une clé OpenRouter et deux petits modèles (DeepSeek v4 Flash, Mistral Small) : leur `ingest` n'a pas suivi toutes les règles du wiki, et un `lint` a dit que tout était propre alors que ce n'était pas le cas. Le 5 novembre 2026, un second essai de DeepSeek v4 Flash a écrit le journal et les liens, mais n'a noté aucune contradiction ; son `lint` a trouvé une source que la nouvelle page ne citait jamais, et 9 contradictions. Un seul essai à chaque fois. Lire le rapport du `lint` en le comparant aux pages ; avec une clé Claude : à compléter. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::
 
 :::info[Si votre clé commence par sk-or- (OpenRouter)]
 
-OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` et Open WebUI passent aussi par OpenRouter. `openwebui chatbot`, et Open WebUI avec le modèle par défaut, DeepSeek V4 Flash : non testés.
+OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` et Open WebUI passent aussi par OpenRouter. Le détail de cette voie, commun à toute la série, est dans la section **With an OpenRouter key** de `SETUP.md`, dans le dépôt. `openwebui chatbot` avec le wiki et le modèle par défaut, DeepSeek V4 Flash, a été essayé une fois le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : à la question de savoir quelles pages parlent de l'Italie, le chatbot a ouvert l'index du wiki (`wiki/index.md`) et trouvé les 4 pages.
 
 À l'enregistrement, le message de réussite devient :
 
@@ -201,7 +203,7 @@ Ne comparer que ses propres colonnes : `score` écrit le modèle sous le tableau
 
 :::caution[Avec des jeunes et une clé OpenRouter]
 
-Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande un forfait Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
+Les ateliers sont pour les adultes : le Codespace et les clés restent chez eux. Aucun jeune ne tape dans le Codespace d'un atelier ni ne détient de clé (section **Young people and OpenRouter** de `SETUP.md`). Quand les mots des jeunes passent par OpenRouter, taper d'abord `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder ce traitement en Europe demande un forfait Business, que ces commandes ne prennent pas en charge. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
 
 :::
 
@@ -303,6 +305,7 @@ Une page du wiki n'est pas un résumé signé. Son en-tête a une ligne `generat
 1. Ouvrir `wiki/index.md`, puis appuyer sur `Ctrl+Shift+V` pour le lire comme une page mise en forme.
 2. Ouvrir `wiki/wildfire-prevention-ordinance-montoro.md`, et appuyer sur `Ctrl+Shift+V` (la partie 4 reviendra sur cette page). Chaque fait se termine par la note `[^ord-78]`. En bas de page, une ligne donne le titre de cette source, et **See also** renvoie à une autre page.
 3. Fermer l'aperçu, et regarder l'en-tête du fichier. `sources` donne le fichier qui se trouve derrière la note, ici `../corpus/71-...pdf`. `generated` dit quel modèle a écrit la page, et quand.
+4. Revenir à l'aperçu, cliquer sur le lien **See also**, puis sur un lien de la page qui s'ouvre. En deux clics, on passe de l'ordonnance d'une commune italienne aux bons réflexes de sécurité en France : c'est ainsi qu'une personne explore le wiki, et le modèle peut le faire aussi, en ouvrant la page qu'un lien nomme.
 
 #### Étape 2 : Lire le journal
 
@@ -349,7 +352,7 @@ La règle de la skill `ingest` : le modèle écrit `According to one source, X; 
  Esc to cancel · Tab to amend
 ```
 
-**Ne jamais choisir 2** : on ne verrait plus ce qu'il écrit.
+**Ne jamais choisir 2** : on ne verrait plus ce qu'il écrit. **Ne jamais approuver une commande qui mentionne `sudo` ou `workshop-key`** : choisir **3. No**. Une telle commande pourrait lire votre clé.
 
 :::
 
@@ -365,7 +368,13 @@ La règle de la skill `ingest` : le modèle écrit `According to one source, X; 
 3. À chaque fois qu'elle veut écrire, lire ce qu'elle écrit. Dans une page du wiki, chaque fait nouveau se termine-t-il par une note `[^...]` ? Chaque chiffre est-il celui du document ? (L'en-tête d'une page, l'index et le journal n'ont pas de notes.) Si oui, accepter avec **1. Yes**. Si quelque chose ne va pas, choisir **3. No** : `User rejected update to ...` s'affiche, rien n'est écrit, et le modèle s'arrête. Taper ce qui ne va pas et appuyer sur Entrée : il reçoit votre phrase et repart de là.
 4. Lire son compte rendu : quelles pages ont changé, a-t-elle trouvé une contradiction ? Quitter avec **Ctrl+C deux fois**.
 
-Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et non dans un Codespace, autorisations acceptées automatiquement), faire entrer le document de Bénévent a pris 42 secondes et coûté 0,14 \$ : une page créée, une mise à jour, l'index et le journal, avec une contradiction que personne n'avait placée là. Un binôme aurait eu 6 autorisations à donner, et la jauge a atteint environ 26 000 jetons.
+Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et non dans un Codespace, autorisations acceptées automatiquement), faire entrer le document de Bénévent a pris 42 secondes et coûté 0,14 \$ : une page créée, une mise à jour, l'index et le journal, avec une contradiction que personne n'avait placée là. Un binôme aurait eu 6 autorisations à donner, et la jauge a atteint environ 26 000 jetons. Un deuxième essai, le 2 novembre 2026 (image 2026.10.45), a pris 46 secondes et coûté 0,17 \$, et a trouvé la même contradiction. Le 5 novembre 2026 (image 2026.11.4), avec chaque modification acceptée une à une (par un script, dans une conversation), il a demandé 10 fois et pris 35 secondes.
+
+:::caution[Important]
+
+**Vérifier la contradiction trouvée.** Dans tous nos essais, il s'agissait de la fin de la saison 2026 : le 15 octobre dans le document de Bénévent, le 30 septembre dans l'arrêté de Montoro. Lire les deux phrases : Bénévent donne la fin des **activités de la campagne**, fixée par une lettre officielle du ministre (une circulaire) ; Montoro donne la fin de la **période de grand danger**. Deux périodes différentes peuvent finir à des jours différents : ce n'est probablement pas une contradiction. Le modèle n'a pas toujours raison sur ce qu'il compare ; c'est vous qui décidez.
+
+:::
 
 :::info[Comment lire nos mesures]
 
@@ -432,7 +441,7 @@ Surveiller quatre moments :
 
 Sans sauvegarde, Bénévent n'entre que dans `corpus/`, sans résumé ni signature : le binôme fait entrer le document officiel. L'indication affichée par `wiki-graph` parle de `summaries/` : le binôme suit la page de l'atelier, pas l'indication. Si `openwebui start` n'est pas terminé à la fin de la partie 2, ouvrir un troisième terminal pour `replay E`.
 
-À raconter, sans projeter : lors de l'essai, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions. Le dire à la salle sans donner les dates, qui sont proches des pièges de la question 11.
+À raconter, sans projeter : lors de l'essai, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions, et une personne décide. La page imprime les deux dates (encadré « Vérifier la contradiction trouvée ») comme deux périodes différentes : le 15 octobre pour les activités de la campagne, le 30 septembre pour le grand danger. Laisser les binômes lire les deux phrases et décider. Rappeler à la salle qu'aucune de ces deux dates n'est la réponse à la question 11 (du 6 juillet au 27 septembre 2026).
 
 :::
 
@@ -471,7 +480,7 @@ La skill `lint` passe en revue **toutes** les pages, retourne à leurs sources, 
 
 Le lint est lui aussi un modèle. Il peut manquer un problème, et il peut en signaler un qui n'existe pas. Son rapport est donc une liste de choses à vérifier.
 
-**Idée clé** : un wiki dérive, un peu à chaque changement. Le lint signale, la personne décide.
+**Idée clé** : un wiki dérive, un peu à chaque changement. Le lint signale, la personne décide. Avant qu'un wiki ne devienne les connaissances d'un chatbot que d'autres personnes utilisent, lancer le lint et lire son rapport : sans lui, personne ne compare les pages à leurs sources, et une erreur dans une page devient une réponse donnée à un groupe. Le lint tient lieu de signature sur chaque page, mais c'est lui aussi un modèle : le dernier mot reste à une personne.
 
 ### Déroulé
 
@@ -492,13 +501,13 @@ Le lint est lui aussi un modèle. Il peut manquer un problème, et il peut en si
 3. Repérer la ligne `Skill(lint)`. S'il demande à lancer une commande qui lit des fichiers, accepter avec **1. Yes**.
 4. Regarder la jauge. Elle monte bien plus haut que pour `ingest`, parce que le lint lit toutes les pages et retourne aux sources. C'est pour cela qu'on a démarré une nouvelle conversation.
 
-Dans le même essai, le lint a pris 2 min 10 et coûté 0,55 \$, et la jauge a atteint environ 137 000 jetons, 68 % de la fenêtre. C'est plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document.
+Dans le même essai, le lint a pris 2 min 10 et coûté 0,55 \$, et la jauge a atteint environ 137 000 jetons, 68 % de la fenêtre. C'est plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document. Un deuxième essai, le 2 novembre 2026 (image 2026.10.45), a pris 72 secondes et coûté 0,34 \$. Un troisième, dans une conversation le 5 novembre 2026 (image 2026.11.4), a pris 1 min 55 et rempli la jauge jusqu'à environ 149 000 jetons (74 %), pour environ 0,80 \$ (notre estimation à partir des jetons) : le coût du lint change d'un essai à l'autre, et il reste l'étape la plus chère.
 
 #### Étape 2 : Lire le rapport
 
 Le rapport commence par une ligne de décomptes, et sa dernière section s'appelle `Proposals`. Entre les deux viennent les **remarques** (_findings_) : ce que le lint juge faux, sous des titres comme `Contradictions`, `Statements without a valid source` et `Omissions and rewordings`. Une proposition est une action qu'il suggère, en général pour répondre à une remarque.
 
-Dans notre essai, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste.
+Dans notre essai, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste. Le 5 novembre 2026, six remarques d'un autre lint ont été vérifiées dans leurs sources : trois étaient justes, et trois montraient un vrai manque mais le décrivaient mal (par exemple, deux périodes différentes présentées comme une contradiction).
 
 En binôme, trouver une remarque que l'on peut vérifier. Ouvrir la page qu'elle cite, puis sa source dans `corpus/text/`, et chercher le chiffre ou les mots avec `Ctrl+F`. Est-ce un vrai problème : une personne qui lit la page recevrait-elle un fait faux ou incomplet ? Ou est-ce une affaire de goût ?
 
@@ -547,16 +556,16 @@ L'animateur·rice projette d'abord deux cartes côte à côte : le dessin de la 
 
 ### Ce que vous allez découvrir
 
-Avant la séance, l'animateur·rice a donné le wiki à **graphify**, un outil qui fait lire chaque page à un modèle, en 10 minutes environ, et qui dessine un **graphe de connaissances** : une carte des idées et des liens entre elles.
+Avant la séance, l'animateur·rice a donné le wiki à **graphify**, un outil qui fait lire chaque page à un modèle, en 7 à 10 minutes, et qui dessine un **graphe de connaissances** : une carte des idées et des liens entre elles.
 
 `wiki/index.md` liste les pages, et le dessin de la partie 2 montre ce que chaque page relie et cite. Ni l'un ni l'autre ne montre deux pages, dans deux pays, qui parlent d'une règle semblable quand aucun lien ne les joint. Un graphe de connaissances cherche cela, pour que l'on puisse explorer ce que ses documents disent ensemble, et voir où il en manque.
 
 - **Un nœud** est un point de la carte : une page, une règle, un organisme, une idée. **Une arête** est une ligne entre deux nœuds.
-- **Une communauté** est un groupe de nœuds avec beaucoup de lignes entre eux, et peu vers le reste. Un calcul déplace les nœuds d'un groupe à l'autre. Il compare les lignes à l'intérieur des groupes avec ce que donnerait le hasard, et garde un déplacement quand l'écart augmente. Dans notre graphe, 103 des 132 arêtes (78 %) restent à l'intérieur d'un groupe ; avec des lignes placées au hasard, environ 16 % le feraient. Le calcul ne voit que des lignes, pas le sens : c'est pourquoi l'étape 1 vous demande si les groupes ont du sens.
+- **Une communauté** est un groupe de nœuds avec beaucoup de lignes entre eux, et peu vers le reste. Un calcul déplace les nœuds d'un groupe à l'autre. Il compare les lignes à l'intérieur des groupes avec ce que donnerait le hasard, et garde un déplacement quand l'écart augmente. Dans notre graphe, 158 des 204 arêtes (77 %) restent à l'intérieur d'un groupe ; avec des lignes placées au hasard, environ 16 % le feraient. Le calcul ne voit que des lignes, pas le sens : c'est pourquoi l'étape 1 vous demande si les groupes ont du sens.
 - **`EXTRACTED`** marque une arête écrite dans une page. **`INFERRED`** marque une arête devinée par le modèle : une suggestion, pas un fait.
 - **Un instantané** est une image prise à un moment donné : ce graphe ne change pas quand le wiki change.
 
-Notre graphe a 82 nœuds, 132 arêtes et 7 communautés ; 115 arêtes sont `EXTRACTED`, 17 sont `INFERRED` (construit le 21 octobre 2026, relu le 30 octobre 2026). `wiki-explore` n'appelle aucun modèle : il est gratuit.
+Notre graphe a 111 nœuds, 204 arêtes et 8 communautés ; 182 arêtes sont `EXTRACTED`, 22 sont `INFERRED` (construit le 6 novembre 2026). `wiki-explore` n'appelle aucun modèle : il est gratuit.
 
 **Idée clé** : un graphe propose, une personne vérifie, comme pour les résumés de l'atelier 3.
 
@@ -566,7 +575,7 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
 
 **Ne jamais projeter** : le dossier `answers/`, `wiki/log.md` et la page Bénévent du wiki, `GRAPH_REPORT.md` au-delà de sa ligne `Corpus Check`, les étiquettes de la carte graphify et les titres de pages du `wiki/graph.md` complet : ils contiennent des réponses du jeu de test.
 
-**Si un binôme demande ce que veut dire `Cohesion: 0.30` dans le rapport.** Ce sont les lignes tracées à l'intérieur du groupe, divisées par les lignes possibles. Entre n nœuds, n(n-1)/2 lignes sont possibles. La communauté 4 a 12 nœuds, donc 66 lignes possibles, et 20 sont tracées (compté dans `graph.json` ; le rapport n'imprime pas ce nombre) : 20 / 66 = 0,30. Ce score vient après le regroupement : ce n'est pas lui qui fait les groupes. Ne pas classer les groupes avec lui, car un petit groupe obtient plus facilement un score élevé : dans la communauté 6 (0,33), un nœud a en moyenne 2 lignes à l'intérieur, dans la communauté 4 (0,30), il en a 3,3. Faire la somme avec la communauté 4 : pour les communautés 0 et 2, le rapport imprime `Nodes (14)` et `Nodes (12)` alors que `graph.json` en a 15 et 13, et la somme ne tombe pas juste.
+**Si un binôme demande ce que veut dire `Cohesion: 0.23` dans le rapport.** Ce sont les lignes tracées à l'intérieur du groupe, divisées par les lignes possibles. Entre n nœuds, n(n-1)/2 lignes sont possibles. La communauté 3 a 13 nœuds, donc 78 lignes possibles, et 18 sont tracées (compté dans `graph.json` ; le rapport n'imprime pas ce nombre) : 18 / 78 = 0,23. Ce score vient après le regroupement : ce n'est pas lui qui fait les groupes. Ne pas classer les groupes avec lui, car un petit groupe obtient plus facilement un score élevé : dans la communauté 7 (0,50), un nœud a en moyenne 2 lignes à l'intérieur, dans la communauté 3 (0,23), il en a 2,8. Faire la somme avec la communauté 3 : pour les communautés 0, 2 et 4, le rapport imprime `Nodes (24)`, `Nodes (17)` et `Nodes (10)` alors que `graph.json` en a 25, 18 et 11 (le rapport ne compte pas les nœuds de type `rationale`), et la somme ne tombe pas juste.
 
 :::
 
@@ -587,7 +596,7 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
 #### Étape 2 : Lire le rapport
 
 1. Ouvrir `wiki/graphify-out/GRAPH_REPORT.md`, et appuyer sur `Ctrl+Shift+V`.
-2. Lire d'abord `Corpus Check` (ici, `Corpus` désigne les pages du wiki, pas le dossier `corpus/`) : `Corpus is ~16,359 words - fits in a single context window. You may not need a graph.` Le rapport compte des mots, et la jauge compte des jetons. Sur ces pages, nos mesures donnent environ 3 jetons par mot, donc 16 359 × 3 ≈ 49 000 jetons : environ un quart de la fenêtre de contexte (200 000 jetons), et la moitié de ce que le mode B envoyait à l'atelier 2. Qu'en pensez-vous ?
+2. Lire d'abord `Corpus Check` (ici, `Corpus` désigne les pages du wiki, pas le dossier `corpus/`) : `Corpus is ~16,917 words - fits in a single context window. You may not need a graph.` Le rapport compte des mots, et la jauge compte des jetons. Sur ces pages, nos mesures donnent environ 3 jetons par mot, donc 16 917 × 3 ≈ 51 000 jetons : environ un quart de la fenêtre de contexte (200 000 jetons), et la moitié de ce que le mode B envoyait à l'atelier 2. Qu'en pensez-vous ?
 3. Lire `Surprising Connections` : des liens que le rapport pense inconnus de vous. Chaque élément se lit `first node --kind of link--> second node`, puis donne les deux pages. `[INFERRED]` dit que le modèle a deviné le lien. Choisir une connexion qui vous surprend, et dire à son binôme si on y croit. L'étape 3 reprend l'un de ces liens, entre Montoro et le débroussaillement français, et l'étape 4 le vérifie.
 
 #### Étape 3 : Interroger le graphe
@@ -602,10 +611,11 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
 
    ```text
    Shortest path (1 hops):
-     Montoro protection strips (20 m around settlements, 5 m around land) --semantically_similar_to [INFERRED]--> Obligations légales de débroussaillement (OLD): 200 m zone, 50 m around buildings, 10 m along access
+     Montoro protection strips (20 m around settlements, 5 m around land) --semantically_similar_to [INFERRED 0.85]--> Obligations légales de débroussaillement (OLD): 200 m zone, 50 m around buildings, 10 m along access
+   Path confidence: INFERRED (weakest hop 1: semantically_similar_to, score 0.85)
    ```
 
-   Un **chemin** est la suite de lignes qui va d'un nœud à un autre. `1 hops` signifie qu'ils sont reliés directement. `semantically_similar_to` est l'étiquette du modèle pour « ces deux idées se ressemblent », et `[INFERRED]` dit qu'il l'a deviné.
+   Un **chemin** est la suite de lignes qui va d'un nœud à un autre. `1 hops` signifie qu'ils sont reliés directement. `semantically_similar_to` est l'étiquette du modèle pour « ces deux idées se ressemblent », et `[INFERRED 0.85]` dit qu'il l'a deviné, avec une confiance de 0,85 sur 1 : l'estimation du modèle lui-même, pas une preuve. `Path confidence` donne le lien le plus faible du chemin.
 
    Sur la carte, ce lien est une ligne en tirets : la pointer pour lire `INFERRED`. `Node Info` ne l'affiche pas.
 
@@ -615,7 +625,7 @@ Ouvrir la partie avec les deux cartes côte à côte, **dézoomées** jusqu'à c
    wiki-explore explain "Montoro protection strips"
    ```
 
-   On doit voir trois connexions : deux marquées `[EXTRACTED]`, écrites dans la page, et celle de plus haut, `[INFERRED]`. Ignorer les positions `L...` : elles sont fausses, c'est une limite connue de l'outil.
+   On doit voir trois connexions : deux marquées `[EXTRACTED]`, écrites dans la page, et celle de plus haut, `[INFERRED 0.85]`. Une position comme `L40-L67` est une partie de la page : les lignes que le modèle a désignées quand il a créé ce nœud ou ce lien. Pour un lien `[INFERRED]`, c'est l'endroit où le modèle a regardé. Ce n'est pas une phrase qui énonce le lien.
 
 #### Étape 4 : Vérifier soi-même le lien deviné
 
@@ -662,14 +672,14 @@ Laisser les binômes arriver à leur verdict. Pour les bandes de Montoro et le d
 
 #### Étape 6 : Le graphe et la vitesse du chatbot
 
-Le graphe rend-il le chatbot plus rapide ? En discuter, puis lire ce qui a été mesuré le 21 octobre 2026 (Claude Code 2.1.240, hors Codespace), avec le graphe donné au modèle comme outil (mode `F`) :
+Le graphe rend-il le chatbot plus rapide ? En discuter, puis lire ce qui a été mesuré le 21 octobre 2026 (Claude Code 2.1.240, hors Codespace), avec le graphe donné au modèle comme outil (mode `F`). Ce graphe était un graphe plus ancien, de 82 nœuds ; la carte ouverte aujourd'hui en a 111, et elle n'a pas été mesurée de cette façon :
 
 | Questions                             | Mode E (wiki)    | Mode F (wiki + graphe) |
 | ------------------------------------- | ---------------- | ---------------------- |
 | 1, 3, 5 et 10                         | 0,46 \$, 1 min 26 | 0,51 \$, 1 min 38       |
 | « Compare the clearing distances... » | 0,20 \$, 42 s     | 0,20 \$, 33 s           |
 
-Sur nos 18 pages, non : l'index est déjà une carte suffisante, et le modèle lit quand même les pages pour avoir les faits exacts. Un graphe aide les personnes qui explorent. Il pourrait aider un wiki beaucoup plus grand : cela n'a pas été mesuré.
+Sur nos 18 pages, non : l'index est déjà une carte suffisante, et le modèle lit quand même les pages pour avoir les faits exacts. Sur un petit wiki, le graphe n'aide pas encore le modèle, mais il aide déjà les personnes qui explorent : à l'étape 3, il vous a montré un lien entre Montoro et le débroussaillement français qu'aucune page n'écrit, et que vous avez ensuite vérifié vous-mêmes. Il pourrait aider le modèle sur un wiki beaucoup plus grand : cela n'a pas été mesuré.
 
 :::note[Point de contrôle]
 
@@ -695,11 +705,11 @@ Ou taper `replay F 1 3 10`, et comparer avec les mêmes questions dans son fichi
 
 ### À vous de réfléchir
 
-Le graphe a demandé à un modèle environ 10 minutes pour 18 pages, et le document du binôme y manque déjà. **Combien coûte la mise à jour d'un graphe, et qui vérifie ce que le modèle a deviné ?**
+Le graphe a demandé à un modèle de 7 à 10 minutes pour 18 pages, et le document du binôme y manque déjà. **Combien coûte la mise à jour d'un graphe, et qui vérifie ce que le modèle a deviné ?**
 
 :::info[Notes pour l'animateur·rice]
 
-Réponse attendue : un modèle relit tout (environ 10 minutes et 163 000 jetons pour 18 pages), et toutes les suppositions sont nouvelles, donc une personne doit de nouveau les vérifier. Le rapport dit lui-même qu'on n'a peut-être pas besoin d'un graphe.
+Réponse attendue : un modèle relit tout (environ 10 minutes et 163 000 jetons pour 18 pages le 21 octobre 2026 ; environ 7 min 30 avec Opus le 2 novembre 2026, pour 7,86 millions de jetons, lus pour la plupart depuis le cache ; 1,40 \$ le 6 novembre 2026), et toutes les suppositions sont nouvelles, donc une personne doit de nouveau les vérifier. Le rapport dit lui-même qu'on n'a peut-être pas besoin d'un graphe.
 
 :::
 
@@ -750,7 +760,7 @@ Deux autres options figurent sur les diapositives :
 
 :::info[Notes pour l'animateur·rice]
 
-Projeter le tableau de la série, et lire la dernière colonne à voix haute : vous, personne ou un moteur de recherche, le modèle et une personne, le modèle et vous, le modèle et une personne. Plus le modèle fait de choses seul, plus il compte qu'une personne vérifie. Dire ce qui ne voyage pas dans le paquet : les skills et l'outil en direct. Et ce qui ne s'arrête jamais : les mêmes questions de test, avant et après chaque changement.
+Projeter le tableau de la série, et lire la dernière colonne à voix haute : vous, personne ou un moteur de recherche, le modèle et une personne, le modèle et vous, le modèle et une personne. Plus le modèle fait de choses seul, plus il compte qu'une personne vérifie. Dire ce qui ne voyage pas dans le paquet : l'outil en direct de l'atelier 4 (un programme, pas un document ; avec un groupe, le guide Open WebUI le redonne) et les skills du kit (`ingest`, `lint`, `summarize`, `validate-summary`, `source-note`) ; les skills que le binôme a écrites à l'atelier 3, elles, voyagent. Et ce qui ne s'arrête jamais : les mêmes questions de test, avant et après chaque changement.
 
 :::
 
@@ -762,17 +772,18 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
    chatbot-export --name "Feurisson"
    ```
 
-   On doit voir une ligne comme celle-ci, tirée de notre essai avec Bénévent, sans sauvegarde. Les nombres seront différents :
+   On doit voir des lignes comme celles-ci. Les nombres viennent de notre essai avec Bénévent, sans sauvegarde, plus un fichier pour la carte du wiki. Les vôtres seront différents :
 
    ```text
-   Wrote feurisson.zip: instructions + 57 knowledge files (17 summaries, 19 wiki pages, 21 documents).
+   Wrote feurisson.zip: instructions + 58 knowledge files (17 summaries, 19 wiki pages + their map, 21 documents).
+   In the file, the … links between wiki pages name their files (wiki__…): a chatbot tool finds a page by that name. Your wiki/ folder is not changed.
    ```
 
-2. Clic droit sur le fichier `.zip`, puis **Download...**. Il contient la case _Instructions_ (le fichier `AGENTS.md`), la case _Knowledge_ (résumés, pages du wiki, copies lisibles des documents), et un `README.md` qui explique comment reconstruire le chatbot. Les skills et l'outil en direct de l'atelier 4 **n'y sont pas** : dans un autre outil, il faut les remettre en place.
+2. Clic droit sur le fichier `.zip`, puis **Download...**. Il contient la case _Instructions_ (le fichier `AGENTS.md`), la case _Knowledge_ (résumés, pages du wiki avec leur carte `wiki__index.md`, copies lisibles des documents), les skills écrites par le binôme à l'atelier 3 (pas celles du kit), et un `README.md` qui explique comment reconstruire le chatbot. L'outil en direct de l'atelier 4 **n'y est pas** : c'est un programme, pas un document. Dans un autre outil, il faut le remettre en place : dans un Codespace du guide Open WebUI, l'animateur·rice le coche dans le chatbot, et il lit le fichier que l'animateur·rice remplit le jour même (étape _Step 5 - Add the live tool_ du guide anglais, depuis la version 2026.11.8 de l'image du Codespace ; voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Deux fichiers de `wiki/` restent aussi dehors : `log.md`, l'historique du wiki (avec les contradictions trouvées par `ingest` et `lint`), et `AGENTS.md`, les règles du modèle qui écrit le wiki. Ils servent à la personne qui tient le wiki, pas aux réponses du chatbot : les garder dans `my-work.zip`.
 
 ### Étape 5 : Le montrer dans Open WebUI
 
-1. `openwebui chatbot` remplit les deux cases à votre place. Il empaquette de nouveau le chatbot, comme à l'étape 4 : `AGENTS.md` va dans la case _Instructions_, et les résumés, les pages du wiki et les documents dans la case _Knowledge_ d'un nouveau chatbot. Dans le deuxième terminal, taper, avec le nom de son chatbot :
+1. `openwebui chatbot` remplit les deux cases à votre place. Il empaquette de nouveau le chatbot, comme à l'étape 4 : `AGENTS.md` va dans la case _Instructions_, et les résumés, les pages du wiki (avec leur carte) et les documents dans la case _Knowledge_ d'un nouveau chatbot. Il reçoit aussi les skills écrites par le binôme à l'atelier 3, et l'outil en direct de l'atelier 4, `fire_danger`, comme en mode D. Dans le deuxième terminal, taper, avec le nom de son chatbot :
 
    ```bash
    openwebui chatbot --name "Feurisson"
@@ -784,8 +795,15 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
    Ready. In Open WebUI (...): New Chat, then choose "Feurisson chatbot" in the message box (bottom right).
    ```
 
+   Juste avant, une ligne dit `Your wiki came with its map (wiki__index.md): each link names the file of another page.`, et une autre nomme l'outil en direct `fire_danger`.
+
 2. Ouvrir l'adresse, choisir son chatbot (le bouton en bas à droite de la zone de saisie montre le modèle utilisé), et poser sa question 12 ou, sans question 12, l'une des questions du jour. Le chatbot a maintenant aussi les pages du wiki et, comme en mode E, le modèle décide lui-même quand chercher. La réponse donne-t-elle sa source ? Est-elle aussi bonne que dans son fichier `answers/E-...` ?
-3. En binôme, dire ce que l'on changerait avant qu'un groupe ne l'utilise, à partir de ce qu'on a vu dans ses réponses et ses scores.
+
+   **La carte du wiki dans Open WebUI.** Le chatbot peut partir de la carte, `wiki__index.md`. Chaque lien y est le nom d'un fichier (`wiki__...`). Open WebUI ouvre un fichier des connaissances par un identifiant, pas par son nom : le modèle cherche d'abord ce nom, puis ouvre la page. Chaque page ouverte devient une source de la réponse. Cela a été essayé avec un modèle de test. Un petit modèle a aussi été essayé sur notre propre ordinateur (`qwen3:8b`) : il n'a jamais ouvert la carte, a répondu à partir des noms des fichiers, et a manqué une page. Avec Claude, en un essai, il a d'abord ouvert la carte et trouvé toutes les pages. Avec le même petit modèle, une rumeur (le travail de la skill `rumour-check`) a obtenu une réponse vide, 3 fois sur 3 : le modèle a pris la skill pour un outil qu'il pouvait appeler (voir la partie 5 de l'atelier [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)).
+
+   **L'outil en direct.** Il ne fait que lire `mcp/fire-danger.json`, un fichier rempli à partir de sources publiques. Il ne peut rien écrire. Si le modèle l'appelle, une ligne **View Result from fire-danger_fire_danger** apparaît au-dessus de la réponse : cliquer dessus pour voir ce que l'outil a renvoyé.
+
+3. En binôme, dire ce que l'on changerait avant qu'un groupe ne l'utilise, à partir de ce qu'on a vu dans ses réponses et ses scores. Le wiki entre maintenant, en entier, dans les connaissances d'un chatbot que d'autres personnes pourraient utiliser : avant cela, relancer le lint et lire son rapport ([partie 3](#partie-3--le-lint-15-min)), comme pour toute modification du wiki.
 
 :::caution[Attention]
 
@@ -825,14 +843,14 @@ Ce que contient une bonne réponse à la carte de sortie : (1) le modèle ne dé
 
 On repart avec le paquet du chatbot et `my-work.zip`, et chaque pièce a sa place dans d'autres outils :
 
-| Ce qui a été construit                                    | Où cela va ensuite                                                                                                    |
-| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `AGENTS.md`                                               | la case _Instructions_, ou consigne système                                                                           |
-| `corpus/`, `summaries/`, la vérification de chaque résumé | la case _Knowledge_, après vérification par une personne                                                              |
-| La skill                                                  | les skills d'un agent : voir la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) |
-| L'outil MCP                                               | les outils du chatbot, quand l'outil les accepte : même fiche OpenCode                                                |
-| Le wiki                                                   | des pages propres pour la case _Knowledge_                                                                            |
-| `test-questions.md` et `replay`                           | toujours : les mêmes questions avant et après chaque changement                                                       |
+| Ce qui a été construit                                    | Où cela va ensuite                                                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `AGENTS.md`                                               | la case _Instructions_, ou consigne système                                                                                                                                                                                                                                                                                                                                                                               |
+| `corpus/`, `summaries/`, la vérification de chaque résumé | la case _Knowledge_, après vérification par une personne                                                                                                                                                                                                                                                                                                                                                                  |
+| La skill                                                  | son chatbot dans Open WebUI, qui la reçoit avec ses instructions (étape 5) ; dans un autre agent : voir la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)                                                                                                                                                                                                                          |
+| L'outil MCP                                               | son chatbot dans Open WebUI, dans ce Codespace (étape 5) ; pas dans le fichier de `chatbot-export` ; avec un groupe, le guide Open WebUI, où l'animateur·rice remplit le fichier le jour même (fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), depuis l'image 2026.11.8) ; dans un autre chatbot qui accepte des outils, pour des adultes : même fiche OpenCode |
+| Le wiki                                                   | la case _Knowledge_, après un lint et la lecture de son rapport par une personne                                                                                                                                                                                                                                                                                                                                          |
+| `test-questions.md` et `replay`                           | toujours : les mêmes questions avant et après chaque changement                                                                                                                                                                                                                                                                                                                                                           |
 
 Pour reconstruire son chatbot, le chemin le plus court est **Open WebUI** : dans un Codespace du guide Open WebUI (pas celui-ci, où la commande est inconnue), `openwebui import` prend le fichier produit par `chatbot-export` (voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Un projet Claude a les deux mêmes cases, tout comme un Gem de Gemini. Mais Google fait passer les Gems en lecture seule sur les comptes personnels le 17 novembre 2026 et les supprime le 17 décembre 2026, et claude.ai est réservé aux adultes (18 ans et plus) : lire les règles d'un outil avant de prévoir une séance avec des jeunes. Flowise et Langflow relient des blocs sur un canevas ; LangChain, LlamaIndex et le Claude Agent SDK s'utilisent en écrivant du code. Pour garder les pièces dans un dossier à soi : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
@@ -842,19 +860,24 @@ La clé du binôme a été fournie par l'animateur·rice pour la série : elle p
 
 :::
 
-:::caution[Avec des jeunes et une clé OpenRouter]
+:::caution[Avant d'ouvrir à des jeunes un chatbot payé par une clé OpenRouter]
 
-Taper `workshop-login --europe`. Les requêtes ne vont alors que chez Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`. OpenRouter peut quand même les traiter ailleurs. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et les contenus signalés peuvent être conservés. Lire la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter avant toute séance avec des jeunes.
+Lire la section **Young people and OpenRouter** de `SETUP.md`, dans le dépôt : les clés restent chez les adultes, et `workshop-login --europe` vient d'abord. Le détail est dans la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter.
 
 :::
 
-Votre chatbot est terminé. **La suite** : l'atelier 6, [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri). Vous y changez vous-même un modèle, et il ne demande rien d'aujourd'hui. Vous pouvez aussi revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions), ou essayer une autre façon de construire un chatbot avec les guides :
+### Et ensuite
 
-- **Un chatbot pour un groupe** : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)
-- **Garder les questions du groupe sur un ordinateur de la structure** : [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale)
-- **Les mêmes pièces dans un dossier, avec d'autres modèles** : [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)
-- **Les dépôts de la série sur son propre ordinateur** (pas pour un groupe) : [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)
-- **Un assistant qui prépare vos séances**, pour vous et jamais avec des jeunes : [Préparer ses séances avec un assistant qui se souvient](/ressources/youth-ai-lab/guide-hermes)
+Votre chatbot est terminé : c'est la fin de la série « Construire son propre chatbot ». Chaque guide ci-dessous part de ce que vous avez construit, et va plus loin dans une direction :
+
+- **Le partager avec un groupe**, pendant une séance : [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)
+- **Garder chaque question dans sa structure**, avec un **modèle local** sur l'un de ses ordinateurs : [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale)
+- **Garder toutes les pièces dans un dossier à soi**, avec un autre programme que Claude Code : [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode)
+- **Travailler sans Codespace**, sur son propre ordinateur : [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)
+- **Payer de nombreux modèles avec un seul compte**, avec une clé par binôme : [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)
+- **Préparer ses séances avec un assistant**, pour les adultes seulement : [Préparer ses séances avec un assistant qui se souvient](/ressources/youth-ai-lab/guide-hermes)
+
+**Au-delà de la série** : l'atelier 6, [Apprendre à un petit modèle à trier les messages](/ressources/youth-ai-lab/construire-chatbot-6-tri). Vous y changez vous-même un modèle, et vous le placez devant un chatbot, pour trier les messages avant que le chatbot ne réponde. Il ne demande rien d'aujourd'hui. Vous pouvez aussi revenir au [premier atelier](/ressources/youth-ai-lab/construire-chatbot-1-instructions).
 
 :::info[Notes pour l'animateur·rice]
 
