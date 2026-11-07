@@ -3952,7 +3952,7 @@ export const resources: Resource[] = [
     slug: '/ressources/youth-ai-lab/construire-chatbot-6-tri',
     project: 'youth-ai-lab',
     summary:
-      "Dernier atelier de la série Construire son propre chatbot : les animateur·rices règlent un petit modèle multilingue avec leurs propres exemples, pour trier les messages avant le chatbot (sujet, question du jour, urgence, hors sujet). Les binômes le testent avec les messages d'un autre binôme, puis le comparent à Claude : bonnes réponses, urgences manquées, coût, et ce qui sort du Codespace.",
+      "Atelier au-delà de la série Construire son propre chatbot, qui se termine avec l'atelier 5 : les animateur·rices règlent un petit modèle multilingue avec leurs propres exemples, pour trier les messages avant le chatbot (sujet, question du jour, urgence, besoin de bienveillance, hors sujet). Les binômes le testent avec les messages d'un autre binôme, puis le comparent à Claude : bonnes réponses, urgences manquées, coût, et ce qui sort du Codespace.",
     disciplines: ['informatique', 'education-civique'],
     tools: ['ia-generative'],
     software: [],
