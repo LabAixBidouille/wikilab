@@ -274,7 +274,7 @@ Voici le calcul à la main, avec des nombres inventés : deux nombres par liste 
 ![L'attention à la main, avec des nombres inventés. Le jeton « out » a la question (2 ; 1). Comparée aux étiquettes (0 ; 1) de « I », (1 ; 2) de « put » et (0,5 ; 1) de « out », elle donne les scores 1, 4 et 2. Ils deviennent les parts 4,2 %, 84,4 % et 11,4 %. Les contenus (0 ; 10), (10 ; 0) et (5 ; 5), mélangés selon ces parts, donnent (9 ; 1), qui s'ajoute aux nombres du jeton : (1 ; 3) devient (10 ; 4).](/img/ressources/youth-ai-lab/guide-ia-locale/llm-attention-steps.svg)
 
 1. **Comparer.** Multiplier la question par chaque étiquette, nombre par nombre, puis additionner. Pour « put » : 2 × 1 + 1 × 2 = 4. Un score élevé veut dire que l'étiquette correspond à la question. L'[atelier 2](/ressources/youth-ai-lab/construire-chatbot-2-rag) compare ses listes avec le même genre de somme.
-2. **Transformer les scores en parts.** C'est le calcul qui donne les probabilités du jeton suivant. À la calculatrice, 2,718 à la puissance de chaque score donne 2,7 ; 54,6 et 7,4, soit 64,7 au total. Diviser chaque nombre par 64,7 donne 4,2 %, 84,4 % et 11,4 %.
+2. **Transformer les scores en parts.** Chaque part dit ce que « out » prend à un jeton déjà présent dans le texte : ce sont des poids sur le contexte, pas les probabilités du jeton suivant. (Le même calcul, le softmax, donne ces probabilités à la sortie du modèle.) À la calculatrice, 2,718 à la puissance de chaque score donne 2,7 ; 54,6 et 7,4, soit 64,7 au total. Diviser chaque nombre par 64,7 donne 4,2 %, 84,4 % et 11,4 %.
 3. **Mélanger les contenus selon ces parts.** Premier nombre : 0,042 × 0 + 0,844 × 10 + 0,114 × 5, environ 9. Second nombre : 0,042 × 10 + 0,844 × 0 + 0,114 × 5, environ 1.
 
 Le mélange (9 ; 1) s'ajoute aux nombres de « out » : (1 ; 3) devient (10 ; 4). L'essentiel de ce qu'il a reçu vient de « put ». Avec de vrais nombres, c'est ainsi que « out » finit par vouloir dire « éteindre ».
@@ -304,7 +304,7 @@ $$
 \text{mélange} = \sum_j a_j v_j
 $$
 
-La part $a_j$ est le calcul qui donne les probabilités du jeton suivant, à [température](#la-température) 1.
+La part $a_j$ est un poids d'attention sur un jeton du contexte. La même formule de normalisation (softmax) sert aussi, à la sortie du modèle, à calculer les probabilités du jeton suivant, à [température](#la-température) 1.
 
 </details>
 
