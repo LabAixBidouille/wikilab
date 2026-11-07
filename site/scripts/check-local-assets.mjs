@@ -22,7 +22,22 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 
 // Références cassées connues et tracées ailleurs, tolérées pour ne pas
 // bloquer la CI. Retirer une entrée dès que l'issue liée est résolue.
-const KNOWN_MISSING = new Set([]);
+const KNOWN_MISSING = new Set([
+  // Youth AI Lab, série « Construire son propre chatbot » et ses guides :
+  // icônes à produire, cf. #269.
+  '/img/ressources/youth-ai-lab/construire-chatbot-1-instructions/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-2-rag/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-3-recherche/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-4-outils/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-5-wiki/icone.png',
+  '/img/ressources/youth-ai-lab/construire-chatbot-6-tri/icone.png',
+  '/img/ressources/youth-ai-lab/guide-open-webui/icone.png',
+  '/img/ressources/youth-ai-lab/guide-ia-locale/icone.png',
+  '/img/ressources/youth-ai-lab/guide-opencode/icone.png',
+  '/img/ressources/youth-ai-lab/guide-dev-containers/icone.png',
+  '/img/ressources/youth-ai-lab/guide-hermes/icone.png',
+  '/img/ressources/youth-ai-lab/guide-openrouter/icone.png',
+]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;
 // Capture le contenu COMPLET entre délimiteurs (tolère parenthèses, espaces,
