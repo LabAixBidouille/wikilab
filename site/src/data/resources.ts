@@ -3807,7 +3807,7 @@ export const resources: Resource[] = [
     slug: '/ressources/youth-ai-lab/construire-chatbot-2-rag',
     project: 'youth-ai-lab',
     summary:
-      'Atelier 2 sur 5 de la série, pour les animateur·rices : on donne à un chatbot toutes ses connaissances dans le contexte et on regarde ce que cela coûte. On joue ensuite le moteur de recherche avec des bandes de papier, puis on règle un RAG dans Open WebUI pour voir qui choisit les morceaux, et ce que cela cache.',
+      'Atelier 2 sur 6 de la série, pour les animateur·rices : on donne à un chatbot toutes ses connaissances dans le contexte et on regarde ce que cela coûte. On joue ensuite le moteur de recherche avec des bandes de papier, puis on règle un RAG dans Open WebUI pour voir qui choisit les morceaux, et ce que cela cache.',
     disciplines: ['informatique'],
     tools: ['ia-generative', 'debranchee'],
     software: [],
@@ -3878,7 +3878,7 @@ export const resources: Resource[] = [
     slug: '/ressources/youth-ai-lab/construire-chatbot-4-outils',
     project: 'youth-ai-lab',
     summary:
-      "Atelier 4 sur 5 de la série « Construire son propre chatbot » pour animateur·rices : on branche sur le chatbot des outils (serveurs MCP) qui apportent le niveau de danger feu de forêt du jour, l'heure et la météo. On apprend ensuite à lire ce qu'un outil fait et envoie à l'extérieur avant de le brancher, et à remplir l'entrée de son territoire à partir de la source officielle.",
+      "Atelier 4 sur 6 de la série « Construire son propre chatbot » pour animateur·rices : on branche sur le chatbot des outils (serveurs MCP) qui apportent le niveau de danger feu de forêt du jour, l'heure et la météo. On apprend ensuite à lire ce qu'un outil fait et envoie à l'extérieur avant de le brancher, et à remplir l'entrée de son territoire à partir de la source officielle.",
     disciplines: ['informatique', 'education-civique'],
     tools: ['ia-generative'],
     software: [],
