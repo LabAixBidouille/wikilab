@@ -22,7 +22,7 @@ sidebar_position: 15
 
 | Projet       | Durée                       | Difficulté    | Âge                       |
 | ------------ | --------------------------- | ------------- | ------------------------- |
-| Youth AI Lab | 2 h (110 min + 10 de marge) | Intermédiaire | Adultes (animateur·rices) |
+| Youth AI Lab | 2 h (120 min)               | Intermédiaire | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -78,20 +78,20 @@ La question du jour est :
 
 D'abord, on met tout dans le contexte du modèle et on regarde ce que cela coûte. Ensuite, un moteur de recherche choisit quelques morceaux pour chaque question (il cherche dans les documents, pas sur le web), et on regarde lesquels il choisit. C'est ce qu'on appelle le **RAG** (_Retrieval-Augmented Generation_, génération augmentée par la recherche).
 
-Pendant toute la séance, on continue de tester le chatbot avec les mêmes questions qu'à l'atelier 1 : aujourd'hui, ce sont les colonnes **B** et **RAG** de la feuille de scores.
+Pendant toute la séance, on continue de tester le chatbot avec les mêmes questions qu'à l'atelier 1 : aujourd'hui, la ligne 12 des colonnes **Bare** et **A**, puis les colonnes **B** et **RAG** de la feuille de scores.
 
 ### Structure de l'atelier
 
-| Partie | Durée  | Niveau | Ce que l'on fait                                                        |
-| ------ | ------ | ------ | ----------------------------------------------------------------------- |
-| 1      | 20 min | -      | Accueil : ouvrir le Codespace, retrouver son travail, lancer Open WebUI |
-| 2      | 15 min | ★      | Tout dans le contexte : le mode `B`, la jauge, le coût                  |
-| 3      | 15 min | ★      | Débranché : jouer le moteur de recherche avec des bandes de papier      |
-| 4      | 20 min | ★★     | Les morceaux et les embeddings : lire ce que le RAG donne au modèle     |
-| 5      | 20 min | ★★★    | Changer les réglages : taille des morceaux, nombre de morceaux          |
-| 6      | 10 min | ★★     | Le RAG face au « tout dans le contexte » : réponses et coût             |
-| 7      | 10 min | -      | Clôture : quand choisir un RAG, sauvegarde, carte de sortie             |
-| Marge  | 10 min | -      |                                                                         |
+| Partie | Durée  | Niveau | Ce que l'on fait                                                                               |
+| ------ | ------ | ------ | ---------------------------------------------------------------------------------------------- |
+| 1      | 25 min | -      | Accueil : ouvrir le Codespace, retrouver son travail, lancer Open WebUI, écrire sa question 12 |
+| 2      | 15 min | ★      | Tout dans le contexte : le mode `B`, la jauge, le coût                                         |
+| -      | 5 min  | -      | Démonstration du débordement, par l'animateur·rice, au grand écran                             |
+| 3      | 15 min | ★      | Débranché : jouer le moteur de recherche avec des bandes de papier                             |
+| 4      | 20 min | ★★     | Les morceaux et les embeddings : lire ce que le RAG donne au modèle                            |
+| 5      | 20 min | ★★★    | Changer les réglages : taille des morceaux, nombre de morceaux                                 |
+| 6      | 10 min | ★★     | Le RAG face au « tout dans le contexte » : réponses et coût                                    |
+| 7      | 10 min | -      | Clôture : quand choisir un RAG, son chatbot en RAG, sauvegarde, carte de sortie                |
 
 Les étoiles indiquent la difficulté de chaque partie, de ★ à ★★★.
 
@@ -172,9 +172,9 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 **Qui paie** : chaque organisation partenaire paie ses propres séances (son compte Anthropic, son espace de travail, ses clés). Le plafond porte sur l'espace de travail, pas sur chaque clé : **un binôme peut consommer la part d'un autre**. Garder la console Anthropic ouverte pendant l'atelier et surveiller les dépenses. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent ; compter alors 3 \$ × binômes × ateliers du mois, ou le relever avant chaque atelier. Coût indicatif par binôme pour toute la série : à compléter à la répétition. Coût mesuré pour cet atelier : environ 0,75 \$ par binôme, les conversations restant à compléter à la répétition.
 
-**Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter (coût par binôme : à compléter). Avec des jeunes, taper `workshop-login --europe` : cela ne lève pas la règle des 18 ans et plus d'OpenRouter ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)).
+**Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables ([guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,03 \$ pour les commandes du terminal de cet atelier, et environ 0,12 \$ pour les ateliers 1 à 5, joués une fois le 5 novembre 2026 dans un conteneur de l'image 2026.11.4, ni dans un Codespace ni avec un groupe. Ne sont pas comptés : `replay RAG` et les chatbots Open WebUI. Un binôme qui pose plus de questions dépense davantage : c'est un minimum. Les ateliers sont pour les adultes : aucun ou aucune jeune ne tape dans le Codespace ni ne détient de clé, et OpenRouter demande des utilisateurs de 18 ans ou plus. Les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirer les noms et les détails personnels, et taper d'abord `workshop-login --europe` ([guide, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)). Avec `--europe`, le 2 novembre 2026, `replay RAG` (Wildfire RAG, Mistral Small 2603, 11 questions) a obtenu **0 à la question 10** du juge (Mistral Small 3.2) : la réponse donnait les 2 242 195 hectares comme brûlés hors de l'UE, un total qui inclut l'UE. Un seul essai : s'y attendre, et s'en servir dans le débat.
 
-Avec `--europe`, le modèle du chatbot est `mistralai/mistral-small-2603`, et le mode B tourne. Dans un essai du 1er novembre 2026, `replay B 3 7 10` a pris 10 s, avec environ 70 000 jetons par question et 0,01 \$ affichés. C'est environ un tiers de la fenêtre de 200 000, pas la moitié qu'annonce la partie 2 : le dire avant que les binômes regardent la jauge. `replay A`, le `replay B` complet (26 s, 0,01 \$ affichés) et `replay RAG 1 7` ont tourné avec ce modèle. Non testés : `openwebui sizes` et ses modèles Wildfire RAG 1000 et 2000. Si un binôme a tapé lui-même `mistralai/mistral-small-3.2-24b-instruct`, le mode B s'arrête et donne la commande à taper.
+Avec `--europe`, le modèle du chatbot est `mistralai/mistral-small-2603`, et le mode B tourne. Dans un essai du 1er novembre 2026, `replay B 3 7 10` a pris 10 s, avec environ 70 000 jetons par question et 0,01 \$ affichés. C'est environ un tiers de la fenêtre de 200 000, pas la moitié qu'annonce la partie 2 : le dire avant que les binômes regardent la jauge. `replay A`, le `replay B` complet (26 s, 0,01 \$ affichés) et `replay RAG` (`1 7` le 1er novembre 2026, les 11 questions le 2 novembre) ont tourné avec ce modèle. `openwebui sizes` a tourné (1 min 34, le 2 novembre 2026) ; ses modèles Wildfire RAG 1000 et 2000 n'ont pas été interrogés (non testés). Si un binôme a tapé lui-même `mistralai/mistral-small-3.2-24b-instruct`, le mode B s'arrête et donne la commande à taper.
 
 La fiche animateur n'est pas dans les dépôts que les participant·es ouvrent, et c'est voulu : elle donne des scores mesurés, et à partir de l'atelier 3 le modèle peut lire tous les fichiers du dépôt.
 
@@ -182,9 +182,9 @@ La fiche animateur n'est pas dans les dépôts que les participant·es ouvrent, 
 
 ---
 
-## Partie 1 : Accueil (20 min)
+## Partie 1 : Accueil (25 min)
 
-**Objectif** : ouvrir le Codespace de cet atelier, retrouver son travail, et laisser Open WebUI préparer ses deux bases de connaissances (les documents, découpés en morceaux et prêts pour une recherche) en arrière-plan pendant qu'on travaille.
+**Objectif** : ouvrir le Codespace de cet atelier, retrouver son travail, et laisser Open WebUI préparer ses deux bases de connaissances (les documents, découpés en morceaux et prêts pour une recherche) en arrière-plan pendant qu'on travaille. Écrire ensuite sa propre question de test : la question 12.
 
 ### Étape 1 : Ouvrir son Codespace et enregistrer sa clé
 
@@ -202,15 +202,17 @@ Les commandes sont les mêmes, après `workshop-login --engine opencode`. La par
 
 :::note[Si votre clé commence par sk-or- (OpenRouter)]
 
-Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score`, Open WebUI et `replay RAG` passent aussi par OpenRouter. Open WebUI a été mesuré ainsi avec Mistral Small, pas avec le modèle par défaut, DeepSeek V4 Flash (non testé). On arrive alors dans OpenCode, sans les premiers écrans de Claude Code : voir [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
+Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score`, Open WebUI et `replay RAG` passent aussi par OpenRouter. Le détail est dans la section _With an OpenRouter key_ de `SETUP.md` (https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/SETUP.md#with-an-openrouter-key). Avec le modèle par défaut, DeepSeek V4 Flash, cette voie a été essayée deux fois, le 2 et le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : `replay RAG` a répondu aux 11 questions en environ 50 s, et le juge, DeepSeek lui aussi, a donné 15 sur 20 (il n'a pas pu lire une réponse), puis 17 sur 22. Open WebUI a aussi été mesuré avec Mistral Small. On arrive alors dans OpenCode, sans les premiers écrans de Claude Code : voir [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
 
 Ne comparez que vos propres colonnes : `score` écrit le modèle sous le tableau, et prévient quand deux colonnes ont utilisé des modèles différents. Les chiffres du chatbot dans cette page (coût, durée, jauge, notes) ont été mesurés avec Claude, pas avec ce modèle.
 
 :::
 
-:::caution[Avec des jeunes et une clé OpenRouter]
+:::caution[Les jeunes et OpenRouter]
 
-Taper `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) avant toute séance avec des jeunes.
+**Les ateliers sont pour les adultes. Le Codespace et les clés restent avec eux.** Aucun ou aucune jeune ne tape dans le Codespace d'un atelier ni ne détient de clé. Les conditions d'OpenRouter demandent des utilisateurs de 18 ans ou plus. Son chat d'assistance lit cette règle ainsi : aucun ou aucune jeune ne crée ni n'utilise sa propre clé. Cette lecture n'est pas écrite dans ses conditions : garder donc toutes les clés avec les adultes.
+
+Quand ce qu'ont écrit des jeunes passe par OpenRouter (par exemple leurs questions, tapées par un adulte dans le Codespace, ou un chatbot partagé avec un groupe et payé avec une clé OpenRouter), leurs mots vont à OpenRouter et à l'entreprise qui fait tourner le modèle, même quand un adulte les tape. Donc ni nom ni détail personnel, et taper d'abord `workshop-login --europe`. Les requêtes ne partent alors que vers Mistral, hébergé en Europe, avec zéro conservation des données (_zero data retention_ : Mistral dit ne rien stocker). Le modèle par défaut est `mistralai/mistral-small-2603`, et le juge devient `mistralai/mistral-small-3.2-24b-instruct`. OpenRouter lui-même peut encore traiter les requêtes ailleurs, et les comptes et la facturation peuvent rester aux États-Unis : garder le traitement en Europe demande une offre Business, que ces commandes ne gèrent pas. Ce réglage ne lève ni la règle des 18 ans et plus d'OpenRouter ni la section 5.2 de ses conditions, et un contenu signalé peut être conservé. Un chatbot déjà ouvert garde son ancienne règle : le fermer et le relancer. Le détail est dans la section _Young people and OpenRouter_ de `SETUP.md` (https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/SETUP.md#young-people-and-openrouter). Lire la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) avant toute séance avec des jeunes.
 
 :::
 
@@ -251,20 +253,52 @@ Le même dépôt s'ouvre sur votre propre ordinateur, avec Docker et VS Code : v
 
    Quand c'est terminé, la dernière ligne est `READY: Open WebUI is ready, with the two sizes.` Appuyer sur **Ctrl+C** pour arrêter de suivre : Open WebUI continue de tourner.
 
-:::note[Astuce : la question 12]
-La ligne 12 de `test-questions.md` est encore vide ? Suivre maintenant sa section **Question 12: your territory** : écrire la question, et la réponse attendue avec sa source. Taper ensuite `replay bare 12` et `replay A 12`, puis les noter avec `score bare 12` et `score A 12`.
-:::
-
 :::caution[Ne jamais rendre le port 3000 public]
 On accède à Open WebUI par le **port 3000** du Codespace : une porte numérotée, listée dans l'onglet **Ports**, à côté du terminal. Ce port est privé : vous seul·es pouvez l'ouvrir. **Ne jamais rendre le port 3000 public** (onglet Ports, clic droit sur 3000, Port Visibility). Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 :::
 
+### Étape 3 : Écrire sa question 12 (5 min)
+
+À l'atelier 1, le chatbot a été testé avec les 11 questions du kit. La question 12 appartient au binôme : une question sur le territoire où il travaille avec des jeunes. Elle teste le chatbot sur un fait que le binôme connaît bien, et elle fait du test le sien. À l'atelier 3, le binôme ajoutera sa page aux documents de son chatbot.
+
+1. Ouvrir `test-questions.md` et lire sa section **Question 12: your territory**.
+2. Dans la ligne 12, écrire la question, la réponse attendue, et l'adresse de la page officielle où la réponse a été trouvée (sa source). Écrire dans l'éditeur normal : on ne peut pas taper dans l'aperçu.
+3. Rejouer la question 12 avec le modèle seul, puis avec ses instructions :
+
+   ```bash
+   replay bare 12
+   replay A 12
+   ```
+
+4. Noter les deux réponses **à l'aveugle**, comme à l'atelier 1 : on tape sa note d'abord, puis le juge montre la sienne.
+
+   ```bash
+   score bare 12 --blind
+   score A 12 --blind
+   ```
+
+   Aujourd'hui, aucun mode du chatbot n'a la page du binôme : un « je ne sais pas » honnête obtient 1.
+
+:::info
+
+Avec la question 12, chaque colonne de `scores.md` a 12 questions : une colonne complète est désormais notée sur 24. La ligne 12 a déjà été écrite à l'atelier 1 ? Passer à la partie 2.
+
+:::
+
+:::caution[Ne plus changer la question 12]
+
+Ne pas changer la question 12 une fois notée : n'écrire une nouvelle question que si l'on efface aussi sa ligne dans `scores.md`.
+
+:::
+
 :::note[Point de contrôle]
-`Key OK`, `Ready for workshop 2`, et le journal d'Open WebUI (le fichier où il note ce qu'il fait) qui s'allonge dans le second terminal.
+`Key OK`, `Ready for workshop 2`, le journal d'Open WebUI (le fichier où il note ce qu'il fait) qui s'allonge dans le second terminal, et la ligne 12 écrite et notée dans les colonnes Bare et A.
 :::
 
 :::info[Notes pour l'animateur·rice]
-Les parties 2 et 3 n'ont pas besoin d'Open WebUI : elles servent de temps d'attente (environ 4 à 5 minutes la première fois). À 0:35, demander à chaque binôme de regarder la dernière ligne de `.workshop/openwebui-start.log`. Si un binôme n'est pas `READY` à 0:50, faire la partie 4 sur votre propre Open WebUI au grand écran ; le binôme rejoint quand son journal affiche `READY` (s'il affiche `STOPPED` : `openwebui start && openwebui sizes`).
+Les parties 2 et 3 n'ont pas besoin d'Open WebUI : elles servent de temps d'attente (environ 4 à 5 minutes la première fois). À 0:45, demander à chaque binôme de regarder la dernière ligne de `.workshop/openwebui-start.log`. Si un binôme n'est pas `READY` à 1:00, faire la partie 4 sur votre propre Open WebUI au grand écran ; le binôme rejoint quand son journal affiche `READY` (s'il affiche `STOPPED` : `openwebui start && openwebui sizes`).
+
+**Question 12** (étape 3, 5 min, prises sur la marge). L'atelier 1 ne teste plus que les 11 questions du kit (totaux sur 22), et chaque binôme écrit ici sa question 12. Elle a deux rôles : c'est une question de test comme les autres, et elle fait du test celui du binôme. On la note à l'aveugle (`--blind` : la note du binôme d'abord, puis celle du juge), parce que le juge ne propose sa note qu'à partir de la partie 2. Une fois la ligne 12 écrite, une colonne complète a 12 questions : **les totaux sont sur 24**. Les colonnes Bare et A reçoivent leur 12e note à cette étape, et restent ainsi comparables avec B et RAG. Un binôme qui a déjà écrit la ligne 12 à l'atelier 1 saute l'étape. Les mesures de cette fiche ont été faites sur les 11 questions, sans la question 12 : elles restent sur 22.
 :::
 
 ---
@@ -290,6 +324,8 @@ Instructions générales de l'outil
 ```
 
 **À retenir** : en mode B, personne ne choisit. Tout entre dans le contexte à chaque message, et se paie à chaque message. Le modèle peut donc trouver n'importe quelle information, et voir une contradiction entre deux documents, parce qu'il a les deux.
+
+Les résumés ont été préparés pour la série, à partir de documents officiels : aujourd'hui, on les utilise tels quels. À l'atelier 3, le binôme ajoute un document à lui, et vérifie lui-même son résumé.
 
 **Pourquoi chaque message paie.** Un modèle se paie au jeton, pour ce qu'il lit et pour ce qu'il écrit. En mode B, le modèle lit environ 100 000 jetons même pour une question de quelques mots, et la réponse n'a parfois besoin que d'une phrase d'un seul fichier.
 
@@ -363,6 +399,8 @@ Sans `--europe`, la seconde ligne se termine par `workshop-login --models openro
 
    **Ce qu'il faut regarder.** En mode A, le chatbot n'avait aucun document : une question précise recevait surtout un « je ne sais pas » honnête. Une note qui monte en colonne B veut dire que le modèle a trouvé le fait dans le kit. La question 7 ne devrait pas baisser : plus de documents ne doit pas le faire inventer. Pour la question 10, chercher les deux chiffres dans la même réponse : le modèle ne peut les comparer que parce qu'il a les deux documents.
 
+   **Pourquoi ça marche.** Un document peut apporter un fait que le modèle n'a jamais appris pendant son entraînement : un fait publié après son entraînement, ou trop local pour y figurer. La question 1 en est un exemple : elle demande les chiffres de 2025, qui ont pu être publiés après l'entraînement du modèle. C'est ainsi qu'un chatbot reste à jour sans réentraîner le modèle : on change ses documents.
+
 :::info[Le barème]
 
 - **2** : juste, et la réponse dit d'où elle vient (pour les questions 7 et 9, dire « je ne sais pas » ou refuser est juste).
@@ -384,7 +422,9 @@ Un chatbot qui lit tout. **Réemploi** : la case _Knowledge_ d'un outil de discu
 :::
 
 :::info[Notes pour l'animateur·rice]
-Après la partie 2, demander : « Le kit remplit la moitié de la fenêtre. Votre groupe ajoute un document par semaine. Quand est-ce que ça s'arrête ? » Laisser la salle trouver que la fenêtre a un maximum, et que chaque message paie pour tout ce qu'elle contient. Aujourd'hui, les binômes notent les questions 3, 7 et 10 dans les colonnes B et RAG ; les autres seulement s'il reste du temps. Les `replay` restent complets.
+**Démonstration du débordement** (fin de la partie 2, 5 min prises sur la marge, par l'animateur·rice seul·e, au grand écran, dans son propre Codespace ; les binômes ne la font pas). Elle répond à « et avec dix fois plus de documents ? » : quand les connaissances dépassent la fenêtre, le chatbot ne répond pas mal, il ne répond pas du tout. Une bande de 2 m au sol ou au mur figure la fenêtre (1 cm = 1 000 jetons), et trois bandes de 1 m figurent chacune le kit. Une copie du dépôt dans `/tmp/three-kits`, avec chaque résumé et chaque copie lisible en trois exemplaires, est posée au modèle Claude Haiku 4.5, dont la fenêtre fait exactement 200 000 jetons : la requête est refusée avant toute réponse (`Prompt is too long`, environ 237 000 jetons pour une limite de 200 000), et la jauge reste à `0 / 200k`. Ne jamais faire ces copies dans le dépôt d'un binôme ni dans le sien. Préparation (10 min), commandes exactes, mesures et replis : section _The overflow demo_ de la fiche animateur.
+
+Après la partie 2 et la démonstration, demander : « La démonstration a refusé trois fois le kit. Votre groupe ajoute un document par semaine, environ 3,5 cm de bande : quand est-ce que ça s'arrête ? Et que fait-on alors ? » Laisser la salle trouver que la fenêtre a un maximum, et que chaque message paie pour tout ce qu'elle contient. Aujourd'hui, les binômes notent les questions 3, 7 et 10 dans les colonnes B et RAG ; les autres seulement s'il reste du temps. Les `replay` restent complets.
 :::
 
 ---
@@ -423,7 +463,7 @@ Les deux cartes-questions :
 **À retenir** : le modèle ne peut utiliser que ce qu'il reçoit. Si le moteur de recherche ne choisit pas le morceau qui contient la réponse, le modèle ne peut pas la trouver. Et un moteur de recherche donne toujours quelque chose, même quand la réponse n'existe nulle part.
 
 :::note[Cette activité fonctionne avec des jeunes]
-Sans ordinateur : des bandes tirées de leurs propres documents, une question, et un binôme qui joue le moteur de recherche. Les bandes de cet atelier, à imprimer ou à prendre pour modèle : https://youth-ai-lab.github.io/yal-workshop/2/strips.html
+Sans ordinateur : des bandes tirées de leurs propres documents, une question, et un binôme qui joue le moteur de recherche. Les bandes de cet atelier, à imprimer ou à prendre pour modèle : https://youth-ai-lab.github.io/yal-workshop/2/strips.html. Une version pour les 12-15 ans, sous forme de jeu avec des manches et des points : le jeu du moteur de recherche, https://youth-ai-lab.github.io/yal-workshop/2/strips-youth.html
 :::
 
 :::note[Point de contrôle]
@@ -541,10 +581,10 @@ Regarder aussi la dernière ligne. _Incendie de forêt_ est la traduction de _fo
 
 Voici ce qui se passe pour la question 10, avec les chiffres de notre test. Chaque étape peut s'expliquer.
 
-**Avant toute question.** Open WebUI a découpé les 37 fichiers en **322 morceaux**, et le petit modèle a donné à chaque morceau ses 384 nombres. Cela se fait une fois, et se garde. C'est ce stock qu'on appelle une **base**.
+**Avant toute question.** Open WebUI a découpé les 37 fichiers en **326 morceaux**, et le petit modèle a donné à chaque morceau ses 384 nombres. Cela se fait une fois, et se garde. C'est ce stock qu'on appelle une **base**.
 
 1. **La question devient des nombres.** Le même petit modèle donne à la question ses 384 nombres.
-2. **Chaque morceau reçoit un score.** La recherche compare la question aux 322 morceaux. Le meilleur score est 0,861, le plus bas 0,490, et la moitié des morceaux sont sous 0,599.
+2. **Chaque morceau reçoit un score.** La recherche compare la question aux 326 morceaux. Le meilleur score est 0,861, le plus bas 0,490, et la moitié des morceaux sont sous 0,599.
 3. **La recherche trie les morceaux et coupe la liste après 5.** C'est le top-k :
 
    | Rang  | Score         | Fichier                           | Contient                                                  |
@@ -575,7 +615,7 @@ Voici ce qui se passe pour la question 10, avec les chiffres de notre test. Chaq
 
    Le nombre `id` est le fichier : c'est ainsi que la réponse peut nommer ses sources.
 
-5. **Le modèle lit ce message et écrit.** Il n'a rien cherché. Il ne sait pas que 317 autres morceaux existent.
+5. **Le modèle lit ce message et écrit.** Il n'a rien cherché. Il ne sait pas que 321 autres morceaux existent.
 
 Ces étapes sont les trois mots de **RAG** : _Retrieval_ (étapes 1 à 3, la recherche), _Augmented_ (étape 4, le message allongé), _Generation_ (étape 5, la réponse).
 
@@ -617,14 +657,14 @@ Ces étapes sont les trois mots de **RAG** : _Retrieval_ (étapes 1 à 3, la rec
 
    Regarder les noms : quels extraits viennent de `corpus-text__43-...` ? C'est le texte complet d'un arrêté des Bouches-du-Rhône, une décision juridique de la préfecture. Lire ces extraits. La réponse est à l'article 4 (accès) et à l'article 9 (travaux) de l'arrêté : des listes de niveaux de risque, avec le mot `INTERDITS`. Le début du document est une liste de lignes qui commencent par `VU`. La recherche a-t-elle donné les articles, ou autre chose ?
 
-**Ce qui a été mesuré** (sans le modèle, sur le kit) : pour la question 3, les morceaux du document 43 venaient de sa première page et, dans la base de 1000, de l'article 5 (les personnes à qui les interdictions ne s'appliquent pas), jamais des articles qui répondent, à toutes les tailles. Dans la base de 1000, les deux morceaux qui contiennent le mot `INTERDITS` arrivent **56e** et **58e** sur 322. Pour la question 7, le RAG a toujours donné 5 morceaux. Pour la question 10, voir la partie 5.
+**Ce qui a été mesuré** (sans le modèle, sur le kit) : pour la question 3, les morceaux du document 43 venaient de sa première page, jamais des articles qui répondent, à toutes les tailles. Dans la base de 1000, un seul morceau du document 43 revient, 5e, et un résumé sur la Charente-Maritime arrive 4e. Les deux morceaux qui contiennent le mot `INTERDITS` arrivent **61e** et **63e** sur 326. Pour la question 7, le RAG a toujours donné 5 morceaux. Pour la question 10, voir la partie 5.
 
 **Pourquoi toujours 5.** La recherche ne se demande pas si un morceau est assez bon. Elle trie les morceaux du plus proche au plus lointain, et prend les 5 premiers. Même quand aucun morceau n'est vraiment proche, il y a toujours 5 premiers. Les bandes suivaient la même règle : toujours passer quelque chose.
 
 Les scores le montrent. Essayer : `openwebui query "What is the best recipe for a chocolate cake?"`. Dans notre test, le meilleur score est **0,573**, et les 5 extraits sont surtout des listes de villes françaises. Pour la question 7, le meilleur score est **0,831**, proche des 0,861 de la question 10, et pourtant la réponse n'existe nulle part. Deux extraits parlent de la Campanie, en 2017 et en 2026. Trois parlent des hectares de 2025 dans l'UE. Le score bas a dit que rien n'était proche, et le score haut n'a pas dit que la réponse était là.
 
 :::info[La langue explique-t-elle la question 3 ?]
-Le document 43 est en français, la question en anglais, et le petit modèle a été fait pour l'anglais. La question a été essayée en français. La recherche change : 4 des 5 extraits viennent alors du document 40, en français. Les deux morceaux avec `INTERDITS` passent de 56e et 58e à 30e et 70e : aucun ne revient. La langue change donc le résultat, et elle n'explique pas tout. Ces morceaux sont des listes de niveaux, avec peu de phrases : cela peut compter aussi, mais **cela n'a pas été testé**. Essayer la question en français, si vous le souhaitez, et dire à la salle ce que vous voyez.
+Le document 43 est en français, la question en anglais, et le petit modèle a été fait pour l'anglais. La question a été essayée en français. La recherche change : 4 des 5 extraits viennent alors du document 40, en français. Les deux morceaux avec `INTERDITS` passent de 61e et 63e à 30e et 70e : aucun ne revient. La langue change donc le résultat, et elle n'explique pas tout. Ces morceaux sont des listes de niveaux, avec peu de phrases : cela peut compter aussi, mais **cela n'a pas été testé**. Essayer la question en français, si vous le souhaitez, et dire à la salle ce que vous voyez.
 :::
 
 :::note[Point de contrôle]
@@ -639,7 +679,7 @@ Pour la question 7, le modèle reçoit 5 extraits, et aucun ne contient la répo
 
 Les mots du jour : morceau (_chunk_), embedding, top-k.
 
-**Question 3.** Elle échoue à toutes les tailles. Les morceaux du document 43 viennent de sa première page et, dans la base de 1000, de l'article 5. Le document est en français, la question en anglais, et le modèle d'embeddings d'Open WebUI (`all-MiniLM-L6-v2`) a été fait pour l'anglais (sa fiche indique `language: en`). Testé le 31 octobre 2026 : en français, 4 des 5 extraits viennent du document 40, et les deux morceaux avec `INTERDITS` passent de 56e et 58e à 30e et 70e sur 322. La langue change le résultat et n'explique pas tout. Le rôle éventuel de la forme de ces morceaux, des listes de niveaux, **n'a pas été testé** : le dire.
+**Question 3.** Elle échoue à toutes les tailles. Les morceaux du document 43 viennent de sa première page (dans la base de 1000, un seul morceau, 5e, après un résumé sur la Charente-Maritime). Le document est en français, la question en anglais, et le modèle d'embeddings d'Open WebUI (`all-MiniLM-L6-v2`) a été fait pour l'anglais (sa fiche indique `language: en`). Testé le 31 octobre 2026 : en français, 4 des 5 extraits viennent du document 40, et les deux morceaux avec `INTERDITS` passent de 61e et 63e à 30e et 70e sur 326. La langue change le résultat et n'explique pas tout. Le rôle éventuel de la forme de ces morceaux, des listes de niveaux, **n'a pas été testé** : le dire.
 
 **Embeddings.** Avant l'activité, dessiner deux flèches au tableau : la fiche et le deck expliquent le score par l'angle entre deux flèches, et par la somme des produits de deux listes. Open WebUI montre `(1 + cosinus) / 2`, d'où le « aucun lien » à 0,5 ici et à environ 0 dans l'atelier 6. Ne pas expliquer le pourcentage affiché quand on clique sur une source : ce n'est pas ce score, et sa formule n'a pas été recherchée. Les binômes trient des paires de textes par proximité, puis ouvrent les scores mesurés. Prévoir 5 minutes dans les 20 de la partie 4, et réduire la question 3 à un coup d'œil si la partie prend du retard. Le point à garder : _forbidden_ et _allowed_ obtiennent 0,964, la recherche trouve ce dont parle un texte, pas ce qui est vrai. Les chiffres et les scripts sont dans `facilitator/atelier-2-measures/2026-10-31-embeddings/`. Ce minutage n'a pas été essayé avec un groupe.
 
@@ -700,7 +740,7 @@ Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comm
 
    Est-ce que quelque chose ramène l'article qui répond ?
 
-   Mesure de l'équipe : non, à aucune des deux tailles, même avec 10 extraits. Dans la base de 1000, les deux morceaux avec `INTERDITS` sont 56e et 58e : un top-k de 10 s'arrête bien avant. Les réglages changent la part du résultat de la recherche que reçoit le modèle. Ils ne peuvent pas ramener un passage que la recherche ne place pas près de la question. À l'atelier 3, le modèle cherche lui-même : dans notre test, il a ouvert cet arrêté.
+   Mesure de l'équipe : non, à aucune des deux tailles, même avec 10 extraits. Dans la base de 1000, les deux morceaux avec `INTERDITS` sont 61e et 63e : un top-k de 10 s'arrête bien avant. Les réglages changent la part du résultat de la recherche que reçoit le modèle. Ils ne peuvent pas ramener un passage que la recherche ne place pas près de la question. À l'atelier 3, le modèle cherche lui-même : dans notre test, il a ouvert cet arrêté.
 
 ### Étape 3 : Interroger le modèle dans Open WebUI
 
@@ -769,7 +809,7 @@ Lire les deux réponses mesurées à la question 10. Les deux voient que les sou
    replay RAG
    ```
 
-   Chaque question part au chatbot « Wildfire RAG (workshop kit) » d'Open WebUI (les mêmes morceaux de 1000 que Wildfire RAG 1000), dans une nouvelle conversation. Les réponses vont dans un nouveau fichier du dossier `answers/` : la ligne qui commence par `Answers:`, vers la fin, donne son nom, par exemple `Answers: answers/RAG-15h20.md`. L'ouvrir : sous chaque réponse, il indique de quels documents viennent les extraits. Mesures de l'équipe : 3 à 11 secondes par question. La ligne `Answers:` dit aussi `cost: not shown by Open WebUI` : notre chiffre d'environ **0,14 \$** pour 11 questions est donc une estimation, faite à partir du nombre de jetons. Sous chaque réponse, la ligne `Context: ... tokens` donne la taille de ce que le modèle a lu : 1 872 à 2 869 jetons par question mesurés, contre environ 100 000 en mode B.
+   Chaque question part au chatbot « Wildfire RAG (workshop kit) » d'Open WebUI (les mêmes morceaux de 1000 que Wildfire RAG 1000), dans une nouvelle conversation. Les réponses vont dans un nouveau fichier du dossier `answers/` : la ligne qui commence par `Answers:`, vers la fin, donne son nom, par exemple `Answers: answers/RAG-15h20.md`. L'ouvrir : sous chaque réponse, il indique de quels documents viennent les extraits. Mesures de l'équipe : 4 à 10 secondes par question. La ligne `Answers:` dit aussi `cost: not shown by Open WebUI` : notre chiffre d'environ **0,14 \$** pour 11 questions est donc une estimation, faite à partir du nombre de jetons. Sous chaque réponse, la ligne `Context: ... tokens` donne la taille de ce que le modèle a lu : 2 105 à 2 868 jetons par question mesurés, contre environ 100 000 en mode B.
 
 2. Noter les questions 3, 7 et 10, avec l'aide du juge :
 
@@ -787,12 +827,12 @@ Lire les deux réponses mesurées à la question 10. Les deux voient que les sou
 
 3. **Comparer les colonnes B et RAG** pour les questions 3, 7 et 10, puis les coûts : 0,47 \$ pour B d'après nos mesures, environ 0,14 \$ pour le RAG d'après notre estimation. Ne comparer les deux totaux que si les deux colonnes ont toutes leurs questions notées.
 
-**Faire le calcul.** Le RAG lit environ 40 fois moins que le mode B (environ 2 400 jetons par question en moyenne, contre 100 000), mais il ne coûte qu'environ 3 fois moins. Dans notre essai, le modèle coûtait 2 \$ par million de jetons lus et 10 \$ par million de jetons écrits. Pour les 11 questions du RAG :
+**Faire le calcul.** Le RAG lit environ 40 fois moins que le mode B (environ 2 500 jetons par question en moyenne, contre 100 000), mais il ne coûte qu'environ 3 fois moins. Dans notre essai, le modèle coûtait 2 \$ par million de jetons lus et 10 \$ par million de jetons écrits. Pour les 11 questions du RAG :
 
 |        | Jetons | Coût                                 |
 | ------ | ------ | ------------------------------------ |
-| Lus    | 26 789 | 26 789 × 2 \$ ÷ 1 000 000 = 0,054 \$ |
-| Écrits | 8 633  | 8 633 × 10 \$ ÷ 1 000 000 = 0,086 \$ |
+| Lus    | 27 135 | 27 135 × 2 \$ ÷ 1 000 000 = 0,054 \$ |
+| Écrits | 8 770  | 8 770 × 10 \$ ÷ 1 000 000 = 0,088 \$ |
 | Total  |        | environ **0,14 \$**                  |
 
 D'abord, un RAG réduit la lecture, pas l'écriture, et un jeton écrit coûte cinq fois plus qu'un jeton lu : ici, l'écriture fait l'essentiel de la facture. Ensuite, le mode B ne paie pas plein tarif. À plein tarif, 11 × 100 000 jetons lus coûteraient 2,20 \$, et nous avons mesuré 0,47 \$ pour le tout. Le service qui fait tourner le modèle garde quelque temps le texte qu'il vient de recevoir (un _prompt cache_), et le facture moins cher quand le même texte revient. Chaque message qui suit de près paie donc encore pour tout, mais à un prix plus bas.
@@ -802,14 +842,14 @@ Ces coûts sont payés avec la clé du binôme. Le guide [Construire son chatbot
 :::
 
 :::info[Les deux colonnes n'ont pas les mêmes instructions]
-La colonne B utilise votre `AGENTS.md`. Le chatbot « Wildfire RAG (workshop kit) » ne le lit pas : il a des instructions fixes, les règles de Feurisson (`examples/AGENTS.feurisson.md`) adaptées aux extraits. Si votre `AGENTS.md` est très différent de Feurisson, une partie de l'écart peut venir des instructions, et pas des morceaux.
+La colonne B utilise votre `AGENTS.md`. Le chatbot « Wildfire RAG (workshop kit) » ne le lit pas : il a des instructions fixes, les règles de Feurisson (`examples/AGENTS.feurisson.md`) adaptées aux extraits. Open WebUI met aussi son propre texte autour des extraits ([partie 4, étape 4](#une-question-du-début-à-la-fin)), qui demande de répondre « je ne sais pas » quand ils ne contiennent pas la réponse. Si votre `AGENTS.md` est très différent de Feurisson, une partie de l'écart peut venir des instructions, et pas des morceaux.
 :::
 
-Mesures de l'équipe, avec le juge : 18 sur 22 pour le RAG de 1000, 19 sur 22 pour celui de 2000. La question 7 a obtenu 2 aux deux tailles : le modèle a dit que les extraits ne contenaient pas la réponse, alors qu'il en recevait toujours 5. La question 3 a obtenu 1 aux deux tailles : l'article qui répond n'a jamais été dans les extraits.
+Mesures de l'équipe, avec le juge, sur trois passages du même test : 18, 19, puis 18 sur 22 pour le RAG de 1000, et 19, 16, puis 19 sur 22 pour celui de 2000. La note du juge bouge de quelques points d'un passage à l'autre : un écart d'un ou deux points ne dit donc pas grand-chose. La question 7 a obtenu 2 aux deux tailles à chaque fois : le modèle a dit que les extraits ne contenaient pas la réponse, alors qu'il en recevait toujours 5. La question 3 a obtenu 1 aux deux tailles à chaque fois : l'article qui répond n'a jamais été dans les extraits.
 
 **Regarder côte à côte les questions 3 et 7.** Avec des morceaux de 1000, le chatbot a dit « je ne sais pas » aux deux. Pour la question 7, c'est juste : la réponse n'existe nulle part. Pour la question 3, la réponse est dans le kit, dans le document 43, mais la recherche ne l'a pas ramenée. Dans la discussion, les deux réponses se ressemblent. Seul le jeu de test montre la différence, parce qu'il dit que la question 3 a une réponse.
 
-Pourquoi n'a-t-il pas inventé de réponse à la question 7 ? Ses instructions fixes disent : _If the information is not in the excerpts you were given, say "I don't know"._ (si l'information n'est pas dans les extraits reçus, dire « je ne sais pas »). Ce chatbot n'a pas été mesuré sans cette règle.
+Pourquoi n'a-t-il pas inventé de réponse à la question 7 ? Ses instructions fixes disent : _If the information is not in the excerpts you were given, say "I don't know"._ (si l'information n'est pas dans les extraits reçus, dire « je ne sais pas »). Ce chatbot n'a pas été mesuré sans cette règle. Open WebUI ajoute aussi son propre texte autour des extraits (le `### Task:` de la [partie 4, étape 4](#une-question-du-début-à-la-fin)). Aux deux premiers passages, ce texte demandait de répondre à partir des connaissances du modèle, et le modèle a quand même suivi la règle du chatbot. Dans le Codespace, ce texte dit lui aussi « say that you don't know » (dire que l'on ne sait pas). Le troisième passage l'a utilisé, et a donné les mêmes notes aux questions 3 et 7.
 
 :::note[Point de contrôle]
 Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme peut citer une question où les morceaux ont fait la différence.
@@ -823,7 +863,7 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 
 ## Partie 7 : Clôture (10 min)
 
-**Objectif** : décider quand un RAG est un bon choix, voir ce que certains outils de discussion font d'eux-mêmes, et sauvegarder son travail.
+**Objectif** : décider quand un RAG est un bon choix, voir ce que certains outils de discussion font d'eux-mêmes, donner un RAG à son propre chatbot, et sauvegarder son travail.
 
 ### Quand choisir un RAG
 
@@ -835,6 +875,8 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 | **Son échec**                | s'arrête quand les connaissances grandissent | **donne toujours quelque chose**, même quand la réponse n'est pas dans les morceaux : l'échec est invisible |
 
 **À retenir** : l'échec d'un RAG ne se voit pas. Quand il choisit les mauvais morceaux, le modèle reçoit quand même 5 extraits, et il peut répondre à partir d'eux avec assurance. C'est pour cela que les questions de test comptent : elles montrent les échecs que la discussion ne montre pas.
+
+**C'est la question de l'atelier 3.** Et si le modèle cherchait lui-même les morceaux, et que l'on pouvait voir où il a cherché, et quand il n'a rien trouvé ? L'atelier 3 l'essaie sur les mêmes questions.
 
 **En pratique.** Si vos documents sont peu nombreux et courts, mettez-les tous dans le contexte : c'est simple, et le modèle peut les comparer. S'ils ne tiennent plus, ou si chaque message coûte trop cher, utilisez un RAG, et continuez de le tester avec des questions dont vous connaissez les réponses.
 
@@ -849,6 +891,27 @@ Leurs pages d'aide, lues le 2026-10-29, disent :
 
 La même case _Knowledge_ peut donc tout lire, chercher des morceaux, ou en manquer une partie, selon sa taille et l'outil. Claude Projects montre quand il cherche, mais on ne choisit pas. L'aide de Gemini ne dit pas comment on saurait qu'une partie a été manquée.
 
+### Son chatbot, en RAG
+
+On a vu ce qu'un RAG donne au modèle. On donne maintenant un RAG à son propre chatbot : ses instructions (`AGENTS.md`), ses résumés et les documents, cherchés avant chaque réponse. L'atelier 1 lui a donné ses _Instructions_, cet atelier lui donne ses _Connaissances_ : avec les deux, on a un chatbot que l'on peut déjà utiliser.
+
+1. Dans le second terminal, vérifier qu'Open WebUI est prêt (le journal affiche `READY`), puis taper, avec le nom de son chatbot :
+
+   ```bash
+   openwebui chatbot --name "Feurisson" --rag
+   ```
+
+   **Ce que l'on doit voir** : une ligne `Adding "Feurisson chatbot" to Open WebUI: ... knowledge files...`, puis, à la fin, `Ready. In Open WebUI (...): New Chat, then choose "Feurisson chatbot (RAG)" in the message box (bottom right).` Sans `--rag`, la même commande a pris 37 secondes pour 37 fichiers lors d'un essai sur une machine locale ; avec `--rag`, et dans un Codespace, elle n'a pas été chronométrée.
+
+2. Ouvrir l'adresse, cliquer sur **New Chat**, choisir **Feurisson chatbot (RAG)** (avec le nom du sien), et demander `Who are you?` : il répond avec l'identité de son `AGENTS.md`.
+3. Poser sa question 12, ou la question 7. Avant chaque réponse, Open WebUI lui donne les 5 extraits les plus proches de la question, comme pour « Wildfire RAG » : la même recherche, avec ses instructions.
+
+:::info
+
+Sans `--rag`, la même commande fabrique un autre chatbot, **Feurisson chatbot**, qui cherche lui-même dans ses documents : on le construit à l'atelier 3. Un même Open WebUI peut avoir les deux, et on peut leur poser la même question.
+
+:::
+
 ### Sauvegarder son travail, remplir la carte de sortie
 
 1. Taper `workshop-save`, puis faire un clic droit sur `my-work.zip` → **Download...**. L'apporter à l'atelier 3 (capture `images/download-zip.png` dans le dépôt). Si l'ordinateur a déjà un `my-work.zip`, le nouveau s'appellera peut-être `my-work (1).zip` : apporter le plus récent.
@@ -858,18 +921,20 @@ La même case _Knowledge_ peut donc tout lire, chercher des morceaux, ou en manq
    3. Pourquoi l'échec d'un RAG est-il plus difficile à voir qu'un échec du mode B ?
 
 :::note[Ce que vous avez construit]
-Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connaissances d'un chatbot Open WebUI (partie 2 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) ; en anglais, [Step 1 - Gather your documents](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-1---gather-your-documents-knowledge) pour rassembler ses documents, puis [Step 4 - Try it](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-4---try-it) pour l'essayer et lire les passages trouvés), et sur un ordinateur de votre structure (guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), section des mesures : les deux mêmes échecs, avec des modèles locaux). Dans le chatbot du guide Open WebUI, par défaut, c'est le modèle qui décide quand chercher (une ligne `Explored...` ou `View Result from...` au-dessus de sa réponse) ; ici, Open WebUI cherchait avant chaque réponse.
+Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connaissances d'un chatbot Open WebUI (partie 2 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) ; en anglais, [Step 1 - Gather your documents](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-1---gather-your-documents-knowledge) pour rassembler ses documents, puis [Step 4 - Try it](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-4---try-it) pour l'essayer et lire les passages trouvés), et sur un ordinateur de votre structure (guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), section des mesures : les deux mêmes échecs, avec des modèles locaux). Dans le chatbot du guide Open WebUI, par défaut, c'est le modèle qui décide quand chercher (une ligne `Explored...` ou `View Result from...` au-dessus de sa réponse) ; dans son chatbot `--rag`, comme dans « Wildfire RAG », Open WebUI cherchait avant chaque réponse.
 :::
 
 **Suite** : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche) (dépôt https://github.com/Youth-AI-Lab/yal-workshop-search). Ouvrir son propre Codespace depuis la page du dépôt de l'atelier 3, et apporter `my-work.zip`.
 
 :::info[Notes pour l'animateur·rice]
 
-**Ce que contient une bonne carte de sortie** : (1) un moteur de recherche, avant le modèle, à partir de morceaux découpés à l'avance ; (2) la question 10 (morceaux de 2000, ou 10 extraits) ; (3) le RAG donne toujours des extraits, et le modèle peut répondre avec assurance à partir des mauvais, alors que le mode B s'arrête simplement quand la fenêtre est pleine.
+**Ce que contient une bonne carte de sortie** : (1) un moteur de recherche, avant le modèle, à partir de morceaux découpés à l'avance ; (2) la question 10 (morceaux de 2000, ou 10 extraits) ; (3) le RAG donne toujours des extraits, et le modèle peut répondre avec assurance à partir des mauvais, alors que le mode B refuse de démarrer quand les connaissances dépassent la fenêtre du modèle (la démonstration du débordement).
+
+**Le chatbot `--rag` ne se saute pas.** Si le temps manque, garder `openwebui chatbot --name "..." --rag` (`Who are you?`, question 12) : c'est ainsi que se termine l'atelier, avec les instructions de l'atelier 1 et les connaissances du jour. Couper plutôt les autres questions de la partie 6, et laisser le tableau « Quand choisir un RAG » pour une lecture ultérieure.
 
 **Après l'atelier** : noter les vraies durées, le temps jusqu'à `READY` dans la salle, et les coûts. Rappeler à chaque binôme de garder `my-work.zip` pour l'atelier 3 ; si l'ordinateur en a déjà un de l'atelier 1, le binôme glisse le plus récent la fois suivante et tape son nom exact après `--from`, entre guillemets.
 
-**Réemploi avec des jeunes** : l'activité débranchée n'a besoin d'aucun ordinateur. Pour construire un chatbot avec une base de connaissances pour un groupe, voir les parties 2 et 3 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
+**Réemploi avec des jeunes** : l'activité débranchée n'a besoin d'aucun ordinateur. Une version pour les 12-15 ans, avec des bandes plus courtes, des manches et des points : [le jeu du moteur de recherche](https://youth-ai-lab.github.io/yal-workshop/2/strips-youth.html) (pas encore essayé avec un groupe). La bande de 2 m de la démonstration du débordement n'a besoin ni d'ordinateur ni de clé : la fenêtre au sol, les documents en cartes à l'échelle 1 cm = 1 000 jetons (pas essayé avec des jeunes). Pour construire un chatbot avec une base de connaissances pour un groupe, voir les parties 2 et 3 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
 
 :::
 
@@ -893,10 +958,12 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubles
 
 **Replis** :
 
-- **Open WebUI pas prêt dans un Codespace** : les parties 2 et 3 sont son temps d'attente. Après 0:50, faire les parties 4 et 5 sur votre propre Open WebUI au grand écran ; le binôme rejoint quand son journal affiche `READY`.
+- **Open WebUI pas prêt dans un Codespace** : les parties 2 et 3 sont son temps d'attente. Après 1:00, faire les parties 4 et 5 sur votre propre Open WebUI au grand écran ; le binôme rejoint quand son journal affiche `READY`.
 - **Pas de Docker, ou pas de Codespace** : le dépôt s'ouvre sur un ordinateur avec Docker (guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers)). Sinon, parties 4 et 5 sur votre écran.
 - **Open WebUI ne démarre nulle part, pas même sur votre écran** : parties 2 et 3 comme prévu. Pour les parties 4 à 6, projeter la dernière diapositive du deck de l'atelier 2, **Backup: what a RAG hands to the model** (pour la question 10, bases de 1000 et de 2000 : de quels fichiers viennent les extraits, quels chiffres sont arrivés, et les réponses), depuis https://youth-ai-lab.github.io/yal-workshop/2/ ou le PDF que vous avez apporté. Pas de colonne RAG ce jour-là.
-- **Un binôme utilise OpenCode avec une clé OpenRouter** : mêmes étapes, Open WebUI et juge compris. Ses totaux ne sont pas comparables avec les autres (autre modèle, autre juge). `replay RAG` avec `mistralai/mistral-small-3.2-24b-instruct` : 11 réponses en 44 s. Avec le modèle par défaut : non testé.
+- **Un binôme utilise OpenCode avec une clé OpenRouter** : mêmes étapes, Open WebUI et juge compris. Ses totaux ne sont pas comparables avec les autres (autre modèle, autre juge). `replay RAG` avec `mistralai/mistral-small-3.2-24b-instruct` : 11 réponses en 44 s. Avec le modèle par défaut, DeepSeek V4 Flash : 11 réponses en 48 s et 53 s, juge 15 sur 20 puis 17 sur 22 (2 et 5 novembre 2026, sur un ordinateur portable).
+- **Démonstration du débordement : Haiku 4.5 refusé** (modèle introuvable, ou non autorisé dans l'espace de travail) : faire la bande seule, et lire à voix haute le message des mesures. Ne jamais essayer avec deux copies, ni avec Sonnet 5.5 de deux à dix copies : la question recevrait une réponse, et serait payée.
+- **Démonstration du débordement : le chatbot répond, ou la jauge dépasse 0** : une question a été payée. Vérifier que `find /tmp/three-kits -name '*-copy*' | wc -l` affiche `76`, et que la commande commence par `WORKSHOP_HOME=/tmp/three-kits`.
 
 :::
 
@@ -904,7 +971,9 @@ Les problèmes courants (clé, Codespace, terminal) sont dans la partie Troubles
 
 ## Indicateurs de réussite
 
+- Chaque binôme a écrit **sa question 12**, avec sa réponse attendue et sa source, et l'a notée dans les colonnes Bare et A
 - Chaque binôme a les **colonnes B et RAG notées** pour les questions 3, 7 et 10, et peut **citer une question où les morceaux ont fait la différence**
+- Le chatbot `--rag` du binôme répond dans Open WebUI avec l'identité de son `AGENTS.md`
 - Les participant·es savent dire **qui choisit les morceaux dans un RAG, et quand** : un moteur de recherche, avant le modèle, à partir de morceaux découpés à l'avance
 - Ils et elles citent **la question 10** comme exemple où la taille ou le nombre des morceaux a changé la réponse
 - Ils et elles expliquent **pourquoi l'échec d'un RAG se voit moins** que celui du mode B : il donne toujours des extraits, et le modèle peut répondre avec assurance à partir des mauvais
