@@ -27,7 +27,7 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 
 - Flex layout : titre + badges + tableau + matériel + PDF + callout à gauche, icône 225px à droite
 - Titre H1 **sans icône inline** : juste `# Titre` (les anciennes icônes SVG flat design devant le titre ont été retirées — ne pas en remettre). L'illustration du header reste l'icône 225px à droite.
-- Badges : disciplines (primary), outils (info), logiciels (warning/secondary)
+- Badges : disciplines (primary), outils et notions (info), logiciels (warning/secondary). Viser **7 à 10 badges** tirés du contenu de la fiche : les disciplines mobilisées, les notions ou le matériel propres à l'activité, et seulement les logiciels réellement utilisés. Reprendre l'intitulé exact d'un badge déjà employé ailleurs dans le wiki plutôt qu'en inventer une variante. Les badges et l'entrée du catalogue (`disciplines`, `tools`, `software`) disent la même chose.
 - Tableau : colonnes égales, en-tête fond unifié `#1d2a54` + texte blanc (même couleur pour tous les projets)
 - Bouton PDF rose (`#e83e8c`) si PDF disponible
 - Callout `:::tip[**Ressources imprimables incluses dans le PDF.**]` avec liste si applicable
@@ -47,9 +47,9 @@ Règles consolidées (héritées de la refonte SteamCity) :
 ### Standard Docusaurus
 
 - `:::tip` (vert, icône imprimante) : ressources imprimables UNIQUEMENT
-- `:::info` (bleu, icône info/ampoule) : conseils, remarques, notes techniques
-- `:::caution` (rose, icône ▶) : phases d'activité
-- `:::note` (gris) : notes diverses
+- `:::info` (bleu, icône info/ampoule) : conseils, remarques, notes techniques, et **avertissements** avec un titre explicite (`:::info[Attention]`, `:::info[Ne jamais rendre le port 3000 public]`)
+- `:::caution` (rose, icône ▶) : phases d'activité, et rien d'autre
+- `:::note` (gris) : à ne pas employer ; utiliser `:::info`
 
 ### Custom (Wiki@LAB)
 
@@ -63,6 +63,9 @@ Couleurs et icônes : voir [`site/src/css/custom.css`](site/src/css/custom.css) 
 ### Règles
 
 - Ne JAMAIS utiliser `:::tip` pour des conseils non-imprimables
+- Ne JAMAIS utiliser `:::caution` pour un avertissement : son icône ▶ annonce une phase d'activité
+- La question qui guide une séance (« question du jour ») se pose dans `:::question[Question du jour]`, pas dans un blockquote
+- Un encart qui revient d'une fiche à l'autre d'une même série garde le même type et le même titre
 - Le titre par défaut est posé par le composant : surcharger avec `:::question[Mon titre]` si besoin
 - Pour ajouter un nouveau type custom : 1) déclarer le keyword dans `docusaurus.config.ts`, 2) créer le composant dans `site/src/theme/Admonition/Type/`, 3) référencer dans `site/src/theme/Admonition/Types.tsx`, 4) ajouter le CSS dans `custom.css`
 
@@ -150,6 +153,8 @@ Critères :
 - **Représente le sujet** : une LED qui éclaire (i01), une note de musique (i07), un thérémine (i08), 3 axes pour l'accéléromètre (i09), un thermomètre (i11), un œuf au plat pour le minuteur à œufs (i14), un dashboard d'analyse de données pour le datalogger (i15).
 - **Pas de carte STeaMi dessinée** dessus, pas de texte dessiné dessus (le titre est déjà à côté).
 - **Pas d'image générée par IA** : ces images sont reconnaissables (effet « rendu 3D kitsch », polices typographiques génératives, faux composants électroniques) et créent une rupture visuelle avec le reste du wiki.
+
+**Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la phase du projet (rose `#fa89d2` pour la phase expérimentale). Le gabarit de la phase expérimentale est la **page 45** du document Canva du projet. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
 
 Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit suffisant ; l'attribution Flaticon n'est requise que dans certains cas, voir [les conditions Flaticon](https://www.flaticon.com/legal/12)), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
 

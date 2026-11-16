@@ -19,5 +19,6 @@ site/**/*.js
 *.mov
 *.webm
 
-# Claude Code working artifacts
-.claude/
+# Claude Code working artifacts (les compétences partagées restent versionnées)
+.claude/*
+!.claude/skills/
