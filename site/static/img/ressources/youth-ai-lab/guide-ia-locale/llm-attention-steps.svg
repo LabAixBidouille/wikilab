@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 446" width="900" height="446" role="img" aria-labelledby="t d" font-family="Arial, Helvetica, 'Liberation Sans', sans-serif">
+<title id="t">L'attention à la main, avec des nombres inventés</title>
+<desc id="d">Le jeton out pose sa question (2 ; 1). Il la compare aux étiquettes de I, put et out, (0 ; 1), (1 ; 2) et (0,5 ; 1) : les scores sont 1, 4 et 2. Les scores deviennent des parts : 4,2 %, 84,4 % et 11,4 %. Les contenus (0 ; 10), (10 ; 0) et (5 ; 5) sont mélangés selon ces parts, ce qui donne (9 ; 1). Le résultat s'ajoute aux nombres du jeton : (1 ; 3) devient (10 ; 4). L'essentiel du mélange vient de put. Nombres inventés, pas une mesure.</desc>
+<defs>
+<marker id="arrow-c8602a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0L10 5L0 10z" fill="#c8602a"/></marker>
+</defs>
+<rect x="0" y="0" width="900" height="446" fill="#ffffff"/>
+<text x="232" y="30" font-size="16" fill="#1f2a37" font-weight="bold">1. Comparer question et étiquette</text>
+<text x="530" y="30" font-size="16" fill="#1f2a37" font-weight="bold">2. En faire des parts</text>
+<text x="776" y="30" font-size="16" fill="#1f2a37" font-weight="bold">3. Contenus</text>
+<rect x="16" y="60" width="170" height="198" fill="#f8e3d6" rx="10" stroke="#c8602a" stroke-width="1.5"/>
+<rect x="69.57" y="104" width="62.86" height="42" fill="#ffffff" rx="5" stroke="#c8602a" stroke-width="1.5"/>
+<path d="M78.57 127.65v4h11.78v-4" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="107.89" y="131.65" font-size="19" fill="#1f2a37" font-weight="bold" text-anchor="middle">out</text>
+<text x="101" y="182" font-size="16" fill="#1f2a37" text-anchor="middle">question</text>
+<text x="101" y="208" font-size="19" fill="#1f2a37" font-weight="bold" text-anchor="middle">(2 ; 1)</text>
+<path d="M190 159L226 81" fill="none" stroke="#c8602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-c8602a)"/>
+<rect x="232" y="60" width="31.74" height="42" fill="#dbe9f4" rx="5"/>
+<path d="M239 82.95v4h10.54v-4" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="254.14" y="86.95" font-size="17" fill="#1f2a37" text-anchor="middle">I</text>
+<text x="310" y="87" font-size="15" fill="#1f2a37">étiquette (0 ; 1)</text>
+<text x="448" y="87" font-size="15" fill="#1f2a37" font-weight="bold">score 1</text>
+<rect x="530" y="68" width="140" height="26" fill="#e8eaee"/>
+<rect x="530" y="68" width="5.88" height="26" fill="#2a6fa8"/>
+<text x="678" y="87" font-size="16" fill="#1f2a37" font-weight="bold">4,2 %</text>
+<text x="776" y="87" font-size="16" fill="#1f2a37">(0 ; 10)</text>
+<path d="M190 159L226 159" fill="none" stroke="#c8602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-c8602a)"/>
+<rect x="232" y="138" width="52.53" height="42" fill="#dbe9f4" rx="5"/>
+<path d="M239 160.95v4h10.54v-4" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="264.54" y="164.95" font-size="17" fill="#1f2a37" text-anchor="middle">put</text>
+<text x="310" y="165" font-size="15" fill="#1f2a37">étiquette (1 ; 2)</text>
+<text x="448" y="165" font-size="15" fill="#1f2a37" font-weight="bold">score 4</text>
+<rect x="530" y="146" width="140" height="26" fill="#e8eaee"/>
+<rect x="530" y="146" width="118.13" height="26" fill="#2a6fa8"/>
+<text x="678" y="165" font-size="16" fill="#1f2a37" font-weight="bold">84,4 %</text>
+<text x="776" y="165" font-size="16" fill="#1f2a37">(10 ; 0)</text>
+<path d="M190 159L226 237" fill="none" stroke="#c8602a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-c8602a)"/>
+<rect x="232" y="216" width="52.53" height="42" fill="#dbe9f4" rx="5"/>
+<path d="M239 238.95v4h10.54v-4" fill="none" stroke="#4b5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="264.54" y="242.95" font-size="17" fill="#1f2a37" text-anchor="middle">out</text>
+<text x="310" y="243" font-size="15" fill="#1f2a37">étiquette (0,5 ; 1)</text>
+<text x="448" y="243" font-size="15" fill="#1f2a37" font-weight="bold">score 2</text>
+<rect x="530" y="224" width="140" height="26" fill="#e8eaee"/>
+<rect x="530" y="224" width="15.99" height="26" fill="#2a6fa8"/>
+<text x="678" y="243" font-size="16" fill="#1f2a37" font-weight="bold">11,4 %</text>
+<text x="776" y="243" font-size="16" fill="#1f2a37">(5 ; 5)</text>
+<rect x="16" y="318" width="868" height="76" fill="#d3ede6" rx="10"/>
+<text x="450" y="348" font-size="17" fill="#1f2a37" text-anchor="middle">Mélanger les contenus selon leurs parts : <tspan font-weight="bold">(9 ; 1)</tspan></text>
+<text x="450" y="376" font-size="17" fill="#1f2a37" text-anchor="middle">L'ajouter aux nombres du jeton : <tspan font-weight="bold">(1 ; 3) + (9 ; 1) = (10 ; 4)</tspan></text>
+<text x="450" y="424" font-size="15" fill="#4b5563" text-anchor="middle">Nombres inventés, pas une mesure : 2 nombres par liste, et 3 jetons seulement.</text>
+</svg>
