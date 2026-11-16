@@ -62,11 +62,13 @@ Télécharger l'icône en PNG 512×512 depuis Flaticon et la placer dans
 ### Le document
 
 Le document Canva du projet (« YouthAiLab_Test_Logo », 1500×1500 px par page) range une vignette par
-page. Les nouvelles pages s'ajoutent **à la fin**. **La couleur du cadre dit la phase dans laquelle
-l'activité s'inscrit**, pas le projet : deux fiches Youth AI Lab de phases différentes n'ont pas le
-même cadre. Rose `#fa89d2` pour la **phase d'expérimentation**, dont la **page 45** est le modèle.
-Pour une autre phase, partir de la page modèle de cette phase, que l'équipe désigne ; ne jamais
-reprendre le rose par défaut.
+page. Les nouvelles pages s'ajoutent **à la fin**. **La couleur du cadre dit la phase dans laquelle l'activité s'inscrit**, pas le projet : deux
+fiches Youth AI Lab de phases différentes n'ont pas le même cadre. Les six phases, leurs couleurs et
+leurs pages modèles sont dans `CONVENTIONS.md` (section « Icône PNG », exception Youth AI Lab) :
+Observation bleu ciel, Hypothèse jaune, Expérimentation rose (page 45), Validation vert, Réflexion
+orange, Communication jaune. Seule la page 45 est un modèle validé ; pour une autre phase, faire
+confirmer la page modèle par l'équipe. Ne jamais reprendre le rose par défaut, et ne pas deviner la
+phase : la lire dans la fiche ou la demander.
 
 Une page contient deux éléments :
 

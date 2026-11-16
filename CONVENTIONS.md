@@ -154,7 +154,20 @@ Critères :
 - **Pas de carte STeaMi dessinée** dessus, pas de texte dessiné dessus (le titre est déjà à côté).
 - **Pas d'image générée par IA** : ces images sont reconnaissables (effet « rendu 3D kitsch », polices typographiques génératives, faux composants électroniques) et créent une rupture visuelle avec le reste du wiki.
 
-**Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la **phase dans laquelle l'activité s'inscrit** (rose `#fa89d2` pour la phase d'expérimentation). Le gabarit de la phase d'expérimentation est la **page 45** du document Canva du projet ; chaque autre phase a sa propre page modèle. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
+**Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la **phase dans laquelle l'activité s'inscrit**. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
+
+Les six phases de la démarche Youth AI Lab et leurs couleurs (document « Youth AI Lab Comprehensive Approach », D2.1, page 5) :
+
+| Phase              | Couleur             | Page modèle du document Canva      |
+| ------------------ | ------------------- | ---------------------------------- |
+| 1. Observation     | bleu ciel `#38B6FF` | à désigner                         |
+| 2. Hypothèse       | jaune `#F9C724`     | à confirmer (la page 44 est jaune) |
+| 3. Expérimentation | rose `#FA89D2`      | **page 45**                        |
+| 4. Validation      | vert `#7ED957`      | à confirmer (les pages 47 à 50)    |
+| 5. Réflexion       | orange `#F37030`    | à confirmer (les pages 53 et 54)   |
+| 6. Communication   | jaune `#F9C724`     | à désigner                         |
+
+Hypothèse et Communication partagent le même jaune dans le document de référence. Une page modèle « à confirmer » ou « à désigner » se fait valider par l'équipe avant d'être reprise.
 
 Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit suffisant ; l'attribution Flaticon n'est requise que dans certains cas, voir [les conditions Flaticon](https://www.flaticon.com/legal/12)), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
 
