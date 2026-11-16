@@ -1,10 +1,30 @@
-# Marquer les binaires pour que `git diff` n'essaie pas de les afficher en texte.
-# Évite l'overflow de stdout sur les hooks pre-commit (git-precommit-checks).
-*.pdf binary
-*.png binary
-*.jpg binary
-*.jpeg binary
-*.webp binary
-*.gif binary
-*.ico binary
-*.svg text
+# Fins de ligne : tout fichier texte est stocké et extrait en LF, quel que soit
+# le poste (core.autocrlf compris). Git reconnaît seul le texte des autres
+# fichiers ; les lignes suivantes tranchent les cas qu'il ne doit pas deviner.
+* text=auto eol=lf
+
+# Binaires : ni conversion de fin de ligne, ni diff textuel. Les motifs ignorent
+# la casse, car un appareil photo nomme ses fichiers en .JPG. Le diff textuel
+# d'un binaire fait déborder la sortie des hooks pre-commit
+# (git-precommit-checks).
+*.[pP][nN][gG] binary
+*.[jJ][pP][gG] binary
+*.[jJ][pP][eE][gG] binary
+*.[wW][eE][bB][pP] binary
+*.[gG][iI][fF] binary
+*.[aA][vV][iI][fF] binary
+*.[iI][cC][oO] binary
+*.[pP][dD][fF] binary
+*.[wW][oO][fF][fF] binary
+*.[wW][oO][fF][fF]2 binary
+*.[tT][tT][fF] binary
+*.[oO][tT][fF] binary
+*.[mM][pP]3 binary
+*.[mM][pP]4 binary
+*.[wW][eE][bB][mM] binary
+*.[zZ][iI][pP] binary
+
+# SVG : du XML, donc du texte. Un fichier .svg qui contient en réalité une image
+# matricielle serait altéré par la conversion de fin de ligne : `npm run
+# lint:assets` vérifie que chaque image porte l'extension de son contenu.
+*.[sS][vV][gG] text
