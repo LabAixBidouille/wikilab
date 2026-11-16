@@ -217,7 +217,7 @@ Lancé en CI via [`build.yml`](.github/workflows/build.yml) sur chaque PR. Sort 
 Le script [`site/scripts/check-local-assets.mjs`](site/scripts/check-local-assets.mjs) fait deux vérifications :
 
 - **références** : chaque image citée dans `site/docs` ou `site/src` (`<img src>`, `![](...)`, champs `image`, `thumbnail`, `icon` du catalogue) existe sous `site/static`. Le build Docusaurus ne vérifie pas les `<img src>` : sans ce script, une image renommée donne un 404 silencieux en production. Les cas connus et suivis dans une issue vont dans `KNOWN_MISSING` ;
-- **signatures** : chaque image sous `site/static` porte l'extension de son contenu (PNG, JPEG, GIF, WebP, AVIF, ICO, PDF, SVG). Un PNG enregistré en `.svg` est traité comme du texte par `.gitattributes` : git convertit le CRLF de sa signature et l'image se corrompt au prochain `git add` (#279).
+- **signatures** : chaque image du dépôt, suivie ou nouvelle (`git ls-files`, fichiers ignorés exclus), porte l'extension de son contenu (PNG, JPEG, GIF, WebP, AVIF, ICO, PDF, SVG). Un SVG doit avoir `svg` pour élément racine ; il peut être en UTF-8 ou en UTF-16. Un PNG enregistré en `.svg` est traité comme du texte par `.gitattributes` : git convertit le CRLF de sa signature et l'image se corrompt au prochain `git add` (#279).
 
 Lancé en CI via [`build.yml`](.github/workflows/build.yml) sur chaque PR. Sort en code 1 sur une référence cassée ou une signature non conforme.
 

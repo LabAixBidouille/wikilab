@@ -8,8 +8,8 @@
 // (cf. #205, #216). Ce script comble ce trou : il scanne site/src ET site/docs
 // (le script de #204 ne couvrait que site/docs, d'où la régression #216).
 //
-// Il vérifie aussi que chaque image sous site/static porte l'extension de son
-// contenu (#279). Un PNG nommé `.svg` est traité comme du texte par
+// Il vérifie aussi que chaque image du dépôt porte l'extension de son contenu
+// (#279). Un PNG nommé `.svg` est traité comme du texte par
 // .gitattributes : git convertit le CRLF de sa signature et l'image se corrompt
 // au prochain `git add`. Un PNG nommé `.jpg` ou `.webp` s'affiche, mais trompe
 // quiconque le reprend.
@@ -23,11 +23,13 @@ import {
   existsSync,
   readdirSync,
   statSync,
+  lstatSync,
   openSync,
   readSync,
   closeSync,
 } from 'node:fs';
 import { join } from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
@@ -114,6 +116,14 @@ if (broken.length === 0) {
 }
 
 // --- Le contenu de chaque image correspond à son extension (#279) ---
+//
+// La règle `*.svg text` de .gitattributes vaut pour tout le dépôt : on vérifie
+// donc chaque image suivie ou à suivre (`git ls-files`), pas seulement
+// site/static. Sans git (archive), on se rabat sur site/static.
+
+const startsWith = (buf, bytes, offset = 0) =>
+  buf.length >= offset + bytes.length && bytes.every((b, i) => buf[offset + i] === b);
+const ascii = (s) => [...Buffer.from(s, 'latin1')];
 
 // Lit les `n` premiers octets d'un fichier, sans charger le reste.
 function head(path, n) {
@@ -127,25 +137,51 @@ function head(path, n) {
   }
 }
 
-const startsWith = (buf, bytes, offset = 0) =>
-  buf.length >= offset + bytes.length && bytes.every((b, i) => buf[offset + i] === b);
-const ascii = (s) => [...Buffer.from(s, 'latin1')];
+// Marques d'une boîte ftyp ISO-BMFF : la majeure (octet 8) puis les
+// compatibles (de l'octet 16 à la fin de la boîte). Un AVIF doit déclarer
+// `avif` ou `avis` parmi elles, pas forcément en marque majeure.
+function ftypBrands(buf) {
+  if (!startsWith(buf, ascii('ftyp'), 4)) return [];
+  const end = Math.min(buf.readUInt32BE(0), buf.length);
+  const brands = [buf.toString('latin1', 8, 12)];
+  for (let i = 16; i + 4 <= end; i += 4) brands.push(buf.toString('latin1', i, i + 4));
+  return brands;
+}
 
-// Reconnaît le format d'après les premiers octets. Renvoie null si inconnu.
-function sniff(buf) {
+// Texte d'un SVG : UTF-16 quand un BOM l'annonce, UTF-8 sinon. Un octet nul
+// hors UTF-16 signale un binaire : ce n'est pas un SVG.
+function svgText(buf) {
+  const utf16 = (b) => b.subarray(0, b.length - (b.length % 2));
+  if (startsWith(buf, [0xff, 0xfe])) return utf16(buf.subarray(2)).toString('utf16le');
+  if (startsWith(buf, [0xfe, 0xff]))
+    return Buffer.from(utf16(buf.subarray(2)))
+      .swap16()
+      .toString('utf16le');
+  if (buf.includes(0)) return null;
+  return buf.toString('utf8').replace(/^﻿/, '');
+}
+
+// Un SVG a `svg` pour élément racine. Seuls le précèdent la déclaration XML,
+// des instructions de traitement, des commentaires et un DOCTYPE (sous-ensemble
+// interne compris).
+const SVG_ROOT =
+  /^\s*(?:(?:<\?[\s\S]*?\?>|<!--[\s\S]*?-->|<!DOCTYPE[^[>]*(?:\[[\s\S]*?\])?\s*>)\s*)*<(?:[\w.-]+:)?svg[\s/>]/i;
+
+// Reconnaît le format d'un fichier. Renvoie null si inconnu.
+function sniff(path, ext) {
+  if (ext === 'svg') {
+    const text = svgText(readFileSync(path));
+    if (text !== null && SVG_ROOT.test(text)) return 'svg';
+  }
+  // 512 octets couvrent les signatures et une boîte ftyp ordinaire.
+  const buf = head(path, 512);
   if (startsWith(buf, [0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a])) return 'png';
   if (startsWith(buf, [0xff, 0xd8, 0xff])) return 'jpeg';
   if (startsWith(buf, ascii('GIF8'))) return 'gif';
   if (startsWith(buf, ascii('RIFF')) && startsWith(buf, ascii('WEBP'), 8)) return 'webp';
-  if (
-    startsWith(buf, ascii('ftyp'), 4) &&
-    (startsWith(buf, ascii('avif'), 8) || startsWith(buf, ascii('avis'), 8))
-  )
-    return 'avif';
+  if (ftypBrands(buf).some((b) => b === 'avif' || b === 'avis')) return 'avif';
   if (startsWith(buf, [0x00, 0x00, 0x01, 0x00])) return 'ico';
   if (startsWith(buf, ascii('%PDF-'))) return 'pdf';
-  // SVG : du texte (aucun octet nul) qui ouvre une balise <svg.
-  if (!buf.includes(0) && buf.toString('utf8').includes('<svg')) return 'svg';
   return null;
 }
 
@@ -161,34 +197,56 @@ const EXPECTED = {
   svg: 'svg',
 };
 
+const extOf = (name) => name.split('.').pop().toLowerCase();
+
 function walkStatic(dir, acc = []) {
   for (const e of readdirSync(dir, { withFileTypes: true })) {
     const f = join(dir, e.name);
     if (e.isDirectory()) walkStatic(f, acc);
-    else {
-      const ext = e.name.split('.').pop().toLowerCase();
-      if (ext in EXPECTED) acc.push({ path: f, ext });
-    }
+    else acc.push(f);
   }
   return acc;
 }
 
-// 64 Kio suffisent à trouver la balise <svg derrière un prologue XML ou un
-// long commentaire d'en-tête ; 16 octets suffisent aux signatures binaires.
-const mismatched = [];
-const images = walkStatic(STATIC_ROOT);
-for (const { path, ext } of images) {
-  const found = sniff(head(path, ext === 'svg' ? 65536 : 16));
-  if (found !== EXPECTED[ext]) {
-    mismatched.push({
-      file: path.replace(REPO_ROOT + '/', ''),
-      ext,
-      found: found ?? 'format inconnu',
+// Fichiers suivis et nouveaux fichiers non ignorés (node_modules, build exclus).
+function listFiles() {
+  try {
+    const out = execFileSync('git', ['ls-files', '-z', '-c', '-o', '--exclude-standard'], {
+      cwd: REPO_ROOT,
+      encoding: 'utf8',
+      maxBuffer: 64 * 1024 * 1024,
     });
+    return [...new Set(out.split('\0').filter(Boolean))].map((f) => join(REPO_ROOT, f));
+  } catch {
+    console.log('git indisponible : signatures vérifiées sous site/static seulement.');
+    return walkStatic(STATIC_ROOT);
   }
 }
 
-console.log(`Images dont la signature est vérifiée : ${images.length}`);
+const mismatched = [];
+const images = listFiles().filter((f) => extOf(f) in EXPECTED);
+let verified = 0;
+for (const path of images) {
+  const ext = extOf(path);
+  // Un fichier suivi mais supprimé de la copie de travail n'a rien à vérifier.
+  try {
+    lstatSync(path);
+  } catch {
+    continue;
+  }
+  let found;
+  try {
+    found = sniff(path, ext) ?? 'format inconnu';
+  } catch (err) {
+    found = `illisible (${err.code ?? err.message})`;
+  }
+  verified++;
+  if (found !== EXPECTED[ext]) {
+    mismatched.push({ file: path.replace(REPO_ROOT + '/', ''), ext, found });
+  }
+}
+
+console.log(`Images dont la signature est vérifiée : ${verified}`);
 if (mismatched.length === 0) {
   console.log("✓ Chaque image porte l'extension de son contenu.");
 } else {
