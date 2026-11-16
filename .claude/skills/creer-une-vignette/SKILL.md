@@ -1,6 +1,6 @@
 ---
 name: creer-une-vignette
-description: Use when a wiki fiche needs its header thumbnail (site/static/img/ressources/<projet>/<id>/icone.png), or when an icon listed in KNOWN_MISSING must be produced. Covers the general Flaticon case and the Youth AI Lab Canva template (stock illustration in the phase frame, page 45, transparent PNG export).
+description: Use when a wiki fiche needs its header thumbnail (site/static/img/ressources/<projet>/<id>/icone.png), or when an icon listed in KNOWN_MISSING must be produced. Covers the general Flaticon case and the Youth AI Lab Canva template (stock illustration in a frame whose color is the phase the activity belongs to - pink for the experimentation phase, page 45 - and transparent PNG export).
 license: CC-BY-SA-4.0
 metadata:
   langue: fr
@@ -26,10 +26,10 @@ par IA (`CONVENTIONS.md`, « Icône PNG »).
 
 ## Quel gabarit
 
-| Projet       | Gabarit                                                                               |
-| ------------ | ------------------------------------------------------------------------------------- |
-| Cas général  | Icône flat de [Flaticon](https://www.flaticon.com/), PNG 512×512, palette douce       |
-| Youth AI Lab | Illustration flat (stock Freepik) dans le cadre de la phase, document Canva du projet |
+| Projet       | Gabarit                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| Cas général  | Icône flat de [Flaticon](https://www.flaticon.com/), PNG 512×512, palette douce           |
+| Youth AI Lab | Illustration flat (stock Freepik) dans le cadre de la phase de l'activité, document Canva |
 
 Pour un autre projet, regarder les vignettes voisines dans `site/static/img/ressources/<projet>/`
 avant de choisir. En cas de doute sur le gabarit ou la phase, demander : c'est une décision de
@@ -40,7 +40,9 @@ l'équipe, pas de l'assistant.
 ```text
 1. LIRE        la fiche : son sujet, ce qu elle fait faire. La vignette en part.
 2. REGARDER    les vignettes existantes du projet, et pour Youth AI Lab la page
-               modele du document Canva (page 45 pour la phase experimentale).
+               modele de la phase de l activite dans le document Canva
+               (page 45 pour la phase d experimentation). La phase ne se
+               devine pas : la lire dans la fiche ou la demander.
 3. CHOISIR     un visuel par fiche, avec deux alternatives, en regardant les
                apercus et pas seulement les titres. Varier d une fiche a l autre.
 4. COMPOSER    puis PREVISUALISER avec le cadre : le sujet doit rester visible.
@@ -60,16 +62,18 @@ Télécharger l'icône en PNG 512×512 depuis Flaticon et la placer dans
 ### Le document
 
 Le document Canva du projet (« YouthAiLab_Test_Logo », 1500×1500 px par page) range une vignette par
-page. Les nouvelles pages s'ajoutent **à la fin**. La couleur du cadre dit la phase du projet : rose
-`#fa89d2` pour la phase expérimentale, dont la **page 45** est le modèle. Pour les autres phases,
-partir de la page modèle que l'équipe désigne.
+page. Les nouvelles pages s'ajoutent **à la fin**. **La couleur du cadre dit la phase dans laquelle
+l'activité s'inscrit**, pas le projet : deux fiches Youth AI Lab de phases différentes n'ont pas le
+même cadre. Rose `#fa89d2` pour la **phase d'expérimentation**, dont la **page 45** est le modèle.
+Pour une autre phase, partir de la page modèle de cette phase, que l'équipe désigne ; ne jamais
+reprendre le rose par défaut.
 
 Une page contient deux éléments :
 
 - un rectangle image en `top 36, left 32`, de 1436×1436 ;
 - par-dessus, la forme du cadre, qui couvre toute la page (`top 0, left 0`, 1500×1500). Son chemin
   se copie depuis la page modèle avec `read-design` ; celui de la page 45 est dans
-  `cadre-phase-experimentale.svg`, à côté de ce fichier (viewBox 127,57 × 127,57).
+  `cadre-phase-experimentation.svg`, à côté de ce fichier (viewBox 127,57 × 127,57).
 
 ### Choisir le visuel
 
@@ -116,7 +120,7 @@ Dans une seule transaction (`read-design` avec `open_transaction`) :
 2. relire les nouvelles pages pour obtenir leurs identifiants ;
 3. par page : `insert_fill` de l'image (`top 36, left 32`, 1436×1436, texte alternatif en
    français), puis `insert_shape` du cadre (chemin et viewBox de la page modèle, couleur de la
-   phase). Pour changer de cadre plus tard : `replace_shape` ; pour changer d'image : `update_fill` ;
+   phase de l'activité). Pour changer de cadre plus tard : `replace_shape` ; pour changer d'image : `update_fill` ;
 4. montrer la planche des miniatures et **attendre l'accord** ; alors seulement `commit`.
 
 ### Exporter

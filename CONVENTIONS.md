@@ -154,7 +154,7 @@ Critères :
 - **Pas de carte STeaMi dessinée** dessus, pas de texte dessiné dessus (le titre est déjà à côté).
 - **Pas d'image générée par IA** : ces images sont reconnaissables (effet « rendu 3D kitsch », polices typographiques génératives, faux composants électroniques) et créent une rupture visuelle avec le reste du wiki.
 
-**Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la phase du projet (rose `#fa89d2` pour la phase expérimentale). Le gabarit de la phase expérimentale est la **page 45** du document Canva du projet. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
+**Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la **phase dans laquelle l'activité s'inscrit** (rose `#fa89d2` pour la phase d'expérimentation). Le gabarit de la phase d'expérimentation est la **page 45** du document Canva du projet ; chaque autre phase a sa propre page modèle. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
 
 Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit suffisant ; l'attribution Flaticon n'est requise que dans certains cas, voir [les conditions Flaticon](https://www.flaticon.com/legal/12)), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
 

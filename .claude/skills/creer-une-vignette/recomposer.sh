@@ -1,5 +1,7 @@
 #!/bin/sh
-# Recompose une illustration pour le cadre Youth AI Lab (page 45 du document Canva).
+# Recompose une illustration pour le cadre de la phase d'expérimentation (page 45 du
+# document Canva Youth AI Lab). Le calage suppose la découpe de ce cadre : pour une autre
+# phase, vérifier l'aperçu, et adapter la boîte si la découpe diffère.
 #
 # usage : recomposer.sh <illustration> <sortie.jpg> [apercu.png]
 #
@@ -25,6 +27,6 @@ magick -size 1500x1500 "xc:$bg" "$tmp/sujet.png" -geometry +$((1410 - w))+$((141
 magick "$tmp/page.png" -crop 1436x1436+32+36 +repage -quality 92 "$out"
 
 if [ -n "$preview" ]; then
-  magick -background none "$here/cadre-phase-experimentale.svg" "$tmp/cadre.png"
+  magick -background none "$here/cadre-phase-experimentation.svg" "$tmp/cadre.png"
   magick "$tmp/page.png" "$tmp/cadre.png" -composite -resize 300x300 "$preview"
 fi
