@@ -39,10 +39,10 @@ sidebar_position: 16
 
 **En ligne**
 
-- Le dépôt de l'atelier, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-search
-- Les diapositives de l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/3/
-- La fiche animateur : https://youth-ai-lab.github.io/yal-workshop/3/facilitator.html
-- La fiche d'une page (en anglais) : https://github.com/Youth-AI-Lab/yal-workshop-search/blob/main/sheet.md
+- **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-search
+- **Les diapositives de l'animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/3/
+- **La fiche animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/3/facilitator.html
+- **La fiche d'une page**, en anglais : https://github.com/Youth-AI-Lab/yal-workshop-search/blob/main/sheet.md
 
 </div>
 
@@ -74,7 +74,7 @@ Vient ensuite **la curation**, que les outils ne font pas à votre place : une p
 
 Enfin, vous écrivez une **skill** : une procédure en langage courant, comme une fiche d'activité, que le modèle n'ouvre que lorsqu'une demande en a besoin.
 
-### Lien avec WikiYouthBot
+### Le lien avec WikiYouthBot
 
 L'activité [Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot) (WikiYouthBot) est ce que les partenaires mènent ensuite avec les jeunes.
 
@@ -183,13 +183,13 @@ Un Codespace par binôme : https://codespaces.new/Youth-AI-Lab/yal-workshop-sear
 
 Suivre les étapes 1 à 5 de `SETUP.md`, avec le lien ci-dessus : laisser le Codespace vous attendre, l'ouvrir, enregistrer votre clé avec `workshop-login`, vérifier que s'affiche `Key OK`, et ouvrir un second terminal.
 
-:::note[Si vous utilisez OpenCode]
+:::info[Si vous utilisez OpenCode]
 
 OpenCode est le second moteur possible, à la place de Claude Code. Les commandes sont les mêmes, après `workshop-login --engine opencode`. En mode C, OpenCode cherche avec ses propres outils (`read`, `grep`, `glob`), et il vous demande votre accord avant **chaque** commande et chaque fichier qu'il écrit. La fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre le même genre de recherche dans un dossier de chatbot.
 
 :::
 
-:::note[Si votre clé commence par sk-or- (OpenRouter)]
+:::info[Si votre clé commence par sk-or- (OpenRouter)]
 
 Coller la clé dans `workshop-login`, sans option, et lire la section _With an OpenRouter key_ du fichier `SETUP.md` du dépôt. `openwebui chatbot` et une skill dans Open WebUI avec le modèle par défaut, DeepSeek V4 Flash, ont été essayés une fois le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : la skill a cherché dans les documents et donné un verdict avec ses citations, mais en français, à une rumeur posée en anglais. Dans le terminal, un essai le 5 novembre 2026 : `summarize` a écrit un brouillon sans sa table de vérification, et `validate-summary` et `source-note` n'ont rien écrit : vérifiez que les fichiers sont bien là.
 
@@ -197,7 +197,7 @@ Les étapes de cette page décrivent l'écran de Claude Code. **Ctrl+O** et la j
 
 :::
 
-:::caution[Avec des jeunes et une clé OpenRouter]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 Avant que quoi que ce soit d'écrit par des jeunes passe par OpenRouter, lire la section _Young people and OpenRouter_ du fichier `SETUP.md` du dépôt, ainsi que la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données).
 
@@ -209,7 +209,7 @@ Le même dépôt s'ouvre sur votre propre ordinateur, avec Docker et VS Code : v
 
 :::
 
-### Étape 2 : Reprendre son travail
+### Étape 2 : Récupérer son travail
 
 1. **Glisser `my-work.zip`** depuis votre ordinateur dans la liste des fichiers du Codespace. Si vous l'avez téléchargé plusieurs fois, votre navigateur a peut-être nommé le plus récent `my-work (1).zip` : glisser celui-là, et taper son nom exact entre guillemets, par exemple `workshop-start 3 --from "my-work (1).zip"`.
 2. Dans le premier terminal, taper :
@@ -249,13 +249,13 @@ Dans ce Codespace, Claude Code demande à nouveau si vous faites confiance au do
 
 2. Ne pas l'attendre : passer à la partie 2 dans le premier terminal. Le démarrage se termine par `Open WebUI is ready, ...`.
 
-:::caution[Attention]
+:::info[Ne jamais rendre le port 3000 public]
 
 **Ne rendez jamais le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). C'est la porte numérotée par laquelle on accède à Open WebUI. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 `Key OK`, `Ready for workshop 3`, et `openwebui start` en cours dans le second terminal.
 
@@ -314,13 +314,13 @@ Modèle  →  Réponse
 
 Appuyer deux fois sur **Ctrl+C**. À partir du mode C, `/exit` fonctionne aussi, et `/context` montre en détail ce qui remplit la fenêtre de contexte.
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 Vous savez nommer les fichiers que le modèle a ouverts pour la question 3, vous avez trouvé dans sa source la phrase qui y répond, et vous savez dire ce que ses recherches ont trouvé pour la question 7.
 
 :::
 
-### À vous de réfléchir
+### Pour réfléchir
 
 En mode B, personne ne choisissait. Dans le RAG, un moteur de recherche choisissait. **Qui choisit en mode C, et comment pouvez-vous le vérifier ?**
 
@@ -360,7 +360,7 @@ Chaque résumé commence par un **en-tête** : quelques lignes entre deux `---` 
 
 **À retenir** : un résumé faux donne une réponse fausse, avec assurance. **La curation**, c'est qu'une personne décide de ce qui entre dans les connaissances, et signe ce que le chatbot en dira.
 
-:::caution[Important : Claude Code demande votre permission]
+:::info[Important : Claude Code demande votre permission]
 
 Claude Code vous demande votre accord avant d'écrire ou de modifier un fichier. Dans cette partie, les skills écrivent des fichiers : lisez ce qu'il veut écrire (les lignes vertes sont ajoutées, les rouges supprimées), puis acceptez avec **1. Yes**. La question ressemble à ceci :
 
@@ -452,7 +452,7 @@ Lors de notre essai du 30 octobre 2026, le résumé du document de Bénévent a 
 
 4. Remplir la colonne **OK?** : `yes`, ou écrire la bonne version dans **Correction**, entre les deux `|` de la cellule, sans ajouter ni retirer de `|`. Enregistrer (`Ctrl+S`). Vous pouvez aussi le dire dans la conversation, à l'étape 5 : `I checked sentences 1 to 10, sentence 3 is wrong, it should be ...`.
 
-:::caution[Important : chaque ligne doit être vérifiée]
+:::info[Important : chaque ligne doit être vérifiée]
 
 Un « c'est bon » général ne suffit pas : la skill liste les lignes non vérifiées et vous demande de les vérifier. **C'est vous** qui signez, pas le modèle.
 
@@ -476,19 +476,19 @@ Un « c'est bon » général ne suffit pas : la skill liste les lignes non véri
 1. Ouvrir `summaries/index.md` : sous `Added during the session`, votre résumé est passé de `(draft, not verified)` à `(human-reviewed)`. Ouvrir ensuite `summaries/81-...` et lire sa ligne `verified`, avec votre nom.
 2. Quitter avec deux fois **Ctrl+C** : cette conversation vient de lire votre document, elle répondrait donc de mémoire.
 3. Relancer `workshop C` et poser votre question 12 dans cette nouvelle conversation. Appuyer sur **Ctrl+O** : ouvre-t-il `summaries/81-...` ou `corpus/text/81-...` ?
-   - `summaries/81-...` : le chatbot répond à partir du texte que vous avez vérifié et signé.
-   - `corpus/text/81-...` seulement : il répond à partir du document complet, et votre résumé n'a pas servi cette fois.
-   - Ni l'un ni l'autre : regarder les mots qu'il a cherchés, s'il a cherché. Ils peuvent montrer pourquoi il a manqué votre document.
+   - **`summaries/81-...`** : le chatbot répond à partir du texte que vous avez vérifié et signé.
+   - **`corpus/text/81-...` seulement** : il répond à partir du document complet, et votre résumé n'a pas servi cette fois.
+   - **Ni l'un ni l'autre** : regarder les mots qu'il a cherchés, s'il a cherché. Ils peuvent montrer pourquoi il a manqué votre document.
 
    **Ctrl+O** à nouveau, puis quitter avec deux fois **Ctrl+C**.
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 `corpus/80-...` et `corpus/81-...` existent, et `summaries/index.md` indique `(human-reviewed)` pour votre résumé.
 
 :::
 
-### À vous de réfléchir
+### Pour réfléchir
 
 Le modèle a écrit le résumé, et il avait probablement raison. **Pourquoi est-ce le nom d'une personne, et non celui du modèle, qui figure dans la ligne `verified` ?** (Indice : si un ou une jeune lit une date fausse dans le chatbot, qui en est responsable ?)
 
@@ -610,13 +610,13 @@ Dans un vrai Codespace, le 30 octobre 2026, cette rumeur a utilisé `rumour-chec
 
 **À retenir** : la recherche et les skills travaillent ensemble. La recherche trouve les faits et montre où ils sont ; la skill dit quoi en faire, de la même façon à chaque fois. Ensemble, elles font une tâche que vous répéteriez sinon à la main, et elles vous donnent les sources pour décider.
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 Votre `SKILL.md` existe, il se déclenche sur une demande, et pas sur `Hello, who are you?`.
 
 :::
 
-### À vous de réfléchir
+### Pour réfléchir
 
 **Qu'est-ce qui va dans le préprompt, et qu'est-ce qui va dans une skill ?** (Indice : que doit faire le chatbot pour chaque réponse, et que doit-il faire seulement pour un type de demande ?)
 

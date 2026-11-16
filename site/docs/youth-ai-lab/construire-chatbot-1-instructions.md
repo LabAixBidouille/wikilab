@@ -29,9 +29,9 @@ sidebar_position: 14
 - La fiche d'une page de l'atelier (`sheet.md`), imprimée pour chaque binôme
 - 1 carte vierge ou une demi-feuille par personne pour la carte de sortie
 - Un tableau (papier ou effaçable) pour le tableau de la salle de la partie 3
-- Le dépôt de l'atelier, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-preprompt
-- Les diapositives de l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/1/
-- La fiche animateur : https://youth-ai-lab.github.io/yal-workshop/1/facilitator.html
+- **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-preprompt
+- **Les diapositives de l'animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/1/
+- **La fiche animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/1/facilitator.html
 
 </div>
 
@@ -159,7 +159,7 @@ Tout au long de la séance, on s'exerce aussi à tester un chatbot : les mêmes 
 
 :::info[Notes pour l'animateur·rice]
 
-**Préparation (environ 1 h).** Créer **une clé API Anthropic par binôme**, toutes dans **un seul espace de travail (_workspace_) pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Faire son propre parcours dans un Codespace neuf : `workshop-login`, `workshop-start 1`, `replay bare`, `replay A --agents examples/AGENTS.sophist.md`, `score answers/A-sophist-....md --blind`, `openwebui start`, puis `cp examples/AGENTS.feurisson.md AGENTS.md` (qui remplace la partie 4 : la clôture demande un `AGENTS.md` rempli) et `openwebui chatbot --name "Feurisson"`. Cette dernière commande doit afficher `Instructions: your AGENTS.md, 39 lines. ...` (et non `Warning: your AGENTS.md is still empty`), et `Who are you?` dans Open WebUI doit répondre en Feurisson. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), section « Avant de commencer : comptes et clé » (_Your Anthropic API key_ dans le dépôt anglais). Imprimer la fiche d'une page pour chaque binôme, et la traduire avant si besoin, en gardant en anglais les commandes et ce qu'affiche le terminal. Préparer une carte de sortie par personne, l'attribution des personnalités et le tableau de la salle. Plan de secours : une clé de réserve, et les fichiers de réponses mesurés (fiche animateur) sur une clé USB ou dans un dossier partagé.
+**Préparation (environ 1 h).** Créer **une clé API Anthropic par binôme**, toutes dans **un seul espace de travail (_workspace_) pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Faire son propre parcours dans un Codespace neuf : `workshop-login`, `workshop-start 1`, `replay bare`, `replay A --agents examples/AGENTS.sophist.md`, `score answers/A-sophist-....md --blind`, `openwebui start`, puis `cp examples/AGENTS.feurisson.md AGENTS.md` (qui remplace la partie 4 : la clôture demande un `AGENTS.md` rempli) et `openwebui chatbot --name "Feurisson"`. Cette dernière commande doit afficher `Instructions: your AGENTS.md, 39 lines. ...` (et non `Warning: your AGENTS.md is still empty`), et `Who are you?` dans Open WebUI doit répondre en Feurisson. Pour créer les clés et fixer le plafond, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), section « Avant de commencer : comptes et clé » (_Your Anthropic API key_ dans le dépôt anglais). Imprimer la fiche d'une page pour chaque binôme, et la traduire avant si besoin, en gardant en anglais les commandes et ce qu'affiche le terminal. Préparer une carte de sortie par personne, l'attribution des personnalités et le tableau de la salle. Plan de secours : une clé de réserve, et les fichiers de réponses mesurés (fiche animateur·rice) sur une clé USB ou dans un dossier partagé.
 
 **Qui paie.** Chaque organisation partenaire paie ses propres séances : son compte Anthropic, son espace de travail et ses clés. Plafond de la salle : 3 \$ × le nombre de binômes (8 binômes : 24 \$ ; à Anvers, les binômes les plus avancés ont dépensé moins de 2 \$ en 2 h). Le plafond porte sur l'espace de travail, pas sur chaque clé : **un binôme peut consommer la part d'un autre**. Garder la console Anthropic ouverte pendant l'atelier pour suivre les dépenses. Non vérifié : si le plafond de la console est mensuel, les ateliers d'un même mois le partagent. Compter alors 3 \$ × binômes × ateliers du mois, ou relever le plafond avant chaque atelier. Coût mesuré pour le parcours complet d'un binôme dans cet atelier : environ 0,39 \$. Un binôme qui parle plus, ou qui rejoue deux fois, dépense davantage, et 1 \$ par binôme reste une estimation sûre, sous la part de 3 \$ de chaque binôme. Coût indicatif par binôme pour toute la série : à compléter à la répétition.
 
@@ -211,13 +211,13 @@ Key OK (OpenCode, OpenRouter, model openrouter/deepseek/deepseek-v4-flash). You 
 
 Avec un modèle gratuit, une ligne de plus suit : `Free requests left today: <number>.`
 
-:::note[Avec OpenCode]
+:::info[Si vous utilisez OpenCode]
 
 OpenCode est un autre programme qui fait tourner le même chatbot : mêmes modes, même `replay`, mêmes fichiers. Une clé Anthropic peut aussi l'utiliser : l'enregistrer alors avec `workshop-login --engine opencode`. Les différences sont expliquées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::
 
-:::note[Si la clé commence par sk-or-]
+:::info[Si votre clé commence par sk-or- (OpenRouter)]
 
 C'est une clé OpenRouter. OpenRouter est un service qui transmet la question à une entreprise qui fait tourner le modèle, et donne accès aux modèles de nombreuses entreprises avec une seule clé. Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score` et Open WebUI passent aussi par OpenRouter. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : `deepseek/deepseek-v4-flash` écrit les réponses et les note. Le détail est dans la section _With an OpenRouter key_ de `SETUP.md` (https://github.com/Youth-AI-Lab/yal-workshop-preprompt/blob/main/SETUP.md#with-an-openrouter-key).
 
@@ -231,7 +231,7 @@ Pour essayer un autre modèle, `workshop-login --models free` liste les modèles
 
 :::
 
-:::caution[Les jeunes et OpenRouter]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 **Les ateliers sont pour les adultes. Le Codespace et les clés restent avec eux.** Aucun ou aucune jeune ne tape dans le Codespace d'un atelier ni ne détient de clé. Les conditions d'OpenRouter demandent des utilisateurs de 18 ans ou plus. Son chat d'assistance lit cette règle ainsi : aucun ou aucune jeune ne crée ni n'utilise sa propre clé. Cette lecture n'est pas écrite dans ses conditions : garder donc toutes les clés avec les adultes.
 
@@ -263,7 +263,7 @@ First command: replay bare
 
 La page de l'atelier s'ouvre dans l'éditeur : la garder à côté du terminal. Par précaution, la commande sauvegarde aussi ce qui aurait déjà été fait dans ce Codespace.
 
-### Étape 3 : Démarrer Open WebUI en arrière-plan
+### Étape 3 : Lancer Open WebUI en arrière-plan
 
 À la fin de l'atelier, on retrouve son chatbot dans Open WebUI, un autre outil de discussion. Son premier démarrage télécharge environ 1,6 Go : environ 3 minutes dans les Codespaces mesurés. On le lance maintenant, pour qu'il soit prêt au moment voulu.
 
@@ -280,13 +280,13 @@ La page de l'atelier s'ouvre dans l'éditeur : la garder à côté du terminal. 
    Open it: https://...-3000.app.github.dev
    ```
 
-:::caution[Attention : ne jamais rendre le port 3000 public]
+:::info[Ne jamais rendre le port 3000 public]
 
 Ne jamais rendre le port 3000 public (onglet **Ports**, **Port Visibility**). Le port 3000 est la porte numérotée par laquelle le Codespace montre Open WebUI dans le navigateur : c'est le `-3000` de son adresse. Il est privé : seul son propriétaire peut l'ouvrir. Cet Open WebUI n'a **pas de comptes** : toute personne qui aurait le lien pourrait utiliser la clé du binôme. Pour partager un chatbot avec un groupe, voir le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui).
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 `Key OK`, `Ready for workshop 1`, et `openwebui start` qui tourne dans le second terminal : le binôme est prêt.
 
@@ -304,7 +304,7 @@ Commencer par l'auto-évaluation « Avant » (5 min, avant le Codespace), puis p
 
 **Objectif** : poser les 11 questions du jeu de test au modèle seul, et noter ses réponses à la main. Cette première colonne, **Bare**, est le point de départ : toutes les colonnes suivantes lui sont comparées.
 
-### Ce que l'on va découvrir
+### Ce que vous allez découvrir
 
 - **Un mode** : une façon de lancer le chatbot, qui décide de ce qui entre dans son contexte. `bare` veut dire que rien n'est ajouté : ni instructions ni documents du binôme. `A` arrive à la partie 3, et `B` à `E` aux ateliers suivants.
 - **Le contexte** d'un modèle : tout ce qu'il lit avant de répondre. En mode `bare`, il commence avec la question et les instructions générales de l'outil. L'outil, ici, c'est Claude Code : il ajoute ses propres instructions, et on ne les écrit pas. Le mot a aussi un autre sens : les _outils_ d'un chatbot sont ce qu'il peut utiliser lui-même, comme le niveau de danger d'incendie du jour (atelier 4).
@@ -420,13 +420,13 @@ Aujourd'hui, on note le modèle seul à la main : c'est ainsi qu'on apprend les 
 4. Additionner la colonne dans la ligne **Total**, et enregistrer (`Ctrl+S`).
 5. **Comparer avec la prédiction.** Plus de 2 que prévu, ou moins ?
 
-:::note[Chercher les détails inventés]
+:::info[Chercher les détails inventés]
 
 Le modèle seul peut donner un chiffre précis, le nom d'un organisme ou d'un site web, avec beaucoup d'assurance. Si ce n'est pas dans la réponse attendue, vérifier avant de donner un point : une réponse inventée vaut 0.
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 La colonne Bare est notée, avec son total.
 
@@ -450,7 +450,7 @@ Le modèle seul a répondu à certaines questions sans aucun document. **D'où v
 
 **Objectif** : rejouer le jeu de test avec l'un de cinq chatbots construits sur le même modèle, le noter à l'aveugle, puis comparer ses notes avec celles d'un juge et avec les autres binômes.
 
-### Ce que l'on va découvrir
+### Ce que vous allez découvrir
 
 - **`replay A --agents` suivi d'un nom de fichier** : la même série de questions, avec d'autres instructions que celles de son `AGENTS.md`, qui reste inchangé.
 - **Trois sortes de mauvaises réponses** : le mensonge assuré, l'histoire qui cache les faits, et le raisonnement qui a seulement l'air juste.
@@ -481,7 +481,7 @@ Trois d'entre eux font des erreurs volontaires. Chacune de leurs réponses comme
 
 **À retenir** : le modèle, ses connaissances et les questions sont les mêmes pour les cinq chatbots. **Seul un texte change.** Les grandes différences observées (une étiquette, un refus, une erreur qui revient à chaque fois) viennent donc de ce texte. De petites différences de formulation peuvent aussi venir du hasard : le même chatbot n'écrit jamais deux fois exactement la même réponse ([pourquoi](/ressources/youth-ai-lab/guide-ia-locale#la-température)).
 
-:::caution[Ne pas ouvrir son fichier avant d'avoir noté]
+:::info[Ne pas ouvrir son fichier avant d'avoir noté]
 
 Le nom du fichier donne déjà un indice, et son contenu dévoile le truc. On l'ouvre à l'étape 4.
 
@@ -573,7 +573,7 @@ L'animateur·rice montre le tableau de la salle. Trois questions pour la discuss
 - **Quelles erreurs a-t-on manquées, que le juge a vues ?** Ou l'inverse ?
 - **Lequel donnerait-on à un groupe de jeunes de 14 ans ?** Pourquoi ?
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 La personnalité du binôme est notée à l'aveugle, le tableau de la salle est rempli, et chacun·e sait nommer le truc d'au moins une autre personnalité.
 
@@ -591,7 +591,7 @@ Le tableau de la salle a cinq colonnes : personnalité, total du binôme (tel qu
 
 Le dire une fois : les robots trompeurs sont **pour des adultes qui testent des chatbots**. Ils sont étiquetés, et leurs erreurs rendent les règles plus strictes. Ils ne sont pas destinés à un groupe de jeunes.
 
-Si `replay` est trop lent, passer à un sous-ensemble : `replay A --agents examples/AGENTS.sophist.md 1 2 4 7 9 10`. Si `replay` échoue pour un binôme, lui donner le fichier de réponses mesuré de sa personnalité (lien dans la fiche animateur) : le télécharger, le glisser dans `answers/`, puis `score answers/<fichier> --blind`. Si le juge ne répond pas, `score` affiche `Judge unavailable` : le binôme note seul.
+Si `replay` est trop lent, passer à un sous-ensemble : `replay A --agents examples/AGENTS.sophist.md 1 2 4 7 9 10`. Si `replay` échoue pour un binôme, lui donner le fichier de réponses mesuré de sa personnalité (lien dans la fiche animateur·rice) : le télécharger, le glisser dans `answers/`, puis `score answers/<fichier> --blind`. Si le juge ne répond pas, `score` affiche `Judge unavailable` : le binôme note seul.
 
 :::
 
@@ -607,7 +607,7 @@ Feurisson n'a aucun document en mode A. Dans notre test, il a obtenu autant de p
 
 **Objectif** : écrire le préprompt de son chatbot dans `AGENTS.md`, lui parler, puis rejouer le jeu de test et comparer les colonnes Bare et A.
 
-### Ce que l'on va découvrir
+### Ce que vous allez découvrir
 
 - **Le coût d'un préprompt** : il est lu en entier, à chaque message, donc il occupe une place dans la fenêtre de contexte, en permanence.
 - **Ce que peuvent les instructions** : changer le ton, faire refuser le chatbot, lui faire dire « je ne sais pas », lui faire demander des sources.
@@ -643,13 +643,13 @@ Chaque section porte une indication entre `<!--` et `-->`. Ces indications sont 
 2. Écrire des phrases complètes et courtes, comme pour un nouveau ou une nouvelle collègue.
 3. Enregistrer (`Ctrl+S`).
 
-:::caution[Ne pas sauter Rules et Quality requirements]
+:::info[Ne pas sauter Rules et Quality requirements]
 
 Les ateliers suivants sont notés sur ces deux sections.
 
 :::
 
-:::caution[Recopier les règles de protection]
+:::info[Recopier les règles de protection]
 
 Dans **Bans and constraints**, recopier les règles de l'exemple Feurisson, de « Never ask for personal information » jusqu'à la fin, comme le dit l'indication de `AGENTS.md`. Elles protègent les jeunes : le chatbot ne demande aucune information personnelle. Quand un ou une jeune, ou quelqu'un d'autre, va mal ou est en danger, il renvoie vers un adulte de confiance et vers le numéro d'urgence, et il dit qu'il ne peut prévenir personne. Il ne donne ni dose ni méthode qui puisse faire du mal, et si une question montre un risque immédiat pour le corps de quelqu'un, il dit de ne pas le faire et d'aller tout de suite voir un adulte.
 
@@ -718,7 +718,7 @@ $$
 
 13 sur 22 est donc ce que rapporte l'honnêteté seule : c'est pourquoi Feurisson et Prudence ont eu le même total dans notre essai. Les ateliers suivants ajoutent les documents et les outils qui peuvent rapporter les **9 points restants**. Sous ce total, chercher une réponse fausse ou inventée.
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 `AGENTS.md` a un texte sous chaque titre, `workshop A` répond avec l'identité du chatbot, et la colonne A est notée.
 

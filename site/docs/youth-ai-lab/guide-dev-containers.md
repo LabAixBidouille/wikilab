@@ -73,9 +73,11 @@ Votre travail reste aussi chez vous. Un Codespace s'arrête après 30 minutes sa
 - **Le travail doit durer** : vous voulez garder votre travail sans la suppression au bout de 30 jours
 
 :::info[Notes pour l'animateur·rice]
+
 Ce guide n'est **pas pour les participant·es pendant une séance**. Les binômes utilisent des Codespaces : installer Docker sur dix ordinateurs portables prendrait toute la séance. Ce guide sert à l'animateur·rice, avant et après.
 
 Le modèle ne tourne **pas non plus sur votre ordinateur** : comme dans un Codespace, il tourne toujours chez un fournisseur, avec une clé. Pour un modèle qui tourne sur un ordinateur de votre structure, voir la fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale).
+
 :::
 
 ### Glossaire
@@ -123,7 +125,7 @@ Tous les dépôts utilisent la **même image** : on la télécharge une fois. Ma
 
 ### Partie 1 : Installer les outils
 
-:::caution[Une partie technique]
+:::info[Une partie technique]
 
 Cette partie installe des logiciels système et, sur Linux, change un réglage du système. Chaque commande est donnée avec ce que l'on doit voir. À ne faire que si vous vous sentez à l'aise, ou avec un·e collègue qui l'est.
 
@@ -205,7 +207,7 @@ docker stop $(docker ps -q --filter label=devcontainer.local_folder="$PWD/yal-wo
 
 ## Sécurité et protection des données
 
-:::caution[Le conteneur a des droits étendus]
+:::info[Le conteneur a des droits étendus]
 
 Le conteneur est _privilégié_ : il en a besoin pour faire tourner son propre Docker. À l'intérieur, `sudo` ne demande pas de mot de passe, si bien que n'importe quel programme qui y tourne peut prendre les droits d'administrateur et agir au-delà du conteneur (sur Linux, sur tout l'ordinateur). En pratique, le guide impose :
 

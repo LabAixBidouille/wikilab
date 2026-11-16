@@ -40,7 +40,7 @@ sidebar_position: 22
 
 </div>
 
-:::info[Un guide pour les animateur·rices, à suivre seul·e]
+:::info[Un guide pour l'animateur·rice, à suivre seul·e]
 
 Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rices qui travaillent avec des jeunes de 12 à 25 ans. Il sert à leurs propres essais et à la préparation d'ateliers entre adultes, **jamais à un usage avec des jeunes**. Il complète la série d'ateliers [Construire son propre chatbot : ce qu'il lit, et qui décide](/ressources/youth-ai-lab/construire-chatbot-1-instructions), sans la refaire. Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française.
 
@@ -70,7 +70,7 @@ Vous n'avez besoin d'aucune connaissance technique : le guide donne chaque comma
 
 ## Objectifs d'apprentissage
 
-**À la fin de ce guide, vous serez capable de...**
+À la fin de ce guide, vous serez capable de...
 
 - **Ouvrir** un Codespace, démarrer le chatbot, brancher une clé ou un abonnement et poser une première question
 - **Distinguer** le rôle de chaque fichier du chatbot, ce qu'OpenCode envoie au modèle à chaque question, et ce qu'il fait autrement que Claude Code
@@ -111,7 +111,7 @@ Les modèles gratuits (leur nom finit par `:free`) s'arrêtent à 20 requêtes p
 
 OpenCode réserve à chaque requête la réponse la plus longue possible. Avec peu de crédit restant, OpenRouter a ainsi refusé une requête : `You requested up to 195288 tokens, but can only afford 20387`. Les commandes des ateliers limitent la réponse, la configuration de ce guide non : si ce message apparaît, ajouter des crédits.
 
-:::caution[OpenRouter et les jeunes]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 Avec des jeunes et OpenRouter, la règle est `workshop-login --europe`, et elle ne vaut que pour les commandes des ateliers. Les requêtes ne vont alors qu'à Mistral, hébergé en Europe (`mistral/eu`), avec zéro conservation des données ; le modèle par défaut est `mistralai/mistral-small-2603`. Le `chatbot` de ce guide refuse le réglage `provider` : ici, vos paramètres de confidentialité donnent zéro conservation, pas l'Europe.
 

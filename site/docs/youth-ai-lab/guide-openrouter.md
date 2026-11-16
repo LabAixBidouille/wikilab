@@ -89,7 +89,7 @@ OpenRouter change ses pages, ses prix et ses quotas. Sauf si une ligne donne une
 
 ## Objectifs d'apprentissage
 
-**À la fin de ce guide, vous serez capable de...**
+À la fin de ce guide, vous serez capable de...
 
 - **Choisir** entre une clé Anthropic et une clé OpenRouter : dire ce qu'est OpenRouter, quand le prendre, et ce qui reste réservé à Anthropic
 - **Ouvrir** un compte au bon nom, acheter des crédits, régler les alertes, puis créer des clés avec une limite de crédit en sachant ce qui se passe à cette limite
@@ -171,7 +171,7 @@ Chaque requête du kit porte une règle sur les données ([partie 5](#partie-5--
 
 Après le premier achat fait pour ce guide, OpenRouter a cessé de marquer le compte comme gratuit. Savoir si un premier achat fait passer tout seul à Standard : à compléter.
 
-Le 1er novembre 2026, sur ce tableau des offres, la ligne **Platform fees** indique 5,5 % pour Standard. **Budgets & Spend Controls** et **Data Policy-Based Routing** sont absents de Free et présents sur Standard : le second est la règle du kit. **EU in-region routing** n'existe que sur Business et Enterprise, et revient dans [Obligatoire : hébergé en Europe](#obligatoire--hébergé-en-europe).
+Le 1er novembre 2026, sur ce tableau des offres, la ligne **Platform fees** indique 5,5 % pour Standard. **Budgets & Spend Controls** et **Data Policy-Based Routing** sont absents de Free et présents sur Standard : le second est la règle du kit. **EU in-region routing** n'existe que sur Business et Enterprise, et revient dans [Obligatoire : Hébergé en Europe](#obligatoire--hébergé-en-europe).
 
 Un achat va de 5 \$ à 25 000 \$, sans remise sur le volume. Vous payez des frais à l'achat des crédits, et chaque requête coûte ensuite le prix catalogue de l'entreprise. Les pages d'OpenRouter ne donnent pas les mêmes frais : la page des prix dit 5,5 % sur l'offre Standard, et la [FAQ](https://openrouter.ai/docs/faq) dit 5,5 % avec un minimum de 0,80 \$ (lu le 2 novembre 2026). La fenêtre d'achat a demandé davantage : lire cette fenêtre avant de payer. Voici ce qu'elle montrait le 2 novembre 2026, avec l'adresse de facturation utilisée pour ce guide, sans rien payer. **Service fees** désigne les frais, **Sales Tax / VAT** la taxe sur les ventes ou la TVA et **Total due** le total à payer.
 
@@ -249,7 +249,7 @@ Pour remonter une limite, ouvrir la clé depuis la page **API keys**, changer la
 
 Le kit garde les réponses assez courtes pour qu'une petite limite n'arrête pas une question courte.
 
-#### Facultatif : un plafond pour tout le groupe
+#### Facultatif : Un plafond pour tout le groupe
 
 Cette étape n'est pas nécessaire : la limite de chaque clé plafonne déjà chaque binôme. Un budget de **workspace** ajoute un total pour le groupe, pour qu'un accident s'arrête à un chiffre que vous avez choisi. Un workspace (espace de travail) est un groupe de clés avec ses propres réglages. Votre compte a déjà un **Default workspace**. L'offre Standard en permet 5 : un par partenaire ou par groupe est donc possible, et les crédits restent partagés entre eux. Si vous en créez un, créer ses clés à l'intérieur.
 
@@ -342,14 +342,14 @@ Ce tableau est la version courte de cette partie, à garder sous la main pendant
 | `workshop-login --models openrouter` | La même liste que `--models` avec une clé OpenRouter. Certains messages la demandent. |
 | `workshop-login --models free` | Liste les gratuits. |
 | `workshop-login --model <name>` | Choisit le modèle du chatbot. Ne change ni le juge ni le trieur. |
-| `workshop-login --europe` | Active la règle décrite dans [Obligatoire : hébergé en Europe](#obligatoire--hébergé-en-europe). |
+| `workshop-login --europe` | Active la règle décrite dans [Obligatoire : Hébergé en Europe](#obligatoire--hébergé-en-europe). |
 | `workshop-login --no-europe` | Retire cette règle. Jamais pendant une séance avec des jeunes. |
 
 ### Avant et pendant une séance
 
 Aucun groupe n'a encore fait cela. Ce qui suit vient de la documentation d'OpenRouter et des mesures du guide, et le calendrier est un conseil du guide : aucune source ne donne de chiffre.
 
-#### Avant la séance : préparer le compte
+#### Avant la séance : Préparer le compte
 
 Acheter pendant la semaine d'avant, une fois la séance sûre. Un achat demande au moins un jour ouvré : les crédits peuvent mettre une heure à apparaître, une carte peut être refusée, et l'assistance de l'offre Standard passe par e-mail, sans délai de réponse indiqué. Après 24 heures, le remboursement se ferme : si la date peut bouger, attendre avant de payer.
 
@@ -373,7 +373,7 @@ Un compte récent demande le plus de soin. OpenRouter limite l'argent bloqué pa
 - [ ] Relire la page du modèle : prix, entreprises, fenêtre. Ils peuvent changer.
 - [ ] Vérifier que le solde couvre encore la séance.
 - [ ] Préparer les clés en messages privés ou sur papier. Aucune ne va dans une diapositive.
-- [ ] Avec des jeunes : `workshop-login --europe` affiche `hosted in Europe` ([Obligatoire : hébergé en Europe](#obligatoire--hébergé-en-europe)).
+- [ ] Avec des jeunes : `workshop-login --europe` affiche `hosted in Europe` ([Obligatoire : Hébergé en Europe](#obligatoire--hébergé-en-europe)).
 
 **Le matin de la séance :** regarder la [page d'état](https://status.openrouter.ai/) d'OpenRouter.
 
@@ -387,7 +387,7 @@ La vue la plus rapide est la page [API keys](https://openrouter.ai/keys) : **Key
 
 Son onglet **Overview** montre **Total spend**, la dépense totale, et **Top API Keys**, les clés qui dépensent le plus. **Cache hit rate** peut s'ignorer pendant une séance. Pour lire ce qu'un binôme a dépensé, cliquer sur l'icône de filtre, à côté de la période (par exemple **Past 1 Month**), choisir **API Key** parmi **Model**, **Router**, **Provider**, **App** et **Region**, puis choisir la clé dans la liste.
 
-Pour une requête à la fois, ouvrir [Logs](https://openrouter.ai/logs) : une ligne par réponse, avec le modèle, l'entreprise, l'état et la clé d'API. Une ligne s'ouvre sur son coût et ses jetons. Par défaut, ces pages ne montrent aucun texte des questions. Garder cela ainsi ([Facultatif : la même règle pour tout le compte](#facultatif--la-même-règle-pour-tout-le-compte)).
+Pour une requête à la fois, ouvrir [Logs](https://openrouter.ai/logs) : une ligne par réponse, avec le modèle, l'entreprise, l'état et la clé d'API. Une ligne s'ouvre sur son coût et ses jetons. Par défaut, ces pages ne montrent aucun texte des questions. Garder cela ainsi ([Facultatif : La même règle pour tout le compte](#facultatif--la-même-règle-pour-tout-le-compte)).
 
 Un binôme qui s'arrête a atteint sa limite, ou le compte est vide : voir [402](#402--plus-de-crédits-ou-une-limite). Des crédits ajoutés pendant une séance peuvent mettre jusqu'à une heure à apparaître, d'où la marge.
 
@@ -420,7 +420,7 @@ Les commandes ne changent pas avec la clé, mais les modèles derrière elles ch
 | `openwebui`, mode groupe | `claude-sonnet-5-5` et `claude-haiku-5-5`, moins cher | `deepseek/deepseek-v4-flash`, et `mistralai/mistral-small-3.2-24b-instruct` en second modèle |
 | `./sorter compare` (atelier 6) | `claude-haiku-5-5` | `mistralai/mistral-small-3.2-24b-instruct` |
 
-`./sorter claude` reste un autre nom de `./sorter compare`. Avec une clé OpenRouter, il n'appelle pas Claude. Avec `workshop-login --europe`, la dernière colonne change : le chatbot et le premier modèle du mode groupe sont `mistralai/mistral-small-2603`, et le juge, le second modèle et le trieur sont `mistralai/mistral-small-3.2-24b-instruct` ([Obligatoire : hébergé en Europe](#obligatoire--hébergé-en-europe)).
+`./sorter claude` reste un autre nom de `./sorter compare`. Avec une clé OpenRouter, il n'appelle pas Claude. Avec `workshop-login --europe`, la dernière colonne change : le chatbot et le premier modèle du mode groupe sont `mistralai/mistral-small-2603`, et le juge, le second modèle et le trieur sont `mistralai/mistral-small-3.2-24b-instruct` ([Obligatoire : Hébergé en Europe](#obligatoire--hébergé-en-europe)).
 
 Quatre points diffèrent d'une clé Anthropic. Avec OpenCode, aucune commande du terminal ne passe sans demande : le chatbot cherche donc avec les outils `read`, `grep` et `glob` d'OpenCode. `replay` tourne dans une copie du kit sans le matériel de test.
 
@@ -505,7 +505,7 @@ Chaque erreur a son numéro et son remède, et les outils affichent le numéro. 
 
 Avec `workshop` et Open WebUI, le binôme ne voit pas les lignes ci-dessous : OpenCode et Open WebUI utilisent leurs propres écrans (non testé). Si un binôme dit que le chatbot ne répond plus, regarder la [page Credits](https://openrouter.ai/settings/credits) et [Logs](https://openrouter.ai/logs) sur votre propre écran, puis chercher le numéro ici.
 
-#### 429 : trop de requêtes
+#### 429 : Trop de requêtes
 
 | Outil | À l'écran |
 | --- | --- |
@@ -537,7 +537,7 @@ En mode groupe, vos chatbots ne reviennent pas avec le modèle : ils restent sur
 
 Après un changement de modèle, fermer le chatbot et le relancer, ou taper `openwebui start`. `--model` ne change ni le juge ni le trieur : avec `score` ou `./sorter compare`, attendre une minute et réessayer.
 
-#### 402 : plus de crédits, ou une limite
+#### 402 : Plus de crédits, ou une limite
 
 | Outil | À l'écran |
 | --- | --- |
@@ -553,7 +553,7 @@ S'il reste de l'argent et que seule cette clé est arrêtée, la clé est à sa 
 
 Si le solde est petit, sur un compte prépayé ou récent, la cause peut être le blocage d'OpenRouter. Il bloque à l'avance un coût estimé : une requête peut donc échouer alors que le solde est encore positif. Attendre une minute et réessayer, et ne pas faire tourner beaucoup de binômes en même temps sur un petit solde. Ajouter des crédits aide, jusqu'à un plafond. Cela ne concerne pas les modèles gratuits.
 
-#### 403 : une limite, ou une de vos règles
+#### 403 : Une limite, ou une de vos règles
 
 | Outil | Ligne de limite de dépense | Ligne de refus |
 | --- | --- | --- |
@@ -574,7 +574,7 @@ Si les mots parlent d'un guardrail ou d'une région de données, l'argent n'y es
 
 Les deux colonnes ont été vues avec un faux OpenRouter le 2 novembre 2026, avec des mots copiés de la documentation d'OpenRouter. Ce qu'écrit le vrai quand un garde-fou refuse une entreprise n'a pas été testé.
 
-#### 503 : occupé, ou aucune entreprise
+#### 503 : Occupé, ou aucune entreprise
 
 | Outil | À l'écran |
 | --- | --- |
@@ -588,7 +588,7 @@ Attendre quelques minutes. Si cela dure, choisir un autre modèle avec `workshop
 
 ## Sécurité et protection des données
 
-:::caution[Avec des jeunes et OpenRouter : taper workshop-login --europe]
+:::info[Avec des jeunes et OpenRouter : taper workshop-login --europe]
 
 **Avec des jeunes et OpenRouter, taper `workshop-login --europe`.** Les requêtes ne vont alors qu'à Mistral, hébergé en Europe, avec zéro conservation des données. Le modèle par défaut est `mistralai/mistral-small-2603`. C'est la règle du projet Youth AI Lab avec une clé OpenRouter. En mode groupe, `workshop-login`, `openwebui start` et `openwebui share open` l'affichent tant qu'elle n'est pas active.
 
@@ -614,7 +614,7 @@ La règle que le kit envoie toujours, `data_collection: deny`, ne donne pas le Z
 
 Le ZDR a des limites, même actif. La liste d'OpenRouter « reflects the AI Model Provider's published or represented policy » et « does not constitute OpenRouter's guarantee of AI Model Provider compliance. » (elle reprend ce que déclarent les entreprises, sans garantir qu'elles le respectent). Il couvre les questions envoyées à un modèle, pas des ajouts comme la recherche web : le kit garde la recherche web coupée dans Open WebUI. OpenRouter ne compte pas comme une conservation une copie de courte durée dans la mémoire d'un ordinateur (un cache). Pour chaque requête, OpenRouter garde le nombre de jetons et le temps pris, et il « samples a small number of prompts for categorization » (il prélève un petit nombre de prompts pour les classer ; un prompt est un texte envoyé à un modèle).
 
-### Obligatoire : hébergé en Europe
+### Obligatoire : Hébergé en Europe
 
 ```bash
 workshop-login --europe
@@ -638,7 +638,7 @@ Les mots à chercher sont `hosted in Europe`.
 
 Le 1er novembre 2026, la page de Mistral Small 4 (`mistralai/mistral-small-2603`) affiche en haut 0,15 \$ en entrée et 0,60 \$ en sortie par million de jetons, et une fenêtre de **262K**. `--europe` utilise la ligne au drapeau de l'UE et au bouclier vert, à 0,165 \$ en entrée et 0,66 \$ en sortie. Le prix du haut de page est celui des premières lignes. La ligne de l'UE est sous **Not used in Standard routing** : l'usage ordinaire ne l'atteint pas, et les commandes la demandent par son nom, vous payez donc son prix.
 
-:::caution[--europe choisit où tourne le modèle, pas où OpenRouter traite la requête]
+:::info[--europe choisit où tourne le modèle, pas où OpenRouter traite la requête]
 
 OpenRouter lui-même peut traiter une requête ailleurs. Le kit envoie toujours chaque requête à `openrouter.ai`, et n'a pas d'option pour `eu.openrouter.ai`. Les comptes, la facturation et les journaux de sécurité peuvent rester aux États-Unis dans tous les cas.
 
@@ -715,7 +715,7 @@ Le modèle par défaut n'atteint pas DeepSeek lui-même. OpenRouter indique 17 a
 
 **Les conditions de ces 17 entreprises n'ont pas été lues.** Le modèle par défaut est donc réservé aux adultes, avec des questions inventées ou publiques.
 
-### Facultatif : la même règle pour tout le compte
+### Facultatif : La même règle pour tout le compte
 
 Cette étape n'est pas nécessaire. `workshop-login --europe` demande déjà le ZDR dans chaque requête du kit. Ces réglages tiennent le ZDR pour tout le compte, quel que soit l'outil qui utilise la clé, Chat du site compris. Rien dans ce guide n'a tourné avec eux.
 
@@ -731,7 +731,7 @@ Cette étape n'est pas nécessaire. `workshop-login --europe` demande déjà le 
 
 Pour vérifier à la main après `--europe`, ouvrir [Logs](https://openrouter.ai/logs), filtrer sur une clé, et lire l'entreprise sur quelques lignes. Personne n'a vérifié ce qu'une ligne affiche comme région de données pour `mistral/eu` (non testé).
 
-### Facultatif : une règle tenue par OpenRouter
+### Facultatif : Une règle tenue par OpenRouter
 
 La règle de `--europe` est dans votre Codespace : un `workshop-login --no-europe` tapé par accident la retire. Un **guardrail** (garde-fou) est une règle qu'OpenRouter tient pour une clé, de son côté. Il s'ajoute à `--europe` et ne remplace rien, et il ne lève rien de [ce qu'aucun réglage ne retire](#ce-quaucun-réglage-ne-retire). Mistral a aussi des lignes hors d'Europe : un garde-fou sur Mistral seul ne remplace donc pas `--europe`. Aucun garde-fou n'a été essayé avec ce guide. Le 2 novembre 2026, un compte personnel a une entrée **Guardrails** dans son menu, et la liste des clés a une colonne **Guardrails**, mais personne n'a ouvert cette page.
 
