@@ -15,9 +15,13 @@ sidebar_position: 22
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">Agent IA</span>
+  <span className="badge badge--info">Skills</span>
+  <span className="badge badge--info">MCP</span>
+  <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
   <span className="badge badge--warning">OpenCode</span>
   <span className="badge badge--warning">GitHub Codespaces</span>
-  <span className="badge badge--info">MCP</span>
 </div>
 
 | Projet       | Durée                        | Difficulté    | Âge                       |

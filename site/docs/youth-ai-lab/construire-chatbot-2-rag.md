@@ -13,11 +13,15 @@ sidebar_position: 15
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation aux médias</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">RAG</span>
+  <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Activité débranchée</span>
+  <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
   <span className="badge badge--warning">Open WebUI</span>
-  <span className="badge badge--info">Débranché</span>
 </div>
 
 | Projet       | Durée                       | Difficulté    | Âge                       |

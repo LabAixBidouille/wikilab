@@ -16,8 +16,11 @@ sidebar_position: 25
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
+  <span className="badge badge--info">Maîtrise des coûts</span>
   <span className="badge badge--warning">OpenRouter</span>
   <span className="badge badge--warning">OpenCode</span>
+  <span className="badge badge--warning">Open WebUI</span>
   <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
 

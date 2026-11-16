@@ -13,10 +13,15 @@ sidebar_position: 19
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">Apprentissage automatique</span>
+  <span className="badge badge--info">Fine-tuning</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
   <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Protection des données</span>
   <span className="badge badge--warning">SetFit</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
 
 | Projet       | Durée                          | Difficulté    | Âge                       |

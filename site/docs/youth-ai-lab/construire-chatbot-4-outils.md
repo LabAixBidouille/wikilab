@@ -15,8 +15,13 @@ sidebar_position: 17
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
-  <span className="badge badge--info">Esprit critique</span>
-  <span className="badge badge--info">Outils MCP</span>
+  <span className="badge badge--info">MCP</span>
+  <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Sécurité informatique</span>
+  <span className="badge badge--info">Injection de consigne</span>
+  <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée                           | Difficulté    | Âge                       |

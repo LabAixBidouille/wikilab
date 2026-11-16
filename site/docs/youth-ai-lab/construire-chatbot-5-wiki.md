@@ -16,7 +16,10 @@ sidebar_position: 18
   <span className="badge badge--primary">Éducation aux médias</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Graphe de connaissances</span>
+  <span className="badge badge--info">Vérification des sources</span>
   <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
   <span className="badge badge--warning">Open WebUI</span>
   <span className="badge badge--warning">graphify</span>
 </div>

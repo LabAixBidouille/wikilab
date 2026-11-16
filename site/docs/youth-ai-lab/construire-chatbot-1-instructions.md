@@ -16,6 +16,11 @@ sidebar_position: 14
   <span className="badge badge--primary">Éducation aux médias</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Préprompt</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
+  <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée          | Difficulté | Âge                       |

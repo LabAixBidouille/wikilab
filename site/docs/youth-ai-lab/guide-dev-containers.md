@@ -15,8 +15,13 @@ sidebar_position: 23
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">Conteneurs</span>
+  <span className="badge badge--info">Protection des données</span>
   <span className="badge badge--warning">Docker</span>
   <span className="badge badge--warning">VS Code</span>
+  <span className="badge badge--warning">Git</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée                        | Difficulté | Âge                       |

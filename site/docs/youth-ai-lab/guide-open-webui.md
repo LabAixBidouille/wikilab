@@ -15,7 +15,11 @@ sidebar_position: 20
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">Préprompt</span>
+  <span className="badge badge--info">RAG</span>
+  <span className="badge badge--info">MCP</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
   <span className="badge badge--warning">Open WebUI</span>
   <span className="badge badge--warning">GitHub Codespaces</span>
 </div>

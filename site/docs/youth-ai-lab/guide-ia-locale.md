@@ -14,10 +14,14 @@ sidebar_position: 21
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">RAG</span>
   <span className="badge badge--info">Raspberry Pi</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--warning">Ollama</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée                              | Difficulté | Âge                       |
