@@ -103,7 +103,9 @@ relève de la compétence `creer-une-vignette`.
 Section « Catalogue (`resources.ts`) ». L'entrée de la fiche dit la même chose que ses badges :
 `disciplines`, `tools`, `software`, `formats`, `categories`, mots-clés utiles à la recherche. Une
 valeur nouvelle s'ajoute au type **et** à son dictionnaire de libellés (`softwareLabels`,
-`toolLabels`...), ce qui l'ajoute aussi aux filtres du catalogue.
+`toolLabels`...). Les logiciels apparaissent alors dans le filtre du catalogue. Un outil **matériel**
+s'ajoute en plus à `REAL_TOOLS` dans `site/src/pages/catalogue.tsx`, qui construit le filtre
+« Matériel » et lit ce filtre dans l'URL ; sans cela, l'outil n'a pas de case.
 
 ## Pièges rencontrés
 

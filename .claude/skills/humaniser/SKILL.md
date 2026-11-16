@@ -345,7 +345,7 @@ _Être_, _avoir_ et _faire_ sont remplacés par des périphrases.
 > La galerie 825 se veut l'espace d'exposition de la LAAA. Elle dispose de quatre salles et fait
 > office de vitrine sur plus de 280 m².
 
-> La galerie 825 est l'espace d'exposition de la LAAA. Elle a quatre salles, soit 280 m².
+> La galerie 825 est l'espace d'exposition de la LAAA. Elle a quatre salles, sur plus de 280 m².
 
 **Réécrire** : 1. Remplacer la périphrase par _être_, _avoir_ ou _faire_, ou par le verbe précis
 qu'elle cachait : « dispose de » devient « a », « constitue » et « représente un » deviennent « est
@@ -363,8 +363,8 @@ phrases courtes ont désormais le même sujet, une virgule ou « et » les réun
 un véritable Y ; loin d'être un simple X.
 
 L'antithèse ne se justifie que si un lecteur pouvait vraiment confondre les deux termes. Quand
-personne n'a proposé Y, elle emballe. Le **test de suppression** tranche : citer le passage
-antérieur où Y était en jeu, ou retirer la négation. Ici l'antériorité compte.
+personne n'a proposé X, elle emballe. Le **test de suppression** tranche : citer le passage
+antérieur où X était en jeu, ou retirer la négation. Ici l'antériorité compte.
 
 > Ce n'est pas qu'une chanson, c'est une déclaration. Ce n'est pas le rythme sous la voix, c'est
 > l'atmosphère elle-même.
@@ -394,7 +394,7 @@ Trois membres dont le troisième n'ajoute rien, pour faire complet.
 > L'événement propose des conférences, des tables rondes et des occasions de réseautage. Les
 > participants y trouveront innovation, inspiration et perspectives.
 
-> L'événement propose des conférences et des tables rondes, avec du temps libre entre les sessions.
+> L'événement propose des conférences, des tables rondes et des occasions de réseautage.
 
 **Réécrire** : Pour chaque membre, se demander quelle affirmation de la source il porte.
 
@@ -591,7 +591,7 @@ qu'on a découpé.
 > - **Performance** : les temps de chargement ont été optimisés.
 > - **Sécurité** : le chiffrement de bout en bout a été renforcé.
 
-> La mise à jour revoit l'interface, accélère le chargement et ajoute le chiffrement de bout en
+> La mise à jour améliore l'interface, accélère le chargement et renforce le chiffrement de bout en
 > bout.
 
 Un cas reste légitime : l'étiquette **structurelle** d'un document de référence, répétée à
@@ -635,7 +635,7 @@ une information est autre chose, et il se juge sur ce qu'il porte.
 > 🚀 **Lancement** : le produit sort au troisième trimestre
 > 💡 **Enseignement** : les utilisateurs préfèrent la simplicité
 
-> Le produit sort au troisième trimestre. L'étude montre une préférence pour la simplicité.
+> Le produit sort au troisième trimestre. Les utilisateurs préfèrent la simplicité.
 
 **Réécrire** : Retirer l'emoji et relire la ligne. Si des emojis différents rangeaient des entrées
 en catégories, les catégories doivent survivre : les nommer avec un mot que la source donne, ou
@@ -1026,9 +1026,9 @@ l'historique de version, le journal des changements, la section des alternatives
 décision d'architecture.
 
 > Cette fonction a été ajoutée pour remplacer l'ancienne approche qui parcourait tous les éléments,
-> ce qui coûtait O(n²).
+> ce qui coûtait O(n²). Elle passe désormais par une table de hachage, avec une recherche en O(1).
 
-> Cette fonction emploie une table de hachage, avec une recherche en O(1).
+> Cette fonction passe par une table de hachage, avec une recherche en O(1).
 
 **Réécrire** : Écrire ce que la chose fait aujourd'hui, au présent, et retirer le récit du
 changement : « la carte affiche désormais la température » devient « la carte affiche la température
@@ -1136,8 +1136,7 @@ reprise. C'est souvent le reste d'une version antérieure du texte.
 > redémarrer le service d'authentification par une tâche planifiée, mais cela couperait toutes les
 > sessions actives. Le renouvellement se fait en place.
 
-> Les jetons de session sont renouvelés en place toutes les 24 heures, et les clients rafraîchissent
-> sans interruption.
+> Les jetons de session sont renouvelés en place toutes les 24 heures.
 
 Une alternative réelle se garde : dans un document de conception ou un tutoriel, le lecteur peut
 vraiment l'envisager. Plusieurs rejets courts et sans suite dans le même texte sont le signal.
@@ -1308,7 +1307,7 @@ Dans un texte technique de référence, ce « nous » n'a pas de référent : ni
 
 > Nous avons choisi de conserver les fichiers plutôt que de les déplacer.
 
-> Les fichiers sont copiés, jamais déplacés.
+> Les fichiers sont conservés plutôt que déplacés.
 
 > Pour cette enquête, nous allons construire des dispositifs simples pour mesurer la vitesse et la
 > direction du vent.
