@@ -53,7 +53,11 @@ Les pages, les commandes et le Codespace de l'atelier sont en anglais ; cette fi
 
 Les participant·es ont déjà discuté avec un chatbot comme ChatGPT, Gemini ou Claude : on tape une question, une réponse revient. Ce qu'on ne voit pas, c'est ce que le chatbot a lu avant de répondre. Cet atelier ouvre la boîte. Sa question du jour :
 
-> **Que lit le chatbot avant de répondre ?**
+:::question[Question du jour]
+
+**Que lit le chatbot avant de répondre ?**
+
+:::
 
 C'est la première étape de la question qui traverse toute la série : **qu'est-ce qui entre dans le contexte du modèle, quand, et qui en décide ?** Un **modèle** est le programme qui écrit les réponses : ici Claude Sonnet avec une clé Anthropic, `deepseek/deepseek-v4-flash` avec une clé OpenRouter, le même pour tous les binômes qui ont ce type de clé. Un **chatbot** est un modèle, plus ce qu'on lui ajoute.
 

@@ -61,7 +61,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 Dans les ateliers 1 à 5, le chatbot a reçu des instructions, des connaissances, une façon de chercher, des outils et un wiki. Tout cela est entré dans le **contexte** : le texte que le modèle lit avant de répondre. Le modèle, lui, n'a jamais changé : c'était le même modèle pour tout le monde, avec les mêmes nombres à l'intérieur. Aujourd'hui, on change un modèle. Un petit, pour une seule tâche : **trier les messages** que les gens envoient à un chatbot, avant que le chatbot ne les voie. La question du jour :
 
-> **Comment un petit modèle, à qui vous apprenez quelque chose, peut-il aider un grand ?**
+:::question[Question du jour]
+
+**Comment un petit modèle, à qui vous apprenez quelque chose, peut-il aider un grand ?**
+
+:::
 
 **Pourquoi cette approche ?** Le **réglage fin** (_fine-tuning_) consiste à modifier un peu un modèle, avec ses propres exemples, pour qu'il fasse mieux une tâche. À l'atelier 5, ce n'était qu'une option sur une diapositive de l'animateur·rice : la connaissance entre dans le modèle, sans source, et une erreur oblige à entraîner de nouveau. Un modèle réglé qui écrit peut aussi continuer d'inventer, et régler un grand modèle demande bien plus qu'une structure jeunesse n'en a : des cartes graphiques, des milliers d'exemples, des jours de travail. Les plus grands modèles ne peuvent pas du tout être réglés par leurs utilisateurs. Certaines entreprises vendent le réglage fin de certains de leurs modèles, et un modèle ouvert peut être adapté sur une carte graphique louée. Cela reste utile parfois, pour un style ou un format fixe, mais c'est un projet à part entière.
 

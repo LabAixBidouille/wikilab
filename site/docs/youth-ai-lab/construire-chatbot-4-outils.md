@@ -54,7 +54,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 Jusqu'ici, le chatbot ne lisait que ce qui se trouvait déjà dans le Codespace : ses instructions, ses documents, ses skills. Mais certaines connaissances changent tous les jours, comme le niveau de danger feu de forêt, et aucun document ne peut les contenir. Aujourd'hui, on branche des **outils** sur le chatbot : des actions qu'il peut appeler pendant qu'il répond, et qui lui rapportent ce qu'elles trouvent. La question du jour :
 
-> **Que se passe-t-il quand le chatbot agit à l'extérieur ?**
+:::question[Question du jour]
+
+**Que se passe-t-il quand le chatbot agit à l'extérieur ?**
+
+:::
 
 Un document dit ce qui était vrai le jour où il a été écrit. Le niveau de danger feu de forêt, lui, est décidé chaque jour par une autorité, et le chatbot ne peut pas le deviner. Un outil comble ce manque : le modèle lui pose une question, l'outil répond par un fait, et le modèle s'en sert dans sa réponse.
 

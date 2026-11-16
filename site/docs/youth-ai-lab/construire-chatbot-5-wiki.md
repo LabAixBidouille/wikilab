@@ -60,7 +60,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages reliées entre elles, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. Une personne peut suivre les liens de page en page, et un modèle aussi. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
 
-> **Comment ranger des connaissances pour qu'une personne et un modèle puissent les explorer ?**
+:::question[Question du jour]
+
+**Comment ranger des connaissances pour qu'une personne et un modèle puissent les explorer ?**
+
+:::
 
 **Pourquoi cette approche ?** Le mode B lisait tout, à chaque fois. Avec le RAG, un moteur de recherche choisissait des extraits, et le modèle ne recevait qu'eux. Le mode C cherchait, puis repartait de zéro à la question suivante. Chaque question payait donc de nouveau le même travail. Un **wiki** fait ce travail une seule fois, à l'avance. C'est un ensemble de pages, une page par **sujet** (une règle, un lieu, un organisme), reliées entre elles, et chaque fait se termine par une **note de bas de page**, une marque qui renvoie à sa source.
 

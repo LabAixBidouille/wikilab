@@ -64,7 +64,13 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 Dans l'atelier 2, le chatbot lisait tout (mode B), ou bien un moteur de recherche choisissait des extraits pour lui (RAG). Aujourd'hui, **le modèle cherche lui-même** : il décide ce qu'il ouvre, une étape après l'autre, et vous pouvez lire chacune de ses étapes. Ensuite, vous faites entrer un nouveau document dans ses connaissances, et vous signez ce que le chatbot en dira.
 
-La question du jour : **et si le modèle cherchait lui-même ?** (à l'écran : _What if the model searched by itself?_)
+La question du jour :
+
+:::question[Question du jour]
+
+**Et si le modèle cherchait lui-même ?** (à l'écran : _What if the model searched by itself?_)
+
+:::
 
 ### Ce que change cette approche
 

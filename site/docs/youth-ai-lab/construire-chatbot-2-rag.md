@@ -74,7 +74,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 La question du jour est :
 
-> **Qui choisit les morceaux ?**
+:::question[Question du jour]
+
+**Qui choisit les morceaux ?**
+
+:::
 
 D'abord, on met tout dans le contexte du modèle et on regarde ce que cela coûte. Ensuite, un moteur de recherche choisit quelques morceaux pour chaque question (il cherche dans les documents, pas sur le web), et on regarde lesquels il choisit. C'est ce qu'on appelle le **RAG** (_Retrieval-Augmented Generation_, génération augmentée par la recherche).
 
