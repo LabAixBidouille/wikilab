@@ -50,7 +50,7 @@ sidebar_position: 11
 
 ---
 
-:::caution[Créer un espace sûr : note à l'attention de l'équipe d'animation]
+:::info[Créer un espace sûr : note à l'attention de l'équipe d'animation]
 
 L'objet de cette activité est d'**analyser la machine, pas de juger les participant·es**. Parce que les biais de l'IA prennent racine dans des stéréotypes humains, l'activité touche à des sujets sensibles : genre, milieu social, neurodiversité, apparence. Pour que l'exploration reste une expérience d'apprentissage positive et ne crée ni gêne ni tension, quelques règles :
 

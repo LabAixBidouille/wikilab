@@ -59,7 +59,7 @@ sidebar_position: 6
 
 **Question clé** : *Comment reconnaître un contenu généré par IA d'un produit réel ?*
 
-L'activité débute par un court jeu où les participant·e·s devinent si des produits étranges sont réels ou générés par IA. Ce brise-glace introduit le thème de la **crédibilité** et de la **persuasion**.
+L'activité débute par un court jeu où les participant·es devinent si des produits étranges sont réels ou générés par IA. Ce brise-glace introduit le thème de la **crédibilité** et de la **persuasion**.
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '0.25rem 0'}}>
   <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/2.png" alt="Jeu Réel ou IA - exemple 1" style={{width: '100%', height: 'auto', margin: 0}} />
@@ -68,13 +68,13 @@ L'activité débute par un court jeu où les participant·e·s devinent si des p
   <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/8.png" alt="Jeu Réel ou IA - exemple 4" style={{width: '100%', height: 'auto', margin: 0}} />
 </div>
 
-Ensuite, en petits groupes, les participant·e·s imaginent **la pire invention possible** : quelque chose d'absurde, inutile et drôle, mais présenté comme sérieux. Ils complètent une fiche d'idéation avec :
+Ensuite, en petits groupes, les participant·es imaginent **la pire invention possible** : quelque chose d'absurde, inutile et drôle, mais présenté comme sérieux. Ils complètent une fiche d'idéation avec :
 
 - Le **problème étrange ou inutile** qu'ils veulent résoudre
 - À **qui** cela pourrait (potentiellement) servir
 - Le **nom accrocheur** de l'invention
 - **Comment elle fonctionne** (avec un croquis)
-- Les **caractéristiques produit** (« le produit doit… »)
+- Les **caractéristiques produit** (« le produit doit... »)
 
 Pour finir, les groupes utilisent une **IA conversationnelle** pour améliorer leur concept et rédiger une première description produit.
 
@@ -111,15 +111,15 @@ L'objectif est de rendre une idée absurde **crédible**. Les groupes analysent 
 
 ### Session 3 : Pitch final et jury d'investisseurs (60 minutes)
 
-**Question clé** : *Comment défendre publiquement une idée — même absurde ?*
+**Question clé** : *Comment défendre publiquement une idée, même absurde ?*
 
-Chaque groupe présente son invention aux autres et à un **jury de facilitateurs jouant le rôle d'investisseurs**. Le jury :
+Chaque groupe présente son invention aux autres et à un **jury de facilitateur·rices jouant le rôle d'investisseurs**. Le jury :
 
 - Pose des questions
 - Met en doute les arguments
 - Maintient une atmosphère ludique et bienveillante
 
-Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, les participant·e·s votent pour la **meilleure pire invention** et partagent ce qu'ils ont appris sur l'IA, la persuasion et la crédibilité.
+Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, les participant·es votent pour la **meilleure pire invention** et partagent ce qu'ils ont appris sur l'IA, la persuasion et la crédibilité.
 
 **Exemples de pitchs finaux** réalisés par deux groupes de jeunes :
 
@@ -171,7 +171,7 @@ Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, le
 
 ## Indicateurs de réussite
 
-L'activité fonctionne quand les participant·e·s peuvent :
+L'activité fonctionne quand les participant·es peuvent :
 
 - **Expliquer leur invention** et utiliser l'IA pour produire le contenu associé
 - **Questionner ce qui semble crédible** dans une production numérique
@@ -180,12 +180,12 @@ L'activité fonctionne quand les participant·e·s peuvent :
 
 ---
 
-## Annexes : ressources imprimables
+## Annexes : Ressources imprimables
 
 :::tip[**Ressources imprimables incluses dans le PDF.**]
-- **Annexe 1** — Jeu de brise-glace « Réel ou IA ? » (modèle Canva : [canva.link/5taeklifkw3yw53](https://canva.link/5taeklifkw3yw53))
-- **Annexe 2** — Fiche d'idéation à compléter par les groupes (problème, public, nom, fonctionnement, caractéristiques) — modèle Canva : [canva.link/0iqm7b1ku4i6mca](https://canva.link/0iqm7b1ku4i6mca)
-- **Annexe 3** — Exemple de campagne de fausse communication par IA : « Bouteille d'Air Pur de l'Himalaya » (modèle Canva : [canva.link/aghapvayhx0vghm](https://canva.link/aghapvayhx0vghm))
+- **Annexe 1** : Jeu de brise-glace « Réel ou IA ? » (modèle Canva : [canva.link/5taeklifkw3yw53](https://canva.link/5taeklifkw3yw53))
+- **Annexe 2** : Fiche d'idéation à compléter par les groupes (problème, public, nom, fonctionnement, caractéristiques), modèle Canva : [canva.link/0iqm7b1ku4i6mca](https://canva.link/0iqm7b1ku4i6mca)
+- **Annexe 3** : Exemple de campagne de fausse communication par IA : « Bouteille d'Air Pur de l'Himalaya » (modèle Canva : [canva.link/aghapvayhx0vghm](https://canva.link/aghapvayhx0vghm))
 :::
 
 **Aperçu complet de la campagne « Bouteille d'Air Pur de l'Himalaya »** :

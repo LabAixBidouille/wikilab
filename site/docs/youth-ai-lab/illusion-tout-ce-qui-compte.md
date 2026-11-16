@@ -26,7 +26,7 @@ sidebar_position: 5
 
 ## Matériel
 
-- Fiches d'analyse (papier ou numérique) — *« Fiche d'analyse L'illusion de la pensée »*
+- Fiches d'analyse (papier ou numérique) : *« Fiche d'analyse L'illusion de la pensée »*
 - Stylos / tablettes / smartphones pour la prise de notes
 - Tableau blanc ou vidéoprojecteur pour l'analyse collective
 - Article « L'illusion de la pensée »
@@ -73,7 +73,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 2 : Des robots pour le bien commun : introduction aux ODD (en salle, 30 minutes)
+### Étape 2 : Des robots pour le bien commun : Introduction aux ODD (en salle, 30 minutes)
 
 **Question clé** : *Comment pouvons-nous utiliser des machines « pensantes » pour résoudre des problèmes mondiaux « insolubles » ?*
 
@@ -87,7 +87,7 @@ sidebar_position: 5
 
 ---
 
-### Étape 3 : Comment les machines apprennent : l'apprentissage par renforcement (en salle, 45 minutes)
+### Étape 3 : Comment les machines apprennent : L'apprentissage par renforcement (en salle, 45 minutes)
 
 **Question clé** : *Comment apprendre à un robot à accomplir une tâche sans lui donner d'instructions spécifiques ?*
 
@@ -146,7 +146,7 @@ Les participant·es peuvent :
 - Définir correctement les éléments de l'**apprentissage par renforcement**
 - Expliquer pourquoi la « compréhension » d'une IA est souvent considérée comme une illusion basée sur des modèles de données
 - Associer une **fonction robotique** à un **ODD** spécifique (par exemple, « Ce robot aide l'Objectif 14 en nettoyant les océans »)
-- Justifier les ajouts de leur devoir en s'appuyant sur les limites techniques de l'IA
+- Justifier les ajouts de leur travail à la maison en s'appuyant sur les limites techniques de l'IA
 
 Amélioration de la profondeur d'analyse dans la discussion collective concernant l'article « L'illusion de la pensée ».
 

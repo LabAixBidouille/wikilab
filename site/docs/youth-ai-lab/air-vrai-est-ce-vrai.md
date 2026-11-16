@@ -91,11 +91,11 @@ Les participant·es comparent la production de l'IA avec leur propre travail : q
 
 ### Partie 3 : La tâche à réponse inconnue
 
-**Objectif** : Tester et affiner les critères des participant·es dans une situation plus authentique — comment l'IA est réellement utilisée au quotidien — pour passer de « l'IA comme expert » à « l'IA comme partenaire de réflexion ».
+**Objectif** : Tester et affiner les critères des participant·es dans une situation plus authentique, comment l'IA est réellement utilisée au quotidien, pour passer de « l'IA comme expert » à « l'IA comme partenaire de réflexion ».
 
-Les participant·es choisissent une question adaptée à leur âge, dont la réponse leur est encore inconnue. D'abord, elles et ils interrogent l'IA comme ils le feraient habituellement. Puis le groupe évalue la production en utilisant leur décalogue d'évaluation (identifier les affirmations, les faiblesses possibles, les risques de biais, le contexte manquant). Discuter du rôle que les participant·es attribuent souvent à l'IA (un « expert ayant la bonne réponse ») et pourquoi cela mène à des suppositions ou à une confiance excessive.
+Les participant·es choisissent une question adaptée à leur âge, dont la réponse leur est encore inconnue. D'abord, elles et ils interrogent l'IA comme elles et ils le feraient habituellement. Puis le groupe évalue la production en utilisant leur décalogue d'évaluation (identifier les affirmations, les faiblesses possibles, les risques de biais, le contexte manquant). Discuter du rôle que les participant·es attribuent souvent à l'IA (un « expert ayant la bonne réponse ») et pourquoi cela mène à des suppositions ou à une confiance excessive.
 
-Dans un second temps, les participant·es améliorent leur prompt pour que l'IA agisse comme un **partenaire de réflexion** (pose des questions de clarification, propose un cheminement de raisonnement…). Pour appuyer la vérification, l'animateur·rice fournit un petit ensemble de sources approuvées (1 à 3 liens ou une section de manuel). Les participant·es vérifient au moins une affirmation clé et révisent leurs décalogues en conséquence.
+Dans un second temps, les participant·es améliorent leur prompt pour que l'IA agisse comme un **partenaire de réflexion** (pose des questions de clarification, propose un cheminement de raisonnement...). Pour appuyer la vérification, l'animateur·rice fournit un petit ensemble de sources approuvées (1 à 3 liens ou une section de manuel). Les participant·es vérifient au moins une affirmation clé et révisent leurs décalogues en conséquence.
 
 ---
 
@@ -129,10 +129,10 @@ Cette activité est amusante car elle peut être mise en place comme un **jeu de
 ## Indicateurs de réussite
 
 1. Les participant·es peuvent définir l'IA générative de manière plus précise, notamment concernant les limites et le rôle humain.
-2. Les participant·es remettent en question l'IA comme autorité de savoir et intègrent des réflexes : « Ça a l'air correct mais il faut vérifier… », « Cette affirmation a besoin d'une source. », « Il manque une condition/un exemple. »
+2. Les participant·es remettent en question l'IA comme autorité de savoir et intègrent des réflexes : « Ça a l'air correct mais il faut vérifier... », « Cette affirmation a besoin d'une source. », « Il manque une condition/un exemple. »
 3. Les participant·es apprennent comment le prompting change la qualité, en analysant l'évolution des prompts et la qualité des productions.
-4. Les participant·es peuvent identifier des risques éthiques spécifiques pertinents pour l'usage scolaire (exactitude, biais/équité, vie privée, transparence, intégrité académique…).
-5. Les participant·es savent mieux gérer les risques éthiques pertinents pour l'usage scolaire (supprimer les détails personnels, vérifier les affirmations dans des sources fiables, utiliser l'IA pour le brainstorming ou le feedback et non pour remplacer la réflexion…).
+4. Les participant·es peuvent identifier des risques éthiques spécifiques pertinents pour l'usage scolaire (exactitude, biais/équité, vie privée, transparence, intégrité académique...).
+5. Les participant·es savent mieux gérer les risques éthiques pertinents pour l'usage scolaire (supprimer les détails personnels, vérifier les affirmations dans des sources fiables, utiliser l'IA pour le brainstorming ou le feedback et non pour remplacer la réflexion...).
 
 ---
 

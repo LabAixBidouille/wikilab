@@ -15,7 +15,11 @@ sidebar_position: 20
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">Préprompt</span>
+  <span className="badge badge--info">RAG</span>
+  <span className="badge badge--info">MCP</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
   <span className="badge badge--warning">Open WebUI</span>
   <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
@@ -61,7 +65,7 @@ Le guide repose sur quatre idées :
 
 ## Objectifs d'apprentissage
 
-**À la fin de ce guide, vous serez capable de...**
+À la fin de ce guide, vous serez capable de...
 
 - **Construire** un chatbot à partir de vos documents et d'instructions écrites sur un gabarit
 - **Tester** un chatbot avec quelques questions bien choisies, pièges compris, et noter ses réponses
@@ -78,7 +82,7 @@ Le guide repose sur quatre idées :
 
 **Vous voulez un chatbot ouvert toute la semaine**, entre deux séances par exemple : le Codespace n'est pas fait pour cela, il s'arrête quand personne ne s'en sert. Il faut un serveur, ou bien le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), qui installe Open WebUI sur un ordinateur de la structure, accessible seulement par son Wi-Fi, avec un modèle plus petit.
 
-## Avant de commencer : comptes et clé
+## Avant de commencer : Comptes et clé
 
 Cette étape se fait **seul·e, jamais écran projeté** : votre clé s'affiche. Demandez d'abord à votre structure **au nom de qui créer les deux comptes** : ils contiendront les données des participant·es et le contrat avec le fournisseur de votre clé, et la personne chargée de la protection des données peut préférer des comptes au nom de la structure.
 
@@ -100,7 +104,7 @@ Open WebUI propose alors deux modèles de base, `deepseek/deepseek-v4-flash` et 
 
 `workshop-login --models free` liste les modèles gratuits. Ils s'arrêtent à [20 requêtes par minute et 50 par jour](https://openrouter.ai/pricing) (1 000 par jour une fois que le compte a acheté 10 dollars de crédit), pour tous vos participant·es ensemble. Le 1er novembre 2026, les pages d'OpenRouter signalaient 8 des 14 modèles gratuits comme utilisant les données pour s'entraîner, un seul des 14 ne gardait rien, et aucun ne tournait en Europe : ils ne sont pas pour un groupe de jeunes.
 
-:::caution[Clé OpenRouter : à lire avant d'ouvrir à des jeunes]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 **Avec des jeunes et OpenRouter, taper `workshop-login --europe` avant l'arrivée du groupe.** Appuyer sur Entrée pour garder sa clé, puis taper `openwebui start` : jusque-là, Open WebUI garde l'ancienne règle, et `openwebui start` et `openwebui share open` répètent `Warning: with young people, turn on zero-data-retention models hosted in Europe: workshop-login --europe`.
 
@@ -143,7 +147,7 @@ Un chatbot y est fait de trois pièces : un **modèle de base** (Claude, `claude
 
 **Les skills, si vous en attachez une.** Une skill est un court texte d'étapes pour un type de demande, rangé dans **Workspace → Skills** ; la ligne **Skills** de l'éditeur du chatbot permet d'en attacher une. Une fois l'interrupteur **Skills** coupé comme ci-dessus, Open WebUI joint le texte entier de chaque skill attachée à **chaque** message, même « Hello » : elle fonctionne comme une partie des instructions, et le chatbot ne peut ni lire, ni lister, ni modifier les skills. Chaque message coûte alors un peu plus (environ 200 jetons pour une skill de 17 lignes, selon l'estimation du guide). En séance, `openwebui share open` laisse les participant·es utiliser les skills attachées aux chatbots qu'il partage. Ce fonctionnement a été mesuré avec des skills attachées par `openwebui import` (partie 6) et un modèle de test ; l'attache à la main dans l'éditeur n'a pas été essayée.
 
-#### Étape 5, facultative : l'outil en direct (le danger d'incendie du jour)
+#### Étape 5, facultative : L'outil en direct (le danger d'incendie du jour)
 
 « Peut-on aller en forêt aujourd'hui ? » : aucun document ne peut répondre, car le niveau officiel change chaque jour. L'**outil en direct** le donne au chatbot. C'est un petit programme du Codespace qui lit un seul fichier, `mcp/fire-danger.json`, que vous remplissez le matin d'une séance à partir de la source publique de votre territoire ; le chatbot l'appelle quand une question porte sur aujourd'hui. C'est l'outil de l'[atelier 4 de la série](/ressources/youth-ai-lab/construire-chatbot-4-outils), avec deux fonctions : `fire_danger` (le niveau du jour d'un territoire) et `territories` (la liste du fichier). Sans lui, le chatbot répond seulement à partir de ses documents.
 
@@ -159,7 +163,7 @@ Le premier `openwebui start` a créé le fichier à partir d'un gabarit (`Live t
 
 Laisser les autres territoires tels quels : ils restent « non remplis » et ne donnent aucun niveau. Ne jamais recopier un niveau venu d'un autre indice ou d'une prévision météo.
 
-:::caution[Tous les comptes peuvent lire ce fichier]
+:::info[Tous les comptes peuvent lire ce fichier]
 
 Ne recopier que ce que dit la source publique : jamais un nom, un numéro de téléphone, le lieu ou l'heure de votre groupe, ni rien sur un·e participant·e. Chaque compte peut lire le fichier par l'intermédiaire de l'outil.
 
@@ -183,7 +187,7 @@ On écrit 5 à 10 questions de test avec leur réponse attendue : la plupart tro
 
 On fait un chatbot par usage, chacun avec ses instructions et ses documents, à partir de l'un des trois gabarits (voir le tableau plus bas). Un chatbot peut utiliser plusieurs bases de connaissances, ce qui évite de charger deux fois les mêmes documents. Point de vigilance : toute personne inscrite voit **tous les chatbots actifs**, y compris les comptes d'un autre groupe ; avant chaque séance, n'activer que les chatbots du groupe, par leur interrupteur, et ne pas utiliser le réglage _Access_ d'Open WebUI, que la commande `openwebui` remplace. [Lire la partie 4](https://github.com/Youth-AI-Lab/yal-openwebui-guide#part-4---one-chatbot-per-topic-activity-or-project).
 
-### Entre les parties 4 et 5 : les données des participant·es
+### Entre les parties 4 et 5 : Les données des participant·es
 
 Le guide demande de lire cette partie **avant** d'ouvrir un chatbot à un groupe. Elle explique où vont les données, ce que les jeunes peuvent faire dans Open WebUI, qui lit quoi, et quoi faire quand un jeune confie quelque chose d'inquiétant. Ses règles sont résumées plus bas, dans « Sécurité et protection des données ». [Lire la partie sur les données](https://github.com/Youth-AI-Lab/yal-openwebui-guide#the-participants-data).
 
@@ -195,7 +199,7 @@ Avant la séance : rouvrir le Codespace, `openwebui start`, vérifier que les ch
 
 Un Codespace n'est pas fait pour durer. `openwebui export` écrit un fichier `.zip` par chatbot dans le dossier `exports/` : les instructions (`instructions.md`), les documents (`knowledge/`), les autres réglages (`openwebui.json`), les skills attachées au chatbot (dossier `skills/`, un `SKILL.md` chacune) et un `README.md` qui explique comment le reconstruire. Si le chatbot a l'outil en direct, `openwebui.json` le note, mais le fichier ne contient ni l'outil (un programme) ni votre `mcp/fire-danger.json`. Les comptes et les conversations des participant·es n'y sont pas, volontairement. `openwebui import` reconstruit le chatbot dans un nouveau Codespace. Sous **Builtin Tools**, il ne garde que **Knowledge Base**, **Memory**, **Time & Calculation** et **Ask User** (moins si certains étaient coupés avant l'export) ; les outils et filtres de l'espace de travail ne sont pas importés, les skills reviennent du dossier `skills/`, attachées au chatbot. Un fichier n'active jamais l'outil en direct : si le chatbot l'avait, la commande le dit en une ligne et vous cochez vous-même **Fire danger today** (partie 2, étape 5). `openwebui import` accepte aussi le paquet produit par `chatbot-export` à la fin de la série d'ateliers, avec les instructions, les documents (le wiki et sa carte, `wiki__index.md`) et les skills écrites pendant les ateliers. Sous **Builtin Tools**, ce chatbot ne garde que **Knowledge Base**. L'outil en direct de l'atelier 4 n'est pas dans le paquet, qui ne dit pas non plus que le chatbot s'en servait : pour le lui rendre, cocher **Fire danger today** ; il lit alors votre propre `mcp/fire-danger.json`, jamais celui de l'atelier. Il faut aussi ajouter à ce chatbot les sections **Sources** et **Never** d'un gabarit avant de l'ouvrir à des jeunes.
 
-:::caution[Un fichier qui vient de quelqu'un d'autre]
+:::info[Un fichier qui vient de quelqu'un d'autre]
 
 Avant de l'importer, ouvrir son dossier `skills/` et lire chaque `SKILL.md` : ses skills accompagnent chaque message du chatbot, et l'import les nomme à l'écran sans montrer leur texte.
 
@@ -224,7 +228,7 @@ Un quatrième fichier, `participant-notice.md`, est la **notice d'information de
 - **Avec une clé OpenRouter** : chaque question part chez OpenRouter, une entreprise de New York, puis chez l'entreprise qui sert le modèle. Chaque requête de ce guide demande des entreprises qui ne collectent pas les données des utilisateurs (`data_collection: deny`). Cette règle ne veut pas dire zéro conservation : le 1er novembre 2026, `google/gemini-2.5-flash-lite` a répondu avec cette règle active, et la seule entreprise qui le sert est indiquée avec 55 jours de conservation. OpenRouter [dit](https://openrouter.ai/docs/guides/privacy/data-collection) ne pas stocker les questions ni les réponses, sauf si vous l'acceptez ou si un contenu est signalé comme possible contenu d'abus sexuels sur mineurs. Il garde des métadonnées (jetons, temps de réponse) et prélève un petit nombre de questions pour les classer par catégorie. Il [n'entraîne pas de modèle sur vos données](https://openrouter.ai/privacy). Des données personnelles peuvent aller sur ses serveurs aux États-Unis. Donner son [accord de traitement des données](https://openrouter.ai/data-processing-agreement) à la personne chargée de la protection des données : il dit « No processing of Sensitive Data or any special categories is intended » (aucun traitement de données sensibles ou de catégories particulières n'est prévu), et un jeune peut quand même écrire sur sa santé. Il dit aussi qu'OpenRouter ne garantit pas ce que fait chaque entreprise. Lu le 1er novembre 2026. Voir aussi [l'avertissement](#ou-une-clé-openrouter).
 - **Limiter ce que les jeunes peuvent faire** : `openwebui start` désactive l'envoi de fichiers et de photos, le micro, le partage de conversations et la modification des instructions (les boutons sont seulement grisés ou cachés : un·e participant·e à l'aise avec la technique pourrait passer outre). Un bandeau, en anglais, leur rappelle de ne pas écrire d'informations personnelles : le leur dire dans leur langue au début de la séance. Les jeunes peuvent encore faire lire une réponse à voix haute et télécharger une conversation. Leur demander de laisser vides la photo de profil, la bio, le genre et la date de naissance.
 - **Couper la mémoire** quand l'activité n'en a pas besoin : elle est active par défaut dans chaque chatbot, y compris les nouveaux.
-- **L'outil en direct** ne lit que votre fichier, avec des données publiques et aucune donnée personnelle. Il ne reçoit que le nom d'un territoire, choisi par le modèle : la commande règle Open WebUI pour ne pas lui envoyer le nom ni l'e-mail des participant·es (un réglage lu dans le code d'Open WebUI ; ce que l'outil reçoit n'a pas été enregistré dans le test). Il n'a aucune sortie vers Internet. Dans le test, son jeton secret n'est apparu dans aucune réponse reçue par un participant·e, ni dans le journal d'Open WebUI.
+- **L'outil en direct** ne lit que votre fichier, avec des données publiques et aucune donnée personnelle. Il ne reçoit que le nom d'un territoire, choisi par le modèle : la commande règle Open WebUI pour ne pas lui envoyer le nom ni l'e-mail des participant·es (un réglage lu dans le code d'Open WebUI ; ce que l'outil reçoit n'a pas été enregistré dans le test). Il n'a aucune sortie vers Internet. Dans le test, son jeton secret n'est apparu dans aucune réponse reçue par un·e participant·e, ni dans le journal d'Open WebUI.
 - **Qui lit quoi** : l'animateur·rice, en tant qu'administrateur·rice, peut lire les conversations ; les participant·es ne lisent pas celles des autres. Ne jamais donner le rôle d'administrateur·rice à un jeune.
 - **Les moins de 18 ans** : leur dire qu'ils parlent à une IA et non à une personne, comme le demandent les règles d'Anthropic pour les structures dont les utilisateurs peuvent être mineurs et, depuis le 2 août 2026, l'article 50 du règlement européen sur l'IA. Le dire aussi au début de chaque séance. Demander à la personne chargée de la protection des données ce qu'il faut demander aux parents ou tuteurs : si l'on s'appuie sur le consentement, l'âge à partir duquel un jeune peut le donner seul pour un service en ligne varie selon les pays de l'Union européenne. Avec une clé OpenRouter, lire aussi [l'avertissement](#ou-une-clé-openrouter) sur l'âge.
 - **Un jeune confie quelque chose d'inquiétant** : le chatbot ne doit pas gérer la situation, et il dit qu'il est un programme qui ne peut prévenir personne. Vous suivez la procédure de protection de votre structure, et vous ne promettez jamais le secret. Avant la séance, choisir pour les jeunes un contact indépendant de l'animateur·rice du groupe, et l'écrire dans la notice.

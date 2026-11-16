@@ -25,7 +25,7 @@ sidebar_position: 3
 
 ## Matériel
 
-- Fiches d'observation (papier ou numérique) — *« Fiche d'observation d'objet IA »*
+- Fiches d'observation (papier ou numérique) : *« Fiche d'observation d'objet IA »*
 - Stylos / tablettes / smartphones pour la prise de notes
 - Tableau blanc ou vidéoprojecteur pour l'analyse collective
 - Une liste de référence d'exemples d'IA du quotidien (utilisée uniquement lors de la discussion finale)
@@ -52,7 +52,7 @@ sidebar_position: 3
 
 ## Déroulé de l'exploration
 
-### Étape 1 : Introduction guidée (en salle, 60 minutes) : activité de l'animateur·rice
+### Étape 1 : Introduction guidée (en salle, 60 minutes) : Activité de l'animateur·rice
 
 **Question clé** : *L'intelligence artificielle est-elle déjà partout ? Peut-on la reconnaître ?*
 

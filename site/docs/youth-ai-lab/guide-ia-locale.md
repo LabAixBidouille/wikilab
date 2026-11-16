@@ -14,10 +14,14 @@ sidebar_position: 21
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Technologie</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
+  <span className="badge badge--info">RAG</span>
   <span className="badge badge--info">Raspberry Pi</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--warning">Ollama</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée                              | Difficulté | Âge                       |
@@ -65,13 +69,13 @@ Le guide donne quatre raisons :
 - **La structure fournit déjà un outil de chatbot** : s'en servir d'abord, la structure l'a vérifié.
 - **Vous avez suivi un atelier de la série** : ce guide est plus facile après l'[atelier 2](/ressources/youth-ai-lab/construire-chatbot-2-rag), où vous avez donné à un chatbot ses instructions et ses connaissances dans Open WebUI. Vous construisez ici le même genre de chatbot, avec le modèle sur votre propre ordinateur. La partie 4 va avec les ateliers 1 et 2 (les instructions, les connaissances), la partie 5 avec la notation de l'atelier 1.
 
-:::caution[Des parties techniques]
+:::info[Des parties techniques]
 Les parties 1 à 3 installent des logiciels et changent les réglages de l'ordinateur, avec des commandes tapées dans un **terminal** (la fenêtre où l'on tape des commandes) et les droits d'administrateur. Si vous n'êtes pas à l'aise, faites-les avec une personne qui l'est.
 :::
 
-**Objectifs d'apprentissage**
+## Objectifs d'apprentissage
 
-À la fin de ce guide, vous serez capable de :
+À la fin de ce guide, vous serez capable de...
 
 - **Vérifier** si un ordinateur est assez rapide pour un chatbot local, et faire travailler sa carte graphique pour l'IA
 - **Installer** Ollama, un modèle dont vous avez lu la licence, et Open WebUI, en gardant l'un et l'autre pour cet ordinateur seulement
@@ -139,7 +143,7 @@ On regarde si le modèle pourra utiliser une carte graphique ou la puce de l'ord
 
 ### Partie 2 : Installer Ollama et un modèle
 
-On installe Ollama, puis on coupe ses **modèles dans le cloud**, qui tourneraient sur les serveurs d'Ollama et non sur l'ordinateur. On vérifie qu'Ollama n'écoute que l'ordinateur lui-même (l'adresse `127.0.0.1:11434`) : Ollama n'a pas de comptes, et ouvert au réseau, n'importe qui sur le Wi-Fi pourrait se servir du modèle sans les règles du chatbot. On choisit enfin un modèle après avoir lu sa **licence** : `qwen2.5:7b` et `mistral:7b` sont sous licence Apache 2.0, qui autorise l'usage par une association. D'autres familles ont leurs propres règles, par exemple sur les mineurs. Cette commande du guide montre où tourne le modèle :
+On installe Ollama, puis on coupe ses **modèles dans le cloud**, qui tourneraient sur les serveurs d'Ollama et non sur l'ordinateur. On vérifie qu'Ollama n'écoute que l'ordinateur lui-même (l'adresse `127.0.0.1:11434`) : Ollama n'a pas de comptes, et ouvert au réseau, n'importe qui sur le Wi-Fi pourrait se servir du modèle sans les règles du chatbot. On choisit enfin un modèle après avoir lu sa **licence** : `qwen2.5:7b` et `mistral:7b` sont sous licence Apache 2.0, qui autorise l'usage par une association. D'autres familles ont leurs propres règles, par exemple sur les mineur·es. Cette commande du guide montre où tourne le modèle :
 
 ```bash
 ollama ps
@@ -157,7 +161,7 @@ Si vous avez installé Open WebUI **avant le 4 novembre 2026**, télécharger le
 
 L'**AI HAT+ 2** est une carte d'extension du Raspberry Pi 5, avec sa propre puce d'IA. Le modèle y tourne avec **hailo-ollama** 5.1.1, le programme du fabricant de la puce. Ses modèles ne retiennent que **2 048 jetons** à la fois : c'est leur **fenêtre de contexte**, la mémoire du modèle pour une réponse, comptée en **jetons** (des petits morceaux de mots). Cela suffit pour un chatbot **sans documents** et des conversations courtes ; une question à la fois. hailo-ollama écoute par défaut tout le réseau et écrit chaque question reçue dans sa sortie : le guide le limite à l'ordinateur et n'envoie cette sortie nulle part. La fiche produit demande la présence d'un adulte : la carte reste avec l'animateur·rice. Pour ce chatbot sans documents, le guide donne un encadré d'instructions à utiliser à la place d'un gabarit. Il garde les trois règles de protection, raccourcies, avec les mêmes obligations, et une phrase sur une ligne d'écoute, à remplir avec une ligne gratuite pour les jeunes vérifiée par vous, ou à supprimer entièrement. Pour garder les niveaux d'aide de `activity-guide` ou de `project-coach`, on part du gabarit et on suit les changements listés par le guide, dont le remplacement de ces règles par celles de l'encadré (https://github.com/Youth-AI-Lab/yal-local-ai-guide/blob/main/raspberry-pi.md#with-the-ai-hat-2).
 
-:::caution[Rien de cette section n'a tourné sur une vraie AI HAT+ 2]
+:::info[Rien de cette section n'a tourné sur une vraie AI HAT+ 2]
 
 Les titres des étapes ne le répètent plus, mais un encadré en tête de section le dit pour toute la section. Les étapes 1, 2, 5 et 7 à 10 demandent la carte (et les étapes 8 à 10 un navigateur). Sur une machine de GitHub, le test du guide installe le vrai paquet hailo-ollama 5.1.1 (étapes 3 et 4), mais un petit programme remplace hailo-ollama et la carte (étapes 5 à 7), et les étapes 8 à 10 passent par l'interface de programmation d'Open WebUI.
 
@@ -346,7 +350,7 @@ Les autres jetons tirés étaient des blancs ou des mots qui commencent une autr
 
 ## Sécurité et protection des données
 
-:::caution[Ce que le guide impose]
+:::info[Ce que le guide impose]
 
 - **L'Admin Panel seulement sur l'ordinateur lui-même**, à l'adresse `http://localhost:3000`, jamais depuis un téléphone. L'adresse des participant·es commence par `http://` : ce qui y est tapé, mots de passe compris, traverse le Wi-Fi sans chiffrement. Une personne sur le même Wi-Fi peut aussi réutiliser une connexion qu'elle a vue, pendant 12 heures, même après **Sign Out**. Les participant·es choisissent donc un mot de passe neuf, qui ne sert nulle part ailleurs. Le compte administrateur ouvre toutes les conversations du groupe.
 - **Ollama et hailo-ollama restent pour l'ordinateur seul** : seul Open WebUI est pour les participant·es.

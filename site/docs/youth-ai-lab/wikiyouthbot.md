@@ -86,7 +86,7 @@ En amont et au fil de la session, l'équipe d'animation s'appuie sur le **kit de
 
 ---
 
-### Introduction : le bingo des Objectifs de développement durable
+### Introduction : Le bingo des Objectifs de développement durable
 
 Les joueuses et joueurs découvrent les 17 Objectifs de développement durable à travers un bingo de 30 cartes. Chaque carte décrit une **situation réelle** reliée à un ou plusieurs objectifs, lue à voix haute par l'animateur·rice avant que les objectifs ne soient révélés. Le jeu oblige les jeunes à reconnaître et à nommer les objectifs à partir de situations concrètes, ce qui construit un vocabulaire commun.
 
@@ -189,7 +189,7 @@ Un persona n'est pas un personnage de fiction au sens littéraire : il n'a pas v
 Pour des jeunes de 12 à 15 ans, le format carte de personnage rend l'exercice tangible : moins d'abstraction, davantage l'impression de créer un personnage de jeu vidéo, avec des jauges chiffrées et une courte biographie qui fait vivre le profil.
 :::
 
-:::caution[Archétype ou stigmatisation : un point de vigilance]
+:::info[Archétype ou stigmatisation : un point de vigilance]
 Les personas utilisent volontairement des archétypes (le voisin, la sceptique, l'enseignante). C'est leur intérêt : un profil reconnaissable auquel le chatbot doit savoir s'adresser. Mais un cliché peut basculer dans la stigmatisation quand un persona cumule plusieurs marqueurs (métier, opinion, canaux d'information) qui caricaturent un groupe social précis.
 
 L'équipe d'animation doit donc :
@@ -202,7 +202,7 @@ L'équipe d'animation doit donc :
 
 ---
 
-### Conclusion : le test grandeur nature dans le quartier
+### Conclusion : Le test grandeur nature dans le quartier
 
 Une fois que le chatbot a une identité stable, chaque groupe présente sa **campagne visuelle** et son **chatbot** à un vrai public : visiteuses et visiteurs invités au laboratoire, partenaires du quartier, micro-trottoirs, ou groupes qui se testent entre eux.
 
@@ -471,44 +471,44 @@ Boîte à outils pour l'enquête de l'étape 3, du gratuit à l'équipement de l
 
 **Le bruit**
 
-- Sonomètre sur smartphone (gratuit) : relevé en dB(A) à un lieu et une heure précis.
-- Sonomètre dédié (50 à 150 €) : précis et étalonné. Utile si le chiffre doit tenir face à une source officielle.
+- **Sonomètre sur smartphone** (gratuit) : relevé en dB(A) à un lieu et une heure précis.
+- **Sonomètre dédié** (50 à 150 €) : précis et étalonné. Utile si le chiffre doit tenir face à une source officielle.
 
 **La qualité de l'air**
 
-- Applications de mesure de l'indice de qualité de l'air (gratuit) : lecture de l'indice à l'instant T.
-- Sites des associations agréées de surveillance de la qualité de l'air, réunies dans Atmo France (gratuit) : données officielles station par station, avec historique. La source la plus fiable pour comparer un point dans le temps. https://www.atmo-france.org/
-- Couche « qualité de l'air » de Google Maps (gratuit) : indice disponible pour un lieu à l'instant T.
-- Capteur portable de particules fines (50 à 150 €) : mesure directe, plus crédible qu'une application.
-- Capteur portable de CO2 (50 à 100 €) : pour l'intérieur, salles d'activité et lieux clos. Sans intérêt en extérieur.
+- **Applications de mesure de l'indice de qualité de l'air** (gratuit) : lecture de l'indice à l'instant T.
+- **Sites des associations agréées de surveillance de la qualité de l'air, réunies dans Atmo France** (gratuit) : données officielles station par station, avec historique. La source la plus fiable pour comparer un point dans le temps. https://www.atmo-france.org/
+- **Couche « qualité de l'air » de Google Maps** (gratuit) : indice disponible pour un lieu à l'instant T.
+- **Capteur portable de particules fines** (50 à 150 €) : mesure directe, plus crédible qu'une application.
+- **Capteur portable de CO2** (50 à 100 €) : pour l'intérieur, salles d'activité et lieux clos. Sans intérêt en extérieur.
 
 **La température et l'humidité**
 
-- Carte micro:bit (20 à 50 €) : programmable par les jeunes, mesures fines de température et d'humidité.
-- Thermomètre infrarouge (40 à 80 €) : mesure la température d'une surface sans contact.
+- **Carte micro:bit** (20 à 50 €) : programmable par les jeunes, mesures fines de température et d'humidité.
+- **Thermomètre infrarouge** (40 à 80 €) : mesure la température d'une surface sans contact.
 
 **L'eau**
 
-- Bandelettes de test de pH (10 à 15 €) : test rapide, précision approximative.
-- pH-mètre numérique (15 à 30 €) : lecture précise, étalonnable.
-- Conductimètre (30 à 60 €) : mesure la salinité ou la dureté de l'eau.
+- **Bandelettes de test de pH** (10 à 15 €) : test rapide, précision approximative.
+- **pH-mètre numérique** (15 à 30 €) : lecture précise, étalonnable.
+- **Conductimètre** (30 à 60 €) : mesure la salinité ou la dureté de l'eau.
 
 **Identifier le vivant**
 
-- PlantNet (gratuit) : identifier une plante à partir d'une photo de feuille ou de fleur. https://plantnet.org/
-- BirdNET (gratuit) : identifier un chant d'oiseau à partir d'un enregistrement. https://birdnet.cornell.edu/
-- iNaturalist (gratuit) : identification plus large, avec versement dans une base scientifique partagée. https://www.inaturalist.org/
+- **PlantNet** (gratuit) : identifier une plante à partir d'une photo de feuille ou de fleur. https://plantnet.org/
+- **BirdNET** (gratuit) : identifier un chant d'oiseau à partir d'un enregistrement. https://birdnet.cornell.edu/
+- **iNaturalist** (gratuit) : identification plus large, avec versement dans une base scientifique partagée. https://www.inaturalist.org/
 
 **Compter, cartographier**
 
-- Application de compteur manuel (gratuit) : vélos, voitures, piétons sur 15 minutes.
-- GPS du smartphone (gratuit) : tracer un parcours, marquer des points.
+- **Application de compteur manuel** (gratuit) : vélos, voitures, piétons sur 15 minutes.
+- **GPS du smartphone** (gratuit) : tracer un parcours, marquer des points.
 
 **Documenter visuellement**
 
-- Photo macro (gratuit, smartphone) : les détails, mégots, fissures, déchets, fleurs.
-- Vidéo en accéléré (gratuit) : les changements lents, marée, ombre, activité.
-- Court enregistrement audio (gratuit) : un témoignage ou une ambiance sonore.
+- **Photo macro** (gratuit, smartphone) : les détails, mégots, fissures, déchets, fleurs.
+- **Vidéo en accéléré** (gratuit) : les changements lents, marée, ombre, activité.
+- **Court enregistrement audio** (gratuit) : un témoignage ou une ambiance sonore.
 
 ---
 

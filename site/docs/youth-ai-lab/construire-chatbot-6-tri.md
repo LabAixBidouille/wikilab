@@ -13,10 +13,15 @@ sidebar_position: 19
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">Apprentissage automatique</span>
+  <span className="badge badge--info">Fine-tuning</span>
+  <span className="badge badge--info">Évaluation de modèles</span>
   <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Protection des données</span>
   <span className="badge badge--warning">SetFit</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
 
 | Projet       | Durée                          | Difficulté    | Âge                       |
@@ -36,10 +41,10 @@ sidebar_position: 19
 
 **Ressources en ligne**
 
-- Le dépôt de l'atelier, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-finetune
-- La fiche d'une page à imprimer, en anglais : https://github.com/Youth-AI-Lab/yal-workshop-finetune/blob/main/sheet.md
-- Les diapositives de l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/6/
-- La fiche animateur : https://youth-ai-lab.github.io/yal-workshop/6/facilitator.html
+- **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-finetune
+- **La fiche d'une page à imprimer**, en anglais : https://github.com/Youth-AI-Lab/yal-workshop-finetune/blob/main/sheet.md
+- **Les diapositives de l'animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/6/
+- **La fiche animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/6/facilitator.html
 
 </div>
 
@@ -61,7 +66,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 Dans les ateliers 1 à 5, le chatbot a reçu des instructions, des connaissances, une façon de chercher, des outils et un wiki. Tout cela est entré dans le **contexte** : le texte que le modèle lit avant de répondre. Le modèle, lui, n'a jamais changé : c'était le même modèle pour tout le monde, avec les mêmes nombres à l'intérieur. Aujourd'hui, on change un modèle. Un petit, pour une seule tâche : **trier les messages** que les gens envoient à un chatbot, avant que le chatbot ne les voie. La question du jour :
 
-> **Comment un petit modèle, à qui vous apprenez quelque chose, peut-il aider un grand ?**
+:::question[Question du jour]
+
+**Comment un petit modèle, à qui vous apprenez quelque chose, peut-il aider un grand ?**
+
+:::
 
 **Pourquoi cette approche ?** Le **réglage fin** (_fine-tuning_) consiste à modifier un peu un modèle, avec ses propres exemples, pour qu'il fasse mieux une tâche. À l'atelier 5, ce n'était qu'une option sur une diapositive de l'animateur·rice : la connaissance entre dans le modèle, sans source, et une erreur oblige à entraîner de nouveau. Un modèle réglé qui écrit peut aussi continuer d'inventer, et régler un grand modèle demande bien plus qu'une structure jeunesse n'en a : des cartes graphiques, des milliers d'exemples, des jours de travail. Les plus grands modèles ne peuvent pas du tout être réglés par leurs utilisateurs. Certaines entreprises vendent le réglage fin de certains de leurs modèles, et un modèle ouvert peut être adapté sur une carte graphique louée. Cela reste utile parfois, pour un style ou un format fixe, mais c'est un projet à part entière.
 
@@ -77,7 +86,7 @@ La tâche du jour est réelle. Un chatbot reçoit cinq sortes de messages, qui n
 | `needs-care` | quelqu'un de triste, d'effrayé, de seul ou d'inquiet, sans danger immédiat                                                                                                            | « personne ne me parle à l'école, je me sens trop seul » | une réponse bienveillante fixe, tout de suite : un adulte de confiance, un contact d'aide de votre lieu, et le numéro d'urgence si quelqu'un est en danger |
 | `off-topic`  | tout le reste                                                                                                                                                                         | « Tu peux m'aider pour mes devoirs de maths ? »          | un refus poli qui dit quand même qui peut aider (le numéro d'urgence, un adulte de confiance), sans dépenser de jetons                                     |
 
-:::caution[Important : les gens parlent d'eux-mêmes aux chatbots]
+:::info[Important : les gens parlent d'eux-mêmes aux chatbots]
 
 Un chatbot sur les feux de forêt reçoit aussi des messages sur la peur, la tristesse ou un problème à la maison. Cela arrive souvent, avec n'importe quel chatbot, et on peut s'y préparer : avant une séance, décider qui lit un message inquiétant, et ce que dit le chatbot. Le trieur du jour sépare deux sortes de messages : `urgent`, quelqu'un en danger maintenant, et `needs-care`, quelqu'un qui a besoin de mots bienveillants et d'un adulte, sans danger immédiat. Un risque pour la vie de quelqu'un est toujours `urgent`. Le trieur vous aide à y réfléchir. Ce n'est pas un filet de sécurité.
 
@@ -128,7 +137,7 @@ La série, une pièce du chatbot à la fois :
 
 **Les repères de la salle.** `workshop-start 6` ouvre la page anglaise, et chaque binôme en a la version d'une page, `sheet.md`. Leurs numéros et leurs titres ne sont pas ceux de cette fiche. Pour annoncer une étape ou une lecture à la salle, employer ceux de la colonne de droite :
 
-| Dans cette fiche                               | Sur la page anglaise et la fiche animateur       |
+| Dans cette fiche                               | Sur la page anglaise et la fiche animateur·rice       |
 | ---------------------------------------------- | ------------------------------------------------ |
 | Partie 4, étape 1                              | Part 4, steps 1 to 5                             |
 | Partie 4, étape 2                              | Part 4, step 6                                   |
@@ -152,12 +161,12 @@ Dans `SETUP.md`, les étapes 1 à 3 et l'étape 6 servent aujourd'hui. Cet ateli
 
 Les documents de référence sont tous dans le Codespace, dans la liste des fichiers à gauche :
 
-- `messages/examples.md` : les exemples dont le modèle apprend, sous cinq titres. On écrit dedans aujourd'hui.
-- `messages/test.md` : les messages de test. Le modèle ne les voit jamais pendant qu'il apprend.
-- `sorter` : la commande du jour (taper `./sorter` pour voir ce qu'elle sait faire).
-- `tools/sorter.py` : le programme derrière elle, environ 850 lignes de Python, si vous êtes curieux·se.
-- `SETUP.md` : mise en place et problèmes courants de toute la série.
-- `facilitator-demo/` : le prototype que montre l'animateur·rice à la partie 6. Vous n'en avez pas besoin aujourd'hui.
+- **`messages/examples.md`** : les exemples dont le modèle apprend, sous cinq titres. On écrit dedans aujourd'hui.
+- **`messages/test.md`** : les messages de test. Le modèle ne les voit jamais pendant qu'il apprend.
+- **`sorter`** : la commande du jour (taper `./sorter` pour voir ce qu'elle sait faire).
+- **`tools/sorter.py`** : le programme derrière elle, environ 850 lignes de Python, si vous êtes curieux·se.
+- **`SETUP.md`** : mise en place et problèmes courants de toute la série.
+- **`facilitator-demo/`** : le prototype que montre l'animateur·rice à la partie 6. Vous n'en avez pas besoin aujourd'hui.
 
 ### Glossaire
 
@@ -188,7 +197,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 
 ## Objectifs d'apprentissage
 
-**À la fin de cet atelier, les participant·es seront capables de :**
+À la fin de cet atelier, les participant·es seront capables de...
 
 - **Expliquer** ce que fait un classifieur, ce que l'entraînement change dans un modèle, et pourquoi un modèle qui choisit ne peut pas inventer de réponse.
 - **Écrire** des exemples et un test dans leur langue, régler un modèle sur ces exemples, et le tester.
@@ -294,7 +303,7 @@ Un nouveau Codespace ouvre l'image nommée dans `.devcontainer/devcontainer.json
 
 Un seul Codespace par binôme, à garder pendant tout l'atelier. Changer de personne au clavier à chaque partie. Si quelque chose casse, vos fichiers restent dans le Codespace.
 
-:::caution[Étape 1 : Ouvrir son Codespace et enregistrer sa clé]
+### Étape 1 : Ouvrir son Codespace et enregistrer sa clé
 
 1. Avant de cliquer, si le délai d'inactivité de ce compte GitHub n'est pas encore réglé, faire l'étape 1 de `SETUP.md` (1 minute) : sur https://github.com/settings/codespaces, régler **Default idle timeout** sur 120 minutes, puis **Save**.
 2. Ouvrir https://codespaces.new/Youth-AI-Lab/yal-workshop-finetune, puis cliquer sur **Create codespace**. Attendre environ 2 minutes, jusqu'au terminal. S'il n'apparaît pas : menu ☰ en haut à gauche, **Terminal**, puis **New Terminal**.
@@ -314,15 +323,13 @@ Un seul Codespace par binôme, à garder pendant tout l'atelier. Changer de pers
 
    On doit voir `Ready for workshop 6.`, puis `First command: ./sorter setup`.
 
-:::
-
 :::info
 
 **Pas de Codespace ?** Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voir [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers).
 
 :::
 
-:::caution[Étape 2 : Installer le trieur]
+### Étape 2 : Installer le trieur
 
 Les bibliothèques qui règlent un modèle sont grosses (environ 2 Go avec le modèle). Elles ne sont pas dans le Codespace au départ : on les installe maintenant, une fois.
 
@@ -336,8 +343,6 @@ Les bibliothèques qui règlent un modèle sont grosses (environ 2 Go avec le mo
 3. Écouter ensuite l'animateur·rice, qui présente les deux sections suivantes. Vous pourrez les lire plus tard.
 
 Dans les 2 min 30 environ (de 92 à 151 s lors de nos essais, dans de vrais Codespaces et dans une copie à 2 processeurs), on doit voir `Libraries installed (... s)`, puis `Model ready (... s). Next: ./sorter baseline`. Chaque ligne compte sa propre étape.
-
-:::
 
 ### Ce qu'est un modèle, et ce que veut dire entraîner
 
@@ -369,7 +374,11 @@ Ne confondez pas deux sortes de nombres. Les 117 653 760 paramètres sont le mod
 
 **À retenir** : aujourd'hui, vous ne construisez pas un modèle. Vous partez d'un modèle qui sait déjà dire si deux phrases sont proches, et vous lui apprenez ce qu'il ne sait pas encore : vos cinq classes.
 
-**Point de contrôle** : `Key OK` (ou l'animateur·rice est au courant pour votre clé), puis `Model ready`. Et vous savez dire en une phrase ce que l'entraînement fait aux nombres d'un modèle.
+:::info[Point de contrôle]
+
+`Key OK` (ou l'animateur·rice est au courant pour votre clé), puis `Model ready`. Et vous savez dire en une phrase ce que l'entraînement fait aux nombres d'un modèle.
+
+:::
 
 :::info[Notes pour l'animateur·rice]
 
@@ -395,7 +404,7 @@ Pendant l'installation, chaque binôme tape votre ligne `SUPPORT` (affichée sur
 
 **À retenir** : c'est la même idée que le RAG de l'atelier 2, qui cherche lui aussi ce qui est le plus proche par le sens. Ici, le morceau le plus proche n'entre pas dans un contexte : il donne seulement sa classe au message.
 
-:::caution[Étape 1 : Trier sans entraînement]
+### Étape 1 : Trier sans entraînement
 
 1. Ouvrir `messages/examples.md` et `messages/test.md`, côte à côte. Les messages de test sont d'autres phrases que les exemples, dans les mêmes six langues.
 2. Taper :
@@ -430,8 +439,6 @@ Emergencies missed: 2. This is the mistake that matters most.
 Needs-care messages missed: 1. A needs-care message sorted as urgent is not counted: it still gets the safety answer.
 ```
 
-:::
-
 ### Lire le résultat
 
 Ce tableau s'appelle un **tableau de confusion**, car il montre quelles classes le trieur confond. Chaque ligne est la bonne classe, chaque colonne ce que le trieur a choisi. Sur la ligne `today`, 5 messages ont été classés `today`, et un seul est allé à chacune des classes `topic`, `urgent` et `off-topic`. Tout ce qui est sur la diagonale est juste, tout le reste est une erreur. Sous le tableau, chaque erreur est listée, puis les lignes `Emergencies missed` (urgences manquées) et `Needs-care messages missed` (messages `needs-care` manqués).
@@ -452,7 +459,11 @@ Quatre choses à remarquer dans ces erreurs. Trois des dix sont des messages `to
 
 :::
 
-**Point de contrôle** : pouvoir montrer dans le tableau la case « une urgence classée `needs-care` », et dire combien de messages elle contient.
+:::info[Point de contrôle]
+
+Pouvoir montrer dans le tableau la case « une urgence classée `needs-care` », et dire combien de messages elle contient.
+
+:::
 
 ### Pour réfléchir
 
@@ -500,13 +511,11 @@ Une règle pour les deux fichiers : **chaque message est inventé, sans rien sur
 
 :::
 
-:::caution[Étape 1 : Écrire ses exemples et son test]
+### Étape 1 : Écrire ses exemples et son test
 
 1. **Ajouter au moins dix messages par classe** à `messages/examples.md`, dans sa langue, en 15 mots au plus, sous les cinq titres. Garder les titres exactement tels quels (`## topic`, `## today`, `## urgent`, `## needs-care`, `## off-topic`), et commencer chaque message par `- `. Enregistrer.
 2. **Écrire un test pour un autre binôme** : sur papier ou dans la discussion de la séance, trois messages par classe (15 en tout), dans sa langue, que l'autre binôme n'a jamais vus. Écrire la classe au-dessus de chaque groupe : c'est la bonne réponse du test. Donner ses messages avec leurs classes, et recevoir les siens.
 3. **Taper les messages de l'autre binôme** dans `messages/test.md`, sous les classes qu'il a données, à la place des messages de départ. Enregistrer.
-
-:::
 
 :::info
 
@@ -518,7 +527,11 @@ Une règle pour les deux fichiers : **chaque message est inventé, sans rien sur
 
 :::
 
-**Point de contrôle** : `examples.md` a au moins 20 messages par classe (10 au départ, 10 de vous), et `test.md` contient les messages d'un autre binôme. En retard au début de la partie 4 ? Arrêter d'écrire et entraîner avec ce que vous avez. Pas de test d'un autre binôme ? Garder le test de départ pour s'exercer : les messages difficiles de l'étape 4 de la partie 4 sont alors votre contrôle honnête.
+:::info[Point de contrôle]
+
+`examples.md` a au moins 20 messages par classe (10 au départ, 10 de vous), et `test.md` contient les messages d'un autre binôme. En retard au début de la partie 4 ? Arrêter d'écrire et entraîner avec ce que vous avez. Pas de test d'un autre binôme ? Garder le test de départ pour s'exercer : les messages difficiles de l'étape 4 de la partie 4 sont alors votre contrôle honnête.
+
+:::
 
 ### Pour réfléchir
 
@@ -564,7 +577,7 @@ La partie 5 commence à 1:25, la clôture à 1:40, et les 5 minutes de marge à 
 - Le tableau de confusion dit quels exemples écrire ensuite.
 - Une seconde série d'exemples peut améliorer le modèle, mais elle abîme aussi votre test.
 
-### Ce que l'on entraîne : le corps et la tête
+### Ce que l'on entraîne : Le corps et la tête
 
 :::info
 
@@ -627,7 +640,6 @@ Dans de plus grands entraînements, on met de côté quelques messages, on calcu
 
 :::
 
-
 | Entraînement | Score des paires des exemples | Score des paires des messages de test | Résultat du test                  |
 | ------------ | ----------------------------- | ------------------------------------- | --------------------------------- |
 | 50 tours     | de 0,27 à 0,12                | de 0,28 à 0,19                        | 32 sur 32, aucune urgence manquée |
@@ -643,7 +655,7 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
 
 **À retenir** : le score de l'entraînement n'est qu'un substitut de ce que vous voulez vraiment. L'entraînement le fait baisser à l'aveugle : un mauvais titre dans `examples.md` s'apprend aussi bien qu'un bon. Seul votre test, sur des messages que le modèle n'a jamais vus, dit si le trieur s'est amélioré, et c'est vous qui décidez quand il est assez bon.
 
-:::caution[Étape 1 : Prédire, régler, tester]
+### Étape 1 : Prédire, régler, tester
 
 1. **Avant de commencer, prédire** sur papier : combien de messages de test seront justes, et combien d'urgences manquées ?
 2. Relancer la comparaison sans entraînement, sur le nouveau test. Noter ce **score sans entraînement** et la ligne `Emergencies missed` :
@@ -703,9 +715,7 @@ Regardez maintenant la dernière colonne. Après 200 tours, le score de l'entra�
 
 5. **Comparer** avec le score sans entraînement et avec la prédiction. Lire d'abord `Emergencies missed`, puis les cases du tableau qui ont changé. Votre test a 15 messages : un ou deux messages de différence ne prouvent pas grand-chose. Avec seulement 3 urgences, `Emergencies missed: 0` ne prouve pas grand-chose non plus : l'étape 4 montre à quel point. Écrire votre score sans entraînement et votre premier score au tableau, avec les urgences et les messages `needs-care` manqués.
 
-:::
-
-:::caution[Étape 2 : Regarder ce qu'a produit l'entraînement]
+### Étape 2 : Regarder ce qu'a produit l'entraînement
 
 L'animateur·rice le montre une fois sur grand écran, avec :
 
@@ -715,21 +725,17 @@ ls -la ~/.workshop-finetune/model
 
 Parmi les fichiers, trouver `model.safetensors`, le corps (environ 470 Mo), et `model_head.pkl`, la tête (environ 9 Ko). Le modèle reste dans le Codespace jusqu'à ce que celui-ci soit supprimé (partie 6, étape 1).
 
-:::
-
 :::info
 
 **Le dossier garde certaines de vos phrases.** À côté du modèle, SetFit écrit une description, `README.md`, qui recopie des exemples : 19 sur 54 dans notre essai. Le modèle ne lit jamais ce fichier, mais toute personne qui reçoit le dossier le peut.
 
 :::
 
-:::caution[Étape 3 : Améliorer]
+### Étape 3 : Améliorer
 
 Si vous avez des lignes sous `Mistakes:` ou `Right but below 0.5`, en prendre deux au plus, les urgences d'abord, puis les messages `needs-care`. Pour chacune, ajouter deux exemples qui lui ressemblent (pas le message de test lui-même) sous le bon titre. Régler et tester de nouveau : chaque entraînement repart du modèle d'origine, avec tous vos exemples. Écrire ce **score amélioré** sur votre papier, pas au tableau. Personne ne lance d'entraînement après 1 h 15 de séance.
 
 Tout le monde lit « Ce que l'entraînement change », plus bas, jusqu'à la carte (ici, la fin du paragraphe « Regardez la première ligne ») : pendant ce second entraînement, ou maintenant s'il n'y en a pas.
-
-:::
 
 :::info
 
@@ -737,7 +743,7 @@ Tout le monde lit « Ce que l'entraînement change », plus bas, jusqu'à la car
 
 :::
 
-:::caution[Étape 4 : Essayer de nouveaux messages]
+### Étape 4 : Essayer de nouveaux messages
 
 Essayer d'abord les messages difficiles de l'animateur·rice, puis les vôtres, avec des appels à l'aide courts dans votre langue. Si vous travaillez seul·e, demander à quelqu'un qui n'a pas vu vos exemples de les écrire. Taper :
 
@@ -767,8 +773,6 @@ Sous 0,5, le trieur n'est pas sûr : le message irait au chatbot. L'exception es
 **Que prouve `Emergencies missed: 0` ?** Cela montre que les urgences de ce test ont été classées `urgent`, et rien sur les autres. Votre test a 3 urgences. Imaginez un trieur qui manque 1 urgence sur 10, parmi toutes celles que des gens pourraient écrire (un nombre inventé). Si les 3 de votre test sont comme tirées au hasard, la probabilité qu'il les attrape toutes est 0,9 × 0,9 × 0,9 = 0,73. Environ 3 fois sur 4, un trieur qui manque bel et bien des urgences affiche donc quand même `Emergencies missed: 0`. Avec les 8 urgences de notre essai, il affiche encore 0 environ 4 fois sur 10 (0,9 multiplié 8 fois donne 0,43). `0` veut donc dire « aucune erreur vue », pas « aucune erreur ». Le nôtre a manqué 1 de ces 8, et `help!!` est sorti `off-topic`. C'est pourquoi vous essayez ici des appels à l'aide courts, et des messages sur l'envie de mourir.
 
 Taper les messages après `./sorter try`, pas sur la même ligne. Sur la ligne de commande, un `!` entre guillemets (`"Au feu !"`) est lu par le terminal lui-même, et la commande attend avec `dquote>`.
-
-:::
 
 ### Ce que l'entraînement change
 
@@ -807,7 +811,11 @@ Le corps ne fait pas tout le travail non plus. Nous avons allumé et éteint cha
 
 Un écart d'un ou deux messages ne prouve pas grand-chose sur 40 messages écrits avec les exemples. Ici, la tête seule a trié un message de plus que le trieur complet, en un seul essai. Chaque partie fait sa part, et seul un test permet de le vérifier.
 
-**Point de contrôle** : deux scores au tableau (sans entraînement, premier), et le nombre d'urgences et de messages `needs-care` manqués pour chacun. Et vous savez dire ce qu'a appris le corps, et ce qu'a appris la tête.
+:::info[Point de contrôle]
+
+Deux scores au tableau (sans entraînement, premier), et le nombre d'urgences et de messages `needs-care` manqués pour chacun. Et vous savez dire ce qu'a appris le corps, et ce qu'a appris la tête.
+
+:::
 
 ### Pour réfléchir
 
@@ -847,7 +855,7 @@ Les chiffres de la page viennent d'une [mesure avec les 54 exemples](https://you
 - Chaque message qu'il trie coûte de l'argent, prend du temps et quitte le Codespace.
 - Le bon choix dépend de vos besoins, pas du modèle qui serait « meilleur ».
 
-### Trier sans entraînement : les nombres ou le contexte
+### Trier sans entraînement : Les nombres ou le contexte
 
 Claude a été entraîné une fois, par Anthropic, à très grande échelle, et personne ne le change pour vous. Pour le faire trier, vous faites ce que vous avez fait à l'atelier 1 : vous écrivez des instructions. `./sorter compare` lui envoie une courte description des cinq classes, puis un message de test, et lui demande un mot. La description entre dans le **contexte**, comme votre `AGENTS.md`. Vous voilà revenu·e à la question de la série. Pour lire cette description, ouvrir `tools/sorter.py` et chercher `CLAUDE_INSTRUCTIONS`.
 
@@ -862,7 +870,7 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 **À retenir** : aucun des deux endroits n'est sûr en lui-même. Claude peut mal lire une description, et un petit modèle peut manquer ce que ses exemples laissent de côté. Dans les deux cas, seul le test vous le dit.
 
-:::caution[Étape 1 : Faire trier Claude]
+### Étape 1 : Faire trier Claude
 
 1. Taper :
 
@@ -893,8 +901,6 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
    | Où se fait le tri             | dans le Codespace                                  | chez Anthropic, ou chez une entreprise jointe par OpenRouter |
    | Ce qu'il a fallu préparer     | vos exemples, d'une à trois minutes d'entraînement | une description des classes                                  |
 
-:::
-
 :::info
 
 **Ce coût est par message seulement.** Dans le Codespace, le trieur tourne pendant que vous travaillez. Dans un vrai chatbot, il lui faut un ordinateur qui reste allumé, et quelqu'un pour s'en occuper. Nous n'avons pas mesuré ce que cela coûte. Au prix mesuré dans la première version, Claude reviendrait à environ 0,20 dollar pour 10 000 messages.
@@ -907,13 +913,17 @@ La même connaissance, « ce qu'est une urgence pour ce chatbot », peut donc vi
 
 :::
 
-:::caution[Avant que des messages écrits par des jeunes passent par OpenRouter]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 Lire la section **Young people and OpenRouter** de `SETUP.md`, dans le dépôt : les clés restent chez les adultes, et `workshop-login --europe` vient d'abord. Avec `--europe`, `./sorter compare` reste sur `mistralai/mistral-small-3.2-24b-instruct`, même si la ligne `Key OK` nomme un autre modèle. Le détail est dans la [section Sécurité du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données).
 
 :::
 
-**Point de contrôle** : le tableau est rempli, et vous savez dire en une phrase quand vous choisiriez chacun.
+:::info[Point de contrôle]
+
+Le tableau est rempli, et vous savez dire en une phrase quand vous choisiriez chacun.
+
+:::
 
 ### Pour réfléchir
 
@@ -951,7 +961,7 @@ Sur le grand écran, l'animateur·rice place son propre trieur devant un chatbot
 
 :::
 
-:::caution[Le prototype et les jeunes]
+:::info[Le prototype et les jeunes]
 
 **Ne jamais laisser des jeunes y taper, ni s'en servir comme d'un vrai chatbot.** On peut le leur montrer sur son écran, comme à la partie 6, pour les faire réfléchir à l'aiguillage, mais en retirant le message 7 et tout message sur l'envie de mourir. Les réponses fixes ont été écrites pour une démonstration : aucun professionnel de la protection de l'enfance ne les a vérifiées. Le trieur se trompe : ce n'est pas un filet de sécurité. Un vrai service demande un chemin d'urgence testé à part, et une personne qui prend le relais.
 
@@ -961,13 +971,13 @@ Un trieur se trompe : **les trois réponses fixes nommeraient donc le numéro d'
 
 Vos exemples et votre test restent utiles. Quand un chatbot est en ligne, une personne relit ses erreurs et écrit de nouveaux exemples inventés qui montrent le même schéma, puis le modèle est entraîné de nouveau. Les vrais messages de jeunes ne deviennent pas des exemples, même sans les noms. Et la méthode fonctionne pour toute courte liste de classes, dans toutes les langues du modèle : le type de question, le sujet, le ton.
 
-:::tip[Pour continuer]
+:::info[Pour continuer]
 
 La fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale) (un modèle sur une machine de votre structure), sa page [how an LLM works](https://github.com/Youth-AI-Lab/yal-local-ai-guide/blob/main/how-an-llm-works.md) (comment fonctionne un grand modèle de langage, en anglais), et la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (le chatbot devant lequel un trieur se placerait).
 
 :::
 
-:::caution[Étape 1 : Garder ses exemples, remplir la carte de sortie]
+### Étape 1 : Garder ses exemples, remplir la carte de sortie
 
 1. `workshop-save` garde `messages/`, vos exemples et votre test. Il ne garde ni `SETUP.md`, ni `sheet.md`, ni `tools/sorter.py` : si vous en avez changé un, il le dit. Taper :
 
@@ -983,8 +993,6 @@ La fiche [Installer un chatbot sur un ordinateur de sa structure](/ressources/yo
    1. Pourquoi un classifieur ne peut-il pas inventer de réponse ?
    2. Pourquoi un message de test ne doit-il jamais être un exemple ?
    3. Citez un cas où vous régleriez un petit modèle, et un cas où vous demanderiez à un grand.
-
-:::
 
 **Pour reprendre plus tard**, dans un nouveau Codespace : glisser `my-work.zip` dans la liste des fichiers (VS Code ouvre un onglet qui dit qu'il ne peut pas afficher le fichier : le fermer), taper `workshop-start 6 --from my-work.zip`, puis `./sorter setup` et `./sorter train`. Le modèle réglé n'est pas dans le fichier : il revient à partir de vos exemples, en une minute ou deux.
 
@@ -1017,7 +1025,7 @@ Un trieur se trompe, et un refus n'est pas un filet de sécurité : un appel à 
    - un message qui va au chatbot plus tard dans la même conversation (dans votre liste, peut-être le message sur le gâteau, si le trieur n'en est pas sûr) : un chatbot reçoit normalement toute la conversation. Ici, la ligne grise se termine par `without the N earlier message(s) that got a fixed answer` : le trieur les retire d'abord, si bien que l'urgence et le message `needs-care` tapés plus haut n'atteignent jamais le grand modèle.
 4. Puis `python3 demo.py stop`. On doit voir `Removed from Open WebUI: … conversation(s) with the demo chatbot, …`, `Database rewritten without the deleted rows (SQLite VACUUM).`, puis `Nothing of the demo is left in Open WebUI.`
 
-Pendant la démonstration, le trieur se place devant **tous** les modèles de votre Open WebUI, y compris le modèle de base caché. Si le trieur échoue, la réponse est un texte fixe, « The message sorter is not working… », jamais le chatbot. Le trieur ne garde aucune trace des messages ; Open WebUI garde chaque conversation comme pour toute discussion, et `stop` supprime celles du chatbot de démonstration, puis réécrit la base de données d'Open WebUI pour que le texte supprimé ne reste pas sur le disque. Les conversations avec un autre modèle de votre Open WebUI pendant la démonstration sont gardées, réponses fixes comprises. Limites à connaître : quiconque peut ouvrir votre Open WebUI en est l'administrateur (il n'a pas de comptes), donc garder le port 3000 privé (`start` le vérifie une fois, avec `openwebui check-private`) ; une telle personne pourrait aussi atteindre le modèle par l'accès direct au fournisseur d'Open WebUI, qu'aucun filtre ne voit (mesuré : une urgence envoyée par là a atteint le modèle). Open WebUI utilise environ 0,5 Go de plus avec le trieur, jusqu'à son redémarrage : ne pas lancer d'entraînement pendant la démonstration (l'entraînement demande environ 5 Go). Essayé le 4 novembre 2026, de nouveau le 5 novembre 2026 après le changement de nom (Open WebUI 0.12.4), et le 6 novembre 2026 avec Open WebUI 0.12.5, la version de l'image 2026.11.5, puis de nouveau ce jour-là avec le chatbot de démonstration construit sur le modèle de base caché (`openwebui start` ne crée plus de modèle « Wildfire RAG » dans ce dépôt depuis l'image 2026.11.6) : sans réseau, avec un faux modèle, une fausse clé et le vrai `openwebui start` du kit, dans un Chrome sans écran. Pas dans un vrai Codespace, pas avec un vrai modèle, pas avec un groupe. La démonstration s'arrête avec toute autre version d'Open WebUI. Détails : le `README.md` du dossier `facilitator-demo/` du dépôt de l'atelier.
+Pendant la démonstration, le trieur se place devant **tous** les modèles de votre Open WebUI, y compris le modèle de base caché. Si le trieur échoue, la réponse est un texte fixe, « The message sorter is not working... », jamais le chatbot. Le trieur ne garde aucune trace des messages ; Open WebUI garde chaque conversation comme pour toute discussion, et `stop` supprime celles du chatbot de démonstration, puis réécrit la base de données d'Open WebUI pour que le texte supprimé ne reste pas sur le disque. Les conversations avec un autre modèle de votre Open WebUI pendant la démonstration sont gardées, réponses fixes comprises. Limites à connaître : quiconque peut ouvrir votre Open WebUI en est l'administrateur (il n'a pas de comptes), donc garder le port 3000 privé (`start` le vérifie une fois, avec `openwebui check-private`) ; une telle personne pourrait aussi atteindre le modèle par l'accès direct au fournisseur d'Open WebUI, qu'aucun filtre ne voit (mesuré : une urgence envoyée par là a atteint le modèle). Open WebUI utilise environ 0,5 Go de plus avec le trieur, jusqu'à son redémarrage : ne pas lancer d'entraînement pendant la démonstration (l'entraînement demande environ 5 Go). Essayé le 4 novembre 2026, de nouveau le 5 novembre 2026 après le changement de nom (Open WebUI 0.12.4), et le 6 novembre 2026 avec Open WebUI 0.12.5, la version de l'image 2026.11.5, puis de nouveau ce jour-là avec le chatbot de démonstration construit sur le modèle de base caché (`openwebui start` ne crée plus de modèle « Wildfire RAG » dans ce dépôt depuis l'image 2026.11.6) : sans réseau, avec un faux modèle, une fausse clé et le vrai `openwebui start` du kit, dans un Chrome sans écran. Pas dans un vrai Codespace, pas avec un vrai modèle, pas avec un groupe. La démonstration s'arrête avec toute autre version d'Open WebUI. Détails : le `README.md` du dossier `facilitator-demo/` du dépôt de l'atelier.
 
 Revenir ensuite à « Pourquoi réfléchir à l'aiguillage » : ce qui compte est la question, pas l'outil. Demander à la salle quels messages de leur propre chatbot ne devraient jamais atteindre un grand modèle, et pourquoi : la détresse d'un·e jeune (objectif 3), ce qu'il ou elle ne voudrait pas qu'une entreprise lise, et le travail d'un centre de données pour un message qu'une réponse fixe pourrait traiter (objectifs 12 et 13). Les seuls chiffres à donner sont ceux de l'AIE cités dans la page (485 TWh pour les centres de données en 2025, environ 950 TWh attendus en 2030, autour de 3 % de l'électricité du monde). Nous n'avons mesuré l'énergie d'aucun des deux modèles : aucun chiffre par message.
 

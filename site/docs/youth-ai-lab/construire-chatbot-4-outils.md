@@ -15,8 +15,13 @@ sidebar_position: 17
   <span className="badge badge--primary">Informatique</span>
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
-  <span className="badge badge--info">Esprit critique</span>
-  <span className="badge badge--info">Outils MCP</span>
+  <span className="badge badge--info">MCP</span>
+  <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Sécurité informatique</span>
+  <span className="badge badge--info">Injection de consigne</span>
+  <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
+  <span className="badge badge--warning">Open WebUI</span>
 </div>
 
 | Projet       | Durée                           | Difficulté    | Âge                       |
@@ -27,7 +32,7 @@ sidebar_position: 17
 
 - **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-tools
 - **Les diapositives** projetées par l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/4/
-- **La fiche animateur** (en anglais) : https://youth-ai-lab.github.io/yal-workshop/4/facilitator.html
+- **La fiche animateur·rice** (en anglais) : https://youth-ai-lab.github.io/yal-workshop/4/facilitator.html
 - **Par binôme** : un ordinateur avec un navigateur, un compte GitHub, une clé d'API (elle commence par `sk-ant-` pour Anthropic, par `sk-or-` pour OpenRouter), le fichier `my-work.zip` sauvegardé à la fin de l'atelier 3, et l'adresse de la page officielle qui donne le niveau de danger feu de forêt de son territoire, s'il en existe une
 - **Imprimés** : la fiche d'une page `sheet.md` du dépôt (une par binôme) et les cartes de sortie (une par personne)
 
@@ -45,8 +50,8 @@ Cette série de six ateliers de 2 h s'adresse aux **animateur·rices**, avant to
 
 Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran sont dans le dépôt de l'atelier.
 
-- Atelier précédent : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)
-- Atelier suivant : [Organiser ce que sait un chatbot dans un wiki](/ressources/youth-ai-lab/construire-chatbot-5-wiki)
+- **Atelier précédent** : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)
+- **Atelier suivant** : [Organiser ce que sait un chatbot dans un wiki](/ressources/youth-ai-lab/construire-chatbot-5-wiki)
 
 :::
 
@@ -54,7 +59,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 Jusqu'ici, le chatbot ne lisait que ce qui se trouvait déjà dans le Codespace : ses instructions, ses documents, ses skills. Mais certaines connaissances changent tous les jours, comme le niveau de danger feu de forêt, et aucun document ne peut les contenir. Aujourd'hui, on branche des **outils** sur le chatbot : des actions qu'il peut appeler pendant qu'il répond, et qui lui rapportent ce qu'elles trouvent. La question du jour :
 
-> **Que se passe-t-il quand le chatbot agit à l'extérieur ?**
+:::question[Question du jour]
+
+**Que se passe-t-il quand le chatbot agit à l'extérieur ?**
+
+:::
 
 Un document dit ce qui était vrai le jour où il a été écrit. Le niveau de danger feu de forêt, lui, est décidé chaque jour par une autorité, et le chatbot ne peut pas le deviner. Un outil comble ce manque : le modèle lui pose une question, l'outil répond par un fait, et le modèle s'en sert dans sa réponse.
 
@@ -92,11 +101,11 @@ La série avance une pièce du chatbot à la fois :
 
 Les documents de référence sont tous dans le Codespace, dans la liste des fichiers à gauche :
 
-- `mcp/fire-danger.json` : les données de l'outil, une entrée par territoire. On le remplit aujourd'hui.
-- `mcp/fire_danger_server.py` : le programme de l'outil, environ 160 lignes de Python.
-- `.mcp.json` : la liste des serveurs que branche le mode D, et comment chacun démarre.
-- `test-questions.md` et `scores.md` : le jeu de test et la feuille de notes. La façon de noter (0, 1 ou 2) est dans `test-questions.md`, section « How to score ».
-- `SETUP.md` : mise en place, commandes et problèmes courants. La jauge (la ligne `... / 200k` au-dessus de la zone de saisie) y est expliquée à l'étape 4.
+- **`mcp/fire-danger.json`** : les données de l'outil, une entrée par territoire. On le remplit aujourd'hui.
+- **`mcp/fire_danger_server.py`** : le programme de l'outil, environ 160 lignes de Python.
+- **`.mcp.json`** : la liste des serveurs que branche le mode D, et comment chacun démarre.
+- **`test-questions.md` et `scores.md`** : le jeu de test et la feuille de notes. La façon de noter (0, 1 ou 2) est dans `test-questions.md`, section « How to score ».
+- **`SETUP.md`** : mise en place, commandes et problèmes courants. La jauge (la ligne `... / 200k` au-dessus de la zone de saisie) y est expliquée à l'étape 4.
 
 ### Glossaire
 
@@ -117,7 +126,7 @@ Les documents de référence sont tous dans le Codespace, dans la liste des fich
 
 ## Objectifs d'apprentissage
 
-**À la fin de cet atelier, les participant·es seront capables de :**
+À la fin de cet atelier, les participant·es seront capables de...
 
 - **Expliquer** pourquoi seul un outil peut donner le niveau de danger du jour, et lire un appel d'outil ainsi que ce qu'il a rapporté.
 - **Remplir** l'entrée d'un territoire à partir de sa source officielle, pour que l'outil donne ce niveau avec sa source.
@@ -137,7 +146,7 @@ Prévoir environ 1 heure de préparation :
 - **Préparer la page piégée** de la partie 4 : https://youth-ai-lab.github.io/yal-workshop/4/trap-page.html à enregistrer sur son ordinateur. Jamais dans le Codespace d'un binôme, jamais avant un `replay`.
 - **Imprimer** la fiche d'une page et les cartes de sortie. Si la salle a besoin d'une autre langue, traduire la fiche en gardant en anglais les commandes et ce qu'affiche le terminal.
 
-En mode D, le modèle peut lire tous les fichiers du dépôt, y compris sa page `README.md`, et `replay` ne le signale pas. Ne jamais mettre cette fiche, ni la fiche animateur, dans le dépôt ou le Codespace d'un binôme : ses notes donnent le statut d'Anvers et la réponse attendue à la question 8. C'est pourquoi les pages des participant·es ne donnent jamais la réponse attendue à la question 8, ni le statut à choisir pour Anvers : garder cette règle si vous les adaptez.
+En mode D, le modèle peut lire tous les fichiers du dépôt, y compris sa page `README.md`, et `replay` ne le signale pas. Ne jamais mettre cette fiche, ni la fiche animateur·rice, dans le dépôt ou le Codespace d'un binôme : ses notes donnent le statut d'Anvers et la réponse attendue à la question 8. C'est pourquoi les pages des participant·es ne donnent jamais la réponse attendue à la question 8, ni le statut à choisir pour Anvers : garder cette règle si vous les adaptez.
 
 :::
 
@@ -145,7 +154,7 @@ En mode D, le modèle peut lire tous les fichiers du dépôt, y compris sa page 
 
 **Objectif** : ouvrir le Codespace de cet atelier, récupérer le travail des ateliers précédents, et lancer Open WebUI pour la clôture.
 
-:::caution[Étape 1 : Ouvrir son Codespace et enregistrer sa clé]
+### Étape 1 : Ouvrir son Codespace et enregistrer sa clé
 
 Si le délai d'inactivité de ce compte GitHub n'est pas encore réglé, faire d'abord l'étape 1 de `SETUP.md` (1 minute). Puis ouvrir le Codespace du binôme à cette adresse (un par binôme) :
 
@@ -153,15 +162,13 @@ https://codespaces.new/Youth-AI-Lab/yal-workshop-tools
 
 Ce lien crée une copie personnelle du dépôt, dans VS Code qui tourne dans le navigateur. Suivre ensuite les étapes 1 à 5 de `SETUP.md` : laisser le Codespace attendre, l'ouvrir, enregistrer sa clé avec `workshop-login`, vérifier le message `Key OK`, et ouvrir un second terminal.
 
-:::
-
-:::note[Si vous utilisez OpenCode]
+:::info[Si vous utilisez OpenCode]
 
 Mêmes commandes, après `workshop-login --engine opencode`. Le mode D donne à OpenCode les mêmes outils. OpenCode demande l'accord avant chaque commande qu'il veut lancer dans le terminal et chaque fichier qu'il écrit, mais pas avant d'appeler l'un de ces outils. D'autres façons de payer le modèle sont présentées dans le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::
 
-:::note[Si votre clé commence par sk-or- (OpenRouter)]
+:::info[Si votre clé commence par sk-or- (OpenRouter)]
 
 Coller la clé dans `workshop-login`, sans option, et lire la section _With an OpenRouter key_ du fichier `SETUP.md` du dépôt : la conversation va par OpenRouter jusqu'à une entreprise qui fait tourner le modèle, qui n'est pas forcément Anthropic. En résumé : OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` passe aussi par OpenRouter.
 
@@ -181,7 +188,7 @@ Ne comparer que ses propres colonnes : `score` écrit le modèle sous le tableau
 
 :::
 
-:::caution[Avec des jeunes et une clé OpenRouter]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 Avant que quoi que ce soit d'écrit par des jeunes passe par OpenRouter, lire la section _Young people and OpenRouter_ du fichier `SETUP.md` du dépôt, ainsi que la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) du guide OpenRouter.
 
@@ -193,7 +200,7 @@ Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voi
 
 :::
 
-:::caution[Étape 2 : Récupérer son travail]
+### Étape 2 : Récupérer son travail
 
 1. **Glisser `my-work.zip`** depuis son ordinateur dans la liste des fichiers du Codespace. Si le fichier a été téléchargé plusieurs fois, le navigateur a pu nommer le plus récent `my-work (1).zip` : glisser celui-là, et taper son nom exact entre guillemets, par exemple `workshop-start 4 --from "my-work (1).zip"`.
 2. Dans le premier terminal, taper :
@@ -215,15 +222,13 @@ Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voi
 
    Sans sauvegarde, taper `workshop-start 4`. Les lignes « Prepared » disent alors que `AGENTS.md` est désormais une copie de l'exemple Feurisson, et que le document de Bénévent a été ajouté au corpus, pour la question 11.
 
-:::
-
 :::info[La première fois que vous tapez workshop D]
 
 Dans ce Codespace, Claude Code demande à nouveau si l'on fait confiance au dossier. Le choix proposé est `No, exit` : appuyer sur la **flèche du bas** pour choisir `Yes, I trust this folder`, puis sur **Entrée**. Si Claude Code s'est fermé, taper de nouveau `workshop D`. Plus de détails à l'étape 4 de `SETUP.md`.
 
 :::
 
-:::caution[Étape 3 : Lancer Open WebUI en arrière-plan]
+### Étape 3 : Lancer Open WebUI en arrière-plan
 
 À la clôture, vous verrez votre chatbot dans Open WebUI, avec le même outil qu'en mode D. Son premier démarrage prend quelques minutes : le lancer maintenant.
 
@@ -235,15 +240,13 @@ Dans ce Codespace, Claude Code demande à nouveau si l'on fait confiance au doss
 
 2. Ne pas l'attendre : passer à la partie 2 dans le premier terminal. Le démarrage se termine par `Open WebUI is ready, ...`. En chemin, vers le début, une ligne dit `Live tool ready: fire-danger (fire_danger, territories), read-only.`
 
-:::
-
-:::caution[Attention]
+:::info[Ne jamais rendre le port 3000 public]
 
 **Ne jamais rendre le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). C'est la porte numérotée par laquelle on accède à Open WebUI. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 `Key OK`, `Ready for workshop 4`, et `openwebui start` en cours dans le second terminal.
 
@@ -283,7 +286,7 @@ Parce qu'il vérifie le fichier à chaque appel du modèle. Il compare la date d
 
 :::
 
-:::caution[Étape 1 : Voir les outils du mode D]
+### Étape 1 : Voir les outils du mode D
 
 1. Dans le premier terminal, taper `workshop D`.
 2. Dans la conversation, taper `/mcp` et appuyer sur Entrée. On doit voir :
@@ -300,9 +303,7 @@ Parce qu'il vérifie le fichier à chaque appel du modèle. Il compare la date d
 
 3. Appuyer sur Entrée sur `fire-danger`, puis sur `1. View tools` : ses deux outils sont `territories` (la liste des territoires qu'il connaît) et `fire_danger` (le niveau d'un territoire aujourd'hui). Appuyer sur **Échap** jusqu'à revenir dans la conversation.
 
-:::
-
-:::caution[Étape 2 : La question 8, avant que quiconque remplisse le fichier]
+### Étape 2 : La question 8, avant que quiconque remplisse le fichier
 
 1. Poser la question 8 de `test-questions.md`. Elle porte sur Anvers, aujourd'hui.
 2. Au-dessus de la réponse, une ligne grise résume les appels d'outils, par exemple `Called fire-danger 2 times`. Appuyer sur **Ctrl+O** pour voir chaque appel : la ligne `● fire-danger - fire_danger (MCP)(territory: "Antwerp")` montre ce que le modèle a demandé, et le bloc en dessous ce que l'outil a renvoyé. Appuyer de nouveau sur **Ctrl+O** pour revenir.
@@ -318,9 +319,7 @@ Parce qu'il vérifie le fichier à chaque appel du modèle. Il compare la date d
 
    Lire maintenant la réponse du chatbot. Donne-t-elle un niveau, ou dit-elle qu'il n'y en a pas aujourd'hui ? Cite-t-elle la source ? Le modèle ne peut pas connaître le niveau par lui-même, et ici l'outil ne lui en a donné aucun. La description de l'outil dit aussi au modèle de ne jamais deviner (vous la lirez à la partie 4). Une réponse qui dit « pas de niveau aujourd'hui » est un échec visible, comme à l'atelier 3 : une réponse inventée est pire que « je ne sais pas ».
 
-:::
-
-:::caution[Étape 3 : Remplir Anvers à partir de sa source officielle]
+### Étape 3 : Remplir Anvers à partir de sa source officielle
 
 L'outil lit `mcp/fire-danger.json`. Une personne le remplit, le jour même, à partir de la source officielle.
 
@@ -336,9 +335,7 @@ L'outil lit `mcp/fire-danger.json`. Une personne le remplit, le jour même, à p
 4. Dans la même conversation, reposer la question 8. L'outil relit le fichier à chaque appel : il n'y a rien à redémarrer. Appuyer de nouveau sur **Ctrl+O** : qu'est-ce qui a changé dans ce que l'outil a renvoyé ? Regarder `status`, `level`, `source_says` et `why_no_level`.
 5. Quitter avec **Ctrl+C deux fois**.
 
-:::
-
-:::caution[Ne jamais inventer un niveau]
+:::info[Ne jamais inventer un niveau]
 
 N'écrire que ce que dit la source officielle, le jour même. Si la page n'affiche aucun niveau, écrire le statut et sa phrase, jamais un niveau de son cru.
 
@@ -350,7 +347,7 @@ Si le chatbot dit que `fire-danger.json is malformed`, il manque un guillemet ou
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 L'entrée d'Anvers porte la date du jour, un statut et la phrase de sa source, et la question 8 obtient une réponse qui cite cette source.
 
@@ -394,14 +391,12 @@ Et pour les trois : ce que l'outil renvoie entre dans le contexte, et part donc 
 
 **L'idée clé** : un serveur est un programme qui tourne dans le Codespace avec vos droits. Ce qu'il peut faire, et ce qu'il envoie à l'extérieur, est écrit dans son code et dans la façon dont il est lancé, pas dans son nom.
 
-:::caution[Étape 1 : Lire comment les outils sont branchés]
+### Étape 1 : Lire comment les outils sont branchés
 
 1. Ouvrir `.mcp.json`. Il liste les serveurs du mode D : pour chacun, le programme qui le lance (`command`) et ses options (`args`). Les chemins qui commencent par `/opt/workshop/` sont des programmes déjà installés dans le Codespace.
 2. Trouver la ligne de `time`. Quelle option reçoit-il ? (`--local-timezone Europe/Paris` : le fuseau horaire qu'il utilise quand le modèle n'en nomme pas. À l'étape 2, observer quel fuseau horaire le modèle demande.) Une option change ce que fait le programme : c'est la « façon dont il est lancé » de l'idée clé ci-dessus.
 
-:::
-
-:::caution[Étape 2 : Une question qui a besoin de l'heure]
+### Étape 2 : Une question qui a besoin de l'heure
 
 La carte du Pla Alfa, en Catalogne, est mise à jour à heures fixes : le résumé consacré à la Catalogne dit lesquelles. Pour savoir si la mise à jour du jour a déjà eu lieu, le modèle a besoin de l'heure **actuelle** à Barcelone. Aucun document ne la contient.
 
@@ -424,9 +419,7 @@ La carte du Pla Alfa, en Catalogne, est mise à jour à heures fixes : le résum
 
 5. Quitter avec **Ctrl+C deux fois**.
 
-:::
-
-:::caution[Étape 3 : Brancher la météo]
+### Étape 3 : Brancher la météo
 
 L'outil météo n'est pas dans le mode D par défaut. Il diffère des deux premiers serveurs sur deux points : ce que le modèle lui demande sort du Codespace, et ses descriptions prennent beaucoup plus de place dans le contexte. Il est listé dans un second fichier, `.mcp.weather.json`, et non dans `.mcp.json`. Pour le brancher le temps d'une conversation, taper la commande ci-dessous : `WORKSHOP_WEATHER=1` devant `workshop D` est un réglage valable pour ce démarrage seulement.
 
@@ -450,15 +443,13 @@ WORKSHOP_WEATHER=1 workshop D
 3. Demander maintenant : `Given the weather, what is the fire danger level today in La Rochelle?` Le modèle présente-t-il une prévision météo comme si c'était le niveau officiel ? Lors du test, non : il a appelé l'outil de danger feu de forêt, et a dit que la météo ne donne pas le niveau officiel. Un test sur une seule question ne prouve pas grand-chose : essayez vous-même.
 4. Quitter avec **Ctrl+C deux fois**.
 
-:::
-
 :::info[Citer Open-Meteo]
 
 Les prévisions viennent d'Open-Meteo (https://open-meteo.com). Son service gratuit est réservé à un usage non commercial, et ses données sont sous licence CC BY 4.0 : un chatbot qui les affiche doit donner ce lien.
 
 :::
 
-:::caution[La météo n'est pas un niveau de danger feu de forêt]
+:::info[La météo n'est pas un niveau de danger feu de forêt]
 
 Le vent et l'air sec font monter le danger, mais le niveau du jour est décidé par une autorité, avec sa propre échelle. Si votre chatbot a confondu les deux, ajouter une règle dans `AGENTS.md`, par exemple :
 
@@ -468,7 +459,7 @@ Never give a weather forecast as a fire danger level: only the fire-danger tool 
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 Pour chacun des trois serveurs, on sait dire ce qu'il lit et ce qui sort du Codespace.
 
@@ -519,16 +510,14 @@ GitHub, PyPI et npm sont des sites où l'on publie des programmes. La page d'un 
 
 **L'idée clé** : une description dit à quoi sert un outil. Seul son code dit ce qu'il fait. Lire les deux, ou demander à quelqu'un qui sait lire le code.
 
-:::caution[Étape 1 : Lire notre outil]
+### Étape 1 : Lire notre outil
 
 1. Ouvrir `mcp/fire_danger_server.py`. Pas besoin de savoir lire le Python pour en voir l'essentiel.
 2. Trouver les deux blocs qui commencent par `@mcp.tool()` : leur texte entre `"""` est la **description** que lit le modèle. Trouver la ligne `DATA = ...` : le fichier que lisent ces deux outils. La ligne en dessous, `RECORDED = ...`, sert à un troisième outil (un jour passé), qui reste coupé sauf si l'animateur·rice l'active.
 3. Répondre aux cinq questions ci-dessus pour ce serveur. Pour « Qu'envoie-t-il à l'extérieur ? », appuyer sur **Ctrl+F** dans l'éditeur et chercher `http` : une adresse sur Internet commence par ces lettres. Ici, la recherche ne trouve rien. C'est bon signe, pas une preuve : pour un gros programme, demander à quelqu'un qui sait lire le code.
 4. Essayer maintenant les cinq mêmes questions sur `open-meteo`, avec ce qui a été vu à la partie 3. Auxquelles peut-on répondre ? Lesquelles demandent son code ?
 
-:::
-
-:::caution[Étape 2 : Regarder l'exemple de l'animateur·rice]
+### Étape 2 : Regarder l'exemple de l'animateur·rice
 
 Tout ce que lit le modèle entre dans le contexte avec le même poids que votre question : un document, une page web, ce que renvoie un outil. Un texte peut donc porter des instructions que personne n'a écrites dans votre `AGENTS.md`, et la personne qui utilise le chatbot peut n'en rien voir.
 
@@ -545,9 +534,7 @@ Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude C
 
 </details>
 
-:::
-
-:::caution[Étape 3 : Remplir l'entrée de son territoire]
+### Étape 3 : Remplir l'entrée de son territoire
 
 1. Rouvrir `mcp/fire-danger.json`. Si votre territoire y figure (La Rochelle, Aix-en-Provence, Barcelone, Anvers, Naples), remplir son entrée comme pour Anvers en partie 2 : `status`, `source_says`, et `level` et `advice` seulement si le statut est `"live"`.
 2. Si votre territoire n'est pas dans le fichier, copier une entrée, la coller après la dernière, mettre une virgule entre les deux, et remplacer son nom, `scale` (les niveaux qu'utilise l'autorité, dans les mots de la source), `source` et `season` par ceux de votre territoire. Si vous ne connaissez pas `scale`, écrire `TO BE COMPLETED` : l'outil ne l'envoie pas. Si vous ne connaissez pas `season`, supprimer sa ligne, avec sa virgule.
@@ -556,15 +543,13 @@ Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude C
 5. Voir maintenant une question que le chatbot doit vous poser. Toujours dans `workshop D`, demander : `Add a field "checked_by" with our names to the entry of <your territory> in mcp/fire-danger.json.` Claude Code s'arrête avant d'écrire : un cadre **Edit file** avec les lignes qu'il changerait, et `Do you want to make this edit to fire-danger.json?`. Choisir **3. No** : rien ne change. L'outil `fire_danger` ne vous a rien demandé, parce qu'il ne fait que lire ; une modification de fichier attend votre oui.
 6. Quitter avec **Ctrl+C deux fois**.
 
-:::
-
 :::info[Pas de niveau officiel quotidien sur votre territoire ?]
 
 Certaines autorités ne publient aucun niveau hors saison, ou seulement pour les services. Écrire alors `"no-level-shown"` ou `"season-over"`, avec la phrase de la source : un chatbot qui dit « il n'y a pas de niveau officiel aujourd'hui, voici pourquoi » a raison. Ne jamais le remplacer par un autre indice ou par une prévision.
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 
 L'entrée de votre territoire porte un statut, la phrase de sa source et son adresse, et le chatbot cite cette source.
 
@@ -584,13 +569,13 @@ Vous n'avez pas posé ces garde-fous aujourd'hui, mais chacun a sa raison d'êtr
 - **Un fichier de réglages vide.** Le serveur météo pourrait lire un fichier de réglages (`.env`) dans le dossier où il démarre. L'atelier lui en donne un vide, pour qu'un fichier laissé dans le dossier ne puisse pas changer ce qu'il fait.
 - **Des versions figées.** Les serveurs de l'heure et de la météo viennent avec l'image du Codespace, dans la version qui a été lue : ils ne se mettent pas à jour tout seuls.
 
-:::caution[Avec des jeunes]
+:::info[Avec des jeunes]
 
 Tenez-vous-en à des outils comme ceux-ci : ils ne font que lire, ne demandent aucune donnée personnelle, et n'utilisent que des sources publiques.
 
 :::
 
-:::note[Ce que vous avez construit]
+:::info[Ce que vous avez construit]
 
 L'entrée de votre territoire dans un outil vivant, avec sa source. **À réemployer** dans tout chatbot qui utilise des outils : d'abord votre chatbot dans Open WebUI, avec le même outil ([partie 5](#partie-5--clôture-15-min), étape 2) ; avec un groupe, le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, l'outil en direct), où l'animateur·rice remplit le fichier le jour même. Une autre voie, pour les adultes, sans Claude Code : avec OpenCode, le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) reprend l'exemple `fire-danger`, explique comment remplir le niveau du jour, et donne les vérifications à faire sur les autres serveurs MCP.
 
@@ -612,7 +597,7 @@ Après la partie : « Brancheriez-vous un serveur que vous ne pouvez pas lire ? 
 
 Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, qu'aucun document ne contient. Les questions 11 et 12 portent sur ce qui a été ajouté à l'atelier 3, le document de Bénévent et la page de son territoire : elles vérifient que le chatbot les trouve encore quand il a aussi des outils.
 
-:::caution[Étape 1 : Rejouer et noter la colonne D]
+### Étape 1 : Rejouer et noter la colonne D
 
 1. **Prédire** sur papier : parmi les questions 8, 11 et 12, lesquelles vont progresser entre la colonne C et la colonne D ?
 2. Dans le premier terminal, rejouer le jeu de test en mode D :
@@ -633,15 +618,13 @@ Trois questions comptent aujourd'hui. La question 8 demande le niveau du jour, q
 
 4. **Comparer la colonne D** avec la colonne C dans `scores.md`, pour les questions 8, 11 et 12, et avec la prédiction. Quelle question a changé, et pourquoi ? Aujourd'hui, seules quelques questions sont notées : **la ligne Total ne veut rien dire ici**, lire les lignes une à une. Si la colonne C n'a pas de note pour la question 8, taper `score C 8` : les réponses de l'atelier 3 sont toujours dans `answers/`. Sans sauvegarde, il n'y a pas de colonne C : comparer avec un binôme voisin qui utilise le même modèle.
 
-:::
-
 Rappel du barème (fiche d'une page) :
 
 - **2** : juste, et la réponse dit d'où elle vient. Pour les questions 7 et 9, dire « je ne sais pas » ou refuser est juste ; pour la question 8, « pas de niveau officiel aujourd'hui », avec la phrase de la source, est juste quand le fichier n'a pas de niveau `live`.
 - **1** : honnête mais insuffisant : « je ne sais pas » alors que la réponse existe, pas de source, ou réponse partielle.
 - **0** : faux ou inventé.
 
-:::caution[Étape 2 : Votre chatbot dans Open WebUI, avec son outil]
+### Étape 2 : Votre chatbot dans Open WebUI, avec son outil
 
 Le mode D est dans votre terminal. Le même outil peut aller dans un chatbot que d'autres personnes utilisent par une page web : ici, Open WebUI.
 
@@ -661,8 +644,6 @@ Le mode D est dans votre terminal. Le même outil peut aller dans un chatbot que
 2. Ouvrir l'adresse, **New Chat**, choisir votre chatbot, et poser la question 8. Si le modèle appelle l'outil, une ligne **View Result from fire-danger_fire_danger** apparaît au-dessus de la réponse. Cliquer dessus : elle montre ce que l'outil a renvoyé, comme **Ctrl+O** le faisait en mode D. La réponse donne-t-elle le même niveau, ou la même raison de ne pas en donner, que votre fichier `answers/D-...` ?
 3. Poser la même question pour votre territoire.
 
-:::
-
 :::info[Ce que peut faire cet outil dans Open WebUI]
 
 Il a les deux mêmes outils, `fire_danger` et `territories`, et rien d'autre : ni le serveur de l'heure, ni la météo. Il ne fait que lire `mcp/fire-danger.json`, un fichier rempli à partir de sources publiques, sans aucune donnée personnelle. Il ne peut rien écrire, et il n'a aucune sortie vers Internet. Il lit le fichier à chaque appel : si le fichier n'est pas daté du jour, il renvoie `why_no_level`, comme à la partie 2. Avec Claude, en un essai, le chatbot a appelé l'outil pour la question 8 et n'a donné aucun niveau, parce que le fichier n'était pas daté du jour. Avec un petit modèle local (qwen3:8b), le premier appel après le démarrage d'Open WebUI n'a reçu aucune réponse, une fois sur trois essais : reposer la question.
@@ -675,21 +656,19 @@ Un chatbot créé avec `--rag` (atelier 2) ne reçoit aucun outil : Open WebUI c
 
 :::
 
-:::caution[Avec des jeunes]
+:::info[Avec des jeunes]
 
 Cet Open WebUI n'a pas de comptes : il est réservé à votre binôme, jamais à un groupe. Pour un groupe, le même outil se trouve dans le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, ajouter l'outil en direct), à partir de la version 2026.11.8 de l'image du Codespace. Là, l'animateur·rice remplit `mcp/fire-danger.json` le matin de chaque séance, à partir de la source publique, et coche l'outil dans chaque chatbot qui doit s'en servir ; les participant·es ne font que discuter. Le Codespace de ce guide a son propre fichier : votre entrée d'aujourd'hui n'y va pas d'elle-même.
 
 :::
 
-:::caution[Étape 3 : Sauvegarder son travail, remplir la carte de sortie]
+### Étape 3 : Sauvegarder son travail, remplir la carte de sortie
 
 1. Taper `workshop-save`, puis clic droit sur `my-work.zip` → **Download...**. Le fichier contient `fire-danger.json` et tout le travail précédent. L'apporter à l'atelier 5. Si l'ordinateur a déjà un `my-work.zip`, le nouveau peut s'appeler `my-work (1).zip` : apporter le plus récent.
 2. Prendre une carte vierge ou une demi-feuille auprès de l'animateur·rice : c'est votre **carte de sortie**. Répondre seul·e, en quelques mots :
    1. Pourquoi seul un outil peut-il donner le niveau de danger feu de forêt du jour ?
    2. Que peut faire un serveur dans votre Codespace, et comment le vérifier avant de le brancher ?
    3. Quelle est la différence entre une prévision météo et le niveau officiel de danger feu de forêt ?
-
-:::
 
 **La suite** : l'atelier 5, [Organiser ce que sait un chatbot dans un wiki](/ressources/youth-ai-lab/construire-chatbot-5-wiki). Ouvrir son propre Codespace depuis sa page, et apporter `my-work.zip`.
 

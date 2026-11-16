@@ -16,7 +16,12 @@ sidebar_position: 24
   <span className="badge badge--primary">Éducation civique</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">Agent IA</span>
+  <span className="badge badge--info">Skills</span>
+  <span className="badge badge--info">MCP</span>
   <span className="badge badge--info">Protection des données</span>
+  <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--warning">Hermes Agent</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
 
 | Projet       | Durée                        | Difficulté    | Âge                       |

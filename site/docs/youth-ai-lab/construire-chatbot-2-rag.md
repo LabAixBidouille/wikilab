@@ -13,11 +13,15 @@ sidebar_position: 15
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Informatique</span>
+  <span className="badge badge--primary">Mathématiques</span>
   <span className="badge badge--primary">Éducation aux médias</span>
   <span className="badge badge--info">IA générative</span>
   <span className="badge badge--info">RAG</span>
+  <span className="badge badge--info">Esprit critique</span>
+  <span className="badge badge--info">Activité débranchée</span>
+  <span className="badge badge--warning">Claude Code</span>
+  <span className="badge badge--warning">GitHub Codespaces</span>
   <span className="badge badge--warning">Open WebUI</span>
-  <span className="badge badge--info">Débranché</span>
 </div>
 
 | Projet       | Durée                       | Difficulté    | Âge                       |
@@ -37,10 +41,10 @@ sidebar_position: 15
 
 **En ligne**
 
-- Le dépôt de l'atelier, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-rag
-- Les diapositives de l'animateur·rice : https://youth-ai-lab.github.io/yal-workshop/2/
-- La fiche animateur : https://youth-ai-lab.github.io/yal-workshop/2/facilitator.html
-- La fiche d'une page (`sheet.md`) : https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/sheet.md
+- **Le dépôt de l'atelier**, où l'on travaille : https://github.com/Youth-AI-Lab/yal-workshop-rag
+- **Les diapositives de l'animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/2/
+- **La fiche animateur·rice** : https://youth-ai-lab.github.io/yal-workshop/2/facilitator.html
+- **La fiche d'une page** (`sheet.md`) : https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/sheet.md
 
 </div>
 
@@ -52,8 +56,8 @@ sidebar_position: 15
 
 Cette série de six ateliers de 2 h s'adresse aux **animateur·rices**, avant tout usage avec des jeunes. Chaque atelier ajoute une pièce au chatbot de chaque binôme, et toute la série répond à une seule question : _qu'est-ce qui entre dans le contexte du modèle, quand, et qui décide ?_
 
-- Atelier précédent : [Donner des instructions à un chatbot et le tester](/ressources/youth-ai-lab/construire-chatbot-1-instructions)
-- Atelier suivant : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)
+- **Atelier précédent** : [Donner des instructions à un chatbot et le tester](/ressources/youth-ai-lab/construire-chatbot-1-instructions)
+- **Atelier suivant** : [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)
 
 Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'adaptation française. Les captures d'écran sont dans le dépôt de l'atelier.
 
@@ -74,7 +78,11 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 La question du jour est :
 
-> **Qui choisit les morceaux ?**
+:::question[Question du jour]
+
+**Qui choisit les morceaux ?**
+
+:::
 
 D'abord, on met tout dans le contexte du modèle et on regarde ce que cela coûte. Ensuite, un moteur de recherche choisit quelques morceaux pour chaque question (il cherche dans les documents, pas sur le web), et on regarde lesquels il choisit. C'est ce qu'on appelle le **RAG** (_Retrieval-Augmented Generation_, génération augmentée par la recherche).
 
@@ -151,7 +159,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 ## Objectifs d'apprentissage
 
-À la fin de cet atelier, les participant·es seront capables de :
+À la fin de cet atelier, les participant·es seront capables de...
 
 - **Expliquer** pourquoi mettre toutes les connaissances dans le contexte fonctionne sur un petit kit, et pourquoi cela cesse de marcher quand les connaissances grandissent : chaque message paie pour tout.
 - **Lire** ce qu'un RAG donne au modèle pour une question : ses morceaux, leur nombre (le top-k), et la façon dont ils sont trouvés (les embeddings).
@@ -176,7 +184,7 @@ Tous ces fichiers sont dans le Codespace, dans la liste des fichiers à gauche :
 
 Avec `--europe`, le modèle du chatbot est `mistralai/mistral-small-2603`, et le mode B tourne. Dans un essai du 1er novembre 2026, `replay B 3 7 10` a pris 10 s, avec environ 70 000 jetons par question et 0,01 \$ affichés. C'est environ un tiers de la fenêtre de 200 000, pas la moitié qu'annonce la partie 2 : le dire avant que les binômes regardent la jauge. `replay A`, le `replay B` complet (26 s, 0,01 \$ affichés) et `replay RAG` (`1 7` le 1er novembre 2026, les 11 questions le 2 novembre) ont tourné avec ce modèle. `openwebui sizes` a tourné (1 min 34, le 2 novembre 2026) ; ses modèles Wildfire RAG 1000 et 2000 n'ont pas été interrogés (non testés). Si un binôme a tapé lui-même `mistralai/mistral-small-3.2-24b-instruct`, le mode B s'arrête et donne la commande à taper.
 
-La fiche animateur n'est pas dans les dépôts que les participant·es ouvrent, et c'est voulu : elle donne des scores mesurés, et à partir de l'atelier 3 le modèle peut lire tous les fichiers du dépôt.
+La fiche animateur·rice n'est pas dans les dépôts que les participant·es ouvrent, et c'est voulu : elle donne des scores mesurés, et à partir de l'atelier 3 le modèle peut lire tous les fichiers du dépôt.
 
 :::
 
@@ -196,11 +204,11 @@ Suivre les étapes 1 à 5 de la mise en place du kit (`SETUP.md`, https://github
 4. **Avoir une première conversation** avec `workshop bare`. La première fois : garder le thème proposé (**Entrée**), **Entrée** sur les autres écrans, et pour faire confiance au dossier, **flèche du bas** jusqu'à `Yes, I trust this folder`, puis **Entrée**. Quitter avec **Ctrl+C deux fois**.
 5. **Ouvrir un second terminal** avec le `+` en haut à droite du panneau des terminaux.
 
-:::note[Si vous utilisez OpenCode]
+:::info[Si vous utilisez OpenCode]
 Les commandes sont les mêmes, après `workshop-login --engine opencode`. La partie 4 du guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) montre l'autre façon de donner des connaissances à un chatbot, par la recherche : c'est l'atelier 3.
 :::
 
-:::note[Si votre clé commence par sk-or- (OpenRouter)]
+:::info[Si votre clé commence par sk-or- (OpenRouter)]
 
 Coller la clé dans `workshop-login`, sans option : la clé choisit OpenCode, et `score`, Open WebUI et `replay RAG` passent aussi par OpenRouter. Le détail est dans la section _With an OpenRouter key_ de `SETUP.md` (https://github.com/Youth-AI-Lab/yal-workshop-rag/blob/main/SETUP.md#with-an-openrouter-key). Avec le modèle par défaut, DeepSeek V4 Flash, cette voie a été essayée deux fois, le 2 et le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : `replay RAG` a répondu aux 11 questions en environ 50 s, et le juge, DeepSeek lui aussi, a donné 15 sur 20 (il n'a pas pu lire une réponse), puis 17 sur 22. Open WebUI a aussi été mesuré avec Mistral Small. On arrive alors dans OpenCode, sans les premiers écrans de Claude Code : voir [la mise en route de l'atelier 1](/ressources/youth-ai-lab/construire-chatbot-1-instructions#étape-1--ouvrir-son-codespace-et-enregistrer-sa-clé).
 
@@ -208,7 +216,7 @@ Ne comparez que vos propres colonnes : `score` écrit le modèle sous le tableau
 
 :::
 
-:::caution[Les jeunes et OpenRouter]
+:::info[Avec des jeunes et une clé OpenRouter]
 
 **Les ateliers sont pour les adultes. Le Codespace et les clés restent avec eux.** Aucun ou aucune jeune ne tape dans le Codespace d'un atelier ni ne détient de clé. Les conditions d'OpenRouter demandent des utilisateurs de 18 ans ou plus. Son chat d'assistance lit cette règle ainsi : aucun ou aucune jeune ne crée ni n'utilise sa propre clé. Cette lecture n'est pas écrite dans ses conditions : garder donc toutes les clés avec les adultes.
 
@@ -253,7 +261,7 @@ Le même dépôt s'ouvre sur votre propre ordinateur, avec Docker et VS Code : v
 
    Quand c'est terminé, la dernière ligne est `READY: Open WebUI is ready, with the two sizes.` Appuyer sur **Ctrl+C** pour arrêter de suivre : Open WebUI continue de tourner.
 
-:::caution[Ne jamais rendre le port 3000 public]
+:::info[Ne jamais rendre le port 3000 public]
 On accède à Open WebUI par le **port 3000** du Codespace : une porte numérotée, listée dans l'onglet **Ports**, à côté du terminal. Ce port est privé : vous seul·es pouvez l'ouvrir. **Ne jamais rendre le port 3000 public** (onglet Ports, clic droit sur 3000, Port Visibility). Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 :::
 
@@ -285,13 +293,13 @@ Avec la question 12, chaque colonne de `scores.md` a 12 questions : une colonne 
 
 :::
 
-:::caution[Ne plus changer la question 12]
+:::info[Ne plus changer la question 12]
 
 Ne pas changer la question 12 une fois notée : n'écrire une nouvelle question que si l'on efface aussi sa ligne dans `scores.md`.
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 `Key OK`, `Ready for workshop 2`, le journal d'Open WebUI (le fichier où il note ce qu'il fait) qui s'allonge dans le second terminal, et la ligne 12 écrite et notée dans les colonnes Bare et A.
 :::
 
@@ -339,7 +347,7 @@ Les parties 2 à 6 reviennent sur ces trois questions du jeu de test.
 | 7  | How many hectares burnt in Campania in 2025?                                                                                           | Une réponse qui n'existe nulle part : la bonne réponse est de le dire              |
 | 10 | How many hectares burnt outside the EU in 2025?                                                                                        | Deux sources en désaccord : le chatbot doit signaler la contradiction, pas choisir |
 
-:::note[Le mode B avec une clé OpenRouter]
+:::info[Le mode B avec une clé OpenRouter]
 
 Les chiffres de cette partie ont été mesurés avec Claude. Avec une clé OpenRouter, ils changent, et la jauge devient le compteur **context** d'OpenCode, dans son panneau latéral, une fois la conversation commencée (`Ctrl+X` puis `B` affiche ou masque ce panneau).
 
@@ -409,7 +417,7 @@ Sans `--europe`, la seconde ligne se termine par `workshop-login --models openro
 
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 Les questions 3, 7 et 10 sont notées dans la colonne B, et la jauge a été lue.
 :::
 
@@ -417,12 +425,12 @@ Les questions 3, 7 et 10 sont notées dans la colonne B, et la jauge a été lue
 
 Le kit compte 37 fichiers, et ils remplissent la moitié de la fenêtre. **Que se passe-t-il avec dix fois plus de documents ?** Et si votre groupe ajoute un document par semaine ? (Indice : la fenêtre a une taille maximale, et chaque message paie pour ce qu'elle contient.)
 
-:::note[Ce que vous avez construit]
+:::info[Ce que vous avez construit]
 Un chatbot qui lit tout. **Réemploi** : la case _Knowledge_ d'un outil de discussion, tant que les connaissances restent petites.
 :::
 
 :::info[Notes pour l'animateur·rice]
-**Démonstration du débordement** (fin de la partie 2, 5 min prises sur la marge, par l'animateur·rice seul·e, au grand écran, dans son propre Codespace ; les binômes ne la font pas). Elle répond à « et avec dix fois plus de documents ? » : quand les connaissances dépassent la fenêtre, le chatbot ne répond pas mal, il ne répond pas du tout. Une bande de 2 m au sol ou au mur figure la fenêtre (1 cm = 1 000 jetons), et trois bandes de 1 m figurent chacune le kit. Une copie du dépôt dans `/tmp/three-kits`, avec chaque résumé et chaque copie lisible en trois exemplaires, est posée au modèle Claude Haiku 4.5, dont la fenêtre fait exactement 200 000 jetons : la requête est refusée avant toute réponse (`Prompt is too long`, environ 237 000 jetons pour une limite de 200 000), et la jauge reste à `0 / 200k`. Ne jamais faire ces copies dans le dépôt d'un binôme ni dans le sien. Préparation (10 min), commandes exactes, mesures et replis : section _The overflow demo_ de la fiche animateur.
+**Démonstration du débordement** (fin de la partie 2, 5 min prises sur la marge, par l'animateur·rice seul·e, au grand écran, dans son propre Codespace ; les binômes ne la font pas). Elle répond à « et avec dix fois plus de documents ? » : quand les connaissances dépassent la fenêtre, le chatbot ne répond pas mal, il ne répond pas du tout. Une bande de 2 m au sol ou au mur figure la fenêtre (1 cm = 1 000 jetons), et trois bandes de 1 m figurent chacune le kit. Une copie du dépôt dans `/tmp/three-kits`, avec chaque résumé et chaque copie lisible en trois exemplaires, est posée au modèle Claude Haiku 4.5, dont la fenêtre fait exactement 200 000 jetons : la requête est refusée avant toute réponse (`Prompt is too long`, environ 237 000 jetons pour une limite de 200 000), et la jauge reste à `0 / 200k`. Ne jamais faire ces copies dans le dépôt d'un binôme ni dans le sien. Préparation (10 min), commandes exactes, mesures et replis : section _The overflow demo_ de la fiche animateur·rice.
 
 Après la partie 2 et la démonstration, demander : « La démonstration a refusé trois fois le kit. Votre groupe ajoute un document par semaine, environ 3,5 cm de bande : quand est-ce que ça s'arrête ? Et que fait-on alors ? » Laisser la salle trouver que la fenêtre a un maximum, et que chaque message paie pour tout ce qu'elle contient. Aujourd'hui, les binômes notent les questions 3, 7 et 10 dans les colonnes B et RAG ; les autres seulement s'il reste du temps. Les `replay` restent complets.
 :::
@@ -462,11 +470,11 @@ Les deux cartes-questions :
 
 **À retenir** : le modèle ne peut utiliser que ce qu'il reçoit. Si le moteur de recherche ne choisit pas le morceau qui contient la réponse, le modèle ne peut pas la trouver. Et un moteur de recherche donne toujours quelque chose, même quand la réponse n'existe nulle part.
 
-:::note[Cette activité fonctionne avec des jeunes]
+:::info[Cette activité fonctionne avec des jeunes]
 Sans ordinateur : des bandes tirées de leurs propres documents, une question, et un binôme qui joue le moteur de recherche. Les bandes de cet atelier, à imprimer ou à prendre pour modèle : https://youth-ai-lab.github.io/yal-workshop/2/strips.html. Une version pour les 12-15 ans, sous forme de jeu avec des manches et des points : le jeu du moteur de recherche, https://youth-ai-lab.github.io/yal-workshop/2/strips-youth.html
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 Le groupe sait dire où la réponse a été coupée.
 :::
 
@@ -667,7 +675,7 @@ Les scores le montrent. Essayer : `openwebui query "What is the best recipe for 
 Le document 43 est en français, la question en anglais, et le petit modèle a été fait pour l'anglais. La question a été essayée en français. La recherche change : 4 des 5 extraits viennent alors du document 40, en français. Les deux morceaux avec `INTERDITS` passent de 61e et 63e à 30e et 70e : aucun ne revient. La langue change donc le résultat, et elle n'explique pas tout. Ces morceaux sont des listes de niveaux, avec peu de phrases : cela peut compter aussi, mais **cela n'a pas été testé**. Essayer la question en français, si vous le souhaitez, et dire à la salle ce que vous voyez.
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 Les extraits des questions 10, 7 et 3 ont été lus, et on sait dire ce que la recherche a donné pour chacune.
 :::
 
@@ -779,11 +787,11 @@ Pourquoi les changer ? Un petit morceau peut perdre ce qui va avec un fait, comm
    openwebui top-k 5
    ```
 
-:::caution[Revenir à 5 extraits avant la partie 6]
+:::info[Revenir à 5 extraits avant la partie 6]
 `replay RAG` refuse de tourner quand la discussion ne reçoit pas 5 extraits : la colonne RAG est toujours mesurée avec 5, pour que les binômes puissent comparer. Taper `openwebui top-k 5` avant la partie 6.
 :::
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 Les deux réponses à la question 10 ont été comparées, et la discussion est revenue à 5 extraits.
 :::
 
@@ -851,7 +859,7 @@ Mesures de l'équipe, avec le juge, sur trois passages du même test : 18, 19, p
 
 Pourquoi n'a-t-il pas inventé de réponse à la question 7 ? Ses instructions fixes disent : _If the information is not in the excerpts you were given, say "I don't know"._ (si l'information n'est pas dans les extraits reçus, dire « je ne sais pas »). Ce chatbot n'a pas été mesuré sans cette règle. Open WebUI ajoute aussi son propre texte autour des extraits (le `### Task:` de la [partie 4, étape 4](#une-question-du-début-à-la-fin)). Aux deux premiers passages, ce texte demandait de répondre à partir des connaissances du modèle, et le modèle a quand même suivi la règle du chatbot. Dans le Codespace, ce texte dit lui aussi « say that you don't know » (dire que l'on ne sait pas). Le troisième passage l'a utilisé, et a donné les mêmes notes aux questions 3 et 7.
 
-:::note[Point de contrôle]
+:::info[Point de contrôle]
 Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme peut citer une question où les morceaux ont fait la différence.
 :::
 
@@ -920,7 +928,7 @@ Sans `--rag`, la même commande fabrique un autre chatbot, **Feurisson chatbot**
    2. Citer une question où la taille ou le nombre des morceaux a changé la réponse.
    3. Pourquoi l'échec d'un RAG est-il plus difficile à voir qu'un échec du mode B ?
 
-:::note[Ce que vous avez construit]
+:::info[Ce que vous avez construit]
 Un RAG, et vous savez vérifier ses morceaux. **Réemploi** : la base de connaissances d'un chatbot Open WebUI (partie 2 du guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) ; en anglais, [Step 1 - Gather your documents](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-1---gather-your-documents-knowledge) pour rassembler ses documents, puis [Step 4 - Try it](https://github.com/Youth-AI-Lab/yal-openwebui-guide#step-4---try-it) pour l'essayer et lire les passages trouvés), et sur un ordinateur de votre structure (guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale), section des mesures : les deux mêmes échecs, avec des modèles locaux). Dans le chatbot du guide Open WebUI, par défaut, c'est le modèle qui décide quand chercher (une ligne `Explored...` ou `View Result from...` au-dessus de sa réponse) ; dans son chatbot `--rag`, comme dans « Wildfire RAG », Open WebUI cherchait avant chaque réponse.
 :::
 
