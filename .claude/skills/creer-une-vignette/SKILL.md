@@ -1,6 +1,6 @@
 ---
 name: creer-une-vignette
-description: Use when a wiki fiche needs its header thumbnail (site/static/img/ressources/<projet>/<id>/icone.png), or when an icon listed in KNOWN_MISSING must be produced. Covers the general Flaticon case and the Youth AI Lab Canva template (stock illustration in a frame whose color is the phase the activity belongs to - pink for the experimentation phase, page 45 - and transparent PNG export).
+description: Use when a wiki fiche needs its header thumbnail (site/static/img/ressources/<projet>/<id>/icone.png), or when an icon listed in KNOWN_MISSING must be produced. Covers the general Flaticon case and the Youth AI Lab Canva template (stock illustration in a frame whose color is the phase the activity belongs to - same stair-cut frame for all six phases, pink for experimentation - and transparent PNG export).
 license: CC-BY-SA-4.0
 metadata:
   langue: fr
@@ -62,20 +62,25 @@ Télécharger l'icône en PNG 512×512 depuis Flaticon et la placer dans
 ### Le document
 
 Le document Canva du projet (« YouthAiLab_Test_Logo », 1500×1500 px par page) range une vignette par
-page. Les nouvelles pages s'ajoutent **à la fin**. **La couleur du cadre dit la phase dans laquelle l'activité s'inscrit**, pas le projet : deux
-fiches Youth AI Lab de phases différentes n'ont pas le même cadre. Les six phases, leurs couleurs et
-leurs pages modèles sont dans `CONVENTIONS.md` (section « Icône PNG », exception Youth AI Lab) :
-Observation bleu ciel, Hypothèse jaune, Expérimentation rose (page 45), Validation vert, Réflexion
-orange, Communication jaune. Seule la page 45 est un modèle validé ; pour une autre phase, faire
-confirmer la page modèle par l'équipe. Ne jamais reprendre le rose par défaut, et ne pas deviner la
-phase : la lire dans la fiche ou la demander.
+page. Les nouvelles pages s'ajoutent **à la fin**.
+
+**Toutes les phases partagent la même découpe en escalier ; seule la couleur du cadre change**, et
+elle dit la phase dans laquelle l'activité s'inscrit, pas le projet. Les six phases, leurs couleurs
+et leurs pages modèles sont dans `CONVENTIONS.md` (section « Icône PNG », exception Youth AI Lab).
+La page 39 du document montre aussi le code couleur des phases.
+
+Ne jamais reprendre le rose par défaut, et ne pas deviner la phase : la lire dans la fiche ou la
+demander. **Observation (bleu ciel) n'a pas encore de page modèle** : dupliquer la page 45, puis
+recolorer le cadre en `#38B6FF` (`recolor_element`) et faire valider la page par l'équipe. Les pages
+53 et 54 ont un cadre rond orange : ce n'est pas un cadre de phase, ne pas s'en servir pour une
+fiche.
 
 Une page contient deux éléments :
 
 - un rectangle image en `top 36, left 32`, de 1436×1436 ;
 - par-dessus, la forme du cadre, qui couvre toute la page (`top 0, left 0`, 1500×1500). Son chemin
   se copie depuis la page modèle avec `read-design` ; celui de la page 45 est dans
-  `cadre-phase-experimentation.svg`, à côté de ce fichier (viewBox 127,57 × 127,57).
+  `cadre-escalier.svg`, à côté de ce fichier (viewBox 127,57 × 127,57), commun aux six phases.
 
 ### Choisir le visuel
 
@@ -87,12 +92,12 @@ qu'il ne porte pas de mention « designed by freepik » (la masquer en blanc sin
 
 ### Composer pour le cadre
 
-Le cadre de la page 45 cache tout le quart supérieur gauche, en escalier. Une illustration posée
+Le cadre cache tout le quart supérieur gauche, en escalier. Une illustration posée
 telle quelle perd souvent une tête ou un robot. Le script `recomposer.sh` rogne l'illustration, la
 cale en bas à droite et produit l'image du rectangle, avec un aperçu cadre compris :
 
 ```bash
-.claude/skills/creer-une-vignette/recomposer.sh illustration.jpg rectangle.jpg apercu.png
+.claude/skills/creer-une-vignette/recomposer.sh illustration.jpg rectangle.jpg apercu.png '#FA89D2'
 ```
 
 Monter les aperçus sur une planche pour les juger ensemble :

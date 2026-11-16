@@ -156,18 +156,18 @@ Critères :
 
 **Exception Youth AI Lab** : les vignettes de ce projet sont des illustrations flat (stock Freepik, non générées par IA) posées dans un cadre découpé dont la couleur dit la **phase dans laquelle l'activité s'inscrit**. Export PNG 512×512 à **fond transparent**. La procédure est dans la compétence `creer-une-vignette` (`.claude/skills/`).
 
-Les six phases de la démarche Youth AI Lab et leurs couleurs (document « Youth AI Lab Comprehensive Approach », D2.1, page 5) :
+Les six phases de la démarche Youth AI Lab partagent la **même découpe en escalier** (celle de la page 45 du document Canva du projet) ; seule la couleur du cadre change. Couleurs du document « Youth AI Lab Comprehensive Approach » (D2.1, page 5), identiques à celles du document Canva (page 39 et cadres existants) :
 
-| Phase              | Couleur             | Page modèle du document Canva      |
-| ------------------ | ------------------- | ---------------------------------- |
-| 1. Observation     | bleu ciel `#38B6FF` | à désigner                         |
-| 2. Hypothèse       | jaune `#F9C724`     | à confirmer (la page 44 est jaune) |
-| 3. Expérimentation | rose `#FA89D2`      | **page 45**                        |
-| 4. Validation      | vert `#7ED957`      | à confirmer (les pages 47 à 50)    |
-| 5. Réflexion       | orange `#F37030`    | à confirmer (les pages 53 et 54)   |
-| 6. Communication   | jaune `#F9C724`     | à désigner                         |
+| Phase              | Couleur             | Pages du document Canva avec ce cadre         |
+| ------------------ | ------------------- | --------------------------------------------- |
+| 1. Observation     | bleu ciel `#38B6FF` | aucune : cadre à créer (page 45 recolorée)    |
+| 2. Hypothèse       | jaune `#F9C724`     | 24, 27 à 30, 41 à 44                          |
+| 3. Expérimentation | rose `#FA89D2`      | **45** (modèle validé), 46                    |
+| 4. Validation      | vert `#7ED957`      | 25, 26, 47 à 50                               |
+| 5. Réflexion       | orange `#F37030`    | 23                                            |
+| 6. Communication   | jaune `#F9C724`     | même jaune qu'Hypothèse dans le document D2.1 |
 
-Hypothèse et Communication partagent le même jaune dans le document de référence. Une page modèle « à confirmer » ou « à désigner » se fait valider par l'équipe avant d'être reprise.
+Les pages 53 et 54 portent un cadre rond orange qui n'est pas un cadre de phase. La page 21, plus ancienne, a une autre découpe : ne pas la prendre pour modèle. Un cadre qui n'existe pas encore (Observation) se fait valider par l'équipe avant d'être repris.
 
 Pour une nouvelle fiche, télécharger l'icône depuis Flaticon en PNG 512×512 (compte gratuit suffisant ; l'attribution Flaticon n'est requise que dans certains cas, voir [les conditions Flaticon](https://www.flaticon.com/legal/12)), placer dans `site/static/img/ressources/<projet>/<fiche-id>/icone.png`.
 
