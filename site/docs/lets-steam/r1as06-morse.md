@@ -58,7 +58,7 @@ Le code Morse est une méthode utilisée dans les télécommunications pour code
 
 **Ressource :** https://en.wikipedia.org/wiki/Telecommunication
 
-<img src="/img/ressources/lets-steam/r1as06-morse/International_Morse_Code-fr.svg" alt="Tableau du code Morse international" style={{maxWidth: '250px'}} />
+<img src="/img/ressources/lets-steam/r1as06-morse/International_Morse_Code-fr.png" alt="Tableau du code Morse international" style={{maxWidth: '250px'}} />
 
 ## Objectifs d'apprentissage
 
