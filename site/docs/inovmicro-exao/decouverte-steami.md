@@ -171,8 +171,6 @@ Une fois la LED qui clignote validée, plusieurs pistes permettent d'explorer le
 - **Faire sonner le buzzer en code Morse** : voir la fiche [Code Morse avec le buzzer](/ressources/inovmicro-exao/i06-code-morse).
 - **Afficher du texte et des graphismes sur l'écran OLED** : voir la fiche [Texte sur l'écran OLED](/ressources/inovmicro-exao/i10-texte-oled).
 
-Pour les autres capteurs (température et humidité via le HTS221, accélération via l'ISM330DL, pression atmosphérique, magnétomètre), des fiches dédiées sont en préparation dans le cadre du projet I-Novmicro #2.
-
 En cas de problème (carte qui n'apparaît pas, port série introuvable, console qui reste muette), consulter la fiche [Dépanner la STeaMi](/ressources/inovmicro-exao/depannage) avant de creuser plus loin.
 
 ---

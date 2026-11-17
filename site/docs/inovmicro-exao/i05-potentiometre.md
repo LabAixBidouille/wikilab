@@ -35,7 +35,7 @@ sidebar_position: 5
 - **Câbles de connexion** (fils dupont ou pinces crocodile)
 
 :::info[Prérequis : la breadboard]
-Si vous découvrez la breadboard et le connecteur Edge de la STeaMi, jetez d'abord un œil à la fiche « Premier circuit sur breadboard » qui pose les bases du câblage externe (en cours d'intégration au wiki).
+Si vous découvrez la breadboard et le connecteur Edge de la STeaMi, jetez d'abord un œil à la fiche [Construire un premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard) qui pose les bases du câblage externe.
 :::
 
 </div>
@@ -103,7 +103,7 @@ Sur le même principe que la fiche breadboard :
 2. Insérer une **résistance 330 Ω** entre la cathode et la rangée **GND**.
 3. Brancher l'**anode** à la broche **P7** de la STeaMi (signal `GPIO3_EDGE`, supporte le PWM).
 
-(Si ce câblage LED + résistance vous est totalement étranger, voir la fiche « Premier circuit sur breadboard » en cours d'intégration au wiki, qui pose ces bases en détail.)
+(Si ce câblage LED + résistance vous est totalement étranger, voir la fiche [Construire un premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard), qui pose ces bases en détail.)
 
 ### Connecter la STeaMi à l'ordinateur
 
