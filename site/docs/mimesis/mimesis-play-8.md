@@ -52,19 +52,17 @@ sidebar_position: 8
 
 ### Résumé de l'activité
 
-L'activité « Famous Kamishibaï » est un projet artistique de long terme qui offre aux élèves la possibilité de découvrir et de créer un Kamishibaï, un théâtre de papier portable d'origine japonaise. Cette activité permet aux élèves et aux enseignants de devenir des conteurs hors pair grâce à la création de planches illustrées. Elle vise à développer les compétences oratoires et les capacités de narration des enfants comme des adultes.
+L'activité « Famous Kamishibaï » est un projet artistique de long terme où les élèves découvrent et créent un Kamishibaï, un théâtre de papier portable d'origine japonaise. Élèves et enseignants peuvent y devenir conteurs grâce aux planches illustrées qu'ils créent. Le but est de développer les compétences oratoires et les capacités de narration des enfants comme des adultes.
 
-Dans notre proposition pédagogique, les élèves exploreront la vie de scientifiques célèbres et moins connus qui ont apporté une contribution significative à l'histoire grâce à leurs découvertes. L'activité se compose de deux parties principales : la construction du kamishibaï et la création d'histoires avec des planches illustrées. L'objectif est de fournir aux élèves une culture scientifique, en améliorant leur compréhension des contributions scientifiques à travers l'histoire et en favorisant la curiosité et l'intérêt pour la science dès le plus jeune âge.
+Dans notre proposition, les élèves exploreront la vie de scientifiques, célèbres et moins connus, qui ont contribué à l'histoire par leurs découvertes. L'activité a deux parties principales : la construction du kamishibaï et la création d'histoires avec des planches illustrées. L'objectif est de donner aux élèves une culture scientifique, de leur faire mieux comprendre les contributions scientifiques à travers l'histoire et d'éveiller dès le plus jeune âge leur curiosité et leur intérêt pour la science.
 
-Cette activité permet de développer une gamme de compétences, telles que la communication, la créativité, la recherche d'informations, l'imagination et la collaboration, ainsi que d'aborder les bases de la narration.
-
-« Famous Kamishibaï » est un projet original et enrichissant qui plonge les élèves dans l'histoire des sciences de manière ludique et interactive.
+Au fil de l'activité, les élèves travaillent notamment la communication, la créativité, la recherche d'informations, l'imagination et la collaboration, et abordent les bases de la narration.
 
 ---
 
 ## L'art du Kamishibaï
 
-### Kamishibaï — Une technique de narration japonaise
+### Kamishibaï : Une technique de narration japonaise
 
 Kamishibaï, ou « théâtre d'images », signifie littéralement « pièce de théâtre en papier ». Il s'agit d'une technique de narration d'origine japonaise basée sur des images affichées dans un petit théâtre en bois (à l'origine) ou en carton à trois ou deux portes appelé **butaï** (舞台, signifiant littéralement « scène »). Les planches de carton, illustrations du kamishibaï, racontent une histoire où chaque image présente un épisode du récit. Le recto du tableau, face au public, est entièrement recouvert par l'illustration, tandis que le verso est réservé au texte, très lisible, avec une image miniature (une vignette) en noir et blanc reproduisant le dessin vu par les spectateurs. Les planches illustrées sont insérées dans la glissière du butaï. Une fois ouverts, les deux rabats latéraux orientés vers l'avant maintiennent l'objet en équilibre. Le dos est évidé pour que le conteur puisse lire le texte. Le butaï est posé sur une petite table, mais à l'origine il se trouvait à l'arrière d'un vélo.
 
@@ -90,7 +88,7 @@ Depuis les années 1970, le kamishibaï s'est répandu dans le monde entier (Sui
 - **Compétences** : Créativité et imagination
 
 :::caution[Phases d'activité]
-1. Introduire et présenter l'art du Kamishibaï avec des ressources inspirantes.
+1. Introduire et présenter l'art du Kamishibaï avec des ressources comme un kamishibaï déjà réalisé ou des vidéos.
 2. Constituer des groupes de 3 à 4 élèves et distribuer le mode d'emploi.
 3. Distribuer les matériaux nécessaires pour la construction.
 4. Accompagner les élèves sur les différentes étapes.
@@ -108,11 +106,11 @@ Dans cette activité, vous pouvez former des groupes de 3 à 4 élèves afin de 
 
 ### Objectifs pédagogiques
 
-Cette activité offre de nombreux avantages pour les élèves. Elle suscite leur engagement et leur motivation, tout en leur permettant de découvrir une autre culture et de développer leur créativité. Les élèves peuvent concevoir des histoires basées sur des scientifiques, créer des illustrations et des décors uniques, exprimant ainsi leurs talents artistiques. De plus, la construction du kamishibaï en groupe favorise l'acquisition de compétences collaboratives, l'inclusivité et le respect mutuel. Enfin, cette activité développe également les compétences manuelles, la résolution de problèmes et la pensée créative à travers la fabrication du butaï en carton. Les élèves sont amenés à prendre des mesures précises, à réaliser un assemblage soigné et à résoudre les éventuels problèmes techniques qui se présentent.
+L'activité suscite l'engagement et la motivation des élèves, qui découvrent une autre culture et développent leur créativité. Ils peuvent concevoir des histoires sur des scientifiques et créer des illustrations et des décors. Construire le kamishibaï en groupe favorise la collaboration, l'inclusivité et le respect mutuel. La fabrication du butaï en carton fait travailler les compétences manuelles, la résolution de problèmes et la pensée créative : les élèves prennent des mesures précises, réalisent un assemblage soigné et résolvent les éventuels problèmes techniques.
 
 ### Objectifs théâtraux
 
-Les étudiants pourront développer leur créativité théâtrale en expérimentant leurs idées pour créer des décors captivants et une expérience théâtrale unique. Ils devront faire des choix artistiques originaux en sélectionnant des couleurs, des textures et des motifs qui reflètent leur univers. Le travail en équipe leur permettra de partager leurs idées et de prendre des décisions d'interprétation collectives. Enfin, à travers cette activité, ils développeront leurs compétences en communication en écoutant activement les autres membres de leurs équipes, en exprimant leurs opinions avec respect et en trouvant ensemble des solutions créatives.
+Les élèves pourront développer leur créativité théâtrale en essayant leurs idées pour créer les décors. Ils devront faire des choix artistiques originaux en sélectionnant des couleurs, des textures et des motifs qui reflètent leur univers. En équipe, ils partageront leurs idées et prendront des décisions d'interprétation collectives. Ils développeront aussi leurs compétences en communication : écouter activement les autres membres de l'équipe, exprimer leurs opinions avec respect et trouver ensemble des solutions créatives.
 
 ### Compétences développées
 
@@ -177,7 +175,7 @@ Laissez libre votre imagination pour le système de fermeture. Dans notre exempl
 
 **9. Habiller son butaï**
 
-Vous êtes libres d'habiller votre kamishibaï comme vous le souhaitez : peinture, collage, décopatch… tout est possible !
+Vous êtes libres d'habiller votre kamishibaï comme vous le souhaitez : peinture, collage, décopatch, etc.
 
 <img src="/img/ressources/mimesis/mimesis-play-8/exemplekamishibai.png" alt="Exemple de kamishibaï construit" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1.5rem'}} />
 
@@ -199,28 +197,28 @@ Vous êtes libres d'habiller votre kamishibaï comme vous le souhaitez : peintur
 
 ### Résumé de l'activité
 
-Maintenant que les butaï sont prêts, il est temps de passer à la deuxième activité : raconter l'histoire des scientifiques à travers l'art du kamishibaï. Pour le bon déroulement de cette activité vous avez à votre disposition deux possibilités :
+Maintenant que les butaï sont prêts, il est temps de passer à la deuxième activité : raconter l'histoire des scientifiques à travers l'art du kamishibaï. Pour choisir les scientifiques, deux possibilités :
 
 - Faire par vous-mêmes le choix des scientifiques dont vous souhaitez aborder le travail dans la classe. Répartissez-les dans les différents groupes et laissez les élèves effectuer les recherches biographiques et scientifiques nécessaires.
 - Ou laisser les élèves choisir par eux-mêmes et par conséquent effectuer des recherches sur des scientifiques hommes ou femmes peu connus et décider au sein du groupe lequel / laquelle choisir.
 
 En fonction de l'âge de vos élèves, vous pourrez ainsi adapter cette activité.
 
-Dans ce second acte, les élèves auront l'opportunité de découvrir et de célébrer les contributions remarquables de scientifiques souvent oubliés dans les manuels scolaires et de mettre en lumière les femmes qui ont marqué l'histoire des sciences. À travers la magie du kamishibaï, les élèves pourront raconter en tant que narrateur les histoires captivantes de ces scientifiques inspirants en utilisant des planches illustrées réalisées par leurs soins avec des textes narratifs engageants rédigés par les élèves. Ils auront l'occasion d'explorer les réalisations, les défis surmontés et les découvertes scientifiques de ces personnes souvent méconnues ou oubliées dans l'histoire.
+Dans ce second acte, les élèves découvriront et célébreront le travail de scientifiques souvent oubliés dans les manuels scolaires (leurs réalisations, leurs découvertes, les défis qu'ils ont surmontés) et mettront en lumière les femmes qui ont marqué l'histoire des sciences. Avec le kamishibaï, ils raconteront en tant que narrateurs l'histoire de ces scientifiques, à l'aide de planches qu'ils ont illustrées et de textes qu'ils ont rédigés.
 
 ### Objectifs pédagogiques
 
-Cette activité permet de sensibiliser les élèves à la diversité des contributions scientifiques tout en développant leurs compétences en recherche, en narration, en créativité artistique et en présentation. Les élèves sont encouragés à effectuer des recherches approfondies sur les scientifiques assignés à leur groupe ou ceux qu'ils choisissent. Ils doivent trouver des informations sur les biographies, les réalisations et les découvertes scientifiques de ces personnes en utilisant des sources sérieuses.
+Les élèves découvrent la diversité des contributions scientifiques et développent leurs compétences en recherche, en narration, en créativité artistique et en présentation. Ils sont encouragés à effectuer des recherches approfondies sur les scientifiques assignés à leur groupe ou sur ceux qu'ils choisissent, et doivent trouver dans des sources sérieuses des informations sur la biographie, les réalisations et les découvertes scientifiques de ces personnes.
 
-En parallèle, les élèves vont pouvoir renforcer leurs compétences en écriture et en narration car ils sont amenés à créer des textes narratifs engageants pour accompagner les planches illustrées de leur kamishibaï. Ils doivent organiser leurs idées, synthétiser leurs recherches de manière claire et cohérente, en utilisant un langage approprié et attractif.
+En parallèle, les élèves vont pouvoir renforcer leurs compétences en écriture et en narration, car ils écrivent les textes qui accompagnent les planches illustrées de leur kamishibaï. Ils doivent organiser leurs idées et synthétiser leurs recherches de manière claire et cohérente, dans un langage approprié et attractif.
 
-Cet objectif pédagogique est couplé à celui de développer leurs compétences d'expression orale et la prise de parole en public. En effet, ils seront amenés à raconter l'histoire du scientifique en question devant l'ensemble de la classe ce qui suppose une bonne éloquence en tant que conteur d'histoire.
+Ils travaillent aussi l'expression orale et la prise de parole en public : ils raconteront l'histoire de leur scientifique devant l'ensemble de la classe, ce qui demande une bonne éloquence de conteur.
 
-Enfin, un autre objectif pédagogique découle de cette activité : celui de la créativité artistique. En effet, les élèves devront illustrer des planches pour leur kamishibaï pour accompagner leurs textes.
+Dernier objectif pédagogique, la créativité artistique : les élèves devront illustrer les planches de leur kamishibaï pour accompagner leurs textes.
 
 ### Objectifs théâtraux
 
-Le kamishibaï offre aux élèves la possibilité d'explorer différents éléments de l'expression corporelle et du jeu théâtral. En utilisant des gestes, des expressions faciales et des mouvements du corps, ils donnent vie aux personnages de l'histoire. De plus, ils travaillent leur voix et leur diction pour rendre les dialogues plus expressifs et explorent l'interprétation des personnages en se mettant dans leur peau. La présentation du kamishibaï est considérée comme une performance théâtrale, ce qui permet aux élèves de gérer l'espace scénique et d'utiliser efficacement les éléments visuels. Lorsqu'ils travaillent en groupe, ils développent la collaboration théâtrale en coordonnant leurs actions. La prise de parole en public est également renforcée lors de la présentation du kamishibaï, ce qui aide les élèves à gérer leur trac et à maintenir l'attention de l'auditoire. Enfin, le kamishibaï encourage la créativité théâtrale en permettant aux élèves d'expérimenter des variations et d'ajouter des éléments pour enrichir l'expérience théâtrale de l'histoire.
+Avec le kamishibaï, les élèves explorent différents éléments de l'expression corporelle et du jeu théâtral. En utilisant des gestes, des expressions faciales et des mouvements du corps, ils donnent vie aux personnages de l'histoire. Ils travaillent leur voix et leur diction pour rendre les dialogues plus expressifs, et se mettent dans la peau des personnages pour les interpréter. Présenter le kamishibaï est une performance théâtrale, où les élèves gèrent l'espace scénique et se servent efficacement des éléments visuels. En groupe, ils coordonnent leurs actions et développent ainsi la collaboration théâtrale. La présentation renforce aussi la prise de parole en public : elle aide les élèves à gérer leur trac et à garder l'attention de l'auditoire. Ils exercent enfin leur créativité théâtrale : ils peuvent essayer des variantes et ajouter des éléments pour enrichir l'histoire.
 
 ### Compétences développées
 

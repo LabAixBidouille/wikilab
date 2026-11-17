@@ -45,17 +45,17 @@ sidebar_position: 6
 
 ### Résumé de l'activité
 
-L'activité Catastrophe & Compagnie est un jeu de groupe immersif et interactif. Le jeu développe la créativité des enfants à travers des activités de théâtre et de gymnastique et de réflexion. L'objectif de l'activité est de renseigner les enfants sur les risques climatiques tout en leur donnant la possibilité de s'amuser et de s'exprimer.
+L'activité Catastrophe & Compagnie est un jeu de groupe qui développe la créativité des enfants à travers des activités de théâtre, de gymnastique et de réflexion. L'objectif de l'activité est de renseigner les enfants sur les risques climatiques tout en leur donnant la possibilité de s'amuser et de s'exprimer.
 
-Comment éviter les feux de forêt ou les éboulements ? Se préparer à la montée des océans et aux sécheresses ? Pour répondre à ces catastrophes, toutes les idées sont bonnes, même les plus folles. Dévoilez tout votre potentiel d'apprenti ingénieur avec ce jeu !
+Comment éviter les feux de forêt ou les éboulements ? Se préparer à la montée des océans et aux sécheresses ? Pour répondre à ces catastrophes, toutes les idées sont bonnes, même les plus folles.
 
 Dans la première partie, les enfants partiront à la chasse aux idées à l'aide d'un petit jeu. Lors de la seconde, ils mettront en scène ces idées qui seront ensuite présentées sur scène lors de la dernière partie de l'activité.
 
 ### Objectifs d'apprentissage globaux
 
-Catastrophe & Compagnie propose une approche différente aux problématiques environnementales. Cette activité s'appuie sur des jeux de théâtre et de réflexion pour dédramatiser le sujet, et permettre à chacun de se l'approprier.
+Catastrophe & Compagnie aborde les questions environnementales par des jeux de théâtre et de réflexion, pour dédramatiser le sujet et permettre à chacun de se l'approprier.
 
-Les différents objectifs de la séquence sont :
+Les objectifs de la séquence sont :
 
 - Développer les capacités de réflexion des enfants
 - Consolider la capacité à associer problèmes et solutions
@@ -67,7 +67,7 @@ Les différents objectifs de la séquence sont :
 
 À travers les jeux de scène proposés, les enfants peuvent s'exprimer. Catastrophe & Compagnie donne à tous les élèves la possibilité de débattre sur un sujet et d'exprimer leur avis en temps voulu. Le jeune peut se sentir valorisé à travers des jeux scéniques. Il ou elle apprendra à utiliser le bon ton de voix pour transmettre un message.
 
-Les différents objectifs théâtraux de la séquence sont :
+Les objectifs théâtraux de la séquence sont :
 
 - Maîtriser la langue
 - Écouter, apprendre à respecter les idées de chacun
@@ -77,9 +77,9 @@ Les différents objectifs théâtraux de la séquence sont :
 
 ### Compétences développées tout au long de la séquence
 
-La première partie de l'activité aide les enfants à débrider leur imaginaire, sortir des sentiers battus et devenir créatifs. La seconde partie leur permet de travailler l'écriture et l'interprétation d'un texte sur scène.
+La première partie de l'activité aide les enfants à débrider leur imaginaire. La seconde partie leur permet de travailler l'écriture et l'interprétation d'un texte sur scène.
 
-Les différentes compétences globales développées lors de la séquence sont :
+Les compétences globales développées lors de la séquence sont :
 
 - Construire une histoire avec des contraintes
 - Écrire un scénario et imaginer des personnages
@@ -88,12 +88,12 @@ Les différentes compétences globales développées lors de la séquence sont :
 
 ---
 
-## Acte 1 : Brainstorming
+## Acte 1 : Remue-méninges
 
 - **Durée de l'acte** : 15 minutes
 - **Discipline théâtrale** : Improvisation
 - **Discipline scientifique** : Sciences de la Terre
-- **Compétences** : Brainstorming, pensée logique
+- **Compétences** : Remue-méninges, pensée logique
 
 :::caution[Phases d'activité]
 1. Créez des groupes. Expliquez les règles et donnez le matériel.
@@ -134,7 +134,7 @@ Le jeu est joué plusieurs fois, jusqu'à ce que tous les mots aient été tiré
 - **Durée de l'acte** : 25 minutes
 - **Discipline théâtrale** : Écriture de scénario, improvisation
 - **Discipline scientifique** : Sciences de la Terre
-- **Compétences** : Brainstorming, raisonnement critique
+- **Compétences** : Remue-méninges, raisonnement critique
 
 :::caution[Phases d'activité]
 1. Expliquez les règles et donnez le matériel.
@@ -189,12 +189,12 @@ Chaque groupe reçoit un livret d'information (ressource imprimable n° 1). L'ob
 
 ### Partie 2
 
-Les groupes reçoivent un set de cartes personnages (ressource imprimable 2). Chaque set contient autant de cartes personnage qu'il y a d'enfants dans les groupes. Chaque groupe doit recevoir au moins 1 civil, 1 scientifique, 1 sauveteur et 1 technicien. S'il y a plus de 4 enfants, l'enseignant·e peut ajouter deux cartes personnage supplémentaires : 1 ingénieure et 1 politicien. Chaque enfant pioche une carte et devra jouer ce rôle. Après avoir pioché une carte, les enfants peuvent échanger leurs personnages au sein d'un groupe s'ils le souhaitent.
+Les groupes reçoivent un jeu de cartes personnages (ressource imprimable 2). Chaque jeu contient autant de cartes personnage qu'il y a d'enfants dans les groupes. Chaque groupe doit recevoir au moins 1 civil, 1 scientifique, 1 sauveteur et 1 technicien. S'il y a plus de 4 enfants, l'enseignant·e peut ajouter deux cartes personnage supplémentaires : 1 ingénieure et 1 politicien. Chaque enfant pioche une carte et devra jouer ce rôle. Après avoir pioché une carte, les enfants peuvent échanger leurs personnages au sein d'un groupe s'ils le souhaitent.
 
 Les groupes devront créer un scénario pour expliquer la catastrophe et présenter la solution trouvée au public (leurs camarades de classe). Lors de la présentation (dans l'acte 4) chaque enfant devra jouer un rôle à partir de la carte rôle qu'il a choisie :
 
 - **La Civile** : celle qui souffre du désastre. Elle doit expliquer au public ce qui s'est passé et expliquer ce qu'elle a perdu à cause de la catastrophe. Les enfants peuvent s'appuyer sur le livret d'information pour s'inspirer. *Exemple* : je suis agricultrice, à cause de la sécheresse je ne peux plus cultiver de légumes, je suis maintenant affamée et très pauvre...
-- **Le Secouriste** : il peut être pompier, infirmier, associatif, policier… Il aide le citoyen dans ses premiers besoins. Il/elle peut aider à identifier quels sont les risques et les besoins de la population. *Exemple* : je travaille pour l'ONU, nous avons été envoyés dans cette région pour donner de la nourriture et de l'eau aux agriculteurs qui meurent de faim, mais nous devons faire plus, trouver des solutions à long terme.
+- **Le Secouriste** : il peut être pompier, infirmier, associatif, policier, etc. Il aide le citoyen dans ses premiers besoins. Il/elle peut aider à identifier quels sont les risques et les besoins de la population. *Exemple* : je travaille pour l'ONU, nous avons été envoyés dans cette région pour donner de la nourriture et de l'eau aux agriculteurs qui meurent de faim, mais nous devons faire plus, trouver des solutions à long terme.
 - **La Scientifique** : celle qui explique au public les causes du désastre. Pour jouer la scientifique, les enfants peuvent utiliser les informations contenues dans le livret. *Exemple* : les sécheresses sont monnaie courante à cause du changement climatique, les déserts deviennent de plus en plus larges car il n'y a plus de pluie dans certaines régions de la planète.
 - **Le Technicien** : celui qui peut construire et créer des choses pour faire face au désastre. *Exemple* : avec mon équipe, nous avons construit un grillage pour prévenir des éboulements.
 - **L'Ingénieure** (optionnel) : elle conçoit la solution au problème et aide le technicien à la construire. *Exemple* : j'ai imaginé une ville sur l'eau qui ne risque pas d'être submergée par la montée des océans.
@@ -282,13 +282,13 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 **La cause du désastre** : Les causes des sécheresses sont nombreuses. D'abord liées au climat sec et au manque de pluie, elles peuvent aussi être provoquées par des périodes de canicule, comme c'est le cas l'été lors des fortes chaleurs. Les activités humaines peuvent en être aussi la cause, par exemple, la déforestation entraîne l'évaporation de l'eau des sols. L'utilisation trop importante des ressources d'eau (pour l'agriculture, les industries, les usages domestiques) peut accentuer les sécheresses.
 
-**Que faire si ça arrive ?** En cas de sécheresse, il faut économiser l'eau à plusieurs niveaux. Au niveau des industries, mettre en place des circuits fermés si cela est possible (l'eau utilisée est recyclée, nettoyée et stérilisée puis mise à nouveau dans le système). Au niveau de l'agriculture, c'est la mise en place des tours d'eau, qui permettent de calculer les besoins de chaque parcelle, afin d'utiliser seulement le nécessaire. Enfin à la maison, on privilégie les douches aux bains, on utilise les machines à laver quand elles sont vraiment pleines, on limite les arrosages de plantes, on ne fait pas couler l'eau trop longtemps…
+**Que faire si ça arrive ?** En cas de sécheresse, il faut économiser l'eau à plusieurs niveaux. Dans l'industrie, on met en place des circuits fermés si cela est possible (l'eau utilisée est recyclée, nettoyée et stérilisée puis mise à nouveau dans le système). En agriculture, on organise des tours d'eau, qui servent à calculer les besoins de chaque parcelle pour n'utiliser que le nécessaire. Enfin, à la maison, on privilégie les douches aux bains, on utilise les machines à laver quand elles sont vraiment pleines, on limite les arrosages de plantes, on ne fait pas couler l'eau trop longtemps...
 
 **Comment le prévenir ?** Pour prévenir au mieux la sécheresse, les spécialistes s'appuient sur des suivis précis du niveau d'eau dans les nappes phréatiques. Par exemple, si l'on constate que le niveau d'eau des nappes phréatiques en hiver est bas (à cause de faibles pluies), alors le risque de sécheresse pour l'été est à prévoir. La meilleure façon de prévenir la sécheresse est d'adopter les bons gestes tout au long de l'année.
 
 ### Tempête
 
-**Définition** : Une tempête est un phénomène météorologique qui peut être reconnu à l'aide de plusieurs indices. Elle est reconnaissable par ses vents violents et rapides, ainsi que de fortes pluies parfois accompagnées d'orages qui donnent naissance aux éclairs et au tonnerre. En fonction de son intensité, elle peut être classée dans différentes catégories : les cyclones, les typhons et les ouragans. Les vents violents peuvent atteindre 150 km/h sur les côtes et 100 km/h à l'intérieur des terres. La tempête peut provoquer de nombreux dégâts matériels et humains, mais aussi d'autres désastres comme des inondations, dues aux fortes pluies.
+**Définition** : Une tempête est un phénomène météorologique qu'on reconnaît à ses vents violents et rapides et à ses fortes pluies, parfois accompagnées d'orages qui donnent naissance aux éclairs et au tonnerre. En fonction de son intensité, elle peut être classée dans différentes catégories : les cyclones, les typhons et les ouragans. Les vents violents peuvent atteindre 150 km/h sur les côtes et 100 km/h à l'intérieur des terres. La tempête peut provoquer de nombreux dégâts matériels et humains, mais aussi d'autres désastres comme des inondations, dues aux fortes pluies.
 
 **La cause du désastre** : Une tempête se forme lorsqu'un courant d'air chaud venu de la mer rencontre un courant d'air froid provenant de la terre. Le choc entre les deux masses d'air aux températures et teneurs en eau différentes (l'air froid est sec et l'air chaud est humide) provoque les vents violents ainsi que des orages.
 
@@ -320,7 +320,7 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 **Définition** : Un incident nucléaire, une explosion par exemple, provoque le rejet de gaz radioactifs dans l'air qui devient toxique. L'incident peut avoir lieu dans une centrale nucléaire, mais aussi dans n'importe quel lieu comprenant des matériaux radioactifs. Si l'on respire de l'air radioactif, les risques sont nombreux : contamination, brûlures de la peau, etc.
 
-**La cause du désastre** : Les accidents nucléaires peuvent avoir plusieurs causes. Ils peuvent être liés à un problème technique de défaillance d'un matériel ou d'une centrale. Mais ils peuvent aussi avoir pour cause un événement extérieur comme une tempête, un incendie, ou un tsunami qui viendrait impacter une centrale nucléaire.
+**La cause du désastre** : Les accidents nucléaires peuvent avoir plusieurs causes. Ils peuvent être liés à un problème technique de défaillance d'un matériel ou d'une centrale. Mais ils peuvent aussi avoir pour cause un événement extérieur comme une tempête, un incendie, ou un tsunami qui viendrait frapper une centrale nucléaire.
 
 **Que faire si ça arrive ?** En cas d'incident nucléaire, mettez-vous à l'abri dans un bâtiment en dur, fermez les portes et fenêtres et coupez la ventilation. Si vous êtes dehors, ne touchez à rien (les objets peuvent être contaminés).
 
@@ -330,11 +330,11 @@ Ces ressources peuvent être utilisées pour l'acte 4.
 
 **Définition** : L'inondation est une submersion temporaire, par l'eau, de terres qui ne sont pas submergées en temps normal, quelle qu'en soit l'origine. Il peut y avoir des inondations dues aux crues des rivières, des torrents de montagne et des cours d'eau, mais aussi dues aux remontées de nappes phréatiques, au ruissellement urbain ou agricole, ainsi qu'aux submersions marines au-delà des limites du rivage de la mer. Si l'inondation concerne des zones habitées, elle se transforme rapidement en risque et entraîne des conséquences plus ou moins graves sur les populations, leurs biens et l'environnement. En France, le risque inondation est le premier risque naturel par l'importance des dommages qu'il provoque.
 
-**La cause du désastre** : Les facteurs les plus importants sont la quantité et le type de précipitations, la nature et l'état du bassin versant, le climat et l'activité humaine. Certaines inondations sont liées à des phénomènes naturels récurrents chaque année (moussons), d'autres à des circonstances météorologiques particulières (cyclones ou orages violents). L'activité humaine aggrave le risque d'inondation, soit par des aménagements (activités, voiries, remembrement agricole, déforestation…) qui modifient les conditions d'écoulement (imperméabilisation des sols et ruissellement), soit par les activités économiques, rupture d'ouvrage (barrage ou digues), et la présence d'activités sensibles en zone inondable.
+**La cause du désastre** : Les facteurs les plus importants sont la quantité et le type de précipitations, la nature et l'état du bassin versant, le climat et l'activité humaine. Certaines inondations sont liées à des phénomènes naturels récurrents chaque année (moussons), d'autres à des circonstances météorologiques particulières (cyclones ou orages violents). L'activité humaine aggrave le risque d'inondation, soit par des aménagements (activités, voiries, remembrement agricole, déforestation...) qui modifient l'écoulement de l'eau (sols rendus imperméables, ruissellement), soit par les activités économiques, rupture d'ouvrage (barrage ou digues), et la présence d'activités sensibles en zone inondable.
 
 **Que faire si ça arrive ?** Les recommandations sont de rester chez soi et en hauteur, débrancher les équipements électriques, éviter d'appeler les secours pour ne pas saturer les lignes (sauf en cas de réel danger), essayer de rester informé, suivre les consignes des secours et surtout éviter les déplacements inutiles.
 
-**Comment le prévenir ?** Des documents cartographient les risques liés aux phénomènes d'inondation afin de prévenir du risque et d'adapter l'activité humaine (maîtrise de l'aménagement du territoire en zone inondable, préservation des champs d'expansion des crues et adaptation des constructions futures ou existantes). La réduction de la vulnérabilité (mitigation) consiste à atténuer les dommages, soit en limitant l'intensité des aléas liés à la montée des eaux avec la construction d'ouvrages ou de dispositifs de protection (barrage, digue, bassins versants), soit en adaptant l'activité humaine aux risques.
+**Comment le prévenir ?** Des documents cartographient les risques d'inondation pour les prévenir et adapter l'activité humaine : maîtriser l'aménagement du territoire en zone inondable, préserver les champs d'expansion des crues et adapter les constructions futures ou existantes. Pour réduire la vulnérabilité (on parle de mitigation), on atténue les dommages, soit en limitant l'intensité des aléas liés à la montée des eaux avec des ouvrages ou des dispositifs de protection (barrage, digue, bassins versants), soit en adaptant l'activité humaine aux risques.
 
 ### Tremblement de terre
 

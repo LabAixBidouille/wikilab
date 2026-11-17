@@ -47,13 +47,13 @@ sidebar_position: 5
 
 ### Résumé de l'activité
 
-À travers l'activité POINT-LIGNE-FORME-MARIONNETTE, les enfants exploreront les concepts mathématiques de base au travers de techniques physiques et du théâtre de marionnettes. Ces activités, divisées en 4 actes, s'apparentent à la composition d'une pièce de théâtre et proposent différentes approches pour acquérir des compétences permettant de comprendre et d'appliquer les termes géométriques abstraits « point », « ligne », « angle », « forme », etc.
+À travers l'activité POINT-LIGNE-FORME-MARIONNETTE, les enfants exploreront les concepts mathématiques de base au travers de techniques physiques et du théâtre de marionnettes. Ces activités, divisées en 4 actes, s'apparentent à la composition d'une pièce de théâtre. Elles proposent différentes approches pour comprendre et appliquer les termes géométriques abstraits « point », « ligne », « angle », « forme », etc.
 
-Ces activités permettent aux élèves de développer leurs connaissances à travers leur corps et leur espace. En outre, les étudiants suivent un processus séquentiel de familiarisation avec les outils du théâtre de marionnettes, créant des marionnettes improvisées et un scénario pour une représentation théâtrale basé sur une structure d'intrigue donnée. Cette approche ludique aidera les élèves à résoudre des problèmes mathématiques plus complexes grâce à la visualisation, à l'expérience corporelle et à une attitude créative.
+Les élèves peuvent y développer leurs connaissances à travers leur corps et leur espace. Ils découvrent étape par étape les outils du théâtre de marionnettes, puis créent des marionnettes improvisées et un scénario pour une représentation théâtrale, à partir d'une structure d'intrigue donnée. Cette approche ludique aidera les élèves à résoudre des problèmes mathématiques plus complexes grâce à la visualisation, à l'expérience corporelle et à une attitude créative.
 
 ### Objectifs pédagogiques communs à l'ensemble de la séquence
 
-L'activité s'inscrit dans l'apprentissage de la géométrie à l'école primaire. Elle donne l'occasion aux enfants de découvrir la géométrie par eux-mêmes et dans l'espace qui les entoure. Elle aide les enseignants à donner vie à la théorie des mathématiques de manière ludique. Dans cette activité, les élèves apprennent à découvrir les liens entre différentes disciplines académiques, à développer la pensée visuelle spatiale, la conscience kinesthésique et la capacité de transférer des informations théoriques à l'expérience pratique. Dans l'acte 1, les élèves apprennent de manière ludique les termes et les formes géométriques, participant activement avec leur corps, interagissant avec l'espace et les corps de leurs partenaires. L'acte 2 relie l'étude de la géométrie à la structure du corps humain. Les élèves découvrent les lignes horizontales et verticales et développent leur sens de l'espace tridimensionnel. Dans les actes 3 et 4, les élèves travaillent en équipe pour consolider et élargir leurs connaissances sur les trois ensembles de base de formes géométriques.
+L'activité s'inscrit dans l'apprentissage de la géométrie à l'école primaire. Elle donne l'occasion aux enfants de découvrir la géométrie par eux-mêmes et dans l'espace qui les entoure. Elle aide les enseignants à donner vie à la théorie des mathématiques de manière ludique. Dans cette activité, les élèves apprennent à découvrir les liens entre différentes disciplines académiques, à développer la pensée visuelle spatiale, la conscience kinesthésique et la capacité de transférer des informations théoriques à l'expérience pratique. Dans l'acte 1, les élèves apprennent de manière ludique les termes et les formes géométriques avec leur corps : ils participent activement et interagissent avec l'espace et avec les corps de leurs partenaires. L'acte 2 relie l'étude de la géométrie à la structure du corps humain. Les élèves découvrent les lignes horizontales et verticales et développent leur sens de l'espace tridimensionnel. Dans les actes 3 et 4, les élèves travaillent en équipe pour consolider et élargir leurs connaissances sur les trois ensembles de base de formes géométriques.
 
 ### Objectifs théâtraux communs à l'ensemble de la séquence
 
@@ -127,11 +127,11 @@ Pendant qu'ils marchent, les élèves sont invités à regarder autour d'eux afi
 
 ### Conseils
 
-**Préparation** : Il est important que vous disposiez de suffisamment d'espace libre pour l'activité avant de démarrer. Il est également bon de s'assurer que les élèves connaissent le sujet et les termes que vous allez utiliser dans les jeux.
+**Préparation** : Avant de démarrer, prévoyez suffisamment d'espace libre pour l'activité. Vérifiez aussi que les élèves connaissent le sujet et les termes que vous allez utiliser dans les jeux.
 
-**Jouer aux jeux** : Pendant la représentation, assurez-vous que les commandes sont exécutées avec précision et que les élèves sont en contact avec leur corps pour représenter une silhouette continue sur le sol. C'est également une bonne idée d'encourager la formation de paires et de trios à chaque fois par des participants différents et qu'un participant prenne des positions différentes.
+**Jouer aux jeux** : Pendant la représentation, assurez-vous que les commandes sont exécutées avec précision et que les élèves sont en contact avec leur corps pour représenter une silhouette continue sur le sol. Encouragez aussi les élèves à former chaque fois des paires et des trios avec des participants différents, et à changer de position d'une fois à l'autre.
 
-**Concentration** : L'introduction d'un élément de compétition dans le jeu aide généralement le groupe à se mobiliser et à se concentrer. Il peut être utilisé dans cette activité. Dans le premier jeu, vous pouvez introduire un élément d'élimination du dernier pour exécuter une commande ou en cas de confusion dans l'exécution, jusqu'à ce qu'il ne reste plus que deux joueurs et qu'un seul d'entre eux « gagne » la partie. Le même élément peut également être introduit dans le deuxième jeu.
+**Concentration** : Ajouter de la compétition au jeu aide généralement le groupe à se mobiliser et à se concentrer, et cette activité s'y prête. Dans le premier jeu, vous pouvez éliminer le dernier à exécuter une commande, ou celui qui se trompe en l'exécutant, jusqu'à ce qu'il ne reste plus que deux joueurs et qu'un seul d'entre eux « gagne » la partie. Vous pouvez faire de même dans le deuxième jeu.
 
 ### Aller plus loin
 
@@ -139,13 +139,13 @@ Pendant qu'ils marchent, les élèves sont invités à regarder autour d'eux afi
 
 Chaque ligne continue est une courbe : https://www.khanacademy.org/math/geometry-home/geometry-shapes/geometry-curves-and-polygons/
 
-Ce postulat mathématique est une bonne occasion de créer une situation dans laquelle les élèves peuvent découvrir et explorer l'idée de continuité. La continuité est associée à l'infini. Éveillez la curiosité des enfants pour les faits intéressants et amusants en mathématiques en leur faisant découvrir le nombre Pi : https://www.piday.org/pi-facts/
+À partir de ce postulat mathématique, vous pouvez créer une situation dans laquelle les élèves peuvent découvrir et explorer l'idée de continuité. La continuité est associée à l'infini. Éveillez la curiosité des enfants pour les faits intéressants et amusants en mathématiques en leur faisant découvrir le nombre Pi : https://www.piday.org/pi-facts/
 
 **Points d'intersection = Points d'action**
 
 Difficulté : moyenne/difficile ; âge : 10-12 ans et plus ; matériel : feuilles blanches A4 et marqueurs de couleur.
 
-Cette activité commence par une brève discussion sur la différence entre une courbe ouverte et fermée. La continuité est fortement présente au théâtre et au cinéma. Pour un acteur, construire une continuité dans le comportement et la cohérence des actions du personnage revêt une importance particulière.
+Cette activité commence par une brève discussion sur la différence entre une courbe ouverte et fermée. La continuité est fortement présente au théâtre et au cinéma. Pour un acteur, il est particulièrement important de construire une continuité dans le comportement de son personnage et une cohérence dans ses actions.
 
 L'enseignant présente un exemple préparé à l'avance (courbe fermée complexe dessinée) et relie les significations mathématiques des figures avec le langage théâtral, en notant les repères suivants :
 
@@ -162,16 +162,16 @@ Les élèves commencent alors à tracer leurs courbes dans l'espace. L'enseignan
 - Commencez à marcher dans l'espace en suivant votre propre courbe dessinée jusqu'à ce que vous la mémorisiez.
 - Répétez plusieurs fois la courbe, cette fois sans regarder la feuille, en observant calmement l'espace, les objets et les autres participants autour de vous.
 
-Une fois que tout le monde a mémorisé sa ligne sur scène, l'attention se porte sur ce qui se passe aux intersections – les points d'action. L'enseignant continue avec les consignes :
+Une fois que tout le monde a mémorisé sa ligne sur scène, l'attention se porte sur ce qui se passe aux intersections : les points d'action. L'enseignant continue avec les consignes :
 
 - Chaque fois que vous, en tant qu'acteurs, atteignez l'un des trois points d'action sur scène, quelque chose doit se produire. Par exemple : vous vous arrêtez et réfléchissez à quelque chose ; réagir soudainement à quelque chose que vous avez vu ou ressenti ; vous exprimez soudain une émotion forte (douleur, surprise, joie...) ; vous effectuez une action physique simple comme attacher une chaussure, par exemple.
 
-Dans la partie suivante, les élèves peuvent libérer leur imagination et leur talent d'improvisation en répétant leurs répliques et en essayant différentes actions aux points d'intersection. Dans les cas où certains élèves ont des difficultés, l'enseignant peut les aider avec des questions d'orientation et des conseils :
+Dans la partie suivante, les élèves peuvent libérer leur imagination et leur talent d'improvisation en répétant leurs répliques et en essayant différentes actions aux points d'intersection. Si certains élèves ont des difficultés, l'enseignant peut les aider avec des questions d'orientation et des conseils :
 
 - Exemples d'actions simples : se gratter la tête, attraper une mouche, attacher ma chaussure, bâiller avec un son, s'arrêter et regarder autour de soi...
 - Exemples de réactions : piétinements colériques, regard timide autour de soi, sauts joyeux, bras hautains croisés...
 
-**Présentation** : L'enseignant répartit les élèves en binômes. Les participants exécutent la ligne de marche au minimum 3 fois sans interruption et sont libres de répéter les mêmes actions aux points d'intersection ou d'improviser avec quelque chose de nouveau à chaque fois. La présentation en binôme offre des opportunités de développer le jeu en communication et de créer des situations théâtrales improvisées dans lesquelles le dialogue entre les acteurs pourrait être inclus.
+**Présentation** : L'enseignant répartit les élèves en binômes. Les participants exécutent la ligne de marche au minimum 3 fois sans interruption et sont libres de répéter les mêmes actions aux points d'intersection ou d'improviser avec quelque chose de nouveau à chaque fois. La présentation en binôme offre des occasions de développer le jeu en communication et de créer des situations théâtrales improvisées dans lesquelles le dialogue entre les acteurs pourrait être inclus.
 
 L'activité se termine par les commentaires des élèves sur ce qu'ils ont ressenti, ce qu'ils ont appris et ce qu'ils ont découvert de nouveau.
 
@@ -197,7 +197,7 @@ Exemples de courbes avec points d'intersection (entrée, sortie, points d'action
 2. Accompagnez un mouvement séquentiel de tous les points d'intersection.
 3. Soutenez les élèves dans leur travail créatif en binôme.
 4. Laissez les élèves présenter leurs danses de marionnettes.
-5. Initiez une discussion parmi les participants.
+5. Lancez une discussion parmi les participants.
 
 :::
 
@@ -215,11 +215,11 @@ Le processus se poursuit de la même manière avec les articulations principales
 
 **Exploration par le mouvement**
 
-> **Professeur** — À quoi ressemblerions-nous si nous imaginions que notre corps était en bois et constitué de lignes droites ?
+> **Enseignant** : À quoi ressemblerions-nous si nous imaginions que notre corps était en bois et constitué de lignes droites ?
 >
-> **Étudiants** — Nous serions comme des marionnettes.
+> **Élèves** : Nous serions comme des marionnettes.
 >
-> **Professeur** — Voulez-vous essayer de bouger comme une marionnette ?
+> **Enseignant** : Voulez-vous essayer de bouger comme une marionnette ?
 
 Les élèves, dirigés par l'enseignant, parcourent un mouvement séquentiel de tous les points d'intersection dans toutes les directions possibles. Simultanément au mouvement, les élèves observent qu'à chaque mouvement, les lignes forment toujours des angles. Lorsque le mouvement est plus libre, ils peuvent former des angles droits et obtus, mais lorsqu'il est restreint, les angles sont aigus.
 
@@ -246,7 +246,7 @@ L'enseignant répartit les enfants en binômes. Dans le duo, l'élève A est une
 
 **Géométrie et proportions humaines dans l'art**
 
-L'Homme de Vitruve de Léonard de Vinci est l'une de ses œuvres les plus célèbres. Étudier la géométrie à travers le corps est une excellente occasion de présenter aux enfants des faits intéressants sur le sens de son travail :
+L'Homme de Vitruve de Léonard de Vinci est l'une de ses œuvres les plus célèbres. Pendant l'étude de la géométrie à travers le corps, vous pouvez présenter aux enfants des faits sur le sens de son travail :
 
 - https://kids.kiddle.co/Vitruvian_Man
 - https://www.kidpid.com/da-vinci-and-the-vitruvian-man/
@@ -303,7 +303,7 @@ L'enseignant demande aux élèves de se concentrer sur les principales parties d
 
 **Le jeu**
 
-Comme dans les jeux de l'acte 1, dans celui-ci, les élèves répondent aux commandes données par l'enseignant lorsqu'ils se déplacent dans l'espace. Les commandes sont : "QUADRILATÈRE", "TRIANGLE", "OVALE". L'exécution des commandes implique la formation rapide de paires avec contact avec la partie correspondante du corps. À l'instruction « GO », ils se séparent et continuent de marcher dans l'espace. Les commandes sont soumises dans un ordre aléatoire.
+Comme dans les jeux de l'acte 1, dans celui-ci, les élèves répondent aux commandes données par l'enseignant lorsqu'ils se déplacent dans l'espace. Les commandes sont : « QUADRILATÈRE », « TRIANGLE », « OVALE ». L'exécution des commandes implique la formation rapide de paires avec contact avec la partie correspondante du corps. À l'instruction « GO », ils se séparent et continuent de marcher dans l'espace. Les commandes sont soumises dans un ordre aléatoire.
 
 **Travail de groupe**
 
@@ -311,21 +311,21 @@ L'enseignant répartit les élèves en trois groupes : triangles, quadrilatères
 
 Chaque groupe a pour tâche de proposer un spectacle dans lequel il souligne qu'il est le meilleur et supérieur aux deux autres groupes d'une manière théâtrale et amusante. Pour ce faire, les élèves doivent utiliser autant d'informations que possible sur leur groupe de formes géométriques. Par exemple - un quadrilatère : tout est toujours quatre (sommets, angles, côtés) ; diversité : différents angles, différentes longueurs de côtés, etc. Les élèves peuvent également souligner les avantages et les utilisations de ces formes, là où ces formes peuvent être trouvées dans notre environnement...
 
-L'enseignant participe au processus avec des questions, des informations supplémentaires sur les formes géométriques et des idées pour la présentation finale. Si nécessaire, des supports pourront être proposés aux groupes - feuilles de papier blanches, crayons, ciseaux…
+L'enseignant participe au processus avec des questions, des informations supplémentaires sur les formes géométriques et des idées pour la présentation finale. Si nécessaire, des supports pourront être proposés aux groupes - feuilles de papier blanches, crayons, ciseaux...
 
 Chaque présentation se termine par des saluts et des applaudissements du public (des deux autres groupes). Enfin, les élèves partagent ce qu'ils ont appris, s'ils ont rencontré des difficultés et dans quelle partie de l'activité.
 
 ### Conseils
 
-**Plus de chiffres** : Cette activité est une excellente occasion de présenter aux élèves davantage de formes qu'ils connaissent déjà. Par exemple, vous pouvez nommer des triangles définis par leurs côtés et leurs angles. Les quadrilatères sont extrêmement riches en tant qu'ensemble varié. Avec les formes ovales, vous pouvez aider les élèves à apprendre à distinguer une ellipse et un ovale comme deux formes distinctes, etc.
+**Plus de formes** : Profitez de cette activité pour présenter aux élèves davantage de formes qu'ils connaissent déjà. Par exemple, vous pouvez nommer des triangles définis par leurs côtés et leurs angles. Les quadrilatères forment un ensemble très varié. Avec les formes ovales, vous pouvez aider les élèves à apprendre à distinguer une ellipse et un ovale comme deux formes distinctes, etc.
 
 **Encourager la fantaisie et l'imagination** : Au cours de la discussion et de la création, en plus d'utiliser les connaissances déjà acquises, les élèves peuvent avoir toutes sortes d'idées étranges sur l'origine de ces formes, ou à quoi elles servent, ou encore où on peut les trouver. Laissez leur imagination se déchaîner et aidez-les à établir des liens entre les faits scientifiques et la fantaisie.
 
-**Proposer la forme et le style de présentation** : Accompagnez les étudiants dans le choix du format de leur présentation en leur proposant des options. Cela peut prendre la forme d'une pantomime, d'une danse, d'une chanson, d'un poème, d'un sketch théâtral, d'un défilé de mode, d'une combinaison de ceux-ci ou de quelque chose de complètement différent.
+**Proposer la forme et le style de présentation** : Accompagnez les élèves dans le choix du format de leur présentation en leur proposant des options. Cela peut prendre la forme d'une pantomime, d'une danse, d'une chanson, d'un poème, d'un sketch théâtral, d'un défilé de mode, d'une combinaison de ceux-ci ou de quelque chose de complètement différent.
 
 ### Aller plus loin
 
-**Géométrie en architecture** : La géométrie est une base fondamentale de l'architecture, et l'architecture est partout autour de nous. Faites découvrir aux enfants quelques réalisations de l'architecture de l'Antiquité aux temps modernes. Exemples : Taj Mahal (Inde), Pyramide égyptienne, Sphère amazonienne (USA), Sagrada Familia (Espagne), Tour de Pise (Italie), Maisons cubes (Pays-Bas), le Gherkin (Londres, Royaume-Uni). Source : https://archi-monarch.com/geometry-in-architecture/
+**Géométrie en architecture** : La géométrie est à la base de l'architecture, et l'architecture est partout autour de nous. Faites découvrir aux enfants quelques réalisations de l'architecture de l'Antiquité aux temps modernes. Exemples : Taj Mahal (Inde), Pyramide égyptienne, Sphère amazonienne (USA), Sagrada Familia (Espagne), Tour de Pise (Italie), Maisons cubes (Pays-Bas), le Gherkin (Londres, Royaume-Uni). Source : https://archi-monarch.com/geometry-in-architecture/
 
 <img src="/img/ressources/mimesis/mimesis-play-5/geometriearchitecture.png" alt="Géométrie en architecture" style={{maxWidth: '400px', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -381,9 +381,9 @@ Les élèves créent un court scénario et un spectacle de marionnettes improvis
 
 ### Instructions (Ressource imprimable)
 
-**Tâche 1** — En 5 minutes, créez un maximum d'images à partir de la combinaison des trois figures géométriques et illustrez-les sur une feuille de papier. Les images peuvent être celles de personnes, de représentations de la nature vivante et non vivante et de celles créées par l'homme.
+**Tâche 1** : En 5 minutes, créez un maximum d'images à partir de la combinaison des trois figures géométriques et illustrez-les sur une feuille de papier. Les images peuvent être celles de personnes, de représentations de la nature vivante et non vivante et de celles créées par l'homme.
 
-**Tâche 2** — Créez trois marionnettes à partir de la liste de vos images : une marionnette représentant une personne ; une marionnette représentative de la nature vivante ; une marionnette représentative de notre environnement (naturel ou artificiel).
+**Tâche 2** : Créez trois marionnettes à partir de la liste de vos images : une marionnette représentant une personne ; une marionnette représentative de la nature vivante ; une marionnette représentative de notre environnement (naturel ou artificiel).
 
 Conditions : lors de la création des marionnettes, vous devez faire attention aux points suivants :
 
@@ -393,7 +393,7 @@ Conditions : lors de la création des marionnettes, vous devez faire attention a
 
 Temps de création des marionnettes : 15 min.
 
-**Tâche 3** — Créez une courte histoire improvisée en suivant les conditions :
+**Tâche 3** : Créez une courte histoire improvisée en suivant les conditions :
 
 - Trouvez un nom et une courte histoire pour chacune des trois marionnettes (où vivent les marionnettes ? quel est leur rêve ? quels sont leurs points forts ? de quoi ont-elles peur ?).
 - Décidez qui est le personnage principal, ce qui lui arrive et comment les autres personnages sont impliqués dans l'histoire.
@@ -405,19 +405,19 @@ Temps de création d'une histoire : 20 min.
 
 ### Conseils
 
-**Improviser une scène pour le spectacle de marionnettes** : Pour la représentation finale, il est bon de prévoir une scène sur laquelle joueront les marionnettes. Il convient de préparer un cadre en tissu tendu, derrière lequel les marionnettistes peuvent se "cacher", et seules les marionnettes sont visibles d'en haut. De cette façon, le public ne regarde que l'action de la marionnette et l'expérience est plus excitante. Selon les possibilités, une table plus grande recouverte de tissu peut également être utilisée.
+**Improviser une scène pour le spectacle de marionnettes** : Pour la représentation finale, prévoyez une scène sur laquelle joueront les marionnettes : un cadre en tissu tendu, derrière lequel les marionnettistes peuvent se « cacher », et seules les marionnettes sont visibles d'en haut. De cette façon, le public ne regarde que l'action de la marionnette et l'expérience est plus excitante. Selon les possibilités, une table plus grande recouverte de tissu peut également être utilisée.
 
 **Invitez des artistes dans votre classe** : Profitez-en pour inviter un artiste invité au cours. Il ou elle vous soutiendra dans le processus créatif des tâches 2 et 3.
 
 ### Aller plus loin
 
-**Théâtre de marionnettes** : Les marionnettes fascinent les enfants de tous âges et offrent de nombreuses opportunités d'apprendre et de développer des compétences. Pour en savoir plus : https://www.twinkl.bg/teaching-wiki/puppet
+**Théâtre de marionnettes** : Les marionnettes fascinent les enfants de tous âges et leur donnent de nombreuses occasions d'apprendre et de développer des compétences. Pour en savoir plus : https://www.twinkl.bg/teaching-wiki/puppet
 
 **Théâtre d'ombres à partir de formes géométriques** : Vous pouvez accrocher les différentes formes géométriques sur un bâton (les brochettes en bois conviennent très bien à cet effet). De cette manière, chacune des figures peut devenir une marionnette indépendante et proposer un nouveau type de manipulation et de jeu. Ensuite, vous pourrez facilement créer votre théâtre d'ombres à l'aide de cartons vides, de papier sulfurisé et de lampes de poche : https://www.youtube.com/watch?v=YOtHfxbae-o
 
 **Plus de possibilités** : Les marionnettes à doigts sont faciles à fabriquer avec très peu de matériaux facilement disponibles : https://www.youtube.com/watch?v=NsjTXXzIXEk
 
-**Marionnettes** : Si vous voulez vous mettre au défi, vous et les élèves, créez vos marionnettes. La vidéo proposée offre une belle opportunité d'étudier la structure du squelette humain en créant une marionnette avec des matériaux facilement disponibles et recyclables : https://www.youtube.com/watch?v=6JExdmnD6xE
+**Marionnettes** : Si vous voulez vous mettre au défi, vous et les élèves, créez vos marionnettes. La vidéo proposée est l'occasion d'étudier la structure du squelette humain en créant une marionnette avec des matériaux facilement disponibles et recyclables : https://www.youtube.com/watch?v=6JExdmnD6xE
 
 :::tip[Ressources imprimables]
 

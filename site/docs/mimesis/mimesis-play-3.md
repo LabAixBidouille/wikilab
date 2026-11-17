@@ -47,17 +47,17 @@ sidebar_position: 3
 
 Au début, il n'y avait rien...
 
-L'activité "La vie secrète du plancton" présente le thème fascinant de la vie sous-marine aux enfants de tous âges. Grâce à cette activité interactive et éducative, les enfants élargissent leurs connaissances sur la vie sous-marine et explorent en immersion des sujets captivants : les sciences de la terre, la biologie, la création de notre planète, et le fonctionnement d'un écosystème. En participant à cette activité, les enfants s'embarquent dans un voyage au cours duquel ils découvriront les mystères du monde sous-marin d'une manière amusante et captivante.
+L'activité "La vie secrète du plancton" fait découvrir la vie sous-marine aux élèves de tous âges. Ils y abordent en jouant les sciences de la terre, la biologie, la création de notre planète et le fonctionnement d'un écosystème.
 
-L'activité propose une alternative aux méthodes d'enseignement traditionnelles en incorporant l'art du conte et le mouvement physique. En se plongeant dans l'histoire de la terre et l'apparition de la vie sous-marine, les enfants doivent faire travailler leur capacité d'apprentissage et de mémorisation pour répondre aux défis soulevés par l'activité. Au cours des divers jeux et exercices théâtraux, les enfants explorent différents types de mouvements et évoluent dans l'espace. En fermant les yeux au cours du premier acte, les enfants développent leur conscience corporelle, ce qui leur permet de se connecter plus profondément à leur moi physique. L'histoire guidée s'adresse à leur imagination et leur créativité et les encourage à s'exprimer à la fin de l'activité. En outre, cette activité crée un environnement sûr et favorable où les élèves se sentent à l'aise et valorisés. Ce sentiment est précieux et leur permet de s'immerger totalement dans la seconde partie de l'activité sans craindre d'être jugés par leurs pairs.
+Cette activité passe par le conte et le mouvement physique. Les élèves suivent l'histoire de la terre et l'apparition de la vie sous-marine, et doivent faire travailler leur capacité d'apprentissage et de mémorisation pour répondre aux défis de l'activité.
 
 ### Objectifs pédagogiques de l'activité
 
-Cette activité permet d'acquérir de nombreuses connaissances sur les sciences de la terre et la biologie d'une manière pédagogique et ludique. C'est une bonne activité pour commencer à travailler sur la création de la planète, la chaîne alimentaire, la géographie... La narration, la compétition et le jeu, et le fait que les enfants soient physiquement actifs pendant l'activité visent à aider les élèves à mieux se souvenir de la leçon.
+Cette activité permet aux élèves d'acquérir de nombreuses connaissances en sciences de la terre et en biologie. C'est une bonne activité pour commencer à travailler sur la création de la planète, la chaîne alimentaire, la géographie... La narration, la compétition, le jeu et le fait d'être physiquement actifs pendant l'activité visent à les aider à mieux se souvenir de la leçon.
 
 ### Objectifs théâtraux de l'activité
 
-L'activité est basée sur des jeux théâtraux intemporels. Elle permet aux enfants de découvrir de nouveaux types de mouvements et d'utilisation de l'espace. Le fait qu'ils aient les yeux fermés pendant la première partie de l'activité améliore leur conscience corporelle. Ils suivent également une histoire guidée et sont invités à la fin à faire preuve de créativité. La première activité tente de mettre les enfants dans une petite "transe" afin qu'ils se sentent à l'aise et ne soient pas jugés pendant le deuxième acte.
+L'activité s'appuie sur des jeux théâtraux. Au fil des jeux et exercices, les élèves découvrent de nouveaux types de mouvements et de nouvelles façons d'occuper l'espace. Ils ferment les yeux au cours du premier acte, ce qui développe leur conscience corporelle. L'histoire guidée fait appel à leur imagination et à leur créativité, et les invite à s'exprimer à la fin de l'activité. La première activité tente de mettre les élèves dans une petite "transe" pour qu'ils se sentent à l'aise et valorisés, et qu'ils s'immergent dans le deuxième acte sans craindre d'être jugés par leurs pairs.
 
 ### Compétences développées
 
@@ -80,9 +80,9 @@ L'activité est basée sur des jeux théâtraux intemporels. Elle permet aux enf
 :::caution[Phases d'activité]
 
 1. L'enseignant·e lit l'introduction et interroge les élèves sur les animaux marins qu'ils connaissent.
-2. Les enfants font l'échauffement.
-3. Les enfants font l'activité principale.
-4. À la fin, les enfants peuvent dessiner leur animal marin.
+2. Les élèves font l'échauffement.
+3. Les élèves font l'activité principale.
+4. À la fin, les élèves peuvent dessiner leur animal marin.
 
 :::
 
@@ -143,7 +143,7 @@ L'enseignant·e se promène parmi les enfants et les interroge.
 
 ### Conclusion (optionnelle)
 
-L'enseignant donne aux élèves une feuille vierge. Ils doivent trouver un nom pour leur animal et le dessiner sur la feuille.
+L'enseignant·e donne aux élèves une feuille vierge. Ils doivent trouver un nom pour leur animal et le dessiner sur la feuille.
 
 ---
 
@@ -203,7 +203,7 @@ Il s'agit d'un jeu qui doit être joué en plein air, dans la cour de l'école, 
 
 Les trois équipes commencent le jeu au centre de la cour de récréation. Tour à tour les équipes exécutent leur chorégraphie.
 
-Au top départ donné par l'enseignant·e, les équipes courent dans la cour pour récupérer le plus de petits objets possibles. Le but est de collecter autant d'objets que possible pour votre équipe. Il y a deux façons différentes d'obtenir des objets :
+Au top départ donné par l'enseignant·e, les équipes courent dans la cour pour récupérer le plus de petits objets possibles. Il y a deux façons différentes d'obtenir des objets :
 
 - Les ramasser dans la cour
 - Les voler à votre équipe cible
@@ -214,7 +214,7 @@ Chaque équipe est chassée par une équipe et en chasse une autre. Les objets n
 - L'holoplancton chasse le phytoplancton
 - Le phytoplancton chasse le méroplancton
 
-Lorsqu'un enfant touche quelqu'un de son équipe cible, l'enfant touché lui donne tous ses objets. Par exemple : si un méroplancton détient un objet et touche un holoplancton qui en détient deux, le méroplancton prend les deux objets et dispose désormais de trois objets.
+Lorsqu'un enfant touche quelqu'un de son équipe cible, l'enfant touché lui donne tous ses objets. Par exemple : si un méroplancton détient un objet et touche un holoplancton qui en détient deux, le méroplancton prend les deux objets et en a maintenant trois.
 
 Après 5 minutes, le jeu s'arrête. L'équipe qui a le plus d'objets gagne le tour d'échauffement.
 
@@ -239,7 +239,7 @@ Au top départ donné par l'enseignant·e, les équipes courent dans la cour pou
 - Les ramasser dans la cour
 - Les voler à votre équipe cible
 
-Après 5 minutes, le jeu s'arrête. Les équipes comptent leurs objets. Cette fois-ci, elles devront utiliser les objets pour obtenir des opportunités de répondre aux questions. Plus l'équipe a d'objets, plus elle aura d'opportunités de répondre aux questions.
+Après 5 minutes, le jeu s'arrête. Les équipes comptent leurs objets. Cette fois-ci, elles devront utiliser les objets pour obtenir le droit de répondre à des questions. Plus l'équipe a d'objets, plus elle aura d'occasions d'y répondre.
 
 Donner un objet à l'enseignant·e permet à l'équipe de répondre à une question (ressource imprimable 2). Les équipes peuvent décider de la difficulté de la question à laquelle elles veulent répondre. Résoudre une question plus difficile vous fera gagner plus de points.
 
@@ -263,7 +263,7 @@ Un deuxième tour peut être joué (mais l'enseignant·e doit veiller à ne pas 
 
 :::info[Crédits]
 
-Ce jeu est basé sur le travail de planktomania : https://planktomania.org et utilise le jeu de cartes planktomania comme point de départ. Les dessins et tableaux de référence se trouvent ici : [www.eclm.fr/livre/le-manuel-du-plancton/](https://www.eclm.fr/livre/le-manuel-du-plancton/). Les images de référence se trouvent ici : https://planktonchronicles.org/fr/le-projet/
+Ce jeu est fondé sur le travail de planktomania : https://planktomania.org et utilise le jeu de cartes planktomania comme point de départ. Les dessins et tableaux de référence se trouvent ici : [www.eclm.fr/livre/le-manuel-du-plancton/](https://www.eclm.fr/livre/le-manuel-du-plancton/). Les images de référence se trouvent ici : https://planktonchronicles.org/fr/le-projet/
 :::
 
 ### Set de questions

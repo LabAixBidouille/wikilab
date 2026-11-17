@@ -49,9 +49,9 @@ sidebar_position: 4
 
 ### Résumé de l'activité
 
-À travers l'activité "De l'eau, de l'eau partout", nous souhaitons faire explorer aux enfants les concepts physiques simples et les processus liés à l'eau à travers des techniques physiques et de théâtre de masques. Ces activités, divisées en 4 actes, s'apparentent à la composition d'une pièce de théâtre et proposent différentes approches pour étudier l'eau, ses 3 états agrégés et les 4 principaux processus de transition entre eux.
+L'activité « De l'eau, de l'eau partout » vise à faire explorer aux enfants les concepts physiques simples et les processus liés à l'eau par des techniques physiques et de théâtre de masques. Ces activités, divisées en 4 actes, s'apparentent à la composition d'une pièce de théâtre et proposent différentes approches pour étudier l'eau, ses 3 états et les 4 principaux processus de transition entre eux.
 
-Ces activités permettent aux élèves de développer leurs connaissances par l'action et l'expression des mouvements du corps. Les élèves suivront également un processus séquentiel allant de l'apprentissage des outils de jeu d'acteur à la création de leur propre personnage de masque et la réalisation d'une représentation théâtrale improvisée. Devenir une créature aquatique et l'interpréter avec son corps contribue à l'apprentissage et à la consolidation des connaissances à travers une expérience complète corps-émotion-esprit.
+Ces activités permettent aux élèves de développer leurs connaissances par l'action et l'expression des mouvements du corps. Les élèves avancent aussi par étapes : apprendre les outils du jeu d'acteur, créer leur propre personnage de masque, puis jouer une représentation théâtrale improvisée. Devenir une créature aquatique et l'interpréter avec son corps aide à acquérir et à consolider les connaissances, par une expérience qui engage à la fois le corps, les émotions et l'esprit.
 
 Ces différentes activités doivent être réalisées dans leur intégralité afin d'acquérir toutes les compétences, mais elles sont conçues pour être menées en plusieurs séances consécutives.
 
@@ -78,7 +78,7 @@ Ces différentes activités doivent être réalisées dans leur intégralité af
 
 **Quiz sur le cycle de l'eau**
 
-L'enseignant crée 3 groupes de 8 enfants maximum chacun. Chaque groupe reçoit une feuille de quiz et un certain nombre de cartes-lettres. Il y a une phrase cachée que le groupe doit découvrir en répondant à toutes les questions du quiz et en collectant les lettres majuscules marquées en bleu. Enfin, les enfants disposent les cartes avec des lettres et doivent terminer par la phrase "CYCLE DE L'EAU".
+L'enseignant crée 3 groupes de 8 enfants maximum chacun. Chaque groupe reçoit une feuille de quiz et un certain nombre de cartes-lettres. Il y a une phrase cachée que le groupe doit découvrir en répondant à toutes les questions du quiz et en collectant les lettres majuscules marquées en bleu. Enfin, les enfants disposent les cartes avec des lettres et doivent terminer par la phrase « CYCLE DE L'EAU ».
 
 **Il est temps d'agir - Jeu de zone**
 
@@ -93,9 +93,9 @@ Les groupes se mettent d'accord sur l'ordre des tours et le premier groupe prend
 
 ### Conseils pour réaliser l'activité
 
-**Exemple de conte pour le professeur - Jeu de zone**
+**Exemple de conte pour l'enseignant - Jeu de zone**
 
-L'exemple fournit uniquement une orientation et des conseils. Vous pouvez utiliser votre imagination et votre créativité pour imaginer des situations différentes et attrayantes pour vos élèves. Vous pouvez également consulter la section "aller plus loin" pour vous inspirer.
+L'exemple fournit uniquement une orientation et des conseils. Vous pouvez utiliser votre imagination et votre créativité pour imaginer des situations différentes et attrayantes pour vos élèves. Vous pouvez également consulter la section « Aller plus loin » pour vous inspirer.
 
 - La première zone est celle des pluies chaudes d'été. Il pleut, nous sommes complètement mouillés, l'eau coule de nos cheveux, mais nous sautons allègrement dans les flaques de boue. Mais la pluie s'intensifie, les flaques débordent et le ruisseau nous entraîne vers une immense rivière.
 - Eeeeetttt... prêt à passer à la deuxième zone : la jungle amazonienne ! Nous nous asseyons dans un canoë qui nous transporte à travers la grande rivière. Regardez les arbres immenses qui nous entourent, leurs cimes sont hautes dans le ciel et forment un épais plafond vert au-dessus de nous. Il fait chaud et très humide en raison de la forte humidité libérée par les feuilles.
@@ -105,19 +105,19 @@ L'exemple fournit uniquement une orientation et des conseils. Vous pouvez utilis
 
 **Utiliser les sons et la musique**
 
-Vous pouvez utiliser la musique et le son pour créer l'atmosphère des différentes zones. Cela stimule l'activité et rend l'expérience des participants encore plus excitante. Vous pouvez préparer une piste audio avec cinq sons différents d'une durée d'environ 20 secondes chacun. Cela permettra de conserver le timing et le rythme du jeu.
+Vous pouvez utiliser la musique et le son pour créer l'atmosphère des différentes zones. Le son anime aussi l'activité et la rend plus excitante pour les participants. Vous pouvez préparer une piste audio avec cinq sons différents d'une durée d'environ 20 secondes chacun, pour garder le minutage et le rythme du jeu.
 
 **Conclusion et retours des élèves**
 
-Il est agréable de terminer l'activité avec un bref feedback des élèves en répondant à des questions telles que : Avez-vous rencontré des difficultés en résolvant le quiz ? As-tu appris quelque chose de nouveau ? Dans quelle zone vous êtes-vous le plus amusé ? Dans laquelle avez-vous rencontré des défis ? etc.
+Il est agréable de terminer l'activité avec un bref retour des élèves en répondant à des questions telles que : Avez-vous rencontré des difficultés en résolvant le quiz ? As-tu appris quelque chose de nouveau ? Dans quelle zone vous êtes-vous le plus amusé ? Dans laquelle avez-vous rencontré des défis ? etc.
 
 ### Objectifs pédagogiques
 
-Cette activité permet de réviser ou de consolider ses connaissances sur l'eau. Elle contribue en outre à améliorer les connaissances sur le cycle naturel de l'eau et son importance pour la vie sur terre. Une attention particulière est portée à l'état dynamique de l'eau – en mouvement et en changement constants. La meilleure façon de comprendre et de ressentir l'eau dans sa diversité qui nous entoure est à travers des jeux théâtraux où les élèves se voient proposer des situations pour agir, interagir et apprendre par l'expérience.
+Cette activité permet de réviser ou de consolider ses connaissances sur l'eau. Elle aide aussi à mieux connaître le cycle naturel de l'eau et son importance pour la vie sur terre. Une attention particulière est portée à l'état dynamique de l'eau : en mouvement et en changement constants. Les jeux théâtraux proposent aux élèves des situations pour agir, interagir et apprendre par l'expérience, et ainsi comprendre et ressentir l'eau qui nous entoure dans sa diversité.
 
 ### Objectifs théâtraux
 
-Dans cette activité, les élèves sont initiés à l'un des moyens théâtraux de base : agir/être en action. Le mot « acteur » désigne une personne qui agit. Utiliser des jeux théâtraux amusants avec une narration improvisée active les élèves, stimule leur spontanéité et leur imagination et développe leurs capacités de coopération et de travail en équipe. Créer des situations pour agir et interagir est l'une des meilleures façons d'initier l'art théâtral aux enfants.
+Dans cette activité, les élèves sont initiés à l'un des moyens théâtraux de base : agir/être en action. Le mot « acteur » désigne une personne qui agit. Utiliser des jeux théâtraux amusants avec une narration improvisée active les élèves, stimule leur spontanéité et leur imagination et développe leurs capacités de coopération et de travail en équipe. Créer des situations pour agir et interagir initie les enfants à l'art théâtral.
 
 ### Compétences développées
 
@@ -132,9 +132,9 @@ Dans cette activité, les élèves sont initiés à l'un des moyens théâtraux 
 
 **Plus de zones** : Une façon de développer le jeu et le processus éducatif consiste à ajouter davantage de zones. Par exemple : créez la zone au pôle Nord. Soudain, la glace disparaît (représentant le processus de sublimation). Le groupe découvre un squelette de mammouth préservé...
 
-**Réalité augmentée** : Si l'école est techniquement équipée, l'enseignant peut remplacer les feuilles de papier colorées par de la réalité augmentée. Cela rendra l'action encore plus excitante et vivante, les enfants pourront vraiment avoir l'impression d'être sur scène ou dans le cadre d'un film.
+**Réalité augmentée** : Si l'école est techniquement équipée, l'enseignant peut remplacer les feuilles de papier colorées par de la réalité augmentée. Les enfants pourront alors avoir l'impression d'être sur scène ou dans un film.
 
-**Écologie** : L'étude de l'écologie et de certains problèmes alarmants liés à la perturbation du cycle de l'eau peut également être jouée dans les zones. À cet effet, l'enseignant peut en identifier à l'avance plusieurs qui répondent à une problématique particulière. Par exemple, une zone dans la mer, on nage et on s'amuse, tout à coup on voit un dauphin enveloppé dans un sac plastique ; une zone dans l'océan Arctique, un petit iceberg s'est détaché et un petit ours blanc se tient dessus ; une zone dans un désert, c'était autrefois une oasis mais l'eau du puits s'est tarie...
+**Écologie** : Les zones peuvent aussi servir à étudier par le jeu l'écologie et certains problèmes alarmants liés à la perturbation du cycle de l'eau. Pour cela, l'enseignant peut identifier à l'avance plusieurs zones qui répondent à une problématique particulière. Par exemple, une zone dans la mer, on nage et on s'amuse, tout à coup on voit un dauphin enveloppé dans un sac plastique ; une zone dans l'océan Arctique, un petit iceberg s'est détaché et un petit ours blanc se tient dessus ; une zone dans un désert, c'était autrefois une oasis mais l'eau du puits s'est tarie...
 
 <img src="/img/ressources/mimesis/mimesis-play-4/quiz.png" alt="Quiz sur le cycle de l'eau" style={{maxWidth: '100%', marginTop: '1.5rem', marginBottom: '1rem'}} />
 
@@ -158,17 +158,17 @@ Le quiz complet avec les 10 questions et les cartes-lettres permettant de recons
 2. Formez des petits groupes de 5 élèves max et faites tirer une carte par groupe.
 3. Accompagnez les élèves dans leur processus créatif de groupe.
 4. Dirigez la présentation sur scène en groupe.
-5. Initiez une discussion entre le public et les participants.
+5. Lancez une discussion entre le public et les participants.
 
 :::
 
 ### Résumé de l'activité
 
-L'acte 2 comprend deux jeux d'échauffement, un travail créatif en petits groupes et une présentation sur scène. Le sujet porte sur les états agrégés de l'eau et les processus de changement d'un état agrégé à un autre. Les élèves recréeront l'état d'agrégation sous forme de sculptures corporelles de groupe et les processus de changement sous forme de transition de mouvement d'une sculpture à une autre.
+L'acte 2 comprend deux jeux d'échauffement, un travail créatif en petits groupes et une présentation sur scène. Le sujet porte sur les états de l'eau et les processus de changement d'un état à un autre. Les élèves recréeront les états de l'eau sous forme de sculptures corporelles de groupe et les processus de changement sous forme de transition de mouvement d'une sculpture à une autre.
 
 **Jeu d'échauffement #1**
 
-Qu'est-ce que la sculpture et comment pouvons-nous la créer avec notre corps ? Quelques sculptures faciles à réaliser, basées sur les mots clés de l'enseignant, sont réalisées par toute la classe. Des exemples de réponses spontanées des enfants sont : « Créons tous une sculpture d'un géant, d'un aigle, d'une fleur, d'un rocher, d'une plume, etc. »
+Qu'est-ce que la sculpture et comment pouvons-nous la créer avec notre corps ? À partir des mots clés de l'enseignant, toute la classe réalise quelques sculptures faciles. Des exemples de réponses spontanées des enfants sont : « Créons tous une sculpture d'un géant, d'un aigle, d'une fleur, d'un rocher, d'une plume, etc. »
 
 **Jeu d'échauffement #2**
 
@@ -176,27 +176,27 @@ Que signifie être en transition, en mouvement ? Chacun des élèves réalise 4 
 
 **Processus créatif en petits groupes**
 
-L'enseignant divise la classe en groupes de 5 élèves maximum chacun. Un enfant par groupe est invité à tirer une carte comportant 3 symboles pour les états globaux et 2 mots pour les processus de changement. Les états globaux de l'eau sont solides (un losange), liquides (une goutte) et gazeux (un nuage). Une seule carte peut contenir deux représentations identiques d'états agrégés (par exemple 2 gouttes) en fonction des deux transitions écrites. Les flèches entre les images d'états agrégés facilitent la compréhension du processus de transition. Les processus de changement possibles sont : la fusion, l'évaporation, la condensation, la congélation. Chaque groupe doit créer 3 sculptures de groupe représentant un certain état d'agrégation, puis trouver et exécuter les transitions de mouvement entre elles.
+L'enseignant divise la classe en groupes de 5 élèves maximum chacun. Un enfant par groupe est invité à tirer une carte comportant 3 symboles pour les états de l'eau et 2 mots pour les processus de changement. Les états de l'eau sont : solide (un losange), liquide (une goutte) et gazeux (un nuage). Une seule carte peut contenir deux représentations identiques d'un même état (par exemple 2 gouttes) en fonction des deux transitions écrites. Les flèches entre les images des états facilitent la compréhension du processus de transition. Les processus de changement possibles sont : la fusion, l'évaporation, la condensation, la congélation. Chaque groupe doit créer 3 sculptures de groupe représentant chacune un état de l'eau, puis trouver et exécuter les transitions de mouvement entre elles.
 
 **Présentation sur scène**
 
-Une scène improvisée est organisée par l'enseignant. Les groupes s'accordent sur l'ordre de présentation. Dans un premier temps, le groupe présente uniquement les sculptures. Le public (les autres groupes) observe attentivement car il doit deviner à quels états globaux correspondent les trois sculptures. S'ensuit une mini-performance - le mouvement de l'eau d'un état global à un autre. La fin de chaque mini-performance est suivie d'applaudissements et de brefs retours du public et du professeur.
+Une scène improvisée est organisée par l'enseignant. Les groupes s'accordent sur l'ordre de présentation. Dans un premier temps, le groupe présente uniquement les sculptures. Le public (les autres groupes) observe attentivement car il doit deviner à quels états de l'eau correspondent les trois sculptures. S'ensuit une mini-performance : le mouvement de l'eau d'un état à un autre. La fin de chaque mini-performance est suivie d'applaudissements et de brefs retours du public et de l'enseignant.
 
 ### Conseils pour réaliser l'activité
 
 **Sculpture corporelle = pose du corps** : Si nécessaire, le mot « sculpture » peut être précisé davantage par « pose du corps ». Dans l'art théâtral, les deux termes ont le même sens.
 
-**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité à participer au cours. Il ou elle pourrait aider l'enseignant à guider plus précisément les mouvements et la transformation du corps afin de stimuler le processus permettant d'atteindre une expressivité corporelle plus riche et plus créative.
+**Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité à participer au cours. Il ou elle pourrait aider l'enseignant à guider plus précisément les mouvements et la transformation du corps, pour rendre l'expression corporelle des élèves plus riche et plus créative.
 
 **Utilisation de la musique** : Une liste prédéfinie de morceaux de musique peut être créée pour les différentes transitions. Cela aidera les élèves à maintenir la fluidité et le rythme de leurs mouvements et à transformer les spectacles en mini-chorégraphies de danse.
 
 ### Objectifs pédagogiques
 
-Cette activité permet d'approfondir les connaissances des élèves sur les états d'agrégation de l'eau et les processus de transition d'un état à un autre. Là encore, l'accent mis sur l'état dynamique de l'eau s'oriente vers une étude approfondie des processus de changement. La meilleure façon d'exprimer et de comprendre cela est à travers l'expression corporelle et physique. Grâce au théâtre, les élèves apprennent les transitions de l'eau et acquièrent et mémorisent ainsi en permanence les termes et concepts scientifiques de base. Grâce à l'expression corporelle, les enfants prennent conscience de leur corps et développent leurs capacités de communication et de travail en équipe.
+Cette activité permet d'approfondir les connaissances des élèves sur les états de l'eau et les processus de transition d'un état à un autre. Là encore, l'accent porte sur l'état dynamique de l'eau, avec une étude plus poussée des processus de changement. Les élèves expriment et comprennent ces changements par l'expression corporelle et physique. Par le théâtre, ils apprennent les transitions de l'eau, et ainsi acquièrent et retiennent durablement les termes et concepts scientifiques de base. Grâce à l'expression corporelle, les enfants prennent conscience de leur corps et développent leurs capacités de communication et de travail en équipe.
 
 ### Objectifs théâtraux
 
-Dans cette activité, les élèves apprendront quelques techniques de base du théâtre pour utiliser leur corps et celui de leurs camarades de classe afin de créer des images de groupe abstraites. Ils découvriront la capacité de se déplacer et d'interagir physiquement par eux-mêmes. À travers cette activité, leur potentiel expressif sera développé et ils comprendront que tout peut s'exprimer par le biais du théâtre physique. L'interaction corporelle et gestuelle avec leurs camarades développera leurs sens, leur capacité d'observation et leur conscience de soi et des autres. L'interprétation de concepts abstraits stimule physiquement directement la pensée abstraite, un élément essentiel de la pensée logique et de la résolution de problèmes.
+Dans cette activité, les élèves apprendront quelques techniques de base du théâtre pour utiliser leur corps et celui de leurs camarades de classe afin de créer des images de groupe abstraites. Ils découvriront la capacité de se déplacer et d'interagir physiquement par eux-mêmes. À travers cette activité, leur potentiel expressif sera développé et ils comprendront que tout peut s'exprimer par le biais du théâtre physique. L'interaction corporelle et gestuelle avec leurs camarades développera leurs sens, leur capacité d'observation et leur conscience de soi et des autres. Interpréter des concepts abstraits avec le corps fait travailler directement la pensée abstraite, l'un des fondements de la pensée logique et de la résolution de problèmes.
 
 ### Compétences développées
 
@@ -210,7 +210,7 @@ Dans cette activité, les élèves apprendront quelques techniques de base du th
 
 ### Aller plus loin
 
-**Flocons de neige** : Un processus de changement intéressant est celui de la création des flocons de neige. Est-il possible que l'eau passe directement de l'état gazeux à l'état solide ? Pourquoi les flocons de neige sont-ils uniques ? Apprenons-en davantage sur le sujet et créons nos flocons de neige uniques :
+**Flocons de neige** : Un processus de changement intéressant est celui de la création des flocons de neige. Est-il possible que l'eau passe directement de l'état gazeux à l'état solide ? Pourquoi les flocons de neige sont-ils uniques ? En apprendre davantage sur le sujet, puis créer des flocons de neige uniques :
 
 - en utilisant des modèles imprimables : https://littlebinsforlittlehands.com/snowflake-template/
 - en dessinant votre motif en commençant par 3 lignes croisées : https://iheartcraftythings.com/snowflake-drawing.html
@@ -221,7 +221,7 @@ Dans cette activité, les élèves apprendront quelques techniques de base du th
 - https://www.youtube.com/watch?v=vNVPumETpuA
 - https://www.youtube.com/watch?v=oY-cKl71FmQ
 
-Jacques Lecoq est l'une des figures marquantes du développement du théâtre physique. Sa méthode consiste en grande partie à travailler avec un masque neutre et un masque larvaire. Une belle occasion de faire le lien entre le théâtre physique et le théâtre de masques, qui sera introduit dans l'acte 3 et l'acte 4 suivants :
+Jacques Lecoq est l'une des figures marquantes du développement du théâtre physique. Sa méthode consiste en grande partie à travailler avec un masque neutre et un masque larvaire. C'est une belle occasion de faire le lien entre le théâtre physique et le théâtre de masques, introduit dans les actes 3 et 4 qui suivent :
 
 - https://www.youtube.com/watch?v=tcuM5reT16E
 - https://www.youtube.com/watch?v=FzHPu5xD_hg
@@ -266,41 +266,41 @@ Cartes « États globaux de l'eau et processus de changement » combinant les tr
 
 ### Résumé de l'activité
 
-L'acte 3 se compose de deux parties : inventer et décrire un personnage théâtral et créer sa visualisation dans un masque théâtral. Le sujet est : quelles sont les caractéristiques spécifiques de l'eau dans ses différents états d'agrégation ? (volume et forme).
+L'acte 3 a deux parties : inventer et décrire un personnage théâtral et créer sa visualisation dans un masque théâtral. Le sujet est : quelles sont les caractéristiques spécifiques de l'eau dans ses différents états ? (volume et forme).
 
 ### Partie 1 - Inventer et décrire le personnage théâtral
 
 Avant de commencer l'activité, l'enseignant réaménage l'espace et marque trois endroits dans la salle. Sous forme de dialogue ludique, il ou elle attire l'attention des élèves sur ce qu'ils représentent et les différencient.
 
-> **Enseignant** — Ce sont trois mondes. Chacun est composé d'eau, mais ils sont très différents. L'un est l'eau à l'état solide. Quelqu'un peut-il dire ce que cela signifie ?
+> **Enseignant** : Ce sont trois mondes. Chacun est composé d'eau, mais ils sont très différents. L'un est l'eau à l'état solide. Quelqu'un peut-il dire ce que cela signifie ?
 >
-> **Élèves** — Que tout y est fort, fixe, ne bouge pas, a sa propre forme.
+> **Élèves** : Que tout y est fort, fixe, ne bouge pas, a sa propre forme.
 >
-> **Enseignant** — D'accord. Et voici le monde dans lequel l'eau est à l'état liquide. Dans ce monde, l'eau a-t-elle une forme fixe ?
+> **Enseignant** : D'accord. Et voici le monde dans lequel l'eau est à l'état liquide. Dans ce monde, l'eau a-t-elle une forme fixe ?
 >
-> **Élèves** — Non, tout y bouge constamment, comme s'il se tordait. C'est très flexible. Il peut prendre la forme du récipient dans lequel vous le mettez.
+> **Élèves** : Non, tout y bouge constamment, comme s'il se tordait. C'est très flexible. Il peut prendre la forme du récipient dans lequel vous le mettez.
 >
-> **Enseignant** — D'accord, mais imaginons que j'ai une grande bouteille pleine d'eau et un verre ordinaire. Pensez-vous que je peux verser toute l'eau de la bouteille dans le verre ?
+> **Enseignant** : D'accord, mais imaginons que j'ai une grande bouteille pleine d'eau et un verre ordinaire. Pensez-vous que je peux verser toute l'eau de la bouteille dans le verre ?
 >
-> **Élèves** — Non, le verre est plus petit et une fois rempli, l'eau restante débordera.
+> **Élèves** : Non, le verre est plus petit et une fois rempli, l'eau restante débordera.
 >
-> **Enseignant** — Super, on peut donc dire que l'eau à l'état liquide a son propre volume. Et que pensez-vous du troisième monde de l'eau à l'état gazeux ?
+> **Enseignant** : Super, on peut donc dire que l'eau à l'état liquide a son propre volume. Et que pensez-vous du troisième monde de l'eau à l'état gazeux ?
 >
-> **Élèves** — Eh bien, là-bas, tout semble s'élever et flotter, et n'a aucune forme.
+> **Élèves** : Eh bien, là-bas, tout semble s'élever et flotter, et n'a aucune forme.
 >
-> **Enseignant** — Et que pensez-vous de son volume ?
+> **Enseignant** : Et que pensez-vous de son volume ?
 >
-> **Élèves** — Nous pensons qu'il n'y en a pas. Il peut se dilater et se condenser.
+> **Élèves** : Nous pensons qu'il n'y en a pas. Il peut se dilater et se condenser.
 >
-> **Enseignant** — Super ! Maintenant, chacun peut-il réfléchir et choisir dans quel monde il aimerait être aujourd'hui ?
+> **Enseignant** : Super ! Maintenant, chacun peut-il réfléchir et choisir dans quel monde il aimerait être aujourd'hui ?
 
-Une fois les trois groupes/mondes construits, chaque enfant choisit un état particulier de l'eau et l'écrit sur une feuille de papier. Pour mieux le décrire, chaque élève doit ajouter deux adjectifs. Un adjectif est lié à une caractéristique de l'état global et le second décrit une qualité, une émotion ou une condition humaine. Pour illustrer, l'enseignant peut donner plusieurs exemples : « un flocon de neige capricieux et grincheux », « un glaçon dur et paresseux », « large rivière sage », « curieux nuage de lumière »...
+Une fois les trois groupes/mondes construits, chaque enfant choisit un état particulier de l'eau et l'écrit sur une feuille de papier. Pour mieux le décrire, chaque élève doit ajouter deux adjectifs. Un adjectif est lié à une caractéristique de cet état et le second décrit une qualité, une émotion ou une condition humaine. Pour illustrer, l'enseignant peut donner plusieurs exemples : « un flocon de neige capricieux et grincheux », « un glaçon dur et paresseux », « large rivière sage », « curieux nuage de lumière »...
 
 Une fois que les élèves sont prêts, l'enseignant accorde quelques minutes aux groupes pour partager ce qu'ils ont écrit (par exemple 5 min).
 
 ### Partie 2 - Création d'un masque de théâtre
 
-L'enseignant distribue les fiches avec les trois motifs de lignes disponibles dans la section ressources imprimables et explique le processus de création d'un masque étape par étape avec une limite de temps de 60 minutes. Les étudiants doivent :
+L'enseignant distribue les fiches avec les trois motifs de lignes disponibles dans la section ressources imprimables et explique le processus de création d'un masque étape par étape avec une limite de temps de 60 minutes. Les élèves doivent :
 
 - Dessiner leurs formes de masque à partir du motif indiqué sur la feuille
 - Dessiner les yeux du masque
@@ -308,7 +308,7 @@ L'enseignant distribue les fiches avec les trois motifs de lignes disponibles da
 - Découper des petits trous pour leurs yeux (qui pourraient être différents de ceux du masque)
 - Utiliser une agrafeuse pour fixer un élastique sur le masque
 
-Une fois les masques prêts, ils sont disposés dans une exposition où chaque enfant présente son masque et partage un peu le processus de sa création. L'enseignant peut vous aider avec des questions d'orientation telles que : « Quel est le nom de votre personnage ? Comment avez-vous exprimé ses qualités particulières dans le masque – en ajoutant de la couleur, par exemple, en rendant les yeux plus intéressants, en coupant ou en ajoutant quelque chose de spécifique de/à votre masque ? »
+Une fois les masques prêts, ils sont disposés dans une exposition où chaque enfant présente son masque et partage un peu le processus de sa création. L'enseignant peut vous aider avec des questions d'orientation telles que : « Quel est le nom de votre personnage ? Comment avez-vous exprimé ses qualités particulières dans le masque : en ajoutant de la couleur, par exemple, en rendant les yeux plus intéressants, en coupant ou en ajoutant quelque chose de spécifique de/à votre masque ? »
 
 <figure style={{marginTop: '1.5rem', marginBottom: '1.5rem', margin: 0}}>
   <img src="/img/ressources/mimesis/mimesis-play-4/exemplemasque.png" alt="Exemple de masque" style={{maxWidth: '100%'}} />
@@ -317,17 +317,17 @@ Une fois les masques prêts, ils sont disposés dans une exposition où chaque e
 
 ### Conseils pour réaliser l'activité
 
-**Conseil commun à l'acte 3 et l'acte 4** : Ces 2 actes représentent un processus de création et de jeu avec un masque. Il est donc préférable de les réaliser séquentiellement en deux séances consécutives. Assurez-vous qu'à la fin de l'acte 3, tous les masques des élèves soient entièrement remplis.
+**Conseil commun à l'acte 3 et l'acte 4** : Ces 2 actes forment un même travail de création et de jeu avec un masque. Il est donc préférable de les réaliser séquentiellement en deux séances consécutives. Assurez-vous qu'à la fin de l'acte 3, tous les masques des élèves soient entièrement remplis.
 
-**Invitez des artistes dans votre classe** : Si possible, il est bon que l'acte 3 soit dirigé par l'enseignant principal en collaboration avec le professeur d'art. Cela contribuera à renforcer les qualités créatives, uniques et esthétiques du processus. 2-3 masques peuvent être réalisés à l'avance pour être présentés à titre d'exemple.
+**Invitez des artistes dans votre classe** : Si possible, il est bon que l'acte 3 soit dirigé par l'enseignant principal en collaboration avec le professeur d'art. Cela aide à renforcer la créativité, l'originalité et la qualité esthétique du travail. 2-3 masques peuvent être réalisés à l'avance pour être présentés à titre d'exemple.
 
 ### Objectifs pédagogiques
 
-Cette activité permet d'élargir la connaissance des caractéristiques spécifiques des trois états agrégés de l'eau : masse, volume, forme, densité. Dans le même temps, les compétences linguistiques sont renforcées grâce à des conditions permettant d'utiliser des adjectifs plus nombreux et plus variés. En créant leur propre personnage théâtral, les enfants adoptent des compétences concrètes en arts appliqués, développent leur motricité fine, stimulent leur imagination et leur pensée créative.
+Cette activité permet d'élargir la connaissance des caractéristiques spécifiques des trois états de l'eau : masse, volume, forme, densité. Les élèves renforcent aussi leurs compétences linguistiques en employant des adjectifs plus nombreux et plus variés pour décrire leur personnage. En créant leur propre personnage théâtral, les enfants adoptent des compétences concrètes en arts appliqués, développent leur motricité fine, stimulent leur imagination et leur pensée créative.
 
 ### Objectifs théâtraux
 
-Dans cette activité, les enfants sont initiés aux possibilités de créer un personnage théâtral en nommant ses qualités et comportements spécifiques et uniques. Le processus est rendu amusant et facile en visualisant le personnage dans un masque de théâtre. De cette façon, les enfants ont une meilleure idée de ce à quoi ils ressembleraient dans le rôle de ce personnage. Ensuite, ils peuvent passer spontanément et avec enthousiasme à l'étape suivante : jouer avec un masque de théâtre.
+Dans cette activité, les enfants sont initiés aux possibilités de créer un personnage théâtral en nommant ses qualités et comportements spécifiques et uniques. Visualiser le personnage dans un masque de théâtre rend ce travail amusant et facile. De cette façon, les enfants ont une meilleure idée de ce à quoi ils ressembleraient dans le rôle de ce personnage. Ensuite, ils peuvent passer spontanément et avec enthousiasme à l'étape suivante : jouer avec un masque de théâtre.
 
 ### Compétences développées
 
@@ -364,21 +364,21 @@ Modèles de masques et exemples de dessins de masques téléchargeables dans le 
 
 ### Résumé de l'activité
 
-L'acte 4 se compose de deux parties : répétition et représentation. L'accent reste mis sur les caractéristiques de l'eau dans ses différents états, que les élèves exploreront à travers leur corps.
+L'acte 4 a deux parties : répétition et représentation. L'accent reste mis sur les caractéristiques de l'eau dans ses différents états, que les élèves exploreront à travers leur corps.
 
 ### Répétition (30 min)
 
-Avant de commencer l'activité, l'enseignant réagence l'espace et place les masques des 3 mondes dans les trois mêmes coins de l'acte 3. L'enseignant demande aux élèves de prendre place et de former des binômes. En binôme : l'élève A tient le masque de l'élève B. L'élève B observe son propre masque et commence à explorer les mouvements et l'expression corporelle de son personnage. L'élève B met son masque et répète les mouvements pendant que l'élève A observe et donne son feedback. Les partenaires échangent leurs rôles dans le binôme sur ordre de l'enseignant. L'enseignant dirige la répétition avec des questions directrices :
+Avant de commencer l'activité, l'enseignant réagence l'espace et place les masques des 3 mondes dans les trois mêmes coins de l'acte 3. L'enseignant demande aux élèves de prendre place et de former des binômes. En binôme : l'élève A tient le masque de l'élève B. L'élève B observe son propre masque et commence à explorer les mouvements et l'expression corporelle de son personnage. L'élève B met son masque et répète les mouvements pendant que l'élève A observe et lui fait ses retours. Les partenaires échangent leurs rôles dans le binôme sur ordre de l'enseignant. L'enseignant dirige la répétition avec des questions directrices :
 
-- Comment vos personnages se déplacent-ils – rapidement ou lentement ? Avec des mouvements plus brusques ou plus fluides ? Votre créature est-elle lourde ou légère ? Est-ce qu'il marche avec les jambes serrées ou desserrées ?
+- Comment vos personnages se déplacent-ils : rapidement ou lentement ? Avec des mouvements plus brusques ou plus fluides ? Votre créature est-elle lourde ou légère ? Est-ce qu'il marche avec les jambes serrées ou desserrées ?
 - Comment vos personnages se sentent-ils ? Comment agissent-ils et réagissent-ils ? Sont-ils heureux ou tristes ? Curieux ou distraits ? Somnolents ou pleins d'énergie ? Affamés ou rassasiés ? Effrayés par le public ou essayant de l'intimider ? Timides ou confiants ? Impatients ou calmes...
-- Pourquoi et comment votre créature apparaît sur scène – pour trouver quelque chose, pour dire « bonjour », pour échapper à quelque chose. Il est également possible de se présenter en couple ou en trio et de réfléchir à d'éventuelles interactions entre vous et avec le public.
+- Pourquoi et comment votre créature apparaît sur scène : pour trouver quelque chose, pour dire « bonjour », pour échapper à quelque chose. Il est également possible de se présenter en couple ou en trio et de réfléchir à d'éventuelles interactions entre vous et avec le public.
 
 L'enseignant participe activement à la répétition en observant, en posant des questions supplémentaires, en aidant à prendre des décisions et en s'assurant du bon déroulement du processus au sein des groupes. À la fin de la répétition, l'enseignant visite chaque groupe et note les personnages dans l'ordre et dans leur mode d'apparition.
 
 ### Prestation (30 min)
 
-L'enseignant annonce le début de la présentation. Ce sera comme un voyage dans les trois mondes différents de l'eau. Pendant qu'un groupe se produit, le reste des élèves constituera le public, mais pas dans une salle de théâtre. Ils participeront activement en tant que groupe de voyageurs, découvrant différents mondes.
+L'enseignant annonce le début de la présentation. Ce sera comme un voyage dans les trois mondes différents de l'eau. Pendant qu'un groupe se produit, les autres élèves seront le public, mais pas dans une salle de théâtre. Ils participeront activement en tant que groupe de voyageurs, découvrant différents mondes.
 
 :::info[Note]
 
@@ -389,79 +389,79 @@ L'activité se termine par les félicitations de l'enseignant pour les excellent
 
 ### Conseils pour réaliser l'activité
 
-**Développement de l'intrigue** : L'imagination des enfants et l'enthousiasme du groupe peuvent permettre de développer la présentation des personnages en une intrigue avec un conflit, plusieurs événements consécutifs et une résolution. L'enseignant peut proposer qu'une personne du groupe assume le rôle de narrateur. Une opportunité de collaboration se présentera si le groupe invite un narrateur invité d'un autre groupe.
+**Développement de l'intrigue** : L'imagination des enfants et l'enthousiasme du groupe peuvent permettre de développer la présentation des personnages en une intrigue avec un conflit, plusieurs événements consécutifs et une résolution. L'enseignant peut proposer qu'une personne du groupe assume le rôle de narrateur. Inviter un narrateur d'un autre groupe est une occasion de collaboration entre les groupes.
 
 **Invitez des artistes dans votre classe** : Il serait très utile qu'un artiste soit invité dans votre classe afin de vous épauler pendant les périodes de répétition où un accompagnement individuel plus précis pourrait être nécessaire. Une courte vidéo avec exemple d'entraînement physique avec masque pourrait également être présentée : https://web.archive.org/web/20250808172336/https://bptp.live/larval-mask/
 
-**Utilisation de la musique** : L'ajout de musique d'ambiance peut améliorer l'impact et l'expérience du spectacle. Les exemples de bandes sonores de l'acte 2 peuvent également être utilisés ici.
+**Utilisation de la musique** : Ajouter une musique d'ambiance peut améliorer le spectacle. Les exemples de bandes sonores de l'acte 2 peuvent également être utilisés ici.
 
 ### Exemple de structure pour une représentation de théâtre de masques
 
 Les trois mondes par ordre de présentation : Solide - Liquide - Gazeux.
 
-> **Enseignant** — Nous voilà dans le monde des glaces éternelles. Les enfants, habillez-vous chaudement !
+> **Enseignant** : Nous voilà dans le monde des glaces éternelles. Les enfants, habillez-vous chaudement !
 
 Le « public » (les enfants des deux autres groupes) peut mimer : enfiler des chapeaux, des écharpes, des gants, taper du pied, se frotter les mains pour tenter de se réchauffer.
 
-> **Professeur** — Nous essaierons de ne pas rester longtemps et de voir rapidement qui habite ce monde. Oh, quel glacier grand et fort, mais il me semble plutôt paresseux. Regardez ces deux flocons de neige, comme ils sont légers, qui dansent autour de lui, et il est presque endormi. L'un des flocons est assez grincheux, il n'aime pas que le glacier ne fasse pas attention à lui et s'en aille. Voyez, un glaçon curieux et pointu apparaît ! Oh, mais le flocon de neige en a eu peur et est parti aussi. Regardez, un petit glaçon dur et colérique arrive vers nous. Je pense qu'il essaie de nous faire peur. Peut-être pense-t-il que nous allons le laisser tomber dans un verre d'eau et le faire fondre ?...
+> **Enseignant** : Nous essaierons de ne pas rester longtemps et de voir rapidement qui habite ce monde. Oh, quel glacier grand et fort, mais il me semble plutôt paresseux. Regardez ces deux flocons de neige, comme ils sont légers, qui dansent autour de lui, et il est presque endormi. L'un des flocons est assez grincheux, il n'aime pas que le glacier ne fasse pas attention à lui et s'en aille. Voyez, un glaçon curieux et pointu apparaît ! Oh, mais le flocon de neige en a eu peur et est parti aussi. Regardez, un petit glaçon dur et colérique arrive vers nous. Je pense qu'il essaie de nous faire peur. Peut-être pense-t-il que nous allons le laisser tomber dans un verre d'eau et le faire fondre ?...
 
 Consécutivement, l'enseignant, dans le style de l'exemple de texte ci-dessus, annonce le reste, jusqu'à ce que tous les enfants de ce groupe/monde interprètent leurs personnages. La représentation se termine par les salutations et les applaudissements du public.
 
 Transition vers le second monde, les groupes changent de place et le voyage continue.
 
-> **Enseignant** — Il est maintenant temps d'aller dans l'autre monde. Il y fera beaucoup plus chaud. Alors enlevons tous nos foulards et enfilons nos maillots de bain ! Préparez-vous à vous mouiller !
+> **Enseignant** : Il est maintenant temps d'aller dans l'autre monde. Il y fera beaucoup plus chaud. Alors enlevons tous nos foulards et enfilons nos maillots de bain ! Préparez-vous à vous mouiller !
 
 Le public mime l'action de remettre et d'enfiler des vêtements.
 
-> **Enseignant** — Oh, une petite et joyeuse goutte s'approche de nous. Saluons-la : "bonjour". Regardez, elle nous salue aussi ! Oh, quelle belle vague frétillante danse vers nous...
+> **Enseignant** : Oh, une petite et joyeuse goutte s'approche de nous. Saluons-la : « bonjour ». Regardez, elle nous salue aussi ! Oh, quelle belle vague frétillante danse vers nous...
 
 Le reste de la représentation du monde liquide suit l'exemple donné ci-dessus. La représentation se termine par les salutations et les applaudissements du public.
 
 Transition vers le dernier monde. Les groupes changent de place.
 
-> **Enseignant** — Pour le monde d'après, nous volerons en deltaplane. Mettez vos casques et vos lunettes.
+> **Enseignant** : Pour le monde d'après, nous volerons en deltaplane. Mettez vos casques et vos lunettes.
 
 Le public mime l'action d'enfiler des vêtements et un casque.
 
-> **Enseignant** — Oh, comme il y a du brouillard ici, voyez-vous quelque chose ?
+> **Enseignant** : Oh, comme il y a du brouillard ici, voyez-vous quelque chose ?
 >
-> **Élèves** — On croit voir quelqu'un venir vers nous ? Qui est-ce ?
+> **Élèves** : On croit voir quelqu'un venir vers nous ? Qui est-ce ?
 >
-> **Enseignant** — Un petit nuage s'approche de nous avec incertitude. Il est un peu timide. Tout va bien, petit nuage, n'aie pas peur ! Quelqu'un d'autre nous regarde, le sentez-vous ? Une vapeur d'eau très impatiente. Il semble qu'elle ait hâte de sauter...
+> **Enseignant** : Un petit nuage s'approche de nous avec incertitude. Il est un peu timide. Tout va bien, petit nuage, n'aie pas peur ! Quelqu'un d'autre nous regarde, le sentez-vous ? Une vapeur d'eau très impatiente. Il semble qu'elle ait hâte de sauter...
 
 Tous les personnages du monde gazeux se comportent comme dans les deux mondes précédents. La représentation se termine par les salutations et les applaudissements du public.
 
 ### Objectifs d'apprentissage
 
-L'objectif de l'acte 4 est de permettre aux élèves de consolider par l'expérience les connaissances acquises sur l'eau et sa présence constante et dynamique autour de nous. Jouer sur les caractéristiques spécifiques de l'eau améliore et rend l'expérience cognitive durable. Avec l'enseignant, ils créent une histoire théâtrale improvisée basée sur des concepts scientifiques. Les situer dans le rôle d'un public actif développe leur observation, leur sensibilité, leur réflexion et leurs compétences pour donner et recevoir des commentaires constructifs et ils apprennent à apprendre les uns des autres.
+L'objectif de l'acte 4 est de permettre aux élèves de consolider par l'expérience les connaissances acquises sur l'eau et sa présence constante et dynamique autour de nous. Jouer sur les caractéristiques spécifiques de l'eau améliore l'apprentissage et le rend durable. Avec l'enseignant, ils créent une histoire théâtrale improvisée fondée sur des concepts scientifiques. Les situer dans le rôle d'un public actif développe leur observation, leur sensibilité, leur réflexion et leurs compétences pour donner et recevoir des commentaires constructifs et ils apprennent à apprendre les uns des autres.
 
 ### Objectifs théâtraux
 
-Dans cette dernière partie, les enfants sont stimulés à développer un comportement théâtral global et le jeu avec masque soutient ce processus. Dans le processus individuel de représentation et d'expression, cette activité vise à leur faire explorer la capacité de création du corps. Ils découvrent ce qui motive le personnage, quels sentiments et qualités il manifeste, ce qu'il veut dire et démontrer, comment il communique, agit et réagit. Limités par le masque, les élèves développeront la capacité d'exprimer différentes significations avec l'ensemble de leur corps. Les compétences d'orientation spatiale seront développées et le processus d'auto-observation et de conscience sera renforcé. Le masque est un outil théâtral particulièrement efficace s'il y a dans la classe des enfants timides ou ayant des difficultés de communication. Cela leur permet de prendre le contrôle et d'oser s'exprimer avec audace et liberté.
+Dans cette dernière partie, les enfants sont amenés à développer un comportement théâtral global, et le jeu avec masque les y aide. Dans le processus individuel de représentation et d'expression, cette activité vise à leur faire explorer la capacité de création du corps. Ils découvrent ce qui motive le personnage, quels sentiments et qualités il manifeste, ce qu'il veut dire et démontrer, comment il communique, agit et réagit. Limités par le masque, les élèves développeront la capacité d'exprimer différentes significations avec l'ensemble de leur corps. Ils développeront aussi leurs compétences d'orientation dans l'espace et renforceront leur capacité à s'observer et leur conscience de soi. Le masque est un outil théâtral particulièrement efficace s'il y a dans la classe des enfants timides ou ayant des difficultés de communication. Cela leur permet de prendre le contrôle et d'oser s'exprimer avec audace et liberté.
 
 ### Compétences développées
 
 - Expressivité du langage corporel
 - Créativité
 - Réinterpréter des concepts et des termes scientifiques de base
-- Développer les qualités corporelles - flexibilité, force, équilibre et coordination
+- Développer les qualités corporelles : flexibilité, force, équilibre et coordination
 - Compétences en présentation
-- Booster la confiance en soi
+- Renforcer la confiance en soi
 - Développement de la pleine conscience de soi et des autres
 - Compétences en communication
-- Compétences en feedback constructif
+- Compétences pour donner des retours constructifs
 
 ---
 
 ## Acte 3 & Acte 4 - Aller plus loin
 
-L'acte de mettre un masque et de devenir quelqu'un (ou quelque chose) d'autre pendant un instant n'a pas changé dans le temps. L'histoire des masques est antérieure à celle du théâtre et de la danse. La décoration du visage est au moins aussi ancienne que la musique et fait partie de la narration depuis l'aube du développement du langage. Il s'agit d'un domaine vaste et intéressant à explorer par l'enseignant avec les élèves. Les masques viennent de différentes parties du monde et de différentes époques historiques, ce qui offre à l'enseignant des opportunités supplémentaires de relier les arts du théâtre à l'histoire et à la géographie.
+L'acte de mettre un masque et de devenir quelqu'un (ou quelque chose) d'autre pendant un instant n'a pas changé dans le temps. L'histoire des masques est antérieure à celle du théâtre et de la danse. La décoration du visage est au moins aussi ancienne que la musique et fait partie de la narration depuis les débuts du langage. L'enseignant peut explorer ce vaste domaine avec les élèves. Les masques viennent de différentes parties du monde et de différentes époques historiques, ce qui offre à l'enseignant des occasions supplémentaires de relier les arts du théâtre à l'histoire et à la géographie.
 
 ### Théâtre grec antique
 
 Lieu : Grèce ; époque : 5ème siècle avant JC.
 
-C'est le début du théâtre en tant qu'art que nous connaissons aujourd'hui. Nous avons tous vu à maintes reprises les deux masques de la tragédie et de la comédie qui sont les symboles de l'art théâtral.
+C'est le début du théâtre en tant qu'art que nous connaissons aujourd'hui. Les deux masques bien connus de la tragédie et de la comédie sont les symboles de l'art théâtral.
 
 - Informations détaillées pour l'enseignant : https://youtu.be/aSRLK7SogvE
 - Récits simples et amusants pour les enfants : https://www.youtube.com/watch?v=rFDT-c6QGpk

@@ -46,17 +46,15 @@ sidebar_position: 7
 
 ### Résumé de l'activité
 
-L'activité « STEAM YOUR BODY » est une approche globale et engageante pour enseigner les mathématiques aux enfants du primaire. Elle combine le mouvement physique, la créativité, la collaboration et l'expression de soi pour améliorer la compréhension et l'engagement des élèves sur les sujets de symétrie et géométrie.
+L'activité « STEAM YOUR BODY » enseigne les mathématiques aux enfants du primaire. Elle combine le mouvement physique, la créativité, la collaboration et l'expression de soi pour améliorer la compréhension et l'engagement des élèves sur la symétrie et la géométrie.
 
-L'activité est structurée comme un jeu, avec cinq activités différentes qui s'appuient les unes sur les autres. Chaque activité se concentre sur un aspect spécifique de la symétrie et de la géométrie, permettant aux élèves d'explorer et d'approfondir leur compréhension. En participant, les élèves développent leurs connaissances mathématiques et leur intuition scientifique par le mouvement.
+Elle est structurée comme un jeu. Chaque acte porte sur un aspect de la symétrie et de la géométrie, et les élèves développent leurs connaissances mathématiques et leur intuition scientifique par le mouvement. Les cinq actes sont complémentaires et s'appuient les uns sur les autres, mais chacun peut aussi être utilisé seul :
 
-L'activité est divisée en 5 actes, complémentaires mais pouvant être utilisés individuellement :
-
-- La première activité se concentre sur la symétrie. Les enfants découvrent les formes symétriques en les imitant.
+- Le premier acte se concentre sur la symétrie. Les enfants découvrent les formes symétriques en les imitant.
 - Les enfants sont mis au défi de créer et de mimer leurs figures géométriques.
 - Les élèves participent à un concours coopératif pour appliquer leurs connaissances.
 - Les élèves imaginent et créent une chorégraphie de doigts mise en musique.
-- L'activité finale consolide la compréhension grâce à une chorégraphie des mains qui intègre des concepts mathématiques et introduit le concept du kaléidoscope.
+- L'acte final consolide la compréhension grâce à une chorégraphie des mains qui intègre des concepts mathématiques et introduit le concept du kaléidoscope.
 
 ---
 
@@ -78,19 +76,19 @@ L'activité est divisée en 5 actes, complémentaires mais pouvant être utilis�
 
 L'enseignant invite les élèves à réfléchir sur la symétrie en leur proposant de faire de la symétrie avec leurs corps. Pour cela, ils font de la place dans la classe afin d'avoir de l'espace ou bien ils peuvent aller dehors.
 
-> **L'ENSEIGNANT** — Vous allez constituer des groupes de 3 personnes : avec un élève A, un élève B et un élève C.
+> **L'ENSEIGNANT** : Vous allez constituer des groupes de 3 personnes : avec un élève A, un élève B et un élève C.
 
 Pendant la création des groupes, l'enseignant met au sol une corde, ou du scotch pour constituer une ligne.
 
-> **LES ÉLÈVES** — (Tous en chœur) On se met où ?
+> **LES ÉLÈVES** : (Tous en chœur) On se met où ?
 >
-> **L'ENSEIGNANT** — Les élèves A se mettent face à la ligne puis les élèves B se mettent en face de leurs camarades. Enfin les élèves C, vous serez les arbitres, donc vous vous mettez sur le côté de votre groupe. L'élève C peut prendre une règle pour vérifier la distance de ses deux camarades par rapport à la ligne sur le sol pour vérifier la parfaite symétrie.
+> **L'ENSEIGNANT** : Les élèves A se mettent face à la ligne puis les élèves B se mettent en face de leurs camarades. Enfin les élèves C, vous serez les arbitres, donc vous vous mettez sur le côté de votre groupe. L'élève C peut prendre une règle pour vérifier la distance de ses deux camarades par rapport à la ligne sur le sol pour vérifier la parfaite symétrie.
 
-Les élèves réalisent l'activité avec engouement. Ils pratiquent l'art du mime et de la symétrie grâce aux mouvements de leurs corps.
+Les élèves pratiquent le mime et la symétrie par les mouvements de leur corps.
 
 ### Objectifs pédagogiques
 
-Pour comprendre le mécanisme de la symétrie, rien de mieux que de l'interpréter corporellement ! Cette activité permet de réviser ou de consolider les connaissances portées sur la symétrie. Passer par le mime permet de comprendre un genre théâtral, de se repérer dans l'espace et prendre conscience de son corps. Entre l'observation, la compréhension, le raisonnement et les mouvements, il faut reproduire à la perfection.
+Les élèves révisent ou consolident leurs connaissances sur la symétrie en la jouant avec leur corps. Passer par le mime les aide à comprendre un genre théâtral, à se repérer dans l'espace et à prendre conscience de leur corps. Il faut reproduire à la perfection les gestes de son camarade, ce qui demande d'observer, de comprendre et de raisonner.
 
 ### Objectifs théâtraux
 
@@ -110,12 +108,12 @@ Au sein de cette activité, les élèves vont découvrir un genre théâtral qui
 
 ### Aller plus loin
 
-**Dessine-moi... Dessin géométrique et symétrique** : Il est possible de demander aux élèves de s'exercer à la symétrie en réalisant des modèles d'animaux géométriques à faire en classe ou à la maison.
+**Dessine-moi... Dessin géométrique et symétrique** : On peut demander aux élèves de s'exercer à la symétrie en réalisant des modèles d'animaux géométriques, en classe ou à la maison.
 
 - http://jeuxremuemeninge.blogspot.com/2019/02/symetrie-animaux-cycle-2-et-3.html
 - http://cinexavier.free.fr/34AnimauxSymetrieAxialeQuadrillage.pdf
 
-**1, 2, 3... Action ! Le mime** : Pour aller plus loin, faire une brève introduction sur ce qu'est le mime et expliquer ses origines, puis montrer quelques vidéos. Citer des personnes célèbres comme Marcel Marceau ou Charlie Chaplin.
+**1, 2, 3... Action ! Le mime** : Faire une brève introduction sur ce qu'est le mime et expliquer ses origines, puis montrer quelques vidéos. Citer des personnes célèbres comme Marcel Marceau ou Charlie Chaplin.
 
 - https://www.youtube.com/watch?v=XEsfpRrfXf4
 - https://www.youtube.com/watch?v=7wBF4t6rly4
@@ -142,21 +140,21 @@ Au sein de cette activité, les élèves vont découvrir un genre théâtral qui
 
 ### Résumé de l'activité
 
-Pendant un cours, l'enseignant invite les élèves à réfléchir sur les figures géométriques qu'ils connaissent. Le professeur donne quelques éléments et leur explique qu'ils vont devoir les mimer avec leurs corps.
+Pendant un cours, l'enseignant invite les élèves à réfléchir sur les figures géométriques qu'ils connaissent. Il donne quelques éléments et leur explique qu'ils vont devoir les mimer avec leurs corps.
 
-> **L'ENSEIGNANT** — Vous allez constituer des groupes de 5 personnes et proposer des figures géométriques que vous connaissez. Vous pouvez en imaginer. Chaque groupe, tour à tour, en réalisera une. Elles doivent être parfaitement réalisées pour que nous puissions deviner la forme géométrique que vous représentez.
+> **L'ENSEIGNANT** : Vous allez constituer des groupes de 5 personnes et proposer des figures géométriques que vous connaissez. Vous pouvez en imaginer. Chaque groupe, tour à tour, en réalisera une. Elles doivent être parfaitement réalisées pour que nous puissions deviner la forme géométrique que vous représentez.
 >
-> **LES ÉLÈVES** — (Tous en chœur) Mais quelle forme devons-nous faire ?
+> **LES ÉLÈVES** : (Tous en chœur) Mais quelle forme devons-nous faire ?
 >
-> **L'ENSEIGNANT** — Vous pouvez faire, par exemple, un carré, ou un rectangle. Vous avez un large choix, réfléchissez bien ! Pensez à toutes les figures géométriques que vous connaissez, et surtout il faut qu'elles soient réalisables ! Je laisse 5 minutes à chaque groupe pour que vous décidiez ensemble de vos figures dans le calme. Ensuite, vous vous entraînerez par petit groupe, puis vous présenterez à l'ensemble de la classe tour à tour votre forme géométrique. Ce sera à nous de deviner !
+> **L'ENSEIGNANT** : Vous pouvez faire, par exemple, un carré, ou un rectangle. Vous avez un large choix, réfléchissez bien ! Pensez à toutes les figures géométriques que vous connaissez, et surtout il faut qu'elles soient réalisables ! Je laisse 5 minutes à chaque groupe pour que vous décidiez ensemble de vos figures dans le calme. Ensuite, vous vous entraînerez par petit groupe, puis vous présenterez à l'ensemble de la classe tour à tour votre forme géométrique. Ce sera à nous de deviner !
 
 ### Objectifs pédagogiques
 
-Cette activité découle de la première sur le mime et la symétrie. Désormais, il est temps pour les élèves de mimer des figures géométriques dans le but de les interpréter corporellement. Cette activité permet de réactualiser leurs connaissances acquises en cours de mathématiques. L'intérêt est de permettre aux élèves d'apprendre à se repérer dans l'espace mais aussi de prendre conscience du potentiel que leurs corps peuvent leur offrir.
+Cette activité fait suite à la première, sur le mime et la symétrie. Les élèves miment cette fois des figures géométriques pour les interpréter avec leur corps, et réactualisent les connaissances acquises en cours de mathématiques. Ils apprennent aussi à se repérer dans l'espace et prennent conscience de ce que leur corps peut faire.
 
 ### Objectifs théâtraux
 
-Précédemment les élèves ont pu découvrir le mime. L'objectif de cette activité est de renforcer et réactualiser l'apprentissage du mime en : jouant dans le silence puisque ce genre théâtral est muet, s'exprimer corporellement, développer sa capacité d'analyse et de retranscription mentale et physique.
+Les élèves ont découvert le mime dans l'acte 1. Ils renforcent et réactualisent ici ce qu'ils en ont appris : ils jouent en silence, puisque ce genre théâtral est muet, s'expriment avec le corps et développent leur capacité d'analyse et de retranscription mentale et physique.
 
 ### Compétences développées
 
@@ -217,19 +215,19 @@ Modèles Tangram d'animaux à découper et à colorier.
 
 ### Résumé de l'activité
 
-Après avoir vu l'acte 2, il est temps que les élèves mettent leurs talents de mime en œuvre ! L'enseignant invite les élèves à constituer deux groupes. Le professeur leur explique qu'ils vont devoir faire une compétition de mime en reproduisant des figures géométriques avec leurs corps.
+Après l'acte 2, les élèves mettent en œuvre leurs talents de mime. L'enseignant les invite à constituer deux groupes et leur explique qu'ils vont devoir faire une compétition de mime en reproduisant des figures géométriques avec leurs corps.
 
-> **L'ENSEIGNANT** — Nous allons diviser la classe en deux, soit deux groupes de 10 élèves. Les 5 premiers élèves, vous allez devoir mimer, au sol, une figure géométrique qui se trouve sur ces feuilles. Puis, les 5 autres élèves, vous allez devoir bien observer pour reproduire la symétrie parfaite de leur figure. Si la figure est bien réalisée, vous remportez un point ; si la symétrie est elle aussi bien réussie, alors vous gagnerez 2 points. Si elle n'est pas correctement réalisée, vous ne remportez pas le point et si la symétrie n'est pas du tout bien réalisée alors vous aurez -1 point !
+> **L'ENSEIGNANT** : Nous allons diviser la classe en deux, soit deux groupes de 10 élèves. Les 5 premiers élèves, vous allez devoir mimer, au sol, une figure géométrique qui se trouve sur ces feuilles. Puis, les 5 autres élèves, vous allez devoir bien observer pour reproduire la symétrie parfaite de leur figure. Si la figure est bien réalisée, vous remportez un point ; si la symétrie est elle aussi bien réussie, alors vous gagnerez 2 points. Si elle n'est pas correctement réalisée, vous ne remportez pas le point et si la symétrie n'est pas du tout bien réalisée alors vous aurez -1 point !
 
 Pendant la formation des groupes, l'enseignant met au sol une corde, ou bien du scotch de couleur pour constituer une ligne droite et un élève distribue les feuilles avec les différentes formes géométriques à réaliser.
 
-> **LES ÉLÈVES** — Mais on doit toutes les faire ?
+> **LES ÉLÈVES** : Mais on doit toutes les faire ?
 >
-> **L'ENSEIGNANT** — Il y a un chronomètre, chaque équipe dispose de 3 minutes, le but est d'en réaliser un maximum correctement. Pour cela, il va falloir observer attentivement les figures, communiquer pour pouvoir les réaliser ensemble. Alors, vous êtes prêts ?
+> **L'ENSEIGNANT** : Il y a un chronomètre, chaque équipe dispose de 3 minutes, le but est d'en réaliser un maximum correctement. Pour cela, il va falloir observer attentivement les figures, communiquer pour pouvoir les réaliser ensemble. Alors, vous êtes prêts ?
 
 ### Objectifs pédagogiques
 
-L'objectif ici est de permettre aux élèves de réinvestir les connaissances acquises au cours des précédentes activités mais aussi de les réactualiser concernant la symétrie et les figures géométriques. Les intérêts pédagogiques de cette activité sont : le réinvestissement des savoirs, savoir coopérer, communiquer et s'organiser au sein d'un groupe tout en étant bienveillant.
+Les élèves réinvestissent et réactualisent ce qu'ils ont appris sur la symétrie et les figures géométriques dans les activités précédentes. Ils apprennent aussi à coopérer, communiquer et s'organiser au sein d'un groupe tout en étant bienveillants.
 
 ### Objectifs théâtraux
 
@@ -279,19 +277,19 @@ Feuilles de formes géométriques à reproduire, chiffres mathématiques, cartes
 
 ### Résumé de l'activité
 
-Après la bataille finale, il est temps de se concentrer désormais sur une partie du corps : les mains et plus particulièrement les doigts. Rapidité, dextérité et agilité vont être mises à l'épreuve ! Pour cette activité, les élèves vont devoir créer une chorégraphie avec leurs mains.
+Après la bataille finale, cet acte se concentre sur une partie du corps : les mains, et plus particulièrement les doigts. Les élèves vont devoir créer une chorégraphie avec leurs mains, qui met à l'épreuve leur rapidité, leur dextérité et leur agilité.
 
-> **L'ENSEIGNANT** — Aujourd'hui nous allons faire une activité particulière. Pour cela, vous allez créer des groupes de 3. Vous allez devoir créer une chorégraphie avec vos mains et doigts, en réalisant des figures géométriques, du rythme et surtout il va falloir que vous soyez synchronisés tous ensemble. Mais avant de commencer, nous allons regarder une vidéo pour vous inspirer.
+> **L'ENSEIGNANT** : Aujourd'hui nous allons faire une activité particulière. Pour cela, vous allez créer des groupes de 3. Vous allez devoir créer une chorégraphie avec vos mains et doigts, en réalisant des figures géométriques, du rythme et surtout il va falloir que vous soyez synchronisés tous ensemble. Mais avant de commencer, nous allons regarder une vidéo pour vous inspirer.
 
 Lien pour la vidéo : https://www.youtube.com/watch?v=GC-PV2BSYD4
 
 ### Objectifs pédagogiques
 
-Afin de reprendre les précédentes notions vues sur la symétrie et la géométrie, cette activité permet d'aller encore plus loin en passant par la réalisation d'une chorégraphie. L'objectif est de permettre aux élèves d'explorer toutes les capacités qu'offre notre corps pour l'art de la danse. Proche du théâtre, il existe une discipline qui s'intitule la danse-théâtre.
+Les élèves reprennent les notions de symétrie et de géométrie vues précédemment, et vont encore plus loin en créant une chorégraphie. Ils explorent tout ce que leur corps peut faire en danse. Proche du théâtre, il existe une discipline qui s'intitule la danse-théâtre.
 
 ### Objectifs théâtraux
 
-La chorégraphie des doigts est une activité proche du théâtre puisqu'elle concerne un autre art de la scène : celui de la danse. Elle a des similitudes avec le mime, puisque seul le corps s'exprime tout en restant muet. À travers cette activité, les élèves deviennent de véritables metteurs en scène.
+La chorégraphie des doigts est une activité proche du théâtre puisqu'elle concerne un autre art de la scène : celui de la danse. Elle a des similitudes avec le mime, puisque seul le corps s'exprime tout en restant muet. Les élèves deviennent metteurs en scène : ils inventent eux-mêmes leur chorégraphie.
 
 ### Compétences développées
 
@@ -341,21 +339,21 @@ Aller encore plus loin avec la langue des signes : apprendre à signer des mots 
 
 ### Résumé de l'activité
 
-Pour clore le chapitre Steam Your Body, il est temps désormais de jouer l'acte final !
+L'acte final clôt le chapitre Steam Your Body.
 
-> **L'ENSEIGNANT** — Aujourd'hui est un grand jour puisque vous allez nous présenter, groupe après groupe, chacune de vos chorégraphies. Le groupe 1 va commencer, puis ensuite ce sera au tour du groupe 2, etc. Nous allons nous mettre autour du groupe 1 en restant debout pour pouvoir observer leur chorégraphie des mains vue d'en haut. À la fin de leur présentation, nous échangerons ensemble sur ce qui vous a plu, ce que vous avez trouvé beau et intéressant.
+> **L'ENSEIGNANT** : Aujourd'hui est un grand jour puisque vous allez nous présenter, groupe après groupe, chacune de vos chorégraphies. Le groupe 1 va commencer, puis ensuite ce sera au tour du groupe 2, etc. Nous allons nous mettre autour du groupe 1 en restant debout pour pouvoir observer leur chorégraphie des mains vue d'en haut. À la fin de leur présentation, nous échangerons ensemble sur ce qui vous a plu, ce que vous avez trouvé beau et intéressant.
 
 Pendant la préparation des groupes, l'enseignant aide les élèves à mettre leur musique et répond à leurs questions. L'enseignant prépare la caméra pour filmer chacune des chorégraphies proposées.
 
-> **LES ÉLÈVES** — Nous sommes prêts !
+> **LES ÉLÈVES** : Nous sommes prêts !
 >
-> **L'ENSEIGNANT** — 1, 2, 3 action !
+> **L'ENSEIGNANT** : 1, 2, 3 action !
 
 L'acte final se réalise dans le calme et la concentration.
 
 ### Objectifs pédagogiques
 
-L'objectif à travers cette dernière activité est d'amener les élèves à produire une chorégraphie des mains tout en réinvestissant chacune des notions mathématiques vues tout au long de ce chapitre. L'objectif est de faire découvrir à votre classe la notion de kaléidoscope en passant par l'expérience et la manipulation à travers leurs corps. Si le kaléidoscope est avant tout un instrument optique permettant d'observer des formes géométriques et des couleurs à travers un jeu de miroir, l'activité finger kaléidoscope permet de découvrir en amont cet instrument en passant par le jeu des mains et des doigts.
+Dans cette dernière activité, les élèves produisent une chorégraphie des mains en réinvestissant chacune des notions mathématiques vues tout au long du chapitre. Avec le finger kaléidoscope, ils découvrent aussi la notion de kaléidoscope par l'expérience et la manipulation, avec leurs mains et leurs doigts, avant de découvrir l'instrument optique.
 
 ### Objectifs théâtraux
 
