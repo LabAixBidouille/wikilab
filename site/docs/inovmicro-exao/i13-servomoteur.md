@@ -32,10 +32,10 @@ sidebar_position: 13
 - **Câbles de connexion** (le servo est livré avec un connecteur 3 broches femelle, à brancher sur la STeaMi via le connecteur Edge ou les pads crocodile)
 
 :::info[Alimentation du servomoteur]
-Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les **3,3 V** que fournit la STeaMi, un SG-90 fonctionne **à vide** sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une **alimentation externe 5 V** (pile 4×AA, alim secteur, powerbank...). Le câblage devient alors :
+Un servomoteur consomme plus de courant qu'une LED (jusqu'à 200 mA en charge pour un SG-90, plus encore pour des modèles plus gros). Sur les 3,3 V que fournit la STeaMi, un SG-90 fonctionne à vide sans souci, mais devient mou si on lui demande de soulever quelque chose. Pour un projet réel avec charge, prévoir une alimentation externe 5 V (pile 4×AA, alim secteur, powerbank...). Le câblage devient alors :
 
-- **V+ du servo** (fil rouge) → **+5 V** de l'alim externe (et **rien** côté STeaMi).
-- **GND du servo** (fil noir), **GND de l'alim externe** et **GND de la STeaMi** : **les trois reliés entre eux** (typiquement sur la même bande GND de la breadboard). Cette **masse commune est impérative** : sans elle, le signal PWM envoyé par la STeaMi n'a pas de référence électrique commune avec le servo, et le servo ne réagit pas (ou se met à vibrer).
+- **V+ du servo** (fil rouge) → +5 V de l'alim externe (et **rien** côté STeaMi).
+- **GND du servo** (fil noir), GND de l'alim externe et GND de la STeaMi : les trois reliés entre eux (typiquement sur la même bande GND de la breadboard). Cette **masse commune est impérative** : sans elle, le signal PWM envoyé par la STeaMi n'a pas de référence électrique commune avec le servo, et le servo ne réagit pas (ou se met à vibrer).
 - **Signal du servo** (fil orange/jaune) → broche **P7** de la STeaMi, comme dans le câblage principal.
 :::
 
@@ -49,9 +49,9 @@ Un servomoteur consomme **plus de courant** qu'une LED (jusqu'à 200 mA en charg
 
 ## De quoi parle-t-on ?
 
-Vous avez sans doute déjà ouvert un jouet motorisé et vu, à l'intérieur, un petit boîtier en plastique avec un bras qui tourne et claque dans un sens puis dans l'autre : c'est un **servomoteur**. On en retrouve dans les **bras robotiques industriels**, les **drones** qui ajustent l'angle de leurs hélices, les **portails automatiques** qui s'ouvrent à 90°, les **figurines animées** dans les vitrines de Noël, les **fauteuils inclinables** modernes. Partout où il faut **positionner précisément** un élément à un angle donné, le servomoteur est l'outil.
+Vous avez sans doute déjà ouvert un jouet motorisé et vu, à l'intérieur, un petit boîtier en plastique avec un bras qui tourne et claque dans un sens puis dans l'autre : c'est un **servomoteur**. On en retrouve dans les bras robotiques industriels, les drones qui ajustent l'angle de leurs hélices, les portails automatiques qui s'ouvrent à 90°, les figurines animées dans les vitrines de Noël, les fauteuils inclinables modernes. Partout où il faut positionner précisément un élément à un angle donné, le servomoteur est l'outil.
 
-À la différence d'un moteur classique qui tourne en continu (comme celui d'un ventilateur), un servomoteur **ne tourne pas** à proprement parler : il **se positionne** à un angle qu'on lui demande, et il **y reste** tant qu'on ne lui en demande pas un autre. C'est cette capacité à « tenir une position » qui le distingue.
+À la différence d'un moteur classique qui tourne en continu (comme celui d'un ventilateur), un servomoteur ne tourne pas à proprement parler : il se positionne à un angle qu'on lui demande, et il y reste tant qu'on ne lui en demande pas un autre.
 
 Dans cette fiche, vous allez brancher un mini-servomoteur à la STeaMi, lui faire balayer un angle de 0° à 180° en boucle, puis explorer comment l'arrêter à des positions intermédiaires pour fabriquer une aiguille de minuterie, un essuie-glace miniature ou un bras de tri.
 
@@ -78,14 +78,14 @@ Pas de servomoteur intégré à la STeaMi, il faut donc en ajouter un en externe
 
 ### Comprendre le servomoteur
 
-Sous son boîtier en plastique, un **servomoteur** rassemble en réalité **quatre éléments** :
+Sous son boîtier en plastique, un servomoteur rassemble quatre éléments :
 
 1. Un **petit moteur à courant continu** qui produit la rotation.
 2. Un **réducteur** (engrenages) qui démultiplie le couple et réduit la vitesse.
 3. Un **potentiomètre interne** solidaire de l'axe de sortie, qui mesure en permanence l'angle réel.
 4. Un **circuit de contrôle** qui compare l'angle réel à l'angle demandé et alimente le moteur dans le bon sens pour rattraper la différence.
 
-C'est ce dernier circuit qui fait toute la magie : on lui dit « va à 90° », il regarde sa position actuelle, et il fait tourner le moteur juste assez pour atteindre 90°, puis il s'arrête. Si on pousse le bras à la main, il résiste : le circuit voit la différence, rallume le moteur, et ramène à 90°. C'est cette **rétroaction** qui fait qu'un servomoteur **tient sa position**.
+Quand on dit au circuit de contrôle « va à 90° », il regarde sa position actuelle, et il fait tourner le moteur juste assez pour atteindre 90°, puis il s'arrête. Si on pousse le bras à la main, il résiste : le circuit voit la différence, rallume le moteur, et ramène à 90°. C'est cette **rétroaction** qui fait qu'un servomoteur tient sa position.
 
 :::info[Servomoteur vs moteur continu vs moteur pas-à-pas]
 - **Moteur DC classique** : tourne tant qu'on l'alimente, vitesse proportionnelle à la tension, **pas de notion d'angle**. Utilisé pour propulsion (ventilateur, robot mobile).
@@ -105,9 +105,9 @@ Le servomoteur attend un signal **PWM (Pulse Width Modulation)** très particuli
   - **1,5 ms** → bras à **90°** (centre)
   - **2 ms** → bras à **180°**
 
-C'est la **durée de l'impulsion** (pas son nombre, pas sa fréquence) qui code l'angle. Le servo lit cette durée toutes les 20 ms et ajuste sa position en conséquence.
+C'est la durée de l'impulsion (pas son nombre, pas sa fréquence) qui code l'angle. Le servo lit cette durée toutes les 20 ms et ajuste sa position en conséquence.
 
-En notation **16 bits MicroPython** (qu'on utilise via `duty_u16`), avec une fréquence de 50 Hz, le cycle entier vaut `65535` :
+En notation 16 bits MicroPython (qu'on utilise via `duty_u16`), avec une fréquence de 50 Hz, le cycle entier vaut `65535` :
 
 - 1 ms / 20 ms × 65535 ≈ **3277** (pour 0°)
 - 2 ms / 20 ms × 65535 ≈ **6554** (pour 180°)
@@ -122,7 +122,7 @@ Le SG-90 (et la plupart des servos hobby) sort trois fils dans un connecteur **J
 | ----------- | ------------- | ----------------- |
 | **Noir** (ou marron) | GND            | Pad / broche GND  |
 | **Rouge**            | V+ alimentation | Pad / broche 3V3 (ou alim externe 5 V, cf. callout) |
-| **Jaune** (ou orange) | Signal PWM    | Broche **P7** (signal `GPIO3_EDGE`, supporte PWM) |
+| **Jaune** (ou orange) | Signal PWM    | Broche **P7** (signal `GPIO3_EDGE`, compatible PWM) |
 
 Brancher en respectant l'ordre des fils : c'est facile de tordre le servo si on inverse rouge et noir. À la première mise sous tension, le bras peut faire un petit sursaut, c'est normal.
 
@@ -189,7 +189,7 @@ while True:
 
 1. **Imports** : `PWM` et `Pin` depuis `machine`, `sleep_ms` pour les pauses.
 2. **Initialisation** : on crée un objet `PWM` sur la broche P7, on fixe sa fréquence à **50 Hz**.
-3. **Constantes `DUTY_MIN` / `DUTY_MAX`** : calculées une fois pour toutes en début de programme. Pas de magie dans le code de la boucle.
+3. **Constantes `DUTY_MIN` / `DUTY_MAX`** : calculées une fois pour toutes en début de programme, pour ne pas écrire de nombres bruts dans le code de la boucle.
 4. **`regler_servo(angle)`** : protège d'abord l'angle avec `max(0, min(180, angle))` (on ne veut pas envoyer 250° ou -10° qui pourraient forcer le servo contre une butée mécanique et l'abîmer). Puis interpole linéairement entre `DUTY_MIN` et `DUTY_MAX`, et applique le duty cycle.
 5. **Boucle principale** : alterne entre 0° et 180° avec une pause d'une seconde entre chaque position. Le servo prend environ 0,1 à 0,2 seconde pour atteindre la position demandée selon le couple ; la seconde de pause garantit qu'il finit son mouvement avant le suivant.
 
@@ -206,7 +206,7 @@ L'opérateur `//` réalise une **division entière**, qui retourne un entier au 
 
 Si le servo **vibre, tremble sur place ou bourdonne sans atteindre la position**, dérouler la checklist dans cet ordre :
 
-1. **Masse commune** : si vous utilisez une alim externe pour le servo, vérifier que **GND alim ext + GND servo + GND STeaMi sont bien reliés ensemble** (cf. callout « Alimentation du servomoteur »). Sans cette masse commune, le signal PWM n'a pas de référence et le servo réagit n'importe comment. C'est **la cause la plus fréquente** de servo qui vibre.
+1. **Masse commune** : si vous utilisez une alim externe pour le servo, vérifier que GND alim ext + GND servo + GND STeaMi sont bien reliés ensemble (cf. callout « Alimentation du servomoteur »). Sans cette masse commune, le signal PWM n'a pas de référence et le servo réagit n'importe comment. C'est la cause la plus fréquente de servo qui vibre.
 2. **Tension trop faible** : sur les 3,3 V de la STeaMi, un SG-90 fonctionne à vide mais bloque dès qu'on lui demande un effort. Si le servo doit déplacer quelque chose (bras, levier, hélice), passer à une alim externe 5 V comme décrit dans le callout.
 3. **Charge mécanique** : le bras du servo bute contre quelque chose ou n'a pas la liberté de tourner ? Démonter pour vérifier que rien ne le bloque, puis relancer à vide.
 4. **Mauvaise broche** : le fil signal est-il bien sur **P7** ? Une broche non-PWM (ex. `GPIO2_EDGE` / P6 qui n'est pas listée PWM) donnera des résultats erratiques. Cf. tableau « Broches utilisées ».
@@ -248,7 +248,7 @@ Indice : `regler_servo(angle)` + une variable qu'on incrémente dans une boucle 
 
 ### Défi 4 : Démarrer au bouton A
 
-Faire en sorte que le balayage **ne commence qu'après un appui sur le bouton A intégré** de la STeaMi. Avant l'appui, le servo est immobile à 90°.
+Faire en sorte que le balayage ne commence qu'après un appui sur le bouton A intégré de la STeaMi. Avant l'appui, le servo est immobile à 90°.
 
 ```python
 from machine import Pin
@@ -274,18 +274,18 @@ while True:
 
 ### Pour comprendre
 
-- **[Servomoteur (Wikipédia)](https://fr.wikipedia.org/wiki/Servomoteur)** : histoire et anatomie détaillée. Né dans l'industrie pour piloter les gouvernails de bateau au début du XXᵉ siècle, démocratisé par le modélisme dans les années 60, omniprésent aujourd'hui dans la domotique et la robotique éducative.
+- **[Servomoteur (Wikipédia)](https://fr.wikipedia.org/wiki/Servomoteur)** : histoire et anatomie détaillée. Né dans l'industrie pour piloter les gouvernails de bateau au début du XXᵉ siècle, démocratisé par le modélisme dans les années 60, très répandu aujourd'hui dans la domotique et la robotique éducative.
 - **[Moteur à courant continu (Wikipédia)](https://fr.wikipedia.org/wiki/Machine_%C3%A0_courant_continu)** : le moteur qui se cache dans tout servomoteur. Sa simplicité (deux fils, une tension, un sens de rotation) en fait l'un des composants les plus enseignés en collège-lycée.
 - **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsions)** : la technique de signal utilisée ici. Voir aussi la fiche « Contrôler avec un potentiomètre » pour un autre usage du PWM (variation de luminosité d'une LED).
 - **[Rétroaction (Wikipédia)](https://fr.wikipedia.org/wiki/R%C3%A9troaction)** : le concept derrière la « tenue de position » du servo. Notion centrale en automatique, qu'on retrouve dans le pilotage automatique d'un avion, le régulateur de vitesse d'une voiture, le thermostat d'un four.
 
 ### Pour s'inspirer
 
-- **[Bras robotiques industriels (Wikipédia)](https://fr.wikipedia.org/wiki/Robot_industriel)** : les énormes machines qui assemblent les voitures dans les usines Renault ou Toyota sont des chaînes de servomoteurs articulés (six axes typiquement). Du jouet à 3 € au robot à 50 000 €, c'est le même principe.
-- **[OttoDIY](https://www.ottodiy.com/)** : projet open source européen de robot humanoïde imprimé en 3D, piloté par quatre servos (deux hanches + deux chevilles) sur micro:bit ou Arduino. Excellent prolongement de cette fiche en classe pour passer d'un servo seul à un robot qui marche.
+- **[Bras robotiques industriels (Wikipédia)](https://fr.wikipedia.org/wiki/Robot_industriel)** : les énormes machines qui assemblent les voitures dans les usines Renault ou Toyota sont des chaînes de servomoteurs articulés (six axes typiquement). Un robot de ce genre à 50 000 € fonctionne sur le même principe qu'un jouet à 3 €.
+- **[OttoDIY](https://www.ottodiy.com/)** : projet open source européen de robot humanoïde imprimé en 3D, piloté par quatre servos (deux hanches + deux chevilles) sur micro:bit ou Arduino. Bon prolongement de cette fiche en classe, pour passer d'un servo seul à un robot qui marche.
 - **[Le bras robotique de tri par couleurs](https://thestempedia.com/project/diy-color-sorting-robotic-arm/)** : projet où un servomoteur déplace un bras au-dessus de jetons colorés, un capteur de lumière détermine la couleur, et un second servo trie. Tout est dans cette fiche + la fiche « Capteur de lumière », il ne reste qu'à imaginer la mécanique.
-- **[L'usine miniature LEGO Technic](https://www.lego.com/fr-fr/themes/technic)** : les sets Technic récents intègrent des servomoteurs LEGO « PowerUp » pilotés par smartphone via Bluetooth. La logique de commande est identique à celle de la STeaMi, mais avec l'élégance des briques colorées qui se clipsent.
+- **[L'usine miniature LEGO Technic](https://www.lego.com/fr-fr/themes/technic)** : les sets Technic récents intègrent des servomoteurs LEGO « PowerUp » pilotés par smartphone via Bluetooth. La logique de commande est identique à celle de la STeaMi, mais avec des briques colorées qui se clipsent.
 
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as13-servomoteurs`](/ressources/lets-steam/r1as13-servomoteurs)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as13-servomoteurs`](/ressources/lets-steam/r1as13-servomoteurs)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

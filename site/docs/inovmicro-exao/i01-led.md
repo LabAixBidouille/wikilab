@@ -20,7 +20,7 @@ sidebar_position: 8
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 15 min | Débutant   | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
@@ -39,7 +39,7 @@ sidebar_position: 8
 
 La **LED** (light-emitting diode) est un composant électronique qui produit de la lumière lorsqu'un courant la traverse. On la retrouve partout dans le quotidien : pour éclairer, pour signaler un état (réservoir presque vide, machine allumée, etc.), ou simplement comme indicateur visuel.
 
-La STeaMi intègre une LED RGB, accessibles sans aucun câblage, avec trois couleurs : **rouge**, **verte** et **bleue**. C'est le point de départ idéal pour comprendre comment un programme contrôle un composant physique : **allumer, éteindre, attendre, recommencer**. Le programme que vous allez écrire est le premier programme qu'on écrit quand on découvre l'électronique embarquée (les informaticiens appellent ça un « Hello World »).
+La STeaMi intègre une LED RGB, accessible sans aucun câblage, avec trois couleurs : **rouge**, **verte** et **bleue**. C'est un point de départ pour comprendre comment un programme contrôle un composant physique : **allumer, éteindre, attendre, recommencer**. Le programme que vous allez écrire est le premier programme qu'on écrit quand on découvre l'électronique embarquée (les informaticiens appellent ça un « Hello World »).
 
 Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressources/lets-steam/r1as01-led), adaptée du couple STM32 IoT Node + MakeCode vers STeaMi + MicroPython.
 
@@ -50,13 +50,13 @@ Cette fiche reprend l'activité Let's STEAM [Faire clignoter une LED](/ressource
 - Comprendre la structure d'un programme MicroPython simple (imports, initialisation, boucle infinie)
 - Contrôler une LED connectée à un microcontrôleur
 - Initialiser une LED en MicroPython avec le module `machine` et la nommer par son nom de broche
-- Utiliser `sleep_ms` pour introduire des délais d'attente (parfois qualifié de "pause") dans un programme
+- Utiliser `sleep_ms` pour introduire des délais d'attente (parfois qualifié de « pause ») dans un programme
 
 ---
 
 ## Étape 1 : Construire
 
-Ici, « construire » est rapide : la LED RGB est déjà soudée à la carte, aucun câblage additionnel n'est requis.
+Ici, « construire » est rapide : la LED RGB est déjà soudée à la carte, il n'y a rien à câbler.
 
 ### Localiser les LED sur la carte
 
@@ -143,15 +143,15 @@ Une fois le clignotement maîtrisé, une bonne piste pour aller plus loin est de
 
 - **[Diode électroluminescente (Wikipedia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : histoire des LED, principes physiques qui les sous-tendent, typologies et couleurs.
 - **[Courant et tension, bases de l'électricité](https://www.codrey.com/dc-circuits/current-and-voltage/)** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement (en anglais).
-- **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur. Une belle histoire de persévérance face à des décennies d'échecs annoncés.
+- **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur. Il a persévéré malgré des décennies d'échecs annoncés.
 
 ### Pour s'inspirer
 
-- **[Fête des Lumières de Lyon](https://fr.wikipedia.org/wiki/F%C3%AAte_des_lumi%C3%A8res)** : 4 jours par an, la ville devient une scène d'installations lumineuses pilotées par des programmes, un exemple à grande échelle de ce qu'un peu de code et beaucoup de LED peuvent produire.
-- **[The Bay Lights de Leo Villareal](https://en.wikipedia.org/wiki/The_Bay_Lights)** : 25 000 LED disposées sur le Bay Bridge de San Francisco, animées par un programme génératif qui ne se répète jamais. Une œuvre d'art urbain visible à des kilomètres.
+- **[Fête des Lumières de Lyon](https://fr.wikipedia.org/wiki/F%C3%AAte_des_lumi%C3%A8res)** : 4 jours par an, la ville devient une scène d'installations lumineuses pilotées par des programmes. On y voit, à grande échelle, ce que peuvent produire un peu de code et beaucoup de LED.
+- **[The Bay Lights de Leo Villareal](https://en.wikipedia.org/wiki/The_Bay_Lights)** : 25 000 LED disposées sur le Bay Bridge de San Francisco, animées par un programme génératif qui ne se répète jamais. Cette œuvre d'art urbain est visible à des kilomètres.
 - **[Faire un cube LED de A à Z](https://www.youtube.com/watch?v=ciaFar8nfHc)** (GreatScott!, en anglais) : le grand classique maker, 64 ou 512 LED soudées en 3D, multiplexage temporel pour les piloter avec quelques broches seulement, animations volumétriques.
-- **[Word Clock, l'horloge à mots](https://www.instructables.com/The-Word-Clock-Arduino-version/)** : une grille de LED qui éclaire des lettres pour écrire l'heure en toutes lettres (« IL EST DIX HEURES VINGT »). Petit projet de programmation + design plein de charme.
-- **[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)** : les LED RGB adressables WS2812, un bus de données, des centaines de LED en chaîne, des effets arc-en-ciel et des bandeaux décoratifs à l'infini. La suite logique quand une seule LED ne suffit plus.
+- **[Word Clock, l'horloge à mots](https://www.instructables.com/The-Word-Clock-Arduino-version/)** : une grille de LED qui éclaire des lettres pour écrire l'heure en toutes lettres (« IL EST DIX HEURES VINGT »), dans un petit projet qui mêle programmation et design.
+- **[Adafruit NeoPixel Überguide](https://learn.adafruit.com/adafruit-neopixel-uberguide)** : les LED RGB adressables WS2812, un bus de données, des centaines de LED en chaîne, des effets arc-en-ciel et des bandeaux décoratifs à l'infini. C'est la suite quand une seule LED ne suffit plus.
 
 ---
 

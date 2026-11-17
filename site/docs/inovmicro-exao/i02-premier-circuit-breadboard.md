@@ -22,7 +22,7 @@ sidebar_position: 2
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 30 min | Débutant   | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
@@ -36,8 +36,8 @@ sidebar_position: 2
 :::info[Comment relier la STeaMi à une breadboard ?]
 La STeaMi expose deux familles de broches utilisables avec une breadboard :
 
-- Le **connecteur Edge** (compatible micro:bit) en bas de la carte expose une vingtaine de broches GPIO, ADC et bus série. Pour s'y brancher facilement, il existe des **adaptateurs « Edge connector breakout »** (carte intermédiaire avec rangée de pins mâles) qu'on peut clipser sur la STeaMi puis brancher sur la breadboard avec des fils dupont.
-- À défaut d'adaptateur, **trois pads dorés en forme de bandes** au bas de la carte (notées `P0`, `P1`, `P2`) acceptent directement des **pinces crocodile**. Plus rudimentaire mais sans matériel additionnel, et amplement suffisant pour cette première fiche.
+- Le **connecteur Edge** (compatible micro:bit) en bas de la carte expose une vingtaine de broches GPIO, ADC et bus série. Pour s'y brancher facilement, il existe des adaptateurs « Edge connector breakout » (carte intermédiaire avec rangée de pins mâles) qu'on peut clipser sur la STeaMi puis brancher sur la breadboard avec des fils dupont.
+- À défaut d'adaptateur, **trois pads dorés** en forme de bandes au bas de la carte (notées `P0`, `P1`, `P2`) acceptent directement des pinces crocodile. Plus rudimentaire mais sans matériel additionnel, et amplement suffisant pour cette première fiche.
 :::
 
 </div>
@@ -50,9 +50,9 @@ La STeaMi expose deux familles de broches utilisables avec une breadboard :
 
 ## De quoi parle-t-on ?
 
-Quand vous appuyez sur un interrupteur dans une pièce, démarrez une console de jeu, ou allumez le moteur d'une voiture, vous fermez un **circuit électrique**. Sans même y penser, vous reliez une source d'énergie (pile, prise) à un composant (ampoule, moteur, écran) via des câbles. Tous les appareils électroniques sont nés de la même expérience initiale : assembler des composants et faire passer du courant à travers eux selon un chemin précis.
+Quand vous appuyez sur un interrupteur dans une pièce, démarrez une console de jeu, ou allumez le moteur d'une voiture, vous fermez un **circuit électrique**. Sans même y penser, vous reliez une source d'énergie (pile, prise) à un composant (ampoule, moteur, écran) via des câbles. Dans tout appareil électronique, des composants sont assemblés pour que le courant les traverse selon un chemin précis.
 
-Les fiches I-Novmicro précédentes utilisaient les composants déjà soudés à la STeaMi (LED RGB, écran, accéléromètre...). On change de logique ici : on va monter **un circuit de toutes pièces** sur une **breadboard** (planche à essais), brancher des **LED externes** à la STeaMi via son connecteur Edge, et apprendre à les piloter depuis MicroPython. C'est la base de tous les projets makers : dès qu'on veut piloter quelque chose qui n'est pas déjà sur la carte (relais, capteur exotique, ruban LED, mini-moteur), il faut savoir le câbler.
+Les fiches I-Novmicro précédentes utilisaient les composants déjà soudés à la STeaMi (LED RGB, écran, accéléromètre...). On change de logique ici : on va monter un circuit de toutes pièces sur une breadboard (planche à essais), brancher des LED externes à la STeaMi via son connecteur Edge, et apprendre à les piloter depuis MicroPython. C'est la base de tous les projets makers : dès qu'on veut piloter quelque chose qui n'est pas déjà sur la carte (relais, capteur exotique, ruban LED, mini-moteur), il faut savoir le câbler.
 
 :::info[Pourquoi quitter les composants intégrés ?]
 La STeaMi est volontairement équipée d'un connecteur Edge et de pads externes pour qu'on puisse y brancher des composants supplémentaires. C'est ce qui permet d'élargir les expériences au-delà de ce que la carte sait faire seule. Cette fiche pose les bases, les fiches suivantes (potentiomètre, servomoteur) s'en serviront.
@@ -142,7 +142,7 @@ Sur le même principe, brancher :
 On a maintenant trois LED indépendamment pilotables par trois broches différentes.
 
 :::info[Quel parcours choisir ?]
-Les deux variantes mènent au même résultat. Les **pads P0/P1/P2** sont parfaits pour démarrer : pas d'adaptateur à acheter, branchement direct par pinces crocodile. Le **connecteur Edge** offre en revanche une vingtaine de broches utilisables et reste indispensable pour les fiches qui demandent plusieurs entrées/sorties simultanées (potentiomètre + LED, plusieurs capteurs, etc.).
+Les deux variantes mènent au même résultat. Les pads P0/P1/P2 sont parfaits pour démarrer : pas d'adaptateur à acheter, branchement direct par pinces crocodile. Le connecteur Edge offre en revanche une vingtaine de broches utilisables et reste indispensable pour les fiches qui demandent plusieurs entrées/sorties simultanées (potentiomètre + LED, plusieurs capteurs, etc.).
 
 Dans la suite de la fiche, le code et le tableau sont présentés pour les deux variantes : choisissez la ligne qui correspond à votre montage.
 :::
@@ -157,7 +157,7 @@ Brancher la STeaMi en USB. La carte apparaît comme un disque amovible `STEAMI` 
 
 ### Broches utilisées
 
-Selon le montage choisi à l'étape précédente, les LED sont branchées soit sur le **connecteur Edge** (P6/P7/P8), soit sur les **pads crocodile** (P0/P1/P2).
+Selon le montage choisi à l'étape précédente, les LED sont branchées soit sur le connecteur Edge (P6/P7/P8), soit sur les pads crocodile (P0/P1/P2).
 
 | Composant | Avec adaptateur Edge       | Sans adaptateur (pads) | Variable Python | Comportement             |
 | --------- | -------------------------- | ---------------------- | --------------- | ------------------------ |
@@ -217,7 +217,7 @@ while True:
 2. **Initialisation** : trois broches du connecteur Edge sont configurées en sortie (`Pin.OUT`). À partir de ce moment, écrire `1` sur la broche y impose 3,3 V, écrire `0` la met à 0 V.
 3. **Boucle principale** : pour chaque LED, on l'allume (`value(1)`), on attend 1 seconde, on l'éteint (`value(0)`), et on enchaîne sur la suivante.
 
-Une LED qui ne s'allume pas ? Trois suspects à vérifier dans l'ordre :
+Si une LED ne s'allume pas, vérifier dans l'ordre :
 
 - **Polarité inversée** : la LED a été branchée cathode en haut. La désinsérer et la remettre dans l'autre sens.
 - **Résistance absente ou mauvaise valeur** : sans résistance, la LED peut griller en quelques secondes. Mauvaise valeur (trop forte) : la LED est très faible. Vérifier le marquage des bandes de couleur (orange-orange-marron-or pour 330 Ω).
@@ -259,7 +259,7 @@ Avec une LED rouge, une jaune et une verte, simuler un feu de signalisation : ve
 
 ### Défi 3 : Compteur binaire de 0 à 7
 
-Trois LED, c'est aussi **trois bits**, donc de quoi représenter les huit nombres de 0 à 7 en binaire. Allumer/éteindre les LED selon le code binaire du nombre courant, incrémenter d'un toutes les secondes, et boucler à 0 après 7.
+Trois LED, c'est aussi trois bits, donc de quoi représenter les huit nombres de 0 à 7 en binaire. Allumer/éteindre les LED selon le code binaire du nombre courant, incrémenter d'un toutes les secondes, et boucler à 0 après 7.
 
 | Nombre décimal | Bits (LED3-LED2-LED1) | LED 3 | LED 2 | LED 1 |
 | -------------- | --------------------- | ----- | ----- | ----- |
@@ -295,10 +295,10 @@ Imaginer un autre usage des trois LED, sans contrainte. Quelques pistes :
 
 ### Pour s'inspirer
 
-- **[Adafruit Industries](https://www.adafruit.com/)** : entreprise américaine fondée par Limor Fried qui a popularisé l'électronique loisir grâce à des kits débutants extrêmement bien documentés. Aller voir leurs tutoriels « learn » est une mine pour des idées de projets STeaMi.
-- **[Lumière artistique de Leo Villareal](https://villareal.net/)** : l'artiste a installé en 2013 plus de 25 000 LED sous le Bay Bridge de San Francisco pour créer une œuvre lumineuse animée, _The Bay Lights_. Toutes les LED de la planète n'ont pas vocation à clignoter dans un projet STEM ; certaines participent à des œuvres d'art à l'échelle d'une ville.
-- **[Concours de la Maison Hantée Open Source](https://www.instructables.com/contest/halloween2024/)** : tous les ans, le site Instructables organise un concours de bricolages Halloween. Les meilleurs projets utilisent justement breadboards + LED + microcontrôleur pour animer des décorations qui réagissent au mouvement, à la voix ou à la pression. Bon exemple de transposition du circuit appris ici à un objet sensoriel complet.
-- **[Project Blinkenlights (Wikipédia anglais)](https://en.wikipedia.org/wiki/Project_Blinkenlights)** : en 2001, le Chaos Computer Club a transformé la façade de la Haus des Lehrers à Berlin en écran géant 18×8 pixels en allumant et éteignant les lampes de chaque fenêtre depuis un ordinateur. Le public pouvait y jouer à Pong par téléphone. Une version XXL du circuit que vous venez de monter, avec 144 LED « fenêtres » à la place de 3 LED « breadboard ». (Page Wikipédia anglais uniquement.)
+- **[Adafruit Industries](https://www.adafruit.com/)** : entreprise américaine fondée par Limor Fried qui a popularisé l'électronique loisir grâce à des kits débutants très bien documentés. Ses tutoriels « learn » donnent beaucoup d'idées de projets STeaMi.
+- **[Lumière artistique de Leo Villareal](https://villareal.net/)** : l'artiste a installé en 2013 plus de 25 000 LED sous le Bay Bridge de San Francisco pour créer une œuvre lumineuse animée, _The Bay Lights_.
+- **[Concours de la Maison Hantée Open Source](https://www.instructables.com/contest/halloween2024/)** : tous les ans, le site Instructables organise un concours de bricolages Halloween. Les meilleurs projets utilisent justement breadboards + LED + microcontrôleur pour animer des décorations qui réagissent au mouvement, à la voix ou à la pression.
+- **[Project Blinkenlights (Wikipédia anglais)](https://en.wikipedia.org/wiki/Project_Blinkenlights)** : en 2001, le Chaos Computer Club a transformé la façade de la Haus des Lehrers à Berlin en écran géant de 18×8 pixels (144 fenêtres) en allumant et éteignant les lampes de chaque fenêtre depuis un ordinateur. Le public pouvait y jouer à Pong par téléphone. (Page Wikipédia anglais uniquement.)
 
 ---
 

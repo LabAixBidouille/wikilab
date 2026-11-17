@@ -21,7 +21,7 @@ sidebar_position: 11
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 35 min | Débutant   | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
@@ -38,7 +38,7 @@ sidebar_position: 11
 
 ## De quoi parle-t-on ?
 
-Cette fiche explore une caractéristique clé de l'informatique embarquée : la possibilité de **mesurer une grandeur physique** avec un capteur, et de représenter graphiquement la façon dont cette grandeur **varie dans le temps**.
+Cette fiche montre comment, en informatique embarquée, on peut **mesurer une grandeur physique** avec un capteur et représenter graphiquement la façon dont cette grandeur **varie dans le temps**.
 
 La STeaMi intègre un capteur **APDS-9960** capable de mesurer la lumière ambiante, mais aussi les composantes **rouge, verte et bleue** de cette lumière, ainsi que la proximité d'un objet et certains gestes. Pour cette fiche, on se concentre sur la mesure de la lumière ambiante, la couleur sera abordée dans l'étape « Améliorer ».
 
@@ -58,7 +58,7 @@ L'avantage du capteur intégré : pas de breadboard ni de câblage. Tout passe p
 
 ## Étape 1 : Construire
 
-Ici, "construire" est rapide : tout le matériel nécessaire est déjà sur la carte.
+Ici, « construire » est rapide : tout le matériel nécessaire est déjà sur la carte.
 
 ### 1. Localiser le capteur de lumière
 
@@ -100,7 +100,7 @@ L'adresse `0x39` correspond à l'APDS-9960. Si elle apparaît, le capteur répon
 
 ### 4. Lancer le programme
 
-Notre premier programme va **lire la lumière ambiante toutes les demi-secondes et l'afficher dans la console**, en utilisant la LED RGB comme indicateur visuel (verte si lumière forte, rouge si sombre). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
+Le premier programme lit la lumière ambiante toutes les demi-secondes et l'affiche dans la console. La LED RGB sert d'indicateur visuel (verte si lumière forte, rouge si sombre). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -220,7 +220,7 @@ Une amélioration plus avancée consiste à **transformer la valeur brute en pou
 
 ### 2. Lire les composantes RGB de la lumière
 
-L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. C'est une différence importante : alors que `ambient_light()` dit juste « il y a beaucoup ou peu de lumière », les canaux R, V, B disent **quelle couleur** est dominante. Le capteur peut donc distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
+L'APDS-9960 ne se contente pas de mesurer la quantité de lumière : il mesure aussi ses **composantes rouge, verte et bleue**. Alors que `ambient_light()` dit juste « il y a beaucoup ou peu de lumière », les canaux R, V, B disent **quelle couleur** est dominante. Le capteur peut donc distinguer la lumière d'une LED rouge de celle d'une LED verte, alors que `ambient_light()` donnerait à peu près la même valeur dans les deux cas.
 
 Les lignes ci-dessous remplacent l'appel à `ambient_light()` dans la boucle du programme précédent, `sensor` est déjà initialisé en haut de fichier.
 
@@ -257,13 +257,13 @@ else:
 
 - **[Photorésistance (Wikipedia)](https://fr.wikipedia.org/wiki/Photor%C3%A9sistance)** : le composant cousin de l'APDS-9960. Plus simple : sa résistance change avec la lumière, et c'est tout. Beaucoup de capteurs de lumière débutants en utilisent.
 - **[Effet photoélectrique (Wikipedia)](https://fr.wikipedia.org/wiki/Effet_photo%C3%A9lectrique)** : pourquoi la lumière fait du courant. C'est l'explication publiée par Einstein en 1905 qui lui a valu le prix Nobel de physique en 1921, pas la relativité comme on le croit souvent.
-- **[L'œil humain (Wikipedia)](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est exactement le principe d'un capteur RGB comme l'APDS-9960, mais en chair et en os.
+- **[L'œil humain (Wikipedia)](https://fr.wikipedia.org/wiki/%C5%92il_humain)** : votre œil est un capteur de lumière biologique avec deux types de cellules (cônes pour la couleur, bâtonnets pour la nuit). C'est le même principe qu'un capteur RGB comme l'APDS-9960.
 
 ### Pour s'inspirer
 
 - **[Public Lab, DIY spectromètre](https://publiclab.org/wiki/spectrometry)** : une communauté de scientifiques amateurs qui ont construit un spectromètre à partir d'un téléphone et d'un DVD. Sert à analyser la pollution de l'eau, identifier des matériaux, ou étudier la chlorophylle des plantes.
-- **[Éclairage public adaptatif (Cerema)](https://www.cerema.fr/fr/actualites/eclairage-public-adaptation-eclairage-presence)** : éteindre ou réduire les lampadaires quand la rue est vide, c'est exactement ce qu'on fait dans cette fiche, mais à l'échelle d'une ville. Économies d'énergie + moins de pollution lumineuse.
+- **[Éclairage public adaptatif (Cerema)](https://www.cerema.fr/fr/actualites/eclairage-public-adaptation-eclairage-presence)** : éteindre ou réduire les lampadaires quand la rue est vide, comme dans cette fiche mais à l'échelle d'une ville. Économies d'énergie + moins de pollution lumineuse.
 - **[Photographier la Voie Lactée](https://www.lemonde.fr/blog/autourduciel/2020/05/22/photographier-la-voie-lactee-en-pause-longue/)** : avec des poses de plusieurs secondes ou minutes, un capteur photo accumule la lumière la plus faible. C'est comme cela que les astronomes amateurs photographient des galaxies invisibles à l'œil nu.
-- **[Sextant (Wikipedia)](https://fr.wikipedia.org/wiki/Sextant)** : avant le GPS, les marins se repéraient en mesurant l'angle entre un astre et l'horizon. Une histoire fascinante d'instruments de mesure et de navigation.
+- **[Sextant (Wikipedia)](https://fr.wikipedia.org/wiki/Sextant)** : avant le GPS, les marins se repéraient en mesurant l'angle entre un astre et l'horizon.
 
 _Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as04-capteur-lumiere`](/ressources/lets-steam/r1as04-capteur-lumiere)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

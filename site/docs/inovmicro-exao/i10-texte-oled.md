@@ -37,7 +37,7 @@ sidebar_position: 17
 
 ## De quoi parle-t-on ?
 
-Programmer une carte électronique n'est pas toujours simple, car son fonctionnement reste invisible : contrairement à un programme exécuté sur ordinateur, les **variables** de votre code restent souvent inaccessibles à l'œil. L'écran intégré à la STeaMi permet justement d'**afficher les informations utiles** pour suivre l'état du programme : la valeur d'un capteur, le résultat d'un calcul, l'évolution d'une variable dans le temps.
+Programmer une carte électronique n'est pas toujours simple, car son fonctionnement reste invisible : contrairement à un programme exécuté sur ordinateur, les **variables** de votre code restent souvent inaccessibles à l'œil. L'écran intégré à la STeaMi peut afficher les informations utiles pour suivre l'état du programme : la valeur d'un capteur, le résultat d'un calcul, l'évolution d'une variable dans le temps.
 
 Cette fiche met en pratique l'affichage de texte sur l'écran OLED 128×128 de la STeaMi, en MicroPython, à l'aide de la bibliothèque haut niveau `steami_screen`.
 
@@ -191,7 +191,7 @@ screen.show()                           # affiche enfin ce qu'on a préparé sur
 
 ### Comment ça fonctionne ?
 
-La fonction **`screen.text(texte, at=..., color=..., scale=...)`** permet d'afficher du texte sans calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1, section « Repérer la géométrie de l'écran »](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
+La fonction **`screen.text(texte, at=..., color=..., scale=...)`** affiche du texte sans que vous ayez à calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1, section « Repérer la géométrie de l'écran »](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
 
 Deux raccourcis pratiques structurent l'affichage : `screen.title()` place un texte en haut en `GRAY`, `screen.subtitle()` un texte en bas en `DARK`. Pas besoin de préciser position ni couleur.
 
@@ -213,7 +213,7 @@ Si vous avez besoin de coordonnées exactes (par exemple pour une animation pixe
 
 ## Étape 3 : Améliorer
 
-Quatre défis dans l'esprit de la fiche d'origine, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2, on le rappelle ici une fois pour gagner de la place :
+Quatre défis, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2, on le rappelle ici une fois pour gagner de la place :
 
 ```python
 # Bloc d'initialisation commun à tous les défis ci-dessous.
@@ -338,14 +338,14 @@ Une fois la mise en page maîtrisée, brancher de vraies valeurs en lisant les c
 ### Pour comprendre
 
 - **[OLED (Wikipedia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente_organique)** : la technologie d'écran utilisée par la STeaMi. Contrairement à un LCD, chaque pixel émet sa propre lumière (pas de rétro-éclairage), ce qui permet des noirs profonds et une consommation très basse quand peu de pixels sont allumés.
-- **[Pixel art (Wikipedia)](https://fr.wikipedia.org/wiki/Pixel_art)** : histoire et esthétique du dessin en pixels, des premiers jeux vidéo aux installations contemporaines. Quand chaque pixel compte, la contrainte devient un style.
-- **[Framebuffer (Wikipedia)](https://fr.wikipedia.org/wiki/Tampon_d%27image)** : le « tableau caché » qu'on prépare avant de l'envoyer à l'écran. Concept fondateur du graphisme moderne, présent depuis les GPU jusqu'aux navigateurs web.
+- **[Pixel art (Wikipedia)](https://fr.wikipedia.org/wiki/Pixel_art)** : histoire et esthétique du dessin en pixels, des premiers jeux vidéo aux installations contemporaines.
+- **[Framebuffer (Wikipedia)](https://fr.wikipedia.org/wiki/Tampon_d%27image)** : le « tableau caché » qu'on prépare avant de l'envoyer à l'écran. On le retrouve notamment dans les GPU (processeurs graphiques) et les navigateurs web.
 
 ### Pour s'inspirer
 
-- **[Jenny Holzer, Survival Series (Centre Pompidou)](https://www.centrepompidou.fr/fr/ressources/oeuvre/c888Bex)** : depuis Times Square en 1982, l'artiste a fait du panneau LED un médium à part entière. Des messages diffusés en lumière, programmés pour défiler, qui interrogent la société.
+- **[Jenny Holzer, Survival Series (Centre Pompidou)](https://www.centrepompidou.fr/fr/ressources/oeuvre/c888Bex)** : depuis Times Square en 1982, l'artiste crée des œuvres avec des messages lumineux qui interrogent la société, programmés pour défiler sur des panneaux LED.
 - **[Pixel Revival : quand l'esthétique 8-bit redéfinit les codes du design graphique (Étapes)](https://www.etapes.com/2025/04/18/pixel-revival-quand-lesthetique-8-bit-redefinit-les-codes-du-design-graphique/)** : comment la contrainte du pixel, autrefois subie, est devenue une esthétique revendiquée dans le design contemporain.
-- **[Susan Kare et les icônes du Macintosh](https://fr.wikipedia.org/wiki/Susan_Kare)** : la designer qui a dessiné les premières icônes du Mac en 1984 sur une grille de 16 × 16 pixels. Une démonstration magistrale de ce qu'on peut exprimer avec très peu de pixels.
+- **[Susan Kare et les icônes du Macintosh](https://fr.wikipedia.org/wiki/Susan_Kare)** : la designer qui a dessiné les premières icônes du Mac en 1984 sur une grille de 16 × 16 pixels.
 
 ---
 

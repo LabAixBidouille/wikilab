@@ -37,16 +37,16 @@ sidebar_position: 15
 
 ## De quoi parle-t-on ?
 
-Tu veux savoir comment évolue la température de ton frigo entre deux ouvertures de porte ? Si la salle de classe est plus chaude le matin ou l'après-midi ? Si la fenêtre du salon laisse passer le froid les jours de gel ? Si l'humidité grimpe quand toute la famille rentre du sport ? La réponse à toutes ces questions tient en un mot : **mesurer**.
+Tu veux savoir comment évolue la température de ton frigo entre deux ouvertures de porte ? Si la salle de classe est plus chaude le matin ou l'après-midi ? Si la fenêtre du salon laisse passer le froid les jours de gel ? Si l'humidité grimpe quand toute la famille rentre du sport ? Pour y répondre, il faut mesurer.
 
-Une mesure ponctuelle ne te dira pas grand-chose. Une mesure toutes les heures, pendant un jour entier, **change tout** : tu vois les courbes, les pics, les creux, et tu peux raconter une histoire avec des chiffres. C'est ce que font les météorologues, les climatologues, les biologistes, les ingénieurs qualité, les gens qui surveillent la pollution dans les rivières. On appelle ce principe le **datalogger** : un appareil qui enregistre automatiquement des mesures à intervalles réguliers, sans surveillance.
+Une mesure ponctuelle ne te dira pas grand-chose. Une mesure toutes les heures, pendant un jour entier, te montre les courbes, les pics et les creux, et tu peux décrire avec des chiffres ce qui s'est passé. C'est ce que font les météorologues, les climatologues, les biologistes, les ingénieurs qualité, les gens qui surveillent la pollution dans les rivières. On appelle ce principe le **datalogger** : un appareil qui enregistre automatiquement des mesures à intervalles réguliers, sans surveillance.
 
 La STeaMi est un datalogger en puissance : elle embarque deux capteurs environnementaux et peut écrire ses mesures dans un fichier qu'on récupère ensuite sur l'ordinateur.
 
 - **WSEN-PADS** : la pression atmosphérique (en hectopascals) et la température ambiante (en degrés Celsius)
 - **HTS221** : l'humidité relative de l'air (en pourcent)
 
-Dans cette activité, on va programmer la STeaMi pour enregistrer ces trois grandeurs dans un fichier **CSV** sur sa mémoire interne, exporter ce fichier sur un ordinateur, et le visualiser dans un tableur. C'est exactement la chaîne complète d'une **expérience scientifique** : poser une question, capturer les données, les analyser, raconter ce qu'on voit.
+Dans cette activité, on va programmer la STeaMi pour enregistrer ces trois grandeurs dans un fichier CSV sur sa mémoire interne, exporter ce fichier sur un ordinateur, et le visualiser dans un tableur. C'est la chaîne complète d'une expérience scientifique : poser une question, capturer les données, les analyser, décrire ce qu'on voit.
 
 :::info[Capteurs intégrés, rien à câbler]
 Les deux capteurs sont déjà soudés à la STeaMi. Aucun montage à faire : on plonge directement dans le code.
@@ -59,9 +59,9 @@ Les deux capteurs sont déjà soudés à la STeaMi. Aucun montage à faire : on 
 À la fin de cette activité, l'élève sera capable de :
 
 - **Mener une vraie expérience scientifique** du début à la fin : choisir une question (mon frigo est-il assez froid ?), enregistrer les données pendant plusieurs heures, ouvrir le fichier sur l'ordinateur, et tirer une conclusion à partir d'une courbe.
-- **Faire dialoguer plusieurs capteurs** (température, pression, humidité) qui mesurent des choses différentes mais qui racontent ensemble l'environnement d'une pièce.
+- **Faire dialoguer plusieurs capteurs** (température, pression, humidité) qui mesurent des choses différentes mais qui, réunis, décrivent l'environnement d'une pièce.
 - **Comprendre ce que veut dire « enregistrer »** pour un programme : ouvrir un fichier, y ajouter une ligne, le refermer proprement pour ne rien perdre, et le récupérer plus tard.
-- **Lire les données** dans un tableur et **les transformer en graphique** lisible : c'est l'étape où des chiffres bruts deviennent une histoire qu'on peut raconter à un copain ou à un prof.
+- **Lire les données** dans un tableur et **les transformer en graphique** lisible : c'est l'étape où des chiffres bruts deviennent des résultats qu'on peut présenter à un copain ou à un prof.
 - **Imaginer d'autres usages** : suivre le confort thermique et l'humidité d'une salle de classe au fil de la journée, observer la météo d'un balcon pendant les vacances, comparer le micro-climat de deux pièces de la maison...
 ---
 
@@ -98,7 +98,7 @@ with open("log.csv", "a") as fichier:
 ```
 
 :::info[Mode `"a"` ou mode `"w"` ?]
-`open("log.csv", "w")` (pour _write_) **recrée le fichier à zéro** à chaque ouverture. Pratique pour démarrer une expérience propre, mais **catastrophique si on l'utilise au mauvais endroit** : une nuit de mesures s'efface si la carte redémarre. `open("log.csv", "a")` (pour _append_, « ajouter ») **ajoute la nouvelle ligne à la suite** des précédentes, et **crée le fichier s'il n'existe pas encore**. C'est le mode à utiliser en permanence dans le datalogger.
+`open("log.csv", "w")` (pour _write_) **recrée le fichier à zéro** à chaque ouverture. Pratique pour démarrer une expérience propre, mais catastrophique si on l'utilise au mauvais endroit : une nuit de mesures s'efface si la carte redémarre. `open("log.csv", "a")` (pour _append_, « ajouter ») ajoute la nouvelle ligne à la suite des précédentes, et crée le fichier s'il n'existe pas encore. C'est le mode à utiliser en permanence dans le datalogger.
 
 Pour repartir avec un fichier vierge volontairement (au début d'une nouvelle expérience), on supprime `log.csv` à la main depuis l'IDE plutôt que de réécrire `"w"` dans le code : on évite ainsi tout effacement accidentel.
 :::
@@ -145,9 +145,9 @@ Le programme enregistre la température, la pression et l'humidité dans `log.cs
 
 :::info[Comment lire la fiche en 50 minutes]
 
-La séance d'une heure couvre les **Étapes 1 à 3** : construire, programmer, tester avec un enregistrement court (quelques minutes en classe), récupérer le fichier sur l'ordinateur et l'ouvrir dans un tableur. C'est déjà toute la chaîne d'une expérience.
+La séance d'une heure couvre les Étapes 1 à 3 : construire, programmer, tester avec un enregistrement court (quelques minutes en classe), récupérer le fichier sur l'ordinateur et l'ouvrir dans un tableur. C'est déjà toute la chaîne d'une expérience.
 
-L'**Étape 4 « Améliorer »** est conçue comme **prolongement** : à faire chez soi, sur une vraie question (« mon frigo est-il assez froid ? »), avec un enregistrement de plusieurs heures et une vraie analyse. C'est aussi à ce moment-là qu'on aborde les questions d'alimentation, de calibration et de rigueur scientifique.
+L'Étape 4 « Améliorer » est conçue comme **prolongement** : à faire chez soi, sur une question comme « mon frigo est-il assez froid ? », avec un enregistrement de plusieurs heures, puis son analyse. C'est aussi à ce moment-là qu'on aborde les questions d'alimentation, de calibration et de rigueur scientifique.
 
 :::
 
@@ -317,15 +317,15 @@ while True:
 
 Le programme s'organise autour de trois mécanismes :
 
-- **`attendre_avec_bouton(duree_ms)`** : remplace le simple `time.sleep_ms(INTERVALLE_MS)` qui bloquerait tout. Elle regarde le bouton A toutes les 20 ms pendant la durée d'attente et retourne `True` immédiatement si un appui est détecté. C'est ce qui rend la pause **immédiate** même au milieu des 10 secondes entre deux mesures.
+- **`attendre_avec_bouton(duree_ms)`** : remplace le simple `time.sleep_ms(INTERVALLE_MS)` qui bloquerait tout. Elle regarde le bouton A toutes les 20 ms pendant la durée d'attente et retourne `True` immédiatement si un appui est détecté. C'est ce qui rend la pause immédiate même au milieu des 10 secondes entre deux mesures.
 - **Fichier CSV bien refermé** : à l'initialisation, on crée le fichier en mode `"w"` pour écrire l'en-tête. Ensuite on l'ouvre toujours en mode `"a"` (ajout). Chaque `with open(...) as fichier` ferme proprement le fichier après l'écriture. C'est ce qui garantit qu'aucune ligne n'est perdue si on appuie sur A au mauvais moment.
 - **Affichage clair** : `ecran.value()` affiche la température en grand au centre (la grandeur qui change le plus vite, donc la plus intéressante en temps réel), `ecran.subtitle()` place pression et humidité en bas sans chevauchement.
 
 :::info[Pourquoi un format CSV et pas un autre ?]
 
-Le CSV (_Comma-Separated Values_, valeurs séparées par des virgules) est probablement le **format de fichier le plus simple et le plus universel** au monde pour échanger des données tabulaires. Un fichier `.csv`, c'est juste du texte : chaque ligne est une mesure, chaque valeur est séparée par un point-virgule (ou une virgule, selon la convention).
+Le CSV est un format simple pour échanger des données en tableau : un fichier `.csv`, c'est juste du texte, avec un point-virgule (ou une virgule, selon la convention) entre deux valeurs.
 
-Et l'universalité paye : ton fichier `log.csv` s'ouvre directement dans Excel, dans Google Sheets, dans LibreOffice, dans Python (`import csv`), dans R, dans MATLAB, dans n'importe quel logiciel d'analyse de données. Les fichiers scientifiques que publient les laboratoires de physique, les capteurs de pollution des villes, les stations météo de Météo France utilisent souvent du CSV, ou un format dérivé.
+Ton fichier `log.csv` s'ouvre directement dans Excel, dans Google Sheets, dans LibreOffice, dans Python (`import csv`), dans R, dans MATLAB, dans n'importe quel logiciel d'analyse de données. Les fichiers scientifiques que publient les laboratoires de physique, les capteurs de pollution des villes, les stations météo de Météo France utilisent souvent du CSV, ou un format dérivé.
 
 :::
 
@@ -353,7 +353,7 @@ Le fichier contient quatre colonnes :
 | --------- | --------------- | -------------- | -------------- |
 | 0         | 23.4            | 1013           | 48.7           |
 | 10        | 23.5            | 1013           | 48.9           |
-| …         | …               | …              | …              |
+| ...       | ...             | ...            | ...            |
 
 ### 3. Tracer un graphique
 
@@ -363,7 +363,7 @@ Sélectionner les colonnes `temps_s` et `temperature_C`, puis insérer un graphi
 
 ## Étape 4 : Améliorer
 
-Quatre pistes pour transformer le datalogger en outil de mesure plus puissant.
+Quatre pistes pour améliorer le datalogger : adapter la fréquence des mesures, horodater avec l'horloge interne, voir la courbe en direct et mener une expérience à la maison.
 
 ### 1. Adapter la fréquence à ce qu'on mesure
 
@@ -374,7 +374,7 @@ INTERVALLE_MS = 60_000    # une mesure par minute (pour une journée de cours)
 INTERVALLE_MS = 300_000   # une mesure toutes les 5 minutes (pour un week-end)
 ```
 
-Une expérience sur une journée entière (8 h) à raison d'une mesure par minute produit 480 lignes : tout à fait gérable dans un tableur, et juste assez dense pour voir une vraie courbe.
+Une expérience sur une journée entière (8 h) à raison d'une mesure par minute produit 480 lignes : tout à fait gérable dans un tableur, et juste assez dense pour voir se dessiner une courbe.
 
 ### 2. Horodatage réel avec l'horloge interne
 
@@ -398,7 +398,7 @@ with open(NOM_FICHIER, "a") as fichier:
 
 ### 3. Voir la courbe se dessiner en direct
 
-Plutôt que de découvrir les courbes au moment du dépouillement, on peut afficher en temps réel les N dernières mesures sous forme de courbe directement sur l'écran de la STeaMi. C'est immédiat, ça parle, ça donne envie de continuer à observer :
+Plutôt que de découvrir les courbes au moment du dépouillement, on peut afficher en temps réel les N dernières mesures sous forme de courbe directement sur l'écran de la STeaMi :
 
 ```python
 HISTORIQUE = []
@@ -443,32 +443,32 @@ Une nuit d'enregistrement, c'est 8 à 10 heures sans interruption. Trois options
 - **USB sur chargeur secteur** : la STeaMi se contente d'un chargeur 5 V (téléphone, multiprise USB). C'est l'option recommandée pour une mesure longue.
 - **Batterie LiPo intégrée** : si ta STeaMi est équipée d'une batterie LiPo, vérifie d'abord son autonomie réelle avec une mesure courte avant de lancer 8 heures (l'écran OLED + capteurs consomment davantage que le simple veille).
 
-Pour une expérience **dans le frigo**, glisse la carte dans un petit sachet plastique transparent ou une boîte en plastique fermée : ça la protège de la **condensation** quand on rouvre la porte et que l'air humide rencontre la carte froide. La condensation peut endommager l'électronique.
+Pour une expérience dans le frigo, glisse la carte dans un petit sachet plastique transparent ou une boîte en plastique fermée : ça la protège de la condensation quand on rouvre la porte et que l'air humide rencontre la carte froide. La condensation peut endommager l'électronique.
 
 :::
 
 :::info[Mesure vs réalité : ne pas conclure trop vite]
 
-Les capteurs de la STeaMi sont précis, mais ils mesurent **au niveau de la carte**, pas au cœur de l'objet observé. Deux pièges classiques :
+Les capteurs de la STeaMi sont précis, mais ils mesurent au niveau de la carte, pas au cœur de l'objet observé. Deux pièges classiques :
 
 - **Auto-échauffement** : l'électronique en marche dégage un peu de chaleur. Si la carte est posée au contact de l'air froid d'un frigo, le capteur indique souvent 1 à 3 °C de plus que la température réelle au centre du frigo.
 - **Emplacement** : poser la carte près de la porte du frigo, c'est mesurer l'air qui rentre à chaque ouverture, pas la zone froide du fond. La même pièce peut afficher 18 °C près d'une fenêtre et 23 °C près d'un radiateur.
 
 Pour rester scientifique : **compare toujours à un thermomètre de référence** (médical, station météo, thermomètre de cuisine, thermomètre du frigo si disponible) pendant 5 minutes au début de l'expérience. Note l'écart constant entre les deux, et corrige tes valeurs après coup. C'est exactement ce que fait la fiche [Afficher un thermomètre très lisible](/ressources/inovmicro-exao/i11-thermometre-lisible) avec `set_temp_offset()`.
 
-Et surtout : un capteur de température ne te dira **jamais** si ton frigo est conforme aux normes de sécurité alimentaire. Pour ça, il faut un thermomètre certifié et savoir où poser la sonde. Notre mesure est utile pour **explorer**, pas pour **certifier**.
+Et surtout : un capteur de température ne te dira jamais si ton frigo est conforme aux normes de sécurité alimentaire. Pour ça, il faut un thermomètre certifié et savoir où poser la sonde. Notre mesure est utile pour explorer, pas pour certifier.
 
 :::
 
 :::info[Et la « qualité de l'air » dans tout ça ?]
 
-Avec température / pression / humidité, on observe le **confort thermique** et des indices **indirects** d'aération (l'humidité monte quand des gens respirent dans une pièce mal aérée). Mais **on ne mesure pas** la qualité de l'air au sens scientifique : ni le **CO2**, ni les **particules fines** (PM2.5, PM10), ni les **composés organiques volatils** (COV, peintures, plastiques, parfums). Pour ça, il faut d'autres capteurs spécialisés ([sensor.community](https://sensor.community/) propose des kits citoyens). Ne pas conclure « l'air est bon » uniquement à partir de la STeaMi.
+Avec température / pression / humidité, on observe le confort thermique et des indices indirects d'aération (l'humidité monte quand des gens respirent dans une pièce mal aérée). Mais on ne mesure pas la qualité de l'air au sens scientifique : ni le CO2, ni les particules fines (PM2.5, PM10), ni les composés organiques volatils (COV, peintures, plastiques, parfums). Pour ça, il faut d'autres capteurs spécialisés ([sensor.community](https://sensor.community/) propose des kits citoyens). Ne pas conclure « l'air est bon » uniquement à partir de la STeaMi.
 
-Pour aller plus loin sur ces questions, le projet SteamCity propose deux fiches dédiées : [Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality) et [Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality), qui complètent parfaitement la mesure de confort thermique faite ici.
+Pour aller plus loin sur ces questions, le projet SteamCity propose deux fiches dédiées : [Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality) et [Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality), qui complètent la mesure de confort thermique faite ici.
 
 :::
 
-Une fois les données récupérées, raconte ce que tu vois : à quelle heure la température monte / descend ? Quelle est la valeur maximale / minimale ? Y a-t-il un pic surprenant ? C'est ça, faire des sciences.
+Une fois les données récupérées, raconte ce que tu vois : à quelle heure la température monte / descend ? Quelle est la valeur maximale / minimale ? Y a-t-il un pic surprenant ?
 
 ---
 
@@ -477,19 +477,19 @@ Une fois les données récupérées, raconte ce que tu vois : à quelle heure la
 ### Pour comprendre
 
 - **[L'enregistrement de données dans l'histoire (Wikipédia)](https://fr.wikipedia.org/wiki/Enregistreur_de_donn%C3%A9es)** : avant les capteurs électroniques, les marins notaient température et pression toutes les heures à la main pendant des traversées de plusieurs mois. C'est cette accumulation patiente de mesures qui a permis aux scientifiques du 19e siècle de cartographier les courants océaniques et de comprendre les climats.
-- **[Le format CSV, le langage commun des données (Wikipédia)](https://fr.wikipedia.org/wiki/Comma-separated_values)** : pourquoi un format aussi simple que « valeurs séparées par des virgules » est devenu le passe-partout pour échanger des données entre logiciels, langages et machines depuis les années 1970.
-- **[Effet de serre et capteurs CO2 (CNRS Journal)](https://lejournal.cnrs.fr/articles/peut-on-evaluer-leffet-de-serre-en-laboratoire)** : comment les scientifiques mesurent en temps réel l'effet de serre dans l'atmosphère, et pourquoi les capteurs environnementaux miniatures (cousins de ceux de la STeaMi) sont devenus essentiels pour les sciences du climat.
-- **[Quand mesurer change tout : le projet Météo France (Wikipédia)](https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9o-France)** : 600 stations de mesure réparties sur le territoire français, qui collectent température, pression, humidité, vent, pluie 24 h sur 24. La même chose qu'on fait avec la STeaMi, mais à l'échelle d'un pays.
-- **[Données vs contexte (SteamCity)](/ressources/steamcity/donnees-contexte)** : une fiche méthodologique sur l'interprétation des mesures. Indispensable avant de conclure quoi que ce soit à partir des courbes de ton datalogger. Quels biais ? Quelle marge d'erreur ? Quelle représentativité ?
-- **[Détective urbain (SteamCity)](/ressources/steamcity/city-detective-challenge)** : enquêter sur sa ville à partir de données ouvertes, en posant les bonnes questions et en croisant les sources. La démarche d'investigation scientifique appliquée à l'espace urbain.
+- **[Le format CSV (Wikipédia)](https://fr.wikipedia.org/wiki/Comma-separated_values)** : pourquoi un format aussi simple que « valeurs séparées par des virgules » est devenu le format courant pour échanger des données entre logiciels, langages et machines depuis les années 1970.
+- **[Effet de serre et capteurs CO2 (CNRS Journal)](https://lejournal.cnrs.fr/articles/peut-on-evaluer-leffet-de-serre-en-laboratoire)** : comment les scientifiques mesurent en temps réel l'effet de serre dans l'atmosphère, et à quoi servent les capteurs environnementaux miniatures (cousins de ceux de la STeaMi) dans les sciences du climat.
+- **[Météo France et ses stations de mesure (Wikipédia)](https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9o-France)** : 600 stations de mesure réparties sur le territoire français, qui collectent température, pression, humidité, vent, pluie 24 h sur 24. C'est ce qu'on fait avec la STeaMi dans cette fiche, mais à l'échelle d'un pays.
+- **[Données vs contexte (SteamCity)](/ressources/steamcity/donnees-contexte)** : une fiche méthodologique sur l'interprétation des mesures (biais, marge d'erreur, représentativité), à lire avant de conclure quoi que ce soit à partir des courbes de ton datalogger.
+- **[Détective urbain (SteamCity)](/ressources/steamcity/city-detective-challenge)** : la démarche d'investigation scientifique appliquée à l'espace urbain, pour enquêter sur sa ville à partir de données ouvertes, en posant les bonnes questions et en croisant les sources.
 
 ### Pour s'inspirer (le projet SteamCity du Wiki@LAB)
 
-Le projet [**SteamCity**](/projets/steamcity) du Wiki@LAB est entièrement dédié à la **mesure citoyenne de l'environnement urbain**. La fiche que tu viens de terminer est le pont parfait : maintenant que tu sais collecter des données, voici les sujets sur lesquels les appliquer.
+Le projet [SteamCity](/projets/steamcity) du Wiki@LAB est entièrement dédié à la mesure citoyenne de l'environnement urbain. Maintenant que tu sais collecter des données, voici des sujets sur lesquels les appliquer.
 
 **Mesure de l'air et de l'atmosphère** :
 
-- **[Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality)** et **[Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality)** : avec des capteurs dédiés CO2, particules fines et COV (que la STeaMi seule ne mesure pas). Excellent complément à notre confort thermique.
+- **[Mesurer la qualité de l'air en classe](/ressources/steamcity/indoor-air-quality)** et **[Mesurer la qualité de l'air extérieur](/ressources/steamcity/outdoor-air-quality)** : avec des capteurs dédiés CO2, particules fines et COV (que la STeaMi seule ne mesure pas), en complément de la mesure de confort thermique.
 - **[Étudier les véhicules polluants en ville](/ressources/steamcity/trees-vs-cars)** : comparer la pollution générée par la circulation et le rôle absorbant des arbres.
 
 **Mesure sonore** :
@@ -509,14 +509,14 @@ Le projet [**SteamCity**](/projets/steamcity) du Wiki@LAB est entièrement dédi
 
 **Programmation de capteurs** (cousins programmation de notre fiche) :
 
-- **[Programmation : capteur de bruit](/ressources/steamcity/programmation/programmation-decibel-detective)**, **[Programmation : qualité de l'air intérieur](/ressources/steamcity/programmation/programmation-indoor-air-quality)**, **[Programmation : qualité de l'air extérieur](/ressources/steamcity/programmation/programmation-outdoor-air-quality)**, **[Programmation : isolation](/ressources/steamcity/programmation/programmation-insulation)** : des fiches purement techniques sur l'écriture du code des dataloggers correspondants. Très complémentaires à notre fiche `i15`.
+- **[Programmation : capteur de bruit](/ressources/steamcity/programmation/programmation-decibel-detective)**, **[Programmation : qualité de l'air intérieur](/ressources/steamcity/programmation/programmation-indoor-air-quality)**, **[Programmation : qualité de l'air extérieur](/ressources/steamcity/programmation/programmation-outdoor-air-quality)**, **[Programmation : isolation](/ressources/steamcity/programmation/programmation-insulation)** : des fiches purement techniques sur l'écriture du code des dataloggers correspondants.
 
 **Et au-delà de SteamCity** :
 
 - **[Sensor.community, le réseau citoyen mondial](https://sensor.community/fr/)** : des milliers de bénévoles ont installé chez eux des capteurs de qualité de l'air qui publient leurs mesures en open data. Ta STeaMi peut faire pareil pour ta rue, ton balcon, ton école.
 - **[EPA Air Sensor Toolbox](https://www.epa.gov/air-sensor-toolbox)** : programme de l'agence de l'environnement américaine (EPA) pour aider les citoyens à mesurer eux-mêmes la qualité de l'air, avec choix de capteurs et bonnes pratiques d'interprétation.
 - **[Cartophonies, cartographie sonore française](https://cartophonies.fr/)** : ambiances sonores de villes entières grâce à des contributions citoyennes.
-- **[Greta Thunberg et la force des données](https://fr.wikipedia.org/wiki/Greta_Thunberg)** : son discours public s'appuie sur les courbes collectées par les climatologues depuis des décennies. Une conviction durable se construit toujours sur un capteur qui mesure et écrit.
+- **[Greta Thunberg et la force des données](https://fr.wikipedia.org/wiki/Greta_Thunberg)** : son discours public s'appuie sur les courbes collectées par les climatologues depuis des décennies.
 
 ---
 

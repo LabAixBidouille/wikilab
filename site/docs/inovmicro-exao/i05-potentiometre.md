@@ -22,7 +22,7 @@ sidebar_position: 5
 | ------------- | ------ | ------------- | --------- | --------------------- |
 | I-Novmicro #2 | 30 min | Intermédiaire | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2). Attention : un câble qui ne sert qu'à charger un téléphone ne fonctionnera pas.
@@ -48,9 +48,9 @@ Si vous découvrez la breadboard et le connecteur Edge de la STeaMi, jetez d'abo
 
 ## De quoi parle-t-on ?
 
-Vous avez probablement déjà tourné le **bouton du volume** d'une chaîne hi-fi ou d'une enceinte, fait varier l'intensité d'un **éclairage à variateur**, ou poussé un **slider** dans un logiciel audio pour ajuster une voix. Tous ces dispositifs reposent sur le même composant : un **potentiomètre**. Ce qu'il fait au fond, c'est traduire une **position physique** (l'angle du bouton, la position du slider) en une **tension électrique** que le reste du circuit peut mesurer.
+Vous avez probablement déjà tourné le bouton du volume d'une chaîne hi-fi ou d'une enceinte, fait varier l'intensité d'un éclairage à variateur, ou poussé un slider (une glissière) dans un logiciel audio pour ajuster une voix. Tous ces dispositifs reposent sur le même composant : un **potentiomètre**. Ce qu'il fait au fond, c'est traduire une position physique (l'angle du bouton, la position du slider) en une tension électrique que le reste du circuit peut mesurer.
 
-Dans cette fiche, vous allez câbler un potentiomètre rotatif à la STeaMi via son connecteur Edge, lire sa valeur dans le code, et l'utiliser pour faire varier en temps réel la **luminosité d'une LED**. C'est l'occasion d'introduire deux concepts qui reviennent dans la plupart des projets matériels : l'**ADC** (conversion analogique vers numérique, pour lire le pot) et le **PWM** (modulation de largeur d'impulsion, pour piloter la LED en intensité variable).
+Dans cette fiche, vous allez câbler un potentiomètre rotatif à la STeaMi via son connecteur Edge, lire sa valeur dans le code, et l'utiliser pour faire varier en temps réel la luminosité d'une LED. C'est l'occasion d'introduire deux concepts qui reviennent dans la plupart des projets matériels : l'**ADC** (conversion analogique vers numérique, pour lire le pot) et le **PWM** (modulation de largeur d'impulsion, pour piloter la LED en intensité variable).
 
 :::info[Composants externes, câbles à brancher]
 Cette fiche utilise du matériel additionnel. Les LED RGB intégrées de la STeaMi pourraient suffire à voir un effet, mais le potentiomètre, lui, doit forcément être ajouté de l'extérieur via le connecteur Edge ou les pads crocodile.
@@ -101,7 +101,7 @@ Sur le même principe que la fiche breadboard :
 
 1. Insérer la **LED** dans deux rangées différentes en respectant la polarité (anode patte longue à gauche, cathode patte courte à droite).
 2. Insérer une **résistance 330 Ω** entre la cathode et la rangée **GND**.
-3. Brancher l'**anode** à la broche **P7** de la STeaMi (signal `GPIO3_EDGE`, supporte le PWM).
+3. Brancher l'**anode** à la broche **P7** de la STeaMi (signal `GPIO3_EDGE`, compatible PWM).
 
 (Si ce câblage LED + résistance vous est totalement étranger, voir la fiche [Construire un premier circuit sur breadboard](/ressources/inovmicro-exao/i02-premier-circuit-breadboard), qui pose ces bases en détail.)
 
@@ -153,7 +153,7 @@ while True:
 
 1. **Imports** : `ADC` et `PWM` viennent de `machine`. Ces deux classes encapsulent le matériel : on n'a pas à manipuler de registres, juste à appeler des méthodes.
 2. **Initialisation** : `ADC(Pin('P3'))` configure la broche P3 en entrée analogique. `PWM(Pin('P7'))` configure P7 en sortie modulée. `led.freq(1000)` fixe la fréquence à 1 kHz : la LED s'allume et s'éteint 1 000 fois par seconde, ce qui paraît continu à l'œil humain (effet stroboscopique invisible).
-3. **`read_u16()`** : lit la tension sur P3 et la convertit en un entier sur **16 bits**, donc entre `0` (0 V) et `65535` (3,3 V). C'est ce que fait l'**ADC** (Analog-to-Digital Converter) du microcontrôleur, transformant un signal continu en valeur discrète.
+3. **`read_u16()`** : lit la tension sur P3 et la convertit en un entier sur **16 bits**, donc entre `0` (0 V) et `65535` (3,3 V). C'est le travail de l'**ADC** (Analog-to-Digital Converter) du microcontrôleur : il transforme un signal continu en valeur discrète.
 4. **`duty_u16(valeur)`** : règle le rapport cyclique du PWM avec la même résolution. `0` = LED éteinte, `65535` = LED au maximum. Tout ce qui est entre alterne rapidement entre 0 V et 3,3 V dans une proportion qui simule une tension moyenne intermédiaire.
 5. **`sleep_ms(20)`** : pause de 20 ms entre deux lectures. À 50 Hz, le mouvement du bouton est suivi de manière fluide à l'œil.
 
@@ -192,12 +192,12 @@ Ce défi sert à voir que `read_u16()` borne toujours la valeur dans `0..65535`,
 
 ### Défi 2 : Deux LED inversées
 
-Brancher une **deuxième LED** sur la broche **P10** (signal `ANALOG05_EDGE`, qui supporte aussi le PWM). Faire en sorte que cette LED s'**éteigne** quand la première s'**allume**, et vice versa.
+Brancher une **deuxième LED** sur la broche **P10** (signal `ANALOG05_EDGE`, qui accepte aussi le PWM). Faire en sorte que cette LED s'**éteigne** quand la première s'**allume**, et vice versa.
 
 Indice : `65535 - valeur` retourne la valeur miroir.
 
 :::info[Pourquoi P10 et pas P11 ?]
-La broche **P11** supporte aussi le PWM, mais elle est **partagée avec le bouton B intégré** de la STeaMi (`GPIO6_EDGE_BOUTON_B`). Y câbler une LED externe est tentant techniquement, mais déconseillé pour une fiche élève : si quelqu'un appuie par mégarde sur le bouton B pendant le programme, la broche change d'état et la LED clignote n'importe comment. **P10** (`ANALOG05_EDGE`) est dédiée et sans conflit, c'est le choix prudent.
+La broche **P11** accepte aussi le PWM, mais elle est **partagée avec le bouton B intégré** de la STeaMi (`GPIO6_EDGE_BOUTON_B`). Y câbler une LED externe est tentant techniquement, mais déconseillé pour une fiche élève : si quelqu'un appuie par mégarde sur le bouton B pendant le programme, la broche change d'état et la LED clignote n'importe comment. **P10** (`ANALOG05_EDGE`) est dédiée et sans conflit, c'est le choix prudent.
 :::
 
 ### Défi 3 : Buzzer en volume variable
@@ -221,15 +221,15 @@ Imaginer un usage qui sorte du « variateur de lumière ». Pistes :
 
 - **[Potentiomètre (Wikipédia)](https://fr.wikipedia.org/wiki/Potentiom%C3%A8tre)** : composant qu'on trouve dans toutes les tables de mixage audio, les amplificateurs anciens, les manettes de jeux analogiques. La forme rotative qu'on utilise ici est la plus courante, mais il existe aussi des sliders linéaires (mixers DJ) et des trimmers (petites molettes à ajuster avec un tournevis dans les circuits).
 - **[Diviseur de tension (Wikipédia)](https://fr.wikipedia.org/wiki/Pont_diviseur_de_tension)** : le principe physique derrière le potentiomètre. Deux résistances en série partagent une tension d'entrée selon leur rapport. Très utile pour adapter le signal d'un capteur à la plage d'entrée d'un microcontrôleur.
-- **[Convertisseur analogique-numérique (Wikipédia)](https://fr.wikipedia.org/wiki/Convertisseur_analogique-num%C3%A9rique)** : comment un microcontrôleur transforme une tension continue en nombre. Sujet riche (résolution, vitesse d'échantillonnage, bruit, théorème de Nyquist) qui ouvre sur tout le traitement du signal.
+- **[Convertisseur analogique-numérique (Wikipédia)](https://fr.wikipedia.org/wiki/Convertisseur_analogique-num%C3%A9rique)** : comment un microcontrôleur transforme une tension continue en nombre. Le sujet est riche (résolution, vitesse d'échantillonnage, bruit, théorème de Nyquist) et ouvre sur tout le traitement du signal.
 - **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsions)** : pourquoi un signal qui alterne très vite entre 0 V et 3,3 V est perçu comme une tension intermédiaire. Technique utilisée pour piloter des moteurs (vitesse), des LED (luminosité), des servomoteurs (position), des chauffages, et bien d'autres.
 
 ### Pour s'inspirer
 
-- **[Le synthé Moog original (1964)](https://fr.wikipedia.org/wiki/Robert_Moog)** : Robert Moog a démocratisé les synthétiseurs en remplaçant les énormes consoles de studio par des modules pilotés par... des potentiomètres rotatifs. Sans eux, pas de synthés modernes, pas de musique électronique.
-- **[Les tables de mixage des concerts](https://fr.wikipedia.org/wiki/Console_de_mixage)** : un ingénieur du son devant une grande console pousse des dizaines de sliders et tourne des dizaines de boutons, qui sont tous des potentiomètres reliés à un circuit électronique. C'est exactement ce que vous venez d'expérimenter, à plus grande échelle.
-- **[Le joystick analogique (Wikipédia)](https://fr.wikipedia.org/wiki/Joystick)** : sur les manettes de console depuis la Nintendo 64, les deux mini-sticks comportent chacun deux potentiomètres (un pour l'axe X, un pour l'axe Y). C'est la même technologie que la vôtre, miniaturisée.
-- **[Le radio-réveil de votre grand-mère](https://fr.wikipedia.org/wiki/Radio)** : la mollette qui ajuste la station radio est un potentiomètre relié à un circuit accordé. Un objet du quotidien qui vous donne directement à manipuler le composant que vous venez de programmer.
+- **[Le synthé Moog original (1964)](https://fr.wikipedia.org/wiki/Robert_Moog)** : Robert Moog a démocratisé les synthétiseurs en remplaçant les énormes consoles de studio par des modules pilotés par des potentiomètres rotatifs.
+- **[Les tables de mixage des concerts](https://fr.wikipedia.org/wiki/Console_de_mixage)** : un ingénieur du son devant une grande console pousse des dizaines de sliders et tourne des dizaines de boutons, qui sont tous des potentiomètres reliés à un circuit électronique.
+- **[Le joystick analogique (Wikipédia)](https://fr.wikipedia.org/wiki/Joystick)** : sur les manettes de console depuis la Nintendo 64, les deux mini-sticks comportent chacun deux potentiomètres miniatures (un pour l'axe X, un pour l'axe Y).
+- **[Le radio-réveil de votre grand-mère](https://fr.wikipedia.org/wiki/Radio)** : la mollette qui ajuste la station radio est un potentiomètre relié à un circuit accordé.
 
 ---
 

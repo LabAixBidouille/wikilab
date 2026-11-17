@@ -36,11 +36,11 @@ sidebar_position: 11
 
 ## De quoi parle-t-on ?
 
-Quand tu prends ta température avec un thermomètre médical, quand un frigo s'éteint parce qu'il a atteint la bonne fraîcheur, quand une station météo annonce 25 °C dehors, ou quand ton four affiche « préchauffage terminé » : à chaque fois, **un capteur de température** a mesuré le chaud ou le froid et a transformé cette grandeur physique en un nombre.
+Quand tu prends ta température avec un thermomètre médical, quand un frigo s'éteint parce qu'il a atteint la bonne fraîcheur, quand une station météo annonce 25 °C dehors, ou quand ton four affiche « préchauffage terminé » : à chaque fois, un capteur de température a mesuré le chaud ou le froid et a transformé cette grandeur physique en un nombre.
 
 La [**température**](https://fr.wikipedia.org/wiki/Temp%C3%A9rature) est une grandeur qui mesure l'**énergie thermique** d'un objet. Plus les molécules d'un objet s'agitent vite, plus il est chaud. À 0 °C, l'eau gèle. À 100 °C, elle bout. Le corps humain tient à environ 37 °C. La pièce où tu es se situe probablement entre 18 et 25 °C.
 
-La STeaMi intègre un petit capteur **WSEN-PADS** (de Würth Elektronik) qui mesure deux grandeurs en même temps : la **température** et la **pression atmosphérique**. Dans cette activité, on va lire la température et l'afficher sur l'écran OLED de façon **vraiment lisible** : avec la valeur en grand, une jauge en arc de cercle (comme un thermomètre rond classique), et un commentaire de confort thermique en bas. Pas besoin d'écran LCD externe ni de câblage.
+La STeaMi intègre un petit capteur **WSEN-PADS** (de Würth Elektronik) qui mesure deux grandeurs en même temps : la **température** et la **pression atmosphérique**. Dans cette activité, on va lire la température et l'afficher sur l'écran OLED de façon lisible : avec la valeur en grand, une jauge en arc de cercle (comme un thermomètre rond classique), et un commentaire de confort thermique en bas.
 
 :::info[Capteur intégré, rien à câbler]
 Le WSEN-PADS est déjà soudé à l'intérieur de la STeaMi. On n'a rien à brancher : il suffit de l'appeler depuis le code.
@@ -54,7 +54,7 @@ Le WSEN-PADS est déjà soudé à l'intérieur de la STeaMi. On n'a rien à bran
 
 - **Expliquer** ce qu'est la température en tant que grandeur physique, et citer quelques objets du quotidien qui contiennent un capteur de température (thermomètre médical, frigo, four, smartphone, station météo...).
 - **Lire** la température fournie par un capteur intégré et la **comparer** à une référence (un thermomètre du commerce) pour évaluer la précision du capteur.
-- **Concevoir** un affichage qui rend une valeur numérique **immédiatement lisible** : valeur en grand, jauge proportionnelle, commentaire contextuel.
+- **Concevoir** un affichage qui rend une valeur numérique immédiatement lisible : valeur en grand, jauge proportionnelle, commentaire contextuel.
 - **Calibrer** un capteur : comprendre pourquoi une mesure brute peut être biaisée (auto-échauffement de l'électronique) et comment corriger cet écart.
 - **Imaginer** d'autres applications : station météo, alarme d'aquarium, sonde de cuisson, contrôle de serre...
 ---
@@ -76,7 +76,7 @@ Le capteur mesure deux grandeurs en même temps :
 
 Le capteur mesure la température **au niveau de sa puce**, qui est posée sur le circuit imprimé de la STeaMi. Or l'électronique autour génère un peu de chaleur quand la carte fonctionne (on parle d'**auto-échauffement**). Conséquence : le capteur peut indiquer 2 à 5 °C de plus que la température réelle de la pièce.
 
-Pas grave : on apprendra à **calibrer** le capteur dans l'étape Améliorer pour corriger cet écart. C'est exactement ce que font les ingénieurs en industrie : on compare la mesure du capteur à un thermomètre de référence et on ajuste.
+Pas grave : on apprendra à **calibrer** le capteur dans l'étape Améliorer pour corriger cet écart. On procède comme les ingénieurs en industrie : on compare la mesure du capteur à un thermomètre de référence et on ajuste.
 
 :::
 
@@ -101,7 +101,7 @@ Pour rendre l'affichage expressif, on va combiner trois widgets de `steami_scree
 - `ecran.subtitle("...")` : un texte de commentaire en bas
 
 :::info[Pourquoi pas de °C ni d'accent sur l'écran ?]
-La petite police de l'écran OLED n'embarque pas tous les caractères accentués ni le symbole `°`. On utilise donc des chaînes en ASCII pur (`"C"` au lieu de `"°C"`, `"Temperature"` au lieu de `"Température"`) pour garantir un affichage propre. Dans le corps du texte de la fiche, on garde évidemment les accents.
+La petite police de l'écran OLED n'embarque pas tous les caractères accentués ni le symbole `°`. On utilise donc des chaînes en ASCII pur (`"C"` au lieu de `"°C"`, `"Temperature"` au lieu de `"Température"`) pour garantir un affichage propre.
 :::
 
 :::info[Première fois avec l'écran OLED ?]
@@ -246,9 +246,9 @@ Le programme se lit en trois temps :
 
 :::info[La fonction `confort()` : traduire un nombre en mot]
 
-Cette fonction est un petit exemple **typique** de programmation utile : elle prend une donnée brute (un nombre) et la transforme en une **information utilisable** par un humain (un commentaire). Sans elle, l'écran afficherait juste un chiffre. Avec elle, l'élève qui lit l'écran sait tout de suite s'il fait trop chaud ou trop froid, sans avoir à se rappeler quelles sont les températures « normales ».
+Cette fonction est un petit exemple typique de programmation utile : elle prend une donnée brute (un nombre) et la transforme en une information utilisable par un humain (un commentaire). Sans elle, l'écran afficherait juste un chiffre. Avec elle, l'élève qui lit l'écran sait tout de suite s'il fait trop chaud ou trop froid, sans avoir à se rappeler quelles sont les températures « normales ».
 
-C'est exactement ce que font les applications de météo (« Conditions agréables », « Risque de gel »), les baromètres (« Beau temps », « Tempête »), les indicateurs de batterie (« Faible », « En charge »), ou les évaluations scolaires (« Très bien », « À retravailler »). Transformer une donnée chiffrée en mot, c'est rendre le numérique **lisible**.
+C'est exactement ce que font les applications de météo (« Conditions agréables », « Risque de gel »), les baromètres (« Beau temps », « Tempête »), les indicateurs de batterie (« Faible », « En charge »), ou les évaluations scolaires (« Très bien », « À retravailler »).
 
 :::
 
@@ -327,13 +327,13 @@ while True:
 ### Pour comprendre
 
 - **[Capteur de température (Wikipédia)](https://fr.wikipedia.org/wiki/Capteur_de_temp%C3%A9rature)** : la grande famille des capteurs thermiques (thermistance, thermocouple, capteur infrarouge, MEMS) et leurs principes physiques très différents. Le WSEN-PADS appartient à la famille des capteurs MEMS, comme l'accéléromètre de la fiche [i09](/ressources/inovmicro-exao/i09-inclinaison-accelerometre).
-- **[Pression atmosphérique (Wikipédia)](https://fr.wikipedia.org/wiki/Pression_atmosph%C3%A9rique)** : pourquoi la pression varie entre 980 et 1040 hPa, comment elle annonce le beau temps ou la pluie, et pourquoi un baromètre est un outil météorologique fondamental.
+- **[Pression atmosphérique (Wikipédia)](https://fr.wikipedia.org/wiki/Pression_atmosph%C3%A9rique)** : pourquoi la pression varie entre 980 et 1040 hPa, comment elle annonce le beau temps ou la pluie, et à quoi sert un baromètre en météorologie.
 - **[Auto-échauffement d'un circuit (Wikipédia)](https://fr.wikipedia.org/wiki/Auto-%C3%A9chauffement)** : pourquoi un capteur posé sur une carte électronique mesure une température légèrement supérieure à la température ambiante. La calibration de l'Étape 3 corrige précisément cet effet.
 
 ### Pour s'inspirer
 
 - **[Wiki STeaMi : Capteurs intégrés](https://wiki.steami.cc/docs/hardware/main-components/sensors)** : description complète du WSEN-PADS et des autres capteurs de la carte, avec datasheet officielle.
-- **[Station météo connectée](https://learn.adafruit.com/wifi-weather-station-with-tft-display)** : un projet Adafruit qui combine température, pression, humidité et un affichage graphique. Le grand frère ambitieux de notre fiche, prêt à poser sur un rebord de fenêtre.
+- **[Station météo connectée](https://learn.adafruit.com/wifi-weather-station-with-tft-display)** : un projet Adafruit qui combine température, pression, humidité et un affichage graphique. C'est une version plus complète de ce thermomètre, à poser sur un rebord de fenêtre.
 - **[Thermomètre d'aquarium / vivarium](https://www.instructables.com/Aquarium-Temperature-Monitor-Using-DS18B20/)** : application pratique où la température doit être surveillée en continu et déclencher une alerte si elle sort d'une plage. Notre code de confort se transforme facilement en alarme.
 - **[Sonde de température de cuisson](https://www.instructables.com/Smart-BBQ-Wireless-Temperature-Monitoring/)** : la même physique appliquée à la cuisine, avec une plage 0-300 °C et un buzzer qui sonne quand le steak est à point.
 
