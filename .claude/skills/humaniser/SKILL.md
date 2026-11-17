@@ -1447,10 +1447,15 @@ gestes :
 
 1. Chercher la valeur dans la source de la fiche ou dans l'issue qui l'accompagne.
 2. Si elle s'y trouve, la mettre à la place du gabarit, crochets compris.
-3. Sinon, la demander. Si l'auteur répond que le trou attend une mesure ou un lien, le garder et le
-   signaler dans le résumé rendu : le manque est alors un fait. Sinon, réécrire la phrase sans le
-   trou en gardant ce qu'elle affirme, ou retirer la ligne quand elle ne portait que le trou, comme
-   « Signé : [Votre nom] ».
+3. Sinon, la demander. Sans réponse, réécrire la phrase sans le trou en gardant ce qu'elle affirme,
+   ou retirer la ligne quand elle ne portait que le trou, comme « Signé : [Votre nom] ». Signaler
+   le manque dans le résumé rendu.
+
+Sur le wiki, un trou ne se publie pas, même quand l'auteur répond qu'il attend une mesure ou un
+lien : la valeur arrive avec une prochaine PR, et d'ici là la phrase s'en passe. C'est la règle
+« Pas de suivi interne » de `CONVENTIONS.md`, qui vaut aussi pour « non testé », « personne n'a
+encore… » et « pas remesuré avec la version X » : ce ne sont pas des gabarits, mais du suivi de
+projet laissé dans le texte, et ils se traitent comme lui.
 
 Ne jamais mettre une valeur vraisemblable, une date ou une adresse devinée. La même trace existe en
 toutes lettres, comme « (lien du formulaire : à compléter) », et se traite de la même façon.
