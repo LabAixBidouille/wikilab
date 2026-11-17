@@ -58,7 +58,7 @@ La précision du remplissage dépend du niveau de zoom au moment du clic. Le con
 
 Un premier essai de découpe d'un cercle dans le liège confirme que les paramètres par défaut (« Cork ») conviennent.
 
-**Premier problème** : la découpeuse refuse le fichier de la carte. Après plusieurs tentatives, la cause est identifiée : le fichier est trop volumineux. Le contour comporte trop de détails et trop d'îles générant des découpes inutiles. Il faut les supprimer avant le remplissage. (Cuba et les Antilles y sont passées aussi — un peu radical.)
+**Premier problème** : la découpeuse refuse le fichier de la carte. Après plusieurs tentatives, la cause est identifiée : le fichier est trop volumineux. Le contour comporte trop de détails et trop d'îles générant des découpes inutiles. Il faut les supprimer avant le remplissage. (Cuba et les Antilles y sont passées aussi, un peu radical.)
 
 ![Îles d'Océanie](/img/ressources/projets-du-lab/IlesOceanie.png)
 ![Suppression des îles](/img/ressources/projets-du-lab/SuppressionIles.png)
@@ -71,7 +71,7 @@ Fichier SVG réutilisable dans Inkscape :
 **Deuxième problème** : le liège brûle pendant la découpe.
 ![Flamme pendant la découpe](/img/ressources/projets-du-lab/Flamme.png)
 
-La chaleur du laser ne s'évacue pas assez vite : le liège est trop isolant et trop épais. Augmenter la vitesse et multiplier les passes ne résout rien — les passes suivantes brûlent encore plus.
+La chaleur du laser ne s'évacue pas assez vite : le liège est trop isolant et trop épais. Augmenter la vitesse et multiplier les passes ne résout rien : les passes suivantes brûlent encore plus.
 
 ## L'astuce de Sébastien
 
@@ -89,4 +89,4 @@ Pose de scotch double-face sur les « terres » et collage au mur. Les « mers �
 
 ## Retour d'expérience
 
-La mise au point a demandé du temps. Pour refaire cette carte, il serait préférable d'utiliser un liège plus fin (6 à 8 mm maximum), si possible en plaques adhésives — ou bien coller le scotch double-face sur toute la surface avant la découpe, pour qu'il soit découpé en même temps. Éviter le liège en rouleau : il est difficile à poser bien à plat dans la machine, ce qui peut provoquer des problèmes de focalisation du laser.
+La mise au point a demandé du temps. Pour refaire cette carte, il serait préférable d'utiliser un liège plus fin (6 à 8 mm maximum), si possible en plaques adhésives, ou bien coller le scotch double-face sur toute la surface avant la découpe, pour qu'il soit découpé en même temps. Éviter le liège en rouleau : il est difficile à poser bien à plat dans la machine, ce qui peut provoquer des problèmes de focalisation du laser.

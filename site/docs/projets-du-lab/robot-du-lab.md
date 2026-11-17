@@ -57,10 +57,7 @@ Deux versions :
 
 ## Électronique
 
-La carte Arduino pilote :
-- 2 servomoteurs à rotation continue
-- 1 capteur ultrason HC-SR04
-- En option : LEDs, capteurs de ligne, module WiFi, module son
+La carte Arduino pilote les deux servomoteurs et le capteur ultrason, ainsi que les LED, les capteurs de ligne, le module WiFi et le module son ajoutés en option.
 
 ## Programmation
 

@@ -27,8 +27,6 @@ Ce projet vise à découvrir par la pratique le fonctionnement du [bus CAN](http
 
 ## Matériel
 
-Matériel nécessaire :
-
 - 2 Arduino Uno
 
 - 2 [shield CAN-BUS Sparkfun](https://www.sparkfun.com/products/10039) ou un [shield Seeduino](https://www.seeedstudio.com/CAN-BUS-Shield-V1.2-p-2256.html) ou un [breakout (archive.org 2021-04)](https://web.archive.org/web/20210422223931/https://www.botshop.co.za/product/can-bus-module-arduino-mcp2515/)
@@ -38,8 +36,6 @@ Matériel nécessaire :
 - Straps ou fils de liaison
 
 ## Logiciel
-
-Logiciels utilisés :
 
 - IDE Arduino [Arduino](https://www.arduino.cc/)
 
@@ -51,7 +47,7 @@ Ces informations sont principalement issues de la page Wikipédia ["Bus CAN"](ht
 
 Le bus CAN (Controller Area Network) est un bus système série très répandu dans beaucoup d'industries, notamment l'automobile. Développé à l'origine par Bosch dans les années 1980, il est aujourd'hui le standard de communication dans les véhicules modernes, où il relie les dizaines de calculateurs embarqués (moteur, ABS, airbags, tableau de bord, etc.).
 
-Il met en application une approche connue sous le nom de multiplexage, qui consiste à raccorder à un même câble (un bus) un grand nombre de calculateurs qui communiqueront à tour de rôle. Cette technique élimine le besoin de câbler des lignes dédiées pour chaque information à faire transiter (connexion point-à-point).
+Il utilise le multiplexage : un grand nombre de calculateurs sont raccordés à un même câble (un bus) et communiquent à tour de rôle. Cette technique évite de câbler des lignes dédiées pour chaque information à faire transiter (connexion point-à-point).
 
 **Caractéristiques principales :**
 
@@ -64,15 +60,15 @@ Il met en application une approche connue sous le nom de multiplexage, qui consi
 
 ### 1. Émission/Réception simple
 
-Le cas le plus basique : un Arduino envoie une trame CAN contenant quelques octets, l'autre Arduino la reçoit et l'affiche sur le moniteur série. Cela permet de vérifier le câblage, la configuration des shields et le bon fonctionnement de la bibliothèque CAN-BUS Shield.
+Le cas le plus basique : un Arduino envoie une trame CAN contenant quelques octets, l'autre Arduino la reçoit et l'affiche sur le moniteur série. Ce premier essai sert à vérifier le câblage, la configuration des shields et le bon fonctionnement de la bibliothèque CAN-BUS Shield.
 
 ### 2. Émission de données RTC / Réception et affichage
 
-L'Arduino émetteur lit l'heure depuis un module RTC (Real Time Clock) et l'envoie sous forme de trame CAN. L'Arduino récepteur décode la trame et affiche l'heure. Cela introduit la notion d'encodage de données structurées dans les 8 octets d'une trame CAN.
+L'Arduino émetteur lit l'heure depuis un module RTC (Real Time Clock) et l'envoie sous forme de trame CAN. L'Arduino récepteur décode la trame et affiche l'heure. On y aborde l'encodage de données structurées dans les 8 octets d'une trame CAN.
 
 ### 3. Émission RTC / Réception multi-shields avec adressage
 
-Extension de l'expérimentation précédente avec plusieurs nœuds récepteurs sur le même bus. Chaque récepteur filtre les trames par identifiant CAN pour ne traiter que celles qui lui sont destinées. Cela illustre le fonctionnement multi-nœuds du bus et le mécanisme de filtrage par identifiant.
+Cette extension de l'expérimentation précédente montre le fonctionnement multi-nœuds du bus : plusieurs nœuds récepteurs y sont branchés, et chaque récepteur filtre les trames par identifiant CAN pour ne traiter que celles qui lui sont destinées.
 
 ## Bibliographie
 

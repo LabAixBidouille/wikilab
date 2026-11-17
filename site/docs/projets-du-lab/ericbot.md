@@ -49,7 +49,7 @@ Il est fixé au carter de l'interrupteur avec du scotch double-face et relié à
 
 Fixer l'Arduino Uno sur le châssis, puis câbler le contrôleur à ses périphériques. Les moteurs sont connectés à l'Arduino par des fils mâle-mâle, en suivant le tutoriel "Un moteur qui sait où il va : le servomoteur".
 
-L'Arduino Uno ne dispose que d'une seule sortie 5V : il faut démultiplier l'alimentation en soudant des straps.
+L'Arduino Uno n'a qu'une sortie 5V : il faut démultiplier l'alimentation en soudant des straps.
 
 ### Les roues
 
@@ -268,7 +268,7 @@ void loop()
 
 ## Intégration de l'anneau de LEDs
 
-Se référer au tutoriel "Sur bandeau de LED". Attention : il s'agit d'un anneau (Ring), pas d'un bandeau — le branchement diffère. Connecter le 5V au 5V, le Ground au GND et le Data In à la broche souhaitée.
+Se référer au tutoriel "Sur bandeau de LED". Attention : il s'agit d'un anneau (Ring), pas d'un bandeau. Le branchement diffère. Connecter le 5V au 5V, le Ground au GND et le Data In à la broche souhaitée.
 
 Pour brancher plusieurs composants sur le 5V : souder des picots entre eux pour créer un pont commun.
 

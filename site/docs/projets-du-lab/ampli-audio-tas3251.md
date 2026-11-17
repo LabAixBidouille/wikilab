@@ -29,7 +29,7 @@ Ce projet s'inscrit dans la continuité du projet Audio HiFi Full numérique ([v
 
 </div>
 
-Le composant central est le TAS3251 de Texas Instruments : un amplificateur classe D 2x175W qui concentre le meilleur de l'audio TI dans un seul chip, avec un potentiel de performance supérieur à 95-99 % des produits du marché.
+Le composant central est le TAS3251 de Texas Instruments : un amplificateur classe D 2x175W, avec un potentiel de performance supérieur à 95-99 % des produits du marché.
 
 On trouve sur le marché des cartes d'ampli chinoises à très bas prix. Beaucoup sont de bonne facture, mais font des compromis sur certains composants pour réduire les coûts. Les passionnés les remplacent ensuite par de meilleurs, ce qui est parfois acrobatique. Ici, le choix a été fait de cibler la performance dès la conception, sans compromis sur les composants.
 
