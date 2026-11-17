@@ -63,11 +63,9 @@ Cette fiche d'activité explique comment collecter les données d'un capteur env
 
 ## Introduction
 
-Un capteur mesure une quantité physique et la convertit en un signal qui peut être transformé en une valeur numérique par un microcontrôleur. Dans votre programme, vous pouvez utiliser cette valeur pour adapter le comportement de votre algorithme (par exemple, fermer la porte de la maison lorsque la valeur du capteur de lumière devient faible).
+Un capteur mesure une grandeur physique et la convertit en un signal, qu'un microcontrôleur peut transformer en valeur numérique. Dans votre programme, vous pouvez utiliser cette valeur pour adapter le comportement de votre algorithme (par exemple, fermer la porte de la maison lorsque la valeur du capteur de lumière devient faible).
 
 Lorsque vous souhaitez mener une expérience scientifique, une seule valeur ne vous donne pas suffisamment d'informations pour émettre des hypothèses. Vous devez observer comment la valeur de votre capteur va évoluer sur une longue période de temps.
-
-Cette fiche d'activité explique comment collecter les données d'un capteur environnemental et comment les exporter vers un ordinateur pour effectuer une analyse simple à l'aide d'un tableur.
 
 ---
 
@@ -91,14 +89,14 @@ Après avoir créé votre nouveau projet, vous accéderez à l'éditeur MakeCode
 
 :::info[Les extensions MakeCode]
 
-Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de base. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteurs, de robotique et bien plus encore.
+Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de base. Il existe par exemple des extensions pour la manette de jeu, le clavier, la souris, les servomoteurs et la robotique.
 :::
 
 ### 4. Accéder aux extensions et installer le Datalogger
 
 Cliquez sur le bouton noir **AVANCÉ** en bas de la colonne des groupes de blocs. Des groupes de blocs supplémentaires apparaîtront. En bas, cliquez sur la boîte grise **EXTENSIONS**.
 
-Dans la liste des extensions disponibles, trouvez l'extension **Datalogger** qui sera utilisée pour cette activité. Si elle n'est pas directement visible, utilisez l'outil de recherche. Cliquez sur l'extension souhaitée — un nouveau groupe de blocs apparaîtra sur l'écran principal.
+Dans la liste des extensions disponibles, trouvez l'extension **Datalogger** qui sera utilisée pour cette activité. Si elle n'est pas directement visible, utilisez l'outil de recherche. Cliquez sur l'extension souhaitée : un nouveau groupe de blocs apparaîtra sur l'écran principal.
 
 <div style={{display: 'flex', gap: '0.5rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
 <img src="/img/ressources/lets-steam/r1as15-collecte-donnees/collecter-des-donnees-extensions.png" alt="Extension collecte de données" style={{width: '33%', objectFit: 'contain'}} />
@@ -108,14 +106,14 @@ Dans la liste des extensions disponibles, trouvez l'extension **Datalogger** qui
 
 ### 5. Programmer la carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre datalogger est prêt !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter. Votre datalogger est prêt !
 
 ### 6. Utiliser votre datalogger
 
 Le programme enregistre les données dans la mémoire flash (la LED 1 est allumée) jusqu'à ce que vous appuyiez sur le bouton **USER**, ce qui fait s'allumer la LED 2. C'est l'indication que l'enregistrement des données est arrêté et que vous pouvez copier les données sur votre ordinateur.
 
 :::info[Attention]
-Assurez-vous d'avoir arrêté l'enregistrement de vos données avant d'accéder au fichier `log.csv` avec un programme quelconque. Appuyer sur Reset ou débrancher la carte sans avoir mis en pause l'enregistrement avec le bouton USER corrompra le fichier `log.csv` ! Appuyez sur le bouton USER pour arrêter l'enregistrement — cela fermera correctement le fichier et permettra de copier les données.
+Assurez-vous d'avoir arrêté l'enregistrement de vos données avant d'accéder au fichier `log.csv` avec un programme quelconque. Appuyer sur Reset ou débrancher la carte sans avoir mis en pause l'enregistrement avec le bouton USER corrompra le fichier `log.csv` ! Appuyez sur le bouton USER pour arrêter l'enregistrement : le fichier se ferme alors correctement, et vous pouvez copier les données.
 :::
 
 ### 7. Obtenir les données
@@ -128,7 +126,7 @@ Copiez le fichier `log.csv` sur votre disque pour le sauvegarder et le consulter
 
 ### 8. Visualiser les données
 
-Ouvrez un **programme de feuille de calcul** tel que Google Sheets, Microsoft Excel, macOS Numbers, etc. Ouvrez le fichier `log.csv`. Le tableur devrait reconnaître le CSV (si votre programme ne le reconnaît pas, vous devrez peut-être préciser que vous essayez d'ouvrir un fichier CSV ou utiliser une fonction d'importation). Dans Google Sheets, le fichier s'ouvre correctement.
+Ouvrez un programme de feuille de calcul tel que Google Sheets, Microsoft Excel, macOS Numbers, etc. Ouvrez le fichier `log.csv`. Le tableur devrait reconnaître le CSV (si votre programme ne le reconnaît pas, vous devrez peut-être préciser que vous essayez d'ouvrir un fichier CSV ou utiliser une fonction d'importation). Dans Google Sheets, le fichier s'ouvre correctement.
 
 **Ressource :** https://en.wikipedia.org/wiki/Comma-separated_values
 
@@ -136,7 +134,7 @@ Les lignes `sep=` et `NAN` peuvent être ignorées si elles apparaissent. La lig
 
 Les données peuvent s'étendre sur une longue durée puisque l'exemple enregistre toutes les 10 secondes. Vous pouvez enregistrer plus lentement, par exemple toutes les 60 secondes (1 minute) ou toutes les 300 secondes (5 minutes), etc.
 
-Les données peuvent être utilisées à des fins d'analyse ou pour établir un graphique des valeurs sur une période donnée. En utilisant la fonction graphique de Google Sheets, appuyez sur le bouton graphique de la barre d'outils et sans aucun formatage, vous obtenez un superbe graphique !
+Les données peuvent être utilisées à des fins d'analyse ou pour établir un graphique des valeurs sur une période donnée. Pour utiliser la fonction graphique de Google Sheets, appuyez sur le bouton graphique de la barre d'outils : vous obtenez un graphique sans aucun formatage à faire.
 
 ### Exécuter, modifier, jouer
 
@@ -197,33 +195,33 @@ forever(function () {
 
 #### Initialiser la collecte de données
 
-Pour télécharger le fichier sur un ordinateur, nous devons arrêter la collecte de données. La variable `running` permet de connaître l'état actuel du processus de collecte de données. Lorsque la valeur est `0`, la collecte est arrêtée ; lorsqu'elle est `1`, la collecte est en cours.
+Pour télécharger le fichier sur un ordinateur, il faut arrêter la collecte de données. La variable `running` indique l'état actuel de la collecte : à `0`, la collecte est arrêtée ; à `1`, elle est en cours.
 
 Les 3 instructions suivantes configurent le datalogger avec les paramètres suivants :
 - Une virgule est utilisée comme séparateur de champs dans le fichier CSV.
 - L'intervalle minimal entre deux lignes est fixé à 100 ms.
 - Toutes les données sont envoyées à la console MakeCode afin de les afficher directement dans l'éditeur.
 
-Après la configuration, le processus de collecte de données est activé et le voyant d'état est utilisé pour montrer l'état actuel du processus.
+Après la configuration, le programme active la collecte et allume le voyant d'état (LED 1) pour montrer qu'elle est en cours.
 
 #### Arrêter la collecte de données après avoir cliqué sur le bouton USER
 
-Pour arrêter le processus de collecte de données, nous utilisons le bouton USER. Lorsqu'on clique sur ce bouton, le datalogger est désactivé, les LED d'état sont mises à jour et la valeur `0` est attribuée à la variable `running`.
+Le bouton USER arrête la collecte de données. Quand on clique dessus, le programme désactive le datalogger, met à jour les LED d'état et remet la variable `running` à `0`.
 
-Pour gérer l'asynchronisme du clic du bouton (un clic de bouton peut se produire à n'importe quelle étape de notre programme), nous utilisons le mécanisme **Event** de MakeCode. Ce mécanisme permet d'exécuter un ensemble spécifique d'instructions lorsqu'une condition donnée apparaît. Dans notre cas, l'événement est "le bouton USER est cliqué".
+Le clic sur le bouton est asynchrone : il peut se produire à n'importe quelle étape du programme. Pour le prendre en compte, le programme utilise le mécanisme **Event** de MakeCode, qui exécute un ensemble précis d'instructions lorsqu'une condition donnée apparaît. Ici, l'événement est "le bouton USER est cliqué".
 
-Lorsque le datalogger est désactivé, il n'y a plus d'écriture sur le fichier journal — nous n'avons donc aucun risque de le corrompre.
+Une fois le datalogger désactivé, plus rien ne s'écrit dans le fichier journal : il n'y a donc aucun risque de le corrompre.
 
 #### Collecter les données des capteurs toutes les 10 s
 
-Dans la boucle principale, il suffit de lire les données et de les envoyer au datalogger si la variable `running` est fixée à `1`. La `pause` à la fin de la boucle permet de fixer la période entre deux mesures. Si nous voulons observer une expérience plus longue, nous augmenterons probablement cette valeur.
+Dans la boucle principale, il suffit de lire les données et de les envoyer au datalogger si la variable `running` est fixée à `1`. La `pause` à la fin de la boucle fixe la période entre deux mesures. Pour observer une expérience plus longue, on augmentera sans doute cette valeur.
 
 ---
 
 ## Étape 3 - Améliorer
 
-1. **Ajoutez une powerbank branchée en USB** à votre carte pour réaliser des expériences sur les capteurs environnementaux dans de nombreux contextes.
-2. **Autorisez le processus de collecte de données à redémarrer** en cliquant à nouveau sur le bouton USER.
+1. **Ajoutez une batterie externe branchée en USB** à votre carte pour réaliser des expériences sur les capteurs environnementaux dans de nombreux contextes.
+2. **Autorisez la collecte de données à redémarrer** en cliquant à nouveau sur le bouton USER.
 3. **Produisez un graphique** qui compare plusieurs sessions de collecte de données.
 4. **Collectez les données de capteurs distants** en utilisant une carte pour l'enregistrement des données et d'autres cartes positionnées à plusieurs endroits.
 5. **Réalisez une expérience de physique** sur les forces agissant sur une carte lorsqu'elle tourne dans une essoreuse à salade (centrifugeuse). Pouvez-vous deviner ce qui va se passer ? (N'oubliez pas que l'accéléromètre de la carte ne peut lire que des forces allant jusqu'à 2g, soit deux fois la force de gravité de la Terre. Si vous la faites tourner rapidement, elle peut subir des forces trop importantes pour être enregistrées.)

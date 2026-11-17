@@ -53,19 +53,19 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## De quoi parle-t-on ?
 
-Créons un objet simple mais utile : un minuteur à oeufs ! Cette activité permettra d'appliquer les connaissances acquises sur les servomoteurs à un problème du quotidien.
+Vous allez créer un objet simple mais utile : un minuteur à oeufs ! Cette activité permettra d'appliquer les connaissances acquises sur les servomoteurs à un problème du quotidien.
 
 ## Objectifs d'apprentissage
 
-- Créer une minuterie
+- Créer un minuteur
 - Utiliser un servomoteur pour afficher des données
-- Effectuer un processus d'étalonnage pour améliorer la précision du chronomètre
+- Calibrer le minuteur pour le rendre plus précis
 
 ---
 
 ## Introduction
 
-Dans cette activité, nous allons créer un objet simple mais utile — une minuterie — en utilisant la programmation et la pratique du bricolage ! Après l'avoir réalisé, vous serez un vrai grand chef ! Pour faire bouillir correctement un oeuf, nous utilisons la règle appelée **3, 6, 9** ! Cette règle donne la durée correcte de cuisson en minutes d'un oeuf en fonction de vos objectifs :
+Dans cette activité, vous fabriquez le minuteur avec de la programmation et du bricolage ! Après l'avoir réalisé, vous serez un grand chef ! Pour faire bouillir correctement un oeuf, on utilise la règle appelée **3, 6, 9** ! Cette règle donne la durée correcte de cuisson en minutes d'un oeuf en fonction de vos objectifs :
 
 - **3 minutes** pour les oeufs à la coque
 - **6 minutes** pour les oeufs mollets
@@ -123,9 +123,9 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 ### 6. Programmer votre carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre servomoteur commencera à bouger !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter. Votre servomoteur commencera à bouger !
 
-Avant d'essayer ce programme sur la carte, vous pouvez l'essayer directement dans le simulateur. Si vous cliquez sur le bouton USER, vous verrez votre minuterie démarrer.
+Avant d'essayer ce programme sur la carte, vous pouvez l'essayer directement dans le simulateur. Si vous cliquez sur le bouton USER, vous verrez votre minuteur démarrer.
 
 ### 7. Exécuter, modifier, jouer
 
@@ -154,17 +154,17 @@ input.buttonUser.onEvent(ButtonEvent.Click, function () {
 
 La partie principale du code concerne les interactions avec les boutons. Ces interactions sont gérées avec la fonction `input.buttonUSER.onEvent`.
 
-Lorsque vous cliquez sur le bouton **USER**, vous démarrez la minuterie en modifiant la position du servomoteur d'un degré par seconde.
+Lorsque vous cliquez sur le bouton **USER**, le minuteur démarre : le programme modifie la position du servomoteur d'un degré par seconde.
 
-Lorsque vous avez fini de compter de 0 à 179, vous commencez à déplacer rapidement votre servomoteur pour signaler la fin de la minuterie.
+Une fois le compte de 0 à 179 terminé, le programme déplace rapidement le servomoteur pour signaler que le temps est écoulé.
 
 ---
 
 ## Étape 3 - Améliorer
 
-1. En **ajoutant un servomoteur**, réalisez un second indicateur permettant de connaître l'état de la cuisson de votre oeuf (*cru, à la coque, cuit, dur*).
-2. Changez l'animation finale du minuteur en **ajoutant un buzzer** pour faire plus de bruit.
-3. La version actuelle du programme n'est pas calibrée — votre minuteur vous donnera une valeur approximative. Si vous voulez être un cuiseur d'oeufs plus scientifique, vous devez suivre un **processus de calibrage**. Pour calibrer un minuteur, utilisez une horloge de référence (par exemple l'horloge de votre smartphone) pour mesurer la durée du minuteur. Pour réduire l'incertitude, répétez la mesure de nombreuses fois (dix fois suffisent) pour calculer la valeur moyenne, puis utilisez un produit en croix pour trouver la valeur correcte du délai.
+1. En ajoutant un servomoteur, réalisez un second indicateur permettant de connaître l'état de la cuisson de votre oeuf (*cru, à la coque, cuit, dur*).
+2. Changez l'animation finale du minuteur en ajoutant un buzzer pour faire plus de bruit.
+3. La version actuelle du programme n'est pas calibrée : votre minuteur vous donnera une valeur approximative. Si vous voulez être un cuiseur d'oeufs plus scientifique, vous devez **calibrer** votre minuteur : utilisez une horloge de référence (par exemple l'horloge de votre smartphone) pour mesurer la durée du minuteur. Pour réduire l'incertitude, répétez la mesure de nombreuses fois (dix fois suffisent) pour calculer la valeur moyenne, puis utilisez un produit en croix pour trouver la valeur correcte du délai.
 
 ---
 
@@ -173,13 +173,13 @@ Lorsque vous avez fini de compter de 0 à 179, vous commencez à déplacer rapid
 - **Modulation de largeur d'impulsion** - En savoir plus sur le signal numérique de modulation de largeur d'impulsion.
   https://learn.sparkfun.com/tutorials/pulse-width-modulation/all
 
-- **Comment faire bouillir un oeuf à la perfection** - Apprenez combien de temps il faut faire bouillir un oeuf pour obtenir la consistance parfaite.
+- **Comment faire bouillir un oeuf à la perfection** - Apprenez combien de temps faire bouillir un oeuf pour obtenir la consistance voulue.
   https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly
 
 - **Compte à rebours** - Créez un compte à rebours et regardez les secondes défiler sur la montre micro:bit.
   https://makecode.microbit.org/projects/watch/timer
 
-- **Micro:bit Egg Timer** - Réalisez un minuteur amusant pour garantir le temps de cuisson parfait des oeufs en utilisant l'impression 3D et micro:bit.
+- **Micro:bit Egg Timer** - Réalisez un minuteur de cuisson des oeufs avec micro:bit et l'impression 3D.
   https://www.myminifactory.com/object/3d-print-micro-bit-egg-timer-18361
 
 ---

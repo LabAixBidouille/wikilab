@@ -57,7 +57,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## De quoi parle-t-on ?
 
-Dans cette fiche d'activité, nous allons apprendre ce qu'est un potentiomètre en programmant la carte pour régler la luminosité d'une LED en tournant un bouton.
+Cette fiche présente le potentiomètre : en programmant la carte, on règle la luminosité d'une LED en tournant un bouton.
 
 ## Objectifs d'apprentissage
 
@@ -102,7 +102,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 ### 5. Programmer la carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre carte est prête !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter : votre carte est prête !
 
 ### 6. Exécuter, modifier, jouer
 
@@ -126,9 +126,9 @@ Le code se compose de trois éléments :
 - un bloc `analogRead` ;
 - un bloc `analogWrite`.
 
-Le bloc `forever` met en oeuvre "une boucle" qui continue à exécuter les instructions jusqu'à ce que la carte soit éteinte.
+Le bloc `forever` répète les instructions en boucle jusqu'à ce que la carte soit éteinte.
 
-Le bloc `analogRead` est utilisé pour obtenir la valeur du potentiomètre sur la broche A0. Cette valeur est un nombre entier compris entre 0 et 1023. En tournant le bouton du potentiomètre, on modifie la valeur.
+Le bloc `analogRead` lit la valeur du potentiomètre sur la broche A0. Cette valeur est un nombre entier compris entre 0 et 1023. En tournant le bouton du potentiomètre, on modifie la valeur.
 
 :::info[Diviseur de tension]
 
@@ -137,14 +137,14 @@ Le potentiomètre agit comme un diviseur de tension réglable. En changeant la p
 
 :::info[Entrée analogique]
 
-Une broche d'entrée analogique peut être utilisée pour lire une valeur comprise entre 0 et 1023. Cette valeur est proportionnelle à la tension appliquée à la broche, qui doit être comprise entre 0 V et 3,3 V.
+Sur une broche d'entrée analogique, on peut lire une valeur comprise entre 0 et 1023. Cette valeur est proportionnelle à la tension appliquée à la broche, qui doit être comprise entre 0 V et 3,3 V.
 :::
 
-Le bloc `analogWrite` est utilisé pour allumer la LED sur D9. En utilisant `analogWrite`, la carte est capable de limiter la tension à une certaine valeur pour rendre la LED plus ou moins brillante. La luminosité est définie par la valeur d'`analogRead` sur la broche A0 : plus la valeur est élevée, plus la LED est lumineuse.
+Le bloc `analogWrite` allume la LED sur D9. Avec ce bloc, la carte peut limiter la tension à une certaine valeur pour rendre la LED plus ou moins brillante. La luminosité est définie par la valeur d'`analogRead` sur la broche A0 : plus la valeur est élevée, plus la LED est lumineuse.
 
 :::info[Modulation de largeur d'impulsion (PWM)]
 
-En utilisant la broche D9, nous sommes en mesure d'écrire une valeur analogique via une broche numérique sur la carte. La broche D9, comme quelques autres broches de la carte, supporte la **modulation de largeur d'impulsion** (*Pulse Width Modulation* ou PWM). Cette technique utilise des fonctionnements tout ou rien pour simuler différentes tensions et donc différents signaux analogiques. La valeur passée à `analogWrite` doit être comprise entre 0 et 255. 0 correspond à une tension de 0 V et 255 à 3,3 V.
+On peut écrire une valeur analogique sur la broche numérique D9. Comme quelques autres broches de la carte, D9 est compatible avec la **modulation de largeur d'impulsion** (*Pulse Width Modulation* ou PWM). Cette technique utilise des fonctionnements tout ou rien pour simuler différentes tensions et donc différents signaux analogiques. La valeur passée à `analogWrite` doit être comprise entre 0 et 255. 0 correspond à une tension de 0 V et 255 à 3,3 V.
 :::
 
 Comme vous le verrez en utilisant ce programme, vous n'utiliserez pas la gamme complète du potentiomètre. Vous pouvez transformer la plage de valeurs du potentiomètre (0...1023) en plage de valeurs du PWM (0...255) avec la fonction `map`.
@@ -163,16 +163,16 @@ Comme vous le verrez en utilisant ce programme, vous n'utiliserez pas la gamme c
 
 ## Aller plus loin
 
-- **Modulation de largeur d'impulsion** - Tutoriel Arduino sur l'utilisation d'une sortie analogique (PWM) pour faire clignoter une LED.
+- **Modulation de largeur d'impulsion** : tutoriel Arduino sur l'utilisation d'une sortie analogique (PWM) pour faire clignoter une LED.
   https://www.arduino.cc/en/Tutorial/Foundations/PWM
 
-- **Diviseurs de tension** - Découvrez comment les diviseurs de tension se comportent.
+- **Diviseurs de tension** : découvrez comment les diviseurs de tension se comportent.
   https://learn.sparkfun.com/tutorials/voltage-dividers
 
-- **Jeu de pong Arduino avec une matrice de 24x16 LED avec MAX7219** - Construire une petite console de pong.
+- **Jeu de pong Arduino avec une matrice de 24x16 LED avec MAX7219** : construire une petite console de pong.
   https://www.youtube.com/watch?v=dK9F5AJM2XI
 
-- **Jeu du potentiomètre** - Contrôlez le personnage dans un jeu à l'aide d'un potentiomètre.
+- **Jeu du potentiomètre** : contrôlez le personnage dans un jeu à l'aide d'un potentiomètre.
   https://www.hackster.io/matejadjukic03/potentiometer-game-05ee93?f=1#
 
 ---

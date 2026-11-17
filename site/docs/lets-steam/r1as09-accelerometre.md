@@ -25,7 +25,7 @@ sidebar_position: 9
 
 ## Matériel
 
-- 1 carte programmable "STM32 IoT Node Board"
+- 1 carte programmable « STM32 IoT Node Board »
 - 1 câble USB Micro-B
 - 1 set de LED
 - 1 set de résistances
@@ -55,7 +55,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## De quoi parle-t-on ?
 
-Les accéléromètres sont de petits capteurs qui peuvent détecter la force de l'accélération et sont parfaits pour détecter le mouvement et l'orientation.
+Les accéléromètres sont de petits capteurs qui peuvent détecter la force de l'accélération. Ils servent à détecter le mouvement et l'orientation.
 
 ## Objectifs d'apprentissage
 
@@ -67,9 +67,9 @@ Les accéléromètres sont de petits capteurs qui peuvent détecter la force de 
 
 ## Introduction
 
-L'accélération fait tourner le monde - littéralement ! C'est la force qui provoque le mouvement, comme une voiture qui accélère ou un objet qui tombe sur le sol sous l'effet de la gravité lorsqu'on le lâche.
+L'accélération est la force qui provoque le mouvement, comme une voiture qui accélère ou un objet qui tombe sur le sol sous l'effet de la gravité lorsqu'on le lâche.
 
-Pour découvrir le potentiel de ce capteur de mouvement, nous allons écrire un capteur d'inclinaison qui allume une LED lorsque l'accélération est trop forte. Ce genre de dispositif est utile si vous voulez éviter la tricherie sur un vieux flipper classique.
+Pour découvrir ce capteur de mouvement, on programme un capteur d'inclinaison qui allume une LED lorsque l'accélération est trop forte. Ce genre de dispositif est utile si vous voulez éviter la tricherie sur un vieux flipper classique.
 
 **Ressource :** https://en.wikipedia.org/wiki/Pinball
 
@@ -157,36 +157,36 @@ Voici la configuration des axes d'accélération / couleurs des LED :
 
 #### Lire la valeur de l'accélération
 
-Pour lire la valeur de l'accélération, MakeCode fournit la fonction `acceleration()`. La valeur est par défaut en mG. Nous utilisons la fonction valeur absolue `abs()` pour ignorer la direction de l'accélération. Pour détecter la condition « tilt », nous utilisons un seuil de 700 mG. Pour éteindre les trois LED en même temps et améliorer l'expressivité de notre code, nous définissons une fonction `turnOffLEDs()`.
+MakeCode fournit la fonction `acceleration()`, qui renvoie la valeur de l'accélération, par défaut en mG. Le programme prend la valeur absolue avec `abs()` pour ignorer la direction de l'accélération, et détecte la condition « tilt » au-delà d'un seuil de 700 mG. Il définit aussi une fonction `turnOffLEDs()`, qui éteint les trois LED en même temps et rend le code plus lisible.
 
 :::info[Les fonctions]
 
-Une fonction est un bloc de code qui exécute une tâche spécifique. Comme une variable, elle a un nom qui permettra de l'utiliser à plusieurs endroits dans votre programme. Il est très utile de simplifier le code et de rendre un bloc de code plus lisible en lui donnant un nom qui explique votre intention.
+Une fonction est un bloc de code qui exécute une tâche spécifique. Comme une variable, elle a un nom qui permettra de l'utiliser à plusieurs endroits dans votre programme. Donner à un bloc de code un nom qui explique votre intention simplifie le code et le rend plus lisible.
 :::
 
 ---
 
 ## Étape 3 - Améliorer
 
-1. Que se passe-t-il si vous **augmentez le temps de `pause()`** dans votre boucle ? Comment améliorer la réactivité de votre capteur d'inclinaison ?
+1. Que se passe-t-il si vous augmentez le temps de `pause()` dans votre boucle ? Comment améliorer la réactivité de votre capteur d'inclinaison ?
 
-2. En utilisant la valeur de l'accélération de la gravité (1G d'accélération sur l'axe Z), pouvez-vous **déterminer l'orientation de votre carte** (sur le côté gauche, sur le côté droit, sur le côté supérieur, sur le côté inférieur) ?
+2. En utilisant la valeur de l'accélération de la gravité (1G d'accélération sur l'axe Z), pouvez-vous déterminer l'orientation de votre carte (sur le côté gauche, sur le côté droit, sur le côté supérieur, sur le côté inférieur) ?
 
-3. Sachant que lorsqu'un solide est en chute libre, la valeur de l'accélération devient très rapidement proche de zéro, pouvez-vous **modifier le programme pour détecter cette situation** ?
+3. Sachant que lorsqu'un solide est en chute libre, la valeur de l'accélération devient très rapidement proche de zéro, pouvez-vous modifier le programme pour détecter cette situation ?
 
-4. Comment pouvez-vous **détecter si la carte est secouée** ?
+4. Comment pouvez-vous détecter si la carte est secouée ?
 
 ---
 
 ## Aller plus loin
 
-- **Accéléromètre** - Apprenez-en plus sur les principes physiques et les applications de l'accéléromètre.
+- **Accéléromètre** : apprenez-en plus sur les principes physiques et les applications de l'accéléromètre.
   https://en.wikipedia.org/wiki/Accelerometer
 
-- **Détection de chute libre à l'aide d'un accéléromètre à 3 axes** - Méthode facile pour déterminer la détection de chute libre à l'aide d'un simple accéléromètre à 3 axes.
+- **Détection de chute libre à l'aide d'un accéléromètre à 3 axes** : méthode facile pour déterminer la détection de chute libre à l'aide d'un simple accéléromètre à 3 axes.
   https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e
 
-- **Mettre une plate-forme de niveau en utilisant un accéléromètre** - Utilise un accéléromètre pour mettre une plate-forme de niveau.
+- **Mettre une plate-forme de niveau en utilisant un accéléromètre** : utilise un accéléromètre pour mettre une plate-forme de niveau.
   https://www.hackster.io/mtashiro/level-platform-using-accelerometer-80a343
 
 ---

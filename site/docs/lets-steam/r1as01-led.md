@@ -63,7 +63,7 @@ Dans cette activité de prise en main, vous allez aborder le concept de **broche
 - **LOW** signifie qu'il n'y a pas de courant
 - **HIGH** signifie qu'il y a du courant.
 
-Pour rendre le courant visible, nous utilisons un composant appelé LED (light-emitting diode) déjà disponible sur la carte, qui s'allumera lorsque le courant passera par la broche.
+Pour rendre le courant visible, on utilise un composant appelé LED (light-emitting diode) déjà disponible sur la carte, qui s'allumera lorsque le courant passera par la broche.
 :::
 
 ### 1. Connecter la carte à l'ordinateur
@@ -78,25 +78,25 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 ### 3. Organiser les blocs
 
-Voici les différentes étapes vous permettant de faire clignoter une LED à l'aide de l'éditeur de blocs :
+Pour faire clignoter une LED avec l'éditeur de blocs, suivez les étapes ci-dessous.
 
 #### Ajouter une boucle infinie
 
-Comme nous voulons que le programme fasse clignoter la LED indéfiniment, la première étape consiste à ajouter le bloc **"toujours"**. Il sera présent par défaut à l'ouverture de l'éditeur, mais vous pouvez également le trouver dans le sous-menu **BOUCLES**.
+Comme on veut que le programme fasse clignoter la LED indéfiniment, la première étape consiste à ajouter le bloc **"toujours"**. Il est présent par défaut à l'ouverture de l'éditeur, mais vous pouvez également le trouver dans le sous-menu **BOUCLES**.
 
 ![Ajouter une boucle forever](/img/ressources/lets-steam/r1as01-led/Ajouter-une-boucle-forever.png)
 
 #### Allumer la LED
 
-Contrôler une LED est une tâche simple car elle ne peut être qu'allumée (le courant la traverse) ou éteinte (le courant ne circule pas). Pour y parvenir, nous devons définir l'état de la broche (plus communément appelée *pin*) où la LED est connectée. Dans notre cas, si nous voulons allumer la LED, nous devons mettre l'état de la broche sur **HIGH**. L'état de la broche sur **LOW** l'éteindra. Dans MakeCode, pour contrôler l'état d'une broche, sélectionnez le sous-menu **BROCHES**, puis faites glisser le bloc **digital write** à l'intérieur de la boucle **toujours**.
+Contrôler une LED est une tâche simple car elle ne peut être qu'allumée (le courant la traverse) ou éteinte (le courant ne circule pas). Pour cela, il faut définir l'état de la broche (plus communément appelée *pin*) où la LED est connectée. Ici, mettre l'état de la broche sur **HIGH** allume la LED, et le mettre sur **LOW** l'éteint. Dans MakeCode, pour contrôler l'état d'une broche, sélectionnez le sous-menu **BROCHES**, puis faites glisser le bloc **digital write** à l'intérieur de la boucle **toujours**.
 
 ![Broche digital write](/img/ressources/lets-steam/r1as01-led/broche-digital-write.png)
 
 #### Créer le clignotement
 
-Pour créer le clignotement, il est nécessaire que nous puissions voir la LED s'allumer et s'éteindre pendant une durée similaire. Pour créer ce clignotement, nous devons suivre les étapes suivantes :
+Pour qu'on voie la LED clignoter, elle doit rester allumée puis éteinte pendant des durées similaires. Cela se fait en deux étapes :
 
-**1) Créer une pause lorsque la LED est allumée pour voir la lumière :** avant d'éteindre la LED, nous devons attendre un petit temps — une demi-seconde (500 millisecondes) par exemple — avec la lumière allumée. Pour ce faire, ajoutez le bloc **pause** (à l'intérieur du sous-menu **BOUCLES**), et définissez la valeur à 500 (pour 500 millisecondes).
+**1) Créer une pause lorsque la LED est allumée pour voir la lumière :** avant d'éteindre la LED, il faut attendre un petit temps, par exemple une demi-seconde (500 millisecondes), avec la lumière allumée. Pour ce faire, ajoutez le bloc **pause** (à l'intérieur du sous-menu **BOUCLES**), et définissez la valeur à 500 (pour 500 millisecondes).
 
 ![Créer une pause](/img/ressources/lets-steam/r1as01-led/creer-une-pause.png)
 
@@ -104,7 +104,7 @@ Pour créer le clignotement, il est nécessaire que nous puissions voir la LED s
 Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur personnalisée.
 :::
 
-**2) Éteindre la lumière pendant une durée similaire pour créer le clignotement :** jusqu'à présent, vous avez fait la moitié du travail ! Ajoutez un autre bloc **digital write** et un autre bloc **pause** pour éteindre la LED et attendre à nouveau 500 ms, permettant de créer cet effet de clignotement. Combiné avec la boucle infinie, on peut voir ce clignotement se répéter à l'infini.
+**2) Éteindre la lumière pendant une durée similaire pour créer le clignotement :** jusqu'à présent, vous avez fait la moitié du travail ! Ajoutez un autre bloc **digital write** et un autre bloc **pause** pour éteindre la LED et attendre à nouveau 500 ms. Avec la boucle infinie, on voit ce clignotement se répéter à l'infini.
 
 ![Éteindre la lumière](/img/ressources/lets-steam/r1as01-led/eteindre-la-lumiere.png)
 
@@ -112,7 +112,7 @@ Vous pouvez choisir une valeur dans la liste, ou saisir directement une valeur p
 Au lieu de choisir des blocs dans les sous-menus, vous pouvez cliquer avec le bouton droit de la souris sur un bloc et le "dupliquer".
 :::
 
-Grâce à cette activité facile, vous avez découvert comment créer un morceau de code en utilisant la programmation par blocs. Vous pouvez jeter un coup d'oeil à l'éditeur JavaScript pour voir le code généré tel qu'il est indiqué dans la section "Programmer" ci-dessous. Dans les prochaines fiches d'activité, n'hésitez pas à copier/coller directement dans l'éditeur JavaScript de MakeCode le code fourni pour voir le résultat en blocs.
+Grâce à cette activité facile, vous avez découvert comment créer un morceau de code en utilisant la programmation par blocs. Vous pouvez jeter un coup d'oeil à l'éditeur JavaScript pour voir le code généré tel qu'il est indiqué dans la section "Programmer" ci-dessous. Dans les prochaines fiches d'activité, vous pouvez copier/coller directement dans l'éditeur JavaScript de MakeCode le code fourni pour voir le résultat en blocs.
 
 ### 4. Programmer la carte
 
@@ -120,7 +120,7 @@ Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez 
 
 ### 5. Exécuter, modifier, s'amuser
 
-Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (en appuyant sur le bouton RESET). Essayez de comprendre le code et commencez à le modifier en changeant la période entre deux clignotements. N'hésitez pas à essayer de faire clignoter à différents rythmes ou à faire un SOS visuel en morse.
+Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (en appuyant sur le bouton RESET). Essayez de comprendre le code et commencez à le modifier en changeant la période entre deux clignotements. Vous pouvez aussi essayer de faire clignoter la LED à différents rythmes ou de faire un SOS visuel en morse.
 
 **Ressource :** https://en.wikipedia.org/wiki/SOS
 
@@ -147,7 +147,7 @@ forever(function () {
 
 ### Comment cela fonctionne-t-il ?
 
-Voici la traduction en JavaScript de notre programme en blocs. Les mots-clés sont un peu différents : la fonction `digitalWrite` prend un paramètre booléen (`true` ou `false`). La traduction est facile : `true` signifie **HIGH** et `false` signifie **LOW**.
+Voici la traduction en JavaScript du programme en blocs. Les mots-clés sont un peu différents : la fonction `digitalWrite` prend un paramètre booléen (`true` ou `false`). La traduction est facile : `true` signifie **HIGH** et `false` signifie **LOW**.
 
 </div>
 </div>
@@ -162,16 +162,16 @@ Tentez de créer un feu de signalisation ferroviaire en utilisant l'autre LED in
 
 ## Aller plus loin
 
-- **Diode électroluminescente** - Apprenez-en plus sur l'histoire des LED, les principes physiques qui les sous-tendent, les typologies et les couleurs.
+- **Diode électroluminescente** : apprenez-en plus sur l'histoire des LED, les principes physiques qui les sous-tendent, les typologies et les couleurs.
   https://en.wikipedia.org/wiki/Light-emitting_diode
 
-- **Derrière MakeCode - LED sur micro:bit** - Comment les LED fonctionnent-elles sur la carte micro:bit ? Apprenez tout cela avec Shawn Hymel (en anglais).
+- **Derrière MakeCode - LED sur micro:bit** : comment les LED fonctionnent-elles sur la carte micro:bit ? Apprenez tout cela avec Shawn Hymel (en anglais).
   https://www.youtube.com/watch?v=qqBmvHD5bCw
 
-- **Courant et tension - Bases de l'électricité** - Tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement.
+- **Courant et tension - Bases de l'électricité** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement.
   https://www.codrey.com/dc-circuits/current-and-voltage/
 
-- **Boucles** - Apprenez-en plus sur les boucles dans MakeCode.
+- **Boucles** : apprenez-en plus sur les boucles dans MakeCode.
   https://www.youtube.com/watch?v=wxds6MAtUQ0
 
 ---

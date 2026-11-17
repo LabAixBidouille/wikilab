@@ -71,7 +71,7 @@ Le code Morse est une méthode utilisée dans les télécommunications pour code
 
 :::info[Le buzzer]
 
-Des micro-ondes aux jeux télévisés, les buzzers sont partout autour de nous et permettent de signaler quelque chose par un signal sonore. Pour émettre un son (ou un bruit), le buzzer contient une fine membrane (en quartz), qui vibre à une fréquence donnée (entre 20 Hz et 20 000 Hz, qui sont les fréquences audibles). Dans cette fiche d'activité, vous allez fixer quelques boutons et un buzzer à la carte et apprendre à communiquer en **Morse** !
+Les buzzers sont partout autour de nous, dans les micro-ondes comme dans les jeux télévisés : ils signalent quelque chose par un signal sonore. Pour émettre un son (ou un bruit), le buzzer contient une fine membrane (en quartz), qui vibre à une fréquence donnée (entre 20 Hz et 20 000 Hz, qui sont les fréquences audibles). Dans cette fiche d'activité, vous allez fixer quelques boutons et un buzzer à la carte et apprendre à communiquer en **Morse** !
 
 **Ressources :** https://en.wikipedia.org/wiki/Buzzer, https://en.wikipedia.org/wiki/Morse_code
 :::
@@ -98,7 +98,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 ### 5. Programmer la carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre travail est prêt !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter. Votre travail est prêt !
 
 ### 6. Exécuter, modifier, jouer
 
@@ -124,20 +124,16 @@ input.buttonA1.onEvent(ButtonEvent.Click, function () {
 
 Le code est vraiment simple ! Vous pouvez voir les deux fonctions `onEvent` qui permettent de détecter quand un bouton est pressé.
 
-Ensuite, nous avons simplement utilisé la fonction `music.playTone`, avec 2 paramètres :
+Le programme se contente ensuite d'appeler la fonction `music.playTone`, avec 2 paramètres :
 
-- **440** : la fréquence que nous voulons jouer
+- **440** : la fréquence à jouer
 - **100 ou 300** : la durée de la tonalité en millisecondes (1 seconde = 1 000 millisecondes)
-
-**Maintenant que vous avez compris les bases, nous allons envoyer un message en Morse !**
 
 ### Signalisation en Morse
 
-Le code Morse est une méthode de communication qui code les caractères sous la forme d'une **séquence de deux signaux de durées différentes**, appelés **points** et **tirets**.
+Un **point** est un signal court tandis qu'un **tiret** est un signal plus long. En combinant plusieurs séquences, on peut transmettre un message composé de plusieurs mots. Le code Morse peut être émis de différentes manières : à l'aide d'une lampe (flash), d'une radio ou d'une carte comme celle que vous avez !
 
-Un **point** est un **signal court** tandis qu'un **tiret** est un **signal plus long**. En combinant plusieurs séquences, on peut transmettre un message composé de plusieurs mots. Le code Morse peut être émis de différentes manières : à l'aide d'une lampe (flash), d'une radio ou d'une carte comme celle que vous avez !
-
-**Code Morse International — règles de base :**
+**Règles de base du code Morse international :**
 
 1. La longueur d'un point est d'une unité.
 2. Un tiret représente trois unités.
@@ -161,16 +157,16 @@ Essayez d'envoyer "**SOS**" à quelqu'un !
 
 ## Aller plus loin
 
-- **Le code Morse** - Apprenez-en plus sur l'histoire du code Morse, les représentations, le timing, les vitesses et les méthodes d'apprentissage.
+- **Le code Morse** : apprenez-en plus sur l'histoire du code Morse, les représentations, le timing, les vitesses et les méthodes d'apprentissage.
   https://en.wikipedia.org/wiki/Morse_code
 
-- **Notions de base sur les buzzers** - Technologies, tonalités et circuits de commande.
+- **Notions de base sur les buzzers** : technologies, tonalités et circuits de commande.
   https://www.cuidevices.com/blog/buzzer-basics-technologies-tones-and-driving-circuits
 
-- **Son** - Découvrez les bases de l'acoustique, la physique et la perception des sons.
+- **Son** : découvrez les bases de l'acoustique, la physique et la perception des sons.
   https://en.wikipedia.org/wiki/Sound
 
-- **Piano d'épingles à linge avec micro:bit** - Lire un signal analogique (0 à 1023) à partir de la broche.
+- **Piano d'épingles à linge avec micro:bit** : lire un signal analogique (0 à 1023) à partir de la broche.
   https://browndoggadgets.dozuki.com/Guide/Clothespin+Piano+with+micro:bit/302
 
 ---

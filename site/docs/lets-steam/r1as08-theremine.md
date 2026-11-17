@@ -26,7 +26,7 @@ sidebar_position: 8
 
 ## Matériel
 
-- 1 carte programmable "STM32 IoT Node Board"
+- 1 carte programmable « STM32 IoT Node Board »
 - 1 câble USB Micro-B
 - 1 buzzer piézoélectrique ou un haut-parleur
 - 1 breadboard
@@ -55,7 +55,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## De quoi parle-t-on ?
 
-Un thérémine est un instrument de musique électronique dont on peut jouer sans le toucher. Le concept original est basé sur l'utilisation de deux antennes pour détecter la position des mains. Une antenne est utilisée pour le volume, et l'autre pour la hauteur du son.
+Un thérémine est un instrument de musique électronique dont on peut jouer sans le toucher. Le concept original repose sur deux antennes qui détectent la position des mains : l'une règle le volume, l'autre la hauteur du son.
 
 ## Objectifs d'apprentissage
 
@@ -67,9 +67,9 @@ Un thérémine est un instrument de musique électronique dont on peut jouer san
 
 ## Introduction
 
-Le thérémine est un instrument de musique électronique contrôlé sans contact physique par le théréministe (interprète). Il doit son nom à son inventeur, Léon Thérémine, qui a fait breveter l'appareil en 1928. La section de contrôle de l'instrument se compose généralement de deux antennes métalliques qui détectent la position relative des mains du théréministe et contrôlent les oscillateurs pour la fréquence avec une main et l'amplitude (volume) avec l'autre. Les signaux électriques émis par le thérémine sont amplifiés et envoyés à un haut-parleur.
+Le thérémine doit son nom à son inventeur, Léon Thérémine, qui a fait breveter l'appareil en 1928. Le théréministe (l'interprète) en joue sans contact physique. La section de contrôle de l'instrument comporte généralement deux antennes métalliques, qui détectent la position relative des mains du théréministe et contrôlent les oscillateurs : la fréquence avec une main, l'amplitude (le volume) avec l'autre. Les signaux électriques émis par le thérémine sont amplifiés et envoyés à un haut-parleur.
 
-Notre version sera plus simple : nous ne contrôlerons que la hauteur du son avec le capteur de distance, le volume sera prédéterminé. Faisons de la musique !
+La version de cette fiche est plus simple : le capteur de distance ne contrôle que la hauteur du son, et le volume est fixé à l'avance. Faisons de la musique !
 
 **Ressources :** https://en.wikipedia.org/wiki/Theremin, https://youtu.be/x0NVb25p1oU
 
@@ -123,19 +123,19 @@ forever(function () {
 
 ### Comment cela fonctionne-t-il ?
 
-Dans ce programme, il y a 2 variables. La première, `distance`, est utilisée pour mémoriser la distance et déterminer la note à jouer. Ensuite, il y a `note`, qui n'est pas techniquement nécessaire/obligatoire mais permet d'introduire une plus grande compréhension de chaque étape du programme. Elle contient la transformation de la distance en fréquence du ton.
+Dans ce programme, il y a 2 variables. La première, `distance`, est utilisée pour mémoriser la distance et déterminer la note à jouer. Ensuite, il y a `note`, qui n'est pas indispensable au fonctionnement mais rend chaque étape du programme plus lisible. Elle contient la transformation de la distance en fréquence du ton.
 
 #### Mesurer la distance
 
-Utiliser une variable pour mémoriser la distance, c'est bien, mais savoir comment mesurer la distance, c'est mieux ! Cette opération ne présente aucune difficulté. Nous devons appeler la fonction `input.distance(DistanceUnit.Millimeter)`. Le paramètre `DistanceUnit.Millimeter` indique à la fonction que nous voulons le résultat en millimètres (1 mètre = 1 000 millimètres).
+Pour mesurer la distance, le programme appelle la fonction `input.distance(DistanceUnit.Millimeter)`. Le paramètre `DistanceUnit.Millimeter` demande à la fonction un résultat en millimètres (1 mètre = 1 000 millimètres).
 
 #### Condition
 
-La condition `if (distance > 500) { ... }` indique que nous ne jouons un son que si la distance mesurée est inférieure ou égale à 500 millimètres.
+La condition `if (distance > 500) { ... }` indique que le programme ne joue un son que si la distance mesurée est inférieure ou égale à 500 millimètres.
 
 #### Convertir la distance en fréquence
 
-La partie la plus importante est la conversion. Pour la réaliser, nous utilisons une fonction mathématique appelée `map`. Cette fonction transforme une valeur d'une plage à une autre. Dans ce cas, la valeur est transférée de la plage de distances à la plage de fréquences. Comme vous pouvez le voir dans le code ci-dessus, cette fonction prend cinq paramètres :
+La partie la plus importante est la conversion. Elle passe par une fonction mathématique appelée `map`, qui transforme une valeur d'une plage à une autre : ici, de la plage des distances à la plage des fréquences. Comme vous pouvez le voir dans le code ci-dessus, cette fonction prend cinq paramètres :
 
 | Paramètre | Description |
 |-----------|-------------|
@@ -145,36 +145,36 @@ La partie la plus importante est la conversion. Pour la réaliser, nous utilison
 | `out_min` | La valeur minimale de la plage de sortie (fréquence) |
 | `out_max` | La valeur maximale de la plage de sortie (fréquence) |
 
-Nous pouvons donc comprendre ce que fait cette ligne : transformer la distance (avec une plage de 0 mm à 500 mm) en fréquence (avec une plage de 440 Hz à 830 Hz).
+Cette ligne transforme donc la distance (avec une plage de 0 mm à 500 mm) en fréquence (avec une plage de 440 Hz à 830 Hz).
 
 :::info[Fréquences et octave]
 
-Les fréquences choisies ne sont pas aléatoires : la gamme de fréquences de 440 Hz à 830 Hz représente une octave. Cela signifie que vous pouvez trouver toutes les notes : LA, SI, DO, RÉ, MI, FA, SOL.
+La gamme de fréquences choisie, de 440 Hz à 830 Hz, couvre une octave : vous pouvez donc y trouver toutes les notes (LA, SI, DO, RÉ, MI, FA, SOL).
 :::
 
-Nous avons maintenant une fréquence. Il est temps de la jouer, en utilisant simplement la fonction `music.ringTone(note)`.
+Il reste à jouer cette fréquence, avec la fonction `music.ringTone(note)`.
 
 ---
 
 ## Étape 3 - Améliorer
 
-1. **Modifiez la valeur de `map`** pour ajouter des octaves et/ou de la distance afin d'améliorer votre musique.
-2. **Essayez d'ajouter un potentiomètre** pour contrôler le volume.
+1. Modifiez la valeur de `map` pour ajouter des octaves et/ou de la distance afin d'améliorer votre musique.
+2. Essayez d'ajouter un potentiomètre pour contrôler le volume.
 
 ---
 
 ## Aller plus loin
 
-- **Thérémine** - Découvrez l'histoire, les principes de fonctionnement et les utilisations du thérémine.
+- **Thérémine** : découvrez l'histoire, les principes de fonctionnement et les utilisations du thérémine.
   https://en.wikipedia.org/wiki/Theremin
 
-- **Capteur de distance à anneau LED** - Découvrez un projet amusant, qui aboutira à un capteur de recul.
+- **Capteur de distance à anneau LED** : découvrez un projet amusant, qui aboutira à un capteur de recul.
   https://www.instructables.com/LED-Ring-Distance-Sensor/
 
-- **Détecteur du niveau d'eau** - Découvrez les capteurs à ultrasons qui convertissent l'énergie électrique en ondes acoustiques.
+- **Détecteur du niveau d'eau** : découvrez les capteurs à ultrasons qui convertissent l'énergie électrique en ondes acoustiques.
   https://www.instructables.com/Water-Level-Detector-2/
 
-- **Mangeoire pour chats** - Utilisez un capteur à ultrasons pour construire une mangeoire automatique pour chats.
+- **Mangeoire pour chats** : utilisez un capteur à ultrasons pour construire une mangeoire automatique pour chats.
   https://www.instructables.com/Cat-Feeder/
 
 ---
