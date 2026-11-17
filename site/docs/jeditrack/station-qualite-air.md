@@ -202,7 +202,7 @@ Comme on peut le voir dans le bloc, les données à écrire sur la carte micro-s
 
 **Neri;Régis;07/09/1990**
 
-La station enregistre les 8 mesures citées plus haut. Il faut donc, au démarrage du programme, écrire sur la carte micro-sd les en-tête des colonnes correspondantes :
+Dans notre exemple, la station enregistre les 8 mesures citées plus haut. Il faut donc, au démarrage du programme, écrire sur la carte micro-sd les en-tête des colonnes correspondantes :
 
 <img src="/img/ressources/jeditrack/station-qualite-air/image_10.png" alt="Bloc d'écriture des en-têtes CSV" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 

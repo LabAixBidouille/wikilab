@@ -58,7 +58,7 @@ Le bruit, surtout lorsqu'il est chronique, peut avoir de nombreux effets néfast
 - Altération de la concentration, de la mémorisation et de la compréhension du langage parlé ou écrit.
 - Entrave à la communication et perturbation des tâches cognitives, notamment celles qui font appel à la mémoire à court terme.
 
-Ces effets se font surtout sentir dans les lieux d'apprentissage et de travail, où le bruit peut compromettre la qualité de l'éducation et réduire la productivité des employés.
+Ces effets se font particulièrement sentir dans les lieux d'apprentissage et de travail, où le bruit peut compromettre la qualité de l'éducation et réduire la productivité des employés.
 
 Le bruit excessif et prolongé affecte la santé physique et mentale. Il peut engendrer des troubles du sommeil, une gêne chronique et des problèmes cardiovasculaires. Selon l'Agence Européenne pour l'Environnement (AEE), le bruit ambiant dû au trafic routier est l'une des principales sources de pollution sonore. Environ 20 % de la population européenne (plus de 100 millions de personnes) est exposée à des niveaux sonores jugés dangereux pour la santé. L'AEE estime que chaque année, l'exposition prolongée au bruit contribue à environ 48 000 nouveaux cas de cardiopathies et 12 000 décès prématurés. De plus, 22 millions de personnes subissent une gêne chronique importante, et 6,5 millions souffrent de graves troubles du sommeil.
 
