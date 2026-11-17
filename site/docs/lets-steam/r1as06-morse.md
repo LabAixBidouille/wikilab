@@ -131,7 +131,7 @@ Le programme se contente ensuite d'appeler la fonction `music.playTone`, avec 2 
 
 ### Signalisation en Morse
 
-Un **point** est un signal court tandis qu'un **tiret** est un signal plus long. En combinant plusieurs séquences, on peut transmettre un message composé de plusieurs mots. Le code Morse peut être émis de différentes manières : à l'aide d'une lampe (flash), d'une radio ou d'une carte comme celle que vous avez !
+Chaque caractère est codé par une séquence de **points** et de **tirets**. Un **point** est un signal court tandis qu'un **tiret** est un signal plus long. En combinant plusieurs séquences, on peut transmettre un message composé de plusieurs mots. Le code Morse peut être émis de différentes manières : à l'aide d'une lampe (flash), d'une radio ou d'une carte comme celle que vous avez !
 
 **Règles de base du code Morse international :**
 
