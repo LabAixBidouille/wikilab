@@ -58,15 +58,15 @@ Dans la quête "Memory", les enfants devront associer des mots à une image et u
 
 ### Découvrir le monde numérique
 
-Les enfants grandissent dans ce monde et il est important qu'ils comprennent les différentes technologies à leur disposition.
+Les enfants grandissent dans ce monde et ont besoin de comprendre les technologies à leur disposition.
 
 ### Raconter et témoigner avec des images
 
-Les images peuvent améliorer le développement des enfants de différentes manières : clarté, fantaisie, créativité, relaxation.
+Les images peuvent améliorer le développement des enfants : clarté, fantaisie, créativité, relaxation.
 
 ### Aborder la programmation
 
-La programmation prépare les enfants à acquérir la pensée créative et logique, la conscience spatiale, la capacité à résoudre des problèmes et la collaboration.
+La programmation aide les enfants à acquérir la pensée créative et logique, la conscience spatiale, la capacité à résoudre des problèmes et la collaboration.
 
 ---
 
@@ -104,21 +104,21 @@ Les enfants retournent 2 cartes simultanément pour découvrir la bonne combinai
 
 ### Memory "Solutions Durables"
 
-Les enfants retournent deux cartes simultanément pour découvrir la bonne combinaison d'une image de technologie et d'une image de son utilisation dans le cadre des "Solutions durables".
+Les enfants retournent deux cartes simultanément pour découvrir la bonne combinaison d'une image de technologie et d'une image de son utilisation durable.
 
 ---
 
 ## Aller plus loin
 
-### Sujet 1 - S'informer dans le monde numérique
+### Sujet 1 : S'informer dans le monde numérique
 
 - https://tekkieuni.com/blog/computer-basics-for-kids/
 
-### Sujet 2 - Raconter et témoigner avec des images
+### Sujet 2 : Raconter et témoigner avec des images
 
 - https://web.archive.org/web/20221006131842/https://growingleaders.com/blog/why-is-teaching-with-images-so-effective-part-1/ (archive.org 2022-10)
 
-### Sujet 3 - Aborder la programmation
+### Sujet 3 : Aborder la programmation
 
 - Scratch Jr : https://www.scratchjr.org/
 - Scratch : https://scratch.mit.edu/

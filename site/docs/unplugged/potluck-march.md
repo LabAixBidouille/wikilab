@@ -50,7 +50,7 @@ sidebar_position: 20
 
 ## De quoi parle-t-on ?
 
-Dans le jeu POTLUCK MARCH, les enfants découvrent l'importance de l'accès aux ressources alimentaires. Le manque ou l'accès limité à la nourriture peut entraîner des inégalités et des difficultés dans notre vie quotidienne. Grâce à ce jeu, les enfants sont encouragés à aider et à partager ce qu'ils ont, ce qui leur donne une attitude positive face à la faim dans le monde.
+Dans le jeu POTLUCK MARCH, les enfants découvrent les enjeux de l'accès aux ressources alimentaires. Le manque ou l'accès limité à la nourriture peut entraîner des inégalités et des difficultés dans la vie quotidienne. Le jeu encourage les enfants à aider et à partager ce qu'ils ont, ce qui leur donne une attitude positive face à la faim dans le monde.
 
 ---
 
@@ -62,15 +62,15 @@ Avec ce jeu, les enfants seront initiés au concept de privilèges et apprendron
 
 ### Effectuer des additions et des soustractions simples
 
-Le partage et la division des points entraînent les enfants aux mathématiques.
+En partageant et en divisant leurs points, les enfants s'entraînent aux mathématiques.
 
 ### Classez les aliments en fonction de leur valeur nutritionnelle
 
-Prendre conscience de la valeur nutritionnelle des aliments est un premier pas vers une alimentation saine.
+Prendre conscience de la valeur nutritionnelle des aliments est un premier pas pour manger sainement.
 
 ### Imaginer des solutions contre les inégalités alimentaires
 
-Les enfants ont la possibilité d'observer et d'analyser le problème de l'accès inéquitable à la nourriture.
+Les enfants peuvent observer et analyser l'accès inéquitable à la nourriture.
 
 ---
 
@@ -78,7 +78,7 @@ Les enfants ont la possibilité d'observer et d'analyser le problème de l'accè
 
 ### Univers du jeu
 
-Au début, chaque joueur reçoit une quantité aléatoire de nourriture qui lui donnera une certaine quantité d'énergie, lui permettant de faire un nombre précis de pas pour avancer vers la ligne d'arrivée. Le but ultime des joueurs est d'amener le plus grand nombre d'entre eux à la ligne d'arrivée.
+Au début, chaque joueur reçoit une quantité aléatoire de nourriture. Elle lui donne une certaine quantité d'énergie, qui lui permet de faire un nombre précis de pas pour avancer vers la ligne d'arrivée. Le but ultime des joueurs est d'amener le plus grand nombre d'entre eux à la ligne d'arrivée.
 
 ### Règles du jeu
 
@@ -94,15 +94,15 @@ Au début, chaque joueur reçoit une quantité aléatoire de nourriture qui lui 
 
 ## Phases de jeu
 
-### Phase 1 - Point de départ
+### Phase 1 : Point de départ
 
 Chaque joueur tire une carte et avance. L'enseignant lance une discussion sur le concept de privilège.
 
-### Phase 2 - Aller de l'avant dans la vie
+### Phase 2 : Aller de l'avant dans la vie
 
-L'enseignant commence par le(s) joueur(s) en tête, représentant le privilège dont bénéficient les personnes déjà privilégiées.
+L'enseignant commence par le(s) joueur(s) en tête. Cet ordre représente le privilège dont bénéficient les personnes déjà privilégiées.
 
-### Phase 3 - La ligne d'arrivée est-elle atteinte ?
+### Phase 3 : Arrivée et décompte des points
 
 L'enseignant demande aux joueurs situés à la ligne d'arrivée de compter le nombre total de points collectés dans le panier.
 
@@ -110,15 +110,15 @@ L'enseignant demande aux joueurs situés à la ligne d'arrivée de compter le no
 
 ## Aller plus loin
 
-### Sujet 1 - Pauvreté et égalité
+### Sujet 1 : Pauvreté et égalité
 
 - https://educators4sc.org/topic-guides/teaching-about-hunger-and-poverty/
 
-### Sujet 2 - Addition et soustraction, stratégie
+### Sujet 2 : Addition et soustraction, stratégie
 
 Vous pouvez vous référer à [Négocier la paix avec des biscuits](/ressources/unplugged/biscuits-et-paix), [Comptage binaire](/ressources/unplugged/binary-counting), etc.
 
-### Sujet 3 - Nutrition
+### Sujet 3 : Nutrition
 
 - https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2016/01/KidsHealthyEatingPlate_Guide_Jan2016.pdf
 

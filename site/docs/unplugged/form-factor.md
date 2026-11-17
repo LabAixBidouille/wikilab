@@ -49,7 +49,7 @@ sidebar_position: 11
 
 ## De quoi parle-t-on ?
 
-Form Factor est un jeu de modélisation de formes complexes avec des formes de base qui met l'accent sur la communication et la coopération avec les équipes. Le but est d'essayer de remplir au mieux une forme complexe sans dépasser les jantes avec les formes simples dont nous disposons. Un vote collectif à la fin décide des gagnants.
+Form Factor est un jeu de modélisation de formes complexes avec des formes de base qui met l'accent sur la communication et la coopération avec les équipes. Le but est d'essayer de remplir au mieux une forme complexe sans dépasser les bords, avec les formes simples mises à disposition. Un vote collectif à la fin décide des gagnants.
 
 <img src="/img/ressources/unplugged/form-factor/exemple.png" alt="Exemple d'activité Form factor" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -59,23 +59,23 @@ Form Factor est un jeu de modélisation de formes complexes avec des formes de b
 
 ### Développer sa capacité d'analyse
 
-Reconnaître, projeter mentalement, et faire correspondre, des formes et des motifs. Les compétences informatiques et la pensée critique reposent toutes deux sur le développement de la capacité à analyser les informations. Form factor renforce les capacités d'analyse et d'abstraction, en permettant aux enfants d'élaborer des stratégies pour créer une figure.
+Reconnaître, projeter mentalement, et faire correspondre, des formes et des motifs. Les compétences informatiques et la pensée critique reposent toutes deux sur la capacité à analyser des informations. Form factor renforce les capacités d'analyse et d'abstraction : les enfants peuvent y élaborer des stratégies pour créer une figure.
 
 ### Pensée visuelle et géométrique
 
-La mémoire visuelle est améliorée en encourageant la pensée visuelle/spatiale des enfants. Elle prépare les enfants à traiter des connaissances diverses, en favorisant un traitement efficace des informations complexes ou potentiellement déroutantes.
+Le jeu encourage la pensée visuelle et spatiale des enfants, ce qui améliore leur mémoire visuelle. Cette mémoire les prépare à traiter des connaissances diverses : elle favorise un traitement efficace des informations complexes ou qui peuvent dérouter.
 
 ### Augmenter sa précision
 
-Être à l'aise en précision et en dextérité, ou "motricité fine", des doigts. Le développement de la motricité fine et de la motricité globale est important, car la réussite scolaire dépend de la bonne maîtrise de ses muscles par l'enfant.
+Être à l'aise en précision et en dextérité, ou "motricité fine", des doigts. Développer la motricité fine et la motricité globale compte pour la réussite scolaire, qui dépend de la bonne maîtrise de ses muscles par l'enfant.
 
 ### Augmenter sa vitesse
 
-Être plus rapide en réflexion et en exécution. Form factor est un jeu compétitif et suggère du temps dans sa réalisation au sein des équipes. La vitesse de traitement est l'un des principaux éléments du processus cognitif.
+Être plus rapide en réflexion et en exécution. Form factor est un jeu compétitif, et les équipes réalisent leur figure dans un temps fixé à l'avance. La vitesse de traitement est l'un des principaux éléments du processus cognitif.
 
 ### Coopérer
 
-Travailler de concert avec son binôme ou son équipe pour faire la plus belle œuvre ! Le travail en équipe dans le cadre dans Form factor présente aux enfants les opportunités et les défis de la coopération.
+Travailler de concert avec son binôme ou son équipe pour faire la plus belle œuvre ! Dans Form factor, le travail en équipe fait découvrir aux enfants ce que la coopération apporte et ce qu'elle a de difficile.
 
 ---
 
@@ -92,7 +92,7 @@ Le but de ce jeu est de compléter une forme complexe avec des formes simples pl
 
 ### Règles du jeu
 
-Chaque tour de jeu est constitué de trois phases consécutives :
+Chaque tour de jeu a trois phases consécutives :
 
 1. Phase de constitution d'équipes
 2. Phase de création artistique
@@ -102,17 +102,17 @@ Chaque tour de jeu est constitué de trois phases consécutives :
 
 ## Phases de jeu
 
-### Phase 1 - Constitution d'équipes
+### Phase 1 : Constitution d'équipes
 
-Durant la phase de constitution d'équipes, les joueurs forment, avec l'aide de l'arbitre, au plus 4 équipes, avec si possible un nombre équivalent de joueurs dans chaque équipe. L'arbitre remet ensuite, à chaque équipe, la forme complexe qu'il a choisie (la même pour chaque équipe).
+Les joueurs forment, avec l'aide de l'arbitre, au plus 4 équipes, avec si possible un nombre équivalent de joueurs dans chaque équipe. L'arbitre remet ensuite, à chaque équipe, la forme complexe qu'il a choisie (la même pour chaque équipe).
 
-### Phase 2 - Création artistique
+### Phase 2 : Création artistique
 
-Durant la phase de création artistique, tous les joueurs de toutes les équipes remplissent, en même temps, la forme complexe de leur page. Les joueurs sont libres d'élaborer le remplissage de leur choix, du moment qu'ils le font uniquement en superposant la forme complexe avec les formes simples mises à leur disposition. Cette phase dure un temps connu et fixé à l'avance.
+Tous les joueurs de toutes les équipes remplissent, en même temps, la forme complexe de leur page. Les joueurs sont libres d'élaborer le remplissage de leur choix, du moment qu'ils le font uniquement en superposant la forme complexe avec les formes simples mises à leur disposition. Cette phase dure un temps connu et fixé à l'avance.
 
-### Phase 3 - Concours
+### Phase 3 : Concours
 
-Durant la phase de concours, un vote collectif est organisé par l'arbitre. Chaque joueur vote en son âme et conscience pour l'équipe qui a selon lui :
+L'arbitre organise un vote collectif. Chaque joueur vote en son âme et conscience pour l'équipe qui a selon lui :
 
 - Le mieux rempli la forme complexe en dépassant le moins possible.
 - Fait le remplissage le plus créatif et le plus artistique.
@@ -121,17 +121,17 @@ Durant la phase de concours, un vote collectif est organisé par l'arbitre. Chaq
 
 ## Aller plus loin
 
-### Sujet 1 - Compétences analytiques visuelles
+### Sujet 1 : Compétences analytiques visuelles
 
 Pour entraîner d'autres enfants à développer leur pensée analytique et visuelle, vous pouvez vous référer à d'autres jeux Unplugged, parmi lesquels : [Memory](/ressources/unplugged/memory), [Good ways](/ressources/unplugged/good-ways), [Ferme en ville](/ressources/unplugged/ferme-en-ville), [Plastic continent](/ressources/unplugged/plastic-continent), etc.
 
 - http://www.xplaner.com/visual-thinking-school/
 
-### Sujet 2 - Dextérité et motricité fine
+### Sujet 2 : Dextérité et motricité fine
 
 - https://empoweredparents.co/why-are-fine-motor-skills-important/
 
-### Sujet 3 - Vitesse de traitement et coopération
+### Sujet 3 : Vitesse de traitement et coopération
 
 - https://www.cognifit.com/science/cognitive-skills/processing-speed
 - https://www.scholastic.com/parents/family-life/parent-child/teach-kids-to-manage-time.html

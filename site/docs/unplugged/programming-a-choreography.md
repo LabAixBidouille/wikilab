@@ -47,7 +47,7 @@ sidebar_position: 22
 
 ## De quoi parle-t-on ?
 
-Programme ta chorégraphie est un jeu dans lequel les enfants devront programmer avec des cartes le mouvement d'une autre équipe à travers différents types d'actions. Les enfants en apprennent davantage sur le monde de la technologie et de la programmation de jeux, sans utiliser d'appareils réels. En exécutant une chorégraphie, ils sont encouragés à faire une activité physique et à pratiquer des compétences de coordination.
+Programme ta chorégraphie est un jeu dans lequel les enfants devront programmer avec des cartes le mouvement d'une autre équipe au moyen de différents types d'actions. Les enfants en apprennent davantage sur le monde de la technologie et de la programmation de jeux, sans utiliser d'appareils réels. En exécutant une chorégraphie, ils sont encouragés à faire une activité physique et à pratiquer des compétences de coordination.
 
 ---
 
@@ -55,21 +55,21 @@ Programme ta chorégraphie est un jeu dans lequel les enfants devront programmer
 
 ### Aborder la programmation
 
-Savoir programmer est devenu une des compétences importantes de notre siècle. Les compétences acquises : pensée créative et logique, conscience spatiale, capacité à résoudre des problèmes, structurer, collaborer.
+Les compétences acquises : pensée créative et logique, conscience spatiale, capacité à résoudre des problèmes, structurer, collaborer.
 
 ### Méthodologies actives
 
-Le jeu utilise une méthodologie active où les enfants sont placés au centre de leur processus d'apprentissage. Ils collaborent et étudient les blocs Scratch afin de coder une chorégraphie.
+Le jeu suit une méthodologie active : les enfants sont au centre de leur apprentissage. Ils collaborent et étudient les blocs Scratch pour coder une chorégraphie.
 
 <img src="/img/ressources/unplugged/programming-a-choreography/blocsscratch.png" alt="Blocs Scratch pour la chorégraphie" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ### Apprentissage par le jeu
 
-Les enfants apprennent la programmation en étant mis au défi d'exécuter une chorégraphie.
+Les enfants apprennent la programmation face au défi d'exécuter une chorégraphie.
 
-### Interdisciplinarité - Technologie et sport
+### Interdisciplinarité : Technologie et sport
 
-Il s'agit d'apprendre la programmation en dansant pour atteindre une meilleure mémorisation et rétention des connaissances et un meilleur bien-être.
+Il s'agit d'apprendre la programmation en dansant, pour mieux mémoriser et retenir les connaissances et pour se sentir mieux.
 
 ---
 
@@ -95,19 +95,19 @@ Les enfants jouent par groupes de quatre joueurs. Chaque groupe utilise les cart
 
 ### Phase 2
 
-Le deuxième tour est axé sur la conception de nouvelles cartes à l'aide de blocs pour stimuler l'imagination et la créativité des enfants.
+Au deuxième tour, les enfants conçoivent de nouvelles cartes à l'aide de blocs, pour stimuler leur imagination et leur créativité.
 
 ---
 
 ## Aller plus loin
 
-### Sujet 1 - Programmation de l'approche
+### Sujet 1 : Programmation de l'approche
 
 - D'autres quêtes Unplugged : [Comptage binaire](/ressources/unplugged/binary-counting), [Brain Twister](/ressources/unplugged/brain-twister), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix), [Memory](/ressources/unplugged/memory)
 - Scratch : https://scratch.mit.edu/
 - Code.org : https://code.org/
 
-### Sujet 2 - Interdisciplinarité
+### Sujet 2 : Interdisciplinarité
 
 - Apprendre en bougeant : https://www.gonoodle.com
 - Énergies propres : https://energync.org/forkids/

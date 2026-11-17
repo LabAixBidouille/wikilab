@@ -56,15 +56,15 @@ Dans le futur, les interactions avec des robots et interfaces numériques seront
 
 ### Comprendre la logique binaire des ordinateurs
 
-La programmation devient une compétence essentielle pour les jeunes. Lorsque vous programmez, vous devez être très clair dans les instructions que vous allez donner à l'ordinateur. Dans ce jeu, les enfants apprennent à donner et à exécuter des ordres sans utiliser d'ordinateur. Ce jeu développe aussi la cognition spatiale des enfants. Le meneur de jeu devra donner des ordres et donc avoir une bone vision de l'espace. Les robots (les autres joueurs) eux aussi devront se déplacer selon les ordres du meneur de jeu ce qui fait travailler leur cognition spatiale et leur proprioception.
+Lorsque vous programmez, vous devez être très clair dans les instructions que vous allez donner à l'ordinateur. Dans ce jeu, les enfants apprennent à donner et à exécuter des ordres sans utiliser d'ordinateur. Ce jeu développe aussi la cognition spatiale des enfants. Le meneur de jeu devra donner des ordres et donc avoir une bone vision de l'espace. Les robots (les autres joueurs) eux aussi devront se déplacer selon les ordres du meneur de jeu ce qui fait travailler leur cognition spatiale et leur proprioception.
 
 ### Géométrie et mathématiques
 
-Ce jeu consiste à mettre les objets à leur place sur une table. Comme un ingénieur, vous devrez être très précis pour gagner. Vous devrez vous concentrer malgré le fait qu'il s'agisse d'une compétition et que vous jouiez avec vos camarades de classe. Le jeu Brain Twister améliore les références spatiales des enfants et leur capacité à reproduire une figure sur une table, comme le montrent les programmes scolaires.
+Ce jeu consiste à mettre les objets à leur place sur une table. Comme un ingénieur, vous devrez être très précis pour gagner. Vous devrez vous concentrer malgré le fait qu'il s'agisse d'une compétition et que vous jouiez avec vos camarades de classe. Le jeu Brain Twister améliore les références spatiales des enfants et leur capacité à reproduire une figure sur une table, deux compétences inscrites aux programmes scolaires.
 
 ### Expression orale
 
-Dans ce jeu, il est important de s'exprimer oralement de manière claire. Pour l'emporter, les instructions données par le meneur du jeu doivent être simples, concises et suffisamment claires. Le meneur devra apprendre à contrôler le ton de sa voix, sa vitesse, sa diction, et les mots utilisés pour donner les meilleurs ordres à ses robots (autres camarades de classe).
+Pour l'emporter, les instructions données par le meneur du jeu doivent être simples, concises et suffisamment claires. Le meneur devra apprendre à contrôler le ton de sa voix, sa vitesse, sa diction, et les mots utilisés pour donner les meilleurs ordres à ses robots (autres camarades de classe).
 
 ---
 
@@ -72,7 +72,7 @@ Dans ce jeu, il est important de s'exprimer oralement de manière claire. Pour l
 
 **Univers du jeu :** Dans le futur, les humains ont été remplacés par des robots pour le travail en usine. Le jeu se déroule dans une centrale nucléaire. L'équipage de l'usine est composé uniquement de robots. Le chef de service, un robot lui aussi, est accidentellement tombé en panne d'énergie et personne d'autre ne sait comment contrôler l'équipage. Nous avons besoin de votre aide ! Apprenez à interagir avec les robots et donnez-leur des ordres clairs pour que l'équipe de l'usine ne fasse pas d'erreurs et pour éviter une catastrophe écologique.
 
-N'ayant pas reçu les bons ordres, tous les robots sont mélangés. Pour contrôler les robots, le chef de service utilise un tableau de bord (Annexe 2) pour donner des instructions aux robots. Le meneur du jeu devra ramener tous les robots (autres enfants participants) à leur place en se référant au tableau de bord préparé par l'éducateur.
+N'ayant pas reçu les bons ordres, tous les robots sont mélangés. Pour contrôler les robots, le chef de service utilise un tableau de bord (Annexe 2) pour donner des instructions aux robots. Le meneur du jeu devra ramener tous les robots (autres enfants participants) à leur place en se référant au tableau de bord préparé par l'enseignant.
 
 ### Rôle de l'enseignant et organisation du jeu
 
@@ -84,13 +84,13 @@ L'enseignant dessine deux tableaux au sol avec le même nombre de cases que dans
 
 ### Règles du jeu
 
-Deux joueurs sont les meneurs de jeu, un pour chaque équipe. Les meneurs de jeu donnent des instructions aux robots pour qu'ils reproduisent une figure que l'éducateur à préparé sur le tableau de bord. Les autres joueurs sont les robots. Ils sont appelés par leur prénom.
+Deux joueurs sont les meneurs de jeu, un pour chaque équipe. Les meneurs de jeu donnent des instructions aux robots pour qu'ils reproduisent une figure que l'enseignant a préparée sur le tableau de bord. Les autres joueurs sont les robots. Ils sont appelés par leur prénom.
 
-Pour gagner la partie, un meneur de jeu doit placer correctement les robots sur le tableau au sol pour reproduire la figure que l'éducateur à préparé sur e tableau de bord, en donnant des ordres aux robots pour les placer dans les bonnes cases.
+Pour gagner la partie, un meneur de jeu doit placer correctement les robots sur le tableau au sol pour reproduire la figure que l'enseignant a préparée sur le tableau de bord, en donnant des ordres aux robots pour les placer dans les bonnes cases.
 
 Un ordre doit être donné comme suit : Nom du robot (par exemple Martin) - déplaces toi de 3 cases vers ta gauche ; Nom du robot (par exemple Emma) - déplaces toi de 2 cases vers l'avant ; Nom du robot (par exemple Victor) - Poses tes mains sur la case à ta gauche. Attention, si le meneur est face à ses robots, sa gauche n'est pas la même que celle des robots.
 
-Lorsqu'un meneur de jeu décide que la figure est reproduite, le jeu se termine pour les deux équipes. L'éducateur compare les positions des robots de chaque équipe avec la figure qu'il à préparé sur le tableau de bord et choisit le vainqueur (celui dont la figure et la plus proche de la figure préparé par l'éducateur).
+Lorsqu'un meneur de jeu décide que la figure est reproduite, le jeu se termine pour les deux équipes. L'enseignant compare les positions des robots de chaque équipe avec la figure qu'il a préparée sur le tableau de bord et choisit le vainqueur (celui dont la figure est la plus proche de cette figure).
 
 S'en suit une discussion sur les stratégies utilisées par chaque chef d'équipe pour donner des ordres. Au tour suivant, les équipes peuvent reconsidérer ces stratégies pour s'améliorer. Après le jeu, les enfants peuvent discuter de la manière dont leur activité physique pourrait contribuer à la production d'énergie pour alimenter un ordinateur. Saviez-vous que certaines boites de nuits génèrent de l'énergie avec les mouvements de pieds des danseurs ? Connaissez-vous le principe de la dynamo ?
 
@@ -117,7 +117,7 @@ Dans cet exemple, le jeu se déroule avec deux robots. Pour gagner le jeu, le me
 
 ### Phase 3 - Difficulté : Haute
 
-Au lieu de reproduire une figure inventée par l'éducateur, on demande aux enfants de représenter des formes géométriques. Par exemple, dessiner un carré de 3 cases sur 3 avec 8 joueurs.
+Au lieu de reproduire une figure inventée par l'enseignant, on demande aux enfants de représenter des formes géométriques. Par exemple, dessiner un carré de 3 cases sur 3 avec 8 joueurs.
 
 Les enfants plus âgés peuvent reproduire une figure à partir d'une aire donnée. Par exemple, dessiner une figure d'une aire de 10 cases avec 8 joueurs.
 
@@ -127,7 +127,7 @@ Les enfants plus âgés peuvent reproduire une figure à partir d'une aire donn�
 
 ### Thématique 1 - Les languages de programmation
 
-La programmation devient une compétence importante à acquérir. Des sites Web proposent des façons ludiques d'apprendre à coder. Pour vous exercer davantage à la programmation en classe, vous pouvez vous référer à :
+Des sites Web proposent des façons ludiques d'apprendre à coder. Pour vous exercer davantage à la programmation en classe, vous pouvez vous référer à :
 
 - D'autres quêtes de Unplugged comme [Memory](/ressources/unplugged/memory), [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix), [Comptage binaire](/ressources/unplugged/binary-counting), [Programme ta chorégraphie](/ressources/unplugged/programming-a-choreography)
 - Des outils de programmation adaptés au jeune public tels que Scratch : https://scratch.mit.edu/, Code.org : https://code.org/ et Code Combat : https://codecombat.com/

@@ -59,15 +59,15 @@ Des expériences simples à réaliser en classe peuvent aider les enfants à com
 
 ### Concept d'écosystème
 
-Il est important que les enfants comprennent les connexions entre toutes les formes de vie d'un écosystème. Un écosystème est un ensemble d'organismes en interaction avec leur environnement. Les écosystèmes peuvent être petits ou grands. Un écosystème est constitué de tous les êtres vivants (biotiques) tels que les plantes, les animaux, etc. et des êtres non vivants (abiotiques) tels que l'eau, les roches, le sol, le sable, etc. d'une région. Les principaux éléments d'un écosystème sont l'eau, la température de l'eau, les plantes, les animaux, l'air, la lumière et le sol.
+Il importe que les enfants comprennent les liens entre toutes les formes de vie d'un écosystème. Un écosystème est un ensemble d'organismes en interaction avec leur environnement. Les écosystèmes peuvent être petits ou grands. Un écosystème est constitué de tous les êtres vivants (biotiques) tels que les plantes, les animaux, etc. et des êtres non vivants (abiotiques) tels que l'eau, les roches, le sol, le sable, etc. d'une région. Les principaux éléments d'un écosystème sont l'eau, la température de l'eau, les plantes, les animaux, l'air, la lumière et le sol.
 
 ### Interaction entre les composants d'un écosystème
 
-Il existe des interactions à l'intérieur et entre les êtres biotiques et abiotiques. Les producteurs, les compositeurs et les décomposeurs sont des êtres biotiques et interagissent en échangeant de la nourriture et de l'énergie. Cependant, les organismes vivants ont également besoin de composants abiotiques tels que la lumière du soleil, l'eau, le sol, etc. pour grandir, se reproduire et survivre. Il existe également des interactions entre les composants abiotiques. Par exemple, la lumière du soleil augmente la température de l'eau et donc son évaporation. Ce qui augmente l'humidité de l'atmosphère, et crée des précipitations. Il existe de nombreuses autres interactions.
+Il existe des interactions à l'intérieur et entre les êtres biotiques et abiotiques. Les producteurs, les compositeurs et les décomposeurs sont des êtres biotiques et interagissent en échangeant de la nourriture et de l'énergie. Cependant, les organismes vivants ont également besoin de composants abiotiques tels que la lumière du soleil, l'eau, le sol, etc. pour grandir, se reproduire et survivre. Les composants abiotiques interagissent aussi entre eux. Par exemple, la lumière du soleil augmente la température de l'eau et donc son évaporation. Ce qui augmente l'humidité de l'atmosphère, et crée des précipitations. Il existe de nombreuses autres interactions.
 
 ### Interactions homme-nature
 
-Les écosystèmes évoluent au fil du temps. Des perturbations telles que les volcans, les inondations ou les incendies peuvent affecter les espèces qui prospèrent dans un environnement. Les activités humaines telles que la pollution, la chasse excessive et la déforestation ont également contribué à la perturbation de nombreux écosystèmes.
+Les écosystèmes évoluent au fil du temps. Des perturbations telles que les volcans, les inondations ou les incendies peuvent affecter les espèces qui prospèrent dans un environnement. Les activités humaines telles que la pollution, la chasse excessive et la déforestation ont aussi contribué à perturber de nombreux écosystèmes.
 
 ### Exploration et expérimentation
 
@@ -91,7 +91,7 @@ Ils devront observer les changements dans le bocal pendant plusieurs jours/semai
 
 ### Rôle de l'enseignant et organisation du jeu
 
-- Avant de commencer à construire l'écosystème, effectuez un brainstorming pour mettre en évidence ce que les enfants savent sur les écosystèmes (rendez leurs idées explicites pour en tirer parti par la suite). Une discussion sur les éléments/facteurs nécessaires au bon fonctionnement de l'écosystème a lieu pour préparer l'expérience et retracer leur impact.
+- Avant de commencer à construire l'écosystème, effectuez un brainstorming pour mettre en évidence ce que les enfants savent sur les écosystèmes (rendez leurs idées explicites pour en tirer parti par la suite). Discutez des éléments/facteurs nécessaires au bon fonctionnement de l'écosystème pour préparer l'expérience et retracer leur impact.
 - Les enseignants expliquent ensuite comment créer un écosystème fonctionnel en étudiant les besoins des êtres vivants. Ils peuvent également encourager les enfants à faire des observations détaillées et à répondre aux questions.
 
 ---

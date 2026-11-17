@@ -50,7 +50,7 @@ sidebar_position: 19
 
 ## De quoi parle-t-on ?
 
-L'action se déroule au milieu d'un continent de plastique créé par la négligence humaine. Un dauphin y est emprisonné et doit se frayer un chemin à travers les tas de déchets pour sortir ! Le jeu sensibilise les enfants à la pollution plastique et aux conséquences négatives de l'activité humaine, améliorant par la même occasion leur réflexion logique et spatiale.
+L'action se déroule au milieu d'un continent de plastique créé par la négligence humaine. Un dauphin y est emprisonné et doit se frayer un chemin à travers les tas de déchets pour sortir ! Le jeu sensibilise les enfants à la pollution plastique et aux conséquences négatives de l'activité humaine. Il améliore aussi leur réflexion logique et spatiale.
 
 ---
 
@@ -99,16 +99,16 @@ Dans Plastic continent, déplacez les tas de déchets sur un échiquier afin de 
 
 ## Aller plus loin
 
-### Sujet 1 - Raisonnement logique
+### Sujet 1 : Raisonnement logique
 
 - https://criticalthinkingsecrets.com/what-is-logical-thinking/
 
-### Sujet 2 - Orientation spatiale
+### Sujet 2 : Orientation spatiale
 
 - http://www.xplaner.com/visual-thinking-school/
 - https://kids.frontiersin.org/articles/10.3389/frym.2020.00050
 
-### Sujet 3 - Objectifs de développement sociétal
+### Sujet 3 : Objectifs de développement sociétal
 
 - https://go-goals.org/
 

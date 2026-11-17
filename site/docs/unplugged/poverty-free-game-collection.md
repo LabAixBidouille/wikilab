@@ -51,7 +51,7 @@ sidebar_position: 21
 
 ## De quoi parle-t-on ?
 
-Dans le cadre de la quête "Jeux anti-pauvreté", les enfants sont invités à créer une collection de jeux et d'activités de loisirs qui peuvent être construits à l'aide d'articles ménagers peu coûteux ou inutiles. L'objectif est, d'une part, de faire prendre conscience aux enfants que tout le monde ne bénéficie pas des mêmes opportunités et, d'autre part, d'offrir la possibilité de participer à des jeux pour les enfants issus de milieux à faibles revenus.
+Dans la quête « Jeux anti-pauvreté », les enfants créent une collection de jeux et d'activités de loisirs à construire avec des articles ménagers peu coûteux ou inutiles. L'objectif est de faire prendre conscience aux enfants que tout le monde n'a pas les mêmes chances, et de permettre aux enfants issus de milieux à faibles revenus de participer à des jeux.
 
 ---
 
@@ -59,15 +59,15 @@ Dans le cadre de la quête "Jeux anti-pauvreté", les enfants sont invités à c
 
 ### Prendre conscience des différences
 
-En leur faisant prendre conscience de leurs privilèges et en leur fournissant une tâche pratique pour lutter contre les inégalités, ils comprennent qu'ils peuvent faire la différence dans la société.
+Les enfants prennent conscience de leurs privilèges et reçoivent une tâche pratique pour lutter contre les inégalités : ils comprennent qu'ils peuvent changer les choses dans la société.
 
 ### Développer la créativité en utilisant l'imagination et les objets domestiques
 
-Les enfants font appel à leur créativité et à leur imagination, ce qui contribue à leur ingéniosité et à leur autonomie.
+Les enfants font appel à leur créativité et à leur imagination pour inventer des jeux avec des objets de la maison, et travaillent ainsi leur ingéniosité et leur autonomie.
 
 ### Développer les compétences de collaboration
 
-Le travail en équipe et la répartition des rôles offrent aux enfants une expérience qui les aidera dans la suite de leur vie.
+Le travail en équipe et la répartition des rôles donnent aux enfants une expérience qui leur servira dans la suite de leur vie.
 
 ### Approche des ODD
 
@@ -75,48 +75,48 @@ La pauvreté est l'un des plus grands problèmes de la société actuelle.
 
 ---
 
-## Règles du jeu - 6 à 12 ans
+## Règles du jeu : 6 à 12 ans
 
 **Univers du jeu :** Apprenons à jouer à des jeux sans utiliser les jouets habituels ! Nous utiliserons tout ce qui se trouve autour de nous.
 
 Le jeu s'organise en deux équipes ou plus (3 joueurs par équipe) avec les rôles :
 
-- **Communicateur** - responsable de la communication au sein de l'équipe
-- **Gestionnaire de problèmes** - responsable des communications à l'extérieur de l'équipe
-- **Rédacteur** - responsable de l'écriture et du croquis des idées
+- **Communicateur** : responsable de la communication au sein de l'équipe
+- **Gestionnaire de problèmes** : responsable des communications à l'extérieur de l'équipe
+- **Rédacteur** : responsable de l'écriture et du croquis des idées
 
 <img src="/img/ressources/unplugged/poverty-free-game-collection/exemplecarteroles.png" alt="Exemple de cartes de rôles" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
 ---
 
-## Règles du jeu - 13 à 16 ans
+## Règles du jeu : 13 à 16 ans
 
 Deux équipes ou plus (4-5 joueurs par équipe) avec les rôles :
 
-- **Steve Jobs** - gestionnaire du processus de conception
-- **Développeur de jeu n° 1** - déroulement et règles du jeu
-- **Développeur de jeu n° 2** - objectifs du jeu et nom du jeu
-- **Illustrateur** - écriture et croquis des idées
-- **Testeur** - teste le jeu d'une équipe voisine
+- **Steve Jobs** : gestionnaire du processus de conception
+- **Développeur de jeu n° 1** : déroulement et règles du jeu
+- **Développeur de jeu n° 2** : objectifs du jeu et nom du jeu
+- **Illustrateur** : écriture et croquis des idées
+- **Testeur** : teste le jeu d'une équipe voisine
 
 ---
 
 ## Aller plus loin
 
-### Sujet 1 - Livres pour enfants sur la pauvreté et la faim
+### Sujet 1 : Livres pour enfants sur la pauvreté et la faim
 
 - https://www.rebekahgienapp.com/poverty-books/
 
-### Sujet 2 - Pensée créative
+### Sujet 2 : Pensée créative
 
 - https://diy.org/
 - http://krokotak.com/
 
-### Sujet 3 - Jeux pour enfants connus dans le monde entier
+### Sujet 3 : Jeux pour enfants connus dans le monde entier
 
 - https://www.whatdowedoallday.com/traditional-games/
 
-### Sujet 4 - Méthodologie du sprint de conception
+### Sujet 4 : Méthodologie du sprint de conception
 
 - https://designsprintkit.withgoogle.com/methodology/overview
 

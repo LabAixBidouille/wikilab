@@ -51,17 +51,17 @@ sidebar_position: 10
 
 ## De quoi parle-t-on ?
 
-Cette fiche d'activité donne des informations sur la construction du défi débranché "La ferme en ville" basé sur les ensembles dominants. Les ensembles dominants (appartenant à la discipline mathématique de la théorie des graphes) permettent d'aborder à l'école la résolution de problèmes d'optimisation sur des problématiques tangibles et intuitivement compréhensibles. Ainsi, grâce à cette activité, nous pouvons aborder, dès un jeune âge et de manière simple, des concepts plus ou moins complexes d'algorithmie (pouvant être appliqué au domaine de la pensée informatique). L'activité Ferme en Ville donne une version simple et accessible de l'utilisation des ensembles dominants pour résoudre un problème combinatoire.
+Cette fiche d'activité donne des informations sur la construction du défi débranché "La ferme en ville", fondé sur les ensembles dominants. Les ensembles dominants (une notion de la théorie des graphes, en mathématiques) permettent d'aborder à l'école des problèmes d'optimisation posés sur des situations tangibles et faciles à comprendre intuitivement. Avec cette activité, on peut donc aborder, dès un jeune âge et de manière simple, des concepts d'algorithmie plus ou moins complexes, applicables à la pensée informatique. L'activité Ferme en Ville donne une version simple et accessible de l'utilisation des ensembles dominants pour résoudre un problème combinatoire.
 
 ---
 
 ## Intérêt pédagogique et sujets ciblés
 
-### Intérêt de l'activité pour la compréhension de concepts mathématiques - la théorie des graphes et les ensembles dominants
+### Intérêt de l'activité pour la compréhension de concepts mathématiques : la théorie des graphes et les ensembles dominants
 
-De nombreuses situations de la vie réelle peuvent être abstraites sous la forme d'un "graphe" ou plus communément un dessin de réseaux reliant des objets par des arêtes. Les graphes présentent un grand intérêt pour le développement d'algorithmes car ils permettent de modéliser des relations entre un ensemble fini d'entités en considérant à la fois leur propriété et leurs interactions. Les entités sont les sommets ou les nœuds de nos réseaux représentés de manière simplifiée.
+De nombreuses situations de la vie réelle peuvent être abstraites sous la forme d'un "graphe" ou plus communément un dessin de réseaux reliant des objets par des arêtes. Les graphes sont très utiles pour concevoir des algorithmes, car ils permettent de modéliser des relations entre un ensemble fini d'entités en tenant compte à la fois de leurs propriétés et de leurs interactions. Les entités sont les sommets, ou nœuds, de ces réseaux représentés de manière simplifiée.
 
-Afin d'illustrer le concept de graphe et d'ensembles dominants, nous vous proposons une activité simple qui permettra de comprendre les interactions entre entités mais également leurs limites. Pour ce faire, nous considérons une ville, avec plusieurs rues (nos arêtes) qui se croisent créant ainsi des carrefours (qui seront représentées par des nœuds), et un défi : créer un réseau de fermes urbaines permettant à chaque citoyen de trouver à proximité de son habitation, des fruits et légumes en circuit court.
+Pour illustrer le concept de graphe et d'ensembles dominants, cette fiche propose une activité simple pour comprendre les interactions entre entités, mais aussi leurs limites. Pour cela, on considère une ville, avec plusieurs rues (les arêtes) qui se croisent en des carrefours (représentés par des nœuds), et un défi : créer un réseau de fermes urbaines permettant à chaque citoyen de trouver à proximité de son habitation, des fruits et légumes en circuit court.
 
 Grâce à cette activité, les élèves aborderont donc plusieurs sujets, notamment la cartographie, les relations, la résolution d'énigmes et la recherche itérative d'objectifs, la combinatoire et la théorie des graphes.
 
@@ -70,7 +70,7 @@ Grâce à cette activité, les élèves aborderont donc plusieurs sujets, notamm
 Afin de complexifier l'activité, vous pouvez également introduire des rôles proposés ci-dessous pour aborder la théorie des jeux :
 
 - **Citoyens :** Avoir accès à un maximum de services publics et économiques dans la ville - Objectif caché : augmenter le nombre de fermes urbaines proposées sur le territoire de la ville.
-- **Agriculteurs urbains :** Proposer un service rentable i.e. un bon rapport coût/bénéfice dans l'installation de leurs points de récolte et de vente - Objectif caché : avoir un minimum de fermes pour un maximum de clients.
+- **Agriculteurs urbains :** Proposer un service rentable, c'est-à-dire un bon rapport coût/bénéfice dans l'installation de leurs points de récolte et de vente - Objectif caché : avoir un minimum de fermes pour un maximum de clients.
 - **Promoteurs immobiliers / Constructeurs :** Faire prendre de la valeur à leur immeuble grâce à des services additionnels - Objectif caché : proposer un maximum de service de fermes urbaines afin d'attirer des résidents dans les immeubles.
 - **Planificateur urbain :** Trouver la meilleure adéquation entre les services fournis aux citoyens par le public et par le privé - Objectif caché : Localiser les fermes à proximité d'un arrêt de bus afin de valoriser la planification des transports urbains.
 
@@ -78,7 +78,7 @@ Afin de complexifier l'activité, vous pouvez également introduire des rôles p
 
 ### Discussion ouverte sur la consommation alimentaire et les pratiques de la ville intelligente
 
-Dans le cadre du jeu "Ferme en ville", l'objectif est de permettre aux enfants d'en apprendre davantage sur l'agriculture urbaine, les systèmes alimentaires locaux et l'importance des villes apprenantes pour faciliter l'adoption de pratiques plus durables par les citoyens qui soutiennent les politiques urbaines.
+Le jeu "Ferme en ville" vise à permettre aux enfants d'en apprendre davantage sur l'agriculture urbaine, les systèmes alimentaires locaux et l'importance des villes apprenantes pour faciliter l'adoption de pratiques plus durables par les citoyens qui soutiennent les politiques urbaines.
 
 ---
 
@@ -88,7 +88,7 @@ Dans le cadre du jeu "Ferme en ville", l'objectif est de permettre aux enfants d
 
 ### Règles du jeu
 
-Le jeu "Ferme en ville" est constitué d'un enchaînement d'activités permettant de découvrir la théorie des graphes et les ensembles dominants :
+Le jeu "Ferme en ville" enchaîne des activités pour découvrir la théorie des graphes et les ensembles dominants :
 
 - Les enfants seront tout d'abord amenés à travailler de manière individuelle. Ils représenteront des agriculteurs urbains, qui cherchent à répondre à la problématique : comment minimiser le nombre d'exploitation en maximisant le nombre de clients ?
 - Les enfants pourront ensuite travailler en groupe, une fois que l'activité initiale mathématique aura été comprise. Ils représenteront au choix le groupe d'agriculteurs, les planificateurs urbains, les citoyens ou les propriétaires d'immeubles.
@@ -104,11 +104,11 @@ Le jeu "Ferme en ville" est constitué d'un enchaînement d'activités permettan
 
 ## Phases de jeu
 
-### Phase 1 - Comprendre les ensembles dominants
+### Phase 1 : Comprendre les ensembles dominants
 
 Le jeu commence par une présentation des objectifs et de l'histoire. À ce stade, tous les élèves ont le même objectif : créer un réseau de fermes urbaines avec pour contrainte de minimiser le nombre d'installation tout en maximisant le nombre de rues qui seront desservies par ces points de récolte et de vente. Chaque élève recevra une feuille de travail sous forme de graphe (imprimable 2).
 
-### Phase 2 - Introduction des objectifs cachés
+### Phase 2 : Introduction des objectifs cachés
 
 La seconde phase du jeu commence par une présentation du contexte et de l'histoire. Après avoir reçu les propositions des agriculteurs, les autorités locales sont prêtes à ouvrir le débat aux représentants de la société. Chaque groupe se voit attribuer une fonction, et un objectif caché.
 
@@ -118,14 +118,14 @@ La seconde phase du jeu commence par une présentation du contexte et de l'histo
 
 ## Aller plus loin
 
-### Sujet 1 - Théorie des jeux, communication et confiance
+### Sujet 1 : Théorie des jeux, communication et confiance
 
 - https://kids.kiddle.co/Game_theory
 - https://kids.frontiersin.org/articles/10.3389/frym.2017.00066
 
 Pour vous entraîner davantage à la planification de stratégies d'équipe et à la communication, vous pouvez consulter d'autres activités Unplugged, par exemple [Imaginer la ville parfaite](/ressources/unplugged/la-ville-parfaite), [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [S'orienter sur la route des ODD](/ressources/unplugged/reroute-better-world), [Good ways](/ressources/unplugged/good-ways), [Brain Twister](/ressources/unplugged/brain-twister).
 
-### Sujet 2 - Agriculture urbaine
+### Sujet 2 : Agriculture urbaine
 
 - https://en.wikipedia.org/wiki/Urban_agriculture
 - https://www.unesco.org/en/articles/unesco-promotes-biodiversity-and-urban-gardening-its-own-premises
@@ -133,7 +133,7 @@ Pour vous entraîner davantage à la planification de stratégies d'équipe et �
 - https://www.littledayout.com/urban-farming-for-kids/
 - Bombe de graines : https://littlebinsforlittlehands.com/make-seed-bombs-earth-day-activity/
 
-### Sujet 3 - Ville intelligente et apprenante
+### Sujet 3 : Ville intelligente et apprenante
 
 - https://web.archive.org/web/20260307114631/https://mocomi.com/what-is-a-smart-city/ (archive.org 2026-03)
 - https://circularcomputing.com/news/10-ways-make-school-sustainable/

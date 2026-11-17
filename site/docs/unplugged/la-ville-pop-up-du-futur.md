@@ -51,7 +51,7 @@ sidebar_position: 15
 
 ## De quoi parle-t-on ?
 
-Nous avons tous des idées pour notre ville parfaite, mais elles peuvent être difficiles à expliquer. Rassemblons ces idées et créons une interface visuelle pour les exposer. Un atelier plastique pour explorer notre avenir, les villes dans lesquelles nous vivrons, nos professions et nos moyens de transport. Les enfants utilisent leur imagination et leur créativité pour représenter le monde dans lequel ils aimeraient vivre. L'activité introduit des concepts tel que le génie civil, les écosystèmes urbains et naturels, les règles communautaires.
+Chacun a des idées pour sa ville parfaite, mais elles peuvent être difficiles à expliquer. Cet atelier plastique les rassemble et les expose sur un support visuel, pour explorer l'avenir : les villes de demain, les professions et les moyens de transport. Les enfants utilisent leur imagination et leur créativité pour représenter le monde dans lequel ils aimeraient vivre. L'activité introduit des concepts comme le génie civil, les écosystèmes urbains et naturels et les règles communautaires.
 
 ---
 
@@ -63,7 +63,7 @@ Face au changement climatique, il faut réfléchir à l'évolution des modes de 
 
 ### Comprendre le développement urbain et les perspectives
 
-Aujourd'hui, près de 75 % des citoyens européens vivent dans des villes. D'ici 2050, plus des deux tiers de la population mondiale vivront dans des zones urbaines. Il est urgent de réfléchir à des alternatives pour nos modes de vie urbains.
+Aujourd'hui, près de 75 % des citoyens européens vivent dans des villes. D'ici 2050, plus des deux tiers de la population mondiale vivront dans des zones urbaines. Il est urgent de réfléchir à d'autres modes de vie en ville.
 
 ### Choisir sa ville et son mode de vie futurs
 
@@ -101,7 +101,7 @@ Les enfants lancent les "dés de l'action" qui détermineront un domaine de proj
 
 <img src="/img/ressources/unplugged/la-ville-pop-up-du-futur/deactions.png" alt="Dé des actions" style={{maxWidth: '500px', marginTop: '1rem', marginBottom: '1rem'}} />
 
-### Phase 3 (additionnel) - Musiques de votre ville
+### Phase 3 (additionnelle) : Musiques de votre ville
 
 Quelle sera la bande sonore parfaite pour votre ville ? Essayez de l'enregistrer à l'aide d'un smartphone.
 
@@ -109,16 +109,16 @@ Quelle sera la bande sonore parfaite pour votre ville ? Essayez de l'enregistrer
 
 ## Aller plus loin
 
-### Thème 1 - Développement urbain et durable
+### Thème 1 : Développement urbain et durable
 
 - https://www.eea.europa.eu/themes/sustainability-transitions/urban-environment
 - https://ourworldindata.org/urbanization
 
-### Thème 2 - Villes futuristes
+### Thème 2 : Villes futuristes
 
 - https://www.nationalgeographic.com/magazine/graphics/see-sustainable-future-city-designed-for-people-and-nature
 
-### Thème 3 - Stimuler la créativité
+### Thème 3 : Stimuler la créativité
 
 - https://web.archive.org/web/20250119002829/https://lafabulerie.com/ressource/carte-pop-up/ (archive.org 2025-01)
 - https://www.youtube.com/watch?v=wXWrw6JYGIE

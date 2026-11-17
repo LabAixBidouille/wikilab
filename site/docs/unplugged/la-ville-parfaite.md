@@ -61,11 +61,11 @@ Dans la ville parfaite, les enfants comprennent que la persuasion et l'influence
 
 ### Manipulation et désinformation
 
-La manipulation est au cœur de ce jeu. Il est important d'apprendre aux enfants que certaines personnes peuvent agir selon leur propre intérêt. En dotant les enfants d'un esprit critique, on peut les aider à détecter la manipulation et la désinformation.
+Ce jeu repose sur la manipulation. Il est important d'apprendre aux enfants que certaines personnes peuvent agir selon leur propre intérêt. En dotant les enfants d'un esprit critique, on peut les aider à détecter la manipulation et la désinformation.
 
 ### Penser logiquement pour résoudre les problèmes
 
-Les activités qui favorisent la pensée critique aident les enfants à agir de manière indépendante et à prendre leurs propres décisions.
+Exercer leur pensée critique aide les enfants à agir de manière indépendante et à prendre leurs propres décisions.
 
 ### Concepts de base de la construction d'une ville
 
@@ -101,22 +101,22 @@ L'enseignant divise les enfants en groupes de 4 à 5 personnes et distribue diff
 
 ## Aller plus loin
 
-### Sujet 1 - Comprendre la relation leadership/influence et manipulation
+### Sujet 1 : Comprendre la relation leadership/influence et manipulation
 
 - https://teacherblog.evan-moor.com/2019/04/16/using-voice-to-persuade-persuasive-writing-prompts-for-grades-4-6
 - https://www.youtube.com/watch?v=goSXuGe8Er0
 
-### Sujet 2 - Manipulation et désinformation
+### Sujet 2 : Manipulation et désinformation
 
 - https://www.unicef.org/globalinsight/stories/digital-misinformation-disinformation-and-children
 
-### Sujet 3 - Penser logiquement pour résoudre des problèmes
+### Sujet 3 : Penser logiquement pour résoudre des problèmes
 
 Consulter les quêtes [Corriger les erreurs de transmission dans les grilles de la paix grâce à la parité](/ressources/unplugged/grille-magique-de-la-paix) et [Plastic continent](/ressources/unplugged/plastic-continent).
 
 - https://heidisongs.blogspot.com/2019/07/how-to-teach-critical-thinking-skills.html
 
-### Sujet 4 - Construction de la ville
+### Sujet 4 : Construction de la ville
 
 Voir les jeux [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur) et [Ferme en ville](/ressources/unplugged/ferme-en-ville).
 
