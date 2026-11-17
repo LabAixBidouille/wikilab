@@ -299,7 +299,7 @@ screen.show()
 ### Pour comprendre
 
 - **[Thérémine (Wikipédia)](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine)** : histoire de l'instrument, inventé en 1928 par Léon Thérémine, premier instrument joué sans contact physique. Comment fonctionnent ses deux antennes capacitives et pourquoi il a fasciné les compositeurs de musique électronique.
-- **[Temps de vol (Wikipédia)](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_temps_de_vol)** : la physique derrière le VL53L1X. Comment on peut mesurer une distance avec la vitesse de la lumière, et où on trouve cette technologie : téléphones (autofocus, déverrouillage facial), voitures autonomes (LIDAR).
+- **[Temps de vol (Wikipédia)](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_temps_de_vol)** : la physique derrière le VL53L1X. Comment on peut mesurer une distance avec la vitesse de la lumière, et pourquoi on retrouve aujourd'hui cette technologie dans les téléphones (autofocus, déverrouillage facial) et les voitures autonomes (LIDAR).
 - **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsion)** : pourquoi un signal numérique qui ne sait dire que 0 ou 3,3 V peut produire un son audible, contrôler la vitesse d'un moteur ou faire varier la luminosité d'une LED.
 
 ### Pour s'inspirer

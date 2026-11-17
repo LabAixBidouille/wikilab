@@ -36,7 +36,7 @@ sidebar_position: 9
 
 ## De quoi parle-t-on ?
 
-Quand tu inclines ton téléphone, l'écran bascule du mode portrait au mode paysage. Quand tu secoues une manette de Wii, le personnage du jeu réagit. Quand un airbag se déclenche dans une voiture, c'est parce qu'un minuscule composant a détecté le choc en une fraction de seconde. Ces trois objets fonctionnent grâce au même composant : un [**accéléromètre**](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre).
+Quand tu inclines ton téléphone, l'écran bascule du mode portrait au mode paysage. Quand tu secoues une manette de Wii, le personnage du jeu réagit. Quand un airbag se déclenche dans une voiture, c'est parce qu'un minuscule composant a détecté le choc en une fraction de seconde. Ces trois réactions reposent sur le même composant : un [**accéléromètre**](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre).
 
 Un accéléromètre est un capteur qui mesure les **forces** qui agissent sur lui : un coup, une secousse, une chute, mais aussi, en permanence, la **force de gravité** qui tire tout vers le bas. Quand on tient un téléphone droit, la gravité « appuie » sur le côté du bas ; quand on l'incline, elle appuie sur un autre côté. C'est exactement ainsi que le téléphone sait dans quel sens il est tenu.
 

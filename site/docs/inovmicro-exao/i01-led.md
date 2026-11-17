@@ -143,7 +143,7 @@ Une fois le clignotement maîtrisé, une bonne piste pour aller plus loin est de
 
 - **[Diode électroluminescente (Wikipedia)](https://fr.wikipedia.org/wiki/Diode_%C3%A9lectroluminescente)** : histoire des LED, principes physiques qui les sous-tendent, typologies et couleurs.
 - **[Courant et tension, bases de l'électricité](https://www.codrey.com/dc-circuits/current-and-voltage/)** : tutoriel à destination des débutants en électronique pour explorer le courant, la tension, leur différence et leur fonctionnement (en anglais).
-- **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur.
+- **[Shuji Nakamura, l'inventeur de la LED bleue](https://fr.wikipedia.org/wiki/Shuji_Nakamura)** : prix Nobel de physique 2014. Sans sa LED bleue (résultat de 25 ans de recherche), pas d'éclairage LED blanc, pas d'écrans pleine couleur. Il a persévéré malgré des décennies d'échecs annoncés.
 
 ### Pour s'inspirer
 
