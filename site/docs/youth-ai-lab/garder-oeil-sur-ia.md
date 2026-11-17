@@ -46,7 +46,7 @@ sidebar_position: 3
 
 - La **présence réelle de l'intelligence artificielle** dans l'environnement urbain
 - La différence entre **simple automatisation** et **systèmes d'intelligence artificielle**
-- Les concepts fondamentaux du fonctionnement de l'IA : collecte de données, apprentissage à partir d'exemples (apprentissage automatique), prise de décision et prédiction
+- Les bases du fonctionnement de l'IA : collecte de données, apprentissage à partir d'exemples (apprentissage automatique), prise de décision et prédiction
 
 ---
 
@@ -64,7 +64,7 @@ Explication non technique de ce que signifie l'intelligence artificielle :
 
 <img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI.png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
-**Approche de facilitation suggérée** : Avant de fournir une explication non technique de l'intelligence artificielle, l'animateur·rice est encouragé·e à impliquer activement les participant·es en leur demandant de partager leurs propres idées et perceptions. On peut poser des questions telles que :
+**Approche de facilitation suggérée** : Avant de donner cette explication non technique, l'animateur·rice est invité·e à demander aux participant·es de partager leurs propres idées et perceptions de l'intelligence artificielle, par exemple avec ces questions :
 
 - Que pensez-vous qu'est l'intelligence artificielle ?
 - Où avez-vous entendu parler de l'IA auparavant ?
@@ -76,7 +76,7 @@ L'animateur·rice recueille et discute brièvement les réponses des participant
 - Valoriser les connaissances préalables des participant·es
 - Créer un point de départ commun pour l'activité
 
-**Clarification fondamentale : Tout ce qui est automatique n'est pas de l'intelligence artificielle.**
+**Tout ce qui est automatique n'est pas de l'intelligence artificielle.**
 
 <img src="/img/ressources/youth-ai-lab/garder-oeil-sur-ia/YouthAiLab_Explorations_Ideation_Sheet_KeepEyeAI-1.png" alt="Fiche idéation - Garder un œil sur l'IA" style={{width: '50%', display: 'block', marginLeft: 0, marginRight: 'auto'}} />
 
@@ -125,18 +125,17 @@ Les participant·es doivent :
     - Reconnaître l'IA dans la vie quotidienne
     - Expliquer les systèmes d'IA en termes simples
     - Distinguer l'IA de la simple automatisation
-- Prise de conscience accrue de l'IA comme composante de la vie urbaine quotidienne
-- Premiers pas vers une **citoyenneté numérique active**
+- Premiers pas vers une citoyenneté numérique active
 
 ---
 
 ## L'accroche et le côté ludique
 
 - Les participant·es jouent les **« détectives de l'IA »**
-- La ville devient un laboratoire
+- L'enquête porte sur les objets et systèmes de leur ville
 - Effet de surprise : découvrir à quel point l'IA nous entoure déjà
 - Travail en groupe et confrontation des interprétations
-- Rendre l'invisible visible
+- Repérer l'IA là où on ne la remarque pas
 
 ---
 
@@ -147,12 +146,9 @@ Les participant·es peuvent :
 - Identifier correctement des exemples de systèmes IA et non-IA
 - Utiliser des concepts clés tels que *données*, *apprentissage*, *décision*
 - Justifier leurs réponses (« pourquoi c'est de l'IA / pourquoi ça n'en est pas »)
-
-Amélioration de la qualité et de la clarté des fiches d'observation.
-
-Participation active lors de la discussion finale.
-
-Capacité à reformuler le message clé de l'atelier : **« L'intelligence artificielle n'est pas quelque chose de futuriste. Le vrai défi n'est pas de savoir si elle existe, mais si nous pouvons la reconnaître, la comprendre et la gouverner. »**
+- Améliorer la qualité et la clarté de leurs fiches d'observation
+- Participer activement à la discussion finale
+- Reformuler le message clé de l'atelier : **« L'intelligence artificielle n'est pas quelque chose de futuriste. Le vrai défi n'est pas de savoir si elle existe, mais si nous pouvons la reconnaître, la comprendre et la gouverner. »**
 
 ---
 

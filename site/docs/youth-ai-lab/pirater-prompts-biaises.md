@@ -107,24 +107,24 @@ Les groupes retournent aux ordinateurs et saisissent leur consigne **exactement 
 ## Productions attendues
 
 - Une **galerie physique d'affiches de « prompts piratés »**, qui montre l'anatomie d'une bonne consigne à une IA
-- Une compréhension **vécue** de la façon dont des stéréotypes humains deviennent des biais de machine
-- La capacité à **concevoir une consigne hors ligne, avec soin**, en passant du statut d'utilisateur passif à celui de concepteur actif de consignes
+- Une compréhension vécue de la façon dont des stéréotypes humains deviennent des biais de machine
+- La capacité à **concevoir une consigne hors ligne**, avec soin, et à passer du statut d'utilisateur passif à celui de concepteur actif de consignes
 
 ---
 
 ## L'accroche et le côté ludique
 
 - **Un jeu physique** : la partie de balle du « modèle de langage humain » est rapide et drôle
-- **Le moment de bascule**, quand le groupe réalise pendant le jeu qu'il est lui-même la source du biais de l'IA
+- **Le moment de bascule**, quand le groupe se rend compte pendant le jeu qu'il est lui-même la source du biais de l'IA
 - **La collaboration en équipe** pendant la conception des prompts piratés
 
 ---
 
 ## Indicateurs de réussite
 
-- Les participant·es **prennent part activement** au jeu physique et savent expliquer pourquoi le groupe a spontanément produit des stéréotypes
-- Les prompts piratés affichés montrent une **pensée structurée**, et pas de simples questions
-- Le groupe **démontre effectivement** que sa consigne conçue sur papier a forcé l'IA à produire une réponse non biaisée lors du test final
+- Les participant·es prennent part activement au jeu physique et savent expliquer pourquoi le groupe a spontanément produit des stéréotypes
+- Les prompts piratés affichés montrent une pensée structurée, et pas de simples questions
+- Le groupe montre que sa consigne conçue sur papier a forcé l'IA à produire une réponse non biaisée lors du test final
 
 ---
 

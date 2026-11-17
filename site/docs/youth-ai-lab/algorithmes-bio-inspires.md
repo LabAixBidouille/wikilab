@@ -30,7 +30,7 @@ sidebar_position: 1
 - Grille 6×6 (version au sol avec du ruban adhésif)
 - Fiches de mémorisation (1 par participant·e)
 - Récompenses pour le renforcement (bonbons, jetons, pompons)
-- Robots Cubetto, Sphero Indi et robots basés sur micro:bit, cartes de missions et ordinateurs
+- Robots Cubetto, Sphero Indi et robots à base de micro:bit, cartes de missions et ordinateurs
 
 
 <PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_BioInspiredAlgorithms.pdf">Télécharger la fiche d'exploration</PdfLink>
@@ -59,14 +59,14 @@ sidebar_position: 1
 
 ## Déroulé de l'exploration
 
-Cette activité révèle comment les humains et les machines apprennent par essais et erreurs. En jouant le rôle d'un algorithme d'apprentissage, les participant·es découvrent l'apprentissage par renforcement (récompenses en cas de succès, pénalités en cas d'échec), un principe universel partagé par l'intelligence biologique et artificielle.
+Cette activité montre comment les humains et les machines apprennent par essais et erreurs. En jouant le rôle d'un algorithme d'apprentissage, les participant·es découvrent l'apprentissage par renforcement : une récompense en cas de succès, une pénalité en cas d'échec.
 
 ### Activité 1 : Incarner le robot (apprentissage par renforcement, débranché)
 
 Les participant·es explorent une grille 6×6 pour trouver un objectif caché. Ils ne savent pas où se trouvent les obstacles ni où se situe l'objectif. En se déplaçant d'une case à la fois, le groupe décide collectivement de chaque mouvement. Après chaque mouvement, l'animateur·rice répond uniquement :
 
 - **JUSTE** (récompense : +1 jeton)
-- **FAUX** (pénalité : perdre TOUS les jetons, recommencer depuis le début)
+- **FAUX** (pénalité : perdre tous les jetons, recommencer depuis le début)
 
 Chaque participant·e remplit sa propre fiche de mémorisation pour enregistrer ses découvertes. Après plusieurs tentatives, ils trouvent le chemin et conservent leur fiche pour la suite.
 
@@ -88,9 +88,9 @@ Les missions vont du simple (avancer) au complexe (séquences, virages).
 
 ### Activité 3 : Transférer les connaissances (programmer le chemin)
 
-En utilisant **UNIQUEMENT** leur fiche de mémorisation de l'Activité 1 et les connaissances acquises dans l'Activité 2, les participant·es doivent programmer leur robot pour suivre le chemin qu'ils ont découvert. Ils ne peuvent pas regarder la grille avant de programmer.
+En utilisant **uniquement** leur fiche de mémorisation de l'Activité 1 et les connaissances acquises dans l'Activité 2, les participant·es doivent programmer leur robot pour suivre le chemin qu'ils ont découvert. Ils ne peuvent pas regarder la grille avant de programmer.
 
-Cela révèle la qualité de leur modèle mental : des notes claires rendent la programmation facile, des notes confuses causent des difficultés. **Le robot doit compléter le chemin de manière autonome.**
+Cela révèle la qualité de leur modèle mental : des notes claires rendent la programmation facile, des notes confuses causent des difficultés. **Le robot doit parcourir tout le chemin seul.**
 
 ---
 
@@ -104,15 +104,15 @@ Pour conclure, leur faire observer comment l'IA fait le même travail en utilisa
 
 ## L'accroche et le côté ludique
 
-Les participant·es **incarnent physiquement l'algorithme** : ils SONT le robot explorant un territoire inconnu. Le système de renforcement crée de l'excitation. Programmer de vrais robots qui bougent donne vie aux concepts abstraits.
+Les participant·es incarnent physiquement l'algorithme : ils sont le robot qui explore un territoire inconnu. Les jetons tiennent le groupe en haleine, puisque chaque bon pas en rapporte un et que la moindre erreur les fait tous perdre. Programmer de vrais robots qui bougent rend concrètes les notions abstraites : le robot parcourt le chemin noté sur la fiche de mémorisation.
 
 ---
 
 ## Indicateurs de réussite
 
-- Les participant·es peuvent expliquer l'**apprentissage par renforcement** avec leurs propres mots.
-- Ils comprennent les bases d'un **modèle**.
-- Ils programment différents robots en utilisant uniquement ce qu'ils ont appris pour **découvrir de manière autonome** un environnement donné.
+- Les participant·es peuvent expliquer l'apprentissage par renforcement avec leurs propres mots.
+- Ils comprennent les bases d'un modèle.
+- Ils programment différents robots en utilisant uniquement ce qu'ils ont appris pour découvrir de manière autonome un environnement donné.
 
 ---
 

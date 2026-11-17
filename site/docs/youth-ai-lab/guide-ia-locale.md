@@ -51,7 +51,7 @@ Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rice
 
 ## À quoi sert ce guide
 
-Dans le guide Open WebUI, chaque question du groupe part chez une entreprise d'IA, payée avec une clé d'accès (une clé d'API). Ici, le **modèle**, c'est-à-dire le programme d'IA qui écrit les réponses, tourne sur un ordinateur de la structure. **Les questions du groupe restent sur cet ordinateur**, sans clé à acheter et sans coût par question.
+Dans le guide Open WebUI, chaque question du groupe part chez une entreprise d'IA, payée avec une clé d'accès (une clé d'API). Ici, le **modèle**, c'est-à-dire le programme d'IA qui écrit les réponses, tourne sur un ordinateur de la structure. Les questions du groupe restent sur cet ordinateur, sans clé à acheter et sans coût par question.
 
 On installe deux logiciels gratuits sur cet ordinateur : **Ollama**, qui fait tourner le modèle, et **Open WebUI**, l'outil de chatbot du guide Open WebUI. Les participant·es s'en servent ensuite depuis leur téléphone, sur le Wi-Fi de la structure.
 
@@ -232,7 +232,7 @@ Un jeton est un morceau de texte tiré de la liste fixe du modèle. Imaginez une
 
 ![De vraies découpes de texte en tuiles de couleur : une phrase en anglais en 8 jetons, une phrase en français en 17, une ligne avec des nombres en 18 et le nom Feurisson en 3, avec une petite marque pour l'espace qui appartient à un jeton.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-tokens.svg)
 
-Les mots courts et courants font un jeton. Les mots rares et les noms se cassent en morceaux, comme Feurisson. Beaucoup de mots de tous les jours se cassent aussi dans les langues autres que l'anglais, comme « forêt ». Dans ce modèle, chaque chiffre est un jeton. On lit parfois qu'un jeton fait environ 4 caractères : c'est une estimation d'OpenAI pour l'anglais, pas une règle pour tout texte. Sur une même phrase, nous avons mesuré 5,0 caractères par jeton en anglais et 3,71 en français.
+Les mots courts et courants font un jeton. Les mots rares et les noms se cassent en morceaux, comme Feurisson. Beaucoup de mots de tous les jours se cassent aussi dans les langues autres que l'anglais, comme « forêt ». Dans ce modèle, chaque chiffre est un jeton. On lit parfois qu'un jeton fait environ 4 caractères : c'est une estimation d'OpenAI pour l'anglais, pas une règle pour tout texte. Sur une même phrase, le guide a mesuré 5,0 caractères par jeton en anglais et 3,71 en français.
 
 Les jetons comptent à trois endroits. Tout ce que le modèle lit et écrit doit tenir dans un nombre fixe de jetons, la fenêtre de contexte. Le modèle écrit un jeton à la fois : ici 34,9 jetons par seconde sur un essai court, donc environ 9 secondes pour 300 jetons, après l'attente du premier mot. Et les entreprises qui vendent un modèle en ligne comptent les jetons pour fixer le prix : sur son propre ordinateur, il n'y a pas de coût par question.
 
@@ -263,7 +263,7 @@ Quand le modèle répond, ses paramètres ne changent pas : il n'apprend rien de
 
 Les trois étapes ci-dessus ont un nom : un **Transformer**. L'idée vient d'un article de 2017, [Attention Is All You Need](https://arxiv.org/abs/1706.03762), qui décrit un modèle construit autour de l'attention, d'abord conçu pour traduire des textes. Les modèles de langue gardent la partie qui écrit, celle qui ne regarde qu'en arrière. Qwen2.5 est un Transformer, comme les autres modèles de ce guide, et le T de GPT, dans ChatGPT, désigne la même chose.
 
-Le principe tient en une phrase : pour trouver son sens, chaque jeton interroge les jetons qui le précèdent et prend surtout à ceux qui répondent le mieux. Les modèles plus anciens lisaient un texte mot après mot en transportant un résumé, si bien que le début d'un long texte pouvait s'effacer. Un Transformer permet à un jeton de regarder directement n'importe quel jeton précédent, proche ou lointain. Tous les jetons d'un texte peuvent aussi être calculés en même temps, ce qui convient à une carte graphique.
+Pour trouver son sens, chaque jeton interroge les jetons qui le précèdent et prend surtout à ceux qui répondent le mieux. Les modèles plus anciens lisaient un texte mot après mot en transportant un résumé, si bien que le début d'un long texte pouvait s'effacer. Un Transformer permet à un jeton de regarder directement n'importe quel jeton précédent, proche ou lointain. Tous les jetons d'un texte peuvent aussi être calculés en même temps, ce qui convient à une carte graphique.
 
 Dans chaque couche, chaque jeton fabrique trois listes de nombres à partir de ses propres nombres, avec les paramètres de cette couche :
 
@@ -294,7 +294,7 @@ Le reste du modèle s'organise autour de ce calcul :
 <details>
 <summary>La formule, pour qui la veut</summary>
 
-L'[article](https://arxiv.org/abs/1706.03762) divise chaque score par la racine carrée de $d$, le nombre de nombres d'une étiquette, pour que les longues listes ne donnent pas des scores énormes. Notre calcul à la main laisse cette étape de côté pour rester court. Avec $q$ la question d'un jeton, $k_j$ l'étiquette du jeton $j$, $v_j$ son contenu, $s_j$ son score et $a_j$ sa part :
+L'[article](https://arxiv.org/abs/1706.03762) divise chaque score par la racine carrée de $d$, le nombre de nombres d'une étiquette, pour que les longues listes ne donnent pas des scores énormes. Le calcul à la main laisse cette étape de côté pour rester court. Avec $q$ la question d'un jeton, $k_j$ l'étiquette du jeton $j$, $v_j$ son contenu, $s_j$ son score et $a_j$ sa part :
 
 $$
 s_j = \frac{q \cdot k_j}{\sqrt{d}}
@@ -324,21 +324,21 @@ Les premières étapes avaient de vrais choix : avec un tirage, la réponse aura
 
 ### La fenêtre de contexte
 
-La **fenêtre** est le nombre de jetons que le modèle peut tenir pour une réponse : les instructions, les passages des documents, la conversation et la réponse elle-même. Le fichier de ce modèle permet jusqu'à 32 768 jetons. Le réglage par défaut d'Ollama est de 4096 sur notre ordinateur, et la partie 4 règle **num_ctx (Ollama)** sur 8192.
+La **fenêtre** est le nombre de jetons que le modèle peut tenir pour une réponse : les instructions, les passages des documents, la conversation et la réponse elle-même. Le fichier de ce modèle permet jusqu'à 32 768 jetons. Le réglage par défaut d'Ollama est de 4096 sur l'ordinateur du guide, et la partie 4 règle **num_ctx (Ollama)** sur 8192.
 
-Nous avons fabriqué un texte de 4 122 jetons, avec un mot de code au début (TULIP), un au milieu (OTTER) et un à la fin (MAPLE), puis demandé chacun dans un essai séparé :
+Le guide a fabriqué un texte de 4 122 jetons, avec un mot de code au début (TULIP), un au milieu (OTTER) et un à la fin (MAPLE), puis demandé chacun dans un essai séparé :
 
 ![Deux barres pour le même texte de 4 122 jetons, à l'échelle sauf les 4 premiers jetons, dessinés plus larges : avec une fenêtre de 8192, tout est gardé et TULIP, OTTER et MAPLE sont trouvés ; avec 2048, seuls les 4 premiers et les 1 022 derniers jetons restent, 1 026 en tout, 3 096 sont hachurés, et seul MAPLE est trouvé.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-window.svg)
 
-Regardez la seconde barre. Le texte ne tenait pas, et Ollama l'a coupé à 1 026 jetons, environ la moitié de la fenêtre, et non à 2 048. Il y avait 2 074 jetons de trop, et 3 096 sont partis. Aucune erreur n'est apparue et le modèle a quand même répondu : interrogé sur TULIP et OTTER, il a écrit des nombres faux. Nous avons utilisé 2048 seulement pour montrer la coupe. D'après le programme d'Ollama, une fenêtre de 8192 ferait de même avec un texte plus long et garderait 4 098 jetons.
+Regardez la seconde barre. Le texte ne tenait pas, et Ollama l'a coupé à 1 026 jetons, environ la moitié de la fenêtre, et non à 2 048. Il y avait 2 074 jetons de trop, et 3 096 sont partis. Aucune erreur n'est apparue et le modèle a quand même répondu : interrogé sur TULIP et OTTER, il a écrit des nombres faux. Le guide a utilisé 2048 seulement pour montrer la coupe. D'après le programme d'Ollama, une fenêtre de 8192 ferait de même avec un texte plus long et garderait 4 098 jetons.
 
 ### La température
 
-La **température** décide à quel point le tirage suit les probabilités. Basse, le jeton en tête a presque tous les tickets. Haute, les jetons rares en reçoivent plus. La température 1 ne change rien, et la température 0 supprime le tirage. Nous avons tiré 50 fois le premier jeton après « The capital of France is » (la capitale de la France est), à chaque température, avec **Top K** à 100 et **Top P** à 1 :
+La **température** décide à quel point le tirage suit les probabilités. Basse, le jeton en tête a presque tous les tickets. Haute, les jetons rares en reçoivent plus. La température 1 ne change rien, et la température 0 supprime le tirage. Le guide a tiré 50 fois le premier jeton après « The capital of France is » (la capitale de la France est), à chaque température, avec **Top K** à 100 et **Top P** à 1 :
 
 ![Quatre panneaux de 50 points, un par tirage du premier jeton après « The capital of France is » : Paris est tiré 50, 50, 38 et 16 fois aux températures 0 ; 0,2 ; 0,8 et 1,5.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-temperature.svg)
 
-Les autres jetons tirés étaient des blancs ou des mots qui commencent une autre phrase, pas de mauvaises villes. Laisser ces réglages sur **Default** (température 0,8, **Top K** 40, **Top P** 0,9 avec Ollama) : les notes du guide ont été mesurées ainsi. La température ne rend pas un chatbot plus juste : elle change le tirage, ni ce que le modèle sait, ni ce que disent les documents.
+Les autres jetons tirés étaient des blancs ou des mots qui commencent une autre phrase, pas de mauvaises villes. Laisser ces réglages sur **Default** (température 0,8, **Top K** 40, **Top P** 0,9 avec Ollama) : les notes du guide ont été mesurées ainsi. La température ne rend pas un chatbot plus juste : elle change le tirage, pas ce que le modèle sait ni ce que disent les documents.
 
 :::info[Ce qu'on peut dire à un groupe]
 
@@ -365,7 +365,7 @@ Les autres jetons tirés étaient des blancs ou des mots qui commencent une autr
 
 **Effacer les données.** Pour un·e participant·e qui le demande, suivre le guide Open WebUI. En fin de projet, garder d'abord ses instructions et ses documents, puis suivre la page de suppression de son système. Les fichiers effacés ne sont pas écrasés : avec des outils de récupération, on peut encore en lire des morceaux, et les sauvegardes de l'ordinateur peuvent en garder des copies. Sur un Raspberry Pi, ne pas donner une carte qui a contenu les données d'un groupe : la garder en lieu sûr, ou la détruire.
 
-**Avant tout usage avec des jeunes, la structure décide** : si un chatbot convient à ce groupe, qui informe les participant·es et leurs parents, combien de temps les données sont gardées. Le guide renvoie au guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) pour les règles à vérifier : analyse d'impact sur la protection des données, règle du consentement, obligation de dire que l'on parle à une IA (RGPD, règlement européen sur l'IA). Ses premiers points (un compte avec une clé, un contrat avec l'entreprise qui fait tourner le modèle) concernent un modèle payé à la question ; avec un modèle local, ce sont les règles de la structure pour ses ordinateurs et ses données qui s'appliquent. Un modèle local change qui reçoit les questions, sans rien changer à ce qu'elles contiennent. Le dossier `templates/` du guide contient une notice pour les participant·es, qui dit que les questions restent sur l'ordinateur de la structure, que le chatbot ne peut prévenir personne et que personne ne lit les messages en direct : les personnes qu'elle nomme peuvent les lire plus tard, mais elle demande de ne pas compter dessus. Elle donne aussi un contact, à remplir, qui n'est pas l'animateur·rice du groupe. Si quelqu'un de la structure lit les messages pendant les séances, changer dans la notice la phrase sur la lecture en direct pour qu'elle reste vraie.
+**Avant tout usage avec des jeunes, la structure décide** : si un chatbot convient à ce groupe, qui informe les participant·es et leurs parents, combien de temps les données sont gardées. Le guide renvoie au guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) pour les règles à vérifier : analyse d'impact sur la protection des données, règle du consentement, obligation de dire que l'on parle à une IA (RGPD, règlement européen sur l'IA). Ses premiers points (un compte avec une clé, un contrat avec l'entreprise qui fait tourner le modèle) concernent un modèle payé à la question ; avec un modèle local, ce sont les règles de la structure pour ses ordinateurs et ses données qui s'appliquent. Un modèle local change qui reçoit les questions, mais pas ce qu'elles contiennent. Le dossier `templates/` du guide contient une notice pour les participant·es, qui dit que les questions restent sur l'ordinateur de la structure, que le chatbot ne peut prévenir personne et que personne ne lit les messages en direct : les personnes qu'elle nomme peuvent les lire plus tard, mais elle demande de ne pas compter dessus. Elle donne aussi un contact, à remplir, qui n'est pas l'animateur·rice du groupe. Si quelqu'un de la structure lit les messages pendant les séances, changer dans la notice la phrase sur la lecture en direct pour qu'elle reste vraie.
 
 ---
 

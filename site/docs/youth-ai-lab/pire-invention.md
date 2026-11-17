@@ -28,8 +28,8 @@ sidebar_position: 6
 - 1 ordinateur avec accès internet **par groupe**
 - Feuilles de papier et stylos pour les notes et croquis
 - Vidéoprojecteur ou TV pour les moments collectifs et les présentations finales
-- Accès à un outil d'**IA conversationnelle** (ChatGPT, Gemini, Mistral...)
-- Accès à un **générateur d'images** (DALL·E, Stable Diffusion, Canva AI...)
+- Accès à un outil d'IA conversationnelle (ChatGPT, Gemini, Mistral...)
+- Accès à un générateur d'images (DALL·E, Stable Diffusion, Canva AI...)
 - Fiches d'idéation et exemples de prompts
 
 <PdfLink href="/pdf/youth-ai-lab/YouthAiLab_Explorations_Ideation_Sheet_TheStupidInvention.pdf">Télécharger la fiche d'exploration</PdfLink>
@@ -45,11 +45,11 @@ sidebar_position: 6
 
 ## Thèmes d'exploration
 
-- **IA générative** pour la création d'idées, de textes et d'images
-- Comment l'IA peut créer du contenu **fictif mais convaincant**
-- **Publicité, marketing et persuasion**
-- **Crédibilité** des textes et visuels générés par IA
-- Différence entre **usage créatif** et **usage critique** de l'IA
+- IA générative pour la création d'idées, de textes et d'images
+- Comment l'IA peut créer du contenu fictif mais convaincant
+- Publicité, marketing et persuasion
+- Crédibilité des textes et visuels générés par IA
+- Différence entre usage créatif et usage critique de l'IA
 
 ---
 
@@ -59,7 +59,7 @@ sidebar_position: 6
 
 **Question clé** : *Comment reconnaître un contenu généré par IA d'un produit réel ?*
 
-L'activité débute par un court jeu où les participant·es devinent si des produits étranges sont réels ou générés par IA. Ce brise-glace introduit le thème de la **crédibilité** et de la **persuasion**.
+L'activité débute par un court jeu où les participant·es devinent si des produits étranges sont réels ou générés par IA. Ce brise-glace introduit le thème de la crédibilité et de la persuasion.
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem', margin: '0.25rem 0'}}>
   <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/2.png" alt="Jeu Réel ou IA - exemple 1" style={{width: '100%', height: 'auto', margin: 0}} />
@@ -68,15 +68,15 @@ L'activité débute par un court jeu où les participant·es devinent si des pro
   <img src="/img/ressources/youth-ai-lab/pire-invention/jeuintrostep1/8.png" alt="Jeu Réel ou IA - exemple 4" style={{width: '100%', height: 'auto', margin: 0}} />
 </div>
 
-Ensuite, en petits groupes, les participant·es imaginent **la pire invention possible** : quelque chose d'absurde, inutile et drôle, mais présenté comme sérieux. Ils complètent une fiche d'idéation avec :
+Ensuite, en petits groupes, les participant·es imaginent la pire invention possible : quelque chose d'absurde, inutile et drôle, mais présenté comme sérieux. Ils complètent une fiche d'idéation avec :
 
-- Le **problème étrange ou inutile** qu'ils veulent résoudre
-- À **qui** cela pourrait (potentiellement) servir
-- Le **nom accrocheur** de l'invention
-- **Comment elle fonctionne** (avec un croquis)
-- Les **caractéristiques produit** (« le produit doit... »)
+- Le problème étrange ou inutile qu'ils veulent résoudre
+- À qui cela pourrait (potentiellement) servir
+- Le nom accrocheur de l'invention
+- Comment elle fonctionne (avec un croquis)
+- Les caractéristiques produit (« le produit doit... »)
 
-Pour finir, les groupes utilisent une **IA conversationnelle** pour améliorer leur concept et rédiger une première description produit.
+Pour finir, les groupes utilisent une IA conversationnelle pour améliorer leur concept et rédiger une première description produit.
 
 ---
 
@@ -84,18 +84,18 @@ Pour finir, les groupes utilisent une **IA conversationnelle** pour améliorer l
 
 **Question clé** : *Qu'est-ce qui rend un contenu IA crédible ou suspect ?*
 
-Les groupes utilisent les outils d'IA pour créer du **contenu promotionnel** pour leur invention :
+Les groupes utilisent les outils d'IA pour créer du contenu promotionnel pour leur invention :
 
 - Images et visuels produit
 - Affiches publicitaires
 - Faux articles de presse
 - Pseudo-explications scientifiques
 
-L'objectif est de rendre une idée absurde **crédible**. Les groupes analysent ensuite leurs propres productions et celles des autres équipes, et discutent collectivement :
+L'objectif est de rendre une idée absurde crédible. Les groupes analysent ensuite leurs propres productions et celles des autres équipes, et discutent collectivement :
 
-- Qu'est-ce qui rend un contenu **convaincant** ?
-- Qu'est-ce qui semble **suspect** ?
-- Comment l'IA peut créer des informations **réalistes mais fausses** ?
+- Qu'est-ce qui rend un contenu convaincant ?
+- Qu'est-ce qui semble suspect ?
+- Comment l'IA peut créer des informations réalistes mais fausses ?
 
 **Exemples de visuels publicitaires et de prototype** générés pendant nos séances !
 
@@ -154,18 +154,18 @@ Les groupes tentent de **défendre et « vendre »** leur produit. À la fin, le
 
 ## Productions attendues
 
-- Une **invention absurde** avec un nom, une description et des visuels générés par IA
-- Du **contenu promotionnel** simple (affiches, faux article, captures de site web)
-- Un **pitch final** présenté devant un jury
-- Une **meilleure compréhension** de la façon dont l'IA peut créer du contenu convaincant et être utilisée pour influencer l'opinion
+- Une invention absurde avec un nom, une description et des visuels générés par IA
+- Du contenu promotionnel simple (affiches, faux article, captures de site web)
+- Un pitch final présenté devant un jury
+- Une meilleure compréhension de la façon dont l'IA peut créer du contenu convaincant et être utilisée pour influencer l'opinion
 
 ---
 
 ## L'accroche et le côté ludique
 
-- **Inventer une très mauvaise idée** et essayer de la vendre sérieusement
-- Utiliser l'**IA pour créer du contenu drôle et surprenant** (visuels absurdes, pseudo-experts, témoignages clients fictifs)
-- Le **pitch final** transforme l'exploration en jeu de rôle ludique avec un jury qui challenge
+- Inventer une très mauvaise idée et essayer de la vendre sérieusement
+- Utiliser l'IA pour créer du contenu drôle et surprenant (visuels absurdes, pseudo-experts, témoignages clients fictifs)
+- Le pitch final transforme l'exploration en jeu de rôle ludique, avec un jury qui met en doute les arguments
 
 ---
 

@@ -71,7 +71,7 @@ Chaque groupe entraîne un classifieur sur une caractéristique visible :
 - avec ou sans lunettes
 - main ouverte ou poing fermé
 
-Les résultats d'entraînement et de test sont consignés sur la fiche de relevé. Le groupe identifie ce que le modèle **réussit**, ce qu'il **confond** et ce sur quoi il **échoue**. Il introduit ensuite des cas limites pour trouver le point de rupture :
+Les résultats d'entraînement et de test sont consignés sur la fiche de relevé. Le groupe identifie ce que le modèle réussit, ce qu'il confond et ce sur quoi il échoue. Il introduit ensuite des cas limites pour trouver le point de rupture :
 
 - lumière insuffisante
 - angle différent
@@ -93,7 +93,7 @@ Discussion éthique courte, qui relie la fiabilité observée à des cas réels 
 - reconnaissance d'images entraînée sur un groupe de personnes trop étroit
 - systèmes de tri automatique de candidatures
 
-La discussion est menée avec précaution, de manière à ce qu'aucun jeune ne se retrouve exposé personnellement.
+Mener la discussion avec précaution, pour qu'aucun jeune ne se retrouve exposé personnellement.
 
 ---
 
@@ -125,7 +125,7 @@ Chaque groupe choisit un problème social de son environnement immédiat :
 - arroser un jardin
 - signaler une poubelle pleine
 
-Il esquisse ensuite **ce que le modèle devrait reconnaître** et **quel risque ou quelle limite** il pourrait présenter.
+Il esquisse ensuite ce que le modèle devrait reconnaître et quel risque ou quelle limite il pourrait présenter.
 
 ---
 
@@ -133,19 +133,19 @@ Il esquisse ensuite **ce que le modèle devrait reconnaître** et **quel risque 
 
 Chaque groupe repart avec :
 
-- un modèle **entraîné et mis à l'épreuve**, avec ses relevés
-- l'identification de ce qui **influence sa performance**
-- l'expérience d'un **perceptron physique** manipulé de bout en bout
-- une proposition de **tâche d'IA socialement utile**, reliée à un Objectif de développement durable, avec ses besoins en données et au moins une limite
+- un modèle entraîné et mis à l'épreuve, avec ses relevés
+- l'identification de ce qui influence sa performance
+- l'expérience d'un perceptron physique manipulé de bout en bout
+- une proposition de tâche d'IA socialement utile, reliée à un Objectif de développement durable, avec ses besoins en données et au moins une limite
 - une carte de clôture rassemblant une idée, une preuve et une question
 
 ---
 
 ## L'accroche et le côté ludique
 
-- **Apprendre à une machine** puis chercher à la tromper avec des cas limites
-- **Faire fonctionner un neurone avec de l'eau**, et voir la décision se jouer au niveau du trait de seuil
-- Imaginer des applications locales utiles, en petite équipe de **conceptrices et concepteurs d'IA en mission sociale**
+- Apprendre à une machine puis chercher à la tromper avec des cas limites
+- Faire fonctionner un neurone avec de l'eau, et voir la décision se jouer au niveau du trait de seuil
+- Imaginer des applications locales utiles, en petite équipe de conceptrices et concepteurs d'IA en mission sociale
 
 ---
 
@@ -153,10 +153,10 @@ Chaque groupe repart avec :
 
 Les jeunes :
 
-- **entraînent, testent, relèvent et analysent** le modèle au lieu de se contenter de l'utiliser, en parlant de données, d'erreurs, de cas limites et de seuils
-- relient les erreurs à la **lumière, l'angle, l'arrière-plan ou le manque de variété** des données
-- expliquent **ce que représente chaque élément du perceptron**, et qu'une réponse dépend d'une combinaison d'entrées
-- proposent, par groupe, **une application reliée à un Objectif de développement durable**, avec au moins un besoin en données et une limite du modèle
+- entraînent, testent, relèvent et analysent le modèle au lieu de se contenter de l'utiliser, en parlant de données, d'erreurs, de cas limites et de seuils
+- relient les erreurs à la lumière, l'angle, l'arrière-plan ou le manque de variété des données
+- expliquent ce que représente chaque élément du perceptron, et qu'une réponse dépend d'une combinaison d'entrées
+- proposent, par groupe, une application reliée à un Objectif de développement durable, avec au moins un besoin en données et une limite du modèle
 
 ---
 
