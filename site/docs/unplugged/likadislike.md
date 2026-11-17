@@ -50,7 +50,7 @@ sidebar_position: 17
 
 ## De quoi parle-t-on ?
 
-Les joueurs piochent une carte décrivant une situation. Ensuite, chaque enfant exprime face cachée avec une carte emoji s'il aime, n'aime pas ou aime la situation décrite. Tous les joueurs retournent les cartes emoji en même temps et peuvent réagir sans jugement aux sentiments des autres.
+Les joueurs piochent une carte décrivant une situation. Ensuite, chaque enfant exprime face cachée avec une carte emoji s'il aime, n'aime pas ou adore la situation décrite. Tous les joueurs retournent les cartes emoji en même temps et peuvent réagir sans jugement aux sentiments des autres.
 
 ---
 

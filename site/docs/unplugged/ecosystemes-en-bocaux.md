@@ -63,7 +63,7 @@ Il importe que les enfants comprennent les liens entre toutes les formes de vie 
 
 ### Interaction entre les composants d'un écosystème
 
-Il existe des interactions à l'intérieur et entre les êtres biotiques et abiotiques. Les producteurs, les compositeurs et les décomposeurs sont des êtres biotiques et interagissent en échangeant de la nourriture et de l'énergie. Cependant, les organismes vivants ont également besoin de composants abiotiques tels que la lumière du soleil, l'eau, le sol, etc. pour grandir, se reproduire et survivre. Les composants abiotiques interagissent aussi entre eux. Par exemple, la lumière du soleil augmente la température de l'eau et donc son évaporation. Ce qui augmente l'humidité de l'atmosphère, et crée des précipitations. Il existe de nombreuses autres interactions.
+Il existe des interactions à l'intérieur et entre les êtres biotiques et abiotiques. Les producteurs, les consommateurs et les décomposeurs sont des êtres biotiques et interagissent en échangeant de la nourriture et de l'énergie. Cependant, les organismes vivants ont également besoin de composants abiotiques tels que la lumière du soleil, l'eau, le sol, etc. pour grandir, se reproduire et survivre. Les composants abiotiques interagissent aussi entre eux. Par exemple, la lumière du soleil augmente la température de l'eau et donc son évaporation. Ce qui augmente l'humidité de l'atmosphère, et crée des précipitations. Il existe de nombreuses autres interactions.
 
 ### Interactions homme-nature
 
