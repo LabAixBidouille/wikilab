@@ -103,7 +103,7 @@ Le premier objectif théâtral est l'improvisation : les élèves apprennent à 
 
 Vous pouvez réaliser cette sous-activité avec l'ensemble de la classe, en groupes de 2 à 3 élèves. La recherche scientifique encourage les élèves à développer leur esprit critique et leur curiosité. Pour commencer, vous pouvez demander aux élèves de réfléchir à un sujet scientifique qui les intéresse et qui peut être étudié en classe en lien avec le programme. L'objectif est qu'ils apprennent à rechercher de l'information, à l'organiser, à la restituer et à expliquer les résultats de leurs recherches. Ils devront présenter leur sujet devant leurs camarades sous la forme d'un exposé oral. Pour cela, ils peuvent faire des affiches synthétiques et claires, illustrées de photos ou de dessins qu'ils auront faits. Ces affiches pourront ensuite être exposées dans votre salle de classe ou dans les couloirs de l'école.
 
-En travaillant en groupe, les élèves apprennent à collaborer et à partager des idées. Avec le partage des connaissances au sein de la classe, l'ensemble des élèves apprend et échange autour de nombreux sujets scientifiques.
+En travaillant en groupe, les élèves apprennent à collaborer et à partager des idées. Avec le partage des connaissances au sein de la classe, l'ensemble des élèves apprend et échange autour de nombreux sujets scientifiques. Mener ces recherches leur donne aussi les compétences nécessaires pour devenir de futurs scientifiques et chercheurs.
 
 **Carnet de bord d'observations scientifiques**
 
@@ -165,13 +165,13 @@ Piles de cartes (Concepts scientifiques, Décors, Personnages, Contraintes) et u
 
 Cette deuxième activité combine les arts du spectacle, la magie et la science pour rendre les phénomènes scientifiques ludiques pour les élèves. Son objectif principal est que les élèves comprennent mieux des concepts scientifiques complexes en les présentant devant leurs camarades sous forme de sketch.
 
-Les élèves développent leur imagination et leur créativité en incarnant sur scène les rôles d'illusionnistes et de scientifiques. Ils doivent expliquer rationnellement des phénomènes scientifiques à travers leur performance sur scène. L'activité leur fait aussi travailler leurs capacités de communication, de collaboration et d'écoute. En présentant leurs sketchs, ils doivent surmonter leur peur de la scène et de l'exposition, ce qui les aide à prendre confiance en eux.
+L'activité permet aux élèves de développer leur imagination et leur créativité en incarnant sur scène les rôles d'illusionnistes et de scientifiques. Ils doivent expliquer rationnellement des phénomènes scientifiques à travers leur performance sur scène. L'activité leur fait aussi travailler leurs capacités de communication, de collaboration et d'écoute. En présentant leurs sketchs, ils doivent surmonter leur peur de la scène et de l'exposition, ce qui les aide à prendre confiance en eux.
 
 L'activité favorise aussi la curiosité scientifique des élèves : quand ils voient comment fonctionnent les phénomènes scientifiques, ils sont plus enclins à approfondir ces sujets et à découvrir comment la science influence leur vie quotidienne (phénomènes météorologiques, cuisine...).
 
 ### Objectifs pédagogiques
 
-Le premier objectif pédagogique est la compréhension des principes scientifiques : les élèves doivent comprendre les phénomènes scientifiques derrière les expériences qu'ils présentent. Cela peut renforcer leur compréhension globale de la science et améliorer leur capacité à interpréter des données scientifiques.
+Le premier objectif pédagogique est la compréhension des principes scientifiques : les élèves sont amenés à comprendre les phénomènes scientifiques derrière les expériences qu'ils présentent. Cela peut renforcer leur compréhension globale de la science et améliorer leur capacité à interpréter des données scientifiques.
 
 Les élèves font aussi une démonstration devant leurs camarades : ils analysent et expliquent ce qui se produit, et doivent le faire de manière simple, claire et efficace. Ils développent ainsi leurs compétences en communication orale devant un public, compétences qui sont essentielles pour leur avenir scolaire, personnel et professionnel. Le dernier objectif pédagogique est d'encourager la curiosité scientifique et la passion pour la science chez les élèves.
 
@@ -243,7 +243,7 @@ L'activité ajoute à la recherche sur des scientifiques célèbres une dimensio
 
 **1, 2, 3... Action !**
 
-Vous pouvez donner suite à l'activité principale en créant avec l'ensemble de la classe une pièce de théâtre sur la vie et les travaux des scientifiques, sous forme de projet annuel qui pourra être présenté à la fin de l'année scolaire. Ce travail stimule la créativité et l'imagination des élèves et les aide à mieux comprendre les concepts, les notions et l'histoire scientifiques. Il peut aussi renforcer leurs compétences en communication et en collaboration. Les élèves peuvent travailler en groupe pour rédiger la pièce, en prenant en compte les contributions de leur scientifique attribué et les événements clés de sa vie. Il est possible par exemple de suivre la chronologie des apports scientifiques jusqu'à aujourd'hui.
+Vous pouvez donner suite à l'activité principale en créant avec l'ensemble de la classe une pièce de théâtre sur la vie et les travaux des scientifiques, sous forme de projet annuel qui pourra être présenté à la fin de l'année scolaire. Ce travail stimule la créativité et l'imagination des élèves et les aide à mieux comprendre les concepts, les notions et l'histoire scientifiques. Il peut aussi renforcer leurs compétences en communication, en collaboration et en créativité, et les aider à apprécier l'histoire de la science. Les élèves peuvent travailler en groupe pour rédiger la pièce, en prenant en compte les contributions de leur scientifique attribué et les événements clés de sa vie. Il est possible par exemple de suivre la chronologie des apports scientifiques jusqu'à aujourd'hui.
 
 En jouant leur pièce devant leurs camarades de classe, les élèves peuvent offrir une représentation vivante de leurs scientifiques. Ils peuvent travailler ensemble pour créer des costumes et des décors, et pour coordonner les mouvements et les dialogues de la pièce.
 

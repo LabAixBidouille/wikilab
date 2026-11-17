@@ -154,7 +154,7 @@ Cette activité fait suite à la première, sur le mime et la symétrie. Les él
 
 ### Objectifs théâtraux
 
-Les élèves ont découvert le mime dans l'acte 1. Ils le renforcent et le réactualisent ici : ils jouent en silence, puisque ce genre théâtral est muet, s'expriment avec le corps et développent leur capacité d'analyse et de retranscription mentale et physique.
+Les élèves ont découvert le mime dans l'acte 1. Ils renforcent et réactualisent ici ce qu'ils en ont appris : ils jouent en silence, puisque ce genre théâtral est muet, s'expriment avec le corps et développent leur capacité d'analyse et de retranscription mentale et physique.
 
 ### Compétences développées
 
