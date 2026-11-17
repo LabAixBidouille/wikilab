@@ -75,7 +75,7 @@ Les servomoteurs sont commandés par l'intermédiaire d'un **câble électrique 
 
 ### 1. Connecter le servomoteur à la carte
 
-Il y a plusieurs façons de connecter un servomoteur à votre carte. Vous pouvez utiliser n'importe quelle broche de sortie analogique (broches PWM) pour connecter la broche de contrôle. Dans notre exemple, nous allons utiliser la broche **D4**. Le servomoteur sera connecté comme suit :
+La broche de contrôle du servomoteur peut se connecter à n'importe quelle broche de sortie analogique (broches PWM) de votre carte. Cet exemple utilise la broche **D4**. Le servomoteur sera connecté comme suit :
 
 - **Noir** pour GND
 - **Rouge** pour V+ (3V3)
@@ -99,7 +99,7 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 Avant d'essayer ce programme sur la carte, vous pouvez l'essayer directement dans le simulateur. Si vous changez les valeurs 0 et 180, vous verrez directement le résultat.
 
-Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre servomoteur commencera à bouger !
+Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton "Télécharger". Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter. Votre servomoteur commencera à bouger !
 
 <div style={{display: 'flex', gap: '1rem', margin: '1rem 0', maxWidth: '100%', overflow: 'hidden'}}>
 <img src="/img/ressources/lets-steam/r1as13-servomoteurs/servos.png" alt="Servomoteur" style={{width: '50%', objectFit: 'contain'}} />
@@ -134,17 +134,17 @@ forever(function () {
 
 Cet exemple est assez simple puisqu'il s'agit du classique clignotement adapté à un servomoteur.
 
-L'instruction principale est `pins.D4.servoWrite(XXX)`. Cette instruction demande au servomoteur de tourner jusqu'à un angle de XXX degrés (comme défini par vos besoins spécifiques en fonction du projet que vous développez).
+L'instruction principale est `pins.D4.servoWrite(XXX)`. Cette instruction demande au servomoteur de tourner jusqu'à un angle de XXX degrés, à choisir selon votre projet.
 
 Pour passer d'une position à l'autre, le servomoteur prend un certain temps. Il faut donc toujours ajouter un délai avant de commencer un autre mouvement.
 
-**Ce programme ne fait que balayer de gauche à droite sans s'arrêter !**
+Ce programme ne fait que balayer de gauche à droite sans s'arrêter !
 
 :::info[Servomoteur vs moteur à courant continu]
 
 Par rapport à un moteur à courant continu ordinaire, un servomoteur ne tourne que dans une certaine plage d'angles, alors qu'un moteur à courant continu ordinaire (CC) tourne sur un cercle complet.
 
-Un servomoteur ne peut pas tourner sur un cercle. Un moteur CC ordinaire ne peut pas fournir de retour sur l'angle de rotation, mais un servomoteur peut le faire. Leurs utilisations sont donc différentes.
+Un moteur CC ordinaire ne peut pas fournir de retour sur l'angle de rotation, mais un servomoteur peut le faire. Leurs utilisations sont donc différentes.
 
 Les moteurs CC ordinaires s'utilisent comme source d'énergie rotative, tandis que les servomoteurs s'utilisent pour donner un certain angle à un objet qu'ils contrôlent, comme faire bouger une articulation de robot.
 :::
@@ -153,22 +153,22 @@ Les moteurs CC ordinaires s'utilisent comme source d'énergie rotative, tandis q
 
 ## Étape 3 - Améliorer
 
-1. Essayez de **réduire autant que possible la valeur de la pause** pour supprimer tout arrêt dans le mouvement.
-2. Ajoutez des instructions pour **faire un arrêt court en position médiane**. Adaptez le délai de la pause pour être sûr que l'arrêt soit très court.
-3. Transformez ce programme pour **réaliser une minuterie avec un servomoteur**. À chaque pas, déplacez le servo de 3 degrés. Adaptez le délai de sorte que chaque étape prenne approximativement 1 s.
-4. **Démarrer le mouvement de balayage** uniquement lorsque le bouton USER a été enfoncé.
+1. Essayez de réduire autant que possible la valeur de la pause pour supprimer tout arrêt dans le mouvement.
+2. Ajoutez des instructions pour faire un arrêt court en position médiane. Adaptez le délai de la pause pour être sûr que l'arrêt soit très court.
+3. Transformez ce programme pour réaliser une minuterie avec un servomoteur. À chaque pas, déplacez le servo de 3 degrés. Adaptez le délai de sorte que chaque étape prenne approximativement 1 s.
+4. Démarrer le mouvement de balayage uniquement lorsque le bouton USER a été enfoncé.
 
 ---
 
 ## Aller plus loin
 
-- **Servomoteur** - Apprenez-en plus sur le mécanisme et le fonctionnement du servomoteur.
+- **Servomoteur** : apprenez-en plus sur le mécanisme et le fonctionnement du servomoteur.
   https://en.wikipedia.org/wiki/Servomotor
 
-- **Servomoteurs sur micro:bit** - Tout sur les servomoteurs et leur utilisation dans MakeCode avec Shawn Hymel.
+- **Servomoteurs sur micro:bit** : tout sur les servomoteurs et leur utilisation dans MakeCode avec Shawn Hymel.
   https://www.youtube.com/watch?v=okxooamdAP4&t=200s
 
-- **Bras robotique trieur de couleurs DIY** - Apprenez à fabriquer votre propre bras robotique de triage des couleurs à l'aide de capteurs ultrasoniques et IR.
+- **Bras robotique trieur de couleurs DIY** : apprenez à fabriquer votre propre bras robotique de triage des couleurs à l'aide de capteurs ultrasoniques et IR.
   https://thestempedia.com/project/diy-color-sorting-robotic-arm/
 
 ---

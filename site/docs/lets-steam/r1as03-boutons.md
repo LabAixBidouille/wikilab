@@ -30,7 +30,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## Matériel
 
-- 1 carte programmable "STM32 IoT Node Board"
+- 1 carte programmable « STM32 IoT Node Board »
 - 1 câble USB Micro-B
 - 2 boutons-poussoirs
 - 1 set de LED
@@ -55,7 +55,7 @@ Une version de cette activité portée sur la carte **STeaMi** en **MicroPython*
 
 ## De quoi parle-t-on ?
 
-Nous allons apprendre à interagir avec la carte en utilisant un simple bouton-poussoir. Il en existe de toutes les formes et de toutes les tailles, mais ils nécessitent tous l'interaction la plus simple : appuyer dessus !
+On apprend ici à interagir avec la carte à l'aide d'un simple bouton-poussoir. Il en existe de toutes les formes et de toutes les tailles, mais ils nécessitent tous l'interaction la plus simple : appuyer dessus !
 
 ## Objectifs d'apprentissage
 
@@ -71,8 +71,8 @@ Nous allons apprendre à interagir avec la carte en utilisant un simple bouton-p
 
 :::info[Le jeu de questions-réponses]
 
-Pour apprendre à utiliser un bouton, **jouons à un jeu de questions-réponses !**
-L'idée est assez simple : **un animateur, deux joueurs, un bouton, et une LED pour chaque joueur**. Lorsque l'animateur pose une question, les joueurs doivent appuyer en premier sur leur bouton pour donner la bonne réponse. Les LED indiquent quel joueur a appuyé sur son bouton en premier et est autorisé à répondre.
+Pour apprendre à utiliser un bouton, jouons à un jeu de questions-réponses !
+L'idée est assez simple : un animateur, deux joueurs, un bouton, et une LED pour chaque joueur. Lorsque l'animateur pose une question, les joueurs doivent appuyer en premier sur leur bouton pour donner la bonne réponse. Les LED indiquent quel joueur a appuyé sur son bouton en premier et est autorisé à répondre.
 :::
 
 ---
@@ -98,17 +98,17 @@ Avec votre câble USB, connectez la carte à votre ordinateur en utilisant le co
 
 ### 3. Ouvrir MakeCode
 
-Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton "Nouveau projet". Donnez à votre projet un nom plus expressif que "Sans titre" et lancez votre éditeur.
+Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton « Nouveau projet ». Donnez à votre projet un nom plus expressif que « Sans titre » et lancez votre éditeur.
 
 **Ressource :** [makecode.lets-steam.eu](https://makecode.lets-steam.eu)
 
 ### 4. Programmer la carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre buzzer de quiz est prêt !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section « Programmer » ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **« Télécharger »**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter : votre buzzer de quiz est prêt !
 
 ### 5. Exécuter, modifier, jouer
 
-Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (appuyez sur le bouton intitulé **RESET**). Utilisez les connaissances acquises sur cette fiche d'activité pour réaliser des projets plus ou moins complexes et explorez les fiches d'activité suivantes.
+Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarderez ou que vous réinitialiserez votre carte (appuyez sur le bouton intitulé **RESET**). Réalisez ensuite d'autres projets, plus ou moins complexes, avec ce que vous avez appris sur cette fiche, et explorez les fiches d'activité suivantes.
 
 ---
 
@@ -143,7 +143,7 @@ input.buttonD1.onEvent(ButtonEvent.Down, function () {
 
 ### Initialisation
 
-Dans un premier temps, nous devons déclarer une variable appelée `weCanPushIt`, de type booléen — un type de données avec seulement deux valeurs possibles, généralement `true` et `false`. Cette variable sera utile pour savoir si notre appui sur le bouton sera pris en compte, ou si l'autre joueur est déjà en train de le faire. Les deux dernières lignes indiquent que toutes les LED sont éteintes.
+Le programme commence par déclarer une variable appelée `weCanPushIt`, de type booléen (un type de données qui n'a que deux valeurs possibles, généralement `true` et `false`). Cette variable sert à savoir si un appui sur le bouton sera pris en compte, ou si l'autre joueur est déjà en train de le faire. Les deux dernières lignes indiquent que toutes les LED sont éteintes.
 
 :::info[Qu'est-ce qu'une variable ?]
 
@@ -159,36 +159,36 @@ Le code principal concerne les interactions des boutons réalisées avec les fon
 Une fonction est un bloc de code qui exécute une tâche spécifique. Elle est vraiment utile pour simplifier le code et rendre un bloc de code plus compréhensible.
 :::
 
-La ligne la plus importante ici est la condition `if (weCanPushIt) { ... }` qui teste si les joueurs ont déjà appuyé sur leur bouton ou non. Si c'est le cas (`weCanPushIt` est égal à `true`), nous :
+La ligne la plus importante ici est la condition `if (weCanPushIt) { ... }` qui teste si les joueurs ont déjà appuyé sur leur bouton ou non. Si c'est le cas (`weCanPushIt` est égal à `true`), le programme :
 
-1. Affectons `weCanPushIt` à `false`, pour empêcher l'adversaire de répondre,
-2. Allumons la LED du joueur pour montrer qui est le gagnant,
-3. Attendons 3 secondes (3 000 millisecondes),
-4. Éteignons la LED du gagnant,
-5. Affectons `weCanPushIt` à `true`, pour permettre aux joueurs d'appuyer à nouveau sur leurs boutons.
+1. Affecte `weCanPushIt` à `false`, pour empêcher l'adversaire de répondre,
+2. Allume la LED du joueur pour montrer qui est le gagnant,
+3. Attend 3 secondes (3 000 millisecondes),
+4. Éteint la LED du gagnant,
+5. Affecte `weCanPushIt` à `true`, pour permettre aux joueurs d'appuyer à nouveau sur leurs boutons.
 
 ---
 
 ## Étape 3 - Améliorer
 
-1. **Ajoutez d'autres boutons et LED** et modifiez votre programme afin de jouer avec plus de participants !
+1. Ajoutez d'autres boutons et LED et modifiez votre programme afin de jouer avec plus de participants !
 
-2. Modifiez votre programme pour **faire clignoter la LED du gagnant** en utilisant la fiche d'activité "Faire clignoter une LED".
+2. Modifiez votre programme pour faire clignoter la LED du gagnant en utilisant la fiche d'activité « Faire clignoter une LED ».
 
 ---
 
 ## Aller plus loin
 
-- **Bouton-poussoir** - En savoir plus sur les utilisations du bouton-poussoir.
+- **Bouton-poussoir** : en savoir plus sur les utilisations du bouton-poussoir.
   https://en.wikipedia.org/wiki/Push-button
 
-- **Derrière le matériel MakeCode - Boutons sur micro:bit** - Tout sur les boutons et leur utilisation dans MakeCode avec Shawn Hymel.
+- **Derrière le matériel MakeCode - Boutons sur micro:bit** : tout sur les boutons et leur utilisation dans MakeCode avec Shawn Hymel.
   https://www.youtube.com/watch?v=t_Qujjd_38o
 
-- **Jeu de réflexes** - Créez un jeu de réflexes avec des interrupteurs que vous pouvez actionner aussi vite que vous le souhaitez !
+- **Jeu de réflexes** : créez un jeu de réflexes avec des interrupteurs que vous pouvez actionner aussi vite que vous le souhaitez !
   https://microbit.org/projects/make-it-code-it/reaction-game/
 
-- **Découvrez ce qu'est une variable** - Apprenez-en plus sur les variables et les fonctions en programmation.
+- **Découvrez ce qu'est une variable** : apprenez-en plus sur les variables et les fonctions en programmation.
   - https://www.computerhope.com/jargon/v/variable.htm
   - https://web.archive.org/web/20230620020907/https://www.makeuseof.com/what-is-a-function-programming/
 

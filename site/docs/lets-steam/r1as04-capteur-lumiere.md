@@ -67,13 +67,13 @@ Cette fiche d'activité aborde les résistances. Une photorésistance (*Light De
 
 ## Étape 1 - Construire
 
-Cette activité illustre une caractéristique clé du *Physical Computing* : la possibilité de mesurer une quantité physique à l'aide d'un capteur et de représenter graphiquement la façon dont cette quantité varie dans le temps. Nous allons connecter une **photorésistance** (LDR) à la carte pour mesurer l'intensité de lumière. Ce type de capteur est appelé un **capteur analogique** car il présente une caractéristique analogique du circuit (tension) pour représenter la valeur physique réelle.
+Cette activité montre une caractéristique centrale du *Physical Computing* : mesurer une quantité physique à l'aide d'un capteur et représenter graphiquement sa variation dans le temps. On connecte une **photorésistance** (LDR) à la carte pour mesurer l'intensité de lumière.
 
 **Ressource :** https://www.watelectrical.com/what-are-analog-sensors-types-and-their-characteristics/
 
 ### 1. Câbler la cellule photoélectrique
 
-Le circuit que nous devons assembler se compose de deux éléments : une **résistance de 4,7 kohms** et une **cellule photoélectrique**.
+Le circuit à assembler comporte deux éléments : une **résistance de 4,7 kohms** et une **cellule photoélectrique**.
 
 <div style={{display: 'flex', gap: '1.5rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
 <div style={{flex: '1', minWidth: '280px'}}>
@@ -94,7 +94,7 @@ Les **photorésistances** (alias LDR, cellule photoélectrique, ou cellule photo
 </div>
 </div>
 
-La manière la plus simple de mesurer un capteur résistif est de connecter une extrémité à l'alimentation et l'autre à une résistance de rappel (*pull-down*) à la masse. Ensuite, le point situé entre la résistance de rappel et la cellule photoélectrique est connecté à l'entrée analogique d'un microcontrôleur. Un tel montage constitue ce que nous appelons un **capteur analogique**. Ce terme signifie que **ce circuit est capable de capter une grandeur physique** (à savoir l'intensité lumineuse) et de la transformer en une **grandeur électrique proportionnelle** (à savoir une tension dont la valeur est comprise entre 0 V et 3,3 V). Ces deux composants doivent être assemblés sur une breadboard.
+La manière la plus simple de mesurer un capteur résistif est de connecter une extrémité à l'alimentation et l'autre à une résistance de rappel (*pull-down*) à la masse. Ensuite, le point situé entre la résistance de rappel et la cellule photoélectrique est connecté à l'entrée analogique d'un microcontrôleur. Ce montage est un **capteur analogique** : il capte une grandeur physique (l'intensité lumineuse) et la transforme en une grandeur électrique proportionnelle (une tension comprise entre 0 V et 3,3 V). Ces deux composants doivent être assemblés sur une breadboard.
 
 ### 2. Câbler la breadboard à la carte STM32 IoT Node Board
 
@@ -102,7 +102,7 @@ Une fois que la breadboard a été assemblée, il faut la connecter à la carte.
 
 <img src="/img/ressources/lets-steam/r1as04-capteur-lumiere/3-1.png" alt="Connexion des câbles à la carte" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
-Le fil rouge doit être connecté à la **broche 4** du bloc **CN2**, qui est connectée en interne à un potentiel de 3,3 V. Le fil noir doit être connecté à la **broche 6** du bloc **CN2**, qui est connectée en interne au potentiel de masse (**GND**). Enfin, le fil jaune doit être connecté à la **broche 1** du bloc **CN4**. Cette broche est connectée en interne à la broche d'entrée analogique nommée **A0**.
+Connectez le fil rouge à la **broche 4** du bloc **CN2**, reliée en interne à un potentiel de 3,3 V, et le fil noir à la **broche 6** du bloc **CN2**, reliée en interne au potentiel de masse (**GND**). Enfin, connectez le fil jaune à la **broche 1** du bloc **CN4**, reliée en interne à la broche d'entrée analogique nommée **A0**.
 
 ### 3. Connecter la carte à l'ordinateur
 
@@ -116,7 +116,7 @@ Allez dans l'éditeur MakeCode de Let's STEAM. Sur la page d'accueil, créez un 
 
 ### 5. Programmer la carte
 
-Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter — votre programme est prêt !
+Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la section "Programmer" ci-dessous. Si ce n'est pas déjà fait, pensez à donner un nom à votre projet et cliquez sur le bouton **"Télécharger"**. Copiez le fichier binaire sur le lecteur **DIS_L4IOT** et attendez que la carte finisse de clignoter : votre programme est prêt.
 
 ### 6. Connecter la console de la carte
 
@@ -169,9 +169,9 @@ Le premier bloc lit la valeur de la broche d'entrée analogique **A0** et la sto
 Une **broche d'entrée analogique** peut être utilisée pour lire une valeur comprise entre 0 et 1023. Cette valeur est proportionnelle à la tension appliquée à la broche, qui DOIT être comprise entre 0 V et 3,3 V (par rapport à GND).
 :::
 
-Le deuxième bloc écrit sur la console de la carte ce qui a été obtenu par la lecture de la valeur du capteur. Dès que cette instruction a été exécutée, la carte suspend son activité (`pause`) pendant 500 millisecondes, c'est-à-dire une demi-seconde.
+Le deuxième bloc écrit la valeur lue sur la console de la carte. Dès que cette instruction a été exécutée, la carte suspend son activité (`pause`) pendant 500 millisecondes, c'est-à-dire une demi-seconde.
 
-**Des questions se posent alors naturellement : qu'est-ce que la console de la carte ? Comment est-il possible de lire ce qui est écrit sur la console ? La console de la carte permet à la carte d'interagir simplement avec le PC qui lui est connecté via le câble USB.**
+La console de la carte permet à la carte d'interagir simplement avec le PC qui lui est connecté via le câble USB. Le point 6 de l'étape 1 explique comment lire ce qui y est écrit.
 
 ---
 
@@ -187,16 +187,16 @@ Le deuxième bloc écrit sur la console de la carte ce qui a été obtenu par la
 
 ## Aller plus loin
 
-- **Photorésistance** - En savoir plus sur les photorésistances, leurs applications et leur conception.
+- **Photorésistance** : en savoir plus sur les photorésistances, leurs applications et leur conception.
   https://en.wikipedia.org/wiki/Photoresistor
 
-- **Guide de branchement des cellules photoélectriques** - Introduction rapide aux cellules photoélectriques résistives, et démonstration de leur branchement et de leur utilisation.
+- **Guide de branchement des cellules photoélectriques** : introduction rapide aux cellules photoélectriques résistives, et démonstration de leur branchement et de leur utilisation.
   https://learn.sparkfun.com/tutorials/photocell-hookup-guide/all
 
-- **Cellules photoélectriques** - Découvrez les cellules photoélectriques, une résistance qui change de valeur résistive en fonction de la quantité de lumière qui éclaire la face avec un circuit ondulé.
+- **Cellules photoélectriques** : découvrez les cellules photoélectriques, une résistance qui change de valeur résistive en fonction de la quantité de lumière qui éclaire la face avec un circuit ondulé.
   https://learn.adafruit.com/photocells
 
-- **Lecture analogique d'une broche** - Choisissez une broche et lisez un signal analogique (0-1023) à partir de celle-ci.
+- **Lecture analogique d'une broche** : choisissez une broche et lisez un signal analogique (0-1023) à partir de celle-ci.
   https://makecode.microbit.org/reference/pins/analog-read-pin
 
 ---

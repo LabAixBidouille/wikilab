@@ -24,7 +24,7 @@ sidebar_position: 10
 
 ## Matériel
 
-- 1 carte programmable "STM32 IoT Node Board"
+- 1 carte programmable « STM32 IoT Node Board »
 - 1 câble USB Micro-B
 - 1 écran OLED Monochrome 1,3" 128x64 de Adafruit
 - 1 câble QT pour connecter l'écran à la carte
@@ -51,7 +51,7 @@ Cette activité existe aussi adaptée pour la carte STeaMi en MicroPython : [Tex
 
 ## De quoi parle-t-on ?
 
-Un écran qui vous permet d'afficher certaines informations nichées dans vos composants électroniques.
+Un écran OLED vous permet d'afficher certaines informations cachées dans vos composants électroniques.
 
 ## Objectifs d'apprentissage
 
@@ -64,7 +64,7 @@ Un écran qui vous permet d'afficher certaines informations nichées dans vos co
 
 ## Introduction
 
-La programmation d'une carte électronique est parfois une activité très déroutante. Un microcontrôleur est une boîte noire (nous ne pouvons pas voir ce qui se passe à l'intérieur). Pour éclaircir votre code, vous pouvez utiliser un écran qui vous aide à afficher certaines informations nichées dans vos composants électroniques. Cette fiche d'activité explore comment utiliser les **écrans OLED monochromes à base de SSD1306 avec MakeCode**.
+La programmation d'une carte électronique est parfois une activité très déroutante. Un microcontrôleur est une boîte noire (on ne peut pas voir ce qui se passe à l'intérieur). Pour éclaircir votre code, vous pouvez afficher sur un écran certaines informations cachées dans vos composants électroniques. Cette fiche d'activité explore comment utiliser les écrans OLED monochromes à base de SSD1306 avec MakeCode.
 
 **Ressource :** https://www.electronicwings.com/sensors-modules/ssd1306-oled-display
 
@@ -76,7 +76,7 @@ La programmation d'une carte électronique est parfois une activité très déro
 
 <img src="/img/ressources/lets-steam/r1as10-ecran-oled/bitmap.png" alt="Montage écran OLED" style={{maxWidth: '300px', float: 'right', marginLeft: '1rem', marginBottom: '1rem'}} />
 
-Il y a deux façons de câbler l'écran OLED **SSD1306** à une carte : soit avec une connexion **I2C**, soit avec une connexion **SPI**. Pour notre écran, nous utilisons la connexion **I2C** via le câble **QWIIC/STEMMA** avec la convention suivante :
+Il y a deux façons de câbler l'écran OLED **SSD1306** à une carte : soit avec une connexion **I2C**, soit avec une connexion **SPI**. Ici, on branche l'écran en **I2C** par le câble **QWIIC/STEMMA**, avec la convention suivante :
 
 - **Noir** pour GND
 - **Rouge** pour V+ (3V3)
@@ -105,7 +105,7 @@ Après avoir créé votre nouveau projet, vous obtiendrez l'écran par défaut �
 
 :::info[Les extensions MakeCode]
 
-Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base que l'on trouve dans MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteurs, de robotique et bien plus encore.
+Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base que l'on trouve dans MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour les manettes de jeu, le clavier, la souris, les servomoteurs, la robotique et bien d'autres usages.
 :::
 
 Vous voyez le bouton noir **AVANCÉ** en bas de la colonne des différents groupes de blocs. Si vous cliquez sur **AVANCÉ**, vous verrez apparaître des groupes de blocs supplémentaires. En bas, il y a une boîte grise appelée **EXTENSIONS**. Cliquez sur ce bouton.
@@ -124,7 +124,7 @@ Votre programme s'exécutera automatiquement chaque fois que vous le sauvegarder
 
 Si tout va bien, votre carte vous adressera des salutations amicales. Essayez de comprendre l'exemple et commencez à le modifier en changeant le texte, en ajoutant autant de symboles que possible ou en remplissant l'écran lentement, lettre par lettre.
 
-N'hésitez pas à essayer d'afficher n'importe quel élément d'information dans votre programme pour voir l'état actuel de votre carte.
+Vous pouvez aussi afficher n'importe quelle information de votre programme pour voir l'état actuel de votre carte.
 
 ---
 
@@ -167,26 +167,26 @@ Sur l'écran du SSD1306, l'origine (la position x=0 et y=0) se trouve dans le co
 
 ## Étape 3 - Améliorer
 
-1. Essayez de **centrer le coeur de la deuxième ligne** en modifiant la coordonnée X du texte.
+1. Essayez de centrer le coeur de la deuxième ligne en modifiant la coordonnée X du texte.
 
-2. En ajoutant une boucle, **créez une animation de texte simple** dans l'esprit de La Linea en utilisant les symboles `|` et `_`. Pour ralentir votre animation, utilisez la fonction `pause()`.
+2. En ajoutant une boucle, créez une animation de texte simple dans l'esprit de La Linea en utilisant les symboles `|` et `_`. Pour ralentir votre animation, utilisez la fonction `pause()`.
    **Ressource :** https://en.wikipedia.org/wiki/La_Linea_(TV_series)
 
-3. **Montrez l'état courant du bouton USER à chaque instant.** Que se passe-t-il si vous ajoutez un `sleep()` plutôt long dans votre boucle principale ? Comment améliorer la réactivité de votre affichage ?
+3. Montrez l'état courant du bouton USER à chaque instant. Que se passe-t-il si vous ajoutez un `sleep()` plutôt long dans votre boucle principale ? Comment améliorer la réactivité de votre affichage ?
 
-4. **Affichez la valeur de tous les capteurs embarqués.** Essayez de positionner chaque valeur à un endroit stratégique pour améliorer autant que possible la lisibilité.
+4. Affichez la valeur de tous les capteurs embarqués. Essayez de placer chaque valeur de façon à rendre l'écran le plus lisible possible.
 
 ---
 
 ## Aller plus loin
 
-- **I2C** - Tutoriel pour tout savoir sur le protocole de communication I2C, pourquoi et comment l'utiliser ainsi que le mettre en oeuvre.
+- **I2C** : tutoriel pour tout savoir sur le protocole de communication I2C, pourquoi et comment l'utiliser ainsi que le mettre en oeuvre.
   https://learn.sparkfun.com/tutorials/i2c/all
 
-- **QWIIC/STEMMA** - Utilisez le level shifter et le régulateur de voltage avec les contrôleurs Grove/Gravity/STEMMA/Qwiic.
+- **QWIIC/STEMMA** : utilisez le level shifter (adaptateur de niveau logique) et le régulateur de tension avec les contrôleurs Grove/Gravity/STEMMA/Qwiic.
   https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
 
-- **Écran OLED** - Écran à diode électroluminescente organique (OLED ou LED organique).
+- **Écran OLED** : écran à diode électroluminescente organique (OLED ou LED organique).
   https://en.wikipedia.org/wiki/OLED
 
 ---
