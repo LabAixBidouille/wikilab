@@ -39,11 +39,11 @@ sidebar_position: 1
 
 ## De quoi parle-t-on ?
 
-Dans cette activité, nous allons programmer plusieurs cartes électroniques et échanger des données de capteurs à l'aide de l'extension Magnetics, qui permet une communication maillée sans fil.
+Dans cette activité, on programme plusieurs cartes électroniques et on échange des données de capteurs à l'aide de l'extension Magnetics, qui permet une communication maillée sans fil.
 
 :::info
 
-Cette fiche d'activité propose de créer des projets plus complexes en utilisant plusieurs cartes électroniques non connectées entre elles. Une fois les capteurs maîtrisés, nous pouvons en effet mettre en place des expériences nécessitant l'utilisation de plusieurs cartes. Afin de réaliser la collecte des données, il faut pouvoir faire communiquer les cartes entre elles par les airs. Dans cette activité nous allons programmer plusieurs cartes électroniques et échanger des données de capteurs à l'aide de l'extension **Magnetics** que permet de mettre en œuvre une communication sans fil maillée. Le projet Magnetics prend la forme d'une brique technique logicielle implantée directement dans MakeCode. Ce développement est basé sur l'utilisation de la technologie de réseau maillé **Bluetooth Low Energy Mesh** (BLE Mesh) compatible avec toutes les cartes programmables disposant d'un module **Bluetooth Low Energy**.
+Cette fiche d'activité propose de créer des projets plus complexes avec plusieurs cartes électroniques non connectées entre elles. Une fois les capteurs maîtrisés, on peut monter des expériences qui demandent plusieurs cartes. Pour collecter les données, les cartes doivent alors pouvoir communiquer entre elles par les airs. Le projet Magnetics est une brique logicielle implantée directement dans MakeCode. Il utilise la technologie de réseau maillé Bluetooth Low Energy Mesh (BLE Mesh), compatible avec toutes les cartes programmables qui ont un module Bluetooth Low Energy.
 
 **Ressources :**
 
@@ -62,7 +62,7 @@ Cette fiche d'activité propose de créer des projets plus complexes en utilisan
 
 ## Étape 1 - Construire
 
-Pour réaliser cette activité nous avons besoin de **quatre cartes micro:bit v2**. Trois d'entre elles seront **émettrices** de données de capteurs (température, niveau sonore, intensité lumineuse), et la dernière sera **collectrice** des données qu'elle affichera sur ses LEDs. Nous utiliserons uniquement les capteurs internes. Nous allons donc vous donner la marche à suivre pour câbler et programmer en premier lieu la carte collectrice puis dans un second temps, programmer individuellement chaque carte émettrice afin de pouvoir construire votre projet.
+Pour cette activité, il faut quatre cartes micro:bit v2. Trois d'entre elles seront **émettrices** de données de capteurs (température, niveau sonore, intensité lumineuse), et la dernière sera **collectrice** des données qu'elle affichera sur ses LEDs. Seuls les capteurs internes sont utilisés. Commencer par câbler et programmer la carte collectrice, puis programmer individuellement chaque carte émettrice pour construire votre projet.
 
 ### Activité 1 - Préparer, câbler et programmer la carte collectrice
 
@@ -72,17 +72,17 @@ Avec votre câble USB, connectez la carte collectrice à votre ordinateur en uti
 
 #### 2. Ouvrir MakeCode
 
-Allez dans **l'éditeur MakeCode pour micro:bit**. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton "**Nouveau projet**". Donnez à votre projet un nom plus expressif que "Sans titre" et lancez votre éditeur.
+Allez dans l'éditeur MakeCode pour micro:bit. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton "**Nouveau projet**". Donnez à votre projet un nom plus expressif que "Sans titre" et lancez votre éditeur.
 
 **Ressource :** [makecode.microbit.org](https://makecode.microbit.org/)
 
 #### 3. Installer l'extension
 
-Après avoir créé votre nouveau projet, vous obtiendrez l'écran par défaut "prêt à l'emploi" et vous devrez installer une extension.
+Après avoir créé votre nouveau projet, vous obtiendrez l'écran par défaut « prêt à l'emploi » et vous devrez installer une extension.
 
 :::info
 
-Les extensions dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans les blocs de code de base que l'on trouve dans MakeCode. Les extensions, comme leur nom l'indique, ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteurs, de la robotique et bien plus encore.
+Les extensions de MakeCode sont des groupes de blocs de code qui ne font pas partie des blocs de base. Elles ajoutent des blocs pour des fonctionnalités précises : manette de jeu, clavier, souris, servomoteurs, robotique, entre autres.
 
 :::
 
@@ -98,15 +98,15 @@ Dans l'éditeur JavaScript de MakeCode, copiez/collez le code disponible dans la
 
 ### Activité 2 - Programmer chaque carte émettrice individuellement
 
-Une fois la carte collectrice programmée, nous pouvons préparer les trois cartes émettrices en suivant les mêmes étapes de programmation que lors de l'étape 1. Pour chaque carte, il faudra donc effectuer les tâches suivantes :
+Une fois la carte collectrice programmée, préparer les trois cartes émettrices en suivant les mêmes étapes de programmation que lors de l'étape 1. Pour chaque carte, effectuer les tâches suivantes :
 
 #### 1. Connecter la carte à l'ordinateur
 
-Avec votre câble USB, connectez la carte émettrice que vous souhaitez programmer à votre ordinateur en utilisant le **connecteur micro-USB**. Si tout se passe bien, vous devriez voir apparaître sur votre ordinateur un nouveau lecteur. Ce lecteur est utilisé pour programmer la carte en copiant simplement un fichier binaire.
+Avec votre câble USB, connectez la carte émettrice que vous souhaitez programmer à votre ordinateur en utilisant le connecteur micro-USB. Si tout se passe bien, vous devriez voir apparaître sur votre ordinateur un nouveau lecteur. Ce lecteur est utilisé pour programmer la carte en copiant simplement un fichier binaire.
 
 #### 2. Ouvrir MakeCode
 
-Allez dans **l'éditeur MakeCode pour micro:bit**. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton "Nouveau projet". Donnez à votre projet un nom plus expressif que "Sans titre" et lancez votre éditeur.
+Allez dans l'éditeur MakeCode pour micro:bit. Sur la page d'accueil, créez un nouveau projet en cliquant sur le bouton "Nouveau projet". Donnez à votre projet un nom plus expressif que "Sans titre" et lancez votre éditeur.
 
 **Ressource :** [makecode.microbit.org](https://makecode.microbit.org/)
 
@@ -197,37 +197,37 @@ magnetics.setAdvertisingKeyValueData("Sound ()", input.soundLevel())
 
 ### Comment cela fonctionne-t-il ? Initialiser la collecte de données
 
-Cela fait beaucoup de code, mais rien de très complexe, puisque le code des **cartes émettrices** est quasiment identique (il n'y a que le capteur qui change) et reste simple à comprendre.
+Le code des trois cartes émettrices est quasiment identique (seul le capteur change) et reste simple à comprendre.
 
-Pour commencer, on donne un nom à notre carte à l'aide de la fonction `setLocalName`, ce qui permettra au collecteur de reconnaître la donnée envoyée. Pour que la carte puisse émettre des données, il faut lui préciser son rôle, c'est ce que fait la fonction `startEmitting`. Enfin, via la fonction `setAdvertisingKeyValueData`, nous envoyons la donnée du capteur toutes les 500 millisecondes (c'est-à-dire deux fois par seconde).
+Pour commencer, la fonction `setLocalName` donne un nom à la carte, ce qui permettra au collecteur de reconnaître la donnée envoyée. Pour que la carte puisse émettre des données, il faut lui préciser son rôle : c'est ce que fait la fonction `startEmitting`. Enfin, le programme envoie la donnée du capteur avec la fonction `setAdvertisingKeyValueData` toutes les 500 millisecondes (c'est-à-dire deux fois par seconde).
 
-Enfin, intéressons-nous au code du collecteur. Au début, nous déclarons 4 variables :
+Le code du collecteur déclare d'abord 4 variables :
 
 - `temperature`, `light` et `sound` qui contiendront les données émises par les émetteurs (respectivement pour la température, l'intensité lumineuse et le niveau sonore)
-- `lastShow` qui permet de savoir à quand remonte le dernier affichage des données (en millisecondes).
+- `lastShow` qui enregistre le moment du dernier affichage des données (en millisecondes).
 
-Une fois les variables initialisées, nous faisons appel à `startScanning`, pour rechercher les cartes émettrices qui sont à proximité. Le reste du code se trouve dans la fonction `forever` ce qui implique, que nous allons répéter indéfiniment le code suivant. Les trois premiers `if(...)` permettent de savoir si nous avons reçu des données de la part des émetteurs (grâce à la fonction `availableDataFromName`), si tel est le cas, alors on enregistre cette donnée dans la variable associée (en utilisant `readDataFromName`).
+Une fois les variables initialisées, le programme appelle `startScanning` pour rechercher les cartes émettrices à proximité. Le reste du code se trouve dans la fonction `forever` : il se répète donc indéfiniment. Les trois premiers `if(...)` vérifient si des données sont arrivées des émetteurs (grâce à la fonction `availableDataFromName`). Si c'est le cas, le programme enregistre la donnée dans la variable associée (avec `readDataFromName`).
 
-Maintenant que nous avons les données, il faut les afficher sur notre écran de LEDs, c'est le rôle de la dernière condition `if`, qui nous permet de mettre à jour notre écran avec les nouvelles données, seulement si cela fait plus de deux secondes qu'il n'a pas été rafraîchi.
+Il reste à afficher les données sur l'écran de LEDs. La dernière condition `if` met à jour l'écran avec les nouvelles données, seulement si cela fait plus de deux secondes qu'il n'a pas été rafraîchi.
 
 ---
 
 ## Étape 3 - Améliorer
 
-- Cette activité ne fait qu'afficher les informations sur un écran, mais il est possible d'utiliser le datalogger, pour enregistrer nos données et les analyser.
-- Utiliser une boîte étanche et faire une station météo : la connexion étant sans fil, on pourrait avoir un écran en intérieur nous affichant les données environnementales de l'extérieur.
+- Cette activité ne fait qu'afficher les informations sur un écran, mais il est possible d'utiliser le datalogger pour enregistrer les données et les analyser.
+- Utiliser une boîte étanche et faire une station météo : comme la connexion est sans fil, un écran à l'intérieur pourrait afficher les données environnementales de l'extérieur.
 
 ---
 
 ## Aller plus loin
 
-- **Bluetooth** — Découvrir plus d'informations sur cette norme de télécommunication si présente dans notre vie quotidienne.
+- **Bluetooth** : découvrir plus d'informations sur cette norme de télécommunication si présente dans la vie quotidienne.
   [fr.wikipedia.org/wiki/Bluetooth](https://fr.wikipedia.org/wiki/Bluetooth)
 
-- **CircuitPython BLE Libraries on Any Computer** — Utilisez le code BLE de CircuitPython sur les ordinateurs de bureau, les ordinateurs portables et les Raspberry Pi grâce aux bibliothèques Adafruit.
+- **CircuitPython BLE Libraries on Any Computer** : utilisez le code BLE de CircuitPython sur les ordinateurs de bureau, les ordinateurs portables et les Raspberry Pi grâce aux bibliothèques Adafruit.
   [learn.adafruit.com/circuitpython-ble-libraries-on-any-computer](https://learn.adafruit.com/circuitpython-ble-libraries-on-any-computer)
 
-- **Bouton de volume BLE avec CircuitPython** — Transformez votre Bluefruit de Circuit Playground en bouton de volume BLE sans fil.
+- **Bouton de volume BLE avec CircuitPython** : transformez votre Bluefruit de Circuit Playground en bouton de volume BLE sans fil.
   [learn.adafruit.com/bluetooth-le-hid-volume-knob-with-circuitpython](https://learn.adafruit.com/bluetooth-le-hid-volume-knob-with-circuitpython)
 
 ---
