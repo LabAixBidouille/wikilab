@@ -104,7 +104,7 @@ Chaque groupe présente ensuite son travail à la classe. C'est l'occasion de me
 
 ### Découverte de la grille et des cartes de déplacement
 
-L'enseignant·e présente la grille aux élèves. Le personnage principal s'appelle Jean : c'est lui que les élèves vont « programmer ». La grande grille au sol représente son environnement — une ville divisée en cases, avec des déchets de différents types dispersés un peu partout.
+L'enseignant·e présente la grille aux élèves. Le personnage principal s'appelle Jean : c'est lui que les élèves vont « programmer ». La grande grille au sol représente son environnement : une ville divisée en cases, avec des déchets de différents types dispersés un peu partout.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/robots-meet-arts/rangers-tri/grillesol.png" alt="Grille au sol" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />

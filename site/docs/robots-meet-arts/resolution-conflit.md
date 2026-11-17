@@ -62,8 +62,6 @@ sidebar_position: 20
 
 ### Explorer la notion de conflit
 
-Cette première partie de l'activité est consacrée au partage et à l'échange autour de la notion de conflit.
-
 :::info[Notes pour l'enseignant·e]
 
 - Encouragez le travail en équipe et une communication claire.
@@ -78,7 +76,7 @@ Commencez par poser quelques questions aux élèves :
 - Quelles qualités personnelles pensez-vous être utiles pour résoudre un conflit ? (patience, écoute, calme...)
 - Quelles stratégies utilisez-vous habituellement pour résoudre des désaccords dans votre vie quotidienne ?
 
-Notez les réponses au tableau. Cette phase permet aux élèves de mobiliser leurs connaissances et expériences, et d'introduire naturellement l'idée que résoudre un conflit peut se décomposer en plusieurs étapes — comme un algorithme.
+Notez les réponses au tableau. Cette phase permet aux élèves de mobiliser leurs connaissances et leurs expériences, et sert à introduire l'idée que résoudre un conflit peut se décomposer en plusieurs étapes, comme un algorithme.
 
 
 ---
@@ -96,11 +94,11 @@ Cette activité peut se faire avec un tapis et des robots de sol, ou de manière
 
 :::info[Notes pour l'enseignant·e : les étapes de résolution de conflits à découvrir]
 
-- **Se calmer** — Respirer profondément avant de réagir.
-- **Réfléchir** — Que s'est-il passé ? Comment je me sens ? Comment puis-je résoudre cette situation ?
-- **S'exprimer** — Décrire ce qui s'est passé, exprimer ce que je ressens, demander ce dont j'ai besoin.
-- **Écouter** — Écouter l'autre personne et se mettre à sa place. Que ressent-elle ? De quoi a-t-elle besoin ?
-- **Chercher des solutions gagnant-gagnant** — Essayer différentes solutions jusqu'à en trouver une qui convienne à tous.
+- **Se calmer** : respirer profondément avant de réagir.
+- **Réfléchir** : que s'est-il passé ? Comment je me sens ? Comment puis-je résoudre cette situation ?
+- **S'exprimer** : décrire ce qui s'est passé, exprimer ce que je ressens, demander ce dont j'ai besoin.
+- **Écouter** : écouter l'autre personne et se mettre à sa place. Que ressent-elle ? De quoi a-t-elle besoin ?
+- **Chercher des solutions gagnant-gagnant** : essayer différentes solutions jusqu'à en trouver une qui convienne à tous.
 
 :::
 

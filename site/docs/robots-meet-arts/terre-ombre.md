@@ -101,11 +101,11 @@ Les compétences mobilisées sont les suivantes :
 
 ## Organisation flexible des séances
 
-Cette séquence est conçue comme une boîte à outils pédagogique adaptable selon vos contraintes. L'ensemble des activités représente environ 8 à 10 heures de travail en classe, mais vous êtes libres de sélectionner les éléments qui correspondent le mieux à votre contexte :
+L'ensemble des activités dure environ 8 à 10 heures de travail en classe. Vous pouvez choisir les éléments qui correspondent le mieux à votre contexte et à vos contraintes :
 
 - Version courte (3-4 séances) : L'essentiel du projet avec la découverte des écoquartiers, une sortie d'observation dans le quartier, l'analyse des observations et la conception de solutions simples sous forme de dessins ou maquette.
-- Version intermédiaire (5-6 séances) : La version courte enrichie par l'utilisation des capteurs micro:bit, permettant de croiser observations qualitatives et mesures quantitatives.
-- Version complète (8-10 séances) : Le projet dans toute sa dimension avec étude approfondie d'écoquartiers existants, observations de terrain, enquête habitants, collecte de données sur plusieurs jours, conception d'une maquette détaillée et/ou actions concrètes dans l'école, puis présentation publique du travail.
+- Version intermédiaire (5-6 séances) : La version courte, avec en plus les capteurs micro:bit pour croiser observations qualitatives et mesures quantitatives.
+- Version complète (8-10 séances) : Étude approfondie d'écoquartiers existants, observations de terrain, enquête habitants, collecte de données sur plusieurs jours, conception d'une maquette détaillée et/ou actions concrètes dans l'école, puis présentation publique du travail.
 
 ## Partenaires potentiels pour enrichir le projet
 
@@ -117,9 +117,9 @@ Cette séquence est conçue comme une boîte à outils pédagogique adaptable se
 
 ## Introduction - Les enjeux du diagnostic territorial
 
-Améliorer le cadre de vie et préserver l'environnement sont au coeur des préoccupations actuelles. Au sein du programme de géographie, les élèves peuvent explorer, à l'échelle des territoires de proximité (quartier, commune, métropole, région), des réalisations concrètes ou des projets qui contribuent au « mieux habiter ». La place des espaces verts en ville, les circulations douces, les berges et corridors verts, le développement de la biodiversité, le recyclage et le réemploi, l'aménagement d'un écoquartier : autant d'occasions de réfléchir aux choix des acteurs dans les politiques de développement durable.
+Au sein du programme de géographie, les élèves peuvent explorer, à l'échelle des territoires de proximité (quartier, commune, métropole, région), des réalisations concrètes ou des projets qui contribuent au « mieux habiter ». La place des espaces verts en ville, les circulations douces, les berges et corridors verts, le développement de la biodiversité, le recyclage et le réemploi, l'aménagement d'un écoquartier : autant d'occasions de réfléchir aux choix des acteurs dans les politiques de développement durable.
 
-Dans cette séquence, nous proposons aux élèves de réfléchir à ces problématiques en les étudiant sur le terrain, à la fois grâce à l'observation et grâce à la donnée. Positionnés tour à tour comme géographes ou urbanistes, les élèves devront analyser l'espace vécu en croisant observations de terrain, données mesurées et ressentis des habitants.
+Cette séquence propose aux élèves de réfléchir à ces problématiques en les étudiant sur le terrain, à la fois par l'observation et par les données. Positionnés tour à tour comme géographes ou urbanistes, ils devront analyser l'espace vécu en croisant observations de terrain, données mesurées et ressentis des habitants.
 
 Le diagnostic territorial s'appuie sur trois piliers :
 
@@ -205,7 +205,7 @@ Pour chaque principe, explorez avec eux le pourquoi en vous appuyant sur les exe
 
 ### Observations qualitatives sur le terrain
 
-La sortie de terrain constitue le moment clé où les élèves passent de la théorie à la pratique. Divisez la classe en groupes de 4-5 élèves, en attribuant à chaque groupe un axe prioritaire d'observation :
+Pour la sortie de terrain, divisez la classe en groupes de 4-5 élèves, en attribuant à chaque groupe un axe prioritaire d'observation :
 
 - Groupe « Espaces verts et biodiversité » : Mission : localiser et qualifier les espaces verts, observer la végétation, l'état d'entretien, la présence d'animaux, l'accessibilité...
 - Groupe « Mobilité et circulation » : Mission : observer les modes de déplacement, identifier les pistes cyclables et trottoirs, repérer les zones piétonnes, noter la présence de transports en commun...
@@ -217,8 +217,6 @@ Préparez pour chaque groupe une grille d'observation structurée avec des quest
 De retour en classe, organisez une grande restitution collective où chaque groupe présente ses observations en les situant sur une carte géante du quartier. Utilisez des gommettes de couleurs différentes : vert pour les points positifs, orange pour les points d'amélioration, rouge pour les problèmes identifiés.
 
 ### Mesures quantitatives avec les capteurs
-
-Après avoir collecté des observations qualitatives, la phase de mesures quantitatives permet de quantifier objectivement certains paramètres environnementaux.
 
 S'il s'agit d'une première découverte de la programmation par blocs pour vos élèves, commencez par une découverte ludique et déconnectée :
 
@@ -264,11 +262,11 @@ Pour compléter les observations et mesures, les élèves peuvent mener une cour
 
 Chaque élève peut interroger 1-2 personnes (parents, voisins, commerçants). Préparez-les en simulant des interviews en classe. Après la collecte, compilez les résultats au tableau.
 
-Croisez ces résultats avec vos observations et mesures : « Les habitants disent qu'il fait trop chaud, et nos mesures le confirment », « Ils voudraient plus de pistes cyclables, et nous n'en avons observé qu'une seule ». Cette triangulation renforce la pertinence du diagnostic.
+Croisez ces résultats avec vos observations et mesures : « Les habitants disent qu'il fait trop chaud, et nos mesures le confirment », « Ils voudraient plus de pistes cyclables, et nous n'en avons observé qu'une seule ».
 
 ### Analyse croisée et identification des priorités
 
-C'est maintenant le moment de rassembler toutes les informations récoltées. Organisez une grande séance en classe où vous affichez la carte avec vos observations, les graphiques des mesures, et les résultats de l'enquête auprès des habitants.
+Organisez une grande séance en classe pour rassembler toutes les informations récoltées : affichez la carte avec vos observations, les graphiques des mesures et les résultats de l'enquête auprès des habitants.
 
 Lancez une discussion en posant des questions qui mettent en lien les différentes informations. Sur la grande carte du quartier, repérez les « zones à problèmes ». Créez ensuite ensemble un tableau avec trois colonnes : « Problème trouvé » (avec les preuves), « Solution possible » (en lien avec les écoquartiers étudiés), « Priorité » (haute/moyenne/basse).
 
@@ -361,10 +359,10 @@ Pour terminer, proposez un temps d'expression individuelle où chaque élève é
 
 L'écoquartier Vauban se trouve à Fribourg, une ville du sud de l'Allemagne. Ce quartier de 42 hectares était avant une caserne militaire construite en 1936. Quand l'armée est partie en 1992, la ville a décidé de transformer cet endroit abandonné en quartier écologique. Les travaux ont duré de 1996 à 2006. Aujourd'hui, 5 500 personnes y habitent dans 2 800 logements.
 
-- Habitations : Les maisons « Passivhaus » ont des murs très épais et une excellente isolation qui réduit le chauffage de 88%. À l'est du quartier, des maisons produisent plus d'énergie qu'elles n'en consomment grâce aux panneaux solaires. Une centrale de cogénération brûle des copeaux de bois pour chauffer tout le quartier.
+- Habitations : Les maisons « Passivhaus » ont des murs très épais et une isolation qui réduit le chauffage de 88%. À l'est du quartier, des maisons produisent plus d'énergie qu'elles n'en consomment grâce aux panneaux solaires. Une centrale de cogénération brûle des copeaux de bois pour chauffer tout le quartier.
 - Déplacements : Vauban est un quartier « sans voitures » où 75% des habitants n'ont pas de parking privé. Les voitures restent dans deux parkings-silos aux entrées du quartier. Les rues s'appellent « Spielstrassen » (rues de jeu). Le tramway relie le centre-ville en 15 minutes.
 - Gestion de l'eau : L'eau de pluie s'infiltre naturellement dans le sol grâce aux espaces verts (80% de l'eau est filtrée dans le terrain). Les toits végétalisés absorbent l'eau de pluie et isolent les bâtiments.
-- Participation citoyenne : Les habitants se sont organisés en 40 « Baugruppen » (groupes de construction) pour concevoir et construire ensemble leurs logements, économisant 30% du prix.
+- Participation citoyenne : Les habitants se sont organisés en 40 « Baugruppen » (groupes de construction) pour concevoir et construire ensemble leurs logements. Ils ont ainsi économisé 30% du prix.
 - Nature : La ville a conservé 12 bâtiments de l'ancienne caserne et tous les arbres centenaires. Les habitants cultivent ensemble fruits et légumes dans des jardins partagés.
 - Défis : Les logements écologiques coûtent cher, ce qui empêche les familles modestes de s'installer. Le tramway est saturé aux heures de pointe.
 
@@ -387,13 +385,13 @@ BedZED (Beddington Zero Energy Development) se trouve à Sutton, au sud de Londr
   <img src="/img/ressources/robots-meet-arts/terre-ombre/ecoquartier-bedzed-londres-royaume-uni-2.png" alt="Écoquartier BedZED - Londres" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />
 </div>
 
-### Bo01 "City of Tomorrow" - Malmö, Suède
+### Bo01 « City of Tomorrow » - Malmö, Suède
 
 Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, construit en 2001 à l'occasion de l'exposition européenne de l'habitat. Ancienne zone industrielle et portuaire, le site a été transformé en vitrine du développement durable scandinave. Le quartier accueille environ 3 000 habitants dans des logements variés conçus par plus de 20 architectes différents.
 
-- **Énergie** : Bo01 est alimenté à 100% par des énergies renouvelables locales, combinant éolien (une éolienne de 2 MW), solaire (1 400 m2 de panneaux) et géothermie. Un réseau de chauffage urbain alimente tous les bâtiments.
-- **Biodiversité** : Le quartier intègre un "Green Space Factor" obligatoire pour chaque bâtiment, garantissant un minimum de végétation. Des corridors écologiques relient le quartier aux espaces naturels environnants, avec des toitures végétalisées et des mares écologiques.
-- **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux créent aussi des espaces de promenade appréciés des habitants.
+- **Énergie** : Bo01 est alimenté à 100% par des énergies renouvelables locales : éolien (une éolienne de 2 MW), solaire (1 400 m2 de panneaux) et géothermie. Un réseau de chauffage urbain alimente tous les bâtiments.
+- **Biodiversité** : Un « Green Space Factor » obligatoire pour chaque bâtiment impose un minimum de végétation. Des corridors écologiques relient le quartier aux espaces naturels environnants, avec des toitures végétalisées et des mares écologiques.
+- **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux créent aussi des espaces de promenade.
 - **Déplacements** : Le quartier est conçu pour favoriser la marche et le vélo. Un réseau de pistes cyclables le relie au centre-ville, et une ligne de bus à haut niveau de service dessert le quartier.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
@@ -406,9 +404,9 @@ Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, co
 La ZAC de Bonne est un écoquartier de 8,5 hectares situé en plein centre de Grenoble, aménagé entre 2003 et 2010 sur le site d'une ancienne caserne militaire. Premier écoquartier français à recevoir le Grand Prix National ÉcoQuartier en 2009, il accueille environ 3 500 habitants dans 900 logements.
 
 - **Énergie** : Les bâtiments sont conçus pour consommer moins de 50 kWh/m2/an (contre 250 kWh en moyenne en France). 1 000 m2 de panneaux solaires thermiques produisent l'eau chaude, et des panneaux photovoltaïques sont intégrés aux façades. Une chaufferie bois alimente le réseau de chaleur du quartier.
-- **Espaces verts** : Le parc central de 5 hectares (parc Hoche étendu) est le poumon vert du quartier, accessible à tous les habitants. Des jardins partagés permettent aux résidents de cultiver fruits et légumes.
+- **Espaces verts** : Le parc central de 5 hectares (parc Hoche étendu) est accessible à tous les habitants. Des jardins partagés permettent aux résidents de cultiver fruits et légumes.
 - **Mixité** : 40% de logements sociaux sont répartis dans tout le quartier pour favoriser la diversité sociale. Le quartier intègre aussi des commerces, des bureaux, un cinéma et des équipements publics.
-- **Gestion de l'eau** : Des noues paysagères et des bassins de rétention collectent les eaux pluviales, réduisant le ruissellement et créant des espaces verts humides appréciés pour la biodiversité.
+- **Gestion de l'eau** : Des noues paysagères et des bassins de rétention collectent les eaux pluviales. Ils réduisent le ruissellement et forment des espaces verts humides favorables à la biodiversité.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>
   <img src="/img/ressources/robots-meet-arts/terre-ombre/l-ecoquartier-de-bonne-grenoble-france.png" alt="ZAC de Bonne - Grenoble" style={{maxWidth: 'calc(50% - 1rem)', height: 'auto', alignSelf: 'flex-start'}} />

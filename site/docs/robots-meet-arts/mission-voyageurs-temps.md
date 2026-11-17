@@ -168,7 +168,7 @@ Programmer une interaction dans chaque scène historique :
 
 L'enseignant·e circule entre les groupes pour aider avec les blocs de code, déboguer les erreurs et encourager la créativité.
 
-**Objectif** : Compléter la majeure partie de l'histoire/jeu Scratch.
+**Objectif** : Terminer la majeure partie de l'histoire ou du jeu Scratch.
 
 :::info[Notes pour l'enseignant·e]
 
@@ -193,7 +193,7 @@ Lancez un petit jeu ou quiz rapide pour réactiver les connaissances historiques
 
 Vous pouvez aussi projeter le projet d'un groupe volontaire comme exemple pour donner envie aux autres de partager leur travail.
 
-**Objectif** : Réviser les connaissances historiques et créer l'enthousiasme avant les présentations.
+**Objectif** : Réviser les connaissances historiques et donner aux équipes l'envie de présenter leur projet.
 
 ### Approfondissement (Build-up) - Acquisition des savoirs
 
@@ -323,7 +323,7 @@ Dessinez vos idées ou prenez des notes supplémentaires ici !
 
 ## Guide de l'enseignant·e
 
-Ce guide accompagne les enseignant·e·s dans la mise en oeuvre de l'activité « Mission Voyageurs du temps » à l'échelle européenne. Les élèves deviennent des Agents du temps, identifiant et réparant des bugs temporels dans des événements historiques majeurs à travers l'Europe en utilisant Scratch. Le projet favorise la créativité, les compétences numériques, la collaboration et la sensibilisation à l'histoire interculturelle.
+Ce guide aide les enseignant·e·s à mener l'activité « Mission Voyageurs du temps » à l'échelle européenne. Les élèves deviennent des Agents du temps : avec Scratch, ils identifient et réparent des bugs temporels dans des événements historiques majeurs à travers l'Europe.
 
 - Âge recommandé : 9-12 ans
 - Durée : 3 séances de 90 min
@@ -334,10 +334,10 @@ Ce guide accompagne les enseignant·e·s dans la mise en oeuvre de l'activité �
 
 - Introduisez la Mission du voyage dans le temps avec une narration amusante.
 - Aidez les équipes à choisir 2-3 moments historiques à explorer à travers l'Europe.
-- Fournissez ou autorisez une recherche légère à l'aide de sites web ou de documents d'histoire adaptés aux enfants.
+- Fournissez des sites web ou des documents d'histoire adaptés aux enfants, ou laissez les élèves faire une recherche légère dans ce type de sources.
 - Guidez les élèves dans le remplissage du Carnet du Voyageur du temps.
 
-### Périodes et événements historiques suggérés (focus européen)
+### Périodes et événements historiques européens suggérés
 
 | Époque | Événement exemple | Pays/Région | Idée de bug temporel |
 |---|---|---|---|
@@ -376,8 +376,6 @@ Ce guide accompagne les enseignant·e·s dans la mise en oeuvre de l'activité �
 - Tutoriels Scratch : https://scratch.mit.edu/ideas
 - BBC Bitesize History (en anglais) : https://www.bbc.co.uk/bitesize/subjects/zcw76sg
 - Ducksters European History (en anglais simplifié) : https://www.ducksters.com/history/
-
-Laissez votre classe explorer, créer et partager ses voyages uniques à travers le passé de l'Europe !
 
 ---
 
@@ -422,8 +420,6 @@ Options supplémentaires pour les enseignant·e·s :
 - Diffusez une musique dramatique en arrière-plan (recherchez « epic mission music » sur YouTube)
 - Éteignez les lumières ou utilisez des visuels pour créer du suspense
 - Remettez à chaque équipe un « Dossier d'Agent du temps » ou un badge pour commencer
-
-Que la mission commence !
 
 ---
 

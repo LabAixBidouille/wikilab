@@ -55,7 +55,7 @@ sidebar_position: 19
 
 :::info[Notes pour l'enseignant·e]
 
-Cette activité se concentre sur le développement des valeurs, de la réflexion éthique et de la prise de décision à travers de courts dilemmes moraux (annexe 3). Les élèves représenteront ces situations en créant des histoires interactives avec Scratch.
+Avec de courts dilemmes moraux (annexe 3), les élèves travaillent leurs valeurs, leur réflexion éthique et leur prise de décision. Ils représenteront ces situations en créant des histoires interactives avec Scratch.
 
 Le dilemme de Carla, une nouvelle élève qui subit des discriminations, est entièrement développé comme activité modèle.
 
@@ -80,7 +80,7 @@ Présentez ensuite le dilemme :
 
 > Un élève, Nil, voit deux de ses amis se moquer de Carla. Il sait que ce n'est pas bien... mais il a aussi peur que s'il dit quelque chose, ils se moquent de lui aussi. Que ferais-tu si tu étais Nil ? Est-ce que tu parlerais ? Tu resterais silencieux ? Tu changerais de sujet ?
 
-Cette introduction permet de poser le cadre émotionnel et éthique avant de passer à la création des histoires interactives.
+Cette introduction pose le cadre émotionnel et éthique avant la création des histoires interactives.
 
 
 ---
@@ -97,7 +97,7 @@ Cette introduction permet de poser le cadre émotionnel et éthique avant de pas
 
 :::
 
-Cette phase vise à guider les élèves dans le développement de leurs idées d'histoire et le démarrage de leur projet Scratch.
+Guidez les élèves pendant qu'ils développent leurs idées d'histoire et démarrent leur projet Scratch.
 
 ### Remue-méninges
 
@@ -149,7 +149,7 @@ Les élèves planifient le début, le milieu et la fin de leur histoire. Encoura
 
 :::
 
-Cette phase vise à accompagner les élèves dans la programmation, l'enregistrement et la répétition de leur histoire numérique, en intégrant tous les éléments narratifs.
+Les élèves programment, enregistrent et répètent leur histoire numérique, avec tous ses éléments narratifs.
 
 Accompagnez les élèves pendant qu'ils :
 
@@ -177,13 +177,12 @@ Laissez les élèves apporter les dernières améliorations à leur projet.
 ## Réflexion autour de la séquence
 
 
-Pour conclure, demandez aux groupes de présenter leurs projets en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement et à donner des retours positifs.
+Pour conclure, demandez aux groupes de présenter leurs projets en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement, à respecter les idées des autres et à donner des retours positifs.
 
 ### 1) Présentation des projets (10-15 min)
 
 - Affichez les créations Scratch sur l'écran.
 - Laissez chaque groupe présenter brièvement son projet (5 minutes maximum).
-- Encouragez l'écoute active et le respect des idées des autres.
 
 ### 2) Auto-évaluation guidée (5-10 min)
 
@@ -206,13 +205,11 @@ Cela peut se faire à l'oral ou à l'écrit, selon l'âge des élèves.
 
 ### 4) Clôture émotionnelle ou symbolique (facultatif)
 
-Vous pouvez terminer la séance par un geste symbolique :
+Vous pouvez terminer la séance par un geste symbolique qui valorise le travail accompli et ancre les apprentissages dans la réalité des élèves :
 
 - Afficher les solutions sur un « Mur des dilemmes et des valeurs ».
 - Partager un geste d'équipe ou un applaudissement collectif.
 - Écrire un engagement concret inspiré du dilemme résolu.
-
-Cette clôture permet de valoriser le travail accompli et d'ancrer les apprentissages dans la réalité des élèves.
 
 
 ---
@@ -280,7 +277,7 @@ Utilise cette grille pour vérifier que ton histoire Scratch contient tous les �
 
 Chaque dilemme présente une situation du quotidien qui invite les enfants à réfléchir à ce qu'ils feraient et comment leurs actions peuvent affecter les autres. Chaque dilemme est présenté avec une courte narration, une question centrale et des valeurs associées. Ces situations sont conçues pour encourager la réflexion, la narration et la création numérique avec des outils comme Scratch.
 
-Chaque groupe peut soit travailler sur le même dilemme, soit se répartir les différents dilemmes proposés, permettant ainsi une réflexion collective plus riche lors du partage des différentes histoires et points de vue.
+Les groupes peuvent tous travailler sur le même dilemme ou se répartir les dilemmes proposés. Le partage des différentes histoires et points de vue enrichit la réflexion collective.
 
 ### Dilemme 1 : Carla est différente... Et alors ? (Discrimination et courage)
 

@@ -54,13 +54,13 @@ sidebar_position: 22
 
 ## Points du programme abordés
 
-**« Comprendre et s'exprimer à l'oral », « Écrire », « Comprendre le fonctionnement de la langue », « Culture littéraire et artistique »** : programme de français, Cycle 3. « La Quête du Curry » développe les compétences linguistiques en amenant les élèves à créer collaborativement un récit interactif avec des embranchements. Ils pratiquent l'expression orale lors des échanges d'idées, maîtrisent l'écrit en élaborant diverses branches narratives, et s'approprient les caractéristiques d'un genre littéraire spécifique.
+**« Comprendre et s'exprimer à l'oral », « Écrire », « Comprendre le fonctionnement de la langue », « Culture littéraire et artistique »** : programme de français, Cycle 3. Dans « La Quête du Curry », les élèves créent ensemble un récit interactif avec des embranchements. Ils échangent leurs idées à l'oral, écrivent les différentes branches du récit et s'approprient les caractéristiques d'un genre littéraire, celui des « livres dont vous êtes le héros ».
 
-**« La sensibilité », « Le jugement »** : programme d'enseignement moral et civique, Cycle 3. Cette activité stimule la sensibilité des élèves qui doivent faire preuve d'écoute et d'empathie pour intégrer les idées de chacun, tout en développant leur réflexion critique pour évaluer les différents choix narratifs et leurs conséquences.
+**« La sensibilité », « Le jugement »** : programme d'enseignement moral et civique, Cycle 3. Pour intégrer les idées de chacun, les élèves doivent faire preuve d'écoute et d'empathie. Ils évaluent aussi de façon critique les différents choix narratifs et leurs conséquences.
 
-**« Chercher », « Raisonner », « Communiquer »** : programme de mathématiques, Cycle 3. L'activité mobilise les compétences mathématiques en amenant les élèves à organiser logiquement leur récit, à résoudre les problèmes d'interconnexion entre branches narratives, et à utiliser des représentations visuelles (algorigrammes) pour modéliser leur histoire.
+**« Chercher », « Raisonner », « Communiquer »** : programme de mathématiques, Cycle 3. Les élèves organisent leur récit de façon logique, résolvent les problèmes d'interconnexion entre les branches narratives et modélisent leur histoire avec une représentation visuelle, l'algorigramme.
 
-**« Pratiquer des démarches scientifiques et technologiques », « Concevoir », « S'approprier des outils et des méthodes »** : programme de sciences et technologie, Cycle 3. L'activité intègre les pratiques scientifiques en engageant les élèves dans une démarche de conception où ils modélisent leur récit, testent la cohérence des parcours narratifs, et potentiellement implémentent leur création dans un environnement numérique.
+**« Pratiquer des démarches scientifiques et technologiques », « Concevoir », « S'approprier des outils et des méthodes »** : programme de sciences et technologie, Cycle 3. La création du récit suit une démarche de conception : les élèves le modélisent, testent la cohérence des parcours narratifs et peuvent transposer leur création dans un environnement numérique.
 
 ## Liens utiles
 
@@ -109,9 +109,9 @@ L'activité « La Quête du Curry - Une histoire dont vous êtes le héros » in
 
 Concrètement, les élèves, regroupés en petits groupes, commencent par définir une trame narrative autour d'un thème choisi (par exemple, une aventure historique ou une quête fantastique). Ils identifient ensuite des points de décision clés dans l'histoire, où plusieurs options s'offrent au lecteur.
 
-À chaque embranchement, une condition est associée au choix proposé. Cette condition peut être déterminée par divers mécanismes : comme le lancer d'un dé, l'utilisation d'une carte, ou toute autre règle simple : qui rappellent les structures conditionnelles en algorithmique (du type « si... alors... »). Par exemple, « si le dé affiche un nombre pair, le héros traverse la forêt ; sinon, il contourne le village ». Ces conditions permettent d'introduire un élément d'aléa et de rendre le récit interactif et imprévisible.
+À chaque embranchement, une condition est associée au choix proposé. Cette condition peut dépendre du lancer d'un dé, de l'utilisation d'une carte ou de toute autre règle simple. Ces mécanismes rappellent les structures conditionnelles en algorithmique (du type « si... alors... »). Par exemple, « si le dé affiche un nombre pair, le héros traverse la forêt ; sinon, il contourne le village ». Ces conditions permettent d'introduire un élément d'aléa et de rendre le récit interactif et imprévisible.
 
-L'un des aspects essentiels de cette activité est la modélisation algorithmique. Une fois le récit conçu, chaque groupe d'élèves traduit l'ensemble des embranchements sous forme d'un algorigramme ou d'un diagramme de flux. Cette représentation visuelle aide à vérifier la cohérence de la narration.
+Vient ensuite la modélisation algorithmique : une fois le récit conçu, chaque groupe d'élèves traduit l'ensemble des embranchements sous forme d'un algorigramme ou d'un diagramme de flux. Cette représentation visuelle aide à vérifier la cohérence de la narration.
 
 ### Jeu d'introduction « Et si... »
 
@@ -122,9 +122,9 @@ Un premier élève reçoit le dé, le lance, et selon le résultat, poursuit l'h
 - Si le chiffre obtenu est pair, l'élève doit imaginer un événement positif (« Vous découvrez un coffre rempli de trésors »)
 - Si le chiffre est impair, l'élève doit introduire un obstacle ou une difficulté (« Un éboulement bloque soudain l'entrée de la grotte »).
 
-Le dé circule d'élève en élève, chacun·e ajoutant un élément à l'histoire collective en respectant la règle pair/impair, créant ainsi un récit collaboratif aux rebondissements imprévisibles.
+Le dé circule d'élève en élève, et chacun·e ajoute un élément à l'histoire collective en respectant la règle pair/impair. Le récit collectif connaît ainsi des rebondissements imprévisibles.
 
-Cette activité ludique permet d'introduire concrètement la notion de choix conditionnel tout en stimulant l'imagination narrative.
+Ce jeu introduit la notion de choix conditionnel et fait appel à l'imagination narrative des élèves.
 
 ### Découverte par l'expérience
 
@@ -175,7 +175,7 @@ Présentez clairement les objectifs de cette activité : approfondir le concept 
 
 Explicitez le lien avec la pensée computationnelle en introduisant de manière simple les notions algorithmiques qu'ils vont découvrir : conditions, embranchements et boucles.
 
-Mettez en lumière les compétences que cette activité va permettre de développer chez vos élèves :
+Indiquez les compétences que cette activité fait travailler à vos élèves :
 
 - la logique par l'élaboration de structures conditionnelles cohérentes,
 - la créativité narrative par l'invention d'histoires à multiples possibilités,
@@ -217,9 +217,9 @@ Après ces échanges, rassemblez les élèves pour un retour critique bienveilla
 
 Terminez la séance par une discussion collective où chaque groupe présente sa réalisation finale. Orientez la discussion vers les concepts algorithmiques découverts à travers cette activité : la notion de condition, la structure des embranchements, et comment ces éléments ont permis de créer un récit cohérent malgré sa complexité.
 
-Encouragez-les à partager les difficultés rencontrées et les solutions qu'ils ont trouvées, valorisant ainsi leur processus de résolution de problèmes. Vous pouvez créer des liens entre cette activité et d'autres disciplines, comme le français (structure narrative) ou les mathématiques (logique).
+Encouragez-les à partager les difficultés rencontrées et les solutions qu'ils ont trouvées, pour valoriser leur façon de résoudre les problèmes. Vous pouvez créer des liens entre cette activité et d'autres disciplines, comme le français (structure narrative) ou les mathématiques (logique).
 
-Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d'extension de leur travail pour la prochaine séance : transformation de leur labyrinthe narratif en format numérique, création d'un petit livre, ou élaboration d'un jeu de plateau basé sur leur histoire.
+Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d'extension de leur travail pour la prochaine séance : transformation de leur labyrinthe narratif en format numérique, création d'un petit livre, ou élaboration d'un jeu de plateau tiré de leur histoire.
 
 
 ---
@@ -236,7 +236,7 @@ Pour aller plus loin, vous pouvez présenter aux élèves les possibilités d'ex
 
 :::
 
-### Phase d'exploration : Vers quelle aventure allons-nous ?
+### Phase d'exploration : Choisir un format
 
 Présentez aux élèves les différentes possibilités pour prolonger et concrétiser leur labyrinthe narratif. Montrez des exemples concrets de chaque format pour inspirer leur créativité :
 
@@ -248,7 +248,7 @@ Présentez aux élèves les différentes possibilités pour prolonger et concré
 
 Présentez brièvement les avantages et les contraintes de chaque format. Puis, laissez les élèves se réorganiser en groupes selon leurs intérêts et leurs affinités pour ces différents formats.
 
-### Phase de création : Donnons vie à notre histoire
+### Phase de création : Donner vie à l'histoire
 
 Accompagnez chaque groupe en fonction de l'option choisie, en circulant d'un groupe à l'autre et en fournissant les ressources spécifiques nécessaires :
 
@@ -259,7 +259,7 @@ Accompagnez chaque groupe en fonction de l'option choisie, en circulant d'un gro
 | Jeu de plateau | Fournissez-leur du matériel pour créer leur plateau de jeu avec différents chemins. Aidez-les à concevoir des cartes événement et décision. Guidez-les dans l'élaboration de règles claires intégrant les mécanismes conditionnels. |
 | Kamishibaï / Genially | Montrez-leur comment adapter leur narration au format visuel choisi. Aidez-les à créer des illustrations efficaces. Guidez-les dans l'organisation des séquences pour préserver l'interactivité. |
 
-### Phase de test : Jouons et améliorons
+### Phase de test : Jouer et améliorer
 
 Invitez les élèves à développer une version minimale mais fonctionnelle de leur création. Rappelez-leur qu'il s'agit d'un prototype et non d'une version définitive.
 
@@ -275,11 +275,11 @@ Animez une discussion collective pour récapituler les concepts algorithmiques d
 
 Amenez les élèves à identifier eux-mêmes les compétences transversales qu'ils ont développées : créativité, logique, collaboration, analyse critique, communication visuelle.
 
-Présentez aux élèves une vision des prolongements possibles de cette activité :
+Présentez aux élèves les prolongements possibles de cette activité :
 
 1. Ce qu'ils ont fait : création de labyrinthes narratifs et leur transposition en différents formats
 2. Les prochaines étapes possibles : implémentation numérique plus avancée, création de jeux plus complexes
-3. Les horizons futurs : projets intégrant plusieurs disciplines, partage avec d'autres classes
+3. À plus long terme : projets intégrant plusieurs disciplines, partage avec d'autres classes
 
 Terminez par un tour de table rapide où chaque élève partage une chose qu'il a particulièrement appréciée dans cette séquence d'activités.
 
@@ -334,7 +334,7 @@ Situation initiale : Bluey et Bingo jouent à un jeu d'aventure au parc et déco
 
 ## Fiche guide - Le voyage du héros
 
-Le « voyage du héros » ou « monomythe », théorisé par Joseph Campbell dans *Le Héros aux mille visages*, offre une structure narrative puissante pour votre labyrinthe narratif. Cette structure universelle se retrouve dans de nombreux contes, mythes et récits à travers les cultures.
+Le « voyage du héros » ou « monomythe », théorisé par Joseph Campbell dans *Le Héros aux mille visages*, est une structure narrative que l'on retrouve dans de nombreux contes, mythes et récits de cultures différentes. Elle peut servir de trame à votre labyrinthe narratif.
 
 ### Les étapes clés du voyage du héros
 

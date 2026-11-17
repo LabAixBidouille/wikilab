@@ -79,7 +79,7 @@ Les compétences mobilisées sont les suivantes :
 - Sciences et technologie : Découvrir le magnétisme terrestre, pratiquer une démarche scientifique en calibrant un capteur et programmer un objet technique en équipe.
 - Mathématiques : Travailler sur les angles (90, 180, 270, 360 degrés), les directions et la relation entre degrés et points cardinaux.
 - Éducation physique et sportive : S'orienter dans un contexte sportif et ludique lors d'une course d'orientation avec le robot-boussole.
-- Arts plastiques : Concevoir et décorer le robot en carton, mobilisant création plastique et design.
+- Arts plastiques : Concevoir et décorer le robot en carton.
 
 ## Liens utiles
 
@@ -95,17 +95,17 @@ Les compétences mobilisées sont les suivantes :
 
 ## Préambule sur l'orientation robotique du projet
 
-La robotique éducative est souvent associée à des kits coûteux mais l'objectif de ce projet est d'illustrer le fait qu'avec une simple carte micro:bit, du carton de récupération et un peu de créativité, les élèves peuvent construire un robot fonctionnel qui leur apprend à s'orienter dans l'espace. Car qu'est-ce qu'un robot, sinon un objet physique capable de percevoir son environnement (ici, le champ magnétique terrestre) et d'y réagir (afficher une direction, faire tourner une flèche) ? Pas besoin de bras articulés ni de roues motorisées : notre robot-boussole en carton incarne parfaitement ce lien entre le code et le monde réel. L'élève programme des instructions, et un objet concret qu'il a fabriqué de ses mains répond à ces instructions. C'est cette magie de voir le numérique agir sur le physique qui rend la robotique captivante.
+La robotique éducative est souvent associée à des kits coûteux mais l'objectif de ce projet est d'illustrer le fait qu'avec une simple carte micro:bit, du carton de récupération et un peu de créativité, les élèves peuvent construire un robot fonctionnel qui leur apprend à s'orienter dans l'espace. Car qu'est-ce qu'un robot, sinon un objet physique capable de percevoir son environnement (ici, le champ magnétique terrestre) et d'y réagir (afficher une direction, faire tourner une flèche) ? Un robot n'a besoin ni de bras articulés ni de roues motorisées, et le robot-boussole en carton relie lui aussi le code au monde réel. L'élève programme des instructions, et un objet concret qu'il a fabriqué de ses mains répond à ces instructions.
 
-Ici, les élèves ne codent pas pour coder : ils codent pour comprendre comment fonctionne une boussole, pour s'orienter dans leur quartier, pour créer des parcours d'orientation. Le robot n'est pas une fin en soi, mais un compagnon d'apprentissage qui rend tangibles des notions abstraites comme les points cardinaux, les angles ou le magnétisme terrestre.
+Ici, les élèves programment pour comprendre comment fonctionne une boussole, pour s'orienter dans leur quartier et pour créer des parcours d'orientation. Le robot rend concrètes des notions abstraites comme les points cardinaux, les angles ou le magnétisme terrestre.
 
-Enfin, ce projet démontre qu'on peut faire de la robotique avec un budget minimal. Une carte micro:bit partagée entre plusieurs groupes, des boîtes de céréales, de la colle : voilà les ingrédients d'un robot qui n'a rien à envier aux kits du commerce, et qui a l'avantage d'être entièrement personnalisable et compréhensible par les élèves.
+Ce projet montre aussi qu'on peut faire de la robotique avec un budget minimal : une carte micro:bit partagée entre plusieurs groupes, des boîtes de céréales, de la colle. Le robot obtenu est entièrement personnalisable et compréhensible par les élèves.
 
 ## Introduction - Les enjeux de l'orientation spatiale
 
-Savoir s'orienter dans l'espace est une compétence fondamentale que les humains ont développée depuis des millénaires. Des étoiles aux boussoles magnétiques, des cartes papier aux GPS, les outils d'orientation ont évolué mais le besoin reste le même : savoir où l'on est et dans quelle direction aller. Dans cette séquence, les élèves vont construire leur propre outil d'orientation : un robot en carton équipé d'une boussole numérique. Ce projet leur permettra de comprendre concrètement comment fonctionne une boussole, de manipuler les notions de points cardinaux et de degrés, et de développer leurs compétences de repérage dans l'espace.
+Les humains s'orientent depuis des millénaires. Leurs outils ont changé, des étoiles à la boussole magnétique et de la carte papier au GPS, mais le besoin reste le même : savoir où l'on est et dans quelle direction aller. Dans cette séquence, les élèves vont construire leur propre outil d'orientation : un robot en carton équipé d'une boussole numérique.
 
-Le robot-boussole devient un compagnon d'apprentissage : son « visage » (la matrice LED de la carte micro:bit) affiche une flèche pointant vers le Nord, permettant aux élèves de s'orienter de manière ludique. La fabrication du robot en carton ajoute une dimension créative et personnalisable au projet, tandis que la programmation développe la pensée algorithmique. L'objectif final est double : maîtriser les concepts d'orientation spatiale du programme de géographie, tout en découvrant les possibilités offertes par la programmation et les capteurs numériques.
+Le « visage » du robot-boussole (la matrice LED de la carte micro:bit) affiche une flèche qui pointe vers le Nord, ce qui permet aux élèves de s'orienter en jouant. La programmation du robot développe la pensée algorithmique. Le projet a deux objectifs : maîtriser les notions d'orientation spatiale du programme de géographie et découvrir ce que permettent la programmation et les capteurs numériques.
 
 ---
 
@@ -130,7 +130,7 @@ Introduisez ensuite l'étymologie du mot « orientation » : il vient de « orie
 
 Présentez les quatre points cardinaux : Nord, Sud, Est, Ouest. Expliquez leur disposition dans l'ordre horaire (Nord, Est, Sud, Ouest) et faites remarquer que les directions opposées se font face (Nord/Sud, Est/Ouest).
 
-Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l'Est ! ». Ce jeu kinesthésique ancre les notions de manière corporelle.
+Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l'Est ! ». Ce jeu fait passer les notions par le corps.
 
 Montrez une boussole traditionnelle à la classe. Laissez les élèves l'observer : que voient-ils ? Une aiguille qui bouge, des lettres (N, S, E, O), des graduations... Expliquez que l'aiguille est aimantée et qu'elle pointe toujours vers le Nord magnétique grâce au champ magnétique terrestre.
 
@@ -182,7 +182,7 @@ Expliquez que ce bloc renvoie un nombre entre 0 et 359 correspondant à l'angle 
 
 ### Deux versions du projet
 
-Selon le niveau de vos élèves et le temps disponible, plusieurs versions du projet peuvent être explorées. En voici deux versions :
+Selon le niveau de vos élèves et le temps disponible, le projet peut prendre plusieurs formes, dont ces deux versions :
 
 | Caractéristiques du projet | Affichage simple sur la carte | Affichage sur la carte couplée d'une flèche motorisée sur le robot |
 |---|---|---|
@@ -212,7 +212,7 @@ Encouragez la créativité tout en rappelant les contraintes techniques. Un robo
 
 ### Programmation du robot-boussole
 
-Une fois les robots construits, ou en parallèle pour proposer aux élèves de tourner entre des ateliers manuels et des moments dédiés à la programmation, passez à la création du code permettant à vos "cardboard robots" de fonctionner.
+Une fois les robots construits, ou en parallèle pour proposer aux élèves de tourner entre des ateliers manuels et des moments dédiés à la programmation, passez au code qui fera fonctionner vos robots en carton.
 
 #### Étape 1 - Afficher la valeur brute
 
@@ -337,11 +337,11 @@ Le BBC micro:bit est une carte de programmation polyvalente qui peut être trans
 
 ### Qu'est-ce que MakeCode ?
 
-MakeCode est un environnement de programmation gratuit, basé sur navigateur, développé par Microsoft. Il propose une approche de codage visuelle par blocs qui rend la programmation accessible aux débutants tout en offrant des alternatives textuelles pour les utilisateurs plus avancés. Caractéristiques principales :
+MakeCode est un environnement de programmation gratuit développé par Microsoft, qui fonctionne dans le navigateur. Il propose une approche de codage visuelle par blocs qui rend la programmation accessible aux débutants tout en offrant des alternatives textuelles pour les utilisateurs plus avancés. Caractéristiques principales :
 
 - Gratuit et en ligne : Aucune installation requise ; fonctionne dans tout navigateur web moderne
 - Utilisable hors ligne : Une application téléchargeable est disponible pour Windows, macOS et Linux
-- Multi-langages : Supporte les blocs, JavaScript et Python
+- Multi-langages : Permet de programmer en blocs, en JavaScript et en Python
 - Simulateur inclus : Tester les programmes sans matériel physique
 - Documentation complète : Tutoriels, exemples et ressources enseignants intégrés
 
@@ -355,7 +355,7 @@ MakeCode propose trois façons d'écrire le même programme :
 
 Les trois modes sont interconnectés : les modifications dans un mode se reflètent dans les autres (avec quelques limitations pour le code Python complexe). Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
 
-Pour les élèves de 8 à 12 ans, nous recommandons d'utiliser le mode blocs car il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
+Pour les élèves de 8 à 12 ans, privilégiez le mode blocs : donner des instructions à leur robot avec des blocs leur paraîtra très logique et naturel.
 
 ### Si vous utilisez une carte micro:bit pour la première fois
 
