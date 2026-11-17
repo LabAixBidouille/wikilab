@@ -213,7 +213,7 @@ Si vous avez besoin de coordonnées exactes (par exemple pour une animation pixe
 
 ## Étape 3 : Améliorer
 
-Quatre défis dans l'esprit de la fiche d'origine, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2, on le rappelle ici une fois pour gagner de la place :
+Quatre défis, à faire dans l'ordre. Chaque défi part du même bloc d'initialisation que l'étape 2, on le rappelle ici une fois pour gagner de la place :
 
 ```python
 # Bloc d'initialisation commun à tous les défis ci-dessous.
