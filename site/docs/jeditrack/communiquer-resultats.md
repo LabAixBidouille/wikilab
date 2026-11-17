@@ -38,15 +38,15 @@ sidebar_position: 11
 
 ---
 
-> Dans l'animation jeunesse, valoriser le travail des participants passe souvent par la création de supports de communication qui donnent de la visibilité à leurs découvertes et réflexions. Que ce soit pour présenter les résultats d'une enquête de terrain, sensibiliser à une cause environnementale ou partager une expérience citoyenne, les supports visuels transforment des apprentissages individuels en messages collectifs percutants.
+> Dans l'animation jeunesse, on valorise souvent le travail des participants avec des supports de communication qui donnent de la visibilité à leurs découvertes et réflexions. Pour présenter les résultats d'une enquête de terrain, sensibiliser à une cause environnementale ou partager une expérience citoyenne, un support visuel rassemble ce que chacun a appris en un message collectif.
 >
-> **Cette fiche accompagne les animateurs dans la création de posters, affiches et infographies qui allient rigueur dans le contenu et impact visuel. L'objectif : permettre aux jeunes de communiquer efficacement leurs découvertes tout en développant leurs compétences créatives et citoyennes.**
+> Cette fiche accompagne les animateurs dans la création de posters, affiches et infographies rigoureux sur le fond et efficaces visuellement. L'objectif : que les jeunes communiquent efficacement leurs découvertes et développent leurs compétences créatives et citoyennes.
 
-:::info[Conseil : Pourquoi structurer la démarche de communication dans les projets jeunesse ?]
+:::info[Conseil : Ce que la démarche de communication apporte aux jeunes, au projet et au territoire]
 
-- **Pour les jeunes** : Ils développent leurs compétences de synthèse, apprennent à hiérarchiser l'information et découvrent le pouvoir de la communication visuelle. Voir leur travail transformé en support professionnel valorise leurs efforts et renforce leur confiance.
-- **Pour votre projet** : Un support visuel réussi multiplie l'impact de vos actions. Il permet de toucher de nouveaux publics, de sensibiliser les familles et de prouver concrètement la qualité du travail mené avec les jeunes.
-- **Pour le territoire** : Les productions visuelles des jeunes participent au débat public local. Elles donnent une voix authentique à la jeunesse sur les enjeux qui la concernent et enrichissent la communication citoyenne.
+- **Pour les jeunes** : Ils développent leurs compétences de synthèse, apprennent à hiérarchiser l'information et s'initient à la communication visuelle. Voir leur travail transformé en support professionnel valorise leurs efforts et renforce leur confiance.
+- **Pour votre projet** : Un support visuel réussi touche de nouveaux publics, sensibilise les familles et prouve concrètement la qualité du travail mené avec les jeunes.
+- **Pour le territoire** : Les productions visuelles des jeunes participent au débat public local et donnent la parole à la jeunesse sur les enjeux qui la concernent.
 
 :::
 
@@ -55,7 +55,7 @@ sidebar_position: 11
 | --- | --- | --- | --- |
 | **Usage** : Présenter les résultats d'une investigation de terrain (qualité de l'air, biodiversité, mobilités...) | **Usage** : Alerter sur une problématique locale ou promouvoir des comportements citoyens | **Usage** : Rendre accessible des données complexes sur le territoire | **Usage** : Raconter l'histoire d'un quartier, d'un enjeu environnemental, d'une transformation urbaine |
 | **Format** : A1 ou A0, structure claire avec introduction, méthode, résultats, conclusions | **Format** : A3 ou A2, message fort et visuel accrocheur | **Format** : Vertical pour réseaux sociaux ou horizontal pour exposition | **Format** : Grand format avec légendes et témoignages |
-| **Impact** : Valorise la démarche d'investigation et donne une crédibilité "recherche" au travail des jeunes | **Impact** : Mobilise l'opinion publique et positionne les jeunes comme acteurs du changement | **Impact** : Éduque le public et établit les jeunes comme source d'information fiable | **Impact** : Révèle des aspects méconnus du territoire et stimule la réflexion collective |
+| **Effet recherché** : Valoriser la démarche d'investigation et donner une crédibilité "recherche" au travail des jeunes | **Effet recherché** : Mobiliser l'opinion publique et présenter les jeunes comme acteurs du changement | **Effet recherché** : Éduquer le public et faire des jeunes une source d'information fiable | **Effet recherché** : Faire découvrir des aspects méconnus du territoire et stimuler la réflexion collective |
 
 <img src="/img/ressources/jeditrack/communiquer-resultats/Academic_Research_Poster_in_Cream_Pink_and_Yellow_Lined_Graphic_Style.png" alt="Exemple de poster de recherche" style={{maxWidth: '100%', marginBottom: '0.5rem'}} />
 
@@ -78,7 +78,7 @@ Exemple d'outil visuel et cartographique [disponible comme modèle dans Canva](h
 - **Brainstorming collectif** : Quelles sont nos 3 découvertes principales ?
 - **Test de l'ascenseur** : Expliquer l'essentiel en 30 secondes
 - **Public cible** : Pour qui créons-nous ce support ? (habitants, élus, autres jeunes, familles)
-- **Objectif d'impact** : Que voulons-nous que les gens retiennent/fassent après avoir vu notre support ?
+- **Effet attendu** : Que voulons-nous que les gens retiennent/fassent après avoir vu notre support ?
 
 ### Étape 2 : Structurer l'information
 - **Hiérarchiser** : Message principal > Messages secondaires > Détails
@@ -98,15 +98,15 @@ Exemple d'outil visuel et cartographique [disponible comme modèle dans Canva](h
 - **Préparation diffusion** : Formats d'export, canaux de communication
 - **Présentation collective** : Restitution publique du travail accompli
 
-:::info[Conseil : Utiliser l'intelligence artificielle comme amplificateur créatif]
+:::info[Conseil : Retravailler avec l'IA des créations faites à la main]
 
-Les jeunes arrivent avec des profils créatifs très variés : certains se sentent plus à l'aise avec le numérique, d'autres préfèrent l'expression manuelle, beaucoup naviguent entre les deux selon les contextes et leurs envies du moment. Certains peuvent aussi se sentir illégitimes à aborder les questions artistiques ou créatives, pensant qu'ils "ne savent pas dessiner" ou "n'ont pas d'idées". L'IA générative permet de créer une dynamique inclusive où chacun peut contribuer selon ses forces. Cette démarche offre également l'occasion d'accompagner les jeunes vers un usage éclairé de ces technologies, en gardant l'humain au centre du processus créatif.
+Les jeunes arrivent avec des profils créatifs très variés : certains se sentent plus à l'aise avec le numérique, d'autres préfèrent l'expression manuelle, beaucoup naviguent entre les deux selon les contextes et leurs envies du moment. Certains peuvent aussi se sentir illégitimes à aborder les questions artistiques ou créatives, pensant qu'ils "ne savent pas dessiner" ou "n'ont pas d'idées". Avec l'IA générative, chacun peut contribuer selon ses forces. Cette démarche est aussi l'occasion d'accompagner les jeunes vers un usage éclairé de ces technologies, en gardant les jeunes au centre du processus créatif.
 
-**La méthode valorise tous les talents :** au sein du projet Jedi Track, nous avons testé une méthodologie créative qui valorise les envies et les talents de chacun. Les jeunes commencent toujours par créer leurs concepts à la main - dessins, croquis, collages sur papier. Cette étape déconnectée du numérique préserve le lien avec l'expression spontanée et permet à chacun de s'exprimer sans barrière technique. Cette diversité d'expression manuelle est ensuite harmonisée grâce à l'IA qui transforme l'ensemble en propositions visuelles cohérentes.
+Dans le projet JediTrack, nous avons testé une méthode créative qui valorise les envies et les talents de chacun. Les jeunes commencent toujours par créer leurs concepts à la main - dessins, croquis, collages sur papier. Cette étape déconnectée du numérique préserve le lien avec l'expression spontanée et permet à chacun de s'exprimer sans barrière technique. Cette diversité d'expression manuelle est ensuite harmonisée grâce à l'IA qui transforme l'ensemble en propositions visuelles cohérentes.
 
-Les créations sont photographiées et utilisées pour générer des versions abouties via ChatGPT, Midjourney ou [Leonardo.ai](http://leonardo.ai/). Les résultats sont soumis au vote de la communauté pour validation collective. Enfin, les participants - qu'ils soient experts Canva ou débutants - collaborent pour finaliser leur création en combinant les éléments préférés.
+Les créations sont photographiées et utilisées pour générer des versions abouties via ChatGPT, Midjourney ou [Leonardo.ai](http://leonardo.ai/). Les résultats sont soumis au vote de la communauté. Enfin, les participants - qu'ils soient experts Canva ou débutants - collaborent pour finaliser leur création en combinant les éléments préférés.
 
-Cette approche permet à chaque jeune de se sentir légitime dans le processus créatif, indépendamment de son niveau technique. Elle crée aussi des opportunités de transmission de compétences entre pairs, les plus à l'aise avec les outils aidant les autres à progresser.
+Avec cette approche, chaque jeune peut se sentir légitime dans le processus créatif, quel que soit son niveau technique. C'est aussi l'occasion d'une transmission de compétences entre pairs : les plus à l'aise avec les outils aident les autres à progresser.
 
 :::
 
@@ -116,7 +116,7 @@ Cette approche permet à chaque jeune de se sentir légitime dans le processus c
 
 - [ ]  **Message défini** : Savoir précisément ce qu'on veut communiquer
 - [ ]  **Public identifié** : Connaître l'audience cible et ses codes
-- [ ]  **Objectif clair** : Définir l'impact souhaité sur les destinataires
+- [ ]  **Objectif clair** : Définir l'effet souhaité sur les destinataires
 - [ ]  **Contenu prêt** : Avoir collecté toutes les infos/données nécessaires
 - [ ]  **Outils testés** : Maîtriser soi-même les logiciels qu'on va utiliser
 
@@ -125,7 +125,7 @@ Cette approche permet à chaque jeune de se sentir légitime dans le processus c
 - [ ]  **Simplicité maintenue** : Résister à la tentation de tout mettre
 - [ ]  **Cohérence surveillée** : Vérifier l'harmonie visuelle globale
 - [ ]  **Lisibilité testée** : Faire lire à distance et par des tiers
-- [ ]  **Exactitude garantie** : Double-vérifier toutes les informations
+- [ ]  **Exactitude garantie** : Revérifier toutes les informations
 - [ ]  **Motivation entretenue** : Valoriser les contributions de chacun
 
 #### Après la création
@@ -139,21 +139,21 @@ Cette approche permet à chaque jeune de se sentir légitime dans le processus c
 ## Aller plus loin - Découvrir le "Visual Data Storytelling" : Raconter une histoire avec vos visuels
 
 ### Construction d'une narration visuelle
-Créer un support visuel efficace ne se résume pas à juxtaposer des éléments graphiques. Il faut construire un parcours délibéré qui guide le lecteur à travers une progression d'idées, comme une histoire avec un début, un développement et une fin : présentation du problème, explication de la méthode d'investigation, révélation des découvertes principales, et conclusions.
+Un support visuel efficace demande un parcours construit qui guide le lecteur à travers une progression d'idées, comme une histoire avec un début, un développement et une fin : présentation du problème, explication de la méthode d'investigation, révélation des découvertes principales, et conclusions.
 
-Le concept de "flow visuel" organise les éléments pour créer un mouvement naturel de l'oeil. Les lignes directrices invisibles, créées par l'alignement des éléments et l'utilisation stratégique des espaces blancs, conduisent le regard d'une section à l'autre. Des flèches subtiles ou des variations progressives de couleur renforcent cette continuité narrative.
+Le "flow visuel" consiste à organiser les éléments pour créer un mouvement naturel de l'œil. Les lignes directrices invisibles, créées par l'alignement des éléments et les espaces blancs, conduisent le regard d'une section à l'autre. Des flèches subtiles ou des variations progressives de couleur renforcent cette continuité narrative.
 
-Les métaphores visuelles rendent les concepts abstraits plus accessibles aux jeunes et à leur public. Un processus cyclique peut être représenté par un diagramme circulaire, une hiérarchie par une structure pyramidale. Ces métaphores facilitent la compréhension intuitive tout en ajoutant une dimension esthétique.
+Les métaphores visuelles rendent les concepts abstraits plus accessibles aux jeunes et à leur public. Un processus cyclique peut être représenté par un diagramme circulaire, une hiérarchie par une structure pyramidale. Ces métaphores facilitent la compréhension intuitive et ajoutent une dimension esthétique.
 
 ### Hiérarchisation visuelle
-La hiérarchie visuelle s'établit par la taille, la couleur, le contraste et la position. Les éléments critiques bénéficient d'une combinaison de ces facteurs pour attirer l'attention. Appliquez le principe de la pyramide inversée : les informations les plus importantes apparaissent en premier et de manière proéminente, suivies des détails progressivement plus spécifiques.
+La hiérarchie visuelle s'établit par la taille, la couleur, le contraste et la position. Les éléments les plus importants combinent plusieurs de ces facteurs pour attirer l'attention. Appliquez le principe de la pyramide inversée : les informations principales apparaissent en premier et bien en évidence, suivies des détails progressivement plus spécifiques.
 
-Créez des points focaux stratégiques en utilisant le contraste : un graphique coloré sur fond neutre, un encadré contrastant pour une conclusion importante, ou une image frappante servent d'ancres visuelles qui communiquent immédiatement l'essence du message.
+Créez des points focaux en utilisant le contraste : un graphique coloré sur fond neutre, un encadré contrastant pour une conclusion importante, ou une image frappante servent d'ancres visuelles qui communiquent immédiatement le message principal.
 
 ### Équilibre entre éléments
-L'équilibre visuel ne signifie pas symétrie parfaite. Un équilibre asymétrique crée plus de dynamisme tout en maintenant l'harmonie. La règle des tiers guide le placement des éléments clés aux intersections des lignes imaginaires divisant l'espace en neuf sections.
+L'équilibre visuel peut être asymétrique : la page gagne alors en dynamisme et reste harmonieuse. La règle des tiers guide le placement des éléments clés aux intersections des lignes imaginaires divisant l'espace en neuf sections.
 
-Visez un ratio de 30% de texte pour 70% d'éléments visuels - cela force les jeunes à synthétiser leurs idées. Les espaces blancs (20-30% de la surface) ne constituent pas du gaspillage mais des zones de respiration essentielles. La cohérence stylistique unifie l'ensemble : mêmes polices, couleurs et styles graphiques utilisés de façon systématique.
+Visez un ratio de 30% de texte pour 70% d'éléments visuels - cela force les jeunes à synthétiser leurs idées. Les espaces blancs (20-30% de la surface) servent de zones de respiration. La cohérence stylistique unifie l'ensemble : mêmes polices, couleurs et styles graphiques utilisés de façon systématique.
 
 ## Références
 

@@ -40,37 +40,37 @@ sidebar_position: 4
 
 ---
 
-**A la recherche d'une activité qui rassemble les générations autour d'un projet concret, d'un moyen de sensibiliser aux enjeux locaux ou d'une animation qui favorise la citoyenneté active, cette fiche accompagne les animateurs et éducateurs dans l'organisation de cartoparties intergénérationnelles avec une méthodologie éprouvée, des outils pratiques et des conseils pour créer du lien social durable.**
+Cette fiche accompagne les animateurs et éducateurs qui organisent une cartopartie intergénérationnelle, pour rassembler les générations autour d'un projet concret, sensibiliser aux enjeux locaux et encourager la citoyenneté active. Elle donne une méthode, des outils pratiques et des conseils pour créer du lien social.
 
-Une **cartopartie** est un projet collaboratif de cartographie, où les participants se rendent sur le terrain pour relever des informations géographiques. Elle permet d'aborder des **problématiques locales** qui touchent directement le quotidien des habitants (accessibilité, environnement, infrastructures), tout en favorisant des échanges entre tous les membres de la communauté. Cette activité rassemble des citoyens de tous âges et horizons, chacun apportant sa perspective unique : les résidents de longue date partagent leur connaissance approfondie du territoire, tandis que les nouveaux arrivants et les jeunes apportent un regard neuf et des compétences variées pour la collecte et l'organisation des données.
+Une **cartopartie** est un projet collaboratif de cartographie, où les participants se rendent sur le terrain pour relever des informations géographiques. Elle aborde des problématiques locales qui touchent directement le quotidien des habitants (accessibilité, environnement, infrastructures) et fait échanger tous les membres de la communauté. Elle rassemble des citoyens de tous âges et horizons : les résidents de longue date connaissent bien le territoire, les nouveaux arrivants et les jeunes y portent un regard neuf et ont des compétences variées pour collecter et organiser les données.
 
-Ce moment collectif encourage la **citoyenneté active**, en sensibilisant l'ensemble des participants aux enjeux de leur quartier et à l'importance de l'amélioration de leur environnement commun. La diversité des participants enrichit les échanges et permet une compréhension plus globale des besoins de la communauté, favorisant ainsi des solutions plus inclusives et représentatives de tous les habitants. Les objectifs d'une cartopartie intergénérationnelle sont variés :
+Ce moment collectif encourage la citoyenneté active : il sensibilise les participants aux enjeux de leur quartier et à l'amélioration de leur environnement commun. La diversité des participants enrichit les échanges, donne une compréhension plus globale des besoins de la communauté et favorise des solutions plus inclusives et représentatives de tous les habitants. Les objectifs d'une cartopartie intergénérationnelle sont variés :
 
 1. **Renforcer le lien social** en permettant aux citoyens de collaborer sur un projet concret et utile.
 2. **Sensibiliser aux problématiques locales**, comme l'accessibilité et la qualité de vie dans l'espace public.
 3. **Encourager l'observation et l'esprit critique** sur les aménagements urbains et leur impact sur la communauté.
-4. **Créer du sens autour d'une action collective**, en impliquant chaque participant dans l'amélioration de son environnement.
+4. **Impliquer chaque participant** dans l'amélioration de son environnement.
 5. **Initier à la cartographie** en familiarisant les participants avec les concepts de base de la représentation spatiale et de la collecte de données géographiques.
 
 :::info[Conseil pour l'animateur]
-Parce que les participants ne subissent pas une présentation sur leur quartier, ils *l'explorent* activement. Ils observent, échangent leurs points de vue, découvrent des aspects méconnus de leur environnement... Et pendant qu'ils cartographient ensemble, ils créent naturellement du lien social, développent leur regard critique et renforcent leur sentiment d'appartenance à la communauté.
-La cartopartie présente l'avantage unique de transformer chaque participant en expert de son environnement. Les seniors apportent leur mémoire collective et leur connaissance historique des lieux, tandis que les plus jeunes contribuent avec leur capacité d'observation fine et leurs compétences organisationnelles. Cette **complémentarité générationnelle** enrichit considérablement la qualité des données collectées et crée des moments d'apprentissage mutuel particulièrement valorisants. De plus, contrairement à de nombreuses activités participatives, la cartopartie **produit des résultats concrets et durables qui bénéficient directement à la communauté locale**, renforçant ainsi le sentiment d'utilité et d'engagement des participants.
+Les participants explorent eux-mêmes leur quartier : ils observent, échangent leurs points de vue et découvrent des aspects méconnus de leur environnement. En le cartographiant ensemble, ils renforcent aussi leur sentiment d'appartenance à la communauté.
+Chaque participant devient expert de son environnement. Jeunes et seniors se complètent, ce qui améliore la qualité des données collectées et crée des moments d'apprentissage mutuel. La cartopartie produit des résultats concrets et durables pour la communauté locale, ce qui renforce le sentiment d'utilité et l'engagement des participants.
 :::
 
-## Que trouverez-vous dans cette fiche ?
+## Contenu de la fiche
 
-- **Une méthodologie pour la préparation méthodique de votre cartopartie** — 4 étapes essentielles : choisir un thème pertinent, définir la zone à cartographier, préparer des cartes lisibles et rassembler le matériel nécessaire
-- **Des conseils pour la conduite de l'activité** — 3 phases clés : poser les bases de l'activité, collecter des données sur le quartier et échanger sur les observations
-- **Une stratégie de continuité après l'événement** — Contribuer à OpenStreetMap et rendre les données visibles localement pour créer un impact durable
-- **Une organisation pratique de vos séances** — Notre checklist pour les animateurs
-- **Un accompagnement basé sur l'expérience** — 5 recommandations pratiques pour réussir votre cartopartie intergénérationnelle
+- **Préparation en amont** : quatre étapes (choisir un thème pertinent, définir la zone à cartographier, préparer des cartes lisibles et rassembler le matériel nécessaire).
+- **Déroulé de la cartopartie** : trois phases (poser les bases de l'activité, collecter des données sur le quartier et échanger sur les observations).
+- **Activités de continuation et valorisation** : contribuer à OpenStreetMap et rendre les données visibles localement.
+- **Checklist pour les animateurs** : l'organisation pratique de vos séances.
+- **Nos derniers conseils** : cinq recommandations tirées de l'expérience pour réussir votre cartopartie intergénérationnelle.
 
 ## Préparation en amont
 
-### Choisir un thème : Quel thématique touche notre public cible de manière pertinente et engageante ?
-Sélectionner un thème approprié est la première étape cruciale pour organiser une cartopartie. Il est impossible -- et peu judicieux -- de tout cartographier dans une zone donnée. Non seulement cela serait excessivement complexe en termes d'observation, mais aussi peu pertinent pour l'analyse. Le thème choisi doit être précis, concret et directement lié aux préoccupations locales des participants. Cette approche donne du sens à l'activité et encourage l'implication de chacun. Le thème doit refléter les enjeux spécifiques du quartier ou de la communauté, tout en permettant d'identifier facilement des points d'intérêt sur la zone sélectionnée. Optez pour un sujet que tous les participants peuvent comprendre, s'approprier et observer aisément. Privilégiez des thèmes où les observations peuvent déboucher sur des améliorations concrètes. Enfin, assurez-vous que le thème puisse susciter l'intérêt des participants de tous âges.
+### Choisir un thème
+Choisir un thème est la première étape pour organiser une cartopartie. Il est impossible, et peu judicieux, de tout cartographier dans une zone donnée : ce serait trop complexe à observer et peu utile pour l'analyse. Le thème choisi doit être précis, concret et lié aux préoccupations locales des participants comme aux enjeux du quartier ou de la communauté. Il doit aussi permettre de repérer facilement des points d'intérêt sur la zone sélectionnée. Optez pour un sujet que tous les participants peuvent comprendre, s'approprier et observer aisément, et qui puisse intéresser les participants de tous âges. Privilégiez les thèmes où les observations peuvent déboucher sur des améliorations concrètes.
 
-Pour vous aider dans l'exploration du thème, vous pouvez utilisez le vade-mecum de l'OSMeur. Ces fiches « pense-bête » au format PDF et/ou ODT, en A5 recto-verso, en noir et blanc, servent de complément aux cartes papier, peuvent être distribuées lors des cartoparties ou emportées partout pour savoir quoi noter et comment. Vous pouvez les utiliser telles quelles ou créer votre propre version adaptée à vos besoins, en vous en servant comme source d'information et d'inspiration. Voici quelques thèmes exemplifiant la démarche :
+Pour vous aider dans l'exploration du thème, vous pouvez utiliser le vade-mecum de l'OSMeur. Ces fiches « pense-bête » au format PDF et/ou ODT, en A5 recto-verso, en noir et blanc, servent de complément aux cartes papier, peuvent être distribuées lors des cartoparties ou emportées partout pour savoir quoi noter et comment. Vous pouvez les utiliser telles quelles ou créer votre propre version adaptée à vos besoins, en vous en servant comme source d'information et d'inspiration. Voici quelques thèmes exemplifiant la démarche :
 
 | **Thèmes** | **Exemples de points d'intérêt** | **Accès au vade-mecum** |
 | --- | --- | --- |
@@ -81,8 +81,8 @@ Pour vous aider dans l'exploration du thème, vous pouvez utilisez le vade-mecum
 
 ---
 
-### Définir la zone à cartographier : Où commence et où s'arrête notre cartographie ?
-La zone doit être directement liée au thème choisi et facilement accessible pour tous les participants. Elle doit être suffisamment vaste pour offrir des observations variées, mais pas trop étendue pour être couverte dans le temps imparti. Vous pouvez diviser la zone en groupes. Un groupe de 6 cartographes constitue une bonne limite. En effet, 3 rôles principaux (responsable de la carte, de la relève et de la photographie) seront distribués au sein du groupe, permettant d'avoir un responsable et un suppléant pour chaque rôle. Divisez votre zone en autant de groupes que nécessaire pour que l'ensemble de vos participants ait un rôle. Privilégiez une zone que la majorité des participants connaissent bien, ce qui facilitera les échanges et les observations. Assurez-vous que la zone choisie présente des éléments intéressants à observer en lien avec votre thème. Votre zone de cartopartie doit répondre aux critères suivants :
+### Définir la zone à cartographier
+La zone doit être directement liée au thème choisi et facilement accessible pour tous les participants. Elle doit être suffisamment vaste pour offrir des observations variées, mais pas trop étendue pour être couverte dans le temps imparti. Vous pouvez diviser la zone en groupes. Un groupe de 6 cartographes est une bonne limite : 3 rôles principaux (responsable de la carte, de la relève et de la photographie) seront distribués au sein du groupe, avec un responsable et un suppléant pour chaque rôle. Divisez votre zone en autant de groupes que nécessaire pour que l'ensemble de vos participants ait un rôle. Privilégiez une zone que la majorité des participants connaissent bien, ce qui facilitera les échanges et les observations. Assurez-vous que la zone choisie présente des éléments intéressants à observer en lien avec votre thème. Votre zone de cartopartie doit répondre aux critères suivants :
 
 - [ ]  Être accessible à tous les participants, y compris les personnes à mobilité réduite
 - [ ]  Offrir une diversité d'éléments à observer en lien avec le thème choisi
@@ -92,12 +92,12 @@ La zone doit être directement liée au thème choisi et facilement accessible p
 
 ---
 
-### Préparer les cartes : Comment faciliter le travail de relève grâce à des cartes lisibles ?
-Une fois la zone définie et la répartition par groupe effectuée, la création des dossiers de relève, en particulier des **cartes**, constitue l'étape suivante. Cette phase exige du temps, de la préparation et de la rigueur. Des cartes claires et faciles à lire permettent aux participants de localiser précisément les points d'intérêt sur le terrain et de les noter efficacement. La lisibilité des cartes réduit les erreurs de localisation et garantit une collecte de données plus fiable. Elle encourage tous les participants, quel que soit leur niveau d'expertise en cartographie, à s'impliquer activement dans l'activité. Grâce à des cartes bien conçues, les participants peuvent se concentrer sur l'observation et la collecte de données plutôt que sur l'orientation. En outre, des cartes adaptées à l'annotation sur le terrain permettent aux participants de consigner rapidement et efficacement leurs observations.
+### Préparer les cartes
+Une fois la zone définie et les groupes répartis, l'étape suivante est la création des dossiers de relève, en particulier des cartes. Elle demande du temps, de la préparation et de la rigueur. Des cartes claires, faciles à lire et à annoter permettent aux participants de localiser précisément les points d'intérêt sur le terrain et de noter rapidement leurs observations. Leur lisibilité réduit les erreurs de localisation et rend la collecte de données plus fiable. Tous les participants, quel que soit leur niveau en cartographie, peuvent alors s'impliquer et se concentrer sur l'observation plutôt que sur l'orientation.
 
-OpenStreetMap offre de nombreuses possibilités pour créer des cartes papier de haute résolution. Vous pouvez trouver sur le wiki (https://wiki.openstreetmap.org/wiki/OSM_on_Paper) un comparatif des outils qui existent et vous permettent **d'imprimer des fonds de carte, et parfois (fonctionnalité recommandée) de diviser une zone en plusieurs cartes en format A3, A4, A5 ...**
+OpenStreetMap offre de nombreuses possibilités pour créer des cartes papier de haute résolution. Vous pouvez trouver sur le wiki (https://wiki.openstreetmap.org/wiki/OSM_on_Paper) un comparatif des outils qui existent et vous permettent d'imprimer des fonds de carte, et parfois (fonctionnalité recommandée) de diviser une zone en plusieurs cartes en format A3, A4, A5 ...
 
-Voici les critères essentiels pour vos cartes de cartopartie :
+Les cartes de votre cartopartie doivent :
 
 - [ ]  Être à une échelle appropriée pour le thème choisi
 - [ ]  Couvrir la zone sélectionnée de manière complète
@@ -107,33 +107,32 @@ Voici les critères essentiels pour vos cartes de cartopartie :
 
 :::info[Notre choix : Milvusmap]
 http://milvusmap.eu/
-Milvusmap est un outil en ligne gratuit qui permet de créer des cartes personnalisées à partir des données OpenStreetMap. Il offre une interface simple et intuitive pour générer des cartes au format PDF, idéales pour les cartoparties et autres activités de cartographie sur le terrain.
-Il offre des données de terrain en haute résolution et permet de générer des cartes multi-pages dans divers formats, allant du A5 au A3. Les utilisateurs peuvent choisir parmi une gamme d'échelles standard, de 1:50000 à 1:1000. Cet outil gratuit ne nécessite pas d'inscription et bénéficie de mises à jour régulières des données OpenStreetMap. Les cartes sont exportées au format PDF, ce qui facilite leur impression et leur utilisation lors des cartoparties.
-Les avantages principaux de l'outil qui nous ont poussé à le choisir sont :
-- Sa facilité d'utilisation : il n'y a pas besoin de compte ou de compréhension particulière, les éléments à paramétrer sont minimes.
-- La possibilité de changer l'échelle : le ratio d'échelle est assez large, ce qui permet d'avoir des cartes cohérentes par rapport aux besoins d'annotation.
-- La possibilité de diviser la carte sur plusieurs pages : cet option est un incontournable pour l'organisation d'une cartopartie, car cela permet de mieux gérer l'annotation. En complément, Milvusmap permet également de créer une zone de chevauchement entre les différentes pages, ce qui facilite l'orientation des cartographes en herbe.
-- La colorisation et les informations présents par défaut sur les cartes sont limités et facile à lire, ce qui aide à la fois à l'orientation et à l'annotation.
-- La présence d'une page de garde : le logiciel propose d'intégrer une page de garde pour les zones découpés en plusieurs pages. Cela permet d'avoir une page présentant la totalité de la zone et la manière dont les différentes pages sont organisées. Cela facilite l'orientation des participants.
+Milvusmap est un outil en ligne gratuit qui permet de créer des cartes personnalisées à partir des données OpenStreetMap, qu'il met à jour régulièrement. Il fournit des données de terrain en haute résolution, propose des formats du A5 au A3 et exporte les cartes au format PDF, ce qui facilite leur impression.
+Les avantages principaux de l'outil qui nous ont poussés à le choisir sont :
+- Sa facilité d'utilisation : il n'y a pas besoin d'inscription ni de compréhension particulière, les éléments à paramétrer sont minimes.
+- La possibilité de changer l'échelle : la gamme d'échelles standard est assez large, de 1:50000 à 1:1000, ce qui permet d'adapter les cartes aux besoins d'annotation.
+- La possibilité de diviser la carte sur plusieurs pages : l'annotation est plus facile à gérer. Milvusmap peut aussi créer une zone de chevauchement entre les pages, ce qui aide les cartographes en herbe à s'orienter.
+- La colorisation et les informations présentes par défaut sur les cartes sont limitées et faciles à lire, ce qui aide à la fois à l'orientation et à l'annotation.
+- La présence d'une page de garde : pour une zone découpée en plusieurs pages, le logiciel peut ajouter une page qui présente la totalité de la zone et l'organisation des différentes pages, ce qui aide les participants à s'orienter.
 
 <img src="/img/ressources/jeditrack/mini-projet-4-cartopartie/image.png" alt="Exemple de carte Milvusmap" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 :::
 
 ---
 
-### Préparer le matériel : Comment s'équiper efficacement pour une cartopartie réussie ?
-La préparation du matériel est une étape cruciale pour garantir le bon déroulement de votre cartopartie. Un équipement bien pensé facilitera le travail des participants sur le terrain et assurera la collecte efficace des données. Commencez par imprimer les **cartes détaillées** de la zone à cartographier, qui serviront de base pour les annotations. Prévoyez des **stylos** et des **crayons** pour noter les observations, ainsi que des **surligneurs** pour marquer les rues déjà parcourues. Cette technique simple permet de différencier facilement les zones cartographiées de celles restant à explorer, évitant ainsi les doublons ou les oublis.
+### Préparer le matériel
+Commencez par imprimer les cartes détaillées de la zone à cartographier, qui serviront de base pour les annotations. Prévoyez des stylos et des crayons pour noter les observations, ainsi que des surligneurs pour marquer les rues déjà parcourues. Les rues surlignées se distinguent de celles qui restent à explorer, ce qui évite les doublons et les oublis.
 
-Équipez chaque groupe de **porte-blocs** pour faciliter la prise de notes en mouvement (un pour les cartes, un pour les fiches de relève), et **d'appareils photo** ou de **smartphones** pour documenter visuellement les points d'intérêt. Préparez à l'avance des **fiches de relève** adaptées à votre thème spécifique, incluant les champs nécessaires pour une collecte de données structurée. N'oubliez pas d'inclure une **fiche d'aide** résumant les éléments clés à observer et noter, inspirée des vade-mecum mentionnés précédemment. Cette fiche servira de guide rapide sur le terrain, assurant une cohérence dans les relevés entre les différents groupes.
+Équipez chaque groupe de porte-blocs pour faciliter la prise de notes en mouvement (un pour les cartes, un pour les fiches de relève), et d'appareils photo ou de smartphones pour documenter visuellement les points d'intérêt. Préparez à l'avance des fiches de relève adaptées à votre thème, avec les champs nécessaires pour une collecte de données structurée. N'oubliez pas d'inclure une fiche d'aide qui résume les éléments clés à observer et noter, inspirée des vade-mecum mentionnés plus haut. Cette fiche servira de guide rapide sur le terrain et rendra les relevés cohérents d'un groupe à l'autre.
 
 :::info
 **Exemple de fiche de relève** : https://www.canva.com/design/DAGRNiK1P74/UvSCusJWdBacl4hgMO7COQ/view?utm_content=DAGRNiK1P74&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview
 **Exemple de vade-mecum appliquée à l'accessibilité** : https://www.canva.com/design/DAGRNj_0XM4/OhWXPX7idiO4h4ZQu7YUcA/view?utm_content=DAGRNj_0XM4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview
 :::
 
-Enfin, pour garantir la sécurité de tous les participants, en particulier dans les zones à forte circulation, **fournissez des gilets de sécurité à chaque groupe**. Ce matériel de base, bien que simple, est essentiel pour une cartopartie réussie, permettant aux participants de se concentrer pleinement sur l'observation et la collecte de données sans se soucier de l'organisation logistique.
+Pour la sécurité de tous les participants, en particulier dans les zones à forte circulation, **fournissez des gilets de sécurité à chaque groupe**.
 
-N'oubliez pas de prévoir un **téléphone pour l'encadrant** afin de faciliter la communication entre les groupes et la coordination de l'activité. Une préparation minutieuse du matériel contribuera grandement au succès de votre cartopartie en permettant aux participants de se concentrer pleinement sur l'observation et la collecte de données.
+N'oubliez pas de prévoir un téléphone pour l'encadrant afin de faciliter la communication entre les groupes et la coordination de l'activité.
 
 ## Déroulé de la cartopartie
 
@@ -141,8 +140,8 @@ Une fois que tous les préparatifs sont terminés, la date fixée et les partici
 
 ---
 
-### Poser les bases de l'activité : Comment introduire et expliquer la cartopartie ?
-Commencez par une présentation claire du thème choisi et de son importance pour la communauté. Expliquez les rôles au sein de chaque groupe et détaillez l'utilisation des cartes et des fiches de relevé. Cette étape est cruciale pour sensibiliser les participants et les motiver à s'impliquer activement dans le projet. Assurez-vous que tous comprennent bien les objectifs et le déroulement de l'activité. Donnez leur également des conseils sur l'utilisation du matériel, la manière de faire le relevé, l'utilisation des surligneurs ...
+### Poser les bases de l'activité
+Commencez par présenter clairement le thème choisi et son importance pour la communauté. Expliquez les rôles au sein de chaque groupe et détaillez l'utilisation des cartes et des fiches de relevé. Cette étape sert à sensibiliser les participants et à les motiver à s'impliquer dans le projet. Assurez-vous que tous comprennent bien les objectifs et le déroulement de l'activité. Donnez-leur également des conseils sur l'utilisation du matériel, la manière de faire le relevé, l'utilisation des surligneurs ...
 
 Répartissez les participants dans leurs groupes, distribuez-leur les cartes, et laissez-leur du temps pour découvrir le matériel. Une fois fait, demandez-leur d'identifier avant de partir qui sera en charge de quoi (un responsable et un suppléant) :
 
@@ -152,50 +151,50 @@ Répartissez les participants dans leurs groupes, distribuez-leur les cartes, et
 
 ---
 
-### Collecter des données sur le quartier : Comment explorer le terrain efficacement ?
-Une fois l'ensemble des consignes données et les groupes formés, laissez-les partir librement en exploration à la découverte du quartier choisi pour relever les points d'intérêt liés au thème. Ils notent les lieux importants sur la carte, remplissent les fiches de relevé et prennent des photos. Prévoyez un animateur « volant » : c'est une bonne pratique pour s'assurer que tous les groupes travaillent au même rythme et que personne n'a de problèmes de compréhension de l'activité. Cet animateur volant peut communiquer directement avec les groupes -- pensez à collecter un numéro de téléphone d'un référent par groupe -- et il est préférable qu'il ou elle soit véhiculé(e) afin de pouvoir naviguer facilement entre les groupes. Prévoyez un point de ralliement commun -- il peut être judicieux de penser à cet aspect au moment de la découpe des zones de cartographie -- et, si besoin, le rapatriement des groupes se trouvant aux extrémités de la zone.
+### Collecter des données sur le quartier
+Une fois l'ensemble des consignes données et les groupes formés, laissez-les partir librement en exploration à la découverte du quartier choisi pour relever les points d'intérêt liés au thème. Ils notent les lieux importants sur la carte, remplissent les fiches de relevé et prennent des photos. Prévoyez un animateur « volant » : c'est une bonne pratique pour s'assurer que tous les groupes travaillent au même rythme et que personne n'a de problèmes de compréhension de l'activité. Cet animateur volant peut communiquer directement avec les groupes (pensez à collecter le numéro de téléphone d'un référent par groupe), et il est préférable qu'il ou elle soit véhiculé(e) afin de pouvoir naviguer facilement entre les groupes. Prévoyez un point de ralliement commun et, si besoin, le rapatriement des groupes qui se trouvent aux extrémités de la zone. Il peut être judicieux de penser au point de ralliement dès la découpe des zones de cartographie.
 
 ---
 
-### Échanger sur les observations : Comment restituer et partager les découvertes ?
-Une fois de retour au point de ralliement, chaque groupe a l'opportunité de présenter ses découvertes aux autres participants. Animez une discussion collective dynamique sur les observations recueillies, en encourageant tous les membres à partager leurs perspectives. Cette étape peut permettre d'identifier collectivement les points d'amélioration du quartier et pour stimuler la réflexion sur des actions concrètes à entreprendre.
+### Échanger sur les observations
+Une fois de retour au point de ralliement, chaque groupe peut présenter ses découvertes aux autres participants. Animez une discussion collective dynamique sur les observations recueillies, en encourageant tous les membres à partager leurs perspectives. Cette étape peut permettre d'identifier collectivement les points d'amélioration du quartier et de stimuler la réflexion sur des actions concrètes à entreprendre.
 
-Pour rendre ce moment de partage enrichissant et convivial, vous pouvez organisez une activité sociale en parallèle. Par exemple, vous pourriez prévoir un repas partagé où chacun apporte un plat, organiser un pique-nique dans un parc local, ou même arranger une visite guidée en lien avec la thématique de la cartopartie. Ces moments informels renforcent les liens entre les participants de différentes générations, favorisent des échanges plus personnels, et créent une atmosphère propice à la continuation du dialogue au-delà de l'activité elle-même.
+Pour rendre ce moment de partage enrichissant et convivial, vous pouvez organiser une activité sociale en parallèle. Par exemple, vous pourriez prévoir un repas partagé où chacun apporte un plat, organiser un pique-nique dans un parc local, ou même arranger une visite guidée en lien avec la thématique de la cartopartie. Ces moments informels renforcent les liens entre les participants de différentes générations, rendent les échanges plus personnels et aident à poursuivre le dialogue après l'activité.
 
 N'oubliez pas de prévoir suffisamment de temps pour cette phase de restitution et d'échange.
 
 ## Activités de continuation et valorisation
 
-Une fois la cartopartie terminée, il est important de ne pas laisser retomber l'enthousiasme et l'engagement des participants. Les activités de continuation permettent de valoriser le travail accompli, d'approfondir les connaissances acquises et de transformer les observations en actions concrètes.
+Une fois la cartopartie terminée, ne laissez pas retomber l'enthousiasme et l'engagement des participants. Les activités de continuation (contribuer à OpenStreetMap, rendre les données visibles localement) valorisent leur travail. Elles aident aussi à approfondir les connaissances acquises et à transformer les observations en actions concrètes.
 
 ---
 
-**Contribuer à OpenStreetMap : comment s'impliquer dans une communauté plus large ?**
+**Contribuer à OpenStreetMap**
 
-Dans les jours qui suivent, organisez une session pour transférer les informations collectées sur OpenStreetMap. C'est l'occasion idéale d'initier les participants à la contribution en ligne, en leur montrant comment leurs observations locales peuvent avoir un impact global. Cette étape peut être réalisée en groupe ou individuellement, selon les compétences numériques de chacun, permettant ainsi de valoriser les différentes aptitudes des participants.
+Dans les jours qui suivent, organisez une session pour transférer les informations collectées sur OpenStreetMap. C'est l'occasion d'initier les participants à la contribution en ligne et de leur montrer comment leurs observations locales peuvent avoir un impact global. La session peut se faire en groupe ou individuellement, selon les compétences numériques de chacun.
 
-**OpenStreetMap (OSM)** est un projet de cartographie collaborative et libre, où des contributeurs du monde entier ajoutent, modifient et mettent à jour des informations géographiques. Créée en 2004, cette carte est souvent qualifiée de "Wikipedia de la cartographie", car tout le monde peut y participer, que ce soit en ajoutant des routes, des bâtiments, ou des points d'intérêt comme des écoles, des hôpitaux, ou des parcs.
+**OpenStreetMap (OSM)** est un projet de cartographie collaborative et libre, où des contributeurs du monde entier ajoutent, modifient et mettent à jour des informations géographiques. Créée en 2004, cette carte est souvent qualifiée de « Wikipedia de la cartographie », car tout le monde peut y participer, que ce soit en ajoutant des routes, des bâtiments, ou des points d'intérêt comme des écoles, des hôpitaux, ou des parcs.
 
-OSM est aujourd'hui l'une des cartes les plus complètes et les plus flexibles du monde, utilisée pour des projets aussi variés que la gestion de crises humanitaires, l'organisation d'événements ou encore la création d'applications géographiques. La **communauté OSM**, composée de milliers de bénévoles, s'engage dans des projets locaux et internationaux, allant de la cartographie des zones touchées par des catastrophes naturelles à l'amélioration des cartes locales pour des raisons de mobilité, d'accessibilité, ou de développement urbain.
+OSM sert à des projets variés : gestion de crises humanitaires, organisation d'événements, création d'applications géographiques. La communauté OSM, composée de milliers de bénévoles, s'engage dans des projets locaux et internationaux, comme la cartographie des zones touchées par des catastrophes naturelles ou l'amélioration des cartes locales pour la mobilité, l'accessibilité ou le développement urbain.
 
 https://www.youtube.com/watch?v=QPz9p8VjS5U&pp=ygUNb3BlbnN0cmVldG1hcA==
 
 ---
 
-**Rendre les données visibles localement : comment valoriser cette action auprès de la communauté ?**
+**Rendre les données visibles localement**
 
-Pour valoriser l'action auprès de la communauté locale, plusieurs options s'offrent à vous. Vous pouvez organiser une **exposition temporaire** dans un lieu public (mairie, bibliothèque, centre communautaire) présentant les cartes annotées, les photos et les observations recueillies. La publication d'un **article dans le journal local** ou l'organisation d'une **présentation publique** en présence des élus et des habitants intéressés sont d'excellents moyens de partager les résultats. La création d'une **brochure ou d'un mini-guide** compilant les informations collectées peut être distribuée gratuitement. Enfin, l'utilisation des **réseaux sociaux** de la ville ou de l'association organisatrice permet de diffuser régulièrement les découvertes. Ces actions sensibiliseront un large public aux enjeux identifiés et valoriseront le travail collectif des participants.
+Pour valoriser l'action auprès de la communauté locale, vous pouvez organiser une exposition temporaire dans un lieu public (mairie, bibliothèque, centre communautaire) avec les cartes annotées, les photos et les observations recueillies. Vous pouvez aussi partager les résultats dans un article du journal local ou lors d'une présentation publique devant les élus et les habitants intéressés. Une brochure ou un mini-guide qui compile les informations collectées peut être distribué gratuitement. Les réseaux sociaux de la ville ou de l'association organisatrice permettent de diffuser régulièrement les découvertes. Ces actions sensibiliseront un large public aux enjeux identifiés et valoriseront le travail collectif des participants.
 
-Vous pouvez également créer **votre propre carte interactive et ouverte en ligne, dédiée à votre action**. En particulier, si vous n'êtes pas à l'aise avec l'interface OpenStreetMap, d'autres logiciels vous permettront de réaliser une carte en ligne, ouverte, accessible et collaborative, simplement.
+Vous pouvez également créer votre propre carte interactive en ligne, ouverte et dédiée à votre action. Si vous n'êtes pas à l'aise avec l'interface OpenStreetMap, d'autres logiciels vous permettront de réaliser simplement une carte en ligne, ouverte, accessible et collaborative.
 
 :::info[Conseil : Notre conseil - Utilisation de uMap]
-uMap est un outil en ligne gratuit et open source qui permet de créer facilement des cartes personnalisées basées sur OpenStreetMap. uMap offre une interface intuitive, ne nécessitant aucune compétence technique avancée. Vous pouvez créer une carte en quelques clics et commencer à ajouter des points d'intérêt immédiatement. L'outil permet d'ajouter des marqueurs, des lignes, des polygones, et même d'importer des données depuis des fichiers CSV ou GPX. Vous pouvez personnaliser les icônes, les couleurs, et les styles pour chaque élément de votre carte.
-uMap permet de créer plusieurs couches (ou calques) sur une même carte. Cette fonctionnalité est particulièrement utile pour organiser différentes cartoparties thématiques sur une seule carte interactive. En utilisant uMap pour vos cartoparties, vous pouvez créer une carte centrale pour votre communauté où chaque nouvelle cartopartie ajoute une couche supplémentaire. Cette approche permet de visualiser les différents thèmes explorés au fil du temps (accessibilité, patrimoine, environnement, etc.) et de créer une véritable émulation autour de la pratique de la cartographie participative. Les participants peuvent voir l'évolution de leur contribution dans un contexte plus large, ce qui renforce leur engagement et l'impact de chaque cartopartie.
-Les cartes créées sur uMap peuvent être facilement partagées via un lien URL ou intégrées dans un site web. Vous pouvez également permettre à d'autres utilisateurs de contribuer à votre carte, favorisant ainsi la collaboration. Étant basé sur OpenStreetMap et utilisant des formats ouverts, uMap garantit que vos données restent accessibles et réutilisables dans d'autres contextes.
+uMap est un outil en ligne gratuit et open source qui permet de créer des cartes personnalisées fondées sur OpenStreetMap. Il ne demande aucune compétence technique avancée : vous pouvez créer une carte et commencer à y ajouter des points d'intérêt immédiatement. L'outil permet d'ajouter des marqueurs, des lignes, des polygones, et d'importer des données depuis des fichiers CSV ou GPX. Vous pouvez personnaliser les icônes, les couleurs et les styles de chaque élément de votre carte.
+uMap permet de créer plusieurs couches (ou calques) sur une même carte, et donc de réunir différentes cartoparties thématiques sur une seule carte interactive. Vous pouvez créer une carte centrale pour votre communauté, où chaque nouvelle cartopartie ajoute une couche. Cette carte montre les thèmes explorés au fil du temps (accessibilité, patrimoine, environnement, etc.) et peut créer une émulation autour de la cartographie participative. Les participants peuvent y voir l'évolution de leur contribution dans un contexte plus large, ce qui renforce leur engagement et l'impact de chaque cartopartie.
+Les cartes créées sur uMap peuvent être partagées par un lien ou intégrées dans un site web. Vous pouvez aussi permettre à d'autres utilisateurs de contribuer à votre carte. uMap repose sur OpenStreetMap et utilise des formats ouverts : vos données restent accessibles et réutilisables dans d'autres contextes.
 https://www.youtube.com/watch?v=-gR4IN1meOY&pp=ygUEdW1hcA==
 :::
 
-Ces idées sont des inspirations, concevez votre plan de continuation et de valorisation selon les besoins de votre groupe et votre contexte local. Cela renforcera le sentiment d'utilité et d'engagement des participants.
+Ces idées sont des inspirations : concevez votre plan de continuation et de valorisation selon les besoins de votre groupe et votre contexte local.
 
 ### Checklist pour les animateurs
 
@@ -214,7 +213,7 @@ Ces idées sont des inspirations, concevez votre plan de continuation et de valo
 #### Après l'atelier
 - [ ]  **Encourager les groupes à partager** leurs observations lors de la restitution.
 - [ ]  **Discuter des actions possibles** pour améliorer les problématiques relevées.
-- [ ]  **Valoriser les contributions** de chaque participant, en soulignant l'importance de leurs observations pour la communauté.
+- [ ]  **Valoriser les contributions** de chaque participant, en montrant ce que leurs observations apportent à la communauté.
 
 <figure style={{margin: '1rem 0'}}>
   <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
@@ -226,15 +225,11 @@ Ces idées sont des inspirations, concevez votre plan de continuation et de valo
 
 ## Nos derniers conseils
 
-1. **Simplifiez les objectifs :** Ne cherchez pas à tout cartographier. Concentrez-vous sur un ou deux thèmes précis pour permettre à tous les participants de s'impliquer pleinement et de comprendre l'importance de leurs contributions.
-2. **Créez un climat d'échange :** Favorisez les discussions entre jeunes et seniors pour que chacun apporte sa vision du quartier. Les seniors peuvent partager leurs souvenirs et leur expérience, tandis que les jeunes contribuent avec des compétences organisationnelles et technologiques.
+1. **Simplifiez les objectifs :** Ne cherchez pas à tout cartographier. Concentrez-vous sur un ou deux thèmes précis pour que tous les participants puissent s'impliquer pleinement et comprendre à quoi servent leurs contributions.
+2. **Créez un climat d'échange :** Favorisez les discussions entre jeunes et seniors pour que chacun apporte sa vision du quartier. Les seniors peuvent partager leurs souvenirs, leur expérience et leur connaissance de l'histoire des lieux, tandis que les jeunes contribuent avec leur sens de l'observation et des compétences organisationnelles et technologiques.
 3. **Adaptez le parcours :** Prévoyez des trajets courts et accessibles, notamment si des personnes âgées ou à mobilité réduite participent à la cartopartie. Pensez également à prévoir des pauses si nécessaire.
 4. **Utilisez des outils simples :** Pas besoin d'outils numériques complexes. Les cartes papier, les stylos et les photos suffisent amplement pour documenter l'activité.
 5. **Mettez en valeur le travail collectif** : Organisez une restitution en fin d'atelier pour que chaque groupe puisse présenter ses relevés et discuter de l'impact des observations sur le quartier.
-
-La cartopartie intergénérationnelle est un excellent moyen de **renforcer les liens sociaux** tout en contribuant à l'amélioration du quartier. Ce projet encourage les participants à **observer leur environnement**, à **discuter des enjeux locaux** et à **proposer des solutions concrètes**. L'essentiel est de créer un moment collectif où chacun, peu importe son âge, peut apporter sa contribution et se sentir acteur de la communauté.
-
-**Bonne cartopartie à tous !**
 
 ---
 

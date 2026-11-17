@@ -52,12 +52,10 @@ Une borne d'arcade est un dispositif autonome qui permet de jouer à des jeux vi
 
 ![Borne d'arcade](/img/ressources/jeditrack/borne-arcade/Petit_historique_des__photo-1511882150382-421056c89033.avif)
 
-- **Les débuts (années 1970)** : La naissance des bornes d'arcade remonte aux années 1970, période à laquelle les jeux vidéo ont commencé à se populariser. Le lancement de Pong par Atari en 1972 marque le début de l'ère des jeux vidéo en arcade. Des titres comme Space Invaders (1978) et Asteroids (1979) ont propulsé les arcades dans la sphère publique, les transformant en lieux de rencontre sociaux. Ces machines étaient fréquemment installées dans des bars, des salles d'arcade ou des centres commerciaux, offrant un lieu de rassemblement pour la jeunesse. Les joueurs passaient beaucoup de temps à maîtriser les jeux, à battre des records et à observer les autres pour apprendre de nouvelles stratégies.
-- **L'Âge d'Or (fin des années 1970 - début des années 1980)** : Cette période a vu une explosion de la créativité avec des jeux comme Pac-Man (1980) et Donkey Kong (1981), qui introduisirent des personnages et des narrations complexes. L'amélioration des graphismes, de l'audio et de la complexité des jeux a enrichi l'expérience utilisateur.
+- **Les débuts (années 1970)** : La naissance des bornes d'arcade remonte aux années 1970, période à laquelle les jeux vidéo ont commencé à se populariser. Pong, lancé par Atari en 1972, est le premier grand succès du jeu vidéo d'arcade. Des titres comme Space Invaders (1978) et Asteroids (1979) ont fait connaître les arcades du grand public et en ont fait des lieux de rencontre. Ces machines étaient souvent installées dans des bars, des salles d'arcade ou des centres commerciaux, où la jeunesse trouvait un lieu de rassemblement. Les joueurs passaient beaucoup de temps à maîtriser les jeux, à battre des records et à observer les autres pour apprendre de nouvelles stratégies.
+- **L'âge d'or (fin des années 1970 - début des années 1980)** : Des jeux comme Pac-Man (1980) et Donkey Kong (1981) ont introduit des personnages et des narrations complexes. Les graphismes, le son et la complexité des jeux ont progressé.
 - **Déclin et transition (fin des années 1980 - années 1990)** : L'avènement des consoles de jeu domestiques comme la Nintendo Entertainment System a commencé à éroder la popularité des arcades. Malgré la concurrence, les bornes d'arcade ont continué à innover avec des technologies comme le double écran (PlayChoice-10) et les graphismes 3D (SEGA Model 1).
 - **Résurgence et nostalgie (années 2000 à aujourd'hui)** : Dans les années 2000, des jeux comme Dance Dance Revolution et Street Fighter ont maintenu un intérêt pour les arcades. L'intérêt nostalgique pour les jeux rétro a stimulé une nouvelle vague de lieux d'arcade, souvent combinés avec des bars. L'engouement pour le "Do It Yourself" a également revitalisé l'intérêt pour les bornes d'arcade, avec des communautés en ligne partageant des plans et des logiciels pour construire et personnaliser des bornes à la maison.
-
-La borne d'arcade continue d'évoluer, s'adaptant aux nouvelles technologies tout en conservant un lien sentimental avec son passé glorieux.
 
 ### Jeux d'arcade emblématiques
 
@@ -65,42 +63,42 @@ La borne d'arcade continue d'évoluer, s'adaptant aux nouvelles technologies tou
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Pac-Man__Untitled.png" alt="Pac-Man" />
-<figcaption style={{margin: 0}}><strong>Pac-Man</strong> — Tōru Iwatani / Namco — 22 mai 1980. Manger les pac-gommes du labyrinthe en échappant aux fantômes.</figcaption>
+<figcaption style={{margin: 0}}><strong>Pac-Man</strong> (Tōru Iwatani / Namco, 22 mai 1980). Manger les pac-gommes du labyrinthe en échappant aux fantômes.</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Space_Invaders__Untitled.png" alt="Space Invaders" />
-<figcaption style={{margin: 0}}><strong>Space Invaders</strong> — Tomohiro Nishikado / Taito — 1<sup>er</sup> avril 1978. Initiateur du genre shoot 'em up et du concept de scores élevés.</figcaption>
+<figcaption style={{margin: 0}}><strong>Space Invaders</strong> (Tomohiro Nishikado / Taito, 1<sup>er</sup> avril 1978). Initiateur du genre shoot 'em up et du concept de scores élevés.</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Tetris__Untitled.png" alt="Tetris" />
-<figcaption style={{margin: 0}}><strong>Tetris</strong> — Alekseï Pajitnov / Sega — 1<sup>er</sup> décembre 1988. Des blocs qui tombent à une vitesse croissante : simple à comprendre, difficile à maîtriser.</figcaption>
+<figcaption style={{margin: 0}}><strong>Tetris</strong> (Alekseï Pajitnov / Sega, 1<sup>er</sup> décembre 1988). Des blocs qui tombent à une vitesse croissante : simple à comprendre, difficile à maîtriser.</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Donkey_Kong__Untitled.png" alt="Donkey Kong" />
-<figcaption style={{margin: 0}}><strong>Donkey Kong</strong> — Shigeru Miyamoto et Gunpei Yokoi / Nintendo — 9 juillet 1981. Premier jeu de Miyamoto, qui introduit Jumpman (futur Mario).</figcaption>
+<figcaption style={{margin: 0}}><strong>Donkey Kong</strong> (Shigeru Miyamoto et Gunpei Yokoi / Nintendo, 9 juillet 1981). Premier jeu de Miyamoto, qui introduit Jumpman (futur Mario).</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Street_Fighter_II__Untitled.png" alt="Street Fighter II" />
-<figcaption style={{margin: 0}}><strong>Street Fighter II</strong> — Yoshiki Okamoto / Capcom — 6 février 1991. A popularisé le genre du jeu de combat avec des mécaniques toujours d'actualité.</figcaption>
+<figcaption style={{margin: 0}}><strong>Street Fighter II</strong> (Yoshiki Okamoto / Capcom, 6 février 1991). A popularisé le genre du jeu de combat avec des mécaniques toujours d'actualité.</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Mortal_Kombat__Untitled.png" alt="Mortal Kombat" />
-<figcaption style={{margin: 0}}><strong>Mortal Kombat</strong> — Ed Boon et John Tobias / Midway Games — 8 octobre 1992. Connu pour sa violence graphique et ses fameuses "fatalités".</figcaption>
+<figcaption style={{margin: 0}}><strong>Mortal Kombat</strong> (Ed Boon et John Tobias / Midway Games, 8 octobre 1992). Connu pour sa violence graphique et ses "fatalités".</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Tekken__Untitled.png" alt="Tekken" />
-<figcaption style={{margin: 0}}><strong>Tekken</strong> — Seiichi Ishii / Namco — 9 décembre 1994. Série de combat célèbre pour son gameplay complexe et ses graphismes impressionnants.</figcaption>
+<figcaption style={{margin: 0}}><strong>Tekken</strong> (Seiichi Ishii / Namco, 9 décembre 1994). Série de jeux de combat connue pour son gameplay complexe et pour ses graphismes.</figcaption>
 </figure>
 
 <figure style={{margin: 0, flex: '1 1 220px'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Dance_Dance_Revoluti__Untitled.png" alt="Dance Dance Revolution" />
-<figcaption style={{margin: 0}}><strong>Dance Dance Revolution</strong> — Konami — 18 novembre 1998. Incontournable des salles d'arcade, il a popularisé le genre des jeux de rythme.</figcaption>
+<figcaption style={{margin: 0}}><strong>Dance Dance Revolution</strong> (Konami, 18 novembre 1998). A popularisé le genre des jeux de rythme.</figcaption>
 </figure>
 
 </div>
@@ -113,21 +111,21 @@ Il a été conçu par Eben Upton, ancien professeur à l'Université de Cambridg
 
 ### Caractéristiques techniques
 
-Le Raspberry Pi est équipé d'un processeur ARM, d'un GPU, de RAM, de ports USB, d'un port Ethernet, de ports GPIO et de diverses interfaces de communication. Il prend en charge le Wi-Fi et le Bluetooth, et fonctionne avec une large gamme de systèmes d'exploitation, le plus utilisé étant Raspbian (Linux). Les prix varient de 5 EUR pour le Raspberry Pi Zero à environ 75 EUR pour le Raspberry Pi 4 Model B avec 8 Go de RAM.
+Le Raspberry Pi est équipé d'un processeur ARM, d'un GPU, de RAM, de ports USB, d'un port Ethernet, de ports GPIO et de diverses interfaces de communication. Il prend en charge le Wi-Fi et le Bluetooth, et fonctionne avec de nombreux systèmes d'exploitation, dont le plus utilisé est Raspbian (Linux). Les prix varient de 5 EUR pour le Raspberry Pi Zero à environ 75 EUR pour le Raspberry Pi 4 Model B avec 8 Go de RAM.
 
 ### Modèles principaux
 
-- **Raspberry Pi 1 Model B+** : modèle de base, idéal pour les débutants en informatique et programmation.
-- **Raspberry Pi 4 Model B** : le modèle le plus puissant et le plus récent, idéal pour des projets complexes. Disponible avec différentes quantités de mémoire.
-- **Raspberry Pi 2 Model B** : un peu plus puissant que le 1, parfait pour explorer des projets de bricolage plus avancés.
+- **Raspberry Pi 1 Model B+** : modèle de base, pour débuter en informatique et en programmation.
+- **Raspberry Pi 4 Model B** : le modèle le plus puissant et le plus récent, adapté aux projets complexes. Disponible avec différentes quantités de mémoire.
+- **Raspberry Pi 2 Model B** : un peu plus puissant que le 1, pour des projets de bricolage plus avancés.
 - **Raspberry Pi 5 Model B** : jusqu'à trois fois plus de performances que la génération précédente, jusqu'à 8 Go de RAM, bouton ON/OFF, port PCIe 2.0 et connecteur RTC intégré.
 - **Raspberry Pi Zero W** : plus petit et moins coûteux, doté de Wi-Fi et Bluetooth.
-- **Raspberry Pi 400** : version intégrée dans un clavier, rappelant les premiers ordinateurs domestiques. Idéal comme ordinateur de bureau économique.
-- **Raspberry Pi 3 Model B** : Wi-Fi et Bluetooth intégrés, parfait pour la connexion à Internet et à d'autres appareils.
+- **Raspberry Pi 400** : version intégrée dans un clavier, rappelant les premiers ordinateurs domestiques. Peut servir d'ordinateur de bureau économique.
+- **Raspberry Pi 3 Model B** : Wi-Fi et Bluetooth intégrés, pour se connecter à Internet et à d'autres appareils.
 - **Raspberry Pi Pico** : première incursion dans les microcontrôleurs, basé sur la puce RP2040, programmable en C et MicroPython.
 
 :::info[Conseil pour le projet]
-Le **Raspberry Pi 4 Model B** est probablement le choix idéal pour la borne d'arcade. Prix : environ 40 EUR pour 1 Go de RAM.
+Le **Raspberry Pi 4 Model B** est probablement le modèle le plus adapté à la borne d'arcade. Prix : environ 40 EUR pour 1 Go de RAM.
 :::
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem'}}>
@@ -143,14 +141,14 @@ Le **Raspberry Pi 4 Model B** est probablement le choix idéal pour la borne d'a
 
 ### Usages
 
-Le Raspberry Pi est très polyvalent : éducation en informatique (Python, Scratch, HTML/CSS), projets DIY (station météo, surveillance domestique), jeux rétro via émulation, serveurs domestiques (Plex, Kodi), apprentissage de Linux, robotique (via les ports GPIO), systèmes IoT et affichage numérique.
+Le Raspberry Pi sert à de nombreux usages : éducation en informatique (Python, Scratch, HTML/CSS), projets DIY (station météo, surveillance domestique), jeux rétro via émulation, serveurs domestiques (Plex, Kodi), apprentissage de Linux, robotique (via les ports GPIO), systèmes IoT et affichage numérique.
 
 ## Installation de Recalbox
 
-Recalbox est une plateforme de jeux rétro gratuite et open-source qui transforme un appareil comme le Raspberry Pi en console de jeux rétro. Elle prend en charge une large gamme de systèmes : Atari, Commodore, systèmes d'arcade, consoles Nintendo et Sega. Recalbox comprend également Kodi, un media center performant pour une utilisation multimédia, et est compatible avec les manettes USB et Bluetooth.
+Recalbox est une plateforme de jeux rétro gratuite et open-source qui transforme un appareil comme le Raspberry Pi en console de jeux rétro. Elle prend en charge de nombreux systèmes : Atari, Commodore, systèmes d'arcade, consoles Nintendo et Sega. Recalbox comprend aussi Kodi, un lecteur multimédia, et est compatible avec les manettes USB et Bluetooth.
 
 :::info[Conseil pour l'animateur]
-Recalbox est particulièrement facile à utiliser pour la création d'une borne d'arcade. Son interface est intuitive, ce qui permet aux jeunes — souvent débutants avec ces outils — de naviguer facilement. Elle est pré-configurée pour de nombreux contrôleurs et livrée avec une large gamme de jeux pré-installés. L'installation est simple : télécharger, flasher sur une carte SD, insérer dans le Raspberry Pi. Recalbox permet aussi l'intégration de jeux réalisés sur MakeCode Arcade, valorisant les créations des jeunes.
+Recalbox est facile à utiliser pour créer une borne d'arcade : les jeunes, souvent débutants avec ces outils, se retrouvent sans peine dans son interface. Elle est pré-configurée pour de nombreux contrôleurs et livrée avec beaucoup de jeux pré-installés. L'installation est simple : télécharger, flasher sur une carte SD, insérer dans le Raspberry Pi. Recalbox accepte aussi des jeux créés par les jeunes sur MakeCode Arcade.
 :::
 
 ### Matériel nécessaire
@@ -222,14 +220,14 @@ Dans le projet "Borne d'arcade", nous avions le choix entre opter pour un kit pr
 
 :::info[Ressources]
 - Écran à recycler : https://ressourceries.info/
-- Système de jeu : [Recalbox](https://www.recalbox.com/fr/) — [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+- Système de jeu : [Recalbox](https://www.recalbox.com/fr/) et [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 - Joysticks et boutons : recherchez "arcade kit 2 joueurs" sur Amazon
 - Gestion du son : https://www.jdfarcade.com/composants/40-kit-audio-arcade.html
 :::
 
 ### Sélection des matériaux
 
-Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm d'épaisseur**. Le MDF se coupe, se perce et se ponce aisément, c'est un matériau économique. Nous l'avons fait découper à la demande chez Leroy Merlin (≈ 200 EUR de bois). Sa surface est idéale pour la peinture et les stickers ; il résiste bien aux changements de température et d'humidité, et se trouve facilement dans les magasins de bricolage.
+Nous avons principalement utilisé du **MDF (Medium Density Fiberboard) de 18 mm d'épaisseur**. Le MDF se coupe, se perce et se ponce aisément, c'est un matériau économique. Nous l'avons fait découper à la demande chez Leroy Merlin (≈ 200 EUR de bois). Sa surface se prête à la peinture et aux stickers ; il résiste bien aux changements de température et d'humidité, et se trouve facilement dans les magasins de bricolage.
 
 :::info[Ressources]
 
@@ -253,7 +251,7 @@ Approche simple mais collaborative : les jeunes ont réalisé des essais de pein
 
 ## Méthodes de prototypage
 
-Avant d'engager des matériaux coûteux dans la construction finale, la phase de prototypage permet de valider les dimensions et l'ergonomie, tester l'assemblage des différents éléments, identifier et corriger les problèmes potentiels, et optimiser les choix techniques et esthétiques.
+Prototyper avant d'engager des matériaux coûteux dans la construction finale sert à valider les dimensions et l'ergonomie, tester l'assemblage des différents éléments, repérer et corriger les problèmes, et affiner les choix techniques et esthétiques.
 
 ### Prototypage de la structure
 
@@ -311,24 +309,24 @@ Avant d'engager des matériaux coûteux dans la construction finale, la phase de
 - **Test sur breadboard** : validation des composants avant intégration, débogage du câblage et de la programmation.
 
 :::info[Conseil méthodologique]
-Ne négligez pas le prototypage fonctionnel ! Tester le système de contrôle en situation réelle (démonstrations, sessions de jeu prolongées) apporte des insights précieux qu'aucune maquette statique ne peut fournir. Les retours utilisateurs sont essentiels pour optimiser l'ergonomie finale. Documentez chaque étape de vos tests et modifications pour créer un historique des décisions et faciliter la construction finale.
+Ne négligez pas le prototypage fonctionnel ! Tester le système de contrôle en situation réelle (démonstrations, sessions de jeu prolongées) révèle ce qu'aucune maquette statique ne peut montrer. Les retours des utilisateurs servent à ajuster l'ergonomie finale. Documentez chaque étape de vos tests et modifications pour créer un historique des décisions et faciliter la construction finale.
 :::
 
 ## Modélisation finale du design
 
 ### Choix du modèle
 
-Plusieurs formats de bornes sont disponibles, chacun avec ses particularités en termes de design, d'ergonomie et d'expérience de jeu.
+Plusieurs formats de bornes existent, chacun avec son design, son ergonomie et sa façon de jouer.
 
-**Borne Bartop** : modèle compact conçu pour être posé sur un meuble ou une table. Solution idéale pour les petits espaces ou pour ceux qui recherchent un modèle transportable. Espace limité pour les contrôles et l'écran.
+**Borne Bartop** : modèle compact conçu pour être posé sur un meuble ou une table. Elle convient aux petits espaces et se transporte. Espace limité pour les contrôles et l'écran.
 
 ![Borne bartop](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__a9909538-a460-40b5-a585-99da017f76a3.png)
 
-**Borne Cocktail** : design en forme de table, permettant de jouer assis face à face. Look rétro et polyvalence d'usage, mais plus complexe à construire et plus encombrante au sol.
+**Borne Cocktail** : design en forme de table, permettant de jouer assis face à face. Allure rétro et polyvalence d'usage, mais plus complexe à construire et plus encombrante au sol.
 
 ![Borne Cocktail](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__image.png)
 
-**Borne Pedestal** : piédestal avec contrôles connectés à un écran séparé ou un téléviseur. Grande flexibilité en termes de taille d'écran, mais nécessite un support externe.
+**Borne Pedestal** : piédestal avec contrôles connectés à un écran séparé ou un téléviseur. Le choix de la taille d'écran est large, mais il faut un support externe.
 
 ![Borne pedestal](/img/ressources/jeditrack/borne-arcade/Modelisation_finale__image_1.png)
 
@@ -338,11 +336,11 @@ Plusieurs formats de bornes sont disponibles, chacun avec ses particularités en
 
 Au sein des bornes classiques, plusieurs styles existent :
 
-- **Atari** (Asteroids, Centipede) : design minimaliste mais iconique, lignes angulaires, mélange bois/métal, artworks géométriques.
-- **Bally Midway** (Mortal Kombat, NBA Jam) : design robuste années 90, côtés droits, panneau large, artworks flashy, idéal pour le 2 joueurs.
+- **Atari** (Asteroids, Centipede) : design minimaliste mais reconnaissable, lignes angulaires, mélange bois/métal, décors géométriques.
+- **Bally Midway** (Mortal Kombat, NBA Jam) : design robuste années 90, côtés droits, panneau large, décors aux couleurs vives, adapté au jeu à deux.
 - **Williams** (Defender, Joust) : design classique et fin avec panneaux inclinés, bois et graphismes vifs aux thèmes spatiaux ou fantastiques.
-- **Sega** (Astro City, Blast City) : design arrondi et moderne, plastique et métal, ergonomie pensée pour le confort, parfait pour les jeux de combat et de tir.
-- **Nintendo** (Donkey Kong, Mario Bros) : design carré et vintage, bois et couleurs vives, contrôles centrés, idéal pour les nostalgiques.
+- **Sega** (Astro City, Blast City) : design arrondi et moderne, plastique et métal, ergonomie pensée pour le confort, adapté aux jeux de combat et de tir.
+- **Nintendo** (Donkey Kong, Mario Bros) : design carré et vintage, bois et couleurs vives, contrôles centrés, pour les nostalgiques.
 - **Konami** (The Simpsons, TMNT) : conçu pour le multijoueur, panneaux étendus, visuels colorés, prisé des fans de coopération.
 
 :::info[Pour aller plus loin]
@@ -355,7 +353,7 @@ Pour créer une borne qui corresponde aux envies de notre public, nous avons mod
 
 Nous avons utilisé **Onshape**, un logiciel de CAO (conception assistée par ordinateur) accessible directement via le navigateur web. Pas besoin d'installation, fonctionne aussi sur tablette/smartphone, et permet à plusieurs personnes de travailler ensemble sur le même modèle en temps réel.
 
-**Qu'est-ce que la modélisation 3D ?** Créer des objets en trois dimensions sur ordinateur. Au lieu de dessiner sur une feuille en deux dimensions (longueur et largeur), vous ajoutez la profondeur, ce qui rend le dessin plus réaliste.
+La modélisation 3D consiste à créer des objets en trois dimensions sur ordinateur. Au lieu de dessiner sur une feuille en deux dimensions (longueur et largeur), vous ajoutez la profondeur, ce qui rend le dessin plus réaliste.
 
 Onshape est utilisé pour concevoir des objets de toutes sortes : pièces de machines, produits électroniques, dispositifs médicaux, prototypes pour l'impression 3D. Comme tout fonctionne via Internet, le logiciel se met à jour automatiquement.
 
@@ -368,15 +366,9 @@ Onshape est utilisé pour concevoir des objets de toutes sortes : pièces de mac
 
 ## Assemblage final et finitions
 
-L'assemblage final bénéficie directement du travail de prototypage réalisé en amont. Cette phase reproduit fidèlement les méthodes validées lors des tests préliminaires.
+L'assemblage final reproduit à l'identique les méthodes, l'ordre de montage et les systèmes d'emboîtements et de fixations mis au point sur les prototypes.
 
 ### Assemblage de la structure
-
-**Reproduction des techniques validées**
-
-- Méthodes d'assemblage testées sur les prototypes reproduites à l'identique
-- Ordre de montage optimisé respecté scrupuleusement
-- Systèmes d'emboîtements et de fixations parfaitement maîtrisés
 
 **Montage de la structure principale**
 
@@ -394,11 +386,11 @@ L'assemblage final bénéficie directement du travail de prototypage réalisé e
 
 ### Câblage électronique
 
-Le câblage suit rigoureusement les schémas techniques créés par les jeunes lors de la phase de prototypage. Cette documentation devient la référence pour l'assemblage final.
+Le câblage suit les schémas techniques créés par les jeunes lors de la phase de prototypage.
 
 **Câblage du panneau de contrôle**
 
-- Installation des joysticks et boutons selon le layout validé
+- Installation des joysticks et boutons selon la disposition validée
 - Câblage vers l'interface de contrôle (i-Pac) en suivant les schémas réalisés
 - Mise en place du faisceau de terre (daisy chain) sur tous les composants
 - Test de chaque contrôle individuellement avant finalisation
@@ -419,10 +411,10 @@ Le câblage suit rigoureusement les schémas techniques créés par les jeunes l
 
 ### Finitions
 
-Les finitions déterminent l'aspect final et la durabilité de votre borne. Plusieurs options s'adaptent à différents budgets et niveaux de compétence.
+Les finitions déterminent l'aspect final et la durabilité de votre borne. Les options ci-dessous correspondent à des budgets et des niveaux de compétence différents.
 
 - **Vinyle professionnel (≈ 150 EUR)** : impression numérique haute résolution sur vinyle adhésif, application au rouleau pour éviter les bulles d'air, découpe précise autour des ouvertures.
-- **Gravure laser** : gravure directe sur le bois pour un effet authentique, possibilité de combiner avec peinture ou vernis, durabilité exceptionnelle.
+- **Gravure laser** : gravure directe et durable sur le bois, possibilité de combiner avec peinture ou vernis.
 - **Peinture traditionnelle** : préparation soigneuse des surfaces (ponçage, apprêt), application au rouleau ou au pistolet, utilisation de pochoirs pour les détails précis.
 
 **Finitions de protection**
@@ -483,25 +475,25 @@ En parallèle, nous avons développé un prototype fonctionnel du panneau de con
 
 ### Assemblage et finition
 
-L'assemblage final a bénéficié directement du travail de prototypage. Les méthodes d'assemblage testées sur nos prototypes ont été reproduites, l'ordre de montage optimisé a été respecté, et les systèmes d'emboîtements et de fixations étaient maîtrisés.
+L'assemblage final a repris les méthodes, l'ordre de montage et les systèmes d'emboîtements et de fixations testés sur nos prototypes.
 
 - **Montage de la structure principale** : assemblage du caisson selon les plans validés, installation des renforts internes et des supports (écran, panneau de contrôle), vérification de l'équerrage et ajout de tasseaux pour la stabilité.
 - **Intégration des composants** : installation de l'écran sur ses supports imprimés en 3D, montage du panneau de contrôle, préparation des passages de câbles.
-- **Câblage du panneau de contrôle** : installation des joysticks et boutons selon le layout validé, câblage vers l'interface de contrôle, test de chaque contrôle individuellement.
+- **Câblage du panneau de contrôle** : installation des joysticks et boutons selon la disposition validée, câblage vers l'interface de contrôle, test de chaque contrôle individuellement.
 - **Installation du système principal** : intégration du Raspberry Pi dans son logement sécurisé, connexion vidéo HDMI vers l'écran.
 
 **Finitions : vinyle professionnel personnalisé (150 EUR)**
 
-Cette solution nous a offert le meilleur rapport qualité/rendu pour notre budget : impression numérique haute résolution de notre design, facilité d'application même pour des débutants, résultat durable et résistant à l'usure, design unique reflétant notre vision.
+Pour notre budget, cette solution avait le meilleur rapport qualité/rendu : impression numérique haute résolution de notre design, application facile même pour des débutants, résultat durable et résistant à l'usure.
 
 L'application s'est déroulée en plusieurs étapes :
 
-- Préparation minutieuse de la surface (ponçage léger, dégraissage)
+- Préparation soigneuse de la surface (ponçage léger, dégraissage)
 - Application au rouleau section par section pour éviter les bulles d'air
 - Découpe précise autour des ouvertures (écran, haut-parleurs, panneau de contrôle)
-- Finitions soignées au niveau des raccords et des bords
+- Finition soignée des raccords et des bords
 
-Pour compléter l'ensemble, nous avons installé le **T-molding** sur tous les bords exposés, ce qui donne une finition parfaite et protège les arêtes de la borne.
+Pour compléter l'ensemble, nous avons installé le **T-molding** sur tous les bords exposés, ce qui donne une finition propre et protège les arêtes de la borne.
 
 <div style={{display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '1rem'}}>
 <img src="/img/ressources/jeditrack/borne-arcade/Version_realisee_p__image_4.png" alt="Assemblage - étape 1" style={{maxWidth: '280px'}} />
