@@ -41,13 +41,9 @@ LABanque n'est plus en usage au LAB aujourd'hui. On le garde documenté ici comm
 
 - Elle est fondante.
 
-Le principe des ⬡ est de servir d'outil pour encourager l'implication de tous dans le LAB.
+Le principe des ⬡ est d'encourager l'implication de tous dans le LAB : tout temps consacré à faire vivre la communauté est compensé en ⬡, avec pour objectif de permettre en retour de profiter des services du LAB.
 
-L'objectif est de permettre aux personnes qui font vivre la communauté de profiter des services du LAB en contrepartie.
-
-Tout temps consacré à faire vivre la communauté est compensé en ⬡.
-
-Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle a la possibilité d'acheter des ⬡ (100 ⬡ = 8 €).
+Si une personne souhaite utiliser les services du LAB avant d'avoir donné de son temps, elle peut acheter des ⬡ (100 ⬡ = 8 €).
 
 ## Comment gagner des ⬡ ?
 

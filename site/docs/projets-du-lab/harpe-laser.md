@@ -64,6 +64,6 @@ L'Arduino lit en boucle l'état de chaque photorésistance. Quand la valeur desc
 
 ## Bibliographie
 
-- [Greig Stewart — The Theremin Hero](http://www.thereminhero.com/)
+- [Greig Stewart : The Theremin Hero](http://www.thereminhero.com/)
 - [Devoxx France](http://www.devoxx.fr/)
 - [Sparkfun MIDI Shield](https://www.sparkfun.com/products/12898)

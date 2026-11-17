@@ -17,9 +17,9 @@ sidebar_position: 14
 
 ## Présentation
 
-À partir d'une carte STM32 IoT Node et de composants Grove Seeed, nous avons conçu un kit pédagogique destiné à faciliter l'utilisation et la compréhension de la carte lors de travaux pratiques.
+À partir d'une carte STM32 IoT Node et de composants Grove Seeed, nous avons conçu un kit pédagogique pour rendre la carte plus facile à utiliser et à comprendre lors de travaux pratiques.
 
-Il s'agit d'un coffret permettant la disposition fixe de composants électroniques, pensé pour préparer des TP autour de la carte STM32 IoT Node dans un contexte scolaire.
+C'est un coffret où les composants électroniques ont une place fixe, pensé pour préparer des TP autour de la carte STM32 IoT Node dans un contexte scolaire.
 
 </div>
 
@@ -85,7 +85,7 @@ Photo du montage du kit en MDF :
 
 ### Impression 3D
 
-Les boutons de commande de la carte n'étant plus accessibles une fois le kit assemblé, il est nécessaire d'imprimer des rallonges à l'aide de l'imprimante 3D. Le fichier correspondant est disponible sous l'appellation "bouton" dans le dépôt suivant : https://github.com/LabAixBidouille/Kit_STM32
+Une fois le kit assemblé, les boutons de commande de la carte ne sont plus accessibles : imprimez des rallonges à l'imprimante 3D. Le fichier correspondant est disponible sous l'appellation "bouton" dans le dépôt suivant : https://github.com/LabAixBidouille/Kit_STM32
 
 ### Stickers
 
@@ -101,7 +101,7 @@ Assemblez les différents composants nécessaires au fonctionnement du kit à l'
 
 ### Câblage
 
-Pour faciliter l'utilisation du kit et le changement de plaques de TP, le câblage doit suivre les inscriptions gravées sur la plaque prévue pour le passage des câbles Grove 4 broches. Les emplacements prédéfinis assurent une disposition optimale qui ne gêne pas l'accès aux différentes fonctions de la carte. Chaque câble restant branché sur le shield, il suffit de remplacer le composant sur la sortie souhaitée pour configurer un nouveau TP.
+Pour faciliter l'utilisation du kit et le changement de plaque de TP, câblez en suivant les inscriptions gravées sur la plaque prévue pour le passage des câbles Grove 4 broches. Les emplacements prédéfinis ne gênent pas l'accès aux différentes fonctions de la carte. Chaque câble restant branché sur le shield, il suffit de remplacer le composant sur la sortie souhaitée pour configurer un nouveau TP.
 
 ## Perspectives
 

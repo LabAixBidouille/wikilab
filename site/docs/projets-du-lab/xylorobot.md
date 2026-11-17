@@ -31,8 +31,8 @@ XyloRobot est un glockenspiel à commande numérique, construit à partir du Kit
 
 ## Logiciels
 
-- **Music Robot 2.0** : logiciel PC fourni avec le kit, permettant de programmer des séquences de notes et de les envoyer au robot via liaison série
-- **XyloRobot** : programme embarqué de remplacement développé au LAB, corrigeant les problèmes de timing — [dépôt GitHub](https://github.com/FraDiavolo7/XyloRobot)
+- **Music Robot 2.0** : logiciel PC fourni avec le kit, pour programmer des séquences de notes et les envoyer au robot via liaison série
+- **XyloRobot** : programme embarqué de remplacement développé au LAB, qui corrige les problèmes de timing ([dépôt GitHub](https://github.com/FraDiavolo7/XyloRobot))
 
 ### Architecture
 
@@ -63,6 +63,6 @@ Le programme embarqué d'origine (MusicRobot) est en cours de remplacement par X
 
 ## Bibliographie
 
-- [MakeBlock (catalogue actuel)](https://www.makeblock.com/) — le kit Music Robot v2.0 utilisé pour le projet n'est plus en catalogue
+- [MakeBlock (catalogue actuel)](https://www.makeblock.com/) : le kit Music Robot v2.0 utilisé pour le projet n'est plus en catalogue
 - [Dépôt GitHub XyloRobot](https://github.com/FraDiavolo7/XyloRobot)
 - [Devoxx France](http://www.devoxx.fr/)

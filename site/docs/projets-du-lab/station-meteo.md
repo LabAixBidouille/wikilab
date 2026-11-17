@@ -33,9 +33,9 @@ Les différentes solutions et expérimentations sont présentées ci-dessous. Ce
 
 ### Description
 
-Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22 branché sur une carte STM32 Nucleo 32 F303K8 (fonctionne également avec une carte STM32 Nucleo 64 L474RG), puis d'afficher les résultats sur un afficheur LCD Nokia 5110.
+Ce montage mesure la température et le taux d'humidité avec un capteur DHT22 branché sur une carte STM32 Nucleo 32 F303K8 (fonctionne également avec une carte STM32 Nucleo 64 L474RG), puis affiche les résultats sur un afficheur LCD Nokia 5110.
 
-La programmation de la carte STM32 Nucleo 32 F303K8 est réalisée avec l'IDE Arduino.
+La carte STM32 Nucleo 32 F303K8 se programme avec l'IDE Arduino.
 
 Liste du matériel :
 - STM32 Nucleo 32 F303K8
@@ -136,13 +136,13 @@ void loop() {
 
 ### Description
 
-Ce montage permet de mesurer la température et le taux d'humidité à l'aide d'un capteur DHT22, ainsi que la température extérieure grâce à un capteur OneWire DS18B20. Les capteurs sont branchés sur une carte Wemos D1 Mini (ESP 8266).
+Ce montage mesure la température et le taux d'humidité avec un capteur DHT22, ainsi que la température extérieure avec un capteur OneWire DS18B20. Les capteurs sont branchés sur une carte Wemos D1 Mini (ESP 8266).
 
 Les valeurs mesurées sont affichées sur un afficheur LCD Nokia 5110 et envoyées en Wi-Fi. Lorsqu'un client (navigateur) effectue une requête, la carte D1 Mini se comporte en serveur web.
 
 Une LED RGB adressable peut également être commandée à distance depuis le navigateur.
 
-La programmation de la carte Wemos D1 Mini est réalisée avec l'IDE Arduino.
+La carte Wemos D1 Mini se programme avec l'IDE Arduino.
 
 Liste du matériel :
 - ESP D1 Mini

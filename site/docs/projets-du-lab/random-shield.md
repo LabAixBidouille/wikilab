@@ -44,13 +44,13 @@ Générateur de bits aléatoires pour Arduino.
 
 Le bruit est généré en polarisant une diode Zener ou une jonction PN de transistor en inverse, dans la zone dite d'avalanche. Dans cette zone, les électrons se déplacent de manière totalement aléatoire. Le transistor 2N3904 est utilisé ici car sa tension inverse est relativement faible (8,2 V) et le bruit qu'il produit présente une grande amplitude.
 
-Le signal obtenu est ensuite amplifié par un amplificateur opérationnel (AOP), après avoir traversé un condensateur. Ce condensateur permet d'éliminer la tension d'offset de 8,2 V (la tension inverse). Le schéma d'alimentation avec les deux piles n'est pas symétrique : la tension positive est fixée à +12 V précisément pour dépasser largement la tension d'avalanche. Le gain est réglé de manière à obtenir une amplitude de 4 V crête à crête (le signal oscille entre +2 V et -2 V à ce stade).
+Le signal obtenu est ensuite amplifié par un amplificateur opérationnel (AOP), après avoir traversé un condensateur. Ce condensateur élimine la tension d'offset de 8,2 V (la tension inverse). Le schéma d'alimentation avec les deux piles n'est pas symétrique : la tension positive est fixée à +12 V précisément pour dépasser largement la tension d'avalanche. Le gain est réglé de manière à obtenir une amplitude de 4 V crête à crête (le signal oscille entre +2 V et -2 V à ce stade).
 
 Note : un bruit de 90 mV a été mesuré à la sortie de C1. Avec une résistance de 2 MOhms sur la boucle de rétroaction de l'AOP, soit un gain de 2 000, le signal de sortie devrait théoriquement atteindre 180 V crête à crête. Ce résultat reste inexpliqué, mais le circuit fonctionne correctement en l'état.
 
-À la sortie de l'AOP, un second condensateur est placé afin de pouvoir appliquer une tension d'offset au signal amplifié. En effet, la logique de l'Arduino est la suivante : 0 logique entre 0 et 0,9 V, 1 logique entre 3 et 4,2 V. Le signal doit donc être ajusté dans cette plage. L'expérience montre que le potentiomètre P2 doit être réglé à 2,5 V.
+À la sortie de l'AOP, un second condensateur est placé pour appliquer une tension d'offset au signal amplifié. En effet, la logique de l'Arduino est la suivante : 0 logique entre 0 et 0,9 V, 1 logique entre 3 et 4,2 V. Le signal doit donc être ajusté dans cette plage. L'expérience montre que le potentiomètre P2 doit être réglé à 2,5 V.
 
-Note : au fur et à mesure que les piles 9 V se déchargent, il sera probablement nécessaire de réajuster le potentiomètre P1 pour maintenir une tension de +12 V. La valeur de la tension négative importe peu, tant qu'elle reste inférieure à -3 V, seuil nécessaire à une amplification correcte du signal. Il conviendra également de vérifier que P2 délivre bien 2,5 V.
+Note : au fur et à mesure que les piles 9 V se déchargent, il sera probablement nécessaire de réajuster le potentiomètre P1 pour maintenir une tension de +12 V. La valeur de la tension négative importe peu, tant qu'elle reste inférieure à -3 V, seuil nécessaire à une amplification correcte du signal. Vérifier aussi que P2 délivre bien 2,5 V.
 
 ## Code Arduino
 
@@ -289,7 +289,7 @@ Preparing to run test 209.  ntuple = 0
 
 ```
 
-Hormis deux instances marquées WEAK, le résultat est très satisfaisant et atteste de l'efficacité du générateur.
+Le résultat est très satisfaisant : tous les tests sont marqués PASSED, hormis deux instances de `sts_serial` marquées WEAK.
 
 ## Évolutions envisagées
 

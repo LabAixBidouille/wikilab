@@ -31,9 +31,9 @@ L'idée est d'assembler des briques matérielles et logicielles simples (cartes 
 
 ### Protocole MQTT
 
-#### Exemple de mise en oeuvre du protocole MQTT
+#### Exemple avec le protocole MQTT
 
-Ce premier exemple montre comment mettre en oeuvre le protocole MQTT sur un réseau IP :
+Ce premier exemple utilise le protocole MQTT sur un réseau IP :
 
 - Un premier Arduino capte des données et les émet sur le réseau.
 - Un second Arduino reçoit les données transmises et les affiche.

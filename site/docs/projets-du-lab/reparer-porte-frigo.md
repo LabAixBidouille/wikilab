@@ -33,7 +33,7 @@ Il fallait une petite pièce en U capable de :
 - épouser l'arrondi de la porte grâce à une forme courbe,
 - retenir la pièce grâce à un petit rebord en haut du U.
 
-La pièce a été dessinée dans **Fusion 360**. Quatre essais ont été nécessaires pour obtenir les bonnes symétries et ajuster les dimensions.
+La pièce a été dessinée dans **Fusion 360**.
 
 ## Fabrication
 

@@ -114,10 +114,10 @@ void loop() {
 
 Le programme fonctionne en boucle continue :
 
-1. Le capteur VL53L0X effectue une mesure de distance par temps de vol (Time of Flight) du laser infrarouge.
+1. Le capteur VL53L0X mesure la distance par temps de vol (Time of Flight) du laser infrarouge.
 2. Si la mesure est valide (pas d'erreur de phase), la distance est bornée à 300 mm.
 3. Cette distance est convertie en délai de demi-période (`delaiBase × (distance - 20)`), qui détermine la fréquence du son.
-4. Le buzzer reçoit 20 oscillations à cette fréquence, produisant un bref son dont la hauteur varie avec la distance.
+4. Le buzzer reçoit 20 oscillations à cette fréquence : il produit un bref son dont la hauteur varie avec la distance.
 5. Si aucun objet n'est détecté, le programme attend 100 ms avant de recommencer.
 
 La constante `delaiBase` (28.4 µs) calibre la plage de fréquences jouables. En la modifiant, on décale l'instrument vers les aigus ou les graves.

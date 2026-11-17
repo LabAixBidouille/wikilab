@@ -19,7 +19,7 @@ sidebar_position: 13
 
 Projet réalisé par Jonathan dans le cadre du Hackathon de Devoxx France.
 
-Une bobine de Tesla est un transformateur résonant qui produit des arcs électriques à haute tension et haute fréquence. Dans sa version « musicale » (SSTC ou DRSSTC), la bobine est modulée à des fréquences audibles : les arcs s'allument et s'éteignent à un rythme précis, et l'air chauffé par les décharges vibre, produisant du son. L'arc devient un haut-parleur.
+Une bobine de Tesla est un transformateur résonant qui produit des arcs électriques à haute tension et haute fréquence. Dans sa version « musicale » (SSTC ou DRSSTC), la bobine est modulée à des fréquences audibles : les arcs s'allument et s'éteignent à un rythme précis, et l'air chauffé par les décharges vibre et produit du son : l'arc sert de haut-parleur.
 
 </div>
 
