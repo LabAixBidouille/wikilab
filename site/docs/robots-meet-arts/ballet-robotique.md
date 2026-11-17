@@ -90,21 +90,19 @@ Posez ensuite la question : « Pourquoi allons-nous utiliser des robots pour cr�
 
 :::
 
-Invitez les élèves à se lever et à montrer leur meilleure imitation d'une danse de ballet. L'annexe 1 peut les aider à identifier les mouvements caractéristiques. Ce moment ludique permet de faire bouger les élèves tout en ancrant les apprentissages.
+Invitez les élèves à se lever et à montrer leur meilleure imitation d'une danse de ballet. L'annexe 1 peut les aider à identifier les mouvements caractéristiques.
 
 Complétez ensemble votre trace d'apprentissage avec les caractéristiques de la danse ballet : mouvements gracieux, pointes, narration expressive, posture droite, tours et sauts...
 
 Passez ensuite à la musique de ballet. L'annexe 2 fournit des informations sur ce qui rend la musique de ballet si particulière. Complétez à nouveau votre document et le tableau avec ces nouvelles informations.
 
-Il est temps d'écouter de la musique ! Formez des groupes (selon le nombre de robots disponibles). Chaque groupe découvre des morceaux de l'un des trois compositeurs célèbres :
+Formez des groupes (selon le nombre de robots disponibles). Chaque groupe découvre des morceaux de l'un des trois compositeurs célèbres :
 
 - Piotr Tchaïkovski
 - Igor Stravinsky
 - Ludwig Minkus
 
 Après 5 minutes d'exploration, chaque groupe choisit son morceau préféré. Ce sera la musique sur laquelle leur robot dansera !
-
-La musique est choisie, place à la programmation !
 
 
 ---
@@ -131,8 +129,6 @@ Les élèves colorient en vert les éléments réalisables, par exemple :
 - Mémoriser la chorégraphie
 - Tours rapides ou lents
 
-C'est parti pour la programmation !
-
 #### Étape 1 - Premiers pas
 
 - Ouvrez LEGO WeDo 2.0 sur l'ordinateur.
@@ -155,8 +151,6 @@ C'est parti pour la programmation !
 - Le code doit être absolument identique.
 
 N'abandonnez pas ! Continuez à vous entraîner, comme de vraies ballerines !
-
-Les chorégraphies sont prêtes, place au spectacle final !
 
 
 ---

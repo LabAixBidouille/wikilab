@@ -46,7 +46,7 @@ sidebar_position: 11
 
 ## Liens utiles
 
-- Vidéo « Sandwich Bot » : excellente introduction aux algorithmes :
+- Vidéo « Sandwich Bot », une introduction aux algorithmes :
 
 <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', margin: '0.5rem 0 1rem'}}>
   <iframe src="https://www.youtube.com/embed/leBEFaVHllE?start=77" title="Sandwich Bot - Introduction aux algorithmes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0}}></iframe>
@@ -61,7 +61,7 @@ sidebar_position: 11
 
 Avant de commencer la séance, découpez 2 lots de formes identiques. Par exemple : 2 triangles, 2 carrés, 2 hexagones, 2 cercles. Préparez également 2 crayons et 2 feuilles A4 blanches à portée de main.
 
-Quand les élèves donnent des instructions confuses ou trop nombreuses, n'hésitez pas à lancer « Erreur ! » — à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l'ordre logique des étapes.
+Quand les élèves donnent des instructions confuses ou trop nombreuses, vous pouvez lancer « Erreur ! » : à eux de reformuler plus clairement. Privilégier des consignes courtes et précises. Respecter l'ordre logique des étapes.
 
 Envie de changer d'artiste ? Voici d'autres maîtres du collage : Hannah Höch, Kurt Schwitters ou Eduardo Paolozzi.
 
@@ -82,7 +82,7 @@ Utilisez les questions suivantes pour discuter de ce que les élèves observent 
 
 Distribuez à chaque groupe : 1 feuille A4, 1 bâton de colle et 1 lot de formes. Prévoyez le même matériel pour vous.
 
-Les élèves ont quelques minutes pour réaliser une composition avec leurs formes — veillez à ne pas regarder leur œuvre pendant cette phase.
+Les élèves ont quelques minutes pour réaliser une composition avec leurs formes. Veillez à ne pas regarder leur œuvre pendant cette phase.
 
 Une fois leur composition terminée, les élèves vous « programment » en vous donnant des instructions précises. L'objectif : réussir à vous faire reproduire exactement la même œuvre en suivant uniquement ces consignes.
 
@@ -95,10 +95,10 @@ Suite à votre performance, prévoyez une phase de bilan collectif. Vous pouvez 
 - Qu'est-ce qui a posé problème ?
 - Comment pourrait-on s'améliorer la prochaine fois ?
 
-Cette phase vous a permis d'introduire les compétences liées à la pensée computationnelle suivantes :
+Cette phase introduit deux compétences de la pensée computationnelle :
 
 - Décomposition : Découper un problème complexe en petites étapes plus faciles à comprendre et à résoudre.
-- Algorithme : Un algorithme, c'est une suite d'instructions pour résoudre un problème ou accomplir une tâche — c'est comme ça qu'on « explique » aux ordinateurs ce qu'ils doivent faire.
+- Algorithme : Un algorithme, c'est une suite d'instructions pour résoudre un problème ou accomplir une tâche. C'est comme ça qu'on « explique » aux ordinateurs ce qu'ils doivent faire.
 
 
 ---
@@ -116,22 +116,17 @@ Prévoyez le matériel suivant pour chaque binôme :
 - 2 crayons à papier
 - 1 gomme et 1 taille-crayon
 
-Pour ajuster le niveau de difficulté, vous pouvez :
-- Commencer par des formes géométriques simples, plus faciles à décrire à l'oral.
-- Limiter le nombre d'instructions que l'artiste peut donner.
-- Demander à l'artiste d'écrire ses instructions avant de les transmettre.
-- Proposer des formes organiques plutôt que des formes géométriques connues.
-- Augmenter ou réduire le nombre de formes selon le niveau des élèves.
+Pour ajuster le niveau de difficulté, voir les pistes de la section [Adapter le niveau de difficulté](#adapter-le-niveau-de-difficulté) en fin de fiche.
 
 :::
 
-Les élèves se mettent en binômes. Chaque élève découpe 2 lots de formes identiques — même forme, même taille, même couleur.
+Les élèves se mettent en binômes. Chaque élève découpe 2 lots de formes identiques : même forme, même taille, même couleur.
 
 Par exemple :
 
 - 2 carrés rouges
 - 2 cercles bleus
-- …
+- ...
 
 Chaque élève réalise ensuite une composition avec l'un de ses lots de formes et la colle sur une feuille A4. Attention : les élèves ne doivent pas voir l'œuvre de leur partenaire.
 
@@ -145,7 +140,7 @@ Pour cette phase, les élèves s'assoient dos à dos afin de ne pas voir la feui
 
 Une fois terminé, les élèves comparent l'« œuvre originale » et la « contrefaçon ». Le faussaire a-t-il relevé le défi ?
 
-Une fois les discussions terminées, laissez les élèves échanger leurs rôles pour pouvoir vivre l'ensemble des situations d'apprentissage.
+Une fois les discussions terminées, laissez les élèves échanger leurs rôles pour que chacun tienne les deux.
 
 Les élèves rangent les chutes de papier et le matériel à leur place.
 
@@ -156,14 +151,12 @@ Pour conclure la séance, vous pouvez organiser une petite exposition pour mettr
 
 ## Adapter le niveau de difficulté
 
-Ces pistes de différenciation vous permettent d'adapter le niveau de difficulté selon vos élèves.
-
 - Nombre de formes : Vous pouvez laisser les élèves utiliser plus ou moins de formes dans leur composition. Plus il y en a, plus la tâche se complexifie.
-- Types de formes : Pour commencer, privilégiez des formes géométriques simples (carré, cercle, hexagone…). Elles sont plus faciles à nommer, ce qui aide les élèves à associer la bonne consigne à la bonne forme.
-- Invention de forme : Pour corser l'exercice, proposez aux élèves d'inventer leurs propres formes. Ces formes originales sont plus difficiles à décrire, ce qui complique la formulation des instructions.
-- Utilisation des couleurs : Limitez le nombre de couleurs autorisées — par exemple trois maximum. Cela évite que les élèves se reposent uniquement sur la couleur pour identifier une forme, et les pousse à formuler des descriptions plus précises et abstraites.
-- Limitation du nombre d'instructions : Fixez un nombre maximum d'étapes ou de phrases — par exemple 10. Vous pouvez aussi en faire un défi : qui réussira à obtenir le bon résultat avec le moins d'instructions possible ? Autre possibilité : demander aux élèves d'écrire leurs instructions sur papier avant de les transmettre à l'« exécuteur ».
-- Coups d'œil (indices) : Si la tâche devient trop difficile, vous pouvez accorder aux élèves un nombre limité de « coups d'œil » — par exemple trois. Pendant un coup d'œil, l'élève peut regarder l'œuvre de son partenaire, puis ajuster ses instructions en fonction de ce qu'il a observé.
+- Types de formes : Pour commencer, privilégiez des formes géométriques simples (carré, cercle, hexagone...). Elles sont plus faciles à nommer et à décrire à l'oral, ce qui aide les élèves à associer la bonne consigne à la bonne forme.
+- Invention de forme : Pour corser l'exercice, proposez des formes organiques plutôt que des formes géométriques connues, ou demandez aux élèves d'inventer leurs propres formes. Ces formes originales sont plus difficiles à décrire, ce qui complique la formulation des instructions.
+- Utilisation des couleurs : Limitez le nombre de couleurs autorisées, par exemple trois maximum. Cela évite que les élèves se reposent uniquement sur la couleur pour identifier une forme, et les pousse à formuler des descriptions plus précises et abstraites.
+- Limitation du nombre d'instructions : Fixez un nombre maximum d'étapes ou de phrases, par exemple 10. Vous pouvez aussi en faire un défi : qui réussira à obtenir le bon résultat avec le moins d'instructions possible ? Autre possibilité : demander aux élèves d'écrire leurs instructions sur papier avant de les transmettre à l'« exécuteur ».
+- Coups d'œil (indices) : Si la tâche devient trop difficile, vous pouvez accorder aux élèves un nombre limité de « coups d'œil », par exemple trois. Pendant un coup d'œil, l'élève peut regarder l'œuvre de son partenaire, puis ajuster ses instructions en fonction de ce qu'il a observé.
 
 
 ---

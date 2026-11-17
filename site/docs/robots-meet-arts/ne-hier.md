@@ -53,7 +53,7 @@ sidebar_position: 28
 
 ## Points du programme abordés
 
-**« Découvrir le monde du numérique »** : sciences et technologie, Cycle 3. Cette séquence permet aux élèves de découvrir les principes fondamentaux de l'apprentissage automatique en vivant eux-mêmes l'expérience d'un algorithme qui apprend par essai-erreur. En combinant une phase débranchée immersive, l'observation d'une IA qui apprend, et une phase de programmation robotique, les élèves comprennent comment les machines peuvent « apprendre » à résoudre des problèmes sans être explicitement programmées pour chaque situation.
+**« Découvrir le monde du numérique »** : sciences et technologie, Cycle 3. Cette séquence permet aux élèves de découvrir les principes de base de l'apprentissage automatique en vivant eux-mêmes l'expérience d'un algorithme qui apprend par essai-erreur. En combinant une phase débranchée immersive, l'observation d'une IA qui apprend, et une phase de programmation robotique, les élèves comprennent comment les machines peuvent « apprendre » à résoudre des problèmes sans être explicitement programmées pour chaque situation.
 
 Les compétences mobilisées sont les suivantes :
 
@@ -72,7 +72,7 @@ Les compétences mobilisées sont les suivantes :
 ## Adaptations aux contraintes matérielles
 
 - Avec 1 seul robot : L'activité fonctionne parfaitement avec un seul type de robot. Choisissez celui qui correspond à votre budget et vos objectifs.
-- Avec 2 robots : Vous pouvez comparer deux logiques de programmation différentes, ce qui est déjà très riche pédagogiquement.
+- Avec 2 robots : Vous pouvez comparer deux logiques de programmation différentes.
 - Pas de robot ? Rapprochez-vous des associations de médiation scientifique de votre territoire (Petits Débrouillards, fablabs, maisons pour la science, médiathèques, CANOPE...).
 
 ## Liens utiles
@@ -88,13 +88,13 @@ Les compétences mobilisées sont les suivantes :
 
 ## Introduction
 
-Cette séquence constitue une activité introductive idéale à l'univers « Robots Meet Arts » (Rencontre Robots et Humanités). Elle permet de démystifier la programmation robotique de manière ludique, en montrant que programmer un robot n'est pas réservé aux experts : c'est accessible, créatif, et profondément connecté à ce que nous sommes en tant qu'êtres humains.
+Cette séquence sert d'introduction à l'univers « Robots Meet Arts » (Rencontre Robots et Humanités). Elle aide à démystifier la programmation robotique par le jeu et montre que programmer un robot n'est pas réservé aux experts : c'est accessible et créatif.
 
 Le point de départ : Imaginez un robot qui doit apprendre à naviguer dans un environnement inconnu pour atteindre un objectif. Personne ne lui a donné de carte : il doit découvrir par lui-même quels chemins sont sûrs et lesquels sont bloqués par des obstacles. Comment peut-il apprendre sans se perdre définitivement ?
 
 Dans cette séquence, les élèves vont d'abord jouer le rôle de ce robot explorateur, puis observer comment une véritable IA résout le même problème, et enfin programmer leurs propres robots pour réaliser un parcours sans faute. Ils découvriront qu'en explorant méthodiquement, en mémorisant ce qui fonctionne et ce qui ne fonctionne pas, ils construisent une « carte mentale » efficace du territoire : exactement comme le font les algorithmes d'apprentissage automatique quand ils construisent leur modèle.
 
-L'originalité de cette activité réside dans son approche transdisciplinaire :
+L'activité croise trois disciplines :
 
 | Discipline | Sciences du numérique | Sciences du vivant | Sciences humaines |
 |---|---|---|---|
@@ -103,17 +103,17 @@ L'originalité de cette activité réside dans son approche transdisciplinaire :
 
 ### L'apprentissage bio-inspiré - Quand les machines imitent le vivant
 
-L'apprentissage est l'un des processus fondamentaux que partagent les humains et les machines, même si les mécanismes peuvent être très différents. Quand un enfant touche une plaque chaude et apprend à l'éviter, quand il découvre par essais successifs le meilleur chemin pour rentrer de l'école : il pratique l'apprentissage par renforcement. C'est exactement ce que font les algorithmes d'IA les plus puissants d'aujourd'hui.
+L'apprentissage est un processus que partagent les humains et les machines, même si les mécanismes peuvent être très différents. Quand un enfant touche une plaque chaude et apprend à l'éviter, quand il découvre par essais successifs le meilleur chemin pour rentrer de l'école : il pratique l'apprentissage par renforcement. Les algorithmes d'IA les plus puissants d'aujourd'hui apprennent de la même façon.
 
-L'objectif de cette activité est de fournir aux élèves une compréhension intuitive des modèles d'apprentissage bio-inspirés et de la façon dont les machines, à l'instar des organismes vivants, utilisent la méthode des essais et des erreurs pour s'adapter et trouver des solutions.
+L'activité vise à faire comprendre aux élèves, de façon intuitive, les modèles d'apprentissage bio-inspirés et la façon dont les machines, comme les organismes vivants, procèdent par essais et erreurs pour s'adapter et trouver des solutions.
 
 ### Une entrée ludique dans la robotique
 
-La robotique n'est pas qu'une affaire de code et de circuits. C'est aussi une invitation à questionner notre humanité : qu'est-ce qu'apprendre ? Qu'est-ce qui différencie l'intelligence humaine de l'intelligence artificielle ? Les robots peuvent-ils vraiment « comprendre » ou ne font-ils que calculer ? Ces questions philosophiques émergent naturellement de l'activité.
+L'activité ouvre des questions philosophiques : qu'est-ce qu'apprendre ? Qu'est-ce qui différencie l'intelligence humaine de l'intelligence artificielle ? Les robots peuvent-ils vraiment « comprendre » ou ne font-ils que calculer ?
 
 Cette activité a été conçue comme porte d'entrée accessible vers la programmation robotique. En commençant par une phase « débranchée » où les élèves sont eux-mêmes le robot, on lève les appréhensions : programmer, c'est simplement donner des instructions claires, comme celles qu'ils ont suivies pendant le jeu. Le passage aux vrais robots devient alors naturel et non intimidant.
 
-Trois robots sont proposés (Cubetto, Sphero Indi, micro:bit), chacun avec une logique de programmation différente. L'idéal est de faire découvrir les trois en ateliers tournants, mais l'activité fonctionne très bien avec un seul robot selon vos moyens. L'essentiel est de vivre l'expérience de donner des instructions à une machine et de voir sa création prendre vie.
+Trois robots sont proposés (Cubetto, Sphero Indi, micro:bit), chacun avec une logique de programmation différente. L'idéal est de faire découvrir les trois en ateliers tournants, mais l'activité fonctionne très bien avec un seul robot selon vos moyens.
 
 ---
 
@@ -164,9 +164,9 @@ Chaque élève reçoit une fiche de mémorisation vierge (grille vide ou feuille
 
 L'exploration est collective (le groupe décide ensemble des mouvements), mais chaque élève remplit sa propre fiche de mémorisation individuelle. Cela permet d'observer la diversité des représentations mentales pour une même expérience vécue.
 
-> Point pédagogique : NE PAS GUIDER !
+> Point pédagogique : ne pas guider !
 >
-> Ne donnez AUCUNE consigne sur comment remplir la fiche. Pas de modèle, pas d'exemple, pas de suggestion. L'objectif est d'observer comment chaque élève construit spontanément son propre système de représentation : certains dessineront des flèches pour indiquer le chemin, d'autres mettront des croix ou des X sur les obstacles, d'autres utiliseront des couleurs (vert = sûr, rouge = danger)... Cette diversité EST l'apprentissage.
+> Ne donnez aucune consigne sur comment remplir la fiche. Pas de modèle, pas d'exemple, pas de suggestion. L'objectif est d'observer comment chaque élève construit spontanément son propre système de représentation : certains dessineront des flèches pour indiquer le chemin, d'autres mettront des croix ou des X sur les obstacles, d'autres utiliseront des couleurs (vert = sûr, rouge = danger)...
 
 ### Bilan de la phase
 
@@ -194,7 +194,7 @@ Chaque élève garde sa fiche de mémorisation. L'enseignant peut annoncer la tr
 
 Cette étape est une phase de découverte technique volontairement déconnectée du défi principal. Les élèves apprennent à manipuler le robot sans pression, à travers des missions progressives qui n'ont rien à voir avec la grille du Warm-up. Cette séparation est intentionnelle :
 
-- Éviter la surcharge cognitive : apprendre un nouvel outil ET résoudre un problème complexe en même temps serait trop difficile
+- Éviter la surcharge cognitive : apprendre un nouvel outil et résoudre un problème complexe en même temps serait trop difficile
 - Construire la confiance : les élèves arrivent à la phase finale en maîtrisant déjà leur robot
 - Permettre l'erreur : pendant cette étape, se tromper n'a pas de conséquence sur le défi final
 
@@ -205,7 +205,7 @@ Quel que soit le robot utilisé, les missions progressives permettent de découv
 3. L'enchaînement : combiner plusieurs instructions en séquence
 4. Les contraintes : chaque robot a ses limites et sa logique propre
 
-Les élèves découvrent également qu'un robot n'interprète pas les intentions : il exécute exactement ce qu'on lui dit. Si le robot fait quelque chose d'inattendu, c'est que l'instruction n'était pas celle qu'on pensait donner. Cette prise de conscience est fondamentale pour la suite.
+Les élèves découvrent également qu'un robot n'interprète pas les intentions : il exécute exactement ce qu'on lui dit. Si le robot fait quelque chose d'inattendu, c'est que l'instruction n'était pas celle qu'on pensait donner.
 
 | Robot | Programmation | Contraintes |
 |---|---|---|
@@ -234,7 +234,7 @@ Pendant que les élèves réalisent les missions, tournez entre les groupes et v
 
 :::info[Notes pour l'enseignant·e]
 
-Nous vous conseillons de réaliser cette phase en parallèle de la phase 2. Le mieux est de proposer cette étape comme mission finale dans la continuité des fiches missions de l'étape précédente.
+Réalisez de préférence cette phase en parallèle de la phase 2. Le mieux est de proposer cette étape comme mission finale dans la continuité des fiches missions de l'étape précédente.
 
 :::
 
@@ -242,7 +242,7 @@ Nous vous conseillons de réaliser cette phase en parallèle de la phase 2. Le m
 
 Afin de conclure l'activité, les élèves doivent programmer leur robot pour qu'il suive le chemin qu'ils ont découvert pendant le Warm-up.
 
-La règle d'or : Ils ont UNIQUEMENT leur fiche de mémorisation. Ils ne peuvent pas voir la grille complète avec ses obstacles avant d'avoir programmé !
+La règle d'or : Ils ont **uniquement** leur fiche de mémorisation. Ils ne peuvent pas voir la grille complète avec ses obstacles avant d'avoir programmé !
 
 Les élèves étudient leur fiche de mémorisation et planifient leur programme :
 
@@ -290,7 +290,7 @@ Les chiffres surprennent : l'IA peut mettre jusqu'à 700 essais pour trouver le 
 Pendant l'observation, posez des questions :
 
 - Comment l'IA se déplace-t-elle au début ? (Au hasard, elle sort même de la grille !)
-- Pourquoi fait-elle autant d'erreurs ? (Elle n'a pas d'intuition, elle teste TOUT)
+- Pourquoi fait-elle autant d'erreurs ? (Elle n'a pas d'intuition, elle teste tout)
 - Combien de tentatives lui faut-il ? (Des centaines !)
 - Pourquoi continue-t-elle après avoir trouvé un chemin ? (Elle cherche le chemin optimal, le plus court)
 
@@ -311,10 +311,10 @@ Posez les questions de discussion :
 
 - Qui a appris plus vite, vous ou l'IA ? (Ça dépend comment on compte ! Moins d'essais pour vous, moins de temps pour l'IA)
 - Quels sont les avantages de l'IA ? (Ne se fatigue pas, très rapide, trouve la solution optimale, ne se décourage pas)
-- Quels sont VOS avantages ? (Intuition, peu d'erreurs, capacité à expliquer, à s'adapter, à comprendre)
+- Quels sont vos avantages ? (Intuition, peu d'erreurs, capacité à expliquer, à s'adapter, à comprendre)
 - Dans quels cas l'IA serait-elle meilleure ? Et vous ?
 
-Concluez sur la richesse de ce qu'ils ont vécu :
+Concluez sur ce qu'ils ont vécu :
 
 > « Aujourd'hui, vous avez fait bien plus que programmer un robot. Vous avez découvert comment VOUS apprenez, vous avez inventé votre propre système de notation, et vous avez compris comment les machines s'inspirent de l'apprentissage du vivant. »
 
@@ -333,7 +333,7 @@ Pour la trace écrite, créez ensemble une affiche ou un document récapitulatif
 
 ### Introduction
 
-Cubetto est une interface de programmation tangible conçue pour initier les enfants de 3 à 6 ans à la pensée computationnelle et à la logique de programmation. Il permet de programmer un petit robot en bois à l'aide de blocs colorés. Les enfants manipulent la « file d'instructions », l'un des concepts fondamentaux de la programmation, sans avoir besoin de savoir lire ni d'utiliser d'écran.
+Cubetto est une interface de programmation tangible conçue pour initier les enfants de 3 à 6 ans à la pensée computationnelle et à la logique de programmation. Il permet de programmer un petit robot en bois à l'aide de blocs colorés. Les enfants manipulent la « file d'instructions », l'un des concepts de base de la programmation, sans avoir besoin de savoir lire ni d'utiliser d'écran.
 
 ### Le kit Cubetto
 
@@ -358,7 +358,7 @@ Cubetto est une interface de programmation tangible conçue pour initier les enf
 | Droite | Rouge | Flèche vers la droite | Cubetto pivote de 90° dans le sens horaire |
 | Fonction | Bleu | Ligne ondulée | Cubetto exécute la ligne de fonction |
 
-Tous les blocs ont une base en forme de D qui s'insère dans les fentes du tableau, garantissant qu'ils ne peuvent être insérés que dans un seul sens.
+Tous les blocs ont une base en forme de D qui s'insère dans les fentes du tableau : un bloc ne peut entrer que dans un seul sens.
 
 **Le tapis de jeu** : Un tapis de jeu de 1 m x 1 m représentant « Le monde de Cubetto » : une grille de 6x6 cases de 15 cm x 15 cm. Chaque case correspond exactement à un mouvement avant de Cubetto.
 
@@ -400,11 +400,11 @@ Note : L'appairage s'effectue automatiquement en arrière-plan. La portée sans 
 - Pas de trous : Les blocs insérés après un emplacement vide ne seront pas reconnus
 - Un programme à la fois : Modifier les blocs pendant l'exécution n'a aucun effet, attendre que Cubetto ait terminé
 - Les LED de retour clignotent pour indiquer quelle instruction est en cours d'exécution
-- Mélodies uniques : Cubetto joue un son différent pour chaque type de commande, aidant les enfants à suivre
+- Mélodies uniques : Cubetto joue un son différent pour chaque type de commande, ce qui aide les enfants à suivre
 
 ### Utiliser le bloc fonction
 
-Le bloc fonction bleu est un outil puissant qui permet aux enfants de regrouper plusieurs instructions dans un seul bloc. Cela introduit le concept de fonctions (ou sous-programmes), une idée fondamentale en programmation.
+Le bloc fonction bleu permet aux enfants de regrouper plusieurs instructions dans un seul bloc. Il introduit le concept de fonctions (ou sous-programmes), une idée de base en programmation.
 
 **Comment fonctionnent les fonctions** :
 
@@ -427,9 +427,9 @@ Le bloc fonction bleu est un outil puissant qui permet aux enfants de regrouper 
 
 ### Introduction
 
-Sphero Indi est un robot programmable conçu pour les jeunes apprenants (à partir de 4 ans) qui utilise la détection de couleurs au lieu du codage traditionnel. Les enfants programment Indi en plaçant des tuiles en silicone colorées sur le sol : le robot roule dessus et réagit à chaque couleur par un comportement spécifique. Cette approche intuitive sans écran rend la programmation accessible aux enfants qui ne savent pas encore lire tout en enseignant les concepts de la pensée computationnelle.
+Sphero Indi est un robot programmable conçu pour les jeunes apprenants (à partir de 4 ans) qui utilise la détection de couleurs au lieu du codage traditionnel. Les enfants programment Indi en plaçant des tuiles en silicone colorées sur le sol : le robot roule dessus et réagit à chaque couleur par un comportement spécifique. Cette approche intuitive et sans écran rend la programmation accessible aux enfants qui ne savent pas encore lire, tout en leur enseignant les concepts de la pensée computationnelle.
 
-Indi propose une logique de programmation unique « SI couleur ALORS action » : SI le robot voit du vert, ALORS il avance ; SI il voit du violet, ALORS il tourne à gauche. Cette pensée conditionnelle est fondamentale dans toute programmation.
+Indi suit une logique de programmation « SI couleur ALORS action » : SI le robot voit du vert, ALORS il avance ; SI il voit du violet, ALORS il tourne à gauche. Cette pensée conditionnelle est à la base de toute programmation.
 
 ### Le robot
 
@@ -448,14 +448,14 @@ Indi est livré avec un ensemble de tuiles en silicone colorées. Chaque couleur
 ### Prise en main
 
 - Étape 1 : Découvrir comment Indi réagit à chaque tuile de couleur
-- Étape 2 : Construire des labyrinthes avec des combinaisons infinies de tuiles colorées
-- Étape 3 : Renforcer les compétences de résolution de problèmes en naviguant dans les puzzles complexes que vous créez
+- Étape 2 : Construire des labyrinthes en combinant les tuiles colorées
+- Étape 3 : Résoudre les puzzles que vous avez créés en y faisant naviguer Indi
 
 ### Créer vos propres couleurs
 
-Certains souhaitent créer leurs propres tuiles, cartes ou chemins pour Indi. Gardez à l'esprit que chaque couleur est programmée dans le firmware et instantanément reconnaissable par Indi. D'autres sources de couleur, comme le papier de construction ou les feutres, peuvent ne pas offrir une expérience aussi cohérente que les tuiles et/ou cartes de couleur fournies avec votre Indi.
+Certains souhaitent créer leurs propres tuiles, cartes ou chemins pour Indi. Gardez à l'esprit que chaque couleur est programmée dans le firmware et instantanément reconnaissable par Indi. D'autres supports, comme le papier de couleur ou les feutres, peuvent être reconnus de façon moins régulière que les tuiles et/ou cartes de couleur fournies avec votre Indi.
 
-Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : https://web.archive.org/web/20260312233345/https://sphero.com/pages/sphero-indi (archive.org 2026-03). N'hésitez pas à créer autant de chemins que possible et amusez-vous !
+Le site officiel d'Indi fournit toutes les couleurs Pantone en libre accès : https://web.archive.org/web/20260312233345/https://sphero.com/pages/sphero-indi (archive.org 2026-03). Vous pouvez créer autant de chemins que vous le souhaitez.
 
 ---
 
@@ -467,12 +467,12 @@ Le BBC micro:bit est une carte de programmation polyvalente qui peut être trans
 
 Cette modularité apporte une grande flexibilité mais introduit également un concept important : chaque plateforme robotique nécessite d'être programmée sur MakeCode en utilisant des extensions spécifiques.
 
-### Qu'est-ce que MakeCode ?
+### Présentation de MakeCode
 
-MakeCode est un environnement de programmation gratuit, basé sur navigateur, développé par Microsoft. Caractéristiques principales :
+MakeCode est un environnement de programmation gratuit, qui fonctionne dans le navigateur, développé par Microsoft. Caractéristiques principales :
 
 - Gratuit et en ligne : aucune installation requise, fonctionne dans tout navigateur web moderne
-- Multi-langages : supporte les blocs, JavaScript et Python
+- Multi-langages : accepte les blocs, JavaScript et Python
 - Simulateur inclus : tester les programmes sans matériel physique
 - Documentation complète : tutoriels, exemples et ressources enseignants intégrés
 
@@ -486,7 +486,7 @@ MakeCode propose trois façons d'écrire le même programme :
 
 Les trois modes sont interconnectés : les modifications dans un mode se reflètent dans les autres. Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
 
-**Pour les élèves de 8 à 12 ans, nous recommandons d'utiliser le mode blocs** car il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
+**Pour les élèves de 8 à 12 ans, le mode blocs est recommandé** : avec lui, donner des instructions à leur robot semblera aux enfants très logique et naturel.
 
 ### Si vous utilisez une carte micro:bit pour la première fois
 
@@ -522,7 +522,7 @@ Les valeurs de vitesse vont de -255 (pleine marche arrière) à 255 (pleine marc
 
 ### Programme de navigation sur grille : Un exemple de classe
 
-Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une grille. Il a été développé pour être utilisé avec le curriculum d'Apprentissage Bio-inspiré, où les élèves mémorisent d'abord un itinéraire eux-mêmes, puis programment le robot pour suivre le même chemin. Le programme est visible ici : https://makecode.microbit.org/S25194-48798-31124-89886
+Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une grille. Il a été développé pour la séquence d'apprentissage bio-inspiré, où les élèves mémorisent d'abord un itinéraire eux-mêmes, puis programment le robot pour suivre le même chemin. Le programme est visible ici : https://makecode.microbit.org/S25194-48798-31124-89886
 
 **Structure du programme** - Le programme est organisé en sections distinctes :
 
@@ -530,7 +530,7 @@ Le programme suivant montre un robot naviguant sur un chemin prédéfini sur une
 2. Définitions des fonctions (Tourner_gauche, Tourner_droite, Aller_tout_droit, Faire_demi_tour) : primitives de mouvement réutilisables
 3. Gestionnaire d'événement (input.onButtonPressed) : la séquence de navigation principale déclenchée par le bouton A
 
-**Organiser le code avec des fonctions** - Plutôt que de disperser les commandes moteur dans tout le programme, nous définissons quatre fonctions de mouvement : Aller_tout_droit, Tourner_gauche, Tourner_droite et Faire_demi_tour. Chaque fonction encapsule une action complète : afficher une flèche directionnelle sur les LED, faire tourner les moteurs appropriés pendant une durée calibrée, puis s'arrêter et faire une pause avant le mouvement suivant.
+**Organiser le code avec des fonctions** - Plutôt que de disperser les commandes moteur dans tout le code, le programme définit quatre fonctions de mouvement : Aller_tout_droit, Tourner_gauche, Tourner_droite et Faire_demi_tour. Chaque fonction encapsule une action complète : afficher une flèche directionnelle sur les LED, faire tourner les moteurs appropriés pendant une durée calibrée, puis s'arrêter et faire une pause avant le mouvement suivant.
 
 Cette approche transforme le programme principal en quelque chose de lisible. Au lieu de déchiffrer powerbrick.MotorRun(M1, 255) suivi de powerbrick.MotorRun(M2, 255), on lit simplement Aller_tout_droit. Le code devient une narration du parcours du robot que les élèves peuvent suivre sans comprendre le contrôle moteur sous-jacent.
 

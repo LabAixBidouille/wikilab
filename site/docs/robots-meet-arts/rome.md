@@ -41,7 +41,7 @@ sidebar_position: 25
 
 - Pyramide vide (3 niveaux)
 - Cartes mission
-- Fiche "Organise tes idées"
+- Fiche « Organise tes idées »
 - Commandes Tale-Bot
 
 :::
@@ -103,8 +103,6 @@ Après la lecture et un bref échange, les élèves dessinent une pyramide de la
 
 À la fin, projetez la pyramide complète pour que les élèves vérifient leurs réponses.
 
-Les élèves ont maintenant une vision claire de la société romaine, place à la mission robotique !
-
 </div>
 
 <img src="/img/ressources/robots-meet-arts/rome/pyramide.png" alt="Pyramide de la hiérarchie sociale romaine" style={{flex: 1, minWidth: '200px', maxWidth: '40%', height: 'auto', alignSelf: 'flex-start'}} />
@@ -130,7 +128,7 @@ Les élèves ont maintenant une vision claire de la société romaine, place à 
 
 :::
 
-L'objectif de cette phase est de relier chaque classe sociale à son lieu de résidence et à ses privilèges ou tâches, grâce à la programmation et à l'enregistrement vocal.
+Dans cette phase, il s'agit de relier chaque classe sociale à son lieu de résidence et à ses privilèges ou tâches, grâce à la programmation et à l'enregistrement vocal.
 
 Les élèves sont répartis en groupes de 5, pour que chaque élève incarne un rôle de la société romaine antique. Chaque élève a pour mission d'associer son rôle à son lieu de vie et à son privilège ou sa tâche en programmant le Tale-Bot.
 
@@ -163,7 +161,7 @@ Concluez la séance en mettant l'accent sur :
 
 :::
 
-L'objectif de cette phase est de réfléchir aux différences entre les classes sociales dans la Rome antique et d'exprimer des opinions personnelles sur la justice, les droits et l'égalité dans la société actuelle.
+En fin de séance, on invite les élèves à réfléchir aux différences entre les classes sociales dans la Rome antique et à exprimer des opinions personnelles sur la justice, les droits et l'égalité dans la société actuelle.
 
 Posez à l'ensemble du groupe des questions sur les sociétés antique et actuelle :
 
@@ -172,7 +170,7 @@ Posez à l'ensemble du groupe des questions sur les sociétés antique et actuel
 - Peut-on trouver des inégalités similaires dans la société d'aujourd'hui ?
 - Que changerais-tu si tu vivais dans la Rome antique ?
 
-Rangez le matériel et les robots. Cette discussion permet de clore la séance sur une note réflexive et d'ancrer les apprentissages dans la réalité des élèves.
+Rangez le matériel et les robots.
 
 
 ---

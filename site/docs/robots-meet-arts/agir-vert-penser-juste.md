@@ -84,8 +84,6 @@ Présentez ensuite l'Objectif de développement durable n°13 (Action pour le cl
 
 Introduisez le Blue-Bot comme un « robot écologiste » qui a besoin d'aide pour trouver les actions durables et éviter celles qui polluent. Expliquez aux élèves qu'ils vont devenir les guides de ce petit robot pour l'aider à faire les bons choix pour la planète !
 
-Les élèves sont maintenant sensibilisés au sujet et motivés, place à la programmation !
-
 
 ---
 
@@ -96,7 +94,7 @@ Les élèves sont maintenant sensibilisés au sujet et motivés, place à la pro
 
 Organisez les élèves en petits groupes de 3-4 et encouragez le travail d'équipe ainsi qu'une communication claire au sein de chaque groupe.
 
-Clarifiez ce que signifie « tourner à droite ». Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d'abord programmer « tourner à droite », puis « avancer ». Il est essentiel d'expliquer clairement ce point aux élèves, car ils risquent d'interpréter les commandes différemment. Sur de nombreux robots éducatifs, tourner à droite signifie pivoter de 90 degrés sans changer de case.
+Clarifiez ce que signifie « tourner à droite », car les élèves risquent d'interpréter les commandes différemment. Lorsque le robot tourne à droite, il pivote de 90 degrés vers la droite mais reste sur la même case, comme sur de nombreux robots éducatifs. Pour que le robot se déplace vers la case située à sa droite, les élèves doivent d'abord programmer « tourner à droite », puis « avancer ».
 
 :::
 
@@ -111,8 +109,6 @@ Les élèves doivent planifier l'itinéraire ensemble, le tester et apporter des
 
 Circulez entre les groupes pour observer, poser des questions et accompagner les élèves dans leur réflexion sans donner directement les solutions.
 
-Les parcours sont prêts et testés, il est temps de les partager avec toute la classe !
-
 
 ---
 
@@ -123,11 +119,9 @@ Les parcours sont prêts et testés, il est temps de les partager avec toute la 
 
 Lorsque toutes les équipes sont prêtes, chaque groupe présente le parcours de son robot à travers les actions favorables au climat en utilisant la grande grille au sol.
 
-Pendant que le robot se déplace, les élèves du groupe commentent les actions sur lesquelles le robot passe. Cela permet de travailler l'expression orale et de consolider les apprentissages sur les gestes écologiques.
+Pendant que le robot se déplace, les élèves du groupe commentent les actions sur lesquelles le robot passe, ce qui leur permet de travailler l'expression orale et de consolider ce qu'ils savent des gestes écologiques.
 
-Si le robot n'atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme. Cette entraide favorise un climat de classe bienveillant et collaboratif.
-
-Les présentations terminées, il est temps de garder une trace de ces apprentissages !
+Si le robot n'atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme.
 
 
 ---
@@ -153,7 +147,7 @@ La fresque ou l'infographie comporte deux sections distinctes :
 - **Actions favorables au climat** : recycler, marcher ou faire du vélo au lieu de prendre la voiture, économiser l'eau, planter des arbres, etc.
 - **Actions défavorables au climat** : jeter des déchets par terre, gaspiller l'électricité, utiliser des plastiques à usage unique, polluer l'eau, etc.
 
-Cette représentation visuelle permet de consolider les apprentissages, de renforcer le vocabulaire et d'encourager la discussion. Les élèves développent ainsi un sentiment de fierté en contribuant à un affichage collectif centré sur la durabilité.
+Cette représentation visuelle permet de renforcer le vocabulaire et d'encourager la discussion.
 
 Affichez la fresque dans la classe ou dans un couloir de l'école pour partager ce que les élèves ont appris avec le reste de la communauté scolaire. Rangez ensuite le matériel et les robots.
 

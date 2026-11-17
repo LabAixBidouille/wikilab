@@ -45,7 +45,7 @@ sidebar_position: 15
 :::tip[**Ressources imprimables incluses dans le PDF.**]
 
 - Cartes rôles
-- Fiche "Ceci n'est pas un cercle"
+- Fiche « Ceci n'est pas un cercle »
 - Cartes défis et solutions
 - Tutoriels vidéo
 
@@ -69,15 +69,15 @@ sidebar_position: 15
 
 ---
 
-## Introduction - Pourquoi choisir OctoStudio plutôt qu'un autre programme de blocs, comme Scratch ?
+## Introduction : Ce qui distingue OctoStudio de Scratch
 
-OctoStudio offre une expérience mobile pensée pour la création et le code. Si Scratch est bien connu, OctoStudio se distingue sur plusieurs points importants :
+OctoStudio est une application mobile pour créer et programmer. Scratch est bien connu, mais OctoStudio s'en distingue sur plusieurs points :
 
-- **Des ressources d'apprentissage complètes** : Démarrez rapidement grâce à une riche bibliothèque de tutoriels vidéo et de démonstrations disponibles sur la chaîne YouTube d'OctoStudio.
-- **Conçu pour le mobile, pensé pour la flexibilité** : OctoStudio est spécifiquement conçu pour les appareils mobiles, permettant de créer des projets n'importe où, n'importe quand — sans ordinateur. Donnez vie à vos projets grâce à des fonctionnalités interactives qui réagissent au toucher, aux secousses, à l'inclinaison et aux autres capteurs de l'appareil. Intégrez facilement des photos, vidéos et sons de votre environnement dans vos projets, encourageant une créativité qui dépasse l'écran.
-- **Une programmation par blocs gratuite et intuitive** : Grâce à une interface glisser-déposer conviviale, OctoStudio permet aux enfants de 7 à 14 ans d'apprendre les concepts de programmation sans se soucier de la syntaxe. L'application est gratuite et, selon de nombreux utilisateurs, plus intuitive que Scratch.
-- **Fonctionne sans internet** : OctoStudio fonctionne hors ligne, ce qui en fait un outil idéal pour les zones avec un accès internet limité ou inexistant.
-- **Multilingue et accessible** : Disponible dans plus de 20 langues et doté de fonctionnalités d'accessibilité comme la compatibilité avec les lecteurs d'écran et l'agrandissement des images, OctoStudio est véritablement inclusif pour tous les utilisateurs.
+- **Des ressources d'apprentissage complètes** : La chaîne YouTube d'OctoStudio propose des tutoriels vidéo et des démonstrations pour démarrer rapidement.
+- **Conçu pour le mobile, pensé pour la flexibilité** : OctoStudio est conçu spécifiquement pour les appareils mobiles : vous pouvez créer vos projets n'importe où, n'importe quand, sans ordinateur. Ces projets peuvent réagir au toucher, aux secousses, à l'inclinaison et aux autres capteurs de l'appareil, et intégrer facilement des photos, des vidéos et des sons de votre environnement.
+- **Une programmation par blocs gratuite et intuitive** : Avec son interface glisser-déposer, OctoStudio permet aux enfants de 7 à 14 ans d'apprendre les concepts de programmation sans se soucier de la syntaxe. L'application est gratuite.
+- **Fonctionne sans internet** : OctoStudio fonctionne hors ligne et convient donc aux zones où l'accès à internet est limité ou inexistant.
+- **Multilingue et accessible** : OctoStudio est disponible dans plus de 20 langues et propose des fonctions d'accessibilité, comme la compatibilité avec les lecteurs d'écran et l'agrandissement des images.
 
 ---
 
@@ -106,7 +106,7 @@ Devant la classe, créez un nouveau sprite dans un nouveau projet en dessinant l
 
 ### Découvrir les blocs de code
 
-Demandez aux élèves d'appuyer sur le bouton Lecture. Demandez-leur ce qui se passe. Il ne se passe rien. C'est parce que nous n'avons encore rien programmé. C'est ce que nous allons faire maintenant.
+Demandez aux élèves d'appuyer sur le bouton Lecture. Demandez-leur ce qui se passe. Il ne se passe rien, car le sprite n'a encore aucun programme.
 
 Expliquez aux élèves qu'ils vont utiliser des blocs pour indiquer au sprite exactement ce qu'il doit faire, étape par étape. On place les blocs de haut en bas, comme des instructions de montage.
 
@@ -122,7 +122,7 @@ Il existe différents types de blocs. Chaque catégorie a sa propre couleur de f
 
 Présentez les cartes défis aux élèves. Expliquez la signification du pseudocode sur ces cartes. Il s'agit de l'explication écrite, étape par étape, de ce qui se passe lorsqu'on lance le programme (en appuyant sur le bouton Lecture).
 
-Il est conseillé de réaliser le premier défi tous ensemble en classe entière. Les élèves peuvent ensuite choisir s'ils souhaitent réaliser le Niveau 1 ou le Niveau 2. Le Niveau 2 est plus difficile. En haut à droite de chaque carte défi, la catégorie de blocs à utiliser est indiquée.
+Réalisez de préférence le premier défi en classe entière. Les élèves peuvent ensuite choisir s'ils souhaitent réaliser le Niveau 1 ou le Niveau 2. Le Niveau 2 est plus difficile. En haut à droite de chaque carte défi, la catégorie de blocs à utiliser est indiquée.
 
 Vous pouvez également choisir de réaliser chaque exercice en classe entière plutôt que de laisser les élèves travailler en binômes. Avant de passer au défi suivant, les élèves doivent montrer leur solution à l'enseignant·e.
 

@@ -98,7 +98,7 @@ sidebar_position: 1
 
 ### La boîte secrète
 
-Cette activité propose aux élèves de décoder des cartes d'instructions contenant un programme à exécuter pour ouvrir une boîte mystérieuse fermée par des cadenas à combinaison. Pour y parvenir, ils utilisent le code binaire : un système de numération qui n'utilise que deux chiffres, 1 et 0. Toutes les informations traitées par un ordinateur sont des suites de 1 et de 0. Ici, nous appliquons ce principe avec les LEGO Dots : une tuile colorée représente le 1, une case vide représente le 0.
+Cette activité propose aux élèves de décoder des cartes d'instructions contenant un programme à exécuter pour ouvrir une boîte mystérieuse fermée par des cadenas à combinaison. Pour y parvenir, ils utilisent le code binaire : un système de numération qui n'utilise que deux chiffres, 1 et 0. Toutes les informations traitées par un ordinateur sont des suites de 1 et de 0. Ici, on applique ce principe avec les LEGO Dots : une tuile colorée représente le 1, une case vide représente le 0.
 
 :::info[Notes pour l'enseignant·e]
 
@@ -119,13 +119,11 @@ Rassemblez les élèves en cercle autour de la boîte fermée. Lancez la discuss
 - Que voyez-vous ?
 - À votre avis, comment pourrait-on ouvrir cette boîte ?
 
-Présentez le déroulement de l'activité aux élèves. Sur chaque cadenas est fixée une étiquette avec quatre symboles — mais aucun chiffre. En observant les cartes d'instructions de programmation disposées autour de la boîte, les élèves remarqueront qu'elles contiennent des chiffres.
+Présentez le déroulement de l'activité aux élèves. Sur chaque cadenas est fixée une étiquette avec quatre symboles, mais aucun chiffre. En observant les cartes d'instructions de programmation disposées autour de la boîte, les élèves remarqueront qu'elles contiennent des chiffres.
 
 Pour trouver quel chiffre correspond à quel cadenas, ils doivent d'abord décoder les cartes d'instructions de programmation en exécutant le programme indiqué à l'aide des LEGO Dots.
 
 S'ils suivent correctement les instructions, ils obtiendront un symbole identique à l'un de ceux présents sur les cadenas.
-
-C'est ici qu'intervient le code binaire : comme un ordinateur traite des 1 et des 0, nous utilisons une tuile colorée pour représenter le 1 et une case vide pour le 0. Les élèves travaillent ainsi exactement comme un ordinateur !
 
 Veillez à ce que chaque chiffre soit saisi à la bonne position sur le cadenas. Par exemple, si le symbole apparaît en deuxième position dans la séquence, le chiffre correspondant doit être entré en deuxième position.
 
@@ -155,19 +153,17 @@ Ils ont trouvé tout le matériel nécessaire pour passer à l'étape suivante.
 ## Séquence 2 - Approfondissement (Build-up)
 
 
-Place maintenant à la création artistique !
-
 Scannez le QR code et regardez la vidéo tous ensemble. Cette vidéo explique comment créer une œuvre imprimée avec les LEGO Dots. Voici les étapes principales de l'activité :
 
 1. Les élèves créent leur propre motif en Dots sur une plaque de base LEGO. Ils peuvent travailler en binôme ou individuellement.
 2. Ils appliquent la peinture sur les briques Dots à l'aide du rouleau.
-3. Ils posent une feuille de papier sur les briques et appuient fermement — en veillant à ce que le papier ne bouge pas.
+3. Ils posent une feuille de papier sur les briques et appuient fermement, en veillant à ce que le papier ne bouge pas.
 4. Ils soulèvent délicatement le papier et admirent leur œuvre imprimée !
 
 **Conseils pour l'impression :**
 
 - Les formes pleines nécessitent plus de pression que les lignes. Se lever et appuyer vers le bas pendant l'impression permet d'obtenir de meilleurs résultats.
-- Évitez le papier texturé — le papier lisse donne les meilleurs résultats.
+- Évitez le papier texturé : le papier lisse donne les meilleurs résultats.
 - Avant de ranger les pièces après l'impression, nettoyez-les avec un papier brouillon ou une lingette pour bébé afin d'enlever les résidus d'encre.
 
 :::info[Notes pour l'enseignant·e]

@@ -91,13 +91,11 @@ Laissez les élèves explorer plusieurs œuvres, puis chaque groupe choisit une 
 
 ### Partie 2 : Conception du filtre (40 min)
 
-Maintenant que chaque groupe a choisi son œuvre d'art, il est temps de réfléchir à la manière de s'y intégrer !
-
 Chaque groupe reçoit une fiche modèle vierge sur laquelle il conçoit un filtre visage pour s'insérer dans l'œuvre choisie. Les élèves dessinent des éléments de réalité augmentée tels qu'un chapeau, un nez, des lunettes ou un masque pour s'intégrer de manière créative dans le tableau.
 
 Encouragez les élèves à observer attentivement leur œuvre : quels accessoires portent les personnages ? Quelles couleurs dominent ? Quel style artistique pourrait inspirer leurs créations ?
 
-À la fin de cette phase, chaque groupe doit avoir un croquis clair des éléments de réalité augmentée qu'il souhaite créer. Les idées sont prêtes, il est temps de passer à la réalisation !
+À la fin de cette phase, chaque groupe doit avoir un croquis clair des éléments de réalité augmentée qu'il souhaite créer.
 
 
 ---
@@ -116,7 +114,7 @@ Vous pouvez diviser cette phase en plusieurs séances selon le temps disponible.
 
 ### Partie 1 : Création des éléments de réalité augmentée (30-60 min)
 
-Les croquis sont prêts, place à la création ! Les élèves vont maintenant donner vie à leurs idées en réalisant concrètement les éléments de réalité augmentée qu'ils ont imaginés. Trois options sont possibles. Vous pouvez laisser les élèves choisir ou n'en proposer qu'une seule.
+Les élèves réalisent les éléments de réalité augmentée qu'ils ont imaginés sur leur croquis. Trois options sont possibles. Vous pouvez laisser les élèves choisir ou n'en proposer qu'une seule.
 
 #### Option 1 : Matériel artistique (60 min)
 
@@ -160,11 +158,9 @@ Importez dans Scratch Lab et supprimez l'arrière-plan.
 - Élément entièrement colorié sans espace vide.
 - Placez l'élément au centre de la feuille.
 
-Les éléments de réalité augmentée sont maintenant créés et importés dans Scratch Lab. Il ne reste plus qu'à leur donner vie grâce à la programmation !
-
 ### Partie 2 : Programmation du filtre de réalité augmentée (60 min)
 
-Les éléments de réalité augmentée sont prêts, il est maintenant temps de les faire prendre vie en les programmant pour qu'ils suivent le visage !
+Les élèves programment les éléments de réalité augmentée pour qu'ils suivent le visage.
 
 :::info[Notes pour l'enseignant·e]
 
@@ -204,15 +200,10 @@ Répétez ces étapes pour chaque élément de réalité augmentée. Ajoutez des
 
 Distribuez les fiches d'inspiration et laissez les élèves ajouter des éléments supplémentaires à leur création : effets sonores, animations, arrière-plans...
 
-Les filtres sont maintenant programmés et fonctionnels. Place aux tests et aux présentations !
-
 
 ---
 
 ## Séquence 3 - Mise en pratique (Rehearsal)
-
-
-Les filtres sont terminés, c'est le moment de les tester et de les partager !
 
 ### Partie 1 : Tests et ajustements (10 min)
 
@@ -230,15 +221,13 @@ Invitez chaque binôme à présenter son filtre d'artiste à la classe. Chaque g
 
 <img src="/img/ressources/robots-meet-arts/filtre-artiste/exemple.png" alt="Exemple de réalisation" style={{maxWidth: '100%', height: 'auto'}} />
 
-Les présentations terminées, il est temps de ranger le matériel et de célébrer le travail accompli !
-
 Vous pouvez également transformer le temps de présentation en activité ludique : affichez les reproductions des œuvres d'art sélectionnées au tableau ou disposez-les sur une table. Les élèves doivent retrouver quelle œuvre correspond à chaque binôme en observant les filtres présentés.
 
 Après chaque présentation, l'enseignant·e prend un moment pour expliquer l'œuvre originale : qui est l'artiste ? À quelle époque a-t-elle été réalisée ? Quel est son style artistique ? Quelles sont les anecdotes intéressantes liées à cette œuvre ?
 
 ### Rangement (5 min)
 
-Les présentations terminées, il est temps de ranger le matériel et de célébrer le travail accompli ! Rassemblez et rangez le matériel artistique et numérique.
+Rassemblez et rangez le matériel artistique et numérique, puis célébrez le travail accompli.
 
 Les élèves sauvegardent leur projet Scratch pour pouvoir le partager avec leur famille ou d'autres classes.
 

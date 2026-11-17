@@ -54,13 +54,13 @@ sidebar_position: 14
 
 ## Points du programme abordés
 
-**« Développer sa motricité et apprendre à s'exprimer en utilisant son corps »** — Programme d'éducation physique et sportive, Cycle 3. L'activité traduit le langage informatique en mouvements corporels précis, permettant aux élèves de développer leur coordination, leur orientation spatiale et leur expressivité corporelle tout en maîtrisant des séquences de mouvements de complexité croissante.
+**« Développer sa motricité et apprendre à s'exprimer en utilisant son corps »** : Programme d'éducation physique et sportive, Cycle 3. L'activité traduit le langage informatique en mouvements corporels précis. Elle permet aux élèves de développer leur coordination, leur orientation spatiale et leur expressivité corporelle, et de maîtriser des séquences de mouvements de plus en plus complexes.
 
-**« S'approprier par la pratique physique, des méthodes et outils »** — Programme d'éducation physique et sportive, Cycle 3. Les élèves incarnent physiquement des concepts informatiques abstraits (séquences, boucles, conditions), rendant ces notions tangibles et mémorisables par l'expérience corporelle, tout en apprenant à formaliser et analyser le mouvement de façon méthodique.
+**« S'approprier par la pratique physique, des méthodes et outils »** : Programme d'éducation physique et sportive, Cycle 3. Les élèves incarnent physiquement des concepts informatiques abstraits (séquences, boucles, conditions), que l'expérience corporelle rend tangibles et mémorisables. Ils apprennent aussi à formaliser et analyser le mouvement de façon méthodique.
 
-**« Partager des règles, assumer des rôles et responsabilités »** — Programme d'éducation physique et sportive, Cycle 3. À travers le travail en équipe, l'échange de chorégraphies et l'évaluation collective, les élèves développent leur capacité à respecter des conventions communes, à assumer des responsabilités spécifiques et à collaborer efficacement pour atteindre un objectif partagé.
+**« Partager des règles, assumer des rôles et responsabilités »** : Programme d'éducation physique et sportive, Cycle 3. Par le travail en équipe, l'échange de chorégraphies et l'évaluation collective, les élèves apprennent à respecter des conventions communes, à assumer des responsabilités spécifiques et à collaborer pour atteindre un objectif partagé.
 
-**« Pratiquer des langages »** — Programme de sciences et technologie, Cycle 3. L'activité introduit intuitivement les fondamentaux de la pensée informatique. Les élèves découvrent la logique des blocs Scratch (séquences, boucles, conditions) par une expérience tangible avant de les rencontrer à l'écran, ce qui facilite la transition ultérieure vers la programmation numérique.
+**« Pratiquer des langages »** : Programme de sciences et technologie, Cycle 3. L'activité introduit intuitivement les fondamentaux de la pensée informatique. Les élèves découvrent la logique des blocs Scratch (séquences, boucles, conditions) par une expérience tangible avant de les rencontrer à l'écran, ce qui facilite la transition ultérieure vers la programmation numérique.
 
 ---
 
@@ -68,7 +68,7 @@ sidebar_position: 14
 
 **Programmation débranchée et par blocs :**
 
-- Projet Erasmus+ Unplugged : https://labaixbidouille.wixsite.com/unplugged-metaverse (nouveau site officiel depuis la migration depuis unplugged-quest.eu)
+- Projet Erasmus+ Unplugged : https://labaixbidouille.wixsite.com/unplugged-metaverse (site officiel, qui remplace unplugged-quest.eu)
 - Scratch Jr (5-7 ans) : https://www.scratchjr.org/
 - Scratch (8-18 ans) : https://scratch.mit.edu/
 - Tutoriels pour enfants : [vidéo 1](https://www.youtube.com/watch?v=svC8TGqPHhE), [vidéo 2](https://www.youtube.com/watch?v=tJNzdLChCe8)
@@ -112,7 +112,7 @@ Après la partie de Memory, rassemblez tous les élèves et ouvrez l'éditeur Sc
 
 <img src="/img/ressources/robots-meet-arts/mode-danse/Blocs-de-Scratch.png" alt="Blocs de Scratch" style={{maxWidth: '100%', height: 'auto'}} />
 
-Engagez une discussion dynamique pour chaque bloc afin de découvrir par la logique sa fonction. Complétez les réponses des élèves si besoin. Demandez-leur comment certains blocs pourraient être traduits en mouvement corporel lors des prochaines séances.
+Pour chaque bloc, menez une discussion qui vise à faire découvrir sa fonction par la logique. Complétez les réponses des élèves si besoin. Demandez-leur comment certains blocs pourraient être traduits en mouvement corporel lors des prochaines séances.
 
 Vous pouvez ensuite ouvrir une discussion plus large pour stimuler leur réflexion :
 
@@ -120,7 +120,7 @@ Vous pouvez ensuite ouvrir une discussion plus large pour stimuler leur réflexi
 - À quoi servent les blocs de répétition comme « Répéter 10 fois » ou « Répéter indéfiniment » ? Pourquoi sont-ils utiles en programmation ?
 - Comment pourriez-vous utiliser ces blocs pour créer une séquence de mouvements intéressante ?
 
-En conclusion, établissez le lien avec la prochaine séance en annonçant que certains de ces blocs seront transformés en mouvements corporels pour comprendre concrètement comment fonctionne un programme informatique.
+Pour finir, annoncez que certains de ces blocs deviendront des mouvements corporels à la prochaine séance, pour comprendre concrètement comment fonctionne un programme informatique.
 
 
 ---
@@ -130,11 +130,11 @@ En conclusion, établissez le lien avec la prochaine séance en annonçant que c
 
 :::info[Notes pour l'enseignant·e]
 
-Pour cette deuxième séquence, préparez plusieurs sets de cartes représentant les blocs Scratch qui seront utilisés pour la chorégraphie (au minimum 2 sets, 1 pour chaque équipe). Vous devez vous concentrer sur les blocs qui peuvent être traduits en mouvements : *Quand le drapeau vert est cliqué, Répéter indéfiniment, Attendre ... secondes, Répéter ... fois, Tourner à droite de ... degrés, Tourner à gauche de ... degrés, Avancer de ... pas, Aller à position aléatoire, Arrêter tous les sons, Ajouter ... au volume, Jouer le son miaou, Jouer le son miaou jusqu'au bout.*
+Pour cette deuxième séquence, préparez plusieurs jeux de cartes représentant les blocs Scratch qui seront utilisés pour la chorégraphie (au minimum 2 jeux, 1 pour chaque équipe). Vous devez vous concentrer sur les blocs qui peuvent être traduits en mouvements : *Quand le drapeau vert est cliqué, Répéter indéfiniment, Attendre ... secondes, Répéter ... fois, Tourner à droite de ... degrés, Tourner à gauche de ... degrés, Avancer de ... pas, Aller à position aléatoire, Arrêter tous les sons, Ajouter ... au volume, Jouer le son miaou, Jouer le son miaou jusqu'au bout.*
 
 Ces cartes peuvent être imprimées et découpées pour faciliter leur utilisation et sont disponibles dans la section « Ressources imprimables ».
 
-Si possible, réalisez l'activité à l'extérieur ou dans un gymnase pour avoir l'espace nécessaire pour pouvoir bouger et s'exprimer.
+Si possible, réalisez l'activité à l'extérieur ou dans un gymnase, pour avoir la place de bouger et de s'exprimer.
 
 Vous pouvez imprimer l'affiche rappelant la correspondance entre chaque bloc et le mouvement associé pour que les élèves puissent facilement comprendre et utiliser les cartes durant les activités.
 
@@ -148,7 +148,7 @@ Divisez la classe en deux groupes et distribuez à chaque groupe un jeu de carte
 
 <img src="/img/ressources/robots-meet-arts/mode-danse/blocscratchsutilises-base.png" alt="Blocs Scratch utilisés (base)" style={{maxWidth: '100%', height: 'auto'}} />
 
-Chaque groupe utilise les cartes qui lui ont été données pour programmer une chorégraphie. Laissez-les découvrir par eux-mêmes les principes de construction d'une séquence logique, sans trop les guider initialement. Cette approche par découverte leur permettra de comprendre par l'expérience l'importance d'une structure cohérente.
+Chaque groupe utilise les cartes qui lui ont été données pour programmer une chorégraphie. Laissez-les découvrir par eux-mêmes, sans trop les guider au début, comment construire une séquence logique et pourquoi sa structure doit être cohérente.
 
 Les deux groupes travaillent simultanément à la création de leur programme pendant environ 15 minutes. Circulez entre les groupes pour observer leur démarche, mais n'intervenez qu'en cas de blocage important.
 
@@ -162,7 +162,7 @@ Après la performance du premier groupe, le deuxième groupe présente à son to
 
 Après la performance de chaque groupe, les élèves et l'enseignant évaluent la précision de la danse par rapport à la séquence donnée. Discutez collectivement des points forts et des difficultés rencontrées dans l'interprétation des différents blocs.
 
-Vous pouvez organiser plusieurs tours de programmation et d'exécution chorégraphique afin de permettre aux élèves d'intégrer les leçons des essais précédents. Lors des itérations, vous pouvez soulever des questions spécifiques : *Avez-vous pensé à inclure un bloc de démarrage ? Comment savoir quand commencer la chorégraphie sans ce bloc ?* Cette réflexion collective permettra aux élèves de découvrir par eux-mêmes l'importance d'une structure claire et complète.
+Vous pouvez organiser plusieurs tours de programmation et d'exécution chorégraphique afin de permettre aux élèves d'intégrer les leçons des essais précédents. Lors des itérations, vous pouvez soulever des questions spécifiques : *Avez-vous pensé à inclure un bloc de démarrage ? Comment savoir quand commencer la chorégraphie sans ce bloc ?*
 
 ### Réflexion autour de la séquence d'approfondissement
 
@@ -170,11 +170,11 @@ Terminez la séance par une discussion collective sur l'expérience vécue. Vous
 
 Orientez la réflexion sur les liens entre programmation et mouvement, en questionnant les élèves sur leurs ressentis dans les deux rôles : créateurs de programme et exécutants. Quelles difficultés ont-ils rencontrées dans chaque rôle ? Comment cette expérience les aide-t-elle à comprendre la relation entre un programmeur et un ordinateur ?
 
-Explorez avec eux les problèmes rencontrés lors du premier tour et comment ils les ont résolus durant les tours suivants. Ce processus d'itération et d'amélioration est au cœur de la démarche de programmation. Quelles leçons ont-ils tirées de leurs erreurs initiales ? Quels principes ont-ils découverts par eux-mêmes ?
+Explorez avec eux les problèmes rencontrés lors du premier tour et comment ils les ont résolus durant les tours suivants. Quelles leçons ont-ils tirées de leurs erreurs initiales ? Quels principes ont-ils découverts par eux-mêmes ?
 
 Demandez-leur également en quoi l'espace a influencé leur façon de programmer et d'exécuter les mouvements. Ont-ils conçu des chorégraphies différentes de celles qu'ils auraient imaginées en classe ? L'amplitude des mouvements était-elle plus grande ?
 
-Soulignez l'importance de la précision en programmation et mettez en avant l'utilité des structures de répétition, montrant comment les boucles simplifient et structurent le programme.
+Insistez sur la précision en programmation et montrez comment les structures de répétition (les boucles) simplifient et structurent le programme.
 
 
 ---
@@ -190,7 +190,7 @@ Pour cette dernière séquence, préparez des cartes vierges pour la création d
 
 ### On libère le mode danse !
 
-Commencez la séance par un rappel des séquences précédentes, puis présentez cette nouvelle phase créative où les élèves inventeront leurs propres blocs Scratch et les intégreront dans des chorégraphies originales. Cette séquence permettra de stimuler l'imagination et la créativité des élèves.
+Commencez la séance par un rappel des séquences précédentes, puis présentez cette nouvelle phase créative où les élèves inventeront leurs propres blocs Scratch et les intégreront dans des chorégraphies originales.
 
 Conservez la division de la classe en deux groupes comme lors de la séquence précédente.
 
@@ -200,7 +200,7 @@ Laissez les élèves libres dans leur création. Si vous en ressentez le besoin,
 
 Après environ 15 minutes de création, demandez à chaque groupe de présenter ses blocs à l'autre groupe, en montrant la carte, en expliquant le nom et en démontrant le mouvement. Faites pratiquer chaque nouveau mouvement par toute la classe pour en assurer la compréhension.
 
-Laissez ensuite chaque groupe créer une chorégraphie qui intègre à la fois les blocs Scratch standards et les nouveaux blocs créés par les deux groupes. Comme pour l'étape précédente, une fois les séquences créées, les groupes les échangent, les découvrent et préparent leur chorégraphie pendant quelques minutes puis présentent leurs enchaînements devant la classe. Réalisez à nouveau plusieurs tours de chorégraphie afin de stimuler l'acquisition de savoirs et de méthodes. Après chaque performance, discutez collectivement de la précision de l'exécution par rapport à la programmation initiale, en notant particulièrement l'interprétation des nouveaux blocs personnalisés.
+Laissez ensuite chaque groupe créer une chorégraphie qui intègre à la fois les blocs Scratch standards et les nouveaux blocs créés par les deux groupes. Comme pour l'étape précédente, une fois les séquences créées, les groupes les échangent, les découvrent et préparent leur chorégraphie pendant quelques minutes puis présentent leurs enchaînements devant la classe. Réalisez à nouveau plusieurs tours de chorégraphie. Après chaque performance, discutez collectivement de la précision de l'exécution par rapport à la programmation initiale, en notant particulièrement l'interprétation des nouveaux blocs personnalisés.
 
 ### Réflexion autour de la séquence de mise en pratique
 
@@ -208,7 +208,7 @@ Afin de conclure l'activité du « Mode Danse », rassemblez les élèves pour u
 
 Amenez les élèves à réfléchir à la façon dont cette approche corporelle transforme leur compréhension de la programmation. Comment le fait de créer leurs propres blocs les a-t-il aidés à comprendre le concept de modularité et de réutilisation du code ?
 
-Mettez en valeur la force de cette activité qui réside dans sa capacité à rendre concrets des concepts abstraits : une boucle devient un mouvement répété, une condition se transforme en choix de direction, une séquence se manifeste comme une série de pas. Cette approche interdisciplinaire, alliant technologie et expression corporelle, permet non seulement une meilleure mémorisation des concepts mais contribue également au bien-être des apprenants en transformant l'apprentissage en une expérience ludique et sans jugement.
+Montrez-leur comment l'activité rend concrets des concepts abstraits : une boucle devient un mouvement répété, une condition un choix de direction, une séquence une série de pas. Cette approche interdisciplinaire, qui allie technologie et expression corporelle, aide à mémoriser les concepts. Elle contribue aussi au bien-être des élèves, car l'apprentissage y devient une expérience ludique et sans jugement.
 
 Discutez des différentes dimensions d'apprentissage :
 
@@ -217,7 +217,7 @@ Discutez des différentes dimensions d'apprentissage :
 - Dimension créative (invention de nouveaux blocs)
 - Dimension sociale (collaboration et communication)
 
-Concluez en élargissant la vision de la programmation, en la présentant non seulement comme l'écriture de code pour un ordinateur, mais comme une façon de penser, d'organiser ses idées, de résoudre des problèmes et de créer : un véritable langage d'expression qui peut prendre différentes formes, y compris celle du mouvement.
+Concluez en élargissant la vision de la programmation, en la présentant non seulement comme l'écriture de code pour un ordinateur, mais comme une façon de penser, d'organiser ses idées, de résoudre des problèmes et de créer : un langage d'expression qui peut prendre différentes formes, y compris celle du mouvement.
 
 
 ---

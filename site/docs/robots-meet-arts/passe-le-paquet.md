@@ -29,7 +29,7 @@ sidebar_position: 8
 - **4 balles** correspondant aux couleurs de la chasuble afin de simuler les paquets de données circulant sur le réseau.
 - **Accès Internet** pour réaliser des recherches en ligne (à défaut, fournir des ressources documentaires imprimées) et pour utiliser des outils de cartographie ou de navigation afin de planifier les itinéraires.
 - **Matériel artistique** (facultatif) pour créer des panneaux représentant les modes de transport étudiés.
-- **Jeu de société « Les Aventuriers du Rail »** (facultatif) pour introduire le concept des algorithmes de routage de manière ludique et engageante.
+- **Jeu de société « Les Aventuriers du Rail »** (facultatif) pour introduire les algorithmes de routage par le jeu.
 - **Des cartes du quartier étudié** sur lesquelles différents niveaux de complexité seront représentés (par exemple grâce à des calques, des pictogrammes...).
 - **Une carte informative de leur quartier** pour planifier l'itinéraire de l'activité finale.
 - **Un GPS et une boussole** pour aider à la navigation et à la vérification de l'itinéraire pendant l'activité finale.
@@ -56,7 +56,7 @@ sidebar_position: 8
 
 **« Raisonner, justifier une démarche et les choix effectués »** - Programme de géographie, Cycle 3
 
-- CM2 - Thème 1 « Se déplacer » - Rechercher différentes options de transport, discuter de leur efficacité, de leurs coûts et de leurs impacts, tout en concevant des itinéraires basés sur des contraintes de transport uniques pour obtenir des informations pratiques sur les déplacements quotidiens.
+- CM2 - Thème 1 « Se déplacer » - Rechercher différentes options de transport, discuter de leur efficacité, de leurs coûts et de leurs impacts, tout en concevant des itinéraires fondés sur des contraintes propres à chaque mode de transport pour obtenir des informations pratiques sur les déplacements quotidiens.
 
 **« S'informer dans le monde du numérique »** - Programme de géographie, Cycle 3
 
@@ -93,11 +93,11 @@ sidebar_position: 8
 
 ### Mise en place de l'activité pour l'ensemble des tours
 
-Pour rendre les élèves acteurs de leurs apprentissages, organisez une première activité d'algorithmie débranchée (sans écran) impliquant le mouvement corporel et la participation active afin de simuler la manière dont les réseaux informatiques acheminent les informations.
+Pour rendre les élèves acteurs de leurs apprentissages, organisez une première activité d'algorithmie débranchée (sans écran), où ils bougent pour simuler la manière dont les réseaux informatiques acheminent les informations.
 
 Donnez à 8 élèves une chasuble de couleur (ou tout autre matériel dont vous disposez pour matérialiser la couleur), par deux : 2 rouges, 2 vertes, 2 bleues et 2 jaunes par exemple et préparez 4 balles de même couleur. Le reste de la classe ne reçoit pas de couleurs.
 
-Positionnez les élèves selon une structure de réseau définie (vous pouvez créer la vôtre ou utiliser celle que nous avons donnée en exemple, veillez simplement à ce que les élèves ayant reçu une chasuble de même couleur soient suffisamment éloignés). Chaque élève jouera le rôle de **nœud** dans un réseau.
+Positionnez les élèves selon une structure de réseau définie (vous pouvez créer la vôtre ou utiliser celle de l'exemple ci-dessous, veillez simplement à ce que les élèves ayant reçu une chasuble de même couleur soient suffisamment éloignés). Chaque élève jouera le rôle de **nœud** dans un réseau.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/robots-meet-arts/passe-le-paquet/positioneleves.png" alt="Position des élèves" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -110,22 +110,22 @@ Un **nœud de réseau** se trouve à un point du réseau où il envoie, reçoit,
 
 ### Premier tour
 
-Donnez l'objectif du premier tour : l'élève n°1 en chasuble verte doit passer la balle verte à l'élève n°2 ayant la même couleur de chasuble. Les élèves doivent se passer la balle jusqu'à ce qu'elle atteigne sa destination sans la faire tomber au sol, simulant ainsi la façon dont les paquets de données circulent sur un réseau.
+Donnez l'objectif du premier tour : l'élève n°1 en chasuble verte doit passer la balle verte à l'élève n°2 ayant la même couleur de chasuble. Les élèves doivent se passer la balle jusqu'à ce qu'elle atteigne sa destination sans la faire tomber au sol. Le trajet de la balle simule celui d'un paquet de données sur un réseau.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/robots-meet-arts/passe-le-paquet/uneballe.png" alt="Premier tour - une balle" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
   <figcaption style={{margin: 0}}>Premier tour - une balle</figcaption>
 </figure>
 
-Étant donné que les élèves sont placés à une distance importante les uns des autres, les passes directes risquent de faire tomber la balle, ce qui représente une **perte de paquets** en termes de réseau : si les balles (c'est-à-dire le paquet) tombent, nous pouvons considérer cela comme une perte de paquets.
+Étant donné que les élèves sont placés à une distance importante les uns des autres, les passes directes risquent de faire tomber la balle. Une balle (c'est-à-dire un paquet) qui tombe représente une **perte de paquets** dans le réseau.
 
 :::info[Définition]
-Un **paquet** est une unité de données acheminée par un protocole réseau entre une origine et une destination sur Internet ou tout autre réseau à commutation de paquets. Les paquets contiennent de petites quantités de données qui incluent généralement des informations telles que l'adresse source et de destination, les protocoles ou les numéros d'identification. De l'envoi d'e-mails au téléchargement de vidéos, chaque activité Internet nécessite le transfert de paquets.
+Un **paquet** est une unité de données acheminée par un protocole réseau entre une origine et une destination sur Internet ou tout autre réseau à commutation de paquets. Les paquets contiennent de petites quantités de données qui incluent généralement des informations telles que l'adresse source et de destination, les protocoles ou les numéros d'identification. Chaque activité sur Internet, comme envoyer un e-mail ou télécharger une vidéo, nécessite le transfert de paquets.
 
 La **perte de paquets** se produit lorsqu'un ou plusieurs paquets de données transmis ne parviennent pas à leur destination. Cela peut entraîner des problèmes de performances notables pour tous les types de communications numériques.
 :::
 
-Dans la configuration proposée, la couleur de la balle représente la notion d'« adresse » d'un paquet et le message à l'intérieur correspond aux données recueillies de l'expéditeur au récepteur. Cette démonstration physique aide les étudiants à comprendre les nœuds du réseau, les décisions de routage et les problèmes de communication potentiels.
+Dans la configuration proposée, la couleur de la balle représente la notion d'« adresse » d'un paquet et le message à l'intérieur correspond aux données recueillies de l'expéditeur au récepteur. Cette démonstration physique aide les élèves à comprendre les nœuds du réseau, les décisions de routage et les problèmes de communication potentiels.
 
 ### Deuxième tour
 
@@ -136,7 +136,7 @@ Au deuxième tour, introduisez plusieurs balles simultanément pour montrer les 
   <figcaption style={{margin: 0}}>Deuxième tour - plusieurs balles</figcaption>
 </figure>
 
-Les élèves doivent se passer les balles jusqu'à ce qu'elles atteignent leur destination sans les faire tomber sur le sol, simulant ainsi la manière dont plusieurs paquets de données circulent simultanément sur un réseau.
+Les élèves doivent se passer les balles jusqu'à ce qu'elles atteignent leur destination sans les faire tomber sur le sol. Les balles simulent plusieurs paquets de données qui circulent en même temps sur un réseau.
 
 Cela crée une situation dans laquelle certains élèves (nœuds) du réseau peuvent recevoir plusieurs balles (paquets) simultanément. Lorsqu'un élève reçoit plusieurs balles à la fois, il doit décider quelle balle passer en premier - cela simule la façon dont les réseaux informatiques gèrent la congestion du trafic. Les élèves peuvent expérimenter différentes stratégies :
 
@@ -155,7 +155,7 @@ Vous pouvez éventuellement ajouter un dernier tour où les élèves, à l'excep
   <figcaption style={{margin: 0}}>Dernier tour - à l'aveugle</figcaption>
 </figure>
 
-Avant de leur bander les yeux, donnez aux élèves un moment pour mémoriser leur position et celle de leurs voisins. C'est essentiel car ils devront conserver leur conscience spatiale tout au long de l'exercice.
+Avant de leur bander les yeux, donnez aux élèves un moment pour mémoriser leur position et celle de leurs voisins, car ils devront garder ces repères en tête tout au long de l'exercice.
 
 La réussite du dernier tour dépend fortement de la clarté de la communication verbale et de la mémoire spatiale. Les élèves doivent :
 
@@ -163,7 +163,7 @@ La réussite du dernier tour dépend fortement de la clarté de la communication
 - Donner des instructions précises à leurs camarades telles que « Tu recevras la balle sur ta gauche » ou « La balle arrive de derrière toi »
 - Écouter attentivement les informations reçues pour déterminer où se trouve la balle dans le réseau
 
-Cela simule la manière dont les réseaux doivent fonctionner lorsque les nœuds intermédiaires disposent d'informations limitées et démontre l'importance de maintenir la connaissance de la topologie du réseau même lorsque le retour visuel direct n'est pas disponible.
+Ce tour simule un réseau dont les nœuds intermédiaires n'ont que des informations limitées. Il montre qu'il faut garder en tête la topologie du réseau même sans retour visuel direct.
 
 ### Réflexion autour de la séquence de mise en route
 
@@ -175,13 +175,13 @@ Indiquez les observations clés pour chaque tour et interrogez les élèves sur 
 
 **Premier tour** : Demandez-leur de décrire le trajet de la balle et comment ils ont pris des décisions sur l'endroit où la passer. Ce scénario simple permet d'introduire le concept de base du routage des données.
 
-**Deuxième tour** : La discussion devient plus complexe. Les élèves remarqueront que le réseau est devenu plus difficile à gérer. Certains ont peut-être vécu des moments de confusion en recevant plusieurs balles à la fois, reflétant la façon dont les réseaux réels gèrent les congestions. Explorez avec eux comment leurs différentes stratégies ont émergé.
+**Deuxième tour** : La discussion devient plus complexe. Les élèves remarqueront que le réseau est devenu plus difficile à gérer. Certains ont peut-être vécu des moments de confusion en recevant plusieurs balles à la fois, comme un réseau réel en situation de congestion. Explorez avec eux comment leurs différentes stratégies ont émergé.
 
-**Dernier tour (yeux bandés)** : Les élèves peuvent réfléchir à la façon dont ils ont adapté leur communication et se sont basés sur les positions de leurs voisins. Vous pouvez faire le parallèle avec la manière dont les réseaux doivent maintenir des connexions fiables même lorsqu'ils travaillent avec des informations limitées.
+**Dernier tour (yeux bandés)** : Les élèves peuvent réfléchir à la façon dont ils ont adapté leur communication et se sont appuyés sur les positions de leurs voisins. Vous pouvez faire le parallèle avec la manière dont les réseaux doivent maintenir des connexions fiables même lorsqu'ils travaillent avec des informations limitées.
 
-Tout au long de ces réflexions, aidez les élèves à comprendre comment leurs décisions individuelles - appelées **heuristiques**, des règles simples qui aident à faire rapidement de bons choix - ont contribué à résoudre un problème de routage complexe. En faisant des choix simples à chaque étape (par exemple en passant à la personne la plus proche dans la bonne direction), ils ont collectivement créé des voies efficaces à travers le réseau. Cela reflète le fonctionnement des algorithmes de routage.
+Tout au long de ces réflexions, aidez les élèves à comprendre comment leurs décisions individuelles - appelées **heuristiques**, des règles simples qui aident à faire rapidement de bons choix - ont contribué à résoudre un problème de routage complexe. En faisant des choix simples à chaque étape (par exemple en passant à la personne la plus proche dans la bonne direction), ils ont collectivement créé des voies efficaces à travers le réseau. On retrouve ce fonctionnement dans les algorithmes de routage.
 
-Cette démonstration pratique aide les élèves à comprendre comment leur processus de prise de décision simple reflète les algorithmes de routage. Chaque élève a joué le rôle de « nœud » dans le réseau, prenant des décisions basées sur des règles simples :
+Chaque élève a joué le rôle de « nœud » dans le réseau et a pris des décisions fondées sur des règles simples :
 
 - Choisir la meilleure option de chemin pour passer la balle
 - Gérer plusieurs balles sans les faire tomber (de la même manière que les réseaux gèrent plusieurs paquets de données)
@@ -216,9 +216,9 @@ Rassemblez des fournitures d'arts plastiques pour créer des panneaux (papier A3
 
 ### Introduction - Les enjeux de l'orientation
 
-L'orientation est la capacité à se situer dans son environnement et à s'y déplacer. Depuis les anciens marins qui utilisaient les étoiles pour se guider sur les océans aux conducteurs modernes qui utilisent les systèmes GPS pour se déplacer, l'orientation joue un rôle crucial dans nos actions et nos décisions quotidiennes. En termes de routines et de systèmes, l'orientation nous aide à créer des itinéraires efficaces pour nos déplacements quotidiens. À plus grande échelle, elle influence l'urbanisme, les réseaux de transport et les routes commerciales (mêmes internationales).
+L'orientation est la capacité à se situer dans son environnement et à s'y déplacer. Les anciens marins utilisaient les étoiles pour se guider sur les océans, et les conducteurs d'aujourd'hui utilisent le GPS pour se déplacer. Au quotidien, l'orientation aide à créer des itinéraires efficaces. À plus grande échelle, elle influence l'urbanisme, les réseaux de transport et les routes commerciales (même internationales).
 
-Le concept d'algorithmes de routage peut être considéré comme une illustration de l'orientation. Ces algorithmes, utilisés dans les outils de cartographie numérique, prennent en compte divers facteurs tels que la distance, le temps et les obstacles pour déterminer le chemin le plus efficace pour aller d'un endroit à un autre. Ils remplissent la même fonction que notre cerveau lorsque nous traçons mentalement notre itinéraire vers une destination.
+On peut voir les algorithmes de routage comme une illustration de l'orientation. Ces algorithmes, utilisés dans les outils de cartographie numérique, prennent en compte divers facteurs tels que la distance, le temps et les obstacles pour déterminer le chemin le plus efficace pour aller d'un endroit à un autre. Ils remplissent la même fonction que notre cerveau lorsque nous traçons mentalement notre itinéraire vers une destination.
 
 Tout comme les élèves ont appris à faire des choix d'itinéraire simples lors de l'activité d'échauffement, ils appliqueront désormais des processus de prise de décision similaires, c'est-à-dire des heuristiques, aux itinéraires de transport.
 
@@ -252,7 +252,7 @@ L'objectif de chaque groupe sera de créer un algorithme de routage pour son mod
 
 Pour créer les fonds de cartes, plusieurs outils de cartographie numérique sont disponibles.
 
-**Google Maps** est un excellent point de départ, offrant une interface facile d'accès et des fonctionnalités familières. Vous pouvez prendre des captures d'écran de la vue de base de la carte et les enrichir avec les calques proposés : pistes cyclables, trafic en temps réel, emplacements des arrêts de bus...
+**Google Maps** est un bon point de départ, avec une interface facile d'accès et des fonctionnalités familières. Vous pouvez prendre des captures d'écran de la vue de base de la carte et les enrichir avec les calques proposés : pistes cyclables, trafic en temps réel, emplacements des arrêts de bus...
 
 Autres outils :
 - **OpenStreetMap** ([openstreetmap.org](https://openstreetmap.org)) fournit des cartes open source avec des calques détaillés
@@ -303,7 +303,7 @@ Demandez aux élèves de comparer l'efficacité de différentes heuristiques. Pa
 
 :::
 
-Si les conditions le permettent (logistiquement, en termes de temps ou d'encadrement), une conclusion intéressante à l'ensemble des séquences « Passe le paquet » serait de planifier une expédition afin de permettre aux élèves d'appliquer des algorithmes de routage en dehors de la classe sur un itinéraire réel.
+Si les conditions le permettent (logistique, temps, encadrement), vous pouvez conclure l'ensemble des séquences « Passe le paquet » par une expédition où les élèves appliquent des algorithmes de routage en dehors de la classe, sur un itinéraire réel.
 
 Choisissez un point de départ (l'école) et une destination pour l'itinéraire. Il doit s'agir d'un lieu pertinent pour les élèves et offrant une variété d'itinéraires et d'intersections possibles. Un exemple pertinent de destination pour vos élèves pourrait être le collège de secteur qu'ils fréquenteront dans les années à venir.
 
@@ -311,17 +311,17 @@ Pour tester différents choix de décision, vous pouvez créer des groupes et do
 
 #### Contraintes et intérêt de la boussole
 
-L'utilisation d'une boussole dans cette activité présente un défi intéressant. Contrairement aux outils de cartographie numérique modernes, une boussole ne fournit pas d'itinéraire prédéterminé et n'indique pas spécifiquement la direction de la destination. En pointant uniquement vers le nord, l'utilisation de la boussole oblige les élèves à s'orienter en fonction de leur compréhension des directions géographiques et de leur emplacement par rapport à la destination.
+Une boussole indique seulement le nord. Contrairement aux outils de cartographie numérique, elle ne fournit pas d'itinéraire prédéterminé et n'indique pas la direction de la destination. Les élèves doivent donc s'orienter d'après leur compréhension des directions géographiques et de leur emplacement par rapport à la destination.
 
 La boussole les guidera dans le choix entre deux options d'itinéraire. Cependant, ce choix n'est pas toujours simple à faire. Ils peuvent découvrir que la direction choisie en fonction de la boussole mène à une route fermée ou à une rue à sens unique, et qu'ils devront donc choisir un trajet plus long. Ces contraintes les obligeront à réévaluer et à affiner constamment leurs choix.
 
 #### Contraintes et intérêt du GPS
 
-L'utilisation de la navigation GPS fournit aux élèves des données de localisation précises et des indications étape par étape. Cet outil offre un positionnement en temps réel et de multiples options d'itinéraire. Cependant, le défi consiste à comprendre comment le GPS calcule ces itinéraires et quels facteurs il prend en compte. Les élèves devront analyser pourquoi le GPS suggère certains chemins plutôt que d'autres, en tenant compte de facteurs tels que le trafic, la distance et les types de routes.
+Le GPS fournit aux élèves des données de localisation précises, des indications étape par étape, un positionnement en temps réel et plusieurs options d'itinéraire. Il leur reste à comprendre comment le GPS calcule ces itinéraires et quels facteurs il prend en compte. Les élèves devront analyser pourquoi le GPS suggère certains chemins plutôt que d'autres, en tenant compte de facteurs tels que le trafic, la distance et les types de routes.
 
 #### Contraintes et intérêt des panneaux de signalisation
 
-Suivre uniquement les panneaux de signalisation présente un défi de navigation unique qui reflète les méthodes d'orientation historiques. Les élèves devront s'appuyer sur l'infrastructure physique et l'urbanisme pour atteindre leur destination. Cette approche nécessite une attention particulière aux noms des rues, aux panneaux de direction et aux points de repère locaux. Elle montre comment les villes sont conçues pour être navigables sans assistance numérique et aide les élèves à développer une conscience spatiale.
+Suivre uniquement les panneaux de signalisation renvoie aux méthodes d'orientation historiques : les élèves devront s'appuyer sur l'infrastructure physique et l'urbanisme pour atteindre leur destination. Cette approche nécessite une attention particulière aux noms des rues, aux panneaux de direction et aux points de repère locaux. Elle montre comment les villes sont conçues pour être navigables sans assistance numérique et aide les élèves à développer une conscience spatiale.
 
 ### Réflexion autour de la séquence de mise en pratique
 
@@ -334,8 +334,6 @@ Vous pouvez également ouvrir une discussion permettant de rapprocher les appren
 - Enfin, grâce à la sortie sur le terrain, ils ont testé ces algorithmes dans des conditions réelles
 
 Comparez les performances de leurs algorithmes théoriques avec la mise en pratique et discutez des défis inattendus auxquels ils ont été confrontés.
-
-Cette progression en trois séquences, partant du concept abstrait à son application concrète, contribue à renforcer le lien entre la pensée algorithmique et l'orientation.
 
 Pour prolonger l'expérience d'apprentissage, vous pouvez créer une carte numérique collaborative indiquant les itinéraires, les obstacles et les points d'intérêt découverts. Les élèves pourraient également analyser l'impact environnemental de différents choix de transport en calculant l'empreinte carbone de chaque itinéraire, ou explorer comment leurs itinéraires pourraient changer au fil des saisons ou des conditions météorologiques.
 

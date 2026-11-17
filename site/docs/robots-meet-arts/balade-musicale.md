@@ -78,7 +78,7 @@ sidebar_position: 9
 
 « Nous allons traverser la grille comme des robots. Il est essentiel de suivre les instructions à la lettre. »
 
-Placez les élèves d'un côté de la grille. Pour cet exercice, nous ne spécifions pas de point de départ particulier sur la grille. Présentez les commandes que l'on peut donner à son ami robot (affichez une carte avec le symbole et le mot écrit) :
+Placez les élèves d'un côté de la grille. Pour cet exercice, le point de départ sur la grille est libre. Présentez les commandes que l'on peut donner à son ami robot (affichez une carte avec le symbole et le mot écrit) :
 
 - tout droit
 - gauche
@@ -116,7 +116,7 @@ Si vous n'avez jamais travaillé avec les boomwhackers, vous trouverez de nombre
 
 :::
 
-Dans la grille, les élèves trouvent des défis musicaux à résoudre. Ils naviguent jusqu'à la bonne case et se mettent au travail ! Les élèves se déplacent vers la case correspondant au numéro de leur défi. Le matériel nécessaire pour réaliser les défis est disposé sur le bureau de l'enseignant·e.
+Dans la grille, les élèves trouvent des défis musicaux à résoudre. Ils se déplacent vers la case correspondant au numéro de leur défi et se mettent au travail. Le matériel nécessaire pour réaliser les défis est disposé sur le bureau de l'enseignant·e.
 
 Prenez le temps de présenter les défis et de donner quelques explications avant de commencer.
 
@@ -163,7 +163,7 @@ Revenez sur l'activité avec les élèves :
 - Quel défi a été difficile à réaliser ?
 - Qu'est-ce qui vous aurait aidé ?
 
-Gardez toutes ces réflexions en tête et créez une petite danse de la joie pour célébrer les accomplissements du groupe !
+Gardez toutes ces réflexions en tête et créez une petite danse de la joie pour fêter ce que le groupe a réussi !
 
 Trouvez un élève qui aime montrer une petite danse ou un mouvement. Décomposez la danse en mouvements individuels.
 

@@ -137,7 +137,7 @@ Si vous le souhaitez, vous pouvez montrer des exemples vidéo de projets combina
 
 Pour lancer la séance de manière ludique, les élèves travaillent en binômes et complètent la phrase : « Si j'étais un robot, je serais programmé pour... ».
 
-Chaque élève partage ensuite sa « mission de robot » à voix haute. Cette activité permet d'introduire le thème tout en créant une atmosphère détendue.
+Chaque élève partage ensuite sa « mission de robot » à voix haute. Cette activité introduit le thème et crée une atmosphère détendue.
 
 #### Découverte du matériel et construction du robot (20 min)
 
@@ -160,7 +160,7 @@ Pour les élèves ayant des difficultés de motricité fine, pré-assemblez les 
 
 #### Programmation du robot (20 min)
 
-Les robots sont construits, il faut maintenant leur apprendre à se déplacer ! Projetez l'application SPIKE Prime sur l'écran et faites une démonstration : montrez comment connecter le robot à la tablette via Bluetooth, puis présentez l'interface de programmation par blocs. Expliquez les différentes catégories de blocs (mouvement, son, événements) et leurs couleurs.
+Projetez l'application SPIKE Prime sur l'écran et faites une démonstration : montrez comment connecter le robot à la tablette via Bluetooth, puis présentez l'interface de programmation par blocs. Expliquez les différentes catégories de blocs (mouvement, son, événements) et leurs couleurs.
 
 Créez ensemble un premier programme très simple : faire avancer le robot pendant 2 secondes. Testez-le en direct devant les élèves pour qu'ils voient le lien entre le code et le mouvement du robot.
 
@@ -171,11 +171,9 @@ Les équipes connectent ensuite leurs robots à leurs tablettes et reproduisent 
 - Créer un parcours en forme de carré
 - Naviguer jusqu'à un point précis marqué au sol et revenir au point de départ
 
-Laissez les élèves expérimenter et ajuster leurs programmes. Encouragez-les à tester, observer, corriger et recommencer : c'est le cœur de la démarche de programmation !
+Laissez les élèves expérimenter et ajuster leurs programmes. Encouragez-les à tester, observer, corriger et recommencer.
 
-Des cartes de référence des commandes sont fournies pour accompagner les apprenants de manière plus visuelle. La programmation en binôme est encouragée, en particulier pour les élèves en difficulté, en veillant à une participation équilibrée. Des défis supplémentaires sont disponibles pour les élèves qui terminent en avance.
-
-Les robots sont prêts et programmés, place à la chasse au trésor !
+Distribuez des cartes de référence des commandes, qui offrent aux élèves un support plus visuel. Favorisez la programmation en binôme, en particulier pour les élèves en difficulté, en veillant à une participation équilibrée. Proposez des défis supplémentaires aux élèves qui terminent en avance.
 
 
 ---
@@ -200,8 +198,6 @@ Montrez des exemples de trésors et discutez de la façon dont ces objets peuven
 Les équipes observent la disposition des stations et élaborent une stratégie de navigation. Elles programment ensuite leur robot pour atteindre chaque station, testent le parcours et ajustent le code si nécessaire. Quand le robot atteint une station, l'équipe « collecte » le trésor et le note sur sa carte de collection. Entre les tentatives, les équipes analysent ce qui a fonctionné ou non et affinent leur programme.
 
 À la fin de cette phase, chaque équipe présente ses trésors collectés et explique brièvement la stratégie utilisée. Une discussion s'engage : « Comment pourriez-vous relier ces différents trésors dans une histoire ? »
-
-Les trésors sont collectés, place à la création de l'histoire !
 
 
 ---
@@ -228,8 +224,6 @@ Chaque équipe examine ses trésors et réfléchit aux connexions possibles. Les
 Les équipes partagent leurs idées entre elles et reçoivent des retours pour affiner leurs concepts. Elles traduisent ensuite leurs ébauches en un court script avec des dialogues et une narration, puis attribuent les rôles de parole.
 
 Durant cette phase, encouragez les élèves à soigner leur expression en langue maternelle : vocabulaire riche, phrases complexes, descriptions détaillées et langage expressif. Vous pouvez fournir des modèles de structure narrative pour guider les élèves qui ont besoin de soutien supplémentaire ou encore des options d'enregistrement vocal aux élèves qui ont du mal à écrire et des storyboards visuels.
-
-Les histoires prennent forme, place à la production théâtrale !
 
 ### Production théâtrale (15 min)
 

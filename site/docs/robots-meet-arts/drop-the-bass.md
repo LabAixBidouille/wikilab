@@ -34,7 +34,7 @@ sidebar_position: 10
 - Feutres
 - Ruban adhésif (facile à retirer du Makey Makey, donc pas trop collant)
 
-**Bonus** : Si possible, demandez à quelqu'un d'apporter une guitare basse et une guitare acoustique et de savoir en jouer ! C'est une façon fantastique d'impliquer les parents, les grands frères et sœurs ou des amis pour une démonstration en début de séance.
+**Bonus** : Si possible, demandez à quelqu'un d'apporter une guitare basse et une guitare acoustique et de savoir en jouer ! Vous pouvez ainsi impliquer les parents, les grands frères et sœurs ou des amis pour une démonstration en début de séance.
 
 <div style={{marginTop: "1.5rem"}}/>
 
@@ -60,12 +60,12 @@ sidebar_position: 10
 
 À l'issue de cette séance, les élèves seront capables de :
 
-- Expliquer le fonctionnement fondamental de la basse
+- Expliquer le principe de fonctionnement de la basse
 - Créer des projets dans Scratch
 - S'amuser à jouer de la guitare basse fabriquée maison !
 
 :::info[Prérequis]
-Avant de réaliser cette séance, il est conseillé de commencer par le projet classique du piano Makey Makey. Des plans de cours et des vidéos sont disponibles sur le site web de Makey Makey. Si les élèves ont déjà construit le piano, ils maîtriseront les bases essentielles : le fonctionnement du Makey Makey comme extension des touches du clavier, la nécessité d'être « connecté » à l'instrument pour en jouer (bracelet conducteur ou contact avec la masse), et la connexion des pinces crocodiles à la carte.
+Avant de réaliser cette séance, il est conseillé de commencer par le projet classique du piano Makey Makey. Des plans de cours et des vidéos sont disponibles sur le site web de Makey Makey. Si les élèves ont déjà construit le piano, ils maîtriseront les bases : le fonctionnement du Makey Makey comme extension des touches du clavier, la nécessité d'être « connecté » à l'instrument pour en jouer (bracelet conducteur ou contact avec la masse), et la connexion des pinces crocodiles à la carte.
 :::
 
 ## Liens utiles
@@ -82,7 +82,7 @@ Avant de réaliser cette séance, il est conseillé de commencer par le projet c
 
 :::info[Notes pour l'enseignant·e]
 
-Si possible, demandez à quelqu'un d'apporter une guitare basse et une guitare acoustique, avec un musicien capable d'en jouer ! Sinon, vous pouvez utiliser des images ou rechercher des références en ligne.
+À défaut d'une guitare basse, d'une guitare acoustique et d'un musicien capable d'en jouer (voir le bonus de la liste du matériel), vous pouvez utiliser des images ou rechercher des références en ligne.
 
 :::
 
@@ -90,9 +90,7 @@ C'est parti pour une séance rock ! Invitez les élèves à se lever et à prend
 
 Vous pouvez diffuser un clip musical ou une compilation de basse sur YouTube pour les mettre dans l'ambiance.
 
-Après ce moment de défoulement, demandez aux élèves de décrire ce qu'ils ressentent quand ils entendent une guitare basse. Les réponses tournent souvent autour de « c'est cool », « ça groove »... Pourquoi cette sensation ? Les tons graves captent notre attention et donnent envie de bouger, c'est pourquoi on les retrouve souvent dans les introductions des morceaux.
-
-Les élèves sont maintenant dans l'ambiance, place à la découverte de l'instrument !
+Après ce moment de défoulement, demandez aux élèves de décrire ce qu'ils ressentent quand ils entendent une guitare basse. Les réponses tournent souvent autour de « c'est cool », « ça groove »... Cette sensation vient des tons graves : ils captent notre attention et donnent envie de bouger, c'est pourquoi on les retrouve souvent dans les introductions des morceaux.
 
 
 ---
@@ -104,7 +102,7 @@ Les élèves sont maintenant dans l'ambiance, place à la découverte de l'instr
 
 Commencez par comparer les formes d'une guitare acoustique et d'une guitare basse en vous appuyant sur les visuels de l'annexe 1.
 
-Partagez ensuite une brève histoire de la guitare basse avec les élèves. L'annexe 2 vous fournit les éléments essentiels à présenter.
+Partagez ensuite une brève histoire de la guitare basse avec les élèves. L'annexe 2 vous fournit les éléments à présenter.
 
 Passez à une écoute attentive d'exemples de guitare basse. Si vous avez la chance d'avoir un musicien dans la classe, invitez-le à jouer quelques morceaux. Sinon, une vidéo de compilation fera très bien l'affaire. Maintenant que les élèves ont un peu de contexte, encouragez-les à observer l'instrument de près et à écouter attentivement les sonorités.
 
@@ -138,8 +136,6 @@ Une fois la guitare construite, les élèves se réfèrent à l'annexe 4 pour ou
 
 Les sons de guitare basse sont déjà disponibles dans la bibliothèque Scratch, il suffit de bien sélectionner les sons de BASSE !
 
-Les guitares sont prêtes et connectées, place au concert !
-
 
 ---
 
@@ -150,7 +146,7 @@ Les guitares sont prêtes et connectées, place au concert !
 
 C'est le moment de laisser les élèves jouer ensemble et d'expérimenter leur création. Encouragez-les à essayer différentes mélodies et à jouer en rythme les uns avec les autres.
 
-Pensez à prendre quelques photos de votre incroyable groupe de classe !
+Pensez à prendre quelques photos de votre groupe de classe !
 
 Une fois le concert terminé, les élèves retirent délicatement le ruban adhésif du Makey Makey pour ne pas l'abîmer.
 
@@ -262,13 +258,13 @@ Pourquoi était-elle si spéciale ?
 
 ### L'explosion du rock and roll (années 1960 - 1970)
 
-La guitare basse devint très populaire dans le rock, le funk et le jazz. Des bassistes célèbres comme Paul McCartney (The Beatles) et James Jamerson (musique Motown) firent de la basse un élément incontournable de chaque groupe.
+La guitare basse devint très populaire dans le rock, le funk et le jazz. Des bassistes célèbres comme Paul McCartney (The Beatles) et James Jamerson (musique Motown) firent de la basse un instrument indispensable à chaque groupe.
 
 ### La basse moderne (années 1980 - aujourd'hui)
 
 Aujourd'hui, les guitares basses existent dans de nombreux styles : 4, 5, voire 6 cordes. Des bassistes talentueux comme Flea (Red Hot Chili Peppers) et Victor Wooten montrent à quel point on peut être créatif avec cet instrument.
 
-### Alors, pourquoi la basse est-elle si importante ?
+### Le rôle de la basse dans un groupe
 
 La guitare basse, c'est un peu comme le cœur de la musique. Elle fait le lien entre la batterie et la mélodie, et s'assure que tout groove ensemble. Sans la basse, la musique semblerait vide et faible. Les bassistes sont les vrais héros du groupe !
 

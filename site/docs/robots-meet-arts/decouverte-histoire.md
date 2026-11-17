@@ -108,7 +108,7 @@ Les élèves créent une séquence d'instructions pour reproduire le voyage de l
 
 ### Déboguer l'algorithme
 
-Les autres groupes examinent les instructions données pour vérifier si l'itinéraire a été correctement suivi. Si l'« explorateur » se perd ou n'atteint pas sa destination, le groupe corrige ses instructions. Le processus est répété jusqu'à ce que l'itinéraire soit parcouru correctement.
+Les autres groupes examinent les instructions données pour vérifier si l'itinéraire a été correctement suivi. Si l'« explorateur » se perd ou n'atteint pas sa destination, le groupe corrige ses instructions et recommence, jusqu'à ce que l'itinéraire soit parcouru correctement.
 
 
 ---

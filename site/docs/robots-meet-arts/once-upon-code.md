@@ -75,7 +75,7 @@ sidebar_position: 7
 
 :::
 
-Cette phase vise à activer les connaissances préalables des élèves et à susciter leur enthousiasme pour la narration.
+Cette séquence sert à activer les connaissances préalables des élèves et à susciter leur enthousiasme pour la narration.
 
 Accueillez les élèves et expliquez brièvement : *« Today we'll create our own fairy tale using Scratch! »* (Aujourd'hui, nous allons créer notre propre conte de fées avec Scratch !)
 
@@ -90,15 +90,13 @@ Posez des questions guidées :
 
 Présentez l'objectif : les élèves vont remixer un projet Scratch et créer leur propre conte de fées avec narration !
 
-Les élèves sont maintenant motivés et prêts à découvrir le vocabulaire dont ils auront besoin pour créer leur histoire.
-
 
 ---
 
 ## Séquence 2 - Approfondissement (Build-up)
 
 
-Cette phase vise à guider les élèves dans le développement de leurs idées d'histoire et le démarrage de leur projet Scratch.
+Guidez les élèves en deux étapes : développer leurs idées d'histoire, puis démarrer leur projet Scratch.
 
 ### Vocabulaire et planification (30 min)
 
@@ -110,7 +108,7 @@ Distribuez la **fiche de travail 2 : Storyboard**.
 
 Les élèves planifient le début, le milieu et la fin de leur histoire. Incitez-les à inclure des dialogues et de la narration.
 
-Le vocabulaire est choisi et le storyboard est prêt. Place à la création dans Scratch !
+À la fin de cette étape, le vocabulaire est choisi et le storyboard est prêt.
 
 ### Exploration du modèle et création (30 min)
 
@@ -122,7 +120,7 @@ Ouvrez le modèle de projet pour les élèves sur tous les ordinateurs. Guidez l
 - Ajouter des dialogues avec des bulles de parole ou des enregistrements audio.
 - Insérer des blocs de mouvement pour animer l'histoire.
 
-À la fin de cette phase, chaque binôme doit avoir une structure d'histoire en place avec les personnages, les décors et le début de la narration. Il ne reste plus qu'à enregistrer et à peaufiner !
+À la fin de cette phase, chaque binôme doit avoir une structure d'histoire en place avec les personnages, les décors et le début de la narration.
 
 
 ---
@@ -130,7 +128,7 @@ Ouvrez le modèle de projet pour les élèves sur tous les ordinateurs. Guidez l
 ## Séquence 3 - Mise en pratique (Rehearsal)
 
 
-Cette phase vise à accompagner les élèves dans la programmation, l'enregistrement et la répétition de leur histoire numérique, en intégrant tous les éléments narratifs. Accompagnez les élèves pendant qu'ils :
+Les élèves programment, enregistrent et répètent leur histoire numérique en intégrant tous les éléments narratifs. Accompagnez-les pendant qu'ils :
 
 - Enregistrent la narration en utilisant le microphone de Scratch ou la fonction de synthèse vocale.
 - Ajoutent des effets sonores depuis la bibliothèque de sons de Scratch ou enregistrent leurs propres sons.
@@ -146,7 +144,7 @@ Distribuez la **fiche de travail 3 : Grille de critères des éléments de l'his
 - Des mouvements de personnages
 - Un début, un milieu et une fin
 
-Laissez les élèves apporter les dernières améliorations à leur projet. Les histoires sont maintenant complètes et prêtes à être présentées à la classe ! Invitez chaque binôme à présenter son projet en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement et à donner des retours positifs.
+Laissez les élèves apporter les dernières améliorations à leur projet. Invitez ensuite chaque binôme à présenter son projet à la classe en utilisant le vidéoprojecteur et les haut-parleurs. Encouragez le public à écouter attentivement et à donner des retours positifs.
 
 
 ---

@@ -9,7 +9,7 @@ sidebar_position: 18
 
 <div style={{flex: 1}}>
 
-# Coder les Objectifs de Développement Durable en jeu vidéo
+# Coder les Objectifs de développement durable en jeu vidéo
 
 <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1rem'}}>
   <span className="badge badge--primary">Éducation civique</span>
@@ -72,28 +72,28 @@ sidebar_position: 18
 
 ### Introduction à MakeCode Arcade
 
-MakeCode Arcade est une plateforme éducative développée par Microsoft, conçue pour initier élèves et enseignants à la programmation à travers la création de jeux vidéo. Accessible en ligne, elle offre un environnement riche et intuitif où chacun peut concevoir, personnaliser et partager ses propres jeux. L'interface de MakeCode Arcade s'adapte à tous les niveaux : un mode « blocs » pour les débutants et un mode texte pour les utilisateurs plus avancés.
+MakeCode Arcade est une plateforme éducative développée par Microsoft, conçue pour initier élèves et enseignants à la programmation à travers la création de jeux vidéo. Elle est accessible en ligne, et chacun peut y concevoir, personnaliser et partager ses propres jeux. L'interface de MakeCode Arcade s'adapte à tous les niveaux : un mode « blocs » pour les débutants et un mode texte pour les utilisateurs plus avancés.
 
-MakeCode Arcade ne se limite pas à la création de jeux vidéo : c'est un espace libre et créatif où les élèves peuvent raconter des histoires, créer des animations et donner vie à leurs idées. Cette flexibilité leur permet de s'exprimer pleinement, de tester des concepts originaux et de développer des récits interactifs qui reflètent leur imagination et leurs centres d'intérêt.
+MakeCode Arcade ne se limite pas à la création de jeux vidéo : les élèves peuvent aussi y raconter des histoires et créer des animations.
 
-Engagée dans une pédagogie inclusive et innovante, la plateforme permet aux élèves d'expérimenter, d'apprendre et de progresser tout en contribuant positivement à leur communauté. Grâce à l'approche « Skill Map », MakeCode Arcade propose un parcours d'apprentissage personnalisé et progressif, intégrant des éléments de ludification comme des badges à débloquer et des indicateurs visuels de progression. Ces outils motivent les utilisateurs à explorer, acquérir de nouvelles compétences et visualiser leurs progrès de manière ludique.
+Avec l'approche « Skill Map », MakeCode Arcade propose un parcours d'apprentissage personnalisé et progressif, avec des éléments de ludification comme des badges à débloquer et des indicateurs visuels de progression. Ces outils motivent les utilisateurs à explorer et à acquérir de nouvelles compétences.
 
 ### Intérêt de la programmation par blocs
 
 La programmation par blocs est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de maîtriser un langage de programmation complexe. Au lieu d'écrire du code sous forme de texte, les élèves utilisent des blocs colorés, semblables à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme « déplacer un personnage », « jouer un son » ou « compter jusqu'à 10 ».
 
-En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche aide les élèves à comprendre les bases de la programmation en manipulant des concepts de façon concrète et ludique. La programmation par blocs convient particulièrement aux débutants car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, rendant la technologie accessible et amusante, même pour ceux qui n'ont jamais programmé.
+En les assemblant, on crée un programme. Cette approche aide les élèves à comprendre les bases de la programmation en manipulant des concepts de façon concrète et ludique. La programmation par blocs convient particulièrement aux débutants car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, même quand on n'a jamais programmé.
 
 ### Intention pédagogique
 
-L'objectif de cette activité est d'initier les élèves à la programmation à travers un contexte créatif et porteur de sens. En associant la programmation par blocs à la création d'histoires interactives et de jeux sur des enjeux citoyens, on favorise l'engagement des élèves : ils ne codent pas pour coder, mais pour exprimer des idées, collaborer et partager des messages qui comptent pour eux et leur communauté.
+L'objectif de cette activité est d'initier les élèves à la programmation à travers un contexte créatif et porteur de sens. En associant la programmation par blocs à la création d'histoires interactives et de jeux sur des enjeux citoyens, on favorise l'engagement des élèves, qui codent pour exprimer des idées, collaborer et partager des messages qui comptent pour eux et leur communauté.
 
 ---
 
 ## Séquence 1 - Mise en route (Warm-up)
 
 
-Cette phase de mise en route a pour objectif de faire découvrir aux élèves les Objectifs de Développement Durable en les reliant à leurs propres expériences et émotions. L'idée est de développer leur sensibilité à ces enjeux mondiaux et de les rendre concrets, même pour les plus jeunes.
+Cette phase de mise en route a pour objectif de faire découvrir aux élèves les Objectifs de développement durable en les reliant à leurs propres expériences et émotions. L'idée est de développer leur sensibilité à ces enjeux mondiaux et de les rendre concrets, même pour les plus jeunes.
 
 ### Activité A - Découverte des ODD à travers les pictogrammes
 
@@ -115,21 +115,21 @@ Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe 
 
 <img src="/img/ressources/robots-meet-arts/aventure-odd/17-objectifs-odd-unicef.png" alt="17 objectifs ODD UNICEF" style={{maxWidth: '100%', height: 'auto'}} />
 
-À travers cette première activité, les élèves commencent à reconnaître les « grands défis mondiaux » qui se manifestent dans leur vie de tous les jours. Cela éveille leur sensibilité et leur prise de conscience.
+À travers cette première activité, les élèves commencent à reconnaître les « grands défis mondiaux » qui se manifestent dans leur vie de tous les jours.
 
 ### Activité B : Jouer avec les ODD
 
 :::info[Notes pour l'enseignant·e]
 
-Imprimez les plateaux de jeu ou les livres en avance. Préparez le matériel nécessaire (cartes, recettes, accessoires simples). Organisez la classe en petits groupes pour les jeux de plateau ou en cercle pour les temps de lecture. N'hésitez pas à faire des pauses pour poser des questions de réflexion, comme « En quoi ce problème nous concerne-t-il ? » ou « Que pourrions-nous faire pour aider ? ».
+Imprimez les plateaux de jeu ou les livres en avance. Préparez le matériel nécessaire (cartes, recettes, accessoires simples). Organisez la classe en petits groupes pour les jeux de plateau ou en cercle pour les temps de lecture. Vous pouvez faire des pauses pour poser des questions de réflexion, comme « En quoi ce problème nous concerne-t-il ? » ou « Que pourrions-nous faire pour aider ? ».
 
 Si besoin, désignez des observateurs dans chaque groupe pour veiller à la coopération et au respect des règles. Après chaque jeu, prévoyez un court débriefing pour faire le lien avec les ODD et les expériences du quotidien.
 
 :::
 
-Une fois les ODD découverts par les élèves, utilisez des activités ludiques pour approfondir leur compréhension. Apprendre par le jeu offre un environnement dans lequel les élèves peuvent explorer, comprendre et interagir avec les concepts abordés. Le jeu favorise la réflexion critique, la coopération et la résolution de problèmes, tout en s'amusant.
+Une fois les ODD découverts par les élèves, utilisez des activités ludiques pour approfondir leur compréhension.
 
-Le contexte des ODD peut sembler pessimiste aux plus jeunes, tant les défis à relever sont nombreux. Intégrer une dimension ludique permet aux élèves d'aborder ces enjeux de manière créative, collective et positive, tout en les préparant à devenir des citoyens engagés et actifs.
+Le contexte des ODD peut sembler pessimiste aux plus jeunes, tant les défis à relever sont nombreux. Une dimension ludique permet aux élèves d'aborder ces enjeux de manière collective et positive.
 
 Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir les ODD en les vivant. Vous pouvez vous inspirer des ressources suivantes (liste non exhaustive) pour trouver des activités adaptées au temps dont vous disposez et à l'âge de vos élèves :
 
@@ -139,20 +139,20 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 
   <img src="/img/ressources/robots-meet-arts/aventure-odd/SDG_BoardGame_FR-1000px-1024x724.png" alt="Plateau de jeu Go Goals" style={{maxWidth: '100%', height: 'auto', marginTop: '0.5rem'}} />
 
-- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, permettant d'aborder chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. Cela développe l'empathie et l'imagination, tout en donnant un visage humain aux défis mondiaux. https://www.un.org/sustainabledevelopment/sdgbookclub/
+- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, sur chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. https://www.un.org/sustainabledevelopment/sdgbookclub/
 - **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l'importance de l'eau et le respect de l'environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. https://issuu.com/unpublications/docs/frieda_2018
 
 #### 2. Explorer d'autres ressources ludiques : L'exemple d'Unplugged Quest
 
 https://github.com/unplugged-quest/games
 
-Unplugged Quest est un projet Erasmus+ qui vise à contribuer au développement de l'éducation à la citoyenneté, entendue comme un ensemble de connaissances, compétences et attitudes permettant aux enfants de reconnaître les valeurs nécessaires à la vie en communauté. Pour atteindre cet objectif pédagogique, Unplugged Quest a créé un écosystème d'apprentissage par le jeu dédié aux enjeux de société. La plateforme propose une variété de jeux, chacun centré sur une thématique citoyenne comme l'égalité, la solidarité, la diversité ou le développement durable. Les enseignants et éducateurs peuvent composer leur propre parcours d'apprentissage en sélectionnant et combinant les jeux selon l'âge des élèves, le temps disponible et les compétences visées. Cette flexibilité fait d'Unplugged Quest une porte d'entrée ludique vers les ODD et l'éducation à la citoyenneté.
+Unplugged Quest est un projet Erasmus+ d'éducation à la citoyenneté, entendue comme un ensemble de connaissances, compétences et attitudes qui permettent aux enfants de reconnaître les valeurs nécessaires à la vie en communauté. Sa plateforme propose une variété de jeux, chacun centré sur une thématique citoyenne comme l'égalité, la solidarité, la diversité ou le développement durable. Les enseignants et éducateurs peuvent composer leur propre parcours d'apprentissage en sélectionnant et combinant les jeux selon l'âge des élèves, le temps disponible et les compétences visées.
 
 Exemples de jeux :
 
-- **Equal** : le jeu Equal invite à réfléchir aux stéréotypes de genre et à l'égalité. À travers des scénarios ludiques, les élèves identifient des préjugés et explorent l'idée que les opportunités devraient être accessibles à tous, quel que soit le genre. Ce jeu renforce la prise de conscience autour de l'inclusion et du respect.
-- **Cookies for Peace** : dans cette activité de jeu de rôle culinaire, des groupes d'élèves doivent préparer des cookies. Mais les ressources sont inégalement réparties : certains groupes en ont trop, d'autres pas assez. L'objectif est que les groupes négocient et partagent pour réussir ensemble. Ce jeu met en lumière les inégalités dans la distribution des ressources et souligne l'importance de la solidarité et de la coopération.
-- **PotLuck March** : dans ce jeu de simulation, chaque joueur reçoit des « points d'énergie » aléatoires en fonction de cartes alimentaires. Certains enfants obtiennent beaucoup de nourriture (plus d'énergie), d'autres peu ou pas du tout. Les joueurs ne peuvent avancer que s'ils ont suffisamment d'énergie. L'activité rend visibles les inégalités d'accès à la nourriture et encourage la collaboration : ceux qui ont plus doivent décider s'ils partagent avec ceux qui ont moins. L'objectif final est d'amener le plus de joueurs possible jusqu'à la ligne d'arrivée, renforçant ainsi l'idée de responsabilité collective.
+- **Equal** : le jeu Equal invite à réfléchir aux stéréotypes de genre et à l'égalité. À travers des scénarios ludiques, les élèves identifient des préjugés et explorent l'idée que chacun devrait avoir les mêmes chances, quel que soit le genre.
+- **Cookies for Peace** : dans cette activité de jeu de rôle culinaire, des groupes d'élèves doivent préparer des cookies. Mais les ressources sont inégalement réparties : certains groupes en ont trop, d'autres pas assez. L'objectif est que les groupes négocient et partagent pour réussir ensemble.
+- **PotLuck March** : dans ce jeu de simulation, chaque joueur reçoit des « points d'énergie » aléatoires en fonction de cartes alimentaires. Certains enfants obtiennent beaucoup de nourriture (plus d'énergie), d'autres peu ou pas du tout. Les joueurs ne peuvent avancer que s'ils ont suffisamment d'énergie. L'activité rend visibles les inégalités d'accès à la nourriture et encourage la collaboration : ceux qui ont plus doivent décider s'ils partagent avec ceux qui ont moins. L'objectif final est d'amener le plus de joueurs possible jusqu'à la ligne d'arrivée.
 
 #### 3. Utiliser la dimension artistique pour ressentir les ODD
 
@@ -166,7 +166,7 @@ Une autre manière efficace de « ressentir » les ODD est de transformer la cla
 
 Chaque élève peut choisir son support : matériaux recyclés, peinture, collage, photographie... L'objectif est de produire une œuvre qui symbolise à la fois le défi (le « problème ») et la solution (l'« action positive ») liés à son ODD.
 
-Cette approche transforme l'apprentissage en expression citoyenne et rend les ODD visibles pour toute la communauté. Au-delà de la pratique artistique, l'activité développe la sensibilité, le jugement et l'engagement : les élèves apprennent à relier émotions, idées et responsabilité citoyenne.
+La galerie rend les ODD visibles pour toute la communauté.
 
 
 ---
@@ -174,7 +174,7 @@ Cette approche transforme l'apprentissage en expression citoyenne et rend les OD
 ## Séquence 2 - Approfondissement (Build-up)
 
 
-À partir de la compréhension des enjeux des ODD acquise lors de la mise en route, cette phase de construction offre aux élèves un espace pour explorer de manière dynamique les défis de société. L'objectif est de développer leur esprit critique en éducation à la citoyenneté.
+À partir de la compréhension des enjeux des ODD acquise lors de la mise en route, cette phase de construction amène les élèves à explorer les défis de société : ils imaginent un scénario commun, puis chaque groupe programme un niveau lié à un ODD. L'objectif est de développer leur esprit critique en éducation à la citoyenneté.
 
 ### Activité A : Créer des histoires interactives - Réflexion et remue-méninges
 
@@ -194,7 +194,7 @@ Présentez aux élèves la consigne générale de cette phase :
 
 #### Imaginer le scénario
 
-Partir d'un scénario commun donne de la cohérence et de la motivation à l'ensemble du projet. Plutôt que de produire des programmes isolés, l'objectif est que les élèves co-construisent un univers collectif dans lequel le travail de chaque groupe devient un « niveau » d'une grande aventure. Ancrer les ODD dans une histoire rend ces objectifs abstraits plus concrets et mémorables. Un héros qui voyage à travers le « monde des Objectifs » permet aux enfants de se projeter dans des situations de justice, de durabilité ou de solidarité.
+L'objectif est que les élèves co-construisent un univers collectif dans lequel le travail de chaque groupe devient un « niveau » d'une grande aventure. Un héros qui voyage à travers le « monde des Objectifs » permet aux enfants de se projeter dans des situations de justice, de durabilité ou de solidarité.
 
 **Simplifier le parcours** : Le héros n'a pas besoin de traverser les 17 Objectifs. Avec l'aide de l'enseignant·e, la classe peut sélectionner un sous-ensemble d'ODD particulièrement pertinents selon l'âge des élèves, leur contexte ou les projets scolaires en cours (par exemple : ODD 3 : bonne santé et bien-être, ODD 4 : Éducation de qualité, ODD 6 : eau propre et assainissement, ODD 12 : consommation et production responsables, ODD 15 : vie terrestre). Cela rend le scénario plus cohérent et réalisable, tout en conservant la logique collective.
 
@@ -202,9 +202,9 @@ Complétez l'énoncé de mission avec la classe : « Le héros doit voyager à t
 
 > « Il était une fois un·e héros/héroïne nommé·e \_\_\_, animé·e par \_\_\_. Il/Elle tenait à \_\_\_ et défendait toujours \_\_\_. Notre héros/héroïne était connu·e pour des qualités comme \_\_\_ et possédait le pouvoir spécial de \_\_\_. Mais même les héros ont leurs faiblesses, et la sienne était \_\_\_. »
 
-En co-créant le scénario et en délimitant le périmètre, les élèves développent un sentiment d'appropriation et de responsabilité. Ils apprennent aussi que l'engagement citoyen ne signifie pas tout résoudre d'un coup, mais commencer par des actions ciblées qui comptent dans leur quotidien.
+En délimitant le périmètre, les élèves apprennent que l'engagement citoyen ne signifie pas tout résoudre d'un coup, mais commencer par des actions ciblées qui comptent dans leur quotidien.
 
-Une fois le scénario collectif établi, les élèves sont invités à se répartir en petits groupes. Chaque groupe, avec l'aide de l'enseignant·e et en accord avec la classe, peut choisir l'ODD et la partie de l'histoire sur laquelle il souhaite travailler, selon ses centres d'intérêt et sa créativité. Certains voudront peut-être créer une histoire autour de l'eau, d'autres un jeu autour de l'égalité, d'autres encore travailleront sur la protection de la nature. L'essentiel est que chacun contribue à la même histoire.
+Une fois le scénario collectif établi, les élèves sont invités à se répartir en petits groupes. Chaque groupe, avec l'aide de l'enseignant·e et en accord avec la classe, peut choisir l'ODD et la partie de l'histoire sur laquelle il souhaite travailler, selon ses centres d'intérêt et sa créativité. Certains voudront peut-être créer une histoire autour de l'eau, d'autres un jeu autour de l'égalité, d'autres encore travailleront sur la protection de la nature. Ce qui compte, c'est que chacun contribue à la même histoire.
 
 Chaque ODD choisi devient une étape du voyage du héros, pour laquelle chaque groupe concevra les défis que le héros devra affronter. L'ordre des niveaux est ensuite décidé collectivement, en veillant à ce que l'aventure conserve une progression cohérente.
 
@@ -213,14 +213,14 @@ Chaque ODD choisi devient une étape du voyage du héros, pour laquelle chaque g
 :::info[Notes pour l'enseignant·e]
 
 - Si besoin, formez-vous à MakeCode Arcade en utilisant le tutoriel fourni en annexe. Amusez-vous et créez votre propre projet pour inspirer vos élèves !
-- Testez les ordinateurs et la connexion internet avant la séance. Ouvrez MakeCode Arcade et vérifiez que les Skillmaps se chargent correctement.
-- Prévoyez un vidéoprojecteur pour montrer les premières manipulations (ouvrir les Skillmaps, sélectionner un tutoriel).
-- Laissez les élèves suivre la séquence Skillmap à leur rythme, en commençant par « Full of Stories ».
+- Testez les ordinateurs et la connexion internet avant la séance. Ouvrez MakeCode Arcade et vérifiez que les Skill Maps se chargent correctement.
+- Prévoyez un vidéoprojecteur pour montrer les premières manipulations (ouvrir les Skill Maps, sélectionner un tutoriel).
+- Laissez les élèves suivre la séquence Skill Map à leur rythme, en commençant par « Full of Stories ».
 - Rappelez-leur de noter ce qu'ils découvrent : les blocs qu'ils aiment, les effets qu'ils trouvent utiles ou les fonctionnalités qu'ils pourraient réutiliser pour leur propre histoire.
 
 :::
 
-Pour développer leurs histoires interactives ou leurs jeux, les élèves vont découvrir MakeCode Arcade, un logiciel de programmation permettant de créer des histoires animées simples à partir de mécaniques de jeux d'arcade. En plus de donner vie à leurs histoires, cela leur permettra de découvrir la programmation par blocs de manière motivante.
+Pour développer leurs histoires interactives ou leurs jeux, les élèves vont découvrir MakeCode Arcade, un logiciel de programmation permettant de créer des histoires animées simples à partir de mécaniques de jeux d'arcade.
 
 Cette deuxième activité vise donc à :
 
@@ -248,7 +248,7 @@ Le groupe d'élèves qui découvre MakeCode Arcade commence par utiliser les Ski
 
 Pendant qu'une partie des élèves travaille sur MakeCode Arcade, l'autre partie travaille en groupes pour enrichir le scénario avec leurs idées d'histoire interactive ou de jeu autour de l'ODD qui leur a été attribué. Pour stimuler leur réflexion, vous pouvez proposer des questions guides : Quel message citoyen veulent-ils faire passer à travers leur programme interactif ? Quelle action positive faut-il promouvoir ? Quel danger faut-il éviter ?
 
-Rappelez aux élèves que MakeCode Arcade ne se limite pas à la création de jeux vidéo classiques. Ils peuvent aussi créer des histoires interactives, des expériences musicales ou de petites scènes où des personnages jouent une situation. L'essentiel est que chaque projet transmette un message citoyen lié à un ODD. Le format (jeu, histoire, scène ou musique) peut varier selon la créativité de chacun.
+Rappelez aux élèves que MakeCode Arcade ne se limite pas à la création de jeux vidéo classiques. Ils peuvent aussi créer des histoires interactives, des expériences musicales ou de petites scènes où des personnages jouent une situation. Chaque projet doit transmettre un message citoyen lié à un ODD. Le format (jeu, histoire, scène ou musique) peut varier selon la créativité de chacun.
 
 Une fois la première rotation terminée, faites changer les élèves de rôle afin que chacun ait pu découvrir les fonctionnalités de MakeCode Arcade grâce aux Skill Maps.
 
@@ -269,17 +269,17 @@ Une fois la première rotation terminée, faites changer les élèves de rôle a
 
 :::
 
-Une fois les élèves à l'aise avec l'environnement, ils passent à la programmation de leur niveau lié aux ODD. Cette étape vise à articuler compétences en programmation, réflexion citoyenne et créativité numérique : les élèves apprennent à coder pour s'exprimer, sans se limiter à l'aspect technique.
+Une fois les élèves à l'aise avec l'environnement, ils passent à la programmation de leur niveau lié aux ODD.
 
 Chaque groupe commence par créer les éléments essentiels de son histoire : un personnage principal, un élément positif (eau propre, objet recyclé, arbre...), un défi à relever (pollution, déchets, injustice...) et un élément interactif (score, changement de scène, musique...).
 
 Une fois les bases en place, les élèves peuvent enrichir leur programme en expérimentant les fonctionnalités découvertes dans les Skill Maps : décors et arrière-plans en lien avec l'ODD (ville, forêt, école), effets sonores déclenchés par des actions, bulles de dialogue, chronomètre...
 
-Encouragez les élèves à tester régulièrement leurs programmes, au sein de leur équipe mais aussi avec leurs camarades, pour vérifier la clarté du message et l'interactivité. Ils peuvent ajuster les éléments pas à pas, découvrant ainsi que programmer, c'est avant tout essayer, se tromper et améliorer.
+Encouragez les élèves à tester régulièrement leurs programmes, au sein de leur équipe mais aussi avec leurs camarades, pour vérifier la clarté du message et l'interactivité. Ils peuvent ajuster les éléments pas à pas.
 
 Invitez-les à documenter leurs choix en notant chaque moment de découragement et chaque moment de satisfaction rencontrés au fil de la programmation.
 
-À l'issue de cette activité, chaque groupe aura produit un prototype jouable ou une histoire interactive illustrant l'ODD choisi. La qualité technique peut varier, mais l'essentiel reste la clarté du message citoyen et l'utilisation créative des fonctionnalités de MakeCode Arcade. Les élèves auront également expérimenté le travail en équipe, la prise de décision et le processus d'amélioration continue d'un projet.
+À l'issue de cette activité, chaque groupe aura produit un prototype jouable ou une histoire interactive illustrant l'ODD choisi. La qualité technique peut varier, mais l'essentiel reste la clarté du message citoyen et l'utilisation créative des fonctionnalités de MakeCode Arcade.
 
 
 ---
@@ -292,7 +292,7 @@ Invitez-les à documenter leurs choix en notant chaque moment de découragement 
 - **Préparez l'espace** : Disposez la classe de façon à ce que chaque groupe puisse présenter facilement. Connectez un ordinateur au vidéoprojecteur pour que toute la classe puisse voir les projets. Si le matériel est limité, organisez de courtes rotations pour que les groupes puissent essayer les programmes des autres.
 - **Donnez le ton** : Présentez cette phase comme une célébration plutôt qu'une évaluation. Soulignez que chaque projet est une contribution précieuse au scénario collectif, qu'il soit simple ou avancé.
 - **Guidez les retours** : Veillez à ce qu'ils soient constructifs et centrés sur la clarté du message citoyen.
-- **Valorisez la diversité** : Rappelez aux élèves que tous les projets ne doivent pas forcément être des jeux. Mettez en avant la variété des créations (histoires, musiques, scènes, animations) comme une richesse qui enrichit le voyage collectif à travers les ODD.
+- **Valorisez la diversité** : Rappelez aux élèves que tous les projets ne doivent pas forcément être des jeux. Mettez en avant la variété des créations (histoires, musiques, scènes, animations).
 - **Prolongez la présentation** : Si vous souhaitez ouvrir la séance à une autre classe ou aux parents, anticipez l'organisation. Un petit « Festival Arcade des ODD » peut être mis en place en projetant tous les programmes à la suite ou en préparant un mur de QR codes où les visiteurs peuvent scanner et jouer.
 
 :::
@@ -305,9 +305,9 @@ Ce bilan est aussi l'occasion pour toute la classe d'apprécier la diversité de
 
 Pour rendre ce moment motivant, vous pouvez le présenter comme un « festival des histoires ODD », où chaque projet est célébré. Encouragez les élèves à formuler des retours constructifs, par exemple en expliquant ce qu'ils ont compris, ce qu'ils ont apprécié et ce qui pourrait être amélioré.
 
-Cette présentation ne doit pas nécessairement rester au sein de la classe. Les projets peuvent aussi être présentés à une autre classe de l'école ou aux parents lors d'une projection collective. De cette façon, les élèves sont fiers de partager leur travail avec un public plus large, et leurs créations numériques deviennent un outil de sensibilisation aux ODD au sein de toute la communauté scolaire.
+Cette présentation ne doit pas nécessairement rester au sein de la classe. Les projets peuvent aussi être présentés à une autre classe de l'école ou aux parents lors d'une projection collective.
 
-À la fin de la séance, les élèves sauvegardent leurs programmes et rangent la classe. Concluez par un court temps de réflexion : « Qu'avons-nous appris sur les ODD ? Qu'avons-nous appris en utilisant la programmation par blocs ? » Les élèves réalisent ainsi que la programmation par blocs n'est pas seulement une compétence technique, mais aussi un moyen créatif d'exprimer des messages citoyens et d'imaginer des solutions ludiques à des enjeux du monde réel.
+À la fin de la séance, les élèves sauvegardent leurs programmes et rangent la classe. Concluez par un court temps de réflexion : « Qu'avons-nous appris sur les ODD ? Qu'avons-nous appris en utilisant la programmation par blocs ? »
 
 
 ---
@@ -318,15 +318,15 @@ Cette présentation ne doit pas nécessairement rester au sein de la classe. Les
 
 Les principales fonctionnalités de MakeCode Arcade sont :
 
-- **Interface intuitive** : MakeCode Arcade propose une interface simple où les élèves créent des jeux en assemblant des blocs de code, comme un puzzle, rendant la programmation ludique et accessible.
-- **Guides et tutoriels** : La plateforme offre de nombreux tutoriels et leçons pas à pas, aidant les élèves à prendre en main les outils et à comprendre la programmation de jeux.
-- **Outil Skill Maps** : Les Skill Maps sont des parcours d'apprentissage guidés où les élèves suivent des étapes pour acquérir de nouvelles compétences. Avec des badges et des niveaux à débloquer, l'apprentissage devient motivant et engageant.
-- **Partage et communauté** : MakeCode Arcade permet aux élèves de partager leurs créations et de découvrir les jeux des autres, favorisant les échanges et la collaboration.
-- **Compatibilité avec les consoles de jeu** : En plus de jouer dans le navigateur, les jeux créés peuvent être transférés sur de petites consoles de jeu, permettant aux élèves de jouer à leurs créations sur des appareils physiques.
+- **Interface intuitive** : MakeCode Arcade propose une interface simple où les élèves créent des jeux en assemblant des blocs de code, comme un puzzle.
+- **Guides et tutoriels** : La plateforme offre de nombreux tutoriels et leçons pas à pas pour prendre en main les outils et comprendre la programmation de jeux.
+- **Outil Skill Maps** : Les Skill Maps sont des parcours d'apprentissage guidés où les élèves suivent des étapes pour acquérir de nouvelles compétences. Avec des badges et des niveaux à débloquer, l'apprentissage devient motivant.
+- **Partage et communauté** : MakeCode Arcade permet aux élèves de partager leurs créations et de découvrir les jeux des autres.
+- **Compatibilité avec les consoles de jeu** : Les jeux créés se jouent dans le navigateur. Ils peuvent aussi être transférés sur de petites consoles de jeu, où les élèves peuvent jouer à leurs créations sur un appareil physique.
 
 ### Premiers pas avec les Skill Maps
 
-Les Skill Maps sont des guides visuels qui montrent les étapes pour atteindre un objectif, comme créer un jeu dans MakeCode Arcade. Elles décomposent les compétences en petits niveaux, permettant de suivre sa progression, de voir ce qu'on a appris et ce qu'il reste à découvrir. Ces parcours sont faciles à suivre et permettent aux élèves d'apprendre à leur rythme. Au fil des Skill Maps, ils découvrent les bases de la programmation comme les boucles, les variables et les conditions, tout en s'amusant à créer des jeux. Les Skill Maps ne se limitent pas au code : elles intègrent aussi des compétences en design, en narration et en création de règles, pour que chacun puisse développer ses propres idées. Elles sont conçues pour être motivantes et adaptées aux centres d'intérêt de chaque élève, rendant l'apprentissage ludique et accessible à tous.
+Les Skill Maps sont des guides visuels qui montrent les étapes pour atteindre un objectif, comme créer un jeu dans MakeCode Arcade. Elles décomposent les compétences en petits niveaux : on peut ainsi suivre sa progression, voir ce qu'on a appris et ce qu'il reste à découvrir. Ces parcours sont faciles à suivre et permettent aux élèves d'apprendre à leur rythme. Au fil des Skill Maps, ils découvrent les bases de la programmation comme les boucles, les variables et les conditions, tout en s'amusant à créer des jeux. Les Skill Maps ne se limitent pas au code : elles intègrent aussi des compétences en design, en narration et en création de règles, pour que chacun puisse développer ses propres idées. Elles sont conçues pour être motivantes et adaptées aux centres d'intérêt de chaque élève.
 
 ### Étapes pour découvrir les Skill Maps
 
@@ -340,7 +340,7 @@ Parcourez les différentes Skill Maps disponibles, classées par ordre de comple
 
 #### Étape 3 : Découvrir les niveaux
 
-Comme vous pouvez le voir dans la Skill Map « Full of Stories », chaque parcours est divisé en niveaux. Cela permet de gérer la complexité tout en offrant au jeune codeur des étapes intermédiaires satisfaisantes, stimulant ainsi la créativité, l'engagement et l'envie de progresser vers le niveau suivant.
+Comme vous pouvez le voir dans la Skill Map « Full of Stories », chaque parcours est divisé en niveaux. Ce découpage permet de gérer la complexité et offre au jeune codeur des étapes intermédiaires satisfaisantes, qui donnent envie de progresser vers le niveau suivant.
 
 #### Étape 4 : Découvrir les objectifs d'apprentissage
 
@@ -356,7 +356,7 @@ Le tutoriel inclut également des éléments plus informatifs sur les blocs, par
 
 #### Étape 6 : Créer des parcours, suivre sa progression, collaborer et partager
 
-Une fois vos Skill Maps commencées, vous pouvez facilement suivre votre progression grâce à la ludification de l'interface MakeCode Arcade. Chaque Skill Map est divisée en étapes, menant à l'obtention de récompenses. À la fin du parcours, vous recevez un certificat de complétion, ajoutant un niveau supplémentaire de ludification à l'apprentissage de la programmation via MakeCode Arcade.
+Une fois vos Skill Maps commencées, vous pouvez facilement suivre votre progression grâce à la ludification de l'interface MakeCode Arcade. Chaque Skill Map est divisée en étapes, menant à l'obtention de récompenses. À la fin du parcours, vous recevez un certificat, un élément de ludification de plus.
 
 Vous pouvez enfin partager vos réalisations avec la communauté, les parents, les éducateurs et les autres participants.
 

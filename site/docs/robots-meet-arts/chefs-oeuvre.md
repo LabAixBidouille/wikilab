@@ -92,7 +92,7 @@ Avant la séance :
 ## Séquence 1 - Mise en route (Warm-up)
 
 
-Rassemblez les élèves et racontez une courte histoire captivante pour les mettre dans l'ambiance :
+Rassemblez les élèves et racontez-leur cette courte histoire pour les mettre dans l'ambiance :
 
 > « Imaginez un petit robot qui s'est perdu dans un grand musée rempli d'œuvres d'art magnifiques. Il doit retrouver son chemin pour découvrir les tableaux, mais il ne peut pas se déplacer tout seul : il a besoin de vous pour le guider ! Aujourd'hui, vous allez programmer des robots pour les aider à trouver leur chemin. Voyons comment nous pouvons aider ce robot à se sortir de cette situation ! »
 
@@ -104,7 +104,7 @@ Faites ensuite le tour des stations avec les élèves et expliquez brièvement l
 ## Séquence 2 - Approfondissement (Build-up)
 
 
-Durant cette phase, les élèves alternent entre deux activités, chacune divisée en deux stations identiques (soit quatre stations au total). Cette organisation permet à tous les groupes de participer aux deux types d'activités : la programmation du robot avec le mélange des couleurs et la recherche d'informations sur les œuvres d'art. Chaque station dure 20 minutes, et après le premier tour, les élèves des stations 1 et 2 échangent leur place avec ceux des stations 3 et 4.
+Durant cette phase, les élèves alternent entre deux activités, chacune divisée en deux stations identiques (soit quatre stations au total). Cette organisation permet à tous les groupes de participer aux deux types d'activités : la programmation du robot avec le mélange des couleurs et la recherche d'informations sur les œuvres d'art.
 
 ### Stations 1 et 2 : Mélange des couleurs avec le robot de sol (40 min)
 
@@ -150,9 +150,9 @@ Chaque élève choisit une carte d'œuvre d'art et recherche les informations su
 - Qui est l'artiste ?
 - Où est-elle exposée ?
 
-Les élèves écrivent les réponses sur deux cartes réponses séparées, de sorte que chaque œuvre d'art dispose de deux jeux de cartes réponses identiques (nécessaires pour le jeu de mémoire final).
+Les élèves écrivent les réponses sur deux cartes réponses séparées, de sorte que chaque œuvre d'art a deux jeux de cartes réponses identiques (nécessaires pour le jeu de mémoire final).
 
-À la fin de la station, le groupe dispose de cinq ensembles complets.
+À la fin de la station, le groupe a cinq ensembles complets.
 
 **Astuce : utiliser Google Lens pour identifier les œuvres**
 

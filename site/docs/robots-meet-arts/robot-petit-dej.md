@@ -81,7 +81,7 @@ Le robot exécute tout au pied de la lettre. Mieux vaut donc tester les instruct
 
 L'enseignant·e joue le rôle du robot humain.
 
-N'hésitez pas à prendre une voix robotique pour rendre l'exercice plus amusant. Si une instruction est imprécise, exécutez-la au pied de la lettre pour que les élèves constatent que la consigne choisie ne donne pas le résultat attendu. Vous pouvez aussi dire « Erreur ! » quand quelque chose coince.
+Vous pouvez prendre une voix robotique pour rendre l'exercice plus amusant. Si une instruction est imprécise, exécutez-la au pied de la lettre pour que les élèves constatent que la consigne choisie ne donne pas le résultat attendu. Vous pouvez aussi dire « Erreur ! » quand quelque chose coince.
 
 Laissez autant que possible les élèves réfléchir, observer et corriger par eux-mêmes. Alternez régulièrement les groupes pour que chacun puisse donner une instruction au robot humain.
 

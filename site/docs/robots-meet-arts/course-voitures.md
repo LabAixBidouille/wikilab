@@ -119,8 +119,6 @@ Les élèves utilisent l'application SPIKE pour programmer un mouvement de base 
 
 Laissez les élèves apporter des améliorations à leur voiture en fonction des résultats des tests. Encouragez-les à itérer : tester, observer, ajuster, puis retester.
 
-Les voitures sont construites et testées, il est temps de préparer les présentations !
-
 
 ---
 
@@ -138,8 +136,6 @@ Les voitures sont construites et testées, il est temps de préparer les présen
 Les élèves préparent et présentent leurs voitures. Pour cela, ils lisent en groupe la fiche de travail 2 et complètent l'exercice 2 avec le nom, la couleur, les caractéristiques, les capacités et le slogan de leur voiture.
 
 Encouragez-les à ajouter l'impact social que leur voiture apportera, par exemple : *« It helps clean the air »* (Elle aide à purifier l'air) ou *« It brings food to faraway villages »* (Elle apporte de la nourriture aux villages éloignés).
-
-Les présentations sont prêtes, place à la course finale !
 
 
 ---
@@ -164,15 +160,15 @@ Rangez le matériel : démontez les voitures, rangez les pièces LEGO dans les k
 
 ## Fiche de travail 1 - Images de voitures
 
-**Race Car (Ferrari)** — *It is very fast car. It has a strong engine, special tires, and a light body so it can go super fast.*
+**Race Car (Ferrari)** : *It is very fast car. It has a strong engine, special tires, and a light body so it can go super fast.*
 
 <img src="/img/ressources/robots-meet-arts/course-voitures/voiture1.png" alt="Race Car (Ferrari)" style={{maxWidth: '100%', height: 'auto'}} />
 
-**Speed Shark** — *It goes on land and water and delivers clean water to villages during floods.*
+**Speed Shark** : *It goes on land and water and delivers clean water to villages during floods.*
 
 <img src="/img/ressources/robots-meet-arts/course-voitures/voiture2.png" alt="Speed Shark" style={{maxWidth: '100%', height: 'auto'}} />
 
-**EcoZoom** — *It has a solar-powered engine and quiet wheels. It teaches people about green technology.*
+**EcoZoom** : *It has a solar-powered engine and quiet wheels. It teaches people about green technology.*
 
 <img src="/img/ressources/robots-meet-arts/course-voitures/voiture3.png" alt="EcoZoom" style={{maxWidth: '100%', height: 'auto'}} />
 

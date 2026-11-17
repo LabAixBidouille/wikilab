@@ -44,7 +44,7 @@ sidebar_position: 16
 **À disposition de tous les binômes :**
 
 - Une bibliothèque de petits matériaux : boutons, pièces de monnaie, pinces à linge, élastiques, bouchons de différentes tailles et couleurs.
-- Une bibliothèque de matériaux plus grands : rouleau de ruban adhésif, fourchette, jouets et autres objets ludiques pouvant ajouter de la personnalité et stimuler l'expression métaphorique.
+- Une bibliothèque de matériaux plus grands : rouleau de ruban adhésif, fourchette, jouets et autres objets ludiques, qui peuvent donner de la personnalité aux visages et stimuler l'expression métaphorique.
 
 <div style={{marginTop: "1.5rem"}}/>
 
