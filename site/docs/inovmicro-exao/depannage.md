@@ -56,7 +56,7 @@ Pour vérifier qu'un câble transporte bien les données, le plus simple est de 
 
 ## Identifier le bon port série
 
-Plusieurs ports `COM` (Windows) ou `/dev/cu.usbmodem*` (macOS) peuvent apparaître quand plusieurs périphériques USB sont branchés. Voici comment trouver celui de la STeaMi sur chaque système.
+Plusieurs ports `COM` (Windows) ou `/dev/cu.usbmodem*` (macOS) peuvent apparaître quand plusieurs périphériques USB sont branchés.
 
 ### Windows
 

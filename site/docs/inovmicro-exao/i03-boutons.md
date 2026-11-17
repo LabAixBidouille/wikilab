@@ -20,7 +20,7 @@ sidebar_position: 10
 | ------------- | ------ | ------------- | --------- | --------------------- |
 | I-Novmicro #2 | 25 min | Intermédiaire | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
@@ -39,9 +39,9 @@ sidebar_position: 10
 
 Le **bouton-poussoir** est un composant simple pour faire le lien entre une **action physique** (un doigt qui appuie dessus) et une **action numérique** (un programme qui réagit). On en trouve partout : clavier d'ordinateur, interrupteur de chevet, manette de console, bouton d'arrêt d'urgence... Tous fonctionnent sur le même principe : un appui ferme un circuit (laisse le courant électrique passer), un relâchement le rouvre (empêche le courant de passer).
 
-La STeaMi intègre trois boutons-poussoirs simples directement utilisables sans câblage : les boutons **A**, **B** et **Menu**. La carte possède aussi un bouton multidirectionnel que nous n'utiliserons pas pour le moment.
+La STeaMi intègre trois boutons-poussoirs simples directement utilisables sans câblage : les boutons **A**, **B** et **Menu**. La carte possède aussi un bouton multidirectionnel que cette fiche n'utilise pas.
 
-Dans cette fiche, on apprend à lire leur état en MicroPython et à déclencher des actions selon qu'ils sont appuyés ou relâchés. C'est la brique de base pour construire de l'interaction utilisateur sur des objets électroniques : sonnette, jeux, télécommandes... Concrètement, nous allons construire un **mini-jeu de réflexes pour deux joueurs** : chacun choisit un bouton (A ou B), un arbitre donne le signal de départ, et le premier qui appuie sur son bouton allume sa LED.
+Dans cette fiche, on apprend à lire leur état en MicroPython et à déclencher des actions selon qu'ils sont appuyés ou relâchés. C'est la brique de base pour construire de l'interaction utilisateur sur des objets électroniques : sonnette, jeux, télécommandes... Concrètement, on construit un **mini-jeu de réflexes pour deux joueurs** : chacun choisit un bouton (A ou B), un arbitre donne le signal de départ, et le premier qui appuie sur son bouton allume sa LED.
 
 ---
 
@@ -103,7 +103,7 @@ Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà config
 
 ### 3. Lancer le programme
 
-Notre premier programme va proposer un **mini-jeu à deux joueurs** : la première personne qui appuie sur son bouton allume sa LED. Bouton A allume la LED rouge, bouton B allume la LED bleue. Tant qu'un bouton est maintenu enfoncé, l'autre joueur ne peut plus gagner. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
+Le premier programme propose un mini-jeu à deux joueurs : la première personne qui appuie sur son bouton allume sa LED. Bouton A allume la LED rouge, bouton B allume la LED bleue. Tant qu'un bouton est maintenu enfoncé, l'autre joueur ne peut plus gagner. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -176,7 +176,7 @@ while True:
 
 Le programme s'organise en quatre parties :
 
-- **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des **noms parlants** (`'LED_RED'`, `'A_BUTTON'`...). Pas besoin de mémoriser un numéro de broche.
+- **Initialisation** : on déclare les deux LED (`Pin.OUT`) et les deux boutons (`Pin.IN`). Le firmware STeaMi expose les composants sous des noms parlants (`'LED_RED'`, `'A_BUTTON'`...). Pas besoin de mémoriser un numéro de broche.
 - **Lecture des boutons** : `btn_a.value()` renvoie `1` ou `0`. À cause de la logique inverse, on compare à `0` pour savoir si le bouton est appuyé. On stocke le résultat dans `a_actif` (booléen) pour rendre la suite plus lisible.
 - **Détection de transition** : la variable `tour_libre` joue le rôle de **drapeau**. Elle prend la valeur `False` dès qu'on allume une LED, ce qui empêche l'autre bouton de prendre la main. Elle ne reprend la valeur `True` que quand **les deux boutons sont relâchés** : c'est ce qui marque la fin du tour.
 - **Boucle principale** : à chaque tour de boucle, on lit les deux boutons et on choisit la branche `if/elif/elif` appropriée. Les LED restent allumées tant qu'un bouton est appuyé. Le `sleep_ms(20)` final laisse souffler le processeur (sans pause, la boucle tournerait à 100 % CPU) et atténue les rebonds mécaniques du contact (le bouton se ferme plusieurs fois en quelques millisecondes au moment de l'appui).
@@ -213,16 +213,16 @@ Au lieu de lancer la partie immédiatement, attendre un délai aléatoire (`rand
 
 ### Pour comprendre
 
-- **[Bouton-poussoir (Wikipedia)](https://fr.wikipedia.org/wiki/Bouton-poussoir)** : histoire, types (à fermeture, à ouverture, à accrochage), applications. Le composant le plus simple, mais le pilier de presque toutes les interfaces.
-- **[Anti-rebond (Wikipedia)](https://fr.wikipedia.org/wiki/Anti-rebond)** : un bouton qui se ferme rebondit pendant quelques millisecondes, ce qui peut faire enregistrer plusieurs appuis pour un seul clic. Le pattern de détection de transition utilisé ici résout en partie ce problème ; les solutions plus poussées sont logicielles (temporisation) ou matérielles (condensateur).
+- **[Bouton-poussoir (Wikipedia)](https://fr.wikipedia.org/wiki/Bouton-poussoir)** : histoire, types (à fermeture, à ouverture, à accrochage), applications. C'est le composant le plus simple, et on le trouve dans presque toutes les interfaces.
+- **[Anti-rebond (Wikipedia)](https://fr.wikipedia.org/wiki/Anti-rebond)** : un bouton qui se ferme rebondit pendant quelques millisecondes, ce qui peut faire enregistrer plusieurs appuis pour un seul clic. La détection de transition utilisée ici résout en partie ce problème ; les solutions plus poussées sont logicielles (temporisation) ou matérielles (condensateur).
 - **[Automate fini (Wikipedia)](https://fr.wikipedia.org/wiki/Automate_fini)** : le drapeau `tour_libre` est une mini machine à états à deux états. Les automates finis sont une des formalisations les plus utiles en informatique : compilateurs, ascenseurs, distributeurs, expressions régulières...
 
 ### Pour s'inspirer
 
-- **[Le buzzer de jeu télévisé](https://fr.wikipedia.org/wiki/Buzzer_(jeu_t%C3%A9l%C3%A9vis%C3%A9))** : exactement le même principe que notre mini-jeu, mais à l'échelle d'un plateau de télévision (*Questions pour un champion*, *Slam*, *Burger Quiz*...). Premier appuyé, premier servi.
-- **[Borne d'arcade (projet JediTrack)](/ressources/jeditrack/borne-arcade)** : fiche du wiki sur la fabrication d'une borne d'arcade complète. Les boutons d'arcade fonctionnent exactement comme ceux de la STeaMi, en plus gros et en plus colorés.
-- **[Bouton STOP des bus](https://fr.wikipedia.org/wiki/Bus_%C3%A0_arr%C3%AAt_sur_demande)** : un bouton-poussoir qui change la trajectoire d'un véhicule à quelques tonnes. Présent partout dans les transports en commun depuis les années 1950.
-- **[Manette NES (Nintendo)](https://fr.wikipedia.org/wiki/Manette_de_Nintendo_Entertainment_System)** : 8 boutons-poussoirs sur un PCB, et toute l'histoire du jeu vidéo des années 80. Une bonne occasion de regarder ce qu'il y a *à l'intérieur* d'un objet familier.
+- **[Le buzzer de jeu télévisé](https://fr.wikipedia.org/wiki/Buzzer_(jeu_t%C3%A9l%C3%A9vis%C3%A9))** : le même principe que ce mini-jeu, sur les plateaux de télévision (*Questions pour un champion*, *Slam*, *Burger Quiz*...), où le premier qui appuie prend la main.
+- **[Borne d'arcade (projet JediTrack)](/ressources/jeditrack/borne-arcade)** : fiche du wiki sur la fabrication d'une borne d'arcade complète. Les boutons d'arcade fonctionnent comme ceux de la STeaMi, en plus gros et en plus colorés.
+- **[Bouton STOP des bus](https://fr.wikipedia.org/wiki/Bus_%C3%A0_arr%C3%AAt_sur_demande)** : un bouton-poussoir qui demande l'arrêt d'un véhicule de quelques tonnes. Présent partout dans les transports en commun depuis les années 1950.
+- **[Manette NES (Nintendo)](https://fr.wikipedia.org/wiki/Manette_de_Nintendo_Entertainment_System)** : 8 boutons-poussoirs sur un circuit imprimé (PCB), dans la manette d'une console de jeu vidéo des années 80. L'occasion de regarder ce qu'il y a *à l'intérieur* d'un objet familier.
 
 ---
 

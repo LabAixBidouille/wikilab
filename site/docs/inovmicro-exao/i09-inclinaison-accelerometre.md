@@ -36,7 +36,7 @@ sidebar_position: 9
 
 ## De quoi parle-t-on ?
 
-Quand tu inclines ton téléphone, l'écran bascule du mode portrait au mode paysage. Quand tu secoues une manette de Wii, le personnage du jeu réagit. Quand un airbag se déclenche dans une voiture, c'est parce qu'un minuscule composant a détecté le choc en une fraction de seconde. Ces trois petits miracles du quotidien fonctionnent grâce au même composant : un [**accéléromètre**](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre).
+Quand tu inclines ton téléphone, l'écran bascule du mode portrait au mode paysage. Quand tu secoues une manette de Wii, le personnage du jeu réagit. Quand un airbag se déclenche dans une voiture, c'est parce qu'un minuscule composant a détecté le choc en une fraction de seconde. Ces trois objets fonctionnent grâce au même composant : un [**accéléromètre**](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre).
 
 Un accéléromètre est un capteur qui mesure les **forces** qui agissent sur lui : un coup, une secousse, une chute, mais aussi, en permanence, la **force de gravité** qui tire tout vers le bas. Quand on tient un téléphone droit, la gravité « appuie » sur le côté du bas ; quand on l'incline, elle appuie sur un autre côté. C'est exactement ainsi que le téléphone sait dans quel sens il est tenu.
 
@@ -55,7 +55,7 @@ L'accéléromètre est déjà soudé à l'intérieur de la STeaMi. On n'a rien �
 - **Expliquer** ce qu'est un accéléromètre, et citer trois objets du quotidien qui en contiennent un (téléphone, manette de jeu, montre connectée, voiture, drone...).
 - **Faire le lien** entre la force de gravité et l'orientation d'un objet : pourquoi un capteur immobile peut indiquer dans quel sens il est tenu.
 - **Lire** les valeurs d'accélération sur les trois axes X, Y et Z, et **interpréter** ce qu'elles disent (à plat ? sur la tranche ? à l'envers ?).
-- **Reconnaître un événement physique** (un choc, une chute libre) à partir des mesures du capteur, et comprendre pourquoi on regarde **l'ensemble** des trois axes plutôt qu'un seul.
+- **Reconnaître un événement physique** (un choc, une chute libre) à partir des mesures du capteur, et comprendre pourquoi on regarde l'ensemble des trois axes plutôt qu'un seul.
 - **Imaginer** d'autres usages du capteur : alarme antivol, détecteur de pas, manette de jeu, niveau à bulle numérique...
 
 ---
@@ -71,7 +71,7 @@ Un accéléromètre mesure les forces qui agissent sur lui, dans **trois directi
 L'unité de mesure utilisée est le **G**, qui correspond à la gravité terrestre. Une valeur de 1 G, c'est la force que tu sens en permanence quand tu es debout (le poids de ton corps). Une valeur de 0 G, c'est l'apesanteur des astronautes en orbite. Un coup brusque sur la carte peut dépasser 2 ou 3 G.
 
 :::info[Une image pour s'y retrouver]
-Imagine que la carte est un petit aquarium contenant une bille très lourde. La bille tombe toujours vers le bas. Selon la position de l'aquarium, la bille se retrouve contre l'un des six côtés. L'accéléromètre fait pareil, mais avec une masse minuscule gravée dans le silicium, et il mesure **précisément** vers quels côtés cette masse appuie. C'est de là que vient le nom de capteur **MEMS** (microsystème électromécanique).
+Imagine que la carte est un petit aquarium contenant une bille très lourde. La bille tombe toujours vers le bas. Selon la position de l'aquarium, la bille se retrouve contre l'un des six côtés. L'accéléromètre fait pareil, mais avec une masse minuscule gravée dans le silicium, et il mesure précisément vers quels côtés cette masse appuie. C'est de là que vient le nom de capteur **MEMS** (microsystème électromécanique).
 :::
 
 ### Lire l'accélération en MicroPython
@@ -89,7 +89,7 @@ print(acceleration_x, acceleration_y, acceleration_z)
 
 ### Demander directement l'orientation
 
-Plutôt que d'analyser nous-mêmes les trois valeurs, on peut demander au module `ism330dl` de le faire pour nous, avec la méthode `orientation()`. Elle renvoie un mot-clé qui décrit la position de la carte :
+La méthode `orientation()` du module `ism330dl` analyse elle-même les trois valeurs. Elle renvoie un mot-clé qui décrit la position de la carte :
 
 | Mot-clé retourné   | Que dit la carte                     |
 | ------------------ | ------------------------------------ |
@@ -137,7 +137,7 @@ La carte est à plat, écran vers le haut : `acceleration_z` vaut environ -1 G e
 
 ## Étape 2 : Programmer
 
-On va écrire un programme qui répète sans cesse la même boucle : **lire** le capteur, **afficher** ce qu'il dit sur l'écran, et **bipper** si quelqu'un secoue la carte. C'est ce qu'on appelle une **boucle de mesure** : c'est le squelette de presque tous les programmes qui interagissent avec un capteur en temps réel.
+On va écrire un programme qui répète sans cesse la même boucle : lire le capteur, afficher ce qu'il dit sur l'écran, et bipper si quelqu'un secoue la carte. C'est ce qu'on appelle une **boucle de mesure** : c'est le squelette de presque tous les programmes qui interagissent avec un capteur en temps réel.
 
 :::info[Première fois avec l'écran OLED ?]
 
@@ -242,11 +242,11 @@ Le programme se lit en trois temps :
 
 - **Préparation** : on « réveille » les trois composants qu'on va utiliser : l'écran OLED, l'accéléromètre, et la broche du buzzer. C'est l'équivalent de sortir ses crayons et ses cahiers avant un contrôle : on n'écrit pas encore, mais tout est prêt.
 - **Fonctions auxiliaires** : `bip_alerte()` et `afficher_capteur()` rassemblent des opérations qui seront utilisées plusieurs fois. Les définir une bonne fois pour toutes rend la boucle principale beaucoup plus courte et lisible (c'est le principe de l'abstraction, vu dans la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique)).
-- **Boucle principale** (`while True`) : c'est le cœur du programme. À chaque tour (environ 5 fois par seconde), on lit l'accéléromètre, on calcule l'intensité totale du mouvement, on rafraîchit l'écran, et on déclenche un bip si on dépasse le seuil. Cette boucle ne s'arrête jamais : c'est ce qui rend notre détecteur **réactif**.
+- **Boucle principale** (`while True`) : à chaque tour (environ 5 fois par seconde), on lit l'accéléromètre, on calcule l'intensité totale du mouvement, on rafraîchit l'écran, et on déclenche un bip si on dépasse le seuil. Cette boucle ne s'arrête jamais : c'est ce qui rend notre détecteur réactif.
 
 :::info[Pourquoi on additionne les trois axes au carré]
 
-Tu vois cette ligne mystérieuse dans le programme ?
+Dans le programme, l'intensité se calcule avec cette ligne :
 
 ```python
 intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z ** 2)
@@ -254,7 +254,7 @@ intensite = math.sqrt(acceleration_x ** 2 + acceleration_y ** 2 + acceleration_z
 
 C'est le **théorème de Pythagore en 3D**. En 2D au collège, on apprend que la longueur de la diagonale d'un rectangle est `sqrt(largeur² + hauteur²)`. En 3D, on rajoute simplement la troisième dimension : `sqrt(largeur² + hauteur² + profondeur²)`. Cette formule donne **l'intensité totale** d'un mouvement, quel que soit le sens dans lequel on l'a fait.
 
-Pourquoi c'est utile ? Imagine que la carte est posée à plat (donc `acceleration_z` vaut -1 G, la gravité tire vers le bas). Si on lui tape dessus sur le côté, c'est `acceleration_x` qui réagit. Si on la cogne par devant, c'est `acceleration_y`. Si on regardait un seul axe à la fois, on ne détecterait que les chocs venus d'une certaine direction. En additionnant les trois axes au carré, on construit un capteur de choc **omnidirectionnel** : il réagit à tout coup, peu importe d'où il vient.
+Imagine que la carte est posée à plat (donc `acceleration_z` vaut -1 G, la gravité tire vers le bas). Si on lui tape dessus sur le côté, c'est `acceleration_x` qui réagit. Si on la cogne par devant, c'est `acceleration_y`. Si on regardait un seul axe à la fois, on ne détecterait que les chocs venus d'une certaine direction. En additionnant les trois axes au carré, on construit un capteur de choc **omnidirectionnel** : il réagit à tout coup, peu importe d'où il vient.
 
 Au repos, cette `intensite` vaut toujours environ 1 G (juste la gravité). Quand quelqu'un secoue la carte, elle dépasse rapidement 1,5 G ou 2 G. C'est sur ce dépassement qu'on déclenche l'alarme.
 
@@ -283,11 +283,11 @@ while True:
     time.sleep_ms(100)
 ```
 
-Noter l'intensité pour quatre actions : carte immobile (le « bruit de fond », environ 1 G), petit tapotement, secousse franche, choc fort. Le bon seuil se situe **juste au-dessus** du tapotement, et **en-dessous** de la secousse, selon ce qu'on veut déclencher comme alerte. C'est ce qu'on appelle **calibrer** un capteur : ajuster ses paramètres avec des mesures réelles plutôt que des valeurs prises au hasard.
+Noter l'intensité pour quatre actions : carte immobile (le « bruit de fond », environ 1 G), petit tapotement, secousse franche, choc fort. Le bon seuil se situe juste au-dessus du tapotement, et en-dessous de la secousse, selon ce qu'on veut déclencher comme alerte. C'est ce qu'on appelle **calibrer** un capteur : ajuster ses paramètres avec des mesures réelles plutôt que des valeurs prises au hasard.
 
 ### 2. Détecter la chute libre
 
-Voici une expérience contre-intuitive : un objet **en chute libre** ne ressent plus la gravité. Les astronautes dans la Station spatiale internationale tombent en permanence (autour de la Terre), c'est pour ça qu'ils flottent. Plus simplement : lorsqu'on lâche un téléphone, pendant le bref instant où il chute, son accéléromètre indique presque 0 G sur tous les axes.
+Un objet **en chute libre** ne ressent plus la gravité. Les astronautes dans la Station spatiale internationale tombent en permanence (autour de la Terre), c'est pour ça qu'ils flottent. Plus simplement : lorsqu'on lâche un téléphone, pendant le bref instant où il chute, son accéléromètre indique presque 0 G sur tous les axes.
 
 On peut s'en servir pour détecter qu'on est en train de **lâcher la carte** :
 
@@ -343,20 +343,20 @@ while True:
 
 - **[Accéléromètre (Wikipédia)](https://fr.wikipedia.org/wiki/Acc%C3%A9l%C3%A9rom%C3%A8tre)** : le principe physique des microcapteurs MEMS (une masse minuscule suspendue sur ressorts gravée dans le silicium), et pourquoi ils sont devenus omniprésents : téléphones, manettes, voitures, drones, montres.
 - **[Système microélectromécanique (Wikipédia)](https://fr.wikipedia.org/wiki/Microsyst%C3%A8me_%C3%A9lectrom%C3%A9canique)** : la famille de capteurs miniaturisés à laquelle appartient l'ISM330DL. Comprendre comment on fabrique des pièces mécaniques mobiles de quelques microns directement sur une puce de silicium.
-- **[Norme d'un vecteur (Wikipédia)](https://fr.wikipedia.org/wiki/Norme_(math%C3%A9matiques))** : la quantité `sqrt(x² + y² + z²)` qu'on calcule dans le code est la **norme euclidienne** du vecteur accélération, une notion centrale en physique et en mathématiques (longueur d'un trajet, distance entre deux points).
+- **[Norme d'un vecteur (Wikipédia)](https://fr.wikipedia.org/wiki/Norme_(math%C3%A9matiques))** : la quantité `sqrt(x² + y² + z²)` qu'on calcule dans le code est la **norme euclidienne** du vecteur accélération, qui sert aussi en physique et en mathématiques, par exemple à calculer la longueur d'un trajet ou la distance entre deux points.
 - **[Centrale inertielle (Wikipédia)](https://fr.wikipedia.org/wiki/Centrale_%C3%A0_inertie)** : combiner un accéléromètre et un gyroscope dans le même boîtier (ce que fait notre ISM330DL) donne une **IMU** (_inertial measurement unit_), capable de suivre les déplacements et rotations d'un objet sans repère extérieur. C'est ainsi qu'un sous-marin ou un avion connaissent leur position même sans GPS.
-- **[Sismographe (Wikipédia)](https://fr.wikipedia.org/wiki/Sismographe)** : le grand frère « extrêmement sensible » de l'accéléromètre. Au lieu de détecter des chocs sur une carte, il détecte les vibrations de la Terre, parfois des séismes à des milliers de kilomètres. Même principe physique, sensibilité multipliée par un milliard.
+- **[Sismographe (Wikipédia)](https://fr.wikipedia.org/wiki/Sismographe)** : le grand frère « extrêmement sensible » de l'accéléromètre. Au lieu de détecter des chocs sur une carte, il détecte les vibrations de la Terre, parfois des séismes à des milliers de kilomètres. Le principe physique est le même, avec une sensibilité multipliée par un milliard.
 - **[Apesanteur (Wikipédia)](https://fr.wikipedia.org/wiki/Apesanteur)** : pourquoi les astronautes flottent même si la gravité agit toujours sur eux. Le lien direct avec la détection de chute libre dans notre code : un capteur en orbite indique presque 0 G sur ses trois axes.
 
 ### Pour s'inspirer
 
-- **[Reflex tester (Hackster)](https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e)** : un détecteur de chute libre fait maison qui mesure le temps de vol d'un objet pour calculer la hauteur de chute. La physique de Newton réinventée avec un microcontrôleur à 5 €.
-- **[Wii Remote](https://fr.wikipedia.org/wiki/Wii_Remote)** : la manette qui a popularisé l'accéléromètre auprès du grand public en 2006. La même puce que sur la STeaMi (en plus simple) a transformé la façon dont on joue aux jeux vidéo.
-- **[Boîte à musique gestuelle](https://learn.adafruit.com/circuit-playground-musical-gestures/overview)** : un projet Adafruit qui joue une note différente selon la façon dont on incline la carte. Cousin direct de notre fiche, avec un angle ludique et musical.
-- **[Compter ses pas (Adafruit)](https://learn.adafruit.com/circuit-playground-pedometer/overview)** : algorithme de podomètre qui détecte le mouvement caractéristique d'un pas dans le bruit ambiant. Toutes les montres connectées font ça, et c'est la même puce que la nôtre.
+- **[Reflex tester (Hackster)](https://www.hackster.io/RVLAD/free-fall-detection-using-3-axis-accelerometer-06383e)** : un détecteur de chute libre fait maison qui mesure le temps de vol d'un objet pour calculer la hauteur de chute. Il applique la physique de Newton avec un microcontrôleur à 5 €.
+- **[Wii Remote](https://fr.wikipedia.org/wiki/Wii_Remote)** : la manette qui a popularisé l'accéléromètre auprès du grand public en 2006. Sa puce est la même que sur la STeaMi, en plus simple.
+- **[Boîte à musique gestuelle](https://learn.adafruit.com/circuit-playground-musical-gestures/overview)** : un projet Adafruit qui joue une note différente selon la façon dont on incline la carte. Il est proche de cette fiche, avec un angle ludique et musical.
+- **[Compter ses pas (Adafruit)](https://learn.adafruit.com/circuit-playground-pedometer/overview)** : algorithme de podomètre qui détecte le mouvement caractéristique d'un pas dans le bruit ambiant. Les montres connectées comptent les pas de la même façon, avec la même puce que la STeaMi.
 - **[Dé numérique](https://makezine.com/projects/electronic-dice-with-arduino/)** : on secoue la carte, et quand on s'arrête, l'écran affiche un nombre entre 1 et 6. Utilise le pic d'accélération de la secousse pour déclencher un tirage aléatoire au moment où la secousse retombe.
-- **[Suivi de tête VR (Coding Train)](https://thecodingtrain.com/challenges/74-clock-with-millis)** : les casques de réalité virtuelle utilisent une IMU pour suivre l'orientation de la tête en temps réel. Même principe que notre `orientation()`, à 1000 mesures par seconde près.
-- **[Robot équilibriste / Segway](https://en.wikipedia.org/wiki/Self-balancing_unicycle)** : tenir un véhicule en équilibre sur deux roues (ou une seule) demande de mesurer en permanence l'inclinaison et de corriger en faisant tourner les roues. C'est l'application la plus impressionnante de la mesure d'inclinaison.
+- **[Suivi de tête VR (Coding Train)](https://thecodingtrain.com/challenges/74-clock-with-millis)** : les casques de réalité virtuelle utilisent une IMU pour suivre l'orientation de la tête en temps réel. Le principe est celui de `orientation()`, avec 1000 mesures par seconde.
+- **[Robot équilibriste / Segway](https://en.wikipedia.org/wiki/Self-balancing_unicycle)** : tenir un véhicule en équilibre sur deux roues (ou une seule) demande de mesurer en permanence l'inclinaison et de corriger en faisant tourner les roues.
 - **[Anti-vol DIY pour sac](https://www.instructables.com/Easy-DIY-Bag-Anti-theft-Alarm/)** : le projet « pour de vrai » de la fiche : un capteur qui déclenche une alarme si on bouge le sac. À adapter avec la STeaMi en remplaçant le module Arduino et en utilisant notre détection de choc.
 
 ---

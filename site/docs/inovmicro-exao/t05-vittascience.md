@@ -43,9 +43,9 @@ sidebar_position: 5
 
 Vous avez peut-être déjà bricolé un projet sur [Scratch](https://scratch.mit.edu/), assemblé des blocs dans l'application [code.org](https://code.org/), ou même programmé en blocs sur une calculatrice. C'est la même idée ici : un **éditeur de programmation** qui propose deux modes côte à côte, **blocs** (les briques à assembler à la souris) et **MicroPython** (le code texte derrière), pour piloter la STeaMi sans avoir besoin d'installer quoi que ce soit de lourd sur l'ordinateur.
 
-[Vittascience](https://vittascience.com/) est une plateforme française gratuite, utilisable directement dans le navigateur, ou installable en application bureau pour fonctionner hors-ligne. C'est l'outil idéal pour les classes équipées de postes verrouillés où l'on ne peut pas installer Thonny ou VS Code, ou pour des élèves qui débutent et préfèrent les blocs avant de basculer en code texte.
+[Vittascience](https://vittascience.com/) est une plateforme française gratuite, utilisable directement dans le navigateur, ou installable en application bureau pour fonctionner hors-ligne. Elle convient aux classes équipées de postes verrouillés où l'on ne peut pas installer Thonny ou VS Code, et aux élèves qui débutent et préfèrent les blocs avant de basculer en code texte.
 
-Cette fiche couvre l'installation de Vittascience (web ou bureau), la mise en place de la communication avec la STeaMi, et un premier programme **LED RGB + boutons A/B** écrit côte à côte en blocs et en MicroPython, pour faire le pont entre les deux représentations.
+Cette fiche couvre l'installation de Vittascience (web ou bureau), sa configuration pour communiquer avec la STeaMi, et un premier programme **LED RGB + boutons A/B** écrit côte à côte en blocs et en MicroPython, pour faire le pont entre les deux représentations.
 
 :::info[Composants intégrés, rien à câbler]
 La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés à la STeaMi. Aucun câblage externe à faire.
@@ -68,7 +68,7 @@ La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés 
 
 ## Étape 1 : Construire
 
-Ici, "construire" veut dire mettre en place l'environnement logiciel : installer Vittascience, installer MicroPython sur la carte, et configurer la communication entre les deux.
+Ici, « construire » veut dire mettre en place l'environnement logiciel : installer Vittascience, installer MicroPython sur la carte, et configurer la communication entre les deux.
 
 ### Installer Vittascience
 
@@ -94,13 +94,13 @@ Pour utiliser l'éditeur de code Vittascience, vous pouvez soit utiliser [Vittas
 
 Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà installé. Si cette étape d'installation est déjà faite : passez directement à la section suivante.
 
-Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comme une **clé USB** : installer MicroPython revient à un simple glisser-déposer.
+Grâce à un mode « clé USB » préinstallé en usine, la STeaMi se présente comme une clé USB : installer MicroPython revient à un simple glisser-déposer.
 
 1. **Brancher** la STeaMi en USB (câble de données, pas un câble de charge seul).
 2. La carte apparaît comme un disque amovible nommé `STEAMI`.
 3. **Télécharger** le fichier `steami-micropython-firmware-vX.Y.Z.hex` depuis les [releases](https://github.com/steamicc/micropython-steami-lib/releases). Attention : ne pas confondre avec `steami-daplink-firmware-...hex`, qui est un autre fichier sans rapport avec MicroPython.
 4. **Glisser-déposer** le `.hex` sur le disque `STEAMI`.
-5. La LED de statut clignote pendant l'écriture (~5 à 15 s), puis la carte **redémarre** avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
+5. La LED de statut clignote pendant l'écriture (~5 à 15 s), puis la carte redémarre avec MicroPython. **Ne pas débrancher la carte pendant le clignotement** : attendre la fin du redémarrage.
 
 :::info[Câble incompatible]
 
@@ -121,7 +121,7 @@ Si le disque `STEAMI` n'apparaît pas, le premier réflexe est de changer de câ
 
 ### Configurer Vittascience pour la STeaMi
 
-Dans l'éditeur web vous avez la possibilité de programmer en blocs ou en MicroPython. Dans cette fiche les deux versions vont vous être montrées. Vous pouvez passer d'un style de programmation à l'autre à tout moment en cliquant sur la fenêtre de votre choix.
+L'éditeur web propose de programmer en blocs ou en MicroPython, et cette fiche montre les deux versions. Vous pouvez passer d'un style de programmation à l'autre à tout moment en cliquant sur la fenêtre de votre choix.
 
 ---
 
@@ -222,7 +222,7 @@ Une fois le premier programme fonctionnel, trois pistes pour aller plus loin ave
 
 ### Tester du code en direct avec le REPL
 
-Le **REPL** (`>>>` dans le panneau console) permet de tester du code **directement sur la carte**, sans créer de fichier. Pratique pour la découverte et le débogage.
+Le **REPL** (`>>>` dans le panneau console) permet de tester du code directement sur la carte, sans créer de fichier. Pratique pour la découverte et le débogage.
 
 Dans l'exemple ci-dessous, les `>>>` représentent l'invite, c'est ce que Vittascience affiche pour signaler qu'il attend une commande. Ne recopiez pas ces chevrons : tapez uniquement la commande qui suit l'invite.
 
@@ -256,7 +256,7 @@ Raccourcis utiles dans le REPL :
 
 ### Déboguer pas-à-pas
 
-Vittascience ne propose pas de débogueur pas-à-pas intégré. Pour observer l'état de votre programme, la méthode recommandée est d'utiliser `print()` dans le code et de lire la sortie dans le REPL.
+Vittascience ne propose pas de débogueur pas-à-pas intégré. Pour observer l'état de votre programme, la méthode recommandée est d'ajouter des `print()` dans le code et de lire la sortie dans le REPL. Pour un programme qui interagit beaucoup avec le matériel, c'est aussi la méthode la plus pratique pour suivre l'exécution.
 
 ```python
 print("valeur du bouton A :", bouton_a.value())
@@ -265,7 +265,7 @@ print("valeur du bouton A :", bouton_a.value())
 Le résultat s'affiche directement dans la console en bas de l'interface.
 
 :::info[Compatibilité navigateur du REPL web]
-Le REPL de Vittascience web utilise la **Web Serial API**, disponible uniquement sur **Chrome** et **Edge**. Firefox et Safari ne sont pas supportés. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste la méthode la plus pratique pour suivre l'exécution. La version bureau de Vittascience contourne cette limite (elle utilise le port série natif du système).
+Le REPL de Vittascience web utilise la **Web Serial API**, disponible uniquement sur **Chrome** et **Edge**. Firefox et Safari ne la prennent pas en charge. La version bureau de Vittascience contourne cette limite (elle utilise le port série natif du système).
 :::
 
 ### Dépanner les erreurs courantes
@@ -283,13 +283,13 @@ La plupart des problèmes rencontrés ne sont pas spécifiques à Vittascience m
 
 ### Pour comprendre
 
-- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par **Damien George** via une campagne Kickstarter, MicroPython est une implémentation de Python pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire.
+- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une implémentation de Python pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire.
 - **[Programmation visuelle par blocs (Wikipédia anglais)](https://en.wikipedia.org/wiki/Visual_programming_language)** : Scratch, Blockly, Snap!, MakeCode... la programmation par blocs s'est imposée dans le monde scolaire depuis les années 2000. Comprendre comment ces blocs sont traduits en code texte (et inversement, comme dans Vittascience) éclaire la différence entre représentation et calcul. (La page n'existe qu'en anglais à ce jour.)
 - **[Blockly, le moteur derrière les éditeurs blocs](https://developers.google.com/blockly)** : bibliothèque open source de Google sur laquelle reposent la plupart des éditeurs blocs modernes, dont MakeCode, Scratch (en partie) et Vittascience.
 
 ### Pour s'inspirer
 
-- **[MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage avant de l'enseigner.
+- **[MOOC FUN : Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit, à suivre en complément pour s'approprier le langage avant de l'enseigner.
 - **[Vittascience pour la classe](https://vittascience.com/)** : la plateforme propose une partie gestion de classe, des kits pédagogiques (capteurs, robots) et des tutoriels. À explorer pour bâtir une séquence complète au-delà de la STeaMi.
 
 ### Pour approfondir

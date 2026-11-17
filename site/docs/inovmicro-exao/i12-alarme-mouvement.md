@@ -42,12 +42,12 @@ sidebar_position: 12
 
 Quand un magasin se fait cambrioler la nuit, quand une porte de garage s'ouvre toute seule à l'approche d'une voiture, quand le détecteur d'un escalier roulant le déclenche dès qu'on pose le pied dessus : à chaque fois, **un capteur de mouvement** a su voir « quelque chose bouge » et déclencher une réaction.
 
-La STeaMi embarque deux capteurs qui permettent de détecter le mouvement de deux façons complémentaires :
+La STeaMi embarque deux capteurs qui détectent le mouvement de deux façons complémentaires :
 
-- **L'accéléromètre** (ISM330DL) sent quand on bouge **la carte elle-même** : si quelqu'un la prend, la déplace, la secoue.
-- **Le capteur de distance à temps de vol** (VL53L1X) sent quand **quelque chose bouge devant elle** : une main, un objet qui passe.
+- **L'accéléromètre** (ISM330DL) sent quand on bouge la carte elle-même : si quelqu'un la prend, la déplace, la secoue.
+- **Le capteur de distance à temps de vol** (VL53L1X) sent quand quelque chose bouge devant elle : une main, un objet qui passe.
 
-Dans cette activité, on combine les deux pour fabriquer une **alarme à double protection** : la STeaMi sonne soit si on la déplace, soit si une main s'approche d'elle. On utilise le bouton Menu pour armer ou désarmer l'alarme, comme une vraie alarme de maison.
+Dans cette activité, on combine les deux pour fabriquer une alarme à double protection : la STeaMi sonne soit si on la déplace, soit si une main s'approche d'elle. On utilise le bouton Menu pour armer ou désarmer l'alarme, comme une vraie alarme de maison.
 
 :::info[Capteurs intégrés, rien à câbler]
 L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. On n'a rien à brancher : il suffit de les appeler depuis le code. Voir les fiches [Fabriquer un thérémine](/ressources/inovmicro-exao/i08-theremine) (capteur de distance) et [Mesurer l'inclinaison avec l'accéléromètre](/ressources/inovmicro-exao/i09-inclinaison-accelerometre) pour découvrir chaque capteur en détail.
@@ -61,7 +61,7 @@ L'accéléromètre et le capteur de distance sont déjà soudés à la STeaMi. O
 
 - **Expliquer** comment fonctionne une alarme à détection de mouvement et citer des objets du quotidien qui en contiennent (alarme antivol, escalier roulant, ouverture automatique de porte, robot aspirateur...).
 - **Combiner deux capteurs** complémentaires (accéléromètre + capteur de distance) pour détecter un mouvement de deux façons différentes.
-- **Détecter une variation** d'une mesure plutôt qu'une valeur absolue : ce qui compte, ce n'est pas la position du capteur, mais le changement par rapport à l'instant précédent.
+- **Détecter une variation** d'une mesure (son changement par rapport à l'instant précédent) plutôt qu'une valeur absolue comme la position du capteur.
 - **Utiliser un bouton comme interrupteur logique** (état actif/inactif) avec une variable booléenne `True`/`False`.
 - **Imaginer** d'autres applications : alarme antivol pour sac, détecteur d'intrusion dans une chambre, jouet qui se réveille quand on approche...
 
@@ -111,7 +111,7 @@ Branchez la STeaMi à l'ordinateur via le câble USB. Si votre IDE MicroPython e
 
 ## Étape 2 : Programmer
 
-On va écrire un programme qui répète sans cesse la même boucle : **lire** les deux capteurs, **comparer** leurs mesures à la précédente pour détecter un changement, et **sonner l'alarme** si l'alarme est armée et qu'un seuil est dépassé. Le bouton Menu sert d'interrupteur pour armer ou désarmer.
+On va écrire un programme qui répète sans cesse la même boucle : lire les deux capteurs, comparer leurs mesures à la précédente pour détecter un changement, et sonner l'alarme si l'alarme est armée et qu'un seuil est dépassé. Le bouton Menu sert d'interrupteur pour armer ou désarmer.
 
 ### Composants utilisés
 
@@ -219,7 +219,7 @@ Le programme se lit en trois temps :
 
 Pour l'accéléromètre, on ne s'intéresse pas à l'accélération à un instant donné (la gravité tire toujours vers le bas, donc il y a toujours environ 1 G présent). On s'intéresse au **changement** par rapport à l'instant précédent : si la carte est immobile, l'accélération reste stable, la variation est proche de 0. Si on bouge la carte, les axes changent rapidement, la variation grimpe.
 
-C'est le même principe qu'un sismographe : il ne mesure pas la position du sol, il mesure les **mouvements** du sol par rapport à un état de référence. On parle de **détection de variation** : c'est une technique fondamentale pour reconnaître un événement dans un flux de mesures continues.
+C'est le même principe qu'un sismographe : il ne mesure pas la position du sol, il mesure les **mouvements** du sol par rapport à un état de référence. On parle de **détection de variation**, une technique qui sert à reconnaître un événement dans un flux de mesures continues.
 
 :::
 
@@ -227,7 +227,7 @@ C'est le même principe qu'un sismographe : il ne mesure pas la position du sol,
 
 Quand on appuie sur le bouton Menu, le contact électrique « rebondit » : pendant quelques millisecondes, le signal alterne plusieurs fois entre ouvert et fermé avant de se stabiliser. Sans précaution, notre programme verrait plusieurs pressions au lieu d'une seule, et l'alarme basculerait plusieurs fois.
 
-Le `time.sleep_ms(300)` après chaque détection de pression est un **anti-rebond logiciel** : on ignore les changements pendant 300 ms, le temps que le contact se stabilise. Toutes les vraies alarmes (de maison, de voiture, d'ascenseur) intègrent ce genre de filtrage.
+Le `time.sleep_ms(300)` après chaque détection de pression est un **anti-rebond logiciel** : on ignore les changements pendant 300 ms, le temps que le contact se stabilise. Toutes les vraies alarmes, comme celles des maisons, des voitures ou des ascenseurs, intègrent ce genre de filtrage.
 
 :::
 

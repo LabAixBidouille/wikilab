@@ -42,7 +42,7 @@ Programmer une carte microcontrôleur peut sembler intimidant : plusieurs logici
 
 Cette fiche met en place tout l'environnement de travail : installation de Thonny, installation de MicroPython sur la carte, configuration de la communication entre Thonny et la carte, et écriture d'un premier programme qui pilote la **LED RGB** de la STeaMi avec ses **boutons A et B**. À privilégier en salle informatique avec postes fixes ; pour des postes verrouillés ou en mobilité, préférer **Vittascience** (en ligne).
 
-Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (Mu, VS Code, Vittascience, mpremote, etc.) permet de programmer la STeaMi de la même façon. Cette fiche s'appuie sur Thonny pour fixer les idées, mais la démarche reste valable sur d'autres outils.
+Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (Mu, VS Code, Vittascience, mpremote, etc.) permet de programmer la STeaMi de la même façon.
 
 ---
 
@@ -57,7 +57,7 @@ Thonny n'est qu'un choix parmi d'autres : tout éditeur compatible MicroPython (
 
 ## Étape 1 : Construire
 
-Ici, "construire" veut dire mettre en place l'environnement logiciel : installer Thonny, installer MicroPython sur la carte, et configurer la communication entre les deux.
+Ici, « construire » veut dire mettre en place l'environnement logiciel : installer Thonny, installer MicroPython sur la carte, et configurer la communication entre les deux.
 
 ### Installer Thonny
 
@@ -94,7 +94,7 @@ Une STeaMi sortie d'usine est en général livrée avec MicroPython déjà insta
 
 :::
 
-Grâce à un mode "clé USB" préinstallé en usine, la STeaMi se présente comme une **clé USB** : installer MicroPython revient à un simple glisser-déposer.
+Grâce à un mode « clé USB » préinstallé en usine, la STeaMi se présente comme une **clé USB** : installer MicroPython revient à un simple glisser-déposer.
 
 1. **Brancher** la STeaMi en USB (câble de données, pas un câble de charge seul).
 2. La carte apparaît comme un disque amovible nommé `STEAMI`.
@@ -349,7 +349,7 @@ Thonny propose un débogueur intégré, particulièrement adapté à l'enseignem
 4. Observer les variables dans le panneau **Variables**.
 :::info[Limite à connaître]
 
-Le debugger Thonny est plus efficace en local sur le PC qu'en cible embarquée. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste souvent plus pratique.
+Le débogueur de Thonny est plus efficace quand le code s'exécute sur le PC que sur la carte. Pour des programmes qui interagissent beaucoup avec le matériel, le `print()` dans le REPL reste souvent plus pratique.
 
 :::
 
@@ -381,8 +381,8 @@ La plupart des problèmes rencontrés en classe ne sont pas spécifiques à Thon
 
 ### Pour s'inspirer
 
-- **[MOOC FUN, Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Idéal en complément pour s'approprier le langage et son écosystème, avant de l'enseigner.
-- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, un interpréteur compact capable de tourner sur des cartes avec très peu de mémoire, qui a démocratisé Python sur microcontrôleur.
+- **[MOOC FUN, Programmer un objet avec MicroPython](https://www.fun-mooc.fr/fr/cours/programmer-un-objet-avec-micropython/)** : un cours en ligne gratuit (CC-BY-SA) qui couvre les bases de MicroPython sur Pyboard / ESP32 / micro:bit. Un complément pour s'approprier le langage et son écosystème avant de l'enseigner.
+- **[L'histoire de MicroPython](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, un interpréteur compact capable de tourner sur des cartes avec très peu de mémoire, qui a répandu l'usage de Python sur microcontrôleur.
 - **[Thonny, pensé pour l'enseignement](https://thonny.org/)** : conçu par Aivar Annamaa (Université de Tartu) pour rendre Python accessible aux débutant·es. Visualisation pas-à-pas des variables, débogueur didactique, installation sans dépendance.
 
 ### Pour approfondir

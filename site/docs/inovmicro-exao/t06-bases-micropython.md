@@ -37,9 +37,9 @@ sidebar_position: 6
 
 Vous avez peut-être déjà entendu parler du **langage Python** : c'est l'un des langages de programmation les plus utilisés au monde, qu'on retrouve dans le développement de sites web (Instagram, Spotify), en sciences (analyse de données, intelligence artificielle), à la NASA pour des simulations, ou encore dans les outils de la station spatiale internationale. Si vous avez vu un personnage de série faire défiler du code, il y a une chance sur trois que ce soit du Python.
 
-**MicroPython** est une variante de Python adaptée aux **microcontrôleurs**, ces petits ordinateurs intégrés à la STeaMi et à beaucoup d'objets connectés. Le langage de tous les jours, mais en version compacte, capable de tourner avec très peu de mémoire et de piloter directement le matériel (LED, capteurs, écrans...).
+**MicroPython** est une variante de Python adaptée aux **microcontrôleurs**, ces petits ordinateurs intégrés à la STeaMi et à beaucoup d'objets connectés. C'est le langage de tous les jours, mais en version compacte, capable de tourner avec très peu de mémoire et de piloter directement le matériel (LED, capteurs, écrans...).
 
-Cette fiche pose les briques du langage : **variables, conditions, boucles, fonctions**. Elle démarre par une **exploration interactive** de l'environnement MicroPython déjà installé sur la STeaMi, à l'aide du **REPL**, avant d'introduire chaque notion sur un exemple. Le tout se conclut par un mini jeu de pile ou face joué avec la LED RGB et les boutons A/B de la carte.
+Cette fiche pose les briques du langage : **variables, conditions, boucles, fonctions**. Elle démarre par une exploration interactive de l'environnement MicroPython déjà installé sur la STeaMi, à l'aide du **REPL**, avant d'introduire chaque notion sur un exemple. Le tout se conclut par un mini jeu de pile ou face joué avec la LED RGB et les boutons A/B de la carte.
 
 :::info[Composants intégrés, rien à câbler]
 Le programme final pilote la LED RGB et lit les boutons A et B de la STeaMi. Ces composants sont déjà soudés à la carte : aucun câblage externe à faire.
@@ -66,14 +66,14 @@ Pour cette fiche, « construire » veut dire poser les briques du langage. On co
 
 ### Explorer la STeaMi via le REPL
 
-Avant de plonger dans la syntaxe, regardons **ce qui tourne déjà** sur la STeaMi quand on la branche. La réponse passe par le **REPL** (de l'anglais _Read-Eval-Print Loop_, « boucle Lecture-Évaluation-Affichage »), une console interactive qui s'exécute directement sur la carte.
+Pour voir ce qui tourne déjà sur la STeaMi quand on la branche, on passe par le **REPL** (de l'anglais _Read-Eval-Print Loop_, « boucle Lecture-Évaluation-Affichage »), une console interactive qui s'exécute directement sur la carte.
 
-Le REPL est l'équivalent embarqué des consoles que vous connaissez peut-être : le terminal de macOS / Linux, l'invite de commandes de Windows. La différence : ici, **chaque ligne tapée est exécutée par le microcontrôleur lui-même**, pas par l'ordinateur. La carte devient un Python miniature, prête à répondre.
+Le REPL est l'équivalent embarqué des consoles que vous connaissez peut-être : le terminal de macOS / Linux, l'invite de commandes de Windows. La différence : ici, chaque ligne tapée est exécutée par le microcontrôleur lui-même, pas par l'ordinateur.
 
 Brancher la STeaMi en USB, lancer la console MicroPython depuis l'IDE choisi, et l'invite `>>>` apparaît : la carte attend une instruction.
 
 :::info[`>>>` est l'invite du REPL, pas du code à recopier]
-Dans les exemples ci-dessous, les chevrons `>>>` sont **affichés par MicroPython** pour signaler qu'il attend une commande. Ne les tapez pas, écrivez seulement ce qui suit.
+Dans les exemples ci-dessous, les chevrons `>>>` sont affichés par MicroPython pour signaler qu'il attend une commande. Ne les tapez pas, écrivez seulement ce qui suit.
 :::
 
 #### Inspecter ce qui est déjà chargé
@@ -85,7 +85,7 @@ Trois commandes complémentaires permettent d'explorer ce qui est disponible :
 ['__name__', 'machine']
 ```
 
-`dir()` sans argument liste ce qui est **déjà chargé** en mémoire au démarrage : peu de choses. La carte n'a pas encore importé quoi que ce soit, mais le module `machine` est rendu disponible d'office.
+`dir()` sans argument liste ce qui est déjà chargé en mémoire au démarrage : peu de choses. La carte n'a pas encore importé quoi que ce soit, mais le module `machine` est rendu disponible d'office.
 
 ```python
 >>> help('modules')
@@ -121,7 +121,7 @@ bme280/exceptions ism330dl/exceptions                 ssd1327/const
 Plus any modules on the filesystem
 ```
 
-`help('modules')` liste tout ce qui est **disponible à l'import**. On y retrouve les classiques Python (`time`, `random`, `os`, `json`, `math`...) mais aussi les **drivers spécifiques à la STeaMi** (`steami_screen` pour l'écran OLED, `ism330dl` pour l'accéléromètre, `hts221` pour la température et l'humidité, `apds9960` pour la lumière, `vl53l1x` pour la distance, `lis2mdl` pour le magnétomètre, `mcp23009e` pour les boutons directionnels). Ces drivers ne sont pas magiques, ce sont des modules Python comme les autres, simplement déjà compilés dans MicroPython.
+`help('modules')` liste tout ce qui est disponible à l'import. On y retrouve les classiques Python (`time`, `random`, `os`, `json`, `math`...) mais aussi les **drivers spécifiques à la STeaMi** (`steami_screen` pour l'écran OLED, `ism330dl` pour l'accéléromètre, `hts221` pour la température et l'humidité, `apds9960` pour la lumière, `vl53l1x` pour la distance, `lis2mdl` pour le magnétomètre, `mcp23009e` pour les boutons directionnels). Ces drivers sont des modules Python comme les autres, simplement déjà compilés dans MicroPython.
 
 Une fois un module choisi, `dir(module)` zoome sur son contenu :
 
@@ -181,7 +181,7 @@ Tout ce qui suit dans cette fiche peut être testé d'abord ligne par ligne dans
 | `Tab`      | Autocomplétion sur les noms disponibles                            |
 
 :::info[Le REPL et les fichiers, deux modes complémentaires]
-Le REPL est parfait pour **explorer**, tester une idée, valider une formule à la volée. Les **fichiers** (typiquement `main.py`) sont nécessaires dès qu'on veut un programme **persistant** qui se relance au démarrage de la carte, sans connexion à un ordinateur. La suite de cette fiche bascule progressivement du REPL vers les fichiers.
+Le REPL sert à explorer la carte et à tester une idée ou une formule à la volée. Les fichiers (typiquement `main.py`) sont nécessaires dès qu'on veut un programme persistant qui se relance au démarrage de la carte, sans connexion à un ordinateur. La suite de cette fiche bascule progressivement du REPL vers les fichiers.
 :::
 
 ### Les variables
@@ -215,11 +215,11 @@ Bonjour Nathan, vous avez 15 ans.
 Avec la TVA, le prix devient 4.2 €.
 ```
 
-:::info[Typage dynamique : un atout à manier avec prudence]
+:::info[Typage dynamique : garder le même type]
 En MicroPython, une variable peut **changer de type** en cours de programme (`age = 15` puis `age = "quinze"` est accepté). C'est ce qu'on appelle le **typage dynamique** : pratique pour bricoler vite, dangereux pour la lisibilité. Convention : **garder le même type tout au long de la vie d'une variable**. Si vous avez besoin d'autre chose, créez une nouvelle variable au nom explicite.
 :::
 
-Quand on a besoin de **changer volontairement** le type d'une valeur (par exemple lire un nombre saisi par l'utilisateur, qui arrive toujours sous forme de chaîne de caractères), Python propose des fonctions de **conversion** :
+Quand on a besoin de changer volontairement le type d'une valeur (par exemple lire un nombre saisi par l'utilisateur, qui arrive toujours sous forme de chaîne de caractères), Python propose des fonctions de **conversion** :
 
 ```python
 >>> int("15")           # str -> int
@@ -274,7 +274,7 @@ Quelques pièges classiques :
 
 ### Les listes
 
-Une **liste** regroupe plusieurs valeurs dans une même variable, **dans un ordre défini**. C'est la structure de données la plus utilisée en Python, et celle qu'on retrouve dans le programme de l'Étape 2 (`['rouge', 'bleu']`).
+Une **liste** regroupe plusieurs valeurs dans une même variable, dans un ordre défini. C'est la structure de données la plus utilisée en Python, et celle qu'on retrouve dans le programme de l'Étape 2 (`['rouge', 'bleu']`).
 
 ```python
 >>> couleurs = ['rouge', 'bleu', 'vert']
@@ -293,7 +293,7 @@ Une **liste** regroupe plusieurs valeurs dans une même variable, **dans un ordr
 True
 ```
 
-Une liste peut contenir n'importe quel type de valeur, voire mélanger des types (`[1, "deux", 3.0, True]`), même si en pratique on garde des éléments de **même nature**.
+Une liste peut contenir n'importe quel type de valeur, voire mélanger des types (`[1, "deux", 3.0, True]`), même si en pratique on garde des éléments de même nature.
 
 On parcourt une liste avec une boucle `for`, sans avoir besoin de gérer un index à la main :
 
@@ -333,7 +333,7 @@ else:
     print("Insuffisant")
 ```
 
-L'**indentation** (les espaces en début de ligne) n'est pas décorative en Python : c'est elle qui dit ce qui appartient au bloc `if`/`elif`/`else`. Convention : 4 espaces (la plupart des éditeurs le font automatiquement quand vous appuyez sur `Tab`).
+En Python, c'est l'**indentation** (les espaces en début de ligne) qui dit ce qui appartient au bloc `if`/`elif`/`else`. Convention : 4 espaces (la plupart des éditeurs le font automatiquement quand vous appuyez sur `Tab`).
 
 ### Les boucles
 
@@ -360,7 +360,7 @@ Une boucle `while` mal écrite peut tourner indéfiniment ; `Ctrl+C` dans le REP
 
 ### Les fonctions
 
-Une **fonction** est un bloc d'instructions auquel on donne un nom, pour pouvoir le **réutiliser** ailleurs dans le programme. C'est l'outil principal pour éviter de répéter du code et garder un programme lisible.
+Une **fonction** est un bloc d'instructions auquel on donne un nom, pour pouvoir le réutiliser ailleurs dans le programme. C'est l'outil principal pour éviter de répéter du code et garder un programme lisible.
 
 ```python
 # Définition de la fonction
@@ -386,7 +386,7 @@ print(surface)   # 20
 
 ## Étape 2 : Programmer
 
-Avec ces quatre briques (variables, conditions, boucles, fonctions), on a déjà de quoi écrire un petit programme **interactif** sur la STeaMi. On va construire un **jeu de pile ou face** : l'élève choisit une couleur avec un bouton (rouge pour A, bleu pour B), la carte tire une couleur au hasard, et on compare.
+Avec ces quatre briques (variables, conditions, boucles, fonctions), on a déjà de quoi écrire un petit programme interactif sur la STeaMi. On va construire un **jeu de pile ou face** : l'élève choisit une couleur avec un bouton (rouge pour A, bleu pour B), la carte tire une couleur au hasard, et on compare.
 
 ### Broches utilisées
 
@@ -467,7 +467,7 @@ while True:
 ### Comment ça fonctionne ?
 
 1. **Imports** : `random` pour tirer une couleur au hasard, `Pin` pour piloter les broches, `sleep_ms` pour les pauses.
-2. **Initialisation** : on prépare les deux LED en sortie et les deux boutons en entrée. Les boutons disposent de **résistances pull-up externes** câblées directement sur la carte STeaMi (à ne pas confondre avec la pull-up interne du microcontrôleur) : elles maintiennent leur valeur à 1 au repos, donc on ne déclare rien de plus côté code.
+2. **Initialisation** : on prépare les deux LED en sortie et les deux boutons en entrée. Les boutons ont des **résistances pull-up externes** câblées directement sur la carte STeaMi (à ne pas confondre avec la pull-up interne du microcontrôleur) : elles maintiennent leur valeur à 1 au repos, donc on ne déclare rien de plus côté code.
 3. **`lire_choix_joueur()`** : boucle d'attente qui scrute les deux boutons et retourne dès que l'un est pressé. Le clignotement de la LED sert d'**accusé de réception** visuel pour le joueur.
 4. **`annoncer_carte()`** : affiche le tirage de la carte par un éclat de la LED correspondante, pendant 1 seconde.
 5. **Boucle principale** : propose un message dans la console, lit le choix du joueur, tire au sort, annonce le résultat de la manche, recommence. Pas de condition de fin : le jeu tourne tant que la carte est alimentée (sortie par `Ctrl+C`).
@@ -481,7 +481,7 @@ while True:
 
 ## Étape 3 : Améliorer
 
-Maintenant que le jeu marche, voici quelques **bonnes pratiques** pour rendre votre code plus lisible et plus facile à faire évoluer.
+Une fois que le jeu marche, quelques bonnes pratiques permettent de rendre le code plus lisible et plus facile à faire évoluer.
 
 ### Bien nommer
 
@@ -507,7 +507,7 @@ Maintenant que le jeu marche, voici quelques **bonnes pratiques** pour rendre vo
 ### Pour comprendre
 
 - **[Python (Wikipédia)](https://fr.wikipedia.org/wiki/Python_%28langage%29)** : créé en 1991 par le Néerlandais **Guido van Rossum**, qui voulait un langage « lisible avant tout ». Le nom vient de la troupe comique britannique **Monty Python**, pas du reptile. Aujourd'hui dans le top 3 des langages les plus utilisés au monde, autant chez les débutants que chez les chercheurs en IA.
-- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par **Damien George** via une campagne Kickstarter, MicroPython est une réécriture de Python pensée pour tourner sur des cartes avec très peu de mémoire (typiquement 256 ko de RAM, contre plusieurs Go pour un ordinateur). C'est lui qui rend possible ce que vous venez d'exécuter sur la STeaMi.
+- **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par **Damien George** via une campagne Kickstarter, MicroPython est une réécriture de Python pensée pour tourner sur des cartes avec très peu de mémoire (typiquement 256 ko de RAM, contre plusieurs Go pour un ordinateur).
 - **[Read-eval-print loop (Wikipédia anglais)](https://en.wikipedia.org/wiki/Read-eval-print_loop)** : le concept de boucle interactive remonte aux années 60 avec **Lisp**. Toutes les consoles interactives modernes (Python, Ruby, JavaScript, R...) en sont des héritières directes. (La page Wikipédia n'existe qu'en anglais à ce jour.)
 - **[Le Zen de Python (PEP 20)](https://peps.python.org/pep-0020/)** : les 19 aphorismes guides de la conception du langage. À taper dans n'importe quelle console Python : `import this`. Notamment « Beautiful is better than ugly », « Simple is better than complex », « Readability counts ».
 
@@ -515,7 +515,7 @@ Maintenant que le jeu marche, voici quelques **bonnes pratiques** pour rendre vo
 
 - **[MicroPython sur l'ISS (programme Astro Pi)](https://astro-pi.org/)** : depuis 2015, l'ESA et la Raspberry Pi Foundation mettent des cartes Sense HAT à bord de la Station Spatiale Internationale et invitent des élèves à y faire tourner leurs programmes en MicroPython. Des collégien·nes et lycéen·nes français·es y participent chaque année.
 - **[Python à la NASA et SpaceX](https://www.python.org/about/success/usa/)** : Python pilote des simulations de mission, du traitement d'images de télescopes, ou la chaîne de tests des fusées Falcon. Ce que vous tapez dans le REPL et ce que tape un ingénieur de Mission Control utilisent la même syntaxe.
-- **[Advent of Code](https://adventofcode.com/)** : calendrier de l'avent de défis de programmation, ouvert à tout le monde et gratuit. Python est le langage le plus utilisé chaque année par les participant·es. Idéal pour pratiquer les briques de la fiche dans un contexte de jeu.
+- **[Advent of Code](https://adventofcode.com/)** : calendrier de l'avent de défis de programmation, ouvert à tout le monde et gratuit. Python est le langage le plus utilisé chaque année par les participant·es. On peut y pratiquer les briques de la fiche sous forme de jeu.
 - **[Olympiades de programmation et de mathématiques (France-IOI)](http://www.france-ioi.org/)** : plateforme gratuite avec des centaines d'exercices progressifs, beaucoup résolubles en Python. Bon parcours pour un·e élève qui accroche.
 
 ### Pour approfondir

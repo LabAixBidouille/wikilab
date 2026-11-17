@@ -37,7 +37,7 @@ import ABCNotation from '@site/src/components/ABCNotation';
 
 ## De quoi parle-t-on ?
 
-Le **son** est une **vibration de l'air** qui se propage jusqu'à nos oreilles. La hauteur de la note dépend de la **fréquence** de cette vibration : 440 vibrations par seconde (440 Hz) donnent un La, le double (880 Hz) donne le La de l'octave au-dessus. Plus la fréquence est élevée, plus la note est aiguë.
+Le **son** est une vibration de l'air qui se propage jusqu'à nos oreilles. La hauteur de la note dépend de la **fréquence** de cette vibration : 440 vibrations par seconde (440 Hz) donnent un La, le double (880 Hz) donne le La de l'octave au-dessus. Plus la fréquence est élevée, plus la note est aiguë.
 
 La STeaMi intègre un petit composant capable de produire ces vibrations : un **buzzer piézoélectrique** soudé au dos de la carte. En faisant osciller très rapidement la tension qu'il reçoit, le programme peut le faire vibrer à n'importe quelle fréquence audible et donc jouer n'importe quelle note. En enchaînant ces notes selon un rythme, on obtient une **mélodie**.
 
@@ -61,7 +61,7 @@ Ici, « construire » est rapide : le buzzer est déjà soudé à la carte, aucu
 
 ### 1. Localiser le buzzer
 
-Le buzzer (officiellement un **transducteur piézoélectrique**) est soudé sur la **face arrière** de la STeaMi. Il est accessible dans le code sous le nom de broche `SPEAKER`.
+Le buzzer (officiellement un **transducteur piézoélectrique**) est soudé sur la face arrière de la STeaMi. Il est accessible dans le code sous le nom de broche `SPEAKER`.
 
 <figure style={{textAlign: 'center', margin: '1rem auto'}}>
   <img
@@ -78,7 +78,7 @@ Le buzzer (officiellement un **transducteur piézoélectrique**) est soudé sur 
 
 Un buzzer piézoélectrique contient une fine **plaque de céramique** qui se déforme quand on lui applique une tension. Si la tension varie très vite (par exemple 440 fois par seconde), la plaque vibre à la même vitesse et pousse l'air autour d'elle : on entend une note.
 
-Sur la STeaMi, ce n'est pas un circuit dédié qui génère le signal : c'est **le programme lui-même** qui allume et éteint la broche `SPEAKER` à la bonne cadence. On parle de **_bit-banging_** : on génère le signal « à la main » bit par bit. Beaucoup moins efficace qu'un module dédié, mais beaucoup plus pédagogique et flexible.
+Sur la STeaMi, ce n'est pas un circuit dédié qui génère le signal : c'est le programme lui-même qui allume et éteint la broche `SPEAKER` à la bonne cadence. On parle de **_bit-banging_** : on génère le signal « à la main » bit par bit. Beaucoup moins efficace qu'un module dédié, mais beaucoup plus pédagogique et flexible.
 
 :::
 
@@ -96,7 +96,7 @@ Chaque note de musique correspond à une fréquence précise, en hertz (Hz) :
 | La (A)  | 440               | 880               |
 | Si (B)  | 494               | 988               |
 
-Bon à savoir : doubler la fréquence d'une note donne la même note à l'octave au-dessus. C'est la base de toute la musique tonale.
+Doubler la fréquence d'une note donne la même note à l'octave au-dessus. C'est la base de la musique tonale.
 
 ### 3. Lire une portée
 
@@ -120,7 +120,7 @@ Brancher la STeaMi à l'ordinateur via le câble USB. Si l'IDE est déjà config
 
 ### 5. Lancer le programme
 
-Notre premier programme va **jouer une mélodie en boucle**. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
+Le premier programme joue une mélodie en boucle. Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -251,7 +251,7 @@ C4 C2 C C/2 C/4 |]
 w: Ronde Blanche Noire Croche Double-croche`}
 </ABCNotation>
 
-Notre code reproduit exactement ce rapport, mais en millisecondes :
+Le code reproduit exactement ce rapport, en millisecondes :
 
 | Notation musicale | Durée dans le code | Valeur (ms) |
 | ----------------- | ------------------ | ----------- |
@@ -261,7 +261,7 @@ Notre code reproduit exactement ce rapport, mais en millisecondes :
 | Croche            | `CROCHE`           | 250         |
 | Double croche     | `DOUBLE_CROCHE`    | 125         |
 
-À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms, d'où la valeur choisie. Notre mélodie de Tetris n'utilise que `NOIRE` et `CROCHE`, mais le même principe permet d'ajouter les trois autres durées dès qu'on veut tenir une note plus longtemps (`BLANCHE`, `RONDE`) ou jouer des passages plus rapides (`DOUBLE_CROCHE`). Pour accélérer ou ralentir l'ensemble de la mélodie, il suffit de multiplier ou diviser toutes les durées par un même facteur.
+À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms, d'où la valeur choisie. La mélodie de Tetris jouée ici n'utilise que `NOIRE` et `CROCHE`, mais le même principe permet d'ajouter les trois autres durées dès qu'on veut tenir une note plus longtemps (`BLANCHE`, `RONDE`) ou jouer des passages plus rapides (`DOUBLE_CROCHE`). Pour accélérer ou ralentir l'ensemble de la mélodie, il suffit de multiplier ou diviser toutes les durées par un même facteur.
 
 ### Comment cela fonctionne ?
 
@@ -274,9 +274,9 @@ Le programme s'organise en quatre parties :
 
 :::info[Pourquoi écrire une fonction ?]
 
-Sans la fonction `jouer_note`, il faudrait recopier les six lignes de _bit-banging_ pour **chaque** note de la partition, soit environ 200 lignes pour notre mélodie de 33 notes. Avec la fonction :
+Sans la fonction `jouer_note`, il faudrait recopier les six lignes de _bit-banging_ pour chaque note de la partition, soit environ 200 lignes pour la mélodie de 33 notes. Avec la fonction :
 
-- on écrit l'algorithme du buzzer **une seule fois**, on le teste, et on n'y touche plus ;
+- on écrit l'algorithme du buzzer une seule fois, on le teste, et on n'y touche plus ;
 - la partition devient une liste de couples `(note, durée)` qui se lit comme une vraie partition musicale ;
 - pour changer de mélodie, on modifie la liste sans toucher au code technique du son.
 
@@ -286,7 +286,7 @@ C'est le principe d'**abstraction** : cacher un détail technique derrière un n
 
 :::info[Le format `(fréquence, durée)`]
 
-Représenter une mélodie comme une **liste de tuples** est un choix courant en programmation musicale. Chaque tuple est une note (fréquence en Hz + durée en ms), et la liste donne l'ordre. Cette représentation est facile à modifier (changer une note, en ajouter, faire varier le tempo en multipliant toutes les durées) et c'est aussi le format utilisé par beaucoup de librairies plus avancées (MIDI, MusicXML, Sonic Pi).
+Représenter une mélodie comme une **liste de tuples** est un choix courant en programmation musicale. Chaque tuple est une note (fréquence en Hz + durée en ms), et la liste donne l'ordre. Cette représentation est facile à modifier (changer une note, en ajouter, faire varier le tempo en multipliant toutes les durées) et c'est aussi le format utilisé par beaucoup de bibliothèques plus avancées (MIDI, MusicXML, Sonic Pi).
 
 :::
 
@@ -296,11 +296,11 @@ Représenter une mélodie comme une **liste de tuples** est un choix courant en 
 
 ### 1. Changer de mélodie
 
-Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici quatre gimmicks emblématiques de l'âge d'or du jeu vidéo 8 bits, à copier-coller à la place de notre Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (notre code n'en définit que jusqu'à `LA_4` pour l'instant).
+Le plus simple : remplacer le contenu de la liste `partition` par d'autres notes. Voici quatre thèmes de jeux vidéo 8 bits, à copier-coller à la place de Korobeïniki. Pensez à ajouter en haut du fichier les constantes de notes qui manquent (le code de l'Étape 2 n'en définit que jusqu'à `LA_4`).
 
 #### Super Mario Bros, Ground Theme (Koji Kondo, 1985)
 
-L'ouverture la plus reconnaissable de l'histoire du jeu vidéo, « doo-doo doodoodoo-doo ». N'utilise que des notes naturelles.
+L'ouverture du thème, « doo-doo doodoodoo-doo », n'utilise que des notes naturelles.
 
 <ABCNotation>
 {`X:1
@@ -362,7 +362,7 @@ partition = [
 
 #### Kirby's Dream Land, Green Greens (Jun Ishikawa, 1992)
 
-Le thème principal du tout premier Kirby sur Game Boy : sautillant, joyeux, immédiatement reconnaissable. Sons rapides en croches.
+Le thème principal du premier Kirby sur Game Boy, joué en croches rapides.
 
 <ABCNotation>
 {`X:1
@@ -396,9 +396,9 @@ partition = [
 
 #### The Legend of Zelda, thème principal (Koji Kondo, 1986)
 
-L'écran-titre du tout premier Zelda sur NES, transcrit dans sa quasi-intégralité (30 mesures) en Sib majeur. La structure se découpe en quatre temps : une **intro tenue** (Sib-Fa-Sib avec ornements descendants en Lab-Solb), le **motif iconique** répété deux fois avec des silences qui aèrent la phrase (Sib-Fa-Sib + montée chromatique culminant sur Fa5, contrebalancé par une descente grave Do-Ré-Mib-Fa en réponse), une **culmination** sur Sib5 avec développement descendant Fa-Mib-Réb-Do, puis une **reprise et coda** qui pousse encore plus haut (Do6 + Réb6) avant la résolution finale sur Fa4 grave.
+L'écran-titre du tout premier Zelda sur NES, transcrit dans sa quasi-intégralité (30 mesures) en Sib majeur. La structure se découpe en quatre temps. Une intro tenue ouvre le morceau (Sib-Fa-Sib avec ornements descendants en Lab-Solb). Le motif vient ensuite, répété deux fois avec des silences qui aèrent la phrase (Sib-Fa-Sib + montée chromatique culminant sur Fa5, contrebalancé par une descente grave Do-Ré-Mib-Fa en réponse). La mélodie culmine alors sur Sib5, avec un développement descendant Fa-Mib-Réb-Do. Une reprise et une coda poussent encore plus haut (Do6 + Réb6) avant la résolution finale sur Fa4 grave.
 
-C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. La signature en Sib majeur n'a que deux bémols à la clé (Sib, Mib), mais le morceau utilise plusieurs accidents (`_A` = Lab, `_G` = Solb, `_d` = Réb…) qui apparaissent en `LA_BEMOL_4`, `SOL_BEMOL_5`, `RE_BEMOL_5`, etc. côté Python (chaque constante est suffixée par son octave).
+C'est aussi l'occasion d'introduire les **bémols** (`♭`) : un bémol baisse la note d'un demi-ton. La signature en Sib majeur n'a que deux bémols à la clé (Sib, Mib), mais le morceau utilise plusieurs accidents (`_A` = Lab, `_G` = Solb, `_d` = Réb...) qui apparaissent en `LA_BEMOL_4`, `SOL_BEMOL_5`, `RE_BEMOL_5`, etc. côté Python (chaque constante est suffixée par son octave).
 
 <ABCNotation>
 {`X:1
@@ -538,16 +538,16 @@ En lisant un capteur intégré (lumière, accélération, température) à chaqu
 
 ### Pour comprendre
 
-- **[Onde sonore (Wikipedia)](https://fr.wikipedia.org/wiki/Onde_sonore)** : ce qu'est physiquement un son, comment il se propage et pourquoi notre oreille le perçoit comme une note. Le pont entre physique, biologie et musique.
+- **[Onde sonore (Wikipedia)](https://fr.wikipedia.org/wiki/Onde_sonore)** : ce qu'est physiquement un son, comment il se propage et pourquoi notre oreille le perçoit comme une note.
 - **[Effet piézoélectrique (Wikipedia)](https://fr.wikipedia.org/wiki/Effet_pi%C3%A9zo%C3%A9lectrique)** : pourquoi un cristal de céramique vibre quand on lui applique une tension. Le même principe pilote les buzzers, les briquets électriques, les microphones de guitare et les capteurs de pression.
 - **[Gamme tempérée (Wikipedia)](https://fr.wikipedia.org/wiki/Gamme_temp%C3%A9r%C3%A9e)** : pourquoi les notes ne sont pas espacées au hasard. Le système qu'on utilise depuis Bach répartit les 12 demi-tons de manière géométrique sur l'octave, ce qui permet de jouer dans n'importe quelle tonalité avec le même instrument.
 
 ### Pour s'inspirer
 
-- **[Chiptune (Wikipedia)](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits. La STeaMi fait ici exactement ce que faisait une Game Boy ou une NES pour produire ses musiques cultes.
-- **[Daft Punk et leur table de synthés modulaires](https://fr.wikipedia.org/wiki/Daft_Punk)** : derrière le casque, des heures de bidouille sur des oscillateurs et des fréquences. Le duo a popularisé l'idée que la musique électronique se programme autant qu'elle s'interprète.
+- **[Chiptune (Wikipedia)](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits. La STeaMi fait ici ce que faisait une Game Boy ou une NES pour produire ses musiques.
+- **[Daft Punk et leur table de synthés modulaires](https://fr.wikipedia.org/wiki/Daft_Punk)** : derrière le casque, le duo a passé des heures à bidouiller des oscillateurs et des fréquences, et il a popularisé l'idée que la musique électronique se programme autant qu'elle s'interprète.
 - **[Le Theremin, premier instrument électronique (Wikipedia)](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine)** : inventé en 1920 par Léon Theremin, c'est le premier instrument qu'on joue sans le toucher : les mouvements des mains modulent fréquence et volume. Une fiche du wiki en construira un avec la STeaMi.
-- **[Sonic Pi](https://sonic-pi.net/)** : environnement de live coding musical conçu pour l'éducation par Sam Aaron à Cambridge. On écrit du code Ruby qui produit de la musique en temps réel, on l'édite, on entend le résultat. Utilisé dans des milliers d'écoles, et même en concert.
+- **[Sonic Pi](https://sonic-pi.net/)** : environnement de live coding musical conçu pour l'éducation par Sam Aaron à Cambridge. On écrit du code Ruby qui produit de la musique en temps réel, on l'édite, on entend le résultat. Il sert dans des milliers d'écoles, et aussi en concert.
 
 ---
 

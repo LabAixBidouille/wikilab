@@ -61,7 +61,7 @@ La LED RGB et les boutons A et B utilisés dans cet exemple sont déjà soudés 
 
 ## Étape 1 : Construire
 
-Ici la partie « Construire » est un peu différente de ce qu'on a l'habitude de faire, puisqu'il s'agit surtout d'installer et configurer les outils nécessaires pour programmer la STeaMi. Voici les étapes à suivre :
+Ici la partie « Construire » est un peu différente de ce qu'on a l'habitude de faire, puisqu'il s'agit surtout d'installer et configurer les outils nécessaires pour programmer la STeaMi.
 
 ### Installer VS Code
 
@@ -93,7 +93,7 @@ Quand vous lancez VS Code pour la première fois, vous devriez voir cette fenêt
   </figcaption>
 </figure>
 
-Pour programmer en MicroPython avec VS Code, la fiche utilise `mpremote` en ligne de commande (dans le panneau Terminal). Les extensions VS Code pour MicroPython (MicroPico, Pymakr...) ne supportent pas la STeaMi à ce jour. Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
+Pour programmer en MicroPython avec VS Code, la fiche utilise `mpremote` en ligne de commande (dans le panneau Terminal). Les extensions VS Code pour MicroPython (MicroPico, Pymakr...) ne prennent pas en charge la STeaMi à ce jour. Côté projet, il suffit de créer un nouveau dossier et d'y ajouter un fichier `.py` qui contiendra votre code MicroPython.
 
 ### Installer MicroPython sur la STeaMi
 
@@ -164,7 +164,7 @@ python3 -m venv ~/.venvs/mpremote
 alias mpremote='~/.venvs/mpremote/bin/mpremote'
 ```
 
-`venv` est livré avec Python 3 et marche sans aucune permission système ; c'est la solution la plus universelle pour des élèves sur postes verrouillés.
+`venv` est livré avec Python 3 et marche sans aucune permission système, y compris sur des postes d'élèves verrouillés.
 :::
 
 
@@ -358,16 +358,16 @@ La plupart des problèmes rencontrés ne sont pas spécifiques à VS Code mais t
 
 ### Pour comprendre
 
-- **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, dont le code source ([Code-OSS](https://github.com/microsoft/vscode)) est publié sous licence libre MIT. La distribution **« Visual Studio Code »** officielle (téléchargée depuis code.visualstudio.com) ajoute par-dessus de la télémétrie, la marque Microsoft et quelques extensions propriétaires (comme le debugger C++) ; elle est donc sous licence Microsoft, pas MIT. Pour une version 100 % libre sans ces ajouts, voir [VSCodium](https://vscodium.com/), qui recompile Code-OSS tel quel. VS Code repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify.
-- **[Le Language Server Protocol (Wikipédia)](https://fr.wikipedia.org/wiki/Language_Server_Protocol)** : VS Code a popularisé en 2016 un format standard pour communiquer entre un éditeur et un langage de programmation (autocomplétion, détection d'erreurs, renommage). Aujourd'hui Neovim, Emacs, Sublime, IntelliJ parlent tous ce même protocole. Un exemple concret de standard utile qui émerge.
+- **[VS Code (Wikipédia)](https://fr.wikipedia.org/wiki/Visual_Studio_Code)** : lancé par Microsoft en 2015, dont le code source ([Code-OSS](https://github.com/microsoft/vscode)) est publié sous licence libre MIT. La distribution **« Visual Studio Code »** officielle (téléchargée depuis code.visualstudio.com) ajoute par-dessus de la télémétrie, la marque Microsoft et quelques extensions propriétaires (comme le débogueur C++) ; elle est donc sous licence Microsoft, pas MIT. Pour une version 100 % libre sans ces ajouts, voir [VSCodium](https://vscodium.com/), qui recompile Code-OSS tel quel. VS Code repose sur le framework Electron, la même technologie qui fait tourner Slack, Discord ou Spotify.
+- **[Le Language Server Protocol (Wikipédia)](https://fr.wikipedia.org/wiki/Language_Server_Protocol)** : VS Code a popularisé en 2016 un format standard pour communiquer entre un éditeur et un langage de programmation (autocomplétion, détection d'erreurs, renommage). Aujourd'hui Neovim, Emacs, Sublime, IntelliJ parlent tous ce même protocole.
 - **[L'histoire de MicroPython (Wikipédia)](https://fr.wikipedia.org/wiki/MicroPython)** : lancé en 2013 par Damien George via une campagne Kickstarter, MicroPython est une **implémentation de Python** pensée pour les systèmes embarqués, capable de tourner sur des cartes avec très peu de mémoire. C'est lui qui rend possible le code que vous venez d'exécuter sur la STeaMi.
 - **[Electron (Wikipédia)](https://fr.wikipedia.org/wiki/Electron_%28framework%29)** : créé par GitHub en 2013 pour transformer une page web en application de bureau. Approche controversée (gourmande en RAM), mais qui a permis à VS Code, Slack ou Discord d'être identiques sur Windows, macOS et Linux.
 
 ### Pour s'inspirer
 
 - **[Live Share : programmer à plusieurs sur le même écran](https://visualstudio.microsoft.com/services/live-share/)** : extension officielle Microsoft qui permet à plusieurs personnes d'éditer le même fichier dans VS Code en temps réel, comme un Google Docs du code. Pratique pour s'entraider en classe ou demander un coup de main à distance.
-- **[mpremote, la télécommande des cartes MicroPython](https://docs.micropython.org/en/latest/reference/mpremote.html)** : la commande utilisée dans cette fiche pilote tout un écosystème : STeaMi, BBC micro:bit, ESP32, Raspberry Pi Pico, Pyboard. Une seule syntaxe pour une demi-douzaine de cartes différentes.
-- **[Editor war (Wikipédia anglais)](https://en.wikipedia.org/wiki/Editor_war)** : depuis les années 80, les développeurs s'opposent en deux camps autour de leur choix d'éditeur (vim vs Emacs, puis tous les autres). Une « guerre » mi-sérieuse mi-amusée qui a duré 40 ans, jusqu'à ce que VS Code finisse par mettre presque tout le monde d'accord. Les outils façonnent les communautés. (La page Wikipédia n'existe qu'en anglais à ce jour.)
+- **[mpremote, la télécommande des cartes MicroPython](https://docs.micropython.org/en/latest/reference/mpremote.html)** : la commande utilisée dans cette fiche pilote avec la même syntaxe tout un écosystème de cartes : STeaMi, BBC micro:bit, ESP32, Raspberry Pi Pico, Pyboard.
+- **[Editor war (Wikipédia anglais)](https://en.wikipedia.org/wiki/Editor_war)** : depuis les années 80, les développeurs s'opposent en deux camps autour de leur choix d'éditeur (vim vs Emacs, puis tous les autres). Une « guerre » mi-sérieuse mi-amusée qui a duré 40 ans, jusqu'à ce que VS Code finisse par mettre presque tout le monde d'accord. (La page Wikipédia n'existe qu'en anglais à ce jour.)
 - **[GitHub Copilot (Wikipédia)](https://fr.wikipedia.org/wiki/GitHub_Copilot)** : l'extension VS Code qui propose en temps réel des suggestions de code générées par une IA. Gratuite pour les enseignant·es et les élèves via [GitHub Education](https://education.github.com/). Outil clivant (aide ou triche ?) à tester en classe pour se forger une opinion.
 
 ### Pour approfondir

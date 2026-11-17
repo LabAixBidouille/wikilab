@@ -35,11 +35,11 @@ sidebar_position: 14
 
 ## De quoi parle-t-on ?
 
-Tu connais ces petits minuteurs en plastique en forme d'œuf qu'on trouve dans certaines cuisines ? On les remonte d'un tour, on les pose sur la table, et **ding !** ils sonnent quand c'est l'heure. C'est l'objet le plus simple imaginable, mais sans lui le drame est garanti : œuf trop cuit, blanc caoutchouteux, jaune sec et farineux. Personne ne veut ça.
+Tu connais ces petits minuteurs en plastique en forme d'œuf qu'on trouve dans certaines cuisines ? On les remonte d'un tour, on les pose sur la table, et **ding !** ils sonnent quand c'est l'heure. C'est l'objet le plus simple imaginable, mais sans lui le drame est garanti : œuf trop cuit, blanc caoutchouteux, jaune sec et farineux.
 
-Dans cette activité, on va **construire son propre minuteur à œufs** avec la STeaMi. Pas besoin d'acheter le petit gadget en plastique : on a tout ce qu'il faut intégré dans la carte. Le minuteur affichera le décompte en grand sur l'écran (style chronomètre de four), une barre de progression montrera le temps qui passe, et le buzzer sonnera l'alarme quand l'œuf est prêt. **Après l'avoir réalisé, tu seras un vrai grand chef !**
+Dans cette activité, on va construire son propre minuteur à œufs avec la STeaMi. Pas besoin d'acheter le petit gadget en plastique : on a tout ce qu'il faut intégré dans la carte. Le minuteur affichera le décompte en grand sur l'écran (style chronomètre de four), une barre de progression montrera le temps qui passe, et le buzzer sonnera l'alarme quand l'œuf est prêt.
 
-Pour faire bouillir un œuf à la perfection, les chefs utilisent la règle des **3, 6, 9 minutes** :
+Pour faire bouillir un œuf à la perfection, les chefs utilisent la règle des 3, 6, 9 minutes :
 
 - **3 minutes** : œuf à la coque (blanc cuit, jaune coulant pour la mouillette)
 - **6 minutes** : œuf mollet (blanc cuit, jaune crémeux qui se savoure tiède)
@@ -60,8 +60,8 @@ L'écran OLED, le buzzer et les boutons A et B sont déjà soudés à la STeaMi.
 - **Construire un objet utile et amusant** qu'on n'a pas honte de poser sur la table de la cuisine : un vrai minuteur à œufs en état de marche.
 - **Faire dialoguer plusieurs composants intégrés** à la STeaMi (écran, buzzer, boutons) dans un seul programme cohérent, là où on les utilisait jusqu'ici un par un.
 - **Rendre une donnée brute lisible** : transformer un nombre de millisecondes en chrono `MM:SS`, en barre qui se vide, et en mélodie qui sonne. C'est exactement ce que font les apps du téléphone, le four à micro-ondes et le tableau de bord d'une voiture.
-- **Faire tourner un programme qui reste vivant** pendant qu'il attend : l'écran continue de se rafraîchir, les boutons restent à l'écoute. Plutôt qu'un programme endormi qui ne se réveille qu'à la fin.
-- **Détourner ce squelette** pour inventer d'autres usages (Pomodoro pour les devoirs, chronomètre de sport, sablier numérique pour les jeux de société...), et comprendre qu'on n'a pas écrit « un minuteur à œufs » mais « un patron de programme qui compte le temps », adaptable à l'infini.
+- **Faire tourner un programme qui reste vivant** pendant qu'il attend, plutôt qu'un programme endormi qui ne se réveille qu'à la fin : l'écran continue de se rafraîchir, les boutons restent à l'écoute.
+- **Détourner ce squelette** pour inventer d'autres usages (Pomodoro pour les devoirs, chronomètre de sport, sablier numérique pour les jeux de société...), et comprendre qu'on n'a pas écrit « un minuteur à œufs » mais « un patron de programme qui compte le temps ».
 ---
 
 ## Étape 1 : Construire
@@ -142,7 +142,7 @@ Les boutons se lisent via `Pin("A_BUTTON", Pin.IN)` et `Pin("B_BUTTON", Pin.IN)`
 
 ### Mesurer le temps sans bloquer
 
-La tentation naturelle pour faire un minuteur est d'écrire `time.sleep(180)`. Ça fonctionne… mais pendant ces 180 secondes, le programme ne peut rien faire d'autre : impossible de mettre à jour l'affichage, d'écouter les boutons, ou d'arrêter le minuteur.
+La tentation naturelle pour faire un minuteur est d'écrire `time.sleep(180)`. Ça fonctionne, mais pendant ces 180 secondes, le programme ne peut rien faire d'autre : impossible de mettre à jour l'affichage, d'écouter les boutons, ou d'arrêter le minuteur.
 
 La bonne approche consiste à noter l'instant de départ, puis à vérifier régulièrement combien de temps s'est écoulé :
 
@@ -325,11 +325,11 @@ Le programme s'organise en **cinq fonctions** bien séparées, et la boucle prin
 
 :::info[Pourquoi un écran qui se rafraîchit, et pas juste un long `sleep` ?]
 
-La façon la plus simple d'attendre 3 minutes en Python, c'est d'écrire `time.sleep(180)`. Sauf que pendant ces 180 secondes, le programme dort comme une marmotte : impossible de mettre à jour l'écran, impossible d'écouter un bouton, impossible d'interrompre le minuteur en cours de route. Si tu te trompes de durée, tu attends 3 minutes pour pouvoir recommencer.
+La façon la plus simple d'attendre 3 minutes en Python est d'écrire `time.sleep(180)`, mais pendant ces 180 secondes le programme dort comme une marmotte : il ne peut ni mettre à jour l'écran, ni écouter un bouton, ni interrompre le minuteur en cours de route. Si tu te trompes de durée, tu attends 3 minutes pour pouvoir recommencer.
 
-Notre minuteur fait autrement : il regarde l'horloge toutes les 100 millisecondes, recalcule combien il reste, redessine l'écran, et **seulement après** attend 100 ms avant de recommencer. C'est ce qui rend le chrono « vivant » : la barre se vide en continu, et le programme reste prêt à réagir.
+Notre minuteur fait autrement : il regarde l'horloge toutes les 100 millisecondes, recalcule combien il reste, redessine l'écran, et seulement après attend 100 ms avant de recommencer. C'est ce qui rend le chrono « vivant » : la barre se vide en continu, et le programme reste prêt à réagir.
 
-C'est la même technique qu'utilisent les jeux vidéo, les applications de téléphone, les distributeurs de billets : ne jamais bloquer trop longtemps, redessiner souvent, rester à l'écoute.
+Les jeux vidéo, les applications de téléphone et les distributeurs de billets utilisent la même technique.
 
 :::
 
@@ -368,7 +368,7 @@ Quatre pistes pour rendre ton minuteur encore plus utile (ou plus rigolo).
 
 ### 1. Mode Pomodoro pour les devoirs
 
-Tes parents te tannent pour que tu fasses tes devoirs sans toucher au téléphone ? Voici le hack ultime : la **technique Pomodoro**, mise au point par un étudiant italien dans les années 1980. On bosse 25 minutes, on souffle 5 minutes, on recommence. Au bout de 4 cycles, on prend une vraie pause de 15 minutes.
+Tes parents te tannent pour que tu fasses tes devoirs sans toucher au téléphone ? Essaie la **technique Pomodoro**, mise au point par un étudiant italien dans les années 1980 : on bosse 25 minutes, on souffle 5 minutes, on recommence. Au bout de 4 cycles, on prend une vraie pause de 15 minutes.
 
 Adapte le minuteur en remplaçant les durées 3/6/9 par 25/5/15 :
 
@@ -452,7 +452,7 @@ def jouer_melodie():
         time.sleep_ms(50)   # silence inter-note
 ```
 
-Pour des mélodies plus ambitieuses (Mario, Tetris, Zelda), va voir la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) qui propose plusieurs partitions de jeux vidéo emblématiques.
+Pour des mélodies plus ambitieuses (Mario, Tetris, Zelda), va voir la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) qui propose plusieurs partitions de jeux vidéo.
 
 ### 4. Calibrer ton minuteur pour qu'il soit précis à la seconde
 
@@ -466,7 +466,7 @@ Le minuteur dérive légèrement : il met un peu plus de 3 minutes à atteindre 
 time.sleep_ms(97)   # à la place de 100 (97 ≈ 100 × 180 / 185)
 ```
 
-C'est la même méthode que celle qu'utilisent les horlogers et les ingénieurs en métrologie : on mesure, on compare, on corrige.
+Les horlogers et les ingénieurs en métrologie utilisent la même méthode.
 
 ---
 
@@ -474,21 +474,21 @@ C'est la même méthode que celle qu'utilisent les horlogers et les ingénieurs 
 
 ### Pour comprendre
 
-- **[Histoire de la mesure du temps (Wikipédia)](https://fr.wikipedia.org/wiki/Histoire_de_la_mesure_du_temps)** : du **cadran solaire** des Égyptiens (4 000 ans avant nous) au **sablier** des marins, en passant par les **clepsydres** (horloges à eau) et les premières **horloges mécaniques** des cathédrales. Chaque progrès a transformé la société : pouvoir mesurer une heure, c'est pouvoir donner rendez-vous, prier ensemble, démarrer un travail à plusieurs.
-- **[Le quartz, ce minuscule cristal qui rythme toutes les montres (Wikipédia)](https://fr.wikipedia.org/wiki/Horloge_%C3%A0_quartz)** : à l'intérieur de ta montre, il y a un cristal qui **vibre exactement 32 768 fois par seconde** quand on lui applique une petite tension. Toujours pareil, toujours précis. C'est la même technologie qui fait battre le cœur de la STeaMi, et c'est ce qui permet à `time.ticks_ms()` de compter juste.
-- **[Le temps n'est pas absolu : Einstein et la relativité (Wikipédia)](https://fr.wikipedia.org/wiki/Dilatation_du_temps)** : plus tu vas vite, plus le temps ralentit pour toi. Les satellites GPS qui filent à 14 000 km/h voient leur temps s'écouler **38 microsecondes par jour plus vite** que sur Terre. Sans correction, ton smartphone te localiserait à 11 km de l'endroit où tu te trouves vraiment. Le temps de ta cuisine n'est pas tout à fait celui des astronautes.
-- **[Pourquoi le temps passe-t-il plus vite quand on grandit ? (CNRS Journal)](https://lejournal.cnrs.fr/articles/pourquoi-le-temps-passe-de-plus-en-plus-vite)** : à 5 ans, une année représente 20 % de ta vie ; à 50 ans, à peine 2 %. Notre cerveau mesure le temps en proportions, pas en heures. Ce qui explique pourquoi un cours d'une heure peut sembler durer un siècle, et pourquoi les vacances passent toujours trop vite.
+- **[Histoire de la mesure du temps (Wikipédia)](https://fr.wikipedia.org/wiki/Histoire_de_la_mesure_du_temps)** : du cadran solaire des Égyptiens (4 000 ans avant nous) au sablier des marins, en passant par les clepsydres (horloges à eau) et les premières horloges mécaniques des cathédrales. Pouvoir mesurer une heure, c'est pouvoir donner rendez-vous, prier ensemble, démarrer un travail à plusieurs.
+- **[Le quartz, ce minuscule cristal qui rythme toutes les montres (Wikipédia)](https://fr.wikipedia.org/wiki/Horloge_%C3%A0_quartz)** : à l'intérieur de ta montre, il y a un cristal qui vibre exactement 32 768 fois par seconde quand on lui applique une petite tension. La STeaMi utilise la même technologie, ce qui permet à `time.ticks_ms()` de compter juste.
+- **[Le temps n'est pas absolu : Einstein et la relativité (Wikipédia)](https://fr.wikipedia.org/wiki/Dilatation_du_temps)** : plus tu vas vite, plus le temps ralentit pour toi. Les satellites GPS qui filent à 14 000 km/h voient leur temps s'écouler 38 microsecondes par jour plus vite que sur Terre. Sans correction, ton smartphone te localiserait à 11 km de l'endroit où tu te trouves vraiment.
+- **[Pourquoi le temps passe-t-il plus vite quand on grandit ? (CNRS Journal)](https://lejournal.cnrs.fr/articles/pourquoi-le-temps-passe-de-plus-en-plus-vite)** : à 5 ans, une année représente 20 % de ta vie ; à 50 ans, à peine 2 %. Notre cerveau mesure le temps en proportions, ce qui explique pourquoi un cours d'une heure peut sembler durer un siècle, et pourquoi les vacances passent toujours trop vite.
 
 ### Pour s'inspirer
 
-- **[Top Chef, le panier mystère et les épreuves de Speed Cuisine](https://fr.wikipedia.org/wiki/Top_Chef_(France))** : 30 minutes pour cuisiner avec un panier surprise, 15 minutes pour relever un défi flash, et un minuteur géant à l'écran qui rend la tension visible. C'est dans ces formats courts que la cuisine devient un vrai sport de combat. Ton minuteur fait pareil, en plus discret.
-- **[Le compte à rebours des fusées SpaceX et Apollo](https://fr.wikipedia.org/wiki/Compte_%C3%A0_rebours)** : « T moins 10... 9... 8... ». Quand des humains montent dans une fusée, chaque seconde du décompte est utile : test des moteurs, ouverture des vannes, vérification finale. Le minuteur est devenu le **rythme officiel** des grands lancements.
-- **[Mission Impossible et le détonateur qui clignote](https://fr.wikipedia.org/wiki/Mission_impossible_(film,_1996))** : au cinéma, le minuteur sur la bombe est devenu un personnage à part entière. Combien de fois Tom Cruise a-t-il coupé le bon fil à 0:00:01 ? Le minuteur, c'est aussi un outil de **mise en scène**.
+- **[Top Chef, le panier mystère et les épreuves de Speed Cuisine](https://fr.wikipedia.org/wiki/Top_Chef_(France))** : 30 minutes pour cuisiner avec un panier surprise, 15 minutes pour relever un défi flash, et un minuteur géant à l'écran qui rend la tension visible. Ton minuteur affiche le décompte de la même façon, en plus discret.
+- **[Le compte à rebours des fusées SpaceX et Apollo](https://fr.wikipedia.org/wiki/Compte_%C3%A0_rebours)** : « T moins 10... 9... 8... ». Quand des humains montent dans une fusée, chaque seconde du décompte est utile : test des moteurs, ouverture des vannes, vérification finale.
+- **[Mission Impossible et le détonateur qui clignote](https://fr.wikipedia.org/wiki/Mission_impossible_(film,_1996))** : au cinéma, le minuteur sur la bombe sert la mise en scène. Combien de fois Tom Cruise a-t-il coupé le bon fil à 0:00:01 ?
 - **[Speedrun de Super Mario 64](https://www.youtube.com/results?search_query=super+mario+64+speedrun+16+stars)** : il y a des joueurs qui terminent Mario 64 en moins de 15 minutes. Le chronomètre tourne en permanence en haut de l'écran, et une communauté entière compare les records à la milliseconde près. Ton minuteur peut servir d'arbitre pour tes propres records.
 - **[Time's Up et le sablier qu'on retourne](https://fr.wikipedia.org/wiki/Time%27s_Up_!)** : dans ce jeu de société, un sablier de 30 secondes rythme chaque manche. Avec ta STeaMi, tu peux remplacer le sablier en plastique qu'on perd toujours, et même afficher des cris « VITE ! » à l'écran quand il ne reste que 5 secondes.
 - **[Pomodoro Technique (Wikipédia)](https://fr.wikipedia.org/wiki/Technique_Pomodoro)** : la méthode des 25 minutes de travail / 5 minutes de pause, inventée par un étudiant italien équipé d'un... minuteur de cuisine en forme de tomate (_pomodoro_ en italien). Cf. l'amélioration n°1.
-- **[Time Timer, le minuteur pour les petits et les personnes autistes](https://www.timetimer.com/)** : un disque rouge qui se vide en temps réel, sans chiffres. Pour qui ne sait pas encore lire l'heure, ça change la vie. C'est exactement ce que fait notre barre de progression.
-- **[Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)** : la règle du 3, 6, 9 expliquée par des cuisiniers, avec toutes les nuances (eau bouillante vs froide, taille de l'œuf, altitude). Le sérieux des chefs pour cuire un œuf est inspirant.
+- **[Time Timer, le minuteur pour les petits et les personnes autistes](https://www.timetimer.com/)** : un disque rouge qui se vide en temps réel, sans chiffres, comme notre barre de progression. On peut le suivre sans savoir encore lire l'heure.
+- **[Comment faire bouillir un œuf à la perfection (BBC Good Food)](https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly)** : la règle du 3, 6, 9 expliquée par des cuisiniers, avec toutes les nuances (eau bouillante vs froide, taille de l'œuf, altitude).
 
 ---
 

@@ -40,9 +40,9 @@ sidebar_label: 'Découvrir la carte STeaMi'
 
 ## De quoi parle-t-on ?
 
-La **STeaMi** est une carte électronique éducative conçue en France pour l'apprentissage de l'informatique embarquée, de l'IoT (Internet des Objets) et de la mesure scientifique. Elle se distingue par sa richesse en capteurs intégrés et sa connectivité sans fil, qui en font un outil polyvalent pour les projets pédagogiques du collège au lycée.
+La **STeaMi** est une carte électronique éducative conçue en France pour l'apprentissage de l'informatique embarquée, de l'IoT (Internet des Objets) et de la mesure scientifique. Avec ses sept capteurs intégrés et sa connexion sans fil, elle sert aux projets pédagogiques du collège au lycée.
 
-Cette fiche propose une première prise en main de la carte : découverte du hardware, premiers programmes et exploration des possibilités.
+Cette fiche propose une première prise en main de la carte : découverte du matériel, premiers programmes et premières expérimentations avec les capteurs et l'écran.
 
 Pour aller plus loin, consultez la [documentation officielle](https://wiki.steami.cc/).
 
@@ -68,7 +68,7 @@ La STeaMi est bâtie autour d'un **microcontrôleur STM32WB55RG** (Cortex-M4 à 
 - **OpenThread** et **ZigBee** pour les réseaux maillés IoT
 - **Mode clé USB** (DAPLink) pour copier un programme sur la carte par simple glisser-déposer
 
-La carte embarque aussi une batterie LiPo rechargeable de 1600 mAh offrant une autonomie confortable pour les projets nomades.
+La carte embarque aussi une batterie LiPo rechargeable de 1600 mAh pour les projets nomades.
 
 <div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '1.5rem'}}>
   <figure style={{flex: '1 1 300px', margin: 0}}>
@@ -83,7 +83,7 @@ La carte embarque aussi une batterie LiPo rechargeable de 1600 mAh offrant une a
 
 ### Les 7 capteurs internes
 
-La STeaMi intègre nativement plusieurs capteurs qui permettent une grande variété d'expérimentations sans matériel externe :
+La STeaMi a sept capteurs intégrés, utilisables sans matériel externe :
 
 - **Accéléromètre** : mesure les accélérations sur 3 axes (mouvement, chocs, orientation)
 - **Gyroscope** : mesure les rotations (vitesse angulaire)
@@ -100,14 +100,14 @@ La STeaMi intègre nativement plusieurs capteurs qui permettent une grande vari�
 
 ### L'écran OLED 128×128
 
-L'écran OLED intégré permet d'afficher du texte, des graphiques, des images ou des animations directement sur la carte. Idéal pour afficher les valeurs des capteurs en temps réel sans avoir besoin d'un ordinateur.
+L'écran OLED intégré affiche du texte, des graphiques, des images ou des animations directement sur la carte. Il peut montrer les valeurs des capteurs en temps réel, sans ordinateur.
 
 ### Connecteurs d'extension
 
-La STeaMi dispose de deux types de connecteurs pour étendre ses fonctionnalités :
+La STeaMi a deux types de connecteurs d'extension :
 
 - **Edge compatible micro:bit** : permet d'utiliser de nombreux accessoires conçus pour les cartes micro:bit
-- **Connecteur Qwiic** : branchement plug-and-play à de nombreux capteurs et modules Sparkfun/Adafruit sans soudure
+- **Connecteur Qwiic** : branchement sans soudure ni réglage de nombreux capteurs et modules Sparkfun/Adafruit
 
 ---
 
@@ -121,13 +121,13 @@ La STeaMi dispose de deux types de connecteurs pour étendre ses fonctionnalité
 
 ### Étape 2 : Choisir un environnement de programmation
 
-Trois environnements sont supportés pour programmer la STeaMi :
+On peut programmer la STeaMi avec trois environnements :
 
 - **MicroPython** : langage Python adapté aux microcontrôleurs, recommandé pour les lycéens
-- **MakeCode** : programmation par blocs visuels, idéal pour débuter
+- **MakeCode** : programmation par blocs visuels, pour débuter
 - **Arduino / CODAL** : programmation C++ pour les utilisateurs avancés
 
-Pour commencer, nous recommandons **MicroPython** ou **MakeCode** selon le niveau des élèves.
+Pour commencer, on conseille **MicroPython** ou **MakeCode** selon le niveau des élèves.
 
 ### Étape 3 : Écrire un premier programme
 
@@ -179,7 +179,7 @@ En cas de problème (carte qui n'apparaît pas, port série introuvable, console
 
 ### Pour s'inspirer
 
-La STeaMi permet de réaliser de nombreux projets pédagogiques. Quelques pistes pour amorcer une séquence :
+Quelques pistes pour amorcer une séquence :
 
 - **Station météo** : enregistrer température, humidité et pression sur plusieurs jours
 - **Altimètre** : mesurer une altitude à partir de la pression atmosphérique

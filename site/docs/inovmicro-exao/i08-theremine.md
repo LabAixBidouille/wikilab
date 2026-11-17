@@ -37,13 +37,13 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé en 1928 par le physicien russe Léon Thérémine, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol qui joue parfaitement le rôle de cette antenne : approcher ou éloigner la main change la fréquence du son émis par le buzzer. Faisons de la musique sans rien toucher !
+Un [thérémine](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine) est un instrument de musique électronique dont on joue sans le toucher. Inventé en 1928 par le physicien russe Léon Thérémine, il utilise deux antennes pour détecter la position des mains : l'une contrôle la hauteur du son, l'autre le volume. La STeaMi intègre un **capteur de distance VL53L1X** à temps de vol, qui remplace ici l'antenne : approcher ou éloigner la main change la fréquence du son émis par le buzzer.
 
 :::info[Aux origines de la musique électronique]
 
-Quand Léon Thérémine présente son instrument à Moscou en 1920, **l'électricité est encore une curiosité** dans les foyers : la radio commence à peine, le synthétiseur n'existe pas, et la musique « se touche » (piano, violon, voix). Faire sortir un son d'un boîtier en agitant les mains dans le vide tient alors du tour de magie.
+Quand Léon Thérémine présente son instrument à Moscou en 1920, l'électricité est encore une curiosité dans les foyers : la radio commence à peine, le synthétiseur n'existe pas, et la musique « se touche » (piano, violon, voix). Faire sortir un son d'un boîtier en agitant les mains dans le vide tient alors du tour de magie.
 
-Son brevet de 1928 et ses tournées en Europe puis aux États-Unis vont durablement marquer la culture : le thérémine est utilisé dans les bandes-son de films d'horreur des années 1940-1950 (_Spellbound_, _The Day the Earth Stood Still_), puis par les Beach Boys dans _Good Vibrations_ (1966), Led Zeppelin sur scène, et toute la pop électronique qui suivra. C'est aussi **le premier instrument joué en concert sans contact physique**, ouvrant la voie aux synthétiseurs, samplers, contrôleurs gestuels et autres instruments numériques que tout le monde connaît aujourd'hui.
+Son brevet de 1928 et ses tournées en Europe puis aux États-Unis font connaître l'instrument : le thérémine est utilisé dans les bandes-son de films d'horreur des années 1940-1950 (_Spellbound_, _The Day the Earth Stood Still_), puis par les Beach Boys dans _Good Vibrations_ (1966), Led Zeppelin sur scène, et toute la pop électronique qui suivra. C'est aussi le premier instrument joué en concert sans contact physique, et un ancêtre des synthétiseurs, samplers, contrôleurs gestuels et autres instruments numériques d'aujourd'hui.
 
 :::
 
@@ -211,7 +211,7 @@ finally:
 
 ### Comment cela fonctionne ?
 
-Le programme s'articule autour de trois éléments :
+Le programme utilise trois éléments :
 
 - **`VL53L1X`** : `tof.read()` déclenche une mesure et retourne la distance en millimètres. Le capteur gère lui-même la synchronisation, pas besoin d'attendre manuellement.
 - **Timer PWM** : `buzzer_tim.freq(freq)` change la fréquence du Timer à la volée, sans interrompre le son ni bloquer la boucle. C'est ce qui donne l'effet glissando caractéristique du thérémine.
@@ -221,9 +221,9 @@ Le bloc `try / finally` garantit que le buzzer est coupé proprement quand on ar
 
 :::info[Du geste au son]
 
-Cette boucle d'une dizaine de lignes réalise une transformation que personne, avant le thérémine de 1928, n'avait jamais entendue : **un mouvement du corps qui devient directement de la musique**, sans corde à pincer, sans touche à enfoncer, sans bouche à former. Le capteur lit la position de la main (donnée physique), `map_val` la convertit en fréquence (donnée musicale), le Timer PWM la rend audible.
+Cette boucle d'une dizaine de lignes transforme un mouvement du corps directement en musique, sans corde à pincer, sans touche à enfoncer, sans bouche à former. Le capteur lit la position de la main (donnée physique), `map_val` la convertit en fréquence (donnée musicale), le Timer PWM la rend audible.
 
-Tout l'enjeu d'un instrument numérique, c'est ce **lien** entre geste et son : c'est lui qui détermine si l'instrument est expressif (subtil, sensible à de petites variations) ou rigide (binaire, sans nuance). Les variables `DIST_MIN`, `DIST_MAX`, `FREQ_MIN`, `FREQ_MAX` ne sont donc pas que des paramètres techniques : ce sont les **réglages de jeu** de notre instrument, à ajuster selon la main et l'oreille.
+Dans un instrument numérique, le lien entre geste et son détermine si l'instrument est expressif (subtil, sensible à de petites variations) ou rigide (binaire, sans nuance). Les variables `DIST_MIN`, `DIST_MAX`, `FREQ_MIN` et `FREQ_MAX` sont donc aussi les **réglages de jeu** de notre instrument, à ajuster selon la main et l'oreille.
 
 :::
 
@@ -249,9 +249,9 @@ FREQ_MAX = 1760   # Hz : LA_6, deux octaves plus haut
 
 ### 2. Quantifier les notes
 
-Entre 440 Hz et 880 Hz, il y a une **infinité** de fréquences possibles, mais l'oreille occidentale reconnaît surtout **sept** d'entre elles comme « musicales » : les notes de la gamme. Une **gamme** est ainsi une sélection esthétique de fréquences que des siècles d'usage ont retenues comme harmonieuses ensemble (cf. la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) pour le détail sur l'octave).
+Entre 440 Hz et 880 Hz, il y a une infinité de fréquences possibles, mais l'oreille occidentale reconnaît surtout sept d'entre elles comme « musicales » : les notes de la gamme. Une **gamme** est ainsi un choix de fréquences que des siècles d'usage ont retenues comme harmonieuses ensemble (cf. la fiche [Composer une mélodie](/ressources/inovmicro-exao/i07-musique) pour le détail sur l'octave).
 
-Notre thérémine joue pour l'instant **en glissando continu**, comme un violoniste : la main glisse, le son glisse avec elle, et on peut tomber « entre les notes ». C'est expressif mais difficile à maîtriser. À l'opposé, un piano joue **en notes discrètes** : on ne peut pas glisser, mais on tombe toujours juste. **Quantifier** la fréquence consiste justement à forcer notre instrument à se comporter comme un piano : peu importe la position exacte de la main, le programme choisit la note de la gamme la plus proche.
+Notre thérémine joue pour l'instant en glissando continu, comme un violoniste : la main glisse, le son glisse avec elle, et on peut tomber « entre les notes ». C'est expressif mais difficile à maîtriser. À l'opposé, un piano joue en notes discrètes : on ne peut pas glisser, mais on tombe toujours juste. **Quantifier** la fréquence consiste justement à forcer notre instrument à se comporter comme un piano : peu importe la position exacte de la main, le programme choisit la note de la gamme la plus proche.
 
 ```python
 # Gamme de La majeur en Hz (La, Si, Do#, Ré, Mi, Fa#, Sol#, La)
@@ -299,14 +299,14 @@ screen.show()
 ### Pour comprendre
 
 - **[Thérémine (Wikipédia)](https://fr.wikipedia.org/wiki/Th%C3%A9r%C3%A9mine)** : histoire de l'instrument, inventé en 1928 par Léon Thérémine, premier instrument joué sans contact physique. Comment fonctionnent ses deux antennes capacitives et pourquoi il a fasciné les compositeurs de musique électronique.
-- **[Temps de vol (Wikipédia)](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_temps_de_vol)** : la physique derrière le VL53L1X. Comment on peut mesurer une distance avec la vitesse de la lumière, et pourquoi cette technologie est aujourd'hui dans tous les téléphones (autofocus, déverrouillage facial) et dans les voitures autonomes (LIDAR).
-- **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsion)** : pourquoi un signal numérique qui ne sait dire que 0 ou 3,3 V peut produire un son audible, contrôler la vitesse d'un moteur ou faire varier la luminosité d'une LED. Le PWM est l'un des outils universels de l'électronique embarquée.
+- **[Temps de vol (Wikipédia)](https://fr.wikipedia.org/wiki/Cam%C3%A9ra_temps_de_vol)** : la physique derrière le VL53L1X. Comment on peut mesurer une distance avec la vitesse de la lumière, et où on trouve cette technologie : téléphones (autofocus, déverrouillage facial), voitures autonomes (LIDAR).
+- **[Modulation de largeur d'impulsion (Wikipédia)](https://fr.wikipedia.org/wiki/Modulation_de_largeur_d%27impulsion)** : pourquoi un signal numérique qui ne sait dire que 0 ou 3,3 V peut produire un son audible, contrôler la vitesse d'un moteur ou faire varier la luminosité d'une LED.
 
 ### Pour s'inspirer
 
-- **[Clara Rockmore](https://fr.wikipedia.org/wiki/Clara_Rockmore)** : violoniste devenue première grande virtuose du thérémine dans les années 1930. Ses performances ont prouvé que cet « instrument bizarre » pouvait jouer du Bach et du Tchaïkovski avec une expressivité bouleversante. À écouter sur YouTube avec les yeux fermés.
-- **[Theremin Hero](https://www.thereminhero.com/)** : compositeur contemporain qui mêle thérémine, jeu vidéo rétro et pop électronique. Une preuve vivante que l'instrument de 1928 n'a rien perdu de son pouvoir d'évocation.
-- **[Capteur de distance à anneau LED (Instructables)](https://www.instructables.com/LED-Ring-Distance-Sensor/)** : un capteur de distance qui pilote un anneau de LED. Même principe que notre thérémine (mapper une distance vers autre chose), appliqué à la lumière au lieu du son.
+- **[Clara Rockmore](https://fr.wikipedia.org/wiki/Clara_Rockmore)** : violoniste devenue première grande virtuose du thérémine dans les années 1930. Ses concerts ont montré que cet « instrument bizarre » pouvait jouer du Bach et du Tchaïkovski avec expressivité. À écouter sur YouTube avec les yeux fermés.
+- **[Theremin Hero](https://www.thereminhero.com/)** : compositeur contemporain qui mêle thérémine, jeu vidéo rétro et pop électronique.
+- **[Capteur de distance à anneau LED (Instructables)](https://www.instructables.com/LED-Ring-Distance-Sensor/)** : un capteur de distance qui pilote un anneau de LED. Même principe que notre thérémine (convertir une distance en autre chose), appliqué à la lumière au lieu du son.
 
 ---
 

@@ -20,7 +20,7 @@ sidebar_position: 13
 | ------------- | ------ | ---------- | --------- | --------------------- |
 | I-Novmicro #2 | 30 min | Avancé     | 11-99 ans | 0.23.1                |
 
-## Matériel et Montage
+## Matériel et montage
 
 - 1 carte STeaMi
 - 1 câble USB de données (micro-USB pour la STeaMi V1, USB-C pour la STeaMi V2).
@@ -37,7 +37,7 @@ sidebar_position: 13
 
 ## De quoi parle-t-on ?
 
-Le **code Morse** est l'une des premières méthodes de télécommunication numérique : il code chaque lettre de l'alphabet par une suite de **points** (signaux courts) et de **tirets** (signaux longs). Inventé dans les années 1830 pour le télégraphe, il a été utilisé pendant plus d'un siècle pour la marine, l'aviation et la radio amateur. Aujourd'hui encore, il reste enseigné comme exemple de **codage à longueur variable** : les lettres les plus fréquentes en anglais (E, T) sont les plus courtes à transmettre, ce qui inspire des techniques de compression modernes.
+Le **code Morse** est l'une des premières méthodes de télécommunication numérique : il code chaque lettre de l'alphabet par une suite de **points** (signaux courts) et de **tirets** (signaux longs). Inventé dans les années 1830 pour le télégraphe, il a été utilisé pendant plus d'un siècle pour la marine, l'aviation et la radio amateur. Aujourd'hui encore, il reste enseigné comme exemple de **codage à longueur variable** : les lettres les plus fréquentes en anglais (E, T) sont les plus courtes à transmettre. Des techniques de compression modernes s'en inspirent.
 
 La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un **buzzer piézo** pour le signal sonore, et les **boutons A et B** pour saisir les points et les tirets.
 
@@ -67,7 +67,7 @@ La STeaMi intègre tout le matériel nécessaire pour transmettre du Morse : un 
 
 ## Étape 1 : Construire
 
-Ici, "construire" est rapide : tout le matériel est déjà sur la carte. Le travail consiste à dire au programme MicroPython **comment accéder à chaque composant**.
+Ici, « construire » est rapide : tout le matériel est déjà sur la carte. Le travail consiste à dire au programme MicroPython **comment accéder à chaque composant**.
 
 ### Le buzzer de la STeaMi
 
@@ -124,7 +124,7 @@ Le buzzer émet la note La pendant une demi-seconde. Ce code marche, mais il est
 
 ### 4. Lancer le programme
 
-Notre premier programme va **émettre des points et des tirets selon le bouton appuyé** : le bouton A produit un signal court (point, 100 ms), le bouton B produit un signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
+Le premier programme émet des points et des tirets selon le bouton appuyé : le bouton A produit un signal court (point, 100 ms), le bouton B produit un signal long (tiret, 300 ms). Le code complet est donné à l'[Étape 2 : Programmer](#étape-2--programmer) ci-dessous. Copiez-le dans votre IDE.
 
 Une fois le code en place, deux manières de le lancer :
 
@@ -227,7 +227,7 @@ while True:
 Le programme s'organise en quatre parties :
 
 - **Initialisation** : on déclare les trois composants en haut du programme. `Pin("SPEAKER", Pin.OUT_PP)` configure la broche du buzzer en sortie ; `Pin("A_BUTTON", Pin.IN)` configure les boutons en entrée (la résistance qui maintient la valeur à `1` au repos est câblée sur la carte, rien à activer côté code).
-- **Fonction `tone(pin, freq, duration_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est ce qu'on appelle du **bit-banging** : le programme génère lui-même le signal, sans utiliser de module hardware dédié.
+- **Fonction `tone(pin, freq, duration_ms)`** : c'est elle qui fait vibrer le buzzer. Elle calcule la **demi-période** correspondant à la fréquence demandée (à 440 Hz, une période complète dure 1/440 seconde ≈ 2272 µs, donc la demi-période est 1136 µs), puis elle alterne `pin.on()` / `pin.off()` pendant la durée totale. C'est ce qu'on appelle du **bit-banging** : le programme génère lui-même le signal, sans module matériel dédié.
 - **Détection de transition** : on ne veut pas qu'un appui maintenu déclenche une rafale de sons. La technique consiste à mémoriser l'état précédent du bouton et à ne déclencher que quand on passe de **relâché** (`1`) à **appuyé** (`0`).
 - **Boucle principale** : elle scrute les deux boutons toutes les 20 ms et déclenche le bip approprié.
 
@@ -316,7 +316,7 @@ def envoyer_message(texte):
 envoyer_message("SOS HELLO WORLD")
 ```
 
-C'est un excellent exercice pour découvrir les **structures de données** (dictionnaires) et les **boucles imbriquées** : la boucle externe parcourt les lettres, la boucle interne parcourt les points et tirets de chaque lettre.
+Cet exercice fait découvrir les **structures de données** (dictionnaires) et les **boucles imbriquées** : la boucle externe parcourt les lettres, la boucle interne parcourt les points et tirets de chaque lettre.
 
 ---
 
@@ -326,15 +326,15 @@ C'est un excellent exercice pour découvrir les **structures de données** (dict
 
 - **[Code Morse international (Wikipedia)](https://fr.wikipedia.org/wiki/Code_Morse_international)** : histoire, table complète, règles de timing détaillées.
 - **[Effet piézoélectrique (Wikipedia)](https://fr.wikipedia.org/wiki/Effet_pi%C3%A9zo%C3%A9lectrique)** : pourquoi un cristal de céramique se déforme quand on lui applique une tension. Le principe derrière les buzzers, les briquets électriques, les microphones de guitare et les capteurs de pression.
-- **[Samuel Morse (Wikipedia)](https://fr.wikipedia.org/wiki/Samuel_Morse)** : peintre américain reconnu, il invente le télégraphe après avoir appris trop tard la mort de sa femme. Une bascule de carrière qui révolutionnera les communications.
-- **[Théorie de l'information (Wikipedia)](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information)** : le code Morse est le premier exemple historique de **codage à longueur variable** (les lettres fréquentes sont les plus courtes). Cette intuition a inspiré le codage de Huffman et toute la compression de données moderne (zip, JPEG, MP3...).
+- **[Samuel Morse (Wikipedia)](https://fr.wikipedia.org/wiki/Samuel_Morse)** : peintre américain reconnu, il invente le télégraphe après avoir appris trop tard la mort de sa femme.
+- **[Théorie de l'information (Wikipedia)](https://fr.wikipedia.org/wiki/Th%C3%A9orie_de_l%27information)** : le code Morse est le premier exemple historique de **codage à longueur variable** (les lettres fréquentes sont les plus courtes). Cette intuition a inspiré le codage de Huffman et la compression de données moderne (zip, JPEG, MP3...).
 
 ### Pour s'inspirer
 
 - **[Les « messages personnels » de Radio Londres](https://fr.wikipedia.org/wiki/Messages_personnels)** : pendant la Seconde Guerre mondiale, la BBC ouvrait ses émissions vers la France par les premières notes de la 5ᵉ symphonie de Beethoven, qui sont exactement la lettre **V** en code Morse (`. . . -`), pour _Victoire_. Suivaient des phrases codées destinées à la Résistance.
-- **[SOS, le signal de détresse universel](https://fr.wikipedia.org/wiki/SOS)** : adopté en 1908 pour sa simplicité en Morse (`. . . - - - . . .`), c'est l'un des premiers signaux radio à avoir traversé les océans. Le Titanic l'a utilisé en 1912, contribuant à imposer son usage international.
-- **[Radioamateurisme](https://fr.wikipedia.org/wiki/Radioamateur)** : un hobby mondial qui continue d'organiser des concours de transmission en Morse à très longue distance, parfois avec très peu d'énergie. Une communauté active de bidouilleurs d'ondes.
-- **[Chiptune (Wikipedia)](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits. La STeaMi fait exactement ce qu'une Game Boy faisait pour produire ses musiques.
+- **[SOS, le signal de détresse universel](https://fr.wikipedia.org/wiki/SOS)** : adopté en 1908 pour sa simplicité en Morse (`. . . - - - . . .`), c'est l'un des premiers signaux radio à avoir traversé les océans. Le Titanic l'a utilisé en 1912, ce qui a aidé à en imposer l'usage international.
+- **[Radioamateurisme](https://fr.wikipedia.org/wiki/Radioamateur)** : un hobby mondial qui continue d'organiser des concours de transmission en Morse à très longue distance, parfois avec très peu d'énergie.
+- **[Chiptune (Wikipedia)](https://fr.wikipedia.org/wiki/Chiptune)** : style musical né dans les années 80 qui exploite les puces audio limitées des consoles 8 bits. La STeaMi fait ce qu'une Game Boy faisait pour produire ses musiques.
 
 ---
 
