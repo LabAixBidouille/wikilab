@@ -51,7 +51,7 @@ La vitesse du son est affectée par les conditions environnementales dans lesque
 
 ## Déroulé de l'activité
 
-L'activité étudie l'effet de la température sur la vitesse du son dans l'air. Des capteurs de température et de vitesse du son collectent les données, un écran LCD les affiche et un tableur sert à les analyser. Les résultats donnent une approximation de la loi qui relie la vitesse du son à la température, et valident ou invalident l'hypothèse selon laquelle la vitesse du son varie en fonction de la température. Les étapes de l'expérience comprennent :
+L'activité étudie l'effet de la température sur la vitesse du son dans l'air. Des capteurs de température et de vitesse du son collectent les données, un écran LCD les affiche et un tableur sert à les analyser. Les résultats servent à déterminer une approximation de la loi qui relie la vitesse du son à la température, et à valider ou invalider l'hypothèse selon laquelle la vitesse du son varie en fonction de la température. Les étapes de l'expérience comprennent :
 
 - La configuration de l'enceinte isolée
 - La mesure de la vitesse du son avec un capteur à ultrasons

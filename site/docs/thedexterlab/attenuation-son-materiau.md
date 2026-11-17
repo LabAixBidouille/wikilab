@@ -115,7 +115,7 @@ Le microphone est, lui aussi, placé au même endroit pour chaque mesure. Pour s
 
 L'écran affiche la mesure pendant l'expérimentation, ce qui permet de noter la valeur obtenue pour chacun des matériaux.
 
-Les mesures doivent impérativement se faire dans une pièce aussi silencieuse que possible, pour ne pas fausser les résultats.
+Pendant l'expérience, la pièce doit impérativement être aussi silencieuse que possible pour ne pas fausser les résultats.
 
 ### Débriefing
 

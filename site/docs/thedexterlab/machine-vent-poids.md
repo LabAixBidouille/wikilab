@@ -53,7 +53,7 @@ sidebar_position: 15
 ---
 
 :::info
-Depuis l'Antiquité, l'humanité se sert du vent pour moudre le grain, pomper l'eau et explorer le monde, avec par exemple les moulins à vent néerlandais ou les voiliers des Phéniciens. Plus récemment, l'énergie éolienne est devenue une source d'énergie renouvelable importante. Aujourd'hui, en passant par l'histoire et par la science, vous allez chercher comment le vent peut servir à soulever un poids de 50 g. L'énergie cinétique du vent peut être captée et convertie en énergie électrique grâce à des technologies telles que les éoliennes.
+Depuis l'Antiquité, l'humanité se sert du vent : les voiliers des Phéniciens pour explorer le monde, plus tard les moulins à vent néerlandais pour moudre le grain et pomper l'eau. Plus récemment, l'énergie éolienne est devenue une source d'énergie renouvelable importante. Aujourd'hui, en passant par l'histoire et par la science, vous allez chercher comment le vent peut servir à soulever un poids de 50 g. L'énergie cinétique du vent peut être captée et convertie en énergie électrique grâce à des technologies telles que les éoliennes.
 :::
 
 ## Déroulé de l'activité
@@ -71,7 +71,7 @@ Ce protocole décrit les étapes à suivre pour construire un système de levage
 
 Ce protocole mobilise plusieurs compétences, dont l'ingénierie, la conception, la résolution de problèmes et la pensée critique. Les disciplines associées comprennent notamment la physique, la mécanique, l'énergie renouvelable, l'aérodynamique et la conversion de l'énergie.
 
-Les élèves apprendront à construire des turbines éoliennes, à comprendre les principes de l'aérodynamique et de la conversion de l'énergie, à concevoir des mécanismes pour transformer le mouvement rotatif en mouvement linéaire, et à résoudre des problèmes d'ingénierie complexes. Ils acquerront également une compréhension pratique de l'énergie renouvelable.
+Les élèves apprendront à construire des turbines éoliennes, à comprendre les principes de l'aérodynamique et de la conversion de l'énergie, à concevoir des mécanismes pour transformer le mouvement rotatif en mouvement linéaire, et à résoudre des problèmes d'ingénierie complexes. Ils acquerront également une compréhension pratique de l'énergie renouvelable et de son rôle dans un avenir durable.
 
 ## Étape 1 : Découverte du vent et son usage dans l'histoire
 

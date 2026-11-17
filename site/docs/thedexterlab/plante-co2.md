@@ -55,7 +55,7 @@ L'absorption du dioxyde de carbone par les plantes est un processus connu. Les p
 
 ## Déroulé de l'activité
 
-Ce projet consiste à sensibiliser les jeunes sur les enjeux climatiques. Protéger et augmenter nos espaces verts doit être une préoccupation. On mène des expériences pour observer que les plantes vertes produisent du dioxygène à la lumière alors qu'elles le consomment dans l'obscurité, puis on peut les poursuivre dans des conditions différentes.
+Ce projet consiste à sensibiliser les jeunes sur les enjeux climatiques. Protéger et augmenter nos espaces verts doit être une préoccupation. On mène des expériences pour observer que les plantes vertes produisent du dioxygène à la lumière alors qu'elles le consomment dans l'obscurité, puis on propose de les poursuivre dans des conditions différentes.
 
 Les objectifs d'apprentissage de cette activité seront donc les suivants :
 

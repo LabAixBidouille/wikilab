@@ -131,7 +131,7 @@ Afin d'informer l'utilisateur de la tension mesurée, la première solution qui 
 
 ### Débriefing
 
-Cette étape donne une vision directe des données mesurées pendant l'expérience. Les hypothèses émises à l'étape précédente peuvent alors se vérifier directement.
+Cette étape donne une vision directe des données mesurées pendant l'expérience. L'investigation a ainsi pu vérifier directement les hypothèses émises à l'étape précédente.
 
 ## Étape 3 : Analyser les données
 

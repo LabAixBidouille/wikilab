@@ -174,7 +174,7 @@ Selon cette équation, la période T est proportionnelle à la racine carrée de
 
 La formule pour la période d'un pendule simple ne dépend pas de la masse de l'objet au bout de la ficelle. En pratique, deux pendules de même longueur mais de masses différentes devraient avoir des périodes d'oscillation identiques, à condition que les effets de la résistance de l'air et du frottement soient négligeables.
 
-Ce résultat peut surprendre les élèves et ouvrir une discussion sur la physique en jeu.
+Ce résultat peut paraître contre-intuitif aux élèves et ouvrir une discussion sur la physique en jeu.
 
 ### Investigation
 
@@ -237,7 +237,7 @@ Les élèves vont essayer de créer un pendule dont la fréquence sera de 1 Hz (
 
 ### Débriefing
 
-Dans cette expérimentation, les élèves ont appris à ajuster un pendule pour obtenir une période d'oscillation d'une seconde, en appliquant des principes de physique fondamentale et des formules mathématiques à des problèmes pratiques. L'activité a montré que la mesure doit être précise.
+Dans cette expérimentation, les élèves ont appris à ajuster un pendule pour obtenir une période d'oscillation d'une seconde, en appliquant des principes de physique fondamentale et des formules mathématiques à des problèmes pratiques. L'activité a montré que la précision de la mesure compte.
 
 ## Étape 4 : Comprendre les mécanismes d'échappement
 

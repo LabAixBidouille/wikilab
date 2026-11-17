@@ -133,7 +133,7 @@ Voici un exemple :
 | 12h00 | Vent modéré | L'éolienne tourne plus lentement et la LED brille plus faiblement |
 | 15h00 | Pas de vent | L'éolienne ne tourne pas et la LED est éteinte |
 
-Si les conditions de vent de la région sont moins favorables, on peut essayer de construire des turbines de différentes tailles et refaire l'enquête : une turbine de petit, de moyen et de grand diamètre. Les fixer une par une sur l'axe et noter les observations pour des conditions de vent relativement identiques. Voici un exemple :
+Si les conditions de vent de la région sont moins favorables, on peut essayer de construire des turbines de petit, de moyen et de grand diamètre et refaire l'enquête. Les fixer une par une sur l'axe et noter les observations pour des conditions de vent relativement identiques. Voici un exemple :
 
 - Vent faible ou léger : la petite turbine tourne... et la LED est...
 - Vent faible ou léger : la turbine moyenne tourne... et la LED est...

@@ -75,7 +75,7 @@ Ce protocole mobilise plusieurs compétences :
 - Collecter des données expérimentales, notamment en concevant et en montant l'expérience, et en mesurant les variables pertinentes avec des instruments de mesure appropriés.
 - Analyser les données, notamment en représentant les résultats sur un graphique, en repérant des tendances et des corrélations, et en tirant des informations utiles.
 - Conceptualiser, c'est-à-dire comprendre les concepts scientifiques sous-jacents, comme le CO2, le pH et la photosynthèse.
-- Communiquer des résultats scientifiques, notamment en rédigeant des rapports clairs et précis, et en les présentant de manière visuelle et compréhensible.
+- Communiquer des résultats scientifiques, notamment en rédigeant des rapports clairs et précis, et en présentant les résultats de manière visuelle et compréhensible.
 
 Les disciplines associées à ce protocole incluent la biologie, la chimie, la physique et les mathématiques, ainsi que la communication scientifique et l'analyse des données.
 

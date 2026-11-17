@@ -70,7 +70,7 @@ Cette expérimentation aborde différentes notions du cursus de manière interdi
 
 Côté programmation et électronique, les élèves apprennent à programmer une carte comme la STM32 IoT Node Board pour contrôler des composants électroniques tels que le bouton-poussoir, le buzzer et la LED. Ils peuvent y acquérir des compétences utiles dans de nombreux domaines, comme l'informatique, l'ingénierie et la robotique.
 
-Enfin, les élèves mettent en pratique la méthode scientifique : formuler une question scientifique pertinente, concevoir une expérience pour y répondre, collecter des données de manière rigoureuse et les analyser pour en tirer des conclusions.
+Enfin, les élèves mettent en pratique la méthode scientifique et apprennent à formuler une question scientifique pertinente, à concevoir une expérience pour y répondre, à collecter des données de manière rigoureuse et à les analyser pour en tirer des conclusions.
 
 ## Étape 1 : Collecter des données
 
@@ -156,7 +156,7 @@ Parcourir le tableau de données et calculer le temps de réaction correspondant
 
 Répéter ensuite le même processus pour la série de mesures prise dans différentes conditions (scénarios de distraction), afin de déterminer si celles-ci ont une incidence sur les résultats. Il est aussi utile de représenter les résultats sur un graphique pour mieux les visualiser.
 
-Réfléchir à ce qu'on a trouvé du point de vue d'un piéton, d'un cycliste ou d'un conducteur de voiture, et discuter de la manière dont la distraction peut affecter le comportement sur la route et sa propre sécurité, ainsi que celle des autres.
+Réfléchir à ce qu'on a trouvé du point de vue d'un piéton, d'un cycliste ou d'un conducteur de voiture, et discuter de la manière dont la distraction peut affecter le comportement sur la route et la sécurité de la personne distraite, ainsi que celle des autres.
 
 ### Débriefing
 

@@ -93,7 +93,7 @@ Connecter ensuite la cellule photovoltaïque à un moteur ou à une LED, et voir
 
 ### Débriefing
 
-Dans cette phase, on a appris que la lumière transporte de l'énergie, ce que peut montrer l'exemple de la chaleur ressentie en plein soleil, et qu'on peut la collecter avec des cellules photovoltaïques, qui transforment l'énergie lumineuse en électricité. Des cellules de tailles différentes peuvent alimenter différents types d'appareils, des plus petits aux plus grands. En connectant une cellule photovoltaïque à un moteur ou à une LED, on peut observer son fonctionnement dans différentes conditions de lumière.
+Dans cette phase, on a appris que la lumière transporte de l'énergie, ce que peut montrer l'exemple de la chaleur ressentie en plein soleil, et qu'on peut collecter cette énergie lumineuse avec des cellules photovoltaïques, qui la transforment en électricité. Des cellules de tailles différentes peuvent alimenter différents types d'appareils, des plus petits aux plus grands. En connectant une cellule photovoltaïque à un moteur ou à une LED, on peut observer son fonctionnement dans différentes conditions de lumière.
 
 ## Étape 2 : Afficher les données collectées
 
