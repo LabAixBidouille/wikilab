@@ -185,7 +185,7 @@ while True:
     sleep_ms(1000)
 ```
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 1. **Imports** : `PWM` et `Pin` depuis `machine`, `sleep_ms` pour les pauses.
 2. **Initialisation** : on crée un objet `PWM` sur la broche P7, on fixe sa fréquence à **50 Hz**.

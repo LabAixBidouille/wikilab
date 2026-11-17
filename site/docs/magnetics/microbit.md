@@ -31,7 +31,7 @@ sidebar_position: 1
 
 </div>
 
-<img src="/img/ressources/magnetics/microbit/icone.png" alt="Magnetics — micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/magnetics/microbit/icone.png" alt="Créer des projets multicartes sur micro:bit" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -195,7 +195,7 @@ magnetics.setAdvertisingKeyValueData("Sound ()", input.soundLevel())
 })
 ```
 
-### Comment cela fonctionne-t-il ? Initialiser la collecte de données
+### Fonctionnement du programme : Initialiser la collecte de données
 
 Le code des trois cartes émettrices est quasiment identique (seul le capteur change) et reste simple à comprendre.
 

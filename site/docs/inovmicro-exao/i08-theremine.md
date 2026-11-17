@@ -209,7 +209,7 @@ finally:
     buzzer_ch.pulse_width_percent(0)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme utilise trois éléments :
 

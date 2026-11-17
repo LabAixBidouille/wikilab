@@ -211,7 +211,7 @@ while True:
     led_3.value(0)
 ```
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 1. **Imports** : `Pin` pour piloter les broches GPIO, `sleep_ms` pour les pauses entre les changements d'état.
 2. **Initialisation** : trois broches du connecteur Edge sont configurées en sortie (`Pin.OUT`). À partir de ce moment, écrire `1` sur la broche y impose 3,3 V, écrire `0` la met à 0 V.
@@ -302,4 +302,4 @@ Imaginer un autre usage des trois LED, sans contrainte. Quelques pistes :
 
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as02-breadboard`](/ressources/lets-steam/r1as02-breadboard)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as02-breadboard`](/ressources/lets-steam/r1as02-breadboard)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

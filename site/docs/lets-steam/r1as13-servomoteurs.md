@@ -130,7 +130,7 @@ forever(function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Cet exemple est assez simple puisqu'il s'agit du classique clignotement adapté à un servomoteur.
 

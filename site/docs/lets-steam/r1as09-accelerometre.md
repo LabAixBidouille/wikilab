@@ -138,7 +138,7 @@ forever(function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Le programme consiste à allumer une LED sur l'axe sur lequel est détectée l'accélération (-1g) due à la gravité.
 

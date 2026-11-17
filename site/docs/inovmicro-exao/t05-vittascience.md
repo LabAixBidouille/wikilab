@@ -195,7 +195,7 @@ while True:
   </figcaption>
 </figure>
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 1. **Imports** : `machine.Pin` pour piloter les broches de la carte, `sleep_ms` pour temporiser dans la boucle.
 2. **Initialisation des LED** : trois broches en sortie, une pour chaque composante de la LED RGB. Les noms `LED_RED`, `LED_GREEN`, `LED_BLUE` sont des constantes exposées par MicroPython sur la STeaMi (cf. table « Broches utilisées »).

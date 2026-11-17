@@ -313,7 +313,7 @@ while True:
         time.sleep_ms(500)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme s'organise autour de trois mécanismes :
 

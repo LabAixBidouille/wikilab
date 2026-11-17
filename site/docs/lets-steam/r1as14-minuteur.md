@@ -150,7 +150,7 @@ input.buttonUser.onEvent(ButtonEvent.Click, function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 La partie principale du code concerne les interactions avec les boutons. Ces interactions sont gérées avec la fonction `input.buttonUSER.onEvent`.
 
@@ -170,16 +170,16 @@ Une fois le compte de 0 à 179 terminé, le programme déplace rapidement le ser
 
 ## Aller plus loin
 
-- **Modulation de largeur d'impulsion** - En savoir plus sur le signal numérique de modulation de largeur d'impulsion.
+- **Modulation de largeur d'impulsion** : en savoir plus sur le signal numérique de modulation de largeur d'impulsion.
   https://learn.sparkfun.com/tutorials/pulse-width-modulation/all
 
-- **Comment faire bouillir un oeuf à la perfection** - Apprenez combien de temps faire bouillir un oeuf pour obtenir la consistance voulue.
+- **Comment faire bouillir un oeuf à la perfection** : apprenez combien de temps faire bouillir un oeuf pour obtenir la consistance voulue.
   https://www.bbcgoodfood.com/howto/guide/how-boil-egg-perfectly
 
-- **Compte à rebours** - Créez un compte à rebours et regardez les secondes défiler sur la montre micro:bit.
+- **Compte à rebours** : créez un compte à rebours et regardez les secondes défiler sur la montre micro:bit.
   https://makecode.microbit.org/projects/watch/timer
 
-- **Micro:bit Egg Timer** - Réalisez un minuteur de cuisson des oeufs avec micro:bit et l'impression 3D.
+- **Micro:bit Egg Timer** : réalisez un minuteur de cuisson des oeufs avec micro:bit et l'impression 3D.
   https://www.myminifactory.com/object/3d-print-micro-bit-egg-timer-18361
 
 ---

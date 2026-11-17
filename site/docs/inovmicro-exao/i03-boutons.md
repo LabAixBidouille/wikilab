@@ -172,7 +172,7 @@ while True:
     sleep_ms(20)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme s'organise en quatre parties :
 

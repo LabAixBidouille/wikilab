@@ -130,7 +130,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
   <figcaption style={{margin: 0}}>Programme complet : vue JavaScript</figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Ce programme mesure le niveau sonore ambiant toutes les 5 secondes (intervalle modifiable) et compile les informations dans un « datalogger » depuis lequel on peut télécharger un fichier `.csv`.
 

@@ -162,7 +162,7 @@ music.playTone(247, music.beat(BeatFraction.Half))
 </div>
 </div>
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Ce programme représente une séquence de notes avec une durée. Comprendre cette activité relève davantage de la musique que de la programmation.
 

@@ -131,7 +131,7 @@ input.onDistanceConditionChanged(DistanceCondition.Far, 1000, DistanceUnit.Milli
     })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Ce programme reprend simplement ce qui a déjà été appris dans les fiches d'activités précédentes. Il a 3 parties, plus une variable qui garde l'état de l'alarme.
 

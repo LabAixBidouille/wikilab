@@ -121,7 +121,7 @@ forever(function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Dans ce programme, il y a 2 variables. La première, `distance`, est utilisée pour mémoriser la distance et déterminer la note à jouer. Ensuite, il y a `note`, qui n'est pas indispensable au fonctionnement mais rend chaque étape du programme plus lisible. Elle contient la transformation de la distance en fréquence du ton.
 

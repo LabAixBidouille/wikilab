@@ -236,7 +236,7 @@ finally:
   </figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme se lit en trois temps :
 

@@ -313,7 +313,7 @@ while True:
     time.sleep_ms(500)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme s'organise en **cinq fonctions** bien séparées, et la boucle principale n'a plus que trois lignes :
 
