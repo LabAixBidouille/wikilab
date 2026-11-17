@@ -151,7 +151,7 @@ Les participant·es :
 
 - **identifient de façon critique** des biais de genre précis dans les réponses d'une IA, et les relient à l'écart présent dans les données des modèles de langage
 - **relient la justice sociale aux données** : ils expliquent comment les cibles 5.3 et 5.a donnent la base juridique d'une société équitable
-- **évaluent les limites du binaire** : ils discutent des raisons pour lesquelles une taille et un poids ne rendent compte ni d'une identité humaine ni de la complexité de l'émancipation
+- **évaluent les limites du binaire** : ils discutent des raisons pour lesquelles réduire l'identité humaine à une taille et un poids ne rend pas compte de la complexité de l'émancipation
 - **proposent des solutions éthiques** : des façons concrètes de débiaiser un algorithme ou d'améliorer un jeu de données
 - **reformulent le message clé** : « une IA est le miroir de nos données passées, mais à la lumière de l'Objectif 5, nous pouvons construire des outils qui reflètent un futur plus égalitaire »
 

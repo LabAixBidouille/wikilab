@@ -884,7 +884,7 @@ Les questions 3, 7 et 10 sont notées dans les colonnes B et RAG, et le binôme 
 
 **À retenir** : l'échec d'un RAG ne se voit pas. Quand il choisit les mauvais morceaux, le modèle reçoit quand même 5 extraits, et il peut répondre à partir d'eux avec assurance. C'est pour cela que les questions de test comptent : elles montrent les échecs que la discussion ne montre pas.
 
-L'atelier 3 essaie, sur les mêmes questions, un modèle qui cherche lui-même les morceaux, et dont on pourrait voir où il a cherché, et quand il n'a rien trouvé.
+L'atelier 3 essaie, sur les mêmes questions, un modèle qui cherche lui-même les morceaux, et dont on peut voir où il a cherché, et quand il n'a rien trouvé.
 
 **En pratique.** Si vos documents sont peu nombreux et courts, mettez-les tous dans le contexte : c'est simple, et le modèle peut les comparer. S'ils ne tiennent plus, ou si chaque message coûte trop cher, utilisez un RAG, et continuez de le tester avec des questions dont vous connaissez les réponses.
 
