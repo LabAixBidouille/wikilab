@@ -63,11 +63,11 @@ Trouver la logique de construction derrière chaque formule scientifique et calc
 
 ### Affûter sa dextérité
 
-Faire attention de ne pas faire tomber d'élément en les transférant d'un tube à essai à un autre. La dextérité est liée à l'intégration transparente des mains dans le système cognitif, ce qui fait des aptitudes manuelles un élément important de l'interaction des personnes avec l'environnement et de leurs capacités à ressentir, explorer, agir, planifier et apprendre.
+Faire attention de ne pas faire tomber d'élément en les transférant d'un tube à essai à un autre. La dextérité est liée au fait que les mains font partie intégrante du système cognitif. Les aptitudes manuelles jouent donc un rôle important dans la façon dont chacun interagit avec son environnement, et dans sa capacité à ressentir, explorer, agir, planifier et apprendre.
 
 ### Comprendre le fonctionnement basique des tours de Hanoï
 
-Aller à la découverte de ce formidable mais néanmoins difficile jeu de réflexion mathématique. Il s'agit d'un puzzle composé de 3 tiges et d'un certain nombre de disques de différents diamètres. Au début, les disques empilés sur la première tige par taille décroissante. L'objectif est de déplacer la pile entière sur la dernière tige. On ne peut déplacer plus d'un disque à la fois, et on ne peut placer un disque que sur un autre disque plus grand que lui ou sur un emplacement vide.
+Découvrir les tours de Hanoï, un jeu de réflexion mathématique difficile. Il s'agit d'un puzzle composé de 3 tiges et d'un certain nombre de disques de différents diamètres. Au début, les disques sont empilés sur la première tige par taille décroissante. L'objectif est de déplacer la pile entière sur la dernière tige. On ne peut déplacer plus d'un disque à la fois, et on ne peut placer un disque que sur un autre disque plus grand que lui ou sur un emplacement vide.
 
 ---
 
@@ -79,7 +79,7 @@ Chaque joueur doit effectuer les bons remplissages de tubes à essai décrits pa
 
 ### Rôle de l'enseignant et organisation du jeu
 
-Nous appellerons les écoliers, joueurs, et l'adulte en charge des écoliers ou un écolier choisi par les autres, arbitre. Lorsque les joueurs jouent à tour de rôle, c'est l'arbitre qui décide de l'ordre.
+Les écoliers sont les joueurs. L'adulte en charge des écoliers, ou un écolier choisi par les autres, est l'arbitre. Lorsque les joueurs jouent à tour de rôle, c'est l'arbitre qui décide de l'ordre.
 
 ### Installation
 
@@ -143,7 +143,7 @@ Pour développer davantage la dextérité, vous pouvez vous référer à d'autre
 
 ### Sujet 3 - Tour de Hanoi
 
-Vous souhaiterez peut-être découvrir le célèbre jeu mathématique Tour de Hanoï :
+Pour découvrir le célèbre jeu mathématique Tour de Hanoï :
 
 - https://fr.wikipedia.org/wiki/Tours_de_Hano%C3%AF
 - Jouez-la ici : https://www.mathsisfun.com/games/towerofhanoi.html

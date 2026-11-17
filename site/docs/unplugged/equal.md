@@ -54,7 +54,7 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-Le jeu Equal propose une réflexion sur l'égalité et aide à surmonter les stéréotypes de genre. Les nouvelles générations rencontrent constamment de nouveaux défis. Il est donc crucial de pouvoir faire la différence entre les stéréotypes de genre et les différences réelles, les généralités et le caractère unique de chaque individu. Sensibiliser à l'égalité des chances, c'est amener les générations futures vers une société inclusive qui n'entrave la croissance de personne et laisse les enfants libre de leur choix et leur décisions.
+Le jeu Equal propose une réflexion sur l'égalité et aide à surmonter les stéréotypes de genre. Il faut pouvoir faire la différence entre les stéréotypes de genre et les différences réelles, entre les généralités et le caractère unique de chaque individu. Sensibiliser à l'égalité des chances amène les générations futures vers une société inclusive qui n'entrave le développement de personne et laisse les enfants libres de leurs choix et de leurs décisions.
 
 ---
 
@@ -74,11 +74,11 @@ Chaque carte-métier étudiée à ses spécificités géographiques. Qu'elles so
 
 ### Thème 3 - Sciences
 
-Les enfants découvrent les différences entre les domaines scientifiques tels que la biologie, la chimie et la médecine. Les cartes-métiers ont été soigneusement sélectionnées pour aider les élèves à comprendre les différences entre les disciplines scientifiques.
+Les enfants découvrent les différences entre les domaines scientifiques, comme la biologie, la chimie et la médecine, grâce à des cartes-métiers sélectionnées dans ce but.
 
 ### Thème 4 - Sports
 
-Existe-t-il des sports réservés aux femmes ou aux hommes ? À travers des anecdotes sur les métiers du sport, les enfants sont surpris de découvrir que la gymnastique n'est pas réservée aux filles, et le football aux garçons. Au contraire, ils comprendront que le paysage sportif est varié et ouvert à tous !
+Existe-t-il des sports réservés aux femmes ou aux hommes ? À travers des anecdotes sur les métiers du sport, les enfants sont surpris de découvrir que la gymnastique n'est pas réservée aux filles, et le football aux garçons. Au contraire, ils comprendront que les sports sont variés et ouverts à tous !
 
 ### Thèmes transversaux - Culture générale et égalité des sexes
 
@@ -100,9 +100,9 @@ Après avoir joué, les élèves découvrent des anecdotes sur les professions, 
 
 ### L'univers du jeu
 
-EQUAL est un jeu de société inspiré du Time's Up (archive.org 2023-09 : https://web.archive.org/web/20230922102956/https://www.asmodee.it/linea_timesup.php). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant, contribuant ainsi à dépasser les stéréotypes de genre.
+EQUAL est un jeu de société inspiré du Time's Up (archive.org 2023-09 : https://web.archive.org/web/20230922102956/https://www.asmodee.it/linea_timesup.php). Pour gagner la partie, il faut réussir à deviner des cartes-métiers au cours d'une série d'épreuves. Le jeu permet de découvrir différents métiers, leur définition, leurs caractéristiques et certains des outils qu'ils utilisent. Les joueurs découvrent des faits, événements et anecdotes les concernant.
 
-### Qu'est-ce qui fait que le joueur avance et gagne ?
+### Points et victoire
 
 Le jeu se déroule en 4 étapes + 1 phase finale de bonus avec la roue. Les joueurs sont répartis en équipes.
 
@@ -132,9 +132,9 @@ Avant de commencer à jouer, le professeur :
 
 Lors de la phase finale (bonus), chaque équipe dispose de 30 secondes pour associer le métier indiqué sur la carte piochée à un personnage historique, de jeux vidéo, de dessins animés, de films ou de livres.
 
-### Quel est le rôle de l'enseignant ?
+### Rôle de l'enseignant
 
-Le rôle de l'enseignant est crucial pour amener le jeu à ouvrir des débats. En observant et en modérant la dynamique dans la classe, l'enseignant peut développer une approche holistique du jeu et introduire le thème de l'égalité (c'est-à-dire faciliter le processus entre les élèves - expliquer et surveiller l'ordre de gain des points, veiller au respect des règles, dialoguer, etc.). Les enseignants peuvent aussi profiter du jeu pour approfondir des sujets qui font partie du programme scolaire.
+L'enseignant amène le jeu à ouvrir des débats. En observant et en modérant la dynamique de la classe, il peut faciliter le déroulement du jeu entre les élèves (expliquer et surveiller l'ordre de gain des points, veiller au respect des règles, dialoguer, etc.) et introduire le thème de l'égalité. Les enseignants peuvent aussi profiter du jeu pour approfondir des sujets qui font partie du programme scolaire.
 
 L'enseignant est le facilitateur qui :
 

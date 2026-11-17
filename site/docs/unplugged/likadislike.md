@@ -50,7 +50,7 @@ sidebar_position: 17
 
 ## De quoi parle-t-on ?
 
-Les joueurs piochent une carte décrivant une situation. Ensuite, chaque enfant exprime face cachée avec une carte emoji s'il aime, n'aime pas ou aime la situation décrite. Tous les joueurs retournent les cartes emoji en même temps et peuvent réagir sans jugement aux sentiments des autres.
+Les joueurs piochent une carte décrivant une situation. Ensuite, chaque enfant exprime face cachée avec une carte emoji s'il aime, n'aime pas ou adore la situation décrite. Tous les joueurs retournent les cartes emoji en même temps et peuvent réagir sans jugement aux sentiments des autres.
 
 ---
 
@@ -58,11 +58,11 @@ Les joueurs piochent une carte décrivant une situation. Ensuite, chaque enfant 
 
 ### Apprendre à se connaître et à mieux se connaître
 
-Offre un dispositif brise-glace favorisant le rapprochement des élèves en les confrontant à des situations de toutes sortes. Il n'y a pas de carte "ni j'aime, ni je n'aime pas" car le jeu vise à ce que les enfants prennent réellement position.
+Ce jeu brise-glace aide à rapprocher les élèves en les confrontant à des situations de toutes sortes. Il n'y a pas de carte "ni j'aime, ni je n'aime pas" car le jeu vise à ce que les enfants prennent réellement position.
 
 ### Avoir moins peur des autres et de ce que pensent les autres
 
-Les relations sociales peuvent permettre d'éviter les idées préconçues et favoriser l'inclusion.
+Les relations sociales peuvent aider à éviter les idées préconçues et à favoriser l'inclusion.
 
 ### S'exprimer
 
@@ -96,15 +96,15 @@ Mélangez le paquet de cartes situations et placez-le au centre des joueurs. Don
 
 ## Phases de jeu
 
-### Phase 1 - Phase du joueur actif
+### Phase 1 : Joueur actif
 
 Le joueur actif pioche une carte situation, choisit sa carte réaction et sa carte de groupe (majorité, minorité, médiane).
 
-### Phase 2 - Phase de réaction
+### Phase 2 : Réaction
 
 Le joueur actif révèle la carte situation. Tous les autres joueurs choisissent leur carte réaction face cachée.
 
-### Phase 3 - Phase de révélation
+### Phase 3 : Révélation
 
 Tous les joueurs retournent leurs cartes de réaction en même temps. Les joueurs sont libres de débattre calmement et sans jugement. Si le joueur actif remporte son pari, il récupère la carte situation en tant que point de victoire.
 
@@ -112,15 +112,15 @@ Tous les joueurs retournent leurs cartes de réaction en même temps. Les joueur
 
 ## Aller plus loin
 
-### Sujet 1 - Exprimer une opinion
+### Sujet 1 : Exprimer une opinion
 
 - https://www.rolemodels.me/news/express-opinions-confidently
 
-### Sujet 2 - Exprimer ses sentiments
+### Sujet 2 : Exprimer ses sentiments
 
 - https://ideas.ted.com/how-to-raise-emotionally-intelligent-kids/
 
-### Sujet 3 - Inclusivité
+### Sujet 3 : Inclusivité
 
 - https://www.twinkl.bg/teaching-wiki/inclusion
 

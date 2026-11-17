@@ -51,7 +51,7 @@ sidebar_position: 2
 
 ## De quoi parle-t-on ?
 
-Dans le défi du comptage binaire, les enfants apprendront à compter comme un ordinateur (en utilisant le système de nombres binaires). Le système numérique binaire est un système de base 2. La compréhension des nombres binaires, du système binaire et de la conversion entre le binaire et le décimal est essentielle pour toute personne impliquée dans l'informatique, le codage et les réseaux. En d'autres termes, les enfants apprendront à compter en utilisant uniquement les chiffres 0 et 1. En outre, les enfants apprendront à former des mots avec des chiffres binaires.
+Dans le défi du comptage binaire, les enfants apprendront à compter comme un ordinateur, avec le système de nombres binaires. C'est un système de base 2 : on y compte uniquement avec les chiffres 0 et 1. Toute personne impliquée dans l'informatique, le codage et les réseaux a besoin de comprendre les nombres binaires, le système binaire et la conversion entre le binaire et le décimal. Les enfants apprendront aussi à former des mots avec des chiffres binaires.
 
 ---
 
@@ -59,7 +59,7 @@ Dans le défi du comptage binaire, les enfants apprendront à compter comme un o
 
 ### Aborder la programmation
 
-Savoir programmer est devenu une des compétences importantes de notre siècle, car notre société devient de plus en plus automatisée et numérisée. La programmation prépare les enfants à obtenir des compétences qu'ils pourront utiliser lorsqu'ils seront adultes. Les compétences qui peuvent être acquises par la programmation :
+Savoir programmer est devenu une compétence importante, car la société s'automatise et se numérise de plus en plus. La programmation prépare les enfants à obtenir des compétences qu'ils pourront utiliser lorsqu'ils seront adultes. Les compétences qui peuvent être acquises par la programmation :
 
 - Pensée créative et logique
 - Conscience spatiale
@@ -69,27 +69,27 @@ Savoir programmer est devenu une des compétences importantes de notre siècle, 
 
 ### Découvrez le système binaire
 
-Le système numérique binaire joue un rôle central dans la manière dont les informations de toutes sortes sont stockées sur les ordinateurs. Comprendre le système binaire permet de lever une grande partie du mystère qui entoure les ordinateurs, car à un niveau fondamental, ce ne sont que des machines mathématiques qui fonctionnent avec des informations numériques, c'est-à-dire que ces informations sont soit "éteintes", soit "allumées". Cette information est représentée en informatique par le système numérique binaire, qui utilise uniquement les chiffres 0 et 1. Ces chiffres binaires sont appelés bits en informatique. Ainsi, en informatique, 0 = désactivé et 1 = activé. Cela permet aux ordinateurs d'utiliser une série de "commutateurs" pour prendre des décisions sur la base d'une série de décisions logiques (c'est ce qu'est un programme informatique ou "code").
+Les ordinateurs stockent en binaire les informations de toutes sortes. Comprendre le système binaire lève une grande partie du mystère qui entoure les ordinateurs : à la base, ce ne sont que des machines mathématiques qui fonctionnent avec des informations numériques, soit éteintes, soit allumées. Le système numérique binaire représente ces informations avec les seuls chiffres 0 et 1, appelés bits en informatique : 0 = désactivé et 1 = activé. Les ordinateurs peuvent ainsi utiliser une série de "commutateurs" pour prendre des décisions sur la base d'une série de décisions logiques (c'est ce qu'est un programme informatique ou "code").
 
-Le système numérique binaire est une façon de compter en utilisant seulement deux chiffres : 0 et 1 : En binaire, la valeur de place de chaque chiffre est deux fois plus élevée que celle du chiffre suivant à droite (puisque chaque chiffre contient deux valeurs). En décimal - le système que les humains utilisent normalement de nos jours - chaque chiffre contient dix valeurs, et la valeur de place augmente par une puissance de dix (un, dix, cent, etc.). La valeur de place du chiffre le plus à droite, dans les deux cas, est 1.
+Le système numérique binaire est une façon de compter en utilisant seulement deux chiffres, 0 et 1. En binaire, la valeur de place de chaque chiffre est deux fois plus élevée que celle du chiffre suivant à droite (puisque chaque chiffre contient deux valeurs). En décimal (le système que les humains utilisent normalement de nos jours), chaque chiffre contient dix valeurs, et la valeur de place augmente par une puissance de dix (un, dix, cent, etc.). La valeur de place du chiffre le plus à droite, dans les deux cas, est 1.
 
 ### Comprendre les nombres et les calculs
 
-Les nombres et les calculs sont très importants dans la vie quotidienne. Lorsque les enfants utilisent les mathématiques, ils se familiarisent avec les propriétés des nombres et la façon de les calculer. Lorsqu'ils les utilisent de manière active, cela stimule les sens et la mobilité. Elle entraîne le développement des capacités de résolution de problèmes et de la résilience, ce qui se traduit par de meilleures performances physiques. La résolution de problèmes mathématiques requiert des compétences relationnelles, mais elle augmente également la confiance en soi, stimule la pensée abstraite et aide à développer des attitudes.
+Les nombres et les calculs sont très importants dans la vie quotidienne. Lorsque les enfants utilisent les mathématiques, ils se familiarisent avec les propriétés des nombres et la façon de les calculer. Les utiliser de manière active stimule les sens et la mobilité. Cela développe aussi la capacité à résoudre des problèmes et la résilience, ce qui améliore les performances physiques. La résolution de problèmes mathématiques requiert des compétences relationnelles, mais elle augmente également la confiance en soi, stimule la pensée abstraite et aide à développer des attitudes.
 
 ### Raisonnement
 
-Le raisonnement est la capacité à résoudre des problèmes. Notre capacité à raisonner nous permet d'utiliser des connaissances pour comprendre le monde. Lorsqu'un enfant apprend à raisonner et à argumenter, cela améliore son comportement et ses capacités de communication. Il aura sa propre opinion et tirera ses propres conclusions de certaines situations. Cela accélère le développement cognitif et émotionnel.
+Le raisonnement est la capacité à résoudre des problèmes. Savoir raisonner permet d'utiliser des connaissances pour comprendre le monde. Lorsqu'un enfant apprend à raisonner et à argumenter, cela améliore son comportement et ses capacités de communication. Il aura sa propre opinion et tirera ses propres conclusions de certaines situations. Cela accélère le développement cognitif et émotionnel.
 
 ---
 
 ## Règles du jeu
 
-**Récit du jeu :** Dans ce jeu, les enfants apprendront à compter comme un ordinateur. Ils apprendront la différence entre le système numérique binaire et le système numérique décimal. Le système numérique décimal utilise 10 chiffres, de 0 à 9. Mais le système numérique binaire est un système de chiffres en base 2. Binaire signifie que nous ne pouvons utiliser que 0 et 1 pour compter, le chiffre ayant la valeur la plus faible étant écrit à droite et celui ayant la valeur la plus élevée à gauche. Les chiffres 0 et 1 peuvent être comparés à oui ou non, vrai ou faux, allumé ou éteint, ce qui est très utile en électronique et en informatique puisqu'ils peuvent soit conduire (1) un signal électrique, soit ne pas le conduire (0). Dans ce jeu, les enfants apprendront à convertir les nombres binaires en décimaux et vice versa. En outre, ils essaieront également de fabriquer des mots à partir de nombres binaires et de traduire des nombres binaires en mots. Ils y parviendront en transcrivant des nombres et en cherchant à quelle lettre ils correspondent dans un tableau alphabétique. De cette façon, ils comprendront comment un ordinateur compte et enregistre des données.
+**Récit du jeu :** Dans ce jeu, les enfants apprendront à compter comme un ordinateur. Ils apprendront la différence entre le système numérique binaire et le système numérique décimal. Le décimal utilise 10 chiffres, de 0 à 9. Le binaire, en base 2, ne compte qu'avec 0 et 1 : le chiffre qui a la valeur la plus faible s'écrit à droite, celui qui a la valeur la plus élevée à gauche. Les chiffres 0 et 1 peuvent être comparés à oui ou non, vrai ou faux, allumé ou éteint, ce qui est très utile en électronique et en informatique puisqu'ils peuvent soit conduire (1) un signal électrique, soit ne pas le conduire (0). Les enfants apprendront à convertir les nombres binaires en décimaux et vice versa. Ils essaieront aussi de fabriquer des mots à partir de nombres binaires et de traduire des nombres binaires en mots : pour cela, ils transcriront des nombres et chercheront à quelle lettre ils correspondent dans un tableau alphabétique. Ils comprendront ainsi comment un ordinateur compte et enregistre des données.
 
 ### Comment convertir des nombres décimaux en nombres binaires
 
-Pour convertir des nombres décimaux en nombres binaires, le nombre décimal donné est divisé plusieurs fois par 2 et les restes sont notés jusqu'à obtenir 0 comme quotient final. Les étapes suivantes sont considérées comme la formule de conversion d'un nombre décimal en un nombre binaire qui montre la procédure de conversion.
+Pour convertir un nombre décimal en nombre binaire, on le divise plusieurs fois par 2 et on note les restes, jusqu'à obtenir 0 comme quotient final. Les étapes :
 
 1. Divisez le nombre décimal donné par 2 et notez le reste.
 2. Divisez le quotient obtenu par 2, et notez à nouveau le reste.
@@ -97,7 +97,7 @@ Pour convertir des nombres décimaux en nombres binaires, le nombre décimal don
 4. Écrivez les restes de manière à ce que le dernier reste soit écrit en premier, suivi du reste dans l'ordre inverse.
 5. On peut aussi comprendre d'une autre manière que le bit le moins significatif (LSB) du nombre binaire est en haut et que le bit le plus significatif (MSB) est en bas. Ce nombre est la valeur binaire du nombre décimal donné.
 
-Comprenons cela à l'aide d'un exemple : Convertir le nombre décimal 13 en binaire. Nous allons commencer à diviser le nombre donné à plusieurs reprises par 2 jusqu'à ce que nous obtenions le quotient 0. Nous noterons les restes dans l'ordre. Après avoir noté les restes, nous les écrirons de manière à ce que le bit le plus significatif (MSB) du nombre binaire soit écrit en premier, suivi du reste. Par conséquent, l'équivalent binaire du nombre décimal donné 13 = 1101.
+Exemple : convertir le nombre décimal 13 en binaire. Diviser 13 par 2 à plusieurs reprises jusqu'à obtenir le quotient 0, en notant les restes dans l'ordre. Écrire ensuite ces restes de manière à ce que le bit le plus significatif (MSB) du nombre binaire soit écrit en premier, suivi du reste. L'équivalent binaire du nombre décimal 13 est donc 1101.
 
 ### Règles du jeu
 
@@ -125,7 +125,7 @@ Avant de commencer l'activité, l'enseignant ouvre une discussion sur les nombre
 
 - Pourquoi transformons-nous les nombres sous forme binaire ?
 - Pourquoi les ordinateurs travaillent-ils avec des nombres binaires ? Pourquoi est-ce plus utile ?
-- Quels autres exemples de la vie réelle pouvons-nous trouver sous forme binaire ? (Il est très important de faire le lien avec les applications du monde réel, car les filles pourraient se sentir détachées de cette activité si elle devenait trop théorique).
+- Quels autres exemples de la vie réelle pouvons-nous trouver sous forme binaire ? (Faire le lien avec les applications du monde réel est très important, car les filles pourraient se sentir détachées de cette activité si elle devenait trop théorique.)
 
 L'enseignant choisit 6 enfants de la classe pour s'avancer. Ces enfants reçoivent chacun une grande carte binaire qu'ils tiennent devant eux. Les autres enfants restent à leur place.
 

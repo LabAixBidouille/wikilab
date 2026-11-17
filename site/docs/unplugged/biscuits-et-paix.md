@@ -50,7 +50,7 @@ sidebar_position: 3
 
 ## De quoi parle-t-on ?
 
-La cuisine est un excellent moyen de promouvoir le partage et de s'amuser. Ce jeu donne aux enfants une idée de l'inégalité en termes de distribution des ressources et vise à enseigner l'importance de la création d'un monde durable et égalitaire.
+La cuisine est une très bonne occasion de partager et de s'amuser. Ce jeu donne aux enfants une idée de l'inégalité dans la distribution des ressources et vise à leur montrer l'importance de construire un monde durable et égalitaire.
 
 ---
 
@@ -58,11 +58,11 @@ La cuisine est un excellent moyen de promouvoir le partage et de s'amuser. Ce je
 
 ### Répartition inégale des ressources et la pauvreté
 
-L'objectif du jeu Biscuits et Paix est de questionner les enfants sur la répartition des ressources alimentaires. Pour ce faire, les ressources sont réparties entre les enfants de manière à ce que chaque équipe/enfant ne puisse pas toujours obtenir la totalité des ingrédients nécessaires à l'élaboration de leurs gateaux. Une fois que les enfants ont compris qu'il n'y avait pas assez de ressources pour que tout le monde puisse faire les cookies, ils peuvent être introduits à des sujets tels que l'inégalité, la faim et la pauvreté. La répartition inégale des ressources est l'une des principales causes de la pauvreté. En commençant la discussion par les ressources mondiales (terre, eau, minéraux, richesses en général, etc.) et en les reliant à des lieux géographiques, vous pourrez montrer à quel point ce problème est en fait mondial. La crise alimentaire est un exemple de distribution inégale. On peut également la relier au changement climatique et à l'augmentation des prix des denrées alimentaires pour montrer que ces problèmes sont liés entre eux. L'objectif est de donner aux enfants les connaissances qui leur permettront de réfléchir à ces problèmes et aux solutions possibles. La solution peut commencer par de petites actions comme la réduction des déchets alimentaires, la protection de la nature, l'éducation, etc.
+L'objectif du jeu Biscuits et Paix est de questionner les enfants sur la répartition des ressources alimentaires. Pour ce faire, les ressources sont réparties entre les enfants de manière à ce que chaque équipe/enfant ne puisse pas toujours obtenir la totalité des ingrédients nécessaires à l'élaboration de leurs gateaux. Une fois que les enfants ont compris qu'il n'y avait pas assez de ressources pour que tout le monde puisse faire les cookies, on peut leur faire découvrir des sujets tels que l'inégalité, la faim et la pauvreté. La répartition inégale des ressources est l'une des principales causes de la pauvreté. En commençant la discussion par les ressources mondiales (terre, eau, minéraux, richesses en général, etc.) et en les reliant à des lieux géographiques, vous pourrez montrer à quel point ce problème est en fait mondial. La crise alimentaire est un exemple de distribution inégale. On peut également la relier au changement climatique et à l'augmentation des prix des denrées alimentaires pour montrer que ces problèmes sont liés entre eux. L'objectif est de donner aux enfants les connaissances qui leur permettront de réfléchir à ces problèmes et aux solutions possibles. La solution peut commencer par de petites actions comme la réduction des déchets alimentaires, la protection de la nature, l'éducation, etc.
 
 ### Négociation et résolution de problèmes
 
-Il s'agit de compétences importantes pour les enfants. Avec de bonnes compétences en négociation, ils pourraient obtenir des autres les ingrédients manquants. Pour résoudre ce problème, ils doivent en discuter, faire des suggestions, poser des questions, écouter les autres et parvenir à un consensus. En pratiquant ces compétences et en résolvant le problème réel, les enfants peuvent réaliser comment ces compétences mènent au succès.
+Avec de bonnes compétences en négociation, les enfants pourraient obtenir des autres les ingrédients manquants. Pour résoudre ce problème, ils doivent en discuter, faire des suggestions, poser des questions, écouter les autres et parvenir à un consensus. En pratiquant ces compétences et en résolvant le problème réel, ils peuvent voir comment ces compétences les aident à réussir.
 
 ### Discussion ouverte sur le sujet
 
@@ -82,7 +82,7 @@ La cuisine est également largement liée à plusieurs processus chimiques qui p
 
 ## Règles du jeu
 
-**Univers du jeu :** Les participants doivent travailler en groupes de 8 et chaque groupe a pour objectif de réussir la cuisson de 8 biscuits. Ce qu'ils ne savent pas, c'est que chaque groupe se verra attribuer un ensemble différent de ressources pour accomplir cette tâche. Alors que certains groupes auront trop de certains ingrédients, d'autres n'en auront pas assez, ou n'en auront aucun. Chaque équipe est basée dans une région différente, de sorte que la variation dans la fourniture des ingrédients n'est pas immédiatement évidente pour les participants. Un observateur est nommé dans chaque groupe. L'idée est qu'au total, chaque groupe dispose de suffisamment de ressources pour préparer une fournée de biscuits, mais cela ne fonctionnera que si les participants prennent l'initiative et négocient avec les autres groupes pour échanger des ingrédients. Il y aura un nombre limité de copies de la recette et aussi juste assez de temps pour que chaque groupe puisse utiliser le four.
+**Univers du jeu :** Les participants doivent travailler en groupes de 8 et chaque groupe a pour objectif de réussir la cuisson de 8 biscuits. Ce qu'ils ne savent pas, c'est que chaque groupe se verra attribuer un ensemble différent de ressources pour accomplir cette tâche. Alors que certains groupes auront trop de certains ingrédients, d'autres n'en auront pas assez, ou n'en auront aucun. Chaque équipe se trouve dans une région différente, de sorte que la variation dans la fourniture des ingrédients n'est pas immédiatement évidente pour les participants. Un observateur est nommé dans chaque groupe. L'idée est qu'au total, chaque groupe dispose de suffisamment de ressources pour préparer une fournée de biscuits, mais cela ne fonctionnera que si les participants prennent l'initiative et négocient avec les autres groupes pour échanger des ingrédients. Il y aura un nombre limité de copies de la recette et aussi juste assez de temps pour que chaque groupe puisse utiliser le four.
 
 :::info[Remarque]
 
@@ -96,7 +96,7 @@ Si la classe ne peut pas utiliser de vrais ingrédients, l'enseignant peut utili
 
 ### Rôle de l'enseignant et de l'organisateur du jeu
 
-L'enseignant/observateur doit se tenir en retrait et laisser les interactions et les négociations entre les groupes se dérouler de manière organique. Il/Elle peut donner quelques indications lorsque les participants ne savent pas quoi faire. Si l'enseignant/observateur a l'impression que les biscuits préparés par son équipe vont mal tourner, il/elle n'a pas besoin d'intervenir : les erreurs ne font qu'améliorer ce que les participants retirent de cette activité. Certains ingrédients, tels que le chocolat, peuvent donner envie aux groupes d'en manger s'il leur en reste. Là encore, l'enseignant/observateur doit laisser faire.
+L'enseignant/observateur doit se tenir en retrait et laisser les interactions et les négociations entre les groupes se dérouler librement. Il/Elle peut donner quelques indications lorsque les participants ne savent pas quoi faire. Si l'enseignant/observateur a l'impression que les biscuits préparés par son équipe vont mal tourner, il/elle n'a pas besoin d'intervenir : les erreurs ne font qu'améliorer ce que les participants retirent de cette activité. Certains ingrédients, tels que le chocolat, peuvent donner envie aux groupes d'en manger s'il leur en reste. Là encore, il/elle doit laisser faire.
 
 ---
 
@@ -108,7 +108,7 @@ Chaque groupe reçoit les ingrédients identifiés et commence à travailler pou
 
 :::info[Conseils pour l'enseignant]
 
-Le matériel nécessaire à la réalisation des activités peut varier en fonction des ressources disponibles et des conditions du lieu où elles seront mises en œuvre.
+Le matériel peut varier selon les ressources disponibles et les conditions du lieu de l'activité.
 
 **Matériel de base indispensable :** ustensiles de cuisine tels que plusieurs bols, des ustensiles sûrs pour remuer, des tasses à mesurer ou simples, du papier sulfurisé, éventuellement au moins un four et/ou une plaque chauffante.
 
@@ -116,7 +116,7 @@ Le matériel nécessaire à la réalisation des activités peut varier en foncti
 
 **Matériaux de base pour la cuisine :** farine, sucre, miel, noix, pépites de chocolat, cacao, bicarbonate de soude, lait, yaourt, huile, œufs.
 
-**Recette :** Il peut être nécessaire de fournir aux enfants des idées de recette ! Par exemple : [kidlee.fr — Top 5 des recettes de cookies maison](https://kidlee.fr/top-5-des-recettes-de-cookies-maison-a-faire-avec-les-enfants/)
+**Recette :** Il peut être nécessaire de fournir aux enfants des idées de recette ! Par exemple : [kidlee.fr : Top 5 des recettes de cookies maison](https://kidlee.fr/top-5-des-recettes-de-cookies-maison-a-faire-avec-les-enfants/)
 
 :::
 
@@ -149,7 +149,7 @@ Vous pouvez explorer la relation entre la nourriture et la richesse, et de la ma
 
 ### Sujet 2 - Importance de la négociation et de la coopération
 
-Nouer et entretenir de bonnes relations est une compétence essentielle pour le développement social et émotionnel des enfants. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), etc. ou consulter les liens suivants :
+Savoir nouer et entretenir de bonnes relations est indispensable au développement social et émotionnel des enfants. Vous pouvez vous référer à d'autres quêtes Unplugged, par exemple [Gérer, partager et comprendre les enjeux d'accès aux ressources alimentaires](/ressources/unplugged/potluck-march), [Ferme en ville](/ressources/unplugged/ferme-en-ville), etc. ou consulter les liens suivants :
 
 - 41 jeux coopératifs amusants pour les enfants : https://kidactivities.net/41-fun-cooperative-games-for-kids
 - 14 activités amusantes et motivantes de renforcement de l'esprit d'équipe pour les enfants : https://www.merakilane.com/14-fun-and-engaging-team-building-activities-for-kids
@@ -157,7 +157,7 @@ Nouer et entretenir de bonnes relations est une compétence essentielle pour le 
 
 ### Sujet 3 - Créativité et réflexion hors des sentiers battus pour résoudre les problèmes
 
-Il est très important de doter les enfants de compétences en matière de résolution des conflits. La créativité encourage à trouver de nouvelles perspectives et à proposer des solutions innovantes lorsque la pensée conventionnelle échoue. Vous pouvez vous référer à d'autres quêtes d'Unplugged, par exemple [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), etc. et consulter :
+Les enfants ont besoin d'apprendre à résoudre les conflits. La créativité aide à voir un problème sous un autre angle et à proposer de nouvelles solutions lorsque les approches habituelles échouent. Vous pouvez vous référer à d'autres quêtes d'Unplugged, par exemple [La ville pop-up du futur](/ressources/unplugged/la-ville-pop-up-du-futur), [Créer des jeux anti-pauvreté](/ressources/unplugged/poverty-free-game-collection), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), etc. et consulter :
 
 - Les jeux qui favorisent les compétences en résolution de problèmes : https://web.archive.org/web/20221018101102/https://www.stenhouse.com/sites/default/files/public/legacy/pdfs/8247ch10.pdf (archive.org 2022-10)
 - 10 vidéos sans paroles qui enseignent la résolution de problèmes : https://speechisbeautiful.com/2017/03/10-wordless-videos-teach-problem-solving

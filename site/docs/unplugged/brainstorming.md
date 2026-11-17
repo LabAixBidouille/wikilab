@@ -47,7 +47,7 @@ sidebar_position: 5
 
 ## De quoi parle-t-on ?
 
-L'avenir de l'humanité est plein de défis. Être créatif est une nécessité pour trouver des solutions afin de changer le monde et de sauver notre chère planète. Mais il n'est pas toujours facile de trouver des idées. Voici un petit jeu pour débloquer vos cerveaux et faire naître des idées surprenantes, inattendues et saugrenues qui sommeillent en vous. L'activité l'expression et la communication orale, tout en sensibilisant aux défis sociétaux et environnementaux modernes.
+Pour trouver des solutions aux défis de l'avenir, il faut être créatif. Mais il n'est pas toujours facile de trouver des idées. Voici un petit jeu pour débloquer vos cerveaux et faire naître des idées inattendues et saugrenues qui sommeillent en vous. L'activité l'expression et la communication orale, tout en sensibilisant aux défis sociétaux et environnementaux modernes.
 
 ---
 
@@ -55,7 +55,7 @@ L'avenir de l'humanité est plein de défis. Être créatif est une nécessité 
 
 ### La pensée créative
 
-La créativité est une compétence importante pour relever les défis de l'avenir. La créativité n'est pas facile à apprendre, mais il existe des moyens de la stimuler. Les brainstorming sont souvent pratiqués en entreprises et en agences de communication pour résoudre des problèmes et trouver des idées nouvelles.
+La créativité n'est pas facile à apprendre, mais il existe des moyens de la stimuler. Les brainstorming sont souvent pratiqués en entreprises et en agences de communication pour résoudre des problèmes et trouver des idées nouvelles.
 
 En classe, ce jeu peut être utilisé pour trouver des idées sur des sujets divers : quelle règles de vie pour la classe, comment recycler mieux, comment rendre l'école plus verte, une classe plus numérique, etc. La pensée créative permet d'aborder d'un œil neuf les enjeux de société : changer les modes de gestion et de gouvernance, réduire sa consommation, adaptation au changement climatique, etc.
 
@@ -67,7 +67,7 @@ Le management participatif est un style de management qui requiert la coopérati
 
 ### Expression, communication et argumentation
 
-Lorsque les enfants doivent justifier leur sélection de mots et de phrases devant le reste de la classe, ils développent leurs capacité de communication, d'expression orale mais aussi d'argumentation. En effet ils devront parfois justifier leur choix de mots (pour ne pas qu'ils soient comptés comme hors sujet par exemple). L'argumentation est une capacité importante en société, elle est aussi l'un des piliers des disciplines scientifiques qui se basent sur l'argumentation pour valider ses hypothèses.
+Lorsque les enfants doivent justifier leur sélection de mots et de phrases devant le reste de la classe, ils développent leurs capacité de communication, d'expression orale mais aussi d'argumentation. En effet ils devront parfois justifier leur choix de mots (pour ne pas qu'ils soient comptés comme hors sujet par exemple). L'argumentation est importante en société, et c'est l'un des appuis des disciplines scientifiques pour valider leurs hypothèses.
 
 ---
 

@@ -56,15 +56,15 @@ Ce jeu apprend aux enfants à reconnaître, exprimer et gérer leurs émotions, 
 
 ### Identifier et exprimer ses émotions
 
-Il est important d'apprendre aux enfants à reconnaître les émotions des autres ainsi qu'à comprendre et à exprimer leurs propres émotions. En parlant des sentiments et en enseignant l'empathie, les enseignants et les éducateurs peuvent diminuer les problèmes de comportement chez les enfants et améliorer leur bien-être émotionnel. Il faudra du temps pour que les enfants acquièrent ces compétences de connaissance de soi, mais plus ils s'entraînent, plus ils parviendront à reconnaître et à réguler leurs émotions.
+Les enfants ont besoin d'apprendre à reconnaître les émotions des autres, à comprendre et à exprimer les leurs. En parlant des sentiments et en enseignant l'empathie, les enseignants et les éducateurs peuvent diminuer les problèmes de comportement chez les enfants et améliorer leur bien-être émotionnel. Il faudra du temps pour que les enfants acquièrent ces compétences de connaissance de soi, mais plus ils s'entraînent, plus ils parviendront à reconnaître et à réguler leurs émotions.
 
 ### La communication non verbale dans les interactions humaines
 
-Les enfants doivent comprendre que le langage corporel est aussi important que les mots. Selon certaines études, 93 % de la communication est non verbale. En étudiant les réactions des enfants dans le cadre scolaire, les enseignants peuvent apprendre à mieux connaître leurs élèves. Le challenge est autant plus grand dans un environnement multiculturel, car la communication non verbale diffère selon les cultures. Le jeu Argile et sculpture développe un sentiment d'inclusion et d'unité, même chez les enfants de sociologie différentes - en apprenant à connaître et à accepter les caractéristiques du langage corporel dans d'autres cultures.
+Les enfants doivent comprendre que le langage corporel est aussi important que les mots. Selon certaines études, 93 % de la communication est non verbale. En étudiant les réactions des enfants dans le cadre scolaire, les enseignants peuvent apprendre à mieux connaître leurs élèves. Le défi est d'autant plus grand dans un environnement multiculturel, car la communication non verbale diffère selon les cultures. Le jeu Argile et sculpture développe un sentiment d'inclusion et d'unité, même chez les enfants de milieux différents, en leur apprenant à connaître et à accepter les caractéristiques du langage corporel dans d'autres cultures.
 
 ### Le sens des responsabilités
 
-Responsabiliser les enfants peut les aider à interagir et à coopérer plus facilement avec les autres. En assumant la responsabilité d'accomplir certaines tâches, les enfants développent le sens de la responsabilité de leurs actions. On fait plus attention aux autres quand on se sent responsable de leur bien-être. Les enfants doivent comprendre comment leurs actions peuvent affecter les autres.
+Responsabiliser les enfants peut les aider à interagir et à coopérer plus facilement avec les autres. En prenant en charge certaines tâches, les enfants apprennent à répondre de leurs actions. On fait plus attention aux autres quand on se sent responsable de leur bien-être. Les enfants doivent comprendre comment leurs actions peuvent affecter les autres.
 
 ### Apprentissage du corps humain (anatomie)
 
@@ -149,7 +149,7 @@ Il s'agit d'un moyen amusant d'apprendre aux enfants à travailler ensemble et �
 
 ### Sujet 2 - La communication non verbale dans l'interaction humaine
 
-La communication non verbale est un élément important de la communication quotidienne. Lorsqu'elle est utilisée efficacement, elle peut servir à apaiser, rassurer, pacifier les relations et améliorer la communication entre les personnes.
+Utilisée efficacement, la communication non verbale peut servir à apaiser, rassurer, pacifier les relations et améliorer la communication entre les personnes.
 
 - Activités de communication non verbale : https://www.thoughtco.com/nonverbal-communication-activities-1857230
 - La communication non verbale en classe : https://www.learnersedge.com/blog/nonverbal-communication-in-the-classroom

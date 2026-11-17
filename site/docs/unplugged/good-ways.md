@@ -51,7 +51,7 @@ sidebar_position: 12
 
 ## De quoi parle-t-on ?
 
-Good ways est un jeu d'observation dans lequel les joueurs tentent de se situer sur des cartes et sur des chemins avant d'essayer de tracer une route continue dans le but d'atteindre les bonus et d'éviter les malus ainsi que les obstacles sur une feuille transparente ne recouvrant pas les cartes.
+Good ways est un jeu d'observation dans lequel les joueurs tentent de se situer sur des cartes et sur des chemins. Ils essaient ensuite de tracer une route continue sur une feuille transparente qui ne recouvre pas les cartes, pour atteindre les bonus et éviter les malus ainsi que les obstacles.
 
 ---
 
@@ -59,15 +59,15 @@ Good ways est un jeu d'observation dans lequel les joueurs tentent de se situer 
 
 ### Orientation
 
-Aide à se situer dans l'espace et à trouver ses repères. Ce jeu permet d'apprendre l'orientation spatiale. En reproduisant des itinéraires, les enfants apprennent à préparer un plan de transport.
+Aide à se situer dans l'espace et à trouver ses repères. Le jeu sert à apprendre l'orientation spatiale. En reproduisant des itinéraires, les enfants apprennent à préparer un plan de transport.
 
 ### Être sensibilisé à l'engagement sociétal
 
-Découvrir ou mieux connaître les objectifs de développement durable, ou ODD. Toutes les cartes du jeu contiennent un certain nombre d'ODD liés au développement durable positif et un certain nombre d'ODD difficiles.
+Découvrir ou mieux connaître les objectifs de développement durable, ou ODD. Toutes les cartes du jeu contiennent des ODD liés au développement durable positif et des ODD difficiles.
 
 ### Concentration
 
-Faire le meilleur tracé possible sans lever son marqueur. La dextérité et la motricité fine sont améliorées.
+Faire le meilleur tracé possible sans lever son marqueur. Ce tracé améliore la dextérité et la motricité fine.
 
 ---
 
@@ -91,11 +91,11 @@ Placez les cartes au centre de la table. Donnez, à chaque joueur, une feuille t
 
 ## Phases de jeu
 
-### Phase 1 - Phase de tracé
+### Phase 1 : Tracé
 
 Tous les joueurs effectuent, en même temps, un tracé continu à main levé, sans soulever leur marqueur, sur leur feuille transparente. Les joueurs doivent essayer de suivre les chemins, toucher les bonus (ODD) et éviter de toucher les malus.
 
-### Phase 2 - Phase de résolution
+### Phase 2 : Résolution
 
 Chaque joueur place sa feuille transparente sur la carte et comptabilise les points :
 
@@ -109,16 +109,16 @@ Le joueur ayant obtenu le plus de points à l'issue de toutes les cartes remport
 
 ## Aller plus loin
 
-### Sujet 1 - Orientation
+### Sujet 1 : Orientation
 
 - http://www.xplaner.com/visual-thinking-school/
 
-### Sujet 2 - Découvrez l'engagement social
+### Sujet 2 : Découvrez l'engagement social
 
 - https://go-goals.org/
 - https://culpeer-for-change.eu/quiz/en
 
-### Sujet 3 - Concentration et dextérité
+### Sujet 3 : Concentration et dextérité
 
 - https://empoweredparents.co/why-are-fine-motor-skills-important/
 

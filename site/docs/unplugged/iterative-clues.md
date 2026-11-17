@@ -50,7 +50,7 @@ sidebar_position: 14
 
 ## De quoi parle-t-on ?
 
-Découvrez le monde d'aujourd'hui, le monde de demain et les nouvelles technologies tout en vous amusant grâce à Iterative Clues ! La quête améliore les connaissances des enfants sur les nouvelles technologies et le monde du digital, en introduisant l'association d'idée pour stimuler la mémorisation ainsi que le lien avec la vie réelle.
+Iterative Clues est un jeu de devinettes sur les nouvelles technologies et le monde numérique : l'arbitre lit jusqu'à quatre indices de plus en plus précis, et les joueurs cherchent le concept caché. La quête améliore les connaissances des enfants sur ces sujets. Elle leur fait associer des idées, ce qui aide à mémoriser les concepts et à les relier à la vie réelle.
 
 ---
 
@@ -62,11 +62,11 @@ En apprendre plus sur les nouvelles technologies et le monde numérique. Le jeu 
 
 ### Faire preuve de rapidité
 
-Répondre le premier pour l'emporter. L'élément compétitif du jeu prépare les enfants à être performants dans un environnement dynamique.
+Répondre le premier pour l'emporter. La compétition du jeu prépare les enfants à réussir quand il faut aller vite.
 
 ### Associer les idées
 
-Combiner les indices entre eux pour trouver le concept caché. La pensée associative et logique est développée par la série d'indices divulgués aux enfants.
+Combiner les indices entre eux pour trouver le concept caché. La série d'indices donnés aux enfants développe leur pensée associative et logique.
 
 ---
 
@@ -115,15 +115,15 @@ S'il a réussi le défi, le joueur gagne 1 point de plus. Le premier joueur à o
 
 ## Aller plus loin
 
-### Sujet 1 - Sensibilisation à la numérisation
+### Sujet 1 : Sensibilisation à la numérisation
 
 - https://www.oecd.org/education/education-in-the-digital-age-1209166a-en.htm
 
-### Sujet 2 - Compétitivité et rapidité de réaction
+### Sujet 2 : Compétitivité et rapidité de réaction
 
 Vous pouvez vous référer aux quêtes [Brain Twister](/ressources/unplugged/brain-twister), [Plastic continent](/ressources/unplugged/plastic-continent), [Modéliser des formes complexes grâce à des formes de base](/ressources/unplugged/form-factor), etc.
 
-### Sujet 3 - La pensée associative
+### Sujet 3 : La pensée associative
 
 - https://www.psychologytoday.com/us/blog/prime-your-gray-cells/201802/study-reveals-thought-processes-foster-creativity
 
