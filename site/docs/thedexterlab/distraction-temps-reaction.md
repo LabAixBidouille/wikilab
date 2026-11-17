@@ -55,9 +55,9 @@ Le temps de réaction est la durée entre le moment où un stimulus est présent
 
 ## Déroulé de l'activité
 
-Ce projet est une activité de suivi du projet "Votre temps de réaction est-il inférieur à une demi-seconde ?". Dans ce projet, notre objectif est de mener une expérience scientifique pour mesurer notre temps de réaction à un signal audio ou visuel dans un environnement avec distraction, par exemple le bruit d'une musique forte ou une personne qui détourne notre attention.
+Ce projet prolonge le projet "Votre temps de réaction est-il inférieur à une demi-seconde ?". L'objectif est de mener une expérience scientifique pour mesurer son temps de réaction à un signal audio ou visuel dans un environnement avec distraction, par exemple le bruit d'une musique forte ou une personne qui détourne l'attention.
 
-Pour cela, nous allons fabriquer un appareil expérimental en connectant différents composants électroniques à une carte programmable et le faire fonctionner par un programme approprié. Ensuite, nous collecterons des données et les analyserons pour mesurer notre temps de réaction pour différents cas de distraction.
+Pour cela, on fabrique un appareil expérimental en connectant différents composants électroniques à une carte programmable, et on le fait fonctionner avec un programme approprié. On collecte ensuite des données et on les analyse pour mesurer le temps de réaction dans différents cas de distraction.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/distraction-temps-reaction/DATA14_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -66,49 +66,49 @@ Pour cela, nous allons fabriquer un appareil expérimental en connectant différ
 
 ## Compétences mobilisées
 
-Cette expérimentation permet d'aborder différentes notions du cursus de manière interdisciplinaire. Elle permet d'explorer, dans les apprentissages de physique, la mesure du temps de réaction, qui est une notion importante en sciences ainsi que dans la vie quotidienne. Les élèves peuvent apprendre à mesurer le temps de réaction à différents stimuli, tels que des signaux audio ou visuels, et à comprendre comment ce temps peut être influencé par différentes variables, telles que la distraction, la fatigue, l'âge ou la motivation.
+Cette expérimentation aborde différentes notions du cursus de manière interdisciplinaire. En physique, les élèves peuvent apprendre à mesurer le temps de réaction à différents stimuli, comme des signaux audio ou visuels, et à comprendre comment ce temps peut varier selon différents facteurs, comme la distraction, la fatigue, l'âge ou la motivation.
 
-Ce projet permet aussi d'aborder des notions de programmation et d'électronique. Les élèves apprendront à programmer une carte programmable telle que la carte STM32 IoT Node Board pour contrôler différents composants électroniques tels que le bouton-poussoir, le buzzer et la LED. En apprenant à programmer et à utiliser des composants électroniques, les élèves peuvent acquérir des compétences utiles dans de nombreux domaines, tels que l'informatique, l'ingénierie et la robotique.
+Côté programmation et électronique, les élèves apprennent à programmer une carte comme la STM32 IoT Node Board pour contrôler des composants électroniques tels que le bouton-poussoir, le buzzer et la LED. Ils peuvent y acquérir des compétences utiles dans de nombreux domaines, comme l'informatique, l'ingénierie et la robotique.
 
-Enfin, ce projet permet de mettre en pratique la méthode scientifique. Les élèves apprendront à formuler une question scientifique pertinente, à concevoir une expérience pour y répondre, à collecter des données de manière rigoureuse et à les analyser pour en tirer des conclusions.
+Enfin, les élèves mettent en pratique la méthode scientifique et apprennent à formuler une question scientifique pertinente, à concevoir une expérience pour y répondre, à collecter des données de manière rigoureuse et à les analyser pour en tirer des conclusions.
 
 ## Étape 1 : Collecter des données
 
 ### Orientation
 
-Pour répondre à notre question de recherche, nous devons trouver un moyen de mesurer notre temps de réaction lorsque nous percevons un signal comme un son ou un flash lumineux. Comment pouvons-nous y parvenir ?
+Pour répondre à la question de recherche, il faut trouver un moyen de mesurer son temps de réaction quand on perçoit un signal, comme un son ou un flash lumineux. Comment y parvenir ?
 
 ### Conceptualisation
 
-Le temps de réaction est le temps écoulé entre l'apparition d'un stimulus externe, tel qu'un son ou un clignement de lumière, et notre réponse spontanée à ce stimulus. En moyenne, chez l'être humain, il est de l'ordre de 200 à 250 millisecondes, mais il varie selon les conditions, l'âge, le sexe et le type de stimulus. De plus, toute distraction peut modifier significativement notre temps de réaction.
+Le temps de réaction est le temps écoulé entre l'apparition d'un stimulus externe, tel qu'un son ou un clignement de lumière, et la réponse spontanée à ce stimulus. En moyenne, chez l'être humain, il est de l'ordre de 200 à 250 millisecondes, mais il varie selon les conditions, l'âge, le sexe et le type de stimulus. Toute distraction peut aussi le modifier nettement.
 
-Nous pouvons utiliser une carte programmable telle qu'Arduino, micro:bit ou STM32. Nous pouvons connecter un buzzer pour produire un son ou une LED pour un stimulus visuel.
+On peut utiliser une carte programmable comme Arduino, micro:bit ou STM32, et y connecter un buzzer pour produire un son ou une LED pour un stimulus visuel.
 
 ### Investigation
 
-Nous commençons par nous familiariser avec notre ensemble d'appareils électroniques tels que la carte, les fils, les résistances, la breadboard, les LED et le buzzer. Pour créer un circuit correct, nous devons d'abord identifier chaque élément.
+Commencer par se familiariser avec le matériel électronique, comme la carte, les fils, les résistances, la breadboard, les LED et le buzzer. Pour créer un circuit correct, il faut d'abord identifier chaque élément.
 
-Si le circuit est correct, nous avons notre dispositif expérimental prêt à être contrôlé par un programme. Lorsque le programme s'exécute, il émet un signal aléatoire qui allume la LED ou le buzzer. Ensuite, lorsque nous appuyons sur le bouton, la LED ou le buzzer s'éteint. Le temps écoulé est conservé par le programme dans une variable qui est ensuite imprimée à l'écran.
+Si le circuit est correct, le dispositif expérimental est prêt à être contrôlé par un programme. Quand le programme s'exécute, il émet un signal aléatoire qui allume la LED ou le buzzer. Un appui sur le bouton éteint ensuite la LED ou le buzzer. Le programme stocke le temps écoulé dans une variable, puis l'affiche à l'écran.
 
 ### Débriefing
 
-Dans cette phase, nous avons appris à collecter des données en mesurant notre temps de réaction à un stimulus sonore ou visuel à l'aide d'un appareil expérimental que nous avons construit.
+Dans cette phase, on a appris à collecter des données en mesurant son temps de réaction à un stimulus sonore ou visuel, à l'aide de l'appareil expérimental qu'on a construit.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-Considérons le cas où nous n'avons que la carte, par exemple la carte STM32, et que nous voulons l'utiliser de manière autonome pour plus de flexibilité. Comment pouvons-nous afficher nos valeurs mesurées ?
+Si l'on n'a que la carte, par exemple la carte STM32, et qu'on veut l'utiliser de manière autonome pour plus de flexibilité, comment afficher les valeurs mesurées ?
 
 ### Conceptualisation
 
-Une carte fournit une unité de traitement et un espace mémoire pour stocker et exécuter un programme. Elle fournit également des interfaces pour se connecter et communiquer avec d'autres appareils. Dans ce cas particulier, nous devons connecter et utiliser un petit écran pour afficher en texte les valeurs de nos mesures.
+Une carte fournit une unité de traitement et un espace mémoire pour stocker et exécuter un programme. Elle fournit aussi des interfaces pour se connecter et communiquer avec d'autres appareils. Ici, il faut connecter et utiliser un petit écran pour afficher en texte les valeurs des mesures.
 
 ### Investigation
 
-Dans cette étape, nous souhaitons utiliser le petit écran et afficher les valeurs de nos mesures en texte. Ensuite, nous faisons une feuille de calcul ou un tableau des mesures divisé en deux colonnes. La première colonne est le temps de réaction au signal sonore. La deuxième colonne est le temps mesuré pour la réaction au signal LED.
+Utiliser le petit écran pour afficher en texte les valeurs des mesures. Faire ensuite une feuille de calcul ou un tableau des mesures en deux colonnes : la première pour le temps de réaction au signal sonore, la deuxième pour le temps mesuré en réaction au signal LED.
 
-Ce sont nos données pour l'étude de cas où il n'y a pas de source de distraction. Nous devons étudier les mêmes cas lorsque la distraction est présente. Nous pouvons penser à divers scénarios susceptibles de détourner notre attention et donc d'affecter notre temps de réaction. Il peut s'agir, par exemple, d'une musique forte, d'un ami qui essaie de nous déranger, d'un téléphone portable qui sonne, d'un téléphone portable qui parle ou envoie des messages, etc.
+Ces données correspondent au cas où il n'y a pas de source de distraction. Il faut étudier les mêmes cas en présence d'une distraction. Imaginer divers scénarios susceptibles de détourner l'attention et donc d'affecter le temps de réaction : par exemple une musique forte, un ami qui essaie de déranger, un téléphone portable qui sonne, un téléphone portable qui parle ou envoie des messages, etc.
 
 **Exemple de tableau pour l'étude sans distraction :**
 
@@ -134,7 +134,7 @@ Ce sont nos données pour l'étude de cas où il n'y a pas de source de distract
 
 ### Débriefing
 
-Dans cette phase, nous avons réalisé ce qui suit :
+Dans cette phase, il s'agissait de :
 
 - Comprendre les éléments de base et les fonctionnalités d'une carte.
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
@@ -144,28 +144,28 @@ Dans cette phase, nous avons réalisé ce qui suit :
 
 ### Orientation
 
-À l'étape précédente, nous avons rempli notre feuille de calcul ou nos tableaux de mesures. En les utilisant, nous voulons apprendre le temps de réaction au son ou à la lumière dans chaque cas et scénario de distraction.
+À l'étape précédente, on a rempli la feuille de calcul ou les tableaux de mesures. On s'en sert ici pour connaître le temps de réaction au son ou à la lumière dans chaque cas et scénario de distraction.
 
 ### Conceptualisation
 
-Nous avons collecté des données à l'aide de notre appareil et nous devons maintenant les analyser pour en extraire des informations pertinentes. Dans cette étape, nous introduisons le concept de moyenne à partir des statistiques de base.
+Il faut maintenant analyser les données collectées avec l'appareil pour en extraire des informations pertinentes. Cette étape introduit le concept de moyenne, issu des statistiques de base.
 
 ### Investigation
 
-Nous parcourons notre tableau de données et calculons le temps de réaction correspondant à chaque colonne de mesures. À la fin, nous calculons la valeur moyenne et l'exprimons en secondes et en millisecondes.
+Parcourir le tableau de données et calculer le temps de réaction correspondant à chaque colonne de mesures. À la fin, calculer la valeur moyenne et l'exprimer en secondes et en millisecondes.
 
-Nous répétons ensuite le même processus pour la série de mesures que nous avons prises dans différentes conditions (scénarios de distraction) afin de déterminer si celles-ci ont une incidence sur nos résultats. Il est également utile de présenter nos résultats sous forme de graphique pour mieux les visualiser.
+Répéter ensuite le même processus pour la série de mesures prise dans différentes conditions (scénarios de distraction), afin de déterminer si celles-ci ont une incidence sur les résultats. Il est aussi utile de représenter les résultats sur un graphique pour mieux les visualiser.
 
-Nous réfléchissons également à ce que nous avons trouvé dans le contexte d'un piéton, d'un cycliste ou d'un conducteur de voiture, et discutons de la manière dont la distraction peut affecter notre comportement sur la route et notre propre sécurité, ainsi que celle des autres.
+Réfléchir à ce qu'on a trouvé du point de vue d'un piéton, d'un cycliste ou d'un conducteur de voiture, et discuter de la manière dont la distraction peut affecter le comportement sur la route et la sécurité de la personne distraite, ainsi que celle des autres.
 
 ### Débriefing
 
-Au cours de cette phase, nous avons effectué et réalisé les activités suivantes :
+Au cours de cette phase, il s'agissait de :
 
-- Collecte de données pour différents cas, tels que des personnes de différents âges et sexes, ainsi que des scénarios de distraction.
-- Enregistrement des données dans une feuille de calcul.
-- Analyse des données en prenant les valeurs moyennes et en les affichant graphiquement.
-- Extraction des informations pertinentes et conclusion.
+- Collecter des données pour différents cas, comme des personnes de différents âges et sexes, ainsi que des scénarios de distraction.
+- Enregistrer les données dans une feuille de calcul.
+- Analyser les données en prenant les valeurs moyennes et en les affichant sur un graphique.
+- Extraire les informations pertinentes et conclure.
 
 ## Programmation
 

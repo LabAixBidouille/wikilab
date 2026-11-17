@@ -51,16 +51,14 @@ sidebar_position: 16
 ---
 
 :::info
-Le temps qu'il fait ou fera suscite un vif intérêt auprès de la population. La météo joue un rôle important sur notre humeur et parfois sur nos comportements. Il y a parfois une confusion entre climat et météo, qui se différencient notamment par l'échelle de temps auxquelles elles s'appliquent. Le climat désigne l'ensemble des facteurs météorologiques qui caractérisent un endroit donné sur une longue période (30 ans en principe). La météo est l'évaluation du temps qu'il fait ou qu'il va faire à très court terme.
+Le temps qu'il fait ou fera intéresse vivement la population. La météo influe beaucoup sur notre humeur et parfois sur nos comportements. Il y a parfois une confusion entre climat et météo, qui se différencient notamment par l'échelle de temps à laquelle elles s'appliquent. Le climat désigne l'ensemble des facteurs météorologiques qui caractérisent un endroit donné sur une longue période (30 ans en principe). La météo est l'évaluation du temps qu'il fait ou qu'il va faire à très court terme.
 :::
 
 ## Déroulé de l'activité
 
-Dans cette activité, il ne s'agit pas de faire des prévisions météorologiques, mais plutôt de mieux comprendre les concepts sous-jacents qui permettent de faire de telles prévisions. Une manière efficace de pouvoir se les approprier est de passer par la mesure des variables influant sur la météo. Nous proposons donc dans cette activité la réalisation d'une mini-station météo basée sur un microcontrôleur.
+Dans cette activité, il ne s'agit pas de faire des prévisions météorologiques, mais plutôt de mieux comprendre les concepts sous-jacents qui permettent de faire de telles prévisions. Une manière efficace de se les approprier est de mesurer les variables qui influent sur la météo. L'activité propose donc de construire une mini-station météo autour d'un microcontrôleur.
 
-Nous y présenterons comment effectuer la mesure de température, de pression atmosphérique et d'humidité grâce aux instruments inclus dans la carte proposée (STM32), ainsi que la vitesse du vent avec la construction d'un anémomètre rudimentaire.
-
-Cette activité poursuit l'objectif d'identifier et de mesurer les paramètres principaux qui influencent la météo : température, pression, humidité et vitesse du vent.
+La fiche montre comment identifier et mesurer les paramètres principaux qui influencent la météo : la température, la pression atmosphérique et l'humidité, avec les instruments inclus dans la carte proposée (STM32), ainsi que la vitesse du vent, avec un anémomètre rudimentaire à construire.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/solution-meteo/DATA16_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -69,7 +67,7 @@ Cette activité poursuit l'objectif d'identifier et de mesurer les paramètres p
 
 ## Compétences mobilisées
 
-En réalisant des mesures et de par la mise en œuvre de la station météo, les élèves mobiliseront plusieurs compétences dans les domaines suivants :
+En construisant la station météo et en faisant des mesures, les élèves mobiliseront plusieurs compétences dans les domaines suivants :
 
 - Technologie : utiliser une carte programmable pour collecter des données numériques
 - Mathématiques : utiliser une feuille de calcul, comprendre la notion de variable, analyser des données, réaliser un graphique et pouvoir l'interpréter
@@ -91,17 +89,17 @@ Afin de réaliser la station météo finale, les élèves devront suivre les 3 p
 
 #### Orientation
 
-La notion de température est accessible et palpable dès le plus jeune âge. Cependant la définition physique est moins accessible. En effet la température est une manifestation macroscopique d'une grandeur physique microscopique : l'agitation thermique de chaque molécule.
+La notion de température est accessible et palpable dès le plus jeune âge, mais sa définition physique l'est moins. La température est une manifestation macroscopique d'une grandeur physique microscopique : l'agitation thermique de chaque molécule.
 
 La perception humaine qu'on a de la température n'est pas toujours le bon reflet de la température réelle. En réalité, le corps humain est sensible aux transferts de chaleur avec son environnement et non directement à la température.
 
 #### Conceptualisation
 
-Pour mesurer la température, il nous faut un thermomètre, qui généralement se base sur le phénomène de dilatation des corps. Lorsqu'on chauffe un corps, l'agitation thermique augmente causant (pour les liquides et les solides) une augmentation de volume. Il existe différents types de thermomètres : à liquide (alcool, mercure), à ressort (bilame), à gaz, à cristaux liquides, à semi-conducteur.
+Pour mesurer la température, il faut un thermomètre, qui généralement se base sur le phénomène de dilatation des corps. Lorsqu'on chauffe un corps, l'agitation thermique augmente causant (pour les liquides et les solides) une augmentation de volume. Il existe différents types de thermomètres : à liquide (alcool, mercure), à ressort (bilame), à gaz, à cristaux liquides, à semi-conducteur.
 
 #### Débriefing
 
-Après avoir abordé le concept de température et les différents moyens de la mesurer, nous pouvons afficher dans la console, la valeur de la température lue par le microcontrôleur.
+Après avoir abordé le concept de température et les différents moyens de la mesurer, on peut afficher dans la console la valeur de la température lue par le microcontrôleur.
 
 ### Étape 1.2 : Pression atmosphérique
 
@@ -111,13 +109,13 @@ Le concept de pression atmosphérique est moins abordable que celui de la tempé
 
 #### Conceptualisation
 
-Pour mesurer la pression atmosphérique, nous utilisons un baromètre (pour rappel 1 bar = 10⁵ Pa ≈ 1 atm). Torricelli utilisait des baromètres à mercure qui consistaient en de longs tubes de verre remplis de mercure. Aujourd'hui les baromètres n'utilisent pas de mercure mais sont basés sur la comparaison entre la pression de l'air dans une capsule (vide partiel) et la pression atmosphérique. Il existe également des modules électroniques basés sur la piezzoresistivité.
+Pour mesurer la pression atmosphérique, on utilise un baromètre (pour rappel 1 bar = 10⁵ Pa ≈ 1 atm). Torricelli utilisait des baromètres à mercure qui consistaient en de longs tubes de verre remplis de mercure. Aujourd'hui les baromètres n'utilisent pas de mercure mais sont basés sur la comparaison entre la pression de l'air dans une capsule (vide partiel) et la pression atmosphérique. Il existe également des modules électroniques basés sur la piézorésistivité.
 
 Les masses d'air s'écoulent toujours des zones de haute pression atmosphérique, appelées anticyclones, vers les zones de basse pression atmosphérique, appelées cyclones ou dépressions.
 
 #### Débriefing
 
-Après avoir abordé le concept de pression atmosphérique, nous pouvons afficher dans la console la valeur de la pression lue par le microcontrôleur.
+Après avoir abordé le concept de pression atmosphérique, on peut afficher dans la console la valeur de la pression lue par le microcontrôleur.
 
 ### Étape 1.3 : Humidité
 
@@ -133,7 +131,7 @@ On quantifie l'humidité de l'air de deux manières : l'humidité absolue et l'h
 
 #### Débriefing
 
-Après avoir abordé le concept d'humidité, nous pouvons afficher dans la console la valeur d'humidité lue par le microcontrôleur.
+Après avoir abordé le concept d'humidité, on peut afficher dans la console la valeur d'humidité lue par le microcontrôleur.
 
 ### Étape 1.4 : Vitesse du vent (anémomètre)
 
@@ -143,37 +141,37 @@ Le vent est un phénomène météorologique produit par des mouvements de masses
 
 #### Conceptualisation
 
-Le projet consiste à construire un anémomètre pour mesurer la vitesse du vent. Cette donnée étant difficile à acquérir de façon précise avec du matériel non professionnel, nous allons d'abord calculer la vitesse tangentielle des coupelles. Ensuite, nous utiliserons la mesure de la station météo avoisinante ou d'un anémomètre professionnel pour faire l'étalonnage de notre appareil.
+Le projet consiste à construire un anémomètre pour mesurer la vitesse du vent. Cette donnée est difficile à acquérir de façon précise avec du matériel non professionnel : on calcule donc d'abord la vitesse tangentielle des coupelles, puis on étalonne l'appareil avec la mesure de la station météo avoisinante ou d'un anémomètre professionnel.
 
-Pour réaliser cette activité et mesurer la vitesse du vent à l'aide d'un anémomètre, nous aurons besoin de comprendre le mouvement circulaire uniforme.
+Pour réaliser cette activité et mesurer la vitesse du vent à l'aide d'un anémomètre, il faut comprendre le mouvement circulaire uniforme.
 
 #### Débriefing
 
-Nous pouvons maintenant nous installer à l'extérieur avec notre montage (anémomètre, carte programmable et un ordinateur), dans un endroit dégagé (loin de bâtiments, arbres ou autres obstacles) et lancer notre programme.
+On peut maintenant s'installer à l'extérieur avec le montage (anémomètre, carte programmable et ordinateur), dans un endroit dégagé (loin de bâtiments, arbres ou autres obstacles), et lancer le programme.
 
-Pour améliorer la précision de cette mesure, nous devons l'étalonner grâce à un anémomètre de référence en mettant devant une soufflerie à différentes distances ou intensités.
+Pour améliorer la précision de cette mesure, il faut l'étalonner grâce à un anémomètre de référence en mettant devant une soufflerie à différentes distances ou intensités.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-Les données ont été à présent affichées sur la console de l'ordinateur. Afin d'avoir une station météo plus autonome, nous proposons de l'afficher sur un écran relié directement au microcontrôleur.
+Les données s'affichent pour l'instant sur la console de l'ordinateur. Pour une station météo plus autonome, on propose de les afficher sur un écran relié directement au microcontrôleur.
 
 ### Investigation
 
-Au vu des activités précédentes, nous pouvons d'une part effectuer plusieurs mesures directement liées à la météo et d'autre part, afficher un texte sur un écran LCD.
+Avec les activités précédentes, on sait effectuer plusieurs mesures directement liées à la météo et afficher un texte sur un écran LCD.
 
-Dès lors nous sommes en mesure maintenant de pouvoir afficher nos mesures sur l'écran LCD (température, pression, vitesse du vent, humidité).
+On peut donc afficher les mesures sur l'écran LCD (température, pression, vitesse du vent, humidité).
 
 ### Débriefing
 
-Nous avons à présent un outil permettant d'avoir des données météo (journalières ou hebdomadaires).
+On a maintenant un outil qui fournit des données météo (journalières ou hebdomadaires).
 
 ## Étape 3 : Analyser les données
 
 ### Orientation
 
-Les mesures réalisées par notre mini-station météo peuvent nous donner une information ponctuelle. Une autre approche (plus scientifique) consiste à analyser et comparer les données. Par exemple :
+Les mesures de la mini-station météo peuvent donner une information ponctuelle. Une autre approche (plus scientifique) consiste à analyser et comparer les données. Par exemple :
 
 - Y a-t-il une dépendance entre vitesse du vent et une zone de haute ou de basse pression ?
 - Que signifie le concept de température ressentie ?
@@ -181,11 +179,11 @@ Les mesures réalisées par notre mini-station météo peuvent nous donner une i
 
 ### Conceptualisation
 
-Pour pouvoir déterminer les paramètres influant le temps ou la météo, il est nécessaire de collecter plusieurs mesures, de regarder leur évolution au fil du temps pour éventuellement montrer leur influence sur les observations extérieures.
+Pour déterminer les paramètres qui influent sur le temps ou la météo, il faut collecter plusieurs mesures et regarder leur évolution au fil du temps pour éventuellement montrer leur influence sur les observations extérieures.
 
 ### Investigation
 
-Notre anémomètre mesure la vitesse des coupelles, qui n'est pas la vitesse du vent (à cause des frottements et de la forme arrondie qui est à l'encontre du mouvement). Afin de calibrer notre anémomètre, on peut utiliser un ventilateur comme référence. Un exemple de tableau de calibration :
+L'anémomètre mesure la vitesse des coupelles, qui n'est pas la vitesse du vent (à cause des frottements et de la forme arrondie qui est à l'encontre du mouvement). Afin de calibrer l'anémomètre, on peut utiliser un ventilateur comme référence. Un exemple de tableau de calibration :
 
 | Vitesse anémomètre (cm/s) | Vitesse référence (cm/s) |
 |---|---|
@@ -203,13 +201,13 @@ Notre anémomètre mesure la vitesse des coupelles, qui n'est pas la vitesse du 
 | 223 | 717 |
 | 250 | 731 |
 
-Le rapport est en très bonne approximation constant et vaut 3 dans cet exemple. Cela signifie que lorsque nous mesurons la vitesse avec notre anémomètre, nous devons la multiplier par 3 pour avoir la vitesse du vent.
+Le rapport est en très bonne approximation constant et vaut 3 dans cet exemple. Pour cet anémomètre, il faut donc multiplier par 3 la vitesse mesurée pour obtenir la vitesse du vent.
 
-Les autres mesures (pression, température et humidité) peuvent être représentées sous forme de données ou de graphiques. Il est intéressant de pouvoir identifier certaines valeurs particulières comme les valeurs extrêmes, calculer la moyenne ou encore l'écart à la moyenne.
+Les autres mesures (pression, température et humidité) peuvent être représentées sous forme de données ou de graphiques. On peut y repérer certaines valeurs particulières, comme les valeurs extrêmes, et calculer la moyenne ou l'écart à la moyenne.
 
 ### Débriefing
 
-Dans cette activité, nous proposons l'élaboration d'une mini-station météo avec un microcontrôleur et la construction d'un anémomètre. Ces instruments peuvent être utilisés dans d'autres cadres :
+La mini-station météo à microcontrôleur et l'anémomètre construits dans cette activité peuvent servir dans d'autres cadres :
 
 - Démarche purement expérimentale et observationnelle : mesurer la température toutes les heures et déterminer l'heure la plus chaude.
 - Mesurer la température et l'humidité à l'extérieur ou dans une serre et les comparer à différents moments de la journée.

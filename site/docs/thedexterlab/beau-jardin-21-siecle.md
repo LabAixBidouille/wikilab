@@ -51,18 +51,16 @@ sidebar_position: 1
 ---
 
 :::info
-Avec les enjeux actuels liés au changement climatique, entraînant des vagues de chaleur asséchant le sol et épuisant les nappes souterraines, l'eau devient une denrée rare, faisant l'objet de mesures de restriction de plus en plus régulières. L'arrosage du jardin ou des plantes d'intérieur, en période de restriction d'eau doit donc se faire de manière rationnelle afin de ne pas gaspiller une ressource sur laquelle repose d'ores et déjà beaucoup de pression.
+Le changement climatique provoque des vagues de chaleur qui assèchent le sol et épuisent les nappes souterraines. L'eau devient une denrée rare et fait l'objet de mesures de restriction de plus en plus régulières, lorsque les épisodes de canicule s'intensifient. En période de restriction d'eau, l'arrosage du jardin ou des plantes d'intérieur doit donc se faire de manière rationnelle, pour ne pas gaspiller une ressource déjà sous forte tension.
 :::
 
 ## Déroulé de l'activité
 
-Le projet consiste à **construire un système d'arrosage autonome** pour les plantes d'intérieur. La donnée décisive pour choisir d'arroser une plante est **l'humidité du sol, qui est liée à une quantité physique facile à mesurer : la conductivité électrique du sol**. Nous allons donc construire un dispositif qui mesure la **conductivité** du sol et mettra en fonction un système d'arrosage distribuant la juste quantité d'eau à chaque plante.
+Le projet consiste à construire un système d'arrosage autonome pour les plantes d'intérieur. La donnée décisive pour choisir d'arroser une plante est l'humidité du sol, qui est liée à une quantité physique facile à mesurer : la **conductivité électrique** du sol. Le dispositif à construire mesure donc la conductivité du sol et met en fonction un système d'arrosage qui distribue la juste quantité d'eau à chaque plante.
 
-Une fois que l'on connaît la conductivité du sol, la détermination de la **quantité d'eau nécessaire** à la plante dépend de plusieurs facteurs : **le type de plante, la température de l'air, la qualité du sol, la période de l'année, etc.** Nous devrons donc collecter des données et mener plusieurs expériences pour **calibrer au mieux** notre système d'arrosage économe en eau.
+Une fois que l'on connaît la conductivité du sol, la détermination de la quantité d'eau nécessaire à la plante dépend de plusieurs facteurs : le type de plante, la température de l'air, la qualité du sol, la période de l'année, etc. Il faudra donc collecter des données et mener plusieurs expériences pour calibrer au mieux ce système d'arrosage économe en eau.
 
 Cette activité vise à questionner les élèves sur les variables à prendre en considération dans l'arrosage des plantes.
-
-Avec les enjeux actuels liés au changement climatique, entraînant des vagues de chaleur asséchant le sol et épuisant les nappes souterraines, l'eau devient une denrée rare, faisant l'objet de mesures de restriction lorsque les épisodes de canicule s'intensifient. L'arrosage du jardin ou des plantes d'intérieur, en période de restriction d'eau doit donc se faire de manière rationnelle afin de ne pas gaspiller une ressource sur laquelle repose d'ores et déjà beaucoup de pression.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/beau-jardin-21-siecle/DATA1_TDL.png" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -71,45 +69,45 @@ Avec les enjeux actuels liés au changement climatique, entraînant des vagues d
 
 ## Compétences mobilisées
 
-En mettant en œuvre une expérience par eux-mêmes, les élèves mobiliseront plusieurs compétences :
+En menant eux-mêmes une expérience, les élèves mobiliseront plusieurs compétences :
 
-- Biologie : définir et analyser scientifiquement le **concept de développement durable** afin d'apprécier son importance, comprendre l'importance d'une **utilisation rationnelle des ressources naturelles**, proposer des solutions diverses à des **problématiques environnementales**
-- Biologie : aborder les concepts de **conductivité du sol**
-- Technologie : utiliser une **carte programmable** et des capteurs afin de collecter des **données numériques**, approcher les **technologies d'automatisation**
-- Mathématiques : analyser des données de manière **statistique**
-- Technologie ou ingénierie, mathématiques : utiliser une **feuille de calcul**, analyser des données, réaliser des **graphiques** et des **diagrammes** afin de visualiser les données et de décrire ces conclusions
-- Transdisciplinaire : **savoir modéliser, comprendre, formaliser, partager, construire, investiguer, prouver son hypothèse**
-- Physique : formuler une hypothèse et conduire une **expérimentation basée sur la méthode scientifique** pour conclure si elle est correcte ou non.
+- Biologie : définir et analyser scientifiquement le concept de développement durable pour en apprécier l'importance, comprendre pourquoi utiliser les ressources naturelles de façon rationnelle, proposer des solutions diverses à des problématiques environnementales
+- Biologie : aborder les concepts de conductivité du sol
+- Technologie : utiliser une carte programmable et des capteurs afin de collecter des données numériques, approcher les technologies d'automatisation
+- Mathématiques : analyser des données de manière statistique
+- Technologie ou ingénierie, mathématiques : utiliser une feuille de calcul, analyser des données, réaliser des graphiques et des diagrammes afin de visualiser les données et de décrire ces conclusions
+- Transdisciplinaire : savoir modéliser, comprendre, formaliser, partager, construire, investiguer, prouver son hypothèse
+- Physique : formuler une hypothèse et conduire une expérimentation fondée sur la méthode scientifique pour conclure si elle est correcte ou non.
 
 Afin de comprendre le fonctionnement de l'irrigation et de l'arrosage des plantes, les élèves devront suivre les étapes de l'investigation scientifique en gardant à l'esprit les 4 phases suivantes :
 
-- **Définir les variables permettant de mesurer l'humidité** : définir les données à collecter selon l'identification de variables mesurables pertinentes pour mener cette expérimentation.
-- **Construire un outil de collecte de données** permettant d'analyser les variables définies
-- Construire un **outil d'arrosage automatique**
-- **Mesurer et analyser les données**
-- **Conclure**
+- **Définir les variables permettant de mesurer l'humidité** : définir les données à collecter en identifiant des variables mesurables pertinentes pour mener cette expérimentation.
+- Construire un outil de collecte de données pour analyser les variables définies
+- Construire un outil d'arrosage automatique
+- Mesurer et analyser les données
+- Conclure
 
 ## Étape 1 : Collecter des données
 
 ### Orientation
 
-La croissance optimale d'une plante dépend de plusieurs paramètres tels que la lumière, la température, les nutriments à disposition et l'eau. Quelles sont les mesures essentielles que nous devons effectuer pour assurer une bonne croissance ?
+La croissance optimale d'une plante dépend de plusieurs paramètres tels que la lumière, la température, les nutriments à disposition et l'eau. Quelles sont les mesures essentielles à effectuer pour assurer une bonne croissance ?
 
 Pour comprendre les phénomènes et apporter une réponse même partielle à la question précédente, il faut étudier un paramètre à la fois. Celui qui est choisi est la quantité d'eau distribuée à la plante. Comment déterminer que la plante a besoin d'eau ? Et surtout, comment un système automatique peut-il s'en servir pour distribuer de l'eau si nécessaire ?
 
 ### Conceptualisation
 
-Pour vivre, une plante a besoin d'eau. La grande majorité de cette eau est absorbée par ses racines. La quantité d'eau disponible dans le sol est donc celle que la plante va absorber pour répondre à ses besoins. Pour savoir si la plante dispose d'eau, il faudra donc mesurer si le sol autour de notre plante est plus ou moins humide. Certaines plantes ont besoin de très peu d'eau (par exemple, les cactus), d'autres doivent être immergées presque en permanence (par exemple, les papyrus) et d'autres encore ont besoin d'une quantité intermédiaire pour que le sol ne soit ni trop sec ni trop humide (par exemple, les impatiens). Pour savoir si la quantité d'eau disponible dans le sol est adaptée au besoin de la plante choisie, l'humidité va être mesurée à l'aide d'un capteur spécifique à l'humidité du sol.
+Pour vivre, une plante a besoin d'eau. La grande majorité de cette eau est absorbée par ses racines. La quantité d'eau disponible dans le sol est donc celle que la plante va absorber pour répondre à ses besoins. Pour savoir si la plante a de l'eau, il faudra donc mesurer si le sol autour d'elle est plus ou moins humide. Certaines plantes ont besoin de très peu d'eau (par exemple, les cactus), d'autres doivent être immergées presque en permanence (par exemple, les papyrus) et d'autres encore ont besoin d'une quantité intermédiaire pour que le sol ne soit ni trop sec ni trop humide (par exemple, les impatiens). Pour savoir si la quantité d'eau disponible dans le sol est adaptée au besoin de la plante choisie, l'humidité va être mesurée à l'aide d'un capteur spécifique à l'humidité du sol.
 
 :::info
-La photosynthèse est un processus de **biosynthèse** qui exploite l'énergie du soleil avec des substances organiques (eau, CO2, oxygène) pour la **transformer en énergie chimique**. Elle est utilisée par les plantes, algues, cyanobactéries et certaines bactéries.
+La photosynthèse est un processus de biosynthèse qui exploite l'énergie du soleil avec des substances organiques (eau, CO2, oxygène) pour la transformer en énergie chimique. Elle est utilisée par les plantes, algues, cyanobactéries et certaines bactéries.
 
-La photosynthèse **absorbe le dioxyde de carbone produit par les organismes photosynthétiques** et réintroduit de l'oxygène dans l'atmosphère.
+La photosynthèse absorbe le dioxyde de carbone produit par les organismes photosynthétiques et réintroduit de l'oxygène dans l'atmosphère.
 :::
 
 ### Investigation
 
-Un capteur d'humidité du sol fonctionne en mesurant la conductivité, c'est-à-dire la capacité à conduire un courant. L'eau étant un conducteur, plus un sol va être humide (*i.e* plus la quantité d'eau augmente), plus sa conductivité sera grande. Inversement, plus un sol sera sec (*i.e* moins il contiendra d'eau), plus la conductivité sera petite.
+Un capteur d'humidité du sol fonctionne en mesurant la conductivité, c'est-à-dire la capacité à conduire un courant. L'eau étant un conducteur, plus un sol va être humide (plus la quantité d'eau augmente), plus sa conductivité sera grande. Inversement, plus un sol sera sec (moins il contiendra d'eau), plus la conductivité sera petite.
 
 Le sol contient une grande quantité de sels (utilisés par la plante en tant que nutriments) qui, en présence d'eau, se dissolvent et libèrent les ions dont il est composé. Les ions sont des particules chargées (positivement ou négativement) qui peuvent être mises en mouvement lorsqu'elles sont soumises à une différence de potentiel, ce qui crée un courant électrique. La dissolution des sels dans l'eau va donc modifier la conductivité de l'eau en l'augmentant. Plus il y a d'eau, plus les nutriments peuvent se dissoudre (et donc plus d'ions libres dans l'eau), plus la conductivité augmente. Ainsi, même en arrosant un sol avec une eau pure non conductrice, on peut mesurer l'évolution de l'humidité du sol grâce à la conductivité.
 
@@ -121,21 +119,21 @@ Avec le programme de la fiche précédente, il est possible de relever les valeu
 
 La mesure de la conductivité est très sensible aux contacts. Ainsi, la profondeur de la fourche dans le sol va modifier la mesure, et si le sol est plus ou moins compacté, la mesure va également changer. Pour ces raisons, le capteur d'humidité du sol ne donne pas une mesure très précise mais il est suffisant pour connaître l'évolution de l'humidité.
 
-Nous pouvons déjà mesurer l'humidité de différentes plantes pour obtenir des valeurs de référence pour caractériser l'humidité du sol d'une plante (très sec, sec, légèrement humide, humide, très humide, mouillé).
+On peut déjà mesurer l'humidité de différentes plantes pour obtenir des valeurs de référence qui caractérisent l'humidité du sol d'une plante (très sec, sec, légèrement humide, humide, très humide, mouillé).
 
 ## Étape 2 : Transformer les mesures en informations utiles pour l'arrosage
 
 ### Orientation
 
-Nous avons vu comment effectuer une mesure analogique par le capteur d'humidité. Il faut maintenant mettre en relation cette valeur (entre 0 et 1023) avec le taux d'humidité. La relation n'est pas directe, puisque la conductivité dépend de plusieurs paramètres. Nous devons aussi qualifier l'état du sol en fonction de la plante : le même sol au même taux d'humidité sera peut-être à considérer comme trop humide pour un cactus mais trop sec pour un papyrus.
+Le capteur d'humidité fournit une mesure analogique. Il faut maintenant mettre en relation cette valeur (entre 0 et 1023) avec le taux d'humidité. La relation n'est pas directe, puisque la conductivité dépend de plusieurs paramètres. Il faut aussi qualifier l'état du sol en fonction de la plante : le même sol au même taux d'humidité sera peut-être à considérer comme trop humide pour un cactus mais trop sec pour un papyrus.
 
 ### Conceptualisation
 
-Nous devons étalonner notre appareil de mesure, c'est-à-dire surveiller la conductivité sur plusieurs cycles d'arrosage "manuels" afin de décider quelles valeurs de conductivité devront par la suite déclencher un arrosage automatique. Afin d'identifier les besoins en eau de la plante, nous devons arroser la plante "normalement" pendant plusieurs cycles, en notant bien la valeur mesurée de la conductivité avant et après chaque arrosage.
+Il faut étalonner l'appareil de mesure, c'est-à-dire surveiller la conductivité sur plusieurs cycles d'arrosage "manuels" afin de décider quelles valeurs de conductivité devront par la suite déclencher un arrosage automatique. Pour identifier les besoins en eau de la plante, l'arroser "normalement" pendant plusieurs cycles, en notant bien la valeur mesurée de la conductivité avant et après chaque arrosage.
 
 ### Investigation
 
-Dans le cadre de ce projet, nous voulons pouvoir arroser une plante pour qu'elle ne se fane pas, nous n'utiliserons donc pas de valeurs en tant que telles (qui ne sont de toute façon pas très précises), mais plutôt des intervalles de valeurs. Il semble raisonnable de définir trois intervalles distincts :
+Dans ce projet, le but est d'arroser une plante pour qu'elle ne se fane pas : on n'utilise donc pas les valeurs en tant que telles (qui ne sont de toute façon pas très précises), mais plutôt des intervalles de valeurs. Il semble raisonnable de définir trois intervalles :
 
 - Sec (il faut arroser)
 - Moite (tout va bien)
@@ -153,21 +151,21 @@ Le programme résultant pour un iris est écrit comme suit et l'écran affiche (
 
 ### Débriefing
 
-Grâce à un capteur bon marché et simple d'utilisation, nous pouvons obtenir l'état d'humidité du sol au pied d'une plante. Bien que la mesure ne soit pas précise et assez relative, elle est suffisante pour le cas qui nous intéresse ici. De plus, il permet de bien comprendre le concept d'étalonnage de la mesure (même très simplifié) et l'importance d'une valeur de référence.
+Un capteur bon marché et simple d'utilisation donne l'état d'humidité du sol au pied d'une plante. La mesure n'est pas précise et reste assez relative, mais elle suffit pour cet usage. Le capteur aide aussi à comprendre l'étalonnage d'une mesure (même très simplifié) et l'importance d'une valeur de référence.
 
 ## Étape 3 : Commander un servomoteur
 
 ### Orientation
 
-Maintenant que notre appareil nous dit quand l'arrosage devrait se déclencher, il faut construire le système d'arrosage lui-même. Notre solution utilisera un servomoteur (un moteur qui peut déplacer son axe dans une position angulaire déterminée), et nous allons donc voir comment contrôler le servomoteur.
+Maintenant que l'appareil indique quand l'arrosage devrait se déclencher, il faut construire le système d'arrosage lui-même. La solution retenue utilise un servomoteur (un moteur qui peut déplacer son axe dans une position angulaire déterminée).
 
 ### Investigation
 
-Afin d'utiliser le servomoteur, il est indispensable de se familiariser avec son fonctionnement. Nous vous proposons comme activité simple : de réaliser un circuit avec le servomoteur et de le programmer pour qu'il se positionne à différents angles.
+Pour utiliser le servomoteur, il faut se familiariser avec son fonctionnement. Nous proposons une activité simple : réaliser un circuit avec le servomoteur et le programmer pour qu'il se positionne à différents angles.
 
 ### Débriefing
 
-Les élèves sont maintenant capables d'utiliser et de commander un servomoteur, qu'ils utiliseront dans la prochaine étape du système d'irrigation. Le choix du servomoteur n'a pas été fait au hasard. En effet, le servomoteur ne nécessite pas d'autres accessoires (alimentation externe, transistor de puissance, relais…) et son utilisation est très simple. Il est candidat pour de nombreuses applications nécessitant de mettre des objets en mouvement et son utilisation se retrouve dans de nombreux autres projets amateurs.
+Les élèves sont maintenant capables d'utiliser et de commander un servomoteur, qu'ils utiliseront dans la prochaine étape du système d'irrigation. Le servomoteur a été choisi parce qu'il ne nécessite pas d'autres accessoires (alimentation externe, transistor de puissance, relais...) et qu'il est très simple à utiliser. Il peut servir dans de nombreuses applications qui mettent des objets en mouvement, et on le retrouve dans de nombreux autres projets amateurs.
 
 ## Étape 4 : Créer un système d'arrosage autonome
 
@@ -177,15 +175,15 @@ Comment votre dispositif va-t-il amener l'eau à une installation domestique ? L
 
 ### Conceptualisation
 
-Le servomoteur fait tourner la paille par sa partie centrale : d'un côté, la paille est pliée en forme de cuillère et recueille un peu d'eau, et de l'autre côté, elle verse cette eau dans le bac à plantes. Quelle quantité d'eau recueille-t-elle à chaque mouvement de rotation ? Nous devrons ajuster le programme pour que la quantité d'eau soit correcte en fonction de notre étalonnage.
+Le servomoteur fait tourner la paille par sa partie centrale : d'un côté, la paille est pliée en forme de cuillère et recueille un peu d'eau, et de l'autre côté, elle verse cette eau dans le bac à plantes. Quelle quantité d'eau recueille-t-elle à chaque mouvement de rotation ? Il faudra ajuster le programme pour que la quantité d'eau soit correcte compte tenu de l'étalonnage.
 
 ### Investigation
 
-Maintenant, nous pouvons assembler les deux parties pour mettre en place le système d'arrosage automatique : il suffit de couper la paille à la bonne longueur, de lui donner la forme d'un "L" avec le joint et de l'attacher au servomoteur avec un trombone ou un fil. Le capteur d'humidité est enfoncé dans le sol.
+Assembler maintenant les deux parties du système d'arrosage automatique : il suffit de couper la paille à la bonne longueur, de lui donner la forme d'un "L" avec le joint et de l'attacher au servomoteur avec un trombone ou un fil. Le capteur d'humidité est enfoncé dans le sol.
 
 ### Débriefing
 
-Partant du principe que pour avoir un jardin économe en eau, il fallait être capable de déterminer les besoins hydriques de la plante, nous avons un **système d'arrosage automatique**. Ce système est constitué de deux parties distinctes. La première dédiée à déterminer "si la plante a soif" en utilisant la conductivité pour estimer l'humidité du sol. La seconde s'occupe de satisfaire au besoin de la plante en apportant "la juste quantité d'eau". Un autre système d'apport d'eau aurait pu être créé avec une pompe et un relais par exemple. Celui que nous avons choisi a l'avantage de n'utiliser qu'un simple servomoteur, ce qui le rend très bon marché et facile à mettre en œuvre. Les étudiants peuvent mesurer la quantité d'eau absorbée à chaque coup de paille pour suivre les besoins en eau de différentes plantes ou pour observer l'impact des conditions environnementales telles que la lumière, la température et l'humidité de l'air sur la consommation d'eau. Ils peuvent également formuler de nouvelles hypothèses pour réaliser de nouveaux protocoles en se servant de celui-ci comme base.
+On part du principe qu'un jardin économe en eau suppose de savoir déterminer les besoins hydriques de la plante. Le système d'arrosage automatique a deux parties : la première détermine "si la plante a soif" en estimant l'humidité du sol par la conductivité ; la seconde répond au besoin de la plante en apportant "la juste quantité d'eau". Un autre système d'apport d'eau aurait pu être créé, par exemple avec une pompe et un relais. Celui retenu ici a l'avantage de n'utiliser qu'un simple servomoteur, ce qui le rend très bon marché et facile à mettre en œuvre. Les élèves peuvent mesurer la quantité d'eau absorbée à chaque coup de paille pour suivre les besoins en eau de différentes plantes ou pour observer l'impact des conditions environnementales telles que la lumière, la température et l'humidité de l'air sur la consommation d'eau. Ils peuvent également formuler de nouvelles hypothèses pour réaliser de nouveaux protocoles en se servant de celui-ci comme base.
 
 ## Programmation
 

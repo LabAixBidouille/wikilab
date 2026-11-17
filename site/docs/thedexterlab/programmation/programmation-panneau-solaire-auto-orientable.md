@@ -60,7 +60,7 @@ Cette fiche technique accompagne la ressource [Construire un panneau solaire aut
 
 ## Étape 1 : Collecter des données grâce au capteur de lumière
 
-Le circuit que nous devons assembler se compose de deux éléments : une résistance de 10 kΩ et une cellule photoélectrique.
+Le circuit à assembler contient deux éléments : une résistance de 10 kΩ et une cellule photoélectrique.
 
 <img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/cablercellulephotovoltaique.webp" alt="Câblage cellule photovoltaïque" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 
@@ -81,7 +81,7 @@ forever(function () {
 
 ## Étape 2 : Mesurer le changement d'intensité lumineuse avec deux LDR
 
-Le circuit se compose de deux LDR. Nous brancherons la LDR de "gauche" sur A0 et la cellule photoélectrique de "droite" sur A1.
+Le circuit contient deux LDR. Brancher la LDR de "gauche" sur A0 et celle de "droite" sur A1.
 
 <img src="/img/ressources/thedexterlab/programmation-panneau-solaire-auto-orientable/cablerplusieurscellule.webp" alt="Câblage de plusieurs cellules" style={{width: '30%', height: 'auto', display: 'block', margin: '1rem 0'}} />
 

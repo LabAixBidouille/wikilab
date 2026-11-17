@@ -44,7 +44,7 @@ sidebar_position: 1
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Beau jardin au 21e siècle](/ressources/thedexterlab/beau-jardin-21-siecle) et regroupe les étapes de programmation nécessaires pour construire un système d'arrosage automatique. Nous allons progressivement mesurer l'humidité du sol avec un capteur, afficher cette information sur un écran OLED, commander un servomoteur pour distribuer de l'eau, puis assembler le tout pour créer un système autonome.
+Cette fiche technique accompagne la ressource [Beau jardin au 21e siècle](/ressources/thedexterlab/beau-jardin-21-siecle) et regroupe les étapes de programmation nécessaires pour construire un système d'arrosage automatique. On mesure d'abord l'humidité du sol avec un capteur, puis on affiche cette information sur un écran OLED, on commande un servomoteur pour distribuer de l'eau et on assemble le tout en un système autonome.
 
 ## Objectifs d'apprentissage
 
@@ -59,7 +59,7 @@ Cette fiche technique accompagne la ressource [Beau jardin au 21e siècle](/ress
 
 **Câbler le capteur d'humidité**
 
-Le capteur d'humidité que nous utilisons possède trois broches : deux broches d'alimentation (+ et -) ainsi qu'une broche de signal.
+Le capteur d'humidité utilisé ici a trois broches : deux broches d'alimentation (+ et -) et une broche de signal.
 
 - La broche **+** du capteur sur la broche 5V de la carte
 - La broche **-** du capteur sur la broche GND de la carte

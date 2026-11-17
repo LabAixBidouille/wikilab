@@ -52,14 +52,14 @@ sidebar_position: 2
 ---
 
 :::info
-Dans ce projet nous découvrirons que les rivières créent les mers. Nous découvrirons que les océans commencent dans les montagnes. Tout ce qui se passe sur terre même loin des côtes exerce une influence sur l'océan. L'eau de pluie qui mouille les terres est pure. Pendant le voyage qui permet à cette eau de retourner à l'océan, sa composition va changer. Cependant, elle ne devient pas salée. La question est donc : d'où vient le sel de l'eau de mer ? Pour trouver l'origine du sel de mer, nous devons commencer par nous équiper d'un détecteur de sel qui fonctionne dans l'eau. La deuxième étape consistera à faire une série de mesures pour découvrir où est-ce que le sel peut apparaître, et cela nous permettra de découvrir la source.
+Dans ce projet nous découvrirons que les rivières créent les mers et que les océans commencent dans les montagnes. Tout ce qui se passe sur terre même loin des côtes exerce une influence sur l'océan. L'eau de pluie qui mouille les terres est pure. Pendant le voyage qui permet à cette eau de retourner à l'océan, sa composition va changer. Cependant, elle ne devient pas salée. La question est donc : d'où vient le sel de l'eau de mer ? Pour trouver l'origine du sel de mer, nous devons commencer par nous équiper d'un détecteur de sel qui fonctionne dans l'eau. La deuxième étape consistera à faire une série de mesures pour découvrir où est-ce que le sel peut apparaître, et cela nous permettra de découvrir la source.
 :::
 
 ## Déroulé de l'activité
 
 Ce protocole aborde la question de la présence de sel dans l'eau de mer et propose des expériences simples pour comprendre son origine. Il commence par expliquer comment utiliser un détecteur de sel pour mesurer la conductivité de l'eau salée. Pour obtenir des mesures précises, la méthode de mesure de la conductivité est décrite en détail.
 
-La deuxième expérience aborde la question de savoir comment l'eau de mer devient de plus en plus salée. Pour répondre à cette question, une expérience en classe est proposée. Cette expérience consiste à faire s'évaporer de l'eau dans un récipient fermé, puis à récupérer les condensats dans un verre. La surface de condensation est déformée ponctuellement avec une masse telle qu'une bille en métal pour constituer un cône d'écoulement permettant à l'eau de condensation de retomber dans le verre situé sous le poids. L'eau qui retombe dans le verre devrait être similaire à l'eau de pluie en termes de conductivité. L'eau en dehors du verre devient de plus en plus salée, la conductivité augmente avec le temps et par extension comment les océans sont devenus salés comme nous les connaissons.
+La deuxième expérience aborde la question de savoir comment l'eau de mer devient de plus en plus salée. Pour répondre à cette question, une expérience en classe est proposée. Cette expérience consiste à faire s'évaporer de l'eau dans un récipient fermé, puis à récupérer les condensats dans un verre. La surface de condensation est déformée ponctuellement avec une masse telle qu'une bille en métal pour constituer un cône d'écoulement permettant à l'eau de condensation de retomber dans le verre situé sous le poids. L'eau qui retombe dans le verre devrait avoir une conductivité semblable à celle de l'eau de pluie. L'eau en dehors du verre devient de plus en plus salée, la conductivité augmente avec le temps et par extension comment les océans sont devenus salés comme nous les connaissons.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/ocean-sale/DATA_2_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -68,7 +68,7 @@ La deuxième expérience aborde la question de savoir comment l'eau de mer devie
 
 ## Compétences mobilisées
 
-En mettant en œuvre une expérience par eux-mêmes, les élèves mobiliseront plusieurs compétences :
+En réalisant eux-mêmes une expérience, les élèves mobiliseront plusieurs compétences :
 
 - **Connaissance de la méthode scientifique :**
     - Sciences de la Vie et de la Terre (SVT) : utilisation de la démarche scientifique pour formuler et valider des hypothèses, concevoir et réaliser des expériences, interpréter des résultats expérimentaux.
@@ -161,7 +161,7 @@ Il est possible de faire une expérience en classe pour montrer le phénomène, 
 
 L'idée est de faire s'évaporer de l'eau dans un récipient fermé et de récupérer les condensats dans un verre. La surface de condensation étant un film étirable, elle peut être déformée ponctuellement avec une masse telle qu'une bille en métal pour constituer un cône d'écoulement permettant à l'eau de condensation de retomber dans le verre situé sous le poids.
 
-L'eau qui retombe dans le verre devrait être similaire à l'eau de pluie en termes de conductivité. Que va-t-il se passer pour l'eau en dehors du verre ? Sa conductivité va-t-elle évoluer et de quelle manière ?
+L'eau qui retombe dans le verre devrait avoir une conductivité semblable à celle de l'eau de pluie. Que va-t-il se passer pour l'eau en dehors du verre ? Sa conductivité va-t-elle évoluer et de quelle manière ?
 
 ### Investigation
 

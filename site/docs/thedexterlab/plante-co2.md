@@ -50,12 +50,12 @@ sidebar_position: 8
 ---
 
 :::info
-L'absorption du dioxyde de carbone par les plantes est un processus connu. Les plantes absorbent le dioxyde de carbone de l'air à travers leurs feuilles et le convertissent en sucres et en d'autres molécules organiques grâce à l'énergie provenant de la lumière du soleil. Ce processus produit également de l'oxygène, qui est libéré dans l'air. Les plantes peuvent alors stocker le carbone sous forme de matière végétale, ce qui peut aider à réduire la quantité de gaz à effet de serre dans l'atmosphère. En effet, lorsque les plantes meurent et se décomposent, le carbone qu'elles ont stocké est libéré lentement dans le sol et peut être stocké sous forme de matière organique pour des périodes plus longues. C'est pourquoi les forêts et d'autres types d'espaces verts sont souvent considérés comme des "puits de carbone" importants pour lutter contre le changement climatique.
+L'absorption du dioxyde de carbone par les plantes est un processus connu. Les plantes absorbent le dioxyde de carbone de l'air à travers leurs feuilles et le convertissent en sucres et en d'autres molécules organiques grâce à l'énergie provenant de la lumière du soleil. Ce processus produit également de l'oxygène, qui est libéré dans l'air. Les plantes peuvent alors stocker le carbone sous forme de matière végétale, ce qui peut aider à réduire la quantité de gaz à effet de serre dans l'atmosphère. En effet, lorsque les plantes meurent et se décomposent, le carbone qu'elles ont stocké est libéré lentement dans le sol et peut être stocké sous forme de matière organique pour des périodes plus longues. C'est pourquoi les forêts et d'autres types d'espaces verts sont souvent considérés comme des « puits de carbone » importants pour lutter contre le changement climatique.
 :::
 
 ## Déroulé de l'activité
 
-Ce projet consiste à sensibiliser les jeunes sur les enjeux climatiques. Protéger et augmenter nos espaces verts doit être une préoccupation. Nous mènerons des expériences pour observer que les plantes vertes produisent du dioxygène à la lumière alors qu'elles le consomment dans l'obscurité. Nous proposerons de poursuivre les expériences dans des conditions différentes.
+Ce projet consiste à sensibiliser les jeunes sur les enjeux climatiques. Protéger et augmenter nos espaces verts doit être une préoccupation. On mène des expériences pour observer que les plantes vertes produisent du dioxygène à la lumière alors qu'elles le consomment dans l'obscurité, puis on propose de les poursuivre dans des conditions différentes.
 
 Les objectifs d'apprentissage de cette activité seront donc les suivants :
 
@@ -93,25 +93,25 @@ La photosynthèse des végétaux chlorophylliens est responsable de la fixation 
 
 ### Investigation
 
-La phase d'investigation consistera à mettre en place l'expérience et à collecter les données sur le taux de CO2 consommé par la plante. Vous pouvez suivre les étapes suivantes :
+La phase d'investigation consistera à installer l'expérience et à collecter les données sur le taux de CO2 consommé par la plante. Vous pouvez suivre les étapes suivantes :
 
-1. Mise en place de la cloche avec une plante.
+1. Placer une plante sous la cloche.
 2. Placer une lampe.
 3. Positionner le capteur CO2 dans la cloche.
 4. Brancher le capteur sur la carte programmable.
 5. Réaliser le programme pour collecter les données.
 
-Les données seront collectées directement sur l'interface de programmation grâce à la mise en place de la console, disponible sous le simulateur.
+Les données seront collectées directement sur l'interface de programmation, dans la console disponible sous le simulateur.
 
 ### Débriefing
 
-Durant cette expérimentation, nous avons pu observer qu'une plante consomme du CO2 quand elle est éclairée correctement. Cette diminution du taux de CO2 est liée à l'activité photosynthétique de la plante. Le CO2 absorbé par la plante lui permet d'alimenter les différents processus biochimiques permettant l'assimilation des glucides nécessaire à la croissance de la plante. Le CO2 n'est pas le seul élément nécessaire à la photosynthèse, il faut aussi l'eau et la lumière pour qu'elle se produise. Si la plante n'est pas assez arrosée ou pas assez éclairée, on ne peut pas observer la variation de la concentration de CO2 attendue.
+Durant cette expérimentation, on observe qu'une plante consomme du CO2 quand elle est éclairée correctement. Cette diminution du taux de CO2 est liée à l'activité photosynthétique de la plante. Le CO2 absorbé alimente les processus biochimiques par lesquels la plante assimile les glucides nécessaires à sa croissance. Le CO2 n'est pas le seul élément nécessaire à la photosynthèse, il faut aussi l'eau et la lumière pour qu'elle se produise. Si la plante n'est pas assez arrosée ou pas assez éclairée, on ne peut pas observer la variation de la concentration de CO2 attendue.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-**Contexte :** nous avons pu voir dans la partie précédente comment demander à un capteur d'obtenir des informations. Il serait utile maintenant de pouvoir faire connaître ces informations à l'utilisateur.
+**Contexte :** la partie précédente a montré comment demander à un capteur d'obtenir des informations. Il serait utile maintenant de faire connaître ces informations à l'utilisateur.
 
 **Objectifs :** choisir le matériel adapté parmi des actionneurs mis à disposition.
 
@@ -120,8 +120,6 @@ Durant cette expérimentation, nous avons pu observer qu'une plante consomme du 
 Afin d'informer l'utilisateur du taux de CO2 mesuré, la première solution qui vient à l'esprit est d'utiliser un afficheur externe de type écran.
 
 ### Investigation
-
-Pour réaliser cette phase, voici les différentes étapes de la phase d'investigation :
 
 1. Choisir l'actionneur adéquat dans une boîte d'actionneur.
 2. Positionner l'actionneur choisi.
@@ -150,18 +148,18 @@ L'ajout d'un écran permet de faire plus de tests et de mieux comprendre les ph�
 
 ### Orientation
 
-**Contexte :** nous avons pu afficher les données instantanément. Nous avons pu observer les variations du taux de CO2. Il serait peut-être pertinent de mesurer sur une période plus longue.
+**Contexte :** on a pu afficher les données instantanément et observer les variations du taux de CO2. Il serait peut-être pertinent de mesurer sur une période plus longue.
 
 **Objectifs :** analyser les données mesurées et les extraire sur un fichier.
 
 ### Conceptualisation
 
-Afin d'analyser les données du capteur de CO2 sur une longue période, l'utilisation d'un tableur semble être une solution simple. Pour cela, il est nécessaire de pouvoir récupérer les données de la carte programmable. La solution à mettre en place sera d'écrire via le port série les données au format CSV (comma separated value), format de données exploitable par un tableur.
+Afin d'analyser les données du capteur de CO2 sur une longue période, un tableur semble être une solution simple. Il faut pour cela récupérer les données de la carte programmable, en les écrivant via le port série au format CSV (comma separated value), format de données exploitable par un tableur.
 
 ### Investigation
 
 1. Définir deux périodes de mesures (jour et nuit)
-2. Mise en œuvre du programme de récupération des données.
+2. Réaliser le programme de récupération des données.
 3. Récupérer les données dans des tableurs.
 
 Conduire l'expérience avec plusieurs plantes pour observer ce qui se passe sur plusieurs jours. Avec les données produites, essayez de comparer les différentes expériences et formuler des hypothèses par rapport à ce que vous observez. Remplir le tableau suivant chaque jour :
@@ -174,29 +172,29 @@ Conduire l'expérience avec plusieurs plantes pour observer ce qui se passe sur 
 
 ### Débriefing
 
-Les données produites permettent de commencer à modéliser la variation du CO2 et son impact sur la croissance de la plante. La comparaison avec des plantes avec des vitesses de croissance différentes permet d'observer que plus une plante grandit vite plus elle va consommer de CO2 chaque jour. La quantité de CO2 disponible est un facteur limitant pour certaines plantes et une complémentation peut permettre à ces plantes d'avoir une croissance optimisée.
+Avec les données produites, on peut commencer à modéliser la variation du CO2 et son impact sur la croissance de la plante. La comparaison de plantes aux vitesses de croissance différentes montre que plus une plante grandit vite, plus elle consomme de CO2 chaque jour. La quantité de CO2 disponible est un facteur limitant pour certaines plantes, et une complémentation peut optimiser la croissance de ces plantes.
 
 ## Étape 4 : Utiliser les données de température et d'humidité pour observer leurs influences
 
 ### Orientation
 
-**Contexte :** nous allons faire varier la température et le taux d'humidité sous la cloche. Est-ce que le changement de ces paramètres exerce une influence sur les échanges gazeux ?
+**Contexte :** on fait varier la température et le taux d'humidité sous la cloche. Est-ce que le changement de ces paramètres exerce une influence sur les échanges gazeux ?
 
 **Objectifs :** analyser les données mesurées et apporter une conclusion sur notre écosystème.
 
 ### Conceptualisation
 
-Afin d'analyser les données des différents capteurs sur une longue période et dans des conditions différentes, l'utilisation d'un tableur est nécessaire. La solution mise en place sera d'écrire via le port série les données au format CSV (comma separated value), format exploitable par un tableur. L'analyse de ces données permettra de conclure sur les hypothèses de départ.
+Afin d'analyser les données des différents capteurs sur une longue période et dans des conditions différentes, un tableur est nécessaire. Pour cela, écrire les données via le port série au format CSV (comma separated value), format exploitable par un tableur. L'analyse de ces données permettra de conclure sur les hypothèses de départ.
 
 ### Investigation
 
 1. Définir une période de mesure (1 heure)
-2. Mise en œuvre du programme de récupération des données.
+2. Réaliser le programme de récupération des données.
 3. Récupérer les données dans un tableur.
 4. Analyser les données collectées.
 5. Faire une conclusion avec des recherches sur Internet.
 
-En ajoutant la température et l'humidité à nos données, on peut voir si cela a un impact sur l'activité observable de nos plantes. En remplissant le tableau suivant, formulez des hypothèses quant aux besoins environnementaux de chaque plante :
+En ajoutant la température et l'humidité aux données, on peut voir si elles ont un impact sur l'activité observable des plantes. En remplissant le tableau suivant, formulez des hypothèses quant aux besoins environnementaux de chaque plante :
 
 | Jour | Plante | Température | Taux d'humidité | Quantité d'eau | Éclairage | CO2 (ppm) | Croissance ? | Observations |
 |---|---|---|---|---|---|---|---|---|
@@ -208,11 +206,11 @@ Pour valider que la température a un impact, essayez de mettre des plantes dans
 
 ### Débriefing
 
-Comme on l'a vu précédemment, la lumière, l'eau et le CO2 sont les éléments principaux nécessaires à l'activité photosynthétique de la plante. Une plante a d'autres besoins qui peuvent causer l'arrêt de son activité. L'humidité et la température sont aussi des paramètres importants pour permettre à une plante de se développer.
+La lumière, l'eau et le CO2 sont les éléments principaux nécessaires à l'activité photosynthétique de la plante. Une plante a d'autres besoins qui peuvent causer l'arrêt de son activité. L'humidité et la température sont aussi des paramètres importants pour permettre à une plante de se développer.
 
 Les plantes peuvent capturer du CO2, ce qui peut aider à compenser la production humaine de CO2. Cependant, si les conditions ne sont pas bonnes, les plantes ne peuvent pas stocker autant de carbone, et il est donc difficile de créer des puits de carbone verts. En France par exemple, avec les conditions climatiques plus extrêmes de ces dernières années, les forêts ont perdu près de la moitié de leur capacité de stockage de carbone en 10 ans.
 
-Cette activité, au-delà de proposer une découverte de la photosynthèse, est aussi une opportunité de discuter de la captation du carbone et des puits de carbone pour réduire les émissions de gaz à effet de serre.
+En plus de faire découvrir la photosynthèse, cette activité est l'occasion de discuter de la captation du carbone et des puits de carbone pour réduire les émissions de gaz à effet de serre.
 
 ## Programmation
 

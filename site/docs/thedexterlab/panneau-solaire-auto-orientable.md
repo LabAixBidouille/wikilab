@@ -47,16 +47,16 @@ sidebar_position: 7
 ---
 
 :::info
-Un panneau solaire fonctionne en convertissant l'énergie solaire en électricité. Il est composé de cellules photovoltaïques qui capturent la lumière du soleil et la convertissent en électricité à l'aide d'un processus appelé effet photovoltaïque. L'électricité produite par les cellules est ensuite envoyée à un onduleur, qui la convertit en courant alternatif utilisable pour alimenter les appareils. En raison de leur durabilité et de leur capacité à produire de l'énergie propre, les panneaux solaires sont considérés comme une forme importante d'énergie renouvelable.
+Un panneau solaire fonctionne en convertissant l'énergie solaire en électricité. Il est composé de cellules photovoltaïques qui capturent la lumière du soleil et la convertissent en électricité à l'aide d'un processus appelé effet photovoltaïque. L'électricité produite par les cellules est ensuite envoyée à un onduleur, qui la convertit en courant alternatif utilisable pour alimenter les appareils. Les panneaux solaires sont durables et produisent une énergie propre : on les considère comme une forme importante d'énergie renouvelable.
 :::
 
 ## Déroulé de l'activité
 
-L'objectif principal de ce protocole est de maximiser la production d'énergie solaire en suivant la trajectoire du soleil tout au long de la journée. Pour y parvenir, nous proposons aux élèves de développer un système basé sur un servomoteur qui permettra à un panneau photovoltaïque de toujours être orienté face au soleil. Ainsi, nous pourrons exploiter au mieux l'énergie solaire disponible.
+L'objectif principal de ce protocole est de maximiser la production d'énergie solaire en suivant la trajectoire du soleil tout au long de la journée. Pour y parvenir, on propose aux élèves de développer un système à servomoteur qui garde un panneau photovoltaïque toujours orienté face au soleil. On peut ainsi exploiter au mieux l'énergie solaire disponible.
 
-Pour atteindre cet objectif, nous allons mesurer la quantité de lumière tombant sur le panneau solaire à différents moments de la journée. Ces mesures nous permettront de contrôler le mouvement du panneau solaire, si nécessaire, afin de maximiser la production d'énergie. Les élèves pourront installer des capteurs pour surveiller les conditions météorologiques, ce qui permettra de prévoir les variations de la lumière solaire et d'adapter en conséquence la position du panneau photovoltaïque.
+Pour atteindre cet objectif, on mesure la quantité de lumière qui tombe sur le panneau solaire à différents moments de la journée. Ces mesures servent à contrôler le mouvement du panneau solaire, si nécessaire, pour maximiser la production d'énergie. Les élèves pourront installer des capteurs pour surveiller les conditions météorologiques, afin de prévoir les variations de la lumière solaire et d'adapter en conséquence la position du panneau photovoltaïque.
 
-Grâce à cette activité, les élèves pourront apprendre plusieurs concepts de physique, comme la lumière et les transformations d'énergie, tout en développant leurs compétences en programmation (comprendre comment utiliser une carte électronique, des capteurs, programmer par blocs et comprendre un système technique). Ils exploreront également les enjeux liés aux énergies renouvelables et formuleront des hypothèses basées sur une démarche scientifique structurée.
+Grâce à cette activité, les élèves pourront apprendre plusieurs concepts de physique, comme la lumière et les transformations d'énergie, tout en développant leurs compétences en programmation (comprendre comment utiliser une carte électronique, des capteurs, programmer par blocs et comprendre un système technique). Ils exploreront également les enjeux liés aux énergies renouvelables et formuleront des hypothèses fondées sur une démarche scientifique structurée.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/panneau-solaire-auto-orientable/DATA7_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -88,7 +88,7 @@ Le paramètre à étudier est lié à l'ensoleillement. Il faut mesurer la quant
 :::info
 Pour aller plus loin :
 
-1. Un **luxmètre**, aussi appelé mètre de lumière, est un instrument de mesure de la luminosité qui permet d'évaluer la quantité de lumière qui atteint une surface donnée. Il est utilisé pour mesurer l'intensité lumineuse de différentes sources de lumière, que ce soit pour les lampes, les écrans d'ordinateur ou même pour les panneaux solaires. Le luxmètre est un outil précieux pour les professionnels de l'éclairage, les ingénieurs et les scientifiques qui travaillent avec la lumière et la luminosité.
+1. Un **luxmètre**, aussi appelé mètre de lumière, est un instrument de mesure de la luminosité qui permet d'évaluer la quantité de lumière qui atteint une surface donnée. Il est utilisé pour mesurer l'intensité lumineuse de différentes sources de lumière, que ce soit pour les lampes, les écrans d'ordinateur ou même pour les panneaux solaires. Les professionnels de l'éclairage, les ingénieurs et les scientifiques qui travaillent avec la lumière et la luminosité y trouvent un outil très utile.
 2. Une **photodiode** est un composant électronique semi-conducteur qui convertit la lumière en courant électrique. Elle est utilisée dans de nombreuses applications, notamment comme capteur de lumière pour détecter et mesurer la lumière, ou comme détecteur de rayonnement électromagnétique dans les télécommunications.
 3. Un **pyranomètre** est un instrument de mesure de la radiation solaire globale. Il mesure la quantité totale de rayonnement solaire direct et diffus, généralement exprimée en watts par mètre carré (W/m²). Les pyranomètres sont utilisés pour mesurer l'énergie solaire disponible pour les panneaux solaires et pour les études météorologiques.
 :::
@@ -99,7 +99,7 @@ Ainsi, en utilisant la loi d'Ohm et le principe du pont diviseur de tension, il 
 
 ### Investigation
 
-Cette étape peut être réalisée à l'aide d'un capteur de lumière de base facilement programmable sur une carte STM32. Nous apprenons comment lire facilement le capteur et afficher sa valeur.
+Cette étape peut être réalisée à l'aide d'un capteur de lumière de base facilement programmable sur une carte STM32. On y apprend à lire facilement le capteur et à afficher sa valeur.
 
 | DARK | NATURAL LIGHT |
 |---|---|
@@ -111,48 +111,48 @@ Cette étape peut être réalisée à l'aide d'un capteur de lumière de base fa
 
 Une LDR est une résistance qui varie en fonction de la quantité de lumière reçue. Dans notre cas, elle permet d'optimiser l'éclairage en fonction de sa valeur.
 
-**Câblage :** la manière la plus simple de mesurer un capteur résistif est d'utiliser un diviseur de tension avec une résistance fixe choisie. Avec une lecture analogique de la tension sur le point entre la résistance choisie et la LDR, nous pouvons déterminer l'intensité lumineuse. En effet, la tension dépend du rapport entre les résistances (fixe et LDR), la résistance de la LDR diminue lorsque l'intensité lumineuse augmente. Par conséquent, la tension lue sur la broche analogique augmentera directement avec l'intensité lumineuse.
+**Câblage :** la manière la plus simple de mesurer un capteur résistif est d'utiliser un diviseur de tension avec une résistance fixe choisie. Avec une lecture analogique de la tension sur le point entre la résistance choisie et la LDR, on peut déterminer l'intensité lumineuse, car la tension dépend du rapport entre les résistances (fixe et LDR). La résistance de la LDR diminue lorsque l'intensité lumineuse augmente : la tension lue sur la broche analogique augmente donc directement avec l'intensité lumineuse.
 
 - À mesure que l'intensité lumineuse augmente, la résistance d'une LDR diminue. Les valeurs typiques varient entre quelques centaines d'ohms (en plein soleil) et quelques centaines de kilo Ohms (dans l'obscurité totale).
 - Bien que la résistance diminue avec l'intensité lumineuse, la disposition (GND - résistance - LDR - 5V) que nous avons choisie et la lecture analogique au point entre la résistance et la LDR sont telles que la valeur donnée par le microcontrôleur augmente avec l'éclairage.
-- Une broche d'entrée analogique peut être utilisée pour lire une valeur comprise entre 0 et 1023. Cette valeur est proportionnelle à la tension appliquée à la broche, qui DOIT être comprise entre 0 V et 5 V (par rapport à GND). La valeur numérique ainsi obtenue est une mesure arbitraire correspondant à une tension (0 -> 0 Volt, 1023 -> 5 V), et n'est en aucun cas liée à une unité d'intensité lumineuse (lux, lumen ou candela). Si nous voulions la relier à une mesure physique réelle, nous devrions calibrer la mesure avec un instrument de mesure approprié.
+- Une broche d'entrée analogique peut être utilisée pour lire une valeur comprise entre 0 et 1023. Cette valeur est proportionnelle à la tension appliquée à la broche, qui DOIT être comprise entre 0 V et 5 V (par rapport à GND). La valeur numérique ainsi obtenue est une mesure arbitraire correspondant à une tension (0 -> 0 Volt, 1023 -> 5 V), et n'est en aucun cas liée à une unité d'intensité lumineuse (lux, lumen ou candela). Pour la relier à une mesure physique réelle, il faudrait calibrer la mesure avec un instrument de mesure approprié.
 
-**Capacité à mesurer l'intensité lumineuse :** nous sommes maintenant en mesure d'utiliser un capteur qui nous indique l'intensité lumineuse (dans une unité arbitraire). Cette étape est cruciale pour pouvoir déterminer la position du soleil, ce qui nous permettra de savoir où positionner le panneau solaire.
+**Capacité à mesurer l'intensité lumineuse :** on sait maintenant utiliser un capteur qui indique l'intensité lumineuse (dans une unité arbitraire). Cette mesure est indispensable pour déterminer la position du soleil, donc l'orientation à donner au panneau solaire.
 
 ### Débriefing
 
-Grâce à cette étape, nous sommes maintenant capables d'effectuer une mesure de l'intensité lumineuse. Cet instrument de mesure nous permet d'étudier un grand nombre de situations afin de mieux comprendre quels paramètres sont liés à l'éclairage ou à la lumière du soleil.
+Grâce à cette étape, on sait maintenant mesurer l'intensité lumineuse. Cet instrument de mesure permet d'étudier un grand nombre de situations afin de mieux comprendre quels paramètres sont liés à l'éclairage ou à la lumière du soleil.
 
-En effet, nous pouvons comparer l'intensité lumineuse de plusieurs sources telles que le soleil, différentes lampes (incandescente, néon, LED, bougie, etc.) et l'intensité lumineuse de différents matériaux. Nous pouvons également étudier l'influence de la distance ou de l'inclinaison du capteur par rapport à une source définie.
+On peut ainsi comparer l'intensité lumineuse de plusieurs sources telles que le soleil, différentes lampes (incandescente, néon, LED, bougie, etc.) et l'intensité lumineuse de différents matériaux, et aussi étudier l'influence de la distance ou de l'inclinaison du capteur par rapport à une source définie.
 
-Nous pouvons tester la transparence (ou l'absorption) de différents matériaux et épaisseurs ou éventuellement concentrer la lumière avec une lentille ou un miroir concave. Les recherches sont presque illimitées et, bien qu'elles ne soient pas essentielles au présent projet, elles permettent de se familiariser avec la lumière et de se faire une idée de son intensité.
+Les élèves peuvent aussi tester la transparence (ou l'absorption) de différents matériaux et épaisseurs, ou éventuellement concentrer la lumière avec une lentille ou un miroir concave. Les pistes de recherche sont presque illimitées. Elles ne sont pas essentielles au projet, mais elles permettent de se familiariser avec la lumière et de se faire une idée de son intensité.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-Maintenant que nous savons mesurer l'intensité lumineuse, il faut pouvoir associer cette mesure au mouvement du soleil dans le ciel afin de le suivre ! En réalité, c'est nous qui bougeons et non le soleil mais c'est une autre histoire.
+Maintenant que l'on sait mesurer l'intensité lumineuse, il faut pouvoir associer cette mesure au mouvement du soleil dans le ciel afin de le suivre ! En réalité, c'est nous qui bougeons et non le soleil mais c'est une autre histoire.
 
 **Objectifs d'apprentissage** : identifier une méthode permettant de détecter la variation de l'ensoleillement.
 
 ### Conceptualisation
 
-Pour mesurer un changement d'intensité lumineuse, il est essentiel de disposer d'une mesure de "référence". Étant donné la simplicité et le faible coût du capteur LDR, une solution simple consiste à utiliser deux capteurs et à comparer leur valeur respective.
+Pour mesurer un changement d'intensité lumineuse, il faut une mesure de "référence". Étant donné la simplicité et le faible coût du capteur LDR, une solution simple consiste à utiliser deux capteurs et à comparer leur valeur respective.
 
 ### Investigation
 
 Le soleil se déplace dans le ciel d'est en ouest. La hauteur du soleil varie au cours de la journée et atteint son maximum à midi (heure solaire). Cette hauteur varie également en fonction de la latitude et des saisons. L'intensité lumineuse varie au cours de la journée et évolue au fil du temps, ce qui rend impossible l'établissement d'une intensité de référence fixe. Il est donc beaucoup plus simple de construire un système qui effectue deux mesures et les compare pour détecter le mouvement du soleil.
 
-En effet, en choisissant un dispositif où les deux capteurs pointent dans des directions légèrement différentes (avec une différence de 10°), il est possible de détecter le mouvement du soleil :
+Avec un dispositif où les deux capteurs pointent dans des directions légèrement différentes (avec une différence de 10°), il est possible de détecter le mouvement du soleil :
 
 - Situation 1 : le soleil est exactement devant le dispositif, l'intensité lumineuse reçue par les deux LDR est identique et le dispositif est bien positionné.
 - Situation 2 : le soleil s'est déplacé, les rayons du soleil forment un angle plus proche de 90° pour le LDR2 que pour le LDR1, ce qui correspond à un ensoleillement plus intense. Le système n'est plus correctement positionné et doit tourner (dans le sens des aiguilles d'une montre) afin d'être aligné et de revenir à la situation 1.
 
-Cependant, il est important de prendre certaines précautions : dans la situation 1, il est nécessaire de s'assurer que les deux capteurs donnent presque la même valeur. En effet, les LDR ne sont pas des capteurs très précis et pour un même éclairement, ils peuvent donner des valeurs différentes. Il est donc important de les mesurer dans les mêmes conditions et de les réajuster numériquement si nécessaire.
+Dans la situation 1, vérifier que les deux capteurs donnent presque la même valeur : les LDR ne sont pas des capteurs très précis et, pour un même éclairement, ils peuvent donner des valeurs différentes. Il faut donc les mesurer dans les mêmes conditions et les réajuster numériquement si nécessaire.
 
-**Câblage** : afin d'effectuer des mesures comparatives, nous réalisons d'abord le montage sur une breadboard. Le programme de test des mesures de chaque LDR est affiché via le port série.
+**Câblage** : pour effectuer des mesures comparatives, réaliser d'abord le montage sur une breadboard. Le programme de test des mesures de chaque LDR est affiché via le port série.
 
-Au final, grâce au programme, vous devriez pouvoir remplir le tableau suivant :
+Grâce au programme, vous devriez pouvoir remplir le tableau suivant :
 
 | Heure | Type de lumière | Position de la lumière | LDR Gauche | LDR Droite | Différence | Observation/Remarque |
 |---|---|---|---|---|---|---|
@@ -161,15 +161,15 @@ Au final, grâce au programme, vous devriez pouvoir remplir le tableau suivant :
 | 01/03/2023 11:00:13 | Lampe | 5° à Gauche | 1000 | 950 | 50 |  |
 | 01/03/2023 11:10:15 | Lampe | 10° à Gauche | 1000 | 920 | 70 |  |
 
-En faisant varier la position de la lumière par rapport aux capteurs, essayez de formuler des hypothèses quant au déplacement du panneau à faire pour se retrouver dans la situation idéale en termes de production d'électricité.
+En faisant varier la position de la lumière par rapport aux capteurs, essayez de formuler des hypothèses quant au déplacement du panneau à faire pour se retrouver dans la situation qui produit le plus d'électricité.
 
-Pour affiner votre compréhension des limites du capteur, essayez-le dans des environnements avec des luminosités différentes (dans le noir, dans une salle de classe, en extérieur, …). Comment améliorer le capteur pour le rendre moins sensible aux lumières parasites ?
+Pour affiner votre compréhension des limites du capteur, essayez-le dans des environnements avec des luminosités différentes (dans le noir, dans une salle de classe, en extérieur, etc.). Comment améliorer le capteur pour le rendre moins sensible aux lumières parasites ?
 
-Comment se comporte votre capteur avec d'autres sources lumineuses (lampe de bureau, LED, bougie, …) ? Essayez de refaire l'expérience de cette étape avec des sources différentes pour voir si vous arrivez toujours à décider dans quel sens votre panneau devrait bouger.
+Comment se comporte votre capteur avec d'autres sources lumineuses (lampe de bureau, LED, bougie, etc.) ? Essayez de refaire l'expérience de cette étape avec des sources différentes pour voir si vous arrivez toujours à décider dans quel sens votre panneau devrait bouger.
 
 ### Débriefing
 
-Grâce à l'intervention de deux capteurs, nous pouvons comparer leur mesure, étape essentielle pour identifier la position du soleil.
+Avec deux capteurs, on peut comparer leurs mesures, une étape indispensable pour identifier la position du soleil.
 
 Remarques :
 
@@ -180,7 +180,7 @@ Remarques :
 
 ### Orientation
 
-**Contexte :** maintenant que nous sommes capables de mesurer la position du soleil ou de la source de lumière, nous devons imaginer un système qui tourne en même temps que le soleil pour maximiser notre production d'énergie.
+**Contexte :** maintenant que l'on sait mesurer la position du soleil ou de la source de lumière, il faut imaginer un système qui tourne en même temps que le soleil pour maximiser la production d'énergie.
 
 **Objectifs d'apprentissage :**
 
@@ -189,17 +189,17 @@ Remarques :
 
 ### Conceptualisation
 
-Pour avoir un système d'orientation automatique de panneau solaire opérationnel, il est nécessaire de comprendre le fonctionnement électromécanique et la programmation d'un moteur servomoteur. Notre solution utilisera un servomoteur (un moteur qui peut déplacer son axe dans une position angulaire déterminée), et nous allons donc voir comment contrôler le servomoteur.
+Pour avoir un système d'orientation automatique de panneau solaire opérationnel, il faut comprendre le fonctionnement électromécanique et la programmation d'un moteur servomoteur. La solution utilise un servomoteur (un moteur qui peut déplacer son axe dans une position angulaire déterminée), et cette étape montre donc comment le contrôler.
 
 ### Investigation
 
-Afin d'utiliser le servomoteur, il est indispensable de se familiariser avec son fonctionnement. Nous vous proposons comme activité simple : de réaliser un circuit avec le servomoteur et de le programmer pour qu'il se positionne à différents angles.
+Pour utiliser le servomoteur, il faut absolument se familiariser avec son fonctionnement. On propose pour cela une activité simple : réaliser un circuit avec le servomoteur et le programmer pour qu'il se positionne à différents angles.
 
 En utilisant le code de l'étape précédente, faire en sorte que le servomoteur s'oriente pour se diriger vers la source de lumière en utilisant le circuit à deux LDR.
 
 ### Débriefing
 
-Les élèves sont maintenant capables d'utiliser et de commander un servomoteur, qu'ils utiliseront dans la prochaine étape du système d'orientation d'un panneau solaire. Le choix du servomoteur n'a pas été fait au hasard. En effet, le servomoteur ne nécessite pas d'autres accessoires (alimentation externe, transistor de puissance, relais…) et son utilisation est très simple.
+Les élèves sont maintenant capables d'utiliser et de commander un servomoteur, qu'ils utiliseront dans la prochaine étape du système d'orientation d'un panneau solaire. Le servomoteur a été choisi parce qu'il ne nécessite pas d'autres accessoires (alimentation externe, transistor de puissance, relais, etc.) et que son utilisation est très simple.
 
 En couplant le servomoteur avec la détection d'orientation lumineuse, il devient possible d'orienter un dispositif pour qu'il fasse toujours face à la lumière.
 
@@ -207,7 +207,7 @@ En couplant le servomoteur avec la détection d'orientation lumineuse, il devien
 
 ### Orientation
 
-Dans les sections précédentes, nous avons appris comment mesurer la lumière du soleil et identifier la position du soleil en utilisant deux mesures. Nous avons également appris comment faire tourner un servomoteur en fonction d'une mesure de luminosité. Maintenant, nous devons assembler toutes les pièces pour atteindre notre objectif ultime : un panneau solaire qui tourne en synchronisation avec le mouvement apparent du soleil.
+Les étapes précédentes ont montré comment mesurer la lumière du soleil, identifier la position du soleil avec deux mesures et faire tourner un servomoteur en fonction d'une mesure de luminosité. Il reste à assembler ces pièces pour obtenir un panneau solaire qui tourne en synchronisation avec le mouvement apparent du soleil.
 
 ### Conceptualisation
 
@@ -240,14 +240,14 @@ Pour comparer, refaites l'expérience sans activer le suivi, que constatez-vous 
 
 ### Débriefing
 
-Avec cette construction simple, nous avons été en mesure de créer un système qui nous permet d'optimiser le rendement d'un panneau solaire en s'orientant à chaque instant face au soleil. Cette configuration nous a permis de faire des mesures relatives, de comparer différentes situations et d'explorer différents concepts physiques tels que la résistance électrique, les diviseurs de tension, la puissance lumineuse et les LDR. Nous avons également acquis des connaissances en matière de concepts algorithmiques de base tels que les entrées (capteurs) / sorties (actionneurs), les boucles et les conditions (si). De plus, nous avons développé des compétences en matière de câblage de circuits électriques et de connexion à un microcontrôleur.
+Cette construction simple donne un système qui s'oriente à chaque instant face au soleil pour optimiser le rendement d'un panneau solaire. Elle a permis aux élèves de faire des mesures relatives, de comparer différentes situations et d'explorer différents concepts physiques tels que la résistance électrique, les diviseurs de tension, la puissance lumineuse et les LDR. Les élèves ont aussi acquis des connaissances sur des concepts algorithmiques de base tels que les entrées (capteurs) / sorties (actionneurs), les boucles et les conditions (si), et développé des compétences en câblage de circuits électriques et en connexion à un microcontrôleur.
 
 Pour poursuivre ce projet et aller plus loin dans l'expérimentation, plusieurs activités sont possibles :
 
-- Comme mentionné précédemment, il est possible de proposer des mesures alternatives avec des dispositifs adaptés (tels qu'un luxmètre ou un pyranomètre, par exemple) pour calibrer notre configuration.
-- Actuellement, nous ne suivons le soleil que dans un seul plan. Pour améliorer notre configuration, nous pouvons ajouter une autre LDR et un servomoteur, ce qui nous permettrait de déplacer le panneau solaire dans les trois dimensions de l'espace.
-- En enregistrant les valeurs des angles des deux servomoteurs dans un tableur, vous pouvez comparer les résultats de notre système avec les diagrammes solaires azimut/hauteur.
-- Nous pouvons également effectuer des mesures et des calculs d'efficacité à l'aide d'un wattmètre connecté au panneau solaire. Par exemple, nous pouvons comparer l'efficacité de notre configuration avec un panneau solaire fixe sur une journée entière pour estimer la pertinence de notre montage.
+- Proposer des mesures alternatives avec des dispositifs adaptés (tels qu'un luxmètre ou un pyranomètre) pour calibrer la configuration.
+- Pour l'instant, le montage ne suit le soleil que dans un seul plan. Pour l'améliorer, on peut ajouter une autre LDR et un servomoteur, ce qui permettrait de déplacer le panneau solaire dans les trois dimensions de l'espace.
+- En enregistrant les valeurs des angles des deux servomoteurs dans un tableur, vous pouvez comparer les résultats du système avec les diagrammes solaires azimut/hauteur.
+- Un wattmètre connecté au panneau solaire permet aussi d'effectuer des mesures et des calculs d'efficacité, par exemple pour comparer l'efficacité de la configuration avec un panneau solaire fixe sur une journée entière, afin d'estimer la pertinence du montage.
 
 ## Programmation
 

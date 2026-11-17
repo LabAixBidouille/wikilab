@@ -46,16 +46,14 @@ sidebar_position: 12
 ---
 
 :::info
-La vitesse du son est la vitesse à laquelle les ondes sonores se propagent à travers un milieu donné. C'est une mesure fondamentale de la transmission du son dans les gaz, les liquides et les solides. La vitesse du son dépend de la composition, de la structure et des conditions environnementales du milieu dans lequel il se propage. Elle peut varier en fonction de la température, de la pression, de l'humidité et de la présence de particules en suspension. La vitesse du son est utilisée dans de nombreuses applications, telles que la communication acoustique, la météorologie, l'acoustique et la géophysique.
+La vitesse du son est la vitesse à laquelle les ondes sonores se propagent à travers un milieu donné. Le son se propage dans les gaz, les liquides et les solides. La vitesse du son dépend de la composition, de la structure et des conditions environnementales du milieu dans lequel il se propage. Elle peut varier en fonction de la température, de la pression, de l'humidité et de la présence de particules en suspension. La vitesse du son sert dans de nombreux domaines, comme la communication acoustique, la météorologie, l'acoustique et la géophysique.
 :::
 
 ## Déroulé de l'activité
 
-Dans ce projet, notre objectif est de réaliser une expérience scientifique pour mesurer la vitesse du son. Pour ce faire, nous allons fabriquer un appareil expérimental en connectant différents composants électroniques et le faire fonctionner à l'aide d'un programme approprié. Ensuite, nous collecterons des données et les analyserons pour mesurer la vitesse du son, tout comme le font les vrais scientifiques et chercheurs !
+Ce projet a pour objectif de réaliser une expérience scientifique pour mesurer la vitesse du son. Pour cela, on fabrique un appareil expérimental en connectant différents composants électroniques, et on le fait fonctionner à l'aide d'un programme approprié. On collecte ensuite des données et on les analyse pour mesurer la vitesse du son, tout comme le font les vrais scientifiques et chercheurs !
 
-Dans ce cas particulier, nous allons étudier la question scientifique suivante : "Le son se déplace-t-il à plus de 100 mètres en 1 seconde ?". Pour y répondre, nous devons construire un dispositif simple avec une carte et un capteur, appelé HC-SR04 Ultrasonic Distance Sensor, pour collecter des données et les analyser.
-
-**Le point de départ de l'activité est donc la formation de l'hypothèse suivante : Le son se déplace-t-il de plus de 100 mètres en 1 seconde ?**
+Dans ce cas particulier, l'activité part de la question scientifique suivante, posée comme hypothèse : "Le son se déplace-t-il à plus de 100 mètres en 1 seconde ?". Pour y répondre, on construit un dispositif simple avec une carte et un capteur, appelé HC-SR04 Ultrasonic Distance Sensor, pour collecter des données et les analyser.
 
 Afin de valider ou d'invalider cette hypothèse, les élèves devront suivre les étapes de l'investigation scientifique en gardant à l'esprit les 4 phases suivantes :
 
@@ -71,9 +69,7 @@ Afin de valider ou d'invalider cette hypothèse, les élèves devront suivre les
 
 ## Compétences mobilisées
 
-Cette activité vise à aborder la question de la vitesse du son sous plusieurs angles, de manière transdisciplinaire.
-
-Au cœur de cette activité, les élèves pourront aborder la compréhension de phénomènes les entourant, ici en particulier, la vitesse de propagation du son, au programme de physique.
+Au cœur de l'activité, les élèves peuvent aborder la compréhension de phénomènes qui les entourent, ici en particulier la vitesse de propagation du son, au programme de physique.
 
 En mettant en œuvre une expérience par eux-mêmes, les élèves devront mobiliser d'autres compétences :
 
@@ -87,27 +83,27 @@ En mettant en œuvre une expérience par eux-mêmes, les élèves devront mobili
 
 ### Orientation
 
-Pour répondre à notre question de recherche, nous devons trouver un moyen de mesurer la vitesse à laquelle le son se déplace dans l'air. Il existe plusieurs façons de le faire. Pouvons-nous en imaginer une ou en avons-nous entendu parler ? Tout le monde doit se sentir libre d'y réfléchir et d'essayer de proposer quelque chose. Toutes les idées sont les bienvenues à ce stade.
+Pour répondre à la question de recherche, il faut trouver un moyen de mesurer la vitesse à laquelle le son se déplace dans l'air. Il existe plusieurs façons de le faire. Pouvons-nous en imaginer une ou en avons-nous entendu parler ? Tout le monde doit se sentir libre d'y réfléchir et d'essayer de proposer quelque chose. Toutes les idées sont les bienvenues à ce stade.
 
 ### Conceptualisation
 
 Le son est une vibration qui se propage sous la forme d'une onde de pression audible, à travers un milieu de transmission tel qu'un gaz, un liquide ou un solide. La vitesse du son est la distance parcourue par unité de temps d'une onde sonore lorsqu'elle se propage dans un milieu. Dans le langage courant, la vitesse du son fait référence à la vitesse des ondes sonores dans l'air. Cependant, la vitesse du son varie d'une substance à l'autre : le son se propage plus lentement dans les gaz, plus rapidement dans les liquides et encore plus rapidement dans les solides. L'homme ne peut entendre les ondes sonores que lorsque leur fréquence se situe entre 20 Hz et 20 kHz environ. Les ondes sonores supérieures à 20 kHz sont appelées ultrasons et ne sont pas perceptibles par l'homme. Les ondes sonores inférieures à 20 Hz sont appelées infrasons.
 
-Dans notre cas, nous allons mesurer la vitesse du son dans l'air à l'aide d'un dispositif, à savoir un capteur de distance à ultrasons HC-SR04, qui émet et reçoit/détecte des ultrasons. Les ultrasons sont des ondes sonores dont la fréquence est supérieure à 20 000 Hz (ou 20 kHz). Les ultrasons ne sont pas différents du son "normal" (audible) dans leurs propriétés physiques, sauf que les humains ne peuvent pas les entendre.
+Ici, on mesure la vitesse du son dans l'air à l'aide d'un capteur de distance à ultrasons HC-SR04, qui émet et reçoit/détecte des ultrasons. Les ultrasons sont des ondes sonores dont la fréquence est supérieure à 20 000 Hz (ou 20 kHz). Les ultrasons ne sont pas différents du son "normal" (audible) dans leurs propriétés physiques, sauf que les humains ne peuvent pas les entendre.
 
 Le capteur de distance à ultrasons HC-SR04 se compose de deux transducteurs à ultrasons. L'un agit comme un émetteur qui convertit le signal électrique en impulsions sonores ultrasoniques de 40 kHz. Le récepteur écoute les impulsions transmises. S'il les reçoit, il produit une impulsion de sortie dont la largeur peut être utilisée pour déterminer la distance parcourue par l'impulsion.
 
-Ainsi, nous pouvons mesurer la vitesse du son si nous plaçons un objet à une distance connue du capteur et enregistrer le temps que met l'impulsion ultrasonore pour parcourir deux fois cette distance. Notez deux fois, car elle voyage de l'émetteur à l'objet de l'obstacle, puis est réfléchie et elle revient vers le récepteur pour être détectée.
+On peut donc mesurer la vitesse du son en plaçant un objet à une distance connue du capteur et en enregistrant le temps que met l'impulsion ultrasonore pour parcourir deux fois cette distance. Notez deux fois, car elle voyage de l'émetteur à l'objet de l'obstacle, puis est réfléchie et elle revient vers le récepteur pour être détectée.
 
 ### Investigation
 
-Nous commençons par nous familiariser ou par jouer avec notre ensemble d'appareils électroniques comme la carte, le capteur, les fils, les résistances, la breadboard. Nous devons créer un circuit adéquat, donc nous devons d'abord identifier ce qui est quoi. Ensuite, nous devons les connecter correctement selon le schéma.
+Commencer par se familiariser ou par jouer avec l'ensemble des appareils électroniques, comme la carte, le capteur, les fils, les résistances, la breadboard. Pour créer un circuit adéquat, identifier d'abord chaque composant, puis les connecter correctement selon le schéma.
 
-Si le circuit est correct, alors notre dispositif expérimental fonctionnera dès lors que le programme adéquat sera envoyé sur la carte. Une fois que le programme est envoyé, lorsque nous appuyons sur le bouton, l'émetteur du capteur émet une impulsion d'ultrasons, qui se propage dans l'air, rebondit sur un obstacle pour enfin être détectée par le récepteur du capteur. Nous devons donc placer l'obstacle devant le capteur et, à l'aide d'une règle ou d'un mètre, mesurer la distance et l'enregistrer dans un tableau. Pour chaque distance testée, nous appuyons sur le bouton et enregistrons dans le tableau la mesure du temps qui s'affiche sur l'écran de l'ordinateur.
+Si le circuit est correct, le dispositif expérimental fonctionne dès que le programme adéquat est envoyé sur la carte. Une fois le programme envoyé, quand on appuie sur le bouton, l'émetteur du capteur émet une impulsion d'ultrasons, qui se propage dans l'air, rebondit sur un obstacle et est enfin détectée par le récepteur du capteur. Placer l'obstacle devant le capteur et, à l'aide d'une règle ou d'un mètre, mesurer la distance et l'enregistrer dans un tableau. Pour chaque distance testée, appuyer sur le bouton et enregistrer dans le tableau la mesure du temps qui s'affiche sur l'écran de l'ordinateur.
 
 ### Débriefing
 
-Dans cette phase, nous avons fait et réalisé ce qui suit :
+Ce qui a été fait dans cette phase :
 
 - Comprendre comment mesurer la vitesse à laquelle le son se déplace dans l'air,
 - Utiliser un dispositif qui émet et reçoit des ultrasons grâce à un capteur de distance à ultrasons tel que le HC-SR04,
@@ -117,15 +113,15 @@ Dans cette phase, nous avons fait et réalisé ce qui suit :
 
 ### Orientation
 
-Dans l'étape précédente, nous avons construit un appareil expérimental simple avec une carte et un capteur pour mesurer le temps que met un son à parcourir la distance jusqu'à un obstacle et à rebondir. Nous avons supposé que la mesure du temps est affichée sur l'écran de notre ordinateur par le programme. Considérons le cas où nous n'avons que la carte, par exemple la carte STM32. Comment pourrions-nous afficher nos valeurs mesurées ?
+À l'étape précédente, on a construit un appareil expérimental simple avec une carte et un capteur pour mesurer le temps que met un son à parcourir la distance jusqu'à un obstacle et à rebondir. On supposait que le programme affichait la mesure du temps sur l'écran de l'ordinateur. Si l'on n'a que la carte, par exemple la carte STM32, comment afficher les valeurs mesurées ?
 
 ### Conceptualisation
 
-Une carte fournit une unité de traitement et un espace mémoire pour stocker et exécuter un programme, elle peut fournir des capteurs embarqués pour mesurer divers paramètres comme la température, la pression, l'humidité, l'accélération, la rotation, etc. Elle fournit également des interfaces pour se connecter et communiquer avec d'autres appareils. Dans ce cas particulier, nous devons connecter et utiliser un petit écran pour afficher en texte les valeurs de nos mesures.
+Une carte contient une unité de traitement et un espace mémoire pour stocker et exécuter un programme. Elle peut aussi porter des capteurs embarqués pour mesurer divers paramètres comme la température, la pression, l'humidité, l'accélération, la rotation, etc., et elle a des interfaces pour se connecter et communiquer avec d'autres appareils. Ici, il faut connecter et utiliser un petit écran pour afficher en texte les valeurs des mesures.
 
 ### Investigation
 
-Dans cette étape, nous utilisons un petit écran (OLED ou LCD) pour afficher les valeurs mesurées. Nous établissons un tableau des mesures divisé en trois colonnes :
+Dans cette étape, on utilise un petit écran (OLED ou LCD) pour afficher les valeurs mesurées, et on établit un tableau des mesures divisé en trois colonnes :
 
 - La distance entre le capteur et l'obstacle (en cm)
 - La valeur affichée sur l'écran (temps mesuré, en secondes)
@@ -138,7 +134,7 @@ Dans cette étape, nous utilisons un petit écran (OLED ou LCD) pour afficher le
 
 ### Débriefing
 
-Dans cette phase, nous avons réalisé ce qui suit :
+Ce qui a été fait dans cette phase :
 
 - Comprendre les éléments de base et les fonctionnalités d'une carte.
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
@@ -148,21 +144,21 @@ Dans cette phase, nous avons réalisé ce qui suit :
 
 ### Orientation
 
-Dans l'étape précédente, nous avons rempli un tableau de mesures, ce sont nos données. En les utilisant, nous voulons apprendre la vitesse du son dans l'air et donner une réponse à notre question de départ "le son voyage-t-il plus de 100 mètres en 1 seconde ?".
+À l'étape précédente, on a rempli un tableau de mesures : ce sont les données. Elles servent maintenant à connaître la vitesse du son dans l'air et à répondre à la question de départ "le son voyage-t-il plus de 100 mètres en 1 seconde ?".
 
 ### Conceptualisation
 
-Nous avons collecté nos données avec notre appareil et nous devons maintenant les analyser afin d'en extraire des informations pertinentes. Dans cette étape, nous introduisons le concept de moyenne ou de valeur moyenne à partir des statistiques de base. En général, dans les enquêtes et les expériences scientifiques, nous prenons plusieurs mesures, puis nous concluons à une valeur finale en calculant la moyenne.
+Il reste à analyser les données collectées avec l'appareil afin d'en extraire des informations pertinentes. Cette étape introduit le concept de moyenne, ou de valeur moyenne, issu des statistiques de base. Dans les enquêtes et les expériences scientifiques, on prend en général plusieurs mesures, puis on conclut à une valeur finale en calculant la moyenne.
 
 ### Investigation
 
-Nous parcourons notre tableau de données enregistrées de mesures de distance et de temps et nous calculons la vitesse du son qui correspond à chaque paire de mesures. Pour cette tâche, nous pouvons utiliser une feuille de calcul numérique comme Excel ou Open/Libre Office ou bien continuer avec la feuille de calcul/tableau papier. À la fin, nous calculons la valeur moyenne et l'exprimons en cm/s, en m/s et en km/h.
+Parcourir le tableau des mesures de distance et de temps enregistrées, et calculer la vitesse du son qui correspond à chaque paire de mesures. Pour cette tâche, on peut utiliser une feuille de calcul numérique comme Excel ou Open/Libre Office, ou bien continuer avec la feuille de calcul/tableau papier. À la fin, calculer la valeur moyenne et l'exprimer en cm/s, en m/s et en km/h.
 
-Nous vérifions si ce que nous avons trouvé est proche ou non de la valeur indiquée dans la bibliographie (à 20 °C, la vitesse du son dans l'air est d'environ 343 mètres par seconde ou 1 235 km/h). Nous pouvons répéter notre série de mesures avec des distances et des obstacles différents, ou même dans des conditions de température différentes.
+Vérifier si le résultat trouvé est proche ou non de la valeur indiquée dans la bibliographie (à 20 °C, la vitesse du son dans l'air est d'environ 343 mètres par seconde ou 1 235 km/h). On peut répéter la série de mesures avec des distances et des obstacles différents, ou même dans des conditions de température différentes.
 
 ### Débriefing
 
-Dans cette phase, nous avons réalisé ce qui suit :
+Ce qui a été fait dans cette phase :
 
 - Collecter des données pour différentes distances.
 - Enregistrer les données dans une feuille de calcul

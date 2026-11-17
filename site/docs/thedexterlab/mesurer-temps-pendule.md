@@ -51,14 +51,14 @@ sidebar_position: 20
 ---
 
 :::info
-Le temps est un concept complexe qui peut être défini comme la mesure de la durée entre deux événements. Il est utilisé pour organiser notre vie quotidienne et pour expliquer les phénomènes naturels dans l'univers. Le temps est généralement mesuré à l'aide de dispositifs tels que des horloges et des calendriers, qui utilisent des références telles que le mouvement des astres ou des vibrations électroniques pour mesurer les intervalles de temps.
+Le temps peut être défini comme la mesure de la durée entre deux événements. Il est utilisé pour organiser notre vie quotidienne et pour expliquer les phénomènes naturels dans l'univers. Le temps est généralement mesuré à l'aide de dispositifs tels que des horloges et des calendriers, qui utilisent des références telles que le mouvement des astres ou des vibrations électroniques pour mesurer les intervalles de temps.
 
-Avant l'invention des horloges et des montres, comment pensez-vous que les humains mesuraient le temps ? Un des moyens les plus anciens est le pendule, un dispositif fascinant qui a été utilisé pendant des siècles pour étudier le temps et la gravité.
+Avant l'invention des horloges et des montres, comment pensez-vous que les humains mesuraient le temps ? Un des moyens les plus anciens est le pendule, utilisé pendant des siècles pour étudier le temps et la gravité.
 :::
 
 ## Déroulé de l'activité
 
-Cette activité guide les élèves à travers une exploration des pendules pour comprendre comment ils peuvent mesurer le temps. Divisée en plusieurs sous-protocoles, l'expérience commence par l'identification des principes de base d'un pendule, puis étudie comment la longueur du fil et le poids affectent son mouvement. Ensuite, les élèves calibrent un pendule pour mesurer des intervalles de temps précis et comparent leur fiabilité avec un chronomètre. L'activité se conclut par une réflexion sur les résultats et les applications historiques des pendules.
+Les élèves étudient les pendules pour comprendre comment ceux-ci peuvent mesurer le temps. Divisée en plusieurs sous-protocoles, l'expérience commence par l'identification des principes de base d'un pendule, puis étudie comment la longueur du fil et le poids affectent son mouvement. Ensuite, les élèves calibrent un pendule pour mesurer des intervalles de temps précis et comparent leur fiabilité avec un chronomètre. L'activité se conclut par une réflexion sur les résultats et les applications historiques des pendules.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/mesurer-temps-pendule/DATA20_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -84,7 +84,7 @@ Un pendule est un objet suspendu à un point fixe de telle sorte qu'il puisse os
 
 **Histoire du pendule dans la mesure du temps**
 
-L'invention du pendule horloger est généralement attribuée au physicien néerlandais Christiaan Huygens en 1656. Le pendule a révolutionné la mesure du temps en offrant une précision jusqu'alors inégalée. Les premières horloges à pendule étaient précises à moins de 1 minute par jour, une amélioration significative par rapport aux technologies antérieures. Ce niveau de précision a eu un impact considérable sur la navigation maritime, l'astronomie, et même sur la vie quotidienne.
+L'invention du pendule horloger est généralement attribuée au physicien néerlandais Christiaan Huygens en 1656. Le pendule a révolutionné la mesure du temps en offrant une précision jusqu'alors inégalée. Les premières horloges à pendule étaient précises à moins de 1 minute par jour, nettement mieux que les technologies antérieures. Cette précision a eu des effets importants sur la navigation maritime, l'astronomie et même la vie quotidienne.
 
 **Concepts clés**
 
@@ -168,13 +168,13 @@ T = 2π × √(L / g)
 
 où L est la longueur de la ficelle et g est l'accélération due à la gravité (environ 9,81 m/s² sur Terre).
 
-Cette équation nous montre que la période T est proportionnelle à la racine carrée de la longueur L. Ainsi, si la longueur de la ficelle augmente, la période d'oscillation augmentera également, mais de manière non linéaire.
+Selon cette équation, la période T est proportionnelle à la racine carrée de la longueur L. Ainsi, si la longueur de la ficelle augmente, la période d'oscillation augmentera également, mais de manière non linéaire.
 
 **Comment la masse affecte-t-elle la période ?**
 
-La formule pour la période d'un pendule simple ne dépend pas de la masse de l'objet au bout de la ficelle. En pratique, si nous avons deux pendules de même longueur mais de masses différentes, leurs périodes d'oscillation devraient être identiques, à condition que les effets de la résistance de l'air et du frottement soient négligeables.
+La formule pour la période d'un pendule simple ne dépend pas de la masse de l'objet au bout de la ficelle. En pratique, deux pendules de même longueur mais de masses différentes devraient avoir des périodes d'oscillation identiques, à condition que les effets de la résistance de l'air et du frottement soient négligeables.
 
-Les élèves pourraient trouver ce résultat contre-intuitif, ce qui peut conduire à des discussions enrichissantes sur la physique impliquée.
+Ce résultat peut paraître contre-intuitif aux élèves et ouvrir une discussion sur la physique en jeu.
 
 ### Investigation
 
@@ -237,7 +237,7 @@ Les élèves vont essayer de créer un pendule dont la fréquence sera de 1 Hz (
 
 ### Débriefing
 
-Dans cette expérimentation, nous avons appris comment ajuster un pendule pour obtenir une période d'oscillation d'une seconde en utilisant des principes de physique fondamentale. L'activité a montré l'importance de la précision dans la mesure. Les élèves ont pu appliquer des formules mathématiques pour résoudre des problèmes pratiques.
+Dans cette expérimentation, les élèves ont appris à ajuster un pendule pour obtenir une période d'oscillation d'une seconde, en appliquant des principes de physique fondamentale et des formules mathématiques à des problèmes pratiques. L'activité a montré que la précision de la mesure compte.
 
 ## Étape 4 : Comprendre les mécanismes d'échappement
 
@@ -247,9 +247,9 @@ Qu'est-ce qu'un mécanisme d'échappement et comment contribue-t-il à la préci
 
 ### Conceptualisation
 
-Un mécanisme d'échappement est une composante cruciale dans les horloges mécaniques, surtout celles dotées d'un pendule. Ce mécanisme permet de réguler la libération de l'énergie mécanique stockée dans un ressort, assurant ainsi un mouvement régulier et continu du pendule. En bref, le mécanisme d'échappement sert à "libérer" une petite quantité d'énergie à intervalles réguliers pour maintenir le pendule en mouvement.
+Dans les horloges mécaniques, surtout celles dotées d'un pendule, le mécanisme d'échappement règle la libération de l'énergie mécanique stockée dans un ressort. Le pendule garde ainsi un mouvement régulier et continu. En bref, le mécanisme d'échappement sert à "libérer" une petite quantité d'énergie à intervalles réguliers pour maintenir le pendule en mouvement.
 
-Dans une horloge à pendule, le mécanisme d'échappement travaille en symbiose avec le pendule pour assurer que chaque oscillation déplace le mécanisme d'échappement d'une quantité fixe. Cela contribue grandement à la précision de l'horloge. Sans un mécanisme d'échappement bien conçu, même un pendule parfaitement calibré ne serait pas suffisamment précis pour la mesure du temps à long terme.
+Dans une horloge à pendule, chaque oscillation du pendule déplace le mécanisme d'échappement d'une quantité fixe, ce qui contribue grandement à la précision de l'horloge. Sans un mécanisme d'échappement bien conçu, même un pendule parfaitement calibré ne serait pas suffisamment précis pour la mesure du temps à long terme.
 
 ### Investigation
 
@@ -278,11 +278,11 @@ Dans une horloge à pendule, le mécanisme d'échappement travaille en symbiose 
 
 ### Débriefing
 
-Cette expérimentation avec un pendule et un mécanisme d'échappement a permis aux élèves de plonger profondément dans la physique des oscillations et la mesure du temps. En utilisant MakeCode et une carte STM32, le projet a également introduit des compétences en programmation et en électronique, rendant l'expérience interdisciplinaire.
+Cette expérimentation avec un pendule et un mécanisme d'échappement a fait travailler les élèves sur la physique des oscillations et la mesure du temps. Avec MakeCode et une carte STM32, le projet a aussi introduit des compétences en programmation et en électronique.
 
 Pour aller plus loin :
 
-- [Pendules et Horloges](https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/simple-harmonic-motion/a/simple-harmonic-motion-review) - Un cours de Khan Academy sur les oscillations.
+- [Pendules et horloges](https://www.khanacademy.org/science/physics/mechanical-waves-and-sound/simple-harmonic-motion/a/simple-harmonic-motion-review) - Un cours de Khan Academy sur les oscillations.
 - [Explication des mécanismes d'échappement](https://www.explainthatstuff.com/how-pendulum-clocks-work.html) - Un article expliquant le fonctionnement des mécanismes d'échappement.
 
 ---
