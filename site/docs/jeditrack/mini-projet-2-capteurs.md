@@ -48,21 +48,21 @@ sidebar_position: 2
 
 ---
 
-**A la recherche d'un projet concret mêlant électronique, programmation et robotique, cette fiche accompagne les animateurs et éducateurs dans la réalisation d'un robot autonome avec des jeunes. Des bases de Python aux montages électroniques, découvrez comment transformer des composants simples en un véritable robot capable d'éviter les obstacles.**
+Cette fiche accompagne les animateurs et éducateurs dans la réalisation d'un robot autonome avec des jeunes, un projet concret qui mêle électronique, programmation et robotique. Elle couvre les bases de Python et les montages électroniques, et montre comment transformer des composants simples en un robot capable d'éviter les obstacles.
 
-Afin d'initier les jeunes à la programmation et aux capteurs, le projet Robot autonome est une valeur sure pour introduire des notions majeures. En développant un robot motorisé sur base d'un Raspberry Pi Pico, à l'aide d'un capteur à ultrason, qui repère les obstacles et les évite, les jeunes mobilise leurs compétences en fonctionnement des capteurs, programmation en python, logiciels disponible au sein d'un fablab, machine, câblage, soudure ...
+Afin d'initier les jeunes à la programmation et aux capteurs, le projet Robot autonome est une valeur sure. En développant un robot motorisé sur base d'un Raspberry Pi Pico, à l'aide d'un capteur à ultrason, qui repère les obstacles et les évite, les jeunes mobilise leurs compétences en fonctionnement des capteurs, programmation en python, logiciels disponible au sein d'un fablab, machine, câblage, soudure ...
 
 :::info[Conseil pour l'animateur]
-Parce que les jeunes voient immédiatement le résultat de leur travail. Chaque ligne de code modifiée fait bouger le robot différemment, chaque connexion réalisée a un impact visible. Cette rétroaction instantanée maintient l'engagement et facilite la compréhension des concepts abstraits de programmation. **Le plus ? C'est un projet évolutif.** On peut commencer simple (faire clignoter une LED) et progresser vers un robot autonome complet. Les participants moins à l'aise peuvent se concentrer sur le montage physique, tandis que les plus avancés peuvent améliorer l'intelligence du robot. Chacun trouve sa place et contribue selon ses forces. Ce projet développe des compétences multiples : logique de programmation, électronique, résolution de problèmes, travail manuel avec les outils, et même un peu de mathématiques avec le calcul des distances. Les jeunes repartent avec un objet qu'ils ont créé de A à Z, source de fierté et de motivation pour continuer.
+Les jeunes voient immédiatement le résultat de leur travail : chaque ligne de code modifiée fait bouger le robot différemment, chaque connexion réalisée a un impact visible. Ce retour immédiat les garde impliqués et facilite la compréhension des concepts abstraits de programmation. Le projet est évolutif. On peut commencer simple (faire clignoter une LED) et progresser vers un robot autonome complet. Les participants moins à l'aise peuvent se concentrer sur le montage physique, tandis que les plus avancés peuvent améliorer l'intelligence du robot. Ce projet développe des compétences multiples : logique de programmation, électronique, résolution de problèmes, travail manuel avec les outils, et même un peu de mathématiques avec le calcul des distances. Les jeunes repartent avec un objet qu'ils ont créé de A à Z.
 :::
 
-## Que trouverez-vous dans cette fiche ?
+## Contenu de la fiche
 
-- **Une initiation complète au Raspberry Pi Pico** — Découverte du microcontrôleur, installation de Thonny, premières manipulations
-- **Programmation des moteurs** — Faire avancer, reculer et tourner le robot
-- **Checklist complète pour animateurs** — Organisation avant, pendant et après l'atelier
-- **Idée d'atelier complémentaire** — "Robot Explorateur" - Cartographier son environnement
-- **Aller plus loin** — Quelques vidéos et tutoriels en ligne
+- **Une initiation complète au Raspberry Pi Pico** : Découverte du microcontrôleur, installation de Thonny, premières manipulations
+- **Programmation des moteurs** : Faire avancer, reculer et tourner le robot
+- **Checklist complète pour animateurs** : Organisation avant, pendant et après l'atelier
+- **Idée d'atelier complémentaire** : « Robot Explorateur » (cartographier son environnement)
+- **Aller plus loin** : Quelques vidéos et tutoriels en ligne
 
 ## Comment mener cette activité
 
@@ -85,10 +85,10 @@ Le pico dispose également d'une Led, d'un bouton bootsel et d'un port USB.
 On peut également voir le processeur, des résistance, etc. mais ils ne sont pas programmables.
 
 ### Bases de programmation
-Nous allons programmer les Pico avec le programme « Thonny », qui n'est au fond qu'un éditeur de texte optimisé pour python. Il offre simplement la possibilité de télécharger les programmes que vous écrirez directement dans le microcontrôleur.
+On programme les Pico avec « Thonny », un programme qui n'est au fond qu'un éditeur de texte optimisé pour python. Il offre simplement la possibilité de télécharger les programmes que vous écrirez directement dans le microcontrôleur.
 
 :::info
-*Une première chose à comprendre, c'est qu'un code n'est finalement qu'un texte, écrit de telle façon qu'il soit compréhensible par la machine. « Python » est un langage de programmation, et ce terme « langage » n'est pas anodin. En effet tous les microcontrôleurs ou programme n'utilise pas le même, et utiliser un langage qui n'est pas compris par votre programme ne fonctionnera pas, un peu comme si je vous parlais une langue que vous n'aviez jamais apprise : vous ne comprendriez pas grand-chose.*
+*Une première chose à comprendre, c'est qu'un code n'est finalement qu'un texte, écrit de telle façon qu'il soit compréhensible par la machine. « Python » est un langage de programmation, et ce terme « langage » n'est pas anodin, car tous les microcontrôleurs ou programme n'utilise pas le même, et utiliser un langage qui n'est pas compris par votre programme ne fonctionnera pas, un peu comme si je vous parlais une langue que vous n'aviez jamais apprise : vous ne comprendriez pas grand-chose.*
 :::
 
 Thonny se présente ainsi :
@@ -120,7 +120,7 @@ Pour ce faire, allez dans l'onglet Exécuter (ou run si le programme est en angl
 
 Une fenêtre s'ouvrira et dans cette fenêtre il y a 2 menus déroulant, dans le premier sélectionnez « MicroPython (generic) » et dans la seconde (port) sélectionnez « Périphérique série USB (COM6) ». Le numéro après COM (dans notre exemple 6) sera probablement différent. Veillez simplement à bien choisir un périphérique série USB
 
-Restez attentif à la console. En effet il peut déjà  y avoir des erreurs à ce moment-ci. La plus fréquente étant que Thonny ne trouve pas le pico, ce qui est causé soit par un mauvais choix de port (si vous avez choisi un bluetooth plutôt qu'un USB par exemple), soit par un mauvais branchement (débranchez et rebranchez les deux extrémité du câble).
+Restez attentif à la console, car il peut déjà y avoir des erreurs à ce moment-ci. La plus fréquente étant que Thonny ne trouve pas le pico, ce qui est causé soit par un mauvais choix de port (si vous avez choisi un bluetooth plutôt qu'un USB par exemple), soit par un mauvais branchement (débranchez et rebranchez les deux extrémité du câble).
 
 :::info
 *Assurez-vous bien qu'il n'y a pas de programme déjà ouvert et qu'il n'y ai pas d'autre programme sur le pico, une autre erreur possible est que le Pico est « busy », ce qui signifie qu'un programme tourne déjà dessus et qu'il n'est pas possible d'y exécuter un nouveau.*
@@ -136,7 +136,7 @@ Insistez sur l'importance de la syntaxe (bien écrire tous les caractères, resp
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_101910.png" alt="Commande print" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Soyez déjà vigilant à la syntaxe. En effet la moindre différence peut empêcher ce programme pourtant très simple de fonctionner. Écrire Print avec une majuscule par exemple ne fonctionne pas, oublier les guillemets non plus, etc.
+Soyez déjà vigilant à la syntaxe : la moindre différence peut empêcher ce programme pourtant très simple de fonctionner. Écrire Print avec une majuscule par exemple ne fonctionne pas, oublier les guillemets non plus, etc.
 
 Une fois le code écrit, appuyer sur le bouton exécuter, vous devrez alors choisir d'utiliser l'ordinateur ou la carte pour sauvegarder le programme. Pour pouvoir exécuter le programme sur la carte sans qu'elle soit branchée, il faut sauvegarder le programme sur cette dernière. Nous vous conseillons cependant de faire une copie sur l'ordinateur au cas où il y a un problème sur la carte.
 
@@ -164,7 +164,7 @@ Pour en revenir à la Led, importer « Pin » dans le programme :
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102339.png" alt="Import Pin" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Une fois les fonctions liées aux pins importées, nous allons renommée notre Pin liée à la led. En effet la Led intégrée à la carte est reliée à une pin, qui porte le numéro 25 :
+Une fois les fonctions liées aux pins importées, renommer la Pin liée à la led. La Led intégrée à la carte est reliée à une pin, qui porte le numéro 25 :
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102417.png" alt="Définition de la broche LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -187,9 +187,9 @@ Une fois la led allumée, elle ne s'éteindra pas tant qu'on ne lui aura pas ord
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102512_1.png" alt="Éteindre la LED" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Nous allons maintenant alterner entre les 2 états, afin d'être certain que le programme fonctionne, car une fois la led éteinte on ne sait pas si le programme fonctionne ou si la carte n'est juste pas alimentée.
+Alterner maintenant entre les 2 états, afin d'être certain que le programme fonctionne, car une fois la led éteinte on ne sait pas si le programme fonctionne ou si la carte n'est juste pas alimentée.
 
-Nous allons pour nous aider utiliser la fonction « sleep », qu'il va falloir importer. Cette dernière sert à faire une pause dans le programme, par exemple dans notre cas pour attendre entre le moment ou la led s'allume et s'éteint.
+Utiliser pour cela la fonction « sleep », qu'il va falloir importer. Cette dernière sert à faire une pause dans le programme, par exemple dans notre cas pour attendre entre le moment ou la led s'allume et s'éteint.
 
 :::info
 *Attention « sleep » ne met le programme en pause, mais va plutôt ajouter un délai avant d'exécuter la commande qu'elle précède. Nous l'employons ici pour bien voir les alternances. Sans ce « sleep » il n'y aurait pas de délai entre les instructions et la led resterait théoriquement allumée 0 seconde.*
@@ -201,13 +201,13 @@ Nous allons pour nous aider utiliser la fonction « sleep », qu'il va falloir i
 *Des données incluses dans les parenthèses d'une fonction comme ici s'appellent des arguments. L'argument de la fonction « sleep » dans la fenêtre ci-dessus est le temps, en l'occurrence 1 seconde.*
 :::
 
-Vous pouvez copier-coller le code ci-dessus et il fonctionnera tout de même. En effet le texte grisé le sera également dans thonny, également le texte en gris qui suit car il est précédé d'un # , c'est un commentaire. Tout ce qui suit ce symbole ne sera pas considéré comme du code, ce qui vous permet d'ajouter des notes à votre code. Pour arrêter de taper des commentaires il suffit de sauter à la ligne.
+Vous pouvez copier-coller le code ci-dessus et il fonctionnera tout de même : le texte grisé le sera également dans thonny, également le texte en gris qui suit car il est précédé d'un # , c'est un commentaire. Tout ce qui suit ce symbole ne sera pas considéré comme du code, ce qui vous permet d'ajouter des notes à votre code. Pour arrêter de taper des commentaires il suffit de sauter à la ligne.
 
 **Boucles**
 
 Le code précèdent permet d'allumer la led 1 seconde avant de s'éteindre, mais nécessite de redémarrer le programme. Vous allez maintenant faire en sorte que le programme se répète indéfiniment une fois lancé.
 
-Nous allons utiliser des boucles. Il y a plusieurs façon de faire une boucle, mais nous allons commencer par une boucle infinie utilisant « while » qui signifie « tant que ».
+Pour cela, on utilise des boucles. Il y a plusieurs façons de faire une boucle, et on commence ici par une boucle infinie utilisant « while », qui signifie « tant que ».
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102813.png" alt="Boucle while" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -218,15 +218,15 @@ While permet de répéter tout ce qui est indenté en-dessous de lui de se rép�
 
 Dans le code ci-dessus on a également ajouté un sleep à la fin du code, sinon le code s'arrêterait théoriquement 0 seconde et nous n'aurions pas l'impression que la led s'éteigne.
 
-De façon contre-intuitive il est plus simple de répéter indéfiniment une boucle qu'un nombre précis On pourrait éventuellement mettre plusieurs fois la séquence d'affiler, mais si on veut répéter 1000 fois une action par exemple, ca serait très long.
+De façon contre-intuitive il est plus simple de répéter indéfiniment une boucle qu'un nombre précis. On peut mettre plusieurs fois la séquence d'affilée, mais si on veut répéter 1000 fois une action par exemple, ce serait très long.
 
-Nous allons à nouveau employer « while », mais au lieu d'utiliser « True », il va falloir utiliser une condition qui n'est pas toujours vrai et qui pourra changer. Pour simplifier les choses nous allons avoir recours à une variable.
+On emploie à nouveau « while », mais au lieu d'utiliser « True », il va falloir utiliser une condition qui n'est pas toujours vraie et qui pourra changer. Pour simplifier les choses, on a recours à une variable.
 
 Une variable est une donnée dont la valeur est susceptible de changer durant l'exécution du code. On peut par exemple imaginer que l'heure est une variable. Si je vous demande l'heure qu'il est, vous ne connaîtrez pas spécialement la réponse sans regarder votre montre, mais pourtant vous savez ce dont je parle.
 
 Attention à ne pas faire d'amalgame avec une variable mathématique. En programmation une variable a une valeur précise, on ne le connaît pas spécialement à tout moment (en particulier dans des cas où sa valeur est aléatoire), mais elle est définie en amont, soit dans le code (comme dans notre cas), soit par des instruments de mesures (thermomètre, capteur de lumière etc.).
 
-Dans notre cas on veut juste une sorte de compteur et allons simplement appeler notre variable i, mais vous pouvez l'appelez comme vous le souhaitez. Avant d'y avoir recours il faut définir ce dont il s'agit, et nous allons simplement lui donner une valeur numérique.
+Dans notre cas on veut juste une sorte de compteur, et on appelle simplement la variable i, mais vous pouvez l'appeler comme vous le souhaitez. Avant d'y avoir recours il faut définir ce dont il s'agit : ici, on lui donne simplement une valeur numérique.
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_102925.png" alt="Boucle avec variable" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -238,7 +238,7 @@ Le « print(i) » ne sert ici qu'à observer l'évolution de i. Notez qu'il n'y 
 
 **Brancher une Led**
 
-Nous allons maintenant gérer une Led extérieure. Le code sera le même a part pour le numéro de la broche utilisée. Il va par contre falloir faire le montage.
+On gère maintenant une Led extérieure. Le code sera le même a part pour le numéro de la broche utilisée. Il va par contre falloir faire le montage.
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_103207.png" alt="Montage LED externe" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -256,17 +256,17 @@ Prenez n'importe quel code précédent et remplacez le numéro de la pin 25 par 
 
 **Contrôler la led avec un bouton: les broches en entrée.**
 
-Nous allons maintenant définir une seconde broche comme une entrée. Sur cette broche nous brancherons un bouton, et dépendant de s'il est enfoncé ou non la led s'allumera. On pourrait également simplement mettre un interrupteur quelque part dans le montage, mais ca ne ferait que couper le courant vers la led, ce qui ne présente aucun intérêt d'un point de vue programmation (cela revient plus ou moins à brancher ou débrancher un fil, si le circuit est ouvert, la led ne s'allumera pas).
+Définir maintenant une seconde broche comme une entrée. Sur cette broche se branche un bouton, et selon qu'il est enfoncé ou non, la led s'allumera. On pourrait également simplement mettre un interrupteur quelque part dans le montage, mais ca ne ferait que couper le courant vers la led, ce qui ne présente aucun intérêt d'un point de vue programmation (cela revient plus ou moins à brancher ou débrancher un fil, si le circuit est ouvert, la led ne s'allumera pas).
 
-Nous allons plutôt mesurer le courant arrivant sur une broche. Pour bien montrer que le bouton n'est pas un simple interrupteur nous allons allumer la led si le courant ne passe pas le bouton, et l'éteindre si un courant est mesurer.
+On mesure plutôt le courant arrivant sur une broche. Pour bien montrer que le bouton n'est pas un simple interrupteur, on allume la led si le courant ne passe pas le bouton, et on l'éteint si un courant est mesuré.
 
-Nous avons pour l'instant employé « ON » et « OFF » pour définir si la led est allumée ou éteinte. Pour mesurer un courant les termes sont différents, mais la logique est très similaire. Faire des mesures avec les broches digitales est très simples, mais n'offre que peu de possibilités. En effet elle ne distingue que si le courant passe ou non, si son état est « haut » ou « bas »
+Nous avons pour l'instant employé « ON » et « OFF » pour définir si la led est allumée ou éteinte. Pour mesurer un courant les termes sont différents, mais la logique est très similaire. Faire des mesures avec les broches digitales est très simples, mais n'offre que peu de possibilités : elle ne distingue que si le courant passe ou non, si son état est « haut » ou « bas ».
 
 Quand on met la led sur « on » on met sa broche en état haut, et inversement, « off » correspond à un état bas. Quand on fait une lecture sur une broche on va prendre des décisions selon si le courant passe (état haut) ou si la broche ne capte rien (état bas). Un peu comme sur une prise électrique, ces états seront associées à des valeurs : 1 (pour haut) et 0 (pour bas). Cela correspond au symbole qui n'est en fait qu'un 1 imbriqué dans un 0.
 
 Vous pouvez remplacer le « on » par « value(1) » et « off » par « value(0) » par exemple.
 
-Le terme  « value » va correspondre à l'état de la broche. Pour mesurer si la valeur du bouton est en état haut par exemple, on va écrire « bouton.value == 1 ». Identifier la valeur lue par la broche ne suffit pas à y associer une action. Pour la compléter nous allons avoir recours aux conditions, qui commence en général par un « if » (« si » en français). Dans notre cas nous aurons « if bouton.value == 0 » , c'est-à-dire si la valeur lue par la broche bouton est 0 (qu'aucun courant ne passe), alors je ferai quelque chose. Ce quelque chose est tout ce qui est indenté dans le « if » :
+Le terme  « value » va correspondre à l'état de la broche. Pour mesurer si la valeur du bouton est en état haut par exemple, on va écrire « bouton.value == 1 ». Identifier la valeur lue par la broche ne suffit pas à y associer une action. Pour la compléter, on a recours aux conditions, qui commencent en général par un « if » (« si » en français). Dans notre cas nous aurons « if bouton.value == 0 » , c'est-à-dire si la valeur lue par la broche bouton est 0 (qu'aucun courant ne passe), alors je ferai quelque chose. Ce quelque chose est tout ce qui est indenté dans le « if » :
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_103513.png" alt="Contrôle LED avec bouton" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -282,13 +282,13 @@ Voici des exemples d'exercice pour pousser la réflexion plus loin si le temps l
 - Faire une chaine de led qui s'allume à tour de rôle et revienne au début : *Branchez au moins trois led pour rendre ça intéressant. Vous aurez besoin de if, elif et else, le tout dans une boucle. Vous pouvez également travailler avec une variables incorporée dans le numéro des pin mais c'est moins intuitif (le code est plus propre par contre).*
 
 ## Connecter et programmer un capteur
-Nous allons dans cette partie voir comment se servir du capteur ultrasonore. Le programme n'est pas très long, et ne fait appel qu'à des notions déjà vues et des mathématiques.
+Cette partie montre comment se servir du capteur ultrasonore. Le programme n'est pas très long, et ne fait appel qu'à des notions déjà vues et des mathématiques.
 
 Il faut également comprendre le principe de fonctionnement d'un sonar. Un sonar envoie un ultrason et calcul le temps entre l'émission de ce signal et la réception de son écho. Les capteurs que nous utilisons fonctionnent exactement sur ce principe.
 
 Sur l'image de droite on observe que le capteur a 4 pins. Le VCC se connectera à la borne positive, et le GND à la masse, afin d'alimenter le module.
 
-Ce sont les bornes « trig » et « echo » qui vont nous intéresser, et que nous allons programmer.
+Les bornes à programmer sont « trig » et « echo ».
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104144.png" alt="Capteur ultrasonore" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -302,18 +302,18 @@ Ce sont les bornes « trig » et « echo » qui vont nous intéresser, et que no
 
 La séquence ci-dessus définit tout ce dont vous aurez besoin pour utiliser le capteur avec le pico. Reste à faire les branchements :
 
-Le VCC du capteur est branché au « VBUS » du pico. Cette broche correspond au courant entrant par l'alimentation USB du pico. En effet une prise USB délivre 5V, et le capteur ne fonctionne pas en 3v3.
+Le VCC du capteur est branché au « VBUS » du pico. Cette broche correspond au courant entrant par l'alimentation USB du pico : une prise USB délivre 5V, et le capteur ne fonctionne pas en 3v3.
 
 Les annotations à côté des broches sont décalées à cause des trous mais sur l'image trig est bien branchée à la Pin 16 et echo à la 17.
-D'autre part, essayez tant que possible de passer par la breadboard, plus tard dans le projet vous aurez potentiellement plusieurs éléments à brancher sur une même pin (principalement pour l'alimentation) et brancher les broches GND et VBUS sur les colonnes + et -- du breadboard permettent d'alimenter plusieurs composants en les branchant simplement à ces dernières.
+Essayez tant que possible de passer par la breadboard, plus tard dans le projet vous aurez potentiellement plusieurs éléments à brancher sur une même pin (principalement pour l'alimentation) et brancher les broches GND et VBUS sur les colonnes + et -- du breadboard permettent d'alimenter plusieurs composants en les branchant simplement à ces dernières.
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104355.png" alt="Branchements capteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Revenons au code. La première chose à faire est d'allumer le « trig », mais vu le mode de fonctionnement du capteur on ne peut pas juste l'allumer puis observer « echo ». On va devoir le faire s'allumer pendant un court lapse de temps. Ensuite nous allons observer ce qu'il se passe sur « echo », avec « print ».
+Revenons au code. La première chose à faire est d'allumer le « trig », mais vu le mode de fonctionnement du capteur on ne peut pas juste l'allumer puis observer « echo ». On va devoir le faire s'allumer pendant un court lapse de temps. Ensuite, observer ce qu'il se passe sur « echo », avec « print ».
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/Capture_dcran_2025-09-16_104440.png" alt="Signal trig" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Le petit programme ci-dessus permet donc de générer un signal de 2 us. Il faut maintenant savoir qu'en faire. Il faut maintenant trouver que faire avec ce signal. Le but est donc de calculer le temps entre le moment de l'émission du signal, et le moment où il reviendra.
+Le petit programme ci-dessus permet donc de générer un signal de 2 us. Il faut maintenant trouver que faire avec ce signal. Le but est donc de calculer le temps entre le moment de l'émission du signal, et le moment où il reviendra.
 
 Il n'existe pas de fonction toute faite pour ça. Il va falloir faire appel à des variables et à une fonction qui compte le temps.
 
@@ -328,11 +328,11 @@ La vitesse du son dans l'air à 20°C est d'à peu près 343 m/s. time.ticks_us 
 Le programme ci-dessus permet donc d'afficher la distance mesurée dans la console. Testez le en déplaçant un objet devant lui et estimez si les distances sont correctes (vous pouvez déplacer le capteur mais il est plus sûr de le laisser posé, pour éviter les faux contacts).
 
 ## Programmation des moteurs
-Le but principal du robot étant de se déplacer, nous devons également en programmer les moteurs. Faire avancer un moteur n'est pas très compliqué (ceux que nous utilisons en tout cas). En effet il suffit a priori de brancher le moteur à une source de courant et il se met en marche. Cependant afin de pouvoir faire changer notre robot de direction nous allons devoir inverser le sens de rotation du courant dans le moteur, pour en changer le sens de rotation (si un moteur va en avant et l'autre vers l'arrière, le robot tournera sur lui-même) Le principe n'est pas très compliqué non plus, il suffirait d'un interrupteur ou de changer les connections par exemple, mais ce n'est pas aussi simple si on travaille avec un microcontrôleur.
+Le but principal du robot étant de se déplacer, il faut également en programmer les moteurs. Faire avancer un moteur n'est pas très compliqué (ceux que nous utilisons en tout cas) : il suffit a priori de brancher le moteur à une source de courant et il se met en marche. Mais pour faire changer le robot de direction, il faut inverser le sens de rotation du courant dans le moteur, pour en changer le sens de rotation (si un moteur va en avant et l'autre vers l'arrière, le robot tournera sur lui-même) Le principe n'est pas très compliqué non plus, il suffirait d'un interrupteur ou de changer les connections par exemple, mais ce n'est pas aussi simple si on travaille avec un microcontrôleur.
 
-En effet on ne peut pas simplement changer l'état de 2 broches auxquelles serait branché un moteur, car une de ses bornes doit être connectée à la masse (au « moins »).
+On ne peut pas simplement changer l'état de 2 broches auxquelles serait branché un moteur, car une de ses bornes doit être connectée à la masse (au « moins »).
 
-Pour pouvoir contrôler le sens du courant avec le pico nous allons avoir recours à un petit module, qui premièrement permet d'inverser la polarité sur les broches, mais plus important encore, à alimenter les moteurs par une autre source de courant (les moteurs consomment plus de courant que le pico ne peut en fournir ce qui risque de le faire griller). Il faudra donc être particulièrement vigilant au branchement ici.
+Pour contrôler le sens du courant avec le pico, on a recours à un petit module, qui premièrement permet d'inverser la polarité sur les broches, mais plus important encore, à alimenter les moteurs par une autre source de courant (les moteurs consomment plus de courant que le pico ne peut en fournir ce qui risque de le faire griller). Il faudra donc être particulièrement vigilant au branchement ici.
 
 Branchez une source d'alimentation extérieure (un transfo ou une pile 9V) sur la breadboard. !! A NE PAS LA BRANCHER SUR LA PYBOARD !! Les masses (les pôles négatifs) seront mis en commun mais pas les broches positives. La seule chose qui doit être branchée au positif de la source extérieure de courant est le module DRV8833 qui contrôle les moteurs (la borne + de la pile sera connectée au VCC du DRV).
 
@@ -340,7 +340,7 @@ Il faut ensuite brancher un fil entre les broches qui contrôlent le moteur sur 
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_1.png" alt="Schéma branchement moteur" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
-Concernant le code, rien de bien compliqué. Comme pour les leds il faut définir les pins que nous allons employer. Ici nous allons définir laquelle est positive et laquelle est négative. Pour chaque moteur il faut donc 2 pin.
+Concernant le code, rien de bien compliqué. Comme pour les leds, il faut définir les pins employées. Ici on définit laquelle est positive et laquelle est négative. Pour chaque moteur il faut donc 2 pin.
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_2.png" alt="Code moteur simple" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -362,7 +362,7 @@ Vous pouvez définir une fonction avancer, reculer et stop pour chaque moteur. A
 
 ## Lier le tout
 
-Nous allons maintenant combiner les codes des moteurs et du capteur :
+Combiner maintenant les codes des moteurs et du capteur :
 
 <img src="/img/ressources/jeditrack/mini-projet-2-capteurs/image_6.png" alt="Code combiné - définitions" style={{maxWidth: '100%', marginTop: '1rem', marginBottom: '1rem'}} />
 
@@ -393,52 +393,58 @@ Le driver des moteurs est orienté comme suit (le coin rouge n'existe pas réell
 
 ### Checklist pour les animateurs
 
-#### Avant l'atelier- [ ]  **Matériel électronique** : Vérifier la présence de tous les composants (Pico, capteurs, moteurs, DRV8833)
-- [ ]  **Alimentation** : Tester les piles 4.5V et 9V, prévoir des rechanges
-- [ ]  **Ordinateurs** : Installer Thonny sur tous les postes
-- [ ]  **Fichiers MicroPython** : Télécharger les fichiers UF2 sur clé USB ou réseau local
-- [ ]  **Breadboards** : Une par binôme + quelques extras
-- [ ]  **Câbles** : Compter 20 câbles dupont par groupe minimum
-- [ ]  **Outils** : Préparer pistolets à colle (chauffés), tournevis, pinces
-- [ ]  **Documentation** : Imprimer les schémas de branchement en couleur
-#### Pendant l'atelier- [ ]  **Explication Pico** : Présenter les broches principales (GND, VBUS, GP)
-- [ ]  **Installation MicroPython** : Guider le processus BOOTSEL
-- [ ]  **Configuration Thonny** : Vérifier que chaque poste détecte le Pico
-- [ ]  **Premier programme** : LED clignotante intégrée
-- [ ]  **Validation** : S'assurer que tous les groupes ont réussi
-- [ ]  **LED externe** : Superviser les branchements avec résistance
-- [ ]  **Bouton poussoir** : Expliquer les entrées/sorties
-- [ ]  **Défis progressifs** : Proposer les exercices adaptés au niveau
-- [ ]  **Debugging** : Aider sur les erreurs de syntaxe courante
-- [ ]  **Principe sonar** : Expliquer avec des exemples concrets
-- [ ]  **Branchement HC-SR04** : Vérifier VCC sur VBUS (5V)
-- [ ]  **Code mesure** : Développer ensemble la fonction
-- [ ]  **Tests distances** : Vérifier avec une règle
-- [ ]  **Sécurité alimentation** : Insister sur la séparation des sources
-- [ ]  **DRV8833** : Expliquer le rôle du driver
-- [ ]  **Vérification connexions** : Contrôler avant mise sous tension
-- [ ]  **Test individuel** : Chaque moteur séparément
-- [ ]  **Mouvements combinés** : Avancer, reculer, tourner
-- [ ]  **Intégration composants** : Organiser le câblage proprement
-- [ ]  **Fusion du code** : Combiner capteur et moteurs
-- [ ]  **Débogage** : Résoudre les problèmes ensemble
-- [ ]  **Personnalisation** : Encourager les améliorations
-#### Clôture de l'atelier- [ ]  **Parcours d'obstacles** : Organiser une démonstration/compétition
-- [ ]  **Présentation des projets** : Chaque groupe explique ses choix
-- [ ]  **Sauvegarde codes** : Sur clé USB ou cloud
-- [ ]  **Photo souvenir** : Avec les robots créés
-- [ ]  **Rangement participatif** : Trier et ranger le matériel
-- [ ]  **Feedback** : Recueillir les impressions à chaud
-- [ ]  **Suite** : Proposer des ressources pour continuer à la maison
+#### Avant l'atelier
 
-:::info[Idée d'atelier complémentaire - "Robot Explorateur" - Cartographier son environnement]
+- [ ] **Matériel électronique** : Vérifier la présence de tous les composants (Pico, capteurs, moteurs, DRV8833)
+- [ ] **Alimentation** : Tester les piles 4.5V et 9V, prévoir des rechanges
+- [ ] **Ordinateurs** : Installer Thonny sur tous les postes
+- [ ] **Fichiers MicroPython** : Télécharger les fichiers UF2 sur clé USB ou réseau local
+- [ ] **Breadboards** : Une par binôme + quelques extras
+- [ ] **Câbles** : Compter 20 câbles dupont par groupe minimum
+- [ ] **Outils** : Préparer pistolets à colle (chauffés), tournevis, pinces
+- [ ] **Documentation** : Imprimer les schémas de branchement en couleur
+#### Pendant l'atelier
+
+- [ ] **Explication Pico** : Présenter les broches principales (GND, VBUS, GP)
+- [ ] **Installation MicroPython** : Guider le processus BOOTSEL
+- [ ] **Configuration Thonny** : Vérifier que chaque poste détecte le Pico
+- [ ] **Premier programme** : LED clignotante intégrée
+- [ ] **Validation** : S'assurer que tous les groupes ont réussi
+- [ ] **LED externe** : Superviser les branchements avec résistance
+- [ ] **Bouton poussoir** : Expliquer les entrées/sorties
+- [ ] **Défis progressifs** : Proposer les exercices adaptés au niveau
+- [ ] **Débogage** : Aider sur les erreurs de syntaxe courante
+- [ ] **Principe sonar** : Expliquer avec des exemples concrets
+- [ ] **Branchement HC-SR04** : Vérifier VCC sur VBUS (5V)
+- [ ] **Code mesure** : Développer ensemble la fonction
+- [ ] **Tests distances** : Vérifier avec une règle
+- [ ] **Sécurité alimentation** : Insister sur la séparation des sources
+- [ ] **DRV8833** : Expliquer le rôle du driver
+- [ ] **Vérification connexions** : Contrôler avant mise sous tension
+- [ ] **Test individuel** : Chaque moteur séparément
+- [ ] **Mouvements combinés** : Avancer, reculer, tourner
+- [ ] **Intégration composants** : Organiser le câblage proprement
+- [ ] **Fusion du code** : Combiner capteur et moteurs
+- [ ] **Débogage** : Résoudre les problèmes ensemble
+- [ ] **Personnalisation** : Encourager les améliorations
+#### Clôture de l'atelier
+
+- [ ] **Parcours d'obstacles** : Organiser une démonstration/compétition
+- [ ] **Présentation des projets** : Chaque groupe explique ses choix
+- [ ] **Sauvegarde codes** : Sur clé USB ou cloud
+- [ ] **Photo souvenir** : Avec les robots créés
+- [ ] **Rangement participatif** : Trier et ranger le matériel
+- [ ] **Retours** : Recueillir les impressions à chaud
+- [ ] **Suite** : Proposer des ressources pour continuer à la maison
+
+:::info[Idée d'atelier complémentaire : « Robot Explorateur » (cartographier son environnement)]
 Une fois le robot de base maîtrisé, proposez ce défi sur 2-3 séances supplémentaires :
 **Objectif :** Transformer le robot en explorateur capable de cartographier une pièce et mémoriser les obstacles rencontrés.
 **Nouvelles compétences :**
 - Ajouter un servo-moteur pour faire pivoter le capteur ultrasonique (balayage à 180°)
 - Utiliser les listes Python pour stocker les mesures
 - Créer une carte simple des obstacles détectés
-- Implémenter un mode "patrouille" où le robot suit un parcours défini
+- Implémenter un mode « patrouille » où le robot suit un parcours défini
 
 **Extensions possibles :**
 - **Module Bluetooth** : Contrôler le robot depuis un smartphone
@@ -449,10 +455,10 @@ Une fois le robot de base maîtrisé, proposez ce défi sur 2-3 séances supplé
 
 **Organisation suggérée :**
 1. **Séance 1** : Ajout du servo et programmation du balayage
-2. **Séance 2** : Stockage des données et création de patterns de déplacement
+2. **Séance 2** : Stockage des données et création de motifs de déplacement
 3. **Séance 3** : Personnalisation et course d'exploration
 
-Cette extension permet d'approfondir les notions de programmation (tableaux, fonctions complexes) tout en gardant l'aspect ludique et concret du projet robotique.
+Cette extension approfondit les notions de programmation (tableaux, fonctions complexes).
 :::
 
 ## Aller plus loin - Quelques vidéos et tutoriels en ligne

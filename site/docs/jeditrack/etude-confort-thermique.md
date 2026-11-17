@@ -49,13 +49,13 @@ sidebar_position: 8
 
 ## Mener une campagne thermique avec les jeunes : Appréhender le confort par la mesure
 
-Une campagne thermique permet aux jeunes de **comprendre concrètement les enjeux énergétiques** de leur quotidien. En mesurant température et humidité dans différents espaces, ils développent une **approche scientifique** des questions environnementales tout en acquérant des **compétences techniques** transférables.
+Une campagne thermique permet aux jeunes de comprendre concrètement les enjeux énergétiques de leur quotidien. En mesurant température et humidité dans différents espaces, ils abordent les questions environnementales avec une approche scientifique et acquièrent des compétences techniques transférables.
 
-Le confort thermique et la consommation énergétique des bâtiments représentent des enjeux majeurs de notre époque. Selon l'ADEME, **le chauffage représente 66% de la consommation énergétique des logements français**. Les **inégalités de confort thermique** touchent particulièrement les jeunes : **3,5 millions de ménages** souffrent de précarité énergétique, et **20% des 18-29 ans** déclarent avoir froid chez eux en hiver faute de moyens financiers. Les **pertes thermiques** dues à une mauvaise isolation peuvent représenter jusqu'à **30% des dépenses de chauffage** d'un foyer. Une sensibilisation précoce aux enjeux thermiques permet de former des citoyens conscients des liens entre habitat, énergie et climat, tout en développant des compétences techniques transférables.
+Selon l'ADEME, **le chauffage représente 66% de la consommation énergétique des logements français**. Les inégalités de confort thermique touchent particulièrement les jeunes : 3,5 millions de ménages souffrent de précarité énergétique, et 20% des 18-29 ans déclarent avoir froid chez eux en hiver faute de moyens financiers. Les pertes thermiques dues à une mauvaise isolation peuvent représenter jusqu'à 30% des dépenses de chauffage d'un foyer. Sensibiliser tôt les jeunes aux enjeux thermiques permet de former des citoyens conscients des liens entre habitat, énergie et climat.
 
-La température et l'humidité sont des **paramètres physiques fondamentaux** qui influencent notre confort quotidien. Bien que souvent perçues comme des données évidentes, elles révèlent en réalité des phénomènes complexes liés à l'isolation, à la ventilation et à l'efficacité énergétique des bâtiments.
+La température et l'humidité sont des paramètres physiques qui influencent notre confort quotidien. Elles renseignent aussi sur l'isolation, la ventilation et l'efficacité énergétique des bâtiments.
 
-La température se mesure en **degrés Celsius (°C)** et l'humidité en **pourcentage (%)**, avec des seuils de confort qui varient selon les situations :
+La température se mesure en degrés Celsius (°C) et l'humidité en pourcentage (%), avec des seuils de confort qui varient selon les situations :
 
 - **18-22°C et 40-60% d'humidité** : zone de confort optimal pour l'habitat
 - **16-18°C** : température acceptable pour les chambres la nuit
@@ -63,22 +63,22 @@ La température se mesure en **degrés Celsius (°C)** et l'humidité en **pourc
 - **Plus de 25°C ou moins de 16°C** : inconfort thermique notable
 - **Humidité &gt;70% ou &lt;30%** : problèmes de condensation ou sécheresse
 
-Les **variations thermiques** dans un bâtiment révèlent souvent des défauts d'isolation, des ponts thermiques ou des problèmes de ventilation qui impactent à la fois le confort des occupants et leur facture énergétique.
+Les variations thermiques dans un bâtiment révèlent souvent des défauts d'isolation, des ponts thermiques ou des problèmes de ventilation, qui pèsent à la fois sur le confort des occupants et sur leur facture énergétique.
 
-Les **déséquilibres thermiques chroniques** peuvent avoir des effets sur la santé et le bien-être :
+Les déséquilibres thermiques chroniques peuvent avoir des effets sur la santé et le bien-être :
 
 - **Inconfort et fatigue** liés aux écarts de température trop importants
 - **Problèmes respiratoires** causés par une humidité inadaptée
 - **Difficultés de concentration** dans des espaces trop chauds ou trop froids
 - **Stress économique** lié aux factures de chauffage excessives
 
-:::info[Pourquoi cibler cette thématique auprès des jeunes ?]
+:::info[Les objectifs de cette thématique auprès des jeunes]
 - **Développer l'esprit critique** des jeunes face aux enjeux énergétiques de leur quotidien
 - **Favoriser l'engagement citoyen** en leur donnant les outils pour comprendre et agir sur leur environnement thermique
 - **Créer du lien social** autour d'un projet collectif de mesure et d'analyse
-- **Valoriser les compétences techniques** tout en sensibilisant aux enjeux de transition énergétique
-- **Démocratiser l'accès aux sciences et technologies** tout en ancrant l'apprentissage dans le territoire vécu par les jeunes
-- Développer l'**autonomie** dans la démarche d'investigation, **la coopération** entre pairs pour mener un projet collectif, l'**appropriation citoyenne** des outils numériques et scientifiques et la **capacité d'action** des jeunes sur leur environnement immédiat
+- **Valoriser les compétences techniques** et sensibiliser aux enjeux de transition énergétique
+- **Démocratiser l'accès aux sciences et technologies** et ancrer l'apprentissage dans le territoire vécu par les jeunes
+- **Développer l'autonomie** dans la démarche d'investigation, la coopération entre pairs pour mener un projet collectif, l'appropriation citoyenne des outils numériques et scientifiques et la capacité d'action des jeunes sur leur environnement immédiat
 :::
 
 <figure style={{margin: '1rem 0'}}>
@@ -88,7 +88,7 @@ Les **déséquilibres thermiques chroniques** peuvent avoir des effets sur la sa
 
 ## Réaliser des mesures avec des capteurs de température et humidité
 
-Pour réaliser une étude autour du confort thermique, nous vous proposons plusieurs outils pratiques faisant appel soit à la programmation informatique d'une carte Micro:bit, soit à l'utilisation de capteurs simples tout-en-un. Ces solutions sont particulièrement faciles d'accès et ne demandent que très peu de compétences préalables. Même si en tant qu'animateur, vous n'avez jamais utilisé la programmation par bloc, cette activité reste accessible. Réalisez-la en amont avec vos collègues pour tester et comprendre l'utilisation des outils ! Vous pourrez facilement la transposer au sein de votre structure d'animation.
+Pour réaliser une étude autour du confort thermique, la fiche propose plusieurs outils pratiques, qui font appel soit à la programmation informatique d'une carte Micro:bit, soit à l'utilisation de capteurs simples tout-en-un. Ces solutions sont particulièrement faciles d'accès et ne demandent que très peu de compétences préalables. Même si en tant qu'animateur, vous n'avez jamais utilisé la programmation par bloc, cette activité reste accessible. Réalisez-la en amont avec vos collègues pour tester et comprendre l'utilisation des outils ! Vous pourrez facilement la transposer au sein de votre structure d'animation.
 
 ### Options matérielles adaptées à votre budget
 
@@ -120,26 +120,26 @@ Pour réaliser une étude autour du confort thermique, nous vous proposons plusi
 Ouvrez l'éditeur en ligne MakeCode pour micro:bit : https://makecode.microbit.org/#editor. Cet outil propose aux utilisateurs de programmer par bloc.
 
 :::info[Conseil : Trente secondes pour comprendre la programmation par blocs]
-La programmation "**par blocs**" est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme "faire bouger un personnage", "jouer un son" ou "compter jusqu'à 10". En les assemblant, on crée un programme qui fonctionne de manière fluide et intuitive. Cette approche permet de comprendre les bases de la programmation en manipulant des concepts de manière concrète et ludique.
+La programmation « **par blocs** » est une méthode simple et visuelle pour créer des projets numériques sans avoir besoin de connaître un langage de programmation complexe. Au lieu d'écrire du code avec du texte, les jeunes utilisent des blocs de couleurs, qui ressemblent à des pièces de puzzle, pour construire des actions et des séquences logiques. Chaque bloc représente une commande ou une action, comme « faire bouger un personnage », « jouer un son » ou « compter jusqu'à 10 ». En les assemblant, on crée un programme. Cette approche permet de comprendre les bases de la programmation en manipulant les concepts de manière concrète.
 
-La programmation par blocs est particulièrement adaptée aux débutants, car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, rendant la technologie accessible et amusante, même pour ceux qui n'ont jamais programmé auparavant.
+La programmation par blocs est particulièrement adaptée aux débutants, car elle réduit les erreurs et les frustrations liées à l'écriture de code. Elle permet de se concentrer sur la logique et la créativité, et reste accessible à ceux qui n'ont jamais programmé.
 
-Pour un animateur, c'est une excellente façon d'introduire les jeunes à la programmation tout en les engageant dans des activités ludiques et créatives, comme créer des jeux, des animations ou raconter des histoires interactives.
+Un animateur peut ainsi initier les jeunes à la programmation par des activités ludiques et créatives, comme créer des jeux, des animations ou raconter des histoires interactives.
 :::
 
-Pour réaliser ce programme i.e. utiliser une carte programmable pour relever la température et l'humidité dans une pièce ou un lieu donné, nous utiliserons les blocs suivants :
+Ce programme sert à relever, avec une carte programmable, la température et l'humidité dans une pièce ou un lieu donné. Il s'écrit avec les blocs suivants :
 
-- Un **bloc de base "Au démarrage"** qui permet d'initialiser le programme.
-- Nous souhaitons que le programme nous indique si la relève a démarré ou non (identifié par une coche si le programme fonctionne ou une croix si le programme ne tourne pas). Au démarrage, nous aurons donc une croix visible sur la carte, indiquant que le code a bien été téléchargé mais que la relève n'a pas démarré et quand nous démarreront la relève, une coche s'affichera. Pour ce faire, nous utiliserons deux **blocs de base : "montrer l'icône"**.
-- Un bloc d'entrée "**Lorsque le bouton ... est pressé**" permet de déclencher une action. Ici lorsque le bouton A est cliqué, la relève démarre.
-- Une boucle "**tant que (vrai ou faux) faire**" permet d'exécuter la même séquence d'action tant qu'une condition est vraie.
-- Le bloc de l'**extension DHT11_DHT22 "Query data from DHT**" pour collecter les variables que nous souhaitons : la **température** et l'**humidité** via le capteur connecté à la carte. Ce bloc permet de sélectionner le type de module et lire les données.
-- Le bloc de **l'extension DHT11_DHT22 "Read data"** pour lire le niveau d'humidité (en %), et la température (en Celsius).
-- Un bloc "**Log data**" qui permet d'enregistrer les données dans un fichier.
+- Un **bloc de base « Au démarrage »** qui permet d'initialiser le programme.
+- Le programme indique si la relève a démarré ou non : une coche si le programme fonctionne, une croix s'il ne tourne pas. Au démarrage, une croix s'affiche donc sur la carte : le code a bien été téléchargé, mais la relève n'a pas démarré. Quand la relève démarre, une coche s'affiche. Ces deux affichages utilisent deux **blocs de base : « montrer l'icône »**.
+- Un bloc d'entrée « **Lorsque le bouton ... est pressé** » permet de déclencher une action. Ici lorsque le bouton A est cliqué, la relève démarre.
+- Une boucle « **tant que (vrai ou faux) faire** » permet d'exécuter la même séquence d'action tant qu'une condition est vraie.
+- Le bloc de l'**extension DHT11_DHT22 « Query data from DHT »** pour collecter les variables à relever : la **température** et l'**humidité** via le capteur connecté à la carte. Ce bloc permet de sélectionner le type de module et de lire les données.
+- Le bloc de **l'extension DHT11_DHT22 « Read data »** pour lire le niveau d'humidité (en %), et la température (en Celsius).
+- Un bloc « **Log data** » qui permet d'enregistrer les données dans un fichier.
 
-Ces trois blocs (query data from DHT, read data et Datalogger) ne sont accessibles que par l'installation d'une extension. Les **extensions** dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans MakeCode. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des **extensions** pour un large éventail de fonctionnalités très utiles, ajoutant des capacités de manette de jeu, de clavier, de souris, de servomoteur et de robotique et bien plus encore. Dans les colonnes d'affichage des blocs, cliquez sur le bouton **EXTENSIONS**. Dans la liste des extensions disponibles, recherchez **l'extension Datalogger** et **DHT11_DHT22** qui seront utilisées pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
+Ces trois blocs (query data from DHT, read data et Datalogger) ne sont accessibles que par l'installation d'une extension. Les **extensions** dans MakeCode sont des groupes de blocs de code qui ne sont pas directement inclus dans MakeCode. Elles ajoutent des blocs pour des fonctionnalités spécifiques. Il existe des extensions pour de nombreuses fonctionnalités, notamment manette de jeu, clavier, souris, servomoteur et robotique. Dans les colonnes d'affichage des blocs, cliquez sur le bouton **EXTENSIONS**. Dans la liste des extensions disponibles, recherchez **l'extension Datalogger** et **DHT11_DHT22** qui seront utilisées pour cette activité. Cliquez sur l'extension que vous souhaitez utiliser et un nouveau groupe de blocs apparaîtra sur l'écran principal.
 
-- Nous utiliserons également des blocs simples tels que **pause** et **effacer l'écran** pour s'assurer du déroulé logique du programme.
+- Des blocs simples comme **pause** et **effacer l'écran** assurent le déroulé logique du programme.
 
 Une fois ces blocs identifiés, vous pouvez commencer à organiser vos blocs pour permettre à la carte de collecter la température et l'humidité. Testez des configurations selon ce qui vous semble logique et **utilisez le simulateur pour vérifier que votre code fait ce que vous attendez de lui**.
 
@@ -251,7 +251,7 @@ Prenez 3 fils de couleurs différentes si possible (pour éviter les confusions)
 
 Une fois que votre programme fonctionne correctement sur le simulateur et que le câblage a été correctement réalisé, transférez le code sur votre carte Micro:bit :
 
-- Connectez la carte micro:bit à l'ordinateur sur lequel vous avez réalisé le programme grâce à l'éditeur MakeCode. Une fois connectée, la carte micro:bit apparaîtra sur l'ordinateur comme un disque amovible (ex. : "MICROBIT").
+- Connectez la carte micro:bit à l'ordinateur sur lequel vous avez réalisé le programme grâce à l'éditeur MakeCode. Une fois connectée, la carte micro:bit apparaîtra sur l'ordinateur comme un disque amovible (ex. : « MICROBIT »).
 - Cliquez sur « **Télécharger** » dans MakeCode pour générer un fichier .hex. Ce fichier contient le programme compilé qui permettra à la carte de fonctionner.
 - Copiez le fichier .hex de votre dossier de téléchargement sur le lecteur amovible « **MICROBIT** ».
 - Une fois le fichier copié, la carte redémarre automatiquement et exécute le code.
@@ -262,7 +262,7 @@ Une fois programmé, placez la carte micro:bit pour collecter les données dans 
 
 Une fois positionné, appuyez sur le bouton « A » de la carte Micro:Bit pour démarrer l'enregistrement des données via le programme.
 
-Ce programme mesure la température et l'humidité toutes les minutes (l'intervalle peut être modifiée pour correspondre à 5 minutes, 2 fois par heure...) et compile les informations dans un "**datalogger**" depuis lequel nous pouvons télécharger un fichier .csv.
+Ce programme mesure la température et l'humidité toutes les minutes (l'intervalle peut être modifié pour correspondre à 5 minutes, 2 fois par heure...) et compile les informations dans un « **datalogger** » depuis lequel on peut télécharger un fichier .csv.
 
 :::info[Le format CSV]
 Un fichier **.csv** (Comma-Separated Values, ou valeurs séparées par des virgules) est un format de fichier texte utilisé pour stocker des données tabulaires (comme dans un tableau ou une feuille de calcul). Chaque ligne du fichier représente une ligne de données, et chaque valeur dans une ligne est séparée par un délimiteur (souvent une virgule, mais parfois un point-virgule ou une tabulation). Il est possible de récupérer les données d'un fichier .csv dans un tableur type Excel ou LibreOffice Calc. Dans Excel, ouvrez le logiciel, cliquez sur **Fichier > Ouvrir**, sélectionnez le fichier .csv, et configurez les délimiteurs si nécessaire via l'outil d'importation. Dans LibreOffice Calc, suivez un processus similaire : cliquez sur **Fichier > Ouvrir**, sélectionnez le fichier, et utilisez l'assistant d'importation pour choisir le délimiteur (par exemple, virgule ou point-virgule). Dans les deux cas, les données s'affichent sous forme de tableau, prêtes à être analysées.
@@ -280,15 +280,15 @@ Le capteur fonctionne de manière autonome avec une pile CR2032 qui assure une a
 
 #### Récupération des données
 
-Pour accéder aux données, connectez-vous sur [**heatbuster.lesemulsionneurs.fr**](https://heatbuster.lesemulsionneurs.fr/). Cliquez sur "**Associer**" et sélectionnez le nom de votre capteur dont le format sera similaire à "LYWSD03,ATC". La connexion s'établit via Bluetooth entre le capteur et votre appareil, permettant de synchroniser automatiquement les données historiques stockées dans la mémoire du capteur.
+Pour accéder aux données, connectez-vous sur [**heatbuster.lesemulsionneurs.fr**](https://heatbuster.lesemulsionneurs.fr/). Cliquez sur « **Associer** » et sélectionnez le nom de votre capteur dont le format sera similaire à « LYWSD03,ATC ». La connexion s'établit via Bluetooth entre le capteur et votre appareil, et synchronise automatiquement les données historiques stockées dans la mémoire du capteur.
 
 Cette plateforme permet de visualiser les tendances thermiques, de comparer les mesures entre différents capteurs et de choisir des périodes d'analyse spécifiques selon les besoins du projet pédagogique.
 
 #### Avantages pour l'animation
 
-Cette simplicité d'utilisation permet une appropriation immédiate par tous les participants, quel que soit leur niveau technique. Les jeunes peuvent consulter les données en temps réel et observer directement l'impact de leurs actions (ouverture d'une fenêtre, allumage du chauffage) sur les mesures affichées. L'absence de programmation ou de câblage élimine les obstacles techniques et permet de se concentrer directement sur l'observation et l'analyse des phénomènes thermiques.
+Le capteur est simple à utiliser : tous les participants peuvent s'en servir tout de suite, quel que soit leur niveau technique. Les jeunes peuvent consulter les données en temps réel et observer directement l'effet de leurs actions (ouverture d'une fenêtre, allumage du chauffage) sur les mesures affichées. Sans programmation ni câblage, il n'y a pas d'obstacle technique, et on peut se concentrer directement sur l'observation et l'analyse des phénomènes thermiques.
 
-Le format compact et la robustesse du dispositif facilitent son transport et son utilisation dans différents environnements sans risque de détérioration du matériel pédagogique.
+Compact et robuste, le capteur se transporte facilement et s'utilise dans différents environnements sans risque de l'abîmer.
 
 :::info[Quelques conseils pour comprendre les mesures thermiques]
 - **Températures idéales selon les pièces** : Pièces à vivre (salon, bureau) 19-21°C, chambres 16-19°C pour un bon sommeil, pièces humides (salle de bain, cuisine) 20-22°C.
@@ -299,17 +299,15 @@ Le format compact et la robustesse du dispositif facilitent son transport et son
 
 ## Aller plus loin - Analyser avec une caméra thermique
 
-Pour compléter l'approche quantitative des capteurs, les caméras thermiques offrent une dimension visuelle qui permet d'identifier immédiatement les zones de pertes thermiques. Cette technologie, autrefois réservée aux professionnels, devient accessible grâce aux solutions smartphone et constitue un excellent outil de sensibilisation et d'analyse pour les jeunes.
+Pour compléter l'approche quantitative des capteurs, les caméras thermiques donnent une image qui montre immédiatement les zones de pertes thermiques. Réservée autrefois aux professionnels, la caméra thermique est devenue accessible avec les modèles qui se branchent sur un smartphone. Elle sert d'outil de sensibilisation et d'analyse pour les jeunes.
 
-### Pourquoi utiliser une caméra thermique ?
+### Ce que montre une caméra thermique
 
-Une **caméra thermique** est un outil utile pour repérer les zones de **perte de chaleur** dans les bâtiments. En capturant des **images infrarouges**, elle met en évidence les différences de température à la surface des murs, des fenêtres ou des toitures. Ces informations permettent d'**identifier les points faibles de l'isolation**, comme les ponts thermiques, les infiltrations d'air ou les matériaux dégradés, qui sont souvent invisibles à l'oeil nu.
+Une caméra thermique est un outil utile pour repérer les zones de perte de chaleur dans les bâtiments. En capturant des images infrarouges, elle met en évidence les différences de température à la surface des murs, des fenêtres ou des toitures. Ces informations permettent d'identifier les points faibles de l'isolation, comme les ponts thermiques, les infiltrations d'air ou les matériaux dégradés, qui sont souvent invisibles à l'oeil nu.
 
-### Comment fonctionne une caméra thermique ?
+### Le principe de la caméra thermique
 
-Les **caméras thermiques** détectent le **rayonnement infrarouge** émis par les objets en fonction de leur température. Elles traduisent ce rayonnement en une **image en fausses couleurs**, où chaque teinte correspond à une plage de température donnée : **Rouge / Jaune** : indiquent des zones plus chaudes, souvent associées à des pertes de chaleur - **Bleu / Violet** : signalent des zones plus froides, pouvant révéler des infiltrations d'air ou une isolation insuffisante.
-
-Les utilisateurs peuvent analyser ces images pour **interpréter les variations thermiques** observées et **identifier les zones nécessitant des améliorations**.
+Les caméras thermiques détectent le **rayonnement infrarouge** émis par les objets en fonction de leur température. Elles traduisent ce rayonnement en une **image en fausses couleurs**, où chaque teinte correspond à une plage de température donnée : **Rouge / Jaune** : indiquent des zones plus chaudes, souvent associées à des pertes de chaleur - **Bleu / Violet** : signalent des zones plus froides, pouvant révéler des infiltrations d'air ou une isolation insuffisante.
 
 ### Étapes pour une utilisation efficace d'une caméra thermique
 
@@ -320,21 +318,21 @@ Les utilisateurs peuvent analyser ces images pour **interpréter les variations 
 - **Documentation des observations :** Notez, pour chaque image, le lieu, les conditions environnementales (température extérieure, météo) et les remarques pertinentes. Si des améliorations ont été apportées, comparez les images avant et après pour observer les changements.
 
 :::info[Conseils et précautions]
-Les conditions météorologiques influencent fortement la qualité des relevés. Il est préférable d'éviter de capturer des images en plein soleil ou par vent fort, car ces facteurs peuvent fausser les mesures. Lors de la prise de vue, il est recommandé de garder la caméra perpendiculaire à la surface observée afin de limiter les distorsions. À l'intérieur, il convient de réduire les sources de lumière chaude susceptibles d'interférer avec les relevés infrarouges. Concernant la précision des températures affichées, il faut garder à l'esprit qu'une caméra thermique est surtout conçue pour détecter les différences de température (points chauds ou froids), mais qu'elle ne fournit pas une mesure absolue fiable. Plusieurs facteurs peuvent influencer la précision : le réglage de l'émissivité (le coefficient d'émission doit correspondre à la nature de la surface mesurée), la distance entre l'objet et la caméra, la température ambiante et la différence thermique entre l'environnement et l'appareil lui-même, la qualité de l'objectif utilisé, ainsi que la plage de mesure sélectionnée (large plage ou haute résolution).
+Les conditions météorologiques influencent fortement la qualité des relevés. Éviter de capturer des images en plein soleil ou par vent fort, car ces facteurs peuvent fausser les mesures. Lors de la prise de vue, garder la caméra perpendiculaire à la surface observée afin de limiter les distorsions. À l'intérieur, réduire les sources de lumière chaude susceptibles d'interférer avec les relevés infrarouges. Les températures affichées ne sont pas une mesure absolue fiable : une caméra thermique est surtout conçue pour détecter les différences de température (points chauds ou froids). Plusieurs facteurs peuvent influencer la précision : le réglage de l'émissivité (le coefficient d'émission doit correspondre à la nature de la surface mesurée), la distance entre l'objet et la caméra, la température ambiante et la différence thermique entre l'environnement et l'appareil lui-même, la qualité de l'objectif utilisé, ainsi que la plage de mesure sélectionnée (large plage ou haute résolution).
 :::
 
 ### Choisir la bonne caméra thermique
 
-Le choix d'une caméra thermique pour cette activité dépend des ressources disponibles. Les caméras thermiques présentent une grande diversité en termes de coût, de fonctionnalités et de portabilité. Il est recommandé d'explorer les solutions locales, telles que l'emprunt d'appareils auprès des collectivités territoriales, d'organisations environnementales ou d'universités. Dans de nombreuses villes, des programmes de prêt d'équipements d'imagerie thermique existent, permettant ainsi de limiter les dépenses tout en accédant à des outils performants.
+Le choix d'une caméra thermique pour cette activité dépend des ressources disponibles. Les caméras thermiques varient beaucoup par leur coût, leurs fonctionnalités et leur portabilité. Explorer les solutions locales, comme l'emprunt d'appareils auprès des collectivités territoriales, d'organisations environnementales ou d'universités. Dans de nombreuses villes, des programmes de prêt d'équipements d'imagerie thermique existent : ils limitent les dépenses et donnent accès à des outils performants.
 
-Pour les structures à la recherche d'options à la fois abordables et accessibles, les caméras thermiques compatibles avec les smartphones, comme l'**Infiray P2 Pro**, constituent une solution pratique. Ces dispositifs compacts se connectent directement à un smartphone Android et permettent de transformer celui-ci en outil d'imagerie thermique. Leur utilisation est simple et leur format portable les rend adaptés aux contextes éducatifs. Bien qu'ils ne disposent pas des fonctionnalités avancées des caméras thermiques autonomes, ces appareils répondent efficacement aux besoins d'activités pédagogiques où la facilité d'utilisation et la mobilité sont des critères importants.
+Pour les structures à la recherche d'options à la fois abordables et accessibles, les caméras thermiques compatibles avec les smartphones, comme l'**Infiray P2 Pro**, sont une solution pratique. Ces dispositifs compacts se connectent directement à un smartphone Android et le transforment en outil d'imagerie thermique. Leur utilisation est simple et leur format portable les rend adaptés aux contextes éducatifs. Ils n'ont pas les fonctionnalités avancées des caméras thermiques autonomes, mais répondent bien aux besoins d'activités pédagogiques où la facilité d'utilisation et la mobilité sont des critères importants.
 
 ## Idées de projets d'animation
 
-| **Format "Découverte" (3 séances de 2h) - 8-12 ans** | **Format "Enquête habitat" (1 semaine) - 13-17 ans** | **Format "Animation ponctuelle" (1 séance de 3h) - 10-16 ans** | **Format "Imagerie thermique" (2 séances de 2h) - 12-17 ans** |
+| **Format « Découverte » (3 séances de 2h) - 8-12 ans** | **Format « Enquête habitat » (1 semaine) - 13-17 ans** | **Format « Animation ponctuelle » (1 séance de 3h) - 10-16 ans** | **Format « Imagerie thermique » (2 séances de 2h) - 12-17 ans** |
 | --- | --- | --- | --- |
-| **"Thermomètres détectives"** | **"Analystes énergétiques"** | **"Confort et capteurs"** | **"Chasseurs de chaleur"** |
-| **Séance 1** : Manipulation libre des capteurs + comparaisons intérieur/extérieur **Séance 2** : Installation des capteurs chez 5-6 participants volontaires + formation au relevé quotidien **Séance 3** : Collecte des données + création d'une "carte thermique" de leurs lieux de vie | **Jour 1** : Formation technique + apprentissage du câblage et programmation + tests personnalisés **Jour 2-3-4** : Déploiement terrain chez les participants + suivi quotidien **Jour 5** : Récupération et traitement des fichiers .csv + analyse graphique + conclusions | **1h** : Découverte température/humidité + programmation guidée ou utilisation capteurs Xiaomi **1h** : Tests temps réel dans différents espaces + session caméra thermique **1h** : Analyse immédiate + réflexions sur confort et économies d'énergie | **Séance 1** : Formation à l'utilisation de la caméra thermique + démonstration sur différentes surfaces (métal, bois, isolation) + capture d'images test sur le bâtiment d'accueil **Séance 2** : Enquête thermique complète de la structure d'animation + analyse des images + identification des zones de déperdition + propositions d'amélioration à présenter à l'équipe de direction |
+| **« Thermomètres détectives »** | **« Analystes énergétiques »** | **« Confort et capteurs »** | **« Chasseurs de chaleur »** |
+| **Séance 1** : Manipulation libre des capteurs + comparaisons intérieur/extérieur **Séance 2** : Installation des capteurs chez 5-6 participants volontaires + formation au relevé quotidien **Séance 3** : Collecte des données + création d'une « carte thermique » de leurs lieux de vie | **Jour 1** : Formation technique + apprentissage du câblage et programmation + tests personnalisés **Jour 2-3-4** : Déploiement terrain chez les participants + suivi quotidien **Jour 5** : Récupération et traitement des fichiers .csv + analyse graphique + conclusions | **1h** : Découverte température/humidité + programmation guidée ou utilisation capteurs Xiaomi **1h** : Tests temps réel dans différents espaces + session caméra thermique **1h** : Analyse immédiate + réflexions sur confort et économies d'énergie | **Séance 1** : Formation à l'utilisation de la caméra thermique + démonstration sur différentes surfaces (métal, bois, isolation) + capture d'images test sur le bâtiment d'accueil **Séance 2** : Enquête thermique complète de la structure d'animation + analyse des images + identification des zones de déperdition + propositions d'amélioration à présenter à l'équipe de direction |
 
 ### Checklist pour les animateurs
 
