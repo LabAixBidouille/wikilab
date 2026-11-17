@@ -94,13 +94,13 @@ Les questions de relance orientent vers le réel :
 
 ### Étape 3 : Définir et imaginer (30 minutes)
 
-Le groupe énonce le problème **en une seule phrase**, puis la transforme en question **« Comment pourrions-nous... ? »**.
+Le groupe énonce le problème en une seule phrase, puis la transforme en question « Comment pourrions-nous... ? ».
 
 Il fait ensuite émerger des idées sur trois plans :
 
-- comment **détecter** le problème
-- quelles **actions du robot** sont envisageables
-- quelles **catégories** l'IA devrait reconnaître
+- comment détecter le problème
+- quelles actions du robot sont envisageables
+- quelles catégories l'IA devrait reconnaître
 
 Les meilleures idées sont retenues à l'aune de trois critères : **utile**, **possible**, **entraînable ou programmable**.
 
@@ -112,15 +112,15 @@ Chaque groupe construit un premier prototype : storyboard, schéma de système, 
 
 Le prototype doit couvrir au minimum :
 
-- le **nom du projet**
-- l'**Objectif de développement durable** visé
-- le **problème concret**
-- ce que l'**IA reconnaît**
-- les **classes ou catégories** retenues
-- l'**action du robot** quand une classe est reconnue
-- les **matériaux et données** nécessaires
+- le nom du projet
+- l'Objectif de développement durable visé
+- le problème concret
+- ce que l'IA reconnaît
+- les classes ou catégories retenues
+- l'action du robot quand une classe est reconnue
+- les matériaux et données nécessaires
 
-Le flux recommandé se lit d'un bout à l'autre : **entrée → classification par l'IA → décision → action du robot**.
+Le flux recommandé se lit d'un bout à l'autre : entrée → classification par l'IA → décision → action du robot.
 
 :::info[Notes pour l'animateur·rice]
 Le PDF de la fiche contient les deux gabarits utilisés à l'UAB : la carte d'empathie de l'étape 2 et le gabarit de conception de l'étape 4, chacun accompagné d'un exemple rempli. Les imprimer en A3 facilite le travail en groupe.
@@ -132,26 +132,26 @@ Le PDF de la fiche contient les deux gabarits utilisés à l'UAB : la carte d'em
 
 Chaque groupe passe d'une idée générale à une proposition concrète :
 
-- une question **« Comment pourrions-nous... ? »** claire et viable
-- une **tâche d'IA définie** et une **action de robot** qui lui répond
-- un **premier prototype** matérialisé
-- les **besoins en données** et les **limites** anticipés
+- une question « Comment pourrions-nous... ? » claire et viable
+- une tâche d'IA définie et une action de robot qui lui répond
+- un premier prototype matérialisé
+- les besoins en données et les limites anticipés
 
 ---
 
 ## L'accroche et le côté ludique
 
-Chaque groupe cesse de parler de l'IA pour **concevoir sa propre solution**, sous forme de mission : créer un robot utile, relié à un problème réel, et démontrer que l'idée est faisable et pas seulement séduisante.
+Chaque groupe cesse de parler de l'IA pour concevoir sa propre solution, sous forme de mission : créer un robot utile, relié à un problème réel, et démontrer que l'idée est faisable.
 
 ---
 
 ## Indicateurs de réussite
 
-- Le groupe **conçoit à partir d'un problème réel**, relie l'IA à une action automatisée et combine un modèle avec un robot ou une simulation
-- Il **justifie son projet** au regard d'un Objectif de développement durable et d'un contexte concret
-- Il formule une question **« Comment pourrions-nous... ? »** claire et viable, qui nomme un contexte concret et une action utile, et explique pourquoi elle est atteignable
-- Il nomme **2 à 3 catégories observables** que l'IA aurait à classer, et une action du robot cohérente pour chacune
-- Il anticipe **au moins une erreur ou une limite réaliste**, et ce qu'il faudrait pour l'améliorer
+- Le groupe conçoit à partir d'un problème réel, relie l'IA à une action automatisée et combine un modèle avec un robot ou une simulation
+- Il justifie son projet au regard d'un Objectif de développement durable et d'un contexte concret
+- Il formule une question « Comment pourrions-nous... ? » claire et viable, qui nomme un contexte concret et une action utile, et explique pourquoi elle est atteignable
+- Il nomme 2 à 3 catégories observables que l'IA aurait à classer, et une action du robot cohérente pour chacune
+- Il anticipe au moins une erreur ou une limite réaliste, et ce qu'il faudrait pour l'améliorer
 
 ---
 

@@ -67,9 +67,9 @@ Jusqu'ici, le chatbot ne lisait que ce qui se trouvait déjà dans le Codespace 
 
 Un document dit ce qui était vrai le jour où il a été écrit. Le niveau de danger feu de forêt, lui, est décidé chaque jour par une autorité, et le chatbot ne peut pas le deviner. Un outil comble ce manque : le modèle lui pose une question, l'outil répond par un fait, et le modèle s'en sert dans sa réponse.
 
-Ce pouvoir a un prix. Derrière un outil, il y a un programme qui tourne **dans votre Codespace, avec vos droits** : il peut y faire ce que vous pouvez y faire, comme ouvrir un fichier, le modifier ou lire votre clé. Les règles de `AGENTS.md` s'adressent au modèle, pas au programme : elles ne l'arrêtent donc pas. Certains outils envoient aussi ce que le modèle leur demande (un lieu, un mot) à un service sur Internet. Avant d'en brancher un, on lit donc ce qu'il fait, comme on regarde une application avant de l'installer sur son téléphone.
+Derrière un outil, il y a un programme qui tourne dans votre Codespace, avec vos droits : il peut y faire ce que vous pouvez y faire, comme ouvrir un fichier, le modifier ou lire votre clé. Les règles de `AGENTS.md` s'adressent au modèle, pas au programme : elles ne l'arrêtent donc pas. Certains outils envoient aussi ce que le modèle leur demande (un lieu, un mot) à un service sur Internet. Avant d'en brancher un, on lit donc ce qu'il fait, comme on regarde une application avant de l'installer sur son téléphone.
 
-Un outil, enfin, ne rapporte que ce que contiennent ses données. L'outil de danger feu de forêt de l'atelier lit un fichier qu'**une personne** remplit, le jour même, à partir de la source officielle. Si personne ne l'a rempli, l'outil le dit, et ne donne aucun niveau.
+Un outil, enfin, ne rapporte que ce que contiennent ses données. L'outil de danger feu de forêt de l'atelier lit un fichier qu'une personne remplit, le jour même, à partir de la source officielle. Si personne ne l'a rempli, l'outil le dit, et ne donne aucun niveau.
 
 Pendant toute la séance, on continue de tester le chatbot avec les mêmes questions : aujourd'hui, la colonne **D**, avec les questions 8, 11 et 12.
 
@@ -242,7 +242,7 @@ Dans ce Codespace, Claude Code demande à nouveau si l'on fait confiance au doss
 
 :::info[Ne jamais rendre le port 3000 public]
 
-**Ne jamais rendre le port 3000 public** (onglet **Ports**, réglage **Port Visibility**). C'est la porte numérotée par laquelle on accède à Open WebUI. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
+Le port 3000 est la porte numérotée par laquelle on accède à Open WebUI. Sa visibilité se règle dans l'onglet **Ports**, réglage **Port Visibility**. Cet Open WebUI n'a pas de comptes : toute personne qui aurait le lien pourrait utiliser votre clé.
 
 :::
 
@@ -363,7 +363,7 @@ Le modèle ne connaissait pas le niveau d'Anvers, et l'outil ne l'a pas deviné 
 
 Hors saison, la page officielle peut annoncer la fin de la saison tout en affichant encore un code couleur (c'est ce qui a été observé le 2026-10-30). Le choix de l'atelier est alors `"season-over"`, avec la phrase sur la saison dans `"source_says"` : l'outil ne donne pas de niveau et le chatbot dit que la saison est terminée. Si vous préférez montrer le code, écrivez `"live"` avec ce code, et dites clairement en salle que l'autorité elle-même annonce la fin de la saison.
 
-Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décidé de ce qu'il a répondu ? » Le modèle a décidé de l'appeler (d'après sa description), le fichier a décidé de la réponse, et **une personne** a rempli le fichier. Réponse au « Pour réfléchir » : la personne qui a rempli le fichier, à partir de la source officielle, est responsable.
+Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décidé de ce qu'il a répondu ? » Le modèle a décidé de l'appeler (d'après sa description), le fichier a décidé de la réponse, et une personne a rempli le fichier. Réponse au « Pour réfléchir » : la personne qui a rempli le fichier, à partir de la source officielle, est responsable.
 
 :::
 
@@ -371,7 +371,7 @@ Pour lancer la discussion : « Qui a décidé d'appeler l'outil, et qui a décid
 
 **Objectif** : utiliser deux serveurs écrits par d'autres, lire comment ils sont branchés, et voir ce que chacun envoie à l'extérieur et ce qu'il coûte dans le contexte.
 
-De nombreux serveurs existent déjà, pour un agenda, une base de données, un site web, une carte, le catalogue d'une bibliothèque. Le projet MCP tient une liste d'exemples et de liens vers d'autres serveurs ([modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)), et des milliers d'autres sont recensés ailleurs. C'est tout un monde à explorer. En utiliser un évite du travail, mais on fait alors tourner, dans son Codespace, un programme écrit par quelqu'un d'autre.
+De nombreux serveurs existent déjà, pour un agenda, une base de données, un site web, une carte, le catalogue d'une bibliothèque. Le projet MCP tient une liste d'exemples et de liens vers d'autres serveurs ([modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)), et des milliers d'autres sont recensés ailleurs. En utiliser un évite du travail, mais on fait alors tourner, dans son Codespace, un programme écrit par quelqu'un d'autre.
 
 ### Ce que vous allez découvrir
 
@@ -469,7 +469,7 @@ Pour chacun des trois serveurs, on sait dire ce qu'il lit et ce qui sort du Code
 
 Le modèle a choisi le lieu et les coordonnées, et le serveur météo les a envoyés à Open-Meteo. **Qu'est-ce qu'un serveur pourrait envoyer d'autre, si on l'interrogeait sur l'adresse d'un·e jeune ?**
 
-**Les outils peuvent aussi se combiner.** Chacun, seul, peut sembler sans danger : un agenda dit quand, une carte dit où, un service météo dit quel temps il fera. Une seule question peut les appeler tous les trois, et la réponse rassemble l'endroit où se trouvera une personne, et à quel moment. Croiser des données n'a jamais été aussi facile. Le droit européen sur les données personnelles (le RGPD, et en France la loi _Informatique et Libertés_) demande que les données personnelles soient collectées pour un but annoncé, et pas utilisées pour un autre ([RGPD, article 5](https://eur-lex.europa.eu/eli/reg/2016/679/oj)). Un chatbot avec des outils peut croiser des données en quelques secondes, sans que personne ne l'ait décidé : demandez-vous ce que chaque outil ajoute aux autres.
+**Les outils peuvent aussi se combiner.** Chacun, seul, peut sembler sans danger : un agenda dit quand, une carte dit où, un service météo dit quel temps il fera. Une seule question peut les appeler tous les trois, et la réponse rassemble l'endroit où se trouvera une personne, et à quel moment. Le droit européen sur les données personnelles (le RGPD, et en France la loi _Informatique et Libertés_) demande que les données personnelles soient collectées pour un but annoncé, et pas utilisées pour un autre ([RGPD, article 5](https://eur-lex.europa.eu/eli/reg/2016/679/oj)). Un chatbot avec des outils peut croiser des données en quelques secondes, sans que personne ne l'ait décidé : demandez-vous ce que chaque outil ajoute aux autres.
 
 :::info[Notes pour l'animateur·rice]
 
@@ -530,7 +530,7 @@ L'animateur·rice montre cela sur le grand écran, avec une page web qui cache u
 <details>
 <summary>Après la discussion : ce qui s'est passé lors de notre test</summary>
 
-Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude Code ni avec OpenCode. OpenCode l'a signalée, Claude Code n'en a rien dit. Un seul essai ne prouve pas grand-chose : une phrase plus habile, ou un modèle plus petit, peut obéir. Les règles d'un chatbot ne sont pas un verrou.
+Lors du test du 2026-10-30, le chatbot n'a pas suivi la phrase, ni avec Claude Code ni avec OpenCode. OpenCode l'a signalée, Claude Code n'en a rien dit. Un seul essai ne prouve pas grand-chose : une phrase plus habile, ou un modèle plus petit, peut obéir. Les règles d'un chatbot ne garantissent pas qu'il ignorera une telle phrase.
 
 </details>
 
@@ -561,7 +561,7 @@ Vous avez répondu à cinq questions avant de faire confiance à un serveur d'en
 
 ### Ce que l'atelier a mis en place pour vous, et pourquoi
 
-Vous n'avez pas posé ces garde-fous aujourd'hui, mais chacun a sa raison d'être :
+Les garde-fous de l'atelier :
 
 - **Pas de niveau sans le fichier du jour.** `fire-danger` ne donne un niveau que si son fichier est daté du jour et que le statut est `live`. Sinon, il dit pourquoi (`why_no_level`, partie 2) : un vieux niveau ressemblerait à un niveau du jour.
 - **Deux outils sur 17.** Le serveur météo a 17 outils ; l'atelier n'en montre que 2 au modèle. Moins d'outils, c'est moins de texte dans le contexte, et moins de choses que le modèle peut faire.
@@ -577,7 +577,7 @@ Tenez-vous-en à des outils comme ceux-ci : ils ne font que lire, ne demandent a
 
 :::info[Ce que vous avez construit]
 
-L'entrée de votre territoire dans un outil vivant, avec sa source. **À réemployer** dans tout chatbot qui utilise des outils : d'abord votre chatbot dans Open WebUI, avec le même outil ([partie 5](#partie-5--clôture-15-min), étape 2) ; avec un groupe, le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, l'outil en direct), où l'animateur·rice remplit le fichier le jour même. Une autre voie, pour les adultes, sans Claude Code : avec OpenCode, le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) reprend l'exemple `fire-danger`, explique comment remplir le niveau du jour, et donne les vérifications à faire sur les autres serveurs MCP.
+L'entrée de votre territoire dans un outil en direct, avec sa source. **À réemployer** dans tout chatbot qui utilise des outils : d'abord votre chatbot dans Open WebUI, avec le même outil ([partie 5](#partie-5--clôture-15-min), étape 2) ; avec un groupe, le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) (étape 5 de la partie 2, l'outil en direct), où l'animateur·rice remplit le fichier le jour même. Une autre voie, pour les adultes, sans Claude Code : avec OpenCode, le guide [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode) reprend l'exemple `fire-danger`, explique comment remplir le niveau du jour, et donne les vérifications à faire sur les autres serveurs MCP.
 
 :::
 

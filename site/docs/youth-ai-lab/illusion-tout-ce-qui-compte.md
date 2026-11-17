@@ -69,7 +69,7 @@ sidebar_position: 5
     - **Le manque** : Ce qui manque au processus de « pensée » de l'IA (par exemple, la conscience, l'intention véritable).
 - **Discussion collective (10 min)** : Partager les conclusions.
 
-**Clarification fondamentale** : Traiter du langage n'est pas la même chose que posséder une conscience.
+**Clarification** : Traiter du langage n'est pas la même chose que posséder une conscience.
 
 ---
 
@@ -119,13 +119,13 @@ sidebar_position: 5
 ## Productions attendues
 
 - Fiche d'analyse *« L'illusion de la pensée »* complétée avec des observations structurées
-- Une compréhension claire de la différence entre **conscience humaine** et **reconnaissance de motifs par l'IA**
+- Une compréhension claire de la différence entre conscience humaine et reconnaissance de motifs par l'IA
 - Capacité à :
-    - Expliquer la boucle d'**apprentissage par renforcement** (Agent, Action, Environnement, Récompense)
-    - Relier des solutions technologiques à des **ODD** spécifiques
+    - Expliquer la boucle d'apprentissage par renforcement (Agent, Action, Environnement, Récompense)
+    - Relier des solutions technologiques à des ODD spécifiques
     - Analyser le « manque » éthique dans la prise de décision de l'IA
-- Un **plan conceptuel pour un robot simple** conçu pour résoudre un défi mondial
-- Premiers pas vers une posture de **créateurs numériques critiques et éthiques**
+- Un plan conceptuel pour un robot simple conçu pour résoudre un défi mondial
+- Premiers pas vers une posture de créateurs numériques critiques et éthiques
 
 ---
 
@@ -133,9 +133,9 @@ sidebar_position: 5
 
 - **Démystifier la magie** : Les participant·es jouent les « Philosophes-Ingénieurs » pour lever le rideau sur la « pensée » de l'IA.
 - **Le jeu de la récompense** : Utiliser des vidéos d'IA apprenant par essais et erreurs pour voir comment l'« échec » mène au succès.
-- **Conception basée sur une mission** : Les participant·es ne fabriquent pas juste un robot, elles et ils conçoivent un outil pour sauver la planète (ODD).
+- **Conception fondée sur une mission** : Les participant·es conçoivent un robot qui répond à un ODD précis.
 - **Liberté créative** : Passer de la lecture d'un article à l'esquisse de leurs propres améliorations de robot.
-- **Défier la machine** : Essayer de trouver des choses que les humains peuvent faire et que l'IA ne peut tout simplement pas.
+- **Défier la machine** : Essayer de trouver des choses que les humains peuvent faire et que l'IA ne peut pas faire.
 
 ---
 
@@ -143,14 +143,14 @@ sidebar_position: 5
 
 Les participant·es peuvent :
 
-- Définir correctement les éléments de l'**apprentissage par renforcement**
-- Expliquer pourquoi la « compréhension » d'une IA est souvent considérée comme une illusion basée sur des modèles de données
-- Associer une **fonction robotique** à un **ODD** spécifique (par exemple, « Ce robot aide l'Objectif 14 en nettoyant les océans »)
+- Définir correctement les éléments de l'apprentissage par renforcement
+- Expliquer pourquoi la « compréhension » d'une IA est souvent considérée comme une illusion fondée sur des modèles de données
+- Associer une fonction robotique à un ODD spécifique (par exemple, « Ce robot aide l'Objectif 14 en nettoyant les océans »)
 - Justifier les ajouts de leur travail à la maison en s'appuyant sur les limites techniques de l'IA
 
-Amélioration de la profondeur d'analyse dans la discussion collective concernant l'article « L'illusion de la pensée ».
+Dans la discussion collective sur l'article « L'illusion de la pensée », l'analyse des participant·es gagne en profondeur.
 
-Capacité à reformuler le message clé : **« L'IA ne pense pas comme nous, mais nous pouvons lui apprendre à nous aider à résoudre les plus grands problèmes du monde. »**
+Capacité à reformuler le message clé : « L'IA ne pense pas comme nous, mais nous pouvons lui apprendre à nous aider à résoudre les plus grands problèmes du monde. »
 
 ---
 

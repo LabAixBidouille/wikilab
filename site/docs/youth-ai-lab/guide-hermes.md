@@ -81,7 +81,7 @@ L'assistant travaille dans un **Codespace**, un ordinateur dans le navigateur fo
 
 ## Avant de commencer
 
-Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) ou une [clé OpenRouter](#ou-une-clé-openrouter), et environ **une heure**. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
+Le guide demande un compte GitHub, une clé d'API Anthropic (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) ou une [clé OpenRouter](#ou-une-clé-openrouter), et environ une heure. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
 
 - **Une clé de votre structure** : pour un usage professionnel, utiliser une clé créée avec l'accord de votre organisation, pas votre carte personnelle. Ce qu'Anthropic fait des données et le contrat nécessaire sont décrits dans le [guide OpenCode](/ressources/youth-ai-lab/guide-opencode).
 - **Une région en Europe** : choisir une région européenne pour le Codespace avant de le créer. Vos conversations et la mémoire restent alors en Europe ; vos questions, elles, partent toujours chez le fournisseur de votre clé.
@@ -167,7 +167,7 @@ Point de vigilance : certaines commandes tapées par vous désactivent ces règl
 
 ### Partie 7 : Garder et effacer
 
-Le guide donne les commandes pour lister et supprimer une conversation, effacer les journaux (qui gardent le texte de vos questions), vider la mémoire, rejeter les propositions en attente et retirer la clé (`hermes auth remove anthropic api-key-1`, ou `hermes auth remove openrouter api-key-1`). Seule la **suppression du Codespace** efface tout ce qu'il contient. À la fin du travail, ou si quelque chose de réel a été tapé par erreur, la procédure est la suivante : arrêter, révoquer la clé dans la console de son fournisseur (une clé retirée du Codespace marche encore ailleurs), supprimer le Codespace (ce qui n'efface ni ce que vous avez téléchargé, export ou sauvegarde, ni ce qui a déjà été envoyé au fournisseur de votre clé, qui le garde selon ses propres conditions) et, s'il s'agissait d'un ou une jeune réel·le, noter ce qui a été tapé et quand, puis prévenir la personne chargée de la protection des données dans votre structure.
+Le guide donne les commandes pour lister et supprimer une conversation, effacer les journaux (qui gardent le texte de vos questions), vider la mémoire, rejeter les propositions en attente et retirer la clé (`hermes auth remove anthropic api-key-1`, ou `hermes auth remove openrouter api-key-1`). Seule la **suppression du Codespace** efface tout ce qu'il contient. À la fin du travail, ou si quelque chose de réel a été tapé par erreur : arrêter, révoquer la clé dans la console de son fournisseur (une clé retirée du Codespace marche encore ailleurs), supprimer le Codespace (ce qui n'efface ni ce que vous avez téléchargé, export ou sauvegarde, ni ce qui a déjà été envoyé au fournisseur de votre clé, qui le garde selon ses propres conditions) et, s'il s'agissait d'un ou une jeune réel·le, noter ce qui a été tapé et quand, puis prévenir la personne chargée de la protection des données dans votre structure.
 
 Point de vigilance : `hermes backup` met la clé dans l'archive produite. Ne jamais partager une telle archive. [Partie 7 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-7---keep-and-delete)
 
@@ -220,12 +220,12 @@ Chaque question, avec les instructions, la mémoire et les documents lus, est en
 
 ## Indicateurs de réussite
 
-- Vous avez obtenu une réponse de l'assistant qui **cite le document** dont elle vient
-- Vous savez dire **ce qui entre dans le contexte** à chaque question, et qui a écrit chaque morceau
-- Vous avez **approuvé une mémoire et refusé une autre**, puis vérifié dans une nouvelle conversation ce que l'assistant en a retenu
-- Vous avez **lu une skill avant de l'approuver**, ou écrit la vôtre et vérifié qu'elle apparaît dans `hermes skills list`
-- Vous pouvez **expliquer à un·e collègue** pourquoi cet assistant ne doit jamais servir avec des jeunes, et ce que les règles ne peuvent pas empêcher
-- Vous savez **arrêter et supprimer** votre Codespace, et que faire si quelque chose de réel a été tapé par erreur
+- Vous avez obtenu une réponse de l'assistant qui cite le document dont elle vient
+- Vous savez dire ce qui entre dans le contexte à chaque question, et qui a écrit chaque morceau
+- Vous avez approuvé une mémoire et refusé une autre, puis vérifié dans une nouvelle conversation ce que l'assistant en a retenu
+- Vous avez lu une skill avant de l'approuver, ou écrit la vôtre et vérifié qu'elle apparaît dans `hermes skills list`
+- Vous pouvez expliquer à un·e collègue pourquoi cet assistant ne doit jamais servir avec des jeunes, et ce que les règles ne peuvent pas empêcher
+- Vous savez arrêter et supprimer votre Codespace, et que faire si quelque chose de réel a été tapé par erreur
 
 ---
 

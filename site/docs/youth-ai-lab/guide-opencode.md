@@ -85,7 +85,7 @@ Vous n'avez besoin d'aucune connaissance technique : le guide donne chaque comma
 
 ## Avant de commencer
 
-Il faut un **compte GitHub**, **une façon de payer le modèle** et environ **une heure**. Le guide demande de régler dès maintenant, dans les paramètres Codespaces du compte GitHub, le délai d'inactivité au maximum (240 minutes) et une région en Europe : ce réglage garde le Codespace et les conversations en Europe, mais ne change pas l'endroit où partent les questions.
+Il faut un compte GitHub, une façon de payer le modèle et environ une heure. Le guide demande de régler dès maintenant, dans les paramètres Codespaces du compte GitHub, le délai d'inactivité au maximum (240 minutes) et une région en Europe : ce réglage garde le Codespace et les conversations en Europe, mais ne change pas l'endroit où partent les questions.
 
 ### Cinq façons de payer le modèle
 
@@ -228,10 +228,10 @@ Pour le détail, voir [With young people: what this guide does not cover](https:
 ## Indicateurs de réussite
 
 - Le chatbot démarre avec `chatbot`, et la zone de saisie d'OpenCode affiche `Chatbot`, pas `Build`
-- Vous savez **dire quel fichier fait quoi** : instructions, documents, skills, outil, configuration
-- Le chatbot **nomme le document** de chaque réponse et dit « je ne sais pas » quand aucun document ne répond
+- Vous savez dire quel fichier fait quoi : instructions, documents, skills, outil, configuration
+- Le chatbot nomme le document de chaque réponse et dit « je ne sais pas » quand aucun document ne répond
 - L'outil `fire-danger` donne le niveau recopié depuis la source officielle, ou dit que personne ne l'a rempli, **sans jamais deviner**
-- Vos quatre questions de contrôle sont bien traitées, y compris le message inquiet, et vous avez **comparé au moins deux modèles**
+- Vos quatre questions de contrôle sont bien traitées, y compris le message inquiet, et vous avez comparé au moins deux modèles
 - `chatbot check` affiche `All checks passed` sur votre propre copie, et aucune règle enregistrée par `Always allow` ne subsiste
 
 ---

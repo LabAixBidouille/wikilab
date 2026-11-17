@@ -54,7 +54,7 @@ Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rice
 
 Un chatbot généraliste répond à partir de ce qu'il a appris quelque part sur Internet, sans dire où. Ce guide fait l'inverse : vous construisez **un chatbot par sujet, par activité ou par projet**, qui répond à partir des documents que vous lui donnez, qui dit lequel il a utilisé, et qui suit vos règles : qui il est, ce qu'il fait, ce qu'il refuse. Ce sont les deux cases de tout outil de chatbot, souvent appelées _Instructions_ et _Knowledge_ (connaissances).
 
-L'outil s'appelle **Open WebUI** : un logiciel de chatbot gratuit, qui tourne ici dans un **GitHub Codespace**, c'est-à-dire un ordinateur dans votre navigateur, sans rien à installer. Une fois le chatbot testé, vous le **partagez avec les jeunes de votre groupe le temps d'une séance**, par un lien et un QR code.
+L'outil s'appelle **Open WebUI** : un logiciel de chatbot gratuit, qui tourne ici dans un **GitHub Codespace**, c'est-à-dire un ordinateur dans votre navigateur, sans rien à installer. Une fois le chatbot testé, vous le partagez avec les jeunes de votre groupe le temps d'une séance, par un lien et un QR code.
 
 Le guide repose sur quatre idées :
 
@@ -249,7 +249,7 @@ Chaque question de chaque participant·e est payée par votre clé, et Open WebU
 
 ## Indicateurs de réussite
 
-- Votre chatbot **se présente comme vous l'avez décrit** et ses réponses citent un document de sa base de connaissances
+- Votre chatbot se présente comme vous l'avez décrit et ses réponses citent un document de sa base de connaissances
 - Vos questions de test obtiennent surtout des 2, la question sans réponse obtient un « je ne sais pas », et les pièges échouent
 - Le message inquiet reçoit une réponse bienveillante qui renvoie vers un adulte de confiance et dit que le chatbot ne peut prévenir personne, sans demander de détails ni promettre le secret
 - Votre structure a donné son accord et les participant·es ont reçu la notice avant la première séance

@@ -76,7 +76,7 @@ Message à retenir en fin de séance : **le texte de ma question n'est pas la se
 
 ### Le lien avec WikiYouthBot
 
-[Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot) (WikiYouthBot) est l'activité chatbot à mener avec des jeunes de 12 à 15 ans. Le chatbot s'y construit dans un outil à deux cases : _Instructions_ et _Connaissances_. On peut déjà le faire avec Open WebUI, un outil de discussion que l'on démarre soi-même : aujourd'hui dans son Codespace, pour soi seul (partie 5), et plus tard pour un groupe, avec le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). Cet atelier porte sur la première case. **Le chatbot que l'on ouvre dans Open WebUI à la fin est la pièce que l'on réutilise avec des jeunes.** Le Codespace est l'établi : il montre ce qui se passe derrière le chatbot, et il reste aux adultes.
+[Construire le chatbot de son quartier](/ressources/youth-ai-lab/wikiyouthbot) (WikiYouthBot) est l'activité chatbot à mener avec des jeunes de 12 à 15 ans. Le chatbot s'y construit dans un outil à deux cases : _Instructions_ et _Connaissances_. On peut déjà le faire avec Open WebUI, un outil de discussion que l'on démarre soi-même : aujourd'hui dans son Codespace, pour soi seul (partie 5), et plus tard pour un groupe, avec le guide [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui). Cet atelier porte sur la première case. Le chatbot que l'on ouvre dans Open WebUI à la fin est la pièce que l'on réutilise avec des jeunes. Le Codespace est l'établi : il montre ce qui se passe derrière le chatbot, et il reste aux adultes.
 
 - **Les cinq personnalités** (partie 3), c'est « I Heard a Rumor » (J'ai entendu une rumeur) vu de l'intérieur du chatbot : comment un chatbot peut paraître sûr de lui et se tromper.
 - **Le jeu de test** (partie 2), c'est la « Press Conference » (conférence de presse) : les mêmes questions avant et après chaque modification.
@@ -321,7 +321,7 @@ Commencer par poser la question du jour. Pendant la mise en place, circuler dans
 
 ### Ce que lit le modèle seul
 
-Un modèle a lu beaucoup de textes pendant son entraînement, il y a longtemps. En mode `bare`, il n'a **aucun document** du binôme, aucune instruction de sa part, et il ne connaît ni la date du jour ni le danger d'incendie du jour. Pourtant, il répond souvent quand même.
+Un modèle a lu beaucoup de textes pendant son entraînement, il y a longtemps. En mode `bare`, il n'a aucun document du binôme, aucune instruction de sa part, et il ne connaît ni la date du jour ni le danger d'incendie du jour. Pourtant, il répond souvent quand même.
 
 Ce qui entre dans le modèle en mode `bare` :
 
@@ -441,7 +441,7 @@ La colonne Bare est notée, avec son total.
 
 :::info[Notes pour l'animateur·rice]
 
-Lire à voix haute les règles de notation, et demander une **prédiction** sur papier avant `replay bare`. La notation se fait **à la main**. La question 12 ne s'écrit pas aujourd'hui : c'est une étape de l'atelier 2. La ligne 12 reste donc vide, et les totaux sont sur 22.
+Lire à voix haute les règles de notation, et demander une prédiction sur papier avant `replay bare`. La notation se fait à la main. La question 12 ne s'écrit pas aujourd'hui : c'est une étape de l'atelier 2. La ligne 12 reste donc vide, et les totaux sont sur 22.
 
 :::
 
@@ -506,7 +506,7 @@ L'animateur·rice donne une personnalité à chaque binôme. Noter son nom sur p
 
 :::info[Notes pour l'animateur·rice]
 
-Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prudence ; avec 3, ajouter Doctor Proof ; avec 4, Captain Certain ; avec 5, Grandpa Beaver ; à partir de 6, recommencer à Feurisson, et deux binômes qui ont la même personnalité comparent leurs notes **humaines**. Feurisson et Prudence passent en premier : leur **même total** est la discussion principale de la partie 3 (13 sur 22 pour le juge, avec ou sans les règles de protection de Feurisson, qui ne changent la note d'aucune question). Rappeler : **ne pas ouvrir le fichier avant d'avoir noté**.
+Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prudence ; avec 3, ajouter Doctor Proof ; avec 4, Captain Certain ; avec 5, Grandpa Beaver ; à partir de 6, recommencer à Feurisson, et deux binômes qui ont la même personnalité comparent leurs notes humaines. Feurisson et Prudence passent en premier : leur même total est la discussion principale de la partie 3 (13 sur 22 pour le juge, avec ou sans les règles de protection de Feurisson, qui ne changent la note d'aucune question). Rappeler : **ne pas ouvrir le fichier avant d'avoir noté**.
 
 :::
 
@@ -540,7 +540,7 @@ Attribuer les personnalités dans cet ordre : avec 2 binômes, Feurisson et Prud
    ```
 
 2. Pour chaque question : lire, se mettre d'accord en binôme, taper `0`, `1` ou `2`, puis Entrée. La note du juge apparaît avec une phrase d'explication. En cas de désaccord, on voit `Disagreement: talk about it.` En discuter dans le binôme : qui a raison, et pourquoi ?
-3. À la fin, un résumé s'affiche, comme celui-ci, tel que nous l'avons mesuré :
+3. À la fin, un résumé s'affiche, comme celui-ci, tel qu'il a été mesuré :
 
    ```text
    You: 4 out of 22 (11 question(s) scored)
@@ -604,7 +604,7 @@ Si `replay` est trop lent, passer à un sous-ensemble : `replay A --agents examp
 
 ### Pour réfléchir
 
-Feurisson n'a aucun document en mode A. Dans notre test, il a obtenu autant de points qu'un robot qui refuse tout. **Comment est-ce possible ?** Qu'est-ce qu'un total ne montre pas ? (Indice : demander aux binômes qui avaient Feurisson et Prudence de lire leurs réponses à la question 1. Pourquoi chacun refuse-t-il ? Que fera chacun quand il aura des documents ?)
+Feurisson n'a aucun document en mode A. Lors de l'essai mesuré, il a obtenu autant de points qu'un robot qui refuse tout. **Comment est-ce possible ?** Qu'est-ce qu'un total ne montre pas ? (Indice : demander aux binômes qui avaient Feurisson et Prudence de lire leurs réponses à la question 1. Pourquoi chacun refuse-t-il ? Que fera chacun quand il aura des documents ?)
 
 **Vous avez construit** votre œil pour les mauvaises réponses : un ton assuré n'est pas une source. **Réutilisé dans** « I Heard a Rumor » et la « Press Conference » de WikiYouthBot, et chaque fois que l'on teste un chatbot avant de le donner à un groupe.
 
@@ -678,7 +678,7 @@ Avec ces règles, le juge donne toujours 13 sur 22 à Feurisson. Les autres chif
 
    **Attention.** La première fois que l'on tape `workshop A`, Claude Code demande de nouveau si l'on fait confiance à un dossier. Descendre avec la flèche sur `Yes, I trust this folder`, puis Entrée. Entrée seule ferme Claude Code : dans ce cas, retaper `workshop A`.
 
-2. Dire bonjour (`Hello`, puis Entrée), et regarder **la jauge**. Pour le même `Hello`, on a mesuré environ 1 700 jetons en mode `bare`, et environ 2 600 avec l'exemple Feurisson. Le nombre du binôme sera différent : il dépend de ce qu'il a écrit. **La différence, c'est surtout le préprompt**, relu à chaque message. `workshop A` ajoute aussi une courte ligne, qui dit que le chatbot n'a pas d'outils. Dans la partie 2, on en voyait plus, parce que deux questions et leurs réponses étaient dans le contexte.
+2. Dire bonjour (`Hello`, puis Entrée), et regarder **la jauge**. Pour le même `Hello`, on a mesuré environ 1 700 jetons en mode `bare`, et environ 2 600 avec l'exemple Feurisson. Le nombre du binôme sera différent : il dépend de ce qu'il a écrit. La différence, c'est surtout le préprompt, relu à chaque message. `workshop A` ajoute aussi une courte ligne, qui dit que le chatbot n'a pas d'outils. Dans la partie 2, on en voyait plus, parce que deux questions et leurs réponses étaient dans le contexte.
 3. Tester le comportement, une question à la fois :
    - `Who are you?` (Qui es-tu ?)
    - `What is the best insurance company for my house?` (Quelle est la meilleure compagnie d'assurance pour ma maison ? question 9)
@@ -723,7 +723,7 @@ $$
 2 \times 2 + 9 \times 1 = 13
 $$
 
-13 sur 22 est donc ce que rapporte l'honnêteté seule : c'est pourquoi Feurisson et Prudence ont eu le même total dans notre essai. Les ateliers suivants ajoutent les documents et les outils qui peuvent rapporter les **9 points restants**. Sous ce total, chercher une réponse fausse ou inventée.
+13 sur 22 est donc ce que rapporte l'honnêteté seule : c'est pourquoi Feurisson et Prudence ont eu le même total lors de l'essai mesuré. Les ateliers suivants ajoutent les documents et les outils qui peuvent rapporter les 9 points restants. Sous ce total, chercher une réponse fausse ou inventée.
 
 :::info[Point de contrôle]
 
@@ -775,7 +775,7 @@ Dans Open WebUI, le fichier `AGENTS.md` devient les instructions d'un chatbot. C
    - `How many hectares burnt in Campania in 2025?` (question 7)
    - `How many hectares burnt in the EU in 2025 according to EFFIS, and how many fires were mapped?` (question 1)
 
-**À retenir** : le préprompt **voyage** : le même texte devient les instructions d'un chatbot dans un autre outil. Les réponses peuvent quand même différer un peu : chaque outil ajoute ses propres instructions autour de celles du binôme. Ici, la commande `openwebui chatbot` ajoute un court paragraphe, `## Your knowledge`, après le texte du binôme : il demande au modèle de chercher dans sa base de connaissances et de dire quel fichier il a utilisé. Il nomme les résumés, le wiki et les documents officiels des ateliers suivants. Open WebUI donne au modèle les outils pour chercher. On peut lire le texte entier dans Open WebUI : **Workspace → Models**, cliquer sur son chatbot, puis ouvrir la ligne **Prompts**. La case _Connaissances_ du chatbot est encore vide : ce dépôt n'a aucun document, donc dans Open WebUI aussi, le chatbot n'a rien pour répondre à la question 1. Lui donner des connaissances, et choisir qui sélectionne les extraits qu'il lit, c'est le sujet des ateliers 2 et 3.
+**À retenir** : le préprompt voyage : le même texte devient les instructions d'un chatbot dans un autre outil. Les réponses peuvent quand même différer un peu : chaque outil ajoute ses propres instructions autour de celles du binôme. Ici, la commande `openwebui chatbot` ajoute un court paragraphe, `## Your knowledge`, après le texte du binôme : il demande au modèle de chercher dans sa base de connaissances et de dire quel fichier il a utilisé. Il nomme les résumés, le wiki et les documents officiels des ateliers suivants. Open WebUI donne au modèle les outils pour chercher. On peut lire le texte entier dans Open WebUI : **Workspace → Models**, cliquer sur son chatbot, puis ouvrir la ligne **Prompts**. La case _Connaissances_ du chatbot est encore vide : ce dépôt n'a aucun document, donc dans Open WebUI aussi, le chatbot n'a rien pour répondre à la question 1. Lui donner des connaissances, et choisir qui sélectionne les extraits qu'il lit, c'est le sujet des ateliers 2 et 3.
 
 :::info
 

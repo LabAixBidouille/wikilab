@@ -69,7 +69,7 @@ Deux cibles servent de point d'entrée :
 **Activité : l'audit des droits (20 minutes).** Les participant·es travaillent en binômes et recherchent la législation d'un pays donné en matière de propriété et de mariage.
 
 - **Objectif** : identifier un « écart » juridique où les femmes n'ont pas les mêmes droits que les hommes
-- **Clarification fondamentale** : l'émancipation n'est pas seulement un sentiment, elle s'appuie sur une infrastructure juridique et économique
+- **Clarification fondamentale** : l'émancipation s'appuie sur une infrastructure juridique et économique
 
 ---
 
@@ -128,7 +128,7 @@ Chaque participant·e reçoit trois post-it à coller sur un tableau de sortie :
 ## Productions attendues
 
 - Une **fiche d'analyse de l'écart de biais** complétée, documentant des exemples réels de langage genré et de déséquilibres dans les données des modèles de langage
-- Un **modèle de classification binaire entraîné**, qui met en évidence la logique mathématique de la prédiction de genre et ses limites physiques intrinsèques
+- Un **modèle de classification binaire entraîné**, qui montre le calcul de la prédiction du genre à partir de la taille et du poids, et les limites d'une prédiction fondée sur des mesures physiques
 - La capacité à **expliquer les barrières juridiques et économiques** identifiées dans les cibles 5.3 et 5.a
 - La capacité à **retracer le chemin** qui mène d'un écart dans les données d'entraînement à un préjugé social automatisé
 - Un aperçu concret du rôle de créatrice ou de créateur responsable : dépasser les réglages par défaut pour construire une technologie plus inclusive
@@ -139,9 +139,9 @@ Chaque participant·e reçoit trois post-it à coller sur un tableau de sortie :
 
 - **Mode détective, la chasse aux biais** : les participant·es deviennent des « détectives du numérique » et prennent des IA de premier plan en flagrant délit de supposition embarrassante ou injuste
 - **Le décodeur de genre** : transformer un réseau de neurones complexe en un jeu de « taille contre poids », pour voir si une machine peut réellement deviner une identité humaine à partir de quelques nombres
-- **La ligue de la justice mondiale** : les participant·es n'étudient pas seulement l'histoire, ils agissent en « réformatrices et réformateurs » en appliquant l'Objectif 5 à des inégalités économiques et juridiques réelles
+- **La ligue de la justice mondiale** : les participant·es agissent en « réformatrices et réformateurs » et appliquent l'Objectif 5 à des inégalités économiques et juridiques réelles
 - **La boucle de retour par post-it** : un final rapide et interactif où leurs avis, le plus, le delta et le point, orientent directement la façon dont le laboratoire fonctionnera la fois suivante
-- **Sortir du binaire** : le plaisir de découvrir la part proprement humaine, ces aspects du genre et de l'identité qu'un simple 0 ou 1 dans du code ne capturera jamais entièrement
+- **Sortir du binaire** : le plaisir de découvrir ce que la classification de l'étape 3 laisse de côté, ces aspects du genre et de l'identité qu'un 0 ou un 1 dans du code ne capture jamais entièrement
 
 ---
 
@@ -150,8 +150,8 @@ Chaque participant·e reçoit trois post-it à coller sur un tableau de sortie :
 Les participant·es :
 
 - **identifient de façon critique** des biais de genre précis dans les réponses d'une IA, et les relient à l'écart présent dans les données des modèles de langage
-- **relient la justice sociale aux données** : ils expliquent comment les cibles 5.3 et 5.a fournissent le socle juridique d'une société équitable
-- **évaluent le piège du binaire** : ils discutent des raisons pour lesquelles réduire l'identité humaine à une taille et un poids échoue à rendre compte de la complexité de l'émancipation
+- **relient la justice sociale aux données** : ils expliquent comment les cibles 5.3 et 5.a donnent la base juridique d'une société équitable
+- **évaluent les limites du binaire** : ils discutent des raisons pour lesquelles une taille et un poids ne rendent compte ni d'une identité humaine ni de la complexité de l'émancipation
 - **proposent des solutions éthiques** : des façons concrètes de débiaiser un algorithme ou d'améliorer un jeu de données
 - **reformulent le message clé** : « une IA est le miroir de nos données passées, mais à la lumière de l'Objectif 5, nous pouvons construire des outils qui reflètent un futur plus égalitaire »
 

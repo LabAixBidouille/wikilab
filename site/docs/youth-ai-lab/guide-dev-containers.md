@@ -52,7 +52,7 @@ Les pages, les commandes et l'environnement de travail sont en anglais ; cette f
 
 ## Introduction
 
-Les six ateliers et les guides du projet Youth AI Lab tournent dans un **GitHub Codespace** : un ordinateur dans le navigateur, préparé par GitHub, sans rien à installer. Ce guide propose l'autre voie : **la même chose sur votre propre ordinateur**, dans un _conteneur_.
+Les six ateliers et les guides du projet Youth AI Lab tournent dans un **GitHub Codespace** : un ordinateur dans le navigateur, préparé par GitHub, sans rien à installer. Ce guide propose l'autre voie : la même chose sur votre propre ordinateur, dans un _conteneur_.
 
 On installe une fois quelques outils (Docker, git, Visual Studio Code et son extension Dev Containers), puis on ouvre le dépôt d'un atelier ou d'un guide. On retrouve alors la même image, les mêmes commandes et les mêmes versions que dans un Codespace : vous testez chez vous ce que les binômes auront en salle.
 
@@ -169,7 +169,7 @@ On suit ensuite la page du dépôt (son README). Pour les guides Open WebUI et O
 
 On télécharge le dépôt avec `git clone`, on l'ouvre dans VS Code, puis on clique sur `Reopen in Container` dans la notification en bas à droite, et sur `Trust Folder & Continue`. Pour le kit seulement, VS Code demande de choisir une configuration : prendre celle qui n'est **pas** marquée `build the image locally (fallback)`, réservée à l'animateur·rice. La première fois, Docker télécharge l'image (quelques minutes) ; ensuite, le conteneur s'ouvre en quelques secondes.
 
-On sait que c'est bon quand le coin en bas à gauche affiche `Dev Container:` suivi du nom du conteneur, et que le terminal accueille avec le message du dépôt, par exemple `Welcome! First, save your API key: workshop-login` pour les ateliers. À partir de là, tout se passe comme dans un Codespace. Vos fichiers restent dans le dossier du dépôt, sur votre ordinateur.
+On sait que c'est bon quand le coin en bas à gauche affiche `Dev Container:` suivi du nom du conteneur, et que le terminal s'ouvre sur le message d'accueil du dépôt, par exemple `Welcome! First, save your API key: workshop-login` pour les ateliers. À partir de là, tout se passe comme dans un Codespace. Vos fichiers restent dans le dossier du dépôt, sur votre ordinateur.
 
 Le guide décrit aussi une voie par le terminal, sans VS Code, pour les personnes à l'aise. Elle demande Node.js 20 ou plus récent, et celui d'Ubuntu 24.04 (la version 18) est trop ancien : passer cette voie, ou installer un Node.js plus récent depuis https://nodejs.org. Le guide y installe la commande `devcontainer` en version 0.90.0, puis vérifie dans le conteneur la version d'OpenCode figée dans l'image : `opencode v2.2.5`, la même que dans un Codespace. Un conteneur ouvert par cette voie continue de tourner jusqu'à ce qu'on l'arrête (partie 7). Voir [Part 3 - Open a repository](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-3---open-a-repository) et [The terminal way](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#the-terminal-way-optional).
 
@@ -252,7 +252,7 @@ La partie [Troubleshooting](https://github.com/Youth-AI-Lab/yal-devcontainer-gui
 ## Indicateurs de réussite
 
 - La commande `docker run --rm hello-world` affiche `Hello from Docker!` sur votre ordinateur
-- Le dépôt choisi s'ouvre dans son conteneur, le coin en bas à gauche de VS Code affiche `Dev Container:` et le terminal accueille avec le message du dépôt
+- Le dépôt choisi s'ouvre dans son conteneur, le coin en bas à gauche de VS Code affiche `Dev Container:` et le terminal montre le message d'accueil du dépôt
 - La clé est enregistrée dans le conteneur, et vous savez dire pourquoi elle n'est pas dans le dossier du dépôt et quand il faudra la retaper
 - Open WebUI s'ouvre dans votre navigateur à l'adresse `http://localhost:3000`, et le port n'est pas ouvert aux autres appareils
 - Vous savez expliquer à un·e collègue pourquoi ce montage ne sert pas à ouvrir un chatbot à un groupe, et vers quel guide se tourner

@@ -61,7 +61,7 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 ## Introduction
 
-À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait **avant** la question : le modèle écrit des pages reliées entre elles, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. Une personne peut suivre les liens de page en page, et un modèle aussi. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
+À l'atelier 3, le modèle cherchait de nouveau dans les documents à chaque question, et ne gardait rien de ce qu'il avait trouvé. Aujourd'hui, le travail est fait avant la question : le modèle écrit des pages reliées entre elles, une personne décide de ce que l'on garde, et le chatbot lit ce qui est déjà rangé. Une personne peut suivre les liens de page en page, et un modèle aussi. On termine en rassemblant tout ce qui a été construit depuis le premier atelier dans un seul fichier. La question du jour :
 
 :::question[Question du jour]
 
@@ -71,7 +71,7 @@ Les pages, les commandes et le Codespace sont en anglais ; cette fiche en est l'
 
 **Pourquoi cette approche ?** Le mode B lisait tout, à chaque fois. Avec le RAG, un moteur de recherche choisissait des extraits, et le modèle ne recevait qu'eux. Le mode C cherchait, puis repartait de zéro à la question suivante. Chaque question payait donc de nouveau le même travail. Un **wiki** fait ce travail une seule fois, à l'avance. C'est un ensemble de pages, une page par **sujet** (une règle, un lieu, un organisme), reliées entre elles, et chaque fait se termine par une **note de bas de page**, une marque qui renvoie à sa source.
 
-Mettre par écrit ce que l'on sait a toujours compté. Cela compte encore plus aujourd'hui : un modèle peut explorer ces pages à votre place, suivre leurs liens, et retrouver ce que vous aviez oublié savoir. On appelle un tel ensemble de notes un **second cerveau** (l'expression vient du livre de Tiago Forte, _Building a Second Brain_). Un wiki écrit et tenu à jour par un modèle est une idée qu'Andrej Karpathy a décrite en avril 2026 ([LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)) : cet atelier la suit.
+Un modèle peut explorer ces pages à votre place, suivre leurs liens et retrouver ce que vous ne saviez plus savoir. On appelle un tel ensemble de notes un **second cerveau** (l'expression vient du livre de Tiago Forte, _Building a Second Brain_). Un wiki écrit et tenu à jour par un modèle est une idée qu'Andrej Karpathy a décrite en avril 2026 ([LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)) : cet atelier la suit.
 
 Cela a un prix : les pages vieillissent, et elles peuvent s'éloigner de leurs sources. C'est pourquoi **le modèle entretient les pages, et une personne décide.** Le wiki garde un historique, le **journal** (_log_). Le modèle peut vérifier tout le wiki avec un **lint** (une relecture automatique), qui signale les problèmes sans rien corriger de lui-même. Et quand un modèle devine un lien entre deux idées, une personne va voir dans les sources.
 
@@ -253,7 +253,7 @@ Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voi
 
 :::info[Ne jamais rendre le port 3000 public]
 
-**Ne jamais rendre public le port 3000** (onglet Ports, Port Visibility). Cet Open WebUI n'a pas de comptes : n'importe qui ayant le lien pourrait utiliser la clé du binôme.
+La visibilité du port 3000 se règle dans l'onglet Ports, Port Visibility : la laisser privée. Cet Open WebUI n'a pas de comptes : n'importe qui ayant le lien pourrait utiliser la clé du binôme.
 
 :::
 
@@ -294,7 +294,7 @@ L'animateur·rice a préparé ce wiki avant la séance : un modèle l'a écrit �
 
 Vous avez déjà des résumés : pourquoi des pages ? Un résumé suit un document. Une page du wiki suit un **sujet** : un document peut alimenter plusieurs pages, et une page peut citer plusieurs documents. Ce que disent les documents sur un sujet se trouve ainsi à un seul endroit.
 
-En mode E, le modèle a pour consigne de lire d'abord `wiki/index.md`, puis les pages utiles, et de ne chercher dans les sources que si le wiki ne suffit pas. Il garde aussi les outils de l'atelier 4. Comme dans les autres ateliers, la **jauge** montre combien de jetons (des morceaux de mots) le modèle a lus, et la **fenêtre de contexte** est le maximum qu'il peut contenir.
+En mode E, le modèle a pour consigne de lire d'abord `wiki/index.md`, puis les pages utiles, et de ne chercher dans les sources que si le wiki ne suffit pas. Il garde aussi les outils de l'atelier 4. Comme dans les autres ateliers, la jauge montre combien de jetons (des morceaux de mots) le modèle a lus, et la fenêtre de contexte est le maximum qu'il peut contenir.
 
 **Idée clé** : le travail est fait une fois, avant la question. Chaque fait garde son chemin vers une source. Et quand deux sources ne concordent pas, le wiki garde les deux.
 
@@ -445,7 +445,7 @@ Surveiller quatre moments :
 
 Sans sauvegarde, Bénévent n'entre que dans `corpus/`, sans résumé ni signature : le binôme fait entrer le document officiel. L'indication affichée par `wiki-graph` parle de `summaries/` : le binôme suit la page de l'atelier, pas l'indication. Si `openwebui start` n'est pas terminé à la fin de la partie 2, ouvrir un troisième terminal pour `replay E`.
 
-À raconter, sans projeter : lors de nos essais, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions, et une personne décide. La page imprime les deux dates (encadré « Vérifier la contradiction trouvée ») comme deux périodes différentes : le 15 octobre pour les activités de la campagne, le 30 septembre pour le grand danger. Laisser les binômes lire les deux phrases et décider. Rappeler à la salle qu'aucune de ces deux dates n'est la réponse à la question 11 (du 6 juillet au 27 septembre 2026).
+À raconter, sans projeter : lors de nos essais, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions, et une personne décide. La page présente les deux dates (encadré « Vérifier la contradiction trouvée ») comme deux périodes différentes : le 15 octobre pour les activités de la campagne, le 30 septembre pour le grand danger. Laisser les binômes lire les deux phrases et décider. Rappeler à la salle qu'aucune de ces deux dates n'est la réponse à la question 11 (du 6 juillet au 27 septembre 2026).
 
 :::
 
@@ -484,7 +484,7 @@ La skill `lint` passe en revue **toutes** les pages, retourne à leurs sources, 
 
 Le lint est lui aussi un modèle. Il peut manquer un problème, et il peut en signaler un qui n'existe pas. Son rapport est donc une liste de choses à vérifier.
 
-**Idée clé** : un wiki dérive, un peu à chaque changement. Le lint signale, la personne décide. Avant qu'un wiki ne devienne les connaissances d'un chatbot que d'autres personnes utilisent, lancer le lint et lire son rapport : sans lui, personne ne compare les pages à leurs sources, et une erreur dans une page devient une réponse donnée à un groupe. Le lint tient lieu de signature sur chaque page, mais c'est lui aussi un modèle : le dernier mot reste à une personne.
+**Idée clé** : un wiki dérive, un peu à chaque changement. Le lint signale, la personne décide. Avant qu'un wiki ne devienne les connaissances d'un chatbot que d'autres personnes utilisent, lancer le lint et lire son rapport : sans lui, personne ne compare les pages à leurs sources, et une erreur dans une page devient une réponse donnée à un groupe. Le lint tient lieu de signature sur chaque page, mais il reste un modèle : le dernier mot revient à une personne.
 
 ### Étape 1 : Demander le lint
 
@@ -525,7 +525,7 @@ Le binôme sait citer une remarque du rapport, et ce qu'il a décidé à son suj
 
 :::info[Notes pour l'animateur·rice]
 
-- Le rapport varie d'un essai à l'autre, et tous les binômes n'auront pas le même. Certaines lacunes du wiki préparé y ont été **laissées exprès** comme matière pour le lint. Les remarques cosmétiques (la ligne `generated.by`, les titres de l'index) sont un bon exemple de ce que l'on peut refuser. Une proposition qui demande de lire d'autres sources, que le lint dit lui-même ne pas avoir lues, est honnête, et c'est une raison de ne pas faire confiance à un rapport propre.
+- Le rapport varie d'un essai à l'autre, et tous les binômes n'auront pas le même. Certaines lacunes du wiki préparé y ont été laissées exprès comme matière pour le lint. Les remarques cosmétiques (la ligne `generated.by`, les titres de l'index) sont un bon exemple de ce que l'on peut refuser. Une proposition qui demande de lire d'autres sources, que le lint dit lui-même ne pas avoir lues, est honnête, et c'est une raison de ne pas faire confiance à un rapport propre.
 - **Le lint est trop long, ou un binôme est bloqué** : l'arrêter, projeter seulement la section `Proposals` de votre propre rapport (ou de celui rangé avec la fiche animateur·rice), et laisser le binôme choisir dedans.
 - **Un binôme n'obtient pas `Skill(ingest)` ou `Skill(lint)`** : vérifier que `.claude/skills/ingest/` et `lint/` existent, quitter et relancer `workshop E`, demander avec les mots exacts de la page.
 - **Ne jamais projeter** le haut du rapport de lint, qui liste les contradictions déjà relevées : il donne des réponses du jeu de test.
@@ -751,7 +751,7 @@ Toute cette série posait une seule question : **qu'est-ce qui entre dans le con
 | 4       | la réponse d'un outil                | quand le modèle l'appelle      | le modèle ; vous avez autorisé l'outil   |
 | 5       | des pages écrites à l'avance         | pas à pas                      | le modèle écrit, une personne décide     |
 
-**Idée clé** : quel que soit l'outil, la même question s'applique : qu'est-ce qui entre dans le contexte, quand, et qui décide ?
+**Idée clé** : la question de la série se pose avec n'importe quel outil.
 
 Deux autres options figurent sur les diapositives :
 
@@ -779,7 +779,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
    In the file, the … links between wiki pages name their files (wiki__…): a chatbot tool finds a page by that name. Your wiki/ folder is not changed.
    ```
 
-2. Clic droit sur le fichier `.zip`, puis **Download...**. Il contient la case _Instructions_ (le fichier `AGENTS.md`), la case _Knowledge_ (résumés, pages du wiki avec leur carte `wiki__index.md`, copies lisibles des documents), les skills écrites par le binôme à l'atelier 3 (pas celles du kit), et un `README.md` qui explique comment reconstruire le chatbot. L'outil en direct de l'atelier 4 **n'y est pas** : c'est un programme, pas un document. Dans un autre outil, il faut le remettre en place : dans un Codespace du guide Open WebUI, l'animateur·rice le coche dans le chatbot, et il lit le fichier que l'animateur·rice remplit le jour même (étape _Step 5 - Add the live tool_ du guide anglais, depuis la version 2026.11.8 de l'image du Codespace ; voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Deux fichiers de `wiki/` restent aussi dehors : `log.md`, l'historique du wiki (avec les contradictions trouvées par `ingest` et `lint`), et `AGENTS.md`, les règles du modèle qui écrit le wiki. Ils servent à la personne qui tient le wiki, pas aux réponses du chatbot : les garder dans `my-work.zip`.
+2. Clic droit sur le fichier `.zip`, puis **Download...**. Il contient la case _Instructions_ (le fichier `AGENTS.md`), la case _Knowledge_ (résumés, pages du wiki avec leur carte `wiki__index.md`, copies lisibles des documents), les skills écrites par le binôme à l'atelier 3 (pas celles du kit), et un `README.md` qui explique comment reconstruire le chatbot. L'outil en direct de l'atelier 4 n'y est pas : c'est un programme, pas un document. Dans un autre outil, il faut le remettre en place : dans un Codespace du guide Open WebUI, l'animateur·rice le coche dans le chatbot, et il lit le fichier que l'animateur·rice remplit le jour même (étape _Step 5 - Add the live tool_ du guide anglais, depuis la version 2026.11.8 de l'image du Codespace ; voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Deux fichiers de `wiki/` restent aussi dehors : `log.md`, l'historique du wiki (avec les contradictions trouvées par `ingest` et `lint`), et `AGENTS.md`, les règles du modèle qui écrit le wiki. Ils servent à la personne qui tient le wiki, pas aux réponses du chatbot : les garder dans `my-work.zip`.
 
 ### Étape 5 : Le montrer dans Open WebUI
 
@@ -807,7 +807,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
 
 :::info[Ne jamais rendre le port 3000 public]
 
-**Ne jamais rendre public le port 3000** pour le partager. Pour un groupe, voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) : tester avant d'ouvrir, les données des participant·es, puis l'ouvrir à son groupe.
+Pour partager le chatbot avec un groupe, voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui) : tester avant d'ouvrir, les données des participant·es, puis l'ouvrir à son groupe.
 
 :::
 
@@ -850,7 +850,7 @@ On repart avec le paquet du chatbot et `my-work.zip`, et chaque pièce a sa plac
 | Le wiki                                                   | la case _Knowledge_, après un lint et la lecture de son rapport par une personne                                                                                                                                                                                                                                                                                                                                          |
 | `test-questions.md` et `replay`                           | toujours : les mêmes questions avant et après chaque changement                                                                                                                                                                                                                                                                                                                                                           |
 
-Pour reconstruire son chatbot, le chemin le plus court est **Open WebUI** : dans un Codespace du guide Open WebUI (pas celui-ci, où la commande est inconnue), `openwebui import` prend le fichier produit par `chatbot-export` (voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Un projet Claude a les deux mêmes cases, tout comme un Gem de Gemini. Mais Google fait passer les Gems en lecture seule sur les comptes personnels le 17 novembre 2026 et les supprime le 17 décembre 2026, et claude.ai est réservé aux adultes (18 ans et plus) : lire les règles d'un outil avant de prévoir une séance avec des jeunes. Flowise et Langflow relient des blocs sur un canevas ; LangChain, LlamaIndex et le Claude Agent SDK s'utilisent en écrivant du code. Pour garder les pièces dans un dossier à soi : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+Pour reconstruire son chatbot, le chemin le plus court est Open WebUI : dans un Codespace du guide Open WebUI (pas celui-ci, où la commande est inconnue), `openwebui import` prend le fichier produit par `chatbot-export` (voir la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui)). Un projet Claude a les deux mêmes cases, tout comme un Gem de Gemini. Mais Google fait passer les Gems en lecture seule sur les comptes personnels le 17 novembre 2026 et les supprime le 17 décembre 2026, et claude.ai est réservé aux adultes (18 ans et plus) : lire les règles d'un outil avant de prévoir une séance avec des jeunes. Flowise et Langflow relient des blocs sur un canevas ; LangChain, LlamaIndex et le Claude Agent SDK s'utilisent en écrivant du code. Pour garder les pièces dans un dossier à soi : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::info[Important]
 

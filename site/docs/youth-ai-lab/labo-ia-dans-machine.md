@@ -45,7 +45,7 @@ sidebar_position: 4
 
 ## Thèmes d'exploration
 
-- **Apprentissage supervisé** : comment l'IA apprend à partir d'exemples avec du feedback
+- **Apprentissage supervisé** : comment l'IA apprend à partir d'exemples accompagnés de retours
 - **Prédiction textuelle** : comment l'IA générative prédit le mot suivant
 - **Reconnaissance de motifs** : comment l'IA identifie des régularités dans les données
 
@@ -133,13 +133,13 @@ En groupes, les participant·es créent des histoires avec l'IA en utilisant des
 
 ## Productions attendues
 
-À la fin de cette activité, les participant·es auront construit une **carte mentale collective** capturant leur compréhension du fonctionnement de l'IA générative. Grâce à la comparaison pratique entre leur propre raisonnement et le comportement de l'IA, ils saisiront trois concepts clés : **reconnaissance de motifs**, **prédiction basée sur les probabilités** et **génération suivant le contexte**.
+À la fin de cette activité, les participant·es auront construit une **carte mentale collective** qui résume ce qu'ils ont compris du fonctionnement de l'IA générative. Grâce à la comparaison pratique entre leur propre raisonnement et le comportement de l'IA, ils saisiront trois concepts clés : **reconnaissance de motifs**, **prédiction fondée sur les probabilités** et **génération suivant le contexte**.
 
 ---
 
 ## L'accroche et le côté ludique
 
-Le format compétitif **« Humains contre Machine »** crée un engagement immédiat. Les participant·es affrontent l'IA en temps réel, rient des prompts absurdes et découvrent des comportements surprenants de l'IA à travers la narration créative.
+Avec le format compétitif **« Humains contre Machine »**, les participant·es affrontent l'IA en temps réel. Ils rient des prompts absurdes et découvrent des comportements surprenants de l'IA en écrivant des histoires avec elle.
 
 ---
 

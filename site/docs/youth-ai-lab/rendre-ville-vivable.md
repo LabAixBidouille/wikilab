@@ -67,7 +67,7 @@ Trois cibles servent de point d'entrée :
 
 **Activité : la carte de l'accessibilité (20 minutes).** Les participant·es travaillent en binômes, identifient un obstacle dans leur propre commune (absence de pistes cyclables, zone de forte pollution) et proposent une solution numérique.
 
-**Clarification fondamentale** : une ville n'est pas seulement un ensemble de bâtiments, c'est un système vivant qui a besoin de données pour rester en bonne santé.
+**Clarification fondamentale** : une ville est plus qu'un ensemble de bâtiments : c'est un système vivant qui a besoin de données pour rester en bonne santé.
 
 ---
 
@@ -75,7 +75,7 @@ Trois cibles servent de point d'entrée :
 
 **Question clé** : _Comment un robot « ressent-il » son environnement pour aider les habitant·es les plus fragiles ?_
 
-**Cadre technique** : introduire la notion de **capteur d'environnement**. Là où l'être humain dispose de cinq sens, un robot utilise des modules électroniques pour recueillir des données objectives sur les cibles de l'Objectif 11.
+**Cadre technique** : introduire la notion de **capteur d'environnement**. Là où l'être humain a cinq sens, un robot utilise des modules électroniques pour recueillir des données objectives sur les cibles de l'Objectif 11.
 
 L'ensemble de capteurs :
 
@@ -100,24 +100,24 @@ L'ensemble de capteurs :
 **Discussion** : observer la matrice de confusion. Où l'IA s'est-elle trompée ? A-t-elle pris un parc bruyant pour un chantier ? Pourquoi la **confiance**, c'est-à-dire la probabilité en pourcentage, compte-t-elle autant que la réponse finale ?
 
 :::info[Notes pour l'animateur·rice]
-La matrice de confusion est l'outil qui transforme un « ça marche » vague en une lecture précise des erreurs. Prendre le temps de la lire ensemble, ligne par ligne : elle dit non seulement combien de fois le modèle s'est trompé, mais surtout **dans quel sens** il s'est trompé, ce qui n'a pas les mêmes conséquences selon qu'on déclare vivable un lieu qui ne l'est pas, ou l'inverse.
+La matrice de confusion est l'outil qui transforme un « ça marche » vague en une lecture précise des erreurs. Prendre le temps de la lire ensemble, ligne par ligne : elle dit combien de fois le modèle s'est trompé, et surtout **dans quel sens**, ce qui n'a pas les mêmes conséquences selon qu'on déclare vivable un lieu qui ne l'est pas, ou l'inverse.
 :::
 
 ---
 
 ## Productions attendues
 
-- **Une proposition d'audit de la ville** : l'identification documentée d'un obstacle urbain local (manque d'accessibilité, pollution élevée), associée à une intervention numérique envisagée
+- **Une proposition d'audit de la ville** : un obstacle urbain local repéré et documenté (manque d'accessibilité, pollution élevée), avec la solution numérique que le binôme propose
 - **Une littératie des données** : la capacité à traduire des phénomènes physiques (chaleur, bruit, pollution) en valeurs numériques qu'une machine peut interpréter
 - **Une pensée systémique** : comprendre comment la cible 11.2 sur les transports et la cible 11.6 sur l'environnement sont liées, par exemple comment de meilleures données de transport public réduisent les émissions par habitant
-- **Un sentiment de pouvoir d'agir** : passer de l'accablement devant les problèmes urbains à la réalisation qu'il est possible de les mesurer, de les analyser et de proposer des solutions avec de la logique et des capteurs
+- **Un sentiment de pouvoir d'agir** : passer de l'accablement devant les problèmes urbains au constat qu'on peut les mesurer, les analyser et proposer des solutions avec de la logique et des capteurs
 
 ---
 
 ## L'accroche et le côté ludique
 
-- **Se sentir concerné et propriétaire du sujet** : en auditant leur propre ville ou leur propre lieu de vie, le projet cesse d'être un exercice de manuel pour devenir une mission. Le groupe ne se contente plus de suivre une activité : il endosse un rôle, « concepteur et conceptrice d'espace urbain » ou « militant·e du numérique », face à des problèmes réels et vus tous les jours.
-- **La perspective cyborg** : au lieu de lire un texte sur la pollution, les participant·es donnent des sens à un robot. Voir un écran réagir instantanément à un claquement de mains (microphone) ou à un souffle (capteur de CO2) transforme une science abstraite en un jeu tangible et interactif.
+- **Se sentir concerné et s'approprier le sujet** : en auditant leur propre ville ou leur propre lieu de vie, les participant·es endossent un rôle, « concepteur et conceptrice d'espace urbain » ou « militant·e du numérique », face à des problèmes réels et vus tous les jours.
+- **La perspective cyborg** : les participant·es donnent des sens à un robot. Voir un écran réagir instantanément à un claquement de mains (microphone) ou à un souffle (capteur de CO2) fait d'une science abstraite un jeu concret et interactif.
 
 ---
 
@@ -126,7 +126,7 @@ La matrice de confusion est l'outil qui transforme un « ça marche » vague en 
 **1. Le passage de la donnée à l'action**
 
 - **Indicateur** : pendant le temps en salle, les participant·es savent-ils expliquer pourquoi la température ou la qualité de l'air comptent pour un public fragile précis ?
-- **Preuve** : un·e participant·e qui dit « le capteur montre qu'il fait trop chaud ici, ce serait un îlot de chaleur dangereux pour une personne âgée au sens de l'Objectif 11 » démontre une synthèse réussie entre technique et éthique.
+- **Preuve** : un·e participant·e qui dit « le capteur montre qu'il fait trop chaud ici, ce serait un îlot de chaleur dangereux pour une personne âgée au sens de l'Objectif 11 » fait le lien entre technique et éthique.
 
 **2. L'autonomie technique**
 

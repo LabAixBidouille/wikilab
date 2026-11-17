@@ -69,7 +69,7 @@ Après la question d'ouverture, chaque groupe trie les cartes « situations du q
 - **Parfois de l'IA**
 - **Sûrement pas de l'IA**
 
-Une discussion en grand groupe compare les réponses et construit une première définition de travail : il y a IA quand un système **utilise des données pour reconnaître des régularités** et **faire des prédictions ou prendre des décisions**.
+Une discussion en grand groupe compare les réponses et construit une première définition de travail : il y a IA quand un système utilise des données pour reconnaître des régularités et faire des prédictions ou prendre des décisions.
 
 :::info[Notes pour l'animateur·rice]
 Les désaccords entre groupes sont la matière première de l'étape. Un feu tricolore à minuterie fixe et un feu tricolore qui adapte ses cycles au trafic mesuré se ressemblent de l'extérieur : c'est en cherchant ce qui les distingue que les jeunes formulent eux-mêmes le critère « données + apprentissage ».
@@ -110,7 +110,7 @@ Chaque groupe entraîne un modèle sur quelques cartes d'exemple, puis le met à
 - en changeant l'angle de présentation
 - en changeant la distance à la caméra
 
-Les prédictions sont consignées dans un tableau au fur et à mesure. Deux constats émergent : la machine **classe sans connaître la règle**, et le résultat **dépend fortement des exemples fournis**.
+Le groupe consigne les prédictions dans un tableau au fur et à mesure. Deux constats émergent : la machine classe sans connaître la règle, et le résultat dépend fortement des exemples fournis.
 
 ---
 
@@ -122,7 +122,7 @@ Chaque groupe écrit sur une carte de clôture :
 - **une preuve** tirée de ce qui a été observé
 - **une question ouverte** qui reste en suspens
 
-La mise en commun relie la séance au projet de l'année : un robot qui répond à un défi lié aux Objectifs de développement durable doit d'abord savoir **reconnaître, classer et décider**.
+La mise en commun relie la séance au projet de l'année : un robot qui répond à un défi lié aux Objectifs de développement durable doit d'abord savoir reconnaître, classer et décider.
 
 ---
 
@@ -130,21 +130,19 @@ La mise en commun relie la séance au projet de l'année : un robot qui répond 
 
 À l'issue de l'exploration, les jeunes savent :
 
-- distinguer une **automatisation** d'une **intelligence artificielle**
-- classer **à partir d'exemples** plutôt qu'à partir de règles fixes
-- **entraîner un modèle simple** et le mettre en défaut
-- constater que les résultats **dépendent des données d'entraînement**
+- distinguer une automatisation d'une intelligence artificielle
+- classer à partir d'exemples plutôt qu'à partir de règles fixes
+- entraîner un modèle simple et le mettre en défaut
+- constater que les résultats dépendent des données d'entraînement
 - employer à bon escient les mots **modèle**, **prédiction**, **erreur** et **biais**
-
-Ce sont leurs premiers outils pour le projet final.
 
 ---
 
 ## L'accroche et le côté ludique
 
-- Jouer les **détectives** pour percer une règle secrète que personne n'a le droit d'énoncer
-- Entraîner une machine, puis la **prendre en flagrant délit** d'erreur assurée
-- Découvrir que le problème n'est pas seulement technique, mais aussi **social et éthique**
+- Jouer les détectives pour percer une règle secrète que personne n'a le droit d'énoncer
+- Entraîner une machine, puis la prendre en flagrant délit d'erreur assurée
+- Découvrir que le problème est à la fois technique, social et éthique
 
 ---
 
@@ -152,10 +150,10 @@ Ce sont leurs premiers outils pour le projet final.
 
 Les jeunes :
 
-- décrivent l'IA comme un **système entraîné sur des données**, et non comme une technologie automatique ou intelligente en soi
-- énoncent la différence entre une **règle explicite** et un **modèle entraîné sur des exemples**
-- **anticipent les erreurs** à partir des données et abandonnent l'idée d'une boîte magique infaillible
-- soulèvent des questions de **responsabilité, de qualité des données et d'équité**
+- décrivent l'IA comme un système entraîné sur des données, et non comme une technologie automatique ou intelligente en soi
+- énoncent la différence entre une règle explicite et un modèle entraîné sur des exemples
+- anticipent les erreurs à partir des données et abandonnent l'idée d'une boîte magique infaillible
+- soulèvent des questions de responsabilité, de qualité des données et d'équité
 
 ---
 

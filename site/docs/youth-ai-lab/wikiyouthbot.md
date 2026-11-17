@@ -78,9 +78,9 @@ La session a été pensée pour un format intensif de 5 demi-journées, mais ell
 
 ## Déroulé de l'exploration
 
-Cette session intensive est construite autour de la **construction progressive d'un chatbot sur mesure**, en groupes, ancré dans une cause locale reliée aux Objectifs de développement durable.
+Pendant cette session intensive, chaque groupe construit pas à pas un **chatbot sur mesure**, ancré dans une cause locale reliée aux Objectifs de développement durable.
 
-Au départ, chaque groupe reçoit un projet d'IA générique, qui répond comme n'importe quel modèle standard. Étape après étape, ce que les jeunes apprennent et produisent alimente les instructions et la base de connaissances du chatbot, jusqu'à ce que l'IA porte la cause, la voix et le territoire du groupe. Le travail pédagogique et la spécialisation du chatbot avancent ensemble : à la fin de la session, chaque groupe a construit à la fois une posture d'éducation aux médias et une IA qui reflète son quartier.
+Au départ, chaque groupe reçoit un projet d'IA générique, qui répond comme n'importe quel modèle standard. Étape après étape, ce que les jeunes apprennent et produisent alimente les instructions et la base de connaissances du chatbot, jusqu'à ce que l'IA porte la cause, la voix et le territoire du groupe. Le travail pédagogique et la spécialisation du chatbot avancent ensemble : à la fin de la session, chaque groupe a construit une posture d'éducation aux médias et une IA qui reflète son quartier.
 
 En amont et au fil de la session, l'équipe d'animation s'appuie sur le **kit de configuration du chatbot** décrit plus bas, qui couvre à la fois la mise en place initiale des projets d'IA neutres et un catalogue de blocs d'enrichissement à ajouter au fil des étapes.
 
@@ -157,13 +157,13 @@ Ce que la conférence révèle des limites du chatbot est transformé en **exige
 
 ### Étape 3 : La boîte à données
 
-À la suite de la conférence de presse, une chose devient visible : **le chatbot manque de matière locale**.
+Après la conférence de presse, il apparaît que le chatbot manque de matière locale.
 
 Chaque groupe part en **enquête de terrain** dans son quartier : photos, observations, mini-entretiens et mesures simples. Il complète ensuite par une recherche documentaire sur des sources fiables.
 
 La matière collectée est triée dans une **boîte d'archive physique**, organisée en catégories de couleur : acteurs, chiffres, citations, photos, questions-réponses. Elle est ensuite versée dans le projet d'IA.
 
-Les jeunes font l'expérience directe qu'un **jeu de données n'est pas qu'une affaire de chiffres** : c'est une connaissance locale structurée, qui comble les trous d'une IA générique. Le chatbot a désormais un sujet, des règles et une base de connaissances territoriale qui lui appartient.
+Les jeunes constatent ainsi qu'un **jeu de données** n'est pas qu'une affaire de chiffres : c'est une connaissance locale structurée, qui comble les trous d'une IA générique. Le chatbot a désormais un sujet, des règles et une base de connaissances territoriale qui lui appartient.
 
 ---
 
@@ -175,14 +175,14 @@ Le chatbot sait beaucoup de choses, mais il parle encore comme tout le monde. Ch
 - **2 à 3 personas** d'utilisateurs, à l'aide du gabarit de carte persona
 - une **mascotte**
 
-Le chatbot a maintenant une voix, un visage et un public cible. De courts cycles de test et d'ajustement le confrontent à des questions préparées et à des questions surprises, ce qui entraîne les jeunes à **déboguer le comportement d'une IA** plutôt qu'à accepter sa première réponse.
+De courts cycles de test et d'ajustement confrontent ensuite le chatbot à des questions préparées et à des questions surprises, ce qui entraîne les jeunes à **déboguer le comportement d'une IA** plutôt qu'à accepter sa première réponse.
 
-Le résultat est un chatbot pleinement identifié, stable sur sa cause, prêt à être exposé à des personnes extérieures au laboratoire.
+À la fin de l'étape, le chatbot est stable sur sa cause et prêt à être exposé à des personnes extérieures au laboratoire.
 
 :::info[Qu'est-ce qu'un persona, et pourquoi en écrire un ?]
 Un persona est un personnage imaginé qui représente un type d'utilisateur d'un produit ou d'un service. C'est un outil issu du marketing et du design d'expérience, utilisé pour anticiper qui va se servir de ce que l'on construit, et comment.
 
-Définir des personas oblige à poser une question simple et souvent évitée : qui sont réellement nos utilisateurs, et qu'attendent-ils ? On ne s'adresse pas de la même façon à une voisine du quartier, à une experte ou à un lycéen engagé. Sans persona, on conçoit pour soi-même, ou pour une moyenne floue qui ne correspond à personne. Avec un persona, chaque choix de conception devient un choix conscient : on adapte le ton, le format, la longueur et le niveau de jargon à un profil précis.
+Définir des personas oblige à poser une question simple et souvent évitée : qui sont réellement nos utilisateurs, et qu'attendent-ils ? On ne s'adresse pas de la même façon à une voisine du quartier, à une experte ou à un lycéen engagé. Sans persona, on conçoit pour soi-même, ou pour une moyenne floue qui ne correspond à personne. Avec un persona, on adapte le ton, le format, la longueur et le niveau de jargon à un profil précis.
 
 Un persona n'est pas un personnage de fiction au sens littéraire : il n'a pas vocation à émouvoir ou à surprendre, mais à incarner un cas d'usage type. Il est volontairement simplifié pour rester utilisable. Une bonne carte persona tient en quelques jauges chiffrées et un court paragraphe de biographie, pas en chapitres entiers.
 
@@ -239,7 +239,7 @@ Chaque étape peut être jouée seule, pour une intervention courte.
 
 ## L'accroche et le côté ludique
 
-Les jeunes ne théorisent pas sur l'IA. **Ils en construisent une.** Ils affrontent un chatbot générique au départ et le regardent devenir le leur, brique par brique. Chaque étape est un palier où le chatbot gagne une capacité nouvelle, comme un personnage de jeu vidéo qui monte de niveau.
+Les jeunes construisent une IA : ils affrontent un chatbot générique au départ et le regardent devenir le leur, brique par brique. Chaque étape est un palier où le chatbot gagne une capacité nouvelle, comme un personnage de jeu vidéo qui monte de niveau.
 
 Ils confrontent les hallucinations d'une IA lors d'une conférence de presse journalistique, vérifient des rumeurs comme des détectives, et explorent leur quartier pour collecter de vraies preuves. La semaine se termine par une **confrontation publique** de leur création.
 
@@ -457,7 +457,7 @@ Les blocs d'enrichissement, à ajouter au fil des étapes :
 
 ## Le tableau kanban de progression
 
-Outil d'animation transversal, affiché au mur pendant toute la session, il donne un suivi visuel de l'avancement de l'ensemble des équipes.
+Affiché au mur pendant toute la session, le kanban sert d'outil d'animation et montre l'avancement de toutes les équipes.
 
 Le bingo reste une étape collective de lancement et n'est pas suivi sur le kanban : celui-ci démarre à l'étape 1, une fois les groupes formés. Chaque groupe voit où il en est, et l'équipe d'animation repère d'un coup d'oeil les groupes en retard.
 

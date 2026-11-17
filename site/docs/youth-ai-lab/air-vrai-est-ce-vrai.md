@@ -44,9 +44,9 @@ sidebar_position: 2
 ## Thèmes d'exploration
 
 - Définir l'**IA générative** avec ses propres mots, en s'appuyant sur des exemples et des limites
-- Expliquer que l'IA générative **prédit et produit** du texte/des images/etc. à partir de **modèles statistiques**, et non d'une « connaissance de la vérité »
-- Appliquer des **vérifications éthiques** : exactitude, biais/équité, vie privée, transparence et intégrité académique
-- Identifier au moins 3 **usages inclusifs** (accessibilité, soutien linguistique, aide à l'apprentissage) et au moins 3 **risques**
+- Expliquer que l'IA générative prédit et produit du texte/des images/etc. à partir de modèles statistiques, et non d'une « connaissance de la vérité »
+- Appliquer des vérifications éthiques : exactitude, biais/équité, vie privée, transparence et intégrité académique
+- Identifier au moins 3 usages inclusifs (accessibilité, soutien linguistique, aide à l'apprentissage) et au moins 3 risques
 
 ---
 
@@ -54,7 +54,7 @@ sidebar_position: 2
 
 ### Partie 1 : Juste, faux ou risqué ?
 
-**Objectif** : Amener les participant·es à remarquer que du contenu académique généré par l'IA peut sembler convaincant tout en étant incorrect, incomplet ou injuste.
+**Objectif** : Amener les participant·es à remarquer que du contenu scolaire généré par l'IA peut sembler convaincant tout en étant incorrect, incomplet ou injuste.
 
 Les participant·es reçoivent trois productions courtes sur un sujet censé leur être déjà familier :
 
@@ -68,7 +68,7 @@ Les participant·es classent chaque production comme **Juste / Faux / Risqué** 
 
 ### Partie 2 : Interroger l'IA sur une tâche à réponse connue
 
-**Objectif** : Aider les participant·es à découvrir que l'IA générative prédit et produit du contenu basé sur des **modèles statistiques**, plutôt que sur une « connaissance de la vérité ». Les participant·es apprennent aussi que l'IA peut fournir des citations vagues ou peu fiables.
+**Objectif** : Aider les participant·es à découvrir que l'IA générative prédit et produit du contenu à partir de modèles statistiques, plutôt que d'une « connaissance de la vérité ». Les participant·es apprennent aussi que l'IA peut fournir des citations vagues ou peu fiables.
 
 Choisir une tâche « facile » que les participant·es ont déjà réalisée sans IA (problème de maths, courte explication scientifique, paragraphe d'histoire, correction grammaticale) avec des critères de réussite clairs.
 
@@ -91,7 +91,7 @@ Les participant·es comparent la production de l'IA avec leur propre travail : q
 
 ### Partie 3 : La tâche à réponse inconnue
 
-**Objectif** : Tester et affiner les critères des participant·es dans une situation plus authentique, comment l'IA est réellement utilisée au quotidien, pour passer de « l'IA comme expert » à « l'IA comme partenaire de réflexion ».
+**Objectif** : Tester et affiner les critères des participant·es dans une situation plus proche de l'usage réel de l'IA au quotidien, pour passer de « l'IA comme expert » à « l'IA comme partenaire de réflexion ».
 
 Les participant·es choisissent une question adaptée à leur âge, dont la réponse leur est encore inconnue. D'abord, elles et ils interrogent l'IA comme elles et ils le feraient habituellement. Puis le groupe évalue la production en utilisant leur décalogue d'évaluation (identifier les affirmations, les faiblesses possibles, les risques de biais, le contexte manquant). Discuter du rôle que les participant·es attribuent souvent à l'IA (un « expert ayant la bonne réponse ») et pourquoi cela mène à des suppositions ou à une confiance excessive.
 
@@ -107,7 +107,7 @@ Les groupes comparent et fusionnent leurs décalogues pour aboutir à un accord 
 
 - **Limites/risques** : hallucinations, biais, vie privée, dépendance excessive, sources floues
 - **Usages positifs/inclusifs** : aides à l'accessibilité, étayage linguistique, brainstorming, soutien structuré de tutorat
-- **Usage académique éthique** : ce qui peut être assisté par l'IA vs. ce que les participant·es doivent faire par elles et eux-mêmes (comprendre, citer, réfléchir, produire un raisonnement original)
+- **Usage scolaire éthique** : ce qui peut être assisté par l'IA et ce que les participant·es doivent faire par elles et eux-mêmes (comprendre, citer, réfléchir, produire un raisonnement original)
 
 **Production finale** : accords généraux sur les règles de prompting + les règles d'évaluation.
 
@@ -122,7 +122,7 @@ Les groupes comparent et fusionnent leurs décalogues pour aboutir à un accord 
 
 ## L'accroche et le côté ludique
 
-Cette activité est amusante car elle peut être mise en place comme un **jeu de détective** et inclut une expérience directe avec l'IA. De plus, les participant·es sont mis·es au défi d'améliorer l'utilisation d'un outil déjà familier, et l'activité se termine par un **produit réel** que le groupe a aidé à créer, et qu'il peut réutiliser au quotidien.
+Cette activité est amusante car elle peut se mener comme un jeu de détective et inclut une expérience directe avec l'IA. De plus, les participant·es sont mis·es au défi d'améliorer l'utilisation d'un outil déjà familier, et l'activité se termine par un produit réel que le groupe a aidé à créer, et qu'il peut réutiliser au quotidien.
 
 ---
 
