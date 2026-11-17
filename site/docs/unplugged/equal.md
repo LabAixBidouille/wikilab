@@ -74,7 +74,7 @@ Chaque carte-métier étudiée à ses spécificités géographiques. Qu'elles so
 
 ### Thème 3 - Sciences
 
-Les cartes-métiers ont été sélectionnées pour faire découvrir aux élèves les différences entre les domaines scientifiques, comme la biologie, la chimie et la médecine.
+Les enfants découvrent les différences entre les domaines scientifiques, comme la biologie, la chimie et la médecine, grâce à des cartes-métiers sélectionnées dans ce but.
 
 ### Thème 4 - Sports
 

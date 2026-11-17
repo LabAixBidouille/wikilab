@@ -60,7 +60,7 @@ Lorsque vous programmez, vous devez être très clair dans les instructions que 
 
 ### Géométrie et mathématiques
 
-Ce jeu consiste à mettre les objets à leur place sur une table. Comme un ingénieur, vous devrez être très précis pour gagner. Vous devrez vous concentrer malgré le fait qu'il s'agisse d'une compétition et que vous jouiez avec vos camarades de classe. Le jeu Brain Twister améliore les références spatiales des enfants et leur capacité à reproduire une figure sur une table, deux compétences inscrites aux programmes scolaires.
+Ce jeu consiste à mettre les objets à leur place sur une table. Comme un ingénieur, vous devrez être très précis pour gagner. Vous devrez vous concentrer malgré le fait qu'il s'agisse d'une compétition et que vous jouiez avec vos camarades de classe. Le jeu Brain Twister améliore les références spatiales des enfants et leur capacité à reproduire une figure sur une table, comme le montrent les programmes scolaires.
 
 ### Expression orale
 

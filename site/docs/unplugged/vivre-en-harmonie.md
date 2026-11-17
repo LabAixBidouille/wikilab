@@ -62,7 +62,7 @@ Les enfants découvrent les multiples facettes du concept d'identité. Chacun a 
 
 ### Comprendre le concept et les défis de l'égalité
 
-Le second objectif de Live in Harmony est de faire explorer aux enfants les questions liées à l'égalité et à l'acceptation des autres. Les préjugés culturels et les stéréotypes sont encore un obstacle, même au sein de l'Union Européenne.
+Le second objectif de Live in Harmony est de permettre aux enfants d'explorer les questions liées à l'égalité et à l'acceptation des autres. Les préjugés culturels et les stéréotypes sont encore un obstacle, même au sein de l'Union Européenne.
 
 ---
 
