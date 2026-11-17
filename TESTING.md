@@ -19,6 +19,7 @@ Ce projet est principalement un **site de contenu** (Docusaurus). Il n'y a pas d
 | Liens cassés (externes)         | Cron hebdomadaire (lundi 8h UTC) | `links.yml` (Lychee + Playwright)   |
 | Vérification visuelle           | Avant PR                         | Navigateur sur `npm run site:start` |
 | Lint des liens croisés          | À chaque PR (CI `build.yml`)     | `npm run lint:crosslinks`           |
+| Images locales et signatures    | À chaque PR (CI `build.yml`)     | `npm run lint:assets`               |
 | Audit firmware STeaMi           | Cron hebdomadaire (lundi 9h UTC) | `firmware-audit.yml`                |
 | Déploiement Pages               | Auto sur push `main`             | `.github/workflows/deploy.yml`      |
 
@@ -127,8 +128,9 @@ Sur chaque push `main` et chaque pull request :
 3. `npm run lint:md` (markdownlint)
 4. `npm run lint:spell` (cspell)
 5. `npm run lint:crosslinks` (réciprocité Let's STEAM ↔ I-NOVMICRO)
-6. `npm run site:typecheck` (TypeScript)
-7. `npm run site:build` (Docusaurus)
+6. `npm run lint:assets` (images référencées présentes, extension conforme au contenu)
+7. `npm run site:typecheck` (TypeScript)
+8. `npm run site:build` (Docusaurus)
 
 **Si la CI échoue** : ne pas merger avant correction. Logs dans l'onglet Actions.
 
@@ -209,6 +211,23 @@ Le script [`site/scripts/lint-crosslinks.mjs`](site/scripts/lint-crosslinks.mjs)
 - détecte les liens cassés (cibles inexistantes).
 
 Lancé en CI via [`build.yml`](.github/workflows/build.yml) sur chaque PR. Sort en code 1 si désynchronisation, ce qui fait échouer la CI.
+
+### Images locales (`npm run lint:assets`)
+
+Le script [`site/scripts/check-local-assets.mjs`](site/scripts/check-local-assets.mjs) fait deux vérifications :
+
+- **références** : chaque image citée dans `site/docs` ou `site/src` (`<img src>`, `![](...)`, champs `image`, `thumbnail`, `icon` du catalogue) existe sous `site/static`. Le build Docusaurus ne vérifie pas les `<img src>` : sans ce script, une image renommée donne un 404 silencieux en production. Les cas connus et suivis dans une issue vont dans `KNOWN_MISSING` ;
+- **signatures** : chaque image du dépôt, suivie ou nouvelle (`git ls-files`, fichiers ignorés exclus), porte l'extension de son contenu (PNG, JPEG, GIF, WebP, AVIF, ICO, PDF, SVG). Un SVG doit avoir `svg` pour élément racine ; il peut être en UTF-8 ou en UTF-16. Un PNG enregistré en `.svg` est traité comme du texte par `.gitattributes` : git convertit le CRLF de sa signature et l'image se corrompt au prochain `git add` (#279).
+
+Lancé en CI via [`build.yml`](.github/workflows/build.yml) sur chaque PR. Sort en code 1 sur une référence cassée ou une signature non conforme.
+
+### Fins de ligne (`.gitattributes`)
+
+Le dépôt stocke et extrait tout fichier texte en LF (`* text=auto eol=lf`), quel que soit le réglage `core.autocrlf` du poste. Les formats binaires y sont déclarés avec des motifs insensibles à la casse (`*.[jJ][pP][gG]`). Pour un nouveau format binaire, l'ajouter à `.gitattributes` ; pour vérifier l'index :
+
+```bash
+git ls-files --eol | grep 'i/crlf'   # doit ne rien afficher
+```
 
 ### Workflow `firmware-audit.yml` (cron hebdomadaire, lundi 9h UTC)
 

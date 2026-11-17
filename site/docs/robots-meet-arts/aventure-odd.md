@@ -105,7 +105,7 @@ Imprimez ou projetez les pictogrammes des ODD (sans le texte, pour l'exercice de
 
 Commencez par afficher les pictogrammes des ODD pour offrir aux élèves une entrée visuelle dans ces enjeux. Montrez-leur les différentes icônes sans le texte et demandez-leur d'identifier, selon eux, quel défi de société est représenté par chaque ODD.
 
-<img src="/img/ressources/robots-meet-arts/aventure-odd/sutainable-building-lrg.webp" alt="Pictogrammes des ODD" style={{maxWidth: '100%', height: 'auto'}} />
+<img src="/img/ressources/robots-meet-arts/aventure-odd/sutainable-building-lrg.png" alt="Pictogrammes des ODD" style={{maxWidth: '100%', height: 'auto'}} />
 
 Une fois tous les ODD découverts grâce à leurs icônes, interrogez la classe pour trouver des situations de leur quotidien en lien avec chacun d'eux. Par exemple :
 
