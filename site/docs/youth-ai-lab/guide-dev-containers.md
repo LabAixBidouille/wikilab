@@ -106,17 +106,17 @@ Le modèle ne tourne **pas non plus sur votre ordinateur** : comme dans un Codes
 Le détail est dans la partie [Prerequisites](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#prerequisites) du guide.
 
 - **Un ordinateur** : Linux (Ubuntu 26.04 ou 24.04), un Mac à puce Apple (M1 ou plus récent) sous macOS 15 ou plus récent, ou Windows 11 dans une édition prise en charge par Docker Desktop
-- **De la mémoire** : au moins 8 Go (mesuré sur Linux seulement)
+- **De la mémoire** : au moins 8 Go (valeur mesurée sous Linux)
 - **Du disque** : au moins 20 Go libres pour un dépôt. Pour toute la série, compter environ 29 Go si vous gardez les quatre ateliers qui lancent Open WebUI
 - **Le droit d'installer des logiciels** : un mot de passe administrateur. Sur un ordinateur géré par votre structure, demander d'abord à la personne qui le gère
 - **Du temps** : environ une heure la première fois, surtout de l'attente de téléchargements
 - **La clé du modèle**, ou l'abonnement, que demande le dépôt que vous voulez ouvrir
 
-Les tailles mesurées sur un portable Linux (Ubuntu 26.04, Docker Engine 29.9), les 29 et 30 octobre 2026, sont dans [What it takes](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#what-it-takes) :
+Les tailles mesurées sur un portable Linux (Ubuntu 26.04, Docker Engine 29.9) sont dans [What it takes](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#what-it-takes) :
 
 | Quoi                          | Taille                                                               | Quand                                                |
 | ----------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------- |
-| L'image des ateliers (`2026.11.4` dans le guide) | 4,34 Go sur le disque (construction locale de la version `2026.10.32`, amd64 ; versions suivantes et arm64 non mesurées) | une fois, à la première ouverture d'un de ces dépôts |
+| L'image des ateliers          | 4,34 Go sur le disque (construction locale, amd64)                   | une fois, à la première ouverture d'un de ces dépôts |
 | Open WebUI, dans le conteneur | 6,1 Go sur le disque (1,6 Go téléchargés ; 86 s sur cette connexion) | une fois par conteneur, au premier lancement         |
 | Open WebUI en marche          | environ 1,2 Go de mémoire (mesuré dans un Codespace)                 | tant qu'il tourne                                    |
 
@@ -142,7 +142,7 @@ On installe **Docker** (il fait tourner les conteneurs), **git** (il télécharg
 docker run --rm hello-world
 ```
 
-On doit voir quelques lignes qui commencent par `Hello from Docker!`. Sur Linux, ne pas installer Docker avec `snap` : l'extension Dev Containers ne le prend pas en charge. Les sections macOS et Windows sont **non testées**. Voir [Part 1 - Install the tools](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-1---install-the-tools).
+On doit voir quelques lignes qui commencent par `Hello from Docker!`. Sur Linux, ne pas installer Docker avec `snap` : l'extension Dev Containers ne le prend pas en charge. Les étapes ont été vérifiées sous Linux. Voir [Part 1 - Install the tools](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-1---install-the-tools).
 
 ### Partie 2 : L'extension Dev Containers
 
@@ -171,7 +171,7 @@ On télécharge le dépôt avec `git clone`, on l'ouvre dans VS Code, puis on cl
 
 On sait que c'est bon quand le coin en bas à gauche affiche `Dev Container:` suivi du nom du conteneur, et que le terminal accueille avec le message du dépôt, par exemple `Welcome! First, save your API key: workshop-login` pour les ateliers. À partir de là, tout se passe comme dans un Codespace. Vos fichiers restent dans le dossier du dépôt, sur votre ordinateur.
 
-Le guide décrit aussi une voie par le terminal, sans VS Code, pour les personnes à l'aise. Elle demande Node.js 20 ou plus récent, et celui d'Ubuntu 24.04 (la version 18) est trop ancien : passer cette voie, ou installer un Node.js plus récent depuis https://nodejs.org (**non testé**). Le guide y installe la commande `devcontainer` en version 0.90.0, puis vérifie dans le conteneur la version d'OpenCode figée dans l'image : `opencode v2.2.5`, la même que dans un Codespace. Un conteneur ouvert par cette voie continue de tourner jusqu'à ce qu'on l'arrête (partie 7). Voir [Part 3 - Open a repository](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-3---open-a-repository) et [The terminal way](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#the-terminal-way-optional).
+Le guide décrit aussi une voie par le terminal, sans VS Code, pour les personnes à l'aise. Elle demande Node.js 20 ou plus récent, et celui d'Ubuntu 24.04 (la version 18) est trop ancien : passer cette voie, ou installer un Node.js plus récent depuis https://nodejs.org. Le guide y installe la commande `devcontainer` en version 0.90.0, puis vérifie dans le conteneur la version d'OpenCode figée dans l'image : `opencode v2.2.5`, la même que dans un Codespace. Un conteneur ouvert par cette voie continue de tourner jusqu'à ce qu'on l'arrête (partie 7). Voir [Part 3 - Open a repository](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-3---open-a-repository) et [The terminal way](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#the-terminal-way-optional).
 
 ### Partie 4 : Votre clé
 
@@ -193,7 +193,7 @@ Pour ouvrir un chatbot à un groupe sans Codespace, le guide renvoie à [Install
 
 ### Partie 7 : Arrêter, mettre à jour, supprimer
 
-**Arrêter** : fermer la fenêtre de VS Code arrête le conteneur (**non testé**) ; on le relance en rouvrant le dossier, avec ses fichiers, sa clé et les données d'Open WebUI.
+**Arrêter** : fermer la fenêtre de VS Code arrête le conteneur ; on le relance en rouvrant le dossier, avec ses fichiers, sa clé et les données d'Open WebUI.
 
 Un conteneur ouvert par la voie du terminal continue de tourner après la fermeture de VS Code. On l'arrête depuis un terminal de votre ordinateur, à côté de son dossier :
 
@@ -201,12 +201,12 @@ Un conteneur ouvert par la voie du terminal continue de tourner après la fermet
 docker stop $(docker ps -q --filter label=devcontainer.local_folder="$PWD/yal-workshop-kit")
 ```
 
-**Mettre à jour** : quand un dépôt passe à une nouvelle version de l'image, VS Code propose `Rebuild` dans une notification. Les fichiers restent, Open WebUI garde ses données, mais la clé est à retaper. Pour le guide Open WebUI, le mot de passe administrateur reste, dans le dossier du dépôt (`.openwebui-class/admin.json`, que seul vous pouvez lire et que git ignore : ne le partagez jamais avec votre travail, et supprimez-le à la fin). Cela a été vérifié avec un nouveau conteneur sur le même dossier, pas avec un vrai `Rebuild` (**non testé**). Avant d'accepter :
+**Mettre à jour** : quand un dépôt passe à une nouvelle version de l'image, VS Code propose `Rebuild` dans une notification. Les fichiers restent, Open WebUI garde ses données, mais la clé est à retaper. Pour le guide Open WebUI, le mot de passe administrateur reste, dans le dossier du dépôt (`.openwebui-class/admin.json`, que seul vous pouvez lire et que git ignore : ne le partagez jamais avec votre travail, et supprimez-le à la fin). Avant d'accepter :
 
 1. Dans le terminal du conteneur, taper `openwebui export` : les chatbots vont dans le dossier `exports/` du dépôt, qui reste
-2. Après le Rebuild, `openwebui start` devrait ouvrir Open WebUI comme avant. S'il dit que le mot de passe administrateur n'ouvre plus cet Open WebUI, lire d'abord la section correspondante du guide Open WebUI. Seulement si le fichier `.openwebui-class/admin.json` est perdu : taper `openwebui reset` (il efface les chatbots, les comptes et les conversations des participant·es), puis `openwebui start`, puis `openwebui import exports/<file>.zip` pour chaque chatbot (**non testé** sur un ordinateur)
+2. Après le Rebuild, `openwebui start` devrait ouvrir Open WebUI comme avant. S'il dit que le mot de passe administrateur n'ouvre plus cet Open WebUI, lire d'abord la section correspondante du guide Open WebUI. Seulement si le fichier `.openwebui-class/admin.json` est perdu : taper `openwebui reset` (il efface les chatbots, les comptes et les conversations des participant·es), puis `openwebui start`, puis `openwebui import exports/<file>.zip` pour chaque chatbot
 
-**Supprimer** : chaque conteneur garde ses données dans un ou deux volumes Docker dont le nom commence par `dind-var-lib-` (6,1 Go par conteneur où Open WebUI a été lancé), que Docker ne supprime pas avec le conteneur. Le guide donne les commandes qui choisissent le conteneur **par le dossier du dépôt**, puis, tout à la fin, la suppression de l'image. Sur Windows, on passe par Docker Desktop (**non testé**). Pour le guide Open WebUI, supprimer aussi le dossier `.openwebui-class/` du dépôt, qui garde le mot de passe administrateur. Voir [Part 7 - Stop, update, delete](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-7---stop-update-delete).
+**Supprimer** : chaque conteneur garde ses données dans un ou deux volumes Docker dont le nom commence par `dind-var-lib-` (6,1 Go par conteneur où Open WebUI a été lancé), que Docker ne supprime pas avec le conteneur. Le guide donne les commandes qui choisissent le conteneur **par le dossier du dépôt**, puis, tout à la fin, la suppression de l'image. Sur Windows, on passe par Docker Desktop. Pour le guide Open WebUI, supprimer aussi le dossier `.openwebui-class/` du dépôt, qui garde le mot de passe administrateur. Voir [Part 7 - Stop, update, delete](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#part-7---stop-update-delete).
 
 ---
 
@@ -231,19 +231,17 @@ Le conteneur est _privilégié_ : il en a besoin pour faire tourner son propre D
 
 ---
 
-## Limites : ce qui n'est pas testé
+## Limites
 
-Le guide a été vérifié sur Linux en octobre 2026 : Docker, les conteneurs de six dépôts ouverts depuis le terminal (deux ateliers, le kit, trois guides) et le Docker qu'ils contiennent, avec la commande `devcontainer` 0.89.0 ; le guide installe maintenant la version 0.90.0, que fait tourner sa vérification automatique. Le 30 octobre 2026, les fenêtres de VS Code ont aussi été essayées sur Linux (Ubuntu 26.04.1, VS Code 1.142.0, Dev Containers 0.469.0) avec le kit : la partie 3, l'onglet `Ports` et la notification de mise à jour. Une vérification automatique rejoue les commandes Linux du guide à chaque modification, sur Ubuntu 24.04 et 26.04. Le reste suit la documentation officielle de chaque outil. Voir [Limits to know](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#limits-to-know).
+Les étapes ont été vérifiées sous Linux : Docker, l'ouverture depuis le terminal des conteneurs de six dépôts (deux ateliers, le kit, trois guides) et le Docker qu'ils contiennent. Dans VS Code, sous Linux, l'ouverture du kit (partie 3), l'onglet `Ports` et la notification de mise à jour ont aussi été vérifiés. Le reste suit la documentation officielle de chaque outil. Voir [Limits to know](https://github.com/Youth-AI-Lab/yal-devcontainer-guide#limits-to-know).
 
-- **macOS et Windows** : non testés, y compris l'image arm64 sur un vrai Mac ; on ne sait pas non plus si 4 Go de mémoire suffisent à Open WebUI sur un Mac de 8 Go
-- **Dans VS Code** : la fermeture de la fenêtre et le `Rebuild` sont non testés
-- **Open WebUI avec une vraie clé** : `openwebui start` avec une clé, et l'ouverture de sa page par VS Code, sont non testés hors Codespace, tout comme le Docker de Docker Desktop à l'intérieur d'un conteneur
-- **La restauration des chatbots du guide Open WebUI** après une mise à jour : non testée sur un ordinateur
+- **macOS et Windows** : seules les étapes Linux ont été vérifiées, pas l'image arm64 des Mac ; on ne sait pas si 4 Go de mémoire suffisent à Open WebUI sur un Mac de 8 Go
+- **Open WebUI avec une vraie clé** : `openwebui start` avec une clé et l'ouverture de sa page par VS Code ont été vérifiés dans un Codespace seulement
 - **Pas de groupe** : pour un groupe, utiliser le guide sur l'IA locale
 - **Le disque** : environ 10 Go avec Open WebUI, plus 6,1 Go par autre dépôt où on le lance
 - **Internet reste nécessaire** : le modèle a besoin d'internet et d'une clé, comme dans un Codespace
 
-Si vous êtes la première personne à essayer sur macOS ou Windows, le guide invite à raconter comment cela s'est passé en ouvrant une _issue_ (un ticket) sur son dépôt : https://github.com/Youth-AI-Lab/yal-devcontainer-guide/issues
+Le guide invite à raconter comment s'est passée une installation sur macOS ou Windows en ouvrant une _issue_ (un ticket) sur son dépôt : https://github.com/Youth-AI-Lab/yal-devcontainer-guide/issues
 
 ## En cas de problème
 

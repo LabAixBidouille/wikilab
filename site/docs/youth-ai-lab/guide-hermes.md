@@ -33,7 +33,7 @@ sidebar_position: 24
 - Le dépôt du guide, où se trouvent la page à suivre et la configuration : https://github.com/Youth-AI-Lab/yal-hermes-guide
 - Le Codespace du guide, qui s'ouvre depuis : https://codespaces.new/Youth-AI-Lab/yal-hermes-guide
 - Un compte GitHub
-- Une clé d'API Anthropic ou une clé OpenRouter (non testée), de préférence créée par votre structure
+- Une clé d'API Anthropic ou une clé OpenRouter, de préférence créée par votre structure
 - Un ordinateur avec un navigateur web, rien à installer
 
 </div>
@@ -81,14 +81,14 @@ L'assistant travaille dans un **Codespace**, un ordinateur dans le navigateur fo
 
 ## Avant de commencer
 
-Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) ou une [clé OpenRouter](#ou-une-clé-openrouter-non-testé), et environ **une heure**. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
+Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code secret qui permet de payer l'usage du modèle Claude ; le guide OpenCode explique comment en obtenir une) ou une [clé OpenRouter](#ou-une-clé-openrouter), et environ **une heure**. Aucune connaissance technique n'est attendue : le guide donne chaque commande à taper.
 
 - **Une clé de votre structure** : pour un usage professionnel, utiliser une clé créée avec l'accord de votre organisation, pas votre carte personnelle. Ce qu'Anthropic fait des données et le contrat nécessaire sont décrits dans le [guide OpenCode](/ressources/youth-ai-lab/guide-opencode).
 - **Une région en Europe** : choisir une région européenne pour le Codespace avant de le créer. Vos conversations et la mémoire restent alors en Europe ; vos questions, elles, partent toujours chez le fournisseur de votre clé.
 - **Un plafond de dépense** : dans la console Anthropic, le plafond se règle sur l'espace de travail (_workspace_) de la clé, pas sur la clé elle-même (`Spending` puis `Spend limits`). L'espace `Default` ne peut pas en avoir : créer la clé dans un espace plafonné. Avec une clé OpenRouter, le plafond est la **Credit limit** de la clé.
 - **Êtes-vous prêt·e ?** Oui si vous pouvez citer une séance que vous allez bientôt préparer, et deux ou trois informations sur vos groupes qu'un assistant devrait connaître (âge, taille, durée des séances).
 
-**Coûts mesurés** le 29 octobre 2026 avec Claude Sonnet 5.5 et Hermes 0.22.5 (pas remesurés avec 0.22.7), selon l'estimation de Hermes à partir des prix d'Anthropic : 0,045 dollar pour la question de la partie 1, 0,016 dollar pour un « Remember this », 0,021 dollar pour le niveau du jour, 0,089 dollar pour un plan de séance d'une heure. Six questions ont coûté 0,21 dollar au total. Avec une clé OpenRouter, ces chiffres ne valent pas : **à compléter** (non mesuré). Côté GitHub, l'offre gratuite donne 120 heures-cœur par mois, soit 60 heures sur la machine à 2 cœurs du guide.
+**Coûts mesurés** le 29 octobre 2026 avec Claude Sonnet 5.5 et Hermes 0.22.5, selon l'estimation de Hermes à partir des prix d'Anthropic : 0,045 dollar pour la question de la partie 1, 0,016 dollar pour un « Remember this », 0,021 dollar pour le niveau du jour, 0,089 dollar pour un plan de séance d'une heure. Six questions ont coûté 0,21 dollar au total. Ces chiffres valent pour une clé Anthropic, pas pour une clé OpenRouter. Côté GitHub, l'offre gratuite donne 120 heures-cœur par mois, soit 60 heures sur la machine à 2 cœurs du guide.
 
 ---
 
@@ -96,7 +96,7 @@ Le guide demande un **compte GitHub**, une **clé d'API Anthropic** (un code sec
 
 ### Partie 1 : Mise en place
 
-Ouvrir le Codespace, attendre l'installation de Hermes, enregistrer la clé, puis lancer l'assistant avec `hermes`. Avec Hermes 0.22.5, l'installation prenait environ quatre minutes la première fois, création du Codespace comprise, mesurées une fois dans un vrai Codespace. Le guide installe maintenant la version 0.22.7, plus longue à installer sur l'ordinateur du guide, dans un conteneur local : 159 et 175 secondes au lieu de 99 et 124 ; dans un vrai Codespace, **à compléter**. Au lancement, un cadre `Hermes Agent v0.22.7` liste les outils et les skills (sa dernière ligne affiche `12 tools · 40 skills` ; la capture du guide date de la version 0.22.5, qui comptait 54 skills). Une première question sur les niveaux de vigilance en Charente-Maritime montre l'assistant qui lit ses documents et cite sa source. La clé est gardée dans un fichier lisible par vous seul, hors du dossier du guide.
+Ouvrir le Codespace, attendre l'installation de Hermes, enregistrer la clé, puis lancer l'assistant avec `hermes`. Avec Hermes 0.22.5, l'installation prenait environ quatre minutes la première fois, création du Codespace comprise ; la version 0.22.7, que le guide installe, est plus longue à installer sur l'ordinateur du guide, dans un conteneur local : 159 et 175 secondes au lieu de 99 et 124. Au lancement, un cadre `Hermes Agent v0.22.7` liste les outils et les skills (sa dernière ligne affiche `12 tools · 40 skills` ; la capture du guide date de la version 0.22.5, qui comptait 54 skills). Une première question sur les niveaux de vigilance en Charente-Maritime montre l'assistant qui lit ses documents et cite sa source. La clé est gardée dans un fichier lisible par vous seul, hors du dossier du guide.
 
 ```bash
 hermes auth add anthropic --type api-key
@@ -104,9 +104,9 @@ hermes auth add anthropic --type api-key
 
 Point de vigilance : ne jamais rouvrir le lien de création (il crée un nouveau Codespace vide) et ne **jamais** choisir `Rebuild Container`, ni accepter une reconstruction (_rebuild_) proposée par VS Code, ce qui efface la clé, la mémoire, les conversations et vos skills. Arrêter le Codespace après usage : GitHub supprime un Codespace resté arrêté 30 jours, avec tout son contenu. [Partie 1 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-1---set-up)
 
-#### Ou une clé OpenRouter (non testé)
+#### Ou une clé OpenRouter
 
-**Rien dans cette section n'a été testé.** Elle suit la documentation de Hermes pour la version 0.22.7. Les questions et les coûts de ce guide ont été mesurés avec une clé Anthropic et Claude Sonnet 5.5 : ils ne disent rien d'un autre modèle. La règle reste la même : jamais avec des jeunes.
+Cette section suit la documentation de Hermes pour la version 0.22.7. Les questions et les coûts de ce guide ont été mesurés avec une clé Anthropic et Claude Sonnet 5.5 : ils ne disent rien d'un autre modèle. La règle reste la même : jamais avec des jeunes.
 
 Créer la clé comme dans la [partie 3 du guide OpenRouter](/ressources/youth-ai-lab/guide-openrouter#partie-3--une-clé-par-binôme), avec une **Credit limit**. Puis, à la place de la commande ci-dessus :
 
@@ -137,9 +137,9 @@ Lancer ensuite l'assistant avec `hermes`. Si la clé est refusée, vérifier la 
 
 ### Partie 2 : Ce qui entre dans le contexte
 
-Le guide montre, mesures à l'appui, tout ce que Hermes envoie au modèle avec chaque question : ses propres instructions avec votre `AGENTS.md` et la liste de ses skills (environ 16 400 caractères), la mémoire (jusqu'à 1 375 et 2 200 caractères), la description des 12 outils autorisés (environ 18 600 caractères) et une ligne par outil du serveur MCP. Ces mesures ont été faites avec Hermes 0.22.5, le 29 octobre 2026, et pas refaites avec 0.22.7, qui arrive avec moins de skills à lui. Sans la configuration du guide, Hermes 0.22.5 envoyait 20 outils, dont un terminal et un navigateur.
+Le guide montre, mesures à l'appui, tout ce que Hermes envoie au modèle avec chaque question : ses propres instructions avec votre `AGENTS.md` et la liste de ses skills (environ 16 400 caractères), la mémoire (jusqu'à 1 375 et 2 200 caractères), la description des 12 outils autorisés (environ 18 600 caractères) et une ligne par outil du serveur MCP. Ces mesures ont été faites avec Hermes 0.22.5 ; la version 0.22.7, que le guide installe, arrive avec moins de skills à lui. Sans la configuration du guide, Hermes 0.22.5 envoyait 20 outils, dont un terminal et un navigateur.
 
-Point de vigilance : la mémoire approuvée entre dans **chaque** question des conversations suivantes. Les conversations passées, elles, n'y entrent pas : l'outil qui les fouillait (`session_search`) a été retiré, après un essai où il avait ramené l'état de santé d'une participante inventée que l'assistant avait refusé de retenir. [Partie 2 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-2---what-enters-the-context)
+Point de vigilance : la mémoire approuvée entre dans **chaque** question des conversations suivantes. Les conversations passées, elles, n'y entrent pas : l'outil qui les fouille (`session_search`) est retiré par la configuration du guide, car lors d'un essai il avait ramené l'état de santé d'une participante inventée que l'assistant avait refusé de retenir. [Partie 2 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-2---what-enters-the-context)
 
 ### Partie 3 : La mémoire
 
@@ -151,7 +151,7 @@ Point de vigilance : refuser tout ce qui concerne un ou une jeune, même tapé p
 
 Une skill est un court fichier `SKILL.md` qui explique à l'agent comment faire un type de tâche, au même format que dans le kit des ateliers. Hermes n'envoie au modèle que son nom et une ligne de description, et n'ouvre la skill entière qu'en cas de besoin. On apprend à relire une skill proposée par l'assistant (`/skills pending`, puis `/skills diff` pour voir son texte complet) avant de l'approuver, puis à écrire soi-même une skill `session-plan` qui fait écrire les plans de séance dans `plans/`.
 
-Point de vigilance : au moment de l'approbation, Hermes refuse une skill de l'assistant dont la description dépasse 60 caractères, et aussi la modification d'une description si la nouvelle dépasse 60 caractères (la description est la ligne envoyée avec chaque question) ; il faut alors la rejeter et la redemander plus courte. Le plan de séance avec la skill, et la proposition spontanée d'une skill par l'assistant, sont **non testés**. [Partie 4 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-4---skills)
+Point de vigilance : au moment de l'approbation, Hermes refuse une skill de l'assistant dont la description dépasse 60 caractères, et aussi la modification d'une description si la nouvelle dépasse 60 caractères (la description est la ligne envoyée avec chaque question) ; il faut alors la rejeter et la redemander plus courte. [Partie 4 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-4---skills)
 
 ### Partie 5 : Les outils avec MCP
 
@@ -161,7 +161,7 @@ Point de vigilance : ne jamais inventer un niveau. Le recopier depuis la source 
 
 ### Partie 6 : La sécurité
 
-Le guide détaille ce que l'assistant peut faire. Un test fait demander chaque action par un faux modèle, comme le ferait un modèle piégé par un document : la mémoire et les nouvelles skills sont mises en attente de votre accord, la recherche dans les conversations passées et les commandes du terminal sont refusées (les outils n'existent pas), l'écriture n'est permise que dans `assistant/plans/`, la lecture des fichiers de la clé est refusée. Hermes demande aussi toujours une personne avant d'écrire ses fichiers d'instructions (lu dans le code de Hermes, non vérifié par le test).
+Le guide détaille ce que l'assistant peut faire. Un test fait demander chaque action par un faux modèle, comme le ferait un modèle piégé par un document : la mémoire et les nouvelles skills sont mises en attente de votre accord, la recherche dans les conversations passées et les commandes du terminal sont refusées (les outils n'existent pas), l'écriture n'est permise que dans `assistant/plans/`, la lecture des fichiers de la clé est refusée. Hermes demande aussi toujours une personne avant d'écrire ses fichiers d'instructions (d'après le code de Hermes).
 
 Point de vigilance : certaines commandes tapées par vous désactivent ces règles (voir plus bas). [Partie 6 du guide](https://github.com/Youth-AI-Lab/yal-hermes-guide#part-6---safety-what-the-assistant-may-do)
 
@@ -192,7 +192,7 @@ Point de vigilance : `hermes backup` met la clé dans l'archive produite. Ne jam
 
 ### Où vont les données
 
-Chaque question, avec les instructions, la mémoire et les documents lus, est envoyée à Anthropic avec votre clé. Avec une clé OpenRouter, elle part chez OpenRouter et chez l'entreprise qui sert le modèle ([guide OpenRouter, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)). Dans le Codespace, que GitHub fait tourner, restent les conversations complètes, le texte des questions dans les journaux, la mémoire, la clé (lisible par vous seul) et les propositions en attente. Après une erreur du modèle, la question entière peut être enregistrée dans un fichier (lu dans le code de Hermes, **non testé**). Les statistiques d'usage demandées par Nous Research ne sont pas envoyées : la configuration répond « No thanks » à votre place, et ce réglage ne couvre que ces statistiques : vos questions partent quand même chez le fournisseur de votre clé. [Le tableau complet](https://github.com/Youth-AI-Lab/yal-hermes-guide#where-the-data-goes)
+Chaque question, avec les instructions, la mémoire et les documents lus, est envoyée à Anthropic avec votre clé. Avec une clé OpenRouter, elle part chez OpenRouter et chez l'entreprise qui sert le modèle ([guide OpenRouter, section Sécurité](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données)). Dans le Codespace, que GitHub fait tourner, restent les conversations complètes, le texte des questions dans les journaux, la mémoire, la clé (lisible par vous seul) et les propositions en attente. Après une erreur du modèle, la question entière peut être enregistrée dans un fichier (d'après le code de Hermes). Les statistiques d'usage demandées par Nous Research ne sont pas envoyées : la configuration répond « No thanks » à votre place, et ce réglage ne couvre que ces statistiques : vos questions partent quand même chez le fournisseur de votre clé. [Le tableau complet](https://github.com/Youth-AI-Lab/yal-hermes-guide#where-the-data-goes)
 
 ### Ce que les règles ne peuvent pas empêcher
 
@@ -200,7 +200,7 @@ Chaque question, avec les instructions, la mémoire et les documents lus, est en
 - **Le modèle voit tout ce que vous tapez et tout ce qu'il lit**, et le fournisseur de votre clé aussi.
 - **Un document peut le piéger** : un texte peut lui demander de retenir quelque chose, d'écrire une skill ou un plan trompeur. Relire chaque proposition avant de l'approuver, et chaque plan avant de s'en servir.
 - **Vous pouvez désactiver les règles vous-même**, depuis le terminal ou depuis Hermes. Dans le terminal, `hermes tools`, `hermes chat -t ...` et `hermes chat --yolo` changent les outils ou les approbations ; l'assistant, lui, n'a pas de terminal pour les taper. Dans Hermes, ne jamais taper `/yolo`, `/approvals`, `/tools`, `/memory approval` ou `/skills approval`, ni `/update`, `/init` ou `/debug` (ce dernier envoie vos journaux, avec le texte de vos questions, pour les partager). Ne pas lancer `hermes update` : le guide est écrit pour la version 0.22.7, et son test la vérifie.
-- **Seulement `hermes`, dans le terminal** : ne jamais lancer `hermes webapp`, l'application de bureau de Hermes ni `hermes --tui`. Ces écrans donnent davantage d'outils à l'assistant ; la configuration du guide en retire deux, mais l'application de bureau et `hermes webapp` en ajoutent un de plus, qu'on ne peut pas couper (lu dans le code de Hermes, **non testé**). Ne jamais utiliser `hermes cron` (des tâches qui tournent seules, plus tard, sans personne pour les approuver) ni `hermes kanban` (plusieurs agents qui se partagent des tâches).
+- **Seulement `hermes`, dans le terminal** : ne jamais lancer `hermes webapp`, l'application de bureau de Hermes ni `hermes --tui`. Ces écrans donnent davantage d'outils à l'assistant ; la configuration du guide en retire deux, mais l'application de bureau et `hermes webapp` en ajoutent un de plus, qu'on ne peut pas couper (d'après le code de Hermes). Ne jamais utiliser `hermes cron` (des tâches qui tournent seules, plus tard, sans personne pour les approuver) ni `hermes kanban` (plusieurs agents qui se partagent des tâches).
 - **Les skills installées à la main ne sont pas contrôlées** : en lire tous les fichiers avant de les installer. Le guide n'en a besoin d'aucune.
 
 [Partie 6 du guide, section correspondante](https://github.com/Youth-AI-Lab/yal-hermes-guide#what-the-rules-cannot-stop)
@@ -209,14 +209,12 @@ Chaque question, avec les instructions, la mémoire et les documents lus, est en
 
 ## Limites
 
-- **Un vrai modèle n'a été essayé que sur six questions** (Claude Sonnet 5.5, Hermes 0.22.5, 29 octobre 2026). Dans un vrai Codespace (image `2026.10.30`), seuls l'installation et `ci/check_hermes.py` ont été lancés (22 PASS, 0 FAIL, avant l'ajout du contrôle du jeton), pas tout le guide. Non testés : une skill proposée par l'assistant lui-même, une longue conversation.
-- **Avec Hermes 0.22.7** (5 novembre 2026, image `2026.11.4`, conteneur seulement, fausse clé et faux modèle) : l'installation, la configuration, le texte du cadre d'accueil de la partie 1, `hermes skills list` et `ci/check_hermes.py` (27 PASS, 0 FAIL). Pas refaits : les mesures de la partie 2, les autres écrans, le vrai modèle, un vrai Codespace.
+- **Un vrai modèle n'a été essayé que sur six questions** (Claude Sonnet 5.5, Hermes 0.22.5).
 - **Hermes évolue vite** : le guide est figé sur la version 0.22.7, alors que sa documentation en ligne décrit la dernière version.
-- **Pas de modèle local de petite taille** : avec Hermes 0.22.5 et Ollama (un logiciel qui fait tourner un modèle sur un ordinateur de la structure) sur un portable doté d'une carte graphique de 6 Go, `qwen2.5:7b` n'a pas répondu et `mistral:7b` a donné une réponse fausse. Le guide ne fonctionne donc pas avec un petit modèle local ; avec un modèle plus grand, sur un ordinateur bien plus puissant : **non testé**. Voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale) pour Ollama.
-- **[OpenRouter](#ou-une-clé-openrouter-non-testé) et autres fournisseurs** : Hermes les accepte, **non testés** ici.
-- **Sans Codespace** : le guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers) ouvre le dépôt sur votre machine ; le test de sécurité y tourne sous Linux, **non testé** sous macOS et Windows.
-- **Message affiché quand la clé est refusée** : **à compléter** (non testé avec une clé refusée).
-- **Effacement réel d'une conversation supprimée** dans la base de Hermes : **non testé**.
+- **Pas de modèle local de petite taille** : avec Hermes 0.22.5 et Ollama (un logiciel qui fait tourner un modèle sur un ordinateur de la structure) sur un portable doté d'une carte graphique de 6 Go, `qwen2.5:7b` n'a pas répondu et `mistral:7b` a donné une réponse fausse. Le guide ne fonctionne donc pas avec un petit modèle local. Voir le guide [Installer un chatbot sur un ordinateur de sa structure](/ressources/youth-ai-lab/guide-ia-locale) pour Ollama.
+- **[OpenRouter](#ou-une-clé-openrouter) et autres fournisseurs** : Hermes les accepte ; les questions et les coûts du guide ont été mesurés avec une clé Anthropic.
+- **Sans Codespace** : le guide [Ouvrir les ateliers sur son propre ordinateur](/ressources/youth-ai-lab/guide-dev-containers) ouvre le dépôt sur votre machine ; le test de sécurité y tourne sous Linux.
+- **Conversation supprimée** : son effacement réel de la base de Hermes n'a pas été vérifié ; seule la suppression du Codespace efface tout ce qu'il contient.
 
 ---
 

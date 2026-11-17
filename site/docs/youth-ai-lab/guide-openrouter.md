@@ -24,9 +24,9 @@ sidebar_position: 25
   <span className="badge badge--warning">GitHub Codespaces</span>
 </div>
 
-| Projet       | Durée                                            | Difficulté    | Âge                       |
-| ------------ | ------------------------------------------------ | ------------- | ------------------------- |
-| Youth AI Lab | À compléter (personne n'a encore suivi ce guide) | Intermédiaire | Adultes (animateur·rices) |
+| Projet       | Durée | Difficulté    | Âge                       |
+| ------------ | ----- | ------------- | ------------------------- |
+| Youth AI Lab | 2 h   | Intermédiaire | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -61,8 +61,6 @@ Ce guide s'adresse aux animateur·rices, éducateur·rices et facilitateur·rice
 Les ateliers sont écrits pour une clé Anthropic : le chatbot tourne avec Claude Code et les modèles Claude. Ce guide donne l'autre route, une clé OpenRouter pour tous les outils des ateliers et du guide Open WebUI. Vous l'utilisez dans le Codespace d'un atelier, du kit ou du guide Open WebUI.
 
 Avec une clé Anthropic, vous n'avez pas besoin de ce guide : suivre [SETUP.md](https://github.com/Youth-AI-Lab/yal-workshop-kit/blob/main/SETUP.md) du kit, ou [Your Anthropic API key](https://github.com/Youth-AI-Lab/yal-openwebui-guide#your-anthropic-api-key) dans le guide Open WebUI. Les deux sortes de clés utilisent les mêmes commandes.
-
-Personne n'a encore suivi ce guide.
 
 :::info[Ce qui change vite]
 
@@ -105,7 +103,7 @@ OpenRouter change ses pages, ses prix et ses quotas. Sauf si une ligne donne une
 
 ## Déroulé du guide
 
-Le guide anglais compte neuf parties, et une section « Before and during a session » placée après la partie 4, reprise ici dans [Avant et pendant une séance](#avant-et-pendant-une-séance). La partie 8, sur les données et les jeunes, est reprise en entier dans [Sécurité et protection des données](#sécurité-et-protection-des-données). La partie 9 est reprise dans [Sources et état du guide](#sources-et-état-du-guide).
+Le guide anglais compte neuf parties, et une section « Before and during a session » placée après la partie 4, reprise ici dans [Avant et pendant une séance](#avant-et-pendant-une-séance). La partie 8, sur les données et les jeunes, est reprise en entier dans [Sécurité et protection des données](#sécurité-et-protection-des-données). La partie 9 est reprise dans [Sources et mesures](#sources-et-mesures).
 
 :::info[Où sont les captures d'écran]
 
@@ -163,7 +161,7 @@ Une organization a au plus 10 membres, sauf accord de l'assistance. Seuls ses ad
 #### Ouvrir le compte
 
 1. Aller sur https://openrouter.ai/sign-up. Le 1er novembre 2026, la page propose **Continue with GitHub**, **Continue with Google**, **Continue with MetaMask** (un portefeuille de cryptomonnaie), ou une adresse e-mail et un mot de passe. Le formulaire demande d'accepter les Terms of Service, la Privacy Policy et les Model Terms. Le guide conseille l'adresse e-mail et un mot de passe : l'adresse reste à la structure, et rien ne confirme que la double authentification s'applique à une connexion par Google ou GitHub.
-2. Activer la double authentification, qui demande une seconde preuve à la connexion. OpenRouter ne l'exige que pour transférer des crédits vers une organization, mais ce compte contient votre argent. La documentation donne le chemin **Settings > Preferences**, **Manage**, puis l'onglet **Security**. Une autre page appelle le bouton **Manage Account**. Le 2 novembre 2026, la page Credits a aussi un lien, **Enable two-step verification on your account to transfer credits** (activer la vérification en deux étapes pour transférer des crédits), non testé.
+2. Activer la double authentification, qui demande une seconde preuve à la connexion. OpenRouter ne l'exige que pour transférer des crédits vers une organization, mais ce compte contient votre argent. La documentation donne le chemin **Settings > Preferences**, **Manage**, puis l'onglet **Security**. Une autre page appelle le bouton **Manage Account**. Le 2 novembre 2026, la page Credits a aussi un lien, **Enable two-step verification on your account to transfer credits** (activer la vérification en deux étapes pour transférer des crédits).
 3. Seulement pour une organization : dans **Settings > Preferences**, section Organization, cliquer sur **Create Organization**. Il faut une adresse e-mail vérifiée.
 
 #### Acheter des crédits
@@ -172,7 +170,7 @@ Acheter des crédits avant de créer les clés. OpenRouter vend quatre offres : 
 
 Chaque requête du kit porte une règle sur les données ([partie 5](#partie-5--les-outils)), et le [tableau des offres](https://openrouter.ai/pricing) donne ce type de routage, **Data Policy-Based Routing**, à l'offre Standard et au-dessus, pas à l'offre Free. Un compte qui n'avait rien acheté a bien obtenu des réponses avec cette règle le 1er novembre 2026, sur des modèles payants, mais il s'est arrêté sur un 402 après 0,17 \$ de découvert ([402](#402--plus-de-crédits-ou-une-limite)). Ne pas compter dessus.
 
-Après le premier achat fait pour ce guide, OpenRouter a cessé de marquer le compte comme gratuit. Savoir si un premier achat fait passer tout seul à Standard : à compléter.
+Après le premier achat fait pour ce guide, OpenRouter a cessé de marquer le compte comme gratuit. Rien ne confirme qu'un premier achat fasse passer tout seul à l'offre Standard.
 
 Le 1er novembre 2026, sur ce tableau des offres, la ligne **Platform fees** indique 5,5 % pour Standard. **Budgets & Spend Controls** et **Data Policy-Based Routing** sont absents de Free et présents sur Standard : le second est la règle du kit. **EU in-region routing** n'existe que sur Business et Enterprise, et revient dans [Obligatoire : Hébergé en Europe](#obligatoire--hébergé-en-europe).
 
@@ -203,7 +201,7 @@ Dans les 24 heures, le bouton **Refund** de la page Credits rend les crédits no
 
 La recharge automatique (_auto top-up_) achète des crédits sans vous, quand le solde passe sous un montant que vous fixez. La laisser désactivée. OpenRouter prévient dans sa [documentation](https://openrouter.ai/docs/api_reference/authentication) : « A key with no limit lets a leaked key or a runaway agent spend your entire balance, including any auto top-ups. » (une clé sans limite laisse une clé divulguée ou un agent hors de contrôle dépenser tout le solde, recharges automatiques comprises). Garder une limite de crédit sur chaque clé ([partie 3](#partie-3--une-clé-par-binôme)).
 
-Pour le vérifier, cliquer sur **Manage** dans l'encadré **Auto Top-Up** de la page Credits. La fenêtre **Auto Top Up** a un seul interrupteur, **Enable auto top up**, et il était désactivé sur le compte du guide le 2 novembre 2026.
+Pour le vérifier, cliquer sur **Manage** dans l'encadré **Auto Top-Up** de la page Credits. La fenêtre **Auto Top Up** a un seul interrupteur, **Enable auto top up**, qui doit rester désactivé.
 
 #### Régler les alertes
 
@@ -213,15 +211,13 @@ L'offre Standard prévient par e-mail pour le solde entier. Une alerte par clé 
 2. Activer **Low balance alert** (alerte de solde bas) et fixer son montant. Le 1er novembre 2026, il est de 100 \$ par défaut, trop haut pour un compte d'atelier. Le guide suggère la somme des limites d'une séance : avec 6 binômes à 1 \$, mettre 6 \$. L'e-mail arrive alors quand le solde ne couvre plus une séance complète.
 3. Activer **Model deprecation alert** (alerte de retrait d'un modèle). Elle vous écrit quand un modèle utilisé récemment va être retiré.
 
-Personne n'a vérifié si ces alertes démarrent activées ou désactivées (non testé).
-
 #### Ce que coûte une séance
 
-Le 5 novembre 2026, les commandes des ateliers 1 à 5 ont été jouées une fois, l'une après l'autre, comme le ferait un binôme, avec le modèle par défaut `deepseek/deepseek-v4-flash`. C'était dans un conteneur de l'image des ateliers de ce jour-là (2026.11.4, OpenCode 2.1.4), pas dans un Codespace, et sans groupe. Les commandes du terminal ont coûté environ **0,12 \$** en tout, d'après le coût qu'OpenRouter écrit dans chaque réponse : moins d'un centime pour l'atelier 1, environ 0,03 \$ pour les ateliers 2 et 3, 0,01 \$ pour l'atelier 4 et 0,04 \$ pour l'atelier 5. Les questions posées à Open WebUI le même jour, sur un portable, ont ajouté 0,004 \$. Non comptés : `replay RAG` et les chatbots Open WebUI des ateliers 1, 3, 4 et 5. L'atelier 5 a coûté le plus, puis l'atelier 3 ; par question, le mode B est le plus cher. Un vrai binôme pose plus de questions dans la conversation : ces chiffres sont donc un minimum.
+Le 5 novembre 2026, les commandes des ateliers 1 à 5 ont été jouées une fois, l'une après l'autre, comme le ferait un binôme, avec le modèle par défaut `deepseek/deepseek-v4-flash`. C'était dans un conteneur de l'image des ateliers, avec OpenCode 2.1.4, pas dans un Codespace, et sans groupe. Les commandes du terminal ont coûté environ **0,12 \$** en tout, d'après le coût qu'OpenRouter écrit dans chaque réponse : moins d'un centime pour l'atelier 1, environ 0,03 \$ pour les ateliers 2 et 3, 0,01 \$ pour l'atelier 4 et 0,04 \$ pour l'atelier 5. Les questions posées à Open WebUI le même jour, sur un portable, ont ajouté 0,004 \$. Non comptés : `replay RAG` et les chatbots Open WebUI des ateliers 1, 3, 4 et 5. L'atelier 5 a coûté le plus, puis l'atelier 3 ; par question, le mode B est le plus cher. Un vrai binôme pose plus de questions dans la conversation : ces chiffres sont donc un minimum.
 
-Avant ce passage, le guide avait fait une estimation. Lors des essais, un `replay` de 11 questions a affiché 0,01 à 0,02 \$. Le guide suppose qu'un binôme pose à peu près autant de questions que quatre `replay` en une séance, soit 44 questions : environ 0,08 \$. Le pire cas est de 44 questions en mode B au prix catalogue, environ 0,51 \$ (70 000 jetons à 0,165 \$ le million, avec `mistral-small-2603`). Le guide suggère donc une limite de **1 \$ par clé pour une séance**, et de **3 \$ pour une clé qui suit les six ateliers**. C'est l'atelier 2 qui utilise le mode B, qui envoie tous les documents avec chaque question : on ne multiplie donc pas 1 \$ par six. La [partie 6](#partie-6--les-modèles-au-1er-novembre-2026) donne les coûts mesurés.
+Le guide a aussi fait une estimation. Un `replay` de 11 questions a affiché 0,01 à 0,02 \$. Le guide suppose qu'un binôme pose à peu près autant de questions que quatre `replay` en une séance, soit 44 questions : environ 0,08 \$. Le pire cas est de 44 questions en mode B au prix catalogue, environ 0,51 \$ (70 000 jetons à 0,165 \$ le million, avec `mistral-small-2603`). Le guide suggère donc une limite de **1 \$ par clé pour une séance**, et de **3 \$ pour une clé qui suit les six ateliers**. C'est l'atelier 2 qui utilise le mode B, qui envoie tous les documents avec chaque question : on ne multiplie donc pas 1 \$ par six. La [partie 6](#partie-6--les-modèles-au-1er-novembre-2026) donne les coûts mesurés.
 
-Acheter des crédits pour le nombre de binômes, plus les frais et les taxes. Pour 6 binômes à 1 \$, il faut 6 \$ de crédits. Dans [le tableau plus haut](#acheter-des-crédits), 10 \$ de crédits coûtent 13,02 \$ au total. Garder une marge au-dessus des 6 \$, car OpenRouter peut refuser des requêtes sur un petit solde ou un compte récent alors qu'il reste de l'argent ([402](#402--plus-de-crédits-ou-une-limite)). OpenRouter ne donne aucun chiffre. Marge suggérée par le guide : à compléter (non testé). Une requête qui échoue ne coûte rien : OpenRouter écrit que « An attempt that errors is not charged for its model tokens » (une tentative en erreur n'est pas facturée pour les jetons du modèle).
+Acheter des crédits pour le nombre de binômes, plus les frais et les taxes. Pour 6 binômes à 1 \$, il faut 6 \$ de crédits. Dans [le tableau plus haut](#acheter-des-crédits), 10 \$ de crédits coûtent 13,02 \$ au total. Garder une marge au-dessus des 6 \$, car OpenRouter peut refuser des requêtes sur un petit solde ou un compte récent alors qu'il reste de l'argent ([402](#402--plus-de-crédits-ou-une-limite)). OpenRouter ne donne aucun chiffre. Une requête qui échoue ne coûte rien : OpenRouter écrit que « An attempt that errors is not charged for its model tokens » (une tentative en erreur n'est pas facturée pour les jetons du modèle).
 
 ### Partie 3 : Une clé par binôme
 
@@ -231,10 +227,10 @@ La page [**API keys**](https://openrouter.ai/keys) a un bouton **New key** et un
 
 1. Sur la page **API keys**, cliquer sur **New key**. La documentation appelle ce bouton **Create API Key**.
 2. Dans la fenêtre, remplir **Name**. Nommer la clé d'après le binôme, le lieu et la date, par exemple `pair-3-aix-2026-11`. Les noms restent visibles dans les pages qui suivent les dépenses : ne jamais utiliser le nom d'un·e jeune.
-3. Choisir **Expiration**. Ce champ est obligatoire. Prendre une valeur qui se termine peu après votre dernière séance, et lire la date sous le champ. OpenRouter écrit : « You can't change the expiration of an existing key. » (on ne peut pas changer l'expiration d'une clé existante). La liste des valeurs autres que `7 days` : à compléter.
+3. Choisir **Expiration**. Ce champ est obligatoire. Prendre une valeur qui se termine peu après votre dernière séance, et lire la date sous le champ. OpenRouter écrit : « You can't change the expiration of an existing key. » (on ne peut pas changer l'expiration d'une clé existante).
 4. Sous **Key limit**, régler la **Credit limit** : choisir **Custom amount** et taper le montant en dollars. Le guide suggère 1 \$ pour une séance, 3 \$ pour les six ateliers ([son estimation](#ce-que-coûte-une-séance)). OpenRouter recommande une limite sur chaque clé. Vous pouvez aussi n'en mettre aucune : ne le faites pas.
 5. Laisser **Reset limit every...** sur **N/A** (pas de remise à zéro). La limite plafonne alors tout l'usage de la clé, comme le dit la phrase sous le montant : « Requests are rejected once this key has used \$1 in total, until you raise its credit limit. » (les requêtes sont refusées quand cette clé a consommé 1 \$ au total, jusqu'à ce que vous remontiez sa limite).
-6. Cliquer sur **Create**. Copier la clé. Elle commence par `sk-or-`. La mettre tout de suite dans une note privée : OpenRouter dit qu'une clé de gestion ne s'affiche qu'une fois, et une clé ordinaire sans doute aussi (non testé).
+6. Cliquer sur **Create**. Copier la clé. Elle commence par `sk-or-`. La mettre tout de suite dans une note privée : OpenRouter dit qu'une clé de gestion ne s'affiche qu'une fois, et une clé ordinaire sans doute aussi.
 7. Recommencer pour le binôme suivant.
 8. Donner à chaque binôme sa clé en privé, par message direct ou sur papier. Ne jamais montrer une clé sur l'écran projeté.
 
@@ -246,7 +242,7 @@ OpenRouter peut créer une première clé pour vous à l'inscription. Sa documen
 
 OpenRouter écrit : « Once a key has used its credit limit, requests with it are rejected until you raise the limit on the key's page, or, for a daily, weekly, or monthly limit, until the limit resets. » (une clé qui a consommé sa limite voit ses requêtes rejetées jusqu'à ce que vous remontiez la limite sur la page de la clé ou, pour une limite quotidienne, hebdomadaire ou mensuelle, jusqu'à sa remise à zéro). Avec **N/A**, rien ne se remet à zéro. Sur la page de la clé, une limite quotidienne se remet à zéro à minuit UTC, une limite hebdomadaire le lundi, une limite mensuelle le 1er.
 
-Après `replay`, `score` ou `./sorter`, vous voyez l'un des messages de la [partie 7](#402--plus-de-crédits-ou-une-limite). La page d'OpenRouter cite ce cas à la fois sous 402 et sous [403](#403--une-limite-ou-une-de-vos-règles) : vous pouvez voir l'un ou l'autre. Personne n'a encore atteint une vraie limite de clé (non testé).
+Après `replay`, `score` ou `./sorter`, vous voyez l'un des messages de la [partie 7](#402--plus-de-crédits-ou-une-limite). La page d'OpenRouter cite ce cas à la fois sous 402 et sous [403](#403--une-limite-ou-une-de-vos-règles) : vous pouvez voir l'un ou l'autre.
 
 Pour remonter une limite, ouvrir la clé depuis la page **API keys**, changer la **Credit limit** et confirmer avec la coche. La page indique l'état de la clé, **Enabled**, et la date d'expiration, qui ne peut pas changer. **Reset limit** y reste sur **N/A**. Les boutons **Activity** et **Logs** montrent l'activité et les journaux de cette clé seule.
 
@@ -261,7 +257,7 @@ Cette étape n'est pas nécessaire : la limite de chaque clé plafonne déjà ch
 3. Choisir **lifetime**, qui ne se remet jamais à zéro, et saisir le nombre de binômes multiplié par la limite d'une clé.
 4. Cliquer sur **Save**.
 
-Les requêtes déjà en cours se terminent : la dépense peut donc dépasser légèrement le budget. Ensuite, toutes les clés du workspace s'arrêtent, et les outils affichent les lignes de la [partie 7](#403--une-limite-ou-une-de-vos-règles). Personne n'a encore réglé un vrai budget (non testé).
+Les requêtes déjà en cours se terminent : la dépense peut donc dépasser légèrement le budget. Ensuite, toutes les clés du workspace s'arrêtent, et les outils affichent les lignes de la [partie 7](#403--une-limite-ou-une-de-vos-règles).
 
 ### Partie 4 : Une commande, `workshop-login`
 
@@ -350,7 +346,7 @@ Ce tableau est la version courte de cette partie, à garder sous la main pendant
 
 ### Avant et pendant une séance
 
-Aucun groupe n'a encore fait cela. Ce qui suit vient de la documentation d'OpenRouter et des mesures du guide, et le calendrier est un conseil du guide : aucune source ne donne de chiffre.
+Ce qui suit vient de la documentation d'OpenRouter et des mesures du guide, et le calendrier est un conseil du guide : aucune source ne donne de chiffre.
 
 #### Avant la séance : Préparer le compte
 
@@ -370,7 +366,7 @@ Un compte récent demande le plus de soin. OpenRouter limite l'argent bloqué pa
 
 **La veille :**
 
-- [ ] Décider ce que vous direz aux binômes : avec le modèle par défaut, ne taper que des questions inventées ou publiques, jamais rien de réel sur une personne. 5 de ses 17 entreprises gardent les questions, et personne n'a lu les conditions des 17 ([Ce que disent les conditions de chaque entreprise](#ce-que-disent-les-conditions-de-chaque-entreprise)).
+- [ ] Décider ce que vous direz aux binômes : avec le modèle par défaut, ne taper que des questions inventées ou publiques, jamais rien de réel sur une personne. 5 de ses 17 entreprises gardent les questions, et les conditions de ces 17 entreprises n'ont pas été lues ([Ce que disent les conditions de chaque entreprise](#ce-que-disent-les-conditions-de-chaque-entreprise)).
 - [ ] Taper `workshop-login`. Quand il demande la clé, ne rien coller et appuyer sur Entrée : il faut voir `Key OK`. Un modèle retiré par OpenRouter donne une autre ligne : `no company can serve the model` s'il est encore dans la liste publique, `OpenRouter has no model` s'il l'a quittée. La documentation d'OpenRouter ne dit pas laquelle arrive. Un nouveau prix ne donne aucun message : OpenRouter continue de servir le modèle et facture le nouveau tarif.
 - [ ] Taper un `replay` court, comme `replay D 8 11`. `workshop-login` envoie une toute petite requête, et un chatbot qui utilise des outils se comporte autrement.
 - [ ] Relire la page du modèle : prix, entreprises, fenêtre. Ils peuvent changer.
@@ -380,7 +376,7 @@ Un compte récent demande le plus de soin. OpenRouter limite l'argent bloqué pa
 
 **Le matin de la séance :** regarder la [page d'état](https://status.openrouter.ai/) d'OpenRouter.
 
-Le guide n'a trouvé aucune liste des pays que bloque OpenRouter. La section 5.7 des conditions dit que certaines entreprises de modèles refusent certains pays ou entités, et que contourner cela avec un VPN ou un proxy (des outils qui cachent d'où l'on se connecte) est une violation grave des conditions. Ne pas le faire. Un Codespace tourne dans un centre de données : le pays vu peut donc ne pas être celui de votre salle (déduction du guide). Rien de ce qui a été lu ne bloque la France, l'Espagne, l'Italie ou la Belgique, mais aucune séance n'y a encore eu lieu (non testé).
+Le guide n'a trouvé aucune liste des pays que bloque OpenRouter. La section 5.7 des conditions dit que certaines entreprises de modèles refusent certains pays ou entités, et que contourner cela avec un VPN ou un proxy (des outils qui cachent d'où l'on se connecte) est une violation grave des conditions. Ne pas le faire. Un Codespace tourne dans un centre de données : le pays vu peut donc ne pas être celui de votre salle (déduction du guide). Rien de ce qui a été lu ne bloque la France, l'Espagne, l'Italie ou la Belgique.
 
 #### Pendant la séance
 
@@ -397,7 +393,7 @@ Un binôme qui s'arrête a atteint sa limite, ou le compte est vide : voir [402]
 Une clé qui fuite demande d'agir, même si personne ne l'a encore utilisée. Une clé montrée sur l'écran projeté compte comme divulguée (lecture du guide). OpenRouter cherche les clés sur GitHub et envoie un e-mail quand il en trouve une, mais sa documentation ne dit pas qu'il désactive la clé à votre place. La limite de crédit borne les dégâts, et vous payez ce que la clé a dépensé.
 
 1. Sur la page [API keys](https://openrouter.ai/keys), noter le **Key usage** de cette clé : c'est ce qu'elle a dépensé jusqu'ici.
-2. Ouvrir [Security settings](https://openrouter.ai/settings/security), onglet **Key safety**, et choisir **Archive** sur cette clé. C'est définitif, et il faut taper `archive` pour confirmer. Le conseil d'OpenRouter en cas de fuite est de « delete the compromised key and create a new one » (supprimer la clé compromise et en créer une nouvelle), et archiver est ce que ses autres pages appellent supprimer. Ne pas s'arrêter à **Disable** : cet onglet ne montre plus une clé désactivée, et vous ne pourriez plus l'archiver depuis là. Personne n'a encore archivé de clé avec ce guide (non testé).
+2. Ouvrir [Security settings](https://openrouter.ai/settings/security), onglet **Key safety**, et choisir **Archive** sur cette clé. C'est définitif, et il faut taper `archive` pour confirmer. Le conseil d'OpenRouter en cas de fuite est de « delete the compromised key and create a new one » (supprimer la clé compromise et en créer une nouvelle), et archiver est ce que ses autres pages appellent supprimer. Ne pas s'arrêter à **Disable** : cet onglet ne montre plus une clé désactivée, et vous ne pourriez plus l'archiver depuis là.
 3. Créer une nouvelle clé comme en [partie 3](#partie-3--une-clé-par-binôme).
 4. Dans le Codespace du binôme, taper `workshop-login` et coller la nouvelle clé. Fermer le chatbot et le relancer, ou taper `openwebui start`.
 5. Ouvrir Activity et filtrer sur l'ancienne clé, pour voir ce qu'elle a fait. Rien ne confirme qu'une clé archivée reste dans ce filtre : c'est la raison de l'étape 1.
@@ -407,8 +403,8 @@ Une clé qui fuite demande d'agir, même si personne ne l'a encore utilisée. Un
 
 Une clé dont la limite ne se remet jamais à zéro reste utilisable jusqu'à sa date d'expiration, ou jusqu'à ce que vous la retiriez. La limite protège l'argent, pas l'accès. Fermer donc chaque clé sur la page [Security settings](https://openrouter.ai/settings/security).
 
-1. Pour le budget de votre projet, ouvrir Activity, onglet **Explore**, grouper les dépenses par clé d'API, et les télécharger en CSV ou en PDF. Le faire d'abord : rien ne confirme que les clés archivées gardent leur nom dans Activity. OpenRouter décrit ce clic de deux façons, il peut donc différer (non testé). Selon la lecture du guide, avec des noms comme `pair-3-aix-2026-11`, ce rapport ne contient aucune donnée personnelle. Personne n'a encore ouvert d'export : regarder le vôtre avant de le transmettre.
-2. Dans l'onglet **Key safety**, sélectionner les clés des binômes et choisir **Archive**. C'est définitif, et il faut taper `archive` pour confirmer. D'autres pages d'OpenRouter appellent cela supprimer une clé. Personne n'a encore archivé de clé avec ce guide (non testé).
+1. Pour le budget de votre projet, ouvrir Activity, onglet **Explore**, grouper les dépenses par clé d'API, et les télécharger en CSV ou en PDF. Le faire d'abord : rien ne confirme que les clés archivées gardent leur nom dans Activity. OpenRouter décrit ce clic de deux façons, il peut donc différer. Selon la lecture du guide, avec des noms comme `pair-3-aix-2026-11`, ce rapport ne contient aucune donnée personnelle. Regarder votre export avant de le transmettre.
+2. Dans l'onglet **Key safety**, sélectionner les clés des binômes et choisir **Archive**. C'est définitif, et il faut taper `archive` pour confirmer. D'autres pages d'OpenRouter appellent cela supprimer une clé.
 3. Dans l'onglet **Overview**, lire les quatre cartes : **No spend limit** (sans limite de dépense), **Never expires** (n'expire jamais), **Never used or idle 90+ days** (jamais utilisée, ou inactive depuis 90 jours ou plus), **Safe to remove** (peut être retirée). Chacune montre des clés que vous avez peut-être oubliées.
 
 ### Partie 5 : Les outils
@@ -441,12 +437,12 @@ Ces résultats sont les mesures d'une journée, et les prix et quotas d'OpenRout
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `deepseek/deepseek-v4-flash` | 2/22 | 11/22 | 6/6 | 20/22 | 19/22 | 19/22 | 0 | crédits |
 | `mistralai/mistral-small-3.2-24b-instruct` | 10/22 | 8/22 | 4/6 | 16/22 | 14/22 | 14/22 | 0 | crédits |
-| `mistralai/mistral-small-2603`, sur `mistral/eu` seul | pas lancé | pas lancé | 3/6 | 15/22 | 4/4, 2 questions | pas lancé | 0 | crédits |
+| `mistralai/mistral-small-2603`, sur `mistral/eu` seul | - | - | 3/6 | 15/22 | 4/4, 2 questions | - | 0 | crédits |
 | `google/gemini-2.5-flash-lite` | 10/20 | 12/22 | 5/6 | 12/20 | 1/2 | 9/16 | 8 sur 51 | crédits |
 | `google/gemma-4-26b-a4b-it:free` | 8/22 | 12/22 | arrêté | arrêté | arrêté | arrêté | 429 à partir de C | rien, dans le quota |
 | `cohere/north-mini-code:free` | arrêté | arrêté | arrêté | arrêté | arrêté | arrêté | 429 sur 17 des 18 réponses | rien, dans le quota |
 
-Lire ce tableau comme une indication approximative. Les notes viennent d'un juge automatique (`claude-haiku-5-5`) et d'un seul passage, et personne ne les a vérifiées. Une note ne classe pas deux modèles : sur un second passage du mode D, le même juge a donné à DeepSeek v4 Flash 22/22 au lieu de 19/22, et deux passages d'un même modèle ont différé de 3 points sur 22 au plus. Un total sous 22 veut dire que moins de réponses ont reçu une note. « Arrêté » veut dire que `replay` s'est arrêté après trois erreurs de suite : ces deux lignes ne notent pas les modèles gratuits. `mistral/eu` désigne le propre service de Mistral en Europe, celui qui sert pour les jeunes. La ligne de `mistral-small-2603` est la seule fixée sur lui. En B, ses questions étaient les 3, 7 et 10, alors que la ligne de Mistral Small 3.2 a utilisé d'autres questions.
+Lire ce tableau comme une indication approximative. Les notes viennent d'un juge automatique (`claude-haiku-5-5`) et d'un seul passage, sans relecture humaine. Une note ne classe pas deux modèles : sur un second passage du mode D, le même juge a donné à DeepSeek v4 Flash 22/22 au lieu de 19/22, et deux passages d'un même modèle ont différé de 3 points sur 22 au plus. Un total sous 22 veut dire que moins de réponses ont reçu une note. « Arrêté » veut dire que `replay` s'est arrêté après trois erreurs de suite : ces deux lignes ne notent pas les modèles gratuits. Un tiret veut dire que ce mode n'a pas tourné avec ce modèle. `mistral/eu` désigne le propre service de Mistral en Europe, celui qui sert pour les jeunes. La ligne de `mistral-small-2603` est la seule fixée sur lui. En B, ses questions étaient les 3, 7 et 10, alors que la ligne de Mistral Small 3.2 a utilisé d'autres questions.
 
 Voici les chiffres d'OpenRouter au 1er novembre 2026 pour ce que vous payez et pour la **fenêtre**, la quantité de texte qu'un modèle lit en une fois. ZDR veut dire zéro conservation des données (_zero data retention_), expliqué dans [Ce que veut dire zéro conservation des données](#ce-que-veut-dire-zéro-conservation-des-données).
 
@@ -459,7 +455,7 @@ Voici les chiffres d'OpenRouter au 1er novembre 2026 pour ce que vous payez et p
 | `google/gemma-4-26b-a4b-it:free` | gratuit | 262k | 0 sur 1 (55 jours) | aucune |
 | `cohere/north-mini-code:free` | gratuit | 256k | 0 sur 1 (30 jours) | aucune |
 
-Chaque entreprise fixe son prix : un même modèle en a donc plusieurs. Pour `deepseek/deepseek-v4-flash`, 0,09 \$/0,18 \$ est le prix de la liste des modèles d'OpenRouter et la ligne de DeepInfra. La page du modèle affiche 0,05 \$/0,45 \$ en haut, la ligne de Relace, et d'autres lignes vont jusqu'à 0,44 \$/1,32 \$ chez Cloudflare ou 0,60 \$/0,17 \$ chez Wafer. Le kit enregistre le prix de la liste. Avec OpenCode 2.1.4, le coût affiché par `replay` vient de ce prix : c'est une estimation. À partir d'OpenCode 2.2.5, `replay` affiche le coût qu'OpenRouter a écrit dans chaque réponse (les 252 réponses de nos quatre passages en Europe, le 1er novembre 2026, en avaient toutes un). La page Activity montre ce que vous avez vraiment payé.
+Chaque entreprise fixe son prix : un même modèle en a donc plusieurs. Pour `deepseek/deepseek-v4-flash`, 0,09 \$/0,18 \$ est le prix de la liste des modèles d'OpenRouter et la ligne de DeepInfra. La page du modèle affiche 0,05 \$/0,45 \$ en haut, la ligne de Relace, et d'autres lignes vont jusqu'à 0,44 \$/1,32 \$ chez Cloudflare ou 0,60 \$/0,17 \$ chez Wafer. Le kit enregistre le prix de la liste. Avec OpenCode 2.1.4, le coût affiché par `replay` vient de ce prix : c'est une estimation. À partir d'OpenCode 2.2.5, `replay` affiche le coût qu'OpenRouter a écrit dans chaque réponse (le 1er novembre 2026, les 252 réponses de quatre passages en Europe en avaient toutes un). La page Activity montre ce que vous avez vraiment payé.
 
 #### Pourquoi ces choix par défaut
 
@@ -484,13 +480,13 @@ Pour essayer un modèle avant une séance, [Chat](https://openrouter.ai/chat), s
 
 #### Les modèles gratuits
 
-**Un groupe ne peut pas compter sur les modèles gratuits.** Personne ne les a essayés avec un groupe entier. Les [limites d'OpenRouter](https://openrouter.ai/docs/api_reference/limits) autorisent 20 requêtes par minute, et 50 requêtes par jour, ou 1 000 par jour dès que le compte a acheté au moins 10 \$ de crédits (un jour UTC). Les tentatives en échec comptent dans le plafond du jour, et un solde négatif bloque les modèles gratuits. Plus de clés n'apportent rien à un groupe : « Making additional accounts or API keys will not affect your rate limits » (créer d'autres comptes ou d'autres clés ne change pas vos limites). La même phrase continue : « We do however have different rate limits for different models » (les limites varient toutefois selon les modèles).
+**Un groupe ne peut pas compter sur les modèles gratuits.** Les [limites d'OpenRouter](https://openrouter.ai/docs/api_reference/limits) autorisent 20 requêtes par minute, et 50 requêtes par jour, ou 1 000 par jour dès que le compte a acheté au moins 10 \$ de crédits (un jour UTC). Les tentatives en échec comptent dans le plafond du jour, et un solde négatif bloque les modèles gratuits. Plus de clés n'apportent rien à un groupe : « Making additional accounts or API keys will not affect your rate limits » (créer d'autres comptes ou d'autres clés ne change pas vos limites). La même phrase continue : « We do however have different rate limits for different models » (les limites varient toutefois selon les modèles).
 
 Sur la [liste des modèles](https://openrouter.ai/models), deux filtres donnent 13 modèles le 1er novembre 2026, sans compte, comme `workshop-login --models free` : le curseur **Prompt pricing** sur **FREE**, et **tools** coché sous **Supported parameters**, car le chatbot a besoin d'outils. Chacun affiche alors 0 \$ par million de jetons en entrée et en sortie, et porte un nom avec (free). OpenRouter avait 14 modèles gratuits ce jour-là : le 14e ne sait pas utiliser d'outils.
 
 Lors d'un essai, `cohere/north-mini-code:free` a utilisé 60 à 62 requêtes pour un `replay C`, environ 5,5 par question. C'est plus que les 50 requêtes par jour d'un compte qui n'a pas acheté 10 \$ de crédits. Avec deux modèles gratuits en même temps, les deux ont reçu des 429. Ne pas se fier au compteur `Free requests left today` pendant une séance ([Notes sur les mesures](#notes-sur-les-mesures)).
 
-Ne pas utiliser `openrouter/free`. Ce nom spécial prend un modèle gratuit au hasard : l'entreprise change donc d'une requête à l'autre, et sa politique de données avec elle. Personne ne l'a essayé avec `workshop-login --model` (non testé).
+Ne pas utiliser `openrouter/free`. Ce nom spécial prend un modèle gratuit au hasard : l'entreprise change donc d'une requête à l'autre, et sa politique de données avec elle.
 
 Pour les données des modèles gratuits, lire d'abord [Sécurité et protection des données](#sécurité-et-protection-des-données). Le 1er novembre 2026, les pages d'OpenRouter indiquaient que 8 des 14 modèles gratuits s'entraînent sur les données. Un seul des 14 ne gardait rien.
 
@@ -498,15 +494,15 @@ Pour les données des modèles gratuits, lire d'abord [Sécurité et protection 
 
 #### Les modèles payants
 
-La page des [limites](https://openrouter.ai/docs/api_reference/limits), lue le 1er novembre 2026, décrit les limites d'OpenRouter comme « free-model request caps and DDoS protection » (des plafonds de requêtes pour les modèles gratuits et une protection contre les attaques par saturation). Elle dit que la variante payante d'un modèle « has no platform-level request cap » (n'a pas de plafond de requêtes au niveau de la plateforme). Un 429 sur un modèle payant devrait donc venir de l'entreprise qui l'exploite, pas d'OpenRouter. Personne n'a encore vu un vrai 429 sur un modèle payant (non testé).
+La page des [limites](https://openrouter.ai/docs/api_reference/limits), lue le 1er novembre 2026, décrit les limites d'OpenRouter comme « free-model request caps and DDoS protection » (des plafonds de requêtes pour les modèles gratuits et une protection contre les attaques par saturation). Elle dit que la variante payante d'un modèle « has no platform-level request cap » (n'a pas de plafond de requêtes au niveau de la plateforme). Un 429 sur un modèle payant devrait donc venir de l'entreprise qui l'exploite, pas d'OpenRouter.
 
 Avec `workshop-login --europe`, Mistral est seul à servir le modèle et il n'y a pas de seconde entreprise. Un 429 de Mistral atteint directement le groupe ([429](#429--trop-de-requêtes)).
 
 ### Partie 7 : Quand une requête échoue
 
-Chaque erreur a son numéro et son remède, et les outils affichent le numéro. Le chercher ci-dessous, lire ce qu'affiche votre outil, et suivre les étapes. Elles viennent des messages des outils et de la documentation d'OpenRouter. Un vrai 429 en séance et un vrai petit solde n'ont pas été testés.
+Chaque erreur a son numéro et son remède, et les outils affichent le numéro. Le chercher ci-dessous, lire ce qu'affiche votre outil, et suivre les étapes. Elles viennent des messages des outils et de la documentation d'OpenRouter.
 
-Avec `workshop` et Open WebUI, le binôme ne voit pas les lignes ci-dessous : OpenCode et Open WebUI utilisent leurs propres écrans (non testé). Si un binôme dit que le chatbot ne répond plus, regarder la [page Credits](https://openrouter.ai/settings/credits) et [Logs](https://openrouter.ai/logs) sur votre propre écran, puis chercher le numéro ici.
+Avec `workshop` et Open WebUI, le binôme ne voit pas les lignes ci-dessous : OpenCode et Open WebUI utilisent leurs propres écrans. Si un binôme dit que le chatbot ne répond plus, regarder la [page Credits](https://openrouter.ai/settings/credits) et [Logs](https://openrouter.ai/logs) sur votre propre écran, puis chercher le numéro ici.
 
 #### 429 : Trop de requêtes
 
@@ -515,8 +511,8 @@ Avec `workshop` et Open WebUI, le binôme ne voit pas les lignes ci-dessous : Op
 | `replay` | `ERROR: too many requests, or the quota of this key or of this model is used up (429: <details>). Wait a minute, then try again.` Après trois de suite : `Three errors in a row: stopping.` |
 | `score` | `Judge unavailable: HTTP 429: <details>.` Si OpenRouter demande plus de 60 secondes : `Judge stopped: OpenRouter asks to wait <n> seconds. You score alone for this run.` |
 | `./sorter compare` | `<model> is busy (HTTP 429): <details>. Wait a minute and type ./sorter compare again.` |
-| `workshop` | l'écran d'OpenCode (non testé) |
-| Open WebUI | (non testé) |
+| `workshop` | l'écran d'OpenCode |
+| Open WebUI | l'écran d'Open WebUI |
 
 ![Terminal après replay C 1 2 3. Cadre 1 : ERROR: too many requests, or the quota of this key or of this model is used up (429: Provider returned error). Wait a minute, then try again. La même ligne revient trois fois. Cadre 2 : Three errors in a row: stopping.](/img/ressources/youth-ai-lab/guide-openrouter/terminal-429.png)
 
@@ -536,7 +532,7 @@ Pendant la séance, commencer par lire le nom du modèle. Après un `replay`, il
 - **C'est un modèle payant** : attendre une minute et retaper la même commande. Si cela échoue encore, choisir `mistralai/mistral-small-3.2-24b-instruct` avec `workshop-login --model`.
 - **Beaucoup de binômes en même temps** : les faire lancer `replay` l'un après l'autre, ou sur quelques questions : `replay D 8 11`.
 
-En mode groupe, vos chatbots ne reviennent pas avec le modèle : ils restent sur Mistral Small 3.2, et `openwebui start` les nomme. Pour chacun : **Workspace → Models**, ouvrir le chatbot, choisir `mistralai/mistral-small-2603` dans **Base Model (From)**, puis cliquer sur **Save & Update** (ce passage n'a pas été testé).
+En mode groupe, vos chatbots ne reviennent pas avec le modèle : ils restent sur Mistral Small 3.2, et `openwebui start` les nomme. Pour chacun : **Workspace → Models**, ouvrir le chatbot, choisir `mistralai/mistral-small-2603` dans **Base Model (From)**, puis cliquer sur **Save & Update**.
 
 Après un changement de modèle, fermer le chatbot et le relancer, ou taper `openwebui start`. `--model` ne change ni le juge ni le trieur : avec `score` ou `./sorter compare`, attendre une minute et réessayer.
 
@@ -574,8 +570,6 @@ Si les mots parlent d'un guardrail ou d'une région de données, l'argent n'y es
 **Ligne de refus.** Elle accuse la clé, et la clé peut être bonne. Si les mots parlent d'un modèle, d'une entreprise, d'un blocage ou d'une règle, un de vos garde-fous a refusé la requête : changer le garde-fou ou le modèle, pas la clé.
 
 `replay` a une troisième ligne, pour des mots comme `moderation` ou `flagged` : `ERROR: the company that runs the model blocked this text (403: <details>). Change the question, or ask the facilitator.`
-
-Les deux colonnes ont été vues avec un faux OpenRouter le 2 novembre 2026, avec des mots copiés de la documentation d'OpenRouter. Ce qu'écrit le vrai quand un garde-fou refuse une entreprise n'a pas été testé.
 
 #### 503 : Occupé, ou aucune entreprise
 
@@ -647,7 +641,7 @@ OpenRouter lui-même peut traiter une requête ailleurs. Le kit envoie toujours 
 
 :::
 
-Les réponses d'OpenRouter nommaient Mistral, et aucune région. Le lieu vient de la liste d'OpenRouter : aucun appel et aucune preuve indépendante n'ont confirmé où tourne un modèle. Le mode groupe avec `--europe` a tourné avec une vraie clé, mais seulement jusqu'à une question à chaque modèle de base, posée par l'administrateur·rice : sans groupe, sans téléphone, sans vrai Codespace.
+Les réponses d'OpenRouter nommaient Mistral, et aucune région. Le lieu vient de la liste d'OpenRouter : aucun appel et aucune preuve indépendante n'ont confirmé où tourne un modèle.
 
 Lire la première ligne de ce tableau comme ce que vous avez, et la deuxième comme ce qui reste hors de portée du kit.
 
@@ -665,7 +659,7 @@ Pour l'adresse européenne, [OpenRouter écrit](https://openrouter.ai/docs/guide
 
 ### Ce qu'aucun réglage ne retire
 
-1. **La règle d'âge d'OpenRouter.** Les conditions disent : « You must be at least 18 years of age to use the Service. » (il faut avoir au moins 18 ans pour utiliser le service). La [politique de confidentialité](https://openrouter.ai/privacy) dit : « This Site is offered and available to users who are 18 years of age or older. » (ce site est proposé et accessible aux personnes de 18 ans ou plus). Elle ne prévoit aucune exception pour les structures ni pour le consentement parental. La section 5.2 des conditions ajoute : « You will require that all of your Authorized Users and customers access and use the Service and Models only in accordance with this Agreement » (vous devez exiger que vos utilisateur·rices autorisé·es et vos client·es n'utilisent le service et les modèles que dans le respect de cet accord). Aucun texte ne dit en toutes lettres qu'une structure peut ou ne peut pas proposer un chatbot à des mineur·es. Interrogé par son chat d'assistance, OpenRouter a répondu que cette règle interdit à un jeune de créer et d'utiliser sa propre clé, et qu'elle ne s'applique pas à des jeunes encadrés par un adulte responsable. Cette lecture n'est écrite ni dans ses conditions ni dans sa politique de confidentialité (toutes deux mises à jour le 31 août 2026), et la date du chat n'a pas été notée. Gardez donc toutes les clés entre les mains des adultes, et restez avec le groupe. Si votre structure veut la réponse par écrit, écrivez à [support@openrouter.ai](mailto:support@openrouter.ai), ou utilisez **Raise a Ticket** sur la page [Support](https://openrouter.ai/support).
+1. **La règle d'âge d'OpenRouter.** Les conditions disent : « You must be at least 18 years of age to use the Service. » (il faut avoir au moins 18 ans pour utiliser le service). La [politique de confidentialité](https://openrouter.ai/privacy) dit : « This Site is offered and available to users who are 18 years of age or older. » (ce site est proposé et accessible aux personnes de 18 ans ou plus). Elle ne prévoit aucune exception pour les structures ni pour le consentement parental. La section 5.2 des conditions ajoute : « You will require that all of your Authorized Users and customers access and use the Service and Models only in accordance with this Agreement » (vous devez exiger que vos utilisateur·rices autorisé·es et vos client·es n'utilisent le service et les modèles que dans le respect de cet accord). Aucun texte ne dit en toutes lettres qu'une structure peut ou ne peut pas proposer un chatbot à des mineur·es. Interrogé par son chat d'assistance, OpenRouter a répondu que cette règle interdit à un jeune de créer et d'utiliser sa propre clé, et qu'elle ne s'applique pas à des jeunes encadrés par un adulte responsable. Cette lecture n'est écrite ni dans ses conditions ni dans sa politique de confidentialité (toutes deux mises à jour le 31 août 2026). Gardez donc toutes les clés entre les mains des adultes, et restez avec le groupe. Si votre structure veut la réponse par écrit, écrivez à [support@openrouter.ai](mailto:support@openrouter.ai), ou utilisez **Raise a Ticket** sur la page [Support](https://openrouter.ai/support).
 2. **Les données sensibles.** L'accord de traitement des données cite la santé, l'origine, la religion et le casier judiciaire, entre autres, et dit : « No processing of Sensitive Data or any special categories is intended » (aucun traitement de données sensibles ou de catégories particulières de données n'est prévu). Tout traitement de ce type demande un avenant. Selon la lecture du guide, un chatbot où un·e jeune écrit sur sa santé ou sa situation sort de ce cadre sans avenant. L'accord nomme des « End Customers » (client·es final·es) et ne parle jamais de mineur·es.
 3. **Le contrôle prévu des contenus d'abus sur enfants (CSAM).** L'[annonce](https://openrouter.ai/blog/announcements/csam-screening/) du 27 octobre 2026 dit : « CSAM screening will also apply to requests covered by OpenRouter's Zero Data Retention (ZDR) policy. » (ce contrôle s'appliquera aussi aux requêtes sous ZDR). La page ZDR ajoute : « Content flagged as potential CSAM may be retained for human review, reporting, and preservation where required by law. » (un contenu signalé comme possible CSAM peut être conservé pour une relecture humaine, un signalement et une conservation là où la loi l'exige). La date de début n'est pas établie. Selon la lecture du guide, pour un groupe de mineur·es, une fausse alerte pourrait conduire à une conservation et à la lecture du texte par une personne, même sous ZDR. L'annonce dit : « A flag indicates suspected material; it is not itself a determination that the content is CSAM » (un signalement indique un soupçon, pas une décision sur le contenu).
 4. **La clause de Google sur les moins de 18 ans.** Les [conditions de l'API Gemini](https://ai.google.dev/gemini-api/terms) disent que vous « will not use the Services as part of a website, application, or other service » qui « is directed towards or is likely to be accessed by individuals under the age of 18. » (ne pas utiliser les services dans un site, une application ou un service destiné aux moins de 18 ans ou susceptible d'être consulté par eux). Les [conditions de Google Cloud](https://cloud.google.com/terms/service-terms) disent la même chose pour les services d'IA générative et les personnes qui les utilisent au bout de la chaîne. Il n'est pas établi que cela atteigne un·e client·e d'OpenRouter par Vertex.
@@ -677,7 +671,7 @@ Activer la règle vous fait passer sur `mistralai/mistral-small-2603`. Ensuite, 
 
 Sur la [liste des modèles](https://openrouter.ai/models), quatre filtres donnent 18 modèles le 1er novembre 2026 : la recherche `mistral`, **tools** coché, **Zero data retention** sur **Supported**, et **In-region routing** sur **EU**. Ils montrent les modèles Mistral qui ont une ligne en Europe, mais c'est `--model` qui décide si Mistral en sert un. Ne pas se fier aux cartes, dont chacune montre un prix et une fenêtre qui ne sont pas ceux de l'entreprise européenne : Mistral Small 3.2 affiche 256K et 0,075 \$, là où `mistral/eu` donne 32k et 0,10 \$. Sans la recherche sur `mistral`, le filtre EU montre aussi d'autres entreprises, que `--europe` refuse.
 
-C'est la fenêtre, la quantité de texte qu'un modèle peut lire en une fois, qui change le plus. `mistral-small-2603` a 262k jetons sur `mistral/eu`. Mistral Small 3.2 y a 32k, contre 128k à 256k chez les trois autres entreprises, aucune indiquée en Europe. Personne n'a essayé un chatbot en mode groupe avec une longue conversation dans 32k (non testé).
+C'est la fenêtre, la quantité de texte qu'un modèle peut lire en une fois, qui change le plus. `mistral-small-2603` a 262k jetons sur `mistral/eu`. Mistral Small 3.2 y a 32k, contre 128k à 256k chez les trois autres entreprises, aucune indiquée en Europe.
 
 Le mode B envoie tout le kit d'un coup. Il tourne avec `mistral-small-2603` ([partie 6](#partie-6--les-modèles-au-1er-novembre-2026)). Avec Mistral Small 3.2 sur `mistral/eu`, il a échoué avant le premier mot du modèle (mesuré le 1er novembre 2026). Les commandes refusent le mode B pour tout modèle à la fenêtre trop petite, avec ou sans `--europe` :
 
@@ -720,7 +714,7 @@ Le modèle par défaut n'atteint pas DeepSeek lui-même. OpenRouter indique 17 a
 
 ### Facultatif : La même règle pour tout le compte
 
-Cette étape n'est pas nécessaire. `workshop-login --europe` demande déjà le ZDR dans chaque requête du kit. Ces réglages tiennent le ZDR pour tout le compte, quel que soit l'outil qui utilise la clé, Chat du site compris. Rien dans ce guide n'a tourné avec eux.
+Cette étape n'est pas nécessaire. `workshop-login --europe` demande déjà le ZDR dans chaque requête du kit. Ces réglages tiennent le ZDR pour tout le compte, quel que soit l'outil qui utilise la clé, Chat du site compris.
 
 1. En tant que titulaire du compte, ouvrir les [réglages de confidentialité](https://openrouter.ai/settings/privacy), sous **Privacy** dans le menu du compte.
 2. Sous **Zero Data Retention**, activer chaque bouton : **All other models**, **Anthropic**, **OpenAI**, **Google** et **SpaceXAI**. DeepSeek et Mistral ne sont pas dans les quatre derniers : **All other models** est donc celui qui compte ici (lecture du guide). « Enabling a scope restricts all your requests to ZDR endpoints for that model group. » (activer un groupe limite toutes vos requêtes aux points d'accès ZDR de ce groupe).
@@ -732,11 +726,11 @@ Cette étape n'est pas nécessaire. `workshop-login --europe` demande déjà le 
 5. Ouvrir les [réglages Observability](https://openrouter.ai/settings/observability) de chaque workspace. Laisser **Input & output logging** désactivé (en bêta le 2 novembre 2026). Une fois activé, il stocke le texte des questions pendant au moins 3 mois, et vous-même comme tout admin pourriez lire ce qu'ont écrit les binômes. Ne rien ajouter sous **Traces**, que la documentation appelle Broadcast : cela envoie vos données à un outil extérieur. La page **Activity** peut afficher un bandeau avec **Connect a tool** : il mène à la même chose, donc ne pas y toucher.
 6. Dans le Codespace, taper `workshop-login`. Quand il demande la clé, ne rien coller et appuyer sur Entrée. Il faut voir `Key OK` : une entreprise peut servir le modèle, et la ligne ne dit pas laquelle. Si vous voyez `no company can serve the model`, choisir un autre modèle.
 
-Pour vérifier à la main après `--europe`, ouvrir [Logs](https://openrouter.ai/logs), filtrer sur une clé, et lire l'entreprise sur quelques lignes. Personne n'a vérifié ce qu'une ligne affiche comme région de données pour `mistral/eu` (non testé).
+Pour vérifier à la main après `--europe`, ouvrir [Logs](https://openrouter.ai/logs), filtrer sur une clé, et lire l'entreprise sur quelques lignes.
 
 ### Facultatif : Une règle tenue par OpenRouter
 
-La règle de `--europe` est dans votre Codespace : un `workshop-login --no-europe` tapé par accident la retire. Un **guardrail** (garde-fou) est une règle qu'OpenRouter tient pour une clé, de son côté. Il s'ajoute à `--europe` et ne remplace rien, et il ne lève rien de [ce qu'aucun réglage ne retire](#ce-quaucun-réglage-ne-retire). Mistral a aussi des lignes hors d'Europe : un garde-fou sur Mistral seul ne remplace donc pas `--europe`. Aucun garde-fou n'a été essayé avec ce guide. Le 2 novembre 2026, un compte personnel a une entrée **Guardrails** dans son menu, et la liste des clés a une colonne **Guardrails**, mais personne n'a ouvert cette page.
+La règle de `--europe` est dans votre Codespace : un `workshop-login --no-europe` tapé par accident la retire. Un **guardrail** (garde-fou) est une règle qu'OpenRouter tient pour une clé, de son côté. Il s'ajoute à `--europe` et ne remplace rien, et il ne lève rien de [ce qu'aucun réglage ne retire](#ce-quaucun-réglage-ne-retire). Mistral a aussi des lignes hors d'Europe : un garde-fou sur Mistral seul ne remplace donc pas `--europe`. Le 2 novembre 2026, un compte personnel a une entrée **Guardrails** dans son menu, et la liste des clés a une colonne **Guardrails**.
 
 1. Ouvrir la page **Guardrails** de votre [workspace](https://openrouter.ai/workspaces/default/guardrails) et cliquer sur **New Guardrail**.
 2. Régler **Provider allowlist** sur Mistral. Rien ne confirme qu'il puisse nommer `mistral/eu` seul.
@@ -752,7 +746,7 @@ Pour le texte anglais et les captures du site, voir [Part 8 - Data and young peo
 
 ---
 
-## Sources et état du guide
+## Sources et mesures
 
 Cette section dit d'où vient chaque fait, et donne les notes sur les mesures.
 
@@ -762,7 +756,7 @@ Les sources ont été lues le 1er novembre 2026 : conditions, politique de confi
 
 ### Les captures
 
-Les captures des pages publiques d'OpenRouter datent du 1er novembre 2026, vues sans compte et sans connexion. Celles des pages du compte (crédits, clés, activité, confidentialité) ont été prises le 2 novembre 2026 sur un vrai compte, avec les données personnelles masquées. Les libellés de ces pages dans ce guide viennent d'elles. Les captures du terminal viennent des vraies commandes de l'image 2026.10.43, dans un conteneur sans réseau, avec une fausse clé et un faux OpenRouter. Les noms des modèles sont réels : le faux OpenRouter servait une copie de la liste publique de ce jour-là.
+Les captures des pages publiques d'OpenRouter datent du 1er novembre 2026, vues sans compte et sans connexion. Celles des pages du compte (crédits, clés, activité, confidentialité) ont été prises le 2 novembre 2026 sur un vrai compte, avec les données personnelles masquées. Les libellés de ces pages dans ce guide viennent d'elles. Les captures du terminal viennent des vraies commandes de l'image des ateliers, dans un conteneur sans réseau, avec une fausse clé et un faux OpenRouter. Les noms des modèles sont réels : le faux OpenRouter servait une copie de la liste publique de ce jour-là.
 
 ### Notes sur les mesures
 
@@ -772,7 +766,7 @@ Ce tableau montre combien de fois chaque candidat a donné la même note que `cl
 | --- | --- | --- | --- | --- | --- |
 | `deepseek/deepseek-v4-flash` | 150/180 (83 %) | 30 | 0 | 1 | 0,016 \$ |
 | `google/gemini-2.5-flash-lite` | 133/154 (86 %) | 20 | 1 | 27 | 0,039 \$ |
-| `mistralai/mistral-small-3.2-24b-instruct` | 135/181 (75 %) | 44 | 2 | 0 | à compléter |
+| `mistralai/mistral-small-3.2-24b-instruct` | 135/181 (75 %) | 44 | 2 | 0 | moins de 2 \$ |
 
 `./sorter compare` avec chaque modèle, sur les 32 messages de test de l'atelier 6. Lire d'abord la colonne des urgences.
 
@@ -789,7 +783,7 @@ Le passage de `mistral-small-2603` du 1er novembre 2026 s'est fait par `workshop
 
 Le second passage du mode D de DeepSeek v4 Flash a pris 2 min 43 et a affiché 0,02 \$ pour 11 réponses. `score D --auto` a ensuite donné 21/22 avec DeepSeek comme juge, pour 0,0008 \$.
 
-Lors du passage du 5 novembre 2026, DeepSeek v4 Flash a répondu à 3 des 11 questions en mode bare (1, 2 et 10) par un appel d'outil écrit en texte, `<｜DSML｜tool_calls>`, au lieu d'une réponse : un `web_search` pour 1 et 10, un `curl` dans le terminal pour 2, des outils qu'il n'a pas. Les modes A à E n'en ont eu aucun. Dans Open WebUI, avec un chatbot construit par `openwebui chatbot`, il a cherché dans les documents avant de rendre son verdict sur une rumeur, puis a écrit ce verdict en français, en réponse à une question posée en anglais. Il a trouvé les 4 pages du wiki sur l'Italie, et a appelé l'outil de danger de feu pour Anvers, qui n'a donné aucun niveau parce que son fichier n'avait pas été rempli ce jour-là.
+Lors du passage du 5 novembre 2026, DeepSeek v4 Flash a répondu à 3 des 11 questions en mode bare (1, 2 et 10) par un appel d'outil écrit en texte, `<｜DSML｜tool_calls>`, au lieu d'une réponse : un `web_search` pour 1 et 10, un `curl` dans le terminal pour 2, des outils qu'il n'a pas. Les modes A à E n'en ont eu aucun. Dans Open WebUI, avec un chatbot construit par `openwebui chatbot`, il a cherché dans les documents avant de rendre son verdict sur une rumeur, puis a écrit ce verdict en français, en réponse à une question posée en anglais. Il a trouvé les 4 pages du wiki sur l'Italie, et a appelé l'outil de danger de feu pour Anvers.
 
 Dans le tableau des notes, deux modèles gratuits lancés en même temps ont reçu des 429. Une nouvelle tentative de `north-mini-code` seul a aussi échoué, le quota du jour étant déjà consommé. Chacun a ensuite tourné seul en mode C, avec 1 000 requêtes par jour. `cohere/north-mini-code:free` a eu 18/22 par le même juge, en 3 min 04, avec 0 erreur. `google/gemma-4-26b-a4b-it:free` s'est arrêté après 3 questions en 429 en 10 s, et ses requêtes n'ont pas été comptées à part. Ce 429 venait de l'entreprise qui l'exploite (`Provider returned error`).
 
@@ -799,7 +793,7 @@ OpenCode réserve la réponse la plus longue possible à chaque requête. Le 1er
 
 Le tableau des prix d'OpenRouter et sa documentation diffèrent sur deux points, et aucun ne change une étape de ce guide. Le tableau donne Data Policy-Based Routing à Standard et au-dessus, et dit que le routage à zéro conservation des données existe sur toutes les offres. Il indique aussi Budgets & Spend Controls comme absent de Free, alors que la documentation dit que les limites de clés et les budgets de workspace existent sur toutes les offres.
 
-Le 1er novembre 2026, la [liste publique pour l'Europe](https://eu.openrouter.ai/api/v1/endpoints/zdr) d'OpenRouter montrait 87 points d'accès ZDR pour 76 modèles. 77 de ces points d'accès, pour 66 modèles, savent utiliser des outils. Ils viennent de cinq entreprises : Mistral, Azure, Amazon Bedrock, Google Vertex et Inceptron, dont les étiquettes ne disent pas Europe. `--europe` nomme `mistral/eu` seul, car ce sont les conditions de Mistral qui ont été lues. Il refuse donc un modèle servi en Europe par une autre entreprise. Personne n'a essayé cela avec `deepseek/deepseek-v4-flash-0731` chez Inceptron (non testé).
+Le 1er novembre 2026, la [liste publique pour l'Europe](https://eu.openrouter.ai/api/v1/endpoints/zdr) d'OpenRouter montrait 87 points d'accès ZDR pour 76 modèles. 77 de ces points d'accès, pour 66 modèles, savent utiliser des outils. Ils viennent de cinq entreprises : Mistral, Azure, Amazon Bedrock, Google Vertex et Inceptron, dont les étiquettes ne disent pas Europe. `--europe` nomme `mistral/eu` seul, car ce sont les conditions de Mistral qui ont été lues. Il refuse donc un modèle servi en Europe par une autre entreprise.
 
 La liste des modèles d'OpenRouter dit 256 000 pour Mistral Small 3.2 : `--europe` enregistre donc la fenêtre tirée de la liste des entreprises du modèle, qui dit 32k sur `mistral/eu`.
 

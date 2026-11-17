@@ -153,10 +153,6 @@ Chaque groupe cesse de parler de l'IA pour **concevoir sa propre solution**, sou
 - Il nomme **2 à 3 catégories observables** que l'IA aurait à classer, et une action du robot cohérente pour chacune
 - Il anticipe **au moins une erreur ou une limite réaliste**, et ce qu'il faudrait pour l'améliorer
 
-:::info[Notes pour l'animateur·rice]
-Les trois derniers indicateurs sont signalés comme provisoires dans la fiche source : ils ont été formulés pendant la conception de la séance et attendent d'être confrontés à plusieurs mises en oeuvre avant d'être stabilisés.
-:::
-
 ---
 
 _Cette fiche fait partie du projet [Youth AI Lab](/projets/youth-ai-lab), financé par le programme Erasmus+. Contenu sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

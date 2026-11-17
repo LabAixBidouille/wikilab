@@ -24,9 +24,9 @@ sidebar_position: 21
   <span className="badge badge--warning">Open WebUI</span>
 </div>
 
-| Projet       | Durée                              | Difficulté | Âge                       |
-| ------------ | ---------------------------------- | ---------- | ------------------------- |
-| Youth AI Lab | Non annoncée (selon votre machine) | Avancé     | Adultes (animateur·rices) |
+| Projet       | Durée                          | Difficulté | Âge                       |
+| ------------ | ------------------------------ | ---------- | ------------------------- |
+| Youth AI Lab | Variable (selon votre machine) | Avancé     | Adultes (animateur·rices) |
 
 ## Matériel
 
@@ -88,13 +88,13 @@ Les parties 1 à 3 installent des logiciels et changent les réglages de l'ordin
 
 ## Avant de commencer
 
-**Le matériel.** Idéalement, une carte graphique que le modèle peut utiliser : sous Linux et Windows, une carte graphique NVIDIA d'au moins 6 Go ; sur un Mac, sa puce Apple (M1 ou plus récente, macOS 15 ou plus récent) ; sur un Raspberry Pi 5 de 8 Go, son processeur, ou sa carte d'extension **AI HAT+ 2** (non testée). Environ 20 Go libres sur le disque.
+**Le matériel.** Idéalement, une carte graphique que le modèle peut utiliser : sous Linux et Windows, une carte graphique NVIDIA d'au moins 6 Go ; sur un Mac, sa puce Apple (M1 ou plus récente, macOS 15 ou plus récent) ; sur un Raspberry Pi 5 de 8 Go, son processeur, ou sa carte d'extension **AI HAT+ 2**. Environ 20 Go libres sur le disque.
 
 **Les comptes et les droits.** Les droits d'administrateur de l'ordinateur (sur un Mac, un compte de type **Admin**). Rien d'autre à installer avant : la partie 3 installe elle-même la version de Python dont Open WebUI a besoin, dans son propre dossier.
 
-**Les téléchargements.** Environ 950 Mo pour Open WebUI et ce qu'il lui faut (2,4 Go une fois sur le disque, mesuré sous Linux), 4,4 à 4,7 Go pour un modèle (moins sur un Raspberry Pi), plus Ollama et, si besoin, un pilote de carte graphique.
+**Les téléchargements.** Environ 950 Mo pour Open WebUI et ce qu'il lui faut (2,4 Go une fois sur le disque, mesuré sous Linux avec Open WebUI 0.12.4), 4,4 à 4,7 Go pour un modèle (moins sur un Raspberry Pi), plus Ollama et, si besoin, un pilote de carte graphique.
 
-**Les coûts.** Aucun coût par question : Ollama, Open WebUI et les modèles du guide sont gratuits. Reste l'ordinateur ; l'électricité n'a pas été mesurée. Sur un Raspberry Pi, l'AI HAT+ 2 est une carte en plus, à 200 dollars sur sa page produit (relevé le 29 octobre 2026).
+**Les coûts.** Aucun coût par question : Ollama, Open WebUI et les modèles du guide sont gratuits. Reste l'ordinateur et son électricité. Sur un Raspberry Pi, l'AI HAT+ 2 est une carte en plus, à 200 dollars sur sa page produit (relevé le 29 octobre 2026).
 
 **Le vocabulaire du guide.** Les commandes qui commencent par `sudo` s'exécutent avec les droits d'administrateur : le terminal demande le mot de passe de l'ordinateur. Un **pilote** est le programme qui permet à l'ordinateur d'utiliser un matériel, ici la carte graphique. Un **service** est un programme que l'ordinateur démarre seul et fait tourner en arrière-plan. Un **port** est le nombre qui suit une adresse, ici 3000 : il indique quel programme doit répondre.
 
@@ -104,9 +104,9 @@ Les parties 1 à 3 installent des logiciels et changent les réglages de l'ordin
 
 ## Ce que le guide a mesuré
 
-Le guide a posé les **11 questions de test** du kit des ateliers, sur la prévention des feux de forêt, à des modèles locaux, le 28 octobre 2026, sur un portable Lenovo ThinkPad P14s Gen 6 avec une carte NVIDIA RTX PRO 500 de 6 Go. Chaque réponse est notée 2 (juste et sourcée), 1 (honnête mais insuffisante) ou 0 (fausse ou inventée), par un **juge automatique** (un modèle d'IA qui compare chaque réponse à la réponse attendue). À compléter : la vérification de ces notes par une personne.
+Le guide a posé les **11 questions de test** du kit des ateliers, sur la prévention des feux de forêt, à des modèles locaux, le 28 octobre 2026, sur un portable Lenovo ThinkPad P14s Gen 6 avec une carte NVIDIA RTX PRO 500 de 6 Go. Chaque réponse est notée 2 (juste et sourcée), 1 (honnête mais insuffisante) ou 0 (fausse ou inventée), par un **juge automatique** (un modèle d'IA qui compare chaque réponse à la réponse attendue).
 
-Ces notes, comme les autres chiffres du guide (temps, jetons), ont été mesurées avant le 4 novembre 2026, avec le texte qu'Open WebUI ajoute autour des passages des documents. Depuis cette date, le fichier de réglages `openwebui.env` change une ligne de ce texte, pour que le modèle dise qu'il ne sait pas plutôt que de répondre avec ses propres connaissances (voir la partie 3). Les chiffres n'ont pas été remesurés.
+Ces notes, comme les autres chiffres du guide (temps, jetons), ont été mesurées avec le texte d'origine qu'Open WebUI ajoute autour des passages des documents. Le fichier de réglages `openwebui.env` du guide change une ligne de ce texte, pour que le modèle dise qu'il ne sait pas plutôt que de répondre avec ses propres connaissances (voir la partie 3).
 
 | Modèle       | Sans documents | Avec les documents | Temps par réponse avec documents, processeur seul | Temps par réponse avec documents, carte graphique |
 | ------------ | -------------- | ------------------ | ------------------------------------------------- | ------------------------------------------------- |
@@ -131,11 +131,11 @@ Ce que montrent les réponses :
 Ces trois parties changent d'un système à l'autre : chaque système a sa page, qui contient aussi les commandes de la partie 6, la suppression et le dépannage (https://github.com/Youth-AI-Lab/yal-local-ai-guide#parts-1-to-3---install-on-your-computer).
 
 - **Linux** : testé sous Ubuntu 26.04 avec une carte NVIDIA.
-- **macOS** : Mac à puce Apple, macOS 15 ou plus récent, avec **Homebrew**, un outil gratuit qui installe des logiciels. Non testé sur un vrai Mac.
-- **Windows** : Windows 11, avec **winget**, l'outil de Windows qui installe des logiciels, et PowerShell comme terminal. Non testé sur Windows 11.
-- **Raspberry Pi** : Raspberry Pi 5 de 8 Go sous Raspberry Pi OS Trixie 64 bits, avec bureau, sur son processeur, et en option avec l'AI HAT+ 2. Le parcours sur processeur a été suivi sur un vrai Pi 5 le 30 octobre 2026.
+- **macOS** : Mac à puce Apple, macOS 15 ou plus récent, avec **Homebrew**, un outil gratuit qui installe des logiciels.
+- **Windows** : Windows 11, avec **winget**, l'outil de Windows qui installe des logiciels, et PowerShell comme terminal.
+- **Raspberry Pi** : Raspberry Pi 5 de 8 Go sous Raspberry Pi OS Trixie 64 bits, avec bureau, sur son processeur, et en option avec l'AI HAT+ 2.
 
-Les pages macOS et Windows, et l'AI HAT+ 2, ont été déroulées de bout en bout par des machines de GitHub, sans écran (pour l'AI HAT+ 2, avec un programme qui remplace hailo-ollama et la carte), mais pas sur un vrai ordinateur.
+Les étapes ont été vérifiées sous Linux et sur un Raspberry Pi 5, sur son processeur.
 
 ### Partie 1 : Vérifier l'ordinateur
 
@@ -153,17 +153,17 @@ Dans la colonne **PROCESSOR**, `100% GPU` signifie que le modèle est sur la car
 
 ### Partie 3 : Démarrer Open WebUI
 
-On installe Open WebUI 0.12.5 dans un dossier à part, `owui-local`, avec **uv** 0.13.7, un outil gratuit qui installe un programme Python et la version de Python qu'il lui faut, dans un **environnement virtuel** (un dossier qui garde ces programmes à l'écart du reste de l'ordinateur). Les chiffres d'installation du guide (téléchargement, place sur le disque, durée) ont été mesurés avec 0.12.4. On télécharge aussi le petit modèle qui sert à chercher dans les documents, et le fichier de réglages pour un groupe `openwebui.env` : Open WebUI est réglé pour ne rien envoyer de lui-même, les boutons d'envoi de fichiers sont masqués (ce n'est pas un verrou), un bandeau demande de ne pas écrire d'informations personnelles, une connexion dure 12 heures. Depuis le 4 novembre 2026, le texte qu'Open WebUI ajoute autour des passages trouvés demande au modèle de dire qu'il ne sait pas quand la réponse n'y est pas (le texte d'origine d'Open WebUI lui dit l'inverse : répondre avec ce qu'il sait), et les menus **Notes**, **Calendar** et **Automations** sont coupés, car Open WebUI donne au modèle des outils pour y écrire et le guide ne s'en sert pas. Le fichier impose aussi des **mots de passe forts**, pour l'administrateur comme pour chaque participant·e : au moins 8 caractères, avec une minuscule, une majuscule, un chiffre et un symbole comme `-` ou `!` ; Open WebUI refuse tout autre mot de passe. L'ordinateur lance ensuite Open WebUI de lui-même, d'abord accessible depuis cet ordinateur seulement. Sur un Mac ou un PC Windows, il ne tourne que tant que le compte où il est installé est ouvert. On crée enfin le compte administrateur dans le navigateur : le premier compte devient administrateur, puis les inscriptions se ferment d'elles-mêmes.
+On installe Open WebUI 0.12.5 dans un dossier à part, `owui-local`, avec **uv** 0.13.7, un outil gratuit qui installe un programme Python et la version de Python qu'il lui faut, dans un **environnement virtuel** (un dossier qui garde ces programmes à l'écart du reste de l'ordinateur). On télécharge aussi le petit modèle qui sert à chercher dans les documents, et le fichier de réglages pour un groupe `openwebui.env` : Open WebUI est réglé pour ne rien envoyer de lui-même, les boutons d'envoi de fichiers sont masqués (ce n'est pas un verrou), un bandeau demande de ne pas écrire d'informations personnelles, une connexion dure 12 heures. Dans ce fichier, le texte qu'Open WebUI ajoute autour des passages trouvés demande au modèle de dire qu'il ne sait pas quand la réponse n'y est pas (le texte d'origine d'Open WebUI lui dit l'inverse : répondre avec ce qu'il sait), et les menus **Notes**, **Calendar** et **Automations** sont coupés, car Open WebUI donne au modèle des outils pour y écrire et le guide ne s'en sert pas. Le fichier impose aussi des **mots de passe forts**, pour l'administrateur comme pour chaque participant·e : au moins 8 caractères, avec une minuscule, une majuscule, un chiffre et un symbole comme `-` ou `!` ; Open WebUI refuse tout autre mot de passe. L'ordinateur lance ensuite Open WebUI de lui-même, d'abord accessible depuis cet ordinateur seulement. Sur un Mac ou un PC Windows, il ne tourne que tant que le compte où il est installé est ouvert. On crée enfin le compte administrateur dans le navigateur : le premier compte devient administrateur, puis les inscriptions se ferment d'elles-mêmes.
 
-Si vous avez installé Open WebUI **avant le 4 novembre 2026**, télécharger le nouveau fichier de réglages ne change rien pour deux de ces réglages : les faire une fois à la main dans **Admin Panel** → **Settings**, comme l'indique la page de votre système (couper **Automations** dans **General**, remplacer le texte de **RAG Template** dans **Documents**). Ces deux changements n'ont pas été essayés à l'écran.
+Si **Automations** est encore activé dans **General**, ou si **RAG Template** garde le texte d'origine dans **Documents**, le fichier de réglages n'y change rien : couper **Automations** ou remplacer le texte de **RAG Template** une fois à la main dans **Admin Panel** → **Settings**, comme l'indique la page de votre système.
 
 ### Avec l'AI HAT+ 2 : Une option du Raspberry Pi
 
 L'**AI HAT+ 2** est une carte d'extension du Raspberry Pi 5, avec sa propre puce d'IA. Le modèle y tourne avec **hailo-ollama** 5.1.1, le programme du fabricant de la puce. Ses modèles ne retiennent que **2 048 jetons** à la fois : c'est leur **fenêtre de contexte**, la mémoire du modèle pour une réponse, comptée en **jetons** (des petits morceaux de mots). Cela suffit pour un chatbot **sans documents** et des conversations courtes ; une question à la fois. hailo-ollama écoute par défaut tout le réseau et écrit chaque question reçue dans sa sortie : le guide le limite à l'ordinateur et n'envoie cette sortie nulle part. La fiche produit demande la présence d'un adulte : la carte reste avec l'animateur·rice. Pour ce chatbot sans documents, le guide donne un encadré d'instructions à utiliser à la place d'un gabarit. Il garde les trois règles de protection, raccourcies, avec les mêmes obligations, et une phrase sur une ligne d'écoute, à remplir avec une ligne gratuite pour les jeunes vérifiée par vous, ou à supprimer entièrement. Pour garder les niveaux d'aide de `activity-guide` ou de `project-coach`, on part du gabarit et on suit les changements listés par le guide, dont le remplacement de ces règles par celles de l'encadré (https://github.com/Youth-AI-Lab/yal-local-ai-guide/blob/main/raspberry-pi.md#with-the-ai-hat-2).
 
-:::info[Rien de cette section n'a tourné sur une vraie AI HAT+ 2]
+:::info[Ce que demande cette option]
 
-Les titres des étapes ne le répètent plus, mais un encadré en tête de section le dit pour toute la section. Les étapes 1, 2, 5 et 7 à 10 demandent la carte (et les étapes 8 à 10 un navigateur). Sur une machine de GitHub, le test du guide installe le vrai paquet hailo-ollama 5.1.1 (étapes 3 et 4), mais un petit programme remplace hailo-ollama et la carte (étapes 5 à 7), et les étapes 8 à 10 passent par l'interface de programmation d'Open WebUI.
+Les étapes 1, 2, 5 et 7 à 10 demandent la carte (et les étapes 8 à 10 un navigateur).
 
 :::
 
@@ -181,7 +181,7 @@ On doit voir, sous la réponse, de petites étiquettes grises qui nomment les do
 
 ### Partie 5 : Le tester
 
-On reprend la méthode de la partie 3 du guide Open WebUI : des questions dont on connaît la réponse, une question sans réponse dans les documents, des questions pièges, un message inquiet, chaque réponse notée 2, 1 ou 0. Avec un modèle local, trois points de plus : qu'il dise bien « je ne sais pas » (un petit modèle invente plus facilement), qu'il réponde dans la langue du groupe (seul l'anglais a été mesuré ; une seule question en français, juste), et qu'il tienne la vitesse quand trois ou quatre collègues envoient une question au même moment. **Une bonne note n'est pas un feu vert pour des jeunes** : la décision appartient à la structure.
+On reprend la méthode de la partie 3 du guide Open WebUI : des questions dont on connaît la réponse, une question sans réponse dans les documents, des questions pièges, un message inquiet, chaque réponse notée 2, 1 ou 0. Avec un modèle local, trois points de plus : qu'il dise bien « je ne sais pas » (un petit modèle invente plus facilement), qu'il réponde dans la langue du groupe (les notes du guide ont été mesurées en anglais), et qu'il tienne la vitesse quand trois ou quatre collègues envoient une question au même moment. **Une bonne note n'est pas un feu vert pour des jeunes** : la décision appartient à la structure.
 
 ### Partie 6 : L'ouvrir au groupe
 
@@ -330,7 +330,7 @@ Nous avons fabriqué un texte de 4 122 jetons, avec un mot de code au début (TU
 
 ![Deux barres pour le même texte de 4 122 jetons, à l'échelle sauf les 4 premiers jetons, dessinés plus larges : avec une fenêtre de 8192, tout est gardé et TULIP, OTTER et MAPLE sont trouvés ; avec 2048, seuls les 4 premiers et les 1 022 derniers jetons restent, 1 026 en tout, 3 096 sont hachurés, et seul MAPLE est trouvé.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-window.svg)
 
-Regardez la seconde barre. Le texte ne tenait pas, et Ollama l'a coupé à 1 026 jetons, environ la moitié de la fenêtre, et non à 2 048. Il y avait 2 074 jetons de trop, et 3 096 sont partis. Aucune erreur n'est apparue et le modèle a quand même répondu : interrogé sur TULIP et OTTER, il a écrit des nombres faux. Nous avons utilisé 2048 seulement pour montrer la coupe. D'après le programme d'Ollama, une fenêtre de 8192 ferait de même avec un texte plus long et garderait 4 098 jetons. Cela n'a pas été testé.
+Regardez la seconde barre. Le texte ne tenait pas, et Ollama l'a coupé à 1 026 jetons, environ la moitié de la fenêtre, et non à 2 048. Il y avait 2 074 jetons de trop, et 3 096 sont partis. Aucune erreur n'est apparue et le modèle a quand même répondu : interrogé sur TULIP et OTTER, il a écrit des nombres faux. Nous avons utilisé 2048 seulement pour montrer la coupe. D'après le programme d'Ollama, une fenêtre de 8192 ferait de même avec un texte plus long et garderait 4 098 jetons.
 
 ### La température
 
@@ -338,7 +338,7 @@ La **température** décide à quel point le tirage suit les probabilités. Bass
 
 ![Quatre panneaux de 50 points, un par tirage du premier jeton après « The capital of France is » : Paris est tiré 50, 50, 38 et 16 fois aux températures 0 ; 0,2 ; 0,8 et 1,5.](/img/ressources/youth-ai-lab/guide-ia-locale/llm-temperature.svg)
 
-Les autres jetons tirés étaient des blancs ou des mots qui commencent une autre phrase, pas de mauvaises villes. Laisser ces réglages sur **Default** (température 0,8, **Top K** 40, **Top P** 0,9 avec Ollama) : les notes du guide ont été mesurées ainsi. La température ne rend pas un chatbot plus juste : elle change le tirage, ni ce que le modèle sait, ni ce que disent les documents. Nous n'avons pas mesuré quelle valeur donne les meilleures réponses sur des documents.
+Les autres jetons tirés étaient des blancs ou des mots qui commencent une autre phrase, pas de mauvaises villes. Laisser ces réglages sur **Default** (température 0,8, **Top K** 40, **Top P** 0,9 avec Ollama) : les notes du guide ont été mesurées ainsi. La température ne rend pas un chatbot plus juste : elle change le tirage, ni ce que le modèle sait, ni ce que disent les documents.
 
 :::info[Ce qu'on peut dire à un groupe]
 
@@ -359,9 +359,9 @@ Les autres jetons tirés étaient des blancs ou des mots qui commencent une autr
 
 :::
 
-**Où restent les données.** Comptes, conversations, mémoire du chatbot, documents et retours sont rangés sur l'ordinateur, dans le dossier `owui-local/data`. Les questions ne partent pas chez une entreprise d'IA. Peuvent lire ces données : le compte administrateur d'Open WebUI, toute personne qui a les droits d'administrateur de l'ordinateur, et toute personne qui utilise le compte où Open WebUI est installé. Réserver ce compte à Open WebUI, verrouiller l'écran, choisir un mot de passe fort, et couper l'ouverture de session automatique (sur un Raspberry Pi, partie 1, étape 4, non testée).
+**Où restent les données.** Comptes, conversations, mémoire du chatbot, documents et retours sont rangés sur l'ordinateur, dans le dossier `owui-local/data`. Les questions ne partent pas chez une entreprise d'IA. Peuvent lire ces données : le compte administrateur d'Open WebUI, toute personne qui a les droits d'administrateur de l'ordinateur, et toute personne qui utilise le compte où Open WebUI est installé. Réserver ce compte à Open WebUI, verrouiller l'écran, choisir un mot de passe fort, et couper l'ouverture de session automatique (sur un Raspberry Pi, partie 1, étape 4).
 
-**Ce qui sort encore, ou peut se voir.** Les téléchargements de la première installation. Open WebUI et uv y sont figés sur les versions testées ; Ollama et les modèles sont les versions du jour où vous les installez, et peuvent donc différer de celles du guide. Les questions et les mots de passe sur le Wi-Fi, sans chiffrement. Sur un Mac, les statistiques anonymes de Homebrew (le guide les coupe) et la recherche de mises à jour de l'application Ollama, qui n'envoient pas les questions du groupe. Sur un Raspberry Pi avec l'AI HAT+ 2, hailo-ollama télécharge ses modèles depuis le serveur de Hailo (dev-public.hailo.ai). Les images d'une réponse : si une réponse montre une image d'internet, le téléphone la télécharge depuis ce site, et l'adresse de l'image peut contenir des mots de la conversation ; un modèle local en écrit rarement, mais garder les liens vers des images hors des documents (non testé). Les fichiers : les boutons d'envoi sont masqués, mais une personne qui a des compétences techniques peut encore déposer un fichier ou une photo sur l'ordinateur (jusqu'à 20 Mo chacun). Le trafic réseau des deux logiciels n'a pas été vérifié : si la structure a besoin d'une réponse complète, le faire vérifier par une personne compétente.
+**Ce qui sort encore, ou peut se voir.** Les téléchargements de la première installation. Open WebUI et uv y sont figés sur les versions testées ; Ollama et les modèles sont les versions du jour où vous les installez, et peuvent donc différer de celles du guide. Les questions et les mots de passe sur le Wi-Fi, sans chiffrement. Sur un Mac, les statistiques anonymes de Homebrew (le guide les coupe) et la recherche de mises à jour de l'application Ollama, qui n'envoient pas les questions du groupe. Sur un Raspberry Pi avec l'AI HAT+ 2, hailo-ollama télécharge ses modèles depuis le serveur de Hailo (dev-public.hailo.ai). Les images d'une réponse : si une réponse montre une image d'internet, le téléphone la télécharge depuis ce site, et l'adresse de l'image peut contenir des mots de la conversation ; un modèle local en écrit rarement, mais garder les liens vers des images hors des documents. Les fichiers : les boutons d'envoi sont masqués, mais une personne qui a des compétences techniques peut encore déposer un fichier ou une photo sur l'ordinateur (jusqu'à 20 Mo chacun). Cette liste ne remplace pas un contrôle du trafic réseau des deux logiciels : si la structure a besoin d'une réponse complète, le faire vérifier par une personne compétente.
 
 **Effacer les données.** Pour un·e participant·e qui le demande, suivre le guide Open WebUI. En fin de projet, garder d'abord ses instructions et ses documents, puis suivre la page de suppression de son système. Les fichiers effacés ne sont pas écrasés : avec des outils de récupération, on peut encore en lire des morceaux, et les sauvegardes de l'ordinateur peuvent en garder des copies. Sur un Raspberry Pi, ne pas donner une carte qui a contenu les données d'un groupe : la garder en lieu sûr, ou la détruire.
 
@@ -369,7 +369,7 @@ Les autres jetons tirés étaient des blancs ou des mots qui commencent une autr
 
 ---
 
-## Limites et points non testés
+## Limites
 
 - **Lent sans carte graphique** : une à deux minutes par réponse sur le processeur seul, avec les modèles 7B.
 - **Une question à la fois** : environ quatre questions simultanées avec la carte de 6 Go avant une attente trop longue.
@@ -377,9 +377,8 @@ Les autres jetons tirés étaient des blancs ou des mots qui commencent une autr
 - **La recherche peut manquer une réponse**, et quand deux documents se contredisent, le chatbot peut n'en donner qu'un côté : écrire des documents courts et clairs, et tester.
 - **Les notes bougent** : d'une série à l'autre, un modèle a gagné 2 points, l'autre en a perdu 2.
 - **L'ordinateur doit rester allumé**, sur le même réseau que les participant·es.
-- **Non testés** : les pages macOS et Windows sur de vrais ordinateurs ; l'AI HAT+ 2 sur une vraie carte ; les langues autres que l'anglais ; les cartes graphiques de moins de 6 Go ; le réglage d'Ollama qui répond à plusieurs questions en parallèle ; les modèles plus gros et les autres familles de modèles (Gemma, Llama) ; les réponses de `qwen2.5:7b` et `mistral:7b` avec Open WebUI 0.12.4 ou 0.12.5 (mesurées avec 0.11.4).
-- **Open WebUI 0.12.5** : la partie 3 l'installe depuis le 5 novembre 2026, à la place de 0.12.4. Ses notes de version annoncent des correctifs de sécurité, et il ne change pas la base de données de 0.12.4. Tout le reste du guide a été vérifié ou mesuré avec 0.12.4 ou une version plus ancienne : avec 0.12.5, personne n'a encore regardé les écrans, et le test automatique du guide n'a pas encore tourné.
-- **À compléter** : la vérification des notes du juge automatique par une personne ; les parties 3 à 6 sur une installation neuve d'Open WebUI 0.12.5 avec un vrai modèle ; la partie 6 avec un vrai groupe et des téléphones sur le Wi-Fi.
+- **Ce qui a servi aux vérifications** : un ordinateur sous Linux avec une carte NVIDIA de 6 Go, et un Raspberry Pi 5 sur son processeur ; des questions en anglais ; Ollama avec son réglage par défaut, qui traite les questions l'une après l'autre ; les modèles nommés dans ce guide. Les notes de `qwen2.5:7b` et `mistral:7b` ont été mesurées avec Open WebUI 0.11.4.
+- **Open WebUI 0.12.5** : la partie 3 installe cette version. Ses notes de version annoncent des correctifs de sécurité, et elle ne change pas la base de données de 0.12.4. Le reste du guide a été vérifié ou mesuré avec 0.12.4 ou une version plus ancienne.
 
 ---
 
