@@ -157,7 +157,7 @@ forever(function () {
 </div>
 </div>
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Ce programme est une version étendue du programme « Faire clignoter une LED » adapté avec trois LED. Pour chaque LED :
 

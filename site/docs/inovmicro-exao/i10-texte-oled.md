@@ -189,7 +189,7 @@ screen.text("------------", at="S")     # ligne de tirets en bas
 screen.show()                           # affiche enfin ce qu'on a préparé sur l'écran
 ```
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 La fonction **`screen.text(texte, at=..., color=..., scale=...)`** affiche du texte sans que vous ayez à calculer de coordonnées en pixels : il suffit d'indiquer une **ancre cardinale** parmi celles décrites à l'[étape 1, section « Repérer la géométrie de l'écran »](#3-repérer-la-géométrie-de-lécran), ou un couple de coordonnées explicites.
 

@@ -146,7 +146,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
   <figcaption style={{margin: 0}}>Programme : vue JavaScript</figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Ce programme mesure l'humidité et la température toutes les minutes (fréquence ajustable).
 

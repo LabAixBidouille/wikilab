@@ -149,7 +149,7 @@ forever(function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Le code se compose de :
 

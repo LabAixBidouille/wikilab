@@ -464,7 +464,7 @@ while True:
     sleep_ms(500)
 ```
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 1. **Imports** : `random` pour tirer une couleur au hasard, `Pin` pour piloter les broches, `sleep_ms` pour les pauses.
 2. **Initialisation** : on prépare les deux LED en sortie et les deux boutons en entrée. Les boutons ont des **résistances pull-up externes** câblées directement sur la carte STeaMi (à ne pas confondre avec la pull-up interne du microcontrôleur) : elles maintiennent leur valeur à 1 au repos, donc on ne déclare rien de plus côté code.

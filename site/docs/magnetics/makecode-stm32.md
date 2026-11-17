@@ -33,7 +33,7 @@ sidebar_position: 2
 
 </div>
 
-<img src="/img/ressources/magnetics/makecode-stm32/icone.png" alt="Magnetics — MakeCode STM32" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/magnetics/makecode-stm32/icone.png" alt="Créer des projets multicartes sur MakeCode (STM32)" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -214,7 +214,7 @@ magnetics.setAdvertisingKeyValueData("Pres (hPa)", input.pressure(PressureUnit.H
 })
 ```
 
-### Comment cela fonctionne-t-il ? Initialiser la collecte de données
+### Fonctionnement du programme : Initialiser la collecte de données
 
 Le code des cartes émettrices est quasiment identique d'une carte à l'autre (seul le capteur change) et reste simple à comprendre.
 

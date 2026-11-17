@@ -263,7 +263,7 @@ Le code reproduit exactement ce rapport, en millisecondes :
 
 À 120 battements par minute (`Q:1/4=120` sur la partition ci-dessus), une noire fait précisément 500 ms, d'où la valeur choisie. La mélodie de Tetris jouée ici n'utilise que `NOIRE` et `CROCHE`, mais le même principe permet d'ajouter les trois autres durées dès qu'on veut tenir une note plus longtemps (`BLANCHE`, `RONDE`) ou jouer des passages plus rapides (`DOUBLE_CROCHE`). Pour accélérer ou ralentir l'ensemble de la mélodie, il suffit de multiplier ou diviser toutes les durées par un même facteur.
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme s'organise en quatre parties :
 

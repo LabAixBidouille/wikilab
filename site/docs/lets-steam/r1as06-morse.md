@@ -120,7 +120,7 @@ input.buttonA1.onEvent(ButtonEvent.Click, function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Le code est vraiment simple ! Vous pouvez voir les deux fonctions `onEvent` qui permettent de détecter quand un bouton est pressé.
 

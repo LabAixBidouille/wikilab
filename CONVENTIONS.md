@@ -379,8 +379,6 @@ grep -n "—\|–\|…" site/docs/<projet>/<fiche>.md
 
 **Apostrophes typographiques** : tolérées. La plupart des éditeurs font l'auto-substitution `'` (ASCII U+0027) en `’` (typographique U+2019) sans intervention. Si vous préférez forcer l'apostrophe droite ASCII, c'est aussi accepté ; la cohérence à l'intérieur d'une fiche compte plus que le choix.
 
-**Exception temporaire** : le nom du projet `I-Novmicro #2 — Action EXAO` contient un em-dash et est référencé tel quel dans les footers des fiches portées et dans `site/src/data/projects.ts`. Le renommage est tracé dans l'[issue #84](https://github.com/LabAixBidouille/wikilab/issues/84) et sera propagé partout en une seule fois.
-
 ## Contenu à supprimer
 
 Lors de la conversion d'un PDF/source vers une fiche wiki :
@@ -456,7 +454,7 @@ Les tableaux vides (exemples à remplir) doivent avoir des lignes de taille éga
 
 ## Code MicroPython sur STeaMi
 
-Conventions stabilisées au fil des premières fiches du projet [I-Novmicro #2 — Action EXAO](https://github.com/LabAixBidouille/wikilab/issues/2). À appliquer à toutes les fiches qui contiennent du code MicroPython pour la carte STeaMi.
+Conventions stabilisées au fil des premières fiches du projet [I-Novmicro #2 : Action EXAO](https://github.com/LabAixBidouille/wikilab/issues/2). À appliquer à toutes les fiches qui contiennent du code MicroPython pour la carte STeaMi.
 
 ### Tableau du header
 
@@ -632,7 +630,7 @@ Pour les fiches portées depuis Let's STEAM (slugs `i01` à `i15`), **rédiger l
 L'**attribution CC BY-SA 4.0** reste obligatoire **dans le footer** :
 
 ```md
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asNN-nom`](/ressources/lets-steam/r1asNN-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1asNN-nom`](/ressources/lets-steam/r1asNN-nom)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
 ```
 
 ### Lien croisé réciproque côté Let's STEAM

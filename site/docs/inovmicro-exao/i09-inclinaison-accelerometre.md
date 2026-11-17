@@ -236,7 +236,7 @@ while True:
     time.sleep_ms(200)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme se lit en trois temps :
 

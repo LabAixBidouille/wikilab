@@ -187,7 +187,7 @@ while True:
     sleep_ms(500)
 ```
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Le programme tient en quatre éléments :
 

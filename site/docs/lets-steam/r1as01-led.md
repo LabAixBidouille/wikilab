@@ -145,7 +145,7 @@ forever(function () {
 })
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Voici la traduction en JavaScript du programme en blocs. Les mots-clés sont un peu différents : la fonction `digitalWrite` prend un paramètre booléen (`true` ou `false`). La traduction est facile : `true` signifie **HIGH** et `false` signifie **LOW**.
 

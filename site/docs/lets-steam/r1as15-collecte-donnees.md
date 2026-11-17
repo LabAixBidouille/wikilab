@@ -191,7 +191,7 @@ forever(function () {
 </div>
 </div>
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 #### Initialiser la collecte de données
 
@@ -230,16 +230,16 @@ Dans la boucle principale, il suffit de lire les données et de les envoyer au d
 
 ## Aller plus loin
 
-- **Mémoire flash** - En savoir plus sur la mémoire flash, support de stockage électronique non volatile.
+- **Mémoire flash** : en savoir plus sur la mémoire flash, support de stockage électronique non volatile.
   https://en.wikipedia.org/wiki/Flash_memory
 
-- **Gestionnaires d'événements** - Découvrez les gestionnaires d'événements (comment associer du code à un événement particulier).
+- **Gestionnaires d'événements** : découvrez les gestionnaires d'événements (comment associer du code à un événement particulier).
   https://makecode.microbit.org/reference/event-handler
 
-- **Make It Log** - Enregistrez les données de votre Circuit Playground Express directement dans une feuille de calcul.
+- **Make It Log** : enregistrez les données de votre Circuit Playground Express directement dans une feuille de calcul.
   https://learn.adafruit.com/make-it-data-log-spreadsheet-circuit-playground/logging-via-android-phone
 
-- **Datalogger MakeCode** - Utilisez la carte micro:bit comme enregistreur de données sans fil pour enregistrer les données de ses capteurs.
+- **Datalogger MakeCode** : utilisez la carte micro:bit comme enregistreur de données sans fil pour enregistrer les données de ses capteurs.
   https://microbit.org/projects/make-it-code-it/makecode-wireless-data-logger/
 
 ---

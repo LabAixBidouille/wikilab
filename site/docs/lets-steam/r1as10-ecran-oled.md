@@ -139,7 +139,7 @@ oled.printString("<3", PixelColor.White, 0, 10)
 oled.printString("------------", PixelColor.White, 0, 20)
 ```
 
-### Comment cela fonctionne-t-il ?
+### Fonctionnement du programme
 
 Vous pouvez écrire une ligne de texte avec la fonction `printString()`. Cette fonction prend les paramètres suivants :
 

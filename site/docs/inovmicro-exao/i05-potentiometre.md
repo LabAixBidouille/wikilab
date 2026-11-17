@@ -149,7 +149,7 @@ while True:
     sleep_ms(20)                       # ~50 mises à jour par seconde, fluide
 ```
 
-### Comment ça fonctionne ?
+### Fonctionnement du programme
 
 1. **Imports** : `ADC` et `PWM` viennent de `machine`. Ces deux classes encapsulent le matériel : on n'a pas à manipuler de registres, juste à appeler des méthodes.
 2. **Initialisation** : `ADC(Pin('P3'))` configure la broche P3 en entrée analogique. `PWM(Pin('P7'))` configure P7 en sortie modulée. `led.freq(1000)` fixe la fréquence à 1 kHz : la LED s'allume et s'éteint 1 000 fois par seconde, ce qui paraît continu à l'œil humain (effet stroboscopique invisible).
@@ -233,4 +233,4 @@ Imaginer un usage qui sorte du « variateur de lumière ». Pistes :
 
 ---
 
-_Cette fiche fait partie du projet [I-Novmicro #2 — Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as05-potentiometre`](/ressources/lets-steam/r1as05-potentiometre)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._
+_Cette fiche fait partie du projet [I-Novmicro #2 : Action EXAO](/projets/inovmicro-exao). Adaptée du projet [Let's STEAM](/projets/lets-steam) (fiche [`r1as05-potentiometre`](/ressources/lets-steam/r1as05-potentiometre)) sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)._

@@ -33,7 +33,7 @@ sidebar_position: 3
 
 </div>
 
-<img src="/img/ressources/magnetics/micropython/icone.png" alt="Magnetics — MicroPython" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
+<img src="/img/ressources/magnetics/micropython/icone.png" alt="Créer des projets multicartes en MicroPython" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
 
@@ -207,7 +207,7 @@ while True:  # Création d'une boucle "infinie" (pas de clause de sortie)
 pause(500)
 ```
 
-### Comment cela fonctionne-t-il ? Initialiser la collecte de données
+### Fonctionnement du programme : Initialiser la collecte de données
 
 Le code des cartes émettrices est quasiment identique d'une carte à l'autre (seul le capteur change) et reste simple à comprendre.
 
