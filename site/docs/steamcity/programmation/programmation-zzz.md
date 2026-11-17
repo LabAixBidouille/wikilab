@@ -70,7 +70,7 @@ Copiez-collez le code ci-dessous (ou organisez les blocs) puis testez dans le si
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-zzz/lumierebruittemperature/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue blocs</figcaption>
 </figure>
 
 ### Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
@@ -108,10 +108,10 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-zzz/lumierebruittemperature/code2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue JavaScript</figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme de mesure environnementale
 
 Le programme mesure toutes les minutes la température, la luminosité et le niveau sonore, et compile les informations dans un datalogger.
 
@@ -131,11 +131,11 @@ Un fichier `.csv` se lit dans Excel ou LibreOffice Calc via l'assistant d'import
 
 ### Étape 1 : Programmer la carte
 
-Identique à la section précédente : connexion via micro-USB, ajout de l'extension **Datalogger** dans MakeCode, copier-coller du code ci-dessous, puis téléchargement du `.hex` sur le lecteur **MICROBIT**. Seul le programme change — on remplace les capteurs environnementaux par l'accéléromètre intégré.
+Identique à la section précédente : connexion via micro-USB, ajout de l'extension **Datalogger** dans MakeCode, copier-coller du code ci-dessous, puis téléchargement du `.hex` sur le lecteur **MICROBIT**. Seul le programme change : on remplace les capteurs environnementaux par l'accéléromètre intégré.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code1.png" alt="Programme accéléromètre - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue blocs</figcaption>
 </figure>
 
 ### Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
@@ -174,10 +174,10 @@ basic.showIcon(IconNames.No)
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-zzz/amplitude/code2.png" alt="Programme accéléromètre - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue JavaScript</figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme accéléromètre
 
 Le programme mesure l'accélération sur les axes X, Y, Z toutes les 500 ms. Si au moins un axe est différent de 0, les valeurs sont enregistrées dans le datalogger.
 
@@ -194,7 +194,7 @@ L'accéléromètre renvoie des valeurs en milli-g (1000 milli-g = 1G = 9,81 m/s�
 Plusieurs ressources permettent de fixer la Micro:bit à un brassard pour que les élèves la portent pendant la nuit :
 
 - [Smart Coding Watch Kit pour micro:bit](https://www.my-etechno.com/pack-d-extension/1557-smart-coding-watch-kit-microbit.html)
-- [Duct Tape Watch (tutoriel low-cost)](https://makecode.microbit.org/projects/duct-tape-watch)
+- [Duct Tape Watch (tutoriel bon marché)](https://makecode.microbit.org/projects/duct-tape-watch)
 - [Yahboom Wrist:bit wearable watch kit](https://category.yahboom.net/products/wristbit)
 - [CHARGE for micro:bit](https://forwardedu.com/collections/charge-for-micro-bit)
 

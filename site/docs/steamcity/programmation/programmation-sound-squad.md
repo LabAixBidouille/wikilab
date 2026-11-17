@@ -39,7 +39,7 @@ sidebar_position: 2
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Sound Squad](/ressources/steamcity/sound-squad). La Micro:bit V2 dispose d'un microphone permettant de mesurer un niveau sonore relatif. En couplant cette mesure à l'extension **Datalogger**, on obtient un enregistreur autonome capable de suivre l'évolution du bruit dans un lieu (cour d'école, jardin, chambre…) sur plusieurs jours.
+Cette fiche technique accompagne la ressource [Sound Squad](/ressources/steamcity/sound-squad). La Micro:bit V2 a un microphone qui mesure un niveau sonore relatif. En couplant cette mesure à l'extension **Datalogger**, on obtient un enregistreur autonome capable de suivre l'évolution du bruit dans un lieu (cour d'école, jardin, chambre…) sur plusieurs jours.
 
 ## Objectifs d'apprentissage
 
@@ -83,7 +83,7 @@ Cliquez sur **Télécharger** pour générer un fichier `.hex`, copiez-le sur le
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-sound-squad/makecode1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue blocs</figcaption>
 </figure>
 
 ---
@@ -128,10 +128,10 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-sound-squad/makecode2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme complet — vue JavaScript</figcaption>
+  <figcaption style={{margin: 0}}>Programme complet : vue JavaScript</figcaption>
 </figure>
 
-### Comment cela fonctionne ?
+### Fonctionnement du programme
 
 Ce programme mesure le niveau sonore ambiant toutes les 5 secondes (modifiable) et compile les informations dans un datalogger.
 

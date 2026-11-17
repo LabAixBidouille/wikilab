@@ -46,7 +46,7 @@ sidebar_position: 7
 
 ## Introduction
 
-Les pollinisateurs sont des acteurs invisibles et pourtant essentiels de notre environnement. Ils assurent la reproduction de nombreuses plantes, dont la majorité de celles qui produisent nos fruits et légumes. Pourtant, leur population est en danger, victime de la pollution, de la destruction de leurs habitats et des effets des pesticides. Dans cette enquête, les élèves deviendront des scientifiques qui étudieront la présence de pollinisateurs dans leur ville. Quels endroits leur sont favorables et pourquoi ? En tentant de répondre à ces questions, les élèves comprendront mieux le rôle fondamental que jouent les pollinisateurs dans la biodiversité et les effets concrets des activités humaines sur leur survie. Ils exploreront comment cela s'inscrit dans les défis mondiaux, notamment dans le cadre des ODD pour favoriser un avenir plus durable.
+Les pollinisateurs assurent la reproduction de nombreuses plantes, dont la majorité de celles qui produisent nos fruits et légumes. Pourtant, leur population est en danger, victime de la pollution, de la destruction de leurs habitats et des effets des pesticides. Dans cette enquête, les élèves deviendront des scientifiques qui étudieront la présence de pollinisateurs dans leur ville. Quels endroits leur sont favorables et pourquoi ? En tentant de répondre à ces questions, les élèves comprendront mieux le rôle des pollinisateurs dans la biodiversité et les effets concrets des activités humaines sur leur survie. Ils exploreront aussi le lien entre ces questions et les défis mondiaux, notamment les objectifs de développement durable (ODD).
 
 
 ### Structure du protocole
@@ -67,9 +67,9 @@ L'expérimentation se déroule en trois phases clés :
 
 - **Écosystème** : Une communauté d'organismes vivants qui interagissent entre eux et avec leur environnement physique.
 - **Biodiversité** : La variété de la vie végétale et animale dans un habitat particulier, essentielle au maintien de la stabilité de l'écosystème.
-- **Pollinisateurs** : Organismes (abeilles, papillons, oiseaux, insectes) qui jouent un rôle crucial dans la reproduction des plantes à fleurs en transférant le pollen d'une fleur à une autre.
+- **Pollinisateurs** : Organismes (abeilles, papillons, oiseaux, insectes) qui participent à la reproduction des plantes à fleurs en transférant le pollen d'une fleur à une autre.
 - **Piège non létal** : Un type de piège conçu pour capturer des organismes sans leur causer de dommages, utilisé à des fins d'études scientifiques.
-- **ODD** : Objectifs de développement durable — un ensemble de 17 objectifs mondiaux établis par les Nations Unies.
+- **ODD** : Objectifs de développement durable, un ensemble de 17 objectifs mondiaux établis par les Nations Unies.
 - **Études scientifiques** : Recherches systématiques menées pour recueillir des preuves empiriques, analyser des données et tirer des conclusions.
 - **Science citoyenne** : L'implication du grand public dans la recherche scientifique.
 - **Hypothèse** : Une explication proposée, établie sur la base de preuves limitées, servant de point de départ à une enquête plus approfondie.
@@ -140,7 +140,7 @@ Le protocole suit la méthode scientifique :
 </figure>
 
 :::info[Notes pour l'enseignant·e]
-Dans une approche d'apprentissage actif, il est pertinent de laisser les élèves concevoir eux-mêmes leur protocole. L'enseignant·e joue alors un rôle de guide, en garantissant l'intégration des éléments essentiels : utilisation de pièges à pollinisateurs pour obtenir des mesures objectives et tenue d'un journal d'enquête comportant une analyse qualitative.
+Dans une approche d'apprentissage actif, il est pertinent de laisser les élèves concevoir eux-mêmes leur protocole. L'enseignant·e les guide alors et vérifie que le protocole comprend deux éléments : des pièges à pollinisateurs pour obtenir des mesures objectives, et un journal d'enquête comportant une analyse qualitative.
 :::
 
 #### Exemple de protocole
@@ -161,7 +161,7 @@ Questions pour approfondir la réflexion :
 - Comment le changement climatique pourrait-il affecter les populations de pollinisateurs à l'avenir ?
 - Quelles mesures les communautés pourraient-elles prendre pour améliorer les habitats des pollinisateurs ?
 
-**Connaissances mobilisées** : les élèves ont appris les facteurs influençant le choix d'habitat des pollinisateurs, leur rôle essentiel, et l'utilité de la recherche bibliographique comme fondement de toute démarche scientifique.
+**Connaissances mobilisées** : les élèves ont appris les facteurs qui influencent le choix d'habitat des pollinisateurs, leur rôle, et l'utilité de la recherche bibliographique comme fondement de toute démarche scientifique.
 
 **Réflexion sur la mise en oeuvre** : les élèves ont appris à mener une recherche préliminaire, à participer à des échanges collaboratifs et à élaborer un protocole expérimental structuré.
 
@@ -181,7 +181,7 @@ Comprendre les aspects pratiques de la mise en place d'expériences et les impli
 
 ### Conceptualisation
 
-Les enseignants présenteront les concepts d'attractifs (eau sucrée) et de conception de pièges sûrs (non létaux). L'importance d'un placement judicieux des pièges sera abordée, en insistant sur la nécessité de sélectionner des emplacements qui correspondent aux hypothèses.
+Les enseignants présenteront les concepts d'attractifs (eau sucrée) et de conception de pièges sûrs (non létaux). Le placement des pièges sera aussi abordé : les emplacements choisis doivent correspondre aux hypothèses.
 
 ### Investigation par les élèves
 
@@ -228,7 +228,7 @@ Pour enrichir les données, vous pouvez ajouter des informations sur les espèce
 
 **Réflexion sur la mise en oeuvre** : collaboration, sécurité, collecte de données éthique.
 
-**Résultats d'apprentissage** : transformation d'une question de recherche en expérience concrète, première expérience en conception et installation de dispositifs scientifiques.
+**Résultats d'apprentissage** : les élèves ont transformé une question de recherche en expérience concrète, et ont conçu et installé leurs premiers dispositifs scientifiques.
 
 ---
 
@@ -277,7 +277,7 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 **Réflexion sur la mise en oeuvre** : transformation de données brutes en informations exploitables, intégrité des données.
 
-**Résultats d'apprentissage** : compétences en analyse de données, remise en question des modèles expérimentaux, importance des biais et de la rigueur méthodologique.
+**Résultats d'apprentissage** : les élèves ont développé des compétences en analyse de données, ont remis en question les modèles expérimentaux et ont compris l'importance des biais et de la rigueur méthodologique.
 
 ---
 
@@ -300,8 +300,8 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 ### Livres et guides
 
-- *"The Bees in Your Backyard"* par Joseph S. Wilson et Olivia Messinger Carril
-- *"Our Native Bees"* par Paige Embry
+- *The Bees in Your Backyard* par Joseph S. Wilson et Olivia Messinger Carril
+- *Our Native Bees* par Paige Embry
 
 ### Articles scientifiques
 
@@ -316,8 +316,8 @@ Les groupes présentent leurs résultats et comparent avec les hypothèses initi
 
 ### Vidéos éducatives
 
-- "The Importance of Bees"
-- "Ever wanted a bees-eye view of the world?" (National Trust)
+- « The Importance of Bees »
+- « Ever wanted a bees-eye view of the world? » (National Trust)
 
 ### Projets de science citoyenne
 

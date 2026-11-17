@@ -51,13 +51,13 @@ sidebar_position: 8
 
 ## Introduction
 
-Le protocole « Trees VS Cars » vise à offrir aux élèves une introduction accessible à l'apprentissage supervisé, un concept fondamental de l'apprentissage automatique et de l'intelligence artificielle. Grâce à une activité pratique en classe, les élèves approfondiront leur compréhension de la manière dont les ordinateurs peuvent apprendre à prendre des décisions en fonction de modèles de données.
+Le protocole « Trees VS Cars » vise à offrir aux élèves une introduction accessible à l'apprentissage supervisé, une notion de l'apprentissage automatique et de l'intelligence artificielle. Grâce à une activité pratique en classe, les élèves verront comment les ordinateurs peuvent apprendre à prendre des décisions en fonction de modèles de données.
 
-Derrière cet objectif général, les élèves exploreront comment les machines peuvent classer l'information en apprenant à partir d'exemples plutôt qu'en suivant des règles explicitement programmées. Cette approche permet aux ordinateurs de s'adapter à de nouvelles situations et de faire des prédictions basées sur des expériences antérieures – un peu comme l'apprentissage humain, mais grâce à des processus mathématiques et statistiques.
+Derrière cet objectif général, les élèves exploreront comment les machines peuvent classer l'information en apprenant à partir d'exemples plutôt qu'en suivant des règles explicitement programmées. Cette approche permet aux ordinateurs de s'adapter à de nouvelles situations et de faire des prédictions fondées sur des expériences antérieures, un peu comme l'apprentissage humain, mais grâce à des processus mathématiques et statistiques.
 
 À travers les phases du protocole, les élèves créeront un modèle capable de catégoriser les véhicules en deux groupes : ceux autorisés à circuler dans la ZBE de Bruxelles et ceux qui ne le sont pas, sur base de trois critères : le type de véhicule, le type de carburant et l'année de fabrication.
 
-Cette application spécifique – la classification des véhicules pour la Zone de Basses Émissions (ZBE) de Bruxelles – représente une mise en œuvre concrète de l'IA existante dans les systèmes de gestion urbaine, démontrant comment les villes utilisent des systèmes intelligents pour réguler le trafic et réduire la pollution. La technologie d'arbre de décision que les élèves exploreront est déployée dans diverses applications de ville intelligente, de l'optimisation des itinéraires des transports publics à la prévision des besoins en maintenance des infrastructures urbaines.
+La classification des véhicules pour la Zone de Basses Émissions (ZBE) de Bruxelles est un usage réel de l'IA dans les systèmes de gestion urbaine. Elle montre comment les villes utilisent des systèmes intelligents pour réguler le trafic et réduire la pollution. La technologie d'arbre de décision que les élèves exploreront est déployée dans diverses applications de ville intelligente, notamment pour optimiser les itinéraires des transports publics et prévoir les besoins en maintenance des infrastructures urbaines.
 
 ### Structure du protocole
 
@@ -66,7 +66,7 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 - **Phase 1 : Comprendre les arbres binaires.** Les élèves découvriront le concept d'arbres binaires, une structure de données largement utilisée dans le domaine de l'apprentissage supervisé.
 - **Phase 2 : Création d'arbres de décision pour la classification des véhicules.** Les élèves construiront un arbre de décision, une forme particulière d'arbre binaire, afin de séparer un ensemble de véhicules en deux catégories : ceux autorisés à circuler dans la ZBE de Bruxelles et les autres. Ils compareront les arbres créés et leur performance dans la catégorisation des véhicules.
 - **Phase 3 : Construction d'un arbre de décision guidé par un algorithme.** En s'appuyant sur les connaissances acquises, les élèves construiront un nouvel arbre de décision, en suivant cette fois un algorithme qui leur sera fourni. Ils compareront ensuite les arbres créés et leurs performances entre eux et avec les arbres de décision créés précédemment.
-- **Phase 4 : Explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, cette dernière phase incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme, leur montrant que l'IA n'est pas un outil magique capable de résoudre n'importe quel problème, mais plutôt un moyen très efficace de résoudre certains types de problèmes.
+- **Phase 4 : Explorer les limites des algorithmes d'IA.** Afin d'ouvrir une discussion plus large sur les systèmes d'IA et de conclure sur le protocole, cette dernière phase incitera les élèves à découvrir certaines des principales limites de ce type d'algorithme : l'IA résout très efficacement certains types de problèmes, mais pas n'importe quel problème.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/trees-vs-cars/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -77,9 +77,9 @@ Dans le protocole « Trees VS Cars », les élèves suivront une méthodologie e
 
 - **Arbre binaire** : un arbre binaire est une structure de données dans laquelle chaque élément (appelé nœud) possède au maximum deux nœuds enfants et au maximum un nœud parent. Les nœuds sans enfants sont appelés les « feuilles » de l'arbre.
 - **Apprentissage automatique** : l'apprentissage automatique (ML) est un domaine d'étude de l'intelligence artificielle qui s'intéresse au développement et à l'étude d'algorithmes statistiques capables d'apprendre à partir de données et de généraliser sur des données inédites, et ainsi d'effectuer des tâches sans instructions explicites.
-- **Apprentissage supervisé** : l'apprentissage supervisé est une technique d'apprentissage automatique qui utilise des ensembles de données étiquetés pour former des modèles d'algorithmes d'intelligence artificielle afin d'identifier les patterns et les relations sous-jacents entre les caractéristiques d'entrée et les sorties.
+- **Apprentissage supervisé** : l'apprentissage supervisé est une technique d'apprentissage automatique qui utilise des ensembles de données étiquetés pour entraîner des modèles d'algorithmes d'intelligence artificielle afin d'identifier les régularités et les relations sous-jacentes entre les caractéristiques d'entrée et les sorties.
 - **Modèle** : le modèle est le résultat du processus d'apprentissage. C'est lui qui permet de faire des prédictions sur de nouvelles données.
-- **Généralisation** : la généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant la formation.
+- **Généralisation** : la généralisation est la capacité du modèle à prédire correctement de nouvelles données, non utilisées pendant l'entraînement.
 - **Performances du modèle** : la performance du modèle est la mesure de la capacité d'un modèle à faire des prédictions correctes.
 
 ## Phase 1 : Comprendre les arbres binaires
@@ -94,7 +94,7 @@ Comprendre le concept d'arbres binaires.
 
 ### Conceptualisation
 
-Pour comprendre comment un ordinateur peut prendre une décision, il est nécessaire de comprendre comment il organise les données d'entrée. Commençons par examiner comment les humains ont structuré et organisé de grands volumes d'informations, ainsi que les méthodes utilisées pour les extraire. L'exemple le plus simple est celui des dictionnaires. Un dictionnaire est un livre contenant les définitions des mots, classées par ordre alphabétique. Cette organisation facilite la recherche. Il n'est pas nécessaire de parcourir tout le dictionnaire. En identifiant la première lettre du mot recherché, vous pouvez ouvrir directement à une page approximative où il pourrait se trouver. En fonction des mots présents sur cette page, il est possible de déterminer si la recherche doit se poursuivre avant ou après, éliminant ainsi un grand nombre de pages. Ce processus est ensuite répété jusqu'à localiser le mot recherché.
+Pour comprendre comment un ordinateur peut prendre une décision, il faut comprendre comment il organise les données d'entrée. Les humains ont eux aussi structuré et organisé de grands volumes d'informations, avec des méthodes pour les extraire. L'exemple le plus simple est celui des dictionnaires. Un dictionnaire est un livre contenant les définitions des mots, classées par ordre alphabétique. Cette organisation facilite la recherche. Il n'est pas nécessaire de parcourir tout le dictionnaire. En identifiant la première lettre du mot recherché, vous pouvez ouvrir directement à une page approximative où il pourrait se trouver. En fonction des mots présents sur cette page, il est possible de déterminer si la recherche doit se poursuivre avant ou après, éliminant ainsi un grand nombre de pages. Ce processus est ensuite répété jusqu'à localiser le mot recherché.
 
 Cette méthode est connue sous le nom de recherche dichotomique. Un autre exemple de cette approche est le jeu consistant à deviner un nombre compris entre 1 et 100. La meilleure stratégie consiste à diviser le champ des possibilités en deux parties égales, puis à éliminer l'une des deux moitiés. La structure utilisée pour la recherche dichotomique est un arbre binaire. Dans cette phase, les élèves découvriront comment ils l'emploient déjà.
 
@@ -127,8 +127,8 @@ L'arbre le moins efficace est celui qui ne contient qu'une seule branche, où le
 ### Restitution et réflexion
 
 - **Connaissances mobilisées :** Les élèves ont exploré le concept d'arbres binaires grâce à une activité pratique. Ils ont compris la structure de l'arbre et son efficacité dans la recherche de données en expérimentant la création d'arbres efficaces et inefficaces.
-- **Réflexion sur la mise en œuvre en classe :** Les élèves ont participé activement à la construction d'un arbre de recherche binaire en se positionnant dans la classe selon un ordre numérique. Grâce à une réflexion guidée, ils ont compris le concept d'arbres plus efficaces et l'importance d'équilibrer les branches pour minimiser la profondeur de recherche.
-- **Résultats d'apprentissage :** Les élèves ont acquis une compréhension fondamentale des arbres binaires et des arbres de recherche binaire. Ils ont appris à apprécier l'importance des arbres équilibrés pour une recherche de données efficace et à développer des compétences en résolution de problèmes pour optimiser les structures arborescentes.
+- **Réflexion sur la mise en œuvre en classe :** Les élèves ont participé activement à la construction d'un arbre de recherche binaire en se positionnant dans la classe selon un ordre numérique. Au cours d'une réflexion guidée, ils ont compris ce qui rend un arbre plus efficace : des branches équilibrées, qui réduisent la profondeur de recherche.
+- **Résultats d'apprentissage :** Les élèves ont appris ce que sont les arbres binaires et les arbres de recherche binaire. Ils ont vu qu'un arbre équilibré rend la recherche de données plus efficace, et ont développé des compétences en résolution de problèmes pour optimiser les structures arborescentes.
 
 ---
 
@@ -148,7 +148,7 @@ Une fois le concept d'arbre binaire maîtrisé, la structure de données créée
 
 Tout comme les arbres binaires, qui permettent d'éliminer rapidement de nombreux éléments d'une recherche, un arbre de décision évite les questions inutiles et accélère le processus de prise de décision.
 
-Dans cette phase du protocole, les élèves appliqueront leurs connaissances à la construction d'un arbre de décision plus complexe pour déterminer quel véhicule est autorisé ou non dans une ZBE. Dans les zones urbaines du monde entier, les zones à faibles émissions (ZBE) se multiplient, les villes s'efforçant de réduire la pollution atmosphérique et d'améliorer la santé publique. Ces zones restreignent l'accès aux véhicules en fonction de leurs niveaux d'émissions, garantissant ainsi que seuls ceux qui respectent certaines normes environnementales peuvent y entrer. Comprendre les critères d'entrée des véhicules est crucial pour les urbanistes et les propriétaires de véhicules. Comment utiliser un arbre de décision pour déterminer si un véhicule est autorisé ou non à entrer dans une ZBE ?
+Dans cette phase du protocole, les élèves appliqueront leurs connaissances à la construction d'un arbre de décision plus complexe pour déterminer quel véhicule est autorisé ou non dans une ZBE. Dans les zones urbaines du monde entier, les zones à faibles émissions (ZBE) se multiplient, les villes s'efforçant de réduire la pollution atmosphérique et d'améliorer la santé publique. Ces zones restreignent l'accès aux véhicules en fonction de leurs niveaux d'émissions : seuls ceux qui respectent certaines normes environnementales peuvent y entrer. Les urbanistes comme les propriétaires de véhicules ont besoin de comprendre les critères d'entrée des véhicules. Comment utiliser un arbre de décision pour déterminer si un véhicule est autorisé ou non à entrer dans une ZBE ?
 
 ### Investigation par les élèves
 
@@ -171,7 +171,7 @@ Pour chaque véhicule, il y a 3 caractéristiques avec 3 valeurs possibles :
 | Type de véhicule | Type de carburant | Date de fabrication |
 |---|---|---|
 | Voiture | Essence | ≤ 1994 |
-| Utilitaire | Diesel | 1995–2006 |
+| Utilitaire | Diesel | 1995-2006 |
 | Moto | Électrique | &gt; 2006 |
 
 Chaque véhicule possède également une étiquette, représentée par le feu tricolore en bas à droite de la carte.
@@ -194,9 +194,9 @@ Enfin, les groupes compareront leurs arbres et leurs performances. Il peut être
 
 ### Restitution et réflexion
 
-- **Connaissances mobilisées :** Les élèves ont exploré le concept d'arbres binaires et leur application en apprentissage automatique, notamment en classification de données. Ils ont appris les fondamentaux des arbres de décision, leur structuration et les méthodes d'évaluation de leurs performances prédictives.
-- **Réflexion sur la mise en œuvre en classe :** Grâce à des activités pratiques, les élèves ont construit des arbres de décision à partir d'un jeu de données de cartes de véhicules, définissant les conditions de séparation et organisant les données de manière itérative. La réflexion a consisté à tester leurs modèles avec des données inédites, à calculer la précision et à comparer les stratégies et les résultats avec leurs pairs.
-- **Résultats d'apprentissage :** Les élèves ont acquis une compréhension des arbres de décision comme outils d'aide à la décision, développant ainsi leur esprit critique pour structurer efficacement les données. Ils ont amélioré leurs compétences en science des données en mesurant la précision des modèles et en apprenant à évaluer l'impact de leurs choix de conception sur les performances.
+- **Connaissances mobilisées :** Les élèves ont exploré le concept d'arbres binaires et leur application en apprentissage automatique, notamment en classification de données. Ils ont appris les bases des arbres de décision, leur structuration et les méthodes d'évaluation de leurs performances prédictives.
+- **Réflexion sur la mise en œuvre en classe :** Les élèves ont construit des arbres de décision à partir d'un jeu de données de cartes de véhicules, en définissant les conditions de séparation et en organisant les données de manière itérative. La réflexion a consisté à tester leurs modèles avec des données inédites, à calculer la précision et à comparer les stratégies et les résultats avec leurs pairs.
+- **Résultats d'apprentissage :** Les élèves ont découvert les arbres de décision comme outils d'aide à la décision, et ont développé leur esprit critique pour structurer efficacement les données. Ils ont amélioré leurs compétences en science des données en mesurant la précision des modèles et en apprenant à évaluer l'impact de leurs choix de conception sur les performances.
 
 ---
 
@@ -212,7 +212,7 @@ Comprendre comment un ordinateur construit un arbre de décision efficace. Ident
 
 ### Conceptualisation
 
-À la phase précédente, les participants ont exploré la définition de critères de séparation permettant de déterminer, à chaque étape, si un véhicule est autorisé ou non à entrer dans la ZBE. Selon les groupes, les questions posées et les approches adoptées étaient différentes. Bien que le résultat final puisse être le même, il est essentiel de se demander s'il existe une solution (ou un algorithme) capable d'identifier les meilleurs critères pour prendre une décision de manière fiable et rapide.
+À la phase précédente, les élèves ont exploré la définition de critères de séparation permettant de déterminer, à chaque étape, si un véhicule est autorisé ou non à entrer dans la ZBE. Selon les groupes, les questions posées et les approches adoptées étaient différentes. Le résultat final peut être le même, mais existe-t-il une solution (ou un algorithme) capable d'identifier les meilleurs critères pour prendre une décision de manière fiable et rapide ?
 
 ### Investigation par les élèves
 
@@ -229,7 +229,7 @@ Pour les guider, les élèves disposeront du tableau suivant, qui peut être pla
 | Type de carburant | Essence | | | | |
 | Type de carburant | Électrique | | | | |
 | Date de fabrication | ≤ 1994 | | | | |
-| Date de fabrication | 1995–2006 | | | | |
+| Date de fabrication | 1995-2006 | | | | |
 | Date de fabrication | ≥ 2006 | | | | |
 
 Étapes pour trouver la meilleure condition de séparation :
@@ -254,8 +254,8 @@ Le reste du processus est identique à la phase précédente. Le résultat sera 
 ### Restitution et réflexion
 
 - **Connaissances mobilisées :** Les élèves ont exploré le processus décisionnel informatique. Ils ont appris à appliquer un algorithme structuré pour créer des arbres de décision cohérents et efficaces.
-- **Réflexion sur la mise en œuvre en classe :** Grâce à des activités pratiques, les élèves ont suivi un algorithme détaillé pour construire des arbres de décision basés sur une analyse statistique des caractéristiques des ensembles de données.
-- **Résultats d'apprentissage :** Les élèves ont acquis une compréhension des processus décisionnels informatiques et développé des compétences pour appliquer des algorithmes à la classification des données. Ils ont amélioré leur capacité à analyser méthodiquement des ensembles de données et ont reconnu l'importance de la précision dans les processus d'apprentissage automatique.
+- **Réflexion sur la mise en œuvre en classe :** Les élèves ont suivi un algorithme détaillé pour construire des arbres de décision fondés sur une analyse statistique des caractéristiques des ensembles de données.
+- **Résultats d'apprentissage :** Les élèves ont compris les processus décisionnels informatiques et se sont exercés à appliquer des algorithmes à la classification des données. Ils ont amélioré leur capacité à analyser méthodiquement des ensembles de données et ont constaté que la précision compte dans les processus d'apprentissage automatique.
 
 ---
 
@@ -271,7 +271,7 @@ Découvrir certaines des limites de ces algorithmes.
 
 ### Conceptualisation
 
-Dans le cadre de ce protocole, les arbres de décision apparaissent comme un outil particulièrement adapté, offrant la possibilité d'obtenir rapidement une réponse. Cependant, comme toute méthode de représentation, ils présentent des limites et un champ d'application au-delà duquel leur efficacité diminue. À cette phase, les élèves analysent et explorent les limites inhérentes à cette structure. Ils examinent également la qualité des données utilisées pour construire l'arbre et l'impact que ces données peuvent avoir sur la précision et la fiabilité des prédictions produites par cette structure.
+Dans ce protocole, les arbres de décision sont un outil adapté, qui donne rapidement une réponse. Comme toute méthode de représentation, ils ont pourtant des limites et un champ d'application au-delà duquel leur efficacité diminue. À cette phase, les élèves analysent les limites inhérentes à cette structure. Ils examinent également la qualité des données utilisées pour construire l'arbre et l'impact que ces données peuvent avoir sur la précision et la fiabilité des prédictions produites par cette structure.
 
 ### Investigation par les élèves
 
@@ -281,9 +281,9 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 
 ### Restitution et réflexion
 
-- **Connaissances mobilisées :** Les élèves ont abordé les limites fondamentales des algorithmes d'apprentissage automatique, en se concentrant sur deux aspects clés : l'insuffisance des données d'entraînement et la représentativité des ensembles de données. Ils ont développé une réflexion critique sur les raisons pour lesquelles les arbres de décision peuvent échouer dans certaines conditions.
-- **Réflexion sur la mise en œuvre en classe :** Grâce à des expériences, les élèves ont créé et évalué des arbres de décision avec des données de formation réduites et des ensembles de données non représentatifs.
-- **Résultats d'apprentissage :** Les participants ont appris à identifier et à expliquer les limites des arbres de décision et des algorithmes d'apprentissage automatique en général. Ils ont compris l'importance d'ensembles de données équilibrés et représentatifs, améliorant ainsi leur capacité à évaluer de manière critique la fiabilité des modèles prédictifs.
+- **Connaissances mobilisées :** Les élèves ont abordé deux limites des algorithmes d'apprentissage automatique : l'insuffisance des données d'entraînement et la représentativité des ensembles de données. Ils ont développé une réflexion critique sur les raisons pour lesquelles les arbres de décision peuvent échouer dans certaines conditions.
+- **Réflexion sur la mise en œuvre en classe :** Les élèves ont créé et évalué des arbres de décision avec des données d'entraînement réduites et des ensembles de données non représentatifs.
+- **Résultats d'apprentissage :** Les élèves ont appris à identifier et à expliquer les limites des arbres de décision et des algorithmes d'apprentissage automatique en général. Ils ont compris qu'un modèle a besoin d'ensembles de données équilibrés et représentatifs, et ont amélioré leur capacité à évaluer de manière critique la fiabilité des modèles prédictifs.
 
 ---
 
@@ -291,13 +291,13 @@ Ensuite, les élèves construiront un arbre de décision final, cette fois en in
 
 ### Livres et guides
 
-- *"Machine Learning: An Algorithmic Perspective"* par Marsland, S. — Présente les algorithmes derrière les arbres de décision, avec une approche pratique.
-- *"Data Mining: Practical Machine Learning Tools and Techniques"* par Witten, I. H., Frank, E., Hall, M. A., & Pal, C. J. — Un livre pratique qui explique comment mettre en œuvre des arbres de décision à l'aide d'outils modernes.
-- *"Data Mining with Decision Trees: Theory and Applications"* par Rokach, L., & Maimon, O. — Un livre spécialisé sur les arbres de décision, couvrant les fondements théoriques et les applications pratiques.
+- *Machine Learning: An Algorithmic Perspective* par Marsland, S. : présente les algorithmes derrière les arbres de décision, avec une approche pratique.
+- *Data Mining: Practical Machine Learning Tools and Techniques* par Witten, I. H., Frank, E., Hall, M. A., & Pal, C. J. : un livre pratique qui explique comment mettre en œuvre des arbres de décision à l'aide d'outils modernes.
+- *Data Mining with Decision Trees: Theory and Applications* par Rokach, L., & Maimon, O. : un livre spécialisé sur les arbres de décision, qui couvre les fondements théoriques et les applications pratiques.
 
 ### Ressources en ligne
 
-- [Mermaid](https://mermaid.live) — Outil en ligne permettant de créer des diagrammes et des schémas à l'aide d'une syntaxe textuelle simple. Particulièrement utile aux développeurs et aux chefs de projet qui souhaitent présenter visuellement des processus complexes de manière claire et efficace.
+- [Mermaid](https://mermaid.live) : outil en ligne pour créer des diagrammes et des schémas à l'aide d'une syntaxe textuelle simple. Il sert notamment aux développeurs et aux chefs de projet qui veulent présenter visuellement des processus complexes.
 - [Chapter 3.2 BINARY SEARCH TREES](https://algs4.cs.princeton.edu/lectures/keynote/32BinarySearchTrees.pdf), Algorithme par Robert Sedgewick, Kevin Wayne.
 
 ---

@@ -41,25 +41,25 @@ sidebar_position: 18
 
 Ce protocole vise à co-concevoir des objets intelligents dans le contexte des villes intelligentes, capables de percevoir l'environnement extérieur via des capteurs, de traiter des données observées et d'effectuer des actions via des actionneurs.
 
-Les objets intelligents peuvent également interagir entre eux ou avec les humains. Lors de la conception, il est important d'inciter les participants à réfléchir à la structure de l'objet intelligent et à son interaction avec l'environnement extérieur.
+Les objets intelligents peuvent également interagir entre eux ou avec les humains. Lors de la conception, inciter les participants à réfléchir à la structure de l'objet intelligent et à son interaction avec l'environnement extérieur.
 
 Les ressources fournies dans ce document comprennent des lignes directrices pour la réalisation du protocole avec des élèves de différents âges et niveaux, détaillant les activités proposées avec des phases, une durée et des exemples pratiques pour permettre aux modérateurs ou aux éducateurs intéressés de reproduire les ateliers proposés.
 
 Ce document comprend également des outils d'évaluation permettant de vérifier le niveau d'implication et d'apprentissage obtenu à la suite des activités menées et l'impact sur la sensibilisation, sur la nature des objets intelligents et leur rôle dans les villes intelligentes.
 
-La structure proposée a été validée par des chercheurs de plusieurs universités italiennes avec le soutien de l'association à but non lucratif Perlatecnica ETS et avec une contribution particulière du Département d'Informatique de l'Université de Salerne et de l'Université Libre de Bolzano, obtenant de bons résultats en termes d'implication et d'apprentissage.
+La structure proposée a été validée par des chercheurs de plusieurs universités italiennes, avec le soutien de l'association à but non lucratif Perlatecnica ETS et une contribution particulière du Département d'Informatique de l'Université de Salerne et de l'Université Libre de Bolzano. Elle a obtenu de bons résultats sur l'implication et l'apprentissage.
 
 ### Quelques conseils d'organisation
 
-- **Phase de familiarisation :** peut être mise en œuvre de manière individuelle ou collaborative. Une approche ludique ou une exploration linguistique axée sur l'étymologie des mots est recommandée. Une phase physique, où la structure des différents composants est présentée, doit être incluse.
+- **Phase de familiarisation :** peut être mise en œuvre de manière individuelle ou collaborative. Privilégier une approche ludique ou une exploration linguistique axée sur l'étymologie des mots. Inclure une phase physique, où la structure des différents composants est présentée.
 - **Phase de conception :** peut être entièrement physique ou purement numérique, en adoptant des langages de programmation textuels ou par blocs, selon l'âge et les compétences des élèves.
-- **Phase de prototypage :** doit être aussi physique que possible afin de permettre aux participants d'acquérir une expérience concrète de la construction de circuits simples. Une approche collaborative est suggérée.
+- **Phase de prototypage :** doit être aussi physique que possible afin de permettre aux participants d'acquérir une expérience concrète de la construction de circuits simples. Adopter de préférence une approche collaborative.
 
 ### Structure du protocole
 
-Le protocole Safari des objets connectés est divisé en deux phases complémentaires qui s'appuient l'une sur l'autre pour créer une compréhension globale de la conception collaborative d'objets intelligents.
+Le protocole Safari des objets connectés est divisé en deux phases complémentaires qui s'appuient l'une sur l'autre, pour que les participants comprennent dans son ensemble la conception collaborative d'objets intelligents.
 
-1. **Phase 1 : Familiarisation et idéation.** Les participants se familiarisent avec les concepts fondamentaux et proposent une idée de l'objet qu'ils souhaitent concevoir.
+1. **Phase 1 : Familiarisation et idéation.** Les participants se familiarisent avec les concepts de base et proposent une idée de l'objet qu'ils souhaitent concevoir.
 2. **Phase 2 : Conception et prototypage.** Mise en œuvre pratique via des ateliers en groupe, combinant courtes présentations et mise en pratique immédiate.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -70,7 +70,7 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 ### Glossaire
 
 - **Actionneur** : Composant d'un objet intelligent qui exécute une action physique en réponse à des données ou à des signaux (par exemple, un moteur, une lumière, un haut-parleur).
-- **Atelier pratique** : Méthode pédagogique qui combine des présentations théoriques avec une mise en pratique immédiate, favorisant l'apprentissage par la réalisation de projets concrets.
+- **Atelier pratique** : Méthode pédagogique qui combine des présentations théoriques avec une mise en pratique immédiate, pour apprendre en réalisant des projets concrets.
 - **Capteur** : Dispositif intégré dans un objet intelligent, capable de mesurer des données environnementales (par exemple, la température, la lumière, la pression).
 - **Conditions** : Ensemble de conditions combinées à l'aide d'opérateurs logiques (ET, OU) pour définir des comportements plus avancés en fonction de plusieurs critères.
 - **Cycles / Boucles** : Concept de programmation utilisé pour répéter une action ou un comportement plusieurs fois (par exemple, onstart, forever ou repeat dans MakeCode).
@@ -81,9 +81,9 @@ Le protocole Safari des objets connectés est divisé en deux phases complément
 
 ## Bibliographie
 
-1. Roumelioti, E., Pellegrino, M. A., Gennari, R., & D'Angelo, M. (2022). What Children Learn in Smart-Thing Design at a Distance: An Exploratory Investigation. *Methodologies and Intelligent Systems for Technology Enhanced Learning, 11th International Conference*, Springer, 22–31.
+1. Roumelioti, E., Pellegrino, M. A., Gennari, R., & D'Angelo, M. (2022). What Children Learn in Smart-Thing Design at a Distance: An Exploratory Investigation. *Methodologies and Intelligent Systems for Technology Enhanced Learning, 11th International Conference*, Springer, 22-31.
 2. Roumelioti, E., Pellegrino, M. A., Rizvi, M., D'Angelo, M., & Gennari, R. (2022). Smart-thing design by children at a distance: How to engage them and make them learn. *International Journal of Child-Computer Interaction*, 33, 100482.
-3. Pellegrino, M. A., Roumelioti, E., D'Angelo, M., & Gennari, R. (2021). Engaging Children in Remotely Ideating and Programming Smart Things. *CHItaly 2021*, ACM, Article 20, 1–5.
+3. Pellegrino, M. A., Roumelioti, E., D'Angelo, M., & Gennari, R. (2021). Engaging Children in Remotely Ideating and Programming Smart Things. *CHItaly 2021*, ACM, Article 20, 1-5.
 4. Pellegrino, M. A. & D'Angelo, M. (2021). Engaging Children in Smart Thing Ideation via Storytelling. *I-CITIES*.
 
 ---
@@ -100,7 +100,7 @@ Acquérir la terminologie nécessaire pour passer à la phase d'idéation. Terme
 
 ### Conceptualisation
 
-Avant de commencer les activités, il est nécessaire de recueillir des informations sur la perception et le niveau de connaissances des élèves concernant les villes et les objets intelligents, ainsi que sur leurs attentes. Utilisez des activités stimulantes pour transformer la pré-évaluation en expériences participatives :
+Avant de commencer les activités, recueillez des informations sur la perception et le niveau de connaissances des élèves concernant les villes et les objets intelligents, ainsi que sur leurs attentes. Utilisez des activités stimulantes pour transformer la pré-évaluation en expériences participatives :
 
 - **Évaluation par émojis :** les élèves sélectionnent des expressions exprimant leur niveau de confort avec les sujets abordés (programmation par blocs, ville intelligente, objets connectés).
 - **Positionnement des connaissances :** désigner différentes zones de la classe comme zones de connaissances, du niveau débutant à expert.
@@ -120,7 +120,7 @@ Les élèves doivent acquérir la terminologie nécessaire pour poursuivre l'id�
 
 #### Processus d'idéation
 
-Les élèves travaillent individuellement ou en groupe en répondant à la mission : « Concevoir des objets intelligents qui aident ou entravent les véhicules autonomes ». Les enseignants peuvent demander aux élèves de proposer des objets intelligents en détaillant leur structure, en décrivant leur comportement en termes de conditions « QUAND/SI... ALORS... » et en détaillant l'interaction avec d'autres objets au moyen de courts récits.
+Les élèves travaillent individuellement ou en groupe en répondant à la mission : « Concevoir des objets intelligents qui aident ou entravent les véhicules autonomes ». Les enseignants peuvent demander aux élèves de proposer des objets intelligents en détaillant leur structure, en décrivant leur comportement sous forme de conditions « QUAND/SI... ALORS... » et en détaillant l'interaction avec d'autres objets au moyen de courts récits.
 
 Exemple de tableau d'idéation :
 
@@ -145,7 +145,7 @@ Exemple de tableau d'idéation :
 
 ### Restitution et réflexion
 
-Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexion et le partage. Recueillez les idées proposées et encouragez les élèves à présenter brièvement leurs projets à la classe. Cette séance favorise la réflexion grâce à un brainstorming collaboratif.
+Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexion et le partage. Recueillez les idées proposées et encouragez les élèves à présenter brièvement leurs projets à la classe. Le partage prend la forme d'un brainstorming collaboratif.
 
 ---
 
@@ -153,7 +153,7 @@ Prévoyez environ 15 minutes à la fin de la phase d'idéation pour la réflexio
 
 ### Contexte de la séquence
 
-La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement en utilisant une approche incrémentale.
+La deuxième étape est entièrement consacrée à l'implémentation, combinant de courtes présentations de concepts de programmation avec la mise en pratique immédiate. Les élèves construisent le projet progressivement.
 
 ### Objectifs d'apprentissage
 
@@ -161,7 +161,7 @@ Acquérir ou consolider ses connaissances sur les concepts de programmation tels
 
 ### Conceptualisation
 
-Les élèves donneront vie à leurs conceptions grâce à la programmation par blocs. L'approche pédagogique combine de brèves introductions aux concepts de programmation et des applications pratiques immédiates.
+Les élèves donneront vie à leurs conceptions grâce à la programmation par blocs.
 
 #### Table ronde d'ouverture
 
@@ -213,9 +213,9 @@ Progression : condition avec OU, remplacement par ET, modification des entrées,
 
 ### Restitution et réflexion
 
-Cette phase de mise en œuvre a permis de guider les élèves dans l'application des concepts de programmation pour donner vie à leurs objets intelligents. En introduisant progressivement des boucles, des conditions simples et une logique complexe, les élèves ont créé des programmes fonctionnels simulant le comportement de leurs objets.
+Dans cette phase de mise en œuvre, les élèves ont appliqué les concepts de programmation à leurs objets intelligents. Avec les boucles, les conditions simples puis la logique complexe, introduites progressivement, ils ont créé des programmes fonctionnels qui simulent le comportement de leurs objets.
 
-La dernière séance de partage a permis aux élèves de découvrir diverses approches face à des défis similaires. L'alliance entre la créativité de la phase d'idéation et la réflexion logique nécessaire à la mise en œuvre permet aux élèves de comprendre comment la programmation peut être utilisée pour résoudre des problèmes concrets et améliorer notre environnement grâce aux technologies intelligentes.
+Lors de la dernière séance de partage, les élèves ont découvert diverses approches face à des défis similaires.
 
 ---
 

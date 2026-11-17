@@ -55,7 +55,7 @@ Cette fiche technique accompagne la ressource [Insulation](/ressources/steamcity
 
 ## Matériel nécessaire
 
-- **Carte Micro:bit V2** : inclut un écran LED (capteur de lumière), un capteur sonore et un capteur de température interne — environ 19 EUR par carte.
+- **Carte Micro:bit V2** : inclut un écran LED (capteur de lumière), un capteur sonore et un capteur de température interne, pour environ 19 EUR par carte.
 - **Câble micro-USB** pour alimenter et programmer la carte.
 - **Batterie externe (optionnelle)** : boîtier de piles Micro:bit pour environ 2,20 EUR par unité.
 - Kit Micro:bit V2 (carte + câble + boîtier) : 21 EUR par kit, 177 EUR pour 10 kits.
@@ -72,7 +72,7 @@ Il est recommandé de programmer entre 3 et 6 cartes Micro:bit afin de les répa
 
 Il existe deux versions du DHT11/DHT22 :
 
-1. **Sans carte PCB, 4 broches** : il faut ajouter une résistance de rappel entre Vcc et Data (220 Ω à 10 kΩ sous 3,3 V). Alternative : activer la résistance pull-up interne via Broche > Plus > Régler le levier en broche (Micro:bit dispose de pull-up internes ~12–13 kΩ). La 3e broche depuis la gauche n'est pas utilisée.
+1. **Sans carte PCB, 4 broches** : il faut ajouter une résistance de rappel entre Vcc et Data (220 Ω à 10 kΩ sous 3,3 V). Alternative : activer la résistance pull-up interne via Broche > Plus > Régler le levier en broche (Micro:bit dispose de pull-up internes ~12-13 kΩ). La 3e broche depuis la gauche n'est pas utilisée.
 2. **Montée sur PCB, 3 broches** (recommandée) :
    - **Vcc (+)** sur 3,3 V ou 5 V
    - **GND (−)** sur GND
@@ -98,7 +98,7 @@ Cliquez sur **Télécharger** pour générer le fichier `.hex`, puis copiez-le s
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-insulation/code1.png" alt="Programme - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue blocs</figcaption>
 </figure>
 
 ---
@@ -143,7 +143,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-insulation/code2.png" alt="Programme - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme — vue JavaScript</figcaption>
+  <figcaption style={{margin: 0}}>Programme : vue JavaScript</figcaption>
 </figure>
 
 ### Comment cela fonctionne ?
