@@ -104,12 +104,11 @@ Message à transmettre : **le travail est fait une fois, avant la question, et c
 Préparation, environ 1 heure :
 
 - **Une clé API Anthropic par binôme**, toutes dans **un seul espace de travail pour la salle**, plafonné à **3 \$ × le nombre de binômes**. Le plafond porte sur l'espace de travail, pas sur chaque clé : un binôme peut consommer la part d'un autre. Garder la console Anthropic ouverte pendant l'atelier. Chaque structure partenaire paie ses propres séances.
-- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,04 \$ pour les commandes du terminal de cet atelier, et environ 0,12 \$ pour les ateliers 1 à 5, joués une fois le 5 novembre 2026 dans un conteneur de l'image 2026.11.4, pas dans un Codespace ni avec un groupe ; sans compter `replay RAG` ni les chatbots d'Open WebUI. Un binôme qui pose plus de questions dépense plus : c'est un minimum. Les ateliers sont pour les adultes : aucun jeune ne tape dans le Codespace ni ne détient de clé, et OpenRouter demande des utilisateurs de 18 ans et plus. Les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirer les noms et les informations personnelles, et taper d'abord `workshop-login --europe` (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide). Avec le modèle de chatbot de `--europe` (Mistral Small 2603), **le lint n'est pas fiable** : le 2 novembre 2026, il n'a lu que `index.md` et `log.md`, puis a répondu « Everything is clean! », alors que les pages avaient 6 contradictions et qu'une page manquait dans l'index. Un seul essai. Si un binôme obtient un rapport propre, montrer les propositions de votre propre rapport, obtenu par la voie Claude.
+- **Ou des clés OpenRouter** (`sk-or-`) : mêmes commandes, aucun modèle Claude, et toute la salle sur un seul modèle pour que les totaux restent comparables (voir le guide [Utiliser les outils des ateliers avec une clé OpenRouter](/ressources/youth-ai-lab/guide-openrouter)). Ces commandes sont dans l'image `2026.10.43`. Les chiffres de cette fiche viennent de Claude et ne valent pas pour OpenRouter. Coût par binôme avec le modèle par défaut, DeepSeek V4 Flash : environ 0,04 \$ pour les commandes du terminal de cet atelier, et environ 0,12 \$ pour les ateliers 1 à 5 (mesuré en un passage, sans groupe, dans un conteneur hors Codespace), sans compter `replay RAG` ni les chatbots d'Open WebUI. Un binôme qui pose plus de questions dépense plus : c'est un minimum. Les ateliers sont pour les adultes : aucun jeune ne tape dans le Codespace ni ne détient de clé, et OpenRouter demande des utilisateurs de 18 ans et plus. Les jeunes n'utilisent qu'un chatbot dans Open WebUI, dans leur navigateur. Quand ce qu'ils ont écrit passe par OpenRouter, retirer les noms et les informations personnelles, et taper d'abord `workshop-login --europe` (voir la partie [Sécurité et protection des données](/ressources/youth-ai-lab/guide-openrouter#sécurité-et-protection-des-données) de ce guide). Avec le modèle de chatbot de `--europe` (Mistral Small 2603), **le lint n'est pas fiable** : lors d'un essai, il n'a lu que `index.md` et `log.md`, puis a répondu « Everything is clean! », alors que les pages avaient 6 contradictions et qu'une page manquait dans l'index. Si un binôme obtient un rapport propre, montrer les propositions de votre propre rapport, obtenu par la voie Claude.
 - **Faire tout le parcours soi-même** (environ 30 minutes) dans un Codespace gardé pour la séance : environ 1,05 \$ au total.
 - **Préparer la projection de la partie 4** : `wiki-graph`, `wiki/graph.md` ouvert avec `Ctrl+Shift+V`, et `wiki-explore` dans un onglet à côté. Dézoomer les deux cartes jusqu'à ce qu'aucune étiquette ne soit lisible.
 - **Rappeler à chaque binôme**, quelques jours avant, d'apporter son `my-work.zip` le plus récent, avec un résumé signé à l'atelier 3.
 - **Imprimer** la fiche d'une page, et la traduire si besoin en gardant en anglais les commandes et ce qu'affiche le terminal.
-- **Formulaire d'auto-évaluation** (« After ») : vérifier qu'il s'ouvre sur un téléphone par son QR code et qu'il ne recueille ni nom, ni adresse e-mail, ni âge (voir la page d'auto-évaluation https://youth-ai-lab.github.io/yal-workshop/1/self-assessment.html ; le lien du formulaire lui-même est à compléter).
 - N'utiliser cet atelier qu'avec l'image `2026.10.34` ou une plus récente.
 
 :::
@@ -127,7 +126,7 @@ Préparation, environ 1 heure :
 
 :::info[Notes pour l'animateur·rice]
 
-La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un long rapport à trier. À 10 minutes, demander à tout le monde d'arrêter de lire et de décider. Si le temps manque à la partie 5, garder `chatbot-export` et `workshop-save` : tout le reste peut attendre, mais pas le Codespace, qui s'arrête de lui-même. Les 10 minutes de marge servent à la partie 5, y compris les 5 minutes du formulaire d'auto-évaluation, que les 20 minutes de la clôture ne comprennent pas. Les durées réelles de chaque partie sont à compléter après la répétition.
+La partie 3 est la plus serrée : 15 minutes, dont plus de 2 pour le lint, et un long rapport à trier. À 10 minutes, demander à tout le monde d'arrêter de lire et de décider. Si le temps manque à la partie 5, garder `chatbot-export` et `workshop-save` : tout le reste peut attendre, mais pas le Codespace, qui s'arrête de lui-même. Les 10 minutes de marge servent à la partie 5.
 
 :::
 
@@ -184,13 +183,13 @@ Dans un nouveau Codespace, le premier `workshop E` demande encore une fois si l'
 
 :::info[Si vous utilisez OpenCode]
 
-Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. `ingest` et `lint` ont été mesurés avec OpenCode le 2 novembre 2026, avec une clé OpenRouter et deux petits modèles (DeepSeek v4 Flash, Mistral Small) : leur `ingest` n'a pas suivi toutes les règles du wiki, et un `lint` a dit que tout était propre alors que ce n'était pas le cas. Le 5 novembre 2026, un second essai de DeepSeek v4 Flash a écrit le journal et les liens, mais n'a noté aucune contradiction ; son `lint` a trouvé une source que la nouvelle page ne citait jamais, et 9 contradictions. Un seul essai à chaque fois. Lire le rapport du `lint` en le comparant aux pages ; avec une clé Claude : à compléter. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
+Mêmes commandes, après `workshop-login --engine opencode`. OpenCode demande l'autorisation avant chaque commande et chaque fichier qu'il écrit : `ingest` demande donc plus de réponses « allow ». `wiki-graph`, `wiki-explore` et `chatbot-export` n'utilisent aucun modèle. Avec OpenCode, une clé OpenRouter et deux petits modèles (DeepSeek v4 Flash, Mistral Small), `ingest` n'a pas suivi toutes les règles du wiki, et un `lint` a dit que tout était propre alors que ce n'était pas le cas. Dans un autre essai, DeepSeek v4 Flash a écrit le journal et les liens, mais n'a noté aucune contradiction ; son `lint` a trouvé une source que la nouvelle page ne citait jamais, et 9 contradictions. Lire le rapport du `lint` en le comparant aux pages. Les mêmes pièces, dans un dossier de chatbot : la fiche [Construire son chatbot avec OpenCode](/ressources/youth-ai-lab/guide-opencode).
 
 :::
 
 :::info[Si votre clé commence par sk-or- (OpenRouter)]
 
-OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` et Open WebUI passent aussi par OpenRouter. Le détail de cette voie, commun à toute la série, est dans la section **With an OpenRouter key** de `SETUP.md`, dans le dépôt. `openwebui chatbot` avec le wiki et le modèle par défaut, DeepSeek V4 Flash, a été essayé une fois le 5 novembre 2026, sur un ordinateur portable et non dans un Codespace : à la question de savoir quelles pages parlent de l'Italie, le chatbot a ouvert l'index du wiki (`wiki/index.md`) et trouvé les 4 pages.
+OpenRouter donne accès aux modèles de nombreuses entreprises avec une seule clé. Cette voie n'utilise aucun modèle Claude, et il n'y a rien à choisir : coller la clé dans `workshop-login`, sans option, et la clé choisit OpenCode. `deepseek/deepseek-v4-flash` écrit les réponses et les note, car `score` et Open WebUI passent aussi par OpenRouter. Le détail de cette voie, commun à toute la série, est dans la section **With an OpenRouter key** de `SETUP.md`, dans le dépôt. Lors d'un essai d'`openwebui chatbot` sur un ordinateur portable, hors Codespace, avec le wiki et le modèle par défaut, DeepSeek V4 Flash, à la question de savoir quelles pages parlent de l'Italie, le chatbot a ouvert l'index du wiki (`wiki/index.md`) et trouvé les 4 pages.
 
 À l'enregistrement, le message de réussite devient :
 
@@ -242,7 +241,7 @@ Le même dépôt s'ouvre sur son propre ordinateur, avec Docker et VS Code : voi
 
 ### Étape 3 : Lancer Open WebUI en arrière-plan
 
-À la partie 5, on verra le chatbot terminé dans Open WebUI. Son premier démarrage prend quelques minutes (3 min 21 dans un Codespace le 26 octobre 2026, avec une image plus ancienne) : le lancer maintenant.
+À la partie 5, on verra le chatbot terminé dans Open WebUI. Son premier démarrage prend quelques minutes (3 min 21 dans un Codespace) : le lancer maintenant.
 
 1. Dans le deuxième terminal, taper :
 
@@ -373,7 +372,7 @@ La règle de la skill `ingest` : le modèle écrit `According to one source, X; 
 3. À chaque fois qu'elle veut écrire, lire ce qu'elle écrit. Dans une page du wiki, chaque fait nouveau se termine-t-il par une note `[^...]` ? Chaque chiffre est-il celui du document ? (L'en-tête d'une page, l'index et le journal n'ont pas de notes.) Si oui, accepter avec **1. Yes**. Si quelque chose ne va pas, choisir **3. No** : `User rejected update to ...` s'affiche, rien n'est écrit, et le modèle s'arrête. Taper ce qui ne va pas et appuyer sur Entrée : il reçoit votre phrase et repart de là.
 4. Lire son compte rendu : quelles pages ont changé, a-t-elle trouvé une contradiction ? Quitter avec **Ctrl+C deux fois**.
 
-Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et non dans un Codespace, autorisations acceptées automatiquement), faire entrer le document de Bénévent a pris 42 secondes et coûté 0,14 \$ : une page créée, une mise à jour, l'index et le journal, avec une contradiction que personne n'avait placée là. Un binôme aurait eu 6 autorisations à donner, et la jauge a atteint environ 26 000 jetons. Un deuxième essai, le 2 novembre 2026 (image 2026.10.45), a pris 46 secondes et coûté 0,17 \$, et a trouvé la même contradiction. Le 5 novembre 2026 (image 2026.11.4), avec chaque modification acceptée une à une (par un script, dans une conversation), il a demandé 10 fois et pris 35 secondes.
+Dans nos essais, faire entrer le document de Bénévent a pris de 35 à 46 secondes et coûté de 0,14 à 0,17 \$. Le premier, dans un conteneur et non dans un Codespace, a créé une page, mis à jour une autre page, l'index et le journal, avec une contradiction que personne n'avait placée là, et la jauge a atteint environ 26 000 jetons. Le deuxième a trouvé la même contradiction. Un binôme a de 6 à 10 autorisations à donner.
 
 :::info[Important]
 
@@ -383,7 +382,7 @@ Lors de notre essai du 30 octobre 2026 (image 2026.10.34, dans un conteneur et n
 
 :::info[Comment lire nos mesures]
 
-L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. `AGENTS.md` était l'exemple Feurisson, avant l'ajout de ses règles de protection. Personne n'a répondu aux autorisations : le temps de votre propre lecture n'est donc pas compté. Chaque « même essai » ci-dessous a tourné dans ces conditions. Vos nombres seront différents.
+L'**image** est l'environnement tout prêt derrière un Codespace, et son numéro est sa version. **Dans un conteneur** veut dire ce même environnement, démarré hors d'un Codespace. `AGENTS.md` était l'exemple Feurisson, sans ses règles de protection. Personne n'a répondu aux autorisations : le temps de votre propre lecture n'est donc pas compté. Le premier essai de `ingest`, de `replay E` et du lint a tourné dans ces conditions. Vos nombres seront différents.
 
 :::
 
@@ -427,7 +426,7 @@ On le lance maintenant, après `ingest`, pour que les réponses puissent utilise
    replay E
    ```
 
-3. Le jeu se déroule sans intervention : le terminal montre chaque question au fur et à mesure, puis une ligne `Answers: ...` avec le coût. Ne pas l'attendre : continuer la partie 3 dans le premier terminal. Les réponses attendent le binôme à la partie 5. Dans le même essai, il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12. Avec `deepseek/deepseek-v4-flash`, 11 questions ont pris de 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E (un seul essai).
+3. Le jeu se déroule sans intervention : le terminal montre chaque question au fur et à mesure, puis une ligne `Answers: ...` avec le coût. Ne pas l'attendre : continuer la partie 3 dans le premier terminal. Les réponses attendent le binôme à la partie 5. Dans nos mesures avec Claude, il a pris 1 min 57 et coûté 0,36 \$ pour les 11 questions du kit, sans question 12. Avec `deepseek/deepseek-v4-flash`, 11 questions ont pris de 3 à 4,5 minutes par `replay` dans les modes bare, C, D et E.
 
 :::info[Point de contrôle]
 
@@ -446,7 +445,7 @@ Surveiller quatre moments :
 
 Sans sauvegarde, Bénévent n'entre que dans `corpus/`, sans résumé ni signature : le binôme fait entrer le document officiel. L'indication affichée par `wiki-graph` parle de `summaries/` : le binôme suit la page de l'atelier, pas l'indication. Si `openwebui start` n'est pas terminé à la fin de la partie 2, ouvrir un troisième terminal pour `replay E`.
 
-À raconter, sans projeter : lors de l'essai, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions, et une personne décide. La page imprime les deux dates (encadré « Vérifier la contradiction trouvée ») comme deux périodes différentes : le 15 octobre pour les activités de la campagne, le 30 septembre pour le grand danger. Laisser les binômes lire les deux phrases et décider. Rappeler à la salle qu'aucune de ces deux dates n'est la réponse à la question 11 (du 6 juillet au 27 septembre 2026).
+À raconter, sans projeter : lors de nos essais, faire entrer Bénévent a fait apparaître une contradiction que personne n'avait placée là. La skill interdit de la trancher, donc le journal garde les deux versions, et une personne décide. La page imprime les deux dates (encadré « Vérifier la contradiction trouvée ») comme deux périodes différentes : le 15 octobre pour les activités de la campagne, le 30 septembre pour le grand danger. Laisser les binômes lire les deux phrases et décider. Rappeler à la salle qu'aucune de ces deux dates n'est la réponse à la question 11 (du 6 juillet au 27 septembre 2026).
 
 :::
 
@@ -504,13 +503,13 @@ Le lint est lui aussi un modèle. Il peut manquer un problème, et il peut en si
 3. Repérer la ligne `Skill(lint)`. S'il demande à lancer une commande qui lit des fichiers, accepter avec **1. Yes**.
 4. Regarder la jauge. Elle monte bien plus haut que pour `ingest`, parce que le lint lit toutes les pages et retourne aux sources. C'est pour cela qu'on a démarré une nouvelle conversation.
 
-Dans le même essai, le lint a pris 2 min 10 et coûté 0,55 \$, et la jauge a atteint environ 137 000 jetons, 68 % de la fenêtre. C'est plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document. Un deuxième essai, le 2 novembre 2026 (image 2026.10.45), a pris 72 secondes et coûté 0,34 \$. Un troisième, dans une conversation le 5 novembre 2026 (image 2026.11.4), a pris 1 min 55 et rempli la jauge jusqu'à environ 149 000 jetons (74 %), pour environ 0,80 \$ (notre estimation à partir des jetons) : le coût du lint change d'un essai à l'autre, et il reste l'étape la plus chère.
+Dans nos essais, le lint a pris de 72 secondes à 2 min 10 et coûté de 0,34 \$ à environ 0,80 \$ (ce dernier chiffre estimé à partir des jetons), et la jauge a atteint de 137 000 à 149 000 jetons (68 à 74 % de la fenêtre). À 0,55 \$, il coûtait déjà plus de la moitié de ce qui a été mesuré pour un binôme (1,05 \$ pour `ingest`, `lint`, `replay E` et le juge) : le lancer une seule fois par séance, pas après chaque document. Son coût change d'un essai à l'autre, mais il reste l'étape la plus chère.
 
 ### Étape 2 : Lire le rapport
 
 Le rapport commence par une ligne de décomptes, et sa dernière section s'appelle `Proposals`. Entre les deux viennent les **remarques** (_findings_) : ce que le lint juge faux, sous des titres comme `Contradictions`, `Statements without a valid source` et `Omissions and rewordings`. Une proposition est une action qu'il suggère, en général pour répondre à une remarque.
 
-Dans notre essai, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste. Le 5 novembre 2026, six remarques d'un autre lint ont été vérifiées dans leurs sources : trois étaient justes, et trois montraient un vrai manque mais le décrivaient mal (par exemple, deux périodes différentes présentées comme une contradiction).
+Dans un de nos essais, il n'a rien modifié, a listé 8 propositions, dont certaines purement cosmétiques, et a dit lui-même quelles sources il n'avait pas lues. Une seule a été vérifiée dans sa source, et elle était juste. Dans un autre, sur six remarques vérifiées dans leurs sources, trois étaient justes, et trois montraient un vrai manque mais le décrivaient mal (par exemple, deux périodes différentes présentées comme une contradiction).
 
 En binôme, trouver une remarque que l'on peut vérifier. Ouvrir la page qu'elle cite, puis sa source dans `corpus/text/`, et chercher le chiffre ou les mots avec `Ctrl+F`. Est-ce un vrai problème : une personne qui lit la page recevrait-elle un fait faux ou incomplet ? Ou est-ce une affaire de goût ?
 
@@ -539,7 +538,7 @@ Le binôme sait citer une remarque du rapport, et ce qu'il a décidé à son suj
 
 :::info[Notes pour l'animateur·rice]
 
-Réponse attendue : une correction peut retirer ou lisser un chiffre, et personne ne le remarquerait. Lors d'un premier essai, avant que les règles ne soient durcies, un modèle a réécrit une contradiction, un autre l'a omise, et le lint n'a rien vu. D'où les règles des skills : comparer chaque chiffre et sa portée, ne jamais omettre, ne jamais reformuler.
+Réponse attendue : une correction peut retirer ou lisser un chiffre, et personne ne le remarquerait. Lors d'un essai avec des règles moins strictes, un modèle a réécrit une contradiction, un autre l'a omise, et le lint n'a rien vu. D'où les règles des skills : comparer chaque chiffre et sa portée, ne jamais omettre, ne jamais reformuler.
 
 :::
 
@@ -673,14 +672,14 @@ Laisser les binômes arriver à leur verdict. Pour les bandes de Montoro et le d
 
 ### Étape 6 : Le graphe et la vitesse du chatbot
 
-Le graphe rend-il le chatbot plus rapide ? En discuter, puis lire ce qui a été mesuré le 21 octobre 2026 (Claude Code 2.1.240, hors Codespace), avec le graphe donné au modèle comme outil (mode `F`). Ce graphe était un graphe plus ancien, de 82 nœuds ; la carte ouverte aujourd'hui en a 111, et elle n'a pas été mesurée de cette façon :
+Le graphe rend-il le chatbot plus rapide ? En discuter, puis lire ce qui a été mesuré hors Codespace, avec le graphe donné au modèle comme outil (mode `F`), sur un graphe de 82 nœuds (la carte ouverte aujourd'hui en a 111) :
 
 | Questions                             | Mode E (wiki)    | Mode F (wiki + graphe) |
 | ------------------------------------- | ---------------- | ---------------------- |
 | 1, 3, 5 et 10                         | 0,46 \$, 1 min 26 | 0,51 \$, 1 min 38       |
 | « Compare the clearing distances... » | 0,20 \$, 42 s     | 0,20 \$, 33 s           |
 
-Sur nos 18 pages, non : l'index est déjà une carte suffisante, et le modèle lit quand même les pages pour avoir les faits exacts. Sur un petit wiki, le graphe n'aide pas encore le modèle, mais il aide déjà les personnes qui explorent : à l'étape 3, il vous a montré un lien entre Montoro et le débroussaillement français qu'aucune page n'écrit, et que vous avez ensuite vérifié vous-mêmes. Il pourrait aider le modèle sur un wiki beaucoup plus grand : cela n'a pas été mesuré.
+Sur nos 18 pages, non : l'index est déjà une carte suffisante, et le modèle lit quand même les pages pour avoir les faits exacts. Sur un petit wiki, le graphe n'aide pas encore le modèle, mais il aide déjà les personnes qui explorent : à l'étape 3, il vous a montré un lien entre Montoro et le débroussaillement français qu'aucune page n'écrit, et que vous avez ensuite vérifié vous-mêmes. Sur un wiki beaucoup plus grand, il pourrait aider le modèle.
 
 :::info[Point de contrôle]
 
@@ -710,7 +709,7 @@ Le graphe a demandé à un modèle de 7 à 10 minutes pour 18 pages, et le docum
 
 :::info[Notes pour l'animateur·rice]
 
-Réponse attendue : un modèle relit tout (environ 10 minutes et 163 000 jetons pour 18 pages le 21 octobre 2026 ; environ 7 min 30 avec Opus le 2 novembre 2026, pour 7,86 millions de jetons, lus pour la plupart depuis le cache ; 1,40 \$ le 6 novembre 2026), et toutes les suppositions sont nouvelles, donc une personne doit de nouveau les vérifier. Le rapport dit lui-même qu'on n'a peut-être pas besoin d'un graphe.
+Réponse attendue : un modèle relit tout (pour 18 pages, trois mesures : environ 10 minutes et 163 000 jetons ; environ 7 min 30 avec Opus, pour 7,86 millions de jetons, lus pour la plupart depuis le cache ; 1,40 \$), et toutes les suppositions sont nouvelles, donc une personne doit de nouveau les vérifier. Le rapport dit lui-même qu'on n'a peut-être pas besoin d'un graphe.
 
 :::
 
@@ -738,7 +737,7 @@ Pour chaque question, le juge propose une note. Appuyer sur Entrée pour l'accep
 
 ### Étape 2 : Lire ses scores ligne par ligne
 
-Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat** : le chatbot répond aussi bien, il lit moins, et chaque question coûte moins cher. Sans sauvegarde, comparer avec un binôme voisin qui utilise le même modèle. Les scores de référence de l'animateur·rice, pour comparer, ne sont pas encore prêts : à compléter.
+Ouvrir `scores.md`. Chaque atelier n'a noté que certaines questions, donc **la ligne Total ne veut rien dire ici**. Lire les lignes : pour 3, 11 et 12, comparer la colonne C avec la colonne E ; pour 10, les colonnes précédentes avec la colonne E. Le score a-t-il changé, comme prévu, et combien de contexte a-t-il fallu ? Chaque réponse de `answers/` a une ligne `Context: ... tokens` : la comparer entre les fichiers `answers/C-...` et `answers/E-...`. **Le même score avec une jauge plus petite est un résultat** : le chatbot répond aussi bien, il lit moins, et chaque question coûte moins cher. Sans sauvegarde, comparer avec un binôme voisin qui utilise le même modèle.
 
 ### Étape 3 : La réponse à la question de la série
 
@@ -790,7 +789,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
    openwebui chatbot --name "Feurisson"
    ```
 
-   Cela a pris 50 secondes pour 58 fichiers le 22 octobre 2026 (sur une machine locale, avec une image plus ancienne ; dans un Codespace : à compléter). C'est terminé quand s'affiche :
+   Cela a pris 50 secondes pour 58 fichiers sur une machine locale. C'est terminé quand s'affiche :
 
    ```text
    Ready. In Open WebUI (...): New Chat, then choose "Feurisson chatbot" in the message box (bottom right).
@@ -800,7 +799,7 @@ Projeter le tableau de la série, et lire la dernière colonne à voix haute : v
 
 2. Ouvrir l'adresse, choisir son chatbot (le bouton en bas à droite de la zone de saisie montre le modèle utilisé), et poser sa question 12 ou, sans question 12, l'une des questions du jour. Le chatbot a maintenant aussi les pages du wiki et, comme en mode E, le modèle décide lui-même quand chercher. La réponse donne-t-elle sa source ? Est-elle aussi bonne que dans son fichier `answers/E-...` ?
 
-   **La carte du wiki dans Open WebUI.** Le chatbot peut partir de la carte, `wiki__index.md`. Chaque lien y est le nom d'un fichier (`wiki__...`). Open WebUI ouvre un fichier des connaissances par un identifiant, pas par son nom : le modèle cherche d'abord ce nom, puis ouvre la page. Chaque page ouverte devient une source de la réponse. Cela a été essayé avec un modèle de test. Un petit modèle a aussi été essayé sur notre propre ordinateur (`qwen3:8b`) : il n'a jamais ouvert la carte, a répondu à partir des noms des fichiers, et a manqué une page. Avec Claude, en un essai, il a d'abord ouvert la carte et trouvé toutes les pages. Avec le même petit modèle, une rumeur (le travail de la skill `rumour-check`) a obtenu une réponse vide, 3 fois sur 3 : le modèle a pris la skill pour un outil qu'il pouvait appeler (voir la partie 5 de l'atelier [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)).
+   **La carte du wiki dans Open WebUI.** Le chatbot peut partir de la carte, `wiki__index.md`. Chaque lien y est le nom d'un fichier (`wiki__...`). Open WebUI ouvre un fichier des connaissances par un identifiant, pas par son nom : le modèle cherche d'abord ce nom, puis ouvre la page. Chaque page ouverte devient une source de la réponse. Un petit modèle local (`qwen3:8b`) n'a jamais ouvert la carte, a répondu à partir des noms des fichiers, et a manqué une page ; Claude a d'abord ouvert la carte et trouvé toutes les pages. Avec ce même petit modèle, une rumeur (le travail de la skill `rumour-check`) a obtenu une réponse vide, 3 fois sur 3 : le modèle a pris la skill pour un outil qu'il pouvait appeler (voir la partie 5 de l'atelier [Laisser un chatbot chercher et lui apprendre des savoir-faire](/ressources/youth-ai-lab/construire-chatbot-3-recherche)).
 
    **L'outil en direct.** Il ne fait que lire `mcp/fire-danger.json`, un fichier rempli à partir de sources publiques. Il ne peut rien écrire. Si le modèle l'appelle, une ligne **View Result from fire-danger_fire_danger** apparaît au-dessus de la réponse : cliquer dessus pour voir ce que l'outil a renvoyé.
 
@@ -833,8 +832,6 @@ Le paquet du chatbot (`feurisson.zip` ou le nom choisi) et `my-work.zip` sont su
 :::
 
 :::info[Notes pour l'animateur·rice]
-
-Le formulaire d'auto-évaluation « After » (5 minutes) se remplit avant les cartes de sortie : le même formulaire et le même code personnel qu'à l'atelier 1 (voir la page d'auto-évaluation https://youth-ai-lab.github.io/yal-workshop/1/self-assessment.html ; le lien du formulaire lui-même est à compléter).
 
 Ce que contient une bonne réponse à la carte de sortie : (1) le modèle ne décide pas quelle source a raison, une personne doit voir le désaccord ; (2) écrit dans une page, contre deviné par un modèle ; une personne vérifie, dans les sources ; (3) le modèle l'a écrit, à l'avance ; une personne signe les documents, arbitre et vérifie.
 
@@ -882,7 +879,7 @@ Votre chatbot est terminé : c'est la fin de la série « Construire son propre 
 
 :::info[Notes pour l'animateur·rice]
 
-Après l'atelier : noter les durées réelles des cinq parties et de la marge, ainsi que les coûts. Vérifier que chaque binôme a téléchargé ses deux fichiers. Si vous menez l'atelier 6, gardez les clés : sa partie 5 s'en sert, pour moins d'un centime par binôme. Si c'est votre dernier atelier, supprimer les clés des binômes, ou baisser le plafond de l'espace de travail.
+Après l'atelier : vérifier que chaque binôme a téléchargé ses deux fichiers. Si vous menez l'atelier 6, gardez les clés : sa partie 5 s'en sert, pour moins d'un centime par binôme. Si c'est votre dernier atelier, supprimer les clés des binômes, ou baisser le plafond de l'espace de travail.
 
 **Réemploi avec des jeunes.** Le wiki est une façon de remplir la case _Knowledge_ : un groupe apporte des documents locaux, un adulte les vérifie, et le chatbot reçoit des pages propres, chaque fait avec sa source. L'habitude compte plus que l'outil : deux sources qui ne concordent pas sont montrées côte à côte, et un lien deviné par un modèle est vérifié par une personne. Une ligne `Contradiction` du journal peut lancer une discussion avec un groupe, sans ordinateur : deux sources, la même question, qui a raison, et comment le savoir ? Avant tout usage avec un groupe, lire la partie sur les données des participant·es de la fiche [Partager un chatbot avec un groupe grâce à Open WebUI](/ressources/youth-ai-lab/guide-open-webui), et ne jamais utiliser le port 3000 d'un Codespace pour l'ouvrir.
 
@@ -911,9 +908,9 @@ Les messages de clé de `SETUP.md` qui nomment Anthropic existent aussi avec `Op
 - **`This is an OpenRouter key: Claude Code in the workshop needs an Anthropic key (sk-ant-…).`** : vous avez demandé Claude Code, avec `--engine claude` ou `WORKSHOP_ENGINE=claude`. Rien n'a été enregistré. Une clé OpenRouter tourne dans OpenCode : la ligne suivante du message dit quoi taper.
 - **`The saved key is an OpenRouter key: it works with OpenCode only. Type this command without WORKSHOP_ENGINE=claude.`** : votre clé est enregistrée, mais cette commande a demandé Claude Code, à qui il faut une clé Anthropic (elle commence par `sk-ant-`). Faire ce que dit le message, ou taper `workshop-login` et coller une clé Anthropic.
 - **`OpenRouter has no model <model> that can use tools.`** : rien n'a été enregistré. Le nom est faux, ou ce modèle ne sait pas utiliser d'outils, ce que demandent les ateliers. Les lignes suivantes montrent des noms proches.
-- **`Key saved, but this OpenRouter account has no credits left. Add credits, or choose a free model: workshop-login --models free`** : c'est l'erreur HTTP 402, prévenir l'animateur·rice. Dans `replay`, la ligne dit `no credits left on this key`. Une clé arrivée à sa limite peut donner ce message aussi (non testé). Avec un solde négatif, les modèles gratuits sont bloqués eux aussi. Après `workshop-login --europe`, le message s'arrête à `Add credits.` : aucun modèle gratuit ne tourne en Europe.
+- **`Key saved, but this OpenRouter account has no credits left. Add credits, or choose a free model: workshop-login --models free`** : c'est l'erreur HTTP 402, prévenir l'animateur·rice. Dans `replay`, la ligne dit `no credits left on this key`. Une clé arrivée à sa limite peut donner ce message aussi. Avec un solde négatif, les modèles gratuits sont bloqués eux aussi. Après `workshop-login --europe`, le message s'arrête à `Add credits.` : aucun modèle gratuit ne tourne en Europe.
 - **`Key saved, but this key has reached its spending limit. Tell the facilitator.`** : dans `replay`, la ligne dit `this key or its account reached a spending limit`.
-- **`Key saved, but the quota of the model <model> is reached for now (HTTP 429). Try again later, or choose another model: workshop-login --models openrouter`**, ou **`Key saved, but the model <model> is busy (HTTP <code>). Try again in a few minutes, or choose another model: workshop-login --models openrouter`** : faire ce que dit le message. Dans `replay`, la ligne dit `too many requests, or the quota of this key or of this model is used up`, après une attente, car OpenCode réessaie d'abord tout seul. Les modèles gratuits ont un quota : le 1er novembre 2026, 50 requêtes par jour (1 000 une fois que le compte a acheté au moins 10 \$ de crédits), requêtes échouées comprises. Lors de notre seul essai, avec deux modèles gratuits en même temps, `replay` s'est arrêté sur cette erreur : après les modes bare et A pour l'un, dès le début pour l'autre. Un seul à la fois, avec du quota restant, `cohere/north-mini-code:free` a terminé `replay C`, et `google/gemma-4-26b-a4b-it:free` s'est arrêté sur trois erreurs 429 en 10 secondes. Après `workshop-login --europe`, le message nomme un modèle Mistral au lieu de la liste : ce modèle suit la même règle.
+- **`Key saved, but the quota of the model <model> is reached for now (HTTP 429). Try again later, or choose another model: workshop-login --models openrouter`**, ou **`Key saved, but the model <model> is busy (HTTP <code>). Try again in a few minutes, or choose another model: workshop-login --models openrouter`** : faire ce que dit le message. Dans `replay`, la ligne dit `too many requests, or the quota of this key or of this model is used up`, après une attente, car OpenCode réessaie d'abord tout seul. Les modèles gratuits ont un quota : le 1er novembre 2026, 50 requêtes par jour (1 000 une fois que le compte a acheté au moins 10 \$ de crédits), requêtes échouées comprises. Lors d'un essai avec deux modèles gratuits en même temps, `replay` s'est arrêté sur cette erreur : après les modes bare et A pour l'un, dès le début pour l'autre. Utilisés un par un, avec du quota restant, `cohere/north-mini-code:free` a terminé `replay C`, et `google/gemma-4-26b-a4b-it:free` s'est arrêté sur trois erreurs 429 en 10 secondes. Après `workshop-login --europe`, le message nomme un modèle Mistral au lieu de la liste : ce modèle suit la même règle.
 - **`Key saved, but no company can serve the model <model> under the workshop's data rule. Choose another model: workshop-login --models openrouter`** : avec une clé OpenRouter, chaque requête demande d'écarter les entreprises qui peuvent collecter les données ou s'en servir pour l'entraînement. Certaines de celles qui restent peuvent quand même garder les questions un temps. Aucune ne sert ce modèle en ce moment. Dans `replay`, la ligne dit `the model is busy, or no company can serve it now` : réessayer plus tard, ou demander à l'animateur·rice.
 - **`Key saved, but Mistral does not serve the model <model> in Europe with zero data retention. Choose another model, for example: workshop-login --model <name>`** : vous avez activé `workshop-login --europe`, et ce modèle n'a aucune entreprise de ce type. Taper la commande que donne le message.
 - **`OpenCode is already open and keeps the old data rule: close it and start it again. A replay stops by itself before its next question.`** : vous avez changé `--europe` pendant qu'OpenCode tournait. Ce que vous y tapez part encore sous l'ancienne règle. Fermer ce chatbot, puis le relancer avec `workshop`.
