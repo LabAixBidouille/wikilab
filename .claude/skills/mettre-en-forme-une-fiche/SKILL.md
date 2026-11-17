@@ -82,8 +82,11 @@ Sections « Structure des fiches » et « Mise en forme ». Pas de gras dans un 
 ### Texte
 
 Sections « Texte », « Registre », « Vocabulaire des personnes selon le projet », « Objectifs
-d'apprentissage », « Caractères à éviter », « URLs affichées telles quelles ».
+d'apprentissage », « Pas de suivi interne », « Caractères à éviter », « URLs affichées telles
+quelles ».
 
+- aucun suivi interne du projet : ni « à compléter », ni « non testé », ni « pas remesuré avec la
+  version X », ni renvoi à une issue de suivi ; une limite utile s'écrit sans « pas encore » ;
 - vouvoiement ou infinitif ; le tutoiement reste permis dans un prompt ou une citation ;
 - le vocabulaire des personnes suit le projet (Youth AI Lab : animateur·rice, participant·es) ;
 - objectifs : phrase d'introduction sans gras terminée par « ... », puis des puces qui commencent
@@ -132,6 +135,9 @@ grep -c '^:::' site/docs/<projet>/<fiche>.md
 
 # vocabulaire Youth AI Lab
 grep -nE "élève|enseignant·e|en classe" site/docs/youth-ai-lab/*.md
+
+# suivi interne laissé dans le texte (voir « Pas de suivi interne » dans CONVENTIONS.md)
+grep -nE "à compléter|non testée?s?|pas encore|remesur|personne n'a encore|en cours d'intégration" site/docs/<projet>/<fiche>.md
 
 # outillage du dépôt (voir TESTING.md)
 npx cspell --no-progress site/docs/<projet>/*.md

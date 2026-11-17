@@ -11,7 +11,7 @@ Ce document fait autorité pour le **formatage des fiches pédagogiques** et leu
 2. [Structure des fiches](#structure-des-fiches)
 3. [Callouts](#callouts) — incluant les [encarts récurrents pour les fiches I-NOVMICRO](#encarts-récurrents-pour-les-fiches-i-novmicro)
 4. [Images](#images) — incluant l'[icône PNG (vignette)](#icône-png-vignette-du-header)
-5. [Texte](#texte) — incluant le [style pédagogique](#style-pédagogique--écrire-pour-des-élèves-pas-des-ingénieurs), le [vocabulaire des personnes selon le projet](#vocabulaire-des-personnes-selon-le-projet), les [objectifs d'apprentissage](#objectifs-dapprentissage), la [section Aller plus loin](#section-aller-plus-loin--pour-comprendre--pour-sinspirer)
+5. [Texte](#texte) — incluant le [style pédagogique](#style-pédagogique--écrire-pour-des-élèves-pas-des-ingénieurs), le [vocabulaire des personnes selon le projet](#vocabulaire-des-personnes-selon-le-projet), les [objectifs d'apprentissage](#objectifs-dapprentissage), la [section Aller plus loin](#section-aller-plus-loin--pour-comprendre--pour-sinspirer), la règle [pas de suivi interne](#pas-de-suivi-interne)
 6. [Contenu à supprimer](#contenu-à-supprimer)
 7. [Notes pour l'adulte encadrant](#notes-pour-ladulte-encadrant)
 8. [Catalogue (`resources.ts`)](#catalogue-resourcests)
@@ -339,6 +339,25 @@ Règles :
 - **« Pour comprendre »** est non-technique. Pas de doc MicroPython, pas de doc librairie. Privilégier Wikipédia, CNRS Journal, articles de vulgarisation, sites de musées scientifiques. Pour un sujet « datalogger », mieux vaut citer _l'histoire des marins du 19e siècle qui notaient température et pression à la main_ que la doc `time.ticks_ms()`.
 - **« Pour s'inspirer »** mélange pop culture et démarche citoyenne. Cible explicite : un élève doit trouver au moins un lien qui le branche, peu importe ses centres d'intérêt. Citer 4 à 8 entrées.
 - **Crosslinks internes** : citer largement les autres fiches du wiki (`/ressources/...`) qui couvrent un angle complémentaire. Une fiche datalogger renvoie vers les fiches SteamCity (qualité de l'air, bruit, isolation) ; une fiche musique renvoie vers les fiches d'autres instruments ; etc.
+
+### Pas de suivi interne
+
+Une fiche décrit l'activité, pas l'avancement du projet qui l'a produite. Le suivi d'un projet annexe (Youth AI Lab, STeaMi, I-NOVMICRO...) reste dans ses dépôts et ses issues. Une fiche publiée ne contient pas :
+
+- **un reste à faire** : « à compléter », « à compléter à la répétition », « lien à venir », une valeur laissée en blanc par le rédacteur ;
+- **l'état des tests** : « non testé », « personne n'a encore suivi ce guide », le résultat d'un script de contrôle ;
+- **l'historique des versions** : « pas remesuré avec 0.22.7 », un numéro d'image cité pour dater un essai, le récit des modifications d'un fichier d'exemple ;
+- **un renvoi au suivi** : un lien vers l'issue qui suit un travail dans un autre dépôt, une fiche « en préparation » ou « en cours d'intégration au wiki ».
+
+Ce qui sert à l'animateur·rice s'écrit comme une limite stable, sans « pas encore » : « Les étapes ont été vérifiées sous Linux. » plutôt que « macOS et Windows : non testé ». Une mesure garde sa portée (un seul essai, hors Codespace, avec tel modèle), sans la date de l'essai. Une valeur manquante se demande à l'auteur avant la publication ; sans elle, la phrase se réécrit sans la valeur ou se retire.
+
+Restent permis : ce que les participant·es complètent (phrases à trous, fiche de relevé), la version minimale d'un logiciel ou d'une image dont dépend une consigne, la colonne « Logiciel STeaMi testé » du [tableau du header](#tableau-du-header), et la date d'une mesure de prix, puisque les prix changent.
+
+Recherche rapide avant une PR :
+
+```bash
+grep -nE "à compléter|non testée?s?|pas encore|remesur|personne n'a encore|en cours d'intégration" site/docs/<projet>/<fiche>.md
+```
 
 ### Caractères à éviter
 
