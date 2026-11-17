@@ -54,7 +54,7 @@ Cette fiche technique accompagne la ressource [Decibel Detective](/ressources/st
 
 Pour programmer une carte Micro:bit pour mesurer le niveau sonore, vous aurez besoin :
 
-- **Carte Micro:bit V2** : carte programmable incluant un capteur de niveau sonore intégré — environ 19 EUR par micro:bit ([voir prix](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html))
+- **Carte Micro:bit V2** : carte programmable incluant un capteur de niveau sonore intégré, environ 19 EUR par micro:bit ([voir prix](https://www.kubii.com/fr/cartes-micro-controleurs/3091-carte-microbit-bbc-v2-5051259252585.html))
 - **Câble micro-USB** pour alimenter et programmer le micro:bit
 - **Batterie externe (optionnelle)** : boîtier de piles officiel Micro:bit disponible pour environ 2,20 EUR par pack ([voir](https://www.kubii.com/fr/alimentations/4237-1913-support-de-pile-officiel-pour-microbit-3272496317253.html))
 - Ordinateur ou tablette pour écrire et télécharger le code
@@ -75,7 +75,7 @@ Connectez la carte à l'ordinateur via le câble micro-USB. Une fois connectée,
 
 Dans l'éditeur, cliquez sur **EXTENSIONS** dans la colonne des blocs, recherchez l'extension **Datalogger** et ajoutez-la. Un nouveau groupe de blocs apparaîtra sur l'écran principal.
 
-Organisez les blocs en suivant le code ci-dessous (boucle infinie, enregistrement dans le datalogger…) ou copiez-collez directement le code dans l'éditeur JavaScript. Testez dans le simulateur de MakeCode.
+Organisez les blocs en suivant le code ci-dessous (boucle infinie, enregistrement dans le datalogger...) ou copiez-collez directement le code dans l'éditeur JavaScript. Testez dans le simulateur de MakeCode.
 
 Cliquez sur **Télécharger** pour générer un fichier `.hex`, puis copiez-le sur le lecteur amovible **MICROBIT**. La carte redémarre automatiquement et exécute le code.
 
@@ -88,7 +88,7 @@ Cliquez sur **Télécharger** pour générer un fichier `.hex`, puis copiez-le s
 
 ## Étape 2 : Placer la Micro:bit et démarrer l'enregistrement
 
-Placez la micro:bit à l'endroit où vous voulez collecter des données (jardin, parc, mairie…). Alimentez-la avec la batterie externe pour une collecte autonome sur plusieurs jours.
+Placez la micro:bit à l'endroit où vous voulez collecter des données (jardin, parc, mairie...). Alimentez-la avec la batterie externe pour une collecte autonome sur plusieurs jours.
 
 Une fois en place, appuyez sur le bouton **A** pour démarrer l'enregistrement.
 
@@ -127,7 +127,7 @@ datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-decibel-detective/makecode2.png" alt="Programme MakeCode - vue JavaScript" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme complet — vue JavaScript</figcaption>
+  <figcaption style={{margin: 0}}>Programme complet : vue JavaScript</figcaption>
 </figure>
 
 ### Comment cela fonctionne ?
@@ -136,7 +136,7 @@ Ce programme mesure le niveau sonore ambiant toutes les 5 secondes (intervalle m
 
 - **Bouton A** : déclenche la fonction d'enregistrement. Un icône « Yes » est affiché pendant 200 ms pour signaler le démarrage, puis l'écran est nettoyé.
 - **Boucle infinie** : à chaque itération, la valeur `input.soundLevel()` (estimation numérique de 0 à 255) est enregistrée via `datalogger.log()` + `datalogger.createCV()`.
-- **Pause de 5 000 ms** entre chaque enregistrement — modifiable pour capturer plus ou moins de données.
+- **Pause de 5 000 ms** entre chaque enregistrement, modifiable pour capturer plus ou moins de données.
 - **Horodatage** : `datalogger.includeTimestamp(FlashLogTimeStampFormat.Minutes)` ajoute un indicateur de temps en minutes à chaque enregistrement.
 - **Icône « No »** : affichée avant l'appui pour indiquer que la carte attend l'action de l'utilisateur.
 

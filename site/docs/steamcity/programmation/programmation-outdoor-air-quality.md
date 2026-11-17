@@ -60,7 +60,7 @@ Cette fiche technique accompagne la ressource [Outdoor Air Quality](/ressources/
 
 ## Fiche 1 : Surveillance des COV avec écran LCD
 
-Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Arduino sont très similaires. Nous présentons ici un programme conçu pour micro:bit.
+Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Arduino sont très similaires. Le programme ci-dessous est écrit pour micro:bit.
 
 Éditeurs : [vittascience.com/l476](https://fr.vittascience.com/l476), [vittascience.com/arduino](https://fr.vittascience.com/arduino) ou [vittascience.com/microbit](https://fr.vittascience.com/microbit).
 
@@ -68,16 +68,16 @@ Les interfaces de programmation pour les cartes NUCLEO-L476RG, micro:bit et Ardu
 
 - Capteur multicanal MICS6814 → port I2C
 - Écran LCD → port I2C
-- Module Openlog (carte SD) → port numérique (D2–D8 pour Arduino, P0 pour micro:bit)
+- Module Openlog (carte SD) → port numérique (D2-D8 pour Arduino, P0 pour micro:bit)
 
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
   <figure style={{margin: 0, textAlign: 'center'}}>
     <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/microbit.png" alt="Assemblage COV micro:bit" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Assemblage — micro:bit</figcaption>
+    <figcaption style={{margin: 0}}>Assemblage (micro:bit)</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>
     <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/arduino.png" alt="Assemblage COV Arduino" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Assemblage — Arduino</figcaption>
+    <figcaption style={{margin: 0}}>Assemblage (Arduino)</figcaption>
   </figure>
 </div>
 
@@ -100,7 +100,7 @@ while True:
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cov/cov.png" alt="Programme COV - vue blocs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme COV — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme COV (vue blocs)</figcaption>
 </figure>
 
 ---
@@ -112,7 +112,7 @@ Même plateforme (Vittascience). On ajoute le capteur HM3301 (particules fines) 
 **Câblage** :
 
 - HM3301 et MICS6814 → ports I2C
-- DHT11 → port numérique (D2–D8 ou P0/P1/P2 selon la carte)
+- DHT11 → port numérique (D2-D8 ou P0/P1/P2 selon la carte)
 - Écran LCD → port I2C
 - Openlog → port numérique
 
@@ -121,11 +121,11 @@ Les boutons **A** et **B** permettent de sélectionner la mesure à afficher (CO
 <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem', margin: '1rem 0'}}>
   <figure style={{margin: 0, textAlign: 'center'}}>
     <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/assemblagemicrobit.png" alt="Assemblage multi-capteurs micro:bit" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Assemblage multi-capteurs — micro:bit</figcaption>
+    <figcaption style={{margin: 0}}>Assemblage multi-capteurs (micro:bit)</figcaption>
   </figure>
   <figure style={{margin: 0, textAlign: 'center'}}>
     <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/assemblagearduino.png" alt="Assemblage multi-capteurs Arduino" style={{width: '100%', height: 'auto'}} />
-    <figcaption style={{margin: 0}}>Assemblage multi-capteurs — Arduino</figcaption>
+    <figcaption style={{margin: 0}}>Assemblage multi-capteurs (Arduino)</figcaption>
   </figure>
 </div>
 
@@ -163,7 +163,7 @@ while True:
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/envirmulticapteurs/code.png" alt="Programme multi-capteurs" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme multi-capteurs — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme multi-capteurs (vue blocs)</figcaption>
 </figure>
 
 ---
@@ -189,7 +189,7 @@ while True:
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-outdoor-air-quality/cartesd/code.png" alt="Programme enregistrement carte SD" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programme d'enregistrement vers la carte SD — vue blocs</figcaption>
+  <figcaption style={{margin: 0}}>Programme d'enregistrement vers la carte SD (vue blocs)</figcaption>
 </figure>
 
 ---

@@ -47,9 +47,9 @@ sidebar_position: 5
 
 ## Introduction
 
-Il est recommandé d'aérer régulièrement les locaux afin de réduire la concentration de particules en suspension dans l'air et ainsi limiter la propagation des virus. Bien qu'il ne soit pas possible de mesurer les virus, plusieurs études ont démontré la relation entre la concentration de CO2 dans une pièce et la concentration de virus. Lorsque la concentration de CO2 devient trop élevée, c'est le signe qu'une ventilation est nécessaire.
+Il est recommandé d'aérer régulièrement les locaux afin de réduire la concentration de particules en suspension dans l'air et ainsi limiter la propagation des virus. Il n'est pas possible de mesurer les virus, mais des études ont montré le lien entre la concentration de CO2 dans une pièce et la concentration de virus. Lorsque la concentration de CO2 devient trop élevée, c'est le signe qu'une ventilation est nécessaire.
 
-Cette expérience permet de réaliser un détecteur de dioxyde de carbone.
+Dans cette expérience, on réalise un détecteur de dioxyde de carbone.
 
 Une fois assemblé et programmé, le détecteur peut être utilisé pour mesurer le taux de dioxyde de carbone dans une pièce. Il peut être utilisé pour montrer aux élèves comment mettre en place une chaîne de mesures, surveiller les changements de niveau au fil du temps et évaluer de manière critique la corrélation entre les changements de taux de CO2 et la ventilation.
 
@@ -63,10 +63,10 @@ Cette expérience donne une valeur indicative de l'évolution du taux de dioxyde
 
 Le protocole se déroule en quatre phases progressives, organisées sur trois séances (180 minutes au total).
 
-- **Phase 1 : Collecter des données** — les élèves découvrent les principes fondamentaux de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, ils acquièrent des compétences essentielles en matière de surveillance environnementale et de concepts de programmation de base.
-- **Phase 2 : Afficher les données pour obtenir les informations nécessaires** — les élèves développent leurs compétences de visualisation en modifiant leur programme pour afficher les mesures sous forme graphique. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, ils apprennent des techniques de représentation des données plus avancées.
-- **Phase 3 : Analyser les données et en tirer des enseignements** — en 60 minutes, les élèves identifient les tendances des niveaux de CO2 et les corrèlent avec des événements ou comportements spécifiques (ouvertures de fenêtres, occupation des pièces, schémas de ventilation). Ils développent des compétences analytiques et comprennent les implications pratiques de la gestion de la qualité de l'air.
-- **Phase 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ** — cette phase de 40 minutes se concentre sur les applications pratiques. Les élèves appliquent des techniques d'analyse statistique, partagent leurs résultats via des plateformes mondiales comme Vittamap et élaborent des recommandations concrètes pour des changements de comportement.
+- **Phase 1 : Collecter des données** : les élèves découvrent les principes de la détection du CO2 au moyen d'activités de programmation pratiques. En construisant un détecteur de CO2 à l'aide d'un capteur SCD30 et d'un système d'affichage à LED, ils apprennent à surveiller l'environnement et découvrent des bases de programmation.
+- **Phase 2 : Afficher les données pour obtenir les informations nécessaires** : les élèves développent leurs compétences de visualisation en modifiant leur programme pour afficher les mesures sous forme graphique. En utilisant l'interface Vittascience pour créer des affichages graphiques et exporter des données, ils apprennent des techniques de représentation des données plus avancées.
+- **Phase 3 : Analyser les données et en tirer des enseignements** : en 60 minutes, les élèves identifient les tendances des niveaux de CO2 et les corrèlent avec des événements ou comportements spécifiques (ouvertures de fenêtres, occupation des pièces, schémas de ventilation). Ils apprennent à analyser des données et comprennent les conséquences pratiques de la gestion de la qualité de l'air.
+- **Phase 4 : Utiliser les données pour modifier son comportement et améliorer la situation de départ** : cette phase de 40 minutes se concentre sur les applications pratiques. Les élèves appliquent des techniques d'analyse statistique, partagent leurs résultats via des plateformes mondiales comme Vittamap et élaborent des recommandations concrètes pour des changements de comportement.
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -87,19 +87,19 @@ Le protocole se déroule en quatre phases progressives, organisées sur trois s�
 
 ### Contexte de la séquence
 
-Cette première phase permet de familiariser les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
+Cette première phase familiarise les élèves avec les concepts et outils clés (interfaces et matériels). Elle peut être réalisée en classe. L'idée est d'afficher la valeur du taux de dioxyde de carbone sur un écran LCD ou d'ordinateur, et d'alerter l'utilisateur de la valeur du taux atteint, en fonction de la couleur d'une diode électroluminescente (DEL).
 
 ### Objectifs d'apprentissage
 
-L'objectif de cette phase est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2). Il est primordial de procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
+L'objectif de cette phase est d'apprendre à collecter des données à l'aide de la programmation et de capteurs (CO2). Procéder étape par étape, en demandant aux élèves quels sont les fondamentaux (l'impact d'un niveau trop élevé de dioxyde de carbone sur l'homme), puis en déterminant les seuils de données à collecter.
 
 ### Conceptualisation
 
-Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
+Avant de commencer, évaluer le niveau de connaissances des élèves et les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
 #### Que se passe-t-il s'il y a trop de dioxyde de carbone dans une pièce ?
 
-Lorsqu'une ou plusieurs personnes sont présentes dans un local, la concentration d'oxygène diminue, tandis que celle de dioxyde de carbone augmente. À forte concentration, le dioxyde de carbone peut devenir asphyxiant. Le manque d'oxygène dû à un taux élevé de dioxyde de carbone peut avoir des conséquences plus ou moins graves pour l'organisme : accélération du rythme cardiaque, fatigue (et donc diminution des capacités intellectuelles, comme la concentration ou la prise de décision), nausées, vomissements, malaise et même, dans des situations extrêmes, coma ou décès. Il est donc important d'aérer une pièce pour éviter la saturation en dioxyde de carbone. Il faut savoir que la concentration en dioxyde de carbone dépend de plusieurs paramètres : le nombre de personnes présentes dans une pièce, le type d'activité qu'elles pratiquent (chant, sport, études, etc.), le volume de la pièce, le nombre de fenêtres ouvertes, la présence d'un système de ventilation, etc.
+Lorsqu'une ou plusieurs personnes sont présentes dans un local, la concentration d'oxygène diminue, tandis que celle de dioxyde de carbone augmente. À forte concentration, le dioxyde de carbone peut devenir asphyxiant. Le manque d'oxygène dû à un taux élevé de dioxyde de carbone peut avoir des conséquences plus ou moins graves pour l'organisme : accélération du rythme cardiaque, fatigue (et donc diminution des capacités intellectuelles, comme la concentration ou la prise de décision), nausées, vomissements, malaise et même, dans des situations extrêmes, coma ou décès. Il est donc important d'aérer une pièce pour éviter la saturation en dioxyde de carbone. La concentration en dioxyde de carbone dépend de plusieurs paramètres : le nombre de personnes présentes dans une pièce, le type d'activité qu'elles pratiquent (chant, sport, études, etc.), le volume de la pièce, le nombre de fenêtres ouvertes, la présence d'un système de ventilation, etc.
 
 #### Indirectement, que peut mesurer le taux de CO2 ?
 
@@ -109,7 +109,7 @@ Certains virus (comme le coronavirus responsable de la COVID-19) se transmettent
 - par contact direct ou indirect,
 - et par aérosols, qui restent en suspension pendant plusieurs heures (à une distance de plus de 2 mètres de l'émetteur).
 
-Autrement dit, une personne émet des aérosols et du dioxyde de carbone ! Connaître le taux de dioxyde de carbone est un moyen d'obtenir une information indirecte sur la concentration d'aérosols (contaminés ou non) dans une pièce. Le dioxyde de carbone peut être qualifié de « marqueur » d'aérosols. Bien sûr, il existe des capteurs d'aérosols, mais ils sont très coûteux. La mesure du dioxyde de carbone n'indique pas la quantité d'aérosols, mais elle donne une approximation de leur présence dans une pièce. Ainsi, en fonction des seuils de dioxyde de carbone à définir, il peut être possible de décider à quel moment une pièce doit être ventilée.
+Une personne émet à la fois des aérosols et du dioxyde de carbone ! Connaître le taux de dioxyde de carbone est un moyen d'obtenir une information indirecte sur la concentration d'aérosols (contaminés ou non) dans une pièce. Le dioxyde de carbone peut être qualifié de « marqueur » d'aérosols. Il existe des capteurs d'aérosols, mais ils sont très coûteux. La mesure du dioxyde de carbone n'indique pas la quantité d'aérosols, mais elle donne une approximation de leur présence dans une pièce. Ainsi, en fonction des seuils de dioxyde de carbone à définir, on peut décider à quel moment une pièce doit être ventilée.
 
 #### Comment calibrer un capteur de dioxyde de carbone ?
 
@@ -119,7 +119,7 @@ Il existe de nombreux types de capteurs de dioxyde de carbone, dont la fiabilit�
 2. Calibrage forcé : il s'agit de connaître la valeur du taux de dioxyde de carbone au point de calibrage ; cette valeur est considérée comme une valeur de référence. Un programme est inséré dans le capteur, spécifiant que la mesure à effectuer correspondra à la valeur de référence connue ;
 3. Calibrage automatique : le capteur est placé à l'extérieur pendant une longue période (environ 5 jours) dans un endroit où le taux de dioxyde de carbone est constant et connu. Un programme est importé dans le capteur pour effectuer cet étalonnage sur une longue période. Le capteur mesure régulièrement le taux de dioxyde de carbone, enregistre les valeurs les plus basses et en fait la moyenne pour former une valeur de référence. Pour le capteur utilisé dans cette expérience, l'étalonnage peut être effectué selon la deuxième ou la troisième méthode.
 
-Pour plus de facilité d'utilisation, nous décrivons ici la deuxième méthode, car plus rapide :
+La deuxième méthode, plus simple et plus rapide, est décrite ci-dessous :
 
 1. Reliez la carte à l'ordinateur via le câble USB, avec le capteur SCD30 branché sur la prise I2C.
 2. Veillez à placer la carte à l'extérieur.
@@ -130,16 +130,16 @@ Pour plus de facilité d'utilisation, nous décrivons ici la deuxième méthode,
 **Seuils de référence** : selon les scientifiques qui ont contribué au site nousaerons.fr, les seuils suivants devraient être pris en considération :
 
 - **Taux de CO2 ~ 410 ppm** : il s'agit du taux moyen mesuré en extérieur, hors épisodes de pollution ; plus on se rapproche de ce taux dans une pièce, mieux c'est, car c'est le signe que l'air se renouvelle. À l'inverse, dans un espace confiné, sans renouvellement d'air suffisant, le risque de contamination par les aérosols augmente rapidement, et cela se traduit par l'augmentation du taux de CO2 dans la pièce.
-- **Taux de CO2 &lt; 600 ppm** : ce taux est recommandé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces de restauration où le port du masque n'est pas autorisé. Vous pouvez télécharger les consignes de ventilation mises en place dans les cantines de Nantes Métropole au format PDF ou au format ODT modifiable pour les adapter à votre situation.
-- **Taux de CO2 &lt; 800 ppm** : ce taux est préconisé par de nombreux scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces clos ; il s'agit d'une recommandation du Haut Conseil de la Santé Publique et correspond à un renouvellement d'air satisfaisant dans l'arrêté du 27 décembre 2022 du Code de l'environnement pour les établissements scolaires.
+- **Taux de CO2 &lt; 600 ppm** : ce taux est recommandé par ces scientifiques pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces de restauration où le port du masque n'est pas autorisé. Vous pouvez télécharger les consignes de ventilation mises en place dans les cantines de Nantes Métropole au format PDF ou au format ODT modifiable pour les adapter à votre situation.
+- **Taux de CO2 &lt; 800 ppm** : ce taux est préconisé pour lutter contre le COVID-19 et d'autres virus aéroportés dans les espaces clos ; il s'agit d'une recommandation du Haut Conseil de la Santé Publique et correspond à un renouvellement d'air satisfaisant dans l'arrêté du 27 décembre 2022 du Code de l'environnement pour les établissements scolaires.
 - **Taux de CO2 &gt; 1500 ppm** : correspond à un seuil d'action immédiate, recommandé par le Haut Conseil de la Santé Publique et dans l'arrêté du 27 décembre 2022 du Code de l'environnement.
 - **Taux de CO2 = 5000 ppm** : correspond à la limite d'exposition professionnelle (LEP).
 
-Le seuil de 800 ppm est également mentionné dans les *Références pour l'aération et la ventilation des espaces scolaires* (Avril 2021) et constitue la recommandation actuelle du Haut Conseil de la Santé Publique (www.hcsp.fr) dans un contexte de COVID-19.
+Le seuil de 800 ppm est également mentionné dans les *Références pour l'aération et la ventilation des espaces scolaires* (Avril 2021) et est la recommandation actuelle du Haut Conseil de la Santé Publique (www.hcsp.fr) dans un contexte de COVID-19.
 
 #### Quelles sont les différentes manières de ventiler une pièce ?
 
-Il existe plusieurs façons de ventiler une pièce, en fonction des besoins, des contraintes architecturales et du niveau de qualité d'air souhaité. Voici les principales façons de ventiler une pièce :
+Les principales façons de ventiler une pièce, à choisir selon les besoins, les contraintes architecturales et le niveau de qualité d'air souhaité :
 
 1. **Ventilation manuelle** : ouvrir les fenêtres et les portes.
 2. **Ventilation naturelle** :
@@ -165,18 +165,18 @@ L'activité est lancée par l'enseignant à l'aide du tableau blanc, de papiers 
 |---|---|---|
 | moins de 600 ppm | vert | aucune action spécifique |
 | entre 600 et 800 ppm | jaune | le port du masque est fortement recommandé |
-| entre 800 et 1000 ppm | orange | nous recommandons de ventiler la pièce |
+| entre 800 et 1000 ppm | orange | ventiler la pièce |
 | au-delà de 1000 ppm | rouge | Il est conseillé de quitter la pièce et de l'aérer |
 
 #### Activité 2 : Programmation de l'affichage du CO2 (10 minutes)
 
 L'activité est lancée par l'enseignant avec le support de l'interface Vittascience et du capteur SCD30.
 
-**Consignes pour les élèves** : Créer un programme pour afficher le taux de CO2 dans la pièce sur l'écran LCD avec le capteur SCD30. Utilisez l'interface Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte Micro:bit ou programmable Arduino, capteur SCD30, écran LCD, câble USB, compteur), vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte NUCLEO-L476RG ; Micro:bit ou programmable Arduino.
+**Consignes pour les élèves** : Créer un programme pour afficher le taux de CO2 dans la pièce sur l'écran LCD avec le capteur SCD30. Utilisez l'interface Vittascience pour le réaliser, assemblez les composants (NUCLEO-L476RG ; carte Micro:bit ou programmable Arduino, capteur SCD30, écran LCD, câble USB, compteur), vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte NUCLEO-L476RG ; Micro:bit ou programmable Arduino.
 
 Pour vérifier que le programme fonctionne, vous pouvez souffler dessus pour vérifier que la valeur mesurée augmente. En extérieur, si le capteur est bien calibré, la valeur indiquée est d'environ 400 ppm.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30 »).
+Vous trouverez un exemple de programme pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Afficher le taux de CO2 sur un écran LCD à l'aide du capteur SCD30 »).
 
 #### Activité 3 : Configuration des couleurs des LED (10 minutes)
 
@@ -195,15 +195,15 @@ R, V et B signifient respectivement Rouge, Vert et Bleu. La superposition de ces
 En combinant ces valeurs, on peut théoriquement obtenir 16 777 216 couleurs (il y a 256 nuances possibles pour chaque couleur, de 0 à 255, soit un total de 2563 = 16 777 216 couleurs). Il existe un autre bloc permettant de sélectionner la couleur de la lumière émise par la LED. Ce bloc est présenté plus loin dans le livret. Il permet un choix de couleurs plus simple, mais plus limité, à l'aide d'une palette présélectionnée.
 :::
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Configuration des couleurs des LED »).
+Vous trouverez un exemple de programme pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Configuration des couleurs des LED »).
 
 #### Activité 4 : Indicateur LED CO2 (10 minutes)
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur l'écran LCD et allumer une LED de couleur différente selon le taux mesuré. Se référer à l'activité 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour réaliser l'opération, prévoir une courte pause entre les envois de données pour éviter les dysfonctionnements d'affichage, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Indicateur LED CO2 »).
+Vous trouverez un exemple de programme pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Indicateur LED CO2 »).
 
 ### Restitution et réflexion
 
@@ -229,7 +229,7 @@ Le but de cette phase est de mesurer le taux de CO2 à l'aide du capteur SCD30 e
 
 ### Conceptualisation
 
-Avant de commencer, il est important d'évaluer le niveau de connaissances des élèves et de les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
+Avant de commencer, évaluer le niveau de connaissances des élèves et les amener à réfléchir sur les concepts clés. Pour vous aider, voici quelques questions à travailler avec eux, qui les aideront à trouver des réponses pour les activités futures.
 
 #### Comment afficher les valeurs de CO2 à l'écran ?
 
@@ -249,21 +249,21 @@ Dans la partie « communication », vous trouverez un bloc d'instructions permet
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de la phase 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Mesurer le taux de CO2 à l'aide du capteur SCD30, afficher les valeurs (exprimées en ppm) sur le support choisi (écran d'ordinateur) et allumer une LED de couleur différente en fonction du taux mesuré. Se référer à l'activité 4 de la phase 1 pour créer un programme permettant de changer la couleur d'une LED en fonction du taux de CO2 détecté par un capteur SCD30. Utiliser l'interface Vittascience pour le réaliser, vérifier qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquer sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Affichage du CO2 »).
+Vous trouverez un exemple de programme pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Affichage du CO2 »).
 
 #### Activité 2 : Visualisation des données (10 minutes)
 
 L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience et du capteur SCD30. Les élèves peuvent s'appuyer sur le programme précédent pour créer le nouveau. Elle peut être réalisée en groupe ou avec toute la classe.
 
-**Consignes pour les élèves** : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur "Envoyer" pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
+**Consignes pour les élèves** : Modifiez légèrement le programme précédent en remplaçant l'affichage de la valeur simple du CO2 dans la console par un affichage graphique de la valeur. Pensez à personnaliser le nom de vos données collectées. Utilisez l'interface Vittascience pour le réaliser, vérifiez qu'il n'y a pas d'erreurs de syntaxe sur le programme puis cliquez sur « Envoyer » pour télécharger le programme directement sur la carte programmable NUCLEO-L476RG ; Micro:bit ou Arduino.
 
-Vous trouverez un exemple de programme de travail pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Visualisation des données »).
+Vous trouverez un exemple de programme pour réaliser cette activité dans la [fiche technique de programmation](/ressources/steamcity/programmation/programmation-indoor-air-quality) (section « Visualisation des données »).
 
 ### Restitution et réflexion
 
-L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à la phase 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé la phase 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Chacune d'entre elles est ensuite utilisée pour analyser les données afin de comprendre l'influence des données sur le résultat.
+L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont appris à la phase 1 et ce qu'ils peuvent faire de plus maintenant qu'ils ont terminé la phase 2. Ils ont appris à utiliser différentes méthodes de représentation des données et à en comprendre l'importance. Ces méthodes servent ensuite à analyser les données.
 
 **Connaissances mobilisées** : les élèves explorent des méthodes de visualisation des données, comme l'utilisation de LED et d'écrans d'ordinateur.
 
@@ -277,11 +277,11 @@ L'enseignant peut terminer l'activité en demandant aux élèves ce qu'ils ont a
 
 ### Contexte de la séquence
 
-Cette phase permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria…
+Cette phase permet aux élèves de collecter et d'analyser des données pour déterminer les éléments clés qui modifient les niveaux de CO2 dans une pièce. Elle peut être réalisée dans une salle de classe, dans un bâtiment, dans un restaurant, dans une cafétéria, etc.
 
 ### Objectifs d'apprentissage
 
-Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des modèles, des tendances et des mesures dans un ensemble de données existant.
+Apprendre à effectuer une analyse approfondie des données brutes pour rechercher des régularités, des tendances et des mesures dans un ensemble de données existant.
 
 ### Conceptualisation
 
@@ -307,9 +307,9 @@ L'activité est lancée par l'enseignant avec l'aide de l'interface Vittascience
 
 ### Restitution et réflexion
 
-L'analyse des données est une étape essentielle pour transformer les données brutes en informations, permettant aux élèves d'apprendre à tirer des conclusions. Demandez aux élèves de tirer des conclusions entre l'environnement d'analyse et la qualité de vie. Comment la ventilation d'un bâtiment peut-elle influencer le bien-être de ses occupants ?
+L'analyse des données transforme les données brutes en informations. Demandez aux élèves de tirer des conclusions entre l'environnement d'analyse et la qualité de vie. Comment la ventilation d'un bâtiment peut-elle influencer le bien-être de ses occupants ?
 
-**Connaissances mobilisées** : les élèves analysent les données collectées pour identifier les modèles et comprendre les facteurs affectant les niveaux de CO2.
+**Connaissances mobilisées** : les élèves analysent les données collectées pour identifier les régularités et comprendre les facteurs affectant les niveaux de CO2.
 
 **Réflexion sur la mise en œuvre en classe** : les élèves comparent les tendances du CO2 avec des activités telles que la ventilation, l'occupation et la taille de la pièce pour tirer des conclusions.
 
@@ -325,7 +325,7 @@ La dernière phase permet aux élèves de tirer des conclusions de l'analyse des
 
 ### Objectifs d'apprentissage
 
-Analyse avancée des données, raisonnement statistique, idéation d'amélioration.
+Analyse avancée des données, raisonnement statistique, propositions d'amélioration.
 
 ### Conceptualisation
 
@@ -370,7 +370,7 @@ L'enseignant encourage les élèves à partager des idées pour améliorer le ta
 
 **Réflexion sur la mise en œuvre en classe** : les élèves créent des recommandations pour de meilleures pratiques de ventilation et partagent leurs résultats à l'échelle mondiale via Vittamap.
 
-**Résultats d'apprentissage généraux** : Les élèves relient les informations fondées sur les données à des actions concrètes, favorisant ainsi un sens des responsabilités pour un mode de vie durable.
+**Résultats d'apprentissage généraux** : Les élèves relient les informations fondées sur les données à des actions concrètes et développent un sens des responsabilités pour un mode de vie durable.
 
 ---
 
@@ -378,23 +378,23 @@ L'enseignant encourage les élèves à partager des idées pour améliorer le ta
 
 ### Exploration de la problématique au travers d'autres initiatives
 
-- **Exploration de la qualité de l'air intérieur à la maison** : dans cette extension, les élèves surveilleront la qualité de l'air de leurs chambres à l'aide de capteurs de CO2, renforçant ainsi leur compréhension de l'impact de la ventilation sur la santé et le bien-être. En observant et en enregistrant les niveaux de CO2 à différents moments de la journée, ils peuvent identifier les schémas influencés par des activités comme le sommeil, les études ou le nombre d'occupants dans la pièce.
-- **Établir des liens** : en recueillant des données, les élèves établiront un lien entre les principes scientifiques abordés en classe et leurs expériences vécues. Cette activité les encourage à réfléchir à la façon dont la circulation de l'air, la taille de la pièce et les méthodes de ventilation contribuent à la qualité de l'air. En comprenant ces dynamiques, les élèves peuvent faire des choix éclairés pour améliorer leur environnement immédiat, comme ajuster les fenêtres ou utiliser des techniques de ventilation simples.
-- **Appliquer les connaissances pour un impact quotidien** : les élèves peuvent également étudier l'efficacité de changements spécifiques dans l'environnement de leur salle. Par exemple, ils peuvent comparer les niveaux de CO2 avec des fenêtres fermées ou partiellement ouvertes ou expérimenter le flux d'air à l'aide de ventilateurs. Ces observations aident à traduire des concepts abstraits en actions concrètes.
-- **Engager l'entourage** : encourager la participation des familles peut amplifier l'impact de l'activité. En partageant leurs découvertes avec d'autres membres du foyer, les élèves peuvent défendre des pratiques qui favorisent une meilleure qualité de l'air, favorisant ainsi une culture de sensibilisation à l'environnement au sein de leur communauté.
-- **Du suivi au plaidoyer** : cette expérience pratique transforme les élèves en défenseurs d'espaces de vie plus sains. Armés de leurs données et de leurs observations, ils peuvent discuter des implications plus larges de la qualité de l'air, comme son rôle dans la réduction des maladies transmises par l'air, l'amélioration de la concentration et l'amélioration de la qualité du sommeil. L'activité développe ainsi non seulement la culture scientifique, mais aussi le sens des responsabilités envers un mode de vie durable.
+À la maison, les élèves peuvent surveiller la qualité de l'air de leur chambre avec un capteur de CO2. En relevant les niveaux de CO2 à différents moments de la journée, ils peuvent repérer l'effet d'activités comme le sommeil, les études ou le nombre d'occupants dans la pièce. Ils relient ainsi les principes scientifiques vus en classe à ce qu'ils vivent, et sont amenés à réfléchir au rôle de la circulation de l'air, de la taille de la pièce et des méthodes de ventilation dans la qualité de l'air. Ils peuvent ensuite améliorer leur environnement immédiat, par exemple en ajustant les fenêtres ou avec des techniques de ventilation simples.
+
+Dans leur salle, ils peuvent aussi étudier l'efficacité de changements précis, par exemple comparer les niveaux de CO2 fenêtres fermées et fenêtres partiellement ouvertes, ou tester le flux d'air avec des ventilateurs.
+
+Ils peuvent enfin partager leurs découvertes avec leur famille et défendre les pratiques qui améliorent la qualité de l'air. Avec leurs données et leurs observations, ils peuvent discuter du rôle de la qualité de l'air dans la réduction des maladies transmises par l'air, dans la concentration et dans la qualité du sommeil.
 
 ## Bibliographie
 
-1. **Average CO2 Rates (Live Data)** — Source : Global Monitoring Laboratory. URL : https://gml.noaa.gov/ccgg/trends/ — Intérêt : Fournit des données en temps réel sur les niveaux de CO2 atmosphérique, essentielles pour comprendre les tendances mondiales du carbone et éclairer l'action climatique.
+1. **Average CO2 Rates (Live Data)**. Source : Global Monitoring Laboratory. Intérêt : Fournit des données en temps réel sur les niveaux de CO2 atmosphérique. URL : https://gml.noaa.gov/ccgg/trends/
 
-2. **Seuils de CO2 et impact sur la qualité de l'air** — Source : NousAérons.fr. URL : http://nousaerons.fr/ — Intérêt : Discute des seuils de CO2 et de l'importance de la qualité de l'air dans les environnements intérieurs, particulièrement en ce qui concerne la santé et la ventilation.
+2. **Seuils de CO2 et impact sur la qualité de l'air**. Source : NousAérons.fr. Intérêt : Discute des seuils de CO2 et de la qualité de l'air intérieur, en lien avec la santé et la ventilation. URL : http://nousaerons.fr/
 
-3. **Aération et ventilation dans les espaces scolaires** — Source : Ministère de l'Éducation (Avril 2021). URL : https://web.archive.org/web/20221230220742/https://www.education.gouv.fr/media/88756/download (archive.org 2022-12) — Intérêt : Un guide sur les meilleures pratiques en matière de ventilation dans les milieux éducatifs, soulignant son rôle dans la réduction de la transmission des maladies aéroportées.
+3. **Aération et ventilation dans les espaces scolaires**. Source : Ministère de l'Éducation (Avril 2021). Intérêt : Un guide sur les meilleures pratiques de ventilation dans les milieux éducatifs, qui traite du rôle de la ventilation dans la réduction de la transmission des maladies aéroportées. URL : https://web.archive.org/web/20221230220742/https://www.education.gouv.fr/media/88756/download (archive.org 2022-12)
 
-4. **Alerte basée sur Arduino pour l'aération** — Source : Vittascience, Alerte Aération Arduino. URL : https://fr.vittascience.com/learn/tutorial.php?id=340/guide-d-utilisation-alerte-aeration-Arduino — Intérêt : Propose un tutoriel étape par étape pour la mise en œuvre d'un système d'alerte basé sur Arduino pour optimiser la qualité de l'air dans les espaces clos.
+4. **Alerte basée sur Arduino pour l'aération**. Source : Vittascience, Alerte Aération Arduino. Intérêt : Propose un tutoriel étape par étape pour réaliser, avec Arduino, un système d'alerte sur la qualité de l'air dans les espaces clos. URL : https://fr.vittascience.com/learn/tutorial.php?id=340/guide-d-utilisation-alerte-aeration-Arduino
 
-5. **Alerte basée sur Micro:bit pour l'aération** — Source : Vittascience, Alerte Aération Micro:bit. URL : https://fr.vittascience.com/learn/tutorial.php?id=339/guide-d-utilisation-alerte-aeration-micro-bit — Intérêt : Fournit des instructions pour créer un système d'alerte simple et interactif à l'aide de Micro:bit pour améliorer la qualité de l'air intérieur.
+5. **Alerte basée sur Micro:bit pour l'aération**. Source : Vittascience, Alerte Aération Micro:bit. Intérêt : Fournit des instructions pour créer un système d'alerte simple et interactif à l'aide de Micro:bit pour améliorer la qualité de l'air intérieur. URL : https://fr.vittascience.com/learn/tutorial.php?id=339/guide-d-utilisation-alerte-aeration-micro-bit
 
 ---
 

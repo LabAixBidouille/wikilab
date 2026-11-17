@@ -39,7 +39,7 @@ sidebar_position: 9
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [City Detective Challenge](/ressources/steamcity/city-detective-challenge). **uMap** est un outil de cartographie open-source qui s'appuie sur les données d'**OpenStreetMap** pour créer, gérer et partager des cartes personnalisées. Elle offre une plateforme souple et accessible pour représenter des informations géographiques en classe.
+Cette fiche technique accompagne la ressource [City Detective Challenge](/ressources/steamcity/city-detective-challenge). **uMap** est un outil de cartographie open-source qui s'appuie sur les données d'**OpenStreetMap** pour créer, gérer et partager des cartes personnalisées. En classe, uMap sert à représenter des informations géographiques.
 
 OpenStreetMap est un projet collaboratif visant à créer une carte mondiale librement accessible et modifiable, alimentée par des bénévoles à partir de connaissances locales, de traces GPS et d'autres sources ouvertes. Souvent comparée à Wikipedia, elle permet à chacun de contribuer et de réutiliser les données.
 
@@ -54,7 +54,7 @@ OpenStreetMap est un projet collaboratif visant à créer une carte mondiale lib
 
 ## Démarrer avec uMap
 
-Dans le cadre du projet, une carte prête à l'emploi est mise à disposition. Elle permet à plusieurs classes, écoles, régions ou pays de collaborer sur une base commune, enrichissant progressivement une connaissance collective partagée.
+Dans le cadre du projet, une carte prête à l'emploi est mise à disposition. Plusieurs classes, écoles, régions ou pays peuvent y collaborer sur une base commune et l'enrichir progressivement.
 
 ### Étape 1 : Se connecter à uMap
 
@@ -67,7 +67,7 @@ Ouvrez un navigateur web et allez sur le site uMap. Depuis cet espace, vous pouv
 
 ### Étape 2 : Découvrir les couches
 
-Toutes les couches ont été construites à partir du jeu introductif. **Ne pas ajouter ni modifier** les couches existantes — la carte est utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques (ex. : pointeur bleu avec icône médicament pour le département de la santé).
+Toutes les couches ont été construites à partir du jeu introductif. **Ne pas ajouter ni modifier** les couches existantes : la carte est utilisée par plusieurs participants à travers l'Europe. Chaque couche possède un pointeur avec une couleur et une icône spécifiques (ex. : pointeur bleu avec icône médicament pour le département de la santé).
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/programmation-city-detective-challenge/umap2.png" alt="Découvrir les couches uMap" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -87,8 +87,8 @@ Choisissez la couche appropriée (ex. : *Service de la mobilité et des transpor
 
 **Ajouter une image** : collez l'URL entre deux accolades. Pour obtenir une URL d'image, utilisez :
 
-- [Postimage](https://postimg.cc/) — téléversez l'image et copiez le **Lien Direct** (pas besoin de compte)
-- [GitHub](https://github.com/) — déposez l'image dans un dépôt public, ouvrez le fichier puis clic droit > copier l'adresse de l'image
+- [Postimage](https://postimg.cc/) : téléversez l'image et copiez le **Lien Direct** (pas besoin de compte)
+- [GitHub](https://github.com/) : déposez l'image dans un dépôt public, ouvrez le fichier puis clic droit > copier l'adresse de l'image
 
 Cliquez sur **enregistrer**, puis passez en mode aperçu pour vérifier la vignette.
 
@@ -132,7 +132,7 @@ Les couches organisent les informations par sujet.
 
 ### Dépannage et assistance
 
-- **Problèmes courants** : connexion, affichage des données, erreurs de fonctionnalités — consultez la FAQ d'uMap ou les forums
+- **Problèmes courants** : connexion, affichage des données, erreurs de fonctionnalités ; consultez la FAQ d'uMap ou les forums
 - **Ressources d'apprentissage** : uMap/Guide (OpenStreetMap Wiki), tutoriels « Umap / OpenStreetMap (carte enrichie) » et « Umap, croquis et carte interactive » (bases sans compte)
 
 ---

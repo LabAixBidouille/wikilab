@@ -40,11 +40,11 @@ sidebar_position: 8
 
 ## De quoi parle-t-on ?
 
-Cette fiche technique accompagne la ressource [Road Signs](/ressources/steamcity/road-signs). Elle présente deux outils complémentaires pour explorer la reconnaissance automatique de panneaux de signalisation : **SignVisionAI** (logiciel local basé sur l'apprentissage profond) et **Vittascience – IA Images** (plateforme en ligne d'entraînement supervisé sans installation).
+Cette fiche technique accompagne la ressource [Road Signs](/ressources/steamcity/road-signs). Elle présente deux outils complémentaires pour explorer la reconnaissance automatique de panneaux de signalisation : **SignVisionAI** (logiciel local qui repose sur l'apprentissage profond) et **Vittascience - IA Images** (plateforme en ligne d'entraînement supervisé sans installation).
 
 ## Objectifs d'apprentissage
 
-- Installer et exécuter un logiciel de reconnaissance d'images basé sur l'IA
+- Installer et exécuter un logiciel de reconnaissance d'images qui utilise l'IA
 - Comprendre les étapes d'entraînement d'un modèle supervisé
 - Tester un modèle avec des images fixes et un flux vidéo en direct
 - Analyser les zones d'influence qui orientent les prédictions
@@ -53,7 +53,7 @@ Cette fiche technique accompagne la ressource [Road Signs](/ressources/steamcity
 
 ## Solution 1 : Installer et utiliser SignVisionAI
 
-SignVisionAI est un logiciel de reconnaissance automatique de panneaux de signalisation. Il utilise des techniques d'apprentissage profond pour identifier **quatorze types de panneaux** à partir d'images fixes ou d'un flux vidéo en direct via webcam.
+SignVisionAI est un logiciel de reconnaissance automatique de panneaux de signalisation. Il utilise des techniques d'apprentissage profond pour identifier quatorze types de panneaux à partir d'images fixes ou d'un flux vidéo en direct via webcam.
 
 ### Installation
 
@@ -99,12 +99,12 @@ Cliquer sur **Start Processing** pour lancer la reconnaissance.
 
 ## Solution 2 : Utiliser Vittascience pour entraîner un modèle
 
-[Vittascience – IA Images](https://fr.vittascience.com/ia/images.php) est une plateforme en ligne d'apprentissage supervisé. L'utilisateur crée des catégories, fournit des exemples visuels via webcam, puis entraîne un modèle capable de prédictions en temps réel. **Aucune installation requise.**
+[Vittascience - IA Images](https://fr.vittascience.com/ia/images.php) est une plateforme en ligne d'apprentissage supervisé, qui fonctionne dans le navigateur sans rien installer. L'utilisateur crée des catégories, fournit des exemples visuels via webcam, puis entraîne un modèle capable de prédictions en temps réel.
 
 ### Fonctionnalités
 
 1. Créer au minimum **deux catégories**
-2. Capturer **10–15 photos par catégorie** (en variant angles, distances, positions)
+2. Capturer **10 à 15 photos par catégorie** (en variant angles, distances, positions)
 3. Cliquer sur **Entraîner le modèle**
 4. Tester en temps réel : prédiction exprimée en pourcentage de confiance
 5. Visualiser les **zones d'influence** (parties de l'image les plus déterminantes)

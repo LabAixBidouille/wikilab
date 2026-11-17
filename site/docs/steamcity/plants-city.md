@@ -48,20 +48,20 @@ Par groupe :
 
 ## Introduction
 
-Dans un contexte où les villes cherchent à devenir plus durables, la végétalisation urbaine joue un rôle crucial. Selon l'Agence américaine de protection de l'environnement (EPA), les espaces verts en ville apportent de multiples bénéfices : ils régulent la température, améliorent la qualité de l'air et de l'eau, enrichissent la biodiversité et contribuent à une meilleure gestion des eaux pluviales.
+La végétalisation urbaine aide les villes à devenir plus durables. Selon l'Agence américaine de protection de l'environnement (EPA), les espaces verts en ville apportent de multiples bénéfices : ils régulent la température, améliorent la qualité de l'air et de l'eau, enrichissent la biodiversité et contribuent à une meilleure gestion des eaux pluviales.
 
-Ce protocole pédagogique invite les élèves à créer leur propre mur végétal, alliant apprentissages environnementaux et technologiques. Cette expérience concrète leur permettra de découvrir les enjeux de la végétalisation urbaine tout en développant leurs compétences en sciences expérimentales.
+Ce protocole pédagogique invite les élèves à créer leur propre mur végétal, avec des apprentissages environnementaux et technologiques. Ils y découvrent les enjeux de la végétalisation urbaine et travaillent leurs compétences en sciences expérimentales.
 
-Ils apprendront à utiliser des microcontrôleurs pour mesurer les conditions environnementales et s'initieront aux nouveaux outils de recherche basés sur l'intelligence artificielle (comme Copilot, ChatGPT, Gemini) pour sélectionner les plantes les mieux adaptées à leur environnement.
+Ils apprendront à utiliser des microcontrôleurs pour mesurer les conditions environnementales et s'initieront aux nouveaux outils de recherche qui utilisent l'intelligence artificielle (comme Copilot, ChatGPT, Gemini) pour sélectionner les plantes les mieux adaptées à leur environnement.
 
 ### Structure du protocole
 
 Le protocole se déroule en quatre phases successives, qui mènent les élèves de la caractérisation scientifique d'un site jusqu'à la réalisation concrète d'un mur végétal connecté.
 
-- **Phase 1 — Collecter les données** : mettre en place une station de mesure environnementale (température, humidité, luminosité) à base de Micro:bit et de capteurs, et aborder la question de la calibration pour obtenir des mesures fiables.
-- **Phase 2 — Stocker et afficher les données** : compléter la station par un système d'enregistrement (carte micro-SD via OpenLog, relevé manuel ou solution WiFi) afin de suivre les variables environnementales sur une période prolongée.
-- **Phase 3 — Analyser les données et en tirer des leçons** : exploiter les mesures avec un tableur et mener une recherche documentaire comparative (sources traditionnelles, web, outils d'IA générative) pour identifier les plantes adaptées au site.
-- **Phase 4 — Créer le mur végétal** : concrétiser le projet en concevant la structure du mur, en sélectionnant les plantes, en installant un système de monitoring et en réfléchissant aux enjeux citoyens et environnementaux.
+- **Phase 1 : Collecter les données.** Mettre en place une station de mesure environnementale (température, humidité, luminosité) à base de Micro:bit et de capteurs, et aborder la question de la calibration pour obtenir des mesures fiables.
+- **Phase 2 : Stocker et afficher les données.** Compléter la station par un système d'enregistrement (carte micro-SD via OpenLog, relevé manuel ou solution WiFi) afin de suivre les variables environnementales sur une période prolongée.
+- **Phase 3 : Analyser les données et en tirer des leçons.** Exploiter les mesures avec un tableur et mener une recherche documentaire comparative (sources traditionnelles, web, outils d'IA générative) pour identifier les plantes adaptées au site.
+- **Phase 4 : Créer le mur végétal.** Réaliser le projet : concevoir la structure du mur, sélectionner les plantes, installer un système de suivi et réfléchir aux enjeux citoyens et environnementaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/StructureSchema.png" alt="Structure du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -74,16 +74,16 @@ Le protocole se déroule en quatre phases successives, qui mènent les élèves 
 - **Mur végétal** : Une structure verticale recouverte de plantes, utilisée pour améliorer la qualité de l'air, réguler la température et améliorer l'esthétique urbaine.
 - **Variables environnementales** : Des facteurs tels que la température, l'humidité, la lumière et la composition du sol influencent la santé et la croissance des plantes.
 - **Adaptation des plantes** : Le processus par lequel les plantes s'adaptent à leur environnement, comme le climat ou les conditions du sol, pour une croissance optimale.
-- **Intensité lumineuse** : Quantité de lumière visible reçue à un endroit, mesurée en lux. Un facteur crucial pour la croissance des plantes.
+- **Intensité lumineuse** : Quantité de lumière visible reçue à un endroit, mesurée en lux. Elle influe sur la croissance des plantes.
 - **Microcontrôleur** : Circuit intégré compact conçu pour contrôler une opération spécifique dans un système embarqué. Exemple : Micro:bit utilisé pour les mesures environnementales.
-- **Capteur DHT11** : Un capteur de température et d'humidité qui fournit des lectures précises pour surveiller les conditions environnementales.
-- **OpenLog** : Un enregistreur de données basé sur une carte micro-SD utilisé pour stocker les données environnementales collectées par les capteurs.
+- **Capteur DHT11** : Un capteur de température et d'humidité qui fournit des mesures précises pour surveiller les conditions environnementales.
+- **OpenLog** : Un enregistreur de données qui stocke sur une carte micro-SD les données environnementales collectées par les capteurs.
 - **Format CSV** : Un format de fichier texte simple utilisé pour stocker des données sous forme de tableau, séparées par des virgules, pour une importation facile dans un logiciel de tableur.
 - **Hallucination de l'IA** : Un phénomène dans lequel l'IA génère des informations incorrectes ou dénuées de sens en raison d'un contexte limité ou d'une désinformation.
 
 ## Phase 1 : Collecter les données
 
-**Contexte de la séquence** : pour créer un mur végétal réussi, il est crucial de bien comprendre l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Afin de choisir des plantes adaptées à ces conditions spécifiques, cette première phase permet aux élèves d'évaluer attentivement les conditions environnementales auxquelles elles seront exposées.
+**Contexte de la séquence** : pour créer un mur végétal réussi, il faut bien connaître l'environnement dans lequel il sera installé. Plusieurs paramètres influencent directement la croissance et la résistance des plantes, notamment le climat, l'exposition à la lumière, la composition du sol, les précipitations, la circulation de l'air et les caractéristiques microclimatiques. En milieu urbain, ces contraintes peuvent être renforcées par des facteurs comme la présence d'îlots de chaleur, la pollution ou un espace racinaire limité. Dans cette première phase, les élèves évaluent attentivement les conditions environnementales auxquelles les plantes seront exposées, afin de choisir ensuite des plantes adaptées à ces conditions.
 
 **Objectifs d'apprentissage** :
 
@@ -98,16 +98,16 @@ comment identifier et mesurer les différents paramètres environnementaux qui d
 
 Pour explorer ce postulat de manière scientifique, les élèves se concentreront sur deux questions directrices :
 
-- **Quelles sont les variables environnementales cruciales pour la vie des plantes ?** afin d'identifier les paramètres à mesurer et comprendre leur impact sur la croissance végétale.
+- **Quelles variables environnementales influencent la vie des plantes ?** afin d'identifier les paramètres à mesurer et comprendre leur impact sur la croissance végétale.
 - **Comment mettre en place un système de mesure des conditions environnementales automatisé et fiable ?** afin de développer une méthodologie rigoureuse pour collecter des données exploitables.
 
 Les élèves seront amenés à aborder les concepts suivants, qui serviront à leur démarche scientifique :
 
-- **Comprendre le concept de variable** : Les variables environnementales jouent un rôle crucial dans la croissance des plantes. La température influence directement la photosynthèse et le métabolisme, tandis que l'humidité est essentielle pour la transpiration et l'absorption des nutriments. La luminosité détermine la croissance et la floraison, et la qualité du sol, notamment son pH et sa teneur en nutriments, impacte la santé globale de la plante.
-- **Identifier les techniques de mesure pertinentes et rigoureuses** : Concernant les techniques de mesure, il convient de comprendre le fonctionnement des différents capteurs utilisés. Chaque variable requiert un protocole de mesure spécifique, et il est nécessaire de déterminer la fréquence et la durée optimales des relevés pour obtenir des données exploitables.
-- **Aborder les enjeux de calibration** : Enfin, la calibration des instruments est une étape fondamentale pour garantir la fiabilité des mesures. Cela implique des méthodes rigoureuses de vérification et d'étalonnage, la capacité à identifier et corriger les erreurs de mesure, ainsi que la validation des résultats par comparaison avec des instruments professionnels.
+- **Comprendre le concept de variable** : Les variables environnementales agissent sur la croissance des plantes. La température influence directement la photosynthèse et le métabolisme, tandis que l'humidité est essentielle pour la transpiration et l'absorption des nutriments. La luminosité détermine la croissance et la floraison, et la qualité du sol, notamment son pH et sa teneur en nutriments, impacte la santé globale de la plante.
+- **Identifier les techniques de mesure pertinentes et rigoureuses** : Les élèves doivent comprendre le fonctionnement des différents capteurs utilisés. Chaque variable demande un protocole de mesure spécifique, avec une fréquence et une durée de relevés optimales à déterminer pour obtenir des données exploitables.
+- **Aborder les enjeux de calibration** : La calibration des instruments est nécessaire à la fiabilité des mesures. Elle demande des méthodes rigoureuses de vérification et d'étalonnage, la capacité à identifier et corriger les erreurs de mesure, ainsi que la validation des résultats par comparaison avec des instruments professionnels.
 
-Cette approche méthodique permettra aux élèves de comprendre les interactions complexes entre l'environnement et le développement des plantes, tout en développant leur esprit critique et leurs compétences techniques. Ces connaissances seront directement appliquées pour sélectionner les espèces végétales les plus adaptées à leur projet de mur végétal.
+Ces connaissances serviront ensuite directement à sélectionner les espèces végétales les plus adaptées à leur projet de mur végétal.
 
 ### Investigation par les élèves
 
@@ -123,15 +123,15 @@ Les élèves devront identifier, avec l'aide de la documentation et de l'enseign
 
 Une fois les variables mesurables et les capteurs associés identifiés, les élèves effectueront le montage de la station de mesure et créeront le programme permettant de réaliser les mesures.
 
-Pour réaliser cette activité, nous vous conseillons d'utiliser la carte Micro:bit et le capteur DHT11 car ils sont peu coûteux, faciles à programmer et suffisamment précis pour ce type d'expérimentation. Grâce à ces outils, les élèves pourront mesurer la température, l'humidité de l'air et l'intensité lumineuse.
+Pour réaliser cette activité, la carte Micro:bit et le capteur DHT11 sont conseillés : ils sont peu coûteux, faciles à programmer et suffisamment précis pour ce type d'expérimentation. Avec ces outils, les élèves pourront mesurer la température, l'humidité de l'air et l'intensité lumineuse.
 
-La température et l'humidité de l'air sont mesurées grâce au capteur DHT11, qui fournit des données précises sur ces deux variables cruciales pour la croissance des plantes.
+La température et l'humidité de l'air sont mesurées grâce au capteur DHT11, qui fournit des données précises sur ces deux variables.
 
 L'intensité lumineuse peut être mesurée directement par la matrice de LED de la carte Micro:bit. Cette fonctionnalité repose sur une propriété intéressante des LED : si elles émettent de la lumière lorsqu'on leur applique du courant, elles peuvent également générer un très faible courant lorsqu'elles reçoivent de la lumière. En mesurant ce courant, on peut estimer la quantité de lumière reçue.
 
-Il sera important d'expliquer aux élèves ce double fonctionnement de la matrice de LED pour qu'ils comprennent comment la carte peut mesurer la luminosité sans capteur supplémentaire.
+Expliquer aux élèves ce double fonctionnement de la matrice de LED, pour qu'ils comprennent comment la carte peut mesurer la luminosité sans capteur supplémentaire.
 
-Vous avez accès à la fin de ce protocole à une section "Mise en pratique" qui vous présente une solution de programmation de la station de mesure sur la carte Micro:bit.
+La section « Mise en pratique », à la fin de ce protocole, présente une solution de programmation de la station de mesure sur la carte Micro:bit.
 
 #### Aborder la question de la calibration
 
@@ -140,20 +140,20 @@ La question de la calibration est importante à aborder avec les élèves à ce 
 Pour comprendre cette notion, voici quelques points clés à discuter avec la classe :
 
 - **Qu'est-ce que la calibration ?** Il s'agit du processus qui permet de s'assurer qu'un instrument de mesure fournit des résultats fiables et comparables.
-- **Pourquoi calibrer ?** Afin de pouvoir comparer les mesures entre différentes stations et obtenir des valeurs absolues plutôt que relatives.
+- **Pourquoi calibrer ?** Pour comparer les mesures entre différentes stations et obtenir des valeurs absolues plutôt que relatives.
 - **Comment calibrer ?** En accédant notamment à des appareils de mesure professionnels (comme un luxmètre).
 
-Si vous disposez de ce type d'équipement, nous vous encourageons à réaliser une phase de calibration, ce qui permettra aux élèves de convertir leurs mesures relatives en mesures quantitatives (par exemple, associer un niveau de luminosité à une valeur en lux).
+Si vous disposez de ce type d'équipement, une phase de calibration est conseillée : les élèves pourront alors convertir leurs mesures relatives en mesures quantitatives (par exemple, associer un niveau de luminosité à une valeur en lux).
 
 ### Restitution et réflexion
 
-**Connaissances mobilisées** : À la fin de cette phase, les élèves auront une compréhension détaillée des facteurs environnementaux essentiels comme la température, l'humidité et la luminosité, ainsi que leurs impacts sur la croissance des plantes. Ils maîtriseront également les bases de l'assemblage et de la programmation des capteurs et microcontrôleurs, tout en comprenant l'importance d'une démarche scientifique rigoureuse.
+**Connaissances mobilisées** : À la fin de cette phase, les élèves auront une compréhension détaillée des facteurs environnementaux comme la température, l'humidité et la luminosité, et de leurs impacts sur la croissance des plantes. Ils maîtriseront aussi les bases de l'assemblage et de la programmation des capteurs et des microcontrôleurs, et sauront pourquoi une démarche scientifique doit être rigoureuse.
 
-**Réflexion sur la mise en œuvre en classe** : Les élèves auront développé des compétences pratiques en travaillant en groupes pour assembler leur station de mesure, en manipulant des instruments techniques, et en participant à des discussions collaboratives. Cette approche met en évidence l'importance du travail d'équipe et de l'apprentissage par la pratique.
+**Réflexion sur la mise en œuvre en classe** : Les élèves auront développé des compétences pratiques : ils auront assemblé leur station de mesure en groupe, manipulé des instruments techniques et participé à des discussions collectives.
 
-**Résultats d'apprentissage généraux** : Les élèves auront acquis des compétences techniques en mesure environnementale et en utilisation d'outils numériques. Ils auront appris à identifier les variables clés influençant la croissance des plantes et à mettre en place un protocole de mesure adapté, tout en développant leur esprit critique dans l'évaluation des différentes variables environnementales.
+**Résultats d'apprentissage généraux** : Les élèves auront acquis des compétences techniques en mesure environnementale et en utilisation d'outils numériques. Ils auront appris à identifier les variables clés qui influencent la croissance des plantes et à mettre en place un protocole de mesure adapté. En évaluant les différentes variables environnementales, ils auront aussi exercé leur esprit critique.
 
-Cette première étape pose les bases pour l'exploration du protocole autour du mur végétal en permettant de caractériser scientifiquement l'environnement d'installation. Grâce aux mesures précises des conditions environnementales (température, humidité, luminosité), nous pourrons sélectionner des espèces végétales parfaitement adaptées à leur futur habitat. Cette approche rigoureuse et basée sur les données maximise les chances de réussite du projet en assurant une croissance optimale des plantes choisies.
+Cette première étape caractérise scientifiquement l'environnement d'installation du mur végétal. Les mesures précises des conditions environnementales (température, humidité, luminosité) servent ensuite à sélectionner des espèces végétales adaptées à leur futur habitat.
 
 Afin d'approfondir cette phase, vous pouvez également ouvrir des discussions en utilisant les questionnements suivants :
 
@@ -180,23 +180,23 @@ comment mettre en place un système de stockage de données permettant de conser
 
 Pour guider les élèves dans leur démarche d'investigation, ils pourront explorer les questionnements suivants :
 
-- **Comment stocker les données de manière fiable et accessible ?** Quels dispositifs peuvent être utilisés pour enregistrer les données collectées ? Cette question encourage une réflexion sur les outils disponibles en classe (ex. carte micro-SD, stockage en ligne, enregistrement manuel) et leurs avantages respectifs afin d'assurer la pérennité et l'exploitabilité des mesures environnementales collectées.
-- **Quelle méthode de sauvegarde est la plus adaptée à notre contexte ?** Cette réflexion permet d'identifier la solution technique la plus pertinente en fonction des contraintes matérielles et pratiques, tout en comprenant l'importance d'observer des tendances sur une longue période pour une analyse précise.
+- **Comment stocker les données de manière fiable et accessible ?** Quels dispositifs peuvent être utilisés pour enregistrer les données collectées ? Cette question amène les élèves à réfléchir aux outils disponibles en classe (ex. carte micro-SD, stockage en ligne, enregistrement manuel) et à leurs avantages respectifs, pour que les mesures environnementales collectées restent conservées et exploitables.
+- **Quelle méthode de sauvegarde est la plus adaptée à notre contexte ?** Les élèves identifient la solution technique la plus pertinente selon les contraintes matérielles et pratiques.
 - **Pourquoi est-il important de capturer des données sur une longue période ?** Cette question aide les élèves à comprendre la nécessité d'observer des tendances ou variations temporelles pour une analyse précise et fiable des conditions environnementales.
 
 Les élèves seront amenés à aborder les concepts suivants :
 
 - **Comprendre les systèmes de stockage de données** : Les différentes solutions de stockage (carte SD, base de données, relevés manuels) présentent chacune leurs avantages et limitations. Le choix d'une solution adaptée dépend de facteurs comme l'autonomie nécessaire, la fréquence des relevés et l'accessibilité des données.
 - **Maîtriser les formats et la structure des données** : L'organisation des données collectées doit permettre leur exploitation future. Cela implique de définir un format cohérent, d'établir une nomenclature claire et de garantir la traçabilité des mesures.
-- **Appréhender les enjeux de fiabilité** : La fiabilité du système de stockage est cruciale pour éviter la perte de données. Les élèves devront réfléchir aux risques potentiels (panne de batterie, erreur de sauvegarde) et aux moyens de les prévenir.
+- **Appréhender les enjeux de fiabilité** : Un système de stockage fiable évite la perte de données. Les élèves devront réfléchir aux risques potentiels (panne de batterie, erreur de sauvegarde) et aux moyens de les prévenir.
 
-Cette approche permettra de mettre en place un système robuste de collecte et de stockage des données environnementales, essentiel pour le suivi scientifique de leur mur végétal. Les compétences techniques acquises leur serviront également dans d'autres contextes nécessitant la gestion de données.
+Le système de collecte et de stockage des données environnementales construit dans cette phase sert au suivi scientifique du mur végétal.
 
 ### Investigation par les élèves
 
 #### Phase de réflexion collective
 
-Dans un premier temps, les élèves sont invités à ouvrir une discussion sur les différentes méthodes possibles pour sauvegarder des données collectées par capteurs. Cette réflexion permet d'explorer toutes les possibilités plus ou moins techniques, des plus simples aux plus complexes, de manière libre (envoyer les données en utilisant le Wifi, prendre des photos d'un écran qui affiche les données, etc...).
+Dans un premier temps, les élèves sont invités à ouvrir une discussion sur les différentes méthodes possibles pour sauvegarder des données collectées par capteurs. Cette discussion est libre et couvre toutes les possibilités, des plus simples aux plus complexes (envoyer les données en utilisant le Wifi, prendre des photos d'un écran qui affiche les données, etc...).
 
 Suite à cet échange, une analyse collective permettra d'identifier les solutions réalisables avec les ressources disponibles en classe et l'outil de programmation utilisé lors de l'étape 1 (plateforme Vittascience pour micro:bit). L'enseignant pourra orienter la discussion et fournir aux élèves la documentation technique qui pourrait leur permettre d'identifier les solutions réalisables.
 
@@ -206,25 +206,23 @@ La mise en œuvre technique peut s'effectuer selon deux approches.
 
 La première consiste à utiliser un lecteur OpenLog avec une carte micro-SD, permettant un enregistrement automatique et continu des données. La seconde approche utilise un écran d'affichage nécessitant des relevés manuels réguliers tout au long de la journée.
 
-Dans la section "Mise en pratique", nous avons choisi de documenter l'utilisation du lecteur OpenLog, qui est la solution que nous recommandons, bien que d'autres options comme l'écran soient également réalisables avec l'interface de programmation standard.
+La section « Mise en pratique » documente l'utilisation du lecteur OpenLog, qui est la solution recommandée. D'autres options, comme l'écran, sont aussi réalisables avec l'interface de programmation standard.
 
 Pour les classes disposant des compétences techniques nécessaires, une solution plus avancée utilisant une connexion WiFi peut être envisagée, sous réserve de disposer d'une connexion internet sur le lieu d'installation.
 
 #### Collecte des données
 
-La dernière étape consiste à déployer la station de mesure créée dans l'étape 1 et améliorée grâce à la solution de sauvegarde des données, sur le site d'étude pour une période prolongée. L'acquisition des données sur plusieurs jours permet d'obtenir un aperçu plus fidèle et représentatif des conditions climatiques réelles du site. Cette durée étendue est essentielle pour garantir la pertinence des données collectées.
+La dernière étape consiste à déployer sur le site d'étude, pour une période prolongée, la station de mesure créée dans l'étape 1 et complétée par la solution de sauvegarde des données. Des données acquises sur plusieurs jours donnent un aperçu plus fidèle et représentatif des conditions climatiques réelles du site.
 
 ### Restitution et réflexion
 
-**Connaissances mobilisées** : À la fin de cette phase, les élèves auront développé une compréhension initiale et appliquée des systèmes de stockage de données et de leur importance. Ils auront aborder les concepts de sauvegarde de données, de fiabilité des mesures, et comprendront l'importance d'une collecte systématique pour une analyse pertinente.
+**Connaissances mobilisées** : À la fin de cette phase, les élèves auront développé une compréhension initiale et appliquée des systèmes de stockage de données et de leur importance. Ils auront abordé les concepts de sauvegarde de données, de fiabilité des mesures, et comprendront l'importance d'une collecte systématique pour une analyse pertinente.
 
 **Réflexion sur la mise en œuvre en classe** : Les élèves auront développé leur capacité d'analyse et de résolution de problèmes techniques en évaluant différentes solutions de stockage de données. Le travail collectif leur aura permis de développer leurs compétences en communication et en prise de décision.
 
 **Résultats d'apprentissage généraux** : Les élèves auront acquis des compétences techniques en gestion et stockage de données, ainsi qu'en analyse critique des solutions techniques. Ils auront appris à évaluer différentes options technologiques et à choisir la plus adaptée à leurs besoins, tout en prenant en compte les contraintes pratiques et matérielles.
 
-Cette deuxième étape est cruciale car elle permet de passer d'une simple collection de mesures instantanées à un véritable suivi de paramètres sur la durée. Les élèves ont pu raisonner et choisir de manière logique quelle était la solution la plus adaptée à la problématique posée, puis l'implémenter.
-
-La capacité à stocker et analyser les données dans le temps est essentielle pour comprendre les variations environnementales et leur impact potentiel sur le mur végétal.
+Avec cette deuxième étape, on passe de mesures instantanées à un suivi des paramètres sur la durée, qui sert à comprendre les variations environnementales et leur impact potentiel sur le mur végétal. Les élèves ont pu raisonner et choisir de manière logique quelle était la solution la plus adaptée à la problématique posée, puis l'implémenter.
 
 Pour approfondir cette phase, plusieurs questions peuvent être explorées avec les élèves :
 
@@ -280,31 +278,27 @@ Pour faciliter l'analyse des données, les élèves créeront un tableau structu
 | Température | [min-max] Moyenne: | Chaud / Tempéré / Frais | Résistance nécessaire au chaud / froid |
 | Humidité | [min-max] Moyenne: | Sec / Normal / Humide | Besoins en arrosage correspondants |
 
-Cette approche structurée permettra aux élèves d'organiser efficacement leurs données, d'établir une classification standardisée des conditions environnementales, d'identifier les corrélations entre les mesures et les besoins des plantes, et de préparer une base solide pour la recherche documentaire.
-
 Ces informations serviront de fondement pour la phase suivante de recherche documentaire sur les plantes adaptées.
 
 #### Recherche documentaire : Une approche comparative pour comprendre l'apport des nouvelles technologies et de l'IA
 
-L'analyse des données environnementales réalisée précédemment a fourni aux élèves des informations précises sur les conditions dans lesquelles le mur végétal devra vivre : niveaux de luminosité, variations de température, taux d'humidité.
-
-Ces données constituent la base pour identifier les espèces végétales les plus adaptées à notre environnement spécifique.
+L'analyse des données environnementales réalisée précédemment a fourni aux élèves des informations précises sur les conditions dans lesquelles le mur végétal devra vivre : niveaux de luminosité, variations de température, taux d'humidité. Ces données servent à choisir les espèces végétales les plus adaptées au site.
 
 Sur la base de ces informations, les élèves devront réaliser une recherche documentaire permettant : d'identifier les plantes capables de s'épanouir dans les conditions mesurées, de comprendre les besoins spécifiques de chaque espèce végétale, d'anticiper les éventuels défis de maintenance du mur végétal, d'assurer la durabilité du projet en sélectionnant des espèces compatibles.
 
-Pour mener à bien cette recherche, les élèves exploreront et compareront différentes approches méthodologiques, en combinant méthodes traditionnelles et outils modernes avec pour objectif de découvrir la valeur ajoutée des technologies assistées par l'intelligence artificielle et les différents outils de génération de texte et d'image.
+Pour mener à bien cette recherche, les élèves exploreront et compareront différentes approches méthodologiques, qui combinent méthodes traditionnelles et outils modernes. L'objectif est de découvrir ce qu'apportent les technologies assistées par l'intelligence artificielle et les différents outils de génération de texte et d'image.
 
 Pour développer l'esprit critique des élèves face aux méthodes de recherche documentaire et comprendre la place des nouvelles technologies dans ce processus, la classe sera divisée en trois groupes. Chaque groupe explorera une approche différente pour identifier les plantes adaptées aux conditions environnementales mesurées :
 
-- **Groupe 1 : méthodes traditionnelles** — utilisation d'ouvrages de référence en botanique et jardinage, consultation de bases de données spécialisées (Flora Data, Tela Botanica), analyse de revues horticoles et publications scientifiques.
-- **Groupe 2 : recherche web classique** — exploitation des moteurs de recherche (Google, Bing), navigation sur des sites spécialisés en horticulture, participation à des forums et communautés de jardiniers en ligne.
-- **Groupe 3 : outils d'intelligence artificielle** — par exemple :
-  - ChatGPT (OpenAI) — [chat.openai.com](https://chat.openai.com)
-  - Microsoft Copilot — [copilot.microsoft.com](https://copilot.microsoft.com/)
-  - Google Gemini — [gemini.google.com](https://gemini.google.com/)
-  - Llama2 (Meta) — [llama2.ai](https://www.llama2.ai/)
-  - Mixtral (Mistral AI) — [chat.mistral.ai](https://chat.mistral.ai/)
-  - Plateforme Vittascience — [vittascience.com/ia/text.php](https://vittascience.com/ia/text.php)
+- **Groupe 1 : méthodes traditionnelles.** Utilisation d'ouvrages de référence en botanique et jardinage, consultation de bases de données spécialisées (Flora Data, Tela Botanica), analyse de revues horticoles et publications scientifiques.
+- **Groupe 2 : recherche web classique.** Exploitation des moteurs de recherche (Google, Bing), navigation sur des sites spécialisés en horticulture, participation à des forums et communautés de jardiniers en ligne.
+- **Groupe 3 : outils d'intelligence artificielle**, par exemple :
+  - ChatGPT (OpenAI) : [chat.openai.com](https://chat.openai.com)
+  - Microsoft Copilot : [copilot.microsoft.com](https://copilot.microsoft.com/)
+  - Google Gemini : [gemini.google.com](https://gemini.google.com/)
+  - Llama2 (Meta) : [llama2.ai](https://www.llama2.ai/)
+  - Mixtral (Mistral AI) : [chat.mistral.ai](https://chat.mistral.ai/)
+  - Plateforme Vittascience : [vittascience.com/ia/text.php](https://vittascience.com/ia/text.php)
 
 Chaque groupe documentera son expérience selon les critères suivants :
 
@@ -314,36 +308,36 @@ Chaque groupe documentera son expérience selon les critères suivants :
 
 #### Synthèse et évaluation critique des outils d'IA
 
-Une fois le travail de groupe réalisé, les élèves mettront en commun leurs conclusions et se concentreront sur la comparaison de chaque méthode avec l'utilisation des modèles d'IA. La mise en commun permettra d'analyser collectivement les différentes approches de recherche. Les élèves compareront leurs expériences, identifieront les points forts de chaque méthode et réfléchiront à une approche optimale combinant outils traditionnels et nouvelles technologies. Cette réflexion collective les amènera à développer un regard nuancé sur l'intégration des technologies dans leur processus de recherche, tout en cultivant leur esprit critique face aux différentes sources d'information. La discussion portera sur la manière dont ces outils citent leurs sources et sur la cohérence des informations fournies. Les élèves partageront leurs observations sur la pertinence des réponses obtenues par rapport aux conditions environnementales spécifiques de leur projet.
+Une fois le travail de groupe réalisé, les élèves mettront en commun leurs conclusions et compareront chaque méthode avec l'utilisation des modèles d'IA. Ils confronteront leurs expériences, identifieront les points forts de chaque méthode et réfléchiront à la meilleure façon de combiner outils traditionnels et nouvelles technologies. Cette comparaison exercera leur esprit critique face aux différentes sources d'information. La discussion portera sur la manière dont ces outils citent leurs sources et sur la cohérence des informations fournies. Les élèves partageront leurs observations sur la pertinence des réponses obtenues par rapport aux conditions environnementales spécifiques de leur projet.
 
-Un point crucial de cette discussion sera l'exploration du phénomène d'hallucination des IA. À travers des exemples concrets, comme la description erronée des pattes des poules d'eau supposément palmées, les élèves comprendront l'importance de la vérification des sources.
+La discussion abordera aussi le phénomène d'hallucination des IA. À travers des exemples concrets, comme la description erronée des pattes des poules d'eau supposément palmées, les élèves comprendront pourquoi il faut vérifier les sources.
 
-Il est important de noter que les modèles d'IA sont en constante évolution et s'améliorent rapidement. Les exemples d'hallucinations ou d'erreurs identifiés à un moment donné peuvent ne plus être valables quelques mois plus tard, car les modèles sont régulièrement mis à jour et entraînés avec de nouvelles données. C'est pourquoi il est crucial de développer une méthodologie de vérification des informations plutôt que de se fier à une liste d'erreurs connues. Cette nature évolutive des IA renforce d'autant plus l'importance d'adopter une approche critique systématique, indépendamment de la "réputation" ou de la version du modèle utilisé.
+Les modèles d'IA évoluent en permanence et s'améliorent rapidement. Les exemples d'hallucinations ou d'erreurs identifiés à un moment donné peuvent ne plus être valables quelques mois plus tard, car les modèles sont régulièrement mis à jour et entraînés avec de nouvelles données. Mieux vaut donc apprendre une méthode de vérification des informations que se fier à une liste d'erreurs connues, et garder une approche critique systématique quelle que soit la « réputation » ou la version du modèle utilisé.
 
 ### Restitution et réflexion
 
-**Connaissances mobilisées** : À l'issue de cette phase d'investigation, les élèves auront développé une compréhension approfondie des méthodes de recherche documentaire, en comparant approches traditionnelles et outils d'IA. Ils auront acquis des compétences essentielles en matière de validation des sources et d'analyse critique de l'information.
+**Connaissances mobilisées** : À l'issue de cette phase d'investigation, les élèves auront développé une compréhension approfondie des méthodes de recherche documentaire, en comparant approches traditionnelles et outils d'IA. Ils auront acquis des compétences en validation des sources et en analyse critique de l'information.
 
 **Réflexion sur la mise en œuvre en classe** : Les élèves auront expérimenté différentes méthodes de recherche à travers un travail collaboratif en groupes. Cette approche comparative leur aura permis de développer leur esprit critique et d'évaluer concrètement les avantages et limites de chaque méthode.
 
 **Résultats d'apprentissage généraux** : Les élèves auront acquis des compétences en recherche documentaire et en utilisation raisonnée des outils d'IA. Ils sauront formuler des requêtes précises, évaluer la fiabilité des sources et croiser les informations obtenues pour faire des choix éclairés.
 
-Cette phase d'investigation comparative est essentielle car elle permet aux élèves de développer une approche méthodologique rigoureuse tout en découvrant les potentialités et les limites des différents outils à leur disposition. Cette méthodologie sera directement applicable à la conception du mur végétal, où chaque décision doit être basée sur des données fiables et vérifiées.
+Dans cette phase d'investigation comparative, les élèves construisent une méthode de recherche rigoureuse et découvrent les potentialités et les limites des différents outils à leur disposition. Cette méthode s'applique directement à la conception du mur végétal : chaque décision, à commencer par le choix des plantes, doit être fondée sur des informations précises, fiables et vérifiées pour que l'installation reste viable à long terme.
 
-L'utilisation encadrée des outils d'IA permet aux élèves de découvrir ces technologies de manière critique et réfléchie. Si l'IA facilite l'accès à l'information et l'analyse de données complexes, les élèves apprennent également l'importance de la vérification systématique des sources et de la confrontation des résultats obtenus. Cette approche critique est particulièrement importante pour le projet de mur végétal, où le choix des plantes doit être basé sur des informations précises et fiables pour garantir la viabilité à long terme de l'installation.
+Dans un usage encadré, les élèves découvrent les outils d'IA de manière critique et réfléchie. L'IA facilite l'accès à l'information et l'analyse de données complexes, mais les élèves apprennent aussi à vérifier systématiquement les sources et à confronter les résultats obtenus.
 
 Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion sont proposés aux élèves :
 
 - **Comment optimiser ses recherches ?** Les élèves apprennent à formuler des requêtes précises et pertinentes, que ce soit pour les moteurs de recherche traditionnels ou les outils d'IA.
-- **Comment évaluer la fiabilité des sources ?** Développement de critères d'évaluation et de méthodes de validation des informations.
-- **Comment repérer les erreurs potentielles ?** Sensibilisation aux limites des différents outils et à l'importance de la vérification croisée.
-- **Comment synthétiser l'information ?** Apprentissage des techniques de synthèse et d'organisation des données collectées pour une prise de décision éclairée.
+- **Comment évaluer la fiabilité des sources ?** Ils définissent des critères et des méthodes pour évaluer et valider les informations.
+- **Comment repérer les erreurs potentielles ?** Ils découvrent les limites des différents outils et l'importance de la vérification croisée.
+- **Comment synthétiser l'information ?** Ils apprennent à synthétiser et à organiser les données collectées pour prendre des décisions éclairées.
 
 ---
 
 ## Phase 4 : Utiliser les données pour créer un mur végétal
 
-**Contexte de la séquence** : maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Cette étape cruciale va permettre aux élèves de mettre en application leurs connaissances théoriques tout en développant des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
+**Contexte de la séquence** : maintenant que les élèves ont déterminé les plantes adaptées grâce à leur recherche documentaire comparative, il est temps de passer à la phase pratique de mise en place du mur végétal. Les élèves y appliquent leurs connaissances théoriques et acquièrent des compétences pratiques en jardinage et en gestion de projet. La réussite de cette phase dépendra directement de la qualité des recherches effectuées précédemment et de leur capacité à transformer ces informations en actions concrètes.
 
 **Objectifs d'apprentissage** :
 
@@ -358,62 +352,62 @@ Pour approfondir cette démarche d'investigation, plusieurs axes de réflexion s
 comment mettre en place et maintenir un mur végétal en milieu urbain ?
 :::
 
-La végétalisation urbaine vise à intégrer des éléments végétaux dans l'environnement bâti afin de créer des villes plus durables. Cette approche apporte de nombreux bénéfices environnementaux essentiels : régulation de la température urbaine, amélioration de la qualité de l'air et de l'eau, enrichissement de la biodiversité et meilleure gestion des eaux pluviales. Dans le cas des murs végétaux, cela suppose la création d'**écosystèmes verticaux**.
+La végétalisation urbaine vise à intégrer des éléments végétaux dans l'environnement bâti afin de créer des villes plus durables, avec les bénéfices environnementaux cités dans l'introduction. Dans le cas des murs végétaux, cela suppose la création d'**écosystèmes verticaux**.
 
-Le projet demande de mobiliser des aspects essentiels traités dans les phases précédentes :
+Le projet s'appuie sur deux éléments traités dans les phases précédentes :
 
 - les **conditions environnementales** (luminosité, température, humidité) mesurées dans les phases 1 et 2 ;
 - les **besoins des plantes choisies** analysés dans la phase 3.
 
-Il reste maintenant à mettre en pratique ces connaissances pour assurer une installation réussie du mur végétal grâce à un système d'installation adapté (structure, substrat, irrigation).
+Il reste à mettre en pratique ces connaissances pour réussir l'installation du mur végétal, avec un système d'installation adapté (structure, substrat, irrigation).
 
-Il est essentiel de comprendre que tout système, aussi bien conçu soit-il, présente des limites et des contraintes. Dans le cas de la végétalisation urbaine, ces limites peuvent être liées aux **ressources disponibles** (eau, nutriments), aux **conditions environnementales** (température, luminosité), ou aux **capacités d'adaptation des plantes**. La reconnaissance de ces limites n'est pas un frein au projet, mais plutôt une opportunité d'anticiper les difficultés potentielles et de développer des solutions adaptées. Cette approche réaliste permet de concevoir des systèmes plus résilients et durables, en tenant compte des contraintes tout en maximisant les bénéfices attendus.
+Tout système, aussi bien conçu soit-il, a des limites et des contraintes. Dans le cas de la végétalisation urbaine, ces limites peuvent être liées aux **ressources disponibles** (eau, nutriments), aux **conditions environnementales** (température, luminosité) ou aux **capacités d'adaptation des plantes**. Les connaître permet d'anticiper les difficultés et de prévoir des solutions adaptées.
 
 La méthode d'implantation comprend plusieurs étapes :
 
 1. **Analyse du site d'installation** : étude de l'orientation, de l'exposition aux éléments, et des contraintes structurelles.
-2. **Sélection des végétaux adaptés** : basée sur les données environnementales collectées et la recherche documentaire réalisée.
+2. **Sélection des végétaux adaptés** : fondée sur les données environnementales collectées et la recherche documentaire réalisée.
 3. **Mise en place d'un système de suivi** : permettant d'observer les paramètres et de gérer les ressources, notamment l'eau.
 
 ### Investigation par les élèves
 
-Durant cette étape, les élèves vont être amenés à assembler le mur végétal, en se basant sur les analyses, les mesures, les compétences et connaissances acquises dans les étapes précédentes. Cette phase se veut plus "libre", dans le sens où les élèves pourront déterminer, avec l'aide de leur enseignant, ce à quoi leur projet de mur végétal ressemblera et la répartition des tâches. Voici cependant quelques conseils pour mettre en pratique cette étape.
+Durant cette étape, les élèves vont être amenés à assembler le mur végétal, en s'appuyant sur les analyses, les mesures, les compétences et connaissances acquises dans les étapes précédentes. Cette phase est plus « libre » : les élèves pourront déterminer, avec l'aide de leur enseignant, ce à quoi leur projet de mur végétal ressemblera et la répartition des tâches. Voici cependant quelques conseils pour mettre en pratique cette étape.
 
 #### Comprendre les enjeux de la végétalisation urbaine
 
-Pour débuter cette étape, nous recommandons aux enseignants d'initier une discussion en classe sur les enjeux de la végétalisation urbaine, afin de donner du sens au projet et de le contextualiser. Cette discussion abordera les défis environnementaux urbains actuels (îlots de chaleur, pollution, gestion des eaux) et les solutions apportées par la végétalisation. Après cette introduction, répartissez la classe en petits groupes thématiques, chacun explorant un aspect spécifique : impact environnemental, bénéfices sociaux ou innovations techniques. Planifiez des échanges réguliers entre les groupes pour faciliter le partage des découvertes. Encouragez les élèves à diversifier leurs sources d'information (documents scientifiques, vidéos, interviews d'experts) et à partager leurs découvertes à travers des mini-exposés. Cette démarche permet à chaque élève de développer son expertise tout en participant à la construction d'une compréhension collective du projet.
+Pour débuter cette étape, lancez une discussion en classe sur les enjeux de la végétalisation urbaine, afin de donner du sens au projet et de le contextualiser. Cette discussion abordera les défis environnementaux urbains actuels (îlots de chaleur, pollution, gestion des eaux) et les solutions apportées par la végétalisation. Après cette introduction, répartissez la classe en petits groupes thématiques : chaque groupe explore un aspect spécifique (impact environnemental, bénéfices sociaux ou innovations techniques). Planifiez des échanges réguliers entre les groupes pour faciliter le partage des découvertes. Encouragez les élèves à diversifier leurs sources d'information (documents scientifiques, vidéos, interviews d'experts) et à partager leurs découvertes à travers des mini-exposés.
 
 #### Construction collective du projet
 
-Une fois l'ensemble des éléments contextuels bien analysé, et en s'appuyant sur les données environnementales collectées et leurs recherches, il est nécessaire que les élèves développent un plan d'action pour la mise en place de leur projet, en explorant différentes dimensions du projet : l'optimisation scientifique des conditions de croissance, la sélection raisonnée des espèces végétales, la conception technique du système d'irrigation et les enjeux socio-environnementaux de la végétalisation. Cette approche méthodologique leur permettra d'appliquer concrètement leurs connaissances scientifiques tout en développant leur autonomie.
+Une fois le contexte bien analysé, les élèves doivent élaborer un plan d'action pour leur projet, à partir des données environnementales collectées et de leurs recherches. Ce plan couvre plusieurs dimensions du projet : l'optimisation scientifique des conditions de croissance, la sélection raisonnée des espèces végétales, la conception technique du système d'irrigation et les enjeux socio-environnementaux de la végétalisation.
 
-L'organisation du travail doit refléter la dimension collaborative du projet. Les élèves peuvent naturellement se répartir les responsabilités en fonction de leurs affinités et compétences : certains pourront se concentrer sur la coordination d'ensemble, d'autres sur les aspects techniques de l'installation, ou encore sur la documentation et le suivi du projet. Cette dynamique de groupe favorisera l'émergence des talents individuels tout en renforçant la cohésion collective autour d'un objectif commun.
+L'organisation du travail doit refléter la dimension collaborative du projet. Les élèves peuvent naturellement se répartir les responsabilités en fonction de leurs affinités et compétences : certains pourront se concentrer sur la coordination d'ensemble, d'autres sur les aspects techniques de l'installation, ou encore sur la documentation et le suivi du projet.
 
-En complément de la création du mur végétal (création du système de plantation, sélection et ajout des plantes), il est intéressant de réutiliser les compétences acquises en programmation et électronique dans ce protocole afin de développer un système de monitoring connecté reprenant les pratiques et compétences acquises lors des phases précédentes.
+En complément de la création du mur végétal (création du système de plantation, sélection et ajout des plantes), les élèves peuvent réutiliser les compétences en programmation et en électronique acquises dans ce protocole pour construire un système de suivi connecté du mur.
 
-La carte micro:bit, déjà utilisée pour nos premières mesures environnementales, peut être adaptée pour créer un système de surveillance de notre mur végétal. Le capteur DHT11 nous permettra de suivre la température et l'humidité de l'air, deux paramètres essentiels pour la santé des plantes. Le capteur de luminosité intégré à la carte nous donnera des informations précieuses sur l'exposition lumineuse, nous permettant d'ajuster le positionnement des plantes ou d'envisager un éclairage d'appoint si nécessaire.
+La carte micro:bit, déjà utilisée pour les premières mesures environnementales, peut être adaptée pour surveiller le mur végétal. Le capteur DHT11 suit la température et l'humidité de l'air, deux paramètres dont dépend la santé des plantes. Le capteur de luminosité intégré à la carte renseigne sur l'exposition lumineuse : on peut alors ajuster le positionnement des plantes ou envisager un éclairage d'appoint si nécessaire.
 
-En ajoutant des capteurs d'humidité du sol directement dans le substrat, nous pourrons surveiller précisément les besoins en eau de chaque section du mur. Ces données, combinées avec celles de la température et de l'humidité ambiante, nous permettront de développer un système d'arrosage intelligent qui s'adapte aux conditions réelles et aux besoins spécifiques de nos plantes.
+En ajoutant des capteurs d'humidité du sol directement dans le substrat, on peut surveiller précisément les besoins en eau de chaque section du mur. Combinées aux mesures de température et d'humidité ambiante, ces données servent à développer un système d'arrosage intelligent qui s'adapte aux conditions réelles et aux besoins spécifiques des plantes.
 
-L'ensemble des données collectées sera affiché sur une interface simple que nous programmerons, permettant un suivi en temps réel de notre mur végétal. Cette approche technologique nous permet non seulement d'assurer la bonne santé de nos plantes, mais aussi d'approfondir nos compétences en programmation à travers un projet concret et utile.
+L'ensemble des données collectées s'affichera sur une interface simple, programmée par les élèves, pour suivre le mur végétal en temps réel. Ce suivi aide à garder les plantes en bonne santé, et les élèves y approfondissent leurs compétences en programmation sur un projet concret et utile.
 
 #### Réflexion et perspectives
 
 Une fois le projet mis en oeuvre, les élèves pourront réfléchir à l'impact de leur projet sur leur environnement immédiat et plus largement sur leur ville.
 
-Encouragez les à documenter leur démarche, créer des supports de communication, ou organiser des événements de sensibilisation. Cette dimension citoyenne du projet leur permet de se positionner comme acteurs du changement dans leur communauté.
+Encouragez les à documenter leur démarche, créer des supports de communication, ou organiser des événements de sensibilisation.
 
-Ils évalueront leur projet selon leurs propres critères de réussite. Ils pourront proposer des améliorations, imaginer des extensions du projet, ou réfléchir à de nouvelles initiatives. Cette phase de réflexion valorisera leur capacité d'analyse critique et leur vision à long terme.
+Ils évalueront leur projet selon leurs propres critères de réussite. Ils pourront proposer des améliorations, imaginer des extensions du projet, ou réfléchir à de nouvelles initiatives.
 
-#### Aller plus loin : L'Intelligence Artificielle comme outil créatif et pédagogique dans la conception de murs végétaux
+#### Aller plus loin : L'intelligence artificielle comme outil créatif et pédagogique dans la conception de murs végétaux
 
-Les outils d'Intelligence Artificielle générative, tels que DALL·E, ChatGPT ou Midjourney, peuvent être intégrés de manière innovante dans le processus de conception et de réalisation du mur végétal. Cette approche permet non seulement d'enrichir le projet pédagogique mais aussi d'initier les élèves à l'utilisation réfléchie et critique des technologies émergentes.
+Les élèves peuvent intégrer des outils d'intelligence artificielle générative, tels que DALL·E, ChatGPT ou Midjourney, dans la conception et la réalisation du mur végétal. Cette approche enrichit le projet pédagogique et initie les élèves à une utilisation réfléchie et critique de ces technologies.
 
 1. **Conception assistée par l'IA** : Les élèves peuvent utiliser DALL·E pour générer des visualisations détaillées de leur projet en spécifiant les caractéristiques environnementales précises de leur site d'implantation. Par exemple, ils peuvent demander : "Générer un mur végétal pour une façade nord avec une exposition limitée au soleil dans un climat méditerranéen". L'IA produira plusieurs propositions d'aménagement tenant compte de ces contraintes spécifiques.
-2. **Validation et analyse critique** : Les visualisations générées par l'IA doivent être systématiquement confrontées aux données botaniques et techniques issues de sources scientifiques fiables. Cette démarche comparative permet aux élèves d'identifier les incohérences potentielles entre les propositions de l'IA et les contraintes réelles. Ils affinent ainsi leur compréhension des besoins spécifiques des différentes espèces végétales tout en développant leur esprit critique face aux solutions générées automatiquement.
-3. **Alternative virtuelle et sensibilisation** : Dans les cas où l'implantation physique d'un mur végétal n'est pas possible, l'IA peut être utilisée pour créer des supports de sensibilisation innovants. Les élèves peuvent travailler sur la création de séries de posters montrant l'évolution possible des espaces urbains avec différents scénarios de végétalisation. Ils peuvent également développer des projections en mapping vidéo simulant la transformation végétale des façades, ou réaliser des supports pédagogiques illustrant les bénéfices environnementaux de la végétalisation urbaine.
-4. **Processus itératif et apprentissage** : L'utilisation de l'IA permet un processus de conception itératif où les élèves peuvent rapidement tester différentes compositions végétales et évaluer leur impact visuel. Ils peuvent ajuster leurs propositions en fonction des retours et des contraintes identifiées, tout en explorant diverses solutions d'aménagement sans contraintes matérielles.
-5. **Développement des compétences numériques** : Cette approche permet aux élèves de développer des compétences essentielles dans l'utilisation des technologies émergentes. Ils apprennent à maîtriser les prompts et le dialogue avec les IA génératives, à évaluer et valider les propositions générées automatiquement, et à comprendre les potentialités et les limites des outils d'IA.
+2. **Validation et analyse critique** : Les visualisations générées par l'IA doivent être systématiquement confrontées aux données botaniques et techniques issues de sources scientifiques fiables. Les élèves repèrent ainsi les incohérences potentielles entre les propositions de l'IA et les contraintes réelles. Ils affinent leur compréhension des besoins spécifiques des différentes espèces végétales et exercent leur esprit critique face aux solutions générées automatiquement.
+3. **Alternative virtuelle et sensibilisation** : Dans les cas où l'implantation physique d'un mur végétal n'est pas possible, l'IA peut être utilisée pour créer des supports de sensibilisation. Les élèves peuvent travailler sur la création de séries de posters montrant l'évolution possible des espaces urbains avec différents scénarios de végétalisation. Ils peuvent également développer des projections en mapping vidéo simulant la transformation végétale des façades, ou réaliser des supports pédagogiques illustrant les bénéfices environnementaux de la végétalisation urbaine.
+4. **Processus itératif et apprentissage** : Avec l'IA, la conception peut se faire par itérations. Les élèves peuvent rapidement tester différentes compositions végétales, évaluer leur impact visuel, puis ajuster leurs propositions en fonction des retours et des contraintes identifiées. Ils explorent ainsi diverses solutions d'aménagement sans contraintes matérielles.
+5. **Développement des compétences numériques** : Les élèves apprennent à maîtriser les prompts et le dialogue avec les IA génératives, à évaluer et valider les propositions générées automatiquement, et à comprendre les potentialités et les limites des outils d'IA.
 
 Voici par exemple, deux générations réalisées grâce à DALL·E sur la création d'un mur végétal dans deux contextes climatiques et urbains différents :
 
@@ -489,34 +483,32 @@ Plan d'implantation général :
 
 ### Restitution et réflexion
 
-**Connaissances mobilisées** : Pour la mise en place du mur végétal, les élèves ont mobilisé leurs compétences en analyse environnementale, leurs connaissances botaniques et leur maîtrise des outils technologiques. Ils ont également développé des capacités pratiques en jardinage et en gestion de systèmes d'irrigation.
+**Connaissances mobilisées** : Pour la mise en place du mur végétal, les élèves mobilisent leurs compétences en analyse environnementale, leurs connaissances botaniques et leur maîtrise des outils technologiques. Ils développent également des capacités pratiques en jardinage et en gestion de systèmes d'irrigation.
 
-**Réflexion sur la mise en œuvre en classe** : Cette phase finale a permis de concrétiser les apprentissages théoriques en une réalisation tangible. Les élèves ont dû faire preuve d'adaptation et de créativité pour surmonter les défis pratiques, tout en appliquant rigoureusement leurs connaissances scientifiques.
+**Réflexion sur la mise en œuvre en classe** : Dans cette phase finale, les apprentissages théoriques aboutissent à une réalisation concrète. Les élèves doivent faire preuve d'adaptation et de créativité pour surmonter les difficultés pratiques, en appliquant rigoureusement leurs connaissances scientifiques.
 
-**Résultats d'apprentissage généraux** : Les élèves ont développé leur capacité à appliquer concrètement leurs connaissances en botanique dans un contexte réel. Ils ont acquis une expertise dans la mise en place et l'utilisation des systèmes de monitoring environnemental. Le projet leur a permis de développer des compétences en gestion collaborative et en résolution de problèmes techniques. Enfin, ils ont amélioré leurs capacités de communication et appris à documenter efficacement un processus scientifique.
+**Résultats d'apprentissage généraux** : Les élèves appliquent leurs connaissances en botanique dans un contexte réel. Ils mettent en place et utilisent un système de suivi environnemental. Le projet fait travailler la gestion collaborative et la résolution de problèmes techniques, ainsi que la communication et la documentation d'un processus scientifique.
 
-**Bilan global du protocole** : Ce projet pédagogique a permis aux élèves de développer une expertise combinant sciences, technologie et conscience environnementale. La progression à travers les phases de mesure, analyse, conception et réalisation a construit leur compréhension des enjeux de la végétalisation urbaine. Les élèves ont travaillé sur la collecte et l'analyse des données environnementales, la conception d'un système de monitoring, l'application des principes botaniques et écologiques, la gestion de projet et la documentation du processus scientifique.
-
-Cette expérience a renforcé leur rôle dans le changement environnemental au sein de leur communauté scolaire. En utilisant des outils technologiques pour développer des solutions écologiques concrètes, ils ont montré comment l'innovation peut servir le développement durable. Cette approche pédagogique constitue un modèle pour l'enseignement des sciences et de la technologie au service des enjeux environnementaux actuels.
+**Bilan global du protocole** : En passant par les phases de mesure, d'analyse, de conception et de réalisation, les élèves construisent leur compréhension des enjeux de la végétalisation urbaine. Ils travaillent sur la collecte et l'analyse des données environnementales, la conception d'un système de suivi, l'application des principes botaniques et écologiques, la gestion de projet et la documentation du processus scientifique.
 
 A partir de ce travail, il est possible d'ouvrir de nouveaux axes d'étude et de questionnements collectifs :
 
-- **Comment adapter ce système pour d'autres contextes urbains ?** Exploration des possibilités d'adaptation du système pour différents environnements urbains, en tenant compte des contraintes spécifiques à chaque situation.
-- **Quelles améliorations technologiques pourraient optimiser le système ?** Identification des innovations techniques possibles pour améliorer l'efficacité et la performance du système de végétalisation.
-- **Comment mesurer l'impact environnemental réel du mur végétal ?** Développement de méthodologies pour quantifier les bénéfices environnementaux concrets du projet, notamment en termes de qualité de l'air et de biodiversité.
-- **Comment partager cette expérience avec d'autres établissements ?** Élaboration de stratégies de diffusion et de partage des connaissances acquises pour permettre la reproduction du projet dans d'autres contextes éducatifs.
+- **Comment adapter ce système pour d'autres contextes urbains ?** Étudier les possibilités d'adaptation à différents environnements urbains, en tenant compte des contraintes spécifiques à chaque situation.
+- **Quelles améliorations technologiques pourraient optimiser le système ?** Identifier les innovations techniques qui rendraient le système de végétalisation plus efficace et plus performant.
+- **Comment mesurer l'impact environnemental réel du mur végétal ?** Trouver des méthodes pour quantifier les bénéfices environnementaux concrets du projet, notamment pour la qualité de l'air et la biodiversité.
+- **Comment partager cette expérience avec d'autres établissements ?** Imaginer comment diffuser et partager les connaissances acquises, pour que le projet puisse être reproduit dans d'autres contextes éducatifs.
 
 ---
 
 ## Mise en pratique
 
-Dans notre exemple, la station de mesure et le module d'enregistrement ont été programmés sur la plateforme Vittascience pour Micro:bit.
+Dans l'exemple présenté ici, la station de mesure et le module d'enregistrement ont été programmés sur la plateforme Vittascience pour Micro:bit.
 
 ### Collecter des données : montage et programmation de la station de mesure
 
 #### Assemblage de la station
 
-La carte Micro:bit doit être connectée au Grove Shield. Le capteur de température/humidité peut être placé sur les broches P1/P15 ou P2/P16 du blindage Grove.
+La carte Micro:bit doit être connectée au Grove Shield. Le capteur de température/humidité peut être placé sur les broches P1/P15 ou P2/P16 du Grove Shield.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/capteur.png" alt="Montage du capteur" style={{maxWidth: '70%', height: 'auto', margin: '0 auto'}} />
@@ -539,7 +531,7 @@ L'objectif de cette station est de mesurer la **température**, l'**humidité re
 
 #### Programme final et test
 
-Le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 du shield Grove. Si le DHT11 est connecté à une autre broche, il faudra modifier le programme en conséquence. De même, pour les Micro:bit V1 (et non V2 — vérifier l'inscription au dos de la carte en bas à droite), une adaptation du programme sera nécessaire.
+Le programme ne fonctionne que si le DHT11 est connecté à la broche P1/P15 du shield Grove. Si le DHT11 est connecté à une autre broche, il faudra modifier le programme en conséquence. De même, pour les Micro:bit V1 (et non V2 : vérifier l'inscription au dos de la carte en bas à droite), une adaptation du programme sera nécessaire.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/programmefinal.png" alt="Programme final de la station" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -585,17 +577,17 @@ Comme pour la partie précédente, le programme ne fonctionne que si le DHT11 es
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/openlogcode1.png" alt="Programmation OpenLog - étape 1" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programmation OpenLog — initialisation</figcaption>
+  <figcaption style={{margin: 0}}>Programmation OpenLog : initialisation</figcaption>
 </figure>
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/openlogcode2.png" alt="Programmation OpenLog - étape 2" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programmation OpenLog — écriture des en-têtes</figcaption>
+  <figcaption style={{margin: 0}}>Programmation OpenLog : écriture des en-têtes</figcaption>
 </figure>
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/steamcity/plants-city/openlogcode3.png" alt="Programmation OpenLog - étape 3" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
-  <figcaption style={{margin: 0}}>Programmation OpenLog — boucle de mesure</figcaption>
+  <figcaption style={{margin: 0}}>Programmation OpenLog : boucle de mesure</figcaption>
 </figure>
 
 #### Test du programme
@@ -614,8 +606,6 @@ Une fois la station assemblée et programmée, il est recommandé de créer un b
 ---
 
 ## Aller plus loin
-
-Exploration de la problématique au travers d'autres initiatives
 
 ### Surveillance de la santé des plantes
 

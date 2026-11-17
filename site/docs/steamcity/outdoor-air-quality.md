@@ -53,22 +53,20 @@ sidebar_position: 4
 
 Le protocole « Qualité de l'air extérieur et impact de la météo » vise à guider la création d'une station de surveillance fonctionnelle de la qualité de l'air en classe. La pollution atmosphérique est un défi environnemental qui affecte les écosystèmes, les infrastructures et la santé publique. Les polluants issus des procédés industriels, des transports et d'autres activités humaines ajoutent des particules fines, des oxydes d'azote, des composés organiques volatils et d'autres substances à l'atmosphère. Ces polluants peuvent contribuer aux problèmes respiratoires, à la réduction de la visibilité, à la dégradation des bâtiments et à la modification des cycles environnementaux.
 
-La surveillance environnementale contribue à la sensibilisation à l'environnement. En comprenant les sources, les schémas et les effets de la pollution atmosphérique, chacun peut contribuer à des solutions fondées sur des données probantes.
+D'un point de vue technique, ce projet présente l'Internet des objets (IoT), la technologie des capteurs et la visualisation de données, composantes des systèmes modernes de surveillance environnementale. En manipulant des cartes programmables, des capteurs et des équipements d'enregistrement de données, les élèves acquièrent des compétences pratiques utiles dans les domaines des STEAM.
 
-D'un point de vue technique, ce projet présente l'Internet des objets (IoT), la technologie des capteurs et la visualisation de données, composantes des systèmes modernes de surveillance environnementale. Grâce à une expérience pratique avec des cartes programmables, des capteurs et des équipements d'enregistrement de données, les étudiants acquerront des compétences pratiques utiles dans les domaines des STEAM.
-
-La dimension scientifique du projet permet aux apprenants d'aborder des concepts de chimie, de physique et de sciences de l'environnement. Ils explorent la composition chimique des polluants atmosphériques, les principes de détection des particules et les facteurs environnementaux influençant la qualité de l'air. En effectuant des mesures et en comparant les résultats aux normes établies, les participants appliquent la démarche scientifique et comprennent ses applications pratiques.
+La dimension scientifique du projet permet aux élèves d'aborder des concepts de chimie, de physique et de sciences de l'environnement. Ils explorent la composition chimique des polluants atmosphériques, les principes de détection des particules et les facteurs environnementaux qui influencent la qualité de l'air. En effectuant des mesures et en comparant les résultats aux normes établies, ils appliquent la démarche scientifique et comprennent ses applications pratiques.
 
 ### Structure du protocole
 
 Le protocole fonctionne comme un parcours d'apprentissage à travers quatre phases :
 
-- **Phase 1 : Collecter des données, construction et déploiement de capteurs** — Les élèves construisent leur station de surveillance de la qualité de l'air et apprennent à collecter des mesures à l'aide de capteurs. Cette première phase présente les composants et concepts techniques tout en générant les données brutes nécessaires à l'analyse ultérieure.
-- **Phase 2 : Afficher les données, techniques de visualisation et de représentation** — En s'appuyant sur la collecte de données, les élèves apprennent à visualiser leurs mesures à l'aide de graphiques et d'affichages de données. Cette phase développe les compétences en littératie des données et aide à identifier des tendances qui ne sont pas évidentes sous forme numérique brute.
-- **Phase 3 : Analyser les données, identifier les tendances et les corrélations environnementales** — À partir des données visualisées, les élèves identifient les corrélations, comprennent les facteurs d'influence et tirent des conclusions fondées sur des données probantes. Cette phase analytique transforme les mesures brutes en informations.
-- **Phase 4 : Utiliser les données pour agir, élaboration de recommandations environnementales** — La dernière phase encourage les élèves à appliquer leurs conclusions à des situations concrètes, en les comparant à d'autres données et en formulant des recommandations pour améliorer la qualité de l'air. Cela relie la recherche scientifique à l'action citoyenne et à la sensibilisation à l'environnement.
+- **Phase 1 : Collecter des données, construction et déploiement de capteurs** : Les élèves construisent leur station de surveillance de la qualité de l'air et apprennent à collecter des mesures à l'aide de capteurs. Cette première phase présente les composants et les concepts techniques, et produit les données brutes nécessaires à l'analyse.
+- **Phase 2 : Afficher les données, techniques de visualisation et de représentation** : Une fois les données collectées, les élèves apprennent à visualiser leurs mesures à l'aide de graphiques et d'affichages de données. Cette phase développe leur littératie des données et les aide à repérer des tendances qui ne sont pas évidentes dans les valeurs numériques brutes.
+- **Phase 3 : Analyser les données, identifier les tendances et les corrélations environnementales** : À partir des données visualisées, les élèves identifient les corrélations, comprennent les facteurs d'influence et tirent des conclusions fondées sur des données probantes.
+- **Phase 4 : Utiliser les données pour agir, élaboration de recommandations environnementales** : La dernière phase encourage les élèves à appliquer leurs conclusions à des situations concrètes, en les comparant à d'autres données et en formulant des recommandations pour améliorer la qualité de l'air. Elle relie la recherche scientifique à l'action citoyenne et à la sensibilisation à l'environnement.
 
-Chaque phase s'appuie sur la précédente, créant une progression d'apprentissage qui débute par des mesures concrètes et progresse vers l'analyse et les applications pratiques. Ensemble, elles représentent le processus scientifique, de l'observation à la communication des résultats.
+Chaque phase s'appuie sur la précédente, et l'ensemble suit la démarche scientifique, de l'observation à la communication des résultats.
 
 | Durée | Niveau | Matériel principal |
 |---|---|---|
@@ -90,7 +88,7 @@ Chaque phase s'appuie sur la précédente, créant une progression d'apprentissa
 
 - **Particules fines (PM10 et PM2,5)** : Les particules fines (PM) sont constituées d'un mélange complexe de particules solides et liquides, de substances organiques et minérales en suspension dans l'air. Elles peuvent être d'origine naturelle (volcanisme, érosion...) ou générées par les activités humaines (chauffage, transport routier, industrie...). Elles sont classées selon leur taille : PM 2,5 (particules de diamètre inférieur ou égal à 2,5 µm), PM 10 (particules de diamètre inférieur ou égal à 10 µm). À titre de comparaison, un cheveu humain a un diamètre de 50 à 70 µm.
 - **Dioxyde d'azote (NO2)** : Les émissions de dioxyde d'azote (NO2) proviennent principalement de la combustion de combustibles fossiles (chauffage, production d'électricité, moteurs de voitures et de bateaux).
-- **Monoxyde de carbone (CO)** : Le monoxyde de carbone (CO) résulte d'une combustion incomplète (bois, butane, charbon…) due à des installations (chauffage) mal contrôlées ou aux gaz d'échappement des véhicules. De nombreux accidents domestiques surviennent chaque année en hiver en raison d'une intoxication au monoxyde de carbone à l'intérieur des habitations.
+- **Monoxyde de carbone (CO)** : Le monoxyde de carbone (CO) résulte d'une combustion incomplète (bois, butane, charbon...) due à des installations (chauffage) mal contrôlées ou aux gaz d'échappement des véhicules. De nombreux accidents domestiques surviennent chaque année en hiver en raison d'une intoxication au monoxyde de carbone à l'intérieur des habitations.
 - **Composés organiques volatils (COV)** : Les composés organiques volatils (COV) sont principalement des polluants secondaires créés par des réactions chimiques à partir d'autres polluants, mais ils peuvent être de différentes natures. On en trouve plus de 400 dans l'air, dont les hydrocarbures, le benzène et les aldéhydes. Ils sont principalement émis par les véhicules, les solvants et l'industrie.
 - **Ozone (O3)** : Une première couche d'ozone dans la haute atmosphère est appelée « bon ozone », car elle agit comme une couche protectrice contre les rayons ultraviolets du soleil. Une autre, présente au niveau du sol, est appelée « mauvais ozone ». Selon l'Organisation mondiale de la santé, « dans ce dernier cas, l'ozone est un polluant secondaire, formé par des réactions photochimiques entre divers polluants tels que les oxydes d'azote (NOx) émis par les véhicules et l'industrie, et les composés organiques volatils (COV), émis par les véhicules, les solvants et l'industrie. »
 - **Dioxyde de carbone (CO2)** : Le dioxyde de carbone (CO2) est un gaz incolore et inodore, responsable de 77 % des émissions de gaz à effet de serre (GES) d'origine humaine. Naturellement présent en faibles quantités dans l'atmosphère, il se forme lors de certains processus naturels (cycle du carbone) et surtout lors de la combustion de substances carbonées. Il peut être nocif pour l'environnement et la santé humaine. Il peut provenir du secteur des transports, de l'industrie (utilisation de combustibles fossiles) et de l'habitat (chauffage, éclairage, etc.).
@@ -98,10 +96,10 @@ Chaque phase s'appuie sur la précédente, créant une progression d'apprentissa
 
 ### Glossaire technique
 
-- **Capteur de gaz multicanal MICS6814** : Ce capteur de gaz multicanal (capable de mesurer plusieurs gaz simultanément) doit être connecté au port I2C du shield. Il dispose de 4 éléments de mesure. Il peut détecter les gaz suivants : monoxyde de carbone (CO) : 1 - 1 000 ppm, dioxyde d'azote (NO₂) : 0,05 - 10 ppm, éthanol (C₂H₇OH) : 10 - 500 ppm et composés organiques volatils (COV) : 1 - 500 ppm.
+- **Capteur de gaz multicanal MICS6814** : Ce capteur de gaz multicanal (capable de mesurer plusieurs gaz simultanément) doit être connecté au port I2C du shield. Il a 4 éléments de mesure. Il peut détecter les gaz suivants : monoxyde de carbone (CO) : 1 - 1 000 ppm, dioxyde d'azote (NO₂) : 0,05 - 10 ppm, éthanol (C₂H₇OH) : 10 - 500 ppm et composés organiques volatils (COV) : 1 - 500 ppm.
 - **Capteur HM3301** : Le HM3301 est un capteur laser pour la détection de particules fines. Il détecte la poussière dans l'air en continu et en temps réel. Il doit être connecté au port I2C du shield. Des pales de ventilateur aspirent l'air à travers une chambre de détection. La lumière laser se diffuse sur les particules de poussière et est captée par une photodiode. Après amplification dans le circuit électronique, ce capteur fournit la concentration massique des particules ainsi que leur nombre.
 - **DHT11** : Le DHT11 est un capteur numérique de température et d'humidité. Il doit être connecté à un port numérique du shield (D0 à D13 sur Arduino et P0 à P20 sur micro:bit). Ce module utilise des composants d'humidité capacitifs.
-- **LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 MHz en France) permettant l'échange de données entre objets connectés. Le signal est émis sur une large plage spectrale, limitant les risques d'interférences et permettant l'envoi de données depuis l'extérieur ou l'intérieur sur de longues distances (1 km en zone urbaine – jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits LoRaWan sont très faibles, de l'ordre de quelques kilobits par seconde. Ce type de réseau est donc utilisé pour l'Internet des objets (IoT), c'est-à-dire les capteurs fixes (par exemple, température, humidité, etc.).
+- **LoRa** : La technologie LoRaWan est un protocole de communication radio (fréquence 868 MHz en France) permettant l'échange de données entre objets connectés. Le signal est émis sur une large plage spectrale. Cela limite les risques d'interférences et permet d'envoyer des données depuis l'extérieur ou l'intérieur sur de longues distances (de 1 km en zone urbaine jusqu'à 20 km en zone rurale). L'envoi de messages est illimité. Cependant, contrairement aux réseaux 4G et 5G, les débits LoRaWan sont très faibles, de l'ordre de quelques kilobits par seconde. Ce type de réseau est donc utilisé pour l'Internet des objets (IoT), c'est-à-dire les capteurs fixes (par exemple, température, humidité, etc.).
 
 ---
 
@@ -109,22 +107,20 @@ Chaque phase s'appuie sur la précédente, créant une progression d'apprentissa
 
 ### Contexte de la séquence
 
-Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, les élèves se familiariseront avec différents capteurs et leurs interfaces tout en commençant à collecter des données sur différents polluants.
+Cette première étape familiarise les élèves avec les concepts clés de la pollution atmosphérique et les outils (interfaces et matériel) utilisés pour la mesurer. En classe, ils commencent aussi à collecter des données sur différents polluants.
 
 ### Objectifs d'apprentissage
 
 
 - Comprendre les principaux types de polluants atmosphériques et leurs sources.
 - Apprendre à assembler et configurer des capteurs pour la surveillance environnementale.
-- Acquérir des compétences de base en programmation pour la collecte de données à partir de différents types de capteurs.
-- Développer une compréhension des unités de mesure et des principes d'étalonnage.
+- Acquérir les bases de la programmation pour collecter des données à partir de différents types de capteurs.
+- Comprendre les unités de mesure et les principes d'étalonnage.
 - Appliquer des méthodes de mesure scientifiques à un défi environnemental concret.
 
 ### Conceptualisation
 
-Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés.
-
-Pour vous aider à le faire, voici quelques questions sur lesquelles travailler avec eux.
+Avant de commencer, évaluez le niveau de connaissances des élèves et amenez-les à réfléchir aux concepts clés à partir des questions ci-dessous.
 
 L'air que nous respirons est composé de divers éléments chimiques, sous forme gazeuse, liquide ou solide, qui, à des niveaux variables, peuvent avoir des répercussions néfastes sur notre santé, l'environnement et l'économie.
 
@@ -144,7 +140,7 @@ Les polluants atmosphériques d'origine naturelle et anthropique s'accumulent à
 
 - **Polluants primaires** : Substances chimiques émises directement par une source, comme le monoxyde de carbone provenant des gaz d'échappement des véhicules ou le dioxyde de soufre provenant des processus industriels.
 - **Polluants secondaires** : Composés formés par des réactions chimiques dans l'atmosphère lorsque des polluants primaires interagissent entre eux ou avec des composants atmosphériques naturels, tels que l'ozone formé à partir d'oxydes d'azote et de composés organiques volatils en présence de lumière solaire.
-- **Santé environnementale** : Domaine qui étudie l'impact des facteurs environnementaux, notamment la qualité de l'air, sur la santé humaine et les schémas de maladies au sein des populations.
+- **Santé environnementale** : Domaine qui étudie l'impact des facteurs environnementaux, notamment la qualité de l'air, sur la santé humaine et la répartition des maladies au sein des populations.
 
 Vous trouverez en annexe un glossaire complet des polluants.
 
@@ -158,7 +154,7 @@ Les capteurs électroniques peuvent détecter et mesurer des polluants spécifiq
 
 **Concepts clés** :
 
-1. **Technologie des capteurs** : Dispositifs qui détectent et répondent aux entrées de l'environnement physique, convertissant les paramètres physiques en signaux pouvant être mesurés et analysés.
+1. **Technologie des capteurs** : Dispositifs qui détectent et répondent aux entrées de l'environnement physique. Ils convertissent les paramètres physiques en signaux que l'on peut mesurer et analyser.
 2. **Parties par million (PPM)** : Unité de mesure utilisée pour quantifier les faibles concentrations de polluants dans l'air, représentant le nombre de particules polluantes trouvées parmi un million de particules d'air.
 3. **Étalonnage** : Processus de configuration d'un capteur ou d'un outil de mesure en comparant ses lectures avec une norme connue pour garantir l'exactitude de la collecte de données.
 
@@ -172,7 +168,7 @@ Les zones à forte densité de population, à activité industrielle et à forte
 
 **Concepts clés** :
 
-1. **Points chauds urbains** : Emplacements spécifiques dans les villes où la pollution de l'air a tendance à se concentrer en raison des schémas de circulation, de la configuration des bâtiments et des activités humaines.
+1. **Points chauds urbains** : Emplacements spécifiques dans les villes où la pollution de l'air a tendance à se concentrer en raison des flux de circulation, de la configuration des bâtiments et des activités humaines.
 2. **Populations vulnérables** : Groupes particulièrement touchés par la pollution de l'air, notamment les enfants, les personnes âgées et les personnes souffrant de problèmes respiratoires préexistants.
 3. **Facteurs géographiques** : Caractéristiques naturelles et construites qui influencent la qualité de l'air dans un endroit spécifique, telles que la topographie, les régimes de vent et la densité des bâtiments.
 
@@ -182,7 +178,7 @@ Les zones à forte densité de population, à activité industrielle et à forte
 
 ### Investigation par les élèves
 
-Maintenant que nous en savons plus sur ces différents polluants, voyons comment les mesurer en assemblant les capteurs et en programmant la carte électronique. Commencez par tester ces activités en classe, puis demandez aux élèves, en groupes, de les placer dans les différents lieux/zones géographiques choisis précédemment.
+Pour mesurer ces polluants, assemblez les capteurs et programmez la carte électronique. Commencez par tester ces activités en classe, puis demandez aux élèves, en groupes, de les placer dans les différents lieux/zones géographiques choisis précédemment.
 
 N'oubliez pas de collecter des données sur le site d'étude (ex. : trafic routier, heures de pointe, présence d'arbres, etc.).
 
@@ -216,13 +212,11 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience, 
 
 ### Restitution et réflexion
 
-L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer les concepts clés appris : que sont les polluants environnementaux et comment les mesurer ? Ces deux concepts permettront aux élèves d'étudier les résultats de leurs mesures.
+L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer les concepts clés appris : que sont les polluants environnementaux et comment les mesurer ?
 
 **Connaissances mobilisées** : Les élèves ont appris à connaître les polluants primaires et secondaires, leurs sources et les méthodes de mesure à l'aide de capteurs.
 
 **Réflexion sur la mise en œuvre en classe** : cette phase peut être mise en œuvre dans une salle de classe standard avec accès à des ordinateurs pour la programmation. Envisagez de diviser les élèves en petits groupes, chacun étant responsable d'une configuration de capteurs différente.
-
-**Résultats d'apprentissage** : les élèves devraient désormais être capables d'identifier les polluants atmosphériques, de comprendre leurs unités de mesure et d'utiliser la programmation de base pour collecter des données environnementales. Ces bases les préparent à la visualisation et à l'analyse de données.
 
 ---
 
@@ -230,34 +224,34 @@ L'enseignant peut terminer l'activité en demandant aux élèves de réexpliquer
 
 ### Contexte de la séquence
 
-Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à la phase précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Cette étape de visualisation transforme les valeurs brutes en modèles reconnaissables et permet aux élèves d'identifier des tendances qui pourraient ne pas être apparentes dans les données numériques.
+Après avoir connecté des capteurs et programmé la carte électronique pour générer des données sur la qualité de l'air à la phase précédente, les élèves apprennent maintenant à afficher et à visualiser ces informations. Les valeurs des capteurs peuvent être visualisées sur l'écran LCD ou enregistrées pour une analyse plus approfondie. Une fois les valeurs visualisées, les élèves peuvent identifier des tendances qui n'apparaissent pas forcément dans les données numériques.
 
 ### Objectifs d'apprentissage
 
 
 - Comprendre les différentes méthodes de visualisation des données environnementales.
 - Apprendre à utiliser des interfaces graphiques pour créer des affichages de données en temps réel.
-- Développer des compétences en matière d'exportation et de stockage de données pour une analyse ultérieure.
+- Exporter et stocker des données pour les analyser ensuite.
 - Comprendre comment différentes techniques de visualisation mettent en évidence divers aspects d'un même ensemble de données.
 - Appliquer des méthodes de visualisation adaptées au type de données et aux besoins d'analyse.
 
 ### Conceptualisation
 
-Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
+Avant de commencer, évaluez le niveau de connaissances des élèves et amenez-les à réfléchir aux concepts clés à partir de la question ci-dessous.
 
 :::question[Question de recherche]
 Quelles méthodes permettent de visualiser efficacement les données environnementales ?
 :::
 
 :::hypothese[Hypothèse]
-Les graphiques de séries chronologiques révèlent des modèles temporels dans les niveaux de pollution qui ne sont pas apparents dans les données numériques brutes.
+Les graphiques de séries chronologiques révèlent des régularités dans l'évolution des niveaux de pollution qui ne sont pas apparentes dans les données numériques brutes.
 :::
 
 **Concepts clés** :
 
 1. **Visualisation des données** : Représentation d'informations et de données à l'aide d'éléments visuels tels que des graphiques, des diagrammes et des cartes pour communiquer les relations entre les données.
-2. **Surveillance en temps réel** : Collecte et affichage continus des données au fur et à mesure qu'elles se produisent, permettant une observation immédiate des changements et des tendances.
-3. **Enregistrement différé** : Collecte et stockage de données en vue d'une récupération et d'une analyse ultérieures, permettant l'examen des modèles historiques et des tendances à long terme.
+2. **Surveillance en temps réel** : Collecte et affichage continus des données au fur et à mesure qu'elles se produisent. On observe ainsi tout de suite les changements et les tendances.
+3. **Enregistrement différé** : Collecte et stockage de données en vue d'une récupération et d'une analyse ultérieures. On peut alors examiner les évolutions passées et les tendances à long terme.
 
 **Activité d'introduction** : Demandez aux élèves comment afficher les valeurs des capteurs. Deux solutions s'offrent à eux : soit de manière synchrone, avec affichage en direct sur l'ordinateur, soit de manière asynchrone, avec enregistrement des données sur la carte microSD fournie dans le kit.
 
@@ -271,12 +265,12 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. 
 
 **Consignes aux élèves** : créez un graphique en temps réel grâce au mode graphique des interfaces Vittascience. Voici la procédure pour récupérer les données depuis la console :
 1. Tout d'abord, la carte programmable doit être connectée à l'ordinateur via le câble USB. Cliquez ensuite sur le bouton « Connecter » dans la barre d'outils.
-2. Dans la fenêtre qui s'ouvre, sélectionnez votre carte programmable, puis cliquez sur le bouton "Connexion".
+2. Dans la fenêtre qui s'ouvre, sélectionnez votre carte programmable, puis cliquez sur le bouton « Connexion ».
 3. La console affiche ensuite les données.
 4. Pour visualiser l'évolution des données sous forme graphique, cliquez sur le bouton « mode graphique » dans la console de droite.
 5. Un graphique avec les données apparaîtra.
 6. Il ne reste plus qu'à régler les paramètres de la console graphique en cliquant sur l'icône de configuration à gauche de la console.
-7. Les étudiants peuvent choisir les données à afficher et le nombre de valeurs à afficher sur la largeur de la console.
+7. Les élèves peuvent choisir les données à afficher et le nombre de valeurs à afficher sur la largeur de la console.
 8. Pour récupérer les données chiffrées, cliquez sur le bouton « exporter » dans le coin inférieur droit de la console.
 
 :::info[Bon à savoir]
@@ -295,26 +289,24 @@ Une fois l'enregistrement terminé, retirez la carte microSD du lecteur. Insére
 
 ### Restitution et réflexion
 
-L'enseignant peut conclure l'activité en montrant aux élèves qu'ils ont appris à utiliser différentes méthodes pour comprendre l'importance de la représentation des données. Chacune de ces méthodes peut ensuite être utilisée pour analyser les données et comprendre leur influence sur le résultat.
+L'enseignant peut conclure l'activité en montrant aux élèves les différentes méthodes de représentation des données qu'ils ont appris à utiliser, pour leur faire comprendre l'importance de cette représentation. Chacune peut ensuite servir à analyser les données et à comprendre leur influence sur le résultat.
 
-**Connaissances mobilisées** : Les étudiants ont appris des méthodes pour visualiser les données environnementales grâce à des graphiques en temps réel et à l'enregistrement de données pour une analyse asynchrone.
+**Connaissances mobilisées** : Les élèves ont appris des méthodes pour visualiser les données environnementales grâce à des graphiques en temps réel et à l'enregistrement de données pour une analyse asynchrone.
 
-**Réflexion sur la mise en œuvre en classe** : Cette activité fonctionne parfaitement en salle informatique, où les élèves peuvent connecter leurs appareils et expérimenter différentes techniques de visualisation. Partagez des exemples de visualisations efficaces avant que les élèves ne créent les leurs.
-
-**Résultats d'apprentissage** : Les élèves devraient maintenant comprendre comment différentes méthodes de visualisation révèlent des aspects distincts des mêmes données et être capables de choisir des techniques de visualisation appropriées pour des types spécifiques de données environnementales.
+**Réflexion sur la mise en œuvre en classe** : Cette activité convient bien à une salle informatique, où les élèves peuvent connecter leurs appareils et expérimenter différentes techniques de visualisation. Partagez des exemples de visualisations efficaces avant que les élèves ne créent les leurs.
 
 ---
 
-## Phase 3 : Analyser les données, identifier les modèles et les corrélations environnementales
+## Phase 3 : Analyser les données, identifier les tendances et les corrélations environnementales
 
 ### Contexte de la séquence
 
-En s'appuyant sur la collecte et la visualisation des données des phases précédentes, les élèves procèdent maintenant à des analyses pour en extraire des informations utiles. Cette étape transforme les mesures brutes en connaissances pratiques en identifiant des tendances, des corrélations et des relations potentielles. Les élèves apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
+À partir des données collectées et visualisées aux phases précédentes, les élèves analysent leurs mesures : ils y identifient des tendances, des corrélations et des relations possibles. Ils apprennent à examiner les aspects temporels et spatiaux des données sur la qualité de l'air et à les relier aux facteurs environnementaux.
 
 ### Objectifs d'apprentissage
 
 
-- Développer des compétences analytiques pour interpréter les données environnementales.
+- Analyser et interpréter les données environnementales.
 - Apprendre à identifier les tendances et les corrélations dans les mesures de la qualité de l'air.
 - Comprendre l'influence des facteurs environnementaux sur les concentrations de polluants.
 - Appliquer les concepts statistiques de base à l'analyse des données environnementales.
@@ -322,7 +314,7 @@ En s'appuyant sur la collecte et la visualisation des données des phases préc�
 
 ### Conceptualisation
 
-Avant de commencer, vous devez évaluer le niveau de connaissances des élèves et les amener à réfléchir aux concepts clés. Pour vous y aider, voici une question à travailler avec eux, qui les aidera à trouver des réponses pour les activités futures.
+Avant de commencer, évaluez le niveau de connaissances des élèves et amenez-les à réfléchir aux concepts clés à partir de la question ci-dessous.
 
 :::question[Question de recherche 1]
 Quels facteurs influencent la variation des niveaux de polluants atmosphériques ?
@@ -334,8 +326,8 @@ Les niveaux de polluants sont corrélés à des activités humaines et à des p�
 
 **Concepts clés** :
 
-1. **Modèles temporels** : Cycles récurrents dans les mesures de données au fil du temps, y compris les fluctuations quotidiennes, les modèles hebdomadaires et les variations saisonnières.
-2. **Répartition spatiale** : La répartition des concentrations de polluants dans différents lieux géographiques, révélant les points chauds et les zones propres.
+1. **Régularités temporelles** : Cycles récurrents dans les mesures de données au fil du temps, y compris les fluctuations quotidiennes, les rythmes hebdomadaires et les variations saisonnières.
+2. **Répartition spatiale** : La répartition des concentrations de polluants dans différents lieux géographiques. Elle fait apparaître les points chauds et les zones propres.
 3. **Variables confondantes** : Facteurs qui peuvent influencer les variables dépendantes et indépendantes dans une analyse, créant potentiellement des corrélations trompeuses.
 
 **Activité introductive** : Demandez aux élèves quels facteurs prendre en compte lors de l'analyse des données. Par exemple, il est possible d'enregistrer les heures de la journée, les heures de travail et de déjeuner, le trafic routier, la population et la taille de la ville. Comparez ces moments clés avec leurs conséquences sur l'évolution des différents niveaux mesurés par les capteurs.
@@ -385,7 +377,7 @@ Les données enregistrées sont organisées dans l'ordre suivant :
 8. Étape 3 : Cliquez sur Suivant sans rien modifier.
 9. Ajoutez si souhaité un titre, un sous-titre et les unités des quantités affichées, puis cliquez sur « Terminer ».
 
-#### Activité 2 : Analyse des modèles (10 minutes)
+#### Activité 2 : Analyse des variations (10 minutes)
 
 L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. Elle peut être réalisée en groupe ou avec toute la classe.
 
@@ -393,13 +385,9 @@ L'activité est lancée par l'enseignant à l'aide des interfaces Vittascience. 
 
 ### Restitution et réflexion
 
-L'analyse des données est une étape essentielle pour transformer les données brutes en informations, permettant aux étudiants d'apprendre à tirer des conclusions.
-
-**Connaissances mobilisées** : Les élèves ont développé des compétences analytiques pour identifier les modèles temporels, les distributions spatiales et les corrélations entre les niveaux de polluants et les facteurs environnementaux.
+**Connaissances mobilisées** : Les élèves ont développé des compétences analytiques pour identifier les régularités temporelles, les distributions spatiales et les corrélations entre les niveaux de polluants et les facteurs environnementaux.
 
 **Réflexion sur la mise en œuvre en classe** : Ce travail d'analyse peut être mené en binôme ou en petits groupes pour favoriser la discussion. Fournir des fiches de travail structurées pour guider les élèves dans leur première expérience d'analyse de données.
-
-**Résultats d'apprentissage** : Les élèves devraient désormais être capables d'interpréter les données environnementales, de reconnaître des modèles significatifs et de comprendre comment les facteurs externes influencent les mesures de la qualité de l'air.
 
 ---
 
@@ -407,12 +395,12 @@ L'analyse des données est une étape essentielle pour transformer les données 
 
 ### Contexte de la séquence
 
-La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ce projet, qui n'était qu'un exercice académique, devient ainsi une opportunité d'engagement environnemental, permettant aux élèves de comprendre comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
+La dernière étape relie la recherche scientifique à la pratique concrète. Les élèves comparent leurs résultats à d'autres données et formulent des recommandations fondées sur des données probantes pour améliorer la qualité de l'air. Ils voient ainsi comment les données scientifiques peuvent éclairer les politiques et les décisions personnelles.
 
 ### Objectifs d'apprentissage
 
 
-- Développer des compétences en analyse comparative de données provenant de différents sites.
+- Comparer des données provenant de différents sites.
 - Apprendre à formuler des recommandations fondées sur des données probantes.
 - Comprendre comment les données scientifiques peuvent éclairer les politiques et actions environnementales.
 - Communiquer les résultats scientifiques à divers publics.
@@ -427,13 +415,13 @@ Comment nos mesures locales se comparent-elles aux données d'autres régions ?
 :::
 
 :::hypothese[Hypothèse]
-Les zones présentant des caractéristiques similaires présentent des schémas de pollution comparables malgré leur séparation géographique.
+Les zones aux caractéristiques similaires ont des profils de pollution comparables, même lorsqu'elles sont éloignées géographiquement.
 :::
 
 **Concepts clés** :
 
 1. **Analyse comparative** : Étude des similitudes et des différences entre des ensembles de données provenant de différents lieux ou périodes afin d'obtenir un contexte pour les résultats locaux.
-2. **Modèles mondiaux** : Tendances généralisées de la pollution atmosphérique qui transcendent les conditions locales, souvent liées aux étapes d'industrialisation, d'urbanisation et de développement économique.
+2. **Tendances mondiales** : Évolutions générales de la pollution atmosphérique qui dépassent les conditions locales, souvent liées aux étapes d'industrialisation, d'urbanisation et de développement économique.
 3. **Variabilité régionale** : Différences dans les mesures de la qualité de l'air entre les zones géographiques en raison de facteurs locaux tels que la topographie, le climat, la densité de population et l'activité industrielle.
 
 :::question[Question de recherche 2]
@@ -455,14 +443,14 @@ Comment les données scientifiques peuvent-elles éclairer la prise de décision
 :::
 
 :::hypothese[Hypothèse]
-Les recommandations fondées sur les données conduisent à des interventions environnementales plus efficaces que les approches basées sur l'intuition.
+Les recommandations fondées sur les données conduisent à des interventions environnementales plus efficaces que les approches qui reposent sur l'intuition.
 :::
 
 **Concepts clés** :
 
 1. **Prise de décision fondée sur des données probantes** : Utilisation de données empiriques pour guider les actions et les politiques plutôt que de s'appuyer uniquement sur l'intuition ou la tradition.
 2. **Engagement des parties prenantes** : Implication de diverses parties intéressées (membres de la communauté, entreprises, gouvernement) dans l'interprétation des données et l'élaboration de stratégies de réponse.
-3. **Justice environnementale** : Traitement équitable et la participation significative de toutes les personnes, quelle que soit leur origine, en ce qui concerne les réglementations environnementales et leur mise en œuvre.
+3. **Justice environnementale** : Traitement équitable et participation réelle de toutes les personnes, quelle que soit leur origine, en ce qui concerne les réglementations environnementales et leur mise en œuvre.
 
 **Activité d'introduction** : Aider les élèves à explorer la corrélation entre les activités humaines et urbaines et les variables temporelles. Formuler des hypothèses sur les facteurs potentiels influençant les tendances observées. Où trouverait-on la qualité de l'air la plus mauvaise et la plus favorable dans une ville et dans le monde ?
 
@@ -502,11 +490,9 @@ Vous pouvez publier les données collectées en temps réel sur Internet via un 
 
 L'enseignant encourage les élèves à partager leurs idées pour améliorer la qualité de l'air dans le monde. Résumez ces idées sous forme de synthèse des meilleures pratiques à mettre en œuvre.
 
-**Connaissances mobilisées** : Les étudiants ont appris à comparer les résultats locaux avec des données externes et à élaborer des recommandations fondées sur des données probantes pour améliorer la qualité de l'air.
+**Connaissances mobilisées** : Les élèves ont appris à comparer les résultats locaux avec des données externes et à élaborer des recommandations fondées sur des données probantes pour améliorer la qualité de l'air.
 
-**Réflexion sur la mise en œuvre en classe** : Cette étape bénéficie d'un format d'atelier où les groupes d'élèves peuvent présenter et discuter de leurs conclusions et recommandations. Si possible, envisagez d'inviter des experts environnementaux locaux.
-
-**Résultats d'apprentissage** : Les élèves devraient maintenant comprendre comment les données scientifiques peuvent éclairer les actions environnementales pratiques et être en mesure de communiquer leurs résultats d'une manière qui soutient la prise de décision fondée sur des preuves.
+**Réflexion sur la mise en œuvre en classe** : Cette étape se prête bien à un format d'atelier où les groupes d'élèves peuvent présenter et discuter de leurs conclusions et recommandations. Si possible, envisagez d'inviter des experts environnementaux locaux.
 
 ---
 
@@ -514,7 +500,7 @@ L'enseignant encourage les élèves à partager leurs idées pour améliorer la 
 
 ### Idées de projets complémentaires
 
-En s'appuyant sur les connaissances et les compétences développées en classe, les étudiants peuvent approfondir leur compréhension de la qualité de l'air extérieur en appliquant ce qu'ils ont appris dans divers nouveaux projets tels que :
+Les élèves peuvent approfondir leur compréhension de la qualité de l'air extérieur en appliquant ce qu'ils ont appris en classe à de nouveaux projets, par exemple :
 
 - **Idée 1** : Construire un abri solaire pour votre station de qualité de l'air. Un abri protège et soutient vos capteurs. Équipez-le d'un module d'alimentation alimenté par batterie et d'un panneau solaire. Connectez-le simplement à votre microcontrôleur.
 - **Idée 2** : Ajouter un anémomètre à votre station météo. Cela vous permettra d'enregistrer la vitesse du vent. En complément de l'anémomètre ou séparément, vous pouvez ajouter un pluviomètre. Celui-ci mesure la quantité d'eau de pluie tombée.

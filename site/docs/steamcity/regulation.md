@@ -44,29 +44,28 @@ sidebar_position: 15
 
 ## Introduction
 
-Ce protocole vise à fournir des lignes directrices pour engager les élèves dans la conception collaborative de véhicules autonomes, avec un minimum d'expérience en langages de programmation, en détaillant les étapes proposées et des exemples pratiques pour permettre aux enseignants intéressés de reproduire cette approche. Au-delà des compétences techniques, ces activités créent des opportunités précieuses pour que les élèves examinent de manière critique l'impact écologique de leurs solutions d'ingénierie, favorisant la sensibilisation environnementale parallèlement à l'innovation technologique.
+Ce protocole donne des lignes directrices pour impliquer les élèves dans la conception collaborative de véhicules autonomes, avec un minimum d'expérience en langages de programmation. Il détaille les étapes proposées et des exemples pratiques pour que les enseignants intéressés puissent reproduire cette approche. Au-delà des compétences techniques, ces activités sont l'occasion pour les élèves d'examiner de manière critique l'impact écologique de leurs solutions d'ingénierie.
 
-Le coeur de cette expérience éducative est un hackathon — un événement collaboratif de résolution de problèmes où les élèves travaillent en équipe pour développer des conceptions de véhicules autonomes. Cette approche favorise la littératie numérique, le travail d'équipe et l'application pratique des concepts STEM.
+Le coeur de cette expérience éducative est un hackathon : un événement collaboratif de résolution de problèmes où les élèves travaillent en équipe pour concevoir des véhicules autonomes. Cette approche favorise la littératie numérique, le travail d'équipe et l'application pratique des concepts STEM.
 
 La mise en oeuvre de ce protocole demande aux enseignants d'évaluer les **prérequis** des élèves : les aspects techniques nécessitent des compétences de base en programmation C++. Si les élèves ne les possèdent pas, une phase de formation préliminaire doit être intégrée. L'association d'élèves de niveaux variés facilite l'apprentissage par les pairs.
 
-La **formation des groupes** est un élément critique :
+Pour la **formation des groupes** :
 
 - chaque équipe doit inclure au moins un élève à l'aise avec la compréhension, la modification et l'écriture de code C++ ;
-- ce regroupement stratégique équilibre l'expertise technique entre les équipes ;
-- il garantit que tous les élèves peuvent contribuer de manière significative, indépendamment de leur niveau individuel.
+- ce regroupement équilibre l'expertise technique entre les équipes et permet à tous les élèves de contribuer, quel que soit leur niveau.
 
-L'**aménagement physique de la salle** doit favoriser la collaboration en équipe tout en garantissant à tous les groupes un accès adéquat aux technologies et matériels nécessaires. La création de postes ou d'îlots permet aux équipes de travailler étroitement ensemble tout en maintenant suffisamment de séparation pour se concentrer sur leurs projets spécifiques. Le protocole détaillé qui suit suppose des équipes aux capacités mixtes où les compétences techniques peuvent être partagées entre les membres.
+L'**aménagement physique de la salle** doit favoriser la collaboration en équipe et garantir à tous les groupes un accès adéquat aux technologies et matériels nécessaires. Des postes ou des îlots rapprochent les membres d'une équipe et laissent assez de séparation entre les équipes pour qu'elles se concentrent sur leurs projets. Le protocole détaillé qui suit suppose des équipes aux capacités mixtes où les compétences techniques peuvent être partagées entre les membres.
 
 ### Structure du protocole
 
-Le processus d'apprentissage se déroule en trois phases complémentaires qui s'appuient les unes sur les autres pour créer une compréhension globale de l'impact écologique de la régulation de la mobilité.
+Le protocole se déroule en trois phases successives, qui portent sur l'impact écologique de la régulation de la mobilité :
 
-- **Phase 1 — Découverte** : se familiariser avec les outils et acquérir les notions de programmation essentielles à la compréhension du code qui détermine le comportement du véhicule autonome. Les élèves doivent maîtriser les bases de la programmation et le langage C++. Cette phase préliminaire permet d'identifier les points d'insertion et de modification nécessaires à la mise en oeuvre de la solution.
-- **Phase 2 — Pratique collaborative** : développement des compétences numériques par la résolution de deux défis :
-  - **Défi d'implémentation** : modifier le code fourni pour résoudre un problème simplifié mais réel de programmation de véhicules autonomes. Suppose qu'au moins un membre par groupe sache comprendre, modifier, exécuter et écrire du code C++.
-  - **Défi de conception de haut niveau** : aborder un problème plus conceptuel — par exemple la gestion de la signalisation du futur, capable de réguler véhicules manuels et autonomes. Aboutit à une présentation.
-- **Phase 3 — Hackathon** : vérifier les solutions identifiées via deux étapes distinctes :
+- **Phase 1 : Découverte** : se familiariser avec les outils et acquérir les notions de programmation nécessaires pour comprendre le code qui détermine le comportement du véhicule autonome. Les élèves doivent maîtriser les bases de la programmation et le langage C++. Ils repèrent aussi les endroits du code où insérer ou modifier des instructions pour mettre en oeuvre la solution.
+- **Phase 2 : Pratique collaborative** : développement des compétences numériques par la résolution de deux défis :
+  - **Défi Ville (implémentation)** : modifier le code fourni pour résoudre un problème simplifié mais réel de programmation de véhicules autonomes. Suppose qu'au moins un membre par groupe sache comprendre, modifier, exécuter et écrire du code C++.
+  - **Défi Impact écologique (conception)** : aborder un problème plus conceptuel, par exemple la gestion de la signalisation du futur, capable de réguler véhicules manuels et autonomes. Aboutit à une présentation.
+- **Phase 3 : Hackathon** : vérifier les solutions identifiées via deux étapes distinctes :
   - **Concours** : utilisation d'un environnement éducatif de ville intelligente, permettant à tous les groupes de tester et valider le bon fonctionnement du Roobokart sur le défi assigné.
   - **Exposition et discussion** : présentation et discussion collective des solutions de conception développées en phase pratique.
 
@@ -83,8 +82,8 @@ La durée totale dépend de la complexité du cadre, de la disponibilité du mat
 
 - Outils numériques : [Roobopoli](https://www.roobopoli.org)
 - Phase de formation : [Manuel Roobokart](https://www.roobopoli.org/wp-content/uploads/2021/05/Roobokart-il-manuale-operativo-RevA1.pdf) (en italien)
-- Défi de mise en oeuvre : code de mission de base sur GitHub — [roobokart\_basic\_mission.bin](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin). Il est suggéré de fournir un Roobokart par groupe pour tester le code.
-- Hackathon : un seul Roobopoli pour tous les groupes — https://www.roobopoli.org/semaforo
+- Défi Ville : code de mission de base sur GitHub, [roobokart\_basic\_mission.bin](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin). Il est suggéré de fournir un Roobokart par groupe pour tester le code.
+- Hackathon : un seul Roobopoli pour tous les groupes, voir https://www.roobopoli.org/semaforo
 
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
@@ -94,13 +93,13 @@ La durée totale dépend de la complexité du cadre, de la disponibilité du mat
 
 ### Glossaire
 
-- **Atelier pratique en groupe** : Une méthode pratique et interactive qui favorise la collaboration et l'innovation entre les participants.
+- **Atelier pratique en groupe** : Une méthode pratique et interactive où les participants collaborent et innovent ensemble.
 - **Capteurs Roobokart** : Composants matériels qui détectent les conditions environnementales et aident le Roobokart à naviguer sur la piste.
 - **Durabilité environnementale** : Ensemble de stratégies visant à réduire les émissions de gaz à effet de serre, à promouvoir les énergies renouvelables et à préserver les ressources naturelles dans la planification urbaine.
 - **Hackathon** : Un événement compétitif et collaboratif où les équipes présentent et testent leurs solutions dans un cadre public.
 - **Manuel Roobokart** : Document de référence décrivant la structure, les capteurs et les fonctionnalités du Roobokart.
 - **Participation citoyenne** : Implication des citoyens dans la co-création des espaces urbains et des processus décisionnels pour une meilleure planification urbaine.
-- **Roobokart** : Un véhicule autonome basé sur un microcontrôleur, utilisé comme élément central du défi de programmation.
+- **Roobokart** : Un véhicule autonome construit autour d'un microcontrôleur, au centre du défi de programmation.
 - **Urbanisme** : Concevoir des villes efficaces, durables et accessibles, avec des espaces publics bien répartis.
 
 ## Bibliographie
@@ -115,32 +114,32 @@ La durée totale dépend de la complexité du cadre, de la disponibilité du mat
 
 ### Contexte de la séquence
 
-Cette phase initiale doit être encadrée par un enseignant familiarisé ou autodidacte avec le framework Roobopoli. L'objectif est de créer les conditions nécessaires à un travail efficace des élèves pendant la phase de développement. Les élèves apprendront à assembler le véhicule (Roobokart) et étudieront le code fourni pour comprendre sa logique et identifier les points de connexion nécessaires à la réalisation du défi.
+Cette phase initiale doit être encadrée par un enseignant qui connaît Roobopoli ou s'y est formé seul. Les élèves apprendront à assembler le véhicule (Roobokart) et étudieront le code fourni pour comprendre sa logique et identifier les points de connexion nécessaires à la réalisation du défi.
 
 ### Objectifs d'apprentissage
 
 - Comprendre la structure et les composants du Roobokart.
-- Comprendre le code qui sera utilisé lors du défi d'implémentation.
+- Comprendre le code qui sera utilisé lors du défi Ville.
 - Identifier les points de modification potentiels du code pour le prochain hackathon.
 - Se familiariser avec le règlement du concours et les critères d'évaluation.
 
 ### Conceptualisation
 
-Avant de commencer les séances de formation avec les élèves, les enseignants doivent se familiariser avec le cadre Roobopoli :
+Avant de commencer les séances de formation avec les élèves, les enseignants doivent se familiariser avec Roobopoli :
 
-#### Qu'est-ce que Roobopoli ?
+#### Roobopoli, une ville miniature pour véhicules programmables
 
-Roobopoli est une plateforme éducative de ville intelligente conçue pour enseigner la programmation et les concepts de véhicules autonomes de manière engageante et concrète. Le cadre s'articule autour d'une ville miniature physique, avec ses routes, ses intersections et sa signalisation, simulant un environnement urbain réel. Dans cette ville, des véhicules programmables, appelés Roobokarts, naviguent de manière autonome grâce à un code modifié par les élèves. Ces véhicules intègrent divers capteurs et microcontrôleurs qui leur permettent de percevoir et de réagir à leur environnement, à la manière de véritables voitures autonomes. L'ensemble du système sert de représentation concrète des concepts de programmation, permettant aux élèves de visualiser immédiatement les résultats physiques de leurs modifications de code.
+Roobopoli est une plateforme éducative de ville intelligente conçue pour enseigner de manière concrète la programmation et les concepts de véhicules autonomes. Elle s'articule autour d'une ville miniature physique, avec ses routes, ses intersections et sa signalisation, qui reproduit un environnement urbain réel. Dans cette ville, des véhicules programmables, appelés Roobokarts, naviguent de manière autonome grâce à un code modifié par les élèves. Ces véhicules intègrent divers capteurs et microcontrôleurs qui leur permettent de percevoir leur environnement et d'y réagir, à la manière de véritables voitures autonomes. Les élèves voient aussitôt sur la piste l'effet physique de leurs modifications de code.
 
 #### Principales caractéristiques de Roobopoli pour une utilisation en classe
 
-Le framework Roobopoli offre plusieurs avantages pédagogiques qui le rendent particulièrement utile en milieu éducatif. Ses niveaux de difficulté peuvent être adaptés à différents groupes d'âge et niveaux de programmation, le rendant accessible aux débutants comme aux apprenants plus avancés. Le retour visuel immédiat fourni lorsque les Roobokarts exécutent des instructions programmées aide les élèves à appréhender les concepts abstraits de la programmation en reliant le code aux mouvements physiques et à la prise de décision.
+Les niveaux de difficulté de Roobopoli peuvent être adaptés à différents groupes d'âge et niveaux de programmation, des débutants aux apprenants plus avancés. Quand les Roobokarts exécutent les instructions programmées, le retour visuel immédiat aide les élèves à saisir les concepts abstraits de la programmation, en reliant le code aux mouvements physiques et à la prise de décision.
 
-Le cadre encourage naturellement l'apprentissage collaboratif grâce à des défis en équipe où les élèves doivent collaborer pour résoudre des problèmes complexes. Cette collaboration s'inspire des environnements d'ingénierie réels. De plus, l'accent mis sur les transports autonomes crée des liens significatifs entre les activités de codage en classe et les innovations technologiques pertinentes dans la société. La nature interdisciplinaire des défis favorise les liens entre l'informatique, l'ingénierie, les études environnementales et l'urbanisme, encourageant les élèves à dépasser les frontières disciplinaires traditionnelles.
+Les défis se font en équipe : les élèves y collaborent pour résoudre des problèmes complexes, comme dans les environnements d'ingénierie réels. Le thème des transports autonomes relie les activités de codage en classe aux innovations technologiques que connaît la société. Les défis touchent à la fois l'informatique, l'ingénierie, les études environnementales et l'urbanisme.
 
 #### Exigences techniques
 
-La mise en oeuvre réussie du système Roobopoli en classe nécessite une préparation minutieuse de l'environnement physique. Les enseignants doivent prévoir un espace suffisant pour l'aménagement urbain de Roobopoli, généralement au moins 4 mètres carrés pour accueillir la piste et permettre aux élèves d'observer et d'effectuer des ajustements. Des sources d'alimentation fiables doivent être disponibles pour recharger les Roobokarts entre les séances d'évaluation, car une panne de batterie pendant les tests peut freiner l'apprentissage. Chaque groupe d'élèves doit disposer d'ordinateurs équipés d'un environnement de développement C++ compatible avec les exigences de programmation du Roobokart. Les outils de base pour l'assemblage et la maintenance du Roobokart doivent être disponibles pour résoudre tout problème mécanique pouvant survenir pendant les séances. La préparation préalable de ces éléments techniques permet de concentrer le temps de cours sur l'apprentissage plutôt que sur la résolution des problèmes matériels.
+Préparer avec soin l'environnement physique avant les séances, pour consacrer le temps de cours à l'apprentissage plutôt qu'aux problèmes matériels. Les enseignants doivent prévoir un espace suffisant pour l'aménagement urbain de Roobopoli, généralement au moins 4 mètres carrés pour accueillir la piste et permettre aux élèves d'observer et d'effectuer des ajustements. Des sources d'alimentation fiables doivent être disponibles pour recharger les Roobokarts entre les séances d'évaluation, car une panne de batterie pendant les tests peut freiner l'apprentissage. Chaque groupe d'élèves doit disposer d'ordinateurs équipés d'un environnement de développement C++ compatible avec les exigences de programmation du Roobokart. Les outils de base pour l'assemblage et la maintenance du Roobokart doivent être disponibles pour résoudre les problèmes mécaniques qui surviendraient pendant les séances.
 
 #### Documentation
 
@@ -151,13 +150,13 @@ La mise en oeuvre réussie du système Roobopoli en classe nécessite une prépa
 
 #### Séance 1 : Roobokart et capteurs
 
-La première séance présente aux élèves les composants physiques du Roobokart et leur fournit les bases de l'interaction de ces composants avec le microcontrôleur. Les enseignants commenceront par une présentation complète des différents capteurs du Roobokart, en expliquant leurs fonctions individuelles et la manière dont ils permettent au véhicule de percevoir son environnement. Cette explication sera accompagnée de démonstrations pratiques qui mettent en évidence la réponse de chaque capteur à différents stimuli, aidant ainsi les élèves à visualiser le lien entre les données des capteurs et le comportement du véhicule.
+La première séance présente aux élèves les composants physiques du Roobokart et leur fournit les bases de l'interaction de ces composants avec le microcontrôleur. Les enseignants commenceront par une présentation complète des différents capteurs du Roobokart, en expliquant leurs fonctions individuelles et la manière dont ils permettent au véhicule de percevoir son environnement. Cette explication sera accompagnée de démonstrations pratiques qui montrent la réponse de chaque capteur à différents stimuli.
 
-Après cette introduction, les enseignants guideront les élèves à travers l'interface entre ces capteurs et le microcontrôleur, en leur expliquant le cheminement des données, de la perception de l'environnement à leur traitement, puis aux décisions de mouvement. Cette partie de la séance relie la compréhension du matériel aux concepts de programmation qui seront abordés lors des séances suivantes. Les explications théoriques sont renforcées par des activités d'assemblage pratiques au cours desquelles les élèves construisent physiquement leurs Roobokarts sous la direction de l'enseignant. Cette expérience tactile permet aux élèves de s'approprier leur véhicule tout en acquérant une compréhension pratique des composants mécaniques et électroniques.
+Après cette introduction, les enseignants guideront les élèves à travers l'interface entre ces capteurs et le microcontrôleur, en leur expliquant le cheminement des données, de la perception de l'environnement à leur traitement, puis aux décisions de mouvement. Cette partie de la séance relie la compréhension du matériel aux concepts de programmation qui seront abordés lors des séances suivantes. Les explications théoriques sont renforcées par des activités d'assemblage pratiques au cours desquelles les élèves construisent physiquement leurs Roobokarts sous la direction de l'enseignant.
 
-La séance se terminera par un test des fonctionnalités de base, permettant aux élèves de vérifier que leurs Roobokarts assemblés répondent correctement à des commandes simples. Cette phase de test sert à la fois de vérification technique et d'occasion pour les élèves de découvrir leur travail en action. Les enseignants sont invités à consulter le manuel d'utilisation du Roobokart, disponible en ligne, pour connaître les procédures d'assemblage spécifiques et les conseils de dépannage. Chaque groupe d'élèves doit disposer d'un kit d'assemblage complet contenant tous les composants nécessaires à son Roobokart.
+La séance se terminera par un test des fonctionnalités de base : les élèves vérifient que leurs Roobokarts assemblés répondent correctement à des commandes simples, et voient leur véhicule fonctionner. Les enseignants sont invités à consulter le manuel d'utilisation du Roobokart, disponible en ligne, pour connaître les procédures d'assemblage spécifiques et les conseils de dépannage. Chaque groupe d'élèves doit disposer d'un kit d'assemblage complet contenant tous les composants nécessaires à son Roobokart.
 
-**Ressources** : Le [manuel d'utilisation du Roobokart](https://www.roobopoli.org/wp-content/uploads/2021/05/Roobokart-il-manuale-operativo-RevA1.pdf) (disponible en italien) fournit des instructions détaillées pour cette session. Des kits de montage de véhicules doivent être préparés pour chaque groupe avant la session.
+**Ressources** : Le [manuel d'utilisation du Roobokart](https://www.roobopoli.org/wp-content/uploads/2021/05/Roobokart-il-manuale-operativo-RevA1.pdf) (disponible en italien) fournit des instructions détaillées pour cette séance. Des kits de montage de véhicules doivent être préparés pour chaque groupe avant la séance.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <div style={{display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem'}}>
@@ -169,34 +168,34 @@ La séance se terminera par un test des fonctionnalités de base, permettant aux
 
 #### Séance 2 : Analyse de code
 
-La deuxième séance passe du matériel au logiciel, aidant les élèves à comprendre la logique de programmation qui contrôle le comportement du Roobokart. Les enseignants commenceront par parcourir le code fourni, en expliquant sa structure générale et la correspondance entre les différentes sections et les fonctions spécifiques du véhicule. Cette explication mettra l'accent sur la relation entre les commandes du code et les actions physiques, renforçant ainsi le lien entre les décisions de programmation et les résultats concrets. Les élèves seront encouragés à poser des questions et à discuter de leurs observations tout en explorant le code ensemble.
+La deuxième séance passe du matériel au logiciel. Les élèves y étudient la logique de programmation qui contrôle le comportement du Roobokart. Les enseignants commenceront par parcourir le code fourni, en expliquant sa structure générale et la correspondance entre ses différentes sections et les fonctions du véhicule. Cette explication mettra l'accent sur la relation entre les commandes du code et les actions physiques. Les élèves seront encouragés à poser des questions et à discuter de leurs observations tout en explorant le code ensemble.
 
-Au cours de la séance, les enseignants doivent aider les élèves à identifier les fonctions clés du code et à comprendre leurs objectifs spécifiques. Cette analyse doit mettre en évidence la manière dont les différentes fonctions interagissent pour créer un comportement cohérent du véhicule, démontrant ainsi l'importance d'approches de programmation structurées. Une attention particulière doit être portée à la discussion des points de modification potentiels que les élèves pourraient ultérieurement adapter au code pour répondre aux exigences du défi. Ces « points d'entrée » de modification doivent être clairement identifiés et expliqués en termes d'impact potentiel des changements sur le comportement global du véhicule.
+Au cours de la séance, les enseignants doivent aider les élèves à identifier les fonctions clés du code et à comprendre le rôle de chacune. Cette analyse doit montrer comment les différentes fonctions interagissent pour produire un comportement cohérent du véhicule. Les enseignants doivent en particulier discuter avec les élèves des endroits du code qu'ils pourront modifier ensuite pour répondre aux exigences du défi. Ces « points d'entrée » doivent être clairement identifiés, et expliqués par l'effet que leur modification peut avoir sur le comportement global du véhicule.
 
-La dernière partie de la séance devrait inclure des exercices de programmation simples permettant aux élèves d'expérimenter le framework de code de Roobokart dans un environnement à faibles enjeux. Ces exercices peuvent consister à apporter des modifications mineures aux fonctions existantes et d'observer les changements de comportement qui en résultent. Grâce à ces activités de codage pratiques, les élèves acquièrent confiance en leur capacité à utiliser le framework tout en développant une compréhension pratique des principes de programmation. Les enseignants doivent s'assurer que tous les élèves ont accès à des ordinateurs équipés d'un environnement de programmation adapté au développement C++ et fournir des exemples d'extraits de code qu'ils peuvent utiliser comme point de départ pour leurs exercices pratiques.
+La dernière partie de la séance devrait inclure des exercices de programmation simples, où les élèves expérimentent le code du Roobokart dans un cadre sans grand enjeu. Ces exercices peuvent consister à apporter des modifications mineures aux fonctions existantes et à observer les changements de comportement qui en résultent. Les enseignants doivent s'assurer que tous les élèves ont accès à des ordinateurs équipés d'un environnement de programmation adapté au développement C++ et fournir des exemples d'extraits de code qu'ils peuvent utiliser comme point de départ pour leurs exercices pratiques.
 
-**Ressources** : La [documentation du code](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin) constitue le principal support de référence pour cette session. Des ordinateurs équipés d'environnements de programmation appropriés doivent être mis à disposition de chaque groupe, ainsi que des exemples de code préparés pour les exercices pratiques.
+**Ressources** : La [documentation du code](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin) est le principal support de référence pour cette séance. Des ordinateurs équipés d'environnements de programmation appropriés doivent être mis à disposition de chaque groupe, ainsi que des exemples de code préparés pour les exercices pratiques.
 
 #### Séance 3 : Règles de la compétition
 
-La dernière séance de formation vise à définir clairement les attentes quant à l'évaluation des solutions des élèves pendant la phase de hackathon. Les enseignants commenceront par présenter en détail le règlement du concours et expliqueront le système de notation utilisé pour évaluer les performances. Pour le défi de mise en oeuvre, les enseignants expliqueront en détail le système de points : chaque équipe commence avec un score initial de 200 points au début de la session de course. Des points sont déduits en cas de non-respect des exigences de la mission, selon un barème de pénalités défini. Les élèves doivent comprendre les procédures en cas de difficultés techniques :
+La dernière séance de formation vise à définir clairement les attentes quant à l'évaluation des solutions des élèves pendant la phase de hackathon. Les enseignants commenceront par présenter en détail le règlement du concours et expliqueront le système de notation utilisé pour évaluer les performances. Pour le défi Ville, les enseignants expliqueront en détail le système de points : chaque équipe commence avec un score initial de 200 points au début de la manche de course. Des points sont déduits en cas de non-respect des exigences de la mission, selon un barème de pénalités défini. Les élèves doivent comprendre les procédures en cas de difficultés techniques :
 
 ##### Difficultés techniques et échecs
 
-En cas de panne d'un Roobokart pendant la compétition, les équipes peuvent demander à passer en fin de file d'attente pour gagner du temps de réparation. Cette procédure entraîne toutefois une pénalité de points et réinitialise leur session de course. Le temps de réparation est limité à la fin de la session de toutes les autres équipes. De plus, les équipes ne peuvent demander plus d'un repositionnement. La gestion des batteries est un autre élément crucial : les Roobokarts doivent démarrer avec des batteries complètement chargées, et toute panne due à un problème de batterie entraînera des pénalités. Si un problème de batterie rend la poursuite impossible, les équipes peuvent demander un repositionnement avec une pénalité supplémentaire.
+En cas de panne d'un Roobokart pendant la compétition, les équipes peuvent demander à passer en fin de file d'attente pour gagner du temps de réparation. Cette procédure entraîne toutefois une pénalité de points et réinitialise leur manche. Le temps de réparation est limité à la fin de la manche de toutes les autres équipes. Les équipes ne peuvent demander plus d'un repositionnement. Les Roobokarts doivent démarrer avec des batteries complètement chargées : toute panne due à un problème de batterie entraînera des pénalités. Si un problème de batterie rend la poursuite impossible, les équipes peuvent demander un repositionnement avec une pénalité supplémentaire.
 
 Lorsque des pénalités surviennent, les enseignants doivent insister sur la procédure de redémarrage appropriée :
 
 ##### Procédure de redémarrage
 
-Le Roobokart doit être redémarré après avoir réinitialisé la carte Nucleo et positionné par un représentant de l'équipe au point de redémarrage désigné sur la piste. Ce point doit se situer avant l'endroit où la pénalité a été infligée, dans le sens de la course. À l'issue du temps imparti, la somme de toutes les pénalités accumulées est déduite du score initial. Si le score obtenu est inférieur à zéro, un score final de zéro sera attribué pour la séance de course.
+Le Roobokart doit être redémarré après avoir réinitialisé la carte Nucleo et positionné par un représentant de l'équipe au point de redémarrage désigné sur la piste. Ce point doit se situer avant l'endroit où la pénalité a été infligée, dans le sens de la course. À l'issue du temps imparti, la somme de toutes les pénalités accumulées est déduite du score initial. Si le score obtenu est inférieur à zéro, un score final de zéro sera attribué pour la manche.
 
 La composante présentation a un poids important dans l'évaluation globale, avec un score maximum possible de **120 points** répartis sur quatre domaines clés :
 
-- **Contenu (75 points)** : cinq thèmes essentiels — durabilité environnementale, technologie et innovation, mobilité durable, urbanisme, participation citoyenne. Chaque thème vaut au maximum 15 points, évalués sur l'originalité de l'idée, la faisabilité de la solution et la clarté conceptuelle.
+- **Contenu (75 points)** : cinq thèmes (durabilité environnementale, technologie et innovation, mobilité durable, urbanisme, participation citoyenne). Chaque thème vaut au maximum 15 points, évalués sur l'originalité de l'idée, la faisabilité de la solution et la clarté conceptuelle.
 - **Travail d'équipe (10 points)** : façon dont les membres du groupe expriment leurs idées, prennent en compte les points de vue des autres et collaborent vers des objectifs communs.
 - **Qualité de la présentation (20 points)** : communication claire, structure logique, présentation visuelle, exhaustivité des informations et pleine participation de tous les membres de l'équipe.
-- **Innovation (15 points)** : pensée innovante, idées nouvelles et tournées vers l'avenir qui peuvent améliorer significativement les environnements urbains d'un point de vue technologique et environnemental.
+- **Innovation (15 points)** : pensée innovante, idées nouvelles et tournées vers l'avenir qui peuvent améliorer les environnements urbains d'un point de vue technologique et environnemental.
 
 Lors de l'évaluation du volet travail en équipe, les enseignants peuvent utiliser les questions directrices suivantes :
 
@@ -210,14 +209,10 @@ La séance se terminera par la formation des groupes d'élèves pour la phase su
 
 ### Restitution et réflexion
 
-La phase de formation prépare les élèves à la phase de collaboration pratique en s'assurant qu'ils comprennent les composants matériels et logiciels du défi. Les connaissances acquises sur la structure du Roobokart, son framework de code et les règles du concours seront essentielles pour développer des solutions innovantes lors des défis de mise en oeuvre et de conception qui suivront.
-
-À l'issue de la phase de formation, les élèves doivent être organisés en groupes de sorte qu'au moins un élève par groupe maîtrise les compétences de compréhension, de modification, d'exécution et d'écriture de code C++. Cela permet à toutes les équipes de participer avec succès au défi d'implémentation.
-
-La phase de formation pose les bases essentielles pour que les élèves puissent s'engager pleinement dans le défi de conception de véhicules autonomes. Grâce à une exploration structurée du framework Roobopoli, à l'analyse de code et aux règles du concours, les élèves développent la compréhension technique et les connaissances contextuelles nécessaires à la réussite des phases suivantes. Cet investissement initial en cours est particulièrement fructueux lorsque les élèves passent à un travail plus autonome lors des phases pratiques et du hackathon.
+La phase de formation prépare les élèves à la phase de collaboration pratique en s'assurant qu'ils comprennent les composants matériels et logiciels du défi. Les connaissances acquises sur la structure du Roobokart, son code et les règles du concours serviront à développer des solutions lors du défi Ville et du défi Impact écologique qui suivront.
 
 :::info[Notes pour l'enseignant·e]
-Observez attentivement l'engagement des élèves durant cette phase afin d'identifier rapidement les difficultés potentielles. Portez une attention particulière à la manière dont les élèves interagissent avec les composantes techniques, en repérant ce qui suscite l'enthousiasme et ce qui pourrait nécessiter un soutien supplémentaire. La façon dont les élèves s'organisent pendant ces séances fournit souvent des indications précieuses pour une formation efficace des groupes. Si les compétences techniques sont importantes, n'oubliez pas que des groupes équilibrés bénéficient de points forts variés : résolution créative de problèmes, pensée systématique, communication efficace.
+Observez attentivement l'engagement des élèves durant cette phase afin d'identifier rapidement les difficultés potentielles. Portez une attention particulière à la manière dont les élèves interagissent avec les composantes techniques, en repérant ce qui suscite l'enthousiasme et ce qui pourrait nécessiter un soutien supplémentaire. La façon dont les élèves s'organisent pendant ces séances donne souvent des indications pour former des groupes efficaces. Les compétences techniques comptent, mais des groupes équilibrés bénéficient aussi de points forts variés : résolution créative de problèmes, pensée systématique, communication efficace.
 :::
 
 ---
@@ -226,7 +221,7 @@ Observez attentivement l'engagement des élèves durant cette phase afin d'ident
 
 ### Contexte de la séquence
 
-Cette phase invite les élèves à travailler en collaboration sur deux défis parallèles portant à la fois sur la mise en oeuvre technique et la conception. S'appuyant sur les connaissances acquises lors de la phase de formation, les élèves mettent désormais en pratique leurs connaissances pour programmer un Roobokart autonome et développer des idées innovantes pour des environnements urbains durables. Grâce à ces activités pratiques, les élèves améliorent leurs compétences en programmation tout en réfléchissant à l'impact écologique des villes du futur.
+Cette phase invite les élèves à travailler en collaboration sur deux défis parallèles, l'un de mise en oeuvre technique, l'autre de conception. À partir de ce qu'ils ont appris en phase de formation, les élèves programment un Roobokart autonome et développent des idées innovantes pour des environnements urbains durables.
 
 ### Objectifs d'apprentissage
 
@@ -238,29 +233,29 @@ Cette phase invite les élèves à travailler en collaboration sur deux défis p
 
 ### Conceptualisation
 
-Avant de commencer les activités pratiques collaboratives, les enseignants doivent comprendre l'approche du double défi qui caractérise cette phase et comment elle soutient les résultats d'apprentissage complets.
+Avant de commencer les activités pratiques collaboratives, les enseignants doivent comprendre l'approche à double défi de cette phase et ce qu'elle apporte à l'ensemble des objectifs d'apprentissage.
 
 #### Constitution d'équipes et apprentissage par les pairs
 
-Cette phase exige une organisation réfléchie des équipes d'élèves afin de maximiser les opportunités d'apprentissage. Chaque équipe doit inclure des élèves aux compétences et aux connaissances variées, créant ainsi des opportunités naturelles d'apprentissage entre pairs. Ce mélange délibéré entre compétences techniques, créativité et communication enrichit l'expérience d'apprentissage de tous les participants. S'il est important de s'assurer que chaque équipe compte au moins un élève maîtrisant la programmation C++, les enseignants doivent également veiller à équilibrer d'autres points forts tels que la pensée conceptuelle, les compétences en présentation et la connaissance de l'environnement.
+Cette phase exige une organisation réfléchie des équipes d'élèves. Chaque équipe doit inclure des élèves aux compétences et aux connaissances variées (technique, créativité, communication), pour qu'ils apprennent les uns des autres. En plus de la règle d'au moins un élève maîtrisant la programmation C++ par équipe (voir la séance 3), les enseignants doivent veiller à équilibrer d'autres points forts tels que la pensée conceptuelle, les compétences en présentation et la connaissance de l'environnement.
 
-Le modèle de pairs intégré à cette approche développe naturellement les compétences numériques, les élèves partageant leur expertise avec leurs coéquipiers. Les plus à l'aise en programmation guident les autres dans les défis techniques, tandis que les élèves plus forts dans d'autres domaines assument des rôles de leadership dans les aspects de la conception. Cette structure collaborative reflète les environnements de projet réels où des équipes multidisciplinaires doivent intégrer des perspectives diverses pour développer des solutions complètes.
+Les plus à l'aise en programmation guident les autres dans les défis techniques, tandis que les élèves plus forts dans d'autres domaines prennent la tête des aspects de conception.
 
 #### Structure à double défi
 
-La phase pratique comprend deux défis complémentaires qui, ensemble, abordent la mise en oeuvre pratique et l'innovation conceptuelle. Le « City Challenge » se concentre sur les compétences techniques en programmation, demandant aux élèves d'appliquer leur compréhension du framework Roobokart pour résoudre des problèmes spécifiques de navigation autonome. Parallèlement, le défi « Impact écologique de la ville de demain » invite à une réflexion créative sur l'urbanisme durable et les implications environnementales des technologies émergentes.
+La phase pratique comprend deux défis complémentaires : l'un porte sur la mise en oeuvre pratique, l'autre sur l'innovation conceptuelle. Le défi Ville (« City Challenge ») se concentre sur les compétences techniques en programmation : les élèves appliquent leur compréhension du Roobokart pour résoudre des problèmes de navigation autonome. Le défi Impact écologique (« Impact écologique de la ville de demain ») invite à une réflexion créative sur l'urbanisme durable et les implications environnementales des technologies émergentes.
 
-Cette approche parallèle aide les élèves à comprendre les interconnexions entre les capacités techniques et leurs applications sociétales plus larges. En travaillant simultanément sur les deux défis, les élèves développent une compréhension plus complète et intégrée de l'influence des décisions de programmation et de conception sur les résultats écologiques. La structure à double défi tient également compte des préférences et des points forts d'apprentissage, permettant à tous les élèves de contribuer significativement aux efforts de leur équipe.
+En travaillant en même temps sur les deux défis, les élèves voient comment les décisions de programmation et de conception influencent les résultats écologiques. La structure à double défi tient aussi compte des préférences et des points forts de chacun, pour que tous les élèves puissent contribuer au travail de leur équipe.
 
 #### Ateliers pratiques
 
-La phase pratique collaborative utilise une méthodologie d'atelier où les enseignants jouent principalement un rôle d'animateurs plutôt que d'instructeurs. Cette approche encourage l'autonomie des élèves et la résolution de problèmes tout en créant un espace de collaboration authentique. Les enseignants doivent surveiller la dynamique de groupe et apporter un soutien si nécessaire, mais éviter de donner des solutions ou des approches spécifiques. Leur rôle passe de la présentation d'informations à la formulation de questions d'orientation, à la suggestion de ressources et à l'accompagnement des équipes face aux obstacles lorsqu'elles sont réellement bloquées.
+La phase pratique collaborative utilise une méthodologie d'atelier où les enseignants jouent principalement un rôle d'animateurs plutôt que d'instructeurs. Cette approche encourage l'autonomie des élèves, la résolution de problèmes et la collaboration. Les enseignants doivent surveiller la dynamique de groupe et apporter un soutien si nécessaire, mais éviter de donner des solutions ou des approches spécifiques. Leur rôle passe de la présentation d'informations à la formulation de questions d'orientation, à la suggestion de ressources et à l'accompagnement des équipes face aux obstacles lorsqu'elles sont réellement bloquées.
 
 ### Investigation par les élèves
 
 #### Le défi de la ville : Mise en oeuvre
 
-Le premier défi, intitulé « City Challenge », représente la phase de mise en oeuvre technique où les élèves programment leur Roobokart pour répondre à une mission spécifique. Cette activité pratique demande aux élèves de s'appuyer sur le squelette de code fourni lors de la phase de formation, en ajoutant des fonctionnalités pour répondre aux exigences détaillées de la mission.
+Le premier défi, le défi Ville, est la phase de mise en oeuvre technique où les élèves programment leur Roobokart pour répondre à une mission spécifique. Cette activité pratique demande aux élèves de s'appuyer sur le squelette de code fourni lors de la phase de formation, en ajoutant des fonctionnalités pour répondre aux exigences détaillées de la mission.
 
 La mission de base est définie comme suit :
 
@@ -268,49 +263,47 @@ La mission de base est définie comme suit :
 Le kart se déplace dans les rues d'un Roobopoli standard, sur sa propre voie, en lisant les panneaux horizontaux qui renseignent sur les possibilités de franchissement d'intersections. Il doit respecter les feux de circulation, traverser au vert et s'arrêter au rouge, et traverser les intersections en choisissant aléatoirement les chemins disponibles. En cas d'obstacle, le kart doit s'arrêter et reprendre la mission dès qu'il est éliminé.
 :::
 
-Le point de départ de ce défi de programmation est le code de mission de base, disponible à l'adresse : [roobokart\_basic\_mission.bin](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin). Les enseignants doivent insister sur le fait que ce code n'est qu'une référence et ne met pas en oeuvre l'intégralité de la mission. Les élèves doivent le compléter correctement pour remplir les exigences de la mission. Chaque équipe doit avoir accès à un Roobokart pour le tester et le peaufiner tout au long de la session.
+Le point de départ de ce défi de programmation est le code de mission de base, disponible à l'adresse : [roobokart\_basic\_mission.bin](https://github.com/Perlatecnica/Roobokart/blob/master/Releases/roobokart_basic_mission.bin). Les enseignants doivent insister sur le fait que ce code n'est qu'une référence et ne met pas en oeuvre l'intégralité de la mission. Les élèves doivent le compléter correctement pour remplir les exigences de la mission. Chaque équipe doit avoir accès à un Roobokart pour le tester et le peaufiner tout au long de la séance.
 
 Chaque groupe travaille de manière autonome et indépendante, gérant la résolution du défi comme bon lui semble. Les enseignants doivent souligner que chaque équipe est responsable de son matériel et doit s'assurer que tout est conforme au règlement au moment de la compétition.
 
-Les enseignants devraient encourager une approche itérative où les élèves implémentent les fonctionnalités progressivement, en testant chaque ajout avant de passer au suivant. Cette méthodologie aide les équipes à gérer la complexité du défi tout en garantissant une progression régulière. Tout en répondant aux questions techniques des élèves, les enseignants devraient également inciter les équipes à documenter leurs décisions de programmation et à réfléchir à la manière dont leurs implémentations pourraient répondre à des scénarios réels de véhicules autonomes.
+Les enseignants devraient encourager une approche itérative où les élèves implémentent les fonctionnalités progressivement, en testant chaque ajout avant de passer au suivant. Cette méthode aide les équipes à gérer la complexité du défi et à progresser régulièrement. Tout en répondant aux questions techniques des élèves, les enseignants devraient également inciter les équipes à documenter leurs décisions de programmation et à réfléchir à la manière dont leurs implémentations pourraient répondre à des scénarios réels de véhicules autonomes.
 
 #### Le défi de l'impact écologique : La conception
 
-Le deuxième et dernier défi, intitulé « Défi pour l'impact écologique de la ville de demain », invite les élèves à réfléchir à la manière dont nous pourrions repenser les villes de demain en améliorant l'impact écologique grâce à l'utilisation d'outils technologiques et numériques innovants.
+Le deuxième et dernier défi, le défi Impact écologique, invite les élèves à réfléchir à la manière de repenser les villes de demain pour améliorer leur impact écologique, grâce à des outils technologiques et numériques innovants.
 
 Pour ce défi, chaque groupe est invité à produire une présentation qui aborde les aspects suivants :
 
 1. **Durabilité environnementale** : La ville de demain devra être respectueuse de l'environnement, avec une réduction des émissions de gaz à effet de serre, une utilisation efficace des ressources naturelles et la promotion des énergies renouvelables. Par exemple, il pourrait s'agir d'aménager davantage d'espaces verts en ville, d'utiliser des sources d'énergie alternatives pour les transports ou de passer de sources d'énergie non renouvelables (charbon, pétrole, etc.) à des énergies renouvelables (par exemple, en augmentant l'utilisation de l'énergie solaire grâce à l'installation de panneaux solaires sur les bâtiments).
 2. **Technologie et innovation** : La ville de demain devra utiliser la technologie et l'innovation pour améliorer la qualité de vie des citoyens, accroître l'efficacité des services publics et optimiser l'utilisation des ressources. Parmi les moyens par lesquels la technologie et l'innovation peuvent créer des villes plus intelligentes, plus durables et plus agréables à vivre :
-   - **Internet des objets (IoT)** : la technologie IoT connecte les appareils et les objets d'une ville pour collecter des données et des informations qui améliorent la qualité de vie des citoyens. Par exemple, l'IoT peut garantir une gestion et une élimination appropriées des déchets ou améliorer les transports publics.
-   - **Ville intelligente** : une ville intelligente utilise la technologie pour améliorer la qualité de vie des citoyens grâce à des solutions technologiques de gestion des services publics tels que l'éclairage, l'énergie et la distribution de l'eau.
+   - **Internet des objets (IoT)** : la technologie IoT connecte les appareils et les objets d'une ville pour collecter des données et des informations. Par exemple, l'IoT peut garantir une gestion et une élimination appropriées des déchets ou améliorer les transports publics.
+   - **Ville intelligente** : une ville intelligente s'appuie sur la technologie pour gérer des services publics tels que l'éclairage, l'énergie et la distribution de l'eau.
 3. **Mobilité durable** : La ville de demain devra promouvoir une mobilité durable grâce à des transports à faibles émissions, des programmes de partage de voitures ou de vélos, et des espaces piétons/cyclables. Cela pourrait inclure, par exemple, une utilisation accrue des transports en commun et une réduction de l'usage des véhicules particuliers (plus polluants), ou encore le développement de modes de transport plus durables en milieu urbain, comme le vélo, avec des espaces dédiés.
-4. **Urbanisme** : La ville de demain doit être planifiée de manière rationnelle, avec une gestion efficace du territoire et une densification urbaine plus durable, en créant une ville à échelle humaine, dotée d'espaces publics bien répartis et de services facilement accessibles. Cependant, cette planification doit être durable, par exemple avec des bâtiments plus économes en énergie et plus intelligents, et des espaces verts accessibles.
-5. **Participation citoyenne** : La ville de demain doit impliquer ses citoyens dans la planification et la gestion urbaines par le biais de processus participatifs et consultatifs. La participation citoyenne doit être un élément central de la planification urbaine, impliquant les citoyens dans la co-création des villes où ils vivent. Cela peut se faire, par exemple, via des plateformes numériques, des consultations publiques en ligne, des ateliers et des rencontres citoyennes. Parallèlement, l'inclusion et la participation de tous les citoyens aux processus décisionnels doivent être garanties afin que chacun puisse exprimer ses besoins et élaborer ainsi des stratégies adaptées, toujours dans une perspective durable.
+4. **Urbanisme** : La ville de demain doit être planifiée de manière rationnelle, avec une gestion efficace du territoire et une densification urbaine plus durable, en créant une ville à échelle humaine, dotée d'espaces publics bien répartis et de services facilement accessibles. Cette planification doit aussi être durable, par exemple avec des bâtiments plus économes en énergie et plus intelligents, et des espaces verts accessibles.
+5. **Participation citoyenne** : La ville de demain doit impliquer ses citoyens dans la planification et la gestion urbaines, jusqu'à la co-création des villes où ils vivent, par le biais de processus participatifs et consultatifs. Cela peut se faire, par exemple, via des plateformes numériques, des consultations publiques en ligne, des ateliers et des rencontres citoyennes. L'inclusion et la participation de tous les citoyens aux processus décisionnels doivent aussi être garanties, pour que chacun puisse exprimer ses besoins et que des stratégies adaptées soient élaborées, dans une perspective durable.
 
-Les enseignants devraient encourager les équipes à utiliser des outils de présentation qu'ils maîtrisent, tels que PowerPoint, Google Slides, Prezi ou Mentimeter. L'accent doit être mis sur l'élaboration d'un contenu réfléchi démontrant une compréhension des possibilités technologiques et des considérations environnementales plutôt que sur l'esthétique de la présentation.
+Les enseignants devraient encourager les équipes à utiliser des outils de présentation qu'ils maîtrisent, tels que PowerPoint, Google Slides, Prezi ou Mentimeter. Le contenu compte plus que l'esthétique de la présentation : il doit montrer que l'équipe a compris les possibilités technologiques et les enjeux environnementaux.
 
-**Gestion du matériel** : Chaque équipe est responsable de la gestion de son matériel et doit s'assurer que tout est conforme aux exigences au moment de la compétition. Les enseignants doivent préparer un Roobokart par groupe et vérifier le bon fonctionnement de tous les véhicules avant le début de la séance. De plus, assurez-vous que chaque équipe dispose d'ordinateurs équipés d'environnements de programmation appropriés, ainsi que d'outils de création de présentations.
+**Gestion du matériel** : Chaque équipe est responsable de la gestion de son matériel et doit s'assurer que tout est conforme aux exigences au moment de la compétition. Les enseignants doivent préparer un Roobokart par groupe et vérifier le bon fonctionnement de tous les véhicules avant le début de la séance. Assurez-vous aussi que chaque équipe dispose d'ordinateurs équipés d'environnements de programmation appropriés, ainsi que d'outils de création de présentations.
 
 **Gestion du temps** : D'une durée totale de cinq heures, cette phase exige une gestion rigoureuse du temps. Envisagez de diviser la séance en segments avec des transitions claires entre les activités. Bien que la répartition suggérée accorde un temps égal aux deux défis (2,5 heures chacun), les enseignants peuvent ajuster leur temps en fonction du contexte de leur classe et des besoins des élèves. Certaines équipes pourraient bénéficier d'une approche plus fluide, alternant entre les défis, tandis que d'autres préféreraient s'attaquer à un défi avant de passer au suivant.
 
 ### Restitution et réflexion
 
-Durant cette phase pratique collaborative, les enseignants doivent observer activement la répartition des tâches par les équipes et la mise en place de modèles collaboratifs. Ces observations fournissent des informations précieuses sur l'apprentissage des élèves et la dynamique de groupe. Pensez à prendre des notes sur :
+Durant cette phase pratique collaborative, les enseignants doivent observer activement la répartition des tâches par les équipes et la mise en place de modèles collaboratifs. Ces observations renseignent sur l'apprentissage des élèves et la dynamique de groupe. Pensez à prendre des notes sur :
 
 - Dans quelle mesure les équipes répartissent-elles efficacement les tâches techniques et conceptuelles ?
 - Quels élèves émergent comme leaders dans différents aspects des défis ?
 - Comment les équipes résolvent-elles les désaccords ou les obstacles techniques ?
 - Les stratégies que les équipes développent pour intégrer des solutions de programmation avec des considérations écologiques
 
-À la fin de la session, les enseignants doivent rassembler le code produit pour le Défi Ville et les présentations créées pour le Défi Impact Écologique. Ces artefacts serviront de preuve d'apprentissage et de préparation pour la phase finale du hackathon.
+À la fin de la séance, les enseignants doivent rassembler le code produit pour le défi Ville et les présentations créées pour le défi Impact écologique. Le code et les présentations montrent ce que les élèves ont appris et préparent la phase finale du hackathon.
 
-La phase pratique collaborative prépare les élèves au hackathon en développant leurs solutions techniques et leurs présentations conceptuelles. Le code créé lors du Défi Ville sera testé lors de la phase compétition du hackathon, tandis que les présentations développées pour le Défi Impact Écologique seront présentées lors de la phase exposition. Cette phase représente le coeur du travail de développement, qui sera évalué et peaufiné lors de la phase finale.
-
-Grâce à cette étape, les élèves ont pu s'intéresser aux dimensions techniques et conceptuelles de la conception de véhicules autonomes. Grâce à des activités de programmation pratiques et à une réflexion approfondie sur les impacts environnementaux, les élèves développent une compréhension plus fine de la façon dont la technologie façonne les environnements urbains. Cette phase établit des liens essentiels entre les concepts de programmation abstraits et leurs applications concrètes.
+Le code créé lors du défi Ville sera testé lors de la phase compétition du hackathon, et les présentations développées pour le défi Impact écologique seront présentées lors de la phase exposition.
 
 :::info[Notes pour l'enseignant·e]
-Prêtez une attention particulière à la manière dont ces deux défis s'influencent mutuellement dans la réflexion des élèves. Les décisions de programmation tiennent-elles compte des considérations environnementales ? Les idées de conception tiennent-elles compte des limitations techniques ? Les équipes les plus performantes démontreront une intégration entre ces deux aspects, conscientes que les solutions technologiques doivent répondre aux impératifs écologiques.
+Prêtez une attention particulière à la manière dont ces deux défis s'influencent mutuellement dans la réflexion des élèves. Les décisions de programmation tiennent-elles compte des considérations environnementales ? Les idées de conception tiennent-elles compte des limitations techniques ? Les équipes les plus performantes relient ces deux aspects.
 :::
 
 ---
@@ -319,7 +312,7 @@ Prêtez une attention particulière à la manière dont ces deux défis s'influe
 
 ### Contexte de la séquence
 
-La phase finale du protocole est consacrée à la présentation publique des solutions développées lors de la phase de collaboration pratique. Ce hackathon sert à la fois de compétition et de forum de présentation où les élèves présentent leurs solutions de programmation et partagent leurs idées pour les villes de demain. Grâce à cette expérience enrichissante, les élèves affinent leur capacité à communiquer des concepts techniques, améliorent leurs compétences en programmation et participent à un brainstorming collectif qui enrichit la compréhension de chacun.
+La phase finale du protocole est consacrée à la présentation publique des solutions développées lors de la phase de collaboration pratique. Ce hackathon sert à la fois de compétition et de forum de présentation où les élèves présentent leurs solutions de programmation et partagent leurs idées pour les villes de demain. Les élèves y affinent leur capacité à communiquer des concepts techniques, améliorent leurs compétences en programmation et participent à un brainstorming collectif.
 
 ### Objectifs d'apprentissage
 
@@ -331,7 +324,7 @@ La phase finale du protocole est consacrée à la présentation publique des sol
 
 ### Conceptualisation
 
-Avant d'organiser un hackathon, les enseignants doivent comprendre sa double nature : à la fois compétitive et collaborative. Contrairement aux évaluations traditionnelles, le format du hackathon offre une évaluation authentique tout en favorisant un esprit de communauté et de découverte partagée.
+Avant d'organiser un hackathon, les enseignants doivent comprendre sa double nature : à la fois compétitive et collaborative.
 
 #### Exigences de configuration physique
 
@@ -343,13 +336,13 @@ En plus de la ville physique, la salle de classe doit être aménagée de maniè
 
 #### Cadre d'évaluation
 
-Le hackathon intègre l'évaluation de la mise en oeuvre technique et de la conception. La phase de compétition évalue les solutions de programmation des élèves selon des critères objectifs établis lors de la phase de formation, tandis que la phase de présentation évalue leur compréhension des implications plus larges du défi de l'impact écologique. Cette approche globale permet aux élèves de différents niveaux de démontrer leurs apprentissages et de contribuer à la réussite de leur équipe.
+Le hackathon intègre l'évaluation de la mise en oeuvre technique et de la conception. La phase de compétition évalue les solutions de programmation des élèves selon des critères objectifs établis lors de la phase de formation, tandis que la phase de présentation évalue leur compréhension des enjeux du défi Impact écologique. Cette approche globale permet aux élèves de différents niveaux de démontrer leurs apprentissages et de contribuer à la réussite de leur équipe.
 
-Les enseignants doivent aborder le hackathon comme une expérience d'apprentissage enrichissante plutôt que comme un simple test. L'aspect compétitif sert principalement à motiver l'engagement et à offrir un contexte authentique pour la mise en pratique des compétences. Tout au long de l'événement, les enseignants doivent insister sur le fait que l'objectif ultime est l'apprentissage collaboratif et le développement des compétences, plutôt que la victoire à tout prix.
+Les enseignants doivent aborder le hackathon comme une expérience d'apprentissage plutôt que comme un simple test. L'aspect compétitif sert surtout à motiver les élèves et à leur donner un cadre concret pour mettre en pratique leurs compétences. Tout au long de l'événement, les enseignants doivent insister sur le fait que l'objectif ultime est l'apprentissage collaboratif et le développement des compétences, plutôt que la victoire à tout prix.
 
 #### Rôle de l'enseignant pendant le hackathon
 
-Pendant le hackathon, les enseignants deviennent facilitateurs et juges. En tant qu'animateurs, ils maintiennent la structure de l'événement, garantissent une compétition équitable et guident les discussions productives après chaque présentation. En tant que juges, ils appliquent les critères d'évaluation établis de manière cohérente à toutes les équipes. Ce double rôle exige un équilibre entre encouragement et évaluation objective, en valorisant les solutions créatives tout en maintenant des normes cohérentes.
+Pendant le hackathon, les enseignants deviennent animateurs et juges. En tant qu'animateurs, ils maintiennent la structure de l'événement, garantissent une compétition équitable et guident les discussions productives après chaque présentation. En tant que juges, ils appliquent les critères d'évaluation établis de manière cohérente à toutes les équipes. Ce double rôle exige un équilibre entre encouragement et évaluation objective : valoriser les solutions créatives sans renoncer à des normes cohérentes.
 
 ### Investigation par les élèves
 
@@ -357,47 +350,47 @@ Pendant le hackathon, les enseignants deviennent facilitateurs et juges. En tant
 
 La phase de compétition suit un format structuré afin de garantir une évaluation juste et cohérente de la solution de programmation de chaque équipe. Les enseignants doivent expliquer le règlement de la compétition à tous les élèves avant de commencer :
 
-L'enseignant convoque les équipes à concourir dans un ordre arbitraire. Les équipes doivent répondre promptement, car toute équipe qui ne se présente pas à la table de compétition dans les 60 secondes suivant l'appel perdra sa session de course. Si une équipe n'est pas prête à concourir à l'appel, elle peut demander, dans le même délai de 60 secondes, à être déplacée à la fin de l'ordre de compétition en acceptant la pénalité de points correspondante.
+L'enseignant convoque les équipes à concourir dans un ordre arbitraire. Les équipes doivent répondre promptement, car toute équipe qui ne se présente pas à la table de compétition dans les 60 secondes suivant l'appel verra sa manche annulée. Si une équipe n'est pas prête à concourir à l'appel, elle peut demander, dans le même délai de 60 secondes, à être déplacée à la fin de l'ordre de compétition en acceptant la pénalité de points correspondante.
 
-Chaque compétition comprend deux sessions distinctes de deux minutes par équipe. Il est important de noter que les sessions d'une équipe ne sont pas consécutives, ce qui permet d'ajuster le code entre les sessions. Les équipes peuvent modifier leur code entre les sessions, même pour de simples besoins de calibrage, mais elles ne peuvent pas tester le code modifié sur la table de compétition officielle avant la session suivante.
+Chaque compétition comprend deux manches distinctes de deux minutes par équipe. Les deux manches d'une équipe ne se suivent pas : l'équipe peut modifier son code entre les deux, même pour un simple calibrage, mais ne peut pas tester le code modifié sur la table de compétition officielle avant sa manche suivante.
 
-Au début de chaque séance, le Roobokart doit être positionné au point de départ indiqué par l'enseignant et mis en évidence sur le tableau de compétition. Un représentant de l'équipe en compétition doit lancer le Roobokart depuis le point de départ désigné sur la piste. Lors de chaque séance, le Roobokart doit naviguer selon les règles de la mission de base décrites lors de la phase précédente.
+Au début de chaque manche, le Roobokart doit être positionné au point de départ indiqué par l'enseignant et mis en évidence sur le tableau de compétition. Un représentant de l'équipe en compétition doit lancer le Roobokart depuis le point de départ désigné sur la piste. Lors de chaque manche, le Roobokart doit naviguer selon les règles de la mission de base décrites lors de la phase précédente.
 
 Le chronométrage débute dès que le Roobokart quitte le point de départ et se poursuit durant les déplacements, les arrêts aux feux tricolores, la gestion des obstacles et les franchissements d'intersections. Le chronomètre est temporairement interrompu lorsque le Roobokart sort de la piste en raison de pénalités ou est arrêté à cause d'un obstacle placé par les enseignants pendant la compétition.
 
 Les enseignants doivent placer des obstacles à des endroits stratégiques pendant la compétition afin de tester la capacité des Roobokarts à les détecter et à réagir correctement. Ces obstacles doivent être identiques pour toutes les équipes afin de garantir une évaluation équitable.
 
-Une fois que chaque équipe a terminé les deux sessions, les points sont calculés sur la base de l'allocation initiale (200 points) moins les pénalités encourues pendant la compétition.
+Une fois que chaque équipe a terminé ses deux manches, les points sont calculés sur la base de l'allocation initiale (200 points) moins les pénalités encourues pendant la compétition.
 
 #### Phase de présentation : Solutions à impact écologique
 
-Après la phase de compétition, les équipes présentent leurs solutions au défi de l'impact écologique. Chaque équipe présente sa présentation à l'ensemble de la classe, expliquant sa vision de la ville durable de demain. Les enseignants doivent fixer une durée de présentation cohérente (généralement 5 à 10 minutes) et s'assurer que tous les membres de l'équipe y participent.
+Après la phase de compétition, les équipes présentent leurs solutions au défi Impact écologique. Chaque équipe présente sa présentation à l'ensemble de la classe, expliquant sa vision de la ville durable de demain. Les enseignants doivent fixer une durée de présentation cohérente (généralement 5 à 10 minutes) et s'assurer que tous les membres de l'équipe y participent.
 
-Après chaque présentation, les enseignants doivent animer une brève période de discussion au cours de laquelle les autres élèves peuvent poser des questions et donner leur avis. Cet échange collaboratif enrichit la compréhension de chacun et constitue un précieux exercice pour formuler et recevoir des critiques constructives. Les enseignants doivent orienter ces discussions vers les cinq domaines clés du défi : la durabilité environnementale, la technologie et l'innovation, la mobilité durable, l'urbanisme et la participation citoyenne.
+Après chaque présentation, les enseignants doivent animer une brève période de discussion au cours de laquelle les autres élèves peuvent poser des questions et donner leur avis. Cet échange enrichit la compréhension de chacun et entraîne les élèves à formuler et à recevoir des critiques constructives. Les enseignants doivent orienter ces discussions vers les cinq domaines clés du défi : la durabilité environnementale, la technologie et l'innovation, la mobilité durable, l'urbanisme et la participation citoyenne.
 
-La phase de présentation offre aux élèves l'occasion de démontrer leur compréhension des interconnexions complexes entre la technologie et l'écologie. Les enseignants doivent évaluer les présentations en utilisant les critères établis : contenu abordant les cinq sujets essentiels (75 points), travail d'équipe (10 points), qualité de la présentation (20 points) et pensée innovante (15 points).
+La phase de présentation permet aux élèves de montrer ce qu'ils ont compris des liens entre la technologie et l'écologie. Les enseignants doivent évaluer les présentations en utilisant les critères établis : contenu abordant les cinq thèmes (75 points), travail d'équipe (10 points), qualité de la présentation (20 points) et pensée innovante (15 points).
 
-**Maintenir l'engagement** : Même si une seule équipe participe ou présente à la fois, il est important de maintenir l'engagement de tous les élèves tout au long du hackathon. Les enseignants peuvent assigner des tâches d'observation spécifiques aux équipes qui attendent leur tour, en leur demandant de noter les stratégies efficaces ou les approches intéressantes observées chez les autres équipes. Cette observation active permet de maintenir la concentration et favorise l'apprentissage entre pairs.
+**Maintenir l'engagement** : Une seule équipe concourt ou présente à la fois. Pour garder tous les élèves impliqués, les enseignants peuvent confier aux équipes qui attendent leur tour une tâche d'observation : noter les stratégies efficaces ou les approches intéressantes des autres équipes.
 
-**Feedback en temps réel** : Le format du hackathon permet un retour d'information et une itération immédiats. Entre les deux sessions de compétition, les équipes ont la possibilité d'ajuster leur code en fonction de leur première performance. De même, les équipes qui présentent plus tard dans l'ordre peuvent affiner leurs présentations grâce aux retours des groupes précédents. Les enseignants doivent souligner cette amélioration itérative comme un élément précieux du processus d'apprentissage.
+**Retour en temps réel** : Le format du hackathon permet un retour d'information et une itération immédiats. Entre les deux manches de compétition, les équipes peuvent ajuster leur code en fonction de leur première performance. De même, les équipes qui présentent plus tard dans l'ordre peuvent affiner leurs présentations grâce aux retours des groupes précédents. Les enseignants doivent présenter cette amélioration par étapes comme une partie du processus d'apprentissage.
 
-**Célébration du succès** : Bien que le hackathon comporte des éléments compétitifs, les enseignants doivent créer une atmosphère qui célèbre toutes les formes de réussite. Cela peut inclure une reconnaissance pour la solution la plus innovante, le meilleur travail d'équipe, la performance la plus améliorée ou la présentation la plus créative, en plus de l'évaluation globale par points. Cette reconnaissance plus large permet de valoriser différents types de réussite.
+**Célébration du succès** : Bien que le hackathon comporte des éléments compétitifs, les enseignants doivent créer une atmosphère qui célèbre toutes les formes de réussite. Cela peut inclure une reconnaissance pour la solution la plus innovante, le meilleur travail d'équipe, la plus forte progression ou la présentation la plus créative, en plus de l'évaluation globale par points.
 
 ### Restitution et réflexion
 
-La phase hackathon représente l'aboutissement du parcours d'apprentissage des élèves à travers le protocole de conception de véhicules autonomes. En testant publiquement leurs solutions de programmation et en présentant leurs idées pour des villes durables, les élèves démontrent à la fois leur maîtrise technique et leur compréhension conceptuelle. Cette évaluation authentique crée des opportunités naturelles de réflexion et de développement.
+En testant publiquement leurs solutions de programmation et en présentant leurs idées pour des villes durables, les élèves montrent à la fois leur maîtrise technique et leur compréhension conceptuelle.
 
-Le volet compétitif du hackathon offre un retour immédiat et concret sur les solutions de programmation. Lorsqu'un Roobokart relève avec succès des défis complexes ou ne réagit pas comme prévu, les élèves constatent les conséquences concrètes de leurs choix de code. Ce retour concret s'avère souvent plus significatif qu'une évaluation abstraite et incite à une réflexion approfondie sur les pistes d'amélioration.
+Le volet compétitif du hackathon donne un retour immédiat sur les solutions de programmation : quand un Roobokart réussit des épreuves complexes ou ne réagit pas comme prévu, les élèves voient l'effet de leurs choix de code. Ce retour a souvent plus de sens pour eux qu'une évaluation abstraite, et les pousse à réfléchir aux pistes d'amélioration.
 
-De même, la présentation encourage les élèves à articuler les liens entre les capacités techniques et les implications sociétales plus larges. En expliquant leur vision des villes de demain, les élèves mettent en pratique d'importantes compétences en communication tout en démontrant leur compréhension de la manière dont la technologie façonne notre environnement. Le format de discussion publique favorise la pollinisation croisée des idées, où les réflexions d'une équipe inspirent la réflexion des autres.
+La présentation, elle, amène les élèves à expliquer les liens entre la technique et ses effets sur la société. En exposant leur vision des villes de demain, ils travaillent leur communication et montrent comment ils comprennent l'effet de la technologie sur l'environnement. Pendant la discussion publique, les idées d'une équipe peuvent nourrir celles des autres.
 
 :::info[Notes pour l'enseignant·e]
-Tout au long du hackathon, observez la manière dont les élèves relèvent les défis, s'adaptent aux retours et soutiennent leurs coéquipiers. Ces observations fournissent des informations précieuses sur la progression des élèves, non seulement en termes de compréhension technique et conceptuelle, mais aussi en termes de collaboration et de résilience. Les compétences développées grâce à ce protocole complet — de la programmation et du design thinking au travail d'équipe et à la communication — préparent les élèves à réussir dans un monde de plus en plus interconnecté et technologique.
+Tout au long du hackathon, observez la manière dont les élèves relèvent les défis, s'adaptent aux retours et soutiennent leurs coéquipiers. Ces observations renseignent sur la progression des élèves : leur compréhension technique et conceptuelle, leur collaboration et leur résilience.
 :::
 
 ---
 
-## Annexe A : Système de scoring
+## Annexe A : Système de points
 
 ### Pénalités
 
@@ -406,13 +399,13 @@ Tout au long du hackathon, observez la manière dont les élèves relèvent les 
 | Invasion de voie | À chaque fois que le Roobokart envahit la voie opposée. | -2 |
 | Quitter la chaussée | À chaque fois que le Roobokart sort de la route. | -3 |
 | Panne de véhicule | À chaque fois que le Roobokart s'arrête sans raison et nécessite l'intervention du pilote pour redémarrer. | -5 |
-| Collision | Lorsque le Roobokart heurte un obstacle. Cette pénalité peut être appliquée au maximum trois fois par session de jeu. | -5 |
-| Pollution sonore | Lorsque le Roobokart klaxonne sans raison. Cette pénalité n'inclut pas les sons émis avant le démarrage du véhicule ni ceux requis par les objectifs. Cette pénalité peut être appliquée au maximum trois fois par session de jeu. | -2 |
+| Collision | Lorsque le Roobokart heurte un obstacle. Cette pénalité peut être appliquée au maximum trois fois par manche. | -5 |
+| Pollution sonore | Lorsque le Roobokart klaxonne sans raison. Cette pénalité n'inclut pas les sons émis avant le démarrage du véhicule ni ceux requis par les objectifs. Cette pénalité peut être appliquée au maximum trois fois par manche. | -2 |
 | Manoeuvre de traversée d'intersection incorrecte | Lorsque le Roobokart ne reprend pas correctement la navigation après avoir terminé la phase de franchissement d'intersection. | -7 |
 | Traversée au feu rouge | Lorsque le Roobokart traverse l'intersection avec un feu rouge. | -5 |
 | Batterie faible | Le Roobokart s'arrête en raison d'une batterie faible. Le remplacement de la batterie pendant la course est possible, et les équipes peuvent demander à être déplacées en fin de file. | -20 |
-| Retrait de la course | L'équipe se retire de la séance de course. Cette pénalité ne peut être appliquée qu'une seule fois par séance de jeu. | -150 |
-| Déplacement vers la fin de la file d'attente | L'équipe demande à être déplacée en fin de file d'attente en raison d'un problème technique grave. L'approbation de cette demande est laissée à l'appréciation de l'arbitre. Cette demande ne peut être formulée qu'avant le début de la séance de course et une seule fois pendant toute la compétition. | -20 |
+| Retrait de la course | L'équipe se retire de la manche. Cette pénalité ne peut être appliquée qu'une seule fois par manche. | -150 |
+| Déplacement vers la fin de la file d'attente | L'équipe demande à être déplacée en fin de file d'attente en raison d'un problème technique grave. L'approbation de cette demande est laissée à l'appréciation de l'arbitre. Cette demande ne peut être formulée qu'avant le début de la manche et une seule fois pendant toute la compétition. | -20 |
 | Comportement non conforme du Roobokart | À chaque fois que le Roobokart commet des irrégularités non couvertes par ce tableau. | -10 |
 | Comportement d'équipe non conforme | Chaque fois que l'équipe ne se comporte pas conformément au règlement ou n'adhère pas aux principes fondamentaux du fair-play pendant toute la compétition. | -20 |
 
@@ -425,8 +418,8 @@ Note : En cas de franchissement incorrect d'une intersection (lorsque le Rooboka
 | Virage à droite | À chaque fois que le Roobokart tourne à droite à une intersection. | +1 |
 | Virage à gauche | Chaque fois que le Roobokart tourne à gauche à une intersection. | +5 |
 | Tout droit | À chaque fois que le Roobokart continue tout droit à une intersection. | +3 |
-| Signal acoustique | Au moins une fois par session de jeu, le Roobokart klaxonne s'il détecte un obstacle pendant plus de cinq secondes. Cet objectif ne peut être atteint qu'une seule fois par session de jeu. | +8 |
-| Détection d'obstacles | Le Roobokart s'arrête lorsqu'un obstacle est détecté et reprend sa route lorsque la route est libre. Cet objectif peut être atteint au maximum trois fois par session de jeu. | +2 |
+| Signal acoustique | Au moins une fois par manche, le Roobokart klaxonne s'il détecte un obstacle pendant plus de cinq secondes. Cet objectif ne peut être atteint qu'une seule fois par manche. | +8 |
+| Détection d'obstacles | Le Roobokart s'arrête lorsqu'un obstacle est détecté et reprend sa route lorsque la route est libre. Cet objectif peut être atteint au maximum trois fois par manche. | +2 |
 
 ## Annexe B : Tableau de notation pour le défi de l'impact écologique
 
@@ -445,15 +438,15 @@ Note : En cas de franchissement incorrect d'une intersection (lorsque le Rooboka
 ## Annexe C : Procédure de concours
 
 - Les équipes seront appelées à concourir dans un ordre arbitraire déterminé par l'enseignant.
-- Les équipes doivent se présenter à la table de compétition dans les **60 secondes** suivant leur appel, sinon elles perdent leur séance de course.
+- Les équipes doivent se présenter à la table de compétition dans les **60 secondes** suivant leur appel, sinon leur manche est annulée.
 - Si une équipe n'est pas prête à courir, elle peut demander à être déplacée à la fin de la file d'attente (en acceptant la pénalité de -20 points) dans les 60 secondes suivant son appel.
-- Chaque équipe participe à **deux sessions distinctes de deux minutes**.
-- Les sessions d'une équipe ne sont pas consécutives, ce qui permet des modifications de code entre les sessions.
-- Le code modifié ne peut pas être testé sur la table de compétition officielle avant la prochaine session.
-- Au début de chaque séance, le Roobokart doit être positionné au point de référence de départ.
+- Chaque équipe participe à **deux manches distinctes de deux minutes**.
+- Les manches d'une équipe ne sont pas consécutives, ce qui permet des modifications de code entre les manches.
+- Le code modifié ne peut pas être testé sur la table de compétition officielle avant la prochaine manche.
+- Au début de chaque manche, le Roobokart doit être positionné au point de référence de départ.
 - Le chronométrage commence lorsque le Roobokart quitte le point de départ et continue pendant le mouvement, les arrêts aux feux de circulation, la gestion des obstacles et les passages aux intersections.
 - Le chronométrage est interrompu lorsque le Roobokart est hors piste en raison de pénalités ou arrêté à cause d'un obstacle placé par les enseignants.
-- Le score final est calculé comme les **points initiaux (200) moins les pénalités plus les bonus** sur les deux sessions.
+- Le score final est calculé comme les **points initiaux (200) moins les pénalités plus les bonus** sur les deux manches.
 
 ---
 
