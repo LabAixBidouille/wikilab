@@ -277,7 +277,7 @@ Utilise cette grille pour vérifier que ton histoire Scratch contient tous les �
 
 Chaque dilemme présente une situation du quotidien qui invite les enfants à réfléchir à ce qu'ils feraient et comment leurs actions peuvent affecter les autres. Chaque dilemme est présenté avec une courte narration, une question centrale et des valeurs associées. Ces situations sont conçues pour encourager la réflexion, la narration et la création numérique avec des outils comme Scratch.
 
-Les groupes peuvent tous travailler sur le même dilemme ou se répartir les dilemmes proposés. Dans ce second cas, le partage des différentes histoires et points de vue enrichit la réflexion collective.
+Les groupes peuvent tous travailler sur le même dilemme ou se répartir les dilemmes proposés. Le partage des différentes histoires et points de vue enrichit la réflexion collective.
 
 ### Dilemme 1 : Carla est différente... Et alors ? (Discrimination et courage)
 

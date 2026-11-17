@@ -105,7 +105,7 @@ Ce projet montre aussi qu'on peut faire de la robotique avec un budget minimal :
 
 Les humains s'orientent depuis des millénaires. Leurs outils ont changé, des étoiles à la boussole magnétique et de la carte papier au GPS, mais le besoin reste le même : savoir où l'on est et dans quelle direction aller. Dans cette séquence, les élèves vont construire leur propre outil d'orientation : un robot en carton équipé d'une boussole numérique.
 
-Le « visage » du robot-boussole (la matrice LED de la carte micro:bit) affiche une flèche qui pointe vers le Nord, ce qui permet aux élèves de s'orienter en jouant.
+Le « visage » du robot-boussole (la matrice LED de la carte micro:bit) affiche une flèche qui pointe vers le Nord, ce qui permet aux élèves de s'orienter en jouant. La programmation du robot développe la pensée algorithmique. Le projet a deux objectifs : maîtriser les notions d'orientation spatiale du programme de géographie et découvrir ce que permettent la programmation et les capteurs numériques.
 
 ---
 
@@ -130,7 +130,7 @@ Introduisez ensuite l'étymologie du mot « orientation » : il vient de « orie
 
 Présentez les quatre points cardinaux : Nord, Sud, Est, Ouest. Expliquez leur disposition dans l'ordre horaire (Nord, Est, Sud, Ouest) et faites remarquer que les directions opposées se font face (Nord/Sud, Est/Ouest).
 
-Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l'Est ! ».
+Organisez un jeu dans la classe : identifiez ensemble où se trouve le Nord (si vous avez une boussole, utilisez-la ; sinon, basez-vous sur la position du soleil ou la connaissance du quartier). Placez des affichettes « N », « S », « E », « O » aux quatre coins correspondants de la classe. Demandez ensuite aux élèves de se déplacer : « Allez vers le Nord ! », « Tournez-vous vers l'Est ! ». Ce jeu fait passer les notions par le corps.
 
 Montrez une boussole traditionnelle à la classe. Laissez les élèves l'observer : que voient-ils ? Une aiguille qui bouge, des lettres (N, S, E, O), des graduations... Expliquez que l'aiguille est aimantée et qu'elle pointe toujours vers le Nord magnétique grâce au champ magnétique terrestre.
 
@@ -341,7 +341,7 @@ MakeCode est un environnement de programmation gratuit développé par Microsoft
 
 - Gratuit et en ligne : Aucune installation requise ; fonctionne dans tout navigateur web moderne
 - Utilisable hors ligne : Une application téléchargeable est disponible pour Windows, macOS et Linux
-- Multi-langages : Se programme en blocs, en JavaScript et en Python
+- Multi-langages : Permet de programmer en blocs, en JavaScript et en Python
 - Simulateur inclus : Tester les programmes sans matériel physique
 - Documentation complète : Tutoriels, exemples et ressources enseignants intégrés
 

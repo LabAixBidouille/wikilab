@@ -391,7 +391,7 @@ Bo01 est un quartier de 30 hectares situé dans le Western Harbour de Malmö, co
 
 - **Énergie** : Bo01 est alimenté à 100% par des énergies renouvelables locales : éolien (une éolienne de 2 MW), solaire (1 400 m2 de panneaux) et géothermie. Un réseau de chauffage urbain alimente tous les bâtiments.
 - **Biodiversité** : Un « Green Space Factor » obligatoire pour chaque bâtiment impose un minimum de végétation. Des corridors écologiques relient le quartier aux espaces naturels environnants, avec des toitures végétalisées et des mares écologiques.
-- **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux servent aussi d'espaces de promenade.
+- **Gestion de l'eau** : Un système de canaux ouverts collecte et traite les eaux de pluie de manière naturelle avant leur rejet en mer. Ces canaux créent aussi des espaces de promenade.
 - **Déplacements** : Le quartier est conçu pour favoriser la marche et le vélo. Un réseau de pistes cyclables le relie au centre-ville, et une ligne de bus à haut niveau de service dessert le quartier.
 
 <div style={{display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap'}}>

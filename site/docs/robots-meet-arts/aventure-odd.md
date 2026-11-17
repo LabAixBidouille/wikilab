@@ -127,7 +127,7 @@ Si besoin, désignez des observateurs dans chaque groupe pour veiller à la coop
 
 :::
 
-Une fois les ODD découverts par les élèves, utilisez des activités ludiques pour approfondir leur compréhension.
+Une fois les ODD découverts par les élèves, utilisez des activités ludiques pour approfondir leur compréhension. Le jeu favorise la réflexion critique, la coopération et la résolution de problèmes.
 
 Le contexte des ODD peut sembler pessimiste aux plus jeunes, tant les défis à relever sont nombreux. Une dimension ludique permet aux élèves d'aborder ces enjeux de manière collective et positive.
 
@@ -139,7 +139,7 @@ Proposez des ateliers créatifs et des sessions de jeu en classe pour découvrir
 
   <img src="/img/ressources/robots-meet-arts/aventure-odd/SDG_BoardGame_FR-1000px-1024x724.png" alt="Plateau de jeu Go Goals" style={{maxWidth: '100%', height: 'auto', marginTop: '0.5rem'}} />
 
-- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, sur chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens. https://www.un.org/sustainabledevelopment/sdgbookclub/
+- **SDG Book Club** : le SDG Book Club propose une sélection de livres pour les enfants de 6 à 12 ans, sur chacun des 17 ODD. Lire des histoires du monde entier aide les élèves à se connecter émotionnellement aux enjeux citoyens et développe l'empathie et l'imagination. https://www.un.org/sustainabledevelopment/sdgbookclub/
 - **Frieda** : frieda est un album illustré qui suit une enfant en Namibie, conçu pour simplifier les concepts des ODD pour les plus jeunes. À travers son parcours, les élèves découvrent des thèmes comme la protection de la vie terrestre, l'importance de l'eau et le respect de l'environnement. Les histoires aident les enfants à retenir les valeurs citoyennes et à les intégrer dans leur quotidien. https://issuu.com/unpublications/docs/frieda_2018
 
 #### 2. Explorer d'autres ressources ludiques : L'exemple d'Unplugged Quest
@@ -166,7 +166,7 @@ Une autre manière efficace de « ressentir » les ODD est de transformer la cla
 
 Chaque élève peut choisir son support : matériaux recyclés, peinture, collage, photographie... L'objectif est de produire une œuvre qui symbolise à la fois le défi (le « problème ») et la solution (l'« action positive ») liés à son ODD.
 
-La galerie rend les ODD visibles pour toute la communauté.
+La galerie rend les ODD visibles pour toute la communauté. L'activité développe la sensibilité, le jugement et l'engagement : les élèves apprennent à relier émotions, idées et responsabilité citoyenne.
 
 
 ---
@@ -194,7 +194,7 @@ Présentez aux élèves la consigne générale de cette phase :
 
 #### Imaginer le scénario
 
-L'objectif est que les élèves co-construisent un univers collectif dans lequel le travail de chaque groupe devient un « niveau » d'une grande aventure. Un héros qui voyage à travers le « monde des Objectifs » permet aux enfants de se projeter dans des situations de justice, de durabilité ou de solidarité.
+Partir d'un scénario commun donne de la cohérence et de la motivation à l'ensemble du projet. L'objectif est que les élèves co-construisent un univers collectif dans lequel le travail de chaque groupe devient un « niveau » d'une grande aventure. Ancrer les ODD dans une histoire rend ces objectifs abstraits plus concrets et mémorables. Un héros qui voyage à travers le « monde des Objectifs » permet aux enfants de se projeter dans des situations de justice, de durabilité ou de solidarité.
 
 **Simplifier le parcours** : Le héros n'a pas besoin de traverser les 17 Objectifs. Avec l'aide de l'enseignant·e, la classe peut sélectionner un sous-ensemble d'ODD particulièrement pertinents selon l'âge des élèves, leur contexte ou les projets scolaires en cours (par exemple : ODD 3 : bonne santé et bien-être, ODD 4 : Éducation de qualité, ODD 6 : eau propre et assainissement, ODD 12 : consommation et production responsables, ODD 15 : vie terrestre). Cela rend le scénario plus cohérent et réalisable, tout en conservant la logique collective.
 
@@ -202,7 +202,7 @@ Complétez l'énoncé de mission avec la classe : « Le héros doit voyager à t
 
 > « Il était une fois un·e héros/héroïne nommé·e \_\_\_, animé·e par \_\_\_. Il/Elle tenait à \_\_\_ et défendait toujours \_\_\_. Notre héros/héroïne était connu·e pour des qualités comme \_\_\_ et possédait le pouvoir spécial de \_\_\_. Mais même les héros ont leurs faiblesses, et la sienne était \_\_\_. »
 
-En délimitant le périmètre, les élèves apprennent que l'engagement citoyen ne signifie pas tout résoudre d'un coup, mais commencer par des actions ciblées qui comptent dans leur quotidien.
+En co-créant le scénario et en délimitant le périmètre, les élèves développent un sentiment d'appropriation et de responsabilité. Ils apprennent aussi que l'engagement citoyen ne signifie pas tout résoudre d'un coup, mais commencer par des actions ciblées qui comptent dans leur quotidien.
 
 Une fois le scénario collectif établi, les élèves sont invités à se répartir en petits groupes. Chaque groupe, avec l'aide de l'enseignant·e et en accord avec la classe, peut choisir l'ODD et la partie de l'histoire sur laquelle il souhaite travailler, selon ses centres d'intérêt et sa créativité. Certains voudront peut-être créer une histoire autour de l'eau, d'autres un jeu autour de l'égalité, d'autres encore travailleront sur la protection de la nature. Ce qui compte, c'est que chacun contribue à la même histoire.
 
@@ -275,7 +275,7 @@ Chaque groupe commence par créer les éléments essentiels de son histoire : un
 
 Une fois les bases en place, les élèves peuvent enrichir leur programme en expérimentant les fonctionnalités découvertes dans les Skill Maps : décors et arrière-plans en lien avec l'ODD (ville, forêt, école), effets sonores déclenchés par des actions, bulles de dialogue, chronomètre...
 
-Encouragez les élèves à tester régulièrement leurs programmes, au sein de leur équipe mais aussi avec leurs camarades, pour vérifier la clarté du message et l'interactivité. Ils peuvent ajuster les éléments pas à pas.
+Encouragez les élèves à tester régulièrement leurs programmes, au sein de leur équipe mais aussi avec leurs camarades, pour vérifier la clarté du message et l'interactivité. Ils peuvent ajuster les éléments pas à pas et découvrir ainsi que programmer, c'est avant tout essayer, se tromper et améliorer.
 
 Invitez-les à documenter leurs choix en notant chaque moment de découragement et chaque moment de satisfaction rencontrés au fil de la programmation.
 

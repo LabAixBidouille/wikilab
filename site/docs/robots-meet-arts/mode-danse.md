@@ -170,7 +170,7 @@ Terminez la séance par une discussion collective sur l'expérience vécue. Vous
 
 Orientez la réflexion sur les liens entre programmation et mouvement, en questionnant les élèves sur leurs ressentis dans les deux rôles : créateurs de programme et exécutants. Quelles difficultés ont-ils rencontrées dans chaque rôle ? Comment cette expérience les aide-t-elle à comprendre la relation entre un programmeur et un ordinateur ?
 
-Explorez avec eux les problèmes rencontrés lors du premier tour et comment ils les ont résolus durant les tours suivants. Quelles leçons ont-ils tirées de leurs erreurs initiales ? Quels principes ont-ils découverts par eux-mêmes ?
+Explorez avec eux les problèmes rencontrés lors du premier tour et comment ils les ont résolus durant les tours suivants. Faites le lien avec la programmation, qui procède elle aussi par itérations et améliorations successives. Quelles leçons ont-ils tirées de leurs erreurs initiales ? Quels principes ont-ils découverts par eux-mêmes ?
 
 Demandez-leur également en quoi l'espace a influencé leur façon de programmer et d'exécuter les mouvements. Ont-ils conçu des chorégraphies différentes de celles qu'ils auraient imaginées en classe ? L'amplitude des mouvements était-elle plus grande ?
 
@@ -208,7 +208,7 @@ Afin de conclure l'activité du « Mode Danse », rassemblez les élèves pour u
 
 Amenez les élèves à réfléchir à la façon dont cette approche corporelle transforme leur compréhension de la programmation. Comment le fait de créer leurs propres blocs les a-t-il aidés à comprendre le concept de modularité et de réutilisation du code ?
 
-Montrez-leur comment l'activité rend concrets des concepts abstraits : une boucle devient un mouvement répété, une condition un choix de direction, une séquence une série de pas. Cette approche interdisciplinaire, qui allie technologie et expression corporelle, aide à mémoriser les concepts. Elle contribue aussi au bien-être des élèves, car l'apprentissage y devient une expérience ludique et sans jugement.
+Montrez-leur comment l'activité rend concrets des concepts abstraits : une boucle devient un mouvement répété, une condition un choix de direction, une séquence une série de pas. Cette approche interdisciplinaire, qui allie technologie et expression corporelle, aide à mieux mémoriser les concepts. Elle contribue aussi au bien-être des élèves, car l'apprentissage y devient une expérience ludique et sans jugement.
 
 Discutez des différentes dimensions d'apprentissage :
 

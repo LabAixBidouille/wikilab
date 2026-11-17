@@ -122,7 +122,7 @@ Un premier élève reçoit le dé, le lance, et selon le résultat, poursuit l'h
 - Si le chiffre obtenu est pair, l'élève doit imaginer un événement positif (« Vous découvrez un coffre rempli de trésors »)
 - Si le chiffre est impair, l'élève doit introduire un obstacle ou une difficulté (« Un éboulement bloque soudain l'entrée de la grotte »).
 
-Le dé circule d'élève en élève, et chacun·e ajoute un élément à l'histoire collective en respectant la règle pair/impair. Le récit collectif prend ainsi des rebondissements imprévisibles.
+Le dé circule d'élève en élève, et chacun·e ajoute un élément à l'histoire collective en respectant la règle pair/impair. Le récit collectif connaît ainsi des rebondissements imprévisibles.
 
 Ce jeu introduit la notion de choix conditionnel et fait appel à l'imagination narrative des élèves.
 

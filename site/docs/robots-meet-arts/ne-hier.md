@@ -486,7 +486,7 @@ MakeCode propose trois façons d'écrire le même programme :
 
 Les trois modes sont interconnectés : les modifications dans un mode se reflètent dans les autres. Cela permet une transition progressive de la programmation visuelle vers la programmation textuelle.
 
-**Pour les élèves de 8 à 12 ans, le mode blocs est recommandé** : avec lui, donner des instructions à leur robot semblera aux enfants très logique et naturel.
+**Pour les élèves de 8 à 12 ans, le mode blocs est recommandé** : avec lui, il semblera aux enfants très logique et naturel de donner des instructions à leur robot.
 
 ### Si vous utilisez une carte micro:bit pour la première fois
 

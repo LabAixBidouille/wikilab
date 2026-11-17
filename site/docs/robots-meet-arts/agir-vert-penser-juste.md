@@ -121,7 +121,7 @@ Lorsque toutes les équipes sont prêtes, chaque groupe présente le parcours de
 
 Pendant que le robot se déplace, les élèves du groupe commentent les actions sur lesquelles le robot passe, ce qui leur permet de travailler l'expression orale et de consolider ce qu'ils savent des gestes écologiques.
 
-Si le robot n'atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme.
+Si le robot n'atteint pas la bonne destination, la classe aide le groupe à identifier le problème en donnant des retours sur la programmation. Ensemble, les élèves repèrent les erreurs dans la séquence de mouvements et proposent des améliorations pour simplifier les instructions et raccourcir l'algorithme. Cette entraide favorise un climat de classe bienveillant et collaboratif.
 
 
 ---
@@ -147,7 +147,7 @@ La fresque ou l'infographie comporte deux sections distinctes :
 - **Actions favorables au climat** : recycler, marcher ou faire du vélo au lieu de prendre la voiture, économiser l'eau, planter des arbres, etc.
 - **Actions défavorables au climat** : jeter des déchets par terre, gaspiller l'électricité, utiliser des plastiques à usage unique, polluer l'eau, etc.
 
-Cette représentation visuelle permet de renforcer le vocabulaire et d'encourager la discussion.
+Cette représentation visuelle permet de consolider les apprentissages, de renforcer le vocabulaire et d'encourager la discussion. Les élèves sont fiers de contribuer à un affichage collectif centré sur la durabilité.
 
 Affichez la fresque dans la classe ou dans un couloir de l'école pour partager ce que les élèves ont appris avec le reste de la communauté scolaire. Rangez ensuite le matériel et les robots.
 
