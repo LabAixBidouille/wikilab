@@ -29,7 +29,7 @@ sidebar_position: 15
 
 ## Matériel
 
-- 1 carte programmable "STM32 IoT Node Board"
+- 1 carte programmable « STM32 IoT Node Board »
 - 4 gobelets en plastique léger (de préférence de la même taille)
 - 2 pailles en plastique rigide
 - 1 crayon avec une gomme à une extrémité (ou une tige métallique avec une perle)
@@ -53,14 +53,14 @@ sidebar_position: 15
 ---
 
 :::info
-Depuis l'Antiquité, l'humanité a été fascinée par la puissance invisible du vent. Des moulins à vent néerlandais aux voiliers des Phéniciens, le vent a été domestiqué pour moudre le grain, pomper l'eau et explorer le monde. Plus récemment, l'énergie éolienne est devenue une source d'énergie renouvelable importante. Aujourd'hui, vous allez embarquer dans un voyage à travers l'histoire et la science en explorant comment le vent peut être utilisé pour soulever un poids de 50 g. L'énergie cinétique du vent peut être captée et convertie en énergie électrique grâce à des technologies telles que les éoliennes.
+Depuis l'Antiquité, l'humanité se sert du vent pour moudre le grain, pomper l'eau et explorer le monde, avec par exemple les moulins à vent néerlandais ou les voiliers des Phéniciens. Plus récemment, l'énergie éolienne est devenue une source d'énergie renouvelable importante. Aujourd'hui, en passant par l'histoire et par la science, vous allez chercher comment le vent peut servir à soulever un poids de 50 g. L'énergie cinétique du vent peut être captée et convertie en énergie électrique grâce à des technologies telles que les éoliennes.
 :::
 
 ## Déroulé de l'activité
 
 L'objectif est de construire une machine utilisant le vent (simulé par un ventilateur) pour soulever un poids de 50 g, donc à transformer l'énergie cinétique du vent en énergie mécanique. Cela amène à explorer de petites difficultés d'ingénierie : frottements, rigidité des matériaux, forces de torsion sur un axe, etc.
 
-Ce protocole décrit les étapes à suivre pour construire un système de levage éolien en classe, en utilisant des matériaux courants tels que des bouteilles en plastique, des canettes, des pailles, des moteurs à courant continu, etc. Les étapes comprennent la création de différents types de turbines éoliennes pour capturer l'énergie éolienne, la conception et la construction d'un système pour augmenter le couple et la puissance, et la transformation du mouvement rotatif en mouvement linéaire pour soulever un poids.
+Ce protocole décrit les étapes à suivre pour construire un système de levage éolien en classe, en utilisant des matériaux courants tels que des bouteilles en plastique, des canettes, des pailles, des moteurs à courant continu, etc. Les élèves construisent différents types de turbines éoliennes pour capter l'énergie du vent, conçoivent et construisent un système pour augmenter le couple et la puissance, puis transforment le mouvement rotatif en mouvement linéaire pour soulever un poids.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/machine-vent-poids/DATA15_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -69,17 +69,17 @@ Ce protocole décrit les étapes à suivre pour construire un système de levage
 
 ## Compétences mobilisées
 
-Ce protocole mobilise plusieurs compétences, incluant l'ingénierie, la conception, la résolution de problèmes, et la pensée critique. Les disciplines associées incluent la physique, la mécanique, l'énergie renouvelable, l'aérodynamique, et la conversion de l'énergie.
+Ce protocole mobilise plusieurs compétences, dont l'ingénierie, la conception, la résolution de problèmes et la pensée critique. Les disciplines associées comprennent notamment la physique, la mécanique, l'énergie renouvelable, l'aérodynamique et la conversion de l'énergie.
 
-Les élèves apprendront à construire des turbines éoliennes, à comprendre les principes de l'aérodynamique et de la conversion de l'énergie, à concevoir des mécanismes pour transformer le mouvement rotatif en mouvement linéaire, et à résoudre des problèmes d'ingénierie complexes. Ils acquerront également une compréhension pratique de l'énergie renouvelable et de son rôle dans un avenir durable.
+Les élèves apprendront à construire des turbines éoliennes, à comprendre les principes de l'aérodynamique et de la conversion de l'énergie, à concevoir des mécanismes pour transformer le mouvement rotatif en mouvement linéaire, et à résoudre des problèmes d'ingénierie complexes. Ils acquerront également une compréhension pratique de l'énergie renouvelable.
 
 ## Étape 1 : Découverte du vent et son usage dans l'histoire
 
 ### Orientation
 
-Le vent a joué un rôle crucial dans l'histoire humaine. Il a permis aux explorateurs de naviguer à travers les océans, a alimenté les moulins à vent pour moudre le grain, et aujourd'hui, il fournit de l'énergie propre à travers les éoliennes.
+Le vent a permis aux explorateurs de naviguer à travers les océans, a alimenté les moulins à vent pour moudre le grain, et aujourd'hui, il fournit de l'énergie propre à travers les éoliennes.
 
-Dans la première étape, on s'intéresse spécifiquement au vent et à son usage dans l'histoire. Cette étape doit situer la question de recherche initiale plus largement qu'une simple question technique en conduisant préalablement une recherche historique qui répond à la question **"Quels sont les usages du vent dans l'histoire ?"**
+Dans la première étape, on s'intéresse spécifiquement au vent et à son usage dans l'histoire. Cette étape doit situer la question de recherche initiale plus largement qu'une simple question technique en conduisant préalablement une recherche historique qui répond à la question **« Quels sont les usages du vent dans l'histoire ? »**
 
 ### Conceptualisation
 
@@ -89,7 +89,7 @@ Le vent a été utilisé par les humains de diverses manières tout au long de l
 2. **Moulins à vent** : Le vent a été utilisé pour moudre les grains dans différentes parties du monde, notamment au Moyen-Orient dès le VIIe siècle, et plus tard en Europe.
 3. **Pompage de l'eau** : Les éoliennes ont été utilisées pour pomper l'eau à des fins agricoles.
 4. **Production d'électricité** : Au XXe siècle, le vent a commencé à être utilisé pour générer de l'électricité.
-5. **Technologie de vol** : La compréhension de l'aérodynamique du vent a été cruciale dans le développement de la technologie de vol.
+5. **Technologie de vol** : Le développement de la technologie de vol s'est appuyé sur la compréhension de l'aérodynamique du vent.
 6. **Séchage et ventilation** : Dans de nombreuses cultures, le vent a été utilisé de manière plus passive pour sécher les vêtements, conserver les aliments, et ventiler les habitations.
 7. **Art et musique** : Le vent a également inspiré des instruments de musique comme les carillons éoliens.
 
@@ -105,17 +105,17 @@ Pour structurer l'enquête autour de cette question :
 
 ### Débriefing
 
-Grâce aux étapes précédentes, nous avons pu comprendre l'importance du vent dans l'histoire et comment il a été utilisé pour différentes tâches.
+Les étapes précédentes ont montré comment le vent a été utilisé dans l'histoire pour différentes tâches.
 
 ## Étape 2 : Caractéristiques du vent
 
 ### Orientation
 
-Maintenant que nous avons compris comment le vent a été utilisé dans l'histoire par les humains, on va s'intéresser aux caractéristiques physiques du vent.
+Après avoir vu comment les humains ont utilisé le vent dans l'histoire, on va s'intéresser aux caractéristiques physiques du vent.
 
 ### Conceptualisation
 
-Le vent est un phénomène naturel qui se manifeste par le déplacement des masses d'air à la surface de la Terre. C'est un aspect fondamental de la météorologie et du climat.
+Le vent est un phénomène naturel qui se manifeste par le déplacement des masses d'air à la surface de la Terre. C'est un aspect de la météorologie et du climat.
 
 **Composition et origine :**
 
@@ -130,7 +130,7 @@ Vis-à-vis de notre question de recherche et de l'échelle à laquelle on va tra
 
 ### Investigation
 
-Pour cette enquête, nous allons construire des dispositifs simples pour mesurer la vitesse et la direction du vent.
+Pour cette enquête, on construit des dispositifs simples pour mesurer la vitesse et la direction du vent.
 
 **Mesure de la vitesse du vent : l'anémomètre**
 
@@ -158,17 +158,17 @@ Matériaux : papier cartonné, crayon avec gomme, paille rigide, épingle, colle
 
 ### Débriefing
 
-Comprendre ce qu'est le vent et comment il fonctionne est vital pour de nombreux domaines de la science et de l'ingénierie, en particulier pour répondre aux problèmes de la production d'énergie décarbonée.
+L'anémomètre et la girouette mesurent la vitesse et la direction du vent. Comprendre ce qu'est le vent et comment il fonctionne sert dans de nombreux domaines de la science et de l'ingénierie, en particulier pour la production d'énergie décarbonée.
 
 ## Étape 3 : Capter le vent
 
 ### Orientation
 
-La première étape de notre système de levage éolien doit capter le vent pour le transformer en un mouvement de rotation. La compréhension des systèmes de captation du vent et leurs particularités est importante pour choisir celui qui sera le plus adapté.
+La première étape de notre système de levage éolien doit capter le vent pour le transformer en un mouvement de rotation. Connaître les différents systèmes de captation du vent et leurs particularités aide à choisir le plus adapté.
 
 ### Conceptualisation
 
-La capture et la direction du vent sont au cœur de nombreuses technologies, des voiles de bateaux aux éoliennes modernes :
+Le vent est capté et dirigé dans de nombreuses technologies :
 
 - **Voiles de bateaux** : créent une surface sur laquelle le vent peut exercer une pression.
 - **Moulins à vent et éoliennes** : pales conçues pour capter l'énergie cinétique du vent.
@@ -184,11 +184,11 @@ Les élèves devront construire plusieurs types de système pour choisir collect
 - **Turbine à vent verticale** : axe de rotation vertical, peut capter le vent de n'importe quelle direction.
 - **Turbine à vent de Savonius** : utilise des lames en forme de S.
 - **Turbine à vent de Darrieus** : pales en forme de « V » inversé.
-- **Mini-turbine éolienne** : petite turbine facile à construire, parfaite pour démontrer les principes de base.
+- **Mini-turbine éolienne** : petite turbine facile à construire, qui montre les principes de base.
 
 ### Débriefing
 
-La création des turbines a permis de transformer l'énergie du vent en mouvement mécanique. Les différents types de turbines offrent aux élèves un panel de solutions pour le premier étage du système de levage éolien.
+Les turbines construites transforment l'énergie du vent en mouvement mécanique, et leurs différents types offrent aux élèves un panel de solutions pour le premier étage du système de levage éolien.
 
 ## Étape 4 : Transformer le mouvement
 
@@ -224,7 +224,7 @@ Matériaux : poulies de différents diamètres, corde fine, support, poids de 50
 
 ### Débriefing
 
-En engageant les élèves dans cette tâche, on peut couvrir de nombreux sujets éducatifs tels que la mécanique, l'énergie renouvelable, la physique, l'ingénierie, et la résolution de problèmes.
+Avec cette tâche, on peut aborder notamment la mécanique, l'énergie renouvelable, la physique, l'ingénierie et la résolution de problèmes.
 
 ## Étape 5 : Intégration d'un système de levage
 
@@ -256,13 +256,13 @@ Matériaux : un tambour (bobine ou cylindre), corde fine, arbre (boulon ou tige)
 
 ### Débriefing
 
-La clé de la conversion réussie du mouvement rotatif en mouvement de levage est le choix et la conception corrects du système mécanique, qui dépendent du couple et de la vitesse nécessaires pour lever le poids de 50 g.
+Pour que la conversion du mouvement rotatif en mouvement de levage réussisse, le système mécanique se choisit et se conçoit selon le couple et la vitesse nécessaires pour lever le poids de 50 g.
 
 ## Fiche de programmation : Anémomètre
 
 ### Câblage
 
-Nous utilisons un capteur à effet reed (interrupteur magnétique). Le contact reed est représenté ici comme un bouton-poussoir.
+Le montage utilise un capteur à effet reed (interrupteur magnétique). Le contact reed est représenté ici comme un bouton-poussoir.
 
 La fonction `millis` donne le temps écoulé depuis le lancement du programme, elle sert ici d'horloge.
 

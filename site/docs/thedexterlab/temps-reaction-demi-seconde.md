@@ -50,12 +50,12 @@ sidebar_position: 13
 ---
 
 :::info
-Le temps de réaction est la durée entre le moment où un stimulus est présenté à un individu et le moment où il produit une réponse. Cette mesure est utilisée pour évaluer les performances de la réaction humaine à des stimuli visuels, auditifs ou tactiles. Le temps de réaction peut varier en fonction de plusieurs facteurs, tels que l'âge, l'état de veille, l'attention et la motivation. Le temps de réaction est important pour la sécurité dans les situations qui nécessitent une réponse rapide, telles que la conduite de véhicules, les sports de haut niveau et les activités professionnelles.
+Le temps de réaction est la durée entre le moment où un stimulus est présenté à un individu et le moment où il produit une réponse. Cette mesure est utilisée pour évaluer les performances de la réaction humaine à des stimuli visuels, auditifs ou tactiles. Le temps de réaction peut varier selon plusieurs facteurs (par exemple âge, état de veille, attention, motivation) et il est important pour la sécurité dès qu'il faut réagir vite, comme dans la conduite de véhicules, les sports de haut niveau et les activités professionnelles.
 :::
 
 ## Déroulé de l'activité
 
-Dans ce projet, notre objectif est de réaliser une expérience scientifique pour mesurer notre temps de réaction à un signal sonore ou visuel. Pour cela, nous allons fabriquer un appareil expérimental en connectant différents composants électroniques à une carte programmable et le faire fonctionner par un programme approprié. Ensuite, nous collecterons des données et les analyserons pour mesurer notre temps de réaction dans différents cas.
+Ce projet consiste à réaliser une expérience scientifique pour mesurer son temps de réaction à un signal sonore ou visuel. Pour cela, on fabrique un appareil expérimental en connectant différents composants électroniques à une carte programmable, et on le fait fonctionner avec un programme approprié. On collecte ensuite des données, puis on les analyse pour mesurer le temps de réaction dans différents cas.
 
 Voici les étapes d'expérimentation proposées :
 
@@ -73,7 +73,7 @@ Voici les étapes d'expérimentation proposées :
 
 ## Compétences mobilisées
 
-Grâce à la mise en œuvre de ce projet, les élèves pourront aborder plusieurs thématiques transdisciplinaires incluant :
+Avec ce projet, les élèves peuvent aborder plusieurs thématiques transdisciplinaires, notamment :
 
 - Physique : le temps de réaction, les signaux sonores et visuels, la vitesse de réaction
 - Technologie : la fabrication de dispositifs électroniques, la programmation de cartes programmables
@@ -84,43 +84,43 @@ Grâce à la mise en œuvre de ce projet, les élèves pourront aborder plusieur
 
 ### Orientation
 
-Pour répondre à notre question de recherche, nous devons trouver un moyen de mesurer notre temps de réaction lorsque nous percevons un signal, comme un son ou un flash lumineux. Comment pouvons-nous y parvenir ?
+Pour répondre à la question de recherche, il faut trouver un moyen de mesurer son temps de réaction quand on perçoit un signal, comme un son ou un flash lumineux. Comment y parvenir ?
 
 ### Conceptualisation
 
-Le temps de réaction est le temps écoulé entre l'apparition d'un stimulus externe, comme un son ou un clignement de lumière, et notre réponse spontanée à ce stimulus, telle que bouger, courir ou appuyer sur un bouton. En moyenne, chez l'être humain, il est de l'ordre de 200 à 250 millisecondes, mais il varie selon les conditions, l'âge, le sexe et le type de stimulus.
+Le temps de réaction est le temps écoulé entre l'apparition d'un stimulus externe, comme un son ou un clignement de lumière, et la réponse spontanée à ce stimulus, telle que bouger, courir ou appuyer sur un bouton. En moyenne, chez l'être humain, il est de l'ordre de 200 à 250 millisecondes, mais il varie selon les conditions, l'âge, le sexe et le type de stimulus.
 
-Dans notre cas, nous devons trouver un moyen de produire un signal aléatoire de son ou de lumière, qui sera le stimulus, et qui continuera jusqu'à ce que nous appuyions sur un bouton. Le temps écoulé entre ces deux événements sera notre temps de réaction, que nous enregistrerons à l'aide d'un programme approprié.
+Dans cette expérience, il faut trouver un moyen de produire un signal aléatoire de son ou de lumière, qui sert de stimulus et dure jusqu'à l'appui sur un bouton. Le temps écoulé entre ces deux événements est le temps de réaction, qu'un programme approprié enregistre.
 
-Nous pouvons utiliser une carte programmable telle que l'Arduino, la micro:bit ou la STM32. Nous pouvons connecter un buzzer pour produire un son ou une LED pour un stimulus visuel. Nous devons également connecter un bouton-poussoir ou utiliser l'un des boutons intégrés.
+On peut utiliser une carte programmable comme l'Arduino, la micro:bit ou la STM32, et y connecter un buzzer pour produire un son ou une LED pour un stimulus visuel. Il faut aussi connecter un bouton-poussoir, ou utiliser l'un des boutons intégrés.
 
 ### Investigation
 
-Nous commençons par nous familiariser avec notre ensemble d'appareils électroniques, tels que la carte, les fils, les résistances, la breadboard, les LED et le buzzer. Pour créer un circuit correct, nous devons d'abord identifier chaque composant. Ensuite, nous devons les connecter correctement.
+Commencer par se familiariser avec le matériel électronique, comme la carte, les fils, les résistances, la breadboard, les LED et le buzzer. Pour créer un circuit correct, identifier d'abord chaque composant, puis connecter les composants correctement.
 
-Si le circuit est correct, nous avons notre dispositif expérimental prêt à être contrôlé par un programme. Lorsque le programme s'exécute, il émet un signal aléatoire qui allume la LED (dans le cas où nous voulons mesurer notre réaction à un stimulus visuel) ou le buzzer (dans le cas où nous voulons mesurer notre temps de réaction à un stimulus audio). Ensuite, lorsque nous appuyons sur le bouton, la LED ou le buzzer s'éteint. Le temps écoulé est enregistré par le programme dans une variable qui est imprimée à l'écran.
+Si le circuit est correct, le dispositif expérimental est prêt à être contrôlé par un programme. Lorsque le programme s'exécute, il émet un signal aléatoire qui allume la LED (pour mesurer la réaction à un stimulus visuel) ou le buzzer (pour mesurer le temps de réaction à un stimulus audio). Un appui sur le bouton éteint ensuite la LED ou le buzzer. Le programme enregistre le temps écoulé dans une variable affichée à l'écran.
 
 Afin de programmer votre carte et votre expérimentation, vous pouvez réaliser les deux circuits sur deux cartes distinctes : l'une pour les stimuli visuels (LED) et l'autre pour les stimuli sonores (buzzer).
 
 ### Débriefing
 
-Dans cette phase, nous avons appris à collecter des données en mesurant notre temps de réaction à un stimulus sonore ou visuel à l'aide d'un appareil expérimental que nous avons construit. Nous avons également appris à programmer le dispositif expérimental à l'aide d'une carte programmable pour produire un signal aléatoire de son ou de lumière et à enregistrer le temps de réaction.
+Dans cette phase, les élèves ont appris à collecter des données en mesurant leur temps de réaction à un stimulus sonore ou visuel avec un appareil expérimental qu'ils ont construit. Ils ont aussi appris à programmer ce dispositif à l'aide d'une carte programmable pour produire un signal aléatoire de son ou de lumière, et à enregistrer le temps de réaction.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-Considérons le cas où nous n'avons que la carte, par exemple la carte STM32, et que nous voulons l'utiliser de manière autonome pour plus de flexibilité. Comment pourrions-nous afficher nos valeurs mesurées ?
+Si l'on n'a que la carte, par exemple la carte STM32, et qu'on veut l'utiliser de manière autonome pour plus de flexibilité, comment afficher les valeurs mesurées ?
 
 ### Conceptualisation
 
-Une carte fournit une unité de traitement et un espace mémoire pour stocker et exécuter un programme. Elle peut également fournir des LED, des boutons et des capteurs intégrés pour mesurer divers paramètres. De plus, elle fournit des interfaces pour se connecter et communiquer avec d'autres appareils. Dans ce cas particulier, nous devons connecter et utiliser un petit écran pour afficher en texte les valeurs de nos mesures.
+Une carte contient une unité de traitement et un espace mémoire pour stocker et exécuter un programme, ainsi que des interfaces pour se connecter et communiquer avec d'autres appareils. Elle peut aussi porter des LED, des boutons et des capteurs intégrés pour mesurer divers paramètres. Ici, il faut connecter et utiliser un petit écran pour afficher en texte les valeurs des mesures.
 
 ### Investigation
 
-Dans cette étape, nous souhaitons utiliser le petit écran et afficher les valeurs de nos mesures en texte. De cette façon, nous disposons d'un appareil très portable pour nos recherches.
+Dans cette étape, utiliser le petit écran pour afficher en texte les valeurs des mesures. L'appareil devient ainsi très portable pour les recherches.
 
-Ensuite, nous créons une feuille de calcul ou un tableau des mesures divisé en deux colonnes. La première colonne représente le temps de réaction au signal sonore, tandis que la deuxième colonne représente le temps mesuré pour la réaction au signal LED. Nous prenons plusieurs mesures pour chaque cas. Nous pouvons répéter cette opération pour différents cas afin de comparer les résultats, par exemple en effectuant la même enquête le matin, l'après-midi ou le soir, ou avec des amis ou des parents de sexe et d'âge différents.
+Créer ensuite une feuille de calcul ou un tableau des mesures en deux colonnes : la première contient le temps de réaction au signal sonore, la deuxième le temps de réaction au signal LED. Prendre plusieurs mesures pour chaque cas. On peut répéter l'opération pour différents cas afin de comparer les résultats, par exemple en menant la même enquête le matin, l'après-midi ou le soir, ou avec des amis ou des parents de sexe et d'âge différents.
 
 | Condition (individu, âge, moment...) | Temps de réaction - signal sonore (buzzer) | Temps de réaction - stimulus visuel (LED) |
 |---|---|---|
@@ -129,7 +129,7 @@ Ensuite, nous créons une feuille de calcul ou un tableau des mesures divisé en
 
 ### Débriefing
 
-Dans cette phase, nous avons réalisé les actions suivantes :
+Dans cette phase, les élèves ont réalisé les actions suivantes :
 
 - Comprendre les éléments de base et les fonctionnalités d'une carte.
 - Se familiariser avec la connexion et l'utilisation de périphériques externes pour réaliser des expériences.
@@ -139,19 +139,19 @@ Dans cette phase, nous avons réalisé les actions suivantes :
 
 ### Orientation
 
-Dans l'étape précédente, nous avons rempli notre feuille de calcul ou nos tableaux de mesures. En les utilisant, nous voulons apprendre le temps de réaction au son ou à la lumière dans chaque cas, et ainsi répondre à notre question initiale.
+La feuille de calcul ou les tableaux de mesures ont été remplis à l'étape précédente. Il s'agit maintenant de s'en servir pour connaître le temps de réaction au son ou à la lumière dans chaque cas, et répondre ainsi à la question initiale.
 
 ### Conceptualisation
 
-Nous avons collecté nos données à l'aide de notre appareil et nous devons maintenant les analyser pour en extraire des informations pertinentes. Dans cette étape, nous introduisons le concept de moyenne ou de valeur moyenne à partir des statistiques de base. En général, lors d'enquêtes et d'expériences scientifiques, nous effectuons plusieurs mesures, puis nous concluons à une valeur finale en calculant la moyenne.
+Il reste à analyser les données collectées avec l'appareil pour en extraire des informations pertinentes. Cette étape introduit le concept de moyenne, ou valeur moyenne, issu des statistiques de base. Lors d'enquêtes et d'expériences scientifiques, on effectue en général plusieurs mesures, puis on conclut à une valeur finale en calculant la moyenne.
 
 ### Investigation
 
-Nous parcourons notre tableau de données de mesures enregistrées et calculons le temps de réaction correspondant à chaque colonne de mesures. Nous pouvons utiliser un tableur numérique comme Excel ou Open/Libre Office. À la fin, nous calculons la moyenne et l'exprimons en secondes et en millisecondes. Pour déterminer si d'autres conditions ont une incidence sur les résultats obtenus, nous pouvons répéter notre série de mesures dans des conditions différentes (voir aussi le projet "La distraction peut-elle modifier votre temps de réaction ?").
+Parcourir le tableau des mesures enregistrées et calculer le temps de réaction correspondant à chaque colonne de mesures. On peut utiliser un tableur numérique comme Excel ou Open/Libre Office. Calculer enfin la moyenne et l'exprimer en secondes et en millisecondes. Pour savoir si d'autres conditions ont une incidence sur les résultats obtenus, on peut répéter la série de mesures dans des conditions différentes (voir aussi le projet "La distraction peut-elle modifier votre temps de réaction ?").
 
 ### Débriefing
 
-Au cours de cette phase, nous avons effectué les étapes suivantes :
+Au cours de cette phase, les élèves ont effectué les étapes suivantes :
 
 - Collecter des données pour différents cas (par exemple avec des personnes d'âge et de sexe différents).
 - Enregistrer les données dans une feuille de calcul

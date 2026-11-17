@@ -54,16 +54,14 @@ sidebar_position: 18
 ---
 
 :::info
-Les plantes aquatiques jouent un rôle important dans la régulation des niveaux de CO2. Elles utilisent la photosynthèse pour convertir le CO2 en matière végétale et en oxygène. Les plantes aquatiques, telles que les algues et les herbiers, peuvent être particulièrement efficaces pour absorber le CO2, car elles ont un accès constant à de l'eau et des nutriments. En plus de leur capacité à "emprisonner" du CO2, les plantes aquatiques peuvent également contribuer à la purification de l'eau en éliminant les contaminants.
+Les plantes aquatiques jouent un rôle important dans la régulation des niveaux de CO2 : par la photosynthèse, elles convertissent le CO2 en matière végétale et en oxygène. Les plantes aquatiques, telles que les algues et les herbiers, peuvent être particulièrement efficaces pour absorber le CO2, car elles ont un accès constant à de l'eau et des nutriments. En plus de leur capacité à "emprisonner" du CO2, les plantes aquatiques peuvent également contribuer à la purification de l'eau en éliminant les contaminants.
 :::
 
 ## Déroulé de l'activité
 
 **Observation de l'impact des paramètres chimiques sur un écosystème fermé.**
 
-Ce protocole de recherche scientifique détaille les différentes étapes à suivre pour mesurer la consommation de CO2 par les plantes aquatiques en utilisant le pH comme paramètre. La collecte de données est primordiale pour comprendre comment mesurer indirectement la consommation de CO2 par les plantes en utilisant le pH. La conceptualisation permet de mieux comprendre les propriétés du CO2 et du pH, ainsi que le fonctionnement de la sonde pH. L'investigation implique la mise en place d'un dispositif expérimental pour mesurer la variation du pH en fonction du CO2 présent dans l'eau, avec l'utilisation d'un aquarium, d'une carte programmable, d'une lampe UV, d'une bouteille de CO2 et d'un capteur de pH.
-
-L'objectif ultime de ce protocole est de mieux comprendre comment les plantes aquatiques consomment le CO2, et comment cette consommation peut être mesurée indirectement en utilisant le pH.
+Ce protocole de recherche scientifique détaille les étapes à suivre pour comprendre comment les plantes aquatiques consomment le CO2, et pour mesurer cette consommation de façon indirecte, par le pH. La collecte de données est indispensable pour comprendre comment faire cette mesure indirecte. La conceptualisation présente les propriétés du CO2 et du pH, et le fonctionnement de la sonde pH. L'investigation passe par le montage d'un dispositif qui mesure la variation du pH en fonction du CO2 présent dans l'eau, avec un aquarium, une carte programmable, une lampe UV, une bouteille de CO2 et un capteur de pH.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/co2-plantes-ph/DATA18_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -74,10 +72,10 @@ L'objectif ultime de ce protocole est de mieux comprendre comment les plantes aq
 
 Ce protocole mobilise plusieurs compétences :
 
-- La collecte de données expérimentales, y compris la conception et la mise en place de l'expérience, ainsi que la mesure des variables pertinentes à l'aide d'instruments de mesure appropriés.
-- L'analyse des données, y compris la représentation graphique des résultats, la mise en évidence de tendances et de corrélations, et l'extraction d'informations utiles.
-- La conceptualisation, c'est-à-dire la compréhension des concepts scientifiques sous-jacents, tels que le CO2, le pH et la photosynthèse.
-- La communication scientifique, y compris la capacité à rédiger des rapports scientifiques clairs et précis, à présenter des résultats de manière visuelle et compréhensible.
+- Collecter des données expérimentales, notamment en concevant et en montant l'expérience, et en mesurant les variables pertinentes avec des instruments de mesure appropriés.
+- Analyser les données, notamment en représentant les résultats sur un graphique, en repérant des tendances et des corrélations, et en tirant des informations utiles.
+- Conceptualiser, c'est-à-dire comprendre les concepts scientifiques sous-jacents, comme le CO2, le pH et la photosynthèse.
+- Communiquer des résultats scientifiques, notamment en rédigeant des rapports clairs et précis, et en les présentant de manière visuelle et compréhensible.
 
 Les disciplines associées à ce protocole incluent la biologie, la chimie, la physique et les mathématiques, ainsi que la communication scientifique et l'analyse des données.
 
@@ -85,9 +83,9 @@ Les disciplines associées à ce protocole incluent la biologie, la chimie, la p
 
 ### Orientation
 
-Comment mesurer la consommation de CO2 par les plantes ? Pour pouvoir répondre à cette question il faut mesurer la quantité de CO2 dans un milieu défini (dans l'eau par exemple), mais cette mesure reste assez complexe et les instruments de mesure sont particulièrement onéreux. Afin de mener notre enquête, nous allons devoir faire preuve d'ingéniosité, et faire une mesure indirecte du CO2. Un paramètre facilement mesurable et qui est impacté par de nombreux autres est le pH.
+Comment mesurer la consommation de CO2 par les plantes ? Pour y répondre, il faut mesurer la quantité de CO2 dans un milieu défini (dans l'eau par exemple), mais cette mesure reste assez complexe et les instruments de mesure sont particulièrement onéreux. Pour mener l'enquête, on va devoir faire preuve d'ingéniosité et mesurer le CO2 de façon indirecte. Le pH est un paramètre facile à mesurer, qui dépend de nombreux autres.
 
-Maintenant que nous savons dans quelle direction chercher, mettons en place notre expérimentation. Tout d'abord il nous faudra un aquarium. En contrôlant l'apport de CO2, nous pourrons faire nos mesures à l'aide d'une sonde pH afin de comprendre son évolution durant la journée.
+Il faut d'abord un aquarium. En contrôlant l'apport de CO2, on pourra faire les mesures à l'aide d'une sonde pH afin de comprendre son évolution durant la journée.
 
 L'hypothèse à formuler par les élèves pourrait être l'une des suivantes :
 
@@ -112,17 +110,17 @@ La sonde pH, en simplifiant, est composée de deux tubes imbriqués l'un dans l'
 
 ### Investigation
 
-Dans un premier temps, familiarisons-nous avec les différents éléments mis à notre disposition.
+Commencer par se familiariser avec les éléments mis à disposition.
 
-L'aquarium est l'élément principal de notre expérience. En le remplissant d'eau (de préférence d'eau déminéralisée) et en y plaçant des plantes aquatiques, nous obtenons notre sujet d'expérimentation.
+L'aquarium est l'élément principal de l'expérience. En le remplissant d'eau (de préférence d'eau déminéralisée) et en y plaçant des plantes aquatiques, on obtient le sujet d'expérimentation.
 
 La carte programmable est le cerveau de l'enquête. C'est elle qui contrôle les paramètres comme la température et la lumière en agissant sur les relais. C'est elle aussi qui s'occupera de lire les capteurs à intervalle régulier pour produire les données à analyser.
 
-Une lampe UV placée au-dessus de notre aquarium jouera le rôle du soleil et nous permettra de simuler le cycle jour/nuit.
+Une lampe UV placée au-dessus de l'aquarium jouera le rôle du soleil et simulera le cycle jour/nuit.
 
-La bouteille de CO2, équipée de sa valve (solénoïde), permettra le contrôle d'apport de CO2 dans notre bac d'eau.
+La bouteille de CO2, équipée de sa valve (solénoïde), sert à contrôler l'apport de CO2 dans le bac d'eau.
 
-Le capteur de pH fera les mesures nous permettant de déduire la concentration de CO2.
+Le capteur de pH fera les mesures dont on déduira la concentration de CO2.
 
 Le capteur de lumière mesure la quantité de lumière à laquelle les plantes sont exposées durant l'expérimentation.
 
@@ -132,17 +130,17 @@ Une fois les branchements faits, l'expérimentation peut être démarrée. En ap
 
 ### Débriefing
 
-À travers la mise en place de l'expérimentation, il a été découvert comment isoler la variable à étudier pour mesurer une grandeur physique de manière indirecte. Le contrôle de la lumière et de l'apport de CO2, ainsi que l'utilisation d'eau pure (déminéralisée), assure que les variations de pH ne sont dues qu'à la variation de CO2. La reproduction de l'expérience par plusieurs élèves avec des conditions initiales différentes montrera la répétabilité de l'expérience.
+En montant l'expérience, on a découvert comment isoler la variable à étudier pour mesurer une grandeur physique de manière indirecte. Comme la lumière et l'apport de CO2 sont contrôlés et que l'eau est pure (déminéralisée), les variations de pH ne sont dues qu'à celles du CO2. La reproduction de l'expérience par plusieurs élèves avec des conditions initiales différentes montrera la répétabilité de l'expérience.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-L'étape précédente a permis de créer un système de mesure simple permettant de mesurer la variation du pH en fonction du CO2 présent dans l'eau. À présent, nous allons déterminer comment le CO2 (ou pH) évolue suivant le cycle de vie des plantes aquatiques. À partir de ces données, il devrait être possible de faire apparaître une approximation de la consommation et/ou production de CO2 des plantes, et son impact sur le pH.
+À l'étape précédente, on a construit un système simple qui mesure la variation du pH en fonction du CO2 présent dans l'eau. On va maintenant déterminer comment le CO2 (ou pH) évolue suivant le cycle de vie des plantes aquatiques. À partir de ces données, il devrait être possible de faire apparaître une approximation de la consommation et/ou production de CO2 des plantes, et son impact sur le pH.
 
 ### Conceptualisation
 
-La carte électronique utilisée pour l'expérience est dotée d'interfaces lui permettant de communiquer avec d'autres appareils. En utilisant cette capacité, les données de l'expérience vont être récupérées en vue d'une exploitation ultérieure.
+La carte électronique utilisée pour l'expérience a des interfaces pour communiquer avec d'autres appareils. On s'en sert pour récupérer les données de l'expérience et les exploiter ensuite.
 
 Il y a deux manières de récupérer les données issues des capteurs : l'affichage sur l'écran LCD pour faire des relevés manuels, ou la communication "série" entre la carte programmable et l'ordinateur, plus automatisée.
 
@@ -177,11 +175,11 @@ Grâce aux étapes précédentes, il est possible de connaître l'impact sur le 
 
 Pour valider l'hypothèse, les données doivent être mises en forme de telle sorte à rendre visible le lien entre les grandeurs physiques de l'expérience. N'ayant que deux données, en plus du temps, la manière la plus directe de visualiser les données est d'utiliser un nuage de points utilisant le temps depuis le début de l'opération en abscisse, la luminosité et le pH en ordonnée (avec deux couleurs différentes).
 
-Une fois le graphique tracé, le tracé de deux droites de régression (même approximatives) pour la période de "jour" et un autre pour la période de "nuit" permettra de faire apparaître une première approximation de la loi qui relie la consommation de CO2 et le pH.
+Une fois le graphique tracé, on trace deux droites de régression (même approximatives), l'une pour la période de "jour" et l'autre pour la période de "nuit". Elles donneront une première approximation de la loi qui relie la consommation de CO2 et le pH.
 
 ### Investigation
 
-La nature des données représentant une évolution au cours du temps, nous pouvons utiliser une représentation graphique, ce qui peut être fait dans un tableur (Excel, LibreOffice Calc, Google Sheet, …).
+Comme les données représentent une évolution au cours du temps, on peut en faire une représentation graphique dans un tableur (Excel, LibreOffice Calc, Google Sheet...).
 
 Sur la représentation graphique, en choisissant la bonne échelle, il est possible de valider/invalider directement l'hypothèse de départ.
 
@@ -193,7 +191,7 @@ Quelles sont les améliorations à apporter au protocole pour améliorer la qual
 
 ### Débriefing
 
-Durant l'analyse des données, la représentation visuelle a permis de mettre en évidence la validation/invalidation de l'hypothèse de départ. Au-delà de l'hypothèse, l'analyse des données permet d'extrapoler une première approximation de la loi sous-jacente. Le partage d'information avec d'autres enquêteurs permet de savoir si les résultats sont valides et les conclusions comparables. Ce partage et la comparaison des données issues d'expériences reproductibles est l'un des fondements qui permet de s'assurer qu'un résultat est bien valide peu importe l'expérimentateur.
+Pendant l'analyse des données, le graphique a montré si l'hypothèse de départ était validée ou invalidée. Au-delà de l'hypothèse, on peut extrapoler, à partir des données, une première approximation de la loi sous-jacente. Partager les informations avec d'autres enquêteurs indique si les résultats sont valides et les conclusions comparables. Ce partage et la comparaison des données issues d'expériences reproductibles sont l'un des fondements qui permettent de vérifier qu'un résultat est valide quel que soit l'expérimentateur.
 
 ---
 

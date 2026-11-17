@@ -53,23 +53,19 @@ sidebar_position: 17
 ---
 
 :::info
-L'Intelligence Artificielle (IA) représente un domaine passionnant de la technologie qui vise à créer des machines capables d'imiter l'intelligence humaine. L'un des concepts clés de l'IA est l'apprentissage automatique (Machine Learning), qui est une technique permettant aux machines d'apprendre et de s'adapter à partir de données et d'expériences.
+L'intelligence artificielle (IA) est un domaine de la technologie qui cherche à créer des machines capables d'imiter l'intelligence humaine. Elle s'appuie notamment sur l'apprentissage automatique (machine learning), une technique qui permet aux machines d'apprendre et de s'adapter à partir de données et d'expériences.
 
-Dans ce protocole, nous allons explorer deux outils particuliers liés à l'IA et à l'apprentissage automatique :
+Le protocole utilise deux outils liés à l'IA et à l'apprentissage automatique :
 
 1. **Teachable Machine** : une plateforme en ligne qui permet à quiconque de créer des modèles d'apprentissage automatique sans avoir besoin de compétences en codage. Elle sera utilisée pour entraîner un modèle de reconnaissance d'image afin de reconnaître un dessin spécifique.
 2. **Adacraft** : un outil qui permet de programmer et de contrôler des appareils électroniques tels que des serrures électroniques, des moteurs, etc. Il sera utilisé pour intégrer le modèle IA et implémenter le système de serrure.
-
-Le projet implique la création d'un système de sécurité pour une maison qui utilise l'IA pour reconnaître un dessin à la main préalablement défini comme clé d'une serrure électronique.
 :::
 
 ## Déroulé de l'activité
 
-Le projet consiste à créer un système de sécurité pour une maison qui utilise l'Intelligence Artificielle (IA) pour reconnaître un dessin à la main préalablement défini comme clé d'une serrure électronique. Les élèves utiliseront Teachable Machine pour former un modèle de reconnaissance d'image et Adacraft pour implémenter la serrure électronique.
+Le projet consiste à créer un système de sécurité pour une maison qui utilise l'intelligence artificielle (IA) pour reconnaître un dessin à la main préalablement défini comme clé d'une serrure électronique. Les élèves utiliseront Teachable Machine pour entraîner un modèle de reconnaissance d'image et Adacraft pour implémenter la serrure électronique.
 
-La question de la fiabilité des dispositifs est importante quand on parle de sécurité.
-
-Peut-on s'assurer qu'un tel système sera fiable assez pour qu'on puisse lui faire confiance ?
+Peut-on s'assurer qu'un tel système sera assez fiable pour qu'on puisse lui faire confiance ?
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/ia-securite/DATA17_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -82,7 +78,7 @@ Peut-on s'assurer qu'un tel système sera fiable assez pour qu'on puisse lui fai
 2. **Compétences en programmation et technologie** : utilisation d'outils comme Teachable Machine et Adacraft pour programmer et construire des systèmes.
 3. **Collaboration et communication** : travailler en équipe, partager des idées et présenter des conclusions.
 4. **Compréhension des concepts mathématiques et scientifiques** : appliquer les principes de la physique, des mathématiques et de la technologie dans la conception.
-5. **Créativité et innovation** : concevoir des solutions créatives et innovantes à des défis technologiques.
+5. **Créativité et innovation** : concevoir des solutions à des défis technologiques.
 6. **Citoyenneté numérique** : réfléchir aux implications sociales, éthiques et de sécurité de l'utilisation de la technologie.
 
 ## Étape 1 : Comprendre la serrure électronique
@@ -96,7 +92,7 @@ Questions à explorer :
 - Comment l'IA peut-elle être utilisée pour améliorer les systèmes de sécurité ?
 - Quels sont les avantages et inconvénients des serrures électroniques ?
 
-Dans notre système, pour des raisons réglementaires, nous utiliserons des dessins à la place des visages. Ce choix est aussi une bonne opportunité pour faire réfléchir à l'importance des données biométriques dans une société démocratique numérique.
+Dans notre système, pour des raisons réglementaires, nous utiliserons des dessins à la place des visages. Ce choix est aussi l'occasion de faire réfléchir à l'importance des données biométriques dans une société démocratique numérique.
 
 ### Conceptualisation
 
@@ -113,7 +109,7 @@ Une serrure électronique est un mécanisme de verrouillage qui utilise l'élect
 
 **IA et sécurité**
 
-L'intelligence artificielle a révolutionné de nombreux domaines, et le secteur de la sécurité n'est pas en reste. Des algorithmes d'apprentissage automatique peuvent être formés pour reconnaître des visages, des empreintes digitales ou d'autres marqueurs biométriques. Toutefois, l'IA n'est pas infaillible : elle peut parfois donner des faux positifs ou être trompée de diverses manières. Les questions de vie privée et de discrimination (biais dans les algorithmes) doivent être adressées.
+Dans le domaine de la sécurité, des algorithmes d'apprentissage automatique peuvent être entraînés à reconnaître des visages, des empreintes digitales ou d'autres marqueurs biométriques. Toutefois, l'IA n'est pas infaillible : elle peut parfois donner des faux positifs ou être trompée de diverses manières. Les questions de vie privée et de discrimination (biais dans les algorithmes) doivent être traitées.
 
 ### Investigation
 
@@ -134,22 +130,22 @@ Enfin, expérimentation :
 
 ### Débriefing
 
-Cette étape offre une opportunité pratique pour les élèves d'apprendre les bases de l'électronique et de la programmation, tout en mettant en œuvre une application réelle de la technologie. Si les élèves ne sont pas encore capables de comprendre l'électronique de contrôle du solénoïde, il est possible de simuler la serrure avec un simple servomoteur qui actionnera un loquet.
+Cette étape permet aux élèves d'apprendre par la pratique les bases de l'électronique et de la programmation en réalisant une application réelle de la technologie : la serrure électronique. Si les élèves ne sont pas encore capables de comprendre l'électronique de contrôle du solénoïde, il est possible de simuler la serrure avec un simple servomoteur qui actionnera un loquet.
 
 ## Étape 2 : Création et entraînement du modèle IA avec Teachable Machine
 
 ### Orientation
 
-Nous allons nous intéresser à ce que l'IA peut apporter à notre système et donc plus particulièrement à la reconnaissance d'image et à l'apprentissage automatique.
+Cette étape porte sur ce que l'IA peut apporter au système, en particulier la reconnaissance d'image et l'apprentissage automatique.
 
 Questions :
 
 - Quels sont les principes de base de la reconnaissance d'image par IA ?
-- Comment peut-on créer et former un modèle pour reconnaître un dessin spécifique ?
+- Comment peut-on créer et entraîner un modèle pour reconnaître un dessin spécifique ?
 
 ### Conceptualisation
 
-La reconnaissance d'image par intelligence artificielle est une branche du domaine plus large du machine learning. Le but est d'enseigner aux machines à "voir" et à interpréter des images et des vidéos.
+La reconnaissance d'image par intelligence artificielle est une branche de l'apprentissage automatique. Le but est d'enseigner aux machines à "voir" et à interpréter des images et des vidéos.
 
 **Types de tâches en reconnaissance d'image :**
 
@@ -184,13 +180,13 @@ Tâches avec Teachable Machine :
     - Exportez le modèle (format TensorFlow.js conseillé)
 3. **Intégration dans le système de la serrure** : utiliser le modèle pour activer le mécanisme de déverrouillage quand le dessin "clé" est reconnu.
 
-La recherche d'une meilleure précision par les élèves est une première opportunité de découvrir les limites de l'IA en montrant des exemples de surapprentissage.
+Chercher une meilleure précision est pour les élèves une première occasion de découvrir les limites de l'IA, à travers des exemples de surapprentissage.
 
 ### Débriefing
 
-L'exercice d'intégrer une IA dans un système de serrure électronique a été à la fois éducatif et innovant. Les élèves ont pu :
+Les élèves ont pu :
 
-- Se familiariser avec les concepts fondamentaux du machine learning
+- Se familiariser avec les notions de base de l'apprentissage automatique
 - Comprendre comment les techniques d'IA sont actuellement appliquées dans le domaine de la sécurité
 - Faire face à des défis liés à l'intégration du modèle d'IA dans un système réel
 - Découvrir des scénarios où l'IA pourrait échouer
@@ -243,13 +239,13 @@ Questions :
 
 ### Débriefing
 
-Ce projet illustre non seulement l'application de l'IA dans la vie quotidienne, mais il est également une excellente opportunité éducative pour les élèves d'apprendre une gamme de compétences en STEM.
+Ce projet montre une application de l'IA dans la vie quotidienne, et il permet aux élèves d'apprendre plusieurs compétences en sciences, technologie, ingénierie et mathématiques (STEM).
 
 ## Étape 4 : Évaluation des limites et cas anormaux
 
 ### Orientation
 
-Quand on parle d'IA ou de Machine Learning, il est important de bien cerner les limites de ces systèmes pour sortir du fantasme de la machine intelligente. Les IA sont une construction humaine et, si on ne fait pas attention, elles peuvent intégrer des biais ou des erreurs liées à leur concepteur.
+Quand on parle d'IA ou d'apprentissage automatique, il faut bien cerner les limites de ces systèmes pour sortir du fantasme de la machine intelligente. Les IA sont une construction humaine et, si on ne fait pas attention, elles peuvent intégrer des biais ou des erreurs liées à leur concepteur.
 
 Questions :
 
@@ -262,7 +258,7 @@ Questions :
 
 1. **Fausses reconnaissances (faux positifs)** : le modèle IA pourrait mal interpréter un dessin autre que la "clé" comme étant correct.
 2. **Non-reconnaissance (faux négatifs)** : le modèle pourrait échouer à reconnaître le dessin correct si légèrement différent.
-3. **Surapprentissage (overfitting)** : si le modèle a été formé avec un ensemble de données trop limité, il pourrait échouer à généraliser.
+3. **Surapprentissage (overfitting)** : si le modèle a été entraîné avec un ensemble de données trop limité, il pourrait échouer à généraliser.
 4. **Vulnérabilité aux attaques adversariales** : des attaquants pourraient manipuler le dessin d'une manière qui trompe spécifiquement le modèle.
 5. **Mauvaise interprétabilité** : nature "boîte noire" des modèles d'IA.
 6. **Dérive des données (drift)** : changements dans l'environnement pouvant entraîner un décalage par rapport au modèle initial.
@@ -284,7 +280,7 @@ Recherche documentaire et réflexion sur les limites de l'IA :
 
 ### Débriefing
 
-Ce protocole détaillé offre une exploration approfondie de la technologie moderne, de la programmation, de la reconnaissance d'image et de l'éthique dans la technologie. Il encourage également une réflexion critique sur la conception et l'implémentation de systèmes sécurisés.
+Le protocole aborde la programmation, la reconnaissance d'image et l'éthique de la technologie. Il invite aussi à une réflexion critique sur la conception et l'implémentation de systèmes sécurisés.
 
 ---
 

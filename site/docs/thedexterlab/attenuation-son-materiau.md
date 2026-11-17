@@ -46,18 +46,18 @@ sidebar_position: 19
 ---
 
 :::info
-L'atténuation du son désigne la réduction de l'intensité ou de la force du son. Il s'agit du processus de diminution de la force des ondes sonores lorsqu'elles se déplacent dans un milieu ou traversent une barrière. On peut y parvenir par différents moyens, comme l'absorption de l'énergie sonore, sa réflexion ou sa dispersion. L'atténuation du son est importante dans de nombreuses applications, notamment pour réduire la pollution sonore dans les zones urbaines, améliorer l'acoustique des salles de concert et des studios d'enregistrement, et minimiser l'impact du bruit industriel sur les communautés voisines.
+L'atténuation du son désigne la réduction de l'intensité ou de la force des ondes sonores lorsqu'elles se déplacent dans un milieu ou traversent une barrière. On peut y parvenir par différents moyens, comme l'absorption de l'énergie sonore, sa réflexion ou sa dispersion. L'atténuation du son sert notamment à réduire la pollution sonore dans les zones urbaines, à améliorer l'acoustique des salles de concert et des studios d'enregistrement, et à minimiser l'impact du bruit industriel sur les communautés voisines.
 :::
 
 ## Déroulé de l'activité
 
-Il est courant de parler d'isolation dans le contexte de la conservation d'énergie. Par exemple, pour rendre nos habitations moins consommatrices en énergie ou pour conserver notre bouteille d'eau fraîche lors des chaudes journées d'été.
+On parle souvent d'isolation pour conserver l'énergie, par exemple pour rendre une habitation moins consommatrice ou garder une bouteille d'eau fraîche lors des chaudes journées d'été.
 
 Il est aussi possible d'isoler phoniquement, pour réduire l'intensité des bruits extérieurs. Comment mesure-t-on un "bruit" ou son atténuation ? La forme de la matière isolante a-t-elle un impact ? Quelles sont les matières isolantes ?
 
-Cette activité a pour but d'essayer différentes matières (bois, métal, mousse, …) et de déterminer laquelle est la plus isolante, mais aussi de comprendre la mesure du bruit et l'échelle "décibel".
+Cette activité a pour but d'essayer différentes matières (bois, métal, mousse, ...) et de déterminer laquelle est la plus isolante, mais aussi de comprendre la mesure du bruit et l'échelle "décibel".
 
-Ce protocole décrit une expérience scientifique visant à mesurer le pouvoir d'isolation phonique de différents matériaux. La collecte de données se fait en utilisant un microphone pour mesurer l'intensité du son à l'intérieur et à l'extérieur de boîtes contenant différents matériaux.
+Pour cela, un microphone mesure l'intensité du son à l'intérieur et à l'extérieur de boîtes contenant différents matériaux.
 
 <figure style={{margin: '1rem auto', textAlign: 'center'}}>
   <img src="/img/ressources/thedexterlab/attenuation-son-materiau/DATA19_TDL.webp" alt="Schéma synthétique du protocole" style={{maxWidth: '100%', height: 'auto', margin: '0 auto'}} />
@@ -84,7 +84,7 @@ Les disciplines associées sont :
 
 ### Orientation
 
-Comment déterminer le pouvoir d'isolation phonique des matériaux ? Pour pouvoir répondre à la question, il nous faut dans un premier temps pouvoir mesurer la "quantité" de son d'un endroit donné. Pour cela, le plus simple est l'utilisation d'un microphone, avec lequel on obtiendra l'intensité du son. Afin de tester l'atténuation du son par différents matériaux, nous pouvons créer des boîtes dans lesquelles nous enfermerons le microphone.
+Comment déterminer le pouvoir d'isolation phonique des matériaux ? Pour répondre, il faut d'abord mesurer la "quantité" de son à un endroit donné. Le plus simple est d'utiliser un microphone, qui donne l'intensité du son. Pour tester l'atténuation du son par différents matériaux, on peut créer des boîtes et y enfermer le microphone.
 
 Le but étant de connaître le "pouvoir" d'absorption du son d'un matériau, comment faire pour le mesurer ? Le plus simple reste de mesurer le bruit (intensité sonore) à l'intérieur et à l'extérieur de la boîte. Ainsi en faisant une simple différence entre les valeurs, il sera possible de déterminer l'atténuation du son.
 
@@ -99,37 +99,37 @@ Plusieurs hypothèses peuvent être formulées :
 
 Le son est une vibration qui se propage sous la forme d'une onde de pression audible, à travers un milieu de transmission tel qu'un gaz, un liquide ou un solide. Dans un milieu fluide compressible (l'air, par exemple), le son se déplace sous forme d'une onde, en revanche les objets solides vibrent pour transmettre un son (un diapason, par exemple). C'est donc pour cela que le son ne peut pas se propager dans le vide.
 
-Le déplacement (et l'intensité) du son est dépendant du milieu dans lequel il évolue. Lorsque le milieu change (on parle alors de milieu hétérogène), le son se retrouve diffusé et atténué.
+Le déplacement (et l'intensité) du son dépend du milieu dans lequel il évolue. Lorsque le milieu change (on parle alors de milieu hétérogène), le son se retrouve diffusé et atténué.
 
 Pour mesurer l'intensité d'un son, il est courant d'utiliser le décibel (dB). Cette unité sert aussi pour quantifier l'atténuation d'un son. Le décibel est une unité logarithmique, ce qui signifie que si l'on mesure une première atténuation de 10 dB et une seconde de 20 dB, cette dernière ne sera pas 2 fois moins intense, mais 10 fois moins intense !
 
-Pour comparer le pouvoir isolant des matériaux, nous allons utiliser un simple microphone et un son de référence. Plus précisément nous allons mesurer, avec le microphone, l'intensité du son dans l'air, sans isolant (ce sera notre valeur de référence). Puis en plaçant le microphone dans chacune des boîtes, nous mesurerons successivement les intensités.
+Pour comparer le pouvoir isolant des matériaux, on utilise un simple microphone et un son de référence. On mesure d'abord, avec le microphone, l'intensité du son dans l'air, sans isolant (ce sera la valeur de référence). On place ensuite le microphone dans chacune des boîtes pour mesurer successivement les intensités.
 
 ### Investigation
 
-La carte programmable est l'élément principal de notre expérimentation. Elle a pour rôle de récupérer les informations en provenance du microphone, ainsi que de l'émission du son.
+La carte programmable est l'élément principal de l'expérimentation. Elle récupère les informations en provenance du microphone, ainsi que de l'émission du son.
 
-La potence maintient le buzzer toujours à la même hauteur, permettant ainsi une répétabilité de l'expérience et assurant la fiabilité de la mesure.
+La potence maintient le buzzer toujours à la même hauteur. L'expérience est ainsi répétable et la mesure fiable.
 
-Le microphone est, lui aussi, placé au même endroit pour chaque mesure. Pour simplifier le processus, on peut utiliser deux microphones : un sera dans la boîte, l'autre à l'extérieur, de cette manière il y aura toujours un microphone témoin pour nous donner la valeur de référence.
+Le microphone est, lui aussi, placé au même endroit pour chaque mesure. Pour simplifier le processus, on peut utiliser deux microphones : l'un dans la boîte, l'autre à l'extérieur. Celui de l'extérieur sert de microphone témoin et donne toujours la valeur de référence.
 
-L'écran affiche la mesure durant l'expérimentation, nous permettant de noter les valeurs pour chacun des matériaux.
+L'écran affiche la mesure pendant l'expérimentation, ce qui permet de noter la valeur obtenue pour chacun des matériaux.
 
-Durant l'expérience, il est impératif que la pièce de l'expérience soit la plus silencieuse possible pour ne pas fausser les résultats.
+Les mesures doivent impérativement se faire dans une pièce aussi silencieuse que possible, pour ne pas fausser les résultats.
 
 ### Débriefing
 
-À travers cette expérimentation, nous avons appris à mesurer l'atténuation du son par un matériau. L'échelle des décibels nous a permis de quantifier ces valeurs et de comparer les différents résultats. Apprendre à bien isoler la variable à mesurer et la nécessité d'une valeur de référence est essentiel pour obtenir des résultats valables et cohérents.
+Avec cette expérimentation, on a appris à mesurer l'atténuation du son par un matériau. L'échelle des décibels a servi à quantifier ces valeurs et à comparer les différents résultats. Apprendre à bien isoler la variable à mesurer et la nécessité d'une valeur de référence est essentiel pour obtenir des résultats valables et cohérents.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-À l'étape précédente, nous avons créé un système simple de mesure de l'absorption du son des matériaux. À présent, il nous faut comparer ces valeurs, puis déterminer s'il existe des matériaux qui sont de meilleurs isolants phoniques que d'autres, et pourquoi.
+À l'étape précédente, on a créé un système simple de mesure de l'absorption du son des matériaux. Il faut maintenant comparer ces valeurs, puis déterminer s'il existe des matériaux qui sont de meilleurs isolants phoniques que d'autres, et pourquoi.
 
 ### Conceptualisation
 
-La carte électronique utilisée pour l'expérience est dotée d'interfaces lui permettant de communiquer avec d'autres appareils. En utilisant cette capacité, les données de l'expérience vont être récupérées en vue d'une exploitation ultérieure.
+La carte électronique utilisée pour l'expérience a des interfaces pour communiquer avec d'autres appareils. Elles servent à récupérer les données de l'expérience pour les exploiter ensuite.
 
 Il y a deux manières de récupérer les données issues des capteurs : l'affichage sur l'écran LCD pour faire des relevés manuels, ou la communication "série" entre la carte programmable et l'ordinateur, plus automatisée.
 
@@ -137,7 +137,7 @@ Il y a deux manières de récupérer les données issues des capteurs : l'affich
 
 Pour cette étape, utilisez un petit écran LCD pour afficher les valeurs mesurées par les capteurs au fil de l'expérience.
 
-Ensuite, utilisez un tableau sur papier pour noter les résultats relevés. Les résultats seront regroupés en deux colonnes : le matériau utilisé (rien, bois, acier, mousse, …) et l'intensité sonore (en décibels).
+Ensuite, utilisez un tableau sur papier pour noter les résultats relevés. Les résultats seront regroupés en deux colonnes : le matériau utilisé (rien, bois, acier, mousse, ...) et l'intensité sonore (en décibels).
 
 | Matériau utilisé | Intensité sonore |
 |---|---|
@@ -160,16 +160,16 @@ Grâce aux étapes précédentes, il est possible de connaître le pouvoir d'abs
 
 ### Conceptualisation
 
-Pour valider l'hypothèse de départ, nous devons mettre les données en forme de manière à rendre visible le lien entre les grandeurs physiques. Suivant l'hypothèse de départ, l'analyse n'est pas la même :
+Pour valider l'hypothèse de départ, il faut mettre les données en forme de manière à rendre visible le lien entre les grandeurs physiques. Suivant l'hypothèse de départ, l'analyse n'est pas la même :
 
-- Dans le cas d'une expérimentation sur plusieurs matériaux, il n'y a qu'une seule grandeur : l'atténuation phonique d'un matériau. Une simple liste triée par atténuation (de la plus grande à la plus petite) devrait nous aider à trouver une réponse.
+- Dans le cas d'une expérimentation sur plusieurs matériaux, il n'y a qu'une seule grandeur : l'atténuation phonique d'un matériau. Une simple liste triée par atténuation (de la plus grande à la plus petite) devrait aider à trouver une réponse.
 - Dans le cas d'une expérimentation sur l'épaisseur d'un matériau, il y a deux grandeurs : la manière la plus directe de visualiser les données est d'utiliser un nuage de points avec l'épaisseur du matériau en abscisse et l'atténuation en ordonnée.
 
-Une fois le graphique tracé, le tracé d'une droite de régression (même approximative) permettra de faire apparaître une première approximation de la loi qui relie l'épaisseur d'un matériau et son atténuation phonique.
+Une fois le graphique tracé, une droite de régression (même approximative) fait apparaître une première approximation de la loi qui relie l'épaisseur d'un matériau et son atténuation phonique.
 
 ### Investigation
 
-La nature des données représentant une évolution au cours de l'épaississement progressif du matériau, nous pouvons utiliser une représentation graphique dans un tableur. De même, il est possible d'utiliser un tel outil pour faire une liste des matériaux avec les atténuations mesurées pour les trier et les comparer entre eux.
+Les données représentent une évolution au fil de l'épaississement progressif du matériau : on peut les représenter sur un graphique dans un tableur. Le tableur peut aussi servir à lister les matériaux avec les atténuations mesurées, pour les trier et les comparer entre eux.
 
 Sur la représentation graphique, en choisissant la bonne échelle, il est possible de valider/invalider directement l'hypothèse de départ.
 
@@ -181,7 +181,7 @@ Quelles sont les améliorations à apporter au protocole pour améliorer la qual
 
 ### Débriefing
 
-Durant l'analyse des données, la représentation visuelle a permis de mettre en évidence la validation/invalidation de l'hypothèse de départ. Au-delà de l'hypothèse, l'analyse des données permet d'extrapoler une première approximation de la loi sous-jacente. Le partage d'information avec d'autres enquêteurs permet de savoir si les résultats sont valides et les conclusions comparables.
+Pendant l'analyse des données, la représentation visuelle a montré si l'hypothèse de départ était validée ou invalidée. L'analyse des données sert aussi à extrapoler une première approximation de la loi sous-jacente. Partager les informations avec d'autres enquêteurs indique si les résultats sont valides et les conclusions comparables.
 
 ## Programmation
 

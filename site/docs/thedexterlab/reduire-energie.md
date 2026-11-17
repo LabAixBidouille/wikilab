@@ -48,12 +48,12 @@ sidebar_position: 5
 ---
 
 :::info
-L'enjeu de réduction de la consommation d'énergie est de plus en plus important notamment au sein de l'Union Européenne. Une utilisation plus efficiente de l'énergie peut contribuer à réduire les émissions de gaz à effet de serre et ainsi à lutter contre le changement climatique. La baisse de la demande énergétique aide à préserver les ressources naturelles limitées. En complément, cela peut stimuler la croissance économique en encourageant le développement de technologies plus durables et en créant de nouveaux emplois dans les secteurs de l'efficacité énergétique et des énergies renouvelables. En particulier, le bâtiment étant le premier consommateur d'énergie, il est ainsi devenu indispensable de construire des édifices efficaces d'un point de vue énergétique et de rénover les bâtiments existants qui sont beaucoup trop énergivores et qui ne répondent plus du tout aux exigences des nouvelles réglementations.
+Réduire la consommation d'énergie est un enjeu croissant, notamment dans l'Union européenne. Une utilisation plus efficiente de l'énergie peut contribuer à réduire les émissions de gaz à effet de serre, et ainsi à lutter contre le changement climatique. Une demande énergétique plus faible aide à préserver les ressources naturelles limitées. Cela peut aussi stimuler la croissance économique en encourageant le développement de technologies plus durables et en créant de nouveaux emplois dans les secteurs de l'efficacité énergétique et des énergies renouvelables. Le bâtiment est le premier consommateur d'énergie : il faut donc désormais construire des édifices efficaces sur le plan énergétique et rénover les bâtiments existants qui sont beaucoup trop énergivores et ne répondent plus du tout aux exigences des nouvelles réglementations.
 :::
 
 ## Déroulé de l'activité
 
-Dans ce protocole, l'enjeu technologique sous-jacent est de détecter et mesurer les économies d'énergie de l'isolation d'une maquette d'une maison, effectuer des mesures de température et réfléchir à la manière de réguler efficacement la température en fonction de différents scénarios. Le dispositif proposé pourra comprendre une carte programmable, un capteur de température, la création d'une maquette utilisant un servomoteur. Afin de mettre en œuvre cette activité voici les grandes étapes :
+L'enjeu technologique de ce protocole est de détecter et mesurer les économies d'énergie que l'isolation apporte à une maquette de maison, de relever des températures et de réfléchir à la manière de réguler efficacement la température selon différents scénarios. Le dispositif proposé pourra comprendre une carte programmable, un capteur de température, la création d'une maquette utilisant un servomoteur. Les grandes étapes de l'activité :
 
 1. Introduction sur l'importance de l'efficacité énergétique dans les bâtiments et la nécessité de mesurer les économies d'énergie.
 2. Présentation du matériel nécessaire pour l'activité.
@@ -82,11 +82,11 @@ Les thèmes abordés par cette activité sont les suivants :
 
 ### Orientation
 
-Dans un souci de mise en œuvre en classe, nous allons réaliser des expériences d'isolation uniquement contre une source de chaleur extérieure. Pour ce faire, il faut disposer d'une maquette miniature d'une maison que l'on viendra agrémenter de parois isolantes au fur et à mesure des expériences. L'une des expériences visant à gérer l'ouverture d'une surface réfléchissante pour aider à réguler la température sans apport d'énergie, la maquette devra disposer d'un ouvrant.
+Pour rester réalisables en classe, les expériences d'isolation se font uniquement contre une source de chaleur extérieure. Il faut pour cela une maquette miniature de maison, à laquelle on ajoute des parois isolantes au fur et à mesure des expériences. L'une des expériences consiste à gérer l'ouverture d'une surface réfléchissante pour aider à réguler la température sans apport d'énergie : la maquette doit donc avoir un ouvrant.
 
 ### Conceptualisation
 
-La maquette construite doit représenter une maison et permettre d'illustrer comment l'isolation permet d'économiser de l'énergie en évitant de devoir chauffer ou refroidir l'air intérieur pour maintenir des conditions de confort acceptable pour un humain. On considère comme confortable, une plage de température de 17°C à 30°C. Dans un intérieur domestique, on cherche souvent à obtenir une régulation de la température sur des plages plus restreintes mais cela permettrait d'illustrer moins facilement l'effet de l'isolation sur la variation de la température.
+La maquette construite doit représenter une maison et montrer comment l'isolation économise de l'énergie en évitant de devoir chauffer ou refroidir l'air intérieur pour maintenir des conditions de confort acceptables pour un humain. On considère comme confortable une plage de température de 17°C à 30°C. Dans un intérieur domestique, on cherche souvent à réguler la température sur des plages plus restreintes, mais l'effet de l'isolation sur la variation de la température se verrait alors moins facilement.
 
 La maquette de départ doit avoir des parois les moins isolantes possibles. L'ajout de l'isolation doit se faire simplement sans nécessiter de modifier la structure du bâti. Idéalement, si la maquette a une forme simple composée de faces planes triangulaires, rectangulaires ou trapézoïdales, l'isolant peut être simplement une feuille découpée à la règle et au cutter à la bonne forme que l'on viendra plaquer contre les parois existantes (par l'intérieur comme par l'extérieur). Pour faire tenir les feuilles d'isolant pendant les expériences, du scotch double face ou de la Patafix sont suffisants. Si une découpe laser ou une CNC sont disponibles, il est possible de faire les découpes plus précisément et rapidement. Dans ce cas, l'isolant peut venir se fixer avec des aimants plats pour faciliter les manipulations.
 
@@ -100,29 +100,29 @@ La réalisation d'une mini-serre automatisée étant citée dans les programmes 
 
 Si la mini-serre n'est pas utilisée dans un autre projet, il vaut mieux faire une maquette la plus simple possible pour réduire les coûts au maximum. Il existe des kits à 10€ qui sont suffisants pour faire le protocole. La reproduction du kit peut se faire à coût encore plus réduit avec des matériaux facilement disponibles en grandes surfaces de bricolage.
 
-La réalisation des isolants est suffisamment simple car ils sont de forme triangulaire ou rectangulaire. L'ouverture étant de pleine largeur, il est possible de positionner l'isolant aussi bien à l'intérieur qu'à l'extérieur.
+Les isolants sont assez simples à réaliser, car ils sont de forme triangulaire ou rectangulaire. Comme l'ouverture fait toute la largeur, l'isolant peut se placer aussi bien à l'intérieur qu'à l'extérieur.
 
 ### Débriefing
 
-La réalisation de la maquette est l'étape préliminaire de ce protocole. La détermination précise du besoin permet lors de la phase de conceptualisation d'orienter les élèves vers des solutions similaires qui pourraient être facilement détournées pour satisfaire au besoin. Le choix d'une mini-serre permet de facilement illustrer l'apport d'énergie solaire.
+Réaliser la maquette est l'étape préliminaire de ce protocole. En précisant le besoin lors de la phase de conceptualisation, on peut orienter les élèves vers des solutions similaires qui pourraient être facilement détournées pour y répondre. Une mini-serre illustre facilement l'apport d'énergie solaire.
 
-L'automatisation de l'ouverture est assurée par l'usage d'un servomoteur simple d'usage et facile à programmer.
+Un servomoteur, simple d'usage et facile à programmer, automatise l'ouverture.
 
 ## Étape 2 : Collecter des données
 
 ### Orientation
 
-**Contexte :** dans un souci de mise en œuvre en classe, nous allons réaliser des expériences d'isolation uniquement contre une source de chaleur extérieure.
+**Contexte :** comme à l'étape 1, les expériences d'isolation se font uniquement contre une source de chaleur extérieure.
 
 **Objectif :** mesurer la température de manière directe.
 
 ### Conceptualisation
 
-Il existe plusieurs solutions pour optimiser l'efficacité énergétique d'un bâtiment. Existe-t-il un matériau plus performant ? Comment éviter les échanges de chaleur entre l'extérieur et l'intérieur d'un logement ? Pour réaliser nos expériences, nous utiliserons une maquette et un capteur de température branché sur une carte programmable. Nous réfléchirons également à différentes méthodes de construction (choix des matériaux, simple ou double paroi).
+Il existe plusieurs solutions pour optimiser l'efficacité énergétique d'un bâtiment. Existe-t-il un matériau plus performant ? Comment éviter les échanges de chaleur entre l'extérieur et l'intérieur d'un logement ? Les expériences utilisent une maquette et un capteur de température branché sur une carte programmable. On réfléchit aussi à différentes méthodes de construction (choix des matériaux, simple ou double paroi).
 
 ### Investigation
 
-Pour comprendre l'efficacité de chaque matériau en tant qu'isolant, nous allons mener notre enquête pour observer comment évolue la température à l'intérieur de la maquette au fil du temps. Pour commencer, préparer la maquette pour l'expérience :
+Pour comprendre l'efficacité de chaque matériau en tant qu'isolant, l'enquête consiste à observer comment évolue la température à l'intérieur de la maquette au fil du temps. Pour commencer, préparer la maquette pour l'expérience :
 
 1. Prendre en main la maquette et installer un matériau isolant au choix (papier, bois, carton, verre, aluminium, couverture de survie, …).
 2. Installer une lampe.
@@ -141,13 +141,13 @@ La première colonne montre l'isolant utilisé, la deuxième indique l'heure à 
 
 ### Débriefing
 
-Durant cette expérience, nous avons pu observer l'impact de l'ajout d'un isolant sur la variation de la température d'un bâtiment. La source de chaleur étant une lampe, certains isolants sont avantagés par leur caractère réfléchissant.
+Durant cette expérience, les élèves ont pu observer l'impact de l'ajout d'un isolant sur la variation de la température d'un bâtiment. La source de chaleur étant une lampe, certains isolants sont avantagés par leur caractère réfléchissant.
 
-## Étape 3 : Interactions utilisateur — affichage de la température et régulation avec une ventilation naturelle
+## Étape 3 : Interactions utilisateur (affichage de la température et régulation avec une ventilation naturelle)
 
 ### Orientation
 
-**Contexte :** dans la partie précédente, nous avons vu comment demander à un capteur d'obtenir des informations. Il serait maintenant utile de pouvoir communiquer ces informations à l'utilisateur. L'utilisateur devra pouvoir activer l'ouverture de la trappe pour réduire la température grâce à la ventilation naturelle.
+**Contexte :** la partie précédente a montré comment demander à un capteur d'obtenir des informations. Il serait maintenant utile de communiquer ces informations à l'utilisateur, qui devra aussi pouvoir activer l'ouverture de la trappe pour réduire la température grâce à la ventilation naturelle.
 
 **Objectifs :** sélectionner le matériel approprié parmi les actionneurs disponibles.
 
@@ -164,13 +164,13 @@ Pour informer l'utilisateur de la température mesurée, la première solution q
 
 ### Débriefing
 
-Lors de cette étape, le système a ajouté de l'interaction utilisateur. Cette interaction permet à l'utilisateur d'avoir un retour d'information sur la température intérieure et d'agir sur la trappe de ventilation pour réduire la température quand il le souhaite. Un système domotique doit permettre à l'utilisateur d'adapter son environnement à ses besoins. Pour ce faire, il a besoin à la fois d'un retour d'information comme de possibilité d'agir sur le système.
+Cette étape ajoute au système une interaction avec l'utilisateur : celui-ci a un retour d'information sur la température intérieure et peut agir sur la trappe de ventilation pour réduire la température quand il le souhaite. Un système domotique doit permettre à l'utilisateur d'adapter son environnement à ses besoins : il lui faut pour cela à la fois un retour d'information et une possibilité d'agir sur le système.
 
 ## Étape 4 : Analyser les données
 
 ### Orientation
 
-**Contexte :** nous avons pu afficher les données instantanément. Nous allons réaliser des hypothèses et tester différentes expériences.
+**Contexte :** l'étape précédente affiche les données instantanément. Cette étape consiste à formuler des hypothèses et à tester différentes expériences.
 
 **Objectifs :** analyser les données mesurées et les extraire dans un fichier.
 
@@ -193,19 +193,19 @@ Afin de comparer l'efficacité énergétique d'un matériau en simple ou en doub
 
 ### Débriefing
 
-Dans cette étape, nous avons récupéré des données sur une plus longue durée pour permettre une analyse plus fine et plus aboutie sur l'effet des isolants. L'utilisation des courbes permet de se rendre compte visuellement des effets de chaque isolant. La comparaison des différentes courbes permet d'approcher plusieurs aspects d'une isolation comme la résistance thermique ou le déphasage. La comparaison entre un grand nombre d'expériences à travers les courbes est une occasion de discuter de la dynamique des variations de températures.
+Dans cette étape, les élèves ont récupéré des données sur une plus longue durée, pour une analyse plus fine et plus aboutie de l'effet des isolants. Les courbes montrent visuellement les effets de chaque isolant. En comparant les différentes courbes, on approche plusieurs aspects d'une isolation, comme la résistance thermique ou le déphasage. Comparer un grand nombre d'expériences à travers les courbes est une occasion de discuter de la dynamique des variations de températures.
 
 ## Étape 5 : Réaliser un pare-soleil asservi au taux d'ensoleillement
 
 ### Orientation
 
-**Contexte :** nous allons faire varier la lumière. Serait-il possible de faire varier l'occultation d'une ouverture en fonction du taux d'ensoleillement ? Cette méthode serait-elle efficace ?
+**Contexte :** on fait varier la lumière. Serait-il possible de faire varier l'occultation d'une ouverture en fonction du taux d'ensoleillement ? Cette méthode serait-elle efficace ?
 
 **Objectifs :** analyser les données mesurées et tirer une conclusion.
 
 ### Conceptualisation
 
-La source de chaleur étant une source lumineuse (lampe de bureau dans la maquette), en plus de l'isolation, il est intéressant de réfléchir la lumière pour renvoyer son énergie dans l'atmosphère. Pour se faire, en plus de l'ouverture des aérations naturelles, nous allons ajouter un pare-soleil réfléchissant réalisé avec de la couverture de survie. Ce volet sera programmable pour réaliser une régulation de la température intérieure sur une consigne donnée par l'utilisateur.
+La source de chaleur étant une source lumineuse (lampe de bureau dans la maquette), en plus de l'isolation, il est intéressant de réfléchir la lumière pour renvoyer son énergie dans l'atmosphère. Pour cela, en plus de l'ouverture des aérations naturelles, on ajoute un pare-soleil réfléchissant réalisé avec de la couverture de survie. Ce volet sera programmable pour réaliser une régulation de la température intérieure sur une consigne donnée par l'utilisateur.
 
 ### Investigation
 
@@ -219,19 +219,19 @@ La source de chaleur étant une source lumineuse (lampe de bureau dans la maquet
 
 ### Débriefing
 
-En plus de l'isolation, nous avons vu qu'une partie de l'énergie thermique provenant de l'extérieur peut être renvoyée dans l'atmosphère simplement en utilisant la nature réfléchissante de certains matériaux. Comme parfois, on veut récupérer cette énergie pour bénéficier d'une source de chauffage gratuit, nous avons fait en sorte que le pare-soleil soit amovible et puisse être rétracté pour créer une régulation naturelle de la température.
+En plus de l'isolation, cette étape montre qu'une partie de l'énergie thermique provenant de l'extérieur peut être renvoyée dans l'atmosphère simplement grâce à la nature réfléchissante de certains matériaux. Comme on veut parfois récupérer cette énergie pour bénéficier d'une source de chauffage gratuit, le pare-soleil est amovible et peut être rétracté pour créer une régulation naturelle de la température.
 
 En plus de la température, cette régulation pourrait gagner en réactivité à réagir aussi sur la luminosité en ajoutant des capteurs à l'extérieur de la maquette.
 
-Ce protocole en plus de fournir une opportunité de réfléchir à la problématique des économies d'énergie, traite aussi du confort de l'habitat qui est aussi central pour proposer un logement qui est aussi bénéfique pour l'environnement que pour le bien-être de ses utilisateurs. Une discussion sur les maisons à énergie positive peut être l'occasion de faire le lien avec les protocoles autour des énergies renouvelables.
+Ce protocole est l'occasion de réfléchir aux économies d'énergie. Il traite aussi du confort de l'habitat, lui aussi central pour proposer un logement aussi bénéfique pour l'environnement que pour le bien-être de ses utilisateurs. Une discussion sur les maisons à énergie positive peut être l'occasion de faire le lien avec les protocoles autour des énergies renouvelables.
 
-Le bien-être de l'habitat n'est pas uniquement lié à la température, en ajoutant des capteurs à la maquette créée pour ce protocole, il peut être possible de discuter aussi de l'apport de la ventilation naturelle pour l'évacuation des composés chimiques toxiques produits par les revêtements intérieurs.
+Le bien-être de l'habitat n'est pas uniquement lié à la température : en ajoutant des capteurs à la maquette créée pour ce protocole, on peut aussi discuter de l'apport de la ventilation naturelle pour l'évacuation des composés chimiques toxiques produits par les revêtements intérieurs.
 
 ## Fiches de programmation
 
 ### Fiche 1 : Collecter les données grâce au capteur de température
 
-Nous allons utiliser le capteur de température présent sur la STM32 IoT Node Discovery, il n'y a donc pas de branchement à faire.
+Le programme utilise le capteur de température présent sur la STM32 IoT Node Discovery : il n'y a donc pas de branchement à faire.
 
 :::info
 Pour cette activité, installez l'extension **serial**.

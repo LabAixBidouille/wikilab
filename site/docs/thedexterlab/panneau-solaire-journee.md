@@ -49,12 +49,12 @@ sidebar_position: 6
 ---
 
 :::info
-Un panneau solaire fonctionne en convertissant l'énergie solaire en électricité. Il est composé de cellules photovoltaïques qui capturent la lumière du soleil et la convertissent en électricité à l'aide d'un processus appelé effet photovoltaïque. L'électricité produite par les cellules est ensuite envoyée à un onduleur, qui la convertit en tension alternative utilisable pour alimenter les appareils électriques. En raison de leur durabilité et de leur capacité à produire de l'énergie propre, les panneaux solaires sont considérés comme une forme importante d'énergie renouvelable.
+Un panneau solaire fonctionne en convertissant l'énergie solaire en électricité. Il est composé de cellules photovoltaïques qui capturent la lumière du soleil et la convertissent en électricité à l'aide d'un processus appelé effet photovoltaïque. L'électricité produite par les cellules est ensuite envoyée à un onduleur, qui la convertit en tension alternative utilisable pour alimenter les appareils électriques. Les panneaux solaires sont durables et produisent une énergie propre : c'est pourquoi on les considère comme une forme importante d'énergie renouvelable.
 :::
 
 ## Déroulé de l'activité
 
-Au travers de cette activité, l'objectif est de comprendre et calculer le rendement maximal d'un panneau solaire durant la journée. En effet, l'ensoleillement du panneau varie en fonction de la position et de l'intensité du soleil. Ainsi, les élèves devront :
+Au travers de cette activité, l'objectif est de comprendre et calculer le rendement maximal d'un panneau solaire durant la journée, car l'ensoleillement du panneau varie en fonction de la position et de l'intensité du soleil. Les élèves devront :
 
 - Identifier différentes ressources en énergie et connaître quelques conversions d'énergie
 - Pratiquer des démarches scientifiques et technologiques
@@ -68,11 +68,11 @@ Au travers de cette activité, l'objectif est de comprendre et calculer le rende
 
 ## Compétences mobilisées
 
-Ce protocole mobilise plusieurs compétences qui sont pertinentes pour l'apprentissage des sciences et de la technologie. Plus spécifiquement, il permet de développer les compétences suivantes :
+Ce protocole fait travailler les compétences suivantes :
 
 - En sciences physiques : la capacité à réaliser une expérience scientifique pour résoudre un problème technique, à collecter des données quantitatives, à interpréter des résultats expérimentaux et à comprendre les phénomènes physiques impliqués dans la production d'énergie solaire.
 - En mathématiques : la capacité à utiliser les données collectées pour calculer des grandeurs physiques comme la tension, l'intensité et la puissance, à tracer des graphiques pour visualiser les résultats et à interpréter les résultats numériques.
-- En technologie : habiliter la programmation d'un capteur de tension pour collecter des données, utiliser un afficheur pour visualiser les résultats, créer un système d'alerte pour prévenir l'utilisateur des conditions optimales d'utilisation de l'énergie solaire et concevoir un système d'orientation automatique pour maximiser la production d'énergie solaire.
+- En technologie : programmer un capteur de tension pour collecter des données, utiliser un afficheur pour visualiser les résultats, créer un système d'alerte pour prévenir l'utilisateur des conditions optimales d'utilisation de l'énergie solaire et concevoir un système d'orientation automatique pour maximiser la production d'énergie solaire.
 
 ## Étape 1 : Collecter des données
 
@@ -84,20 +84,20 @@ Ce protocole mobilise plusieurs compétences qui sont pertinentes pour l'apprent
 
 ### Conceptualisation
 
-Le soleil se lève à l'est et se couche à l'ouest. Nous réaliserons une expérience avec une maquette où nous reproduirons la course du soleil. Un panneau solaire fixe et une lampe, représentant le soleil, qui suivra un arc de cercle reproduisant la course du soleil.
+Le soleil se lève à l'est et se couche à l'ouest. L'expérience se fait sur une maquette qui reproduit la course du soleil : un panneau solaire fixe et une lampe, qui représente le soleil et suit un arc de cercle.
 
 ### Investigation
 
-Voici les différentes étapes à mettre en œuvre afin d'implémenter notre maquette :
+Pour réaliser la maquette :
 
-1. Mise en place du panneau solaire + lampe
+1. Placer le panneau solaire et la lampe.
 2. Tracer un arc de cercle, autour du panneau solaire pour reproduire la course du soleil.
 3. Placer un récepteur.
 4. Connecter les capteurs de tension.
 5. Brancher une carte programmable.
 6. Réaliser le programme pour collecter les données.
 
-Les données seront collectées directement sur l'interface de programmation grâce à la mise en place de la console, disponible sous le simulateur.
+Les données sont collectées directement sur l'interface de programmation, dans la console disponible sous le simulateur.
 
 Pour vous aider dans votre enquête, remplir le tableau suivant :
 
@@ -109,13 +109,13 @@ Pour vous aider dans votre enquête, remplir le tableau suivant :
 
 ### Débriefing
 
-Lors de cette étape, nous avons mis en place une expérience permettant de suivre la production d'énergie d'un panneau solaire en fonction de la position du soleil. L'enquête a permis de découvrir que cette production évolue de manière significative en fonction de l'angle d'incidence.
+Cette étape a consisté à monter une expérience qui suit la production d'énergie d'un panneau solaire en fonction de la position du soleil. L'enquête a montré que cette production varie nettement avec l'angle d'incidence.
 
 ## Étape 2 : Afficher les données collectées
 
 ### Orientation
 
-**Contexte :** nous avons pu voir dans la partie précédente comment demander à un capteur d'obtenir des informations. Il serait utile maintenant de pouvoir faire connaître ces informations à l'utilisateur.
+**Contexte :** l'étape précédente a montré comment demander à un capteur d'obtenir des informations. Il serait utile maintenant de faire connaître ces informations à l'utilisateur.
 
 **Objectifs :** choisir le matériel adapté parmi des actionneurs mis à disposition.
 
@@ -131,33 +131,33 @@ Afin d'informer l'utilisateur de la tension mesurée, la première solution qui 
 
 ### Débriefing
 
-Dans cette étape, nous avons permis d'avoir une vision directe des données mesurées pendant l'expérience. Grâce à cela, l'investigation a pu vérifier directement les hypothèses émises à l'étape précédente.
+Cette étape donne une vision directe des données mesurées pendant l'expérience. Les hypothèses émises à l'étape précédente peuvent alors se vérifier directement.
 
 ## Étape 3 : Analyser les données
 
 ### Orientation
 
-**Contexte :** nous avons pu afficher les données instantanément. Nous avons pu observer les variations de puissance. Nous devons mettre en place un système d'alerte pour prévenir l'utilisateur du meilleur moment d'utilisation des appareils énergivores.
+**Contexte :** les données s'affichent instantanément et montrent les variations de puissance. Il reste à créer un système d'alerte pour prévenir l'utilisateur du meilleur moment pour utiliser les appareils énergivores.
 
 **Objectifs :** trouver des solutions en réponse à un besoin.
 
 ### Conceptualisation
 
-Afin de répondre à une utilisation optimale de son panneau solaire, l'utilisateur doit pouvoir être averti quand les meilleures conditions sont réunies pour utiliser du matériel électrique.
+Pour utiliser au mieux son panneau solaire, l'utilisateur doit pouvoir être averti quand les meilleures conditions sont réunies pour faire fonctionner du matériel électrique.
 
 ### Investigation
 
 1. Faire pivoter la lampe, varier son intensité.
-2. Mise en œuvre du programme de récupération des données.
+2. Réaliser le programme de récupération des données.
 3. Calculer la puissance.
 4. Choisir les valeurs d'alerte.
 5. Choisir des solutions d'alerte (information afficheur, programme de communication en wifi à une application, déclenchement automatique d'appareil).
 
 ### Débriefing
 
-En plus de l'affichage des données à l'utilisateur, lors de cette étape, nous avons rajouté la possibilité de prévenir l'utilisateur en cas d'anomalie. Cela permet de corriger manuellement l'orientation du panneau solaire quand les rendements ne sont pas suffisants.
+Cette étape ajoute à l'affichage des données la possibilité de prévenir l'utilisateur en cas d'anomalie. L'utilisateur peut alors corriger manuellement l'orientation du panneau solaire quand les rendements ne sont pas suffisants.
 
-Le protocole "Comment maximiser l'apport en énergie solaire et créer des panneaux auto-orientables ?" permet d'aller plus loin dans cette activité en proposant une solution d'automatisation permettant de toujours avoir une orientation optimale.
+Pour aller plus loin, le protocole "Comment maximiser l'apport en énergie solaire et créer des panneaux auto-orientables ?" propose une solution d'automatisation pour que l'orientation reste toujours optimale.
 
 ## Programmation
 
