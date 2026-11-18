@@ -2978,12 +2978,12 @@ export const resources: Resource[] = [
     thumbnail: '/img/ressources/projets-du-lab/lab-labanque/icone.png',
   },
   {
-    id: 'lab-saveur-algorithmes',
-    title: 'Concevoir la quête « La saveur des algorithmes »',
-    slug: '/ressources/projets-du-lab/saveur-des-algorithmes',
+    id: 'lab-mini-jeux-pensee-computationnelle',
+    title: 'Créer des mini-jeux autour de la pensée computationnelle',
+    slug: '/ressources/projets-du-lab/mini-jeux-pensee-computationnelle',
     project: 'projets-du-lab',
     summary:
-      'Quête en trois jeux débranchés (récursivité, bit de parité, ensemble dominant), avec leurs plateaux découpés au laser et leurs pièces imprimées en 3D.',
+      'Trois mini-jeux débranchés (récursivité, bit de parité, ensemble dominant), avec leurs plateaux découpés au laser et leurs pièces imprimées en 3D.',
     disciplines: ['informatique', 'mathematiques', 'sciences'],
     tools: ['debranchee', 'decoupe-laser', 'impression-3d'],
     software: [],
@@ -2994,7 +2994,7 @@ export const resources: Resource[] = [
     formats: ['debranchee', 'bricolage'],
     categories: ['sequences-debranchees', 'makers-fabrication'],
     keywords: [
-      'fête de la science',
+      'pensée computationnelle',
       'récursivité',
       'tours de hanoï',
       'bit de parité',
@@ -3007,8 +3007,8 @@ export const resources: Resource[] = [
       'pmma',
       'sublimation',
     ],
-    pdf: '/pdf/projets-du-lab/Saveur_des_algorithmes_Dossier_animateurs.pdf',
-    thumbnail: '/img/ressources/projets-du-lab/lab-saveur-algorithmes/icone.png',
+    pdf: '/pdf/projets-du-lab/Mini_jeux_pensee_computationnelle_Dossier_animateurs.pdf',
+    thumbnail: '/img/ressources/projets-du-lab/lab-mini-jeux-pensee-computationnelle/icone.png',
   },
   {
     id: 'lab-cartes-storytelling',
