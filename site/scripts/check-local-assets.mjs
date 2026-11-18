@@ -42,7 +42,7 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 // Vignettes des trois fiches Projets du LAB ajoutées par #309, en attente (suivi dans #309).
 const KNOWN_MISSING = new Set([
   '/img/ressources/projets-du-lab/lab-saveur-algorithmes/icone.png',
-  '/img/ressources/projets-du-lab/lab-storytelling-101/icone.png',
+  '/img/ressources/projets-du-lab/lab-cartes-storytelling/icone.png',
   '/img/ressources/projets-du-lab/lab-livre-laser/icone.png',
 ]);
 

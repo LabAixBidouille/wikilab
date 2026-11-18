@@ -17,11 +17,11 @@ sidebar_position: 21
 
 ## Présentation
 
-Le thème national de la Fête de la science 2026, « Saveurs savantes », invitait à parler de goût et de cuisine. Le LAB y a répondu sur son stand du Village des sciences d'Aix-en-Provence, du 2 au 4 octobre 2026, par une quête en trois activités débranchées : chacune associe une notion de pensée informatique à un scientifique du goût, et se joue avec un matériel fabriqué au fablab.
+Comment préparer un levain quand les fioles ne peuvent pas tout contenir ? Comment retrouver la case d'une tartine que le grille-pain a mal dorée ? Où installer le moins d'étals possible pour que tout un quartier ait son marché ? « La saveur des algorithmes » est une quête en trois jeux débranchés, qui font chacun manipuler une notion de pensée informatique à travers la découverte d'un scientifique du goût : la récursivité avec Louis Pasteur, le bit de parité avec Louis-Camille Maillard, l'ensemble dominant avec Kikunae Ikeda.
 
-Cette page décrit le contenu des trois activités, puis la fabrication de leur matériel : fichiers de découpe et de gravure laser, pièces imprimées en 3D, montage. Le dossier des animateurs, avec les déroulés minutés et toutes les solutions, se télécharge ci-dessous.
+Les trois jeux se jouent avec un matériel fabriqué au fablab : des fioles imprimées en 3D, un plateau en forme de tartine découpé au laser, un plan de ville en bois et PMMA. Cette page présente chaque jeu, puis la fabrication de son matériel : fichiers de découpe et de gravure, cotes, impression 3D et montage. Le dossier des animateurs, avec les déroulés et toutes les solutions, se télécharge ci-dessous.
 
-<PdfLink href="/pdf/projets-du-lab/Saveur_des_algorithmes_Dossier_animateurs.pdf">Dossier des animateurs</PdfLink> <PdfLink href="/pdf/projets-du-lab/Saveur_des_algorithmes_Presentation_enseignants.pdf">Présentation pour les enseignants</PdfLink>
+<PdfLink href="/pdf/projets-du-lab/Saveur_des_algorithmes_Dossier_animateurs.pdf">Dossier des animateurs</PdfLink>
 
 </div>
 
@@ -41,7 +41,7 @@ Au départ, chaque visiteur reçoit la carte recette de « la tartine des trois 
 | 2 | Bit de parité | Louis-Camille Maillard, le grillé | Vérifier | La cuisson |
 | 3 | Ensemble dominant | Kikunae Ikeda, l'umami | Optimiser | La garniture |
 
-Le vendredi, chaque classe était répartie en trois groupes, et chaque groupe faisait une seule activité pendant 20 minutes. Le samedi et le dimanche, le public passait d'une table à l'autre à son rythme et pouvait faire toute la quête. Chaque activité se termine par une dégustation liée à sa science (pain au levain, odeur du pain grillé, chips d'algues nori) ; les allergènes étaient affichés sur une carte par table.
+Chaque activité dure une vingtaine de minutes et peut se jouer seule, ou s'enchaîner avec les deux autres pour faire toute la quête. Chacune se termine par une dégustation liée à sa science : pain au levain, odeur du pain grillé, chips d'algues nori. Une carte par table affiche les allergènes.
 
 Les trois activités reprennent, en les transposant dans le thème du goût, trois fiches débranchées du wiki : [Combiner des formules pour le Docteur Hanoï](/ressources/unplugged/dr-hanoi), [Corriger les erreurs de transmission dans les grilles de la paix](/ressources/unplugged/grille-magique-de-la-paix) et [Comprendre les ensembles dominants en créant des fermes urbaines](/ressources/unplugged/ferme-en-ville).
 
@@ -89,7 +89,7 @@ Les fioles deviennent quatre tiges plantées dans un socle, et les ingrédients 
 - **Socle** : une pièce pleine de 206 × 72 × 14 mm, avec quatre logements de 8,4 mm de diamètre et 2 mm de matière sous chacun.
 - **Tiges** : 8 mm de diamètre, enfoncées de 12 mm dans le socle, espacées de 52 mm d'axe en axe.
 - **Pièces** : trou de 9,2 mm, soit 0,6 mm de jeu autour de la tige. Un jeu complet compte 1 blé, 1 seigle, 2 eaux, 2 levures et 2 sels.
-- **Impression** : toutes les pièces s'impriment à plat et sans support. Pour la quête, quatre jeux identiques étaient répartis autour de la table.
+- **Impression** : toutes les pièces s'impriment à plat et sans support. Quatre jeux identiques permettent de faire jouer plusieurs équipes en même temps.
 
 Les fiches formules, les cartes défi et les cartes de règles sont au format carte postale (148 × 100 mm), imprimées sur une imprimante photo à sublimation thermique.
 
@@ -162,8 +162,8 @@ Pendant le jeu, les pions attendent sur un support découpé au laser, fait de d
 
 ![Fichier laser du support des pions, plaque du dessus](/img/ressources/projets-du-lab/lab-saveur-algorithmes/laser-support-pions.png)
 
-## Retour d'expérience
+## Pour monter le niveau
 
-Tout le matériel a bien fonctionné pendant les trois jours. Le niveau, en revanche, aurait pu être nettement plus élevé sur la récursivité et sur l'ensemble dominant. Sur les fioles, la difficulté des formules avait été réglée sur le seul nombre minimum de coups, alors qu'un grand nombre de coups ne rend pas une formule difficile si chaque coup est évident. Ce qui la rend difficile, ce sont les coups contre-intuitifs : déplacer un ingrédient déjà bien placé, s'éloigner du but, faire un détour imposé par la règle du boulanger.
+Deux jeux peuvent se jouer à un niveau nettement plus élevé. Sur les fioles, un grand nombre de coups ne rend pas une formule difficile si chaque coup est évident. Ce qui la rend difficile, ce sont les coups contre-intuitifs : déplacer un ingrédient déjà bien placé, s'éloigner du but, faire un détour imposé par la règle du boulanger. La série 2 de formules et de défis est classée selon ces coups difficiles, avec ses solutions. Pour l'ensemble dominant, trois plans de ville plus grands, avec leurs solutions, prolongent le plan du plateau.
 
-Deux compléments ont été préparés après la Fête de la science, sans toucher au matériel du stand : une série 2 de formules et de défis classés selon ces coups difficiles, avec leurs solutions, et trois plans de ville plus grands pour l'ensemble dominant. Ils sont inclus dans le matériel à imprimer.
+Les deux compléments se jouent avec le même matériel et sont inclus dans le matériel à imprimer.
