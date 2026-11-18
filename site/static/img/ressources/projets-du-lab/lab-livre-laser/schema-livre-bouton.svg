@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.2 21.8 114.4 52.4" width="343" height="157" font-family="Poppins, 'Segoe UI', Arial, sans-serif"><rect x="-2.2" y="21.8" width="114.4" height="52.4" fill="#ffffff"/>
+  <rect x="0" y="60" width="110" height="6" fill="#ead7b0"/>
+  <text x="2" y="64.3" font-size="3.4" fill="#6b5328">bois 2 mm</text>
+  <path d="M23.7 66 H36.3 L37.5 64.8 V60 H49.5 V57.6 L40.5 48.6 V39.6 H51 V32.4 L49.2 30.6 H10.8 L9 32.4 V39.6 H19.5 V48.6 L10.5 57.6 V60 H22.5 V64.8 Z" fill="#356bac" opacity=".85"/>
+  <g font-size="3.4" fill="#666">
+    <text x="56" y="36">tête Ø 14</text>
+    <text x="56" y="45">cou Ø 7, pour l'élastique</text>
+    <text x="56" y="58">collerette Ø 13, collée</text>
+    <text x="56" y="69.5">tenon Ø 5 × 2, dans le trou</text>
+  </g>
+</svg>
