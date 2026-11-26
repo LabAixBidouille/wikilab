@@ -169,3 +169,15 @@ Le dé et sa pochette ont demandé le plus d'essais. La pochette prévue au dép
 L'étiquette est passée par plusieurs versions avant d'être retenue : un texte seul sur une ou deux lignes, puis un dé dessiné en perspective, une flèche droite et une étiquette en forme de flèche, qui ne convenaient pas. La version finale reprend des éléments de la couverture, la police du titre et l'objet du dos réduit tel quel, avec une flèche en boucle hachurée. Un texte trop petit, puis un texte épaissi pour la gravure, se sont révélés moins lisibles qu'un texte plus grand dans sa graisse normale.
 
 Enfin, à l'impression, la couverture de deux livrets est sortie avec un cadre foncé sous le titre, invisible à l'écran : l'imprimante rendait mal les ombres et les voiles semi-transparents de la page. Seule la première feuille de ces livrets a été réimprimée, avec une couverture convertie en image, sans aucune transparence.
+
+## Ce qui reste à améliorer
+
+Une fois les quinze livres montés, l'équipe a fait le point sur ce qui pourrait être mieux fait la prochaine fois.
+
+La fermeture par élastique et bouton fonctionne, mais elle n'est pas pratique : l'élastique est minutieux à défaire du bouton pour ouvrir le livre. Une autre fermeture, plus facile à manipuler, mériterait d'être cherchée.
+
+Le collage a donné satisfaction, qu'il s'agisse du papier de couleur, du livret ou des petits éléments.
+
+L'agrafage sur le bord fait le travail, mais le résultat n'est pas très soigné. Une reliure plus belle reste à trouver, à condition qu'elle reste rapide à réaliser pour une série de livres.
+
+Enfin, une feuille de papier de couleur plus grande, coupée à la taille de l'intérieur de la couverture, donnerait un intérieur plus joli que la feuille de 320 × 240 mm utilisée telle quelle, qui laisse le bois nu le long des bords libres.
