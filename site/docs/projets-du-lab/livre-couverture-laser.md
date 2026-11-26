@@ -40,7 +40,7 @@ Le livret est imprimé sur des feuilles A4 coupées en deux, sans massicot : cha
 | Couverture | 1 planche de bois A3 de 2 mm, découpée et gravée au laser. La pièce fait 356 × 240 mm. |
 | Papier de couleur | 1 feuille de 320 × 240 mm, utilisée telle quelle, sans découpe. |
 | Livret | De 11 à 22 feuilles A4 imprimées en recto verso, retournement par le bord court, coupées en deux et agrafées sur le bord. |
-| Collage | Adhésif double face permanent ou colle en aérosol pour le papier de couleur, et 2 feuilles d'adhésif double face de 10 × 15 cm pour le livret. |
+| Collage | Colle en aérosol pour le papier de couleur, adhésif double face permanent pour le dos du livret, et un roller de colle (Cléopâtre) pour la pochette et l'étiquette. |
 | Fermeture | 1 bouton imprimé en PLA, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour au repos. |
 | Dé | 1 dé à monter en papier Canson, 1 pochette et 1 étiquette « Ton dé à fabriquer », découpés au laser dans le même papier. |
 
@@ -92,7 +92,7 @@ Certaines imprimantes sortent les feuilles dans l'ordre inverse. Avant de couper
 
 ## L'intérieur de la couverture
 
-Couverture retournée, face gravée contre la table, le plat arrière se trouve à droite et le plat avant à gauche. La feuille de papier de couleur couvre tout l'intérieur d'un seul tenant, charnière comprise : alignée sur le haut et le bas de la couverture, elle laisse une bande de bois nu de 18 mm le long de chaque bord libre. Le livret se pose sur le plat arrière, à 14 mm du bord libre, centré en hauteur avec 15 mm en haut et en bas, son dos à 2 mm des fentes. La pochette du dé se colle sur le plat avant, à 14 mm du bord libre et 15 mm du bas, à la hauteur du bas du livret, et l'étiquette « Ton dé à fabriquer » se centre juste au-dessus.
+Couverture retournée, face gravée contre la table, le plat arrière se trouve à droite et le plat avant à gauche. La feuille de papier de couleur couvre tout l'intérieur d'un seul tenant, charnière comprise : alignée sur le haut et le bas de la couverture, elle laisse une bande de bois nu de 18 mm le long de chaque bord libre. Le livret, la pochette et l'étiquette se posent tous à l'intérieur du papier de couleur, en gardant une marge de papier visible autour d'eux. Sur le plat arrière, le livret est calé à droite, côté bord libre. Sur le plat avant, la pochette du dé est centrée, et l'étiquette « Ton dé à fabriquer » est alignée en haut.
 
 ![La face intérieure : papier de couleur, livret, pochette du dé et étiquette](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-interieur-a3.svg)
 
@@ -142,12 +142,12 @@ L'étiquette, de 76 × 44 mm, se colle au-dessus de la pochette. Elle porte « T
 
 1. Découper et graver la couverture, puis vérifier que la charnière se plie sans forcer.
 2. Coller le bouton sur le plat avant : poncer légèrement le dessous de la collerette au papier fin, mettre de la colle forte dessous, enfoncer le tenon dans le trou de 5,2 mm depuis la face gravée, et laisser sécher la couverture à plat.
-3. Encoller la feuille de papier de couleur sur les deux plats, alignée sur le haut et le bas de la couverture et à 18 mm de chaque bord libre, en laissant la bande de la charnière sans colle. Refermer la couverture une fois avant que la colle prenne, pour que le papier se mette en place sur la pliure.
+3. Encoller la feuille de papier de couleur à la colle en aérosol sur les deux plats, alignée sur le haut et le bas de la couverture et à 18 mm de chaque bord libre, en laissant la bande de la charnière sans colle. Refermer la couverture une fois avant que la colle prenne, pour que le papier se mette en place sur la pliure.
 4. Passer l'élastique par le trou du plat arrière, puis vérifier, livre fermé, que ses deux brins se prennent autour du bouton avec une légère tension.
-5. Imprimer, couper et agrafer le livret, puis poser deux feuilles d'adhésif double face sur sa dernière page, l'une au-dessus de l'autre, en largeur, et recouper ce qui dépasse.
-6. Placer le livret sur le plat arrière, son dos à 2 mm des fentes, à 14 mm du bord libre et 15 mm du haut et du bas, puis appuyer sur toute la page.
-7. Plier les trois rabats de la pochette vers l'arrière sur leurs traits de pliure, mettre de la colle sur les rabats seulement et la coller sur le plat avant, ouverture vers le haut.
-8. Coller l'étiquette au-dessus de la pochette, centrée sur elle, la flèche vers la pochette.
+5. Imprimer, couper et agrafer le livret, puis poser de l'adhésif double face permanent sur sa dernière page et recouper ce qui dépasse.
+6. Placer le livret sur le plat arrière, à l'intérieur du papier de couleur, calé à droite avec une marge de papier visible, puis appuyer sur toute la page.
+7. Plier les trois rabats de la pochette vers l'arrière sur leurs traits de pliure, passer le roller de colle sur les rabats seulement et la coller au centre du papier du plat avant, ouverture vers le haut.
+8. Coller l'étiquette au roller au-dessus de la pochette, alignée en haut, la flèche vers la pochette.
 9. Glisser le dé à plat dans la pochette et refermer le livre en passant l'élastique autour du bouton.
 
 ## Doutes et changements de direction
@@ -162,7 +162,7 @@ La fixation du livret a beaucoup évolué. La maquette d'origine prévoyait des 
 
 La fermeture a connu le même tâtonnement. La couverture a d'abord eu deux trous pour l'élastique, puis un seul. Pour le bouton, un rivet pris entre une collerette et une rondelle a été proposé pour renforcer le collage, mais le LAB a préféré essayer d'abord un simple collage d'un seul côté, à la colle forte, qui a suffi. Le tenon a été retiré, puis remis à 2 mm, la longueur de l'épaisseur du bois, parce qu'il centre le bouton et l'empêche de glisser pendant que la colle prend. Le premier bouton s'imprimait mal, la collerette étant en surplomb à plat autour du cou ; l'évasement à 45° a réglé le problème. Côté élastique, un cordon rond de 2 mm noué à l'intérieur a d'abord été prévu, puis le LAB a retenu des élastiques à cheveux passés par le trou. Des anneaux de 5 cm de diamètre se sont révélés deux fois trop longs pour tenir le livre fermé : il faut des anneaux d'environ 6 cm de tour au repos, qui se tendent un peu autour du bouton.
 
-L'intérieur a changé une fois le papier de couleur acheté. Le papier devait d'abord être découpé au laser, avec 5 mm de bois nu tout autour et une encoche pour le trou de l'élastique. Le papier disponible mesurant 320 × 240 mm, il a semblé plus simple de ne pas le recouper : la couverture a été portée à 240 mm de haut pour que la feuille s'aligne sur le haut et le bas, et le trou de l'élastique est passé dans le bois nu.
+L'intérieur a changé une fois le papier de couleur acheté. Le papier devait d'abord être découpé au laser, avec 5 mm de bois nu tout autour et une encoche pour le trou de l'élastique. Le papier disponible mesurant 320 × 240 mm, il a semblé plus simple de ne pas le recouper : la couverture a été portée à 240 mm de haut pour que la feuille s'aligne sur le haut et le bas, et le trou de l'élastique est passé dans le bois nu. Au montage, le livret, la pochette et l'étiquette ont finalement été posés tous à l'intérieur du papier, avec une marge, plutôt qu'à cheval sur son bord comme prévu sur le schéma de départ ; chaque petit élément a trouvé sa colle, de l'aérosol pour la grande feuille au roller pour les petits papiers.
 
 Le dé et sa pochette ont demandé le plus d'essais. La pochette prévue au départ, avec des rabats et du jeu autour d'un dé à faces de 29 mm, a été simplifiée en une pochette plate, puis réduite pour tenir sous l'étiquette. Le dé a suivi, avec des faces de 24 mm, mais une fois les pochettes collées, le dé glissait tout au fond et ne dépassait plus : on risquait de le perdre et on ne pouvait plus le sortir. Plutôt que de décoller les pochettes, le LAB a changé le patron du dé pour un patron étroit et haut, qui dépasse d'une vingtaine de millimètres.
 
