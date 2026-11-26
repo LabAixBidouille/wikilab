@@ -19,7 +19,7 @@ sidebar_position: 23
 
 En octobre 2026, le LAB a animé l'atelier « La quête du curry », annoncé au public sous le titre « Le livre dont tu es le héros », dans deux bibliothèques du réseau des Méjanes à Aix-en-Provence : les Deux Ormes le 27 octobre et Li Campaneto le 28 octobre. Des enfants de 8 à 12 ans y ont inventé une histoire à embranchements, dont le chemin se décide au dé, en écrivant leurs propres règles « si... alors... ».
 
-Deux heures ne suffisaient pas pour mener chaque histoire à son terme. Pour que chaque enfant reparte avec un livre complet, dont il ou elle puisse être fier ou fière et avec lequel jouer, le LAB a mis en forme les huit histoires et fabriqué quinze livres, un par enfant. Chaque livre a une couverture en bois découpée et gravée au laser, un livret imprimé, un dé à monter et une fermeture à élastique. Cette page décrit la fabrication, dans la version A3 qui se monte sans massicot.
+Deux heures ne suffisaient pas pour mener chaque histoire à son terme. Pour que chaque enfant reparte avec un livre complet, dont il ou elle puisse être fier ou fière et avec lequel jouer, le LAB a mis en forme les huit histoires et fabriqué quinze livres, un par enfant. Chaque livre a une couverture en bois découpée et gravée au laser, un livret imprimé, un dé à monter et une fermeture à élastique. Cette page décrit la fabrication telle qu'elle a été menée, dans la version A3 qui se monte sans massicot, ainsi que les doutes et les changements de direction qui ont jalonné le projet.
 
 <PdfLink href="/pdf/projets-du-lab/Livre_laser_Fichiers_fabrication.zip">Fichiers de fabrication (zip)</PdfLink>
 
@@ -33,16 +33,16 @@ Deux heures ne suffisaient pas pour mener chaque histoire à son terme. Pour que
 
 ## Le livre en un coup d'œil
 
-Le livret est imprimé sur des feuilles A4 pliées en deux, sans coupe : chaque page fait 148,5 × 210 mm. La couverture est découpée dans une planche de bois A3, et une charnière faite de fentes lui permet de s'ouvrir comme un livre relié. À l'intérieur, un papier de couleur habille les deux plats avec une marge de bois tout autour. Le livret est collé par sa dernière page sur le plat arrière, une pochette garde le dé sur le plat avant, et le livre se ferme par une boucle d'élastique prise autour d'un bouton imprimé en 3D.
+Le livret est imprimé sur des feuilles A4 coupées en deux, sans massicot : chaque page fait 148,5 × 210 mm. La couverture est découpée dans une planche de bois A3, et une charnière faite de fentes lui permet de s'ouvrir comme un livre relié. À l'intérieur, une feuille de papier de couleur couvre les deux plats. Le livret est collé par sa dernière page sur le plat arrière, une pochette garde le dé à plat sur le plat avant, sous une étiquette qui l'annonce, et le livre se ferme par un élastique pris autour d'un bouton imprimé en 3D.
 
 | Élément | Matériel par livre |
 | --- | --- |
-| Couverture | 1 planche de bois A3 de 2 mm, découpée et gravée au laser. La pièce fait 356 × 238 mm. |
-| Papier de couleur | 1 rectangle de 346 × 228 mm, qui couvre tout l'intérieur, charnière comprise, coupé dans une feuille A3. |
-| Livret | De 11 à 22 feuilles A4 imprimées en recto verso, retournement par le bord court. |
+| Couverture | 1 planche de bois A3 de 2 mm, découpée et gravée au laser. La pièce fait 356 × 240 mm. |
+| Papier de couleur | 1 feuille de 320 × 240 mm, utilisée telle quelle, sans découpe. |
+| Livret | De 11 à 22 feuilles A4 imprimées en recto verso, retournement par le bord court, coupées en deux et agrafées sur le bord. |
 | Collage | Adhésif double face permanent ou colle en aérosol pour le papier de couleur, et 2 feuilles d'adhésif double face de 10 × 15 cm pour le livret. |
-| Fermeture | 1 bouton imprimé en PLA, de la colle forte et environ 15 cm d'élastique rond. |
-| Dé | 1 dé en papier Canson découpé au laser et 1 pochette en Canson, avec de la colle pour ses trois rabats. |
+| Fermeture | 1 bouton imprimé en PLA, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour au repos. |
+| Dé | 1 dé à monter en papier Canson, 1 pochette et 1 étiquette « Ton dé à fabriquer », découpés au laser dans le même papier. |
 
 ## La couverture, découpée et gravée au laser
 
@@ -58,9 +58,9 @@ Les codes du fichier sont les suivants :
 | Trait de 0,1 mm | bleu `#0000FF` | découpe des fentes de la charnière |
 | Aplat | noir `#000000` | gravure |
 
-Chaque couverture est propre à son livre. Le plat avant porte le titre, dans la police du livre, la mention « Une histoire dont tu es le héros » et une scène de l'histoire tirée des dessins des enfants. Le plat arrière porte l'objet qui sert de dé dans l'histoire, la mention « Une histoire écrite et illustrée par » suivie des prénoms, un QR code vers la version en ligne du livre, et les logos des Méjanes et du LAB.
+Chaque couverture est propre à son livre. Le plat avant porte le titre, dans la police du livre, la mention « Une histoire dont tu es le héros » et une scène de l'histoire dessinée au trait. Le plat arrière porte un objet de l'histoire, la mention « Une histoire écrite et illustrée par » suivie des prénoms, un QR code vers la version en ligne du livre, et les logos des Méjanes et du LAB.
 
-Pour que la gravure soit régulière et simple à régler, tout ce qui est gravé est une surface remplie, jamais un trait. Le fichier ne contient ni texte ni image : les textes sont convertis en tracés et les dessins sont vectorisés en aplats. Dans les scènes qui combinent gravure et découpe, chaque découpe mesure au moins 3 mm et laisse au moins 3 mm de bois autour d'elle, pour que le bois ne casse pas.
+Pour que la gravure soit régulière et simple à régler, tout ce qui est gravé est une surface remplie, jamais un trait, en une seule teinte. Le fichier ne contient ni texte ni image : les textes sont convertis en tracés et les dessins sont vectorisés en aplats.
 
 Le gabarit neutre fourni dans les fichiers de fabrication ne garde que le contour, les deux trous et la charnière : il suffit d'y ajouter son propre titre et ses dessins, en noir et en aplats.
 
@@ -78,15 +78,23 @@ Avant de lancer toutes les couvertures, découper une pièce de test de la charn
 
 ## Le livret
 
-Le livret s'imprime en recto verso, avec retournement par le bord court, sans trait de coupe ni trait de pliure. On plie chaque feuille en deux, on emboîte les feuilles dans l'ordre d'impression, la première à l'extérieur, puis on marque bien le pli. Chaque page garde 16 mm de marge côté pli, pour que rien ne se perde dans le pli une fois le livret collé, et le texte n'est jamais imprimé en dessous de 11 points.
+Le livret s'imprime en recto verso, avec retournement par le bord court, en taille réelle : si l'imprimante réduit la page pour l'ajuster aux marges, plus rien ne tombe au bon endroit. Chaque feuille A4 porte deux pages par face et, au recto, une marque de coupe au milieu, deux traits courts en haut et en bas.
+
+On garde la pile de chaque livre dans l'ordre d'impression, la première feuille au-dessus, et on la coupe en deux d'un seul coup à la marque. La pile de gauche se pose sur celle de droite, sans rien retourner, et les demi-feuilles A5 se suivent dans l'ordre de lecture. On tape la pile sur la table pour aligner le dos, puis on agrafe trois fois le long du dos, à 6 mm du bord, avec une agrafeuse grande capacité dont le guide-papier est réglé une fois pour toutes. Chaque page garde 19 mm de marge côté dos, pour que le texte reste lisible malgré les agrafes, et le texte n'est jamais imprimé en dessous de 11 points.
 
 Les pages suivent toujours le même ordre : la couverture, le résumé, l'histoire, l'arbre de l'histoire, la page « Comment est née cette histoire » avec les fiches de l'atelier, puis la page qui invite à lire l'histoire en ligne. La dernière page reste blanche : c'est elle qui se colle sur la couverture.
 
+:::info[Vérifier l'ordre de sortie]
+
+Certaines imprimantes sortent les feuilles dans l'ordre inverse. Avant de couper, vérifier que la première feuille, celle qui porte la couverture du livret, est bien au-dessus de la pile. Pour une série de livres imprimés d'un seul fichier, séparer la pile livre par livre avant de couper, sinon les livres se mélangent.
+
+:::
+
 ## L'intérieur de la couverture
 
-Couverture retournée, face gravée contre la table, le plat arrière se trouve à droite et le plat avant à gauche. Le papier de couleur couvre tout l'intérieur d'un seul tenant, charnière comprise, avec 5 mm de bois nu sur le tour. Le livret se pose sur le papier du plat arrière, avec une marge de 14 mm en haut, en bas et côté bord libre, son pli à 2 mm des fentes. La pochette du dé est centrée en largeur sur le plat avant, son pli du bas à 14 mm du bord, à la hauteur du bas du livret.
+Couverture retournée, face gravée contre la table, le plat arrière se trouve à droite et le plat avant à gauche. La feuille de papier de couleur couvre tout l'intérieur d'un seul tenant, charnière comprise : alignée sur le haut et le bas de la couverture, elle laisse une bande de bois nu de 18 mm le long de chaque bord libre. Le livret se pose sur le plat arrière, à 14 mm du bord libre, centré en hauteur avec 15 mm en haut et en bas, son dos à 2 mm des fentes. La pochette du dé se colle sur le plat avant, à 14 mm du bord libre et 15 mm du bas, à la hauteur du bas du livret, et l'étiquette « Ton dé à fabriquer » se centre juste au-dessus.
 
-![La face intérieure : papier de couleur, livret et pochette du dé](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-interieur-a3.svg)
+![La face intérieure : papier de couleur, livret, pochette du dé et étiquette](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-interieur-a3.svg)
 
 :::info[Pas de colle sur la charnière]
 
@@ -96,7 +104,7 @@ Le papier passe sur la charnière. Quand le livre se ferme, il se plisse un peu 
 
 ## Le bouton et l'élastique
 
-Les deux trous de fermeture sont à mi-hauteur de la couverture et à 8,5 mm du bord libre de chaque plat : une fois le livre fermé, ils se trouvent exactement l'un en face de l'autre. Le trou de 3 mm du plat arrière reçoit l'élastique, noué côté intérieur. Le trou de 5,2 mm du plat avant reçoit le tenon du bouton, qui le centre et le cale.
+Les deux trous de fermeture sont à mi-hauteur de la couverture et à 8,5 mm du bord libre de chaque plat, dans la bande de bois nu : une fois le livre fermé, ils se trouvent exactement l'un en face de l'autre. Le trou de 3 mm du plat arrière reçoit l'élastique, un élastique à cheveux en TPU qu'on fait passer par le trou et dont les deux brins viennent se prendre ensemble autour du bouton. Le trou de 5,2 mm du plat avant reçoit le tenon du bouton, qui le centre et le cale pendant que la colle prend.
 
 ![Coupe du bouton posé sur le bois, à l'échelle](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-bouton.svg)
 
@@ -108,21 +116,56 @@ Les deux trous de fermeture sont à mi-hauteur de la couverture et à 8,5 mm du 
 
 Le bouton s'imprime en PLA, tête posée sur le plateau, sans support, avec un remplissage de 100 % pour que le cou ne casse pas. Un fichier regroupe 18 boutons sur un même plateau, de quoi équiper quinze livres avec trois boutons de rechange.
 
-## Le dé et sa pochette
+## Le dé, sa pochette et son étiquette
 
-Le dé se découpe au laser dans du papier Canson, avec trois codes : rouge pour la découpe du contour (la croix des faces et les languettes, d'un seul tracé), vert `#00A000` pour un rainage à faible puissance qui marque les plis, et noir en aplat pour les dessins des faces. Les faces mesurent 29 mm, et deux faces opposées totalisent toujours 7.
+Le dé se découpe et se grave au laser dans du papier Canson, et se livre à plat, à monter. Son patron n'est pas la croix habituelle, mais deux colonnes de trois faces décalées : il ne fait que deux faces de large pour cinq de haut, soit 62 × 131 mm avec des faces de 25 mm. Il entre ainsi dans la pochette et en dépasse d'environ 20 mm, ce qui permet de le voir et de l'attraper. Deux faces opposées totalisent toujours 7, et chaque livre a ses propres motifs à la place des points : pattes de loup, diamants, ballons, œufs, tenons de brique ou ronds.
 
-La pochette, découpée dans le même papier, garde le dé à plat avant montage, avec environ 5 mm de jeu de chaque côté. Ses trois rabats (gauche, droit, bas) se replient derrière la face et se collent sur le bois. Le haut reste ouvert, avec une encoche pour attraper le dé avec le pouce, et les coins des rabats sont coupés à 45° pour qu'ils ne se chevauchent pas une fois repliés.
+![Fichier laser du dé : découpe, pliures et gravure](/img/ressources/projets-du-lab/lab-livre-laser/laser-de.png)
 
-![Fichier laser de la pochette du dé : découpe en rouge, rainage en vert](/img/ressources/projets-du-lab/lab-livre-laser/laser-pochette-de.png)
+Dans LightBurn, le LAB a regroupé les quinze dés sur trois feuilles A4 de Canson, avec trois calques :
+
+| Couleur | Calque | Opération |
+| --- | --- | --- |
+| orange `#FF8000` | ligne | découpe du contour |
+| vert `#00A000` | pliure | rainage à faible puissance, juste assez pour marquer le pli |
+| cyan `#00E0E0` | remplissage | gravure des filets et des motifs |
+
+La pochette, découpée dans le même papier, est plate : une face de 95 × 110 mm et trois rabats de 7 mm, à gauche, à droite et en bas, qui se replient derrière elle et se collent sur le papier de couleur, soit 109 × 117 mm à plat. Le haut reste ouvert, avec une encoche pour le pouce, et les coins des rabats sont coupés à 45° pour qu'ils ne se chevauchent pas une fois repliés.
+
+![Fichier laser de la pochette du dé : découpe en rouge, pliures en vert](/img/ressources/projets-du-lab/lab-livre-laser/laser-pochette-de.png)
+
+L'étiquette, de 76 × 44 mm, se colle au-dessus de la pochette. Elle porte « Ton dé à fabriquer » sur deux lignes alignées à droite, dans la police du titre du livre, une flèche en boucle qui descend vers la pochette, avec un contour et des hachures en diagonale, et l'objet du dos de la couverture. La version neutre des fichiers de fabrication laisse la place de l'objet libre.
+
+![Une étiquette « Ton dé à fabriquer », telle qu'elle est gravée](/img/ressources/projets-du-lab/lab-livre-laser/laser-etiquette-ton-de.png)
 
 ## Les étapes de montage
 
 1. Découper et graver la couverture, puis vérifier que la charnière se plie sans forcer.
 2. Coller le bouton sur le plat avant : poncer légèrement le dessous de la collerette au papier fin, mettre de la colle forte dessous, enfoncer le tenon dans le trou de 5,2 mm depuis la face gravée, et laisser sécher la couverture à plat.
-3. Couper le papier de couleur à 346 × 228 mm dans une feuille A3. L'encoller sur les deux plats, à 5 mm du bord du bois, en laissant la bande de la charnière sans colle. Refermer la couverture une fois avant que la colle prenne, pour que le papier se mette en place sur la pliure. Il recouvre aussi le bout du tenon du bouton.
-4. Percer le papier du plat arrière au niveau du trou de l'élastique, avec une pointe ou une perforatrice simple. Passer les deux bouts de l'élastique par le trou depuis la face gravée et faire un gros nœud côté intérieur ; si l'élastique est fin, faire un double nœud pour qu'il ne repasse pas par le trou.
-5. Poser deux feuilles d'adhésif double face sur la dernière page du livret, l'une au-dessus de l'autre, en largeur, puis recouper ce qui dépasse.
-6. Placer le livret sur le plat arrière, le pli à 2 mm des fentes et à 14 mm du bord en haut, en bas et côté bord libre, puis appuyer sur toute la page.
-7. Plier la pochette sur ses traits de rainage, mettre de la colle sur les trois rabats et la coller sur le plat avant, ouverture vers le haut.
-8. Ranger le dé à plat dans la pochette, refermer le livre et ajuster la longueur de l'élastique pour que la boucle se prenne autour du bouton sans trop tirer.
+3. Encoller la feuille de papier de couleur sur les deux plats, alignée sur le haut et le bas de la couverture et à 18 mm de chaque bord libre, en laissant la bande de la charnière sans colle. Refermer la couverture une fois avant que la colle prenne, pour que le papier se mette en place sur la pliure.
+4. Passer l'élastique par le trou du plat arrière, puis vérifier, livre fermé, que ses deux brins se prennent autour du bouton avec une légère tension.
+5. Imprimer, couper et agrafer le livret, puis poser deux feuilles d'adhésif double face sur sa dernière page, l'une au-dessus de l'autre, en largeur, et recouper ce qui dépasse.
+6. Placer le livret sur le plat arrière, son dos à 2 mm des fentes, à 14 mm du bord libre et 15 mm du haut et du bas, puis appuyer sur toute la page.
+7. Plier les trois rabats de la pochette vers l'arrière sur leurs traits de pliure, mettre de la colle sur les rabats seulement et la coller sur le plat avant, ouverture vers le haut.
+8. Coller l'étiquette au-dessus de la pochette, centrée sur elle, la flèche vers la pochette.
+9. Glisser le dé à plat dans la pochette et refermer le livre en passant l'élastique autour du bouton.
+
+## Doutes et changements de direction
+
+Le livre n'a pas été conçu d'un seul trait. Plusieurs choix ont été remis en cause en cours de fabrication, souvent après un essai, et la version décrite plus haut est le résultat de ces allers-retours. Les garder en mémoire évite de refaire les mêmes détours.
+
+La première version était prévue sur des planches de bois A4. La couverture mesurait alors 290 × 194 mm, et les pages, imprimées en A4 et coupées au massicot à 124 × 184 mm, devaient tenir dans une zone intérieure de 280 × 184 mm ; une première mise en page à 186 mm de haut a d'ailleurs dû être reprise de deux millimètres. Quand le LAB a pu se procurer du bois en A3, il a choisi une version sans massicot, aux pages A5 entières, et la version A4 a été gardée de côté.
+
+Sur la couverture, les premiers essais associaient gravure et ajourages, des découpes décoratives dans le plat avant. L'équipe les a finalement retirés pour ne garder que la gravure. Au dos, les premiers dessins, trop fins et trop complexes, passaient mal à la laser : ils ont été remplacés par des images au trait plus franc. Les premières gravures en deux nuances, noir et gris, ont aussi laissé la place à une seule teinte, plus simple à régler.
+
+La fixation du livret a beaucoup évolué. La maquette d'origine prévoyait des vis de relieur traversant la couverture et les pages ; le LAB a préféré coller le livret par sa dernière page sur le plat arrière, ce qui supprimait le perçage des pages. Restait à tenir les feuilles entre elles. Le cahier plié et agrafé au milieu était le plus rapide, mais l'essai sur le plus gros livret, de 22 feuilles, a montré un vrai décalage : les feuilles du milieu dépassaient nettement côté bord libre, et sans massicot ce décalage ne se rattrape pas. Un mécanisme de classeur à anneaux a été envisagé, mais il obligeait à recalculer le dos de la couverture et à percer toutes les pages, et l'agrafeuse a paru plus simple ; une couture au fil, plus belle, a été écartée faute de temps, et un dos collé a été préparé sans être retenu. Le choix final, des demi-feuilles agrafées sur le bord avec une marge élargie côté dos, garde des bords parfaitement alignés quelle que soit l'épaisseur du livret.
+
+La fermeture a connu le même tâtonnement. La couverture a d'abord eu deux trous pour l'élastique, puis un seul. Pour le bouton, un rivet pris entre une collerette et une rondelle a été proposé pour renforcer le collage, mais le LAB a préféré essayer d'abord un simple collage d'un seul côté, à la colle forte, qui a suffi. Le tenon a été retiré, puis remis à 2 mm, la longueur de l'épaisseur du bois, parce qu'il centre le bouton et l'empêche de glisser pendant que la colle prend. Le premier bouton s'imprimait mal, la collerette étant en surplomb à plat autour du cou ; l'évasement à 45° a réglé le problème. Côté élastique, un cordon rond de 2 mm noué à l'intérieur a d'abord été prévu, puis le LAB a retenu des élastiques à cheveux passés par le trou. Des anneaux de 5 cm de diamètre se sont révélés deux fois trop longs pour tenir le livre fermé : il faut des anneaux d'environ 6 cm de tour au repos, qui se tendent un peu autour du bouton.
+
+L'intérieur a changé une fois le papier de couleur acheté. Le papier devait d'abord être découpé au laser, avec 5 mm de bois nu tout autour et une encoche pour le trou de l'élastique. Le papier disponible mesurant 320 × 240 mm, il a semblé plus simple de ne pas le recouper : la couverture a été portée à 240 mm de haut pour que la feuille s'aligne sur le haut et le bas, et le trou de l'élastique est passé dans le bois nu.
+
+Le dé et sa pochette ont demandé le plus d'essais. La pochette prévue au départ, avec des rabats et du jeu autour d'un dé à faces de 29 mm, a été simplifiée en une pochette plate, puis réduite pour tenir sous l'étiquette. Le dé a suivi, avec des faces de 24 mm, mais une fois les pochettes collées, le dé glissait tout au fond et ne dépassait plus : on risquait de le perdre et on ne pouvait plus le sortir. Plutôt que de décoller les pochettes, le LAB a changé le patron du dé pour un patron étroit et haut, qui dépasse d'une vingtaine de millimètres.
+
+L'étiquette est passée par plusieurs versions avant d'être retenue : un texte seul sur une ou deux lignes, puis un dé dessiné en perspective, une flèche droite et une étiquette en forme de flèche, qui ne convenaient pas. La version finale reprend des éléments de la couverture, la police du titre et l'objet du dos réduit tel quel, avec une flèche en boucle hachurée. Un texte trop petit, puis un texte épaissi pour la gravure, se sont révélés moins lisibles qu'un texte plus grand dans sa graisse normale.
+
+Enfin, à l'impression, la couverture de deux livrets est sortie avec un cadre foncé sous le titre, invisible à l'écran : l'imprimante rendait mal les ombres et les voiles semi-transparents de la page. Seule la première feuille de ces livrets a été réimprimée, avec une couverture convertie en image, sans aucune transparence.
