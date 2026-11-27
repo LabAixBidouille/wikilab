@@ -29,7 +29,7 @@ En octobre 2026, j'ai animé l'atelier « La quête du curry » dans deux biblio
 
 Le livre associe une couverture en bois découpée et gravée au laser, qui s'ouvre grâce à une charnière faite de fentes, un livret A5 collé à l'intérieur, un dé en papier à monter rangé dans une pochette, et une fermeture par élastique et bouton imprimé en 3D. Si ce modèle a été pensé pour ces histoires, il convient à tout livret au format A5, qu'il s'agisse d'un recueil, d'un carnet de jeu ou d'un livre d'atelier.
 
-Pour le reproduire, il faut disposer d'une découpeuse laser au plateau A3, d'une imprimante 3D, d'une imprimante recto verso A4 et d'une agrafeuse grande capacité, ainsi que de contreplaqué de tilleul de 2 mm en feuilles A3, de papier Canson blanc et de papier Canson de couleur au format 24 × 32 cm. Les fichiers de fabrication contiennent un gabarit de couverture neutre, à compléter avec son propre titre et ses dessins, ainsi que le dé, la pochette, l'étiquette et le bouton.
+Pour le reproduire, il faut disposer d'une découpeuse laser dont le plateau fait au moins le format A3, d'une imprimante 3D, d'une imprimante recto verso A4 et d'une agrafeuse grande capacité, ainsi que de contreplaqué de tilleul de 2 mm en feuilles A3, de papier Canson blanc et de papier Canson de couleur au format 24 × 32 cm. Les fichiers de fabrication contiennent un gabarit de couverture neutre, à compléter avec son propre titre et ses dessins, ainsi que le dé, la pochette, l'étiquette et le bouton.
 
 <PdfLink href="/pdf/projets-du-lab/Livre_laser_Fichiers_fabrication.zip">Fichiers de fabrication (zip)</PdfLink>
 
