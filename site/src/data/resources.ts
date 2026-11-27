@@ -3043,7 +3043,7 @@ export const resources: Resource[] = [
   },
   {
     id: 'lab-livre-laser',
-    title: 'Fabriquer un livre dont on est le héros, à couverture découpée au laser',
+    title: 'Fabriquer un livre à couverture laser',
     slug: '/ressources/projets-du-lab/livre-couverture-laser',
     project: 'projets-du-lab',
     summary:

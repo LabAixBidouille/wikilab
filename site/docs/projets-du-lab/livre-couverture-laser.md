@@ -1,7 +1,7 @@
 ---
 id: livre-couverture-laser
-title: Fabriquer un livre dont on est le héros, à couverture découpée au laser
-sidebar_label: 'Fabriquer un livre dont on est le héros, à couverture découpée au laser'
+title: Fabriquer un livre à couverture laser
+sidebar_label: 'Fabriquer un livre à couverture laser'
 sidebar_position: 23
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 23
 
 <div style={{flex: 1}}>
 
-# Fabriquer un livre dont on est le héros, à couverture découpée au laser
+# Fabriquer un livre à couverture laser
 
 | Projet | Type | Difficulté |
 | --- | --- | --- |
