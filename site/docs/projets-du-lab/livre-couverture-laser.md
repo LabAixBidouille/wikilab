@@ -25,9 +25,9 @@ Projet proposé par Manon.
 
 ## Présentation
 
-Je vous explique ici comment je fabrique un livre à couverture en bois découpée et gravée au laser. Une charnière faite de fentes permet au bois de s'ouvrir comme un livre relié. Un livret A5 est collé à l'intérieur, une pochette garde un dé en papier à monter, et un élastique pris autour d'un bouton imprimé en 3D ferme le livre. Le modèle convient à tout livret A5 : un recueil, un carnet de jeu, un livre d'atelier.
+Ce livre a une couverture en bois découpée et gravée au laser, qu'une charnière faite de fentes permet d'ouvrir comme un livre relié. Un livret A5 est collé à l'intérieur, une pochette garde un dé en papier à monter, et un élastique pris autour d'un bouton imprimé en 3D ferme le livre. Le modèle convient à tout livret A5 : un recueil, un carnet de jeu, un livre d'atelier.
 
-J'ai mis ce livre au point en novembre 2026 pour offrir aux enfants de l'atelier « La quête du curry », aux bibliothèques des Méjanes d'Aix-en-Provence, le livre de l'histoire dont on est le héros qu'ils avaient inventée. J'en ai fabriqué quinze, un par enfant.
+Il a été mis au point en novembre 2026 pour offrir aux enfants de l'atelier « La quête du curry », aux bibliothèques des Méjanes d'Aix-en-Provence, le livre de l'histoire dont on est le héros qu'ils avaient inventée : quinze exemplaires, un par enfant.
 
 Pour le refaire, il faut :
 
@@ -55,7 +55,7 @@ Pour le refaire, il faut :
 
 ## La couverture
 
-Je pose la planche A3 dans la découpeuse, face gravée vers le haut, et je cale la couverture à 5 mm du coin. Le contour, les deux trous de fermeture et les fentes de la charnière sont découpés, le reste est gravé.
+La planche A3 se pose dans la découpeuse face gravée vers le haut, la couverture calée à 5 mm du coin. Le contour, les deux trous de fermeture et les fentes de la charnière sont découpés, le reste est gravé.
 
 ![La couverture A3 à plat, avec ses cotes](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-couverture-a3.svg)
 
@@ -65,7 +65,7 @@ Je pose la planche A3 dans la découpeuse, face gravée vers le haut, et je cale
 | Trait de 0,1 mm | bleu `#0000FF` | découpe des fentes de la charnière |
 | Aplat | noir `#000000` | gravure |
 
-Sur le plat avant, je grave le titre, la mention « Une histoire dont tu es le héros » et une scène de l'histoire. Sur le plat arrière, un objet de l'histoire, les prénoms des auteurs, un QR code vers la version en ligne et les logos. Tout ce qui est gravé est en aplat, jamais au trait, et en une seule teinte : la gravure est plus régulière et plus simple à régler.
+Le plat avant porte le titre, la mention « Une histoire dont tu es le héros » et une scène de l'histoire. Le plat arrière porte un objet de l'histoire, les prénoms des auteurs, un QR code vers la version en ligne et les logos. Tout ce qui est gravé est en aplat, jamais au trait, et en une seule teinte : la gravure est plus régulière et plus simple à régler.
 
 ![Une couverture à plat, plat arrière à gauche, charnière au milieu, plat avant à droite](/img/ressources/projets-du-lab/lab-livre-laser/photo-couverture-a-plat.jpg)
 
@@ -81,21 +81,21 @@ La charnière est une bande de 27 mm faite de 19 rangées de fentes de 35,4 mm, 
 
 :::info[Tester avant la série]
 
-Je découpe d'abord une pièce de test dans une chute du même bois, pour vérifier qu'elle se plie à 180° sans casser.
+Une pièce de test découpée dans une chute du même bois permet de vérifier que la charnière se plie à 180° sans casser.
 
 :::
 
 ## Le livret
 
-J'imprime en recto verso, retournement par le bord court, en taille réelle : si l'imprimante ajuste la page aux marges, plus rien ne tombe au bon endroit. Chaque feuille porte deux pages par face et une marque de coupe au milieu.
+L'impression se fait en recto verso, retournement par le bord court, en taille réelle : si l'imprimante ajuste la page aux marges, plus rien ne tombe au bon endroit. Chaque feuille porte deux pages par face et une marque de coupe au milieu.
 
-Je coupe la pile de chaque livre en deux d'un seul coup, à la marque, puis je pose la pile de gauche sur celle de droite : les pages se suivent. J'aligne le dos et j'agrafe trois fois à 6 mm du bord. Les pages gardent 19 mm de marge côté dos pour rester lisibles. Une bande du papier de couleur, pliée sur le dos, cache les agrafes. La dernière page reste blanche : c'est elle qui se colle dans la couverture.
+La pile de chaque livre se coupe en deux d'un seul coup, à la marque ; la pile de gauche posée sur celle de droite, les pages se suivent. Une fois le dos aligné, trois agrafes à 6 mm du bord tiennent le livret. Les pages gardent 19 mm de marge côté dos pour rester lisibles. Une bande du papier de couleur, pliée sur le dos, cache les agrafes. La dernière page reste blanche : c'est elle qui se colle dans la couverture.
 
 ![Un livret imprimé, coupé et agrafé sur le bord](/img/ressources/projets-du-lab/lab-livre-laser/photo-livret-agrafe.jpg)
 
 :::info[Vérifier l'ordre de sortie]
 
-Certaines imprimantes sortent les feuilles dans l'ordre inverse : avant de couper, je vérifie que la feuille de la couverture du livret est au-dessus. Pour plusieurs livres imprimés d'un seul fichier, je sépare la pile livre par livre avant de couper.
+Certaines imprimantes sortent les feuilles dans l'ordre inverse : avant de couper, il faut vérifier que la feuille de la couverture du livret est au-dessus, et séparer la pile livre par livre si plusieurs livres sortent d'un même fichier.
 
 :::
 
@@ -109,7 +109,7 @@ La feuille de papier de couleur couvre tout l'intérieur, charnière comprise. A
 
 :::info[Pas de colle sur la charnière]
 
-Je ne mets pas de colle sur la bande des fentes : le papier forme alors une petite boucle quand le livre se ferme. Collé sur les fentes, il bloquerait la charnière.
+Sans colle sur la bande des fentes, le papier forme une petite boucle quand le livre se ferme. Collé sur les fentes, il bloquerait la charnière.
 
 :::
 
@@ -125,11 +125,11 @@ Le bouton a une tête de 14 mm, un cou de 7 mm pour l'élastique, une collerette
 
 ## Le dé, sa pochette et son étiquette
 
-Le dé est découpé et gravé dans du Canson, et se donne à plat, à monter. J'ai choisi un patron en deux colonnes de trois faces décalées, de 62 × 131 mm avec des faces de 25 mm : il est assez étroit pour entrer dans la pochette et assez haut pour en dépasser d'environ 20 mm. Deux faces opposées font toujours 7, et chaque livre a ses motifs à la place des points.
+Le dé est découpé et gravé dans du Canson, et se donne à plat, à monter. Son patron, en deux colonnes de trois faces décalées, mesure 62 × 131 mm avec des faces de 25 mm : il est assez étroit pour entrer dans la pochette et assez haut pour en dépasser d'environ 20 mm. Deux faces opposées font toujours 7, et chaque livre a ses motifs à la place des points.
 
 ![Fichier laser du dé : découpe, pliures et gravure](/img/ressources/projets-du-lab/lab-livre-laser/laser-de.png)
 
-Dans LightBurn, j'ai regroupé les quinze dés sur trois feuilles A4, avec trois calques :
+Dans LightBurn, les quinze dés tiennent sur trois feuilles A4, avec trois calques :
 
 | Couleur | Calque | Opération |
 | --- | --- | --- |
@@ -161,15 +161,15 @@ L'étiquette de 76 × 44 mm se colle au-dessus. Elle porte « Ton dé à fabriqu
 
 ## Doutes et changements de direction
 
-Ce livre ne s'est pas fait d'un seul trait : voici les choix que j'ai remis en cause en cours de route.
+Plusieurs choix ont été remis en cause en cours de route.
 
-J'avais d'abord prévu une couverture sur bois A4, avec des pages coupées à 124 × 184 mm. Quand j'ai pu avoir du bois A3, j'ai opté pour des pages A5 entières, sans rogner les bords. Sur la couverture, j'ai retiré les ajourages des premiers essais pour ne garder que la gravure, remplacé au dos des dessins trop fins par des images au trait plus franc, et abandonné le gris pour une seule teinte.
+La première version était prévue sur bois A4, avec des pages coupées à 124 × 184 mm ; le passage au bois A3 a permis de garder des pages A5 entières. Sur la couverture, les ajourages des premiers essais ont disparu au profit de la seule gravure, les dessins du dos trop fins ont laissé place à des images au trait plus franc, et le gris à une seule teinte.
 
-Pour le livret, j'ai renoncé aux vis de relieur et je l'ai collé dans la couverture. Le cahier plié et agrafé au milieu se décalait trop sur le plus gros livret, de 22 feuilles. J'ai envisagé un mécanisme à anneaux, une couture et un dos collé, puis choisi l'agrafage sur le bord, plus rapide et aux bords bien alignés.
+Les vis de relieur prévues au départ ont été remplacées par le collage du livret. Le cahier plié et agrafé au milieu se décalait trop sur le plus gros livret, de 22 feuilles ; après avoir envisagé des anneaux, une couture et un dos collé, j'ai retenu l'agrafage sur le bord, rapide et aux bords bien alignés.
 
-Pour la fermeture, j'ai réduit les trous de deux à un, j'ai écarté un rivet à rondelle au profit d'un simple collage, et j'ai remis le tenon pour centrer le bouton. L'évasement à 45° a réglé un défaut d'impression. Des élastiques à cheveux de 5 cm de diamètre étaient trop grands : il en faut d'environ 6 cm de tour.
+La fermeture est passée de deux trous à un seul, un simple collage a remplacé le rivet à rondelle envisagé, et le tenon est revenu pour centrer le bouton. L'évasement à 45° a réglé un défaut d'impression. Des élastiques à cheveux de 5 cm de diamètre étaient trop grands : il en faut d'environ 6 cm de tour.
 
-J'ai gardé ma feuille de papier de couleur de 320 × 240 mm entière plutôt que de la recouper, ce qui a fixé la hauteur de la couverture à 240 mm. Le dé glissait au fond de la pochette déjà collée : j'ai changé son patron pour qu'il dépasse. L'étiquette est passée par plusieurs versions avant celle-ci. Enfin, deux couvertures de livret sont sorties de l'imprimante avec un cadre foncé, dû à des transparences : j'ai réimprimé leur première feuille avec une couverture convertie en image.
+Garder entière la feuille de papier de couleur de 320 × 240 mm a fixé la hauteur de la couverture à 240 mm. Le dé glissait au fond de la pochette déjà collée : son patron a changé pour qu'il dépasse. L'étiquette est passée par plusieurs versions avant celle-ci. Enfin, deux couvertures de livret sont sorties de l'imprimante avec un cadre foncé, dû à des transparences : leur première feuille a été réimprimée avec une couverture convertie en image.
 
 ## Ce qui reste à améliorer
 
