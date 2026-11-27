@@ -25,7 +25,7 @@ Projet proposé par Manon.
 
 ## Présentation
 
-En octobre 2026, l'atelier « La quête du curry », mené dans deux bibliothèques des Méjanes à Aix-en-Provence, a permis à des enfants de 8 à 12 ans d'inventer une histoire dont on est le héros, dont le chemin se décide au dé. Deux heures ne suffisant pas pour mener chaque histoire à son terme, il fallait trouver un moyen de rendre à chaque enfant une histoire complète, sous une forme dont il ou elle puisse être fier ou fière et avec laquelle jouer. C'est pourquoi ces histoires ont été mises en forme puis imprimées, et chacune a reçu un véritable livre : quinze exemplaires, un par enfant.
+En octobre 2026, j'ai animé l'atelier « La quête du curry » dans deux bibliothèques des Méjanes à Aix-en-Provence : des enfants de 8 à 12 ans y ont inventé une histoire dont on est le héros, dont le chemin se décide au dé. Deux heures ne suffisant pas pour mener chaque histoire à son terme, il fallait trouver un moyen de rendre à chaque enfant une histoire complète, sous une forme dont il ou elle puisse être fier ou fière et avec laquelle jouer. C'est pourquoi j'ai mis en forme et imprimé ces histoires, puis fabriqué pour chacune un véritable livre : quinze exemplaires, un par enfant.
 
 Le livre associe une couverture en bois découpée et gravée au laser, qui s'ouvre grâce à une charnière faite de fentes, un livret A5 collé à l'intérieur, un dé en papier à monter rangé dans une pochette, et une fermeture par élastique et bouton imprimé en 3D. Si ce modèle a été pensé pour ces histoires, il convient à tout livret au format A5, qu'il s'agisse d'un recueil, d'un carnet de jeu ou d'un livre d'atelier.
 
@@ -156,13 +156,13 @@ Au-dessus, une étiquette de 76 × 44 mm signale le dé à monter : elle reprend
 
 ## Doutes et changements de direction
 
-Ce livre est le résultat de nombreux essais, au fil desquels plusieurs choix ont été remis en cause ; les garder en mémoire peut éviter de refaire les mêmes détours.
+Ce livre est le résultat de nombreux essais, au fil desquels j'ai remis en cause plusieurs choix ; les garder en mémoire peut éviter de refaire les mêmes détours.
 
 Le format, d'abord, a changé en cours de route. La première version était prévue sur des planches de bois A4, ce qui obligeait à couper les pages à 124 × 184 mm pour qu'elles tiennent dans la couverture ; l'arrivée de planches A3 a permis de garder des pages A5 entières, sans rogner leurs bords. La couverture s'est elle aussi simplifiée : les ajourages des premiers essais ont été abandonnés au profit de la seule gravure, les dessins du dos trop fins et trop complexes pour la laser ont laissé place à des images au trait plus franc, et la gravure en deux teintes a cédé la place à une seule.
 
 La reliure a demandé le plus de réflexion. Les vis de relieur prévues au départ obligeaient à percer toutes les pages ; coller le livret par sa dernière page s'est révélé bien plus simple. Restait à tenir les feuilles entre elles : le cahier plié et agrafé au milieu, rapide à réaliser, se décalait nettement sur le plus gros livret, de 22 feuilles, les feuilles du milieu dépassant côté bord libre. Après avoir envisagé un mécanisme à anneaux, qui imposait de redessiner le dos, une couture, trop longue à réaliser, et un dos collé, j'ai retenu l'agrafage sur le bord, qui garde des bords alignés tout en restant rapide.
 
-La fermeture a connu le même tâtonnement : passage de deux trous à un seul, collage simple du bouton plutôt qu'un rivet à rondelle, retour du tenon pour le centrer, puis évasement à 45° pour résoudre un défaut d'impression. Les premiers élastiques à cheveux essayés, de 5 cm de diamètre, se sont révélés deux fois trop grands pour tenir le livre fermé.
+La fermeture a connu le même tâtonnement : passage de deux trous à un seul, collage simple du bouton plutôt qu'un rivet à rondelle, retour du tenon pour le centrer, puis évasement à 45° pour résoudre un défaut d'impression. Les premiers élastiques à cheveux que j'ai essayés, de 5 cm de diamètre, se sont révélés deux fois trop grands pour tenir le livre fermé.
 
 Enfin, plusieurs ajustements sont venus du montage lui-même. Le papier de couleur disponible mesurant 320 × 240 mm, le garder entier a fixé la hauteur de la couverture à 240 mm. Le dé, une fois les pochettes collées, glissait tout au fond et devenait introuvable, ce qui a conduit à redessiner son patron pour qu'il dépasse. Quant à deux couvertures de livret, elles sont sorties de l'imprimante avec un cadre foncé, dû à des effets de transparence que l'imprimante rendait mal, et leur première feuille a été réimprimée avec une couverture convertie en image.
 
