@@ -23,7 +23,7 @@ sidebar_position: 23
 
 ## Présentation
 
-Projet proposé par Manon.
+<p style={{fontStyle: 'italic', marginBottom: '0.3rem'}}>Projet proposé par Manon.</p>
 
 En octobre 2026, j'ai animé l'atelier « La quête du curry » dans deux bibliothèques des Méjanes à Aix-en-Provence : des enfants de 8 à 12 ans y ont inventé une histoire dont on est le héros, dont le chemin se décide au dé. Deux heures ne suffisant pas pour mener chaque histoire à son terme, il fallait trouver un moyen de rendre à chaque enfant une histoire complète, sous une forme dont il ou elle puisse être fier ou fière et avec laquelle jouer. C'est pourquoi j'ai mis en forme et imprimé ces histoires, puis fabriqué pour chacune un véritable livre : quinze exemplaires, un par enfant.
 
