@@ -48,6 +48,23 @@ Pour le reproduire, il faut disposer d'une découpeuse laser au plateau A3, d'un
 | Fermeture | 1 bouton imprimé en PLA, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour. |
 | Dé | 1 dé, 1 pochette et 1 étiquette, découpés au laser dans du Canson. |
 
+## Les textes et les images
+
+En deux heures d'atelier, les enfants avaient imaginé leurs personnages, leur intrigue et quelques embranchements, mais aucune histoire n'était achevée. Tout l'enjeu de la mise en forme était donc de compléter ces récits sans les trahir, afin que chaque livre reste celui de son auteur ou de son autrice tout en fonctionnant de bout en bout. C'est dans cet esprit que j'ai utilisé l'intelligence artificielle, comme un outil au service des idées des enfants et non à leur place.
+
+Pour les textes, chaque histoire est d'abord retranscrite fidèlement à partir des fiches de l'atelier (fiche personnage, fiche récit, fiches à embranchement et dessins), avant de repérer ce qui manque : situations absentes, chemins sans issue, incohérences. Les compléments sont tirés de la trame de l'enfant, et ce qui vient de lui, ce qui a été relié et ce qui a été ajouté reste clairement distingué. Une première version rédigée avec l'IA m'a ensuite servi de base, que j'ai réécrite moi-même pour lui donner le ton d'un véritable récit littéraire, au passé simple, sobre et onirique, en gardant des mots des enfants.
+
+Plusieurs règles ont guidé ces textes, afin que le principe de l'histoire dont on est le héros tienne réellement :
+
+- chaque chemin mène à une fin, ce que vérifie automatiquement l'arbre de l'histoire généré à partir du texte ;
+- chaque issue d'un lancer de dé a la même chance d'arriver (1 ou 2, 3 ou 4, 5 ou 6) ;
+- la consigne avant un lancer ne dévoile pas ce qui attend le lecteur, pour préserver le hasard ;
+- lorsqu'une histoire met en scène de vraies personnes, de vrais clubs ou un jeu existant, le livre précise qu'il s'agit d'une fan fiction librement inspirée de cet univers, ni approuvée ni soutenue par ses ayants droit.
+
+Pour les images, l'IA a permis d'obtenir des visuels correspondant aux descriptions des enfants et cohérents tout au long de la lecture, un même personnage gardant le même visage d'un chapitre à l'autre. J'ai traité chaque livre séparément, avec son propre style, ses couleurs et ses polices : produits en série, les premiers essais donnaient des livres trop semblables entre eux. Les dessins originaux des enfants ne disparaissent pas pour autant, puisqu'ils figurent, avec leurs fiches, sur la page « Comment est née cette histoire » de chaque livre. Les scènes gravées sur les couvertures sont, elles, des dessins au trait générés puis vectorisés en aplats pour la laser.
+
+Enfin, chaque livre dit comment il a été fait : la page « Comment est née cette histoire » explique la démarche, mentionne l'usage de l'intelligence artificielle et rappelle qu'à l'origine de chaque livre il y a avant tout les idées, les personnages et les dessins des enfants. Les livres sont aussi consultables en ligne, sur des sites non référencés, avec l'accord des familles recueilli à l'inscription.
+
 ## La couverture
 
 La couverture est l'élément qui fait de chaque livret un objet à part entière : découpée d'une seule pièce dans une planche de bois A3, elle porte à la fois l'identité du livre, grâce à la gravure, et sa structure, grâce à la charnière qui permet de l'ouvrir. La planche se pose dans la découpeuse face gravée vers le haut, la couverture calée à 5 mm du coin, afin que le contour, les deux trous de fermeture et les fentes de la charnière soient découpés en même temps que le reste est gravé.
