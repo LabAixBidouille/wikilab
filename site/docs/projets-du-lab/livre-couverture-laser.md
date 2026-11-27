@@ -48,6 +48,27 @@ Pour le reproduire, il faut disposer d'une découpeuse laser dont le plateau fai
 | Fermeture | 1 bouton imprimé en PETG, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour. |
 | Dé | 1 dé, 1 pochette et 1 étiquette, découpés au laser dans du Canson. |
 
+## Ce qu'avaient fait les enfants
+
+Chaque livre part du travail réalisé par les enfants pendant l'atelier, dont le déroulé est décrit dans la fiche [Programmer une histoire dont vous êtes le héros](/ressources/robots-meet-arts/quete-curry). En deux heures, ils ont rempli trois fiches qui constituent la matière première du livre : une fiche personnage, pour imaginer le héros, ses forces et ses faiblesses ; une fiche récit « Il était une fois », qui pose le conflit, le départ, l'aventure, la solution et la fin, accompagnée de pages pour dessiner les scènes ; et des fiches situation, sur lesquelles chaque étape du récit se termine par un choix tiré au dé, renvoyant vers une autre situation.
+
+<PdfLink href="/pdf/projets-du-lab/Quete_curry_Fiches_atelier.pdf">Fiches de l'atelier à imprimer (PDF)</PdfLink>
+
+<div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'flex-start', marginBottom: '1.5rem'}}>
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-vierge-personnage.jpg" alt="Fiche personnage vierge" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-vierge-recit.jpg" alt="Fiche récit « Il était une fois » vierge" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-vierge-situation.jpg" alt="Fiche situation vierge" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+</div>
+
+Remplies par Agathe, Aliya et Teresa pour « Les trois sœurs », ces fiches montrent ce dont on dispose réellement à la fin de l'atelier : des personnages bien campés, une trame complète et des embranchements esquissés, que la mise en forme doit ensuite relier et compléter.
+
+<div style={{display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'flex-start', marginBottom: '1.5rem'}}>
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-enfants-personnage.jpg" alt="La fiche personnage de Rose, remplie par les enfants" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-enfants-recit.jpg" alt="La fiche récit des trois sœurs, remplie par les enfants" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+  <img src="/img/ressources/projets-du-lab/lab-livre-laser/fiche-enfants-situation.jpg" alt="Une fiche situation remplie, avec ses choix au dé" style={{maxWidth: 'calc(33% - 1rem)', height: 'auto'}} />
+</div>
+
+
 ## Les textes et les images
 
 En deux heures d'atelier, les enfants avaient imaginé leurs personnages, leur intrigue et quelques embranchements, mais aucune histoire n'était achevée. Tout l'enjeu de la mise en forme était donc de compléter ces récits sans les trahir, afin que chaque livre reste celui de son auteur ou de son autrice tout en fonctionnant de bout en bout. C'est dans cet esprit que j'ai utilisé l'intelligence artificielle, comme un outil au service des idées des enfants et non à leur place.

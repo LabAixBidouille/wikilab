@@ -3047,7 +3047,7 @@ export const resources: Resource[] = [
     slug: '/ressources/projets-du-lab/livre-couverture-laser',
     project: 'projets-du-lab',
     summary:
-      "Livre à embranchements de l'atelier « La quête du curry » : couverture en bois découpée et gravée au laser avec charnière à fentes, livret plié, dé en papier et fermeture à bouton imprimé en 3D.",
+      "Livre à embranchements de l'atelier « La quête du curry » : couverture en bois découpée et gravée au laser avec charnière à fentes, livret agrafé, dé en papier et fermeture à bouton imprimé en 3D.",
     disciplines: ['francais', 'arts'],
     tools: ['decoupe-laser', 'impression-3d'],
     software: ['inkscape'],
