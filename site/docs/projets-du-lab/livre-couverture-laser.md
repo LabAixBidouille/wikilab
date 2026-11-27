@@ -45,7 +45,7 @@ Pour le reproduire, il faut disposer d'une découpeuse laser dont le plateau fai
 | Papier de couleur | 1 feuille de papier Canson de couleur de 24 × 32 cm, utilisée sans découpe. |
 | Livret | De 11 à 22 feuilles A4 en recto verso, coupées en deux et agrafées sur le bord. |
 | Collage | Colle en aérosol pour le papier de couleur, adhésif double face pour le livret, roller de colle (Cléopâtre) pour la pochette et l'étiquette. |
-| Fermeture | 1 bouton imprimé en PLA, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour. |
+| Fermeture | 1 bouton imprimé en PETG, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour. |
 | Dé | 1 dé, 1 pochette et 1 étiquette, découpés au laser dans du Canson. |
 
 ## Les textes et les images
