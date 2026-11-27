@@ -39,7 +39,11 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 
 // Références cassées connues et tracées ailleurs, tolérées pour ne pas
 // bloquer la CI. Retirer une entrée dès que l'issue liée est résolue.
-const KNOWN_MISSING = new Set([]);
+// Vignettes des trois fiches Projets du LAB ajoutées par #309, en attente (suivi dans #309).
+const KNOWN_MISSING = new Set([
+  '/img/ressources/projets-du-lab/lab-mini-jeux-pensee-computationnelle/icone.png',
+  '/img/ressources/projets-du-lab/lab-cartes-storytelling/icone.png',
+]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;
 // Capture le contenu COMPLET entre délimiteurs (tolère parenthèses, espaces,
