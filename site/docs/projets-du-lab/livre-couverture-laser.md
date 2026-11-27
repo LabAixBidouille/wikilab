@@ -15,19 +15,26 @@ sidebar_position: 23
 | --- | --- | --- |
 | Projets du LAB | Projet maker | Intermédiaire |
 
-## Présentation
-
-En octobre 2026, le LAB a animé l'atelier « La quête du curry », annoncé au public sous le titre « Le livre dont tu es le héros », dans deux bibliothèques du réseau des Méjanes à Aix-en-Provence : les Deux Ormes le 27 octobre et Li Campaneto le 28 octobre. Des enfants de 8 à 12 ans y ont inventé une histoire à embranchements, dont le chemin se décide au dé, en écrivant leurs propres règles « si... alors... ».
-
-Deux heures ne suffisaient pas pour mener chaque histoire à son terme. Pour que chaque enfant reparte avec un livre complet, dont il ou elle puisse être fier ou fière et avec lequel jouer, le LAB a mis en forme les huit histoires et fabriqué quinze livres, un par enfant. Chaque livre a une couverture en bois découpée et gravée au laser, un livret imprimé, un dé à monter et une fermeture à élastique. Cette page décrit la fabrication telle qu'elle a été menée, dans la version A3 qui se monte sans massicot, ainsi que les doutes et les changements de direction qui ont jalonné le projet.
-
-<PdfLink href="/pdf/projets-du-lab/Livre_laser_Fichiers_fabrication.zip">Fichiers de fabrication (zip)</PdfLink>
-
 </div>
 
 <img src="/img/ressources/projets-du-lab/lab-livre-laser/icone.png" alt="Livre à couverture découpée au laser" style={{width: '225px', height: '225px', objectFit: 'contain', flexShrink: 0}} />
 
 </div>
+
+## Présentation
+
+Cette fiche explique comment fabriquer un livre dont la couverture est en bois découpé et gravé au laser : une charnière faite de fentes permet au bois de s'ouvrir comme un livre relié, un livret A5 imprimé est collé à l'intérieur, une pochette garde un dé en papier à monter, et le livre se ferme par un élastique pris autour d'un bouton imprimé en 3D. Le modèle convient à n'importe quel livret au format A5 : un recueil, un carnet de jeu, un livre d'atelier.
+
+Le LAB l'a mis au point en novembre 2026 pour offrir aux enfants de l'atelier « La quête du curry », mené dans deux bibliothèques des Méjanes à Aix-en-Provence, le livre de l'histoire dont on est le héros qu'ils avaient inventée. Quinze livres ont été fabriqués, un par enfant, chacun avec sa couverture gravée.
+
+Pour le refaire, il faut :
+
+- une découpeuse laser au plateau A3 et des planches de bois de 2 mm ;
+- une imprimante 3D pour les boutons, une imprimante recto verso A4 pour les livrets et une agrafeuse grande capacité ;
+- du papier Canson pour les dés, les pochettes et les étiquettes, et du papier de couleur pour l'intérieur ;
+- les fichiers de fabrication ci-dessous : un gabarit de couverture neutre, auquel ajouter son titre et ses dessins, le dé, la pochette, l'étiquette et le bouton.
+
+<PdfLink href="/pdf/projets-du-lab/Livre_laser_Fichiers_fabrication.zip">Fichiers de fabrication (zip)</PdfLink>
 
 ---
 
