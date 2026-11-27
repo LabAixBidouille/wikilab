@@ -43,7 +43,6 @@ const SCAN_DIRS = [join(REPO_ROOT, 'site', 'src'), join(REPO_ROOT, 'site', 'docs
 const KNOWN_MISSING = new Set([
   '/img/ressources/projets-du-lab/lab-mini-jeux-pensee-computationnelle/icone.png',
   '/img/ressources/projets-du-lab/lab-cartes-storytelling/icone.png',
-  '/img/ressources/projets-du-lab/lab-livre-laser/icone.png',
 ]);
 
 const IMG_EXT = String.raw`\.(?:png|jpe?g|svg|webp|gif|avif)`;

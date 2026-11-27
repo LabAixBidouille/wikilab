@@ -35,6 +35,8 @@ Deux heures ne suffisaient pas pour mener chaque histoire à son terme. Pour que
 
 Le livret est imprimé sur des feuilles A4 coupées en deux, sans massicot : chaque page fait 148,5 × 210 mm. La couverture est découpée dans une planche de bois A3, et une charnière faite de fentes lui permet de s'ouvrir comme un livre relié. À l'intérieur, une feuille de papier de couleur couvre les deux plats. Le livret est collé par sa dernière page sur le plat arrière, une pochette garde le dé à plat sur le plat avant, sous une étiquette qui l'annonce, et le livre se ferme par un élastique pris autour d'un bouton imprimé en 3D.
 
+![Une partie des quinze livres, plats avant gravés](/img/ressources/projets-du-lab/lab-livre-laser/photo-serie-de-livres.jpg)
+
 | Élément | Matériel par livre |
 | --- | --- |
 | Couverture | 1 planche de bois A3 de 2 mm, découpée et gravée au laser. La pièce fait 356 × 240 mm. |
@@ -60,6 +62,10 @@ Les codes du fichier sont les suivants :
 
 Chaque couverture est propre à son livre. Le plat avant porte le titre, dans la police du livre, la mention « Une histoire dont tu es le héros » et une scène de l'histoire dessinée au trait. Le plat arrière porte un objet de l'histoire, la mention « Une histoire écrite et illustrée par » suivie des prénoms, un QR code vers la version en ligne du livre, et les logos des Méjanes et du LAB.
 
+![Une couverture à plat après la découpe et la gravure, plat arrière à gauche, charnière au milieu, plat avant à droite](/img/ressources/projets-du-lab/lab-livre-laser/photo-couverture-a-plat.jpg)
+
+![Le plat arrière d'un livre fermé : objet de l'histoire, prénoms, QR code et logos](/img/ressources/projets-du-lab/lab-livre-laser/photo-plat-arriere.jpg)
+
 Pour que la gravure soit régulière et simple à régler, tout ce qui est gravé est une surface remplie, jamais un trait, en une seule teinte. Le fichier ne contient ni texte ni image : les textes sont convertis en tracés et les dessins sont vectorisés en aplats.
 
 Le gabarit neutre fourni dans les fichiers de fabrication ne garde que le contour, les deux trous et la charnière : il suffit d'y ajouter son propre titre et ses dessins, en noir et en aplats.
@@ -84,6 +90,8 @@ On garde la pile de chaque livre dans l'ordre d'impression, la première feuille
 
 Les pages suivent toujours le même ordre : la couverture, le résumé, l'histoire, l'arbre de l'histoire, la page « Comment est née cette histoire » avec les fiches de l'atelier, puis la page qui invite à lire l'histoire en ligne. La dernière page reste blanche : c'est elle qui se colle sur la couverture.
 
+![Un livret imprimé, coupé et agrafé sur le bord](/img/ressources/projets-du-lab/lab-livre-laser/photo-livret-agrafe.jpg)
+
 :::info[Vérifier l'ordre de sortie]
 
 Certaines imprimantes sortent les feuilles dans l'ordre inverse. Avant de couper, vérifier que la première feuille, celle qui porte la couverture du livret, est bien au-dessus de la pile. Pour une série de livres imprimés d'un seul fichier, séparer la pile livre par livre avant de couper, sinon les livres se mélangent.
@@ -96,6 +104,8 @@ Couverture retournée, face gravée contre la table, le plat arrière se trouve 
 
 ![La face intérieure : papier de couleur, livret, pochette du dé et étiquette](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-interieur-a3.svg)
 
+![L'intérieur d'un livre monté, avec un papier noir : étiquette, pochette avec le dé qui dépasse, livret calé à droite](/img/ressources/projets-du-lab/lab-livre-laser/photo-interieur.jpg)
+
 :::info[Pas de colle sur la charnière]
 
 Le papier passe sur la charnière. Quand le livre se ferme, il se plisse un peu à cet endroit au lieu de se déchirer, à condition de ne pas mettre de colle sur la bande des fentes : il peut alors former une petite boucle. Collé sur les fentes, il bloquerait la charnière.
@@ -105,6 +115,8 @@ Le papier passe sur la charnière. Quand le livre se ferme, il se plisse un peu 
 ## Le bouton et l'élastique
 
 Les deux trous de fermeture sont à mi-hauteur de la couverture et à 8,5 mm du bord libre de chaque plat, dans la bande de bois nu : une fois le livre fermé, ils se trouvent exactement l'un en face de l'autre. Le trou de 3 mm du plat arrière reçoit l'élastique, un élastique à cheveux en TPU qu'on fait passer par le trou et dont les deux brins viennent se prendre ensemble autour du bouton. Le trou de 5,2 mm du plat avant reçoit le tenon du bouton, qui le centre et le cale pendant que la colle prend.
+
+![Un livre fermé : l'élastique, passé par le trou du plat arrière, tient le bouton du plat avant](/img/ressources/projets-du-lab/lab-livre-laser/photo-livre-ferme.jpg)
 
 ![Coupe du bouton posé sur le bois, à l'échelle](/img/ressources/projets-du-lab/lab-livre-laser/schema-livre-bouton.svg)
 
@@ -135,6 +147,8 @@ La pochette, découpée dans le même papier, est plate : une face de 95 × 110 
 ![Fichier laser de la pochette du dé : découpe en rouge, pliures en vert](/img/ressources/projets-du-lab/lab-livre-laser/laser-pochette-de.png)
 
 L'étiquette, de 76 × 44 mm, se colle au-dessus de la pochette. Elle porte « Ton dé à fabriquer » sur deux lignes alignées à droite, dans la police du titre du livre, une flèche en boucle qui descend vers la pochette, avec un contour et des hachures en diagonale, et l'objet du dos de la couverture. La version neutre des fichiers de fabrication laisse la place de l'objet libre.
+
+![Dés et étiquettes en Canson à la sortie de la découpe](/img/ressources/projets-du-lab/lab-livre-laser/photo-des-et-etiquettes.jpg)
 
 ![Une étiquette « Ton dé à fabriquer », telle qu'elle est gravée](/img/ressources/projets-du-lab/lab-livre-laser/laser-etiquette-ton-de.png)
 
