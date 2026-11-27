@@ -50,7 +50,7 @@ Pour le reproduire, il faut disposer d'une découpeuse laser dont le plateau fai
 
 ## Ce qu'avaient fait les enfants
 
-Chaque livre part du travail réalisé par les enfants pendant l'atelier, dont le déroulé est décrit dans la fiche [Programmer une histoire dont vous êtes le héros](/ressources/robots-meet-arts/quete-curry). En deux heures, ils ont rempli trois sortes de fiches qui constituent la matière première du livre : des fiches personnage, une par personnage important, pour imaginer le héros et ceux qui l'entourent, leurs forces et leurs faiblesses ; une fiche récit « Il était une fois », qui pose le conflit, le départ, l'aventure, la solution et la fin, accompagnée de pages pour dessiner les scènes ; et des fiches situation, sur lesquelles chaque étape du récit se termine par un choix tiré au dé, renvoyant vers une autre situation.
+Chaque livre part du travail réalisé par les enfants pendant l'atelier, dont le déroulé est décrit dans la fiche [Programmer une histoire dont vous êtes le héros](/ressources/robots-meet-arts/quete-curry). En deux heures, ils ont rempli plusieurs sortes de fiches qui constituent la matière première du livre : des fiches personnage, une par personnage important, pour imaginer le héros et ceux qui l'entourent, leurs forces et leurs faiblesses ; une fiche récit « Il était une fois », qui pose le conflit, le départ, l'aventure, la solution et la fin ; des pages d'illustration, pour dessiner les scènes de l'histoire lorsqu'il leur restait du temps ; et des fiches situation, sur lesquelles chaque étape du récit se termine par un choix tiré au dé, renvoyant vers une autre situation.
 
 <PdfLink href="/pdf/projets-du-lab/Quete_curry_Fiches_atelier.pdf">Fiches de l'atelier à imprimer (PDF)</PdfLink>
 
