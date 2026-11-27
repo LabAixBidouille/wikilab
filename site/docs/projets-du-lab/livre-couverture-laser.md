@@ -86,6 +86,8 @@ Les images ont demandé un travail bien plus long qu'on ne pourrait le croire. P
 
 Enfin, chaque livre dit comment il a été fait : la page « Comment est née cette histoire » explique la démarche, mentionne l'usage de l'intelligence artificielle et rappelle qu'à l'origine de chaque livre il y a avant tout les idées, les personnages et les dessins des enfants. Les livres sont aussi consultables en ligne, sur des sites non référencés, avec l'accord des familles recueilli à l'inscription.
 
+Les huit histoires peuvent être lues et jouées en ligne, avec un dé interactif, depuis la page qui les rassemble : [La quête du curry, les livres des enfants](https://labaixbidouille.github.io/la-quete-du-curry/).
+
 ## La couverture
 
 La couverture est l'élément qui a fait de chaque livret un objet à part entière : découpée d'une seule pièce dans une planche de bois A3, elle portait à la fois l'identité du livre, grâce à la gravure, et sa structure, grâce à la charnière qui permettait de l'ouvrir. J'ai posé chaque planche dans la découpeuse face gravée vers le haut, la couverture calée à 5 mm du coin, afin que le contour, les deux trous de fermeture et les fentes de la charnière soient découpés en même temps que le reste était gravé.
