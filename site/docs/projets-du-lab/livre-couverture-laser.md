@@ -29,7 +29,7 @@ En octobre 2026, j'ai animé l'atelier « La quête du curry » dans deux biblio
 
 Le livre associe une couverture en bois découpée et gravée au laser, qui s'ouvre grâce à une charnière faite de fentes, un livret A5 collé à l'intérieur, un dé en papier à monter rangé dans une pochette, et une fermeture par élastique et bouton imprimé en 3D. Si ce modèle a été pensé pour ces histoires, il convient à tout livret au format A5, qu'il s'agisse d'un recueil, d'un carnet de jeu ou d'un livre d'atelier.
 
-Pour le reproduire, il faut disposer d'une découpeuse laser au plateau A3, d'une imprimante 3D, d'une imprimante recto verso A4 et d'une agrafeuse grande capacité, ainsi que de planches de bois de 2 mm, de papier Canson et de papier de couleur. Les fichiers de fabrication contiennent un gabarit de couverture neutre, à compléter avec son propre titre et ses dessins, ainsi que le dé, la pochette, l'étiquette et le bouton.
+Pour le reproduire, il faut disposer d'une découpeuse laser au plateau A3, d'une imprimante 3D, d'une imprimante recto verso A4 et d'une agrafeuse grande capacité, ainsi que de contreplaqué de tilleul de 2 mm en feuilles A3, de papier Canson blanc et de papier Canson de couleur au format 24 × 32 cm. Les fichiers de fabrication contiennent un gabarit de couverture neutre, à compléter avec son propre titre et ses dessins, ainsi que le dé, la pochette, l'étiquette et le bouton.
 
 <PdfLink href="/pdf/projets-du-lab/Livre_laser_Fichiers_fabrication.zip">Fichiers de fabrication (zip)</PdfLink>
 
@@ -41,8 +41,8 @@ Pour le reproduire, il faut disposer d'une découpeuse laser au plateau A3, d'un
 
 | Élément | Matériel par livre |
 | --- | --- |
-| Couverture | 1 planche de bois A3 de 2 mm. La pièce fait 356 × 240 mm. |
-| Papier de couleur | 1 feuille de 320 × 240 mm, utilisée sans découpe. |
+| Couverture | 1 feuille de contreplaqué de tilleul de 2 mm, au format A3 (42 × 30 cm). J'ai utilisé un lot de 10 feuilles « ddckj », acheté sur Amazon. La pièce découpée fait 356 × 240 mm. |
+| Papier de couleur | 1 feuille de papier Canson de couleur de 24 × 32 cm, utilisée sans découpe. |
 | Livret | De 11 à 22 feuilles A4 en recto verso, coupées en deux et agrafées sur le bord. |
 | Collage | Colle en aérosol pour le papier de couleur, adhésif double face pour le livret, roller de colle (Cléopâtre) pour la pochette et l'étiquette. |
 | Fermeture | 1 bouton imprimé en PLA, de la colle forte et 1 élastique à cheveux en TPU d'environ 6 cm de tour. |
